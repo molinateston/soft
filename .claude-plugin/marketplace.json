@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "soft-business",
+  "owner": { "name": "Léo Molina" },
+  "metadata": {
+    "description": "Método Soft Business — plugin de skills do Sócio IA (entrega ao cliente)."
+  },
+  "plugins": [
+    {
+      "name": "soft",
+      "source": "./",
+      "description": "Sistema Soft Business. Instala as skills do método de uma vez e atualiza sozinho a cada release.",
+      "strict": false,
+      "skills": [
+        "./soft-treino"
+      ]
+    }
+  ]
+}
