@@ -11,7 +11,7 @@
     {
       "name": "soft",
       "source": "./",
-      "description": "Sistema Soft Business. Instala as skills do método de uma vez e atualiza sozinho a cada release. [TESTE DE ATUALIZACAO OK ✅]",
+      "description": "Sistema Soft Business. Instala as skills do método de uma vez e atualiza sozinho a cada release.",
       "strict": false,
       "skills": [
         "./soft-treino"
