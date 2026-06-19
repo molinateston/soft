@@ -80,6 +80,8 @@ Além disso, toda peça atravessa, sem exceção, os filtros universais da **`sh
 
 Detectou falha, reescreve o ponto. Só o resultado limpo vai pro usuário.
 
+**O gate de força (obrigatório, depois dos filtros).** Limpo não é forte. Depois do anti-IA, a peça passa pelo **Crivo da Copy** (skill `soft-crivo-copy`): puxa o verbatim da entrada (a primeira linha nasce de fala real do cliente, do VoC, não de rótulo), lê a peça na pele do avatar (a fita de reação, onde ele larga e onde se reconhece), e preenche o gate CUB bloqueante (Confuso, Inacreditável, Boring, mais as 3 perguntas do Harry por headline). Imprime a tabela do gate junto com a peça. Peça que falha no gate não é mostrada, é consertada e re-rodada. Anti-IA tira o robô, o Crivo dá a força. Os dois, nessa ordem.
+
 ## Regras de entrega
 - **Filtra, não convence.** A peça não fecha venda, instala a crença e qualifica. A venda acontece depois, na Carta e no WhatsApp. Audiência desqualificada não é cliente: alcance grande de estranho é vaidade, não funil.
 - **Função, não execução.** Mostra resultado e a função do método; nunca o passo a passo executável. O leitor sai sabendo que existe um caminho e que você o domina, não sabendo andar nele sozinho.
