@@ -5,15 +5,22 @@
     "name": "Léo Molina"
   },
   "metadata": {
-    "description": "Método Soft Business — plugin de skills do Sócio IA (entrega ao cliente)."
+    "description": "Método Soft Business — o Sócio IA (LEON) e as skills que montam o negócio do especialista, do zero ao rodando."
   },
   "plugins": [
     {
       "name": "soft",
       "source": "./",
-      "description": "Sistema Soft Business. Instala as skills do método de uma vez e atualiza sozinho a cada release.",
+      "description": "Sistema Soft Business completo: LEON conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
       "strict": false,
       "skills": [
+        "./soft-leon",
+        "./soft-posicionamento",
+        "./soft-conteudo",
+        "./soft-funil",
+        "./soft-vendas",
+        "./soft-webinario",
+        "./soft-lancamento-pago",
         "./soft-treino"
       ]
     }
