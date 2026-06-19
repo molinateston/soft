@@ -5,7 +5,7 @@ Plugin com as habilidades do método **Soft Business**: o Sócio IA **LEON** + p
 ## Instalar no Claude Chat (claude.ai)
 Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marketplace** → *Adicionar de um repositório* → digite `molinateston/soft` → **Sincronizar** → instale o plugin **Soft Skills** → ligue **Sincronizar automaticamente**.
 
-📖 Guia ilustrado passo a passo: https://soft-skills-guia.pages.dev
+📖 Guia ilustrado passo a passo: https://leonardomolina.com.br/softskills
 
 ## Instalar no Claude Code
 ```
