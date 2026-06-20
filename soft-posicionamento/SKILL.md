@@ -9,8 +9,8 @@ O entregável-mãe é **um documento só, o Plano de Posicionamento Incomum comp
 
 **Parte A · Posicionamento**
 - **Racional (seção 0):** território · o que vende de verdade · contra qual cultura luta · a tensão dor→desejo · o sentimento. Abre o plano e decide tudo.
-- **Bloco 1 · Narrativa:** Cliente Ideal (persona-âncora com nome, o avatar do usuário) · Problema Geral · Problema Avançado (o EXCESSO, o que ele já tentou e complicou) · Promessa · Projeção de Resultado.
-- **Bloco 2 · Mecanismo:** método **nomeado** + mecanismo central concreto (filtro, não volume) + 3 passos (cada um quebra uma objeção e tira uma dor).
+- **Bloco 1 · Narrativa:** Cliente Ideal (persona-âncora com nome, o avatar do usuário — o verdadeiro especialista, do zero ao avançado) · Problema Geral · Problema Avançado (a imprevisibilidade + a invisibilidade, gerada pela complexidade + improviso que ele já tentou) · Promessa · Projeção de Resultado.
+- **Bloco 2 · Mecanismo:** método **nomeado** (a versão do usuário da Reorganização da Percepção) + mecanismo central concreto + 3 passos (cada um quebra uma objeção e tira uma dor).
 - **Bloco 3 · Oferta:** PUV (proposta única de valor) · Equação de Valor (4 fatores) · cada entregável detalhado · entregável-tese · Mapa de Valor (âncora) · ancoragem · níveis de acesso (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada · custo invisível · garantia · o racional de cada escolha.
 - **Saída 1 · Perfil Enxuto:** @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
 - **Saída 2 · Fundação de Headlines:** o NMO destilado em frases-fonte que alimenta `soft-conteudo`.
@@ -40,18 +40,18 @@ Sem o Plano de pé, toda peça é ruído. Esta skill constrói o **Plano de Posi
 
 ## O que esta skill protege: o FRAMEWORK e os princípios (o eixo é de CADA usuário)
 Esta é a maestro do posicionamento: todo Plano que sai daqui segue o framework e os princípios do método, e CONDUZ o usuário a cravar o eixo DELE. O eixo não é embutido nem herdado de ninguém, é construído com o usuário. Os princípios que valem pra todo Plano:
-- **Território do método:** alto resultado com baixa complexidade, o oposto da cultura do "adicione mais".
-- **Mecanismo NOMEADO.** O método do usuário ganha um nome próprio (um artefato batizado), não uma ideia genérica. É o que separa posição de promessa.
-- **Jogo de FILTRO, não de volume (high-ticket).** Poucas vendas certas (oferta 3k+, dezenas no mês, não massa). A máquina de complexidade vem do jogo de volume, errado aqui.
-- **Problema Avançado: o avatar JÁ TENTOU e complicou.** Não é iniciante invisível, é alguém que comprou soluções pra escalar e cada uma virou peça que ele carrega. O inimigo é o EXCESSO, não a tática.
-- **Tensão-mestre própria.** Cada usuário crava a virada que o método DELE promete (de um estado preso pra um estado livre), com o avatar e a dor dele. Nunca uma frase herdada de outro.
-- **Método = 3 passos + 1 motor:** Passo 1 Posicionamento · Passo 2 Conteúdo Mínimo Viável · Passo 3 Funil Minimalista · Motor Sócio IA (o LEON). Esta skill entrega o Passo 1, a fundação.
-- **Onde o Plano vive depois:** ecossistema de 3 funis em escada por maturidade, todos high-ticket 3k+ e **todos + Comercial 1:1**: Funil Soft (carta/vídeo) → Webinário Soft → Soft Launch. A esteira de ofertas do usuário sobe em alturas, não em esteiras separadas.
+- **Território do método:** alto resultado com baixa complexidade, o oposto da cultura do "adicione mais" (postar todo dia, lançar, prospectar, fazer tudo de uma vez).
+- **Mecanismo NOMEADO.** O método do usuário ganha um nome próprio (um artefato batizado), não uma ideia genérica. É o que separa posição de promessa. A matriz do método é a **Reorganização da Percepção (RP)**: conduzir a pessoa por **Atenção → Diagnóstico → Mecanismo → Ação** (ADMA) até a decisão. "Vender não é convencer, é conduzir." O mecanismo nomeado do usuário é a SUA versão dessa virada de percepção, com o fenômeno técnico do nicho dele dentro.
+- **Avatar: o verdadeiro especialista, do zero ao avançado.** Quem tem método próprio e gera resultado real (vende de R$500 a R$50.000): profissional liberal, mentor, consultor, prestador, terapeuta. Serve DOIS sem um anular o outro: o iniciante COM habilidade e o avançado cansado. Não é quem quer "viver de marketing digital / renda extra".
+- **Problema Avançado: a imprevisibilidade + a invisibilidade.** O avatar não sabe quanto vai faturar mês que vem, e vê gente pior vendendo mais só porque está sendo vista enquanto ele, que tem o método, segue invisível. O inimigo é a **complexidade + improviso** (cada solução que ele comprou pra escalar adicionou trabalho, nenhuma tirou), não a tática isolada.
+- **Tensão-mestre própria.** Cada usuário crava a virada que o método DELE promete — de invisível/imprevisível a **procurado pelo nome, pago como merece, no silêncio** — com o avatar e a dor dele. Nunca uma frase herdada de outro.
+- **Veículo da escada:** o **webinário perpétuo, "o melhor funil do mundo"** (aula gravada uma vez, vende todo dia 24/7, pra público frio, sem aparecer). Ele é nomeado com orgulho, sem anti-tell. O Plano alimenta a escada de funis; o webinário perpétuo é o degrau onde a RP roda num lugar só.
+- **Onde o Plano vive depois:** ecossistema de funis em escada por maturidade, **+ Comercial 1:1** acima de ~R$2.000 (até lá fecha no botão): Funil Soft (carta/vídeo) → Webinário Soft (perpétuo) → Soft Launch. A esteira de ofertas do usuário sobe em alturas, não em esteiras separadas.
 
-> **Exemplo de eixo preenchido (outro nicho, ilustra só o FORMATO, nunca copiado pro usuário):** avatar "a dentista que atende bem e tem buraco na agenda" · tensão "de tabela de preço pra fila de espera" · mecanismo nomeado "o Filtro de Caso" · inimigo "o desconto". Cada usuário preenche os mesmos slots com o eixo DELE, puxado do perfil e da condução.
+> **Exemplo de eixo preenchido (outro nicho, ilustra só o FORMATO, nunca copiado pro usuário):** avatar "a dentista que atende bem e tem buraco na agenda" · tensão "de invisível e imprevisível pra procurada pelo nome" · mecanismo nomeado (a versão DELA da Reorganização da Percepção) · inimigo "a complexidade do postar-todo-dia". Cada usuário preenche os mesmos slots com o eixo DELE, puxado do perfil e da condução.
 
 ## A fonte é o guia, leia primeiro
-Na primeira invocação da sessão:
+Na primeira invocação da sessão, **antes de qualquer coisa, leia a narrativa canônica** (`/home/cloud/.openclaw/brain/NARRATIVA-CANONICA.md` + `/home/cloud/.openclaw/brain/CANONICO.md`): é a fonte-da-verdade do posicionamento do Léo (avatar · dor · inimigo · mecanismo RP · veículo webinário perpétuo · produto Venda com Webinar · provas). O Plano do USUÁRIO é construído com o eixo DELE, mas o framework, o mecanismo-matriz (RP/ADMA) e a régua de coerência saem daqui. Depois:
 - `PLANO-POSICIONAMENTO-COMPLETO.md` (caminho preferencial `/home/cloud/guia-soft-business/PLANO-POSICIONAMENTO-COMPLETO.md`), um exemplo de Plano completo preenchido (o do Léo). Mostra a ESTRUTURA do que um Plano fechado é (todos os blocos preenchidos com coerência), nunca o conteúdo a copiar pro cliente. **FALLBACK:** se esse arquivo não estiver acessível, opera com o framework embutido na skill (a seção "O que esta skill protege" acima) e os blocos vivem em `guia/02-plano-marca-pessoal.md`; não pare nem invente, conduza pelo framework.
 - `guia/02-plano-marca-pessoal.md`, os 3 blocos NMO + as 2 saídas, a Equação de Valor, o Mapa de Valor, o Problema Avançado, os níveis de acesso. Fonte da verdade do Posicionamento.
 - `guia/03-identidade-voz.md`, os 5 elementos da Voz. Fonte da verdade da Voz.
@@ -70,8 +70,8 @@ Todo texto obedece o `CODIGO-DE-ESCRITA.md`: lente da percepção (o mercado nã
 ## O que entrega (um doc só, duas metades)
 **Parte A, Posicionamento** (o Racional abre, depois os 3 blocos NMO, depois as 2 saídas):
 - **0. Racional** (território · o que vende de verdade · contra qual cultura luta · a tensão dor→desejo · o sentimento), abre o plano e decide tudo. Sem ele **visível**, o resto vira lista rasa.
-- **Bloco 1 · Narrativa**, Cliente Ideal (persona-âncora com nome, o avatar do usuário) · Problema Geral · **Problema Avançado** (o EXCESSO: as soluções que ele já comprou pra escalar viraram peças que ele carrega; o inimigo é o excesso, não a tática) · Promessa · Projeção de Resultado.
-- **Bloco 2 · Mecanismo**, método nomeado + o **mecanismo central concreto** (filtro, não volume) + 3 passos (cada um quebra uma objeção e tira uma dor).
+- **Bloco 1 · Narrativa**, Cliente Ideal (persona-âncora com nome, o avatar do usuário) · Problema Geral · **Problema Avançado** (a imprevisibilidade + a invisibilidade: as soluções que ele já comprou pra escalar viraram trabalho que ele carrega; o inimigo é a complexidade + improviso, não a tática) · Promessa · Projeção de Resultado.
+- **Bloco 2 · Mecanismo**, método nomeado (a versão do usuário da Reorganização da Percepção) + o **mecanismo central concreto** + 3 passos (cada um quebra uma objeção e tira uma dor).
 - **Bloco 3 · Oferta**, abre pela **PUV**; uma oferta em **níveis de acesso** (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada. Engenharia completa (anti-raso da Oferta acima).
 - **Saída 1 · Perfil Enxuto**, @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
 - **Saída 2 · Fundação de Headlines**, destilação do NMO (alimenta `soft-conteudo`).

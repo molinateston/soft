@@ -76,7 +76,7 @@ Antes de listar um entregável sequer, a Oferta abre com a **PUV: a Proposta Ún
 
 - **Antes de subir preço, mexe os outros três.** A maioria sobe o numerador do jeito errado (promete mais resultado). Os caminhos mais fortes são **descer o denominador**: mais prova (probabilidade), resultado visível mais cedo (tempo), menos trabalho do cliente (esforço). Cada um vira um entregável ou uma escolha de formato.
 - **Probabilidade é onde mora a densidade.** É o mecanismo nomeado + os cases reais + a garantia, juntos. "Por que vai funcionar quando o resto falhou" é a pergunta que esse fator responde. Oferta sem isso é promessa solta.
-- **Cada fator vira fala.** Resultado → número e prazo concretos. Tempo → "a Sessão 1 já entrega X". Esforço → "o Sócio IA carrega o que você não domina". A equação não fica no doc: ela arma a carta.
+- **Cada fator vira fala.** Resultado → número e prazo concretos. Tempo → "a Sessão 1 já entrega X". Esforço → "o agente carrega a parte técnica — você dirige". A equação não fica no doc: ela arma a carta.
 - **Eficiência é motor de preço, não só de conforto.** O fator Tempo é o que mais justifica cobrar mais. Entre dois métodos que entregam o mesmo resultado, o que entrega mais rápido pode cobrar mais caro — o resultado em uma hora vale mais que o mesmo resultado em um mês. Se a oferta não encurta o caminho até o resultado, ela briga por preço com o mais barato ou perde pro mais conhecido. Encurtar o tempo é diferencial de preço, não cortesia.
 
 ---

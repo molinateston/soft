@@ -6,21 +6,21 @@
 
 ## 1.1 · Por que esse método existe
 
-Comece pelo que esse Especialista fala quando ninguém está cobrando resposta bonita: "Só vem gente sem dinheiro." "Não fechei nada essa semana." "O que eu posto hoje?" "Nada que eu posto dá resultado." "Será que mudo de estratégia?"
+Comece pelo que esse Especialista fala quando ninguém está cobrando resposta bonita: "Não sei quanto vou faturar esse mês." "Não fechei nada essa semana." "O que eu posto hoje?" "Nada que eu posto dá resultado." "Será que mudo de estratégia de novo?"
 
 Repare que não é o discurso de quem está afundando. Esse Especialista tem agenda. Atende cliente. Ganha dinheiro. Tem método real, tem dez anos de estrada, tem cliente que volta. Não está mal na vida.
 
 O problema é outro, e é mais surdo.
 
-Ele carrega uma frustração silenciosa: a de saber que poderia ser muito maior do que é. Poderia ser referência no nicho. Poderia cobrar o que merece. E não consegue. Enquanto isso, vê gente com método pior e menos experiência sendo exatamente o que ele deveria ser — referência, paga como ele deveria ser pago. Quando ele tenta explicar a si mesmo o que essas pessoas têm que ele não tem, a resposta que sobra é a mais rasa: "elas manjam de internet."
+Ele carrega uma frustração silenciosa: a de saber que poderia ser muito maior do que é. Poderia ser referência no nicho. Poderia cobrar o que merece. E não consegue. Enquanto isso, **tem gente pior vendendo mais — porque está sendo vista. Ele, que resolve o problema de verdade, segue invisível.** Quando tenta explicar a si mesmo o que essas pessoas têm que ele não tem, a resposta que sobra é a mais rasa: "elas manjam de internet."
 
 Então ele foi atrás. Comprou o guru, o método, a estratégia. Cada coisa funcionou um pouco. Nenhuma funcionou como prometeu. E cada tentativa cobrou tempo — tempo que ele não tem, porque vende todas as horas dele. Cada cliente ocupa uma hora. Não sobra sistema. Não sobra previsibilidade.
 
-E tem uma coisa que ele nunca quis: virar criador de conteúdo. Ficar se expondo o dia todo, mostrar a vida, postar história igual à do concorrente. O que ele mais quer é o contrário disso — não ter que focar em vender. Ter cliente o dia inteiro sem fazer marketing o tempo todo.
+E tem uma coisa que ele nunca quis: virar criador de conteúdo. Virar social mídia, editor e vendedor de si mesmo — "um emprego que não paga hora extra". Ficar se expondo o dia todo, postar história igual à do concorrente, acordar sem saber o que postar. O que ele mais quer é o contrário disso: não ter que focar em vender. Vender todo dia sem precisar aparecer todo dia.
 
 Toda vez que não dá certo, a conclusão é sempre a mesma: "talvez o próximo método resolva."
 
-Não é falta de esforço. Nunca foi. É falta de **posição** — e de um sistema que funcione sem ele estar presente o tempo todo.
+Não é falta de esforço. Nunca foi. É falta de **posição** — e de um sistema que venda no automático sem ele estar presente o tempo todo.
 
 Soft Business existe pra resolver esse Especialista.
 
@@ -34,47 +34,47 @@ O nome carrega a tese. **Soft** = sólido, simples, sustentável. **Business** =
 
 O que ele cobre:
 
-- **Posicionamento Incomum** — quem você atende, qual problema resolve, como você ocupa um lugar que ninguém mais ocupa.
-- **Funil Minimalista** — conteúdo que filtra (orgânico **e** pago), Carta ou Vídeo Minimalista que qualifica, WhatsApp que fecha.
-- **Sócio IA** — o motor de criação que carrega roteiros, copy, páginas e briefings pra você operar solo.
+- **Posicionamento Incomum** — quem você atende, qual problema resolve, como você ocupa um lugar que ninguém mais ocupa. É a fonte da percepção que todo o resto instala.
+- **O webinário perpétuo** — o melhor funil do mundo: uma aula gravada uma vez que vende no automático, pra público frio, sem você aparecer. É onde a percepção se reorganiza num lugar só, todo dia.
+- **A IA do método (Webinar Skills)** — os agentes treinados no método que escrevem roteiro, página, e-mails e anúncios na sua voz. O agente executa, você dirige.
 
-### A fórmula do método: 2 Pilares + 1 Motor = 10X$
+### A fórmula do método: posição + mecanismo + máquina = 10X$
 
-Dois Pilares mais o Sócio IA produzem um resultado 10x em três dimensões:
+O Posicionamento define o quê, a Reorganização da Percepção conduz a decisão, e o webinário perpétuo roda isso no automático — produzindo um resultado 10x em três dimensões:
 
 | Dimensão | O que muda |
 |---|---|
-| **10x mais simples** | 1 público, 1 problema, 1 produto, 1 canal — no lugar da complexidade de várias frentes ao mesmo tempo. |
-| **10x mais leve** | Não precisa focar em vender o tempo todo. O sistema atrai, qualifica e pré-vende enquanto você atende. |
-| **10x mais previsível** | Controle total das variáveis do negócio. Quem controla, gere. Quem gere, prevê. |
+| **10x mais simples** | 1 público, 1 problema, 1 produto, 1 funil — no lugar do lançamento, do low-ticket, da prospecção e do postar todo dia ao mesmo tempo. |
+| **10x mais leve** | Não precisa focar em vender o tempo todo. O webinário atrai, qualifica e conduz à decisão enquanto você atende. |
+| **10x mais previsível** | Funil 100% metrificado. Vira conta, não sorte: você sabe quanto entra de tráfego, quanto inscreve, quanto comparece, quanto compra. |
 
-A promessa não é mágica, é mecânica. Ela se sustenta na equação que abre a próxima seção: o Funil Minimalista resolve a Complexidade (mais simples), o Sócio IA resolve o Improviso (mais leve), o Posicionamento resolve a Invisibilidade (mais previsível).
+A promessa não é mágica, é mecânica. Ela se sustenta na equação que abre a próxima seção: o webinário perpétuo resolve a Complexidade e o Improviso (mais simples e mais leve), e o Posicionamento, ao reorganizar a percepção, resolve a Invisibilidade (mais previsível).
 
 ---
 
-## 1.3 · A tese central: C + Im = In
+## 1.3 · A tese central: C + Im = Imp
 
-**Complexidade + Improviso = Invisibilidade.**
+**Complexidade + Improviso = Imprevisibilidade.**
 
-Essa é a equação que prende o Especialista — e entendê-la é entender por que ele continua empacado mesmo trabalhando muito.
+Essa é a equação que prende o Especialista — e entendê-la é entender por que ele continua empacado mesmo trabalhando muito. Não é falta de competência. É a conta do mercado.
 
-**Complexidade** é o acúmulo de operação que cada tentativa de solução deixou pra trás. Contratou gestor de tráfego. Fez lançamento. Entrou no Social Selling. Tentou low ticket. Cada uma exigiu mais ferramenta, mais processo, mais gente, mais tempo. O negócio ficou pesado de tocar.
+**Complexidade** é o acúmulo de operação que cada tentativa de solução deixou pra trás. Fez lançamento (400 microtarefas). Tentou low ticket. Entrou na prospecção fria. Contratou gestor de tráfego. Tentou fazer tudo de uma vez. Cada uma exigiu mais ferramenta, mais processo, mais gente, mais tempo. O negócio ficou pesado de tocar.
 
-**Improviso** é não saber o que está fazendo. Não saber por que algo deu certo. Não conseguir ler o próprio resultado. Cada semana reinventa. Não tem sistema, não tem rotina — opera no instinto e no ânimo do dia.
+**Improviso** é acordar sem saber o que postar. Não saber por que algo deu certo. Não conseguir ler o próprio resultado. Cada semana reinventa. Não tem sistema, não tem rotina — opera no instinto e no ânimo do dia. "O digital é uma avenida com 180 padarias" — todo mundo fazendo a mesma coisa, ninguém se diferencia.
 
-Quando os dois se somam, o resultado é **Invisibilidade**: só vem gente desqualificada, não consegue fechar, nada que posta parece render. O cliente certo não te encontra; quem te encontra, compara por preço. E a invisibilidade prende o Especialista abaixo da capacidade que ele sabe que tem — **é o teto que ele sente na pele:** "sou bom no que faço, podia ser muito maior, e não sai do lugar".
+Quando os dois se somam, o resultado é **Imprevisibilidade**: ele não sabe quanto vai faturar esse mês. E ela vem acompanhada de duas irmãs — a **invisibilidade** ("tem gente pior vendendo mais, porque tá sendo vista; você que tem o método segue invisível") e a **exaustão** (vira social mídia, editor e vendedor de si mesmo). Junto, isso prende o Especialista abaixo da capacidade que ele sabe que tem — **é o teto que ele sente na pele:** "sou bom no que faço, podia ser muito maior, e não sai do lugar".
 
-**Dois registros, uma verdade.** "Invisibilidade" é o nome do **mecanismo** — o diagnóstico que o método enxerga por baixo. Mas ninguém chega dizendo "sou invisível". O que sai da boca dele é o **teto**: tá preso, comparado por preço, refém da operação, vê gente pior na frente. Na superfície você fala pelo teto que ele vive; a invisibilidade fica por baixo, como a causa que o método ataca. **Regra dura: nunca escreva "você é invisível" numa peça — isso é jargão de diagnóstico. Escreve o teto.**
+**Dois registros, uma verdade.** "Imprevisibilidade" e "invisibilidade" são nomes do **diagnóstico** — o que o método enxerga por baixo. Mas ninguém chega dizendo "sou invisível" ou "sou imprevisível". O que sai da boca dele é o **teto**: não sabe quanto vai faturar, tá comparado por preço, refém da operação, vê gente pior na frente. Na superfície você fala pelo teto que ele vive; o diagnóstico fica por baixo, como a causa que o método ataca. **Regra dura: nunca escreva "você é invisível" numa peça — isso é jargão de diagnóstico. Escreve o teto.**
 
 O Soft Business quebra os dois lados da equação ao mesmo tempo:
 
-| Pilar | O que resolve |
+| Frente | O que resolve |
 |---|---|
-| **Posicionamento Incomum** | Resolve a Invisibilidade. Faz o cliente certo te encontrar pelo método, não pelo preço. |
-| **Funil Minimalista** | Resolve a Complexidade. Um caminho simples do conteúdo ao fechamento, sem operação pesada. |
-| **Sócio IA** | Resolve o Improviso. Carrega o que você não sabe fazer (copy, roteiro, tecnologia) com sistema, não com ânimo do dia. |
+| **Posicionamento Incomum** | Resolve a Invisibilidade. Faz o cliente certo te encontrar pelo método, não pelo preço — reorganizando a percepção dele. |
+| **Webinário perpétuo** | Resolve a Complexidade e o Improviso. Um funil só, gravado uma vez, que conduz à decisão no automático — no lugar de lançamento, low-ticket, prospecção e postar todo dia. |
+| **IA do método (Webinar Skills)** | Carrega o que você não sabe fazer (copy, roteiro, página, anúncio) com sistema, na sua voz. O agente executa, você dirige. |
 
-Na prática, esses dois pilares viram três guias que você percorre em ordem. O **Plano de Marca Pessoal** constrói o Pilar 1. O **Funil Mínimo Viável** e as **Vendas Consultivas** desdobram o Pilar 2 — o funil leva o lead até a conversa, a venda fecha. O **Sócio IA** atravessa os três. É a mesma arquitetura vista de dois jeitos: 2 pilares pra entender, 3 guias pra executar.
+Na prática, isso vira a jornada que você percorre em ordem: o **Posicionamento Incomum** define a percepção, o **webinário perpétuo** a reorganiza num lugar só, a **venda consultiva** fecha o que o webinário não fechou no automático (ticket alto), e a **IA do método** atravessa tudo. É a mesma arquitetura vista de dois jeitos: a posição pra entender, a máquina pra executar.
 
 ---
 
@@ -102,14 +102,14 @@ O remédio tinha a cara da doença.
 
 ## 1.5 · O princípio operacional: 1 público · 1 problema · 1 produto · 1 canal
 
-Previsibilidade vem de controle. Controle vem de entender, gerir e otimizar todas as variáveis do negócio. Não há atalho: quem não entende as próprias variáveis não consegue gerir; quem não gere, improvisa; quem improvisa, fica invisível, sem previsibilidade de faturamento e sem plano de crescimento.
+Previsibilidade vem de controle. Controle vem de entender, gerir e otimizar todas as variáveis do negócio. Não há atalho: quem não entende as próprias variáveis não consegue gerir; quem não gere, improvisa; quem improvisa, fica invisível, sem previsibilidade de faturamento e sem plano de crescimento. Num webinário perpétuo, essas variáveis ficam 100% metrificadas — é o que faz a venda virar conta, não sorte.
 
 As variáveis que o Especialista precisa dominar são seis:
 
-- Qual conteúdo atrai o cliente certo (o feed).
-- Qual Carta/Vídeo qualifica esse cliente antes da conversa.
+- Qual conteúdo (ou anúncio) atrai o cliente certo pro funil.
+- Qual página/webinário qualifica e conduz esse cliente à decisão.
 - Qual é o CAC real — o custo por cliente fechado.
-- Qual é a taxa de conversão do Direct pro fechamento.
+- Qual é a taxa de comparecimento e de conversão do funil.
 - Qual é o ticket médio, e quanto ele oscila mês a mês.
 - Quanto tempo leva do primeiro contato ao fechamento.
 
@@ -149,10 +149,10 @@ Por isso o Soft Business não constrói só um funil de vendas. Constrói um con
 
 ## 1.7 · O que Soft Business NÃO é
 
-- **Não é "postar pouco" como filosofia.** É postar muito sobre 1 coisa só.
-- **Não é fugir de volume por medo.** É volume com foco, com o Sócio IA carregando a criação.
-- **Não é marketing fraco ou passivo.** É marketing clínico, direto, sem floreio.
-- **Não é pra iniciante sem competência técnica.** O sistema amplifica quem já transforma.
+- **Não é "postar pouco" como filosofia.** É vender todo dia sem precisar aparecer todo dia — a venda mora no webinário perpétuo, não no feed.
+- **Não é fugir de volume por medo.** É volume com foco, com a IA do método carregando a criação.
+- **Não é marketing fraco ou passivo.** É marketing clínico, direto, sem floreio — postura de médico que diagnostica.
+- **Não é pra quem quer "viver de marketing digital" sem ter o que entregar.** O sistema amplifica quem já transforma — serve do iniciante com habilidade ao avançado cansado, mas não cria competência onde ela não existe.
 
 ---
 
@@ -173,15 +173,15 @@ Soft Business serve a qualquer Especialista que vende conhecimento e precisa con
 - **Profissionais do digital:** designers, copywriters, gestores de tráfego, especialistas em SEO, devs que vendem expertise, UX researchers.
 - **Outros:** corretores de imóveis de alto padrão, fotógrafos, arquitetos de interiores — qualquer profissional cujo trabalho precisa ser **visto e confiado antes de ser contratado**.
 
-O denominador comum: vende conhecimento ou entrega especializada, opera solo (ou quer operar), tem método de entrega real.
+O denominador comum: vende conhecimento ou entrega especializada (ticket de R$500 a R$50.000), opera solo (ou quer operar), tem método de entrega real. Serve do iniciante com habilidade ao avançado cansado — um não anula o outro.
 
 A diferença entre os dois estados aparece no dia a dia:
 
 | Especialista preso no teto | Verdadeiro Especialista |
 |---|---|
 | Comparado por preço | Escolhido pelo método |
-| "Vou pensar" na maioria das calls | Lead chega aquecido pela Carta/Vídeo — a conversa fecha, não convence do zero |
-| Faturamento oscila com o esforço | Sistema roda mesmo quando ele atende |
+| "Vou pensar" na maioria das calls | Lead chega aquecido pelo webinário — a conversa só confirma a decisão, não convence do zero |
+| Faturamento oscila com o esforço | Funil roda no automático mesmo quando ele atende |
 | Vê concorrente pior faturando mais | É o concorrente que os outros veem |
 
 > Ressalva: "procurado" é o estado de **chegada**, não o de partida. Antes de o posicionamento gerar procura, prospectar com critério acelera — caçar no início é fase, não fracasso.
@@ -198,7 +198,7 @@ Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu m
 
 ## 1.10 · A lógica da percepção: o que faz o cliente comprar
 
-As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro — os dois pilares, os três guias — existe pra operar uma coisa só: **a percepção do cliente.** Vale entender a mecânica dela, porque é ela que decide a compra.
+As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro existe pra operar uma coisa só: **a percepção do cliente.** É o que o Léo chama de **Reorganização da Percepção** — conduzir a pessoa por Atenção, Diagnóstico, Mecanismo e Ação (ADMA) até a decisão. Vender não é convencer, é conduzir. Vale entender a mecânica disso, porque é ela que decide a compra.
 
 A régua, sobretudo no topo do funil: **o mercado não escolhe só quem sabe mais — escolhe quem entende e confia mais rápido.** Ser bom é condição de entrada; ser percebido como bom, e rápido, é o que faz o cliente certo procurar e aceitar o preço. (Em ticket alto e decisão técnica, profundidade demonstrada também fecha — os dois andam juntos, não são rivais.) Por isso o princípio que filtra qualquer decisão do método não é "como pareço maior", é **"como organizo melhor"**. Toda peça, todo nome, toda oferta passa por um teste único: *isso faz o cliente certo entender e confiar mais rápido?* O que não acelera a percepção, atrapalha.
 
@@ -269,16 +269,16 @@ Repare onde a equação de valor entra — no degrau Decisão, percepção 6, *d
 
 ### Qual ativo move cada degrau
 
-Cada guia do método existe pra empurrar o cliente um degrau na cadeia. É o que dá unidade aos três:
+Cada ativo do método existe pra empurrar o cliente um degrau na cadeia. É o que dá unidade ao funil:
 
-| Degrau | Ativo que move | Guia |
+| Degrau | Ativo que move | Onde mora |
 |---|---|---|
-| Atenção · Interesse · Convicção | Conteúdo do feed e quebra de crença | Funil Minimalista |
+| Atenção · Interesse · Convicção | Conteúdo do feed e anúncio que quebram a crença | Conteúdo / Anúncio |
 | Identificação | Perfil Enxuto — a posição lida em segundos | Posicionamento Incomum |
-| Desejo · Confiança | Carta ou Vídeo Minimalista | Funil Minimalista |
-| Decisão | A conversa no WhatsApp | Vendas Consultivas |
+| Convicção · Desejo · Confiança | O webinário perpétuo — roda o ADMA inteiro num lugar só | Webinário perpétuo |
+| Decisão | O checkout (até ~R$2.000) ou a conversa 1:1 (ticket alto) | Webinário / Vendas Consultivas |
 
-O **Posicionamento Incomum** é a fonte: define a percepção que todos os outros ativos instalam. Sem ele definido, o feed não tem o que repetir, a Carta não tem o que aprofundar, e a conversa não tem o que confirmar.
+O **Posicionamento Incomum** é a fonte: define a percepção que todos os outros ativos instalam. Sem ele definido, o feed não tem o que repetir, o webinário não tem o que reorganizar, e a conversa não tem o que confirmar. E o **webinário perpétuo** é onde essa reorganização acontece no automático — a aula gravada uma vez que conduz o frio do reconhecimento à decisão, todo dia, sem você aparecer.
 
 ---
 

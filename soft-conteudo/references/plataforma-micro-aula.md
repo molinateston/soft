@@ -67,7 +67,7 @@ A construção do roteiro de 10min em 12 blocos é responsabilidade da skill `so
 **Fluxo:**
 ```
 1. Cliente quer Micro Aula → skill soft-funil cria roteiro
-2. Cliente quer hospedar/distribuir → skill soft-multiplataforma adapta
+2. Cliente quer hospedar/distribuir → o processo multiplataforma (`references/processo-multiplataforma.md`) adapta
 ```
 
 ---

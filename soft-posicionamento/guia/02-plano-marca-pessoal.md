@@ -61,7 +61,7 @@ O lugar incomum é território que a concorrência não vê — ou não quer ocu
 
 A intersecção das duas é o lugar.
 
-**Soft Business:** todos pregam que pra crescer no digital você vira creator, infla seguidor, faz lançamento, liga tráfego pesado, monta equipe. E cada uma dessas soluções prometia diferenciação — mas como todo mundo fez igual, ninguém se diferenciou, e o especialista bom seguiu invisível. *Intersecção:* o Verdadeiro Especialista que quer ser pago como merece, sem virar creator nem inflar operação.
+**Soft Business:** todos pregam que pra vender no digital você posta todo dia, faz lançamento, prospecta frio, monta funil complexo, aparece sem parar — "o digital é uma avenida com 180 padarias". E cada uma dessas soluções prometia previsibilidade — mas só somou trabalho e improviso, e o especialista bom seguiu invisível e sem saber quanto vai faturar mês que vem. *Intersecção:* o Verdadeiro Especialista que quer vender todo dia e ser pago como merece, sem ter que aparecer todo dia.
 
 **Nutricionista esportiva:** todos pregam que mulher acima de 35 precisa de dieta restritiva ou jejum pra emagrecer — e a dieta restritiva entrega efeito sanfona, ansiedade, perda de massa magra. *Intersecção:* nutrição pra mulher 35+ que treina e não emagrece, sem dieta restritiva.
 
@@ -83,7 +83,7 @@ O PMP se preenche em três blocos, nesta ordem: **Narrativa → Mecanismo → Of
 
 > **Você não vende sessão. Vende uma pessoa nova com prazo.**
 
-Essa é a regra-mãe da Narrativa. O concorrente vende serviço — hora, consulta, sessão. Você vende quem o cliente se torna, com prazo, com o **"sem"** embutido (sem dieta restritiva, sem postar todo dia, sem virar creator). É o que faz o cliente parar de comparar preço e começar a comparar abordagem.
+Essa é a regra-mãe da Narrativa. O concorrente vende serviço — hora, consulta, sessão. Você vende quem o cliente se torna, com prazo, com o **"sem"** embutido (sem dieta restritiva, sem postar todo dia, sem ter que aparecer todo dia). É o que faz o cliente parar de comparar preço e começar a comparar abordagem.
 
 A Narrativa se constrói nesta sequência. Cada item alimenta o próximo — e o **Problema Avançado**, no meio dela, é o coração de tudo. O racional do posicionamento (o que você vende de verdade, contra qual cultura luta, a tensão, o sentimento) não é uma seção à parte: vive **dissolvido** nestes mesmos passos, no ponto onde cada um pertence. O inimigo entra junto do Problema Avançado, a transformação entra junto da Promessa, tensão e sentimento fecham n'O fio. Quem separa o racional da Narrativa repete duas vezes a mesma coisa.
 
@@ -95,17 +95,17 @@ O **Cliente Ideal** é o perfil: hiperespecífico — nicho + situação + dor +
 
 ✅ "Especialista solo (consultor, mentor) faturando R$15k a R$60k/mês, já 2-3 anos no digital — posta, rodou tráfego, talvez lançou, fecha algumas vendas online, mas não decola." O especialista que se vê descrito sente que é pra ele. O resto se afasta sozinho.
 
-**Soft Business — Cliente Ideal:** especialista solo (consultor, mentor, profissional liberal de alto ticket, **R$2k+** *(exemplo)*) que é bom no que faz, com 5+ anos de profissão e método próprio, e que **já está no digital há 2-3 anos**. Posta, já rodou tráfego, talvez lançou. Fecha algumas vendas pelo digital — não é iniciante, não é zero. Mas patina: faz de tudo e não decola. Fatura entre **R$15k e R$60k/mês, instável**, e o esforço não vira faturamento.
+**Soft Business — Cliente Ideal:** o verdadeiro especialista — quem tem habilidade e método próprio que gera resultado de verdade. Profissional liberal, mentor, consultor, prestador, terapeuta, advogado, nutricionista, ou profissional do digital com oferta própria, que vende de **R$500 a R$50.000**. Serve do zero ao avançado (um não anula o outro): o iniciante COM habilidade que ainda não estruturou a venda, e o avançado cansado que já tenta o digital e empacou. NÃO é quem quer "viver de marketing digital / renda extra". A dor é a mesma: imprevisibilidade (não sabe quanto vai faturar mês que vem), invisibilidade (tem gente pior vendendo mais porque está sendo vista) e exaustão (virou social mídia/editor/vendedor de si mesmo).
 
-**Soft Business — persona-âncora, o Otávio** *(persona-exemplo do produto do Léo; cada especialista destila o SEU)***:** 36 anos, especialista veterano com 10 anos de carreira, método próprio, nome no nicho. Já está no digital há uns 3 anos: posta, já rodou tráfego, talvez lançou, fecha algumas vendas online. Fatura **R$20k/mês instável** — o faturamento não acompanha o esforço. Conta pra si mesmo que falta a próxima tática — postar mais consistente, o método novo — e caça a próxima fórmula em vez de admitir que ninguém o associa a nada. Vê gente com menos bagagem decolando. Quer previsibilidade e ser pago como merece, sem virar creator. Cada peça do Soft é escrita pra ele.
+**Soft Business — persona-âncora, o Otávio** *(UM exemplo dentro do avatar; cada especialista destila a SUA — Otávio não é a régua única)***:** especialista veterano com método próprio e nome no nicho, já alguns anos no digital. Posta, já rodou tráfego, talvez lançou, fecha algumas vendas online. Fatura de forma instável — o faturamento não acompanha o esforço. Conta pra si mesmo que falta a próxima tática (postar mais consistente, o método novo) e caça a próxima fórmula, em vez de admitir que segue invisível enquanto gente pior vende mais por estar sendo vista. Quer vender todo dia, com previsibilidade, e ser pago como merece — sem ter que aparecer todo dia.
 
-> O Otávio (R$20k) mora dentro da faixa do Cliente Ideal (R$15k–R$60k). O perfil é a faixa; a persona é o ponto âncora. Escreve-se pro ponto.
+> Otávio é o avançado cansado — UM ponto dentro do avatar, não a definição dele. O avatar vai do iniciante com habilidade ao especialista veterano. O perfil é a faixa inteira; a persona é o ponto âncora que você escolhe pra escrever. Escreve-se pro ponto.
 
 ### 2. Problema Geral
 
 A dor óbvia que **todo concorrente do nicho também resolve**. É porta de entrada, não diferencial — usá-la como diferencial é entrar na fila da comparação.
 
-**Soft Business:** "Faço conteúdo, tento de tudo no digital, fecho algumas vendas — mas não decola. Continuo sendo mais um."
+**Soft Business:** "Tento de tudo no digital, fecho algumas vendas — mas não tenho previsibilidade. Não sei quanto vou faturar mês que vem."
 
 ### 3. As soluções que ela tenta
 
@@ -115,13 +115,13 @@ Antes de chegar até você, o cliente já correu atrás de tudo que o mercado ma
 
 | Solução | O que promete | Consequência que deixa |
 |---|---|---|
-| Conteúdo diário | Aparecer, virar lembrado | Postou que nem todo mundo, sumiu no meio de todo mundo — apareceu e ninguém registrou |
-| Tráfego pago | Cliente entrando na régua | Pagou pra mandar gente pra um perfil igual a mil; fechou pouco, não decolou |
-| Lançamento | Pico de faturamento | Trabalho enorme, vendeu algumas, e no fim soou como mais um lançando |
-| Copiar quem dá certo | "Faz o que o que vende faz" | Ficou ainda mais parecido com o resto; quanto mais copiou, mais se confundiu no meio |
-| Próximo método / curso | "Agora vai" | Mais uma tática igual à dos outros, e o nome dele continuou não querendo dizer nada |
+| Conteúdo diário / aparecer todo dia | Ser lembrado, atrair cliente | Virou refém da postagem — um emprego que não paga hora extra; parou de postar, parou de vender |
+| Tráfego pago | Cliente entrando na régua | Pagou pra mandar gente pra lugar nenhum; fechou pouco, sem conta que feche |
+| Lançamento | Pico de faturamento | 400 microtarefas, vendeu num pico e depois caiu — montanha-russa, nada previsível |
+| Prospecção fria / sessão estratégica | Vender no 1:1 | Caça ativa, agenda lotada de conversa, fatura travado no tempo que ele tem |
+| Próximo método / curso | "Agora vai" | Mais uma camada de complexidade somada às outras, e a venda seguiu na sorte, não na conta |
 
-> Repare o padrão na coluna da direita: cada tática deu trabalho, fechou alguma venda, e mesmo assim o deixou MAIS parecido com todo mundo. Esse padrão é a matéria-prima do Problema Avançado.
+> Repare o padrão na coluna da direita: cada tática somou trabalho, complexidade e improviso, e mesmo assim deixou a venda imprevisível — dependendo da sorte, não de uma conta que feche. Esse padrão é a matéria-prima do Problema Avançado.
 
 ### 4. O Problema Avançado — e o inimigo por trás dele
 
@@ -131,21 +131,21 @@ O **Problema Avançado** é a **consequência EM COMUM** de tudo que o mercado p
 
 É ali que ninguém mais está olhando. O concorrente está ocupado vendendo a próxima solução; você nomeia o que todas elas deixaram pra trás. Quem nomeia esse problema melhor que o próprio mercado vira a referência.
 
-**Soft Business:** cada tática que o Otávio tentou pra decolar — conteúdo diário, tráfego, lançamento, copiar quem dá certo — deu trabalho e não decolou, porque cada uma o deixou MAIS parecido com todo mundo. Quanto mais faz, mais se confunde no meio. O esforço cresce, o resultado não. Ele aparece e ninguém registra. Não é ausência, é indiferenciação. O remédio tinha a cara da doença.
+**Soft Business:** cada tática que o Otávio tentou pra ter previsibilidade — conteúdo diário, tráfego, lançamento, prospecção — deu trabalho e mesmo assim deixou a venda na sorte. Cada uma somou complexidade e improviso, e nenhuma tirou. Quanto mais faz, mais imprevisível fica: acorda sem saber o que postar, fatura num pico e despenca no mês seguinte, e segue invisível enquanto gente pior vende mais por estar sendo vista. O esforço cresce, a previsibilidade não. **Complexidade + improviso = imprevisibilidade.** O remédio tinha a cara da doença.
 
 **Nutricionista esportiva:** cada dieta nova desregulou mais a fome, desacelerou mais o corpo e ensinou mais culpa. A cliente não luta contra o peso — luta contra o ciclo dieta → recaída → culpa que as próprias dietas instalaram. Quanto mais dieta fez, pior ficou.
 
-Logo embaixo do Problema Avançado mora o **inimigo** — e ele entra aqui, não numa seção depois. Nomear a consequência em comum só fica forte quando você aponta o que a causou. Posicionamento fraco briga com o concorrente da esquina, por preço e atenção. Posicionamento forte **luta contra a cultura do mercado** — a crença coletiva que causa a dor do cliente. Brigar com uma *solução* (lançamento, tráfego, dieta) é briga rasa: tática A contra tática B. A cultura está acima da tática. No marketing digital, a cultura é **"pra crescer, faça mais do que todo mundo faz"** — mais conteúdo, mais tráfego, mais lançamento, copia quem dá certo. Como todo mundo segue a mesma cartilha, fazer mais é ficar mais igual. Cada tática é sintoma; a doença é a indiferenciação que o "mais" produz. O Soft Business não luta contra lançamento: luta contra a cultura que transforma todo especialista em cópia. A nutricionista não luta contra uma dieta específica: luta contra a cultura da restrição.
+Logo embaixo do Problema Avançado mora o **inimigo** — e ele entra aqui, não numa seção depois. Nomear a consequência em comum só fica forte quando você aponta o que a causou. Posicionamento fraco briga com o concorrente da esquina, por preço e atenção. Posicionamento forte **luta contra a cultura do mercado** — a crença coletiva que causa a dor do cliente. Brigar com uma *solução* (lançamento, tráfego, dieta) é briga rasa: tática A contra tática B. A cultura está acima da tática. No marketing digital, a cultura é **"pra vender, faça mais e apareça todo dia"** — mais conteúdo, mais tráfego, mais lançamento, mais prospecção, postar sem parar. Como cada tática soma trabalho e improviso sem tirar nenhum, fazer mais é ficar mais imprevisível. Cada tática é sintoma; a doença é a **complexidade somada ao improviso** que o "mais" produz. O Soft Business não luta contra lançamento: luta contra a cultura que transforma o especialista em social mídia de si mesmo e deixa a venda na sorte. A nutricionista não luta contra uma dieta específica: luta contra a cultura da restrição.
 
-Por que mirar a cultura, e não a tática: marca muda a percepção no nível da crença e da identidade, não do comportamento — e mudança no topo escorre pra baixo, mudança só no comportamento não cola. Quem ensina tática vira commodity. Quem instala uma crença nova ("o problema não é falta de esforço, é que você está fazendo igual a todo mundo") muda como a pessoa vê o próprio mercado — e o comportamento vem atrás. Esse mesmo movimento que separa você do mercado **junta o seu público**: quem compartilha a crença se reconhece e vira tribo. O Problema Avançado nomeia o que dói; o inimigo nomeia de quem é a culpa — e os dois, juntos, são uma frase só, não duas seções.
+Por que mirar a cultura, e não a tática: marca muda a percepção no nível da crença e da identidade, não do comportamento — e mudança no topo escorre pra baixo, mudança só no comportamento não cola. Quem ensina tática vira commodity. Quem instala uma crença nova ("o problema não é falta de esforço, é que você junta complexidade e improviso e por isso vende na sorte") muda como a pessoa vê o próprio mercado — e o comportamento vem atrás. Esse mesmo movimento que separa você do mercado **junta o seu público**: quem compartilha a crença se reconhece e vira tribo. O Problema Avançado nomeia o que dói; o inimigo nomeia de quem é a culpa — e os dois, juntos, são uma frase só, não duas seções.
 
 ### 5. O que ela vende de verdade — e a Promessa
 
-Antes do resultado prático vem a coisa que o cliente de fato compra. Ninguém compra o veículo (a consulta, a sessão, a consultoria). Compra a **transformação de identidade**: quem se torna depois. *O que a pessoa vira ao trabalhar com você?* O Soft Business não vende consultoria de marketing — vende a volta da dignidade do Verdadeiro Especialista. A nutricionista não vende cardápio — vende a mulher que confia no próprio corpo de novo. Vender transformação já tira você da guerra de preço; mas se a transformação é igual à de todo mundo, você segue comparável. O que tira o concorrente é a transformação **ancorada na posição diferenciada** — o lugar que só você ocupa (o mesmo lugar que abriu a Narrativa). Não é uma camada extra: é o que dá lastro à promessa que vem agora.
+Antes do resultado prático vem a coisa que o cliente de fato compra. Ninguém compra o veículo (a consulta, a sessão, a aula, o webinário). Compra a **transformação de identidade**: quem se torna depois. *O que a pessoa vira ao trabalhar com você?* O Soft Business não vende treinamento de marketing — vende a volta da dignidade do Verdadeiro Especialista: deixar de ser invisível e imprevisível e virar o procurado pelo nome, pago como merece. A nutricionista não vende cardápio — vende a mulher que confia no próprio corpo de novo. Vender transformação já tira você da guerra de preço; mas se a transformação é igual à de todo mundo, você segue comparável. O que tira o concorrente é a transformação **ancorada na posição diferenciada** — o lugar que só você ocupa (o mesmo lugar que abriu a Narrativa). Não é uma camada extra: é o que dá lastro à promessa que vem agora.
 
 A **Promessa** é o resultado que você gera **na vida dela** — específico, com o **"sem"** (sem ela ter que fazer o que não quer), e com a **projeção de resultado embutida**: em quantos dias ou sessões ela chega lá. A projeção não é item separado; é a parte da promessa que dá prazo ao resultado. A transformação diz *quem ela vira*; a promessa diz *o que ela leva, e quando*.
 
-**Soft Business:** ele entra creator cansado e sai Verdadeiro Especialista — em concreto, o cliente certo te encontrando e pagando o que você merece, sem virar creator, **com o sistema rodando em 3 sessões e 60 dias de acompanhamento.**
+**Soft Business:** ele entra invisível e imprevisível e sai o procurado pelo nome — em concreto, vendas todos os dias no automático, sendo pago como merece, sem ter que aparecer todo dia, **com o webinário perpétuo gravado uma vez e rodando 24/7.**
 
 **Nutricionista esportiva:** ela deixa de ser refém da dieta e vira a mulher que confia no próprio corpo — em concreto, peso e exames estáveis, sem cardápio restritivo e sem cortar grupo de alimento, **em torno de 6 meses, com a fome funcionando de novo.**
 
@@ -178,13 +178,13 @@ A pista pra achar o seu: o problema do cliente é o mesmo pra todo concorrente d
 
 **Exemplo — emagrecimento:** "o corpo não emagrece porque está em economia de guerra, não por falta de dieta." A tese reenquadra o problema inteiro: enquanto o corpo se sentir em escassez, nenhuma dieta para de pé. Quem defende isso não compete com quem vende cardápio — joga outro jogo.
 
-**Soft Business:** "o especialista bom continua invisível porque tenta aparecer como todo mundo, não porque trabalha pouco." A doença é a complexidade somada ao improviso, não a falta de esforço. Posição, não volume.
+**Soft Business:** "o especialista bom vende na sorte porque tenta convencer no improviso, não porque trabalha pouco." A doença é a complexidade somada ao improviso, não a falta de esforço. A virada não é fazer mais — é **reorganizar a percepção**: conduzir a pessoa por atenção → diagnóstico → mecanismo → ação até a decisão, num lugar só, uma vez, rodando todo dia. Vender não é convencer, é conduzir.
 
 **Nutricionista esportiva:** "o efeito sanfona não é falha de força de vontade nem cardápio errado — é fome desregulada. Enquanto a fome estiver desregulada, nenhuma dieta para de pé." Por isso o método não começa com plano alimentar; começa regulando a fome.
 
 > O **nome próprio** do mecanismo dá identidade — o cliente lembra, conta pro amigo, busca no Google, e o algoritmo associa o nome à sua autoridade. A **tese** dá a razão. Sem nome, vira commodity; sem tese, vira rótulo bonito.
 >
-> **Exemplos de mecanismos nomeados:** Soft Business (marketing digital) · Protocolo Fome Sob Controle (nutrição) · Advocacia Valorizada (jurídico) · Reset Pélvico (fisioterapia) · Margem Real (finanças) · HOF Start (estética) · Obra Sem Aditivo (construção).
+> **Exemplos de mecanismos nomeados:** Reorganização da Percepção (marketing digital, o do Léo) · Protocolo Fome Sob Controle (nutrição) · Advocacia Valorizada (jurídico) · Reset Pélvico (fisioterapia) · Margem Real (finanças) · HOF Start (estética) · Obra Sem Aditivo (construção).
 
 ### O método (os passos)
 
@@ -220,7 +220,7 @@ A venda **sempre ancora na Principal** (ou na Super, quando o lead claramente co
 
 ❌ "Tenho mentoria de 12 meses, de 6 meses, curso gravado, templates, consultoria avulsa e treinamento empresarial." O Especialista virou loja, o cliente fica paralisado, a conversão cai.
 
-✅ "Tenho uma oferta: te tirar do invisível e te colocar como o procurado pelo nome. Posso fazer isso com você, ensinar você a fazer, ou fazer por você. Qual nível faz sentido pro teu momento?"
+✅ "Tenho uma oferta: te tirar do invisível e te colocar pra vender todo dia no automático, com o webinário perpétuo. Posso ensinar você a montar, montar junto, ou fazer por você. Qual nível faz sentido pro teu momento?"
 
 ---
 
@@ -236,10 +236,10 @@ Antes de montar qualquer coisa, calibra-se o valor por quatro fatores. Pra subir
 
 | Fator | O que é | Como o Especialista age |
 |---|---|---|
-| Resultado Sonhado | O que o cliente mais quer | Nomeia com número e prazo. Não "crescer", mas "fechar 3 clientes de R$5k em 60 dias" *(exemplo)*. |
-| Probabilidade de Alcançar | O quanto ele acredita que vai funcionar | Cases reais com nome e número. Garantia. Prova do método em ação. Pesa também o quanto ele se vê aplicando: quanto mais simples e factível, mais ele acredita. |
-| Tempo de Espera | Quanto até o primeiro resultado visível | Mostra quando o resultado aparece. A Sessão 1 já entrega a marca pessoal de pé. |
-| Esforço | O quanto ele faz sozinho | A Sócio IA carrega o que ele não sabe — copy, tecnologia, roteiro. Ele traz o método; o sistema carrega o resto. |
+| Resultado Sonhado | O que o cliente mais quer | Nomeia com número e prazo. Não "crescer", mas "vendas todos os dias no automático" *(exemplo)*. |
+| Probabilidade de Alcançar | O quanto ele acredita que vai funcionar | Cases reais com nome e número (MindMaster R$13M em 2 anos com 5 pessoas e 1 funil; 1 ano sem postar e seguiu vendendo). Garantia 90+90. Pesa também o quanto ele se vê aplicando: quanto mais simples e factível, mais ele acredita. |
+| Tempo de Espera | Quanto até o primeiro resultado visível | Mostra quando o resultado aparece. O webinário grava uma vez e passa a vender 24/7, sem depender de aparecer. |
+| Esforço | O quanto ele faz sozinho | A IA Webinar Skills carrega a parte técnica — roteiro, página, e-mails, anúncios na voz dele. O agente executa, ele dirige. Ele traz o método; o sistema carrega o resto. |
 
 A maioria tenta aumentar valor subindo o preço. A equação mostra **3 outros caminhos antes disso**: mais prova (probabilidade), resultado mais rápido (tempo), menos trabalho do cliente (esforço).
 
@@ -252,35 +252,36 @@ Liste **cada coisa que você entrega**. Pra cada entregável, responda quatro pe
 - **Que objeção quebra** — qual crença errada ela desmonta.
 - **Que valor gera** — o resultado que ela deixa.
 
-**Exemplo — Implementação Soft Business (oferta Principal):**
+**Exemplo — Venda com Webinar (oferta Principal):**
 
 | Entregável | O que resolve · dor que tira · objeção que quebra · valor que gera |
 |---|---|
-| Sessão 1 — Plano de Marca Pessoal | Define a posição · tira a sensação de ser "mais um" · quebra "eu não sei o que me diferencia" · sai com a marca pessoal de pé no 1º encontro |
-| Sessão 2 — Funil Minimalista + CMV | Monta o caminho do lead sem complexidade · tira o peso de postar sobre tudo · quebra "preciso de uma operação inteira" · funil rodando com conteúdo mínimo viável |
-| Sessão 3 — Tráfego e Vendas | Liga aquisição sobre uma posição que já convence · tira o medo de queimar caixa com tráfego · quebra "tráfego não funciona pra mim" · cliente certo entrando |
-| Sócio IA configurada | Carrega copy, tecnologia e roteiro · tira o trabalho que ele não domina · quebra "não tenho tempo nem equipe" · execução sem depender de contratar |
-| 60 dias de acompanhamento | Ajusta em tempo real · tira o medo de aplicar errado sozinho · quebra "e se eu empacar no meio?" · resultado sustentado, não abandonado |
+| Módulo 1 — Planejamento | Define a tese, o pra quem, a promessa e a crença antes da aula · tira o improviso ("comece pelo plano, nunca pela aula") · quebra "eu não sei por onde começar" · sai com o webinário planejado, não chutado |
+| Módulo 2 — Reorganização da Percepção | Monta o roteiro ADMA caixa a caixa (nuances, argumentos, provas) · tira o peso de "ter que convencer" · quebra "não sei vender sem forçar" · conduz o frio até a decisão num lugar só |
+| Módulo 3 — Scripts e Slides | Entrega script e deck do webinário · tira a página em branco · quebra "não sei estruturar a aula" · webinário pronto pra gravar |
+| Módulo 4 — Gravação e Configuração | Grava uma vez e configura o perpétuo · tira o medo da técnica · quebra "não entendo de tecnologia" · funil rodando 24/7 sem aparecer |
+| Módulos 5 e 6 — Automações, Anúncio, Escala | Liga tráfego, automações e a régua de escala · tira o medo de queimar caixa · quebra "tráfego não funciona pra mim" · público frio entrando todo dia |
+| IA Webinar Skills | Escreve roteiro, página, e-mails e anúncios na voz dele · tira o trabalho técnico que ele não domina · quebra "não tenho tempo nem equipe" · o agente executa, ele dirige |
 
 ### 3. Mapa de Valor (no final)
 
 Só depois de listar os entregáveis você ancora o preço. Liste cada componente com o valor real ao lado — não invente. Use uma de duas âncoras:
 
 - **Âncora 1 — Custo de mercado:** quanto esse componente custaria contratado separado, de outra pessoa. Verificável.
-- **Âncora 2 — Custo do problema não resolvido:** quanto o problema custa por mês sem solução. Se o Especialista fatura R$20k instável e o sistema o leva a R$40k previsível, o delta é R$20k/mês — pagar R$5–7k pra chegar lá é óbvio visto assim. *(números exemplo.)*
+- **Âncora 2 — Custo do problema não resolvido:** quanto o problema custa por mês sem solução. Se o Especialista fatura instável e o webinário perpétuo o leva a vender todo dia no automático, o delta mensal é grande — pagar R$1.497 (ou 12x R$155) pra chegar lá é óbvio visto assim. *(números exemplo.)*
 
 **Regra:** só coloca valor que você defende se o cliente perguntar de onde vem.
 
 | Componente | Valor avulso (exemplo) |
 |---|---|
-| Sessão 1 — Plano de Marca Pessoal | R$2.500 |
-| Sessão 2 — Funil Minimalista + CMV | R$2.500 |
-| Sessão 3 — Tráfego e Vendas | R$1.500 |
-| Sócio IA configurada | R$2.000 |
-| 60 dias de acompanhamento | R$2.500 |
-| **Total percebido** | **R$11.000** |
+| Módulos 1 e 2 — Planejamento + Reorganização da Percepção | R$1.200 |
+| Módulo 3 — Scripts e Slides | R$800 |
+| Módulo 4 — Gravação e Configuração | R$700 |
+| Módulos 5 e 6 — Automações, Anúncio, Escala | R$1.000 |
+| IA Webinar Skills | R$1.300 |
+| **Total percebido** | **R$5.000** |
 
-O cliente não compara R$5.000 com nada. Compara R$5.000 com R$11.000.
+O cliente não compara R$1.497 com nada. Compara R$1.497 (ou 12x R$155) com a âncora de R$3.500 e com o valor percebido de R$5.000.
 
 > **Por que o Mapa vem no fim, não no começo.** A **promessa** que você comunica é destilada — uma frase limpa, sem ruído. Mas a **justificativa de valor** empilha componentes pra ancorar o preço. Destila na vitrine, empilha na ancoragem: o excesso enfraquece quando polui a promessa, não quando sustenta o número. Por isso o Mapa fecha a oferta — depois que o cliente já entendeu o que recebe e por que funciona.
 
@@ -292,17 +293,17 @@ Só agora o preço, com a forma de pagamento ao lado. Apresentado depois do Mapa
 
 | Oferta | Produto | Investimento (exemplo) | Pagamento (exemplo) |
 |---|---|---|---|
-| **Secundária** (downsell / sem qualificação) | Soft Start — treinamento gravado + Sócio IA configurada | R$497 a R$997 | À vista ou parcelado |
-| **Principal** (a que sempre ofereço) | Implementação Soft Business — 3 sessões + 60 dias | R$5.000 a R$7.000 | À vista ou parcelado |
-| **Super** (cliente ultra qualificado) | Consultoria Soft com IA — entra no variável ou projeto | R$10.000 a R$20.000 + % do lucro | Entrada + % do faturamento |
+| **Principal** (a que sempre ofereço) | Venda com Webinar — 6 módulos + IA Webinar Skills | Âncora R$3.500 → R$1.497 | 12x R$155 ou R$1.497 à vista |
+| **Secundária** (downsell / sem qualificação) | Acesso reduzido ao método (núcleo gravado, sem os bônus completos) | Abaixo de R$1.497 | À vista ou parcelado |
+| **Super** (cliente ultra qualificado) | Mentoria/consultoria com o webinário como coração da empresa — entra na operação | Acima de R$3.500 (+ projeto/variável) | Entrada + % do faturamento |
 
-> **Secundária** é a descida quando o preço da Principal pesa, ou a porta pra quem ainda não tem qualificação. **Super** exige cliente pré-qualificado: método validado, faturamento existente e **ticket acima de R$3k** *(exemplo)* — mais alto que o filtro de entrada do Cliente Ideal porque aqui o mentor entrega mão na operação. Um piso qualifica o público; o outro qualifica o nível mais caro. Disponibilidade limitada.
+> **Secundária** é a descida quando o preço da Principal pesa, ou a porta pra quem ainda não tem qualificação. **Super** exige cliente pré-qualificado: método validado, faturamento existente e ticket alto — porque aqui o mentor entrega mão na operação e ajuda a montar o webinário como modelo de negócio (à la ClickFunnels/Russell Brunson). Um piso qualifica o público; o outro qualifica o nível mais caro. Disponibilidade limitada.
 
 ### 5. Garantia
 
 Toda oferta Soft Business tem garantia — não como truque de conversão, como **compromisso real**.
 
-Estrutura recomendada pra Principal: devolução integral ao final da Sessão 1 se o cliente não estiver seguro de que o investimento faz sentido. Critério: o cliente decide. Nenhuma pergunta.
+Estrutura recomendada pra Principal (exemplo do caso Léo, a garantia 90+90): o cliente aplica o método por 90 dias; se não der resultado, o mentor entra junto por mais 90 dias de consultoria; se ainda assim não der, devolve o **dobro** do investimento. Critério objetivo, risco invertido pro lado do mentor.
 
 Por que é obrigatória: remove o risco percebido que paralisa a decisão. Especialista que garante sinaliza que confia na entrega; quem não garante sinaliza que não confia.
 
@@ -322,8 +323,8 @@ Se você tem 5 destaques, 3 são ruído. Se a bio tem 6 linhas, 2 são ruído. *
 
 A bio inteira cabe em **150 caracteres**. Disciplina brutal: gancho de identidade + a transformação com o "sem" + CTA do próximo passo, comprimidos. Cada palavra que não filtra ou não move sai.
 
-- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Léo Molina | Soft Business" *(o próprio Léo)*; para outro nicho, "Nome do Especialista | Fome Sob Controle".
-- **Bio (≤150 caracteres), exemplo Soft Business:** *"Tiro o especialista bom do invisível e coloco como o procurado pelo nome. Sem virar creator. Toca no link →"* (107 caracteres.)
+- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Léo Molina | Venda com Webinar" *(o próprio Léo)*; para outro nicho, "Nome do Especialista | Fome Sob Controle".
+- **Bio (≤150 caracteres), exemplo Soft Business:** *"Tiro o especialista bom do invisível e coloco pra vender todo dia no automático. Sem aparecer todo dia. Toca no link →"* (118 caracteres.)
 - **Bio (≤150 caracteres), exemplo nutricionista:** *"Você para de viver de dieta e estabiliza peso e exames em ~6 meses. Sem cortar o pão. Comece aqui →"* (99 caracteres.)
 - **Link:** aponta pra Carta/Vídeo Minimalista, ou direto pro WhatsApp.
 
@@ -358,15 +359,15 @@ A NMO destilada em **frases-fonte** que alimentam toda peça pública futura. Se
 
 | Frase-fonte | Conteúdo |
 |---|---|
-| Problema Avançado | "Cada coisa que você fez pra decolar te deixou mais parecido com todo mundo." |
-| Inimigo nomeado | "Fazer mais do que todo mundo faz é ficar mais igual a todo mundo." |
-| Promessa | "O cliente certo te encontrando e pagando o que você merece, sem virar creator." |
-| Big Idea | "Especialista vira commodity quando tenta aparecer como todo mundo. Posicionamento Incomum é o oposto." |
+| Problema Avançado | "Tem gente pior vendendo mais do que você — porque está sendo vista, enquanto você segue invisível." |
+| Inimigo nomeado | "Complexidade somada a improviso é o que faz você vender na sorte, não na conta." |
+| Promessa | "Vendas todos os dias no automático, pago como você merece, sem ter que aparecer todo dia." |
+| Big Idea | "Vender não é convencer, é conduzir. Reorganize a percepção uma vez e ela vende todo dia." |
 
 **Como cada frase vira peça.** Toda headline futura é variação dessas quatro.
 
-- **Da Big Idea:** Carrossel "Especialista vira commodity quando aparece como todo mundo" · Reel "Pare de tentar aparecer mais. Apareça diferente." · Story "Por que eu nunca me descrevi como creator".
-- **Do Problema Avançado:** Carrossel "5 coisas que você fez pra decolar e que só te deixaram mais igual" · Reel "Você posta, roda tráfego, lança. E some no meio de todo mundo." · Story "Apareço todo dia e ninguém lembra do meu nome".
+- **Da Big Idea:** Carrossel "Vender não é convencer, é conduzir" · Reel "Pare de tentar convencer mais. Conduza melhor." · Story "Por que eu vendo todo dia sem postar todo dia".
+- **Do Problema Avançado:** Carrossel "5 coisas que você fez pra ter previsibilidade e que só somaram trabalho" · Reel "Você posta, roda tráfego, lança. E ainda não sabe quanto vai faturar mês que vem." · Story "Tem gente pior vendendo mais que eu — porque está sendo vista".
 
 A engenharia de headlines (Cap. 5 e 7) trabalha em cima dessa fundação.
 
