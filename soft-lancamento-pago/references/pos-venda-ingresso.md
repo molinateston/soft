@@ -229,7 +229,7 @@ Comparecimento é proporcional a quantos lembretes a pessoa recebe **no canal ce
 
 A área de membros pós-ingresso pode ser **embrião do sistema Soft próprio** que o cliente vai construir depois do lançamento. Aproveita:
 
-- Pesquisa pós-compra → vira insumo pra `posicionamento-incomum` (Posicionamento Incomum) atualizar avatar
+- Pesquisa pós-compra → vira insumo pra `soft-posicionamento` (Posicionamento Incomum) atualizar avatar
 - Feed/fórum → vira ativo permanente que pode evoluir pra comunidade soft pós-venda
 - Lead scoring → vira input pro CRM Soft
 

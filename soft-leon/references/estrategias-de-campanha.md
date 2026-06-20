@@ -4,7 +4,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **O LEON usa este banco ao planejar o mês.** Depois de rodar o funil reverso (no `plano-de-guerra.md`), o LEON não manda o cliente "postar mais": propõe **a jogada certa pro momento dele**, na ordem certa, e aponta a mãe que executa cada parte. O banco é o cardápio; a Conta diz quantas jogadas e com que frequência.
 
-**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence** — revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (`soft-posicionamento` + a soft-voz dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada — reescreve como ele falaria no zap.
+**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence** — revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada — reescreve como ele falaria no zap.
 
 **Extensível:** o cliente (e o Léo) adicionam jogadas aqui ao longo do tempo. Toda jogada nova entra no mesmo formato: *o que é · quem pode rodar · resultado esperado · como funciona · onde encaixa no mês · qual mãe executa · ajuste Soft*.
 

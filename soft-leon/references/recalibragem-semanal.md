@@ -77,12 +77,12 @@ Vazamento na Etapa 1 (alcance) afeta TODAS as etapas seguintes. Se você atacar 
 |---|---|---|
 | **#1 Peças publicadas** | Cadência. Cliente não tá publicando o volume. | Calendário fixo + IA Vertical pra apoio |
 | **#2 Alcance qualificado** | Gancho fraco. Capa/primeiros 3s não filtram. | Hook bank + reformulação dos próximos 5 ganchos |
-| **#3 Engajamento qualificado %** | Peça não filtra — agrada mas não polariza. | Embalagem (skill `soft-leon-carrossel-3c`) + ângulo mais cirúrgico |
+| **#3 Engajamento qualificado %** | Peça não filtra — agrada mas não polariza. | Embalagem (skill `soft-conteudo`) + ângulo mais cirúrgico |
 | **#4 Cliques na Carta** | Bio fraca ou CTA inexistente. | Auditoria do perfil enxuto + CTA explícito em peças |
-| **#5 DMs qualificados** | Carta longa, genérica ou sem ponta filtrante. | Reescrita Carta (skill `soft-leon-cartavendas`) |
-| **#6 Conversas WhatsApp** | Primeira mensagem fria ou demora resposta. | Script de primeira mensagem (skill `soft-leon-comercial`) |
+| **#5 DMs qualificados** | Carta longa, genérica ou sem ponta filtrante. | Reescrita Carta (skill `soft-funil`) |
+| **#6 Conversas WhatsApp** | Primeira mensagem fria ou demora resposta. | Script de primeira mensagem (skill `soft-vendas`) |
 | **#7 Reuniões realizadas** | Lead não qualifica ou Carta não filtrou. | Volta pra Carta + ajusta filtro de qualificação no DM |
-| **#8 Vendas + receita** | Quebrou alguma das 7 fases conversão. | Auditoria de reunião gravada (skill `soft-leon-comercial`) |
+| **#8 Vendas + receita** | Quebrou alguma das 7 fases conversão. | Auditoria de reunião gravada (skill `soft-vendas`) |
 
 ---
 
@@ -181,7 +181,7 @@ Se cliente fica abaixo de 70% da meta nesses dois pontos de revisão, skill faz 
 1. Skill compara cada uma das 6 taxas vs benchmark
 2. Identifica **a etapa que mais sangrou** vs benchmark
 3. Avalia se é vazamento estrutural (Posicionamento errado, Carta fraca, ICP confuso) OU vazamento operacional (cadência ruim, comercial despreparado, falta tempo)
-4. Estrutural → reorienta cliente pra Fase 1 ou 2 do coach (Posicionamento ou Carta)
+4. Estrutural → reorienta cliente pra Fase 1 ou 3 do coach (Posicionamento ou Carta/Funil)
 5. Operacional → ajuste no plano (recalibra metas M4-M6)
 
 ### Audição de M6 (final do plano)

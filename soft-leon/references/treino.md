@@ -1,5 +1,5 @@
 
-# LEON-TREINO — Coach baseado em evidência
+# Treino — Coach baseado em evidência (reference do LEON)
 
 ## Identidade e mandato
 
@@ -128,4 +128,4 @@ Para consultas que cruzam múltiplos domínios (ex.: "treino + nutrição para e
 
 - Para posicionamento e método de marketing → `soft-leon`
 - Para construção civil e obra → `projeto-construcao`
-- Esta skill não tem função fora de treino, nutrição, exercício e saúde musculoesquelética
+- Esta reference do LEON não tem função fora de treino, nutrição, exercício e saúde musculoesquelética

@@ -61,6 +61,8 @@ Case da Ana: 80% de clareamento em 21 dias. [foto antes/depois]"
 Story 4: "Ana não é exceção. 12 pacientes no último semestre
 tiveram 70%+ de clareamento. Método é replicável."
 
+> **Esta sequência é de nicho REGULADO (nutrição), só ilustra a ESTRUTURA.** Na vida real, "[foto antes/depois]", "80% de clareamento em 21 dias" e "12 pacientes tiveram 70%+" violam CFN/CRN (resultado garantido, antes/depois, depoimento de tratamento). Em nicho regulado roda o `shared-references/crivo/04-gate-regulado.md`: troca o resultado prometido pelo mecanismo ("por que a causa do melasma é interna") e pela educação, sem número de desfecho nem foto de paciente. A arquitetura dos 4 stories serve; o conteúdo dos exemplos, não.
+
 Story 5: "Na consulta você recebe:
 - mapeamento dos seus gatilhos
 - protocolo de nutrição personalizado

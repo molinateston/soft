@@ -1,5 +1,8 @@
 # Modo Carta Minimalista
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
+
 > **Quando usar:** produção completa de Carta Minimalista pronta pra colar em Notion (ou Google Docs como fallback). A skill entrega texto **diagramado**, não bruto.
 >
 > **O que entrega:** Carta completa em markdown Notion-compatível · diagramação caso a caso (sem template fixo) · pronta pra publicar em 4-7 minutos de leitura.
@@ -50,10 +53,10 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 |---|---|
 | Discurso Base aprovado · cliente pediu Carta | ✅ Ativa este modo |
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
-| Cliente pediu landing page completa com VSL | Roteia pra skill `soft-funil` (separada) |
-| Cliente pediu webinar | Roteia pra skill `soft-leon` (separada) |
+| Cliente pediu landing page completa com VSL | Roteia pra `references/processo-landingpage.md` |
+| Cliente pediu webinar | Roteia pra skill `soft-webinario` |
 | Cliente quer versão em vídeo da Carta | Roteia pra `modo-micro-aula.md` (alternativa à Carta) |
-| Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-leon`) ou Reunião Soft (conversão) como complemento |
+| Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinario`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
 
@@ -487,7 +490,17 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Garantir Bloco 4 ↔ primeira msg WhatsApp | Cap 4.1/4.6 (guia) |
 | Tom Soft amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |
 | Adaptação semântica pro nicho do cliente | `shared-references/adaptacao-semantica.md` |
-| Aplicação nos 7 passos | `shared-guia/CODIGO-DE-ESCRITA.md` |
+| Aplicação nos 7 passos | `guia/CODIGO-DE-ESCRITA.md` |
 | Versão em vídeo (alternativa à Carta) | `modo-micro-aula.md` |
-| Landing page com VSL ou multimídia | skill `soft-funil` (separada) |
-| Webinar ao vivo ou perpétuo | skill `soft-leon` (separada) |
+| Landing page com VSL ou multimídia | `references/processo-landingpage.md` |
+| Webinar ao vivo ou perpétuo | skill `soft-webinario` |
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

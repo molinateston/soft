@@ -149,6 +149,8 @@ Entregar em **dois formatos**:
 
 Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`.
 
+**Fallback (ambiente sem `/mnt/user-data/outputs`):** se o diretório de saída não existir (rodando fora do Claude Chat, ex. CLI/bot), não tenta gravar `.docx` nem chamar `present_files` — entrega o contrato como **markdown estruturado inline no chat**, pronto pra copiar pro D4Sign/Clicksign/Autentique. O conteúdo das cláusulas é o mesmo; muda só o formato de entrega.
+
 Após entregar, **avisar o usuário**:
 
 > Este contrato é um modelo testado, mas não substitui revisão jurídica em casos específicos. Para ticket alto, cliente PJ de médio/grande porte, ou risco específico, vale passar por um advogado antes de assinar.

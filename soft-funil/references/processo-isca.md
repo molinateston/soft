@@ -1,5 +1,8 @@
 # Funil de Isca — frente de funil (reference da soft-funil)
 
+> **Passo 0, antes de escrever (entrada ancorada).** Abre a fonte de fala real do cliente (`shared-references/crivo/01-entrada-verbatim.md`) e puxa 3-5 falas de dor e 3-5 de desejo. A 1ª linha da isca nasce de uma delas. A peça nasce ancorada.
+
+
 O funil de isca usa um **material gratuito de alto valor** pra capturar o lead certo e nutri-lo até a carta/conversa. Mais estruturado que o orgânico puro (que só atrai), mais leve que webinário/lançamento. Entra quando o feed atrai mas não captura contato, ou quando você quer construir lista antes de vender.
 
 ## A mecânica (4 passos)
@@ -20,3 +23,7 @@ O funil de isca usa um **material gratuito de alto valor** pra capturar o lead c
 
 ## Handoff
 Isca capturou o lead → entra no **Funil Soft** (Carta/micro-aula, `processo-desejo.md`), ou direto pra **`soft-vendas`** se já chegou quente.
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+A página de captura e a sequência de nutrição passam pelo Crivo embutido (`shared-references/crivo/`): ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do Harry + a Ação/CTA com destino real) → anti-IA. Peça que falha não sai. Mesma régua de toda copy do método.

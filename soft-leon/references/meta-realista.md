@@ -1,6 +1,6 @@
 # Meta Realista — A Conta
 
-O núcleo da Fase 3.
+O núcleo da Fase 5.
 
 Sem fazer essa conta, não tem rotina. Tem chute.
 
@@ -8,7 +8,7 @@ Sem fazer essa conta, não tem rotina. Tem chute.
 
 ## A premissa
 
-Todo cliente Soft chega na Fase 3 com uma meta financeira em mente. Geralmente um número arredondado: "quero faturar R$50k", "quero chegar em R$100k", "preciso fazer R$30k todo mês".
+Todo cliente Soft chega na Fase 5 com uma meta financeira em mente. Geralmente um número arredondado: "quero faturar R$50k", "quero chegar em R$100k", "preciso fazer R$30k todo mês".
 
 A maioria nunca calculou o que esse número exige em volume real de operação.
 

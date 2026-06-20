@@ -5,9 +5,10 @@
 ## 1. A identidade do autor no material do cliente
 Nunca deixe o Léo (nem traço dele) entrar no material de outro cliente:
 - **Persona/nome:** "Otávio" (a persona-âncora do Léo) · "Léo Molina" · "Léo".
-- **Provas/números dele:** "R$46M", "46 milhões", "MindMaster", "35 colaboradores", "coprodutor", "a agência".
+- **Provas/números dele:** "R$46M", "46 milhões", "MindMaster", "R$13M"/"13 milhões" (MindMaster, 24–25), "CRO as a Service"/"diretor de receita" (da MindMaster), "35 colaboradores", "coprodutor", "a agência", "quebrei devendo R$500 mil".
 - **Vida dele:** Atibaia · cristão/pai recente · ex-atleta de MMA · ex-nutricionista · a cobra/serpente.
 - **Nicho/oferta dele:** marketing digital · "especialista que vende conhecimento" · "profissional liberal" · Soft Start / Implementação · os preços dele.
+- **Posicionamento/fontes dele:** "A Conta de Poucos" · "preso a procurado" · "Mapa da Complexidade" · "Sócio IA" · o voc-wiki (a fonte de VoC dele) · os bordões e cenas-assinatura do Plano dele. São o posicionamento DELE (e parte está desatualizada), nunca o do cliente.
 
 Se qualquer um aparece no plano, carta, conteúdo ou bio de **outro** cliente, é ERRO — pega e troca pelo do cliente à frente. **Única exceção:** a skill `soft-voz-leo-molina`, que É o Léo como cliente-modelo. Em todo o resto, o Léo nunca é o sujeito.
 

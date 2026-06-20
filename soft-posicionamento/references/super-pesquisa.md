@@ -6,8 +6,8 @@ Antes de cravar a posição, o LEON sai a campo. Esta skill conduz a **Super Pes
 ## A fonte é o guia — leia primeiro
 
 O passo vive no guia, não esta reference. **Na primeira invocação da sessão, leia:**
-- **`/home/cloud/guia-soft-business/GUIA-APLICACAO-AUTOGUIADA.md`** — o **Passo 0.5 (A Super Pesquisa)**: o que o LEON faz, o ativo de saída (Dossiê de Nicho), por que supera o chat. **É a fonte da verdade.** Alinhe esta reference ao que está descrito lá.
-- `/home/cloud/guia-soft-business/02-plano-marca-pessoal.md` (Cap 2) — pra saber o que o Plano vai consumir (Problema de 3ª Camada, território, lacuna). A `soft-posicionamento` roda a própria pesquisa interna; **a Super Pesquisa a alimenta e aprofunda, não a substitui.**
+- **`guia/GUIA-APLICACAO-AUTOGUIADA.md`** — o **Passo 0.5 (A Super Pesquisa)**: o que o LEON faz, o ativo de saída (Dossiê de Nicho), por que supera o chat. **É a fonte da verdade.** Alinhe esta reference ao que está descrito lá.
+- `guia/02-plano-marca-pessoal.md` (Cap 2) — pra saber o que o Plano vai consumir (Problema de 3ª Camada, território, lacuna). A `soft-posicionamento` roda a própria pesquisa interna; **a Super Pesquisa a alimenta e aprofunda, não a substitui.**
 
 Esta skill é o **processo de execução** — como conduzir a pesquisa e salvar o insumo. As definições do método estão no guia; não as duplique, consulte-as.
 
@@ -17,7 +17,7 @@ O que sai daqui (a síntese e o arquivo) é regido por `guia/CODIGO-DE-ESCRITA.m
 
 ## O que entrega
 
-**esta pesquisa** — salvo no diretório do cliente (mesma pasta onde moram os outros ativos dele; se não houver, cria `clientes/[nome-do-cliente]/`). É o **Dossiê de Nicho**: insumo estruturado, não prosa corrida, que **alimenta** `soft-posicionamento`, `soft-voz`, `soft-funil`, `soft-conteudo` e `soft-conteudo`. Faz uma vez, usa o ano inteiro.
+**esta pesquisa** — salvo no diretório do cliente (mesma pasta onde moram os outros ativos dele; se não houver, cria `clientes/[nome-do-cliente]/`). É o **Dossiê de Nicho**: insumo estruturado, não prosa corrida, que **alimenta** `soft-posicionamento`, `soft-voz-leo-molina`, `soft-funil` e `soft-conteudo`. Faz uma vez, usa o ano inteiro.
 
 ## As 4 frentes da pesquisa (o que tem que cobrir)
 

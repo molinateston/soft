@@ -11,13 +11,13 @@
 
 Headlines não nascem do nada. Nascem de uma fundação empacada que o especialista defende **falando**, não escrevendo. O Plano de Posicionamento responde "quem é, o que faz, pra quem". A Fundação destilada de Headlines responde **"qual frase falada o especialista cravaria sentado na frente do cliente"**.
 
-A skill `soft-conteudo` precisa desses 4 itens empacados antes de gerar 1 headline. Sem eles, cai em palavra-container ("modelo", "sistema") sem imagem, ou em headline jornalística que trata o inimigo como opção.
+A skill `soft-conteudo` precisa desses 5 itens empacados antes de gerar 1 headline. Sem eles, cai em palavra-container ("modelo", "sistema") sem imagem, ou em headline jornalística que trata o inimigo como opção.
 
 Esse bloco é a **destilação automática** do Plano em fundação acionável.
 
 ---
 
-## Os 4 itens da fundação
+## Os 5 itens da fundação
 
 ### 1. Tese central
 
@@ -138,6 +138,19 @@ NÃO DEFENDO (não cabe nem como "fazer melhor"):
 - Se faltar o "estado atual" (só descreve o que falta, não o que já existe)
 - Marca como `[A PREENCHER]` e oferece sugestão derivada
 
+### 5. Biblioteca de Assinatura (artefato VIVO)
+
+**O que é:** o que torna a copy do cliente INCONFUNDÍVEL, o "só ele diria isso". Sem estado entre peças, um gerador produz peças competentes e isoladas que regridem ao centro do nicho (viram "mais um"). A Biblioteca é a memória de marca: o lead reconhece o cliente em 1 slide. É o diferencial competitivo nº1 contra o concorrente direto.
+
+**Três componentes:**
+- **3 a 5 bordões proprietários.** As frases-marca que repetem em TODA peça (a Lei 6, "marca é repetição"). Ex. (de outros nichos, ilustram o formato): *"avaliar não é integrar"* (personal), *"o paciente decide pelo que sente"* (dentista). Curtas, faladas, batizadas. Os bordões reais saem do Plano do usuário, não destes exemplos.
+- **5 a 8 cenas-assinatura ancoradas no VoC.** As cenas concretas (nunca rótulos) que o avatar reconhece, puxadas da fala real do acervo. Ex.: *"a pergunta da esposa no domingo de noite"*, *"a planilha de cliente guardada na gaveta"*, *"o print do tráfego que fechou pouco"*. São o estoque de gancho falsificável (a CENA do paradoxo do avatar).
+- **3 inimigos com nome canônico.** Os mesmos inimigos do item 2, com o nome FIXO que repete em toda peça (não reinventa o rótulo a cada post). Ex.: *"a inflação de complexidade"*, *"o conteúdo-panfleto"*.
+
+**Como destilar (inicial):** bordões vêm da Tese central (item 1) + Promessa; cenas vêm do VoC e do Cliente final (item 4); inimigos vêm do item 2. Marca `[A PREENCHER]` o que o plano não sustentar.
+
+**Vivo:** cada peça APROVADA no gate alimenta a biblioteca. Bordão que colou entra, cena nova ancorada entra. O gate cobra que toda peça TOQUE a biblioteca (passada "Coerência de assinatura" no `03-gate-cub.md`) e que a headline ou CTA sobreviva só na boca DESTE cliente (passada "3-bis Proprietário"). A biblioteca cresce, a marca fica mais inconfundível a cada peça.
+
 ---
 
 ## Formato de saída do Bloco 5
@@ -169,6 +182,11 @@ A skill apresenta o Bloco 5 EXATAMENTE no formato abaixo, ao final do artifact (
 
 ### Cliente final em frase
 [Frase específica do que o cliente JÁ TEM, derivada de Cliente Ideal + Público Problema Avançado]
+
+### Biblioteca de Assinatura (artefato vivo, cresce a cada peça aprovada)
+**Bordões proprietários (3-5):** [frases-marca que repetem em toda peça]
+**Cenas-assinatura (5-8, ancoradas no VoC):** [cenas concretas que o avatar reconhece]
+**Inimigos canônicos (3):** [nome fixo de cada inimigo]
 ```
 
 ---
@@ -177,7 +195,7 @@ A skill apresenta o Bloco 5 EXATAMENTE no formato abaixo, ao final do artifact (
 
 Ao gerar BLOCO 5, a skill DEVE:
 
-1. **Tentar destilar os 4 itens automaticamente** do plano dos Blocos 1-4 sem fazer pergunta nova ao especialista.
+1. **Tentar destilar os 5 itens automaticamente** do plano dos Blocos 1-4 sem fazer pergunta nova ao especialista.
 2. **Tese central:** se Promessa + Problema Avançado produzir frase com palavra-container sem imagem, marcar como `[A PREENCHER COM SKILL DE HEADLINES]` e oferecer 2-3 sugestões derivadas.
 3. **Top 3 inimigos:** extrair das Soluções Comuns que falham. Se houver mais de 3, listar todas com `[ESCOLHER 3 COM SKILL DE HEADLINES]` e instruir usuário a marcar.
 4. **Lista do "não defendo":** raramente está no plano. Sugerir candidatos baseados no método + filosofia, mas marcar com `[A CONFIRMAR COM SKILL DE HEADLINES]`.

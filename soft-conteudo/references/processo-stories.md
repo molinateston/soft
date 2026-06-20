@@ -1,4 +1,7 @@
 # Stories — frente de conteúdo (reference da soft-conteudo)
+
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
 # Soft Stories, Cap 8 do Guia
 
 Stories é o canal de conversão diária com quem já te segue. Enquanto Carrossel e Reel atraem público novo, o Story trabalha quem já está dentro: aquece, qualifica e fecha. Esta skill é o **processo de produzir Stories**, os 4 sistemas vivem no guia; aqui está como rodá-los todo dia, montar a campanha e corrigir quando não converte.
@@ -184,3 +187,13 @@ Sempre nomeia o tipo CARO de cada frame. Entrega copiável.
 ## Regra única
 
 > **CARO é o arco. A Fórmula 7 se distribui ao longo dos frames. Cada frame: observação → interpretação → tese curta ancorada. Associação repetida > volume isolado. DM > link. Front-load sempre. Oferta nunca abre o dia.**
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

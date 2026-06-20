@@ -1,35 +1,37 @@
 
-# Soft-Rotina-Estratégica
+# Rotina Estratégica (reference do LEON)
 
-**FASE 3 do método Soft Business: Rotina Operacional que cabe na vida.**
+**A Rotina Operacional que cabe na vida — conduzida pelo próprio LEON, não por uma skill à parte.**
 
-Esta skill desenha COMO o cliente Soft vai operar semanalmente e mensalmente. Não no abstrato — calibrado pela meta financeira real dele e pelo tempo real que ele tem.
+Esta reference desenha COMO o cliente Soft vai operar semanalmente e mensalmente. Não no abstrato — calibrado pela meta financeira real dele e pelo tempo real que ele tem.
 
 ---
 
 ## Pré-requisitos obrigatórios
 
-**FASE 1 — Plano de Posicionamento Incomum (soft-posicionamento)** concluída.
-**FASE 2 — Identidade de Voz (soft-voz)** concluída.
+**FASE 1 — Plano de Posicionamento Incomum + Voz (soft-posicionamento)** concluído. A voz é construída dentro do próprio posicionamento (os 5 elementos de voz), não numa fase à parte.
 
-Sem persona-âncora destilada (Fase 1) e voz definida (Fase 2), rotina não tem destino nem coerência. Volta às fases anteriores se não estiverem prontas.
+Sem persona-âncora destilada e voz definida (ambas saem do soft-posicionamento), a rotina não tem destino nem coerência. Volta pra fundação se não estiver pronta.
 
 ---
 
 ## A sequência do método
 
 ```
-FASE 1 — POSICIONAMENTO ESTRATÉGICO
-└── soft-posicionamento (quem ele é + pra quem fala)
+FASE 1 — POSICIONAMENTO + VOZ
+└── soft-posicionamento (quem ele é, pra quem fala e como fala)
 
-FASE 2 — IDENTIDADE DE VOZ
-└── soft-voz (como ele fala)
+FASE 2 — CONTEÚDO (atração)
+└── soft-conteudo
 
-FASE 3 — ROTINA ESTRATÉGICA  ← VOCÊ ESTÁ AQUI
-└── soft-rotina-estrategica (o que oferta + quando + cabendo na vida)
+FASE 3 — FUNIL (aquece e qualifica o lead)
+└── soft-funil
 
-FASE 4+ — EXECUÇÃO
-└── soft-funil, soft-conteudo, soft-stories, soft-vendas
+FASE 4 — VENDAS (o comercial 1:1)
+└── soft-vendas
+
+FASE 5 — ROTINA ESTRATÉGICA  ← VOCÊ ESTÁ AQUI
+└── conduzida pelo LEON · reference rotina.md (o que oferta + quando + cabendo na vida)
 ```
 
 ---
@@ -44,13 +46,13 @@ Se a rotina não cabe na vida que o cliente quer, **corta operação — nunca c
 
 Isso significa: a meta financeira pode precisar baixar (se a vida exige), ou o ticket pode precisar subir (pra fazer a conta caber com menos volume), ou a esteira precisa ser repensada.
 
-A Fase 3 força essa decisão antes do cliente operar.
+A Fase 5 (Rotina) força essa decisão antes do cliente operar.
 
 ---
 
 ## Quando esta reference é usada
 
-- Imediatamente após Fase 1 e Fase 2 concluídas
+- Imediatamente após a Fase 1 (posicionamento + voz) concluída
 - Quando cliente diz "tô sobrecarregado", "não dá pra fazer tudo"
 - Quando cliente quer "ganhar mais sem trabalhar mais"
 - Revisão trimestral de operação (auditoria de rotina)
@@ -75,7 +77,7 @@ A Fase 3 força essa decisão antes do cliente operar.
 
 ---
 
-## A sequência operacional dentro da Fase 3
+## A sequência operacional dentro da Fase 5
 
 ```
 1. Define a vida que quer (cabimento-na-vida — esboço inicial)
@@ -128,7 +130,7 @@ A skill **força** o cliente a fazer essa conta antes de aceitar qualquer rotina
 
 ## Entregável oficial
 
-Após Fase 3 concluída, o cliente sai com:
+Após a Fase 5 (Rotina) concluída, o cliente sai com:
 
 **Documento Rotina Estratégica** (PDF ou Notion):
 - Meta financeira definida + a conta feita
@@ -138,21 +140,20 @@ Após Fase 3 concluída, o cliente sai com:
 - Rituais documentados
 - Teste de cabimento aprovado
 
-Esse documento, junto com a skill `soft-voz-[nome-cliente]` (Fase 2), forma o **pacote de entregáveis oficiais** da Implementação Soft.
+Esse documento, junto com a skill `soft-posicionamento-[nome-cliente]` (Fase 1), forma o **pacote de entregáveis oficiais** da Implementação Soft.
 
 ---
 
 ## Como esta reference se relaciona com outras
 
-- **soft-posicionamento (Fase 1)** — pré-requisito. Sem isso, persona-âncora não tá definida.
-- **soft-voz (Fase 2)** — pré-requisito. Sem isso, pilares de conteúdo não estão prontos pra calibrar produção.
-- **soft-voz-[cliente]** — após Fase 3, atualizar pilares de conteúdo da skill do cliente com o ritmo definido aqui.
-- **soft-conteudo, soft-funil, soft-vendas** — skills executivas que operam DENTRO da rotina definida aqui.
-- **soft-anti-ia + soft-mobile-first** — aplicáveis em qualquer peça produzida dentro da rotina.
+- **soft-posicionamento (Fase 1)** — pré-requisito. Carrega persona-âncora E voz (os 5 elementos de voz saem daqui). Sem isso, rotina não tem destino nem produção calibrada.
+- **soft-posicionamento-[cliente]** — a skill gerada do cliente; após a Rotina (Fase 5), atualizar os pilares de conteúdo dela com o ritmo definido aqui.
+- **soft-conteudo, soft-funil, soft-vendas (Fases 2-4)** — skills executivas que operam DENTRO da rotina definida aqui.
+- **filtro-anti-ia + filtro-mobile-first** (shared-references) — aplicáveis em qualquer peça produzida dentro da rotina.
 
 ---
 
-## Checagem antes de fechar Fase 3
+## Checagem antes de fechar a Rotina (Fase 5)
 
 1. [ ] Meta financeira definida em número específico?
 2. [ ] A conta foi feita (meta ÷ ticket = clientes ÷ horas)?
@@ -165,7 +166,7 @@ Esse documento, junto com a skill `soft-voz-[nome-cliente]` (Fase 2), forma o **
 9. [ ] Operação cabe em 12 meses (não só na semana boa)?
 10. [ ] Documentação pronta pra entregar?
 
-Se qualquer item falhar, refaz antes de fechar Fase 3.
+Se qualquer item falhar, refaz antes de fechar a Rotina (Fase 5).
 
 ---
 

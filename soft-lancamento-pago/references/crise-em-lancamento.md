@@ -272,7 +272,7 @@ Audiência 100% fria em lançamento pago é cenário difícil. Skill avisa cedo 
 
 **Ação imediata:**
 - Nesse lançamento já era — não dá pra refazer posicionamento em curso
-- Próximo: investe em `soft-plano-posicionamento` antes
+- Próximo: investe em `soft-posicionamento` antes
 
 #### Causa 3 — Tráfego em canais errados (10% dos casos)
 

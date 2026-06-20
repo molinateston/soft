@@ -87,7 +87,7 @@ Pra negócios locais:
 
 | Nicho | Nome SEO |
 |---|---|
-| Saúde (nutrição) | `Marina Costa \| Nutrição Hormonal Feminina` |
+| Saúde (nutrição) | `Paula Costa \| Nutrição Hormonal Feminina` |
 | Negócios (consultoria) | `João Silva \| Consultor de Vendas B2B` |
 | Jurídico (tributário) | `Dra. Ana Souza \| Advogada Tributarista` |
 | Engenharia (residencial) | `Eng. Rafael Lima \| Construção Residencial SP` |
@@ -238,7 +238,7 @@ Cada print precisa ter **CONTEXTO**. Print solto sem contexto é inútil e parec
 
 **Exemplos bem feitos:**
 
-- ✅ *"Marina, advogada trabalhista, saía de reuniões gratuitas há 2 anos sem conversão. Primeiro cliente de R$8.500 em 14 dias sem reunião."*
+- ✅ *"Joana, advogada trabalhista, saía de reuniões gratuitas há 2 anos sem conversão. Primeiro cliente de R$8.500 em 14 dias sem reunião."* (exemplo de outro nicho, ilustra a estrutura)
 - ✅ *"Gustavo, consultor de RH, vinha de 6 meses sem fechar nada. Fechou R$12.000 em 1 semana aplicando o método."*
 
 **Exemplos ruins:**

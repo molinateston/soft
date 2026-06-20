@@ -3,6 +3,29 @@ name: soft-posicionamento
 description: "Constrói o Plano de Posicionamento Incomum COMPLETO: Posicionamento (o quê) + Voz (o como), juntos. É a FUNDAÇÃO do método Soft e vira o cérebro do LEON do cliente. Entrega o Racional + os 3 blocos NMO (Narrativa · Mecanismo nomeado · Oferta com PUV) + 2 saídas (Perfil Enxuto · Fundação de Headlines) + os 5 elementos de Voz. Combina deep-research com entrevista estratégica, conduz por perguntas. Use pra \"posicionamento\", \"plano de marca\", \"reposicionamento\", \"construir/nomear método\", \"proposta de valor/oferta\", \"perfil/bio\", \"cliente ideal\", \"problema avançado\", \"tom de voz\", \"minha voz não soa minha\", \"narrativa\", \"pilares\". NÃO use pra peças (conteúdo, carta, script) — é soft-conteudo/funil/vendas."
 ---
 
+## 📦 O QUE ESTA SKILL PRODUZ
+
+O entregável-mãe é **um documento só, o Plano de Posicionamento Incomum completo** (Posicionamento + Voz), que vira o cérebro do LEON do cliente. Dentro dele, esta skill produz:
+
+**Parte A · Posicionamento**
+- **Racional (seção 0):** território · o que vende de verdade · contra qual cultura luta · a tensão dor→desejo · o sentimento. Abre o plano e decide tudo.
+- **Bloco 1 · Narrativa:** Cliente Ideal (persona-âncora com nome, o avatar do usuário) · Problema Geral · Problema Avançado (o EXCESSO, o que ele já tentou e complicou) · Promessa · Projeção de Resultado.
+- **Bloco 2 · Mecanismo:** método **nomeado** + mecanismo central concreto (filtro, não volume) + 3 passos (cada um quebra uma objeção e tira uma dor).
+- **Bloco 3 · Oferta:** PUV (proposta única de valor) · Equação de Valor (4 fatores) · cada entregável detalhado · entregável-tese · Mapa de Valor (âncora) · ancoragem · níveis de acesso (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada · custo invisível · garantia · o racional de cada escolha.
+- **Saída 1 · Perfil Enxuto:** @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
+- **Saída 2 · Fundação de Headlines:** o NMO destilado em frases-fonte que alimenta `soft-conteudo`.
+
+**Parte B · Voz** (5 elementos, observados não prescritos)
+- **Tom destilado** · **Narrativa pessoal** · **Bastidor estratégico** · **Valores e anti-valores** · **Pilares de conteúdo**.
+
+**Insumos/sub-produtos que a skill também gera no caminho**
+- **Dossiê de Nicho** (Super Pesquisa estruturada: concorrentes, vocabulário cru do público em verbatim, preços, força do Problema Avançado).
+- **Hipótese de avatar profundo** (protocolo Mente do Cliente: dores em citação, medos, Problema Central nomeado) — volta pra entrevista confirmar.
+- **Nome do método** (engenharia de nomeação) · **bio/perfil** diagnosticada · **círculo/planejamento temático**.
+- **Reposicionamento / revisão** do plano quando muda oferta, audiência, inimigo do mercado ou narrativa.
+
+**Serve o agente:** equipa o **LEON orquestrador** (que invoca esta mãe na hora certa da jornada e leva o plano ao Crivo) e atende o **cliente final / especialista direto** auto-aplicando a skill. É o **braço-fundação** — produz o ativo que todos os outros braços (criador de conteúdo, funil, comercial) consomem.
+
 # Soft Posicionamento, a fundação (Posicionamento + Voz)
 
 Sem o Plano de pé, toda peça é ruído. Esta skill constrói o **Plano de Posicionamento Incomum completo**: o **Posicionamento** (o QUE você diz, o ângulo que o mercado validou mas ninguém ocupou) e a **Voz** (o COMO você diz). Nascem juntos e respondem um ao outro; por isso uma skill só.
@@ -13,18 +36,23 @@ Sem o Plano de pé, toda peça é ruído. Esta skill constrói o **Plano de Posi
 
 **É auto-aplicável e gerenciada pelo LEON.** O especialista sozinho, conduzido por esta skill, monta o Plano completo e tem resultado excelente; na jornada Soft é o LEON (`soft-leon`) que invoca esta mãe na hora certa e leva o plano pronto pro Crivo.
 
-## O eixo que esta skill protege (o canônico, inegociável)
-Esta é a maestro do posicionamento: todo Plano que sai daqui crava o eixo do Léo e não desvia.
-- **Território:** alto resultado com baixa complexidade. **Tensão-mestre: de preso a procurado** (refém da operação → dono do negócio). Não é "invisível → procurado".
-- **Avatar-âncora (o Otávio):** especialista que JÁ fatura R$10–80k/mês, refém da própria operação. Não é iniciante invisível: iniciante quer aparecer, ele quer respirar.
-- **Problema Avançado = EXCESSO.** Cada solução que ele comprou pra escalar adicionou uma peça. O inimigo é a **cultura do MAIS** ("pra crescer, adicione"), nunca o lançamento, o tráfego ou a equipe.
-- **Tese/mecanismo central = a Conta de Poucos.** Jogo de FILTRO, não de volume: 8 a 20 vendas, ~200 interessados certos no mês, oferta 3k+. A complexidade é máquina de massa importada pro jogo errado.
-- **Método = 3 passos + 1 motor:** Passo 1 Posicionamento Incomum · Passo 2 Conteúdo Mínimo Viável · Passo 3 Funil Minimalista · Motor Sócio IA (o LEON). Esta skill entrega o Passo 1, a fundação de todos.
-- **Onde o plano vive depois:** ecossistema de 3 funis em escada por maturidade, todos high-ticket 3k+ e **todos + Comercial 1:1**: Funil Soft (carta/vídeo) → Webinário Soft → Soft Launch. A esteira (Imersão R$27 · Soft Start · Implementação · Consultoria) é a oferta em alturas, não esteiras separadas.
+> **Passo 0, sempre: le o perfil do usuario** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho sao DELE, nunca os do Leo (que sao so um perfil de exemplo). Usuario sem perfil (cold start) e roteado pro onboarding (Plano na `soft-posicionamento` + mineracao de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Leo.
+
+## O que esta skill protege: o FRAMEWORK e os princípios (o eixo é de CADA usuário)
+Esta é a maestro do posicionamento: todo Plano que sai daqui segue o framework e os princípios do método, e CONDUZ o usuário a cravar o eixo DELE. O eixo não é embutido nem herdado de ninguém, é construído com o usuário. Os princípios que valem pra todo Plano:
+- **Território do método:** alto resultado com baixa complexidade, o oposto da cultura do "adicione mais".
+- **Mecanismo NOMEADO.** O método do usuário ganha um nome próprio (um artefato batizado), não uma ideia genérica. É o que separa posição de promessa.
+- **Jogo de FILTRO, não de volume (high-ticket).** Poucas vendas certas (oferta 3k+, dezenas no mês, não massa). A máquina de complexidade vem do jogo de volume, errado aqui.
+- **Problema Avançado: o avatar JÁ TENTOU e complicou.** Não é iniciante invisível, é alguém que comprou soluções pra escalar e cada uma virou peça que ele carrega. O inimigo é o EXCESSO, não a tática.
+- **Tensão-mestre própria.** Cada usuário crava a virada que o método DELE promete (de um estado preso pra um estado livre), com o avatar e a dor dele. Nunca uma frase herdada de outro.
+- **Método = 3 passos + 1 motor:** Passo 1 Posicionamento · Passo 2 Conteúdo Mínimo Viável · Passo 3 Funil Minimalista · Motor Sócio IA (o LEON). Esta skill entrega o Passo 1, a fundação.
+- **Onde o Plano vive depois:** ecossistema de 3 funis em escada por maturidade, todos high-ticket 3k+ e **todos + Comercial 1:1**: Funil Soft (carta/vídeo) → Webinário Soft → Soft Launch. A esteira de ofertas do usuário sobe em alturas, não em esteiras separadas.
+
+> **Exemplo de eixo preenchido (outro nicho, ilustra só o FORMATO, nunca copiado pro usuário):** avatar "a dentista que atende bem e tem buraco na agenda" · tensão "de tabela de preço pra fila de espera" · mecanismo nomeado "o Filtro de Caso" · inimigo "o desconto". Cada usuário preenche os mesmos slots com o eixo DELE, puxado do perfil e da condução.
 
 ## A fonte é o guia, leia primeiro
 Na primeira invocação da sessão:
-- `PLANO-POSICIONAMENTO-COMPLETO.md` (em `guia-soft-business/`), o canônico vivo do Léo: eixo preso→procurado, o Otávio, o Problema Avançado (excesso / cultura do MAIS), a Conta de Poucos, o método 3+1, a esteira. **A referência de congruência de tudo que sai daqui** — o exemplo aplicado do Léo, nunca copiado pro cliente, mas a régua do que um Plano completo é.
+- `PLANO-POSICIONAMENTO-COMPLETO.md` (caminho preferencial `/home/cloud/guia-soft-business/PLANO-POSICIONAMENTO-COMPLETO.md`), um exemplo de Plano completo preenchido (o do Léo). Mostra a ESTRUTURA do que um Plano fechado é (todos os blocos preenchidos com coerência), nunca o conteúdo a copiar pro cliente. **FALLBACK:** se esse arquivo não estiver acessível, opera com o framework embutido na skill (a seção "O que esta skill protege" acima) e os blocos vivem em `guia/02-plano-marca-pessoal.md`; não pare nem invente, conduza pelo framework.
 - `guia/02-plano-marca-pessoal.md`, os 3 blocos NMO + as 2 saídas, a Equação de Valor, o Mapa de Valor, o Problema Avançado, os níveis de acesso. Fonte da verdade do Posicionamento.
 - `guia/03-identidade-voz.md`, os 5 elementos da Voz. Fonte da verdade da Voz.
 - `guia/01-filosofia.md`, a régua (as 7 percepções; "o cliente entende e confia mais rápido").
@@ -42,8 +70,8 @@ Todo texto obedece o `CODIGO-DE-ESCRITA.md`: lente da percepção (o mercado nã
 ## O que entrega (um doc só, duas metades)
 **Parte A, Posicionamento** (o Racional abre, depois os 3 blocos NMO, depois as 2 saídas):
 - **0. Racional** (território · o que vende de verdade · contra qual cultura luta · a tensão dor→desejo · o sentimento), abre o plano e decide tudo. Sem ele **visível**, o resto vira lista rasa.
-- **Bloco 1 · Narrativa**, Cliente Ideal (persona-âncora com nome, no padrão Otávio: já fatura, refém da operação) · Problema Geral · **Problema Avançado** (o EXCESSO: as soluções que ele já comprou pra escalar viraram peças que ele carrega; o inimigo é a cultura do MAIS, não a tática) · Promessa · Projeção de Resultado.
-- **Bloco 2 · Mecanismo**, método nomeado + o **mecanismo central concreto** (no eixo Soft, a **Conta de Poucos**: filtro, não volume) + 3 passos (cada um quebra uma objeção e tira uma dor).
+- **Bloco 1 · Narrativa**, Cliente Ideal (persona-âncora com nome, o avatar do usuário) · Problema Geral · **Problema Avançado** (o EXCESSO: as soluções que ele já comprou pra escalar viraram peças que ele carrega; o inimigo é o excesso, não a tática) · Promessa · Projeção de Resultado.
+- **Bloco 2 · Mecanismo**, método nomeado + o **mecanismo central concreto** (filtro, não volume) + 3 passos (cada um quebra uma objeção e tira uma dor).
 - **Bloco 3 · Oferta**, abre pela **PUV**; uma oferta em **níveis de acesso** (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada. Engenharia completa (anti-raso da Oferta acima).
 - **Saída 1 · Perfil Enxuto**, @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
 - **Saída 2 · Fundação de Headlines**, destilação do NMO (alimenta `soft-conteudo`).

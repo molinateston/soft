@@ -19,8 +19,8 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 - `soft-conteudo`
 - `soft-funil`
 - `soft-vendas`
-- `soft-webinario`
 - `soft-lancamento-pago`
+- `soft-designer`
 - `soft-treino`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

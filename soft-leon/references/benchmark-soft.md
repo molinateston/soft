@@ -32,7 +32,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa likes (sinalético, não primário) | 4% | 10% | 2% | Insights da peça |
 | Comentários significativos (sem emoji solto) | 0,5% | 2% | 0,2% | Contagem manual |
 
-**Sinal de vazamento aqui = peça não tem ponta filtrante.** Cliente lê, acha bonitinho, mas não sente urgência de salvar pra revisitar nem de compartilhar pra alguém que precisa. Conserta o ângulo (reference as embalagens de carrossel (`soft-conteudo`) da skill carrossel-3c) ou o desfecho da peça.
+**Sinal de vazamento aqui = peça não tem ponta filtrante.** Cliente lê, acha bonitinho, mas não sente urgência de salvar pra revisitar nem de compartilhar pra alguém que precisa. Conserta o ângulo (reference as embalagens de carrossel da skill `soft-conteudo`) ou o desfecho da peça.
 
 ### Etapa 3 — Engajamento qualificado → Clique na bio/Carta
 
@@ -42,7 +42,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | CTR no link da Carta | 1% | 3% | 0,5% | Encurtador (Bitly, link nativo IG) |
 | Cliques no botão "Ver Mais" do Reel | 5% dos que assistiram 50%+ | 15% | 2% | Insights do Reel |
 
-**Sinal de vazamento aqui = bio fraca ou CTA da peça inexistente.** Peça não direciona pra ação clara, ou direciona mas a bio não vende clique. Conserta CTA na peça + bio (reference o Perfil Enxuto (`soft-posicionamento`) da skill posicionamento-incomum).
+**Sinal de vazamento aqui = bio fraca ou CTA da peça inexistente.** Peça não direciona pra ação clara, ou direciona mas a bio não vende clique. Conserta CTA na peça + bio (reference o Perfil Enxuto da skill `soft-posicionamento`).
 
 ### Etapa 4 — Clique → DM qualificado
 
@@ -52,7 +52,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa peça assistida → DM (sem Carta no caminho) | 0,5% | 2% | 0,2% | DMs novos / alcance qualificado |
 | Taxa palavra-chave do Reel → DM | 3% | 10% | 1% | DMs com palavra-chave / cliques no Reel |
 
-**Sinal de vazamento aqui = Carta fraca ou genérica.** Lead lê, não se reconhece, não se identifica com a Complexidade Digital nomeada, não aceita o método. Conserta a Carta (skill `soft-leon-cartavendas`).
+**Sinal de vazamento aqui = Carta fraca ou genérica.** Lead lê, não se reconhece, não se identifica com a Complexidade Digital nomeada, não aceita o método. Conserta a Carta (skill `soft-funil`).
 
 ### Etapa 5 — DM qualificado → Conversa WhatsApp
 
@@ -62,7 +62,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa resposta no DM em até 1h | 70% | 95% | 50% | WhatsApp Business |
 | Taxa conversa qualificada (nicho certo) | 60% | 85% | 40% | Análise manual ou CRM |
 
-**Sinal de vazamento aqui = primeira mensagem mal calibrada ou demora de resposta.** Lead chega quente, esfria em 24h. Conserta script de primeira mensagem (skill `soft-leon-comercial`).
+**Sinal de vazamento aqui = primeira mensagem mal calibrada ou demora de resposta.** Lead chega quente, esfria em 24h. Conserta script de primeira mensagem (skill `soft-vendas`).
 
 ### Etapa 6 — Conversa WhatsApp → Reunião/Conversa qualificada realizada
 
@@ -87,7 +87,7 @@ Pra ticket alto (R$5.000+), inclui reunião agendada.
 | Taxa fechamento Lead morno → Downsell passivo | 5% | 15% | 3% | Vendas / cliques na Carta Downsell |
 | Taxa upsell Downsell → Principal (em 60d) | 10% | 25% | 5% | CRM histórico |
 
-**Sinal de vazamento aqui = uma das 7 fases conversão falhou.** Recuo Estratégico fraco (lead se sente vendido), Descoberta rasa (não achou 3ª camada), Implicação fraca (não amplificou dor), Conexão genérica (não reformulou na voz do lead), Apresentação confusa (cliente não entendeu o método), Isolamento pulado (objeção real ficou escondida), Fechamento pressionado. Volta pra reference de scripts (skill `soft-leon-comercial`).
+**Sinal de vazamento aqui = uma das 7 fases conversão falhou.** Recuo Estratégico fraco (lead se sente vendido), Descoberta rasa (não achou 3ª camada), Implicação fraca (não amplificou dor), Conexão genérica (não reformulou na voz do lead), Apresentação confusa (cliente não entendeu o método), Isolamento pulado (objeção real ficou escondida), Fechamento pressionado. Volta pra reference de scripts (skill `soft-vendas`).
 
 ---
 

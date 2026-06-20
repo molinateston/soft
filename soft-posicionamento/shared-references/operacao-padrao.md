@@ -81,24 +81,29 @@ Adapte vocabulário ao nicho do cliente, mas NUNCA relaxe os princípios acima.
 
 Toda skill de peça do sistema Soft deve consultar, na primeira invocação:
 
-1. **`guia/CODIGO-DE-ESCRITA.md`** — os 5 movimentos de persuasão
+1. **`guia/CODIGO-DE-ESCRITA.md`** — as 8 leis + a estrutura-mãe
 2. **`shared-references/adaptacao-semantica.md`** — adaptação do vocabulário ao nicho do cliente
 3. **`shared-references/dicionario-conversacional.md`** — tom, ritmo, construção de frases
-4. **`shared-references/operacao-padrao.md`** — este arquivo
+4. **`shared-references/filtro-anti-ia/`** — os padrões banidos (toda copy passa, tira o robô)
+5. **`shared-references/filtro-mobile-first/`** — quando a peça vira visual (carrossel, página, criativo)
+6. **`shared-references/crivo/`** — o gate de força (ancoragem + simulação + CUB), que roda no fim de TODA peça (Seção 5). Dá a força; o anti-ia só limpa.
+7. **`shared-references/operacao-padrao.md`** — este arquivo
 
 Depois disso, cada skill carrega references específicos conforme a etapa do trabalho.
 
 ---
 
-## 5. Auditoria silenciosa antes da entrega
+## 5. Gate de saída obrigatório (o Crivo) antes da entrega
 
-Toda peça passa por auditoria silenciosa antes de ser entregue:
+Toda peça passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de ser entregue. **Bloqueante**: peça que falha não sai, é consertada e re-rodada. **Não existe "se 4 ou 5 passam, entrega"** — o veredito é o pior bloco. O gate roda nesta ordem:
 
-1. Checklist dos 5 movimentos — se 4 ou 5 passam, entrega. Se ≤3, reescreve os blocos fracos.
-2. Checklist dos anti-padrões específicos do formato (cada skill tem o seu).
-3. Pergunta única de diagnóstico: *"Se eu apagasse o nome do criador, essa peça poderia ter sido escrita por qualquer pessoa do nicho?"* — se sim, reescreve.
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim literal da fonte real do cliente E carrega a dor (saudação, monossílabo ou número solto entre aspas não conta). Aspa fabricada ou parafraseada como se fosse fala = FALHA.
+2. **Prova NUNCA é inventada.** Número, case, nome, prazo, print, depoimento só entram se vierem do briefing real. Sem prova real, vira placeholder explícito `[CASE: nome + número + prazo a preencher]`, marcado como pendência. Jamais gera número plausível. É o gêmeo da regra anti-verbatim-fabricado.
+3. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+4. **Gate CUB bloqueante + 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela. Inclui a regra-zero (toda tese fecha em chão), a **Ação/CTA com destino real** (peça sem CTA forte FALHA), e o anti-IA.
+5. **Mobile-First** (`shared-references/filtro-mobile-first/`) quando a peça vira visual.
 
-A auditoria é **interna**. O usuário recebe só o output limpo.
+Os 5 movimentos de persuasão e os anti-padrões do formato viram **pré-filtro** (a peça já nasce neles). A auditoria de FORÇA que recusa é o Crivo. A pergunta "se eu apagasse o nome, qualquer um do nicho escreveria?" é a 3ª pergunta do Harry, dentro do gate. A auditoria é interna; o usuário recebe só o output limpo + a tabela do gate.
 
 ---
 

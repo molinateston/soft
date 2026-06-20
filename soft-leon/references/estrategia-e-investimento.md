@@ -1,6 +1,6 @@
 # Estratégia e Investimento
 
-Princípios sobre construção de patrimônio, alocação de ativos, juros compostos e sistemas financeiros. Aplicar quando o caso pede orientação sobre investimento, planejamento financeiro ou construção de patrimônio. **Esta skill fornece princípios — não conselho específico de investimento.**
+Princípios sobre construção de patrimônio, alocação de ativos, juros compostos e sistemas financeiros. Aplicar quando o caso pede orientação sobre investimento, planejamento financeiro ou construção de patrimônio. **Esta reference do LEON fornece princípios — não conselho específico de investimento.**
 
 ---
 

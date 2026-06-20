@@ -1,6 +1,6 @@
 # Princípio do Cabimento
 
-A regra-mãe da Fase 3.
+A regra-mãe da Fase 5.
 
 **Vida primeiro. Operação depois.**
 
@@ -90,13 +90,13 @@ Se você pede pro cliente preencher a tabela hora a hora, ele descobre:
 
 Resultado: a tabela revela que ele tem **22-28h por semana disponíveis**, não 40.
 
-Essa é a base honesta da Fase 3.
+Essa é a base honesta da Fase 5.
 
 ---
 
 ## A regra dura
 
-Se a rotina desenhada na Fase 3 exige **mais horas** do que o cliente tem disponível na tabela:
+Se a rotina desenhada na Fase 5 exige **mais horas** do que o cliente tem disponível na tabela:
 
 **Corta operação. Nunca corta vida.**
 
@@ -150,7 +150,7 @@ Quem ignora o Cabimento ganha:
 
 ---
 
-## Pergunta-filtro pra qualquer decisão da Fase 3
+## Pergunta-filtro pra qualquer decisão da Fase 5
 
 Antes de aceitar qualquer rotina, calendário, esteira ou meta:
 
@@ -168,7 +168,7 @@ Se não cabe, refaz antes de aceitar.
 
 ## A consequência operacional
 
-A Fase 3 só fecha quando o cliente passou pelo teste do Cabimento.
+A Fase 5 só fecha quando o cliente passou pelo teste do Cabimento.
 
 Se ele tentou aprovar uma rotina que não cabe, a skill manda voltar.
 
@@ -176,7 +176,7 @@ Se ele insistiu que "tem que dar", a skill aponta o risco.
 
 Se ele aceitou consciente do trade-off (vida menos plena por 6 meses pra alcançar algo específico), a skill registra o trade-off e propõe revisão obrigatória em 90 dias.
 
-Sem teste de Cabimento aprovado, a Fase 3 não está concluída.
+Sem teste de Cabimento aprovado, a Fase 5 não está concluída.
 
 ---
 

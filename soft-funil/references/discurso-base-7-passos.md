@@ -199,8 +199,8 @@ Tamanho alvo: 800-1.500 palavras (4-7 min de leitura quando virar Carta).
 Após aprovação da versão-mestre, adapta pro formato escolhido:
 - Carta Minimalista → ver Cap 4.4 (guia) + `modo-carta-minimalista.md`
 - Micro Aula → ver `modo-micro-aula.md`
-- Landing Page → skill `soft-funil` (separada)
-- Webinar → skill `soft-leon` (separada)
+- Landing Page → `references/processo-landingpage.md`
+- Webinar → skill `soft-webinario`
 
 ### Etapa 4, Auditoria antes de entregar
 

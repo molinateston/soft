@@ -245,7 +245,7 @@ Não é "vou trabalhar mais um pouquinho". É refaz.
 
 ## A documentação dos blocos
 
-Cliente sai da Fase 3 com:
+Cliente sai da Fase 5 com:
 
 - Tabela semanal de blocos (visual)
 - Política de resposta documentada (pra clientes)

@@ -1,6 +1,27 @@
 # Prospecção Ativa por DM (Modo A+)
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
+
 **Complemento ao Modo A (Script Builder).** Enquanto o script principal assume que o lead chega pela Carta, esta reference cobre o fluxo inverso: **o especialista (ou SDR) vai ativamente até o lead na DM do Instagram pra puxá-lo pro pré-qualificador**.
+
+---
+
+## Índice
+
+- 1. Princípio central (leia antes de qualquer coisa)
+- 2. Os 3 cenários de prospecção
+- 3. Framework de qualificação por DM (os 4 elementos)
+- 4. Como entregar o pré-qualificador (o momento-chave)
+- 5. Downsell pré-qualificador (quando o lead não é pra call)
+- 6. A Fase 0, Abertura DM (antes do script principal)
+- 7. Protocolo de formulário pré-call (opcional)
+- 8. Protocolo de confirmação pré-reunião
+- 9. Sinais que a skill detecta e comenta no output
+- 10. Regras universais da prospecção Soft
+- 11. Checklist antes de mandar qualquer DM de prospecção
+- 12. Como a skill entrega uma prospecção quando pedida
+- Gate de saída obrigatório, o Crivo (bloqueante)
 
 ---
 
@@ -298,3 +319,13 @@ Quando o usuário pede *"me ajuda a mandar DM pra esse lead"* ou *"como abordo e
 6. **Checklist mini** (3 bullets), as 3 coisas pro usuário não esquecer.
 
 **Nunca entrega "um template genérico"**, sempre contextualizado pelo sinal do lead que o usuário descreveu.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

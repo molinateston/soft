@@ -102,7 +102,7 @@ Não no DevTools. Celular real.
 
 ---
 
-## Passo 8 — Anti-IA (cruzar com soft-anti-ia)
+## Passo 8 — Anti-IA (cruzar com `shared-references/filtro-anti-ia/`)
 
 - [ ] Zero em dashes "—" no texto
 - [ ] Nenhuma frase-emoldura

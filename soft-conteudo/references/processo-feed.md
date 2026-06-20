@@ -19,7 +19,7 @@ Esta skill é o **processo de execução**, como produzir a peça. As **definiç
 
 A peça pronta pra publicar, na voz do especialista:
 
-- **Carrossel**, capa + 7 a 10 slides na Fórmula 7. A peça que mais converte no feed. Sai daqui como copy slide a slide; o visual em PNG é da frente de design (`processo-design.md`).
+- **Carrossel**, capa + 7 a 10 slides na Fórmula 7. A peça que mais converte no feed. A produção (copy slide a slide + visual em PNG) é da skill `soft-designer`; aqui você define a tese e o pilar e aciona ela.
 - **Reel**, roteiro de 1 a 2 minutos: gancho nos 3 primeiros segundos (3 frentes, falar, mostrar, texto na tela) + corpo pela espinha + convite. Sai daqui como roteiro falado/cena; a gravação é do especialista.
 
 Junto, quando o pedido pede: **escalar** uma peça que funcionou (assunto ou estrutura, regra do "faz mais") e **impulsionar** conteúdo orgânico que já provou ROI.
@@ -31,7 +31,7 @@ Junto, quando o pedido pede: **escalar** uma peça que funcionou (assunto ou est
 | Stories (CARO · Caixinha · Sequências · Infiltrado) | `processo-stories.md` |
 | Headline / capa / gancho isolado | `processo-headlines.md` |
 | Perfil, bio, destaques, Nome-SEO | `soft-posicionamento` (Perfil Enxuto) |
-| Visual dos slides do Carrossel (PNGs) | `processo-design.md` |
+| Carrossel completo (copy slide a slide + PNG) | skill `soft-designer` |
 | Adaptar pra LinkedIn, X, YouTube | fora do core (multiplataforma) |
 | Carta / Vídeo Minimalista | `soft-funil` |
 | Script comercial / DM de prospecção | `soft-funil` |
@@ -80,7 +80,7 @@ Além disso, toda peça atravessa, sem exceção, os filtros universais da **`sh
 
 Detectou falha, reescreve o ponto. Só o resultado limpo vai pro usuário.
 
-**O gate de força (obrigatório, depois dos filtros).** Limpo não é forte. Depois do anti-IA, a peça passa pelo **Crivo da Copy** (skill `soft-crivo-copy`): puxa o verbatim da entrada (a primeira linha nasce de fala real do cliente, do VoC, não de rótulo), lê a peça na pele do avatar (a fita de reação, onde ele larga e onde se reconhece), e preenche o gate CUB bloqueante (Confuso, Inacreditável, Boring, mais as 3 perguntas do Harry por headline). Imprime a tabela do gate junto com a peça. Peça que falha no gate não é mostrada, é consertada e re-rodada. Anti-IA tira o robô, o Crivo dá a força. Os dois, nessa ordem.
+**O gate de força (obrigatório, depois dos filtros).** Limpo não é forte. Depois do anti-IA, a peça passa pelo **Crivo** (o Crivo embutido, `shared-references/crivo/`): puxa o verbatim da entrada (a primeira linha nasce de fala real do cliente, do VoC, não de rótulo), lê a peça na pele do avatar (a fita de reação, onde ele larga e onde se reconhece), e preenche o gate CUB bloqueante (Confuso, Inacreditável, Boring, mais as 3 perguntas do Harry por headline). Imprime a tabela do gate junto com a peça. Peça que falha no gate não é mostrada, é consertada e re-rodada. Anti-IA tira o robô, o Crivo dá a força. Os dois, nessa ordem.
 
 ## Regras de entrega
 - **Filtra, não convence.** A peça não fecha venda, instala a crença e qualifica. A venda acontece depois, na Carta e no WhatsApp. Audiência desqualificada não é cliente: alcance grande de estranho é vaidade, não funil.
@@ -93,7 +93,7 @@ Detectou falha, reescreve o ponto. Só o resultado limpo vai pro usuário.
 ## Referências operacionais (complementam o guia)
 A engenharia (Fórmula 7, 7 gatilhos, Moeda Social, 30 templates) vive nos Caps 5/6/7. Estes references trazem **execução fina não absorvida no guia**, consulte sob demanda:
 - `references/estrutura-peca.md`, a Estrutura Mãe com 21 padrões nomeados (7 formas de Contexto + 7 de Conteúdo + 7 de CTA), com templates e tabelas de decisão.
-- `references/carrossel-embalagens.md`, 7 arquétipos de embalagem de carrossel + tabela de decisão por matéria-prima.
+- As 7 embalagens de capa do carrossel vivem agora na skill `soft-designer` (junto do motor visual).
 - `references/camadas-conciencia.md`, framework C1/C2/C3 (alcance · convicção · prova viva) e cadência de mix semanal.
 - `references/reels-roteiros-modelo.md`, 6 roteiros de reel escritos integralmente (fala + marcação de tempo + edição) pra clonar e adaptar.
 - `references/reels-producao-em-lote.md`, template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa.
@@ -102,4 +102,4 @@ A engenharia (Fórmula 7, 7 gatilhos, Moeda Social, 30 templates) vive nos Caps 
 - `references/metricas.md`, benchmarks 2026 por plataforma (YouTube, LinkedIn, Substack, Threads, X), sinais oficiais do algoritmo, duplo filtro algorítmico × financeiro.
 
 ## Handoff
-Carrossel pronto (copy) → **`processo-design.md`** desenha os slides em PNG. Headline que precisa de mais profundidade → **`processo-headlines.md`**. Quem para na peça encontra depois o Carrossel (aprofunda) e a **Carta** (`soft-funil`, vende), sem destino na Carta, a peça não tem pra onde levar o leitor.
+Carrossel → a **`soft-designer`** escreve a copy slide a slide e desenha os PNGs. Headline que precisa de mais profundidade → **`processo-headlines.md`**. Quem para na peça encontra depois o Carrossel (aprofunda) e a **Carta** (`soft-funil`, vende), sem destino na Carta, a peça não tem pra onde levar o leitor.

@@ -5,6 +5,43 @@ description: "Skill operadora do SOFT LAUNCH — degrau 3 (topo) da escada de fu
 
 # Soft Launch — o degrau 3 da escada de funis (lançamento pago)
 
+> **Gate de saída obrigatório (toda copy de leitor final).** Página de ingresso, criativos, anúncios, e-mails, qualquer peça que o lead ou o mercado lê passa pelo gate da `shared-references/` antes de entregar: o **Crivo** (`crivo/`, ancoragem + simulação + CUB bloqueante), o **filtro-anti-ia** (tira o robô) e o **mobile-first** (quando vira visual). Peça que falha não sai. Mesma régua das skills orgânicas, porque dinheiro de tráfego não pode ir pra copy que cheira a IA.
+
+## 📦 O QUE ESTA SKILL PRODUZ
+
+**Diagnóstico e decisão (Modo A)**
+- Diagnóstico de viabilidade do lançamento em 6 variáveis (audiência, caixa, histórico, sistema de aquisição, tempo desde o último, capacidade de entrega) com recomendação verde/amarelo/vermelho.
+- Alertas de risco e a régua de cadência segura (máximo 1-2 lançamentos/ano pra cliente Soft).
+
+**Plano completo de lançamento (Modo B)**
+- Escolha de formato recomendado + justificativa (Sala Secreta vs LPSG/Tabari).
+- Cronograma de 30-90 dias e plano de execução semana a semana.
+- Estrutura do evento slot por slot, detalhada pros 6 formatos (noite única, dia longo, múltiplas noites, múltiplos dias, desafio 5 dias, congresso).
+- Estrutura da página de vendas do ingresso.
+- 4 tipos de criativo + roteiros, no padrão nativo/raiz que converte.
+- Plano de tráfego pago com verba, divisão de público (orgânico/quente/frio) e KPIs.
+- Estrutura de pós-venda do ingresso (CRM, manifesto 48h antes, área de membros, lead scoring, sistema de indicações).
+- Order bumps pra CAC zero/positivo (Q&A, gravação, método ancorado).
+- Narrativa de pontos-cegos (conteúdo inédito anti-genérico) que separa lançamento que vende do que não vende.
+- Régua de números/CAC, virada de lotes, dois estímulos, trilha de conscientização, follow-up comercial e roteiro de entregar o ouro na imersão (operação fina).
+- Camada "+ Comercial": aplicação no lugar de checkout, lead score, não-fechar-carrinho, ligação 1:1 de comparecimento e o comercial operado por IA (SDR, transcrição+probabilidade, follow-up pela objeção, roleplay).
+
+**Debriefing (Modo C)**
+- Análise pós-lançamento por etapa (ingresso → comparecimento → conversão → ticket médio) e diagnóstico de gargalos.
+- Plano de ajuste pro próximo lançamento.
+- Plano de integração dos leads/clientes de volta no sistema Soft (cliente Soft) ou plano de continuidade padrão.
+
+**Crise em tempo real (Modo D)**
+- Diagnóstico rápido + ações imediatas pra cenários de crise (ingresso não vende, comparecimento baixo, conversão zero no pitch, audiência fria que não engaja, time comercial parado).
+
+**Transversal**
+- Modulação Soft Business vs padrão de mercado (frequência, pré-requisitos, fechamento, linguagem, narrativa).
+- Tom clínico com frases-âncora, sem promessa grandiosa, citando Holzer e Tabari pelas fontes.
+
+**Serve o agente:** equipa o **LEON orquestrador** como skill-mãe do degrau 3 (invoca Modo A antes do plano e aplica o Crivo); o **cliente final direto** (especialista Soft ou de mercado) que monta o lançamento sozinho pelos 4 modos; e o **braço-comercial** na camada "+ Comercial" (qualifica e entrega o lead quente pro `soft-vendas` fechar no 1:1).
+
+---
+
 Skill operadora do **Soft Launch**: o degrau 3, o topo da escada de funis (Funil Soft → Webinar Soft → **Soft Launch**). É o **lançamento pago do Soft** — evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos validados no mercado brasileiro: **Sala Secreta** (Felipe Holzer — 4 anos consecutivos, ROAS 8x, 7 dígitos) e **Lançamento Pago Semanal Gravado** (Leonardo Tabari, Turbo Academy — 200+ lançamentos, R$100MM+ acumulado).
 
 > Como todo funil Soft, o Soft Launch é **+ Comercial**: ele QUALIFICA o lead (gera o "sim do produto"); o fechamento high-ticket (3k+) é no 1:1 (`soft-vendas`), nunca no checkout do lançamento. O marketing entrega quente; a venda é da `soft-vendas`.
@@ -17,6 +54,10 @@ Skill atende **dois cenários**:
 2. **Cliente fora do Soft Business** — lançamento padrão de mercado, com o mesmo rigor metodológico mas sem aplicar a lente Soft.
 
 A skill orienta. Não recusa. O cliente decide com a informação na mesa.
+
+---
+
+> **Passo 0, sempre: le o perfil do usuario** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho sao DELE, nunca os do Leo (que sao so um perfil de exemplo). Usuario sem perfil (cold start) e roteado pro onboarding (Plano na `soft-posicionamento` + mineracao de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Leo.
 
 ---
 
@@ -202,6 +243,8 @@ A skill **cita ambos pelos nomes** quando puxa material específico, por transpa
 | `order-bumps-cac-zero.md` | Modo B. Order bumps pra ingresso (Q&A, gravação, método ancorado) que viabilizam CAC zero/positivo. |
 | `debriefing-e-integracao.md` | **Modo C sempre.** Análise pós-lançamento + integração com sistema Soft (se cliente Soft) ou plano de continuidade padrão. |
 | `crise-em-lancamento.md` | **Modo D sempre.** Diagnósticos rápidos + ações imediatas pra cenários de crise. |
+| `lancamento-pago-operacao.md` | **Modo B (operação fina) e Modo D.** Manual da prática que costura os formatos: gerar demanda antes, régua de números/CAC, públicos (orgânico>quente>frio), tráfego/criativo nativo, virada de lotes, dois estímulos, trilha de conscientização, follow-up comercial, entregar o ouro na imersão, timing e debriefing. A sabedoria que decide cada escolha. |
+| `aplicacao-e-comercial-operado-por-ia.md` | **Modo B sempre (é o "+ Comercial").** Aplicação no lugar de checkout, lead score, não-fechar-carrinho (escassez no 1:1, não em cupom), ligação 1:1 pra comparecimento, e o Comercial operado por IA (SDR automatizado, transcrição+probabilidade, follow-up pela objeção, roleplay). O que faz o lançamento qualificar e jogar pro `soft-vendas`. |
 
 ---
 

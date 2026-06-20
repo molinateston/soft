@@ -1,5 +1,8 @@
 # VSL Soft — Roteiro Completo
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
+
 Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business. O VSL não é palestra — é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
 
 ---
@@ -169,7 +172,7 @@ Diferença do VSL genérico:
 - [ ] A oferta foi apresentada depois do empilhamento?
 - [ ] O CTA final tem 1 instrução clara sem empolgação artificial?
 - [ ] O tom é consistente do início ao fim — clínico, direto, sem virada de empolgação?
-- [ ] Blair Warren: 4 de 5 movimentos presentes ao longo do vídeo?
+- [ ] Blair Warren (pré-filtro): algum dos 5 movimentos ausente? Reforça antes do Crivo. O veredito final é do Crivo, não dos movimentos.
 
 ---
 
@@ -183,3 +186,13 @@ Diferença do VSL genérico:
 | R$2k+ | VSL não recomendado → Página de Autoridade sem vídeo |
 
 VSL acima de 35 minutos com tráfego frio raramente converte mais que versão mais curta. Sinal pra cortar: se o método tem mais de 4 passos, agrupa 2 por bloco no vídeo.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

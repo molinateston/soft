@@ -93,10 +93,10 @@ As duas têm a mesma estrutura Soft Business. A segunda soa como alguém que ent
 
 | Skill | Onde a tradução entra |
 |---|---|
-| `soft-plano-posicionamento` | Bloco 1 (Discurso), Bloco 3 (Proposta), Bloco 4 (Bio, Destaques) |
-| `soft-z1-conteudos` | Copy dos cards, exceto quando o nicho é marketing |
-| `soft-z1-conteudos` | Tese, blocos de argumento, CTA |
-| `soft-z2-desejo` | Carta inteira, sem exceção |
-| `soft-z3-conversao` | Perguntas do script + respostas-modelo |
+| `soft-posicionamento` | Bloco 1 (Discurso), Bloco 3 (Proposta), Bloco 4 (Bio, Destaques) |
+| `soft-conteudo` | Copy dos cards, exceto quando o nicho é marketing |
+| `soft-conteudo` | Tese, blocos de argumento, CTA |
+| `soft-funil` | Carta inteira, sem exceção |
+| `soft-vendas` | Perguntas do script + respostas-modelo |
 
 **Em todas:** a auditoria silenciosa antes de entregar inclui o teste de adaptação semântica. Se falhar, reescreve o bloco problemático.

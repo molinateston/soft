@@ -168,6 +168,20 @@ Por quê: aspas são pra discurso direto ou citação. IA usa pra "dar tom" a pa
 
 ---
 
+## 13. Falsa agência (coisa que não pensa, com verbo de quem pensa)
+
+❌ "O método entende exatamente onde você está."
+❌ "A estratégia trabalha por você enquanto você dorme."
+❌ "Seu conteúdo conversa com o cliente certo."
+❌ "A IA cuida disso pra você."
+
+✅ "Você entende onde está. O método é só o mapa."
+✅ "Você dorme, e o que você montou ontem segue rodando."
+
+Por quê: dar vontade, intenção ou cuidado a uma coisa inanimada (método, estratégia, IA, conteúdo) é tell estrutural de IA, e envelhece menos que palavra da moda, por isso é traiçoeiro. Quem age é a pessoa; a ferramenta é ferramenta. Devolve a agência pro humano. (Tell estrutural, do stop-slop.)
+
+---
+
 ## Padrões adicionais menores
 
 ### Excesso de "tudo"

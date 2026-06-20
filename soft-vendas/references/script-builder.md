@@ -1,8 +1,24 @@
 # Script Builder, Gerador de Script de Venda Soft
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
+
 Reference principal da skill. Ativada no **Modo A**.
 
 O script builder gera o roteiro de venda sob medida pro especialista, não um template genérico. Cada script é costurado nas 7 fases Soft, enriquecido pelos frameworks consolidados e escrito no campo semântico do nicho (conforme `adaptacao-semantica.md`).
+
+---
+
+## Índice
+
+- 1. Inputs mínimos (pergunta UMA vez se faltar)
+- 2. Mapa de formato por ticket
+- 3. A espinha de 7 fases (inviolável)
+- 4. Regras universais entre fases
+- 5. Como entregar o script final
+- 6. Variações por formato
+- 7. Checklist antes de entregar o script
+- Gate de saída obrigatório, o Crivo (bloqueante)
 
 ---
 
@@ -296,3 +312,13 @@ Depois de coletar os 4 inputs, entrega nesta ordem:
 - [ ] A F7 tem ordem Principal → Condicional → Secundária?
 
 Se qualquer item falhou, reescreve antes de entregar.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

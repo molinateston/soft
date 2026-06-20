@@ -2,7 +2,7 @@
 
 > **Curto, não raso. Conversacional, não casual. Cada linha carrega peso.**
 
-Este arquivo é o "como escrever" do carrossel 3C. Os arquétipos de embalagem (`carrossel-embalagens.md`) decidem **o que** o carrossel diz. Este arquivo decide **como cada frase é escrita** dentro de qualquer embalagem.
+Este arquivo é o "como escrever" do carrossel 3C. Os arquétipos de embalagem (`soft-designer/references/carrossel-embalagens.md`) decidem **o que** o carrossel diz. Este arquivo decide **como cada frase é escrita** dentro de qualquer embalagem.
 
 A diferença entre um carrossel 3C e um "carrossel-aula" não está no conteúdo — está no ritmo. Carrossel-aula é parágrafo corrido com transições explicativas ("agora que você entendeu X, vamos para Y"). Carrossel 3C é frase batida, pausa, próxima frase batida. É **ritmo de conversa de elevador**, não de palestra.
 

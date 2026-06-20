@@ -199,7 +199,7 @@ Sempre aberto exige:
 - Bastidor de clientes ativos
 - Posts de educação que naturalmente puxam pra oferta
 
-A skill `soft-conteudo` (Fase 4) consome esse calendário pra calibrar produção.
+A skill `soft-conteudo` (Fase 2) consome esse calendário pra calibrar produção.
 
 ---
 
@@ -254,7 +254,7 @@ Mudanças que pedem revisão imediata:
 
 ## A documentação do calendário
 
-Cliente sai da Fase 3 com calendário documentado em:
+Cliente sai da Fase 5 com calendário documentado em:
 
 - Notion / Trello / Google Calendar (visualização)
 - Documento de 1 página resumindo as janelas do ano

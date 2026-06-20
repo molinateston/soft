@@ -1,6 +1,9 @@
 
 # Multiplataforma — tática de distribuição (Pilar 2)
 
+> **Passo 0, antes de escrever (entrada ancorada).** Abre a fonte de fala real do cliente (`shared-references/crivo/01-entrada-verbatim.md`) e puxa as falas literais de dor/desejo. A peca nasce ancorada.
+
+
 Tradutor de conteúdo Soft pra plataformas fora do ecossistema Instagram-first. **Nunca é tradução neutra** — é Soft no LinkedIn, Soft no YouTube, Soft no Substack. Se a peça adaptada parece igual às outras da plataforma, perdeu o filtro.
 
 Esta skill é **tática**. A engenharia do conteúdo original (Estrutura Mãe, Fórmula 7, princípios do Feed) vive no guia — não a duplique aqui, aponte pra ela. O valor desta reference é a **engenharia reversa de adaptação**: extrair os papéis do conteúdo-âncora e re-renderizar no formato alvo preservando a função de cada um.
@@ -11,11 +14,11 @@ Esta skill é **tática**. A engenharia do conteúdo original (Estrutura Mãe, F
 
 A Estrutura Mãe (os 5 papéis: Capa · Capa Reserva · Contexto · Conteúdo · CTA) e a Fórmula 7 **moram no guia**, não esta reference. Na primeira invocação da sessão, leia:
 
-- **`/home/cloud/guia-soft-business/05-feed-conteudo.md`** (Cap 5) — onde vive a Estrutura Mãe e a engenharia do conteúdo Soft. **É a base da engenharia reversa desta reference.**
-- **`/home/cloud/guia-soft-business/06-carrossel.md`** (Cap 6) — a Fórmula 7 (os 7 movimentos), pra quando o âncora é um carrossel.
-- **`/home/cloud/guia-soft-business/01-filosofia.md`** (Cap 1) — filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
+- **`guia/05-feed-conteudo.md`** (Cap 5) — onde vive a Estrutura Mãe e a engenharia do conteúdo Soft. **É a base da engenharia reversa desta reference.**
+- **`guia/06-carrossel.md`** (Cap 6) — a Fórmula 7 (os 7 movimentos), pra quando o âncora é um carrossel.
+- **`guia/01-filosofia.md`** (Cap 1) — filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
 
-E a o guia + shared-references para o tom universal (`references/dicionario-conversacional.md` + `references/adaptacao-semantica.md` — **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (Anti-IA e Mobile-First).
+E o tom universal em `shared-references/` (`shared-references/dicionario-conversacional.md` + `shared-references/adaptacao-semantica.md` — **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (`shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/`).
 
 Também obrigatório na primeira invocação:
 - **`references/nucleo-soft-extracao.md`** — o protocolo desta reference: extrai o núcleo Soft do conteúdo-âncora primeiro, adapta depois.
@@ -113,10 +116,10 @@ Consulta `references/plataforma-[nome].md` e adapta cada papel preservando a fun
 
 ### Etapa 6 — Filtros antes de entregar (obrigatório)
 
-A peça adaptada atravessa os **2 filtros da o guia + shared-references** + a checagem de fidelidade Soft:
+A peça adaptada atravessa os **2 filtros de `shared-references/`** + a checagem de fidelidade Soft:
 
-1. **Anti-IA** (toda a copy) — zero em-dashes, nenhum dos 12 padrões banidos, teste em voz alta. Detectou padrão → `o guia/references/filtro-anti-ia/estrategias-reescrita.md`.
-2. **Mobile-First** — só quando a peça é visual (carrossel PDF, thumbnail, guia em PDF/Notion). Detectou falha → `o guia/references/filtro-mobile-first/checklist-final.md`.
+1. **Anti-IA** (toda a copy) — zero em-dashes, nenhum dos 12 padrões banidos, teste em voz alta. Detectou padrão → `shared-references/filtro-anti-ia/estrategias-reescrita.md`.
+2. **Mobile-First** — só quando a peça é visual (carrossel PDF, thumbnail, guia em PDF/Notion). Detectou falha → `shared-references/filtro-mobile-first/checklist-final.md`.
 3. **Fidelidade Soft** (silenciosa):
    - O núcleo Soft (problema, método, contraste, prova, CTA) permaneceu?
    - O tom clínico foi preservado ou vazou jargão da plataforma?
@@ -183,10 +186,14 @@ O carrossel tem N slides mas os 5 papéis não são N unidades — alguns papéi
 - **`references/plataforma-pdf-notion.md`** — PDF / Notion
 - **`references/plataforma-micro-aula.md`** — Distribuição da Micro Aula Soft (hospedagem, cauda, follow-up)
 
-Estrutura Mãe e Fórmula 7 → guia (Cap 5 + Cap 6). Tom e filtros → o guia + shared-references.
+Estrutura Mãe e Fórmula 7 → guia (Cap 5 + Cap 6). Tom e filtros → `shared-references/`.
 
 ---
 
 ## Resumo da regra única
 
 > **Multiplataforma não é tradução. É engenharia reversa. Mapeia os 5 papéis do original (Cap 5 do guia). Re-renderiza no formato alvo preservando função. Núcleo Soft intacto. Tom clínico intacto. CTA filtrante intacto. Filtros Anti-IA + Mobile-First antes de entregar.**
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+A peça adaptada passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de entregar, IGUAL à peça-âncora: ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do Harry + Ação/CTA com destino) → anti-IA. Peça que falha não sai. Adaptar de formato não dispensa o gate.

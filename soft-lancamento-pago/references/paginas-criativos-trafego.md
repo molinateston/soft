@@ -1,5 +1,10 @@
 # Páginas, Criativos e Tráfego Pago
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+>
+> **Ressalva do tráfego FRIO (criativo é sempre peça fria).** O acervo VoC é magro em lead frio, quase tudo é fala de cliente em execução. Então a dor do frio entra como HIPÓTESE de dor de topo, marcada "lastro frio: avatar, não verbatim ancorado", e o gate trata como lastro fino, não N forte. Verbatim de cliente quente vira no máximo a CENA de um problema que o estranho reconhece, nunca linguagem de quem já te conhece.
+
+
 > **Quando consultar:** Modo B sempre (planejamento de campanha) + Modo D quando o problema é "criativo não vende" ou "página não converte".
 
 Cobre os 3 ativos técnicos do lançamento pago: **página de vendas do ingresso**, **criativos para tráfego**, e **estrutura de tráfego pago**. Material consolidado de Holzer (Sala Secreta) e Tabari (LPSG).
@@ -367,3 +372,37 @@ A entrega do ingresso **escala junto com o ticket do produto**. Sem isso, lead q
 Para cliente Soft Business, alerta extra: **distribuição de conteúdo pago contínua** (modelo Euler/Torres com criativos de 5 min) é um sistema próprio, não compatível com lançamento pontual. Cliente Soft que adota distribuição contínua sai do espírito de "injeção pontual" e entra em "presença pago contínua" — funciona, mas é outro jogo.
 
 Skill avisa quando cliente Soft tá flertando com isso. Não bloqueia. Orienta.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
+
+## Anatomia da copy do criativo de ingresso (o que escrever, não só o envelope)
+
+O Bloco 2 desenha o ENVELOPE visual (foto + headline + preço). A copy em si segue esta anatomia, na voz do avatar:
+1. **Gancho-cena** (os 3 primeiros segundos): a cena específica que para o scroll, não a tese.
+2. **Reframe do ponto cego em 1 linha:** a virada que invalida o frame do leitor (A+B+C, da `narrativa-pontos-cegos.md`).
+3. **Prova com dono nominal:** nome + número + prazo REAL, nunca inventado (gate da prova). Sem case real, placeholder `[CASE: nome + número + prazo a preencher]`.
+4. **O que a aula/evento revela** (sem entregar o método): a porta, não o passo a passo.
+5. **CTA com destino real**, pela rota:
+
+| Rota | Destino do CTA | CTA-padrão |
+|---|---|---|
+| Ingresso direto | Checkout | "Garante teu ingresso" |
+| High-ticket Soft (+Comercial) | Aplicação → conversa 1:1 | "Aplica pro diagnóstico, a gente vê se faz sentido" |
+| Isca → aquecimento | Página da isca | "Pega o material e vem pro evento aquecido" |
+
+O cliente Soft fecha no Comercial 1:1, então o destino padrão pra high-ticket NÃO é checkout direto, é a aplicação. O gate reprova CTA que manda pro checkout um produto que se vende na conversa.
+
+## Craft do criativo (os 3 primeiros segundos)
+
+Pro tráfego frio, o hook de 3s é a variável nº 1 do ROAS:
+- **Para o scroll SEM som:** a 1ª frase do caption e o frame 1 do vídeo já entregam a cena-gancho. Legenda na tela.
+- **9:16 default** pra Reels e Stories.
+- O gate (teste dos 2 segundos + "puxa a próxima") roda no FRAME 1 do vídeo, não só na headline de texto.

@@ -20,8 +20,8 @@
         "./soft-conteudo",
         "./soft-funil",
         "./soft-vendas",
-        "./soft-webinario",
         "./soft-lancamento-pago",
+        "./soft-designer",
         "./soft-treino"
       ]
     }

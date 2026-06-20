@@ -116,4 +116,8 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 3. **Cada depoimento tem contexto:** nicho + de onde veio + resultado com número.
 4. **Cada bônus mata objeção nomeada** — nunca é recheio.
 5. **Mobile-first** em todos os blocos.
-6. **Blair Warren auditado** antes de entregar — 4 de 5 movimentos mínimo.
+6. **Blair Warren auditado** antes de entregar (PRÉ-FILTRO): qualquer movimento ausente, reforça antes de entregar, nunca auto-aprova. O veredito FINAL é do Crivo, pior bloco manda (ver o Gate de saída abaixo).
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+A peça adaptada passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de entregar, IGUAL à peça-âncora: ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do Harry + Ação/CTA com destino) → anti-IA. Peça que falha não sai. Adaptar de formato não dispensa o gate.

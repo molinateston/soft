@@ -1,16 +1,16 @@
 
-# soft-ceo
+# CEO (reference do LEON)
 
 ## Identidade
 
-Skill de gestão de empresa para CEO/fundador — do zero ao IPO. Combina os 4 cânones mais densos do tema:
+Competência de gestão de empresa para CEO/fundador — do zero ao IPO. O LEON a carrega e consulta; não é uma skill à parte. Combina os 4 cânones mais densos do tema:
 
 - **Escola do output gerencial** — operação, rituais, alavancagem gerencial, OKRs
 - **Escola das empresas que duram** — cultura, estratégia, decisão
 - **Escola da gestão dona/meritocrática** — gente, meritocracia, capital, brutal execution
 - **Fundamentos de negócio destilados** — fundamentos amplos, sistemas, decisão pessoal
 
-Esta skill **não usa o método Soft Business** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário — incluindo o Léo escalando Soft Business para empresa, o cliente do Léo que cresceu além do solo, e empresários genéricos.
+Esta reference do LEON **não usa o método Soft Business** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário — incluindo o Léo escalando Soft Business para empresa, o cliente do Léo que cresceu além do solo, e empresários genéricos.
 
 ---
 
@@ -233,7 +233,7 @@ Etapa 3 — Cadência semanal/mensal/trimestral
 - Cliente quer **posicionamento** → invoca `soft-posicionamento`
 - Cliente quer **construção/reforma física** → invoca `projeto-construcao`
 
-> Esta skill é **estratégica e operacional**, não de produção de copy ou conteúdo.
+> Esta reference do LEON é **estratégica e operacional**, não de produção de copy ou conteúdo.
 
 ---
 

@@ -57,6 +57,8 @@ Caixa de perguntas onde você planta e/ou responde provando competência. É o �
 3. **Bastidor de entrega**, *"3ª sessão de implementação hoje. Cliente sai daqui com tudo rodando."*
 4. **Transformação (antes/depois físico, número, resultado documentado)**, *"-8kg em 45 dias. Comendo pizza no fim de semana."*
 
+> **Nicho regulado (saúde, jurídico, finanças):** os tipos 2 e 4 acima (depoimento de resultado, antes/depois, prazo cravado tipo "-8kg em 45 dias") são proibidos por conselho de classe. Nesses nichos a peça roda o `shared-references/crivo/04-gate-regulado.md`: a prova vira autoridade, mecanismo demonstrado e educação, sem promessa de resultado nem prazo. Estes 4 tipos valem pra nicho NÃO-regulado (negócio, marketing, info).
+
 **Quando fazer:** 1/dia quando tiver case novo. Sempre que chegar case, usa na hora.
 
 **Regra de ouro: sempre sobe pro destaque "Resultados".** Visitante novo vê prova social imediata sem você ter que repostar. Organização:

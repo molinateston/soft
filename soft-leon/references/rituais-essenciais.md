@@ -23,7 +23,7 @@ Mais que 3 vira burocracia. Menos que 3 vira caos.
 
 ## A premissa
 
-Rotina não se sustenta sozinha. Sem revisão, qualquer estrutura desenhada na Fase 3 se desorganiza em semanas.
+Rotina não se sustenta sozinha. Sem revisão, qualquer estrutura desenhada na Fase 5 (Rotina) se desorganiza em semanas.
 
 Os 3 rituais são pontos de checagem regulares que:
 - Mantêm a operação alinhada com a meta
@@ -201,7 +201,7 @@ Responder 5 perguntas duras:
 4. **Apareceu nicho novo / público novo que merece atenção?**
 5. **Eu ainda quero esse negócio dessa forma?** (pergunta existencial)
 
-**Etapa 3 — Calibrar Fase 3 (90min)**
+**Etapa 3 — Calibrar Fase 5 (90min)**
 
 Se algo precisa mudar:
 - Refazer meta-realista (a conta)
@@ -247,7 +247,7 @@ Cliente que pula:
 Cliente que pula:
 - 1 auditoria trimestral: alerta máximo. Operação pode estar com problema invisível.
 
-Os rituais são o que mantém a Fase 3 viva. Sem eles, o documento da Fase 3 vira papel morto.
+Os rituais são o que mantém a Fase 5 viva. Sem eles, o documento da Fase 5 vira papel morto.
 
 ---
 
@@ -279,13 +279,13 @@ Os rituais são o que mantém a Fase 3 viva. Sem eles, o documento da Fase 3 vir
 ### Final do trimestre
 - Primeira auditoria trimestral
 - Revisão dos documentos acumulados
-- Calibragem completa da Fase 3
+- Calibragem completa da Fase 5
 
 ---
 
 ## A documentação dos rituais
 
-Cliente sai da Fase 3 com:
+Cliente sai da Fase 5 com:
 
 - Calendário com os 3 rituais já bloqueados (1 ano à frente)
 - Template de revisão semanal (1 página)
@@ -329,4 +329,4 @@ Cada ritual precisa gerar 1-3 ações concretas pra próxima janela de tempo.
 6. [ ] Cônjuge sabe que esses 3 horários são protegidos?
 7. [ ] Os rituais cabem dentro dos blocos definidos (não viram extra)?
 
-Se algum item falhar, organiza antes de fechar Fase 3.
+Se algum item falhar, organiza antes de fechar Fase 5.

@@ -48,3 +48,13 @@ Este doc é o que separa um plano genérico de um plano que faz o especialista p
 - **Venda consultiva = diagnóstico que evidencia o quão preso ele está + plano de MUDANÇA MENTAL** (não passo a passo). Seta expectativa honesta (não promete 100%, promete melhorar as áreas). Mostra resultado sem medo: "o mecanismo é o mesmo — não te entrego o corpo do The Rock, mas o método que usei nele eu uso em você."
 - **Ser pequeno é a vantagem:** proximidade radical (poucas reuniões/mês, acesso direto) é o oposto da lógica dominante e difícil de copiar. Não queira fazer o que os grandes fazem.
 - **Sistema de prova:** instala a cultura do cliente dar feedback de resultado (semanal/mensal) → vira print → entra na carta e nos destaques. "As pessoas chegam pelo número (o milagre), mas ficam pelo processo (a entrega humana)."
+
+
+## Gate de saída do Plano, o Crivo (bloqueante)
+
+O Plano é a fundação de onde TODAS as outras skills escrevem. Plano fraco vira garbage-in pra todas. Antes do handoff, o Plano passa pelo Crivo embutido em `shared-references/crivo/`, adaptado pro artefato "plano":
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda DOR do avatar citada bate em verbatim literal da super-pesquisa. Dor inventada, sem fala real, reprova.
+2. **As 3 perguntas do Harry** (`crivo/03-gate-cub.md`) na PUV e no Mecanismo nomeado: dá pra ver? dá pra falsificar? E a mais dura: **só você pode dizer (o concorrente do nicho não assina)?** PUV ou mecanismo que cabe em qualquer concorrente reprova.
+3. **Veredito binário com tabela.** UMA falha reprova e re-roda. Substitui a auto-aprovação silenciosa ("se 4 ou 5 passam, entrega"): aqui, uma falha não passa.
+
+Sem o Plano passar no Crivo, ele não vira fundação das filhas, e o método inteiro herda a fraqueza.

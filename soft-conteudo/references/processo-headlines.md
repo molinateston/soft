@@ -1,6 +1,9 @@
 
 # Headlines, Pilar 2 · Feed (a abertura que para o scroll)
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
+
+
 A decisão de ficar ou pular acontece em menos de 2 segundos. A abertura é 90% do jogo. Esta skill gera headlines auditadas em segundos quando há fundação empacada, e gera mesmo sem ela, em modo input livre. Não inventa teoria: executa o método do guia.
 
 ## A fonte é o guia, leia primeiro
@@ -89,3 +92,13 @@ Os 30 templates, os 7 gatilhos e os 3 tipos vivem no Cap 7. Estes references tra
 ## Handoff
 
 Headlines abrem a peça, o corpo (Carrossel, Reel, Story) é das outras frentes (`processo-feed.md`, `processo-stories.md`). A headline é só os primeiros 3 segundos; a Fórmula 7 conduz o resto. Repetir a mesma tese em ângulos diferentes é o que constrói a percepção: cada post é cheque, repetição insuportável é o trabalho.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**

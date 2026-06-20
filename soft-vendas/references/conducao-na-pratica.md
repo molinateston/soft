@@ -38,5 +38,8 @@ Não repete a mecânica (as 7 fases, o isolamento de objeção, o banco de obje�
 ## 7. Grava as reuniões e aprende os padrões
 - **A reunião de venda é dado, não evento perdido.** Grava as reuniões, joga na IA, sumariza — e aprende os padrões: onde o lead esfria, qual objeção volta sempre, qual frase fecha. O especialista melhora a venda lendo a própria venda, não chutando. Cada conversa analisada contra o próprio padrão afia a próxima.
 
+## O gate de saída (todo script e mensagem)
+Antes de entregar um script de venda, mensagem de prospecção no Direct ou follow-up, roda o **Crivo** (o Crivo embutido, `shared-references/crivo/`): o lead lê a mensagem com o mesmo ceticismo do scroll. Lê na pele dele, passa pelo gate CUB bloqueante. Mensagem genérica que ele ignora, ou promessa sem chão que aumenta a desconfiança, não vai pro cliente, é consertada antes. Detalhe em `shared-references/crivo/`.
+
 ## O fio que costura tudo
 A venda Soft **revela a dor real e pede a decisão** — sem empurrar, sem mágica, sem follow-up eterno. Ancora no número, é honesta sobre o resultado, mostra o case sem medo, vende a proximidade que os grandes não copiam, e instala um sistema de prova que vira marketing. Vende libertando: o cliente sai com clareza, comprando ou não. Lead que precisa ser arrastado não é cliente, é problema futuro — e o método solta sem ressentimento.

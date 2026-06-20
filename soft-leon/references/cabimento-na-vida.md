@@ -1,6 +1,6 @@
 # Cabimento na Vida
 
-O teste final da Fase 3. Binário.
+O teste final da Fase 5. Binário.
 
 Aqui se compara o exigido pela rotina com o disponível pela vida. Se passou, opera. Se sobrou, está bem. Se faltou, refaz.
 
@@ -276,7 +276,7 @@ A diferença não está no que se ganha. Está no que se mantém.
 7. [ ] Cônjuge (ou pessoa da casa) viu a tabela?
 8. [ ] Operação cabe na semana normal — não só na semana boa?
 
-Se algum item falhar, refaz antes de fechar a Fase 3.
+Se algum item falhar, refaz antes de fechar a Fase 5.
 
 ---
 

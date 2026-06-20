@@ -186,7 +186,7 @@ Cada um vai pra um destino específico no sistema Soft.
 **Risco se não integrar:** vira base "esfriando" que só será acionada no próximo lançamento.
 
 **Destino Soft:**
-- Entram no fluxo da **Carta Minimalista** (`soft-z2-desejo` puxa a estrutura)
+- Entram no fluxo da **Carta Minimalista** (`soft-funil` puxa a estrutura)
 - Recebem sequência de e-mail/WhatsApp leve por 30-45 dias com conteúdo que reforça o método (não o lançamento)
 - Entram no público de remarketing dos Carrosséis 3C e Reels Lo-fi do conteúdo Z1
 - Stories CARO do dia-a-dia continua endereçando dores deles (audiência crescida)
@@ -197,7 +197,7 @@ Cada um vai pra um destino específico no sistema Soft.
 
 **Destino Soft:**
 - Entra no fluxo de entrega do produto (não muda)
-- Após resultado concreto (60-90 dias), invocação automática de `indicacoes-pos-venda` (skill comercial) — pede indicação + testemunho estruturado
+- Após resultado concreto (60-90 dias), invocação automática de `soft-vendas` (reference `indicacoes-pos-venda`) — pede indicação + testemunho estruturado
 - Cliente vira input de testemunho pra próximos lançamentos E pra venda constante
 - Pode virar parte do banco de cases do Soft (perfil + Carta)
 
@@ -215,8 +215,8 @@ Cada um vai pra um destino específico no sistema Soft.
 ### Integração 4 — Aprendizado
 
 **Destino Soft:**
-- Pesquisa pós-compra → insumo pra `soft-plano-posicionamento` atualizar avatar e Posicionamento Incomum
-- Objeções recorrentes → entram no banco de objeções da `soft-z3-conversao`
+- Pesquisa pós-compra → insumo pra `soft-posicionamento` atualizar avatar e Posicionamento Incomum
+- Objeções recorrentes → entram no banco de objeções da `soft-vendas`
 - Padrões observados na aula → ajusta linguagem da Carta Minimalista
 - Insights sobre o nicho → alimentam carrosséis e reels do próximo trimestre
 
@@ -315,7 +315,7 @@ Documento de 1 página com:
 
 Reunião de 90 min:
 - Cada Head responsável por seu eixo
-- Brutal facts confrontados (princípio Stockdale do `soft-ceo`)
+- Brutal facts confrontados (princípio Stockdale do `soft-leon`)
 - Decisões saem com responsável + prazo
 
 ### Pra cliente Soft Business

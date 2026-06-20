@@ -189,7 +189,7 @@ Não é falta de esforço. É arquitetura.
 
 **Exemplos:**
 
-✅ *"Marina, advogada trabalhista. Fechava 1 em 10 consultas gratuitas havia 2 anos. Primeiro cliente de R$8.500 em 14 dias sem reunião prévia."*
+✅ *"Joana, advogada trabalhista. Fechava 1 em 10 consultas gratuitas havia 2 anos. Primeiro cliente de R$8.500 em 14 dias sem reunião prévia."* (exemplo de outro nicho pra ilustrar a estrutura, nunca copiado pro usuário)
 
 ❌ *"Incrível! Mudou minha vida completamente! Super recomendo!"* — zero evidência, zero credibilidade.
 
