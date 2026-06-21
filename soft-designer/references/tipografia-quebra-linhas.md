@@ -108,7 +108,7 @@ Se uma palavra longa estoura a largura do container:
 
 ## Como implementar no HTML
 
-**Sempre use `<br>` explícito no título.** Não confie em `word-wrap` do browser.
+**Sempre use `<br>` explícito no título.** Não confie em `word-wrap` do browser. Isso vale **também** pra `text-wrap: balance` e `text-wrap: pretty`: em render headless (Playwright/Chromium) eles **não seguram widow de forma confiável**, principalmente em bullet e span inline (já vazou palavra órfã por confiar neles). A lei é `<br>` manual + widow-check, sempre; o CSS de wrap é no máximo um reforço, nunca a garantia.
 
 ```html
 <h1 class="titulo">

@@ -125,6 +125,16 @@ Pra cada slide, pegue a função detectada no Passo 1 e escolha o layout corresp
 
 Não invente layout novo. Se o slide não encaixa em nenhum, escolha o mais próximo e adapte respeitando padding/escala da família.
 
+**Ritmo orgânico, não force título+corpo em todo card.** A hierarquia de 2 níveis (Regra 2) é **teto, não obrigação**: muitos cards ficam mais fortes SEM título. Se 3+ cards seguidos usam o mesmo molde (título grande + corpo), o carrossel vira template e cansa, quebre o padrão. Varie a forma pela função do card:
+
+- **Afirmação pura** (uma frase grande sozinha, sem corpo) na virada e no soco.
+- **Lista / chips** sempre que o card **enumera** coisas. Enumeração nunca vira prosa amassada: "posta story, posta no feed, manda direct" vira três itens de lista (ou chips), não uma frase corrida. Lista é mais escaneável e quebra o padrão visual do bloco de texto.
+- **Prosa** (parágrafo fluido sem título, com 1–2 palavras em accent no meio) pra dor que precisa respirar.
+- **Número dominante** (o dado gigante ocupando o card) na prova.
+- **Título + corpo** só quando os dois realmente somam, não por inércia.
+
+Regra prática no Passo 1: ao detectar a função de cada card, decida também a **forma** (afirmação / lista / prosa / número / título+corpo) e garanta variação ao longo do carrossel. Card que enumera → lista, sempre.
+
 ### Passo 5, Gere o HTML com Python
 
 **Sempre use Python pra gerar o HTML.** Nunca shell heredoc, nunca echo, `$` e crase corrompem strings. Use `scripts/build_carousel.py` como esqueleto base: já tem o template `assets/template-base.html` (viewport 1080×1350), o sistema de slot `{{FONT_LINKS}}` / `{{SLIDES}}`, e o wrapping `.slide-wrapper > .slide-label + .slide` (necessário pra exportação).
