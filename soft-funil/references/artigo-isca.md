@@ -34,7 +34,7 @@ Cada movimento tem uma função. A ordem importa — é uma escada de percepçã
 - **Reframe causa > resultado.** O leitor reposiciona o que acha que precisa: do atalho tático pra causa estrutural. E a causa estrutural é exatamente o que o produto entrega. Vendeu sem pedir pra comprar.
 
 ## Por que isso é Soft (e onde encaixa)
-É o método na veia: **filtra e convence revelando, nunca empurra**; mecanismo nomeado; custo invisível ("o tamanho do problema que você não via"); convite-não-pitch (o mesmo papel do pré-qualificador/Carta); prova honesta. O "convite em Doc de 4-5 páginas" é a **Carta Minimalista** (`processo-desejo.md`) em outra embalagem. A "marca que torna a call desnecessária por desenho" é o **Posicionamento Incomum + Funil Minimalista** — a tese-mãe do método.
+É o método na veia: **filtra e convence revelando, nunca empurra**; mecanismo nomeado; custo invisível ("o tamanho do problema que você não via"); convite-não-pitch (o mesmo papel do pré-qualificador/Carta); prova honesta. O "convite em Doc de 4-5 páginas" é a **Mini Carta** (`processo-desejo.md`) em outra embalagem. A "marca que torna a call desnecessária por desenho" é o **Posicionamento Incomum + Funil Minimalista** — a tese-mãe do método.
 
 ## Erros que matam o Artigo-Isca
 - **Entregar o COMO de graça** → vira tutorial, não sobra produto. Guarda o como.

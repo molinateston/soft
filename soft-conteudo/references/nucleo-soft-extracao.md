@@ -14,7 +14,7 @@ A dor real, não a superficial. O efeito colateral que as soluções comuns cria
 *Ex: não é "você não sabe vender", é "o modelo de venda que te ensinaram gera atrito com o cliente certo".*
 
 ### 2. Método com Nome Próprio
-O sistema do especialista, nomeado. Nunca "meu método", sempre o nome exato (Instagram 3C, Carta Minimalista, Protocolo Anti-Sanfona, etc.).
+O sistema do especialista, nomeado. Nunca "meu método", sempre o nome exato (Instagram 3C, Mini Carta, Protocolo Anti-Sanfona, etc.).
 
 ### 3. Vilão-Categoria
 A prática/sistema/crença que tá atacando o cliente. Nunca pessoa ou marca. Sempre categoria.

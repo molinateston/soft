@@ -136,7 +136,7 @@ Exemplo aplicado ao seu nicho (marketing pra especialistas):
 | Módulo do produto | Peça C2 que ele gera |
 |---|---|
 | "Posicionamento Incomum" | Carrossel: *"Por que postar 'sou especialista em X' espanta cliente"*, abre, fecha no método |
-| "Carta Minimalista" | Carrossel: *"O motivo pelo qual proposta detalhada perde pra carta de 4 blocos"* |
+| "Mini Carta" | Carrossel: *"O motivo pelo qual proposta detalhada perde pra carta de 4 blocos"* |
 | "Stories CARO" | Carrossel: *"Por que story de bastidor lota perfil mas não vende"* |
 
 ### A regra do "opinião com técnica"

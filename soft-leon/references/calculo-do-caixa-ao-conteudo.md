@@ -267,7 +267,7 @@ IA Vertical reduz **tempo médio por peça**. Não muda taxas do funil.
 | Carrossel 3C completo | 90 min |
 | Reel Lo-fi | 45 min |
 | Stories (1 unidade) | 8 min |
-| Carta Minimalista (criação inicial) | 8h (uma vez) |
+| Mini Carta (criação inicial) | 8h (uma vez) |
 
 ### Tempo médio por peça (com IA Vertical madura)
 
@@ -276,7 +276,7 @@ IA Vertical reduz **tempo médio por peça**. Não muda taxas do funil.
 | Carrossel 3C completo | 30 min (cliente revisa) |
 | Reel Lo-fi | 20 min (cliente grava + IA edita) |
 | Stories (1 unidade) | 3 min |
-| Carta Minimalista (criação inicial) | 4h (IA Vertical sugere, cliente cala) |
+| Mini Carta (criação inicial) | 4h (IA Vertical sugere, cliente cala) |
 
 ### Impacto no cálculo
 

@@ -300,12 +300,12 @@ Uma palavra fácil de digitar com o polegar. Uma palavra só. Sem hashtag, sem s
 ### 1. Direct com Palavra-Senha (padrão Soft)
 **Template:** [Razão concreta em 1-2 linhas]. Envia "[PALAVRA]" no Direct.
 
-**Exemplo:** Eu documentei o sistema Soft inteiro numa micro aula de 1h20. Envia "SOFT" no Direct.
+**Exemplo:** Eu documentei o sistema Soft inteiro numa mini webinar de 1h20. Envia "SOFT" no Direct.
 
 ### 2. Comentário com Palavra-Senha
 **Template:** [Razão]. Comenta "[PALAVRA]" que eu te mando.
 
-**Exemplo:** Montei o esqueleto da Carta Minimalista que já fechou R$200k+. Comenta "CARTA" que eu te mando no Direct.
+**Exemplo:** Montei o esqueleto da Mini Carta que já fechou R$200k+. Comenta "CARTA" que eu te mando no Direct.
 
 ### 3. Siga com Razão Concreta
 **Template:** [Tipo de conteúdo]. Segue pra continuar recebendo.

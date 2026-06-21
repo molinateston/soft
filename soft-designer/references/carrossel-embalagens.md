@@ -241,10 +241,10 @@ Por que funciona:
 
 - **Termo A** = "mais leads" (categoria mental do mercado)
 - **Termo B** = "parar de atender curiosos" (redefinição: o problema não é volume, é qualificação)
-- **A categoria nova que pode entrar no recheio:** "Carta Minimalista", um filtro que separa curiosos de compradores antes do contato humano.
+- **A categoria nova que pode entrar no recheio:** "Mini Carta", um filtro que separa curiosos de compradores antes do contato humano.
 
 ### Quando usar o Reframe de Categoria
-- O especialista tem um nome próprio pra forma como ele faz as coisas (Sprint, 3C, Operação Solo, Carta Minimalista, etc.)
+- O especialista tem um nome próprio pra forma como ele faz as coisas (Sprint, 3C, Operação Solo, Mini Carta, etc.)
 - Existe uma categoria velha do mercado que ele quer substituir frontalmente
 - O carrossel é mais sobre vocabulário do que sobre prova
 

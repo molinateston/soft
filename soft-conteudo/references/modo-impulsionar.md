@@ -24,7 +24,7 @@ Antes de turbinar qualquer peça ou ligar campanha, o criador precisa ter **TODO
 |---|---|
 | ✅ Posicionamento Incomum empacado | Sem isso, tráfego atrai público errado |
 | ✅ Perfil convertendo (visita → follow) | Sem isso, lead chega e vaza |
-| ✅ Carta Minimalista no ar | Sem isso, lead clica e não tem destino |
+| ✅ Mini Carta no ar | Sem isso, lead clica e não tem destino |
 | ✅ Carrosséis 3C com prova orgânica de engajamento | Pra saber **o que turbinar** com confiança |
 | ✅ Reels Lo-fi com retenção comprovada | Idem |
 

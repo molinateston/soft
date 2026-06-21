@@ -66,7 +66,7 @@ Like é métrica decorativa. Cliente que mede sucesso por curtida tá no caminho
 
 ### Mês 3 — Validar Carta
 
-**Foco único:** Carta Minimalista convertendo. Lead clica, lê, manda DM, vira conversa qualificada.
+**Foco único:** Mini Carta convertendo. Lead clica, lê, manda DM, vira conversa qualificada.
 
 **KPI primário:** Taxa Carta → DM (DMs / cliques na Carta)
 - **Meta M3:** 5% (faixa baixa Soft)

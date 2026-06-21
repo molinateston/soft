@@ -198,7 +198,7 @@ Regra final: iniciou o A1 — só para quando terminar.
 | Prioridade | Tipo de tarefa |
 |---|---|
 | **A1 máximo** | Fechar venda em andamento · Responder lead qualificado · Entregar sessão de cliente agendada |
-| **A alto** | Publicar peça agendada · Carta Minimalista no ar · Resolver problema de cliente ativo |
+| **A alto** | Publicar peça agendada · Mini Carta no ar · Resolver problema de cliente ativo |
 | **A médio** | Produzir conteúdo novo · Configurar automação crítica · Planejar a semana |
 | **B** | Revisar métricas · Ajustar detalhe de copy · Responder comentários relevantes |
 | **C** | Organizar pasta · Atualizar bio · Comentário genérico |

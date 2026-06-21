@@ -339,7 +339,7 @@ LPSG **semanal contínuo** contradiz princípio Soft *"sistema constante > pico"
 
 ### Modificador 2 — Funil 8 vs Carta Soft
 
-Funil 8 é **front-end de aquisição via produto baixo ticket**. Soft Business usa **Carta Minimalista + DM** com mesma função — qualifica antes da conversa.
+Funil 8 é **front-end de aquisição via produto baixo ticket**. Soft Business usa **Mini Carta + DM** com mesma função — qualifica antes da conversa.
 
 Skill recomenda: cliente Soft pode usar Funil 8 **adicionalmente** (não em substituição) à Carta Soft. Funil 8 = aquisição volumétrica. Carta = qualificação alto-ticket.
 

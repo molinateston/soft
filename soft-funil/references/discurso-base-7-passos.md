@@ -1,6 +1,6 @@
 # Discurso Base, 7 Passos
 
-> **Quando consultar:** ao construir a versão-mestre da narrativa de venda desejo, antes de adaptar pra Carta Minimalista ou Micro Aula. Os 7 passos são a **espinha dorsal** que vira qualquer formato final.
+> **Quando consultar:** ao construir a versão-mestre da narrativa de venda desejo, antes de adaptar pra Mini Carta ou Mini Webinar. Os 7 passos são a **espinha dorsal** que vira qualquer formato final.
 
 > **Princípio:** entrega primeiro a **versão neutra** (texto corrido, sem diagramação, sem formato específico). Adaptação pros formatos finais é pedido separado.
 
@@ -12,11 +12,11 @@ O Discurso Base é a narrativa de venda Soft em **forma textual mestre**, texto 
 
 ### Por que existir como camada separada
 
-Sem Discurso Base, cada formato (Carta · Micro Aula · Landing · Webinar) é construído do zero, gerando inconsistência entre eles.
+Sem Discurso Base, cada formato (Carta · Mini Webinar · Landing · Webinar) é construído do zero, gerando inconsistência entre eles.
 
 Com Discurso Base:
 - **1 narrativa única** que vira N formatos
-- **Consistência total** entre Carta, Micro Aula e Landing
+- **Consistência total** entre Carta, Mini Webinar e Landing
 - **Velocidade**, espinha pronta, adaptação é cosmética
 - **Auditoria**, Especialista revisa a narrativa em texto corrido antes de qualquer formatação
 
@@ -32,7 +32,7 @@ Com Discurso Base:
 | Passo 6, Antecipação de objeções | Bloco 3, Solução · Método · Proposta (continuação) |
 | Passo 7, Oferta + CTA | Bloco 4, CTA |
 
-**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Micro Aula, os 7 passos se distribuem em 4 fases (Atenção · Interesse · Desejo · Ação) · 12 blocos · 10min de vídeo.
+**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Mini Webinar, os 7 passos se distribuem em 4 fases (Atenção · Interesse · Desejo · Ação) · 12 blocos · 10min de vídeo.
 
 ---
 
@@ -197,8 +197,8 @@ Tamanho alvo: 800-1.500 palavras (4-7 min de leitura quando virar Carta).
 ### Etapa 3, Adaptação ao formato final (pedido separado)
 
 Após aprovação da versão-mestre, adapta pro formato escolhido:
-- Carta Minimalista → ver Cap 4.4 (guia) + `modo-carta-minimalista.md`
-- Micro Aula → ver `modo-micro-aula.md`
+- Mini Carta → ver Cap 4.4 (guia) + `modo-mini-carta.md`
+- Mini Webinar → ver `modo-mini-webinar.md`
 - Landing Page → `references/processo-landingpage.md`
 - Webinar → skill `soft-webinario`
 
@@ -254,4 +254,4 @@ Quando entregar a versão-mestre neutra, segue esse padrão:
 
 **Total alvo:** 800-1.500 palavras.
 
-**Comentário no fim:** "Versão-mestre pronta. Próximo passo: adaptar pro formato escolhido (Carta Minimalista, Micro Aula, Landing Page, Webinar)."
+**Comentário no fim:** "Versão-mestre pronta. Próximo passo: adaptar pro formato escolhido (Mini Carta, Mini Webinar, Landing Page, Webinar)."

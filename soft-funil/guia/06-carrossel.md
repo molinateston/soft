@@ -33,7 +33,7 @@ Alta polaridade não é agressividade nem polêmica vazia. É contrariar uma cre
 
 ## 6.3 · A Fórmula 7 — os 7 movimentos do Carrossel Soft
 
-A Fórmula 7 é a estrutura canônica do Carrossel Soft Business. É a mesma espinha que conduz todo conteúdo do feed (Cap 5) e que sustenta a Carta Minimalista (Cap 4) — aqui, aplicada ao formato de slides. São **7 movimentos**, distribuídos ao longo dos **10 slides** do Carrossel. Movimento não é slide: alguns movimentos ocupam um card, outros se esticam por dois, conforme a função exija mais respiro.
+A Fórmula 7 é a estrutura canônica do Carrossel Soft Business. É a mesma espinha que conduz todo conteúdo do feed (Cap 5) e que sustenta a Mini Carta (Cap 4) — aqui, aplicada ao formato de slides. São **7 movimentos**, distribuídos ao longo dos **10 slides** do Carrossel. Movimento não é slide: alguns movimentos ocupam um card, outros se esticam por dois, conforme a função exija mais respiro.
 
 | Movimento | Slide | Função |
 |---|---|---|
@@ -144,10 +144,10 @@ A capa boa tem duas camadas ao mesmo tempo: é **concreta** (a imagem que o cér
 **Card 6 — Nova Oportunidade**
 
 > No Soft Business a venda acontece antes da conversa.
-> Cliente lê a Carta Minimalista, entende o método, manda mensagem já decidido.
+> Cliente lê a Mini Carta, entende o método, manda mensagem já decidido.
 > A reunião deixa de ser venda. Vira confirmação.
 
-**Por que funciona:** apresenta o método (Carta Minimalista) como contraste com a reunião gratuita · não explica como fazer a Carta — função, não execução · mostra o resultado (reunião vira confirmação) sem entregar a engenharia.
+**Por que funciona:** apresenta o método (Mini Carta) como contraste com a reunião gratuita · não explica como fazer a Carta — função, não execução · mostra o resultado (reunião vira confirmação) sem entregar a engenharia.
 
 ---
 

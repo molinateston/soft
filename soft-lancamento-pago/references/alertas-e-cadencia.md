@@ -96,7 +96,7 @@ Lançamento amplifica **conversão conhecida**. Se o cliente nunca vendeu o prod
 ### Se está Vermelho
 
 Considere:
-- Validar produto **antes** com 10-20 clientes via venda direta (Soft Business, Carta Minimalista, indicação)
+- Validar produto **antes** com 10-20 clientes via venda direta (Soft Business, Mini Carta, indicação)
 - Lançamento pequeno só pra validar conversão (ticket baixo, audiência atual)
 - Não fazer lançamento grande em produto não validado
 

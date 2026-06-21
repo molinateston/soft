@@ -1,8 +1,8 @@
 # Tom e Ritmo desejo
 
-> **Quando consultar:** durante a redação ou auditoria da Carta Minimalista. Esta reference cobre **como escrever**, não o que escrever (estrutura está em `discurso-base-7-passos.md` e Cap 4.4 (guia)).
+> **Quando consultar:** durante a redação ou auditoria da Mini Carta. Esta reference cobre **como escrever**, não o que escrever (estrutura está em `discurso-base-7-passos.md` e Cap 4.4 (guia)).
 >
-> **Atenção:** Micro Aula tem tom falado (não escrito). Use `modo-micro-aula.md` pra produção de roteiro de vídeo, não esta reference.
+> **Atenção:** Mini Webinar tem tom falado (não escrito). Use `modo-mini-webinar.md` pra produção de roteiro de vídeo, não esta reference.
 
 ---
 
@@ -34,7 +34,7 @@ Frase fraca, genérica ou longa demais → leitor abandona.
 
 A Carta é processada com **olhos**, não com ouvidos. O cérebro do leitor escolhe a palavra exata.
 
-| Falado (Reel · Stories · Micro Aula) | Escrito (Carta) |
+| Falado (Reel · Stories · Mini Webinar) | Escrito (Carta) |
 |---|---|
 | "tipo", "né", "tá ligado" são naturais | Mortais, soam bregas |
 | Frases longas com vírgulas funcionam | Cansam, leitor pula |
@@ -320,5 +320,5 @@ Se sim em todos: tom Soft. Pode entregar.
 | Princípios universais desejo | Cap 4 (guia) |
 | Estrutura dos 7 passos | `discurso-base-7-passos.md` |
 | Estrutura dos 4 blocos da Carta | Cap 4.4 (guia) |
-| Diagramação Notion-prioritária | `modo-carta-minimalista.md` |
+| Diagramação Notion-prioritária | `modo-mini-carta.md` |
 | Tom Soft mais amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |

@@ -237,7 +237,7 @@ A área de membros pós-ingresso pode ser **embrião do sistema Soft próprio** 
 
 Cliente Soft que faz lançamento e **abandona a área de membros após o evento**. Lead que pagou ingresso, comprou produto ou não, fica órfão. **Pior cenário:** todos esses leads viram base congelada que só mexe no próximo lançamento (Armadilha 3 plena).
 
-**Recomendação Soft:** após o lançamento, integra essa base no sistema constante (Carta Minimalista do Soft + conteúdo Z1 + Stories CARO direcionado). Detalhe em `debriefing-e-integracao.md`.
+**Recomendação Soft:** após o lançamento, integra essa base no sistema constante (Mini Carta do Soft + conteúdo Z1 + Stories CARO direcionado). Detalhe em `debriefing-e-integracao.md`.
 
 ---
 

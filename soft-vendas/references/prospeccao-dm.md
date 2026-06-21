@@ -27,10 +27,10 @@
 
 ## 1. Princípio central (leia antes de qualquer coisa)
 
-A prospecção Soft **não vende pela DM**. Ela abre uma conversa, qualifica levemente, e entrega o **pré-qualificador** (Carta Minimalista ou Micro Aula). O pré-qualificador é quem faz o trabalho pesado de filtrar, explicar e gerar desejo.
+A prospecção Soft **não vende pela DM**. Ela abre uma conversa, qualifica levemente, e entrega o **pré-qualificador** (Mini Carta ou Mini Webinar). O pré-qualificador é quem faz o trabalho pesado de filtrar, explicar e gerar desejo.
 
 ```
-[Prospecção DM] → lead consome Carta ou Micro Aula → volta esquentado → Fase 1 (Recuo) → Venda
+[Prospecção DM] → lead consome Carta ou Mini Webinar → volta esquentado → Fase 1 (Recuo) → Venda
 ```
 
 **Regra inviolável:**
@@ -102,7 +102,7 @@ Oi [Nome]! Vi que você [ação específica, se inscreveu / baixou / respondeu].
 O que mais chamou sua atenção em [tema]?
 ```
 
-Depois da resposta, entrega o pré-qualificador: *"Então acho que isso aqui vai te ajudar: [link da Carta ou Micro Aula]. Dá uma lida e me fala o que achou."*
+Depois da resposta, entrega o pré-qualificador: *"Então acho que isso aqui vai te ajudar: [link da Carta ou Mini Webinar]. Dá uma lida e me fala o que achou."*
 
 **Regra:** resposta rápida. Janela quente dura poucas horas.
 
@@ -133,8 +133,8 @@ Depois de passar pelos 4 elementos (ou até um ponto em que você entendeu o suf
 
 | Pré-qualificador | Quando usar |
 |---|---|
-| **Carta Minimalista** | Padrão Soft. Serve pra qualquer nicho. Filtra por leitura. |
-| **Micro Aula** | Alternativa em vídeo (10min em 12 blocos). Quando cliente prefere vídeo a texto, ou tem audiência em formato vídeo. |
+| **Mini Carta** | Padrão Soft. Serve pra qualquer nicho. Filtra por leitura. |
+| **Mini Webinar** | Alternativa em vídeo (10min em 12 blocos). Quando cliente prefere vídeo a texto, ou tem audiência em formato vídeo. |
 
 > **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-leon`) quando precisa formato longo ao vivo ou perpétuo.
 
@@ -271,7 +271,7 @@ Te vejo daqui a pouco, [hora], [Nome].
 Quando o usuário pedir "me ajuda a prospectar" ou "bora mandar DM pra esse lead", a skill diagnostica antes de entregar a mensagem:
 
 1. **Cenário do lead**, frio / morno engajado / sinal ativo? Usa a abertura certa.
-2. **Pré-qualificador disponível**, qual Carta ou Micro Aula você tem? Se não tem nenhum, avisa que precisa construir antes (e aponta pra `soft-funil`).
+2. **Pré-qualificador disponível**, qual Carta ou Mini Webinar você tem? Se não tem nenhum, avisa que precisa construir antes (e aponta pra `soft-funil`).
 3. **Downsell necessário?**, se o lead deu sinais financeiros empacados, sugere downsell em vez de Carta principal.
 4. **Volume vs personalização**, se o usuário quer prospectar 50/dia, recomenda DM manual 1:1 mesmo (Soft não escala via Direct automático). Pra ticket alto, DM manual 1:1 é sempre o caminho.
 

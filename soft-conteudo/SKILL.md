@@ -25,7 +25,7 @@ description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que fi
 - O design saiu daqui pra a skill ÚNICA de visual, `soft-designer` (motor visual, 3 famílias, render PNG, banner, slides). Aqui você define a tese e o pilar; a `soft-designer` produz o visual e a copy-visual.
 
 **Multiplataforma (repurpose preservando a tese)**
-- Adaptação da peça-âncora pra LinkedIn · X/Threads · Substack/Email · TikTok/Shorts · YouTube longo · PDF/Notion · distribuição de Micro Aula.
+- Adaptação da peça-âncora pra LinkedIn · X/Threads · Substack/Email · TikTok/Shorts · YouTube longo · PDF/Notion · distribuição de Mini Webinar.
 - Pacote completo de publicação YouTube (título, descrição, tags, capítulos, thumbnail, SEO, UTM).
 - Mapeamento dos 5 papéis da Estrutura Mãe re-renderizados no formato alvo.
 

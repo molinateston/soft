@@ -4,7 +4,7 @@
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-O ativo que qualifica antes da conversa. Transforma o curioso em lead **aquecido**, cria desejo e qualifica, sem exigir a presença do especialista. Esta skill conduz a produção da peça: Carta Minimalista (texto) **ou** Vídeo Minimalista (gravado, 7–12 min). O especialista escolhe UM dos dois.
+O ativo que qualifica antes da conversa. Transforma o curioso em lead **aquecido**, cria desejo e qualifica, sem exigir a presença do especialista. Esta skill conduz a produção da peça: Mini Carta (texto) **ou** Vídeo Minimalista (gravado, 7–12 min). O especialista escolhe UM dos dois.
 
 ## A fonte é o guia, leia primeiro
 
@@ -77,8 +77,8 @@ Quando o cliente perguntar como o feed entrega o lead na peça: o **Filtro Soft*
 
 ## Referências operacionais (complementam o guia)
 Os 4 blocos e as regras de ritmo vivem no Cap 4. Estes references trazem **execução não absorvida no guia**:
-- `references/modo-micro-aula.md`, roteiro completo da Micro Aula: os 12 blocos com modelo de fala e exemplo, timings, indicações de gravação, métricas e diagnóstico. (O Cap 4.5 só traz a macro de 4 blocos.)
-- `references/modo-carta-minimalista.md`, exemplo de Carta completa diagramada (Notion) + tabela de quando usar cada elemento visual + diagnóstico por sintoma.
+- `references/modo-mini-webinar.md`, roteiro completo da Mini Webinar: os 12 blocos com modelo de fala e exemplo, timings, indicações de gravação, métricas e diagnóstico. (O Cap 4.5 só traz a macro de 4 blocos.)
+- `references/modo-mini-carta.md`, exemplo de Carta completa diagramada (Notion) + tabela de quando usar cada elemento visual + diagnóstico por sintoma.
 - `references/discurso-base-7-passos.md`, os 7 passos nomeados do Discurso Base (o andaime entre o briefing e os 4 blocos).
 - `references/tom-e-ritmo-desejo.md`, as 7 categorias de corte com exemplos e a tabela-síntese de tom (auditoria frase a frase).
 

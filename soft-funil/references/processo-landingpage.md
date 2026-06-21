@@ -27,9 +27,9 @@ O cliente errado abandona antes do botão. **Isso é sucesso.**
 
 > *Página que convence todo mundo não converte ninguém. Página que filtra na entrada converte os certos no fundo.*
 
-Diferença crítica em relação à Carta Minimalista:
+Diferença crítica em relação à Mini Carta:
 
-| Carta Minimalista | Landing Page |
+| Mini Carta | Landing Page |
 |---|---|
 | Argumento direto em texto corrido | Argumento em blocos visuais com hierarquia |
 | Zero subtítulo, zero bullet | Bullets permitidos em seções específicas |

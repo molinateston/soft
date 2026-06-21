@@ -20,7 +20,7 @@ A ordem certa é inversa: Carta ou Vídeo primeiro, conteúdo público depois. N
 
 É a etapa de qualificação. Ela transforma o curioso em comprador **aquecido** sem exigir a presença do Especialista. O **desejo** nasce aqui, antes de qualquer conversa. Quem chega no seu WhatsApp depois desse ativo chega **aquecido e qualificado** — não cru, não cético. A conversa final ainda fecha (não convence do nada): ela confirma o desejo e remove a última objeção.
 
-Carta / Vídeo significa Carta Minimalista OU Vídeo Minimalista. O Especialista escolhe UMA.
+Carta / Vídeo significa Mini Carta OU Vídeo Minimalista. O Especialista escolhe UMA.
 
 E aqui um ponto que confunde quem vem de outros métodos: não são fases. Não existe "evolução de Carta pra Vídeo", como se a Carta fosse o degrau de baixo e o Vídeo o degrau de cima. São formatos paralelos, com a mesma função e a mesma estrutura: qualificar antes da conversa. Você não troca um pelo outro com o tempo. Você escolhe o que serve ao seu jeito e ao seu ticket, e fica nele.
 
@@ -30,7 +30,7 @@ E aqui um ponto que confunde quem vem de outros métodos: não são fases. Não 
 
 A escolha se resolve por dois critérios: como você se comunica melhor, e quanto custa o que você vende.
 
-| Critério | Carta Minimalista | Vídeo Minimalista |
+| Critério | Mini Carta | Vídeo Minimalista |
 |---|---|---|
 | Formato | Texto (Notion, Google Docs, página enxuta) | Vídeo gravado (7–12 min) |
 | Tempo de consumo | 4–7 min de leitura | 7–12 min de visualização |
@@ -52,7 +52,7 @@ A lógica por trás: quanto mais alto o ticket, mais profundidade o lead precisa
 
 ---
 
-## 4.4 · Carta Minimalista
+## 4.4 · Mini Carta
 
 A Carta substitui a reunião de apresentação, o funil complexo e a VSL longa. É um documento simples — Notion, Google Docs ou página enxuta — lido em 4 a 7 minutos.
 

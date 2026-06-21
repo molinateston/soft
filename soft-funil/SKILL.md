@@ -1,6 +1,6 @@
 ---
 name: soft-funil
-description: "Monta o FUNIL do método Soft e ensina a ESCADA de 3 funis por maturidade de negócio (Funil Soft → Webinar Soft → Soft Launch), todos mirando high-ticket (3k+) e fechando no Comercial 1:1. Esta skill OPERA o degrau 1 — o Funil Soft (carta / vídeo minimalista + micro-aula) — e os componentes que servem a todos: Página de Vendas (landing + VSL) e Funil de Isca. Os degraus 2 e 3 têm skill própria (soft-webinario, soft-lancamento-pago). O funil QUALIFICA o lead e o entrega quente; a venda em si é da soft-vendas. Use SEMPRE que envolver \"funil\", \"escada de funil\", \"carta de vendas\", \"vídeo de vendas\", \"VSL\", \"landing page\", \"página de vendas\", \"sales page\", \"micro aula\", \"isca\", \"lead magnet\", \"captura\", \"página de captura\", \"pré-qualificar lead\", \"aquecer lead\". Para webinário/perpétuo use soft-webinario; para lançamento pago use soft-lancamento-pago. NÃO use pra a venda em si (script, objeção, fechamento — soft-vendas), nem pra posicionamento ou conteúdo de feed."
+description: "Monta o FUNIL do método Soft e ensina a ESCADA de 3 funis por maturidade de negócio (Funil Soft → Webinar Soft → Soft Launch), todos mirando high-ticket (3k+) e fechando no Comercial 1:1. Esta skill OPERA o degrau 1 — o Funil Soft (carta / vídeo minimalista + mini webinar) — e os componentes que servem a todos: Página de Vendas (landing + VSL) e Funil de Isca. Os degraus 2 e 3 têm skill própria (soft-webinario, soft-lancamento-pago). O funil QUALIFICA o lead e o entrega quente; a venda em si é da soft-vendas. Use SEMPRE que envolver \"funil\", \"escada de funil\", \"carta de vendas\", \"vídeo de vendas\", \"VSL\", \"landing page\", \"página de vendas\", \"sales page\", \"mini webinar\", \"isca\", \"lead magnet\", \"captura\", \"página de captura\", \"pré-qualificar lead\", \"aquecer lead\". Para webinário/perpétuo use soft-webinario; para lançamento pago use soft-lancamento-pago. NÃO use pra a venda em si (script, objeção, fechamento — soft-vendas), nem pra posicionamento ou conteúdo de feed."
 ---
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -8,8 +8,8 @@ Degrau 1 da escada (Funil Soft) + os componentes que servem os 3 degraus. Tudo p
 
 **Funil Soft (degrau 1 — o mínimo viável):**
 - **Discurso Base em 7 passos** — a versão-mestre do argumento de venda, antes de virar qualquer formato (`references/discurso-base-7-passos.md`).
-- **Carta de Vendas Minimalista** — a carta-texto completa que aquece e qualifica o lead (`references/modo-carta-minimalista.md`).
-- **Micro Aula (vídeo de ~10min em 12 blocos)** — a Carta com câmera, alternativa em vídeo (`references/modo-micro-aula.md`).
+- **Mini Carta** — a carta-texto completa que aquece e qualifica o lead (`references/modo-mini-carta.md`).
+- **Mini Webinar (vídeo de ~10min em 12 blocos)** — a Carta com câmera, alternativa em vídeo (`references/modo-mini-webinar.md`).
 - **Calibração de tom e ritmo da peça de desejo** (`references/tom-e-ritmo-desejo.md`).
 - **Decisão de formato por ticket** (Carta vs Vídeo, quando cada um).
 
@@ -42,7 +42,7 @@ O funil **aquece o lead e o entrega quente** pra conversa. O Soft começa no mí
 ## A escada de funis Soft (3 funis, por maturidade)
 O ecossistema Soft tem **3 funis canônicos**, em escada. São o mesmo método (uma promessa, uma tese) ficando mais longo e mais complexo a cada degrau. Todos miram **high-ticket (3k+)** e **todos fecham no Comercial 1:1**, nunca no checkout:
 
-1. **Funil Soft** (entrada, default): Carta / Vídeo Minimalista + micro-aula. O mínimo viável — o cliente certo chega no WhatsApp **já decidido** → `references/processo-desejo.md`
+1. **Funil Soft** (entrada, default): Carta / Vídeo Minimalista + mini webinar. O mínimo viável — o cliente certo chega no WhatsApp **já decidido** → `references/processo-desejo.md`
 2. **Webinar Soft** (evolução): webinar perpétuo com a **mesma pegada** do Funil Soft, só mais longo e com mais camada — a aula que vende no fim → **skill própria `soft-webinario`**
 3. **Soft Launch** (topo): o lançamento pago — evento com carrinho, tráfego e ingresso → **skill própria `soft-lancamento-pago`**
 
@@ -76,7 +76,7 @@ Nenhum funil Soft fecha no checkout. **O funil QUALIFICA** (gera o "sim do produ
 **Consulta `references/conducao-na-pratica.md` o tempo todo** — é o jeito de conduzir que faz o funil sair excelente ("vender sem call" é posicionamento, não funil · o funil é o fácil, o difícil é a posição · funil = desenhar a jornada, mínimo viável primeiro · carta que virou site com a IA · congruência repete a tese em cada etapa · o feed é a entrada).
 
 ## References (densos, sob demanda)
-**Funil Soft:** `processo-desejo` + `modo-carta-minimalista`, `modo-micro-aula`, `tom-e-ritmo-desejo`, `discurso-base-7-passos`.
+**Funil Soft:** `processo-desejo` + `modo-mini-carta`, `modo-mini-webinar`, `tom-e-ritmo-desejo`, `discurso-base-7-passos`.
 **Página de Vendas:** `processo-landingpage` (arquiteturas, blocos de copy, roteiro de VSL).
 **Isca:** `processo-isca`, `artigo-isca`.
 **Transversal:** `conducao-na-pratica` — o jeito de conduzir o funil destilado de sessões reais (sem-call é posicionamento, minimalismo, carta-virou-site, congruência, o feed como entrada); exemplos de nichos neutros, nunca o Léo.

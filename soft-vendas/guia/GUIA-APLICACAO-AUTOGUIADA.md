@@ -256,7 +256,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ## PASSO 4 — Carta / Vídeo Minimalista
 
-**O ativo de saída:** a Carta Minimalista (texto) **ou** o Vídeo Minimalista (gravado, 7–12 min) — a peça que qualifica antes da conversa.
+**O ativo de saída:** a Mini Carta (texto) **ou** o Vídeo Minimalista (gravado, 7–12 min) — a peça que qualifica antes da conversa.
 
 ### A pílula do LEON
 

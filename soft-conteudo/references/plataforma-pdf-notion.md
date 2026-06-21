@@ -4,7 +4,7 @@ Lead magnet em formato longo. PDF é linear, imprimível, offline. Notion é nav
 
 ## Regra central
 
-Lead magnet Soft **não é FAQ, não é curso**. É peça de filtragem disfarçada de valor. O leitor certo chega no CTA pensando *"preciso da Carta Minimalista / reunião"*. O leitor errado desiste no meio — isso é sucesso.
+Lead magnet Soft **não é FAQ, não é curso**. É peça de filtragem disfarçada de valor. O leitor certo chega no CTA pensando *"preciso da Mini Carta / reunião"*. O leitor errado desiste no meio — isso é sucesso.
 
 **Testa sempre:** o lead magnet entrega valor real mas **mantém desejo pelo sistema completo**. Nunca resolve tudo.
 
@@ -49,7 +49,7 @@ CAPÍTULO 4 — COMO IMPLEMENTAR (1-2 páginas)
 
 CONCLUSÃO + CTA (1 página)
 - Síntese
-- Próximo passo: Carta Minimalista / Direct / Reunião
+- Próximo passo: Mini Carta / Direct / Reunião
 
 BIO (1 página)
 - Posicionamento de autoridade (sem arrogância)
@@ -93,7 +93,7 @@ Entrega junto com a peça:
 
 1. **Nome do arquivo** (PDF) ou **URL sugerida** (Notion).
 2. **Texto de email de entrega** — o lead recebeu o magnet e você quer que ele leia. 3-4 linhas.
-3. **CTA final interno** — pra onde o lead magnet leva (Carta Minimalista é o padrão, mas pode ser reunião/Direct/workshop).
+3. **CTA final interno** — pra onde o lead magnet leva (Mini Carta é o padrão, mas pode ser reunião/Direct/workshop).
 
 ---
 

@@ -81,11 +81,11 @@ Tudo que está dentro do produto é matéria-prima. Mateus chama de **"engenhari
 
 Temas que são **a versão pública** dos pontos do núcleo. Cada item do núcleo gera 3-5 temas diretos.
 
-Exemplo aplicado a um módulo "Carta Minimalista":
+Exemplo aplicado a um módulo "Mini Carta":
 
 | Núcleo (módulo) | Temas diretos |
 |---|---|
-| Carta Minimalista | "Por que sua proposta detalhada perde pra carta de 4 blocos" |
+| Mini Carta | "Por que sua proposta detalhada perde pra carta de 4 blocos" |
 | | "O bloco da Carta que mais fecha venda" |
 | | "Carta com preço dentro vs preço fora, qual converte mais" |
 | | "O erro de quem escreve carta como portfólio" |
@@ -296,7 +296,7 @@ Pra ilustrar como funciona, mapa parcial do próprio círculo do Soft:
 
 **Núcleo (parcial):**
 - Posicionamento Incomum
-- Carta Minimalista
+- Mini Carta
 - Carrossel 3C
 - Stories CARO
 - IA Vertical

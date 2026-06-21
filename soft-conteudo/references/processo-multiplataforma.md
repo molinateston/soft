@@ -52,7 +52,7 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 | **TikTok / Shorts** | 0-3s | 3-6s | 6-12s | 12-40s | 40-50s |
 | **YouTube longo** | Título + thumb | Primeiros 15s | Primeiro minuto | Corpo (3-8min) | Chamada pra inscrição |
 | **PDF / Notion** | Capa do doc + título | Intro de 1 parágrafo | Cena/dado concreto | Seções principais | CTA de fechamento |
-| **Micro Aula** | Abertura 0-30s | 30s-1min | 1-2min | Corpo 2-8min | Fechamento com convite |
+| **Mini Webinar** | Abertura 0-30s | 30s-1min | 1-2min | Corpo 2-8min | Fechamento com convite |
 
 **Regra central:** não é o formato que muda a arquitetura — é só o **tempo de exposição** e a **unidade de entrega**. Um carrossel com Capa forte vira um LinkedIn com primeira linha forte. O mesmo Contexto vira parágrafo em vez de slide.
 
@@ -79,7 +79,7 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 | **TikTok / Reels / Shorts** | `references/plataforma-tiktok-shorts.md` | Reel Soft já vira TikTok/Shorts — intro retention 70%+, 15-35s ideal, loop natural, legendas |
 | **YouTube longo** | `references/plataforma-youtube-longo.md` | Roteiro 8-12min + pacote completo de publicação (título, descrição, tags, capítulos, thumbnail, SEO, UTM) |
 | **PDF / Guia Notion** | `references/plataforma-pdf-notion.md` | Lead magnet 5-7 páginas (PDF) ou página Notion (mais navegável, links internos) |
-| **Micro Aula** | `references/plataforma-micro-aula.md` | Distribuição/hospedagem da Micro Aula Soft (a construção do roteiro fica na skill `soft-funil`) |
+| **Mini Webinar** | `references/plataforma-mini-webinar.md` | Distribuição/hospedagem da Mini Webinar Soft (a construção do roteiro fica na skill `soft-funil`) |
 
 ---
 
@@ -95,7 +95,7 @@ Se nada foi colado, pergunta *"Qual conteúdo você quer adaptar?"* e **para**.
 
 Se não disse, pergunta UMA vez:
 
-> *"Pra qual plataforma? LinkedIn, X/Threads, Substack/Email, TikTok/Shorts, YouTube longo, PDF/Notion ou distribuição da Micro Aula?"*
+> *"Pra qual plataforma? LinkedIn, X/Threads, Substack/Email, TikTok/Shorts, YouTube longo, PDF/Notion ou distribuição da Mini Webinar?"*
 
 ### Etapa 3 — Extração do núcleo Soft (obrigatório)
 
@@ -184,7 +184,7 @@ O carrossel tem N slides mas os 5 papéis não são N unidades — alguns papéi
 - **`references/plataforma-tiktok-shorts.md`** — TikTok / Shorts
 - **`references/plataforma-youtube-longo.md`** — YouTube longo + pacote de publicação
 - **`references/plataforma-pdf-notion.md`** — PDF / Notion
-- **`references/plataforma-micro-aula.md`** — Distribuição da Micro Aula Soft (hospedagem, cauda, follow-up)
+- **`references/plataforma-mini-webinar.md`** — Distribuição da Mini Webinar Soft (hospedagem, cauda, follow-up)
 
 Estrutura Mãe e Fórmula 7 → guia (Cap 5 + Cap 6). Tom e filtros → `shared-references/`.
 

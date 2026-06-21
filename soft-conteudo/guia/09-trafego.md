@@ -57,7 +57,7 @@ Tráfego ligado sobre estrutura incompleta queima caixa e não converte. Antes d
 
 2. **Perfil reformado, comunicando a posição em 3 segundos.** Quem clica no anúncio cai no perfil. Se o perfil não diz o que você resolve e pra quem em três segundos, o clique pago evapora. Você pagou pela visita e perdeu na chegada.
 
-3. **Carta Minimalista ou Vídeo Minimalista no ar.** É o destino do tráfego qualificado. O anúncio leva pra peça que cria desejo e qualifica; sem ela no ar, não há pra onde mandar o lead aquecido. Tráfego sem destino é alcance jogado fora.
+3. **Mini Carta ou Vídeo Minimalista no ar.** É o destino do tráfego qualificado. O anúncio leva pra peça que cria desejo e qualifica; sem ela no ar, não há pra onde mandar o lead aquecido. Tráfego sem destino é alcance jogado fora.
 
 4. **Pelo menos 1 peça orgânica com prova de engajamento real.** Essa é a peça que você vai turbinar. "Prova de engajamento real" significa que ela já performou com público que não pagou pra ver — gente parou, salvou, comentou, mandou DM. É o sinal de que a peça filtra. Turbinar peça que o orgânico ignorou é amplificar fracasso.
 

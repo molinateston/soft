@@ -1,9 +1,9 @@
-# Modo Carta Minimalista
+# Modo Mini Carta
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-> **Quando usar:** produção completa de Carta Minimalista pronta pra colar em Notion (ou Google Docs como fallback). A skill entrega texto **diagramado**, não bruto.
+> **Quando usar:** produção completa de Mini Carta pronta pra colar em Notion (ou Google Docs como fallback). A skill entrega texto **diagramado**, não bruto.
 >
 > **O que entrega:** Carta completa em markdown Notion-compatível · diagramação caso a caso (sem template fixo) · pronta pra publicar em 4-7 minutos de leitura.
 >
@@ -28,7 +28,7 @@
 
 ## 1. O que este modo entrega
 
-A Carta Minimalista é a peça central da desejo. Substitui:
+A Mini Carta é a peça central da desejo. Substitui:
 - Reunião de apresentação
 - Funil complexo (5+ páginas)
 - VSL longa de 30 minutos
@@ -55,7 +55,7 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
 | Cliente pediu landing page completa com VSL | Roteia pra `references/processo-landingpage.md` |
 | Cliente pediu webinar | Roteia pra skill `soft-webinario` |
-| Cliente quer versão em vídeo da Carta | Roteia pra `modo-micro-aula.md` (alternativa à Carta) |
+| Cliente quer versão em vídeo da Carta | Roteia pra `modo-mini-webinar.md` (alternativa à Carta) |
 | Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinario`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
@@ -491,7 +491,7 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Tom Soft amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |
 | Adaptação semântica pro nicho do cliente | `shared-references/adaptacao-semantica.md` |
 | Aplicação nos 7 passos | `guia/CODIGO-DE-ESCRITA.md` |
-| Versão em vídeo (alternativa à Carta) | `modo-micro-aula.md` |
+| Versão em vídeo (alternativa à Carta) | `modo-mini-webinar.md` |
 | Landing page com VSL ou multimídia | `references/processo-landingpage.md` |
 | Webinar ao vivo ou perpétuo | skill `soft-webinario` |
 

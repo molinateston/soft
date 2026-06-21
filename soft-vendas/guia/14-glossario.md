@@ -28,7 +28,7 @@ Termos próprios do método Soft Business v12. Definições de uma linha — a e
 
 ## Pilar 2 — Funil e conteúdo
 - **Funil Minimalista** — Feed (orgânico **e** pago) → Carta/Vídeo → WhatsApp; o caminho simples do conteúdo ao fechamento. (Cap 4)
-- **Carta Minimalista** — documento de 4 blocos lido em 4–7 min que qualifica antes da conversa; sem preço. (Cap 4)
+- **Mini Carta** — documento de 4 blocos lido em 4–7 min que qualifica antes da conversa; sem preço. (Cap 4)
 - **Vídeo Minimalista** — versão falada da Carta, 7–12 min; mesma macroestrutura de 4 blocos. (Cap 4)
 - **Filtro Soft** — palavra-chave → entrega da Carta/Vídeo via automação (ManyChat/GHL); substitui a reunião de descoberta. (Cap 4)
 - **Isca Soft** — entregável gratuito acionado por comentário; cresce seguidor qualificado. (Cap 4)
