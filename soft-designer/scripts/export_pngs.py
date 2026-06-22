@@ -115,11 +115,30 @@ def main():
     parser.add_argument("--output", required=True, type=Path, help="Diretório de saída dos PNGs")
     parser.add_argument("--width", type=int, default=SLIDE_WIDTH, help="Largura px (1080 carrossel/banner quadrado, 1920 deck 16:9, 1080 story)")
     parser.add_argument("--height", type=int, default=SLIDE_HEIGHT, help="Altura px (1350 carrossel, 1080 banner/deck 16:9, 1920 story 9:16)")
+    parser.add_argument("--force", action="store_true", help="exporta mesmo com falha dura na auditoria de craft (NÃO recomendado)")
     args = parser.parse_args()
 
     if not args.html.exists():
         print(f"Erro: arquivo HTML não encontrado: {args.html}", file=sys.stderr)
         sys.exit(1)
+
+    # Gate de craft (enforcement): não exporta peça com falha dura — ex: texto
+    # ilegível contra o fundo (o "branco no branco"). A regra é CÓDIGO que roda,
+    # não confiança no agente lembrar. Cor rgba/gradiente não é avaliada (passa).
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from craft import audit_html
+        failures, warnings = audit_html(args.html.read_text(encoding="utf-8"))
+        for w in warnings:
+            print(f"  ⚠ {w}")
+        if failures and not args.force:
+            print(f"\n✗ EXPORT BLOQUEADO pela auditoria de craft ({len(failures)} falha dura):")
+            for f in failures:
+                print(f"  ✗ {f}")
+            print("Corrija o HTML e rode de novo (ou --force pra ignorar, não recomendado).")
+            sys.exit(1)
+    except ImportError:
+        pass
 
     asyncio.run(export_slides(args.html, args.output, args.width, args.height))
 

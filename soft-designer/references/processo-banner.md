@@ -34,6 +34,8 @@ Banner não é carrossel comprimido. É UMA mensagem. A regra é subtração:
 
 A copy-visual passa pelo gate ANTES de desenhar. Depois de aprovada, o render não muda palavra; se o layout exigir mexer, re-passa a ancoragem e a headline do gate antes de exportar. Sem prova real no perfil, o número sai como placeholder marcado, nunca inventado.
 
+**Gate de craft em código (enforcement, não confiança):** envolva todo texto com `nw()` de `scripts/craft.py` (anti-órfã) e rode `python3 scripts/craft.py audit <arquivo>.html` antes de exportar — ele reprova em código o "branco no branco" (contraste por luminância WCAG) e sinaliza órfã. O `export_pngs.py` já chama esse gate sozinho e **recusa exportar** peça com falha dura. É o que garante que os checks 14 e 10 da `auditoria-pre-preview.md` aconteçam sempre, não só quando o agente lembra.
+
 ## Os modelos de banner (a mesma anatomia, em formatos diferentes)
 
 Banner não é UM layout, é uma **biblioteca de modelos**. A anatomia (hook + apoio + CTA) é a mesma; o que muda é a FORMA, escolhida pela angulação e pelo nível de consciência. Não repita sempre o mesmo molde, o feed cansa. Modelos que funcionam:

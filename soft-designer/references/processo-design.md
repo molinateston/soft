@@ -171,6 +171,8 @@ python3 scripts/export_pngs.py \
   --output /home/claude/<nome>/slides
 ```
 
+O `export_pngs.py` roda o **gate de craft em código** (`scripts/craft.py`) antes de capturar: reprova peça com texto ilegível contra o fundo (contraste WCAG — o "branco no branco") e sinaliza órfã provável. Falha dura = **não exporta** (corrige e roda de novo; `--force` ignora, não use). É o que garante que os checks 14 e 10 da auditoria aconteçam SEMPRE, em código — não só quando o agente lembra. Na escrita de cada bloco de texto, use `nw()` de `scripts/craft.py` pra travar a anti-órfã na origem.
+
 Saída: `slide_01.png`, `slide_02.png`, … com zero-padding de 2 dígitos. Mova os PNGs pra `/mnt/user-data/outputs/` e use `present_files` com **todos os slides**, na ordem (o primeiro é o slide 1).
 
 ---
