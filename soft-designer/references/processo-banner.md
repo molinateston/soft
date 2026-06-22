@@ -34,6 +34,47 @@ Banner não é carrossel comprimido. É UMA mensagem. A regra é subtração:
 
 A copy-visual passa pelo gate ANTES de desenhar. Depois de aprovada, o render não muda palavra; se o layout exigir mexer, re-passa a ancoragem e a headline do gate antes de exportar. Sem prova real no perfil, o número sai como placeholder marcado, nunca inventado.
 
+## Os modelos de banner (a mesma anatomia, em formatos diferentes)
+
+Banner não é UM layout, é uma **biblioteca de modelos**. A anatomia (hook + apoio + CTA) é a mesma; o que muda é a FORMA, escolhida pela angulação e pelo nível de consciência. Não repita sempre o mesmo molde, o feed cansa. Modelos que funcionam:
+
+- **Herói + bullets** — promessa grande + 3 bullets de prova/benefício. Oferta/manifesto direto.
+- **Comparação** — 2 colunas (o jeito velho × o novo); o leitor faz a conta sozinho.
+- **Texto puro / quebra de crença** — só a tese gigante por negação ("não é X, nem Y, é Z"), fundo chapado, zero imagem.
+- **Nota / comunicado** — fundo claro sóbrio, cara de comunicado oficial; anti-tell que fura a guarda de quem ignora anúncio. Título "NOTA..." em destaque, CTA discreto em frase.
+- **"Você nunca vai X se:"** — a consequência + a lista das condições erradas que prendem (marcadas com ✕).
+- **Diagrama** — desenha o mecanismo: funil, fluxo de etapas, equação ("A + B = resultado"), comparação visual (espalhado × na ordem), ciclo, termômetro (frio→quente), mapa (errado × certo).
+- **Prova / número gigante** — o dado real domina a arte (só com lastro do banco de provas; nunca inventado).
+- **Isca + mockup** — pergunta-dor no topo + mostra o entregável (mockup do produto/aula) + "pega/assiste agora".
+- **Meme contraintuitivo** — nega uma verdade sagrada, estética crua/nativa, número contraditório.
+- **Auto-qualificação** — "se você é X e sente Y..." filtra o público logo no topo (repele o curioso).
+- **Caixinha / nativo** — imita print orgânico (caixinha de pergunta, screenshot, notificação); fura a cegueira de banner por não parecer anúncio.
+- **Checklist / diagnóstico** — caixinhas que o leitor mentalmente marca e se auto-diagnostica.
+- **Imperativo** — comando direto ("Pare de X") + o que fazer no lugar.
+
+**Como escolher:** pela consciência e ângulo. Dor/problema → nota, checklist, "você nunca vai", caixinha. Solução/mecanismo → diagrama, comparação, equação, isca. Prova → número gigante, meme. Teste vários modelos pra a mesma tese; o tráfego diz qual vence.
+
+## Contexto é rei (autossuficiência)
+
+Tampe a legenda mentalmente. Se a arte sozinha não diz **o que é, por que importa e o que fazer**, o banner falhou. Todo modelo (principalmente os visuais: diagrama, meme, mockup) carrega uma linha que orienta o estranho que nunca te viu, senão ele vê o desenho bonito e não entende a oferta. Sem contexto, não sobe.
+
+## Anti-órfã (trava dura)
+
+Headline e copy do banner seguem o widow control de `tipografia-quebra-linhas.md`: NENHUMA palavra sozinha numa linha. `text-wrap` do CSS não basta em render headless; junte as 2 últimas palavras com espaço inquebrável ou quebre manual, e confira no render antes de subir.
+
+## O que NUNCA pode faltar (checklist de saída)
+
+1. HOOK que para o dedo em 1 segundo.
+2. Mensagem legível no mobile em meio segundo.
+3. UM ponto focal só (hook OU número OU imagem), nunca dois competindo.
+4. Contexto: a arte é autossuficiente (cubra a legenda, ainda faz sentido).
+5. PROVA com lastro quando usa número (senão placeholder marcado).
+6. Zero palavra órfã. Zero travessão (anti-IA).
+
+## Como crescer a biblioteca de modelos (reuso)
+
+A biblioteca nasce de **engenharia reversa do swipe do nicho**: colete anúncios que rodaram em escala, agrupe por família (preço-âncora, mockup, isca, texto-puro, story-print, comparativo, meme, evento), extraia o esqueleto de cada um e adapte ao perfil do usuário. Modelo novo = mais um molde testável, nunca um decalque do exemplo.
+
 ## O que entrega
 
 O banner final (imagem pronta pra subir), com a copy-visual aprovada no Crivo e a nota de qual família e destino foram usados.
