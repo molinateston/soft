@@ -22,5 +22,6 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 - `soft-lancamento-pago`
 - `soft-designer`
 - `soft-treino`
+- `soft-financeiro`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

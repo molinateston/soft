@@ -22,7 +22,8 @@
         "./soft-vendas",
         "./soft-lancamento-pago",
         "./soft-designer",
-        "./soft-treino"
+        "./soft-treino",
+        "./soft-financeiro"
       ]
     }
   ]
