@@ -70,6 +70,11 @@ Headline e copy do banner seguem o widow control de `tipografia-quebra-linhas.md
 4. Contexto: a arte é autossuficiente (cubra a legenda, ainda faz sentido).
 5. PROVA com lastro quando usa número (senão placeholder marcado).
 6. Zero palavra órfã. Zero travessão (anti-IA).
+7. CONTRASTE por pele: cada texto legível contra o fundo DELE. Pele clara → todo texto escuro; nada de branco ou neon herdado do tema escuro (some no claro). É o erro "branco no branco".
+8. DIAGRAMA forte (quando usa): traço grosso 5–6px + marcador semântico (✕ vermelho / ✓ ou `$` verde) + rótulo do que é. Linha fina pelada = ninguém entende.
+9. NADA vazio/fantasma: nenhuma célula, grade ou mockup renderiza vazia ou em baixa opacidade (parece bug de carregamento). Preenche com conteúdo plausível ou remove.
+
+> Os itens 7–9 são os 3 erros de craft que já queimaram render real; os **checks universais 14–16 da `auditoria-pre-preview.md`** cobrem cada um em detalhe, com exemplo. Rode-os no banner também, não só no carrossel.
 
 ## Como crescer a biblioteca de modelos (reuso)
 

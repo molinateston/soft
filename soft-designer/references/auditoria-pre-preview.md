@@ -6,9 +6,9 @@ Checklist obrigatório que roda **depois** de gerar o HTML e **antes** de mostra
 
 ## Protocolo
 
-Para **cada slide** do carrossel, responda 13 perguntas. Resposta esperada: SIM em todas. Qualquer NÃO aciona correção.
+Para **cada slide** do carrossel, responda 16 perguntas. Resposta esperada: SIM em todas. Qualquer NÃO aciona correção.
 
-### As 13 perguntas
+### As 16 perguntas
 
 1. **Fundo chapado?**, background é cor sólida única (`#0A0908`, `#F5F2EC`, `#FFFFFF`, ou o que a família define). Sem gradiente, sem textura forte, sem imagem de fundo (exceto se o usuário forneceu imagem explicitamente).
 
@@ -59,9 +59,17 @@ Para **cada slide** do carrossel, responda 13 perguntas. Resposta esperada: SIM 
 
 13. **Ritmo varia e enumeração virou lista?** O carrossel NÃO repete o molde título+corpo em todo card. Se 3+ cards seguidos têm a mesma forma (título grande + corpo), **falha**, quebre com afirmação pura, lista, prosa ou número dominante (ver "Ritmo orgânico" em `processo-design.md`). E todo card que **enumera** coisas está em **lista/chips**, nunca amassado em prosa corrida, card que enumera em frase corrida = falha.
 
+> **Os checks 14–16 são universais:** valem pra QUALQUER peça (carrossel, banner, story, slide), não só card de carrossel. São os 3 erros de craft que mais queimam um render, cada um com exemplo real do que já saiu errado.
+
+14. **Contraste de CADA texto contra o fundo DELE (trava anti "branco no branco")?** Para cada bloco de texto, a cor tem contraste forte contra o fundo IMEDIATO atrás dele, não contra o "fundo do tema". ⚠️ A armadilha que mais pega: ao **inverter a pele** (escuro↔claro), as cores que eram legíveis no tema original ficam INVISÍVEIS no novo, texto branco `#FFF` SOME no fundo claro `#F5F2EC`. Regra dura: **cada pele define as PRÓPRIAS cores de texto, nunca herda do tema oposto.** Pele clara → texto escuro (`#1a1814`) + accent escuro (verde `#147a3c`; nunca o neon `#4ade80`, que some no creme). Pele escura → texto claro. Teste: se você "sabe" que o texto está lá mas mal enxerga, é FALHA (não é "sutil", é bug). Exemplo real: o banner "Você nunca vai vender caro se:" na pele clara saiu com "Você nunca vai" e "se:" brancos sobre creme = sumiram, só o grifo verde aparecia → corrigido forçando `#1a1814` no título, `#43403a` nos bullets, `#147a3c` no CTA.
+
+15. **Diagrama / gráfico comunica em 0,3s, com traço forte e marcador?** Se a peça tem diagrama, gráfico, seta ou desenho: (a) traço **grosso** o bastante pra ler em thumbnail, 1–2px some, use 5–6px; (b) tem **marcador semântico** que entrega o sentido sem ler, ✕ vermelho = errado/morto, ✓ ou `$` verde = certo/dinheiro, ↑ = cresce; linha pelada sem marcador = decorativa = falha; (c) tem **rótulo/legenda** do que cada parte é, diagrama sem contexto = adivinhação = falha; (d) é **grande** o bastante pra ocupar o espaço, não um desenhinho perdido num mar de vazio. Exemplo real: o "mapa" tinha 2 linhas finas sem marcador, ninguém entendia → virou zigue-zague grosso terminando em **✕ vermelho** (caminho furado) vs reta verde terminando em círculo com **`$`** (caminho certo) + rótulos embaixo.
+
+16. **Nenhum elemento renderiza vazio / fantasma?** Todo elemento estrutural (grade de feed, mockup de player, card, célula, gráfico) ou está **preenchido** com conteúdo que lê como intencional, ou não existe. Caixa/célula vazia + baixa opacidade = parece esqueleto de carregamento = FALHA. Mock (feed, player) precisa de conteúdo plausível: thumbs com gradiente, barra de legenda, botão de play. Espaço morto gigante em volta de um elemento pequeno = falha (aumente o elemento ou reequilibre o layout). Exemplo real: o banner "PARE" tinha um feed 3×3 de células vazias a 50% de opacidade = parecia quebrado → corrigido com "posts" de gradiente + barra de legenda + scrim escurecendo o miolo pro PARE saltar; e o relógio minúsculo num vazio virou 235px + glow verde.
+
 ## Teste final, "0,3 segundos"
 
-Depois das 12 perguntas, faça o teste subjetivo:
+Depois das 16 perguntas, faça o teste subjetivo:
 
 > Se alguém vê este slide por 0,3 segundo no feed, a mensagem principal chega?
 
