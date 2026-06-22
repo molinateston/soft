@@ -1,6 +1,6 @@
-# Fase 1 — Zero ao primeiro milhão
+# Fase 1, Zero ao primeiro milhão
 
-> **Quando consultar:** cliente em validação, busca de PMF, primeiros clientes, faturamento R$0 - R$80k/mês (≈R$1MM/ano). Esta é a fase de **vida ou morte** — 90% das empresas morrem aqui. **Prioridade 1 da skill.**
+> **Quando consultar:** cliente em validação, busca de PMF, primeiros clientes, faturamento R$0 - R$80k/mês (≈R$1MM/ano). Esta é a fase de **vida ou morte**, 90% das empresas morrem aqui. **Prioridade 1 da skill.**
 
 ---
 
@@ -9,10 +9,10 @@
 - O que define essa fase
 - A pergunta central da fase 1
 - Os 4 marcos sequenciais da fase
-- Marco 1 — Validação de problema
-- Marco 2 — Validação de solução (MVP)
-- Marco 3 — Primeiros 10 clientes pagantes
-- Marco 4 — Processo de aquisição que não depende 100% do CEO
+- Marco 1, Validação de problema
+- Marco 2, Validação de solução (MVP)
+- Marco 3, Primeiros 10 clientes pagantes
+- Marco 4, Processo de aquisição que não depende 100% do CEO
 - Estrutura financeira mínima da Fase 1
 - Equipe na Fase 1
 - Erros comuns da Fase 1
@@ -29,7 +29,7 @@ Cliente:
 - Faturamento mensal abaixo de R$80k (≈R$1MM/ano)
 - Time de 1-3 pessoas (geralmente fundador + 1-2 sócios ou primeiro funcionário)
 - Caixa apertado (3-12 meses)
-- Decisões hoje são existenciais — errar mata
+- Decisões hoje são existenciais, errar mata
 
 A fase termina quando:
 - Faturamento mensal estabiliza em R$80k+/mês
@@ -44,7 +44,7 @@ A fase termina quando:
 > **"Existe um pedaço de mercado que paga consistentemente pelo que vocês oferecem, e o quanto vocês entregam é replicável?"**
 
 Se sim → fase 1 vencida.
-Se não → ainda tá em validação — não tem empresa, tem aposta.
+Se não → ainda tá em validação, não tem empresa, tem aposta.
 
 **Princípio:** fase 1 não é "crescer". É **provar**. Crescer antes de provar é o caminho mais rápido pra falência.
 
@@ -53,13 +53,13 @@ Se não → ainda tá em validação — não tem empresa, tem aposta.
 ## Os 4 marcos sequenciais da fase
 
 ```
-Marco 1 — VALIDAÇÃO DE PROBLEMA
+Marco 1 - VALIDAÇÃO DE PROBLEMA
   ↓ (leva 1-3 meses)
-Marco 2 — VALIDAÇÃO DE SOLUÇÃO (MVP / Mínima Oferta Economicamente Viável)
+Marco 2 - VALIDAÇÃO DE SOLUÇÃO (MVP / Mínima Oferta Economicamente Viável)
   ↓ (leva 2-4 meses)
-Marco 3 — PRIMEIROS 10 CLIENTES PAGANTES
+Marco 3 - PRIMEIROS 10 CLIENTES PAGANTES
   ↓ (leva 3-6 meses)
-Marco 4 — PROCESSO DE AQUISIÇÃO QUE NÃO DEPENDE 100% DO CEO
+Marco 4 - PROCESSO DE AQUISIÇÃO QUE NÃO DEPENDE 100% DO CEO
   ↓ (leva 6-12 meses)
 PMF efetivo → entra na Fase 2
 ```
@@ -68,7 +68,7 @@ PMF efetivo → entra na Fase 2
 
 ---
 
-## Marco 1 — Validação de problema
+## Marco 1, Validação de problema
 
 ### O que é
 
@@ -82,7 +82,7 @@ Confirmar que existe **gente real** com **dor real** disposta a **pagar** por um
 **As 5 perguntas de validação:**
 
 1. **Quem exatamente tem essa dor?** (não "empresários", mas "consultores B2B faturando R$10-30k/mês")
-2. **Quão grande é essa dor?** (1-10 — abaixo de 7, dor não justifica preço)
+2. **Quão grande é essa dor?** (1-10, abaixo de 7, dor não justifica preço)
 3. **Já estão pagando por algo pra resolver?** (se sim, qual? quanto?)
 4. **Quanto pagariam por uma solução melhor?** (faixa específica)
 5. **Quantos desses existem?** (mercado endereçável)
@@ -91,7 +91,7 @@ Confirmar que existe **gente real** com **dor real** disposta a **pagar** por um
 
 **Entrevistas:**
 - 30-50 conversas com pessoas do perfil (15-30 min cada)
-- Pergunta sobre o **problema** — não sobre sua solução
+- Pergunta sobre o **problema**, não sobre sua solução
 - Roda gravando + nota
 - Procura padrões: o que se repete em 70%+?
 
@@ -124,7 +124,7 @@ Documento de 1 página com:
 
 ---
 
-## Marco 2 — Validação de solução (MVP)
+## Marco 2, Validação de solução (MVP)
 
 ### A doutrina dos fundamentos de negócio
 
@@ -165,7 +165,7 @@ Pra construir MVP, escolhe um dos 12 formatos:
 | 11 | **Seguro** | Cobertura de risco |
 | 12 | **Capital** | Investidor anjo, fundo |
 
-**Princípio:** MVP é mais barato em **serviço** que em **produto**. Por isso muita empresa começa fazendo serviço (1:1, consultoria) pra validar valor — depois converte em produto/SaaS quando tem clareza.
+**Princípio:** MVP é mais barato em **serviço** que em **produto**. Por isso muita empresa começa fazendo serviço (1:1, consultoria) pra validar valor, depois converte em produto/SaaS quando tem clareza.
 
 ### Shadow Testing
 
@@ -190,7 +190,7 @@ Técnica de validação: vende **antes de ter produto**.
 
 ---
 
-## Marco 3 — Primeiros 10 clientes pagantes
+## Marco 3, Primeiros 10 clientes pagantes
 
 ### Princípio raiz
 
@@ -200,7 +200,7 @@ CEO **fecha pessoalmente** os primeiros 10. Por 3 razões:
 
 1. **Aprendizado:** vê objeções reais, ajusta produto/oferta
 2. **Calibragem:** descobre o que cliente realmente valoriza vs marketing achava
-3. **Padrão:** primeiros 10 viram referência cultural — "nosso cliente é tipo o João, não tipo a Maria"
+3. **Padrão:** primeiros 10 viram referência cultural, "nosso cliente é tipo o João, não tipo a Maria"
 
 ### Como fechar os primeiros 10
 
@@ -217,7 +217,7 @@ CEO **fecha pessoalmente** os primeiros 10. Por 3 razões:
 - Mantém simples e intenso
 
 **Métricas reais:**
-- CAC = R$0 (você fechou na unha — só seu tempo)
+- CAC = R$0 (você fechou na unha, só seu tempo)
 - LTV = preço × tempo de retenção esperado
 - Margem bruta = receita − custo direto de entrega
 - Churn = quantos saíram nos primeiros 90 dias
@@ -236,15 +236,15 @@ CEO **fecha pessoalmente** os primeiros 10. Por 3 razões:
 - 10+ clientes pagantes
 - Métricas básicas conhecidas (CAC, LTV, margem, churn)
 - Teste PMF aplicado
-- Padrão de cliente identificado (ICP — Ideal Customer Profile)
+- Padrão de cliente identificado (ICP, Ideal Customer Profile)
 
 ---
 
-## Marco 4 — Processo de aquisição que não depende 100% do CEO
+## Marco 4, Processo de aquisição que não depende 100% do CEO
 
 ### Por que esse marco existe
 
-Você pode ter 10 clientes mas se **todos vieram porque você fechou pessoalmente**, **você não tem empresa — você tem profissão**.
+Você pode ter 10 clientes mas se **todos vieram porque você fechou pessoalmente**, **você não tem empresa, você tem profissão**.
 
 Empresa = sistema que gera cliente sem você. Profissão = você é o sistema.
 
@@ -289,7 +289,7 @@ Tentar os 3 simultaneamente = nenhum funciona.
 - CNPJ aberto
 - Conta bancária PJ separada
 - Cartão corporativo
-- Tudo passa pelo PJ — nada misturado com pessoa física
+- Tudo passa pelo PJ, nada misturado com pessoa física
 
 **2. Regime tributário decidido.**
 - **Simples Nacional** (até R$4.8MM/ano): mais simples, alíquota progressiva 4-15%
@@ -307,7 +307,7 @@ Tentar os 3 simultaneamente = nenhum funciona.
 - Imposto
 - Lucro líquido
 
-> Não precisa de software caro — planilha resolve até R$1MM/ano. Pode ser Notion, Sheets, Excel.
+> Não precisa de software caro, planilha resolve até R$1MM/ano. Pode ser Notion, Sheets, Excel.
 
 **4. Fluxo de caixa em meses.**
 - Caixa atual / despesa mensal = meses de runway
@@ -334,7 +334,7 @@ CEO em fase 1 faz:
 - Administração
 - Decisão técnica
 
-**Não tem como delegar tudo** — a empresa é o CEO nessa fase.
+**Não tem como delegar tudo**: a empresa é o CEO nessa fase.
 
 ### Quando contratar primeiro funcionário
 
@@ -376,7 +376,7 @@ Em **serviços B2B**:
 - ❌ Sem caso de iniciativa
 - ❌ Não estuda nada por conta
 
-> Na Fase 1, contratar não-PSD = gastar salário sem retorno proporcional. PSD é caro? Não — é o oposto. PSD pode dobrar produtividade do time.
+> Na Fase 1, contratar não-PSD = gastar salário sem retorno proporcional. PSD é caro? Não, é o oposto. PSD pode dobrar produtividade do time.
 
 ---
 
@@ -415,17 +415,17 @@ Quando esses 10 marcos estão batidos → cliente sai da Fase 1.
 
 ## Plano de 90 dias (esqueleto Fase 1)
 
-### Mês 1 — Validação
+### Mês 1, Validação
 - Semana 1-2: 30-50 entrevistas de problema
 - Semana 3-4: documento de validação + decisão de seguir/parar
 - **Marco do mês:** documento de 1 página com cliente, dor, preço estimado
 
-### Mês 2 — MVP
+### Mês 2, MVP
 - Semana 5-6: construção MVP ou shadow test
 - Semana 7-8: 3-5 primeiros clientes pagantes
 - **Marco do mês:** receita primeira (mesmo que R$3-15k)
 
-### Mês 3 — Iteração
+### Mês 3, Iteração
 - Semana 9-10: ajusta MVP com feedback
 - Semana 11-12: chega aos 10 clientes pagantes
 - **Marco do mês:** 10 clientes + métricas básicas + teste PMF
@@ -433,14 +433,14 @@ Quando esses 10 marcos estão batidos → cliente sai da Fase 1.
 ### Após 90 dias
 - Se PMF positivo (>40%): inicia Marco 4 (processo de aquisição)
 - Se PMF parcial: refaz Marco 2 com ajustes
-- Se PMF ruim: pivota — pergunta entre dor diferente, cliente diferente, ou solução diferente
+- Se PMF ruim: pivota, pergunta entre dor diferente, cliente diferente, ou solução diferente
 
 ---
 
 ## Notas operacionais
 
-- **Skill desencoraja captação na Fase 1.** Investidor entra quando você prova PMF — antes disso, dilução cara por nada. Bootstrapping com renda de fundador resolve até R$300-500k de necessidade.
-- **Fase 1 não é "trabalho duro" — é "trabalho certo".** 80% trabalho duro + 20% trabalho certo = falência. 80% certo + 20% duro = vence.
+- **Skill desencoraja captação na Fase 1.** Investidor entra quando você prova PMF, antes disso, dilução cara por nada. Bootstrapping com renda de fundador resolve até R$300-500k de necessidade.
+- **Fase 1 não é "trabalho duro", é "trabalho certo".** 80% trabalho duro + 20% trabalho certo = falência. 80% certo + 20% duro = vence.
 - **Clientes pagantes > usuários gratuitos.** Free tier nessa fase é distração. 10 clientes pagando R$500/mês > 1.000 usando grátis.
-- **Sócios na Fase 1**: cuidado com diluição. Vesting de 4 anos com cliff de 1 ano é padrão. Ninguém ganha 30% no primeiro mês — todo mundo conquista por tempo+performance.
+- **Sócios na Fase 1**: cuidado com diluição. Vesting de 4 anos com cliff de 1 ano é padrão. Ninguém ganha 30% no primeiro mês, todo mundo conquista por tempo+performance.
 - **Produto digital de conhecimento (caso Léo)**: a Fase 1 do Soft Business é literalmente as primeiras 10 mentorias fechadas pelo Léo. Quando estabilizou em R$30-50k/mês recorrente, saiu da Fase 1.

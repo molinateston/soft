@@ -53,11 +53,11 @@ O `build_carousel.py` e o `export_pngs.py` estão cravados em **1080×1350**. Sl
 |---|---|---|---|---|
 | Título-impacto (1 ideia, slide-respiro) | 1–4 | 180–260px | 0.95 | 700–900 |
 | Título normal | 5–8 | 110–150px | 1.0 | 700 |
-| Subtítulo / lead | — | 44–56px | 1.3 | 400–500 |
+| Subtítulo / lead | – | 44–56px | 1.3 | 400–500 |
 | Corpo | até 20 | 36–44px | 1.4 | 400 |
 | Item de lista (máx 3) | até 5 cada | 48–60px | 1.25 | 500–700 |
 | Número-prova (o número é o slide) | 1 | 320–480px | 1.0 | 800–900 |
-| Rótulo/tag de seção | — | 24–30px | — | 600, tracking +0.1em |
+| Rótulo/tag de seção | – | 24–30px | – | 600, tracking +0.1em |
 
 Regra do "ERRO": título com mais de 8 palavras OU corpo com mais de 20 → **pare e reporte**, não encolha a fonte pra caber. Slide denso demais é falha de copy, conserta-se na copy.
 
@@ -67,16 +67,16 @@ Regra do "ERRO": título com mais de 8 palavras OU corpo com mais de 20 → **pa
 
 Um deck de elite não é "slides bonitos em sequência", é uma **curva de tensão** que a fala percorre. Os tipos de slide existem pra marcar onde a curva está. Toda apresentação que vende segue, em ordem, esta espinha (a quantidade de slides de cada tipo varia com a fala):
 
-1. **Abertura / Título** — o nome da fala + a promessa. Um slide. Quebra padrão já aqui: nada de "Bem-vindo" + logo gigante.
-2. **Gancho / Ruptura** — a frase que invalida o que a plateia acha que sabe. Slide-respiro tipográfico.
-3. **Diagnóstico** — a dor nomeada, a cena que a pessoa reconhece. 2 a 5 slides, um sintoma por slide.
-4. **Divisor de seção** — slide-respiro que anuncia o próximo bloco ("Parte 1: o que te trava de verdade"). Repetível, é o que dá fôlego à fala.
-5. **Mecanismo / Conteúdo** — o ensino, o método nomeado, os passos. O maior bloco. **Um conceito por slide**, nunca a lista inteira de uma vez (revele item a item em slides separados se a fala precisa).
-6. **Prova** — número, antes/depois, caso real. Número grande é o slide.
-7. **Transição pra oferta** — o slide-ponte que move de "ensinar" pra "oferecer". Marca a virada de tom.
-8. **Oferta** — o slide mais desenhado do deck. Ver "O slide de oferta" abaixo.
-9. **CTA / próximo passo** — a ação única e clara. Um slide.
-10. **Encerramento** — fecha o loop aberto na abertura (volta ao gancho). Um slide.
+1. **Abertura / Título** - o nome da fala + a promessa. Um slide. Quebra padrão já aqui: nada de "Bem-vindo" + logo gigante.
+2. **Gancho / Ruptura** - a frase que invalida o que a plateia acha que sabe. Slide-respiro tipográfico.
+3. **Diagnóstico** - a dor nomeada, a cena que a pessoa reconhece. 2 a 5 slides, um sintoma por slide.
+4. **Divisor de seção** - slide-respiro que anuncia o próximo bloco ("Parte 1: o que te trava de verdade"). Repetível, é o que dá fôlego à fala.
+5. **Mecanismo / Conteúdo** - o ensino, o método nomeado, os passos. O maior bloco. **Um conceito por slide**, nunca a lista inteira de uma vez (revele item a item em slides separados se a fala precisa).
+6. **Prova** - número, antes/depois, caso real. Número grande é o slide.
+7. **Transição pra oferta** - o slide-ponte que move de "ensinar" pra "oferecer". Marca a virada de tom.
+8. **Oferta** - o slide mais desenhado do deck. Ver "O slide de oferta" abaixo.
+9. **CTA / próximo passo** - a ação única e clara. Um slide.
+10. **Encerramento** - fecha o loop aberto na abertura (volta ao gancho). Um slide.
 
 **Transições de tensão (o que liga um bloco ao outro):** entre Diagnóstico e Mecanismo entra sempre uma frase-virada ("e se o problema não fosse X, fosse Y?"); antes da Oferta entra sempre o slide-ponte. Sem ponte, a oferta soa abrupta e a plateia se fecha. A tensão sobe no diagnóstico, alivia no mecanismo, sobe de novo na transição-oferta. O deck plano (mesma intensidade do início ao fim) é o deck que adormece a sala.
 
@@ -133,7 +133,7 @@ Cada tipo herda a família visual escolhida (Editorial Preto / Clínico Branco /
 ### 8. MECANISMO NOMEADO
 **Função:** mostrar o método com nome próprio (o ativo da marca).
 **Layout:** o nome do mecanismo gigante, uma linha de definição embaixo.
-**Exemplo:** **Método Agenda Cheia** — o consultório lota sem depender de indicação.
+**Exemplo:** **Método Agenda Cheia** - o consultório lota sem depender de indicação.
 
 ### 9. DIAGRAMA / FLUXO
 **Função:** mostrar uma relação ou sequência (3–4 nós no máximo).
@@ -141,7 +141,7 @@ Cada tipo herda a família visual escolhida (Editorial Preto / Clínico Branco /
 
 ### 10. PROVA NUMÉRICA
 **Função:** o número carrega o slide.
-**Layout:** número 320–480px, uma legenda curta embaixo. Sem prova real no perfil, **placeholder marcado** (`[número — preencher com prova real]`), nunca inventado.
+**Layout:** número 320–480px, uma legenda curta embaixo. Sem prova real no perfil, **placeholder marcado** (`[número - preencher com prova real]`), nunca inventado.
 **Exemplo:** **312** consultórios aplicaram · em 8 meses.
 
 ### 11. PROVA-CASO / DEPOIMENTO
@@ -185,7 +185,7 @@ O slide de oferta é onde o deck ganha ou perde dinheiro. Regras duras:
 > → O **mapa de cobrança** que recupera inadimplente
 > _De cliente que paga atrasado a caixa que sobra todo mês._
 > ~~R$ 4.800~~ → **R$ 2.400** em até 12x
-> **Garantia de 15 dias** — não serviu, devolvo tudo
+> **Garantia de 15 dias** - não serviu, devolvo tudo
 > **[CTA: chame "CAIXA" no direct]**
 
 ---
@@ -198,9 +198,9 @@ A copy-visual de cada slide passa pelo gate do Crivo ANTES de desenhar (`shared-
 
 ## Fluxo de execução (siga sempre nesta ordem)
 
-1. **Passo 0** — leia o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`). Sem perfil, roteia pro onboarding.
+1. **Passo 0** - leia o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`). Sem perfil, roteia pro onboarding.
 2. **Receba o roteiro/tese** da skill de funil/webinário ou do usuário. Se vier só o tema, reporte que a estrutura da fala precisa vir pronta.
-3. **Marque a espinha** — mapeie cada bloco da fala num tipo de slide (abertura, gancho, diagnóstico, divisor, conceito, prova, ponte, oferta, CTA, encerramento). **Declare a lista de tipos ao usuário antes de desenhar** (mesma disciplina do carrossel).
+3. **Marque a espinha** - mapeie cada bloco da fala num tipo de slide (abertura, gancho, diagnóstico, divisor, conceito, prova, ponte, oferta, CTA, encerramento). **Declare a lista de tipos ao usuário antes de desenhar** (mesma disciplina do carrossel).
 4. **Escolha família + cor + tipografia** (`perguntas-design.md`, `tipografia.md`). Um deck usa UMA família e UMA cor de accent do começo ao fim, igual carrossel. Divisores de seção podem inverter o fundo da família.
 5. **Aplique a copy pelo Crivo** (gate, anti-IA, mobile-first) ANTES de renderizar.
 6. **Conte palavras por slide** contra a tabela de escala-deck. Caiu em ERRO, pare e reporte.

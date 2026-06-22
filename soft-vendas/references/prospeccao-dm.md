@@ -64,7 +64,7 @@ Por curiosidade, o que te fez começar a seguir?
 
 **Regra:** 1 pergunta só. Sem 2 perguntas juntas. Sem apresentação longa.
 
-**Quebra-gelo anti-robô (opcional):** hoje todo mundo desconfia de DM automática. Se a abordagem por texto soa fria, um áudio curto de 5-10s — só você falando o nome dele e a pergunta — prova na hora que é gente de verdade, não bot. Costuma puxar mais resposta. Sem locução de vendedor: fala normal, como pra um conhecido.
+**Quebra-gelo anti-robô (opcional):** hoje todo mundo desconfia de DM automática. Se a abordagem por texto soa fria, um áudio curto de 5-10s, só você falando o nome dele e a pergunta, prova na hora que é gente de verdade, não bot. Costuma puxar mais resposta. Sem locução de vendedor: fala normal, como pra um conhecido.
 
 ---
 
@@ -136,7 +136,7 @@ Depois de passar pelos 4 elementos (ou até um ponto em que você entendeu o suf
 | **Mini Carta** | Padrão Soft. Serve pra qualquer nicho. Filtra por leitura. |
 | **Mini Webinar** | Alternativa em vídeo (10min em 12 blocos). Quando cliente prefere vídeo a texto, ou tem audiência em formato vídeo. |
 
-> **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-leon`) quando precisa formato longo ao vivo ou perpétuo.
+> **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-webinario`) quando precisa formato longo ao vivo ou perpétuo.
 
 **Modelo de entrega da DM:**
 
@@ -222,7 +222,7 @@ Se fez, me conta o que mais chamou sua atenção.
 
 Quando o lead passou pelo pré-qualificador e você avança pra marcar a call, um formulário curto antes da reunião economiza 20 minutos e filtra red flags.
 
-**Abre o formulário filtrando, não com "preencha seus dados".** Uma linha no topo que já separa quem é sério: *"Esse formulário é pra quem quer resolver [problema] pra valer. Se você só está buscando conteúdo grátis por enquanto, sem problema — mas talvez ainda não seja a hora."* Quem preenche depois disso já se qualificou sozinho. O formulário vira a primeira peça que filtra, não um cadastro.
+**Abre o formulário filtrando, não com "preencha seus dados".** Uma linha no topo que já separa quem é sério: *"Esse formulário é pra quem quer resolver [problema] pra valer. Se você só está buscando conteúdo grátis por enquanto, sem problema, mas talvez ainda não seja a hora."* Quem preenche depois disso já se qualificou sozinho. O formulário vira a primeira peça que filtra, não um cadastro.
 
 **Campos mínimos do formulário pré-call:**
 

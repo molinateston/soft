@@ -33,7 +33,7 @@ Botão precisa "respirar" pra parecer importante.
 ### Borda
 Arredondamento: **4-8px** (sem ser pílula extrema)
 
-Pílula extrema (border-radius infinito) só funciona em design específico — pode parecer datado.
+Pílula extrema (border-radius infinito) só funciona em design específico - pode parecer datado.
 
 ### Sombras
 Box-shadow leve é OK pra dar profundidade. Sombra exagerada parece amador.

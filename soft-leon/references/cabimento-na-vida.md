@@ -12,7 +12,7 @@ Aqui se compara o exigido pela rotina com o disponível pela vida. Se passou, op
 
 Marca cada célula em cor:
 
-🟢 **Verde — Vida não-negociável**
+🟢 **Verde, Vida não-negociável**
 - Sono (7-8h/noite = 49-56h/semana)
 - Alimentação (1.5h/dia = 10.5h/semana)
 - Higiene pessoal (1h/dia = 7h/semana)
@@ -21,12 +21,12 @@ Marca cada célula em cor:
 - Descanso real (sem celular, sem trabalho)
 - Compromissos sagrados (jantar, fim de semana família, etc)
 
-🟡 **Amarelo — Tempo Flexível**
+🟡 **Amarelo, Tempo Flexível**
 - Pode ser trabalho ou lazer dependendo da semana
 - Geralmente blocos de manhã livre, tarde livre, noite livre
 - Reserva pra imprevistos
 
-🔴 **Vermelho — Trabalho**
+🔴 **Vermelho, Trabalho**
 - Atendimento de clientes existentes (já agendado)
 - Produção de conteúdo (atração)
 - Operação interna (vendas, e-mails, administrativo)
@@ -36,7 +36,7 @@ Marca cada célula em cor:
 
 ## Como calcular
 
-### Passo 1 — Verde primeiro
+### Passo 1, Verde primeiro
 
 Soma tudo que é vida não-negociável.
 
@@ -54,11 +54,11 @@ Exemplo realista de profissional liberal solo, casado, com 1 filho pequeno:
 | Compromissos pessoais (médico, cabelo, banco) | 3 |
 | **Total Verde** | **112.5 horas** |
 
-### Passo 2 — Vermelho exigido
+### Passo 2, Vermelho exigido
 
 Da conta de Meta Realista, vem o total semanal exigido pela operação. Suponhamos: **25 horas/semana**.
 
-### Passo 3 — Amarelo (sobra)
+### Passo 3, Amarelo (sobra)
 
 168 (total) − 112.5 (verde) − 25 (vermelho exigido) = **30.5 horas amarelas**
 
@@ -96,7 +96,7 @@ Sem meio-termo.
 
 ## Os 3 níveis de cabimento
 
-### Nível 1 — Cabe com margem
+### Nível 1, Cabe com margem
 Vermelho exigido deixa **20h+ de Amarelo livres**.
 
 Esse é o ideal. Tem espaço pra:
@@ -105,7 +105,7 @@ Esse é o ideal. Tem espaço pra:
 - Vida que não foi listada no Verde
 - Descanso adicional quando precisar
 
-### Nível 2 — Cabe sem margem
+### Nível 2, Cabe sem margem
 Vermelho exigido deixa **5-15h de Amarelo livres**.
 
 Cabe, mas opera no limite. Funciona em semana padrão. Não funciona quando:
@@ -116,7 +116,7 @@ Cabe, mas opera no limite. Funciona em semana padrão. Não funciona quando:
 
 Recomendação: subir ticket pra reduzir Vermelho. Ou cortar 1 oferta.
 
-### Nível 3 — Não cabe
+### Nível 3, Não cabe
 Vermelho exigido invade Verde.
 
 Aplica os 4 ajustes (ver meta-realista.md). Não passa adiante.
@@ -156,7 +156,7 @@ DIA: SÁBADO
 22:00 - 06:00  🟢 Sono
 
 DIA: DOMINGO
-[100% verde — vida pessoal e descanso]
+[100% verde - vida pessoal e descanso]
 ```
 
 Resultado: dá pra ver visualmente quanto vermelho cabe sem invadir verde.
@@ -247,7 +247,7 @@ Reavaliar tabela quando:
 - Mudança de cidade (Verde muda)
 - Idade do filho avança (Verde se reorganiza)
 - Pais começam a precisar de cuidado (Verde aumenta)
-- Saúde própria muda (Verde aumenta — treino, médico, descanso)
+- Saúde própria muda (Verde aumenta, treino, médico, descanso)
 
 Cabimento é vivo. Mas cada mudança começa pelo Verde.
 
@@ -274,7 +274,7 @@ A diferença não está no que se ganha. Está no que se mantém.
 5. [ ] Sobrou pelo menos 5-10h de Amarelo (margem)?
 6. [ ] Tabela SIM/NÃO/DEPENDE preenchida?
 7. [ ] Cônjuge (ou pessoa da casa) viu a tabela?
-8. [ ] Operação cabe na semana normal — não só na semana boa?
+8. [ ] Operação cabe na semana normal, não só na semana boa?
 
 Se algum item falhar, refaz antes de fechar a Fase 5.
 

@@ -1,8 +1,8 @@
-# Cálculo do Caixa ao Conteúdo — Mecânica do Funil Reverso
+# Cálculo do Caixa ao Conteúdo, Mecânica do Funil Reverso
 
 A mecânica que transforma "quero embolsar R$Xk/mês em 6 meses" em "produzo Y peças/semana com Z horas de produção". Cálculo de trás pra frente, etapa por etapa, usando Benchmark Soft como referência inicial.
 
-**Princípio raiz:** conteúdo é variável dependente da meta. Não é decisão criativa solta. Cliente que produz "o que dá" e torce pro número bater não opera Soft — opera ansiedade.
+**Princípio raiz:** conteúdo é variável dependente da meta. Não é decisão criativa solta. Cliente que produz "o que dá" e torce pro número bater não opera Soft, opera ansiedade.
 
 ---
 
@@ -10,8 +10,8 @@ A mecânica que transforma "quero embolsar R$Xk/mês em 6 meses" em "produzo Y p
 
 - A fórmula completa
 - Variáveis e benchmarks aplicados (faixa baixa por default)
-- Exemplo prático — Cliente Escalar (R$25k → R$60k em 6 meses)
-- Exemplo prático — Cliente Destravar (R$8k → R$25k em 6 meses)
+- Exemplo prático, Cliente Escalar (R$25k → R$60k em 6 meses)
+- Exemplo prático, Cliente Destravar (R$8k → R$25k em 6 meses)
 - Como tratar mix de oferta no cálculo
 - Como tratar Turbinar no cálculo
 - Como tratar IA Vertical no cálculo
@@ -76,7 +76,7 @@ META DE CAIXA MENSAL (M6)
 
 ---
 
-## Exemplo prático — Cliente Escalar (R$25k → R$60k em 6 meses)
+## Exemplo prático, Cliente Escalar (R$25k → R$60k em 6 meses)
 
 ### Inputs do diagnóstico
 - Faturamento atual: R$25.000/mês
@@ -100,7 +100,7 @@ Vendas/mês:
 - Principal: R$60.000 ÷ R$3.500 = 17 vendas
 - Downsell: R$25.700 ÷ R$497 = 52 vendas
 
-Reuniões realizadas (só Principal — Downsell é fluxo passivo):
+Reuniões realizadas (só Principal - Downsell é fluxo passivo):
 17 ÷ 30% = 57 reuniões/mês
 
 Reuniões agendadas:
@@ -114,10 +114,10 @@ Cliques na Carta:
 
 Engajamento qualificado total:
 6.480 ÷ 1% = 648.000 engajamentos qualificados/mês
-[ALERTA: número absurdo — recalibra]
+[ALERTA: número absurdo - recalibra]
 ```
 
-### Recalibragem — sinal de inviabilidade
+### Recalibragem, sinal de inviabilidade
 
 648.000 engajamentos qualificados/mês significa que o cálculo bateu em premissa irreal. Soft tem 3 ajustes possíveis:
 
@@ -130,7 +130,7 @@ Vamos refazer com taxas medianas (não faixa baixa cega):
 ```
 6.480 cliques ÷ 2% (engajamento → clique mediano) = 324.000 engajamentos
 324.000 ÷ 3% (alcance → engajamento) = 10.800.000 alcance
-[AINDA absurdo — Posicionamento precisa de público maior ou ticket precisa subir]
+[AINDA absurdo - Posicionamento precisa de público maior ou ticket precisa subir]
 ```
 
 ### Diagnóstico final
@@ -147,7 +147,7 @@ A skill identifica:
 
 ---
 
-## Exemplo prático — Cliente Destravar (R$8k → R$25k em 6 meses)
+## Exemplo prático, Cliente Destravar (R$8k → R$25k em 6 meses)
 
 ### Inputs
 - Faturamento atual: R$8.000/mês
@@ -179,10 +179,10 @@ DMs qualificados: 33 ÷ 25% = 132/mês
 
 Cliques Carta: 132 ÷ 5% = 2.640/mês
 Engajamento qualificado: 2.640 ÷ 1% = 264.000
-[Ainda alto — recalibra com 2%]
+[Ainda alto - recalibra com 2%]
 
 Refaz: 132 DMs → 1.320 cliques → 132.000 engajamentos
-[Ainda alto — sinal que cálculo bate em mercado de massa]
+[Ainda alto - sinal que cálculo bate em mercado de massa]
 
 Refaz com 4% engajamento → clique (cliente Destravar tem público mais quente, taxa maior)
 132 DMs → 660 cliques (com taxa Carta→DM 20% pra Destravar) → 33.000 engajamentos
@@ -202,7 +202,7 @@ Skill aponta que volume necessário é insustentável e oferece 3 ajustes:
 > 1. **Subir ticket Principal** pra R$3.500 → reduz volume pra 50 peças/semana
 > 2. **Adicionar Turbinar R$500/mês** desde M2 → reduz volume orgânico pra 25 peças/semana
 > 3. **Estender prazo** pra 9 meses → volume cai pra 18 peças/semana
-> 4. **Mix mais agressivo no Downsell** (70% Downsell) — volume Downsell escala mais barato"*
+> 4. **Mix mais agressivo no Downsell** (70% Downsell), volume Downsell escala mais barato"*
 
 Cliente escolhe combinação. Skill recalcula.
 
@@ -219,7 +219,7 @@ Mix tem 2 ofertas: Principal + Downsell. Skill calcula funis SEPARADOS e SOMA no
 - Lead com mais maturidade, ticket maior, ciclo mais longo
 
 ### Funil Downsell
-- Geralmente sem reunião — fluxo passivo via Carta + CTA da bio
+- Geralmente sem reunião, fluxo passivo via Carta + CTA da bio
 - Taxa de conversão direta da Carta: 5-15% (lead morno → compra)
 - Pode ser ativado com Story de Oferta + DM qualificado convertendo direto
 
@@ -286,7 +286,7 @@ Com IA Vertical, cliente sustenta 2-3x mais peças/semana com as mesmas horas. S
 >
 > Plano com IA Vertical: 12 peças/semana × 30min = 6h/semana. Sobra 6h pra comercial e operação. Viável.
 >
-> IA Vertical não é opcional aqui — é parte do plano desde M1."*
+> IA Vertical não é opcional aqui, é parte do plano desde M1."*
 
 ---
 
@@ -312,8 +312,8 @@ Tudo isso em 1 página visual. Não em PDF de 30.
 ## Princípio final do cálculo
 
 Cálculo Soft é **conservador por default**. Faixa baixa em todas as etapas. Por quê:
-- Erro pra menos é recuperável (cliente bate antes da meta — bom problema)
-- Erro pra mais é desastroso (cliente não bate, abandona — pior problema)
+- Erro pra menos é recuperável (cliente bate antes da meta, bom problema)
+- Erro pra mais é desastroso (cliente não bate, abandona, pior problema)
 - Faixa baixa cria expectativa realista e dá margem pra surpresa boa
 
 Cliente que reclama "tá conservador demais" responde-se: *"é. Quando você tiver 60 dias de dado próprio mostrando faixa alta, refazemos. Antes disso, vamo no conservador."*

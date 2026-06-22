@@ -73,7 +73,7 @@ do valor total, pago [na ocorrência da meta definida no item 5.2.3 / OU em
 da meta].
 
 5.2.3. META: Para fins deste contrato, considera-se atingida a meta quando
-[descrever a meta de forma objetiva e mensurável — ex.: "o CONTRATANTE
+[descrever a meta de forma objetiva e mensurável, ex.: "o CONTRATANTE
 fechar o primeiro cliente do programa Soft, com pagamento confirmado de
 valor igual ou superior a R$ [X]"].
 
@@ -88,7 +88,7 @@ o saldo torna-se exigível independentemente da ocorrência da meta, sob pena
 de incidência das regras da Cláusula 6ª.
 
 5.2.6. As partes acordam que o atingimento da meta é condição de timing de
-pagamento, não condição de existência da obrigação — o saldo é devido em
+pagamento, não condição de existência da obrigação, o saldo é devido em
 qualquer cenário, sendo a meta apenas critério de exigibilidade dentro do
 prazo previsto no item 5.2.5.
 ```

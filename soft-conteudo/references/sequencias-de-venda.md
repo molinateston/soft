@@ -29,7 +29,7 @@ Cada template tem **estrutura fixa**. A skill preenche as lacunas `[...]` com ba
 
 ### Template A, Sequência Auditoria/Sessão (6 stories)
 
-**Quando usar:** vender auditoria, sessão estratégica, consultoria pontual de R$500–R$3.000.
+**Quando usar:** vender auditoria, sessão estratégica, consultoria pontual de R$500-R$3.000.
 
 **Ritmo:** publicar os 6 stories na mesma manhã ou em 2 blocos (3 de manhã, 3 à tarde).
 
@@ -78,9 +78,9 @@ Envia 'CONSULTA' no Direct pra garantir."
 
 ### Template B, Sequência Reunião Restrita / Workshop / Evento (14 stories)
 
-**Quando usar:** vender evento ao vivo (workshop, aula restrita, reunião, imersão). Ticket R$100–R$500.
+**Quando usar:** vender evento ao vivo (workshop, aula restrita, reunião, imersão). Ticket R$100-R$500.
 
-**Ritmo:** espalhar ao longo de 1–3 dias. Nunca postar todos de uma vez (gera fadiga).
+**Ritmo:** espalhar ao longo de 1-3 dias. Nunca postar todos de uma vez (gera fadiga).
 
 **Estrutura (14 stories):**
 
@@ -117,13 +117,13 @@ Envia 'CONSULTA' no Direct pra garantir."
 
 **Story 1, Identificação + Proposta + CTA**
 - Diagnóstico direto do problema (1 frase forte)
-- Apresentação da solução com 3–4 bullets do que será entregue
+- Apresentação da solução com 3-4 bullets do que será entregue
 - Diferencial ("diferente de [solução comum], isso é [característica]")
 - CTA com palavra-chave + urgência
 
 **Story 2, Qualificação do público**
 - *"Essa consulta é pra você que..."*
-- 3–4 categorias de perfil ideal
+- 3-4 categorias de perfil ideal
 - Reforço do CTA pra quem se encaixa
 
 **Story 3, Exclusão dos não-qualificados + última chamada**
@@ -195,7 +195,7 @@ Sáb  | Story Único Remarketing (7 stories)
 
 ### Ritmo
 - **Auditoria e Consultoria:** 1 dia só.
-- **Reunião Restrita:** 1–3 dias.
+- **Reunião Restrita:** 1-3 dias.
 - **Remarketing:** 1 dia (preferência segunda-feira).
 - Nunca publica mais de 14 stories de sequência em 24h, gera fadiga e completion cai.
 

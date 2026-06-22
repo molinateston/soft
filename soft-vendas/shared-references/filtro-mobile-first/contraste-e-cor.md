@@ -41,17 +41,17 @@ Validar em ferramenta antes de aprovar:
 
 ### Sobre branco
 - Cinza claro (#999, #BBB) ❌ contraste 2.8:1
-- Cinza médio (#666) ❌ contraste 5.7:1 — limite, mas evitar pra corpo
+- Cinza médio (#666) ❌ contraste 5.7:1 - limite, mas evitar pra corpo
 - Bege, tons pastel ❌
 - Amarelo claro (#FFFF00 etc) ❌
 
 ### Sobre preto
-- Cinza escuro (#333, #444) ❌ — contraste insuficiente
+- Cinza escuro (#333, #444) ❌ - contraste insuficiente
 - Texto com ruído / cinza reticulado ❌
-- Cinza médio (#888) ❌ contraste 3.5:1 — limite
+- Cinza médio (#888) ❌ contraste 3.5:1 - limite
 
 ### Sobre fundo com gradiente
-- Texto sem caixa de contraste ❌ — uma parte fica ilegível
+- Texto sem caixa de contraste ❌ - uma parte fica ilegível
 - Texto branco sobre gradiente claro ❌
 
 ### Sobre foto/imagem
@@ -85,19 +85,19 @@ Garantir contraste 4.5:1 do acento com o fundo onde aparece.
 
 ## Paleta Soft padrão (sugerida)
 
-### Esquema 1 — Editorial branco (limpo)
+### Esquema 1 - Editorial branco (limpo)
 - Background: #FFFFFF
 - Texto principal: #0A0908
 - Texto secundário: #555555
 - Acento: #D4541C (laranja queimado)
 
-### Esquema 2 — Preto absoluto (contundente)
+### Esquema 2 - Preto absoluto (contundente)
 - Background: #000000
 - Texto principal: #FFFFFF
 - Texto secundário: #AAAAAA
 - Sem acento (contraste por peso/tamanho)
 
-### Esquema 3 — Creme + escuro (warm)
+### Esquema 3 - Creme + escuro (warm)
 - Background: #F8F4ED
 - Texto principal: #0A0908
 - Texto secundário: #5A5048
@@ -128,7 +128,7 @@ Modo escuro funciona pra:
 - Estética minimalista contundente
 - Vibe noturna proposital
 
-Decidir cedo. Não misturar — página dividida (parte clara, parte escura) cansa o olho.
+Decidir cedo. Não misturar - página dividida (parte clara, parte escura) cansa o olho.
 
 ---
 
@@ -136,9 +136,9 @@ Decidir cedo. Não misturar — página dividida (parte clara, parte escura) can
 
 Botões precisam de 3 estados visíveis:
 
-1. **Default** — cor base
-2. **Hover** (desktop) — cor levemente diferente (mais escura ou clara)
-3. **Active** — cor da pressão (geralmente mais escura)
+1. **Default** - cor base
+2. **Hover** (desktop) - cor levemente diferente (mais escura ou clara)
+3. **Active** - cor da pressão (geralmente mais escura)
 
 Link em texto:
 - Default: cor de acento
@@ -166,13 +166,13 @@ Mesmo com contraste OK, texto muito pequeno cansa visão diminuída. Manter mín
 ## Cores que comunicam algo (semântica)
 
 ### Vermelho
-Urgência, erro, atenção, paixão. Cuidado com excesso — vira agressivo.
+Urgência, erro, atenção, paixão. Cuidado com excesso - vira agressivo.
 
 ### Verde
 Sucesso, finanças, natureza, "go". Cuidado com tom (verde-limão fluo é diferente de verde-floresta).
 
 ### Azul
-Confiança, tecnologia, distância profissional. Cor mais usada no mundo corporativo — pode soar genérica.
+Confiança, tecnologia, distância profissional. Cor mais usada no mundo corporativo - pode soar genérica.
 
 ### Amarelo
 Energia, alerta, otimismo. Difícil de ler sobre branco (precisa de fundo escuro).

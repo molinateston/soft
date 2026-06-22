@@ -17,6 +17,7 @@
 - 7. Diagnóstico, sintomas e fixes
 - 8. Conexões com outras references
 - 9. Output esperado
+- 10. Gate de saída do Perfil, o Crivo
 
 ---
 
@@ -369,3 +370,14 @@ Quando o modo-perfil termina de processar, entrega ao criador:
 6. **Checklist final** (testes de 5s e 1min)
 
 Tudo entregue em formato copiável (markdown ou texto puro).
+
+---
+
+## 10. Gate de saída do Perfil, o Crivo (bloqueante)
+
+Nome SEO, Bio e Destaques são copy PÚBLICA: a primeira coisa que o lead lê. Teste de 5s e teste de 1min não bastam, são auto-aprovação. Antes de virar público, o perfil passa pelo Crivo embutido em `shared-references/crivo/`, adaptado pro artefato "perfil":
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda DOR citada na Bio e no Destaque PROBLEMA bate em verbatim literal da super-pesquisa. Dor inventada, sem fala real, reprova.
+2. **As 3 perguntas do Harry** (`crivo/03-gate-cub.md`) na Bio (a tese/promessa) e no Destaque MÉTODO: dá pra ver? dá pra falsificar? E a mais dura: **só você pode dizer (o concorrente do nicho não assina)?** Bio ou destaque que cabe em qualquer concorrente reprova.
+3. **Anti-IA** (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`): a Bio e os roteiros de story passam no filtro, sem o "sem" genérico, sem adjetivo vazio, sem cosplay.
+4. **Cliente regulado** (`crivo/04-gate-regulado.md`): quando o especialista é de SAÚDE ou JURÍDICO, o perfil passa também pelo gate regulado antes de ir ao ar (promessa de resultado, número, garantia, linguagem permitida).
+5. **Veredito binário com tabela.** UMA falha reprova e re-roda. Sem passar no Crivo, o perfil não vira público.

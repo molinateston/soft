@@ -1,21 +1,21 @@
-# Dinheiro e financeiro — transversal
+# Dinheiro e financeiro, transversal
 
-> **Quando consultar:** qualquer assunto financeiro — pricing, margem, DRE, fluxo de caixa, captação, dívida, recompra, M&A financeiro, custos, impostos. Atravessa todas as fases.
+> **Quando consultar:** qualquer assunto financeiro, pricing, margem, DRE, fluxo de caixa, captação, dívida, recompra, M&A financeiro, custos, impostos. Atravessa todas as fases.
 
 ---
 
 ## Índice
 
 - Doutrina central
-- Bloco 1 — Pricing
-- Bloco 2 — DRE (Demonstração de Resultado)
-- Bloco 3 — Fluxo de caixa
-- Bloco 4 — Custo zero-base
-- Bloco 5 — Captação
-- Bloco 6 — Recompra agressiva
-- Bloco 7 — Impostos e estrutura tributária (Brasil)
-- Bloco 8 — Reservas estratégicas
-- Bloco 9 — Indicadores financeiros antecipados
+- Bloco 1, Pricing
+- Bloco 2, DRE (Demonstração de Resultado)
+- Bloco 3, Fluxo de caixa
+- Bloco 4, Custo zero-base
+- Bloco 5, Captação
+- Bloco 6, Recompra agressiva
+- Bloco 7, Impostos e estrutura tributária (Brasil)
+- Bloco 8, Reservas estratégicas
+- Bloco 9, Indicadores financeiros antecipados
 - Output desejado: ferramentas financeiras por fase
 - Notas operacionais
 
@@ -28,17 +28,17 @@
 > "Se você não pode medir, você não pode gerenciar."
 
 > "Sempre haverá espaço para fazer melhor com menos."
-> — cultura de dono
+> cultura de dono
 
 Dinheiro é **resultado**, não objetivo. Negócio sadio gera caixa que sustenta crescimento. Negócio doente queima caixa esperando crescer pra parar de queimar.
 
 ---
 
-## Bloco 1 — Pricing
+## Bloco 1, Pricing
 
 ### Os 4 métodos de precificação
 
-Há 4 maneiras de definir preço — e cada uma serve um momento.
+Há 4 maneiras de definir preço, e cada uma serve um momento.
 
 **1. Custo + margem (cost-plus).**
 - Soma custo de produção + margem desejada
@@ -88,8 +88,8 @@ Há 4 maneiras de definir preço — e cada uma serve um momento.
 |------|-----------|
 | 1 | Preço médio-baixo pra fechar primeiros clientes + aprender. **Não regala** mas também não força. |
 | 2 | Sobe preço sistematicamente conforme valor entregue cresce. Cliente novo paga mais que cliente antigo (justo) |
-| 3 | Pricing por segmento — diferentes ofertas pra diferentes ICPs |
-| 4 | Pricing institucional — cláusulas de reajuste, contratos de longo prazo |
+| 3 | Pricing por segmento, diferentes ofertas pra diferentes ICPs |
+| 4 | Pricing institucional, cláusulas de reajuste, contratos de longo prazo |
 
 ### Princípio Soft Business (caso Léo)
 
@@ -97,7 +97,7 @@ Mentoria de R$3-5k = ticket médio do segmento. Por valor entregue (sistema de a
 
 ---
 
-## Bloco 2 — DRE (Demonstração de Resultado)
+## Bloco 2, DRE (Demonstração de Resultado)
 
 ### Estrutura básica
 
@@ -171,7 +171,7 @@ RECEITA BRUTA
 
 ---
 
-## Bloco 3 — Fluxo de caixa
+## Bloco 3, Fluxo de caixa
 
 ### Fluxo de caixa ≠ DRE
 
@@ -211,8 +211,8 @@ SALDO INICIAL DE CAIXA
 > Saldo atual ÷ queima mensal líquida
 
 - Negative runway = empresa queima mais que ganha
-- Runway < 6 meses: vermelho — captar ou cortar AGORA
-- Runway 6-12 meses: amarelo — preparar plano
+- Runway < 6 meses: vermelho, captar ou cortar AGORA
+- Runway 6-12 meses: amarelo, preparar plano
 - Runway 12-24 meses: confortável
 - Runway 24+ meses: muito confortável (talvez investindo de menos?)
 
@@ -252,19 +252,19 @@ M+12 | 400k    | 280k    | 1.500k        | 1.620k      | 5.8m
 
 ---
 
-## Bloco 4 — Custo zero-base
+## Bloco 4, Custo zero-base
 
 ### O conceito raiz
 
 > "Cada despesa, todo ano, precisa ser justificada do zero. 'Já gastávamos isso ano passado' não é justificativa."
-> — cultura de dono
+> cultura de dono
 
 **Custo tradicional (incremental):** orçamento ano X = orçamento ano X-1 + 5% de inflação + ajustes.
 **Custo zero-base:** orçamento ano X = começa em zero, cada despesa precisa ser **provada novamente**.
 
 ### Como aplicar zero-base
 
-**Passo 1 — Lista todas as despesas do ano anterior.**
+**Passo 1, Lista todas as despesas do ano anterior.**
 - Folha por pessoa
 - Software/SaaS por contrato
 - Marketing por canal
@@ -272,18 +272,18 @@ M+12 | 400k    | 280k    | 1.500k        | 1.620k      | 5.8m
 - Infra
 - Outras
 
-**Passo 2 — Para cada despesa, pergunta:**
+**Passo 2, Para cada despesa, pergunta:**
 1. Se começássemos hoje, contrataríamos isso?
 2. Existe alternativa mais barata com mesmo resultado?
 3. Podemos eliminar sem prejuízo grave?
-4. Quem é o "owner" — pessoa que fica responsável por essa despesa?
+4. Quem é o "owner", pessoa que fica responsável por essa despesa?
 
-**Passo 3 — Categoriza:**
+**Passo 3, Categoriza:**
 - ✅ Mantém (essencial, bem precificada)
 - 🔄 Renegocia (essencial mas pode ser mais barata)
 - ❌ Elimina (não essencial)
 
-**Passo 4 — Implementa.**
+**Passo 4, Implementa.**
 
 ### Cultural impact
 
@@ -299,17 +299,17 @@ Zero-base é doloroso. Aplicado mal vira cultura de **ressentimento** ("cortam t
 
 ---
 
-## Bloco 5 — Captação
+## Bloco 5, Captação
 
 ### Tipos de capital + quando
 
 | Tipo | Tamanho típico (BR 2026) | Diluição | Quando faz sentido |
 |------|--------------------------|----------|-------------------|
-| **Pré-seed/Anjo** | R$50k-500k | 5-15% | Validar PMF inicial — Fase 1 final |
-| **Seed** | R$500k-3MM | 15-25% | PMF claro, escalar primeiro time — Fase 2 |
-| **Series A** | R$10-30MM | 15-25% | Crescimento provado, expansão — Fase 2/3 |
-| **Series B** | R$30-100MM | 15-25% | Escala internacional / multi-produto — Fase 3 |
-| **Series C+** | R$100MM+ | 10-20% | Pré-IPO, consolidação setor — Fase 3/4 |
+| **Pré-seed/Anjo** | R$50k-500k | 5-15% | Validar PMF inicial, Fase 1 final |
+| **Seed** | R$500k-3MM | 15-25% | PMF claro, escalar primeiro time, Fase 2 |
+| **Series A** | R$10-30MM | 15-25% | Crescimento provado, expansão, Fase 2/3 |
+| **Series B** | R$30-100MM | 15-25% | Escala internacional / multi-produto, Fase 3 |
+| **Series C+** | R$100MM+ | 10-20% | Pré-IPO, consolidação setor, Fase 3/4 |
 | **Dívida estruturada** | R$5-30MM | 0% | Receita previsível (SaaS, contratos longos) |
 | **Strategic** | Variável | 5-15% | Investidor estratégico do setor |
 
@@ -366,17 +366,17 @@ Captação não é só sobre **valor**. Termos podem custar milhões em saída f
 
 - Estrutura jurídica geralmente migra de LTDA pra S.A. fechada em Series A+
 - Fundadores quase sempre criam holding pessoal pra receber participação
-- Lei do Bem (P&D) pode dar incentivo fiscal — investiga se aplica
-- Reforma tributária 2026-2033 muda cálculo — acompanha com contador
+- Lei do Bem (P&D) pode dar incentivo fiscal, investiga se aplica
+- Reforma tributária 2026-2033 muda cálculo, acompanha com contador
 
 ---
 
-## Bloco 6 — Recompra agressiva
+## Bloco 6, Recompra agressiva
 
 ### O conceito
 
 > "Quando empresa gera caixa que excede crescimento orgânico, **comprar concorrente** é a melhor alocação de capital."
-> — cultura de dono aplicada
+> cultura de dono aplicada
 
 A escola da consolidação por aquisição usou recompra/M&A como mecanismo central:
 - Brahma comprou Antarctica (1999) → AmBev
@@ -426,7 +426,7 @@ Cada passo: cultura instalada + custo cortado + margem crescente.
 
 | Erro | Sintoma | Custo |
 |------|---------|-------|
-| **Sem plano de integração** | Comprou, deixou rodar separado | Sinergia nunca captura — paga prêmio sem retorno |
+| **Sem plano de integração** | Comprou, deixou rodar separado | Sinergia nunca captura, paga prêmio sem retorno |
 | **Mantém management velho** | "Eles conhecem o negócio" | Cultura velha ganha, integração falha |
 | **Paga prêmio emocional** | "Tem que ser essa empresa" | ROIC negativo por 5+ anos |
 | **CEO vira CEO de M&A** | Foca em deals, descuida core | Empresa core sangra, deals não compensam |
@@ -435,7 +435,7 @@ Cada passo: cultura instalada + custo cortado + margem crescente.
 
 ---
 
-## Bloco 7 — Impostos e estrutura tributária (Brasil)
+## Bloco 7, Impostos e estrutura tributária (Brasil)
 
 ### Os 3 regimes principais
 
@@ -495,19 +495,19 @@ Cada passo: cultura instalada + custo cortado + margem crescente.
 
 ---
 
-## Bloco 8 — Reservas estratégicas
+## Bloco 8, Reservas estratégicas
 
 ### Os 3 tipos de reserva
 
 **1. Reserva tática (operacional):**
 - 3-6 meses de despesa operacional
 - Cobre: sazonalidade, atraso de cliente grande, mês ruim
-- Aplicação: CDI, Tesouro Selic, LCI/LCA — alta liquidez
+- Aplicação: CDI, Tesouro Selic, LCI/LCA, alta liquidez
 
 **2. Reserva estratégica (oportunidade):**
 - Caixa pra contratação não planejada, M&A, oportunidade de mercado
 - 6-18 meses adicionais
-- Aplicação: mistura de renda fixa + LCI/LCA — liquidez média
+- Aplicação: mistura de renda fixa + LCI/LCA, liquidez média
 
 **3. Reserva de longo prazo (fundador):**
 - Patrimônio pessoal do fundador
@@ -533,7 +533,7 @@ Reservas em **conta separada da operacional**.
 
 ---
 
-## Bloco 9 — Indicadores financeiros antecipados
+## Bloco 9, Indicadores financeiros antecipados
 
 > Baseado no princípio dos **leading indicators**.
 
@@ -596,6 +596,6 @@ Total: **4 semanas entre problema e correção**.
 - **Skill puxa essa reference em qualquer assunto de R$.** Pricing, custos, captação, M&A, dívida, impostos.
 - **Decisão financeira sem dado é palpite.** Skill recusa prescrição se cliente não tem DRE/fluxo mínimo.
 - **Para Léo escalando Soft Business**: prioridade é DRE mensal estruturado + reserva tática 6 meses. Captação ainda não está em horizonte (mantém bootstrapping).
-- **Para cliente do Léo**: similar — primeiro instala DRE/fluxo bem. Captação só fala quando perguntam.
+- **Para cliente do Léo**: similar, primeiro instala DRE/fluxo bem. Captação só fala quando perguntam.
 - **Para empresário genérico**: depende da fase, skill pergunta antes de prescrever.
-- **Reforma tributária 2026-2033**: skill alerta cliente sempre que tema fiscal aparece — ainda em transição, simulação muda anualmente.
+- **Reforma tributária 2026-2033**: skill alerta cliente sempre que tema fiscal aparece, ainda em transição, simulação muda anualmente.

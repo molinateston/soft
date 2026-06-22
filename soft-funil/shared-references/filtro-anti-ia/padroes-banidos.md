@@ -132,13 +132,13 @@ Por quê: IA gosta de fechar parágrafo com frase de impacto isolada. Vira gimmi
 
 Por quê: IA adora verbo de transformação. Soa potente, mas é vazio. Copy autoral usa verbo concreto.
 
-> **Anti-voz Soft — "travar" é palavra banida em TODAS as formas.** O método não escreve **travar · trava · travado/travada · travou · travando · travamento · destravar · destrava**, nem na copy nem na descrição (única exceção: citação literal da fala do cliente, entre aspas, ex.: *"tô travado"*). É tell de método-genérico, e foi banido na voz Soft. Substitutos por sentido:
+> **Anti-voz Soft - "travar" é palavra banida em TODAS as formas.** O método não escreve **travar · trava · travado/travada · travou · travando · travamento · destravar · destrava**, nem na copy nem na descrição (única exceção: citação literal da fala do cliente, entre aspas, ex.: *"tô travado"*). É tell de método-genérico, e foi banido na voz Soft. Substitutos por sentido:
 > - *parar/emperrar:* emperrar · empacar · paralisar · parar · ficar parado (✅ "o sorriso **fica parado** na foto", ❌ "o sorriso **trava** na foto")
 > - *consolidar/fixar:* cravar · firmar · fechar · fixar
 > - *o oposto (soltar):* sair do lugar · soltar · destrancar
 > - *o obstáculo:* freio · amarra · bloqueio · gargalo
 >
-> Vale pra carrossel, reel, stories, carta, headline — qualquer peça. Achou "trava" na revisão? Troca antes de entregar.
+> Vale pra carrossel, reel, stories, carta, headline - qualquer peça. Achou "trava" na revisão? Troca antes de entregar.
 
 ---
 
@@ -320,7 +320,7 @@ O passo 2 ("CTRL+F cada padrão") agora tem um linter executável na `soft-conte
 python3 soft-conteudo/scripts/lint_copy.py peca.txt    # ou:  echo "texto" | python3 .../lint_copy.py -
 ```
 
-- **HARD (reprova, exit 1):** em-dash "—" e a família **"travar"** — os dois de zero-tolerância. Achou, não entrega.
+- **HARD (reprova, exit 1):** em-dash "—" e a família **"travar"** - os dois de zero-tolerância. Achou, não entrega.
 - **WARN (revisar no olho):** conectivo formal, frase-emoldura, verbo de transformação, frase dramática, abertura/fechamento banido, emoji decorativo, excesso de "literalmente/absolutamente/verdadeiro", "Não é X. É Y." em série.
 - **Continua no olho** (código não pega sem falso-positivo): tricolon, simetria de listas, adjetivação dupla decorativa, abstrato-virando-promessa, falsa agência. Pra esses, `teste-voz-alta.md` + `teste-construtivo.md`.
 

@@ -41,7 +41,7 @@ description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que fi
 
 # Soft Conteúdo, a atração (Passo 2 · Conteúdo Mínimo Viável)
 
-A munição do método: a peça de precisão que filtra. Conteúdo não converte por volume, converte por precisão — uma peça boa filtra mais que trinta postagens mornas. Aponta pro método e pro problema de quem paga, em dez minutos por dia, pra tirar o especialista do regime de creator sem sumir do mapa. Eixo de tudo: **alto resultado com baixa complexidade**; toda peça mira o avatar do usuário (o slot do perfil em `shared-references/crivo/00-perfil-do-usuario.md`) e a transformação que o método dele promete.
+A munição do método: a peça de precisão que filtra. Conteúdo não converte por volume, converte por precisão - uma peça boa filtra mais que trinta postagens mornas. Aponta pro método e pro problema de quem paga, em dez minutos por dia, pra tirar o especialista do regime de creator sem sumir do mapa. Eixo de tudo: **alto resultado com baixa complexidade**; toda peça mira o avatar do usuário (o slot do perfil em `shared-references/crivo/00-perfil-do-usuario.md`) e a transformação que o método dele promete.
 
 > **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do Léo (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (faz o Plano na `soft-posicionamento` + minera o VoC inicial no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Léo.
 
@@ -66,12 +66,12 @@ Cobre a frente de atração inteira: o conteúdo que para o scroll, repele o cur
 3. Puxa o processo da frente certa (`references/processo-*.md`) + os references densos daquela frente.
 4. Escreve, mostra inline, pergunta "tá bom? ajusto?". Passa nos três filtros. Só então entrega.
 
-**Consulta `references/conducao-na-pratica.md` o tempo todo** — é o jeito de conduzir que faz o conteúdo sair excelente (muda percepção de mundo, não dá passo a passo · tudo aponta pros pilares · polariza · dualidade dor/desejo · o post que mexe na identidade · modela de fora do nicho · lo-fi só se for volume · produção em lote com a IA).
+**Consulta `references/conducao-na-pratica.md` o tempo todo** - é o jeito de conduzir que faz o conteúdo sair excelente (muda percepção de mundo, não dá passo a passo · tudo aponta pros pilares · polariza · dualidade dor/desejo · o post que mexe na identidade · modela de fora do nicho · lo-fi só se for volume · produção em lote com a IA).
 
 ## References (todos densos, consulte sob demanda, não duplique no corpo)
 Os três **processos** (`processo-feed`, `processo-headlines`, `processo-stories`) são o *como conduzir* de cada frente. Além deles, em `references/`: a estrutura-mãe da peça, as camadas de consciência, os roteiros e a produção em lote de reel, o modo impulsionar, as métricas com diagnóstico; o sistema CARO, sequências de venda e caixinha dos stories. O design (carrossel, banner, slides) é da skill `soft-designer`.
 
-**Transversal (serve todas as frentes):** `references/dispositivos-de-frase.md` — o repertório tático de escrita (preparação+virada, âncora do cotidiano, dizer o não-dito, peça que só filtra, evocação sensorial, antítese) que tempera qualquer peça na revisão. Complementa o Código (as leis), não substitui. Tempero entra depois da estrutura e da headline, nunca no lugar delas. · `references/conducao-na-pratica.md` — o jeito de conduzir a atração destilado de sessões reais (percepção de mundo > passo a passo, polarizar, dor/desejo, identidade, modelar de fora, lo-fi com volume, lote com IA); exemplos de nichos neutros, nunca o Léo.
+**Transversal (serve todas as frentes):** `references/dispositivos-de-frase.md` - o repertório tático de escrita (preparação+virada, âncora do cotidiano, dizer o não-dito, peça que só filtra, evocação sensorial, antítese) que tempera qualquer peça na revisão. Complementa o Código (as leis), não substitui. Tempero entra depois da estrutura e da headline, nunca no lugar delas. · `references/conducao-na-pratica.md` - o jeito de conduzir a atração destilado de sessões reais (percepção de mundo > passo a passo, polarizar, dor/desejo, identidade, modelar de fora, lo-fi com volume, lote com IA); exemplos de nichos neutros, nunca o Léo.
 
 ## Princípios
 - Headline antes de tudo. Uma ideia por peça. Revela, não ensina. Vocabulário do cliente final, nunca jargão de marketing.
@@ -84,4 +84,4 @@ Os três **processos** (`processo-feed`, `processo-headlines`, `processo-stories
 A peça sai excelente com quem aplica sozinho seguindo a condução por pergunta. E o LEON orquestra: invoca esta mãe na fase de **Conteúdo (atração)** da jornada e avalia cada peça no **Crivo** antes de liberar a próxima etapa. Veredito do Crivo (cumpriu / parcial / não cumpriu) volta com a correção precisa.
 
 ## Handoff
-Conteúdo atraindo → o lead levanta a mão → entra no funil (`soft-funil`, Passo 3 · Funil Minimalista). As métricas (alcance, salvamento, ativação) voltam pro LEON pra calibrar no Crivo.
+Conteúdo atraindo → o lead levanta a mão → entra na escada de funis pelo degrau que o negócio do usuário comporta: **`soft-funil`** (degrau 1, o Funil Soft, carta/vídeo minimalista) OU **`soft-webinario`** (degrau 2, o Webinar Soft, perpétuo ou ao vivo). A atração alimenta os dois; o degrau certo é definido pelo Plano e pela maturidade do negócio, não por esta skill. As métricas (alcance, salvamento, ativação) voltam pro LEON pra calibrar no Crivo.

@@ -1,9 +1,9 @@
-# VSL Soft — Roteiro Completo
+# VSL Soft - Roteiro Completo
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business. O VSL não é palestra — é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
+Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business. O VSL não é palestra, é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
 
 ---
 
@@ -19,7 +19,7 @@ Diferença do VSL genérico:
 
 ## Estrutura em 8 blocos
 
-### Bloco 1 — Hook (0–30s)
+### Bloco 1 - Hook (0–30s)
 
 **Função:** parar o scroll. Qualificar quem fica. O restante do vídeo é pra quem ficou.
 
@@ -30,7 +30,7 @@ Diferença do VSL genérico:
 | **Diagnóstico cirúrgico** | *"Se você fatura R$20k por mês e ainda depende de indicação pra cada cliente novo, esse vídeo é pra você."* |
 | **Verdade incômoda** | *"Postar todo dia não é estratégia. É operação que ocupa lugar de estratégia. E você provavelmente já sabe disso."* |
 | **Resultado com condição inusitada** | *"Em 6 semanas, construímos um sistema que trouxe 4 clientes de R$5k sem tráfego pago, sem lançamento, sem conteúdo diário."* |
-| **Pergunta de diagnóstico** | *"Quantos clientes você fechou esse mês que vieram do seu conteúdo — não por indicação?"* |
+| **Pergunta de diagnóstico** | *"Quantos clientes você fechou esse mês que vieram do seu conteúdo, não por indicação?"* |
 
 **Regras:**
 - Nunca começa com apresentação pessoal. Contexto vem depois.
@@ -39,27 +39,27 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 2 — Empatia + Justificativa de Falha (30s–2min)
+### Bloco 2 - Empatia + Justificativa de Falha (30s–2min)
 
 **Função:** fazer o espectador baixar a guarda. *"Essa pessoa entende o que eu vivo."*
 
 **Estrutura:**
 
 1. Reconhecer que ele já tentou (nomear as tentativas específicas do nicho)
-2. Mostrar que o fracasso era inevitável — não por falta de esforço, mas por arquitetura podre
+2. Mostrar que o fracasso era inevitável, não por falta de esforço, mas por arquitetura podre
 3. Exonerar o espectador explicitamente: *"Você não falhou. O sistema que te venderam falhou."*
 
-**Tom:** empático sem ser condescendente. Seco sem ser frio. Como um médico que diz *"isso não era culpa sua"* — não como um amigo que diz *"coitado, que pena".*
+**Tom:** empático sem ser condescendente. Seco sem ser frio. Como um médico que diz *"isso não era culpa sua"*, não como um amigo que diz *"coitado, que pena".*
 
 **Exemplo de script:**
 
-*"Você já tentou lançamento. Funcionou no primeiro — R$40k em 5 dias. Segundo funcionou menos. Terceiro pela metade. E aí você percebeu que não estava vendendo produto. Estava vendendo evento. Entre lançamentos, o negócio parava. Você contratou gestor de tráfego. CPL caiu, leads subiram. Só que os leads não lembravam de ter clicado. Você passou a fazer sessão estratégica gratuita. 3h por semana de consultoria de graça. 8 em 10 saíam pensando. Você não fez nada errado. Fez exatamente o que te mandaram fazer. O problema é que te mandaram fazer a coisa errada."*
+*"Você já tentou lançamento. Funcionou no primeiro. R$40k em 5 dias. Segundo funcionou menos. Terceiro pela metade. E aí você percebeu que não estava vendendo produto. Estava vendendo evento. Entre lançamentos, o negócio parava. Você contratou gestor de tráfego. CPL caiu, leads subiram. Só que os leads não lembravam de ter clicado. Você passou a fazer sessão estratégica gratuita. 3h por semana de consultoria de graça. 8 em 10 saíam pensando. Você não fez nada errado. Fez exatamente o que te mandaram fazer. O problema é que te mandaram fazer a coisa errada."*
 
 ---
 
-### Bloco 3 — Inimigo-Categoria (2–4min)
+### Bloco 3 - Inimigo-Categoria (2–4min)
 
-**Função:** nomear o sistema que causou o problema. Dar ao espectador um inimigo claro — não uma pessoa, uma prática.
+**Função:** nomear o sistema que causou o problema. Dar ao espectador um inimigo claro, não uma pessoa, uma prática.
 
 **Estrutura:**
 
@@ -70,56 +70,56 @@ Diferença do VSL genérico:
 
 **Regras:**
 - Nunca citar concorrente pelo nome
-- Inimigo é sistema/prática — nunca pessoa
+- Inimigo é sistema/prática, nunca pessoa
 - Tom: diagnóstico clínico, não indignação dramática
 
 ---
 
-### Bloco 4 — Credencial de Procedência (4–6min)
+### Bloco 4 - Credencial de Procedência (4–6min)
 
-**Função:** mostrar por que o especialista tem autoridade pra falar sobre isso. Não é currículo — é história de procedência.
+**Função:** mostrar por que o especialista tem autoridade pra falar sobre isso. Não é currículo, é história de procedência.
 
 **Diferença:**
 
 | Currículo | Procedência |
 |---|---|
-| "Tenho 10 anos de experiência em marketing" | "Passei 2 anos gerenciando R$13M em vendas com equipe de 5 — sem postar nada. Quando saí e precisei construir sozinho, entendi por que a maioria dos sistemas não escalam." |
+| "Tenho 10 anos de experiência em marketing" | "Passei 2 anos gerenciando R$13M em vendas com equipe de 5, sem postar nada. Quando saí e precisei construir sozinho, entendi por que a maioria dos sistemas não escalam." |
 | "Já atendi 200 clientes" | "O primeiro método que criei funcionou. Só que exigia 6h/dia de operação. Aí entendi que tinha construído um emprego, não um negócio." |
 
 **Formato:** 1–2 minutos. História cênica, não biografia. O momento específico que gerou o insight que virou o método.
 
 ---
 
-### Bloco 5 — O Método (6–15min)
+### Bloco 5 - O Método (6–15min)
 
-**Função:** apresentar a solução como categoria diferente. O espectador precisa sair desse bloco pensando *"faz sentido lógico"* — não *"parece ótimo"*.
+**Função:** apresentar a solução como categoria diferente. O espectador precisa sair desse bloco pensando *"faz sentido lógico"*, não *"parece ótimo"*.
 
 **Estrutura:**
 
 1. Nome do método + síntese de 1 frase
-2. Contraste com o mercado: *"Enquanto o mercado faz X, o [método] faz Y — porque [razão]."*
+2. Contraste com o mercado: *"Enquanto o mercado faz X, o [método] faz Y, porque [razão]."*
 3. Cada etapa/passo com:
    - Nome com verbo de resultado
    - O que muda quando esse passo entra
    - Por que as outras abordagens pulam ou erram esse passo
 4. Frase de síntese: a lógica por trás do sistema em 1 declaração
 
-**Regra da Faca Soft:** descreve resultado e função. Nunca entrega passo a passo. O espectador entende o que muda com o método — não como replicar sem o especialista.
+**Regra da Faca Soft:** descreve resultado e função. Nunca entrega passo a passo. O espectador entende o que muda com o método, não como replicar sem o especialista.
 
 ---
 
-### Bloco 6 — Prova (15–20min)
+### Bloco 6 - Prova (15–20min)
 
-**Função:** mostrar que funciona pra pessoas reais, em condições específicas. Não elogio — evidência.
+**Função:** mostrar que funciona pra pessoas reais, em condições específicas. Não elogio, evidência.
 
 **Anatomia de 1 case no VSL:**
 
 ```
 [Nome], [nicho/profissão].
-[Situação inicial — 1 frase com o problema específico dele].
+[Situação inicial, 1 frase com o problema específico dele].
 [O que tentou antes que não funcionou].
-[O que mudou com o método — resultado com número e prazo].
-[Condição inusitada, se houver — o que torna o resultado mais crível].
+[O que mudou com o método, resultado com número e prazo].
+[Condição inusitada, se houver, o que torna o resultado mais crível].
 ```
 
 **Número de cases:** 3–5 no VSL. Variar nicho, ticket e perfil pra ampliar identificação.
@@ -130,23 +130,23 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 7 — Oferta (20–25min)
+### Bloco 7 - Oferta (20–25min)
 
 **Função:** apresentar o que está sendo vendido com clareza total.
 
 **Sequência:**
 
-1. **Transição da prova pra oferta** — natural, sem virada abrupta: *"O que eu mostrei até agora é o sistema que X, Y e Z usaram. Você pode aplicar de duas formas..."*
-2. **Empilhamento** — lista o que está incluído + valor de cada item
-3. **Preço** — apresentado depois do empilhamento, nunca antes
+1. **Transição da prova pra oferta** - natural, sem virada abrupta: *"O que eu mostrei até agora é o sistema que X, Y e Z usaram. Você pode aplicar de duas formas..."*
+2. **Empilhamento** - lista o que está incluído + valor de cada item
+3. **Preço** - apresentado depois do empilhamento, nunca antes
 4. **Formas de pagamento**
-5. **Garantia** — vendida como confirmação de confiança, não proteção legal
+5. **Garantia** - vendida como confirmação de confiança, não proteção legal
 
 **Tom na oferta:** o mesmo tom clínico do restante do vídeo. Nenhuma aceleração de empolgação. Especialista que acelera no momento da oferta soa como vendedor que saiu do personagem.
 
 ---
 
-### Bloco 8 — CTA Final (últimos 30s)
+### Bloco 8 - CTA Final (últimos 30s)
 
 **Função:** instrução clara e única. 1 ação. 1 botão. Nenhuma ambiguidade.
 
@@ -155,7 +155,7 @@ Diferença do VSL genérico:
 *"Se o que você viu faz sentido pra você, o próximo passo é [ação concreta]. Você vai [o que acontece depois]. [Nome do botão/link] está [localização na página/abaixo do vídeo]."*
 
 **Anti-exemplo:**
-❌ *"Então o que você tá esperando? Clica no botão agora! Não perde mais tempo! A vida que você quer está a um clique de distância!"* — tom de televendas. Destrói tudo que foi construído antes.
+❌ *"Então o que você tá esperando? Clica no botão agora! Não perde mais tempo! A vida que você quer está a um clique de distância!"*, tom de televendas. Destrói tudo que foi construído antes.
 
 ✅ *"Se isso é o que você quer construir, o botão está aqui embaixo. Clica, vê as opções, e toma uma decisão com calma."*
 
@@ -166,12 +166,12 @@ Diferença do VSL genérico:
 - [ ] Hook qualifica o público em 30s sem apresentação pessoal?
 - [ ] As tentativas anteriores do espectador foram nomeadas com especificidade?
 - [ ] O inimigo-categoria tem nome próprio e é uma prática, nunca uma pessoa?
-- [ ] A procedência tem história cênica — não currículo?
-- [ ] O método foi descrito como categoria diferente — não como "melhor versão" do que existe?
-- [ ] A prova tem nome + número + condição — não elogio genérico?
+- [ ] A procedência tem história cênica, não currículo?
+- [ ] O método foi descrito como categoria diferente, não como "melhor versão" do que existe?
+- [ ] A prova tem nome + número + condição, não elogio genérico?
 - [ ] A oferta foi apresentada depois do empilhamento?
 - [ ] O CTA final tem 1 instrução clara sem empolgação artificial?
-- [ ] O tom é consistente do início ao fim — clínico, direto, sem virada de empolgação?
+- [ ] O tom é consistente do início ao fim, clínico, direto, sem virada de empolgação?
 - [ ] Blair Warren (pré-filtro): algum dos 5 movimentos ausente? Reforça antes do Crivo. O veredito final é do Crivo, não dos movimentos.
 
 ---

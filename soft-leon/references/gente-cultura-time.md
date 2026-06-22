@@ -1,20 +1,20 @@
-# Gente, cultura, time — transversal
+# Gente, cultura, time, transversal
 
-> **Quando consultar:** qualquer assunto envolvendo pessoas — contratação, demissão, performance, compensação, cultura, treinamento, sucessão. Atravessa todas as fases.
+> **Quando consultar:** qualquer assunto envolvendo pessoas, contratação, demissão, performance, compensação, cultura, treinamento, sucessão. Atravessa todas as fases.
 
 ---
 
 ## Índice
 
 - Doutrina central
-- Bloco 1 — Hiring (gestão dona + primeiro quem)
-- Bloco 2 — Primeiro quem, depois o quê
-- Bloco 3 — Task-relevant maturity
-- Bloco 4 — 1:1 semanal
-- Bloco 5 — Performance review
-- Bloco 6 — Compensação (PPR + vesting)
-- Bloco 7 — Treinamento
-- Bloco 8 — Solidão e descarga emocional
+- Bloco 1, Hiring (gestão dona + primeiro quem)
+- Bloco 2, Primeiro quem, depois o quê
+- Bloco 3, Task-relevant maturity
+- Bloco 4, 1:1 semanal
+- Bloco 5, Performance review
+- Bloco 6, Compensação (PPR + vesting)
+- Bloco 7, Treinamento
+- Bloco 8, Solidão e descarga emocional
 - Notas operacionais
 
 ---
@@ -22,17 +22,17 @@
 ## Doutrina central
 
 > "Gente A traz gente A. Gente B traz gente C."
-> — princípio da cultura de dono
+> princípio da cultura de dono
 
-> "Primeiro quem, depois o quê — coloca as pessoas certas no ônibus antes de decidir pra onde dirigir."
+> "Primeiro quem, depois o quê, coloca as pessoas certas no ônibus antes de decidir pra onde dirigir."
 
 > "Tudo o que você fizer como gestor, faça com a maior alavancagem possível. Treinar pessoas é uma das maiores."
 
-Gente é o **primeiro** ativo. Tudo o mais — produto, capital, estratégia — depende disso.
+Gente é o **primeiro** ativo. Tudo o mais, produto, capital, estratégia, depende disso.
 
 ---
 
-## Bloco 1 — Hiring (gestão dona + primeiro quem)
+## Bloco 1, Hiring (gestão dona + primeiro quem)
 
 ### O perfil PSD adaptado
 
@@ -40,7 +40,7 @@ A escola da gestão dona buscava **PSDs**: Poor, Smart, Deep desire to get rich.
 
 **Em 2026, no Brasil, traduzido pra qualquer função:**
 
-- **Hungry** (não literalmente pobre — com fome de crescimento)
+- **Hungry** (não literalmente pobre, com fome de crescimento)
 - **Smart** (capacidade analítica + execução)
 - **Deep desire** (ambição real, não disfarçada)
 
@@ -122,11 +122,11 @@ A escola da gestão dona buscava **PSDs**: Poor, Smart, Deep desire to get rich.
 
 ---
 
-## Bloco 2 — Primeiro quem, depois o quê
+## Bloco 2, Primeiro quem, depois o quê
 
 ### O conceito raiz
 
-> "Os líderes das empresas que fizeram a transição de boas para excelentes não começaram definindo onde dirigir o ônibus para depois fazer com que as pessoas fossem com elas. Não. Primeiro tiraram as pessoas erradas do ônibus, colocaram as pessoas certas no ônibus, sentaram-nas nos lugares certos — e então decidiram onde dirigir."
+> "Os líderes das empresas que fizeram a transição de boas para excelentes não começaram definindo onde dirigir o ônibus para depois fazer com que as pessoas fossem com elas. Não. Primeiro tiraram as pessoas erradas do ônibus, colocaram as pessoas certas no ônibus, sentaram-nas nos lugares certos, e então decidiram onde dirigir."
 
 ### As 3 implicações
 
@@ -163,7 +163,7 @@ Pessoa boa em função errada **falha**. Mover pra função certa = restauraçã
 
 **Antes de demitir:**
 - Conversa estruturada de feedback (60-90 dias antes)
-- Plano de melhoria documentado (PIP — Performance Improvement Plan)
+- Plano de melhoria documentado (PIP, Performance Improvement Plan)
 - Reavaliação ao fim do PIP
 - Se não melhorou, demissão estruturada
 
@@ -201,7 +201,7 @@ Pessoa boa em função errada **falha**. Mover pra função certa = restauraçã
 
 ---
 
-## Bloco 3 — Task-relevant maturity
+## Bloco 3, Task-relevant maturity
 
 ### O conceito raiz
 
@@ -243,7 +243,7 @@ Pessoa boa em função errada **falha**. Mover pra função certa = restauraçã
 
 ---
 
-## Bloco 4 — 1:1 semanal
+## Bloco 4, 1:1 semanal
 
 > Detalhe operacional já em `operacao-rituais.md`. Aqui o **porquê**.
 
@@ -269,23 +269,23 @@ Pessoa boa em função errada **falha**. Mover pra função certa = restauraçã
 - ✅ **Resolver bloqueios**: o que tá te emperrando? Como solto?
 - ✅ **Calibrar prioridade**: o que é mais importante na semana que vem?
 - ✅ **Feedback bidirecional**: ele pra você, você pra ele
-- ✅ **Conexão humana**: "como você tá?" — pessoa antes de função
+- ✅ **Conexão humana**: "como você tá?", pessoa antes de função
 - ✅ **Coaching**: como ele pode crescer
 
 ### Cadência
 
-- Semanal (não quinzenal — perde temperatura)
+- Semanal (não quinzenal, perde temperatura)
 - Mesmo dia/horário fixo
 - 60 minutos
 - Subordinado conduz pauta (você ajusta se necessário)
 
 ---
 
-## Bloco 5 — Performance review
+## Bloco 5, Performance review
 
 ### Por que existe
 
-> "Avaliação de desempenho é a forma mais formal de feedback institucional. Sem ela, feedback vira só impressão acumulada — sem rigor, sem documentação, sem aprendizado."
+> "Avaliação de desempenho é a forma mais formal de feedback institucional. Sem ela, feedback vira só impressão acumulada, sem rigor, sem documentação, sem aprendizado."
 
 ### Frequência ideal
 
@@ -317,7 +317,7 @@ Pessoa boa em função errada **falha**. Mover pra função certa = restauraçã
 
 ### O baque
 
-> "Uma avaliação dura geralmente causa baque emocional. Não evite — antecipe. Pessoa boa absorve, ajusta, melhora. Pessoa fraca explode — você descobriu cedo."
+> "Uma avaliação dura geralmente causa baque emocional. Não evite, antecipe. Pessoa boa absorve, ajusta, melhora. Pessoa fraca explode, você descobriu cedo."
 
 **Princípio:** avaliação que não causa baque é fraca demais. Avaliação que causa demissão imediata é tarde demais. O ponto certo está entre os dois.
 
@@ -332,15 +332,15 @@ Avaliação alimenta diretamente o PPR:
 
 ---
 
-## Bloco 6 — Compensação (PPR + vesting)
+## Bloco 6, Compensação (PPR + vesting)
 
 ### Os 4 componentes da compensação total
 
 ```
-1. SALÁRIO FIXO        — base mensal (CLT)
-2. BENEFÍCIOS          — VR, plano saúde, vale-transporte
-3. PPR (variável)      — % EBITDA distribuído por performance
-4. EQUITY (long-term)  — stock options ou quotas com vesting
+1. SALÁRIO FIXO        - base mensal (CLT)
+2. BENEFÍCIOS          - VR, plano saúde, vale-transporte
+3. PPR (variável)      - % EBITDA distribuído por performance
+4. EQUITY (long-term)  - stock options ou quotas com vesting
 ```
 
 ### Quando cada componente entra
@@ -352,7 +352,7 @@ Avaliação alimenta diretamente o PPR:
 | 3 | ✅ | Acima do mercado | ✅ (consolidado) | ✅ Liderança expandida |
 | 4 | ✅ | Pacote competitivo | ✅ + LTI (long-term incentive) | ✅ Stock options institucionais |
 
-### PPR — estrutura clássica da meritocracia dura
+### PPR, estrutura clássica da meritocracia dura
 
 **Pool:** 5-15% do EBITDA da empresa
 
@@ -365,13 +365,13 @@ Avaliação alimenta diretamente o PPR:
 - Médio ganha bônus médio
 - Bottom ganha pouco ou nada (e provavelmente não tá mais lá no próximo ciclo)
 
-### Vesting — estrutura padrão
+### Vesting, estrutura padrão
 
 **4 anos com cliff de 1 ano:**
 
 ```
 Ano 0: oferece N% das ações/quotas
-Ano 1: cliff — antes disso, ZERO se exerce. Saiu? Perdeu tudo.
+Ano 1: cliff - antes disso, ZERO se exerce. Saiu? Perdeu tudo.
 Ano 2: 25% cumulativo
 Ano 3: 50% cumulativo
 Ano 4: 100% (full vesting)
@@ -400,11 +400,11 @@ Ano 4: 100% (full vesting)
 
 ---
 
-## Bloco 7 — Treinamento
+## Bloco 7, Treinamento
 
 ### Por que é trabalho do chefe
 
-> "Quando um gestor passa um dia inteiro treinando sua equipe, esse dia tem **duas vezes** o impacto que teria se ele estivesse executando tarefas operacionais. Por quê? Porque o treinamento melhora performance pelos próximos meses ou anos — multiplicado por quantos foram treinados."
+> "Quando um gestor passa um dia inteiro treinando sua equipe, esse dia tem **duas vezes** o impacto que teria se ele estivesse executando tarefas operacionais. Por quê? Porque o treinamento melhora performance pelos próximos meses ou anos, multiplicado por quantos foram treinados."
 
 ### O cálculo de alavancagem
 
@@ -456,11 +456,11 @@ Ano 4: 100% (full vesting)
 
 ### Princípio operacional
 
-> CEO Fase 2+ deveria gastar **5-15% do tempo** treinando equipe. Não é luxo — é a atividade mais alavancada disponível.
+> CEO Fase 2+ deveria gastar **5-15% do tempo** treinando equipe. Não é luxo, é a atividade mais alavancada disponível.
 
 ---
 
-## Bloco 8 — Solidão e descarga emocional
+## Bloco 8, Solidão e descarga emocional
 
 ### A realidade
 
@@ -497,9 +497,9 @@ CEO carrega:
 
 ## Notas operacionais
 
-- **A skill puxa essa reference em qualquer assunto de pessoas.** Contratação, demissão, performance, conflito, sucessão — tudo passa por aqui.
+- **A skill puxa essa reference em qualquer assunto de pessoas.** Contratação, demissão, performance, conflito, sucessão, tudo passa por aqui.
 - **Tom direto sem ser cruel.** A gestão dona é brutal mas justa; a escola das empresas que duram é rigorosa mas humanista. Skill combina os dois.
 - **Para Léo escalando Soft Business:** primeira contratação ainda está em horizonte de 6-18 meses. Bloco 1 (Hiring) é mais relevante agora.
-- **Para cliente do Léo (especialista que cresceu):** geralmente está montando primeira camada de liderança — Bloco 2 (Primeiro quem) + Bloco 4 (1:1) + Bloco 6 (compensação) são os mais relevantes.
-- **Para empresário genérico:** depende da fase — skill puxa do conjunto conforme contexto.
-- **Família/amigos no time é tema sensível.** Brasil tem cultura de confiança via vínculo pessoal. Skill alerta sem moralizar: contratação por vínculo sem critério profissional **rotineiramente termina mal** — perde o funcionário e o vínculo.
+- **Para cliente do Léo (especialista que cresceu):** geralmente está montando primeira camada de liderança, Bloco 2 (Primeiro quem) + Bloco 4 (1:1) + Bloco 6 (compensação) são os mais relevantes.
+- **Para empresário genérico:** depende da fase, skill puxa do conjunto conforme contexto.
+- **Família/amigos no time é tema sensível.** Brasil tem cultura de confiança via vínculo pessoal. Skill alerta sem moralizar: contratação por vínculo sem critério profissional **rotineiramente termina mal**, perde o funcionário e o vínculo.

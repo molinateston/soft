@@ -156,9 +156,9 @@ Antes de aceitar qualquer rotina, calendário, esteira ou meta:
 
 > **"Isso cabe na vida que eu quero?"**
 
-Se a resposta é "vai apertado" — não cabe.
-Se a resposta é "depois eu vejo" — não cabe.
-Se a resposta é "é só por enquanto" — não cabe.
+Se a resposta é "vai apertado", não cabe.
+Se a resposta é "depois eu vejo", não cabe.
+Se a resposta é "é só por enquanto", não cabe.
 
 Cabe ou não cabe. Binário.
 
@@ -190,4 +190,4 @@ Reavaliar a tabela de 7 dias x 24 horas a cada:
 
 Cabimento não é fixo. É vivo.
 
-Mas cada revisão começa pela vida — nunca pela operação.
+Mas cada revisão começa pela vida, nunca pela operação.

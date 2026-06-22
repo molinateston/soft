@@ -1,14 +1,14 @@
 # Plataforma Mini Webinar
 
-**Importante:** esse **não** é "mini-treinamento de vendas" genérico. É a **Mini Webinar Soft** — uma das duas peças canônicas da desejo (junto com a Mini Carta). Vídeo de 10min em 12 blocos que filtra e aquece lead que prefere consumir vídeo a ler.
+**Importante:** esse **não** é "mini-treinamento de vendas" genérico. É a **Mini Webinar Soft** - uma das duas peças canônicas da desejo (junto com a Mini Carta). Vídeo de 10min em 12 blocos que filtra e aquece lead que prefere consumir vídeo a ler.
 
 > **A construção da Mini Webinar é responsabilidade da skill `soft-funil`.** Esta reference cobre apenas **o que muda quando a Mini Webinar é distribuída em outras plataformas** (YouTube privado, área restrita, página de vendas, etc.).
 
 ## Regra central
 
-Mini Webinar Soft é **pré-qualificador**, não produto. Quem assiste não compra a aula — compra o **próximo passo** depois dela (Reunião, Consultoria, Implementação).
+Mini Webinar Soft é **pré-qualificador**, não produto. Quem assiste não compra a aula - compra o **próximo passo** depois dela (Reunião, Consultoria, Implementação).
 
-**Duração alvo:** 9 a 11 minutos. Nunca passa de 12min — longo demais perde dwell e vira curso.
+**Duração alvo:** 9 a 11 minutos. Nunca passa de 12min - longo demais perde dwell e vira curso.
 
 ---
 
@@ -16,14 +16,14 @@ Mini Webinar Soft é **pré-qualificador**, não produto. Quem assiste não comp
 
 Diferente de YouTube longo (que é descoberto organicamente), a Mini Webinar Soft **não vive em plataforma pública**. Fica em **landing page enxuta** ou área de conteúdo restrita.
 
-> **A estrutura da página de hospedagem está definida na skill `soft-funil` (reference `modo-mini-webinar.md` · seção "Página de hospedagem da Mini Webinar").** São 6 elementos mínimos: headline, subheadline, pra quem é, vídeo, provas, botão. Esta reference (multiplataforma) NÃO duplica essa estrutura — só cobre as opções de hospedagem técnica.
+> **A estrutura da página de hospedagem está definida na skill `soft-funil` (reference `modo-mini-webinar.md` · seção "Página de hospedagem da Mini Webinar").** São 6 elementos mínimos: headline, subheadline, pra quem é, vídeo, provas, botão. Esta reference (multiplataforma) NÃO duplica essa estrutura - só cobre as opções de hospedagem técnica.
 
 | Onde hospedar | Quando usar |
 |---|---|
-| **Landing page enxuta** | Padrão Soft — controla a experiência inteira (ver estrutura na desejo) |
+| **Landing page enxuta** | Padrão Soft - controla a experiência inteira (ver estrutura na desejo) |
 | **YouTube privado/não-listado** | Tráfego pago direcionado (link no anúncio) |
 | **Área restrita (Notion, Hotmart, Cademí)** | Quando lead precisa fazer cadastro antes |
-| **Direct do Instagram (Reels)** | Versão reduzida (até 90s) — só pra teaser, não a aula completa |
+| **Direct do Instagram (Reels)** | Versão reduzida (até 90s) - só pra teaser, não a aula completa |
 
 ---
 
@@ -31,9 +31,9 @@ Diferente de YouTube longo (que é descoberto organicamente), a Mini Webinar Sof
 
 A Mini Webinar tem cauda mais enxuta que YouTube longo:
 
-1. **Nome do arquivo/URL** — ex: `mini webinar-[nome-do-metodo].mp4` ou `meusite.com/aula`
-2. **Página de obrigado** — texto curto após assistir, com CTA pra Carta/Reunião
-3. **Email de follow-up** (24h depois) — *"Viu a aula? Qual parte mais fez sentido?"*
+1. **Nome do arquivo/URL** - ex: `mini webinar-[nome-do-metodo].mp4` ou `meusite.com/aula`
+2. **Página de obrigado** - texto curto após assistir, com CTA pra Carta/Reunião
+3. **Email de follow-up** (24h depois) - *"Viu a aula? Qual parte mais fez sentido?"*
 
 ---
 

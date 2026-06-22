@@ -10,9 +10,9 @@ Mais que 3 vira burocracia. Menos que 3 vira caos.
 
 - A premissa
 - Os 3 rituais
-- Ritual 1 — Revisão Semanal
-- Ritual 2 — Planejamento Mensal
-- Ritual 3 — Auditoria Trimestral
+- Ritual 1, Revisão Semanal
+- Ritual 2, Planejamento Mensal
+- Ritual 3, Auditoria Trimestral
 - A regra dos rituais
 - Como começar (primeiros 30 dias)
 - A documentação dos rituais
@@ -38,24 +38,24 @@ Cliente que mantém rituais detecta a parede 4 semanas antes e desvia.
 
 ## Os 3 rituais
 
-### Ritual 1 — Revisão Semanal (sexta-feira)
+### Ritual 1, Revisão Semanal (sexta-feira)
 **Frequência:** toda sexta-feira.
 **Duração:** 60-90 minutos.
 **Objetivo:** fechar a semana + planejar a próxima.
 
-### Ritual 2 — Planejamento Mensal (último dia útil)
+### Ritual 2, Planejamento Mensal (último dia útil)
 **Frequência:** uma vez por mês.
 **Duração:** 2-3 horas.
 **Objetivo:** fechar o mês + planejar o próximo.
 
-### Ritual 3 — Auditoria Trimestral (a cada 3 meses)
+### Ritual 3, Auditoria Trimestral (a cada 3 meses)
 **Frequência:** 4x por ano (final de março, junho, setembro, dezembro).
 **Duração:** 4-6 horas (geralmente meio-dia inteiro).
 **Objetivo:** revisar estratégia, ajustar esteira, recalibrar rotina.
 
 ---
 
-## Ritual 1 — Revisão Semanal
+## Ritual 1, Revisão Semanal
 
 ### Quando
 Sexta-feira, das 13:30 às 15:00 (depois do almoço, antes do fim de semana).
@@ -65,7 +65,7 @@ Em casa, sozinho. Sem distração.
 
 ### Como
 
-**Etapa 1 — Olhar pra trás (30min)**
+**Etapa 1, Olhar pra trás (30min)**
 
 Responder 5 perguntas:
 
@@ -75,16 +75,16 @@ Responder 5 perguntas:
 4. **Como tá meu corpo / cabeça?** (avaliação honesta de energia)
 5. **A vida foi respeitada essa semana?** (Verde do cabimento foi preservado?)
 
-**Etapa 2 — Olhar pra frente (30min)**
+**Etapa 2, Olhar pra frente (30min)**
 
 Responder 4 perguntas:
 
 1. **O que precisa ser feito na próxima semana?** (priorizar pendências)
-2. **Quais 3 coisas, se feitas, fazem a semana valer?** (foco — 3 não 7)
+2. **Quais 3 coisas, se feitas, fazem a semana valer?** (foco, 3 não 7)
 3. **Tem algo na agenda da próxima semana que vai estourar bloco?** (preventivo)
 4. **Tem algo da vida pessoal que precisa de atenção extra?** (família, saúde, finanças)
 
-**Etapa 3 — Anotar (15-30min)**
+**Etapa 3, Anotar (15-30min)**
 
 Escrever:
 - Resumo da semana que passou (1 parágrafo)
@@ -104,11 +104,11 @@ Nunca.
 
 Quando a semana foi corrida, a revisão é MAIS importante (não menos).
 
-Se a semana foi tão corrida que não dá pra reservar 1h pra revisar — a estrutura tá errada. Refaz blocos.
+Se a semana foi tão corrida que não dá pra reservar 1h pra revisar, a estrutura tá errada. Refaz blocos.
 
 ---
 
-## Ritual 2 — Planejamento Mensal
+## Ritual 2, Planejamento Mensal
 
 ### Quando
 Último dia útil do mês, das 09:00 às 12:00.
@@ -120,7 +120,7 @@ Em ambiente que estimula pensamento estratégico. Não a mesa do dia-a-dia. Pode
 
 ### Como
 
-**Etapa 1 — Olhar pra trás (45min)**
+**Etapa 1, Olhar pra trás (45min)**
 
 Revisar:
 - Faturamento do mês (real vs meta)
@@ -131,7 +131,7 @@ Revisar:
 - Horas trabalhadas (média semanal)
 - Vida pessoal (Verde respeitado?)
 
-**Etapa 2 — Identificar padrões (45min)**
+**Etapa 2, Identificar padrões (45min)**
 
 Responder:
 
@@ -140,7 +140,7 @@ Responder:
 3. **Apareceu algo novo no mercado/cliente?** (responder)
 4. **Sinais de alerta?** (queda de receita, cansaço, conflito doméstico)
 
-**Etapa 3 — Planejar o próximo mês (60min)**
+**Etapa 3, Planejar o próximo mês (60min)**
 
 Definir:
 
@@ -150,7 +150,7 @@ Definir:
 4. **Atendimentos planejados** (quantos clientes ativos esperados)
 5. **Compromissos pessoais grandes** (viagem, evento família, médico)
 
-**Etapa 4 — Comunicar (30min)**
+**Etapa 4, Comunicar (30min)**
 
 Conversar com cônjuge:
 - "Esse mês vou estar mais focado em X"
@@ -171,7 +171,7 @@ Nunca. Pode adiar 1-2 dias em emergência, mas faz na semana.
 
 ---
 
-## Ritual 3 — Auditoria Trimestral
+## Ritual 3, Auditoria Trimestral
 
 ### Quando
 Final de março, junho, setembro, dezembro. Bloquear meio-dia inteiro.
@@ -181,7 +181,7 @@ Idealmente fora de casa. Café, biblioteca, retiro curto. Ambiente que permite p
 
 ### Como
 
-**Etapa 1 — Olhar pra trás 3 meses (90min)**
+**Etapa 1, Olhar pra trás 3 meses (90min)**
 
 Revisar:
 - Faturamento do trimestre (média + tendência)
@@ -191,7 +191,7 @@ Revisar:
 - Blocos de trabalho funcionaram?
 - Rituais semanais e mensais foram feitos?
 
-**Etapa 2 — Diagnóstico (60min)**
+**Etapa 2, Diagnóstico (60min)**
 
 Responder 5 perguntas duras:
 
@@ -201,7 +201,7 @@ Responder 5 perguntas duras:
 4. **Apareceu nicho novo / público novo que merece atenção?**
 5. **Eu ainda quero esse negócio dessa forma?** (pergunta existencial)
 
-**Etapa 3 — Calibrar Fase 5 (90min)**
+**Etapa 3, Calibrar Fase 5 (90min)**
 
 Se algo precisa mudar:
 - Refazer meta-realista (a conta)
@@ -211,7 +211,7 @@ Se algo precisa mudar:
 
 Cada mudança documentada com justificativa.
 
-**Etapa 4 — Visão (60min)**
+**Etapa 4, Visão (60min)**
 
 Pensar em 12 meses:
 - Onde quero estar?
@@ -299,22 +299,22 @@ Esses templates viram parte do entregável da Implementação Soft.
 
 ## Anti-padrões dos rituais
 
-### Anti-padrão 1 — Rituais elaborados demais
+### Anti-padrão 1, Rituais elaborados demais
 Cliente cria revisão semanal de 4h com 50 perguntas. Não vai sustentar. Em 3 semanas, abandona.
 
 Rituais simples se sustentam. 60-90min pra semanal, 2-3h pra mensal, 4-6h pra trimestral.
 
-### Anti-padrão 2 — Rituais sem documentação
+### Anti-padrão 2, Rituais sem documentação
 Cliente "pensa sobre a semana" durante a corrida de domingo. Não escreve.
 
 Sem escrever, o ritual não fixa. Não vira instrumento.
 
-### Anti-padrão 3 — Rituais sem ação
+### Anti-padrão 3, Rituais sem ação
 Cliente faz revisão semanal mas não usa pro planejamento da próxima. Vira ginástica.
 
 Cada ritual precisa gerar 1-3 ações concretas pra próxima janela de tempo.
 
-### Anti-padrão 4 — Pular quando "tá bom"
+### Anti-padrão 4, Pular quando "tá bom"
 "Esse mês foi tão bom que não preciso revisar." Erro. Revisar quando tá bom revela o que funcionou (replicável).
 
 ---

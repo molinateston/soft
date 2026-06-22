@@ -1,34 +1,34 @@
 
-# Multiplataforma — tática de distribuição (Pilar 2)
+# Multiplataforma - tática de distribuição (Pilar 2)
 
 > **Passo 0, antes de escrever (entrada ancorada).** Abre a fonte de fala real do cliente (`shared-references/crivo/01-entrada-verbatim.md`) e puxa as falas literais de dor/desejo. A peca nasce ancorada.
 
 
-Tradutor de conteúdo Soft pra plataformas fora do ecossistema Instagram-first. **Nunca é tradução neutra** — é Soft no LinkedIn, Soft no YouTube, Soft no Substack. Se a peça adaptada parece igual às outras da plataforma, perdeu o filtro.
+Tradutor de conteúdo Soft pra plataformas fora do ecossistema Instagram-first. **Nunca é tradução neutra** - é Soft no LinkedIn, Soft no YouTube, Soft no Substack. Se a peça adaptada parece igual às outras da plataforma, perdeu o filtro.
 
-Esta skill é **tática**. A engenharia do conteúdo original (Estrutura Mãe, Fórmula 7, princípios do Feed) vive no guia — não a duplique aqui, aponte pra ela. O valor desta reference é a **engenharia reversa de adaptação**: extrair os papéis do conteúdo-âncora e re-renderizar no formato alvo preservando a função de cada um.
+Esta skill é **tática**. A engenharia do conteúdo original (Estrutura Mãe, Fórmula 7, princípios do Feed) vive no guia - não a duplique aqui, aponte pra ela. O valor desta reference é a **engenharia reversa de adaptação**: extrair os papéis do conteúdo-âncora e re-renderizar no formato alvo preservando a função de cada um.
 
 ---
 
-## A fonte é o guia — leia primeiro
+## A fonte é o guia - leia primeiro
 
 A Estrutura Mãe (os 5 papéis: Capa · Capa Reserva · Contexto · Conteúdo · CTA) e a Fórmula 7 **moram no guia**, não esta reference. Na primeira invocação da sessão, leia:
 
-- **`guia/05-feed-conteudo.md`** (Cap 5) — onde vive a Estrutura Mãe e a engenharia do conteúdo Soft. **É a base da engenharia reversa desta reference.**
-- **`guia/06-carrossel.md`** (Cap 6) — a Fórmula 7 (os 7 movimentos), pra quando o âncora é um carrossel.
-- **`guia/01-filosofia.md`** (Cap 1) — filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
+- **`guia/05-feed-conteudo.md`** (Cap 5) - onde vive a Estrutura Mãe e a engenharia do conteúdo Soft. **É a base da engenharia reversa desta reference.**
+- **`guia/06-carrossel.md`** (Cap 6) - a Fórmula 7 (os 7 movimentos), pra quando o âncora é um carrossel.
+- **`guia/01-filosofia.md`** (Cap 1) - filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
 
-E o tom universal em `shared-references/` (`shared-references/dicionario-conversacional.md` + `shared-references/adaptacao-semantica.md` — **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (`shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/`).
+E o tom universal em `shared-references/` (`shared-references/dicionario-conversacional.md` + `shared-references/adaptacao-semantica.md` - **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (`shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/`).
 
 Também obrigatório na primeira invocação:
-- **`references/nucleo-soft-extracao.md`** — o protocolo desta reference: extrai o núcleo Soft do conteúdo-âncora primeiro, adapta depois.
+- **`references/nucleo-soft-extracao.md`** - o protocolo desta reference: extrai o núcleo Soft do conteúdo-âncora primeiro, adapta depois.
 
 ---
 
 ## 1. Por que a Estrutura Mãe é central esta reference
 
-Adaptação multiplataforma **sem Estrutura Mãe** vira tradução de tom e ritmo — superficial.
-Adaptação **com Estrutura Mãe** vira **engenharia reversa**: a skill extrai os 5 papéis do conteúdo-âncora e re-renderiza no formato alvo preservando a função de cada papel. A definição dos 5 papéis está no Cap 5 do guia — consulte lá, não a reescreva aqui.
+Adaptação multiplataforma **sem Estrutura Mãe** vira tradução de tom e ritmo - superficial.
+Adaptação **com Estrutura Mãe** vira **engenharia reversa**: a skill extrai os 5 papéis do conteúdo-âncora e re-renderiza no formato alvo preservando a função de cada papel. A definição dos 5 papéis está no Cap 5 do guia - consulte lá, não a reescreva aqui.
 
 ### Protocolo de adaptação via Estrutura Mãe
 
@@ -54,18 +54,18 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 | **PDF / Notion** | Capa do doc + título | Intro de 1 parágrafo | Cena/dado concreto | Seções principais | CTA de fechamento |
 | **Mini Webinar** | Abertura 0-30s | 30s-1min | 1-2min | Corpo 2-8min | Fechamento com convite |
 
-**Regra central:** não é o formato que muda a arquitetura — é só o **tempo de exposição** e a **unidade de entrega**. Um carrossel com Capa forte vira um LinkedIn com primeira linha forte. O mesmo Contexto vira parágrafo em vez de slide.
+**Regra central:** não é o formato que muda a arquitetura - é só o **tempo de exposição** e a **unidade de entrega**. Um carrossel com Capa forte vira um LinkedIn com primeira linha forte. O mesmo Contexto vira parágrafo em vez de slide.
 
 ---
 
 ## 2. O que NUNCA muda (inegociável em qualquer plataforma)
 
-1. **Tom Soft** — frases curtas, direto, clínico, zero enrolação (o tom do Cap 1 / `dicionario-conversacional.md`)
-2. **Problema de 3ª Camada nomeado** — o vilão-categoria aparece. Sem isso, vira post de LinkedIn comum
-3. **Método com nome próprio** — sempre nomeado, mesmo em 280 caracteres
-4. **CTA filtrante, não ampliativo** — nunca "curte e compartilha". Sempre "comenta X", "Direct 'PALAVRA'", "responde no email"
-5. **Filtra, não convence** — parte da audiência desiste. Isso é sucesso.
-6. **Campo semântico do cliente final** — nunca "lead/funil/conversão"
+1. **Tom Soft** - frases curtas, direto, clínico, zero enrolação (o tom do Cap 1 / `dicionario-conversacional.md`)
+2. **Problema de 3ª Camada nomeado** - o vilão-categoria aparece. Sem isso, vira post de LinkedIn comum
+3. **Método com nome próprio** - sempre nomeado, mesmo em 280 caracteres
+4. **CTA filtrante, não ampliativo** - nunca "curte e compartilha". Sempre "comenta X", "Direct 'PALAVRA'", "responde no email"
+5. **Filtra, não convence** - parte da audiência desiste. Isso é sucesso.
+6. **Campo semântico do cliente final** - nunca "lead/funil/conversão"
 
 ---
 
@@ -76,7 +76,7 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 | **LinkedIn** | `references/plataforma-linkedin.md` | Ritmo narrativo, dwell time, zero link externo no corpo, carrossel PDF 1080x1350 |
 | **X / Threads** | `references/plataforma-x-threads.md` | Condensação extrema, frases isoladas (até 10), threads curtas |
 | **Substack / Email** | `references/plataforma-substack-email.md` | Forma longa email-style, subject <50 char, pre-header, PS |
-| **TikTok / Reels / Shorts** | `references/plataforma-tiktok-shorts.md` | Reel Soft já vira TikTok/Shorts — intro retention 70%+, 15-35s ideal, loop natural, legendas |
+| **TikTok / Reels / Shorts** | `references/plataforma-tiktok-shorts.md` | Reel Soft já vira TikTok/Shorts - intro retention 70%+, 15-35s ideal, loop natural, legendas |
 | **YouTube longo** | `references/plataforma-youtube-longo.md` | Roteiro 8-12min + pacote completo de publicação (título, descrição, tags, capítulos, thumbnail, SEO, UTM) |
 | **PDF / Guia Notion** | `references/plataforma-pdf-notion.md` | Lead magnet 5-7 páginas (PDF) ou página Notion (mais navegável, links internos) |
 | **Mini Webinar** | `references/plataforma-mini-webinar.md` | Distribuição/hospedagem da Mini Webinar Soft (a construção do roteiro fica na skill `soft-funil`) |
@@ -85,19 +85,19 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 
 ## 4. Protocolo operacional (sempre nessa ordem)
 
-### Etapa 1 — Identifica o conteúdo-âncora
+### Etapa 1 - Identifica o conteúdo-âncora
 
 O que o usuário colou? Carrossel? Reel? Carta? Roteiro existente?
 
 Se nada foi colado, pergunta *"Qual conteúdo você quer adaptar?"* e **para**.
 
-### Etapa 2 — Identifica a plataforma alvo
+### Etapa 2 - Identifica a plataforma alvo
 
 Se não disse, pergunta UMA vez:
 
 > *"Pra qual plataforma? LinkedIn, X/Threads, Substack/Email, TikTok/Shorts, YouTube longo, PDF/Notion ou distribuição da Mini Webinar?"*
 
-### Etapa 3 — Extração do núcleo Soft (obrigatório)
+### Etapa 3 - Extração do núcleo Soft (obrigatório)
 
 Consulta `references/nucleo-soft-extracao.md` e extrai do conteúdo-âncora:
 - Problema de 3ª Camada
@@ -106,33 +106,33 @@ Consulta `references/nucleo-soft-extracao.md` e extrai do conteúdo-âncora:
 - Prova específica
 - CTA filtrante
 
-### Etapa 4 — Mapeamento dos 5 papéis da Estrutura Mãe
+### Etapa 4 - Mapeamento dos 5 papéis da Estrutura Mãe
 
 Identifica no conteúdo-âncora qual trecho faz o papel de Capa, Capa Reserva, Contexto, Conteúdo e CTA. (Definição dos papéis no Cap 5 do guia.)
 
-### Etapa 5 — Re-renderização no formato alvo
+### Etapa 5 - Re-renderização no formato alvo
 
 Consulta `references/plataforma-[nome].md` e adapta cada papel preservando a função. Usa a tabela de mapeamento acima como ponto de partida.
 
-### Etapa 6 — Filtros antes de entregar (obrigatório)
+### Etapa 6 - Filtros antes de entregar (obrigatório)
 
 A peça adaptada atravessa os **2 filtros de `shared-references/`** + a checagem de fidelidade Soft:
 
-1. **Anti-IA** (toda a copy) — zero em-dashes, nenhum dos 12 padrões banidos, teste em voz alta. Detectou padrão → `shared-references/filtro-anti-ia/estrategias-reescrita.md`.
-2. **Mobile-First** — só quando a peça é visual (carrossel PDF, thumbnail, guia em PDF/Notion). Detectou falha → `shared-references/filtro-mobile-first/checklist-final.md`.
+1. **Anti-IA** (toda a copy) - zero em-dashes, nenhum dos 12 padrões banidos, teste em voz alta. Detectou padrão → `shared-references/filtro-anti-ia/estrategias-reescrita.md`.
+2. **Mobile-First** - só quando a peça é visual (carrossel PDF, thumbnail, guia em PDF/Notion). Detectou falha → `shared-references/filtro-mobile-first/checklist-final.md`.
 3. **Fidelidade Soft** (silenciosa):
    - O núcleo Soft (problema, método, contraste, prova, CTA) permaneceu?
    - O tom clínico foi preservado ou vazou jargão da plataforma?
    - O CTA continua filtrante?
    - Se eu apagasse o nome do criador, a peça adaptada poderia ser de qualquer um? (Se sim, falhou.)
 
-> **Blair Warren é princípio de fundo, não framework citado.** Os 5 movimentos já estão absorvidos pela Estrutura Mãe e pelo núcleo Soft (Problema de 3ª Camada justifica falhas, vilão atira a pedra, diagnóstico confirma desconfianças, promessa incentiva sonhos, garantia aplaca medos). Não cheque "os 5 movimentos de Blair" como lista — cheque se o **núcleo Soft sobreviveu** à adaptação. Se sobreviveu, os movimentos vieram junto.
+> **Blair Warren é princípio de fundo, não framework citado.** Os 5 movimentos já estão absorvidos pela Estrutura Mãe e pelo núcleo Soft (Problema de 3ª Camada justifica falhas, vilão atira a pedra, diagnóstico confirma desconfianças, promessa incentiva sonhos, garantia aplaca medos). Não cheque "os 5 movimentos de Blair" como lista - cheque se o **núcleo Soft sobreviveu** à adaptação. Se sobreviveu, os movimentos vieram junto.
 
 ---
 
 ## 5. Quebra consciente
 
-Em formatos curtos (tweet único, short de 15s, email brevíssimo), papéis podem e devem colapsar. Isso não é traição da Estrutura Mãe — é **decisão arquitetônica consciente**.
+Em formatos curtos (tweet único, short de 15s, email brevíssimo), papéis podem e devem colapsar. Isso não é traição da Estrutura Mãe - é **decisão arquitetônica consciente**.
 
 Os 3 tipos de colapso admitidos:
 - **Manifesto** (Capa + CTA; sem Contexto, sem Conteúdo técnico)
@@ -145,7 +145,7 @@ Os 3 tipos de colapso admitidos:
 
 **Traduzir cada slide do carrossel em 1 tweet** (ou 1 parágrafo, ou 1 bloco) **sem repensar os papéis**. Isso preserva superfície, não estrutura.
 
-O carrossel tem N slides mas os 5 papéis não são N unidades — alguns papéis ocupam múltiplos slides (Conteúdo), outros colapsam (Capa + Capa Reserva em reels curtos). Adaptação fiel preserva os **papéis**, não o número de unidades.
+O carrossel tem N slides mas os 5 papéis não são N unidades - alguns papéis ocupam múltiplos slides (Conteúdo), outros colapsam (Capa + Capa Reserva em reels curtos). Adaptação fiel preserva os **papéis**, não o número de unidades.
 
 ---
 
@@ -177,14 +177,14 @@ O carrossel tem N slides mas os 5 papéis não são N unidades — alguns papéi
 
 ## References desta reference
 
-- **`references/nucleo-soft-extracao.md`** — protocolo de extração do núcleo Soft
-- **`references/plataforma-linkedin.md`** — LinkedIn
-- **`references/plataforma-x-threads.md`** — X / Threads
-- **`references/plataforma-substack-email.md`** — Substack / Email
-- **`references/plataforma-tiktok-shorts.md`** — TikTok / Shorts
-- **`references/plataforma-youtube-longo.md`** — YouTube longo + pacote de publicação
-- **`references/plataforma-pdf-notion.md`** — PDF / Notion
-- **`references/plataforma-mini-webinar.md`** — Distribuição da Mini Webinar Soft (hospedagem, cauda, follow-up)
+- **`references/nucleo-soft-extracao.md`** - protocolo de extração do núcleo Soft
+- **`references/plataforma-linkedin.md`** - LinkedIn
+- **`references/plataforma-x-threads.md`** - X / Threads
+- **`references/plataforma-substack-email.md`** - Substack / Email
+- **`references/plataforma-tiktok-shorts.md`** - TikTok / Shorts
+- **`references/plataforma-youtube-longo.md`** - YouTube longo + pacote de publicação
+- **`references/plataforma-pdf-notion.md`** - PDF / Notion
+- **`references/plataforma-mini-webinar.md`** - Distribuição da Mini Webinar Soft (hospedagem, cauda, follow-up)
 
 Estrutura Mãe e Fórmula 7 → guia (Cap 5 + Cap 6). Tom e filtros → `shared-references/`.
 

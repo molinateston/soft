@@ -86,7 +86,7 @@ A defesa contra essa armadilha é o **pilar de bastidor estratégico** (ver bast
 
 ## Como o cliente certo detecta performance
 
-O cliente certo (persona-âncora do próprio especialista — ex.: consultor 36 anos, R$20k/mês, comprou curso e não terminou; destile a do cliente à frente) tem detector apurado.
+O cliente certo (persona-âncora do próprio especialista - ex.: consultor 36 anos, R$20k/mês, comprou curso e não terminou; destile a do cliente à frente) tem detector apurado.
 
 Ele detecta performance em:
 
@@ -150,7 +150,7 @@ A pessoa admite erro que cometeu, sem performance de humildade. Apenas: cometi e
 
 Resultado: leitor identifica o erro e aprende sem sentir julgamento.
 
-Exemplo (ilustrativo — destile o do cliente à frente): "Montei uma clínica com 12 salas e fila de paciente. Margem apertada. Trabalhei 70h por semana. Demorei pra aceitar que aquilo não era escala, era armadilha."
+Exemplo (ilustrativo - destile o do cliente à frente): "Montei uma clínica com 12 salas e fila de paciente. Margem apertada. Trabalhei 70h por semana. Demorei pra aceitar que aquilo não era escala, era armadilha."
 
 ### Modo 4, Postura provocativa
 A pessoa declara crença que afronta a maioria do mercado. Sem hostilidade. Apenas com clareza.

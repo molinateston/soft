@@ -1,6 +1,6 @@
-# Treino de força e hipertrofia — base de evidência completa
+# Treino de força e hipertrofia, base de evidência completa
 
-## Volume — dose-resposta
+## Volume, dose-resposta
 
 **Schoenfeld, Ogborn & Krieger 2017** (*J Sports Sci* 35:1073, 15 estudos):
 - <5 sets/semana: ES 0,24
@@ -10,7 +10,7 @@
 
 **Baz-Valle et al. 2022** (*J Hum Kinet* 81:199, treinados jovens):
 - **12–20 séries/semana é a faixa ótima**
-- Acima de ~20 séries: relação em U invertido — pode prejudicar recuperação
+- Acima de ~20 séries: relação em U invertido, pode prejudicar recuperação
 
 **Pelland, Schoenfeld et al. 2025** (*Sports Med*, 67 estudos):
 - Confirmou +0,24% por série adicional em ~12,25 séries/sem
@@ -19,9 +19,9 @@
 **Prescrição consolidada:** 10–20 séries/semana/grupo muscular para hipertrofia máxima.
 Para iniciantes/conservadores/limitações articulares: 6–12 séries são suficientes para ganhos substanciais.
 
-## Carga — o debate resolvido
+## Carga, o debate resolvido
 
-### Para hipertrofia — carga é irrelevante (se próximo da falha)
+### Para hipertrofia, carga é irrelevante (se próximo da falha)
 **Schoenfeld, Grgic, Ogborn & Krieger 2017** (*JSCR* 31:3508, 21 estudos):
 - Sem diferença significativa entre ≤60% 1RM e >60% 1RM em hipertrofia (ES 0,03)
 - **Condição**: ambas as cargas levadas próximo da falha
@@ -29,16 +29,16 @@ Para iniciantes/conservadores/limitações articulares: 6–12 séries são sufi
 **Lopez et al. 2021** (*MSSE* 53:1206, NMA 28 estudos): ES <0,2 em todas comparações de carga para hipertrofia.
 **Currier et al. 2023** (*BJSM*, NMA bayesiana, 178 estudos, 5.097 sujeitos): confirma.
 
-### Para força — carga alta é superior
+### Para força, carga alta é superior
 - Schoenfeld 2017: alta vs baixa para força: **ES 0,58 (p<0,001)**
 - Lopez 2021: alta vs baixa SMD 0,60; alta vs moderada SMD 0,26
 
 **Prescrição prática:**
-- Para hipertrofia: 60–80% 1RM (8–15 reps) — melhor custo-benefício, menor stress articular
+- Para hipertrofia: 60–80% 1RM (8–15 reps), melhor custo-benefício, menor stress articular
 - Para força máxima: incluir séries pesadas (80–90% 1RM, 3–6 reps)
 - Para limitações articulares: cargas baixas (40–60% 1RM, 15–25 reps) até a falha = hipertrofia equivalente
 
-## Frequência — volume equalizado anula a diferença
+## Frequência, volume equalizado anula a diferença
 
 **Schoenfeld, Grgic & Krieger 2019** (*J Sports Sci* 37:1286, 25 estudos):
 - Com volume equalizado: sem diferença entre 1×, 2× ou 3×/semana para hipertrofia
@@ -64,7 +64,7 @@ Não pelo estímulo direto, mas porque:
 **Prescrição prática:**
 - Qualquer forma de periodização supera não-periodizar para força (ES 0,43)
 - LP (aumentar carga gradualmente) é o mais simples e igualmente eficaz para iniciantes/intermediários
-- DUP pode ser superior em treinados avançados — evidência moderada
+- DUP pode ser superior em treinados avançados, evidência moderada
 - Pessoa comum: LP bem executado → resultados robustos
 
 ## Treinar até a falha
@@ -73,15 +73,15 @@ Não pelo estímulo direto, mas porque:
 - Sem diferença significativa entre falha e não-falha para força ou hipertrofia
 
 **Refalo et al. 2023** (*Sports Med* 53:649, 15 estudos):
-- Vantagem trivial para falha em hipertrofia: **ES 0,19 (IC95% 0,00–0,37)** — marginal
+- Vantagem trivial para falha em hipertrofia: **ES 0,19 (IC95% 0,00–0,37)**, marginal
 
 **Robinson, Pelland et al. 2024** (*Sports Med* 54:2209):
 - Para força: RIR não tem relação significativa com ganhos
 - Para hipertrofia: slope negativo (mais perto da falha = levemente mais hipertrofia)
 
 **Prescrição prática:**
-- **0–3 RIR** é o range ótimo — próximo, não obrigatoriamente até falha
-- Evitar falha em compostos pesados (deadlift, agachamento — risco de forma/lesão)
+- **0–3 RIR** é o range ótimo, próximo, não obrigatoriamente até falha
+- Evitar falha em compostos pesados (deadlift, agachamento, risco de forma/lesão)
 - Falha ocasional em isoladores é aceitável
 - Para limitações articulares: parar com 3–5 reps de reserva nas primeiras semanas
 
@@ -100,7 +100,7 @@ Não pelo estímulo direto, mas porque:
 - Isoladores (rosca, extensão): 1–2 min
 - Para artrose: descanso maior (2–3 min em compostos) reduz stress articular acumulado
 
-## Síntese — prescrição para pessoa comum
+## Síntese, prescrição para pessoa comum
 
 | Variável | Iniciante | Intermediário | Com limitação articular |
 |---|---|---|---|
@@ -117,4 +117,4 @@ Não pelo estímulo direto, mas porque:
 - **Força**: 3–4 semanas (adaptação neuromuscular)
 - **Hipertrofia visível**: 8–12 semanas mínimo
 - **Massa mensurável por DEXA**: 12–24 semanas
-- **Plateaus de hipertrofia em naturais**: normais após 6–12 meses de treino otimizado — demandam aumento de volume ou variação de estímulo
+- **Plateaus de hipertrofia em naturais**: normais após 6–12 meses de treino otimizado, demandam aumento de volume ou variação de estímulo

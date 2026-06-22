@@ -21,6 +21,7 @@ A soft-posicionamento defende **estratégia**: cada pedaço de vida que aparece 
 - A regra de transparência financeira
 - Bastidor evolutivo
 - Como construir a tabela de bastidor com cliente
+- Gate antes de virar público (bloqueante)
 
 ---
 
@@ -323,3 +324,9 @@ Exemplo de linha:
 > Limites? Sem foto explícita, sem referência a momento conflito, sem nome do trabalho dela citado.
 
 Essa tabela é a defesa contra postar errado em dia ruim.
+
+---
+
+## Gate antes de virar público (bloqueante)
+
+A tabela de bastidor define o que sai e como sai, e tudo que sai é copy PÚBLICA. A Voz vira o tom de TODA peça depois, então o Bastidor estratégico passa pelo **Gate do Crivo do Plano** (`conducao-na-pratica.md`, "Gate de saída do Plano, o Crivo") antes de alimentar qualquer post: ancoragem no verbatim da super-pesquisa (`shared-references/crivo/01-entrada-verbatim.md`), as 3 perguntas do Harry (`crivo/03-gate-cub.md`), e o anti-IA (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`). Veredito binário: uma falha reprova e re-roda. Sem passar no Crivo, o bastidor não vira público.

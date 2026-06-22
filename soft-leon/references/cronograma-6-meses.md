@@ -1,14 +1,14 @@
-# Cronograma de 6 Meses — A Ficha de Academia
+# Cronograma de 6 Meses, A Ficha de Academia
 
 A ficha que cliente cola na parede e consulta toda segunda. Cada mês tem foco único, KPI primário, KPI secundário e armadilha vigiada. Fora desses, ruído. **Pareto Soft aplicado: 1 atenção principal por mês.**
 
-**Princípio raiz:** plano de guerra Soft não é cronograma corporativo. É ficha de execução. Cliente segue, ajusta, ou refaz se virada de cenário acontecer. Não tem "Q1 strategic alignment" — tem "M1 = configurar produção".
+**Princípio raiz:** plano de guerra Soft não é cronograma corporativo. É ficha de execução. Cliente segue, ajusta, ou refaz se virada de cenário acontecer. Não tem "Q1 strategic alignment", tem "M1 = configurar produção".
 
 ---
 
 ## A ficha por mês
 
-### Mês 1 — Configurar produção
+### Mês 1, Configurar produção
 
 **Foco único:** colocar a máquina rodando. Volume calibrado, cadência firmada, primeiros dados.
 
@@ -36,13 +36,13 @@ Cliente posta sobre tudo um pouco "pra ver o que pega". Skill bloqueia: *"Mês 1
 
 ---
 
-### Mês 2 — Validar gancho
+### Mês 2, Validar gancho
 
 **Foco único:** descobrir qual ângulo prende atenção do público real. Refinar embalagens (skill `soft-conteudo`) baseado em dados M1.
 
 **KPI primário:** Engajamento qualificado (salvar + compartilhar / alcance)
 - **Meta M2:** 3% (faixa baixa Soft)
-- Abaixo disso, peça não filtra — só agrada.
+- Abaixo disso, peça não filtra, só agrada.
 
 **KPI secundário:** DMs qualificados/semana
 - **Meta M2:** primeiros 3-8 DMs/semana (depende do estágio)
@@ -55,7 +55,7 @@ Like é métrica decorativa. Cliente que mede sucesso por curtida tá no caminho
 1. Identificar a peça-mãe do M1 (a que mais teve engajamento qualificado)
 2. Replicar a engenharia dela em mais peças (mesmo gancho, ângulo, tom)
 3. Cortar peças que tiveram engajamento qualificado abaixo de 2% (formato não funcionou)
-4. Começar a documentar bastidores, dores reais de cliente, perguntas recorrentes — matéria-prima de gancho próprio
+4. Começar a documentar bastidores, dores reais de cliente, perguntas recorrentes, matéria-prima de gancho próprio
 
 **Entregáveis ao final do M2:**
 - Pelo menos 3 peças com engajamento qualificado acima de 4%
@@ -64,7 +64,7 @@ Like é métrica decorativa. Cliente que mede sucesso por curtida tá no caminho
 
 ---
 
-### Mês 3 — Validar Carta
+### Mês 3, Validar Carta
 
 **Foco único:** Mini Carta convertendo. Lead clica, lê, manda DM, vira conversa qualificada.
 
@@ -82,7 +82,7 @@ Cliente faz Carta de 25 minutos de leitura, com 8 blocos, tentando "explicar tud
 **Ações concretas M3:**
 1. Auditar Carta atual contra os 4 blocos Soft (Promessa pra quem é · Problema · Solução-Método-Proposta · CTA)
 2. Testar 2 versões de Carta com público dividido (peça A vs peça B levam pra Cartas diferentes)
-3. Mediar primeira reunião Soft completa (7 fases conversão) e gravar — depois revisita
+3. Mediar primeira reunião Soft completa (7 fases conversão) e gravar, depois revisita
 4. Documentar objeções recorrentes pra alimentar Carta v2
 
 **Entregáveis ao final do M3:**
@@ -92,7 +92,7 @@ Cliente faz Carta de 25 minutos de leitura, com 8 blocos, tentando "explicar tud
 
 ---
 
-### Mês 4 — Ativar Turbinar
+### Mês 4, Ativar Turbinar
 
 **Foco único:** escalar peça-mãe validada via Turbinar. Pagar pra acelerar o que já provou ROI orgânico.
 
@@ -122,7 +122,7 @@ Cliente vê peça com 100 likes orgânicos e turbina. Skill bloqueia: *"Validaç
 
 ---
 
-### Mês 5 — Calibrar fechamento
+### Mês 5, Calibrar fechamento
 
 **Foco único:** taxa de fechamento Principal subindo. Refinamento das 7 fases conversão, especialmente Implicação e Isolamento.
 
@@ -151,7 +151,7 @@ Cliente faz call de 1h "pra entender melhor" e vira terapeuta. Skill aponta: *"c
 
 ---
 
-### Mês 6 — Cravar patamar
+### Mês 6, Cravar patamar
 
 **Foco único:** consolidar receita do novo patamar. Sistema rodando, números próprios calibrados, IA Vertical (se aplicável) madura.
 
@@ -168,9 +168,9 @@ Cliente bate meta M6 e quer subir Principal de R$3.500 pra R$8.000 imediatamente
 
 **Ações concretas M6:**
 1. Auditar todas as taxas próprias dos últimos 60 dias e substituir benchmark Soft pelas próprias
-2. Refazer cálculo do funil reverso com taxas reais — descobrir qual seria meta dos próximos 6 meses
+2. Refazer cálculo do funil reverso com taxas reais, descobrir qual seria meta dos próximos 6 meses
 3. Identificar gargalo principal pro próximo patamar (entrega? tempo? produto? IA Vertical?)
-4. Revisar Posicionamento Incomum — método ainda serve esse novo patamar?
+4. Revisar Posicionamento Incomum, método ainda serve esse novo patamar?
 5. Definir próximo Plano de Guerra (M7-M12) com taxas próprias
 
 **Entregáveis ao final do M6:**
@@ -200,7 +200,7 @@ Skill verifica os 6 KPIs primários (1 por mês) com dados dos últimos 30 dias 
 Sinal que a meta inicial estava abaixo do potencial. Coach refaz cálculo do funil reverso com taxas reais (já existentes) e propõe meta nova mais agressiva pros próximos 6 meses.
 
 ### Cliente "cumpre M1-M3" mas empaca em M4?
-Diagnóstico: orgânico funcionou, comercial OU Turbinar quebrou. Skill aponta especificamente onde — usando taxas próprias do cliente vs benchmark.
+Diagnóstico: orgânico funcionou, comercial OU Turbinar quebrou. Skill aponta especificamente onde, usando taxas próprias do cliente vs benchmark.
 
 ---
 
@@ -208,26 +208,26 @@ Diagnóstico: orgânico funcionou, comercial OU Turbinar quebrou. Skill aponta e
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│  PLANO DE GUERRA SOFT — [NOME DO CLIENTE]            │
+│  PLANO DE GUERRA SOFT - [NOME DO CLIENTE]            │
 │  Estágio: [Destravar/Escalar/Estabilizar/Verticalizar]│
 │  Meta caixa M6: R$[X]     Horas/sem: [Y]             │
 ├──────────────────────────────────────────────────────┤
-│ M1 — Configurar produção                              │
+│ M1 - Configurar produção                              │
 │ KPI: [Z] peças/sem · Alcance >800 · Vigia: virar creator│
 │                                                       │
-│ M2 — Validar gancho                                   │
+│ M2 - Validar gancho                                   │
 │ KPI: Engajamento qual. >3% · DMs >[A]/sem            │
 │                                                       │
-│ M3 — Validar Carta                                    │
+│ M3 - Validar Carta                                    │
 │ KPI: Carta→DM >5% · 1-3 vendas Principal              │
 │                                                       │
-│ M4 — Ativar Turbinar (R$[B]/mês)                     │
+│ M4 - Ativar Turbinar (R$[B]/mês)                     │
 │ KPI: CPL <R$15 · Conversas +50%                       │
 │                                                       │
-│ M5 — Calibrar fechamento                              │
+│ M5 - Calibrar fechamento                              │
 │ KPI: Fechamento >35% · Ticket estável                 │
 │                                                       │
-│ M6 — Cravar patamar                                   │
+│ M6 - Cravar patamar                                   │
 │ KPI: Receita R$[X] · LTV/CAC >3x                      │
 ├──────────────────────────────────────────────────────┤
 │ FUNIL POR MÊS:                                        │
@@ -277,7 +277,7 @@ Pra esses casos, skill responde: *"Plano não muda. Bússola fixa, radar ligado.
 >
 > **Cliente segue ficha M1-M6 e refaz tudo no M7.**
 >
-> **Refazer não é fracasso — é evolução. Taxas próprias substituem benchmark.**
+> **Refazer não é fracasso, é evolução. Taxas próprias substituem benchmark.**
 >
 > **Ficha de academia é pra ficar na parede, não na gaveta.**
 

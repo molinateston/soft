@@ -1,6 +1,6 @@
 # Capítulo 4 · Carta / Vídeo Minimalista
 
-> O ativo que qualifica antes da conversa. Transforma o curioso em comprador **aquecido** — cria desejo e qualifica antes de qualquer conversa. Ticket baixo pode fechar sem reunião; ticket alto ainda fecha numa conversa (Cap 10), mas o lead chega **quente, não cru**. Carta e Vídeo são dois formatos paralelos com a mesma função: você escolhe um.
+> O ativo que qualifica antes da conversa. Transforma o curioso em comprador **aquecido**, cria desejo e qualifica antes de qualquer conversa. Ticket baixo pode fechar sem reunião; ticket alto ainda fecha numa conversa (Cap 10), mas o lead chega **quente, não cru**. Carta e Vídeo são dois formatos paralelos com a mesma função: você escolhe um.
 
 ---
 
@@ -12,13 +12,13 @@ Imagina o cenário. O Especialista produz um Reel que viraliza, um Carrossel que
 
 E aí, sem ativo no ar, o Especialista responde no Direct. O lead pergunta mais. O Especialista responde mais. Vira sessão estratégica gratuita disfarçada de DM. Uma hora depois, o lead diz "vou pensar". Some.
 
-A ordem certa é inversa: Carta ou Vídeo primeiro, conteúdo público depois. Não o contrário. O ativo é o que dá ao feed um lugar pra onde mandar o interessado — um lugar onde a qualificação acontece sozinha, sem consumir uma hora sua por curioso.
+A ordem certa é inversa: Carta ou Vídeo primeiro, conteúdo público depois. Não o contrário. O ativo é o que dá ao feed um lugar pra onde mandar o interessado, um lugar onde a qualificação acontece sozinha, sem consumir uma hora sua por curioso.
 
 ---
 
 ## 4.2 · O que é a Carta / Vídeo Minimalista
 
-É a etapa de qualificação. Ela transforma o curioso em comprador **aquecido** sem exigir a presença do Especialista. O **desejo** nasce aqui, antes de qualquer conversa. Quem chega no seu WhatsApp depois desse ativo chega **aquecido e qualificado** — não cru, não cético. A conversa final ainda fecha (não convence do nada): ela confirma o desejo e remove a última objeção.
+É a etapa de qualificação. Ela transforma o curioso em comprador **aquecido** sem exigir a presença do Especialista. O **desejo** nasce aqui, antes de qualquer conversa. Quem chega no seu WhatsApp depois desse ativo chega **aquecido e qualificado**, não cru, não cético. A conversa final ainda fecha (não convence do nada): ela confirma o desejo e remove a última objeção.
 
 Carta / Vídeo significa Mini Carta OU Vídeo Minimalista. O Especialista escolhe UMA.
 
@@ -54,7 +54,7 @@ A lógica por trás: quanto mais alto o ticket, mais profundidade o lead precisa
 
 ## 4.4 · Mini Carta
 
-A Carta substitui a reunião de apresentação, o funil complexo e a VSL longa. É um documento simples — Notion, Google Docs ou página enxuta — lido em 4 a 7 minutos.
+A Carta substitui a reunião de apresentação, o funil complexo e a VSL longa. É um documento simples. Notion, Google Docs ou página enxuta, lido em 4 a 7 minutos.
 
 ### Princípio raiz: leitura solitária não perdoa
 
@@ -64,7 +64,7 @@ O teste único: o cliente certo pensa "isso fala diretamente comigo" na primeira
 
 ### A estrutura Soft em 4 blocos
 
-A Carta segue a mesma progressão do carrossel, só que esticada. Não é coincidência — é o que dá congruência ao funil. Quem viu o carrossel e depois lê a Carta sente a mesma mente falando, a mesma bandeira, a mesma crença. A espinha é idêntica (promessa e filtro, diagnóstico, vilão, virada, mecanismo, convite), comprimida em 4 blocos:
+A Carta segue a mesma progressão do carrossel, só que esticada. Não é coincidência, é o que dá congruência ao funil. Quem viu o carrossel e depois lê a Carta sente a mesma mente falando, a mesma bandeira, a mesma crença. A espinha é idêntica (promessa e filtro, diagnóstico, vilão, virada, mecanismo, convite), comprimida em 4 blocos:
 
 | Bloco | O que entrega | Eco no carrossel |
 |---|---|---|
@@ -73,17 +73,17 @@ A Carta segue a mesma progressão do carrossel, só que esticada. Não é coinci
 | 3. Virada, Mecanismo e Proposta | A tese de resolução, o mecanismo nomeado via contraste, a prova, a oferta sem preço | Nova oportunidade + Mecanismo |
 | 4. Convite | CTA único pro WhatsApp | Convite |
 
-**Bloco 1 — Promessa, apresentação e filtro.** Filtra na entrada e prende quem é o cliente certo. Contém o espelho do cliente ideal (situação concreta + dor reconhecível) seguido da promessa do que ele vai entender ao terminar de ler. Não é sobre você — é sobre ele. As primeiras linhas precisam fazer o leitor certo pensar "isso sou eu". Evite a abertura genérica ("Olá, tudo bem?"), a credencial inflada, falar de si antes de falar dele. Credencial não abre Carta. Reconhecimento abre.
+**Bloco 1 - Promessa, apresentação e filtro.** Filtra na entrada e prende quem é o cliente certo. Contém o espelho do cliente ideal (situação concreta + dor reconhecível) seguido da promessa do que ele vai entender ao terminar de ler. Não é sobre você, é sobre ele. As primeiras linhas precisam fazer o leitor certo pensar "isso sou eu". Evite a abertura genérica ("Olá, tudo bem?"), a credencial inflada, falar de si antes de falar dele. Credencial não abre Carta. Reconhecimento abre.
 
-**Bloco 2 — Diagnóstico.** Nomeia o Problema Avançado e prova que você entende o que o cliente vive por dentro. Contém a dor original, depois as soluções que ele tentou, depois o problema novo que essas soluções criaram — o efeito colateral. É aqui que a tensão sobe. O leitor precisa sentir que você descreveu a vida dele melhor do que ele descreveria. Nomeie o inimigo com vocabulário que ele reconhece. Evite falar do problema de forma abstrata, usar jargão de marketing, pular direto pra solução. Sem dor construída, a solução não tem peso.
+**Bloco 2 - Diagnóstico.** Nomeia o Problema Avançado e prova que você entende o que o cliente vive por dentro. Contém a dor original, depois as soluções que ele tentou, depois o problema novo que essas soluções criaram, o efeito colateral. É aqui que a tensão sobe. O leitor precisa sentir que você descreveu a vida dele melhor do que ele descreveria. Nomeie o inimigo com vocabulário que ele reconhece. Evite falar do problema de forma abstrata, usar jargão de marketing, pular direto pra solução. Sem dor construída, a solução não tem peso.
 
-**Bloco 3 — Virada, Mecanismo e Proposta.** Apresenta o mecanismo como o caminho diferente e a proposta de acesso a ele. Contém a virada (a tese de resolução, o "é posição, não esforço"), o mecanismo com suas etapas ou pilares apresentados via contraste, a prova específica com número, o que o cliente recebe, como acontece, e a garantia. Sem preço. Evite entregar o passo a passo executável — isso mata a venda —, listar funcionalidades em vez de transformação, colocar preço na Carta. O preço vai pro WhatsApp, depois da pré-qualificação.
+**Bloco 3 - Virada, Mecanismo e Proposta.** Apresenta o mecanismo como o caminho diferente e a proposta de acesso a ele. Contém a virada (a tese de resolução, o "é posição, não esforço"), o mecanismo com suas etapas ou pilares apresentados via contraste, a prova específica com número, o que o cliente recebe, como acontece, e a garantia. Sem preço. Evite entregar o passo a passo executável, isso mata a venda, listar funcionalidades em vez de transformação, colocar preço na Carta. O preço vai pro WhatsApp, depois da pré-qualificação.
 
-**Bloco 4 — Convite.** Converte o leitor qualificado em conversa no WhatsApp. Contém um CTA único, a antecipação do que vai acontecer quando ele mandar mensagem (reduz a ansiedade da decisão) e a promessa de não empurrar (tira a pressão). Quem avança já está qualificado pela própria Carta. Evite múltiplas opções de CTA, CTA vago ("saiba mais"), pedir pra "agendar uma call". Um caminho só, claro, com baixa fricção.
+**Bloco 4 - Convite.** Converte o leitor qualificado em conversa no WhatsApp. Contém um CTA único, a antecipação do que vai acontecer quando ele mandar mensagem (reduz a ansiedade da decisão) e a promessa de não empurrar (tira a pressão). Quem avança já está qualificado pela própria Carta. Evite múltiplas opções de CTA, CTA vago ("saiba mais"), pedir pra "agendar uma call". Um caminho só, claro, com baixa fricção.
 
 ### Por que sem preço na Carta
 
-Tickets Soft são geralmente médios a altos. Preço solto na Carta filtra antes da hora — antes de o leitor entender o valor real. No WhatsApp, o Especialista contextualiza antes de mostrar o número, e o número chega depois do desejo, não antes.
+Tickets Soft são geralmente médios a altos. Preço solto na Carta filtra antes da hora, antes de o leitor entender o valor real. No WhatsApp, o Especialista contextualiza antes de mostrar o número, e o número chega depois do desejo, não antes.
 
 Exceção: ofertas de baixo ticket (até R$1.500) podem mostrar preço na Carta. O atrito de pré-qualificação não compensa pra ticket baixo.
 
@@ -101,7 +101,7 @@ A Carta vive ou morre na experiência visual de leitura:
 
 Português escrito coloquial, não oral transcrito:
 
-- Contrações moderadas ("pra", "tá") — menos que no falado.
+- Contrações moderadas ("pra", "tá"), menos que no falado.
 - Zero "né", "tipo", "olha". Soam bregas no texto.
 - Vocabulário preciso. No escrito, o leitor processa a palavra exata.
 - Frases curtas como regra. Mediana de 10–15 palavras.
@@ -114,7 +114,7 @@ Vídeo de 7 a 12 minutos, gravado uma vez, hospedado em página simples, assisti
 
 Não é evento. Não é webinar. Não é live. O lead clica no link, assiste, decide. Sem agendamento, sem plataforma cara, sem complexidade.
 
-Segue a mesma macro-estrutura de 4 blocos da Carta — e a mesma espinha do carrossel. A diferença é o formato: tom falado coloquial, transições orais, pausa entre os blocos.
+Segue a mesma macro-estrutura de 4 blocos da Carta, e a mesma espinha do carrossel. A diferença é o formato: tom falado coloquial, transições orais, pausa entre os blocos.
 
 ### Princípio de Alta Polaridade no Vídeo
 
@@ -122,13 +122,13 @@ A abertura desafia o que o lead acredita. O meio constrói o diagnóstico. O fim
 
 ### Os 4 blocos no formato vídeo
 
-**Bloco 1 — Promessa, apresentação e filtro (primeiro 1min30).** Diz pra quem é o vídeo, o que a pessoa vai entender e em quantos minutos, e quem deve sair agora. O filtro negativo na abertura aumenta a retenção de quem é o público certo. Sem promessa clara nos primeiros 90 segundos, o lead fecha.
+**Bloco 1 - Promessa, apresentação e filtro (primeiro 1min30).** Diz pra quem é o vídeo, o que a pessoa vai entender e em quantos minutos, e quem deve sair agora. O filtro negativo na abertura aumenta a retenção de quem é o público certo. Sem promessa clara nos primeiros 90 segundos, o lead fecha.
 
-**Bloco 2 — Diagnóstico (até ~4min).** Dor original, depois as soluções tentadas nomeadas, depois o problema novo que essas soluções criaram. É o pico de tensão do vídeo. O lead precisa se ver descrito.
+**Bloco 2 - Diagnóstico (até ~4min).** Dor original, depois as soluções tentadas nomeadas, depois o problema novo que essas soluções criaram. É o pico de tensão do vídeo. O lead precisa se ver descrito.
 
-**Bloco 3 — Virada, Mecanismo e Proposta (até ~10min).** A virada, o mecanismo nomeado com suas etapas, a prova específica, o que entrega, como acontece, e a garantia. Mostra a função de cada etapa, não o passo a passo executável.
+**Bloco 3 - Virada, Mecanismo e Proposta (até ~10min).** A virada, o mecanismo nomeado com suas etapas, a prova específica, o que entrega, como acontece, e a garantia. Mostra a função de cada etapa, não o passo a passo executável.
 
-**Bloco 4 — Convite (último ~2min).** Antecipa as principais objeções, repete o filtro, antecipa o que acontece depois do clique, e fecha com CTA único. Sem empurrar.
+**Bloco 4 - Convite (último ~2min).** Antecipa as principais objeções, repete o filtro, antecipa o que acontece depois do clique, e fecha com CTA único. Sem empurrar.
 
 ### Página de hospedagem do Vídeo
 
@@ -157,7 +157,7 @@ Não é pilar do método. É ferramenta operacional que acelera a entrega do ati
 
 ## 4.7 · Isca Soft: crescimento de perfil qualificado
 
-A Isca Soft é um entregável acionado por comentário, depois de um conteúdo do feed. Não é lead magnet genérico — é conteúdo complementar ao método, que o cliente certo quer antes de comprar. Serve pra duas coisas:
+A Isca Soft é um entregável acionado por comentário, depois de um conteúdo do feed. Não é lead magnet genérico, é conteúdo complementar ao método, que o cliente certo quer antes de comprar. Serve pra duas coisas:
 
 - **Isca tutorial:** um conteúdo expandido de alto valor (PDF, checklist, mini-guia, vídeo curto) que resolve uma dúvida específica do cliente certo. Atrai seguidor qualificado e te posiciona como quem domina o assunto.
 - **Atalho pro funil:** em vez de só entregar material, leva direto pra Carta ou pro Vídeo. O comentário vira ponto de entrada no funil.

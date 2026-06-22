@@ -199,7 +199,7 @@ Cada post Soft passa por **dois filtros**:
 | Facebook | 0.15% | Reels |
 | Instagram | 0.48% / 5.4% (% reach) | Carrossel |
 | TikTok | 3.70-4.5% | Vídeo |
-| YouTube Shorts | 5.91% | — |
+| YouTube Shorts | 5.91% | - |
 | Threads | 3.60% | Thread 5-10 posts |
 | X | 0.12% | Thread |
 | Substack | 45% open / 20% click | Email longo |

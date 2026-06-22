@@ -8,23 +8,23 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ## Índice
 
-- Exemplo 1 — Abertura de carta de vendas
-- Exemplo 2 — Apresentação pessoal (página "Sobre")
-- Exemplo 3 — Caption de carrossel
-- Exemplo 4 — Diagnóstico no início do funil
-- Exemplo 5 — CTA de venda
-- Exemplo 6 — Story de bastidor
-- Exemplo 7 — Reflexão de tese
-- Exemplo 8 — Promessa de produto
-- Exemplo 9 — E-mail de boas-vindas
-- Exemplo 10 — Pitch curto de palestra
+- Exemplo 1 - Abertura de carta de vendas
+- Exemplo 2 - Apresentação pessoal (página "Sobre")
+- Exemplo 3 - Caption de carrossel
+- Exemplo 4 - Diagnóstico no início do funil
+- Exemplo 5 - CTA de venda
+- Exemplo 6 - Story de bastidor
+- Exemplo 7 - Reflexão de tese
+- Exemplo 8 - Promessa de produto
+- Exemplo 9 - E-mail de boas-vindas
+- Exemplo 10 - Pitch curto de palestra
 - Padrão geral dos exemplos
 - Como usar esses exemplos
 - Atualização
 
 ---
 
-## Exemplo 1 — Abertura de carta de vendas
+## Exemplo 1 - Abertura de carta de vendas
 
 ### Versão IA
 > "Imagine só ter um sistema completo, simples e eficiente que transforma seu negócio digitalmente, trazendo clareza, resultados e a verdadeira liberdade que você sempre sonhou. Esse é o poder do método que vou te apresentar — um método revolucionário que vai destravar todo o seu potencial."
@@ -53,7 +53,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 2 — Apresentação pessoal (página "Sobre")
+## Exemplo 2 - Apresentação pessoal (página "Sobre")
 
 ### Versão IA
 > "Sou um especialista apaixonado em ajudar empreendedores a destravarem seu potencial máximo. Ao longo dos meus anos de experiência, descobri que a verdadeira chave do sucesso está em sistemas simples e poderosos. Minha missão é trazer clareza e direção pra você que busca transformar sua vida profissional."
@@ -80,7 +80,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 3 — Caption de carrossel
+## Exemplo 3 - Caption de carrossel
 
 ### Versão IA
 > "Você está pronto pra dar o próximo passo na sua jornada de empreendedor? Hoje vou compartilhar com você os 3 segredos que vão revolucionar a forma como você opera seu negócio. Esses insights são exatamente o que você precisa pra alcançar o próximo nível!"
@@ -106,7 +106,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 4 — Diagnóstico no início do funil
+## Exemplo 4 - Diagnóstico no início do funil
 
 ### Versão IA
 > "Você se sente perdido na sua jornada empreendedora? Está enfrentando dificuldades pra alcançar os resultados que tanto deseja? Saiba que você não está sozinho! Milhares de empreendedores enfrentam exatamente esse desafio diariamente."
@@ -131,7 +131,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 5 — CTA de venda
+## Exemplo 5 - CTA de venda
 
 ### Versão IA
 > "Aproveite essa oportunidade única e transforme seu negócio agora! Não deixe pra amanhã o sucesso que você merece ter hoje. Inscreva-se já e dê o salto definitivo na sua carreira!"
@@ -156,7 +156,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 6 — Story de bastidor
+## Exemplo 6 - Story de bastidor
 
 ### Versão IA
 > "Mais um dia incrível começando! Hoje vou compartilhar com vocês um pouco da minha rotina, porque acredito que mostrar os bastidores é essencial pra construir uma conexão verdadeira. Vamos juntos nessa jornada!"
@@ -180,7 +180,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 7 — Reflexão de tese
+## Exemplo 7 - Reflexão de tese
 
 ### Versão IA
 > "É fundamental entendermos que o cenário do marketing digital passa por transformações profundas e que aqueles que não se adaptarem rapidamente correm o risco de ficarem pra trás. A realidade é que precisamos repensar nossas estratégias e abraçar a inovação."
@@ -195,7 +195,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "abraçar a inovação" (cringe)
 
 ### Versão autoral
-> "Marketing digital mudou. Quem opera com modelo de 2018 paga caro em 2026. Equipe inflada não escala. Lançamento como religião não sustenta. Quem não vê isso ainda vai ver — na conta bancária."
+> "Marketing digital mudou. Quem opera com modelo de 2018 paga caro em 2026. Equipe inflada não escala. Lançamento como religião não sustenta. Quem não vê isso ainda vai ver - na conta bancária."
 
 ### Por que funciona
 - Tese declarada com peso
@@ -206,7 +206,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 8 — Promessa de produto
+## Exemplo 8 - Promessa de produto
 
 ### Versão IA
 > "Com esse método poderoso e revolucionário, você vai alcançar resultados extraordinários em pouquíssimo tempo! Imagine só atingir 100k em apenas 90 dias, totalmente sem complicações! Esse é o futuro que te espera!"
@@ -231,7 +231,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 9 — E-mail de boas-vindas
+## Exemplo 9 - E-mail de boas-vindas
 
 ### Versão IA
 > "Olá! Que alegria ter você por aqui! Você acabou de dar um passo incrível na sua jornada e eu não poderia estar mais animado em fazer parte dessa transformação. Prepare-se pra uma experiência única!"
@@ -255,7 +255,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
 ---
 
-## Exemplo 10 — Pitch curto de palestra
+## Exemplo 10 - Pitch curto de palestra
 
 ### Versão IA
 > "Apresento o método que está revolucionando a forma como profissionais liberais constroem seus negócios digitais — um sistema simples, prático e altamente eficiente que está transformando vidas e gerando resultados extraordinários!"

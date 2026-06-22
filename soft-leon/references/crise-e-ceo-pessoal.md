@@ -1,4 +1,4 @@
-# Crise e CEO pessoal — transversal
+# Crise e CEO pessoal, transversal
 
 > **Quando consultar:** crise aguda (caixa, sócio, time, mercado, regulatório) ou questões pessoais do CEO (esgotamento, solidão, decisão sob pressão, saúde mental). Atravessa todas as fases.
 
@@ -7,15 +7,15 @@
 ## Índice
 
 - Doutrina central
-- Bloco 1 — O paradoxo da resiliência aplicado a crise
-- Bloco 2 — A espiral de declínio (Circuito da Destruição)
-- Bloco 3 — Os 5 tipos de crise comum
-- Bloco 4 — Decisão sob estresse extremo
-- Bloco 5 — Solidão do CEO
-- Bloco 6 — Saúde física do CEO
-- Bloco 7 — Família e relacionamento durante crise
-- Bloco 8 — Quando empresa precisa fechar
-- Bloco 9 — Pós-crise
+- Bloco 1, O paradoxo da resiliência aplicado a crise
+- Bloco 2, A espiral de declínio (Circuito da Destruição)
+- Bloco 3, Os 5 tipos de crise comum
+- Bloco 4, Decisão sob estresse extremo
+- Bloco 5, Solidão do CEO
+- Bloco 6, Saúde física do CEO
+- Bloco 7, Família e relacionamento durante crise
+- Bloco 8, Quando empresa precisa fechar
+- Bloco 9, Pós-crise
 - Notas operacionais
 
 ---
@@ -23,9 +23,9 @@
 ## Doutrina central
 
 > "Os otimistas morreram. Os realistas com fé sobreviveram."
-> — o paradoxo da resiliência
+> o paradoxo da resiliência
 
-> "Quando empresa está em crise, CEO precisa estar mais lúcido — não menos. Mas crise sabota lucidez."
+> "Quando empresa está em crise, CEO precisa estar mais lúcido, não menos. Mas crise sabota lucidez."
 
 > "CEO sem estrutura de descarga emocional colapsa em 18-36 meses. Não é fraqueza. É fisiologia."
 
@@ -33,7 +33,7 @@ Crise é **certa** na trajetória de qualquer empresa. Diferença entre empresa 
 
 ---
 
-## Bloco 1 — O paradoxo da resiliência aplicado a crise
+## Bloco 1, O paradoxo da resiliência aplicado a crise
 
 ### Recap
 
@@ -91,11 +91,11 @@ Os dois ao mesmo tempo. Fé sem confronto = ilusão. Confronto sem fé = desespe
 
 ---
 
-## Bloco 2 — A espiral de declínio (Circuito da Destruição)
+## Bloco 2, A espiral de declínio (Circuito da Destruição)
 
 ### O conceito raiz
 
-> "Empresas em declínio são quase sempre empresas que entraram em **Circuito da Destruição** — uma sequência de decisões reativas, cada uma cancelando a anterior, sem direção coerente."
+> "Empresas em declínio são quase sempre empresas que entraram em **Circuito da Destruição**, uma sequência de decisões reativas, cada uma cancelando a anterior, sem direção coerente."
 
 ### Anatomia da espiral de declínio
 
@@ -158,9 +158,9 @@ Volta ao volante = saída da espiral de declínio.
 
 ---
 
-## Bloco 3 — Os 5 tipos de crise comum
+## Bloco 3, Os 5 tipos de crise comum
 
-### Crise 1 — Caixa apertou
+### Crise 1, Caixa apertou
 
 **Sinais:**
 - Runway <6 meses
@@ -171,9 +171,9 @@ Volta ao volante = saída da espiral de declínio.
 
 1. **Confronta o número real.** Quantos meses até zerar?
 2. **Lista cortes possíveis.**
-   - Pessoa A — economia mensal Y, impacto operacional Z
-   - Software B — economia Y, impacto Z
-   - Marketing C — economia Y, impacto Z
+   - Pessoa A, economia mensal Y, impacto operacional Z
+   - Software B, economia Y, impacto Z
+   - Marketing C, economia Y, impacto Z
 3. **Categoriza cortes:**
    - Vermelho (corta agora)
    - Amarelo (corta se piorar)
@@ -191,7 +191,7 @@ Volta ao volante = saída da espiral de declínio.
 
 **Princípio:** **corta primeiro, capta depois.** Capta com caixa apertado = dilui caro.
 
-### Crise 2 — Sócio quer sair
+### Crise 2, Sócio quer sair
 
 **Sinais:**
 - Conflito persistente
@@ -225,7 +225,7 @@ Volta ao volante = saída da espiral de declínio.
 
 **Princípio:** sócio que quer sair, deixa sair. Forçar permanência = veneno cultural por anos.
 
-### Crise 3 — Time fragiliza (saídas em sequência)
+### Crise 3, Time fragiliza (saídas em sequência)
 
 **Sinais:**
 - 2-3 saídas em <60 dias
@@ -259,7 +259,7 @@ Volta ao volante = saída da espiral de declínio.
 
 **Princípio:** time saindo em ciclo = sintoma. Tratar sintoma sem causa raiz não funciona.
 
-### Crise 4 — Concorrente novo + grande
+### Crise 4, Concorrente novo + grande
 
 **Sinais:**
 - Empresa nova bem capitalizada entrou no mercado
@@ -282,7 +282,7 @@ Volta ao volante = saída da espiral de declínio.
 3. **Decide posição:**
    - Diferenciação (intensifica seu ouriço vs deles)
    - Co-existência (mercados/segmentos diferentes)
-   - Confronto direto (raro — só se você tem vantagem real)
+   - Confronto direto (raro, só se você tem vantagem real)
 4. **Comunica ao time:**
    - Realidade brutal (eles existem)
    - Fé absoluta (vamos ganhar com X)
@@ -293,7 +293,7 @@ Volta ao volante = saída da espiral de declínio.
 
 **Princípio da resiliência:** concorrente forte é fato brutal. Empresa que mantém fé + executa próprio plano vence concorrente que copia o mercado.
 
-### Crise 5 — Mudança regulatória ou de mercado
+### Crise 5, Mudança regulatória ou de mercado
 
 **Sinais:**
 - Regulação nova afeta modelo
@@ -313,7 +313,7 @@ Volta ao volante = saída da espiral de declínio.
 3. **Decide rota:**
    - **Adapta** (mudança incremental no modelo)
    - **Pivota** (mudança de modelo)
-   - **Sai** (vende ou fecha — raro)
+   - **Sai** (vende ou fecha, raro)
 4. **Comunica ao time + investidores:**
    - Realidade do impacto
    - Plano específico
@@ -324,7 +324,7 @@ Volta ao volante = saída da espiral de declínio.
 
 ---
 
-## Bloco 4 — Decisão sob estresse extremo
+## Bloco 4, Decisão sob estresse extremo
 
 ### A fisiologia do estresse
 
@@ -379,7 +379,7 @@ Cansaço da semana + ansiedade de fim de semana + pressa = decisão piorada por 
 
 ---
 
-## Bloco 5 — Solidão do CEO
+## Bloco 5, Solidão do CEO
 
 ### A realidade
 
@@ -393,10 +393,10 @@ CEO carrega:
 
 **Time:** descarregar dúvida no time gera ansiedade neles. Eles não precisam saber **tudo** que você teme.
 **Sócios:** eles também sentem pressão. Vocês reforçam ansiedade um do outro.
-**Família:** sobrecarrega — esposa/marido vira terapeuta gratuito.
+**Família:** sobrecarrega, esposa/marido vira terapeuta gratuito.
 **Amigos:** raramente entendem contexto de CEO.
 
-> CEO sem estrutura de descarga emocional colapsa em 18-36 meses. Não é fraqueza — é fisiologia.
+> CEO sem estrutura de descarga emocional colapsa em 18-36 meses. Não é fraqueza, é fisiologia.
 
 ### Estrutura saudável de descarga
 
@@ -430,7 +430,7 @@ CEO carrega:
 
 ---
 
-## Bloco 6 — Saúde física do CEO
+## Bloco 6, Saúde física do CEO
 
 ### Por que importa pra empresa
 
@@ -452,7 +452,7 @@ CEO em má saúde física = CEO com:
 **2. Movimento.**
 - 3-5x/semana, mínimo 30 min
 - Mistura cardio + força
-- Não precisa ser maratona — consistência > intensidade
+- Não precisa ser maratona, consistência > intensidade
 - Exercício = antidepressivo + ansiolítico naturais
 
 **3. Alimentação.**
@@ -474,7 +474,7 @@ CEO doente = empresa doente.
 
 ---
 
-## Bloco 7 — Família e relacionamento durante crise
+## Bloco 7, Família e relacionamento durante crise
 
 ### A tensão
 
@@ -520,7 +520,7 @@ CEO em crise:
 - Sexo/intimidade caindo significativamente
 - Sensação de "viver com estranho"
 
-> Empresa pode ser refeita. Casamento/família destruído por anos de negligência leva décadas pra recuperar — se recupera.
+> Empresa pode ser refeita. Casamento/família destruído por anos de negligência leva décadas pra recuperar, se recupera.
 
 ### Princípio operacional
 
@@ -530,11 +530,11 @@ CEO Fase 2+ que descuida família **previsivelmente** termina em divórcio em 5-
 
 ---
 
-## Bloco 8 — Quando empresa precisa fechar
+## Bloco 8, Quando empresa precisa fechar
 
 ### Realidade não-falada
 
-> Maioria das empresas fecha. Não maioria fracassa — maioria simplesmente termina.
+> Maioria das empresas fecha. Não maioria fracassa, maioria simplesmente termina.
 
 Razões legítimas pra fechar:
 - Modelo não funciona após esforço genuíno (12-24 meses)
@@ -580,7 +580,7 @@ CEO que fecha empresa **não falha como pessoa**. Falha **uma tese** específica
 
 ---
 
-## Bloco 9 — Pós-crise
+## Bloco 9, Pós-crise
 
 ### O que acontece depois
 
@@ -627,5 +627,5 @@ Após cada crise, CEO faz:
 - **Para Léo escalando Soft Business**: questões de solidão e descarga emocional são frequentes em fundadores solo. Skill alerta antes da crise estourar.
 - **Para cliente do Léo (especialista escalando)**: Crise 3 (time fragiliza) é mais comum nessa fase. Skill ajuda a estruturar resposta.
 - **Para empresário genérico**: depende do tipo de crise, skill diagnostica antes de prescrever.
-- **Skill não banaliza crise.** Cliente em crise real merece tratamento sério. Tom muda — menos clínico, mais humano. Sem motivacional vazio, mas com presença.
+- **Skill não banaliza crise.** Cliente em crise real merece tratamento sério. Tom muda, menos clínico, mais humano. Sem motivacional vazio, mas com presença.
 - **Suicídio / pensamentos de auto-extermínio**: skill **imediatamente** redireciona pra CVV (188) ou profissional de saúde mental. Não trata. Não orienta. Apenas redireciona com cuidado.

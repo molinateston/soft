@@ -20,8 +20,8 @@ A pergunta que abre toda peça: **que percepção eu estou reorganizando?**
 
 ## 2. As 8 leis (como cada FRASE soa)
 
-1. **Revele, não ensine.** Diagnóstico, não aula. Você olha o mercado de cima e nomeia o que o leitor vive. Nunca "você precisa"; sempre "o que está acontecendo é". Teste do tema: "Como fazer um reel" é tutorial (fraco); "o reel virou panfleto: todo mundo posta, ninguém é lembrado" é tese (forte). Não explica a ferramenta — interpreta o mercado.
-2. **Cada frase é uma conclusão.** Comprima. Frase curta com peso. Curto, não raso: menos palavra, mais peso. Corte introdução, transição, justificativa — e o **meta-comentário** (explicar o porquê da peça dentro da peça). Ex.: "Investimento: R$2.400, à vista ou 12x de 240" — nunca "...apresentado depois do Mapa, ancorado contra os R$3.500". O bastidor decide; não vai pro texto.
+1. **Revele, não ensine.** Diagnóstico, não aula. Você olha o mercado de cima e nomeia o que o leitor vive. Nunca "você precisa"; sempre "o que está acontecendo é". Teste do tema: "Como fazer um reel" é tutorial (fraco); "o reel virou panfleto: todo mundo posta, ninguém é lembrado" é tese (forte). Não explica a ferramenta - interpreta o mercado.
+2. **Cada frase é uma conclusão.** Comprima. Frase curta com peso. Curto, não raso: menos palavra, mais peso. Corte introdução, transição, justificativa - e o **meta-comentário** (explicar o porquê da peça dentro da peça). Ex.: "Investimento: R$2.400, à vista ou 12x de 240" - nunca "...apresentado depois do Mapa, ancorado contra os R$3.500". O bastidor decide; não vai pro texto.
 3. **Deixe respirar.** Bloco curto. Linha quebrada. A ideia chega em camadas (observação → interpretação → virada), não num parágrafo só. O espaço é parte do argumento.
 4. **Polarize.** Dois lados, uma tensão. Escreva pro cliente certo. O resto que passe.
 5. **Nomeie o fenômeno.** Batize o que ele sente e nunca soube dizer: "competência invisível", "inflação de complexidade". Quem nomeia, parece dono do assunto.
@@ -69,13 +69,13 @@ Copy não convence. Reorganiza percepção. O leitor chega sozinho na conclusão
 
 Cada formato cumpre um papel psicológico. Usar todos pra "ensinar" é o erro de quem não tem sistema.
 
-- **Reel** — interrompe o padrão. Verdade comprimida. Hook nos 2s → diagnóstico → polaridade → conclusão definitiva.
-- **Carrossel** — aprofunda a percepção. Progressão psicológica, não lista. Uma ideia por slide, muito espaço, tensão crescente.
-- **Stories** — aproxima. Observação → interpretação → tese curta. Não é rotina aleatória.
-- **Destaques** — consolidam autoridade. Página de vendas comprimida: Problema · Método · Clientes.
-- **Carta / página** — constrói inevitabilidade. Identificação → dor → falha das soluções → nova visão → mecanismo → transformação → prova → entrada.
-- **Micro-treino** — gera convicção. Reorganização mental guiada, não curso.
-- **Oferta / CTA** — transforma clareza em inevitabilidade. Vende a transformação, não o módulo. CTA é continuação natural da lógica, não pedido.
+- **Reel** - interrompe o padrão. Verdade comprimida. Hook nos 2s → diagnóstico → polaridade → conclusão definitiva.
+- **Carrossel** - aprofunda a percepção. Progressão psicológica, não lista. Uma ideia por slide, muito espaço, tensão crescente.
+- **Stories** - aproxima. Observação → interpretação → tese curta. Não é rotina aleatória.
+- **Destaques** - consolidam autoridade. Página de vendas comprimida: Problema · Método · Clientes.
+- **Carta / página** - constrói inevitabilidade. Identificação → dor → falha das soluções → nova visão → mecanismo → transformação → prova → entrada.
+- **Micro-treino** - gera convicção. Reorganização mental guiada, não curso.
+- **Oferta / CTA** - transforma clareza em inevitabilidade. Vende a transformação, não o módulo. CTA é continuação natural da lógica, não pedido.
 
 ---
 
@@ -83,9 +83,9 @@ Cada formato cumpre um papel psicológico. Usar todos pra "ensinar" é o erro de
 
 Soa: **observacional, clínica, estratégica, inevitável.** Como quem olha o mercado de cima e diz o que está acontecendo.
 
-Nunca soa: guru, hype, motivacional, marketing digital genérico, "copy de copywriter". Quanto mais alto o ticket, mais calma e inevitável — menos promessa gritante.
+Nunca soa: guru, hype, motivacional, marketing digital genérico, "copy de copywriter". Quanto mais alto o ticket, mais calma e inevitável - menos promessa gritante.
 
-**A pegada falada (o que mata o "parece IA").** O teste: *eu diria isso olhando no olho de um cara experiente, sem vergonha?* Se a resposta é não, reescreve. Palavra que ninguém usa numa conversa real (alavancar, jornada, potencializar, mindset, "destravar") não entra. Lê em voz alta: o que tropeça na boca, sai. Copy boa não parece copy — parece observação dita por uma pessoa de verdade.
+**A pegada falada (o que mata o "parece IA").** O teste: *eu diria isso olhando no olho de um cara experiente, sem vergonha?* Se a resposta é não, reescreve. Palavra que ninguém usa numa conversa real (alavancar, jornada, potencializar, mindset, "destravar") não entra. Lê em voz alta: o que tropeça na boca, sai. Copy boa não parece copy - parece observação dita por uma pessoa de verdade.
 
 **Anti-voz do Léo** (cresce a cada correção dele): ele NÃO usa **"travar / travado / trava"** (era "travar a posição"). Prefere ocupar, cravar, fincar, deixar de pé, feito. Pra cliente bloqueado: empacado, emperrado. Lista viva em `feedback_voz-leo` na memória.
 
@@ -103,17 +103,17 @@ As forças reais por trás da compra não são "marketing". São: invisibilidade
 
 ## A revisão CUB (3 camadas, nesta ordem)
 
-Depois de escrever, revisa em camadas separadas — nunca tudo de uma vez. Copy morre por 3 motivos; caça um de cada vez:
+Depois de escrever, revisa em camadas separadas - nunca tudo de uma vez. Copy morre por 3 motivos; caça um de cada vez:
 
-1. **C — Confusão.** O leitor procura desculpa pra parar. Releitura, jargão, duas ideias na mesma frase, abstração: corta ou concretiza. *Exige reler? Dá pra ver na cabeça?*
-2. **U — Inacreditável.** Vira o cético. Promessa grande sem prova ao lado mata a confiança. *Isso parece promessa de infoproduto?* Se sim, prova com fato, ou corta.
-3. **B — Boring (tédio).** O que ele já ouviu mil vezes não prende. Não amplifique o problema óbvio ("o mercado tá difícil"); amplifique a virada e o contraste. *Isso avança a tensão ou enrola?*
+1. **C - Confusão.** O leitor procura desculpa pra parar. Releitura, jargão, duas ideias na mesma frase, abstração: corta ou concretiza. *Exige reler? Dá pra ver na cabeça?*
+2. **U - Inacreditável.** Vira o cético. Promessa grande sem prova ao lado mata a confiança. *Isso parece promessa de infoproduto?* Se sim, prova com fato, ou corta.
+3. **B - Boring (tédio).** O que ele já ouviu mil vezes não prende. Não amplifique o problema óbvio ("o mercado tá difícil"); amplifique a virada e o contraste. *Isso avança a tensão ou enrola?*
 
 Teste de resistência no fim: *parece escrito por quem entende, ou por quem tenta parecer que entende?*
 
 ## O formato (curto, em prosa)
 
-O bastidor sai igual ao que vai pra fora: curto, simples, profundo. **Prosa, nunca tabela** — tabela é rascunho interno; o que o cliente lê, e o que vai pro Notion, é documento corrido e diagramado. Se a peça ficou enorme, ela está rasa de tão longa: corta até doer.
+O bastidor sai igual ao que vai pra fora: curto, simples, profundo. **Prosa, nunca tabela** - tabela é rascunho interno; o que o cliente lê, e o que vai pro Notion, é documento corrido e diagramado. Se a peça ficou enorme, ela está rasa de tão longa: corta até doer.
 
 ## A regra-zero
 

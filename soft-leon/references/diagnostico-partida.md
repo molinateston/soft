@@ -1,12 +1,12 @@
-# Diagnóstico de Partida — As 5 Perguntas Duras
+# Diagnóstico de Partida, As 5 Perguntas Duras
 
-Antes de qualquer cálculo, qualquer benchmark, qualquer ficha — 5 perguntas. Sem respostas concretas, plano não sai. Coach não inventa, não estima, não usa "média do mercado". O cliente entrega os números ou não tem plano.
+Antes de qualquer cálculo, qualquer benchmark, qualquer ficha, 5 perguntas. Sem respostas concretas, plano não sai. Coach não inventa, não estima, não usa "média do mercado". O cliente entrega os números ou não tem plano.
 
 **Princípio raiz:** dado vago vira cálculo vago. Cliente que dá faixa, coach pede número exato. Cliente que não sabe, coach manda buscar.
 
 ---
 
-## Pergunta 1 — Faturamento médio dos últimos 3 meses
+## Pergunta 1, Faturamento médio dos últimos 3 meses
 
 > *"Quanto você fatura hoje, na média dos últimos 3 meses? Não me dá faixa nem número redondo. Pega os 3 últimos meses fechados, soma o que entrou de cliente pagante, divide por 3. Quero o número exato."*
 
@@ -34,7 +34,7 @@ Antes de qualquer cálculo, qualquer benchmark, qualquer ficha — 5 perguntas. 
 
 ---
 
-## Pergunta 2 — Mix de oferta atual + ticket de cada
+## Pergunta 2, Mix de oferta atual + ticket de cada
 
 > *"Hoje você vende uma oferta só ou tem mix? Me lista cada oferta que vendeu nos últimos 3 meses, ticket de cada uma, e quantas você vendeu de cada."*
 
@@ -67,7 +67,7 @@ Se cliente tem **mais de 3 ofertas**:
 
 ---
 
-## Pergunta 3 — Meta de caixa em 6 meses
+## Pergunta 3, Meta de caixa em 6 meses
 
 > *"Onde você quer estar em 6 meses? Me dá número de caixa, não receita. Caixa = o que sobra depois de pagar custo direto e impostos. Quanto você quer embolsar no mês 6, líquido?"*
 
@@ -107,7 +107,7 @@ Se cliente recusa, coach avisa que método não cobre essa promessa e cliente de
 
 ---
 
-## Pergunta 4 — Horas reais por semana disponíveis
+## Pergunta 4, Horas reais por semana disponíveis
 
 > *"Quantas horas reais por semana você tem pra dedicar ao negócio? Não horas ideais. Considera entrega de cliente atual, vida fora do trabalho, e operação base. Quero o número que cabe na tua semana real."*
 
@@ -139,7 +139,7 @@ Quando horas não batem com meta:
 
 ---
 
-## Pergunta 5 — Investimento mensal disponível em Turbinar/tráfego
+## Pergunta 5, Investimento mensal disponível em Turbinar/tráfego
 
 > *"Quanto você tem pra investir em Turbinar ou tráfego pago por mês? Pode ser R$0 (orgânico puro) até qualquer valor. Quero o teto realista que cabe no teu fluxo."*
 
@@ -155,7 +155,7 @@ Plano de Guerra Soft funciona com R$0 de tráfego (orgânico puro) ou com Turbin
 
 - Sem Turbinar: cliente depende 100% do orgânico. Volume de peças/semana sobe. Tempo até primeiro lead qualificado: 4-8 semanas.
 - Com Turbinar (R$500-2000/mês): volume de peças/semana cai um pouco. Tempo até primeiro lead qualificado: 1-3 semanas.
-- Com Turbinar (R$3000+/mês): volume orgânico pode ser menor mas Turbinar precisa de peça-mãe validada — não escalar peça que ainda não provou ROI orgânico.
+- Com Turbinar (R$3000+/mês): volume orgânico pode ser menor mas Turbinar precisa de peça-mãe validada, não escalar peça que ainda não provou ROI orgânico.
 
 ### Anti-padrões a cortar
 
@@ -191,13 +191,13 @@ Esses 4 dados alimentam o cálculo do funil reverso (`calculo-do-caixa-ao-conteu
 
 Skill identifica e avisa cliente em 3 casos:
 
-### Caso 1 — Meta vs horas inviável
+### Caso 1, Meta vs horas inviável
 > *"Você quer R$80k/mês em 6 meses com 4h/semana. Soft não cobre. Opções: subir horas pra mínimo 12h/semana, OU configurar IA Vertical desde M1, OU recalibrar meta pra R$30k em 6 meses."*
 
-### Caso 2 — Meta vs investimento inviável
-> *"Você quer 5x em 6 meses só com orgânico, ticket R$500. Volume de peças necessário é 25/semana — insustentável solo. Opções: subir ticket pra R$2.000+, OU adicionar Turbinar mínimo R$2k/mês, OU recalibrar meta pra 3x."*
+### Caso 2, Meta vs investimento inviável
+> *"Você quer 5x em 6 meses só com orgânico, ticket R$500. Volume de peças necessário é 25/semana, insustentável solo. Opções: subir ticket pra R$2.000+, OU adicionar Turbinar mínimo R$2k/mês, OU recalibrar meta pra 3x."*
 
-### Caso 3 — Posicionamento ausente
+### Caso 3, Posicionamento ausente
 Se cliente responde mas não tem Posicionamento Incomum cumprido (Fase 1 do coach):
 > *"Plano de Guerra precisa de Posicionamento cravado. Sem ele, conteúdo vira ruído mesmo no volume certo. Roda Fase 1 antes (skill `soft-posicionamento`) e volta com Posicionamento pronto."*
 

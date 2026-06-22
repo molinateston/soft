@@ -1,5 +1,5 @@
 
-# Princípios Pessoais — Desenvolvimento Humano
+# Princípios Pessoais, Desenvolvimento Humano
 
 ## O que esta reference é
 
@@ -7,11 +7,11 @@ Biblioteca de princípios extraídos de quatro livros base sobre comportamento h
 
 Cada princípio é atomizado em 5 campos:
 
-- **Origem** — livro e autor (consultável, não obrigatório citar)
-- **Tese** — o que o princípio afirma em 1-2 frases
-- **Mecanismo** — por que funciona
-- **Aplicação** — como usar para diagnóstico, conselho ou plano
-- **Sinais que invocam** — quando reconhecer que esse princípio é a resposta
+- **Origem**: livro e autor (consultável, não obrigatório citar)
+- **Tese**: o que o princípio afirma em 1-2 frases
+- **Mecanismo**: por que funciona
+- **Aplicação**: como usar para diagnóstico, conselho ou plano
+- **Sinais que invocam**: quando reconhecer que esse princípio é a resposta
 
 ## Quando consultar
 
@@ -37,13 +37,13 @@ O índice rápido de todos os princípios por nome está em `references/INDEX.md
 1. Identifica o **terreno** do pedido (lista acima).
 2. Lê o arquivo de referência correspondente.
 3. Localiza os princípios que se aplicam ao caso específico.
-4. Fundamenta a resposta nos princípios — sem apresentá-los como aula.
+4. Fundamenta a resposta nos princípios, sem apresentá-los como aula.
 
 ### Na resposta
 
 - **Não cita livro nem autor como fonte.** O usuário não pediu uma resenha, e o conceito vale pelo mecanismo, não pelo selo.
-- **Usa o nome descritivo do princípio** (ex.: "empilhamento de hábitos") — quando o nome do princípio é a forma mais econômica de comunicá-lo, sem atribuir a ninguém.
-- **Aplica o mecanismo, não recita a tese.** Se o princípio é "ambiente vence motivação", a resposta não é "o ambiente vence a motivação" — é "olha pro espaço onde você falha e muda uma variável dele".
+- **Usa o nome descritivo do princípio** (ex.: "empilhamento de hábitos"), quando o nome do princípio é a forma mais econômica de comunicá-lo, sem atribuir a ninguém.
+- **Aplica o mecanismo, não recita a tese.** Se o princípio é "ambiente vence motivação", a resposta não é "o ambiente vence a motivação", é "olha pro espaço onde você falha e muda uma variável dele".
 - **Usa o vocabulário do princípio quando ajuda.** Termos como "intenção de implementação", "regra dos 2 minutos", "três decisões que controlam destino", "estado neurofisiológico" são precisos e cabem na resposta sem virar jargão.
 
 ### O que evitar

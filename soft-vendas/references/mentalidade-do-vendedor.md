@@ -157,7 +157,7 @@ Se resposta é "nada, o lead não tinha perfil" → skill devolve: *"Por que voc
 
 A linguagem carrega a autoridade, ou destrói. Quem diagnostica fala como quem sabe, não como quem chuta:
 - **"Eu recomendo" no lugar de "eu acho".** Recomendar é de quem domina o assunto; achar é palpite. Mesmo conteúdo, peso oposto.
-- **Abre a call respeitando o tempo dos dois:** *"Em respeito ao seu tempo e ao meu, posso ir direto ao ponto?"* — corta o small talk arrastado sem ser seco e já põe a conversa no eixo de quem conduz.
+- **Abre a call respeitando o tempo dos dois:** *"Em respeito ao seu tempo e ao meu, posso ir direto ao ponto?"*, corta o small talk arrastado sem ser seco e já põe a conversa no eixo de quem conduz.
 
 **A régua que separa Soft de empurrão:** autoridade **não é dominância**. Você recomenda com firmeza, conduz por pergunta, e ainda assim ouve e pode dizer (ou ouvir) não. "Estar no controle da venda", "não deixar o lead conduzir" é pressão disfarçada de postura, e isso o método não faz. Firmeza clínica, nunca domínio.
 

@@ -224,3 +224,7 @@ Antes de gerar, a skill internamente confere:
 5. ✓ Frame de escala especificado (se Comando 2 = 300)? Se não → pergunta ASSUNTO ou ESTRUTURA
 
 Se algum dos 5 falha, pergunta SÓ o que falta, em 1 mensagem curta.
+
+---
+
+> **Os critérios aqui NÃO substituem o Crivo.** Comando rápido entrega rápido, mas toda peça passa pelo gate bloqueante (`shared-references/crivo/03-gate-cub.md`) antes de sair. A auditoria dos comandos é o filtro de geração; o Crivo é o gate de saída. Sem passar no Crivo, a peça não foi entregue.

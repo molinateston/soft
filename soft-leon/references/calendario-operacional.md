@@ -23,7 +23,7 @@ Com calendário definido, cliente opera por sistema. Receita estabiliza.
 
 ## Os 3 modelos básicos
 
-### Modelo 1 — Sempre Aberto (permanente)
+### Modelo 1, Sempre Aberto (permanente)
 Oferta disponível pra compra a qualquer momento.
 
 Funciona pra:
@@ -41,7 +41,7 @@ Desvantagens:
 - Conversão pode ser mais baixa por venda
 - Operação contínua de venda
 
-### Modelo 2 — Janelas Recorrentes
+### Modelo 2, Janelas Recorrentes
 Oferta abre periodicamente (ex: 1ª semana do mês, ou trimestralmente).
 
 Funciona pra:
@@ -60,7 +60,7 @@ Desvantagens:
 - Exige planejamento antecipado
 - Quem perde a janela espera ou desiste
 
-### Modelo 3 — Sob Convite
+### Modelo 3, Sob Convite
 Oferta não tem porta pública aberta. Cliente é convidado individualmente.
 
 Funciona pra:
@@ -82,24 +82,24 @@ Desvantagens:
 
 ## Como combinar pra esteira mínima
 
-### Caso A — 1 oferta principal só (Modelo 1)
+### Caso A, 1 oferta principal só (Modelo 1)
 **Sempre aberto**, com mensagens diretas via WhatsApp ou agendamento.
 
 Exemplo: mentoria 1:1 R$5.000. Cliente fecha quando aparece. Sem janela.
 
-### Caso B — 1 oferta principal só (Modelo 2)
+### Caso B, 1 oferta principal só (Modelo 2)
 **Janelas trimestrais**, turmas com início definido.
 
 Exemplo: implementação grupo R$4.500. Turma a cada 3 meses, com 8-12 alunos.
 
-### Caso C — 1 entrada + 1 principal (combinação)
+### Caso C, 1 entrada + 1 principal (combinação)
 **Entrada sempre aberta** (Modelo 1) + **principal por janela** (Modelo 2).
 
 Exemplo:
 - Workshop R$700: sempre aberto, faz quando enche grupo (mínimo 8 pessoas)
 - Implementação R$4.500: janela trimestral, turma de 10 alunos
 
-### Caso D — 1 entrada + 1 principal premium (combinação alternativa)
+### Caso D, 1 entrada + 1 principal premium (combinação alternativa)
 **Entrada por janela** (Modelo 2) + **principal sob convite** (Modelo 3).
 
 Exemplo:
@@ -110,11 +110,11 @@ Exemplo:
 
 ## A frequência ideal por modelo
 
-### Modelo 1 — Sempre aberto
+### Modelo 1, Sempre aberto
 Frequência: contínua.
 Operação de venda: 3-5h/semana (responder leads, follow-up).
 
-### Modelo 2 — Janelas recorrentes
+### Modelo 2, Janelas recorrentes
 Frequência típica:
 - Mensal: oferta de entrada (workshop, programa curto)
 - Trimestral: oferta principal (implementação 12 semanas)
@@ -123,7 +123,7 @@ Frequência típica:
 
 Operação de venda: concentrada em 2-3 semanas antes da abertura + janela aberta.
 
-### Modelo 3 — Sob convite
+### Modelo 3, Sob convite
 Frequência: sem agenda fixa. Convida quando vê fit + tem espaço.
 Operação: zero venda pública. Toda a operação é em conversa privada.
 
@@ -134,18 +134,18 @@ Operação: zero venda pública. Toda a operação é em conversa privada.
 Pra 12 meses, um exemplo realista:
 
 ```
-JAN — Foco: planejamento anual, conteúdo de tese
-FEV — Janela 1 do principal (turma 1)
-MAR — Atendimento turma 1 + venda da próxima entrada
-ABR — Workshop entrada R$800 (1 evento)
-MAI — Janela 2 do principal (turma 2)
-JUN — Atendimento turma 2
-JUL — Pausa estratégica (descanso + planejamento)
-AGO — Janela 3 do principal (turma 3)
-SET — Atendimento turma 3 + workshop entrada
-OUT — Workshop entrada R$800
-NOV — Janela 4 do principal (turma 4)
-DEZ — Atendimento turma 4 + descanso de fim de ano
+JAN - Foco: planejamento anual, conteúdo de tese
+FEV - Janela 1 do principal (turma 1)
+MAR - Atendimento turma 1 + venda da próxima entrada
+ABR - Workshop entrada R$800 (1 evento)
+MAI - Janela 2 do principal (turma 2)
+JUN - Atendimento turma 2
+JUL - Pausa estratégica (descanso + planejamento)
+AGO - Janela 3 do principal (turma 3)
+SET - Atendimento turma 3 + workshop entrada
+OUT - Workshop entrada R$800
+NOV - Janela 4 do principal (turma 4)
+DEZ - Atendimento turma 4 + descanso de fim de ano
 ```
 
 4 janelas anuais do principal + 2-3 workshops + pausa em julho.
@@ -156,7 +156,7 @@ Esse é exemplo. Cliente calibra conforme meta e cabimento.
 
 ## A regra da pausa
 
-Cliente Soft precisa de **pelo menos 4 semanas/ano de pausa estratégica** (não férias — pausa).
+Cliente Soft precisa de **pelo menos 4 semanas/ano de pausa estratégica** (não férias, pausa).
 
 Pausa significa:
 - Não vender nada novo
@@ -175,7 +175,7 @@ Cliente que opera 52 semanas/ano sem pausa estratégica decai em 18 meses.
 
 ## A regra do "1 lançamento por trimestre, no máximo"
 
-Lançamento (campanha intensiva de venda) é evento — não estado.
+Lançamento (campanha intensiva de venda) é evento, não estado.
 
 Frequência saudável: **1 lançamento por trimestre, máximo**.
 
@@ -211,7 +211,7 @@ Antes de definir calendário, perguntar:
 
 Se 4 janelas/ano consomem 16 semanas (4×4) de venda concentrada, sobra 36 semanas pra atendimento + produção + descanso.
 
-Se 6 janelas/ano consomem 24 semanas, sobra 28 — apertado.
+Se 6 janelas/ano consomem 24 semanas, sobra 28, apertado.
 
 Se 12 janelas/ano (1 por mês) consomem 48 semanas, cliente está em lançamento constante. Não cabe.
 

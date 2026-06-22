@@ -1,4 +1,4 @@
-# Fase 2 — 1MM a 10MM
+# Fase 2, 1MM a 10MM
 
 > **Quando consultar:** cliente faturando entre R$80k-R$830k/mês (≈R$1MM-R$10MM/ano), montando primeira equipe formal, instalando processos, definindo cultura. **Prioridade 2 da skill.**
 
@@ -9,10 +9,10 @@
 - O que define essa fase
 - A pergunta central da Fase 2
 - Os 4 pilares da Fase 2
-- Pilar 1 — O conceito do ouriço
-- Pilar 2 — Time (primeiros líderes)
-- Pilar 3 — Rituais
-- Pilar 4 — Compensação (PPR + Vesting)
+- Pilar 1, O conceito do ouriço
+- Pilar 2, Time (primeiros líderes)
+- Pilar 3, Rituais
+- Pilar 4, Compensação (PPR + Vesting)
 - Estrutura financeira da Fase 2
 - Erros comuns da Fase 2
 - Output desejado ao final da Fase 2
@@ -43,7 +43,7 @@ A fase termina quando:
 > **"O CEO consegue tirar 2 semanas de férias e a empresa continua entregando + vendendo?"**
 
 Se sim → Fase 2 vencida.
-Se não → CEO ainda é o motor único — empresa não é durável.
+Se não → CEO ainda é o motor único, empresa não é durável.
 
 **Princípio:** Fase 2 é onde **fundador vira CEO**. Antes, era operador-fundador. Agora precisa virar **construtor de sistema**. Quem não faz essa transição estagna em ~R$5MM e nunca passa.
 
@@ -52,16 +52,16 @@ Se não → CEO ainda é o motor único — empresa não é durável.
 ## Os 4 pilares da Fase 2
 
 ```
-PILAR 1 — O OURIÇO (foco estratégico)
+PILAR 1 - O OURIÇO (foco estratégico)
    Quem é o cliente, o que entrega, como ganha dinheiro
 
-PILAR 2 — TIME (primeiros líderes contratados)
+PILAR 2 - TIME (primeiros líderes contratados)
    Saída do "todos reportam ao CEO" pra "líderes intermediários"
 
-PILAR 3 — RITUAIS (1:1 + staff + ops review)
+PILAR 3 - RITUAIS (1:1 + staff + ops review)
    Cadência de gestão instalada
 
-PILAR 4 — COMPENSAÇÃO (PPR + bônus + primeiros vesting)
+PILAR 4 - COMPENSAÇÃO (PPR + bônus + primeiros vesting)
    Skin in the game pros key players
 ```
 
@@ -69,11 +69,11 @@ Cada pilar tem doutrina específica abaixo.
 
 ---
 
-## Pilar 1 — O conceito do ouriço
+## Pilar 1, O conceito do ouriço
 
 ### O conceito raiz
 
-> "Empresas excelentes ficam **maníacas** sobre uma coisa simples — uma intersecção que só elas ocupam — e ignoram tudo que não cabe nessa interseção."
+> "Empresas excelentes ficam **maníacas** sobre uma coisa simples, uma intersecção que só elas ocupam, e ignoram tudo que não cabe nessa interseção."
 
 Os 3 círculos:
 
@@ -112,15 +112,15 @@ Na Fase 1, validar = qualquer cliente pagante serve. Na Fase 2, **escolher clien
 
 **Passo 1: cada círculo separadamente.**
 
-**Círculo 1 — Paixão.** O que você faria mesmo sem dinheiro?
+**Círculo 1, Paixão.** O que você faria mesmo sem dinheiro?
 - Pergunta diagnóstica: "se não precisasse de receita, ainda faria isso?"
 - Atenção: paixão por **mercado/atividade**, não por título de CEO
 
-**Círculo 2 — O que você pode ser o melhor.** Onde sua expertise é desproporcionalmente forte?
-- Não "o melhor do Brasil" no início — pode ser "o melhor pra cliente X de nicho Y"
+**Círculo 2, O que você pode ser o melhor.** Onde sua expertise é desproporcionalmente forte?
+- Não "o melhor do Brasil" no início, pode ser "o melhor pra cliente X de nicho Y"
 - Diferencia de "bom" (qualquer um pode replicar) e "melhor" (só você + 1-2 concorrentes)
 
-**Círculo 3 — Motor econômico.** Qual unidade econômica gera mais lucro?
+**Círculo 3, Motor econômico.** Qual unidade econômica gera mais lucro?
 - Pergunta original do conceito: "qual é o lucro por X" (X = cliente, transação, hora, território...)
 - Identifica o "X" que escala lucro de forma desproporcional
 
@@ -132,7 +132,7 @@ Se interseção for vazia → empresa vai sofrer.
 Se interseção for genérica ("ajudar empresários") → empresa vai sofrer (genérico não escala).
 Se interseção for específica ("metodologia Y aplicada a clientes Z gerando ROI W") → tem ouriço.
 
-### Exemplo aplicado — Soft Business (Léo)
+### Exemplo aplicado, Soft Business (Léo)
 
 | Círculo | Resposta |
 |---------|----------|
@@ -156,7 +156,7 @@ Se não geram → Fase 2 emperra. Reposiciona antes de escalar time.
 
 ---
 
-## Pilar 2 — Time (primeiros líderes)
+## Pilar 2, Time (primeiros líderes)
 
 ### A doutrina da gente A combinada com a alavancagem
 
@@ -217,7 +217,7 @@ Se não geram → Fase 2 emperra. Reposiciona antes de escalar time.
 6. Negocia compensação
    - Salário fixo competitivo (não 30% abaixo do mercado)
    - PPR atrelado a KPIs
-   - Stock options com vesting (se relevante — ver Pilar 4)
+   - Stock options com vesting (se relevante - ver Pilar 4)
 ```
 
 ### Período de prova / 90 dias críticos
@@ -228,7 +228,7 @@ Primeiros 90 dias:
 - Semana 7-12: assume função plena
 - **Avaliação 90 dias:** continua, ajusta ou sai
 
-> 30-40% das primeiras contratações de Head **não dão certo**. Não é fracasso pessoal — é fricção comum. Demitir cedo é melhor que carregar lateral por 6 meses.
+> 30-40% das primeiras contratações de Head **não dão certo**. Não é fracasso pessoal, é fricção comum. Demitir cedo é melhor que carregar lateral por 6 meses.
 
 ### Task-relevant maturity
 
@@ -246,17 +246,17 @@ O princípio: **estilo de gestão muda conforme maturidade do subordinado na tar
 
 ---
 
-## Pilar 3 — Rituais
+## Pilar 3, Rituais
 
 ### Os 3 rituais base
 
 ```
-1. 1:1 SEMANAL — CEO com cada direto, 60 min
-2. STAFF MEETING SEMANAL — CEO + diretos, 60-90 min
-3. OPS REVIEW MENSAL — toda empresa, 90-120 min
+1. 1:1 SEMANAL - CEO com cada direto, 60 min
+2. STAFF MEETING SEMANAL - CEO + diretos, 60-90 min
+3. OPS REVIEW MENSAL - toda empresa, 90-120 min
 ```
 
-### Ritual 1 — 1:1 semanal
+### Ritual 1, 1:1 semanal
 
 **Princípio raiz:**
 > "1:1 é a ferramenta de mais alta alavancagem disponível pro gerente."
@@ -265,7 +265,7 @@ O princípio: **estilo de gestão muda conforme maturidade do subordinado na tar
 
 ```
 DURAÇÃO: 60 min
-FREQUÊNCIA: semanal (não quinzenal — cai a temperatura)
+FREQUÊNCIA: semanal (não quinzenal - cai a temperatura)
 QUEM CONDUZ: o subordinado (ele traz a pauta)
 QUEM ANOTA: ambos
 LOCAL: sala fechada / chamada de vídeo, sem celular
@@ -282,15 +282,15 @@ LOCAL: sala fechada / chamada de vídeo, sem celular
 | Feedback bidirecional | 5 min | Você pra ele + ele pra você |
 | Próximos passos | 5 min | O que cada um faz até a próxima |
 
-**Princípio:** 1:1 não é "report do que fez" — é **resolver bloqueios + alinhar prioridade**. Quem só faz report, faz reunião errada.
+**Princípio:** 1:1 não é "report do que fez", é **resolver bloqueios + alinhar prioridade**. Quem só faz report, faz reunião errada.
 
 **Erros comuns:**
-- ❌ CEO cancela 1:1 quando "tá corrido" (manda mensagem oposta — diz que outras coisas importam mais)
+- ❌ CEO cancela 1:1 quando "tá corrido" (manda mensagem oposta, diz que outras coisas importam mais)
 - ❌ CEO conduz a pauta (deveria ser o subordinado)
 - ❌ Sem anotações (esquece o combinado, repete conversa)
 - ❌ Mistura 1:1 com reunião de status (perde a função única)
 
-### Ritual 2 — Staff meeting semanal
+### Ritual 2, Staff meeting semanal
 
 **Quem participa:** CEO + diretos (3-7 pessoas).
 
@@ -315,7 +315,7 @@ PAUTA: enviada antes da reunião
 
 **Princípio:** staff meeting é **decisão**, não atualização. Se só tem update, todo mundo perde 90 min. Coloca decisão real ou cancela.
 
-### Ritual 3 — Ops review mensal
+### Ritual 3, Ops review mensal
 
 **Quem participa:** time inteiro (ou liderança ampliada se >25 pessoas).
 
@@ -341,7 +341,7 @@ PAUTA: dashboard fechado da empresa
 
 ---
 
-## Pilar 4 — Compensação (PPR + Vesting)
+## Pilar 4, Compensação (PPR + Vesting)
 
 ### A doutrina da meritocracia dura
 
@@ -381,10 +381,10 @@ Bottom performer pode ganhar pouco ou nada
 
 **Passo 4: comunica claramente.**
 - Funcionário precisa saber: "se eu performar A, ganho até X. Se performar C, posso ganhar 0."
-- Sem opacidade. PPR opaco vira política — gera ressentimento.
+- Sem opacidade. PPR opaco vira política, gera ressentimento.
 
 **Passo 5: paga em ciclos definidos.**
-- Anual ou semestral (não mensal — perde efeito de incentivo de longo prazo)
+- Anual ou semestral (não mensal, perde efeito de incentivo de longo prazo)
 
 ### Vesting de stock options / quotas
 
@@ -396,7 +396,7 @@ Quando faturamento estabiliza acima de R$5MM e empresa tem clareza de longo praz
 
 ```
 Ano 0: oferece 1-3% de stock options pro funcionário
-Ano 1: cliff — antes disso, NADA é exercido. Saiu antes? Perdeu tudo.
+Ano 1: cliff - antes disso, NADA é exercido. Saiu antes? Perdeu tudo.
 Ano 2: 25% das options viram exercíveis (cumulativo)
 Ano 3: 50% exercíveis
 Ano 4: 100% exercíveis
@@ -413,7 +413,7 @@ Ano 4: 100% exercíveis
 - 1-2 funcionários excepcionais que viraram chave operacional
 
 **Quem NÃO recebe:**
-- Funcionário comum (tem CLT + PPR — suficiente nessa fase)
+- Funcionário comum (tem CLT + PPR, suficiente nessa fase)
 - Funcionário <12 meses de casa
 - Função operacional sem autonomia decisória
 
@@ -448,7 +448,7 @@ Ano 4: 100% exercíveis
 **5. Reservas estratégicas.**
 - Reserva tática: 3-6 meses de operação líquida (cobre crise de curto prazo)
 - Reserva oportunidade: caixa pra contratação ou aquisição não planejada
-- Reservas separadas em conta segregada — não misturadas com operacional
+- Reservas separadas em conta segregada, não misturadas com operacional
 
 ### Decisão de captação (sim ou não)
 
@@ -472,7 +472,7 @@ Na Fase 2, captação **fica realmente disponível pela primeira vez**.
 | **Seed VC** | Fundo de seed (R$500k-3MM) | Espera 10-30x retorno, busca crescimento agressivo |
 | **Family Office** | Grupo familiar | Paciência maior, retorno menor mas estável |
 | **Bootstrapping** | Receita reinvestida | Sem dilutição, crescimento mais lento |
-| **Dívida** | Banco ou peer-to-peer | Não dilui, mas paga juros — só faz sentido com receita previsível |
+| **Dívida** | Banco ou peer-to-peer | Não dilui, mas paga juros, só faz sentido com receita previsível |
 
 **Princípio Soft Business:** **bootstrapping até onde aguenta.** Captação dilui controle e cria expectativa de crescimento agressivo. Dilui só quando há tese clara que justifica.
 
@@ -512,22 +512,22 @@ Cliente sai com:
 
 ## Plano de 12 meses (esqueleto Fase 2)
 
-### Trimestre 1 — Ouriço + primeiro Head
+### Trimestre 1, Ouriço + primeiro Head
 - Mês 1: documenta o ouriço
 - Mês 2: define função do primeiro Head (vendas ou entrega)
 - Mês 3: contrata e onboarding
 
-### Trimestre 2 — Rituais + segundo Head
+### Trimestre 2, Rituais + segundo Head
 - Mês 4: instala 1:1 + staff (mês 1 sempre tá ruim)
 - Mês 5: ajusta rituais conforme feedback
 - Mês 6: contrata segundo Head
 
-### Trimestre 3 — PPR + ops review
+### Trimestre 3, PPR + ops review
 - Mês 7: define pool PPR + critério
 - Mês 8: comunica PPR + roda primeiro ciclo
 - Mês 9: instala ops review mensal
 
-### Trimestre 4 — Vesting + decisão Fase 3
+### Trimestre 4, Vesting + decisão Fase 3
 - Mês 10: estrutura vesting pros 3-5 key
 - Mês 11: avalia métricas anuais
 - Mês 12: decide: estagnar saudavelmente em R$10MM ou ir pra Fase 3
@@ -537,7 +537,7 @@ Cliente sai com:
 ## Notas operacionais
 
 - **Skill alerta sobre o "vale da Fase 2".** Maioria das empresas chega em R$3-5MM e estagna. Razão: CEO continua sendo motor único, não promove gerente, não instala rituais, não estrutura compensação. Empresa cresce até o limite do CEO e para.
-- **Cultura é prática, não slogan.** Skill nunca pergunta "qual é o valor da empresa?" — pergunta "o que acontece quando alguém erra?". Resposta = cultura real.
-- **Para cliente do Léo (especialista escalando):** Fase 2 frequentemente é onde **vende-se a ilusão de "manter solo + ter time".** Não rola — ou é solo (Fase 1) ou é empresa (Fase 2+). Skill aponta isso brutalmente.
-- **Para Léo escalando Soft Business:** Fase 2 do Soft Business começa quando ele contrata 1º Head (provavelmente Head de Vendas ou Head de Conteúdo) — ou seja, ainda não está nessa fase.
+- **Cultura é prática, não slogan.** Skill nunca pergunta "qual é o valor da empresa?", pergunta "o que acontece quando alguém erra?". Resposta = cultura real.
+- **Para cliente do Léo (especialista escalando):** Fase 2 frequentemente é onde **vende-se a ilusão de "manter solo + ter time".** Não rola, ou é solo (Fase 1) ou é empresa (Fase 2+). Skill aponta isso brutalmente.
+- **Para Léo escalando Soft Business:** Fase 2 do Soft Business começa quando ele contrata 1º Head (provavelmente Head de Vendas ou Head de Conteúdo), ou seja, ainda não está nessa fase.
 - **Captação não é troféu.** Empresa que capta sem precisar dilui propriedade pra "sentir validada". Skill desaconselha captação por motivo emocional.

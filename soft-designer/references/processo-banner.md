@@ -32,27 +32,27 @@ Banner não é carrossel comprimido. É UMA mensagem. A regra é subtração:
 
 ## A lei do render (igual carrossel)
 
-A copy-visual passa pelo gate ANTES de desenhar. Depois de aprovada, o render não muda palavra; se o layout exigir mexer, re-passa a ancoragem e a headline do gate antes de exportar. Sem prova real no perfil, o número sai como placeholder marcado, nunca inventado.
+A copy-visual passa pelo gate ANTES de desenhar. Roda `python3 scripts/lint_copy.py` na copy-visual (ele reprova em-dash e o verbo banido da anti-voz Soft, ver `shared-references/filtro-anti-ia/padroes-banidos.md`, falha dura re-roda). Depois de aprovada, o render não muda palavra; se o layout exigir mexer, re-passa a ancoragem e a headline do gate antes de exportar. Sem prova real no perfil, o número sai como placeholder marcado, nunca inventado.
 
-**Gate de craft em código (enforcement, não confiança):** envolva todo texto com `nw()` de `scripts/craft.py` (anti-órfã) e rode `python3 scripts/craft.py audit <arquivo>.html` antes de exportar — ele reprova em código o "branco no branco" (contraste por luminância WCAG) e sinaliza órfã. O `export_pngs.py` já chama esse gate sozinho e **recusa exportar** peça com falha dura. É o que garante que os checks 14 e 10 da `auditoria-pre-preview.md` aconteçam sempre, não só quando o agente lembra.
+**Gate de craft em código (enforcement, não confiança):** envolva todo texto com `nw()` de `scripts/craft.py` (anti-órfã) e rode `python3 scripts/craft.py audit <arquivo>.html` antes de exportar, ele reprova em código o "branco no branco" (contraste por luminância WCAG) e sinaliza órfã. O `export_pngs.py` já chama esse gate sozinho e **recusa exportar** peça com falha dura. É o que garante que os checks 14 e 10 da `auditoria-pre-preview.md` aconteçam sempre, não só quando o agente lembra.
 
 ## Os modelos de banner (a mesma anatomia, em formatos diferentes)
 
 Banner não é UM layout, é uma **biblioteca de modelos**. A anatomia (hook + apoio + CTA) é a mesma; o que muda é a FORMA, escolhida pela angulação e pelo nível de consciência. Não repita sempre o mesmo molde, o feed cansa. Modelos que funcionam:
 
-- **Herói + bullets** — promessa grande + 3 bullets de prova/benefício. Oferta/manifesto direto.
-- **Comparação** — 2 colunas (o jeito velho × o novo); o leitor faz a conta sozinho.
-- **Texto puro / quebra de crença** — só a tese gigante por negação ("não é X, nem Y, é Z"), fundo chapado, zero imagem.
-- **Nota / comunicado** — fundo claro sóbrio, cara de comunicado oficial; anti-tell que fura a guarda de quem ignora anúncio. Título "NOTA..." em destaque, CTA discreto em frase.
-- **"Você nunca vai X se:"** — a consequência + a lista das condições erradas que prendem (marcadas com ✕).
-- **Diagrama** — desenha o mecanismo: funil, fluxo de etapas, equação ("A + B = resultado"), comparação visual (espalhado × na ordem), ciclo, termômetro (frio→quente), mapa (errado × certo).
-- **Prova / número gigante** — o dado real domina a arte (só com lastro do banco de provas; nunca inventado).
-- **Isca + mockup** — pergunta-dor no topo + mostra o entregável (mockup do produto/aula) + "pega/assiste agora".
-- **Meme contraintuitivo** — nega uma verdade sagrada, estética crua/nativa, número contraditório.
-- **Auto-qualificação** — "se você é X e sente Y..." filtra o público logo no topo (repele o curioso).
-- **Caixinha / nativo** — imita print orgânico (caixinha de pergunta, screenshot, notificação); fura a cegueira de banner por não parecer anúncio.
-- **Checklist / diagnóstico** — caixinhas que o leitor mentalmente marca e se auto-diagnostica.
-- **Imperativo** — comando direto ("Pare de X") + o que fazer no lugar.
+- **Herói + bullets** - promessa grande + 3 bullets de prova/benefício. Oferta/manifesto direto.
+- **Comparação** - 2 colunas (o jeito velho × o novo); o leitor faz a conta sozinho.
+- **Texto puro / quebra de crença** - só a tese gigante por negação ("não é X, nem Y, é Z"), fundo chapado, zero imagem.
+- **Nota / comunicado** - fundo claro sóbrio, cara de comunicado oficial; anti-tell que fura a guarda de quem ignora anúncio. Título "NOTA..." em destaque, CTA discreto em frase.
+- **"Você nunca vai X se:"** - a consequência + a lista das condições erradas que prendem (marcadas com ✕).
+- **Diagrama** - desenha o mecanismo: funil, fluxo de etapas, equação ("A + B = resultado"), comparação visual (espalhado × na ordem), ciclo, termômetro (frio→quente), mapa (errado × certo).
+- **Prova / número gigante** - o dado real domina a arte (só com lastro do banco de provas; nunca inventado).
+- **Isca + mockup** - pergunta-dor no topo + mostra o entregável (mockup do produto/aula) + "pega/assiste agora".
+- **Meme contraintuitivo** - nega uma verdade sagrada, estética crua/nativa, número contraditório.
+- **Auto-qualificação** - "se você é X e sente Y..." filtra o público logo no topo (repele o curioso).
+- **Caixinha / nativo** - imita print orgânico (caixinha de pergunta, screenshot, notificação); fura a cegueira de banner por não parecer anúncio.
+- **Checklist / diagnóstico** - caixinhas que o leitor mentalmente marca e se auto-diagnostica.
+- **Imperativo** - comando direto ("Pare de X") + o que fazer no lugar.
 
 **Como escolher:** pela consciência e ângulo. Dor/problema → nota, checklist, "você nunca vai", caixinha. Solução/mecanismo → diagrama, comparação, equação, isca. Prova → número gigante, meme. Teste vários modelos pra a mesma tese; o tráfego diz qual vence.
 

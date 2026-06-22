@@ -97,7 +97,7 @@ Pra onde ela está levando o leitor. Não promessa de produto. Mundo desejado. O
 - Aconteceu Y (fato concreto)
 - Hoje acredito em Z (oposto ou refinamento de X)
 
-### Exemplo (genérico — destile o do cliente à frente)
+### Exemplo (genérico - destile o do cliente à frente)
 > "Por 6 anos eu defendi que clínica de fisioterapia só performa com sala cheia de estagiário rodando paciente em série. Na última que toquei, eram 12 macas em fila. Faturava bem e eu mal olhava no olho de quem atendia. Hoje atendo menos gente, cobro o dobro, e o resultado clínico subiu. Volume nunca foi a solução. Era o problema."
 
 ### Sinais de conversão mal contada
@@ -139,7 +139,7 @@ O inimigo cria a fricção que faz o leitor escolher lado. E quem escolhe lado, 
 - O que rouba do cliente
 - Postura clara contra
 
-### Exemplo (genérico — destile o do cliente à frente)
+### Exemplo (genérico - destile o do cliente à frente)
 > "Eu sou contra o modelo de 'protocolo fechado' pra dor crônica. Quem vende o mesmo pacote de 10 sessões pra todo mundo, sem investigar a causa, é parasita. O paciente faz, melhora por duas semanas, a dor volta, e ele perde a fé em fisioterapia. Eu construo o oposto: avaliação que acha a origem, sem pacote infinito. O paciente entende o corpo dele, faz em casa, e não vira refém da maca."
 
 ### Sinais de inimigo mal escolhido
@@ -226,7 +226,7 @@ Com destino, o leitor vê o trabalho como caminho, não como produto.
 - Quem se beneficia desse estado
 - Como o trabalho de hoje contribui pra esse estado
 
-### Exemplo (genérico — destile o do cliente à frente)
+### Exemplo (genérico - destile o do cliente à frente)
 > "Quero ver um mercado onde o especialista não precisa virar refém de equipe, de operação inchada, ou de produção diária de conteúdo, pra ter caixa previsível. Quero que o psicólogo do esporte de Curitiba, a fisioterapeuta de Maceió, o consultor de pequenas empresas de Porto Alegre operem como negócios sólidos sem deixarem de ser quem são. Cada cliente Soft é uma prova de que isso é possível. E cada cliente Soft é convite pra outro especialista acreditar que pode também."
 
 ### Sinais de visão fraca
@@ -262,7 +262,7 @@ Essa frase é a "identidade narrativa" da pessoa. Aparece em bio, em apresentaç
 ### Estrutura da frase-resumo
 "Sou [profissão funcional]. Trabalho com [público]. Acredito que [crença central]. Construo [trabalho concreto] pra [visão simplificada]."
 
-### Exemplo (genérico — destile o do cliente à frente)
+### Exemplo (genérico - destile o do cliente à frente)
 > "Sou psicólogo do esporte, trabalho com atleta de base. Acredito que cabeça treinada bate talento solto. Construo o preparo mental de quem joga bem no treino e some no jogo grande."
 
 ---
@@ -281,3 +281,9 @@ Antes de fechar o trabalho:
 8. [ ] Não tem cosplay de creator famoso em nenhum bloco?
 
 Se falhar item, refaz.
+
+---
+
+## Gate antes de virar público (bloqueante)
+
+O autochecklist acima é a auto-revisão da peça. Ele não substitui o Crivo. A Voz vira o tom de TODA copy que sai depois (perfil, conteúdo, carta, script), então a Narrativa pessoal passa pelo **Gate do Crivo do Plano** (`conducao-na-pratica.md`, "Gate de saída do Plano, o Crivo") antes de alimentar qualquer peça pública: ancoragem no verbatim da super-pesquisa (`shared-references/crivo/01-entrada-verbatim.md`), as 3 perguntas do Harry (`crivo/03-gate-cub.md`), e o anti-IA (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`). Veredito binário: uma falha reprova e re-roda. Sem passar no Crivo, a Narrativa não vira público.

@@ -1,4 +1,4 @@
-# Meta Realista — A Conta
+# Meta Realista, A Conta
 
 O núcleo da Fase 5.
 
@@ -18,7 +18,7 @@ A skill força esse cálculo antes de aceitar qualquer rotina.
 
 ## A conta em 4 etapas
 
-### Etapa 1 — Faturamento mensal desejado
+### Etapa 1, Faturamento mensal desejado
 
 Pergunta direta:
 
@@ -26,7 +26,7 @@ Pergunta direta:
 
 Captura número específico. Sem arredondamento decorativo. R$47.500 é mais útil que "uns R$50k".
 
-### Etapa 2 — Ticket médio
+### Etapa 2, Ticket médio
 
 Pergunta:
 
@@ -37,7 +37,7 @@ Se tiver mais de uma oferta, separar:
 - Ticket principal: R$Y
 - Ticket premium: R$Z (se houver)
 
-### Etapa 3 — Volume necessário
+### Etapa 3, Volume necessário
 
 A conta:
 
@@ -58,7 +58,7 @@ Exemplos:
 
 Os 3 casos têm o mesmo "objetivo financeiro" relativo (2-3x receita atual). Mas exigem operações totalmente diferentes.
 
-### Etapa 4 — Horas exigidas
+### Etapa 4, Horas exigidas
 
 A conta:
 
@@ -76,7 +76,7 @@ TOTAL DE HORAS SEMANAIS EXIGIDAS
 
 Aplicado nos casos:
 
-**Caso A** (20 clientes × R$2.500 — implementação grupo):
+**Caso A** (20 clientes × R$2.500, implementação grupo):
 - 20 clientes novos/mês = 5 novos por semana
 - Atendimento médio: 2h por cliente por semana = 10h/semana só de atendimento
 - + 6h/semana de produção de conteúdo
@@ -84,15 +84,15 @@ Aplicado nos casos:
 - + 2h/semana de aprendizado
 - = **22h/semana exigidas**
 
-**Caso B** (100 sessões × R$300 — impossível):
+**Caso B** (100 sessões × R$300, impossível):
 - 100 sessões/mês = 25 por semana
 - Atendimento médio: 1h por sessão = 25h só de atendimento
 - + 6h de produção
 - + 4h de operação
 - + 2h de aprendizado
-- = **37h/semana exigidas** (sem considerar tempo entre sessões, anotações, follow-up — irreal)
+- = **37h/semana exigidas** (sem considerar tempo entre sessões, anotações, follow-up, irreal)
 
-**Caso C** (6 clientes × R$10.000 — consultoria premium):
+**Caso C** (6 clientes × R$10.000, consultoria premium):
 - 6 clientes/mês = 1.5 por semana
 - Atendimento médio: 3h por cliente/semana = 4.5h
 - + 8h de produção (precisa de conteúdo premium pra atrair esse ticket)
@@ -116,7 +116,7 @@ Pega o número de horas exigidas + compara com o teto de horas disponíveis (def
 
 ## Os 4 ajustes possíveis (em ordem de preferência)
 
-### Ajuste 1 — Subir ticket (preferido)
+### Ajuste 1, Subir ticket (preferido)
 
 Reduz volume necessário. Mantém a meta.
 
@@ -128,13 +128,13 @@ Exemplo do Caso B:
 
 Subir ticket é o melhor ajuste. Mantém receita, reduz exaustão, melhora cliente.
 
-### Ajuste 2 — Refazer esteira (segundo melhor)
+### Ajuste 2, Refazer esteira (segundo melhor)
 
 Cliente tinha 4 ofertas dispersas. Concentra em 1-2 ofertas premium.
 
 Resultado: menos diversidade operacional, mais foco, ticket médio sobe naturalmente.
 
-### Ajuste 3 — Baixar meta (terceiro)
+### Ajuste 3, Baixar meta (terceiro)
 
 Aceita receita menor por agora. Estabelece meta intermediária realista.
 
@@ -142,7 +142,7 @@ Exemplo: "Em 6 meses, em vez de R$50k, vou pra R$35k. Em 12 meses, R$50k."
 
 Não é desistência. É calibragem.
 
-### Ajuste 4 — Aumentar horas disponíveis (último recurso)
+### Ajuste 4, Aumentar horas disponíveis (último recurso)
 
 Cliente revê a tabela de cabimento. Tem 2h/dia que estavam em "tempo flexível" e ele pode realocar pra trabalho temporariamente.
 
@@ -252,7 +252,7 @@ Não é cálculo único. É instrumento vivo.
 
 Depois de feita, pergunta:
 
-> "Olhando esse total de horas e essa meta — você ainda quer isso?"
+> "Olhando esse total de horas e essa meta, você ainda quer isso?"
 
 Às vezes o cliente descobre que **não quer**. Que a meta R$100k exige uma operação que não cabe na vida que ele quer ter. E aí ele baixa a meta. Por escolha. Não por incompetência.
 

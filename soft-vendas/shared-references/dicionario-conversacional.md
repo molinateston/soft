@@ -4,7 +4,7 @@
 
 Este arquivo é o "como escrever" do carrossel 3C. Os arquétipos de embalagem (`soft-designer/references/carrossel-embalagens.md`) decidem **o que** o carrossel diz. Este arquivo decide **como cada frase é escrita** dentro de qualquer embalagem.
 
-A diferença entre um carrossel 3C e um "carrossel-aula" não está no conteúdo — está no ritmo. Carrossel-aula é parágrafo corrido com transições explicativas ("agora que você entendeu X, vamos para Y"). Carrossel 3C é frase batida, pausa, próxima frase batida. É **ritmo de conversa de elevador**, não de palestra.
+A diferença entre um carrossel 3C e um "carrossel-aula" não está no conteúdo - está no ritmo. Carrossel-aula é parágrafo corrido com transições explicativas ("agora que você entendeu X, vamos para Y"). Carrossel 3C é frase batida, pausa, próxima frase batida. É **ritmo de conversa de elevador**, não de palestra.
 
 ---
 
@@ -84,7 +84,7 @@ Vende leveza por subtração. O leitor lê e pensa "eu queria viver sem essas tr
 A pausa é uma ferramenta. Ela é criada por:
 
 - **Quebra de linha:** A forma mais comum. Cada vez que você quebra a linha, o leitor pausa por instinto.
-- **Travessão (—):** Cria uma pausa dentro da frase, geralmente pra adicionar uma reviravolta. *"Eu não larguei o emprego — só tirei 2h do domingo."*
+- **Ponto que vira frase nova:** Em vez do travessão (banido, soa IA), corta a frase no ponto e deixa a reviravolta sozinha. *"Eu não larguei o emprego. Só tirei 2h do domingo."*
 - **Reticências (...):** Suspende a frase pra abrir o próximo card. *"Mas se fizer sentido..."*
 - **Frase única isolada:** Uma frase, parágrafo inteiro só pra ela. Equivale a uma batida de pausa longa.
 
@@ -98,7 +98,7 @@ A pausa é uma ferramenta. Ela é criada por:
 
 ## Segunda pessoa direta
 
-O leitor tem que ouvir "você" e sentir que é com ele. **Não é "as pessoas", "muitos profissionais", "algumas pessoas" — é VOCÊ.**
+O leitor tem que ouvir "você" e sentir que é com ele. **Não é "as pessoas", "muitos profissionais", "algumas pessoas" - é VOCÊ.**
 
 **Errado:**
 > "Muitos profissionais sentem que estão presos no Instagram, gerando conteúdo todo dia sem ver retorno."
@@ -134,7 +134,7 @@ O futuro hipotético soa como guru. O presente/passado soa como reportagem. Semp
 **Verbos mais úteis:**
 - **Pretérito perfeito direto:** *"Fechei R$3k", "Construí em 30 dias", "Vendi minha agência"*. Curto, factual, assertivo.
 - **Presente do indicativo direto:** *"Eu trabalho sozinho", "Eu não dou reunião", "Meu cliente compra antes de me conhecer"*. Cria sensação de rotina, não de evento isolado.
-- **Imperativo seco:** *"Pare de fazer X", "Esqueça Y", "Olha o que aconteceu"*. Usar com moderação — quando aparece, manda.
+- **Imperativo seco:** *"Pare de fazer X", "Esqueça Y", "Olha o que aconteceu"*. Usar com moderação - quando aparece, manda.
 
 ---
 
@@ -147,7 +147,7 @@ Números muito redondos parecem inventados. Números com decimais parecem reais.
 
 A precisão sugere veracidade. O cérebro processa o número decimal como "isso veio de um relatório real, não da cabeça do cara".
 
-Quando precisar de número redondo (porque é o número real), tudo bem — só não invente decimais. Mas se você tem o decimal, **use o decimal**.
+Quando precisar de número redondo (porque é o número real), tudo bem - só não invente decimais. Mas se você tem o decimal, **use o decimal**.
 
 Exemplos vistos:
 - "21 de outubro de 2025. Construí um Instagram MINIMALISTA. 30 dias depois: R$112.000 em vendas."
@@ -166,14 +166,14 @@ Pontuação no carrossel 3C tem função rítmica. Cada sinal vale um tipo de pa
 | **.** (ponto) | Pausa curta padrão | "Eu trabalho sozinho." |
 | **.** **isolado em linha** | Pausa longa (quebra dramática) | "Eu trabalho sozinho.\n\nDe casa." |
 | **,** (vírgula) | Pausa muito curta, dentro da frase | "Sem reunião, sem pitch, sem convencer." |
-| **—** (travessão) | Reviravolta dentro da frase | "Não foi talento — foi parar de pular etapas." |
+| **.** (corte pra reviravolta) | Reviravolta numa frase nova (travessão é banido) | "Não foi talento. Foi parar de pular etapas." |
 | **:** (dois pontos) | Anúncio do que vem | "O resultado: R$112k em 30 dias." |
 | **...** (reticências) | Suspensão pra abrir o próximo card | "Mas se fizer sentido..." |
 
 **O que evitar:**
-- **Exclamação (!)** — soa como guru gritando. Use no máximo 1 por carrossel inteiro, e só quando for genuinamente surpresa.
-- **Aspas decorativas (")** — só pra citação real ou ironia explícita. Aspas em palavra qualquer ("sucesso", "estratégia") soa amador.
-- **Hashtag dentro do texto** — nunca. Hashtag é coisa de legenda, não de card.
+- **Exclamação (!)** - soa como guru gritando. Use no máximo 1 por carrossel inteiro, e só quando for genuinamente surpresa.
+- **Aspas decorativas (")** - só pra citação real ou ironia explícita. Aspas em palavra qualquer ("sucesso", "estratégia") soa amador.
+- **Hashtag dentro do texto** - nunca. Hashtag é coisa de legenda, não de card.
 
 ---
 
@@ -191,7 +191,7 @@ O leitor tem que **ouvir os pilares**, não ouvir o aviso de que os pilares vêm
 > "Por isso, é importante entender que..."
 > "Sendo assim, fica claro que..."
 
-Conectivo lógico é coisa de redação escolar. Em carrossel, a próxima frase já é a conclusão — não precisa anunciar.
+Conectivo lógico é coisa de redação escolar. Em carrossel, a próxima frase já é a conclusão - não precisa anunciar.
 
 ### 3. Hedge (suavização covarde)
 > "Talvez seja interessante considerar a possibilidade de..."

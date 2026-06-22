@@ -1,15 +1,15 @@
 
 # Rotina Estratégica (reference do LEON)
 
-**A Rotina Operacional que cabe na vida — conduzida pelo próprio LEON, não por uma skill à parte.**
+**A Rotina Operacional que cabe na vida, conduzida pelo próprio LEON, não por uma skill à parte.**
 
-Esta reference desenha COMO o cliente Soft vai operar semanalmente e mensalmente. Não no abstrato — calibrado pela meta financeira real dele e pelo tempo real que ele tem.
+Esta reference desenha COMO o cliente Soft vai operar semanalmente e mensalmente. Não no abstrato, calibrado pela meta financeira real dele e pelo tempo real que ele tem.
 
 ---
 
 ## Pré-requisitos obrigatórios
 
-**FASE 1 — Plano de Posicionamento Incomum + Voz (soft-posicionamento)** concluído. A voz é construída dentro do próprio posicionamento (os 5 elementos de voz), não numa fase à parte.
+**FASE 1, Plano de Posicionamento Incomum + Voz (soft-posicionamento)** concluído. A voz é construída dentro do próprio posicionamento (os 5 elementos de voz), não numa fase à parte.
 
 Sem persona-âncora destilada e voz definida (ambas saem do soft-posicionamento), a rotina não tem destino nem coerência. Volta pra fundação se não estiver pronta.
 
@@ -18,19 +18,19 @@ Sem persona-âncora destilada e voz definida (ambas saem do soft-posicionamento)
 ## A sequência do método
 
 ```
-FASE 1 — POSICIONAMENTO + VOZ
+FASE 1 - POSICIONAMENTO + VOZ
 └── soft-posicionamento (quem ele é, pra quem fala e como fala)
 
-FASE 2 — CONTEÚDO (atração)
+FASE 2 - CONTEÚDO (atração)
 └── soft-conteudo
 
-FASE 3 — FUNIL (aquece e qualifica o lead)
+FASE 3 - FUNIL (aquece e qualifica o lead)
 └── soft-funil
 
-FASE 4 — VENDAS (o comercial 1:1)
+FASE 4 - VENDAS (o comercial 1:1)
 └── soft-vendas
 
-FASE 5 — ROTINA ESTRATÉGICA  ← VOCÊ ESTÁ AQUI
+FASE 5 - ROTINA ESTRATÉGICA  ← VOCÊ ESTÁ AQUI
 └── conduzida pelo LEON · reference rotina.md (o que oferta + quando + cabendo na vida)
 ```
 
@@ -42,7 +42,7 @@ FASE 5 — ROTINA ESTRATÉGICA  ← VOCÊ ESTÁ AQUI
 
 Operação é desenhada DEPOIS da vida ser definida. Não o contrário.
 
-Se a rotina não cabe na vida que o cliente quer, **corta operação — nunca corta vida**.
+Se a rotina não cabe na vida que o cliente quer, **corta operação, nunca corta vida**.
 
 Isso significa: a meta financeira pode precisar baixar (se a vida exige), ou o ticket pode precisar subir (pra fazer a conta caber com menos volume), ou a esteira precisa ser repensada.
 
@@ -62,27 +62,27 @@ A Fase 5 (Rotina) força essa decisão antes do cliente operar.
 
 ## Ordem de leitura dos references
 
-### Núcleo — definição de meta e esforço
-1. **principio-do-cabimento.md** — a regra-mãe (vida primeiro, operação depois)
-2. **meta-realista.md** ⭐ — a CONTA: faturamento desejado → clientes necessários → horas exigidas
-3. **cabimento-na-vida.md** — onde compara o exigido com o disponível
+### Núcleo, definição de meta e esforço
+1. **principio-do-cabimento.md**: a regra-mãe (vida primeiro, operação depois)
+2. **meta-realista.md** ⭐, a CONTA: faturamento desejado → clientes necessários → horas exigidas
+3. **cabimento-na-vida.md**: onde compara o exigido com o disponível
 
 ### Construção da operação
-4. **esteira-minima-viavel.md** — 1-2 ofertas calibradas com a meta
-5. **calendario-operacional.md** — quando cada oferta no ar
-6. **blocos-de-trabalho.md** — semana estruturada por blocos de função
+4. **esteira-minima-viavel.md**: 1-2 ofertas calibradas com a meta
+5. **calendario-operacional.md**: quando cada oferta no ar
+6. **blocos-de-trabalho.md**: semana estruturada por blocos de função
 
 ### Sustentação
-7. **rituais-essenciais.md** — revisão semanal, planejamento mensal, auditoria trimestral
+7. **rituais-essenciais.md**: revisão semanal, planejamento mensal, auditoria trimestral
 
 ---
 
 ## A sequência operacional dentro da Fase 5
 
 ```
-1. Define a vida que quer (cabimento-na-vida — esboço inicial)
+1. Define a vida que quer (cabimento-na-vida - esboço inicial)
         ↓
-2. Define a meta financeira desejada (meta-realista — input)
+2. Define a meta financeira desejada (meta-realista - input)
         ↓
 3. Faz a CONTA:
    - Meta ÷ ticket = clientes necessários por mês
@@ -91,7 +91,7 @@ A Fase 5 (Rotina) força essa decisão antes do cliente operar.
    - + horas de operação interna (revisão, vendas, e-mail)
    - = Total semanal exigido
         ↓
-4. Compara com horas disponíveis (cabimento-na-vida — teste)
+4. Compara com horas disponíveis (cabimento-na-vida - teste)
         ↓
 5. NÃO CABE? → ajusta:
    - Sobe ticket (refaz catálogo de ofertas)
@@ -118,7 +118,7 @@ A skill **força** o cliente a fazer essa conta antes de aceitar qualquer rotina
 
 3. **A conta é obrigatória.** Sem fazer a conta de meta ÷ ticket = clientes ÷ horas, não tem rotina. Tem chute.
 
-4. **Cabimento é binário.** Cabe ou não cabe. Se 'quase cabe', já não cabe — vai cansar.
+4. **Cabimento é binário.** Cabe ou não cabe. Se 'quase cabe', já não cabe, vai cansar.
 
 5. **Sobe ticket antes de aumentar volume.** Quando a conta não fecha, primeira opção é subir ticket. Volume é último recurso.
 
@@ -146,10 +146,10 @@ Esse documento, junto com a skill `soft-posicionamento-[nome-cliente]` (Fase 1),
 
 ## Como esta reference se relaciona com outras
 
-- **soft-posicionamento (Fase 1)** — pré-requisito. Carrega persona-âncora E voz (os 5 elementos de voz saem daqui). Sem isso, rotina não tem destino nem produção calibrada.
-- **soft-posicionamento-[cliente]** — a skill gerada do cliente; após a Rotina (Fase 5), atualizar os pilares de conteúdo dela com o ritmo definido aqui.
-- **soft-conteudo, soft-funil, soft-vendas (Fases 2-4)** — skills executivas que operam DENTRO da rotina definida aqui.
-- **filtro-anti-ia + filtro-mobile-first** (shared-references) — aplicáveis em qualquer peça produzida dentro da rotina.
+- **soft-posicionamento (Fase 1)**: pré-requisito. Carrega persona-âncora E voz (os 5 elementos de voz saem daqui). Sem isso, rotina não tem destino nem produção calibrada.
+- **soft-posicionamento-[cliente]**: a skill gerada do cliente; após a Rotina (Fase 5), atualizar os pilares de conteúdo dela com o ritmo definido aqui.
+- **soft-conteudo, soft-funil, soft-vendas (Fases 2-4)**: skills executivas que operam DENTRO da rotina definida aqui.
+- **filtro-anti-ia + filtro-mobile-first** (shared-references), aplicáveis em qualquer peça produzida dentro da rotina.
 
 ---
 
@@ -175,6 +175,6 @@ Se qualquer item falhar, refaz antes de fechar a Rotina (Fase 5).
 Skill criada em 23 de maio de 2026.
 
 Atualizar quando:
-- Cliente entrega resultado real (meta atingida ou não — calibrar a conta)
+- Cliente entrega resultado real (meta atingida ou não, calibrar a conta)
 - Surge novo bloco operacional que vale incorporar
 - Aparece padrão de cliente que viola algum princípio (revisar)

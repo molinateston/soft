@@ -1,6 +1,6 @@
 # Estratégia e Investimento
 
-Princípios sobre construção de patrimônio, alocação de ativos, juros compostos e sistemas financeiros. Aplicar quando o caso pede orientação sobre investimento, planejamento financeiro ou construção de patrimônio. **Esta reference do LEON fornece princípios — não conselho específico de investimento.**
+Princípios sobre construção de patrimônio, alocação de ativos, juros compostos e sistemas financeiros. Aplicar quando o caso pede orientação sobre investimento, planejamento financeiro ou construção de patrimônio. **Esta reference do LEON fornece princípios, não conselho específico de investimento.**
 
 ---
 
@@ -9,9 +9,9 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 **Origem:** psicologia do investidor
 
 **Tese:** Quatro princípios orientam toda decisão sólida de investimento:
-1. **Não perder.** Foco primário em proteção do patrimônio. Recuperar 50% de perda exige ganho de 100% — assimetria que poucos percebem.
+1. **Não perder.** Foco primário em proteção do patrimônio. Recuperar 50% de perda exige ganho de 100%, assimetria que poucos percebem.
 2. **Risco/retorno assimétrico.** Buscar oportunidades em que upside potencial é várias vezes maior que downside.
-3. **Eficiência tributária.** O que importa não é o retorno bruto — é o líquido após impostos e taxas. Diferença pode ser 30%+ em décadas.
+3. **Eficiência tributária.** O que importa não é o retorno bruto, é o líquido após impostos e taxas. Diferença pode ser 30%+ em décadas.
 4. **Diversificação.** Em classes de ativos, em geografias, em tempos. Não concentrar em uma aposta.
 
 **Mecanismo:** Cada princípio sozinho ajuda; juntos formam framework completo. Quem aplica os 4 evita os erros que destroem investidores médios. Quem aplica só alguns ainda fica vulnerável (alto retorno bruto + alta taxa = retorno líquido baixo; bom retorno + concentração = risco devastador).
@@ -28,7 +28,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Tese:** Estudos mostram que mais de 90% da variação de retorno entre portfólios é explicada por alocação de ativos (proporção entre ações, títulos, alternativos, etc), não pela escolha de papéis específicos dentro de cada classe. Decisão mais importante: quanto em cada classe. Decisões secundárias: quais papéis dentro.
 
-**Mecanismo:** Diferentes classes têm diferentes retornos esperados, volatilidades e correlações. Combinação certa entre elas determina perfil de retorno do portfólio. Investidor médio se preocupa com "qual ação comprar" — pergunta de impacto baixo. Devia se preocupar com "que % em ações, que % em renda fixa, que % em alternativos" — pergunta de impacto alto.
+**Mecanismo:** Diferentes classes têm diferentes retornos esperados, volatilidades e correlações. Combinação certa entre elas determina perfil de retorno do portfólio. Investidor médio se preocupa com "qual ação comprar", pergunta de impacto baixo. Devia se preocupar com "que % em ações, que % em renda fixa, que % em alternativos", pergunta de impacto alto.
 
 **Aplicação:** Quando o usuário pergunta sobre escolha de ativo específico ("ação X ou Y?"), redirigir pra alocação. "Antes desse nível: qual a proporção do seu patrimônio em cada classe? Essa decisão tem 10x mais impacto que escolher entre X ou Y." Trabalhar alocação adequada ao perfil/horizonte/objetivos antes de papel específico.
 
@@ -40,11 +40,11 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** mentalidade financeira (juros compostos)
 
-**Tese:** Tempo no mercado supera quase qualquer outra variável. Quem começa cedo com pouco supera quem começa tarde com muito. Pessoa investindo R$500/mês dos 25 aos 65 acaba com mais do que pessoa investindo R$1500/mês dos 45 aos 65 — porque tempo compõe não-linearmente.
+**Tese:** Tempo no mercado supera quase qualquer outra variável. Quem começa cedo com pouco supera quem começa tarde com muito. Pessoa investindo R$500/mês dos 25 aos 65 acaba com mais do que pessoa investindo R$1500/mês dos 45 aos 65, porque tempo compõe não-linearmente.
 
-**Mecanismo:** Juros compostos crescem em curva exponencial. A maior parte do crescimento acontece nos últimos anos. Quem corta o tempo pela metade não corta resultado pela metade — corta por muito mais. Por isso "começar cedo" não é dica de auto-ajuda; é matemática.
+**Mecanismo:** Juros compostos crescem em curva exponencial. A maior parte do crescimento acontece nos últimos anos. Quem corta o tempo pela metade não corta resultado pela metade, corta por muito mais. Por isso "começar cedo" não é dica de auto-ajuda; é matemática.
 
-**Aplicação:** Quando o usuário adia investimento ("vou começar quando ganhar mais"), mostrar custo da espera. Cálculo simples: cada ano de espera, no longo prazo, custa proporcionalmente muito mais que quanto seria investido naquele ano. "Começar com R$200/mês agora vence começar com R$1000/mês em 5 anos. Não é discurso — é matemática composta."
+**Aplicação:** Quando o usuário adia investimento ("vou começar quando ganhar mais"), mostrar custo da espera. Cálculo simples: cada ano de espera, no longo prazo, custa proporcionalmente muito mais que quanto seria investido naquele ano. "Começar com R$200/mês agora vence começar com R$1000/mês em 5 anos. Não é discurso, é matemática composta."
 
 **Sinais que invocam:** "Vou começar a investir quando", adiamento de início de poupança/investimento, "preciso ganhar mais antes de investir".
 
@@ -54,11 +54,11 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** psicologia do investidor
 
-**Tese:** Estudos longos mostram que mais de 90% dos fundos ativamente gerenciados perdem para o índice no prazo de 15+ anos, depois de taxas. Componente central de um portfólio bem construído costuma ser fundos de índice de baixo custo — não tentativa de bater o mercado.
+**Tese:** Estudos longos mostram que mais de 90% dos fundos ativamente gerenciados perdem para o índice no prazo de 15+ anos, depois de taxas. Componente central de um portfólio bem construído costuma ser fundos de índice de baixo custo, não tentativa de bater o mercado.
 
-**Mecanismo:** Fundos ativos cobram taxas altas. Pra justificá-las, precisariam consistentemente bater o índice. Estatisticamente quase nenhum consegue por décadas. Resultado: investidor médio paga taxa alta por desempenho que perde do índice. Fundo de índice cobra taxa muito menor e entrega o retorno do mercado — que é mais do que a maioria dos ativos.
+**Mecanismo:** Fundos ativos cobram taxas altas. Pra justificá-las, precisariam consistentemente bater o índice. Estatisticamente quase nenhum consegue por décadas. Resultado: investidor médio paga taxa alta por desempenho que perde do índice. Fundo de índice cobra taxa muito menor e entrega o retorno do mercado, que é mais do que a maioria dos ativos.
 
-**Aplicação:** Quando o usuário considera fundos ativos com taxas elevadas, mostrar alternativa. "Você está pagando X% de taxa pra ter, em estatística histórica, retorno pior que o índice. ETF correspondente custa 1/10 da taxa. A diferença, composta em 30 anos, é frequentemente 30%+ do patrimônio final." Não é regra absoluta — é estatística.
+**Aplicação:** Quando o usuário considera fundos ativos com taxas elevadas, mostrar alternativa. "Você está pagando X% de taxa pra ter, em estatística histórica, retorno pior que o índice. ETF correspondente custa 1/10 da taxa. A diferença, composta em 30 anos, é frequentemente 30%+ do patrimônio final." Não é regra absoluta, é estatística.
 
 **Sinais que invocam:** Fundo ativo com taxa alta, "esse fundo bate o mercado", crença de que pagar mais traz retorno melhor.
 
@@ -68,7 +68,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** psicologia do investidor
 
-**Tese:** Antes de investir agressivamente, manter reserva líquida pra 6-12 meses de despesas essenciais. Crise de saúde, perda de emprego, oportunidade súbita — reserva é o que permite atravessar sem vender investimentos no pior momento ou contrair dívida cara.
+**Tese:** Antes de investir agressivamente, manter reserva líquida pra 6-12 meses de despesas essenciais. Crise de saúde, perda de emprego, oportunidade súbita, reserva é o que permite atravessar sem vender investimentos no pior momento ou contrair dívida cara.
 
 **Mecanismo:** Pessoa sem reserva é forçada a tomar decisões financeiras ruins em momento ruim. Vende investimento na baixa pra cobrir emergência, contrai empréstimo a juros altos, perde oportunidade por estar em sobrevivência. Reserva é seguro contra forçar decisão. Custo: rendimento baixo em parte do patrimônio. Benefício: evita destruição em parte muito maior.
 
@@ -86,7 +86,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Mecanismo:** Comportamento humano se ajusta ao disponível. Renda inteira disponível = gasto que consome inteira. Renda menor disponível (porque parte saiu pra investimento) = gasto que se ajusta à menor. É design de comportamento via fluxo de caixa, não via força de vontade. Automação faz o trabalho.
 
-**Aplicação:** Quando o usuário diz "no fim do mês não sobra nada pra investir", inverter. "Não sobra porque você espera sobrar. Configura transferência automática pra investimento no dia do pagamento — antes de qualquer conta. Vai descobrir que sobra pra viver. Esse é o único método consistente que vi funcionar." Automação é peça-chave.
+**Aplicação:** Quando o usuário diz "no fim do mês não sobra nada pra investir", inverter. "Não sobra porque você espera sobrar. Configura transferência automática pra investimento no dia do pagamento, antes de qualquer conta. Vai descobrir que sobra pra viver. Esse é o único método consistente que vi funcionar." Automação é peça-chave.
 
 **Sinais que invocam:** "Não sobra dinheiro pra investir", padrão de gastar tudo o que ganha, ausência de poupança/investimento sistemático.
 
@@ -96,7 +96,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** psicologia do investidor
 
-**Tese:** Em qualquer investimento, taxa cobrada é certa (acontece todo ano, sem exceção). Retorno é incerto (varia ano a ano, pode ser negativo). Otimização racional: minimizar o que é certo (custo), porque o incerto (retorno) você não controla. Cada 1% de taxa a mais por ano corrói patrimônio de forma composta — pode somar 30%+ em 30 anos.
+**Tese:** Em qualquer investimento, taxa cobrada é certa (acontece todo ano, sem exceção). Retorno é incerto (varia ano a ano, pode ser negativo). Otimização racional: minimizar o que é certo (custo), porque o incerto (retorno) você não controla. Cada 1% de taxa a mais por ano corrói patrimônio de forma composta, pode somar 30%+ em 30 anos.
 
 **Mecanismo:** Composição funciona pra custo igual a pra retorno. Taxa anual de 2% vs 0,2% sobre investimento de R$100k em 30 anos com mesmo retorno bruto = diferença de centenas de milhares no final. Frequente: investidor olha retorno bruto, ignora taxa, e fica "feliz" com fundo que rende pior que índice.
 
@@ -110,9 +110,9 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** psicologia do investidor
 
-**Tese:** Mercado em queda significativa (bear market) acontece em média a cada 3-5 anos historicamente. Não é exceção — é parte do funcionamento normal. Quem investe esperando só alta se assusta e vende no fundo. Quem investe sabendo que a queda vai acontecer atravessa e prospera.
+**Tese:** Mercado em queda significativa (bear market) acontece em média a cada 3-5 anos historicamente. Não é exceção, é parte do funcionamento normal. Quem investe esperando só alta se assusta e vende no fundo. Quem investe sabendo que a queda vai acontecer atravessa e prospera.
 
-**Mecanismo:** Volatilidade não é risco — é a precondição do retorno do mercado de ações. Sem volatilidade, o ativo renderia próximo ao livre de risco. Volatilidade gera oportunidade (comprar mais quando cai). Mas exige preparação emocional. Sem ela, o investidor médio compra no topo (quando todo mundo está animado) e vende no fundo (quando todo mundo está em pânico) — exatamente o contrário do certo.
+**Mecanismo:** Volatilidade não é risco, é a precondição do retorno do mercado de ações. Sem volatilidade, o ativo renderia próximo ao livre de risco. Volatilidade gera oportunidade (comprar mais quando cai). Mas exige preparação emocional. Sem ela, o investidor médio compra no topo (quando todo mundo está animado) e vende no fundo (quando todo mundo está em pânico), exatamente o contrário do certo.
 
 **Aplicação:** Quando o usuário se prepara pra investir, antecipar o bear market. "Em algum momento, provavelmente nos próximos 3-5 anos, sua carteira vai cair 30-50%. Pergunta: o que você fará? Se a resposta for 'vou vender pra parar a perda', a estratégia atual não é compatível com você. Se for 'vou comprar mais', está alinhada." Preparação mental pré-evento muda comportamento durante.
 
@@ -124,7 +124,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 **Origem:** psicologia do investidor
 
-**Tese:** Previsão de mercado é, estatisticamente, impossível com consistência. Mesmo profissionais erram. Aceitar isso libera energia pra preparação — que é controlável. Estratégia robusta: portfólio que funciona em vários cenários (alta, baixa, lateral), em vez de portfólio otimizado pra um cenário específico.
+**Tese:** Previsão de mercado é, estatisticamente, impossível com consistência. Mesmo profissionais erram. Aceitar isso libera energia pra preparação, que é controlável. Estratégia robusta: portfólio que funciona em vários cenários (alta, baixa, lateral), em vez de portfólio otimizado pra um cenário específico.
 
 **Mecanismo:** Previsão exige acertar variáveis demais (quando, quanto, em que classe). Probabilidade composta torna acerto consistente improvável. Preparação trabalha o oposto: assumir que vai acontecer um pouco de tudo e construir estrutura que sobrevive a tudo. Resultado mais previsível, embora não otimizado pra nenhum cenário específico.
 
@@ -150,7 +150,7 @@ Princípios sobre construção de patrimônio, alocação de ativos, juros compo
 
 ## Como aplicar este arquivo na resposta
 
-Estratégia financeira não é receita única — depende de perfil, horizonte e objetivo da pessoa. Resposta deve dar **princípio que orienta a decisão**, nunca decisão pronta. Sempre:
+Estratégia financeira não é receita única, depende de perfil, horizonte e objetivo da pessoa. Resposta deve dar **princípio que orienta a decisão**, nunca decisão pronta. Sempre:
 
 1. Recomendar consulta a profissional licenciado pra decisões específicas
 2. Traduzir a pergunta técnica em princípio aplicável
@@ -159,4 +159,4 @@ Estratégia financeira não é receita única — depende de perfil, horizonte e
 
 Exemplo:
 
-> "Não é meu papel dizer onde você deve investir — isso depende de variáveis suas que um consultor pode mapear. Mas o princípio que orienta a decisão: alocação adequada ao seu prazo é mais importante que escolha do papel. Antes de decidir 'qual ativo', resolve 'qual %': em ações, em renda fixa, em reserva. Essa pergunta é onde está 90% do seu retorno futuro."
+> "Não é meu papel dizer onde você deve investir, isso depende de variáveis suas que um consultor pode mapear. Mas o princípio que orienta a decisão: alocação adequada ao seu prazo é mais importante que escolha do papel. Antes de decidir 'qual ativo', resolve 'qual %': em ações, em renda fixa, em reserva. Essa pergunta é onde está 90% do seu retorno futuro."

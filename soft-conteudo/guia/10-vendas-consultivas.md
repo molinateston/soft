@@ -1,13 +1,13 @@
 # Capítulo 10 · Vendas Consultivas, Fechamento Limpo
 
-> O Funil entrega o lead na porta do WhatsApp, **aquecido** — não cético, não cru. Este capítulo é o que acontece lá dentro: a conversa que **fecha** (confirma o desejo e remove a última objeção).
+> O Funil entrega o lead na porta do WhatsApp, **aquecido** - não cético, não cru. Este capítulo é o que acontece lá dentro: a conversa que **fecha** (confirma o desejo e remove a última objeção).
 > A cabeça antes da técnica, as 7 fases, o roteiro com as falas prontas, e os princípios de quem fecha na call em vez de perseguir no follow-up.
 
 ---
 
 ## 10.1 · Por que se chama "limpo"
 
-Quem chega na Vendas já consumiu a Carta ou o Vídeo — chega **aquecido**, não do zero. Não precisa ser convencido do nada, mas a conversa ainda fecha: remove a última objeção e dá o caminho claro pra finalizar.
+Quem chega na Vendas já consumiu a Carta ou o Vídeo - chega **aquecido**, não do zero. Não precisa ser convencido do nada, mas a conversa ainda fecha: remove a última objeção e dá o caminho claro pra finalizar.
 
 A Vendas Soft é "limpa" porque não carrega o teatro do velho jeito de vender:
 
@@ -16,7 +16,7 @@ A Vendas Soft é "limpa" porque não carrega o teatro do velho jeito de vender:
 - Não tem follow-up de 7 dias com "ainda tá interessado?".
 - Não tem desconto-relâmpago artificial.
 
-A regra de fundo: **cliente que precisa disso tudo pra fechar é cliente errado. Solta.** O fechamento limpo não força a porta. Ele confirma uma decisão que o Funil já amadureceu — e quando a decisão não está madura, o caminho certo é liberar, não empurrar.
+A regra de fundo: **cliente que precisa disso tudo pra fechar é cliente errado. Solta.** O fechamento limpo não força a porta. Ele confirma uma decisão que o Funil já amadureceu - e quando a decisão não está madura, o caminho certo é liberar, não empurrar.
 
 ---
 
@@ -30,7 +30,7 @@ Isso acontece em três momentos das 7 fases:
 - **Na Implicação**, quando você devolve um diagnóstico que ele ainda não tinha enxergado.
 - **Na Conexão**, quando você reformula a dor dele com as palavras dele, e ele pensa "é exatamente isso".
 
-Essa é a prova que converte. Não a que você mostra — a que você **demonstra ali na hora**. Um lead que sai da conversa pensando "esse cara já entendeu meu negócio em 20 minutos" fecha sem precisar de pressão.
+Essa é a prova que converte. Não a que você mostra - a que você **demonstra ali na hora**. Um lead que sai da conversa pensando "esse cara já entendeu meu negócio em 20 minutos" fecha sem precisar de pressão.
 
 Prova social entra como reforço, nunca como motor. Depoimento confirma o que ele já sentiu na conversa. Se você precisa empilhar caso pra convencer, é porque a competência não apareceu antes. Demonstrar vale mais do que listar.
 
@@ -58,7 +58,7 @@ Quatro princípios separam quem fecha de quem persegue:
 
 **3. Feche na conversa, não no follow-up.** Quem quer resolver, resolve na hora. Follow-up que persegue é energia jogada fora. Se você fez a conversa inteira e o lead não fechou, pergunte direto se é pra retomar depois, em vez de insistir.
 
-**4. Suba o nível, não só espelhe.** Se o lead só diz "faz sentido", vocês estão no mesmo nível — e ninguém compra de quem está no mesmo nível. O espelho da Conexão cria o clique, mas a venda precisa de um momento de elevação: você mostra o que ele não via, e vira o case. Aí a pergunta "quais são seus cases" não aparece, porque pedir case é pedir confiança, e você já entregou.
+**4. Suba o nível, não só espelhe.** Se o lead só diz "faz sentido", vocês estão no mesmo nível - e ninguém compra de quem está no mesmo nível. O espelho da Conexão cria o clique, mas a venda precisa de um momento de elevação: você mostra o que ele não via, e vira o case. Aí a pergunta "quais são seus cases" não aparece, porque pedir case é pedir confiança, e você já entregou.
 
 ---
 
@@ -74,7 +74,7 @@ A venda Soft empresta a engenharia dos melhores roteiros de venda consultiva, ma
 | **Qualificação mútua por dor** | O Especialista também pode dizer não; combina os próximos passos antes |
 | **Checklist de qualificação** (ticket alto) | Qualifica deal complexo e diagnostica deal emperrado (decisor, critérios, dor, processo de compra, campeão interno) |
 | **Checklist de recorrência** | Marca o prazo (evento crítico) e sustenta recorrência e LTV |
-| **Código de Escrita** | A lei que rege cada frase: percepção, ancoragem, estrutura-mãe, pegada falada (lente, 8 leis, 6 mecanismos — ver `guia/CODIGO-DE-ESCRITA.md`) |
+| **Código de Escrita** | A lei que rege cada frase: percepção, ancoragem, estrutura-mãe, pegada falada (lente, 8 leis, 6 mecanismos - ver `guia/CODIGO-DE-ESCRITA.md`) |
 | **Mentalidade do vendedor** | Cabeça do vendedor, sistema de crença, indicações e testemunhos |
 
 A regra é absoluta: a engenharia opera, o rótulo da mecânica nunca chega ao lead. Ele não está num "roteiro de perguntas" nem num "fechamento por reframe". Está numa conversa em que alguém o entendeu.
@@ -97,7 +97,7 @@ Toda venda Soft passa pelas mesmas 7 fases. O que muda entre canais (WhatsApp, W
 
 ---
 
-## 10.7 · O Filtro Soft — pré-qualificação antes do humano
+## 10.7 · O Filtro Soft - pré-qualificação antes do humano
 
 O Filtro Soft é a sequência automatizada que recebe o lead vindo do Feed (via comentário no Carrossel/Reel) e o leva até o WhatsApp já pré-qualificado. Quando o lead chega até você no WhatsApp, já entendeu a proposta, já passou pelos filtros básicos, já está em modo decisão.
 
@@ -153,17 +153,17 @@ O canal de conversão muda conforme o ticket. Mesmas 7 fases, ritmo diferente.
 
 ## 10.10-A · A mecânica do diagnóstico que revela (sem inflar)
 
-As 7 fases já dizem *o que* fazer. Esta subseção é a **mecânica fina** de como o diagnóstico revela a dor real — emprestada de quem fecha na call por ofício, mas operada com a intenção Soft. A diferença não é técnica, é **direção**: a mesma escada de perguntas pode revelar uma verdade que filtra ou inventar uma dor que empurra. O Soft só usa a primeira.
+As 7 fases já dizem *o que* fazer. Esta subseção é a **mecânica fina** de como o diagnóstico revela a dor real - emprestada de quem fecha na call por ofício, mas operada com a intenção Soft. A diferença não é técnica, é **direção**: a mesma escada de perguntas pode revelar uma verdade que filtra ou inventar uma dor que empurra. O Soft só usa a primeira.
 
-### A linha ética — leia antes de tudo
+### A linha ética - leia antes de tudo
 
 > **Revelar dor que existe ✓. Inventar dor que não existe ✗.**
 
-Essa é a fronteira absoluta, e ela é o que separa esta mecânica do estilo agressivo de onde ela veio. A escada socrática, o pit invertido, a antecipação de objeção — todas essas estruturas podem ser usadas pra **trazer à tona um custo que o lead já carrega mas ainda não nomeou** (legítimo, é o trabalho), ou pra **fabricar urgência sobre um problema que ele não tem** (manipulação, o Soft não faz). O teste é simples: *se eu calar e ele pensar sozinho por uma semana, a dor continua de pé?* Se sim, você revelou. Se a dor só existe enquanto você está na frente dele pressionando, você inflou — e está vendendo errado pra pessoa errada. Lead sem a dor real, o Soft **solta**, não convence. Revelar é pra filtrar (ele se reconhece ou se libera), nunca pra prender.
+Essa é a fronteira absoluta, e ela é o que separa esta mecânica do estilo agressivo de onde ela veio. A escada socrática, o pit invertido, a antecipação de objeção - todas essas estruturas podem ser usadas pra **trazer à tona um custo que o lead já carrega mas ainda não nomeou** (legítimo, é o trabalho), ou pra **fabricar urgência sobre um problema que ele não tem** (manipulação, o Soft não faz). O teste é simples: *se eu calar e ele pensar sozinho por uma semana, a dor continua de pé?* Se sim, você revelou. Se a dor só existe enquanto você está na frente dele pressionando, você inflou - e está vendendo errado pra pessoa errada. Lead sem a dor real, o Soft **solta**, não convence. Revelar é pra filtrar (ele se reconhece ou se libera), nunca pra prender.
 
 ### As engrenagens e onde cada uma entra
 
-A mecânica tem cinco engrenagens. Quatro têm casa numa fase só (tabela abaixo); a quinta atravessa a Apresentação. Cada uma já está costurada no roteiro — aqui é só o porquê de cada uma:
+A mecânica tem cinco engrenagens. Quatro têm casa numa fase só (tabela abaixo); a quinta atravessa a Apresentação. Cada uma já está costurada no roteiro - aqui é só o porquê de cada uma:
 
 | Engrenagem | O que é | Onde opera | O limite Soft |
 |---|---|---|---|
@@ -172,23 +172,23 @@ A mecânica tem cinco engrenagens. Quatro têm casa numa fase só (tabela abaixo
 | **Pit invertido** | Fazer o lead **verbalizar o compromisso** ("de 0 a 10, quanto é prioridade?") antes de você apresentar | **Fase 3 · termômetro** | O número baixo **filtra** (libera o morno). Nunca vira gancho pra pressionar até virar 10. |
 | **Antecipar objeção** | Puxar a objeção compartilhada (sócio/cônjuge/financeiro) pra mesa **antes** do preço, enquanto é barata | **Fase 6 · Isolamento** | Equipa a conversa dele com informação. Não acusa de estar se escondendo, não desmonta o jurídico. |
 
-E a engrenagem que atravessa a **Fase 5 · Apresentação**: **oferta empilhada lincada à dor** — cada item responde a um ponto do diagnóstico, porque *entregável é característica*. Quem apresenta lista de módulos vende característica; quem apresenta solução amarrada na dor declarada vende a saída que o lead pediu.
+E a engrenagem que atravessa a **Fase 5 · Apresentação**: **oferta empilhada lincada à dor** - cada item responde a um ponto do diagnóstico, porque *entregável é característica*. Quem apresenta lista de módulos vende característica; quem apresenta solução amarrada na dor declarada vende a saída que o lead pediu.
 
 ### O princípio-raiz: antecipação
 
-Por baixo das quatro engrenagens corre um princípio só — **antecipação**. A objeção aparece do início ao fim da conversa; quem fecha limpo desata cada nó *antes* de chegar no pagamento, pra que a hora do preço seja a mais leve da conversa, não a mais pesada. É o mesmo movimento dos 4 princípios (10.4) e do Isolamento (Fase 6), agora com a mecânica explícita: você não espera a objeção bater no fim — você a encontra enquanto ainda é hipótese barata.
+Por baixo das quatro engrenagens corre um princípio só - **antecipação**. A objeção aparece do início ao fim da conversa; quem fecha limpo desata cada nó *antes* de chegar no pagamento, pra que a hora do preço seja a mais leve da conversa, não a mais pesada. É o mesmo movimento dos 4 princípios (10.4) e do Isolamento (Fase 6), agora com a mecânica explícita: você não espera a objeção bater no fim - você a encontra enquanto ainda é hipótese barata.
 
 ### O que o Soft rejeita dessa origem (explícito)
 
 A estrutura acima vem de uma escola de venda agressiva. O Soft pega a engenharia e **descarta o estilo**. Não entra, em hipótese nenhuma:
 
-- **Inflar dor inexistente** — a linha ética acima. Revela o que há, nunca inventa.
-- **Ancoragem agressiva de preço** ("tem 40? 30? 20?") — o Soft não lê a carteira do lead na marra. Preço entra inteiro, só depois do Isolamento.
-- **"Sem rapport / inverter o poder" hostil** — o enquadramento Soft é consultivo (Recuo, Fase 1), não teatro de dominância. A inversão "por que devo trabalhar com você?" entra só como qualificação mútua, no tom de quem filtra com respeito.
-- **Recusar follow-up de forma absoluta** — o Soft fecha na conversa, sim (10.4), mas não trata o lead como inimigo que "some pra sempre". Quem não fechou é perguntado direto se é timing ou não (Fase 7), sem perseguição e sem porta batida.
-- **Desmonte agressivo do jurídico/contrato** — o Soft não ridiculariza quem quer contrato. Equipa a decisão, não humilha a cautela.
+- **Inflar dor inexistente** - a linha ética acima. Revela o que há, nunca inventa.
+- **Ancoragem agressiva de preço** ("tem 40? 30? 20?") - o Soft não lê a carteira do lead na marra. Preço entra inteiro, só depois do Isolamento.
+- **"Sem rapport / inverter o poder" hostil** - o enquadramento Soft é consultivo (Recuo, Fase 1), não teatro de dominância. A inversão "por que devo trabalhar com você?" entra só como qualificação mútua, no tom de quem filtra com respeito.
+- **Recusar follow-up de forma absoluta** - o Soft fecha na conversa, sim (10.4), mas não trata o lead como inimigo que "some pra sempre". Quem não fechou é perguntado direto se é timing ou não (Fase 7), sem perseguição e sem porta batida.
+- **Desmonte agressivo do jurídico/contrato** - o Soft não ridiculariza quem quer contrato. Equipa a decisão, não humilha a cautela.
 
-O tom permanece **clínico**: revela pra que o lead se reconheça e decida — fica quem é, sai quem não é. A venda continua sendo um filtro com fechamento, não um empurrão.
+O tom permanece **clínico**: revela pra que o lead se reconheça e decida - fica quem é, sai quem não é. A venda continua sendo um filtro com fechamento, não um empurrão.
 
 ---
 
@@ -196,7 +196,7 @@ O tom permanece **clínico**: revela pra que o lead se reconheça e decida — f
 
 A espinha das 7 fases vira conversa aqui. São as falas prontas, no tom certo. Você ajusta ao lead, mas a ordem das 7 fases é fixa. A skill de vendas gera as variações por nicho e canal a partir deste modelo.
 
-> Os valores que aparecem nas falas a seguir (R$5.000, 12x R$500, R$3.000 + R$2.000, Soft Start R$497–997 etc.) são **exemplo do caso Léo** — ilustram o formato do script. Cada especialista substitui pelos próprios preços (definidos pela Equação de Valor + Mapa de Valor no Cap. 2). O que importa aqui é a *estrutura da fala*, não o número.
+> Os valores que aparecem nas falas a seguir (R$5.000, 12x R$500, R$3.000 + R$2.000, Soft Start R$497-997 etc.) são **exemplo do caso Léo** - ilustram o formato do script. Cada especialista substitui pelos próprios preços (definidos pela Equação de Valor + Mapa de Valor no Cap. 2). O que importa aqui é a *estrutura da fala*, não o número.
 
 ### Fase 1 · Recuo
 
@@ -210,17 +210,17 @@ O lead que chegou defensivo relaxa aqui. O que chegou ansioso entende que vai se
 
 Entender a situação, o que ele já tentou, e o efeito colateral disso. Aqui o lead fala 70% do tempo. Você pergunta e escuta. O objetivo é achar o **Problema Avançado**: o que as soluções antigas criaram de pior.
 
-A Descoberta não é coleta de informação — é **escada**. Você não afirma a dor; faz perguntas cuja resposta é o próprio lead nomeando a dor. Cada pergunta desce um degrau: do fato neutro à consequência que ele mesmo conclui. Quem ouve a dor da própria boca não precisa ser convencido dela depois. A mecânica completa dessa escada — e o limite ético que separa *revelar* de *inflar* — está em **10.10-A**.
+A Descoberta não é coleta de informação - é **escada**. Você não afirma a dor; faz perguntas cuja resposta é o próprio lead nomeando a dor. Cada pergunta desce um degrau: do fato neutro à consequência que ele mesmo conclui. Quem ouve a dor da própria boca não precisa ser convencido dela depois. A mecânica completa dessa escada - e o limite ético que separa *revelar* de *inflar* - está em **10.10-A**.
 
 Perguntas, na ordem que a conversa pedir (descendo a escada, não disparando em rajada):
 
-> "Me conta o que você faz hoje e como tá a operação no dia a dia." *(fato neutro — baixa a guarda)*
+> "Me conta o que você faz hoje e como tá a operação no dia a dia." *(fato neutro - baixa a guarda)*
 
 > "Dessas coisas, o que mais tá te emperrando agora?" *(ele aponta o problema)*
 
 > "Já tentou resolver isso antes? O que tentou, e o que não rolou?" *(ele admite a falha das soluções antigas)*
 
-> "Quanto isso já te custou nos últimos seis meses, em tempo ou em grana?" *(ele calcula — o número sai da boca dele, não da sua)*
+> "Quanto isso já te custou nos últimos seis meses, em tempo ou em grana?" *(ele calcula - o número sai da boca dele, não da sua)*
 
 > "Quem mais sente esse custo junto com você?" *(amarra na consequência que importa pra ele)*
 
@@ -228,11 +228,11 @@ Perguntas, na ordem que a conversa pedir (descendo a escada, não disparando em 
 
 Quando o lead muda o ritmo e fala com mais emoção, você achou o Problema Avançado. Anota a frase exata que ele usou. Você vai devolver ela na Fase 4. **Não avança sem ter achado isso.**
 
-**Diagnóstico com algo na tela ancora mais que diagnóstico falado.** Sempre que o canal permitir (call, reunião), trabalhe com uma referência visual enquanto pergunta — um mapa simples do cenário dele, um doc compartilhado, um print da operação, um quadro onde os pontos emperrados vão aparecendo conforme ele fala. O lead que *vê* o próprio cenário se preencher de pontos abertos sente o custo de um jeito que a fala sozinha não entrega. Não é teatro nem ferramenta cara: é dar forma visível ao que ele já descreveu. No WhatsApp puro, o equivalente é devolver em texto um resumo estruturado do que ele disse, em bullets — o mesmo efeito de "ver o mapa".
+**Diagnóstico com algo na tela ancora mais que diagnóstico falado.** Sempre que o canal permitir (call, reunião), trabalhe com uma referência visual enquanto pergunta - um mapa simples do cenário dele, um doc compartilhado, um print da operação, um quadro onde os pontos emperrados vão aparecendo conforme ele fala. O lead que *vê* o próprio cenário se preencher de pontos abertos sente o custo de um jeito que a fala sozinha não entrega. Não é teatro nem ferramenta cara: é dar forma visível ao que ele já descreveu. No WhatsApp puro, o equivalente é devolver em texto um resumo estruturado do que ele disse, em bullets - o mesmo efeito de "ver o mapa".
 
 ### Fase 3 · Implicação e termômetro
 
-Ampliar a consciência do custo de continuar como está, e qualificar a intenção. Você não cria a dor — ajuda o lead a colocar em palavras a dor que ele já carrega. Quando ele diz em voz alta "vou estar igual ou pior", a venda já está quase fechada, e foi ele que se vendeu.
+Ampliar a consciência do custo de continuar como está, e qualificar a intenção. Você não cria a dor - ajuda o lead a colocar em palavras a dor que ele já carrega. Quando ele diz em voz alta "vou estar igual ou pior", a venda já está quase fechada, e foi ele que se vendeu.
 
 Duas ou três perguntas, conforme a Descoberta:
 
@@ -252,13 +252,13 @@ Como ler a resposta:
 
 **Nunca apresenta pra quem não passou no termômetro.**
 
-Quando o lead passou com intenção real (não morno), antes de apresentar você pode **fazer ele verbalizar o compromisso** — o lead que diz em voz alta o quanto quer resolver compra de si mesmo, e a Apresentação vira confirmação, não persuasão. Uma pergunta só, no tom de quem qualifica, nunca de quem pressiona:
+Quando o lead passou com intenção real (não morno), antes de apresentar você pode **fazer ele verbalizar o compromisso** - o lead que diz em voz alta o quanto quer resolver compra de si mesmo, e a Apresentação vira confirmação, não persuasão. Uma pergunta só, no tom de quem qualifica, nunca de quem pressiona:
 
 > "De 0 a 10, o quanto resolver isso é prioridade pra você agora?"
 
-Lê assim: **8 a 10**, segue — e o número que ele falou é seu, você devolve na Apresentação ("você me disse que isso é um 9, então isso aqui é o que move o ponteiro"). **Abaixo de 7**, não é freio de valor, é falta de prioridade: não apresenta a oferta principal, devolve pra conteúdo. A diferença pro estilo agressivo é a régua: aqui o número baixo **filtra** (libera o lead morno), não vira gancho pra pressionar até virar 10. Você não negocia o número dele.
+Lê assim: **8 a 10**, segue - e o número que ele falou é seu, você devolve na Apresentação ("você me disse que isso é um 9, então isso aqui é o que move o ponteiro"). **Abaixo de 7**, não é freio de valor, é falta de prioridade: não apresenta a oferta principal, devolve pra conteúdo. A diferença pro estilo agressivo é a régua: aqui o número baixo **filtra** (libera o lead morno), não vira gancho pra pressionar até virar 10. Você não negocia o número dele.
 
-A inversão "por que eu devo trabalhar com você?" também cabe — mas no tom Soft, como qualificação mútua, não como teatro de poder: *"Pra eu te falar com sinceridade se é pra você: por que esse é o momento certo, na tua cabeça?"* Quem responde com clareza se qualificou sozinho.
+A inversão "por que eu devo trabalhar com você?" também cabe - mas no tom Soft, como qualificação mútua, não como teatro de poder: *"Pra eu te falar com sinceridade se é pra você: por que esse é o momento certo, na tua cabeça?"* Quem responde com clareza se qualificou sozinho.
 
 ### Fase 4 · Conexão
 
@@ -266,13 +266,13 @@ Mostrar que entendeu antes de apresentar. É o clique. Um bloco curto e a confir
 
 > "Deixa eu ver se entendi. Você tá em [situação que ele descreveu]. Já tentou [o que ele tentou] e o que aconteceu foi [o Problema Avançado, com as palavras dele]. O que você quer de verdade é [o desejo real]. É isso?"
 
-Só avança depois do "é isso". Se ele corrigir, deixa corrigir — é bom sinal: ele está dentro da conversa.
+Só avança depois do "é isso". Se ele corrigir, deixa corrigir - é bom sinal: ele está dentro da conversa.
 
 ### Fase 5 · Apresentação
 
 Conectar o programa ao que ele falou. Não é o pitch completo. São três a cinco pontos, cada um amarrando com algo que ele disse na Descoberta. Mais que isso, ele desengaja.
 
-A regra que organiza a fase: **cada item da oferta responde a um ponto específico do diagnóstico** — você empilha solução sobre dor, nunca lista entregável solto. **Entregável é característica; o que vende é a dor que ele resolve.** "São 8 módulos e 3 calls por mês" não move ninguém. "Aquele bloqueio que você me contou na operação — é exatamente isso que [parte do método] desmonta, e o acompanhamento existe pra você não voltar pra ele" amarra cada peça num ponto que saiu da boca dele na Descoberta. Apresente apenas os itens que têm âncora no diagnóstico; o que não responde a uma dor declarada, corta — vira ruído.
+A regra que organiza a fase: **cada item da oferta responde a um ponto específico do diagnóstico** - você empilha solução sobre dor, nunca lista entregável solto. **Entregável é característica; o que vende é a dor que ele resolve.** "São 8 módulos e 3 calls por mês" não move ninguém. "Aquele bloqueio que você me contou na operação - é exatamente isso que [parte do método] desmonta, e o acompanhamento existe pra você não voltar pra ele" amarra cada peça num ponto que saiu da boca dele na Descoberta. Apresente apenas os itens que têm âncora no diagnóstico; o que não responde a uma dor declarada, corta - vira ruído.
 
 Cada ponto:
 
@@ -296,11 +296,11 @@ Se ele citar menos de dois pontos, reforça o que ficou faltando antes de seguir
 
 Antes do preço, confirmar que se valor, entrega e ajuste estão claros, falta só investir. Isso separa objeção real de desculpa decorativa.
 
-O princípio é **antecipação**: a objeção custa barato enquanto é hipótese e custa caro depois do preço, quando já emperrou a decisão. O "preciso ver com minha esposa" / "com meu sócio" / "com o financeiro" desarma fácil *agora*, no calor da conversa — e fica intransponível se aparecer só na hora do pagamento. Então, quando o cenário pede (ticket alto, decisão compartilhada), você puxa a objeção pra mesa antes do valor, no tom de quem organiza, não de quem desconfia:
+O princípio é **antecipação**: a objeção custa barato enquanto é hipótese e custa caro depois do preço, quando já emperrou a decisão. O "preciso ver com minha esposa" / "com meu sócio" / "com o financeiro" desarma fácil *agora*, no calor da conversa - e fica intransponível se aparecer só na hora do pagamento. Então, quando o cenário pede (ticket alto, decisão compartilhada), você puxa a objeção pra mesa antes do valor, no tom de quem organiza, não de quem desconfia:
 
-> "Antes de eu te passar o investimento: fazendo sentido pra você, a decisão é só sua, ou tem alguém que decide junto — sócio, cônjuge, financeiro?"
+> "Antes de eu te passar o investimento: fazendo sentido pra você, a decisão é só sua, ou tem alguém que decide junto - sócio, cônjuge, financeiro?"
 
-Se ele aponta alguém, você resolve o nó enquanto é barato: *"Faz sentido. Essa pessoa já sabe do problema que a gente mapeou? Quer que eu te mande o resumo com método, prazo e valor pra vocês decidirem com a mesma informação?"* — diferente do desmonte agressivo, aqui você **equipa a conversa dele**, não acusa de estar se escondendo. Resolveu o ponto compartilhado, segue pro Isolamento normal:
+Se ele aponta alguém, você resolve o nó enquanto é barato: *"Faz sentido. Essa pessoa já sabe do problema que a gente mapeou? Quer que eu te mande o resumo com método, prazo e valor pra vocês decidirem com a mesma informação?"* - diferente do desmonte agressivo, aqui você **equipa a conversa dele**, não acusa de estar se escondendo. Resolveu o ponto compartilhado, segue pro Isolamento normal:
 
 > "Antes de eu te passar o investimento, deixa eu confirmar uma coisa. Se a gente resolver [as dores que ele descreveu] no prazo de [X], com [o formato apresentado], e o valor fizer sentido pra você, faz sentido a gente trabalhar junto?"
 
@@ -319,7 +319,7 @@ Se aparecer desculpa decorativa aqui, antes do preço:
 
 ### Fase 7 · Fechamento
 
-Quem chegou aqui já decidiu — você confirmou isso na Fase 6. Sua função é operacionalizar, não vender de novo. Se você ainda está vendendo na Fase 7, alguma fase anterior ficou fraca.
+Quem chegou aqui já decidiu - você confirmou isso na Fase 6. Sua função é operacionalizar, não vender de novo. Se você ainda está vendendo na Fase 7, alguma fase anterior ficou fraca.
 
 > "O investimento é R$5.000 à vista, ou 12x de R$500 no cartão. Inclui as 3 sessões e os 60 dias de acompanhamento. Faz sentido pra você?"
 
@@ -405,8 +405,8 @@ Uma por vez, no momento certo. **Não em sequência.**
 
 A oferta é uma só. O que muda é **quanto de você entra**. No fechamento, a ordem é sempre **do meio pra fora**:
 
-- **Principal: Implementação (R$5.000 — exemplo).** É o que você apresenta por padrão. Faz com o cliente.
-- **Secundária: Soft Start (R$497 a 997 — exemplo).** Só entra como alternativa quando ele recusou a Implementação e a condicional. Ele faz sozinho.
+- **Principal: Implementação (R$5.000 - exemplo).** É o que você apresenta por padrão. Faz com o cliente.
+- **Secundária: Soft Start (R$497 a 997 - exemplo).** Só entra como alternativa quando ele recusou a Implementação e a condicional. Ele faz sozinho.
 - **Topo: Consultoria (variável ou parceria).** Não se oferece no fluxo normal. Só pra lead já qualificado, com método validado e faturamento existente, que pede mais. Você entra no resultado dele.
 
 *(Os valores acima são exemplo do caso Léo; o que é método é a ordem do meio pra fora e a regra de não apresentar como cardápio.)*

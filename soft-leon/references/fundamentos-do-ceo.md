@@ -1,4 +1,4 @@
-# Fundamentos do CEO — princípios universais
+# Fundamentos do CEO, princípios universais
 
 > **Quando consultar:** sempre antes de prescrição específica de fase ou crise. Esses princípios atravessam todas as fases (zero a IPO) e todos os modos (diagnóstico, construção, crise, operação).
 
@@ -7,12 +7,12 @@
 ## Índice
 
 - Os 4 cânones combinados
-- Bloco 1 — Output management
-- Bloco 2 — Liderança Nível 5
-- Bloco 3 — Os 5 sistemas de qualquer empresa
-- Bloco 4 — Cultura como sistema
-- Bloco 5 — Confronte os fatos brutais (o paradoxo da resiliência)
-- Bloco 6 — O CEO como pessoa
+- Bloco 1, Output management
+- Bloco 2, Liderança Nível 5
+- Bloco 3, Os 5 sistemas de qualquer empresa
+- Bloco 4, Cultura como sistema
+- Bloco 5, Confronte os fatos brutais (o paradoxo da resiliência)
+- Bloco 6, O CEO como pessoa
 - Princípios de ação (síntese)
 - Notas operacionais
 
@@ -29,11 +29,11 @@ A skill puxa 4 escolas densas que se complementam:
 | **Escola da gestão dona/meritocrática** | Como construir império duradouro do zero? | Gente, capital, execução brutal |
 | **Fundamentos de negócio destilados** | Como qualquer negócio funciona? | Fundamentos amplos, sistemas |
 
-**Princípio:** os 4 não competem — se complementam. O output gerencial ensina a operar o dia. A escola das empresas que duram ensina a navegar a década. A gestão dona ensina a construir o império. Os fundamentos destilados ensinam os blocos que sustentam tudo.
+**Princípio:** os 4 não competem, se complementam. O output gerencial ensina a operar o dia. A escola das empresas que duram ensina a navegar a década. A gestão dona ensina a construir o império. Os fundamentos destilados ensinam os blocos que sustentam tudo.
 
 ---
 
-## Bloco 1 — Output management
+## Bloco 1, Output management
 
 ### O conceito raiz
 
@@ -71,7 +71,7 @@ Receita do mês passado é dado morto. Você não pode mais agir nele. Indicador
 
 Toda métrica importante deveria ter um par antecipado/atrasado. CEO que só olha lagging está dirigindo pelo retrovisor.
 
-**3. Reuniões são ferramentas — não desperdício.**
+**3. Reuniões são ferramentas, não desperdício.**
 
 As reuniões se dividem em 2 tipos:
 
@@ -89,7 +89,7 @@ As reuniões se dividem em 2 tipos:
 
 ---
 
-## Bloco 2 — Liderança Nível 5
+## Bloco 2, Liderança Nível 5
 
 ### O conceito raiz
 
@@ -145,22 +145,22 @@ Um dos maiores construtores de império da gestão dona é descrito assim: "vest
 
 ---
 
-## Bloco 3 — Os 5 sistemas de qualquer empresa
+## Bloco 3, Os 5 sistemas de qualquer empresa
 
 ### Princípio raiz
 
 > "Toda empresa, em qualquer setor, é uma combinação de 5 sistemas integrados."
 
-Se um dos 5 quebra, empresa morre — independente de quão bom estejam os outros 4.
+Se um dos 5 quebra, empresa morre, independente de quão bom estejam os outros 4.
 
 ### Os 5 sistemas
 
 ```
-1. CRIAÇÃO DE VALOR  — descobrir o que pessoas querem e construir
-2. MARKETING         — atrair atenção e gerar interesse
-3. VENDAS            — converter interesse em transação
-4. ENTREGA DE VALOR  — entregar o prometido com qualidade consistente
-5. FINANÇAS          — receber mais do que se gasta
+1. CRIAÇÃO DE VALOR  - descobrir o que pessoas querem e construir
+2. MARKETING         - atrair atenção e gerar interesse
+3. VENDAS            - converter interesse em transação
+4. ENTREGA DE VALOR  - entregar o prometido com qualidade consistente
+5. FINANÇAS          - receber mais do que se gasta
 ```
 
 ### Como diagnosticar saúde dos 5
@@ -187,7 +187,7 @@ Modo A (diagnóstico) começa **sempre** com os 5 sistemas. Pra cada um:
 
 ---
 
-## Bloco 4 — Cultura como sistema
+## Bloco 4, Cultura como sistema
 
 ### O conceito raiz
 
@@ -206,7 +206,7 @@ A escola da gestão dona define cultura por **práticas**, não por valores no q
 **2. Sócio-funcionário.**
 - Top performers viram sócios (ações com vesting)
 - Pele no jogo: seu patrimônio cresce com a empresa
-- "Skin in the game" não é metáfora — é mecanismo financeiro real
+- "Skin in the game" não é metáfora, é mecanismo financeiro real
 
 **3. PPR (Programa de Participação nos Resultados).**
 - Bônus = % do EBITDA vai pro time
@@ -221,7 +221,7 @@ A escola da gestão dona define cultura por **práticas**, não por valores no q
 - Obsessão por custo é cultura, não política financeira
 
 **5. Sonhar grande.**
-- Meta não é incremental — é **delírio aparente**
+- Meta não é incremental, é **delírio aparente**
 - Um banco de investimento → Brahma → AmBev → AB InBev → Burger King → Heinz
 - Cada salto pareceu impossível antes de acontecer
 - Cultura sustenta o salto
@@ -248,7 +248,7 @@ Os grandes construtores dessa escola sempre buscaram:
 
 ---
 
-## Bloco 5 — Confronte os fatos brutais (o paradoxo da resiliência)
+## Bloco 5, Confronte os fatos brutais (o paradoxo da resiliência)
 
 ### A história que origina o paradoxo
 
@@ -279,7 +279,7 @@ Os dois ao mesmo tempo. Fé sem confronto = ilusão. Confronto sem fé = desespe
 **Cenário 3:** mercado mudou.
 - ❌ Otimismo: "vai voltar"
 - ❌ Pessimismo: "acabou meu negócio"
-- ✅ Paradoxo da resiliência: "o mercado mudou e minha tese atual não responde mais. Vou descobrir a nova tese — nem que demore 6 meses — e enquanto descubro, vou cortar despesas pra durar."
+- ✅ Paradoxo da resiliência: "o mercado mudou e minha tese atual não responde mais. Vou descobrir a nova tese, nem que demore 6 meses, e enquanto descubro, vou cortar despesas pra durar."
 
 ### Princípio operacional
 
@@ -298,7 +298,7 @@ Time aceita realidade brutal **se vier acompanhada de fé real**. Time não acei
 
 ---
 
-## Bloco 6 — O CEO como pessoa
+## Bloco 6, O CEO como pessoa
 
 ### Princípio raiz
 
@@ -313,7 +313,7 @@ CEO é uma pessoa antes de ser CEO. Os limites de gestão são os limites mentai
 - Reuniões longas matam decisão depois
 
 **2. Estresse e recuperação.**
-- Estresse não é o problema — falta de recuperação é
+- Estresse não é o problema, falta de recuperação é
 - Pico de estresse + recuperação completa = cresce capacidade
 - Estresse contínuo sem recuperação = colapso (físico, mental, emocional)
 - Recuperação inclui: sono, exercício, desconexão real (não só "férias com email")
@@ -328,7 +328,7 @@ CEO é uma pessoa antes de ser CEO. Os limites de gestão são os limites mentai
 - Locus interno: "o que eu fizer afeta o resultado"
 - Locus externo: "depende de fatores fora de mim"
 - CEO precisa de **locus interno operacional** (responsabilidade pelo que controla)
-- E de **locus externo realista** (reconhece o que não controla — mercado, sorte, força externa)
+- E de **locus externo realista** (reconhece o que não controla, mercado, sorte, força externa)
 
 ### Solidão do CEO
 
@@ -341,7 +341,7 @@ CEO não pode descarregar tudo no time (gera ansiedade neles). Não pode descarr
 - **Família**: contexto + apoio (mas não como descarga primária de operação)
 - **Esporte/rotina física**: descarga física
 
-CEO sem essa estrutura colapsa em 18-36 meses. Não é fraqueza — é fisiologia.
+CEO sem essa estrutura colapsa em 18-36 meses. Não é fraqueza, é fisiologia.
 
 ---
 

@@ -3,7 +3,7 @@
 
 Gera contrato de prestação de serviço de consultoria/mentoria pronto pra assinar.
 
-## Dois modos — saiba qual usar
+## Dois modos, saiba qual usar
 
 ### Modo SOFT ENXUTO (DEFAULT)
 
@@ -12,7 +12,7 @@ Quando aplicar: **por padrão, em todo pedido**, salvo quando o usuário explici
 Características:
 - **11 cláusulas** (modelo validado em vendas reais do Léo)
 - Linguagem direta, sem juridiquês excessivo
-- Tom flexível em pagamento — sem multa, sem juros, sem suspensão automática agressiva. Cláusula de atraso prevê **conversa primeiro, pausa só se sumir**.
+- Tom flexível em pagamento, sem multa, sem juros, sem suspensão automática agressiva. Cláusula de atraso prevê **conversa primeiro, pausa só se sumir**.
 - Sem citações ao CDC, LGPD, Código Civil no corpo do contrato
 - Tamanho típico: 3 a 5 páginas
 
@@ -56,7 +56,7 @@ Características:
 
 Ver `references/estrutura-base.md` e `references/clausulas-anti-calote.md` para o template completo.
 
-### Antes de gerar — confirmar o modo
+### Antes de gerar, confirmar o modo
 
 Se o pedido não deixar claro qual modo usar, perguntar ao usuário. Default: Soft Enxuto. Pergunta sugerida:
 
@@ -78,7 +78,7 @@ Sempre que o pedido envolver **gerar, revisar ou adaptar contrato de prestação
 - Contrato CLT ou PJ com vínculo empregatício
 - Termo de uso de plataforma SaaS
 
-Nesses casos, avisar o usuário que precisa de advogado especializado — não improvisar.
+Nesses casos, avisar o usuário que precisa de advogado especializado, não improvisar.
 
 ---
 
@@ -90,7 +90,7 @@ Se o pedido não deixou claro, perguntar Soft Enxuto vs Robusto. Default: Soft E
 
 ### Etapa 2 · Entrevista de escopo
 
-Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do texto e confirmar — não perguntar de novo.
+Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do texto e confirmar, não perguntar de novo.
 
 **Bloco A · Partes**
 1. Nome / Razão social da **Contratada**
@@ -114,7 +114,7 @@ Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do
 11. Modalidade:
     - À vista
     - Parcelado (cartão ou boleto)
-    - Entrada + meta (com 3 variantes — ver Modalidade Entrada+Meta abaixo)
+    - Entrada + meta (com 3 variantes, ver Modalidade Entrada+Meta abaixo)
     - Recorrência mensal
 12. Datas / cronograma
 
@@ -144,12 +144,12 @@ Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do
 
 Entregar em **dois formatos**:
 
-1. **No chat** — markdown estruturado pra revisão rápida
-2. **Arquivo .docx** — pronto pra D4Sign/Clicksign/Autentique
+1. **No chat**, markdown estruturado pra revisão rápida
+2. **Arquivo .docx**, pronto pra D4Sign/Clicksign/Autentique
 
 Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`.
 
-**Fallback (ambiente sem `/mnt/user-data/outputs`):** se o diretório de saída não existir (rodando fora do Claude Chat, ex. CLI/bot), não tenta gravar `.docx` nem chamar `present_files` — entrega o contrato como **markdown estruturado inline no chat**, pronto pra copiar pro D4Sign/Clicksign/Autentique. O conteúdo das cláusulas é o mesmo; muda só o formato de entrega.
+**Fallback (ambiente sem `/mnt/user-data/outputs`):** se o diretório de saída não existir (rodando fora do Claude Chat, ex. CLI/bot), não tenta gravar `.docx` nem chamar `present_files`, entrega o contrato como **markdown estruturado inline no chat**, pronto pra copiar pro D4Sign/Clicksign/Autentique. O conteúdo das cláusulas é o mesmo; muda só o formato de entrega.
 
 Após entregar, **avisar o usuário**:
 
@@ -159,7 +159,7 @@ Aviso obrigatório em todo contrato gerado.
 
 ---
 
-## Modalidade Entrada + Meta — 3 variantes
+## Modalidade Entrada + Meta, 3 variantes
 
 Quando o pagamento é fracionado em entrada + saldo condicionado a meta, perguntar qual variante:
 
@@ -193,7 +193,7 @@ Essas duas cláusulas são **obrigatórias em qualquer variante de entrada+meta*
 
 ---
 
-## Cláusula 9 (Atraso) — 3 tons
+## Cláusula 9 (Atraso), 3 tons
 
 A cláusula de atraso é o ponto onde Soft Enxuto e Robusto mais divergem.
 
@@ -235,7 +235,7 @@ Tom B + cláusula penal compensatória + autorização de protesto + título exe
 - Negrito nas palavras-chave
 - Espaço entre cláusulas
 
-### Não garantia de resultado — obrigatória em ambos os modos
+### Não garantia de resultado, obrigatória em ambos os modos
 **Nunca** prometer resultado financeiro específico no contrato. Cláusula deve deixar claro que é obrigação de meio, não de fim.
 
 Exceção: se o usuário **explicitamente** quiser garantia de resultado, alertar sobre risco jurídico antes de redigir.
@@ -244,15 +244,15 @@ Exceção: se o usuário **explicitamente** quiser garantia de resultado, alerta
 
 ## Regras duras
 
-1. **Nunca inventar dados das partes** — se faltar CPF, endereço, etc., perguntar ou deixar `[a preencher]`.
-2. **Soft Enxuto é o default** — só ir pra Robusto se o caso ou o usuário indicar.
-3. **Em entrada+meta, sempre incluir as cláusulas de timing vs existência e de comunicação** — protegem o usuário sem precisar de blindagem agressiva.
-4. **Nunca prometer "blindagem total"** — contrato bem feito reduz risco, não elimina.
+1. **Nunca inventar dados das partes**, se faltar CPF, endereço, etc.  perguntar ou deixar `[a preencher]`.
+2. **Soft Enxuto é o default**, só ir pra Robusto se o caso ou o usuário indicar.
+3. **Em entrada+meta, sempre incluir as cláusulas de timing vs existência e de comunicação**, protegem o usuário sem precisar de blindagem agressiva.
+4. **Nunca prometer "blindagem total"**, contrato bem feito reduz risco, não elimina.
 5. **Sempre incluir o aviso pós-entrega** sobre revisão por advogado.
-6. **Proteção da Contratada como default** — se invertido, avisar e confirmar.
-7. **Nunca incluir cláusulas abusivas claras** — retenção integral em rescisão imotivada na primeira semana, por exemplo.
-8. **Nunca gerar contrato sem foro definido** — default: comarca da cidade da Contratada.
-9. **Linguagem de marketing fica fora do contrato** — peça jurídica é peça jurídica.
+6. **Proteção da Contratada como default**, se invertido, avisar e confirmar.
+7. **Nunca incluir cláusulas abusivas claras**, retenção integral em rescisão imotivada na primeira semana, por exemplo.
+8. **Nunca gerar contrato sem foro definido**, default: comarca da cidade da Contratada.
+9. **Linguagem de marketing fica fora do contrato**, peça jurídica é peça jurídica.
 
 ---
 
@@ -262,7 +262,7 @@ Exceção: se o usuário **explicitamente** quiser garantia de resultado, alerta
 Se o usuário compartilhar um modelo que já usou em vendas reais, **seguir esse modelo** como base, não substituir pela estrutura da skill. Aplicar apenas ajustes pontuais necessários ao caso novo (modalidade de pagamento diferente, formato diferente). Modelos validados em vendas reais valem mais que template teórico.
 
 ### Cliente quer contrato pra serviço já em andamento
-Incluir cláusula de ratificação retroativa — o contrato passa a reger relação que já existia desde data X.
+Incluir cláusula de ratificação retroativa, o contrato passa a reger relação que já existia desde data X.
 
 ### Cliente quer adicionar cláusula específica
 Avaliar se é juridicamente válida e se não cria contradição. Se for válida, incluir. Se for de risco (cláusula penal acima de 10% do total em PF consumidora, por exemplo), explicar antes.
@@ -278,12 +278,12 @@ Recusar e orientar advogado de direito internacional.
 ## Referências
 
 ### Para modo Soft Enxuto (DEFAULT)
-- `references/modo-soft-enxuto.md` — template completo das 11 cláusulas
+- `references/modo-soft-enxuto.md`, template completo das 11 cláusulas
 
 ### Para modo Robusto
-- `references/estrutura-base.md` — esqueleto das 13 cláusulas
-- `references/clausulas-por-formato.md` — por formato de serviço
-- `references/clausulas-pagamento.md` — por modalidade
-- `references/clausulas-anti-calote.md` — proteção contra inadimplência
-- `references/clausulas-pf-vs-pj.md` — diferenças PJ
-- `references/glossario-juridico.md` — termos técnicos
+- `references/estrutura-base.md`, esqueleto das 13 cláusulas
+- `references/clausulas-por-formato.md`, por formato de serviço
+- `references/clausulas-pagamento.md`, por modalidade
+- `references/clausulas-anti-calote.md`, proteção contra inadimplência
+- `references/clausulas-pf-vs-pj.md`, diferenças PJ
+- `references/glossario-juridico.md`, termos técnicos

@@ -265,7 +265,7 @@ Use tabela pra contraste **"Hoje × Agora"** (recomendado quando ticket ≥ R$3k
 
 ## 5. Exemplo completo, Carta diagramada (referência)
 
-Trecho de Carta para Especialista solo · ticket R$4.800 · método "Implementação Soft" (exemplo ilustrativo — aqui o produto vendido é o próprio método Soft; pro cliente à frente, troque pelo método e oferta DELE):
+Trecho de Carta para Especialista solo · ticket R$4.800 · método "Implementação Soft" (exemplo ilustrativo, aqui o produto vendido é o próprio método Soft; pro cliente à frente, troque pelo método e oferta DELE):
 
 ```markdown
 # Sistema de aquisição que funciona quando você para

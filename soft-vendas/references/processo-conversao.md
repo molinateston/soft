@@ -137,9 +137,14 @@ Se a mesma objeção volta duas vezes, é outra coisa emperrando: *"Acho que tem
 
 ---
 
-## Filtro final, antes de entregar
+## Gate de saída obrigatório, o Crivo (bloqueante)
 
-Todo script comercial atravessa a **lei de escrita** (`guia/CODIGO-DE-ESCRITA.md`: 8 leis + estrutura-mãe + regra-zero) e o **filtro Anti-IA** (`shared-references/filtro-anti-ia/`) antes de sair. Script em IA pura, com em-dash, "a verdade é", "transforma", mata a venda, porque destoa da voz que o lead já leu na Carta. Detectou padrão, reescreve.
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O linter executável `scripts/lint_copy.py` roda a peça (anti-IA + anti-voz Soft), exit 1 derruba a entrega. O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
 
 ---
 

@@ -4,7 +4,7 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 
 ---
 
-## Arquitetura 1 — Página VSL Completa
+## Arquitetura 1 - Página VSL Completa
 
 **Cenário:** Infoproduto ≤ R$497 · qualquer temperatura de tráfego
 **Lógica:** o vídeo carrega 70% do argumento. Os blocos de texto suportam, reforçam e convertem quem não assistiu o vídeo até o fim.
@@ -30,7 +30,7 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 
 ---
 
-## Arquitetura 2 — Página Híbrida
+## Arquitetura 2 - Página Híbrida
 
 **Cenário:** Infoproduto R$500–R$2k · tráfego frio ou morno
 **Lógica:** VSL curto (10–15 min) + texto robusto. Quem não assiste o vídeo precisa ser convencido pela página.
@@ -58,10 +58,10 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 
 ---
 
-## Arquitetura 3 — Página de Autoridade
+## Arquitetura 3 - Página de Autoridade
 
 **Cenário:** Mentoria, consultoria ou serviço de alto ticket (R$2k+) · tráfego morno a quente
-**Lógica:** sem VSL. Texto cirúrgico com hierarquia visual. O argumento todo está na página — quem lê completo não precisa de conversa pra decidir.
+**Lógica:** sem VSL. Texto cirúrgico com hierarquia visual. O argumento todo está na página, quem lê completo não precisa de conversa pra decidir.
 
 ### Estrutura de blocos
 
@@ -77,16 +77,16 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 | 8 | **O programa por dentro** | Médio | Sessões/entregas com o que cada uma produz concretamente |
 | 9 | **Oferta** | Pesado | Sem empilhamento de bônus. Valor da transformação → investimento → próximos passos |
 | 10 | **Garantia** | Médio | Vendida. Explica o mecanismo de devolução com naturalidade. |
-| 11 | **FAQ** | Médio | 5–7 objeções — inclui objeção de preço |
+| 11 | **FAQ** | Médio | 5–7 objeções, inclui objeção de preço |
 | 12 | **CTA final** | Leve | Sem urgência fake. "Se você se reconheceu nessa página, esse é o próximo passo." |
 
-**Botão:** pode ir pro WhatsApp em vez de checkout direto — tickets altos costumam ter etapa de qualificação antes do pagamento.
+**Botão:** pode ir pro WhatsApp em vez de checkout direto, tickets altos costumam ter etapa de qualificação antes do pagamento.
 
 **O que NÃO tem nessa arquitetura:** bônus empilhados (parecem infoproduto, reduzem autoridade) · urgência artificial · depoimentos de elogio sem número.
 
 ---
 
-## Arquitetura 4 — Página Problema-Solução
+## Arquitetura 4 - Página Problema-Solução
 
 **Cenário:** Serviço recorrente (gestão, agência, suporte) ou produto de acesso contínuo · qualquer ticket
 **Lógica:** o valor está no acesso e na recorrência, não numa transformação única. A página precisa vender o modelo antes do produto.
@@ -114,7 +114,7 @@ Quatro arquiteturas validadas. Cada uma resolve um cenário específico de produ
 1. **Zero menu de navegação.** Única saída = botão.
 2. **Urgência real ou ausência.** Nunca fake.
 3. **Cada depoimento tem contexto:** nicho + de onde veio + resultado com número.
-4. **Cada bônus mata objeção nomeada** — nunca é recheio.
+4. **Cada bônus mata objeção nomeada** - nunca é recheio.
 5. **Mobile-first** em todos os blocos.
 6. **Blair Warren auditado** antes de entregar (PRÉ-FILTRO): qualquer movimento ausente, reforça antes de entregar, nunca auto-aprova. O veredito FINAL é do Crivo, pior bloco manda (ver o Gate de saída abaixo).
 

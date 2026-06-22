@@ -53,13 +53,13 @@ Pra cada headline, a skill combina três camadas e audita. Em silêncio, não na
 | **Aciona gatilho** | Pelo menos 1 dos 7 gatilhos rastreável na frase final (não "no espírito", na frase). |
 | **Carrega assunto** | Acopla ao menos 1 dos 3 tipos de assunto. Idealmente cruza dois. |
 | **Target e leigo entendem** | Zero palavra-container sem adjetivo concreto ("sistema" sozinho falha; "sistema de aquisição" passa). |
-| **Comprimento por formato** | Reel ~7 palavras nos 3s · capa de carrossel 8–15 · story 5–10 · anúncio ≤5 nos 1.7s. |
+| **Comprimento por formato** | Reel ~7 palavras nos 3s · capa de carrossel 8-15 · story 5-10 · anúncio ≤5 nos 1.7s. |
 | **Mesa-sentado** | Eu falaria isso pro cliente na frente dele, sem soar copy de Instagram? |
 | **Ancorada (regra-zero)** | Fecha em chão, número, avatar ou mecanismo, ou nomeia o fenômeno. Tese solta e bonita ("o mercado paga o mais percebido", sozinha) é vazia; com chão vira lâmina. |
 | **As 3 perguntas (corte final)** | Dá pra ver? · Dá pra falsificar (um fato, não um adjetivo)? · Só você pode dizer (o concorrente não assina)? Headline que leva 3 sins passa. Detalhe e exemplos em `shared-references/filtro-anti-ia/teste-construtivo.md`. |
 | **Não viola o "não defendo"** | Nunca ensina a fazer melhor uma prática da lista. |
 
-> **Todo output obedece a lei de escrita da `shared-references`** (`guia/CODIGO-DE-ESCRITA.md`: as **8 leis** + **estrutura-mãe** Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento + **regra-zero**). A headline é o primeiro movimento desse arco. Depois, antes de entregar ao leitor, passa pelos filtros da `shared-references`, **Anti-IA** (toda copy) e **Mobile-First** (se for arte). Headline que não passa não sai.
+> **Todo output obedece a lei de escrita da `shared-references`** (`guia/CODIGO-DE-ESCRITA.md`: as **8 leis** + **estrutura-mãe** Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento + **regra-zero**). A headline é o primeiro movimento desse arco. Depois, antes de entregar ao leitor, passa pelos filtros da `shared-references`, **Anti-IA** (toda copy: roda `python3 scripts/lint_copy.py` na peça, ele reprova em-dash e o verbo banido da anti-voz Soft, ver `shared-references/filtro-anti-ia/padroes-banidos.md`, falha dura re-roda) e **Mobile-First** (se for arte). Headline que não passa não sai.
 
 ## Modo input livre (sem Plano empacado)
 
@@ -88,6 +88,7 @@ Os 30 templates, os 7 gatilhos e os 3 tipos vivem no Cap 7. Estes references tra
 - `references/comandos-rapidos.md`, lógica de volumes (50/100/200/300), protocolo de lotes pra banco grande, estrutura do artifact, variantes de comando.
 - `references/criterios-v2.md`, rastreabilidade física dos 7 gatilhos, exemplos passa/falha por nicho, tabela de comprimento por 8 formatos.
 - `references/modo-input-livre.md`, os 3 cenários de detecção e o decode de referência em 4 passos (modelar viral de outro nicho).
+- `references/amplificadores.md`, os 10 amplificadores falados (frase curta que precede a headline-template nos 3 primeiros segundos) + tabela de afinidade amplificador × template + onde encaixar por formato. Opcional, carrega quando o formato é reel falado/caption/story e a headline precisa de mais empurrão. A parte de VSL/abertura de webinar é operada na `soft-webinario`, não aqui.
 
 ## Handoff
 

@@ -187,7 +187,7 @@ Se necessário:
 - Formato MP4 H.264
 
 ### Pra embed (YouTube, Vimeo)
-Lazy load. Não embed direto — usa imagem de thumbnail que carrega vídeo só se o usuário clicar.
+Lazy load. Não embed direto - usa imagem de thumbnail que carrega vídeo só se o usuário clicar.
 
 ---
 

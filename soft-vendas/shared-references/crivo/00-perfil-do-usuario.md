@@ -10,7 +10,7 @@ Um gerador de copy só é tão bom quanto a matéria-prima do usuário. Se o pro
 
 1. **Fonte de VoC.** Onde está a fala REAL do público do usuário (a matéria-prima da ancoragem): calls, comentários, prints de conversa, mensagens de aluno, dúvida recorrente no Direct, ou uma wiki destilada. *Exemplo, perfil do Léo:* `/home/cloud/voc-wiki/` (com `wiki/padroes/` por tema). *Cliente self-serve:* o acervo dele, ou a mineração rápida do `01-entrada-verbatim.md` (protocolo sem-VoC) quando ainda não tem acervo.
 2. **Plano de Posicionamento + Biblioteca de Assinatura.** O avatar, os inimigos nominais, a tese central, os bordões e cenas-assinatura. Gerado pela skill `soft-posicionamento` (Blocos 1-5). Cada usuário tem o SEU. *Exemplo (outro nicho, ilustra o formato):* avatar "a dentista que atende bem e tem buraco na agenda", mecanismo nomeado "o Filtro de Caso", nicho odontologia. *Cada usuário:* o Plano dele.
-3. **Banco de provas.** Os cases REAIS do usuário (nome + número + prazo, falsificáveis) e os canais de conversão (WhatsApp, link de checkout, página). É o que preenche os `[CASE: ...]` e `[LINK]` das peças. **Cada prova precisa de LASTRO** — uma fonte verificável (print, página, contrato, gravação), não só o número. O banco mora materializado no slot 3 do `soft-perfil.md` do usuário, com a lista de **números a-NÃO-regredir** ao lado, pra copy nenhuma reinventar valor (mesmo número sempre, mesmo recorte). Sem banco, ou citando número sem lastro, a peça para em `RASCUNHO-COM-PENDÊNCIA` (estrutura pronta, falta o insumo do usuário). Ninguém inventa prova por ninguém.
+3. **Banco de provas.** Os cases REAIS do usuário (nome + número + prazo, falsificáveis) e os canais de conversão (WhatsApp, link de checkout, página). É o que preenche os `[CASE: ...]` e `[LINK]` das peças. **Cada prova precisa de LASTRO** - uma fonte verificável (print, página, contrato, gravação), não só o número. O banco mora materializado no slot 3 do `soft-perfil.md` do usuário, com a lista de **números a-NÃO-regredir** ao lado, pra copy nenhuma reinventar valor (mesmo número sempre, mesmo recorte). Sem banco, ou citando número sem lastro, a peça para em `RASCUNHO-COM-PENDÊNCIA` (estrutura pronta, falta o insumo do usuário). Ninguém inventa prova por ninguém.
 4. **Voz.** Como o usuário fala (termos que usa, termos que evita). *Exemplo, perfil do Léo:* a skill `soft-voz-leo-molina` (Léo-only). *Cliente:* declara a voz dele, ou a skill infere do VoC e confirma.
 5. **Nicho + estágio.** O nicho do usuário e o estágio de consciência/sofisticação do mercado dele (Schwartz, ver `05-premissas-mestras.md`). Decide o REGISTRO da abertura (passada 0.5 do gate). *Exemplo, perfil do Léo:* nicho saturado E4-E5. *Cliente:* o estágio do mercado dele, que pode ser outro.
 
@@ -50,7 +50,7 @@ Onboarding parcial é válido: com o Plano e um pouco de VoC já dá pra produzi
 [referência ao Plano gerado pela soft-posicionamento, ou colado: avatar, inimigos, tese, bordões, cenas-assinatura]
 
 ## 3. Banco de provas
-- Cases reais (nome + número + prazo + LASTRO): [preencher conforme chegam — cada prova com fonte verificável (print/página/contrato/gravação); número sem lastro não entra]
+- Cases reais (nome + número + prazo + LASTRO): [preencher conforme chegam - cada prova com fonte verificável (print/página/contrato/gravação); número sem lastro não entra]
 - Números a NÃO usar (drift / não-lastreado): [preencher se algum número circular sem fonte, com o recorte certo do número que o substitui]
 - WhatsApp / link de conversão: [preencher]
 

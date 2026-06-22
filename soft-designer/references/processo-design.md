@@ -73,7 +73,7 @@ O carrossel só vira imagem DEPOIS que a copy-visual passou no Crivo. Esta é a 
 2. **Ancora:** `shared-references/crivo/01-entrada-verbatim.md`, puxa a fala real do público do usuário sobre o tema. A capa e os cards nascem de palavra real, não de rótulo.
 3. **Escreve ou afia a copy-visual:** uma frase por card, na espinha (Fórmula 7), cada card UMA ideia comprimida (`shared-references/crivo/05-premissas-mestras.md`, as 8 leis). Se a copy-de-apoio que chegou é fraca ou falta um card, a skill ESCREVE o que falta, ancorada no perfil.
 4. **Passa pelo gate** `shared-references/crivo/03-gate-cub.md`: CUB por card, as 3 perguntas do Harry na CAPA (dá pra ver a cena? é falsificável? só este cliente diria?), a passada de Consciência, prova no CTA, e o anti-vazamento (nada do perfil-de-referência entra). Nicho regulado roda também `04-gate-regulado.md`. Card que não passa, reescreve antes de desenhar.
-5. **Anti-IA** `shared-references/filtro-anti-ia/`: sem travessão, sem frase de robô.
+5. **Anti-IA** `shared-references/filtro-anti-ia/`: sem travessão, sem frase de robô. Roda `python3 scripts/lint_copy.py` na copy-visual (ele reprova em-dash e o verbo banido da anti-voz Soft, ver `shared-references/filtro-anti-ia/padroes-banidos.md`, falha dura re-roda).
 
 Só com a copy-visual aprovada o desenho começa. Daqui pra frente, a regra de ouro: o render não muda palavra (se o layout exigir mexer, re-passa a ancoragem e a capa no gate).
 
@@ -171,7 +171,7 @@ python3 scripts/export_pngs.py \
   --output /home/claude/<nome>/slides
 ```
 
-O `export_pngs.py` roda o **gate de craft em código** (`scripts/craft.py`) antes de capturar: reprova peça com texto ilegível contra o fundo (contraste WCAG — o "branco no branco") e sinaliza órfã provável. Falha dura = **não exporta** (corrige e roda de novo; `--force` ignora, não use). É o que garante que os checks 14 e 10 da auditoria aconteçam SEMPRE, em código — não só quando o agente lembra. Na escrita de cada bloco de texto, use `nw()` de `scripts/craft.py` pra travar a anti-órfã na origem.
+O `export_pngs.py` roda o **gate de craft em código** (`scripts/craft.py`) antes de capturar: reprova peça com texto ilegível contra o fundo (contraste WCAG, o "branco no branco") e sinaliza órfã provável. Falha dura = **não exporta** (corrige e roda de novo; `--force` ignora, não use). É o que garante que os checks 14 e 10 da auditoria aconteçam SEMPRE, em código, não só quando o agente lembra. Na escrita de cada bloco de texto, use `nw()` de `scripts/craft.py` pra travar a anti-órfã na origem.
 
 Saída: `slide_01.png`, `slide_02.png`, … com zero-padding de 2 dígitos. Mova os PNGs pra `/mnt/user-data/outputs/` e use `present_files` com **todos os slides**, na ordem (o primeiro é o slide 1).
 

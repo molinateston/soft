@@ -16,10 +16,10 @@ A ortografia engana o olho. A boca não engana.
 
 ## Como aplicar
 
-### Passo 1 — Lê do começo ao fim
+### Passo 1 - Lê do começo ao fim
 Em voz alta. Sozinho ou pra outra pessoa. Sem pular pedaço.
 
-### Passo 2 — Marca o que tropeçou
+### Passo 2 - Marca o que tropeçou
 A cada vez que você tropeçou ou hesitou, marca o ponto.
 
 Tropeçou pode ser:
@@ -29,10 +29,10 @@ Tropeçou pode ser:
 - Ritmo que quebrou
 - Algo que soou alheio à sua voz
 
-### Passo 3 — Refaz cada ponto marcado
+### Passo 3 - Refaz cada ponto marcado
 Não passa pra próxima peça com algo emperrado. Refaz até a boca aceitar.
 
-### Passo 4 — Lê de novo
+### Passo 4 - Lê de novo
 Quando todos os pontos foram refeitos, lê o texto inteiro de novo.
 
 Se ainda tropeça, refaz. Repete até fluir.
@@ -41,29 +41,29 @@ Se ainda tropeça, refaz. Repete até fluir.
 
 ## Os 4 testes específicos
 
-### Teste 1 — Áudio de WhatsApp
+### Teste 1 - Áudio de WhatsApp
 Pergunta: "Eu mandaria isso como áudio pra um cliente meu no WhatsApp?"
 
-Se sim — passou.
-Se não — refaz.
+Se sim - passou.
+Se não - refaz.
 
-### Teste 2 — Mesa com o cliente
+### Teste 2 - Mesa com o cliente
 Pergunta: "Se o cliente alvo (a persona-âncora do especialista) estivesse sentado na minha frente tomando café, eu diria isso pra ele?"
 
-Se sim — passou.
-Se não — refaz.
+Se sim - passou.
+Se não - refaz.
 
-### Teste 3 — 6 meses depois
+### Teste 3 - 6 meses depois
 Pergunta: "Daqui a 6 meses, eu vou olhar esse texto e ter orgulho ou vergonha?"
 
-Se orgulho — passou.
-Se vergonha — refaz.
+Se orgulho - passou.
+Se vergonha - refaz.
 
-### Teste 4 — Comparação
+### Teste 4 - Comparação
 Pergunta: "Isso poderia ter sido escrito por ChatGPT padrão (sem prompt elaborado)?"
 
-Se sim — refaz.
-Se não — passou.
+Se sim - refaz.
+Se não - passou.
 
 ---
 
@@ -137,7 +137,7 @@ O teste em voz alta serve pra detectar performance disfarçada de naturalidade. 
 
 Aplica o checklist final dos 12 padrões banidos (ver padroes-banidos.md).
 
-Se passar nos 4 testes E zerar nos 12 padrões — publica.
+Se passar nos 4 testes E zerar nos 12 padrões - publica.
 
 Se algum falhar, refaz.
 

@@ -114,7 +114,7 @@ Dado específico do próprio especialista ou caso dele. Não é média, é núme
 
 **Template:** [Número específico] [unidade] [contexto temporal]. [Observação].
 
-**Exemplo (ilustrativo — use o número do cliente à frente):** R$13 milhões em 2 anos. 5 pessoas na equipe. Zero posts diários. No meu consultório, isso foi o padrão, não a exceção.
+**Exemplo (ilustrativo - use o número do cliente à frente):** R$13 milhões em 2 anos. 5 pessoas na equipe. Zero posts diários. No meu consultório, isso foi o padrão, não a exceção.
 
 ### 5. Diálogo Interno
 Captura a frase exata que o leitor fala pra si mesmo. É a voz mental dele, não a voz do criador.

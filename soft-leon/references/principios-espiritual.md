@@ -3,7 +3,7 @@
 
 ## O que esta reference é
 
-Biblioteca de princípios espirituais com a Bíblia como fonte primária, complementada por obras teológicas e de apologética cristã. Não é capelão falante — é fundação que o agente consulta antes de dar conselho, diagnóstico ou perspectiva em terreno espiritual.
+Biblioteca de princípios espirituais com a Bíblia como fonte primária, complementada por obras teológicas e de apologética cristã. Não é capelão falante, é fundação que o agente consulta antes de dar conselho, diagnóstico ou perspectiva em terreno espiritual.
 
 Cada princípio é atomizado em 5 campos: Origem, Tese, Mecanismo, Aplicação, Sinais que invocam.
 
@@ -13,12 +13,12 @@ Antes de responder qualquer coisa em terreno espiritual, teológico ou de busca 
 
 | Terreno | Arquivo de referência |
 |---|---|
-| Sabedoria prática bíblica — Provérbios, Eclesiastes, Tiago | `references/sabedoria-biblica.md` |
-| Identidade em Cristo — quem você é em Deus | `references/identidade-em-cristo.md` |
-| Vida prática cristã — virtudes, ética, ensinos de Jesus | `references/vida-pratica-e-virtude.md` |
-| Fundamentos da fé — bases racionais, por que crer | `references/fundamentos-da-fe.md` |
-| Graça e evangelho — centralidade da graça vs religiosidade | `references/graca-e-evangelho.md` |
-| Disciplinas espirituais — oração, jejum, comunhão, leitura | `references/disciplinas-espirituais.md` |
+| Sabedoria prática bíblica, Provérbios, Eclesiastes, Tiago | `references/sabedoria-biblica.md` |
+| Identidade em Cristo, quem você é em Deus | `references/identidade-em-cristo.md` |
+| Vida prática cristã, virtudes, ética, ensinos de Jesus | `references/vida-pratica-e-virtude.md` |
+| Fundamentos da fé, bases racionais, por que crer | `references/fundamentos-da-fe.md` |
+| Graça e evangelho, centralidade da graça vs religiosidade | `references/graca-e-evangelho.md` |
+| Disciplinas espirituais, oração, jejum, comunhão, leitura | `references/disciplinas-espirituais.md` |
 
 Índice rápido em `references/INDEX.md`.
 
@@ -27,7 +27,7 @@ Antes de responder qualquer coisa em terreno espiritual, teológico ou de busca 
 ### Princípios operacionais
 
 - **Bíblia é fonte primária.** Os outros livros comentam, aplicam ou defendem o que está nela. Em conflito de interpretação, o texto bíblico em seu contexto vence o comentário.
-- **Perspectiva cristã ampla.** A skill não opera em uma tradição denominacional específica (católica, evangélica, ortodoxa, etc.). Trabalha o que é comum ao cristianismo histórico — o que C. S. Lewis chamou de "mero cristianismo".
+- **Perspectiva cristã ampla.** A skill não opera em uma tradição denominacional específica (católica, evangélica, ortodoxa, etc.). Trabalha o que é comum ao cristianismo histórico, o que C. S. Lewis chamou de "mero cristianismo".
 - **Não substitui pastor, sacerdote ou comunidade local.** Em casos pastorais delicados, redirecionar pra busca de comunidade de fé presencial.
 - **Respeita o ritmo do usuário.** Se ele não se identifica como cristão, princípios podem ser apresentados como perspectiva, não como prescrição.
 - **Não evangeliza unsolicited.** A pessoa pede conselho dentro do terreno; o agente entrega. Não força conversão nem moralização.
@@ -49,6 +49,6 @@ Antes de responder qualquer coisa em terreno espiritual, teológico ou de busca 
 
 ## Princípio raiz transversal
 
-> **Vida espiritual não é performance — é relacionamento sustentado por graça.**
+> **Vida espiritual não é performance, é relacionamento sustentado por graça.**
 >
 > Tudo o que esta reference ensina deveria, em última análise, conduzir o usuário a um relacionamento mais real com Deus, não a uma identidade religiosa mais polida. A diferença é tudo.

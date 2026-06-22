@@ -7,7 +7,7 @@ Modelo baseado em contrato real validado em vendas Soft. Usar como default em to
 - Princípios deste modo
 - Template completo
 - Checklist final antes de entregar
-- Decisões fora do default — quando perguntar
+- Decisões fora do default, quando perguntar
 
 ---
 
@@ -16,7 +16,7 @@ Modelo baseado em contrato real validado em vendas Soft. Usar como default em to
 - **11 cláusulas**, não 13. Sem LGPD detalhada, sem Disposições Gerais extensas.
 - **Linguagem direta**, sem juridiquês. Frases curtas. Negrito nas palavras-chave.
 - **Numeração decimal simples** (1, 2, 3... com subitens 1.1, 2.1).
-- **Cláusula de atraso sem multa, sem juros** — tom flexível.
+- **Cláusula de atraso sem multa, sem juros**, tom flexível.
 - **Não cita CDC, LGPD, Código Civil** no corpo (apenas implicitamente os respeita).
 - **Tamanho típico**: 3 a 5 páginas.
 
@@ -58,16 +58,16 @@ CONTRATADO: [como acima]
 
 ```
 Prestação de serviços de consultoria estratégica voltada a [resumo do que
-o serviço resolve — ex.: "posicionamento, estruturação de oferta,
+o serviço resolve, ex.: "posicionamento, estruturação de oferta,
 comunicação e aquisição de clientes"].
 
-Metodologia aplicada: [nome do método, se houver — ex.: "Negócio Digital
+Metodologia aplicada: [nome do método, se houver, ex.: "Negócio Digital
 Soft, Soft Marketing e Instagram 3C"], com foco na [linha de uma
-resultado-meio, NÃO de resultado financeiro — ex.: "construção de
+resultado-meio, NÃO de resultado financeiro, ex.: "construção de
 posicionamento simples, oferta clara e aquisição previsível de clientes"].
 ```
 
-**Atenção:** descrição de método sim, promessa de número não. "Aquisição previsível" é meio; "R$ 30k de faturamento" é fim — não entra aqui.
+**Atenção:** descrição de método sim, promessa de número não. "Aquisição previsível" é meio; "R$ 30k de faturamento" é fim, não entra aqui.
 
 ---
 
@@ -78,12 +78,12 @@ Estrutura: subitens 2.1, 2.2, 2.3 por sessão/módulo + 2.X por acompanhamento.
 Template:
 
 ```
-2.1 Sessão 1 — [Nome da sessão]
+2.1 Sessão 1, [Nome da sessão]
 • [Entregável 1]
 • [Entregável 2]
 • [Entregável 3]
 
-2.2 Sessão 2 — [Nome da sessão]
+2.2 Sessão 2, [Nome da sessão]
 • [Entregável 1]
 • [Entregável 2]
 
@@ -147,15 +147,15 @@ O início está condicionado à confirmação do pagamento.
 Valor total: R$ [X],00.
 
 Forma de pagamento:
-a) 1ª parcela — R$ [Y],00 no ato da contratação, via [meio];
-b) 2ª parcela — R$ [Z],00 com vencimento em 30 (trinta) dias contados da
+a) 1ª parcela. R$ [Y],00 no ato da contratação, via [meio];
+b) 2ª parcela. R$ [Z],00 com vencimento em 30 (trinta) dias contados da
    1ª parcela, via [meio];
 [demais parcelas]
 
 O início está condicionado à confirmação do pagamento da 1ª parcela.
 ```
 
-**Variante ENTRADA + META (qualquer das 3 sub-variantes — meta mensal, acumulada ou evento):**
+**Variante ENTRADA + META (qualquer das 3 sub-variantes, meta mensal, acumulada ou evento):**
 
 Exemplo Meta Acumulada (DEFAULT):
 
@@ -163,10 +163,10 @@ Exemplo Meta Acumulada (DEFAULT):
 Valor total: R$ [X],00.
 
 Forma de pagamento:
-a) 1ª parcela — R$ [Y],00 no ato da contratação, via [meio];
-b) 2ª parcela — R$ [Z],00 com vencimento em [30/60] dias contados da 1ª
+a) 1ª parcela. R$ [Y],00 no ato da contratação, via [meio];
+b) 2ª parcela. R$ [Z],00 com vencimento em [30/60] dias contados da 1ª
    parcela, via [meio];
-c) 3ª parcela — R$ [W],00 devida quando o CONTRATANTE atingir R$ [META],00
+c) 3ª parcela. R$ [W],00 devida quando o CONTRATANTE atingir R$ [META],00
    de faturamento em seu próprio negócio com aplicação da estratégia
    desenvolvida no escopo deste contrato, mediante comunicação formal ao
    CONTRATADO no prazo de 5 (cinco) dias úteis a contar do atingimento.
@@ -264,7 +264,7 @@ parcelas vincendas permanecem devidas.
 
 ### 9. ATRASO NO PAGAMENTO
 
-**DEFAULT — Tom Soft Flexível (sem multa, sem juros):**
+**DEFAULT. Tom Soft Flexível (sem multa, sem juros):**
 
 ```
 Em caso de atraso no pagamento de qualquer parcela, as partes buscarão
@@ -279,7 +279,7 @@ regularização.
 - Ticket acima de R$ 15k
 - Cliente PJ desconhecida ou de grande porte
 
-Nesses casos, alertar o usuário e oferecer Tom B (Padrão) — ver `clausulas-anti-calote.md`.
+Nesses casos, alertar o usuário e oferecer Tom B (Padrão), ver `clausulas-anti-calote.md`.
 
 ---
 
@@ -322,10 +322,10 @@ CONTRATANTE
 _______________________________________________________
 CONTRATADO
 [Razão social] · [CNPJ]
-[Nome do representante] — [cargo]
+[Nome do representante], [cargo]
 ```
 
-**Atenção:** no modo Soft Enxuto, **não inclui testemunhas**. Modelo é assinado pelas partes apenas, com plataforma de assinatura eletrônica garantindo autenticidade. Se o usuário pedir testemunhas (e.g., contrato vai pra cobrança judicial direta como título executivo), oferecer adicionar — mas avisar que isso pertence mais ao modo Robusto.
+**Atenção:** no modo Soft Enxuto, **não inclui testemunhas**. Modelo é assinado pelas partes apenas, com plataforma de assinatura eletrônica garantindo autenticidade. Se o usuário pedir testemunhas (e.g.  contrato vai pra cobrança judicial direta como título executivo), oferecer adicionar, mas avisar que isso pertence mais ao modo Robusto.
 
 ---
 
@@ -336,12 +336,12 @@ CONTRATADO
 - [ ] Cláusula 2 lista limites do suporte explicitamente
 - [ ] Cláusula 4 cobre a modalidade correta de pagamento
 - [ ] Se entrada+meta: itens 4.1, 4.2 e 4.3 presentes
-- [ ] Cláusula 7 (Não Garantia) presente — não negociável
+- [ ] Cláusula 7 (Não Garantia) presente, não negociável
 - [ ] Cláusula 9 com tom Soft Flexível (sem multa/juros)
 - [ ] Foro definido
 - [ ] Assinaturas com nomes e CPF/CNPJ corretos
 
-## Decisões fora do default — quando perguntar
+## Decisões fora do default, quando perguntar
 
 Se o caso bater em algum desses gatilhos, **perguntar ao usuário** antes de seguir:
 

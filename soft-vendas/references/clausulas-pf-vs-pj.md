@@ -187,7 +187,7 @@ suficiente.
 | Garantia 7 dias infoproduto | Obrigatória | Não obrigatória |
 | Foro | Domicílio do consumidor | Eleição contratual |
 | Multa moratória máxima | 2% | Até 10% (recomendar 2%) |
-| Retenções tributárias | Não | Possíveis — incluir cláusula |
+| Retenções tributárias | Não | Possíveis, incluir cláusula |
 | Limitação de responsabilidade | Não incluir | Incluir |
 | LGPD operador/controlador | Cláusula simples | Cláusula expandida |
 | Confidencialidade ampliada | Padrão | Reforçada |

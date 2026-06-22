@@ -257,8 +257,7 @@ Cliente fechado não termina o ciclo no fim do programa. Expansão é o 3º ativ
 "Você tá no penúltimo encontro do [programa atual]. Quero
 falar de algo separado da gente avaliar o que entregamos.
 
-Olhando o que você tá vivendo agora, [resultado atingido] —
-o próximo passo natural é [próxima oferta]. Não é continuação
+Olhando o que você tá vivendo agora, [resultado atingido], o próximo passo natural é [próxima oferta]. Não é continuação
 do mesmo. É outro patamar.
 
 Não tá te empurrando. Quero que você saiba que existe e
@@ -378,3 +377,13 @@ A skill diagnostica funil/métricas (Modo D). Quando o cliente Soft Business já
 Pós-venda Soft não é "fidelização" no sentido genérico. É **extração estruturada de valor de quem já comprou**, através de indicação, testemunho e expansão.
 
 > *Cliente bem entregue vira vendedor. Mas só com sistema. Sem sistema, vira foto na parede.*
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.** Todo texto que vai pro cliente daqui (pedido de indicação, modelo de apresentação, pedido de testemunho, mensagem de check-in, oferta de expansão) passa por este gate antes de sair.

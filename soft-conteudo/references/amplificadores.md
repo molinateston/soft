@@ -1,6 +1,6 @@
 # Amplificadores Falados, 10 Frases que Precedem a Headline
 
-> **Reference opcional.** Carrega quando o cliente pede explicitamente OU quando o formato é reel falado / VSL / abertura de webinar e faz sentido amplificar a headline-template.
+> **Reference opcional, da frente de headlines.** Carrega de `references/processo-headlines.md` quando o cliente pede explicitamente OU quando o formato é reel falado / caption / story e faz sentido amplificar a headline-template. O encaixe em VSL/abertura de webinar é da `soft-webinario` (degrau 2), aqui o foco é atração de feed.
 
 ---
 
@@ -72,8 +72,8 @@ Amplificador na primeira linha (peso de SEO + curiosidade), headline-template na
 ### Story em vídeo
 Amplificador no áudio inicial · headline-template aparece como texto na tela durante o desenvolvimento.
 
-### VSL / abertura de webinar
-Amplificador entra como **frase de abertura antes do gancho principal**. Funciona como teaser de 2-3 segundos.
+### VSL / abertura de webinar (operado na `soft-webinario`)
+Amplificador entra como **frase de abertura antes do gancho principal**. Funciona como teaser de 2-3 segundos. Este encaixe é do degrau 2; quando a peça for de webinar, a `soft-webinario` é quem conduz, esta reference só empresta a engenharia da frase.
 
 ---
 

@@ -26,7 +26,7 @@ A diferença entre os dois não é tempo. É estrutura.
 
 ## Os 4 blocos essenciais
 
-### Bloco 1 — Atendimento (Cliente)
+### Bloco 1, Atendimento (Cliente)
 Tempo dedicado a clientes pagantes ativos.
 - Mentorias 1:1
 - Reuniões de grupo
@@ -34,7 +34,7 @@ Tempo dedicado a clientes pagantes ativos.
 - Suporte e ajustes
 - Feedback de entregáveis
 
-### Bloco 2 — Produção (atração)
+### Bloco 2, Produção (atração)
 Tempo dedicado a criar conteúdo de atração.
 - Escrever carrosséis
 - Gravar reels
@@ -42,7 +42,7 @@ Tempo dedicado a criar conteúdo de atração.
 - Editar peças
 - Postar nas redes
 
-### Bloco 3 — Venda (desejo + conversão)
+### Bloco 3, Venda (desejo + conversão)
 Tempo dedicado a converter leads em clientes.
 - Responder leads novos
 - Follow-up de prospects
@@ -51,7 +51,7 @@ Tempo dedicado a converter leads em clientes.
 - Lançamento de janelas
 - E-mail marketing
 
-### Bloco 4 — Operação Interna
+### Bloco 4, Operação Interna
 Tempo dedicado a manter o negócio rodando.
 - Finanças (notas, contas, planejamento)
 - Aprendizado (leitura, curso, atualização)
@@ -66,35 +66,35 @@ Tempo dedicado a manter o negócio rodando.
 Pra cliente Soft típico (consultor, profissional liberal, ~25h/semana de operação):
 
 ```
-SEGUNDA-FEIRA — Produção
-09:00 - 12:00  🟦 Bloco Produção (atração) — 3h
+SEGUNDA-FEIRA - Produção
+09:00 - 12:00  🟦 Bloco Produção (atração) - 3h
 12:00 - 13:30  🟢 Almoço
-13:30 - 15:00  🟦 Bloco Produção (atração) — 1.5h
+13:30 - 15:00  🟦 Bloco Produção (atração) - 1.5h
 15:00 - 17:00  🟢 Pausa / família
 
-TERÇA-FEIRA — Atendimento
-09:00 - 12:00  🟦 Bloco Atendimento — 3h (3 sessões 1:1 ou grupo)
+TERÇA-FEIRA - Atendimento
+09:00 - 12:00  🟦 Bloco Atendimento - 3h (3 sessões 1:1 ou grupo)
 12:00 - 13:30  🟢 Almoço
-13:30 - 16:00  🟦 Bloco Atendimento — 2.5h
+13:30 - 16:00  🟦 Bloco Atendimento - 2.5h
 
-QUARTA-FEIRA — Venda + Operação
-09:00 - 11:00  🟦 Bloco Venda — 2h (responder leads, follow-up)
-11:00 - 12:00  🟦 Bloco Operação Interna — 1h (revisão, finanças)
+QUARTA-FEIRA - Venda + Operação
+09:00 - 11:00  🟦 Bloco Venda - 2h (responder leads, follow-up)
+11:00 - 12:00  🟦 Bloco Operação Interna - 1h (revisão, finanças)
 12:00 - 13:30  🟢 Almoço
-13:30 - 15:30  🟦 Bloco Venda — 2h (reuniões prospect)
+13:30 - 15:30  🟦 Bloco Venda - 2h (reuniões prospect)
 
-QUINTA-FEIRA — Atendimento
-09:00 - 12:00  🟦 Bloco Atendimento — 3h
+QUINTA-FEIRA - Atendimento
+09:00 - 12:00  🟦 Bloco Atendimento - 3h
 12:00 - 13:30  🟢 Almoço
-13:30 - 16:00  🟦 Bloco Atendimento — 2.5h
+13:30 - 16:00  🟦 Bloco Atendimento - 2.5h
 
-SEXTA-FEIRA — Produção + Revisão
-09:00 - 12:00  🟦 Bloco Produção (atração) — 3h
+SEXTA-FEIRA - Produção + Revisão
+09:00 - 12:00  🟦 Bloco Produção (atração) - 3h
 12:00 - 13:30  🟢 Almoço
-13:30 - 15:00  🟦 Ritual de revisão semanal — 1.5h
+13:30 - 15:00  🟦 Ritual de revisão semanal - 1.5h
 15:00 em diante 🟢 Fim antecipado / vida pessoal
 
-SÁBADO + DOMINGO — Vida
+SÁBADO + DOMINGO - Vida
 🟢 Off completo
 ```
 
@@ -117,7 +117,7 @@ Mistura mata o flow.
 ### 2. Blocos de 2-4 horas (não 1h)
 Bloco de 1h ainda exige switching constante. Bloco de 2-4h permite mergulho.
 
-Bloco maior que 4h cansa — produção cai na segunda metade.
+Bloco maior que 4h cansa, produção cai na segunda metade.
 
 ### 3. Mesmo tipo de trabalho no mesmo bloco
 Produção de carrossel + produção de reel = mesmo bloco (Bloco Produção).
@@ -143,31 +143,31 @@ Quem trabalha sexta cheia chega no fim de semana exausto.
 
 ## Os blocos por dia da semana (princípios)
 
-### Segunda-feira — Produção
+### Segunda-feira, Produção
 Início da semana com criação. Energia alta, cabeça descansada.
 Conteúdo gravado/escrito segunda dura a semana inteira.
 
-### Terça-feira — Atendimento (forte)
+### Terça-feira, Atendimento (forte)
 Cliente esperou o fim de semana. Terça é o dia que ele mais aparece e demanda.
 Bloco grande de atendimento absorve essa demanda.
 
-### Quarta-feira — Venda + Operação
+### Quarta-feira, Venda + Operação
 Meio da semana, hora de prospectar.
 Operação interna no meio também (resolver o que apareceu segunda e terça).
 
-### Quinta-feira — Atendimento (forte)
+### Quinta-feira, Atendimento (forte)
 Segundo dia forte de atendimento.
 Garante 2 dias de atendimento na semana, com produção no meio.
 
-### Sexta-feira — Produção + Revisão
+### Sexta-feira, Produção + Revisão
 Sexta cedo: produção (com menos energia que segunda, mas funciona).
 Sexta meio-dia: revisão semanal (ritual essencial).
 Sexta tarde: fim.
 
-### Sábado e domingo — Off
+### Sábado e domingo, Off
 Sem trabalho. Vida pessoal.
 
-Exceções raras (cliente premium em crise, oportunidade única) — não viram regra.
+Exceções raras (cliente premium em crise, oportunidade única), não viram regra.
 
 ---
 
@@ -177,7 +177,7 @@ A estrutura modelo acima funciona pra cliente padrão. Cada cliente ajusta confo
 
 ### Cliente com filho pequeno
 Manhã geralmente é levar filho, então blocos começam 09:30-10:00.
-Pode incluir 1h de bloco extra à noite (depois do filho dormir) — mas raro.
+Pode incluir 1h de bloco extra à noite (depois do filho dormir), mas raro.
 
 ### Cliente que treina de manhã
 Bloco começa 10:00 (depois do treino).
@@ -214,7 +214,7 @@ Cliente Soft estabelece **política de resposta**:
 
 > "Eu respondo mensagem de cliente entre 09h e 18h em dias úteis. Fora desse horário, vejo no dia seguinte."
 
-Cliente que aceita essa política é cliente Soft. Cliente que exige resposta 24/7 não é cliente Soft — recusa.
+Cliente que aceita essa política é cliente Soft. Cliente que exige resposta 24/7 não é cliente Soft, recusa.
 
 Sem essa regra, blocos são corroídos por urgência fake.
 
@@ -258,19 +258,19 @@ Esses documentos viram parte do entregável da Implementação Soft.
 
 ## Anti-padrões dos blocos
 
-### Anti-padrão 1 — Blocos curtos demais
+### Anti-padrão 1, Blocos curtos demais
 "Vou ter 8 blocos de 1h por dia." Switching constante. Não funciona.
 
-### Anti-padrão 2 — Blocos misturados
+### Anti-padrão 2, Blocos misturados
 "Bloco de manhã = um pouco de tudo." Vira o caos disfarçado de estrutura.
 
-### Anti-padrão 3 — Bloco protegido só na cabeça
+### Anti-padrão 3, Bloco protegido só na cabeça
 Cliente diz "vou proteger meu bloco" mas atende WhatsApp constante. Sem desligar de fato, não tem bloco.
 
-### Anti-padrão 4 — Encaixar bloco grande na "hora ruim"
+### Anti-padrão 4, Encaixar bloco grande na "hora ruim"
 Bloco de atendimento das 17h às 20h. Energia já baixa. Atendimento ruim. Cliente sente.
 
-### Anti-padrão 5 — Trabalhar fim de semana "só hoje"
+### Anti-padrão 5, Trabalhar fim de semana "só hoje"
 Vira hábito. Em 3 meses, fim de semana é trabalho normal. Vida sumiu.
 
 ---

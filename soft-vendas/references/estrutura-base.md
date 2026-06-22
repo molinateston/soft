@@ -72,7 +72,7 @@ CONTRATADA: [conforme acima]
 
 ## Cláusula 1ª · Do Objeto
 
-Cláusula central — descreve **o que** será entregue. Conteúdo específico vem de `clausulas-por-formato.md`.
+Cláusula central, descreve **o que** será entregue. Conteúdo específico vem de `clausulas-por-formato.md`.
 
 Estrutura padrão:
 
@@ -87,7 +87,7 @@ DO PROGRAMA]", consistindo em [descrição objetiva].
 [lista detalhada do que está incluso]
 
 1.3. NÃO estão incluídos no escopo deste contrato:
-[lista de exclusões explícitas — importante pra evitar discussão futura]
+[lista de exclusões explícitas, importante pra evitar discussão futura]
 
 1.4. O serviço ora contratado é de natureza intelectual e consultiva,
 configurando obrigação de meio, e não de resultado. A CONTRATADA compromete-se
@@ -191,7 +191,7 @@ CLÁUSULA 5ª · DO VALOR E CONDIÇÕES DE PAGAMENTO
 5.1. Pelo serviço objeto deste contrato, o CONTRATANTE pagará à CONTRATADA o
 valor total de R$ [VALOR] ([VALOR POR EXTENSO]).
 
-5.2. [Modalidade específica — ver clausulas-pagamento.md]
+5.2. [Modalidade específica, ver clausulas-pagamento.md]
 
 5.3. Os pagamentos serão realizados via [PIX para chave [CHAVE] / boleto
 bancário / link de cartão de crédito], em favor da CONTRATADA.
@@ -262,7 +262,7 @@ d) Comercializar, sob qualquer forma, os materiais ou conhecimentos
    metodológicos recebidos como produto próprio.
 
 8.4. O descumprimento desta cláusula sujeita o CONTRATANTE ao pagamento de
-multa de R$ [valor — geralmente 2 a 5x o valor do contrato], sem prejuízo da
+multa de R$ [valor, geralmente 2 a 5x o valor do contrato], sem prejuízo da
 apuração de perdas e danos e das medidas cabíveis em âmbito cível e criminal.
 
 8.5. A aplicação prática dos conhecimentos no próprio negócio do CONTRATANTE

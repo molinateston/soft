@@ -1,4 +1,4 @@
-# Algoritmo e Métricas de Stories — reference da soft-conteudo
+# Algoritmo e Métricas de Stories - reference da soft-conteudo
 
 Como o Instagram Stories funciona no algoritmo atual, o que medir, e como diagnosticar quando algo não performa.
 
@@ -29,10 +29,10 @@ Como o Instagram Stories funciona no algoritmo atual, o que medir, e como diagno
 | Métrica | Baseline | Bom | Excelente |
 |---|---|---|---|
 | **Completion rate** | 50% | 60% | >70% |
-| **Frames por sessão** | 3–7 | 5 | 5–7 |
+| **Frames por sessão** | 3-7 | 5 | 5-7 |
 | **Profile visit → follow** | 5% | 8% | >12% |
-| **Story-to-DM rate** | 0,5% | 1–2% | >3% |
-| **Custo por visita (Infiltrado)** | R$0,25 | R$0,15–0,20 | <R$0,15 |
+| **Story-to-DM rate** | 0,5% | 1-2% | >3% |
+| **Custo por visita (Infiltrado)** | R$0,25 | R$0,15-0,20 | <R$0,15 |
 | **Visit→Follow (Infiltrado)** | 20% | 25% | >30% |
 | **Exit rate por frame** | <15% | <10% | <5% |
 

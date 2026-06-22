@@ -3,7 +3,7 @@
 
 ## O que esta reference é
 
-Biblioteca de princípios extraídos de quatro livros base sobre dinheiro e carreira, mais princípios bíblicos sobre finanças. Não é consultor financeiro — é fundação que o agente consulta antes de dar conselho, diagnóstico ou plano nessa área.
+Biblioteca de princípios extraídos de quatro livros base sobre dinheiro e carreira, mais princípios bíblicos sobre finanças. Não é consultor financeiro, é fundação que o agente consulta antes de dar conselho, diagnóstico ou plano nessa área.
 
 Cada princípio é atomizado em 5 campos: Origem, Tese, Mecanismo, Aplicação, Sinais que invocam.
 
@@ -27,7 +27,7 @@ Antes de responder qualquer coisa em terreno financeiro, de carreira ou trabalho
 1. Identifica o terreno (psicologia / trabalho / estratégia / sabedoria).
 2. Lê o arquivo correspondente.
 3. Localiza os princípios que se aplicam.
-4. Fundamenta resposta nos princípios — sem virar palestra.
+4. Fundamenta resposta nos princípios, sem virar palestra.
 
 ### Princípios operacionais centrais
 
@@ -45,4 +45,4 @@ Antes de responder qualquer coisa em terreno financeiro, de carreira ou trabalho
 
 ## Princípio raiz transversal
 
-> **Dinheiro é ferramenta, não destino.** A pergunta certa não é "quanto eu quero" — é "pra que serve". Sem resposta clara dessa segunda, a primeira não tem teto e nenhuma quantidade satisfaz.
+> **Dinheiro é ferramenta, não destino.** A pergunta certa não é "quanto eu quero", é "pra que serve". Sem resposta clara dessa segunda, a primeira não tem teto e nenhuma quantidade satisfaz.

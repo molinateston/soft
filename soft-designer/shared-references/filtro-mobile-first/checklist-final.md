@@ -6,7 +6,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 1 — Tipografia
+## Passo 1 - Tipografia
 
 - [ ] Corpo de texto ≥ 18px no mobile
 - [ ] H1 ≥ 32px no mobile
@@ -21,7 +21,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 2 — Contraste e cor
+## Passo 2 - Contraste e cor
 
 - [ ] Contraste passa WCAG AA (4.5:1 pra corpo, 3:1 pra título grande)
 - [ ] Validado em ferramenta (WebAIM Contrast Checker)
@@ -34,7 +34,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 3 — Espaçamento e layout
+## Passo 3 - Espaçamento e layout
 
 - [ ] Line-height do corpo 1.5-1.7
 - [ ] Margens laterais ≥ 24px no mobile
@@ -49,7 +49,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 4 — CTAs
+## Passo 4 - CTAs
 
 - [ ] Largura ≥ 80% da tela no mobile
 - [ ] Altura ≥ 56px
@@ -64,7 +64,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 5 — Performance
+## Passo 5 - Performance
 
 - [ ] Página carrega em < 3s no 3G simulado
 - [ ] Imagens otimizadas (WebP/AVIF + comprimidas)
@@ -77,7 +77,7 @@ Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
 
 ---
 
-## Passo 6 — Teste no celular REAL
+## Passo 6 - Teste no celular REAL
 
 Não no DevTools. Celular real.
 
@@ -91,7 +91,7 @@ Não no DevTools. Celular real.
 
 ---
 
-## Passo 7 — Acessibilidade básica
+## Passo 7 - Acessibilidade básica
 
 - [ ] Imagens com alt-text
 - [ ] Botões com texto descritivo (não só ícone)
@@ -102,7 +102,7 @@ Não no DevTools. Celular real.
 
 ---
 
-## Passo 8 — Anti-IA (cruzar com `shared-references/filtro-anti-ia/`)
+## Passo 8 - Anti-IA (cruzar com `shared-references/filtro-anti-ia/`)
 
 - [ ] Zero em dashes "—" no texto
 - [ ] Nenhuma frase-emoldura
@@ -112,7 +112,7 @@ Não no DevTools. Celular real.
 
 ---
 
-## Passo 9 — Funcional
+## Passo 9 - Funcional
 
 - [ ] Todos os links funcionam
 - [ ] Formulário envia corretamente
@@ -122,7 +122,7 @@ Não no DevTools. Celular real.
 
 ---
 
-## Passo 10 — Mensagem central
+## Passo 10 - Mensagem central
 
 Esse é o teste de fechamento.
 

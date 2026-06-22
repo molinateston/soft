@@ -1,4 +1,4 @@
-# Longevidade e VO2max — base de evidência completa
+# Longevidade e VO2max, base de evidência completa
 
 ## A métrica mais importante: VO2max
 
@@ -8,9 +8,9 @@
 - Cada 1 MET adicional em CRF → **–13% mortalidade total** e **–15% eventos CV**
 
 **Mandsager et al. 2018** (*JAMA Network Open* 1:e183605, 122.007 adultos, Cleveland Clinic):
-- Elite (≥97,6 percentil) vs baixa CRF: **HR 0,20 — redução de 80%**
+- Elite (≥97,6 percentil) vs baixa CRF: **HR 0,20, redução de 80%**
 - Sem teto de benefício observado
-- Baixa CRF: **HR 5,04** — maior preditor individual de mortalidade
+- Baixa CRF: **HR 5,04**, maior preditor individual de mortalidade
 - Comparação: tabagismo HR 1,41 | diabetes HR 1,40 | doença coronariana HR 1,29
 
 **Lang et al. 2024** (*BJSM*, overview 26 SRs, ~20,9 milhões de observações):
@@ -26,14 +26,14 @@
 - Acima de 17,5 mMET-h/sem: benefícios adicionais pequenos e incertos
 
 **Ekelund et al. 2019** (*BMJ* 366:l4570, 36.383 adultos, acelerometria):
-- Q4 mais ativo vs mais inativo: **HR 0,27 — 73% redução em mortalidade**
+- Q4 mais ativo vs mais inativo: **HR 0,27, 73% redução em mortalidade**
 - **24 minutos diários de MVPA** capturam ~90% do benefício
 
 **Arem et al. 2015** (*JAMA Intern Med*, 661.137 adultos):
 - Benefício máximo entre 3–5× a recomendação WHO
-- **Sem aumento de mortalidade em ≥10× a recomendação** — a J-curve não se confirma para mortalidade total
+- **Sem aumento de mortalidade em ≥10× a recomendação**: a J-curve não se confirma para mortalidade total
 
-## Treino de força e mortalidade — saturação rápida
+## Treino de força e mortalidade, saturação rápida
 
 **Momma et al. 2022** (*Br J Sports Med* 56:755, referência principal, 16 estudos):
 - Curva dose-resposta em J: pico em **30–60 min/semana**
@@ -41,19 +41,19 @@
 
 **Saeidifard et al. 2019** (*Eur J Prev Cardiol* 26:1647, 370.256 participantes):
 - Qualquer força: **HR 0,79** mortalidade total
-- Força + aeróbico combinado: **HR 0,60 — 40% redução**
+- Força + aeróbico combinado: **HR 0,60, 40% redução**
 - Acima de 2 sessões/semana: sem benefício adicional em mortalidade
 
 **Shailendra et al. 2022** (*Am J Prev Med*): pico de –27% em ~60 min/semana
 
-**Implicação prática**: 30–60 min/semana de força (2 sessões) captura praticamente todo o benefício de mortalidade do treino resistido. Volumes maiores adicionam hipertrofia, função e qualidade de vida — não longevidade.
+**Implicação prática**: 30–60 min/semana de força (2 sessões) captura praticamente todo o benefício de mortalidade do treino resistido. Volumes maiores adicionam hipertrofia, função e qualidade de vida, não longevidade.
 
-## Zona 2 — o que os dados realmente dizem
+## Zona 2, o que os dados realmente dizem
 
 ### O que tem evidência mecanística (real)
 - San-Millán & Brooks 2018: oxidação lipídica máxima em ciclistas de elite ocorre abaixo do limiar de lactato
 - Exercício contínuo moderado efetivamente desenvolve adaptações mitocondriais
-- Volume aeróbico de baixo custo de recuperação — útil para acumular MVPA sem sobrecarregar
+- Volume aeróbico de baixo custo de recuperação, útil para acumular MVPA sem sobrecarregar
 
 ### O que NÃO tem evidência
 **Storoschuk, Gibala et al. 2025** (*Sports Med*, PMID 40560504, revisão crítica por uma das maiores autoridades em HIIT):
@@ -72,11 +72,11 @@
 
 **Meta-análises** (Milanović 2015, Weston 2014): HIIT supera contínuo em ~5–9% de ganho adicional em VO2max.
 
-**Ressalva importante**: não existe RCT demonstrando redução de mortalidade pelo 4×4 especificamente. A cadeia inferencial é: 4×4 ↑ VO2max → VO2max ↑ ↓ mortalidade. Plausível. Aceitável como prescrição. Mas apresentada por Attia como evidência direta — é inferência.
+**Ressalva importante**: não existe RCT demonstrando redução de mortalidade pelo 4×4 especificamente. A cadeia inferencial é: 4×4 ↑ VO2max → VO2max ↑ ↓ mortalidade. Plausível. Aceitável como prescrição. Mas apresentada por Attia como evidência direta, é inferência.
 
 ## Equilíbrio e mobilidade para longevidade
 
-**Sherrington et al. 2019** Cochrane (CD012424, 108 RCTs, 23.407 idosos) — GRADE alta certeza:
+**Sherrington et al. 2019** Cochrane (CD012424, 108 RCTs, 23.407 idosos), GRADE alta certeza:
 - Exercício: –23% taxa de quedas (RaR 0,77) e –15% quedosos (RR 0,85)
 - Multicomponente (força + equilíbrio): RaR 0,66
 - Tai Chi: RR 0,76–0,80 (Lomas-Vega 2017, Huang 2017)
@@ -95,7 +95,7 @@
 - Progressão de VO2max: ao menos 1–2 sessões de maior intensidade/semana
 
 ### Máximo com benefício incremental documentado
-- Até ~17,5 mMET-h/sem (≈ 300 min/sem MVPA) — após isso, curva achata
+- Até ~17,5 mMET-h/sem (≈ 300 min/sem MVPA), após isso, curva achata
 - Força: acima de 60–90 min/sem, benefícios em longevidade não crescem (em hipertrofia/força, crescem)
 
 ### Ideal integrado (framework baseado em evidência)

@@ -40,7 +40,7 @@ Quase sempre dá pra resolver sem a terceira.
 
 ## Os 2 formatos de esteira mínima
 
-### Formato A — 1 oferta principal só
+### Formato A, 1 oferta principal só
 
 Cliente tem só uma oferta. Geralmente:
 - Mentoria/consultoria 1:1
@@ -59,7 +59,7 @@ Quando funciona:
 
 Exemplo: profissional liberal experiente que faz só mentoria 1:1 de R$5.000.
 
-### Formato B — 1 entrada + 1 principal
+### Formato B, 1 entrada + 1 principal
 
 Cliente tem 2 ofertas: uma de entrada (ticket baixo) + uma principal (ticket alto).
 
@@ -110,9 +110,9 @@ Pergunta-chave: **"Qual oferta atual gera menos de 10% e consome mais que 20% do
 
 Essa é candidata a cortar.
 
-Se sobrar 1 oferta dominante + 1 oferta de entrada que faz sentido — mantém as 2.
-Se sobrar só 1 oferta dominante — mantém só ela.
-Se tudo está disperso entre 4-5 ofertas similares — escolhe a melhor + corta as outras.
+Se sobrar 1 oferta dominante + 1 oferta de entrada que faz sentido, mantém as 2.
+Se sobrar só 1 oferta dominante, mantém só ela.
+Se tudo está disperso entre 4-5 ofertas similares, escolhe a melhor + corta as outras.
 
 ### Cliente novo no mercado (faturando pouco ou nada)
 
@@ -132,14 +132,14 @@ A esteira não é decidida por estética. É calibrada pela meta financeira (ver
 
 **Meta:** R$40.000/mês
 
-**Opção 1 — 1 oferta só:**
+**Opção 1, 1 oferta só:**
 - Mentoria 1:1, ticket R$5.000, programa de 3 meses
 - 8 clientes ativos a qualquer momento (R$40k/mês)
 - 8 novos clientes a cada 3 meses = ~2.7 clientes novos/mês
 - Operação: 8 × 2h/semana = 16h/semana de atendimento
 - Atende: cabe
 
-**Opção 2 — 1 entrada + 1 principal:**
+**Opção 2, 1 entrada + 1 principal:**
 - Entrada: workshop online R$800, 4h ao vivo, 20 alunos/mês
   - Receita entrada: R$16.000/mês
   - Operação: 4h/mês de aula + 6h/mês de gestão = 2.5h/semana
@@ -160,17 +160,17 @@ A skill obriga essa comparação concreta. Não aceita "vou ter várias ofertas"
 
 Oferta de entrada (R$300-R$1.500) faz sentido quando:
 
-1. **Cliente novo no nicho** — entrada serve pra apresentar o método antes do principal
-2. **Ticket principal exige aquecimento** — R$5k+ pede prévia geralmente
-3. **Mercado frio** — público não conhece o cliente, entrada qualifica
-4. **Tempo de venda longo** — entrada vende em 7-14 dias, principal em 30-60 dias
+1. **Cliente novo no nicho**: entrada serve pra apresentar o método antes do principal
+2. **Ticket principal exige aquecimento**: R$5k+ pede prévia geralmente
+3. **Mercado frio**: público não conhece o cliente, entrada qualifica
+4. **Tempo de venda longo**: entrada vende em 7-14 dias, principal em 30-60 dias
 
 Quando NÃO faz sentido:
 
-1. **Indicação domina** — cliente já chega aquecido, não precisa de entrada
-2. **Cliente já tem reputação** — venda direta no principal funciona
-3. **Ticket principal acessível** (R$2k-R$3k) — não justifica entrada
-4. **Operação já saturada** — entrada adiciona carga sem justificar
+1. **Indicação domina**: cliente já chega aquecido, não precisa de entrada
+2. **Cliente já tem reputação**: venda direta no principal funciona
+3. **Ticket principal acessível** (R$2k-R$3k), não justifica entrada
+4. **Operação já saturada**: entrada adiciona carga sem justificar
 
 ---
 

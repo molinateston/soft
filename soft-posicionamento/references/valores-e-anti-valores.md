@@ -268,3 +268,9 @@ Antes de fechar a destilação:
 7. [ ] Tem 0 frases-coach genéricas no doc?
 
 Se falhar item, refaz.
+
+---
+
+## Gate antes de virar público (bloqueante)
+
+O autochecklist acima é a auto-revisão da peça. Ele não substitui o Crivo. A Voz vira o tom de TODA copy que sai depois (perfil, conteúdo, carta, script), então os Valores e anti-valores passam pelo **Gate do Crivo do Plano** (`conducao-na-pratica.md`, "Gate de saída do Plano, o Crivo") antes de alimentar qualquer peça pública: ancoragem no verbatim da super-pesquisa (`shared-references/crivo/01-entrada-verbatim.md`), as 3 perguntas do Harry (`crivo/03-gate-cub.md`), e o anti-IA (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`). Veredito binário: uma falha reprova e re-roda. Sem passar no Crivo, os Valores não viram público.

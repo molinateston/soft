@@ -4,7 +4,7 @@
 
 ---
 
-## Estratégia 1 — Encurtar
+## Estratégia 1 - Encurtar
 
 Se a frase tem mais de 12 palavras, parta em duas.
 
@@ -19,7 +19,7 @@ IA escreve frase longa pra "sustentar a ideia". Copy autoral parte a ideia em pe
 
 ---
 
-## Estratégia 2 — Substantivar
+## Estratégia 2 - Substantivar
 
 Em vez de verbo + substantivo abstrato, usa verbo concreto.
 
@@ -40,7 +40,7 @@ IA adora "trazer transformações", "realizar mudanças", "promover crescimento"
 
 ---
 
-## Estratégia 3 — Concretizar
+## Estratégia 3 - Concretizar
 
 Em vez de prometer abstração, mostra a coisa concreta.
 
@@ -55,7 +55,7 @@ Em vez de prometer abstração, mostra a coisa concreta.
 
 ---
 
-## Estratégia 4 — Quebrar simetria
+## Estratégia 4 - Quebrar simetria
 
 IA adora simetria. Copy autoral quebra deliberadamente.
 
@@ -76,7 +76,7 @@ Três elementos paralelos = assinatura de IA. Dois elementos com a quebra de sim
 
 ---
 
-## Estratégia 5 — Tirar adjetivos
+## Estratégia 5 - Tirar adjetivos
 
 Cada peça deveria ter no máximo 2-3 adjetivos. Se está com 8, refaz.
 
@@ -93,7 +93,7 @@ IA decora frase com adjetivos. Cada adjetivo é palavra que paga aluguel. Maiori
 
 ## Estratégias menores complementares
 
-### Estratégia 6 — Vocabulário oral
+### Estratégia 6 - Vocabulário oral
 
 Substitui palavra de texto formal por palavra que você usa falando.
 
@@ -108,7 +108,7 @@ Substitui palavra de texto formal por palavra que você usa falando.
 | viabilizar | permitir / fazer |
 | auxiliar | ajudar |
 
-### Estratégia 7 — Pronome direto
+### Estratégia 7 - Pronome direto
 
 Sempre que possível, "você" no lugar de "as pessoas / o profissional / o leitor".
 
@@ -118,7 +118,7 @@ Sempre que possível, "você" no lugar de "as pessoas / o profissional / o leito
 ### Depois
 "Você precisa entender que..."
 
-### Estratégia 8 — Pergunta concreta no lugar de retórica
+### Estratégia 8 - Pergunta concreta no lugar de retórica
 
 Em vez de pergunta vazia, pergunta que requer resposta.
 
@@ -128,18 +128,18 @@ Em vez de pergunta vazia, pergunta que requer resposta.
 ### Depois (autoral concreta)
 "Quantas horas você trabalhou semana passada?"
 
-### Estratégia 9 — Cortar conectores formais
+### Estratégia 9 - Cortar conectores formais
 
 | IA usa | Autoral usa |
 |--------|-------------|
 | Outrossim | E |
 | Ademais | E |
 | Por conseguinte | Por isso |
-| Vale ressaltar | (corta — vai direto na frase) |
-| Imagine só | (corta — afirma direto) |
-| Pense bem | (corta — afirma direto) |
+| Vale ressaltar | (corta - vai direto na frase) |
+| Imagine só | (corta - afirma direto) |
+| Pense bem | (corta - afirma direto) |
 
-### Estratégia 10 — Adicionar imperfeição
+### Estratégia 10 - Adicionar imperfeição
 
 Texto totalmente polido cheira a IA. Adiciona:
 - Frase começando com "E" ou "Mas"

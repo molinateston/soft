@@ -1,4 +1,4 @@
-# Benchmark Soft — Tabela de Taxas do Funil Único
+# Benchmark Soft, Tabela de Taxas do Funil Único
 
 A tabela-âncora que sustenta todo o cálculo do Plano de Guerra Soft. Cada etapa do funil tem faixa baixa (conservadora), faixa alta (otimista), sinal de vazamento (abaixo do quê = problema), e onde medir o número real.
 
@@ -8,7 +8,7 @@ A tabela-âncora que sustenta todo o cálculo do Plano de Guerra Soft. Cada etap
 
 ## A tabela completa do funil único
 
-### Etapa 1 — Produção → Alcance qualificado
+### Etapa 1, Produção → Alcance qualificado
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
 |---|---|---|---|---|
@@ -20,7 +20,7 @@ A tabela-âncora que sustenta todo o cálculo do Plano de Guerra Soft. Cada etap
 
 **Sinal de vazamento aqui = gancho fraco.** Se peça não passa de 800 alcance, ou capa não filtra, ou primeiros 3 segundos do Reel não prendem. Antes de mexer em qualquer outra etapa do funil, conserta o gancho.
 
-### Etapa 2 — Alcance qualificado → Engajamento qualificado
+### Etapa 2, Alcance qualificado → Engajamento qualificado
 
 Engajamento qualificado = salvar + compartilhar (não like, não comentário decorativo).
 
@@ -34,7 +34,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 
 **Sinal de vazamento aqui = peça não tem ponta filtrante.** Cliente lê, acha bonitinho, mas não sente urgência de salvar pra revisitar nem de compartilhar pra alguém que precisa. Conserta o ângulo (reference as embalagens de carrossel da skill `soft-conteudo`) ou o desfecho da peça.
 
-### Etapa 3 — Engajamento qualificado → Clique na bio/Carta
+### Etapa 3, Engajamento qualificado → Clique na bio/Carta
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
 |---|---|---|---|---|
@@ -44,7 +44,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 
 **Sinal de vazamento aqui = bio fraca ou CTA da peça inexistente.** Peça não direciona pra ação clara, ou direciona mas a bio não vende clique. Conserta CTA na peça + bio (reference o Perfil Enxuto da skill `soft-posicionamento`).
 
-### Etapa 4 — Clique → DM qualificado
+### Etapa 4, Clique → DM qualificado
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 
 **Sinal de vazamento aqui = Carta fraca ou genérica.** Lead lê, não se reconhece, não se identifica com a Complexidade Digital nomeada, não aceita o método. Conserta a Carta (skill `soft-funil`).
 
-### Etapa 5 — DM qualificado → Conversa WhatsApp
+### Etapa 5, DM qualificado → Conversa WhatsApp
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
 |---|---|---|---|---|
@@ -64,7 +64,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 
 **Sinal de vazamento aqui = primeira mensagem mal calibrada ou demora de resposta.** Lead chega quente, esfria em 24h. Conserta script de primeira mensagem (skill `soft-vendas`).
 
-### Etapa 6 — Conversa WhatsApp → Reunião/Conversa qualificada realizada
+### Etapa 6, Conversa WhatsApp → Reunião/Conversa qualificada realizada
 
 Pra ticket baixo (até R$1.500), "conversa qualificada realizada" = WhatsApp completo (sem reunião).
 Pra ticket médio (R$1.500-5.000), pode ser WhatsApp + Call ou só WhatsApp.
@@ -76,9 +76,9 @@ Pra ticket alto (R$5.000+), inclui reunião agendada.
 | Taxa comparecimento (marcada → realizada) | 70% | 90% | 50% | Agenda |
 | Taxa qualificação Soft (chegou na fase Conexão) | 60% | 85% | 40% | Análise das 7 fases conversão |
 
-**Sinal de vazamento aqui = lead errado ou Carta não filtrou.** Reunião marcada com lead que não tem o problema, ou que não tem orçamento, ou que quer ser convencido. Volta pra Carta — Carta deveria ter filtrado antes.
+**Sinal de vazamento aqui = lead errado ou Carta não filtrou.** Reunião marcada com lead que não tem o problema, ou que não tem orçamento, ou que quer ser convencido. Volta pra Carta, Carta deveria ter filtrado antes.
 
-### Etapa 7 — Reunião realizada → Fechamento (vendas)
+### Etapa 7, Reunião realizada → Fechamento (vendas)
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
 |---|---|---|---|---|
@@ -96,7 +96,7 @@ Pra ticket alto (R$5.000+), inclui reunião agendada.
 ### Princípio: aplica faixa baixa por default
 
 Mês 1, plano usa **faixa baixa (conservadora)** em todas as etapas. Por quê:
-- Cliente novo não tem histórico próprio — não dá pra confiar em otimismo
+- Cliente novo não tem histórico próprio, não dá pra confiar em otimismo
 - Erro pra menos é recuperável (cliente bate meta antes); erro pra mais é desastroso (cliente não bate, abandona)
 - Faixa baixa cria expectativa realista
 
@@ -113,23 +113,23 @@ Antes disso = otimismo.
 
 ## Como evoluir do benchmark genérico pra taxa própria
 
-### Mês 1 — Executa cego no benchmark
-Cliente aplica todas as taxas da faixa baixa. Não compara com nada — executa o plano. Coleta dados.
+### Mês 1, Executa cego no benchmark
+Cliente aplica todas as taxas da faixa baixa. Não compara com nada, executa o plano. Coleta dados.
 
-### Mês 2 — Coleta primeira leitura real
+### Mês 2, Coleta primeira leitura real
 A partir da semana 5, cliente já tem 4 semanas de dados próprios. Compara taxa real com benchmark Soft, etapa por etapa. Identifica:
 - Onde tá ACIMA do benchmark (mantém)
 - Onde tá NA FAIXA do benchmark (mantém)
-- Onde tá ABAIXO do benchmark (vazamento — ataca essa etapa primeiro)
+- Onde tá ABAIXO do benchmark (vazamento, ataca essa etapa primeiro)
 
-### Mês 3 — Substitui benchmark pelas taxas próprias
+### Mês 3, Substitui benchmark pelas taxas próprias
 Cliente já tem 8 semanas de dados. Refaz o cálculo do funil reverso usando as taxas próprias dele em cada etapa, não mais o benchmark Soft.
 
 Resultado:
 - Se taxa real é MELHOR que benchmark → cliente precisa de menos volume pra bater meta. Reduz peças/semana ou sobe meta.
 - Se taxa real é PIOR que benchmark → cliente tem vazamento estrutural. Aumentar volume amplifica buraco. Conserta a etapa antes de continuar.
 
-### Mês 4-6 — Operação com taxas próprias
+### Mês 4-6, Operação com taxas próprias
 Cliente opera sem mais consultar benchmark Soft. Tem fórmula calibrada pra ele mesmo. Skill agora vira ferramenta de **monitoramento e ajuste**, não mais de cálculo inicial.
 
 ---
@@ -151,21 +151,21 @@ Cliente Destravar (R$0-15k/mês) tem padrões de vazamento diferentes de cliente
 
 Além das taxas individuais, monitora 4 sinais agregados:
 
-### Sinal 1 — Custo por DM qualificado (orgânico)
+### Sinal 1, Custo por DM qualificado (orgânico)
 **Fórmula:** Horas de produção/mês ÷ DMs qualificados/mês = horas por DM
 **Faixa Soft:** 0,5h a 2h por DM qualificado
 **Vazamento:** acima de 3h por DM = funil ineficiente, conserta gancho ou Carta
 
-### Sinal 2 — Custo por DM qualificado (Turbinar)
+### Sinal 2, Custo por DM qualificado (Turbinar)
 **Fórmula:** Investimento Turbinar/mês ÷ DMs qualificados gerados via Turbinar
 **Faixa Soft:** R$3 a R$15 por DM
 **Vazamento:** acima de R$25 = peça turbinada não validou organicamente, ou público mal calibrado
 
-### Sinal 3 — Tempo médio do ciclo (DM → fechamento)
+### Sinal 3, Tempo médio do ciclo (DM → fechamento)
 **Faixa Soft:** 5 a 30 dias
 **Vazamento:** acima de 45 dias = lead esfriando ou conversão lento, ou ticket alto sem maturidade comercial
 
-### Sinal 4 — Receita por hora de produção
+### Sinal 4, Receita por hora de produção
 **Fórmula:** Receita mensal ÷ horas totais de produção no mês
 **Faixa Soft:** R$300/h a R$2.000/h conforme estágio
 **Vazamento:** abaixo de R$200/h = cliente operando como creator, não como especialista. IA Vertical urgente.
@@ -174,6 +174,6 @@ Além das taxas individuais, monitora 4 sinais agregados:
 
 ## Princípio final
 
-Benchmark Soft é o **andaime** que sustenta o plano nos primeiros 60 dias. Depois disso, cliente já tem prédio próprio. Tira o andaime e segue executando com as taxas dele mesmo. Coach não deixa cliente dependente eterno do benchmark — força a transição pra dado próprio assim que possível.
+Benchmark Soft é o **andaime** que sustenta o plano nos primeiros 60 dias. Depois disso, cliente já tem prédio próprio. Tira o andaime e segue executando com as taxas dele mesmo. Coach não deixa cliente dependente eterno do benchmark, força a transição pra dado próprio assim que possível.
 
-Quem opera Soft há 6+ meses e ainda usa benchmark genérico = não tá lendo os próprios dados. É vazamento de outro nível, não do funil — é vazamento de gestão.
+Quem opera Soft há 6+ meses e ainda usa benchmark genérico = não tá lendo os próprios dados. É vazamento de outro nível, não do funil, é vazamento de gestão.

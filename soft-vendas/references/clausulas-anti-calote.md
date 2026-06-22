@@ -69,13 +69,13 @@ adoção das medidas previstas nesta cláusula em casos subsequentes.
 6.9. Comunicação prévia. Embora as medidas previstas nos itens 6.2, 6.3 e
 6.4 sejam de aplicação automática, a CONTRATADA, sempre que possível,
 buscará comunicar previamente o CONTRATANTE por email ou outro meio
-disponível, com prazo razoável para regularização — sem que essa prática
+disponível, com prazo razoável para regularização, sem que essa prática
 configure obrigação ou retire a automaticidade da aplicação das medidas.
 ```
 
 ---
 
-## Limites legais — atenção
+## Limites legais, atenção
 
 ### Multa moratória de 2%
 Limite legal pra contratos de consumo conforme art. 52, § 1º, do Código de
@@ -94,15 +94,15 @@ pretensão.
 
 ### Cláusula penal × multa moratória
 São coisas diferentes:
-- **Multa moratória** (item 6.1.a) — pelo atraso, sobre o valor em atraso
-- **Cláusula penal compensatória** — pela rescisão antecipada, sobre o saldo
+- **Multa moratória** (item 6.1.a), pelo atraso, sobre o valor em atraso
+- **Cláusula penal compensatória**, pela rescisão antecipada, sobre o saldo
   remanescente (está na Cláusula 10ª · Rescisão, item 10.2.c)
 
 Sempre manter as duas.
 
 ---
 
-## Variações — quando aplicar
+## Variações, quando aplicar
 
 ### Variação A · Garantia adicional por aval ou fiador
 Quando o ticket é alto e o Contratante PF tem perfil de risco, adicionar:
@@ -130,7 +130,7 @@ cláusula penal compensatória equivalente a 30% (trinta por cento) do saldo
 remanescente do contrato, devida cumulativamente com os demais encargos.
 ```
 
-Não aplicar em contrato com PF consumidora — risco de revisão judicial por
+Não aplicar em contrato com PF consumidora, risco de revisão judicial por
 abusividade.
 
 ### Variação C · Confissão de dívida automática
@@ -144,21 +144,21 @@ Processo Civil, dispensando-se procedimento prévio de cobrança ou
 notificação adicional para o ajuizamento da execução.
 ```
 
-Item 6.6 já cobre essa lógica — esse 6.12 é redundância proposital para
+Item 6.6 já cobre essa lógica, esse 6.12 é redundância proposital para
 reforço, útil em ticket alto.
 
 ---
 
 ## O que NÃO incluir nessa cláusula
 
-1. **Cessão fiduciária de bens** sem documento específico — exige escritura
+1. **Cessão fiduciária de bens** sem documento específico, exige escritura
    ou termo separado.
-2. **Autorização para débito em qualquer conta do Contratante** — abusiva,
+2. **Autorização para débito em qualquer conta do Contratante**, abusiva,
    passível de nulidade.
-3. **Renúncia ao direito de defesa** — inconstitucional.
-4. **Cláusula de não-procuração** ou que dispense ampla defesa — nula.
-5. **Multa moratória acima de 2% em contrato com consumidor** — viola CDC.
-6. **Juros remuneratórios** (que cobram pelo uso do dinheiro) — só
+3. **Renúncia ao direito de defesa**, inconstitucional.
+4. **Cláusula de não-procuração** ou que dispense ampla defesa, nula.
+5. **Multa moratória acima de 2% em contrato com consumidor**, viola CDC.
+6. **Juros remuneratórios** (que cobram pelo uso do dinheiro), só
    instituição financeira pode cobrar. Aqui só cabem juros moratórios (pela
    mora) de 1% ao mês.
 

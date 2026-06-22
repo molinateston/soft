@@ -8,9 +8,9 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Origem:** princípios de formação de hábitos
 
-**Tese:** Pequenas alterações parecem irrelevantes até cruzar um limite crítico. Resultados notáveis não vêm de mudança grande pontual — vêm de melhorias pequenas compostas no tempo. 1% por dia conta muito no longo prazo.
+**Tese:** Pequenas alterações parecem irrelevantes até cruzar um limite crítico. Resultados notáveis não vêm de mudança grande pontual, vêm de melhorias pequenas compostas no tempo. 1% por dia conta muito no longo prazo.
 
-**Mecanismo:** Mudança composta tem curva de J. Por muito tempo o resultado não aparece e parece que nada mudou. Em algum ponto, o acúmulo cruza um limiar e o resultado salta. Quem desiste antes do salto perde o juro composto inteiro. Quem persiste sente como se fosse "sorte" o salto — mas foi acúmulo invisível virando visível.
+**Mecanismo:** Mudança composta tem curva de J. Por muito tempo o resultado não aparece e parece que nada mudou. Em algum ponto, o acúmulo cruza um limiar e o resultado salta. Quem desiste antes do salto perde o juro composto inteiro. Quem persiste sente como se fosse "sorte" o salto, mas foi acúmulo invisível virando visível.
 
 **Aplicação:** Quando o usuário compara progresso atual com expectativa e desanima ("já faço há 3 meses e não vi resultado"), explicar a curva de J. Reforçar que invisibilidade do progresso ≠ ausência de progresso. Métrica certa não é o resultado, é a aderência ao processo.
 
@@ -56,9 +56,9 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Tese:** Vontade vaga não vira hábito. Hábito vira hábito quando tem hora e local definidos. Fórmula: "Eu farei [COMPORTAMENTO] às [HORA] em [LOCAL]."
 
-**Mecanismo:** Cérebro precisa de gatilho explícito pra disparar comportamento. "Vou começar a meditar" sem hora e local nunca tem o gatilho — o cérebro nunca recebe o sinal. "Vou meditar 10 minutos às 6h30 sentado na cadeira da sala" tem 3 gatilhos: hora, postura, local. Disparo automático em alguns dias.
+**Mecanismo:** Cérebro precisa de gatilho explícito pra disparar comportamento. "Vou começar a meditar" sem hora e local nunca tem o gatilho, o cérebro nunca recebe o sinal. "Vou meditar 10 minutos às 6h30 sentado na cadeira da sala" tem 3 gatilhos: hora, postura, local. Disparo automático em alguns dias.
 
-**Aplicação:** Quando o usuário declara intenção vaga de mudar comportamento, traduzir pra fórmula: "Quando especificamente? Onde especificamente?" Sem essas duas respostas, não tem plano — tem desejo. Recusar trabalhar plano em cima de intenção vaga.
+**Aplicação:** Quando o usuário declara intenção vaga de mudar comportamento, traduzir pra fórmula: "Quando especificamente? Onde especificamente?" Sem essas duas respostas, não tem plano, tem desejo. Recusar trabalhar plano em cima de intenção vaga.
 
 **Sinais que invocam:** "Vou começar a", "preciso voltar a", "queria fazer mais", desejos sem ancoragem temporal/espacial.
 
@@ -70,7 +70,7 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Tese:** Pra criar hábito novo, cole-o a hábito velho. Fórmula: "Depois de [HÁBITO ATUAL], farei [NOVO HÁBITO]." O hábito velho vira o gatilho do novo.
 
-**Mecanismo:** Cérebro já tem rotina automática pro hábito velho. Esse hábito pré-existente já é estímulo confiável. Acoplar o novo elimina a necessidade de criar gatilho do zero — usa um que já funciona.
+**Mecanismo:** Cérebro já tem rotina automática pro hábito velho. Esse hábito pré-existente já é estímulo confiável. Acoplar o novo elimina a necessidade de criar gatilho do zero, usa um que já funciona.
 
 **Aplicação:** Quando o usuário tem hábito que quer instaurar mas não acha "hora certa", pedir lista de 3-5 hábitos que ele já faz sem pensar (escovar dente, fazer café, etc). Ancorar o novo em um deles. Exemplo: "depois de fazer café, sento e escrevo 3 frases no caderno." Ancoragem em hábito existente sustenta o novo até virar autônomo.
 
@@ -126,7 +126,7 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Tese:** Comportamento humano segue caminho de menor resistência. Você sempre faz o mais fácil disponível. Engenharia certa do hábito é tornar o desejado mais fácil que o indesejado.
 
-**Mecanismo:** Cérebro foi otimizado pra economizar energia. Não há "força de vontade" infinita — é recurso finito que se esgota. Sistema que depende de força de vontade falha em dia ruim. Sistema que faz o desejado ser o caminho de menor resistência funciona em qualquer dia.
+**Mecanismo:** Cérebro foi otimizado pra economizar energia. Não há "força de vontade" infinita, é recurso finito que se esgota. Sistema que depende de força de vontade falha em dia ruim. Sistema que faz o desejado ser o caminho de menor resistência funciona em qualquer dia.
 
 **Aplicação:** Quando o usuário falha em manter hábito por "falta de disciplina", redirigir: o problema não é disciplina, é fricção. Pergunta de design: "Qual é o atrito que você pode remover?" Roupa de treino separada na noite anterior (-10s de fricção). Aplicativo bloqueado em horário de trabalho (+30s de fricção). Sempre adicionar fricção ao indesejado, remover do desejado.
 
@@ -138,9 +138,9 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Origem:** princípios de formação de hábitos
 
-**Tese:** Você não pode melhorar hábito que não existe. Versão pequena e consistente vence versão grande e inconsistente. Primeiro existe — depois otimiza.
+**Tese:** Você não pode melhorar hábito que não existe. Versão pequena e consistente vence versão grande e inconsistente. Primeiro existe, depois otimiza.
 
-**Mecanismo:** Hábito é padrão neurológico. Padrão se forma pela repetição, não pela intensidade. 30 execuções pequenas formam padrão. 3 execuções grandes não formam — porque o cérebro não recebeu repetição suficiente pra automatizar.
+**Mecanismo:** Hábito é padrão neurológico. Padrão se forma pela repetição, não pela intensidade. 30 execuções pequenas formam padrão. 3 execuções grandes não formam, porque o cérebro não recebeu repetição suficiente pra automatizar.
 
 **Aplicação:** Quando o usuário quer "melhorar" um hábito que ainda é instável, freá-lo. "Antes de aumentar a duração ou intensidade, queremos 30 execuções consistentes da versão atual." Otimização prematura destrói consistência. Consistência libera otimização.
 
@@ -170,7 +170,7 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 **Mecanismo:** Automatização exige repetição, não calendário. "Quanto tempo leva pra criar hábito" é pergunta errada. Pergunta certa: "Quantas execuções até ser automático?" Resposta varia, mas a métrica é clara: contagem, não data.
 
-**Aplicação:** Quando o usuário pergunta "em quanto tempo X vira hábito", reformular: depende da frequência. Diário consolida em ~30 dias. Semanal pode demorar 6+ meses. Pra acelerar consolidação, aumenta frequência (mesmo reduzindo escopo) — versão de 2 minutos diária vence versão de 30 minutos semanal pra fins de formação.
+**Aplicação:** Quando o usuário pergunta "em quanto tempo X vira hábito", reformular: depende da frequência. Diário consolida em ~30 dias. Semanal pode demorar 6+ meses. Pra acelerar consolidação, aumenta frequência (mesmo reduzindo escopo), versão de 2 minutos diária vence versão de 30 minutos semanal pra fins de formação.
 
 **Sinais que invocam:** "Em quanto tempo vira hábito", ansiedade por consolidação, frequência baixa de execução.
 
@@ -178,7 +178,7 @@ Princípios sobre formação, manutenção e quebra de hábitos. Aplicar quando 
 
 ## Como aplicar este arquivo na resposta
 
-Hábito é problema operacional. Resposta deve sempre terminar em **plano executável** — não em conceito. Diagnóstico identifica qual lei está sendo violada, ou qual estágio do ciclo está quebrado. Solução é ajuste pontual nessa peça, não reforma do plano todo.
+Hábito é problema operacional. Resposta deve sempre terminar em **plano executável**, não em conceito. Diagnóstico identifica qual lei está sendo violada, ou qual estágio do ciclo está quebrado. Solução é ajuste pontual nessa peça, não reforma do plano todo.
 
 Exemplo de aplicação combinada (princípios 13, 14, 15):
 > "Você quer voltar a meditar. Sem hora e local, não vai começar. Cola no café da manhã: depois de servir o café, antes de tomar, 2 minutos sentado em silêncio. É pequeno por enquanto. Quando tiver 30 dias consistentes, expande pra 5 minutos. Não antes."

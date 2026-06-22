@@ -1,10 +1,10 @@
 
-# Soft Funil — Landing Page Completa
+# Soft Funil - Landing Page Completa
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-Constrói a página de vendas inteira, do hero ao botão final. Cobre qualquer produto, qualquer ticket. Aplica arquitetura de conversão comprovada filtrada pelo princípio editorial Soft: **a página não convence — ela torna a decisão inevitável pra quem já é o cliente certo.**
+Constrói a página de vendas inteira, do hero ao botão final. Cobre qualquer produto, qualquer ticket. Aplica arquitetura de conversão comprovada filtrada pelo princípio editorial Soft: **a página não convence, ela torna a decisão inevitável pra quem já é o cliente certo.**
 
 ---
 
@@ -12,16 +12,16 @@ Constrói a página de vendas inteira, do hero ao botão final. Cobre qualquer p
 
 Antes de escrever qualquer seção, consulte:
 
-1. **`guia/CODIGO-DE-ESCRITA.md`** — os 5 movimentos são obrigatórios em toda página
-2. **`shared-references/dicionario-conversacional.md`** — tom, ritmo, vocabulário
-3. **`shared-references/adaptacao-semantica.md`** — tradução para o campo semântico do nicho
-4. **a frente de headlines (`soft-conteudo`)** — para headline e VSL hook
+1. **`guia/CODIGO-DE-ESCRITA.md`** - os 5 movimentos são obrigatórios em toda página
+2. **`shared-references/dicionario-conversacional.md`** - tom, ritmo, vocabulário
+3. **`shared-references/adaptacao-semantica.md`** - tradução para o campo semântico do nicho
+4. **a frente de headlines (`soft-conteudo`)** - para headline e VSL hook
 
 ---
 
 ## 1. Princípio raiz
 
-Uma página de vendas Soft **não empurra** — ela organiza o argumento de forma que o cliente certo chegue ao botão pensando *"seria idiota não entrar agora"*.
+Uma página de vendas Soft **não empurra**, ela organiza o argumento de forma que o cliente certo chegue ao botão pensando *"seria idiota não entrar agora"*.
 
 O cliente errado abandona antes do botão. **Isso é sucesso.**
 
@@ -53,10 +53,10 @@ A decisão de qual arquitetura usar depende de **3 variáveis**:
 
 | Cenário | Arquitetura |
 |---|---|
-| Infoproduto ≤ R$497, qualquer tráfego | **Página VSL Completa** — vídeo carrega o argumento, página suporta |
-| Infoproduto R$500–R$2k, tráfego frio/morno | **Página Híbrida** — VSL + blocos de texto robustos |
-| Mentoria/Consultoria R$2k+, tráfego quente | **Página de Autoridade** — sem VSL, texto cirúrgico com seções de prova |
-| Serviço recorrente, qualquer ticket | **Página Problema-Solução** — diagnóstico ampliado + método + acesso |
+| Infoproduto ≤ R$497, qualquer tráfego | **Página VSL Completa**, vídeo carrega o argumento, página suporta |
+| Infoproduto R$500–R$2k, tráfego frio/morno | **Página Híbrida**. VSL + blocos de texto robustos |
+| Mentoria/Consultoria R$2k+, tráfego quente | **Página de Autoridade**, sem VSL, texto cirúrgico com seções de prova |
+| Serviço recorrente, qualquer ticket | **Página Problema-Solução**, diagnóstico ampliado + método + acesso |
 
 Consulte **`references/arquiteturas.md`** para a estrutura bloco a bloco de cada arquitetura.
 
@@ -64,7 +64,7 @@ Consulte **`references/arquiteturas.md`** para a estrutura bloco a bloco de cada
 
 ## 3. Os blocos universais
 
-Toda página, independente de arquitetura, passa pelos mesmos **14 blocos**. A ordem e o peso de cada um muda por arquitetura — mas nenhum some completamente.
+Toda página, independente de arquitetura, passa pelos mesmos **14 blocos**. A ordem e o peso de cada um muda por arquitetura, mas nenhum some completamente.
 
 | # | Bloco | Função | CTA aqui? |
 |---|---|---|---|
@@ -87,7 +87,7 @@ Detalhe de copy para cada bloco: **`references/blocos-copy.md`**
 
 ---
 
-## 4. VSL — quando e como
+## 4. VSL - quando e como
 
 **Quando incluir VSL:**
 - Ticket ≤ R$1.500 com tráfego frio/morno
@@ -95,7 +95,7 @@ Detalhe de copy para cada bloco: **`references/blocos-copy.md`**
 - Especialista com boa presença em vídeo
 
 **Quando NÃO incluir:**
-- Tráfego quente (já conhece o especialista — texto converte mais rápido)
+- Tráfego quente (já conhece o especialista, texto converte mais rápido)
 - Ticket ≥ R$3k (página de autoridade converte melhor que VSL longo)
 - Especialista sem fluência em câmera
 
@@ -121,19 +121,19 @@ Roteiro completo do VSL: **`references/vsl-script.md`**
 1. **Zero menu de navegação.** Única saída é o botão. Direto pra WhatsApp ou checkout.
 2. **CTA repete a cada 2–3 blocos** nos picos emocionais (após método, após prova, após garantia).
 3. **Prova nunca é só elogio.** Todo depoimento tem: nome + nicho + resultado (número + prazo).
-4. **Bônus mata objeção específica** — não é recheio. Cada bônus resolve 1 objeção nomeada.
+4. **Bônus mata objeção específica** - não é recheio. Cada bônus resolve 1 objeção nomeada.
 5. **Garantia é vendida, não mencionada.** Tem headline própria, argumento, e apela para o lado do especialista.
-6. **FAQ com copy** — cada resposta é uma mini-copy, não texto de SAC.
+6. **FAQ com copy** - cada resposta é uma mini-copy, não texto de SAC.
 7. **Urgência real ou silêncio.** Nenhuma urgência fake. Se não tem escassez real, não menciona.
 8. **Inimigo-categoria nomeado** em pelo menos 2 blocos da página (Problema + Mecanismo).
 9. **Mobile-first.** Cada bloco funciona em 1 tela mobile sem scroll lateral.
-10. **Faca Soft presente.** A página descreve resultado e função — nunca entrega o passo a passo.
+10. **Faca Soft presente.** A página descreve resultado e função, nunca entrega o passo a passo.
 
 ---
 
 ## 6. Fluxo de execução
 
-### Etapa 1 — Briefing
+### Etapa 1 - Briefing
 
 O que a skill precisa antes de escrever:
 
@@ -148,15 +148,15 @@ O que a skill precisa antes de escrever:
 
 Se faltar informação crítica, pergunta antes de escrever.
 
-### Etapa 2 — Escolha de arquitetura
+### Etapa 2 - Escolha de arquitetura
 
 Com base no briefing, declara qual arquitetura vai usar e por quê. Uma linha. Sem pergunta.
 
-### Etapa 3 — Estrutura em outline
+### Etapa 3 - Estrutura em outline
 
 Entrega um outline numerado dos blocos com headline de cada um para aprovação. Cliente vê o esqueleto antes do corpo.
 
-### Etapa 4 — Página completa
+### Etapa 4 - Página completa
 
 Escreve todos os blocos em sequência, em artifact markdown, com:
 - Headlines de cada bloco
@@ -164,7 +164,7 @@ Escreve todos os blocos em sequência, em artifact markdown, com:
 - Marcações de onde ficam os botões de CTA
 - Indicações de onde entram depoimentos/prints (quando o especialista não forneceu o texto real)
 
-### Etapa 5 — Auditoria Blair Warren
+### Etapa 5 - Auditoria Blair Warren
 
 Antes de entregar, passa pelos 5 movimentos:
 1. **Sonhos** incentivados com cena + número?
@@ -179,9 +179,9 @@ A auditoria Blair é PRÉ-FILTRO: qualquer movimento ausente, reforça antes do 
 
 ## 7. References desta reference
 
-- **`references/arquiteturas.md`** — estrutura bloco a bloco por arquitetura (VSL Completa, Híbrida, Autoridade, Problema-Solução)
-- **`references/blocos-copy.md`** — copy detalhada de cada bloco com fórmulas, exemplos e anti-exemplos
-- **`references/vsl-script.md`** — roteiro completo do VSL Soft com blocos e exemplos de abertura
+- **`references/arquiteturas.md`** - estrutura bloco a bloco por arquitetura (VSL Completa, Híbrida, Autoridade, Problema-Solução)
+- **`references/blocos-copy.md`** - copy detalhada de cada bloco com fórmulas, exemplos e anti-exemplos
+- **`references/vsl-script.md`** - roteiro completo do VSL Soft com blocos e exemplos de abertura
 
 ---
 

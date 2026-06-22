@@ -23,7 +23,7 @@ Quando a documentação Soft cruzar os dois, marcar explicitamente: *"Cliente de
 
 Decomposição inspirada no funil **Efeito Atômico** do engenheiro Mateus (Faria a Faria 2024, R$1.3M → R$10M em 12 meses, 65% margem líquida). O método dele decompõe atração em 5 estágios (E0 a E4). **Soft simplifica pra 3 camadas** mantendo a engenharia que importa, eliminando granularidade que não muda decisão de produção.
 
-| Mateus (E0–E4) | Soft (C1–C3) |
+| Mateus (E0-E4) | Soft (C1-C3) |
 |---|---|
 | E0, Alcance bruto | **C1, Alcance** |
 | E1, Antecipação do produto | **C2, Convicção** |

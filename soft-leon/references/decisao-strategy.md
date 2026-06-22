@@ -1,21 +1,21 @@
-# Decisão e estratégia — transversal
+# Decisão e estratégia, transversal
 
-> **Quando consultar:** qualquer decisão estratégica importante — ouriço, escolha de mercado, pivot, big bet, frameworks de decisão, gestão de risco, recusar oportunidade. Atravessa todas as fases.
+> **Quando consultar:** qualquer decisão estratégica importante, ouriço, escolha de mercado, pivot, big bet, frameworks de decisão, gestão de risco, recusar oportunidade. Atravessa todas as fases.
 
 ---
 
 ## Índice
 
 - Doutrina central
-- Bloco 1 — O conceito do ouriço (porco-espinho)
-- Bloco 2 — O paradoxo da resiliência
-- Bloco 3 — Tomada de decisão
-- Bloco 4 — Big bets vs incremental
-- Bloco 5 — Frameworks de decisão
-- Bloco 6 — Gestão de risco
-- Bloco 7 — Recusar oportunidade
-- Bloco 8 — Decisão sob estresse
-- Bloco 9 — Pivot vs persist
+- Bloco 1, O conceito do ouriço (porco-espinho)
+- Bloco 2, O paradoxo da resiliência
+- Bloco 3, Tomada de decisão
+- Bloco 4, Big bets vs incremental
+- Bloco 5, Frameworks de decisão
+- Bloco 6, Gestão de risco
+- Bloco 7, Recusar oportunidade
+- Bloco 8, Decisão sob estresse
+- Bloco 9, Pivot vs persist
 - Notas operacionais
 
 ---
@@ -27,17 +27,17 @@
 > "Empresas excelentes não são feitas por decisões geniais ocasionais. São feitas por **menos decisões erradas** consistentemente ao longo do tempo."
 
 > "Mantenha fé absoluta. Confronte os fatos brutais."
-> — o paradoxo da resiliência
+> o paradoxo da resiliência
 
 CEO existe pra **decidir**. Decisões certas ganham tempo, capital, time. Decisões erradas + adiamento de decisão = falência lenta.
 
 ---
 
-## Bloco 1 — O conceito do ouriço (porco-espinho)
+## Bloco 1, O conceito do ouriço (porco-espinho)
 
 ### A fábula
 
-A raposa sabe muitas coisas. O ouriço sabe **uma só** — mas faz extraordinariamente bem.
+A raposa sabe muitas coisas. O ouriço sabe **uma só**, mas faz extraordinariamente bem.
 
 > "Empresas excelentes ficam **maníacas** sobre uma única intersecção que só elas ocupam."
 
@@ -61,17 +61,17 @@ A raposa sabe muitas coisas. O ouriço sabe **uma só** — mas faz extraordinar
 
 ### Como construir o ouriço
 
-**Círculo 1 — Paixão.**
+**Círculo 1, Paixão.**
 - O que faria mesmo sem dinheiro?
 - Sobre o que conversa nos finais de semana espontaneamente?
 - O que daria orgulho contar pros netos em 30 anos?
 
-**Círculo 2 — O melhor do mundo (ou do nicho).**
+**Círculo 2, O melhor do mundo (ou do nicho).**
 - Onde sua expertise é desproporcionalmente forte?
-- Não "bom" — "melhor"
+- Não "bom", "melhor"
 - Pode ser nicho específico ("o melhor pra cliente X em Y")
 
-**Círculo 3 — Motor econômico.**
+**Círculo 3, Motor econômico.**
 - Qual unidade gera mais lucro?
 - Lucro por: cliente, transação, hora, território, produto
 - Identificar essa unidade desbloqueia escala
@@ -92,7 +92,7 @@ Onde os 3 se encontram = ouriço.
 - Cliente confunde com concorrente
 - Aceita qualquer oportunidade que aparece
 
-### Aplicação prática — caso Soft Business (Léo)
+### Aplicação prática, caso Soft Business (Léo)
 
 | Círculo | Resposta |
 |---------|----------|
@@ -112,13 +112,13 @@ Onde os 3 se encontram = ouriço.
 ### Princípio operacional
 
 **O ouriço vira filtro de decisão:**
-> Toda nova oportunidade passa pelo teste — "cabe nos 3 círculos?". Se cabe = sim. Se não cabe = não, mesmo que dê dinheiro fácil.
+> Toda nova oportunidade passa pelo teste, "cabe nos 3 círculos?". Se cabe = sim. Se não cabe = não, mesmo que dê dinheiro fácil.
 
 > "Disciplina de dizer NÃO mais vezes que SIM é o que separa boa empresa de excelente."
 
 ---
 
-## Bloco 2 — O paradoxo da resiliência
+## Bloco 2, O paradoxo da resiliência
 
 ### A história
 
@@ -149,7 +149,7 @@ Os dois ao mesmo tempo. Fé sem confronto = ilusão. Confronto sem fé = desespe
 **Cenário 3: mercado mudou.**
 - ❌ Otimismo: "vai voltar"
 - ❌ Pessimismo: "acabou meu negócio"
-- ✅ Paradoxo da resiliência: "O mercado mudou e minha tese atual não responde mais. Vou descobrir a nova tese — nem que demore 6 meses — e enquanto descubro, vou cortar despesas pra durar."
+- ✅ Paradoxo da resiliência: "O mercado mudou e minha tese atual não responde mais. Vou descobrir a nova tese, nem que demore 6 meses, e enquanto descubro, vou cortar despesas pra durar."
 
 ### Confronto sistemático
 
@@ -165,24 +165,24 @@ Cliente Fase 2+ instala **ritual de confronto**:
 
 ---
 
-## Bloco 3 — Tomada de decisão
+## Bloco 3, Tomada de decisão
 
 ### O modelo ideal de decisão
 
 > "Toda decisão importante deveria seguir 3 etapas: discussão livre → decisão clara → suporte total."
 
 ```
-ETAPA 1 — DISCUSSÃO LIVRE
+ETAPA 1 - DISCUSSÃO LIVRE
    Tudo na mesa, divergência permitida e encorajada
    ↓
-ETAPA 2 — DECISÃO CLARA
+ETAPA 2 - DECISÃO CLARA
    Decisor identificado decide
    ↓
-ETAPA 3 — SUPORTE TOTAL
+ETAPA 3 - SUPORTE TOTAL
    Mesmo quem discordou suporta a decisão
 ```
 
-### Etapa 1 — Discussão livre
+### Etapa 1, Discussão livre
 
 **Princípio:** divergência ANTES da decisão fortalece. Divergência DEPOIS sabota.
 
@@ -199,7 +199,7 @@ ETAPA 3 — SUPORTE TOTAL
 - ❌ Hierarquia silencia juniores → perde insight
 - ❌ Sem tempo limite → vira procrastinação
 
-### Etapa 2 — Decisão clara
+### Etapa 2, Decisão clara
 
 **O decisor é identificado antes da reunião.**
 
@@ -221,9 +221,9 @@ Tipicamente:
 - Decisão por consenso forçado (90% concordam, mas ninguém empolgado)
 - Decisão por procrastinação ("o tempo decidiu")
 
-### Etapa 3 — Suporte total
+### Etapa 3, Suporte total
 
-> "Discorde e comprometa-se." — princípio de decisão
+> "Discorde e comprometa-se.", princípio de decisão
 
 Quem discordou na etapa 1 **suporta** na etapa 3. Não sabota. Não "eu falei que não ia funcionar". Não relutância passiva.
 
@@ -231,7 +231,7 @@ Quem discordou na etapa 1 **suporta** na etapa 3. Não sabota. Não "eu falei qu
 
 ### A síndrome do grupo de pares
 
-> "Em um grupo de pares, ninguém quer ser o primeiro a discordar — então todo mundo concorda em silêncio com a má decisão."
+> "Em um grupo de pares, ninguém quer ser o primeiro a discordar, então todo mundo concorda em silêncio com a má decisão."
 
 Sintomas:
 - Todos concordam visivelmente
@@ -247,7 +247,7 @@ Sintomas:
 
 ---
 
-## Bloco 4 — Big bets vs incremental
+## Bloco 4, Big bets vs incremental
 
 ### Os 2 modelos
 
@@ -287,15 +287,15 @@ A escola da gestão dona fez big bets gigantes (aquisições bilionárias no set
 
 ### Princípio operacional
 
-**Cliente Fase 1-2:** evita big bet — empresa não sobrevive fracasso, sem caixa pra absorver.
+**Cliente Fase 1-2:** evita big bet, empresa não sobrevive fracasso, sem caixa pra absorver.
 **Cliente Fase 3:** big bet criteriosa começa a fazer sentido (aquisição estratégica, novo segmento).
 **Cliente Fase 4:** big bet sistemática (M&A trimestral) é parte da estratégia.
 
 ---
 
-## Bloco 5 — Frameworks de decisão
+## Bloco 5, Frameworks de decisão
 
-### Framework 1 — Reversibilidade (portas de uma e duas vias)
+### Framework 1, Reversibilidade (portas de uma e duas vias)
 
 **Pergunta:** se essa decisão der errado, dá pra voltar atrás?
 
@@ -310,15 +310,15 @@ Exemplos:
 
 > "80% das decisões são reversíveis e podemos andar rápido. 20% são irreversíveis e precisam pensamento muito mais profundo."
 
-### Framework 2 — 70% de informação
+### Framework 2, 70% de informação
 
 **Princípio:** decide quando tiver 70% da informação necessária. Esperar 90% custa **velocidade** que vale mais que precisão.
 
 - 50% informação: cedo demais, decisão azarada
-- 70% informação: bom — decide
+- 70% informação: bom, decide
 - 90%+ informação: tarde demais, oportunidade passou
 
-### Framework 3 — Pré-mortem
+### Framework 3, Pré-mortem
 
 **Antes de iniciar projeto grande:** "imagina que daqui a 1 ano esse projeto **fracassou**. O que deu errado?"
 
@@ -334,7 +334,7 @@ Resultado:
 
 > Pré-mortem é menos enviesado que post-mortem. Pré ainda dá tempo de evitar.
 
-### Framework 4 — Cost of delay
+### Framework 4, Cost of delay
 
 **Quanto custa adiar essa decisão por mais 1 mês?**
 
@@ -345,7 +345,7 @@ Exemplos:
 - Contratar Head de Vendas: cada mês de atraso = 1 mês de receita perdida → decide rápido
 - Comprar software ERP: 1 mês de atraso = pouco impacto → analisa mais
 
-### Framework 5 — 1 ano vs 10 anos
+### Framework 5, 1 ano vs 10 anos
 
 **Decisão tem que parecer boa em 2 horizontes:**
 - Daqui a 1 ano (curto prazo)
@@ -357,15 +357,15 @@ Se boa em ambos: bom.
 
 ---
 
-## Bloco 6 — Gestão de risco
+## Bloco 6, Gestão de risco
 
 ### A pirâmide de risco
 
 ```
-NÍVEL 1: existencial — risco de quebrar empresa
-NÍVEL 2: estratégico — risco de perder ano de progresso
-NÍVEL 3: operacional — risco de perder semana/mês
-NÍVEL 4: tático — risco de perder dia
+NÍVEL 1: existencial - risco de quebrar empresa
+NÍVEL 2: estratégico - risco de perder ano de progresso
+NÍVEL 3: operacional - risco de perder semana/mês
+NÍVEL 4: tático - risco de perder dia
 ```
 
 ### Como tratar cada nível
@@ -396,11 +396,11 @@ CEO procura **upside maior que downside**:
 
 ---
 
-## Bloco 7 — Recusar oportunidade
+## Bloco 7, Recusar oportunidade
 
 ### Por que recusar é estratégico
 
-> "Cada oportunidade aceita = 5 oportunidades futuras recusadas." — princípio de foco
+> "Cada oportunidade aceita = 5 oportunidades futuras recusadas.", princípio de foco
 
 Empresa Fase 2+ sem capacidade de **recusar** institucionalmente:
 - Time disperso
@@ -431,7 +431,7 @@ Empresa Fase 2+ sem capacidade de **recusar** institucionalmente:
 ### Como recusar profissionalmente
 
 **Resposta padrão:**
-> "Obrigado pela oportunidade. Não conseguimos atender no momento porque [razão honesta — ouriço, capacidade, prazo]. Indico [concorrente confiável OU ninguém, sem mentir]. Se mudar contexto, conversamos."
+> "Obrigado pela oportunidade. Não conseguimos atender no momento porque [razão honesta, ouriço, capacidade, prazo]. Indico [concorrente confiável OU ninguém, sem mentir]. Se mudar contexto, conversamos."
 
 **Princípios:**
 - Não inventa desculpa
@@ -448,7 +448,7 @@ Empresa Fase 3+: critérios de recusa documentados + Heads recusam autonomamente
 
 ---
 
-## Bloco 8 — Decisão sob estresse
+## Bloco 8, Decisão sob estresse
 
 ### O efeito do estresse
 
@@ -499,7 +499,7 @@ Resultado: decisão piorada por contexto, não por dado.
 
 ---
 
-## Bloco 9 — Pivot vs persist
+## Bloco 9, Pivot vs persist
 
 ### A pergunta crítica
 
@@ -536,7 +536,7 @@ Resultado: decisão piorada por contexto, não por dado.
 **Tarde demais:** caixa zero, time saiu, sem energia pra reconstruir.
 **Cedo demais:** abandona oportunidade que estava prestes a virar.
 
-**Sinal certo:** quando você consegue **articular claramente** por que o atual não vai escalar — e qual hipótese alternativa parece mais promissora **com dados**.
+**Sinal certo:** quando você consegue **articular claramente** por que o atual não vai escalar, e qual hipótese alternativa parece mais promissora **com dados**.
 
 ### Erro comum: pivot por exaustão
 

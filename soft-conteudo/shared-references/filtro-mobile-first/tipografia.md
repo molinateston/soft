@@ -50,13 +50,13 @@ Padrão Soft branco editorial:
 
 Uma página tem 3 níveis principais:
 
-1. **H1** — Título principal. Só 1 por página.
-2. **H2** — Títulos de seção. 5-8 por página de vendas.
-3. **Corpo** — Texto narrativo. 18-20px no mobile.
+1. **H1** - Título principal. Só 1 por página.
+2. **H2** - Títulos de seção. 5-8 por página de vendas.
+3. **Corpo** - Texto narrativo. 18-20px no mobile.
 
 Sub-níveis (raros):
-- **H3** — Sub-blocos dentro de seção
-- **Pequeno/Caption** — Texto de apoio
+- **H3** - Sub-blocos dentro de seção
+- **Pequeno/Caption** - Texto de apoio
 
 NUNCA criar 7 hierarquias diferentes. Cabeça do leitor não acompanha.
 
@@ -86,7 +86,7 @@ NUNCA criar 7 hierarquias diferentes. Cabeça do leitor não acompanha.
 
 - Cursivas (Lobster, Pacifico) em corpo de texto
 - Fontes display (Bungee, Permanent Marker) em mais de 1 elemento
-- Fontes serif tradicionais (Times New Roman) — datadas
+- Fontes serif tradicionais (Times New Roman) - datadas
 - Comic Sans em qualquer lugar
 - Mais de 2 famílias de fonte na mesma peça
 
@@ -138,7 +138,7 @@ Letter-spacing 0 ou positivo (+1 a +2px). Respeita o desenho da letra.
 ### Pra corpo de texto
 Letter-spacing 0. Não mexer.
 
-NUNCA letter-spacing positivo em corpo (cansa leitura). NUNCA letter-spacing negativo agressivo (-3px+ — letras grudam).
+NUNCA letter-spacing positivo em corpo (cansa leitura). NUNCA letter-spacing negativo agressivo (-3px+ - letras grudam).
 
 ---
 

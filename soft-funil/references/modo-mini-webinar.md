@@ -1,4 +1,6 @@
-# Modo Mini Webinar, vídeo de 10min em 12 blocos
+# Modo Mini Webinar, vídeo de 10min em 12 blocos (arco ADMA curto)
+
+> **Nota de dono.** Mini Webinar = `soft-funil`, o micro-ADMA do degrau 1 (versão curta ~10min). O Webinar completo ADMA é o `soft-webinario` (degrau 2). Os dois rodam o MESMO arco (Atenção → Diagnóstico → Mecanismo → Ação); este aqui é a compressão do degrau 1, não um framework à parte.
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
@@ -14,8 +16,8 @@
 - Princípio estrutural
 - Mapeamento Discurso Base (7 passos) → 12 blocos da Mini Webinar
 - ATENÇÃO (0:00 a 1:30)
-- INTERESSE (1:30 a 3:00)
-- DESEJO (3:00 a 9:00), coração da Mini Webinar
+- DIAGNÓSTICO (1:30 a 3:00)
+- MECANISMO (3:00 a 9:00), coração da Mini Webinar
 - AÇÃO (9:00 a 10:00)
 - Tabela-resumo de tempo por bloco
 - Workflow de produção
@@ -51,33 +53,33 @@ Cliente escolhe Carta OU Mini Webinar. Não usa as duas simultaneamente.
 
 ## Princípio estrutural
 
-Mini Webinar segue **4 fases sequenciais** (Atenção → Interesse → Desejo → Ação), mesma macro do webinário Soft, comprimida pra 10 minutos.
+Mini Webinar segue o **arco ADMA** (Atenção → Diagnóstico → Mecanismo → Ação), o MESMO do webinário Soft (`soft-webinario`), comprimido pra 10 minutos. É o micro-ADMA do degrau 1.
 
 **Duração ideal:** 9 a 11 minutos. Acima disso retenção cai. Abaixo de 9 perde valor percebido.
 
 **Distribuição em tempo:**
 
-| Fase | Tempo | % do total |
+| Fase ADMA | Tempo | % do total |
 |---|---|---|
 | Atenção | 0:00 a 1:30 | 15% |
-| Interesse | 1:30 a 3:00 | 15% |
-| Desejo | 3:00 a 9:00 | 60% (coração) |
+| Diagnóstico | 1:30 a 3:00 | 15% |
+| Mecanismo | 3:00 a 9:00 | 60% (coração) |
 | Ação | 9:00 a 10:00 | 10% |
 
-Mesmas proporções do webinário (Atenção 12% · Interesse 20% · Desejo 40% · Ação 28%) ajustadas pro formato curto.
+Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Mecanismo 38% · Ação 38%) ajustadas pro formato curto. No degrau 1 a Ação é leve (move pra conversa, não fecha no checkout); no degrau 2 a Ação pesa metade do webinar.
 
 ---
 
 ## Mapeamento Discurso Base (7 passos) → 12 blocos da Mini Webinar
 
-| Discurso Base | Onde aparece na Mini Webinar |
+| Discurso Base | Onde aparece na Mini Webinar (ADMA) |
 |---|---|
 | 1. Gancho | Atenção (Promessa direta) |
-| 2. Diagnóstico | Interesse (Problema geral) |
-| 3. Soluções falham | Interesse (Problema de Problema Avançado) |
-| 4. Método | Desejo (Promessa expandida + Mecanismo + Demonstração prática) |
-| 5. Prova | Desejo (Prova + Estado final + Validação por categoria) |
-| 6. Objeções | Desejo (Amplitude dupla + Oferta secundária) |
+| 2. Diagnóstico | Diagnóstico (Problema geral) |
+| 3. Soluções falham | Diagnóstico (Problema de Problema Avançado) |
+| 4. Método | Mecanismo (Promessa expandida + Mecanismo + Demonstração prática) |
+| 5. Prova | Mecanismo (Prova + Estado final + Validação por categoria) |
+| 6. Objeções | Mecanismo (Amplitude dupla + Oferta secundária) |
 | 7. Oferta | Ação (2 caminhos + CTA) |
 
 ---
@@ -118,11 +120,11 @@ Mesmas proporções do webinário (Atenção 12% · Interesse 20% · Desejo 40% 
 
 ---
 
-## INTERESSE (1:30 a 3:00)
+## DIAGNÓSTICO (1:30 a 3:00)
 
-> Função: ativar a dor que o método vai resolver. Lead pensa *"é exatamente isso que eu vivo"*.
+> Função: amplificar a dor até doer, tirar a culpa do lead e nomear o inimigo (a fase Diagnóstico do ADMA, comprimida). Lead pensa *"é exatamente isso que eu vivo, e a culpa não é minha"*.
 
-**Output esperado:** lead reconhece a si mesmo, e nomeia o inimigo (sem ser ele mesmo).
+**Output esperado:** lead reconhece a si mesmo, sente alívio (a culpa saiu de cima dele) e nomeia o inimigo (sem ser ele mesmo).
 
 ### Bloco I.1, Problema geral (45 a 60s)
 
@@ -151,9 +153,9 @@ Mesmas proporções do webinário (Atenção 12% · Interesse 20% · Desejo 40% 
 
 ---
 
-## DESEJO (3:00 a 9:00), coração da Mini Webinar
+## MECANISMO (3:00 a 9:00), coração da Mini Webinar
 
-> Função: apresenta o método como cura. Lead pensa *"isso é real, tem prova, e cabe na minha realidade"*.
+> Função: instala a crença única, entrega o mecanismo nomeado, prova e faz querer (a fase Mecanismo do ADMA, comprimida). Lead pensa *"isso é real, tem prova, e cabe na minha realidade"*.
 
 **Output esperado:** lead pronto pra ouvir a oferta na fase Ação.
 
@@ -230,7 +232,7 @@ Mesmas proporções do webinário (Atenção 12% · Interesse 20% · Desejo 40% 
 >
 > *Quando o método tá rodando, seu único trabalho vai ser [AÇÃO 1], [AÇÃO 2] e [AÇÃO 3]. Mais nada."*
 
-**Exemplo (ilustrativo, com as ofertas do próprio método Soft — troque pelas do cliente à frente):**
+**Exemplo (ilustrativo, com as ofertas do próprio método Soft, troque pelas do cliente à frente):**
 > *"O resultado: R$240 mil em 8 meses só com esse método. E não é tudo a mesma oferta: teve cliente que comprou Implementação Soft, outro Micro Treinamento, outro consultoria pontual. Aqui embaixo tem print de cada um. Cada lead chega num momento diferente, e o método captura todos.*
 >
 > *Quando o método tá rodando, seu único trabalho vai ser gravar 1 reel por dia, responder 3-5 mensagens no WhatsApp e mandar o link de pagamento. Mais nada."*
@@ -335,9 +337,9 @@ Mesmas proporções do webinário (Atenção 12% · Interesse 20% · Desejo 40% 
 |---|---|---|
 | ATENÇÃO | Promessa direta + Filtragem | 0:00 a 1:00 |
 | | Prova social ancorada | 1:00 a 1:30 |
-| INTERESSE | Problema geral | 1:30 a 2:30 |
+| DIAGNÓSTICO | Problema geral | 1:30 a 2:30 |
 | | Problema Avançado (opcional) | 2:30 a 3:00 |
-| DESEJO | Promessa expandida + Método + Projeção | 3:00 a 4:30 |
+| MECANISMO | Promessa expandida + Método + Projeção | 3:00 a 4:30 |
 | | Mecanismo demonstrado | 4:30 a 6:00 |
 | | Demonstração prática | 6:00 a 6:30 |
 | | Prova + Estado final | 6:30 a 7:30 |
@@ -392,10 +394,10 @@ Roteiro pronto pra gravar em markdown Notion-compatível, com timestamps e indic
 
 - [ ] Roteiro completo escrito (todos os 12 blocos)
 - [ ] Tempo total entre 9 e 11 min
-- [ ] Promessa primária dita literalmente em pelo menos 2 momentos (Atenção e Desejo)
-- [ ] Método nomeado aparece em pelo menos 2 momentos (Desejo e Ação)
-- [ ] Problema de Problema Avançado aparece se cliente tem (Interesse)
-- [ ] Demonstração prática descreve trabalho do CLIENTE em 2ª pessoa (Desejo)
+- [ ] Promessa primária dita literalmente em pelo menos 2 momentos (Atenção e Mecanismo)
+- [ ] Método nomeado aparece em pelo menos 2 momentos (Mecanismo e Ação)
+- [ ] Problema de Problema Avançado aparece se cliente tem (Diagnóstico)
+- [ ] Demonstração prática descreve trabalho do CLIENTE em 2ª pessoa (Mecanismo)
 - [ ] Variedade de ofertas/produtos na prova (3 produtos diferentes vendidos pelo método)
 - [ ] Amplitude dupla genuína (atende dois perfis sem forçar)
 - [ ] Oferta secundária só aparece se cliente tem estruturada
@@ -415,7 +417,7 @@ Roteiro pronto pra gravar em markdown Notion-compatível, com timestamps e indic
 | **Áudio** | Microfone de lapela ou direcional. Áudio de câmera não basta |
 | **Cenário** | Real (escritório, mesa de trabalho). Sem fundo virtual |
 | **B-roll** | Apenas em Atenção (depoimentos visíveis) e Bloco D.4 (prints de resultado). Resto: talking head |
-| **Texto na tela** | Em transições entre fases (Atenção → Interesse → Desejo → Ação). Identifica nova seção visualmente |
+| **Texto na tela** | Em transições entre fases (Atenção → Diagnóstico → Mecanismo → Ação). Identifica nova seção visualmente |
 | **Edição** | Cortes de respiração. Zero efeito sonoro. Zero música de fundo |
 | **Tom de voz** | Conversa de mesa. Sem palanque. Sem música motivacional de abertura |
 
@@ -503,7 +505,7 @@ A Mini Webinar é mensurável de forma direta. Cada métrica aponta pra um probl
 |---|---|---|---|
 | **Pouca visualização** | Visualizações baixas | Tráfego baixo · página não atrai | atração (peças) · headline da página · canal de origem |
 | **Conclusão baixa em qualquer ponto** | Taxa de conclusão < 30% | Vídeo não retém | Bloco A.1 (promessa fraca) · Bloco A.2 (sem prova social) · ritmo geral |
-| **Conclusão cai no Bloco I (Interesse)** | Drop em 1:30-3:00 | Problema mal nomeado · não soa como dor real | Reescrever Bloco I.1 + I.2 |
+| **Conclusão cai no Bloco I (Diagnóstico)** | Drop em 1:30-3:00 | Problema mal nomeado · não soa como dor real | Reescrever Bloco I.1 + I.2 |
 | **Conclusão cai no Bloco D.2 (Mecanismo)** | Drop em 4:30-6:00 | Mecanismo abstrato · sem demonstração | Refazer Bloco D.2 com mais concretude |
 | **Conclusão cai no Bloco D.5 (Validação)** | Drop em 7:30-8:30 | Insight fraco · não conecta com a dor | Refazer Bloco D.5 com insight mais filtrante |
 | **Muitas conclusões, poucos cliques** | Taxa de clique sobre conclusões < 30% | CTA fraco no Bloco A.2 · botão da página confuso | Refazer fechamento (compromisso pessoal repetido?) · simplificar página |

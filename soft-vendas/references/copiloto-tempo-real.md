@@ -70,3 +70,14 @@ Se o usuário colar várias mensagens de conversa passada pedindo "o que faço a
 2. Depois, a mensagem pronta (Modo B puro).
 
 Sem análise completa, ele tá com pressa.
+
+
+## Crivo-express (bloqueante, leve)
+
+Tempo real não comporta o CUB completo, ele mata a velocidade. Mas a mensagem pronta ainda passa por um filtro de 3 batidas antes de sair, sempre, sem exceção:
+
+1. **Anti-IA na hora** (`shared-references/filtro-anti-ia/`): zero em-dash, zero família "travar" (usa emperrar, parar, freio), zero frase de robô bem-comportado. Soou a IA, reescreve antes de entregar.
+2. **"Soa na minha boca?"**: a mensagem tem que soar como o especialista falando pro lead, não como roteiro lido. Não soou, ajusta.
+3. **"Promessa sem chão?"**: nenhuma promessa sem lastro real. Garantia mágica, número inventado, certeza que ele não pode cumprir, corta.
+
+Falhou em qualquer uma das 3, a mensagem não sai, reescreve na hora. Curto, mas obrigatório.

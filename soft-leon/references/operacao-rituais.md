@@ -1,27 +1,27 @@
-# Operação e rituais — transversal
+# Operação e rituais, transversal
 
-> **Quando consultar:** instalação ou ajuste de rituais de gestão — 1:1, staff meeting, ops review, OKRs trimestrais, planejamento. Atravessa todas as fases (a partir da Fase 2).
+> **Quando consultar:** instalação ou ajuste de rituais de gestão, 1:1, staff meeting, ops review, OKRs trimestrais, planejamento. Atravessa todas as fases (a partir da Fase 2).
 
 ---
 
 ## Índice
 
 - Doutrina central
-- Bloco 1 — 1:1 semanal
-- Bloco 2 — Staff meeting semanal
-- Bloco 3 — Ops review mensal
-- Bloco 4 — OKRs trimestrais
-- Bloco 5 — Reuniões orientadas à missão
-- Bloco 6 — Reuniões one-page
-- Bloco 7 — Cadência consolidada por fase
-- Bloco 8 — O custo de NÃO ter rituais
+- Bloco 1, 1:1 semanal
+- Bloco 2, Staff meeting semanal
+- Bloco 3, Ops review mensal
+- Bloco 4, OKRs trimestrais
+- Bloco 5, Reuniões orientadas à missão
+- Bloco 6, Reuniões one-page
+- Bloco 7, Cadência consolidada por fase
+- Bloco 8, O custo de NÃO ter rituais
 - Notas operacionais
 
 ---
 
 ## Doutrina central
 
-> "Rituais são a infraestrutura invisível que sustenta a operação. Sem eles, decisão depende de iniciativa individual — frágil. Com eles, decisão é institucional — robusta."
+> "Rituais são a infraestrutura invisível que sustenta a operação. Sem eles, decisão depende de iniciativa individual, frágil. Com eles, decisão é institucional, robusta."
 
 > "O que se mede, melhora. O que se ritualiza, dura."
 
@@ -33,7 +33,7 @@ CEO Fase 2+ instala 4 rituais base:
 
 ---
 
-## Bloco 1 — 1:1 semanal
+## Bloco 1, 1:1 semanal
 
 ### Por que existe
 
@@ -51,7 +51,7 @@ CEO Fase 2+ instala 4 rituais base:
 
 ```
 DURAÇÃO:      60 min
-FREQUÊNCIA:   semanal (não quinzenal — perde temperatura)
+FREQUÊNCIA:   semanal (não quinzenal - perde temperatura)
 QUEM CONDUZ:  o subordinado (ele traz a pauta)
 QUEM ANOTA:   ambos
 LOCAL:        sala fechada / chamada de vídeo, sem celular
@@ -77,7 +77,7 @@ LOCAL:        sala fechada / chamada de vídeo, sem celular
 - Se você conduz, vira "reunião de chefe" e perde função
 
 **2. Não cancela.**
-- Cancelamento envia mensagem oposta — diz que outras coisas importam mais
+- Cancelamento envia mensagem oposta, diz que outras coisas importam mais
 - Se precisar mover, **reagenda dentro da semana**, não cancela
 - Tolera no máximo 1 cancelamento a cada 12 semanas
 
@@ -110,7 +110,7 @@ CEO sem 1:1 ascendente perde feedback. Funda mentor / conselho consultivo / par-
 
 ---
 
-## Bloco 2 — Staff meeting semanal
+## Bloco 2, Staff meeting semanal
 
 ### Quem participa
 
@@ -185,12 +185,12 @@ Se as 3 respostas são "não" → fora da pauta. Vai em async.
 
 ---
 
-## Bloco 3 — Ops review mensal
+## Bloco 3, Ops review mensal
 
 ### Quem participa
 
 - Fase 2: time inteiro
-- Fase 3+: liderança ampliada (gerentes + heads + diretores) — se time >25
+- Fase 3+: liderança ampliada (gerentes + heads + diretores), se time >25
 
 ### Estrutura padrão
 
@@ -213,7 +213,7 @@ PAUTA:       dashboard fechado da empresa
 
 ### O bloco de confronto brutal
 
-O ritual de encarar os fatos brutais — somado à cadência operacional pra prevenir a espiral de declínio:
+O ritual de encarar os fatos brutais, somado à cadência operacional pra prevenir a espiral de declínio:
 
 **4 perguntas obrigatórias:**
 1. O que **não tá funcionando** que estamos fingindo que funciona?
@@ -256,7 +256,7 @@ Sem isso, cada área vive na bolha dela e narrativa coletiva se perde.
 
 ---
 
-## Bloco 4 — OKRs trimestrais
+## Bloco 4, OKRs trimestrais
 
 ### O que é OKR
 
@@ -272,16 +272,16 @@ OKR é um framework de gestão consagrado de mercado, criado numa fabricante de 
 
 - Anual = longo demais, contexto muda no meio
 - Mensal = curto demais, não cabe iniciativa significativa
-- **Trimestral** = ideal — cabe iniciativa + permite ajuste
+- **Trimestral** = ideal, cabe iniciativa + permite ajuste
 
 ### Estrutura
 
 ```
-EMPRESA — 3-5 OKRs do trimestre
+EMPRESA - 3-5 OKRs do trimestre
    ↓
-CADA ÁREA — 3-5 OKRs alinhados aos da empresa
+CADA ÁREA - 3-5 OKRs alinhados aos da empresa
    ↓
-CADA INDIVÍDUO (opcional) — 1-3 OKRs alinhados aos da área
+CADA INDIVÍDUO (opcional) - 1-3 OKRs alinhados aos da área
 ```
 
 ### Anatomia de um OKR bem feito
@@ -317,7 +317,7 @@ CADA INDIVÍDUO (opcional) — 1-3 OKRs alinhados aos da área
 
 **2. Mensurável.**
 - Cada KR tem número/data
-- Sem "melhorar X" — quanto? medido como?
+- Sem "melhorar X", quanto? medido como?
 
 **3. Limitado.**
 - 3-5 OKRs por nível
@@ -331,11 +331,11 @@ CADA INDIVÍDUO (opcional) — 1-3 OKRs alinhados aos da área
 ### Cadência OKR
 
 ```
-SEMANA 1 do trimestre — Definição (offsite ou planning intensivo)
+SEMANA 1 do trimestre - Definição (offsite ou planning intensivo)
    ↓
-SEMANAS 2-12 — Execução + checkpoint quinzenal
+SEMANAS 2-12 - Execução + checkpoint quinzenal
    ↓
-SEMANA 13 — Avaliação do trimestre + planejamento do próximo
+SEMANA 13 - Avaliação do trimestre + planejamento do próximo
 ```
 
 ### Erros comuns
@@ -357,7 +357,7 @@ OKR começa **na Fase 2** quando há time formal e necessidade de coordenação 
 
 ---
 
-## Bloco 5 — Reuniões orientadas à missão
+## Bloco 5, Reuniões orientadas à missão
 
 ### Diferença das reuniões processuais
 
@@ -397,7 +397,7 @@ Empresa que vive em reunião de missão = **falta de planejamento**. Decisão es
 
 ---
 
-## Bloco 6 — Reuniões one-page
+## Bloco 6, Reuniões one-page
 
 ### O hábito da reunião enxuta
 
@@ -438,9 +438,9 @@ CEO Fase 2+ adota como prática:
 │ Por que estamos discutindo isso agora.      │
 │                                            │
 │ OPÇÕES                                      │
-│ 1. [Opção A] — prós/contras                 │
-│ 2. [Opção B] — prós/contras                 │
-│ 3. [Opção C] — prós/contras                 │
+│ 1. [Opção A] - prós/contras                 │
+│ 2. [Opção B] - prós/contras                 │
+│ 3. [Opção C] - prós/contras                 │
 │                                            │
 │ RECOMENDAÇÃO                                │
 │ Por que a melhor é Opção X.                 │
@@ -456,23 +456,23 @@ CEO Fase 2+ adota como prática:
 
 ---
 
-## Bloco 7 — Cadência consolidada por fase
+## Bloco 7, Cadência consolidada por fase
 
-### Fase 1 — Mínimo viável
+### Fase 1, Mínimo viável
 
-- 1:1 semanal com sócio (se tiver) — 30 min
-- Reunião do time (1-3 pessoas) — 1x semana, 30 min
-- Sem ops review formal — informal contínuo
+- 1:1 semanal com sócio (se tiver), 30 min
+- Reunião do time (1-3 pessoas), 1x semana, 30 min
+- Sem ops review formal, informal contínuo
 - Sem OKR formal
 
-### Fase 2 — Instala estrutura
+### Fase 2, Instala estrutura
 
-- 1:1 semanal com cada direto (3-5 pessoas) — 60 min cada
-- Staff meeting semanal — 60-90 min
-- Ops review mensal — 90 min, time inteiro
+- 1:1 semanal com cada direto (3-5 pessoas), 60 min cada
+- Staff meeting semanal, 60-90 min
+- Ops review mensal, 90 min, time inteiro
 - OKRs trimestrais começam (3-5 OKRs por nível)
 
-### Fase 3 — Estrutura institucional
+### Fase 3, Estrutura institucional
 
 - 1:1 semanal com diretos
 - Staff meeting semanal
@@ -481,7 +481,7 @@ CEO Fase 2+ adota como prática:
 - Comitês mensais (Executivo, RH, Financeiro)
 - Conselho consultivo trimestral
 
-### Fase 4 — Estrutura completa
+### Fase 4, Estrutura completa
 
 - Tudo da Fase 3
 - Conselho de administração mensal/bimestral
@@ -491,7 +491,7 @@ CEO Fase 2+ adota como prática:
 
 ---
 
-## Bloco 8 — O custo de NÃO ter rituais
+## Bloco 8, O custo de NÃO ter rituais
 
 ### Empresa Fase 2+ sem rituais
 
@@ -506,7 +506,7 @@ CEO Fase 2+ adota como prática:
 
 > "A gente é muito ágil, não precisa de reunião"
 
-Falso. Empresa "ágil" sem rituais = empresa **caótica**. Decisão depende de iniciativa individual — frágil quando alguém sai/cansa.
+Falso. Empresa "ágil" sem rituais = empresa **caótica**. Decisão depende de iniciativa individual, frágil quando alguém sai/cansa.
 
 > "Reunião é desperdício"
 
@@ -534,5 +534,5 @@ ROI estimado: 5-10x.
 - **Para Léo escalando Soft Business**: ainda na Fase 1-2 transição. Primeira coisa a instalar quando tiver primeiro funcionário: 1:1 semanal.
 - **Para cliente do Léo**: geralmente está montando staff meeting + ops review. Skill ajuda na cadência inicial.
 - **Para empresário genérico**: depende da fase, skill pergunta antes de prescrever.
-- **Resistência cultural a rituais**: alguns CEOs/sócios resistem ("a gente é informal"). Skill aceita inicialmente mas alerta — empresa Fase 2+ sem rituais estagna previsivelmente em R$3-5MM.
+- **Resistência cultural a rituais**: alguns CEOs/sócios resistem ("a gente é informal"). Skill aceita inicialmente mas alerta, empresa Fase 2+ sem rituais estagna previsivelmente em R$3-5MM.
 - **Rituais ≠ burocracia.** Rituais bem feitos LIBERAM tempo, não consomem. Burocracia = ritual sem decisão. Ritual = decisão estruturada.

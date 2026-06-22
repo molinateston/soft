@@ -33,14 +33,14 @@ Caixa de perguntas onde você planta e/ou responde provando competência. É o �
 **Quando fazer:** 1/dia mínimo.
 
 **Banco de fotos (regra operacional):**
-- Num dia bom, tira 20–30 fotos em lote.
+- Num dia bom, tira 20-30 fotos em lote.
 - Salva em álbum separado: "Stories CARO - A".
-- Tem conteúdo pra 2–3 semanas. Renova cada vez que estiver num lugar novo.
+- Tem conteúdo pra 2-3 semanas. Renova cada vez que estiver num lugar novo.
 - Ao postar: abre álbum, escolhe, adiciona texto, posta. 2 minutos.
 
 **Uso de sticker (reforço algorítmico):** Alinhamento aceita poll/slider/emoji ocasional, mas só quando orgânico. *"Café ou chá?"* depois de mostrar a rotina. Nunca no lugar da associação principal.
 
-**É o único tipo que impulsiona.** R$10–20/dia por 3 dias. Objetivo: visitas ao perfil. Meta: custo/visita <R$0,20, taxa de seguidor >25%.
+**É o único tipo que impulsiona.** R$10-20/dia por 3 dias. Objetivo: visitas ao perfil. Meta: custo/visita <R$0,20, taxa de seguidor >25%.
 
 ---
 
@@ -48,7 +48,7 @@ Caixa de perguntas onde você planta e/ou responde provando competência. É o �
 
 **O que é:** prova social. Cases. Números. Transformações documentadas.
 
-**Estrutura:** print ou foto + contexto breve (máx 2–3 linhas).
+**Estrutura:** print ou foto + contexto breve (máx 2-3 linhas).
 
 **4 tipos canônicos:**
 
@@ -123,7 +123,7 @@ Direct '[PALAVRA]'.
 Direct '[PALAVRA]'.
 ```
 
-**Quando fazer:** 1–2/dia. Todo dia. Sem vergonha.
+**Quando fazer:** 1-2/dia. Todo dia. Sem vergonha.
 
 **Regra central: pode repetir mesma oferta todo dia, só muda o ângulo.** Segunda: diagnóstico. Terça: prova social. Quarta: pergunta. Quinta: entrega. Sexta: escassez.
 
@@ -201,7 +201,7 @@ Dom  | 1 story opcional (O ou A)
 
 ## Checklist diário
 
-- [ ] Fiz pelo menos 3 stories CARO hoje (Seg–Sex)?
+- [ ] Fiz pelo menos 3 stories CARO hoje (Seg-Sex)?
 - [ ] Tem pelo menos 1 Caixinha (aberta ou resposta)?
 - [ ] Tem pelo menos 1 Alinhamento do banco?
 - [ ] Tem pelo menos 1 Oferta (mesmo que repetida com ângulo novo)?

@@ -7,7 +7,7 @@ Referência rápida pra termos que aparecem nos contratos. Use quando o usuário
 ## Obrigação de meio vs Obrigação de fim
 
 **Obrigação de meio.** A parte se compromete a empregar diligência, técnica
-e expertise — mas não garante resultado específico. Ex.: médico se obriga a
+e expertise, mas não garante resultado específico. Ex.: médico se obriga a
 tratar com competência, não a curar.
 
 **Obrigação de fim (resultado).** A parte se compromete a entregar um
@@ -87,7 +87,7 @@ telefone, em casa).
 
 Aplica-se a contratações de PF consumidora. Não se aplica em B2B.
 
-Em consultoria/mentoria ao vivo, há discussão sobre se aplica — alguns
+Em consultoria/mentoria ao vivo, há discussão sobre se aplica, alguns
 juristas entendem que o serviço de execução continuada inicia desde o
 acesso, descabendo arrependimento. Por segurança, preferir cláusula
 explícita que aborde isso (oferecer garantia comercial ou afastar
@@ -216,5 +216,5 @@ certificação digital. Documentos assinados com certificado ICP-Brasil têm
 presunção de autenticidade (não precisam de testemunhas para força
 executiva).
 
-Pra MEI/PF, o custo do certificado pode não compensar — assinatura via
+Pra MEI/PF, o custo do certificado pode não compensar, assinatura via
 plataforma reconhecida (D4Sign etc.) já dá segurança jurídica suficiente.

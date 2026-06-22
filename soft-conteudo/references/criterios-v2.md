@@ -233,3 +233,7 @@ A skill **nunca entrega "passa fraco" como "passa forte"**. Pra cada headline ge
 6. Se 1 falha → refaz a frase, não o conceito
 
 **Output ao usuário:** só as headlines que passaram. Sem auditoria visível, mas **com template marcado**.
+
+---
+
+> **Os 5 critérios NÃO substituem o Crivo.** Eles são o filtro de geração da headline; o Crivo (`shared-references/crivo/03-gate-cub.md`) é o gate de saída bloqueante por onde toda peça passa antes de sair. Headline que passa nos 5 critérios ainda atravessa o gate. Sem passar no Crivo, a peça não foi entregue.

@@ -68,3 +68,13 @@ Nem toda venda perdida é erro do vendedor. Se a análise indicar que o **lead n
 > *"Essa conversa foi conduzida bem. O que empacou não foi execução, foi perfil do lead. Ele não era Problema Avançado real: [motivo específico]. Libera a cabeça e foca no próximo."*
 
 Isso também é feedback clínico válido, proteger o usuário de autocrítica indevida.
+
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.** A mensagem do próximo movimento (passo 4) é texto pro lead: não sai sem passar aqui.

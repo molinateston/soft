@@ -1,4 +1,4 @@
-# Fase 4 — 100MM ao IPO/M&A
+# Fase 4, 100MM ao IPO/M&A
 
 > **Quando consultar:** cliente faturando R$100MM+/ano, preparando IPO, busca M&A, ou já é empresa pública. Esta é a fase onde **CEO opera como os grandes consolidadores da gestão dona**: institucional, com governança formal, mercado de capitais, e M&A como ferramenta estratégica.
 
@@ -9,10 +9,10 @@
 - O que define essa fase
 - A pergunta central da Fase 4
 - Os 4 pilares da Fase 4
-- Pilar 1 — O volante maduro
-- Pilar 2 — Recompra / M&A agressivo
-- Pilar 3 — Governança formal
-- Pilar 4 — IPO, M&A, ou manter privado
+- Pilar 1, O volante maduro
+- Pilar 2, Recompra / M&A agressivo
+- Pilar 3, Governança formal
+- Pilar 4, IPO, M&A, ou manter privado
 - Saúde institucional auditável
 - Output desejado ao final da Fase 4
 - Erros comuns da Fase 4
@@ -37,7 +37,7 @@ Fase termina quando:
 
 ## A pergunta central da Fase 4
 
-> **"A empresa está em estado de ser auditada por mercado de capitais ou comprador estratégico — sem maquiagem?"**
+> **"A empresa está em estado de ser auditada por mercado de capitais ou comprador estratégico, sem maquiagem?"**
 
 Se sim → pronta pra IPO/M&A.
 Se não → tem dívida técnica grave em alguma frente (financeiro, operação, governança, time).
@@ -47,22 +47,22 @@ Se não → tem dívida técnica grave em alguma frente (financeiro, operação,
 ## Os 4 pilares da Fase 4
 
 ```
-PILAR 1 — O VOLANTE MADURO
+PILAR 1 - O VOLANTE MADURO
    Momentum cumulativo institucional, não impulso individual
 
-PILAR 2 — RECOMPRA / M&A AGRESSIVO
+PILAR 2 - RECOMPRA / M&A AGRESSIVO
    Capital alocado pra comprar / consolidar, não só crescer organicamente
 
-PILAR 3 — GOVERNANÇA FORMAL
+PILAR 3 - GOVERNANÇA FORMAL
    Conselho de administração + auditoria + controles internos
 
-PILAR 4 — IPO ou ALTERNATIVAS
+PILAR 4 - IPO ou ALTERNATIVAS
    Decisão entre IPO, M&A, manter privado, ou venda parcial
 ```
 
 ---
 
-## Pilar 1 — O volante maduro
+## Pilar 1, O volante maduro
 
 ### O conceito raiz
 
@@ -110,7 +110,7 @@ Skill ajuda CEO a:
 
 ---
 
-## Pilar 2 — Recompra / M&A agressivo
+## Pilar 2, Recompra / M&A agressivo
 
 ### O modelo da consolidação por aquisição
 
@@ -118,7 +118,7 @@ Skill ajuda CEO a:
 - Um banco de investimento → Brahma (cervejaria, comprou em 1989)
 - Brahma → AmBev (fusão Brahma + Antarctica, 1999)
 - AmBev → InBev (fusão com Interbrew, 2004)
-- InBev → AB InBev (compra Anheuser-Busch, 2008 — US$52BB)
+- InBev → AB InBev (compra Anheuser-Busch, 2008, US$52BB)
 - AB InBev → Burger King (2010)
 - AB InBev → Heinz (2013, em parceria com um grande investidor)
 - Heinz → Kraft Heinz (2015)
@@ -137,7 +137,7 @@ Não "respeita cultura local" e fica assim. Substitui top management, instala PS
 Áreas redundantes saem (não tem 2 RHs, 2 financeiros). Sinergia operacional captura antes da fusão fechar oficialmente.
 
 **4. Mantém crescimento com cultura instalada.**
-Após corte, cultura vira motor — gera margem que vira caixa que vira próxima compra.
+Após corte, cultura vira motor, gera margem que vira caixa que vira próxima compra.
 
 **5. Endivida pra crescer (estratégia agressiva).**
 O modelo usa dívida estratégica (10-20x EBITDA) pra comprar grande. Disciplina de geração de caixa paga dívida.
@@ -180,7 +180,7 @@ O modelo usa dívida estratégica (10-20x EBITDA) pra comprar grande. Disciplina
 
 ---
 
-## Pilar 3 — Governança formal
+## Pilar 3, Governança formal
 
 ### Diferença vs Fase 3 (consultivo)
 
@@ -241,9 +241,9 @@ Empresa Fase 4 precisa de:
 
 ---
 
-## Pilar 4 — IPO, M&A, ou manter privado
+## Pilar 4, IPO, M&A, ou manter privado
 
-### IPO — quando faz sentido
+### IPO, quando faz sentido
 
 **Sinais positivos:**
 - Receita previsível (>70% recorrente conhecida)
@@ -287,7 +287,7 @@ Mês 14+: Vida pública (relatórios trimestrais, CVM compliance, IR ativo)
 - Assembleia anual obrigatória
 - ESG reporting (cada vez mais obrigatório)
 
-### M&A — quando faz sentido
+### M&A, quando faz sentido
 
 **Cenários de M&A:**
 
@@ -306,7 +306,7 @@ Mês 14+: Vida pública (relatórios trimestrais, CVM compliance, IR ativo)
 - M&A se você quer **sair** ou ter parceiro estratégico
 - IPO se você quer **continuar liderando** mas com capital + liquidez de mercado
 
-### Manter privado — alternativa legítima
+### Manter privado, alternativa legítima
 
 > Maioria das empresas excelentes do mundo NUNCA listou ações.
 
@@ -323,7 +323,7 @@ Mês 14+: Vida pública (relatórios trimestrais, CVM compliance, IR ativo)
 - Secondary partial (vende 20-30% pra fundo, mantém controle)
 - Family office estrutura
 
-**Princípio:** IPO virou cult — empresa "tem que" listar. Não tem. **Decisão é se faz sentido pro CEO + sócios + tese de longo prazo.**
+**Princípio:** IPO virou cult, empresa "tem que" listar. Não tem. **Decisão é se faz sentido pro CEO + sócios + tese de longo prazo.**
 
 ---
 
@@ -358,7 +358,7 @@ Empresa Fase 4 precisa estar **auditável a qualquer momento**:
 ### Frente Cultural
 - Valores documentados + traduzidos em práticas observáveis
 - Pesquisa de clima anual
-- Plano de DEI (Diversidade, Equidade, Inclusão) — exigido por investidor institucional 2026
+- Plano de DEI (Diversidade, Equidade, Inclusão), exigido por investidor institucional 2026
 - ESG mensurável
 
 > Cliente Fase 4 deve poder receber **due diligence intrusiva** a qualquer momento. Sem maquiagem possível.
@@ -369,18 +369,18 @@ Empresa Fase 4 precisa estar **auditável a qualquer momento**:
 
 Cliente sai com **uma das 3 saídas legítimas:**
 
-**Saída A — IPO:**
+**Saída A, IPO:**
 - Listado em bolsa (B3 ou exterior)
 - Capital captado conforme tese
 - Estrutura pública estabelecida
 - Time de IR + Investor Relations operacional
 
-**Saída B — M&A:**
+**Saída B, M&A:**
 - Empresa vendida (parcial ou total)
 - Transição estruturada
 - Cláusulas de earn-out cumpridas (se houver)
 
-**Saída C — Manter privado consciente:**
+**Saída C, Manter privado consciente:**
 - Decidiu não listar nem vender
 - Estrutura financeira garante liquidez via dividendos/secondary
 - CEO segue operando com governança institucional consolidada
@@ -405,8 +405,8 @@ Cliente sai com **uma das 3 saídas legítimas:**
 ## Notas operacionais
 
 - **Skill não força IPO.** Maioria das empresas excelentes do mundo (Mars, Cargill, Bloomberg) nunca listou. IPO é ferramenta, não troféu.
-- **A Fase 4 é onde fundador finalmente colhe.** Décadas de construção viram liquidez (parcial ou total). Mas a colheita não é gratuita — exige preparação institucional rigorosa.
+- **A Fase 4 é onde fundador finalmente colhe.** Décadas de construção viram liquidez (parcial ou total). Mas a colheita não é gratuita, exige preparação institucional rigorosa.
 - **A consolidação por aquisição é referência, não receita.** Maioria dos empresários brasileiros não vai operar como os grandes consolidadores da gestão dona. Princípios servem; tropicalismo brutal não é obrigatório.
-- **Para Léo escalando Soft Business**: Fase 4 está distante — talvez nunca chegue se Soft permanecer estilo "estúdio premium" (R$10-30MM/ano de margem alta). Skill respeita essa escolha — não empurra escala forçada.
-- **Mercado brasileiro de IPO é cíclico.** Janela de IPO abre 2-3 anos a cada 5-7 anos. Cliente Fase 4 precisa estar pronto pra **aproveitar a janela quando abrir** — não tem como construir prontidão durante a janela.
+- **Para Léo escalando Soft Business**: Fase 4 está distante, talvez nunca chegue se Soft permanecer estilo "estúdio premium" (R$10-30MM/ano de margem alta). Skill respeita essa escolha, não empurra escala forçada.
+- **Mercado brasileiro de IPO é cíclico.** Janela de IPO abre 2-3 anos a cada 5-7 anos. Cliente Fase 4 precisa estar pronto pra **aproveitar a janela quando abrir**, não tem como construir prontidão durante a janela.
 - **Após IPO ou M&A, vida do CEO muda fundamentalmente.** Skill alerta: muitos fundadores se arrependem (perdem autonomia, vivem em pressão de mercado). Cash out não é nirvana automático.

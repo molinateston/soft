@@ -1,16 +1,16 @@
 # Plataforma PDF / Guia Notion
 
-Lead magnet em formato longo. PDF é linear, imprimível, offline. Notion é navegável, hipertextual, online. O núcleo Soft é o mesmo — o invólucro muda.
+Lead magnet em formato longo. PDF é linear, imprimível, offline. Notion é navegável, hipertextual, online. O núcleo Soft é o mesmo - o invólucro muda.
 
 ## Regra central
 
-Lead magnet Soft **não é FAQ, não é curso**. É peça de filtragem disfarçada de valor. O leitor certo chega no CTA pensando *"preciso da Mini Carta / reunião"*. O leitor errado desiste no meio — isso é sucesso.
+Lead magnet Soft **não é FAQ, não é curso**. É peça de filtragem disfarçada de valor. O leitor certo chega no CTA pensando *"preciso da Mini Carta / reunião"*. O leitor errado desiste no meio - isso é sucesso.
 
 **Testa sempre:** o lead magnet entrega valor real mas **mantém desejo pelo sistema completo**. Nunca resolve tudo.
 
 ---
 
-## Formato A — PDF 5-7 páginas
+## Formato A - PDF 5-7 páginas
 
 **Uso:** lead magnet clássico, baixa barreira, imprimível, viaja bem por email.
 
@@ -27,22 +27,22 @@ INTRODUÇÃO (1 página)
 - Quem é quem vai ler isso
 - O que você NÃO vai encontrar aqui (filtra)
 
-CAPÍTULO 1 — SOLUÇÕES COMUNS E EFEITOS COLATERAIS (1-2 páginas)
+CAPÍTULO 1 - SOLUÇÕES COMUNS E EFEITOS COLATERAIS (1-2 páginas)
 - Lista as soluções que o mercado vende
 - Por que cada uma cria efeito colateral
-- Box: "Se você já tentou X e Y, não é você — é o método"
+- Box: "Se você já tentou X e Y, não é você - é o método"
 
-CAPÍTULO 2 — PROBLEMA SOFISTICADO (1 página)
+CAPÍTULO 2 - PROBLEMA SOFISTICADO (1 página)
 - Nomeia o inimigo-categoria
 - Cadeia causal curta (A → B → C → dano)
 - Revelação exclusiva
 
-CAPÍTULO 3 — MÉTODO (1-2 páginas)
+CAPÍTULO 3 - MÉTODO (1-2 páginas)
 - Nome próprio + explicação
 - 3 etapas sequenciais
 - Checklist de autoavaliação
 
-CAPÍTULO 4 — COMO IMPLEMENTAR (1-2 páginas)
+CAPÍTULO 4 - COMO IMPLEMENTAR (1-2 páginas)
 - Passo a passo aplicável
 - Erros comuns a evitar
 - Espaços pra anotações
@@ -60,7 +60,7 @@ BIO (1 página)
 
 ---
 
-## Formato B — Guia Notion
+## Formato B - Guia Notion
 
 **Uso:** lead magnet premium, navegável, atualizável, parece "área de membro" lite.
 
@@ -92,8 +92,8 @@ BIO (1 página)
 Entrega junto com a peça:
 
 1. **Nome do arquivo** (PDF) ou **URL sugerida** (Notion).
-2. **Texto de email de entrega** — o lead recebeu o magnet e você quer que ele leia. 3-4 linhas.
-3. **CTA final interno** — pra onde o lead magnet leva (Mini Carta é o padrão, mas pode ser reunião/Direct/workshop).
+2. **Texto de email de entrega** - o lead recebeu o magnet e você quer que ele leia. 3-4 linhas.
+3. **CTA final interno** - pra onde o lead magnet leva (Mini Carta é o padrão, mas pode ser reunião/Direct/workshop).
 
 ---
 
@@ -103,7 +103,7 @@ Entrega junto com a peça:
 - [ ] Problema Sofisticado nomeado explicitamente?
 - [ ] Método com nome próprio + 3 etapas?
 - [ ] Filtra gente errada no meio (não tenta agradar todo mundo)?
-- [ ] CTA final aponta pra Carta/reunião/Direct — nunca "me segue"?
+- [ ] CTA final aponta pra Carta/reunião/Direct - nunca "me segue"?
 - [ ] Tom Forma Léon mantido (sem "espero que esteja bem", sem motivacional)?
 - [ ] Design limpo/navegação simples?
 - [ ] Bio de autoridade sem arrogância?

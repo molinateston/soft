@@ -33,7 +33,7 @@ Permite explicar como funciona. Você responde educando + gerando desejo.
 ## 2. Como plantar nos primeiros 7 dias
 
 1. Lista 10 dúvidas que seus clientes sempre têm.
-2. Transforma em pergunta direta (5–10 palavras).
+2. Transforma em pergunta direta (5-10 palavras).
 3. Ordena: Problema → Objeção → Detalhamento.
 4. **Semana 1:** você mesmo envia (número secundário ou pede pra amigo).
 5. **Semana 2:** mistura plantadas com reais.
@@ -43,7 +43,7 @@ Permite explicar como funciona. Você responde educando + gerando desejo.
 
 ---
 
-## 3. Estrutura de resposta (3–4 stories)
+## 3. Estrutura de resposta (3-4 stories)
 
 **Story 1, Print da pergunta.** Fundo branco ou preto. Pergunta em destaque. Nada mais. Front-load: se a pessoa só vê 1 frame, já sabe do que é.
 
@@ -150,3 +150,7 @@ Use como base, adapte o vocabulário ao nicho do especialista (ver `adaptacao-se
 - [ ] Legível no celular?
 
 Tudo sim → posta. Qualquer não → ajusta.
+
+---
+
+> **Este checklist NÃO substitui o Crivo.** Ele é o filtro de produção da Caixinha; toda peça passa pelo gate bloqueante (`shared-references/crivo/03-gate-cub.md`) antes de sair. Sem passar no Crivo, a peça não foi entregue.

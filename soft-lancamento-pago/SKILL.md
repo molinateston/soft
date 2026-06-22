@@ -1,9 +1,11 @@
 ---
 name: soft-lancamento-pago
-description: "Skill operadora do SOFT LAUNCH — degrau 3 (topo) da escada de funis Soft (Funil Soft → Webinar Soft → Soft Launch). O lançamento pago do Soft: evento com carrinho e tráfego, mirando high-ticket (3k+) e fechando no Comercial 1:1. Combina Sala Secreta (Felipe Holzer) com Lançamento Pago Semanal Gravado (Leonardo Tabari). 4 modos — A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Aplica lente Soft pra especialista Soft; senão, padrão de mercado. Cobre formatos, narrativa pontos-cegos, página + criativos + tráfego, ingresso pago não CPL, pós-venda e order bumps pra CAC zero. Use SEMPRE que envolver \"Soft Launch\", \"lançamento pago\", \"lançamento semanal\", \"Sala Secreta\", \"LPSG\", \"ingresso pago\", \"lançar produto\", \"carrinho aberto\", \"noite única\", \"dia longo\", \"desafio 5 dias\", \"ROAS lançamento\", \"CAC zero\", \"página de ingresso\", \"criativos de lançamento\", \"ingresso não vende\", \"comparecimento baixo\", \"live de abertura\". NÃO use pra carrossel, reel, stories, carta estática."
+description: "Skill operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft → Webinar Soft → Soft Launch). O lançamento pago do Soft: evento com carrinho e tráfego, mirando high-ticket (3k+) e fechando no Comercial 1:1. Combina Sala Secreta (Felipe Holzer) com Lançamento Pago Semanal Gravado (Leonardo Tabari). 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Aplica lente Soft pra especialista Soft; senão, padrão de mercado. Cobre formatos, narrativa pontos-cegos, página + criativos + tráfego, ingresso pago não CPL, pós-venda e order bumps pra CAC zero. Use SEMPRE que envolver \"Soft Launch\", \"lançamento pago\", \"lançamento semanal\", \"Sala Secreta\", \"LPSG\", \"ingresso pago\", \"lançar produto\", \"carrinho aberto\", \"noite única\", \"dia longo\", \"desafio 5 dias\", \"ROAS lançamento\", \"CAC zero\", \"página de ingresso\", \"criativos de lançamento\", \"ingresso não vende\", \"comparecimento baixo\", \"live de abertura\". NÃO use pra carrossel, reel, stories, carta estática."
 ---
 
-# Soft Launch — o degrau 3 da escada de funis (lançamento pago)
+# Soft Launch: o degrau 3 da escada de funis (lançamento pago)
+
+> ⚠️ **ATENÇÃO: degrau 3 (Soft Launch) NÃO está blindado nesta rodada.** O gate está incompleto em `narrativa-pontos-cegos` e `crise-em-lancamento`. Fora do escopo Soft+Webinar atual. **Não usar em produção até passar pela rodada de gate.**
 
 > **Gate de saída obrigatório (toda copy de leitor final).** Página de ingresso, criativos, anúncios, e-mails, qualquer peça que o lead ou o mercado lê passa pelo gate da `shared-references/` antes de entregar: o **Crivo** (`crivo/`, ancoragem + simulação + CUB bloqueante), o **filtro-anti-ia** (tira o robô) e o **mobile-first** (quando vira visual). Peça que falha não sai. Mesma régua das skills orgânicas, porque dinheiro de tráfego não pode ir pra copy que cheira a IA.
 
@@ -42,16 +44,16 @@ description: "Skill operadora do SOFT LAUNCH — degrau 3 (topo) da escada de fu
 
 ---
 
-Skill operadora do **Soft Launch**: o degrau 3, o topo da escada de funis (Funil Soft → Webinar Soft → **Soft Launch**). É o **lançamento pago do Soft** — evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos validados no mercado brasileiro: **Sala Secreta** (Felipe Holzer — 4 anos consecutivos, ROAS 8x, 7 dígitos) e **Lançamento Pago Semanal Gravado** (Leonardo Tabari, Turbo Academy — 200+ lançamentos, R$100MM+ acumulado).
+Skill operadora do **Soft Launch**: o degrau 3, o topo da escada de funis (Funil Soft → Webinar Soft → **Soft Launch**). É o **lançamento pago do Soft**: evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos validados no mercado brasileiro: **Sala Secreta** (Felipe Holzer, 4 anos consecutivos, ROAS 8x, 7 dígitos) e **Lançamento Pago Semanal Gravado** (Leonardo Tabari, Turbo Academy, 200+ lançamentos, R$100MM+ acumulado).
 
 > Como todo funil Soft, o Soft Launch é **+ Comercial**: ele QUALIFICA o lead (gera o "sim do produto"); o fechamento high-ticket (3k+) é no 1:1 (`soft-vendas`), nunca no checkout do lançamento. O marketing entrega quente; a venda é da `soft-vendas`.
 
-> **A operação que materializa o "+ Comercial" no lançamento está em `references/aplicacao-e-comercial-operado-por-ia.md`** — aplicação no lugar de checkout, lead score, não-fechar-carrinho (a escassez está no 1:1, não em cupom), ligação 1:1 pra comparecimento, e o comercial operado por IA (Sócio IA: SDR automatizado, transcrição+probabilidade, follow-up pela objeção, roleplay). Modelo de inside sales que escalou lançamentos a 60k+ aplicações.
+> **A operação que materializa o "+ Comercial" no lançamento está em `references/aplicacao-e-comercial-operado-por-ia.md`**: aplicação no lugar de checkout, lead score, não-fechar-carrinho (a escassez está no 1:1, não em cupom), ligação 1:1 pra comparecimento, e o comercial operado por IA (Sócio IA: SDR automatizado, transcrição+probabilidade, follow-up pela objeção, roleplay). Modelo de inside sales que escalou lançamentos a 60k+ aplicações.
 
 Skill atende **dois cenários**:
 
-1. **Cliente Soft Business** — o Soft Launch como **injeção pontual** sobre o sistema central. Lente Soft ativada (é o degrau mais alto da escada, exige maturidade; integração de volta no sistema, cadência contida).
-2. **Cliente fora do Soft Business** — lançamento padrão de mercado, com o mesmo rigor metodológico mas sem aplicar a lente Soft.
+1. **Cliente Soft Business**: o Soft Launch como **injeção pontual** sobre o sistema central. Lente Soft ativada (é o degrau mais alto da escada, exige maturidade; integração de volta no sistema, cadência contida).
+2. **Cliente fora do Soft Business**: lançamento padrão de mercado, com o mesmo rigor metodológico mas sem aplicar a lente Soft.
 
 A skill orienta. Não recusa. O cliente decide com a informação na mesa.
 
@@ -63,7 +65,7 @@ A skill orienta. Não recusa. O cliente decide com a informação na mesa.
 
 ## Princípio raiz
 
-> **Lançamento pago é ferramenta — não estratégia.**
+> **Lançamento pago é ferramenta, não estratégia.**
 >
 > **Funciona muito quando aplicado certo. Destrói o negócio quando vira repetição cega.**
 
@@ -71,17 +73,17 @@ A skill nunca prescreve lançamento. Apresenta o método, alerta os riscos, ajus
 
 **Para cliente Soft Business especificamente:**
 
-O Soft Launch é o **degrau 3, o topo da escada** — não se sobe a escada antes da hora. Lançamento cedo demais é a complexidade que o método combate: máquina de massa importada pra um negócio de filtro. A skill reconhece a tensão e marca explicitamente:
+O Soft Launch é o **degrau 3, o topo da escada**. Não se sobe a escada antes da hora. Lançamento cedo demais é a complexidade que o método combate: máquina de massa importada pra um negócio de filtro. A skill reconhece a tensão e marca explicitamente:
 
-- O sistema (posição + conteúdo mínimo + funil) é o **caminho principal** — o Soft Launch é injeção pontual sobre ele, nunca a fundação.
+- O sistema (posição + conteúdo mínimo + funil) é o **caminho principal**. O Soft Launch é injeção pontual sobre ele, nunca a fundação.
 - Cadência contida: o lançamento se paga, não vira o jogo. **Máximo 1-2 lançamentos/ano**.
-- Pós-lançamento **integra de volta no sistema Soft** — não vira "agora preparar o próximo".
+- Pós-lançamento **integra de volta no sistema Soft**, não vira "agora preparar o próximo".
 
 ---
 
 ## Os 4 modos
 
-### Modo A — Diagnóstico de Viabilidade
+### Modo A: Diagnóstico de Viabilidade
 
 Cliente quer saber se faz sentido lançar agora. Skill aplica diagnóstico em 6 variáveis e devolve **recomendação clara** (verde / amarelo / vermelho) sem recusar.
 
@@ -102,14 +104,14 @@ Reference: `alertas-e-cadencia.md`.
 
 ---
 
-### Modo B — Plano Completo de Lançamento
+### Modo B: Plano Completo de Lançamento
 
 Cliente decidiu lançar. Skill estrutura o plano completo: formato, ingresso, página, criativos, tráfego, narrativa, pós-venda, debriefing.
 
 **Quando ativa:**
-- *"Quero estruturar meu lançamento — me ajuda do zero."*
+- *"Quero estruturar meu lançamento, me ajuda do zero."*
 - *"Como faço lançamento de Sala Secreta pro meu produto de R$X?"*
-- *"Lançamento Pago Semanal — me explica e estrutura."*
+- *"Lançamento Pago Semanal, me explica e estrutura."*
 
 **Inputs mínimos** (skill pergunta uma vez se faltar):
 1. Ticket do produto principal
@@ -134,14 +136,14 @@ Encaixa references conforme o pedido: `formato-sala-secreta.md` ou `formato-lpsg
 
 ---
 
-### Modo C — Debriefing Pós-Lançamento
+### Modo C: Debriefing Pós-Lançamento
 
 Lançamento aconteceu. Skill conduz debriefing estruturado, identifica o que funcionou e o que falhou, e (se cliente Soft) integra leads/clientes de volta no sistema central.
 
 **Quando ativa:**
 - *"Acabou o lançamento, me ajuda a entender o que aconteceu."*
-- *"Faturei R$X com R$Y de tráfego — análise pra mim."*
-- *"Lançamento foi mal — onde errei?"*
+- *"Faturei R$X com R$Y de tráfego, análise pra mim."*
+- *"Lançamento foi mal, onde errei?"*
 
 **O que skill entrega:**
 - Análise por etapa (ingresso → comparecimento → conversão → ticket médio)
@@ -153,18 +155,18 @@ Reference: `debriefing-e-integracao.md`.
 
 ---
 
-### Modo D — Crise em Lançamento
+### Modo D: Crise em Lançamento
 
 Lançamento em andamento dando errado. Skill diagnostica rápido e propõe ajustes em tempo real.
 
 **Quando ativa:**
-- *"Tô vendendo ingresso e não tá funcionando — me ajuda agora."*
+- *"Tô vendendo ingresso e não tá funcionando, me ajuda agora."*
 - *"Faltam 5 dias e meu evento tá com 30 inscritos só."*
 - *"Live abriu e ninguém compareceu."*
 - *"Carrinho aberto há 2 dias e zero venda."*
 
 **Cenários comuns:**
-- Ingresso não vende (problema técnico — copy, página, anúncio, oferta)
+- Ingresso não vende (problema técnico: copy, página, anúncio, oferta)
 - Comparecimento baixo (problema de pós-venda do ingresso)
 - Conversão zero no pitch (problema de narrativa ou oferta)
 - Audiência fria comprou ingresso mas não engaja
@@ -180,13 +182,13 @@ A skill detecta na entrada se o cliente é especialista Soft Business. Se afirma
 
 | Aspecto | Cliente Soft Business | Cliente padrão |
 |---|---|---|
-| **Frequência** | Máximo 1-2 lançamentos/ano | Sem limite — cliente decide |
+| **Frequência** | Máximo 1-2 lançamentos/ano | Sem limite, cliente decide |
 | **Pré-requisito** | Degraus 1 e 2 da escada já de pé (Funil Soft / Webinar Soft rodando) | Não exigido |
 | **Filtro de elegibilidade** | Skill alerta com mais peso (lançamento é o degrau que mais adiciona peça à operação) | Skill alerta padrão |
 | **Fechamento** | + Comercial 1:1: o lançamento qualifica, a venda 3k+ é no `soft-vendas` | Checkout direto, se o ticket comportar |
 | **Pós-lançamento** | Integração obrigatória de volta no sistema Soft | Plano de continuidade padrão |
 | **Linguagem** | "Injeção pontual sobre o seu sistema" | "Estratégia de aquisição" |
-| **Narrativa** | Cuidado com tom de "evento épico" — Soft é clínico, revela não grita | Estilo padrão Holzer/Tabari |
+| **Narrativa** | Cuidado com tom de "evento épico": Soft é clínico, revela não grita | Estilo padrão Holzer/Tabari |
 
 Skill nunca **recusa** atender lançamento pra cliente Soft. Mas quando detecta, **avisa o risco** e segue com a lente correta.
 
@@ -198,7 +200,7 @@ Skill começa com 5 perguntas curtas pra ajustar tudo:
 
 ```
 1. Você é especialista do método Soft Business ou opera fora dele?
-2. O que você quer lançar — produto, ticket, audiência atual?
+2. O que você quer lançar: produto, ticket, audiência atual?
 3. Já lançou antes? Quando? Resultado?
 4. Verba disponível para tráfego pago? (range)
 5. Prazo até o evento, se já tem definido?
@@ -212,20 +214,20 @@ Se cliente trouxe contexto suficiente na primeira mensagem, skill pula a pergunt
 
 A skill foi construída sobre dois métodos públicos validados:
 
-**Felipe Holzer — Sala Secreta** (Diamond, julho 2025):
+**Felipe Holzer, Sala Secreta** (Diamond, julho 2025):
 - 4 anos consecutivos aplicando o método
 - ROAS 8x, R$216k investido, 7 dígitos faturados
 - Tickets R$3k a R$50k
 - 90% de comparecimento, 20% de conversão (sem time comercial), até 30% (com)
 - Formato favorito: dia longo (sábado 10-17h), ingresso R$97, ticket R$3k, aplicação > checkout, time comercial dom+seg, live abertura seg 20h, 7 dias carrinho aberto
 
-**Leonardo Tabari — Turbo Academy** (Squad Turbo v3.0, public repo):
+**Leonardo Tabari, Turbo Academy** (Squad Turbo v3.0, public repo):
 - 200+ lançamentos, R$100MM+ acumulado
 - Métodos: LPSG (Lançamento Pago Semanal Gravado), Funil 8 (CAC negativo), C1/C2/C3 (Funil de Conteúdo), Turbo Express (orgânico)
 - Squad Turbo: 10 agentes IA + 22 skills
 - Filosofia: sistema integrado vs métodos isolados
 
-A skill **cita ambos pelos nomes** quando puxa material específico, por transparência. Os dois métodos são complementares — Sala Secreta é evento concentrado, LPSG é cadência semanal. Skill ajuda o cliente a escolher qual cabe no contexto dele.
+A skill **cita ambos pelos nomes** quando puxa material específico, por transparência. Os dois métodos são complementares: Sala Secreta é evento concentrado, LPSG é cadência semanal. Skill ajuda o cliente a escolher qual cabe no contexto dele.
 
 ---
 
@@ -233,7 +235,7 @@ A skill **cita ambos pelos nomes** quando puxa material específico, por transpa
 
 | Reference | Quando carregar |
 |-----------|-----------------|
-| `alertas-e-cadencia.md` | **Modo A sempre.** Variáveis de viabilidade + alertas + cadência segura. Não recusa — orienta. |
+| `alertas-e-cadencia.md` | **Modo A sempre.** Variáveis de viabilidade + alertas + cadência segura. Não recusa, orienta. |
 | `formato-sala-secreta.md` | Modo B quando cliente quer evento concentrado (uma noite ou um dia) com ingresso pago. |
 | `formato-lpsg-tabari.md` | Modo B quando cliente quer recorrência semanal/mensal ou prefere modelo gravado. |
 | `narrativa-pontos-cegos.md` | **Modo B sempre.** Princípio Holzer: conteúdo inédito que revela pontos cegos. Anti-genérico. |
@@ -257,7 +259,7 @@ A skill **cita ambos pelos nomes** quando puxa material específico, por transpa
 5. **Conscientes do problema, não curiosos.** Público-alvo do lançamento pago.
 6. **Conteúdo inédito > tudo.** Narrativa de pontos-cegos é o que separa lançamento que vende de lançamento que não vende.
 7. **Comprometimento ≠ aquecimento.** Pós-venda do ingresso é crítico, não opcional.
-8. **Sem promessas grandiosas.** Holzer fez 7 dígitos — exceção, não regra. Skill nunca usa "você vai faturar X".
+8. **Sem promessas grandiosas.** Holzer fez 7 dígitos: exceção, não regra. Skill nunca usa "você vai faturar X".
 9. **Tom clínico.** Sem motivacional, sem "vamos quebrar a internet". Mesmo tom das outras skills Soft.
 10. **Para cliente Soft: integração obrigatória pós-evento.** Cadência máxima 1-2/ano explicitada sempre.
 
@@ -266,11 +268,11 @@ A skill **cita ambos pelos nomes** quando puxa material específico, por transpa
 ## O que NÃO entra nessa skill
 
 - ❌ Lançamento Fórmula Erico Rocha (fora do escopo combinado)
-- ❌ Carrossel, reel, stories — é `soft-conteudo`
-- ❌ Carta / vídeo de vendas (Funil Soft, degrau 1) — é `soft-funil`
-- ❌ Webinar Soft perpétuo (degrau 2) — é `soft-webinario`
-- ❌ Posicionamento (Passo 1) — é `soft-posicionamento`
-- ❌ A venda em si (script, objeção, fechamento 1:1) — é `soft-vendas`
+- ❌ Carrossel, reel, stories - é `soft-conteudo`
+- ❌ Carta / vídeo de vendas (Funil Soft, degrau 1) - é `soft-funil`
+- ❌ Webinar Soft perpétuo (degrau 2) - é `soft-webinario`
+- ❌ Posicionamento (Passo 1) - é `soft-posicionamento`
+- ❌ A venda em si (script, objeção, fechamento 1:1) - é `soft-vendas`
 
 ---
 
@@ -284,7 +286,7 @@ Frases-âncora que aparecem em todos os modos:
 
 - *"Lançamento é ferramenta. Decisão de aplicar é sua."*
 - *"Conscientes do problema compram ingresso. Curiosos não."*
-- *"Se ingresso não vende, é problema técnico — não falta de mercado."*
+- *"Se ingresso não vende, é problema técnico, não falta de mercado."*
 - *"Não é CPL."*
 - *"Comprometimento não é aquecimento."*
 
@@ -292,10 +294,10 @@ Frases-âncora que aparecem em todos os modos:
 
 ## Para o orquestrador (soft-leon)
 
-O LEON (Sócio IA, o motor do método) conduz a jornada e invoca esta skill como a mãe do degrau 3. Quando detectar pedido de Soft Launch / lançamento pago, invoca **Modo A primeiro, sempre** — antes do Modo B. O Crivo do LEON checa antes de liberar o plano: os degraus 1 e 2 estão de pé? Há audiência, caixa e repertório de venda? Sem isso, o lançamento é a complexidade que o método combate, e o LEON segura.
+O LEON (Sócio IA, o motor do método) conduz a jornada e invoca esta skill como a mãe do degrau 3. Quando detectar pedido de Soft Launch / lançamento pago, invoca **Modo A primeiro, sempre**, antes do Modo B. O Crivo do LEON checa antes de liberar o plano: os degraus 1 e 2 estão de pé? Há audiência, caixa e repertório de venda? Sem isso, o lançamento é a complexidade que o método combate, e o LEON segura.
 
 Esta skill é **auto-aplicável**: quem segue os 4 modos e as references sozinho monta o Soft Launch inteiro e tem resultado, sem depender de ninguém na mesa.
 
-Se o cliente já passou pelo Modo A em sessão anterior e voltou pra estruturar (Modo B), o LEON pode pular direto, mas avisa: *"Você já passou pelo diagnóstico — vamos ao plano. Se algo mudou no contexto, me avisa."*
+Se o cliente já passou pelo Modo A em sessão anterior e voltou pra estruturar (Modo B), o LEON pode pular direto, mas avisa: *"Você já passou pelo diagnóstico, vamos ao plano. Se algo mudou no contexto, me avisa."*
 
 Fechado o lançamento, o LEON conduz os leads quentes pro **Comercial 1:1** (`soft-vendas`): o checkout do evento não fecha high-ticket, a conversa fecha.

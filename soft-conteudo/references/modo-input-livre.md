@@ -190,3 +190,7 @@ Atende sem bloquear. Avisa sem assustar. Direciona sem empurrar.
 O modo input livre **abre porta** pro cliente conhecer o trabalho da skill. Headlines saem decentes. Quando o cliente quiser headlines cravadas, skill mostra o caminho (Plano).
 
 Função: **conversão de uso casual em uso estruturado.**
+
+---
+
+> **Atender sem Plano NÃO é atender sem gate.** Mesmo no modo input livre, a peça passa pelo Crivo (`shared-references/crivo/03-gate-cub.md`) antes de sair. A falta de fundação empacada baixa a precisão da peça, nunca dispensa o gate de saída. Sem passar no Crivo, a peça não foi entregue.

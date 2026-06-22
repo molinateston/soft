@@ -1,5 +1,7 @@
 # Discurso Base, 7 Passos
 
+> **Passo 0, antes de escrever a primeira linha (entrada ancorada).** A versão-mestre vira 4 formatos (Carta · Mini Webinar · Landing · Webinar), então um case ou número fabricado aqui vaza pros quatro. Antes de qualquer passo, abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais, mais os cases e números só do que é verdade documentável. O Gancho (Passo 1) nasce de uma dessas falas, quase intacta, citando o N. Assim a narrativa-mestre nasce ancorada, não só é reprovada no gate do fim.
+
 > **Quando consultar:** ao construir a versão-mestre da narrativa de venda desejo, antes de adaptar pra Mini Carta ou Mini Webinar. Os 7 passos são a **espinha dorsal** que vira qualquer formato final.
 
 > **Princípio:** entrega primeiro a **versão neutra** (texto corrido, sem diagramação, sem formato específico). Adaptação pros formatos finais é pedido separado.
@@ -32,7 +34,7 @@ Com Discurso Base:
 | Passo 6, Antecipação de objeções | Bloco 3, Solução · Método · Proposta (continuação) |
 | Passo 7, Oferta + CTA | Bloco 4, CTA |
 
-**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Mini Webinar, os 7 passos se distribuem em 4 fases (Atenção · Interesse · Desejo · Ação) · 12 blocos · 10min de vídeo.
+**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Mini Webinar, os 7 passos se distribuem no arco ADMA (Atenção · Diagnóstico · Mecanismo · Ação) · 12 blocos · 10min de vídeo.
 
 ---
 
@@ -255,3 +257,14 @@ Quando entregar a versão-mestre neutra, segue esse padrão:
 **Total alvo:** 800-1.500 palavras.
 
 **Comentário no fim:** "Versão-mestre pronta. Próximo passo: adaptar pro formato escolhido (Mini Carta, Mini Webinar, Landing Page, Webinar)."
+
+---
+
+## Gate de saída obrigatório, o Crivo (bloqueante)
+
+Antes de liberar a versão-mestre pra virar qualquer formato, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada (Passo 0) e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova; case ou número inventado no Passo 5 reprova (senão vaza pros 4 formatos).
+2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
+3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, narrativa que falha não sai, volta pra reescrita.
+
+O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a versão-mestre não foi entregue e nenhum formato é adaptado dela.**

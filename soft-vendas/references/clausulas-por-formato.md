@@ -36,7 +36,7 @@ d) [Outros benefícios específicos: gravação das sessões, revisão de
    materiais do Contratante, etc.]
 
 1.3. Materiais de apoio inclusos:
-[Listar — frameworks, planilhas, gravações, templates]
+[Listar, frameworks, planilhas, gravações, templates]
 
 1.4. NÃO estão incluídos no escopo:
 
@@ -83,7 +83,7 @@ a) Acesso a [número] sessões coletivas ao vivo, com duração aproximada de
 b) Participação no grupo de comunicação assíncrona (WhatsApp / Telegram /
    plataforma) com demais mentorados, moderado pela CONTRATADA;
 c) Acesso aos materiais de apoio mencionados no item 1.3;
-d) [Sessões individuais bônus, se houver — especificar quantidade]
+d) [Sessões individuais bônus, se houver, especificar quantidade]
 
 1.3. Materiais de apoio inclusos:
 [Listar]
@@ -118,7 +118,7 @@ g) Respeitar a confidencialidade do que for compartilhado pelos demais
    informações de terceiros conhecidas em razão da participação no programa.
 ```
 
-### Acréscimos à Cláusula 10ª (Rescisão) — justa causa adicional
+### Acréscimos à Cláusula 10ª (Rescisão), justa causa adicional
 
 Adicionar ao item 10.4:
 
@@ -181,9 +181,9 @@ h) Não realizar download, gravação de tela, captura ou reprodução do
    conteúdo audiovisual para fins de redistribuição.
 ```
 
-### Cláusula 7ª (Garantia) — versão específica para infoproduto
+### Cláusula 7ª (Garantia), versão específica para infoproduto
 
-Quando há garantia legal obrigatória (CDC, art. 49 — direito de
+Quando há garantia legal obrigatória (CDC, art. 49, direito de
 arrependimento para compras online):
 
 ```
@@ -196,7 +196,7 @@ devolução integral dos valores pagos.
 7.2. O exercício do direito de arrependimento implica o cancelamento
 imediato do acesso à plataforma.
 
-7.3. [Quando há garantia estendida adicional — opcional:]
+7.3. [Quando há garantia estendida adicional, opcional:]
 Além do prazo legal previsto no item 7.1, a CONTRATADA oferece garantia
 estendida de [X] dias, totalizando [Y] dias contados da liberação do acesso,
 durante os quais o CONTRATANTE pode solicitar a devolução integral pelos
@@ -282,7 +282,7 @@ i) Arcar com custos de plataformas, ferramentas, mídia paga e demais
 j) Designar interlocutor único com poder de decisão para o projeto.
 ```
 
-### Cláusula 8ª (Propriedade Intelectual) — adaptação para feito-pra-você
+### Cláusula 8ª (Propriedade Intelectual), adaptação para feito-pra-você
 
 Substituir item 8.2 por:
 

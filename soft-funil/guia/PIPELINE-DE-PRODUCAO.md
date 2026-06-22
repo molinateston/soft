@@ -1,10 +1,10 @@
-# Pipeline de Produção — o checklist que toda peça atravessa
+# Pipeline de Produção - o checklist que toda peça atravessa
 
 > Une tudo num fluxo só: avatar, gancho, estrutura, os filtros, compressão. O LEON força isto em QUALQUER peça (carrossel, reel, story, carta, oferta, bio) e rejeita a que pulou etapa. A confiança fica no processo, não na memória de quem escreve.
 
 ## As 8 etapas (em ordem, nenhuma pula)
 
-**0. Localiza.** Quem lê e o que ele já sabe. O avatar e o nível de consciência (no Plano de Marca). Peça pro nível errado não cola, por melhor que seja escrita. O Otávio já tenta o digital há anos e patina — não é iniciante; não fale com ele como se fosse.
+**0. Localiza.** Quem lê e o que ele já sabe. O avatar e o nível de consciência (no Plano de Marca). Peça pro nível errado não cola, por melhor que seja escrita. O Otávio já tenta o digital há anos e patina, não é iniciante; não fale com ele como se fosse.
 
 **1. Gancho.** Puxa a `soft-conteudo`: os critérios, os 30 templates, os gatilhos. Escolhe um template, marca o gatilho. Gancho sem isso é chute. (Régua rápida: número, contraste, promessa concreta. "10 anos pra explicar o que faço, te ensino em 30 segundos" passa; "o mercado nunca te entendeu" não.)
 
@@ -18,7 +18,7 @@
 
 **6. Compressão + formato.** Curto, não raso. Prosa, nunca tabela. Ficou enorme, tá raso: corta até doer.
 
-**7. Etiqueta + padrão.** A peça sai marcada com o que usou (avatar, template do gancho, gatilho) — pra o racional ficar visível. 9 de 10, ou volta pra mesa.
+**7. Etiqueta + padrão.** A peça sai marcada com o que usou (avatar, template do gancho, gatilho), pra o racional ficar visível. 9 de 10, ou volta pra mesa.
 
 ## A regra
-Nenhuma peça sai sem atravessar as 8. O LEON valida e **não libera o que pulou — e diz qual etapa pulou.**
+Nenhuma peça sai sem atravessar as 8. O LEON valida e **não libera o que pulou, e diz qual etapa pulou.**
