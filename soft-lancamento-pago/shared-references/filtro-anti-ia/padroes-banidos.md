@@ -4,6 +4,31 @@ Os 12 padrões universais que sempre cheiram a IA. Aplicar em qualquer texto.
 
 ---
 
+## Índice
+
+- 1. Em dashes "—"
+- 2. Tricolons performáticos (a, b, e c)
+- 3. Listas paralelas com mesma estrutura sintática
+- 4. Frases-emoldura que prometem revelação
+- 5. Adjetivação dupla decorativa
+- 6. Conectivos formais que ninguém fala
+- 7. Frases dramáticas em parágrafo isolado
+- 8. Verbos de transformação genéricos
+- 9. Substantivos abstratos virando promessa
+- 10. Estrutura "Não é X. É Y." em série
+- 11. Adverbiais de ênfase enfileirados
+- 12. Aspas decorativas em palavras comuns
+- 13. Falsa agência (coisa que não pensa, com verbo de quem pensa)
+- Padrões adicionais menores
+- Padrões visuais (carrosséis, slides, anúncios)
+- Padrões de abertura de peça (banidos)
+- Padrões de fechamento de peça (banidos)
+- Quando uma frase "limpa" pode usar 1 padrão da lista
+- Como usar esta lista
+- Automação em código (o gate roda, não fica só no olho)
+
+---
+
 ## 1. Em dashes "—"
 
 ZERO em qualquer lugar do texto. Substituir SEMPRE por ponto ou hífen comum.
@@ -284,3 +309,19 @@ Antes de finalizar peça:
 Tempo: 5-10 minutos por peça curta. 15-20 minutos por peça longa.
 
 Não pula. Esse é o filtro final.
+
+---
+
+## Automação em código (o gate roda, não fica só no olho)
+
+O passo 2 ("CTRL+F cada padrão") agora tem um linter executável na `soft-conteudo`: **`scripts/lint_copy.py`**. Roda igual em toda execução, não depende do agente lembrar.
+
+```bash
+python3 soft-conteudo/scripts/lint_copy.py peca.txt    # ou:  echo "texto" | python3 .../lint_copy.py -
+```
+
+- **HARD (reprova, exit 1):** em-dash "—" e a família **"travar"** — os dois de zero-tolerância. Achou, não entrega.
+- **WARN (revisar no olho):** conectivo formal, frase-emoldura, verbo de transformação, frase dramática, abertura/fechamento banido, emoji decorativo, excesso de "literalmente/absolutamente/verdadeiro", "Não é X. É Y." em série.
+- **Continua no olho** (código não pega sem falso-positivo): tricolon, simetria de listas, adjetivação dupla decorativa, abstrato-virando-promessa, falsa agência. Pra esses, `teste-voz-alta.md` + `teste-construtivo.md`.
+
+Rodar o linter NÃO substitui ler em voz alta. Ele garante que os 2 tells assassinos (em-dash e "travar") nunca passem por esquecimento; o resto é leitura. É o equivalente, no lado da copy, do `craft.py` no lado do design (anti-órfã + contraste).
