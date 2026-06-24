@@ -61,7 +61,7 @@ Por isso existe profissional mediano cheio de cliente e profissional excelente p
 
 ### A persona-âncora: o Otávio (persona-exemplo do método)
 
-> O "Otávio" é a persona-âncora ilustrativa que o Soft Business usa pra ensinar, o avatar do próprio produto do Léo. Cada especialista destila o SEU Otávio; este aqui é o molde didático, não o cliente de todo nicho.
+> O "Otávio" é a persona-âncora ilustrativa que o Soft Business usa pra ensinar, o avatar do próprio produto do autor do método. Cada especialista destila o SEU Otávio; este aqui é o molde didático, não o cliente de todo nicho.
 
 36 anos, dez de estrada, método próprio, nome no nicho.
 Fatura R$20k por mês. Instável. Agenda das oito às oito. Já está no digital faz uns três anos: posta, rodou tráfego, talvez lançou, fecha uma venda aqui e ali. Não é iniciante. Mas patina, e o faturamento não acompanha o esforço.
@@ -223,4 +223,4 @@ Tocar · Analisar · Melhorar. Sempre nesta ordem.
 
 > **A virada.** Antes: sou bom e ninguém vê. Depois: o cliente certo me procura pelo nome, e paga sem pedir desconto.
 > Não tente parecer maior. Organize melhor. Você já é bom, falta só o mercado enxergar isso tão rápido quanto deveria.
-> A prova de que funciona (a do criador do método, Léo Molina): dez anos no bastidor, R$46 milhões gerados, uma agência de 35 pessoas desmontada e trocada por uma IA, mesma receita com um quinto da complexidade. O que se construiu pra um, se monta com qualquer Verdadeiro Especialista.
+> A prova de que funciona (exemplo ilustrativo de uma especialista que aplicou o método, a nutricionista Helena Castro): dez anos atendendo no consultório, milhares de pacientes acompanhados, uma operação cheia de planos avulsos trocada por um único protocolo conduzido com uma IA, a mesma receita com um quinto da complexidade. O que se construiu pra ela, se monta com qualquer Verdadeiro Especialista.

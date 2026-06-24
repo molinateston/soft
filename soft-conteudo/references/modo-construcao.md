@@ -15,7 +15,7 @@ Não escreve sobre o tema, escreve o **ponto cego** dele (`shared-references/cri
 > Gera 7 ângulos. Descarta os 2 primeiros na cara, são os óbvios. Trabalha do 3º em diante (Verbalized Sampling, o óbvio é sempre a frase média).
 
 ### 2.5 Calibra o registro (consciência + sofisticação)
-Antes de escrever, diagnostica em uma linha: que nível de consciência tem o leitor (inconsciente → mais consciente) e quão saturado está o nicho (`shared-references/crivo/05-premissas-mestras.md`, Schwartz). Mercado saturado (o caso do nicho do Léo) abre pelo mecanismo nomeado e pela identificação, nunca pela promessa direta gasta. Esse diagnóstico decide o REGISTRO da abertura, e é o que evita a peça soar igual a todo concorrente.
+Antes de escrever, diagnostica em uma linha: que nível de consciência tem o leitor (inconsciente → mais consciente) e quão saturado está o nicho (`shared-references/crivo/05-premissas-mestras.md`, Schwartz). Mercado saturado (caso de um nicho saturado de exemplo) abre pelo mecanismo nomeado e pela identificação, nunca pela promessa direta gasta. Esse diagnóstico decide o REGISTRO da abertura, e é o que evita a peça soar igual a todo concorrente.
 
 ### 3. Escreve pela espinha
 Monta a peça na **estrutura-mãe** (Diagnóstico → Nomeação → Polaridade → Nova interpretação → Consequência → Movimento), ou na Fórmula 7 no feed. Cada frase obedece as **8 leis** (`shared-references/crivo/05-premissas-mestras.md`): revela não ensina, cada frase é conclusão, ancora em chão, rótulo vira sintoma na pele. Mira o estado emocional ("isso explica o que eu vivo"), não a informação. Respeita o que muda por formato (carrossel uma ideia por slide, anúncio com criativo cru, reel com tensão que não relaxa).

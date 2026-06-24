@@ -178,7 +178,7 @@ A aula NÃO entrega o método (faca Soft). Mas indica que **existe estrutura que
 
 ## Os 5 pontos cegos do nicho marketing/lançamento (exemplo de aplicação)
 
-Pra cliente Léo Molina escalando Soft Business, skill identifica 5 pontos cegos típicos do nicho dele:
+Pra um especialista de exemplo escalando o negócio dele, a skill identifica 5 pontos cegos típicos do nicho dele:
 
 ### Ponto cego 1 — Volume não é o problema
 - A: "Pra crescer, preciso postar mais"

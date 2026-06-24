@@ -6,15 +6,15 @@
 
 Um modelo de linguagem, sem matéria-prima fora-da-média, regride pro centro do corpus em que foi treinado. Ou seja: sai a frase mais provável, que é a frase que todo mundo já escreveu. Pedir "seja específico" ou "seja criativo" não conserta isso (foi testado e falha). O que conserta é colocar na entrada uma coisa que o modelo não inventaria sozinho: **a palavra literal do cliente.**
 
-Regra-mãe: copy genérica é reflexo de input genérico, não do modelo. O método já paga por um acervo de fala real (a VoC Wiki). O erro era nunca abri-lo na hora de escrever.
+Regra-mãe: copy genérica é reflexo de input genérico, não do modelo. O método já paga por um acervo de fala real (uma wiki de VoC destilada). O erro era nunca abri-lo na hora de escrever.
 
 ## Protocolo (qualquer usuário)
 
-0. **Lê o perfil do usuário (`00-perfil-do-usuario.md`) e pega a fonte de VoC dele.** A skill serve o usuário da vez, nunca só o Léo: a fonte de VoC é o slot 1 do perfil dele (acervo de fala real: calls, comentários, prints de conversa, mensagens de aluno, dúvida recorrente no Direct, ou uma wiki destilada). Os paths do Léo que aparecem abaixo (`/home/cloud/voc-wiki/`) são UM exemplo de perfil preenchido, nunca o default. Sem nenhuma fonte de fala real no perfil, a peça sai marcada "rascunho genérico" e a skill roteia pro onboarding, não some o problema com adjetivo.
+0. **Lê o perfil do usuário (`00-perfil-do-usuario.md`) e pega a fonte de VoC dele.** A skill serve o usuário da vez, nunca só o autor do método: a fonte de VoC é o slot 1 do perfil dele (acervo de fala real: calls, comentários, prints de conversa, mensagens de aluno, dúvida recorrente no Direct, ou uma wiki destilada). Os caminhos do perfil de exemplo que aparecem abaixo (o acervo de fala real do autor) são UM exemplo de perfil preenchido, nunca o default. Sem nenhuma fonte de fala real no perfil, a peça sai marcada "rascunho genérico" e a skill roteia pro onboarding, não some o problema com adjetivo.
 
-1. **Abre o acervo (exemplo, cliente Léo):** `/home/cloud/voc-wiki/voc-wiki-enxuta.md`. É a camada enxuta, todo número foi contado, todo verbatim é frase literal ancorada na call. Serve de índice (temas por N). Pra outro usuário, o equivalente é a base de fala real dele.
+1. **Abre o acervo (exemplo, perfil de exemplo):** a camada enxuta do acervo de fala real do usuário (ex.: o índice de uma wiki de VoC destilada). É a camada enxuta, todo número foi contado, todo verbatim é frase literal ancorada na call. Serve de índice (temas por N). Pra outro usuário, o equivalente é a base de fala real dele.
 2. **Acha o tema do maior N** que casa com o assunto da peça. O "Mapa de temas (por N de calls)" lista tudo rankeado: Prova social N=29, Funil e processo comercial N=23, Pressão financeira N=22, e por aí.
-3. **Abre a página REAL do tema em `/home/cloud/voc-wiki/wiki/padroes/`** pra pegar a frase inteira, não o slug. ATENÇÃO: os links dentro da enxuta-raiz estão quebrados e os nomes dos arquivos são diferentes dos slugs (ex.: o tema "Pressão financeira" é `pressao-financeira.md`, não o slug longo). Não confia no link. Roda `ls /home/cloud/voc-wiki/wiki/padroes/` e escolhe o arquivo pelo nome.
+3. **Abre a página REAL do tema na pasta de padrões do acervo** pra pegar a frase inteira, não o slug. ATENÇÃO: os links dentro da camada enxuta às vezes estão quebrados e os nomes dos arquivos podem ser diferentes dos slugs (ex.: o tema "Pressão financeira" pode estar como `pressao-financeira.md`, não o slug longo). Não confia no link. Lista a pasta de padrões do acervo (`ls`) e escolhe o arquivo pelo nome.
 4. **Puxa 3 a 5 falas de DOR + 3 a 5 de DESEJO** do tema, literais, da página real. ATENÇÃO às 2 camadas da página: a linha-padrão destilada (a dor do sub-padrão, em itálico) e as aspas cruas (fala da call, que por chunking às vezes é de outro assunto ou é ruído). A aspa que você usar tem que expressar a MESMA dor da linha-padrão dela. Se a crua não bate ou é ruído, ancora na linha-padrão destilada em texto corrido citando o N. A primeira linha da peça contém uma dessas falas quase intacta. O resto conversa com elas.
 5. **Checa o ÂNGULO, não só a frase (anti-genérico-importado).** O núcleo da peça (a virada, a cena, o número central) tem verbatim com N≥2 que o sustente? Se as frases têm eco no acervo mas o ângulo-mãe tem N=0, é rascunho genérico importado de outro avatar, mesmo que afiado. Marca pro gate: a passada 0 reprova, e diz o N.
 5.1. **Cruzamento de persona (o N pode ser do avatar ERRADO).** O ângulo-mãe casa com a persona, ou a CONTRADIZ? Verbatim de N alto pode vir de OUTRO avatar do acervo. Se a dor central é NEGADA pela persona (ex.: eixo "caixa apertado" N=22 × persona "não é refém de dinheiro, já fatura R$20k"), o lastro é ERRADO, não "lastro frio": atrai o avatar errado e repele o alvo. Passada 0 do gate reprova. A regra é N≥2 **E** não-contradiz-persona, as duas.
@@ -33,7 +33,7 @@ Peça pedida: carrossel sobre por que o consultório não lota.
 Isso é a frase média. Qualquer um assina. O dentista já leu mil vezes.
 
 ✅ **Com o passo (fala crua de dentista e de paciente):** "Sua recepcionista diz 'semana que vem enche'. Faz três meses que ela diz isso."
-A segunda nasceu da queixa literal. Ela não é mais bonita. Ela é mais REAL. Por isso prende. (No método Soft, a fala vem da página real do tema em `/home/cloud/voc-wiki/wiki/padroes/`, com o N.)
+A segunda nasceu da queixa literal. Ela não é mais bonita. Ela é mais REAL. Por isso prende. (No método Soft, a fala vem da página real do tema na pasta de padrões do acervo de VoC do usuário, com o N.)
 
 ## O freio contra o óbvio (Verbalized Sampling)
 

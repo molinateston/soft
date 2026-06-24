@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo
-description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que filtra e atrai o cliente certo. Cobre carrosséis, reels, stories, headlines/ganchos e o design dos carrosséis. Puxa da Fundação de Headlines do Plano de Posicionamento; conduz por pergunta, aplica o Código de Escrita e passa todo output pelos filtros anti-ia e mobile-first. Use SEMPRE que envolver "carrossel", "reel", "stories", "headline", "gancho", "capa", "conteúdo de feed", "impulsionar", "turbinar", "design de slides", "calendário de conteúdo", "o que postar". NÃO use pra posicionamento (soft-posicionamento), carta/funil/venda (soft-funil).
+description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que filtra e atrai o cliente certo. Cobre o CORPO das peças de feed (recebe a headline já escolhida e constrói a peça), carrosséis, reels, stories e o design dos carrosséis. Puxa da Fundação de Headlines do Plano de Posicionamento; conduz por pergunta, aplica o Código de Escrita e passa todo output pelos filtros anti-ia e mobile-first. Use SEMPRE que envolver "carrossel", "reel", "stories", "conteúdo de feed", "impulsionar", "turbinar", "design de slides", "calendário de conteúdo", "o que postar". NÃO use pra HEADLINE/gancho/capa/abertura (isso é a soft-conteudo-headlines), nem pra posicionamento (soft-posicionamento), nem pra carta/funil/venda (soft-funil).
 ---
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -43,7 +43,7 @@ description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que fi
 
 A munição do método: a peça de precisão que filtra. Conteúdo não converte por volume, converte por precisão - uma peça boa filtra mais que trinta postagens mornas. Aponta pro método e pro problema de quem paga, em dez minutos por dia, pra tirar o especialista do regime de creator sem sumir do mapa. Eixo de tudo: **alto resultado com baixa complexidade**; toda peça mira o avatar do usuário (o slot do perfil em `shared-references/crivo/00-perfil-do-usuario.md`) e a transformação que o método dele promete.
 
-> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do Léo (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (faz o Plano na `soft-posicionamento` + minera o VoC inicial no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Léo.
+> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do autor do método (que é só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (faz o Plano na `soft-posicionamento` + minera o VoC inicial no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do autor do método.
 
 Cobre a frente de atração inteira: o conteúdo que para o scroll, repele o curioso e atrai o cliente certo pro perfil. Cinco frentes, um maestro:
 - **Feed** (carrossel 3C, reel lo-fi, impulsionar/turbinar) → `references/processo-feed.md`
@@ -58,7 +58,7 @@ Cobre a frente de atração inteira: o conteúdo que para o scroll, repele o cur
 ## A fonte e a lei
 - O método vive no guia: `guia/05-feed-conteudo.md` (e os capítulos de conteúdo). Fonte da verdade; não duplique aqui.
 - Toda peça obedece `guia/CODIGO-DE-ESCRITA.md`: lente da percepção, 8 leis, estrutura-mãe, **pegada falada** (*eu diria isso no olho do cara?*), **simples e honesto, nunca fácil e mágico**, **sem travessão**.
-- Última checagem, sempre: os filtros `shared-references/filtro-anti-ia/` (não soar como IA) e `shared-references/filtro-mobile-first/` (renderiza no celular). Nenhuma peça sai sem atravessar os três (mais o `filtro-cliente-primeiro.md`: o material é do cliente, nunca do Léo nem do jargão do método).
+- Última checagem, sempre: os filtros `shared-references/filtro-anti-ia/` (não soar como IA) e `shared-references/filtro-mobile-first/` (renderiza no celular). Nenhuma peça sai sem atravessar os três (mais o `filtro-cliente-primeiro.md`: o material é do cliente, nunca do autor do método nem do jargão do método).
 
 ## Como conduz (por pergunta, nunca despeja)
 1. Confirma a posição: qual a Fundação de Headlines (Saída 2) e o eixo do Plano deste cliente? (sem isso, manda fazer o Plano).

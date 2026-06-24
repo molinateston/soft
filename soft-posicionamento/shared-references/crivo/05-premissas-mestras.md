@@ -53,7 +53,7 @@ O mesmo ponto cego abre de jeitos diferentes dependendo de dois eixos. Diagnosti
 
 **Sofisticação do mercado** (quantas vezes ele já ouviu a promessa):
 - Mercado novo aceita promessa direta. Mercado saturado, não: a promessa virou ruído.
-- O nicho do Léo ("IA pra negócio", "marketing pra especialista") é SATURADO. Promessa direta ("fature mais", "seja referência") soa igual a todo concorrente. Em mercado saturado, abre pelo MECANISMO NOMEADO e pela IDENTIFICAÇÃO ("isso explica o que eu vivo"), nunca pela promessa gasta.
+- Num nicho saturado (ex.: "IA pra negócio", "marketing pra especialista"), promessa direta ("fature mais", "seja referência") soa igual a todo concorrente. Em mercado saturado, abre pelo MECANISMO NOMEADO e pela IDENTIFICAÇÃO ("isso explica o que eu vivo"), nunca pela promessa gasta.
 
 Regra prática: se a peça soa como qualquer anúncio do nicho, o mercado está mais sofisticado que o seu ângulo. Sobe um nível, do "o quê" pro "como" (mecanismo), do "como" pro "quem" (identidade).
 

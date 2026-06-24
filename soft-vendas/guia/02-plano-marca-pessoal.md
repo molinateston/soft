@@ -97,7 +97,7 @@ O **Cliente Ideal** é o perfil: hiperespecífico, nicho + situação + dor + ma
 
 **Soft Business. Cliente Ideal:** especialista solo (consultor, mentor, profissional liberal de alto ticket, **R$2k+** *(exemplo)*) que é bom no que faz, com 5+ anos de profissão e método próprio, e que **já está no digital há 2-3 anos**. Posta, já rodou tráfego, talvez lançou. Fecha algumas vendas pelo digital, não é iniciante, não é zero. Mas patina: faz de tudo e não decola. Fatura entre **R$15k e R$60k/mês, instável**, e o esforço não vira faturamento.
 
-**Soft Business, persona-âncora, o Otávio** *(persona-exemplo do produto do Léo; cada especialista destila o SEU)***:** 36 anos, especialista veterano com 10 anos de carreira, método próprio, nome no nicho. Já está no digital há uns 3 anos: posta, já rodou tráfego, talvez lançou, fecha algumas vendas online. Fatura **R$20k/mês instável**, o faturamento não acompanha o esforço. Conta pra si mesmo que falta a próxima tática, postar mais consistente, o método novo, e caça a próxima fórmula em vez de admitir que ninguém o associa a nada. Vê gente com menos bagagem decolando. Quer previsibilidade e ser pago como merece, sem virar creator. Cada peça do Soft é escrita pra ele.
+**Soft Business, persona-âncora, o Otávio** *(persona-exemplo do produto do método; cada especialista destila o SEU)***:** 36 anos, especialista veterano com 10 anos de carreira, método próprio, nome no nicho. Já está no digital há uns 3 anos: posta, já rodou tráfego, talvez lançou, fecha algumas vendas online. Fatura **R$20k/mês instável**, o faturamento não acompanha o esforço. Conta pra si mesmo que falta a próxima tática, postar mais consistente, o método novo, e caça a próxima fórmula em vez de admitir que ninguém o associa a nada. Vê gente com menos bagagem decolando. Quer previsibilidade e ser pago como merece, sem virar creator. Cada peça do Soft é escrita pra ele.
 
 > O Otávio (R$20k) mora dentro da faixa do Cliente Ideal (R$15k–R$60k). O perfil é a faixa; a persona é o ponto âncora. Escreve-se pro ponto.
 
@@ -206,7 +206,7 @@ Cada passo carrega nome próprio (não "Fase 1: Diagnóstico"), uma meta clara, 
 
 ## Bloco 3 · Oferta
 
-> Os valores abaixo são **exemplo** (caso Léo). Cada especialista define os seus pela Equação de Valor + Mapa de Valor, o método ensina a precificar, não crava preço.
+> Os valores abaixo são **exemplo ilustrativo**. Cada especialista define os seus pela Equação de Valor + Mapa de Valor, o método ensina a precificar, não crava preço.
 
 A promessa é a mesma em toda a esteira; o que muda é **o quanto do Especialista está no processo** e **a qualificação do cliente.** Especialista que vende produtos diferentes vira loja: cada produto exige posicionamento, funil e público próprios, e o cliente fica paralisado. A saída são **3 ofertas da mesma promessa**:
 
@@ -288,7 +288,7 @@ O cliente não compara R$5.000 com nada. Compara R$5.000 com R$11.000.
 
 Só agora o preço, com a forma de pagamento ao lado. Apresentado depois do Mapa, o número chega ancorado contra o valor percebido, não solto.
 
-**Exemplo, as 3 ofertas Soft Business** *(investimentos exemplo do caso Léo, não tabela de preço do método):*
+**Exemplo, as 3 ofertas Soft Business** *(investimentos exemplo ilustrativo, não tabela de preço do método):*
 
 | Oferta | Produto | Investimento (exemplo) | Pagamento (exemplo) |
 |---|---|---|---|
@@ -322,7 +322,7 @@ Se você tem 5 destaques, 3 são ruído. Se a bio tem 6 linhas, 2 são ruído. *
 
 A bio inteira cabe em **150 caracteres**. Disciplina brutal: gancho de identidade + a transformação com o "sem" + CTA do próximo passo, comprimidos. Cada palavra que não filtra ou não move sai.
 
-- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Léo Molina | Soft Business" *(o próprio Léo)*; para outro nicho, "Nome do Especialista | Fome Sob Controle".
+- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Camila Reis | Fome Sob Controle"; para outro nicho, "Nome do Especialista | Reabilitação Oral Express".
 - **Bio (≤150 caracteres), exemplo Soft Business:** *"Tiro o especialista bom do invisível e coloco como o procurado pelo nome. Sem virar creator. Toca no link →"* (107 caracteres.)
 - **Bio (≤150 caracteres), exemplo nutricionista:** *"Você para de viver de dieta e estabiliza peso e exames em ~6 meses. Sem cortar o pão. Comece aqui →"* (99 caracteres.)
 - **Link:** aponta pra Carta/Vídeo Minimalista, ou direto pro WhatsApp.

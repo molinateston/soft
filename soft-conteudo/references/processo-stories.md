@@ -180,7 +180,7 @@ Sempre nomeia o tipo CARO de cada frame. Entrega copiável.
 
 **Pré-requisitos:** Plano de Marca Pessoal empacado (Cap 2) · Voz destilada (Cap 3) · Carta/Vídeo publicado (Cap 4, destino das DMs) · peças de feed rodando (Cap 5-7, sem o que o feed atrai, Stories não tem o que aprofundar). Stories AMPLIFICA o feed, sem feed, vira tagarelice diária sem direção.
 
-**Cliente com voz própria destilada (ex.: `soft-voz-leo-molina`):** consulta esta reference antes de escrever. O tom íntimo de Stories exige domínio total da voz autoral, qualquer deslize soa creator genérico.
+**Cliente com voz própria destilada (ex.: uma skill de voz do cliente):** consulta esta reference antes de escrever. O tom íntimo de Stories exige domínio total da voz autoral, qualquer deslize soa creator genérico.
 
 ---
 

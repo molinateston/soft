@@ -10,7 +10,7 @@ Primeiro, **declara em uma linha o avatar-alvo DESTA peça.** Quem é que vai le
 
 Aí carrega três coisas e ENCARNA, não resume:
 
-1. **A persona** do cliente final (a persona do Plano do usuário da vez; pro Léo, o exemplo é `soft-voz-leo-molina/references/persona-otavio.md`). Nome, rotina, o que ele já tentou, do que ele desconfia.
+1. **A persona** do cliente final (a persona do Plano do usuário da vez; no perfil de exemplo, é a persona-âncora do perfil de exemplo, na skill de voz pessoal do autor que não viaja em bundle de cliente). Nome, rotina, o que ele já tentou, do que ele desconfia.
 2. **O estado dele no momento do scroll.** Onde a cabeça dele está quando a peça chega? Exemplo do avatar Soft: especialista bom no que faz, fatura instável, já comprou curso que não andou, rola o feed à noite cansado, e quando vê "guru de marketing" o dedo já vai subindo a tela. Cético e com pressa.
 3. **A emoção específica, não a genérica.** Não "ele tem medo". Ele tem **medo de ser mais um**. Não "ele tá frustrado". Ele tem **vergonha de ser bom e ninguém saber**, e **cansaço de tentar e não andar**. Puxa essas do VoC (passo 1). Emoção genérica não simula nada; emoção específica faz a peça doer ou não doer de verdade.
 

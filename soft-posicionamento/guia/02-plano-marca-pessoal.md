@@ -184,7 +184,7 @@ A pista pra achar o seu: o problema do cliente é o mesmo pra todo concorrente d
 
 > O **nome próprio** do mecanismo dá identidade - o cliente lembra, conta pro amigo, busca no Google, e o algoritmo associa o nome à sua autoridade. A **tese** dá a razão. Sem nome, vira commodity; sem tese, vira rótulo bonito.
 >
-> **Exemplos de mecanismos nomeados:** Reorganização da Percepção (marketing digital, o do Léo) · Protocolo Fome Sob Controle (nutrição) · Advocacia Valorizada (jurídico) · Reset Pélvico (fisioterapia) · Margem Real (finanças) · HOF Start (estética) · Obra Sem Aditivo (construção).
+> **Exemplos de mecanismos nomeados:** Reorganização da Percepção (marketing digital) · Protocolo Fome Sob Controle (nutrição) · Advocacia Valorizada (jurídico) · Reset Pélvico (fisioterapia) · Margem Real (finanças) · HOF Start (estética) · Obra Sem Aditivo (construção).
 
 ### O método (os passos)
 
@@ -206,7 +206,7 @@ Cada passo carrega nome próprio (não "Fase 1: Diagnóstico"), uma meta clara, 
 
 ## Bloco 3 · Oferta
 
-> Os valores abaixo são **exemplo** (caso Léo). Cada especialista define os seus pela Equação de Valor + Mapa de Valor - o método ensina a precificar, não crava preço.
+> Os valores abaixo são **exemplo** (caso fictício). Cada especialista define os seus pela Equação de Valor + Mapa de Valor - o método ensina a precificar, não crava preço.
 
 A promessa é a mesma em toda a esteira; o que muda é **o quanto do Especialista está no processo** e **a qualificação do cliente.** Especialista que vende produtos diferentes vira loja: cada produto exige posicionamento, funil e público próprios, e o cliente fica paralisado. A saída são **3 ofertas da mesma promessa**:
 
@@ -237,9 +237,9 @@ Antes de montar qualquer coisa, calibra-se o valor por quatro fatores. Pra subir
 | Fator | O que é | Como o Especialista age |
 |---|---|---|
 | Resultado Sonhado | O que o cliente mais quer | Nomeia com número e prazo. Não "crescer", mas "vendas todos os dias no automático" *(exemplo)*. |
-| Probabilidade de Alcançar | O quanto ele acredita que vai funcionar | Cases reais com nome e número (MindMaster R$13M em 2 anos com 5 pessoas e 1 funil; 1 ano sem postar e seguiu vendendo). Garantia 90+90. Pesa também o quanto ele se vê aplicando: quanto mais simples e factível, mais ele acredita. |
+| Probabilidade de Alcançar | O quanto ele acredita que vai funcionar | Cases reais com nome e número (exemplo: uma clínica de nutrição que fez R$1,2M em 2 anos com 4 pessoas e 1 funil; 1 ano sem postar e seguiu vendendo). Garantia 90+90. Pesa também o quanto ele se vê aplicando: quanto mais simples e factível, mais ele acredita. |
 | Tempo de Espera | Quanto até o primeiro resultado visível | Mostra quando o resultado aparece. O webinário grava uma vez e passa a vender 24/7, sem depender de aparecer. |
-| Esforço | O quanto ele faz sozinho | A IA Webinar Skills carrega a parte técnica - roteiro, página, e-mails, anúncios na voz dele. O agente executa, ele dirige. Ele traz o método; o sistema carrega o resto. |
+| Esforço | O quanto ele faz sozinho | O agente de IA do especialista carrega a parte técnica - roteiro, página, e-mails, anúncios na voz dele. O agente executa, ele dirige. Ele traz o método; o sistema carrega o resto. |
 
 A maioria tenta aumentar valor subindo o preço. A equação mostra **3 outros caminhos antes disso**: mais prova (probabilidade), resultado mais rápido (tempo), menos trabalho do cliente (esforço).
 
@@ -252,7 +252,7 @@ Liste **cada coisa que você entrega**. Pra cada entregável, responda quatro pe
 - **Que objeção quebra** - qual crença errada ela desmonta.
 - **Que valor gera** - o resultado que ela deixa.
 
-**Exemplo - Venda com Webinar (oferta Principal):**
+**Exemplo - Protocolo Fome Sob Controle (oferta Principal de um nutricionista fictício):**
 
 | Entregável | O que resolve · dor que tira · objeção que quebra · valor que gera |
 |---|---|
@@ -261,7 +261,7 @@ Liste **cada coisa que você entrega**. Pra cada entregável, responda quatro pe
 | Módulo 3 - Scripts e Slides | Entrega script e deck do webinário · tira a página em branco · quebra "não sei estruturar a aula" · webinário pronto pra gravar |
 | Módulo 4 - Gravação e Configuração | Grava uma vez e configura o perpétuo · tira o medo da técnica · quebra "não entendo de tecnologia" · funil rodando 24/7 sem aparecer |
 | Módulos 5 e 6 - Automações, Anúncio, Escala | Liga tráfego, automações e a régua de escala · tira o medo de queimar caixa · quebra "tráfego não funciona pra mim" · público frio entrando todo dia |
-| IA Webinar Skills | Escreve roteiro, página, e-mails e anúncios na voz dele · tira o trabalho técnico que ele não domina · quebra "não tenho tempo nem equipe" · o agente executa, ele dirige |
+| Agente de IA do especialista | Escreve roteiro, página, e-mails e anúncios na voz dele · tira o trabalho técnico que ele não domina · quebra "não tenho tempo nem equipe" · o agente executa, ele dirige |
 
 ### 3. Mapa de Valor (no final)
 
@@ -278,7 +278,7 @@ Só depois de listar os entregáveis você ancora o preço. Liste cada component
 | Módulo 3 - Scripts e Slides | R$800 |
 | Módulo 4 - Gravação e Configuração | R$700 |
 | Módulos 5 e 6 - Automações, Anúncio, Escala | R$1.000 |
-| IA Webinar Skills | R$1.300 |
+| Agente de IA do especialista | R$1.300 |
 | **Total percebido** | **R$5.000** |
 
 O cliente não compara R$1.497 com nada. Compara R$1.497 (ou 12x R$155) com a âncora de R$3.500 e com o valor percebido de R$5.000.
@@ -289,11 +289,11 @@ O cliente não compara R$1.497 com nada. Compara R$1.497 (ou 12x R$155) com a â
 
 Só agora o preço, com a forma de pagamento ao lado. Apresentado depois do Mapa, o número chega ancorado contra o valor percebido, não solto.
 
-**Exemplo - as 3 ofertas Soft Business** *(investimentos exemplo do caso Léo, não tabela de preço do método):*
+**Exemplo - as 3 ofertas Soft Business** *(investimentos ilustrativos de um caso fictício, não tabela de preço do método):*
 
 | Oferta | Produto | Investimento (exemplo) | Pagamento (exemplo) |
 |---|---|---|---|
-| **Principal** (a que sempre ofereço) | Venda com Webinar - 6 módulos + IA Webinar Skills | Âncora R$3.500 → R$1.497 | 12x R$155 ou R$1.497 à vista |
+| **Principal** (a que sempre ofereço) | Protocolo Fome Sob Controle - 6 módulos + agente de IA do especialista | Âncora R$3.500 → R$1.497 | 12x R$155 ou R$1.497 à vista |
 | **Secundária** (downsell / sem qualificação) | Acesso reduzido ao método (núcleo gravado, sem os bônus completos) | Abaixo de R$1.497 | À vista ou parcelado |
 | **Super** (cliente ultra qualificado) | Mentoria/consultoria com o webinário como coração da empresa - entra na operação | Acima de R$3.500 (+ projeto/variável) | Entrada + % do faturamento |
 
@@ -303,7 +303,7 @@ Só agora o preço, com a forma de pagamento ao lado. Apresentado depois do Mapa
 
 Toda oferta Soft Business tem garantia - não como truque de conversão, como **compromisso real**.
 
-Estrutura recomendada pra Principal (exemplo do caso Léo, a garantia 90+90): o cliente aplica o método por 90 dias; se não der resultado, o mentor entra junto por mais 90 dias de consultoria; se ainda assim não der, devolve o **dobro** do investimento. Critério objetivo, risco invertido pro lado do mentor.
+Estrutura recomendada pra Principal (exemplo, a garantia 90+90): o cliente aplica o método por 90 dias; se não der resultado, o mentor entra junto por mais 90 dias de consultoria; se ainda assim não der, devolve o **dobro** do investimento. Critério objetivo, risco invertido pro lado do mentor.
 
 Por que é obrigatória: remove o risco percebido que paralisa a decisão. Especialista que garante sinaliza que confia na entrega; quem não garante sinaliza que não confia.
 
@@ -323,7 +323,7 @@ Se você tem 5 destaques, 3 são ruído. Se a bio tem 6 linhas, 2 são ruído. *
 
 A bio inteira cabe em **150 caracteres**. Disciplina brutal: gancho de identidade + a transformação com o "sem" + CTA do próximo passo, comprimidos. Cada palavra que não filtra ou não move sai.
 
-- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Léo Molina | Venda com Webinar" *(o próprio Léo)*; para outro nicho, "Nome do Especialista | Fome Sob Controle".
+- **Nome do perfil (SEO):** Nome + categoria proprietária. Ex.: "Nome do Especialista | Fome Sob Controle".
 - **Bio (≤150 caracteres), exemplo Soft Business:** *"Tiro o especialista bom do invisível e coloco pra vender todo dia no automático. Sem aparecer todo dia. Toca no link →"* (118 caracteres.)
 - **Bio (≤150 caracteres), exemplo nutricionista:** *"Você para de viver de dieta e estabiliza peso e exames em ~6 meses. Sem cortar o pão. Comece aqui →"* (99 caracteres.)
 - **Link:** aponta pra Carta/Vídeo Minimalista, ou direto pro WhatsApp.

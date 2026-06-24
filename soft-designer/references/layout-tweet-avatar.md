@@ -21,7 +21,7 @@ Referência visual: posts de Christian Prado (@ochrisprado) e Renato Duran (@ren
 
 **A skill PARA e pede upload da foto do especialista antes de gerar este slide.** Sem placeholder. Sem iniciais em círculo cinza. Sem gerar e prometer trocar depois.
 
-Pergunta padrão à Léo:
+Pergunta padrão ao usuário:
 
 > "Pra usar o formato Tweet-Avatar preciso da foto do especialista. Me manda a foto (jpg ou png, quadrada idealmente). Sem isso, eu troco pra outro formato de hook."
 

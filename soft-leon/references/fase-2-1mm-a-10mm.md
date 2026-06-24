@@ -132,7 +132,7 @@ Se interseção for vazia → empresa vai sofrer.
 Se interseção for genérica ("ajudar empresários") → empresa vai sofrer (genérico não escala).
 Se interseção for específica ("metodologia Y aplicada a clientes Z gerando ROI W") → tem ouriço.
 
-### Exemplo aplicado, Soft Business (Léo)
+### Exemplo aplicado, Soft Business (caso do autor do método)
 
 | Círculo | Resposta |
 |---------|----------|
@@ -538,6 +538,6 @@ Cliente sai com:
 
 - **Skill alerta sobre o "vale da Fase 2".** Maioria das empresas chega em R$3-5MM e estagna. Razão: CEO continua sendo motor único, não promove gerente, não instala rituais, não estrutura compensação. Empresa cresce até o limite do CEO e para.
 - **Cultura é prática, não slogan.** Skill nunca pergunta "qual é o valor da empresa?", pergunta "o que acontece quando alguém erra?". Resposta = cultura real.
-- **Para cliente do Léo (especialista escalando):** Fase 2 frequentemente é onde **vende-se a ilusão de "manter solo + ter time".** Não rola, ou é solo (Fase 1) ou é empresa (Fase 2+). Skill aponta isso brutalmente.
-- **Para Léo escalando Soft Business:** Fase 2 do Soft Business começa quando ele contrata 1º Head (provavelmente Head de Vendas ou Head de Conteúdo), ou seja, ainda não está nessa fase.
+- **Para o especialista cliente do método (escalando):** Fase 2 frequentemente é onde **vende-se a ilusão de "manter solo + ter time".** Não rola, ou é solo (Fase 1) ou é empresa (Fase 2+). Skill aponta isso brutalmente.
+- **Para o autor do método escalando o negócio:** Fase 2 começa quando ele contrata 1º Head (provavelmente Head de Vendas ou Head de Conteúdo), ou seja, ainda não está nessa fase.
 - **Captação não é troféu.** Empresa que capta sem precisar dilui propriedade pra "sentir validada". Skill desaconselha captação por motivo emocional.

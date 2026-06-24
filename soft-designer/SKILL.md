@@ -1,58 +1,133 @@
 ---
 name: soft-designer
-description: A skill ÚNICA de design visual do método Soft. Produz banner, carrossel e slides de apresentação ponta a ponta, o VISUAL e a COPY-VISUAL juntos (a headline do banner, o texto de cada card, o texto de cada slide), passando essa copy pelo Crivo antes de renderizar. Recebe a tese ou briefing das skills de conteúdo (soft-conteudo), webinário (soft-webinario) e lançamento (soft-lancamento-pago), ou direto do usuário, e entrega o arquivo final (PNG 1080x1350 do carrossel, banner, deck de slides) que quebra padrão no feed. Engenharia visual própria, 3 famílias de estilo, tipografia editorial, render HTML/CSS, export PNG. Use SEMPRE que envolver banner, carrossel, slides, design, PNG, criativo visual, capa, "faz o carrossel", "cria o banner", "desenha os slides", "monta o visual", "exporta os slides", "transforma essa copy em carrossel". NÃO use pra escrever conteúdo de texto longo (caption, carta, roteiro), isso é das skills de conteúdo.
----
-
-## 📦 O QUE ESTA SKILL PRODUZ
-
-**Carrossel** (PNG 1080x1350 pronto pra postar ou impulsionar)
-- Copy-visual de cada card (escrita aqui, pelo Crivo) + render nas 3 famílias visuais.
-- Capa que para o scroll, embalagem A+B, setinha de arraste, slides finais com função.
-
-**Banner / criativo** (estático, pra tráfego ou orgânico)
-- Headline e copy-curta do banner (escrita aqui, pelo Crivo) + composição visual.
-
-**Slides de apresentação** (deck 16:9, ex.: webinário, palco, aula)
-- Copy-visual de cada slide (escrita aqui, pelo Crivo) + layout do deck pela espinha de tensão. O roteiro da fala e a oferta chegam prontos; o render de deck ainda é semi-manual (ver `references/processo-slides.md`).
-
-**Serve o agente:** as skills de conteúdo, webinário e lançamento escrevem a TESE e passam pra cá; o usuário também aciona direto. O design não volta pra elas, sai pronto.
-
+description: "A skill ÚNICA de design VISUAL do método Soft. Recebe a tese/copy de uma skill de conteúdo (soft-conteudo) ou do usuário e produz o ARQUIVO final: carrossel PNG 1080x1350, banner estático, ou deck de slides 16:9. Escreve a copy-visual (headline do banner, texto de cada card, título de cada slide) pelo Crivo e renderiza em HTML/CSS com 3 famílias de estilo, exportando PNG que quebra padrão no feed. Use quando o pedido for design, arte, PNG, carrossel visual, banner, slides visuais, capa, diagrama, exportar imagem, 'faz o carrossel', 'cria o banner', 'desenha os slides', 'monta o visual', 'transforma essa copy em arte'. NÃO use pra escrever a headline/gancho de texto (vai pra soft-conteudo-headlines), nem o CORPO de texto longo, caption, roteiro ou carta (vai pra soft-conteudo), nem o posicionamento (vai pra soft-posicionamento), nem os slides operados dentro do webinar (vão pra soft-webinar-slides)."
 ---
 
 # Soft Designer, a única skill de visual
 
-O design do método num lugar só. Antes, banner, carrossel e slide viviam espalhados em três skills; aqui viram uma capacidade só, que todas chamam. O valor próprio desta skill é a **engenharia visual** (as famílias de estilo, a tipografia, o render HTML/CSS para PNG) somada a um trabalho de copy: **ela escreve a copy que vai NO visual** (a headline, o texto do card, o título do slide), porque texto curto de peça visual é uma arte própria, e a passa pelo mesmo Crivo das outras skills antes de desenhar.
+O design do método num lugar só: banner, carrossel e slide viram uma capacidade só, que todas as skills chamam. O valor próprio é a **engenharia visual** (3 famílias de estilo, tipografia editorial, render HTML/CSS para PNG) somada a um trabalho de copy: **a skill escreve a copy que vai NO visual** (a headline, o texto do card, o título do slide), porque texto curto de peça visual é arte própria, e a passa pelo mesmo Crivo antes de desenhar.
 
-> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE. Usuário sem perfil é roteado pro onboarding antes de produzir. O designer nunca assume os dados de outra pessoa, nem deixa o perfil-de-referência vazar pra peça (passada anti-vazamento do `03-gate-cub.md`).
+**Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos STOPs, e rode o GATE VISUAL (a tabela do Passo 5) antes de exportar qualquer peça.** As references aprofundam, mas quem lê só o SKILL.md executa.
 
-## O que entra e o que sai
+## Output Contract (o que você entrega)
+- **Carrossel:** PNGs 1080x1350 na ordem, prontos pra postar ou impulsionar (copy-visual de cada card escrita aqui pelo Crivo + render nas 3 famílias).
+- **Banner / criativo:** estático (headline + copy-curta escritas aqui + composição visual + CTA).
+- **Slides:** deck 16:9 (copy-visual de cada slide + layout pela espinha de tensão; o roteiro da fala chega pronto).
+- Você **mostra preview e PARA** antes de exportar. Nunca exporta sem o "pode exportar".
+- A copy-visual passa pelo Crivo ANTES do desenho. **O render não muda palavra** (se o layout exigir mexer, re-passa a ancoragem e a headline no gate).
+- Você **nunca inventa prova nem número** (sem banco de provas no perfil, sai com placeholder marcado) e **nunca exporta peça que falhou no gate visual**.
 
-- **Entra:** a TESE ou briefing da peça (de `soft-conteudo`, `soft-webinario`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir a copy longa de apoio. O que NÃO vem pronto é a copy-visual: isso é trabalho daqui.
-- **Sai:** o arquivo final (PNG do carrossel, banner, deck), com a copy-visual já aprovada no Crivo e o visual renderizado.
+## Passo 0, lê o perfil e ancora a copy-visual (NÃO PULE)
+Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): avatar, fonte de VoC, banco de provas, voz e nicho são DELE. Usuário sem perfil vai pro onboarding antes de produzir. O designer nunca assume dados de outra pessoa, nem deixa o perfil-de-referência vazar pra peça.
 
-## As 3 superfícies
+O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinario`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
 
-- **Carrossel** (a frente mais madura) → `references/processo-design.md` (o pipeline: detecta a função de cada card, escolhe família + cor + tipografia, renderiza, audita, exporta) + `references/carrossel-embalagens.md` (capa A+B, embalagem) + `references/perguntas-design.md` (o briefing visual) + `references/auditoria-pre-preview.md` (o gate visual antes de exportar).
-- **Banner / criativo** → `references/processo-banner.md` (a anatomia do banner: a headline que para, a composição, o CTA visual).
-- **Slides de apresentação** → `references/processo-slides.md` (a espinha de tensão do deck, os 15 tipos de slide, a regra "1 ideia por slide / lido em 3s", o slide de oferta, a dimensão 16:9). O ROTEIRO da fala e a OFERTA chegam prontos da skill de funil/webinário ou do usuário; aqui é a engenharia visual + a copy-visual de cada slide. O render de deck ainda é semi-manual (os scripts estão cravados em 1080×1350; ver "Gaps de engenharia" no fim do processo).
+A copy-visual obedece o Crivo como qualquer peça:
+1. **Ancora:** puxa o verbatim real do público do usuário sobre o tema (`shared-references/crivo/01-entrada-verbatim.md`). A capa e os cards nascem de palavra real, não de rótulo.
+2. **Escreve ou afia:** uma frase por card/slide, na espinha (Fórmula 7), cada um UMA ideia comprimida (`shared-references/crivo/05-premissas-mestras.md`). Copy fraca ou card faltando, REESCREVE ancorando no perfil, não terceiriza.
+3. **Passa pelo gate de copy** `shared-references/crivo/03-gate-cub.md`: CUB por card, as 3 perguntas do Harry na CAPA (dá pra ver a cena? é falsificável? só este cliente diria?), passada de Consciência, prova no CTA, anti-vazamento. Nicho regulado roda também `04-gate-regulado.md`. Card que não passa, reescreve antes de desenhar.
+4. **Anti-IA** `shared-references/filtro-anti-ia/`: sem travessão, sem frase de robô. No Code, roda `python3 scripts/lint_copy.py` na copy-visual (reprova em-dash e o verbo banido da anti-voz Soft).
 
-## A lei: copy-visual passa pelo Crivo, render não muda palavra
+Só com a copy-visual aprovada o desenho começa.
 
-O designer escreve a copy-visual, então ela obedece o Crivo como qualquer peça:
+## Passo 1, detecta a superfície e a função de cada peça
+Três superfícies, cada uma com sua reference de processo (leia a da peça da vez):
+- **Carrossel** (a frente mais madura) → `references/processo-design.md`. A copy pode vir numerada, em markdown, ou texto solto. Pra cada slide, identifica título, corpo, palavras de accent (já marcadas com negrito/aspas, RESPEITE) e CTA. Aplica `references/deteccao-automatica.md` pra inferir a **função** de cada card (hook, problema, virada, método, prova, oferta, CTA). **Declara a lista de funções detectadas ao usuário antes de seguir** (única chance dele corrigir antes de desenhar errado). Estrutura recomendada: 7 a 10 slides (Fórmula 7). Se vier fora disso, desenha o que veio mas avisa.
+- **Banner / criativo** → `references/processo-banner.md`. Anatomia de 3 elementos só: a headline que para + a copy-curta de apoio (opcional, corta se não somar) + o CTA visual (em tráfego pago é obrigatório; o destino do clique decide o que o CTA promete). Banner não é carrossel comprimido, é UMA mensagem.
+- **Slides de apresentação** → `references/processo-slides.md`. Espinha de tensão do deck, 1 ideia por slide / lido em 3s, dimensão 16:9. O roteiro e a oferta chegam prontos; aqui é a engenharia visual + a copy-visual de cada slide.
 
-1. **Ancora e escreve** a copy-visual (headline, card, título de slide) puxando o verbatim e a tese do perfil do usuário (`shared-references/crivo/01-entrada-verbatim.md`), no ângulo de ponto cego, com mecanismo nomeado.
-2. **Passa pelo gate** (`shared-references/crivo/03-gate-cub.md`): CUB, as 3 perguntas do Harry na headline e na capa, a passada de Consciência, prova no CTA, anti-vazamento. Copy-visual que não passa, reescreve antes de desenhar.
-3. **Anti-IA + mobile-first** (`shared-references/filtro-anti-ia/`, `shared-references/filtro-mobile-first/`): sem travessão, sem frase de robô, e legível no celular (a peça vai ser vista em 6cm de tela).
-4. **Renderiza** o visual em cima da copy aprovada.
+## Passo 2, escolhe família + cor + tipografia (pergunta se faltar)
+Toda decisão é "qual família" + "qual cor de destaque" + "qual combinação tipográfica".
 
-**Regra de ouro do render (fecha um furo conhecido):** depois que a copy passou no gate, o desenho **não muda palavra**. Diagrama, quebra linha, escolhe accent, mas o texto é o que foi aprovado. Se o layout EXIGIR mexer numa palavra (cabe melhor, quebra feia), a copy mexida **re-passa a passada de ancoragem e a headline do gate** antes de exportar. Render que reescreve copy às escondidas é o erro que a auditoria já pegou.
+| Família | Quando usar |
+|---|---|
+| **Editorial Preto** | Posicionamento, manifesto, oferta premium, autoridade. Vibe revista de negócios. |
+| **Clínico Branco** | Listas, comparativos X/Y, ofertas diretas, prova de números. Vibe bula bem desenhada. (default mais seguro) |
+| **Manuscrito Cru** | Storytelling pessoal, confissão, antes/depois, tweet com avatar. Vibe print de tweet. |
 
-## A engenharia visual (o valor que só vive aqui)
+**Se o usuário já indicou família/estilo** (ou anexou referência visual, ou disse "igual ao último"): segue. **Se NÃO indicou nada, PARA e pergunta** seguindo `references/perguntas-design.md` (3 perguntas no máximo, opções nomeadas com mini-descrição, nunca exige hex). Não pergunta cor de fundo nem texto (inferidas pela família). Fallback "decide você": Clínico Branco + Laranja vibrante #FF6B1A + Inter Bruto, e avisa.
 
-Carrossel bom não é bonito, é o que **quebra padrão** no feed (o oposto de gradiente, ícone colorido, template Canva, sans-serif centralizada). As 3 famílias, a tipografia, os layouts e o render moram nas references de design e nos `scripts/` (`build_carousel.py`, `export_pngs.py`, render HTML/CSS com as fontes em `assets/fonts/`, export PNG). O método da peça (Fórmula 7, função de cada card) vem do guia e da tese que chega; a engenharia de transformar isso em imagem é o que esta skill domina.
+> **STOP de design:** sem família definida, não gera HTML. Pergunta, espera a resposta, segue.
 
-## O que ela NÃO faz
+Antes de gerar HTML, lê os references da família escolhida (cores, tipografia, layouts), mais os obrigatórios `references/escala-densidade.md` (font-size por densidade), `references/tipografia-quebra-linhas.md` (phrase ragging + widow control) e `references/setinha-arraste.md` (carrossel). Padding 100px nos 4 lados, escala de fonte e elementos permitidos vêm dos references, não se improvisa.
 
-- Não escreve conteúdo de texto longo (caption, carta, roteiro, e-mail). Isso é das skills de conteúdo; aqui é só a copy que vai DENTRO do visual.
-- Não inventa prova nem número. Sem banco de provas no perfil, a peça sai com o placeholder marcado, igual ao Crivo manda.
-- Não decalca os exemplos das references (são de outro nicho de propósito). A peça nasce do perfil do usuário da vez.
+## Passo 3, decide o layout e escreve o HTML com Python
+Pra cada peça, pega a função detectada e escolhe o layout correspondente da família. **Sempre usa Python pra gerar o HTML** (nunca shell heredoc/echo; `$` e crase corrompem strings). Usa `scripts/build_carousel.py` como esqueleto (template `assets/template-base.html`, viewport 1080×1350, `make_symmetric_slide()`).
+
+As 7 regras inegociáveis do desenho:
+1. **Fundo chapado** (preto #0A0908 ou branco #F5F2EC/#FFFFFF). Nunca gradiente nem textura forte.
+2. **Hierarquia de 2 níveis no máximo** (título + corpo).
+3. **Espaço negativo brutal** (30–50% do slide vazio).
+4. **UMA cor de destaque** por peça, em 2–4 palavras-chave por slide.
+5. **Negrito é arma:** 2–4 palavras, weight 700/800 (nunca 600).
+6. **Tipografia mista é assinatura** (serif elegante OU sans pesada, nunca as duas no mesmo título).
+7. **Sem chrome do Instagram**, e seta de arraste + handle (variação C) em todos os slides de 1 a N-1 do carrossel.
+
+**Ritmo orgânico:** a hierarquia de 2 níveis é teto, não obrigação. Se 3+ cards seguidos usam título+corpo, o carrossel vira template e cansa. Varia a forma pela função: afirmação pura na virada, **lista/chips sempre que o card enumera** (nunca prosa amassada), prosa pra dor que respira, número dominante na prova.
+
+**Anti-órfã na origem:** no Code, envolve TODO texto de peça com `nw()` de `scripts/craft.py` (junta as 2 últimas palavras com espaço inquebrável). No chat, faz a quebra manual com `<br>` e confere a última linha de cada bloco.
+
+## Passo 4, mostra preview e PARA
+Cria o HTML em `/home/claude/<nome>/preview.html` e mostra. Pergunta exatamente:
+
+> **"Quais slides precisam de ajuste antes de eu exportar os PNGs?"**
+
+**Não exporta nada antes de aprovação explícita** ("pode exportar", "aprovado", "manda ver"). Se pedir ajuste, edita **só os slides mencionados** com `str_replace`. Nunca regenera a peça inteira por 1 ajuste.
+
+## Passo 5, roda o GATE VISUAL antes de exportar (tabela obrigatória, modelo PREENCHE e IMPRIME)
+Este é o gate que **funciona em qualquer ambiente, inclusive o Claude Chat**, espelhando o que o `craft.py` faz no Code. Preenche a tabela lendo CADA peça (cada card / o banner / cada slide). Só peça com a linha VEREDITO=PASSA é exportada/entregue. Uma falha corrige o desenho daquela peça e re-roda o gate. Sem a tabela preenchida, a peça não foi auditada.
+
+| Check | Passa se | ✓/✗ |
+|---|---|---|
+| **Contraste por pele** | cada bloco de texto tem contraste forte contra o fundo IMEDIATO atrás dele (mira WCAG ≥ 3:1, AA 4.5:1 no corpo). **Pele clara → texto escuro `#1a1814` + accent escuro (verde `#147a3c`, NUNCA o neon `#4ade80` que some no creme); pele escura → texto claro.** Texto claro em fundo claro = ✗ automático. Teste: se você "sabe" que o texto está lá mas mal enxerga, é bug, não "sutil" | |
+| **Anti-órfã** | NENHUMA palavra sozinha na última linha de um bloco. Última linha com 1 palavra, ou 2 palavras somando < 8 caracteres ("é só", "no a") = ✗. Termo composto (marca, R$3k, "Soft Business", 48h) quebrado entre linhas = ✗. Corrige puxando 1 palavra da linha anterior | |
+| **Diagrama forte** | se a peça tem diagrama/gráfico/seta: traço **5–6px** (1–2px some no thumbnail = ✗) + **marcador semântico** (✕ vermelho = errado/morto · ✓ ou `$` verde = certo/dinheiro · ↑ = cresce; linha pelada sem marcador = ✗) + **rótulo** do que cada parte é (diagrama sem contexto = adivinhação = ✗) + grande o bastante pra ocupar o espaço. Sem diagrama na peça = N/A (✓) | |
+| **1 ideia por peça** | o card/slide carrega UMA ideia, fechando numa frase-conclusão. Duas mensagens competindo pelo olho = ✗. No banner: um ponto focal só (hook OU número OU imagem, nunca dois) | |
+| **Legível no celular** | título lido sem esforço em 0,3s numa tela de 6cm, escala bate com `escala-densidade.md`, sem letra apertada. Imagina a peça reduzida a thumbnail no feed: a mensagem principal chega? "Talvez" = ✗ | |
+| **Fundo chapado + 1 accent + sem chrome** | fundo cor sólida (sem gradiente/textura), no máximo UMA cor de accent (em ≤ 4 palavras), zero sombra/box-shadow, zero ícone colorido, cantos retos. Carrossel: seta + handle nos slides 1 a N-1 | |
+| **Nada vazio/fantasma** | todo elemento estrutural (grade de feed, mockup, célula) está preenchido com conteúdo plausível ou não existe. Caixa vazia + baixa opacidade = parece bug de carregamento = ✗ | |
+| **Anti-IA (HARD)** | zero travessão "—" na copy-visual · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo"). No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓ | |
+| **Render não mudou palavra** | o texto desenhado é exatamente o que passou no gate de copy (Passo 0). Se o layout exigiu mexer numa palavra, ela re-passou a ancoragem e a headline antes de chegar aqui | |
+| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = CORRIGE o desenho e re-roda. Só tudo-✓ = PASSA e pode exportar | |
+
+> **Cinto extra no Code (não substitui a tabela):** depois de gerar o HTML, roda `python3 scripts/craft.py audit /home/claude/<nome>/preview.html`. Ele reprova em código o "branco no branco" (contraste por luminância WCAG) e sinaliza órfã provável. O `export_pngs.py` já chama esse gate sozinho e **recusa exportar** peça com falha dura (`--force` ignora, não use). É o mesmo gate da tabela, agora em código, pros 2 checks que dá pra automatizar de forma confiável. No Claude Chat o craft.py não roda, por isso a tabela acima é obrigatória.
+
+## Passo 6, exporta e entrega
+Com o gate PASSA e o "pode exportar" do usuário, no Code roda:
+
+```bash
+python3 scripts/export_pngs.py --html /home/claude/<nome>/preview.html --output /home/claude/<nome>/slides
+```
+
+Saída: `slide_01.png`, `slide_02.png`, … (zero-padding de 2 dígitos). Move pra `/mnt/user-data/outputs/` e apresenta todos na ordem. Pra leigo, fecha em 1 frase: "Pronto, seus 9 slides estão aí, na ordem. É só baixar e postar." A copy-visual já foi gated no Passo 0; texto longo (caption, roteiro) é das skills de conteúdo.
+
+## When NOT to use (manda pra skill certa)
+- Pediu a **headline/gancho de TEXTO** (não a arte) → **soft-conteudo-headlines**.
+- Pediu o **CORPO de texto longo, caption, roteiro, carta, e-mail** → **soft-conteudo** (e sub-skills).
+- Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
+- Pediu os **slides operados DENTRO do webinar** (deck do roteiro do webinário) → **soft-webinar-slides**.
+- Pediu **anúncios de tráfego do webinar** como sistema → **soft-webinar-ads** (a arte do banner volta pra cá quando precisar renderizar).
+
+## Anti-Patterns (sintoma → correção)
+| Sintoma | Correção |
+|---|---|
+| Exportou sem mostrar preview | Volta: mostra preview, pergunta o ajuste, espera o "pode exportar" |
+| Texto claro sobre fundo claro (branco/neon herdado do tema escuro) | Cada pele define as próprias cores; pele clara → `#1a1814` + verde `#147a3c`; re-roda o gate |
+| Palavra sozinha na última linha | Aplica `nw()` (Code) ou puxa 1 palavra da linha anterior; nunca deixa órfã |
+| Diagrama com linha fina sem marcador | Traço 5–6px + marcador ✕/✓/$ + rótulo; senão ninguém entende em 0,3s |
+| 3+ cards seguidos com título+corpo | Quebra o ritmo: afirmação pura, lista/chips (se enumera), prosa ou número dominante |
+| Inventou um número "plausível" | Só prova com lastro do banco; sem fonte, placeholder marcado, nunca inventado |
+| Render reescreveu a copy às escondidas | Texto desenhado = o que passou no gate; mexeu, re-passa a ancoragem antes de exportar |
+| Regenerou o carrossel inteiro por 1 ajuste | Edita só o slide mencionado com `str_replace` |
+| Mais de 1 cor de accent / gradiente / sombra / cantos arredondados | Fundo chapado, 1 accent em ≤ 4 palavras, zero sombra, cantos retos |
+
+## References (só pra profundidade, o fluxo acima é autossuficiente)
+- `references/processo-design.md`: o pipeline completo do carrossel (detecção de função, famílias, ritmo, geração, export).
+- `references/processo-banner.md`: a anatomia do banner, a biblioteca de modelos, o checklist de saída.
+- `references/processo-slides.md`: a espinha de tensão do deck, os tipos de slide, o slide de oferta, 16:9.
+- `references/perguntas-design.md`: o formato exato das 3 perguntas de design + a Pergunta D (elementos extras).
+- `references/familia-editorial-preto.md` · `familia-clinico-branco.md` · `familia-manuscrito-cru.md`: regras autoritativas de cor/tipografia/layout por família. Lê a da família escolhida ANTES de gerar HTML.
+- `references/escala-densidade.md` · `tipografia.md` · `tipografia-quebra-linhas.md`: escala de fonte por densidade, 9 combinações de fonte, phrase ragging + widow control.
+- `references/auditoria-pre-preview.md`: as 16 perguntas detalhadas do gate visual (a tabela do Passo 5 é o resumo executável; esta reference traz cada check com exemplo real de render que queimou).
+- `references/layouts.md` · `layout-utilitario.md` · `layout-tweet-avatar.md` · `layout-diagrama-manuscrito.md` · `setinha-arraste.md` · `elementos-manuscritos.md` · `deteccao-automatica.md`: repertório de layouts e elementos.
+- `scripts/build_carousel.py` (esqueleto de geração + `make_symmetric_slide`), `scripts/export_pngs.py` (export Playwright, chama o craft.py), `scripts/craft.py` (gate de craft em código: `nw()` anti-órfã + `legible()`/`audit` contraste WCAG), `scripts/lint_copy.py` (anti-IA na copy-visual). No Code são cinto extra; no chat, o gate do Passo 5 cobre.

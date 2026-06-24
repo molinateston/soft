@@ -1,67 +1,91 @@
 # Manifesto de Funil, o trilho de invocação do LEON
 
-> A certeza de invocação. O LEON não "lembra" qual mãe chamar nem em que ordem: ele segue o trilho. Pra cada funil, o pipeline explícito, em ordem, com o gate de cada passo. Sem gate cumprido, o passo não libera o seguinte.
+> A certeza de invocação. O LEON não "lembra" qual skill chamar nem em que ordem: ele segue o trilho. Pra cada funil, o pipeline explícito, em ordem, com o gate de cada passo. Sem gate cumprido, o passo não libera o seguinte.
 
-O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill-mãe que produz o ativo e roda o **próprio gate** antes de devolver. O gate de copy (o Crivo) vive na skill de peça, nunca no LEON (ver `shared-references/operacao-padrao.md`, Seção 5). O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
+O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do Harry + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
+
+> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinario) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo invoca as atômicas na ordem.
 
 ---
 
 ## FUNIL SOFT (degrau 1, o default)
 
-A peça de aquecimento é a Mini Carta ou o Vídeo Minimalista. O lead aquecido cai no comercial 1:1. Pipeline:
+Atração filtra e aquece → o lead cai no Comercial 1:1. Pipeline:
 
 ```
-soft-posicionamento  (gate: Crivo do Plano de Posicionamento)
+soft-posicionamento            (gate: Crivo do Plano de Posicionamento)
         ↓
-soft-conteudo        (gate: Crivo CUB + anti-IA / lint_copy.py)
+soft-conteudo-headlines        (gate embutido: Harry + CUB + anti-IA; a headline ANTES do corpo)
         ↓
-soft-designer        (gate: craft.py no design dos slides)
+soft-conteudo-carrossel        (corpo do carrossel; OU -reels OU -stories conforme a peça)
+soft-conteudo-reels            (roteiro de reel)
+soft-conteudo-stories          (arco de stories)
         ↓
-soft-funil           (gate: Crivo, ancoragem em verbatim + CUB + anti-IA)
+soft-conteudo-multiplataforma  (opcional: repurpose da peça-âncora pra LinkedIn/X/YouTube/email)
         ↓
-soft-vendas          (gate: Crivo. O fechamento comercial 1:1 fica AQUI, nunca na soft-funil)
+soft-designer                  (gate: craft.py no visual/PNG)
         ↓
-pos-venda            (gate: Crivo. Indicação + testemunho, na soft-vendas)
+soft-funil-isca / -landing / -carta / -miniwebinar   (gate embutido por peça)
+        ↓
+soft-vendas-prospeccao → -script → -objecao → -copiloto → -posvenda   (gate embutido; o fechamento 1:1 é AQUI)
 ```
 
-Cada gate em uma linha:
+Gates, um por linha:
 - **soft-posicionamento**: o Plano (NMO) passa no Crivo do Plano antes de virar a fundação. Sem Plano de pé, nada depois tem destinatário.
-- **soft-conteudo**: todo carrossel/reel/story passa no Crivo CUB e no anti-IA. Esses gates ficam DENTRO da soft-conteudo (em `soft-conteudo/shared-references/crivo/03-gate-cub.md`, `soft-conteudo/shared-references/filtro-anti-ia/` e `soft-conteudo/scripts/lint_copy.py`), nunca no LEON. Headline antes do corpo, corpo antes do design.
-- **soft-designer**: o design dos slides passa no validador da própria soft-designer (`soft-designer/scripts/craft.py`) antes de exportar PNG. O LEON não hospeda esse script: ele só confere que rodou.
-- **soft-funil**: a Carta / Vídeo / Página passa no Crivo (ancoragem em verbatim, prova com lastro, CUB + 3 perguntas do Harry, anti-IA). A peça qualifica; não fecha a venda.
-- **soft-vendas**: o **fechamento comercial 1:1 é sempre aqui**. Scripts, objeções, fechamento e pós-venda passam no Crivo. A soft-funil aquece e qualifica; quem fecha é a soft-vendas.
+- **soft-conteudo-headlines**: a headline nasce do verbatim, passa o gate embutido (5 critérios + Harry + anti-IA, com VEREDITO). **Headline antes do corpo, sempre.**
+- **soft-conteudo-{carrossel,reels,stories}**: o corpo parte da headline escolhida; cada um tem o gate embutido (densidade/tensão/CARO + CUB + anti-IA).
+- **soft-conteudo-multiplataforma**: re-renderiza a peça-âncora preservando a tese; mantém o gate.
+- **soft-designer**: o visual passa no `soft-designer/scripts/craft.py` (contraste + anti-órfã) antes de exportar PNG. O LEON só confere que rodou.
+- **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta ADMA), Mini-webinar (micro-aula ADMA). A peça qualifica; não fecha a venda.
+- **soft-vendas-***: o **fechamento comercial 1:1 é sempre aqui**: prospecção (abre), script (conduz), objeção (isola), copiloto (tempo real), pós-venda (indicação/onboarding). Cada um com gate embutido.
 
 ---
 
 ## FUNIL WEBINAR (degrau 2)
 
-Idêntico ao FUNIL SOFT em tudo, com duas diferenças: um **gate de maturidade** na entrada, e o **miolo** que troca a Carta pela soft-webinario. O resto (posicionamento, conteúdo, design, e o fechamento na soft-vendas) é igual.
+Igual ao FUNIL SOFT na fundação e na atração; o miolo troca a Carta pelo webinário (as 9 atômicas de webinar), com um gate de maturidade na entrada.
 
 ```
-gate de maturidade  (audiência + faturamento + produto + habilidade aguentam o degrau 2?
-                     se não, fica no FUNIL SOFT)
+gate de maturidade   (audiência + faturamento + produto + habilidade aguentam o degrau 2? se não, fica no FUNIL SOFT)
         ↓
-soft-posicionamento  (gate: Crivo do Plano)
+soft-posicionamento  → soft-conteudo-headlines → -carrossel/-reels/-stories → soft-designer   (atração, idêntica)
         ↓
-soft-conteudo        (gate: Crivo CUB + anti-IA / lint_copy.py)
+soft-webinar-oferta      (desenha a oferta ANTES do roteiro)
         ↓
-soft-designer        (gate: craft.py)
+soft-webinar-plano       (perpétuo vs ao vivo, esqueleto ADMA, mecanismo nomeado)
         ↓
-soft-webinario       (no miolo, no lugar da Carta. Gates: ADMA + CUB + lint_copy.py)
+soft-webinar-script      (roteiro ADMA + motor de 3 viradas + objeções aniquiladas)
         ↓
-soft-vendas          (gate: Crivo. Fechamento 1:1, igual ao FUNIL SOFT)
+soft-webinar-slides      (deck) → soft-designer (visual fino)
         ↓
-pos-venda            (gate: Crivo)
+soft-webinar-paginas     (cadastro/obrigado/checkout)
+        ↓
+soft-webinar-mensagens   (e-mails + WhatsApp pré/pós)
+        ↓
+soft-webinar-ads         (tráfego pra encher) → soft-designer (criativo)
+        ↓
+soft-webinar-gravacao    (gravar/perpetuar com energia de ao vivo)
+        ↓
+soft-webinar-poswebinar  (tags/CRM + chat simulado) → soft-vendas-*   (fechamento 1:1)
 ```
 
-- **gate de maturidade**: o LEON só sobe o especialista pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Nunca antes. Não cabe? Fica no degrau 1.
-- **soft-webinario**: entrega o pacote inteiro na ordem do método (oferta antes do roteiro, depois roteiro **ADMA** Atenção·Diagnóstico·Mecanismo·Ação, depois deck, gravação, páginas, e-mails/WhatsApp, anúncios, pós-webinar). Roda os próprios gates, todos DENTRO da soft-webinario: **ADMA** (estrutura do roteiro), **CUB** (`soft-webinario/shared-references/crivo/03-gate-cub.md`), **anti-IA** (`soft-webinario/scripts/lint_copy.py`), e `soft-webinario/shared-references/crivo/04-gate-regulado.md` se o nicho for saúde/jurídico. O webinar qualifica; high-ticket (3k+) fecha no 1:1, nunca no checkout.
+- **gate de maturidade**: o LEON só sobe pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Não cabe? Fica no degrau 1.
+- **a oferta vem antes do roteiro** (soft-webinar-oferta antes de soft-webinar-script). Cada atômica de webinar tem o gate embutido; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
+- **fechamento**: high-ticket (3k+) fecha no Comercial 1:1 (soft-vendas-*), nunca no checkout.
+
+> **Material privado do autor do método:** o webinar REAL dele (case proprietário, calls, frameworks proprietários) NÃO está nas 9 atômicas genéricas (são client-safe). Ele vive na `soft-webinario` (rica, privada, restrita ao autor, fonte+bot, nunca em plugin público).
+
+---
+
+## GESTÃO & VIDA (não é funil, o LEON carrega)
+
+CEO, produtividade, rotina/A Conta, finanças do fundador, treino, princípios: o LEON **carrega** essas competências nas próprias references (`ceo.md`, `produtividade.md`, `rotina.md`, `dinheiro-financeiro.md`, `treino.md`, `principios-*.md`). Não são skills atômicas que ele invoca; são o repertório do Consultor Vivo e da Rotina. Quando o dilema é de empresa/vida (não de peça), o LEON consulta essas references direto.
 
 ---
 
 ## Degrau 3, FORA DE ESCOPO
 
-O **Soft Launch / lançamento pago** (`soft-lancamento-pago`) é o degrau 3 da escada. **Está parqueado: fora do escopo desta orquestração autoguiada.** O LEON não conduz esse trilho por aqui. Quando o caso pedir lançamento pago, é outra condução, com skill própria.
+O **Soft Launch / lançamento pago** (`soft-lancamento-pago`) é o degrau 3. **Parqueado: fora desta orquestração autoguiada.** Quando o caso pedir lançamento pago, é outra condução, com skill própria.
 
 ---
 

@@ -42,7 +42,7 @@ Junto, quando o pedido pede: **escalar** uma peça que funcionou (assunto ou est
 ### 1. Identifica a peça e checa a base
 Carrossel ou Reel? (Se for Stories, vai pra `processo-stories.md`.) Antes de qualquer assunto, confirma que a **base já existe** (Bloco 5 / Fundação de Headlines do Plano): **tese central · 3 a 5 pilares · mecanismos nomeados**. A base não se inventa aqui, vem do Plano. Sem ela, a peça vira jornalismo: alcança estranho e não converte. Se faltar, volta pro `soft-posicionamento`.
 
-> Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), **consulta ela antes de escrever**, pilares, bordões e anti-valores são a fonte de verdade do tom.
+> Se existe skill de voz destilada do cliente (ex.: uma skill de voz do cliente), **consulta ela antes de escrever**, pilares, bordões e anti-valores são a fonte de verdade do tom.
 
 ### 2. Escolhe o assunto que carrega a tese
 O conteúdo do feed não inventa tema novo: pega a tese do Plano e faz ela viajar num assunto que interessa. Cruza as **3 fontes** (Cap 5.2): **universal** (idade, dinheiro, tempo, medo, status), **do nicho** (dor, desejo, crença, ferramenta do mercado), **do momento** (notícia em alta, só com link claro com a tese, senão é jornalismo). Combinar duas fontes multiplica o alcance.

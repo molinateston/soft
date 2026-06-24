@@ -434,4 +434,4 @@ Cliente sai com:
 - **Nem todo CEO quer ir pra Fase 4.** Estabilizar empresa em R$50-100MM/ano gerando R$15-30MM EBITDA por décadas é negócio extraordinário. Skill nunca empurra IPO se cliente prefere estabilidade.
 - **Aquisições oportunistas (M&A pequeno) começam aparecer aqui.** Cliente Fase 3 às vezes compra concorrente menor. Skill alerta: M&A é caro, distrai operação, frustra 70% das vezes. Faz sentido apenas com tese clara + integração planejada.
 - **Cultura institucional > cultura de fundador.** Fase 3 = cultura tem que sobreviver à saída do fundador. Documentação + ritual + práticas explicitas são vacina contra dependência.
-- **Para Léo escalando Soft Business**: essa fase tá distante (2026). Mas vale conhecer, Soft Business pode chegar aqui em 5-7 anos se mantiver disciplina.
+- **Para o autor do método escalando o negócio**: essa fase costuma estar distante. Mas vale conhecer, o negócio pode chegar aqui em 5-7 anos se mantiver disciplina.

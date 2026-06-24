@@ -220,7 +220,7 @@ Apresenta a solução **sem entregar o passo a passo**. Vende o processo, não o
 | 2 | O que todos ensinam + efeito colateral |
 | 3 | Problema Avançado nomeado |
 | 4 | Solução, nome do método + promessa em 1 frase |
-| 5-6 | Os passos do método (1 story por passo, ou agrupado se couber) |
+| 5-6 | As partes do Mecanismo da Solução (1 story por parte: pilar, premissa, característica OU passo) |
 | 7 | Validação, número agregado ou resultado coletivo |
 | 8 | CTA, palavra-chave + link |
 
@@ -288,7 +288,7 @@ Se a resposta de qualquer uma for "não", **não avança**, manda invocar a skil
 ### Passo 4, Construir Destaques estruturais
 
 1. **PROBLEMA**, extrai do Posicionamento o problema Problema Avançado e os efeitos colaterais. Gera roteiro de 4-6 stories.
-2. **MÉTODO**, extrai do Posicionamento os passos do método. Gera roteiro de 6-8 stories. **Nunca entrega passo executável.**
+2. **MÉTODO**, extrai do Posicionamento as partes do Mecanismo da Solução (na forma que ele tem). Gera roteiro de 6-8 stories. **Nunca entrega passo executável.**
 3. **CLIENTES**, pede ao criador a lista de cases reais. Cada um vira story com nome + contexto + resultado.
 
 ### Passo 5, Validar com o teste
@@ -305,7 +305,7 @@ Aplica os 2 testes da seção 6 antes de finalizar.
 | **Bio com 5+ linhas** | Excede atenção. Leitor sai antes de entender. | Corta tudo que não é essencial. Maximum 4 linhas. |
 | **Bio sem "sem"** | Promessa genérica. Igual ao concorrente. | Identifica efeito colateral do mercado e nomeia o "sem". |
 | **Destaque PROBLEMA com >6 stories** | Diluiu o impacto. Cansou o leitor. | Escolhe os 4-6 mais densos. |
-| **Destaque MÉTODO entregando passo a passo** | Quebra Faca Soft. Leitor vai embora aplicando sozinho. | Reescreve descrevendo **resultado e função** dos passos. |
+| **Destaque MÉTODO entregando passo a passo** | Quebra Faca Soft. Leitor vai embora aplicando sozinho. | Reescreve descrevendo **resultado e função das partes do Mecanismo** (sem entregar o como). |
 | **Destaque CLIENTES com prints sem contexto** | Parece falso. Não vende. | Adiciona [Nome, nicho, contexto, resultado] em cada print. |
 | **Foto de perfil estilizada de banco de imagem** | Quebra autenticidade. | Foto real, recente, fundo limpo. |
 | **Bio com emoji decorativo** | Algoritmo não lê. Quebra fluxo de leitura. | Remove. Único emoji aceitável é o ⤵️ pro CTA na linha 4. |

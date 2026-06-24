@@ -22,7 +22,7 @@ Sem isso, a peça com uma linha fraca passa, e um gate que aprova furo não é g
 
 A copy pode sair bonita e MENTIR no rodapé. O furo mais grave de todos: inventar a prova de ancoragem. Esta barreira roda primeiro, cega na fonte, antes da simulação. Qualquer item NÃO-VERIFICADO reprova, por melhor que esteja a frase.
 
-- **Aspas = cópia literal da fonte do usuário da vez.** Toda fala entre aspas atribuída ao cliente tem que ser substring literal, palavra por palavra, do acervo de fala real DELE (ver Passo 0 de `01-entrada-verbatim.md`; pro Léo, o exemplo é `/home/cloud/voc-wiki/wiki/padroes/`). Re-abre a fonte e confere. Não bateu caractere a caractere, FALHA.
+- **Aspas = cópia literal da fonte do usuário da vez.** Toda fala entre aspas atribuída ao cliente tem que ser substring literal, palavra por palavra, do acervo de fala real DELE (ver Passo 0 de `01-entrada-verbatim.md`; no perfil de exemplo, é a pasta de padrões do acervo de VoC do autor). Re-abre a fonte e confere. Não bateu caractere a caractere, FALHA.
 - **Correspondência (a aspa é do sub-padrão CERTO).** A aspa tem que expressar a MESMA dor ou cena do sub-padrão de onde foi puxada (a linha-padrão destilada da página). Não basta ser substring literal com carga, se for de outro assunto. Aspa gramatical mas de tema diferente é descartada, e ancora na linha-padrão em texto corrido citando o N (mesmo tratamento da aspa-lixo).
 - **DIREÇÃO (a peça afirma o MESMO que a fala, ou o oposto?).** A tese da peça afirma na MESMA direção do verbatim, não só contém a palavra. "preço não doeu" e "já gastei muito, não posso mais" são substrings de temas OPOSTOS. Negar o verbatim que você diz usar de âncora é fraude de DIREÇÃO, FALHA bloqueante, igual à aspa fabricada. (Foi o furo do anúncio no teste: cravou "você não tem medo de gastar" sobre um avatar cujo verbatim real é o contrário.)
 - **Remontar fala é fraude.** Juntar pedaços de calls diferentes, ou parafrasear o padrão e botar entre aspas como se fosse fala dele, é fraude de ancoragem, FALHA bloqueante. Paráfrase do padrão vai em texto normal ("o que se repete nas calls é..."), nunca entre aspas como verbatim.
@@ -35,12 +35,12 @@ Por que primeiro: se a simulação de pele roda antes, ela se empolga com a fras
 
 ## Anti-vazamento: o perfil de REFERÊNCIA nunca entra na peça de outro usuário (bloqueante)
 
-As skills trazem exemplos de um perfil de REFERÊNCIA pra ensinar o modelo a escrever (avatar "Otávio", pilar "A Conta de Poucos", fonte "voc-wiki", a voz do dono do método). São de OUTRO usuário, nunca do usuário da vez. Regra bloqueante:
+As skills trazem exemplos de um perfil de REFERÊNCIA pra ensinar o modelo a escrever (o avatar de exemplo, o pilar/Big Idea de exemplo, a fonte de VoC de exemplo, a voz do autor do método). São de OUTRO usuário, nunca do usuário da vez. Regra bloqueante:
 
 - Nenhum nome próprio, case, número, avatar, pilar, inimigo ou fonte que apareça na PEÇA pode vir desses exemplos. Tudo na peça sai do PERFIL do usuário da vez (`00-perfil-do-usuario.md`), não dos exemplos embutidos na skill.
-- Se "Otávio", "A Conta de Poucos", "voc-wiki", ou qualquer dado do perfil-de-referência aparecer na peça de outro usuário, é VAZAMENTO. FALHA bloqueante, reescreve a partir do perfil certo.
+- Se o avatar de exemplo, o pilar/Big Idea de exemplo, a fonte de VoC de exemplo, ou qualquer dado do perfil-de-referência aparecer na peça de outro usuário, é VAZAMENTO. FALHA bloqueante, reescreve a partir do perfil certo.
 - É a mesma lógica da barreira de ancoragem (aspa = substring da fonte DO USUÁRIO), estendida a TODOS os dados: avatar, pilar, case, inimigo, número. O perfil-de-referência ensina COMO escrever, nunca é matéria-prima do QUE escrever.
-- Pro dono do método, o perfil-de-referência é o dele, então não há vazamento. Pra qualquer outro usuário, esta passada protege os dados dele de saírem contaminados com os de outra pessoa.
+- Pro autor do método, o perfil-de-referência é o dele, então não há vazamento. Pra qualquer outro usuário, esta passada protege os dados dele de saírem contaminados com os de outra pessoa.
 
 ## O protocolo
 
@@ -51,7 +51,7 @@ Para **cada bloco da peça** (cada slide do carrossel, cada parágrafo da carta,
 | Passada | Pergunta | Falha quando |
 |---|---|---|
 | **0. Ancorado** | Passou na barreira de ancoragem acima E o ÂNGULO existe no acervo? | Aspa não-literal ou N inflado (ver a barreira acima). Ou o ângulo-mãe (a cena, a virada, o número central) tem N=0 no tema. Ou é rótulo abstrato inventado. **Exceção:** prova ou história DO AUTOR (caso próprio, número próprio real e falsificável) NÃO falha aqui mesmo sem verbatim de cliente. Dor do cliente precisa de verbatim literal; prova do autor precisa ser verdade verificável |
-| **0.5. Consciência (Schwartz)** | A peça declara o nível de consciência do leitor-alvo E a ABERTURA casa com ele? | Não declara o nível. Ou abre pela solução/oferta pro INCONSCIENTE (devia abrir pela CENA do problema). Ou abre pela promessa direta pro CONSCIENTE-DO-PROBLEMA (devia abrir pelo MECANISMO nomeado). Em nicho saturado (E4-E5, o caso do Léo), abrir por promessa gasta FALHA, abre por mecanismo + identidade |
+| **0.5. Consciência (Schwartz)** | A peça declara o nível de consciência do leitor-alvo E a ABERTURA casa com ele? | Não declara o nível. Ou abre pela solução/oferta pro INCONSCIENTE (devia abrir pela CENA do problema). Ou abre pela promessa direta pro CONSCIENTE-DO-PROBLEMA (devia abrir pelo MECANISMO nomeado). Em nicho saturado (E4-E5, o caso do perfil de exemplo), abrir por promessa gasta FALHA, abre por mecanismo + identidade |
 | **1. C, Confuso** | Dá pra entender numa lida, sem reler? | Exige reler, tem 2 ideias na frase, jargão solto, abstração que não vira imagem |
 | **2. U, Inacreditável** | Toda afirmação grande tem chão verificável do lado? | **Número órfão FALHA:** dono genérico ("meus clientes faturam 50k em 60 dias") ou número redondo sem ninguém atribuído cheira print de venda. **MAS caso próprio com DONO NOMINAL e número atribuído PASSA** ("a Joana ficou 14 meses comigo"), mesmo com o mecanismo resumido numa frase. Mecanismo abstrato aí vira NOTA de conserto (afia o COMO), não FALHA bloqueante. O corte: tem nome e é falsificável? passa. É genérico e redondo? reprova. Razão redonda retórica (metade, o dobro, 3x) sem dono nem verbatim também é órfã: abaixa pro qualitativo ("fechando mais que você") |
 | **3. B, Boring** | Avança a tensão e traz algo que ele nunca ouviu assim? | Repete o óbvio que ele já sabe, martela o problema, frase que ele já leu mil vezes |
@@ -69,7 +69,7 @@ E para **cada headline ou capa**, as 3 perguntas do Harry (gate extra, todas tê
 - **Inconsciente** (nem sabe que tem o problema): abre pela CENA ("a recepcionista diz 'semana que vem enche', faz três meses que ela diz isso"), nunca por "automatize seu consultório".
 - **Consciente do problema** (sente a dor, não conhece a saída): abre pelo MECANISMO nomeado ("o que prende teu caixa é Posicionamento, não esforço"), nunca por "fature mais".
 - **Consciente da solução / do produto** (já conhece o caminho): abre pela DIFERENÇA do teu mecanismo e pela PROVA, não pela existência dele.
-- **Mercado saturado (E4-E5, o nicho do Léo):** promessa direta soa igual a todo concorrente. Abre por mecanismo nomeado + identificação ("isso explica o que eu vivo"), nunca por promessa gasta. O default "mecanismo sempre" só vale aqui; pro leitor inconsciente ele mata a abertura.
+- **Mercado saturado (E4-E5, o nicho do perfil de exemplo):** promessa direta soa igual a todo concorrente. Abre por mecanismo nomeado + identificação ("isso explica o que eu vivo"), nunca por promessa gasta. O default "mecanismo sempre" só vale aqui; pro leitor inconsciente ele mata a abertura.
 
 **Passada 3-bis, Proprietário (headline, capa, CTA).** Teste de substituição-de-autor: troca o nome do cliente pelo do concorrente direto na frase. Se a frase sobrevive (o rival podia assinar igual), é genérica, NOTA de conserto. A frase de assinatura é a que SÓ sobrevive na boca DESTE cliente, porque carrega um bordão, uma cena-assinatura ou o mecanismo nomeado da Biblioteca de Assinatura (`soft-posicionamento/references/bloco-5-fundacao-headlines.md`, item 5). Aprofunda o "só eu posso dizer" do Harry: não basta não ser frase de guru, tem que ser inconfundivelmente do cliente.
 
@@ -84,7 +84,7 @@ O fim da peça quase sempre amolece. O gate trata o último bloco com o mesmo ri
 
 Duas passadas a mais no CTA, que o gate não rodava:
 - **Combustível (antes do comando).** Existe UMA linha de tensão de identidade ou micro-promessa concreta do que o clique destrava, logo antes do CTA? CTA que vem só de concordância intelectual ("faz sentido né? então comenta") FALHA por ponte-fraca, mesmo com destino real. O leitor concorda e segue rolando.
-- **Coerência CTA × pilar.** O mecanismo do CTA contradiz o pilar declarado da peça? Pilar "filtro contra volume / a conta de poucos" não fecha em mecânica que infla volume de DM. Quando o pilar é filtro, o CTA pede auto-qualificação ("comenta X + há quanto tempo você..."), não engajamento de massa. O fim não trai o começo.
+- **Coerência CTA × pilar.** O mecanismo do CTA contradiz o pilar declarado da peça? Um pilar de filtro/seleção (ex.: "qualidade contra volume") não fecha em mecânica que infla volume de DM. Quando o pilar é filtro, o CTA pede auto-qualificação ("comenta X + há quanto tempo você..."), não engajamento de massa. O fim não trai o começo.
 
 As regras abaixo valem dentro do tipo certo:
 - **CTA AUSENTE reprova** (no feed/anúncio). Toda peça tem a Ação do ADMA, com um próximo passo claro e real (o mecanismo do funil do cliente: comenta uma palavra → puxa no direct, link → carta ou isca, manda no direct, cadastra numa página). Peça que termina só na consequência, sem dizer o que fazer, FALHA. A Ação não é opcional. Anúncio sem CTA é falha grave (é tráfego pago).

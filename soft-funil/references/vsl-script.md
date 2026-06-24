@@ -83,7 +83,7 @@ Diferença do VSL genérico:
 
 | Currículo | Procedência |
 |---|---|
-| "Tenho 10 anos de experiência em marketing" | "Passei 2 anos gerenciando R$13M em vendas com equipe de 5, sem postar nada. Quando saí e precisei construir sozinho, entendi por que a maioria dos sistemas não escalam." |
+| "Tenho 10 anos de experiência em marketing" | "Passei 2 anos atendendo 300 pacientes por mês com uma equipe de 5, sem postar nada. Quando saí e precisei construir sozinho, entendi por que a maioria dos sistemas não escalam." *(exemplo ilustrativo)* |
 | "Já atendi 200 clientes" | "O primeiro método que criei funcionou. Só que exigia 6h/dia de operação. Aí entendi que tinha construído um emprego, não um negócio." |
 
 **Formato:** 1–2 minutos. História cênica, não biografia. O momento específico que gerou o insight que virou o método.

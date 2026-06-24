@@ -45,7 +45,7 @@ Tese (o mecanismo): **C + Im = In** (Complexidade + Improviso = Invisibilidade).
 - doc2, "SOFT BUSINESS v12. Manual Completo" (a espinha)
 - doc3, "Reels que Funcionam" (engenharia de reels, dissolvida nos caps 5 e 7)
 
-## Pendências de costura (decisão do Léo)
-- **Tabela de preços/ofertas oficial**, manual (doc2) e skill `soft-posicionamento-leo-molina` divergem; guia segue doc2 por ora, fixar no passo da imersão.
+## Pendências de costura (decisão do autor do método)
+- **Tabela de preços/ofertas oficial**, manual (doc2) e a skill de posicionamento divergem; guia segue doc2 por ora, fixar no passo da imersão.
 - **Papel do doc1**, material da imersão ou fonte de tom (default atual: tom).
 - **Nomenclatura de fases** guia↔skills, alinhar no passo 2 (skills seguem o guia v12).

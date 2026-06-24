@@ -10,7 +10,7 @@ Gera contrato de prestação de serviço de consultoria/mentoria pronto pra assi
 Quando aplicar: **por padrão, em todo pedido**, salvo quando o usuário explicitamente pedir versão robusta ou o caso indicar necessidade clara de blindagem reforçada.
 
 Características:
-- **11 cláusulas** (modelo validado em vendas reais do Léo)
+- **11 cláusulas** (modelo validado em vendas reais)
 - Linguagem direta, sem juridiquês excessivo
 - Tom flexível em pagamento, sem multa, sem juros, sem suspensão automática agressiva. Cláusula de atraso prevê **conversa primeiro, pausa só se sumir**.
 - Sem citações ao CDC, LGPD, Código Civil no corpo do contrato

@@ -275,7 +275,7 @@ O Plano de Guerra **não recalcula** Posicionamento. Assume que ou já existe (F
 
 ❌ **Não inventa benchmark.** Toda taxa tem origem rastreável: Insights nativos do Instagram, WhatsApp Business, ou agregado de operações Soft. Se não tem dado, não vira benchmark.
 
-❌ **Não cita guru ou método de terceiro pelo nome.** Plano é Soft. Engenharia é do Léo.
+❌ **Não cita guru ou método de terceiro pelo nome.** Plano é Soft. Engenharia é do autor do método.
 
 ❌ **Não vira fórmula rígida.** Cliente que diz "quero seguir cego pelos próximos 6 meses sem olhar real" tá errado. O LEON avisa: *"O benchmark é o ponto de partida. Real é a chegada. Sem recalibragem, plano morre em M2."*
 

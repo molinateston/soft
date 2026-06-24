@@ -62,7 +62,7 @@ Pra onde ela está levando o leitor. Não promessa de produto. Mundo desejado. O
 - 1 detalhe sensorial
 - 1 conexão direta com o trabalho atual
 
-### Exemplo (genérico, não-Léo)
+### Exemplo (genérico, ilustrativo)
 > "Trabalhei 12 anos em consultoria de processos pra indústria pesada. Cliente médio: R$200M de faturamento. Em uma dessas auditorias, descobri que a empresa perdia 7% da receita por gargalo administrativo invisível. Hoje, na consultoria pra negócios menores, vejo o mesmo padrão em escala micro."
 
 ### Sinais de origem mal contada

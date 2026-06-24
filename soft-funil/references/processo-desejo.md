@@ -45,7 +45,7 @@ A **Carta** ou o **Vídeo** completo, nos 4 blocos do Cap 4. O *o que é* de cad
 ## Processo (6 etapas sequenciais, cada uma espera resposta)
 
 ### 1. Pré-requisitos e formato
-Confirma que **Plano de Marca Pessoal** (Cap 2) e **Identidade de Voz** (Cap 3) estão empacados, sem persona-âncora e voz, a peça sai genérica. Se o cliente tem voz destilada própria (ex.: `soft-voz-leo-molina`), **lê esta reference antes de escrever**: é a fonte do tom. Em seguida define o formato pela tabela do Cap 4.3 (escrita vs fala · ticket). Não avança sem isso.
+Confirma que **Plano de Marca Pessoal** (Cap 2) e **Identidade de Voz** (Cap 3) estão empacados, sem persona-âncora e voz, a peça sai genérica. Se o cliente tem voz destilada própria (ex.: uma skill de voz específica do especialista), **lê esta reference antes de escrever**: é a fonte do tom. Em seguida define o formato pela tabela do Cap 4.3 (escrita vs fala · ticket). Não avança sem isso.
 
 ### 2. Briefing (num bloco só)
 Se vier do **LEON** ou do Plano com os dados estruturados, confirma em 1 linha e pula pra etapa 3. Senão, coleta de uma vez: **(a)** cliente ideal específico / persona-âncora, **(b)** Problema Avançado nomeado, **(c)** soluções comuns que ele já tentou + o efeito colateral, **(d)** mecanismo nomeado e suas etapas, **(e)** 1–3 cases reais (nome + número), **(f)** a oferta e o ticket (o ticket decide se o preço entra na peça ou não). Sem (a)(b)(d)(f), não avança.

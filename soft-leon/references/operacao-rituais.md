@@ -531,8 +531,8 @@ ROI estimado: 5-10x.
 ## Notas operacionais
 
 - **Skill puxa essa reference em qualquer assunto de operação/rituais.**
-- **Para Léo escalando Soft Business**: ainda na Fase 1-2 transição. Primeira coisa a instalar quando tiver primeiro funcionário: 1:1 semanal.
-- **Para cliente do Léo**: geralmente está montando staff meeting + ops review. Skill ajuda na cadência inicial.
+- **Para o autor do método escalando o negócio**: ainda na Fase 1-2 transição. Primeira coisa a instalar quando tiver primeiro funcionário: 1:1 semanal.
+- **Para o especialista cliente do método**: geralmente está montando staff meeting + ops review. Skill ajuda na cadência inicial.
 - **Para empresário genérico**: depende da fase, skill pergunta antes de prescrever.
 - **Resistência cultural a rituais**: alguns CEOs/sócios resistem ("a gente é informal"). Skill aceita inicialmente mas alerta, empresa Fase 2+ sem rituais estagna previsivelmente em R$3-5MM.
 - **Rituais ≠ burocracia.** Rituais bem feitos LIBERAM tempo, não consomem. Burocracia = ritual sem decisão. Ritual = decisão estruturada.

@@ -178,7 +178,7 @@ Confiança, tecnologia, distância profissional. Cor mais usada no mundo corpora
 Energia, alerta, otimismo. Difícil de ler sobre branco (precisa de fundo escuro).
 
 ### Laranja
-Energia controlada, ação. Forte em CTAs. D4541C é o tom do Léo (queimado).
+Energia controlada, ação. Forte em CTAs. D4541C é um vermelho queimado (tom de exemplo).
 
 ### Preto e Branco
 Contraste máximo, elegância, autoridade. Padrão Soft.

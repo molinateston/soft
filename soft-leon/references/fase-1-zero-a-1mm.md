@@ -252,7 +252,7 @@ Empresa = sistema que gera cliente sem você. Profissão = você é o sistema.
 
 | Padrão | Como funciona | Quando usar |
 |--------|---------------|-------------|
-| **Inbound orgânico** | Conteúdo → audiência → lead inbound | Cliente do Léo, especialista que tem expertise pra ensinar |
+| **Inbound orgânico** | Conteúdo → audiência → lead inbound | Especialista cliente do método, que tem expertise pra ensinar |
 | **Outbound pago** | Tráfego pago → landing → lead outbound | Cliente B2B, ticket alto, ICP claro, cliente conhece a dor |
 | **Indicação estruturada** | Cliente atual indica → nova venda | Pós-venda excelente, NPS alto, cliente B2B com rede |
 
@@ -443,4 +443,4 @@ Quando esses 10 marcos estão batidos → cliente sai da Fase 1.
 - **Fase 1 não é "trabalho duro", é "trabalho certo".** 80% trabalho duro + 20% trabalho certo = falência. 80% certo + 20% duro = vence.
 - **Clientes pagantes > usuários gratuitos.** Free tier nessa fase é distração. 10 clientes pagando R$500/mês > 1.000 usando grátis.
 - **Sócios na Fase 1**: cuidado com diluição. Vesting de 4 anos com cliff de 1 ano é padrão. Ninguém ganha 30% no primeiro mês, todo mundo conquista por tempo+performance.
-- **Produto digital de conhecimento (caso Léo)**: a Fase 1 do Soft Business é literalmente as primeiras 10 mentorias fechadas pelo Léo. Quando estabilizou em R$30-50k/mês recorrente, saiu da Fase 1.
+- **Produto digital de conhecimento (caso do autor do método)**: a Fase 1 do Soft Business é literalmente as primeiras 10 mentorias fechadas pelo autor do método. Quando estabilizou em R$30-50k/mês recorrente, saiu da Fase 1.

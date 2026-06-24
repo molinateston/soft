@@ -4,6 +4,12 @@ Os 12 padrões universais que sempre cheiram a IA. Aplicar em qualquer texto.
 
 ---
 
+## Norte: clareza radical (vale pra TODA copy, vem antes de tudo)
+
+Antes de cortar o que cheira a IA, garante o positivo: cada frase **simples, clara, curta, não rasa**, que **forma a imagem mental certa** e **traz significado**. Diz **mais com menos palavras**. **Específico > abstrato** (a cena, o número, o objeto concreto vencem o conceito). Se o leitor precisa gastar energia mental pra entender, reescreve. Copy que exige esforço pra decodificar já falhou, mesmo sem nenhum padrão banido abaixo. Abstração é o inimigo: troca o conceito pela coisa concreta.
+
+---
+
 ## Índice
 
 - 1. Em dashes "—"

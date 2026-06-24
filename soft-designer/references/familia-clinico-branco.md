@@ -183,7 +183,7 @@ Não decore as variações abaixo como receita. Use como repertório. Combine. I
 - Frase em 56-72px / weight 700 / TEXT, logo abaixo das aspas (margem-top: -40px pra encostar nas aspas)
 - Atribuição em 22px / weight 500 / TEXT_MUTED, abaixo da frase, margem-top: 40px
 - Tudo dentro do mesmo bloco centrado, `text-align: left`
-- **Quando usar:** o hook é literalmente uma fala, do Léo, de cliente, ou pensamento intrusivo do leitor.
+- **Quando usar:** o hook é literalmente uma fala, do especialista, de cliente, ou pensamento intrusivo do leitor.
 
 #### Variação 6, Tag forte de provocação
 - Bloco interno: `max-width: 880px`

@@ -624,8 +624,8 @@ Após cada crise, CEO faz:
 
 - **Skill puxa essa reference em qualquer crise ou questão pessoal.** Reconhece os sinais nas mensagens do cliente.
 - **Skill recomenda terapeuta explicitamente** quando vê sinais de saúde mental afetada. Não substitui profissional.
-- **Para Léo escalando Soft Business**: questões de solidão e descarga emocional são frequentes em fundadores solo. Skill alerta antes da crise estourar.
-- **Para cliente do Léo (especialista escalando)**: Crise 3 (time fragiliza) é mais comum nessa fase. Skill ajuda a estruturar resposta.
+- **Para o autor do método escalando o negócio**: questões de solidão e descarga emocional são frequentes em fundadores solo. Skill alerta antes da crise estourar.
+- **Para o especialista cliente do método (escalando)**: Crise 3 (time fragiliza) é mais comum nessa fase. Skill ajuda a estruturar resposta.
 - **Para empresário genérico**: depende do tipo de crise, skill diagnostica antes de prescrever.
 - **Skill não banaliza crise.** Cliente em crise real merece tratamento sério. Tom muda, menos clínico, mais humano. Sem motivacional vazio, mas com presença.
 - **Suicídio / pensamentos de auto-extermínio**: skill **imediatamente** redireciona pra CVV (188) ou profissional de saúde mental. Não trata. Não orienta. Apenas redireciona com cuidado.

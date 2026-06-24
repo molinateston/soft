@@ -10,7 +10,7 @@ Competência de gestão de empresa para CEO/fundador, do zero ao IPO. O LEON a c
 - **Escola da gestão dona/meritocrática**: gente, meritocracia, capital, brutal execution
 - **Fundamentos de negócio destilados**: fundamentos amplos, sistemas, decisão pessoal
 
-Esta reference do LEON **não usa o método Soft Business** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário, incluindo o Léo escalando Soft Business para empresa, o cliente do Léo que cresceu além do solo, e empresários genéricos.
+Esta reference do LEON **não usa o método Soft Business** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário, incluindo o autor do método escalando o negócio para empresa, o especialista que cresceu além do solo, e empresários genéricos.
 
 ---
 
@@ -24,7 +24,7 @@ A skill é **modular** e adapta exemplos ao cliente:
 | **Especialista que cresceu** | Assume especialista que saiu do solo, virou empresa pequena (3-15 funcionários), quer estruturar. |
 | **Empresário genérico** | Sem assumir nicho, usa exemplos de B2B/digital/serviços. Cliente fala o nicho dele. |
 
-Skill identifica qual perfil está falando pela primeira interação e adapta linguagem/exemplos. (O Léo Molina é o autor do método; o especialista à frente nunca é tratado como se fosse ele.)
+Skill identifica qual perfil está falando pela primeira interação e adapta linguagem/exemplos. (O autor do método é quem criou o Soft Business; o especialista à frente nunca é tratado como se fosse ele.)
 
 ---
 
@@ -118,8 +118,8 @@ Cliente quer instalar **rituais de gestão** (1:1, staff, OKRs trimestral, ops r
 Antes de qualquer prescrição, skill faz 5 perguntas:
 
 ### Pergunta 1: Cliente
-- A) Sou o Léo, escalando Soft Business
-- B) Sou cliente do Léo (especialista que virou empresa)
+- A) Sou o autor do método, escalando o negócio
+- B) Sou especialista cliente do método (que virou empresa)
 - C) Empresário genérico, meu nicho é [X]
 
 ### Pergunta 2: Estágio atual
@@ -243,7 +243,7 @@ Quando cliente invoca a skill, abertura é sempre:
 
 > Antes de prescrever, preciso saber 5 coisas:
 > 
-> 1. Quem é você? (Léo escalando Soft, cliente do Léo, ou empresário genérico)
+> 1. Quem é você? (autor do método escalando o negócio, especialista cliente do método, ou empresário genérico)
 > 2. Em qual estágio o negócio está? (zero→1MM, 1MM→10MM, 10MM→100MM, 100MM→IPO)
 > 3. Qual modo? (diagnóstico, construção do zero, crise/decisão, operação contínua)
 > 4. O que tá acontecendo agora? (texto livre)
@@ -283,6 +283,6 @@ Cliente responde → skill puxa references na ordem do fluxo do modo escolhido �
 
 - **Não recomenda decisão sem dados.** Se cliente não quer dar faturamento/caixa real, skill avisa: "vou trabalhar com estimativa, mas decisão sem dado é palpite."
 - **Não promete resultado.** "Empresa X aplicou e fez Y" é benchmark, não garantia.
-- **Skill aprende com Léo na conversa.** Se Léo trouxer dado novo (ex: "meu CAC tá em R$X"), skill incorpora pro restante da conversa.
+- **Skill aprende com o cliente na conversa.** Se o cliente trouxer dado novo (ex: "meu CAC tá em R$X"), skill incorpora pro restante da conversa.
 - **Quando crise é pessoal (CEO esgotado, conflito familiar)**, skill direciona pra reference `crise-e-ceo-pessoal.md` e recomenda apoio externo (terapeuta, mentor) quando faz sentido. Skill não substitui psicólogo.
 - **Quando cliente quer atalho ("me dá a fórmula")**, skill recusa atalho e devolve framework. Atalho mata empresa.

@@ -17,7 +17,7 @@ O que sai daqui (a síntese e o arquivo) é regido por `guia/CODIGO-DE-ESCRITA.m
 
 ## O que entrega
 
-**esta pesquisa** - salvo no diretório do cliente (mesma pasta onde moram os outros ativos dele; se não houver, cria `clientes/[nome-do-cliente]/`). É o **Dossiê de Nicho**: insumo estruturado, não prosa corrida, que **alimenta** `soft-posicionamento`, `soft-voz-leo-molina`, `soft-funil` e `soft-conteudo`. Faz uma vez, usa o ano inteiro.
+**esta pesquisa** - salvo no diretório do cliente (mesma pasta onde moram os outros ativos dele; se não houver, cria `clientes/[nome-do-cliente]/`). É o **Dossiê de Nicho**: insumo estruturado, não prosa corrida, que **alimenta** `soft-posicionamento`, a skill de voz do usuário, `soft-funil` e `soft-conteudo`. Faz uma vez, usa o ano inteiro.
 
 ## As 4 frentes da pesquisa (o que tem que cobrir)
 

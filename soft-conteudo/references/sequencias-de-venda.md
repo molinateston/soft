@@ -186,7 +186,7 @@ Sáb  | Story Único Remarketing (7 stories)
 - **Print de interação é prova social em tempo real.** Mostra respostas que chegaram na hora.
 
 ### Produção
-- **Elemento visual por tipo de story** (do vídeo do Léo):
+- **Elemento visual por tipo de story** (de um vídeo de referência):
   - Story de curiosidade → topografia clara, design clean
   - Story de prova → imagem da transformação / print
   - Story de método → elemento visual de ciência/autoridade

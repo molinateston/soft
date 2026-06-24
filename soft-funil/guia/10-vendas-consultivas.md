@@ -196,7 +196,7 @@ O tom permanece **clínico**: revela pra que o lead se reconheça e decida, fica
 
 A espinha das 7 fases vira conversa aqui. São as falas prontas, no tom certo. Você ajusta ao lead, mas a ordem das 7 fases é fixa. A skill de vendas gera as variações por nicho e canal a partir deste modelo.
 
-> Os valores que aparecem nas falas a seguir (R$5.000, 12x R$500, R$3.000 + R$2.000, Soft Start R$497–997 etc.) são **exemplo do caso Léo**, ilustram o formato do script. Cada especialista substitui pelos próprios preços (definidos pela Equação de Valor + Mapa de Valor no Cap. 2). O que importa aqui é a *estrutura da fala*, não o número.
+> Os valores que aparecem nas falas a seguir (R$5.000, 12x R$500, R$3.000 + R$2.000, Soft Start R$497–997 etc.) são **exemplo ilustrativo**, ilustram o formato do script. Cada especialista substitui pelos próprios preços (definidos pela Equação de Valor + Mapa de Valor no Cap. 2). O que importa aqui é a *estrutura da fala*, não o número.
 
 ### Fase 1 · Recuo
 
@@ -409,7 +409,7 @@ A oferta é uma só. O que muda é **quanto de você entra**. No fechamento, a o
 - **Secundária: Soft Start (R$497 a 997, exemplo).** Só entra como alternativa quando ele recusou a Implementação e a condicional. Ele faz sozinho.
 - **Topo: Consultoria (variável ou parceria).** Não se oferece no fluxo normal. Só pra lead já qualificado, com método validado e faturamento existente, que pede mais. Você entra no resultado dele.
 
-*(Os valores acima são exemplo do caso Léo; o que é método é a ordem do meio pra fora e a regra de não apresentar como cardápio.)*
+*(Os valores acima são exemplo ilustrativo; o que é método é a ordem do meio pra fora e a regra de não apresentar como cardápio.)*
 
 **Nunca apresenta os três como um cardápio.** Isso vira esteira e confunde. Um por vez, conforme a conversa pedir.
 

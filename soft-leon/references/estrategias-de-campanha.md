@@ -6,7 +6,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence**, revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada, reescreve como ele falaria no zap.
 
-**Extensível:** o cliente (e o Léo) adicionam jogadas aqui ao longo do tempo. Toda jogada nova entra no mesmo formato: *o que é · quem pode rodar · resultado esperado · como funciona · onde encaixa no mês · qual mãe executa · ajuste Soft*.
+**Extensível:** o cliente (e o autor do método) adicionam jogadas aqui ao longo do tempo. Toda jogada nova entra no mesmo formato: *o que é · quem pode rodar · resultado esperado · como funciona · onde encaixa no mês · qual mãe executa · ajuste Soft*.
 
 ---
 

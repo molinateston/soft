@@ -499,7 +499,7 @@ CEO carrega:
 
 - **A skill puxa essa reference em qualquer assunto de pessoas.** Contratação, demissão, performance, conflito, sucessão, tudo passa por aqui.
 - **Tom direto sem ser cruel.** A gestão dona é brutal mas justa; a escola das empresas que duram é rigorosa mas humanista. Skill combina os dois.
-- **Para Léo escalando Soft Business:** primeira contratação ainda está em horizonte de 6-18 meses. Bloco 1 (Hiring) é mais relevante agora.
-- **Para cliente do Léo (especialista que cresceu):** geralmente está montando primeira camada de liderança, Bloco 2 (Primeiro quem) + Bloco 4 (1:1) + Bloco 6 (compensação) são os mais relevantes.
+- **Para o autor do método escalando o negócio:** primeira contratação ainda está em horizonte de 6-18 meses. Bloco 1 (Hiring) é mais relevante agora.
+- **Para o especialista cliente do método (que cresceu):** geralmente está montando primeira camada de liderança, Bloco 2 (Primeiro quem) + Bloco 4 (1:1) + Bloco 6 (compensação) são os mais relevantes.
 - **Para empresário genérico:** depende da fase, skill puxa do conjunto conforme contexto.
 - **Família/amigos no time é tema sensível.** Brasil tem cultura de confiança via vínculo pessoal. Skill alerta sem moralizar: contratação por vínculo sem critério profissional **rotineiramente termina mal**, perde o funcionário e o vínculo.

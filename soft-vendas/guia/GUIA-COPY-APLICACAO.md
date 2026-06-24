@@ -139,16 +139,16 @@ Se não vira imagem na cabeça, é abstrata. E o abstrato evapora.
 Frase que não é verdadeira-ou-falsa é enchimento. Não diga o adjetivo, aponte o fato.
 
 > ❌ "Somos referência no mercado." *(não se prova)*
-> ✅ "R$46 milhões gerados em dez anos." *(se prova ou se desmente)*
+> ✅ "Lotei a agenda de 8 dentistas em 90 dias." *(se prova ou se desmente)*
 
 > ❌ "Tenho um método validado."
-> ✅ "Montei uma agência de 35 pessoas e troquei por uma IA, mesma receita."
+> ✅ "Enchi minha clínica e troquei a recepcionista por um sistema, mesma receita."
 
 **Pergunta 3. Só você poderia dizer isso?**
 Se o concorrente assina a mesma frase, ela não diferencia.
 
 > ❌ "Ajudo você a crescer." *(qualquer um assina)*
-> ✅ "Monto com você o que montei pra mim, com uma IA no lugar de 35 pessoas." *(só você)*
+> ✅ "Monto com você o mesmo protocolo que usei pra encher minha clínica." *(só você)*
 
 > ❌ "Transformo a vida dos meus clientes."
 > ✅ "Pego especialista que fatura R$20k instável e deixo previsível, sem ele virar creator."
@@ -187,7 +187,7 @@ Palavra que ninguém usa numa conversa real não entra. As principais:
 - **jornada** → caminho, processo, o que você viveu
 - **potencializar** → aumentar, fortalecer, fazer render mais
 - **mindset** → cabeça, jeito de pensar
-- **destravar / travar / travado** → soltar, sair do lugar, desempacar *(banido em dobro, o Léo nunca usa "travar"; pra cliente parado, use empacado, emperrado)*
+- **destravar / travar / travado** → soltar, sair do lugar, desempacar *(banido em dobro; pra cliente parado, use empacado, emperrado)*
 - **alinhamento, sinergia, holístico, disruptivo, escalar (no sentido vago)** → corta ou troca pelo que a coisa é de verdade
 
 A regra por trás da lista: **se você não falaria a palavra num boteco explicando seu trabalho pra um amigo, ela não entra na copy.** A lista cresce, toda vez que você flagrar uma palavra "de LinkedIn" saindo da sua mão, adiciona.
@@ -232,7 +232,7 @@ Lê de novo, agora como o cara mais desconfiado do mundo, e pergunta:
 - **Eu acreditaria nisso se um estranho me dissesse?** Se não, falta prova.
 
 > ❌ *Inacreditável:* "Você vai virar a maior referência do seu nicho e faturar muito mais."
-> ✅ *Crível:* "Dá pra sair de R$20k instável pra previsível, foi o que aconteceu quando troquei 35 pessoas por uma IA e mantive a receita."
+> ✅ *Crível:* "Dá pra sair de R$20k instável pra previsível, foi o que aconteceu quando organizei a agenda e mantive a mesma equipe."
 
 A diferença não é a promessa ser menor. É ter chão embaixo.
 

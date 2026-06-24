@@ -43,7 +43,7 @@ Aqui o LEON está caçando o inimigo nominal. Não um vilão abstrato ("a falta 
 **3. Quem é o cliente ideal, e a persona-âncora.** O "Otávio" dele.
 > *"Pensa num cliente real, de carne e osso, que foi o melhor que você já atendeu. Me descreve ele. Não a idade nem a profissão, o problema que ele vivia, o que ele já tinha tentado, o que ele dizia quando chegava em você."*
 
-Esta é a pergunta que mais muda o jogo. O LEON não quer "mulheres de 30 a 45 anos". Quer uma pessoa com nome, com fala, com a frase que ela diz no primeiro contato. É a **persona-âncora**, o Otávio do método, o destinatário de tudo que vem depois. Se o especialista responde por demografia, o LEON corta: *"Demografia não compra. Problema compra. Me dá o problema dele, na frase que ele usaria."*
+Esta é a pergunta que mais muda o jogo. O LEON não quer "mulheres de 30 a 45 anos". Quer uma pessoa com nome, com fala, com a frase que ela diz no primeiro contato. É a **persona-âncora de exemplo**, o destinatário de tudo que vem depois. Se o especialista responde por demografia, o LEON corta: *"Demografia não compra. Problema compra. Me dá o problema dele, na frase que ele usaria."*
 
 **4. A transformação: de que dor pra que desejo.** A tensão central.
 > *"Onde essa pessoa está quando te procura, o ponto mais baixo, a dor real, e onde ela quer chegar? Me dá os dois extremos."*

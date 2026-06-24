@@ -4,6 +4,8 @@ Exemplos lado a lado pra treinar a percepção.
 
 Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 
+> **Nicho e números são FICTÍCIOS, só ilustram a FORMA.** Os exemplos "autorais" usam um nicho neutro (odontologia/reabilitação oral) de propósito: você aprende o padrão de reescrita, nunca copia o conteúdo. No material real, ancore sempre nos dados verdadeiros do cliente à frente (ver `filtro-cliente-primeiro.md`).
+
 ---
 
 ## Índice
@@ -27,7 +29,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 1 - Abertura de carta de vendas
 
 ### Versão IA
-> "Imagine só ter um sistema completo, simples e eficiente que transforma seu negócio digitalmente, trazendo clareza, resultados e a verdadeira liberdade que você sempre sonhou. Esse é o poder do método que vou te apresentar — um método revolucionário que vai destravar todo o seu potencial."
+> "Imagine só ter um sistema completo, simples e eficiente que transforma seu consultório, trazendo clareza, resultados e a verdadeira liberdade que você sempre sonhou. Esse é o poder do método que vou te apresentar — um método revolucionário que vai destravar todo o seu potencial."
 
 ### Diagnóstico
 - "Imagine só" (abertura banida)
@@ -42,34 +44,33 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "destravar todo o seu potencial" (verbo IA + abstração)
 
 ### Versão autoral
-> "Negócio Simples. Sistema mínimo. Sem improviso, sem complexidade. É isso que o método resolve."
+> "Consultório cheio, margem apertada. O problema não é volume de paciente. É o que você aceita por convênio."
 
 ### Por que funciona
-- 4 frases curtas em vez de 1 longa
+- 3 frases curtas em vez de 1 longa
 - Zero adjetivo decorativo
 - Zero verbo de transformação genérico
-- Mensagem central preservada
-- 75% menor
+- Nomeia o conflito real do nicho
+- 70% menor
 
 ---
 
 ## Exemplo 2 - Apresentação pessoal (página "Sobre")
 
 ### Versão IA
-> "Sou um especialista apaixonado em ajudar empreendedores a destravarem seu potencial máximo. Ao longo dos meus anos de experiência, descobri que a verdadeira chave do sucesso está em sistemas simples e poderosos. Minha missão é trazer clareza e direção pra você que busca transformar sua vida profissional."
+> "Sou uma especialista apaixonada em ajudar pacientes a destravarem seu potencial máximo de saúde. Ao longo dos meus anos de experiência, descobri que a verdadeira chave do sucesso está em protocolos simples e poderosos. Minha missão é trazer clareza e direção pra você."
 
 ### Diagnóstico
-- "especialista apaixonado" (adjetivo IA)
+- "especialista apaixonada" (adjetivo IA)
 - "destravarem seu potencial máximo" (verbo IA + abstração + adjetivo redundante)
 - "anos de experiência" (vago)
 - "descobri que a verdadeira chave" (frase-emoldura + adjetivo IA)
 - "simples e poderosos" (adjetivo duplo)
 - "minha missão" (cringe)
 - "trazer clareza e direção" (substantivos abstratos)
-- "transformar sua vida profissional" (verbo IA + abstração)
 
 ### Versão autoral
-> "Léo Molina. 10 anos no bastidor digital brasileiro. Operei 150+ lançamentos. R$40M em projetos de clientes. Hoje opero sozinho. Com IA."
+> "Dra. Marina Couto. 12 anos em reabilitação oral. Mais de 400 casos de prótese sobre implante. Hoje só pego caso complexo." *(exemplo fictício)*
 
 ### Por que funciona
 - Fato concreto, número específico
@@ -83,11 +84,11 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 3 - Caption de carrossel
 
 ### Versão IA
-> "Você está pronto pra dar o próximo passo na sua jornada de empreendedor? Hoje vou compartilhar com você os 3 segredos que vão revolucionar a forma como você opera seu negócio. Esses insights são exatamente o que você precisa pra alcançar o próximo nível!"
+> "Você está pronto pra dar o próximo passo na sua jornada de dentista de sucesso? Hoje vou compartilhar com você os 3 segredos que vão revolucionar a forma como você opera sua clínica. Esses insights são exatamente o que você precisa pra alcançar o próximo nível!"
 
 ### Diagnóstico
 - "Você está pronto pra dar o próximo passo" (cringe)
-- "jornada de empreendedor" (substantivo abstrato genérico)
+- "jornada de dentista de sucesso" (substantivo abstrato genérico)
 - "Hoje vou compartilhar com você" (vazio)
 - "3 segredos" (frase-emoldura)
 - "revolucionar a forma" (verbo IA)
@@ -96,7 +97,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "próximo nível" (cringe)
 
 ### Versão autoral
-> "3 erros que emperram profissional liberal no Instagram. Comuns. Difíceis de ver de dentro. Importantes de corrigir."
+> "3 erros que esvaziam a agenda de um dentista. Comuns. Difíceis de ver de dentro. Caros de manter."
 
 ### Por que funciona
 - Direto no benefício específico
@@ -109,22 +110,22 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 4 - Diagnóstico no início do funil
 
 ### Versão IA
-> "Você se sente perdido na sua jornada empreendedora? Está enfrentando dificuldades pra alcançar os resultados que tanto deseja? Saiba que você não está sozinho! Milhares de empreendedores enfrentam exatamente esse desafio diariamente."
+> "Você se sente perdido na sua jornada como dentista? Está enfrentando dificuldades pra alcançar os resultados que tanto deseja? Saiba que você não está sozinho! Milhares de profissionais enfrentam exatamente esse desafio diariamente."
 
 ### Diagnóstico
 - "Você se sente perdido" (genérico)
-- "jornada empreendedora" (abstração)
+- "jornada como dentista" (abstração)
 - "Está enfrentando dificuldades" (verbo passivo)
 - "resultados que tanto deseja" (cringe)
 - "Saiba que você não está sozinho!" (cringe + exclamação coach)
-- "Milhares de empreendedores" (vago)
+- "Milhares de profissionais" (vago)
 - "exatamente esse desafio diariamente" (encheção)
 
 ### Versão autoral
-> "Você fatura R$15k-R$60k por mês. Indicação enche sua agenda. Você sabe que isso é teto. Quando alguém para de indicar por 30 dias, o caixa aperta."
+> "Você atende 40 pacientes por semana e fecha o mês no aperto. Quanto mais convênio você pega, mais você corre e menos sobra."
 
 ### Por que funciona
-- Fala com 1 pessoa específica (a persona-âncora)
+- Fala com 1 pessoa específica
 - Fato concreto, situação reconhecível
 - Sem dramatização
 - Sem "você não está sozinho" (que é frase de Instagram)
@@ -134,11 +135,11 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 5 - CTA de venda
 
 ### Versão IA
-> "Aproveite essa oportunidade única e transforme seu negócio agora! Não deixe pra amanhã o sucesso que você merece ter hoje. Inscreva-se já e dê o salto definitivo na sua carreira!"
+> "Aproveite essa oportunidade única e transforme sua clínica agora! Não deixe pra amanhã o sucesso que você merece ter hoje. Inscreva-se já e dê o salto definitivo na sua carreira!"
 
 ### Diagnóstico
 - "oportunidade única" (banido)
-- "transforme seu negócio agora" (verbo IA + urgência fake)
+- "transforme sua clínica agora" (verbo IA + urgência fake)
 - "Não deixe pra amanhã" (cringe)
 - "sucesso que você merece" (banido)
 - "Inscreva-se já" (urgência fake)
@@ -146,7 +147,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - 3 exclamações
 
 ### Versão autoral
-> "Sua vaga: leonardomolina.com.br/imersao"
+> "Sua avaliação: [link de agendamento do cliente]"
 
 ### Por que funciona
 - Direto
@@ -170,12 +171,12 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "Vamos juntos nessa jornada" (cringe)
 
 ### Versão autoral
-> "9h. Café tomado. Claude rodando. 4 carrosséis pra escrever antes do almoço."
+> "7h. Café tomado. Primeiro caso de implante às 8h. 3 reabilitações na agenda de hoje."
 
 ### Por que funciona
 - Fato concreto
 - Mostra rotina sem dramatizar
-- Mostra ferramenta (Claude) sem cinema
+- Mostra o trabalho real sem cinema
 - Estabelece ritmo de operação
 
 ---
@@ -183,11 +184,11 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 7 - Reflexão de tese
 
 ### Versão IA
-> "É fundamental entendermos que o cenário do marketing digital passa por transformações profundas e que aqueles que não se adaptarem rapidamente correm o risco de ficarem pra trás. A realidade é que precisamos repensar nossas estratégias e abraçar a inovação."
+> "É fundamental entendermos que o cenário da odontologia passa por transformações profundas e que aqueles que não se adaptarem rapidamente correm o risco de ficarem pra trás. A realidade é que precisamos repensar nossas estratégias e abraçar a inovação."
 
 ### Diagnóstico
 - "É fundamental entendermos" (frase-emoldura)
-- "cenário do marketing digital" (frase de palestra)
+- "cenário da odontologia" (frase de palestra)
 - "transformações profundas" (verbo IA virou substantivo)
 - "aqueles que não se adaptarem" (frase de coach)
 - "A realidade é que" (frase-emoldura)
@@ -195,12 +196,12 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "abraçar a inovação" (cringe)
 
 ### Versão autoral
-> "Marketing digital mudou. Quem opera com modelo de 2018 paga caro em 2026. Equipe inflada não escala. Lançamento como religião não sustenta. Quem não vê isso ainda vai ver - na conta bancária."
+> "Odontologia mudou. Quem ainda vive de convênio em 2026 trabalha o dobro pela metade. Volume não é margem. Caso complexo bem feito sustenta a clínica. Quem não vê isso ainda vai ver, na conta do mês."
 
 ### Por que funciona
 - Tese declarada com peso
 - Provocação calma
-- Fato concreto (2018 vs 2026)
+- Fato concreto (modelo antigo vs atual)
 - Frases curtas
 - Profético sem ser pregação
 
@@ -209,19 +210,19 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 8 - Promessa de produto
 
 ### Versão IA
-> "Com esse método poderoso e revolucionário, você vai alcançar resultados extraordinários em pouquíssimo tempo! Imagine só atingir 100k em apenas 90 dias, totalmente sem complicações! Esse é o futuro que te espera!"
+> "Com esse método poderoso e revolucionário, você vai alcançar resultados extraordinários em pouquíssimo tempo! Imagine só lotar sua agenda em apenas 90 dias, totalmente sem complicações! Esse é o futuro que te espera!"
 
 ### Diagnóstico
 - "método poderoso e revolucionário" (adjetivo duplo + verbo IA)
 - "resultados extraordinários" (banido)
 - "pouquíssimo tempo" (vago)
 - "Imagine só" (banido)
-- "100k em 90 dias" (promessa redonda)
+- "lotar sua agenda em 90 dias" (promessa redonda)
 - "totalmente sem complicações" (adverbial + cringe)
 - "futuro que te espera" (cringe)
 
 ### Versão autoral
-> "Implementação Soft. 12 semanas. Eu entro no seu negócio com IA e construo o sistema com você. Pra quem quer parar de improvisar."
+> "Programa de Reabilitação Oral. 8 encontros. Eu acompanho seus casos complexos do plano ao resultado. Pra dentista que quer sair do convênio."
 
 ### Por que funciona
 - Sem promessa de número
@@ -258,7 +259,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 10 - Pitch curto de palestra
 
 ### Versão IA
-> "Apresento o método que está revolucionando a forma como profissionais liberais constroem seus negócios digitais — um sistema simples, prático e altamente eficiente que está transformando vidas e gerando resultados extraordinários!"
+> "Apresento o método que está revolucionando a forma como dentistas constroem suas clínicas — um sistema simples, prático e altamente eficiente que está transformando vidas e gerando resultados extraordinários!"
 
 ### Diagnóstico
 - "revolucionando a forma" (verbo IA)
@@ -268,12 +269,12 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "resultados extraordinários" (banido)
 
 ### Versão autoral
-> "Soft Business. Método pra profissional liberal construir negócio simples, com IA, sem agência. R$40M operados ensinaram que negócio pequeno escala. Negócio grande desmorona."
+> "Clínica Enxuta. Método pra dentista lotar a agenda de caso complexo, sem depender de convênio. Mais de 400 reabilitações ensinaram que poucos casos certos pagam mais que muitos casos errados." *(exemplo fictício)*
 
 ### Por que funciona
 - Diz o nome do método logo
 - Diz pra quem é
-- Cita prova concreta (R$40M)
+- Cita prova concreta (número de casos)
 - Apresenta tese contraintuitiva
 - 30 segundos quando lido
 
@@ -310,6 +311,8 @@ Quando você sentir que sua copy "está parecendo IA mas não sei o quê":
 
 A prática repetida treina o olho. Em 2-3 semanas de aplicação, você passa a detectar IA automaticamente.
 
+> Lembre: o nicho odonto e os números aqui são fictícios, ilustram a forma. No material real, os dados são SEMPRE do cliente à frente.
+
 ---
 
 ## Atualização
@@ -318,4 +321,4 @@ Atualizar com mais exemplos quando:
 - Surgir padrão IA novo (ex: nova estrutura que viraliza no ChatGPT)
 - Encontrar exemplo particularmente útil pra treinar percepção
 
-Última atualização: 23 de maio de 2026.
+Última atualização: 23 de junho de 2026.

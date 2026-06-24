@@ -36,7 +36,7 @@ O que ele cobre:
 
 - **Posicionamento Incomum** - quem você atende, qual problema resolve, como você ocupa um lugar que ninguém mais ocupa. É a fonte da percepção que todo o resto instala.
 - **O webinário perpétuo** - o melhor funil do mundo: uma aula gravada uma vez que vende no automático, pra público frio, sem você aparecer. É onde a percepção se reorganiza num lugar só, todo dia.
-- **A IA do método (Webinar Skills)** - os agentes treinados no método que escrevem roteiro, página, e-mails e anúncios na sua voz. O agente executa, você dirige.
+- **A IA do método (o agente de IA do especialista)** - os agentes treinados no método que escrevem roteiro, página, e-mails e anúncios na sua voz. O agente executa, você dirige.
 
 ### A fórmula do método: posição + mecanismo + máquina = 10X$
 
@@ -72,7 +72,7 @@ O Soft Business quebra os dois lados da equação ao mesmo tempo:
 |---|---|
 | **Posicionamento Incomum** | Resolve a Invisibilidade. Faz o cliente certo te encontrar pelo método, não pelo preço - reorganizando a percepção dele. |
 | **Webinário perpétuo** | Resolve a Complexidade e o Improviso. Um funil só, gravado uma vez, que conduz à decisão no automático - no lugar de lançamento, low-ticket, prospecção e postar todo dia. |
-| **IA do método (Webinar Skills)** | Carrega o que você não sabe fazer (copy, roteiro, página, anúncio) com sistema, na sua voz. O agente executa, você dirige. |
+| **IA do método (o agente de IA do especialista)** | Carrega o que você não sabe fazer (copy, roteiro, página, anúncio) com sistema, na sua voz. O agente executa, você dirige. |
 
 Na prática, isso vira a jornada que você percorre em ordem: o **Posicionamento Incomum** define a percepção, o **webinário perpétuo** a reorganiza num lugar só, a **venda consultiva** fecha o que o webinário não fechou no automático (ticket alto), e a **IA do método** atravessa tudo. É a mesma arquitetura vista de dois jeitos: a posição pra entender, a máquina pra executar.
 
@@ -198,7 +198,7 @@ Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu m
 
 ## 1.10 · A lógica da percepção: o que faz o cliente comprar
 
-As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro existe pra operar uma coisa só: **a percepção do cliente.** É o que o Léo chama de **Reorganização da Percepção** - conduzir a pessoa por Atenção, Diagnóstico, Mecanismo e Ação (ADMA) até a decisão. Vender não é convencer, é conduzir. Vale entender a mecânica disso, porque é ela que decide a compra.
+As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro existe pra operar uma coisa só: **a percepção do cliente.** É o que o método chama de **Reorganização da Percepção** - conduzir a pessoa por Atenção, Diagnóstico, Mecanismo e Ação (ADMA) até a decisão. Vender não é convencer, é conduzir. Vale entender a mecânica disso, porque é ela que decide a compra.
 
 A régua, sobretudo no topo do funil: **o mercado não escolhe só quem sabe mais - escolhe quem entende e confia mais rápido.** Ser bom é condição de entrada; ser percebido como bom, e rápido, é o que faz o cliente certo procurar e aceitar o preço. (Em ticket alto e decisão técnica, profundidade demonstrada também fecha - os dois andam juntos, não são rivais.) Por isso o princípio que filtra qualquer decisão do método não é "como pareço maior", é **"como organizo melhor"**. Toda peça, todo nome, toda oferta passa por um teste único: *isso faz o cliente certo entender e confiar mais rápido?* O que não acelera a percepção, atrapalha.
 

@@ -57,6 +57,8 @@ O Plano é a fundação de onde TODAS as outras skills escrevem. Plano fraco vir
 2. **As 3 perguntas do Harry** (`crivo/03-gate-cub.md`) na PUV e no Mecanismo nomeado: dá pra ver? dá pra falsificar? E a mais dura: **só você pode dizer (o concorrente do nicho não assina)?** PUV ou mecanismo que cabe em qualquer concorrente reprova.
 3. **Anti-IA** (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`): a Narrativa, a PUV e a Fundação de Headlines passam no filtro antes de virar fundação, sem padrão banido, sem cosplay, sem o som de saída de IA bem-comportada.
 4. **Cliente regulado** (`crivo/04-gate-regulado.md`): quando o especialista é de SAÚDE ou JURÍDICO, o Plano (promessa, número, garantia, linguagem) passa também pelo gate regulado antes de virar fundação das filhas.
-5. **Veredito binário com tabela.** UMA falha reprova e re-roda. Substitui a auto-aprovação silenciosa ("se 4 ou 5 passam, entrega"): aqui, uma falha não passa.
+5. **Grande Dominó existe.** A UMA tese-mãe que, se o lead aceita, compra. Cabe em 1 frase e volta em todo conteúdo. Sem o Grande Dominó cravado, o Plano reprova.
+6. **Crenças contrapostas.** As principais crenças/objeções bloqueadoras do avatar estão mapeadas e contrapostas pelo Mecanismo da Solução. Crença bloqueadora sem contraposição reprova.
+7. **Veredito binário com tabela.** UMA falha reprova e re-roda. Substitui a auto-aprovação silenciosa ("se 4 ou 5 passam, entrega"): aqui, uma falha não passa.
 
 Sem o Plano passar no Crivo, ele não vira fundação das filhas, e o método inteiro herda a fraqueza.

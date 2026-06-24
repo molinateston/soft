@@ -36,8 +36,8 @@ A pergunta que abre toda peça: **que percepção eu estou reorganizando?**
 Antes de deixar uma frase de pé, as 3 perguntas:
 
 1. **Dá pra visualizar?** Se não vira imagem na cabeça, é abstrata. "Mude sua liderança" não tem imagem; "pare de repetir a mesma ordem três vezes" tem. Concreto gruda, abstrato evapora. Troque a palavra literal pela visual: "mil músicas no bolso", não "no aplicativo".
-2. **Dá pra provar ou desmentir?** Frase que não é verdadeira-ou-falsa é enchimento. "Somos referência" não se prova; "R$46 milhões em dez anos" se prova. Não diga o adjetivo, aponte o fato.
-3. **Só você poderia dizer isso?** Se o concorrente assina a mesma frase, ela não diferencia. "Ajudo você a crescer" qualquer um assina; "monto com você o que montei pra mim, com uma IA no lugar de 35 pessoas" só você.
+2. **Dá pra provar ou desmentir?** Frase que não é verdadeira-ou-falsa é enchimento. "Somos referência" não se prova; "1.200 pacientes atendidos em cinco anos" se prova *(exemplo)*. Não diga o adjetivo, aponte o fato.
+3. **Só você poderia dizer isso?** Se o concorrente assina a mesma frase, ela não diferencia. "Ajudo você a crescer" qualquer um assina; "monto com você o mesmo protocolo que uso na minha clínica, com uma IA no lugar de uma equipe inteira" só você *(exemplo)*.
 4. **Pega em 2 segundos?** O leitor não relê. Se precisa de mais que "um Mississippi, dois Mississippi" pra entender, tá complexo demais. Corta.
 
 Quatro sins: forte. Um não: reescreve.
@@ -87,7 +87,7 @@ Nunca soa: guru, hype, motivacional, marketing digital genérico, "copy de copyw
 
 **A pegada falada (o que mata o "parece IA").** O teste: *eu diria isso olhando no olho de um cara experiente, sem vergonha?* Se a resposta é não, reescreve. Palavra que ninguém usa numa conversa real (alavancar, jornada, potencializar, mindset, "destravar") não entra. Lê em voz alta: o que tropeça na boca, sai. Copy boa não parece copy - parece observação dita por uma pessoa de verdade.
 
-**Anti-voz do Léo** (cresce a cada correção dele): ele NÃO usa **"travar / travado / trava"** (era "travar a posição"). Prefere ocupar, cravar, fincar, deixar de pé, feito. Pra cliente bloqueado: empacado, emperrado. Lista viva em `feedback_voz-leo` na memória.
+**Anti-voz do autor do método** (cresce a cada correção): ele NÃO usa **"travar / travado / trava"** (era "travar a posição"). Prefere ocupar, cravar, fincar, deixar de pé, feito. Pra cliente bloqueado: empacado, emperrado.
 
 ---
 

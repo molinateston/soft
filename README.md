@@ -17,10 +17,24 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 - `soft-leon`
 - `soft-posicionamento`
 - `soft-conteudo`
-- `soft-funil`
-- `soft-vendas`
-- `soft-lancamento-pago`
+- `soft-conteudo-headlines`
+- `soft-conteudo-carrossel`
+- `soft-conteudo-reels`
+- `soft-conteudo-stories`
+- `soft-conteudo-multiplataforma`
 - `soft-designer`
+- `soft-funil`
+- `soft-funil-carta`
+- `soft-funil-miniwebinar`
+- `soft-funil-landing`
+- `soft-funil-isca`
+- `soft-vendas`
+- `soft-vendas-script`
+- `soft-vendas-prospeccao`
+- `soft-vendas-objecao`
+- `soft-vendas-copiloto`
+- `soft-vendas-posvenda`
+- `soft-lancamento-pago`
 - `soft-treino`
 - `soft-financeiro`
 

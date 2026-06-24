@@ -91,7 +91,7 @@ Há 4 maneiras de definir preço, e cada uma serve um momento.
 | 3 | Pricing por segmento, diferentes ofertas pra diferentes ICPs |
 | 4 | Pricing institucional, cláusulas de reajuste, contratos de longo prazo |
 
-### Princípio Soft Business (caso Léo)
+### Princípio Soft Business (caso do autor do método)
 
 Mentoria de R$3-5k = ticket médio do segmento. Por valor entregue (sistema de aquisição completo, validado por método), poderia ser R$10-15k. Ticket atual filtra por intenção, não por desconto.
 
@@ -595,7 +595,7 @@ Total: **4 semanas entre problema e correção**.
 
 - **Skill puxa essa reference em qualquer assunto de R$.** Pricing, custos, captação, M&A, dívida, impostos.
 - **Decisão financeira sem dado é palpite.** Skill recusa prescrição se cliente não tem DRE/fluxo mínimo.
-- **Para Léo escalando Soft Business**: prioridade é DRE mensal estruturado + reserva tática 6 meses. Captação ainda não está em horizonte (mantém bootstrapping).
-- **Para cliente do Léo**: similar, primeiro instala DRE/fluxo bem. Captação só fala quando perguntam.
+- **Para o autor do método escalando o negócio**: prioridade é DRE mensal estruturado + reserva tática 6 meses. Captação ainda não está em horizonte (mantém bootstrapping).
+- **Para o especialista cliente do método**: similar, primeiro instala DRE/fluxo bem. Captação só fala quando perguntam.
 - **Para empresário genérico**: depende da fase, skill pergunta antes de prescrever.
 - **Reforma tributária 2026-2033**: skill alerta cliente sempre que tema fiscal aparece, ainda em transição, simulação muda anualmente.

@@ -14,7 +14,7 @@ O método de vendas **vive no Cap 10, não nesta reference.** Na primeira invoca
 - **`guia/10-vendas-consultivas.md`** (Cap 10 · Vendas Consultivas), **a fonte da verdade.** Lá vivem: a cabeça do vendedor (10.3), os 4 princípios de quem fecha (10.4), as premissas dos grandes vendedores que operam por trás (10.5), **a espinha de 7 fases** (10.6), o Filtro Soft (10.7), o mapa de canal por ticket (10.8), **a mecânica do diagnóstico que revela sem inflar** (10.10-A, escada socrática, diagnóstico visual, pit invertido, antecipação de objeção e a linha ética *revelar dor real ✓ / inventar dor ✗*), o roteiro fase a fase com as falas prontas (10.10), **o termômetro** (Fase 3), **o Isolamento** (Fase 6), **o catálogo de objeções no tom Soft** (10.11), **as frases de poder por situação** (10.12) e os 3 níveis no fechamento (10.13).
 - `guia/01-filosofia.md`, a régua de tudo: *o cliente entende e confia mais rápido*, e a filosofia **filtra-não-só-convence**.
 
-Esta skill é o **processo de execução**, como conduzir a venda num canal real. As **definições, fases, falas, objeções e frases de poder** estão no Cap 10; não as duplique aqui, consulte-as. **Os valores que aparecem nas falas do guia (R$5.000, 12x R$500, Soft Start R$497–997 etc.) são exemplo do caso Léo, cada especialista usa os próprios preços, definidos pela Equação de Valor no Cap 2.**
+Esta skill é o **processo de execução**, como conduzir a venda num canal real. As **definições, fases, falas, objeções e frases de poder** estão no Cap 10; não as duplique aqui, consulte-as. **Os valores que aparecem nas falas do guia (R$5.000, 12x R$500, Soft Start R$497–997 etc.) são exemplo ilustrativo, cada especialista usa os próprios preços, definidos pela Equação de Valor no Cap 2.**
 
 ---
 
@@ -70,7 +70,7 @@ O script Soft é **filtro de chegada + fechamento de quem já está aquecido**, 
 - **Carta/Vídeo funcionando** (Cap 4 · `soft-funil`), é o que aquece o lead antes do WhatsApp. Sem ela, o lead chega frio e a conversa vira gasto de energia, não confirmação.
 - **Feed publicando** (Caps 5–8), onde o lead valida a autoridade antes de chegar.
 
-**Quando o cliente tem skill de voz própria (ex.: `soft-voz-leo-molina`):** consulte-a antes de escrever. Os bordões e expressões da voz pessoal precisam aparecer no WhatsApp pra manter coerência com o que o lead leu na Carta e no feed. Inconsistência aqui quebra a venda.
+**Quando o cliente tem skill de voz própria (ex.: `soft-voz-do-especialista`):** consulte-a antes de escrever. Os bordões e expressões da voz pessoal precisam aparecer no WhatsApp pra manter coerência com o que o lead leu na Carta e no feed. Inconsistência aqui quebra a venda.
 
 ---
 

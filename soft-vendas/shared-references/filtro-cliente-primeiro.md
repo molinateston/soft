@@ -1,16 +1,17 @@
 # Filtro Cliente-Primeiro - o material é do cliente, nunca do método nem do autor
 
-Última checagem, junto com anti-ia e mobile-first, antes de QUALQUER material sair. Estas skills são aplicadas a **qualquer especialista de qualquer nicho**. O que sai é do **cliente à frente** - com os dados dele, no idioma do nicho dele. **Léo Molina é o AUTOR do método, nunca o sujeito do material.** Três vazamentos são erro fatal.
+Última checagem, junto com anti-ia e mobile-first, antes de QUALQUER material sair. Estas skills são aplicadas a **qualquer especialista de qualquer nicho**. O que sai é do **cliente à frente** - com os dados dele, no idioma do nicho dele. **O autor do método é o AUTOR, nunca o sujeito do material.** Três vazamentos são erro fatal.
 
-## 1. A identidade do autor no material do cliente
-Nunca deixe o Léo (nem traço dele) entrar no material de outro cliente:
-- **Persona/nome:** "Otávio" (a persona-âncora do Léo) · "Léo Molina" · "Léo".
-- **Provas/números dele:** "R$46M", "46 milhões", "MindMaster", "R$13M"/"13 milhões" (MindMaster, 24-25), "CRO as a Service"/"diretor de receita" (da MindMaster), "35 colaboradores", "coprodutor", "a agência", "quebrei devendo R$500 mil".
-- **Vida dele:** Atibaia · cristão/pai recente · ex-atleta de MMA · ex-nutricionista · a cobra/serpente.
-- **Nicho/oferta dele:** marketing digital · "especialista que vende conhecimento" · "profissional liberal" · Soft Start / Implementação · os preços dele.
-- **Posicionamento/fontes dele:** "A Conta de Poucos" · "preso a procurado" · "Mapa da Complexidade" · "Sócio IA" · o voc-wiki (a fonte de VoC dele) · os bordões e cenas-assinatura do Plano dele. São o posicionamento DELE (e parte está desatualizada), nunca o do cliente.
+## 1. A identidade do AUTOR no material do cliente
+O perfil pessoal do autor do método é privado e vive FORA deste bundle (na skill de voz pessoal do autor / no perfil do autor, que nunca viaja em bundle de cliente). Nada dele entra no material de outro cliente. Bloqueie, por **categoria**, qualquer traço que pertença ao autor e não ao cliente à frente:
 
-Se qualquer um aparece no plano, carta, conteúdo ou bio de **outro** cliente, é ERRO - pega e troca pelo do cliente à frente. **Única exceção:** a skill `soft-voz-leo-molina`, que É o Léo como cliente-modelo. Em todo o resto, o Léo nunca é o sujeito.
+- **Nome e persona-âncora do autor** (o nome próprio dele, a persona de exemplo dele).
+- **Provas/números do autor:** faturamento próprio, marcas/empresas que ele operou, cargos, nº de colaboradores, histórico financeiro pessoal. Número de prova é SEMPRE do cliente à frente; número que pertence ao autor é contaminação.
+- **Vida pessoal do autor:** cidade, religião, família, esporte, profissão anterior, símbolos pessoais.
+- **Nicho/oferta/preços do autor:** o mercado dele, o nome dos produtos dele, os preços dele. O cliente tem o nicho e a oferta DELE.
+- **Posicionamento/bordões/fontes do autor:** os nomes próprios das Big Ideas dele, os bordões e cenas-assinatura do Plano dele, as fontes de VoC dele. São o posicionamento DELE, nunca o do cliente.
+
+Regra prática: se um nome próprio, número, cidade, bordão ou nome-de-produto **não é demonstravelmente do cliente à frente** (não está na fonte/Plano dele), trate como contaminação do autor ou de exemplo, e troque pelo dado real do cliente. **Única exceção:** a skill de voz pessoal do autor, que É o autor como cliente-modelo e por isso nunca viaja em bundle de cliente. Em todo o resto, o autor nunca é o sujeito.
 
 ## 2. O jargão da cozinha no prato
 Os termos do método ensinam **você** a construir. O cliente **nunca os lê**. São idioma interno de cozinha:
@@ -27,9 +28,9 @@ No material do cliente, **traduza pro idioma do nicho dele**:
 O **doc interno de posicionamento** pode manter a *estrutura* do método (é o cérebro do LEON do cliente), mas mesmo nele os conceitos saem **concretos** - rótulo não é explicação, e o cliente vai ler esse doc. Toda **peça que vai pro mercado** (carta, conteúdo, bio, script, página) é 100% idioma do cliente, zero jargão de método.
 
 ## 3. O exemplo de nicho copiado
-Os exemplos dentro das skills (o fisio "Recalibra", a sensibilização central, etc.) são **ilustração do processo**, pra você ver a forma - nunca o conteúdo do cliente. Sempre destile o do cliente à frente. Exemplo copiado = material genérico, o oposto exato do método.
+Os exemplos dentro das skills (o fisio "Recalibra", a dentista da odonto, a sensibilização central, etc.) são **ilustração do processo**, pra você ver a forma - nunca o conteúdo do cliente. Sempre destile o do cliente à frente. Exemplo copiado = material genérico, o oposto exato do método.
 
 ## A régua (passe antes de entregar)
-> *"Isto está no idioma do nicho do cliente, com os dados do cliente, sem nenhum traço do Léo e sem nenhum termo do método-por-dentro?"*
+> *"Isto está no idioma do nicho do cliente, com os dados do cliente, sem nenhum traço do autor do método e sem nenhum termo do método-por-dentro?"*
 
 Se não - reescreve. O cliente tem que ler e pensar **"isso é sobre MIM e o meu mercado"** - nunca *"que palavra é essa?"* nem *"isso parece de outra pessoa"*.

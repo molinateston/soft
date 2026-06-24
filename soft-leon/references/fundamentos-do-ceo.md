@@ -370,5 +370,5 @@ Prontos pra puxar em qualquer momento:
 
 - **Skill puxa esses fundamentos antes de qualquer prescrição específica.** Não pula direto pra "como contratar primeiro funcionário" sem antes garantir que cliente entende output management.
 - **Quando cliente pede atalho** ("me dá a fórmula"), skill **recusa**. Atalho viola a alavancagem (que é estratégica, não tática), abre a espiral de declínio e contradiz a cultura de dono (sem fanatismo, não chega).
-- **Quando cliente é Léo escalando Soft**, exemplos do Soft Business são usados como caso. Quando é cliente do Léo ou genérico, skill pergunta o nicho e adapta.
+- **Quando cliente é o autor do método escalando o negócio**, exemplos do Soft Business são usados como caso. Quando é o especialista cliente do método ou genérico, skill pergunta o nicho e adapta.
 - **Esses fundamentos não dependem de fase.** Servem do zero ao IPO. As fases (references 2-5) aplicam esses fundamentos ao contexto específico.

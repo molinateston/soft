@@ -77,7 +77,7 @@ Numeração sempre em formato `01`, `02`, `03` (zero-padding 2 dígitos).
 
 **Screenshots reais como nós:**
 - Aceitos como alternativa ao círculo numerado
-- Vem via upload do Léo no briefing, inseridos como base64
+- Vem via upload do especialista no briefing, inseridos como base64
 - Formato: 140x200px ou 160x160px, sem border-radius, com sombra sutil `box-shadow: 0 2px 8px rgba(0,0,0,0.15)` (exceção documentada à regra "sem sombra")
 
 **Setas manuscritas entre nós:**
@@ -123,7 +123,7 @@ Na `auditoria-pre-preview.md`, este layout substitui os checks 7 e setinha por:
 
 - Setas são curvas irregulares (Q/T), não retas?
 - Numeração é 01, 02, 03 (zero-padding)?
-- Screenshots (se houver) vieram do upload do Léo?
+- Screenshots (se houver) vieram do upload do especialista?
 - Handle no rodapé tem o arroba correto?
 - Seta grande variação C está no lugar da setinha padrão?
 

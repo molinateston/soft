@@ -407,6 +407,6 @@ Cliente sai com **uma das 3 saídas legítimas:**
 - **Skill não força IPO.** Maioria das empresas excelentes do mundo (Mars, Cargill, Bloomberg) nunca listou. IPO é ferramenta, não troféu.
 - **A Fase 4 é onde fundador finalmente colhe.** Décadas de construção viram liquidez (parcial ou total). Mas a colheita não é gratuita, exige preparação institucional rigorosa.
 - **A consolidação por aquisição é referência, não receita.** Maioria dos empresários brasileiros não vai operar como os grandes consolidadores da gestão dona. Princípios servem; tropicalismo brutal não é obrigatório.
-- **Para Léo escalando Soft Business**: Fase 4 está distante, talvez nunca chegue se Soft permanecer estilo "estúdio premium" (R$10-30MM/ano de margem alta). Skill respeita essa escolha, não empurra escala forçada.
+- **Para o autor do método escalando o negócio**: Fase 4 está distante, talvez nunca chegue se o negócio permanecer estilo "estúdio premium" (R$10-30MM/ano de margem alta). Skill respeita essa escolha, não empurra escala forçada.
 - **Mercado brasileiro de IPO é cíclico.** Janela de IPO abre 2-3 anos a cada 5-7 anos. Cliente Fase 4 precisa estar pronto pra **aproveitar a janela quando abrir**, não tem como construir prontidão durante a janela.
 - **Após IPO ou M&A, vida do CEO muda fundamentalmente.** Skill alerta: muitos fundadores se arrependem (perdem autonomia, vivem em pressão de mercado). Cash out não é nirvana automático.
