@@ -1,11 +1,13 @@
 # Modo Mini Webinar, vídeo de 10min em 12 blocos (arco ADMA curto)
 
-> **Nota de dono.** Mini Webinar = `soft-funil`, o micro-ADMA do degrau 1 (versão curta ~10min). O Webinar completo ADMA é o `soft-webinario` (degrau 2). Os dois rodam o MESMO arco (Atenção → Diagnóstico → Mecanismo → Ação); este aqui é a compressão do degrau 1, não um framework à parte.
+> **Nota de dono.** Mini Webinar é o micro-ADMA do degrau 1 (versão curta ~10min), operado por esta skill `soft-funil-miniwebinar`. O Webinar completo ADMA é a skill `soft-webinario` (degrau 2). Os dois rodam o MESMO arco (Atenção → Diagnóstico → Mecanismo → Ação); este aqui é a compressão do degrau 1, não um framework à parte.
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
 > **Quando consultar:** quando o cliente pede Mini Webinar, mini aula, ou versão em vídeo da Carta. Pré-requisito: 6 entradas do briefing desejo capturadas (cliente ideal · problema Problema Avançado · soluções comuns · método nomeado · cases · oferta).
+
+> **Marca-neutra.** Todos os exemplos de roteiro abaixo são de **nicho FICTÍCIO** (uma nutricionista de corredores amadores), o mesmo padrão fictício das refs `geracao-slides-miniwebinar.md` e `pagina-hospedagem-rica.md`. Servem pra ilustrar a fôrma, nunca pra decalcar. O nome do método aparece como slot `(nome do método a definir com o usuário)`, nunca inventado nem copiado de outra marca; os nomes das 3 peças são ilustrativos. Todo número entra como `[A CONFIRMAR]`: número de verdade só sai do que o cliente confirmou. A fundação (avatar, problema avançado, método, cases, oferta) vem SEMPRE do cliente da vez.
 
 ---
 
@@ -24,7 +26,7 @@
 - Camadas de revisão (igual webinário)
 - Checklist antes de gravar
 - Indicações técnicas de gravação
-- Página de hospedagem da Mini Webinar
+- Página de hospedagem da Mini Webinar (página RICA, ver Passo 7 do SKILL.md)
 - Métricas e diagnóstico da Mini Webinar
 - Frase-âncora da Mini Webinar
 
@@ -101,10 +103,10 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Esse vídeo é pra você [PERFIL 1], [PERFIL 2], [PERFIL 3], [PERFIL 4], [PERFIL 5] que [CONTEXTO COMUM DO NICHO]."*
 
-**Exemplo (Soft Marketing):**
-> *"Nesse vídeo eu vou te mostrar como faturar R$15k/mês vendendo o que você já sabe, em menos de 2 horas por dia.*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Nesse vídeo eu vou te mostrar como tirar [A CONFIRMAR] do seu tempo de 10km sem o joelho cobrar a conta, treinando menos vezes na semana do que você treina hoje.*
 >
-> *Esse vídeo é pra você consultor, mentor, advogado tributário, dentista, terapeuta, designer freelancer que tem método próprio mas vive correndo atrás de cliente."*
+> *Esse vídeo é pra você que corre 10km de fim de semana, que treina pra primeira meia-maratona, que voltou a correr depois dos 40, que sente dor no joelho depois do treino longo, que já fez de tudo pra baixar o tempo e empacou."*
 
 ### Bloco A.2, Prova social ancorada (30s)
 
@@ -113,8 +115,8 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 **Modelo:**
 > *"Antes de continuar, vai conferir: tem [NÚMERO] [TIPO DE PROVA] [ONDE ENCONTRAR]. Pode pausar e olhar agora."*
 
-**Exemplo:**
-> *"Antes de continuar, vai conferir: tem mais de 200 depoimentos aqui embaixo dessa página e nos destaques do meu perfil. Pode pausar e olhar agora."*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Antes de continuar, vai conferir: tem [A CONFIRMAR] relatos de corredores aqui embaixo dessa página e nos destaques do meu perfil. Pode pausar e olhar agora."*
 
 **Princípio:** prova social ANTES do problema antecipa autoridade e dá segurança pra ouvir o resto.
 
@@ -133,8 +135,8 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 **Modelo:**
 > *"Você [DESCRIÇÃO COTIDIANA EM 2ª PESSOA DA DOR ÓBVIA]. [LISTA CONCRETA DE 3-4 SINTOMAS]. E mesmo assim, [RESULTADO INSUFICIENTE]."*
 
-**Exemplo (Soft Marketing):**
-> *"Você posta todo dia. Faz reel. Faz carrossel. Faz stories. Responde direct. E mesmo assim os clientes não chegam, ou chegam pedindo desconto, ou pedem reunião 'só pra entender' e somem."*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Você acorda cedo pra treinar. Faz o longão de domingo. Compra o tênis certo. Come 'limpo' a semana toda. E mesmo assim cruza a linha no mesmo tempo de seis meses atrás, com o joelho latejando, e sem saber o que mais tentar."*
 
 **Princípio:** narra cotidiano em 2ª pessoa. Quanto mais específico o sintoma, mais o lead pensa *"é isso"*.
 
@@ -146,8 +148,8 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 **Modelo:**
 > *"E o problema não é [CULPA APARENTE QUE O LEAD TEM]. É que tudo que o mercado vendeu como solução, [LISTA DE SOLUÇÕES COMUNS], adicionou [PROBLEMA AVANÇADO]. [CONSEQUÊNCIA REAL DO PROBLEMA AVANÇADO NA VIDA DELE]."*
 
-**Exemplo (Soft Marketing):**
-> *"E o problema não é falta de esforço. É que tudo que o mercado vendeu como solução pra crescer no digital, equipe, lançamento, gestor de tráfego, sessão estratégica, adicionou complexidade. Cada peça nova exige operação. Você virou refém do que construiu pra crescer."*
+**Exemplo (nutricionista de corredores amadores):**
+> *"E o problema não é falta de esforço. É que tudo que te venderam como solução pra correr mais, planilha de mais quilômetros, suplemento da moda, treino intervalado puxado, mais um par de tênis, adicionou desgaste. Cada coisa nova pede mais do corpo. Você entrou num Ciclo de Carga Cega: treina mais, dói mais, descansa de menos, e o tempo não cai."*
 
 **Princípio:** o problema de Problema Avançado **nomeia o vilão**, **tira culpa do lead** e **direciona raiva pra fora**. É a peça que valida a Fundação Soft no roteiro.
 
@@ -174,12 +176,12 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Imagina como seria [CONTEXTO DA VIDA DO LEAD] hoje se você tivesse [ESTADO DESEJÁVEL 1] e [ESTADO DESEJÁVEL 2]."*
 
-**Exemplo (Soft Marketing):**
-> *"O que eu vou te ensinar é faturar R$15k/mês vendendo conhecimento, com menos de 2 horas de trabalho por dia e mantendo o emprego atual. Eu chamo isso de Soft Marketing.*
+**Exemplo (nutricionista de corredores amadores):**
+> *"O que eu vou te ensinar é melhorar seu tempo de prova, proteger o joelho e treinar menos vezes na semana do que você treina hoje. Eu chamo isso de `(nome do método a definir com o usuário)`.*
 >
-> *E se você já tentou lançamento, tráfego pago e sessão estratégica gratuita e cansou: esse método dispensa exatamente essas 3 coisas.*
+> *E se você já tentou planilha de mais quilômetros, suplemento da moda e treino intervalado puxado e cansou: esse método dispensa exatamente essas 3 coisas.*
 >
-> *Imagina como seria sua semana hoje se você tivesse 5 clientes novos chegando todo mês e mais nenhuma reunião gratuita na agenda."*
+> *Imagina como seria sua próxima prova se você cruzasse a linha mais forte do que nunca e acordasse no dia seguinte sem dor no joelho."*
 
 ### Bloco D.2, Mecanismo demonstrado (4:30 a 6:00)
 
@@ -200,14 +202,14 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Você configura uma vez e nunca mais precisa mexer."*
 
-**Exemplo (Soft Marketing):**
-> *"E eu pessoalmente quero te ajudar a implementar o Soft Marketing. Funciona assim: tem 3 peças, Posicionamento Incomum, Mini Carta e Reel Lo-fi.*
+**Exemplo (nutricionista de corredores amadores), método de 3 peças `(nomes a definir com o usuário)`:**
+> *"E eu pessoalmente quero te ajudar a implantar o `(nome do método a definir com o usuário)`. Funciona assim: tem 3 peças, a Janela de Carga, a Comida que Sustenta o Treino e a Recuperação que Conta.*
 >
-> *Quando o lead entra no seu perfil, ele lê a bio que filtra na hora, clica no link da Carta, lê em 4 minutos e já chega no seu WhatsApp pré-qualificado. Tudo sem você intervir.*
+> *Você começa pela Janela de Carga: cada semana tem uma dose certa de esforço, nem a mais nem a menos. Aí entra a Comida que Sustenta o Treino, que alimenta o corpo na medida do que ele vai gastar. E a Recuperação que Conta segura tudo: é o descanso que vira ganho, não tempo perdido.*
 >
-> *E se você já tem perfil mas o conteúdo não engaja, tem o Reel Lo-fi que é gravar 1 vídeo de 1 minuto por dia, sem produção, na mesa mesmo, e isso atrai público pronto pra comprar.*
+> *E se você já treinou pesado antes mas vivia lesionado, é a Recuperação que Conta que resolve, porque é ela que transforma a carga em resultado em vez de desgaste.*
 >
-> *Você configura uma vez e nunca mais precisa mexer."*
+> *Você ajusta uma vez e o corpo passa a render sem cobrar a conta depois."*
 
 ### Bloco D.3, Demonstração prática (6:00 a 6:30)
 
@@ -216,8 +218,8 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 **Modelo:**
 > *"Pra montar isso na sua realidade, você vai [PASSO 1 CONCRETO]. Depois você [PASSO 2 CONCRETO]. E aí [PASSO 3 CONCRETO]. No total, [TEMPO DE EXECUÇÃO]."*
 
-**Exemplo (Soft Marketing):**
-> *"Pra montar o Soft Marketing na sua realidade, você vai primeiro escrever sua Mini Carta em 4 blocos: quem é, qual problema, qual método, como entrar. Isso leva uma manhã. Depois você grava 1 reel por dia, em 1 minuto, na mesa, sem produção. E aí responde no WhatsApp quem chega. No total: 1 manhã pra montar, 30 minutos por dia pra rodar."*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Pra montar o `(nome do método a definir com o usuário)` na sua realidade, você vai primeiro definir sua Janela de Carga: olha sua semana e marca a dose de treino que o seu corpo aguenta. Isso leva uma tarde. Depois você ajusta a Comida que Sustenta o Treino nos dias de esforço. E aí cria a sua Recuperação que Conta, o descanso fixo entre os treinos puxados. No total: 1 tarde pra montar, [A CONFIRMAR] treinos por semana pra manter."*
 
 **Princípio:** reduz abstração do método. Lead consegue se ver fazendo, em poucos passos.
 
@@ -232,10 +234,10 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Quando o método tá rodando, seu único trabalho vai ser [AÇÃO 1], [AÇÃO 2] e [AÇÃO 3]. Mais nada."*
 
-**Exemplo (ilustrativo, com as ofertas do próprio método Soft, troque pelas do cliente à frente):**
-> *"O resultado: R$240 mil em 8 meses só com esse método. E não é tudo a mesma oferta: teve cliente que comprou Implementação Soft, outro Micro Treinamento, outro consultoria pontual. Aqui embaixo tem print de cada um. Cada lead chega num momento diferente, e o método captura todos.*
+**Exemplo (nutricionista de corredores amadores):**
+> *"O resultado: [A CONFIRMAR] corredores acompanhados em [A CONFIRMAR] só com esse método. E não é tudo o mesmo serviço: teve aluno que pegou o acompanhamento completo, outro só a mentoria de ajuste de treino, outro a sessão pontual pré-prova. Aqui embaixo tem o antes e depois do tempo de cada um. Cada corredor chega num momento diferente, e o método atende todos.*
 >
-> *Quando o método tá rodando, seu único trabalho vai ser gravar 1 reel por dia, responder 3-5 mensagens no WhatsApp e mandar o link de pagamento. Mais nada."*
+> *Quando o método tá rodando, seu único trabalho vai ser montar a Janela de Carga com a pessoa, ajustar a Comida que Sustenta o Treino e revisar a Recuperação que Conta na semana seguinte. Mais nada."*
 
 ### Bloco D.5, Validação por categoria + Métrica + Insight (7:30 a 8:30)
 
@@ -251,12 +253,12 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *E tem uma diferença que pouca gente entende: [INSIGHT QUE FILTRA O LEAD INTELIGENTE]."*
 
-**Exemplo (Soft Marketing):**
-> *"Esse conceito tem nome no mercado: é o que chamam de One Person Business.*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Esse conceito tem nome lá fora: é o que chamam de treino baseado em carga e recuperação.*
 >
-> *O modelo tradicional pede equipe de 3 a 4 pessoas e dedicação de 12 horas por dia. Esse aqui gira com 80% de margem porque não tem custo recorrente além de mim.*
+> *O jeito tradicional pede mais quilômetros, mais suplemento e mais dias de treino. Esse aqui rende com menos volume porque o que faz o tempo cair é a recuperação certa entre os esforços, não o quilômetro a mais.*
 >
-> *E tem uma diferença que pouca gente entende: faturar não é a mesma coisa que lucrar. Tem gente que fatura R$50 mil e leva R$8 mil pra casa. Aqui você fatura menos e leva mais."*
+> *E tem uma diferença que pouca gente entende: treinar mais não é a mesma coisa que evoluir mais. Tem corredor que roda muito e estaciona no mesmo tempo. Aqui você treina menos e o tempo cai."*
 
 ### Bloco D.6, Amplitude dupla + Oferta secundária opcional (8:30 a 9:00)
 
@@ -277,12 +279,12 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Se você ainda não fatura, te dá [BENEFÍCIO PRA QUEM NÃO FATURA]."*
 
-**Exemplo (Soft Marketing, com oferta secundária):**
-> *"Se você já fatura bem, esse método te dá tempo de volta e margem maior.*
+**Exemplo (nutricionista de corredores amadores, com oferta secundária):**
+> *"Se você já corre bem, esse método te dá tempo melhor sem castigar a articulação.*
 >
-> *Se você ainda não fatura, te dá início simples sem precisar largar o emprego.*
+> *Se você tá começando agora, te dá um caminho simples sem precisar virar escravo da planilha nem se machucar pra evoluir.*
 >
-> *E se você é prestador de serviço de marketing, gestor, copy, designer, social, tem aluno meu que virou implementador, atende 4 a 5 especialistas ao mesmo tempo e cobra R$3 a 5 mil por implantação."*
+> *E se você já é treinador ou educador físico, tem aluno meu que virou aplicador do método, acompanha [A CONFIRMAR] corredores ao mesmo tempo e cobra [A CONFIRMAR] por plano de acompanhamento."*
 
 **Quando perguntar ao cliente:** antes de produzir, skill confirma se cliente tem oferta secundária estruturada (programa pra implementador, certificação, coprodução). Se sim, inclui. Se não, omite a 3ª linha.
 
@@ -309,12 +311,12 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 >
 > *Caminho 2: vem comigo. Talvez seu momento seja diferente do meu, talvez precise de ajuste. Eu te ajudo pessoalmente a implantar em [PRAZO CURTO]. [GARANTIA OPCIONAL EM 1 FRASE]. Decisão tua."*
 
-**Exemplo (Soft Marketing):**
+**Exemplo (nutricionista de corredores amadores):**
 > *"Você tem 2 caminhos.*
 >
-> *Caminho 1: pega o que eu te entreguei aqui e tenta sozinho. Funciona se você tem disciplina e 60 dias pra testar.*
+> *Caminho 1: pega o que eu te entreguei aqui e faz sozinho. Funciona se você tem disciplina pra respeitar a carga e o descanso nas primeiras semanas.*
 >
-> *Caminho 2: vem comigo. Talvez seu momento seja diferente do meu, talvez precise de ajustes. Eu te ajudo pessoalmente a implantar em 30 dias. Se na primeira sessão você não estiver seguro, devolvo tudo. Decisão tua."*
+> *Caminho 2: vem comigo. Talvez seu corpo tenha um detalhe diferente, talvez precise de ajuste. Eu te ajudo pessoalmente a montar tudo em [A CONFIRMAR] dias. Se na primeira semana você não sentir diferença, devolvo tudo. Decisão tua."*
 
 ### Bloco A.2, CTA + Fechamento afetivo (9:30 a 10:00)
 
@@ -326,8 +328,8 @@ Mesmas fases do webinário completo (lá Atenção 12% · Diagnóstico 20% · Me
 **Modelo:**
 > *"Se quiser conversar comigo, [AÇÃO CTA ESPECÍFICA]. Não é compra agora: é conversa. Eu pessoalmente te explico no detalhe e você decide. Tô esperando do outro lado."*
 
-**Exemplo (Soft Marketing):**
-> *"Se quiser conversar comigo, manda 'AULA' no meu Direct ou clica no link aqui embaixo. Não é compra agora: é conversa. Eu pessoalmente te explico no detalhe e você decide. Tô esperando do outro lado."*
+**Exemplo (nutricionista de corredores amadores):**
+> *"Se quiser conversar comigo, manda 'CORRIDA' no meu Direct ou clica no link aqui embaixo. Não é compra agora: é conversa. Eu pessoalmente te explico no detalhe e você decide. Tô esperando do outro lado."*
 
 ---
 
@@ -423,66 +425,37 @@ Roteiro pronto pra gravar em markdown Notion-compatível, com timestamps e indic
 
 ---
 
-## Página de hospedagem da Mini Webinar
+## Página de hospedagem da Mini Webinar (página RICA)
 
-A Mini Webinar vive numa página enxuta, não numa landing page argumentativa. A página é **vitrine**, não argumento. O argumento inteiro vive dentro do vídeo.
+> **Atualização (revisão do método).** A versão antiga desta seção pregava uma "vitrine de 6 elementos" com o argumento vivendo só dentro do vídeo. Isso foi substituído por uma **página RICA**: o vídeo do funil é curto, o lead quer mais prova antes de clicar, e o argumento estilo carta abaixo do player recupera quem não terminou o vídeo. A construção completa está no **Passo 7 do SKILL.md** e na ref `pagina-hospedagem-rica.md`. O resumo abaixo só dá a régua e a ordem; a profundidade (molde de cada bloco, exemplos de nicho fictício) está na ref dedicada.
 
-### Estrutura mínima (6 elementos · nada mais)
+A Mini Webinar vive numa página que **emoldura o player E carrega o argumento**. A régua-mãe governa cada bloco: protege a atenção OU protege a venda OU mede; se não faz nenhuma das três, corta. Mobile-first é a régua, o player nunca é Vimeo, o CTA fica sempre ABAIXO do player.
 
-| Elemento | Função |
+### Ordem dos blocos (resumo; molde completo na `pagina-hospedagem-rica.md`)
+
+| Bloco | Função |
 |---|---|
-| **1. Headline** | Promessa principal em 1 frase. Espelho da Promessa direta do Bloco A.1 da Mini Webinar. |
-| **2. Subheadline** | Amplificador da promessa em 1 linha. O "sem" ou o filtro de avatar. |
-| **3. Pra quem é** | Lista de 4-6 perfis específicos (mesma filtragem do Bloco A.1). Quem se reconhece, fica. |
-| **4. Vídeo** | Player da Mini Webinar. Centro absoluto da página. |
-| **5. Provas (muitas)** | Depoimentos, prints de pagamento, cases com nome + número + prazo. Quantidade > polimento. |
-| **6. Botão (CTA)** | Link único pro próximo passo (Carta, WhatsApp, Reunião). Aparece no final, depois do vídeo. |
+| **1. Headline** | Promessa principal em 1 frase. Espelho da Promessa direta do Bloco A.1. |
+| **2. Subheadline** | O "sem" ou o filtro de avatar, em 1 linha. |
+| **3. Pra quem é** | 4-6 perfis específicos (mesma filtragem do Bloco A.1). Quem se reconhece, fica. |
+| **4. Player** | O vídeo da Mini Webinar no centro, CTA logo ABAIXO, thumbnail com rosto, sem autoplay no mobile. |
+| **5. Argumento estilo carta** | Abaixo do player: os 7 passos do Discurso Base condensados (gancho → diagnóstico sem culpa → soluções comuns falham → método nomeado → prova → 3 objeções → CTA). Faca Soft: resultado e função, nunca o passo a passo. |
+| **6. Provas (muitas)** | Na moeda da promessa: nome + nicho + número + prazo, prints, documento bruto vale mais que slide bonito. |
+| **7. FAQ** | Mata as objeções reais do avatar, tom de conversa, sem urgência fabricada (página evergreen). |
+| **8. Bio na última dobra** | Empatia/cicatriz ANTES do feito, número com ressalva honesta, anti-milagre no fecho, foto P&B. Nunca o currículo no topo. |
+| **9. CTA final único** | Destino concreto: "conversa, não compra" (palavra no Direct OU link). |
 
 ### O que NÃO entra na página
 
-- ❌ Texto argumentativo longo, argumento vive dentro do vídeo, não fora
-- ❌ Múltiplos CTAs concorrentes, 1 só ação possível
-- ❌ Lista de funcionalidades, módulos, ou benefícios, nada disso
-- ❌ Garantia em destaque (se houver, mencionada dentro do vídeo no Bloco A.1)
-- ❌ Cronômetro, escassez forçada, gatilhos visuais agressivos
-- ❌ Pop-ups, exit-intent, formulários de captura
+- ❌ Urgência fabricada em página evergreen (cronômetro/escassez que reseta)
+- ❌ Múltiplos CTAs concorrentes (o argumento-carta e o FAQ convergem num CTA só)
+- ❌ Currículo/bio no topo (bio detalhada vai na última dobra)
+- ❌ Pop-ups, exit-intent
+- ❌ O passo a passo executável do método no argumento-carta (faca Soft: resultado e função)
 
-### Princípio raiz
+### Decisão de negócio pelo ticket
 
-> **Quando a página emoldura o vídeo, o texto fora do vídeo é mínimo. O argumento vive dentro da Mini Webinar. A página só ancora e dispara ação.**
-
-Se precisar de texto argumentativo na página, o formato certo é Mini Carta ou Landing Page (skill `soft-funil`), não Mini Webinar.
-
-### Modelo de página (referência visual)
-
-```
-┌────────────────────────────────────────────────┐
-│  [HEADLINE: 1 frase de promessa]               │
-│  [SUBHEADLINE: amplificador / "sem"]           │
-│                                                │
-│  Pra quem é:                                   │
-│  • Perfil 1                                    │
-│  • Perfil 2                                    │
-│  • Perfil 3                                    │
-│  • Perfil 4                                    │
-│                                                │
-│  ┌──────────────────────────────────────────┐ │
-│  │                                           │ │
-│  │     [PLAYER DO MINI WEBINAR · 10min]     │ │
-│  │                                           │ │
-│  └──────────────────────────────────────────┘ │
-│                                                │
-│  PROVAS:                                       │
-│  [Depoimento 1 com nome + nicho + número]     │
-│  [Depoimento 2]                                │
-│  [Depoimento 3]                                │
-│  [Print de pagamento 1]                        │
-│  [Print de pagamento 2]                        │
-│  [...muitos...]                                │
-│                                                │
-│           [BOTÃO ÚNICO · CTA]                  │
-└────────────────────────────────────────────────┘
-```
+Ticket ≤~3k pode levar pro checkout/link; high-ticket fecha no 1:1 (botão `wa.me`, nunca o preço seco na página).
 
 ---
 
@@ -539,7 +512,7 @@ Não são regras absolutas, são pontos de partida pra comparação interna do p
 - ❌ Nicho regulado (saúde clínica, jurídico, terapia profunda), promessas em vídeo são mais arriscadas
 - ❌ Especialista que ainda não tem método empacado (Mini Webinar expõe lacunas mais rápido que Carta)
 
-Nesses casos: Mini Carta (`modo-mini-carta.md`).
+Nesses casos: Mini Carta (skill `soft-funil-carta`).
 
 ---
 

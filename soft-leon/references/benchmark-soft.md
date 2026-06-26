@@ -52,7 +52,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa peça assistida → DM (sem Carta no caminho) | 0,5% | 2% | 0,2% | DMs novos / alcance qualificado |
 | Taxa palavra-chave do Reel → DM | 3% | 10% | 1% | DMs com palavra-chave / cliques no Reel |
 
-**Sinal de vazamento aqui = Carta fraca ou genérica.** Lead lê, não se reconhece, não se identifica com a Complexidade Digital nomeada, não aceita o método. Conserta a Carta (skill `soft-funil`).
+**Sinal de vazamento aqui = Carta fraca ou genérica.** Lead lê, não se reconhece, não se identifica com a Complexidade Digital nomeada, não aceita o método. Conserta a Carta (skill `soft-funil-carta`).
 
 ### Etapa 5, DM qualificado → Conversa WhatsApp
 

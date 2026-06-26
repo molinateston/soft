@@ -1,7 +1,9 @@
 ---
 name: soft-conteudo
-description: Produz todo o conteúdo de ATRAÇÃO do método Soft, o feed que filtra e atrai o cliente certo. Cobre o CORPO das peças de feed (recebe a headline já escolhida e constrói a peça), carrosséis, reels, stories e o design dos carrosséis. Puxa da Fundação de Headlines do Plano de Posicionamento; conduz por pergunta, aplica o Código de Escrita e passa todo output pelos filtros anti-ia e mobile-first. Use SEMPRE que envolver "carrossel", "reel", "stories", "conteúdo de feed", "impulsionar", "turbinar", "design de slides", "calendário de conteúdo", "o que postar". NÃO use pra HEADLINE/gancho/capa/abertura (isso é a soft-conteudo-headlines), nem pra posicionamento (soft-posicionamento), nem pra carta/funil/venda (soft-funil).
+description: "DEPRECADA e atomizada, NÃO use para produzir conteúdo. O conteúdo de atração do método Soft virou skills atômicas mais profundas: headline em soft-conteudo-headlines, carrossel em soft-conteudo-carrossel, reel em soft-conteudo-reels, stories em soft-conteudo-stories, adaptação multiplataforma em soft-conteudo-multiplataforma, impulsionar/tráfego em soft-conteudo-impulsionar. Esta pasta permanece apenas como fonte canônica dos shared-references do sistema (sync-crivo). Sempre invoque a skill atômica do formato pedido, nunca esta."
 ---
+
+> ⚠️ **SKILL DEPRECADA E ATOMIZADA.** Não produza conteúdo por aqui. O conteúdo de atração virou skills atômicas (mais profundas e seguíveis no Chat): `soft-conteudo-headlines` · `soft-conteudo-carrossel` · `soft-conteudo-reels` · `soft-conteudo-stories` · `soft-conteudo-multiplataforma` · `soft-conteudo-impulsionar`. Esta pasta permanece **apenas como fonte canônica dos shared-references** (`sync-crivo.py` propaga `soft-conteudo/shared-references/` pras demais skills). Invoque a skill atômica do formato. O texto abaixo é histórico.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 

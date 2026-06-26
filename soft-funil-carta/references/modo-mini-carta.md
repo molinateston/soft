@@ -53,9 +53,9 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 |---|---|
 | Discurso Base aprovado · cliente pediu Carta | ✅ Ativa este modo |
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
-| Cliente pediu landing page completa com VSL | Roteia pra `references/processo-landingpage.md` |
+| Cliente pediu landing page completa com VSL | Roteia pra a skill `soft-funil-landing` |
 | Cliente pediu webinar | Roteia pra skill `soft-webinario` |
-| Cliente quer versão em vídeo da Carta | Roteia pra `modo-mini-webinar.md` (alternativa à Carta) |
+| Cliente quer versão em vídeo da Carta | Roteia pra a skill `soft-funil-miniwebinar` (alternativa à Carta) |
 | Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinario`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
@@ -90,7 +90,7 @@ Se já tem: pula direto pra Etapa 3.
 
 ### Etapa 3, Adaptação aos 4 blocos
 
-Mapeia os 7 passos do Discurso Base nos 4 blocos da Carta v10. Ver Cap 4.4 (guia).
+Mapeia os 7 passos do Discurso Base nos 4 blocos da Carta v10. Ver o corpo desta skill (SKILL.md).
 
 Sai com a Carta em texto, dividida em 4 blocos, **ainda sem diagramação**.
 
@@ -429,7 +429,7 @@ Antes de entregar a Carta, valida tudo:
 - [ ] Zero adjetivo vazio (incrível · transformador · poderoso)?
 - [ ] Cortou ≥ 30% das palavras na revisão de densidade?
 
-### Princípios desejo (cruz com Cap 4 (guia))
+### Princípios desejo (cruz com o corpo desta skill (SKILL.md))
 
 - [ ] Filtra · Explica · Desperta desejo (nessa ordem)?
 - [ ] Faca Soft (método nomeado · sem passo executável)?
@@ -484,15 +484,15 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Tarefa específica | Reference |
 |---|---|
 | Construir versão-mestre dos 7 passos | `discurso-base-7-passos.md` |
-| Mapear 7 passos pros 4 blocos | Cap 4.4 (guia) |
+| Mapear 7 passos pros 4 blocos | o corpo desta skill (SKILL.md) |
 | Validar tom e densidade | `tom-e-ritmo-desejo.md` |
-| Validar princípios desejo | Cap 4 (guia) |
-| Garantir Bloco 4 ↔ primeira msg WhatsApp | Cap 4.1/4.6 (guia) |
+| Validar princípios desejo | o corpo desta skill (SKILL.md) |
+| Garantir Bloco 4 ↔ primeira msg WhatsApp | o corpo desta skill (SKILL.md) |
 | Tom Soft amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |
 | Adaptação semântica pro nicho do cliente | `shared-references/adaptacao-semantica.md` |
-| Aplicação nos 7 passos | `guia/CODIGO-DE-ESCRITA.md` |
-| Versão em vídeo (alternativa à Carta) | `modo-mini-webinar.md` |
-| Landing page com VSL ou multimídia | `references/processo-landingpage.md` |
+| Aplicação nos 7 passos | `shared-references/crivo/05-premissas-mestras.md` |
+| Versão em vídeo (alternativa à Carta) | a skill `soft-funil-miniwebinar` |
+| Landing page com VSL ou multimídia | a skill `soft-funil-landing` |
 | Webinar ao vivo ou perpétuo | skill `soft-webinario` |
 
 

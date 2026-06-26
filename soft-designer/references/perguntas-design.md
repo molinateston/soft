@@ -1,6 +1,8 @@
 # Pergunta de Design, formato exato
 
-Quando o usuário não der referência visual nem indicar família, **pare e pergunte** antes de gerar qualquer HTML. Esta é a pergunta mais importante da skill, se você errar aqui, o carrossel inteiro vira ruído.
+> **Antes de perguntar QUALQUER coisa, cheque a ID visual do cliente** (`references/identidade-visual-cliente.md`). Se o cliente já tem identidade declarada (cores, fontes, formato), **aplica e NÃO pergunta**: cada cliente desenha na marca dele, não numa marca-padrão. As perguntas abaixo só rodam pra cliente **sem** ID definida; e quando rodarem, ofereça salvar as escolhas como a ID dele pra não re-perguntar na próxima.
+
+Quando o usuário não der referência visual, não indicar família **e não tiver ID salva**, **pare e pergunte** antes de gerar qualquer HTML. Esta é a pergunta mais importante da skill, se você errar aqui, o carrossel inteiro vira ruído.
 
 ## Princípios da pergunta
 
@@ -111,7 +113,7 @@ Pule a pergunta inteira nestes casos:
 2. **Usuário anexou imagem de referência** → leia a imagem, extraia paleta dominante e estilo tipográfico, **confirme em 1 linha**: "Vou usar família Editorial Preto com laranja queimado e Playfair, igual o exemplo. Confirma?" Se ele disser sim, gere.
 3. **Usuário disse "igual ao último carrossel"** → reuse o que foi feito antes na conversa.
 4. **Usuário deu hex e fonte explicitamente** → respeite, mas valide contraste mínimo (4.5:1).
-5. **Usuário disse "decide você"** → use Clínico Branco + Laranja vibrante + Inter Bruto. É o default mais seguro do método. Avise: "Vou de Clínico Branco com Laranja vibrante e Inter pesado, é o default mais versátil. Posso mudar depois se você quiser."
+5. **Usuário disse "decide você"** → use um default **neutro e versátil**: Clínico Branco + um accent à escolha + Inter Bruto. Avise sem chamar de "marca": "Vou de Clínico Branco com Inter pesado, é o mais versátil. Que cor de destaque combina com a tua marca? Se não tiver preferência, escolho um azul sóbrio. Dá pra trocar depois." A cor NÃO é fixada numa cor de marca de ninguém: ou o cliente passa a dele, ou você usa uma neutra e avisa.
 
 ## Como apresentar via `ask_user_input_v0`
 
@@ -169,13 +171,13 @@ Me responde em 1 mensagem que eu já sigo.
 
 ## Fallback se o usuário não responder
 
-Se o usuário disser "tanto faz", "decide você", "qualquer um", use:
+Se o usuário disser "tanto faz", "decide você", "qualquer um", use um default **neutro** (não a marca de ninguém):
 
 - **Família:** Clínico Branco
-- **Cor:** Laranja vibrante #FF6B1A
+- **Cor:** uma neutra sóbria (ex.: azul #2563EB ou o próprio preto/cinza-escuro como único "accent"), **nunca** uma cor fixa apresentada como "a cor do método"
 - **Tipografia:** Inter Bruto
 
-E avise no final do preview: "Usei o default Soft Business (Clínico Branco + Laranja + Inter). Se quiser trocar a família, é só falar."
+E avise no final do preview, sem rótulo de marca: "Usei um default neutro e versátil (Clínico Branco + Inter). Se a tua marca tem cor e fonte próprias, me passa que eu refaço com a tua identidade, e a gente salva pra próxima." Esse aviso é a porta pra capturar a ID visual do cliente (ver `references/identidade-visual-cliente.md`).
 
 ---
 

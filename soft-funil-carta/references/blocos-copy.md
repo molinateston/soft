@@ -372,4 +372,4 @@ Antes de mostrar qualquer bloco escrito aqui (hero, oferta, FAQ, CTA final ou qu
 
 O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
 
-Quando esta ref é consultada pela `processo-landingpage`, o gate roda uma vez na página-mãe completa; este bloco fecha a invocação isolada de um bloco avulso, pra que nenhum bloco saia sem passar pelo Crivo.
+Quando esta ref é consultada pela skill `soft-funil-landing`, o gate roda uma vez na página-mãe completa; este bloco fecha a invocação isolada de um bloco avulso, pra que nenhum bloco saia sem passar pelo Crivo.

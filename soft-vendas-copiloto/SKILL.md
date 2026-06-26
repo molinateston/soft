@@ -11,12 +11,16 @@ Dois modos, você detecta qual:
 - **Tempo real:** "o que respondo?", "tô na call agora", "tá emperrando". Ele tem pressa máxima.
 - **Diagnóstico:** colou print/transcrição pedindo "analisa essa conversa", "o que fiz de errado". Ele tem 30 segundos a mais, não 10 minutos.
 
+**O que esta skill faz por você:** é o COPILOTO em tempo real na conversa de venda: te diz o próximo passo enquanto o cliente responde.
+
+**As 4 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, e rode o gate-express em TODA mensagem que vai pro lead antes de mostrar.**
 
 ## Output Contract (o que você entrega)
 - **Tempo real:** resposta total ≤ 10 linhas. Diagnóstico em 1 linha → a mensagem pronta em bloco de código → o que esperar em 1 linha. Nada mais.
 - **Diagnóstico:** os 5 blocos do Passo C, curtos. Fecha com a mensagem pronta pro lead (em bloco) + 1 linha de aprendizado.
-- Toda mensagem que vai pro lead vem **com a tabela do gate-express preenchida e impressa**.
+- Toda mensagem que vai pro lead passa pelo gate-express: o gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você entrega **1 mensagem**, a melhor, nunca 3 variações pro lead escolher.
 - Você **nunca inventa o que o lead disse nem número/prova do especialista**, e **nunca mostra mensagem que falhou no gate**.
 
@@ -71,8 +75,8 @@ Cinco blocos curtos, nessa ordem:
 
 Se a conversa boa não fechou por **perfil do lead** (sem problema avançado real, sem urgência, sem capacidade), diz isso: protege o especialista da autocrítica indevida. Isso também é feedback clínico válido.
 
-## Passo D, GATE-EXPRESS em TODA mensagem pro lead (artefato visível obrigatório)
-Toda mensagem que vai pro lead (Passo B item 2, follow-ups, Passo C item 4) passa por isto ANTES de aparecer. Tempo real não comporta o CUB completo, mas este filtro é inegociável. Preenche e imprime a tabela. Um ✗ qualquer = reescreve na hora, não mostra.
+## Passo D, GATE-EXPRESS em TODA mensagem pro lead (roda por DENTRO, NÃO imprime)
+Toda mensagem que vai pro lead (Passo B item 2, follow-ups, Passo C item 4) passa por isto ANTES de aparecer, em auditoria silenciosa. Tempo real não comporta o CUB completo, mas este filtro é inegociável. A tabela abaixo é o teu **checklist interno**, nunca a saída: o lead recebe só a mensagem limpa. Um ✗ qualquer = reescreve na hora, não mostra.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -93,7 +97,7 @@ Toda mensagem que vai pro lead (Passo B item 2, follow-ups, Passo C item 4) pass
 No Claude Code, roda `python3 scripts/lint_copy.py` na mensagem como cinto extra do anti-IA. No chat o lint não roda, por isso o CTRL+F manual.
 
 ## Passo E, mostra e PARA
-Mostra a jogada com a tabela do gate-express preenchida. Pergunta *"mando essa? ou me cola o que ele responder."* e **espera**. Não despeja a conversa inteira de antemão: a venda é viva, uma jogada por vez.
+Mostra só a jogada LIMPA (como no Claude Chat): o diagnóstico em 1 linha + a mensagem pronta + o que esperar, sem tabela e sem meta. Pergunta *"mando essa? ou me cola o que ele responder."* e **espera**. Não despeja a conversa inteira de antemão: a venda é viva, uma jogada por vez.
 
 ## When NOT to use (manda pra skill certa)
 - Quer **escrever o script de venda do zero** (estrutura da call/WhatsApp) → **soft-vendas-script**.
@@ -115,7 +119,7 @@ Mostra a jogada com a tabela do gate-express preenchida. Pergunta *"mando essa? 
 | Empurrou ("última chance", arrastou o não) | Reescreve não-empurra: revela a dor, pede a decisão, solta sem ressentimento |
 | Despejou a conversa toda de uma vez | Uma jogada por vez; mostra, pede o retorno do lead, para |
 | Suavizou o diagnóstico ("você foi ótimo, só...") | Clínico, sem moralizar: nomeia o erro tático e o conserto |
-| Mostrou a mensagem sem a tabela do gate | Não entregou: roda o gate-express, imprime, só então mostra |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/copiloto-tempo-real.md`: o protocolo do tempo real (diagnóstico → mensagem → o que esperar), classificação de fase e a régua de follow-up, em detalhe.

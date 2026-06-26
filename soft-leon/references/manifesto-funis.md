@@ -43,30 +43,24 @@ Gates, um por linha:
 
 ## FUNIL WEBINAR (degrau 2)
 
-Igual ao FUNIL SOFT na fundação e na atração; o miolo troca a Carta pelo webinário (as 9 atômicas de webinar), com um gate de maturidade na entrada.
+Igual ao FUNIL SOFT na fundação e na atração; o miolo troca a Carta pelo webinário (as 5 atômicas de webinar), com um gate de maturidade na entrada.
 
 ```
 gate de maturidade   (audiência + faturamento + produto + habilidade aguentam o degrau 2? se não, fica no FUNIL SOFT)
         ↓
 soft-posicionamento  → soft-conteudo-headlines → -carrossel/-reels/-stories → soft-designer   (atração, idêntica)
         ↓
-soft-webinar-oferta      (desenha a oferta ANTES do roteiro)
+soft-webinar-oferta      (desenha a oferta ANTES da aula; o resto do webinar nasce dela)
         ↓
-soft-webinar-plano       (perpétuo vs ao vivo, esqueleto ADMA, mecanismo nomeado)
-        ↓
-soft-webinar-script      (roteiro ADMA + motor de 3 viradas + objeções aniquiladas)
-        ↓
-soft-webinar-slides      (deck) → soft-designer (visual fino)
+soft-webinar-script      (a AULA: roteiro + slides numa coisa só, ADMA + motor de 3 viradas + objeções aniquiladas + perpétuo vs ao vivo; o visual fino do deck = soft-designer)
         ↓
 soft-webinar-paginas     (cadastro/obrigado/checkout)
         ↓
 soft-webinar-mensagens   (e-mails + WhatsApp pré/pós)
         ↓
-soft-webinar-ads         (tráfego pra encher) → soft-designer (criativo)
-        ↓
-soft-webinar-gravacao    (gravar/perpetuar com energia de ao vivo)
-        ↓
 soft-webinar-poswebinar  (tags/CRM + chat simulado) → soft-vendas-*   (fechamento 1:1)
+
+(banner pra encher a sala = soft-conteudo-headlines + soft-designer, igual qualquer criativo · a gravação do perpétuo vive DENTRO da aula soft-webinar-script)
 ```
 
 - **gate de maturidade**: o LEON só sobe pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Não cabe? Fica no degrau 1.

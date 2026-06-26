@@ -7,11 +7,15 @@ description: "Opera o PÓS-VENDA do método Soft, o que vem DEPOIS do cliente fe
 
 O cliente que já comprou é o ativo mais barato pra gerar a próxima venda. CAC quase zero, conversão 30-60%, lead chega quente. Mas só com sistema. Sem sistema, vira foto na parede: some, esquece em 6 meses, não indica, não dá testemunho. O pós-venda Soft extrai valor estruturado de quem já comprou, por três ativos: indicação, testemunho, expansão. A regra que rege tudo: **entrega valor primeiro, pede depois.** Indicação se ganha, não se pede genérico.
 
+**O que esta skill faz por você:** monta o PÓS-VENDA: o onboarding que entrega resultado rápido + o pedido de indicação e o testemunho.
+
+**As 4 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer texto.**
 
 ## Output Contract (o que você entrega)
 - O **texto pronto** pro momento pedido (mensagem de onboarding, pergunta de indicação, modelo de apresentação, pedido de testemunho, mensagem de check-in), na voz do cliente, copiável.
-- Cada texto vem com **a tabela do gate preenchida** e o momento da cadência marcado.
+- A saída é **limpa, como no Claude Chat**: o texto pronto + o momento da cadência marcado. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **para e espera** o OK antes de gerar o próximo ativo (não despeja onboarding + indicação + testemunho de uma vez).
 - Você **nunca inventa número/resultado do cliente** e **nunca mostra texto que falhou no gate**.
 
@@ -70,8 +74,8 @@ Se o cliente empaca em gravar sozinho, marca call de 15 min, faz as perguntas ao
 ## Passo 6, expansão (antes do fim do ciclo)
 Cliente fechado não termina o ciclo no fim do programa. Os três caminhos: recompra do mesmo programa, upsell pra avançado, cross-sell de oferta complementar. Timing manda: **antes do fim do ciclo** (15-30 dias antes) converte mais, porque o cliente engajado avalia o próximo passo dentro do fluxo; depois do fim ele avalia como compra nova. Apresenta como **informação, não pressão** ("quero que você saiba que existe"). Empurrar quebra a confiança que você construiu.
 
-## Passo 7, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pra cada texto. Só texto com VEREDITO=PASSA vai pro cliente. Um ✗ qualquer = refaz a frase. Sem a tabela impressa, o texto não foi entregue.
+## Passo 7, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
+Roda o gate em CADA texto **internamente** (auditoria silenciosa). Só texto com VEREDITO=PASSA vai pro cliente. Um ✗ qualquer = refaz a frase. A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o texto limpo (Passo 8), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -89,7 +93,7 @@ Preenche a tabela pra cada texto. Só texto com VEREDITO=PASSA vai pro cliente. 
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 8, mostra e PARA
-Mostra **só o que passou**, com a tabela do gate e o momento da cadência marcado. Pergunta "esse texto te serve? ajusto, ou vamos pro próximo ativo?". **Espera o OK** antes de gerar o próximo ativo (onboarding → indicação → testemunho → expansão é sequência, não pacote único). Não narra o fluxo ("agora vou auditar"), entrega limpo.
+Mostra **só o que passou, LIMPO** (como no Claude Chat): só o texto pronto + o momento da cadência marcado. Sem tabela de gate, sem meta. Pergunta "esse texto te serve? ajusto, ou vamos pro próximo ativo?". **Espera o OK** antes de gerar o próximo ativo (onboarding → indicação → testemunho → expansão é sequência, não pacote único). Não narra o fluxo ("agora vou auditar"), entrega limpo.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **fechamento / script da venda nova** (WhatsApp, call, reunião) → **soft-vendas-script**.
@@ -112,7 +116,8 @@ Mostra **só o que passou**, com a tabela do gate e o momento da cadência marca
 | Inventou "fechou 2 clientes" plausível | Só resultado REAL da fonte; sem fonte, `[DADO: confirmar]` e não conta como ancorado |
 | Testemunho em texto polido | Sobe pro formato mais humano possível (vídeo > áudio > print); manda as 3 perguntas-base |
 | Ofereceu expansão como pressão | Apresenta como informação ("quero que você saiba que existe"), antes do fim do ciclo |
-| Narrou o fluxo ("agora vou auditar") | Executa em silêncio, entrega só o texto + a tabela |
+| Narrou o fluxo ("agora vou auditar") | Executa em silêncio, entrega só o texto limpo |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/indicacoes-pos-venda.md`: os 3 ativos detalhados (timing, formatos, modelos prontos), cadência de manutenção, métricas do pós-venda (taxa de indicação >40%, conversão >40%, testemunho >50%, recompra >25%) e os 10 princípios não-negociáveis. É o mesmo processo acima, com mais exemplo.

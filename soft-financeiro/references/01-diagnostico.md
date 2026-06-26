@@ -25,8 +25,8 @@ Com as respostas, decida:
 |---|---|
 | Ação judicial, penhora, bloqueio, busca e apreensão, leilão | **PARA** → `06-quando-escalar.md` (advogado/Defensoria), antes de tudo |
 | Superendividamento (não fecha o mês) | Explica o direito (`02`, item 4) e **encaminha** repactuação via Procon/Defensoria/advogado (`06`) |
-| Cobrança vexatória grave, ameaça, exposição pública | Registra, mas **encaminha** (`06`) — pode haver dano moral/crime |
-| Pedido de revisão de contrato, devolução em dobro, "limpar nome no Judiciário" | **Encaminha** — são pedidos judiciais privativos de advogado (`06`) |
+| Cobrança vexatória grave, ameaça, exposição pública | Registra, mas **encaminha** (`06`), pode haver dano moral/crime |
+| Pedido de revisão de contrato, devolução em dobro, "limpar nome no Judiciário" | **Encaminha**, são pedidos judiciais privativos de advogado (`06`) |
 | Cobrança administrativa de cartão/rotativo, sem processo, cliente quer renegociar/pressionar | **Segue** a via administrativa → `02` + `03` + `04` + `05` |
 | Cliente só quer entender direitos / se organizar | `02-bases-legais.md` e/ou `financeiro-organizacao.md` |
 

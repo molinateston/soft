@@ -105,20 +105,18 @@ Atalho: se já é óbvio qual skill, invoca direto (pula o mapa). Se nada encaix
 | copiloto em tempo real, analisa essa conversa | `soft-vendas-copiloto` |
 | pós-venda, indicação, onboarding | `soft-vendas-posvenda` |
 | oferta do webinar, stack, garantia | `soft-webinar-oferta` |
-| plano do webinar, perpétuo vs ao vivo | `soft-webinar-plano` |
-| roteiro/script do webinar | `soft-webinar-script` |
-| slides/deck do webinar | `soft-webinar-slides` |
-| páginas do webinar (cadastro/checkout) | `soft-webinar-paginas` |
+| a aula do webinar (roteiro + slides + perpétuo vs ao vivo) | `soft-webinar-script` |
+| páginas do webinar (cadastro/obrigado/checkout) | `soft-webinar-paginas` |
 | e-mails/WhatsApp do webinar | `soft-webinar-mensagens` |
-| anúncios do webinar | `soft-webinar-ads` |
-| gravar/perpetuar o webinar | `soft-webinar-gravacao` |
 | pós-webinar, tags, CRM, chat simulado | `soft-webinar-poswebinar` |
+| banner/anúncio pra encher o webinar | `soft-conteudo-headlines` + `soft-designer` |
+| gravar/perpetuar o webinar | dentro de `soft-webinar-script` (a aula) |
 | lançamento pago, Soft Launch (degrau 3, parqueado) | `soft-lancamento-pago` |
 | CEO, gestão, sócio, contratar, caixa, crise | LEON carrega: `references/ceo.md` |
 | produtividade, procrastinação, foco | LEON: `references/produtividade.md` |
 | rotina, A Conta, esteira, calendário | LEON: `references/rotina.md` |
 | finanças do fundador, pró-labore, reserva | LEON: `references/dinheiro-financeiro.md` |
-| treino, saúde, dieta, longevidade | LEON: `references/treino.md` (ou skill `soft-treino`) |
+| treino, saúde, dieta, longevidade | LEON: `references/treino.md` (ou skill `soft-treino-dieta`) |
 | princípios (dinheiro/espiritual/pessoal) | LEON: `references/principios-*.md` |
 
 A regra-mãe: **headline antes do corpo · posição antes de qualquer peça · o funil qualifica, a `soft-vendas-*` fecha no 1:1.** O pipeline ordenado de cada funil está em `references/manifesto-funis.md`.

@@ -62,7 +62,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** O **pico** do mês: gera caixa imediato (os R$100) e ativa os mais quentes pro high ticket. No Plano de Guerra, é a jogada que mais move a meta, encaixa como evento âncora.
 
-**Qual mãe executa.** Os stories e a sequência = `soft-conteudo`. O desenho do evento e da oferta = `soft-funil` (mini-evento). A oferta dentro da reunião e o follow-up de 24h = `soft-vendas`.
+**Qual mãe executa.** Os stories e a sequência = `soft-conteudo`. O desenho do evento e da oferta = `soft-funil-carta` (mini-evento). A oferta dentro da reunião e o follow-up de 24h = `soft-vendas`.
 
 **Ajuste Soft.** O conteúdo da reunião é útil de verdade, não é isca vazia pra empurrar a venda no fim. A oferta **confirma** o que a sala acabou de provar (filtra e convence). O R$100 é filtro de compromisso, não barreira de caixa: o valor real está no que sobe pro programa.
 
@@ -82,7 +82,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Antes de gastar tempo/dinheiro produzindo um produto novo. Protege o caixa: o cliente não cria no escuro, cria o que já foi pago.
 
-**Qual mãe executa.** Os stories e o destaque = `soft-conteudo`. O desenho da oferta e do bônus = `soft-posicionamento` (bloco oferta) + `soft-funil`.
+**Qual mãe executa.** Os stories e o destaque = `soft-conteudo`. O desenho da oferta e do bônus = `soft-posicionamento` (bloco oferta) + `soft-funil-carta`.
 
 **Ajuste Soft.** Valida com verdade: se a caixinha não acusou demanda real, não fabrica. O bônus é vantagem honesta de entrar cedo, não escassez inventada. Pré-venda Soft é teste de mercado, não pressão.
 

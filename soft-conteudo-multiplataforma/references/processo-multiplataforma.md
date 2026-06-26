@@ -14,9 +14,9 @@ Esta skill é **tática**. A engenharia do conteúdo original (Estrutura Mãe, F
 
 A Estrutura Mãe (os 5 papéis: Capa · Capa Reserva · Contexto · Conteúdo · CTA) e a Fórmula 7 **moram no guia**, não esta reference. Na primeira invocação da sessão, leia:
 
-- **`guia/05-feed-conteudo.md`** (Cap 5) - onde vive a Estrutura Mãe e a engenharia do conteúdo Soft. **É a base da engenharia reversa desta reference.**
-- **`guia/06-carrossel.md`** (Cap 6) - a Fórmula 7 (os 7 movimentos), pra quando o âncora é um carrossel.
-- **`guia/01-filosofia.md`** (Cap 1) - filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
+- **`references/estrutura-peca.md`** - onde vivem a Estrutura Mãe (os 5 papéis) e as 7 formas de aterrar cada um. **É a base da engenharia reversa desta reference.**
+- A **Fórmula 7** (os 7 movimentos), pra quando o âncora é carrossel, vive na skill `soft-conteudo-carrossel`.
+- **`references/conducao-na-pratica.md`** + **`references/nucleo-soft-extracao.md`** - filtra-não-convence, o vilão, o tom clínico que NÃO podem vazar na adaptação.
 
 E o tom universal em `shared-references/` (`shared-references/dicionario-conversacional.md` + `shared-references/adaptacao-semantica.md` - **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (`shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/`).
 
@@ -28,7 +28,7 @@ Também obrigatório na primeira invocação:
 ## 1. Por que a Estrutura Mãe é central esta reference
 
 Adaptação multiplataforma **sem Estrutura Mãe** vira tradução de tom e ritmo - superficial.
-Adaptação **com Estrutura Mãe** vira **engenharia reversa**: a skill extrai os 5 papéis do conteúdo-âncora e re-renderiza no formato alvo preservando a função de cada papel. A definição dos 5 papéis está no Cap 5 do guia - consulte lá, não a reescreva aqui.
+Adaptação **com Estrutura Mãe** vira **engenharia reversa**: a skill extrai os 5 papéis do conteúdo-âncora e re-renderiza no formato alvo preservando a função de cada papel. A definição dos 5 papéis está em `references/estrutura-peca.md`.
 
 ### Protocolo de adaptação via Estrutura Mãe
 
@@ -108,7 +108,7 @@ Consulta `references/nucleo-soft-extracao.md` e extrai do conteúdo-âncora:
 
 ### Etapa 4 - Mapeamento dos 5 papéis da Estrutura Mãe
 
-Identifica no conteúdo-âncora qual trecho faz o papel de Capa, Capa Reserva, Contexto, Conteúdo e CTA. (Definição dos papéis no Cap 5 do guia.)
+Identifica no conteúdo-âncora qual trecho faz o papel de Capa, Capa Reserva, Contexto, Conteúdo e CTA. (Definição dos papéis em `references/estrutura-peca.md`.)
 
 ### Etapa 5 - Re-renderização no formato alvo
 
@@ -186,13 +186,13 @@ O carrossel tem N slides mas os 5 papéis não são N unidades - alguns papéis 
 - **`references/plataforma-pdf-notion.md`** - PDF / Notion
 - **`references/plataforma-mini-webinar.md`** - Distribuição da Mini Webinar Soft (hospedagem, cauda, follow-up)
 
-Estrutura Mãe e Fórmula 7 → guia (Cap 5 + Cap 6). Tom e filtros → `shared-references/`.
+Estrutura Mãe → `references/estrutura-peca.md`. Fórmula 7 → skill `soft-conteudo-carrossel`. Tom e filtros → `shared-references/`.
 
 ---
 
 ## Resumo da regra única
 
-> **Multiplataforma não é tradução. É engenharia reversa. Mapeia os 5 papéis do original (Cap 5 do guia). Re-renderiza no formato alvo preservando função. Núcleo Soft intacto. Tom clínico intacto. CTA filtrante intacto. Filtros Anti-IA + Mobile-First antes de entregar.**
+> **Multiplataforma não é tradução. É engenharia reversa. Mapeia os 5 papéis do original (`references/estrutura-peca.md`). Re-renderiza no formato alvo preservando função. Núcleo Soft intacto. Tom clínico intacto. CTA filtrante intacto. Filtros Anti-IA + Mobile-First antes de entregar.**
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 

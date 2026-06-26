@@ -23,8 +23,8 @@
         "./soft-conteudo-reels",
         "./soft-conteudo-stories",
         "./soft-conteudo-multiplataforma",
+        "./soft-conteudo-impulsionar",
         "./soft-designer",
-        "./soft-funil",
         "./soft-funil-carta",
         "./soft-funil-miniwebinar",
         "./soft-funil-landing",
@@ -36,7 +36,7 @@
         "./soft-vendas-copiloto",
         "./soft-vendas-posvenda",
         "./soft-lancamento-pago",
-        "./soft-treino",
+        "./soft-treino-dieta",
         "./soft-financeiro"
       ]
     }

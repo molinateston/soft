@@ -111,4 +111,8 @@ Quando perguntar tipografia, mostre **sempre 3 opções nomeadas** que façam se
 
 ## Regra de ouro
 
-NUNCA proponha uma fonte fora desta lista. Se o usuário pedir fonte não listada, aceite mas avise: "Posso usar [fonte], mas ela não está na curadoria. Quer mesmo ou prefere uma das que recomendo?"
+A fonte da **marca do cliente sempre vence**. Se o cliente tem uma tipografia de marca declarada (a ID visual dele, ver `references/identidade-visual-cliente.md`), usa ELA, mesmo fora desta lista: é "cada cliente escolhe a sua ID". A curadoria acima é o **ponto de partida pra quem ainda não tem tipografia definida**, não uma cerca.
+
+Pra cliente SEM fonte de marca: proponha 3 desta lista, coerentes com a família visual. Se ele pedir uma quarta fora da lista, aceite (é a escolha dele).
+
+**Atenção ao export no Code:** só os **9 combos do `build_carousel.py`** (`playfair_classico`, `fraunces_premium`, `caslon_autoridade`, `inter_bruto`, `jakarta_limpo`, `space_tecnico`, `inter_pesado`, `bricolage_honesto`, `jakarta_confessional`) têm `.woff2` local pra embutir offline. Qualquer outra fonte do catálogo (ou a fonte da marca do cliente) funciona via `<link>` do Google Fonts: no Chat é automático; no Code, use `build_html(..., embed_fonts=False)` ou passe `custom_font_links` + `custom_font_family`. No Chat (HTML direto), a lista inteira e a fonte de marca rodam sem restrição.

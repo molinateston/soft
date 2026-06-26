@@ -22,6 +22,7 @@
 - 11. Checklist antes de mandar qualquer DM de prospecção
 - 12. Como a skill entrega uma prospecção quando pedida
 - Gate de saída obrigatório, o Crivo (bloqueante)
+- Falas de campo: vender a reunião (comparecimento)
 
 ---
 
@@ -329,3 +330,59 @@ Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/cr
 3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
 
 O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
+
+---
+
+## Falas de campo: vender a reunião (comparecimento)
+
+A confirmação anti-no-show (protocolo da seção 8) é o piso, não o teto. Ela impede o lead de esquecer; **não é ela quem faz o lead querer estar lá**. O que enche a sala é o peso que a reunião carrega antes de acontecer. Quando o agendamento já cria expectativa e valor, o comparecimento deixa de depender de lembrete. As falas abaixo vieram de campo e cobrem isso: dar peso à reunião, prepará-la antes da hora, fazer o lead cravar o compromisso na boca dele, e puxar o follow-up pra dentro da própria call em vez de perseguir depois.
+
+### Dar peso à reunião (jogo de Copa, não lembrete)
+**Fala real:**
+> "Aquela reunião tem que ser o ato mais importante da vida dele. 'Eu até posso te lançar pra uma reunião, mas eu preciso entender se você faz sentido estar lá, porque o meu especialista é a hora mais cara que tem aqui e a agenda dele é super concorrida. O meu papel aqui é ser protetor e guardião dessa agenda.' Hoje, de 0 a 10, você quer resolver isso? E eu não tô falando que você vai comprar lá dentro. Faça chuva, faça sol, o que você tem amanhã às duas horas? Tem essa reunião. O ser humano não esquece de evento que é importante. Mandar 'lembrete pra não esquecer' joga tua autoridade lá embaixo."
+
+**Por que funciona:** Falta-se no que parece dispensável; comparece-se no que importa. Quando quem agenda se posiciona como guardião de uma agenda cara e disputada, a reunião vira um evento com peso, e o lead não falta a um evento importante. Pedir a nota de 0 a 10 qualifica a intenção antes de gastar a hora do especialista, e separar a nota da compra ("não tô falando que você vai comprar") tira a pressão sem tirar o peso. Já o "lembrete pra não esquecer" sinaliza que a reunião é descartável e rebaixa a sua autoridade.
+
+**Modelo pra adaptar:** "Eu até consigo te encaixar, mas preciso ver se faz sentido você estar lá, porque essa agenda é concorrida e eu sou o guardião dela. De 0 a 10, quanto você quer resolver [problema]? E olha, não é que você vai fechar lá dentro. Vai ter uma sua vida antes e depois dessa conversa. Faça chuva ou faça sol, às [hora] você está?"
+
+*(origem: DYU10arO8xn)*
+
+### A reunião começa antes da reunião (entra ganhando)
+**Fala real:**
+> "Se prepara pra reunião, mano. A reunião começa antes da reunião. Você entra na call no zero a zero. Tudo que você não fizer antes da call você começa só a perder. Da mesma forma que pode chegar ganhando. Não chega só repetindo a nota que o pré-vendas passou, vai além: 'inclusive, vi lá na sua postagem...', isso já gera valor."
+
+**Por que funciona:** Chegar sem ler a nota e sem olhar o perfil é entrar perdendo. Quem pesquisa antes gera valor de cara, e o lead sente que foi estudado, não atendido em série. O preparo é a parte que quem conduz controla por inteiro, e esse controle, exercido desde antes da call, recupera até o lead que estava empurrando a decisão com a barriga. Por isso "vender a reunião" começa muito antes do horário marcado: começa no estudo do caso.
+
+**Modelo pra adaptar:** "Antes da nossa conversa eu vou olhar seu [perfil/contexto/material que mandou] com calma, pra a gente não gastar tempo no óbvio. Inclusive já vi [detalhe concreto que você mesmo descobriu]." Quem aparece sabendo dos detalhes começa ganhando; quem improvisa começa perdendo.
+
+*(origem: DTidnOrjvUF)*
+
+### Fazer o lead cravar o compromisso na boca dele
+**Fala real:**
+> "Quando alguém fala pra você 'vamos marcar assim?', não vai marcar. 'Vou ver e te falo', não viu, não te falou. Esse é um modo de dizer um não educadamente. Para de botar essa esperança. Agora, 'pô, vamos fazer essa parada aqui, que dia? Minha agenda é essa', então tá marcado, sábado, duas horas, foi. Faça chuva, faça sol, o que você tem amanhã às duas horas?"
+
+**Por que funciona:** "Vou ver e te falo" e "vamos marcar qualquer hora" são "não" com educação, e alimentar esperança neles é perder tempo. Compromisso real tem dia, hora e a confirmação saindo da boca do próprio lead, ali na hora. Quando ele mesmo diz "sábado às duas eu estou", o peso da palavra é dele, não seu, e o comparecimento sobe. Se a pessoa não consegue cravar a hora, ela já te respondeu, e você descobre isso antes de reservar a agenda do especialista.
+
+**Modelo pra adaptar:** "Pra valer a pena pra nós dois, eu preciso de uma data de verdade, não um 'qualquer dia'. Olha minha agenda: [opções]. Qual desses, faça chuva ou faça sol, você está? E se surgir um compromisso na hora, o que você faz?" Quem vai mesmo crava o dia e responde na hora; quem foge não marca.
+
+*(origem: DXuDi0Pjaqe)*
+
+### Antecipar o follow-up pra dentro da reunião
+**Fala real:**
+> "A melhor forma de fazer follow-up é não necessitar e depender do follow-up. Por que que eu deveria fazer um follow-up contigo? Por que a gente não mata isso aqui dentro? Me diz o que ficaria pendente pra você precisar pensar depois. O jogo é sempre de antecipação: por que eu devo, daqui uma semana, entrar em contato contigo? O que vai ser diferente de agora? Você fez a reunião toda, fez todas as amarras, e não fechou. Por que você acredita que vai fechar depois? Quem quer resolver, resolve dentro da call."
+
+**Por que funciona:** O follow-up nasce de uma dúvida que ficou em aberto. Resolver essa dúvida dentro da própria reunião evita o limbo do "vou pensar" e o desgaste de perseguir depois. Antecipar é forçar a pessoa a verbalizar agora por que valeria a pena qualquer passo futuro; se ela não consegue justificar, o follow-up só prolonga um não. Isso também dá peso à call: ela passa a ser o lugar onde a decisão acontece, não uma etapa de um vai-e-vem sem fim.
+
+**Modelo pra adaptar:** "Por que a gente não resolve isso aqui agora? Me diz o que ficaria pendente pra você precisar pensar depois." E se não fechou: "O que vai ser diferente daqui a uma semana?" Se a pessoa não sabe dizer por que avançaria, o adiamento é um não educado. Se sobrar follow-up, que seja com clareza do que falta, nunca um "oi, tudo bem?" vazio.
+
+*(origem: DWJLAKWjo4w)*
+
+### Não dar preço no agendamento (vender a reunião pela analogia do restaurante)
+**Fala real:**
+> "Você já foi num restaurante? Eles te trazem a conta antes ou primeiro perguntam o que você quer comer, qual o tamanho da sua fome? Como eu vendo serviço, não tem como eu te passar preço sem saber o que você precisa. Me adianta uma coisa: hoje, qual é a maior dificuldade que você vem tendo com [problema]?"
+
+**Por que funciona:** Já no agendamento, recusar dar preço e redirecionar pra dor protege a futura reunião de virar caça-preço. Garante que quem comparece chega pra conversar, não pra arrancar um número e sumir. A analogia do restaurante deixa óbvio e justo que o preço venha por último, sem soar como fuga. O lead que aceita esse enquadramento já chega na call com a cabeça certa, e isso é vender a reunião antes dela acontecer.
+
+**Modelo pra adaptar:** No agendamento, quando perguntam preço antes da hora: "Valor a gente vê na conversa, igual no restaurante você vê a conta depois de pedir, não antes. Me adianta uma coisa: qual é a maior dificuldade que você vem tendo com [problema]?" Aquece o comparecimento certo e desarma o caça-preço.
+
+*(origem: DVjBBCKDRwn)*

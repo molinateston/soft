@@ -4,7 +4,7 @@
 
 ## Princípios do template (por que é assim)
 
-- **Factual, não acusatório.** A carta relata fatos e pede providências; não declara "isto é ilegal" (isso é parecer e pode ser falso — o teto, por exemplo, só vale para operações pós-03/01/2024). Quem decide ilegalidade é o Judiciário.
+- **Factual, não acusatório.** A carta relata fatos e pede providências; não declara "isto é ilegal" (isso é parecer e pode ser falso, o teto, por exemplo, só vale para operações pós-03/01/2024). Quem decide ilegalidade é o Judiciário.
 - **Pede, não exige resultado.** Solicita detalhamento, revisão e proposta; não afirma que o banco "é obrigado a zerar" nem que o cliente "vai pagar uma fração".
 - **Cita a lei como referência, com a ressalva certa.** Menciona o teto da Lei 14.690/2023 **condicionado à data da operação**.
 
@@ -56,8 +56,8 @@ Atenciosamente,
 ## Como adaptar por situação
 
 - **Operação anterior a 03/01/2024:** remova a menção ao teto da Lei 14.690 no item 2 (não se aplica) e foque no pedido de detalhamento e de proposta de quitação. Não invente cobertura legal que não existe.
-- **Cliente não pagou valor indevido (dívida só em aberto):** suavize a alínea (d) — a devolução em dobro pressupõe pagamento do indevido; em dívida apenas em aberto, peça a correção/recalculo, não restituição.
-- **Banco Central:** o mesmo corpo serve; lembre o cliente da expectativa real (o BACEN fiscaliza e ranqueia, não resolve o caso) — ver `02`, item 8.
+- **Cliente não pagou valor indevido (dívida só em aberto):** suavize a alínea (d), a devolução em dobro pressupõe pagamento do indevido; em dívida apenas em aberto, peça a correção/recalculo, não restituição.
+- **Banco Central:** o mesmo corpo serve; lembre o cliente da expectativa real (o BACEN fiscaliza e ranqueia, não resolve o caso), ver `02`, item 8.
 
 ## O que NUNCA colocar na carta
 

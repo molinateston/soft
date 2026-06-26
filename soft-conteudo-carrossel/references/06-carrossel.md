@@ -75,7 +75,7 @@ Quando bater a vontade de explicar tudo em 15 cards, é sinal de que o Carrossel
 
 ## 6.6 · A capa: concreta e emocional (Embalagem A+B)
 
-A embalagem da capa **sai dos templates de headline** - não há sistema à parte. O banco de 30 templates é o repositório operacional de headlines do guia inteiro, e vive no **Cap 7 (Reel)**, mapeado por gatilho dominante; o Carrossel bebe dele exatamente como o Reel. A engenharia de escolha está no Cap 5: identifica o gatilho que quer ativar, depois vai ao banco buscar a fórmula. Aqui, o que importa é o que faz uma capa de Carrossel funcionar.
+A embalagem da capa **sai dos templates de headline** - não há sistema à parte. O banco de 30 templates + os 7 gatilhos vivem na skill `soft-conteudo-headlines` (`references/templates.md`), mapeados por gatilho dominante; o Carrossel bebe do mesmo banco que o Reel. A engenharia de escolha é de lá: identifica o gatilho que quer ativar, depois vai ao banco buscar a fórmula. Aqui, o que importa é o que faz uma capa de Carrossel funcionar.
 
 A mecânica é a **Embalagem A+B**: dois termos concretos que, juntos, criam uma imagem que o cérebro visualiza mas não consegue completar. É a curiosidade que puxa pro próximo card. Os termos precisam ser concretos - número real, nome real, condição inusitada, tese que contraria o mercado. Nunca abstração.
 

@@ -83,11 +83,13 @@ A copy pode vir numerada (`Slide 1:`), em markdown (`## Slide 1`), ou em texto s
 
 Depois, aplique a tabela de `references/deteccao-automatica.md` pra inferir a **função** de cada slide (hook, problema, virada, método, prova, oferta, CTA, confissão, lista-substitui, conteúdo-genérico), isso espelha os 7 movimentos do Cap 6. **Declare a lista de funções detectadas ao usuário antes de seguir**, é a única chance dele corrigir antes de você desenhar errado. Se a estrutura não estiver clara, pergunte. Nunca adivinhe número de slides.
 
-### Passo 2, Escolha de família e pergunta de design
+### Passo 2, Aplica a ID do cliente, ou escolhe família e pergunta
+
+**Antes de tudo, cheque a identidade visual do cliente** (`references/identidade-visual-cliente.md`). Se ele já tem ID (no `soft-perfil.md`, ou anexou referência, ou disse "igual ao último"): **aplica a marca DELE e pula pro Passo 3** (família = estrutura; cores/fontes/formato do cliente = tinta). A skill é marca-neutra: cada cliente desenha na própria ID, nunca numa marca-padrão.
 
 **Se o usuário já indicou família/estilo** ("editorial", "manuscrito", "igual ao último", anexou referência visual): pule pro Passo 3.
 
-**Se NÃO indicou nada**, pare e pergunte. Use a tool `ask_user_input_v0` quando disponível. Leia `references/perguntas-design.md` ANTES de perguntar. A pergunta tem 4 partes: (1) família visual; (2) cor de destaque, opções nomeadas + "outra"; (3) combinação tipográfica dentro da família (leia `references/tipografia.md`); (4) elementos visuais extras (só tipografia / line-art / tweet-avatar no slide 1 / diagrama manuscrito, as opções 2–4 combinam entre si).
+**Se NÃO indicou nada e não tem ID salva**, pare e pergunte. Use a tool de pergunta interativa quando disponível (senão, markdown). Leia `references/perguntas-design.md` ANTES de perguntar. Ao fim, ofereça salvar as escolhas como a ID do cliente. A pergunta tem 4 partes: (1) família visual; (2) cor de destaque, opções nomeadas + "outra"; (3) combinação tipográfica dentro da família (leia `references/tipografia.md`); (4) elementos visuais extras (só tipografia / line-art / tweet-avatar no slide 1 / diagrama manuscrito, as opções 2–4 combinam entre si).
 
 Não pergunte cor de fundo nem de texto, são inferidas pela família (Editorial = preto; Clínico = branco; Manuscrito = pode ser preto ou branco, pergunte só nesse caso).
 
@@ -149,7 +151,7 @@ Cada slide é um `<div class="slide">` independente de 1080×1350px. O preview n
 
 ### Passo 5.5, Auditoria obrigatória antes do preview
 
-**Nunca mostre preview sem auditar.** Leia `references/auditoria-pre-preview.md` e rode o checklist de 12 perguntas em cada slide. Qualquer NÃO aciona correção via `str_replace` no slide específico e re-auditoria antes de seguir. A auditoria é **interna**, não reporte ao usuário; ele vê só o preview limpo. Garante que todo carrossel passa nas regras duras (fundo chapado, 1 accent, padding 100px, simetria, hierarquia 2 níveis, negrito cirúrgico, zero sombra, escala correta) sem depender do bom senso momentâneo.
+**Nunca mostre preview sem auditar.** Leia `references/auditoria-pre-preview.md` e rode o checklist de 16 perguntas em cada slide. Qualquer NÃO aciona correção via `str_replace` no slide específico e re-auditoria antes de seguir. A auditoria é **interna**, não reporte ao usuário; ele vê só o preview limpo. Garante que todo carrossel passa nas regras duras (fundo chapado, 1 accent, padding 100px, simetria, hierarquia 2 níveis, negrito cirúrgico, zero sombra, escala correta) sem depender do bom senso momentâneo.
 
 Slide que falhou e não pode ser corrigido (ex.: copy impossível de acomodar em 71+ palavras de corpo) → pare, reporte o problema específico, sugira redução na copy.
 
@@ -206,7 +208,7 @@ Não terceirize decisão técnica pro leigo. Decida você e mostre o resultado.
 7. **Nunca weight 600 chamando de "negrito".** Negrito é 700 ou 800.
 8. **Nunca exporta sem mostrar preview e pedir aprovação.** Sempre passo intermediário.
 9. **Nunca regenera o carrossel inteiro por 1 ajuste.** Edita só o slide mencionado com `str_replace`.
-10. **Nunca fonte fora da curadoria.** O script aceita 9 combinações (a chave `font_combo`, propor outra dá erro): `playfair_classico` · `fraunces_premium` · `caslon_autoridade` · `inter_bruto` · `jakarta_limpo` · `space_tecnico` · `inter_pesado` · `bricolage_honesto` · `jakarta_confessional`. Qual usar por família visual vive em `references/tipografia.md`. Nada fora dessas 9.
+10. **A fonte da MARCA do cliente sempre vence; a curadoria é a rampa de quem não tem.** Pro export embutido offline, o `build_carousel.py` traz 9 combos prontos (a chave `font_combo`): `playfair_classico` · `fraunces_premium` · `caslon_autoridade` · `inter_bruto` · `jakarta_limpo` · `space_tecnico` · `inter_pesado` · `bricolage_honesto` · `jakarta_confessional`. Qual usar por família visual vive em `references/tipografia.md`. **Mas se o cliente tem fonte de marca própria (a ID visual dele, ver `references/identidade-visual-cliente.md`), usa ELA**, mesmo fora da curadoria: no Chat, adiciona o `<link>` do Google Fonts + o `font-family`; no Code, passa `custom_font_links` + `custom_font_family` pro `build_html()` (a fonte da marca ignora os 9 combos). Os 9 são o conjunto pronto-offline pra quem ainda não definiu tipografia, não uma cerca.
 11. **Nunca preto puro #000 nem branco puro #FFF no fundo se a família for Editorial.** Editorial usa #0A0908 e #F5F2EC.
 12. **Nunca adiciona ilustração no hook por iniciativa própria.** Hook default é tipografia pura + espaço negativo. Ilustração só entra se o usuário (a) subir imagem, (b) pedir explicitamente, ou (c) entregar referência visual com ilustração.
 13. **SEMPRE simetria total nos slides.** A regra mais importante depois de "fundo chapado", o carrossel é feito pra ser impulsionado como anúncio, cada slide precisa parecer profissional e equilibrado. Padding 100px nos 4 lados, igual entre slides · `justify-content: center` + `align-items: center` no `.slide`, sempre · conteúdo num container interno com `max-width` 720–880px e `text-align: left` (ou `center` em CTA e prova-numérica) · use `make_symmetric_slide()` do `build_carousel.py` (`make_slide()` é deprecated) · proibido `position: absolute` pra conteúdo · proibido `flex-end`/`flex-start` · o bloco ocupa entre 60% e 100% da área útil horizontal.

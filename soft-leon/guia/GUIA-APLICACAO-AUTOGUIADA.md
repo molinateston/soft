@@ -268,7 +268,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ### O que o LEON faz
 
-> *"Abre conversa nova e aciona a `soft-funil`. Ela já vai ler sua `soft-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
+> *"Abre conversa nova e aciona a `soft-funil-carta`. Ela já vai ler sua `soft-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
 
 A skill confirma os pré-requisitos (Plano e Voz definidos), escreve primeiro a espinha em texto corrido na voz do cliente, depois adapta ao formato escolhido (Carta em 4 blocos pra leitura solitária, ou Vídeo com os timings de gravação), e diagrama caso a caso.
 
@@ -291,7 +291,7 @@ Carta densa, sem gordura, com um só caminho de saída. Fechou, libera o Passo 5
 
 ### Skill invocada
 
-`soft-funil`.
+`soft-funil-carta`.
 
 ---
 

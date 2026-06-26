@@ -28,7 +28,7 @@ Exemplos de tema-raiz:
 
 ### Passo 2, Desdobre em 6 ângulos
 
-Use os 6 ângulos canônicos (`processo-feed.md`) para criar variações do mesmo tema:
+Use os ângulos de escala (`references/metodo-reel.md`, 7.7: escala o ASSUNTO ou a ESTRUTURA) para criar variações do mesmo tema:
 
 | # | Ângulo | Desdobramento do tema-raiz "Precificação" |
 |---|---|---|
@@ -53,7 +53,7 @@ Distribua os formatos priorizando facilidade:
 
 ### Passo 4, Gere ganchos em lote
 
-Para cada Reel da sessão, crie 2-3 opções de gancho usando o banco (`references/processo-headlines.md`). Escolha o mais forte antes de gravar.
+Para cada Reel da sessão, crie 2-3 opções de gancho usando o banco de templates da skill `soft-conteudo-headlines`. Escolha o mais forte antes de gravar.
 
 ### Passo 5, Escreva roteiros em sequência
 
@@ -149,7 +149,7 @@ Critérios para impulsionar:
 - O conteúdo do Reel fala com público amplo (não só nicho).
 - O CTA direciona para perfil, não para venda direta.
 
-Para detalhes de configuração do Botão Turbinar, consulte `modo-impulsionar.md`.
+Para detalhes de configuração do Botão Turbinar, consulte a skill `soft-conteudo-impulsionar`.
 
 ---
 

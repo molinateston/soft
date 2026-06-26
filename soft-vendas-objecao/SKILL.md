@@ -7,11 +7,15 @@ description: "Quebra de objeção na venda Soft: isola a objeção REAL (a de tr
 
 Toda objeção dita esconde outra. "Tá caro" raramente é sobre o preço. O trabalho não é ter a resposta mais esperta pra frase que saiu, é descobrir o que de fato emperra e responder ISSO com verdade. A venda Soft devolve a decisão pro lead: ele sai com clareza, comprando ou não. Lead arrastado por resposta esperta não vira cliente, vira problema futuro.
 
+**O que esta skill faz por você:** isola e quebra a OBJEÇÃO (preço, tempo, "vou pensar") tratando a causa real, não o sintoma.
+
+**As 4 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer resposta.**
 
 ## Output Contract (o que você entrega)
 - Por padrão, **UMA resposta de objeção por vez**, com 1 linha de contexto (qual objeção real você isolou + por quê), nunca uma lista de 10 réplicas prontas.
-- Cada resposta vem com **a tabela do gate preenchida** (o artefato visível) e a **objeção real marcada**.
+- A saída é **limpa, como no Claude Chat**: a resposta e a **objeção real marcada** (1 linha de contexto). O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **para e espera** o cliente colar a réplica do lead (ou aprovar) antes da próxima.
 - Volume (banco de variações de uma objeção) só sob comando explícito.
 - Você **nunca inventa fala nem número do lead**, **nunca usa truque/escassez falsa**, e **nunca mostra resposta que falhou no gate**.
@@ -52,8 +56,8 @@ Com a real isolada, responde por UMA destas, sempre honesta:
 ## Passo 3, escreve UMA resposta (devolvendo a decisão)
 Escreve a réplica curta, no tom do lead, terminando em **pergunta de comando que devolve a escolha** (*"Facilita?"* / *"Resolve?"* / *"Faz sentido?"*). Tom de comando, nunca de súplica. Frase curta vence elaborada. **Não narra o fluxo** ("agora vou isolar"), entrega limpo.
 
-## Passo 4, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela. Só resposta com VEREDITO=PASSA vai pro cliente. Uma falha refaz a frase. Sem a tabela impressa, a resposta não foi entregue.
+## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
+Roda o gate em CADA resposta **internamente** (auditoria silenciosa). Só resposta com VEREDITO=PASSA vai pro cliente. Uma falha refaz a frase. A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só a resposta limpa (Passo 5), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -71,7 +75,7 @@ Preenche a tabela. Só resposta com VEREDITO=PASSA vai pro cliente. Uma falha re
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só a resposta que passou**, com a tabela do gate e a objeção real marcada. Pergunta "ele respondeu o quê? te dou a próxima ou ajusto essa?". **Espera** a réplica do lead antes de gerar a próxima. A venda é uma conversa, não um despejo de réplicas.
+Mostra **só a resposta que passou, LIMPA** (como no Claude Chat): a réplica e 1 linha de contexto da objeção real isolada, sem tabela, sem meta. Pergunta "ele respondeu o quê? te dou a próxima ou ajusto essa?". **Espera** a réplica do lead antes de gerar a próxima. A venda é uma conversa, não um despejo de réplicas.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **script de venda inteiro** (call/WhatsApp/reunião, as 7 fases) → **soft-vendas-script**.
@@ -94,6 +98,7 @@ Mostra **só a resposta que passou**, com a tabela do gate e a objeção real ma
 | Mesma objeção voltou e respondeu igual de novo | Confronta: *"tem algo além disso, o que é?"*; se não nomeia, encerra leve |
 | Abriu com "Perfeito" / "justamente por isso" automático | Corta o tique; responde direto no tom do lead |
 | Narrou o fluxo ("agora vou isolar a objeção") | Não narra: executa em silêncio e entrega só a resposta + a tabela |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/banco-de-objecoes.md`: 30 objeções no tom Soft + frases de poder por situação. Adapta ao caso real do lead, nunca cola a réplica pronta.

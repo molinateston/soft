@@ -7,12 +7,16 @@ description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de convers
 
 Carrossel e Reel atraem público novo. O Story trabalha quem já está dentro: aquece, qualifica e fecha. Não é placeholder nem vlog. É sistema de conversão, e cada frame tem função única. O arco do dia reorganiza uma percepção e termina apontando pro método, mesmo quando um frame isolado é leve. Story que só "engaja" sem filtrar nem aquecer falhou tanto quanto a oferta crua jogada às 8h da manhã.
 
+**O que esta skill faz por você:** monta a sequência de stories que aquece e converte quem já te segue. Ela tem 4 sistemas e escolhe com você o certo pro teu objetivo: **CARO** (a rotina diária que sustenta tudo), **Caixinha Estratégica** (planta pergunta e lê quem quer comprar), **Sequência de Venda de 5 dias** (campanha pra vender uma oferta), **Story Infiltrado** (atrair gente nova). Story é canal de venda diária, não enfeite.
+
+**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa de você o objetivo e o contexto antes de gerar; (4) contexto é rei; (5) **admite se faltar insumo, nunca inventa**: confere se tem a fala/o número/o case antes de montar e, se faltar, marca `[DADO: confirmar]` no lugar do furo e diz o que falta, jamais preenche com algo plausível; (6) **doc de output enxuto pros 2 leitores**: o que sai é otimizado pro humano que lê E pra IA que recebe como contexto: só os stories limpos + `[DADO: confirmar]`, zero meta-narração. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer frame que vá pro público.**
 
 ## Output Contract (o que você entrega)
 - A **sessão de stories** pedida, **frame a frame numerado**, cada frame com **tipo CARO marcado** (C/A/R/O) ou **dia da Sequência (1-5)**, e indicação de **texto na tela · áudio · sticker · visual**.
 - Você entrega **um bloco por vez** (a rotina CARO do dia, OU um dia da Sequência, OU a campanha dividida por dia), **mostra, e PARA** pro cliente aprovar antes do próximo.
-- Cada frame que afirma tese ou que tem CTA vem com **a tabela do gate preenchida** (o artefato visível).
+- Cada frame que afirma tese ou que tem CTA passa pelo gate, mas **o gate roda por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra frame que falhou no gate**.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
@@ -26,9 +30,11 @@ Três estados de entrada (declara qual é o seu antes de escrever):
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · lista do "não defendo" · cliente em uma frase.
 
 ## Passo 1, confirma a headline e o tipo de pedido
+**Antes de tudo, o pedido é CONSTRUIR ou DIAGNOSTICAR?** Se é diagnóstico (os stories não convertem, as métricas caíram), pula a construção: vai pra `references/algoritmo-e-metricas.md` (protocolo de diagnóstico), nomeia **UM gargalo** (completion, exit por frame, story-to-DM) + **UM experimento de 7 dias**, nunca 5 fixes de uma vez. Mede comparando com o típico do TEU perfil, não com benchmark de fora. Se é construir (o caso normal), segue abaixo.
+
 O arco do dia precisa de um eixo. **Assume que a HEADLINE/abertura já foi escolhida** (veio da soft-conteudo-headlines) e constrói os frames a partir dela. Se não tem headline/eixo do dia, manda fazer na **soft-conteudo-headlines** antes de seguir, não inventa um eixo morno.
 
-Decide qual sistema o pedido pede (são camadas, não estilos):
+**Puxa o objetivo de quem pediu antes de escolher o sistema** (Lei 3, consultiva): o que você quer com esses stories, vender uma oferta, demonstrar hoje uma consultoria, aquecer a base, abrir vaga, ou ler quem quer comprar? O objetivo decide o sistema. Se a pessoa já trouxe o contexto ("quero uma sequência pra vender X"), usa direto; se veio vago, pergunta UMA vez. Decide qual sistema o pedido pede (são camadas, não estilos):
 
 | Sistema | Função | Quando entra |
 |---|---|---|
@@ -75,8 +81,8 @@ Formato de entrega (copiável):
 **Visual:** [foto real/vídeo/print/fundo]
 ```
 
-## Passo 4, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pra cada frame que afirma tese ou tem CTA (Alinhamento leve sem tese e foto-bastidor não precisam). Só bloco com VEREDITO=PASSA vai pro cliente. Uma falha refaz aquele frame (não o arco). Sem a tabela impressa, o bloco não foi entregue.
+## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
+Roda o gate em CADA frame que afirma tese ou tem CTA **internamente** (Alinhamento leve sem tese e foto-bastidor não precisam). Só bloco com VEREDITO=PASSA vai pro cliente. Uma falha refaz aquele frame (não o arco). A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só os frames limpos (Passo 5), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -95,7 +101,7 @@ Preenche a tabela pra cada frame que afirma tese ou tem CTA (Alinhamento leve se
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só os frames que passaram**, em bloco (a rotina do dia, OU um dia da Sequência), com a tabela do gate. Pergunta "esse arco te serve? ajusto, sigo pro próximo dia, ou paro?". **Espera a aprovação** antes de gerar o próximo bloco ou a campanha inteira. Não despeja os 5 dias de uma vez.
+Mostra **só os frames que passaram, LIMPO** (como no Claude Chat), em bloco (a rotina do dia, OU um dia da Sequência). Sem tabela de gate, sem meta. Pergunta "esse arco te serve? ajusto, sigo pro próximo dia, ou paro?". **Espera a aprovação** antes de gerar o próximo bloco ou a campanha inteira. Não despeja os 5 dias de uma vez.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **HEADLINE/gancho/capa/abertura** isolada → **soft-conteudo-headlines** (faz a headline primeiro, o arco parte dela).
@@ -115,12 +121,15 @@ Mostra **só os frames que passaram**, em bloco (a rotina do dia, OU um dia da S
 | Arco que não aponta pro método (virou vlog) | Cada frame planta, posiciona, prova ou converte; senão corta |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorada=✓ |
 | Despejou os 5 dias de uma vez | Um bloco por vez, com gate, e PARA pra aprovar |
-| Narrou o fluxo ("agora vou montar a oferta") | Não narra: executa em silêncio e entrega só o frame + a tabela |
+| Narrou o fluxo ("agora vou montar a oferta") | Não narra: executa em silêncio e entrega só o frame limpo |
+| Entregou só CARO quando o objetivo era vender | Puxa o objetivo (Lei 3) e escolhe o sistema certo: Sequência de 5 dias pra campanha, Caixinha pra ler intenção |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/sistema-caro.md`: CARO frame a frame, 5 ângulos de Alinhamento, 4 tipos de Resultado, 4 modelos de Oferta, banco de fotos, rotina semanal baseline.
 - `references/caixinha-estrategica.md`: 3 tipos de pergunta plantável, estrutura da resposta em 3-4 frames, banco por nicho, frequência.
 - `references/sequencias-de-venda.md`: variações da Sequência de 5 dias por ticket e formato (auditoria, evento, alto ticket, remarketing, híbrido), roteiros preenchidos, erros fatais.
 - `references/story-infiltrado.md`: tráfego frio, 5 ângulos canônicos, régua de verba e decisão em 3 dias, métricas-âncora.
-- `references/algoritmo-e-metricas.md`: benchmarks 2026 (completion >60%, exit por frame, story-to-DM), Highlights como ativo permanente, protocolo de diagnóstico.
+- `references/algoritmo-e-metricas.md`: benchmarks 2026 (completion >60%, exit por frame, story-to-DM), Highlights como ativo permanente, protocolo de diagnóstico. **Dirigida no ramo de diagnóstico do Passo 1.**
+- `references/camadas-conciencia.md`: as 3 camadas de atração aplicadas ao story (Caixinha aberta serve C1 alcance · Caixinha respondida densifica C2 convicção · Resultado serve C3 prova viva). Lê quando precisar decidir a função do arco no funil.
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` nos frames como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.

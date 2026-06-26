@@ -79,7 +79,7 @@ Vazamento na Etapa 1 (alcance) afeta TODAS as etapas seguintes. Se você atacar 
 | **#2 Alcance qualificado** | Gancho fraco. Capa/primeiros 3s não filtram. | Hook bank + reformulação dos próximos 5 ganchos |
 | **#3 Engajamento qualificado %** | Peça não filtra, agrada mas não polariza. | Embalagem (skill `soft-conteudo`) + ângulo mais cirúrgico |
 | **#4 Cliques na Carta** | Bio fraca ou CTA inexistente. | Auditoria do perfil enxuto + CTA explícito em peças |
-| **#5 DMs qualificados** | Carta longa, genérica ou sem ponta filtrante. | Reescrita Carta (skill `soft-funil`) |
+| **#5 DMs qualificados** | Carta longa, genérica ou sem ponta filtrante. | Reescrita Carta (skill `soft-funil-carta`) |
 | **#6 Conversas WhatsApp** | Primeira mensagem fria ou demora resposta. | Script de primeira mensagem (skill `soft-vendas`) |
 | **#7 Reuniões realizadas** | Lead não qualifica ou Carta não filtrou. | Volta pra Carta + ajusta filtro de qualificação no DM |
 | **#8 Vendas + receita** | Quebrou alguma das 7 fases conversão. | Auditoria de reunião gravada (skill `soft-vendas`) |

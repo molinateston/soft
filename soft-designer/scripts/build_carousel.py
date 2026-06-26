@@ -285,33 +285,49 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-def build_html(slides_html, font_combo="inter_bruto", embed_fonts=False):
+def build_html(slides_html, font_combo="inter_bruto", embed_fonts=False,
+               custom_font_links=None, custom_font_family=None):
     """
     Monta o preview.html final.
 
     Args:
         slides_html: lista de strings, cada uma é o HTML completo de UM slide
                      (já um <div class="slide" style="...">...</div>)
-        font_combo: chave de FONT_LINKS — qual combinação tipográfica usar
+        font_combo: chave de FONT_LINKS, qual combinação tipográfica usar
         embed_fonts: se True, embeda fontes locais (.woff2 em assets/fonts/)
                      como base64. Use em ambientes sem acesso ao Google Fonts CDN.
                      Se False (default), usa <link> do Google Fonts.
+        custom_font_links: a(s) fonte(s) da MARCA do cliente (a ID visual própria
+                     dele) como string de `<link>`/`<style>`. Quando passado, a
+                     fonte da marca VENCE a curadoria: ignora font_combo e usa
+                     esta. É como "cada cliente escolhe a sua ID" vira código:
+                     a curadoria dos 9 combos é a rampa pra quem não tem fonte
+                     de marca, nunca uma cerca.
+        custom_font_family: o `font-family` default quando se usa
+                     custom_font_links (ex: "'Aktiv Grotesk', sans-serif").
 
     Returns:
         String HTML pronta pra escrever em preview.html
     """
-    if font_combo not in FONT_LINKS:
-        raise ValueError(
-            f"Combinação tipográfica desconhecida: {font_combo}. "
-            f"Opções válidas: {', '.join(FONT_LINKS.keys())}"
-        )
-
-    if embed_fonts:
-        font_links = build_embedded_fonts(font_combo)
+    if custom_font_links is not None:
+        # Fonte da marca do cliente: não passa pela curadoria nem pelo embed.
+        font_links = custom_font_links
+        default_font = custom_font_family or "system-ui, -apple-system, sans-serif"
     else:
-        font_links = FONT_LINKS[font_combo]
+        if font_combo not in FONT_LINKS:
+            raise ValueError(
+                f"Combinação tipográfica desconhecida: {font_combo}. "
+                f"Opções válidas: {', '.join(FONT_LINKS.keys())}. "
+                f"Pra fonte de marca fora da curadoria, use "
+                f"custom_font_links + custom_font_family."
+            )
 
-    default_font = FONT_FAMILY_DEFAULT[font_combo]
+        if embed_fonts:
+            font_links = build_embedded_fonts(font_combo)
+        else:
+            font_links = FONT_LINKS[font_combo]
+
+        default_font = FONT_FAMILY_DEFAULT[font_combo]
 
     # Cada slide vai dentro de um wrapper com label "SLIDE 1", "SLIDE 2"...
     wrapped_slides = []
@@ -371,7 +387,7 @@ def make_slide(content_html, bg_color, padding="100px", justify="center", extra_
 
 def make_symmetric_slide(content_html, bg_color, max_width=880, text_align="left", extra_style=""):
     """
-    Gera um slide com SIMETRIA TOTAL — margens iguais nos 4 lados (100px),
+    Gera um slide com SIMETRIA TOTAL, margens iguais nos 4 lados (100px),
     conteúdo centralizado opticamente vertical e horizontal, container interno
     com largura controlada pra evitar texto colado nas bordas.
 

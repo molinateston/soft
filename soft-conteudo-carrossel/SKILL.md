@@ -1,17 +1,21 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel/stories/multiplataforma (soft-conteudo, até serem atomizadas), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil).
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil).
 ---
 
 # Carrossel, a peça que move a decisão
 
 Reel atrai, carrossel vende. Quem desliza o primeiro slide já decidiu que vai aprofundar. O carrossel não fecha a venda (isso é a carta e o WhatsApp). Ele instala a crença que faz o leitor chegar na carta já tendo comprado a ideia. A peça não convence, ela reorganiza a percepção: o leitor chega sozinho na conclusão e a venda vira consequência. Carrossel que vira mini-aula falhou, o leitor já tem informação demais.
 
+**O que esta skill faz por você:** pega a headline escolhida e monta o carrossel que instala a crença e move a decisão (reel atrai, carrossel vende). É o passo que esquenta o leitor antes da carta.
+
+**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei: a estrutura abaixo é guia, não trilho (ver Passo 2); (5) **admite se faltar insumo, nunca inventa**: confere se tem a fala/o número/o case antes de montar e, se faltar, marca `[DADO: confirmar]` no lugar do furo e diz o que falta, jamais preenche com algo plausível; (6) **doc de output enxuto pros 2 leitores**: o que sai é otimizado pro humano que lê E pra IA que recebe como contexto: só o carrossel limpo + `[DADO: confirmar]`, zero meta-narração. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar o carrossel.**
 
 ## Output Contract (o que você entrega)
 - **A capa + 7 a 10 slides na Fórmula 7**, copy slide a slide, uma ideia por slide, na voz do cliente final do especialista.
-- **O mapa de densidade** (a tese de cada slide em 1 frase) e a **tabela do gate preenchida** (o artefato visível), impressos junto com o carrossel.
+- **O mapa de densidade** (a tese de cada slide em 1 frase). O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você entrega **um carrossel por vez** e **para** pra ajuste antes de gerar outro ou passar pro design.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra um carrossel que falhou no gate**.
 - A copy sai daqui. **A arte/PNG e a embalagem visual da capa são da `soft-designer`**, você define a tese e o texto e aciona ela.
@@ -28,8 +32,15 @@ Três estados de entrada (já com a headline na mão, declara qual é o seu ante
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · mecanismo nomeado · lista do "não defendo" · cliente em uma frase. A base não se inventa aqui, vem do Plano. Sem ela, a peça vira jornalismo que atrai estranho.
 
-## Passo 1, monta o mapa de densidade ANTES de escrever frase
-Densidade vence comprimento. Antes de redigir, lista **a tese de cada slide em 1 frase**, da capa ao CTA. Regra dura: **carrossel de ~10 slides exige ≥6 teses DISTINTAS.** Duas teses iguais com roupa nova se fundem (corta um slide). Cada slide AVANÇA a espinha, nunca repete o anterior com outras palavras.
+## Passo 1, declara a camada e monta o mapa de densidade (ANTES de escrever frase)
+**Primeiro a camada (atração é funil, não bloco).** Decide a que camada este carrossel serve: muda a capa e o nível de filtro:
+- **C1 Alcance:** capa que o leigo entende em 1s, não filtra; o técnico densifica nos cards 4-7. Volume (3-5/sem).
+- **C2 Convicção:** capa que FILTRA (o cliente certo para, o resto passa); abre lacuna que só fecha no método. É o carrossel que mais vende (2-4/sem).
+- **C3 Prova viva:** capa sobre o ALUNO transformado (nome + contexto + número + prazo); você é o mediador, não o herói (1-2/sem).
+
+Declara a camada em 1 linha no topo do mapa. Detalhe + a **regra do "fragmento do produto"** (cada módulo do método vira 3-5 carrosséis C2 que abrem lacuna que só fecha no produto) em `references/camadas-conciencia.md`.
+
+**Depois o mapa de densidade.** Densidade vence comprimento. Antes de redigir, lista **a tese de cada slide em 1 frase**, da capa ao CTA. Regra dura: **carrossel de ~10 slides exige ≥6 teses DISTINTAS.** Duas teses iguais com roupa nova se fundem (corta um slide). Cada slide AVANÇA a espinha, nunca repete o anterior com outras palavras.
 
 Esse mapa é o esqueleto que o gate vai conferir. Se não fecha 6 teses distintas, o tema não tem corpo pra carrossel: ou aprofunda o ângulo, ou vira reel.
 
@@ -52,15 +63,26 @@ Os dois pontos onde o carrossel morre:
 
 Menos de 7 slides não desenvolve a tensão. Mais de 10 cansa e derruba o CTA.
 
+**Contexto é rei (a estrutura flutua).** A Fórmula 7 é o guia, não um trilho rígido. O assunto manda: um carrossel pode pesar mais no Mecanismo (2-3 slides só pra ele) e enxugar o Diagnóstico; outro pode ser quase inteiro sobre o Problema, quando a dor ainda não doeu o suficiente; outro corta a Nova Oportunidade porque a virada já está na capa. Mantém os 7 a 10 slides e o arco ADMA de pé, mas distribui o peso pelo que ESTE assunto pede. Decide o peso no mapa de densidade (Passo 1) e justifica em 1 linha.
+
 ## Passo 3, escreve slide a slide (na voz do cliente)
 Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando numa frase-conclusão ancorada (nunca um slide que só prepara o próximo). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), toma lado, nunca morno. Trabalha dor e desejo (o estado preso × o estado solto) e, quando der, ancora o contraste num número.
 
-A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra). O slide do CTA é **obrigatório e firme**: pela consequência + um próximo passo real do funil (comenta uma palavra → direct, link → carta/isca). Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
+**Repertório tático por papel (puxa de `references/estrutura-peca.md`).** O arco da Fórmula 7 dá a ordem; a `estrutura-peca` dá as FORMAS de aterrar cada papel: escolhe **1 por papel**, nunca despeja todas:
+- **Contexto (slide 3):** 1 das 7 formas: Cena Filmada · Dia Padrão · Conselho Falido · Número Próprio · Diálogo Interno · Paradoxo Observável · Contraste com Personagem. Nunca preâmbulo didático ("antes de entrar no método...") nem currículo.
+- **Conteúdo (slides 7-8):** 1 das 7 formas: Contraste Emparelhado · Reframe · Casos Empilhados · Linha do Tempo Numérica · Nome-Número-Condição · Bastidor Crítico · Declaração+Sustentação. Sempre em contraste mercado×método.
+- **CTA (slide final):** 1 das 7 formas: Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S. Ticket R$3k+ pede Filtro Duro.
+
+**Faca Soft (teste antes de fechar cada slide de método):** *"se eu publicar isso, aumenta ou diminui o motivo de comprar o produto?"* Aumenta → fica. Diminui → corta. Dá o tijolo, nunca a planta da casa. (O exemplo card-a-card completo está em `references/06-carrossel.md` 6.7; modela, não copia.)
+
+**Tempero, só na revisão (`references/dispositivos-de-frase.md`).** Com a estrutura de pé, pergunta "tá chapado?" e injeta 1-2 dispositivos (preparação+virada, antítese, evocação sensorial, dizer o não-dito) onde a peça está morna, nunca os 6 de uma vez, nunca no lugar da estrutura.
+
+A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra). O slide do CTA é **obrigatório e muito bem feito** (é o que vira o carrossel em mensagem no direct): de preferência uma **palavra-chave pra comentar** que entrega algo concreto, com os bullets do que a pessoa recebe. Ex.: comenta TRÁFEGO que eu te mando (1) o modelo de anúncio, (2) o passo do atendimento, (3) o painel. Liga a palavra-chave ao próximo passo real do funil (direct → carta/isca). Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
 
 > Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
 
-## Passo 4, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pro carrossel inteiro. Só carrossel com a linha VEREDITO=PASSA vai pro cliente. Uma falha refaz o ponto (não a peça inteira). Sem a tabela impressa, o carrossel não foi entregue.
+## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
+Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só carrossel com a linha VEREDITO=PASSA vai pro cliente. Uma falha refaz o ponto (não a peça inteira). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o carrossel limpo (Passo 5), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -75,18 +97,18 @@ Preenche a tabela pro carrossel inteiro. Só carrossel com a linha VEREDITO=PASS
 | **Harry, dá pra ver?** | o diagnóstico fecha o olho e vira cena. ✗ "tenha mais clareza" · ✓ "a call de 1h vira 40 min de desabafo e um 'vou pensar'" | |
 | **Harry, dá pra falsificar?** | as afirmações são fatos falsificáveis, não adjetivos | |
 | **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **CTA com destino** | slide final tem CTA único, firme, com palavra-chave E próximo passo real do funil (direct/carta/isca); **sem destino = ✗** | |
+| **CTA forte com palavra-chave** | slide final tem CTA único e muito bem feito: palavra-chave pra comentar + o que a pessoa recebe (bullets/benefício) + próximo passo real do funil (direct/carta/isca); CTA fraco ou **sem destino = ✗** | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra o carrossel slide a slide, com o **mapa de densidade** e a **tabela do gate** junto. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
+Mostra **só o carrossel LIMPO** (como no Claude Chat), slide a slide: a copy de cada slide, sem tabela de gate, sem meta. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **headline / capa / gancho / abertura** isolada → **soft-conteudo-headlines**.
 - Pediu **arte / visual / PNG / design dos slides** → **soft-designer**.
-- Pediu **reel, stories ou adaptação multiplataforma** → **soft-conteudo** (até serem atomizadas em skill própria).
+- Pediu **reel** → **soft-conteudo-reels** · **stories** → **soft-conteudo-stories** · **adaptação multiplataforma** → **soft-conteudo-multiplataforma**.
 - Pediu **Plano / posicionamento / fundação / mecanismo** → **soft-posicionamento**.
 - Pediu **carta / VSL / página / a venda em si** → **soft-funil**.
 
@@ -102,10 +124,15 @@ Mostra o carrossel slide a slide, com o **mapa de densidade** e a **tabela do ga
 | Terminou sem CTA ou com CTA cafona | Slide final: CTA único, firme, palavra-chave + próximo passo real do funil |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou a peça inteira sem mapa nem gate | Volta: mapa de densidade + gate impressos, e PARA pra escolha |
-| Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o resultado + as tabelas |
+| Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o carrossel limpo, sem as tabelas do gate |
+| Engessou a Fórmula 7 ignorando o assunto | Contexto é rei (Lei 4): redistribui o peso, mais no problema OU no mecanismo, mantendo o arco ADMA e os 7-10 slides |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/06-carrossel.md`: a engenharia completa do carrossel (Alta Polaridade, a Fórmula 7 nos 10 slides, Embalagem A+B da capa, exemplo card a card, métricas e diagnóstico por sintoma). É a fonte da verdade do formato.
 - `references/conducao-na-pratica.md`: os reframes da condução (palatável não raso, cada peça é um cheque, estourar a bolha, polarizar, dar o ouro). O porquê e o como por trás da peça.
-- `references/modo-construcao.md`: o loop de escrever-e-auto-criticar (ancoragem antes da pele, teste de densidade, auto-gate). É o mesmo gate do Passo 4, com mais detalhe.
+- `references/modo-construcao.md`: o loop de escrever-e-auto-criticar (ancoragem antes da pele, gera 7 ângulos e descarta os 2 óbvios, teste de densidade, auto-gate). É o mesmo gate do Passo 4, com mais detalhe.
+- `references/camadas-conciencia.md`: as 3 camadas de atração (C1 Alcance · C2 Convicção · C3 Prova viva), o critério de capa por camada e a regra do "fragmento do produto". **Dirigida no Passo 1.**
+- `references/estrutura-peca.md`: a Estrutura-Mãe dos 5 papéis com as 21 formas nomeadas (7 de Contexto + 7 de Conteúdo + 7 de CTA), tabelas de decisão por papel, a Faca Soft e os anti-padrões de cada papel. **Dirigida no Passo 3.**
+- `references/dispositivos-de-frase.md`: o repertório de tempero (preparação+virada, âncora do cotidiano, dizer o não-dito, evocação sensorial, antítese) que entra na revisão, depois da estrutura de pé. **Dirigida no Passo 3.**
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` no carrossel como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.

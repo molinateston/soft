@@ -7,11 +7,15 @@ description: "Escreve o SCRIPT DE VENDA do método Soft: o roteiro de fechamento
 
 A venda Soft revela a dor real e pede a decisão, sem empurrar. O lead chega aquecido pela carta ou pelo vídeo: já entendeu o método, já viu o valor. Não está convencido, está aberto. O script não convence do zero nem trata como já vendido. Ele confirma o desejo em voz alta, remove a última objeção e dá o caminho pra fechar. Quem chegou no fim já decidiu; o fechamento só operacionaliza.
 
+**O que esta skill faz por você:** conduz o SCRIPT de venda 1:1 (call/WhatsApp/reunião): revela a dor, mostra o caminho e pede a decisão, sem empurrar.
+
+**As 4 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer bloco.**
 
 ## Output Contract (o que você entrega)
 - O script nas **7 fases em blocos de código copiáveis, uma fase por bloco**, com lacunas `[...]` pro especialista preencher o que é dele. Nunca texto corrido.
-- Cada fase mostrada vem com **a tabela do gate preenchida** (o artefato visível).
+- O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. Cada fase é entregue **limpa, como no Claude Chat**.
 - **STOP por fase**: produz a fase, mostra, espera o OK, só então a próxima. Não despeja as 7 de uma vez.
 - Abre com **resumo em 1 linha** (canal, oferta, ticket, nicho, dor avançada) e fecha com **1 nota** de onde o especialista costuma emperrar.
 - Você **nunca inventa fala nem número do cliente**, **nunca revela preço com dúvida aberta**, e **nunca mostra fase que falhou no gate**.
@@ -54,8 +58,8 @@ Escreve **uma fase por vez**, em bloco copiável, no campo semântico do nicho (
 
 **Regras universais entre fases:** nunca apresenta antes de entender (F2) · nunca revela preço com dúvida aberta (F6) · nunca força quem não tem perfil (solta com leveza, é vitória) · uma oferta por vez.
 
-## Passo 4, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pra cada fase. Só fase com VEREDITO=PASSA vai pro cliente. Um ✗ refaz a fase. Sem a tabela impressa, a fase não foi entregue.
+## Passo 4, roda o GATE por dentro (auditoria interna, NÃO imprime)
+Roda o gate em CADA fase **internamente** (auditoria silenciosa). Só fase com VEREDITO=PASSA vai pro cliente. Um ✗ refaz a fase. A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só a fase limpa (Passo 5), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -74,7 +78,7 @@ Preenche a tabela pra cada fase. Só fase com VEREDITO=PASSA vai pro cliente. Um
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só a fase que passou**, no bloco copiável + a tabela do gate. Pergunta *"essa fase te serve? sigo pra próxima ou ajusto?"*. **Espera o OK** antes da fase seguinte. No fim das 7, entrega o resumo de 1 linha no topo e a nota de onde o especialista costuma emperrar.
+Mostra **só a fase que passou, LIMPO** (como no Claude Chat): o bloco copiável da fase, sem tabela de gate, sem meta. Pergunta *"essa fase te serve? sigo pra próxima ou ajusto?"*. **Espera o OK** antes da fase seguinte. No fim das 7, entrega o resumo de 1 linha no topo e a nota de onde o especialista costuma emperrar.
 
 ## When NOT to use (manda pra skill certa)
 - **Cabeça do vendedor / confiança / não consigo cobrar caro** · **conversa empacada AGORA (copiloto)** · **isolar uma objeção específica** · **prospecção no Direct** · **funil/win rate/CAC** · **pós-venda/indicação/testemunho** → essas frentes são da **soft-vendas** (mãe). Esta skill só gera o script.
@@ -97,6 +101,7 @@ Mostra **só a fase que passou**, no bloco copiável + a tabela do gate. Pergunt
 | Nome de framework vazou pro lead | "Degrau de implicação" vira *"o que isso te custou?"*; o lead nunca ouve o nome |
 | Tom de súplica ("você poderia...?") | Tom de comando educado: *"faz sentido?"* / *"fecha?"* |
 | Inventou um número "plausível" | Só número REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/script-builder.md`: a espinha de 7 fases com as falas prontas, mapa de formato por ticket e variações por canal. É o mesmo processo, com mais exemplo.

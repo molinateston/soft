@@ -12,10 +12,10 @@ Constrói a página de vendas inteira, do hero ao botão final. Cobre qualquer p
 
 Antes de escrever qualquer seção, consulte:
 
-1. **`guia/CODIGO-DE-ESCRITA.md`** - os 5 movimentos são obrigatórios em toda página
+1. **`shared-references/crivo/05-premissas-mestras.md`** - os 5 movimentos são obrigatórios em toda página
 2. **`shared-references/dicionario-conversacional.md`** - tom, ritmo, vocabulário
 3. **`shared-references/adaptacao-semantica.md`** - tradução para o campo semântico do nicho
-4. **a frente de headlines (`soft-conteudo`)** - para headline e VSL hook
+4. **a frente de headlines (`soft-conteudo-headlines`)** - para headline e VSL hook
 
 ---
 

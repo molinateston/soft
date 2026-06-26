@@ -199,14 +199,14 @@ Tamanho alvo: 800-1.500 palavras (4-7 min de leitura quando virar Carta).
 ### Etapa 3, Adaptação ao formato final (pedido separado)
 
 Após aprovação da versão-mestre, adapta pro formato escolhido:
-- Mini Carta → ver Cap 4.4 (guia) + `modo-mini-carta.md`
-- Mini Webinar → ver `modo-mini-webinar.md`
-- Landing Page → `references/processo-landingpage.md`
+- Mini Carta → ver o corpo desta skill (SKILL.md) + `modo-mini-carta.md`
+- Mini Webinar → ver a skill `soft-funil-miniwebinar`
+- Landing Page → a skill `soft-funil-landing`
 - Webinar → skill `soft-webinario`
 
 ### Etapa 4, Auditoria antes de entregar
 
-Antes de qualquer formato final, valida que a versão-mestre passa nos 9 princípios (vide Cap 4 (guia)).
+Antes de qualquer formato final, valida que a versão-mestre passa nos 9 princípios (vide o corpo desta skill (SKILL.md)).
 
 ---
 

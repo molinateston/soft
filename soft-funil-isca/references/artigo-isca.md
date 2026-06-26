@@ -5,7 +5,7 @@
 
 Uma das formas mais fortes de isca: **um artigo longo em prosa que revela UM pedaço do método por dentro**, prova a tese por argumento, matemática e história, e converte não por pitch, mas por **filtro** (um convite no fim). Não é "conteúdo de graça" nem tutorial: é a tese-mãe materializada, que faz o leitor reposicionar o que ele acha que precisa.
 
-É a isca certa pra quem já tem audiência e quer **aprofundar a confiança em escala** (o leitor lê 10 minutos e sai mais convencido da CAUSA do que sairia de uma call). O destino é a conversa quente ou o pré-qualificador (`processo-desejo.md` / `soft-vendas`).
+É a isca certa pra quem já tem audiência e quer **aprofundar a confiança em escala** (o leitor lê 10 minutos e sai mais convencido da CAUSA do que sairia de uma call). O destino é a conversa quente ou o pré-qualificador (a skill `soft-funil-carta` / `soft-vendas`).
 
 ## A macroestrutura (13 movimentos)
 
@@ -34,7 +34,7 @@ Cada movimento tem uma função. A ordem importa, é uma escada de percepção, 
 - **Reframe causa > resultado.** O leitor reposiciona o que acha que precisa: do atalho tático pra causa estrutural. E a causa estrutural é exatamente o que o produto entrega. Vendeu sem pedir pra comprar.
 
 ## Por que isso é Soft (e onde encaixa)
-É o método na veia: **filtra e convence revelando, nunca empurra**; mecanismo nomeado; custo invisível ("o tamanho do problema que você não via"); convite-não-pitch (o mesmo papel do pré-qualificador/Carta); prova honesta. O "convite em Doc de 4-5 páginas" é a **Mini Carta** (`processo-desejo.md`) em outra embalagem. A "marca que torna a call desnecessária por desenho" é o **Posicionamento Incomum + Funil Minimalista**, a tese-mãe do método.
+É o método na veia: **filtra e convence revelando, nunca empurra**; mecanismo nomeado; custo invisível ("o tamanho do problema que você não via"); convite-não-pitch (o mesmo papel do pré-qualificador/Carta); prova honesta. O "convite em Doc de 4-5 páginas" é a **Mini Carta** (a skill `soft-funil-carta`) em outra embalagem. A "marca que torna a call desnecessária por desenho" é o **Posicionamento Incomum + Funil Minimalista**, a tese-mãe do método.
 
 ## Erros que matam o Artigo-Isca
 - **Entregar o COMO de graça** → vira tutorial, não sobra produto. Guarda o como.
@@ -44,7 +44,7 @@ Cada movimento tem uma função. A ordem importa, é uma escada de percepção, 
 - **Sem inimigo** → sem o custo do caminho velho, falta a tensão que move.
 
 ## Handoff
-Artigo-Isca leu e filtrou → o leitor pronto bate na DM/WhatsApp → recebe o **convite** (Carta, `processo-desejo.md`) → diz sim → `soft-vendas` fecha. Sem call, por desenho.
+Artigo-Isca leu e filtrou → o leitor pronto bate na DM/WhatsApp → recebe o **convite** (Carta, a skill `soft-funil-carta`) → diz sim → `soft-vendas` fecha. Sem call, por desenho.
 
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)

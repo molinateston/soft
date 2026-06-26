@@ -7,11 +7,15 @@ description: "Escreve a PROSPECÇÃO ativa no Direct do método Soft, a primeira
 
 A prospecção Soft não vende pela DM. Ela abre uma conversa, qualifica de leve, e entrega o pré-qualificador (Mini Carta ou Mini Webinar). O pré-qualificador faz o trabalho pesado de filtrar e gerar desejo. A DM só puxa o lead pra dentro. Quem pula da DM fria pra call perde o filtro e fecha gente que cancela. Soft filtra, não convence.
 
+**O que esta skill faz por você:** abre a PROSPECÇÃO no Direct/WhatsApp: a primeira mensagem que começa a conversa sem parecer abordagem de vendedor.
+
+**As 4 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer mensagem.**
 
 ## Output Contract (o que você entrega)
 - **Diagnóstico do cenário** em 1 linha (frio / morno engajado / sinal ativo) antes de qualquer mensagem.
-- A **abertura pronta**, bloco copiável, já personalizada pelo sinal real do lead, com a tabela do gate preenchida.
+- A **abertura pronta**, bloco copiável, já personalizada pelo sinal real do lead. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - **Os 3 próximos passos**, como responder quando o lead abre, quando joga fricção, quando fecha a guarda.
 - A **mensagem de entrega do pré-qualificador** (bloco copiável, com link ou palavra-chave), quando chegar a hora.
 - Nota sobre **downsell** se houver sinal de ticket baixo.
@@ -75,8 +79,8 @@ Molde de entrega: conecta ao que ele disse ("pelo que você me contou") + nome d
 
 **Downsell:** se o lead deu sinal financeiro empacado ("tô começando", "sem orçamento", "reinvestindo tudo") ou quer "testar antes", oferece uma entrada menor em vez da Carta principal. Uma oferta só, nunca as duas juntas.
 
-## Passo 5, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pra cada mensagem. Só mensagem com a linha VEREDITO=PASSA vai pro usuário. Um ✗ refaz a mensagem. Sem a tabela impressa, a mensagem não foi entregue.
+## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
+Roda o gate em CADA mensagem **internamente** (auditoria silenciosa). Só mensagem com a linha VEREDITO=PASSA vai pro usuário. Um ✗ refaz a mensagem. A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só a mensagem limpa (Passo 6), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -94,7 +98,7 @@ Preenche a tabela pra cada mensagem. Só mensagem com a linha VEREDITO=PASSA vai
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro usuário. | |
 
 ## Passo 6, mostra e PARA
-Mostra o diagnóstico do cenário (1 linha), a abertura que passou (com a tabela do gate), e os 3 próximos passos (como responder a cada resposta provável). Pergunta "essa abertura te serve? rodo e te mando a sequência?". **Espera o OK** antes de escrever a entrega do pré-qualificador, o downsell ou os follow-ups.
+Mostra **só a peça LIMPA** (como no Claude Chat): o diagnóstico do cenário (1 linha), a abertura que passou (bloco copiável) e os 3 próximos passos (como responder a cada resposta provável). Sem tabela de gate, sem meta. Pergunta "essa abertura te serve? rodo e te mando a sequência?". **Espera o OK** antes de escrever a entrega do pré-qualificador, o downsell ou os follow-ups.
 
 Follow-up: 72h depois, **1 vez só**, leve ("só passando pra saber se conseguiu dar uma olhada; se não fez sentido, me fala que eu sumo"). Sem resposta = encerra com leveza. Não persegue.
 
@@ -117,6 +121,7 @@ Follow-up: 72h depois, **1 vez só**, leve ("só passando pra saber se conseguiu
 | Inventou um número/fala "plausível" do lead | Só sinal/fala REAL; sem fonte marca `[DADO: confirmar]` e não conta como Ancorada=✓ |
 | Perseguiu o lead com vários follow-ups | Follow-up 72h, 1 vez só; sem resposta, encerra e solta |
 | Despejou a sequência inteira de uma vez | Mostra a abertura + 3 passos e PARA; só escreve o resto após o OK |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/prospeccao-dm.md`: os 3 cenários completos, os 4 elementos, downsell, formulário pré-call, confirmação pré-reunião e as regras universais da DM Soft. É o mesmo fluxo acima, com mais exemplo, não um segundo sistema.

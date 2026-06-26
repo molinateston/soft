@@ -1,8 +1,8 @@
 # Tom e Ritmo desejo
 
-> **Quando consultar:** durante a redação ou auditoria da Mini Carta. Esta reference cobre **como escrever**, não o que escrever (estrutura está em `discurso-base-7-passos.md` e Cap 4.4 (guia)).
+> **Quando consultar:** durante a redação ou auditoria da Mini Carta. Esta reference cobre **como escrever**, não o que escrever (estrutura está em `discurso-base-7-passos.md` e no corpo desta skill (SKILL.md)).
 >
-> **Atenção:** Mini Webinar tem tom falado (não escrito). Use `modo-mini-webinar.md` pra produção de roteiro de vídeo, não esta reference.
+> **Atenção:** Mini Webinar tem tom falado (não escrito). Use a skill `soft-funil-miniwebinar` pra produção de roteiro de vídeo, não esta reference.
 
 ---
 
@@ -317,8 +317,8 @@ Se sim em todos: tom Soft. Pode entregar.
 
 | Tarefa | Reference |
 |---|---|
-| Princípios universais desejo | Cap 4 (guia) |
+| Princípios universais desejo | o corpo desta skill (SKILL.md) |
 | Estrutura dos 7 passos | `discurso-base-7-passos.md` |
-| Estrutura dos 4 blocos da Carta | Cap 4.4 (guia) |
+| Estrutura dos 4 blocos da Carta | o corpo desta skill (SKILL.md) |
 | Diagramação Notion-prioritária | `modo-mini-carta.md` |
 | Tom Soft mais amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |

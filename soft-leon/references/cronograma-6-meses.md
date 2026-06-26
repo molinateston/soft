@@ -77,7 +77,7 @@ Like é métrica decorativa. Cliente que mede sucesso por curtida tá no caminho
 - Validação inicial do método rodando ponta a ponta.
 
 **Armadilha vigiada:** Carta longa demais ou genérica
-Cliente faz Carta de 25 minutos de leitura, com 8 blocos, tentando "explicar tudo". Skill aponta: *"Carta Soft tem 4-7 minutos. 4 blocos. Sem preço. Se passou disso, cortou pouco. Volta pra `soft-funil`."*
+Cliente faz Carta de 25 minutos de leitura, com 8 blocos, tentando "explicar tudo". Skill aponta: *"Carta Soft tem 4-7 minutos. 4 blocos. Sem preço. Se passou disso, cortou pouco. Volta pra `soft-funil-carta`."*
 
 **Ações concretas M3:**
 1. Auditar Carta atual contra os 4 blocos Soft (Promessa pra quem é · Problema · Solução-Método-Proposta · CTA)

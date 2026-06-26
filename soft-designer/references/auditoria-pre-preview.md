@@ -2,7 +2,7 @@
 
 Checklist obrigatório que roda **depois** de gerar o HTML e **antes** de mostrar o preview ao usuário. Se qualquer item falhar em qualquer slide, corrija antes de apresentar. Não mostre slide que falhou na auditoria.
 
-> **Pré-condição (a copy já passou no gate).** Esta auditoria é só do VISUAL. A copy-visual de cada card já foi escrita e aprovada no Crivo no **Passo 0 do `processo-design.md`** (CUB por card, as 3 perguntas do Harry na capa, densidade, prova no CTA, anti-vazamento, anti-IA). A auditoria visual não roda sobre copy que não passou no gate: se você chegou aqui sem rodar o Passo 0, volte e rode. As 12 perguntas abaixo NÃO julgam a força da copy (isso é do gate), julgam se o desenho honra a copy aprovada.
+> **Pré-condição (a copy já passou no gate).** Esta auditoria é só do VISUAL. A copy-visual de cada card já foi escrita e aprovada no Crivo no **Passo 0 do `processo-design.md`** (CUB por card, as 3 perguntas do Harry na capa, densidade, prova no CTA, anti-vazamento, anti-IA). A auditoria visual não roda sobre copy que não passou no gate: se você chegou aqui sem rodar o Passo 0, volte e rode. As 16 perguntas abaixo NÃO julgam a força da copy (isso é do gate), julgam se o desenho honra a copy aprovada.
 
 ## Protocolo
 

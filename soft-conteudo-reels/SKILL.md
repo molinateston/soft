@@ -7,11 +7,15 @@ description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi 
 
 Reel atrai. Carrossel vende. A função do reel é uma só: fazer o cliente certo parar de rolar e te enxergar diferente. Ele não fecha venda (isso é na carta e no WhatsApp), não entrega passo a passo, não vira aula. Reel é story: peça diária, leve, gravada em minutos. Volume é o que faz o método rodar, e produção cara mata volume. O que performa é o gancho e a ideia, nunca a câmera.
 
+**O que esta skill faz por você:** transforma a headline escolhida no roteiro do reel que para o scroll e atrai o cliente certo (reel atrai, carrossel vende). O roteiro é o que importa; a câmera, não.
+
+**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei; (5) **admite se faltar insumo, nunca inventa**: confere se tem a fala/o número/o case antes de montar e, se faltar, marca `[DADO: confirmar]` no lugar do furo e diz o que falta, jamais preenche com algo plausível; (6) **doc de output enxuto pros 2 leitores**: o que sai é otimizado pro humano que lê E pra IA que recebe como contexto: só o roteiro limpo + `[DADO: confirmar]`, zero meta-narração. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer roteiro.**
 
 ## Output Contract (o que você entrega)
 - Por padrão, **1 roteiro de reel completo** pro pedido: headline nos 3 primeiros segundos (nos 3 tipos quando útil) + corpo pela espinha ADMA + CTA com destino real. Escrito como fala/cena, não como ensaio literário.
-- O roteiro vem com **a tabela do gate preenchida** (o artefato visível) e a marcação da espinha (qual frase é qual movimento).
+- O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. O roteiro vem com a marcação da espinha (qual frase é qual movimento).
 - Você **para e espera** o cliente aprovar/ajustar antes de gerar outro ou escalar pra lote.
 - Lote (5 reels numa tarde, banco de pautas) só sob comando explícito "lote de [tema]".
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra roteiro que falhou no gate**.
@@ -31,6 +35,8 @@ A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais 
 ## Passo 1, confirma o ÚNICO ponto do reel
 O reel carrega **um insight, uma virada, uma frase**, nunca a tese inteira. Quem tenta cuspir tudo numa peça produz vídeo pesado que ninguém assiste. Define em uma linha qual pedaço do quebra-cabeça esta peça materializa, e o que ela reorganiza na cabeça do leitor. A peça não precisa estar completa: ela é uma pecinha que o mercado monta ao longo do tempo. Se o ponto não cabe numa frase, ainda está grande demais, corta antes de roteirizar.
 
+**Declara a camada (atração é funil, não bloco):** C1 = reel curto com gancho que o leigo entende (alcance) · C2 = reel longo opinativo, técnica entremeada com opinião pessoal (convicção, ótimo pra dark post) · C3 = reel-visita ao cliente no contexto real dele (prova viva). A camada muda o gancho e o comprimento. (Detalhe em `references/camadas-conciencia.md`.)
+
 ## Passo 2, escreve o gancho nos 3 tipos (os 3 primeiros segundos)
 A headline do Passo 0 entra nos 3 primeiros segundos, trabalhada em **até 3 frentes ao mesmo tempo**. Uma já segura. As três em conflito multiplicam (o texto contradiz a imagem, a fala abre o loop, a pessoa precisa descobrir o que vem). Escreve as que servirem ao reel:
 
@@ -41,6 +47,12 @@ A headline do Passo 0 entra nos 3 primeiros segundos, trabalhada em **até 3 fre
 | **TEXTO NA TELA** | a frase sobreposta, grande, lida em silêncio | aparece enquanto a boca fala outra coisa relacionada |
 
 Não força os três se um só já cria o conflito. Mas marca no roteiro qual entra em cada frente.
+
+**Confirma qual dos 7 gatilhos a abertura aciona** (Recompensa · Mistério · Reconhecimento · Popularidade · Crença · Autoridade · Disrupção): toda abertura forte aciona ≥1. A headline já vem da `soft-conteudo-headlines` com o gatilho escolhido; aqui você confirma qual está ativo no corpo. **Disrupção exige defesa com argumento sólido logo depois**, senão vira clickbait e queima reputação. (Tabela dos 7 + os 3 tipos detalhados em `references/metodo-reel.md` 7.4.)
+
+**Amplificador (opcional, 0-2s antes da headline falada):** uma frase curta que precede a headline e carrega 2s a mais de atenção (ex.: "Por que ninguém tá falando sobre isso?"). Os 10 canônicos + a afinidade por template em `references/amplificadores.md`. Um por peça, nunca se a headline já está cravada ou o tempo dos 3s estourou.
+
+**Como aparecer no vídeo é só sugestão, nunca obrigação.** A pessoa grava do jeito dela; o que a skill garante e entrega é o ROTEIRO. Quando sugerir cena, gesto ou edição, deixa explícito que é opcional, um caminho possível, não uma regra.
 
 ## Passo 3, desenvolve pela espinha ADMA (comprimida em 1-2 min)
 A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a próxima. **A tensão não relaxa.** Se o leitor consegue prever a próxima frase, ele pula. A tensão é o que segura, não a informação. Mostra o **diagnóstico**, nunca o passo a passo executável (passo a passo vira aula grátis e não vira venda).
@@ -53,13 +65,17 @@ A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a p
 | **Virada** | Nova oportunidade | a virada de interpretação, existe um caminho diferente |
 | **Fechamento** | Mecanismo + Convite | aponta pro método (função, não execução) + CTA com destino |
 
-Duração: 1 a 2 minutos, em torno de 1:30 quando for impulsionar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese. Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastidor · contraste de resultado · crença errada · caso real) estão em `references/roteiros-modelo.md`, profundidade opcional, clona e adapta, nunca copia cru.
+Duração: 1 a 2 minutos, em torno de 1:30 quando for impulsionar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese.
+
+**Depois do gancho, o conteúdo precisa ser NOTÁVEL** (`references/metodo-reel.md` 7.5): (1) algo NOVO, um ângulo que quase ninguém falou (se a pessoa prevê a próxima frase, ela pula); (2) baixo carregamento cognitivo, explica como pra criança, termo técnico só com tradução fácil em seguida; (3) sem encher linguiça, curto não raso, zero introdução antes de entrar no conteúdo.
+
+Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastidor · contraste de resultado · crença errada · caso real) estão em `references/roteiros-modelo.md`, profundidade opcional, clona e adapta, nunca copia cru.
 
 ## Passo 4, fecha com CTA de próximo passo real
 O reel não fecha venda, mas aponta pra onde. O CTA convida, não empurra, e tem **destino concreto do funil**: salvar, comentar uma palavra, mandar pra alguém, ir pro carrossel que aprofunda, ir pra isca/carta. CTA sem destino é peça órfã, o leitor para e não tem pra onde ir. Escreve o CTA na voz do cliente, ligado ao ponto único do reel.
 
-## Passo 5, roda o GATE antes de mostrar (artefato visível obrigatório)
-Preenche a tabela pro roteiro. Só roteiro com a linha VEREDITO=PASSA vai pro cliente. Um ✗ refaz o ponto que falhou (não o conceito inteiro). Sem a tabela impressa, o roteiro não foi entregue.
+## Passo 5, roda o GATE por dentro (auditoria interna, NÃO imprime)
+Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com a linha VEREDITO=PASSA vai pro cliente. Um ✗ refaz o ponto que falhou (não o conceito inteiro). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o roteiro limpo (Passo 6), jamais a tabela.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -78,7 +94,9 @@ Preenche a tabela pro roteiro. Só roteiro com a linha VEREDITO=PASSA vai pro cl
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
-Mostra **só o roteiro que passou**, com a tabela do gate e a espinha marcada (qual frase é qual movimento). Pergunta "esse te serve? ajusto ou faço outro?". **Espera a escolha** antes de gerar outro ou montar lote. **Não narra o fluxo** ("agora vou auditar"), só entrega limpo.
+Mostra **só o roteiro que passou, LIMPO** (como no Claude Chat), com a espinha marcada (qual frase é qual movimento). Sem tabela de gate, sem meta. Pergunta "esse te serve? ajusto ou faço outro?". **Espera a escolha** antes de gerar outro ou montar lote. **Não narra o fluxo** ("agora vou auditar"), só entrega limpo.
+
+**Quando um reel performa, escala (regra do "faz mais", `references/metodo-reel.md` 7.7):** faz mais do mesmo ASSUNTO em outros ângulos, OU troca o tema mantendo a ESTRUTURA da headline que funcionou. Mede comparando com o típico do TEU perfil (skip rate · tempo médio · tempo total · interações), nunca com benchmark de fora: a métrica é diagnóstico, não troféu (`references/metodo-reel.md` 7.9).
 
 ## When NOT to use (manda pra skill certa)
 - Pediu só a **headline / gancho / capa / abertura** isolada → **soft-conteudo-headlines** (e faz a headline ANTES deste reel).
@@ -95,13 +113,20 @@ Mostra **só o roteiro que passou**, com a tabela do gate e a espinha marcada (q
 | Roteiro relaxa no meio (dá pra prever a frase) | Reescreve pra tensão contínua; cada frase abre a próxima |
 | Entregou o passo a passo executável | Mostra função e diagnóstico, nunca o como; passo a passo vira aula grátis |
 | Pediu câmera/edição cara | Lo-fi: gancho e ideia carregam; gravável em minutos |
+| Impôs como gravar ou aparecer | Sugestão, não obrigação; a pessoa grava do jeito dela, a skill garante o roteiro |
 | CTA solto ("siga pra mais") | CTA com destino real do funil (salvar/comentar/manda/carrossel/isca) |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou 5 reels de uma vez | 1 por vez com gate; lote só sob comando "lote de [tema]" |
-| Narrou o fluxo ("agora vou pro passo X") | Não narra: executa em silêncio e entrega só o roteiro + a tabela |
+| Narrou o fluxo ("agora vou pro passo X") | Não narra: executa em silêncio e entrega só o roteiro limpo, sem a tabela do gate |
+| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.
 - `references/producao-em-lote.md`: template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa (pro comando "lote de [tema]").
 - `references/anti-padroes.md`: os anti-padrões do reel com pares errado→certo escritos por extenso.
+- `references/metodo-reel.md`: o capítulo-método completo do reel (Lo-fi vence Hi-fi, a Fórmula 7 comprimida, os 3 tipos + os 7 gatilhos da atenção 7.4, conteúdo notável 7.5, a regra do "faz mais"/escalar 7.7, e as 4 métricas como diagnóstico 7.9). É a fonte da verdade do formato. **Dirigida nos Passos 2, 3 e 6.**
+- `references/amplificadores.md`: os 10 amplificadores canônicos (frase de 0-2s antes da headline falada) + a tabela de afinidade por template + as regras de uso. **Dirigida no Passo 2.**
+- `references/camadas-conciencia.md`: as 3 camadas de atração (C1 reel curto · C2 reel longo opinativo · C3 reel-visita). **Dirigida no Passo 1.**
+- `references/estrutura-peca.md`: a Estrutura-Mãe dos 5 papéis com as formas de aterrar Contexto/Conteúdo/CTA, pra quando o reel precisa de repertório tático no corpo.
+- `references/dispositivos-de-frase.md`: o repertório de tempero (virada, antítese, evocação sensorial) que entra na revisão, depois da estrutura de pé.
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` no roteiro como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.

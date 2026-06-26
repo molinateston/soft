@@ -1,5 +1,23 @@
 # Mentalidade do Vendedor
 
+## Índice
+
+- Por que essa reference existe
+- Bloco 1, Sistema de crença em 4 partes
+- Bloco 2, A venda começa antes da call
+- Bloco 3, Conversão de culpa em responsabilidade
+- Bloco 4, O odor da insinceridade
+- Bloco 5, Auto-check antes da call importante
+- Bloco 6, Quando a mentalidade empaca no meio da venda
+- Bloco 7, Treinar a mentalidade
+- Como skill aplica essa reference
+- Princípios não-negociáveis
+- O que NÃO entra dessa reference
+- Tom final
+- Falas de campo: a temperatura do vendedor
+
+---
+
 > Reference puxada quando: o vendedor (especialista solo, SDR, closer) empaca em padrão repetido, leads sumindo, "tô sem motivação", "não consigo cobrar caro", "falhei essa semana inteira", culpa lead/preço/mercado, ou cola conversa onde fica claro que ENTROU na call já sem confiança.
 >
 > **Skill atual cobre técnica de vendas. Esta reference cobre a cabeça do vendedor.** Sem essa cabeça empacada, técnica não opera.
@@ -283,3 +301,54 @@ O que **entra** é estrutural: crença, preparo, responsabilidade, controle do e
 Mentalidade Soft não é "atitude positiva". É **estrutura mental que sustenta o tom clínico** quando lead pressiona, quando call vai mal, quando mês fecha apertado. É o que diferencia vendedor que tem semana ruim e ajusta de vendedor que tem semana ruim e desmonta.
 
 > Quem entende mais, vende mais. **Quem entende a si mesmo, vende sempre.**
+
+---
+
+## Falas de campo: a temperatura do vendedor
+
+> Buraco que faltava na skill: a reference cobria crença e responsabilidade, mas não a **temperatura** do vendedor, o interesse reverso, o ego saudável, o estar menos ansioso que o cliente. O princípio aparecia solto ("tom de comando vem de quem pode dizer não") sem repertório. Aqui entram as falas reais de campo que dão a carne.
+
+### Interesse reverso: mais interessado dentro da reunião, nunca fora
+**Fala real:**
+> "O ponto é você ser mais interessado dentro da reunião do que fora. Eu vejo muita gente que, putz, dentro da reunião o cara fala 'não, vou fazer o PIX depois', 'ah, não, tudo bem'. Mole dentro da reunião, aí fora da reunião viram os leões. Não é porque eles foram atrás de ti que essa reunião, eu vou continuar atrás de ti."
+
+**O que ensina:** a pressão útil é ao vivo, dentro da conversa, onde dá pra tratar o sinal na hora. Quem amolece na call e depois fica perseguindo por mensagem inverteu o jogo. Quem ainda não pagou nada não comprou o direito de te ter correndo atrás. Estar a serviço é diferente de estar carente.
+
+**Na prática:** toda a energia de fechar acontece com a pessoa ali. O vendedor diz, em algum ponto: *"Eu vou te dar aqui hoje toda a clareza que dá sobre [problema]. Se fizer sentido pra nós dois, a gente avança. Se não fizer, sem problema."* Depois da conversa ele não vira caçador de resposta no WhatsApp.
+*(origem: DV9VoTUCbXv)*
+
+### Ego saudável: respeitar o próprio tempo primeiro
+**Fala real:**
+> "O vendedor precisa ter ego, mano. Se vocês não tiverem ego na venda, vocês sempre vão se colocar de quatro pro cliente. Vocês têm que ser incisivo. Sim, eu tô sendo incisivo porque eu respeito o meu tempo. Não é sobre o teu respeito, é o meu tempo. Acima do meu tempo, aí sim, eu respeito o teu."
+
+**O que ensina:** sem ego o vendedor se submete e aceita qualquer adiamento do cliente ("agora não é", "tô na correria"). O ego saudável nasce de respeitar o próprio tempo primeiro, e é isso que sustenta ser direto sem soar desesperado.
+
+**Na prática:** princípio de cabeça, não vira fala pro cliente. Antes da conversa o vendedor firma: você não está pedindo favor, está oferecendo a solução de um [problema] que custa caro pra essa pessoa. Quem respeita o próprio tempo primeiro consegue ser direto sem soar carente.
+*(origem: DTS6CFODeTu)*
+
+### Incisivo não é agressivo: a régua 7-38-55
+**Fala real:**
+> "Eu não sou agressivo na call. Eu sou incisivo. Quando eu falo 'cara, faz o pagamento aí' eu estou sendo incisivo. Agora se eu falo 'CARA, FAZ O PAGAMENTO AÍ' eu estou sendo agressivo. A diferença é o tom de voz e a expressão corporal. 7% é o que eu falo. 38% é tom de voz. 55% é expressão corporal. Não é sobre o que tu fala, é sobre como que tu fala aquilo."
+
+**O que ensina:** a maior parte da mensagem é tom e corpo, não palavra. A mesma frase dura, dita leve e de boa, vira incisiva; dita com cara fechada, vira agressiva. O conteúdo é só 7% do peso, então dá pra ser direto sem espantar. Resolve o medo do avatar Soft de soar grosso ao ser firme.
+
+**Na prática:** o vendedor pode falar a verdade dura sobre o [problema] sem ser grosso. O que define se a pessoa recua ou abre é o tom e a expressão, não as palavras. Ensaie a mesma fala de fechamento nos dois tons pra sentir a diferença. Firme com semblante leve.
+*(origem: DZAR8dZu2Zr)*
+
+### Bom, não bonzinho: o cliente quer ser desafiado
+**Fala real:**
+> "A diferença entre o bonzinho e o justo é que um o cliente quer e o outro não. Nenhum cliente quer uma pessoa que vai acatar tudo o que ele fala, que vai seguir só naquilo que ele já chegou sozinho. Ele espera que você o desafie, que você chegue em lugares que ele ainda não chegou sozinho. Porque se ele tivesse chegado sozinho, ele não precisaria de ti. Ser bonzinho é não ajudar o cliente."
+
+**O que ensina:** o bonzinho acata pra agradar e parece bom, mas não ajuda; o justo faz o que precisa ser feito mesmo trazendo desconforto. Se o cliente já tivesse a resposta, não estaria ali, então acatar a visão dele é não entregar valor.
+
+**Na prática:** permissão pra discordar do cliente com respeito. Na call o vendedor diz: *"Se eu só concordar com o que você já pensa, você não precisava de mim. Meu papel aqui é te levar onde você não chegou sozinho."* Acatar tudo é covardia disfarçada de simpatia.
+*(origem: DZN3BHitnqZ)*
+
+### Espelhar o desinteresse: acompanhe o cliente, nunca exceda
+**Fala real:**
+> "Eu não invisto meu tempo em pessoa que está desinteressada. Eu vou espelhar. Se tá desinteressado, eu também tô desinteressado em ti agora." / Cliente: "Ah, mas eu quero saber preço." / "Tá, então quer saber preço? Beleza, mano, é 100 mil reais." / Cliente: "Ah, mas o que vocês vão me entregar?" / "Exatamente, o que tu precisa?"
+
+**O que ensina:** o nível de interesse do vendedor deve espelhar o do cliente, não excedê-lo. Quem não liga a câmera, não abre os dados e só quer preço está desinteressado; quem se mantém mais interessado perde poder. Jogar o preço cru devolve a bola e faz o cliente puxar pelo valor sozinho. Operacionaliza o interesse reverso dentro da qualificação.
+
+**Na prática:** *"Eu acompanho o seu interesse. Se você está aberto, eu vou fundo; se você só quer um número solto, eu te dou o número e a gente encerra."* Quando a pessoa volta com "o que vocês entregam?", o vendedor devolve: *"exatamente, o que você precisa?"* e retorna pro diagnóstico.
+*(origem: DZn2lMhsyQ3)*

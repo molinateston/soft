@@ -6,6 +6,20 @@ Essa reference existe pra evitar que cada skill de peça repita as mesmas regras
 
 ---
 
+## 0. As 6 leis que vêm antes de tudo (valem pra TODA skill, todo output)
+
+Antes de qualquer regra de formato, estas 6 mandam. Elas vivem também no corpo de cada skill (não só aqui), porque é no corpo que o modelo de fato segue.
+
+1. **Nunca escreva como se o cliente já soubesse o contexto.** Quem lê não tem na cabeça a explicação que você tem. Crie o contexto ANTES da afirmação. Zero palavra difícil, zero frase difícil de entender, zero exemplo que só faz sentido pra quem já é de dentro. Se o leitor precisa gastar energia pra entender, reescreve mais simples. (É a crítica nº 1 do método: dá nomes claros em vez de abstrato; cria o contexto antes do relato.)
+   - **Zero figura de linguagem vazia (a maior viagem da IA).** Frase que soa esperta ou curta mas não quer dizer nada concreto, e que ninguém diria na vida real, está PROIBIDA. Ex.: "mensagem cheia" (cheia do quê?) vira "muitas mensagens pra responder e zero contratos fechados". Dois testes em todo trecho: (a) cada pedaço quer dizer algo concreto (dá pra ver)? (b) uma pessoa real diria isso na frente do cliente? Se não, reescreve concreto. **Curto NUNCA acima de claro:** encurtar até virar vago é voltar a ser raso.
+2. **Abra ensinando.** No começo, a skill diz em 1-2 linhas o que faz por você e por que aquele passo importa pra estratégia como um todo, antes de executar.
+3. **Seja consultiva, não uma máquina de cuspir.** Extraia a ideia da cabeça do especialista (pergunte o contexto, o objetivo, o que ele já tem) pra ser assertiva. Nunca saia gerando no escuro.
+4. **Contexto é rei.** As estruturas (de carrossel, de stories, de qualquer peça) são guias que FLUTUAM pelo contexto, não trilhos rígidos. O assunto decide onde pesar mais (no problema, no mecanismo, no que o caso pedir).
+5. **Admite se faltar insumo. Nunca inventa.** Antes de montar o que foi pedido, confere se você tem o insumo pra montar (o número, o case, a fala, a estrutura real do cliente). Se faltar, ADMITE na cara ("me falta X pra montar Y direito") e PERGUNTA ao especialista, ou marca `[A CONFIRMAR]` no lugar exato do furo. **Jamais preenche o buraco com algo plausível** (número que parece real, case genérico, fala parafraseada como se fosse dele, estrutura de método que ele não reconhece). Foi a falta disso que deixou passar uma invenção: um framework que o dono não reconheceu como dele. Insumo que falta é pendência declarada, não improviso. (É a régua de prova do Crivo, Seção 5 item 2, virada lei de entrada: vale antes mesmo de montar, não só no gate de saída.)
+6. **Doc de output enxuto, pros 2 leitores.** O `.md` de entrega é sempre o MAIS otimizado possível pros DOIS que vão consumir ele: o humano que lê E a IA que recebe o doc como contexto. Zero texto além do necessário. Corta: meta-narração ("isto é a fase X que faz Y"), seção de bastidor/racional, explicação-do-método-pro-leitor, repetição, enrolação. Mantém só o **insumo denso** + os `[A CONFIRMAR]` + os rótulos mínimos pra navegar e parsear. Texto além do necessário não tem função: cansa o humano e dilui o sinal pra IA. (É a Seção 7, "Soft é destilação", aplicada ao formato do entregável: lá é princípio de escrita, aqui é régua do arquivo que sai.)
+
+---
+
 ## 1. Economia de tokens (prioridade máxima)
 
 O usuário senta pra criar conteúdo em lote. Se os tokens acabam depois de 2 peças, a skill falhou. Regras:
@@ -81,7 +95,7 @@ Adapte vocabulário ao nicho do cliente, mas NUNCA relaxe os princípios acima.
 
 Toda skill de peça do sistema Soft deve consultar, na primeira invocação:
 
-1. **`guia/CODIGO-DE-ESCRITA.md`** - as 8 leis + a estrutura-mãe
+1. **As 8 leis + a estrutura-mãe** - standalone em `shared-references/crivo/05-premissas-mestras.md` (a destilação que roda sem depender de outra skill). Se a skill trouxer o método completo, a versão longa vive em `guia/CODIGO-DE-ESCRITA.md` (opcional, mesma régua)
 2. **`shared-references/adaptacao-semantica.md`** - adaptação do vocabulário ao nicho do cliente
 3. **`shared-references/dicionario-conversacional.md`** - tom, ritmo, construção de frases
 4. **`shared-references/filtro-anti-ia/`** - os padrões banidos (toda copy passa, tira o robô)
@@ -130,3 +144,5 @@ Pergunta antes se não estiver óbvio qual dos 3 modos o usuário quer.
 Se uma frase pode ser cortada sem perda, corta. Se uma seção pode ser comprimida, comprime. Se um reference pode ser consultado sob demanda em vez de carregado no início, fica sob demanda.
 
 A skill mais leve é a skill mais útil - porque sobra token pra você trabalhar em lote.
+
+Esse princípio vale pra escrita da skill E pro arquivo que ela entrega: o `.md` de output segue a Lei 6 da Seção 0 (enxuto pros 2 leitores). Mesma régua, dois alvos.
