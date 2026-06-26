@@ -34,6 +34,11 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 - `soft-vendas-objecao`
 - `soft-vendas-copiloto`
 - `soft-vendas-posvenda`
+- `soft-webinar-oferta`
+- `soft-webinar-script`
+- `soft-webinar-paginas`
+- `soft-webinar-mensagens`
+- `soft-webinar-chat`
 - `soft-lancamento-pago`
 - `soft-treino-dieta`
 - `soft-financeiro`
