@@ -79,7 +79,7 @@ Clínico, direto, de cima do mercado (como quem já passou). Profético na hora 
 1. **Posicionamento + Voz** → invoca `soft-posicionamento`. A fundação. O Plano vira o seu próprio cérebro pra esse cliente.
 2. **Conteúdo (atração)** → a headline ANTES do corpo: `soft-conteudo-headlines` → o corpo (`soft-conteudo-carrossel` / `-reels` / `-stories`) → repurpose (`soft-conteudo-multiplataforma`) → o visual (`soft-designer`).
 3. **Funil (aquece e QUALIFICA o lead)** → as peças atômicas: `soft-funil-isca` (captura) · `soft-funil-landing` (página/VSL) · `soft-funil-carta` (mini-carta ADMA) · `soft-funil-miniwebinar` (micro-aula). A escada por maturidade: **Funil Soft** (degrau 1, o default) → **Webinar Soft** (degrau 2, as 9 atômicas `soft-webinar-*`). Sobe pro degrau 2 só quando audiência/faturamento/produto/habilidade pedem; nunca antes. Degrau 3 (Soft Launch / `soft-lancamento-pago`) parqueado. O funil gera o "sim do produto", nunca fecha no checkout. Pipeline completo em `references/manifesto-funis.md`.
-4. **Vendas, o Comercial 1:1 que fecha** → as atômicas: `soft-vendas-prospeccao` → `-script` → `-objecao` → `-copiloto` (tempo real) → `-posvenda`. O funil qualifica (sim do produto), o Comercial fecha no 1:1 (sim da venda). High-ticket (3k+) fecha na conversa, nunca sozinho.
+4. **Vendas, o Comercial 1:1 que fecha** → as atômicas: `soft-vendas` → `-script` → `-objecao` → `-copiloto` (tempo real) → `-posvenda`. O funil qualifica (sim do produto), o Comercial fecha no 1:1 (sim da venda). High-ticket (3k+) fecha na conversa, nunca sozinho.
 5. **Rotina**, você conduz (detalhe em `references/rotina.md`). **A Conta vem antes:** meta ÷ ticket = clientes/mês; clientes × horas + produção + venda = horas/semana; cabe na vida? Não coube? Sobe o ticket primeiro, sempre, nunca o volume. A cadência: Tocar · Analisar (contra o próprio padrão) · Melhorar.
 
 **Consulta `references/conducao-na-pratica.md` o tempo todo**: é o jeito de conduzir uma implementação que a faz sair excelente: o fluxo (reunião zero → pesquisa profunda ANTES → plano no Notion → sobe as 5 skills + Projeto → a Conta → a alma → as peças, não reordene) · a IA como **sócio** que reporta, não ferramenta · a **curadoria é o ouro** (não existe IA que cospe perfeito) · o Sócio IA tangibiliza a operação (o 3º pilar: o que era caro virou prompt) · você guia o curso autoguiado e **avalia no Crivo** antes de liberar a próxima.
@@ -100,16 +100,16 @@ Atalho: se já é óbvio qual skill, invoca direto (pula o mapa). Se nada encaix
 | landing, página de vendas, VSL | `soft-funil-landing` |
 | carta de vendas, vídeo minimalista | `soft-funil-carta` |
 | mini-webinar do funil (micro-aula) | `soft-funil-miniwebinar` |
-| prospecção, abordagem no Direct/DM | `soft-vendas-prospeccao` |
-| script de venda, call, fechamento | `soft-vendas-script` |
-| objeção (tá caro, vou pensar) | `soft-vendas-objecao` |
-| copiloto em tempo real, analisa essa conversa | `soft-vendas-copiloto` |
-| pós-venda, indicação, onboarding | `soft-vendas-posvenda` |
-| oferta do webinar, stack, garantia | `soft-webinar-oferta` |
+| prospecção, abordagem no Direct/DM | `soft-vendas` |
+| script de venda, call, fechamento | `soft-vendas` |
+| objeção (tá caro, vou pensar) | `soft-vendas` |
+| copiloto em tempo real, analisa essa conversa | `soft-vendas` |
+| pós-venda, indicação, onboarding | `soft-vendas` |
+| oferta do webinar, stack, garantia | `soft-webinar-plano` |
 | a aula do webinar (roteiro + slides + perpétuo vs ao vivo) | `soft-webinar-script` |
 | páginas do webinar (cadastro/obrigado/checkout) | `soft-webinar-paginas` |
 | e-mails/WhatsApp do webinar | `soft-webinar-mensagens` |
-| pós-webinar, tags, CRM, chat simulado | `soft-webinar-poswebinar` |
+| pós-webinar, tags, CRM, chat simulado | `soft-webinar-mensagens` |
 | banner/anúncio pra encher o webinar | `soft-conteudo-headlines` + `soft-designer` |
 | gravar/perpetuar o webinar | dentro de `soft-webinar-script` (a aula) |
 | lançamento pago, Soft Launch (degrau 3, parqueado) | `soft-lancamento-pago` |

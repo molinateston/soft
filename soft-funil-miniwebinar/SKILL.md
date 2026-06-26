@@ -139,7 +139,7 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 - Pediu **lançamento pago / carrinho / evento com tráfego** (degrau 3) → **soft-lancamento-pago**.
 - Pediu **carta / VSL / landing / isca** → **soft-funil-carta · soft-funil-landing · soft-funil-isca**.
 - Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **conteúdo de feed** → **soft-conteudo** (e variantes).
-- Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas-script** (e variantes).
+- Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas** (e variantes).
 - Pediu **arte/visual** → **soft-designer**. Pediu **posicionamento/Plano** → **soft-posicionamento**.
 
 ## Anti-Patterns (sintoma → correção)

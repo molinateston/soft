@@ -33,7 +33,7 @@ O webinar é uma aula que vende sem deixar de ser aula. O lead entra inconscient
 - O design fino (PNG, arte, layout) NÃO é aqui: aqui é estrutura + copy + notas + arquétipos. O acabamento visual vai pra **soft-designer**.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
-Procura a fonte real, nesta ordem: **oferta pronta (soft-webinar-oferta) colada** → **Plano de Posicionamento** → **descrição do projeto** → **mensagens anteriores**. Puxa o que a aula inteira vai herdar:
+Procura a fonte real, nesta ordem: **oferta pronta (soft-webinar-plano) colada** → **Plano de Posicionamento** → **descrição do projeto** → **mensagens anteriores**. Puxa o que a aula inteira vai herdar:
 - **A oferta inteira** (produto, jornada em passos nomeados, PUV, stack/bônus, preço, garantia). A aula nasce DELA, de trás pra frente.
 - **Tese central / Big Idea** (a transformação-mãe do avatar).
 - **Inimigo nomeado** (literal do Plano, não um default da sua cabeça).
@@ -45,7 +45,7 @@ O Plano-base entrega ~70% dos insumos; a aula ADICIONA só a Camada Webinar. **A
 
 Três estados de entrada (declara qual é o seu):
 - **Tem oferta + Plano completos:** ancora em tudo acima. Caminho ideal.
-- **Tem nicho mas falta peça:** NÃO inventa. Cada slide ancora em prova real; o que falta entra como `[DADO: confirmar]` ou `[SLOT: definir com o cliente]`. Avisa que rodar soft-webinar-oferta e soft-posicionamento antes deixa a aula muito mais cravada.
+- **Tem nicho mas falta peça:** NÃO inventa. Cada slide ancora em prova real; o que falta entra como `[DADO: confirmar]` ou `[SLOT: definir com o cliente]`. Avisa que rodar soft-webinar-plano e soft-posicionamento antes deixa a aula muito mais cravada.
 - **Sem nada:** pergunta numa única mensagem (nicho + tese + inimigo + oferta + preço) e segue.
 
 > **É hora de webinar?** Se o cliente chegou sem o degrau 1 firme (sem arroz-com-feijão rodando, sem case, sem narrativa validada), **lê `references/escolha-carta-mt-webinario.md`** (a régua de maturidade dos 5) antes de escrever: na maioria das vezes a resposta honesta é "ainda não, volta pro Funil Soft". O webinar amplifica o argumento que já existe; argumento fraco amplifica a fraqueza com custo 10x maior.
@@ -136,7 +136,7 @@ Entrega cada slide com: **OBJETIVO** (qual beat) + **TELA** (o conteúdo visual 
 
 Pra a fase Ação, **apresenta a OFERTA-STACK INTEIRA** (não só "o produto"), na coreografia de `references/oferta-stack.md`. A tripartição é LEI: **MÓDULOS** (o núcleo, em passos nomeados pela identidade que a pessoa vira, sem preço) × **CURSOS** da prateleira (cada um com PREÇO real avulso checável, NUNCA chamados de "bônus") × **BÔNUS** (a palavra reservada a UM item sem preço, o Mastercard que escapa da régua). A ordem: produto por jornada (escada de identidade) + os "inclusos" que matam objeção de pós-compra → âncora-teto provada por case → **a prateleira de cursos somada item a item por clique, a soma riscada crescendo na tela** → bônus-âncora maior que o produto (se houver) → bônus Mastercard sem preço → **dupla ancoragem** (custo invisível, o que ele JÁ PERDE não agindo, vs soma do stack; **regra de quando usar cada:** custo invisível pro avatar maduro de ticket baixo, stack/ganho pro ticket alto) → **"se tudo"** (cadeia de SIMs antes do preço) → queda em degraus, cada degrau com reason-why → **"o combinado não sai caro"** (desconto por depoimento futuro) → **redução ao ridículo** com OBJETO REAL fotografado, em tom clínico → **os BÔNUS DOS 15 PRIMEIROS** (camada SEPARADA do desconto, as DUAS moedas: desconto pra todos / bônus pros que correm; vários cursos, camadas de escassez decrescente 15→10) + bônus surpresa personalizado + a REDE pra quem perde a corrida → recap da oferta inteira no clique.
 
-> **A fala-template verbatim de cada bloco, já no tom Soft com lacunas, está em `references/falas-prontas-por-bloco.md`** (do pré-início ao FOMO à despedida, com as joias escritas por extenso: proposição única, two-choices, yes-momentum, queda de preço, fórmula de bônus, garantia). Abre as duas: a estrutura-aida dá a engenharia, esta dá a fala. A engenharia fina de preço (dupla ancoragem com regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível) e a garantia condicional ancorada em AÇÃO ("eu te pago pra fazer o trabalho") também estão detalhadas em `references/objection-annihilation.md` e `references/frameworks-proprietarios-leo.md`. Se a oferta inteira (stack/preço/garantia) ainda não existe, ela é desenhada em **soft-webinar-oferta**; aqui você só a ENCENA.
+> **A fala-template verbatim de cada bloco, já no tom Soft com lacunas, está em `references/falas-prontas-por-bloco.md`** (do pré-início ao FOMO à despedida, com as joias escritas por extenso: proposição única, two-choices, yes-momentum, queda de preço, fórmula de bônus, garantia). Abre as duas: a estrutura-aida dá a engenharia, esta dá a fala. A engenharia fina de preço (dupla ancoragem com regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível) e a garantia condicional ancorada em AÇÃO ("eu te pago pra fazer o trabalho") também estão detalhadas em `references/objection-annihilation.md` e `references/frameworks-proprietarios-leo.md`. Se a oferta inteira (stack/preço/garantia) ainda não existe, ela é desenhada em **soft-webinar-plano**; aqui você só a ENCENA.
 
 ## Passo 6, escreve o Q&A que força a decisão (objeções plantadas)
 O Q&A é onde acontece 30-50% das vendas; **escreve uma vez, não improvisa**. As 5 plantadas (tempo, dinheiro, adequação, competência, timing) na estrutura padrão (reconhece → reframe → prova → solução → encorajamento), e arquitetura **layups → curve balls** (fáceis aquecem, difíceis depois). Aplica a condução:
@@ -189,7 +189,7 @@ Mostra **só o que passou, LIMPO** (como no Claude Chat): cada slide com objetiv
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **pacote completo do webinar** (páginas de cadastro/obrigado/checkout, e-mails, WhatsApp, anúncios, pós-webinar, simular comentários ao vivo) → **soft-webinario**.
-- Pediu a **OFERTA / stack / preço / ancoragem / garantia / PUV** isolada (o DESENHO, não a encenação) → **soft-webinar-oferta** (a aula nasce dela, mas o desenho é lá).
+- Pediu a **OFERTA / stack / preço / ancoragem / garantia / PUV** isolada (o DESENHO, não a encenação) → **soft-webinar-plano** (a aula nasce dela, mas o desenho é lá).
 - Pediu **design fino / arte / PNG / layout final** do deck → **soft-designer**.
 - Pediu **só a headline/abertura isolada** ou banco de ganchos → **soft-conteudo-headlines**.
 - Pediu **carta de vendas / VSL / micro-aula / funil** → **soft-funil**.

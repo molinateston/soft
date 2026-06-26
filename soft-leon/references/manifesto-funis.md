@@ -27,7 +27,7 @@ soft-designer                  (gate: craft.py no visual/PNG)
         ↓
 soft-funil-isca / -landing / -carta / -miniwebinar   (gate embutido por peça)
         ↓
-soft-vendas-prospeccao → -script → -objecao → -copiloto → -posvenda   (gate embutido; o fechamento 1:1 é AQUI)
+soft-vendas → -script → -objecao → -copiloto → -posvenda   (gate embutido; o fechamento 1:1 é AQUI)
 ```
 
 Gates, um por linha:
@@ -50,7 +50,7 @@ gate de maturidade   (audiência + faturamento + produto + habilidade aguentam o
         ↓
 soft-posicionamento  → soft-conteudo-headlines → -carrossel/-reels/-stories → soft-designer   (atração, idêntica)
         ↓
-soft-webinar-oferta      (desenha a oferta ANTES da aula; o resto do webinar nasce dela)
+soft-webinar-plano      (desenha a oferta ANTES da aula; o resto do webinar nasce dela)
         ↓
 soft-webinar-script      (a AULA: roteiro + slides numa coisa só, ADMA + motor de 3 viradas + objeções aniquiladas + perpétuo vs ao vivo; o visual fino do deck = soft-designer)
         ↓
@@ -58,13 +58,13 @@ soft-webinar-paginas     (cadastro/obrigado/checkout)
         ↓
 soft-webinar-mensagens   (e-mails + WhatsApp pré/pós)
         ↓
-soft-webinar-poswebinar  (tags/CRM + chat simulado) → soft-vendas-*   (fechamento 1:1)
+soft-webinar-mensagens  (tags/CRM + chat simulado) → soft-vendas-*   (fechamento 1:1)
 
 (banner pra encher a sala = soft-conteudo-headlines + soft-designer, igual qualquer criativo · a gravação do perpétuo vive DENTRO da aula soft-webinar-script)
 ```
 
 - **gate de maturidade**: o LEON só sobe pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Não cabe? Fica no degrau 1.
-- **a oferta vem antes do roteiro** (soft-webinar-oferta antes de soft-webinar-script). Cada atômica de webinar tem o gate embutido; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
+- **a oferta vem antes do roteiro** (soft-webinar-plano antes de soft-webinar-script). Cada atômica de webinar tem o gate embutido; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
 - **fechamento**: high-ticket (3k+) fecha no Comercial 1:1 (soft-vendas-*), nunca no checkout.
 
 > **Material privado do autor do método:** o webinar REAL dele (case proprietário, calls, frameworks proprietários) NÃO está nas 9 atômicas genéricas (são client-safe). Ele vive na `soft-webinario` (rica, privada, restrita ao autor, fonte+bot, nunca em plugin público).

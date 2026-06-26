@@ -16,35 +16,30 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 ## O que vem
 - `soft-leon`
 - `soft-posicionamento`
-- `soft-conteudo`
 - `soft-conteudo-headlines`
 - `soft-conteudo-carrossel`
 - `soft-conteudo-reels`
 - `soft-conteudo-stories`
 - `soft-conteudo-multiplataforma`
 - `soft-conteudo-impulsionar`
-- `soft-designer`
 - `soft-funil-carta`
 - `soft-funil-miniwebinar`
 - `soft-funil-landing`
 - `soft-funil-isca`
-- `soft-vendas`
-- `soft-vendas-script`
-- `soft-vendas-prospeccao`
-- `soft-vendas-objecao`
-- `soft-vendas-copiloto`
-- `soft-vendas-posvenda`
-- `soft-webinar-oferta`
+- `soft-webinar-plano`
 - `soft-webinar-script`
 - `soft-webinar-paginas`
 - `soft-webinar-mensagens`
 - `soft-webinar-chat`
-- `soft-lancamento-pago`
-- `soft-treino-dieta`
-- `soft-financeiro`
-- `soft-contratos-consultoria`
-- `soft-editor-video`
+- `soft-webinar-slides`
+- `soft-vendas`
+- `soft-designer`
 - `soft-proposta-comercial`
+- `soft-editor-video`
+- `soft-financeiro`
+- `soft-treino-dieta`
+- `soft-contratos-consultoria`
 - `soft-apostila`
+- `soft-lancamento-pago`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

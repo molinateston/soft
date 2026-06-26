@@ -1,14 +1,6 @@
 # Ancoragem, preço e fechamento (a engenharia fina da fase Ação)
 
-> **Como esta skill usa este arquivo (ENCENAÇÃO, não desenho).** Aqui o roteiro ENCENA na tela a oferta que já foi DESENHADA na `soft-webinar-plano` (o que existe: produto, stack, garantia do cardápio, ticket, nomes). Este arquivo é a **coreografia de palco** da fase Ação: a ordem em que o preço cai, a fala de cada movimento, o que aparece na tela. Se a oferta (stack/preço/garantia/PUV) ainda NÃO existe, ela se desenha primeiro em `soft-webinar-plano`; aqui você só a apresenta. Não invente número, item, garantia ou preço: o que falta vira `[A CONFIRMAR]` e volta pro desenho.
-
 Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o preço, empilhar o stack, descer em degraus, reverter o risco, fechar por escassez e identidade - e calibrar tudo isso pela **faixa de ticket** (§11). Mora na **fase Ação** do `estrutura-webinario-aida.md` (bloco de Investimento), depois que o motor já rodou e a oferta já foi apresentada por benefício. Instala a mecânica fina de cada movimento de preço, sem repetir produto, stack estrutural ou sequência ADMA.
-
-> **A ordem progressiva da ancoragem é uma CADEIA ÚNICA (não movimentos soltos).** Ela desce em unidades cada vez menores, cada degrau preparando o próximo:
-> **âncora-teto provada por case (§1) → stack somado por clique (§3) → bônus sem preço (§3c) → garantia (§8) → queda em degraus com reason-why (§5) → "combinado não sai caro" (§6) → parcela como manchete (§7) → reduzir ao ridículo: parcela ÷ dias vs objeto trivial fotografado (§7) → escassez com rede + 3 CTAs (§9-10).**
-> A lógica por baixo: *"a parcela É o preço"*, e ela vai sendo **trocada por unidades menores** (stack → preço → parcela → valor por dia → objeto trivial). Não é desconto, é **troca de unidade progressiva**: o cérebro julga "R$5,51/dia" contra a Coca, nunca o total contra zero.
-
-> **LEI: NÃO existe "âncora do iPhone" como técnica de preço.** Procurada em todo o corpus do Léo e do Enes: não existe. O único "iPhone" relevante é o lançamento do iPhone pelo Jobs, citado como exemplo de **bundle 3-em-1 / revelação-surpresa** (*"um iPod, um telefone, um navegador… são a MESMA coisa"*), que é técnica de **EMPILHAMENTO** (pertence ao §3), NÃO de preço. **Nunca crie um número/técnica de iPhone.** Onde alguém pedir "âncora do iPhone", a técnica real é a **parcela por dia + objeto trivial fotografado** (§7, iFood/Coca). Se quiser usar a lição do Jobs, ela entra só como nota dentro do empilhamento (§3): *"revele os componentes como 3 produtos separados que, juntos, são um só, o efeito-surpresa do 3-em-1 aumenta o valor percebido do mesmo pacote"*, sem número de iPhone.
 
 > Destilada do webinar real do Léo (custo invisível, R$1.000), dos modelos (13M/Mind Master, Vitor-nutrição, Bruno-dentística), do manual caps. 7 e 12 (oferta movediça, espectro de ticket) e da mentoria Olympo do Léo (cardápio de garantias 90+90, ancoragem 20k→2k). Falas marcadas "(exemplo)" são instâncias de nicho - molde, nunca cópia. O método (a régua de quando usar cada movimento) é universal.
 
@@ -16,17 +8,17 @@ Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o 
 
 > **A mecânica universal da close (ordem e porquê) está em `fladlien-modelo.md` (§4):** o preço em queda em degraus, o primeiro CTA rápido (cedo DENTRO da close, não 40 min depois de começar a vender) e o "bônus mais importante que a oferta". Aquela reference dá a mecânica nua do Fladlien; aqui está a engenharia fina Soft de cada movimento (custo invisível como âncora primária, cardápio de garantia, escassez honesta).
 
-**A fronteira com a `soft-webinar-plano` (desenho ≠ apresentação - não confunda):**
-- Lá (no DESENHO da oferta) se decide **O QUE EXISTE**: o produto, os componentes, a garantia que está no cardápio, o ticket, os nomes. É a etapa que roda **ANTES do roteiro** (a oferta se desenha primeiro; o webinar é construído pra apresentá-la). A régua de desenho de cada peça (equação de valor Hormozi, "soma peso ou reduz fricção") mora lá.
+**A fronteira com `desenho-e-empacotamento-da-oferta.md` (desenho ≠ apresentação - não confunda):**
+- Lá se decide **O QUE EXISTE**: o produto, os componentes, a garantia que está no cardápio, o ticket, os nomes. É a etapa que roda **ANTES do roteiro** (a oferta se desenha primeiro; o webinar é construído pra apresentá-la). A régua de desenho de cada peça (equação de valor Hormozi, "soma peso ou reduz fricção") mora lá.
 - Aqui se decide **COMO CAI NA TELA**: a âncora, a semeadura do preço, a ordem dos degraus, as falas de palco da garantia, a escassez no ar, o que muda dentro do webinar por faixa de ticket. É a etapa que roda **DURANTE o webinar**, na fase Ação.
-- Exemplo da divisão: *qual* garantia o produto tem (7 dias? 90+90? ROI?) é **desenho** (na oferta). *Como* o player fala a garantia no palco, em que frame, depois de qual degrau - é **apresentação** (aqui, §8). Decidir que existe um bônus sem preço = desenho; a fala "isso aqui eu não vendo pra ninguém" no momento certo do stack = apresentação.
-- Sintoma de que você está no lugar errado: se a pergunta é "este item entra no pacote?", é DESENHO (soft-webinar-plano). Se é "em que segundo e com que palavra eu mostro isso?", é aqui (encenação).
+- Exemplo da divisão: *qual* garantia o produto tem (7 dias? 90+90? ROI?) é **desenho** (lá, §6). *Como* o player fala a garantia no palco, em que frame, depois de qual degrau - é **apresentação** (aqui, §8). Decidir que existe um bônus sem preço = desenho; a fala "isso aqui eu não vendo pra ninguém" no momento certo do stack = apresentação.
+- Sintoma de que você está no arquivo errado: se a pergunta é "este item entra no pacote?", vá pro desenho. Se é "em que segundo e com que palavra eu mostro isso?", é aqui.
 
 **Onde NÃO duplicar (aponta, não repete):**
 - A **âncora por custo invisível** está inteira em `frameworks-proprietarios-leo.md` §5. Aqui só a **regra de discernimento** de quando usá-la vs a soma do stack.
-- A **objeção-mãe** ("você consegue, a pergunta é se você quer") está em `motor-3-viradas.md`. Aqui só como dobradiça que abre o fechamento.
+- A **objeção-mãe** ("você consegue, a pergunta é se você quer") está em `estrutura-real-webinar.md` (Fase M, o gancho do braçal; e Fase Ação, a quebra de objeção em escada). Aqui só como dobradiça que abre o fechamento.
 - O **stack como bloco da oferta** e a sequência da fase Ação estão em `estrutura-webinario-aida.md` Bloco 4. Aqui só a engenharia de empilhamento (bônus sem preço, acesso como perda).
-- A **régua operacional de canal por ticket** (WhatsApp/ligação/SDR+closer, tags, filas, CRM) está na skill `soft-webinar-mensagens` e o 1:1 humano na skill `soft-vendas`. Aqui (§11) só o que muda **dentro do webinar** pela faixa de preço: âncora, destino do CTA, escassez, garantia.
+- A **régua operacional de canal por ticket** (WhatsApp/ligação/SDR+closer, tags, filas, CRM) está em `pos-webinar-tags-comercial.md` e o 1:1 humano na skill `soft-vendas`. Aqui (§11) só o que muda **dentro do webinar** pela faixa de preço: âncora, destino do CTA, escassez, garantia.
 
 ---
 
@@ -278,7 +270,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 - Exemplo nutrição: "Você vai viver isso ou ver todo mundo viver e você de fora, na arquibancada? A escolha é sua."
 - Fala-modelo (Soft): "Cada mês igual, a complexidade come margem que não volta. Você não decide só comprar ou não. Decide se o próximo ano vai ser igual a este."
 
-**A dobradiça com a objeção-mãe.** Identidade só funciona porque a objeção-mãe já moveu a decisão de "será que eu consigo" pra "será que eu quero" (ver `motor-3-viradas.md`): a pessoa não se defende de ataque à competência, escolhe quem quer ser. Decisão por feature/preço é fácil de adiar; por identidade é difícil de negar.
+**A dobradiça com a objeção-mãe.** Identidade só funciona porque a objeção-mãe já moveu a decisão de "será que eu consigo" pra "será que eu quero" (ver `estrutura-real-webinar.md`, o gancho do braçal da Fase M): a pessoa não se defende de ataque à competência, escolhe quem quer ser. Decisão por feature/preço é fácil de adiar; por identidade é difícil de negar.
 
 **O pico emocional vem DEPOIS do preço (timing).** Vários campeões colocam o ponto mais emocional do webinar inteiro **depois** de revelar o preço - a decisão fecha em estado alterado, em termos de quem o lead é, não de quanto custa.
 - Exemplo arquitetura (Juliana, 80k; biblioteca bloco 12): *"você vai ser a pessoa que fala pro seu filho 'faz porque eu fiz' ou a que fala 'faz porque eu não fiz'?"* (frase com crédito ao mentor Wendel Carvalho) - seguida da história real da mãe, chorando ao vivo. O choro genuíno neutraliza o cinismo pós-pitch; o que não se fabrica é a emoção real.
@@ -288,7 +280,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 1. **CTA de GANHO** - liga a compra ao destino emocional: *"imagina você sendo a pessoa disputada, respirando, escolhendo onde trabalhar."*
 2. **CTA de LÓGICA** - a justificativa racional: *"três vendas pagam o investimento", "R$165 ÷ 30 = R$5,50/dia", "é mais barato que o MBA e mais rápido".*
 3. **CTA de MEDO/FOMO** - a escassez e o prazo: *"os 15 estão acabando", "a oferta vale só até o fim dessa aula".*
-**O botão só aparece na hora exata** (regra dura): programado no minuto e segundo certos, quando você diz o primeiro CTA - não antes. Botão cedo demais é "copy com botão": a pessoa clica a frio, antes de afundar, e não converte. Até o primeiro CTA é tudo copy e ancoragem, nada de botão. (A mecânica operacional de canal/clique mora na skill `soft-webinar-mensagens` e nos blocos de slide.)
+**O botão só aparece na hora exata** (regra dura): programado no minuto e segundo certos, quando você diz o primeiro CTA - não antes. Botão cedo demais é "copy com botão": a pessoa clica a frio, antes de afundar, e não converte. Até o primeiro CTA é tudo copy e ancoragem, nada de botão. (A mecânica operacional de canal/clique mora em `pos-webinar-tags-comercial.md` e nos blocos de slide.)
 
 **A recapitulação antes do clique.** Depois de falar muita coisa (módulos, prateleira, bônus sem preço, garantia, combinado, desconto, surpresa), a memória do lead está saturada - ele não soma mais o valor sozinho. Bem no clique, você faz a conta por ele: re-lista a pilha inteira (inclusive "acesso imediato", "atendimento" - tudo conta) e repete o "de X por Y" no exato momento em que o dedo vai ao botão, reativando a âncora e o tamanho do desconto na hora da ação.
 
@@ -302,7 +294,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 
 **Até ~R$2.000 → CHECKOUT direto.** A aula termina, a oferta sobe, a pessoa passa o cartão sozinha - sem comercial, sem ligação. E o teto do checkout é mais alto do que o mercado acredita: o ticket do webinar de gestão (MindMaster, exemplo real do Léo) é **R$1.697, vendido pra lead frio, numa aula só, no automático** - "os caras do mercado acham que sou maluco; é porque a gente é bom de copy". Duas horas de copy bem feita empilhando valor fazem o lead frio pagar quase R$1.700 sem falar com ninguém. A capacidade de vender ticket alto no checkout mora no roteiro e na oferta, não em truque de canal.
 
-**Acima de ~R$2.000 → COMERCIAL.** Mentoria, consultoria, serviço de 5–6 mil, evento, high-ticket: o checkout self-service não dá conta, porque ticket alto exige uma confiança que só se constrói com gente. O webinar continua fazendo TODO o trabalho de consciência e desejo - só muda o destino do botão. (A mecânica do canal - WhatsApp/ligação/SDR+closer, filas, tags - mora na skill `soft-webinar-mensagens` e na skill `soft-vendas`; aqui, só o que muda dentro do webinar.)
+**Acima de ~R$2.000 → COMERCIAL.** Mentoria, consultoria, serviço de 5–6 mil, evento, high-ticket: o checkout self-service não dá conta, porque ticket alto exige uma confiança que só se constrói com gente. O webinar continua fazendo TODO o trabalho de consciência e desejo - só muda o destino do botão. (A mecânica do canal - WhatsApp/ligação/SDR+closer, filas, tags - mora em `pos-webinar-tags-comercial.md` e na skill `soft-vendas`; aqui, só o que muda dentro do webinar.)
 
 ### O que muda dentro do webinar, faixa a faixa
 

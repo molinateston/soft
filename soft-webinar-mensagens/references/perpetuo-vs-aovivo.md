@@ -5,9 +5,9 @@
 > **Fronteiras (o que NÃO mora aqui — manda pra skill certa):**
 > - **A mecânica crua do Léo** (validar ao vivo, 150-200 valida / 8-15 grava, ~10% de sinal verde, sala = sessão estratégica, ROAS-rei, otimizar tráfego pra venda, escala horizontal, zerar ROAS, high ticket não fecha sozinho): `perpetuo-mecanica-leo.md` (a reference irmã, copiada junto nesta skill). As falas literais do Léo vivem lá.
 > - **Gravar/editar o vídeo, conduta de sala, chat semeado, setup técnico, plataforma (EverWebinar × WebinarKit) e edição** → **soft-webinar-script** / **soft-webinario** (pacote). Esta skill só escreve a COPY das mensagens; não grava, não edita, não configura player.
-> - **Oferta/escassez/Q&A na AULA** → **soft-webinar-oferta** e **soft-webinar-script**. Aqui a escassez aparece só como o que a MENSAGEM pode dizer (eco da escassez da sessão, nunca uma nova).
+> - **Oferta/escassez/Q&A na AULA** → **soft-webinar-plano** e **soft-webinar-script**. Aqui a escassez aparece só como o que a MENSAGEM pode dizer (eco da escassez da sessão, nunca uma nova).
 > - **Páginas de cadastro/obrigado/checkout** → **soft-funil-landing**.
-> - **Montagem da máquina de pós** (tags, marcos de %, roteamento de CRM) → **soft-webinar-poswebinar**.
+> - **Montagem da máquina de pós** (tags, marcos de %, roteamento de CRM) → **soft-webinar-mensagens**.
 
 > Destilado de: MANUAL-COMPLETO cap 00 e cap 13; MANUAL-WEBINAR-SOFT Cap 13 ("Perpetuar"). Falas literais marcadas com origem. Exemplos de nicho alheio marcados EXEMPLO, didáticos, nunca pra decalcar.
 
@@ -114,7 +114,7 @@ Quando os números desabam, o furo quase sempre é técnico (encanamento), não 
 | Cadastrados → compareceram | **30-40%** (fala do Léo, varia com a época) | Abaixo de 30% | sequência PRÉ fraca: revisar e-mail/WhatsApp e a promessa da captura — **e conferir se o WhatsApp está ligado** (é a maior alavanca de comparecimento) |
 | Tempo médio de retenção | 50-70% | Abaixo de 45% | algum bloco da AULA vaza (não é a mensagem) → soft-webinar-script |
 | Comparece → compra | **~6% piso de saúde** (médio ticket) | Abaixo disso | "ou o COP está errado, ou o ticket não fecha a conta" (Léo) → oferta/aula |
-| ROAS dos anúncios | **2,2-4** | Abaixo de 1,5x | anúncio/público/pixel → soft-webinar-ads |
+| ROAS dos anúncios | **2,2-4** | Abaixo de 1,5x | anúncio/público/pixel → soft-conteudo-impulsionar |
 
 > **A leitura que importa pra a mensageria:** comparecimento abaixo da faixa = primeiro suspeito é o **WhatsApp não ligado** ou a régua de antes fraca (são o que esta skill resolve). Conversão de pós abaixo = checar se a tag por % assistido está roteando certo (quem viu a oferta recebe fechamento; quem saiu antes recebe nutrição). Retenção e conversão-na-sala baixas NÃO são problema de mensagem — são da aula/oferta; não reescreva mensagem pra consertar a aula.
 

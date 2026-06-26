@@ -42,7 +42,7 @@ Procura a fonte de fala/prova real, nesta ordem: **descrição do projeto** → 
 
 Três estados de entrada (declara qual é o seu, sem imprimir explicação longa):
 - **Tem oferta + fala real:** caminho ideal. Ancora nelas, cita o N real.
-- **Tem nicho/fundação mas ZERO oferta fechada ou fala literal:** NÃO inventa. Cada bloco ancora em prova real; o que faltar entra como `[A CONFIRMAR]`. Avisa que a oferta precisa estar fechada antes do checkout (vem da soft-posicionamento/soft-webinar-oferta).
+- **Tem nicho/fundação mas ZERO oferta fechada ou fala literal:** NÃO inventa. Cada bloco ancora em prova real; o que faltar entra como `[A CONFIRMAR]`. Avisa que a oferta precisa estar fechada antes do checkout (vem da soft-posicionamento/soft-webinar-plano).
 - **Sem nada:** pergunta numa única mensagem (nicho em 1 linha + a promessa + 1 dor real que o cliente fala) e segue.
 
 **Decide o MODELO antes de tudo**, porque ele muda os campos do formulário (é decisão de negócio, não estética):
@@ -216,7 +216,7 @@ HOJE VOCÊ INVESTE                   R$ [preço]   (ou 12x de R$ ...)
 | **A/B no MESMO mecanismo** | prioridade = headline do cadastro · 2 variantes, 50%/50%, **mín. 200 leads/variante** · erro caro: anúncio de um mecanismo numa página de outro despenca a conversão |
 
 ## Passo 5, a espinha invisível do perpétuo (o link único por lead)
-Cada inscrito recebe um link só dele (ingresso nominal, sessão compartilhada: "link só seu, sala compartilhada"). É a peça da **medição**: você sabe até onde cada um foi (não veio / saiu cedo / ficou 50% / **viu a oferta**). A variável **nome/e-mail/horário/link** viaja da plataforma de webinar pro e-mail pro WhatsApp via API; por isso o cadastro captura o horário (Passo 1.5), o obrigado embute o link no calendário (card "Sua aula", Passo 2), e a mensagem dos 5 min antes chega com o link exato da sessão daquela pessoa. A **tag "viu a oferta"** (a oferta cai num timestamp exato da aula) separa quem viu e não comprou (objeção específica, recuperação de venda no pós) de quem mal entrou. Monta a estrutura de tags **AGORA, ao configurar** (a medição não é retroativa) e **não fica mexendo nas integrações depois que o webinar está rodando**, reconfigurar à toa quebra a medição inteira. (O uso completo das tags no pós é da soft-webinar-poswebinar.) **Se o pedido for perpétuo, lê a seção "Dados dinâmicos do perpétuo" da reference e aplica a espinha do link único.**
+Cada inscrito recebe um link só dele (ingresso nominal, sessão compartilhada: "link só seu, sala compartilhada"). É a peça da **medição**: você sabe até onde cada um foi (não veio / saiu cedo / ficou 50% / **viu a oferta**). A variável **nome/e-mail/horário/link** viaja da plataforma de webinar pro e-mail pro WhatsApp via API; por isso o cadastro captura o horário (Passo 1.5), o obrigado embute o link no calendário (card "Sua aula", Passo 2), e a mensagem dos 5 min antes chega com o link exato da sessão daquela pessoa. A **tag "viu a oferta"** (a oferta cai num timestamp exato da aula) separa quem viu e não comprou (objeção específica, recuperação de venda no pós) de quem mal entrou. Monta a estrutura de tags **AGORA, ao configurar** (a medição não é retroativa) e **não fica mexendo nas integrações depois que o webinar está rodando**, reconfigurar à toa quebra a medição inteira. (O uso completo das tags no pós é da soft-webinar-mensagens.) **Se o pedido for perpétuo, lê a seção "Dados dinâmicos do perpétuo" da reference e aplica a espinha do link único.**
 
 ## Passo 6, roda o gate por DENTRO (auditoria silenciosa, NÃO imprime)
 Roda o gate em CADA página **internamente**. Só página com VEREDITO=PASSA vai pro cliente. Uma falha refaz o bloco que falhou (não a página inteira). A tabela abaixo é o teu **checklist INTERNO**, nunca a saída: o cliente recebe só a página limpa (Passo 8), jamais a tabela.
@@ -264,8 +264,8 @@ Mostra **só a página LIMPA** (como no Claude Chat), o texto bloco a bloco pron
 Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **peça técnica** (a página, o horário, a hospedagem do vídeo, a mensageria), **não na copy**. Audita o encanamento (vídeo engasgando, horário mal escolhido, WhatsApp não ligado) antes de reescrever a aula no desespero.
 
 ## When NOT to use (manda pra skill certa)
-- Pediu **oferta / stack / garantia / ancoragem do webinar** → **soft-webinar-oferta** (esta skill só monta as 3 páginas; a oferta nasce lá).
-- Pediu **roteiro / estrutura ADMA** → **soft-webinar-script**. **Deck/slides** → **soft-webinar-slides**. **Gravação/perpetuação** → **soft-webinar-gravacao**. **E-mails/WhatsApp** → **soft-webinar-mensagens**. **Anúncios** → **soft-webinar-ads**. **Pós-webinar/esteira** → **soft-webinar-poswebinar**. **Plano/diagnóstico do webinar** → **soft-webinar-plano**.
+- Pediu **oferta / stack / garantia / ancoragem do webinar** → **soft-webinar-plano** (esta skill só monta as 3 páginas; a oferta nasce lá).
+- Pediu **roteiro / estrutura ADMA** → **soft-webinar-script**. **Deck/slides** → **soft-webinar-slides**. **Gravação/perpetuação** → **soft-webinar-plano**. **E-mails/WhatsApp** → **soft-webinar-mensagens**. **Anúncios** → **soft-conteudo-impulsionar**. **Pós-webinar/esteira** → **soft-webinar-mensagens**. **Plano/diagnóstico do webinar** → **soft-webinar-plano**.
 - Pediu **página de vendas / VSL / landing** fora do contexto de webinar → **soft-funil**.
 - Pediu **só a headline** (isolada, banco de ganchos) → **soft-conteudo-headlines**.
 - Pediu o **CORPO de conteúdo de feed** (carrossel, reel, stories) → **soft-conteudo**.

@@ -117,7 +117,7 @@ Saída: `slide_01.png`, `slide_02.png`, … (zero-padding de 2 dígitos). Move p
 - Pediu o **CORPO de texto longo, caption, roteiro, carta, e-mail** → **soft-conteudo** (e sub-skills).
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
 - Pediu os **slides operados DENTRO do webinar** (deck do roteiro do webinário) → **soft-webinar-slides**.
-- Pediu **anúncios de tráfego do webinar** como sistema → **soft-webinar-ads** (a arte do banner volta pra cá quando precisar renderizar).
+- Pediu **anúncios de tráfego do webinar** como sistema → **soft-conteudo-impulsionar** (a arte do banner volta pra cá quando precisar renderizar).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

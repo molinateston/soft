@@ -1,6 +1,6 @@
 # A OFERTA-STACK na fase Ação (a pilha inteira: tripartição × camadas × soma riscada)
 
-> **O que é esta reference.** A especificação de COMO a fase Ação APRESENTA A OFERTA INTEIRA, a pilha de valor crescendo na tela, item por clique, ancorada progressivamente, MAIS a camada de bônus dos "15 primeiros" (fast-action). A skill SÓ ENCENA a stack: o DESENHO dela (quais itens, quais preços, qual garantia) vem da **oferta pronta (soft-webinar-oferta)** ou do **Plano**. Aqui está a coreografia de revelação e a classificação que É a própria ancoragem.
+> **O que é esta reference.** A especificação de COMO a fase Ação APRESENTA A OFERTA INTEIRA, a pilha de valor crescendo na tela, item por clique, ancorada progressivamente, MAIS a camada de bônus dos "15 primeiros" (fast-action). A skill SÓ ENCENA a stack: o DESENHO dela (quais itens, quais preços, qual garantia) vem da **oferta pronta (soft-webinar-plano)** ou do **Plano**. Aqui está a coreografia de revelação e a classificação que É a própria ancoragem.
 >
 > **Relação com `ancoragem-e-fechamento.md` (irmã, não duplica).** Aquela cobre a ENGENHARIA DE PREÇO (dupla ancoragem, queda em degraus, reduzir ao ridículo, garantia, prova). ESTA cobre o que vem ANTES do preço: a COMPOSIÇÃO da pilha (quantos itens, de que tipos, como cada um é desejável, e em que ordem entram). "Em que segundo o preço cai" vai pra irmã. "Que itens existem na pilha e em que ordem" é aqui.
 >

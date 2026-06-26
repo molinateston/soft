@@ -169,7 +169,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), como no Claude Chat: sem tabel
 - Pediu **webinar perpétuo ou ao vivo** → **soft-webinario**.
 - Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
-- Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas-script / -objecao / -prospeccao / -copiloto / -posvenda**.
+- Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

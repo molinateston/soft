@@ -127,7 +127,7 @@ A ordem do Fladlien: apresenta a oferta, revela o preço, PEDE o pedido, empilha
 
 A frase-âncora: você compra a furadeira pelo BURACO, não pela furadeira. As features justificam a compra mas NÃO vendem, então passe por elas RÁPIDO. Cada componente apresentado numa estrutura fixa: **Headline + 3 benefícios + Prova + Future Pace** (algo como 3 slides, 3 minutos por componente). Nome do produto, tagline, uma frase de benefício.
 
-> **Tradução Soft:** "drill for the hole" é a tradução exata da Faca Soft aplicada à oferta, venda o resultado (o buraco), não a mão de obra (a furadeira). O detalhe de como cada componente cai na tela (headline, benefício, prova) está na soft-webinar-oferta (desenho) e na fase Ação da ADMA (apresentação, `estrutura-webinario-aida.md`).
+> **Tradução Soft:** "drill for the hole" é a tradução exata da Faca Soft aplicada à oferta, venda o resultado (o buraco), não a mão de obra (a furadeira). O detalhe de como cada componente cai na tela (headline, benefício, prova) está na soft-webinar-plano (desenho) e na fase Ação da ADMA (apresentação, `estrutura-webinario-aida.md`).
 
 ### 4.2 O preço: ancoragem em queda
 

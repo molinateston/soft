@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-mensagens
-description: "Escreve a SEQUÊNCIA de WhatsApp (canal primário, API oficial) e e-mail (secundário) do webinar Soft que enche a sala e fecha a venda, SEM replay. Cobre a régua de ANTES (cadastro com opt-in, faltam 24h, faltam 1h, link da sala 5 min antes), os 2 toques DURANTE (reativa quem se distraiu, avisa que a oferta abriu) e o PÓS pra quem NÃO comprou (resumo, prova, quebra de objeção, last call, fechamento, downsell ou pergunta de 1 palavra) roteado pela tag de percentual assistido, mais a esteira semanal e o repasse do lead quente pro Comercial 1:1. Use quando o pedido for WhatsApp, e-mails, sequência, lembrete ou follow-up do webinar, faltam 30 minutos, estou ao vivo, link da sala, reconvite, pós-webinar. NAO use pro ROTEIRO/falas (soft-webinar-script); OFERTA/preço/bônus (soft-webinar-oferta); página de cadastro/checkout (soft-funil-landing); MÁQUINA de pós com tags e CRM (soft-webinar-poswebinar); pacote inteiro (soft-webinario)."
+description: "Escreve a SEQUÊNCIA de WhatsApp (canal primário, API oficial) e e-mail (secundário) do webinar Soft que enche a sala e fecha a venda, SEM replay. Cobre a régua de ANTES (cadastro com opt-in, faltam 24h, faltam 1h, link da sala 5 min antes), os 2 toques DURANTE (reativa quem se distraiu, avisa que a oferta abriu) e o PÓS pra quem NÃO comprou (resumo, prova, quebra de objeção, last call, fechamento, downsell ou pergunta de 1 palavra) roteado pela tag de percentual assistido, mais a esteira semanal e o repasse do lead quente pro Comercial 1:1. Use quando o pedido for WhatsApp, e-mails, sequência, lembrete ou follow-up do webinar, faltam 30 minutos, estou ao vivo, link da sala, reconvite, pós-webinar. NAO use pro ROTEIRO/falas (soft-webinar-script); OFERTA/preço/bônus (soft-webinar-plano); página de cadastro/checkout (soft-funil-landing); MÁQUINA de pós com tags e CRM (soft-webinar-mensagens); pacote inteiro (soft-webinario)."
 ---
 
 # Mensagens do webinar, a régua que enche a sala e fecha a venda
@@ -161,7 +161,7 @@ A regra que muda tudo: **"lead quente é quem viu a sua OFERTA, não quem viu vo
 | Ficou até o fim | **máximo** | Lead mais quente sem ter comprado: **contato humano direto, prioridade máxima.** |
 | Comprou | cliente | **Sai de TODAS as sequências** e vai pro onboarding. |
 
-(A montagem da máquina - marcos, tags, roteamento de CRM - é da **soft-webinar-poswebinar**; aqui você usa a tag pra decidir QUAL mensagem cada faixa recebe.)
+(A montagem da máquina - marcos, tags, roteamento de CRM - é da **soft-webinar-mensagens**; aqui você usa a tag pra decidir QUAL mensagem cada faixa recebe.)
 
 ### 4b. A régua de fechamento (pra quem viu a oferta ou ficou até o fim)
 
@@ -192,7 +192,7 @@ Quem não fecha nas primeiras 72h cai numa cadência semanal sincronizada - cria
 
 ### 4d. O reconvite puxa pro Comercial 1:1
 
-Quem responde o WhatsApp vira lead quente: abre conversa humana, **nunca resposta automática** (e a resposta reabre a janela de 24h). Quem ficou até o fim sem comprar = lead mais quente, contato direto, prioridade máxima. Alto ticket fecha no 1:1, nunca no checkout. (A venda em si é da **soft-vendas-script**.)
+Quem responde o WhatsApp vira lead quente: abre conversa humana, **nunca resposta automática** (e a resposta reabre a janela de 24h). Quem ficou até o fim sem comprar = lead mais quente, contato direto, prioridade máxima. Alto ticket fecha no 1:1, nunca no checkout. (A venda em si é da **soft-vendas**.)
 
 ## Passo 5, princípios de copy por canal (aplica em toda mensagem)
 
@@ -265,12 +265,12 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 | Pediu | Vai pra |
 |---|---|
 | ROTEIRO ou falas do webinar | soft-webinar-script |
-| OFERTA, preço, bônus, garantia | soft-webinar-oferta |
+| OFERTA, preço, bônus, garantia | soft-webinar-plano |
 | Página de cadastro/obrigado/checkout/VSL | soft-funil-landing (ou soft-funil-carta) |
 | PLANO ou esqueleto ADMA | soft-webinar-plano |
-| MÁQUINA de pós (timestamp, tags no CRM, marcos de %, roteamento por ticket) | soft-webinar-poswebinar |
-| Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas-script |
-| Anúncio do webinar / headline de feed | soft-webinar-ads / soft-conteudo-headlines |
+| MÁQUINA de pós (timestamp, tags no CRM, marcos de %, roteamento por ticket) | soft-webinar-mensagens |
+| Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas |
+| Anúncio do webinar / headline de feed | soft-conteudo-impulsionar / soft-conteudo-headlines |
 | Pacote inteiro do webinar | soft-webinario |
 
 ## Anti-Patterns (sintoma → correção)

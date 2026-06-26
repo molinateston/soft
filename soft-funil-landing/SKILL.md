@@ -141,7 +141,7 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 - Pediu páginas que orbitam **WEBINAR** (cadastro / obrigado / checkout de webinar) → **soft-webinar-paginas**.
 - Pediu **quiz como LÓGICA/perguntas de segmentação profunda de marca** → **soft-posicionamento** se for diagnóstico de marca; a landing monta só a CASCA (hook + gate + result-shell).
 - Pediu **Plano / posicionamento / oferta** → **soft-posicionamento**. **Arte/visual/PNG** → **soft-designer**.
-- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas-script / -objecao / -prospeccao / -copiloto / -posvenda**.
+- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
 - Pediu **webinário perpétuo / evergreen** → **soft-webinario**.
 
 ## Anti-Patterns (sintoma → correção)
