@@ -42,7 +42,11 @@
         "./soft-webinar-chat",
         "./soft-lancamento-pago",
         "./soft-treino-dieta",
-        "./soft-financeiro"
+        "./soft-financeiro",
+        "./soft-contratos-consultoria",
+        "./soft-editor-video",
+        "./soft-proposta-comercial",
+        "./soft-apostila"
       ]
     }
   ]

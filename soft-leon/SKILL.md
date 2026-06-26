@@ -24,6 +24,7 @@ soft-leon é a **suíte do fundador**: não produz a peça, mas **orquestra, ava
 - **Plano de Guerra (sprint 30 dias)**: ficha de execução calculada de trás pra frente (meta de caixa → vendas → conversas → leads → peças → horas), com PRIMEIRA VENDA no 1º mês. Refs: `references/plano-de-guerra.md`, `cronograma-6-meses.md`, `meta-realista.md`.
 - **Benchmark Soft + recalibragem semanal**: réguas de cada etapa do funil e onde está o vazamento. Refs: `references/benchmark-soft.md`, `recalibragem-semanal.md`.
 - **Banco de Estratégias (jogadas de campanha)**: cardápio de movimentos prontos pra encher o funil (Levantada de Mão · Reunião de R$100 · Pré-venda · Lembrei de Você…), cada um apontando a mãe que executa. Ref: `references/estrategias-de-campanha.md`.
+- **Plano de Negócios do Cliente (entregável consolidado)**: a vista única que junta diagnóstico + posição/esteira + a Conta + projeção + plano de guerra + régua + sequência de ativação dos braços-IA, num só entregável que o cliente recebe. Não é método novo: consolida o que o LEON já produz. **Output adapta ao ambiente — `chat → MD` (mapa-mental) · `code → site` (renderiza/publica reusando o motor da `soft-proposta-comercial`).** Ref: `references/plano-de-negocios-do-cliente.md`.
 
 **Trilha CEO (gestão de empresa, do zero ao IPO)**
 - **Fundamentos do CEO**: o que muda na cabeça de quem sai de operador pra gestor. Ref: `references/fundamentos-do-ceo.md`.

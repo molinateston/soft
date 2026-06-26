@@ -42,5 +42,9 @@ Personalizar → **Plugins pessoais** (+) → Criar plugin → **Adicionar marke
 - `soft-lancamento-pago`
 - `soft-treino-dieta`
 - `soft-financeiro`
+- `soft-contratos-consultoria`
+- `soft-editor-video`
+- `soft-proposta-comercial`
+- `soft-apostila`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.
