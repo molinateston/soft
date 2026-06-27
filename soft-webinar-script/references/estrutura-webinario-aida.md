@@ -466,7 +466,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **Único = incomparável.** O mecanismo não precisa ser inédito no mundo, precisa ser **renomeado e reenquadrado de um jeito que não tenha com o que comparar.** Conteúdo batido com um enquadramento próprio vira único: "todo mundo fala de [X batido], mas com [seu ângulo/visão] ninguém tinha visto assim. Agora tudo faz sentido".
 
-> **Construção detalhada do mecanismo:** os 6 passos da Transmutação Mental (solução técnica → contexto/prova de terceiro → mecanismo apetitoso → prova/exemplo → nome → PUV) estão em `frameworks-proprietarios-leo.md`. O mecanismo pode receber VÁRIOS nomes em webinars diferentes (escala horizontal de headlines, capacidade da soft-webinario).
+> **Construção detalhada do mecanismo:** os 6 passos da Transmutação Mental (solução técnica → contexto/prova de terceiro → mecanismo apetitoso → prova/exemplo → nome → PUV) estão em `frameworks-proprietarios-leo.md`. O mecanismo pode receber VÁRIOS nomes em webinars diferentes (escala horizontal de headlines, capacidade da soft-webinar-plano).
 
 **Modelo:**
 > "O método tem nome: [Nome do Mecanismo]. Funciona em [2-4] movimentos. Movimento 1: [o quê, alto nível]. Movimento 2: [o quê]. Quando você combina os dois, [resultado]. Como faz cada um na prática, é o que a gente aprofunda lá dentro."
@@ -708,7 +708,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ### Bloco 4.13: Anti-fuga: entrega sem fricção (30 seg) **[UNIVERSAL]**
 
-> "Você clica, paga, recebe acesso na hora. Sem ligação de vendedor, sem agendamento. Você decide e entra." (No high ticket, isto muda: checkout vs aplicação é capacidade da soft-webinario.)
+> "Você clica, paga, recebe acesso na hora. Sem ligação de vendedor, sem agendamento. Você decide e entra." (No high ticket, isto muda: checkout vs aplicação é capacidade da soft-webinar-plano.)
 
 ### Bloco 4.14: CTA Logic (1 min) **[UNIVERSAL]**
 
@@ -750,7 +750,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ## O que acontece DEPOIS da aula
 
-> **A máquina de pós-webinar (lead quente = quem viu a OFERTA; segmentação por % assistido → tags → comercial por faixa de ticket; checkout direto vs aplicação; rede de captura pra esteira) é uma capacidade da soft-webinario.** A aula termina no checkout, mas a venda continua: quem não comprou é segmentado por quanto assistiu e empurrado pro canal certo. Não amarre o roteiro sem ter essa máquina montada.
+> **A máquina de pós-webinar (lead quente = quem viu a OFERTA; segmentação por % assistido → tags → comercial por faixa de ticket; checkout direto vs aplicação; rede de captura pra esteira) é uma capacidade da soft-webinar-plano.** A aula termina no checkout, mas a venda continua: quem não comprou é segmentado por quanto assistiu e empurrado pro canal certo. Não amarre o roteiro sem ter essa máquina montada.
 
 ---
 
@@ -851,14 +851,14 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 - [ ] 5 perguntas plantadas pro Q&A com respostas (`objection-annihilation.md`)
 - [ ] CTA Gain + Logic + Fear; fechamento por identidade + custo da inação
 - [ ] Proporção: Mecanismo + Ação ≈ 75% da aula; fechamento NÃO encurtado
-- [ ] Máquina de pós-webinar pronta (capacidade da soft-webinario)
+- [ ] Máquina de pós-webinar pronta (capacidade da soft-webinar-plano)
 - [ ] Camadas 1-5 revisadas; slides (1 a cada 2-4 min de fala)
 
 ---
 
 ## Notas operacionais
 
-- **No perpétuo**, a gravação é única, não dá pra ajustar sem re-rodar. Por isso o workflow recomenda **validar ao vivo primeiro** (mecânica do perpétuo na soft-webinario).
+- **No perpétuo**, a gravação é única, não dá pra ajustar sem re-rodar. Por isso o workflow recomenda **validar ao vivo primeiro** (mecânica do perpétuo na soft-webinar-plano).
 - **No ao vivo**, há flex no Q&A (perguntas reais) e dá pra ler nomes do chat em voz alta. As 5 plantadas continuam servindo de esqueleto. Comentários reais bons podem ser "eternizados" pra entrar nas sessões perpétuas.
 - **Slides** seguem padrão Soft Business, fundo branco ou preto absoluto, tipografia editorial, sem ícones coloridos. Dinâmica visual segura a atenção (slides aparecendo aos poucos, quebra de padrão, vir pertinho do vídeo, mudar o tom de voz nos pontos-chave). Use a skill `soft-conteudo` pro padrão visual cravado.
 - **Mantém ritmo.** Cada bloco tem um beat. Não desacelere nos blocos longos do Mecanismo; não corra nos curtos. E nunca corra no fechamento, ele é metade do webinar.
@@ -873,6 +873,6 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 - `frameworks-proprietarios-leo.md`, 6 passos da Transmutação Mental, persona-âncora, 6º nível de consciência, prova matemática do negócio, custo invisível.
 - `exemplos-por-bloco/10-ancoragem-preco.md` + `frameworks-proprietarios-leo.md` §5, dupla ancoragem e regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível.
 - `objection-annihilation.md`, Q&A planted, objeção-mãe como categoria-rainha, desejo oculto, banco de objeções, FAQ final.
-- **Pós-webinar (na soft-webinario):** lead quente = quem viu a oferta, segmentação por % assistido → tags → comercial por faixa de ticket, checkout vs aplicação, rede de captura pra esteira.
-- **Perpétuo (na soft-webinario):** validação ao vivo → perpetuar, 4 horários, ROAS não CPL, escala horizontal, jogo avançado.
-- **Anúncios (na soft-webinario):** 5 ganchos de curiosidade, título-fórmula, escala horizontal (1 webinar novo/semana).
+- **Pós-webinar (na soft-webinar-plano):** lead quente = quem viu a oferta, segmentação por % assistido → tags → comercial por faixa de ticket, checkout vs aplicação, rede de captura pra esteira.
+- **Perpétuo (na soft-webinar-plano):** validação ao vivo → perpetuar, 4 horários, ROAS não CPL, escala horizontal, jogo avançado.
+- **Anúncios (na soft-webinar-plano):** 5 ganchos de curiosidade, título-fórmula, escala horizontal (1 webinar novo/semana).

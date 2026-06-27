@@ -202,7 +202,7 @@ Após aprovação da versão-mestre, adapta pro formato escolhido:
 - Mini Carta → skill `soft-funil-carta`
 - Mini Webinar → ver `modo-mini-webinar.md` (esta skill) + o corpo desta skill
 - Landing Page → skill `soft-funil-landing`
-- Webinar → skill `soft-webinario`
+- Webinar → skill `soft-webinar-plano`
 
 ### Etapa 4, Auditoria antes de entregar
 

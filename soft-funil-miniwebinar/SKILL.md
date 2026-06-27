@@ -1,11 +1,11 @@
 ---
 name: soft-funil-miniwebinar
-description: "Fecha o PACOTE do MINI WEBINAR Soft (degrau 1, Funil Soft): o vídeo de ~10min que filtra, instala UMA virada de percepção e move pro 1:1, MAIS os SLIDES (1 ideia por slide, copy na nota) e a PÁGINA DE HOSPEDAGEM RICA (player + provas + bio + FAQ + argumento estilo carta abaixo dele). É a Carta com câmera, arco ADMA comprimido, mecanismo nomeado no centro. Ancora no verbatim real, entrega UMA peça por vez com STOP, gate por dentro (ADMA-micro + 1-ideia-por-slide + página protege-ou-mede + anti-IA). Use pra \"mini webinar\", \"mini-webinar\", \"webinar curto\", \"aula de vendas curta\", \"webinar do funil\", \"mini aula em vídeo\", \"versão em vídeo da carta\", \"slides do mini webinar\", \"deck do mini webinar\", \"página do mini webinar\", \"página de hospedagem do vídeo\". NÃO use pro WEBINÁRIO COMPLETO/perpétuo nem seu DECK ou 3 PÁGINAS (degrau 2: soft-webinario/soft-webinar-slides/soft-webinar-paginas), carta/VSL/landing/isca (soft-funil-*), nem a venda (soft-vendas)."
+description: "Fecha o PACOTE do MINI WEBINAR Soft (degrau 1, Funil Soft): o vídeo de ~10min que filtra, instala UMA virada de percepção e move pro 1:1, MAIS os SLIDES (1 ideia por slide, copy na nota) e a PÁGINA DE HOSPEDAGEM RICA (player + provas + bio + FAQ + argumento estilo carta abaixo dele). É a Carta com câmera, arco ADMA comprimido, mecanismo nomeado no centro. Ancora no verbatim real, entrega UMA peça por vez com STOP, gate por dentro (ADMA-micro + 1-ideia-por-slide + página protege-ou-mede + anti-IA). Use pra \"mini webinar\", \"mini-webinar\", \"webinar curto\", \"aula de vendas curta\", \"webinar do funil\", \"mini aula em vídeo\", \"versão em vídeo da carta\", \"slides do mini webinar\", \"deck do mini webinar\", \"página do mini webinar\", \"página de hospedagem do vídeo\". NÃO use pro WEBINÁRIO COMPLETO/perpétuo nem seu DECK ou 3 PÁGINAS (degrau 2: soft-webinar-plano/soft-webinar-slides/soft-webinar-paginas), carta/VSL/landing/isca (soft-funil-*), nem a venda (soft-vendas)."
 ---
 
 # Mini Webinar, a Carta com câmera
 
-Vídeo de ~10 minutos que faz UMA coisa: filtra quem não é cliente, instala UMA virada de percepção e move quem ficou pro Comercial 1:1. Mesma engenharia da carta, mídia diferente. Não é aula-tutorial nem webinário completo: roda o arco ADMA comprimido, com o mecanismo nomeado no centro. O Webinar Soft completo (degrau 2, com a oferta fechando metade do tempo) é a `soft-webinario`. Aqui é o degrau 1.
+Vídeo de ~10 minutos que faz UMA coisa: filtra quem não é cliente, instala UMA virada de percepção e move quem ficou pro Comercial 1:1. Mesma engenharia da carta, mídia diferente. Não é aula-tutorial nem webinário completo: roda o arco ADMA comprimido, com o mecanismo nomeado no centro. O Webinar Soft completo (degrau 2, com a oferta fechando metade do tempo) é a `soft-webinar-plano`. Aqui é o degrau 1.
 
 **O que esta skill faz por você:** fecha o PACOTE do mini-webinar do funil, três entregáveis encadeados do mesmo trabalho (não viram outra skill): (1) o **roteiro ADMA de 12 blocos** (a micro-aula de ~10 min que aquece e qualifica o lead), (2) os **slides do mini-webinar** que vestem esse roteiro de tela (copy falada na nota, 1 ideia por slide), (3) a **página de hospedagem rica** que emoldura o player E carrega o argumento estilo carta abaixo dele. O roteiro é a espinha; os slides vestem o roteiro de tela; a página emoldura o player e leva provas, bio, FAQ e o argumento dos 7 passos. **Slides e página são opcionais sob demanda:** entram quando o cliente pede, depois do roteiro fechado, dentro do mesmo mini-webinar. Continua a Carta com câmera, só que agora o pacote inteiro do degrau 1.
 
@@ -111,7 +111,7 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 | **Ancorado** | a dor/promessa nasce de fala literal da fonte (cita N **real**) OU de prova real do autor; **N inventado/plausível = ✗ automático** | |
 | **ADMA-micro** | a fase cumpre SÓ a função dela e cabe no tempo; nenhuma fase rouba a função de outra; Atenção filtra, Diagnóstico dói, Mecanismo prova, Ação move | |
 | **Mecanismo é o coração** | o **nome do método** aparece e ocupa o centro (60% do vídeo é Mecanismo); a peça vende uma virada de percepção, não ensina um tutorial executável | |
-| **Degrau 1, não degrau 2** | é o Mini Webinar ~10min do Funil Soft; a Ação CONVIDA pro 1:1, NÃO fecha no checkout nem vira o Webinar Soft completo (isso é soft-webinario) | |
+| **Degrau 1, não degrau 2** | é o Mini Webinar ~10min do Funil Soft; a Ação CONVIDA pro 1:1, NÃO fecha no checkout nem vira o Webinar Soft completo (isso é soft-webinar-plano) | |
 | **Uma virada, não aula** | o lead sai com UMA percepção nova, não com um passo a passo que dispensa o cliente (faca Soft: resultado e função, não receita) | |
 | **C/U/B** | não é **C**onfuso (uma ideia por frase) · não é **U**nbelievable/inacreditável (prova sustenta) · não é **B**oring (zero padding, zero motivacional) | |
 | **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
@@ -133,7 +133,7 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ só a peça/fase que falhou. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## When NOT to use (manda pra skill certa)
-- Pediu **webinário completo / perpétuo / evergreen** (degrau 2, a oferta fecha metade do tempo) → **soft-webinario**.
+- Pediu **webinário completo / perpétuo / evergreen** (degrau 2, a oferta fecha metade do tempo) → **soft-webinar-plano**.
 - Pediu o **DECK de um WEBINÁRIO COMPLETO/perpétuo** (com stack/preço, 50+ slides) → **soft-webinar-slides** (degrau 2). Aqui é só o deck ENXUTO do mini-webinar (~12 a 20 slides, sem maquinaria de oferta).
 - Pediu as **3 PÁGINAS do webinar completo** (cadastro/obrigado/checkout, ficha wizard, automação de comparecimento) → **soft-webinar-paginas**. Aqui é UMA página de hospedagem do mini-webinar do funil.
 - Pediu **lançamento pago / carrinho / evento com tráfego** (degrau 3) → **soft-lancamento-pago**.

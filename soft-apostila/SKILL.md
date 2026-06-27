@@ -22,7 +22,7 @@ Uma **apostila** (material navegável) a partir de uma gravação, via pipeline 
 
 **Onde se aplica no método Soft:**
 - **Isca / lead magnet** (`soft-funil-isca`) — uma masterclass gravada vira a isca navegável no lugar do PDF travado.
-- **Bônus do webinar/oferta** (`soft-webinario`) — material complementar gerado da própria gravação do webinar.
+- **Bônus do webinar/oferta** (`soft-webinar-plano`) — material complementar gerado da própria gravação do webinar.
 - **Micro-aula do funil** (`soft-funil`) — o micro-treinamento entregue como apostila.
 - **Entrega da mentoria/produto** — cada call/aula vira material indexado pra comunidade (menos churn).
 

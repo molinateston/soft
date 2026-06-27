@@ -38,7 +38,7 @@ A peça pronta + a tabela do gate preenchida (pra mostrar que passou). Se algum 
 
 ## A diferença entre construir aqui e nas skills de geração
 
-as skills de conteúdo (carrossel/reels/stories), `soft-funil` e `soft-webinario` continuam sendo os **sistemas profundos** (a engenharia completa por formato). O Crivo no modo construção é o **atalho forte**: quando você quer uma peça boa agora, ancorada no VoC e já testada, sem abrir o sistema inteiro. Ele puxa as premissas-mestras (o melhor das três) e o verbatim, escreve e se auto-testa. Para volume e profundidade (calendário, lote, design de slide), as skills de geração seguem mandando, e elas chamam o Crivo como gate no final do jeito que já está cabeado.
+as skills de conteúdo (carrossel/reels/stories), `soft-funil` e `soft-webinar-plano` continuam sendo os **sistemas profundos** (a engenharia completa por formato). O Crivo no modo construção é o **atalho forte**: quando você quer uma peça boa agora, ancorada no VoC e já testada, sem abrir o sistema inteiro. Ele puxa as premissas-mestras (o melhor das três) e o verbatim, escreve e se auto-testa. Para volume e profundidade (calendário, lote, design de slide), as skills de geração seguem mandando, e elas chamam o Crivo como gate no final do jeito que já está cabeado.
 
 ## O que ele não faz no modo construção
 

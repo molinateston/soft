@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-slides
-description: "Renderiza o DECK/slides do webinar Soft a partir de um roteiro ADMA já pronto: projeta o roteiro nos beats do deck, escolhe o arquétipo de cada slide, joga TODA a copy falada pras notas e deixa na tela só o reforço (1 ideia, 1 número ou 1 imagem por slide), com mecanismo e oferta em slides próprios e respiro em toda virada. Não reescreve o roteiro nem reordena os blocos, só veste de tela. Roda o gate antes de exportar e faz o handoff do visual fino. Use quando o pedido for slides do webinar, deck do webinar, apresentação do webinar, gerar os slides, montar o deck, template de slides, copy na nota, ritmo do deck. NÃO use pra escrever o roteiro/falas do webinar inteiro → soft-webinario; nem pro PLANO/esqueleto ADMA → soft-webinar-plano; nem pra OFERTA/stack/preço → soft-webinar-plano; nem pro visual fino/arte/PNG → soft-designer; nem pra carta/VSL/landing → soft-funil-carta/soft-funil-landing."
+description: "Renderiza o DECK/slides do webinar Soft a partir de um roteiro ADMA já pronto: projeta o roteiro nos beats do deck, escolhe o arquétipo de cada slide, joga TODA a copy falada pras notas e deixa na tela só o reforço (1 ideia, 1 número ou 1 imagem por slide), com mecanismo e oferta em slides próprios e respiro em toda virada. Não reescreve o roteiro nem reordena os blocos, só veste de tela. Roda o gate antes de exportar e faz o handoff do visual fino. Use quando o pedido for slides do webinar, deck do webinar, apresentação do webinar, gerar os slides, montar o deck, template de slides, copy na nota, ritmo do deck. NÃO use pra escrever o roteiro/falas do webinar inteiro → soft-webinar-plano; nem pro PLANO/esqueleto ADMA → soft-webinar-plano; nem pra OFERTA/stack/preço → soft-webinar-plano; nem pro visual fino/arte/PNG → soft-designer; nem pra carta/VSL/landing → soft-funil-carta/soft-funil-landing."
 ---
 
 # Slides do webinar, o deck que constrói crença slide a slide
@@ -20,8 +20,8 @@ O deck não é o conteúdo. É o amplificador visual de um roteiro que já funci
 ## Passo 0, exige o roteiro pronto (NÃO PULE)
 O deck nasce do script, nunca do zero. Procura o roteiro ADMA, nesta ordem: **roteiro colado na conversa** → **descrição do projeto** → **mensagens anteriores**. Três estados de entrada (declara qual é o seu):
 - **Tem roteiro ADMA completo:** caminho ideal. Projeta direto.
-- **Tem só esqueleto/blocos, sem fala fechada:** projeta os beats, mas marca cada nota como `[FALA: do roteiro, a fechar]` e avisa que o deck só fecha com o roteiro pronto (vai pra **soft-webinario** escrever, ou **soft-webinar-plano** pro esqueleto).
-- **Não tem roteiro:** PARA. Não inventa fala de palco. Manda fechar o roteiro primeiro (**soft-webinario**) e volta.
+- **Tem só esqueleto/blocos, sem fala fechada:** projeta os beats, mas marca cada nota como `[FALA: do roteiro, a fechar]` e avisa que o deck só fecha com o roteiro pronto (vai pra **soft-webinar-plano** escrever, ou **soft-webinar-plano** pro esqueleto).
+- **Não tem roteiro:** PARA. Não inventa fala de palco. Manda fechar o roteiro primeiro (**soft-webinar-plano**) e volta.
 
 Puxa do roteiro: a UMA promessa central · o mecanismo nomeado · as provas reais (caso + número + prazo) · a oferta (stack/preço, se já existe). Número sem prova no roteiro entra como `[DADO: confirmar]`, nunca inventado.
 
@@ -91,7 +91,7 @@ Preenche a tabela **por fase**. Só fase com VEREDITO=PASSA é mostrada/exportad
 Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te serve? sigo pra próxima?". **Espera o OK** antes de seguir. Ao fim das 4 fases, faz o **handoff do visual fino** (paleta, tipografia, arte, mockups, animação clique-a-clique no player) pra **soft-designer**. Esta skill entrega o deck conceitual certo; o acabamento visual é lá.
 
 ## When NOT to use (manda pra skill certa)
-- Pediu o **roteiro/falas do webinar inteiro** → **soft-webinario**.
+- Pediu o **roteiro/falas do webinar inteiro** → **soft-webinar-plano**.
 - Pediu o **PLANO/esqueleto ADMA / perpétuo vs ao vivo** → **soft-webinar-plano**.
 - Pediu a **OFERTA / stack / preço / garantia** → **soft-webinar-plano**.
 - Pediu **arte/visual fino/PNG/paleta** → **soft-designer**.
@@ -103,7 +103,7 @@ Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te
 |---|---|
 | Despejou o deck inteiro de uma vez | Volta: uma fase por vez, com gate, e PARA pro OK |
 | Pôs o parágrafo da fala na tela | Joga a copy pra nota; na tela só o reforço (1 ideia) |
-| Montou o deck sem roteiro pronto | PARA: o deck nasce do script; manda fechar o roteiro (soft-webinario) |
+| Montou o deck sem roteiro pronto | PARA: o deck nasce do script; manda fechar o roteiro (soft-webinar-plano) |
 | Mega-diagrama de consultoria no mecanismo | Simplifica: ilusão de simplicidade, reveal peça-a-peça |
 | Inventou número/bônus/preço "plausível" | Só o que tem prova no roteiro; sem fonte = `[DADO: confirmar]` |
 | Ferramenta virou o título/herói do deck | Ferramenta é motor subordinado no ensino; título = transformação do avatar |

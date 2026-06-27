@@ -7,7 +7,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 > **Fronteiras (o que NÃO mora aqui, pra não duplicar):**
 > - **Como GRAVAR com energia** (3 formas de gravar, conduta de sala, eco de chat real, setup): roteiro/gravação = território da **soft-webinar-plano**. Aqui é o que entra no chat DEPOIS de a gravação existir.
 > - **A engenharia de interação do host** (escada de micro-compromissos, eco nominal, perguntas-isca, falas literais dos campeões): bundlada aqui em `interacao-chat-ao-vivo.md`. Eu uso a PREMISSA daqueles padrões pra saber o que a sala responde a cada comando do host; não recopio as falas do host.
-> - **Subir/operar o perpétuo, scheduling, contador de presença, config, tags, CRM, ROAS, pós-webinar**: território da **soft-webinario** / **soft-vendas**. Aqui só o campo de chat simulado.
+> - **Subir/operar o perpétuo, scheduling, contador de presença, config, tags, CRM, ROAS, pós-webinar**: território da **soft-webinar-plano** / **soft-vendas**. Aqui só o campo de chat simulado.
 > - **A ordem dos blocos e ONDE ficam o "EU QUERO", o carrinho aberto, o pitch**: a espinha canônica do roteiro é da **soft-webinar-script**. Eu mapeio a CURVA de comentários sobre essa ordem; quando o roteiro foi colado na conversa, ancoro nele.
 
 > Voz dos comentários = **participante brasileiro real**, não o tom clínico do host. O participante fala torto, abrevia, erra acento, usa gíria leve. O host é frio e mede; o público é quente e desorganizado. Exemplos marcados como EXEMPLO. Nomes próprios do método (Big Idea, mecanismo, bônus, produto) entram como SLOT `[…]`. Zero travessão de prosa.
@@ -95,7 +95,7 @@ Dado **N = pessoas-alvo "ao vivo"** (o número que a sessão simula ter na sala;
 - **Teto de poluição (herdado do `gravacao-energia-ao-vivo.md` §5.1):** mesmo simulado, não estourar. Acima de ~150-200 mensagens visíveis "ninguém presta atenção na aula, presta no chat". A simulação dá energia, não ruído.
 - **Comentários/minuto por fase:** ZERO a baixo no meio do ensino (pra não competir com o conteúdo), picos nos momentos de comando e prova, MÁXIMO no carrinho aberto.
 
-### A curva de densidade (onde concentrar, mapeada sobre a espinha do roteiro, da soft-webinario ou colado na conversa)
+### A curva de densidade (onde concentrar, mapeada sobre a espinha do roteiro, da soft-webinar-plano ou colado na conversa)
 
 ```
 densidade

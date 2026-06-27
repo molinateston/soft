@@ -1,6 +1,6 @@
 ---
 name: soft-lancamento-pago
-description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta (Holzer) e Lançamento Pago Semanal Gravado / LPSG (Tabari). 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (skill soft-conteudo), carta ou VSL (skill soft-funil), webinar perpétuo (skill soft-webinario), posicionamento (skill soft-posicionamento), ou a venda, objeção, fechamento 1:1 (skill soft-vendas)."
+description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta (Holzer) e Lançamento Pago Semanal Gravado / LPSG (Tabari). 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (skill soft-conteudo), carta ou VSL (skill soft-funil), webinar perpétuo (skill soft-webinar-plano), posicionamento (skill soft-posicionamento), ou a venda, objeção, fechamento 1:1 (skill soft-vendas)."
 ---
 
 # Soft Launch, o degrau 3 da escada de funis (lançamento pago)
@@ -100,7 +100,7 @@ Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio,
 ## When NOT to use (manda pra skill certa)
 - **Carrossel, reel, stories, capa** → `soft-conteudo`.
 - **Carta / vídeo de vendas / VSL / landing do Funil Soft (degrau 1)** → `soft-funil`.
-- **Webinar Soft perpétuo (degrau 2)** → `soft-webinario`.
+- **Webinar Soft perpétuo (degrau 2)** → `soft-webinar-plano`.
 - **Posicionamento / Plano / método / oferta** → `soft-posicionamento`.
 - **A venda em si (script, objeção, follow-up, fechamento 1:1)** → `soft-vendas`.
 - **Lançamento Fórmula (Erico Rocha)** → fora do escopo combinado, não opera aqui.

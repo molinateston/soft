@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-script
-description: "Escreve A AULA DO WEBINAR Soft inteira e fundo, roteiro E slides numa coisa só, na ESTRUTURA REAL do webinar do Léo. A copy falada vai na NOTA; a TELA carrega o conteúdo visual de ensino (lista/bullets/frase de apoio que dá dinâmica), nunca um rótulo fino. Constrói de trás pra frente a partir da oferta, no arco ADMA (Atenção, Diagnóstico, Mecanismo, Ação) com pré-início obrigatório de prova, o Mecanismo na sequência real (nova oportunidade, estreia do nome, condições, tabela de superioridade, batismo, prova-meta, 3 passos, recap), a oferta-stack inteira por ancoragem progressiva, tudo em listas item-a-item por clique, objeções aniquiladas e Q&A que força a decisão. Roda o gate por dentro. Use quando o pedido for roteiro, script, aula, slides, deck, conteúdo, objeções, oferta dentro da aula, Q&A ou gravação do webinar. NÃO use pro pacote completo (páginas, e-mails, anúncios, pós): soft-webinario; design/PNG/arte: soft-designer; carta/VSL/landing: soft-funil; headline isolada: soft-conteudo-headlines."
+description: "Escreve A AULA DO WEBINAR Soft inteira e fundo, roteiro E slides numa coisa só, na ESTRUTURA REAL do webinar do Léo. A copy falada vai na NOTA; a TELA carrega o conteúdo visual de ensino (lista/bullets/frase de apoio que dá dinâmica), nunca um rótulo fino. Constrói de trás pra frente a partir da oferta, no arco ADMA (Atenção, Diagnóstico, Mecanismo, Ação) com pré-início obrigatório de prova, o Mecanismo na sequência real (nova oportunidade, estreia do nome, condições, tabela de superioridade, batismo, prova-meta, 3 passos, recap), a oferta-stack inteira por ancoragem progressiva, tudo em listas item-a-item por clique, objeções aniquiladas e Q&A que força a decisão. Roda o gate por dentro. Use quando o pedido for roteiro, script, aula, slides, deck, conteúdo, objeções, oferta dentro da aula, Q&A ou gravação do webinar. NÃO use pro pacote completo (páginas, e-mails, anúncios, pós): soft-webinar-plano; design/PNG/arte: soft-designer; carta/VSL/landing: soft-funil; headline isolada: soft-conteudo-headlines."
 ---
 
 # A aula do webinar Soft: roteiro + slides numa coisa só (a peça mais profunda do método)
@@ -156,7 +156,7 @@ O Q&A é onde acontece 30-50% das vendas; **escreve uma vez, não improvisa**. A
 ## Passo 7, conduz a gravação com energia de ao vivo (se o pedido incluir gravar)
 Roteiro e slides prontos não bastam: no perpétuo, **o que converte é o como, não só o que se fala**, e o "como" é energia de ao vivo. A troca de slide É a energia (tela parada = aba fechada = venda perdida); fala com a sala como se estivesse ali (eco de nome/cidade/dor real da sala pequena de 8-15); a **pausa estratégica** ("deixa eu tomar uma água") perto da transição colhe prova social no ponto de maior tensão; **nunca AFIRMA "estou ao vivo"** (o frame faz o trabalho; a declaração desmascarada inverte o sinal); tom clínico, profético só na tese. **Lê `references/gravacao-energia-ao-vivo.md`** pra as 3 formas de gravar, a ordem (validar ao vivo, gravar, perpetuar) e os 12 erros que matam a gravação.
 
-> O chat simulado do perpétuo (cadência, falas prontas, checagem de consistência contra o roteiro) é uma capacidade da **soft-webinario** (`references/simulador-comentarios-ao-vivo.md`): simula-se a SALA, nunca a PROVA (vagas/preço/resultado continuam reais). Aponta pra lá se o pedido for o chat injetado.
+> O chat simulado do perpétuo (cadência, falas prontas, checagem de consistência contra o roteiro) é uma capacidade da **soft-webinar-plano** (`references/simulador-comentarios-ao-vivo.md`): simula-se a SALA, nunca a PROVA (vagas/preço/resultado continuam reais). Aponta pra lá se o pedido for o chat injetado.
 
 ## Passo 8, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate no slide/bloco (ou no arco, quando entregar a aula inteira) **internamente**. Só o que tem VEREDITO=PASSA vai pro cliente. Um ✗ refaz. A tabela é o teu **checklist interno**, nunca a saída. Inclui as **camadas de revisão** (Lógica · One Sentence Persuasion de Blair, cada bloco aciona ≥2 das 5 alavancas · Curiosidade/compliance · Limpeza · Interação).
@@ -188,7 +188,7 @@ No Claude Code, roda `python3 scripts/lint_copy.py arquivo.txt` na fala+tela com
 Mostra **só o que passou, LIMPO** (como no Claude Chat): cada slide com objetivo + tela + nota (a fala-template com slots `[ ]` + o exemplo curto). Sem tabela de gate, sem meta. Pergunta "esse trecho te serve? ajusto ou sigo pro próximo?". **Espera a aprovação** antes de seguir.
 
 ## When NOT to use (manda pra skill certa)
-- Pediu o **pacote completo do webinar** (páginas de cadastro/obrigado/checkout, e-mails, WhatsApp, anúncios, pós-webinar, simular comentários ao vivo) → **soft-webinario**.
+- Pediu o **pacote completo do webinar** (páginas de cadastro/obrigado/checkout, e-mails, WhatsApp, anúncios, pós-webinar, simular comentários ao vivo) → **soft-webinar-plano**.
 - Pediu a **OFERTA / stack / preço / ancoragem / garantia / PUV** isolada (o DESENHO, não a encenação) → **soft-webinar-plano** (a aula nasce dela, mas o desenho é lá).
 - Pediu **design fino / arte / PNG / layout final** do deck → **soft-designer**.
 - Pediu **só a headline/abertura isolada** ou banco de ganchos → **soft-conteudo-headlines**.
@@ -235,7 +235,7 @@ Mostra **só o que passou, LIMPO** (como no Claude Chat): cada slide com objetiv
 | Imprimiu a tabela do gate na saída | O gate é INTERNO; a saída é só a peça limpa |
 
 ## Handoff (o que sai daqui e pra onde vai depois)
-A aula pronta (slides com tela + nota) segue pra: **soft-designer** (acabamento visual/PNG/arte do deck) · **soft-webinario** (que orquestra o pacote: gravação, páginas de cadastro/obrigado/checkout, e-mails/WhatsApp pré e pós, anúncios pra encher a sala, máquina de pós-webinar, simulador de chat). A gravação com energia de ao vivo já está dirigida no Passo 7.
+A aula pronta (slides com tela + nota) segue pra: **soft-designer** (acabamento visual/PNG/arte do deck) · **soft-webinar-plano** (que orquestra o pacote: gravação, páginas de cadastro/obrigado/checkout, e-mails/WhatsApp pré e pós, anúncios pra encher a sala, máquina de pós-webinar, simulador de chat). A gravação com energia de ao vivo já está dirigida no Passo 7.
 
 ## References (este SKILL.md dirige cada uma; leia a indicada antes do passo que a aponta)
 - `references/fundamentos-pre-roteiro.md`: GATE 0, os 8 fundamentos (Mapa do Avatar, USP, Big Idea 7 partes, One Belief, Promessa, 6 níveis, título+5 ganchos, One Sentence Persuasion de Blair), GATE ANTI-RÓTULO, as 3 camadas. (Passo 0)
@@ -251,7 +251,7 @@ A aula pronta (slides com tela + nota) segue pra: **soft-designer** (acabamento 
 - `references/oferta-stack.md`: a COMPOSIÇÃO da oferta-stack (tripartição módulos × cursos × bônus, escada de identidade, bônus dos 15 primeiros / duas moedas, soma riscada item por clique, ordem canônica de 15 beats, checklist de montagem). (Passos 1, 5)
 - `references/falas-prontas-por-bloco.md`: a fala-template verbatim de cada bloco, já no tom Soft, com lacunas. (Passo 5)
 - `references/gravacao-energia-ao-vivo.md`: 3 formas de gravar, energia de ao vivo, pausa da água, os 12 erros. (Passo 7)
-- `references/simulador-comentarios-ao-vivo.md`: o chat injetado do perpétuo (capacidade da soft-webinario; simula a sala, nunca a prova). (Passo 7, pointer)
+- `references/simulador-comentarios-ao-vivo.md`: o chat injetado do perpétuo (capacidade da soft-webinar-plano; simula a sala, nunca a prova). (Passo 7, pointer)
 - `references/premissas-e-guarda-corpos.md`: as 10 meta-premissas + os 11 guarda-corpos (o cérebro que JULGA cada peça). (Passos 1, 8)
 - `references/escolha-carta-mt-webinario.md`: a régua de maturidade (é hora de webinar?). (Passo 0)
 - `references/analise-webinario-existente.md`: auditar webinar pronto, bloco a bloco contra o gabarito. (Passo 8, Modo B)

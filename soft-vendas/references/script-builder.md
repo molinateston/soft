@@ -297,6 +297,7 @@ Depois de coletar os 4 inputs, entrega nesta ordem:
 - Blocos cronometrados: Entenda 20' / Conecte 5' / Apresente 15' / Feche 10'.
 - Sem slides. Sem roteiro fixo lido. Tom conversacional.
 - Se tiver SDR pré-qualificando: SDR faz F1–F3, especialista pega F4–F7. Passagem: *"[Especialista], [Nome] é [o que faz], fatura [X]/mês, já tentou [X]. Quer [resultado]. Tá pronto pra decidir hoje."*
+- **Recebimento do bastão (regra dura):** o SDR escreve TUDO no CRM (dores, objetivo, porquê, números). O especialista **lê o CRM ANTES da call** e abre ecoando a qualificação, já dentro do diagnóstico, NUNCA fazendo o lead repetir. Abertura SDR-fed: *"[Nome], vi aqui que [contexto + números] e que tu busca [objetivo que deu pro SDR]. É isso mesmo? O que vem acontecendo?"*. Proibido abrir com "me conta o que te trouxe aqui" pra quem já passou pelo SDR. Detalhe e porquê em `references/conducao-na-pratica.md` ("Receber o bastão do SDR").
 
 ---
 
@@ -339,6 +340,8 @@ Use estas falas como matéria-prima das 7 fases, não como roteiro fixo lido. A 
 > "Primeiramente, eu quero fazer um diagnóstico aprofundado com vocês. Se eu não conseguir ajudar, eu vou ser o primeiro a falar. E nesse primeiro momento eu vou entender se vocês têm perfil. O segundo momento é onde aí sim eu apresento uma possível solução, e vocês vão me avaliar. E aí, se vocês disserem 'sim, é o que a gente busca', aí sim a gente vai pra plano, condição, forma de pagamento. Não vou falar de preço. Pode ser que a gente não chegue lá. Mas se fizer sentido a gente vai avançando, beleza?"
 
 **Como aplicar:** *"Primeiro eu faço um diagnóstico do seu [problema] e te falo na cara se eu consigo ajudar ou não. Se não conseguir, sou o primeiro a dizer. Segundo, eu vejo se você tem perfil pra isso. Só se fizer sentido nos dois é que a gente fala de plano e de valor. Pode ser que a gente nem chegue lá, e tá tudo certo."* Emenda direto na primeira pergunta de Descoberta.
+
+> **Se o lead veio pré-qualificado (SDR / WhatsApp):** não emende numa pergunta crua ("me conta qual a maior dificuldade"), isso faz repetir e irrita, ainda mais lead mais rico. Leia o CRM antes e abra ecoando a qualificação, já no diagnóstico: *"[Nome], vi aqui que [contexto + números] e que tu busca [objetivo que deu pro SDR]. É isso mesmo? O que vem acontecendo?"*. A primeira pergunta de Descoberta sai DAÍ, não do zero. Mecanismo completo em `references/conducao-na-pratica.md` ("Receber o bastão do SDR").
 
 *(origem: DVPeHEtjXGo, DZVt_p3Av7C)*
 

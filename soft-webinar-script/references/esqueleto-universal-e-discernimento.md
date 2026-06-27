@@ -104,8 +104,8 @@ A redefinição que reorienta toda a régua de calor de lead (doutrina Soft): **
 
 Consequências práticas que a IA precisa aplicar:
 - **O webinar é a máquina de fabricar lead quente**, porque ele é a estrutura que entrega tempo de tela longo E leva o lead até a oferta. Tempo de tela é motor de confiança: 2h de aula valem mais que centenas de toques de conteúdo curto. Por isso o webinar converte parecido pra lead frio e quente - ele não depende do calor prévio, ele PRODUZ o calor.
-- **A métrica de qualificação não é "engajou com o conteúdo", é "chegou na oferta".** Como o webinar é gravado, sabe-se o timestamp exato em que a oferta aparece; quem ultrapassou esse ponto é o lead realmente quente. Isto é a base da máquina de pós-webinar (segmentação por % assistido → tags → comercial), uma capacidade da soft-webinario.
-- **O tráfego, depois de volume, otimiza pra VENDA, não pra lead** - coerente com "lead quente = viu a oferta": você quer que o algoritmo busque quem compra, não quem preenche formulário. Detalhe na soft-webinario.
+- **A métrica de qualificação não é "engajou com o conteúdo", é "chegou na oferta".** Como o webinar é gravado, sabe-se o timestamp exato em que a oferta aparece; quem ultrapassou esse ponto é o lead realmente quente. Isto é a base da máquina de pós-webinar (segmentação por % assistido → tags → comercial), uma capacidade da soft-webinar-plano.
+- **O tráfego, depois de volume, otimiza pra VENDA, não pra lead** - coerente com "lead quente = viu a oferta": você quer que o algoritmo busque quem compra, não quem preenche formulário. Detalhe na soft-webinar-plano.
 - **Não confie em "lead quente porque viu 75% no tráfego"** - vai frustrar. Conteúdo hoje é o mínimo pra estar no jogo, não diferencial de calor. O webinar distribui CONSCIÊNCIA (que aquece), não só conteúdo (que informa).
 
 ## O que NUNCA copiar

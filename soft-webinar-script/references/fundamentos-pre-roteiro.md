@@ -520,7 +520,7 @@ A promessa não muda com o preço - muda só **pra onde ela leva a pessoa depois
 | R$2 mil – R$6 mil (mentoria, consultoria, serviço) | Levanta a mão → **comercial 1:1** ("ancora em 20k, vende por 2k"; formulário pré-qualifica) |
 | R$10 mil+ (high-ticket, evento) | A promessa abre a porta; quem fecha é **closer no Zoom**, com SDR protegendo o closer do lead ruim |
 
-(Regra do MANUAL-COMPLETO cap 3 - cruzar com a esteira do ecossistema Soft, capacidade da soft-webinario.)
+(Regra do MANUAL-COMPLETO cap 3 - cruzar com a esteira do ecossistema Soft, capacidade da soft-webinar-plano.)
 
 ### Onde aparece
 
@@ -715,5 +715,5 @@ Sem todos os itens marcados, **não avance**. Volte e complete. Webinar bom é c
 - Esses fundamentos servem **também** para Carta de Vendas e Micro Treinamento - não são exclusivos do webinar. Se cliente já tem isso pronto da skill `soft-funil`, **reaproveita** (não refaça).
 - Big Idea é o ativo mais reusável: serve pra webinar, carta, MT, lançamento, anúncios, posicionamento orgânico. E é **slot**: o mesmo produto comporta vários ângulos (escala horizontal - ver os 4 nomes do produto de emprego na seção 5).
 - One Sentence Persuasion não aparece **nomeada** no webinar - é uma régua interna pra você medir camadas. Avatar não vê esse rótulo.
-- A Proposição Única falada ocupa o slot **S10** do `template-72-slides.md`; o peso da fase Diagnóstico (decidido pelo nível de consciência) se aplica em `estrutura-webinario-aida.md`; a régua de ticket conversa com a soft-webinario (pós-webinar).
+- A Proposição Única falada ocupa o slot **S10** do `template-72-slides.md`; o peso da fase Diagnóstico (decidido pelo nível de consciência) se aplica em `estrutura-webinario-aida.md`; a régua de ticket conversa com a soft-webinar-plano (pós-webinar).
 - ⚠️ Lembrete permanente: exemplos de nicho alheio neste arquivo são **didáticos** - decalcar qualquer um deles (frase, dor, inimigo, número) no webinar de um cliente é o anti-padrão G2 do método ("o mais perigoso").

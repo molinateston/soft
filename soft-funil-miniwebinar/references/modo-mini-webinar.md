@@ -1,6 +1,6 @@
 # Modo Mini Webinar, vídeo de 10min em 12 blocos (arco ADMA curto)
 
-> **Nota de dono.** Mini Webinar é o micro-ADMA do degrau 1 (versão curta ~10min), operado por esta skill `soft-funil-miniwebinar`. O Webinar completo ADMA é a skill `soft-webinario` (degrau 2). Os dois rodam o MESMO arco (Atenção → Diagnóstico → Mecanismo → Ação); este aqui é a compressão do degrau 1, não um framework à parte.
+> **Nota de dono.** Mini Webinar é o micro-ADMA do degrau 1 (versão curta ~10min), operado por esta skill `soft-funil-miniwebinar`. O Webinar completo ADMA é a skill `soft-webinar-plano` (degrau 2). Os dois rodam o MESMO arco (Atenção → Diagnóstico → Mecanismo → Ação); este aqui é a compressão do degrau 1, não um framework à parte.
 
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
@@ -55,7 +55,7 @@ Cliente escolhe Carta OU Mini Webinar. Não usa as duas simultaneamente.
 
 ## Princípio estrutural
 
-Mini Webinar segue o **arco ADMA** (Atenção → Diagnóstico → Mecanismo → Ação), o MESMO do webinário Soft (`soft-webinario`), comprimido pra 10 minutos. É o micro-ADMA do degrau 1.
+Mini Webinar segue o **arco ADMA** (Atenção → Diagnóstico → Mecanismo → Ação), o MESMO do webinário Soft (`soft-webinar-plano`), comprimido pra 10 minutos. É o micro-ADMA do degrau 1.
 
 **Duração ideal:** 9 a 11 minutos. Acima disso retenção cai. Abaixo de 9 perde valor percebido.
 

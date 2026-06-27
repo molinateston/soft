@@ -357,7 +357,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 **Premissa do bloco:** emoção decide, razão justifica, medo move, nessa ordem (M6). As vagas abrem no pico de energia, o pitch emocional projeta identidade ("quem vai ter orgulho de você?"), a prova final reaparece no momento exato da decisão, e o Q&A não é apêndice: é **10 minutos de demolição de objeções** com a oferta fixa na tela e compras sendo celebradas ao vivo (prova social em tempo real). Encurtar este bloco "pra não cansar" é o erro clássico (G6).
 
-→ Falas verbatim: **`exemplos-por-bloco/12-escassez-urgencia-cta.md`** (CTA, cartão na mão) + **`exemplos-por-bloco/13-qa-objecoes.md`** (Q&A) + `objection-annihilation.md`. Roteiro: blocos 4.10–4.18; pós-webinar é capacidade da soft-webinario. Render: `fechamento`, `frase`, `prova`.
+→ Falas verbatim: **`exemplos-por-bloco/12-escassez-urgencia-cta.md`** (CTA, cartão na mão) + **`exemplos-por-bloco/13-qa-objecoes.md`** (Q&A) + `objection-annihilation.md`. Roteiro: blocos 4.10–4.18; pós-webinar é capacidade da soft-webinar-plano. Render: `fechamento`, `frase`, `prova`.
 
 - **S66: "Abre as vagas!" com muita energia: o botão nasce no pico, nunca num vale.**
   - *Função:* CTA físico no pico emocional; cartão na mão ANTES do link (elimina o atrito que mata o impulso).

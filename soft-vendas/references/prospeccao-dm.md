@@ -137,7 +137,7 @@ Depois de passar pelos 4 elementos (ou até um ponto em que você entendeu o suf
 | **Mini Carta** | Padrão Soft. Serve pra qualquer nicho. Filtra por leitura. |
 | **Mini Webinar** | Alternativa em vídeo (10min em 12 blocos). Quando cliente prefere vídeo a texto, ou tem audiência em formato vídeo. |
 
-> **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-webinario`) quando precisa formato longo ao vivo ou perpétuo.
+> **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-webinar-plano`) quando precisa formato longo ao vivo ou perpétuo.
 
 **Modelo de entrega da DM:**
 

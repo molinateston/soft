@@ -216,7 +216,7 @@ Esta skill é o destino de tudo que é **treino, dieta e saúde musculoesquelét
 - Pediu **carrossel, reel, story, headline, conteúdo de feed** → `soft-conteudo` / `soft-conteudo-headlines`.
 - Pediu **carta, VSL, landing, funil, isca** → `soft-funil`.
 - Pediu **script de venda, objeção, fechamento, prospecção** → `soft-vendas`.
-- Pediu **webinar / lançamento** → `soft-webinario` / `soft-lancamento-pago`.
+- Pediu **webinar / lançamento** → `soft-webinar-plano` / `soft-lancamento-pago`.
 - Não sabe por onde começar o negócio, qual fase, próximo passo → `soft-leon` (o Sócio IA orquestra e chama a mãe certa).
 
 Resumo: dúvida de corpo/saúde fica aqui; dúvida de marketing/negócio vai pras `soft-*`. Esta skill nunca opina sobre posicionamento, oferta ou copy.

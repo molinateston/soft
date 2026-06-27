@@ -1,6 +1,6 @@
 ---
 name: soft-funil-isca
-description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, mini-aula, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"material gratuito\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar) nem webinário (→ soft-webinario). NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
+description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, mini-aula, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"material gratuito\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar) nem webinário. NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
 ---
 
 # Isca, a amostra que prova a tese e captura o lead certo
@@ -100,9 +100,9 @@ Mostra **só o que passou, LIMPO** (como no Claude Chat): a peça e a fonte do v
 - Pediu **carrossel, reel, stories, headline ou texto de feed** → **soft-conteudo**.
 - Pediu **peça de FEED** (carrossel/reel/stories/post solto pra alcance, sem captura de contato) → **soft-conteudo**. A isca é material de CAPTURA (troca por contato) com destino marcado; se não captura contato nem leva a destino, não é isca.
 - Pediu **carta de vendas / VSL / página de vendas** → **soft-funil-carta**.
-- Pediu **webinário/mini-webinar como ISCA de topo** → **soft-webinario** / **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a eles, não o evento em si.
+- Pediu **webinário/mini-webinar como ISCA de topo** → **soft-webinar-plano** / **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a eles, não o evento em si.
 - Pediu **mini webinar** → **soft-funil-miniwebinar**.
-- Pediu **webinário perpétuo / ao vivo** → **soft-webinario**.
+- Pediu **webinário perpétuo / ao vivo** → **soft-webinar-plano**.
 - Pediu **a venda em si** (script, objeção, fechamento, prospecção) → **soft-vendas**.
 - Pediu **Plano / posicionamento / nomear mecanismo** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.

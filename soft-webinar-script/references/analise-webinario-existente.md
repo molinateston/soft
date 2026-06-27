@@ -467,7 +467,7 @@ Mesmo que o webinar seja o foco principal da auditoria, sempre verifica também:
 - Abertura baixa → assunto fraco ou plataforma com baixa entregabilidade
 - Atendência baixa → falta opt-in WhatsApp ou falta anti-fuga
 
-**Reescrita:** capacidade da soft-webinario (sequências de e-mail/WhatsApp pré e pós)
+**Reescrita:** capacidade da soft-webinar-plano (sequências de e-mail/WhatsApp pré e pós)
 
 ### Pós-webinar
 
@@ -500,7 +500,7 @@ Se o cliente está rodando anúncios pra encher o webinar:
 - CPL alto → público errado ou criativo cansado
 - ROAS baixo → ou anúncio é caro demais ou conversão do funil é baixa
 
-**Reescrita:** capacidade da soft-webinario (anúncios pra encher o webinar)
+**Reescrita:** capacidade da soft-webinar-plano (anúncios pra encher o webinar)
 
 ---
 

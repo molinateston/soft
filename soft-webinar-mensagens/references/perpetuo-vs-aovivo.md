@@ -4,7 +4,7 @@
 
 > **Fronteiras (o que NÃO mora aqui — manda pra skill certa):**
 > - **A mecânica crua do Léo** (validar ao vivo, 150-200 valida / 8-15 grava, ~10% de sinal verde, sala = sessão estratégica, ROAS-rei, otimizar tráfego pra venda, escala horizontal, zerar ROAS, high ticket não fecha sozinho): `perpetuo-mecanica-leo.md` (a reference irmã, copiada junto nesta skill). As falas literais do Léo vivem lá.
-> - **Gravar/editar o vídeo, conduta de sala, chat semeado, setup técnico, plataforma (EverWebinar × WebinarKit) e edição** → **soft-webinar-script** / **soft-webinario** (pacote). Esta skill só escreve a COPY das mensagens; não grava, não edita, não configura player.
+> - **Gravar/editar o vídeo, conduta de sala, chat semeado, setup técnico, plataforma (EverWebinar × WebinarKit) e edição** → **soft-webinar-script** / **soft-webinar-plano** (pacote). Esta skill só escreve a COPY das mensagens; não grava, não edita, não configura player.
 > - **Oferta/escassez/Q&A na AULA** → **soft-webinar-plano** e **soft-webinar-script**. Aqui a escassez aparece só como o que a MENSAGEM pode dizer (eco da escassez da sessão, nunca uma nova).
 > - **Páginas de cadastro/obrigado/checkout** → **soft-funil-landing**.
 > - **Montagem da máquina de pós** (tags, marcos de %, roteamento de CRM) → **soft-webinar-mensagens**.

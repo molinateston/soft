@@ -1,6 +1,6 @@
 # Premissas-mestras de copy (o melhor das 3 skills, destilado)
 
-> O que usar pra ESCREVER conteúdo, carrossel e anúncio forte. Destilado do que já existe e funciona em `soft-conteudo` (CODIGO-DE-ESCRITA, Fórmula 7), `soft-webinario` (Fladlien) e `soft-lancamento-pago` (ponto cego). Premissa, não molde: pega o porquê-funciona e reconstrói na voz do cliente, nunca decalca o exemplo.
+> O que usar pra ESCREVER conteúdo, carrossel e anúncio forte. Destilado do que já existe e funciona em `soft-conteudo` (CODIGO-DE-ESCRITA, Fórmula 7), `soft-webinar-plano` (Fladlien) e `soft-lancamento-pago` (ponto cego). Premissa, não molde: pega o porquê-funciona e reconstrói na voz do cliente, nunca decalca o exemplo.
 
 ---
 

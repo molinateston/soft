@@ -73,7 +73,7 @@ E para **cada headline ou capa**, as 3 perguntas do Harry (gate extra, todas tê
 
 **Passada 3-bis, Proprietário (headline, capa, CTA).** Teste de substituição-de-autor: troca o nome do cliente pelo do concorrente direto na frase. Se a frase sobrevive (o rival podia assinar igual), é genérica, NOTA de conserto. A frase de assinatura é a que SÓ sobrevive na boca DESTE cliente, porque carrega um bordão, uma cena-assinatura ou o mecanismo nomeado da Biblioteca de Assinatura (`soft-posicionamento/references/bloco-5-fundacao-headlines.md`, item 5). Aprofunda o "só eu posso dizer" do Harry: não basta não ser frase de guru, tem que ser inconfundivelmente do cliente.
 
-3 sins, passa. 1 não, reescreve. Standalone, este bloco JÁ É o teste construtivo completo (as 3 perguntas do Harry são o corte anti-genérico). Se a skill da vez tiver o `shared-references/filtro-anti-ia/teste-construtivo.md` local (soft-conteudo, soft-funil, soft-vendas, soft-posicionamento, soft-leon, soft-webinario), abre lá pra mais detalhe e exemplos; o resultado é o mesmo.
+3 sins, passa. 1 não, reescreve. Standalone, este bloco JÁ É o teste construtivo completo (as 3 perguntas do Harry são o corte anti-genérico). Se a skill da vez tiver o `shared-references/filtro-anti-ia/teste-construtivo.md` local (soft-conteudo, soft-funil, soft-vendas, soft-posicionamento, soft-leon, soft-webinar-plano), abre lá pra mais detalhe e exemplos; o resultado é o mesmo.
 
 ## O CTA e o último bloco (onde a peça cai de tom)
 

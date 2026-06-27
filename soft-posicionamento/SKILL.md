@@ -138,7 +138,7 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 - Pediu o **CORPO da peça** (carrossel, reel, stories, calendário, design de slides) → **soft-conteudo**.
 - Pediu **carta de vendas, VSL, landing, micro-aula, isca, captura** → **soft-funil**.
 - Pediu **script de venda, objeção, fechamento, prospecção, follow-up** → **soft-vendas**.
-- Pediu **webinário / perpétuo** → **soft-webinario**; **lançamento pago / Sala Secreta** → **soft-lancamento-pago**.
+- Pediu **webinário / perpétuo** → **soft-webinar-plano**; **lançamento pago / Sala Secreta** → **soft-lancamento-pago**.
 - Perguntou "por onde começo / próximo passo / que fase tô / valida isso" → **soft-leon** (o orquestrador, que invoca esta mãe na hora certa).
 
 ## Anti-Patterns (sintoma → correção)
@@ -155,4 +155,4 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 | Narrou o fluxo ("agora vou pra etapa X") | Não narra: conduz por pergunta e entrega o bloco limpo |
 
 ## Handoff
-Plano completo (Racional + os 3 blocos NMO + as 2 saídas + os 5 elementos de Voz) = a fundação. Vira o conhecimento do LEON do cliente e a fonte de toda peça da escada: `soft-conteudo` (atração), `soft-funil` (carta/vídeo + Comercial 1:1), `soft-webinario` (webinário perpétuo + Comercial), `soft-lancamento-pago` (Soft Launch + Comercial) e `soft-vendas` (o fechamento 1:1, onde a venda acontece). O LEON (`soft-leon`) é quem invoca esta mãe e cada irmã na hora certa e passa tudo pelo Crivo. Doc vivo: revisar quando muda a oferta principal, a audiência, o inimigo do mercado, ou a narrativa ganha capítulo.
+Plano completo (Racional + os 3 blocos NMO + as 2 saídas + os 5 elementos de Voz) = a fundação. Vira o conhecimento do LEON do cliente e a fonte de toda peça da escada: `soft-conteudo` (atração), `soft-funil` (carta/vídeo + Comercial 1:1), `soft-webinar-plano` (webinário perpétuo + Comercial), `soft-lancamento-pago` (Soft Launch + Comercial) e `soft-vendas` (o fechamento 1:1, onde a venda acontece). O LEON (`soft-leon`) é quem invoca esta mãe e cada irmã na hora certa e passa tudo pelo Crivo. Doc vivo: revisar quando muda a oferta principal, a audiência, o inimigo do mercado, ou a narrativa ganha capítulo.

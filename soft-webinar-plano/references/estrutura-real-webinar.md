@@ -2,7 +2,7 @@
 
 > **O que é este doc.** A especificação da estrutura REAL do webinário do Léo, consolidada de três estudos: (1) a destilação do webinário do próprio Léo ("VENDA COM WEBINARS / O Melhor Funil do Mundo" — roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da MindMaster (Denison Vieira), a máquina-mãe que o Léo modelou; (3) a doutrina Marco Enes (listas, caixinhas, dopamina por clique) — que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
 >
-> **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes (Guilherme Reginatto, Natália Fischer). É o gabarito que o `soft-webinario` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
+> **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes (Guilherme Reginatto, Natália Fischer). É o gabarito que o `soft-webinar-plano` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
 > **A correção-mãe, numa frase.** O método do Léo NÃO são "3 viradas". É **ADMA = Atenção → Diagnóstico → Mecanismo → Ação** (4 caixinhas), batizado de **Reorganização da Percepção (RP)**. Lastro: Eugene Schwartz, níveis de consciência, 1966. *"Fora de ordem, é cobre. Na ordem certa, vira ouro."*
 

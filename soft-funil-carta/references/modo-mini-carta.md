@@ -54,9 +54,9 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 | Discurso Base aprovado · cliente pediu Carta | ✅ Ativa este modo |
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
 | Cliente pediu landing page completa com VSL | Roteia pra a skill `soft-funil-landing` |
-| Cliente pediu webinar | Roteia pra skill `soft-webinario` |
+| Cliente pediu webinar | Roteia pra skill `soft-webinar-plano` |
 | Cliente quer versão em vídeo da Carta | Roteia pra a skill `soft-funil-miniwebinar` (alternativa à Carta) |
-| Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinario`) ou Reunião Soft (conversão) como complemento |
+| Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinar-plano`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
 
@@ -493,7 +493,7 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Aplicação nos 7 passos | `shared-references/crivo/05-premissas-mestras.md` |
 | Versão em vídeo (alternativa à Carta) | a skill `soft-funil-miniwebinar` |
 | Landing page com VSL ou multimídia | a skill `soft-funil-landing` |
-| Webinar ao vivo ou perpétuo | skill `soft-webinario` |
+| Webinar ao vivo ou perpétuo | skill `soft-webinar-plano` |
 
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)

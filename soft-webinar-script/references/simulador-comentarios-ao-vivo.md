@@ -7,7 +7,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 > **Fronteiras (o que NÃO mora aqui, pra não duplicar):**
 > - **Como GRAVAR com energia** (3 formas de gravar, conduta de sala, eco de chat real, setup): `gravacao-energia-ao-vivo.md`. Aqui é o que entra no chat DEPOIS de a gravação existir.
 > - **A engenharia de interação do host** (escada de micro-compromissos, eco nominal, perguntas-isca, falas literais dos campeões): `exemplos-por-bloco/14-interacao-chat.md` e `01-pre-inicio.md`. Aqui eu uso a PREMISSA daqueles blocos pra saber o que a sala responde a cada comando do host; não recopio as falas do host.
-> - **Plataforma, scheduling, contador de presença, config**: capacidade da soft-webinario. Aqui só o campo de chat simulado.
+> - **Plataforma, scheduling, contador de presença, config**: capacidade da soft-webinar-plano. Aqui só o campo de chat simulado.
 > - **A ordem dos blocos e ONDE ficam o "EU QUERO", o carrinho aberto, o pitch**: `SLIDE-MODELO-SCRIPT-LEO.md` (a espinha canônica) e `estrutura-webinario-aida.md`. Aqui eu mapeio a CURVA de comentários sobre essa ordem.
 
 > Voz dos comentários = **participante brasileiro real**, não o tom clínico do host. O participante fala torto, abrevia, erra acento, usa gíria leve. O host é frio e mede; o público é quente e desorganizado. Exemplos marcados como EXEMPLO. Nomes próprios do método (Big Idea, mecanismo, bônus, produto) entram como SLOT `[…]`. Zero travessão de prosa.
@@ -31,7 +31,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 
 ## 1. O problema e a decisão (por que esta capacidade existe)
 
-**O problema.** Um perpétuo é uma aula gravada uma vez e rodada todo dia, em 4 horários (mecânica na soft-webinario). O vídeo é o mesmo sempre; o que muda a cada sessão é a sala que entra. Mas a sala que entra não pode digitar pro vídeo (ele já aconteceu), e o host gravado não pode responder de verdade. Restam duas opções: deixar o chat morto (a aula respira como cinema vazio, a tela parada perde a sala) ou **injetar um chat roteirizado** que reproduz o movimento de uma sala viva. A plataforma serve o campo técnico (mensagens por timestamp); a skill serve o conteúdo.
+**O problema.** Um perpétuo é uma aula gravada uma vez e rodada todo dia, em 4 horários (mecânica na soft-webinar-plano). O vídeo é o mesmo sempre; o que muda a cada sessão é a sala que entra. Mas a sala que entra não pode digitar pro vídeo (ele já aconteceu), e o host gravado não pode responder de verdade. Restam duas opções: deixar o chat morto (a aula respira como cinema vazio, a tela parada perde a sala) ou **injetar um chat roteirizado** que reproduz o movimento de uma sala viva. A plataforma serve o campo técnico (mensagens por timestamp); a skill serve o conteúdo.
 
 **A decisão (Léo, 10/jun).** No perpétuo, **simular comentários É o padrão Soft.** Não é o último recurso, é o desenho. A razão é a mesma tese da energia do `gravacao-energia-ao-vivo.md`: o que converte não é só o que o host fala, é o ambiente de sala viva que faz o lead ficar imerso. Uma sala silenciosa denuncia o gravado e inverte o sinal de confiança; uma sala que conversa sustenta o frame de evento. O caminho "duplicar a melhor sessão real com comentários reais" continua válido e é o ideal quando existe (`gravacao-energia-ao-vivo.md` §2 e §5.1); mas a maioria dos perpétuos não nasce de uma sessão ao vivo gravada com chat, e pra esses a simulação roteirizada é o padrão.
 
@@ -40,7 +40,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 | O que é REAL e nunca se simula | O que a simulação REPRODUZ |
 |---|---|
 | Vagas/lugares da sessão (escassez por sessão, G7) | A energia típica de conversa de uma sala daquele tamanho |
-| Contador de presença na faixa honesta (soft-webinario) | O movimento do chat: reações, "EU QUERO", dúvidas, compras |
+| Contador de presença na faixa honesta (soft-webinar-plano) | O movimento do chat: reações, "EU QUERO", dúvidas, compras |
 | Resultados/depoimentos de clientes (são reais, do banco do player) | A naturalidade de quem comenta (nomes, cidades, timing humano) |
 | Preço, oferta, garantia, bônus | O FOMO e o social proof de uma sala convertendo |
 
@@ -77,7 +77,7 @@ Joe,I LOVE pizza,0,15
 - O **tipo** de comentário (abertura, reação, eu-quero, prova, compra, objeção, fomo, hater, fechamento) é **planejamento INTERNO** da skill pra montar a curva e auditar. Fica num rascunho à parte, **nunca entra no CSV**.
 - O timestamp é **minuto + segundo da SESSÃO**, em duas colunas separadas (não um campo só). Ordenar o arquivo final por (`minutes`, `seconds`) crescente.
 - Disparos **escalonados**: nunca dois comentários no mesmo `minutes,seconds`; espalhe alguns segundos entre eles (sala real não fala em uníssono).
-- **PROIBIDO saudação por hora do dia** - nada de "bom dia", "boa tarde", "boa noite". O perpétuo roda o MESMO vídeo em 4 horários por dia (mecânica na soft-webinario): quem assiste às 21h vendo um chat que diz "boa tarde" percebe na hora que é gravado, e o frame de evento ao vivo cai. Usar saudação NEUTRA de chegada: "oi gente", "cheguei!", "opa", "presente", "tô aqui", "primeira vez aqui". Vale pra TODA mensagem do chat, especialmente as de entrada/abertura.
+- **PROIBIDO saudação por hora do dia** - nada de "bom dia", "boa tarde", "boa noite". O perpétuo roda o MESMO vídeo em 4 horários por dia (mecânica na soft-webinar-plano): quem assiste às 21h vendo um chat que diz "boa tarde" percebe na hora que é gravado, e o frame de evento ao vivo cai. Usar saudação NEUTRA de chegada: "oi gente", "cheguei!", "opa", "presente", "tô aqui", "primeira vez aqui". Vale pra TODA mensagem do chat, especialmente as de entrada/abertura.
 
 > **EXEMPLO (formato real).** O eco do host "muito legal, Camila do Rio de Janeiro" no minuto 6 exige uma linha tipo `Camila RJ,oi gente! de Niterói aqui,5,40` ANTES (5min40s < 6min). O host ecoa no 6:05; a Camila apareceu no 5:40.
 
@@ -87,7 +87,7 @@ Joe,I LOVE pizza,0,15
 
 ## 3. A matemática de cadência (volume e curva de densidade)
 
-Dado **N = pessoas-alvo "ao vivo"** (o número que a sessão simula ter na sala; coerente com o contador de presença da soft-webinario, não maior), calcular o VOLUME total de comentários e a DISTRIBUIÇÃO ao longo da aula.
+Dado **N = pessoas-alvo "ao vivo"** (o número que a sessão simula ter na sala; coerente com o contador de presença da soft-webinar-plano, não maior), calcular o VOLUME total de comentários e a DISTRIBUIÇÃO ao longo da aula.
 
 ### A régua concreta
 

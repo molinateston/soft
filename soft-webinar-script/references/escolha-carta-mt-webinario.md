@@ -96,7 +96,7 @@ O sistema Soft tem **3 ativos de fechamento de venda** que **convivem** (não su
 |---------|-------|--------|---------|-------------------|------------------------------|
 | **Carta de Vendas** | `soft-funil` | Texto longo que vende sozinho | 5-15 min de leitura | Baixo | Nenhum - só escrever |
 | **Micro Treinamento (MT)** | `soft-funil` (variação MT) | Vídeo curto: entrega valor + vende | 15-25 min de vídeo | Médio | Pouco - fala curta, editável |
-| **Webinário** | `soft-webinario` | Aula completa + oferta robusta + Q&A | 60-90 min | Alto | Alto - conduzir uma sala 60-90 min |
+| **Webinário** | `soft-webinar-plano` | Aula completa + oferta robusta + Q&A | 60-90 min | Alto | Alto - conduzir uma sala 60-90 min |
 
 A escolha **não é sobre qual é melhor**. É sobre **qual encaixa no momento do cliente** (ticket + estágio + ciclo) **e no repertório dele** (consegue conduzir 90 min de sala?) **e no comportamento do avatar dele** (lê ou assiste?).
 
@@ -392,7 +392,7 @@ Após as perguntas, **recomenda 1 ativo principal**. Empate → escolhe o de men
 - **MT é subutilizado no Brasil.** Combina vídeo + valor + oferta em formato curto. Vale considerar mesmo quando a intuição manda Webinário - especialmente pra cliente sem palco.
 - **A régua vem antes de tudo.** A maioria dos clientes que pede webinar deveria estar em Carta ainda. Dizer "ainda não" é consultoria, não covardia.
 - **Mudar de ativo não é fracasso.** Cliente que começou em Carta e migrou pra Webinário não falhou - evoluiu de estágio. Cliente que desceu de Webinar pra Carta não regrediu - voltou pro degrau onde a base estava firme.
-- **A skill `soft-webinario` invoca esta reference quando faz sentido.** Cliente em dúvida → consulta antes de produzir → passa na régua → confirma escolha → produz.
+- **A skill `soft-webinar-plano` invoca esta reference quando faz sentido.** Cliente em dúvida → consulta antes de produzir → passa na régua → confirma escolha → produz.
 
 ---
 

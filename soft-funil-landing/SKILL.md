@@ -1,6 +1,6 @@
 ---
 name: soft-funil-landing
-description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas-*), webinário (soft-webinario)."
+description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas-*), webinário."
 ---
 
 # Landing page, a decisão inevitável pro cliente certo
@@ -142,7 +142,7 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 - Pediu **quiz como LÓGICA/perguntas de segmentação profunda de marca** → **soft-posicionamento** se for diagnóstico de marca; a landing monta só a CASCA (hook + gate + result-shell).
 - Pediu **Plano / posicionamento / oferta** → **soft-posicionamento**. **Arte/visual/PNG** → **soft-designer**.
 - Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
-- Pediu **webinário perpétuo / evergreen** → **soft-webinario**.
+- Pediu **webinário perpétuo / evergreen** → **soft-webinar-plano**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

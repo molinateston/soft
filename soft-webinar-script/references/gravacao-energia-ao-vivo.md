@@ -7,8 +7,8 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 **Fronteiras (o que NÃO mora aqui):**
 
 - **Montar o deck** (copy nas notas, arquétipos, animação por clique, quadro cinza do rosto): `geracao-de-slides.md` e `template-72-slides.md`. Aqui só aparece o que muda na hora de GRAVAR com esse deck.
-- **Números de validação e mecânica de sala do perpétuo** (150-200 valida / 8-15 grava, 10% de sinal verde, 4 horários/dia, ROAS, plataformas): capacidade da soft-webinario. Aqui eles entram só como contexto da ordem de trabalho.
-- **Edição, formato de arquivo e subida na plataforma**: capacidade da soft-webinario (Fases 2-4). Aqui só o que a edição não pode destruir.
+- **Números de validação e mecânica de sala do perpétuo** (150-200 valida / 8-15 grava, 10% de sinal verde, 4 horários/dia, ROAS, plataformas): capacidade da soft-webinar-plano. Aqui eles entram só como contexto da ordem de trabalho.
+- **Edição, formato de arquivo e subida na plataforma**: capacidade da soft-webinar-plano (Fases 2-4). Aqui só o que a edição não pode destruir.
 - **O conteúdo do Q&A** (5 categorias, respostas-molde): `objection-annihilation.md`. Aqui só o formato de gravação do Q&A.
 
 ---
@@ -37,7 +37,7 @@ A gravação não salva roteiro fraco. Ela impede que um roteiro ótimo morra na
 
 ## 2. A ordem que não se inverte: dominar o ao vivo, validar, só então gravar
 
-**O mecanismo.** O workflow Soft é sempre: **ao vivo de validação → sessão de gravação → perpétuo.** Os números e fases vivem na soft-webinario (não duplico): 150-200 presentes pra validar, sinal verde perto de 10% de conversão de quem está na sala, 3 a 8 sessões iterando uma variável por vez, e a sala de gravação separada, com **8 a 15 pessoas confirmadas** (energia genuína + controle; menos parece vazio, mais atrapalha).
+**O mecanismo.** O workflow Soft é sempre: **ao vivo de validação → sessão de gravação → perpétuo.** Os números e fases vivem na soft-webinar-plano (não duplico): 150-200 presentes pra validar, sinal verde perto de 10% de conversão de quem está na sala, 3 a 8 sessões iterando uma variável por vez, e a sala de gravação separada, com **8 a 15 pessoas confirmadas** (energia genuína + controle; menos parece vazio, mais atrapalha).
 
 **Por quê (a armadilha da sensação).** O gravado engana quem grava:
 
@@ -74,7 +74,7 @@ A diferença entre as três é só essa: **quem passa os slides e quando o víde
 
 **Por quê.** Libera o corpo. Mão fora do mouse é gesto, e gesto é energia. É a forma de quem comunica melhor gesticulando.
 
-> **EXEMPLO (uso duplo).** A mesma técnica grava os criativos de anúncio de 1-2 minutos com as mãos livres (anúncios são capacidade da soft-webinario). Um músculo treinado, dois lugares de uso. (manual, cap 8)
+> **EXEMPLO (uso duplo).** A mesma técnica grava os criativos de anúncio de 1-2 minutos com as mãos livres (anúncios são capacidade da soft-webinar-plano). Um músculo treinado, dois lugares de uso. (manual, cap 8)
 
 ### Forma 3 - Em dupla, por chamada (um lê, o outro dirige)
 
@@ -173,7 +173,7 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 - **Presenter View testada** (Forma 1): a tela compartilhada é a limpa; a privada mostra notas + próximo slide.
 - **Auto-scroll instalado e calibrado** (Forma 2): velocidade na casa de 4, ajustada ao seu ritmo real de fala num teste de 2 minutos.
 - **Gravação redundante:** grave a sessão inteira (a plataforma grava E o local grava). A matéria-prima de uma sessão boa não se repete.
-- **Formato final e edição:** capacidade da soft-webinario (MP4 1080p, áudio normalizado, o que cortar e o que jamais cortar).
+- **Formato final e edição:** capacidade da soft-webinar-plano (MP4 1080p, áudio normalizado, o que cortar e o que jamais cortar).
 
 > **EXEMPLO (setup que basta).** Notebook, webcam 1080p em cima do monitor, lapela de R$150, parede neutra atrás, Google Slides em Presenter View, OBS gravando a tela limpa + câmera local. Nenhum item de estúdio. A diferença entre esse setup e um estúdio de R$50 mil não aparece na conversão; a diferença entre slide parado e slide trocando aparece.
 
@@ -188,7 +188,7 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 - **Profético só na tese.** 80-90% do tempo é frio, preciso, de quem mede. A intensidade sobe só nos momentos de tese (reposicionamento do problema, fechamento por identidade). Gravação inteira em tom alto vira pregação e queima o avatar maduro.
 - **Revela, não ensina.** "O que está acontecendo é..." em vez de "você precisa...". Na gravação isso vira andamento: diagnóstico calmo, dado, conclusão. Nunca urgência teatral.
 - **Micro-comando em cada bloco.** A escada de pequenos sins (digite no chat, comenta, escolhe o caminho) precisa sobreviver à gravação: cada bloco mantém pelo menos um comando, dito olhando pra câmera, com a pausa pra "resposta" que uma sala real levaria pra digitar.
-- **Erro pequeno não para a gravação.** Hesitação curta soa humano e a edição mantém de propósito (a edição é capacidade da soft-webinario: não cortar pausas naturais nem hesitações curtas). Errou feio, repete a frase do zero e segue; o corte resolve. Na Forma 3, o diretor volta o trecho na hora e pede de novo.
+- **Erro pequeno não para a gravação.** Hesitação curta soa humano e a edição mantém de propósito (a edição é capacidade da soft-webinar-plano: não cortar pausas naturais nem hesitações curtas). Errou feio, repete a frase do zero e segue; o corte resolve. Na Forma 3, o diretor volta o trecho na hora e pede de novo.
 - **Repetições estratégicas ficam.** Big Idea, One Belief e Promessa repetem de propósito ao longo da aula. A edição não enxuga repetição estratégica achando que é redundância.
 
 > **EXEMPLO (ritmo clínico numa virada).** Ao gravar o gancho do braçal de uma virada (ver `motor-3-viradas.md`), o andamento é: enuncia a conta ("na mão, isso é cerca de três meses de trabalho"), pausa de um segundo, clica, o número aparece na tela, e só então o complemento. Quem acelera aqui transforma medição em ameaça, e ameaça é tom de palco, não de consultor.
@@ -215,7 +215,7 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 ## 9. Checklist de gravação
 
 ### Pré-gravação
-- [ ] Validação ao vivo batida (conversão estável perto do sinal verde; números na soft-webinario)
+- [ ] Validação ao vivo batida (conversão estável perto do sinal verde; números na soft-webinar-plano)
 - [ ] Eu vou bem ao vivo (não estou fugindo pro gravado por desconforto com o ao vivo)
 - [ ] Roteiro fechado, sem improviso significativo planejado
 - [ ] Deck conferido: copy nas notas, listas por clique, quadro cinza respeitado e apagado, pergunta de engajamento fixa no slide 1
@@ -235,12 +235,12 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 - [ ] Erro pequeno: segue; erro feio: repete a frase do zero (ou o diretor volta o trecho na hora)
 
 ### Pós
-- [ ] Edição mínima conforme a soft-webinario (corta o técnico, preserva a respiração humana e as repetições estratégicas)
+- [ ] Edição mínima conforme a soft-webinar-plano (corta o técnico, preserva a respiração humana e as repetições estratégicas)
 - [ ] Q&A gravado em separado e integrado ao final
 - [ ] Chat: semeado com parcimônia (50-150) e curadoria de comentários reais ativada desde a primeira sessão
 - [ ] Elogios e compras reais "eternizados" pras sessões futuras
-- [ ] Timestamp da oferta anotado (alimenta as tags do pós-webinar, na soft-webinario)
-- [ ] Subida e mecânica de sala conforme a soft-webinario
+- [ ] Timestamp da oferta anotado (alimenta as tags do pós-webinar, na soft-webinar-plano)
+- [ ] Subida e mecânica de sala conforme a soft-webinar-plano
 - [ ] Re-gravação agendada na cabeça: a cada 12-18 meses, mesmo convertendo bem
 
 ---
@@ -250,6 +250,6 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 Critério: a prática literal do Léo + o guarda-corpo da escassez honesta (G7) decidem; a variante de mercado fica documentada como EXEMPLO, nunca como padrão. *(Decisões vetáveis pelo especialista.)*
 
 1. **"Estamos ao vivo" no gravado: BANIDO afirmar explicitamente.** O padrão Soft é a prática do Léo: *"eu não falo que estou ao vivo nem que não estou, eu dou a entender"* (METODO). Presença se faz por condução (eco de chat, micro-comandos, pausas), nunca por declaração. "Estamos online" é a forma autorizada. A "escolha de consciência" do cap 8 do manual fica registrada como variante de mercado - fora do padrão Soft.
-2. **Chat na gravação: pode ecoar - desde que REAL e ATEMPORAL.** Com sala real (8-15), ecoar nomes/cidades/dores é recomendado (o eco é verdadeiro e dá energia). A regra da soft-webinario ("não interagir ao gravar") protege o evergreen - o que ela proíbe de fato é o eco que DATA a gravação: nunca responder data, evento, notícia, "hoje é…". Eco atemporal sim; eco datável nunca; Q&A sempre em bloco separado (atualizável).
+2. **Chat na gravação: pode ecoar - desde que REAL e ATEMPORAL.** Com sala real (8-15), ecoar nomes/cidades/dores é recomendado (o eco é verdadeiro e dá energia). A regra da soft-webinar-plano ("não interagir ao gravar") protege o evergreen - o que ela proíbe de fato é o eco que DATA a gravação: nunca responder data, evento, notícia, "hoje é…". Eco atemporal sim; eco datável nunca; Q&A sempre em bloco separado (atualizável).
 3. **Contador de presença: padrão = comportamento do Léo (manter 180-200).** A simulação dinâmica com pico ~120 da máquina 13M fica como EXEMPLO de variante, não como padrão Soft.
 4. **Comentários simulados no perpétuo: SÃO padrão Soft (atualização 10/jun).** O Léo decidiu que, no perpétuo gravado, a **simulação de comentários É o padrão** (supera a nota conservadora anterior, que tratava só comentário real como padrão e a simulação como variante a validar). A sala simulada é o desenho operacional do perpétuo: reproduz a energia típica que uma sala real daquele tamanho teria, sem o que NÃO se simula nunca: **escassez/vagas declaradas continuam REAIS** (G7), **resultado de cliente nunca se inventa** (vem do banco real do player), preço/oferta/garantia são os de verdade. A régua em uma frase: **simula-se a SALA, nunca a PROVA.** O caminho "duplicar a melhor sessão real com comentários reais" (§2, §5.1) continua sendo o ideal quando existe; a simulação roteirizada é o padrão pros perpétuos que não nascem de uma sessão ao vivo gravada com chat. A referência OPERACIONAL dessa capacidade (matemática de cadência, tipos de comentário com falas prontas, formato Excel, checagem de consistência bidirecional contra o roteiro, 2 modos: gerar/auditar) é `simulador-comentarios-ao-vivo.md`.

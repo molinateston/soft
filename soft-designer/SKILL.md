@@ -28,7 +28,7 @@ Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): av
 
 Lê também a **identidade visual do cliente** (`references/identidade-visual-cliente.md`): cores, fontes e formato são DELE. A skill é marca-neutra, não tem visual próprio, cada cliente desenha na marca dele. Se a ID está no perfil, ela manda no Passo 2 (e você não pergunta cor/fonte). Se não está, o Passo 2 pergunta e oferece salvar.
 
-O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinario`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
+O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinar-plano`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
 
 A copy-visual obedece o Crivo como qualquer peça:
 1. **Ancora:** puxa o verbatim real do público do usuário sobre o tema (`shared-references/crivo/01-entrada-verbatim.md`). A capa e os cards nascem de palavra real, não de rótulo.
