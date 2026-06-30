@@ -32,7 +32,9 @@ Webinar que converte não é roteiro bem escrito. É **plano com âncora afiada 
 | 6 | **A CONTA** | as 3 divisões em lista |
 | 7 | **FORMATO** | tabela do que cascateia |
 | 8 | **PITCH** | a coreografia numerada (lista de passos) |
-| 9 | **INSUMOS ORGANIZADOS** (FINAL, sempre) | peças soltas rotuladas (narrativa · promessa · bullets · público · mundo atual/ideal · índice · briefing) |
+| 9 | **INSUMOS ORGANIZADOS** (sempre) | peças soltas rotuladas (narrativa · promessa · bullets · público · mundo atual/ideal · índice · briefing) |
+| 10 | **PÁGINAS (proposta)** (SEMPRE) | captura + obrigado: copy-base no molde (headline·sub·bullets·CTA·contra-filtro / confirmação·timer·o-que-fazer-agora·retenção) |
+| 11 | **ÂNGULOS DE ANÚNCIO** (SEMPRE) | 5-8 ângulos, cada um com a headline pronta + o pilar + o público que pesca |
 | fim | **`[A CONFIRMAR]`** | lista do que falta |
 
 Gate roda **por dentro** (silencioso); a saída é **só o doc limpo**. Nunca inventa (Lei 5). Para a cada STOP no intake.
@@ -336,6 +338,13 @@ A que o Léo lê primeiro. NÃO resumo: a matéria-prima das seções **destilad
 
 Cada peça é **derivada** (destila, não repete o doc); nada novo que não passou pelo intake e pelo gate.
 
+## Seção 10, AS PÁGINAS (proposta de copy, SEMPRE) + Seção 11, OS ÂNGULOS DE ANÚNCIO (SEMPRE)
+> Profundidade e moldes: `references/paginas-e-angulos-de-ads.md`.
+
+O plano NÃO termina nos insumos soltos: ele **entrega as peças montadas**, pra o funil sair coerente do mesmo doc. Dois entregáveis obrigatórios, derivados das seções anteriores (nada novo, nada inventado; furo = `[A CONFIRMAR]`):
+- **Seção 10 · Páginas:** a **proposta de copy** da página de **captura** (headline da Promessa + sub + 3-5 bullets das fascinations + CTA + contra-filtro do avatar) e da página de **obrigado** (confirmação do horário + timer + o-que-fazer-agora/opt-in + retenção). É copy-base pra colar; o código/layout é `soft-webinar-paginas`/`soft-funil-landing`.
+- **Seção 11 · Ângulos de anúncio:** **5-8 ângulos**, cada um nascido de um pilar (dor/mundo atual · desejo/mundo ideal · inimigo · mecanismo/curiosidade · prova · objeção invertida · filtro/identidade · number-forward), saindo com a **headline pronta** + o público que pesca. Cada headline ancora em verbatim real, passa nas 3 perguntas do Harry e no anti-IA. O banco fino é `soft-conteudo-headlines`.
+
 ---
 
 # Passo A, AUDITORIA de webinar existente (Modo B)
@@ -367,6 +376,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Canal pela regra + CTA com destino** | ≤~3k checkout / >3k 1:1; Seção 8 adaptada ao canal |
 | **Pitch completo** | semeadura, ancoragem certa, stack visível, cadeia de SINs, queda com reason-why+lastro, reduzir ao ridículo com objeto real, escassez+rede, identidade+inação, 3 CTAs, botão no 1º |
 | **INSUMOS ORGANIZADOS** | Seção 9 no fim, peças soltas reutilizáveis, não resumo |
+| **Páginas + Ângulos (sempre)** | Seção 10 (proposta de captura + obrigado, copy-base no molde) E Seção 11 (5-8 ângulos de ad, cada um com headline + pilar + público) presentes; derivados do plano, furo = `[A CONFIRMAR]` |
 | **Não inventa (Lei 5)** | furo = `[A CONFIRMAR]` no lugar exato; zero plausível |
 | **Números do case consistentes** | o MESMO case dito com valores diferentes (ex.: "3M" / "10M" / "13M" pro mesmo resultado) = `[A CONFIRMAR: bruto/líquido/período]`, nunca escolhe um por conta. Case que bate olho com olho na própria aula derruba credibilidade |
 | **Output DENSO (Lei 6)** | tabelas/listas, não prosa; zero meta-narração/bastidor/"isto serve para"; sem tabela de gate na saída |
@@ -433,6 +443,7 @@ O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra fr
 - `references/arsenal-vantagens-webinar.md`: as 20 vantagens pra convencer o especialista que duvida. Passo 0.
 - `references/analise-webinario-existente.md`: o mapa de auditoria (régua → vazamento → premissa) + 4 dimensões + modelo de relatório. Passo A (Modo B).
 - `references/extracao-de-material-existente.md`: o Modo C (destilar o plano-mãe de um material que o cliente JÁ tem: aula/live/VSL/call), o fluxo de 5 passos, a checklist de extração por seção, os 3 refinamentos (voz em marcas, provas mapeadas ao beat, consistência dos números). Passo 0 / Modo C.
+- `references/paginas-e-angulos-de-ads.md`: as saídas obrigatórias do plano (Seções 10-11): molde da página de captura + da página de obrigado + os 5-8 ângulos de anúncio com headline por pilar. Seções 10-11.
 - `references/gravacao-do-perpetuo.md`: COMO GRAVAR o webinar perpétuo com energia de ao vivo (3 formas de gravar, conduta de sala bloco-a-bloco, edição atemporal, gate próprio). Era a skill soft-webinar-plano, fundida aqui. Use DEPOIS de validar ao vivo.
 - `references/exemplos-por-bloco/`: falas verbatim (09-oferta-stack, 10-ancoragem-preco, 12-escassez-urgencia-cta). Antes da Seção 8.
 - `shared-references/`: operação padrão (6 leis), filtro anti-IA, crivo, mobile-first, dicionário. 1ª invocação.
