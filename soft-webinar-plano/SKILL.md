@@ -13,7 +13,7 @@ Webinar que converte não é roteiro bem escrito. É **plano com âncora afiada 
 
 **Este SKILL.md é o processo inteiro.** Segue os Passos na ordem, **para nos STOP** (uma decisão por vez, espera o OK), roda o **gate por dentro** antes de mostrar. As references guardam a profundidade; as técnicas centrais estão inline.
 
-**Modo A (default):** monta do zero. **Modo B (auditoria):** "meu webinar não converte / quero refinar o meu" → Passo A no fim. Detecta na 1ª mensagem.
+**Modo A (default):** monta do zero. **Modo B (auditoria):** "meu webinar não converte / quero refinar o meu" → Passo A no fim. **Modo C (extração):** o cliente JÁ tem material rico (aula/webinar gravado, live, VSL, call de venda, conteúdo denso) → **destila o plano-mãe do verbatim**, não pergunta do zero nem caça defeito. É o caminho de MAIOR qualidade (verbatim real ganha de resposta de intake); ver `references/extracao-de-material-existente.md`. Detecta o modo na 1ª mensagem.
 
 ## Output Contract (o doc que sai, e como ele sai)
 **Um doc só, o Plano de Webinar**, montado DEPOIS do intake. **Sai DENSO: tabelas e listas, nunca prosa corrida** (Lei 6, dura: o paredão de prosa é o anti-padrão que a auditoria reprovou). Cada seção é a matéria, não a explicação dela. Ordem:
@@ -38,7 +38,7 @@ Webinar que converte não é roteiro bem escrito. É **plano com âncora afiada 
 Gate roda **por dentro** (silencioso); a saída é **só o doc limpo**. Nunca inventa (Lei 5). Para a cada STOP no intake.
 
 ## Passo 0, ABSORVE o posicionamento + ancora no verbatim (NÃO PULE)
-Fonte, nesta ordem: **posicionamento colado → descrição do projeto → mensagens anteriores.** **Absorve o posicionamento inteiro** pra dentro do plano (a Herança é seção, não ponteiro) e puxa **3-5 falas de DOR + 3-5 de DESEJO** literais, com o N. Promessa e mecanismo nascem delas. Extrai no mínimo: território/inimigo + tensão dor→desejo · problema geral E avançado + mecanismo-do-problema · mecanismo NOMEADO + tese · persona com cena privada + objeções/crenças literais · provas nome+nº+prazo+porquê · meta + preço já cobrado.
+Fonte, nesta ordem: **material rico gravado do cliente (aula/live/VSL/call → Modo C, destila do verbatim) → posicionamento colado → descrição do projeto → mensagens anteriores.** Se houver aula/conteúdo gravado, DESTILA dele ANTES de perguntar (verbatim real > resposta de intake; ver `references/extracao-de-material-existente.md`). **Absorve o posicionamento inteiro** pra dentro do plano (a Herança é seção, não ponteiro) e puxa **3-5 falas de DOR + 3-5 de DESEJO** literais, com o N. Promessa e mecanismo nascem delas. Extrai no mínimo: território/inimigo + tensão dor→desejo · problema geral E avançado + mecanismo-do-problema · mecanismo NOMEADO + tese · persona com cena privada + objeções/crenças literais · provas nome+nº+prazo+porquê · meta + preço já cobrado.
 
 Estado de entrada (declara):
 
@@ -172,7 +172,7 @@ Crava: **provas** (cases reais; furo = `[A CONFIRMAR]`) · **prova externa** (Se
 Com o intake fechado, monta o doc DENSO (Lei 6: tabelas/listas). Abre com a HERANÇA (posicionamento absorvido INTEIRO inline), as 8 seções, fecha com a Seção 9. A Seção 1 absorve o desenho da STACK; a 8, o pitch; a 3 é o ensino.
 
 ## Seção 0, A HERANÇA do posicionamento (inline, na voz do dono)
-Primeira seção, a que a auditoria reprovou quando faltou. NÃO resumo nem ponteiro: o **Plano de Posicionamento absorvido por completo**, em listas, com a profundidade do original: território + inimigo + tensão dor→desejo · problema geral + avançado + mecanismo-do-problema · persona com cena (base da S4) + objeções/crenças literais · mecanismo nomeado (base da S3) + tese · provas nome+nº+prazo+porquê · oferta de origem + 5 vozes. Sem posicionamento → `[A CONFIRMAR]` + aviso que `soft-posicionamento` vem antes.
+Primeira seção, a que a auditoria reprovou quando faltou. NÃO resumo nem ponteiro: o **Plano de Posicionamento absorvido por completo**, em listas, com a profundidade do original: território + inimigo + tensão dor→desejo · problema geral + avançado + mecanismo-do-problema · persona com cena (base da S4) + objeções/crenças literais · mecanismo nomeado (base da S3) + tese · provas nome+nº+prazo+porquê · oferta de origem + a **VOZ em 4-5 marcas concretas** (cada marca com 1 fala literal que a prova, nunca "tom" abstrato; ver `references/extracao-de-material-existente.md` refinamento 1). Sem posicionamento → `[A CONFIRMAR]` + aviso que `soft-posicionamento` vem antes.
 
 ## Seção 1, A OFERTA como STACK rica (o DESENHO)
 > Profundidade: `references/stack-de-oferta-e-bonus.md` (a composição da pilha, as camadas, as 2 moedas, a rede, a ordem canônica) + `references/desenho-e-empacotamento-da-oferta.md` (cardápio, equação Hormozi, garantias, esteira).
@@ -282,7 +282,7 @@ Cada afirmação: **o que é · por que importa · me prova · exemplo** (Marco 
 Nome + cena privada + mentira que conta a si + desejo embaixo do desejo (herdada) + **crenças rotuladas INTERNA ou EXTERNA** + dores em verbatim. Sem fonte literal, `[A CONFIRMAR]`.
 
 ## Seção 5, As PROVAS + a PROVA EXTERNA
-**Provas internas:** cases/números/autoridade reais (nome+nº+prazo); furo = `[A CONFIRMAR]`. **PROVA EXTERNA** (*"não sou só eu que digo isso"* torna a tese impessoal):
+**Provas internas:** cases/números/autoridade reais (nome+nº+prazo); furo = `[A CONFIRMAR]`. **Cada prova sai etiquetada com o BEAT onde entra** (Diagnóstico-externo / Mecanismo-lastro / Oferta-existência), não numa lista solta, pra o roteiro já saber ONDE usar. **PROVA EXTERNA** (*"não sou só eu que digo isso"* torna a tese impessoal):
 
 | Tipo | Reforça | Beat |
 |---|---|---|
@@ -368,6 +368,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Pitch completo** | semeadura, ancoragem certa, stack visível, cadeia de SINs, queda com reason-why+lastro, reduzir ao ridículo com objeto real, escassez+rede, identidade+inação, 3 CTAs, botão no 1º |
 | **INSUMOS ORGANIZADOS** | Seção 9 no fim, peças soltas reutilizáveis, não resumo |
 | **Não inventa (Lei 5)** | furo = `[A CONFIRMAR]` no lugar exato; zero plausível |
+| **Números do case consistentes** | o MESMO case dito com valores diferentes (ex.: "3M" / "10M" / "13M" pro mesmo resultado) = `[A CONFIRMAR: bruto/líquido/período]`, nunca escolhe um por conta. Case que bate olho com olho na própria aula derruba credibilidade |
 | **Output DENSO (Lei 6)** | tabelas/listas, não prosa; zero meta-narração/bastidor/"isto serve para"; sem tabela de gate na saída |
 | **3 perguntas do Harry + C/U/B** | dá pra VER a cena · dá pra FALSIFICAR · SÓ ele assina; Clareza · Único · Benefício |
 | **Naming honesto** | todo nome é do dono ou "(nome Soft: a definir)" |
@@ -431,6 +432,7 @@ O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra fr
 - `references/esqueleto-universal-e-discernimento.md`: esqueleto universal + 3 categorias de crença + nova oportunidade vs melhoria + prova como conteúdo + discernimento de maturidade. Montagem.
 - `references/arsenal-vantagens-webinar.md`: as 20 vantagens pra convencer o especialista que duvida. Passo 0.
 - `references/analise-webinario-existente.md`: o mapa de auditoria (régua → vazamento → premissa) + 4 dimensões + modelo de relatório. Passo A (Modo B).
+- `references/extracao-de-material-existente.md`: o Modo C (destilar o plano-mãe de um material que o cliente JÁ tem: aula/live/VSL/call), o fluxo de 5 passos, a checklist de extração por seção, os 3 refinamentos (voz em marcas, provas mapeadas ao beat, consistência dos números). Passo 0 / Modo C.
 - `references/gravacao-do-perpetuo.md`: COMO GRAVAR o webinar perpétuo com energia de ao vivo (3 formas de gravar, conduta de sala bloco-a-bloco, edição atemporal, gate próprio). Era a skill soft-webinar-plano, fundida aqui. Use DEPOIS de validar ao vivo.
 - `references/exemplos-por-bloco/`: falas verbatim (09-oferta-stack, 10-ancoragem-preco, 12-escassez-urgencia-cta). Antes da Seção 8.
 - `shared-references/`: operação padrão (6 leis), filtro anti-IA, crivo, mobile-first, dicionário. 1ª invocação.
