@@ -81,6 +81,20 @@ A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o c
 
 > Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
 
+## Exemplo card-a-card (modela a QUALIDADE, nunca copia; nicho fictício)
+Tema "Por que sua reunião gratuita não converte", 8 cards (o Diagnóstico ocupou 2). Repara: nenhum card ensina a executar, todos mostram função, cena ou prova.
+1. **Capa (Hook):** "Sua reunião gratuita não converte porque ela treina o cliente a pedir mais sem pagar." (manifesto que polariza · frase firme)
+2. **Quebra de Crença:** "Mas tem uma coisa pior. Você não tá só perdendo cliente, tá ensinando ele que teu trabalho não vale." (NÃO responde a capa, aprofunda o loop)
+3. **Diagnóstico, a cena:** "Call de 1h 'sem compromisso'. Ouve o cliente 40 min. Proposta nos últimos 20. Ele diz 'vou pensar'. 3 dias depois fecha com o concorrente que cobrou metade. Por quê?" (a cena que ele vive, fecha em pergunta)
+4. **Diagnóstico, a virada:** "Porque você deu de graça o que o concorrente cobrou. Diagnóstico grátis não vira valor percebido, vira acessibilidade. Acessibilidade barateia." (reframe)
+5. **Vilão:** "Não é o que você fala. É como o cliente percebe teu tempo. Tempo grátis = commodity. Tempo cobrado = autoridade." (aponta o mecanismo, tira a culpa do leitor)
+6. **Nova Oportunidade:** "No [método do cliente] a venda acontece antes da conversa. O cliente lê a carta, entende, chega decidido. A reunião vira confirmação." (o método como contraste; função, não execução)
+7. **Mecanismo/Prova:** "Marina, advogada, implementou há 14 dias. Primeiro cliente R$8.500 sem reunião. Segundo, R$5.500. Sem call grátis, sem 'vou pensar'." (prova ancorada: nome + nicho + número + prazo)
+8. **Convite/CTA:** "Se bateu, o caminho é [a oferta]: 3 sessões, sistema em 60 dias. Comenta MÉTODO que te mando a carta pra ler antes." (pede comentário, entrega valor antes, CTA único)
+
+## COMO ENTREGAR (o carrossel vira doc MD)
+O carrossel montado (capa + slides na ordem, uma ideia por slide) é o entregável, e o cliente quer guardar. Entrega como **documento markdown**: no **claude.ai** como **artifact de markdown** (o carrossel slide a slide, que ele abre, copia e manda pro designer), no **Claude Code** como arquivo `.md`. A condução (mapa de densidade, escolha das formas, gate por dentro) acontece no chat; o **carrossel final sai como doc**, slide a slide rotulado, nunca despejado solto no meio da conversa.
+
 ## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só carrossel com a linha VEREDITO=PASSA vai pro cliente. Uma falha refaz o ponto (não a peça inteira). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o carrossel limpo (Passo 5), jamais a tabela.
 
