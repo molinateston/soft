@@ -89,6 +89,13 @@ Todo texto obedece o `CODIGO-DE-ESCRITA.md`: lente da percepção (o mercado nã
 
 Aplicado a um cliente, o doc inteiro é o ativo que vira o conhecimento do LEON dele.
 
+## COMO ENTREGAR o doc (o Plano é um ARQUIVO, não o chat)
+O Plano é o entregável-mãe e tem que virar **UM documento markdown consolidado**, nunca ficar espalhado nas mensagens do chat. Os blocos que você mostra inline durante a condução (com os STOPs) são o rascunho por etapa; **ao fechar (depois do último STOP e do Crivo), você MONTA o Plano inteiro num só doc e ENTREGA:**
+- **No claude.ai (chat):** como um **artifact de markdown** (o documento que o especialista abre, copia e baixa), com todos os blocos na ordem (Racional, Narrativa, Grande Dominó, Mecanismo, Oferta, as 2 saídas, os 5 elementos de Voz). NUNCA deixa o Plano só como texto solto no fluxo da conversa.
+- **No Claude Code:** salva como arquivo `.md` (e, se o dono pedir, renderiza ou publica).
+
+A condução acontece no chat (perguntas, STOPs, blocos pra aprovar); o RESULTADO é o doc MD entregue. **Sem o doc consolidado entregue, a skill não terminou.**
+
 ## O processo (conduz por perguntas; cada etapa espera resposta)
 1. **Briefing** (leve) - nicho + cliente ideal específico, resultado real já entregue (número+prazo), @, 1–3 concorrentes. Quase sempre já veio do LEON (a etapa do coach): se veio, confirma e pula; se não, o especialista responde na hora.
 2. **Pesquisa de mercado** - conduz a **Super Pesquisa** (`references/super-pesquisa.md`) - a pesquisa ESTRUTURADA do método, que roda o **`deep-research`** (Code) ou o **Research** (claude.ai) por baixo mas mira no que o Plano precisa. Cobre concorrentes/vocabulário/preço · os tops a fundo · a lacuna + o vocabulário cru do público · a força do Problema Avançado. **É daqui que sai a densidade técnica (o mecanismo real do nicho) e o vocabulário real, nunca da cabeça da IA.** **Mira fechado, não dispara buscas soltas:** UMA pergunta de pesquisa enxuta (nicho + avatar + Problema Avançado) entrega mais e gasta menos - o deep-research é caro em tempo e tokens, use com foco. Sem ele no ambiente, infere do briefing e segue, não para. Pra **aprofundar o avatar emocionalmente** depois da pesquisa (dores em citação, medos que tiram o sono, Problema Central nomeado), o protocolo `references/prompts-mente-cliente.md` - mas é hipótese da IA que **volta pra entrevista confirmar**, nunca vira verdade sozinho.
@@ -102,6 +109,7 @@ Aplicado a um cliente, o doc inteiro é o ativo que vira o conhecimento do LEON 
    **Consulta `references/conducao-na-pratica.md` o tempo todo** - é o jeito de conduzir que faz o plano sair excelente (o ângulo · o Problema Avançado = o que as outras soluções já geraram · o método como pilares-contraponto desejável · a oferta por valor).
 6. **Auditoria** (silenciosa, antes de fechar), a régua da percepção (*o cliente ideal lê e pensa "finalmente alguém que entende meu problema"?*) + os filtros `shared-references/filtro-anti-ia/`, `filtro-mobile-first/` e `filtro-cliente-primeiro.md` (não vaza o Léo nem jargão de cozinha; é o idioma do nicho do cliente). Falhou, reescreve o bloco.
 7. **Crivo do Plano** (gate bloqueante, antes do handoff): preenche e IMPRIME a tabela do **Crivo do Plano** (logo abaixo). Cobre as DUAS metades, a Parte A NMO (Racional + os 3 blocos + as 2 saídas) E a Parte B Voz (os 5 elementos, porque a Voz vira o tom de toda copy depois). Veredito binário: uma falha reprova e re-roda. Sem o Plano passar no Crivo impresso, ele não vira fundação das filhas, não tem handoff. (Profundidade de cada check em `references/conducao-na-pratica.md`, "Gate de saída do Plano, o Crivo".)
+8. **Entrega o doc (fechamento).** Passou no Crivo: **consolida o Plano inteiro num único documento markdown e ENTREGA** (claude.ai: artifact MD que o especialista abre/copia/baixa; Claude Code: arquivo `.md`), com todos os blocos na ordem. É o entregável-mãe que vira o cérebro do LEON do cliente. O chat foi a condução; **o doc é o produto** (ver "COMO ENTREGAR o doc" acima).
 
 ## O GATE: Crivo do Plano (preenche e IMPRIME antes do handoff)
 Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linha com ✓/✗ e a evidência (a fala citada, a frase testada). **Sem a tabela impressa, o Plano não passou.** Uma linha ✗ reprova o Plano inteiro e re-roda o bloco que falhou. Plano fraco vira garbage-in pra TODAS as outras skills.
@@ -153,6 +161,8 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 | Vazou "lead/funil/ticket" ou o jeito do autor do método | Idioma do nicho do cliente final do USUÁRIO; roda o `filtro-cliente-primeiro.md` |
 | Fechou o Plano sem imprimir o Crivo | Sem a tabela do Crivo preenchida e impressa, não há handoff; preenche e re-roda o que falhou |
 | Narrou o fluxo ("agora vou pra etapa X") | Não narra: conduz por pergunta e entrega o bloco limpo |
+| Plano ficou espalhado no chat, nunca virou doc | O entregável é UM doc MD consolidado no fim (artifact no claude.ai / arquivo `.md` no Code); o chat é só a condução, o doc é o produto |
+| Fez o Plano inteiro de uma vez no chat, sem parar | Conduz por etapa com os 4 STOPs; só monta o doc MD final depois de aprovar os blocos e passar o Crivo |
 
 ## Handoff
 Plano completo (Racional + os 3 blocos NMO + as 2 saídas + os 5 elementos de Voz) = a fundação. Vira o conhecimento do LEON do cliente e a fonte de toda peça da escada: `soft-conteudo` (atração), `soft-funil` (carta/vídeo + Comercial 1:1), `soft-webinar-plano` (webinário perpétuo + Comercial), `soft-lancamento-pago` (Soft Launch + Comercial) e `soft-vendas` (o fechamento 1:1, onde a venda acontece). O LEON (`soft-leon`) é quem invoca esta mãe e cada irmã na hora certa e passa tudo pelo Crivo. Doc vivo: revisar quando muda a oferta principal, a audiência, o inimigo do mercado, ou a narrativa ganha capítulo.
