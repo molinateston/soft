@@ -49,7 +49,42 @@ Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates
 | 6 | Autoridade | A profissão ("sou X") · B resultado ("fiz X") · C emprestada ("X disse Y") |
 | 7 | Disrupção | "não é A, é B" / "para de fazer X" |
 
-(Os 30 templates por gatilho estão em `references/templates.md`. Lê e escolhe os que encaixam: é o passo central, não opcional.)
+**OS 30 TEMPLATES TESTADOS (usa ESTES, NUNCA invente uma fórmula genérica).** Escolhe 3-5 que encaixam no assunto + na fala real; preenche com elementos concretos e reais do cliente (adapta ao nicho, nunca copia o exemplo):
+
+| # | Template (fórmula) | Exemplo | Gatilho |
+|---|---|---|---|
+| 1 | Faça algo muito específico (ordem direta + razão no corpo) | "Seja chato em 2026." | Autoridade + Disrupção |
+| 2 | Coisas que eu [faço/deixei de fazer] sendo [autoridade] | "Cremes que eu não passo no rosto sendo dermatologista." | Autoridade |
+| 3 | Coisas que parecem normais mas geram [dano] | "Alimentos que parecem saudáveis mas emperram seu intestino." | Disrupção |
+| 4 | Esse é o maior motivo disso acontecer | "Esse é o maior motivo do seu carrossel não viralizar." | Mistério |
+| 5 | Crença popular que você quer confrontar | "Comer ovo todo dia faz mal. É isso que falam, mas..." | Crença + Disrupção |
+| 6 | O inimigo pôs a mão em tal coisa e ela mudou | "A indústria pôs a mão no sorvete e ele mudou." | Disrupção + Crença |
+| 7 | O inimigo do meu público adora quando você faz isso | "O banco adora cliente que faz essas 4 coisas." | Reconhecimento + Disrupção |
+| 8 | Demorei X anos pra aprender, te explico em X segundos | "Levei 8 anos de psicanálise pra descobrir isso. Resumo em 1 minuto." | Recompensa + Autoridade |
+| 9 | Toda pessoa com [característica ultra específica] precisa saber disso | "Toda pessoa que tem casa de aluguel precisa saber disso." | Reconhecimento |
+| 10 | Coisas que são uma verdadeira [autoridade] em [área] | "3 livros que são um MBA em finanças." | Popularidade + Recompensa |
+| 11 | Na próxima vez que você for [situação], faça isso | "Da próxima vez que for fechar um cliente, não faça reunião." | Recompensa + Valor prático |
+| 12 | Coisas que transformam X em Y | "4 hábitos que transformam sua insônia no sono mais restaurador." | Recompensa |
+| 13 | X é assim, Y é assim (contraste visual) | "O coração de um diabético é assim. O de uma pessoa normal é assim." | Disrupção |
+| 14 | O que fazer quando [algo cotidiano acontece] | "O que fazer quando o cliente pede desconto na hora do fechamento." | Valor prático + Reconhecimento |
+| 15 | Esse vídeo é um alerta para [pessoas com essa característica] | "Alerta para quem toma anticoncepcional há mais de 10 anos." | Reconhecimento + Mistério |
+| 16 | O item mais subestimado tem esses benefícios | "A vitamina mais subestimada do Brasil custa R$12 e resolve insônia." | Mistério + Recompensa |
+| 17 | Fazer isso gera essas consequências | "Pedir desculpa demais gera essas 3 consequências no casamento." | Recompensa + Reconhecimento |
+| 18 | Situações onde você tem permissão pra quebrar regras | "3 situações onde você tem permissão para demitir um cliente." | Disrupção + Autoridade |
+| 19 | Enquanto pessoas com X, é isso que pessoas com Y fazem | "Enquanto empresários vivem em reunião, é isso que CEOs fazem." | Reconhecimento + Disrupção |
+| 20 | Se você tem [características], isso aqui é obrigatório | "Faturando acima de 50 mil/mês? Esse software é obrigatório." | Reconhecimento + Autoridade |
+| 21 | O que acontece quando você faz [ação ultra específica] | "O que acontece quando você dorme após as 23 horas." | Mistério + Reconhecimento |
+| 22 | Sinais que você é uma pessoa com [características] | "Sinais que você está burnout e ainda não sabe." | Reconhecimento + Mistério |
+| 23 | É assim que [situação dolorosa] está acontecendo | "É assim que empresas familiares estão sumindo no Brasil." | Mistério + Disrupção |
+| 24 | Antes que [situação específica] aconteça, faça isso | "Antes de assinar com a empreiteira, exija esses 4 itens." | Recompensa + Autoridade |
+| 25 | X coisas que trazem esses [benefícios/malefícios] | "5 hábitos que aumentam testosterona em homens acima de 35." | Recompensa |
+| 26 | [Assunto quente] não aconteceu pelo que você acredita | "O Banco Master não quebrou por má gestão, é por algo que vai te assustar." | Disrupção + Mistério |
+| 27 | [Situação dolorosa] acontece porque você faz isso | "O Instagram não entrega porque você tenta parecer inteligente demais." | Reconhecimento + Disrupção |
+| 28 | Isso não é o que você pensa (sempre com imagem) | "Isso não é estiloso, isso não é estiloso, isso não é se vestir bem." | Disrupção |
+| 29 | O [melhor/pior] pra [situação] não é X, não é Y, não é Z | "O exame mais importante pro coração não é colesterol, não é glicose, e o médico não pede." | Mistério |
+| 30 | Erros que você comete ao [ação comum] e como evitar | "4 erros que você comete na primeira reunião com um cliente." | Reconhecimento + Recompensa |
+
+> **Regra dura:** as fórmulas são ESTAS 30. Se você escreveu um "template" que não é um destes, você INVENTOU (é o erro a não cometer). No máximo você adapta/combina um destes ao nicho do cliente. `references/templates.md` traz os mesmos 30 com mais contexto de uso.
 
 ## Passo 3, escreve 2-3 headlines DENTRO de cada template
 Pra cada template escolhido, escreve **2-3 headlines**, todas ancoradas na fala real (Passo 0). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), tom de comando, nunca morno. **Clareza acima de tudo (Lei 1): nada de palavra difícil, nada de figura de linguagem vazia ("mensagem cheia"), só o que uma pessoa real diria.** Toda headline nasce **curta e densa, reaproveitável em qualquer formato** (capa, reel, post, story). **Quando o formato-destino já é conhecido, comprime pra ele:** reel ≤7 palavras nos 3s · texto na tela ≤5 · capa de carrossel 8-15 · story 5-10 · anúncio ≤5 (tabela dos 8 formatos + protocolo de redução em `references/criterios-v2.md`). **Tempero, só se a headline estiver chapada:** injeta 1 dispositivo de `references/dispositivos-de-frase.md` (preparação+virada, antítese, dizer o não-dito, evocação sensorial), nunca no lugar da ideia. No topo de cada grupo, declara o **template (nome/fórmula) + os gatilhos** que ele aciona. **Não narra o fluxo**, só entrega limpo, organizado por template.
@@ -76,6 +111,9 @@ Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headli
 ## Passo 5, mostra e PARA
 Mostra **só as que passaram, agrupadas por template, LIMPO** (como no Claude Chat): cada grupo com o **template nomeado + os gatilhos** no topo e as 2-3 headlines embaixo. Sem tabela de gate, sem meta. Pergunta "quais te servem? ajusto, troco de template, ou gero mais?". **Espera a escolha** antes de gerar volume ou passar pro corpo (soft-conteudo-carrossel / -reels / -stories).
 
+## COMO ENTREGAR (o banco de headlines vira doc MD)
+O resultado (as headlines agrupadas por template) é o entregável, e o cliente quer GUARDAR ele. Entrega como **documento markdown**: no **claude.ai** como um **artifact de markdown** (o banco que ele abre, copia e reusa), no **Claude Code** como arquivo `.md`. A condução (perguntas, escolha de template, o gate por dentro) acontece no chat; o **banco de headlines sai como doc**, agrupado por template, não só solto no meio da conversa. Volume (banco de 50/100/200/300) é SEMPRE doc.
+
 ## When NOT to use (manda pra skill certa)
 - Pediu o **CORPO** da peça → **soft-conteudo-carrossel** (slides do carrossel) · **soft-conteudo-reels** (roteiro do reel) · **soft-conteudo-stories** (arco de stories).
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
@@ -95,6 +133,8 @@ Mostra **só as que passaram, agrupadas por template, LIMPO** (como no Claude Ch
 | Headline que só quem já é de dentro entende | Falha na Clareza (Lei 1): reescreve criando o contexto e troca a palavra difícil pela simples |
 | Figura de linguagem vazia ("mensagem cheia") | Curto nunca acima de claro: reescreve concreto, como uma pessoa real diria ("muitas mensagens pra responder e zero contratos") |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só template + gatilhos + as headlines limpas |
+| Inventou uma fórmula genérica (não é um dos 30 templates) | Usa ESTES 30 do corpo; adapta ao nicho, nunca cria fórmula do zero |
+| Entregou as headlines só soltas no chat, sem doc | O banco sai como doc MD (artifact no claude.ai / arquivo no Code); o chat é a condução |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/templates.md`: banco de 30 templates por gatilho. **Central nos Passos 2-3** (escolhe os que encaixam, 2-3 headlines por template). Adapta ao nicho, nunca copia a frase pronta.

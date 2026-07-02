@@ -1,4 +1,4 @@
-# Banco de 30 templates de headline (profundidade opcional)
+# Banco de 30 templates de headline (os mesmos 30 já no corpo do SKILL.md, aqui com mais contexto de uso)
 
 Cada template é uma **fórmula** que você preenche com elementos do nicho do cliente. Os exemplos são de outros nichos, de propósito: **adapta, nunca copia a frase pronta.** Como usar: escolhe o gatilho que quer ativar (Passo 2 do SKILL.md) → pega 2-3 templates que encaixam → preenche com elementos concretos e reais do cliente → roda o gate (Passo 4).
 
