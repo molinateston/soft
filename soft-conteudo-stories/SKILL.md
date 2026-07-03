@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-stories
-description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil).
+description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Stories, o arco de conversão diária
@@ -69,6 +69,26 @@ Ordem: primeiro garante o eixo (sem headline/eixo do dia, resolve na soft-conteu
 
 Urgência no Dia 1 é desespero (ninguém tem desejo ainda); urgência no Dia 5 é fechamento. Palavra-chave única apontando sempre pro mesmo Direct.
 
+**Regra tática da enquete:** na Sequência de 5 dias (e no template de evento), a ENQUETE vende a ideia ANTES da oferta (Story 10), o público autoriza a venda antes dela acontecer; só apresenta preço/vaga depois que a enquete confirmou demanda.
+
+**Arco preenchido, Sequência de Sessão em 6 stories** (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia). Oferta: sessão de diagnóstico de agenda pra dono de e-commerce que trabalha 12h/dia. Palavra-chave única: `SESSAO`.
+```
+Story 1 (gatilho): "Se você abre o notebook 7h e fecha 22h e ainda
+sente que não saiu do lugar, o problema não é falta de esforço."
+Story 2 (ampliação): "Sintoma de agenda quebrada:
+- responde cliente no domingo
+- 40 abas abertas e nenhuma tarefa fechada
+- fatura sobe, seu tempo livre nunca"
+Story 3 (solução + case): "A Sessão Diagnóstico de Agenda mapeia onde
+seu dia vaza. O Rafael cortou 3h/dia na primeira semana. [print da fala dele]"
+Story 4 (prova): "Não foi sorte do Rafael. Nas últimas 8 sessões,
+7 donos recuperaram 2h+ por dia sem contratar ninguém."
+Story 5 (proposta + enquete): "Na sessão você sai com: mapa dos vazamentos
+da sua semana + 3 cortes pra aplicar já. [Enquete: Quero ver / Ainda não]"
+Story 6 (CTA + escassez): "Abri 4 vagas essa semana, a última rodada
+lotou em um dia. Manda 'SESSAO' no Direct pra pegar a sua."
+```
+
 **Caixinha Estratégica.** A versão deliberada do C: planta 1 pergunta que o cliente certo responde (Problema · Objeção · Detalhamento), e a resposta volta como conteúdo qualificado E sinal de compra. A resposta certa não é pitch: é continuar a conversa no DM, no ritmo da pessoa.
 
 **Story Infiltrado.** Único que mira público frio. Parece orgânico: roda lógica de Resultado/Alinhamento sem cara de anúncio (sem "saiba mais", sem CTA, foto real). Cobra teste pra valer, não é onde se começa sem verba.
@@ -112,7 +132,7 @@ Mostra **só os frames que passaram, LIMPO** (no DOC, nunca solto no chat), em b
 - Pediu **carrossel** → **soft-conteudo-carrossel** · **reel** → **soft-conteudo-reels** · **adaptar pra outras plataformas** → **soft-conteudo-multiplataforma**.
 - Pediu **Plano / posicionamento / fundação / bio / destaques** → **soft-posicionamento**.
 - Pediu **arte/visual/PNG** dos frames → **soft-designer**.
-- O lead chegou no Direct e quer **fechar / carta / VSL / venda** → **soft-funil** (a venda em si é soft-vendas).
+- O lead chegou no Direct e quer **fechar / carta / VSL / venda** → **soft-funil-carta** (a venda em si é soft-vendas).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

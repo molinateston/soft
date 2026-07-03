@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil).
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
 ---
 
 # Carrossel, a peça que move a decisão
@@ -77,6 +77,32 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 - **Conteúdo (slides 7-8):** 1 das 7 formas: Contraste Emparelhado · Reframe · Casos Empilhados · Linha do Tempo Numérica · Nome-Número-Condição · Bastidor Crítico · Declaração+Sustentação. Sempre em contraste mercado×método.
 - **CTA (slide final):** 1 das 7 formas: Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S. Ticket R$3k+ pede Filtro Duro.
 
+**As 21 formas em 1 linha (pra saber o que É cada uma sem abrir a ref; detalhe, templates e tabelas de decisão em `references/estrutura-peca.md`):**
+
+| Papel | Forma | O que é |
+|---|---|---|
+| Contexto | Cena Filmada | Um instante sensorial no presente: o leitor se vê na cena antes do argumento. |
+| Contexto | Dia Padrão | A rotina em 4-5 beats (seg/ter/sex/dom): mostra o padrão, não um evento. |
+| Contexto | Conselho Falido | A frase exata que o mercado repete, entre aspas, seguida do resultado que a contradiz. |
+| Contexto | Número Próprio | Um dado com CPF do especialista/caso dele, nunca média. |
+| Contexto | Diálogo Interno | A frase que o leitor fala pra si mesmo, na voz mental dele. |
+| Contexto | Paradoxo Observável | Fato aceito + fato observável que o contradiz + conclusão seca. |
+| Contexto | Contraste com Personagem | Dois casos iguais em tudo, divergentes num fator: um deu certo, o outro não. |
+| Conteúdo | Contraste Emparelhado | Mercado x método lado a lado, formato binário fechado num bordão. |
+| Conteúdo | Reframe | "Não é X, é Y": o leitor tentava resolver o problema errado. |
+| Conteúdo | Casos Empilhados | 3+ mini-casos com condição inusitada cada, que viram padrão, não anedota. |
+| Conteúdo | Linha do Tempo Numérica | Evolução só em números, sem adjetivo, nomeando o ponto de virada. |
+| Conteúdo | Nome-Número-Condição (NNC) | Cada linha é um micro-caso denso (nome + número + condição), 5-10 em sequência. |
+| Conteúdo | Bastidor Crítico | Um momento de execução que mostra o mecanismo funcionando, sem a receita reprodutível. |
+| Conteúdo | Declaração + Sustentação | Declaração forte e curta + 2-4 blocos de sustentação (cena, número, caso). |
+| CTA | Direct com palavra-senha | Razão concreta + envia uma PALAVRA no Direct (padrão Soft). |
+| CTA | Comentário | Razão + comenta uma PALAVRA que eu te mando. |
+| CTA | Siga com razão | Tipo de conteúdo recorrente + segue pra continuar recebendo. |
+| CTA | Batida Emocional | Você decide: continuar o conselho falido OU o que o método propõe + CTA direto. |
+| CTA | Filtro Duro | Não é pra quem X, não é pra quem Y, é pra quem Z + CTA (ticket alto). |
+| CTA | Convite Específico | Evento/conteúdo nomeado + data/formato + pra quem + ação de inscrição. |
+| CTA | P.S. que vira CTA | CTA principal suave + P.S. com informação específica + ação com palavra-senha. |
+
 **Faca Soft (teste antes de fechar cada slide de método):** *"se eu publicar isso, aumenta ou diminui o motivo de comprar o produto?"* Aumenta → fica. Diminui → corta. Dá o tijolo, nunca a planta da casa. (O exemplo card-a-card completo está em `references/06-carrossel.md` 6.7; modela, não copia.)
 
 **Tempero, só na revisão (`references/dispositivos-de-frase.md`).** Com a estrutura de pé, pergunta "tá chapado?" e injeta 1-2 dispositivos (preparação+virada, antítese, evocação sensorial, dizer o não-dito) onde a peça está morna, nunca os 6 de uma vez, nunca no lugar da estrutura.
@@ -128,7 +154,7 @@ Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide: a
 - Pediu **arte / visual / PNG / design dos slides** → **soft-designer**.
 - Pediu **reel** → **soft-conteudo-reels** · **stories** → **soft-conteudo-stories** · **adaptação multiplataforma** → **soft-conteudo-multiplataforma**.
 - Pediu **Plano / posicionamento / fundação / mecanismo** → **soft-posicionamento**.
-- Pediu **carta / VSL / página / a venda em si** → **soft-funil**.
+- Pediu **carta / VSL / página / a venda em si** → **soft-funil-carta / soft-funil-landing**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

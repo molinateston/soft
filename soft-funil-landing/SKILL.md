@@ -1,6 +1,6 @@
 ---
 name: soft-funil-landing
-description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas-*), webinário."
+description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas), webinário."
 ---
 
 # Landing page, a decisão inevitável pro cliente certo
@@ -63,6 +63,35 @@ Pega o OBJETIVO confirmado no Passo 1 e declara, em 1 linha, o TIPO de página e
 | **Vender no texto** (infoproduto/mentoria/serviço) | **as 4 arquiteturas** (sub-passo abaixo) | ADMA |
 
 Os tipos que VENDEM no texto descem pro sub-passo das 4 arquiteturas (mantidas 100%). Todos os outros puxam a receita de blocos de `references/tipos-de-landing.md`. **Abre `references/tipos-de-landing.md` assim que o tipo é declarado** e monta o outline com os blocos daquele tipo.
+
+### Tabela-receita dos tipos (mapa rápido, condensado de `tipos-de-landing.md`)
+Uma linha por tipo: os blocos na ordem (comprimidos) e a mecânica-assinatura, o detalhe que separa a página de elite do panfleto. Isto é o mapa; a receita cheia (o que NÃO entra, framework, exemplo) mora na seção do tipo em `references/tipos-de-landing.md`, aberta no Passo 2.
+
+| Tipo | Blocos em ordem (comprimido) | Mecânica-assinatura |
+|---|---|---|
+| **Squeeze / Opt-in** | Hero (promessa + campo) · 3 ganhos concretos · meia-prova (1 número) · repete CTA | 1 campo só, fricção mínima casada com a temperatura |
+| **Lead-capture B2B** | Hero form-first · prova de pares (logos, nº) · 3-4 ganhos pro decisor · form multi-campo | fricção alta calibrada: cargo e porte filtram e já entregam lead pré-qualificado |
+| **Entrega-de-isca** | (captura = squeeze) + delivery: confirma · instrução de 1 linha · ponte pro próximo passo | confirm + advance: a entrega nunca é beco, sempre avança |
+| **Advertorial / Click-through** | hook editorial · história (Star-Story-Solution) · solução nomeada como descoberta · 1 botão de avanço | frame editorial (lê como conteúdo) com um único ponto de saída, o clique |
+| **Registro de evento** | Hero + data/hora/formato · o que sai sabendo · prova de quem conduz · form + o que vem depois | data clara + sequência de lembrete prometida |
+| **Obrigado / Avanço** | confirmação curta · próximo passo único · (quando aplica) micro-oferta | confirm + advance, com calendar-add quando há horário |
+| **Replay** | Hero (player + janela real) · botão pró próximo passo · recap curto · CTA final com a janela | janela de escassez REAL, o contador expira de verdade, nunca reseta |
+| **Waitlist / Coming-soon** | Hero de curiosidade · campo + contador social · 3 pistas do que ganha na fila | curiosidade calibrada + contador social real de fila |
+| **Application / Qualificação** | Hero-filtro · pra-quem-é/não-é · problema 3ª camada + mecanismo · prova empilhada · VSL com CTA atrasado · form de qualificação · calendário | CTA atrasado (botão sincroniza com o pitch) + form que filtra |
+| **OTO / Upsell / Downsell** | Hero de continuidade · oferta complementar · caminho Yes/No · (se recusa) downsell | Yes 1-clique em destaque · No-thanks pequeno embaixo |
+| **Link-in-bio** | identidade curta · camada de alta intenção (1-2 links) · média (2-3) · baixa (1-2) | hierarquia de intenção em 3 camadas, máximo 5-8 links |
+| **Pricing** | Hero curto · 3 colunas (entrada · alvo "mais popular" · âncora) · comparativo · CTA por plano + FAQ | 3-tier com decoy: o tier caro faz o do meio parecer óbvio |
+| **Comparação** | Hero da dúvida · matriz neutra critério a critério · pra-quem-cada-um-serve · 1 CTA por coluna | matriz honesta, admite onde a outra opção é melhor |
+| **Casca de quiz** | hook de resultado personalizado · 3-6 perguntas · GATE antes do resultado · result-shell + CTA | gate-antes-do-resultado, captura entre a última pergunta e o resultado |
+| **404 como landing** | reconhecimento leve e humano · 3-5 links de resgate · campo de busca ou CTA provável | resgate: tom humano + caminhos claros, o menu volta de propósito |
+| **Vender no texto** | 14 blocos universais ordenados pela arquitetura (sub-passo 2.A) | arquitetura por ticket × produto × temperatura |
+
+### Mini-exemplo em prosa (nicho fictício; modela a forma, nunca copia)
+Um squeeze inteiro curto e um Hero de venda, pra você ver a forma antes de escrever. São exemplos ilustrativos, o conteúdo real nasce do verbatim do cliente da vez.
+
+*Squeeze completo (costureira de alta-costura, exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia):* Hero: "O molde que faz vestido de festa cair perfeito sem 3 provas." Sub de uma linha: "Receba o gabarito de medidas que uso há 9 anos, no seu WhatsApp." Campo: seu melhor WhatsApp. Botão: Quero o molde. Três ganhos: o gabarito em PDF, a tabela de ajuste por tipo de corpo, o áudio de 4 minutos com os 3 erros de medida que estragam o caimento. Meia-prova: "1.200 costureiras já usam esse gabarito no ateliê." Repete o mesmo campo e o mesmo botão embaixo, pra quem rolou.
+
+*Hero de venda (fórmula raiz do Bloco 1, exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia):* a headline segue "Como [resultado] sem [objeção], para [perfil]", 6 a 14 palavras, sem exclamação, sem adjetivo vazio. Headline: "Clientes de R$5k sem sessão gratuita." Sub (amplia, não repete): "Para consultores que já faturam R$10k a R$80k e querem sistema de aquisição que funciona quando param." Botão único com a próxima ação concreta ("Quero entender o método"), nunca "compre agora", apontando pro destino declarado (WhatsApp, checkout ou VSL).
 
 ### Sub-passo 2.A, declara a arquitetura (SÓ quando o objetivo é "vender no texto")
 Quando, e só quando, o objetivo é vender no texto, decide por ticket × produto × temperatura e declara qual arquitetura usa e por quê. Pra todo outro objetivo, pula este sub-passo e vai direto pra receita de blocos do tipo.
@@ -139,14 +168,14 @@ Mostra **só os blocos que passaram, LIMPO** (no DOC, nunca solto no chat): só 
 ## When NOT to use (manda pra skill certa)
 Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ativo de DENTRO pode ser a irmã, agora que o escopo alargou:
 - Pediu **carrossel / reel / stories** → **soft-conteudo-carrossel / -reels / -stories / -multiplataforma**.
-- Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **texto longo de conteúdo** → **soft-conteudo**.
+- Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **texto longo de conteúdo** → **soft-conteudo-carrossel/-multiplataforma**.
 - Pediu o **roteiro/script do VSL ou da carta em texto corrido** → **soft-funil-carta** (a landing só monta a página; o roteiro que vai dentro é da carta). **Mini-webinar** → **soft-funil-miniwebinar**.
 - Pediu o **ATIVO da isca** (o PDF, checklist, mini-aula em si) → **soft-funil-isca**. A landing só CONSTRÓI a página de captura + a de entrega, não escreve o material.
 - Pediu páginas que orbitam **WEBINAR** (cadastro / obrigado / checkout de webinar) → **soft-webinar-paginas**.
 - Pediu **quiz como LÓGICA/perguntas de segmentação profunda de marca** → **soft-posicionamento** se for diagnóstico de marca; a landing monta só a CASCA (hook + gate + result-shell).
 - Pediu **Plano / posicionamento / oferta** → **soft-posicionamento**. **Arte/visual/PNG** → **soft-designer**.
-- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
-- Pediu **webinário perpétuo / evergreen** → **soft-webinar-plano**.
+- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas**.
+- Pediu **webinário / evergreen** → é do próprio autor, não roteia daqui.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

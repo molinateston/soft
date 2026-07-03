@@ -1,6 +1,6 @@
 ---
 name: soft-designer
-description: "A skill ÚNICA de design VISUAL do método Soft. Recebe a tese/copy de uma skill de conteúdo (soft-conteudo) ou do usuário e produz o ARQUIVO final: carrossel PNG 1080x1350, banner estático, ou deck de slides 16:9. Escreve a copy-visual (headline do banner, texto de cada card, título de cada slide) pelo Crivo e renderiza em HTML/CSS com 3 famílias de estilo, exportando PNG que quebra padrão no feed. Use quando o pedido for design, arte, PNG, carrossel visual, banner, slides visuais, capa, diagrama, exportar imagem, 'faz o carrossel', 'cria o banner', 'desenha os slides', 'monta o visual', 'transforma essa copy em arte'. NÃO use pra escrever a headline/gancho de texto (vai pra soft-conteudo-headlines), nem o CORPO de texto longo, caption, roteiro ou carta (vai pra soft-conteudo), nem o posicionamento (vai pra soft-posicionamento), nem os slides operados dentro do webinar (vão pra soft-webinar-slides)."
+description: "A skill ÚNICA de design VISUAL do método Soft. Recebe a tese/copy de uma skill de conteúdo (soft-conteudo-carrossel/-reels/-stories) ou do usuário e produz o ARQUIVO final: carrossel PNG 1080x1350, banner estático, ou deck de slides 16:9. Escreve a copy-visual (headline do banner, texto de cada card, título de cada slide) pelo Crivo e renderiza em HTML/CSS com 3 famílias de estilo, exportando PNG que quebra padrão no feed. Use quando o pedido for design, arte, PNG, carrossel visual, banner, slides visuais, capa, diagrama, exportar imagem, 'faz o carrossel', 'cria o banner', 'desenha os slides', 'monta o visual', 'transforma essa copy em arte'. NÃO use pra escrever a headline/gancho de texto (vai pra soft-conteudo-headlines), nem o CORPO de texto longo, caption, roteiro ou carta (vai pra soft-conteudo-carrossel/-reels/-stories), nem o posicionamento (vai pra soft-posicionamento), nem os slides operados dentro do webinar (vão pra soft-webinar-slides)."
 ---
 
 # Soft Designer, a única skill de visual
@@ -32,7 +32,7 @@ Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): av
 
 Lê também a **identidade visual do cliente** (`references/identidade-visual-cliente.md`): cores, fontes e formato são DELE. A skill é marca-neutra, não tem visual próprio, cada cliente desenha na marca dele. Se a ID está no perfil, ela manda no Passo 2 (e você não pergunta cor/fonte). Se não está, o Passo 2 pergunta e oferece salvar.
 
-O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinar-plano`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
+O que ENTRA: a tese ou briefing da peça (de `soft-conteudo-carrossel/-reels/-stories`, `soft-webinar-plano`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
 
 A copy-visual obedece o Crivo como qualquer peça:
 1. **Ancora:** puxa o verbatim real do público do usuário sobre o tema (`shared-references/crivo/01-entrada-verbatim.md`). A capa e os cards nascem de palavra real, não de rótulo.
@@ -82,6 +82,11 @@ As 7 regras inegociáveis do desenho:
 
 **Anti-órfã na origem:** no Code, envolve TODO texto de peça com `nw()` de `scripts/craft.py` (junta as 2 últimas palavras com espaço inquebrável). No chat, faz a quebra manual com `<br>` e confere a última linha de cada bloco.
 
+**Exemplo de copy-visual montada (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia).** Briefing: nutricionista de consultório, tese "atendo mais gente sem virar noite editando". Arquétipo Equação Inusitada (o número grande contra o insumo pequeno) na família **Clínico Branco** (lista/prova de números, pele clara, texto `#1a1814` + accent verde `#147a3c`).
+- **Capa (layout equação, número dominante):** `12 pacientes/mês` em corpo grande, sinal `com`, `3 posts por semana` embaixo. A conta não fecha na cabeça do leitor, e é isso que puxa o arraste. Uma ideia só, sem corpo competindo.
+- **Card 2 (layout lista/chips, enumera então vira lista):** título `O que segura não é falta de post` + 3 chips: `agenda vazia entre um paciente e outro`, `indicação que some quando o mês vira`, `post que ninguém salva`. Enumera, logo vai em chips, nunca em prosa amassada.
+- **Card 3 (layout afirmação pura, a virada):** só a frase `paciente certo chega pela dor que ele já sente, não pelo post bonito`, centralizada, muito espaço vazio. Quebra o ritmo depois da lista do card 2, uma tese que respira.
+
 ## Passo 4, mostra preview e PARA
 Cria o HTML em `/home/claude/<nome>/preview.html` e mostra **só a peça LIMPA** (no DOC, nunca solto no chat): a arte renderizada, sem tabela de gate, sem meta. Pergunta exatamente:
 
@@ -118,7 +123,7 @@ Saída: `slide_01.png`, `slide_02.png`, … (zero-padding de 2 dígitos). Move p
 
 ## When NOT to use (manda pra skill certa)
 - Pediu a **headline/gancho de TEXTO** (não a arte) → **soft-conteudo-headlines**.
-- Pediu o **CORPO de texto longo, caption, roteiro, carta, e-mail** → **soft-conteudo** (e sub-skills).
+- Pediu o **CORPO de texto longo, caption, roteiro, carta, e-mail** → **soft-conteudo-carrossel/-reels/-stories**.
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
 - Pediu os **slides operados DENTRO do webinar** (deck do roteiro do webinário) → **soft-webinar-slides**.
 - Pediu **anúncios de tráfego do webinar** como sistema → **soft-conteudo-impulsionar** (a arte do banner volta pra cá quando precisar renderizar).

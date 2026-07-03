@@ -164,12 +164,12 @@ Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do
 
 ### Etapa 4 · Entrega
 
-Entregar em **dois formatos**:
+Onde a peça mora depende de onde a skill roda (ver a regra dura no topo, "ENTREGA = UM doc MD"):
 
-1. **No chat** — markdown estruturado pra revisão rápida
-2. **Arquivo .docx** — pronto pra D4Sign/Clicksign/Autentique
+- **No app (claude.ai):** o contrato sai como **artifact de markdown**. Esse artifact É a entrega: o dono abre, copia e baixa dali; ele mesmo leva o texto pro D4Sign/Clicksign/Autentique.
+- **No Claude Code:** além do doc `.md`, dá pra gerar o **arquivo `.docx`** pronto pra assinatura eletrônica. Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`. Esse caminho `.docx`/`present_files` é do Claude Code, não do app.
 
-Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`.
+O `.md` consolidado é sempre a entrega mínima; o `.docx` é um extra do caminho Code.
 
 Após entregar, **avisar o usuário**:
 
@@ -292,6 +292,14 @@ Recusar e orientar advogado de direito internacional.
 
 ### Cliente PJ de grande porte ou ticket acima de R$ 15k
 **Default vira Robusto.** Avisar o usuário e explicar por quê.
+
+---
+
+## Anti-Patterns
+
+- Despejar o contrato inteiro em pedaços no chat em vez de consolidar no doc MD (o artifact no app, o `.md`/`.docx` no Code).
+- Entregar sem o aviso pós-entrega de revisão jurídica, ou prometer "blindagem total".
+- Inventar CPF, CNPJ, endereço ou valor quando o usuário não informou, em vez de perguntar ou deixar `[a preencher]`.
 
 ---
 

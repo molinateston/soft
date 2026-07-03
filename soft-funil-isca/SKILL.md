@@ -1,6 +1,6 @@
 ---
 name: soft-funil-isca
-description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, mini-aula, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"material gratuito\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar) nem webinário. NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
+description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo-carrossel/-reels/-stories/-multiplataforma). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar). NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
 ---
 
 # Isca, a amostra que prova a tese e captura o lead certo
@@ -38,10 +38,18 @@ As mesmas 3-5 falas de DOR + 3-5 de DESEJO alimentam o Modo Ideação do Passo 1
 ## Passo 1, MODO IDEAÇÃO (só roda se o usuário NÃO trouxe a isca já decidida)
 **Gatilho:** roda quando o usuário pediu ajuda pra escolher ("que isca eu faço?", "não sei o que oferecer de graça", "o que oferecer"), OU não trouxe a isca pronta, OU o Passo 0 revelou mais de uma dor TOP-3 candidata. Se o usuário já chegou com a isca decidida, PULA pro Passo 2. A engenharia completa está em `references/ideacao-isca.md` (leia ao entrar neste passo): os 4 critérios-núcleo, as 3 perguntas profit-driven, os prompts de brainstorm e a lógica de next-dollar.
 
-Conduz por pergunta, em poucas mensagens, na ordem profit-driven (destino primeiro, isca por último):
+**As 3 perguntas profit-driven (a ordem importa, começa pela oferta, isca por último):**
 1. **O que você vende / vai vender?** Define o destino ANTES da isca. Sem oferta não há next-dollar; marca `[A CONFIRMAR]` e a ideação não fecha enquanto isso falta.
-2. **O que o avatar precisa ACREDITAR pra querer isso?** A crença-ponte que a isca vai instalar (do estado atual pro estado que faz o produto virar o passo óbvio).
-3. **Brainstorm do tópico** a partir das falas do Passo 0 + dos prompts de ideação (a pergunta #1 que ele recebe, o que deixaria o avatar de queixo caído, qual o quick-win possível em menos de 20 minutos).
+2. **O que o avatar precisa ACREDITAR pra querer isso?** A crença-ponte que a isca instala (do estado atual pro estado que faz o produto virar o passo óbvio). É o coração da ideação: a melhor isca é a que, depois de consumida, deixa o avatar acreditando exatamente no que faz o produto virar o passo óbvio.
+3. **Que isca COMPLEMENTA essa oferta?** Só agora pensa na isca em si: o pedaço de valor que instala a crença-ponte e termina na porta do produto. Complementa, não substitui (não entrega o programa inteiro de graça). Brainstorm a partir das falas do Passo 0 (a pergunta #1 que ele recebe, o que deixaria o avatar de queixo caído, qual o quick-win possível em menos de 20min).
+
+**Os 4 critérios-núcleo (o crivo de ideação; falhou num, descarta ou conserta):**
+1. **Especificidade radical.** UM problema, UM avatar, resultado AGORA. Genérica converte por volta de 3%, específica de 5% a 17%. Se dá pra imaginar três avatares diferentes querendo, está ampla demais: aperta até sobrar um.
+2. **Quick-win consumível em menos de 5 a 20min.** A pessoa baixa, usa e VENCE no mesmo dia. Se o tópico não cabe num quick-win, troca o TÓPICO, não engorda o formato.
+3. **Alto valor percebido E real.** Vale pagar por isso E entrega de verdade. Percebido sem real queima confiança; real sem percebido ninguém baixa. Sinal de valor real: depois de consumir, o avatar tem uma resposta ou resultado que não tinha antes.
+4. **Alinhamento com a oferta (next-dollar).** A isca leva pro produto por desenho, não por sorte.
+
+**Next-dollar logic (o erro mais caro):** a isca NÃO resolve o problema do produto, resolve o problema que LEVA ao problema do produto. É a sobremesa que abre o apetite, não outro prato principal. Pergunta-bússola: "o que quem AMOU minha isca quer DEPOIS?". Se a resposta é "nada, já resolvi", a isca satura o lead e mata a venda; se é "agora quero exatamente o que você vende", está alinhada. Garante o degrau intermediário (Carta/conversa) pra evitar o value-cliff entre a isca grátis e o high-ticket.
 
 Gera **5-8 ideias-de-isca candidatas**. Cada uma traz: a dor TOP-3 que ataca · o quick-win em <5-20min · o formato sugerido · o próximo-dólar pra onde leva. Pontua cada uma pelo crivo de seleção (Específico>Amplo · ataca a TOP-3 · traz informação Nova · prova a SUA autoridade · não satura o produto) e **RECOMENDA 1-2 com convicção** (postura consultor, não menu neutro). **STOP:** mostra as candidatas + a recomendação e PARA pro usuário escolher.
 
@@ -53,7 +61,24 @@ Com a isca-alvo escolhida, decide o FORMATO pela matriz de seleção. O universo
 - **D, Prova/Fundo de funil** (case study, audit ou análise grátis, trial/amostra, sessão/consultoria, desafio, livro+frete).
 - **E, Curadoria** (resource list, vault, template de Notion, mind map, relatório de indústria).
 
-Heurística rápida: converter+segmentar no topo → quiz/assessment; agir já → checklist/template/script; high-ticket ou serviço → audit/sessão/case; pré-venda de produto → mini-curso/desafio/workshop; B2B/decisor → relatório/calculadora/template. Casa o formato com o ESTÁGIO DE CONSCIÊNCIA do avatar (a matriz inconsciente→mais-consciente está na ref). Regra dura: **uma isca, uma promessa específica, um destino.** Não acumula iscas; a promessa nomeia o pedaço que ela resolve, não "tudo sobre X". Quando o formato é Artigo-Isca, segue os 13 movimentos de `references/artigo-isca.md`. Antes de produzir, puxa o porquê da condução em `references/conducao-na-pratica.md` (o funil é o fácil e a posição é o difícil; congruência repete a tese; minimalismo), usa os §1-4; o §5 (lançamento pago) fica fora de escopo da isca. **Mostra o formato + a promessa e PARA pro OK.**
+Heurística rápida: converter+segmentar no topo → quiz/assessment; agir já → checklist/template/script; high-ticket ou serviço → audit/sessão/case; pré-venda de produto → mini-curso/desafio/workshop; B2B/decisor → relatório/calculadora/template. Casa o formato com o ESTÁGIO DE CONSCIÊNCIA do avatar (a matriz inconsciente→mais-consciente está na ref). Regra dura: **uma isca, uma promessa específica, um destino.** Não acumula iscas; a promessa nomeia o pedaço que ela resolve, não "tudo sobre X".
+
+Quando o formato é **Artigo-Isca**, segue os 13 movimentos (a escada de percepção; ordem importa; engenharia completa em `references/artigo-isca.md`):
+1. **Promessa-Prova + "por dentro":** headline com resultado extraordinário ancorado em número real, mais promessa de mostrar o mecanismo por dentro (o gap é o do como, não do resultado).
+2. **Autoridade vivida:** prova de que você já fazia isso antes de virar moda; trajetória, não diploma.
+3. **A tese óbvia é rasa:** admite que a versão popular é só metade, certa mas superficial; promete a causa por baixo.
+4. **A causa real = o mecanismo nomeado:** o tático que todos acham ser o truque não é a causa; nomeia o mecanismo, vira a chave pra fundação.
+5. **O custo de não-agir:** agita o caminho velho com fatos concretos (hora perdida, margem corroída), nomeia o inimigo; nunca medo fabricado.
+6. **Primeiros princípios:** pergunta por que o problema existe de verdade, nega as respostas óbvias, revela a raiz; o reframe que reorganiza a percepção.
+7. **A matemática:** prova o modelo com a conta que torna o argumento inevitável e o caminho velho insustentável.
+8. **A origem:** o mecanismo nasceu de uma limitação real e vivida; humaniza, prova que é chão, não teoria.
+9. **O método em pilares:** a estrutura por dentro em N partes nomeadas (3 basta); cada pilar tem função antiga + reframe + curiosity gap onde NÃO entrega o como.
+10. **A virada de qualidade:** o benefício além do óbvio (quem decide sozinho consome inteiro, não pede reembolso), mais prova social honesta e específica.
+11. **A síntese-reframe:** recapitula reposicionando (a tese é metade, a metade completa é a causa); foca na causa, prepara o convite.
+12. **O convite, não o pitch:** o produto entra como continuação natural do argumento, resolve o como que a isca guardou; sem escassez fabricada.
+13. **P.S., a última facada:** frase curta que crava o inimigo na identidade do leitor.
+
+Antes de produzir, puxa o porquê da condução em `references/conducao-na-pratica.md` (o funil é o fácil e a posição é o difícil; congruência repete a tese; minimalismo), usa os §1-4; o §5 (lançamento pago) fica fora de escopo da isca. **Mostra o formato + a promessa e PARA pro OK.**
 
 ## Passo 3, produz a isca ancorada (com seeding do método)
 Produz a isca no formato escolhido a partir do verbatim do Passo 0. Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"). Dois eixos não-negociáveis:
@@ -101,12 +126,11 @@ Roda o gate em CADA peça (isca, página de captura, sequência de nutrição) *
 Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): a peça e a fonte do verbatim citada. Sem tabela de gate, sem meta. Pergunta "essa isca te serve? ajusto o formato, troco a isca, ou sigo pro destino?". **Espera a escolha** antes de avançar pra Carta/mini webinar/conversa. A isca capturou o lead → entra no destino marcado no Passo 4.
 
 ## When NOT to use (manda pra skill certa)
-- Pediu **carrossel, reel, stories, headline ou texto de feed** → **soft-conteudo**.
-- Pediu **peça de FEED** (carrossel/reel/stories/post solto pra alcance, sem captura de contato) → **soft-conteudo**. A isca é material de CAPTURA (troca por contato) com destino marcado; se não captura contato nem leva a destino, não é isca.
+- Pediu **carrossel, reel, stories, headline ou texto de feed** → **soft-conteudo-carrossel/-reels/-stories/-multiplataforma** (headline: **soft-conteudo-headlines**).
+- Pediu **peça de FEED** (carrossel/reel/stories/post solto pra alcance, sem captura de contato) → **soft-conteudo-carrossel/-reels/-stories/-multiplataforma**. A isca é material de CAPTURA (troca por contato) com destino marcado; se não captura contato nem leva a destino, não é isca.
 - Pediu **carta de vendas / VSL / página de vendas** → **soft-funil-carta**.
-- Pediu **webinário/mini-webinar como ISCA de topo** → **soft-webinar-plano** / **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a eles, não o evento em si.
+- Pediu **mini-webinar como ISCA de topo** → **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a ele, não o evento em si.
 - Pediu **mini webinar** → **soft-funil-miniwebinar**.
-- Pediu **webinário perpétuo / ao vivo** → **soft-webinar-plano**.
 - Pediu **a venda em si** (script, objeção, fechamento, prospecção) → **soft-vendas**.
 - Pediu **Plano / posicionamento / nomear mecanismo** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.

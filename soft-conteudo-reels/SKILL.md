@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-reels
-description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil).
+description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Reel, o vídeo curto que atrai
@@ -75,6 +75,16 @@ Duração: 1 a 2 minutos, em torno de 1:30 quando for impulsionar. Polariza (tom
 
 Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastidor · contraste de resultado · crença errada · caso real) estão em `references/roteiros-modelo.md`, profundidade opcional, clona e adapta, nunca copia cru.
 
+**Roteiro-modelo inline (Bastidor Invisível, ~50s, nicho Consultoria de gestão), modela a qualidade, nunca copia.** Repara como cada marca de tempo carrega um movimento da espinha ADMA:
+- **[0:00-0:03] GANCHO (Atenção).** Texto na tela: "O que acontece antes da reunião". Fala: "Eu cobro R$4.500 por consultoria. E 80% do trabalho acontece antes da primeira reunião."
+- **[0:03-0:10] TENSÃO (quebra de crença).** "O cliente acha que o valor está na reunião. Não está." Abre o loop, não resolve.
+- **[0:10-0:18] DIAGNÓSTICO (Diagnóstico + vilão).** "Antes de sentar com ele, eu já analisei o financeiro, os processos, as margens. Levo entre 6 e 8 horas nisso." O modelo velho (achar que o valor mora na hora do encontro) é o culpado, não o cliente.
+- **[0:18-0:25] REVELAÇÃO (nova oportunidade).** "Quando começa a reunião, eu já sei o problema. Ele não." Existe um caminho diferente de enxergar o serviço.
+- **[0:25-0:30] MECANISMO (função, não execução).** "A reunião é só a hora que eu mostro o que encontrei." Aponta pro método sem entregar o passo a passo.
+- **[0:30-0:35] FRASE DE IMPACTO.** "O diagnóstico vale mais que a solução. Sem ele, qualquer conselho é chute."
+- **[0:35-0:40] CTA (Ação, destino real).** "Me conta o que você faz que te dou uma ideia." (comentar = próximo passo do funil)
+- **Edição (sugestão, não regra):** cortes secos entre as frases; se der, 2-3s de B-roll da análise na tela durante "analisei o financeiro". Grava do jeito que for possível, o roteiro é o que a skill garante.
+
 ## Passo 4, fecha com CTA de próximo passo real
 O reel não fecha venda, mas aponta pra onde. O CTA convida, não empurra, e tem **destino concreto do funil**: salvar, comentar uma palavra, mandar pra alguém, ir pro carrossel que aprofunda, ir pra isca/carta. CTA sem destino é peça órfã, o leitor para e não tem pra onde ir. Escreve o CTA na voz do cliente, ligado ao ponto único do reel.
 
@@ -107,7 +117,7 @@ Mostra **só o roteiro que passou, LIMPO** (no DOC, nunca solto no chat), com a 
 - Pediu **carrossel** → **soft-conteudo-carrossel**. Pediu **stories** → **soft-conteudo-stories**. Pediu **adaptar pra LinkedIn/X/YouTube** → **soft-conteudo-multiplataforma**.
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
 - Pediu **arte/visual/PNG/edição** → **soft-designer**.
-- Pediu **carta / VSL / página / venda** → **soft-funil**.
+- Pediu **carta / VSL / página / venda** → **soft-funil-carta**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

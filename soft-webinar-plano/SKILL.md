@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-plano
-description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil), venda 1:1 (soft-vendas), posicionamento (soft-posicionamento)."
+description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil-carta), venda 1:1 (soft-vendas), posicionamento (soft-posicionamento)."
 ---
 
 # Plano do webinar, o doc-mãe antes do roteiro
@@ -204,17 +204,12 @@ A separação É a ancoragem. Três classes:
 **Numeração (dura):** módulos pelo que a pessoa vira (ex.: "O Argumento · A Sala · A Máquina"), nunca "Módulo 1: configurações"; cursos por NOME, nunca "Curso 1/2/3". "120 aulas, 12 módulos" virou argumento CONTRA (o maduro lê "120 aulas" e pensa "nunca assisto tudo"). Complementares NÃO são "bônus": *"se tudo é bônus, bônus não significa nada"* (diluiria o pico).
 
 ### 1c, A STACK rica: VÁRIOS itens desejáveis, não um curso só
-A oferta campeã é a aula REEMBALADA como **pilha de coisas desejáveis**, cada uma vendável sozinha. Por que vários:
-
-| Razão | Efeito |
-|---|---|
-| cada item ancora o próximo | a soma cresce na tela, o teto sobe; a queda é sentida do TETO somado, não do zero |
-| cada item mata UMA objeção nomeada | a oferta termina sem portas de saída abertas |
-| escala progressiva de desejo | *"acha que acabou e tem mais, acha que acabou e tem mais"*, afunda a pessoa; pior que a lista aberta de uma vez |
-
-**A pilha tem 2 trabalhos:** alguns itens SOBEM a soma (têm preço real), outros FECHAM portas (os "inclusos": acesso, suporte, comunidade, anti-abandono, certificado, que matam objeção de pós-compra). Os "inclusos" não ancoram a soma; matam "vou conseguir? terei ajuda? serve pra mim? vou terminar? vale no mercado?".
-
-**Itens entram um-por-clique**, animado, anteriores visíveis, NUNCA a lista aberta. Cada item entra precedido de **pergunta hipotética** cuja resposta só é "sim" (*"Imagina ter X. Seria bacana? Custa R$Y. Você não vai pagar nada."*) → desejado antes de ganho.
+A oferta campeã é a aula REEMBALADA como **pilha de coisas desejáveis**, cada uma vendável sozinha. Por que vários e como entram, em lista:
+- **cada item ancora o próximo:** a soma cresce na tela, o teto sobe; a queda é sentida do TETO somado, não do zero.
+- **cada item mata UMA objeção nomeada:** a oferta termina sem portas de saída abertas.
+- **escala progressiva de desejo:** *"acha que acabou e tem mais, acha que acabou e tem mais"*, afunda a pessoa; pior que a lista aberta de uma vez.
+- **2 trabalhos da pilha:** uns SOBEM a soma (preço real), outros FECHAM portas (os "inclusos": acesso, suporte, comunidade, anti-abandono, certificado), que matam "vou conseguir? terei ajuda? serve pra mim? vou terminar? vale no mercado?".
+- **entrada um-por-clique**, animado, anteriores visíveis, NUNCA a lista aberta; cada item precedido de **pergunta hipotética** que só responde "sim" (*"Imagina ter X. Seria bacana? Custa R$Y. Você não vai pagar nada."*) → desejado antes de ganho.
 
 ### 1d, A jornada do produto em PASSOS + clímax (escada de IDENTIDADE)
 Cada módulo = **PASSO** pelo que a pessoa **VIRA**, com **headline de benefício** (resultado + curiosidade, sem o como) + **prova própria**. Os módulos são **degraus de identidade** (ex.: "Iniciante → Agilista → Gerente → Executivo"), não tópicos. **Nunca detalhe técnico no passo** (comoditiza → "isso tem no YouTube"). **Clímax** = o passo que **TIRA mais trabalho** (automatiza/faz-pela-pessoa), quase nunca o que ensina mais (ninguém compra trabalho). **Amarra:** passos do produto = esqueleto do mecanismo ensinado na aula.
@@ -251,11 +246,27 @@ Mecânica: **escassez honesta** (N = capacidade real; *"em paz com os 15 porque 
 A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair, desarma: *"não se preocupe se não ficar entre os 15, porque só o desconto desse link já é uma oferta gritante."* **Lei:** escassez que pune o perdedor mata a fila; escassez COM rede converte o 16º, o 40º, o 200º.
 
 ### 1j, A SOMA RISCADA na tela + a garantia + o ticket
-**Soma riscada:** os preços avulsos somam a âncora (ex.: R$3.000 + R$9.100 + R$2.000 + R$1.497 + R$997 = ~R$16.594) → cai pro preço final → desconto no link → 12x. **Cada parcela checável:** número grande nunca acima de número crível (Soft recusa âncora inflada que os componentes não sustentam).
+- **Soma riscada:** preços avulsos somam a âncora (ex.: R$3.000 + R$9.100 + R$2.000 + R$1.497 + R$997 = ~R$16.594) → cai pro final → desconto no link → 12x. **Cada parcela checável:** número grande nunca acima de crível (Soft recusa âncora inflada que os componentes não sustentam).
+- **Garantia** (frame "período de experiência", nunca "garantia"; maior que a objeção de risco e não mais): acesso/suporte (implícita, ticket baixo) · experimento 7 dias (bateu 15/30) · incondicional N dias (mid) · super-garantia 90+90 (alto/cético: 90 sem resultado → consultoria; +90 → devolve E paga R$X pelo tempo, R$X é SLOT) · ROI-como-garantia (prova esmagadora). Cobre o **resultado do método**, nunca a decisão de aplicar.
+- **Ticket + canal + ascensão:** meta ÷ ticket = clientes/mês; não cabe → SOBE. ≤~3k checkout / >3k 1:1. Produto fora da aula vira esteira (faço-sozinho → com-você → por-você); nenhum lead se perde.
+- **Equação Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
 
-**Garantia (frame "período de experiência", nunca "garantia"):** régua = maior que a objeção de risco, e não mais. Cardápio: acesso/suporte (implícita, ticket baixo) · experimento 7 dias (converteu melhor que 15/30) · incondicional N dias (mid) · super-garantia 90+90 (alto/cético: 90 dias sem resultado → consultoria; +90 → devolve E paga R$X pelo tempo, R$X é SLOT) · ROI-como-garantia (prova esmagadora). Cobre o **resultado do método**, nunca a decisão de aplicar.
+### 1k, CHECKLIST DE MONTAGEM DA STACK (o gate da pilha antes do roteiro)
+Condensado de `references/stack-de-oferta-e-bonus.md` §11. A pilha só passa quando os 17 pontos estão de pé (furo → volta ao item):
 
-**Ticket + canal + ascensão + equação:** meta ÷ ticket = clientes/mês; não cabe → SOBE. ≤~3k checkout / >3k 1:1. Ascensão: o produto fora da aula vira esteira (faço-sozinho → com-você → por-você); nenhum lead se perde. Equação **Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
+| # | Ponto | Passa quando |
+|---|---|---|
+| 1 | **Núcleo em passos** | módulos nomeados pelo que a pessoa VIRA (escada de identidade), nunca "X aulas / Y horas / Z módulos" |
+| 2-3 | **Tripartição + "bônus" reservado** | módulos (sem preço) × cursos-prateleira (preço real checável) × UM bônus sem preço (Mastercard); complementares = "outro curso", nunca "bônus" |
+| 4-5 | **Objeção por item + inclusos** | cada item mata UMA objeção nomeada; os "inclusos" de pós-compra existem (acesso, suporte, comunidade, anti-abandono, certificado/prova) |
+| 6 | **Bônus-âncora > produto** | ≥1 item vale mais que o núcleo (a jogada do R$9.100) |
+| 7 | **Soma checável** | avulsos somam âncora ~2x+ o final, cada parcela CHECÁVEL; número grande nunca acima de crível |
+| 8-9 | **15-primeiros em camadas** | camada separada do desconto (2 moedas); VÁRIOS bônus fast-action com preço cada, em escassez decrescente (15 → 10) |
+| 10-11 | **Escassez honesta + verificável** | N = capacidade real (15 vira 20 quando a escala mudar), nunca teatro; confirmada na tela ("está entre os 15") + contagem narrada |
+| 12-13 | **Rede + bônus surpresa** | rede pro 16º ("o desconto do link já é gritante"); bônus surpresa personalizado (automatizável no perpétuo), solto depois do preço |
+| 14-15 | **Corrida cedo + um-por-clique** | compra simulada nos primeiros 12-15 min; cada item entra um-por-clique, anteriores visíveis, NUNCA lista aberta |
+| 16 | **Recap + 3 CTAs** | recapitulação total no clique + 3 CTAs (Ganho → Lógica → Medo) |
+| 17 | **Guarda-corpo Soft** | itens matam dores de DONO (não de CLT); tom clínico; números checáveis; garantia cobre resultado, não decisão |
 
 ## Seção 2, A PROMESSA + BIG DOMINO + NÍVEL DE CONSCIÊNCIA
 **2a** Promessa (Bloco 3): de ONDE pra ONDE, sem pré-requisito. **2b** Big Domino na fórmula fixa, marcada nos 3 momentos, frase LITERAL. **2c** Nível de consciência (dos 6); se 6º, soluções-que-viraram-peso somadas num inimigo + a absolvição *"Você não [resolve] pouco porque é ruim. Você [resolve] pouco porque carrega peso demais, peso que te venderam e chamaram de estratégia."* (Big Idea 7 partes + One Belief + One Sentence Persuasion de Blair Warren: `references/fundamentos-pre-roteiro.md`.)
@@ -393,8 +404,8 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 ## When NOT to use
 - **Posicionamento / nomear o método / PUV de marca** → **soft-posicionamento**.
 - **Escrever a aula / roteiro / slides / deck** → **soft-webinar-script**.
-- **Páginas / e-mails / WhatsApp / anúncios / pós-webinar** → **soft-webinar-paginas**, **soft-webinar-mensagens**, **soft-webinar-mensagens**.
-- **Micro-aula curta do funil / carta / VSL / landing / isca** → **soft-funil**.
+- **Páginas / e-mails / WhatsApp / anúncios / pós-webinar** → **soft-webinar-paginas** (páginas) · **soft-webinar-mensagens** (e-mails/WhatsApp/pós) · anúncios: **soft-conteudo-impulsionar**.
+- **Micro-aula curta do funil / carta / VSL / landing / isca** → **soft-funil-carta/-landing/-isca**.
 - **Fechamento 1:1 / script de venda / objeção** → **soft-vendas**.
 - "Por onde começo / próximo passo / valida isso" → **soft-leon**.
 

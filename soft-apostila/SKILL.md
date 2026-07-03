@@ -1,6 +1,6 @@
 ---
 name: soft-apostila
-description: "Transforma uma aula/live gravada (Zoom, YouTube, MP4) em MATERIAL navegável — uma apostila/handout. Pipeline Whisper + Claude: extrai áudio → transcreve → limpa muletas → segmenta em capítulos → enriquece cada um (vira texto corrido, não transcrição crua). Output adapta ao ambiente: no chat entrega o material em Markdown; no Code renderiza a apostila HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, mobile) e publica. Marca-neutra: tema/cor/ID vêm do dono. Use quando o dono quiser virar conteúdo gravado em material — bônus de webinar, isca/lead magnet, micro-aula do funil, módulo de mentoria, material de comunidade, ou repurpose de uma masterclass/imersão. NÃO use para roteiro/ideia de conteúdo de feed (soft-conteudo), página de captura/venda (soft-funil-landing), proposta comercial (soft-proposta-comercial), nem edição de vídeo (soft-editor-video)."
+description: "Transforma uma aula/live gravada (Zoom, YouTube, MP4) em MATERIAL navegável — uma apostila/handout. Pipeline Whisper + Claude: extrai áudio → transcreve → limpa muletas → segmenta em capítulos → enriquece cada um (vira texto corrido, não transcrição crua). Output adapta ao ambiente: no chat entrega o material em Markdown; no Code renderiza a apostila HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, mobile) e publica. Marca-neutra: tema/cor/ID vêm do dono. Use quando o dono quiser virar conteúdo gravado em material — bônus de webinar, isca/lead magnet, micro-aula do funil, módulo de mentoria, material de comunidade, ou repurpose de uma masterclass/imersão. NÃO use para roteiro/ideia de conteúdo de feed (soft-conteudo-carrossel/-reels/-stories), página de captura/venda (soft-funil-landing), proposta comercial (soft-proposta-comercial), nem edição de vídeo (soft-editor-video)."
 ---
 
 **Papel:** skill operacional de **materialização de conteúdo**. Pega algo que o dono já gravou (aula, live, webinar, call) e devolve um material indexável — sem plataforma de EAD travada, versionável, com link próprio. Suporte de ENTREGA e de ISCA; não está no pipeline de copy dos funis. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém — tema, cor e identidade vêm do dono (puxe da `soft-designer`). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
@@ -21,11 +21,106 @@ Uma **apostila** (material navegável) a partir de uma gravação, via pipeline 
 - Regra: `chat → MD · code → site`. Mesmo conteúdo, destino diferente.
 
 **Onde se aplica no método Soft:**
-- **Isca / lead magnet** (`soft-funil-isca`) — uma masterclass gravada vira a isca navegável no lugar do PDF travado.
-- **Bônus do webinar/oferta** (`soft-webinar-plano`) — material complementar gerado da própria gravação do webinar.
-- **Micro-aula do funil** (`soft-funil`) — o micro-treinamento entregue como apostila.
-- **Entrega da mentoria/produto** — cada call/aula vira material indexado pra comunidade (menos churn).
+- **Isca / lead magnet** (`soft-funil-isca`): uma masterclass gravada vira a isca navegável no lugar do PDF antigo.
+- **Bônus do webinar/oferta** (`soft-webinar-plano`): material complementar gerado da própria gravação do webinar.
+- **Micro-aula do funil** (`soft-funil-miniwebinar`): o micro-treinamento entregue como apostila.
+- **Entrega da mentoria/produto**: cada call/aula vira material indexado pra comunidade (menos churn).
 
-**Invioláveis:** mantém a VOZ e os exemplos reais do dono (nunca inventa conteúdo); a copy do material passa pelo filtro `soft-anti-ia` (PT-BR completo, sem travessão); o visual segue a ID do dono na `soft-designer`.
+**Invioláveis:** mantém a VOZ e os exemplos reais do dono (nunca inventa conteúdo); a copy do material passa pelo filtro anti-IA embutido (`shared-references/filtro-anti-ia/`, PT-BR completo, sem travessão); o visual segue a ID do dono na `soft-designer`.
 
 **Serve o agente:** equipa o LEON/cliente a transformar acervo gravado em entregável (isca, bônus, material de mentoria) sem editor nem plataforma de EAD.
+
+## Output Contract
+
+- **Entregável:** UMA apostila enriquecida (8 a 15 capítulos), texto corrido com índice.
+- **Formato:** MD consolidado no chat; no Code, também o HTML single-file navegável publicado.
+- **Fidelidade:** só o que o dono disse na gravação, na voz dele. Nada inventado.
+- **STOP obrigatório:** mostra o índice de capítulos proposto e PARA antes de escrever o material inteiro.
+
+## ⚠️ ENTREGA = UM doc MD
+
+O resultado é UM documento só: a apostila consolidada em Markdown, entregue de uma vez no fim (artifact no chat, arquivo no Code), nunca despejada capítulo a capítulo solto no meio da conversa. No chat o destino é o MD limpo em formato mapa-mental; no Code o mesmo conteúdo vira o site. Regra: `chat → MD · code → site`.
+
+## Como executar
+
+Método completo em `references/reference.md` (LER antes). O miolo condensado:
+
+### 1) Preparar a fonte (Code, com Whisper/Bash)
+
+Só quando houver terminal. Extrai áudio e transcreve:
+
+```bash
+ffmpeg -i aula.mp4 -vn -acodec libmp3lame -ar 16000 -ac 1 aula.mp3
+whisper aula.mp3 --language pt --model medium --output_format txt --output_dir ./out
+```
+
+`-ar 16000 -ac 1` é a taxa ideal pro Whisper. Modelo `medium` é o padrão pra apostila (`small` se o áudio for longo e faltar GPU, `large-v3` pra máxima qualidade). Saída: `out/aula.txt`.
+
+**APP-FALLBACK (sem Whisper/Bash):** no app (Claude.ai), você NÃO transcreve nem publica. Receba a transcrição pronta ou o texto colado pelo dono, siga direto pra segmentação e enriquecimento, e entregue a apostila como artifact MD. O HTML navegável e o deploy no Cloudflare Pages ficam como passo do Claude Code.
+
+### 2) Limpar sem virar resumo
+
+Tira as muletas de fala e PRESERVA a voz, a primeira pessoa e TODOS os exemplos do dono. Limpeza não é síntese: o conteúdo técnico, as nuances e os casos concretos ficam inteiros. Pré-pass opcional com regex, depois o modelo:
+
+```bash
+sed -E 's/\b(ahn|hum|tipo assim|né|então)\b//gi' out/aula.txt > out/aula-clean.txt
+```
+
+- **Remove:** pausas verbalizadas (ahn, hum), repetição "eu eu eu", autocorreções, "tipo", "sabe".
+- **Mantém:** voz original, exemplos, listas, comandos, números que o dono citou.
+- Se cair a densidade ou sumir um exemplo, você resumiu de mais: refaça.
+
+### 3) Segmentar em 8 a 15 capítulos
+
+Corta nas mudanças naturais de tópico do próprio material, não em fatias iguais de tempo. Cada capítulo:
+
+- Título descritivo de 5 a 9 palavras, numerado.
+- Começa numa frase específica do texto (marque o trecho de início).
+- Resumo de 1 frase do que aquele capítulo ensina.
+
+Alvo de 800 a 2000 palavras por capítulo: menos que isso fica raso, mais que isso cansa. Junte tópicos curtos, quebre os longos. Fecha sempre com um capítulo "Resumo" em bullets do que foi visto.
+
+> **⛔ STOP.** Monte a lista de capítulos (número, título, resumo de 1 frase) e mostre ao dono ANTES de escrever o material. Só siga pro enriquecimento depois do OK. Não escreva a apostila inteira de uma vez sem esse aval.
+
+### 4) Enriquecer cada capítulo
+
+Vira texto corrido, não transcrição crua. Por capítulo:
+
+- **Intro de 2 a 3 frases** que situa o tema do capítulo.
+- **Corpo em prosa fluida**, mantendo o tom didático e as falas reais do dono; exemplos práticos onde forem naturais (os que ele deu, ou variações fiéis do que ele ensinou).
+- **Fechamento** de 1 parágrafo que amarra a ideia.
+- Listas, comandos e código, quando existirem na fala, viram Markdown formatado.
+
+Exemplo ilustrativo de recorte de capítulo (nicho fictício; modela a qualidade, nunca copia): de uma aula de confeitaria, o trecho onde o dono explica ponto de calda vira o capítulo "3. O ponto de calda que não empedra", com intro do porquê a calda falha, o passo dele em prosa e o fechamento com o teste do fio. Nada de fórmula nova: só o que ele disse, arrumado.
+
+### 5) Consolidar e (no Code) publicar
+
+Concatene os capítulos em UM `apostila.md`. No chat, esse MD é a entrega. No Code, injeta no template HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, drawer mobile, âncora por capítulo) e publica no Cloudflare Pages com a ID visual do dono (puxada da `soft-designer`). Detalhes de template, build e deploy: `references/reference.md`.
+
+## Gate (antes de entregar)
+
+- **Fidelidade:** cada afirmação sai da gravação. Zero método, número ou fala inventados.
+- **Voz preservada:** soa como o dono, não como resumo neutro de IA.
+- **Exemplos intactos:** os casos concretos que ele deu continuam no material.
+- **Segmentação:** 8 a 15 capítulos, cortados por tópico, com "Resumo" no fim.
+- **Anti-IA:** passa pelo filtro anti-IA embutido (`shared-references/filtro-anti-ia/`): sem travessão em-dash, sem frase-emoldura, PT-BR com acentuação correta.
+- **Entrega:** UM doc MD consolidado (não capítulos soltos no chat).
+
+## When NOT to use
+
+- Roteiro/ideia de conteúdo de feed: `soft-conteudo-carrossel` / `-reels` / `-stories`.
+- Headline/gancho isolado: `soft-conteudo-headlines`.
+- Página de captura ou venda: `soft-funil-landing`.
+- Ativo de isca do zero (não a partir de gravação): `soft-funil-isca`.
+- Proposta comercial: `soft-proposta-comercial`.
+- Edição/corte do vídeo em si: `soft-editor-video`.
+- Arte/visual/tema da apostila: `soft-designer`.
+
+## Anti-Patterns
+
+- Resumir a aula em vez de materializar: some a voz e os exemplos do dono.
+- Inventar exemplo, número ou etapa que o dono não disse na gravação.
+- Fatiar por tempo igual em vez de cortar por mudança de tópico.
+- Despejar capítulo por capítulo no chat em vez de UM doc MD no fim.
+- Escrever a apostila inteira sem o STOP do índice aprovado.
+- Publicar o HTML no app sem Whisper/Bash: deploy é passo do Claude Code.

@@ -1,9 +1,15 @@
 ---
 name: soft-editor-video
-description: "Editor de vídeo do método Soft: transforma um talking-head cru (9:16) num reels com b-roll gerado por IA (imagem no gpt-image-2 → animação no Veo 3.1 fast) na faixa de baixo e o apresentador inteiro em cima, mais corte de roteiro/silêncio, gancho (cold open), legenda, CTA fixo no final e música de fundo discreta. Marca-neutra: na PRIMEIRA vez roda o ONBOARDING (pede as chaves de API do dono e entrevista os personagens/identidade dele em config/), e cada cliente usa a própria cara. Use quando o dono mandar um vídeo pra editar, pedir b-roll, 'cobre o vídeo com cenas', gerar reels a partir de uma gravação, enxugar/cortar um vídeo, criar gancho/cold open, ou pôr CTA/música. NÃO use para roteiro/ideia de conteúdo (soft-conteudo / soft-conteudo-reels), nem para carrossel/slide/banner estático (soft-designer), nem para a copy da legenda em si (essa passa por soft-anti-ia)."
+description: "Editor de vídeo do método Soft: transforma um talking-head cru (9:16) num reels com b-roll gerado por IA (imagem no gpt-image-2 → animação no Veo 3.1 fast) na faixa de baixo e o apresentador inteiro em cima, mais corte de roteiro/silêncio, gancho (cold open), legenda, CTA fixo no final e música de fundo discreta. Marca-neutra: na PRIMEIRA vez roda o ONBOARDING (pede as chaves de API do dono e entrevista os personagens/identidade dele em config/), e cada cliente usa a própria cara. Use quando o dono mandar um vídeo pra editar, pedir b-roll, 'cobre o vídeo com cenas', gerar reels a partir de uma gravação, enxugar/cortar um vídeo, criar gancho/cold open, ou pôr CTA/música. NÃO use para roteiro/ideia de conteúdo (soft-conteudo-reels), nem para carrossel/slide/banner estático (soft-designer), nem para a copy da legenda em si (essa passa pelo guardrail anti-IA do produto: sem travessão, sem frase de robô, PT-BR completo)."
 ---
 
-**Papel:** skill de domínio (operador de produção audiovisual). Suporte/infra, FORA do pipeline de copy dos funis — entra DEPOIS que o roteiro/ideia já existe (isso é da `soft-conteudo`/`soft-conteudo-reels`). Pega uma gravação talking-head e devolve um reels editado. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém — no onboarding entrevista o dono e salva o elenco/identidade dele em `config/personagens.json`, e cada cliente roda com a própria marca. As chaves de API são do dono (ele paga OpenAI/Google direto). Método detalhado: `references/metodo.md`.
+**Papel:** skill de domínio (operador de produção audiovisual). Suporte/infra, FORA do pipeline de copy dos funis: entra DEPOIS que o roteiro/ideia já existe (isso é da `soft-conteudo-reels`). Pega uma gravação talking-head e devolve um reels editado. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém — no onboarding entrevista o dono e salva o elenco/identidade dele em `config/personagens.json`, e cada cliente roda com a própria marca. As chaves de API são do dono (ele paga OpenAI/Google direto). Método detalhado: `references/metodo.md`.
+
+## ⚠️ REQUER Claude Code
+Esta skill roda de verdade só no **Claude Code**: ela executa Bash, FFmpeg (corte, silêncio, montagem, música) e chama as APIs (gpt-image-2, Veo 3.1 fast, Whisper, Submagic) pelos `scripts/*.py`. No **app (claude.ai) não dá pra renderizar vídeo**. Ali a entrega possível é o **PLANO DE CENAS** (o `scenes.json` descrito: cada cena com personagens, pose e elementos, mapeada à fala) mais a **copy do gancho/cold open e do CTA** como documento, deixando anotado que a geração de imagem, a animação e a montagem final rodam no Code.
+
+## 📄 OUTPUT CONTRACT
+No **Code** a entrega é o **MP4 4K final** (gancho → corpo com b-roll no rodapé → CTA → música) salvo na pasta de saída do dono e aberto pra ele ver. No **app** a entrega é um **doc MD** com o plano de cenas + a copy do gancho e do CTA, avisando que a renderização acontece no Code. Um artefato por vez, com checkpoint: imagens aprovadas antes de animar.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 
@@ -17,9 +23,9 @@ Um reels vertical (9:16) finalizado a partir de um talking-head cru, com:
 - **Música de fundo discreta** — nivelada pra nunca cobrir a fala.
 - **Export 4K** na pasta de saída do dono.
 
-**Identidade visual (marca-neutra):** os `personagens.json` SÃO a identidade do dono nas cenas (etnia/look do apresentador, mascote, sócio, ambiente, paleta, logo). Se o dono já tem ID visual definida na `soft-designer` (`identidade-visual-cliente`), puxe dela pra manter a mesma cara entre carrossel/banner e vídeo. Texto que aparece na tela (gancho, CTA) passa pelo filtro `soft-anti-ia` antes de queimar.
+**Identidade visual (marca-neutra):** os `personagens.json` SÃO a identidade do dono nas cenas (etnia/look do apresentador, mascote, sócio, ambiente, paleta, logo). Se o dono já tem ID visual definida na `soft-designer` (`identidade-visual-cliente`), puxe dela pra manter a mesma cara entre carrossel/banner e vídeo. Texto que aparece na tela (gancho, CTA) passa pelo guardrail anti-IA do produto (sem travessão, sem frase de robô, PT-BR completo) antes de queimar.
 
-**Serve o agente:** equipa o LEON/cliente a produzir reels de atração sem editor humano. A IDEIA e o ROTEIRO vêm da `soft-conteudo`/`soft-conteudo-reels`; aqui é só a produção/edição.
+**Serve o agente:** equipa o LEON/cliente a produzir reels de atração sem editor humano. A IDEIA e o ROTEIRO vêm da `soft-conteudo-reels`; aqui é só a produção/edição.
 
 ---
 
@@ -50,7 +56,7 @@ Antes de editar qualquer vídeo, verifique a configuração. **Se já existir, N
 3. Confirme com o dono mostrando 1 imagem de teste de cada personagem antes de produzir vídeo (gere com `scripts/01_gen_images.py` a partir de um `scenes.json` de teste e abra pra ele aprovar).
 
 ### 0.3 CTA final (opcional)
-Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo vídeo). Se sim, ajude a criar: gere a imagem 9:16 no gpt-image-2 com os personagens + o texto/oferta dele → anime no Veo → salve em `config/cta_take.mp4`. Reuse em todos os vídeos. (A copy do CTA passa pelo `soft-anti-ia`.)
+Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo vídeo). Se sim, ajude a criar: gere a imagem 9:16 no gpt-image-2 com os personagens + o texto/oferta dele → anime no Veo → salve em `config/cta_take.mp4`. Reuse em todos os vídeos. (A copy do CTA passa pelo guardrail anti-IA do produto: sem travessão, sem frase de robô, PT-BR completo.)
 
 ---
 
@@ -63,10 +69,10 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 6. **Animar** (`scripts/02_animate.py`): Veo 3.1 fast image-to-video 16:9, **câmera travada + `negativePrompt`** (proíbe deturpar corpo/membros/look/cenário/texto). Pool de chaves Gemini (429 = pular).
 7. **Legenda:** A) Submagic (vídeo sem legenda) ou B) usar a que já veio.
 8. **Montar** (`scripts/03_assemble.py`): b-roll SEMPRE no RODAPÉ (16:9, full width, alt 608, borda fina no topo) + apresentador em cima. Se o vídeo já tem legenda baixa, cortar o teto morto (`crop=1080:1312:0:~400`) e `vstack`. → gera o CORPO.
-8b. **GANCHO / cold open — PADRÃO v4 (ligado)** (`scripts/05_hook.py`): copiar a **FRASE COMPLETA mais forte** pro comecinho — **só o apresentador, SEM b-roll** — com um **efeito** (`pb` preto-e-branco / `vhs` / `fantasma` / `tv_velha`) E a **mesma frase numa faixa** na tela (gancho sonoro + visual). Depois **transição** (`xfade=fadeblack`) pro corpo. A frase continua no lugar original. Ordem final: **gancho → corpo → CTA → música**.
+8b. **GANCHO / cold open — PADRÃO v4 (ligado)** (`scripts/05_hook.py`): copiar a **FRASE COMPLETA mais forte** pro comecinho — **só o apresentador, SEM b-roll** — com um **efeito** (`pb` preto-e-branco / `vhs` / `fantasma` / `tv_velha`) E a **mesma frase numa faixa** na tela (gancho sonoro + visual). Depois **transição** (`xfade=fadeblack`) pro corpo. A frase continua no lugar original. Ordem final: **gancho, corpo, CTA, música**.
    - **FRASE COMPLETA, nunca cortada na metade** (A/B pegam a frase inteira, mesmo passando um pouco de 5s).
    - **Faixa: MÁX 2 LINHAS**, fonte ~50% menor (range 66→28px), posição centro+15% (terço inferior). Já está no `05_hook.py`.
-   - **O agente escolhe a frase sozinho** pelos critérios: viralização · gera expectativa · forte/polêmica. A frase passa pelo `soft-anti-ia` (nada que soe de IA na faixa).
+   - **O agente escolhe a frase sozinho** pelos critérios: viralização · gera expectativa · forte/polêmica. A frase passa pelo guardrail anti-IA do produto (sem travessão, sem frase de robô, PT-BR completo): nada que soe de IA na faixa.
 9. **CTA no final** (se configurado): anexar `config/cta_take.mp4` com transição `xfade=fade:0.7` (sem corte seco). (`scripts/04_build_final.py` faz CTA + música.)
 10. **Música de fundo discreta:** `loudnorm=I=-34:TP=-6:LRA=6` + `volume=0.38`, `amix normalize=0`, fade in/out. NUNCA sobrepõe a fala.
 11. **Export 4K** + salvar na pasta de saída do dono. Abrir pra ele ver.
@@ -77,7 +83,7 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 - **Imagem aprovada = verdade absoluta.** O Veo só ANIMA, não recria. `negativePrompt` obrigatório.
 - **Personagens sempre consistentes** com `config/personagens.json`. Trio (ou elenco fixo) presente em toda cena; extras conforme a fala.
 - Checkpoint: **aprovar as imagens antes de animar.**
-- **Texto na tela passa pelo `soft-anti-ia`** antes de queimar (gancho, faixa, CTA).
+- **Texto na tela passa pelo guardrail anti-IA do produto** (sem travessão, sem frase de robô, PT-BR completo) antes de queimar (gancho, faixa, CTA).
 
 ## CUSTO (referência)
 Veo 720p ~$0,10/s → take de 8s = $0,80. Imagem gpt-image-2 ~$0,165. Vídeo de 60s ≈ 8 takes ≈ **~$8**. As chaves são do dono (paga OpenAI/Google direto).
@@ -87,3 +93,19 @@ Veo 720p ~$0,10/s → take de 8s = $0,80. Imagem gpt-image-2 ~$0,165. Vídeo de 
 - `xfade` exige timebase igual: `settb=AVTB` nos dois lados.
 - Rodar gerações como `.py` em background; baixar vídeo do Veo com `curl -L` + `&key=`.
 - Fontes da faixa do gancho: o `05_hook.py` tenta DejaVu/Liberation (Linux/VPS) primeiro e cai pra Arial/Helvetica no Mac.
+
+## When NOT to use
+- Pediram a IDEIA ou o ROTEIRO do vídeo (o que falar): isso é `soft-conteudo-reels`, aqui o roteiro já tem que existir.
+- Pediram carrossel, slide, banner ou arte estática: `soft-designer`.
+- Pediram só a copy da legenda, do gancho ou do CTA sem produzir o vídeo: escreva a copy e passe pelo guardrail anti-IA do produto (sem travessão, sem frase de robô, PT-BR completo).
+- Estão no app (claude.ai) e querem o MP4 pronto: não renderiza fora do Code. Entregue o plano de cenas + copy em doc e avise que a renderização roda no Code.
+- Não existe gravação talking-head crua pra editar: sem material de entrada não há o que cobrir com b-roll.
+
+## Anti-Patterns
+- Gerar vídeo direto do texto no Veo: o b-roll é image-first (gpt-image-2 depois anima), nunca texto→vídeo.
+- Animar sem o dono aprovar as imagens: aprovação da imagem é checkpoint obrigatório antes do Veo.
+- Deixar o Veo recriar a cena: ele só ANIMA a imagem aprovada, sempre com `negativePrompt`.
+- Pôr b-roll no meio da tela ou cobrindo o apresentador: b-roll fica no rodapé, apresentador inteiro em cima.
+- Música que sobe e cobre a fala: sempre discreta (`loudnorm` + `volume=0.38`, `amix normalize=0`).
+- Queimar texto na tela sem passar pelo filtro anti-IA: gancho, faixa e CTA passam antes.
+- Cortar a frase do gancho na metade pra caber em 5s: pega a frase COMPLETA mesmo passando um pouco.

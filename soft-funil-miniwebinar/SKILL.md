@@ -51,6 +51,8 @@ Função: prende quem é avatar e expulsa quem não é, em 90 segundos.
 - **A.1 Promessa direta + filtragem (45-60s):** promessa quantificada em 1 frase + lista de 5+ perfis específicos do nicho. Abre amplo, nicha do meio pro fim.
 - **A.2 Prova social ancorada (30s):** aponta pra prova externa visível (depoimentos, prints), "pode pausar e olhar agora". Prova ANTES do problema antecipa autoridade.
 
+**Exemplo do Bloco A.1 em prosa (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia):** *"Nesse vídeo eu vou te mostrar como tirar [A CONFIRMAR] do seu tempo de 10km sem o joelho cobrar a conta, treinando menos vezes na semana do que você treina hoje. Esse vídeo é pra você que corre 10km de fim de semana, que treina pra primeira meia-maratona, que voltou a correr depois dos 40, que sente dor no joelho depois do treino longo, que já fez de tudo pra baixar o tempo e empacou."* Repare: promessa quantificada em 1 frase (o número entra como `[A CONFIRMAR]` até o cliente confirmar), depois a lista de 5 perfis específicos do nicho que filtra reconhecimento múltiplo. Abre amplo, nicha do meio pro fim.
+
 Roda o gate por dentro. Entrega SÓ a fase LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta. PARA e espera o OK.
 
 ## Passo 3, escreve a fase DIAGNÓSTICO (1:30-3:00) e PARA
@@ -83,6 +85,10 @@ Entra DEPOIS do roteiro fechado e aprovado, quando o cliente pede o deck. **Pré
 
 - **Projeta os 12 blocos nos beats do deck, na ordem-lei.** Não reordena os blocos; pode **expandir** um bloco em mais de um slide quando a fala pede respiro. A ordem das fases é a mesma do roteiro (Atenção → Diagnóstico → Mecanismo → Ação).
 - **REGRA DE OURO (a espinha do deck):** a copy falada mora na NOTA; a tela recebe só o reforço (1 frase OU 1 número OU 1 imagem-conceito). **Pergunta-teste por slide:** "dá pra narrar lendo só a tela?" Se sim, está errado, joga o texto pra nota.
+
+**Par slide RUIM x BOM (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia).** O Bloco I.1 fala: *"você abre o ateliê, posta a peça nova, responde curioso no direct, e no fim do mês vendeu três vasos pra três amigas e ninguém mais. O movimento existe, a venda não."*
+  - **RUIM (teleprompter público):** a tela mostra o parágrafo inteiro digitado. A pessoa lê em 3 segundos, conclui antes da fala, e a voz vira eco do que ela já leu.
+  - **BOM (reforço único):** fundo preto, uma frase só na tela, **"Movimento existe. Venda não."**. O parágrafo inteiro mora na nota. O olho não tem o que ler além do gancho, volta pra voz, onde a dor está sendo amplificada.
 - **Arquétipo pela função do beat:** respiro (tela preta, 1 frase) em toda virada de fase · capa/big-idea na abertura · número-gigante só com número real · dicotomia semafórica (vermelho=medo primeiro, verde=desejo) · storytelling-de-dor (1 cena por slide) · reveal progressivo SIMPLES do mecanismo (peça a peça) · manifesto-tese · CTA com destino. A ref traz o catálogo enxuto com molde e exemplo de nicho fictício.
 - **CALIBRAGEM MINI:** deck ENXUTO de **~12 a 20 slides** (não 72), porque o mini-webinar é ~10 min e degrau 1. **Sem a maquinaria de stack/preço de oferta** (a Ação CONVIDA pro 1:1, não fecha no checkout). Persegue o RITMO (respiro preto em toda virada), não uma contagem-alvo. Reserva a zona da câmera na nota. Tela legível no celular.
 - **Dois caminhos de saída:** no Claude **Code**, monta o array JSON no schema do `deck_gen.py` (campo `nota` = copy falada) e gera o `.pptx`; no Claude **Chat**, descreve slide a slide com o ID visual e gera o PDF direto. Mesmo deck conceitual, só muda o motor de render.

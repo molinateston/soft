@@ -1,6 +1,6 @@
 ---
 name: soft-posicionamento
-description: "Constrói o Plano de Posicionamento Incomum COMPLETO, a FUNDAÇÃO do método Soft (Posicionamento, o quê, junto da Voz, o como). Entrega o Racional, o Grande Dominó (a tese-mãe que vende), o Mecanismo do Problema + as crenças a quebrar, o Mecanismo da Solução (novo mecanismo único nomeado), a Oferta com PUV, 2 saídas (Perfil Enxuto, Fundação de Headlines) e os 5 elementos de Voz. Vira o cérebro do LEON do cliente. Combina deep-research com entrevista estratégica e conduz por perguntas. Use quando o pedido for posicionamento, plano de marca, reposicionamento, construir ou nomear método, proposta de valor, oferta, PUV, perfil, bio, cliente ideal, problema avançado, tom de voz, minha voz não soa minha, narrativa, pilares de conteúdo. NÃO use pra a HEADLINE em si da peça, vai pra skill soft-conteudo-headlines; NÃO use pro CORPO da peça (carrossel, reel, stories), vai pra soft-conteudo; NÃO use pra carta, VSL ou funil, vai pra soft-funil; NÃO use pro script de venda, vai pra soft-vendas."
+description: "Constrói o Plano de Posicionamento Incomum COMPLETO, a FUNDAÇÃO do método Soft (Posicionamento, o quê, junto da Voz, o como). Entrega o Racional, o Grande Dominó (a tese-mãe que vende), o Mecanismo do Problema + as crenças a quebrar, o Mecanismo da Solução (novo mecanismo único nomeado), a Oferta com PUV, 2 saídas (Perfil Enxuto, Fundação de Headlines) e os 5 elementos de Voz. Vira o cérebro do LEON do cliente. Combina deep-research com entrevista estratégica e conduz por perguntas. Use quando o pedido for posicionamento, plano de marca, reposicionamento, construir ou nomear método, proposta de valor, oferta, PUV, perfil, bio, cliente ideal, problema avançado, tom de voz, minha voz não soa minha, narrativa, pilares de conteúdo. NÃO use pra a HEADLINE em si da peça, vai pra skill soft-conteudo-headlines; NÃO use pro CORPO da peça (carrossel, reel, stories), vai pra soft-conteudo-*; NÃO use pra carta, VSL ou funil, vai pra soft-funil-*; NÃO use pro script de venda, vai pra soft-vendas."
 ---
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -15,7 +15,7 @@ O entregável-mãe é **um documento só, o Plano de Posicionamento Incomum comp
 - **Bloco 2 · Mecanismo (o coração):** o **Mecanismo do Problema** (por que ele está preso: o Problema Avançado e tudo em volta, explicado na causa, não só descrito) + o **Mecanismo da Solução** (o novo mecanismo único, nomeado, que explica por que funciona e é a melhor opção; a explicação pode ser pilar, premissa, característica OU passo, desde que desejável, vendável e contraponha as crenças, ocupando o maior espaço mental do lead). Não force "passo 1, 2, 3".
 - **Bloco 3 · Oferta:** PUV (proposta única de valor) · Equação de Valor (4 fatores) · cada entregável detalhado · entregável-tese · Mapa de Valor (âncora) · ancoragem · níveis de acesso (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada · custo invisível · garantia · o racional de cada escolha.
 - **Saída 1 · Perfil Enxuto:** @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
-- **Saída 2 · Fundação de Headlines:** o NMO destilado em frases-fonte que alimenta `soft-conteudo`.
+- **Saída 2 · Fundação de Headlines:** o NMO destilado em frases-fonte que alimenta `soft-conteudo-headlines`.
 
 **Parte B · Voz** (5 elementos, observados não prescritos)
 - **Tom destilado** · **Narrativa pessoal** · **Bastidor estratégico** · **Valores e anti-valores** · **Pilares de conteúdo**.
@@ -86,7 +86,7 @@ Todo texto obedece o `CODIGO-DE-ESCRITA.md`: lente da percepção (o mercado nã
 - **Bloco 2 · Mecanismo** (o coração, ocupa o maior espaço mental): o **Mecanismo do Problema** (por que ele está preso) + as **crenças/objeções a quebrar** (mapeadas) + o **Mecanismo da Solução** (o novo mecanismo único nomeado que explica por que funciona; forma livre, pilar/premissa/característica/passo, desde que desejável, vendável e contraponha as crenças). Não force passo-a-passo.
 - **Bloco 3 · Oferta**, abre pela **PUV**; uma oferta em **níveis de acesso** (Faz Sozinho / Faço Com Você / Faço Por Você) + porta de entrada. Engenharia completa (anti-raso da Oferta acima).
 - **Saída 1 · Perfil Enxuto**, @, Nome-SEO, Bio falada, 3 destaques (Problema · Método · Clientes).
-- **Saída 2 · Fundação de Headlines**, destilação do NMO (alimenta `soft-conteudo`).
+- **Saída 2 · Fundação de Headlines**, destilação do NMO (alimenta `soft-conteudo-headlines`).
 
 **Parte B, Voz** (os 5 elementos, direcionados à persona do Bloco 1; observados, não prescritos):
 1. **Tom destilado** · 2. **Narrativa pessoal** · 3. **Bastidor estratégico** · 4. **Valores e anti-valores** · 5. **Pilares de conteúdo**. A voz natural que já existe, amplificada, nunca arquétipo de catálogo.
@@ -147,10 +147,10 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 
 ## When NOT to use (manda pra skill certa)
 - Pediu a **HEADLINE/gancho/abertura** de uma peça → **soft-conteudo-headlines** (esta skill só entrega a *Fundação de Headlines*, as frases-fonte, não a headline final).
-- Pediu o **CORPO da peça** (carrossel, reel, stories, calendário, design de slides) → **soft-conteudo**.
-- Pediu **carta de vendas, VSL, landing, micro-aula, isca, captura** → **soft-funil**.
+- Pediu o **CORPO da peça** (carrossel, reel, stories, calendário) → **soft-conteudo-*** (carrossel/reels/stories/multiplataforma); design de slides → **soft-designer**.
+- Pediu **carta de vendas, VSL, landing, mini-webinar, isca, captura** → **soft-funil-*** (carta/landing/miniwebinar/isca).
 - Pediu **script de venda, objeção, fechamento, prospecção, follow-up** → **soft-vendas**.
-- Pediu **webinário / perpétuo** → **soft-webinar-plano**; **lançamento pago / Sala Secreta** → **soft-lancamento-pago**.
+- Pediu **webinário / perpétuo** → **soft-webinar-plano/-script** (a irmã de webinar certa pra fase); **lançamento pago / Sala Secreta** → **soft-lancamento-pago**.
 - Perguntou "por onde começo / próximo passo / que fase tô / valida isso" → **soft-leon** (o orquestrador, que invoca esta mãe na hora certa).
 
 ## Anti-Patterns (sintoma → correção)
@@ -169,4 +169,4 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 | Fez o Plano inteiro de uma vez no chat, sem parar | Conduz por etapa com os 4 STOPs; só monta o doc MD final depois de aprovar os blocos e passar o Crivo |
 
 ## Handoff
-Plano completo (Racional + os 3 blocos NMO + as 2 saídas + os 5 elementos de Voz) = a fundação. Vira o conhecimento do LEON do cliente e a fonte de toda peça da escada: `soft-conteudo` (atração), `soft-funil` (carta/vídeo + Comercial 1:1), `soft-webinar-plano` (webinário perpétuo + Comercial), `soft-lancamento-pago` (Soft Launch + Comercial) e `soft-vendas` (o fechamento 1:1, onde a venda acontece). O LEON (`soft-leon`) é quem invoca esta mãe e cada irmã na hora certa e passa tudo pelo Crivo. Doc vivo: revisar quando muda a oferta principal, a audiência, o inimigo do mercado, ou a narrativa ganha capítulo.
+Plano completo (Racional + os 3 blocos NMO + as 2 saídas + os 5 elementos de Voz) = a fundação. Vira o conhecimento do LEON do cliente e a fonte de toda peça da escada: `soft-conteudo-*` (atração: headlines/carrossel/reels/stories/multiplataforma/impulsionar), `soft-funil-*` (carta/landing/miniwebinar/isca + Comercial 1:1), `soft-webinar-plano/-script` (webinário perpétuo + Comercial), `soft-lancamento-pago` (Soft Launch + Comercial) e `soft-vendas` (o fechamento 1:1, onde a venda acontece). O LEON (`soft-leon`) é quem invoca esta mãe e cada irmã na hora certa e passa tudo pelo Crivo. Doc vivo: revisar quando muda a oferta principal, a audiência, o inimigo do mercado, ou a narrativa ganha capítulo.

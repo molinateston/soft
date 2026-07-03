@@ -1,6 +1,6 @@
 ---
 name: soft-funil-carta
-description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA (Atenção-Diagnóstico-Mecanismo-Ação, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas)."
+description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA (Atenção-Diagnóstico-Mecanismo-Ação, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo-*; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas)."
 ---
 
 # Carta de vendas, o ativo que aquece antes da conversa
@@ -124,6 +124,38 @@ Escreve a peça inteira como **uma fala corrida** na voz do cliente, seguindo o 
 
 **O duplo mecanismo é a marca da Longa:** o mecanismo do PROBLEMA (em D, exonera, "não é culpa sua, é Y") vem ANTES do mecanismo da SOLUÇÃO (em M, a chave proprietária nomeada). Sem o mecanismo-problema, a promessa nova colide com a decepção que o leitor já carrega das tentativas passadas. **Abre `references/blocos-copy.md` na hora de escrever a copy de cada bloco e `references/anatomia-carta-longa.md` pra a ordem dos blocos, o porquê de cada um e como ele se aninha na fase.**
 
+### As fórmulas dos blocos (a matéria-prima)
+A fórmula-raiz de cada bloco, em 1 linha, pra escrever direto sem sair da skill. Condensado de `references/blocos-copy.md` e `references/anatomia-carta-longa.md`; abre a ref quando precisa da variação, do anti-exemplo ou da ordem completa. Cada `[colchete]` é insumo real do briefing (nunca inventado).
+
+| Bloco (fase ADMA) | Fórmula-raiz em 1 linha |
+|---|---|
+| **Hero / Headline** (A) | "Como [resultado desejado] sem [objeção principal], para [perfil específico]." 6 a 14 palavras, zero adjetivo vazio, zero exclamação. |
+| **Sub-head** (A) | 1 a 2 frases que ampliam a promessa OU definem melhor o público; nunca repete a headline. |
+| **Para quem é** (A) | "Este [produto] é pra você se: você já [situação que qualifica] · você tentou [X] e [efeito frustrante]. Não é pra você se: [exclusão]." Filtra na entrada. |
+| **O Problema** (D) | Cena-âncora sensorial do dia com a dor + as tentativas e o efeito colateral de cada uma + o diagnóstico ("não é você, é [inimigo-categoria]"). Inimigo é sempre um sistema ou prática nomeada, nunca pessoa. Respira: 20 a 30% do texto. |
+| **Mecanismo do Problema** (D) | Cadeia causal A->B->C: "[solução A] resolve [sintoma X], não [causa-raiz Y]; quando você faz A, B acontece; quando B acontece, C é inevitável. Não é falta de esforço, é arquitetura." 3 a 5 itens, exonera. |
+| **Método / Mecanismo da Solução** (M) | Declaração do nome ("[Nome]: [síntese de 1 linha]") + contraste ("enquanto o mercado faz X, o [método] faz Y, porque Z") + etapas (nome + função + objeção que quebra, faca aparada, sem passo executável) + frase-síntese isolada. |
+| **Prova social** (M) | "[Nome], [nicho]. Vinha de [situação inicial]. [Resultado concreto com número + prazo]. Sem [objeção que o resultado derruba]." Só verdade documentável; sem prova real, entra como `[CASE: confirmar]`. |
+| **O Produto por dentro** (M) | Por item: "[Nome que remete a vitória] · o que você conquista: [resultado] · o que você usa: [entregável] · onde você chega: [cena]." Benefício, nunca funcionalidade. |
+| **Bônus** (A) | Por bônus: nome com verbo de resultado + o que é (1 linha) + a UMA objeção que mata (tempo / dúvida técnica / medo de não conseguir) + valor unitário pra ancoragem. 2 a 4 no máximo. |
+| **Empilhamento + Oferta / Value stack** (A) | Lista cada componente com sua âncora individual de valor, mata tempo e esforço percebidos, ancora o valor ANTES do preço (custo de não agir); no Soft o NÚMERO do preço fica fora salvo ticket baixo, o fecho é convite pro 1:1. |
+| **Garantia / reversão de risco** (A) | "Se em [prazo] você [fez X e não obteve Y], [o que acontece]. Porque [o que diz da confiança no método]." Condicional (reverte E filtra quem não vai aplicar) é a preferida no Soft; específica e ousada, nunca "satisfação garantida". |
+| **FAQ (as 7 objeções)** (A) | Uma pergunta por objeção, resposta = mini-copy conversacional: "é pra mim?" (perfil preciso) · "funciona mesmo?" (case similar) · "e se não der certo?" (garantia) · "não tenho tempo" (tempo real de implementação) · "é caro" (custo de oportunidade) · "já tentei parecido" (o que muda no mecanismo) · "quero pensar" (nomeia o que não está claro). |
+| **CTA Final** (A) | Headline de decisão ("se você leu até aqui, sabe que é pra você") + resumo em 1 frase + urgência só se real + UM convite firme pro 1:1 pré-explicando o que acontece no WhatsApp. |
+| **P.S. triplo** (A) | P.S. recapitula a oferta e a promessa (2 linhas) · P.P.S. reforça a garantia · P.P.P.S. a urgência honesta (só se existe). É o 2º texto mais lido; comprime o essencial pra quem pulou pro fim. |
+
+### Exemplo-modelo, uma mini-carta inteira (nicho fictício)
+Consultoria de gestão pra dono de restaurante, ticket ~R$3k, método "Mapa de Margem" (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia). Os quatro blocos ADMA em prosa condensada:
+
+> **[A] O restaurante lota e o mês fecha no zero.**
+> Você fatura pela casa cheia no fim de semana e ainda assim, todo dia 30, sobra pouco. Nesta carta eu te mostro por que, em 5 minutos de leitura. Pra dono de restaurante que vende bem e não entende onde o lucro some.
+>
+> **[D] Você já cortou porção, trocou fornecedor, apertou o salgado.** E o lucro continua sumido. Cada corte resolveu um pedaço e nenhum resolveu a conta. Porque a conta que sangra não está na cozinha: está no cardápio. Você precifica pelo custo do prato mais uma margem fixa, do jeito que a planilha do contador manda. Só que o cliente não paga pelo custo, paga pela percepção, e os pratos que mais deixam margem estão escondidos no fim do cardápio. Não é falha sua. É um jeito de montar cardápio que ninguém te ensinou.
+>
+> **[M] O Mapa de Margem reorganiza o cardápio por margem de contribuição, não por custo.** A gente mede prato a prato quanto cada um deixa depois de tudo e reposiciona os campeões pra onde o olho do cliente cai primeiro. Em três restaurantes que aplicaram, o ticket médio subiu sem trocar fornecedor nem mexer no preço de tabela `[CASE: confirmar]`. Você passa a saber, olhando o cardápio, quais pratos defender e quais aposentar.
+>
+> **[A] Se você se reconheceu, o próximo passo é único.** Me chama no WhatsApp: eu primeiro entendo se o seu caso é dos que esse método resolve, e a gente acerta o investimento na conversa. Dois tipos de dono leem até aqui. Um fecha a aba pensando "interessante" e daqui seis meses ainda fecha o mês no escuro. O outro manda mensagem agora. Os dois são legítimos, só um vira a conta.
+
 ## Passo 4, diagrama a carta OU monta o roteiro do VSL
 - **Carta-texto (feita pra virar PÁGINA):** fica entre a carta pura e a página de vendas. Quebra a espinha nas 4 fases pra **leitura solitária**, com **quebra de padrão** (uma virada de ritmo ou de ângulo que tira o leitor do automático) e **quebra visual** (callout, frase isolada, separador, número grande, espaço em branco) a cada bloco, pra a página respirar e segurar a leitura no celular. Parágrafos de 1-3 linhas. Frase isolada só em alto impacto. Pergunta retórica curta a cada 3-5 parágrafos ("Familiar?"). Zero subtítulo dentro de fase. Diagrama caso a caso (callouts, separadores, espaço em branco), o conteúdo decide o visual, sem template fixo. Tom escrito coloquial, não oral transcrito.
   - **Leitura solitária não perdoa:** a carta é lida sozinha, no silêncio, no celular. No vídeo a narração carrega o leitor de uma frase pra outra; na carta o leitor está só com o texto e fecha a aba na primeira frase fraca, genérica ou longa demais. Por isso cada frase tem que puxar a próxima, sem folga.
@@ -166,14 +198,14 @@ No Claude Code, roda `python3 scripts/lint_copy.py` na peça como cinto extra do
 Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela de gate, sem meta. Adiciona o comentário de publicação (como colar no Notion e configurar o link). Pergunta "essa te serve? ajusto?". **Espera o OK** antes de seguir pra próxima etapa ou variação. Não narra o fluxo ("agora vou diagramar"), só entrega limpo.
 
 ## When NOT to use (manda pra skill certa)
-- Pediu **conteúdo de feed** (slides, reel, stories, multiplataforma) → **soft-conteudo**; só a **headline/gancho** → **soft-conteudo-headlines**.
+- Pediu **conteúdo de feed** (slides, reel, stories, multiplataforma) → **soft-conteudo-carrossel/-reels/-stories/-multiplataforma**; só a **headline/gancho** → **soft-conteudo-headlines**.
 - Pediu **landing page completa / sales page** (hero ao botão, 4 arquiteturas, blocos de copy) → **soft-funil-landing**.
 - Pediu **mini-webinar do funil** (vídeo de ~10min em blocos) → **soft-funil-miniwebinar**.
 - Pediu **isca / lead magnet / artigo-isca / captura** → **soft-funil-isca**.
 - Pediu **webinar perpétuo ou ao vivo** → **soft-webinar-plano**.
 - Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
-- Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
+- Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

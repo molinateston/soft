@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-mensagens
-description: "Escreve a SEQUÊNCIA de WhatsApp (canal primário, API oficial) e e-mail (secundário) do webinar Soft que enche a sala e fecha a venda, SEM replay. Cobre a régua de ANTES (cadastro com opt-in, faltam 24h, faltam 1h, link da sala 5 min antes), os 2 toques DURANTE (reativa quem se distraiu, avisa que a oferta abriu) e o PÓS pra quem NÃO comprou (resumo, prova, quebra de objeção, last call, fechamento, downsell ou pergunta de 1 palavra) roteado pela tag de percentual assistido, mais a esteira semanal e o repasse do lead quente pro Comercial 1:1. Use quando o pedido for WhatsApp, e-mails, sequência, lembrete ou follow-up do webinar, faltam 30 minutos, estou ao vivo, link da sala, reconvite, pós-webinar. NAO use pro ROTEIRO/falas (soft-webinar-script); OFERTA/preço/bônus (soft-webinar-plano); página de cadastro/checkout (soft-funil-landing); MÁQUINA de pós com tags e CRM (soft-webinar-mensagens); pacote inteiro (soft-webinar-plano)."
+description: "Escreve a SEQUÊNCIA de WhatsApp (canal primário, API oficial) e e-mail (secundário) do webinar Soft que enche a sala e fecha a venda, SEM replay. Cobre a régua de ANTES (cadastro com opt-in, faltam 24h, faltam 1h, link da sala 5 min antes), os 2 toques DURANTE (reativa quem se distraiu, avisa que a oferta abriu) e o PÓS pra quem NÃO comprou (resumo, prova, quebra de objeção, last call, fechamento, downsell ou pergunta de 1 palavra) roteado pela tag de percentual assistido, mais a esteira semanal e o repasse do lead quente pro Comercial 1:1. Use quando o pedido for WhatsApp, e-mails, sequência, lembrete ou follow-up do webinar, faltam 30 minutos, estou ao vivo, link da sala, reconvite, pós-webinar. A MÁQUINA de pós (timestamp, tags no CRM, marcos de %, roteamento) é escopo DESTA skill, no Passo 4. NAO use pro ROTEIRO/falas (soft-webinar-script); OFERTA/preço/bônus (soft-webinar-plano); página de cadastro/checkout (soft-funil-landing); pacote inteiro (soft-webinar-plano)."
 ---
 
 # Mensagens do webinar, a régua que enche a sala e fecha a venda
@@ -83,7 +83,6 @@ Esta sequência, e só esta, **nos dois modos**. **Não existe replay** - nada d
 - Insumo que falta = `[A CONFIRMAR: o quê]` no lugar exato (Lei 5).
 - Saída = só as mensagens (canal+timing+trabalho+corpo). Zero meta, zero bastidor (Lei 6).
 
-
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
@@ -165,7 +164,7 @@ A regra que muda tudo: **"lead quente é quem viu a sua OFERTA, não quem viu vo
 | Ficou até o fim | **máximo** | Lead mais quente sem ter comprado: **contato humano direto, prioridade máxima.** |
 | Comprou | cliente | **Sai de TODAS as sequências** e vai pro onboarding. |
 
-(A montagem da máquina - marcos, tags, roteamento de CRM - é da **soft-webinar-mensagens**; aqui você usa a tag pra decidir QUAL mensagem cada faixa recebe.)
+(A montagem da máquina - marcos, tags, roteamento de CRM - é escopo DESTA skill: você a monta no checklist técnico do Passo 8; aqui você usa a tag pra decidir QUAL mensagem cada faixa recebe.)
 
 ### 4b. A régua de fechamento (pra quem viu a oferta ou ficou até o fim)
 
@@ -197,6 +196,51 @@ Quem não fecha nas primeiras 72h cai numa cadência semanal sincronizada - cria
 ### 4d. O reconvite puxa pro Comercial 1:1
 
 Quem responde o WhatsApp vira lead quente: abre conversa humana, **nunca resposta automática** (e a resposta reabre a janela de 24h). Quem ficou até o fim sem comprar = lead mais quente, contato direto, prioridade máxima. Alto ticket fecha no 1:1, nunca no checkout. (A venda em si é da **soft-vendas**.)
+
+## 3 mensagens-modelo (o molde na mão; a fonte cheia é a reference)
+
+Modelos condensados de `references/sequencias-email-whatsapp-pre-pos.md`. Troca só o recheio pelo nicho, mantém o esqueleto. Cada exemplo instanciado leva o rótulo *(exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia)*.
+
+**A. WhatsApp, link da sala (Passo 2, faltam ~5 min) [TEMPLATE]** - só WhatsApp, nunca e-mail:
+```
+Ei [nome], a [aula] vai começar!
+Já tem gente na sala, só falta você. Vem:
+LINK DA SALA: [URL individual do lead]
+Começa em 5 min. Entra agora que eu já vou ao ar.
+Qualquer problema, me responde aqui que eu te ajudo.
+```
+*(exemplo: "Ei Marina, a Aula Sniper vai começar! Já tem gente na sala, só falta você...")*
+
+**B. E-mail do ANTES (Passo 2, faltam 24h)** - assunto-curiosidade + insight real + bullets reaquecidos:
+```
+Assunto: Amanhã, [hora] - [ângulo curioso, nunca "sua inscrição confirmada"]
+[nome], amanhã às [hora] a gente se vê. Antes, um pedaço do método
+pra você chegar com contexto:
+[insight real de 3-4 frases: um pedaço do conteúdo que abre um loop]
+3 coisas que separei pra amanhã:
+✓ [bullet 1 da página] ✓ [bullet 2] ✓ [bullet 3]
+Prepara: dispositivo carregado, 60 min sem interrupção, [objeto do nicho].
+Não vou liberar replay. Quem ficou pra trás esse mês perdeu mesmo.
+[assinatura]
+P.S.: confirma teu WhatsApp - o link da sala vai por lá 5 min antes.
+```
+*(exemplo: assunto "Amanhã, 19h - o número que muda como você procura emprego"; insight = "recrutador olha um currículo por 6 segundos antes de decidir")*
+
+**C. E-mail do PÓS por objeção (Passo 4, ~24h depois)** - nomeia a objeção nº 1 do chat e a inverte:
+```
+Assunto: "[objeção nº 1 literal do chat]"
+[nome], a objeção que mais apareceu no chat ontem: "[objeção]".
+Eu entendo. Mas olha a armadilha: [inversão - o jeito ERRADO é o que
+custa caro; responde o estado de quem decide, não a frase literal].
+Por isso o método foi desenhado pra esse caso:
+- [recurso 1 que resolve] - [recurso 2] - [recurso 3]
+Se essa era a tua, agora você sabe que não é.
+Checkout: [URL] · [bônus de ação rápida] vale até [hora].
+[assinatura]
+```
+*(exemplo: objeção "não tenho tempo"; inversão = "o método que você usa hoje É o que consome seu tempo, não a mudança")*
+
+Regra dura dos 3: a objeção vem do chat REAL (sem dado, `[A CONFIRMAR]`), o insight é conteúdo de verdade, o número é real. Nunca inventa.
 
 ## Passo 5, princípios de copy por canal (aplica em toda mensagem)
 
@@ -272,10 +316,11 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 | OFERTA, preço, bônus, garantia | soft-webinar-plano |
 | Página de cadastro/obrigado/checkout/VSL | soft-funil-landing (ou soft-funil-carta) |
 | PLANO ou esqueleto ADMA | soft-webinar-plano |
-| MÁQUINA de pós (timestamp, tags no CRM, marcos de %, roteamento por ticket) | soft-webinar-mensagens |
 | Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas |
 | Anúncio do webinar / headline de feed | soft-conteudo-impulsionar / soft-conteudo-headlines |
 | Pacote inteiro do webinar | soft-webinar-plano |
+
+**A MÁQUINA de pós (timestamp da oferta, tags no CRM, marcos de %, roteamento por tag) FICA AQUI**, é escopo desta skill: a régua usa a tag no Passo 4 e você monta o encanamento no checklist do Passo 8. Não roteia pra lugar nenhum.
 
 ## Anti-Patterns (sintoma → correção)
 

@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-multiplataforma
-description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion) sem diluir a tese. Não traduz tom, faz engenharia reversa, extrai os 5 papéis e o núcleo da peça-âncora e re-renderiza no idioma nativo do destino, mantendo o gate da peça original. Use quando o pedido for "repurpose", "adaptar pra LinkedIn", "pra X", "pra Threads", "pra YouTube", "pra newsletter", "pra email", "multiplataforma", "republicar a peça", "transformar esse carrossel em [outro formato]". NÃO use pra escrever a HEADLINE/gancho/capa/abertura do zero (soft-conteudo-headlines), nem pra arte/PNG/visual (soft-designer), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/página/venda (soft-funil). Pra criar o CORPO original de carrossel/reel/stories no Instagram, são as skills irmãs soft-conteudo-carrossel/-reels/-stories.
+description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion) sem diluir a tese. Não traduz tom, faz engenharia reversa, extrai os 5 papéis e o núcleo da peça-âncora e re-renderiza no idioma nativo do destino, mantendo o gate da peça original. Use quando o pedido for "repurpose", "adaptar pra LinkedIn", "pra X", "pra Threads", "pra YouTube", "pra newsletter", "pra email", "multiplataforma", "republicar a peça", "transformar esse carrossel em [outro formato]". NÃO use pra escrever a HEADLINE/gancho/capa/abertura do zero (soft-conteudo-headlines), nem pra arte/PNG/visual (soft-designer), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/página/venda (soft-funil-carta / soft-funil-landing). Pra criar o CORPO original de carrossel/reel/stories no Instagram, são as skills irmãs soft-conteudo-carrossel/-reels/-stories.
 ---
 
 # Multiplataforma, a mesma peça em idioma nativo
@@ -75,12 +75,31 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 | **TikTok / Shorts** | 0-3s | 3-6s | 6-12s | 12-40s | 40-50s |
 | **Mini Webinar** | abertura 0-30s | 30s-1min | 1-2min | corpo 2-8min | fechamento com convite |
 
+**Regras nativas por destino (o resumo; a reference tem o resto).** Cada linha: o limite que aperta a peça, a regra crítica que a maioria erra, e o formato do CTA.
+
+| Destino | Limite duro | Regra crítica (a que erra) | Formato do CTA |
+|---|---|---|---|
+| **LinkedIn** | 150 char antes do "ver mais"; post 900-1200 char | zero link externo no corpo (perde 60% de reach); comentário pesa 15x mais que like | "comenta [PALAVRA] que te mando a Carta" ou DM do LinkedIn |
+| **X / Threads** | 280 char por post; frase 100-240 char | frase isolada é a unidade de valor: escreve pra gerar quote-retweet, não só like | "responde aqui embaixo" ou "link no perfil" |
+| **Substack / newsletter** | subject <50 char, pre-header <80 char; corpo 400-700 palavras | 1ª linha é o 2º gancho, nunca "oi tudo bem"; PS no fim é obrigatório | link pra Carta ou "assina" (Substack); nunca "curte" |
+| **Email** | subject <50 char, pre-header <80 char; corpo 400-700 palavras | permite link (ao contrário do LinkedIn); PS obrigatório com urgência ou objeção | link pra Carta ou responder o email |
+| **YouTube longo** | roteiro 8-12min; descrição 1000+ char; tags <500 char; capítulos 10+ | a cauda de publicação é 60% do trabalho: título+thumb são gatekeepers do CTR | Carta/WhatsApp + inscrição no canal, no fim e no 1º comentário fixado |
+| **PDF / Notion** | 5-7 páginas (PDF); subpágina por capítulo (Notion) | entrega valor real mas mantém desejo: filtra a gente errada no meio, nunca resolve tudo | Mini Carta / reunião / Direct no fechamento; nunca "me segue" |
+| **TikTok / Shorts** | 15-35s ideal; 9:16 vertical; legenda 1 linha | retention 70%+ no 1º 3s (gancho visual+texto+verbal) senão o algoritmo suprime; loop natural | "comenta [PALAVRA] que eu respondo" ou "link na bio" |
+
 **Abre a reference da plataforma e segue as regras nativas dela** (formato, limites, exemplos, SEO/UTM). Não adapta de cabeça: a reference tem as regras que mudam a peça:
 - LinkedIn → `references/plataforma-linkedin.md` · X/Threads → `references/plataforma-x-threads.md` · Substack/Email → `references/plataforma-substack-email.md`
 - TikTok/Shorts → `references/plataforma-tiktok-shorts.md` · YouTube longo → `references/plataforma-youtube-longo.md` (traz o **pacote completo de publicação**: título, descrição, tags, capítulos, thumbnail, SEO, UTM)
-- PDF/Notion → `references/plataforma-pdf-notion.md` · Mini Webinar → `references/plataforma-mini-webinar.md` (distribuição/hospedagem; a construção do roteiro é da `soft-funil`)
+- PDF/Notion → `references/plataforma-pdf-notion.md` · Mini Webinar → `references/plataforma-mini-webinar.md` (distribuição/hospedagem; a construção do roteiro é da `soft-funil-miniwebinar`)
 
 **Idioma nativo, não copia-cola do Instagram.** LinkedIn e email são armadilha pra jargão de marketing: zero "lead/funil/ticket/conversão", sempre o campo semântico do cliente final. No formato curto (tweet único, email brevíssimo), papéis podem colapsar de propósito (Manifesto = Capa+CTA · Sentença = só Capa · Único = 1 unidade faz tudo). Colapso consciente não é traição da estrutura; perder um papel sem querer, sim.
+
+**Mini-exemplo de re-render** (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia). O MESMO slide de capa de um carrossel migra pro limite de cada destino sem perder a tese:
+- **Slide de carrossel (âncora):** "Você não tem problema de agenda. Tem problema de agenda cheia de cliente errado."
+- **1ª linha de post LinkedIn** (cabe nos 150 char, polariza antes do "ver mais"): "Agenda cheia não é o objetivo. Agenda cheia de cliente errado é o que te mantém preso."
+- **Subject de e-mail** (<50 char, derivado do mesmo gancho): "Sua agenda cheia é o problema". Pre-header: "Cheia do cliente errado, não do certo."
+
+A tese ("cliente errado, não falta de cliente") viaja inteira; muda só o tempo de exposição e a unidade.
 
 **Se o destino for YouTube longo**, entrega também o pacote de publicação: título, descrição, capítulos, tags, sugestão de thumbnail.
 
@@ -111,7 +130,7 @@ Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peç
 - Pediu **arte/visual/PNG** da versão adaptada → **soft-designer**.
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
 - Pediu o **CORPO original** de carrossel/reel/stories no Instagram → **soft-conteudo-carrossel / -reels / -stories**.
-- Pediu **carta / página de vendas / VSL / micro-aula** → **soft-funil**.
+- Pediu **carta / VSL** → **soft-funil-carta** · **página de vendas / captura / obrigado** → **soft-funil-landing** · **mini webinar** → **soft-funil-miniwebinar**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

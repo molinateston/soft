@@ -121,6 +121,9 @@ Atalho: se já é óbvio qual skill, **aponta direto** (pula o mapa) e manda abr
 | banner/anúncio pra encher o webinar | `soft-conteudo-headlines` + `soft-designer` |
 | gravar/perpetuar o webinar | dentro de `soft-webinar-script` (a aula) |
 | lançamento pago, Soft Launch (degrau 3, parqueado) | `soft-lancamento-pago` |
+| proposta comercial premium pós-call (site/link privado) | `soft-proposta-comercial` |
+| editar vídeo, reels com b-roll, cobrir/cortar gravação | `soft-editor-video` |
+| apostila, material/handout de aula gravada | `soft-apostila` |
 | CEO, gestão, sócio, contratar, caixa, crise | LEON carrega: `references/ceo.md` |
 | produtividade, procrastinação, foco | LEON: `references/produtividade.md` |
 | rotina, A Conta, esteira, calendário | LEON: `references/rotina.md` |
