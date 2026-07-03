@@ -26,4 +26,4 @@ Isca capturou o lead → entra no **Funil Soft** (Carta/mini webinar, a skill `s
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-A página de captura e a sequência de nutrição passam pelo Crivo embutido (`shared-references/crivo/`): ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do Harry + a Ação/CTA com destino real) → anti-IA. Peça que falha não sai. Mesma régua de toda copy do método.
+A página de captura e a sequência de nutrição passam pelo Crivo embutido (`shared-references/crivo/`): ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do gate + a Ação/CTA com destino real) → anti-IA. Peça que falha não sai. Mesma régua de toda copy do método.

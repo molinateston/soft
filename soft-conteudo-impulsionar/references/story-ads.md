@@ -29,6 +29,17 @@ O jeito Soft de atrair seguidor qualificado via story impulsionado. Este referen
 
 No Soft, o story ad entra quando o objetivo é **atrair seguidor qualificado** (função Atração do Passo 2), não capturar lead direto. Ele alimenta o topo; a nutrição (feed) retém, e as jogadas de conversão fazem a venda.
 
+## As 2 camadas do ad (atração ≠ conversão)
+
+Um anúncio Soft é de uma de duas camadas, e a régua muda por camada:
+
+| Camada | CTA | Como faz o trabalho | Filtro anti-órfã (destino) |
+|---|---|---|---|
+| **ATRAÇÃO** (o story ad) | **SEM CTA** (não prometa, não convide) | a **segmentação** entrega pra pessoa certa; a afirmação solta puxa a visita ao perfil | **NÃO se aplica:** o ad de atração é CTA-less por desenho, não precisa de destino; o filtro anti-órfã NÃO o reprova |
+| **CONVERSÃO** (carrossel 3C, reel com hook, oferta direta) | **CTA com destino, SEM exceção** | leva a um destino no ar (Mini Carta, isca, DM com palavra, checkout) | **obrigatório:** ad de conversão sem destino é órfão, reprova |
+
+Ou seja: o story ad não parece anúncio de propósito, e o filtro que cobra "onde o lead clica" existe pro ad de CONVERSÃO, nunca pro de atração.
+
 ---
 
 ## O princípio: jogo de associação e repetição
@@ -109,3 +120,4 @@ Sem interesse secreto. Segmenta pelo perfil de cliente ideal com **interesses ó
 - **Alinhamento, não ostentação.** A associação mostra a vida que a promessa entrega (liberdade, tempo, resultado real), não conta de restaurante. Ostentação vazia atrai o público errado e reprova no filtro cliente-primeiro.
 - **A copy passa pelos filtros mesmo sendo curta.** Afirmação solta ainda passa pelo anti-ia (zero jargão de fora, voz do cliente) antes de ir pro impulsionamento.
 - **Story ad atrai, não vende.** Ele enche o topo de seguidor qualificado; a venda mora nas jogadas de conversão (`estrategias-de-campanha` no `soft-leon`) e no Comercial 1:1 (`soft-vendas`). Não cobra do story ad o que é papel do resto do funil.
+- **O filtro anti-órfã não reprova o ad de atração.** O ad de atração é CTA-less por desenho (a segmentação faz o trabalho), então a régua "sem destino = órfão" vale só pro ad de CONVERSÃO. Cobrar CTA/destino de um story ad quebra justamente a camuflagem que o faz funcionar.

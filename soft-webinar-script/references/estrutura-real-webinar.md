@@ -1,6 +1,6 @@
 # Estrutura Real do Webinar (modelada do material do Leo)
 
-> **O que é este doc.** A especificação da estrutura REAL do webinário do Léo, consolidada de três estudos: (1) a destilação do webinário do próprio Léo ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da MindMaster (Denison Vieira), a máquina-mãe que o Léo modelou; (3) a doutrina Marco Enes (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
+> **O que é este doc.** A especificação da estrutura REAL do webinário do Léo, consolidada de três estudos: (1) a destilação do webinário do próprio Léo ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da MindMaster (Denison Vieira), a máquina-mãe que o Léo modelou; (3) a doutrina do método (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
 >
 > **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes (Guilherme Reginatto, Natália Fischer). É o gabarito que o `soft-webinar-plano` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
@@ -131,7 +131,7 @@
 > Objetivo: instalar uma **NOVA OPORTUNIDADE** (não uma melhoria). Termina no "EU QUERO".
 > **Regra de ouro de altitude (a "Faca Soft"):** *"Você ensina o QUÊ e o PORQUÊ. Nunca o COMO executável. O 'como' está pago, dentro do produto. Loop aberto, carteira fechada."*
 
-### Como ele EXPLICA (a doutrina Marco Enes / Fladlien)
+### Como ele EXPLICA (a doutrina webinar de referência)
 Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por que importa · me prova · exemplo.** Cada peça de prova = 1 slide ("1 caso = 1 slide", porque cada CASO é um ASSUNTO próprio). Isto NÃO é "1 item de lista = 1 slide": os itens de uma MESMA lista/stack ficam num slide só, revelados por clique na mesma tela. A profundidade é REAL (o espectador entende de verdade), mas o COMO executável fica pago. **A sobrecarga é projetada:** *"Não pode ter pressa, vamos digerir que é bastante conteúdo."* (do gestão ágil), o tour 80/20 funciona como catálogo disfarçado de aula, onde cada corpo de conhecimento = um módulo do produto.
 
 ### Estrutura real (a ordem dos beats)
@@ -245,7 +245,7 @@ Tela final roda ~5 min com oferta + mais um depoimento + botão. Recuperação p
 
 ---
 
-## A DOUTRINA TRANSVERSAL (Marco Enes, listas, caixinhas, dopamina)
+## A DOUTRINA TRANSVERSAL (listas, caixinhas, dopamina)
 
 Vale em TODAS as fases. **LISTA é a unidade-base da fala.** A doutrina explícita do curso (Lição 8 do Módulo 3):
 

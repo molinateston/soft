@@ -325,7 +325,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 ### 6c. Bônus, garantia & queda final: slides 57–65
 
 - **S57: Bônus 1, "não tem preço": escapa da régua numérica (M8).**
-  - *EXEMPLO (gestão/13M, → bloco 09):* a mentoria quinzenal com reason-why de custo ANTES de ser doada: "a gente cobra essas mentorias R$9.100… custo do professor, custo de estar ali a cada 15 dias… **e pra essa turma vai ser bônus, de graça**." *Porquê:* o bônus precificado vira contabilidade (não retórica) e constrói a âncora que a queda final vai derrubar. (Fladlien: bônus convertem mais que a oferta, merecem tempo de palco.)
+  - *EXEMPLO (gestão/13M, → bloco 09):* a mentoria quinzenal com reason-why de custo ANTES de ser doada: "a gente cobra essas mentorias R$9.100… custo do professor, custo de estar ali a cada 15 dias… **e pra essa turma vai ser bônus, de graça**." *Porquê:* o bônus precificado vira contabilidade (não retórica) e constrói a âncora que a queda final vai derrubar. (webinar de referência: bônus convertem mais que a oferta, merecem tempo de palco.)
 
 - **S58: Bônus 2, "não tem preço": segundo empilhamento.**
  - *EXEMPLO (template):* "Bônus 2 - não tem preço." *Porquê:* "não tem preço" escapa da régua numérica, a palavra enquadra o valor (M8) onde o número limitaria.
@@ -335,7 +335,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 - **S60: SUPER GARANTIA (inversão de risco, "experimente por 7-15-30 dias").**
   - *Função:* inversão de risco; "experimente" sugere ganho, não defeito. **Decisão Soft: garantia = cardápio** (escolher a camada por nicho).
-  - *EXEMPLO (Fladlien #2, → bloco 11):* dupla camada, "**any reason or no reason** in the first 30 days, no questions asked" + "**double your money back** em 60 dias se você seguir um método e não dobrar o investimento." com reason-why atuarial: "I know the numbers." *Porquê:* a camada incondicional cobre o cético raso; a condicional de resultado cala o cético profundo, "remove every possibility for you to fail, then what is left? Only success."
+  - *EXEMPLO (webinar de referência #2, → bloco 11):* dupla camada, "**any reason or no reason** in the first 30 days, no questions asked" + "**double your money back** em 60 dias se você seguir um método e não dobrar o investimento." com reason-why atuarial: "I know the numbers." *Porquê:* a camada incondicional cobre o cético raso; a condicional de resultado cala o cético profundo, "remove every possibility for you to fail, then what is left? Only success."
   - *EXEMPLO (nutrição, pele Soft, → bloco 11; verbatim, contém anti-voz dentro da citação):* "90 dias botando o método em prática… se não teve resultado, vou te dar uma consultoria individual que custa R$3.000, de graça, **para você conseguir destravar teus resultados**… [se ainda não tiver resultado] eu devolvo teu dinheiro e te dou o dobro." *Porquê:* as condições da garantia SÃO o protocolo de implementação, a garantia é um mecanismo de sucesso disfarçado. *Slot:* a unidade de aplicação muda por nicho.
 
 - **S61: "O que eu mais amo é receber os resultados de vocês": ponte emocional.**

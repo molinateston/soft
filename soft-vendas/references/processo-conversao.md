@@ -3,7 +3,7 @@
 
 O terceiro Guia do Soft Business, a conversa que fecha. O lead chega no WhatsApp **aquecido** pela Carta ou pelo Vídeo: já entendeu o método, já viu o valor. Não está convencido, está **aberto**. A conversa ainda fecha: remove a última objeção e confirma o desejo. Esta skill é o **processo de conduzir essa venda**: como aplicar as 7 fases no WhatsApp, na call ou na reunião.
 
-> Filtra E convence. O Funil filtrou e aqueceu; a conversa confirma a decisão e remove o que falta. Ticket de entrada pode fechar no texto, sem call. Ticket alto fecha na conversa. Em nenhum dos dois a venda se fecha sozinha, alguém conduz.
+> Filtra E convence. O Funil filtrou e aqueceu; a conversa confirma a decisão e remove o que falta. **O canal do fechamento é do FUNIL, não do ticket:** nos funis comerciais (carta, jogadas de campanha, prospecção, mentoria) a regra é fechar o 1:1 na **DM/WhatsApp** (chat com áudio/doc/vídeo curto); a call é exceção de contexto. Em nenhum caso a venda se fecha sozinha, alguém conduz.
 
 ---
 
@@ -11,7 +11,7 @@ O terceiro Guia do Soft Business, a conversa que fecha. O lead chega no WhatsApp
 
 O método de vendas **vive no Cap 10, não nesta reference.** Na primeira invocação da sessão, leia:
 
-- **`guia/10-vendas-consultivas.md`** (Cap 10 · Vendas Consultivas), **a fonte da verdade.** Lá vivem: a cabeça do vendedor (10.3), os 4 princípios de quem fecha (10.4), as premissas dos grandes vendedores que operam por trás (10.5), **a espinha de 7 fases** (10.6), o Filtro Soft (10.7), o mapa de canal por ticket (10.8), **a mecânica do diagnóstico que revela sem inflar** (10.10-A, escada socrática, diagnóstico visual, pit invertido, antecipação de objeção e a linha ética *revelar dor real ✓ / inventar dor ✗*), o roteiro fase a fase com as falas prontas (10.10), **o termômetro** (Fase 3), **o Isolamento** (Fase 6), **o catálogo de objeções no tom Soft** (10.11), **as frases de poder por situação** (10.12) e os 3 níveis no fechamento (10.13).
+- **`guia/10-vendas-consultivas.md`** (Cap 10 · Vendas Consultivas), **a fonte da verdade.** Lá vivem: a cabeça do vendedor (10.3), os 4 princípios de quem fecha (10.4), as premissas dos grandes vendedores que operam por trás (10.5), **a espinha de 7 fases** (10.6), o Filtro Soft (10.7), o mapa de canal (10.8, o canal é do FUNIL, não do ticket: DM/WhatsApp por padrão, call/SDR só por exceção de contexto), **a mecânica do diagnóstico que revela sem inflar** (10.10-A, escada socrática, diagnóstico visual, pit invertido, antecipação de objeção e a linha ética *revelar dor real ✓ / inventar dor ✗*), o roteiro fase a fase com as falas prontas (10.10), **o termômetro** (Fase 3), **o Isolamento** (Fase 6), **o catálogo de objeções no tom Soft** (10.11), **as frases de poder por situação** (10.12) e os 3 níveis no fechamento (10.13).
 - `guia/01-filosofia.md`, a régua de tudo: *o cliente entende e confia mais rápido*, e a filosofia **filtra-não-só-convence**.
 
 Esta skill é o **processo de execução**, como conduzir a venda num canal real. As **definições, fases, falas, objeções e frases de poder** estão no Cap 10; não as duplique aqui, consulte-as. **Os valores que aparecem nas falas do guia (R$5.000, 12x R$500, Soft Start R$497–997 etc.) são exemplo ilustrativo, cada especialista usa os próprios preços, definidos pela Equação de Valor no Cap 2.**
@@ -24,7 +24,7 @@ O lead chega **aquecido, não decidido.**
 
 - A Carta/Vídeo fez o trabalho pesado: nomeou o problema, apresentou o método, qualificou. O lead chega entendendo e inclinado.
 - Mas **a conversa ainda fecha.** Ela remove a última objeção, confirma o desejo em voz alta e dá o caminho pra finalizar. Quem trata o lead como "já comprou" perde a venda na largada; quem trata como "preciso convencer do zero" cansa o lead e queima o aquecimento. O ponto é o meio: **confirma e remove o que falta.**
-- **Ticket baixo** (até ~R$2k) pode fechar no WhatsApp texto, às vezes sem nem uma call. **Ticket alto** fecha na conversa, call ou reunião. O canal muda por ticket (Cap 10.8); a espinha de 7 fases, não.
+- **O canal é do FUNIL, não do ticket.** A regra do 1:1 nos funis comerciais é a **DM/WhatsApp por padrão**: fecha no chat com áudio, doc e vídeo curto (o modo `dm-sem-call`), mesmo high-ticket. A **call/reunião é exceção de contexto**, não o degrau seguinte do preço: entra quando o lead pede a condução ao vivo, o caso é complexo (B2B, decisão a vários), ou o especialista prefere. O **SDR+Closer** só entra com **equipe e volume**. A espinha de 7 fases não muda; muda só o canal e o ritmo.
 - **Filtra E convence.** Lead errado a skill solta (sem ressentimento, Cap 10.4). Lead certo a skill conduz até o pagamento. As duas coisas, sempre.
 
 ---
@@ -142,7 +142,7 @@ Se a mesma objeção volta duas vezes, é outra coisa emperrando: *"Acho que tem
 Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
 2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+3. **Gate CUB bloqueante + as 3 perguntas do gate** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
 
 O linter executável `scripts/lint_copy.py` roda a peça (anti-IA + anti-voz Soft), exit 1 derruba a entrega. O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
 

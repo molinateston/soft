@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-stories
-description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
+description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Stories, o arco de conversão diária
@@ -118,9 +118,9 @@ Roda o gate em CADA frame que afirma tese ou tem CTA **internamente** (Alinhamen
 | **CTA com destino** | DM com palavra-chave ÚNICA apontando pro mesmo Direct; link externo = ✗ | |
 | **Front-load** | o primeiro frame é o print/tese, não enrolação; abre direto | |
 | **C/U/B** | não é **C**onfuso (uma ideia por frame), não é in**U**acreditável (chão real), não é c**B**hato (tem tensão ou cena, não morno) | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena/print. ✗ "tenha mais clareza" · ✓ "o print da agenda lotada na segunda" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena/print. ✗ "tenha mais clareza" · ✓ "o print da agenda lotada na segunda" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 

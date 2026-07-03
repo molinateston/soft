@@ -124,9 +124,9 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 | **Degrau 1, não degrau 2** | é o Mini Webinar ~10min do Funil Soft; a Ação CONVIDA pro 1:1, NÃO fecha no checkout nem vira o Webinar Soft completo (isso é soft-webinar-plano) | |
 | **Uma virada, não aula** | o lead sai com UMA percepção nova, não com um passo a passo que dispensa o cliente (faca Soft: resultado e função, não receita) | |
 | **C/U/B** | não é **C**onfuso (uma ideia por frase) · não é **U**nbelievable/inacreditável (prova sustenta) · não é **B**oring (zero padding, zero motivacional) | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo bonito | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo bonito | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **CTA com destino** | a Ação tem destino concreto (palavra no Direct OU link nomeado) e é "conversa, não compra" | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · zero advérbio gratuito (realmente, basicamente, obviamente) · zero hedge (talvez, pode ser, em geral) · zero auto-elogio (Especialista experiente, 10 anos de mercado) · zero paráfrase (não repete a ideia em outras palavras) · zero transição mole (além disso, vale ressaltar, em outras palavras). As 7 categorias de corte detalhadas em `references/tom-e-ritmo-desejo.md`. **CTRL+F manual de "—" e "travar" antes de marcar ✓.** | |
 | **(modo SLIDES) 1 ideia por slide** | passa a pergunta-teste (não dá pra narrar lendo só a tela); a copy falada está na nota, a tela tem só o reforço | |
@@ -175,7 +175,7 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 | Urgência fabricada em página evergreen | Fecha com convicção, sem timer que reseta |
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
-O gate-checklist acima é o Crivo embutido. Ele puxa de `shared-references/crivo/`: ancoragem no verbatim real (`01-entrada-verbatim.md`) → simulação na pele do avatar (`02-simulacao-cliente.md`, o teste dos 2 segundos: onde ele larga, onde se reconhece) → gate C/U/B + 3 perguntas do Harry (`03-gate-cub.md`). O anti-IA limpa o robô; o Crivo dá a força. Os dois, nessa ordem. O Crivo roda por dentro (auditoria silenciosa); a tabela NÃO vai pra saída, a peça entregue sai limpa.
+O gate-checklist acima é o Crivo embutido. Ele puxa de `shared-references/crivo/`: ancoragem no verbatim real (`01-entrada-verbatim.md`) → simulação na pele do avatar (`02-simulacao-cliente.md`, o teste dos 2 segundos: onde ele larga, onde se reconhece) → gate C/U/B + 3 perguntas do gate (`03-gate-cub.md`). O anti-IA limpa o robô; o Crivo dá a força. Os dois, nessa ordem. O Crivo roda por dentro (auditoria silenciosa); a tabela NÃO vai pra saída, a peça entregue sai limpa.
 
 ## References (o corpo acima é autossuficiente; cada ref tem hora de ler)
 - `references/discurso-base-7-passos.md`: **lê no Passo 0**, antes de quebrar nos 12 blocos. Define os 7 passos (objetivo · conteúdo · tom · erros · exemplo de cada), as 3 objeções universais (adequação · execução · comparação), os anti-padrões e o template da versão-mestre neutra. É o andaime que alimenta os 12 blocos.

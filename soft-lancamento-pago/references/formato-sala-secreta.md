@@ -1,8 +1,8 @@
-# Formato Sala Secreta (Holzer)
+# Formato Sala Secreta
 
-> **Quando consultar:** Modo B quando cliente escolhe formato Sala Secreta (Felipe Holzer). Detalha o método validado em 4 anos de uso, com 7 dígitos e ROAS 8x em casos públicos.
+> **Quando consultar:** Modo B quando cliente escolhe formato Sala Secreta (método de referência). Detalha o método validado em 4 anos de uso, com 7 dígitos e ROAS 8x em casos públicos.
 
-Material consolidado de Felipe Holzer, apresentado no Diamond Julho 2025. Skill cita o método pelo nome (Sala Secreta) sem disfarce — é referência transparente.
+Material consolidado do método de referência da Sala Secreta. A skill usa o nome do formato (Sala Secreta) como rótulo de método, sem expor a fonte.
 
 ---
 
@@ -11,7 +11,7 @@ Material consolidado de Felipe Holzer, apresentado no Diamond Julho 2025. Skill 
 - O que é
 - Princípio raiz
 - A estrutura básica
-- O formato favorito do Holzer
+- O formato favorito da Sala Secreta
 - Bloco 1 — Ingresso
 - Bloco 2 — Página de vendas (do ingresso)
 - Bloco 3 — Tráfego (venda do ingresso)
@@ -34,7 +34,7 @@ Material consolidado de Felipe Holzer, apresentado no Diamond Julho 2025. Skill 
 **Sala Secreta** é um lançamento pago com **ingresso pago** (não lead grátis), evento ao vivo no Zoom, conduzido pra público **consciente do problema**. Vende ticket alto (R$3-50k) em janela curta de carrinho aberto.
 
 > *"Vender ingresso de R$1k é burrice. Vende a partir de R$3k. O 997 de 2019 é o R$2.500 de hoje."*
-> — Felipe Holzer
+> — Sala Secreta (método de referência)
 
 ### Por que Sala Secreta funciona
 
@@ -46,14 +46,14 @@ Material consolidado de Felipe Holzer, apresentado no Diamond Julho 2025. Skill 
 | **Alta taxa de comparecimento** (~90%) | Quem paga, vai. Filtro pago vence filtro grátis. |
 | **Alta conversão** (~20%) | Público consciente + comprometido + presente |
 
-> Esses números são **referência Holzer** — não promessa. Variam por nicho, ticket e execução.
+> Esses números são **referência Sala Secreta** — não promessa. Variam por nicho, ticket e execução.
 
 ---
 
 ## Princípio raiz
 
 > *"Sempre que usar boca de funil, todos os números vão cair."*
-> — Holzer
+> — Sala Secreta
 
 O ingresso é o **filtro de boca de funil**. Quem paga R$97 pra entrar tá disposto a pagar R$3k pra resolver. Quem entra grátis tá olhando feature.
 
@@ -79,9 +79,9 @@ Cronograma típico: 60-90 dias do planejamento ao fechamento.
 
 ---
 
-## O formato favorito do Holzer
+## O formato favorito da Sala Secreta
 
-Holzer apresentou no Diamond o formato que ele mais repete (com variações):
+A Sala Secreta repete o formato favorito (com variações):
 
 | Variável | Configuração |
 |---|---|
@@ -118,7 +118,7 @@ Holzer apresentou no Diamond o formato que ele mais repete (com variações):
 ### Lotes de ingresso
 
 > *"Só cria lote se tiver vendendo MUITO. Se não tá vendendo, não vai vender mais por conta do lote."*
-> — Holzer
+> — Sala Secreta
 
 Lotes (R$97 → R$147 → R$197) só fazem sentido quando a base já está respondendo. Lote em lançamento parado = otimização do problema errado.
 
@@ -126,7 +126,7 @@ Lotes (R$97 → R$147 → R$197) só fazem sentido quando a base já está respo
 
 > **NÃO É CPL.**
 
-Skill **rejeita** o diagnóstico "preciso de mais leads" como solução pra ingresso que não vende. Holzer é explícito:
+Skill **rejeita** o diagnóstico "preciso de mais leads" como solução pra ingresso que não vende. A Sala Secreta é explícita:
 
 > *"Se não está vendendo, existe um problema técnico (copy, anúncio, página)."*
 
@@ -143,7 +143,7 @@ Sequência de checagem quando ingresso não vende:
 ### Princípio raiz
 
 > *"A página de vendas do ingresso é igual a do presencial."*
-> — Holzer
+> — Sala Secreta
 
 Página longa, completa, com:
 - Headline + subhead
@@ -187,9 +187,9 @@ Lógica: criativo que já entregou contexto pesado (vídeo longo) precisa de pá
 ### Distribuição da verba
 
 - **70-80% — venda do ingresso** (criativo do ingresso → página → checkout)
-- **20-30% — retargeting/escassez nas últimas 24-48h** (Holzer recomenda 30% pra fase de escassez)
+- **20-30% — retargeting/escassez nas últimas 24-48h** (A Sala Secreta recomenda 30% pra fase de escassez)
 
-### Frase travada Holzer (escassez 24h antes)
+### Frase travada Sala Secreta (escassez 24h antes)
 
 > *"Faltando 24 horas coloca um anúncio de escassez com uma verba aval — 30% das vendas vêm aí."*
 
@@ -200,7 +200,7 @@ Detalhe em `paginas-criativos-trafego.md`.
 ## Bloco 4 — Pré-aula (entre ingresso vendido e dia do evento)
 
 > *"Comprometimento é diferente de aquecimento."*
-> — Holzer
+> — Sala Secreta
 
 Quem pagou R$97 não é "lead pra aquecer". É **comprador pra comprometer**.
 
@@ -230,7 +230,7 @@ Detalhe em `pos-venda-ingresso.md`.
 ### Por que Zoom (e não YouTube/transmissão)
 
 > *"Sensação de proximidade. No Zoom as pessoas pedem licença pra sair."*
-> — Holzer
+> — Sala Secreta
 
 Zoom cria **comprometimento ao vivo**. YouTube cria audiência passiva. A diferença vira conversão.
 
@@ -290,7 +290,7 @@ Dia longo + time comercial bem feito = conversão 30% em alguns casos.
 
 ## Bloco 7 — Oferta e fechamento
 
-### Aplicação > Checkout direto (no formato favorito Holzer)
+### Aplicação > Checkout direto (no formato favorito Sala Secreta)
 
 Por quê:
 - Aplicação **filtra**: só passa quem responde com vontade
@@ -298,7 +298,7 @@ Por quê:
 - Aplicação **valoriza**: vaga não é pra qualquer um
 
 > *"Aplicação que o cara responde com vontade — não aprova todo mundo para seguir com o processo."*
-> — Holzer
+> — Sala Secreta
 
 ### Cronograma do fechamento
 
@@ -315,16 +315,16 @@ Por quê:
 
 - Vendedores treinados no método (script Soft via `soft-vendas`)
 - Liga primeiro pros aprovados (aplicação respondida com vontade)
-- Conversão time comercial: 30-50% em leads aprovados (Holzer reporta 10-30%)
+- Conversão time comercial: 30-50% em leads aprovados (A Sala Secreta reporta 10-30%)
 
 ---
 
 ## Bloco 8 — Order bumps (CAC zero)
 
 > *"Order bumps são importantes para o CAC zero."*
-> — Holzer
+> — Sala Secreta
 
-3 order bumps validados pelo Holzer:
+3 order bumps validados pela Sala Secreta:
 
 1. **Q&A pós-aula** — sessão exclusiva de perguntas
 2. **Gravação da aula** — replay (quem participou ao vivo geralmente compra pra rever)
@@ -350,7 +350,7 @@ Detalhe em `order-bumps-cac-zero.md`.
 ## Bloco 9 — Distribuição de conteúdo (estratégia complementar)
 
 > *"Criativos de 5 minutos rodando e no final um pitch pra Sala Secreta que acontece todo final do mês."*
-> — Holzer (citando Elton Euler com Renato Torres, 2 anos de operação)
+> — Sala Secreta (citando Elton Euler com Renato Torres, 2 anos de operação)
 
 Estratégia de **distribuição contínua**:
 - Criativos de vídeo de 5 min, conteúdo de valor
@@ -366,7 +366,7 @@ Não é o método central, mas é forma de manter máquina rodando entre lançam
 
 ## Métricas de referência
 
-Holzer apresentou em debriefing público (SecretZoom — formação 7 dígitos):
+A Sala Secreta apresentou em debriefing público de referência (formação 7 dígitos):
 
 | Métrica | Valor reportado |
 |---|---|
@@ -393,7 +393,7 @@ Holzer apresentou em debriefing público (SecretZoom — formação 7 dígitos):
 | **Sem competência de entrega pra 50+ clientes** | Sucesso vira problema de entrega |
 
 Em qualquer desses casos, considera:
-- LPSG (Tabari) — escala diferente
+- LPSG — escala diferente
 - Adiar 3-6 meses
 - Versão menor (noite única, ticket baixo)
 
@@ -445,8 +445,8 @@ Lançamento Soft é **solo + IA Vertical + freelancers pontuais** (designer, ges
 
 ## Notas operacionais
 
-- Skill **cita Holzer pelo nome** quando puxa material específico (transparência)
-- Skill **nunca promete** os números do Holzer (7 dígitos, ROAS 8x) ao cliente
+- Skill **cita a Sala Secreta pelo nome** quando puxa material específico (transparência)
+- Skill **nunca promete** os números de referência (7 dígitos, ROAS 8x) ao cliente
 - Skill **adapta o método** conforme audiência, ticket e capacidade do cliente
 - **Cliente Soft Business** recebe modificadores adicionais (cadência, filtragem, pós-venda)
 - **Cliente não-Soft** recebe método neutro

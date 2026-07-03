@@ -226,7 +226,7 @@ E o crédito devolvido na hora do pitch (frase emprestada com dono):
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - meta-webinar de webinars, US$14,97 ancorado em US$4.995
+### webinar de referência #1 (One to Many - Genius Webinars) - meta-webinar de webinars, US$14,97 ancorado em US$4.995
 
 **Trecho literal:**
 
@@ -258,7 +258,7 @@ Case-âncora com loop aberto que só fecha na oferta:
 
 ---
 
-### Fladlien #2 - "Product Creation Secrets" / Product E-Class 2020 - infoprodutos, US$497 ou 3x US$194
+### webinar de referência #2 - "Product Creation Secrets" / Product E-Class 2020 - infoprodutos, US$497 ou 3x US$194
 
 **Trecho literal:**
 
@@ -291,18 +291,18 @@ Desmonte do pedestal (objeção "você é especial"):
 ## Padrões transversais (checklist pra escrever o bloco)
 
 1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus MindMaster resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
-2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (Denison), 110kg (Vítor), chorar no chuveiro sem entender projeto (Juliana), dentista de origem simples cobrando pouco (Bruno), dar aula boa e não vender (Fladlien). Se a cicatriz não espelha a sala, é biografia, não ponte.
+2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (Denison), 110kg (Vítor), chorar no chuveiro sem entender projeto (Juliana), dentista de origem simples cobrando pouco (Bruno), dar aula boa e não vender (webinar de referência). Se a cicatriz não espelha a sala, é biografia, não ponte.
 3. **Duas camadas de credencial:** escala/instituição (alunos, anos, seguidores, empresa) + vivência pessoal (onde aprendeu fazendo). Uma sem a outra fica coxa.
 4. **Número específico e quebrado** (16.236, não "16 mil"; 12/11/2007; 1 milhão de m²) - número auditado convence, número redondo cheira a invenção. Prova documental quando der (foto de família, e-mail lido verbatim, foto da sala paga).
-5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - MindMaster; USP/doutorado - Bruno; Genius Network - Fladlien; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
-6. **A virada nunca é dom:** é sorte ("nem sabia que era Toyota"), estudo ("resolvi estudar"), mentor ("my first big investment") ou pedido externo. Dom não é transferível; método e decisão são - e a decisão de comprar mentoria pode ser o próprio ponto-de-virada (Fladlien #2).
+5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - MindMaster; USP/doutorado - Bruno; Genius Network - webinar de referência; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
+6. **A virada nunca é dom:** é sorte ("nem sabia que era Toyota"), estudo ("resolvi estudar"), mentor ("my first big investment") ou pedido externo. Dom não é transferível; método e decisão são - e a decisão de comprar mentoria pode ser o próprio ponto-de-virada (webinar de referência #2).
 7. **Humildade calculada:** "por sorte", "sou ruim de contas", "slide desatualizado", typo na 1ª frase, "é ruim ficar falando de si". A imperfeição na fala valida a precisão do número no slide.
 8. **Superlativo sempre terceirizado:** "best in the world" vem de e-mail; "maior escola do Brasil" vem de "é considerada"; o próprio só entrega número e documento.
-9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (MindMaster), Tesla na garagem → "sistematizar" (Fladlien), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
+9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (MindMaster), Tesla na garagem → "sistematizar" (webinar de referência), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
 10. **A biografia pré-figura a oferta:** o arco do herói termina exatamente na porta da decisão que o pitch vai pedir (cadista→empreendedora = as 2 estratégias; investir no mentor = comprar o curso; mudei o padrão da minha família = mude o da sua).
 11. **Seeding dentro da autoridade (máquina MindMaster):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
 12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era Juliana nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
-13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação Fladlien #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. Bruno também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
+13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação webinar de referência #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. Bruno também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
 
 ---
 
@@ -322,9 +322,9 @@ Desmonte do pedestal (objeção "você é especial"):
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o Fladlien, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina MindMaster, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
+**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o modelo, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina MindMaster, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
 
 Variações de forma que valem registrar como dado:
-- **Fladlien #2 é o único que QUEBRA o bloco em dois:** credencial no início, cicatriz (galpão/dormir no chão/investir no mentor) guardada para a entrada da oferta - a história de origem usada como peça de fechamento, não de abertura.
+- **webinar de referência #2 é o único que QUEBRA o bloco em dois:** credencial no início, cicatriz (galpão/dormir no chão/investir no mentor) guardada para a entrada da oferta - a história de origem usada como peça de fechamento, não de abertura.
 - **Bruno (Webinar C) faz reprises:** a origem volta aos ~38% (faixa preta de luta) e ~55% (história do pai) - autoridade como fio contínuo, não capítulo único.
 - **Juliana (Aluna 80k) abre a cicatriz com loop:** "vou falar mais sobre ela aqui depois" - e paga o loop na transição pra venda (história da comida japonesa). A origem alimenta dois blocos.

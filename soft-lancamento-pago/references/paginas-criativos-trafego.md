@@ -7,7 +7,7 @@
 
 > **Quando consultar:** Modo B sempre (planejamento de campanha) + Modo D quando o problema é "criativo não vende" ou "página não converte".
 
-Cobre os 3 ativos técnicos do lançamento pago: **página de vendas do ingresso**, **criativos para tráfego**, e **estrutura de tráfego pago**. Material consolidado de Holzer (Sala Secreta) e Tabari (LPSG).
+Cobre os 3 ativos técnicos do lançamento pago: **página de vendas do ingresso**, **criativos para tráfego**, e **estrutura de tráfego pago**. Material consolidado da Sala Secreta e da LPSG (métodos de referência).
 
 ---
 
@@ -28,7 +28,7 @@ Cobre os 3 ativos técnicos do lançamento pago: **página de vendas do ingresso
 ## Princípio raiz: lançamento pago NÃO é CPL
 
 > *"Se o ingresso não vende, não é problema de leads — é problema técnico."*
-> — Holzer
+> — Sala Secreta
 
 A maioria dos lançadores de mercado, quando ingresso não vende, pede mais leads. **Errado.** No lançamento pago, ingresso que não vende é diagnóstico de:
 
@@ -44,7 +44,7 @@ Diagnóstico técnico antes de gastar mais em tráfego. **Mais leads pra funil q
 
 ## Bloco 1 — Página de vendas do ingresso
 
-### A regra Holzer
+### A regra Sala Secreta
 
 > *"A página de vendas é igual a do presencial."*
 
@@ -98,12 +98,12 @@ Estrutura:
 - **Métodos de pagamento:** Pix + cartão (até 12x) + boleto se ticket >R$200. Sem cripto, sem PayPal — fricção.
 - **Pré-checkout:** **sempre** captura lead antes de abrir checkout final. Lead que não pagou ainda é base de remarketing.
 
-> *"Sempre pega os leads no pré-checkout."* — Holzer
+> *"Sempre pega os leads no pré-checkout."* — Sala Secreta
 
 ### Lotes — quando usar
 
 > *"Só cria lote se tiver vendendo MUITO. Se não tá vendendo, não vai vender mais por conta do lote."*
-> — Holzer
+> — Sala Secreta
 
 Lote é **acelerador**, não **criador de venda**. Aplicação:
 
@@ -120,7 +120,7 @@ Lote é **acelerador**, não **criador de venda**. Aplicação:
 
 ## Bloco 2 — Criativos
 
-### A matriz Holzer: tipo de criativo × página de destino
+### A matriz Sala Secreta: tipo de criativo × página de destino
 
 | Tipo de criativo | Mostra preço? | Vai pra qual página |
 |---|---|---|
@@ -237,11 +237,11 @@ Criativos: contagem regressiva, urgência, último lote, vagas limitadas
 Públicos: mesmos da campanha de remarketing
 ```
 
-> **Holzer:** *"Faltando 24 horas, coloca um de escassez com uma verba aval — 30% de vendas."*
+> **Sala Secreta:** *"Faltando 24 horas, coloca um de escassez com uma verba aval — 30% de vendas."*
 
 ### Verba
 
-**Holzer ROAS 8x:**
+**Sala Secreta ROAS 8x:**
 - Investimento: R$130-216k
 - Retorno: 7 dígitos
 - Período: 30 dias
@@ -258,7 +258,7 @@ Verba mínima viável (testar):
 - R$50k+: lançamento agressivo
 ```
 
-**ROAS médio de mercado:** 3-5x em lançamentos com pixel quente. ROAS 8x é exceção (Holzer com método cravado).
+**ROAS médio de mercado:** 3-5x em lançamentos com pixel quente. ROAS 8x é exceção (método de referência cravado).
 
 ### Métricas pra acompanhar
 
@@ -287,7 +287,7 @@ Verba mínima viável (testar):
 ## Bloco 4 — Princípio: ingresso 20-30x mais barato que produto
 
 > *"Ingresso é 20 a 30x mais barato que o produto que será vendido."*
-> — Holzer
+> — Sala Secreta
 
 ### A matemática
 
@@ -309,7 +309,7 @@ Verba mínima viável (testar):
 ### Quanto mais caro o produto, mais valor entrega no ingresso
 
 > *"Quanto mais caro o lançamento, mais valor você precisa entregar."*
-> — Holzer
+> — Sala Secreta
 
 Ingresso de R$97 pra produto R$3k → 1 aula de 4-7h é suficiente.
 Ingresso de R$1.500 pra produto R$50k → 2-3 dias de evento + bônus + materiais físicos.
@@ -379,7 +379,7 @@ Skill avisa quando cliente Soft tá flertando com isso. Não bloqueia. Orienta.
 Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
 2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+3. **Gate CUB bloqueante + as 3 perguntas do gate** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
 
 O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
 

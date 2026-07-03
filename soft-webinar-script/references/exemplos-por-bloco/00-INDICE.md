@@ -2,12 +2,12 @@
 
 > **Como usar (leia isto primeiro):**
 > 1. ANTES de escrever qualquer bloco do webinar Soft, abra o arquivo do bloco correspondente e leia a síntese + os exemplos + os anti-padrões.
-> 2. Os trechos são PREMISSAS demonstradas, nunca modelos pra decalcar (G2): extraia o porquê-funciona e reconstrua na voz do especialista - frase-mantra, bordão e rótulo de mecanismo têm dono (MindMaster, Fladlien, Vítor Abrão, Bruno, Juliana) e não se transplantam.
+> 2. Os trechos são PREMISSAS demonstradas, nunca modelos pra decalcar (G2): extraia o porquê-funciona e reconstrua na voz do especialista - frase-mantra, bordão e rótulo de mecanismo têm dono (MindMaster, webinar de referência, Vítor Abrão, Bruno, Juliana) e não se transplantam.
 > 3. O bloco 14 (interação) é transversal: leia-o antes de TODOS os outros e desenhe a escada de micro-compromissos do webinar inteiro numa passada.
 > 4. "Webinars sem o bloco" também é dado: garantia falta em 6 de 9, pré-início em 3 de 9 - ausência é decisão de design, não esquecimento.
 > 5. Decisão metodológica final é do Léo: compilar opções com estes dados e validar com ele, nunca decidir sozinho.
 
-Corpus: **13M** (MindMaster ed. A) · **5N** (5 Níveis/Denison) · **GA2** (Gestão Ágil ed. 2.0) · **GAIA** (GAIA2k) · **A80k** (Aluna 80k/Juliana Pupim) · **LéoA** (pele Soft nutrição/Vítor) · **LéoC** (Resina/voz Bruno) · **F1** (Fladlien One to Many) · **F2** (Fladlien Product E-Class). Partições-fonte: `guia/_webinar-corpus/destil/particoes-por-bloco/`.
+Corpus: **13M** (MindMaster ed. A) · **5N** (5 Níveis/Denison) · **GA2** (Gestão Ágil ed. 2.0) · **GAIA** (GAIA2k) · **A80k** (Aluna 80k/Juliana Pupim) · **LéoA** (pele Soft nutrição/Vítor) · **LéoC** (Resina/voz Bruno) · **F1** (webinar de referência (one-to-many)) · **F2** (webinar de referência (product class)). Partições-fonte: `guia/_webinar-corpus/destil/particoes-por-bloco/`.
 
 | # | Bloco | Webinars cobertos | O melhor achado em 1 linha |
 |---|-------|-------------------|----------------------------|

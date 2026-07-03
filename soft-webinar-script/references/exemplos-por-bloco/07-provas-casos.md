@@ -242,7 +242,7 @@ Prova de demanda de mercado (a própria consultoria como termômetro):
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - meta-webinar; vende Genius Webinars (US$14,97 de entrada, ancorado em US$4.995); prova colada item a item
+### webinar de referência #1 (One to Many - Genius Webinars) - meta-webinar; vende Genius Webinars (US$14,97 de entrada, ancorado em US$4.995); prova colada item a item
 
 **Trecho literal:**
 
@@ -280,7 +280,7 @@ Depoimento atado a UM bônus específico:
 
 ---
 
-### Fladlien #2 ("Product Creation Secrets" / Product E-Class 2020) - info-produto, US$497 ou 3x US$194, ~3h; cada case = uma objeção encarnada
+### webinar de referência #2 ("Product Creation Secrets" / Product E-Class 2020) - info-produto, US$497 ou 3x US$194, ~3h; cada case = uma objeção encarnada
 
 **Trecho literal:**
 
@@ -341,7 +341,7 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 - **Número redondo, inflado e sem hedge** - os campeões usam cifras quebradas e admitem incerteza onde não têm o dado.
 - **Esconder a objeção em vez de encená-la** - o padrão vencedor é dizer em voz alta o que a plateia está pensando e só então provar o contrário.
 - **Para o Soft especificamente:** prova por crachá institucional (Toyota, Itaú, MBA) é a gramática MindMaster para avatar CLT - decalcá-la quebraria o método; o Soft prova por espelho de NEGÓCIO (caso de aluno-dono, agenda, contrato, cliente high-ticket falando), conforme a nota da análise MindMaster (exemplos-vivos): "qual é a 'carteira de trabalho' do nosso avatar? (extrato, agenda lotada, contrato assinado)".
-- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da MindMaster; "permission to succeed" é do Fladlien), nunca apresentá-las como criação própria.
+- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da MindMaster; "permission to succeed" é do modelo), nunca apresentá-las como criação própria.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -351,6 +351,6 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 - **Sanduíche** (Aluna 80k, Léo A): depoimento em vídeo abre E fecha a gravação - assinatura de sala perpétua com pre-roll em loop.
 - **Pré-roll sob countdown** (Gestão Ágil ed. 2.0): a prova começa antes do host aparecer.
 - **Pós-CTA como sustain** (Léo C): a rajada principal de depoimentos vem com o carrinho já aberto, alimentando quem hesita enquanto as vagas caem.
-- **Colada item a item da oferta** (Fladlien #1): cada bônus chega com seu próprio depoimento validador.
+- **Colada item a item da oferta** (webinar de referência #1): cada bônus chega com seu próprio depoimento validador.
 
 A premissa que isso revela: prova não é um capítulo, é uma corrente contínua - a decisão de design não é "se", nem "quanto", e sim ONDE cada peça de prova rende mais.

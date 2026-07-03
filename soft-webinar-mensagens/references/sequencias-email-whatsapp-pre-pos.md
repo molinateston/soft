@@ -82,7 +82,7 @@ PÓS-WEBINAR
 
 **Função:** confirma, captura o WhatsApp (opt-in) e dá as 3 tarefas que sobem o comparecimento (salvar contato, calendário, vir preparado).
 
-> **⭐ A regra do assunto (verbatim Enes):** o assunto não pode ser óbvio. *"Confira os dados da sua inscrição"* abre **mais** que *"Sua inscrição está confirmada"* - *"para a pessoa ter uma curiosidade de abrir esse e-mail"*. Abertura é o gargalo: assunto óbvio = motivo zero pra abrir; assunto que abre um loop = curiosidade que puxa o clique. (origem: METODO 5.4.1, Enes.) Use essa lente em **todos** os assuntos da sequência.
+> **⭐ A regra do assunto (verbatim do método):** o assunto não pode ser óbvio. *"Confira os dados da sua inscrição"* abre **mais** que *"Sua inscrição está confirmada"* - *"para a pessoa ter uma curiosidade de abrir esse e-mail"*. Abertura é o gargalo: assunto óbvio = motivo zero pra abrir; assunto que abre um loop = curiosidade que puxa o clique. (origem: METODO 5.4.1, do método.) Use essa lente em **todos** os assuntos da sequência.
 
 **EMAIL 1 - molde**
 
@@ -116,7 +116,7 @@ P.S.: Se não puder vir, me responde esse email avisando. Vaga é limitada
 e prefiro liberar pra fila de espera.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - origem: nicho Enes, METODO 5.4.1).** Molde acima virado peça real:
+> **EXEMPLO preenchido (nicho recolocação/emprego - origem: nicho emprego, METODO 5.4.1).** Molde acima virado peça real:
 >
 > ```
 > Assunto: Confira os dados da sua inscrição na Aula Sniper
@@ -148,7 +148,7 @@ e prefiro liberar pra fila de espera.
 > lugar, é fuso.)
 > ```
 >
-> **Por que esse P.S. existe:** Enes antecipa no corpo a confusão de AM/PM porque *"tem gente que pergunta: é no Rio, a palestra vai ser no Rio?"* - qualquer dúvida não resolvida (fuso, horário) vira desculpa pra não comparecer. Antecipar a confusão previsível é proteger o show-up. **Regra:** no seu nicho, troque o recheio (a aula, o objeto que a pessoa traz, a objeção-mãe), mas mantenha o assunto-curiosidade, o opt-in de WhatsApp e a antecipação de qualquer confusão de horário.
+> **Por que esse P.S. existe:** O método antecipa no corpo a confusão de AM/PM porque *"tem gente que pergunta: é no Rio, a palestra vai ser no Rio?"* - qualquer dúvida não resolvida (fuso, horário) vira desculpa pra não comparecer. Antecipar a confusão previsível é proteger o show-up. **Regra:** no seu nicho, troque o recheio (a aula, o objeto que a pessoa traz, a objeção-mãe), mas mantenha o assunto-curiosidade, o opt-in de WhatsApp e a antecipação de qualquer confusão de horário.
 
 **WHATSAPP 1 - molde** (após cliente mandar "OI")
 
@@ -192,7 +192,7 @@ Combinado?
 
 **Função:** entrega um pedaço de valor pra pessoa chegar com contexto (não com curiosidade vazia), **repete os bullets da página** e dá a lista de preparação. Reativa quem já esqueceu que se inscreveu.
 
-> **⭐ Por que repetir os bullets aqui (Enes):** *o desejo esfria entre a inscrição e a aula.* Reapresentar os bullets da página de cadastro reacende a curiosidade e melhora o comparecimento. Não é encher linguiça - é reaquecer um lead que esfriou. (origem: METODO 5.4.1.)
+> **⭐ Por que repetir os bullets aqui (do método):** *o desejo esfria entre a inscrição e a aula.* Reapresentar os bullets da página de cadastro reacende a curiosidade e melhora o comparecimento. Não é encher linguiça - é reaquecer um lead que esfriou. (origem: METODO 5.4.1.)
 
 **EMAIL 2 - molde**
 
@@ -304,7 +304,7 @@ Te vejo amanhã.
 
 ### Mensagem 3 - 1h antes do webinar
 
-**Função:** cria a urgência de entrar, reforça o anti-fuga (sem replay) e o gancho de retenção (bônus pra quem fica até o fim). Assunto curto, direto. Enes usa a régua *"a palestra começa em menos de uma hora"* - informa e reaquece.
+**Função:** cria a urgência de entrar, reforça o anti-fuga (sem replay) e o gancho de retenção (bônus pra quem fica até o fim). Assunto curto, direto. O método usa a régua *"a palestra começa em menos de uma hora"* - informa e reaquece.
 
 **EMAIL 3 - molde**
 
@@ -482,7 +482,7 @@ Vou ficar mais [10-15 min] pra Q&A.
 
 A sequência abaixo NÃO é a mesma pra todo mundo. Antes de escrever qualquer email/WhatsApp de pós, entenda o gatilho que decide **quem recebe o quê** - é isso que separa um pós cirúrgico de um "spray" genérico que queima a base.
 
-- **Premissa (a redefinição que muda tudo):** *"Lead quente é o lead que viu a sua OFERTA, não o lead que viu você. Se ele não viu sua oferta, ele é morno no máximo."* (origem: corpus de webinar Soft.) A mesma régua, na voz do Enes: não adianta empurrar oferta agressiva pra quem viu só o iniciozinho, *"não adianta eu ficar mandando a oferta pra esse cara que só viu o iniciozinho."* (origem: METODO 5.4.2, Enes.)
+- **Premissa (a redefinição que muda tudo):** *"Lead quente é o lead que viu a sua OFERTA, não o lead que viu você. Se ele não viu sua oferta, ele é morno no máximo."* (origem: corpus de webinar Soft.) A mesma régua, na voz do método: não adianta empurrar oferta agressiva pra quem viu só o iniciozinho, *"não adianta eu ficar mandando a oferta pra esse cara que só viu o iniciozinho."* (origem: METODO 5.4.2, método.)
 - **Mecanismo (% assistido → tag → roteamento):** como a aula é gravada, a oferta abre **sempre no mesmo segundo**. A plataforma (Ever Webinar, Webinar Kit, WebinarJam) dispara um evento quando o lead cruza cada marco. Cada marco grava uma **tag**. A tag decide qual sequência de pós a pessoa recebe e pra qual fila do comercial ela vai.
 
   > **EXEMPLO:** numa aula em que a oferta abre aos **49 min 57 s**, quem passou desse segundo recebe a tag `viu-oferta`; quem parou antes, não. No seu webinar a oferta abre em outro minuto, descubra qual é o seu e marque.
@@ -507,9 +507,9 @@ A sequência abaixo NÃO é a mesma pra todo mundo. Antes de escrever qualquer e
 
 ### A esteira semanal sincronizada (a automação pós-aula que vende sozinha)
 
-A sequência por timing (Msg 5→9, ancorada na hora da oferta) é o **fechamento quente** das primeiras 72h. Mas existe uma segunda camada que roda em paralelo e captura quem não fechou na semana 1: a **automação semanal**, validada verbatim no corpus (Enes, METODO 5.4.2). Ela transforma o evento pontual num motor contínuo.
+A sequência por timing (Msg 5→9, ancorada na hora da oferta) é o **fechamento quente** das primeiras 72h. Mas existe uma segunda camada que roda em paralelo e captura quem não fechou na semana 1: a **automação semanal**, validada verbatim no corpus (método, METODO 5.4.2). Ela transforma o evento pontual num motor contínuo.
 
-- **Premissa (Enes):** *"as pessoas estão chegando no webinário, mas o que acontece se elas não comprarem? E a grande maioria não compra no webinário."* A automação **vende no automático** - é onde a maioria das vendas perpétuas acontece.
+- **Premissa (do método):** *"as pessoas estão chegando no webinário, mas o que acontece se elas não comprarem? E a grande maioria não compra no webinário."* A automação **vende no automático** - é onde a maioria das vendas perpétuas acontece.
 - **Filtro de entrada (não queimar cliente):** a esteira dispara pela tag de inscrição, MAS pergunta antes *"é cliente?"*. Quem já é cliente NÃO recebe oferta de aquisição - *"se ela não passou por essa automação ainda e não é cliente, então ela vai passar."* **Relevância é reputação:** vender de novo pra quem já comprou parece amador e queima a relação.
 - **A cadência (timing + propósito):**
 
@@ -523,7 +523,7 @@ A sequência por timing (Msg 5→9, ancorada na hora da oferta) é o **fechament
 | 4 | Sexta | **Oferta + escassez** | *"Hoje é o último dia, a oferta está encerrando"* → página de vendas |
 | Goal | Qualquer momento | Saída | Comprou → encerra a automação (tag `comprou` tira de tudo) |
 
-> **⭐ EXEMPLO verbatim (nicho emprego/recolocação - origem Enes, METODO 5.4.2), peça por peça:**
+> **⭐ EXEMPLO verbatim (nicho emprego/recolocação - origem: método, METODO 5.4.2), peça por peça:**
 > - **D+1 reciprocidade:** *"a gente tem as três frases mágicas para usar no currículo... toda vez que a gente criava uma publicação no LinkedIn, no Instagram, essa publicação bombava... então eu deletei esse material de tudo... e dou isso no email."* Anexado direto (PDF, máx 1MB) num bloco de HTML cru pra ficar *"um email mais íntimo"*.
 > - **Segunda, ramo A (viu oferta):** *"eu vou mandar simplesmente uma oferta para ele... vai direto para a página de vendas."*
 > - **Segunda, ramo B (não viu):** reconvite + One-Click - *"é hoje às 20 horas, gratuito, clico no botão para reservar a sua vaga... first name, email igual o do cara, schedule id igual a 3, porque o 3 é o meu 8 da noite."* Por que botão: *"ninguém resiste a clicar no botão."*
@@ -814,7 +814,7 @@ Se a tua era essa, lê com atenção.
 
 **Função:** last call com escassez **real**. O bônus de ação rápida sai do ar amanhã. Sem urgência fabricada - só o que é verdade.
 
-> **Verbatim do efeito (Enes, sobre o último dia):** *"dizendo que é hoje o último dia, que a oferta está encerrando... isso vende pra caramba."* Deadline força decisão - sem prazo, "depois eu vejo" se repete pra sempre. Mas a escassez tem que ser **auditável**: o que sai tem que sair de verdade.
+> **Verbatim do efeito (método, sobre o último dia):** *"dizendo que é hoje o último dia, que a oferta está encerrando... isso vende pra caramba."* Deadline força decisão - sem prazo, "depois eu vejo" se repete pra sempre. Mas a escassez tem que ser **auditável**: o que sai tem que sair de verdade.
 
 **EMAIL 7 - molde**
 
@@ -1211,4 +1211,4 @@ a clarear teu próprio motivo.
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-Antes de subir as sequências, cada e-mail e cada WhatsApp (assunto, pré-header, corpo, CTA) PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`), as 3 perguntas do Harry, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Sem passar no Crivo, a sequência não sobe. O checklist técnico acima (tags, DKIM/SPF, roteamento, timestamp) é o encanamento; o Crivo é o gate da COPY que o lead lê, e os dois são pré-condição da subida.
+Antes de subir as sequências, cada e-mail e cada WhatsApp (assunto, pré-header, corpo, CTA) PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`), as 3 perguntas do gate, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Sem passar no Crivo, a sequência não sobe. O checklist técnico acima (tags, DKIM/SPF, roteamento, timestamp) é o encanamento; o Crivo é o gate da COPY que o lead lê, e os dois são pré-condição da subida.

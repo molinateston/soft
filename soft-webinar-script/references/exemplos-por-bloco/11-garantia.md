@@ -1,19 +1,19 @@
 # Garantia (reversão de risco, garantia condicional de resultado, dobro do dinheiro)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Atenção estrutural: este é o bloco MAIS RARO do corpus - só 3 de 9 webinars têm garantia (Fladlien #1, Fladlien #2, Léo A). Os outros 6 fecham sem reversão de risco formal e absorvem essa função no bloco 10 (preço trivializado) e no payback. A decisão "ter ou não ter garantia" é de design, não de praxe - e quem NÃO tem precisa de bloco 10 forte.
+> Atenção estrutural: este é o bloco MAIS RARO do corpus - só 3 de 9 webinars têm garantia (webinar de referência #1, webinar de referência #2, Léo A). Os outros 6 fecham sem reversão de risco formal e absorvem essa função no bloco 10 (preço trivializado) e no payback. A decisão "ter ou não ter garantia" é de design, não de praxe - e quem NÃO tem precisa de bloco 10 forte.
 
 ---
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-Nos 3 campeões que a usam, a garantia nunca é o "satisfação ou seu dinheiro de volta" genérico: é garantia CONDICIONAL DE RESULTADO, atrelada a aplicar o método ("rode um webinar em 30 dias seguindo minha fórmula"; "90 dias botando em prática, preencheu o app, subiu as fotos"). Isso muda a natureza da peça: as condições da garantia são, na prática, o plano de ação que gera o resultado que elimina o reembolso - a garantia é um mecanismo de sucesso disfarçado de proteção. Segundo: o degrau máximo é a INVERSÃO de risco - dobro do dinheiro de volta (Fladlien #2 e Léo A): o risco deixa de ser removido e passa pro vendedor, o que só é crível com reason-why atuarial declarado ("I know the numbers - o número de quem falha é minúsculo") ou com confiança encenada ("eu tenho tanta certeza do que eu tô te oferecendo"). Terceiro: o processo de reembolso é ENCENADO passo a passo, com dignidade prometida ("Promptly and quietly, we'll return every penny" - sem constrangimento, sem interrogatório), porque o medo real do lead não é perder o dinheiro, é a fricção e a vergonha de pedir de volta. Quarto: a garantia escalonada pode embutir mais valor no caminho (Léo A: antes do reembolso, consultoria individual de R$3.000 grátis - mais uma âncora dentro da garantia). Quinto: a garantia vira a resposta-mestra do Q&A ("entre, experimente 30 dias" mata qualquer pergunta evasiva - Fladlien #2). E a premissa-mãe, dita pelo Fladlien: "if I remove every possibility for you to fail, then what is left? Only success."
+Nos 3 campeões que a usam, a garantia nunca é o "satisfação ou seu dinheiro de volta" genérico: é garantia CONDICIONAL DE RESULTADO, atrelada a aplicar o método ("rode um webinar em 30 dias seguindo minha fórmula"; "90 dias botando em prática, preencheu o app, subiu as fotos"). Isso muda a natureza da peça: as condições da garantia são, na prática, o plano de ação que gera o resultado que elimina o reembolso - a garantia é um mecanismo de sucesso disfarçado de proteção. Segundo: o degrau máximo é a INVERSÃO de risco - dobro do dinheiro de volta (webinar de referência #2 e Léo A): o risco deixa de ser removido e passa pro vendedor, o que só é crível com reason-why atuarial declarado ("I know the numbers - o número de quem falha é minúsculo") ou com confiança encenada ("eu tenho tanta certeza do que eu tô te oferecendo"). Terceiro: o processo de reembolso é ENCENADO passo a passo, com dignidade prometida ("Promptly and quietly, we'll return every penny" - sem constrangimento, sem interrogatório), porque o medo real do lead não é perder o dinheiro, é a fricção e a vergonha de pedir de volta. Quarto: a garantia escalonada pode embutir mais valor no caminho (Léo A: antes do reembolso, consultoria individual de R$3.000 grátis - mais uma âncora dentro da garantia). Quinto: a garantia vira a resposta-mestra do Q&A ("entre, experimente 30 dias" mata qualquer pergunta evasiva - webinar de referência #2). E a premissa-mãe, dita no webinar de referência: "if I remove every possibility for you to fail, then what is left? Only success."
 
 ---
 
 ## Exemplo por exemplo
 
-### Fladlien #1 (One to Many - Genius Webinars) - US$14,97; garantia condicional de resultado em 30 dias
+### webinar de referência #1 (One to Many - Genius Webinars) - US$14,97; garantia condicional de resultado em 30 dias
 
 **Trecho literal:**
 
@@ -31,7 +31,7 @@ E no ensino (ele dá a doutrina do bloco dentro do próprio webinar):
 
 ---
 
-### Fladlien #2 ("Product Creation Secrets" / Product E-Class 2020) - US$497; a garantia mais sofisticada do corpus: dupla camada + dobro do dinheiro
+### webinar de referência #2 ("Product Creation Secrets" / Product E-Class 2020) - US$497; a garantia mais sofisticada do corpus: dupla camada + dobro do dinheiro
 
 **Trecho literal:**
 
@@ -71,7 +71,7 @@ As condições (no Q&A, com a metáfora do cheque):
 
 **O que ele fez:** (1) garantia condicional em dois estágios (90 dias aplicando → consultoria de R$3.000 grátis → +90 dias → reembolso EM DOBRO); (2) a condição exige uso real e auditável (preencher app, subir fotos) - filtra o reembolso oportunista e força ativação; (3) o escalonamento embute mais uma âncora (a consultoria "vale" 3x o preço do produto); (4) comando teatral "grava essa tela" que transforma a garantia em evento e prova de seriedade; (5) o dobro "do meu bolso, pelo tempo que você perdeu" - o reembolso indeniza até o tempo, não só o dinheiro.
 
-**Por que funciona:** dobro-do-dinheiro transfere 200% do risco para o vendedor - mas só para quem APLICOU, alinhando o incentivo: ou a aluna tem resultado, ou vira case da consultoria, ou ele paga caro (e ele sabe que quase ninguém cumpre o protocolo inteiro sem ter resultado). É a versão em pele Soft da mesma arquitetura do Fladlien #2 - prova de que a premissa atravessa nicho e idioma.
+**Por que funciona:** dobro-do-dinheiro transfere 200% do risco para o vendedor - mas só para quem APLICOU, alinhando o incentivo: ou a aluna tem resultado, ou vira case da consultoria, ou ele paga caro (e ele sabe que quase ninguém cumpre o protocolo inteiro sem ter resultado). É a versão em pele Soft da mesma arquitetura do webinar de referência #2 - prova de que a premissa atravessa nicho e idioma.
 
 **O que é decalcável vs do nicho:** decalcável: o escalonamento com entrega de valor no meio (consultoria antes do reembolso), a condição auditável de aplicação, o "grava essa tela". Do nicho: app/fotos como evidência de aplicação - cada nicho define seu rastro verificável de implementação.
 
@@ -83,10 +83,10 @@ As condições (no Q&A, com a metáfora do cheque):
 - [ ] **As condições são o protocolo de implementação.** Cumprir a garantia = executar o plano que gera o resultado. A garantia é ferramenta de ativação disfarçada de proteção.
 - [ ] **Reason-why da confiança declarado.** Atuarial ("I know the numbers") ou de convicção ("tenho tanta certeza do que tô te oferecendo") - dobro do dinheiro sem porquê soa truque.
 - [ ] **Processo de reembolso encenado com dignidade.** Passo a passo, sem interrogatório ("no questions asked", "promptly and quietly") - o medo real é a vergonha de pedir, não o dinheiro.
-- [ ] **Escalonamento que embute valor** (consultoria de R$3.000 antes do reembolso - Léo A; dupla camada 30/60 dias - Fladlien #2). Cada degrau da garantia é mais uma âncora.
-- [ ] **Prova social da própria garantia** (Fladlien #2: quem entrou pra explorá-la não precisou dela) - a garantia também recebe prova.
+- [ ] **Escalonamento que embute valor** (consultoria de R$3.000 antes do reembolso - Léo A; dupla camada 30/60 dias - webinar de referência #2). Cada degrau da garantia é mais uma âncora.
+- [ ] **Prova social da própria garantia** (webinar de referência #2: quem entrou pra explorá-la não precisou dela) - a garantia também recebe prova.
 - [ ] **Comando de registro** ("grava essa tela") - a garantia é dita como contrato público, não como nota de rodapé.
-- [ ] **A garantia vira resposta-mestra no Q&A** (Fladlien #2: toda pergunta evasiva é respondida com "entre e experimente 30 dias" + analogia do restaurante). Quem tem garantia usa ela pra fechar o "maybe".
+- [ ] **A garantia vira resposta-mestra no Q&A** (webinar de referência #2: toda pergunta evasiva é respondida com "entre e experimente 30 dias" + analogia do restaurante). Quem tem garantia usa ela pra fechar o "maybe".
 - [ ] **Frase-síntese citável** ("There is no risk. There's only reward."; "if I remove every possibility for you to fail, what is left? Only success.") - a garantia fecha em aforismo.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
@@ -97,7 +97,7 @@ As condições (no Q&A, com a metáfora do cheque):
 - **Anunciar a garantia sem encenar o processo.** "Tem garantia de 30 dias" seco não remove o medo da fricção - os campeões narram o e-mail, a resposta, a devolução.
 - **Garantia sem reason-why.** Dobro do dinheiro sem "como você pode fazer isso?" respondido na hora vira bandeira vermelha - os dois que a usam respondem antes de perguntarem.
 - **Ter garantia E bloco de preço fraco - ou nem garantia nem trivialização.** No corpus, quem não tem garantia compensa no bloco 10 (âncoras + payback + redução ao ridículo). Webinar novo sem garantia E sem de-risking no preço deixa o risco inteiro no colo do lead - nenhum campeão faz isso.
-- **Decalcar a forma com dono.** "Double your money back" com as condições do Fladlien e a garantia escalonada com consultoria do MDI são peças com dono - extrair a arquitetura (condição de aplicação + escalonamento + dignidade), definir números e rastro de evidência com o especialista.
+- **Decalcar a forma com dono.** "Double your money back" com as condições do modelo e a garantia escalonada com consultoria do MDI são peças com dono - extrair a arquitetura (condição de aplicação + escalonamento + dignidade), definir números e rastro de evidência com o especialista.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -110,4 +110,4 @@ As condições (no Q&A, com a metáfora do cheque):
 - **Aluna 80k (Juliana Pupim):** nenhuma garantia. Substituição por payback ("um freelance… você já pagou o curso"), prova social em volume e o desconto-combinado que pressupõe sucesso.
 - **Léo C (voz Bruno):** inexistente. Risco tratado só por payback ("você vai pegar esse investimento de volta nos primeiros casos que você fechar") e pela tese das pegadas.
 
-**Leitura clínica do conjunto:** a máquina MindMaster - a mais testada do corpus, R$13M - escolhe NÃO ter garantia em todas as 4 edições; quem usa garantia pesada (dobro do dinheiro) são os webinars de ticket menor ou de promessa mais incrédula (Fladlien, MDI). Regra de decisão pra skill: garantia é alavanca opcional que troca de lugar com o de-risking do bloco 10 - se a promessa do webinar novo enfrenta ceticismo alto ("isso não funciona pra mim"), a garantia condicional de aplicação é a arma; se o preço já foi trivializado e o payback é óbvio, fechar sem garantia é padrão validado pelo corpus. A decisão final é do Léo (método é dele) - apresentar as duas rotas com estes dados.
+**Leitura clínica do conjunto:** a máquina MindMaster - a mais testada do corpus, R$13M - escolhe NÃO ter garantia em todas as 4 edições; quem usa garantia pesada (dobro do dinheiro) são os webinars de ticket menor ou de promessa mais incrédula (webinar de referência, MDI). Regra de decisão pra skill: garantia é alavanca opcional que troca de lugar com o de-risking do bloco 10 - se a promessa do webinar novo enfrenta ceticismo alto ("isso não funciona pra mim"), a garantia condicional de aplicação é a arma; se o preço já foi trivializado e o payback é óbvio, fechar sem garantia é padrão validado pelo corpus. A decisão final é do Léo (método é dele) - apresentar as duas rotas com estes dados.

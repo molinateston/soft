@@ -234,7 +234,7 @@ Fechamento da conta (ROI):
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - webinar sobre webinars; US$10M → 1M → 100k → 4.995 → 14,97 (ensina a técnica E executa)
+### webinar de referência #1 (One to Many - Genius Webinars) - webinar sobre webinars; US$10M → 1M → 100k → 4.995 → 14,97 (ensina a técnica E executa)
 
 **Trecho literal:**
 
@@ -256,7 +256,7 @@ Reprise no fechamento:
 
 > "And not for $49.95. That's the normal price for a one-time investment of $14.97."
 
-**O que ele fez:** "price linking" (nome dele, Fladlien): ligar a oferta a um preço absurdo com lastro (US$10M gerados numa sessão) → degraus descendentes, cada um com reason-why (US$1M = valor nas mãos certas, John Carter; US$100k = o que líderes pagam por acesso; US$4.995 = preço REAL pago por sala esgotada) → revelação do preço final (US$14,97) após queda de ~333x sobre a âncora mais próxima → royalties de milhões como âncora extra na execução → o sweet spot psicológico nomeado: fazer o comprador sentir que está levando vantagem sobre VOCÊ.
+**O que ele fez:** "price linking" (nome dele, webinar de referência): ligar a oferta a um preço absurdo com lastro (US$10M gerados numa sessão) → degraus descendentes, cada um com reason-why (US$1M = valor nas mãos certas, John Carter; US$100k = o que líderes pagam por acesso; US$4.995 = preço REAL pago por sala esgotada) → revelação do preço final (US$14,97) após queda de ~333x sobre a âncora mais próxima → royalties de milhões como âncora extra na execução → o sweet spot psicológico nomeado: fazer o comprador sentir que está levando vantagem sobre VOCÊ.
 
 **Por que funciona:** cada degrau da escada tem lastro verificável, então a queda não cheira a desconto fake - cheira a oportunidade com janela. Quando US$14,97 aparece, o cérebro já processou quatro referências maiores e legítimas; o preço final parece erro a favor do comprador.
 
@@ -264,7 +264,7 @@ Reprise no fechamento:
 
 ---
 
-### Fladlien #2 ("Product Creation Secrets" / Product E-Class 2020) - criação de produtos digitais; US$9.997 → 4.995 → 997 → 497 (3x US$194)
+### webinar de referência #2 ("Product Creation Secrets" / Product E-Class 2020) - criação de produtos digitais; US$9.997 → 4.995 → 997 → 497 (3x US$194)
 
 **Trecho literal:**
 
@@ -300,7 +300,7 @@ Inflação reversa (no Q&A):
 2. **Dupla ancoragem: externa + interna.** Externa = o que a categoria/o problema custa por fora (MBA, consulta, seminário, nutricionista+personal+manipulado, item a item). Interna = a soma do stack riscada na frente do espectador (15.000 / 16.594 / 12.100 / 7.355 / 5.638).
 3. **Queda em degraus, cada degrau com reason-why PRÓPRIO e público.** Ficou até o final; link do canal (desconto por canal, não por cupom - padrão MindMaster); combinado/depoimento futuro (o "Combinado não sai caro" da MindMaster; o "me avisa quando conseguir o emprego" da Juliana); 10/15 primeiros; à vista. Desconto sempre com causa - nunca "porque sim".
 4. **Desconto com contrapartida preserva o valor.** O produto nunca desvaloriza; o ACESSO de quem está na sala fica privilegiado. Variante avançada: a contrapartida planta a prova social do próximo webinar.
-5. **Âncora com lastro auditável.** Preço de prateleira no site ("entra no mindmaster.com.br agora"), link da bio (Léo C), preço real pago por turmas anteriores (Fladlien: "people have paid this"). Âncora verificável = desconto crível.
+5. **Âncora com lastro auditável.** Preço de prateleira no site ("entra no mindmaster.com.br agora"), link da bio (Léo C), preço real pago por turmas anteriores (webinar de referência: "people have paid this"). Âncora verificável = desconto crível.
 6. **A parcela é o preço.** O total parcelado não é verbalizado (máquina MindMaster); depois a parcela cai pra unidade diária (5,51 / 6,00 / 2,60 por dia). É troca de unidade progressiva, não só desconto.
 7. **Reduzir ao ridículo contra gasto que o avatar JÁ faz** - pizza, iFood, Coca, streaming, cafezinho - em duas alturas: comparação verbal primeiro, prova documental depois (print do iFood, foto da Coca na gôndola). Bônus: contraste moral embutido (Coca "estraga sua saúde"; pizza "comeu vira cocô" vs. o objetivo da avatar).
 8. **A conta fecha em ROI/payback na moeda da promessa.** Um aumento de salário, um freelance, uma semana de trabalho (Bianca), 2-3 casos clínicos, "em um mês de salário de gestor você paga". O preço é julgado contra o retorno que a aula tornou crível - nunca contra zero.
@@ -317,9 +317,9 @@ Inflação reversa (no Q&A):
 - **Verbalizar o total parcelado.** "12x de 199 = 2.388 no cartão" destrói a troca de unidade; ninguém do corpus faz isso.
 - **Trivializar contra gasto fora do universo do avatar.** Coca-Cola funciona pro CLT, não necessariamente pro cirurgião; a premissa é "gasto banal que ELE já faz", não o objeto Coca/iFood - decalcar o objeto é erro G2.
 - **Empilhar descontos na mesma moeda.** A máquina MindMaster separa: o desconto remove objeção de preço (todos levam), a corrida é pelos bônus dos 15 primeiros (camada própria). Misturar dilui as duas urgências.
-- **Pedir desculpa pelo preço / tom de súplica.** O frame dos campeões é o inverso: "injusto comigo" (Vítor/Léo A), "injusto com a Mindmaster", sweet spot do Fladlien ("making them feel like they're taking advantage of you").
+- **Pedir desculpa pelo preço / tom de súplica.** O frame dos campeões é o inverso: "injusto comigo" (Vítor/Léo A), "injusto com a Mindmaster", sweet spot do modelo ("making them feel like they're taking advantage of you").
 - **Deixar este bloco fraco quando não há garantia.** Em 6 dos 9 webinars não existe reversão de risco formal - a trivialização do preço É o de-risking. Bloco de preço raso + sem garantia = risco inteiro no colo do lead.
-- **Atribuir mecanismo a dono errado.** "Price linking" e o sweet spot são do Fladlien; "Combinado não sai caro", desconto por canal, Coca-Cola/R$5,51-por-dia e o price-seeding institucional são da máquina MindMaster; o "gestossauro" é da edição GAIA2k; a "visão de floresta" (citada em outros blocos) é da MindMaster. Ao escrever pro Léo, usar as PREMISSAS - a forma final se define com ele.
+- **Atribuir mecanismo a dono errado.** "Price linking" e o sweet spot são do modelo; "Combinado não sai caro", desconto por canal, Coca-Cola/R$5,51-por-dia e o price-seeding institucional são da máquina MindMaster; o "gestossauro" é da edição GAIA2k; a "visão de floresta" (citada em outros blocos) é da MindMaster. Ao escrever pro Léo, usar as PREMISSAS - a forma final se define com ele.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -327,5 +327,5 @@ Inflação reversa (no Q&A):
 
 Dois dados estruturais que saem dessa cobertura total:
 
-- **Fladlien #1 é caso duplo:** ensina a técnica em ~min 62 (com nome: price linking) e a executa em ~min 78 no próprio pitch - serve de gabarito teórico pra auditar os outros oito.
-- **A ausência correlata é a GARANTIA (bloco 11):** 13M, 5 Níveis, Aluna 80k, GAIA2k, Gestão Ágil ed. 2 e Léo C fecham SEM reversão de risco formal (auditado por grep nas partições). Nesses webinars, o de-risking mora AQUI: âncora + degraus + trivialização + payback. Quem escrever um webinar sem garantia precisa dimensionar este bloco pra carregar essa função; quem tiver garantia (caso Fladlien #2, "protected by two guarantees") pode fechar a queda apontando pra ela.
+- **webinar de referência #1 é caso duplo:** ensina a técnica em ~min 62 (com nome: price linking) e a executa em ~min 78 no próprio pitch - serve de gabarito teórico pra auditar os outros oito.
+- **A ausência correlata é a GARANTIA (bloco 11):** 13M, 5 Níveis, Aluna 80k, GAIA2k, Gestão Ágil ed. 2 e Léo C fecham SEM reversão de risco formal (auditado por grep nas partições). Nesses webinars, o de-risking mora AQUI: âncora + degraus + trivialização + payback. Quem escrever um webinar sem garantia precisa dimensionar este bloco pra carregar essa função; quem tiver garantia (caso webinar de referência #2, "protected by two guarantees") pode fechar a queda apontando pra ela.

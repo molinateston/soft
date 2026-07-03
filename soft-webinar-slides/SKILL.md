@@ -76,7 +76,7 @@ Preenche a tabela **por fase**. Só fase com VEREDITO=PASSA é mostrada/exportad
 | Check | Passa se | ✓/✗ |
 |---|---|---|
 | **Ancorada no verbatim** | toda prova/número/aspa nasce da fonte REAL do roteiro (caso + N real); **inventado/plausível = ✗ automático**; sem fonte vira `[DADO: confirmar]` e não conta como ✓ | |
-| **3 perguntas do Harry** | no título/frase de cada slide-chave: **dá pra ver?** (cena concreta, não adjetivo) · **dá pra falsificar?** (fato, não promessa vazia) · **só você diz?** (concorrente direto não assina igual) | |
+| **3 perguntas do gate** | no título/frase de cada slide-chave: **dá pra ver?** (cena concreta, não adjetivo) · **dá pra falsificar?** (fato, não promessa vazia) · **só você diz?** (concorrente direto não assina igual) | |
 | **C/U/B** | a copy de tela é **Clara** (1 ideia legível) · **Útil** (serve à fala) · **Boa** (na voz do usuário, não genérica) | |
 | **CTA com destino** | o fechamento aponta destino real (link/canal humano) que captura indeciso pro comercial 1:1; sem "saiba mais" vago | |
 | **1 ideia por slide** | passa a pergunta-teste: NÃO dá pra narrar lendo a tela; toda a copy falada na nota | |
@@ -116,7 +116,7 @@ Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te
 | Slide morto, sem troca | Respiro preto em toda virada; troca de estímulo casada com a fala |
 
 ## References (o fluxo acima é autossuficiente)
-- `shared-references/crivo/03-gate-cub.md`: detalhamento do gate (barreira de ancoragem, CUB em camadas, 3 perguntas do Harry, anti-vazamento). Mesma régua, com mais exemplo.
+- `shared-references/crivo/03-gate-cub.md`: detalhamento do gate (barreira de ancoragem, CUB em camadas, 3 perguntas do gate, anti-vazamento). Mesma régua, com mais exemplo.
 - `shared-references/filtro-anti-ia/`: os padrões banidos que o anti-IA HARD aplica.
 - `shared-references/filtro-mobile-first/`: regra de legibilidade na tela do celular.
 - `scripts/lint_copy.py`: no Code, roda `python3 scripts/lint_copy.py` na copy de tela+nota (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.

@@ -125,7 +125,7 @@ Depois de montar o guia, vai pro **Gate de saída** e entrega.
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim real, carrega a dor. Aspa fabricada/parafraseada = FALHA.
 2. **Prova NUNCA inventada:** número, case, nome, vaga, preço só entram se vierem do briefing real; sem lastro, vira `[A CONFIRMAR]`. É o gêmeo da regra-mãe "simula a sala, nunca a prova".
 3. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece.
-4. **Gate CUB + 3 perguntas do Harry** (`crivo/03-gate-cub.md`): inclui o anti-IA. **Roda `python3 scripts/lint_copy.py` no conteúdo do chat/guia** (em-dash e a família anti-voz reprovam zero-tolerância).
+4. **Gate CUB + 3 perguntas do gate** (`crivo/03-gate-cub.md`): inclui o anti-IA. **Roda `python3 scripts/lint_copy.py` no conteúdo do chat/guia** (em-dash e a família anti-voz reprovam zero-tolerância).
 
 **Encanamento × copy:** a checagem de consistência (Passo 3, §5) é o encanamento (eco↔respaldo, comando↔rajada, zero antecipação); o Crivo é o gate da COPY. **Os dois são pré-condição da subida.** Sem passar nos dois, o chat não sobe e o guia não sai.
 

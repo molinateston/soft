@@ -2,7 +2,7 @@
 
 > **Quando consultar:** Modo B sempre — cliente precisa escolher formato. Esta reference detalha os 6 formatos validados, com tempo por bloco, conteúdo recomendado, prós e contras.
 
-Material consolidado de Holzer (Diamond Julho 2025). Skill ajuda cliente a escolher pelo perfil dele.
+Material consolidado da Sala Secreta (evento de referência Julho 2025). Skill ajuda cliente a escolher pelo perfil dele.
 
 ---
 
@@ -67,7 +67,7 @@ Cada um tem **finalidade específica**. Não são intercambiáveis.
 - Cliente solo sem equipe
 - Janela de tempo curta pra organizar
 
-### Estrutura padrão (Holzer)
+### Estrutura padrão (Sala Secreta)
 
 ```
 19h00-19h10  | 10 min — Breve apresentação
@@ -150,7 +150,7 @@ Cada um tem **finalidade específica**. Não são intercambiáveis.
 - Lançamento já validado (não primeiro)
 - Sábado disponível (audiência B2B livre)
 
-### Estrutura padrão (Holzer formato favorito)
+### Estrutura padrão (formato favorito Sala Secreta)
 
 ```
 10h00-12h00  | Bloco 1 (conteúdo)

@@ -2,7 +2,7 @@
 
 > A certeza de invocação. O LEON não "lembra" qual skill chamar nem em que ordem: ele segue o trilho. Pra cada funil, o pipeline explícito, em ordem, com o gate de cada passo. Sem gate cumprido, o passo não libera o seguinte.
 
-O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do Harry + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
+O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do gate + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
 
 > **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinar-plano) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo é a ORDEM de APONTAR as atômicas: cada passo roda numa **CONVERSA NOVA** dedicada (o LEON aponta e manda o especialista abrir a conversa da skill, NÃO executa a skill na conversa dele), e o ativo volta pra ESTA conversa pro Crivo. Ver o **Handoff** no `soft-leon`.
 
@@ -15,7 +15,7 @@ Atração filtra e aquece → o lead cai no Comercial 1:1. Pipeline:
 ```
 soft-posicionamento            (gate: Crivo do Plano de Posicionamento)
         ↓
-soft-conteudo-headlines        (gate embutido: Harry + CUB + anti-IA; a headline ANTES do corpo)
+soft-conteudo-headlines        (gate embutido: 3 perguntas + CUB + anti-IA; a headline ANTES do corpo)
         ↓
 soft-conteudo-carrossel        (corpo do carrossel; OU -reels OU -stories conforme a peça)
 soft-conteudo-reels            (roteiro de reel)
@@ -32,12 +32,12 @@ soft-vendas → -script → -objecao → -copiloto → -posvenda   (gate embutid
 
 Gates, um por linha:
 - **soft-posicionamento**: o Plano (NMO) passa no Crivo do Plano antes de virar a fundação. Sem Plano de pé, nada depois tem destinatário.
-- **soft-conteudo-headlines**: a headline nasce do verbatim, passa o gate embutido (5 critérios + Harry + anti-IA, com VEREDITO). **Headline antes do corpo, sempre.**
+- **soft-conteudo-headlines**: a headline nasce do verbatim, passa o gate embutido (5 critérios + 3 perguntas + anti-IA, com VEREDITO). **Headline antes do corpo, sempre.**
 - **soft-conteudo-{carrossel,reels,stories}**: o corpo parte da headline escolhida; cada um tem o gate embutido (densidade/tensão/CARO + CUB + anti-IA).
 - **soft-conteudo-multiplataforma**: re-renderiza a peça-âncora preservando a tese; mantém o gate.
 - **soft-designer**: o visual passa no `soft-designer/scripts/craft.py` (contraste + anti-órfã) antes de exportar PNG. O LEON só confere que rodou.
 - **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta ADMA), Mini-webinar (micro-aula ADMA). A peça qualifica; não fecha a venda.
-- **soft-vendas-***: o **fechamento comercial 1:1 é sempre aqui**: prospecção (abre), script (conduz), objeção (isola), copiloto (tempo real), pós-venda (indicação/onboarding). Cada um com gate embutido.
+- **soft-vendas-***: o **fechamento comercial 1:1 é sempre aqui**: prospecção (abre), script (conduz), objeção (isola), copiloto (tempo real), pós-venda (indicação/onboarding). Cada um com gate embutido. **Canal padrão do 1:1 = DM/WhatsApp** (fecha no chat com áudio/doc/vídeo); call é exceção de contexto, SDR+Closer só com equipe e volume.
 
 ---
 
@@ -65,7 +65,7 @@ soft-webinar-mensagens  (tags/CRM + chat simulado) → soft-vendas-*   (fechamen
 
 - **gate de maturidade**: o LEON só sobe pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Não cabe? Fica no degrau 1.
 - **a oferta vem antes do roteiro** (soft-webinar-plano antes de soft-webinar-script). Cada atômica de webinar tem o gate embutido; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
-- **fechamento**: high-ticket (3k+) fecha no Comercial 1:1 (soft-vendas-*), nunca no checkout.
+- **fechamento (o canal é do FUNIL)**: o **Funil de Aula Agendada fecha DE UMA VEZ no checkout, na própria aula** (one-step), para o produto que cabe no checkout; a oferta cara acima (>~3k) NÃO é o produto da aula, é degrau de esteira fechado no Comercial 1:1 (soft-vendas-*) como ascensão DEPOIS.
 
 > **Material privado do autor do método:** o webinar REAL dele (case proprietário, calls, frameworks proprietários) NÃO está nas 9 atômicas genéricas (são client-safe). Ele vive na `soft-webinar-plano` (rica, privada, restrita ao autor, fonte+bot, nunca em plugin público).
 

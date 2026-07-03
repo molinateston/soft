@@ -116,9 +116,9 @@ Roda o gate na versão adaptada **internamente** (auditoria silenciosa). Só ver
 | **Confuso? (C)** | leigo do nicho entende na 1ª passada, sem reler | |
 | **Inacreditável? (U)** | promessa/número soa crível, não exagero de guru | |
 | **Chato? (B)** | tem cena/tensão/opinião; não é parágrafo morno informativo | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 

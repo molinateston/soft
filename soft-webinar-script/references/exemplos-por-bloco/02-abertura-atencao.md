@@ -1,7 +1,7 @@
 # Abertura/Atenção (promessa da aula, headline falada, regras da sala, por que ficar até o fim)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = MindMaster/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = Fladlien).
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = MindMaster/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = webinar de referência).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -135,7 +135,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: headline-paradoxo (coisa básica que o experiente ainda erra), promessa ancorada em prova visual na tela, dupla promessa técnica+financeira. Do nicho: as dores nomeadas (cor/opacidade) e o caso clínico são da odonto.
 
-### Fladlien #1 (One to Many - Genius Webinars) - meta-webinar evergreen; US$4.995 ancorado → US$14,97
+### webinar de referência #1 (One to Many - Genius Webinars) - meta-webinar evergreen; US$4.995 ancorado → US$14,97
 
 **Trecho literal:**
 
@@ -149,11 +149,11 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **O que ele fez:** contrato de expectativas explícito ("here's my agenda… just so we're very clear with expectations right up front") → promessa em escada emocional (confiança → clareza → potencial → "if nothing else, money") → troca bilateral declarada: o que EU faço por você / o que VOCÊ faz por mim (implementation) → primeiro micro-compromisso ("Do we have a deal?", com fallback "say yes out loud" pra replay) → agenda como cascata de 5 loops abertos, cada um com número (US$100M, 9 em 10, fill-in-the-blank).
 
-**Por que funciona:** a abertura vende a permanência, não o produto: cada item da agenda é uma promessa incompleta que só fecha se a pessoa ficar. O "deal" bilateral transfere responsabilidade pelo resultado ao espectador desde o minuto 1 - quem disse "yes" já se comporta como aluno, não como espectador. Doutrina do próprio Fladlien (ensinada DENTRO deste webinar): a introdução precisa cumprir 5 trabalhos - "Authority, commitment, objections, hope, intrigue. Accomplish these five things in your first five minutes and you will not have to do anything else in your webinar and you can easily double or triple your results."
+**Por que funciona:** a abertura vende a permanência, não o produto: cada item da agenda é uma promessa incompleta que só fecha se a pessoa ficar. O "deal" bilateral transfere responsabilidade pelo resultado ao espectador desde o minuto 1 - quem disse "yes" já se comporta como aluno, não como espectador. Doutrina do próprio modelo (ensinada DENTRO deste webinar): a introdução precisa cumprir 5 trabalhos - "Authority, commitment, objections, hope, intrigue. Accomplish these five things in your first five minutes and you will not have to do anything else in your webinar and you can easily double or triple your results."
 
-**Decalcável vs do nicho:** decalcável: o checklist de 5 trabalhos da introdução (Fladlien), o deal bilateral, agenda numerada com número em cada loop. Do nicho: a escada confidence/clarity/potential é tom de mercado americano de marketing - em PT-BR pede recalibragem de registro.
+**Decalcável vs do nicho:** decalcável: o checklist de 5 trabalhos da introdução (webinar de referência), o deal bilateral, agenda numerada com número em cada loop. Do nicho: a escada confidence/clarity/potential é tom de mercado americano de marketing - em PT-BR pede recalibragem de registro.
 
-### Fladlien #2 (Product Creation Secrets / Product E-Class 2020) - infoprodutos; US$997 público → US$497; ~3h com Q&A de 90 min
+### webinar de referência #2 (Product Creation Secrets / Product E-Class 2020) - infoprodutos; US$997 público → US$497; ~3h com Q&A de 90 min
 
 **Trecho literal:**
 
@@ -176,26 +176,26 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 ## Padrões transversais (checklist - o que TODOS fazem neste bloco)
 
 - [ ] **Headline falada nos primeiros minutos**, com resultado + prazo (e nos melhores, a negação da dor esperada: "sem abandonar os momentos", "sem inglês fluente").
-- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina MindMaster; 5 loops com número no Fladlien; "o erro de 99% + 3 pilares" no Vítor Abrão).
+- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina MindMaster; 5 loops com número no webinar de referência; "o erro de 99% + 3 pilares" no Vítor Abrão).
 - [ ] **O último objetivo é a promessa do PRODUTO** disfarçada de objetivo da aula ("reconhecido pelo mercado em 90 dias", "gestor indispensável") - abertura e oferta são o mesmo texto em dois tempos.
-- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (MindMaster, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (Fladlien). Nunca revelada na abertura; repicada no meio.
-- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (Fladlien 1 e 2), "Combinado?" (Juliana, Denison), "posso contar com você nos próximos 60 minutos?" (Juliana).
+- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (MindMaster, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (webinar de referência). Nunca revelada na abertura; repicada no meio.
+- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (webinar de referência #1 e #2), "Combinado?" (Juliana, Denison), "posso contar com você nos próximos 60 minutos?" (Juliana).
 - [ ] **Regras da sala que protegem o host sem esfriar**: "não respondo 1:1, a equipe monitora" (ed.2), "vou focar na apresentação, mas de tempos em tempos eu olho" (GAIA2k) - sempre com reason-why ("por uma boa causa").
 - [ ] **Micro-compromisso digitado já neste bloco** (quiz T/F, "quem tem problema com gestão de tempo?", nome+cidade) - instala o hábito de responder que será cobrado no pitch.
 - [ ] **Elogio/rotulagem da audiência**: "guerreiros e guerreiras", "você já está na frente de um monte de gente", "você já é diferente" - quem fica ganha identidade.
 - [ ] **Compromisso público de cumprimento**: "eu vou cumpri-la com certeza", "promessa é lei", "I will show you how to do it" - a promessa vira contrato auditável no recap.
-- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Juliana), "papel e caneta" (Denison), "take it out right now" (Fladlien).
+- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Juliana), "papel e caneta" (Denison), "take it out right now" (webinar de referência).
 - [ ] **Prazo/número grifado verbalmente** ("vou grifar essa palavrinha: 90 dias", "três vezes mais, não aceito menos") - o número da promessa fica marcado pra reaparecer na oferta.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
-- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (Fladlien #2, "spoiler") - sem número, sem stack. (O price-seeding da MindMaster acontece no bloco de autoridade, como fato de catálogo - não aqui.)
+- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (webinar de referência #2, "spoiler") - sem número, sem stack. (O price-seeding da MindMaster acontece no bloco de autoridade, como fato de catálogo - não aqui.)
 - **Revelar o presente do fim.** Todos escondem o conteúdo do presente ("eu não vou falar o que é"). Presente revelado = loop fechado = retenção perdida.
 - **Promessa vaga, sem número e sem prazo.** Todos quantificam: 90 dias, 3x mais, 2 horas, um ano em 3 meses. Promessa genérica ("vou te ensinar muito sobre X") não aparece em nenhum campeão.
 - **Entrar no conteúdo técnico antes de fechar o contrato de atenção.** Todos gastam os primeiros minutos comprando permanência; nenhum abre ensinando.
 - **Abrir pedindo desculpas ou diminuindo a aula** ("vou tentar", "é só uma aulinha"). O movimento é o oposto: reprecificar o evento ("a melhor decisão que você tomou", "bolo com calda", "melhor conteúdo de 2020").
 - **Regras de sala sem reason-why.** Pedir comportamento "porque sim" não acontece - todo pedido vem com motivo funcional ("se ninguém colocar eu não vou saber", "é por uma boa causa").
-- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/MindMaster; "Do we have a deal" é cadência Fladlien. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do Léo - nunca transplantar a frase.
+- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/MindMaster; "Do we have a deal" é cadência do webinar de referência. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do Léo - nunca transplantar a frase.
 - **Pra perpétuo: abertura que depende de sala viva.** O Vítor Abrão mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
 - **No-replay falso.** A Juliana usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
 
@@ -204,7 +204,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 **Nenhum.** Os 9 webinars-campeões do corpus têm o bloco de Abertura/Atenção - é o único bloco, junto com a oferta, presente em 100% das partições. Isso por si é o dado: não existe webinar-campeão que pule a compra de permanência.
 
 O que varia (e vale registrar como dado adjacente):
-- **Fladlien #1 e #2 não têm pré-início** (bloco 01): a gravação abre direto na headline ("And we are rolling" / "Product creation secrets") e a abertura ABSORVE a função do aquecimento - no #2, o quiz faz o papel de acordar o chat. Padrão de formato gravado/evergreen.
+- **webinar de referência #1 e #2 não têm pré-início** (bloco 01): a gravação abre direto na headline ("And we are rolling" / "Product creation secrets") e a abertura ABSORVE a função do aquecimento - no #2, o quiz faz o papel de acordar o chat. Padrão de formato gravado/evergreen.
 - **Aluna 80k e Léo A abrem com vídeo-depoimento** antes da abertura falada (Léo A em loop perpétuo): a primeira impressão é prova de terceiro, e a abertura chega com a big idea pré-validada por uma cliente. O pré-início clássico (check técnico) não existe ou ficou fora do corte.
 - **Webinar C (Bruno) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
 - **A máquina MindMaster roda a MESMA abertura em 4 edições** (13M, ed.2, 5 Níveis, GAIA2k) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.

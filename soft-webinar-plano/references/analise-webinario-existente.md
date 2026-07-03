@@ -409,7 +409,7 @@ Solução: afia o **mecanismo único**. Se o método não tem nome próprio, **t
 
 > **EXEMPLO (régua, permissão pra vender via insuficiência - 08, MindMaster):** *"só pegar o conhecimento por conhecimento, a única coisa que você vai ganhar é o que eu chamo de obesidade mental… Tem que saber, cara, o que eu faço com esse conhecimento? E eu quero te ajudar nisso."* A oferta resolve a lacuna que a própria aula criou. **Exemplo de pele de um nicho:** "cada peça, sozinha, é simples. Juntas, viram um sistema inteiro do zero. E você não entrou no seu ofício pra virar engenheiro de sistema."
 
-> **EXEMPLO (régua, garantia condicional - 11, Fladlien):** *"if you run a webinar in the next 30 days following my formula… and you don't see a massive improvement… Promptly and quietly, we'll return every penny."* As condições são o plano de implementação. **Guarda-corpo:** garantia é **cardápio**, decisão de design, 6 de 9 campeões fecham SEM garantia. Não decidir sozinho qual garantia o cliente deve usar; registrar como pergunta pro usuário decidir.
+> **EXEMPLO (régua, garantia condicional - 11, webinar de referência):** *"if you run a webinar in the next 30 days following my formula… and you don't see a massive improvement… Promptly and quietly, we'll return every penny."* As condições são o plano de implementação. **Guarda-corpo:** garantia é **cardápio**, decisão de design, 6 de 9 campeões fecham SEM garantia. Não decidir sozinho qual garantia o cliente deve usar; registrar como pergunta pro usuário decidir.
 
 > **EXEMPLO (régua, escassez auditável - 12; exemplo de um nicho):** *"Eu tô em paz com a estratégia dos 15 primeiros porque eu ainda não tenho escala que compra mais de 15. O dia que comprar mais de 15 eu vou lá e mudo a live: pros 20 primeiros."* **Por que funciona:** escassez real (o número = capacidade de entrega), o avatar maduro fareja urgência inventada de longe.
 
@@ -525,7 +525,7 @@ Lista ordenada de:
 
 ### 3. Blocos reescritos
 
-Reescrita textual dos blocos críticos no padrão Soft + Brunson + Fladlien (puxa references 1, 2, 6).
+Reescrita textual dos blocos críticos no padrão Soft + Brunson + webinar de referência (puxa references 1, 2, 6).
 
 ### 4. Plano de implementação
 

@@ -8,7 +8,7 @@
 
 ## Índice
 
-- A doutrina Fladlien
+- A doutrina do modelo
 - A masterclass de Q&A ao vivo (engenharia de condução)
 - A hierarquia das objeções (leia antes de tudo)
 - NÍVEL 0 - A OBJEÇÃO-MÃE (a categoria-rainha)
@@ -28,15 +28,15 @@
 
 ---
 
-## A doutrina Fladlien
+## A doutrina do modelo
 
-Jason Fladlien (Rapid Crush) chama de **Objection Annihilation** a prática de **identificar, antecipar e neutralizar** todas as objeções da audiência **antes que ela chegue**.
+webinar de referência do mercado americano chama de **Objection Annihilation** a prática de **identificar, antecipar e neutralizar** todas as objeções da audiência **antes que ela chegue**.
 
 **Princípio:** quando o webinar termina, **não deve sobrar uma objeção pendurada**. Toda dúvida razoável foi respondida durante o webinar - geralmente no Q&A final.
 
-> Fladlien declara a própria doutrina dentro do webinar: *"I handled objections in advance. […] That's one of the objections I handled."* (Fladlien #1, One to Many - ver `exemplos-por-bloco/13-qa-objecoes.md`)
+> O modelo declara a própria doutrina dentro do webinar: *"I handled objections in advance. […] That's one of the objections I handled."* (webinar de referência #1, One to Many - ver `exemplos-por-bloco/13-qa-objecoes.md`)
 
-> **→ Onde a doutrina nasce no modelo Fladlien (ver `fladlien-modelo.md`):** ele já levanta a objeção-chave na INTRODUÇÃO (um dos 5 elementos da intro, §1), antes dela amadurecer em silêncio; e a two-choices da transição (§3) é a forma eloquente de virar a objeção-mãe "eu faço sozinho" em escolha de identidade (concede competência, abre a porta), a mesma mecânica do nível 0 desta reference.
+> **→ Onde a doutrina nasce no modelo de referência (ver `modelo-webinar-referencia.md`):** ele já levanta a objeção-chave na INTRODUÇÃO (um dos 5 elementos da intro, §1), antes dela amadurecer em silêncio; e a two-choices da transição (§3) é a forma eloquente de virar a objeção-mãe "eu faço sozinho" em escolha de identidade (concede competência, abre a porta), a mesma mecânica do nível 0 desta reference.
 
 ### A descoberta central: a objeção é ENCENADA antes de nascer
 
@@ -46,7 +46,7 @@ Nos 9 campeões do corpus, **a objeção quase nunca espera o Q&A**. Ela é **en
 > - Gestão ágil (MindMaster): *"aí você pode falar: pô, mas eu não sou dono de empresa, que que eu tenho a ver com isso… Ah meu amigo, é aí que você se engana."*
 > - Arquitetura/inglês (Juliana Pupim, formato "ventríloquo"): *"Ju, preciso falar fluente, todo mundo quer saber isso." / "Você vai conseguir. É muito mais importante a comunicação do que falar fluente."*
 > - Dentística (Webinar C, dispositivo "Bruno, mas…"): *"Bruno, tudo bem, mas eu não cobro isso ainda."*
-> - Marketing (Fladlien, pergunta plantada com o próprio nome): *"Is that hype, Jason? Absolutely not. I speak from experience seeing customers do exactly just that."*
+> - Marketing (webinar de referência, pergunta plantada com o próprio nome): *"Is that hype, Jason? Absolutely not. I speak from experience seeing customers do exactly just that."*
 >
 > **O mecanismo (decalcável):** dar voz à dúvida na fala do espectador ("aí você pensa: …", "[seu nome], mas …?"), antes que ela amadureça em silêncio, e respondê-la no SEU enquadramento, não no do cético. **O recheio (do nicho):** a fala literal da dúvida vem do baú de voz do avatar - pro avatar do perfil (dono de negócio), as dúvidas são "minha equipe não dá conta", "não tenho tempo de dono", "meu mercado é diferente", "já comprei curso e não apliquei" - nunca o template CLT.
 
@@ -58,11 +58,11 @@ O segundo achado: o player campeão não responde a objeção principal - ele a 
 > - "minha área não usa gestão ágil" → *"é aí que tá a grande oportunidade […] em terra de cego quem tem olho é rei. Você trabalhar numa área que não tem gestão ágil, cara, você é rei ali."* (MindMaster - "terra de cego" é assinatura deles, extraia o mecanismo)
 > - "por que o americano me contrataria?" → *"a grade curricular do arquiteto brasileiro é muito superior à dos Estados Unidos. O arquiteto nos EUA se forma sem saber fazer projeto."* (Juliana Pupim)
 > - "não cobro esse preço, na minha região não dá" → *"você não confia no material porque você não confia em você mesmo. A resina sempre vai ser material nível B na mão de profissional que ainda é B pra trabalhar com resina."* (Webinar C/Bruno)
-> - "isso funciona internacionalmente?" → *"not only does this work internationally, this is one of the greatest untapped markets […] the coolest way to time travel is to pick what's working and port it over to a market that's never seen it."* (Fladlien #2)
+> - "isso funciona internacionalmente?" → *"not only does this work internationally, this is one of the greatest untapped markets […] the coolest way to time travel is to pick what's working and port it over to a market that's never seen it."* (webinar de referência #2)
 >
 > **O mecanismo:** a objeção é defesa do cético; respondê-la defensivamente ("não, não é bem assim…") valida o frame dele. Invertê-la rouba o frame: o mesmo fato que ele usava pra dizer "não é pra mim" passa a provar "é exatamente pra mim". **Anti-padrão:** defender-se em vez de inverter.
 
-**3 ferramentas Fladlien usadas no Soft:**
+**3 ferramentas do webinar de referência usadas no Soft:**
 
 1. **Fastpass** - primeira oferta no início do webinar (pra quem já chegou pronto)
 2. **Genie** - segunda oferta no meio do Q&A (pra quem ainda está em cima do muro)
@@ -74,7 +74,7 @@ O segundo achado: o player campeão não responde a objeção principal - ele a 
 
 ## A masterclass de Q&A ao vivo (engenharia de condução)
 
-> Esta seção destila o que o Fladlien faz nos ~90 min de Q&A ao vivo do Product E-Class (a coisa que o webinar 1 não tinha): as jogadas de CONDUÇÃO que transformam um Q&A aberto numa máquina de forçar decisão. É a camada acima das 5 categorias e do banco. Régua: extrair o porquê funciona, traduzir o tom americano alto-astral pro clínico Soft, nome próprio do método do perfil fica como slot **(a definir com o especialista)**. Citar Fladlien/Hormozi aqui é OK (reference interna).
+> Esta seção destila o que o modelo faz nos ~90 min de Q&A ao vivo do Product E-Class (a coisa que o webinar 1 não tinha): as jogadas de CONDUÇÃO que transformam um Q&A aberto numa máquina de forçar decisão. É a camada acima das 5 categorias e do banco. Régua: extrair o porquê funciona, traduzir o tom americano alto-astral pro clínico Soft, nome próprio do método do perfil fica como slot **(a definir com o especialista)**. Citar Hormozi ou o webinar de referência aqui é OK (reference interna).
 
 ### O eixo: o MAYBE é o inimigo, não a pergunta
 
@@ -83,7 +83,7 @@ A premissa que organiza o Q&A inteiro: sim é aceitável, não é aceitável, "t
 > **Fala-modelo Soft (clínico):**
 > "Eu fico tranquilo com um sim. Fico tranquilo com um não. O que não ajuda nem você nem eu é o 'talvez'. Porque 'talvez' não é uma resposta, é um jeito educado de adiar a decisão. E adiar é, na prática, decidir que não, só que sem assumir."
 
-> **EXEMPLO (Fladlien #2 verbatim):** *"I'll take a yes. I'll take a no. It is completely unacceptable to be a maybe, because that's where more fortunes are lost."*
+> **EXEMPLO (webinar de referência #2 verbatim):** *"I'll take a yes. I'll take a no. It is completely unacceptable to be a maybe, because that's where more fortunes are lost."*
 
 ### "A million more of them": responder a pergunta de quem está em maybe gera mais perguntas
 
@@ -92,7 +92,7 @@ Quem está em "talvez" e faz uma pergunta tática raramente quer a resposta. Se 
 > **Fala-modelo Soft (clínico):**
 > "Olha, eu posso te responder essa, mas vou ser honesto: se eu responder, você vai ter mais dez parecidas, e você vai continuar em cima do muro. A única coisa que tira você do muro de verdade não é mais uma resposta minha, é você entrar, ver por dentro, e decidir com a coisa na mão, protegido pela garantia."
 
-> **EXEMPLO (Fladlien #2 verbatim):** *"if we answer them, you will have a million more of them and you will still be a maybe. The best way I can get you to a yes or a no is to have you sign up today."*
+> **EXEMPLO (webinar de referência #2 verbatim):** *"if we answer them, you will have a million more of them and you will still be a maybe. The best way I can get you to a yes or a no is to have you sign up today."*
 
 ### "$100 questions" vs "nickel-and-dime questions": separar a pergunta que decide da pergunta trivial
 
@@ -101,7 +101,7 @@ Nem toda pergunta merece resposta. Há a pergunta de US$100 (a que de fato muda 
 > **Fala-modelo Soft (clínico):**
 > "Tem pergunta que muda a sua decisão e tem pergunta que não muda nada. 'Qual ferramenta eu uso pra gravar' não muda se isso vai funcionar pra você ou não. Deixa eu te devolver a pergunta que importa de verdade: o que precisa ser verdade pra você entrar hoje? Responde essa, que o resto é detalhe que a gente resolve lá dentro."
 
-> **EXEMPLO (Fladlien #2 verbatim):** *"a nickel and dime question would be: what font should I use? It's a question whose answer has no real effect on your success or failure."*
+> **EXEMPLO (webinar de referência #2 verbatim):** *"a nickel and dime question would be: what font should I use? It's a question whose answer has no real effect on your success or failure."*
 
 ### "Se eu responder isso, você entra?": fechar o loop ANTES de responder a objeção
 
@@ -110,7 +110,7 @@ Antes de demolir uma objeção, amarre o compromisso. Pergunte se, respondida a 
 > **Fala-modelo Soft (clínico):**
 > "Deixa eu te perguntar antes de responder: se eu te der uma resposta que faça sentido pra essa dúvida, é isso que está te separando de entrar hoje? Se for, beleza, eu respondo e a gente resolve agora. Se tiver outra coisa por trás, me fala qual é, porque eu prefiro tratar a de verdade."
 
-> **EXEMPLO (Fladlien #2 verbatim, o conditional close):** *"Ian, if I were to satisfactorily answer this question to your liking, then would you sign up? Ian said you nailed it. So, you signed up, correct? I don't leave things to chance."*
+> **EXEMPLO (webinar de referência #2 verbatim, o conditional close):** *"Ian, if I were to satisfactorily answer this question to your liking, then would you sign up? Ian said you nailed it. So, you signed up, correct? I don't leave things to chance."*
 
 ### O reframe do prato: a garantia responde toda pergunta "funciona no meu caso?"
 
@@ -119,16 +119,16 @@ A enxurrada de "funciona pro meu nicho? pra minha idade? pro meu mercado? pro me
 > **Fala-modelo Soft (clínico):**
 > "Eu posso passar a tarde inteira te dizendo que funciona pro seu caso, mas no fim você só vai ter certeza provando. É como prato em restaurante: ninguém sabe se gosta olhando o cardápio. Por isso a garantia existe. Você entra, prova por dentro durante [janela], e se não for pra você, pede o dinheiro de volta. A pergunta deixa de ser 'será que serve' e vira 'eu quero provar'."
 
-> **EXEMPLO (Fladlien #2 verbatim):** *"the only way to know if you like the dish is to taste it. You sign up, you have 30 days to taste every single dish."*
+> **EXEMPLO (webinar de referência #2 verbatim):** *"the only way to know if you like the dish is to taste it. You sign up, you have 30 days to taste every single dish."*
 
 ### Fence-reframe: ficar em cima do muro não é confortável, é a pior posição
 
-Em cima do muro parece o lugar seguro. O reframe inverte: o muro é a posição mais cara que existe, porque você paga o custo de não decidir sem colher nenhum resultado. Fladlien é cru ("fence causes catastrophe"); no Soft o tom é clínico, mas a lógica se mantém: a indecisão não preserva, ela corrói. Some isto ao reframe da escassez como perda de agência (ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`): se você fica no muro, a decisão acaba sendo tomada por você quando a janela fecha.
+Em cima do muro parece o lugar seguro. O reframe inverte: o muro é a posição mais cara que existe, porque você paga o custo de não decidir sem colher nenhum resultado. O modelo é cru ("fence causes catastrophe"); no Soft o tom é clínico, mas a lógica se mantém: a indecisão não preserva, ela corrói. Some isto ao reframe da escassez como perda de agência (ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`): se você fica no muro, a decisão acaba sendo tomada por você quando a janela fecha.
 
 > **Fala-modelo Soft (clínico):**
 > "Ficar em cima do muro parece o lugar seguro, mas é o mais caro de todos. No muro você paga o preço de não ter resolvido o problema, mês após mês, e não leva nenhum resultado em troca. Decidir 'não' pelo menos te libera pra tocar a vida. O 'talvez' é o único lugar onde você paga e não recebe nada."
 
-> **EXEMPLO (Fladlien #2):** ele trata o "fence" como hemorroida (desconfortável por definição) e fecha com a perda de agência: *"if you stay a maybe, then the decision will be made FOR YOU when the timer hits zero."*
+> **EXEMPLO (webinar de referência #2):** ele trata o "fence" como hemorroida (desconfortável por definição) e fecha com a perda de agência: *"if you stay a maybe, then the decision will be made FOR YOU when the timer hits zero."*
 
 ### Garantia condicional com critérios de "fazer o trabalho"
 
@@ -137,7 +137,7 @@ A versão estruturada da garantia não é incondicional preguiçosa. É condicio
 > **Fala-modelo Soft (clínico):**
 > "A garantia não é 'comprou, não gostou, devolveu'. É melhor que isso e mais honesta: se você fizer o trabalho, que é [passo 1], [passo 2], [passo 3], e mesmo assim não tiver o retorno, eu devolvo. Repara o que isso quer dizer: o único jeito de acionar a garantia é fazendo exatamente o que faz dar certo. Eu basicamente estou te pagando pra você executar. O risco de verdade saiu do seu lado e veio pro meu."
 
-> **EXEMPLO (Fladlien #2):** dobro do dinheiro de volta SE seguir 5 passos (criar 1 produto, deixar comprável, fazer 1 venda, tentar tráfego todo dia por 2 semanas, documentar num doc), e a entrelinha: *"I am underwriting your success."* No Soft a garantia é cardápio (varia pelo ticket, ver `exemplos-por-bloco/11-garantia.md`); a dupla/condicional é upgrade pra quando o especialista tiver convicção de números.
+> **EXEMPLO (webinar de referência #2):** dobro do dinheiro de volta SE seguir 5 passos (criar 1 produto, deixar comprável, fazer 1 venda, tentar tráfego todo dia por 2 semanas, documentar num doc), e a entrelinha: *"I am underwriting your success."* No Soft a garantia é cardápio (varia pelo ticket, ver `exemplos-por-bloco/11-garantia.md`); a dupla/condicional é upgrade pra quando o especialista tiver convicção de números.
 
 ### "Não estou no ramo de responder perguntas, estou no de te fazer ganhar dinheiro"
 
@@ -146,7 +146,7 @@ Este é o reframe que organiza o Q&A inteiro e dá ao host licença pra ignorar 
 > **Fala-modelo Soft (clínico):**
 > "Deixa eu ser direto sobre o meu papel aqui. Eu não estou aqui pra responder toda pergunta possível, eu estaria aqui a noite toda. Eu estou aqui pra fazer você [resultado concreto do avatar]. Então cada pergunta eu vou tratar por esse filtro: isso te aproxima do resultado ou é só curiosidade? Se aproxima, eu vou fundo. Se é curiosidade, eu te trago de volta pro que decide."
 
-> **EXEMPLO (Fladlien #2 verbatim):** *"I'm not in the question-answering business. I'm in the helping-you-make-money business."*
+> **EXEMPLO (webinar de referência #2 verbatim):** *"I'm not in the question-answering business. I'm in the helping-you-make-money business."*
 
 ### Quebra multi-ângulo do "tem info de graça, por que pagar?"
 
@@ -160,7 +160,7 @@ A objeção "está tudo de graça no YouTube, por que eu pagaria?" não se quebr
 > **Fala-modelo Soft (clínico):**
 > "Tem muita coisa de graça por aí, é verdade, e eu até indico. Mas repara em quatro coisas. Primeiro: o que é de graça você trata como de graça, fica na aba aberta e nunca aplica. Segundo: de graça você tem o oceano inteiro e nenhuma ordem, e o caro aqui não é a informação, é o caminho, é o tempo que você não vai perder garimpando e errando. Terceiro: assistir mais vídeo grátis só gera vontade de assistir mais vídeo; resultado gera vontade de mais resultado. E quarto: lá você monta o quebra-cabeça sozinho em meses, aqui você recebe montado e começa hoje. A pergunta não é 'tem de graça?', é 'quanto te custa o caminho longo?'."
 
-> **EXEMPLO (Fladlien #2):** ele responde a objeção de 4 ângulos (info vale o que você paga, a curadoria economiza horas, resultado gera apetite por mais, o instantâneo). Modelo de quebra multi-ângulo.
+> **EXEMPLO (webinar de referência #2):** ele responde a objeção de 4 ângulos (info vale o que você paga, a curadoria economiza horas, resultado gera apetite por mais, o instantâneo). Modelo de quebra multi-ângulo.
 
 ### O resumo da condução (checklist de mesa)
 
@@ -433,7 +433,7 @@ Fastpass dá a porta de entrada **agora** - sem prejudicar quem precisa do conte
 >
 > Repare: aviso transparente → nome do produto → "explico no final" → bônus REAL e exclusivo de agora → CTA discreta → retorno ao conteúdo. Não é o pitch, é a porta.
 
-> **EXEMPLO (Fastpass por checklist de auto-qualificação, nicho marketing - Fladlien #1, ver `exemplos-por-bloco/13-qa-objecoes.md`):** Fladlien substitui o Fastpass por um checklist em que qualquer "sim" conclui a compra: *"Do you feel a moral and ethical responsibility to get your solution into the hands of as many people as possible? Yes, you need this. […] Does your heart gravitate you towards this? I already know the answer. The answer is yes. Otherwise you wouldn't be here. So let's make the leap together."* É a mesma função do Fastpass (capturar o pronto), mas pela porta da identidade - discordar é negar a própria presença ali.
+> **EXEMPLO (Fastpass por checklist de auto-qualificação, nicho marketing - webinar de referência #1, ver `exemplos-por-bloco/13-qa-objecoes.md`):** O modelo substitui o Fastpass por um checklist em que qualquer "sim" conclui a compra: *"Do you feel a moral and ethical responsibility to get your solution into the hands of as many people as possible? Yes, you need this. […] Does your heart gravitate you towards this? I already know the answer. The answer is yes. Otherwise you wouldn't be here. So let's make the leap together."* É a mesma função do Fastpass (capturar o pronto), mas pela porta da identidade - discordar é negar a própria presença ali.
 
 ---
 
@@ -493,13 +493,13 @@ No webinar (perpétuo ou ao vivo), o Q&A **não é improviso**. As perguntas mai
 
 Quando há Q&A formal (raro - só 1 de 9 campeões tem Q&A longo), ele tem ordem deliberada: começa fácil pra aquecer, depois entra nas objeções duras.
 
-> **EXEMPLO (a arquitetura declarada, nicho marketing - Fladlien #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** o moderador anuncia a ordem em voz alta: *"I'm going to throw some easy ones your way […] I'm going to toss you some layups here."* e depois *"So, Jason, I'm gonna start throwing you some curve balls."* O mecanismo: as fáceis (layups) constroem ritmo e confiança; as difíceis (curve balls) entram quando a sala já está engajada. **Anti-padrão:** abrir microfone/chat sem curadoria - entrega o palco à objeção mais tóxica. Q&A aberto só se sustenta com moderação + resposta-mestra (garantia) preparada.
+> **EXEMPLO (a arquitetura declarada, nicho marketing - webinar de referência #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** o moderador anuncia a ordem em voz alta: *"I'm going to throw some easy ones your way […] I'm going to toss you some layups here."* e depois *"So, Jason, I'm gonna start throwing you some curve balls."* O mecanismo: as fáceis (layups) constroem ritmo e confiança; as difíceis (curve balls) entram quando a sala já está engajada. **Anti-padrão:** abrir microfone/chat sem curadoria - entrega o palco à objeção mais tóxica. Q&A aberto só se sustenta com moderação + resposta-mestra (garantia) preparada.
 
 ### A regra de ouro do Q&A: responda o ESTADO, não a pergunta
 
 Quem faz pergunta evasiva ("e se eu não conseguir? e se for diferente? e tal detalhe?") quase nunca quer a informação - está com medo. Responder o detalhe alimenta o medo (gera mil perguntas novas). A resposta certa endereça o **estado decisório**, não a pergunta literal.
 
-> **EXEMPLO (responda o estado, nicho marketing - Fladlien #2):** *"a nickel and dime question would be: what font should I use when I write my ebook? It's a question whose answer has no real effect on your success or failure. I'm not in the question-answering business. I'm in the helping-you-make-money business."* O mecanismo: separar a pergunta tática (que não muda nada) da decisão real, e empurrar pro sim/não. ("nickel-and-dime" é rótulo do Fladlien - extraia o mecanismo, não decalque o rótulo.) Para o especialista: a pergunta de detalhe de quem está em "talvez" se responde com "entra e experimenta, você tá protegido pela garantia" - não com o detalhe.
+> **EXEMPLO (responda o estado, nicho marketing - webinar de referência #2):** *"a nickel and dime question would be: what font should I use when I write my ebook? It's a question whose answer has no real effect on your success or failure. I'm not in the question-answering business. I'm in the helping-you-make-money business."* O mecanismo: separar a pergunta tática (que não muda nada) da decisão real, e empurrar pro sim/não. ("nickel-and-dime" é rótulo do modelo - extraia o mecanismo, não decalque o rótulo.) Para o especialista: a pergunta de detalhe de quem está em "talvez" se responde com "entra e experimenta, você tá protegido pela garantia" - não com o detalhe.
 
 ### As 5 categorias obrigatórias
 
@@ -703,7 +703,7 @@ Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação s
 >
 > A pergunta não é se é o momento certo. É se você quer ou não."
 
-> **EXEMPLO (a objeção de timing é o "maybe", e o maybe é o inimigo - Fladlien #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** Fladlien trata o "talvez na próxima turma" como o que ele realmente é: o estado **maybe**, o inimigo do bloco inteiro. *"We're okay with a yes. We're okay with a no. It is completely unacceptable to be a maybe. […] if we answer them, you will have a million more of them and you will still be a maybe. The best way I can get you to a yes or a no is to have you sign up today."* E a resposta-mestra pro maybe é a garantia como experiência: *"It's the equivalent of you going to a restaurant and having a taster of every single dish. You sign up today, you experience it for a full 30 days and if for any reason it didn't satisfy, just ask for your money back."* O mecanismo: quem está em "talvez" não precisa de mais informação (ela alimenta o medo) - precisa de uma forma de decidir sem risco. A garantia transforma o "talvez" num "experimente protegido". **No Soft, a garantia é cardápio** (varia pelo ticket - ver `estrutura-webinario-aida.md`), mas a função "resposta-mestra pro maybe" é a mesma.
+> **EXEMPLO (a objeção de timing é o "maybe", e o maybe é o inimigo - webinar de referência #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** O modelo trata o "talvez na próxima turma" como o que ele realmente é: o estado **maybe**, o inimigo do bloco inteiro. *"We're okay with a yes. We're okay with a no. It is completely unacceptable to be a maybe. […] if we answer them, you will have a million more of them and you will still be a maybe. The best way I can get you to a yes or a no is to have you sign up today."* E a resposta-mestra pro maybe é a garantia como experiência: *"It's the equivalent of you going to a restaurant and having a taster of every single dish. You sign up today, you experience it for a full 30 days and if for any reason it didn't satisfy, just ask for your money back."* O mecanismo: quem está em "talvez" não precisa de mais informação (ela alimenta o medo) - precisa de uma forma de decidir sem risco. A garantia transforma o "talvez" num "experimente protegido". **No Soft, a garantia é cardápio** (varia pelo ticket - ver `estrutura-webinario-aida.md`), mas a função "resposta-mestra pro maybe" é a mesma.
 
 ---
 
@@ -831,7 +831,7 @@ Um slide (ou bloco de fala no perpétuo) com "as dúvidas que sempre surgem", re
 
 3. **Conditional close 1:1 transmitido pra sala** - fechar uma pessoa específica ao vivo, na frente de todos, para que a sala inteira veja a objeção morrer e a compra acontecer.
 
-> **EXEMPLO (conditional close, nicho marketing - Fladlien #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"Ian, if I were to satisfactorily answer this question to your liking, then would you sign up for product e-class? […] Ian said you nailed it. So, you signed up, correct? See, I don't leave things to chance."* O mecanismo: amarrar a resposta a um compromisso ANTES de responder ("se eu responder bem, você entra?") e confirmar a compra em público - um fechamento individual que vira prova social pra sala toda.
+> **EXEMPLO (conditional close, nicho marketing - webinar de referência #2, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"Ian, if I were to satisfactorily answer this question to your liking, then would you sign up for product e-class? […] Ian said you nailed it. So, you signed up, correct? See, I don't leave things to chance."* O mecanismo: amarrar a resposta a um compromisso ANTES de responder ("se eu responder bem, você entra?") e confirmar a compra em público - um fechamento individual que vira prova social pra sala toda.
 
 > **Tom Soft:** a rota de resgate é serviço, não pressão. "Se esbarrou em algo, fala com a gente que a gente resolve" - não "compra antes que acabe". O atrito que ela remove é técnico/operacional, não emocional.
 
@@ -923,4 +923,4 @@ Plataforma (EverWebinar, WebinarKit) injeta perguntas pré-escritas no chat ao v
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-Antes de entregar, cada resposta de objeção, FAQ, Fastpass e Genie PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`, a objeção tem que ser a do avatar real minerada do baú de voz, nunca o template CLT genérico), as 3 perguntas do Harry, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Resposta que não passa no Crivo não entra no Q&A. O checklist e as notas acima são o pré-filtro; o Crivo é o gate que recusa.
+Antes de entregar, cada resposta de objeção, FAQ, Fastpass e Genie PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`, a objeção tem que ser a do avatar real minerada do baú de voz, nunca o template CLT genérico), as 3 perguntas do gate, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Resposta que não passa no Crivo não entra no Q&A. O checklist e as notas acima são o pré-filtro; o Crivo é o gate que recusa.

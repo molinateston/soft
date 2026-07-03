@@ -181,7 +181,7 @@ Sem essas 4, qualquer recomendação é palpite. Skill pede em 1 mensagem. Não 
 - Aula rolou bem (engajamento, comparecimento ok)
 - Apresentou oferta, ninguém comprou
 - Carrinho aberto há 1-3 dias, vendas muito abaixo do projetado
-- Conversão na aula <5% (alvo Holzer: 20%)
+- Conversão na aula <5% (alvo Sala Secreta: 20%)
 
 ### Diagnóstico em 4 perguntas
 
@@ -226,7 +226,7 @@ Sem essas 4, qualquer recomendação é palpite. Skill pede em 1 mensagem. Não 
 - Script básico: "Vi que você comprou ingresso e veio à aula. O que ficou pendente pra você decidir? Posso esclarecer agora."
 
 **Plano B:**
-- Próximo lançamento: estrutura time comercial dom+seg conforme método Holzer
+- Próximo lançamento: estrutura time comercial dom+seg conforme método Sala Secreta
 
 #### Causa 4 — Aplicação travando (10% dos casos)
 

@@ -127,7 +127,7 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 | **Mecanismo do Problema + da Solução** | o do Problema explica POR QUE ele está preso (não só descreve); o da Solução é o novo mecanismo único nomeado, desejável/vendável, que ocupa o maior espaço mental (nome próprio + fenômeno do domínio); processo passo-a-passo sem mecanismo, ou premissa que cabe em qualquer concorrente = ✗ | `bloco-2-metodo.md` | |
 | **Crenças contrapostas** | as principais crenças/objeções bloqueadoras estão mapeadas e o Mecanismo da Solução contrapõe cada uma; crença solta sem contraposição = ✗ | conducao | |
 | **Clareza radical** | cada frase é simples, curta, forma a imagem mental certa, específica > abstrata; se exige energia mental pra entender ou é abstrata/rasa = ✗ | CODIGO-DE-ESCRITA | |
-| **Harry na PUV e no Mecanismo** | dá pra ver? · dá pra falsificar? · **só você assina (o concorrente do nicho não diz igual)?** PUV/mecanismo banal do nicho = ✗ | `crivo/03-gate-cub.md` | |
+| **As 3 perguntas na PUV e no Mecanismo** | dá pra ver? · dá pra falsificar? · **só você assina (o concorrente do nicho não diz igual)?** PUV/mecanismo banal do nicho = ✗ | `crivo/03-gate-cub.md` | |
 | **Oferta por valor, não pelo bolso** | PUV + Equação de Valor (4 fatores) + níveis de acesso (mesmo destino) + entregável-tese + garantia; preço ancorado no valor gerado, não no bolso do cliente | `bloco-3-oferta.md` | |
 | **Voz observada, não arquétipo** | os 5 elementos saíram da coleta do usuário (tom, narrativa, bastidor, valores, pilares), amplificados; nada de arquétipo de catálogo | guia/03 | |
 | **Cliente-primeiro (idioma do nicho)** | zero jargão de cozinha ("lead/funil/ticket") vazado, zero traço do autor do método; é o vocabulário do cliente final do USUÁRIO | `filtro-cliente-primeiro.md` | |
@@ -157,7 +157,7 @@ Roda no Plano completo, antes de virar fundação das filhas. Preenche cada linh
 | Sintoma | Correção |
 |---|---|
 | Despejou o plano inteiro de uma vez | Volta: um bloco por vez, mostra inline e PARA nos 4 STOPs (Narrativa · Mecanismo · Oferta · Voz) antes de avançar |
-| Mecanismo genérico que qualquer concorrente assina | Falha no Harry "só você diz"; desce ao fenômeno técnico real do nicho (sai da pesquisa + entrevista), nomeia e bate nele |
+| Mecanismo genérico que qualquer concorrente assina | Falha no gate "só você diz"; desce ao fenômeno técnico real do nicho (sai da pesquisa + entrevista), nomeia e bate nele |
 | Inventou a dor do avatar "plausível" | Só dor com fala REAL da super-pesquisa; sem verbatim, reprova no Crivo (não vira fundação) |
 | Problema Avançado virou o Problema Geral ("vender mais") | Reescreve como o que as OUTRAS soluções já geraram nele (a frustração/trabalho que carrega), não a tática |
 | Cravou o preço pelo bolso do cliente | Constrói pela Equação de Valor, ancora no valor gerado; o número é do especialista, não da IA |

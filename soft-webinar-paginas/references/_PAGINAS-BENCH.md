@@ -237,4 +237,4 @@ HOJE VOCÊ INVESTE                   R$ [preço]   (ou 12x de R$ ...)
 > Se os números estão muito abaixo, o furo quase sempre é **técnico** (página, horário, vídeo engasgando, WhatsApp não ligado) — não a copy. Audita o encanamento antes de reescrever a aula.
 
 ## Gate de saída (Crivo) — bloqueante antes de publicar qualquer página
-Toda página passa pelo Crivo: ancoragem no verbatim, as 3 perguntas do Harry, prova com lastro, anti-vazamento, anti-IA (`scripts/lint_copy.py`) e mobile-first. Veredito binário: falhou, re-roda. Furo de insumo (número/case/preço/vagas) entra como `[A CONFIRMAR]` no lugar exato — nunca preenchido com algo plausível. Sem passar no Crivo, a página não vai pro ar.
+Toda página passa pelo Crivo: ancoragem no verbatim, as 3 perguntas do gate, prova com lastro, anti-vazamento, anti-IA (`scripts/lint_copy.py`) e mobile-first. Veredito binário: falhou, re-roda. Furo de insumo (número/case/preço/vagas) entra como `[A CONFIRMAR]` no lugar exato — nunca preenchido com algo plausível. Sem passar no Crivo, a página não vai pro ar.

@@ -54,7 +54,7 @@ Este doc é o que separa um plano genérico de um plano que faz o especialista p
 
 O Plano é a fundação de onde TODAS as outras skills escrevem. Plano fraco vira garbage-in pra todas. Antes do handoff, o Plano passa pelo Crivo embutido em `shared-references/crivo/`, adaptado pro artefato "plano":
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda DOR do avatar citada bate em verbatim literal da super-pesquisa. Dor inventada, sem fala real, reprova.
-2. **As 3 perguntas do Harry** (`crivo/03-gate-cub.md`) na PUV e no Mecanismo nomeado: dá pra ver? dá pra falsificar? E a mais dura: **só você pode dizer (o concorrente do nicho não assina)?** PUV ou mecanismo que cabe em qualquer concorrente reprova.
+2. **As 3 perguntas do gate** (`crivo/03-gate-cub.md`) na PUV e no Mecanismo nomeado: dá pra ver? dá pra falsificar? E a mais dura: **só você pode dizer (o concorrente do nicho não assina)?** PUV ou mecanismo que cabe em qualquer concorrente reprova.
 3. **Anti-IA** (`shared-references/filtro-anti-ia/` + `scripts/lint_copy.py`): a Narrativa, a PUV e a Fundação de Headlines passam no filtro antes de virar fundação, sem padrão banido, sem cosplay, sem o som de saída de IA bem-comportada.
 4. **Cliente regulado** (`crivo/04-gate-regulado.md`): quando o especialista é de SAÚDE ou JURÍDICO, o Plano (promessa, número, garantia, linguagem) passa também pelo gate regulado antes de virar fundação das filhas.
 5. **Grande Dominó existe.** A UMA tese-mãe que, se o lead aceita, compra. Cabe em 1 frase e volta em todo conteúdo. Sem o Grande Dominó cravado, o Plano reprova.

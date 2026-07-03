@@ -4,7 +4,7 @@
 >
 > **A régua de tom Soft (vale pra TODA fala abaixo).** Tirar hype, exclamação em cascata, auto-celebração, cifra própria e nome de mecanismo (viram `[ ]` ou SLOT). Manter intacto a estrutura lógica, a escada de sins, a inversão de risco, o "servir não vender". Quem fala é um consultor que já mediu e tem convicção, não um vendedor empolgado. A convicção substitui o entusiasmo.
 >
-> **Como usar.** Cada fala é pra ADAPTAR (preencher o `[ ]` com a verdade do nicho do player), nunca pra recitar crua. Os nomes próprios do método do Léo entram como slot "(a definir)". Citar Fladlien, Hormozi ou Enes aqui é referência interna de linhagem (de onde a jogada veio), não é o que vai pro roteiro do cliente.
+> **Como usar.** Cada fala é pra ADAPTAR (preencher o `[ ]` com a verdade do nicho do player), nunca pra recitar crua. Os nomes próprios do método do Léo entram como slot "(a definir)". Citar Hormozi ou o webinar de referência aqui é referência interna de linhagem (de onde a jogada veio), não é o que vai pro roteiro do cliente.
 >
 > **Régua G2 (vale aqui também):** bordão, frase-mantra e nome de mecanismo TÊM DONO. Onde a fonte traz um nome concreto, ele vira SLOT a preencher COM o especialista. A skill não transplanta o caso de ninguém, conduz o player a escrever a fala DELE em cima do molde.
 
@@ -49,7 +49,7 @@ Pedir o "sim" digitado é micro-compromisso público (Cialdini). Quem digitou ag
 > "Pra isso valer, eu preciso de uma coisa de você: sua atenção inteira pelos próximos [60] minutos. Fecha as outras abas, deixa o celular de lado. Combinado? Toda vez que algo aqui fizer sentido, você anota e aplica essa semana, fecha comigo? Digita 'fechado' no chat. Se não achar o chat, fala 'fechado' em voz alta mesmo."
 
 ### A.5 - PROPOSIÇÃO ÚNICA (a oferta inteira numa frase, pré-frame de tudo)
-Promete o destino emocional + a oportunidade + a objeção quebrada + o "mesmo que" (a desculpa final derrubada). O cérebro passa a aula inteira pré-disposto à conclusão que você já anunciou. (Molde do Enes; preencher COM o especialista.)
+Promete o destino emocional + a oportunidade + a objeção quebrada + o "mesmo que" (a desculpa final derrubada). O cérebro passa a aula inteira pré-disposto à conclusão que você já anunciou. (Molde do método; preencher COM o especialista.)
 > "Nos próximos [60] minutos, o meu objetivo é te mostrar por que **[O MECANISMO / A OPORTUNIDADE]** é o caminho que você precisa pra conseguir **[RESULTADO QUE ELE QUER]**, sem precisar **[A COISA QUE ELE ODEIA FAZER]**, mesmo que **[A DESCULPA QUE ELE ACHA QUE O IMPEDE]**. Você vai sair daqui com clareza do seu primeiro passo, e com a confiança de que dá, sim, pra você fazer."
 
 ### A.6 - "Com isso você será capaz" ×5 (pintar o mundo ideal)
@@ -122,7 +122,7 @@ O recap re-ancora o valor recebido na pessoa (ela entra na oferta sentindo "rece
 
 ### TR.0 - O enquadramento (a transição opera no VENDEDOR, nota interna)
 Não há fronteira entre conteúdo e venda, a transição é só onde VOCÊ troca de estado, de quem ensina pra quem oferece sem nojo. Se você está desconfortável vendendo, a pessoa fica desconfortável comprando. (Régua interna pro especialista, não é fala de palco.)
-> **Régua interna:** entrar na oferta já convicto de que reter a solução seria o egoísmo, não oferecê-la. (Fladlien: não existe diferença entre o slide 1 e o slide 101.)
+> **Régua interna:** entrar na oferta já convicto de que reter a solução seria o egoísmo, não oferecê-la. (webinar de referência: não existe diferença entre o slide 1 e o slide 101.)
 
 ### TR.1 - Pedir permissão pra apresentar a oportunidade
 Micro-sim + cessão de controle (a pessoa "deixa" você vender, então não se sente empurrada).
@@ -147,7 +147,7 @@ Feature não vende, justifica; o que vende é o resultado. Apresentar o produto 
 > "Deixa eu te apresentar: **[NOME DO PROGRAMA]**. É um [programa / acompanhamento] de [X semanas] pra você [RESULTADO PRINCIPAL] em [TEMPO]. Lembra: você não está comprando [as aulas / o conteúdo], você está comprando **[o buraco: o resultado, a transformação]**. O conteúdo é só o caminho até lá."
 
 ### OF.2 - OS 2 CAMINHOS (sozinho × comigo): a peça-mãe, Two Choices
-A joia. Em sequência: **(1)** valida a autonomia (desarma reatância); **(2)** eleva o caminho sozinho ("seria digno"), nunca rebaixa a pessoa; **(3)** abre o loop "e se houvesse outra opção?"; **(4)** a inversão de risco, o coração ("e se EU tivesse um papel ativo no seu resultado?"); **(5)** diminui o GRATUITO, não a pessoa ("uma hora só"); **(6)** permissão entusiasmada; **(7)** a oferta entra como consequência gramatical do sim. (Articulação de Fladlien; a versão BR já existe no corpus.)
+A joia. Em sequência: **(1)** valida a autonomia (desarma reatância); **(2)** eleva o caminho sozinho ("seria digno"), nunca rebaixa a pessoa; **(3)** abre o loop "e se houvesse outra opção?"; **(4)** a inversão de risco, o coração ("e se EU tivesse um papel ativo no seu resultado?"); **(5)** diminui o GRATUITO, não a pessoa ("uma hora só"); **(6)** permissão entusiasmada; **(7)** a oferta entra como consequência gramatical do sim. (Articulação do modelo; a versão BR já existe no corpus.)
 > "A partir daqui você tem dois caminhos.
 > **O primeiro:** pegar tudo o que a gente viu hoje e ir sozinho. E eu tenho **absoluta confiança** de que você consegue, você pode, sim, sair daqui e conseguir, por conta própria, resultados que talvez você achasse que não eram possíveis. Se esse fosse o seu único caminho, já seria um caminho **digno**, e eu te respeitaria por isso. (Mas, sejamos honestos, você provavelmente já tentou sozinho antes. Se tivesse funcionado, você não estaria aqui.)
 > **Mas e se existisse um segundo caminho?** Um caminho em que a gente faz isso **junto**. Uma chance de ir muito mais fundo do que dá numa hora só, num encontro só. E se, nesse caminho, **eu tivesse um papel ativo no seu resultado**, assumisse uma responsabilidade pelo seu sucesso, uma obrigação com o seu desfecho? Como isso mudaria as coisas pra você?
@@ -244,4 +244,4 @@ No momento da decisão, ambiguidade mata. Descrever o ato físico (acha o botão
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-Depois de preencher as lacunas, cada fala final que o lead vai ouvir PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`, toda aspa carrega a dor e veio da fonte real), as 3 perguntas do Harry, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Fala-template que não passa no Crivo não vira roteiro entregue. A régua final acima (soar como consultor que mediu, não vendedor empolgado) é o pré-filtro; o Crivo é a auditoria de força que recusa.
+Depois de preencher as lacunas, cada fala final que o lead vai ouvir PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`, toda aspa carrega a dor e veio da fonte real), as 3 perguntas do gate, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça). Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Fala-template que não passa no Crivo não vira roteiro entregue. A régua final acima (soar como consultor que mediu, não vendedor empolgado) é o pré-filtro; o Crivo é a auditoria de força que recusa.

@@ -154,9 +154,9 @@ Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com
 | **Confuso (C)** | dá pra entender de primeira; zero jargão, zero ambiguidade | |
 | **Inacreditável (U)** | a afirmação tem prova ou mecanismo do lado; nada solto que o leitor recuse | |
 | **Boring (B)** | o bloco tem tensão/cena real; não é mais-do-mesmo do nicho | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "mais clareza" · ✓ "a agenda lota 3 semanas antes" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "mais clareza" · ✓ "a agenda lota 3 semanas antes" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Form casa com temperatura** | a fricção do formulário é proporcional ao ticket, não acidental: 1 campo no frio/topo, multi-campo no qualificado. Passa se a fricção é deliberada | |
 | **Mecânica-assinatura presente** | quando o tipo tem mecânica própria, ela está implementada de fato (não só citada): gate-antes-do-resultado no quiz · Yes/No path no OTO · 3-tier com decoy no pricing · próximo-passo no obrigado/replay · escassez REAL com janela no replay/launch | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |

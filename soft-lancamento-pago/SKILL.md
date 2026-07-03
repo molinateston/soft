@@ -1,6 +1,6 @@
 ---
 name: soft-lancamento-pago
-description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta (Holzer) e Lançamento Pago Semanal Gravado / LPSG (Tabari). 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (soft-conteudo-carrossel/-reels/-stories), carta ou VSL (soft-funil-carta/-landing), webinar perpétuo (soft-webinar-plano), posicionamento (soft-posicionamento), ou a venda, objeção, fechamento 1:1 (soft-vendas)."
+description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta e Lançamento Pago Semanal Gravado / LPSG. 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (soft-conteudo-carrossel/-reels/-stories), carta ou VSL (soft-funil-carta/-landing), webinar perpétuo (soft-webinar-plano), posicionamento (soft-posicionamento), ou a venda, objeção, fechamento 1:1 (soft-vendas)."
 ---
 
 # Soft Launch, o degrau 3 da escada de funis (lançamento pago)
@@ -9,7 +9,7 @@ description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft 
 
 **Este SKILL.md é o processo inteiro. Siga os modos na ordem, pare nos STOP, e rode o GATE antes de entregar qualquer peça que o lead lê.**
 
-Skill operadora do **Soft Launch**: o topo da escada (Funil Soft → Webinar Soft → **Soft Launch**). É o lançamento pago do Soft: evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos validados no Brasil: **Sala Secreta** (Felipe Holzer, ROAS 8x, 7 dígitos) e **Lançamento Pago Semanal Gravado / LPSG** (Leonardo Tabari, 200+ lançamentos, R$100MM+).
+Skill operadora do **Soft Launch**: o topo da escada (Funil Soft → Webinar Soft → **Soft Launch**). É o lançamento pago do Soft: evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos de referência validados no Brasil: **Sala Secreta** (ROAS 8x, 7 dígitos como referência, não promessa) e **Lançamento Pago Semanal Gravado / LPSG** (200+ lançamentos, R$100MM+ acumulado como referência).
 
 > Como todo funil Soft, é **+ Comercial**: o lançamento QUALIFICA o lead (gera o "sim do produto"); o fechamento 3k+ é no 1:1 (`soft-vendas`), nunca no checkout. O marketing entrega quente; a venda é da `soft-vendas`. A operação que materializa isso está em `references/aplicacao-e-comercial-operado-por-ia.md`.
 
@@ -55,7 +55,7 @@ Reference: `alertas-e-cadencia.md`. **STOP**: mostra a recomendação e espera o
 ### Modo B, Plano Completo (cliente decidiu lançar)
 Gatilho: *"estrutura meu lançamento do zero"*, *"como faço Sala Secreta pro meu produto de R$X?"*, *"me explica LPSG e estrutura"*.
 Entrega, **uma etapa por vez, com STOP entre elas**:
-1. **Formato + justificativa** → `formato-sala-secreta.md` (evento concentrado) ou `formato-lpsg-tabari.md` (recorrência/gravado).
+1. **Formato + justificativa** → `formato-sala-secreta.md` (evento concentrado) ou `formato-lpsg.md` (recorrência/gravado).
 2. **Estrutura do evento** slot por slot → `estrutura-evento.md` (noite única, dia longo, múltiplas noites, múltiplos dias, desafio 5 dias, congresso).
 3. **Narrativa de pontos-cegos** (o conversor da aula, anti-genérico) → `narrativa-pontos-cegos.md`. **Sempre.**
 4. **Página do ingresso + 4 criativos + tráfego** → `paginas-criativos-trafego.md`. Ingresso 20-30x mais barato que o produto, **NÃO É CPL**.
@@ -83,7 +83,7 @@ A skill detecta na entrada (Passo 1). Soft → lente Soft. Senão → padrão. N
 | Fechamento | + Comercial 1:1, a venda 3k+ é no `soft-vendas` | Checkout direto, se o ticket comportar |
 | Pós-lançamento | Integração obrigatória de volta no sistema | Continuidade padrão |
 | Linguagem | "Injeção pontual sobre o seu sistema" | "Estratégia de aquisição" |
-| Narrativa | Clínico, revela, não grita "evento épico" | Estilo padrão Holzer/Tabari |
+| Narrativa | Clínico, revela, não grita "evento épico" | Estilo padrão Sala Secreta/LPSG |
 
 ## GATE de saída (artefato visível obrigatório)
 Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio, e-mail, manifesto) passa pelo GATE antes de entregar. Preenche a tabela e **imprime junto da peça**. Só peça com VEREDITO=PASSA sai. Um ✗ qualquer = refaz a peça (não o conceito). Sem a tabela impressa, a peça não foi entregue. O detalhe vivo de cada filtro está no Crivo e nos filtros da `shared-references/`.
@@ -93,7 +93,7 @@ Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio,
 | **Ancorada (verbatim/prova)** | nasce de fala literal do avatar (cita N **real**) ou de prova real do autor; **número inventado/plausível = ✗**; fecha em chão/cena, não em tese bonita solta | |
 | **Conscientes do problema** | a peça fala com quem JÁ sente a dor, não com curioso; ingresso filtra, não capta massa | |
 | **Não é CPL** | o evento cobra ingresso e trata como compromisso; nada de lead grátis disfarçado | |
-| **Sem promessa grandiosa** | zero "você vai faturar R$X"; Holzer fez 7 dígitos é exceção citada como fonte, não promessa | |
+| **Sem promessa grandiosa** | zero "você vai faturar R$X"; a referência fez 7 dígitos é exceção citada como fonte, não promessa | |
 | **Tom clínico** | revela, não grita; sem motivacional, sem "vamos quebrar a internet" | |
 | **Ponto cego (se é aula/narrativa)** | revela algo que o lead "nem sabia que não sabia", não conteúdo achável no ChatGPT | |
 | **Crivo (ancoragem + simulação + CUB)** | passou na ancoragem do `crivo/` e na simulação de cliente; CUB não bloqueia | |
@@ -122,9 +122,9 @@ Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio,
 | Cliente Soft lançando todo mês | Avisa o risco: máximo 1-2/ano, integração de volta obrigatória |
 | Narrou o fluxo ("agora vou pra etapa 2") | Não narra: executa em silêncio, entrega a peça + a tabela |
 
-## Fontes e benchmark (cita pelos nomes, por transparência)
-- **Felipe Holzer, Sala Secreta** (Diamond jul/2025): 4 anos consecutivos, ROAS 8x, R$216k investido, 7 dígitos. Tickets R$3k a R$50k, 90% comparecimento, 20-30% conversão. Favorito: dia longo (sáb 10-17h), ingresso R$97, aplicação > checkout, 7 dias de carrinho.
-- **Leonardo Tabari, Turbo Academy** (Squad Turbo v3.0): 200+ lançamentos, R$100MM+. Métodos LPSG, Funil 8 (CAC negativo), C1/C2/C3, Turbo Express. Sistema integrado vs métodos isolados.
+## Fontes e benchmark (números de referência, nunca promessa)
+- **Sala Secreta (método de referência):** 4 anos consecutivos, ROAS 8x, R$216k investido, 7 dígitos. Tickets R$3k a R$50k, 90% comparecimento, 20-30% conversão. Favorito: dia longo (sáb 10-17h), ingresso R$97, aplicação > checkout, 7 dias de carrinho.
+- **LPSG (método de referência):** 200+ lançamentos, R$100MM+. Métodos LPSG, Funil 8 (CAC negativo), C1/C2/C3, versão express. Sistema integrado vs métodos isolados.
 Os dois são complementares: Sala Secreta é evento concentrado, LPSG é cadência semanal. A skill ajuda a escolher qual cabe no contexto.
 
 ## Para o orquestrador (soft-leon)
@@ -135,7 +135,7 @@ O LEON invoca esta skill como a mãe do degrau 3. Detectou Soft Launch, roda **M
 |-----------|-----------------|
 | `alertas-e-cadencia.md` | **Modo A sempre.** Variáveis de viabilidade + alertas + cadência segura. |
 | `formato-sala-secreta.md` | Modo B, evento concentrado (uma noite ou um dia) com ingresso pago. |
-| `formato-lpsg-tabari.md` | Modo B, recorrência semanal/mensal ou modelo gravado. |
+| `formato-lpsg.md` | Modo B, recorrência semanal/mensal ou modelo gravado. |
 | `narrativa-pontos-cegos.md` | **Modo B sempre.** Conteúdo inédito que revela pontos cegos. Anti-genérico. |
 | `estrutura-evento.md` | Modo B. Detalhe dos 6 formatos slot por slot. |
 | `paginas-criativos-trafego.md` | Modo B. Página do ingresso, 4 criativos, tráfego, ingresso barato, NÃO É CPL. |

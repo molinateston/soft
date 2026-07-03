@@ -38,7 +38,7 @@ Cada variável recebe nota Verde / Amarelo / Vermelho. O resultado agregado dá 
 **Por quê:**
 Lançamento pago **amplifica audiência existente**. Não cria do zero. Quem tem 200 seguidores e tenta lançar de um Zoom pra 1.000 pessoas vai gastar muito em tráfego frio sem retorno proporcional.
 
-**Holzer e Tabari concordam:** lançamento pago funciona melhor quando há **pré-existência** — pixel quente, base, audiência. Tráfego 100% frio é exceção (e mais cara).
+**Sala Secreta e LPSG concordam:** lançamento pago funciona melhor quando há **pré-existência** — pixel quente, base, audiência. Tráfego 100% frio é exceção (e mais cara).
 
 ### Se está Vermelho
 
@@ -73,7 +73,7 @@ Se o cliente não tem caixa pra absorver essa exposição **caso o lançamento v
 
 Considere:
 - Versão menor (noite única, ticket R$97-297, verba R$5-15k)
-- LPSG semanal pequeno (Tabari) — exposição menor
+- LPSG semanal pequeno (LPSG) — exposição menor
 - Adiar 3-6 meses pra fazer caixa
 
 ---
@@ -91,7 +91,7 @@ Considere:
 **Por quê:**
 Lançamento amplifica **conversão conhecida**. Se o cliente nunca vendeu o produto, ele tá testando produto + canal + oferta + preço **ao mesmo tempo**. Cada variável a mais multiplica risco de fracasso.
 
-**Princípio Holzer:** *"Se não está vendendo, existe um problema técnico — copy, anúncio, página."* Esse princípio só vale se o cliente JÁ TEM histórico. Sem histórico, é tudo problema técnico potencial — impossível diagnosticar.
+**Princípio Sala Secreta:** *"Se não está vendendo, existe um problema técnico — copy, anúncio, página."* Esse princípio só vale se o cliente JÁ TEM histórico. Sem histórico, é tudo problema técnico potencial — impossível diagnosticar.
 
 ### Se está Vermelho
 
@@ -128,7 +128,7 @@ A skill **não recusa** mas avisa explicitamente:
 
 **Para cliente Soft Business**: skill puxa explicitamente o sistema Soft (Carta + Conteúdo + DM) como rota alternativa.
 
-**Para cliente não-Soft**: skill recomenda construir base de leads pago + nutrição entre lançamentos (algo como o Funil 8 do Tabari).
+**Para cliente não-Soft**: skill recomenda construir base de leads pago + nutrição entre lançamentos (algo como o Funil 8 da LPSG).
 
 ---
 
@@ -149,12 +149,12 @@ Lançamentos seguidos **queimam audiência**. Mesma base, mesma promessa, sem no
 
 | Tipo | Cadência máxima |
 |---|---|
-| Sala Secreta (Holzer dia longo) | 1-2x por ano |
-| LPSG (Tabari semanal/quinzenal) | Específico — ver `formato-lpsg-tabari.md` |
+| Sala Secreta (dia longo) | 1-2x por ano |
+| LPSG (semanal/quinzenal) | Específico — ver `formato-lpsg.md` |
 | Lançamento grande (5+ dias evento) | 1x por ano máximo |
 | Mini-lançamento (noite única ticket baixo) | 3-4x por ano |
 
-**Tabari opera diferente** — LPSG é semanal/quinzenal por design. Mas é formato gravado, não ao vivo, e funciona com Funil 8 alimentando lead pago. Não dá pra extrapolar a cadência LPSG pra Sala Secreta ao vivo.
+**A LPSG opera diferente** — LPSG é semanal/quinzenal por design. Mas é formato gravado, não ao vivo, e funciona com Funil 8 alimentando lead pago. Não dá pra extrapolar a cadência LPSG pra Sala Secreta ao vivo.
 
 ### Se está Vermelho
 

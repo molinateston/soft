@@ -184,9 +184,9 @@ Antes do gate, confere os 5 movimentos de Blair Warren (Sonhos · Falhas · Medo
 | **Faca aparada** | mostra função das etapas, zero passo a passo executável que dispensa o autor | |
 | **Convite 1:1 único** | UM CTA firme pro Comercial 1:1 (WhatsApp/conversa), pré-explica o que acontece lá; **múltiplos CTAs ou "saiba mais/agende call" genérico = ✗** | |
 | **Degrau 1 da escada** | a carta filtra e aquece, não tenta fechar sozinha (salvo ticket baixo); preço fora da peça salvo ticket baixo | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Teste único** | o cliente certo pensa "isso fala comigo" na primeira linha e "finalmente alguém que entende" no fim | |
 | **CTA com destino** | o convite aponta pra um lugar real (link do WhatsApp/conversa), não pro vácuo | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
@@ -217,7 +217,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 | Carta tenta fechar a venda sozinha | É degrau 1: aquece e filtra. O fechamento é o Comercial 1:1 (soft-vendas). Preço fora da peça (salvo ticket baixo) |
 | Múltiplos CTAs ("clica · agenda call · saiba mais") | UM convite firme pro WhatsApp, pré-explicando o que acontece lá |
 | Entregou o passo a passo executável do método | Faca aparada: mostra função das etapas, não o "como fazer" que dispensa o autor |
-| Carta bonita mas genérica (concorrente assina) | Falha no Harry "só você diz"; reescreve com cena/mecanismo proprietário |
+| Carta bonita mas genérica (concorrente assina) | Falha no gate "só você diz"; reescreve com cena/mecanismo proprietário |
 | Narrou o fluxo ("agora vou diagramar") | Não narra: executa em silêncio e entrega só o resultado |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 | Carta Longa virou landing page (hero, seções com título, VSL embed, CTA repetido em botão) | É carta: texto corrido, leitura solitária, UM convite pro 1:1. Arquitetura-de-página é soft-funil-landing |

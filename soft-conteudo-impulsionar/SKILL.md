@@ -32,7 +32,7 @@ Tráfego acelera o que já funciona. Ligar antes destes 5 itens é pagar pra ace
 |---|---|
 | Posicionamento empacado (Plano de pé) | Sem isso, tráfego atrai público errado |
 | Perfil convertendo (visita → seguir) | Sem isso, o lead chega e vaza |
-| Destino no ar (Mini Carta / isca / DM com palavra) | Sem isso, o lead clica e não tem pra onde ir |
+| Destino no ar (Mini Carta / isca / DM com palavra) | Sem isso, o lead clica e não tem pra onde ir. **Exceção:** o ad de ATRAÇÃO (story ad) é CTA-less por desenho, a segmentação faz o trabalho; o filtro de destino vale só pro ad de CONVERSÃO |
 | ≥1 peça orgânica acima da média do perfil | É o que diz O QUE turbinar com confiança |
 | Primeira venda do método já fechada | Confirma que a oferta converte antes de escalar |
 
@@ -53,7 +53,7 @@ Olha as peças orgânicas dos últimos 30 dias (números reais). Candidato = top
 
 (A métrica-chave por formato e o duplo filtro algorítmico × financeiro estão em `references/metricas.md`.)
 
-**Quando o criativo de Atração for um STORY AD** (o anúncio que se camufla no conteúdo do dia, "não prometa, não convide, só afirmações e coisas soltas", foto/vídeo REAL nunca banco/IA, métrica = custo por visita R$0,15-0,25), a estrutura da associação + a régua de teste/escala (testa ~15, 2-3 vencem, escala devagar) estão em `references/story-ads.md`. A verba/distribuição segue o resto desta skill; a arte é da `soft-designer`.
+**Quando o criativo de Atração for um STORY AD** (o anúncio que se camufla no conteúdo do dia, "não prometa, não convide, só afirmações e coisas soltas", foto/vídeo REAL nunca banco/IA, métrica = custo por visita R$0,15-0,25), a estrutura da associação + a régua de teste/escala (testa ~15, 2-3 vencem, escala devagar) estão em `references/story-ads.md`. A verba/distribuição segue o resto desta skill; a arte é da `soft-designer`. **As 2 camadas (D2):** o ad de ATRAÇÃO é SEM CTA (a segmentação faz o trabalho) e o filtro de destino não o reprova; o ad de CONVERSÃO leva CTA com destino sem exceção.
 
 ## Passo 3, define público, verba e duração
 - **Público:** interesse do nicho (não inclui concorrente) · lookalike de seguidores (se já tem 1.000+ qualificados) · custom de quem visitou o perfil 30 dias. Mantém entre 100k-500k: amplo demais ("Brasil 18-65") queima verba, estreito demais (5k) o algoritmo não escala.

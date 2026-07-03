@@ -247,7 +247,7 @@ No ao vivo a sala digita de verdade. A skill NÃO gera comentários falsos, entr
 
 ## 10. GATE DE SAÍDA (o Crivo), bloqueante
 
-Cada comentário simulado É copy que o lead LÊ ao vivo (nomes, prova social, escassez, comando "EU QUERO"), então passa pelo mesmo gate de toda copy de leitor: ancoragem no verbatim, as 3 perguntas do Harry, prova com lastro, anti-vazamento, e o anti-IA (rodar o lint de copy). Veredito binário: qualquer falha reprova e re-roda. A checagem de consistência (§5) é o encanamento; o Crivo é o gate da COPY; os dois são pré-condição da subida. Sem passar, o chat não sobe.
+Cada comentário simulado É copy que o lead LÊ ao vivo (nomes, prova social, escassez, comando "EU QUERO"), então passa pelo mesmo gate de toda copy de leitor: ancoragem no verbatim, as 3 perguntas do gate, prova com lastro, anti-vazamento, e o anti-IA (rodar o lint de copy). Veredito binário: qualquer falha reprova e re-roda. A checagem de consistência (§5) é o encanamento; o Crivo é o gate da COPY; os dois são pré-condição da subida. Sem passar, o chat não sobe.
 
 ---
 

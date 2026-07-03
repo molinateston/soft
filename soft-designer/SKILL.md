@@ -37,7 +37,7 @@ O que ENTRA: a tese ou briefing da peça (de `soft-conteudo-carrossel/-reels/-st
 A copy-visual obedece o Crivo como qualquer peça:
 1. **Ancora:** puxa o verbatim real do público do usuário sobre o tema (`shared-references/crivo/01-entrada-verbatim.md`). A capa e os cards nascem de palavra real, não de rótulo.
 2. **Escreve ou afia:** uma frase por card/slide, na espinha (Fórmula 7), cada um UMA ideia comprimida (`shared-references/crivo/05-premissas-mestras.md`). Copy fraca ou card faltando, REESCREVE ancorando no perfil, não terceiriza.
-3. **Passa pelo gate de copy** `shared-references/crivo/03-gate-cub.md`: CUB por card, as 3 perguntas do Harry na CAPA (dá pra ver a cena? é falsificável? só este cliente diria?), passada de Consciência, prova no CTA, anti-vazamento. Nicho regulado roda também `04-gate-regulado.md`. Card que não passa, reescreve antes de desenhar.
+3. **Passa pelo gate de copy** `shared-references/crivo/03-gate-cub.md`: CUB por card, as 3 perguntas do gate na CAPA (dá pra ver a cena? é falsificável? só este cliente diria?), passada de Consciência, prova no CTA, anti-vazamento. Nicho regulado roda também `04-gate-regulado.md`. Card que não passa, reescreve antes de desenhar.
 4. **Anti-IA** `shared-references/filtro-anti-ia/`: sem travessão, sem frase de robô. No Code, roda `python3 scripts/lint_copy.py` na copy-visual (reprova em-dash e o verbo banido da anti-voz Soft).
 
 Só com a copy-visual aprovada o desenho começa.

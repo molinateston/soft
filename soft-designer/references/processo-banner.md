@@ -11,7 +11,7 @@
 
 Banner não é carrossel comprimido. É UMA mensagem. A regra é subtração:
 
-1. **A headline que para.** Uma frase, a cena ou o número que invalida o frame do leitor. Sai do verbatim do perfil (`shared-references/crivo/01-entrada-verbatim.md`), no ângulo de ponto cego, e passa as 3 perguntas do Harry (`shared-references/crivo/03-gate-cub.md`): dá pra ver a cena? é falsificável (fato, não adjetivo)? só este cliente diria? Headline de banner que o concorrente assina igual está reprovada.
+1. **A headline que para.** Uma frase, a cena ou o número que invalida o frame do leitor. Sai do verbatim do perfil (`shared-references/crivo/01-entrada-verbatim.md`), no ângulo de ponto cego, e passa as 3 perguntas do gate (`shared-references/crivo/03-gate-cub.md`): dá pra ver a cena? é falsificável (fato, não adjetivo)? só este cliente diria? Headline de banner que o concorrente assina igual está reprovada.
 2. **A copy-curta de apoio (opcional).** No máximo uma linha que ancora a headline (um número com lastro do banco de provas, uma sub-cena). Se não somar, corta. Banner com parágrafo é banner morto.
 3. **O CTA visual.** O próximo passo, claro, com o destino certo (ver tabela abaixo). Em tráfego pago o CTA é obrigatório.
 

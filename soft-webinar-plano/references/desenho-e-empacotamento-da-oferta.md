@@ -72,7 +72,7 @@ O primeiro erro que mata oferta é descrever o produto pelo que ele TEM, não pe
 1. **Detalhe técnico comoditiza.** No segundo em que se fala "configurar tal seção", o lead mapeia pra algo que conhece ("isso tem no YouTube") e o valor despenca.
 2. **Detalhe técnico rouba a atenção.** Tira a pessoa do estado de desejo e joga no estado calculista - e ninguém quer o lead calculando na hora da oferta.
 
-> **EXEMPLO (fala literal, Enes, nicho emprego).** O jeito morto: "nesse módulo você vai aprender a fazer as configurações do seu perfil do LinkedIn". O jeito que vende: *"nesse módulo, você vai aprender como fazer o robô LinkedIn e ficar 24 horas por dia procurando o emprego ideal para você. Nenhum candidato consegue fazer isso."* Mesmo conteúdo, outra venda. A headline entrega o resultado e abre o loop ("como assim, robô?").
+> **EXEMPLO (fala literal, método, nicho emprego).** O jeito morto: "nesse módulo você vai aprender a fazer as configurações do seu perfil do LinkedIn". O jeito que vende: *"nesse módulo, você vai aprender como fazer o robô LinkedIn e ficar 24 horas por dia procurando o emprego ideal para você. Nenhum candidato consegue fazer isso."* Mesmo conteúdo, outra venda. A headline entrega o resultado e abre o loop ("como assim, robô?").
 
 > **EXEMPLO (nicho emagrecimento, manual cap. 4).** O produto não é "12 aulas de dieta". É a jornada em três passos, cada um um alívio: destrava o metabolismo → volta a comer o que gosta → mantém o resultado sem viver na academia.
 
@@ -92,7 +92,7 @@ A oferta abre com uma frase, antes de qualquer número. Ela se escreve AQUI, em 
 
 **Por que essa frase carrega a oferta:** quando o preço se aproxima, a cabeça do lead entra em modo comparação ("por que esse e não outro? por que não o YouTube?"). A PUV declara a singularidade ANTES de ele comparar. E o ouro está embaixo dela: toda compra é segurada por uma **crença de pré-requisito** ("preciso de mais curso, mais tempo, mais audiência antes"). O "usando o que você já tem" quebra exatamente essa crença - remove o obstáculo em vez de empurrar o desejo. E remover obstáculo é mais forte que empurrar desejo, sempre (na equação do §1b: o obstáculo mora no denominador, e o denominador pesa mais).
 
-> **EXEMPLO (fala literal, Enes, nicho emprego).** *"o Admirável Emprego Novo é o único com a estratégia sniper que cria uma vantagem competitiva usando o que você já tem... Elas não vão ter outra opção a não ser te contratar."* Repare: mata o "preciso fazer mais um curso antes" na mesma frase.
+> **EXEMPLO (fala literal, método, nicho emprego).** *"o Admirável Emprego Novo é o único com a estratégia sniper que cria uma vantagem competitiva usando o que você já tem... Elas não vão ter outra opção a não ser te contratar."* Repare: mata o "preciso fazer mais um curso antes" na mesma frase.
 
 **Regra de desenho:** a PUV exige que o mecanismo tenha NOME (ver §8). PUV sem mecanismo nomeado é slogan genérico, e genérico compete por preço.
 
@@ -105,7 +105,7 @@ A oferta se monta escolhendo de um cardápio de tipos de componente. Cada tipo t
 **(a) Programa principal.** O produto-núcleo: a jornada em passos do §2, com nome e preço cheio próprio (esse preço cheio é a primeira âncora do roteiro - engenharia em `ancoragem-e-fechamento.md` §1-2). Tudo o mais se pendura nele.
 
 **(b) Produtos-com-preço (a prateleira que ancora).** Cursos/aulas/treinamentos complementares, cada um com nome, benefício e **preço próprio, real e verificável** - apresentados como produtos que se vendem separado, nunca como "bônus". Função: somar a âncora com credibilidade. Regra dura: preço crível, checável. Número redondo e inflado num ebook cheira a mentira e derruba a soma inteira.
-> **EXEMPLO (nicho emprego, Enes).** Principal R$990 + Mapa do Currículo R$200 + Inteligência Emocional pra Recolocação R$200 + aula de vídeo currículo R$100 = soma R$1.490. Cada parcela parece checável; a soma só impressiona porque cada pedaço é crível.
+> **EXEMPLO (nicho emprego).** Principal R$990 + Mapa do Currículo R$200 + Inteligência Emocional pra Recolocação R$200 + aula de vídeo currículo R$100 = soma R$1.490. Cada parcela parece checável; a soma só impressiona porque cada pedaço é crível.
 
 **(c) Acompanhamento / comunidade / suporte.** O componente vivo: mentoria em grupo, comunidade, atendimento. É o candidato natural a **item que vale mais que o produto principal** - o que inverte a percepção da compra ("só isso já valia o preço").
 > **EXEMPLO (nicho gestão, 13M).** A mentoria quinzenal por 12 meses "que custaria R$9.100" entregue junto do curso de R$1.997: o comprador deixa de achar que compra um curso e passa a achar que GANHA R$9.100. O bônus maior que o produto vira o motivo da compra.
@@ -119,14 +119,14 @@ A oferta se monta escolhendo de um cardápio de tipos de componente. Cada tipo t
 **(f) IA-que-faz / software.** O componente que executa pela pessoa. É a forma mais forte do clímax do §2: não é "mais uma ferramenta pra você operar" (isso seria virar o inimigo - a cultura do "pra crescer, adicione"), é o braço que opera por você.
 > **EXEMPLO (Soft Start).** O LEON gera o carrossel com PNG pronto, os reels, as headlines: *"A produção sai de cima de você. Você decide, ele opera"* (slide 47).
 
-**(g) O bônus sem preço (o "Mastercard" do Enes - nome dele, citado como EXEMPLO).** UM item, um só, guardado pra palavra "bônus" - e ele declaradamente **não tem preço**. Regra de criação: tem que ser algo que **SÓ o player consegue gerar** - curadoria de anos, base de clientes, pesquisa própria, ativo pessoal que não está à venda. Por quê: tudo que tem preço pode ser descontado mentalmente ("acho por menos em outro lugar"); o que não tem número escapa da régua e vira puro ganho. Por isso a palavra "bônus" fica RESERVADA a ele: *"se tudo é bônus, nada é especial"* - os itens (b)-(f) são "produtos", "cursos complementares", nunca "bônus".
-> **EXEMPLO (fala literal, Enes, nicho emprego).** *"os 30 melhores currículos extraídos de mais de dois mil alunos que conseguiram ótimos empregos. Eu peguei os 30 melhores e te dou prontos... Levou anos. Quanto vale? Não tem preço."*
+**(g) O bônus sem preço (o "Mastercard" (nome de terceiro, citado como EXEMPLO)).** UM item, um só, guardado pra palavra "bônus" - e ele declaradamente **não tem preço**. Regra de criação: tem que ser algo que **SÓ o player consegue gerar** - curadoria de anos, base de clientes, pesquisa própria, ativo pessoal que não está à venda. Por quê: tudo que tem preço pode ser descontado mentalmente ("acho por menos em outro lugar"); o que não tem número escapa da régua e vira puro ganho. Por isso a palavra "bônus" fica RESERVADA a ele: *"se tudo é bônus, nada é especial"* - os itens (b)-(f) são "produtos", "cursos complementares", nunca "bônus".
+> **EXEMPLO (fala literal, método, nicho emprego).** *"os 30 melhores currículos extraídos de mais de dois mil alunos que conseguiram ótimos empregos. Eu peguei os 30 melhores e te dou prontos... Levou anos. Quanto vale? Não tem preço."*
 > **EXEMPLO (Léo, mentoria).** *"Meu script de webinar eu não vendo pra ninguém."* Não é que é caro: é que não está à venda em lugar nenhum. E a moldura de copy que faz isso pesar: *"tem coisas que vocês entregam e, se não falam nada, não têm valor nenhum; com um pouquinho de copy você aluga um triplex na cabeça do lead."*
 > Pergunta de desenho pro player: **o que você tem que ninguém mais no mundo consegue gerar?** (nome Soft do bônus sem preço: a definir com o especialista.)
 
 **(h) O bônus surpresa personalizado (o "por que AGORA").** Desenhado desde já, mas não anunciado: um item **personalizado** (feito pro caso da pessoa), **escasso** (só pros N primeiros) e **surpresa** (fora da conta). Personalização é a melhor escassez possível porque é honesta por natureza: trabalho individual não escala, então limitar é autoevidente. Regra de desenho do N: **o N é a capacidade real de entrega**, nunca teatro.
 > **EXEMPLO (fala literal, Léo, mentoria).** *"Eu tô em paz com a estratégia dos 15 primeiros porque ainda não tenho escala que compra mais de 15. O dia que comprar mais, mudo pra 20."*
-> **EXEMPLO (nicho emprego, Enes).** "Os primeiros ganham uma revisão completa, individual, do currículo e do perfil do LinkedIn." **EXEMPLO (nicho adestramento, manual cap. 7):** o "mapa de personalidade do cachorro" - a pessoa informa raça e idade e recebe um mapa do animal dela.
+> **EXEMPLO (nicho emprego).** "Os primeiros ganham uma revisão completa, individual, do currículo e do perfil do LinkedIn." **EXEMPLO (nicho adestramento, manual cap. 7):** o "mapa de personalidade do cachorro" - a pessoa informa raça e idade e recebe um mapa do animal dela.
 > No perpétuo, desenhar o bônus surpresa como algo **automatizável** (template + automação) pra poder entregar a todos sem quebrar a honestidade.
 
 **Duas decisões de entrega que se tomam no desenho** (a apresentação está em `ancoragem-e-fechamento.md` §3):
@@ -160,12 +160,12 @@ O cardápio, do mais leve ao mais pesado, com o que cada um EXIGE pra ser honest
 | Prato | O que promete | O que exige do desenho |
 |---|---|---|
 | **Acesso/suporte (implícita)** | "Acesso por [tempo] + suporte direto" | Suporte que realmente responde; nada além |
-| **Experimento curto (7 dias)** | Devolve sem pergunta no prazo | Produto de decisão leve; 7 > 15 > 30 (Enes testou: 7 converteu melhor - prazo curto diminui a procrastinação, não a confiança) |
+| **Experimento curto (7 dias)** | Devolve sem pergunta no prazo | Produto de decisão leve; o método prefere o prazo curto (diminui a procrastinação, não a confiança) - confirme com o seu próprio teste no nicho |
 | **Incondicional [N] dias** | Devolve por qualquer motivo | Caixa pra honrar; produto que se avalia em semanas |
 | **Super-garantia em escada (90+90, a do Léo)** | 90 dias sem resultado → consultoria pessoal; +90 sem resultado → devolve E paga R$X pelo tempo perdido | Capacidade REAL de dar a consultoria do meio; um "+R$X" que dói no player e é crível (R$6.000 é o número do Léo - SLOT por nicho). A honestidade embutida: só aciona quem APLICOU, e quem aplicou 180 dias teve resultado |
 | **ROI-como-garantia (sem reembolso)** | O retorno substitui a garantia | Prova ESMAGADORA e verificável + nicho de resultado financeiro mensurável. Sem isso vira arrogância |
 
-> **EXEMPLO (ROI-como-garantia, nicho arquitetura).** A player não dava reembolso; a "garantia" era um caso real: *"a Bianca pagou o curso em uma semana de trabalho."* **EXEMPLO (extremo, Fladlien):** *"se você não fizer o dobro do investimento de volta, eu devolvo o DOBRO do seu dinheiro"* - desarmando a letra miúda na mesma fala.
+> **EXEMPLO (ROI-como-garantia, nicho arquitetura).** A player não dava reembolso; a "garantia" era um caso real: *"a Bianca pagou o curso em uma semana de trabalho."* **EXEMPLO (extremo, webinar de referência):** *"se você não fizer o dobro do investimento de volta, eu devolvo o DOBRO do seu dinheiro"* - desarmando a letra miúda na mesma fala.
 
 **A régua de escolha:** a garantia tem que ser **maior que a objeção de risco do avatar** - e não maior que isso. Avatar cético + ticket alto pedem reversão extrema; avatar que já confia + ticket baixo com super-garantia gera o efeito inverso ("por que tanto?"). E o tom Soft vale no desenho: a garantia cobre o **resultado do método**, nunca a decisão de aplicar - "eu garanto o método; não garanto fazer por você o que só você decide fazer."
 
@@ -173,7 +173,7 @@ O cardápio, do mais leve ao mais pesado, com o que cada um EXIGE pra ser honest
 
 ## 7. Ticket: ESPECTRO de R$497 a R$50 mil (decisão do método, 10/jun - faixa calibra, nunca exclui)
 
-**O webinar não tem teto de ticket - tem espectro.** O mesmo método vende de R$497 a R$50.000 (Enes, literal: *"Já fiz o webinário para vender high-ticks de até 45 mil reais. Está funcionando super bem."*). A faixa de ticket NUNCA exclui um produto do método; ela **calibra três coisas no desenho**:
+**O webinar não tem teto de ticket - tem espectro.** O mesmo método vende de R$497 a R$50.000; o webinar de referência já rodou high-ticket de dezenas de milhares com o mesmo desenho. A faixa de ticket NUNCA exclui um produto do método; ela **calibra três coisas no desenho**:
 
 1. **Quanta prova a oferta precisa carregar.** Ticket alto pede prova de outro calibre (casos verificáveis, números, ROI demonstrado); a soma do stack só ancora forte se os componentes têm valor de mercado real ≥2x o preço. Na equação (§1b): subir ticket exige subir probabilidade (mais prova) e derrubar esforço (mais faço-por-você) - âncora sozinha não segura preço que a equação não sustenta.
 2. **Quanta duração/densidade o fechamento pede.** A fase Ação é 25-35 min (perto de metade do webinar) e cresce em peso com o ticket - quem encurta o fechamento "pra não cansar" corta exatamente o que converte.
@@ -193,12 +193,12 @@ O que faz o produto valer preço de especialista é ser uma **transformação co
 
 **O mapa de slots de nome que o desenho deixa preenchido ou explicitamente pendente:**
 
-- Nome do **produto** (o veículo) - ex. existente nas fontes: "Soft Start" (Léo, R$1.000 cravado); "Admirável Emprego Novo" (Enes, EXEMPLO nicho emprego).
-- Nome do **mecanismo único** (sai da Transmutação; alimenta a PUV §3) - ex. EXEMPLO: "estratégia sniper" (Enes); "as 4 Estações da Economia / faça-chuva-ou-faça-sol" (nicho investimento, ticket R$25k+).
+- Nome do **produto** (o veículo) - ex. existente nas fontes: "Soft Start" (Léo, R$1.000 cravado); "Admirável Emprego Novo" (EXEMPLO nicho emprego).
+- Nome do **mecanismo único** (sai da Transmutação; alimenta a PUV §3) - ex. EXEMPLO: "estratégia sniper" (EXEMPLO nicho emprego); "as 4 Estações da Economia / faça-chuva-ou-faça-sol" (nicho investimento, ticket R$25k+).
 - Nomes dos **passos da jornada** (§2) - nomeados pelo que a pessoa vira. EXEMPLO (nicho nutrição): os quatro estágios de identidade "Aprendiz, Flexível, Inteligente, Inspiradora", em vez de "12 semanas de vídeo".
 - Nome do **bônus sem preço** (§4g) → (nome Soft: a definir com o especialista).
 - Nome da **garantia** escolhida e o valor do "+R$X" se houver → (nome Soft: a definir com o especialista).
-- Nome do **combinado/desconto com motivo** e dos degraus de preço → (nome Soft: a definir com o especialista; a mecânica é do Enes e o especialista a credita a ele).
+- Nome do **combinado/desconto com motivo** e dos degraus de preço → (nome Soft: a definir com o especialista; a mecânica vem do método e o especialista a torna dele).
 
 Regra de qualidade do nome: **conectado à tese/solução**, nunca "marketeiro" desconectado só pra soar quente (G4). O nome existe pra tirar o mecanismo da comparação por preço.
 

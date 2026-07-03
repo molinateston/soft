@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-reels
-description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
+description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Reel, o vídeo curto que atrai
@@ -100,9 +100,9 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **Lo-fi** | gancho + ideia carregam a peça, sem depender de câmera/edição cara; gravável em minutos | |
 | **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida em 1-2 min; mostra função, nunca passo a passo | |
 | **CTA com destino** | termina com próximo passo real do funil (salvar/comentar/manda/carrossel/isca), não solto | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **C/U/B** | não é **C**onfuso (carregamento cognitivo baixo, explica como pra criança), não é inacreditável (**U**nbelievable, promessa que o leitor não compra), não é **B**oring (chato, encheção de linguiça, introdução antes do conteúdo) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |

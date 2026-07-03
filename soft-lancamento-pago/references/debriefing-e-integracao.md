@@ -284,7 +284,7 @@ Skill pergunta ao cliente qual é o sistema atual e ajuda a integrar. Não impõ
 - Quem comprou só ingresso pode receber convite especial pra recorrência (preço de entrada)
 - Audiência expandida vira combustível pra próximos eventos da comunidade
 
-#### Cenário 3 — Cliente roda LPSG (Tabari) — múltiplos lançamentos no ano
+#### Cenário 3 — Cliente roda LPSG — múltiplos lançamentos no ano
 
 - Cada lançamento alimenta o próximo (mais audiência, mais base, mais pixel)
 - Cadência mais agressiva (1 lançamento a cada 30-90 dias)

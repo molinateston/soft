@@ -92,7 +92,7 @@ Cada peça do Mecanismo nasceu pra derrubar uma crença e provar o Dominó. É i
 
 O Mecanismo da Solução é **um fenômeno do domínio**, com nome próprio, que explica por que funciona. Não é um conceito genérico que qualquer concorrente do nicho também diz.
 
-**Teste do Harry ("só você assina"):** se a explicação cabe na boca de qualquer especialista do mesmo nicho, está rasa. Desce até o fenômeno técnico real que SÓ o método do usuário tem. Esse fundo sai da pesquisa + da entrevista, nunca da cabeça da IA.
+**Teste do anti-raso ("só você assina"):** se a explicação cabe na boca de qualquer especialista do mesmo nicho, está rasa. Desce até o fenômeno técnico real que SÓ o método do usuário tem. Esse fundo sai da pesquisa + da entrevista, nunca da cabeça da IA.
 
 - **Raso:** "meu método foca na causa, não no sintoma." (qualquer um diz)
 - **Fundo:** "meu método desarma o Corpo em Modo de Defesa antes de qualquer corte calórico, porque enquanto o cortisol está alto o corpo bloqueia a perda." (fenômeno nomeado e falsificável)
@@ -249,7 +249,7 @@ Antes de passar pro Bloco 3, aplica:
 
 1. **Teste das duas faces:** existe o Mecanismo do Problema (a causa nomeada, não só a descrição) E o Mecanismo da Solução (o novo mecanismo único nomeado)? Falta uma face, volta.
 
-2. **Teste do anti-raso (Harry):** o Mecanismo da Solução é fenômeno concreto que SÓ o usuário assina, ou cabe na boca de qualquer concorrente do nicho? Se cabe em qualquer um, desce ao fenômeno técnico real e renomeia.
+2. **Teste do anti-raso:** o Mecanismo da Solução é fenômeno concreto que SÓ o usuário assina, ou cabe na boca de qualquer concorrente do nicho? Se cabe em qualquer um, desce ao fenômeno técnico real e renomeia.
 
 3. **Teste do Dominó:** cada parte da explicação empurra o lead pra aceitar a tese-mãe? Se nenhuma prova o Dominó, o Mecanismo está solto.
 

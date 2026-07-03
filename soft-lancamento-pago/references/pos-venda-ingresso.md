@@ -2,21 +2,21 @@
 
 > **Quando consultar:** Modo B (planejamento) e principalmente **entre a venda do ingresso e o dia da aula**. Se o cliente já vendeu mas não estruturou pós-venda, esse é o gargalo silencioso que mata comparecimento e conversão final.
 
-Cobre tudo que acontece entre o lead pagar o ingresso e chegar na aula ao vivo. Material consolidado de Holzer (Sala Secreta) com adaptações Tabari (área de membros estilo Turbo).
+Cobre tudo que acontece entre o lead pagar o ingresso e chegar na aula ao vivo. Material consolidado da Sala Secreta (método de referência) com adaptações da LPSG (área de membros estilo Turbo).
 
 ---
 
 ## Princípio raiz
 
 > *"Comprometimento é diferente de aquecimento."*
-> — Holzer
+> — Sala Secreta
 
 Aquecimento é o que se faz com lead grátis (e-mails, conteúdo, lembretes pra "não esquecer da live"). **Comprometimento** é o que se faz com quem **pagou** — operação completamente diferente.
 
 Quem pagou já provou intenção. O trabalho do pós-venda do ingresso é:
 1. **Reforçar a decisão** (zero arrependimento)
 2. **Construir comprometimento progressivo** (área de membros, manifesto, comunidade)
-3. **Maximizar comparecimento** (90%+ é o alvo Holzer)
+3. **Maximizar comparecimento** (90%+ é o alvo Sala Secreta)
 4. **Pré-aquecer pra oferta** sem queimar a aula
 
 Pós-venda mal feito é o **maior buraco silencioso** do lançamento pago. Cliente vende 500 ingressos, 200 aparecem, 30 compram → ROAS desmonta. Não é problema da aula — é do pós-venda do ingresso.
@@ -77,7 +77,7 @@ PÓS-AULA — Manutenção da área (testemunhos, indicações, próximo evento)
 
 ## Bloco 2 — Área de membros (Dia 1+)
 
-### A doutrina Holzer
+### A doutrina Sala Secreta
 
 > Área de membros do ingresso opera como **rede social da galera que comprou**.
 
@@ -245,7 +245,7 @@ Cliente Soft que faz lançamento e **abandona a área de membros após o evento*
 
 ### Métricas críticas
 
-| Métrica | Alvo Holzer | O que sinaliza |
+| Métrica | Alvo Sala Secreta | O que sinaliza |
 |---|---|---|
 | **Taxa de comparecimento** | >85% (alvo 90%) | Qualidade do pós-venda |
 | **Engajamento na área de membros** | >40% acessou pelo menos 2 aulas | Comprometimento |

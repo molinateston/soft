@@ -1,13 +1,13 @@
 # Oferta/Stack (a aula reembalada como produto, bônus por objeção, valor empilhado item a item)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Mecanismos com dono: "bônus do combinado não sai caro" = MindMaster; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = Fladlien.
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Mecanismos com dono: "bônus do combinado não sai caro" = MindMaster; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = webinar de referência.
 
 ---
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-A oferta dos campeões nunca é um produto novo: é a AULA reembalada. Os módulos espelham 1:1 o que acabou de ser ensinado ("tudo que a gente viu hoje é o módulo 2"; os 7 passos da aula = os 7 módulos do curso; os 3 pilares da aula = os 3 pilares do programa) - comprar parece continuar o que já começou, não iniciar algo desconhecido. Segundo trabalho: cada item do stack mata UMA objeção nomeada (medo de ficar sozinho → mentoria/comunidade; "não sei aplicar na minha área" → acervo com exemplo da SUA profissão; "não falo inglês" → professor ao vivo dentro do programa; "não sei cobrar" → aula de precificação) - o stack não é pilha de coisas, é a lista das dores na mesma ordem em que foram instaladas. Terceiro: todo bônus tem preço nominal declarado e reason-why do custo ANTES de ser doado ("a gente cobra essa mentoria R$9.100… custo do professor"; "vendemos o OKR por R$1.497") - a soma vira contabilidade, não retórica, e constrói a âncora interna que o bloco 10 vai derrubar. Quarto: a promessa do produto fecha o loop da abertura - o "90 dias" grifado no objetivo 3 da aula reaparece literal na promessa do curso. Quinto: o formato é diferenciado contra a alternativa conhecida pelo defeito dela (MBA = "360 horas de linguiça" vs 64h direto ao ponto; faculdade de 4 anos vs 3 meses) - a compressão é vendida como benefício, não como falta. Sexto (Fladlien, doutrina explícita): bônus merecem mais tempo de palco que o produto-núcleo, porque "bonuses are more important than the offer itself when it comes to conversion".
+A oferta dos campeões nunca é um produto novo: é a AULA reembalada. Os módulos espelham 1:1 o que acabou de ser ensinado ("tudo que a gente viu hoje é o módulo 2"; os 7 passos da aula = os 7 módulos do curso; os 3 pilares da aula = os 3 pilares do programa) - comprar parece continuar o que já começou, não iniciar algo desconhecido. Segundo trabalho: cada item do stack mata UMA objeção nomeada (medo de ficar sozinho → mentoria/comunidade; "não sei aplicar na minha área" → acervo com exemplo da SUA profissão; "não falo inglês" → professor ao vivo dentro do programa; "não sei cobrar" → aula de precificação) - o stack não é pilha de coisas, é a lista das dores na mesma ordem em que foram instaladas. Terceiro: todo bônus tem preço nominal declarado e reason-why do custo ANTES de ser doado ("a gente cobra essa mentoria R$9.100… custo do professor"; "vendemos o OKR por R$1.497") - a soma vira contabilidade, não retórica, e constrói a âncora interna que o bloco 10 vai derrubar. Quarto: a promessa do produto fecha o loop da abertura - o "90 dias" grifado no objetivo 3 da aula reaparece literal na promessa do curso. Quinto: o formato é diferenciado contra a alternativa conhecida pelo defeito dela (MBA = "360 horas de linguiça" vs 64h direto ao ponto; faculdade de 4 anos vs 3 meses) - a compressão é vendida como benefício, não como falta. Sexto (webinar de referência, doutrina explícita): bônus merecem mais tempo de palco que o produto-núcleo, porque "bonuses are more important than the offer itself when it comes to conversion".
 
 ---
 
@@ -171,7 +171,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - o gabarito: bônus recebem mais palco que o produto
+### webinar de referência #1 (One to Many - Genius Webinars) - o gabarito: bônus recebem mais palco que o produto
 
 **Trecho literal:**
 
@@ -189,13 +189,13 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 **O que ele fez:** produto = evento real filmado (data, 63 pessoas, US$4.995 cada, equipamento de US$250k) - a logística vira prova de valor; componentes com duração ao segundo ("17 minutes and 41 seconds") = tangibilização; 7 bônus, cada um com contexto-ponte + benefício + prova quando há; re-listagem cumulativa do stack a cada bônus novo (o stack "pesa" mais a cada volta); "tale of two webinars" quantificando o custo de NÃO ter o bônus; curiosity gap dentro do próprio stack; promessa de fricção-zero.
 
-**Por que funciona:** ele executa o que pregou no próprio webinar - bônus recebem mais tempo que o produto-núcleo, porque bônus convertem mais que oferta (doutrina do Fladlien). A re-listagem cumulativa faz a percepção de volume crescer fisicamente enquanto o preço fica parado: o desequilíbrio valor/preço aumenta a cada minuto.
+**Por que funciona:** ele executa o que pregou no próprio webinar - bônus recebem mais tempo que o produto-núcleo, porque bônus convertem mais que oferta (doutrina do modelo). A re-listagem cumulativa faz a percepção de volume crescer fisicamente enquanto o preço fica parado: o desequilíbrio valor/preço aumenta a cada minuto.
 
 **O que é decalcável vs do nicho:** decalcável: re-listagem cumulativa, duração exata por componente, custo quantificado de não ter o item, curiosity gap no stack. Do nicho: o evento de US$4.995 como lastro - exige histórico real.
 
 ---
 
-### Fladlien #2 ("Product Creation Secrets" / Product E-Class 2020) - stack mapeado 1:1 nas objeções + meta-confissão
+### webinar de referência #2 ("Product Creation Secrets" / Product E-Class 2020) - stack mapeado 1:1 nas objeções + meta-confissão
 
 **Trecho literal:**
 
@@ -229,15 +229,15 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - [ ] **Remoção de atritos logísticos dentro do stack** (12 meses de acesso, 100% gravado, suporte diário, certificado, início imediato) - as objeções operacionais morrem aqui, não no Q&A.
 - [ ] **Tangibilização física** (duração ao segundo, 31 módulos/90 aulas, plataforma "estilo Netflix", evento filmado com data) - volume que se consegue visualizar.
 - [ ] **Bônus de identidade/pertencimento no topo** (Black Belt Club, lista de indicações, comunidade vitalícia, consultoria pós-$10k) - o último degrau vende quem o aluno vira, não o que ele recebe.
-- [ ] **Re-listagem cumulativa** (Fladlien #1; a máquina MindMaster faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
+- [ ] **Re-listagem cumulativa** (webinar de referência #1; a máquina MindMaster faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
 - **Oferta desconectada da aula.** Nenhum campeão apresenta produto com estrutura diferente do que ensinou - stack que não espelha o conteúdo chega como produto estranho e reabre o ceticismo.
 - **Bônus sem preço e sem porquê.** "E ainda levam mais isso!" sem valor nominal nem reason-why de custo esvazia a âncora - todos os campeões precificam e justificam.
 - **Stack de volume vazio.** Empilhar itens que não respondem objeção nenhuma (PDF genérico, "aulas extras") incha a lista e dilui os itens que vendem. O critério é: que objeção este item mata?
-- **Detalhar demais o produto-núcleo e correr nos bônus.** Fladlien inverte de propósito ("everybody does wrong… they'll spend 55 minutes explaining every little thing") - bônus convertem mais que a oferta.
-- **Revelar tudo do bônus.** Curiosity gap dentro do stack (armas secretas, produtos não revelados) é padrão dos dois Fladlien - bônus 100% transparente perde tração.
+- **Detalhar demais o produto-núcleo e correr nos bônus.** O modelo inverte de propósito ("everybody does wrong… they'll spend 55 minutes explaining every little thing") - bônus convertem mais que a oferta.
+- **Revelar tudo do bônus.** Curiosity gap dentro do stack (armas secretas, produtos não revelados) é padrão dos dois webinars de referência - bônus 100% transparente perde tração.
 - **Esconder limitações que vão aparecer no checkout** (juros, acesso limitado). Os campeões declaram ("tem um juros pequeno da plataforma") - surpresa no checkout mata a venda construída.
 - **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é MindMaster; "Black Belt Club" é do Bruno; "GPS da gestão ágil" é MindMaster. No Soft: mesma premissa, nome do Léo, validado com ele.
 - **Pro avatar Soft especificamente:** o stack MindMaster resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
@@ -248,6 +248,6 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 Variações que valem registrar como dado:
 - **A máquina MindMaster roda o stack quase idêntico em 4 edições** (13M, 5 Níveis, ed. 2.0, GAIA2k), trocando só o bônus de onda (97 prompts de IA no GAIA2k) - stack é peça de máquina, escrita uma vez e reusada.
-- **Fladlien #1 dá mais palco aos bônus que ao produto** - e verbaliza a doutrina ("bonuses are more important than the offer itself"). É o gabarito teórico pra auditar os outros.
+- **webinar de referência #1 dá mais palco aos bônus que ao produto** - e verbaliza a doutrina ("bonuses are more important than the offer itself"). É o gabarito teórico pra auditar os outros.
 - **Léo A empacota como jornada de identidades** (Aprendiz→Inspiradora) - formato que conversa melhor com avatar de transformação pessoal do que lista de módulos.
 - **Léo C devolve as metáforas plantadas** (pegadas, faixas) dentro do stack - em webinar com metáfora-mestra, o stack é onde ela é paga.

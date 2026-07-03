@@ -537,7 +537,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 ## Fecho · gate inline + faca Soft + preço
 
-Todo tipo, sem exceção, passa pelo gate inline do SKILL.md bloco a bloco (uma promessa · prova depois da promessa · mobile-first · fricção casada com a temperatura · mecânica-assinatura do tipo presente · 3 perguntas do Harry · C/U/B · anti-IA HARD). O tipo muda a receita de blocos, não dispensa o gate.
+Todo tipo, sem exceção, passa pelo gate inline do SKILL.md bloco a bloco (uma promessa · prova depois da promessa · mobile-first · fricção casada com a temperatura · mecânica-assinatura do tipo presente · 3 perguntas do gate · C/U/B · anti-IA HARD). O tipo muda a receita de blocos, não dispensa o gate.
 
 A faca Soft vale em todo conteúdo que descreve método: descreve resultado e função, nunca o passo a passo executável que tira o especialista da jogada.
 

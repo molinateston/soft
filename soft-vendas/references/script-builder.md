@@ -12,7 +12,7 @@ O script builder gera o roteiro de venda sob medida pro especialista, não um te
 ## Índice
 
 - 1. Inputs mínimos (pergunta UMA vez se faltar)
-- 2. Mapa de formato por ticket
+- 2. Mapa de canal (o canal é do FUNIL, não do ticket)
 - 3. A espinha de 7 fases (inviolável)
 - 4. Regras universais entre fases
 - 5. Como entregar o script final
@@ -36,16 +36,18 @@ Se o usuário deu só 2 ou 3, não pede os outros um por um, junta numa pergunta
 
 ---
 
-## 2. Mapa de formato por ticket
+## 2. Mapa de canal (o canal é do FUNIL, não do ticket)
 
-| Ticket | Canal recomendado | Ritmo |
+**O padrão do 1:1 é a DM/WhatsApp**, em qualquer ticket: fecha no chat com áudio, doc e vídeo curto (o modo `dm-sem-call`). A call, a reunião e o SDR são **exceções de contexto**, não degraus automáticos do preço. A tabela abaixo é isso: o default e as exceções que o justificam.
+
+| Canal | Quando (é o gatilho, não só o ticket) | Ritmo |
 |---|---|---|
-| até R$1k | WhatsApp puro | 1 mensagem por fase, frases curtas, tempo entre mensagens |
-| R$1k–R$2k | WhatsApp + Call | Texto pré-qualifica (F1–F3), ligação fecha (F4–F7) |
-| R$2k+ | Reunião Soft | Video 40–60min, blocos: Entenda 20' → Conecte 5' → Apresente 15' → Feche 10' |
-| R$5k+ | Reunião com SDR | SDR pré-qualifica 10–15min antes. Especialista só recebe lead pronto. |
+| **DM/WhatsApp (DEFAULT)** | a regra em qualquer ticket; o lead veio quente da carta/jogada/prospecção e quer resolver | 1 mensagem por fase, áudio pra autoridade, doc/vídeo curto na oferta (ver `dm-sem-call`) |
+| **WhatsApp + Call** (exceção) | o lead PEDE a condução ao vivo, ou empaca no chat e você lê que uma ligação resolve | Texto pré-qualifica (F1-F3), ligação fecha (F4-F7) |
+| **Reunião Soft** (exceção) | caso complexo (B2B, decisão a vários), ticket muito alto com perfil que quer olho no olho | Video 40-60min, blocos: Entenda 20' → Conecte 5' → Apresente 15' → Feche 10' |
+| **Reunião com SDR** (só com equipe+volume) | há **time** (SDR+Closer) e **volume** que justifique a divisão de papéis | SDR pré-qualifica 10-15min antes. Especialista só recebe lead pronto. |
 
-Se o usuário pediu canal diferente do recomendado pro ticket dele, **entrega o script no canal que ele pediu** mas avisa em 1 linha no final: *"Pro ticket de R$X, o canal que costuma converter melhor é Y, posso adaptar se quiser."*
+Se o usuário pediu um canal, **entrega o script no canal que ele pediu**. Se ele pediu call/reunião sem um dos gatilhos de exceção acima, avisa em 1 linha: *"O padrão do 1:1 é fechar na DM/WhatsApp com áudio/doc/vídeo; a call vale se o lead pedir ou o caso for complexo. Quer os dois caminhos?"*
 
 ---
 
@@ -279,20 +281,21 @@ Depois de coletar os 4 inputs, entrega nesta ordem:
 
 ## 6. Variações por formato
 
-### WhatsApp puro (até R$1k)
+### DM/WhatsApp (o DEFAULT, qualquer ticket)
 - Cada fase = 1 mensagem.
 - Frases curtas.
 - Zero "Espero que esteja bem". Comando educado.
 - F2 fica mais curta (2–3 perguntas máx, não 6).
 - F5 é enxuta: entrega principal + suporte + faz sentido?
+- **High-ticket também fecha aqui:** áudio pra autoridade, doc/vídeo curto na oferta (o modo `dm-sem-call`). Não sobe pra call por causa do preço; sobe só pelos gatilhos de exceção (o lead pede, caso complexo).
 
-### WhatsApp + Call (R$1k–R$2k)
+### WhatsApp + Call (exceção: o lead pede ou empaca no chat)
 - WhatsApp cobre F1–F3 (pré-qualificação + termômetro).
 - Passagem pra call: *"[Nome], faz sentido a gente conversar 20min pra eu te mostrar como isso se aplica no seu caso? Tenho [horário] e [horário]. Qual funciona?"*
 - Call abre com **acordo de sinceridade** (qualificação por dor com acordo prévio): *"[Nome], antes de começar, se não fizer sentido, me fala direto, sem problema. Se fizer sentido e couber no orçamento, a ideia é resolver hoje. Combinado?"*
 - F4–F7 na call.
 
-### Reunião Soft (R$2k+)
+### Reunião Soft (exceção: caso complexo ou ticket muito alto que pede olho no olho)
 - Video 40–60min.
 - Blocos cronometrados: Entenda 20' / Conecte 5' / Apresente 15' / Feche 10'.
 - Sem slides. Sem roteiro fixo lido. Tom conversacional.
@@ -321,7 +324,7 @@ Se qualquer item falhou, reescreve antes de entregar.
 Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`), na entrada e na checagem: toda fala entre aspas é verbatim literal da fonte real do cliente, e o ângulo-mãe tem N. Aspa que não bate na fonte reprova.
 2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-3. **Gate CUB bloqueante + as 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
+3. **Gate CUB bloqueante + as 3 perguntas do gate** (`crivo/03-gate-cub.md`): imprime a tabela, o veredito é o pior bloco, peça que falha não sai, volta pra reescrita.
 
 O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nessa ordem. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
 

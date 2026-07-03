@@ -1,4 +1,4 @@
-# Estrutura do webinar: ADMA híbrido (Insta Sniper + Brunson + Fladlien + doutrina Soft)
+# Estrutura do webinar: ADMA híbrido (Insta Sniper + Brunson + webinar de referência + doutrina Soft)
 
 > **Nota de nomenclatura (decisão do método, framework unificado em ADMA):** este arquivo descreve o **ADMA** (Atenção, Diagnóstico, Mecanismo, Ação). O nome de arquivo "aida" é legado e foi mantido só pra não quebrar os links que apontam pra ele. Onde você ler "aida" no caminho do arquivo, leia ADMA.
 
@@ -10,11 +10,11 @@
 >
 > **Esta reference é INSTRUÇÃO INTERNA da skill.** Ela dá ordem pra IA gerar o webinar DO CLIENTE, em QUALQUER nicho. Todo bloco está marcado **[UNIVERSAL]**: o esqueleto é lei, o tom e o exemplo são do avatar. Onde aparece um número, nome ou nicho concreto, está marcado **[EXEMPLO, não copiar literal, só ilustra]**. A skill não embute nenhum caso pessoal no método; ela conduz o usuário a preencher cada bloco com a verdade do nicho dele.
 >
-> **Antes de escrever cada bloco, abra o arquivo equivalente em `exemplos-por-bloco/`.** É a biblioteca de falas VERBATIM de 9 webinars que venderam (13M MindMaster, 5 Níveis, Gestão Ágil 2.0, GAIA2k, Aluna 80k/Pupim, LéoA/Vítor Abrão nutrição, LéoC/Bruno odonto, Fladlien #1 e #2). **Não duplique a biblioteca aqui: cada bloco APONTA pra ela** (ponteiro "→ `exemplos-por-bloco/NN-xxx.md`") e traz só o template de fala + um exemplo curto. Cada exemplo lá vem com **o que ele fez + por que funciona + o que é decalcável vs. do nicho**. Os trechos são **PREMISSAS demonstradas, nunca moldes pra decalcar (G2)**: extraia o porquê-funciona e reconstrua na voz do usuário. **Bordão, frase-mantra e nome de mecanismo TÊM DONO** (MindMaster, Fladlien, Vítor Abrão, Bruno/Pupim): não se transplantam, viram SLOT a preencher COM o usuário. Os ponteiros "→ ver `exemplos-por-bloco/NN-xxx.md`" estão plantados em cada bloco abaixo, no ponto certo.
+> **Antes de escrever cada bloco, abra o arquivo equivalente em `exemplos-por-bloco/`.** É a biblioteca de falas VERBATIM de 9 webinars que venderam (13M MindMaster, 5 Níveis, Gestão Ágil 2.0, GAIA2k, Aluna 80k/Pupim, LéoA/Vítor Abrão nutrição, LéoC/Bruno odonto, webinar de referência #1 e #2). **Não duplique a biblioteca aqui: cada bloco APONTA pra ela** (ponteiro "→ `exemplos-por-bloco/NN-xxx.md`") e traz só o template de fala + um exemplo curto. Cada exemplo lá vem com **o que ele fez + por que funciona + o que é decalcável vs. do nicho**. Os trechos são **PREMISSAS demonstradas, nunca moldes pra decalcar (G2)**: extraia o porquê-funciona e reconstrua na voz do usuário. **Bordão, frase-mantra e nome de mecanismo TÊM DONO** (MindMaster, webinar de referência, Vítor Abrão, Bruno/Pupim): não se transplantam, viram SLOT a preencher COM o usuário. Os ponteiros "→ ver `exemplos-por-bloco/NN-xxx.md`" estão plantados em cada bloco abaixo, no ponto certo.
 
 > **A fala pronta verbatim de cada bloco está em `falas-prontas-por-bloco.md`.** Aqui está o mapa do bloco (a ordem, o porquê, o modelo curto, e os dois campos PERGUNTA-CHAVE + ESTADO ALVO abaixo); a fala inteira já escrita no tom Soft, com lacunas pra preencher, está na reference irmã. Quando for redigir o roteiro, abra as duas: esta dá a engenharia, aquela dá a fala.
 
-> **OS 2 PRINCÍPIOS TRANSVERSAIS (Fladlien, viram lei do roteiro inteiro):**
+> **OS 2 PRINCÍPIOS TRANSVERSAIS (webinar de referência, viram lei do roteiro inteiro):**
 > 1. **ESTADO EMOCIONAL > CONTEÚDO.** O estado que você cria importa mais que a coisa que você ensina. Valor é emocional: medo→confiança, vergonha→aceitação, sem-esperança→esperança. Antes de cada bloco, a pergunta de design é "que estado eu crio aqui?", por isso cada bloco abaixo ganha um campo **ESTADO ALVO** (de que estado entra → pra que estado sai).
 > 2. **EDUCAÇÃO = VENDA.** Não existe diferença entre o slide 1 e o slide 101, todos são a venda. O conteúdo educa CRIANDO desejo (é a batida de ensino do Mecanismo, ver `motor-3-viradas.md`). A transição só torna explícito o que já estava acontecendo. Logo, nunca "agora vou parar de ensinar e começar a vender". E cada bloco ganha um campo **PERGUNTA-CHAVE**, a pergunta que move a plateia ali (cria micro-sim, checa/cria estado, ou faz a ponte educação→venda). No tom Soft a pergunta é clínica e honesta, não animação de palco.
 
@@ -42,7 +42,7 @@
 Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação) do framework Insta Sniper, com 3 enxertos do mercado mais a doutrina Soft:
 
 - **Brunson** (Perfect Webinar): Big Domino, 3 Secrets (Vehicle/Internal/External), Stack, nova oportunidade vs melhoria
-- **Fladlien** (Rapid Crush): Premise chocante, Fastpass, Genie, Objection Annihilation no Q&A
+- **Webinar de referência** (mercado americano): Premise chocante, Fastpass, Genie, Objection Annihilation no Q&A
 - **Doutrina Soft**: tom clínico, Faca Soft (não entrega execução), inimigo nomeado, caminho de consciência (É aula sim: ensina o quê e o porquê e revela o mecanismo, nunca o como-fazer manualizado), reposicionamento de culpa, Mecanismo na sequência real ensinado pela batida de 4 tempos
 
 **Duração total ideal:** 60-90 minutos (sweet spot validado: 60-72min; o ao vivo gravado roda até 90 quando o conteúdo e o Q&A pedem).
@@ -114,7 +114,7 @@ Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação
 
 ### A arquitetura invisível: COMPLIANCE PROGRESSIVA **[UNIVERSAL]**
 
-> **→ A escada de micro-compromissos é TRANSVERSAL, desenhe-a numa passada antes de escrever qualquer bloco: `exemplos-por-bloco/14-interacao-chat.md`** (9 de 9). Achado: do "tá me ouvindo?" ao "já me inscrevi", quando chega o pedido caro a pessoa já disse "sim" em público ~8 vezes. (É a "escada de micro-sins" do Marcos Enes.) No perpétuo, o desenho honesto é eco genérico, NUNCA nome falso.
+> **→ A escada de micro-compromissos é TRANSVERSAL, desenhe-a numa passada antes de escrever qualquer bloco: `exemplos-por-bloco/14-interacao-chat.md`** (9 de 9). Achado: do "tá me ouvindo?" ao "já me inscrevi", quando chega o pedido caro a pessoa já disse "sim" em público ~8 vezes. (É a "escada de micro-sins" do método.) No perpétuo, o desenho honesto é eco genérico, NUNCA nome falso.
 
 A aula inteira é uma **escada de pequenos "sim"** que começa aqui:
 
@@ -154,9 +154,9 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 
 **Erro comum:** abertura cordial longa que parece treinamento corporativo. Webinar não é palestra, é convite filtrado.
 
-### Bloco 1.2: Premise chocante (Fladlien) (45-90 seg) **[UNIVERSAL]**
+### Bloco 1.2: Premise chocante (webinar de referência) (45-90 seg) **[UNIVERSAL]**
 
-> **→ A mecânica completa da introdução está em `fladlien-modelo.md` (§1):** os 5 elementos de toda intro que vendeu (autoridade, compromisso, objeções, esperança, intriga) e o checklist de 4 fontes de autoridade (resultados, posicionamento, celebridade, depoimento). Levantar a objeção-chave logo no começo (este bloco) é um desses 5 elementos.
+> **→ A mecânica completa da introdução está em `modelo-webinar-referencia.md` (§1):** os 5 elementos de toda intro que vendeu (autoridade, compromisso, objeções, esperança, intriga) e o checklist de 4 fontes de autoridade (resultados, posicionamento, celebridade, depoimento). Levantar a objeção-chave logo no começo (este bloco) é um desses 5 elementos.
 
 **O que é:** uma frase contra-intuitiva que **reposiciona o problema do avatar**. Não é a solução ainda, é a virada de chave que faz ele querer entender.
 
@@ -192,7 +192,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 
 **Por que funciona:** o cérebro do espectador passa a aula inteira pré-disposto à conclusão que você já anunciou. Quando o pitch chega, é confirmação, não surpresa.
 
-### Bloco 1.5: Fastpass (Fladlien) (45-60 seg) **[UNIVERSAL]**
+### Bloco 1.5: Fastpass (webinar de referência) (45-60 seg) **[UNIVERSAL]**
 
 **O que é:** primeira menção da oferta logo no começo, **muito rápida**, pros que já estão prontos.
 
@@ -201,7 +201,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 **Modelo:**
 > "Antes de começar, pra quem já me conhece e já quer entrar: [nome do produto] está com inscrições abertas, vou mostrar tudo no final, mas se você quer pular fila e entrar agora com [bônus exclusivo de Fastpass], o link vai aparecer aqui. Se preferir esperar pra entender o método, fica e absorve tudo."
 
-**EXEMPLO verbatim de pré-anúncio transparente da oferta (Fladlien #2):** *"that when you show me your offer that you have at the end of this webinar, **spoiler, I do have a really special offer for you**... then I have some extra special stuff for the early action takers amongst you. Is that cool? Do we have a deal?"*, anunciar que A OFERTA EXISTE (sem número, sem stack) mata o cinismo de "lá vem a venda" antes de ele nascer: o pitch vira combinado, não emboscada.
+**EXEMPLO verbatim de pré-anúncio transparente da oferta (webinar de referência #2):** *"that when you show me your offer that you have at the end of this webinar, **spoiler, I do have a really special offer for you**... then I have some extra special stuff for the early action takers amongst you. Is that cool? Do we have a deal?"*, anunciar que A OFERTA EXISTE (sem número, sem stack) mata o cinismo de "lá vem a venda" antes de ele nascer: o pitch vira combinado, não emboscada.
 
 **Não exagera no Fastpass.** Uma vez só. Não é o momento de vender, é o momento de **abrir a porta** pros prontos. Volta no foco do conteúdo em seguida.
 
@@ -226,7 +226,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 **Modelo:**
 > "Nos próximos [90] minutos eu preciso da sua atenção total. Fecha as abas, deixa o celular de lado. Posso contar com você? Comenta sim."
 
-**EXEMPLO verbatim de contrato bilateral (Aluna 80k/Pupim):** *"Posso contar com você nos próximos 60 minutos? Você sabe por quê? Eu preciso da sua atenção concentrada aqui comigo, porque eu vou dar conteúdo de verdade. **Pega um caderno, anota tudo**, porque você não vai ter oportunidade de anotar isso depois."*, o "Do we have a deal?" do Fladlien e o "Combinado?" do Denison são a mesma jogada: a troca bilateral transfere a responsabilidade pelo resultado ao espectador desde o minuto 1.
+**EXEMPLO verbatim de contrato bilateral (Aluna 80k/Pupim):** *"Posso contar com você nos próximos 60 minutos? Você sabe por quê? Eu preciso da sua atenção concentrada aqui comigo, porque eu vou dar conteúdo de verdade. **Pega um caderno, anota tudo**, porque você não vai ter oportunidade de anotar isso depois."*, o "Do we have a deal?" do modelo e o "Combinado?" do Denison são a mesma jogada: a troca bilateral transfere a responsabilidade pelo resultado ao espectador desde o minuto 1.
 
 **Por que funciona:** autorresponsabilidade (papo de coach) + mais um degrau de compliance. O **comando físico** ("pega um caderno, anota") é mais um micro-sim, e justificado por uma razão (no-replay) vira obediência, não exigência.
 
@@ -453,7 +453,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 > **Embuta a negação das objeções-mãe DENTRO da crença (Aluna 80k/Pupim):** *"Se eu posso, você também pode... e detalhe, **sem precisar falar inglês fluente e sem precisar validar diploma**"*, os dois maiores bloqueios negados dentro da própria frase. E **prova por precedente de elite** ("escritórios grandes fazem isso há décadas, eles só nunca te contaram como") torna a novidade crível porque é antiga.
 
-> **Atenção (G2 + voz):** "resina é meio" é do webinar do Bruno; "adesão/dieta burra/dieta inteligente" são do MDI/Vítor; "gestor do futuro"/"visão de floresta" são da MindMaster; "the more you serve, the more you can sell"/"one problem one solution one sitting" são do Fladlien. A frase-mantra do Webinar Soft é **SLOT**, tem que sair do vocabulário do PRÓPRIO usuário, validada com ele (a decisão metodológica é do usuário).
+> **Atenção (G2 + voz):** "resina é meio" é do webinar do Bruno; "adesão/dieta burra/dieta inteligente" são do MDI/Vítor; "gestor do futuro"/"visão de floresta" são da MindMaster; "the more you serve, the more you can sell"/"one problem one solution one sitting" são do modelo. A frase-mantra do Webinar Soft é **SLOT**, tem que sair do vocabulário do PRÓPRIO usuário, validada com ele (a decisão metodológica é do usuário).
 
 ### Bloco 3.2: O mecanismo único nomeado (Brunson, Vehicle) (3-4 min) **[UNIVERSAL]**
 
@@ -576,7 +576,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ## AÇÃO (25-35 minutos): o fechamento, metade do peso
 
-> **→ Falas verbatim da TRANSIÇÃO pra venda (blocos 4.1-4.4): `exemplos-por-bloco/08-transicao-pra-venda.md`** (9 de 9, a dobradiça que decide se o pitch chega a uma sala que PEDIU ou a uma sala que aguenta). Premissa-mãe (Fladlien verbaliza): a transição bem feita faz a audiência sentir que VOCÊ está fazendo um favor ao abrir a oportunidade. A oferta entra **a pedido**: recap → mundo ideal → "sim eu quero" → bifurcação caminho 1/2, ninguém escolhe a opção solitária em público.
+> **→ Falas verbatim da TRANSIÇÃO pra venda (blocos 4.1-4.4): `exemplos-por-bloco/08-transicao-pra-venda.md`** (9 de 9, a dobradiça que decide se o pitch chega a uma sala que PEDIU ou a uma sala que aguenta). Premissa-mãe (webinar de referência verbaliza): a transição bem feita faz a audiência sentir que VOCÊ está fazendo um favor ao abrir a oportunidade. A oferta entra **a pedido**: recap → mundo ideal → "sim eu quero" → bifurcação caminho 1/2, ninguém escolhe a opção solitária em público.
 
 > **→ Falas prontas verbatim de TODA a fase: `falas-prontas-por-bloco.md` § TRANSIÇÃO (TR.0-TR.3), § OFERTA (OF.1-OF.11) e § FECHAMENTO (FE.1-FE.4).**
 
@@ -608,7 +608,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ### Bloco 4.3: A ENCRUZILHADA: dividir a plateia em 2 grupos (1-2 min) **[UNIVERSAL]**
 
-> **→ A versão eloquente desta jogada está em `fladlien-modelo.md` (§3):** a transição em 3 movimentos (recap de 60s, yes momentum, two choices). A two-choices do Fladlien é a articulação mais bem-acabada destes "2 caminhos", concedendo a competência com respeito antes de abrir a porta da oferta. O slide-modelo é a fonte da forma; aquela reference mostra o teto da técnica.
+> **→ A versão eloquente desta jogada está em `modelo-webinar-referencia.md` (§3):** a transição em 3 movimentos (recap de 60s, yes momentum, two choices). A two-choices do modelo é a articulação mais bem-acabada destes "2 caminhos", concedendo a competência com respeito antes de abrir a porta da oferta. O slide-modelo é a fonte da forma; aquela reference mostra o teto da técnica.
 
 **O que é:** o fechamento binário que faz a audiência PEDIR o pitch. Transforma "comprar / não comprar" em "**que tipo de pessoa eu sou**".
 
@@ -633,11 +633,11 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **Modelo [UNIVERSAL]:**
 > "Eu nem vou te perguntar se você consegue sozinho. Você consegue. A pergunta é: você quer ser seu próprio departamento de [operações/execução] pelos próximos [6] meses? Ou você quer decidir e deixar o resto rodar?"
 
-**EXEMPLO verbatim, "prova → dúvida sobre VOCÊ → eu sou a diferença" (Fladlien #2):** *"Others just like you did it. But does that mean YOU can do it? Probably not. If we parted ways right now, would you immediately go set the world on fire? It is doubtful. Because I probably know you better than you know yourself. You're stubborn... it's going to be so easy for you to fall back to your old habits. **And that's why I ain't going to let that happen.** You need me in your ear for the next six weeks."*, ele cria um problema novo (sozinho você falha) cuja única solução é a oferta; a dúvida NUNCA fica órfã (emenda "and that's why" na mesma frase).
+**EXEMPLO verbatim, "prova → dúvida sobre VOCÊ → eu sou a diferença" (webinar de referência #2):** *"Others just like you did it. But does that mean YOU can do it? Probably not. If we parted ways right now, would you immediately go set the world on fire? It is doubtful. Because I probably know you better than you know yourself. You're stubborn... it's going to be so easy for you to fall back to your old habits. **And that's why I ain't going to let that happen.** You need me in your ear for the next six weeks."*, ele cria um problema novo (sozinho você falha) cuja única solução é a oferta; a dúvida NUNCA fica órfã (emenda "and that's why" na mesma frase).
 
 **Por que funciona:** liberta, não humilha. Concede competência (o ego fica em paz) e desloca a decisão pro que o produto fecha (a execução / o braço).
 
-> **Temperatura Soft:** o "stubborn little booger" / tough love agressivo do Fladlien exige autoridade consolidada e avatar americano de marketing direto. Em pele Soft, a MESMA lacuna se entrega com mais afeto, "obesidade mental" (Denison) e "você já tentou sozinha antes" (LéoA/Vítor) são a mesma premissa em temperatura diferente. Anti-padrão: esmagar a autoestima sem oferecer a saída na MESMA frase.
+> **Temperatura Soft:** o "stubborn little booger" / tough love agressivo do modelo exige autoridade consolidada e avatar americano de marketing direto. Em pele Soft, a MESMA lacuna se entrega com mais afeto, "obesidade mental" (Denison) e "você já tentou sozinha antes" (LéoA/Vítor) são a mesma premissa em temperatura diferente. Anti-padrão: esmagar a autoestima sem oferecer a saída na MESMA frase.
 
 ### Bloco 4.5: Apresentar o produto por BENEFÍCIO / jornada, nunca por horas / módulos (2-3 min) **[UNIVERSAL]**
 
@@ -690,7 +690,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **Princípio:** garantia substitui pressão. "É difícil de pedir porque, se aplicar, tem resultado." Reverte o risco.
 
-> **→ Falas verbatim: `exemplos-por-bloco/11-garantia.md`.** Dado do corpus: garantia existe em só **3 de 9** webinars (a máquina MindMaster fecha SEM garantia em TODAS as edições), ausência é decisão de design, não esquecimento. Quando existe, é condicional de aplicação com dobro do dinheiro, e as condições SÃO o protocolo de implementação (Fladlien: *"twice your investment back... I can only make such a guarantee because the only thing preventing your success is not following the most basic part"*, "o cheque que você precisa descontar no banco"). Isto casa com tratar **garantia como cardápio** (não bandeira única): a tabela de 3 tipos acima é o cardápio a oferecer conforme ticket e ceticismo do avatar.
+> **→ Falas verbatim: `exemplos-por-bloco/11-garantia.md`.** Dado do corpus: garantia existe em só **3 de 9** webinars (a máquina MindMaster fecha SEM garantia em TODAS as edições), ausência é decisão de design, não esquecimento. Quando existe, é condicional de aplicação com dobro do dinheiro, e as condições SÃO o protocolo de implementação (webinar de referência: *"twice your investment back... I can only make such a guarantee because the only thing preventing your success is not following the most basic part"*, "o cheque que você precisa descontar no banco"). Isto casa com tratar **garantia como cardápio** (não bandeira única): a tabela de 3 tipos acima é o cardápio a oferecer conforme ticket e ceticismo do avatar.
 
 ### Bloco 4.10: Botão / abertura da oferta + pit emocional (1-2 min) **[UNIVERSAL]**
 
@@ -714,7 +714,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 > "Faz a conta com calma. [Investimento] ÷ [parcelas] = [valor pequeno/mês]. Pra recuperar, você precisa de [N clientes/resultados]. Se em [90] dias fechar [N+1], já pagou. Mais que isso, lucro."
 
-### Bloco 4.15: Q&A (Objection Annihilation, Fladlien) (5-7 min) **[UNIVERSAL]**
+### Bloco 4.15: Q&A (Objection Annihilation) (5-7 min) **[UNIVERSAL]**
 
 > **Detalhamento completo em `objection-annihilation.md`** (inclui a objeção-mãe como categoria-rainha e o desejo oculto). **→ Falas verbatim: `exemplos-por-bloco/13-qa-objecoes.md`.** Achado do corpus: **a objeção é encenada pelo host ANTES de nascer** ("Ju, eu sou engenheiro, posso? Pode" / "Bruno, mas resina pigmenta - pigmenta na mão de quem não se preparou") e o Q&A responde o ESTADO DECISÓRIO do lead, nunca a pergunta literal.
 
@@ -722,7 +722,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **Princípio:** no perpétuo, o Q&A não é improvisado, as perguntas são curadas. No ao vivo, antecipa as 5 mais prováveis com respostas prontas. **Pré-inocule contra o "amigo que boicota"**, quem vai tentar dissuadir o avatar depois da compra ("você não tava de dieta?" vira prova de que ele está no caminho certo).
 
-### Bloco 4.16: Genie (Fladlien) (1 min) **[UNIVERSAL]**
+### Bloco 4.16: Genie (webinar de referência) (1 min) **[UNIVERSAL]**
 
 **O que é:** segunda menção curta de oferta dentro do Q&A, pega quem ainda está em cima do muro.
 

@@ -1,13 +1,13 @@
 # Q&A e objeções (objeção encenada antes de nascer, FAQ plantada, fechamento do "maybe")
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). Mecanismos com dono: "em terra de cego quem tem olho é rei" como reframe da objeção de área = máquina MindMaster; "layups → curve balls", "nickel-and-dime vs $100 questions" e a demonização do "maybe" = Fladlien; o ventríloquo "Ju, …?" = Juliana Pupim; o "Bruno, mas…" = Bruno/Webinar C.
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). Mecanismos com dono: "em terra de cego quem tem olho é rei" como reframe da objeção de área = máquina MindMaster; "layups → curve balls", "nickel-and-dime vs $100 questions" e a demonização do "maybe" = webinar de referência; o ventríloquo "Ju, …?" = Juliana Pupim; o "Bruno, mas…" = Bruno/Webinar C.
 
 ---
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&A - ela é ENCENADA pelo próprio host, em primeira pessoa do espectador ("aí você pode falar: pô, mas eu não sou dono de empresa…"; "Ju, preciso falar inglês fluente?"; "Bruno, mas eu não cobro isso ainda"), e demolida antes de o lead formulá-la. Quem encena controla a formulação: escolhe a versão mais fraca da dúvida e responde com a versão mais forte do argumento - quando a dúvida real nasce no espectador, já vem com a resposta acoplada. Segundo: a objeção-mãe de cada nicho é INVERTIDA em vantagem, nunca só respondida ("minha área não usa ágil" → "em terra de cego quem tem olho é rei: você seria o primeiro"; "por que o americano me contrataria?" → "a grade curricular brasileira é superior"; "não confio no material" → "você não confia em você mesmo - e existe trilha"). Terceiro: o Q&A formal, quando existe, não responde perguntas - diagnostica o estado decisório por trás de cada pergunta e empurra para sim/não (Fladlien #2: pergunta evasiva é sintoma de medo; responder o detalhe alimenta o medo; a resposta-mestra é "entre e experimente, protegido pela garantia"). Quarto: FAQ plantada de fechamento (slide com "dúvidas que sempre surgem": pré-requisito, acesso, suporte, certificado, pagamento) - as perguntas operacionais do comprador silencioso, que liberam o checkout. Quinto: rota de resgate explícita pra venda que morre em atrito (e-mail comercial de plantão que mantém as condições; "sala secreta" no WhatsApp) - venda morre em cartão recusado tanto quanto em dúvida. Sexto: o estado "maybe" é tratado como o verdadeiro inimigo do bloco - sim e não são aceitáveis; talvez, não.
+O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&A - ela é ENCENADA pelo próprio host, em primeira pessoa do espectador ("aí você pode falar: pô, mas eu não sou dono de empresa…"; "Ju, preciso falar inglês fluente?"; "Bruno, mas eu não cobro isso ainda"), e demolida antes de o lead formulá-la. Quem encena controla a formulação: escolhe a versão mais fraca da dúvida e responde com a versão mais forte do argumento - quando a dúvida real nasce no espectador, já vem com a resposta acoplada. Segundo: a objeção-mãe de cada nicho é INVERTIDA em vantagem, nunca só respondida ("minha área não usa ágil" → "em terra de cego quem tem olho é rei: você seria o primeiro"; "por que o americano me contrataria?" → "a grade curricular brasileira é superior"; "não confio no material" → "você não confia em você mesmo - e existe trilha"). Terceiro: o Q&A formal, quando existe, não responde perguntas - diagnostica o estado decisório por trás de cada pergunta e empurra para sim/não (webinar de referência #2: pergunta evasiva é sintoma de medo; responder o detalhe alimenta o medo; a resposta-mestra é "entre e experimente, protegido pela garantia"). Quarto: FAQ plantada de fechamento (slide com "dúvidas que sempre surgem": pré-requisito, acesso, suporte, certificado, pagamento) - as perguntas operacionais do comprador silencioso, que liberam o checkout. Quinto: rota de resgate explícita pra venda que morre em atrito (e-mail comercial de plantão que mantém as condições; "sala secreta" no WhatsApp) - venda morre em cartão recusado tanto quanto em dúvida. Sexto: o estado "maybe" é tratado como o verdadeiro inimigo do bloco - sim e não são aceitáveis; talvez, não.
 
 ---
 
@@ -159,7 +159,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 ---
 
-### Fladlien #1 (One to Many) - sem Q&A ao vivo: checklist de auto-qualificação + pergunta plantada
+### webinar de referência #1 (One to Many) - sem Q&A ao vivo: checklist de auto-qualificação + pergunta plantada
 
 **Trecho literal:**
 
@@ -179,7 +179,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 ---
 
-### Fladlien #2 (Product E-Class) - o único Q&A formal longo do corpus (~90 min): diagnóstico do estado decisório
+### webinar de referência #2 (Product E-Class) - o único Q&A formal longo do corpus (~90 min): diagnóstico do estado decisório
 
 **Trecho literal:**
 
@@ -201,7 +201,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 **Por que funciona:** o Q&A não responde perguntas - diagnostica o estado decisório por trás de cada pergunta e empurra para sim/não. A tese de fundo: quem pergunta detalhe está com medo; responder o detalhe alimenta o medo; a única resposta que resolve é a experiência protegida pela garantia.
 
-**O que é decalcável vs do nicho:** decalcável: a arquitetura layups→curve balls, o conditional close 1:1 público, a regra "responda o estado, não a pergunta". Do nicho/dono: "nickel-and-dime/$100 questions" é rótulo do Fladlien; o Q&A de 90 min exige garantia forte como lastro - sem ela, o "entre e experimente" não existe.
+**O que é decalcável vs do nicho:** decalcável: a arquitetura layups→curve balls, o conditional close 1:1 público, a regra "responda o estado, não a pergunta". Do nicho/dono: "nickel-and-dime/$100 questions" é rótulo do modelo; o Q&A de 90 min exige garantia forte como lastro - sem ela, o "entre e experimente" não existe.
 
 ---
 
@@ -220,20 +220,20 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
 - **Deixar as objeções pro Q&A final.** Nenhum campeão acumula - a objeção é morta no bloco onde ela nasceria (área → no diagnóstico; tempo → na oferta; preço → na ancoragem). Q&A final é burocracia de pedido, não campo de batalha.
-- **Responder a pergunta literal de quem está com medo.** Fladlien verbaliza: responder o detalhe de quem está em "maybe" gera "a million more of them". A resposta certa endereça o estado decisório.
-- **Abrir microfone/chat sem curadoria.** O único Q&A longo do corpus (Fladlien #2) tem moderador que seleciona e ordena (layups → curve balls) - Q&A sem curadoria entrega o palco à objeção mais tóxica.
+- **Responder a pergunta literal de quem está com medo.** O modelo verbaliza: responder o detalhe de quem está em "maybe" gera "a million more of them". A resposta certa endereça o estado decisório.
+- **Abrir microfone/chat sem curadoria.** O único Q&A longo do corpus (webinar de referência #2) tem moderador que seleciona e ordena (layups → curve balls) - Q&A sem curadoria entrega o palco à objeção mais tóxica.
 - **Defender-se da objeção em vez de invertê-la.** O padrão vencedor transforma a dúvida em argumento de compra; resposta defensiva ("não, não é bem assim…") valida o frame do cético.
 - **Ignorar as dúvidas operacionais banais.** Pré-requisito, acesso, pagamento, certificado liberam o comprador silencioso - pular o FAQ "chato" deixa dinheiro no checkout.
 - **Reabrir debate depois do pitch fechado.** Juliana delega pro WhatsApp; MindMaster pro e-mail comercial - dúvida residual vai pro 1:1, não pro palco.
 - **Esmagar quem pergunta.** O takeaway dos campeões mira comportamento ("preguiçosa por escolha"), nunca a pessoa que perguntou; humilhar pergunta congela o chat inteiro.
-- **Decalcar rótulo com dono** ("terra de cego" = MindMaster; "nickel-and-dime" e o frame do maybe = Fladlien; "sala secreta" = Juliana). E pro Soft: as objeções do dono de negócio (equipe, tempo de dono, "meu mercado é diferente", "já comprei curso e não apliquei") têm que vir do baú de voz do avatar do perfil, não do template CLT.
+- **Decalcar rótulo com dono** ("terra de cego" = MindMaster; "nickel-and-dime" e o frame do maybe = webinar de referência; "sala secreta" = Juliana). E pro Soft: as objeções do dono de negócio (equipe, tempo de dono, "meu mercado é diferente", "já comprei curso e não apliquei") têm que vir do baú de voz do avatar do perfil, não do template CLT.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum webinar pula o tratamento de objeções - mas só 1 de 9 tem Q&A formal longo.** A distribuição é o dado:
 
-- **Q&A formal de ~90 min:** só Fladlien #2 (metade do webinar!) - e só porque tem dupla garantia como resposta-mestra e moderador (Wilson) fazendo curadoria.
+- **Q&A formal de ~90 min:** só webinar de referência #2 (metade do webinar!) - e só porque tem dupla garantia como resposta-mestra e moderador (Wilson) fazendo curadoria.
 - **FAQ plantada/roteirizada de fechamento:** 13M, GA ed. 2.0, GAIA2k, Léo A - perguntas auto-respondidas em slide, sem abrir o palco.
-- **Aniquilação 100% inline, sem bloco formal:** 5 Níveis (transcrição corta no link), Aluna 80k (ventríloquo "Ju…?" transversal + delegação pro WhatsApp), Léo C ("Bruno, mas…" transversal), Fladlien #1 (checklist de auto-qualificação + e-mail).
+- **Aniquilação 100% inline, sem bloco formal:** 5 Níveis (transcrição corta no link), Aluna 80k (ventríloquo "Ju…?" transversal + delegação pro WhatsApp), Léo C ("Bruno, mas…" transversal), webinar de referência #1 (checklist de auto-qualificação + e-mail).
 
 **Leitura clínica:** o tratamento de objeção é função obrigatória, mas o Q&A aberto é opcional e raro - só se sustenta com garantia forte + curadoria. Pra escrita Soft: mapear as objeções do avatar (são finitas), encenar e matar cada uma no bloco onde ela nasce, fechar com FAQ operacional + rota de resgate - e só abrir Q&A ao vivo se houver moderação e resposta-mestra preparada.

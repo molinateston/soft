@@ -127,15 +127,16 @@ O Filtro Soft é a sequência automatizada que recebe o lead vindo do Feed (via 
 
 ---
 
-## 10.8 · Mapa de canal por ticket
+## 10.8 · Mapa de canal (o canal é do FUNIL, não do ticket)
 
-O canal de conversão muda conforme o ticket. Mesmas 7 fases, ritmo diferente.
+O canal de conversão sai do **funil**, não do preço. Na esteira comercial 1:1 (carta, jogadas de campanha, prospecção, mentoria) **o padrão é a DM/WhatsApp em qualquer ticket**: fecha no chat com áudio, doc e vídeo curto (o modo `references/dm-sem-call.md`), mesmo high-ticket. A call, a reunião e o SDR+Closer são **exceções de contexto**, não degraus automáticos do preço. Mesmas 7 fases; muda só o canal e o ritmo. (No **Funil de Aula Agendada**, o produto da aula fecha DE UMA VEZ no checkout da própria aula, one-step; a esteira 1:1 vem DEPOIS como ascensão, e é aí que este mapa vale.)
 
-| Ticket | Canal | Ritmo das 7 fases |
+| Canal | Quando usar | Ritmo das 7 fases |
 |---|---|---|
-| **Até R$2k** | WhatsApp texto | Sequência rápida, 1-2 dias |
-| **R$2k a R$8k** | WhatsApp + call breve (15-30min) | Descoberta no texto, fechamento na call |
-| **R$8k+** | Call completa (45-60min) ou presencial | Descoberta 20min → Conexão 5min → Apresentação 15min → Fechamento 10min |
+| **DM/WhatsApp (DEFAULT)** | a regra em qualquer ticket; o lead veio quente da carta/jogada/prospecção e quer resolver | Sequência de chat, 1 mensagem por fase, áudio pra autoridade, doc/vídeo curto na oferta (ver `references/dm-sem-call.md`) |
+| **WhatsApp + call breve** (exceção de contexto) | o lead **pede** a condução ao vivo, ou o caso pede troca rápida (dúvida técnica pontual) | Descoberta no texto, call só pra alinhar e confirmar o próximo passo |
+| **Call completa / presencial** (exceção de contexto) | ticket muito alto **com** caso complexo (B2B, decisão a vários), ou o lead prefere | Descoberta 20min → Conexão 5min → Apresentação 15min → Fechamento 10min |
+| **Reunião com SDR+Closer** (só com equipe e volume) | há **time** e **volume** que justifiquem a divisão de papéis | SDR pré-qualifica antes; o especialista só recebe lead pronto |
 
 ---
 

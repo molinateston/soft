@@ -243,14 +243,14 @@ Roda o gate em CADA página **internamente**. Só página com VEREDITO=PASSA vai
 | **C / U / B** | Clareza (entende em 2s) · Utilidade (sabe o que ganha) · Boa-vontade (sem hype, sem promessa fácil). Os três de pé | |
 | **Sem promessa fabricada** | nenhuma promessa de resultado, número de prova ou garantia que o cliente não confirmou de fato | |
 | **CTA com destino** | todo botão diz o que acontece ao clicar e tem destino real (form / wa.me / calendário / gateway), nunca "Saiba mais" vago | |
-| **3 perguntas do Harry** | Dá pra VER? (cena/chão, não tese) · Dá pra FALSIFICAR? (fato, não adjetivo) · SÓ você diz? (o concorrente não assina igual) | |
+| **3 perguntas do gate** | Dá pra VER? (cena/chão, não tese) · Dá pra FALSIFICAR? (fato, não adjetivo) · SÓ você diz? (o concorrente não assina igual) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma"). **No chat (sem o lint), faz CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** No Code, roda `python3 scripts/lint_copy.py`. | |
 | **Coerência de formato** | página de **ao vivo** tem data fixa real + contagem real até a data; página de **perpétuo** NÃO tem data fixa, usa horário relativo/recurring + link único. Misturou (data fixa no perpétuo, "12 min" num evento de 3 dias) = ✗ | |
 | **Lei 5, admite-não-inventa** | todo furo de insumo (número, case, fala, oferta, vagas, preço) está marcado `[A CONFIRMAR]` no lugar exato, NUNCA preenchido com algo plausível; nenhum dado parece real sem fonte | |
 | **Lei 6, doc enxuto pros 2 leitores** | a saída é só a página colável: blocos + `[A CONFIRMAR]` + rótulos mínimos. Zero meta-narração, zero bastidor/racional, zero explicação-do-método-pro-leitor, zero repetição. Serve humano que cola E IA que recebe como contexto | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
-(O detalhamento de C/U/B + as 3 perguntas do Harry: `shared-references/crivo/03-gate-cub.md`. Padrões banidos + reescrita do anti-IA: `shared-references/filtro-anti-ia/`.)
+(O detalhamento de C/U/B + as 3 perguntas do gate: `shared-references/crivo/03-gate-cub.md`. Padrões banidos + reescrita do anti-IA: `shared-references/filtro-anti-ia/`.)
 
 ## Passo 7, a variante crua (CTA direto pro WhatsApp, SEM formulário)
 Tudo acima é o caminho padrão (form + 3 páginas). A variante crua manda o lead **direto pro WhatsApp** (`wa.me`) em vez de um formulário, e funciona em **dois cenários**: (1) **validação** (não vale montar páginas e automação ainda); (2) **ticket que pede conversa humana** (fechamento 1:1). Passo a passo:
@@ -313,7 +313,7 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 - `references/_PAGINAS-BENCH.md`: o BENCHMARK das páginas REAIS do Léo (no ar). Dirigido assim: Seção 1 (bio detalhada na última dobra, 2 formatos verbatim, Passo 1.B) · Seção 2 (obrigado web-v1 + ficha wizard + variante ao vivo, Passo 2) · Seção 3 (checkout enxuto, 5 blocos + lista de corte, Passo 3). É a régua que governa as 3 páginas; lê antes de montar.
 - `references/paginas-cadastro-obrigado-checkout.md`: a profundidade do tema inteiro, falas verbatim, moldes visuais e exemplos por nicho. Dirigida assim: Bloco 1.1 (4 headlines instanciadas, Passo 1.1) · Bloco 1.3 (bullets por D, Passo 1.3) · Bloco 1.5 (horário-variável + form-less, Passo 1.5) · Bloco 1.6 (vitrine 2 vs 4, Passo 1.6) · Bloco 1.7 (contra-filtro, Passo 1.7) · Bloco 1.8 (pre-roll, Passo 1.8) · Bloco 2.2 (opt-in WhatsApp, Passo 2.2) · Bloco 2.6 (ficha/mina de ouro, Passo 2.6) · Bloco 3.1 (stack + ancoragem em degraus, Bloco E) · Bloco 3.3 (prova na moeda, Bloco D) · Bloco 3.4 (cardápio de garantia, Bloco C) · "Variante crua" (Passo 7) · "Dados dinâmicos do perpétuo" (Passo 5) · "Notas operacionais" (página rústica, A/B, designer, Passos 0 e 4).
 - `shared-references/crivo/01-entrada-verbatim.md`: como ancorar no verbatim real (Passo 0).
-- `shared-references/crivo/03-gate-cub.md`: C/U/B + as 3 perguntas do Harry do gate (Passo 6).
+- `shared-references/crivo/03-gate-cub.md`: C/U/B + as 3 perguntas do gate (Passo 6).
 - `shared-references/filtro-anti-ia/`: padrões banidos + reescrita do anti-IA HARD (Passo 6).
 - `shared-references/filtro-mobile-first/`: checklist mobile-first item a item, quando a página vira visual (Passo 4).
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy de cada página como cinto extra do anti-IA. No chat não roda, por isso o CTRL+F manual do gate.

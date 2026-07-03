@@ -6,7 +6,7 @@
 
 O design do método tem rigor: 12 perguntas por slide, qualquer NÃO corrige antes, "não mostre slide que falhou". A copy tinha só "escreve, mostra, entrega". O modelo se autoaprovava. Resultado: o rigor estava no visual e frouxo no texto.
 
-Este gate cabea pra copy o mesmo aperto. A teoria mora aqui no Crivo embutido (CUB em camadas e as 3 perguntas do Harry aqui mesmo, as 8 leis em `05-premissas-mestras.md`), pra rodar standalone sem depender de arquivo de outra skill. Se a skill da vez tiver o `guia/GUIA-COPY-APLICACAO.md` local (CUB em camadas no §5, as 3 perguntas no §3, as 8 leis no §2), é a mesma régua e pode ser lida pra ecoar a redação. O gate NÃO reescreve essa teoria. Ele FORÇA a aplicação dela e recusa a peça que não passa.
+Este gate cabea pra copy o mesmo aperto. A teoria mora aqui no Crivo embutido (CUB em camadas e as 3 perguntas do crivo aqui mesmo, as 8 leis em `05-premissas-mestras.md`), pra rodar standalone sem depender de arquivo de outra skill. Se a skill da vez tiver o `guia/GUIA-COPY-APLICACAO.md` local (CUB em camadas no §5, as 3 perguntas no §3, as 8 leis no §2), é a mesma régua e pode ser lida pra ecoar a redação. O gate NÃO reescreve essa teoria. Ele FORÇA a aplicação dela e recusa a peça que não passa.
 
 ## A regra de agregação (binária, sem meio-termo)
 
@@ -59,7 +59,7 @@ Para **cada bloco da peça** (cada slide do carrossel, cada parágrafo da carta,
 | **5. Contraste** | Vira a chave do que ele pensa, em vez de confirmar? | Diz o que ele já acha. Sem antes e depois, erro e acerto, sintoma e causa |
 | **6. Puxa a próxima** | Esta linha faz a próxima ser lida? | Linha que fecha o assunto, que dá pra parar ali sem perder nada |
 
-E para **cada headline ou capa**, as 3 perguntas do Harry (gate extra, todas têm que dar SIM):
+E para **cada headline ou capa**, as 3 perguntas do crivo (gate extra, todas têm que dar SIM):
 
 - **Dá pra ver?** Fecha o olho e enxerga a cena? (concreto, não abstrato)
 - **Dá pra falsificar?** É um fato que dá pra provar certo ou errado, não um adjetivo?
@@ -71,9 +71,9 @@ E para **cada headline ou capa**, as 3 perguntas do Harry (gate extra, todas tê
 - **Consciente da solução / do produto** (já conhece o caminho): abre pela DIFERENÇA do teu mecanismo e pela PROVA, não pela existência dele.
 - **Mercado saturado (E4-E5, o nicho do perfil de exemplo):** promessa direta soa igual a todo concorrente. Abre por mecanismo nomeado + identificação ("isso explica o que eu vivo"), nunca por promessa gasta. O default "mecanismo sempre" só vale aqui; pro leitor inconsciente ele mata a abertura.
 
-**Passada 3-bis, Proprietário (headline, capa, CTA).** Teste de substituição-de-autor: troca o nome do cliente pelo do concorrente direto na frase. Se a frase sobrevive (o rival podia assinar igual), é genérica, NOTA de conserto. A frase de assinatura é a que SÓ sobrevive na boca DESTE cliente, porque carrega um bordão, uma cena-assinatura ou o mecanismo nomeado da Biblioteca de Assinatura (`soft-posicionamento/references/bloco-5-fundacao-headlines.md`, item 5). Aprofunda o "só eu posso dizer" do Harry: não basta não ser frase de guru, tem que ser inconfundivelmente do cliente.
+**Passada 3-bis, Proprietário (headline, capa, CTA).** Teste de substituição-de-autor: troca o nome do cliente pelo do concorrente direto na frase. Se a frase sobrevive (o rival podia assinar igual), é genérica, NOTA de conserto. A frase de assinatura é a que SÓ sobrevive na boca DESTE cliente, porque carrega um bordão, uma cena-assinatura ou o mecanismo nomeado da Biblioteca de Assinatura (`soft-posicionamento/references/bloco-5-fundacao-headlines.md`, item 5). Aprofunda o "só eu posso dizer" do o crivo: não basta não ser frase de guru, tem que ser inconfundivelmente do cliente.
 
-3 sins, passa. 1 não, reescreve. Standalone, este bloco JÁ É o teste construtivo completo (as 3 perguntas do Harry são o corte anti-genérico). Se a skill da vez tiver o `shared-references/filtro-anti-ia/teste-construtivo.md` local (toda skill que produz peça tem, é cópia sincronizada da fonte), abre lá pra mais detalhe e exemplos; o resultado é o mesmo.
+3 sins, passa. 1 não, reescreve. Standalone, este bloco JÁ É o teste construtivo completo (as 3 perguntas do crivo são o corte anti-genérico). Se a skill da vez tiver o `shared-references/filtro-anti-ia/teste-construtivo.md` local (toda skill que produz peça tem, é cópia sincronizada da fonte), abre lá pra mais detalhe e exemplos; o resultado é o mesmo.
 
 ## O CTA e o último bloco (onde a peça cai de tom)
 
@@ -172,7 +172,7 @@ Se ainda cheira a esforço, a alguém querendo soar inteligente, voltou a Confus
 
 ## O que o gate NÃO faz
 
-Ele não suaviza promessa por covardia, nem enche de prova falsa. Se falta prova real, o conserto é ABAIXAR a promessa até o tamanho do que dá pra provar (premissa do Fladlien: promessa menor com risco zero converte mais que promessa grande sem chão). Reprovar em U não é "promete menos", é "promete o que você consegue sustentar, e sustenta na frente do leitor".
+Ele não suaviza promessa por covardia, nem enche de prova falsa. Se falta prova real, o conserto é ABAIXAR a promessa até o tamanho do que dá pra provar (premissa do método: promessa menor com risco zero converte mais que promessa grande sem chão). Reprovar em U não é "promete menos", é "promete o que você consegue sustentar, e sustenta na frente do leitor".
 
 E o limite honesto do gate: ele aprova a FORMA (a frase é falsificável?), não a VERACIDADE. Se o caso "João, 3 pra 11" for inventado, isso é fraude, não copy fraca, e o Crítico não pega. Por isso toda NOTA de prova-do-autor lembra: o número tem que ser real. Forma falsificável com número falso é o único jeito de furar este gate, e a responsabilidade aí é do autor, não da régua.
 

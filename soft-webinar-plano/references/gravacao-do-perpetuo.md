@@ -77,9 +77,9 @@ Preenche a tabela pra cada etapa entregue. Só etapa com VEREDITO=PASSA vai pro 
 | **Presença honesta** | não afirma "estou ao vivo"; escassez de sessão é real; simula a SALA, nunca a PROVA (resultado/preço/garantia são de verdade) | |
 | **C/U/B** | o plano serve Clareza (entende), Utilidade (executa), Brevidade (sem encher linguiça) | |
 | **CTA com destino** | o micro-comando e o pitch apontam pra um destino concreto (digitar no chat, o botão da oferta no minuto exato) | |
-| **Harry, dá pra ver?** | dá pra enxergar a cena da conduta (o que aparece na tela, o que se fala, quando clica), não conselho vago | |
-| **Harry, dá pra falsificar?** | cada instrução é verificável (forma escolhida, setup, corte), não adjetivo | |
-| **Harry, só você diz?** | a conduta usa o mecanismo/avatar do cliente, não molde genérico que qualquer um assina | |
+| **Dá pra ver?** | dá pra enxergar a cena da conduta (o que aparece na tela, o que se fala, quando clica), não conselho vago | |
+| **Dá pra falsificar?** | cada instrução é verificável (forma escolhida, setup, corte), não adjetivo | |
+| **Só você diz?** | a conduta usa o mecanismo/avatar do cliente, não molde genérico que qualquer um assina | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
 

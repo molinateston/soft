@@ -529,7 +529,7 @@ Sem fricção. Sem depoimento de saída.
 Você só clica em "quero sair" e recebe o reembolso.
 ```
 
-> **ATENÇÃO (a confirmar com o especialista):** a máquina MindMaster fecha SEM garantia em todas as edições; Fladlien usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
+> **ATENÇÃO (a confirmar com o especialista):** a máquina MindMaster fecha SEM garantia em todas as edições; O modelo usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
 
 ### Bloco 3.5 - FAQ (objeções residuais)
 
@@ -760,7 +760,7 @@ O perpétuo não pode ter "data fixa" escrita na página. Cada lead vê a SUA se
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-Antes de publicar, cada página (cadastro, obrigado, checkout) PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`), as 3 perguntas do Harry, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça); quando a página vira visual, soma o `shared-references/filtro-mobile-first/`. Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Sem passar no Crivo, a página não vai pro ar. O encanamento descrito acima (link único, tags, integrações) é pré-condição técnica; o Crivo é o gate da COPY que o lead lê, e os dois têm que estar de pé.
+Antes de publicar, cada página (cadastro, obrigado, checkout) PASSA pelo Crivo (`shared-references/crivo/03-gate-cub.md`): ancoragem no verbatim (`crivo/01-entrada-verbatim.md`), as 3 perguntas do gate, prova com lastro, anti-vazamento, e o anti-IA (`shared-references/filtro-anti-ia/` + rode `python3 scripts/lint_copy.py` na peça); quando a página vira visual, soma o `shared-references/filtro-mobile-first/`. Veredito binário: qualquer falha reprova e re-roda. Não existe "checa e entrega". Sem passar no Crivo, a página não vai pro ar. O encanamento descrito acima (link único, tags, integrações) é pré-condição técnica; o Crivo é o gate da COPY que o lead lê, e os dois têm que estar de pé.
 
 **As duas leis de operação que o gate também trava (Seção 0 da `operacao-padrao.md`):**
 - **Lei 5, admite-não-inventa:** todo furo de insumo (número, case, fala, oferta, vagas, preço, mecanismo) entra como `[A CONFIRMAR]` no lugar exato, NUNCA preenchido com algo plausível. Insumo que falta é pendência declarada; um dado que parece real sem fonte reprova a página.

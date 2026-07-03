@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do gate + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
 ---
 
 # Carrossel, a peça que move a decisão
@@ -138,9 +138,9 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **Confuso (C)** | dá pra ler cada slide sem reler; uma ideia por slide; zero abstração que não vira imagem | |
 | **Inacreditável (U)** | nenhuma promessa que o leitor não engole; prova ancorada onde afirma resultado | |
 | **Chato (B)** | nenhum slide morno/educativo neutro; polariza, mexe na crença ou na cena, não só informa | |
-| **Harry, dá pra ver?** | o diagnóstico fecha o olho e vira cena. ✗ "tenha mais clareza" · ✓ "a call de 1h vira 40 min de desabafo e um 'vou pensar'" | |
-| **Harry, dá pra falsificar?** | as afirmações são fatos falsificáveis, não adjetivos | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | o diagnóstico fecha o olho e vira cena. ✗ "tenha mais clareza" · ✓ "a call de 1h vira 40 min de desabafo e um 'vou pensar'" | |
+| **Dá pra falsificar?** | as afirmações são fatos falsificáveis, não adjetivos | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **CTA forte com palavra-chave** | slide final tem CTA único e muito bem feito: palavra-chave pra comentar + o que a pessoa recebe (bullets/benefício) + próximo passo real do funil (direct/carta/isca); CTA fraco ou **sem destino = ✗** | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** | |

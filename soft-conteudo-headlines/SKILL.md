@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-headlines
-description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do Harry + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinar-plano).
+description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do gate + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinar-plano).
 ---
 
 # Headline, os primeiros 3 segundos
@@ -106,9 +106,9 @@ Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headli
 | **Mesa-sentado** | eu falaria pro cliente na cara dele. ✗ "descubra o segredo que mudou tudo" · ✓ "cobrei 3x mais e o cliente agradeceu" | |
 | **Curta e densa (serve pra tudo)** | diz mais com menos; corta toda palavra que não muda o sentido; curta mas NÃO rasa; nunca encurta até virar figura vazia (Lei 1). A mesma headline serve de capa, reel, post ou story | |
 | **Não-defendo** | não ensina a fazer melhor uma prática da lista do "não defendo" | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
-| **Harry, dá pra falsificar?** | é um fato falsificável, não um adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
+| **Dá pra falsificar?** | é um fato falsificável, não um adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
@@ -132,7 +132,7 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 | Palavra-container solta ("um sistema que transforma") | Troca por imagem concreta com adjetivo + número |
 | Inimigo virou "5 erros ao fazer X" | Ataca como erro estrutural, não como prática a melhorar |
 | Mistério vácuo ("tem algo que ninguém conta") | Dá a textura/pista concreta do que está em jogo |
-| Headline bonita mas genérica (concorrente assina) | Falha no Harry "só você diz"; reescreve com cena/mecanismo proprietário |
+| Headline bonita mas genérica (concorrente assina) | Falha no gate "só você diz"; reescreve com cena/mecanismo proprietário |
 | Narrou o fluxo ("agora vou auditar") | Não narra: executa em silêncio e entrega só as headlines limpas, sem a tabela do gate |
 | Headline que só quem já é de dentro entende | Falha na Clareza (Lei 1): reescreve criando o contexto e troca a palavra difícil pela simples |
 | Figura de linguagem vazia ("mensagem cheia") | Curto nunca acima de claro: reescreve concreto, como uma pessoa real diria ("muitas mensagens pra responder e zero contratos") |

@@ -181,7 +181,7 @@ Sem acesso a shell nem ao `deck_gen.py`. Então:
 ## 5. RE-GATE ao condensar + checklist do mini-deck
 
 ### RE-GATE (a regra que fecha o modo)
-O roteiro já passou pelo gate quando foi escrito. Mas o texto VISÍVEL de cada slide (a 1 frase / 1 número / 1 imagem-conceito do reforço) é uma **condensação NOVA** que o lead LÊ, não a fala original. Então a copy de tela de cada slide **re-passa pelo gate** ANTES de exportar: a ancoragem (o número é real?), as 3 perguntas do Harry no título de cada slide-chave (dá pra ver? dá pra falsificar? só você diz?), o C/U/B e o anti-IA do gate do SKILL.md (o item Anti-IA HARD, com o CTRL+F manual dos padrões banidos no chat; `python3 scripts/lint_copy.py` na copy de tela + nota no Code). Depois de aprovado, o render não muda palavra; se condensar ou reescrever o texto de tela, re-passa o gate antes de exportar.
+O roteiro já passou pelo gate quando foi escrito. Mas o texto VISÍVEL de cada slide (a 1 frase / 1 número / 1 imagem-conceito do reforço) é uma **condensação NOVA** que o lead LÊ, não a fala original. Então a copy de tela de cada slide **re-passa pelo gate** ANTES de exportar: a ancoragem (o número é real?), as 3 perguntas do gate no título de cada slide-chave (dá pra ver? dá pra falsificar? só você diz?), o C/U/B e o anti-IA do gate do SKILL.md (o item Anti-IA HARD, com o CTRL+F manual dos padrões banidos no chat; `python3 scripts/lint_copy.py` na copy de tela + nota no Code). Depois de aprovado, o render não muda palavra; se condensar ou reescrever o texto de tela, re-passa o gate antes de exportar.
 
 ### Checklist do mini-deck (roda por dentro, por fase)
 - [ ] Nenhum slide passa na pergunta-teste ("dá pra narrar lendo só a tela"). Copy toda na nota.

@@ -2,14 +2,14 @@
 
 > **Quando consultar:** Modo B quando cliente quer estruturar oferta com order bump pra zerar ou inverter CAC. Esta é a mecânica que diferencia lançamento pago de lançamento perpétuo tradicional.
 
-Cobre os 3 order bumps validados por Holzer (Sala Secreta) que fazem o CAC do lançamento ficar zero ou positivo — ou seja, o ingresso + bumps **pagam o tráfego** antes mesmo do produto principal vender.
+Cobre os 3 order bumps validados pela Sala Secreta (método de referência) que fazem o CAC do lançamento ficar zero ou positivo — ou seja, o ingresso + bumps **pagam o tráfego** antes mesmo do produto principal vender.
 
 ---
 
 ## Princípio raiz
 
 > *"Order bumps são importantes para o CAC zero."*
-> — Holzer
+> — Sala Secreta
 
 CAC tradicional em lançamento perpétuo:
 
@@ -34,9 +34,9 @@ A diferença não é só de margem — é **estrutural**. Lançamento perpétuo 
 
 ---
 
-## Os 3 order bumps Holzer
+## Os 3 order bumps Sala Secreta
 
-Material consolidado da apresentação Diamond Julho 2025. Três bumps validados, em ordem crescente de complexidade e poder.
+Material consolidado da apresentação de referência. Três bumps validados, em ordem crescente de complexidade e poder.
 
 ### Bump 1 — Q&A pós-aula
 
@@ -63,7 +63,7 @@ Sessão de perguntas e respostas exclusiva, ao vivo, **DEPOIS** da aula principa
 - Limite natural: o expert só consegue atender N pessoas
 - Cria sensação de urgência genuína
 
-**Conversão típica (Holzer):**
+**Conversão típica (Sala Secreta):**
 - 20-40% dos compradores de ingresso adicionam Q&A
 - Se ticket alto: 10-20%
 
@@ -89,7 +89,7 @@ Acesso à gravação completa da aula principal, baixável, sem prazo de expira�
 - Reduz fricção da decisão de compra do ingresso
 - Custo marginal zero pra quem entrega (gravação já existe)
 
-**Conversão típica (Holzer):**
+**Conversão típica (Sala Secreta):**
 - 40-70% dos compradores adicionam gravação
 - É o bump mais aceito porque resolve dor real
 
@@ -121,7 +121,7 @@ Versão mais leve do produto principal, ancorada em forma + preço pra quem deci
 - Ancora preço do produto principal (a oferta da aula vai parecer "o caminho completo")
 - Acelera ROI — esses R$ entram antes do produto principal abrir
 
-**Conversão típica (Holzer):**
+**Conversão típica (Sala Secreta):**
 - 5-15% dos compradores de ingresso pegam método ancorado
 - Volume baixo, ticket alto = receita relevante
 
@@ -168,7 +168,7 @@ Total pré-aula: R$211.400
 CAC: R$30.000 - R$211.400 = -R$181.400 (positivo)
 ```
 
-> **Esses cálculos são referência Holzer**, não promessa. Variam por nicho, ticket, qualidade de tráfego e execução.
+> **Esses cálculos são referência Sala Secreta**, não promessa. Variam por nicho, ticket, qualidade de tráfego e execução.
 
 ---
 
@@ -178,7 +178,7 @@ CAC: R$30.000 - R$211.400 = -R$181.400 (positivo)
 
 Pré-checkout converte 2-3x mais que pós-checkout. Razão: lead já tá em modo de decisão de compra. Pós-checkout pega lead em modo "já decidi, agora quero terminar".
 
-**Recomendação Holzer:**
+**Recomendação Sala Secreta:**
 - Q&A + Gravação no pré-checkout (decisão de compra principal)
 - Método ancorado pode ficar em página separada (decisão maior)
 

@@ -82,14 +82,14 @@ Decisão-mãe nº 1. Um webinar vende UMA oferta; vários produtos → o que mel
 
 > "Qual produto/oferta nesse webinar, e por quanto? (Ex.: treinamento R$1.500; mentoria R$7.500.) Se tem mais de um, qual faz mais sentido numa aula só? Os outros viram degrau da esteira."
 
-Regra de canal (devolve decidido):
+Regra de canal (devolve decidido). **O Funil de Aula Agendada fecha ONE-STEP: o produto da aula fecha DE UMA VEZ no checkout, na própria aula.** O 1:1 não é o fechamento do produto da aula; é ascensão da esteira DEPOIS:
 
-| Ticket | Canal |
+| Oferta | Canal |
 |---|---|
-| ≤ ~R$3.000 | fecha NA HORA no checkout (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
-| > ~R$3.000 | webinar QUALIFICA, fecha no 1:1 (soft-vendas); botão vira WhatsApp/formulário; escassez vira "velocidade de chamar" |
+| produto da aula (cabe no checkout, ~≤R$3.000) | fecha NA HORA no checkout, one-step (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
+| oferta acima disso (~>R$3.000) | **NÃO é o produto da aula:** é degrau de ascensão da esteira, fechado no 1:1 (soft-vendas) DEPOIS. A aula vende o produto que cabe no checkout e aponta o caro como ascensão (botão pro checkout do produto da aula) |
 
-Ticket alto que não cabe → a oferta da aula é a **porta de entrada**, o caro vira ascensão. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket.
+**Regra dura:** desenha o produto da aula pra caber no checkout e fechar one-step; se a oferta que você quer vender não cabe, ela vira **degrau de esteira**, não o produto da aula. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket do produto da aula (dentro do teto de checkout) ou joga o caro pra ascensão.
 
 **STOP.** "O que vende + ticket + canal". Espera OK.
 
@@ -248,7 +248,7 @@ A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair
 ### 1j, A SOMA RISCADA na tela + a garantia + o ticket
 - **Soma riscada:** preços avulsos somam a âncora (ex.: R$3.000 + R$9.100 + R$2.000 + R$1.497 + R$997 = ~R$16.594) → cai pro final → desconto no link → 12x. **Cada parcela checável:** número grande nunca acima de crível (Soft recusa âncora inflada que os componentes não sustentam).
 - **Garantia** (frame "período de experiência", nunca "garantia"; maior que a objeção de risco e não mais): acesso/suporte (implícita, ticket baixo) · experimento 7 dias (bateu 15/30) · incondicional N dias (mid) · super-garantia 90+90 (alto/cético: 90 sem resultado → consultoria; +90 → devolve E paga R$X pelo tempo, R$X é SLOT) · ROI-como-garantia (prova esmagadora). Cobre o **resultado do método**, nunca a decisão de aplicar.
-- **Ticket + canal + ascensão:** meta ÷ ticket = clientes/mês; não cabe → SOBE. ≤~3k checkout / >3k 1:1. Produto fora da aula vira esteira (faço-sozinho → com-você → por-você); nenhum lead se perde.
+- **Ticket + canal + ascensão:** meta ÷ ticket = clientes/mês; não cabe → SOBE. O **produto da aula fecha one-step no checkout** (cabe, ~≤3k); oferta acima disso NÃO é o produto da aula, é degrau de esteira/ascensão fechado no 1:1 DEPOIS (faço-sozinho → com-você → por-você); nenhum lead se perde.
 - **Equação Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
 
 ### 1k, CHECKLIST DE MONTAGEM DA STACK (o gate da pilha antes do roteiro)
@@ -275,7 +275,7 @@ Condensado de `references/stack-de-oferta-e-bonus.md` §11. A pilha só passa qu
 Os 5 do Bloco 3b, escritos: título + 5 ganchos + premise + USP falada + Mundo Ideal. Tudo deriva do fechado, nunca inventa. Sem esta seção o script inventa o título.
 
 ## Seção 3, O DIAGNÓSTICO + O MECANISMO (o ENSINO, ~55% da aula)
-Estrutura REAL (`references/estrutura-real-webinar.md`), NÃO "3 viradas" (invenção arrancada). Tudo em LISTAS, item por clique (doutrina Marco Enes). **Faca Soft:** ensina o QUÊ e o PORQUÊ, nunca o COMO executável (*"se sair só com isto, ENTENDE o caminho ou CONSEGUE executar sozinho?"*: entende = certo; capaz = recuou demais). Loop aberto, carteira fechada.
+Estrutura REAL (`references/estrutura-real-webinar.md`), NÃO "3 viradas" (invenção arrancada). Tudo em LISTAS, item por clique (doutrina do método). **Faca Soft:** ensina o QUÊ e o PORQUÊ, nunca o COMO executável (*"se sair só com isto, ENTENDE o caminho ou CONSEGUE executar sozinho?"*: entende = certo; capaz = recuou demais). Loop aberto, carteira fechada.
 
 ### 3a, O DIAGNÓSTICO (de fora pra dentro, postura de MÉDICO, em listas)
 Ordem **EXTERNO → FILOSÓFICO → INTERNO**, cada um um PICO curto:
@@ -293,7 +293,7 @@ Frameworks que vivem aqui (derivados da Herança): **6º nível** · **dor ≠ p
 Instala uma **NOVA OPORTUNIDADE** (não melhoria). Beats, cada um em lista, item por clique: **1** o prático (UM aperitivo, sem saciar) → **2** a nova oportunidade + a estreia do nome do veículo → **3** o fundamento antes da receita → **4** a prova racional (tabela comparativa + head-to-heads + lastro Schwartz/níveis) → **5** o batismo (*"fora de ordem é cobre, na ordem certa vira ouro"*) → **6** a prova-meta (*"você tá sentindo funcionar em você agora, você é a prova"*) → **7** a IA no nível da capacidade (mata "é complicado de montar"; nunca vira bandeira) → **8** o plano em passos (os 3 do produto, cada um matando uma crença) → **9** quadro-síntese ("printa esse slide") + yes-ladder (só "sim" → "digita EU QUERO no chat").
 
 ### 3c, COMO ENSINAR cada afirmação (batida de 4 tempos, a TÉCNICA, NÃO a arquitetura)
-Cada afirmação: **o que é · por que importa · me prova · exemplo** (Marco Enes/Fladlien; cada prova = 1 slide). É o JEITO de ensinar cada beat, NÃO uma divisão em "viradas". O "me prova" é colado na afirmação, na hora. **As 3 categorias de crença** (checklist): MÉTODO (mecanismo+prova) · INTERNA (acessibilidade+absolvição) · EXTERNA (inimigo+timing+garantia). **Prova como CONTEÚDO** (estudo de caso no meio da aula, prova o MÉTODO replicável, nunca o gênio). (`references/estrutura-real-webinar.md` Fases D e M; `references/esqueleto-universal-e-discernimento.md`.)
+Cada afirmação: **o que é · por que importa · me prova · exemplo** (webinar de referência; cada prova = 1 slide). É o JEITO de ensinar cada beat, NÃO uma divisão em "viradas". O "me prova" é colado na afirmação, na hora. **As 3 categorias de crença** (checklist): MÉTODO (mecanismo+prova) · INTERNA (acessibilidade+absolvição) · EXTERNA (inimigo+timing+garantia). **Prova como CONTEÚDO** (estudo de caso no meio da aula, prova o MÉTODO replicável, nunca o gênio). (`references/estrutura-real-webinar.md` Fases D e M; `references/esqueleto-universal-e-discernimento.md`.)
 
 ## Seção 4, A PERSONA-ÂNCORA + crenças rotuladas
 Nome + cena privada + mentira que conta a si + desejo embaixo do desejo (herdada) + **crenças rotuladas INTERNA ou EXTERNA** + dores em verbatim. Sem fonte literal, `[A CONFIRMAR]`.
@@ -320,7 +320,7 @@ meta ÷ ticket = vendas → ÷ conversão = assistentes → ÷ comparecimento = 
 | escassez | condição + timer da sala | turma/data real |
 | mensagens | sequência automática, sem replay | sequência |
 | chat | simulado (ninguém "compra" antes do link) | real |
-| fechamento | checkout (ticket baixo) / 1:1 (alto) | idem |
+| fechamento | produto da aula: checkout one-step / oferta cara acima: 1:1 na ascensão DEPOIS | idem |
 
 ## Seção 8, O PITCH (coreografia de fechamento, adaptada ao canal)
 A ordem em que se fala no fim (checkout OU 1:1). Falas-modelo pra ajustar pra boca dele:
@@ -335,7 +335,7 @@ A ordem em que se fala no fim (checkout OU 1:1). Falas-modelo pra ajustar pra bo
 9. **Escassez verificável + honesta + REDE:** N = capacidade real; rede pro 16º; no 1:1 vira "velocidade de chamar".
 10. **Fecha por identidade + custo da inação + 3 CTAs (Ganho→Lógica→Medo) → o botão:** pico emocional DEPOIS do preço; **botão só no 1º CTA**; recap da pilha + "de X por Y" no clique; no 1:1 o CTA leva pro WhatsApp/formulário.
 
-> **Ordem canônica de revelação da oferta** (afunda a pessoa, idêntica em Enes/gestão ágil/Léo): transição+depoimento+"EU QUERO" → caminho 1 (sozinho) x 2 (comigo) → PUV → módulos por benefício → inclusos de confiança → âncora alta → prateleira com preço → bônus-âncora>produto → bônus Mastercard → garantia → queda em degraus → parcela/dia → **15-primeiros em camadas + bônus surpresa** → recap total no clique → 3 CTAs + rede. (Verbatim: `references/ancoragem-e-fechamento.md`, `references/stack-de-oferta-e-bonus.md` §10, `references/exemplos-por-bloco/`.)
+> **Ordem canônica de revelação da oferta** (afunda a pessoa, idêntica em método/gestão ágil/Léo): transição+depoimento+"EU QUERO" → caminho 1 (sozinho) x 2 (comigo) → PUV → módulos por benefício → inclusos de confiança → âncora alta → prateleira com preço → bônus-âncora>produto → bônus Mastercard → garantia → queda em degraus → parcela/dia → **15-primeiros em camadas + bônus surpresa** → recap total no clique → 3 CTAs + rede. (Verbatim: `references/ancoragem-e-fechamento.md`, `references/stack-de-oferta-e-bonus.md` §10, `references/exemplos-por-bloco/`.)
 
 ## Seção 9, INSUMOS ORGANIZADOS (FINAL, sempre, peças soltas reutilizáveis)
 A que o Léo lê primeiro. NÃO resumo: a matéria-prima das seções **destilada em peças soltas**, cada uma pronta pra copiar pra página/anúncio/e-mail/roteiro. Sai SEMPRE (com `[A CONFIRMAR]` no que faltar):
@@ -358,7 +358,7 @@ Cada peça é **derivada** (destila, não repete o doc); nada novo que não pass
 
 O plano NÃO termina nos insumos soltos: ele **entrega as peças montadas**, pra o funil sair coerente do mesmo doc. Dois entregáveis obrigatórios, derivados das seções anteriores (nada novo, nada inventado; furo = `[A CONFIRMAR]`):
 - **Seção 10 · Páginas:** a **proposta de copy** da página de **captura** (headline da Promessa + sub + 3-5 bullets das fascinations + CTA + contra-filtro do avatar) e da página de **obrigado** (confirmação do horário + timer + o-que-fazer-agora/opt-in + retenção). É copy-base pra colar; o código/layout é `soft-webinar-paginas`/`soft-funil-landing`.
-- **Seção 11 · Ângulos de anúncio:** **5-8 ângulos**, cada um nascido de um pilar (dor/mundo atual · desejo/mundo ideal · inimigo · mecanismo/curiosidade · prova · objeção invertida · filtro/identidade · number-forward), saindo com a **headline pronta** + o público que pesca. Cada headline ancora em verbatim real, passa nas 3 perguntas do Harry e no anti-IA. O banco fino é `soft-conteudo-headlines`.
+- **Seção 11 · Ângulos de anúncio:** **5-8 ângulos**, cada um nascido de um pilar (dor/mundo atual · desejo/mundo ideal · inimigo · mecanismo/curiosidade · prova · objeção invertida · filtro/identidade · number-forward), saindo com a **headline pronta** + o público que pesca. Cada headline ancora em verbatim real, passa nas 3 perguntas do gate e no anti-IA. O banco fino é `soft-conteudo-headlines`.
 
 ---
 
@@ -388,14 +388,14 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Provas + PROVA EXTERNA reais** | cases reais (nome+nº+prazo); 5 slots (vazios `[A CONFIRMAR]`); inventado = ✗ (Lei 5) |
 | **Modo pelo estágio** | perpétuo vs ao vivo pela régua + estágio; ao vivo valida → grava → perpetua |
 | **A conta fecha** | meta ÷ ticket → ÷ conversão → ÷ comparecimento; exemplo "(NÃO é dado seu)" |
-| **Canal pela regra + CTA com destino** | ≤~3k checkout / >3k 1:1; Seção 8 adaptada ao canal |
+| **Canal pela regra + CTA com destino** | produto da aula = checkout one-step; oferta cara acima = esteira/1:1 na ascensão DEPOIS; Seção 8 adaptada ao canal |
 | **Pitch completo** | semeadura, ancoragem certa, stack visível, cadeia de SINs, queda com reason-why+lastro, reduzir ao ridículo com objeto real, escassez+rede, identidade+inação, 3 CTAs, botão no 1º |
 | **INSUMOS ORGANIZADOS** | Seção 9 no fim, peças soltas reutilizáveis, não resumo |
 | **Páginas + Ângulos (sempre)** | Seção 10 (proposta de captura + obrigado, copy-base no molde) E Seção 11 (5-8 ângulos de ad, cada um com headline + pilar + público) presentes; derivados do plano, furo = `[A CONFIRMAR]` |
 | **Não inventa (Lei 5)** | furo = `[A CONFIRMAR]` no lugar exato; zero plausível |
 | **Números do case consistentes** | o MESMO case dito com valores diferentes (ex.: "3M" / "10M" / "13M" pro mesmo resultado) = `[A CONFIRMAR: bruto/líquido/período]`, nunca escolhe um por conta. Case que bate olho com olho na própria aula derruba credibilidade |
 | **Output DENSO (Lei 6)** | tabelas/listas, não prosa; zero meta-narração/bastidor/"isto serve para"; sem tabela de gate na saída |
-| **3 perguntas do Harry + C/U/B** | dá pra VER a cena · dá pra FALSIFICAR · SÓ ele assina; Clareza · Único · Benefício |
+| **3 perguntas do gate + C/U/B** | dá pra VER a cena · dá pra FALSIFICAR · SÓ ele assina; Clareza · Único · Benefício |
 | **Naming honesto** | todo nome é do dono ou "(nome Soft: a definir)" |
 | **Nicho regulado** | SAÚDE/JURÍDICO: prova com ALUNO nunca paciente; mecanismo no lugar de cura; gate regulado (`shared-references/crivo/`); N/A se não-regulado |
 | **Anti-IA (HARD)** | zero em-dash · zero "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · sem jargão "jornada/mindset" na copy. **No chat: CTRL+F do em-dash e da família "travar".** No Code: `python3 scripts/lint_copy.py` na copy do pitch. |
@@ -431,7 +431,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Mundo Ideal abstrato | Cena + número + a pergunta do ROI; objeto, lugar, reação |
 | Crenças sem rótulo | Rotula INTERNA × EXTERNA |
 | Perpétuo "porque escala" sem validar | ao vivo valida → grava → perpetua |
-| 3k+ no checkout | Acima de ~3k qualifica, fecha no 1:1 |
+| Pôs a oferta cara (>~3k) como produto da aula | O produto da aula fecha one-step no checkout (cabe, ~≤3k); o caro vira degrau de esteira, fechado no 1:1 na ascensão DEPOIS |
 | Clímax = a aula que ensina mais | Clímax = o passo que TIRA mais trabalho |
 | Stack inflado "pra parecer mais" | Cada item mata objeção nomeada OU ancora com preço real |
 | Bônus pra consertar objeção de mecanismo | Vai PRA DENTRO da aula |
@@ -443,7 +443,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Pediu refino e reescreveu do zero | Modo B: audita, reescreve só o quebrado (Passo A) |
 
 ## Handoff
-O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. Fechamento 3k+ = **soft-vendas** (1:1). Nomes pendentes = **soft-posicionamento**.
+O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. O produto da aula fecha one-step no checkout; a oferta cara acima (>~3k) é ascensão de esteira, fechada no 1:1 DEPOIS = **soft-vendas**. Nomes pendentes = **soft-posicionamento**.
 
 ## References (o corpo carrega o método; estas guardam a profundidade)
 - `references/escolha-carta-mt-webinario.md`: régua de maturidade, economia, 3 produtos, decisória. Passo 1.

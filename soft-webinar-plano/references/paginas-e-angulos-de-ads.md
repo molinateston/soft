@@ -55,7 +55,7 @@ Não um ad só: **5-8 ângulos**, cada um pescando um tipo de pessoa por uma por
 | 7 | **Filtro / identidade** | o avatar exato | "Pra [quem é], que [faz X] e [sente Y]." |
 | 8 | **Number-forward** (se houver número calculável) | o pragmático | "[número] que [resultado], sem [esforço]." |
 
-Regras: cada headline ancora num **verbatim real** do plano (a dor/desejo na fala do avatar), passa nas 3 perguntas do Harry (dá pra VER, dá pra FALSIFICAR, SÓ ele assina) e no anti-IA (zero em-dash, zero clichê). O banco completo e as variações finas são `soft-conteudo-headlines`; aqui o plano entrega **a semente de cada ângulo**, pronta pra testar.
+Regras: cada headline ancora num **verbatim real** do plano (a dor/desejo na fala do avatar), passa nas 3 perguntas do gate (dá pra VER, dá pra FALSIFICAR, SÓ ele assina) e no anti-IA (zero em-dash, zero clichê). O banco completo e as variações finas são `soft-conteudo-headlines`; aqui o plano entrega **a semente de cada ângulo**, pronta pra testar.
 
 > **Por que ângulos diferentes (não 1 ad melhor):** iscas diferentes pegam peixes diferentes, todos pro mesmo aquário. Um pega quem se move por dor, outro por desejo, outro por curiosidade do mecanismo. Testa-se vários; o que escala, escala.
 

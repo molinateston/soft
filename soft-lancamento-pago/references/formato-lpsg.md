@@ -1,26 +1,26 @@
-# Formato LPSG — Lançamento Pago Semanal Gravado (Tabari)
+# Formato LPSG — Lançamento Pago Semanal Gravado
 
-> **Quando consultar:** Modo B quando cliente escolhe formato LPSG (Leonardo Tabari / Turbo Academy). Detalha o método semanal gravado, com Funil 8 alimentando lead pago e estrutura C1/C2/C3 de conteúdo.
+> **Quando consultar:** Modo B quando cliente escolhe formato LPSG (método de referência). Detalha o método semanal gravado, com Funil 8 alimentando lead pago e estrutura C1/C2/C3 de conteúdo.
 
-Material consolidado da Turbo Academy (Leonardo Tabari) baseado no que está publicamente documentado: Estratégia Turbo, Squad Turbo no GitHub, página oficial. **200+ lançamentos, R$100MM+ acumulado.** Skill cita o método pelo nome (LPSG, Funil 8, C1/C2/C3) sem disfarce.
+Material consolidado do método de referência da LPSG, baseado no que está publicamente documentado sobre lançamento pago semanal gravado. **200+ lançamentos, R$100MM+ acumulado como referência.** A skill usa os nomes de método (LPSG, Funil 8, C1/C2/C3) como rótulos, sem expor a fonte.
 
 ---
 
 ## Índice
 
 - O que é LPSG
-- Princípio raiz Tabari
-- A arquitetura completa do método Tabari
+- Princípio raiz LPSG
+- A arquitetura completa do método LPSG
 - Bloco 1 — Funil 8 (front-end)
 - Bloco 2 — Funil de Conteúdo C1/C2/C3
 - Bloco 3 — LPSG propriamente dito
 - Bloco 4 — Carrinho e fechamento
 - Bloco 5 — Cadência operacional
-- Bloco 6 — Squad Turbo (estrutura operacional Tabari)
+- Bloco 6 — estrutura operacional de referência (esquadrão de agentes)
 - Bloco 7 — Integração Funil 8 + LPSG
 - Adaptação Soft Business (lente opcional)
 - Quando NÃO usar LPSG
-- Métricas de referência Tabari
+- Métricas de referência LPSG
 - Erros comuns na execução
 - Checklist pré-LPSG
 - Notas operacionais
@@ -31,9 +31,9 @@ Material consolidado da Turbo Academy (Leonardo Tabari) baseado no que está pub
 
 **Lançamento Pago Semanal Gravado** — formato de lançamento que opera **semanalmente** com aula gravada (não ao vivo) + tráfego pago contínuo + Funil 8 como base.
 
-### Diferença principal vs Sala Secreta (Holzer)
+### Diferença principal vs Sala Secreta
 
-| Aspecto | Sala Secreta (Holzer) | LPSG (Tabari) |
+| Aspecto | Sala Secreta | LPSG |
 |---|---|---|
 | **Frequência** | 1-2x por ano | Semanal/quinzenal contínuo |
 | **Aula** | Ao vivo no Zoom | Gravada |
@@ -47,16 +47,16 @@ Material consolidado da Turbo Academy (Leonardo Tabari) baseado no que está pub
 
 ---
 
-## Princípio raiz Tabari
+## Princípio raiz LPSG
 
 > *"Faça seus leads pagarem para entrar na sua base, atingindo ROAS positivo desde o primeiro dia."*
-> — Leonardo Tabari (Estratégia Turbo)
+> — método de referência (LPSG)
 
 O **Funil 8** é a inovação central — diferente do funil tradicional (CAC alto, recuperação longa), no Funil 8 o lead **paga** pra entrar via produto baixo ticket, gerando ROAS positivo desde o dia 1. Esse lead já comprado vira matéria-prima do LPSG.
 
 ---
 
-## A arquitetura completa do método Tabari
+## A arquitetura completa do método LPSG
 
 LPSG não é peça isolada — é parte de sistema:
 
@@ -99,7 +99,7 @@ Funil de conversão **direto a frio**: tráfego pago vai pra checkout de produto
 - **Anúncio** — promessa específica + prova social + CTA
 - **Página de vendas** — curta, direta, foco em problema/solução
 - **Checkout** — preço R$27-97
-- **Order bumps** (essenciais aqui — igual Holzer):
+- **Order bumps** (essenciais aqui — igual à Sala Secreta):
   - Bump 1: bônus complementar (R$17-37)
   - Bump 2: aceleração (R$47-97)
   - Bump 3: programa principal (mini-versão R$97-297)
@@ -119,7 +119,7 @@ Funil de conversão **direto a frio**: tráfego pago vai pra checkout de produto
 ### A doutrina
 
 > *"O começo e a base de tudo é o conteúdo. Você vai aprender a criar um conteúdo estratégico em um funil onde você atrai e prepara a pessoa para a venda."*
-> — Tabari
+> — LPSG
 
 C1/C2/C3 é o **funil de conteúdo orgânico** que opera em paralelo ao tráfego pago.
 
@@ -144,9 +144,9 @@ C3 — Conversão (fundo)
 
 ### Distribuição de conteúdo
 
-Tabari opera distribuição alta — múltiplos posts por dia em múltiplos formatos (Reel, Carrossel, Stories, YouTube). Para cliente Soft Business, isso pode contradizer o princípio 1:1:1:1 (1 canal principal). Adapta:
+A LPSG opera distribuição alta — múltiplos posts por dia em múltiplos formatos (Reel, Carrossel, Stories, YouTube). Para cliente Soft Business, isso pode contradizer o princípio 1:1:1:1 (1 canal principal). Adapta:
 
-- **Cliente não-Soft:** segue distribuição Tabari
+- **Cliente não-Soft:** segue distribuição LPSG
 - **Cliente Soft Business:** adapta C1/C2/C3 ao canal principal escolhido
 
 ---
@@ -195,7 +195,7 @@ Diferente de Sala Secreta (ao vivo), LPSG usa aula **gravada uma vez** que serve
 
 ### Por que gravada perde pro ao vivo (em outros contextos)
 
-- **Energia**: ao vivo gera urgência, comparecimento, comprometimento (Holzer)
+- **Energia**: ao vivo gera urgência, comparecimento, comprometimento (Sala Secreta)
 - **Conversão**: aula ao vivo geralmente converte mais por participante
 - **Personalização**: ao vivo lê o público, ajusta no momento
 
@@ -248,9 +248,9 @@ LPSG opera direto via checkout, não aplicação. Diferente de Sala Secreta — 
 
 ---
 
-## Bloco 6 — Squad Turbo (estrutura operacional Tabari)
+## Bloco 6 — estrutura operacional de referência (esquadrão de agentes)
 
-Tabari documenta no GitHub público (Squad Turbo v3.0) a estrutura de **10 agentes IA** que ele usa pra operar a Estratégia Turbo:
+A referência documenta publicamente a estrutura de **10 agentes IA** usada pra operar o método:
 
 ```
 @estrategista-turbo ─── orquestrador
@@ -267,7 +267,7 @@ Tabari documenta no GitHub público (Squad Turbo v3.0) a estrutura de **10 agent
 
 ### Constitution (7 artigos inegociáveis)
 
-Squad Turbo opera com constituição explícita (princípios que nenhum agente viola). Os 5 que estão públicos:
+A estrutura de referência opera com constituição explícita (princípios que nenhum agente viola). Os 5 que estão públicos:
 
 1. **Base Turbo antes de execução** — sem briefing/avatar/oferta/voz aprovados, nada sai
 2. **Zero invenção** — nunca fabricar depoimentos, métricas ou resultados
@@ -279,7 +279,7 @@ Squad Turbo opera com constituição explícita (princípios que nenhum agente v
 
 ### O conceito Base-Turbo (relevante pra qualquer skill)
 
-Antes de produzir qualquer peça, Tabari exige consolidação em 6 dossiês:
+Antes de produzir qualquer peça, A LPSG exige consolidação em 6 dossiês:
 - `briefing.md` — projeto e objetivo
 - `avatar.md` — público-alvo
 - `oferta.md` — produto e proposta
@@ -343,9 +343,9 @@ Funil 8 é **front-end de aquisição via produto baixo ticket**. Soft Business 
 
 Skill recomenda: cliente Soft pode usar Funil 8 **adicionalmente** (não em substituição) à Carta Soft. Funil 8 = aquisição volumétrica. Carta = qualificação alto-ticket.
 
-### Modificador 3 — Squad Turbo vs Solo + IA Vertical
+### Modificador 3 — esquadrão de agentes vs Solo + IA Vertical
 
-Tabari opera com 10 agentes IA + freelancers. Soft Business opera solo + IA Vertical + freelancers pontuais.
+A LPSG opera com 10 agentes IA + freelancers. Soft Business opera solo + IA Vertical + freelancers pontuais.
 
 Cliente Soft adapta:
 - 1-2 agentes principais (não 10)
@@ -380,14 +380,14 @@ Cliente alto-ticket convertido pelo LPSG entra no sistema Soft (não em "lista p
 
 ---
 
-## Métricas de referência Tabari
+## Métricas de referência LPSG
 
-Disclaimer: Tabari publica resultados mas casos específicos variam.
+Disclaimer: A referência LPSG publica resultados mas casos específicos variam.
 
 - ROAS day 1: positivo (Funil 8)
 - 200+ lançamentos rodados (carreira completa)
 - R$100MM+ faturamento acumulado
-- Cases reportados: vários alunos Estratégia Turbo passando R$50k-500k/mês
+- Cases reportados de referência: vários alunos passando R$50k-500k/mês
 
 > **Skill nunca promete números** ao cliente. Mostra como referência.
 
@@ -424,11 +424,11 @@ Sem 2+ desses, skill recomenda **adiar 60-90 dias** pra construir antes de inici
 
 ## Notas operacionais
 
-- **Skill cita Tabari pelo nome** quando puxa material específico (transparência)
-- **LPSG não é o único caminho Tabari** — Tabari também tem Turbo Express (orgânico) e Estratégia Turbo completa. Skill foca em LPSG porque é o método de **lançamento pago** específico.
+- **Skill cita a LPSG pelo nome** quando puxa material específico (transparência)
+- **LPSG não é o único caminho da LPSG** — a referência também tem versão orgânica e método completo. Skill foca em LPSG porque é o método de **lançamento pago** específico.
 - **Cliente que pergunta "Sala Secreta ou LPSG?"** recebe comparativo + recomendação por contexto:
   - Ticket alto (R$10k+) → tende a Sala Secreta
   - Ticket médio + volume → tende a LPSG
   - Solo sem IA forte → tende a Sala Secreta (1-2x ano)
   - Operação madura com squad → tende a LPSG
-- **Squad Turbo (GitHub) é referência aberta** — cliente pode estudar livremente. Skill direciona quando relevante.
+- **A estrutura de referência é documentação aberta** — cliente pode estudar livremente. Skill direciona quando relevante.

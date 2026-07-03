@@ -116,9 +116,9 @@ Roda o gate em CADA peça (isca, página de captura, sequência de nutrição) *
 | **Captura com fricção mínima** | uma promessa, e-mail OU WhatsApp, zero campo supérfluo, destino real marcado | |
 | **C/U/B** | não é Confuso (entende em 1 leitura), não é Inacreditável (promessa do tamanho da prova), não é Boring (tem tensão/dor real, não morno) | |
 | **CTA com destino** | a ação é clara e leva a um destino que existe (Carta/mini webinar/conversa), não "saiba mais" no vácuo | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena/o resultado concreto, não "tenha mais clareza" | |
-| **Harry, dá pra falsificar?** | a promessa é um fato falsificável, não um adjetivo bonito | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (mecanismo/cena proprietária, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena/o resultado concreto, não "tenha mais clareza" | |
+| **Dá pra falsificar?** | a promessa é um fato falsificável, não um adjetivo bonito | |
+| **Só você diz?** | o concorrente direto não assina igual (mecanismo/cena proprietária, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 

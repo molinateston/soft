@@ -114,10 +114,10 @@ Toda peça passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de ser e
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim literal da fonte real do cliente E carrega a dor (saudação, monossílabo ou número solto entre aspas não conta). Aspa fabricada ou parafraseada como se fosse fala = FALHA.
 2. **Prova NUNCA é inventada.** Número, case, nome, prazo, print, depoimento só entram se vierem do briefing real. Sem prova real, vira placeholder explícito `[CASE: nome + número + prazo a preencher]`, marcado como pendência. Jamais gera número plausível. É o gêmeo da regra anti-verbatim-fabricado.
 3. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-4. **Gate CUB bloqueante + 3 perguntas do Harry** (`crivo/03-gate-cub.md`): imprime a tabela. Inclui a regra-zero (toda tese fecha em chão), a **Ação/CTA com destino real** (peça sem CTA forte FALHA), e o anti-IA.
+4. **Gate CUB bloqueante + 3 perguntas do crivo** (`crivo/03-gate-cub.md`): imprime a tabela. Inclui a regra-zero (toda tese fecha em chão), a **Ação/CTA com destino real** (peça sem CTA forte FALHA), e o anti-IA.
 5. **Mobile-First** (`shared-references/filtro-mobile-first/`) quando a peça vira visual.
 
-Os 5 movimentos de persuasão e os anti-padrões do formato viram **pré-filtro** (a peça já nasce neles). A auditoria de FORÇA que recusa é o Crivo. A pergunta "se eu apagasse o nome, qualquer um do nicho escreveria?" é a 3ª pergunta do Harry, dentro do gate. A auditoria é interna; o usuário recebe só o output limpo + a tabela do gate.
+Os 5 movimentos de persuasão e os anti-padrões do formato viram **pré-filtro** (a peça já nasce neles). A auditoria de FORÇA que recusa é o Crivo. A pergunta "se eu apagasse o nome, qualquer um do nicho escreveria?" é a 3ª pergunta do o crivo, dentro do gate. A auditoria é interna; o usuário recebe só o output limpo + a tabela do gate.
 
 ### 5b. Skills que só orquestram (não exportam peça)
 

@@ -124,7 +124,7 @@ Ele não sente "posição". Ele sente que foi a segunda opção. Traduz todo ró
 
 ## 3. O teste de cada frase: as 3 perguntas
 
-Depois de escrever uma frase, antes de deixar ela de pé, passa por três perguntas. São as três perguntas do Harry Dry, adaptadas. **Três sins: a frase fica. Um não: reescreve.**
+Depois de escrever uma frase, antes de deixar ela de pé, passa por três perguntas. São as três perguntas do gate, adaptadas. **Três sins: a frase fica. Um não: reescreve.**
 
 **Pergunta 1, Dá pra visualizar?**
 Se não vira imagem na cabeça, é abstrata. E o abstrato evapora.

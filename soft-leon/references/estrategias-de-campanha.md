@@ -71,8 +71,8 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Como funciona.**
 1. **Story de levantada de mão** com os 5 elementos: escassez (quantas pessoas consegue ajudar) · público (quem) · resultado (o que entrega) · urgência (a janela) · **um** CTA só. Fala-âncora: *"Procuro [2-3] [público específico] que querem [resultado] nos próximos [X dias]. Vou te mostrar como [mecanismo]. Se você quer [resultado], responde [palavra]."* Dica: posta como PRIMEIRO story do dia (apaga os anteriores, o Instagram dá um boost), deixa propagar 3-4h.
-2. **24h qualificando**: responde tudo. Faz 3 perguntas que diagnosticam (o que ele faz e quanto cobra · meta de receita · faturamento de hoje + o maior gargalo). **Não qualifica demais:** a meta é ofertar ou marcar a call rápido.
-3. **Oferta ou call**: dois caminhos: manda um vídeo curto personalizado (com o nome e a dor que a pessoa citou) apresentando o próximo passo, ou convida pra uma conversa de 30min ("pra te dar clareza, não é só conversa de venda").
+2. **24h qualificando**: responde tudo. Faz 3 perguntas que diagnosticam (o que ele faz e quanto cobra · meta de receita · faturamento de hoje + o maior gargalo). **Não qualifica demais:** a meta é ofertar rápido, na própria DM.
+3. **Oferta na DM (padrão)**: manda um vídeo curto personalizado (com o nome e a dor que a pessoa citou) apresentando o próximo passo e fecha ali mesmo. A **call é exceção de contexto** (ticket muito alto, o lead pede, caso complexo): aí sim convida pra uma conversa de 30min ("pra te dar clareza, não é só conversa de venda").
 4. **Follow-up**: não respondeu em 24h: "viu o vídeo?" / "conseguiu agendar?". Em 48h: só o nome.
 
 **Onde encaixa no mês.** O fluxo-base de conversão. Roda em fundo toda semana pra manter o direct cheio enquanto as jogadas maiores acontecem.

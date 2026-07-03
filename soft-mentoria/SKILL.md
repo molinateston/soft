@@ -154,6 +154,8 @@ Piso do método: **não cobre menos que o piso do dono.** O piso é um SLOT, def
 
 **Preço só entra depois de validado.** Se é a primeira oferta, o doc TERMINA sem preço e chama pro WhatsApp: "me fala se é isso que você procura, se fez sentido." Só coloca preço + condições depois de ter vendido ao menos uma.
 
+**Canal de fechamento (D1):** a mentoria é funil comercial, então **fecha via de regra na DM/WhatsApp** (o doc de oferta + áudio/vídeo curto fecham ali mesmo, sem marcar call). A **call é exceção de contexto** (ticket muito alto, o lead pede, decisão a vários); o SDR+Closer só entra com equipe e volume. A condução do 1:1 é da `soft-vendas` (modo `dm-sem-call`).
+
 **Condições de pagamento (modelo, adaptar ao ticket do dono):**
 - Cartão parcelado (ex.: 12x)
 - Pix parcelado (ex.: entrada + 30 + 60 dias)

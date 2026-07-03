@@ -2,7 +2,7 @@
 
 > **Quando consultar:** Modo B sempre (qualquer formato escolhido). A aula é o ativo central do lançamento. Sem narrativa de pontos cegos, qualquer formato falha — Sala Secreta, LPSG, congresso, desafio.
 
-Princípio raiz extraído de Felipe Holzer (Diamond Julho 2025): **a aula precisa REVELAR pontos cegos**. Não dá pra ser conteúdo que o aluno acha fácil no ChatGPT. A frase travada:
+Princípio raiz do método de referência (Sala Secreta): **a aula precisa REVELAR pontos cegos**. Não dá pra ser conteúdo que o aluno acha fácil no ChatGPT. A frase travada:
 
 > *"Eu nem sabia o que não sabia."*
 
@@ -205,7 +205,7 @@ Pra um especialista de exemplo escalando o negócio dele, a skill identifica 5 p
 - B: Folha mata margem. IA Vertical absorve operação sem custo recorrente.
 - C: Especialista contratou 3 pessoas, dobrou receita, lucro caiu 40%.
 
-> Cada um desses **vira slide de aula de 5-8 minutos**. 5 pontos cegos × 8 min = 40 min de "flow do conteúdo absurdo" (Holzer).
+> Cada um desses **vira slide de aula de 5-8 minutos**. 5 pontos cegos × 8 min = 40 min de "flow do conteúdo absurdo" (Sala Secreta).
 
 ---
 
@@ -324,7 +324,7 @@ Tom da aula NÃO é didático ("aqui está a fórmula!"). É **conversacional + 
 - *"Vou contar uma coisa que descobri quando [contexto pessoal]."*
 - *"Isso aqui é controverso, mas..."*
 
-> Tom Holzer típico: levemente provocativo, ancorado em observação prática, sem motivacional vazio.
+> Tom Sala Secreta típico: levemente provocativo, ancorado em observação prática, sem motivacional vazio.
 
 ---
 

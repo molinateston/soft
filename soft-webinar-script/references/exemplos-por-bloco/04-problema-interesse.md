@@ -1,7 +1,7 @@
 # Problema/Diagnóstico (diagnóstico da dor, vilão nomeado, níveis de consciência, "é exatamente isso")
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("síndrome do Fantástico", "gestor do passado", "gestossauro", o uso de VUCA/BANI = MindMaster/Denison; "dieta burra" e "modo sobrevivência" = Vítor Abrão; "pitchfest" e "bright shiny objects" = Fladlien; a frase-vilã "resina é assim mesmo" = Bruno/Webinar C).
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("síndrome do Fantástico", "gestor do passado", "gestossauro", o uso de VUCA/BANI = MindMaster/Denison; "dieta burra" e "modo sobrevivência" = Vítor Abrão; "pitchfest" e "bright shiny objects" = webinar de referência; a frase-vilã "resina é assim mesmo" = Bruno/Webinar C).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -173,7 +173,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 **Decalcável vs do nicho:** decalcável: o espelho visual de níveis de consciência + vilão-frase do próprio avatar + cena do comportamento de autossabotagem ("você baixou o preço por insegurança") + dor de investimento sem retorno. Do nicho: carinhas sobre resultado clínico, "resina é assim mesmo" e a mensalidade de odonto são deste avatar.
 
-### Fladlien #1 (One to Many - Genius Webinars) - meta-webinar evergreen; US$4.995 ancorado → US$14,97; o problema como dilema sem saída
+### webinar de referência #1 (One to Many - Genius Webinars) - meta-webinar evergreen; US$4.995 ancorado → US$14,97; o problema como dilema sem saída
 
 **Trecho literal:**
 
@@ -187,9 +187,9 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 **Por que funciona:** o problema é formulado como dilema sem saída pelos caminhos conhecidos - quem aceita o dilema já precisa da terceira via, que só ele tem (a síntese serve→sell vem no bloco seguinte). E o frame moral inverte a vergonha de vender: não vender é que é o pecado - o que prepara a plateia pra aceitar (e depois replicar) um webinar que vende sem culpa. O bloco aqui é curto e cirúrgico: a dor não precisa de lista, precisa de um dilema bem armado.
 
-**Decalcável vs do nicho:** decalcável: dor como dilema de dois polos fracassados (arma a Big Idea como síntese) + cicatriz própria de uma linha + inversão moral da inação. Do nicho/dono: "pitchfest" é rótulo que Fladlien cita do mercado de webinars; o dilema valor×venda é deste avatar.
+**Decalcável vs do nicho:** decalcável: dor como dilema de dois polos fracassados (arma a Big Idea como síntese) + cicatriz própria de uma linha + inversão moral da inação. Do nicho/dono: "pitchfest" é rótulo que o modelo cita do mercado de webinars; o dilema valor×venda é deste avatar.
 
-### Fladlien #2 (Product Creation Secrets / Product E-Class 2020) - infoprodutos; US$497 ou 3x US$194; vilão duplo: externo (shiny objects) + interno (procrastinação)
+### webinar de referência #2 (Product Creation Secrets / Product E-Class 2020) - infoprodutos; US$497 ou 3x US$194; vilão duplo: externo (shiny objects) + interno (procrastinação)
 
 **Trecho literal:**
 
@@ -205,23 +205,23 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "So you don't have a traffic problem. Nobody has a traffic problem. You have a lack of clarity and focus problem."
 
-**O que ele fez:** vilão externo nomeado com rima ("bright shiny objects… leave you blind and leave you broke" - rótulo do Fladlien) e confissão de cumplicidade ("I struggle with this issue as well") → leitura de mente do avatar em fala direta ("Hey, I'm an accountant. I don't want to market…") → inverte o frame de mercado saturado com dado (vendedores saíram, compradores 148x; indústria de US$325 bi) → PROP físico: contador de vendas ao vivo na tela, reaberto 3x ao longo do webinar (dinheiro escorrendo na frente da plateia) → vilão interno diagnosticado com precisão desconfortável (uma semana? não termina; um fim de semana? não termina; um dia? não termina) → reframe que dissolve a dor declarada ("você não tem problema de tráfego, tem problema de foco").
+**O que ele fez:** vilão externo nomeado com rima ("bright shiny objects… leave you blind and leave you broke" - rótulo do modelo) e confissão de cumplicidade ("I struggle with this issue as well") → leitura de mente do avatar em fala direta ("Hey, I'm an accountant. I don't want to market…") → inverte o frame de mercado saturado com dado (vendedores saíram, compradores 148x; indústria de US$325 bi) → PROP físico: contador de vendas ao vivo na tela, reaberto 3x ao longo do webinar (dinheiro escorrendo na frente da plateia) → vilão interno diagnosticado com precisão desconfortável (uma semana? não termina; um fim de semana? não termina; um dia? não termina) → reframe que dissolve a dor declarada ("você não tem problema de tráfego, tem problema de foco").
 
 **Por que funciona:** ele inverte o frame da saturação: a falta de glamour do nicho vira a própria prova da oportunidade. O contador ao vivo transforma estatística abstrata em ferida que reabre a cada retorno ("some of that should be your money"). E o diagnóstico do vilão interno é o "é exatamente isso" mais agressivo do corpus - ele descreve o comportamento de procrastinação do lead melhor que o próprio lead, o que compra autoridade de diagnóstico: quem te lê por dentro deve ter a cura. O reframe final (tráfego → foco) redefine o problema num território que SÓ o método dele resolve.
 
-**Decalcável vs do nicho:** decalcável: vilão duplo externo+interno, confissão de cumplicidade do host, leitura de mente em fala direta, prop físico que materializa a oportunidade, reframe da dor declarada pra dor real. Do nicho/dono: "bright shiny objects", o contador de infoprodutos e o 148x são do Fladlien.
+**Decalcável vs do nicho:** decalcável: vilão duplo externo+interno, confissão de cumplicidade do host, leitura de mente em fala direta, prop físico que materializa a oportunidade, reframe da dor declarada pra dor real. Do nicho/dono: "bright shiny objects", o contador de infoprodutos e o 148x são do modelo.
 
 ## Padrões transversais (o que TODOS fazem neste bloco - vira checklist)
 
-- [ ] **Vilão nomeado e EXTERNO ao avatar** - "gestor do passado"/"gestossauro" (MindMaster), "dieta burra"/charlatão (Vítor Abrão), ecossistema Brasil + chefe abusivo (Pupim), "resina é assim mesmo" (Bruno), "pitchfest" e "shiny objects" (Fladlien). A culpa do fracasso passado SAI do lead e vai pro vilão. Ninguém da sala é o vilão.
+- [ ] **Vilão nomeado e EXTERNO ao avatar** - "gestor do passado"/"gestossauro" (MindMaster), "dieta burra"/charlatão (Vítor Abrão), ecossistema Brasil + chefe abusivo (Pupim), "resina é assim mesmo" (Bruno), "pitchfest" e "shiny objects" (webinar de referência). A culpa do fracasso passado SAI do lead e vai pro vilão. Ninguém da sala é o vilão.
 - [ ] **Transferência de culpa explícita, dita em voz alta** - "será que você é tão indisciplinada… ou te venderam a estratégia errada?" (Vítor); "não é você, é a era" (Denison via VUCA). Admitir a dor não pode custar o ego.
 - [ ] **Dor provada com dado, nunca só afirmada** - pesquisa própria com número grande (880k/80k respostas MindMaster; 1.600 alunas/52,5% Vítor), estatística de instituição (censo CAU 77%), print de terceiro (vaga R$18/h), dado de mercado (148x, US$325 bi). O lastro blinda contra "papo de vendedor".
 - [ ] **"É exatamente isso" fabricado por mecânica, não esperado** - pesquisa de inscrição devolvida e votada por número no chat (MindMaster), checklist de situações onde cada item acerta alguém (restrições do Vítor), cena cotidiana hiperespecífica em segunda pessoa (chocolate na mesa; relatório obsoleto às 8h; orçamento baixado por insegurança).
 - [ ] **Dor batizada com nome memorável** - "síndrome do Fantástico", "modo sobrevivência", "gestossauro", "pitchfest". Nome = a dor vira objeto manipulável, citável, e gruda na memória até o pitch.
 - [ ] **Confissão pública no chat, com permissão/segurança** - "coloca nos comentários… aqui é um ambiente seguro" (Denison); "quem nunca? levanta a mão" (Pupim); "já aconteceu com vocês, né? Eu sei" (Bruno). Quem confessa se auto-diagnostica e se compromete em público.
-- [ ] **Objeção antecipada DENTRO do diagnóstico** - "mas eu não sou dono de empresa…" (Denison), "Hey, I'm an accountant…" (Fladlien). O host fala a objeção em primeira pessoa antes do lead pensar nela.
-- [ ] **Saídas falsas demolidas uma a uma** - região ("não é a região, é você… ainda" - Bruno), governo ("não adianta culpar" - Pupim), disciplina (Vítor), tráfego ("nobody has a traffic problem" - Fladlien). Fecham-se as portas até sobrar só o mecanismo que a oferta resolve.
-- [ ] **O bloco termina em dilema/equação sem solução conhecida** - dois desfechos da dieta (Vítor), valor-sem-venda × pitchfest (Fladlien), indispensável × extinto (GAIA2k). A ferida fica aberta: quem resolve é a Big Idea, no bloco seguinte.
+- [ ] **Objeção antecipada DENTRO do diagnóstico** - "mas eu não sou dono de empresa…" (Denison), "Hey, I'm an accountant…" (webinar de referência). O host fala a objeção em primeira pessoa antes do lead pensar nela.
+- [ ] **Saídas falsas demolidas uma a uma** - região ("não é a região, é você… ainda" - Bruno), governo ("não adianta culpar" - Pupim), disciplina (Vítor), tráfego ("nobody has a traffic problem" - webinar de referência). Fecham-se as portas até sobrar só o mecanismo que a oferta resolve.
+- [ ] **O bloco termina em dilema/equação sem solução conhecida** - dois desfechos da dieta (Vítor), valor-sem-venda × pitchfest (webinar de referência), indispensável × extinto (GAIA2k). A ferida fica aberta: quem resolve é a Big Idea, no bloco seguinte.
 - [ ] **Cena sensorial em segunda pessoa** - a musiquinha do Fantástico, o "ih, o chefe chegou", a marmita no aniversário. Dor abstrata não dói; cena com som e objeto dói.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
@@ -233,7 +233,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 - **Empilhar medo sem rota implícita de saída.** Todos mantêm o duplo registro "não é culpa sua E tem jeito" - terrorismo puro paralisa em vez de mobilizar. Até o meteoro do gestossauro vem com a porta "ou você se atualiza".
 - **Lista de dores genérica, sem cena nem voz do avatar.** "Você se sente cansado e sem tempo" não diagnostica ninguém. Os campeões usam a fala literal do avatar ("resina é assim mesmo", "eu não vou cobrar muito caro não") e cena com objeto (chocolate, marmita, relatório). No método Soft isso significa: buscar no baú de voz do nicho as frases reais, não inventar dor de template.
 - **Decalcar o nome do vilão de outro dono (viola G2).** "Síndrome do Fantástico" é da MindMaster, "dieta burra" é do Vítor - webinar novo batiza a PRÓPRIA dor e o PRÓPRIO vilão na linguagem do nicho. Copiar o rótulo entrega que o roteiro é de segunda mão.
-- **Pular o nível de consciência da sala.** Bruno gasta o bloco inteiro criando consciência na "carinha amarela" antes de qualquer promessa; Fladlien #2 reeduca o frame de mercado antes de diagnosticar. Tratar sala inconsciente como sala consciente do problema desperdiça o bloco - o diagnóstico chega antes de existir paciente.
+- **Pular o nível de consciência da sala.** Bruno gasta o bloco inteiro criando consciência na "carinha amarela" antes de qualquer promessa; webinar de referência #2 reeduca o frame de mercado antes de diagnosticar. Tratar sala inconsciente como sala consciente do problema desperdiça o bloco - o diagnóstico chega antes de existir paciente.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -242,6 +242,6 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 O que varia (e também é dado) é a POSIÇÃO e o PESO:
 - **Posição padrão** (13M, ed. 2, 5 Níveis, GAIA2k, Pupim, Léo A): depois da autoridade/história - a cicatriz do host pré-valida o diagnóstico que vem em seguida.
 - **Webinar C (Bruno)** inverte: o bloco vem ANTES da autoridade (~3-12% do texto, logo após o roll call de cidades) - primeiro cria a consciência do problema com o espelho das carinhas, depois apresenta quem ele é. Funciona porque a abertura dele já tinha fisgado com o paradoxo "procedimento básico que você ainda erra".
-- **Fladlien #1** fragmenta: a dor aparece em dois pontos (~min 16 e ~min 30), já entrelaçada com a Big Idea - em meta-webinar para audiência consciente do problema, o diagnóstico pode ser curto e cirúrgico (um dilema bem armado substitui a lista de dores).
+- **webinar de referência #1** fragmenta: a dor aparece em dois pontos (~min 16 e ~min 30), já entrelaçada com a Big Idea - em meta-webinar para audiência consciente do problema, o diagnóstico pode ser curto e cirúrgico (um dilema bem armado substitui a lista de dores).
 - **Peso máximo**: Léo A (Vítor Abrão) dedica ~20% do webinar inteiro ao bloco (~17-37% do arquivo) - em nicho saturado de promessas (emagrecimento), a venda é ganha no diagnóstico, não na oferta.
 - **Sementes antecipadas**: Pupim planta a dor já na qualificação de público (~7% do texto, "cansado de aguentar o ego inflado do seu chefe") antes do bloco formal - a dor pode vazar pra blocos anteriores, o diagnóstico formal é que tem lugar fixo.

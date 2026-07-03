@@ -1,7 +1,7 @@
 # Interação com chat (TRANSVERSAL - escada de micro-compromissos, eco nominal, chat como termômetro e motor)
 
 > Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito por Marcos Enes; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo do método; a cadência "Would you like…? Of course." e o caso Ian = webinar de referência.
 
 ---
 
@@ -179,7 +179,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Fladlien #1 (One to Many) - interação simulada pra evergreen: a fisiologia da conversa sem audiência real
+### webinar de referência #1 (One to Many) - interação simulada pra evergreen: a fisiologia da conversa sem audiência real
 
 **Trecho literal:**
 
@@ -201,7 +201,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Fladlien #2 (Product E-Class) - o chat como instrumento de ensino e o fechamento 1:1 transmitido pra sala
+### webinar de referência #2 (Product E-Class) - o chat como instrumento de ensino e o fechamento 1:1 transmitido pra sala
 
 **Trecho literal:**
 
@@ -242,9 +242,9 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 - **Pedir interação sem razão funcional** ("comenta aí!", "manda um foguinho") - nenhum campeão pede engajamento pelo engajamento; todo pedido tem utilidade declarada pro host.
 - **Pedir e ignorar.** Comando de chat sem eco depois quebra o contrato no primeiro degrau - a sala aprende que responder não rende nada e o chat morre pro resto da live.
 - **Interação de custo alto cedo demais.** Ninguém abre pedindo confissão pesada ou opinião elaborada - a escada começa no custo zero e sobe devagar.
-- **Em perpétuo, ler nomes falsos ou simular chat vivo.** O desenho honesto validado é o do Léo A (eco genérico) e do Fladlien #1 (fallback verbal + auto-resposta) - nome inventado é a mentira que, descoberta, contamina o webinar inteiro.
+- **Em perpétuo, ler nomes falsos ou simular chat vivo.** O desenho honesto validado é o do Léo A (eco genérico) e do webinar de referência #1 (fallback verbal + auto-resposta) - nome inventado é a mentira que, descoberta, contamina o webinar inteiro.
 - **Deixar o chat pautar a aula.** Os campeões atendem pedidos pontuais (João/print) mas declaram a disciplina ("vou parar de olhar os comentários") - o chat serve à narrativa, não o contrário.
-- **Humilhar quem erra ou expor quem não responde.** A correção do Fladlien é coletiva e com parabéns a quem acertou; a pressão do caso Ian é sobre quem se OFERECEU à negociação.
+- **Humilhar quem erra ou expor quem não responde.** A correção do modelo é coletiva e com parabéns a quem acertou; a pressão do caso Ian é sobre quem se OFERECEU à negociação.
 - **Interação que não escala compromisso.** Quiz e enquete que não se conectam ao pitch são entretenimento - em todos os campeões, cada degrau do chat prepara o degrau da compra ("sim eu quero" → "caminho 2" → link).
 - **Decalcar bordão/rito com dono** ("bem-vinda ao time de faixa preta" é do Bruno; "caminho 1 ou 2" é assinatura MindMaster; a hashtag-revolução é da pele Vítor). A escada é premissa universal; os degraus se escrevem na voz do especialista.
 
@@ -252,7 +252,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 **Nenhum.** Os 9 webinars executam interação - é o bloco TRANSVERSAL por definição: não mora num minuto do roteiro, atravessa todos os outros blocos (o check do 01, a confissão do 04, o mantra do 05, o "sim eu quero" do 08, o placar do 12). O que varia é a engenharia por formato:
 
-- **Ao vivo com sala real** (máquina MindMaster, Aluna 80k, Léo C, Fladlien #2): eco nominal, enquetes, coautoria, fechamento 1:1, placar de vendas.
-- **Gravado/perpétuo** (Léo A, Fladlien #1): a mesma escada, com eco genérico, fallback verbal e auto-pergunta-e-resposta - zero nomes, zero promessas que a gravação não cumpre.
+- **Ao vivo com sala real** (máquina MindMaster, Aluna 80k, Léo C, webinar de referência #2): eco nominal, enquetes, coautoria, fechamento 1:1, placar de vendas.
+- **Gravado/perpétuo** (Léo A, webinar de referência #1): a mesma escada, com eco genérico, fallback verbal e auto-pergunta-e-resposta - zero nomes, zero promessas que a gravação não cumpre.
 
 **Leitura clínica pra skill:** antes de escrever qualquer bloco do webinar Soft, decidir o formato (vivo vs perpétuo) e escolher o gabarito de interação correspondente - e desenhar a escada de micro-compromissos do webinar INTEIRO numa passada (que degrau mora em que bloco), porque ela é o fio que costura todos os outros 13 blocos.

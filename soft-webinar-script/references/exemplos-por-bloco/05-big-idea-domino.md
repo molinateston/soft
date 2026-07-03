@@ -218,7 +218,7 @@ A consequência prática (o que te sobra - e vale mais):
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - meta-webinar evergreen em inglês; Genius Webinars de US$4.995 ancorado → US$14,97
+### webinar de referência #1 (One to Many - Genius Webinars) - meta-webinar evergreen em inglês; Genius Webinars de US$4.995 ancorado → US$14,97
 
 **Trecho literal:**
 
@@ -244,7 +244,7 @@ E o dominó contraintuitivo:
 
 > "Now, when it comes to a webinar, the close section is the least important part that you need to master. Now, I know this is the exact opposite of what everybody thinks and what everybody says and what everybody teaches, but I have $100 million in sales over the last few years uh that run that counter."
 
-**O que ele fez:** (1) pergunta socrática antes da tese ("why do webinars work so well?"); (2) fundação "matemática" inquestionável (80/20 como "mathematical fact"); (3) crença única em aforismo repetível ("the more you serve, the more you can sell" - frase do Fladlien); (4) promessa de sistema à prova de pessoa ("anybody off the streets") que mata a objeção de capacidade; (5) o dominó como inversão de senso comum ("the close is the least important part") blindada por número (US$ 100M); (6) a tese é apresentada como solução do dilema construído no bloco de problema (valor sem venda × venda sem valor).
+**O que ele fez:** (1) pergunta socrática antes da tese ("why do webinars work so well?"); (2) fundação "matemática" inquestionável (80/20 como "mathematical fact"); (3) crença única em aforismo repetível ("the more you serve, the more you can sell" - frase do modelo); (4) promessa de sistema à prova de pessoa ("anybody off the streets") que mata a objeção de capacidade; (5) o dominó como inversão de senso comum ("the close is the least important part") blindada por número (US$ 100M); (6) a tese é apresentada como solução do dilema construído no bloco de problema (valor sem venda × venda sem valor).
 
 **Por que funciona:** se a pessoa engole "é um sistema, não talento - siga a fórmula, tenha o resultado", toda objeção de capacidade morre, e o produto (o sistema documentado) vira a única peça que falta. A crença serve→sell ainda dá licença emocional dupla: para a plateia comprar E para ela mesma vender depois. E a inversão contraintuitiva ("o close é o menos importante") só se sustenta porque vem com lastro - contradizer o senso comum sem número seria arrogância; com US$100M é insight.
 
@@ -252,7 +252,7 @@ E o dominó contraintuitivo:
 
 ---
 
-### Fladlien #2 - "Product Creation Secrets" / Product E-Class 2020 - infoprodutos, US$997 público → US$497 ou 3x US$194, dupla garantia
+### webinar de referência #2 - "Product Creation Secrets" / Product E-Class 2020 - infoprodutos, US$997 público → US$497 ou 3x US$194, dupla garantia
 
 **Trecho literal:**
 
@@ -268,7 +268,7 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 
 > "But something Maddie said to me has stuck with me for all of these years later. He says, \"Jason, I knew success was inevitable.\" […] Inevitable success is like this. You create your first information product. If it sells well, great. You just made a bunch of money. Congratulations. If it doesn't sell well, great. You say, \"Jason, what do you mean great?\" You know what that means? You have an asset. You have something that you can leverage. […] You are one step closer to the profit."
 
-**O que ele fez:** (1) fórmula nomeada e memorável ("One problem, one solution, one sitting" - fórmula do Fladlien) com comando de escrita ("write this down. This is very important to your financial future"); (2) origem datada da fórmula (12/11/2007, "stumbled into more than discovered" - humildade que aumenta a credibilidade); (3) dominó declarado como lei inflexível com humor de palco (a regra do banheiro) que torna a regra inesquecível; (4) "inevitable success" (conceito que ele credita ao aluno Maddie) = reframe onde TODO desfecho é vitória (vendeu = dinheiro; não vendeu = ativo); (5) antecipação do ceticismo dentro da própria declaração ("you might just discount it… There is magic here, I promise you").
+**O que ele fez:** (1) fórmula nomeada e memorável ("One problem, one solution, one sitting" - fórmula do modelo) com comando de escrita ("write this down. This is very important to your financial future"); (2) origem datada da fórmula (12/11/2007, "stumbled into more than discovered" - humildade que aumenta a credibilidade); (3) dominó declarado como lei inflexível com humor de palco (a regra do banheiro) que torna a regra inesquecível; (4) "inevitable success" (conceito que ele credita ao aluno Maddie) = reframe onde TODO desfecho é vitória (vendeu = dinheiro; não vendeu = ativo); (5) antecipação do ceticismo dentro da própria declaração ("you might just discount it… There is magic here, I promise you").
 
 **Por que funciona:** o dominó é "o único problema é a INTERRUPÇÃO entre começar e terminar" - aceito isso, expertise, marketing, tráfego e preço deixam de ser objeção, e o método 111 vira inevitável. O "inevitable success" destrói o medo de fracasso, que é o real bloqueador da compra: uma crença desenhada para que não exista cenário em que agir dê errado. E creditar o conceito a um aluno é prova social embutida na própria tese.
 
@@ -280,14 +280,14 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 
 1. **UMA crença, UMA frase.** Todos reduzem a tese a uma sentença curta e repetível ("tudo isso é possível aprendendo gestão ágil" · "resina não é fim, é meio" · "one problem, one solution, one sitting" · "a dieta se adequa à sua vida" · "se eu posso, você também pode"). Duas big ideas = nenhum dominó.
 2. **Comando de registro.** A frase nunca passa solta: "vamos grifar", "write this down", "já grava isso", "escreve para mim aqui no chat: meio", "se for lembrar de UMA coisa, lembra disso". O espectador grava/digita a crença - micro-compromisso com a tese antes da oferta.
-3. **Desejo ensaiado ANTES da tese.** Future pacing em série (13M/5 Níveis), quiz de crenças (Fladlien #2), cenários de carreira (GAIA2k): a crença pousa sobre um querer já confirmado no chat.
-4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - MindMaster), te venderam "dieta burra" (Vítor Abrão), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (Fladlien), "eles nunca te contaram como" (Pupim).
+3. **Desejo ensaiado ANTES da tese.** Future pacing em série (13M/5 Níveis), quiz de crenças (webinar de referência #2), cenários de carreira (GAIA2k): a crença pousa sobre um querer já confirmado no chat.
+4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - MindMaster), te venderam "dieta burra" (Vítor Abrão), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (webinar de referência), "eles nunca te contaram como" (Pupim).
 5. **O dominó derruba a concorrência junto.** Se a crença é verdadeira, TODA alternativa cai por definição: toda dieta restritiva, todo MBA "de linguiça", todo cursinho de Scrum isolado, toda tática de tráfego. O bloco é desenhado para esvaziar as outras opções, não só para convencer.
 6. **Prova terceirizada e impessoal.** Manchetes (G1/Exame), precedente de elite (Arthur Casas), gráfico acadêmico (Fogel), "fato matemático" (80/20), pesquisa própria com volume (880 mil respostas), número de mercado. A tese atacável vira tese de terceiros - quem ataca, ataca a Globo ou a matemática.
-7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (MindMaster); "nem 10% têm a licença" (Pupim); "148 times" (Fladlien). A ressalva declarada aumenta a credibilidade do número.
+7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (MindMaster); "nem 10% têm a licença" (Pupim); "148 times" (webinar de referência). A ressalva declarada aumenta a credibilidade do número.
 8. **Promessa de prova explícita.** "Eu vou provar aqui pra você" · "Eu vou te explicar porquê" · "I will show you how to do it". O bloco abre o loop; o bloco de conteúdo existe para fechá-lo - a aula inteira vira evidência do dominó.
-9. **Fecho em equação causal simples, dita em voz alta.** "A equação é simples: você resolvendo os problemas das empresas → empresa lucra + você é valorizado" (MindMaster); "adesão → resultado mantido" (MDI); "uma sentada → produto pronto → primeiro dólar" (Fladlien).
-10. **Reframe identitário embutido.** O lead sai de "quem sofre o problema" para "quem resolve problemas" / "gestor do futuro" (MindMaster) / faixa preta (webinar C) / quem dá "permission to succeed" a si (Fladlien).
+9. **Fecho em equação causal simples, dita em voz alta.** "A equação é simples: você resolvendo os problemas das empresas → empresa lucra + você é valorizado" (MindMaster); "adesão → resultado mantido" (MDI); "uma sentada → produto pronto → primeiro dólar" (webinar de referência).
+10. **Reframe identitário embutido.** O lead sai de "quem sofre o problema" para "quem resolve problemas" / "gestor do futuro" (MindMaster) / faixa preta (webinar C) / quem dá "permission to succeed" a si (webinar de referência).
 11. **Slot de onda trocável (achado da análise MindMaster).** Entre as edições VUCA e a edição IA (GAIA2k), trocou-se a onda e manteve-se equação pessoal + mecanismo - escrever o bloco já sabendo qual pedaço é "onda" (vai envelhecer) e qual é "equação" (não pode mudar).
 12. **Bloco distribuído, não pontual.** Declaração cedo + reforço com dado no meio + equação no fim (13M: min 13-23 → min 25 → min 43-45; webinar C: 7% → 15% → 21%). A crença é construída em camadas, e a frase-mantra plantada aqui é cobrada na transição (pegadas → "pisar nas minhas pegadas"; hashtag da revolução no MDI).
 
@@ -296,16 +296,16 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
 - **Declarar a tese a frio.** Nenhum campeão solta a crença antes de ensaiar o desejo e instalar o problema - big idea sem future pacing prévio é slogan no vácuo.
-- **Culpar o avatar.** Nenhum dominó exige que o lead admita preguiça ou burrice para aceitar a crença (o "tough love" do Fladlien existe, mas na transição, depois dos cases - nunca aqui).
+- **Culpar o avatar.** Nenhum dominó exige que o lead admita preguiça ou burrice para aceitar a crença (o "tough love" do modelo existe, mas na transição, depois dos cases - nunca aqui).
 - **Empilhar ideias.** Nenhum campeão apresenta duas ou três "grandes ideias" - quem dá duas teses não derruba dominó nenhum.
 - **Tese sustentada só na própria palavra.** Todos terceirizam a prova (mídia, precedente, dado, estudo); afirmar "acredite em mim" sem lastro externo quebraria o bloco.
 - **Inversão contraintuitiva sem lastro.** Contradizer o senso comum ("o close é o menos importante") só funciona acoplado a um número que paga o direito de contradizer (US$100M); sem isso é arrogância.
 - **Janela sem número.** "Essa é uma grande oportunidade" genérico não aparece em nenhum campeão - todos quantificam (80% das empresas, 148x, nem 10%).
-- **Vender o veículo pelo atributo técnico.** Nenhum campeão vende a ferramenta em si - MindMaster não vende Scrum, vende posição de mercado; o webinar C não vende resina, vende liberdade ("resina é meio"); Fladlien não vende webinar, vende sistema-à-prova-de-pessoa. Defender feature aqui mata o dominó.
-- **Específico do método Soft (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da MindMaster; "adesão/dieta burra" é do MDI; "111" é do Fladlien); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
+- **Vender o veículo pelo atributo técnico.** Nenhum campeão vende a ferramenta em si - MindMaster não vende Scrum, vende posição de mercado; o webinar C não vende resina, vende liberdade ("resina é meio"); O modelo não vende webinar, vende sistema-à-prova-de-pessoa. Defender feature aqui mata o dominó.
+- **Específico do método Soft (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da MindMaster; "adesão/dieta burra" é do MDI; "111" é do modelo); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
 
 ---
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco Big Idea/Big Domino - é, ao lado do conteúdo e da oferta, o único bloco presente em 100% dos exemplares. Contraste que vira dado: a garantia falta em 6 dos 9; o pré-início falta nos dois Fladlien e na Aluna 80k; o Q&A ao vivo falta em vários. Ou seja: campeão fecha sem garantia, sem aquecimento, sem Q&A - nunca sem a crença única. Dois registros finos do corpus: (a) 13M e 5 Níveis são duas gravações da mesma máquina MindMaster com este bloco quase idêntico palavra a palavra - a frase-dominó é ativo fixo ensaiado e reutilizado, não improviso; (b) na Aluna 80k a crença é declarada já aos ~4% da aula (na abertura) e re-cravada aos ~23-27% - prova de que o bloco pode ancorar cedo desde que volte com prova depois.
+**Nenhum.** Os 9 webinars do corpus têm o bloco Big Idea/Big Domino - é, ao lado do conteúdo e da oferta, o único bloco presente em 100% dos exemplares. Contraste que vira dado: a garantia falta em 6 dos 9; o pré-início falta nos dois webinars de referência e na Aluna 80k; o Q&A ao vivo falta em vários. Ou seja: campeão fecha sem garantia, sem aquecimento, sem Q&A - nunca sem a crença única. Dois registros finos do corpus: (a) 13M e 5 Níveis são duas gravações da mesma máquina MindMaster com este bloco quase idêntico palavra a palavra - a frase-dominó é ativo fixo ensaiado e reutilizado, não improviso; (b) na Aluna 80k a crença é declarada já aos ~4% da aula (na abertura) e re-cravada aos ~23-27% - prova de que o bloco pode ancorar cedo desde que volte com prova depois.

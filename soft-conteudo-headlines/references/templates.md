@@ -35,4 +35,4 @@ Cada template é uma **fórmula** que você preenche com elementos do nicho do c
 | 29 | O [melhor/pior] pra [situação] não é X, não é Y, não é Z | "O exame mais importante pro coração não é colesterol, não é glicose, e o médico não pede." | Mistério |
 | 30 | Erros que você comete ao [ação comum] e como evitar | "4 erros que você comete na primeira reunião com um cliente e como evitar." | Reconhecimento + Recompensa |
 
-> Os templates dão a forma. A força vem do gate (Passo 4 do SKILL.md): ancoragem real + as 3 perguntas do Harry. Template preenchido com fala genérica reprova igual.
+> Os templates dão a forma. A força vem do gate (Passo 4 do SKILL.md): ancoragem real + as 3 perguntas do gate. Template preenchido com fala genérica reprova igual.

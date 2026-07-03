@@ -65,9 +65,9 @@ Preenche a tabela pra cada criativo. Só o que tem VEREDITO=PASSA vai pro client
 | **C/U/B** | Concreto (zero palavra-container sem adjetivo) · Único (concorrente direto não assina igual) · Benefício/dor específica do avatar | |
 | **Conformidade de plataforma** | sem promessa proibida (renda garantida, "antes/depois" de saúde, cura, "ganhe R$X garantido"), sem alegação médica/financeira sem lastro; segue regra do anunciante | |
 | **Comprimento** | criativo 6-15s (hook ≤5 palavras / ~1.7s) · legenda L1 ≤2 linhas antes do "ver mais" | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a paciente abre o exame e o número não mexeu" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
+| **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a paciente abre o exame e o número não mexeu" | |
+| **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
+| **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat, CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
 

@@ -257,7 +257,7 @@ O carimbo de valor sobre o conteúdo dado:
 
 ---
 
-### Fladlien #1 (One to Many - Genius Webinars) - quem vende por webinar, ticket alto; o bloco-modelo: ensina a técnica USANDO a técnica
+### webinar de referência #1 (One to Many - Genius Webinars) - quem vende por webinar, ticket alto; o bloco-modelo: ensina a técnica USANDO a técnica
 
 **Trecho literal:**
 
@@ -274,7 +274,7 @@ Virada 2 - Content (definição de valor + processo):
 
 > "more often than not, I recommend you share your defined outcome with your audience because fuzzy targets don't get hit."
 
-Virada 3 - Transition (entrega o script inteiro do two choices close, do Fladlien):
+Virada 3 - Transition (entrega o script inteiro do two choices close, do modelo):
 > "There's three elements step by step you have to follow for the transition. 60-cond recap. Yes, momentum. Two choices. If there is anything that you can just straight copy from this webinar and drop in to a presentation, it's this."
 
 > "I have absolute confidence that you could take everything we covered here today and on your own go out and put it into action and get results that you previously thought were not possible. […] And if that were your only option, it would be a worthy ideal to pursue. But what if there was another option? An option that allowed us to go at this together. A chance to go deeper than we can in one measly hour on one measly webinar connecting together one measly time. What if I played an active role in your results? Took a responsibility in your success and had an obligation to your outcome. How would that make things different? If I had such an option for you, would you love to hear more about it and what it can do for you? That's why it's with great pleasure that I introduce to you whatever you're offering them."
@@ -286,7 +286,7 @@ Virada 4 - Close (oferta rápida, bônus > oferta):
 
 > "Bonuses are more important than the offer itself when it comes to conversion on webinars."
 
-**O que ele fez:** (1) cada virada segue o mesmo molde: contexto (por que importa) → visão (como fica quando é bem feito) → estratégia (checklist numerado: 5 componentes, 3 partes, 4 slides) → compromisso (bateria de perguntas-sim); (2) gancho do braçal explícito em todas: dá a fórmula inteira de graça, mas o detalhe executável fica no produto ("We break down again in very very minute detail" nas sessions); (3) demonstração recursiva - usa o próprio webinar como estudo de caso da técnica que acabou de ensinar; (4) entrega uma peça completa copiável (o script verbatim do two choices close) como presente de valor extremo; (5) frases-fórmula citáveis ("fuzzy targets don't get hit", "you can't torture somebody into buying", "smaller yeses lead to bigger yeses" - todas do Fladlien).
+**O que ele fez:** (1) cada virada segue o mesmo molde: contexto (por que importa) → visão (como fica quando é bem feito) → estratégia (checklist numerado: 5 componentes, 3 partes, 4 slides) → compromisso (bateria de perguntas-sim); (2) gancho do braçal explícito em todas: dá a fórmula inteira de graça, mas o detalhe executável fica no produto ("We break down again in very very minute detail" nas sessions); (3) demonstração recursiva - usa o próprio webinar como estudo de caso da técnica que acabou de ensinar; (4) entrega uma peça completa copiável (o script verbatim do two choices close) como presente de valor extremo; (5) frases-fórmula citáveis ("fuzzy targets don't get hit", "you can't torture somebody into buying", "smaller yeses lead to bigger yeses" - todas do modelo).
 
 **Por que funciona:** dar o script verbatim gera prova de valor irrefutável em tempo real - "se o grátis é assim, imagina o pago". E a recursividade (você acabou de VIVER a técnica funcionando em você) é a demonstração mais forte possível: o webinar é o case.
 
@@ -294,7 +294,7 @@ Virada 4 - Close (oferta rápida, bônus > oferta):
 
 ---
 
-### Fladlien #2 - "Product Creation Secrets" / Product E-Class 2020 - criação de infoprodutos; ensino por JOGO de diagnóstico
+### webinar de referência #2 - "Product Creation Secrets" / Product E-Class 2020 - criação de infoprodutos; ensino por JOGO de diagnóstico
 
 **Trecho literal:**
 
@@ -307,7 +307,7 @@ Anatomia do produto:
 O jogo dos títulos - exemplo "errado" nº 1 (com leitura de chat embutida):
 > "First product. What's wrong with this product? The complete guide to real estate. […] And I'm seeing some of you in the chat here. You're giving some very interesting answers. And a very few of you are getting this, which shows you that you hear a concept once, it doesn't mean that you've mastered it. Repeated exposure helps in this kind of stuff. And here it is. Okay, a couple of you got it. So, congratulations for that. YOU CAN'T MAKE THIS PRODUCT IN ONE SETTING."
 
-Virada 1 - "better than free" (do Fladlien):
+Virada 1 - "better than free" (do modelo):
 > "Here is the easiest way to make money in the information business is when what you sell is obvious that it's better than free. You say, "Jason, what do you what do you mean by that?" Well, if you saved more than $11 off your next electric bill and you paid me $10 for the product, that product isn't free. That product is better than free. Are you feeling that?"
 
 Virada 2 - eliminar dor presente > prometer benefício futuro:
@@ -326,7 +326,7 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 
 **Por que funciona:** conteúdo de valor real que muda o CRITÉRIO de decisão da plateia (de "preciso de tráfego/expertise" para "preciso do produto certo criado de uma vez"). Quando o critério muda, só existe um produto no mundo desenhado para o novo critério: o dele. E o jogo de diagnóstico faz a plateia errar em público - prova vivida de que ouvir o conceito uma vez não basta, ou seja, de que o curso é necessário.
 
-**O que é decalcável vs do nicho:** decalcável: o formato jogo-de-diagnóstico (plateia tenta, erra, aprende - e sente que precisa de mais reps); mudar o critério de decisão como objetivo do bloco; princípio grátis, template pago. Do nicho: os títulos de produto, a fórmula how-to-X-without-Y do Fladlien.
+**O que é decalcável vs do nicho:** decalcável: o formato jogo-de-diagnóstico (plateia tenta, erra, aprende - e sente que precisa de mais reps); mudar o critério de decisão como objetivo do bloco; princípio grátis, template pago. Do nicho: os títulos de produto, a fórmula how-to-X-without-Y do modelo.
 
 ---
 
@@ -335,7 +335,7 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - [ ] **Valor real verificável**: algo aplicável amanhã (checklist de 4 passos, 35ml/kg, busca "hiring" no LinkedIn, script copiável) - sem isso o gancho do braçal vira só teaser.
 - [ ] **O quê sem o como sistematizado**: mapa completo na aula, preenchimento no produto. Os campeões VERBALIZAM a retenção com razão honesta ("senão a gente fica o dia inteiro aqui").
 - [ ] **Viradas ordenadas por crença**: cada secret demole a objeção na ordem em que ela barraria a compra (mais nítido na Aluna 80k e no Léo A).
-- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (MindMaster), "3 Cs" (Vítor/MDI), escada de faixas + espátula One (Bruno), "better than free" e "two choices close" (Fladlien). O nome reaparece no pitch como diferencial.
+- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (MindMaster), "3 Cs" (Vítor/MDI), escada de faixas + espátula One (Bruno), "better than free" e "two choices close" (webinar de referência). O nome reaparece no pitch como diferencial.
 - [ ] **Curadoria como autoridade**: "eu sei qual é o 80/20" - vende-se o filtro, não a informação ("você não precisa ler tudo isso").
 - [ ] **Seeding nominal do produto dentro do conteúdo** (≥1x, MindMaster faz 4-6x): "isso a gente aprofunda no curso X" - normaliza a oferta antes dela existir.
 - [ ] **Comando físico de engajamento**: "papel e caneta", "anota", "tira print", "write this down" - e o print/PDF prometido só pra quem fica até o fim.
@@ -351,12 +351,12 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - **Esgotar o assunto**: ensinar o COMO completo mata a oferta - nenhum campeão entrega o preenchimento, só o mapa. Mas o inverso também quebra:
 - **Teaser sem substância**: "isso eu só conto no curso" repetido SEM ter entregue valor real antes. Todos os campeões dão algo aplicável hoje primeiro; a retenção vem depois e com razão verbalizada.
 - **Esconder o produto até o pitch**: nenhum campeão trata o curso como segredo - ele é citado naturalmente dentro do conteúdo. Pitch que aparece "do nada" cobra o preço na transição.
-- **Conteúdo desconectado da big idea**: aula boa que prova outra tese não vende. Em todos os exemplos, cada virada é um tijolo da mesma tese (no Léo A, cada virada reverte um "não pode" do vilão; no Fladlien #2, cada rodada muda o mesmo critério de decisão).
+- **Conteúdo desconectado da big idea**: aula boa que prova outra tese não vende. Em todos os exemplos, cada virada é um tijolo da mesma tese (no Léo A, cada virada reverte um "não pode" do vilão; no webinar de referência #2, cada rodada muda o mesmo critério de decisão).
 - **Ensinar sem demolir**: virada que só adiciona informação, sem quebrar uma crença ou um mito do senso comum do nicho, não move ninguém - o padrão é mito demolido + substituto instalado.
 - **Claims sem porquê nem dono**: afirmação sem mecanismo, sem fonte e sem número não constrói a régua nova. E atribuir a si o que é de outro (a "visão de floresta" é da MindMaster) destrói a confiança se descoberto.
 - **Monólogo sem engajamento físico/chat**: todos comandam anotação, print, resposta no chat, micro-sim - o bloco mais longo do webinar é justamente onde a atenção mais escorre.
-- **Aula de teoria/história**: o próprio Fladlien proíbe no produto e pratica no webinar - "no history lessons, no covering every little detail". O bloco é tático, não enciclopédico.
+- **Aula de teoria/história**: o próprio modelo proíbe no produto e pratica no webinar - "no history lessons, no covering every little detail". O bloco é tático, não enciclopédico.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco 06 - é o único bloco do miolo presente em 100% dos campeões, e em todos ele é o trecho MAIS LONGO do webinar (tipicamente 30-50% da duração total: ~min 46-91 no 13M, ~27-80% na Aluna 80k, ~23-77% no Léo C, ~min 25-70 no Fladlien #2). Leitura: não existe webinar campeão sem miolo de conteúdo genuíno - o que varia é só a forma da virada (framework nomeado, conta econômica, jogo de diagnóstico, demo ao vivo, recursividade). Se um roteiro novo sair com este bloco curto ou raso, ele está fora do padrão de tudo que vendeu neste corpus.
+**Nenhum.** Os 9 webinars do corpus têm o bloco 06 - é o único bloco do miolo presente em 100% dos campeões, e em todos ele é o trecho MAIS LONGO do webinar (tipicamente 30-50% da duração total: ~min 46-91 no 13M, ~27-80% na Aluna 80k, ~23-77% no Léo C, ~min 25-70 no webinar de referência #2). Leitura: não existe webinar campeão sem miolo de conteúdo genuíno - o que varia é só a forma da virada (framework nomeado, conta econômica, jogo de diagnóstico, demo ao vivo, recursividade). Se um roteiro novo sair com este bloco curto ou raso, ele está fora do padrão de tudo que vendeu neste corpus.

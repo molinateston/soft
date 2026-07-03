@@ -6,7 +6,7 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-O pré-início tem UM trabalho central: fazer a audiência executar o primeiro comportamento da noite - digitar no chat - antes de qualquer conteúdo. O pedido é sempre o mais barato possível (confirmar áudio, dizer a cidade), porque o primeiro "sim" de custo zero inaugura a escada de micro-compromissos que será cobrada no pitch ("sim eu quero", link, cartão) - a escada de micro-sins que o Marcos Enes descreve. O segundo trabalho é recompensar instantaneamente quem obedeceu: ler nomes em voz alta nos primeiros 60 segundos ensina a sala inteira que comentar = ser visto, e converte broadcast em conversa. Terceiro: ocupar o tempo morto de entrada - ou com falso atraso controlado ("30 segundos") que segura a sala enquanto chega gente, ou com loop de depoimentos gravados que pré-vende passivamente. Quarto: ancorar lotação ("tem bastante gente chegando") e normalizar qualquer falha técnica sem perder autoridade. Em sala ao vivo este bloco é obrigatório; em perpétuo ele muda de forma (pre-roll de prova social em loop) ou é absorvido pelo bloco 02 - mas a função "primeiro comportamento + aquecimento" nunca fica sem dono.
+O pré-início tem UM trabalho central: fazer a audiência executar o primeiro comportamento da noite - digitar no chat - antes de qualquer conteúdo. O pedido é sempre o mais barato possível (confirmar áudio, dizer a cidade), porque o primeiro "sim" de custo zero inaugura a escada de micro-compromissos que será cobrada no pitch ("sim eu quero", link, cartão) - a escada de micro-sins do método. O segundo trabalho é recompensar instantaneamente quem obedeceu: ler nomes em voz alta nos primeiros 60 segundos ensina a sala inteira que comentar = ser visto, e converte broadcast em conversa. Terceiro: ocupar o tempo morto de entrada - ou com falso atraso controlado ("30 segundos") que segura a sala enquanto chega gente, ou com loop de depoimentos gravados que pré-vende passivamente. Quarto: ancorar lotação ("tem bastante gente chegando") e normalizar qualquer falha técnica sem perder autoridade. Em sala ao vivo este bloco é obrigatório; em perpétuo ele muda de forma (pre-roll de prova social em loop) ou é absorvido pelo bloco 02 - mas a função "primeiro comportamento + aquecimento" nunca fica sem dono.
 
 ---
 
@@ -128,13 +128,13 @@ Gestão de problema técnico sem perder a sala:
 
 - [ ] **Primeiro comando de custo zero no chat** ("tá me ouvindo?", "de que cidade você é?") nos primeiros 60–90 segundos - antes de qualquer conteúdo.
 - [ ] **Razão funcional pro comentário** - o pedido nunca é "interaja aí"; é "se ninguém colocar, eu não vou saber" / "confirma pra mim". Obedecer parece ajudar o host, não ceder a ele.
-- [ ] **Leitura imediata de nomes em voz alta** (3 a 6 nomes) - recompensa instantânea que ensina a sala: comentar = ser visto. É o degrau 1 da compliance progressiva (escada de micro-sins, Marcos Enes).
+- [ ] **Leitura imediata de nomes em voz alta** (3 a 6 nomes) - recompensa instantânea que ensina a sala: comentar = ser visto. É o degrau 1 da compliance progressiva (escada de micro-sins, método).
 - [ ] **Tempo morto ocupado com intenção** - falso atraso controlado ("30 segundos") ao vivo, ou loop de depoimentos/pre-roll que pré-vende sozinho.
 - [ ] **Ancoragem de lotação** ("tem bastante gente chegando", "gente do país inteiro") - prova social da própria sala.
 - [ ] **Falha técnica nomeada e normalizada, nunca escondida** ("problemas técnicos acontecem"; "é só reiniciar a tela") - o host mantém autoridade mostrando controle.
 - [ ] **Micro-promessa de valor antes do conteúdo** ("eu prometo que vou dar o meu melhor conteúdo"; "vai valer cada minuto") - primeiro contrato com a sala.
 - [ ] **Duração curta: 2–3 minutos.** Nenhum campeão estica o pré-início; ele existe pra instalar o comportamento e ceder o palco pro bloco 02.
-- [ ] **Em perpétuo:** sem chat real, a função migra, pre-roll de prova social em loop que já conta vilão + números + big idea (Webinar A), ou absorção pelo bloco 02 (Fladlien #2: quiz no primeiro minuto).
+- [ ] **Em perpétuo:** sem chat real, a função migra, pre-roll de prova social em loop que já conta vilão + números + big idea (Webinar A), ou absorção pelo bloco 02 (webinar de referência #2: quiz no primeiro minuto).
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método aqui)
 
@@ -149,7 +149,7 @@ Gestão de problema técnico sem perder a sala:
 ## Webinars sem este bloco (e por quê - também é dado)
 
 - **Aluna 80k (Juliana Pupim - Seja Arquiteto na América):** a gravação abre direto no vídeo-depoimento da Karine e cai na saudação formal - sem aquecimento, contagem, check de som ou compliance prévia. Único resquício técnico já dentro da abertura: "Deixa eu só ajeitar aqui, gente, ó. […] A minha, o meu rosto tá um pouco fora. Pronto, agora vocês vão conseguir ver melhor." Provável corte da gravação: o pré-início pode ter existido e ficado fora do arquivo. Lição: mesmo sem o bloco, ela abre com depoimento - a função "pré-validar a tese" foi preservada.
-- **Fladlien #1 (One to Many - Genius Webinars):** a gravação abre direto em "And we are rolling" e cai na agenda; sem aquecimento, check técnico ou chat acordando. Consistente com formato evergreen/gravado, onde o pré-início é cortado ou nunca existiu.
-- **Fladlien #2 (Product Creation Secrets / Product E-Class 2020):** abre direto na headline falada ("Product creation secrets. My name is Jason Fladdlin…"). O papel de "acordar o chat" foi absorvido pelo quiz do bloco 02 no primeiro minuto - a função de primeiro micro-compromisso sobrevive sem o bloco, deslocada pra abertura.
+- **webinar de referência #1 (One to Many - Genius Webinars):** a gravação abre direto em "And we are rolling" e cai na agenda; sem aquecimento, check técnico ou chat acordando. Consistente com formato evergreen/gravado, onde o pré-início é cortado ou nunca existiu.
+- **webinar de referência #2 (Product Creation Secrets / Product E-Class 2020):** abre direto na headline falada ("Product creation secrets. My name is Jason Fladdlin…"). O papel de "acordar o chat" foi absorvido pelo quiz do bloco 02 no primeiro minuto - a função de primeiro micro-compromisso sobrevive sem o bloco, deslocada pra abertura.
 
 **Leitura clínica do conjunto:** os 3 ausentes são gravações/evergreen; os 6 presentes são salas ao vivo (ou perpétuo simulando sala, caso Webinar A, que troca chat por pre-roll). Regra de decisão pra skill: webinar AO VIVO → bloco 01 obrigatório, roteirizado, 2–3 min; webinar PERPÉTUO/GRAVADO → ou pre-roll de prova social em loop que conta a tese, ou cortar o bloco e mover o primeiro micro-compromisso pro minuto 1 do bloco 02.
