@@ -20,6 +20,10 @@ Reel atrai. Carrossel vende. A função do reel é uma só: fazer o cliente cert
 - Lote (5 reels numa tarde, banco de pautas) só sob comando explícito "lote de [tema]".
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra roteiro que falhou no gate**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, parte da headline e ancora (NÃO PULE)
 O reel começa de uma **headline já escolhida**. Se o usuário ainda não tem a headline (a frase que para o scroll nos 3 primeiros segundos), você **não escreve o corpo**: manda fazer a headline antes na **soft-conteudo-headlines** e volta com ela. Corpo sem gancho é vídeo que ninguém assiste.
 
@@ -94,7 +98,7 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
-Mostra **só o roteiro que passou, LIMPO** (como no Claude Chat), com a espinha marcada (qual frase é qual movimento). Sem tabela de gate, sem meta. Pergunta "esse te serve? ajusto ou faço outro?". **Espera a escolha** antes de gerar outro ou montar lote. **Não narra o fluxo** ("agora vou auditar"), só entrega limpo.
+Mostra **só o roteiro que passou, LIMPO** (no DOC, nunca solto no chat), com a espinha marcada (qual frase é qual movimento). Sem tabela de gate, sem meta. Pergunta "esse te serve? ajusto ou faço outro?". **Espera a escolha** antes de gerar outro ou montar lote. **Não narra o fluxo** ("agora vou auditar"), só entrega limpo.
 
 **Quando um reel performa, escala (regra do "faz mais", `references/metodo-reel.md` 7.7):** faz mais do mesmo ASSUNTO em outros ângulos, OU troca o tema mantendo a ESTRUTURA da headline que funcionou. Mede comparando com o típico do TEU perfil (skip rate · tempo médio · tempo total · interações), nunca com benchmark de fora: a métrica é diagnóstico, não troféu (`references/metodo-reel.md` 7.9).
 

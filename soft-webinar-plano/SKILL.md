@@ -39,6 +39,10 @@ Webinar que converte não é roteiro bem escrito. É **plano com âncora afiada 
 
 Gate roda **por dentro** (silencioso); a saída é **só o doc limpo**. Nunca inventa (Lei 5). Para a cada STOP no intake.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, ABSORVE o posicionamento + ancora no verbatim (NÃO PULE)
 Fonte, nesta ordem: **material rico gravado do cliente (aula/live/VSL/call → Modo C, destila do verbatim) → posicionamento colado → descrição do projeto → mensagens anteriores.** Se houver aula/conteúdo gravado, DESTILA dele ANTES de perguntar (verbatim real > resposta de intake; ver `references/extracao-de-material-existente.md`). **Absorve o posicionamento inteiro** pra dentro do plano (a Herança é seção, não ponteiro) e puxa **3-5 falas de DOR + 3-5 de DESEJO** literais, com o N. Promessa e mecanismo nascem delas. Extrai no mínimo: território/inimigo + tensão dor→desejo · problema geral E avançado + mecanismo-do-problema · mecanismo NOMEADO + tese · persona com cena privada + objeções/crenças literais · provas nome+nº+prazo+porquê · meta + preço já cobrado.
 

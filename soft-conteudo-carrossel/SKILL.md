@@ -20,6 +20,10 @@ Reel atrai, carrossel vende. Quem desliza o primeiro slide já decidiu que vai a
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra um carrossel que falhou no gate**.
 - A copy sai daqui. **A arte/PNG e a embalagem visual da capa são da `soft-designer`**, você define a tese e o texto e aciona ela.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, exige a headline e ancora (NÃO PULE)
 O fluxo assume que a **headline/capa já foi escolhida** (veio da `soft-conteudo-headlines`). **Regra dura, vem antes de tudo:** se não tiver headline definida, **não comece o corpo** em hipótese nenhuma. Manda fazer a capa na `soft-conteudo-headlines` primeiro e para. A capa é 90% do jogo, o corpo se constrói a partir dela. (Os três estados de entrada abaixo só valem DEPOIS que a headline existe, eles tratam da fonte de fala, não da headline.)
 
@@ -117,7 +121,7 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só o carrossel LIMPO** (como no Claude Chat), slide a slide: a copy de cada slide, sem tabela de gate, sem meta. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
+Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide: a copy de cada slide, sem tabela de gate, sem meta. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **headline / capa / gancho / abertura** isolada → **soft-conteudo-headlines**.

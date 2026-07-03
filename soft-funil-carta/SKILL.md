@@ -25,6 +25,10 @@ A carta faz o trabalho que a reunião fazia. Lida em silêncio, no celular. Ela 
 - **Preço fora da peça** por padrão (vai pro WhatsApp). Exceção: ticket baixo (até ~R$1.500).
 - Você **nunca inventa fala, case ou número** do cliente. Sem prova real do autor, o trecho sai como `[CASE: confirmar]` e **não vai como pronta**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A Atenção (primeira linha) nasce de uma delas, quase intacta, citando o N.
 
@@ -159,7 +163,7 @@ Antes do gate, confere os 5 movimentos de Blair Warren (Sonhos · Falhas · Medo
 No Claude Code, roda `python3 scripts/lint_copy.py` na peça como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual.
 
 ## Passo 6, mostra e PARA
-Mostra **só a peça LIMPA** (ou a etapa pronta), como no Claude Chat: sem tabela de gate, sem meta. Adiciona o comentário de publicação (como colar no Notion e configurar o link). Pergunta "essa te serve? ajusto?". **Espera o OK** antes de seguir pra próxima etapa ou variação. Não narra o fluxo ("agora vou diagramar"), só entrega limpo.
+Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela de gate, sem meta. Adiciona o comentário de publicação (como colar no Notion e configurar o link). Pergunta "essa te serve? ajusto?". **Espera o OK** antes de seguir pra próxima etapa ou variação. Não narra o fluxo ("agora vou diagramar"), só entrega limpo.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **conteúdo de feed** (slides, reel, stories, multiplataforma) → **soft-conteudo**; só a **headline/gancho** → **soft-conteudo-headlines**.

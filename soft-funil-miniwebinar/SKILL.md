@@ -18,10 +18,14 @@ São **3 saídas em sequência** (roteiro → slides → página), cada uma **um
 - **(A) ROTEIRO por FASE ADMA:** um roteiro de Mini Webinar de **9 a 11 minutos**, em **12 blocos** dentro das 4 fases ADMA, com timestamps. Entregue **uma FASE por vez** (Atenção → Diagnóstico → Mecanismo → Ação), nunca o roteiro inteiro de uma vez.
 - **(B) DECK por FASE ADMA** (Passo 6, sob demanda): por slide, o **arquétipo** + o **reforço visível** (1 frase OU 1 número OU 1 imagem-conceito) + a **copy falada na NOTA**. Entregue por fase, nunca o deck inteiro de uma vez.
 - **(C) PÁGINA bloco a bloco** (Passo 7, sob demanda): player + provas + bio na última dobra + FAQ + o argumento-carta de 7 passos abaixo do player, na ordem dos blocos. Entregue bloco a bloco, nunca a página inteira de uma vez.
-- O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. Cada peça/fase mostrada sai LIMPA (como no Claude Chat), sem tabela e sem meta, antes de seguir pra próxima.
+- O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. Cada peça/fase mostrada sai LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta, antes de seguir pra próxima.
 - Você **para e espera o OK** depois de cada fase/peça.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra peça que falhou no gate**.
 - **RE-GATE ao condensar:** o texto de TELA de cada slide e os blocos NOVOS de copy da página são condensações novas que o lead LÊ (não a fala original do roteiro). Elas re-passam pelo gate antes de exportar, do mesmo jeito que o roteiro passou.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A primeira linha da Atenção e a dor do Diagnóstico nascem delas, quase intactas.
@@ -47,14 +51,14 @@ Função: prende quem é avatar e expulsa quem não é, em 90 segundos.
 - **A.1 Promessa direta + filtragem (45-60s):** promessa quantificada em 1 frase + lista de 5+ perfis específicos do nicho. Abre amplo, nicha do meio pro fim.
 - **A.2 Prova social ancorada (30s):** aponta pra prova externa visível (depoimentos, prints), "pode pausar e olhar agora". Prova ANTES do problema antecipa autoridade.
 
-Roda o gate por dentro. Entrega SÓ a fase LIMPA (como no Claude Chat), sem tabela e sem meta. PARA e espera o OK.
+Roda o gate por dentro. Entrega SÓ a fase LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta. PARA e espera o OK.
 
 ## Passo 3, escreve a fase DIAGNÓSTICO (1:30-3:00) e PARA
 Função: amplifica a dor, tira a culpa do lead, nomeia o inimigo (que nunca é o próprio lead).
 - **I.1 Problema geral (45-60s):** dor óbvia do nicho em 2ª pessoa, 3-4 sintomas concretos, e "mesmo assim [resultado insuficiente]". Quanto mais específico o sintoma, mais o lead pensa "é isso".
 - **I.2 Problema avançado (30-45s, opcional):** só se o cliente tem problema avançado nomeado no Plano. "O problema não é [culpa aparente]. É que [soluções comuns] adicionaram complexidade." Nomeia o vilão, tira culpa, joga a raiva pra fora.
 
-Roda o gate por dentro. Entrega SÓ a fase LIMPA (como no Claude Chat), sem tabela e sem meta. PARA e espera o OK.
+Roda o gate por dentro. Entrega SÓ a fase LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta. PARA e espera o OK.
 
 ## Passo 4, escreve a fase MECANISMO (3:00-9:00), o coração, e PARA
 Função: instala a crença única, entrega o **mecanismo nomeado**, prova, faz querer. É 60% do vídeo. Sem o mecanismo nomeado no centro, não é Mini Webinar, é palestra.
@@ -65,14 +69,14 @@ Função: instala a crença única, entrega o **mecanismo nomeado**, prova, faz 
 - **D.5 Validação + métrica + insight (7:30-8:30):** ancora em categoria em alta + métrica de saúde concreta + 1 insight que filtra o lead inteligente.
 - **D.6 Amplitude dupla + oferta secundária opcional (8:30-9:00):** benefício pra quem já fatura + pra quem não fatura + (só se confirmado no Passo 1) a porta do implementador.
 
-Roda o gate por dentro. Entrega SÓ a fase LIMPA (como no Claude Chat), sem tabela e sem meta. PARA e espera o OK.
+Roda o gate por dentro. Entrega SÓ a fase LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta. PARA e espera o OK.
 
 ## Passo 5, escreve a fase AÇÃO (9:00-10:00) e PARA
 Função: move pro Comercial 1:1 sem empurrar venda. No degrau 1 a Ação é LEVE: convida pra conversa, não fecha no checkout (fechar no checkout é degrau 2/3).
 - **A.1 2 caminhos + prazo + garantia opcional (9:00-9:30):** caminho 1 sozinho (com pré-requisito honesto) · caminho 2 comigo (com ressalva humanizadora + prazo de implantação, não de resultado) · garantia em 1 frase se confirmada.
 - **A.2 CTA + fechamento afetivo (9:30-10:00):** ação CTA específica e de baixa fricção com **destino claro** (palavra no Direct OU link), "não é compra, é conversa", compromisso pessoal repetido, despedida curta.
 
-Roda o gate por dentro. Entrega SÓ a fase LIMPA (como no Claude Chat), sem tabela e sem meta. PARA e espera a escolha. Com o roteiro fechado, oferece o menu de continuação: **"Roteiro fechado. Quer que eu monte os SLIDES (Passo 6) e/ou a PÁGINA RICA (Passo 7)? Os dois são parte do mesmo mini-webinar."** Não despeja os dois sem pedido; cada um entra sob demanda, depois do roteiro aprovado.
+Roda o gate por dentro. Entrega SÓ a fase LIMPA (no DOC, nunca solto no chat), sem tabela e sem meta. PARA e espera a escolha. Com o roteiro fechado, oferece o menu de continuação: **"Roteiro fechado. Quer que eu monte os SLIDES (Passo 6) e/ou a PÁGINA RICA (Passo 7)? Os dois são parte do mesmo mini-webinar."** Não despeja os dois sem pedido; cada um entra sob demanda, depois do roteiro aprovado.
 
 ## Passo 6, MODO SLIDES (veste o roteiro de tela, sob demanda)
 Entra DEPOIS do roteiro fechado e aprovado, quando o cliente pede o deck. **Pré-requisito-lei:** o roteiro ADMA das 4 fases já está OK. Sem roteiro fechado, PARA e fecha o roteiro primeiro (não inventa fala de palco). **Lê `references/geracao-slides-miniwebinar.md` antes de montar o primeiro slide.**

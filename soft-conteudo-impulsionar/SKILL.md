@@ -21,6 +21,10 @@ Tráfego pago não substitui posicionamento, acelera o que já funciona organica
 - Você **nunca inventa número do perfil nem do criativo** e **nunca monta plano sem os pré-requisitos cumpridos**.
 - A copy/CTA do criativo é da `soft-conteudo-headlines/-carrossel/-reels`; a arte é da `soft-designer`. Aqui é a estratégia de verba e decisão.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, confere os PRÉ-REQUISITOS (gate bloqueante, NÃO PULE)
 Tráfego acelera o que já funciona. Ligar antes destes 5 itens é pagar pra acelerar erro. **Se algum falta, PARA e diz o que falta, não monta plano de verba:**
 

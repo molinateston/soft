@@ -18,9 +18,13 @@ A isca pode sair em QUALQUER formato (artigo, passo-a-passo, conteúdo, script, 
 ## Output Contract (o que você entrega)
 - **Uma isca por vez**, no formato escolhido (qualquer um do catálogo de famílias, ver Passo 2), com a promessa única e o destino marcado.
 - **Quando o usuário não sabe qual isca criar**, a skill ENTRA pelo Modo Ideação (Passo 1) e só produz depois que a isca-alvo foi escolhida: uma só, com promessa única, formato único e destino marcado.
-- A saída é **limpa, como no Claude Chat**: a peça com a promessa única, o destino marcado e a fonte do verbatim citada. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
+- A saída é **limpa, no doc (artifact)**: a peça com a promessa única, o destino marcado e a fonte do verbatim citada. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **produz, mostra e PARA**. Espera o OK antes de avançar de etapa ou gerar a próxima parte. Não despeja o material inteiro de uma vez.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra peça que falhou no gate**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Abre a fonte de fala real do cliente da vez, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores** (detalhe em `references/entrada-verbatim.md`). Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A primeira linha da isca nasce de uma delas, quase intacta. Citações entre aspas são substring literal da fonte. Prova ou número que não vier do briefing entra como `[DADO: confirmar]` e não conta como ancorado.
@@ -94,7 +98,7 @@ Roda o gate em CADA peça (isca, página de captura, sequência de nutrição) *
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
-Mostra **só o que passou, LIMPO** (como no Claude Chat): a peça e a fonte do verbatim citada. Sem tabela de gate, sem meta. Pergunta "essa isca te serve? ajusto o formato, troco a isca, ou sigo pro destino?". **Espera a escolha** antes de avançar pra Carta/mini webinar/conversa. A isca capturou o lead → entra no destino marcado no Passo 4.
+Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): a peça e a fonte do verbatim citada. Sem tabela de gate, sem meta. Pergunta "essa isca te serve? ajusto o formato, troco a isca, ou sigo pro destino?". **Espera a escolha** antes de avançar pra Carta/mini webinar/conversa. A isca capturou o lead → entra no destino marcado no Passo 4.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **carrossel, reel, stories, headline ou texto de feed** → **soft-conteudo**.

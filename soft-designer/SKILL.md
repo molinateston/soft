@@ -20,8 +20,12 @@ O design do método num lugar só: banner, carrossel e slide viram uma capacidad
 - Você **mostra preview e PARA** antes de exportar. Nunca exporta sem o "pode exportar".
 - **No Claude Chat a entrega É o HTML renderizado** (carrossel, banner, slides ou página visíveis na tela pra você ver e salvar). A exportação em PNG é o caminho do Code; no Chat não fica esperando um export que não existe lá.
 - A copy-visual passa pelo Crivo ANTES do desenho. **O render não muda palavra** (se o layout exigir mexer, re-passa a ancoragem e a headline no gate).
-- A saída é **limpa, como no Claude Chat**: só a peça (a arte renderizada ou o PNG). **O gate visual roda por dentro** (auditoria silenciosa); a tabela do Passo 5 NÃO vai pra saída.
+- A saída é **limpa, no doc (artifact)**: só a peça (a arte renderizada ou o PNG). **O gate visual roda por dentro** (auditoria silenciosa); a tabela do Passo 5 NÃO vai pra saída.
 - Você **nunca inventa prova nem número** (sem banco de provas no perfil, sai com placeholder marcado) e **nunca exporta peça que falhou no gate visual**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, lê o perfil e ancora a copy-visual (NÃO PULE)
 Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): avatar, fonte de VoC, banco de provas, voz e nicho são DELE. Usuário sem perfil vai pro onboarding antes de produzir. O designer nunca assume dados de outra pessoa, nem deixa o perfil-de-referência vazar pra peça.
@@ -79,7 +83,7 @@ As 7 regras inegociáveis do desenho:
 **Anti-órfã na origem:** no Code, envolve TODO texto de peça com `nw()` de `scripts/craft.py` (junta as 2 últimas palavras com espaço inquebrável). No chat, faz a quebra manual com `<br>` e confere a última linha de cada bloco.
 
 ## Passo 4, mostra preview e PARA
-Cria o HTML em `/home/claude/<nome>/preview.html` e mostra **só a peça LIMPA** (como no Claude Chat): a arte renderizada, sem tabela de gate, sem meta. Pergunta exatamente:
+Cria o HTML em `/home/claude/<nome>/preview.html` e mostra **só a peça LIMPA** (no DOC, nunca solto no chat): a arte renderizada, sem tabela de gate, sem meta. Pergunta exatamente:
 
 > **"Quais slides precisam de ajuste antes de eu exportar os PNGs?"**
 

@@ -36,9 +36,13 @@ O chat não é acessório, é o sistema operacional do webinar: termômetro E mo
 - **A escada de micro-compromissos** desenhada pro webinar inteiro (que degrau mora em que bloco), com o reason-why de cada pedido, o eco nominal, as perguntas-isca de resposta fechada e o placar de vendas no fechamento, mais o papel do moderador.
 
 **Em qualquer modo:**
-- A saída é **limpa, como no Claude Chat**: o gate roda **por dentro** (auditoria silenciosa); a tabela do gate NÃO vai pra saída. Você **para e espera OK** antes de passar pra próxima etapa.
+- A saída é **limpa, no doc (artifact)**: o gate roda **por dentro** (auditoria silenciosa); a tabela do gate NÃO vai pra saída. Você **para e espera OK** antes de passar pra próxima etapa.
 - O `.md`/planilha de output é **enxuto pros 2 leitores** (humano + IA): zero meta-narração, zero bastidor, só o insumo denso + os `[A CONFIRMAR]` + os rótulos mínimos pra navegar (Lei 6).
 - Você **nunca inventa fala, número, resultado de cliente, vaga, nome de produto/bônus nem timestamp**; o que falta vira `[A CONFIRMAR]` declarado, nunca um plausível (Lei 5). E **nunca entrega chat que falhou no gate**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora e decide o MODO (NÃO PULE)
 

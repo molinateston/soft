@@ -23,6 +23,10 @@ A página não convence. Ela organiza o argumento pra que o cliente certo chegue
 - Você **para e espera o OK** depois da arquitetura, depois do outline, e a cada bloco entregue. Não despeja a página inteira de uma vez.
 - Você **nunca inventa fala, número, nem depoimento do cliente** e **nunca mostra bloco que falhou no gate**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). O hero e a prova nascem de uma delas, quase intactas.
 
@@ -130,7 +134,7 @@ Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
-Mostra **só os blocos que passaram, LIMPO** (como no Claude Chat): só o bloco em si, sem tabela de gate, sem meta. Pergunta "esse bloco te serve? sigo pro próximo?". **Espera o OK** antes de escrever o próximo bloco. No fim, confere a congruência: a página inteira repete UMA promessa e aponta pra UM destino.
+Mostra **só os blocos que passaram, LIMPO** (no DOC, nunca solto no chat): só o bloco em si, sem tabela de gate, sem meta. Pergunta "esse bloco te serve? sigo pro próximo?". **Espera o OK** antes de escrever o próximo bloco. No fim, confere a congruência: a página inteira repete UMA promessa e aponta pra UM destino.
 
 ## When NOT to use (manda pra skill certa)
 Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ativo de DENTRO pode ser a irmã, agora que o escopo alargou:

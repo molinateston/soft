@@ -28,6 +28,10 @@ Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à
 
 **Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## A fonte e a lei
 - Guia: `guia/10-vendas-consultivas.md` (a mecânica). Fonte da verdade.
 - `guia/CODIGO-DE-ESCRITA.md`: pegada falada, **simples e honesto, nunca fácil e mágico**, sem travessão na copy.

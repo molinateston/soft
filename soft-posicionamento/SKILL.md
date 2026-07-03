@@ -42,6 +42,10 @@ Sem o Plano de pé, toda peça é ruído. Esta skill constrói o **Plano de Posi
 
 > **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do autor do método (que é só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (Plano na `soft-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do autor do método.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## O que esta skill protege: o FRAMEWORK e os princípios (o eixo é de CADA usuário)
 Esta é a maestro do posicionamento: todo Plano que sai daqui segue o framework e os princípios do método, e CONDUZ o usuário a cravar o eixo DELE. O eixo não é embutido nem herdado de ninguém, é construído com o usuário. Os princípios que valem pra todo Plano:
 - **Território do método:** alto resultado com baixa complexidade, o oposto da cultura do "adicione mais" (postar todo dia, lançar, prospectar, fazer tudo de uma vez).

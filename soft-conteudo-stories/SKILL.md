@@ -19,6 +19,10 @@ Carrossel e Reel atraem público novo. O Story trabalha quem já está dentro: a
 - Cada frame que afirma tese ou que tem CTA passa pelo gate, mas **o gate roda por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra frame que falhou no gate**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N. A primeira linha do arco (e a pergunta da Caixinha) nasce de uma delas, quase intacta.
 
@@ -101,7 +105,7 @@ Roda o gate em CADA frame que afirma tese ou tem CTA **internamente** (Alinhamen
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só os frames que passaram, LIMPO** (como no Claude Chat), em bloco (a rotina do dia, OU um dia da Sequência). Sem tabela de gate, sem meta. Pergunta "esse arco te serve? ajusto, sigo pro próximo dia, ou paro?". **Espera a aprovação** antes de gerar o próximo bloco ou a campanha inteira. Não despeja os 5 dias de uma vez.
+Mostra **só os frames que passaram, LIMPO** (no DOC, nunca solto no chat), em bloco (a rotina do dia, OU um dia da Sequência). Sem tabela de gate, sem meta. Pergunta "esse arco te serve? ajusto, sigo pro próximo dia, ou paro?". **Espera a aprovação** antes de gerar o próximo bloco ou a campanha inteira. Não despeja os 5 dias de uma vez.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **HEADLINE/gancho/capa/abertura** isolada → **soft-conteudo-headlines** (faz a headline primeiro, o arco parte dela).

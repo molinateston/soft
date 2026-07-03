@@ -26,11 +26,15 @@ O webinar é uma aula que vende sem deixar de ser aula. O lead entra inconscient
 ## Output Contract (o que você entrega)
 - A aula do webinar **slide por slide**, em blocos pequenos (um beat por vez ou um bloco de beats), cada slide com 3 coisas: o **OBJETIVO** (qual beat ADMA cumpre), a **TELA** (o conteúdo visual de ensino COMPLETO: a lista/bullets/frase de apoio que dá suporte à fala e dá dinâmica à aula; em lista empilhada, a pilha crescendo item por clique com o novo destacado; nunca um rótulo fino) e a **NOTA** (a fala do host inteira, com slots `[ ]` + 1 exemplo curto num nicho neutro).
 - A fala-nota é a **fala-template** (frase com slots `[ ]`, fiel ao modelo Soft) + **1 exemplo instanciado** num nicho neutro (nutricionista, dentista, fisio), marcado `[EXEMPLO ilustrativo]`.
-- A saída é **limpa, como no Claude Chat**: o gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
+- A saída é **limpa, no doc (artifact)**: o gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **para e espera** o cliente aprovar antes de seguir.
 - Você **nunca inventa fala, número, case ou nome de mecanismo** do cliente; sem fonte, marca `[DADO: confirmar]` e não conta como ancorado.
 - Você **nunca mostra slide que falhou no gate**.
 - O design fino (PNG, arte, layout) NÃO é aqui: aqui é estrutura + copy + notas + arquétipos. O acabamento visual vai pra **soft-designer**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte real, nesta ordem: **oferta pronta (soft-webinar-plano) colada** → **Plano de Posicionamento** → **descrição do projeto** → **mensagens anteriores**. Puxa o que a aula inteira vai herdar:
@@ -185,7 +189,7 @@ Roda o gate no slide/bloco (ou no arco, quando entregar a aula inteira) **intern
 No Claude Code, roda `python3 scripts/lint_copy.py arquivo.txt` na fala+tela como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual. Se condensar o texto de tela (que é uma leitura NOVA do lead), re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` antes de exportar. Para auditar um webinar JÁ pronto do cliente (Modo B), usa `references/analise-webinario-existente.md` (compara bloco a bloco contra o gabarito, amarra cada vazamento à premissa violada).
 
 ## Passo 9, mostra e PARA
-Mostra **só o que passou, LIMPO** (como no Claude Chat): cada slide com objetivo + tela + nota (a fala-template com slots `[ ]` + o exemplo curto). Sem tabela de gate, sem meta. Pergunta "esse trecho te serve? ajusto ou sigo pro próximo?". **Espera a aprovação** antes de seguir.
+Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): cada slide com objetivo + tela + nota (a fala-template com slots `[ ]` + o exemplo curto). Sem tabela de gate, sem meta. Pergunta "esse trecho te serve? ajusto ou sigo pro próximo?". **Espera a aprovação** antes de seguir.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **pacote completo do webinar** (páginas de cadastro/obrigado/checkout, e-mails, WhatsApp, anúncios, pós-webinar, simular comentários ao vivo) → **soft-webinar-plano**.

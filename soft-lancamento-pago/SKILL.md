@@ -27,6 +27,10 @@ Para cliente Soft, o Soft Launch é **injeção pontual** sobre o sistema, nunca
 - **Modo D**: diagnóstico em 1 linha + ação imediata. Sem aula.
 - Você **nunca inventa fala nem número do cliente** e **nunca entrega peça que falhou no GATE**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, sempre: lê o perfil do usuário (NÃO PULE)
 Lê `shared-references/crivo/00-perfil-do-usuario.md`. Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do autor do método (que é só perfil de exemplo). Usuário sem perfil (cold start) vai pro onboarding (Plano na `soft-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir.
 

@@ -15,10 +15,14 @@ A decisão de ficar ou pular acontece em menos de 2 segundos. A abertura é 90% 
 
 ## Output Contract (o que você entrega)
 - Por padrão, **escolhe os templates que encaixam no assunto** (de `references/templates.md`) e escreve **2-3 headlines DENTRO de cada template**, agrupadas por template. É assim que se ensina headline: a mesma ideia rendida por várias fórmulas testadas. Nunca uma lista solta de 10 genéricas.
-- A saída é **limpa, como no Claude Chat**: cada grupo traz **o template nomeado + os gatilhos que ele aciona** no topo, e as 2-3 headlines embaixo. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
+- A saída é **limpa, no doc (artifact)**: cada grupo traz **o template nomeado + os gatilhos que ele aciona** no topo, e as 2-3 headlines embaixo. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - Você **para e espera** o cliente escolher/ajustar antes de gerar mais ou passar pro corpo.
 - Volume grande (banco de 50/100/200/300) só sob o comando explícito "banco de [tema]".
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra headline que falhou no gate**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A primeira linha de cada headline nasce de uma delas, quase intacta.
@@ -109,7 +113,7 @@ Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headli
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só as que passaram, agrupadas por template, LIMPO** (como no Claude Chat): cada grupo com o **template nomeado + os gatilhos** no topo e as 2-3 headlines embaixo. Sem tabela de gate, sem meta. Pergunta "quais te servem? ajusto, troco de template, ou gero mais?". **Espera a escolha** antes de gerar volume ou passar pro corpo (soft-conteudo-carrossel / -reels / -stories).
+Mostra **só as que passaram, agrupadas por template, LIMPO** (no DOC, nunca solto no chat): cada grupo com o **template nomeado + os gatilhos** no topo e as 2-3 headlines embaixo. Sem tabela de gate, sem meta. Pergunta "quais te servem? ajusto, troco de template, ou gero mais?". **Espera a escolha** antes de gerar volume ou passar pro corpo (soft-conteudo-carrossel / -reels / -stories).
 
 ## COMO ENTREGAR (o banco de headlines vira doc MD)
 O resultado (as headlines agrupadas por template) é o entregável, e o cliente quer GUARDAR ele. Entrega como **documento markdown**: no **claude.ai** como um **artifact de markdown** (o banco que ele abre, copia e reusa), no **Claude Code** como arquivo `.md`. A condução (perguntas, escolha de template, o gate por dentro) acontece no chat; o **banco de headlines sai como doc**, agrupado por template, não só solto no meio da conversa. Volume (banco de 50/100/200/300) é SEMPRE doc.

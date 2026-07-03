@@ -20,6 +20,10 @@ Adaptar não é traduzir tom. É engenharia reversa. Você pega uma peça Soft q
 - Você **para e espera** o OK antes de adaptar pra um segundo destino ou gerar variação.
 - Você **nunca inventa fala nem número do cliente** e **nunca dilui a tese pra caber no formato**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, ancora antes de adaptar (NÃO PULE)
 O fluxo assume que a peça-âncora já passou pelo gate dela. Confirma duas coisas antes de mexer:
 - **A headline/abertura já está escolhida?** Se a âncora ainda não tem headline aprovada, manda fazer na **soft-conteudo-headlines** primeiro e para. Você adapta a partir de uma peça pronta, não cria do zero.
@@ -100,7 +104,7 @@ Roda o gate na versão adaptada **internamente** (auditoria silenciosa). Só ver
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
-Mostra **só a versão que passou, LIMPO** (como no Claude Chat): a peça adaptada no formato e idioma nativos do destino. Sem tabela de gate, sem meta. Pergunta "essa serve? ajusto, ou adapto pra outra plataforma?". **Espera o OK** antes de adaptar pro próximo destino ou gerar variação. Uma plataforma por vez, nunca despeja todas de uma vez.
+Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peça adaptada no formato e idioma nativos do destino. Sem tabela de gate, sem meta. Pergunta "essa serve? ajusto, ou adapto pra outra plataforma?". **Espera o OK** antes de adaptar pro próximo destino ou gerar variação. Uma plataforma por vez, nunca despeja todas de uma vez.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu a **HEADLINE/gancho/capa/abertura** do zero → **soft-conteudo-headlines**.

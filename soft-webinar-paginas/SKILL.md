@@ -30,12 +30,16 @@ Se não faz nenhuma das três, descarta. Enfeite que não protege nem mede é fr
 Quando o cadastro tenta vender, falha nas duas. Quando o checkout precisa convencer do zero, é a aula que não fez o trabalho.
 
 ## Output Contract (o que você entrega)
-- **Uma página por vez** (Cadastro → Obrigado → Checkout), na ordem. A saída é **limpa, como no Claude Chat**: só a página, o texto bloco a bloco pronto pra colar na ferramenta. Nada de briefing genérico.
+- **Uma página por vez** (Cadastro → Obrigado → Checkout), na ordem. A saída é **limpa, no doc (artifact)**: só a página, o texto bloco a bloco pronto pra colar na ferramenta. Nada de briefing genérico.
 - **Doc enxuto pros 2 leitores (Lei 6):** o que sai serve o humano que cola E a IA que recebe a página como contexto. Só os blocos da página + os `[A CONFIRMAR]` + os rótulos mínimos pra navegar. Zero meta-narração ("isto é o bloco que faz X"), zero bastidor, zero explicação-do-método-pro-leitor.
 - O gate roda **por dentro** (auditoria silenciosa); a tabela do gate NUNCA vai pra saída.
 - Você **para e espera OK** depois de cada página antes de seguir pra próxima. Não despeja as 3 de uma vez.
 - Você **nunca inventa fala, número, prova ou case do cliente** (Lei 5); sem fonte, marca `[A CONFIRMAR]` no lugar exato do furo e não conta como ancorado. Insumo que falta é pendência declarada, jamais buraco preenchido com algo plausível.
 - Você **nunca mostra página que falhou no gate**.
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala/prova real, nesta ordem: **descrição do projeto** → **Plano/posicionamento colado** → **mensagens anteriores**. Puxa do tema: a **oferta** (stack + garantia + preço), a **promessa central + mecanismo nomeado**, **3-5 falas de DOR/DESEJO** literais (com o N de quantas vezes apareceram) e a **prova real** (resultado, case, número confirmado). Pra ancorar no verbatim sem inventar, lê `shared-references/crivo/01-entrada-verbatim.md` e aplica a régua de fonte.
@@ -252,7 +256,7 @@ Tudo acima é o caminho padrão (form + 3 páginas). A variante crua manda o lea
 **Quando NÃO usar a variante crua:** **volume alto com ticket baixo**. Conversa humana não escala num produto de R$300, aí o checkout direto é mais barato e mais rápido. Formulário e `wa.me`-direto não são rivais, são o mesmo funil em dois níveis: o form escala o low/mid-ticket, o `wa.me` pega o lead quente que precisa de mão humana. **Lê a seção "Variante crua" da reference e aplica os exemplos (incluindo o redirecionamento dos indecisos pro WhatsApp na sala secreta).**
 
 ## Passo 8, mostra e PARA
-Mostra **só a página LIMPA** (como no Claude Chat), o texto bloco a bloco pronto pra colar. Sem tabela de gate, sem meta, sem narrar o fluxo. Pergunta "essa te serve? ajusto, ou sigo pra próxima página?" e **espera o OK** antes de gerar a próxima.
+Mostra **só a página LIMPA** (no DOC, nunca solto no chat), o texto bloco a bloco pronto pra colar. Sem tabela de gate, sem meta, sem narrar o fluxo. Pergunta "essa te serve? ajusto, ou sigo pra próxima página?" e **espera o OK** antes de gerar a próxima.
 
 ## Números de referência de uma máquina bem montada
 | Etapa | Faixa saudável |

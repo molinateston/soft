@@ -17,6 +17,10 @@ O deck não é o conteúdo. É o amplificador visual de um roteiro que já funci
 - Você **nunca reescreve o roteiro nem reordena os blocos**, só veste de tela. Se o texto de tela condensa a fala, re-passa pelo gate antes de exportar.
 - Você **nunca inventa número, prova, bônus ou preço** e **nunca exporta deck cuja fase falhou no gate**.
 
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
 ## Passo 0, exige o roteiro pronto (NÃO PULE)
 O deck nasce do script, nunca do zero. Procura o roteiro ADMA, nesta ordem: **roteiro colado na conversa** → **descrição do projeto** → **mensagens anteriores**. Três estados de entrada (declara qual é o seu):
 - **Tem roteiro ADMA completo:** caminho ideal. Projeta direto.
