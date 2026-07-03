@@ -32,7 +32,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa likes (sinalético, não primário) | 4% | 10% | 2% | Insights da peça |
 | Comentários significativos (sem emoji solto) | 0,5% | 2% | 0,2% | Contagem manual |
 
-**Sinal de vazamento aqui = peça não tem ponta filtrante.** Cliente lê, acha bonitinho, mas não sente urgência de salvar pra revisitar nem de compartilhar pra alguém que precisa. Conserta o ângulo (reference as embalagens de carrossel da skill `soft-conteudo`) ou o desfecho da peça.
+**Sinal de vazamento aqui = peça não tem ponta filtrante.** Cliente lê, acha bonitinho, mas não sente urgência de salvar pra revisitar nem de compartilhar pra alguém que precisa. Conserta o ângulo (reference as embalagens de carrossel da skill `soft-conteudo-headlines`) ou o desfecho da peça.
 
 ### Etapa 3, Engajamento qualificado → Clique na bio/Carta
 

@@ -1,7 +1,7 @@
 # BLOCO 5, FUNDAÇÃO DESTILADA DE HEADLINES
 
 > Saída automática derivada do Plano de Posicionamento (Blocos 1-4).
-> Alimenta a skill `soft-conteudo`.
+> Alimenta a skill `soft-conteudo-headlines`.
 > Gerada SEM perguntar nada novo ao especialista, destila o que já está no plano.
 > Se algum item não puder ser destilado com confiança, marca como `[A PREENCHER COM SKILL DE HEADLINES]`.
 
@@ -11,7 +11,7 @@
 
 Headlines não nascem do nada. Nascem de uma fundação empacada que o especialista defende **falando**, não escrevendo. O Plano de Posicionamento responde "quem é, o que faz, pra quem". A Fundação destilada de Headlines responde **"qual frase falada o especialista cravaria sentado na frente do cliente"**.
 
-A skill `soft-conteudo` precisa desses 5 itens empacados antes de gerar 1 headline. Sem eles, cai em palavra-container ("modelo", "sistema") sem imagem, ou em headline jornalística que trata o inimigo como opção.
+A skill `soft-conteudo-headlines` precisa desses 5 itens empacados antes de gerar 1 headline. Sem eles, cai em palavra-container ("modelo", "sistema") sem imagem, ou em headline jornalística que trata o inimigo como opção.
 
 Esse bloco é a **destilação automática** do Plano em fundação acionável.
 
@@ -162,7 +162,7 @@ A skill apresenta o Bloco 5 EXATAMENTE no formato abaixo, ao final do artifact (
 
 ## BLOCO 5, FUNDAÇÃO DESTILADA DE HEADLINES
 
-> Saída automática derivada dos Blocos 1-4. Alimenta a skill `soft-conteudo`.
+> Saída automática derivada dos Blocos 1-4. Alimenta a skill `soft-conteudo-headlines`.
 > Cola esse bloco no projeto Claude do cliente.
 
 ### Tese central
@@ -204,4 +204,4 @@ Ao gerar BLOCO 5, a skill DEVE:
 **Princípios:**
 - Não pergunta o que pode destilar (autonomia)
 - Não destila o que precisa de validação humana (controle), marca como `[A PREENCHER]`
-- A skill `soft-conteudo` completa via 4 perguntas padronizadas quando é invocada e detecta itens em aberto
+- A skill `soft-conteudo-headlines` completa via 4 perguntas padronizadas quando é invocada e detecta itens em aberto

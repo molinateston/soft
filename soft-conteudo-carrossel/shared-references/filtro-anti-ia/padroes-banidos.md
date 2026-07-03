@@ -320,10 +320,10 @@ Não pula. Esse é o filtro final.
 
 ## Automação em código (o gate roda, não fica só no olho)
 
-O passo 2 ("CTRL+F cada padrão") agora tem um linter executável na `soft-conteudo`: **`scripts/lint_copy.py`**. Roda igual em toda execução, não depende do agente lembrar.
+O passo 2 ("CTRL+F cada padrão") agora tem um linter executável que toda skill de peça carrega na própria pasta: **`scripts/lint_copy.py`**. Roda igual em toda execução, não depende do agente lembrar.
 
 ```bash
-python3 soft-conteudo/scripts/lint_copy.py peca.txt    # ou:  echo "texto" | python3 .../lint_copy.py -
+python3 scripts/lint_copy.py peca.txt    # na pasta da skill; ou:  echo "texto" | python3 scripts/lint_copy.py -
 ```
 
 - **HARD (reprova, exit 1):** em-dash "—" e a família **"travar"** - os dois de zero-tolerância. Achou, não entrega.

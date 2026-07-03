@@ -45,6 +45,7 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 - `soft-treino-dieta`
 - `soft-contratos-consultoria`
 - `soft-apostila`
+- `soft-mentoria`
 - `soft-lancamento-pago`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

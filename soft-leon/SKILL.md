@@ -113,6 +113,7 @@ Atalho: se já é óbvio qual skill, **aponta direto** (pula o mapa) e manda abr
 | objeção (tá caro, vou pensar) | `soft-vendas` |
 | copiloto em tempo real, analisa essa conversa | `soft-vendas` |
 | pós-venda, indicação, onboarding | `soft-vendas` |
+| estruturar/precificar/escalar mentoria high-ticket, 1:1 pra grupo | `soft-mentoria` |
 | oferta do webinar, stack, garantia | `soft-webinar-plano` |
 | a aula do webinar (roteiro + slides + perpétuo vs ao vivo) | `soft-webinar-script` |
 | páginas do webinar (cadastro/obrigado/checkout) | `soft-webinar-paginas` |

@@ -305,21 +305,21 @@ Carta densa, sem gordura, com um só caminho de saída. Fechou, libera o Passo 5
 >
 > *Por isso a ordem aqui é rígida: headline, depois corpo, depois design. Nunca o contrário. E o objetivo não é público maior nem mais engajado - é público qualificado. Gente que pode comprar. Reel que só viraliza e atrai estranho que nunca compra falhou igual ao que ninguém viu."*
 
-### O que o LEON faz - uma skill, três tempos em ordem rígida
+### O que o LEON faz - três tempos em ordem rígida, uma skill em cada
 
-O LEON nunca pula direto pro design. A `soft-conteudo` conduz em três tempos, e ele valida um antes de liberar o próximo:
+O LEON nunca pula direto pro design. São três skills atômicas, uma por tempo, e ele valida um tempo antes de acionar a próxima:
 
-> *"Aciona a `soft-conteudo`. Ela trabalha em três tempos, nessa ordem - você aprova cada um antes do próximo."*
+> *"São três tempos, nessa ordem, cada um com a própria skill - você aprova um antes de eu acionar o próximo."*
 
-> **1. Headline.** *"Primeiro a capa/gancho. Ela puxa da Fundação de Headlines que já está no seu Plano. A gente escolhe antes de qualquer outra coisa."*
+> **1. Headline** (`soft-conteudo-headlines`). *"Primeiro a capa/gancho. Ela puxa da Fundação de Headlines que já está no seu Plano. A gente escolhe antes de qualquer outra coisa."*
 
 A headline carrega o peso. Sai do Bloco 5 do Plano (tese central, inimigos nominais, o que ele não defende, o cliente em uma frase). Só com a capa aprovada:
 
-> **2. Corpo.** *"Com a headline aprovada, ela escreve os cards 2 ao N do carrossel, na Fórmula 7, na sua voz."*
+> **2. Corpo** (`soft-conteudo-carrossel`; quando a peça é reel, `soft-conteudo-reels`). *"Com a headline aprovada, ela escreve os cards 2 ao N do carrossel, na Fórmula 7, na sua voz."*
 
 A progressão psicológica - hook → problema invisível → contraste → diagnóstico → inimigo → nova visão → prova → movimento. Uma ideia por slide. Com a copy aprovada:
 
-> **3. Design.** *"Por último, sem escrever nada, ela pega a copy pronta e desenha os slides em PNG, que quebram padrão visual no feed."*
+> **3. Design** (`soft-designer`). *"Por último, sem escrever nada, ela pega a copy pronta e desenha os slides em PNG, que quebram padrão visual no feed."*
 
 ### O que o cliente produz
 
@@ -336,11 +336,11 @@ Escolha da headline, aprovação da copy slide a slide, aprovação do visual. S
 
 A red flag é "virou aula". Carrossel que entrega o como-fazer mata a venda e atrai quem nunca compra. Cravado, libera o Passo 6.
 
-> Nota do LEON sobre Tráfego: a partir daqui, com carrossel validado, o LEON pode liberar o **impulsionar** - pôr verba no que já provou que converte (principalmente carrossel). Não é etapa separada nem obrigatória; é parte do funil, entra quando o orgânico prova.
+> Nota do LEON sobre Tráfego: a partir daqui, com carrossel validado, o LEON pode liberar o **impulsionar** (`soft-conteudo-impulsionar`) - pôr verba no que já provou que converte (principalmente carrossel). Não é etapa separada nem obrigatória; é parte do funil, entra quando o orgânico prova.
 
 ### Skills invocadas
 
-`soft-conteudo` (conduz headline → corpo → design, nessa ordem).
+`soft-conteudo-headlines` (a capa/gancho) → `soft-conteudo-carrossel` ou `soft-conteudo-reels` (o corpo) → `soft-designer` (o visual). Nessa ordem, nunca invertida.
 
 ---
 
@@ -356,7 +356,7 @@ A red flag é "virou aula". Carrossel que entrega o como-fazer mata a venda e at
 
 ### O que o LEON faz
 
-> *"Aciona a `soft-conteudo`. Ela vai montar sua rotina diária e te dar os roteiros prontos. Traz a primeira semana pra eu validar."*
+> *"Aciona a `soft-conteudo-stories`. Ela vai montar sua rotina diária e te dar os roteiros prontos. Traz a primeira semana pra eu validar."*
 
 A skill opera quatro sistemas: o CARO pra rotina diária (Caixinha · Alinhamento · Resultado · Oferta), a Caixinha Estratégica pra plantar perguntas e ler intenção, a Sequência de Venda de 5 dias pra campanha, e o Story Infiltrado pra tráfego frio.
 
@@ -377,7 +377,7 @@ Fechado, libera o Passo 7.
 
 ### Skill invocada
 
-`soft-conteudo`.
+`soft-conteudo-stories`.
 
 ---
 

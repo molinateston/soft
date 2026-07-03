@@ -5,7 +5,7 @@
 ## Onde o banner entra
 
 - **Tráfego pago (ingresso de webinar, isca, oferta):** o briefing vem da `soft-lancamento-pago` (a tese, o público, o destino do clique). A copy-visual é escrita aqui.
-- **Orgânico (capa de post único, anúncio de evento):** o briefing vem da `soft-conteudo` ou do usuário direto.
+- **Orgânico (capa de post único, anúncio de evento):** o briefing vem da skill `soft-conteudo-*` do formato da peça ou do usuário direto.
 
 ## A anatomia (3 elementos, nada mais)
 

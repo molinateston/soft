@@ -22,7 +22,7 @@ FASE 1 - POSICIONAMENTO + VOZ
 └── soft-posicionamento (quem ele é, pra quem fala e como fala)
 
 FASE 2 - CONTEÚDO (atração)
-└── soft-conteudo
+└── soft-conteudo-headlines · soft-conteudo-carrossel · soft-conteudo-reels · soft-conteudo-stories (+ multiplataforma · impulsionar)
 
 FASE 3 - FUNIL (aquece e qualifica o lead)
 └── soft-funil-carta · soft-funil-miniwebinar · soft-funil-landing · soft-funil-isca
@@ -148,7 +148,7 @@ Esse documento, junto com a skill `soft-posicionamento-[nome-cliente]` (Fase 1),
 
 - **soft-posicionamento (Fase 1)**: pré-requisito. Carrega persona-âncora E voz (os 5 elementos de voz saem daqui). Sem isso, rotina não tem destino nem produção calibrada.
 - **soft-posicionamento-[cliente]**: a skill gerada do cliente; após a Rotina (Fase 5), atualizar os pilares de conteúdo dela com o ritmo definido aqui.
-- **soft-conteudo, soft-funil-* (carta/miniwebinar/landing/isca), soft-vendas (Fases 2-4)**: skills executivas que operam DENTRO da rotina definida aqui.
+- **soft-conteudo-* (headlines/carrossel/reels/stories/multiplataforma/impulsionar), soft-funil-* (carta/miniwebinar/landing/isca), soft-vendas (Fases 2-4)**: skills executivas que operam DENTRO da rotina definida aqui.
 - **filtro-anti-ia + filtro-mobile-first** (shared-references), aplicáveis em qualquer peça produzida dentro da rotina.
 
 ---

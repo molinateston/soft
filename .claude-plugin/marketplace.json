@@ -41,6 +41,7 @@
         "./soft-treino-dieta",
         "./soft-contratos-consultoria",
         "./soft-apostila",
+        "./soft-mentoria",
         "./soft-lancamento-pago"
       ]
     }

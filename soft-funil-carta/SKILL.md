@@ -202,7 +202,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 - Pediu **landing page completa / sales page** (hero ao botão, 4 arquiteturas, blocos de copy) → **soft-funil-landing**.
 - Pediu **mini-webinar do funil** (vídeo de ~10min em blocos) → **soft-funil-miniwebinar**.
 - Pediu **isca / lead magnet / artigo-isca / captura** → **soft-funil-isca**.
-- Pediu **webinar perpétuo ou ao vivo** → **soft-webinar-plano**.
+- Pediu **webinar perpétuo ou ao vivo** → **soft-webinar-plano** (porta de entrada do pacote; o roteiro é **soft-webinar-script**).
 - Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
 - Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas**.

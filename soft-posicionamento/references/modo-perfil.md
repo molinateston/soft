@@ -187,6 +187,22 @@ Sem aditivos. Sem retrabalho. Sem stress.
 ⤵️ Auditoria de obra
 ```
 
+#### A fórmula da bio em 4 partes (texto único e fluido, ~150 chars, sem emoji)
+
+Alternativa às estruturas A/B/C acima: em vez de 4 linhas quebradas com CTA, um **texto único e fluido**, sem blocos separados por emoji. Passa mais credibilidade e ressoa melhor com o público qualificado. As 4 partes, nesta ordem (a de resultado e a de método podem inverter):
+1. **Defina-se** (profissão / título / apelido do nicho)
+2. **O que você faz** (o problema que resolve / o benefício)
+3. **Resultado / prova social** (o impacto que valida)
+4. **Método / diferencial** (gera desejo ou curiosidade, sem detalhe técnico)
+
+Exemplos-molde (a forma, não a copy a copiar, o cliente preenche na própria voz e com número real):
+- **Consultor financeiro:** *"Estrategista de riqueza · multiplica o patrimônio de empreendedores · +50 milhões geridos com estratégias seguras · sem risco e sem dor de cabeça."*
+- **Personal:** *"Criador do método Rebuilding · ajuda mães a recuperar a forma pós-parto sem dietas restritivas ou treinos intensos · +150 mulheres transformadas."*
+- **Terapeuta:** *"Criadora do programa Calma Mente · ajuda profissionais a superar ansiedade e estresse crônico com técnicas naturais · +200 vidas equilibradas no programa de 8 semanas."*
+- **Arquiteto de automações:** *"Escala negócios e sistemas de forma simples · +20 milhões em vendas · sem equipe grande e sem complicação."*
+
+Objetivo emocional: quem chega deve sentir "é pra mim, acho que vou ficar". O "sem" continua obrigatório (é o que filtra); aqui ele mora dentro do método/diferencial em vez de numa linha própria.
+
 ---
 
 ### 3.3. Destaques, A Carta Visual do Perfil

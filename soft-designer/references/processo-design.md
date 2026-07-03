@@ -13,7 +13,7 @@ Designer dos carrosséis do método Soft Business. **Escreve a copy-visual de ca
 
 A estrutura do Carrossel não mora aqui. Na primeira invocação da sessão, leia:
 
-- A **Fórmula 7** (os 7 movimentos: Hook · Quebra de Crença · Diagnóstico · Vilão · Nova Oportunidade · Mecanismo · Convite) e a regra de **7 a 10 slides** vêm da tese que chega da skill de conteúdo, ou de `soft-conteudo` (Cap 6 do guia). **É a fonte da estrutura**, pra estruturar e reconhecer a função de cada card.
+- A **Fórmula 7** (os 7 movimentos: Hook · Quebra de Crença · Diagnóstico · Vilão · Nova Oportunidade · Mecanismo · Convite) e a regra de **7 a 10 slides** vêm da tese que chega da skill de conteúdo, ou de `soft-conteudo-carrossel` (Cap 6 do guia). **É a fonte da estrutura**, pra estruturar e reconhecer a função de cada card.
 
 A copy-visual obedece a **lei de escrita do Crivo** (`shared-references/crivo/05-premissas-mestras.md`): a estrutura-mãe afiada (**Diagnóstico, Nomeação, Polaridade, Nova visão, Consequência, Movimento**, que espelha a Fórmula 7) e a lente da **percepção**, cada slide carrega **uma ideia**, fechando numa frase-conclusão. Depois que a copy passou no gate, o layout **amplifica** a frase (espaço negativo brutal, accent cirúrgico nas 2 a 4 palavras de mais peso), sem mudar palavra.
 

@@ -77,7 +77,7 @@ Vazamento na Etapa 1 (alcance) afeta TODAS as etapas seguintes. Se você atacar 
 |---|---|---|
 | **#1 Peças publicadas** | Cadência. Cliente não tá publicando o volume. | Calendário fixo + IA Vertical pra apoio |
 | **#2 Alcance qualificado** | Gancho fraco. Capa/primeiros 3s não filtram. | Hook bank + reformulação dos próximos 5 ganchos |
-| **#3 Engajamento qualificado %** | Peça não filtra, agrada mas não polariza. | Embalagem (skill `soft-conteudo`) + ângulo mais cirúrgico |
+| **#3 Engajamento qualificado %** | Peça não filtra, agrada mas não polariza. | Embalagem (skill `soft-conteudo-headlines`) + ângulo mais cirúrgico |
 | **#4 Cliques na Carta** | Bio fraca ou CTA inexistente. | Auditoria do perfil enxuto + CTA explícito em peças |
 | **#5 DMs qualificados** | Carta longa, genérica ou sem ponta filtrante. | Reescrita Carta (skill `soft-funil-carta`) |
 | **#6 Conversas WhatsApp** | Primeira mensagem fria ou demora resposta. | Script de primeira mensagem (skill `soft-vendas`) |

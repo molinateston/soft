@@ -13,7 +13,7 @@ Adaptado da doutrina clássica de mentalidade de venda (os princípios de "merec
 - A regra de ouro
 - Os 3 ativos do pós-venda
 - Ativo 1, Indicação
-- Ativo 2, Testemunho
+- Ativo 2, Testemunho (inclui a Caixa, testemunho por design)
 - Ativo 3, Expansão
 - Cadência de manutenção de relacionamento (sem virar gerente de conta)
 - Métricas do pós-venda
@@ -199,6 +199,18 @@ Tradução Soft: testemunho não é "depoimento bonitinho pra colocar no perfil"
 3. **Recomendação:** *"O que você diria pra alguém que tá hoje onde você tava antes?"*
 
 **Por que essas 3:** estrutura "antes → depois → recomendação" cria narrativa de transformação que outros leads consomem identificando-se com o "antes".
+
+### A Caixa, testemunho manufaturado por design (troca ganha-ganha)
+
+Bom depoimento não é sorte, é **provocado**. A mecânica da Caixa: você **libera um bônus/conteúdo extra em troca do depoimento**. É um "suborno legalizado" ganha-ganha, você dá valor a mais e recebe a prova.
+
+- **Enquadramento pro cliente:** *"Se você gostou do que aprendeu, me deixa um depoimento da sua experiência que eu te libero um pouco mais de conteúdo."* O bônus só desbloqueia depois do depoimento.
+- **Os passos que você pede** (nesta ordem): (1) deixe o depoimento da experiência; (2) de preferência **compartilhe vitórias, mesmo pequenas**; (3) **inclua prints** se tiver; (4) depois, apresente-se na comunidade/grupo.
+- **A régua que faz caprichar:** deixa fixado que **"depoimento de baixo valor não será aceito"**. É o que faz as pessoas digitarem melhor, em vez de mandar um "gostei" seco.
+- **Separa os dois tipos de prova:** o **depoimento de experiência** (como foi a experiência, disponível na hora, o que você coleta com a Caixa) é diferente do **case de resultado** (o resultado gerado, que vem depois, em 15-90 dias, quando a pessoa executou e faturou). A Caixa industrializa o primeiro; o segundo você colhe no marco de resultado (ver Ativo 1, gatilho de indicação).
+- **A conta que justifica:** **2 consultorias/entregas = 6 provas**. Cada uma rende (1) o print da venda no ato, (2) o registro durante a entrega, (3) o depoimento de experiência ao final. E, se a pessoa executar, vira a quarta prova (o case) mais tarde. Duas entregas viram um banco de prova sem custo extra.
+
+**Ajuste Soft:** a Caixa não compra elogio falso, troca conteúdo real por um relato real. O depoimento é da experiência que a pessoa **de fato teve**; se o programa não entregou, a Caixa não salva (e nem deve). É coleta por design de prova verdadeira, não fabricação de prova mentirosa.
 
 ### Onde testemunho entra na venda
 

@@ -860,7 +860,7 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 
 - **No perpétuo**, a gravação é única, não dá pra ajustar sem re-rodar. Por isso o workflow recomenda **validar ao vivo primeiro** (mecânica do perpétuo na soft-webinar-plano).
 - **No ao vivo**, há flex no Q&A (perguntas reais) e dá pra ler nomes do chat em voz alta. As 5 plantadas continuam servindo de esqueleto. Comentários reais bons podem ser "eternizados" pra entrar nas sessões perpétuas.
-- **Slides** seguem padrão Soft Business, fundo branco ou preto absoluto, tipografia editorial, sem ícones coloridos. Dinâmica visual segura a atenção (slides aparecendo aos poucos, quebra de padrão, vir pertinho do vídeo, mudar o tom de voz nos pontos-chave). Use a skill `soft-conteudo` pro padrão visual cravado.
+- **Slides** seguem padrão Soft Business, fundo branco ou preto absoluto, tipografia editorial, sem ícones coloridos. Dinâmica visual segura a atenção (slides aparecendo aos poucos, quebra de padrão, vir pertinho do vídeo, mudar o tom de voz nos pontos-chave). Use a skill `soft-designer` pro padrão visual cravado.
 - **Mantém ritmo.** Cada bloco tem um beat. Não desacelere nos blocos longos do Mecanismo; não corra nos curtos. E nunca corra no fechamento, ele é metade do webinar.
 
 ---

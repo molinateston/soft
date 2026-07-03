@@ -120,6 +120,13 @@ O calibre:
 - **Cada nível justifica a própria existência.** A porta filtra. O nível de baixo atende quem não comporta o núcleo - *com triagem*, pra não virar "fórmula igual pra todos" (que é o inimigo que o método ataca) nem deixar o especialista **refém de agenda**.
 - **Cuidado com o nível que escala o errado.** Se o nível de baixo é individual e barato, ele consome a agenda do especialista e mata o negócio. Nível de baixo escala via grupo/assíncrono/triagem, não via mais horas dele.
 
+### Quando o núcleo é um programa high-ticket (mentoria/consultoria)
+
+Se a oferta central é um programa high-ticket, três regras extras (o desenho completo do programa, formato 1:1 x grupo, entregáveis e escala, mora na `soft-mentoria`):
+- **Regra 10x:** o programa deve retornar ao cliente, em valor, ~10x o preço, em retorno potencial (nichos de dinheiro, mensurável) ou em valor percebido (nichos de saúde/relação, o que não se mede). Piso de referência: nunca abaixo de alguns milhares. O preço se justifica pelo delta que gera, não pela carga horária.
+- **Preço só entra depois de validado.** "Validado" = vendido. Se é a 1ª vez, apresenta a oferta SEM preço, encerra e chama pra conversa ("me fala se faz sentido pra você"); só coloca preço + condições quando a oferta já vendeu antes.
+- **O doc de 2 páginas.** High-ticket não precisa de página de vendas cheia; apresenta num doc simples (promessa/meta · pra quem · benefícios · estrutura de acompanhamento · investimento se validado). O cliente desse ticket já cansou de oferta irresistível: quer clareza, não escassez.
+
 ---
 
 ## 6. Ancoragem - abre pelo alto

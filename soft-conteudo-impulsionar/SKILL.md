@@ -53,6 +53,8 @@ Olha as peças orgânicas dos últimos 30 dias (números reais). Candidato = top
 
 (A métrica-chave por formato e o duplo filtro algorítmico × financeiro estão em `references/metricas.md`.)
 
+**Quando o criativo de Atração for um STORY AD** (o anúncio que se camufla no conteúdo do dia, "não prometa, não convide, só afirmações e coisas soltas", foto/vídeo REAL nunca banco/IA, métrica = custo por visita R$0,15-0,25), a estrutura da associação + a régua de teste/escala (testa ~15, 2-3 vencem, escala devagar) estão em `references/story-ads.md`. A verba/distribuição segue o resto desta skill; a arte é da `soft-designer`.
+
 ## Passo 3, define público, verba e duração
 - **Público:** interesse do nicho (não inclui concorrente) · lookalike de seguidores (se já tem 1.000+ qualificados) · custom de quem visitou o perfil 30 dias. Mantém entre 100k-500k: amplo demais ("Brasil 18-65") queima verba, estreito demais (5k) o algoritmo não escala.
 - **Verba/duração (solo iniciando):** R$10-15/dia por peça, 3-7 dias (R$30-105 por peça).
@@ -117,4 +119,5 @@ Mostra **só o plano LIMPO** e PARA pro especialista decidir antes de ligar a ve
 - `references/modo-impulsionar.md`: a engenharia completa do impulsionar (pré-requisitos, 2 níveis, 3 funções, ROAS×ROI, Distribuição Pura, régua de custo por seguidor, workflow de turbinar em 6 passos, anti-padrões e a tabela de diagnóstico §10). É a fonte da verdade do tema. **Dirigida em todos os passos.**
 - `references/metricas.md`: as métricas que importam por formato + o duplo filtro (algorítmico × financeiro, "cada post é cheque") + o princípio do comparativo interno (teu perfil é a bússola, não o benchmark de fora). **Dirigida nos Passos 2 e 5.**
 - `references/ads-de-webinar.md`: a COPY do anúncio de tráfego frio que enche o WEBINAR (promessa do webinar em ADMA <15s, bateria ângulos×temperos, legenda, gate próprio). Era a skill soft-conteudo-impulsionar, fundida aqui. **Dirigida quando o tráfego pago for pra encher um webinar** (a verba/régua é o resto desta skill; a arte é da soft-designer).
+- `references/story-ads.md`: o STORY AD, o anúncio que não parece anúncio (associação + curiosidade, sem promessa/CTA, foto/vídeo real, segmentação óbvia, teste/escala e diagnóstico). **Dirigida no Passo 2 quando o criativo de Atração for um story ad** (a régua de custo por seguidor e o ROI são os Passos 4-5; a arte é da soft-designer).
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` em qualquer CTA/copy que você reescrever pro criativo (reprova em-dash e "travar"). No chat não roda.

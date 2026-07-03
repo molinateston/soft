@@ -38,7 +38,7 @@ Cliente posta sobre tudo um pouco "pra ver o que pega". Skill bloqueia: *"Mês 1
 
 ### Mês 2, Validar gancho
 
-**Foco único:** descobrir qual ângulo prende atenção do público real. Refinar embalagens (skill `soft-conteudo`) baseado em dados M1.
+**Foco único:** descobrir qual ângulo prende atenção do público real. Refinar embalagens (skill `soft-conteudo-headlines`) baseado em dados M1.
 
 **KPI primário:** Engajamento qualificado (salvar + compartilhar / alcance)
 - **Meta M2:** 3% (faixa baixa Soft)
