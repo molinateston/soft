@@ -28,7 +28,7 @@ Mentoria que vende fácil e entrega fácil não nasce de conteúdo bonito. Nasce
 
 - **Entregável:** UM doc consolidado, o **Plano de Mentoria**, montado ao longo dos STOPs. Seções: Extração (o que vende) · Mapa da Transformação (4 etapas + metas) · Desenho do Programa (formato + 4 ferramentas) · Ficha Técnica (11 itens) · Oferta (2 páginas) · Plano de Validação e Escala.
 - **Forma:** DENSO, tabelas e listas, nunca paredão de prosa. Cada seção é a matéria, não a explicação dela.
-- **Fidelidade:** só o que vem do método e do que o dono confirmou. Furo vira `[A CONFIRMAR]` no lugar exato, nunca inventa número/meta/case/fala.
+- **Fidelidade:** só o que vem do método e do que o dono confirmou. Furo vira `[A CONFIRMAR]` no lugar exato, nunca inventa número/meta/case/fala. **A fonte do método NUNCA entra no doc do dono como benchmark nomeado** (nada de "fulano cobra X" como âncora do cliente; âncora é sempre do mercado DELE ou slot).
 - **STOP obrigatório:** para a cada Passo, mostra ou atualiza o doc e pergunta "ajusto?". Espera OK antes de avançar.
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
@@ -41,7 +41,7 @@ Regra dura: o RESULTADO desta skill sai como **UM documento markdown consolidado
 
 ## P0: Ancoragem (de onde o desenho nasce)
 
-Antes de desenhar, ancora no dono. Puxe o perfil/posicionamento dele (Perfil Enxuto, Fundação de Headlines, oferta e PUV vindas da **soft-posicionamento**). O que a mentoria precisa herdar: quem é o cliente ideal, qual o problema avançado que ele resolve, qual resultado ele já gera pra si mesmo, quais números reais ele tem.
+Antes de desenhar, ancora no dono. Puxe o perfil/posicionamento dele (Perfil Enxuto, Fundação de Headlines, oferta e PUV vindas da **soft-posicionamento**) e **leia o perfil do usuário + o banco de provas dele** (`shared-references/crivo/00-perfil-do-usuario.md`; é de lá que sai todo número canônico). **Regra dura: nenhum número vira prova no doc se não estiver no banco de provas do dono**; número sem fonte entra como `[A CONFIRMAR]`. O que a mentoria precisa herdar: quem é o cliente ideal, qual o problema avançado que ele resolve, qual resultado ele já gera pra si mesmo, quais números reais ele tem.
 
 - **Sem posicionamento nenhum** (não sabe o cliente ideal nem o problema que resolve) → PARA e manda pra **soft-posicionamento** antes. Mentoria sem cliente definido vira aula genérica.
 - **Com posicionamento** → herda inline (não aponta "veja lá") e segue.
@@ -217,7 +217,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Escala na ordem certa** | masteriza (80/20) antes do grupo; grupo simples/barato ANTES do avançado; puxa clientes 1:1; porta (micro-oferta) + esteira 3 públicos |
 | **Números são do dono (Lei da fidelidade)** | todo número/meta/case é do dono ou `[A CONFIRMAR]`; número de exemplo nunca virou promessa do método; zero invenção plausível |
 | **Output DENSO** | tabelas/listas, não prosa; zero meta-narração/bastidor; sem tabela de gate na saída |
-| **Anti-IA (HARD)** | zero em-dash · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuação correta. **No chat: CTRL+F do em-dash e da família "travar".** |
+| **Anti-IA (HARD)** | zero em-dash · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuação correta. **VERIFICA DE FATO antes de marcar ✓: no Code roda `grep -c` do em-dash e da família "travar" no doc final; no chat faz a busca manual no texto inteiro. Declarar ✓ sem buscar é gate falso, o erro mais grave deste checklist.** |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
 
 O filtro anti-IA completo (12 padrões banidos, teste em voz alta) mora na `soft-anti-ia`: invoque-a na última checagem da copy da oferta.
