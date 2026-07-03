@@ -2,7 +2,7 @@
 
 > Reference puxada quando: o lead quer resolver AGORA e o especialista quer fechar high-ticket **na DM/WhatsApp**, sem marcar sessão estratégica ou call de 30-40min. Cobre o processo de 5 etapas, os scripts literais, os suportes de venda (doc/vídeo/áudio) e a doutrina "venda fácil, entrega fácil".
 
-Adaptado de um método de venda por chat validado em milhares de mentorados, com filtro Soft. Complementa a espinha de 7 fases da `processo-conversao`: a espinha continua valendo (a lógica diagnóstica é a mesma), este modo comprime a condução pra rodar 100% por mensagem, áudio e vídeo, sem reunião.
+Este é o modo de venda por chat do método, com filtro Soft. Complementa a espinha de 7 fases da `processo-conversao`: a espinha continua valendo (a lógica diagnóstica é a mesma), este modo comprime a condução pra rodar 100% por mensagem, áudio e vídeo, sem reunião.
 
 ---
 

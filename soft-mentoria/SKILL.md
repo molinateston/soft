@@ -9,7 +9,7 @@ Mentoria que vende fácil e entrega fácil não nasce de conteúdo bonito. Nasce
 
 > **A doutrina-mãe (rege tudo):** venda fácil = entrega fácil; venda difícil = entrega difícil. O cliente que precisa ser muito convencido cobra qualquer tropeço depois. Por isso o foco é oferta CLARA + resultado MENSURÁVEL, não persuasão pesada.
 
-**De onde vem o método:** destilado de Doug DeMarco (mentor de mentores, +1.700 mentorados) e de 6 mentores em atividade. Doug entra como **fonte de benchmark**: as falas dele estão marcadas **EXEMPLO (Doug)** e provam que a mecânica funciona, nunca são molde pra copiar. **Números dele (5 mil, 38 mentorias, 10 milhões na DM) NUNCA viram promessa do dono.** O avatar, os números e as metas do dono são SLOTS que esta skill preenche COM ele, sempre falsificáveis.
+**Como o método trata número e exemplo:** a mecânica abaixo é a regra do caminho, escrita em voz própria. Onde aparece um exemplo, ele vem em **nicho fictício rotulado** (mostra o formato, nunca é molde pra copiar). Nenhum número de resultado (ticket, quantidade de vendas, faturamento) é afirmação universal do método: ou vira **princípio sem número**, ou vira **SLOT do dono** preenchido COM ele e falsificável, marcado `[A CONFIRMAR]` até validar. Os números de MECÂNICA (4 encontros, 1h, 3 a 4 meses, 12x, regra 10x) ficam, porque são parâmetro do processo, não prova emprestada.
 
 **Este SKILL.md é o processo inteiro.** Segue os Passos P0 a P6 na ordem, **para nos STOP** (uma decisão por vez, espera o OK), roda o **gate por dentro** antes de mostrar. As references guardam a profundidade dirigida (lidas no passo indicado); o miolo executável está aqui no corpo.
 
@@ -63,7 +63,7 @@ O conhecimento do dono é a soma de **experiências + habilidades + insights**. 
 
 Cada linha da tabela: Conhecimento Macro · Conhecimento Específico · Problema Resolvido · Perfil do Cliente · (Dor + Piora + Poder + Velocidade + Vontade) · **Soma**. Escolhe o de MAIOR soma. Se empatar, a **Vontade** desempata.
 
-> **EXEMPLO (Doug):** macro "Gestão empresarial"; específicos pontuaram eficiência operacional **15**, gestão de equipe 13, liderança 12, comunicação 11. Conclusão: eficiência operacional é o problema de maior potencial. "Basta que você dedique 20, 30 minutos preenchendo isso." (É prova da mecânica, não o nicho do dono.)
+> **Exemplo ilustrativo (nicho fictício):** macro "Gestão empresarial"; específicos pontuaram eficiência operacional **15**, gestão de equipe 13, liderança 12, comunicação 11. Conclusão: eficiência operacional é o problema de maior potencial. Bastam 20, 30 minutos preenchendo a tabela pra ela apontar o alvo na cara. (Mostra o formato da tabela, não o nicho do dono.)
 
 Filtro-guarda antes da tabela (4 perguntas, todas precisam de "sim"): **É aplicável?** (dá pra colocar em prática, não é só filosofia) · **Existe demanda?** (mais gente que você e dois amigos) · **Tem impacto?** (gera transformação real) · **Pode ser escalado?** (replicável pra muita gente).
 
@@ -77,7 +77,7 @@ Pega o problema escolhido e quebra em **4 etapas objetivas + 1 meta mensurável 
 
 Regra da meta: **mensurável e específica**, mesmo que o número seja um alvo ("como vai medir? aqui coloquei um número específico pra trazer de exemplo", é o alvo que orienta, não uma promessa cravada). A soma das metas das etapas deve contribuir pra Meta Central da oferta (P4).
 
-> **EXEMPLO (Doug), mentor de eficiência operacional:**
+> **Exemplo ilustrativo (nicho fictício, mentor de eficiência operacional):**
 > 1. Diagnóstico → meta: eliminar 3 atividades
 > 2. Reestruturar prioridades → meta: reduzir tempo em atividades de baixo impacto
 > 3. Implementar processos otimizados → meta: automatizar ou delegar 70% das tarefas
@@ -150,7 +150,7 @@ Profundidade em `references/ferramentas-acompanhamento.md` (moldes de perguntas 
 - **Retorno potencial** (nichos de dinheiro, mensurável): preço X → retorno de 10X em 12 meses. Comunica a conta.
 - **Valor percebido** (nichos não mensuráveis, saúde/relacionamento): ancora no que não se mede ("quanto vale não terminar um casamento? construir sua família?"). O preço fica barato quando o valor percebido é comunicado.
 
-Piso do método: **não cobre menos que o piso do dono** (o benchmark de Doug é 3 mil; o piso REAL do dono é um SLOT, definido pela conta 10x e pelo mercado dele, nunca herdado cru do exemplo).
+Piso do método: **não cobre menos que o piso do dono.** O piso é um SLOT, definido pela conta 10x e pelo mercado dele, nunca herdado cru de um exemplo. A regra é que mentoria high-ticket tem chão: preço de programa, não de curso avulso.
 
 **Preço só entra depois de validado.** Se é a primeira oferta, o doc TERMINA sem preço e chama pro WhatsApp: "me fala se é isso que você procura, se fez sentido." Só coloca preço + condições depois de ter vendido ao menos uma.
 
@@ -159,7 +159,7 @@ Piso do método: **não cobre menos que o piso do dono** (o benchmark de Doug é
 - Pix parcelado (ex.: entrada + 30 + 60 dias)
 - Pix à vista com desconto
 
-> **EXEMPLO (Doug):** mentoria de R$30.000 = 12x de R$3.000 · 3x de R$10.000 no Pix · R$25.000 à vista. **Esses números são dele; o preço do dono sai da conta 10x com os números reais do dono, marcado `[A CONFIRMAR]` até validar.**
+> **Exemplo ilustrativo (nicho fictício):** uma mentoria de R$30.000 = 12x de R$3.000 · 3x de R$10.000 no Pix · R$25.000 à vista. **Isso mostra só o formato das 3 vias de pagamento; o preço do dono sai da conta 10x com os números reais dele, marcado `[A CONFIRMAR]` até validar.**
 
 Profundidade em `references/metodo-desenho-completo.md` (seções Ficha Técnica e Oferta).
 
@@ -213,7 +213,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Preço só se validado** | primeira oferta sai SEM preço e chama pro WhatsApp; preço só depois de vendida |
 | **Validação desenhada** | vende antes com data; 2 founding em dias alternados; individual até 6-7; gate de consumo; founding = caso documentado |
 | **Escala na ordem certa** | masteriza (80/20) antes do grupo; grupo simples/barato ANTES do avançado; puxa clientes 1:1; porta (micro-oferta) + esteira 3 públicos |
-| **Números são do dono (Lei da fidelidade)** | todo número/meta/case é do dono ou `[A CONFIRMAR]`; número do Doug nunca virou promessa; zero invenção plausível |
+| **Números são do dono (Lei da fidelidade)** | todo número/meta/case é do dono ou `[A CONFIRMAR]`; número de exemplo nunca virou promessa do método; zero invenção plausível |
 | **Output DENSO** | tabelas/listas, não prosa; zero meta-narração/bastidor; sem tabela de gate na saída |
 | **Anti-IA (HARD)** | zero em-dash · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuação correta. **No chat: CTRL+F do em-dash e da família "travar".** |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
@@ -267,7 +267,7 @@ Repare: 4 etapas, cada uma com meta mensurável e atividade prática; o número 
 | Duração igual ao tempo de implementação | Duração = implementação + folga; desenha 4 pra funil de 3 |
 | Oferta virou irresistível inchada (bônus, escassez, emoção) | Oferta visível: meta clara + impacto + logística; Word simples |
 | Encontros nomeados "Encontro 1: oferta" | Nomeia pelo RESULTADO ("Como criar ofertas que fazem fila") |
-| Usou o número do Doug (5k, 38, 10M) como promessa do dono | Número do Doug é benchmark; o do dono sai da conta 10x, `[A CONFIRMAR]` até validar |
+| Usou um número de exemplo como promessa do dono | Número de exemplo é só formato; o do dono sai da conta 10x, `[A CONFIRMAR]` até validar |
 | Faltou uma das 4 ferramentas | As 4 são obrigatórias: entrada · diário · pré-sessão · saída cruzada |
 | Automatizou nas 5 primeiras mentorias | Primeiras 5-6 na mão; sistematiza depois que o método estabilizar |
 | Começou com 1 founding só | 2 founding em dias alternados: itera de um pro outro |
@@ -279,7 +279,7 @@ Repare: 4 etapas, cada uma com meta mensurável e atividade prática; o número 
 Plano de Mentoria aprovado alimenta: **soft-proposta-comercial** (proposta pra um cliente específico), **soft-contratos-consultoria** (o contrato do ciclo), **soft-apostila** (materializa cada call/aula em handout), **soft-vendas** (o script de venda da mentoria na DM/WhatsApp). Nomes/posicionamento pendentes = **soft-posicionamento**. Marca da oferta e da micro-oferta no feed = **soft-conteudo-***.
 
 ## References (o corpo carrega o método; estas guardam a profundidade dirigida)
-- `references/metodo-desenho-completo.md`: aprofunda P1-P4 (Extração com as 3 fontes de conhecimento e o filtro; Mapa com exemplos; Ficha Técnica item a item com 2 fichas preenchidas; Oferta visível campo a campo, regra 10x, condições) com falas EXEMPLO (Doug). Lida nos P1 a P4.
+- `references/metodo-desenho-completo.md`: aprofunda P1-P4 (Extração com as 3 fontes de conhecimento e o filtro; Mapa com exemplos; Ficha Técnica item a item com 2 fichas preenchidas; Oferta visível campo a campo, regra 10x, condições) com exemplos ilustrativos em nicho fictício. Lida nos P1 a P4.
 - `references/validacao-e-escala.md`: aprofunda P5-P6 (validação com founding alternados, gate de consumo, vender antes com data; masterizar 80/20; transição 1:1 → grupo; micro-oferta/consultoria como porta e downsell com cashback; esteira de 3 públicos e a matemática da meta). Lida nos P5 e P6.
 - `references/ferramentas-acompanhamento.md`: as 4 ferramentas com os MOLDES de perguntas de cada formulário (entrada, pré-sessão, saída cruzada) e o desenho do diário do mentorado, destilado dos mentores em atividade. Lida no P3.
-- `references/caixa-de-provas.md`: a Alavanca da Caixa (desbloquear bônus em troca de depoimento, ganha-ganha) + a régua de qualidade do depoimento + case vs depoimento da experiência. Lida no P5/P6 (coletar o caso documentado).
+- `references/caixa-de-provas.md`: a troca bônus-por-prova (desbloquear um bônus em troca do depoimento, ganha-ganha) + a régua de qualidade do depoimento + case vs depoimento da experiência. Lida no P5/P6 (coletar o caso documentado).

@@ -2,30 +2,28 @@
 
 > **Quando consultar:** no P5/P6 do SKILL.md, quando o dono precisa transformar os founding e os mentorados em prova social de alta qualidade (o caso documentado que abre a escala).
 >
-> **De onde vem:** destilado de Doug DeMarco ("Alavanca 7 / A Caixa", "suborno legalizado") + destilado da micro-oferta (case vs depoimento). Falas marcadas **EXEMPLO (Doug)**. Provam a mecânica; a prova do dono é dele, sempre real, nunca inventada.
+> **Como esta reference trata número e exemplo:** a mecânica está em voz própria. Onde aparece um número, ele é só formato; a prova do dono é dele, sempre real, nunca inventada.
 
 ## Por que a prova é combustível
 
-A escala depende de caso: mentoria complexa não gera caso, e sem caso não há renovação nem indicação. Mas bom depoimento não é sorte, é **provocado por design**.
-> **EXEMPLO (Doug):** "Sou conhecido por receber depoimentos muito bons, bem estruturados, que dão vontade de quem está de fora entrar pro programa. Isso acontece por dois motivos: o programa de fato é bom, E eu subornei elas de uma forma ganha-ganha."
+A escala depende de caso: mentoria complexa não gera caso, e sem caso não há renovação nem indicação. Mas bom depoimento não é sorte, é **provocado por design**. Quem recebe depoimentos fortes e bem estruturados (o tipo que dá vontade de entrar pro programa) não teve sorte: teve um programa de fato bom E uma troca ganha-ganha montada pra colher a prova.
 
 ---
 
-## A Alavanca da Caixa (o suborno legalizado)
+## A troca bônus-por-prova (o cofre de provas)
 
-**O que é:** um mecanismo ganha-ganha onde você **desbloqueia um bônus extra em troca de depoimento e engajamento**. "Você troca ouro por engajamento. Você dá valor e recebe engajamento e depoimento."
+**O que é:** um mecanismo ganha-ganha onde você **desbloqueia um bônus extra em troca do depoimento e do engajamento**. Você dá valor a mais (o bônus) e recebe a prova. Ninguém sai perdendo: é só pedir que a pessoa relate a experiência que de fato teve.
 
-**O framework (a mecânica):**
-> **EXEMPLO (Doug):** "Cara, se você gostou do que aprendeu, me deixa um depoimento que eu vou te entregar um pouco mais de conteúdo." Você desbloqueia um bônus em troca do depoimento.
+**A mecânica:** se você gostou do que aprendeu, deixa um depoimento e eu te libero um pouco mais de conteúdo. O bônus só desbloqueia depois do depoimento.
 
-Passos da caixa (exemplo real dele: pra desbloquear um novo bônus na comunidade):
+Passos da troca (ex.: pra desbloquear um bônus novo na comunidade):
 1. Deixe seu depoimento da experiência.
 2. De preferência **compartilhe vitórias, mesmo que pequenas.**
 3. **Inclua prints** se tiver.
 4. (Nota afixada) **"depoimentos de baixo valor não serão aceitos"**, é o que faz as pessoas caprichar/digitar melhor.
 5. Depois, peça pra **se apresentarem** na comunidade.
 
-**Resultado:** "Lancei isso e já deve ter 20, 30 depoimentos. Posso usar pra ajudar a vender." Enquadramento honesto: "é um suborno, mas é ganha-ganha, eu só estou pedindo pra eles relatarem a experiência."
+**Resultado:** rodada uma vez, a troca junta dezenas de depoimentos que passam a ajudar a vender. O enquadramento é honesto: é uma troca ganha-ganha, você só está pedindo pra relatarem a experiência real.
 
 **Onde encaixa na mentoria:** o bônus a desbloquear é conteúdo/recurso extra que o dono já tem (uma aula complementar, um template, um acesso). O depoimento é a moeda. O gate de qualidade (passo 4) é o que separa "top!" de um depoimento que vende.
 
@@ -53,9 +51,9 @@ Duas provas diferentes, com timings diferentes:
 | Quando vem | na hora / fim do ciclo | depois (semanas a meses), quando executou |
 | Exemplo | "Plano prático e claro, agora é executar" | "Fiz [resultado] em [prazo] aplicando o método" |
 
-> **EXEMPLO (Doug):** o depoimento está disponível na hora ("Foi bom pra você? Me manda como foi sua experiência"). O case vem depois, quando a pessoa executa e traz resultado, e vira o ativo mais forte.
+O depoimento da experiência está disponível na hora: "Foi bom pra você? Me manda como foi sua experiência." O case vem depois, quando a pessoa executa e traz resultado, e vira o ativo mais forte.
 
-Dica pra quem nunca vendeu: "Você já gerou resultado pra alguém de graça? Pede depoimento." Uma pessoa com LinkedIn cheio de recomendações → a gente foi nas pessoas que recomendaram e pediu o depoimento dela como profissional. Não era mentira.
+Dica pra quem nunca vendeu: já gerou resultado pra alguém de graça? Pede o depoimento. Quem tem um LinkedIn cheio de recomendações pode voltar em quem recomendou e pedir um depoimento sobre o trabalho, sem inventar nada.
 
 ---
 

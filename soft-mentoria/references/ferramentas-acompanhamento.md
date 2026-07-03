@@ -2,12 +2,11 @@
 
 > **Quando consultar:** ao rodar o P3 (desenho do programa) do SKILL.md, pra operacionalizar as 4 ferramentas que fazem o mentorado EXECUTAR (não só aprender).
 >
-> **De onde vem:** destilado dos mentores em atividade. Falas marcadas **EXEMPLO (mentor)**. Os moldes de perguntas abaixo são gabarito adaptável: o dono ajusta ao nicho dele. Nunca invente número/meta do mentorado; os campos preenchidos pelo mentorado são dele.
+> **Como esta reference funciona:** a mecânica está em voz própria. Os moldes de perguntas abaixo são gabarito adaptável: o dono ajusta ao nicho dele. Nunca invente número/meta do mentorado; os campos preenchidos pelo mentorado são dele.
 
 ## Por que as 4 ferramentas existem
 
-O gargalo da mentoria não é o conhecimento, é a IMPLEMENTAÇÃO.
-> **EXEMPLO (mentor):** "A maior parte do problema não é ter o conhecimento, é implementar o conhecimento. Esse é o grande problema. Frequentemente, se as pessoas soubessem qual é o problema que têm, todos os problemas estariam resolvidos. Frequentemente elas não sabem exatamente qual é o problema que tem que ser resolvido."
+O gargalo da mentoria não é o conhecimento, é a IMPLEMENTAÇÃO. A maior parte do problema não é ter o conhecimento, é executar o conhecimento. E, muitas vezes, o mentorado nem sabe exatamente qual é o problema que precisa resolver: se soubesse, metade já estaria resolvida. As 4 ferramentas atacam justo esse ponto.
 
 As 4 ferramentas resolvem 4 furos: entrar sem saber o ponto de partida, aprender sem executar, chegar na sessão pra fazer brainstorm, e sair sem enxergar a própria evolução.
 
@@ -19,7 +18,7 @@ As 4 ferramentas resolvem 4 furos: entrar sem saber o ponto de partida, aprender
 
 **O que é:** antes da mentoria começar, um formulário que levanta TUDO que o mentorado já fez ou não fez, seus recursos e o porquê. Fixa o dia 1 (vai ser cruzado com a saída) e calibra o programa dele.
 
-> **EXEMPLO (mentor):** "Ferramenta número um: um formulário de diagnóstico onde você pergunta tudo que esse mentorado já fez ou não fez pra gerar resultado. Ela vai determinar um monte de coisa do teu programa, mas vai ser muito importante lá na frente."
+A primeira ferramenta é esse diagnóstico: pergunta tudo que o mentorado já fez ou não fez pra gerar resultado. Ele já determina um monte de coisa do programa, e fica ainda mais importante lá na frente, quando cruza com a saída.
 
 **Molde de perguntas (adaptar ao nicho):**
 - Qual o cenário atual do seu negócio/situação? (o que faz, pra quem, ponto de partida)
@@ -38,7 +37,7 @@ O molde muda com o público: mentorado especialista solo × equipe × estrategis
 
 **O que é:** um painel (página de Notion, ou sistema) onde cada sessão vira um plano de ação em micro-tarefas. O mentorado dá check e reporta no WhatsApp.
 
-> **EXEMPLO (mentor):** "Você vai ter um Notion onde, a cada reunião, você transforma a sessão num plano de ação separado: o que ela tem que fazer, quais as orientações. E aí essa pessoa vai executando essas coisinhas e me reportando lá no grupo do WhatsApp."
+Num Notion (ou sistema), a cada reunião você transforma a sessão num plano de ação separado: o que a pessoa tem que fazer e quais as orientações. Ela vai executando essas tarefinhas e reportando no grupo do WhatsApp.
 
 **Como desenhar o diário:**
 - Cada sessão gera um bloco datado com as micro-tarefas atômicas ("cria a promessa", "cria os entregáveis", "monta a página"), não macro-instruções.
@@ -54,7 +53,7 @@ O molde muda com o público: mentorado especialista solo × equipe × estrategis
 
 **O que é:** antes de CADA encontro, um formulário curto que faz o mentorado subir de consciência ANTES de sentar com você. É a ferramenta mais subestimada.
 
-> **EXEMPLO (mentor):** "Se não, o seu mentorado vai pra reunião pra elaborar o que ele precisa de ajuda, pra parar e fazer um brainstorm com você. E aí você gasta meia hora tentando extrair dele quais foram as ações, o que deu certo, quanto investiu. A mentoria vira um grande brainstormeador ao invés de solução de problemas. O mentorado passa por um aumento de consciência antes de chegar na sessão, e aí ele extrai de você muito mais dos seus anos de experiência. Senão a mentoria vira uma grande aula, e aula você assiste gravado."
+Sem ele, o mentorado chega na reunião pra elaborar do zero o que precisa, e você gasta meia hora tentando extrair quais foram as ações, o que deu certo, quanto investiu. A mentoria vira brainstorm em vez de solução de problema. Com o pré-sessão, o mentorado passa por um aumento de consciência antes de chegar, e aí ele extrai de você muito mais dos seus anos de experiência. Senão a mentoria vira uma grande aula, e aula se assiste gravado.
 
 **Molde de perguntas (antes de cada sessão):**
 - Desde a última sessão, quais projetos/tarefas/ações que combinamos você fez?
@@ -70,7 +69,7 @@ O molde muda com o público: mentorado especialista solo × equipe × estrategis
 
 **O que é:** ao final do ciclo, um formulário com as MESMAS perguntas da entrada + perguntas de fechamento. Cruzado com a entrada, gera o relatório de evolução e o gancho da renovação.
 
-> **EXEMPLO (mentor):** "É essencial mostrar pra pessoa onde ela estava no começo e onde chegou. As pessoas evoluem, aprendem o método, e chegam no final sendo outras pessoas. Elas não lembram quem eram no dia 1. Então tem uma percepção subjetiva de que tiveram algum resultado, mas não conseguem se colocar no lugar do dia 1. A gente cruza os dois formulários e cria um relatório mostrando: você aumentou X% de faturamento, no começo relatou essas dificuldades, agora tem essas, definimos esse plano de ação de 10 ações, você fez 8. Baseado nisso, os próximos passos são esses. Aí é o gancho claro pra renovação."
+É essencial mostrar pra pessoa onde ela estava no começo e onde chegou. Ela evolui, aprende o método e chega no final sendo outra pessoa, sem lembrar quem era no dia 1: tem a percepção vaga de que teve resultado, mas não se coloca mais no lugar de antes. Cruzando os dois formulários, você monta um relatório mostrando: aumentou X% de faturamento, no começo relatava essas dificuldades e agora tem essas, o plano combinado tinha 10 ações e você fez 8, e por isso os próximos passos são estes. Aí está o gancho claro pra renovação.
 
 **Molde de perguntas (na saída):**
 - (repete as perguntas de números da entrada: [faturamento / KPI] agora vs. no começo)

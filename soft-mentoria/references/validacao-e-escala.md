@@ -2,7 +2,7 @@
 
 > **Quando consultar:** ao rodar o P5 (validação/lançamento) e o P6 (escala: 1:1 → grupo, micro-oferta, esteira) do SKILL.md.
 >
-> **De onde vem:** destilado de Doug DeMarco + 6 mentores em atividade. Falas do Doug marcadas **EXEMPLO (Doug)**; dos mentores, **EXEMPLO (mentor)**. Provam a mecânica, não são molde pra copiar. **Números deles jamais viram promessa do dono;** metas/tickets do dono são SLOTS, `[A CONFIRMAR]` até validar.
+> **Como esta reference trata número e exemplo:** a mecânica está em voz própria, como regra do caminho. Os exemplos vêm em **nicho fictício rotulado** (mostram o formato, nunca são molde pra copiar). Nenhum número de resultado vira promessa do método: metas e tickets do dono são SLOTS, `[A CONFIRMAR]` até validar. Números de MECÂNICA (2 founding, dias alternados, 6-7 pessoas, ciclo de 6 meses) ficam.
 
 ## Índice
 - [P5: Validação e lançamento](#p5-validação-e-lançamento)
@@ -18,25 +18,24 @@
 A regra-mãe: **não monta a estrutura inteira antes de vender.** A pessoa compra pelo fim, não pelo meio.
 
 ### Venda antes, com data futura
-> **EXEMPLO (mentor):** "Lança a mentoria com uma data lá pra frente pra começar. Vende a proposta, vai organizando. Primeiro a gente faz um diagnóstico do teu negócio, e isso você faz individualizado, até ter um número legal, seis, sete pessoas já é muito. E aí o momento você decide: quando tiver um número X, monta o grupo."
-> **EXEMPLO (mentor):** "Se você tem um método validado, faz um esboço de quanto tempo você consegue entregar, mas foca muito na oferta. Você não precisa se preocupar muito com o meio. A pessoa compra pelo fim."
+Lança a mentoria com uma data lá na frente pra começar. Vende a proposta e vai organizando: primeiro um diagnóstico individualizado do negócio de cada um, até juntar um número bom (seis, sete pessoas já é muito), e aí decide quando montar o grupo. Com um método validado, esboça quanto tempo consegue entregar mas foca na oferta, não no meio: a pessoa compra pelo fim.
 
-Ou seja: vende a proposta primeiro, com data de início; monta em progresso com os primeiros. "Estou elaborando junto com a primeira turma, basicamente."
+Ou seja: vende a proposta primeiro, com data de início; monta em progresso com os primeiros, elaborando junto com a primeira turma.
 
 ### 2 founding em dias/semanas ALTERNADOS
-> **EXEMPLO (mentor):** "Comece com dois mentorados, não com um. Se as reuniões são quinzenais, não faça no mesmo dia. Faça segunda com o mentorado 1 e quinta com o 2. Por quê? Você itera do mentorado 1 pro 2, muito rápido. O mentorado 2 já vai receber o método ajustado que você viu com o 1. Você ganha muita velocidade na validação das tarefas que geram o resultado."
+Comece com dois mentorados, não um. Se as reuniões são quinzenais, não faça as duas no mesmo dia: segunda com o mentorado 1, quinta com o 2. Assim você itera do 1 pro 2 muito rápido, e o mentorado 2 já recebe o método ajustado pelo que você viu com o 1. Ganha velocidade na validação das tarefas que geram o resultado.
 
-Fluxo: mentorado 1 na segunda → tarefas → observa a evolução e as dúvidas na semana → leva o aprendizado pro mentorado 2 na próxima. "Você vai documentando o método do mentorado. Uma coisa é o método pra a coisa acontecer; outra é o método pra ser ensinado e executado por outra pessoa."
+Fluxo: mentorado 1 na segunda → tarefas → observa a evolução e as dúvidas na semana → leva o aprendizado pro mentorado 2 na próxima. Você vai documentando o método: uma coisa é o método pra a coisa acontecer, outra é o método pra ser ensinado e executado por outra pessoa.
 
 ### Acompanhamento próximo → afrouxa
-Começo semanal ou quinzenal; quando o método fica redondo, passa pra mensal e funciona. "Depois que o método estiver mais redondinho, você tranquilamente passa pra uma coisa mais longa, tipo mensal."
+Começo semanal ou quinzenal; quando o método fica redondo, passa pra mensal e funciona. Método redondinho aguenta cadência mais longa sem perder resultado.
 
 ### Individual até 6-7, depois grupo
-> **EXEMPLO (mentor):** "Faz individualizado até ter um número legal. Seis, sete pessoas já é muito. E aí você monta o grupo, e a partir dali segue só entrega em grupo." A entrega começa individualizada (diagnóstico) e migra pro grupo quando bate o número.
+Faz individualizado até juntar um número bom: seis, sete pessoas já é muito. Aí monta o grupo e a partir dali segue só entrega em grupo. A entrega começa individualizada (diagnóstico) e migra pro grupo quando bate o número.
 
 ### O gate de consumo (antes de abrir a próxima fase)
 Só libera o próximo nível quem consumiu o atual. Puxa quem estava parado.
-> **EXEMPLO (mentor), caso real:** "A gente picou a mentoria pra vender só a parte técnica. Tinha vendido duas, três. Aí falei: primeiro eles precisam assistir as aulas da plataforma. Damos um tempo X pra assistir; depois desse tempo, montamos o grupo e começa a mentoria de verdade. Fizemos isso e agora está com 20 pessoas, tinha duas quando começamos."
+> **Exemplo ilustrativo (nicho fictício):** a mentoria foi picada pra vender só a parte técnica primeiro. Regra: antes do grupo, o mentorado precisa assistir as aulas base da plataforma dentro de um prazo; passado o prazo, monta-se o grupo e começa a mentoria de verdade. O gate puxa quem estava parado a consumir o pré-requisito.
 
 ### Founding em troca de caso documentado
 Os primeiros entram por condição especial em troca de deixar o caso documentado: o formulário de saída cruzado (ver `ferramentas-acompanhamento.md`) + depoimento (ver `caixa-de-provas.md`). **Sem caso, não escala.**
@@ -45,13 +44,11 @@ Os primeiros entram por condição especial em troca de deixar o caso documentad
 
 ## P6a: Masterizar o método (o gate pro grupo)
 
-Só sai do 1:1 depois de masterizar.
-> **EXEMPLO (Doug):** "Você só faz mentoria individual no início porque o seu método ainda não está masterizado. Masterizar é garantir que você consegue gerar resultado através do seu método, pro tipo de cliente que você escolheu."
+Só sai do 1:1 depois de masterizar. A mentoria individual é o início justamente porque o método ainda não está masterizado. Masterizar é garantir que você consegue gerar resultado através do seu método, pro tipo de cliente que você escolheu.
 
-**Masterizar = 80/20.** Leva pro grupo só os 20% de ações que geram 80% do resultado.
-> **EXEMPLO (Doug):** "Eu pego os 20% de ações que geram os 80% de resultado, e é o que eu levo pra minha base de conteúdo. Crio uma base super enxuta e objetiva. Dentro das mentorias tem tudo que eu sei? Lógico que não." Erro clássico: enfiar tudo. Complexo demais não gera caso; sem caso, não escala (sem renovação, sem indicação).
+**Masterizar = 80/20.** Leva pro grupo só os 20% de ações que geram 80% do resultado. Pega essas ações e faz delas a base de conteúdo, enxuta e objetiva. A mentoria não carrega tudo que você sabe. Erro clássico: enfiar tudo. Complexo demais não gera caso; sem caso, não escala (sem renovação, sem indicação).
 
-Como masterizar na prática: mapa mental com os pilares (ex.: posicionamento, oferta, marketing/funil, vendas). Pra cada pilar pergunta "quais ações geram mais resultado?" e elimina o resto. O que sobra vira as aulas da base. Quantas 1:1 até masterizar: "com 10 você já consegue."
+Como masterizar na prática: mapa mental com os pilares (ex.: posicionamento, oferta, marketing/funil, vendas). Pra cada pilar pergunta "quais ações geram mais resultado?" e elimina o resto. O que sobra vira as aulas da base. Umas 10 mentorias 1:1 já costumam bastar pra chegar lá.
 
 ---
 
@@ -59,24 +56,25 @@ Como masterizar na prática: mapa mental com os pilares (ex.: posicionamento, of
 
 ### Não comece o grupo do zero: puxe seus clientes 1:1
 Duas alavancas:
-- **Over-delivery:** chama os melhores clientes 1:1 pro grupo de graça. EXEMPLO (Doug): "Olhei pra 35 implementações, selecionei as 7 melhores e dei de over-delivery. Cheguei e falei: eu quero vocês no grupo."
-- **Upgrade barato:** pros demais, uma ação de upgrade de custo baixo. "Eles me pagaram [um valor baixo] pra participar do grupo." Assim começou o 1º grupo já com gente vinda dos clientes que já tinha.
+- **Over-delivery:** olha pras suas implementações 1:1, seleciona as melhores e chama essas pessoas pro grupo de graça. "Eu quero vocês no grupo" pra quem já teve resultado com você.
+- **Upgrade barato:** pros demais, uma ação de upgrade de custo baixo, e eles pagam um valor pequeno pra entrar no grupo. Assim o 1º grupo já começa com gente vinda dos clientes que você já tinha.
 
-### NÃO comece pelo grupo mais caro/avançado (o erro do Doug)
-> **EXEMPLO (Doug):** montou o 1º grupo espelhando o ticket alto do 1:1, com muito acesso (onboarding + reuniões individuais). Funcionou, mas escalou devagar, "porque eu fazia tudo sozinho". Lição: "Não comece uma mentoria pelo mais caro, com mastermind, níveis maiores. Você pode até vender, só que não vai ser tão escalável."
+### NÃO comece pelo grupo mais caro/avançado
+Montar o 1º grupo espelhando o ticket alto do 1:1, com muito acesso (onboarding + reuniões individuais), até funciona, mas escala devagar, porque um sozinho faz tudo. A regra: não comece uma mentoria pelo mais caro, com mastermind e níveis maiores. Pode até vender, só que não vai ser escalável.
 
-### Comece com grupo simples e barato (o que ele faria hoje)
-> **EXEMPLO (Doug):** "O ticket de 2 a 3 mil é muito simples de vender, dá pra vender colocando link nos stories." A estrutura que ele escalou:
+### Comece com grupo simples e barato
+Ticket mais baixo (por volta de 2 a 3 mil) é simples de vender, dá pra vender colocando link nos stories. A estrutura que escala:
 - **Base de conteúdo** enxuta (o método masterizado, ponto A → B)
 - **Call quinzenal** (hot seat / tira-dúvidas, onde os membros se ajudam)
 - **Grupo no WhatsApp**
 - Preço começa baixo e escala; duração 6 meses (não anual).
-"Call quinzenal, base de conteúdo, e grupo no WhatsApp. Fiz literalmente mais de um milhão com essa estrutura." (A estrutura mais robusta, monitoria de especialista, plataforma, só entrou depois que teve equipe.)
 
-> **EXEMPLO (mentor), estrutura própria:** "Reunião inicial de diagnóstico, depois um grupo individual com a pessoa e um grupo dos mentorados em geral. Alguns níveis de acesso. Ciclo de 6 meses. A pessoa tem tudo que desenvolvi, os playbooks, pra copiar e adaptar. É bastante personalizado." Nota: mentoria muito nichada e validada pode ser MAIS escalável e não precisar de acompanhamento tão próximo.
+Call quinzenal + base de conteúdo + grupo no WhatsApp é a estrutura enxuta que escala. A estrutura mais robusta (monitoria de especialista, plataforma) só entra depois que tem equipe.
+
+> **Exemplo ilustrativo (nicho fictício), estrutura enxuta possível:** reunião inicial de diagnóstico, depois um grupo individual com a pessoa e um grupo dos mentorados em geral, alguns níveis de acesso, ciclo de 6 meses, a pessoa recebe os playbooks pra copiar e adaptar. Nota: mentoria muito nichada e validada pode ser MAIS escalável e não precisar de acompanhamento tão próximo.
 
 ### A sequência de escala
-Popular o grupo simples PRIMEIRO. O grupo avançado é o segundo passo, quando tiver base ("quando tiver seus 40, 60, 70 membros, aí cria um próximo nível mais avançado"). Trade-off de ritmo: 1:1 caro = escala lenta; grupo simples/barato = escala rápida.
+Popular o grupo simples PRIMEIRO. O grupo avançado é o segundo passo, quando tiver base (com dezenas de membros já dá pra criar um próximo nível mais avançado). Trade-off de ritmo: 1:1 caro = escala lenta; grupo simples/barato = escala rápida.
 
 ---
 
@@ -85,14 +83,14 @@ Popular o grupo simples PRIMEIRO. O grupo avançado é o segundo passo, quando t
 A micro-oferta (consultoria paga) é a porta de entrada e o downsell.
 
 ### O que é
-Uma call única (ou duas) de direcionamento sobre UM problema. "Consultoria nada mais é do que uma simples troca de conhecimento por dinheiro." Melhor UM problema central por consultoria: "se eu falar de posicionamento, oferta, marketing e venda em uma hora, fica muito corrido."
+Uma call única (ou duas) de direcionamento sobre UM problema. Consultoria é troca de conhecimento por dinheiro num formato curto. Melhor UM problema central por consultoria: querer cobrir posicionamento, oferta, marketing e venda numa hora só fica corrido demais.
 
 ### Como estrutura (2 formatos)
 - **Call única de 60-90 min:** pré-consultoria com **só 2 perguntas** ("questionário imenso a pessoa preenche e eu não leio"): (1) cenário do negócio (pra quem vende, o que, ticket, momento, problemas); (2) as 3 perguntas que não podem sair sem resposta. Videochamada com câmera. Um mecanismo de didática (ex.: Miro com tópicos pré-definidos) pra não estourar o tempo. Entrega ao final: gravação + plano + 15 dias de suporte no WhatsApp.
 - **Duas sessões de 45 min:** call 1 → 15 dias de execução → call 2 pra apresentar o feito. Mesmos entregáveis, experiência melhor.
 
 ### Preço
-Testar faixas. O ponto de encaixe do Doug foi um ticket quebrado no Pix vs cartão ("vendia MAIS FÁCIL do que 1 mil", a economia no Pix "fazia sentido pra galera"). **Faixa dele é benchmark; o do dono é SLOT.**
+Testar faixas. Um princípio que costuma funcionar: um ticket quebrado com desconto no Pix vs cartão vende mais fácil que um número redondo, porque a economia no Pix faz sentido pra quem compra. **A faixa é sempre um SLOT do dono, definido testando o mercado dele.**
 
 ### Como vira grupo (2 situações)
 - **Downsell com cashback:** mentoria de ticket alto, a pessoa não paga → oferece consultoria como downsell. Ao final: "Gostou? Quer entrar no grupo? Eu te dou 100% de cashback, você só paga a diferença." Por isso NÃO dá acesso ao grupo na consultoria (senão mata o upsell).
@@ -112,8 +110,8 @@ Mesmo conhecimento, 3 alturas de acesso e preço. Conhecimento é ativo flexíve
 | **Membro** | quer acesso, "eu te acompanho, não executo por você" | grupo/mentoria/serviço produtizado | médio |
 | **Cliente full** | quer que você EXECUTE tudo | projeto/implementação | alto |
 
-**A sacada de empacotamento, o produto barato é uma FATIA do principal:** "não é criar novos produtos; você pega uma fatia do que já está lá dentro." Ex.: serviço "monto seu time completo" (caro) vs. "só o template" (barato). Tenha UM produto central masterizado e derive fatias dele. (Isso responde ao "não crie um monte de produto".)
+**A sacada de empacotamento, o produto barato é uma FATIA do principal:** não é criar produtos novos, é pegar uma fatia do que já está dentro do principal. Ex.: um serviço "monto seu time completo" (caro) vs. "só o template" (barato). Tenha UM produto central masterizado e derive fatias dele, em vez de espalhar produto novo.
 
-**A matemática da meta:** a meta anual ÷ 12 = meta mensal. A meta mensal se distribui pela esteira: poucos clientes full (ticket alto) + alguns membros (ticket médio) + muitos consumidores (ticket baixo). A base grande de baixo alimenta os poucos e bons de cima. Exemplo de distribuição (formato, números do dono são SLOT): 1 projeto full + N membros + M consumidores = meta do mês. "A gente maximiza a venda dessa base pra trabalhar com poucos e bons clientes em cima."
+**A matemática da meta:** a meta anual ÷ 12 = meta mensal. A meta mensal se distribui pela esteira: poucos clientes full (ticket alto) + alguns membros (ticket médio) + muitos consumidores (ticket baixo). A base grande de baixo alimenta os poucos e bons de cima. Exemplo de distribuição (formato, números do dono são SLOT): 1 projeto full + N membros + M consumidores = meta do mês. Maximiza a venda dessa base pra sustentar poucos e bons clientes em cima.
 
-> **Régua de fidelidade:** todo número/ticket/faixa acima é benchmark do Doug ou dos mentores. O do dono sai da conta 10x (`metodo-desenho-completo.md` P4c) e da meta real dele, `[A CONFIRMAR]` até validar. Nunca use o número do exemplo como promessa.
+> **Régua de fidelidade:** todo número/ticket/faixa acima é só formato. O do dono sai da conta 10x (`metodo-desenho-completo.md` P4c) e da meta real dele, `[A CONFIRMAR]` até validar. Nunca use o número de exemplo como promessa.

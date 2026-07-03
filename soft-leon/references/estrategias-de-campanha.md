@@ -59,15 +59,15 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 7. **Escalar sem repetir esforço:** Vendas com Destaques (#8) deixa as ofertas organizadas no perfil pro seguidor novo.
 8. **Piloto automático:** Vendas Automáticas (#9) plugam chatbot no DM.
 9. **Reativar a base:** Lembrei de Você (#10) reengaja quem já confia, o caixa mais barato.
-10. **A esteira que costura tudo:** entrada barata sobe pra grupo (R$3k) e mentoria high ticket (10k+). Benchmark do material: ~1 a cada 2 que entram na Reunião de R$100 sobe de programa em 2 meses.
+10. **A esteira que costura tudo:** entrada barata sobe pra grupo (R$3k) e mentoria high ticket (10k+). Boa parte de quem entra na Reunião de R$100 sobe de programa ao longo dos primeiros meses `[valide com teus números de subida]`.
 
 ---
 
 ## 1. Levantada de Mão (funil de stories)
 
-**O que é.** Um story com chamada clara que enche o direct de lead quente. A jogada mais barata e rápida do banco: sem produto novo, sem evento, só conversa. Posta em story, feed e destaque pra máxima exposição. No material de origem é "a estratégia que mais gerou dinheiro", rodada 2x por semana.
+**O que é.** Um story com chamada clara que enche o direct de lead quente. A jogada mais barata e rápida do banco: sem produto novo, sem evento, só conversa. Posta em story, feed e destaque pra máxima exposição. É a jogada que mais gera caixa direto na maioria dos casos, rodada 2x por semana.
 
-**Quem pode rodar.** Qualquer um com audiência mínima ativa, até 1 pessoa (rende mais em lista de e-mail/grupo de WhatsApp: caso do material, perfil de 86 seguidores fechou +30 mil enviando a mesma chamada pra uma lista de 5 mil leads).
+**Quem pode rodar.** Qualquer um com audiência mínima ativa. Rende mais em lista de e-mail/grupo de WhatsApp: a mesma chamada disparada pra uma lista quente vale mais que um perfil grande e frio. Perfil pequeno com lista boa fecha alto; o tamanho da audiência importa menos que a temperatura dela.
 
 **Como funciona.**
 1. **Story de levantada de mão** com os 5 elementos: escassez (quantas pessoas consegue ajudar) · público (quem) · resultado (o que entrega) · urgência (a janela) · **um** CTA só. Fala-âncora: *"Procuro [2-3] [público específico] que querem [resultado] nos próximos [X dias]. Vou te mostrar como [mecanismo]. Se você quer [resultado], responde [palavra]."* Dica: posta como PRIMEIRO story do dia (apaga os anteriores, o Instagram dá um boost), deixa propagar 3-4h.
@@ -85,7 +85,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 2. Caixinha de Perguntas (o coringa diário)
 
-**O que é.** A caixinha de perguntas do Instagram é o jeito mais fácil de ofertar e vender todo dia, sem depender de evento nem produto novo. É o motor que roda debaixo de tudo. Regra-mãe de stories do material: só poste story que faz uma de 2 coisas, **sobe autoridade** ou **carrega uma oferta**. A caixinha faz as duas rápido.
+**O que é.** A caixinha de perguntas do Instagram é o jeito mais fácil de ofertar e vender todo dia, sem depender de evento nem produto novo. É o motor que roda debaixo de tudo. Regra-mãe de stories: só poste story que faz uma de 2 coisas, **sobe autoridade** ou **carrega uma oferta**. A caixinha faz as duas rápido.
 
 **Quem pode rodar.** Qualquer um com audiência ativa. Roda todo dia, principalmente quando o cliente está sem ideia ou sem tempo de bolar stories.
 
@@ -106,14 +106,14 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 3. Oferta Direta (comunicar claro, todo dia, por público)
 
-**O que é.** Comunicar com clareza e frequência o que o cliente vende, pra cada público específico. Muita gente deixa a oferta nas entrelinhas; a Oferta Direta bota na cara. Premissa do material: "existem pessoas só esperando uma oferta que você tem a fazer", e "o seguidor que chegou hoje não viu a oferta de ontem".
+**O que é.** Comunicar com clareza e frequência o que o cliente vende, pra cada público específico. Muita gente deixa a oferta nas entrelinhas; a Oferta Direta bota na cara. A premissa: existe gente só esperando uma oferta que você tem pra fazer, e o seguidor que chegou hoje não viu a oferta de ontem.
 
-**Quem pode rodar.** Qualquer um com audiência mínima. Roda pelo menos 1x por semana (segunda ou quinta são os melhores dias do material).
+**Quem pode rodar.** Qualquer um com audiência mínima. Roda pelo menos 1x por semana (segunda ou quinta costumam ser os melhores dias).
 
 **Como funciona.**
 1. **Escolhe 1 público específico** dentro da audiência (agências · mentores · quem quer diretor de marketing · quem quer monetizar audiência). O grande lance é a oferta ser específica pra UM público ("é pra você que...").
 2. **Escolhe o modelo de copy** (varia por público, não usa 1 framework padrão): power offer ("se eu te mostrar como [resultado], te acompanhando por [prazo], você aceitaria?"); oferta estruturada (meta / o que faremos / estrutura / investimento); consultoria premium; oferta com checkout.
-3. **Escolhe a rota de venda** (a regra do material): **com preço** (leva pra DM ou checkout) quando a oferta já é validada, ou quando quer usar o preço como posicionamento (mostrar uma de R$25k pra depois ofertar uma de R$3k); **sem preço, só DM** quando ainda quer validar demanda; **checkout direto** quando a oferta é validada.
+3. **Escolhe a rota de venda** (a regra): **com preço** (leva pra DM ou checkout) quando a oferta já é validada, ou quando quer usar o preço como posicionamento (mostrar uma de R$25k pra depois ofertar uma de R$3k); **sem preço, só DM** quando ainda quer validar demanda; **checkout direto** quando a oferta é validada.
 4. **Ancoragem de preço**: faz uma oferta cara, depois uma barata ("não posso entrar na de 25, mas na de 3 eu posso").
 
 **Onde encaixa no mês.** Ritmo semanal fixo. Cada semana pode falar com um público diferente. É a comunicação clara que sustenta a esteira.
@@ -126,7 +126,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 4. Storytelling + Oferta
 
-**O que é.** Contar uma micro-história de identificação e emendar a oferta. Jornada de transformação: como era, como está agora, o que não sabia, o que descobriu, como isso mudou o resultado. Funciona muito em público quente (close friends, e-mail, WhatsApp, Telegram). No material, uma única sequência dessas vendeu 37-38 mentorias.
+**O que é.** Contar uma micro-história de identificação e emendar a oferta. Jornada de transformação: como era, como está agora, o que não sabia, o que descobriu, como isso mudou o resultado. Funciona muito em público quente (close friends, e-mail, WhatsApp, Telegram). Uma única sequência dessas, na base certa, chega a carregar um lançamento inteiro de mentorias.
 
 **Quem pode rodar.** Quem tem uma base quente (close friends, lista) ou uma história real de transformação (própria ou de cliente).
 
@@ -146,7 +146,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 5. Reunião de R$100 (micro-lançamento)
 
-**O que é.** Um encontro pago, R$100, com os seguidores mais engajados. Entrega um conteúdo de verdade e faz a oferta high ticket no fim. O R$100 não é o produto: é o **filtro** que qualifica e garante presença (converte muito mais que reunião gratuita, onde ninguém aparece). No material: taxa reembolsável ao fim do encontro "se não valeu a pena", zero pedidos de reembolso em 80+ pessoas.
+**O que é.** Um encontro pago, R$100, com os seguidores mais engajados. Entrega um conteúdo de verdade e faz a oferta high ticket no fim. O R$100 não é o produto: é o **filtro** que qualifica e garante presença (converte muito mais que reunião gratuita, onde ninguém aparece). A taxa é reembolsável ao fim do encontro se a pessoa achar que não valeu, e é justamente por ser reembolsável e simbólica que quase ninguém pede de volta: filtra o curioso e ainda sinaliza confiança.
 
 **Dois formatos.**
 - **Turma pequena (sabatina)**: 10-15 pessoas, semanal. A pessoa interage, faz pergunta, recebe mentoria ao vivo. Mais intimista.
@@ -154,7 +154,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Quem pode rodar.** Audiência semente: ~200 views qualificados nos stories já sustenta uma turma.
 
-**Resultado esperado (benchmark do material, ponto de partida, não promessa).** ~R$4k+ por semana sem contar upgrades; ao longo de 2 meses, ~1 a cada 2 participantes sobe pra um programa maior.
+**Resultado esperado (slot aberto, não promessa).** Caixa imediato da própria taxa (nº de vagas × R$100) sem contar upgrades; e, ao longo dos meses seguintes, uma fatia relevante dos participantes sobe pra um programa maior `[preencha com teus números de sala e de subida]`.
 
 **Como funciona.**
 1. **Sequência de stories**: gancho que qualifica (enquete só com opções positivas, "esse é você? sim ou 100%") · a power offer (a reunião, a turma enxuta, a taxa simbólica reembolsável) · urgência (bônus pros primeiros) · [2h] prova social (print de gente comprando) · [2h] quebra de objeção via caixinha.
@@ -171,7 +171,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 6. Pré-venda (validar antes de criar)
 
-**O que é.** Vender o produto novo **antes** de criá-lo, pra validar com dinheiro na mesa. A premissa: todo produto novo nasce de uma **demanda reprimida** da audiência, não de um palpite. A pré-venda oferece uma condição especial e pega os mais engajados primeiro. No material: um programa fez 40k+ de lucro antes de estar pronto.
+**O que é.** Vender o produto novo **antes** de criá-lo, pra validar com dinheiro na mesa. A premissa: todo produto novo nasce de uma **demanda reprimida** da audiência, não de um palpite. A pré-venda oferece uma condição especial e pega os mais engajados primeiro. Bem feita, ela já paga o produto antes de ele existir: o caixa entra na frente da produção.
 
 **Quem pode rodar.** Quem tem audiência que responde (caixinha, enquete e DM ativas). Sem audiência que interage, não há demanda pra ler.
 
@@ -191,7 +191,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 7. Pix de Compromisso (congela o preço com 10%)
 
-**O que é.** Monetizar quem quer entrar mas ainda não tem o valor cheio: a pessoa paga 10% agora, **congela o preço** e garante a entrada num prazo (ex.: 6 meses). No material, o efeito é psicológico forte: "quando faz o Pix de compromisso, ela para de olhar outras mentorias no mercado". Serve também como quebra de objeção no 1:1 ("quero, mas não tenho o valor agora").
+**O que é.** Monetizar quem quer entrar mas ainda não tem o valor cheio: a pessoa paga 10% agora, **congela o preço** e garante a entrada num prazo (ex.: 6 meses). O efeito psicológico é forte: quem faz o Pix de compromisso para de olhar outras mentorias no mercado, porque já se comprometeu com a sua. Serve também como quebra de objeção no 1:1 ("quero, mas não tenho o valor agora").
 
 **Quem pode rodar.** Quem vai **subir o preço** (pode subir de propósito pra ancorar) ou sente demanda represada de gente decidida que ainda não se moveu.
 
@@ -204,7 +204,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 5. **A oferta**: "paga 10% agora (ex.: R$300 de R$3 mil), congela o preço pelos próximos 6 meses, entra a qualquer momento pagando a diferença (parcelável)."
 6. **Bônus que ajudam a juntar o resto** (masterclass, debriefing, sessão com quem congelou o preço) + link direto pros 10%.
 
-**Modo 1 a 1 (objeção "não tenho dinheiro"):** só no DM. "Você tá comprometido então? Faz um Pix de compromisso: 10% do valor, e eu te entrego [bônus] que te ajuda a conseguir o restante. Aí você complementa e entra." Tempo médio de entrada completa no material: ~2 semanas.
+**Modo 1 a 1 (objeção "não tenho dinheiro"):** só no DM. "Você tá comprometido então? Faz um Pix de compromisso: 10% do valor, e eu te entrego [bônus] que te ajuda a conseguir o restante. Aí você complementa e entra." A entrada completa costuma acontecer em poucas semanas, quando o bônus ajuda de verdade a juntar o resto.
 
 **Onde encaixa no mês.** Quando o cliente vai reajustar o preço, ou pra fechar o lead quente da Levantada de Mão / Reunião de R$100 que empacou só no valor.
 
@@ -216,7 +216,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 8. Vendas com Destaques (esteira organizada no perfil)
 
-**O que é.** Deixar todas as ofertas organizadas nos destaques do Instagram pra vender pro seguidor novo que chega todo dia, **sem postar sequência nova**. Cada destaque é uma mini-VSL que qualifica e manda pro DM/checkout. No material, é o que faz o perfil vender no piloto pros 150-200 seguidores novos/dia.
+**O que é.** Deixar todas as ofertas organizadas nos destaques do Instagram pra vender pro seguidor novo que chega todo dia, **sem postar sequência nova**. Cada destaque é uma mini-VSL que qualifica e manda pro DM/checkout. É o que faz o perfil vender no piloto pra cada leva de seguidor novo que chega, sem precisar de story novo.
 
 **Quem pode rodar.** Quem tem fluxo de seguidor novo chegando (orgânico ou tráfego rodando).
 
@@ -237,7 +237,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 ## 9. Vendas Automáticas (chatbot no DM + downsell)
 
-**O que é.** Plugar automação (ManyChat/chatbot) no DM pra qualificar e vender **no piloto**, com o robô revelando o preço cedo e filtrando o desqualificado sem gastar tempo do especialista. Usa uma oferta menor (consultoria/sessão) como **downsell** de quem não se qualifica pro programa principal. No material: R$30 mil em consultorias de 90min em 2 semanas por esse fluxo.
+**O que é.** Plugar automação (ManyChat/chatbot) no DM pra qualificar e vender **no piloto**, com o robô revelando o preço cedo e filtrando o desqualificado sem gastar tempo do especialista. Usa uma oferta menor (consultoria/sessão de 90min) como **downsell** de quem não se qualifica pro programa principal. Com volume de DM, esse fluxo vende consultoria no automático e libera o especialista pro high ticket `[mede teu resultado por fluxo]`.
 
 **Quem pode rodar.** Oferta já validada + volume de DM suficiente pra não querer responder tudo manual.
 
@@ -270,7 +270,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Quem executa.** O script e a condução 1:1 = `soft-vendas` (reativação de base). Se a novidade apresentada é uma mentoria (estruturar, precificar, formato) = `soft-mentoria`.
 
-**Ajuste Soft (atenção, o material de origem soa genérico).** O esqueleto original usa tom de robô educado: *"Espero que você esteja bem", "Agradeço pela confiança que sempre depositou"*. **Isso não passa no filtro anti-ia**, soa em massa, mata a tal "conexão genuína" que a jogada promete. Reescreve **na voz do cliente**: direto, real, como ele mandaria pra alguém que conhece de verdade. E apresenta a novidade pelo **teto que aquele cliente específico sente** (o resultado que ele buscava e não alcançou), não por "estou lançando". Lembrar dele de verdade > anunciar pra ele.
+**Ajuste Soft (atenção, o esqueleto genérico dessa jogada engana).** O molde padrão usa tom de robô educado: *"Espero que você esteja bem", "Agradeço pela confiança que sempre depositou"*. **Isso não passa no filtro anti-ia**, soa em massa, mata a tal "conexão genuína" que a jogada promete. Reescreve **na voz do cliente**: direto, real, como ele mandaria pra alguém que conhece de verdade. E apresenta a novidade pelo **teto que aquele cliente específico sente** (o resultado que ele buscava e não alcançou), não por "estou lançando". Lembrar dele de verdade > anunciar pra ele.
 
 ---
 

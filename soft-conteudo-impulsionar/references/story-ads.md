@@ -2,7 +2,7 @@
 
 > Reference puxada quando: o criativo a ser turbinado é um **story ad**, o anúncio no formato story que se camufla no conteúdo do dia a dia em vez de gritar promessa. Cobre a estrutura do roteiro, a regra de produção (foto/vídeo real, nunca banco/IA), a segmentação e os números de teste e escala.
 
-Adaptado de um método de aquisição de seguidor qualificado via story impulsionado, com filtro Soft. Este reference é sobre **o formato e a copy da associação**; a régua de verba, custo por seguidor e ROI é o resto da skill (o Passo 3 ao 5). A arte fica na `soft-designer`; a headline/copy dos criativos de promessa é da `soft-conteudo-headlines`.
+O jeito Soft de atrair seguidor qualificado via story impulsionado. Este reference é sobre **o formato e a copy da associação**; a régua de verba, custo por seguidor e ROI é o resto da skill (o Passo 3 ao 5). A arte fica na `soft-designer`; a headline/copy dos criativos de promessa é da `soft-conteudo-headlines`.
 
 ---
 
@@ -58,7 +58,7 @@ Deve parecer parte do seu dia, não um anúncio. Parecer que a pessoa já te seg
 
 ## Exemplos de story ad
 
-Modelos do material (a forma, não a copy literal a copiar, cada cliente escreve na própria voz e verdade):
+Modelos ilustrativos (a forma, não a copy literal a copiar, cada cliente escreve na própria voz e verdade):
 - Afirmação contraintuitiva, sem CTA: *"Vender [oferta] na DM é fácil. Difícil é convencer ele a sair daí."* (gera "como assim é fácil?").
 - Vídeo curto falando com a audiência: *"Segunda-feira, a regra é clara: trabalha pouco e ganha muito."*
 - Foto real de rotina + legenda da agenda: *"Agenda do dia: manhã livre, almoço em família, [compromisso do nicho], [entrega de cliente]. Fim."* (gera "quem é esse cara?").

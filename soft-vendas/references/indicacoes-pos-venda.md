@@ -2,7 +2,7 @@
 
 > Reference puxada quando: o pedido envolve o que acontece DEPOIS do fechamento, gerar indicação, pedir testemunho, manter relacionamento, criar canal de inbound via cliente atual, expandir LTV. Skill atual cobre venda nova; esta cobre o ciclo de vida do cliente fechado.
 
-Adaptado da doutrina clássica de mentalidade de venda (os princípios de "merecer" e "provar" o relacionamento) com filtro Soft.
+O pós-venda do método: os princípios de MERECER a indicação (em vez de pedir) e de PROVAR o relacionamento, com filtro Soft.
 
 ---
 
@@ -13,7 +13,7 @@ Adaptado da doutrina clássica de mentalidade de venda (os princípios de "merec
 - A regra de ouro
 - Os 3 ativos do pós-venda
 - Ativo 1, Indicação
-- Ativo 2, Testemunho (inclui a Caixa, testemunho por design)
+- Ativo 2, Testemunho (inclui a troca bônus-por-prova, testemunho por design)
 - Ativo 3, Expansão
 - Cadência de manutenção de relacionamento (sem virar gerente de conta)
 - Métricas do pós-venda
@@ -30,9 +30,9 @@ A skill comercial atual termina na **Fase 7 (Fechamento)**. Vende, recebe, agend
 
 **Buraco:** o cliente fechado é o ativo mais barato pra gerar próxima venda. E a maioria dos especialistas Soft Business **não tem nenhum sistema** pra extrair valor desse ativo.
 
-Frase central da mentalidade de venda:
+A regra central do pós-venda:
 
-> *"Se você fizer uma venda, ganhará uma comissão. Se você fizer um amigo, ganhará uma fortuna."*
+> **Uma venda te dá uma comissão; um cliente que vira amigo te dá uma rede que vende por você.**
 
 Tradução Soft: cliente bem entregue **vira vendedor**. Sem precisar pagar, sem precisar pedir muito. Mas não sozinho, precisa de **sistema** que torne o ato de indicar e dar testemunho **fácil pra ele**.
 
@@ -57,7 +57,7 @@ Tradução Soft: cliente bem entregue **vira vendedor**. Sem precisar pagar, sem
 
 ## A regra de ouro
 
-> *"Eu não acredito em pedir referências. Acredito em ganhar referências."* (princípio clássico de mentalidade de venda)
+> **Indicação não se pede, se ganha.** O caminho não é implorar referência: é merecer, entregando resultado, e aí colher.
 
 Tradução Soft: indicação **só vem quando o cliente teve resultado concreto**. Pedir antes do resultado = queimar relacionamento + ouvir genérico que não converte.
 
@@ -156,9 +156,9 @@ Cliente que **quer** indicar mas não sabe como, não indica. Skill resolve:
 
 ## Ativo 2, Testemunho
 
-### A doutrina da prova social
+### A regra da prova social
 
-> *"Um testemunho vale cem apresentações de vendas. Testemunhos superam objeções um milhão de vezes mais do que o melhor vendedor do mundo."*
+> **Um testemunho vale por cem argumentos de venda.** A prova de um cliente derruba objeção melhor do que qualquer vendedor, porque não é você falando de você.
 
 Tradução Soft: testemunho não é "depoimento bonitinho pra colocar no perfil". É **arma de venda** que funciona quando vendedor não está presente.
 
@@ -173,7 +173,7 @@ Tradução Soft: testemunho não é "depoimento bonitinho pra colocar no perfil"
 
 **Princípio:** quanto mais **humano** o formato (rosto, voz, espontaneidade), mais converte. Texto polido vira propaganda, vídeo cru vira prova.
 
-### Como pegar testemunho em vídeo (método clássico adaptado)
+### Como pegar testemunho em vídeo (o passo a passo)
 
 ```
 1. Identifica 5 melhores clientes (top resultado, top engajamento)
@@ -200,17 +200,17 @@ Tradução Soft: testemunho não é "depoimento bonitinho pra colocar no perfil"
 
 **Por que essas 3:** estrutura "antes → depois → recomendação" cria narrativa de transformação que outros leads consomem identificando-se com o "antes".
 
-### A Caixa, testemunho manufaturado por design (troca ganha-ganha)
+### A troca bônus-por-prova, testemunho por design (ganha-ganha)
 
-Bom depoimento não é sorte, é **provocado**. A mecânica da Caixa: você **libera um bônus/conteúdo extra em troca do depoimento**. É um "suborno legalizado" ganha-ganha, você dá valor a mais e recebe a prova.
+Bom depoimento não é sorte, é **provocado**. A mecânica: você **libera um bônus/conteúdo extra em troca do depoimento**. É uma troca ganha-ganha, você dá valor a mais e recebe a prova.
 
 - **Enquadramento pro cliente:** *"Se você gostou do que aprendeu, me deixa um depoimento da sua experiência que eu te libero um pouco mais de conteúdo."* O bônus só desbloqueia depois do depoimento.
 - **Os passos que você pede** (nesta ordem): (1) deixe o depoimento da experiência; (2) de preferência **compartilhe vitórias, mesmo pequenas**; (3) **inclua prints** se tiver; (4) depois, apresente-se na comunidade/grupo.
 - **A régua que faz caprichar:** deixa fixado que **"depoimento de baixo valor não será aceito"**. É o que faz as pessoas digitarem melhor, em vez de mandar um "gostei" seco.
-- **Separa os dois tipos de prova:** o **depoimento de experiência** (como foi a experiência, disponível na hora, o que você coleta com a Caixa) é diferente do **case de resultado** (o resultado gerado, que vem depois, em 15-90 dias, quando a pessoa executou e faturou). A Caixa industrializa o primeiro; o segundo você colhe no marco de resultado (ver Ativo 1, gatilho de indicação).
+- **Separa os dois tipos de prova:** o **depoimento de experiência** (como foi a experiência, disponível na hora, o que você coleta com a troca) é diferente do **case de resultado** (o resultado gerado, que vem depois, em 15-90 dias, quando a pessoa executou e faturou). A troca industrializa o primeiro; o segundo você colhe no marco de resultado (ver Ativo 1, gatilho de indicação).
 - **A conta que justifica:** **2 consultorias/entregas = 6 provas**. Cada uma rende (1) o print da venda no ato, (2) o registro durante a entrega, (3) o depoimento de experiência ao final. E, se a pessoa executar, vira a quarta prova (o case) mais tarde. Duas entregas viram um banco de prova sem custo extra.
 
-**Ajuste Soft:** a Caixa não compra elogio falso, troca conteúdo real por um relato real. O depoimento é da experiência que a pessoa **de fato teve**; se o programa não entregou, a Caixa não salva (e nem deve). É coleta por design de prova verdadeira, não fabricação de prova mentirosa.
+**Ajuste Soft:** a troca não compra elogio falso, troca conteúdo real por um relato real. O depoimento é da experiência que a pessoa **de fato teve**; se o programa não entregou, a troca não salva (e nem deve). É coleta por design de prova verdadeira, não fabricação de prova mentirosa.
 
 ### Onde testemunho entra na venda
 
