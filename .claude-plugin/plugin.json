@@ -1,0 +1,9 @@
+{
+  "name": "soft-skills",
+  "displayName": "Soft Skills",
+  "version": "1.0.1",
+  "description": "Sistema Soft Business completo: LEON conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
+  "author": {
+    "name": "Léo Molina"
+  }
+}
