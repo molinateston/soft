@@ -58,7 +58,7 @@ whisper aula.mp3 --language pt --model medium --output_format txt --output_dir .
 
 `-ar 16000 -ac 1` é a taxa ideal pro Whisper. Modelo `medium` é o padrão pra apostila (`small` se o áudio for longo e faltar GPU, `large-v3` pra máxima qualidade). Saída: `out/aula.txt`.
 
-**APP-FALLBACK (sem Whisper/Bash):** no app (Claude.ai), você NÃO transcreve nem publica. Receba a transcrição pronta ou o texto colado pelo dono, siga direto pra segmentação e enriquecimento, e entregue a apostila como artifact MD. O HTML navegável e o deploy no Cloudflare Pages ficam como passo do Claude Code.
+**APP-FALLBACK (sem Whisper/Bash):** no app (Claude.ai), você NÃO transcreve nem publica, mas a apostila sai igual. Receba a transcrição pronta ou o texto colado pelo dono, siga direto pra segmentação e enriquecimento, e entregue a apostila como artifact MD, mesma fidelidade e mesma estrutura de capítulos. O HTML navegável e o deploy no Cloudflare Pages ficam como passo do Claude Code. Fecha em 1 linha o que ele passa a ganhar: "no Claude Code, com o Whisper, você me manda só o MP4 e eu transcrevo, monto e publico o site sozinho" (pra ele escolher, sem empurrar).
 
 ### 2) Limpar sem virar resumo
 

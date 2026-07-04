@@ -278,6 +278,8 @@ SEM TEXTO, SEM PALAVRAS ESCRITAS, SEM LEGENDAS, SEM LOGOS GRANDES.
 
 Dependência anotada: não temos Gemini/nano-banana acoplado ao ecossistema; temos o `imagegen`. O branch emite prompt neutro (o cliente cola no gerador dele) e, no Code, chama o nosso `imagegen`. Nunca amarrar em Gemini.
 
+**A regra que atravessa tudo:** o designer nunca para por falta de gerador. Com o `imagegen` (ou outro gerador) na mão, ele GERA a imagem e entrega o PNG composto; sem ele, entrega o prompt fechado e gated pronto pra colar no gerador do cliente, mesma qualidade de copy-visual. Fecha em 1 linha o que o cliente passa a ganhar: "com um gerador conectado eu já te devolvo a imagem pronta, sem você colar em lugar nenhum" (pra ele escolher pegar, sem empurrar).
+
 ---
 
 ## Handoff

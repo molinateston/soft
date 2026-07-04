@@ -113,6 +113,8 @@ Quando ele confirmar, entregar o site como **artifact HTML**, em UMA peça só, 
 
 A publicação no Cloudflare Pages é passo do Claude Code (com o token do dono no ambiente); no app, entrega-se o HTML e o dono publica pelo fluxo dele.
 
+**A proposta nunca fica presa por falta de deploy.** Com o token de publicação do dono no ambiente, você PUBLICA e devolve o link privado pronto pra mandar. Sem o token (ou no app), entrega o HTML final pronto pra publicar e o passo-a-passo curto (arrastar o arquivo em pages.cloudflare.com > Create > Upload, ou o comando `wrangler pages deploy`), mesma proposta, só sem o link automático. Fecha em 1 linha o que ele passa a ganhar: "com seu token do Cloudflare salvo, eu já te devolvo o link privado publicado, sem você subir nada" (pra ele escolher, sem empurrar).
+
 ## 📦 O QUE ESTA SKILL PRODUZ
 
 Uma proposta comercial premium, entregue como **site HTML estático single-file** (zero build, CSS+JS inline, funciona offline), com link **único e privado** por cliente:

@@ -1,34 +1,26 @@
-# reference: execução Meta Ads (duas vias: MCP oficial × Marketing API)
+# reference: execução Meta Ads (Marketing API direta)
 
-> Memória operacional de quem opera a conta de anúncios de verdade. As duas vias de execução, a estrutura oficial da campanha, os workflows canônicos e os anti-patterns da API. O corpo da SKILL.md já é executável; aqui mora a profundidade que o app não abre.
+> Memória operacional de quem opera a conta de anúncios de verdade pela Marketing API direta (via por token da casa). É um dos caminhos de execução real, equivalente à pipeboard self-host. Aqui mora a estrutura oficial da campanha, os endpoints, os workflows canônicos e os anti-patterns da API. O motor MCP (pipeboard) e suas duas trilhas de conexão estão em `motor-pipeboard.md`. O corpo da SKILL.md já é executável; aqui mora a profundidade que o app não abre.
 
 ## Índice
-- 0. As duas vias (quando usar cada)
+- 0. Onde esta via entra (× o motor pipeboard)
 - 1. Estrutura oficial de uma campanha
-- 2. Via A: MCP oficial da Meta (mapa dos tools)
-- 3. Via B: Marketing API direta (endpoints + credenciais da casa)
-- 4. Otimizar pra VENDA, não pra lead
-- 5. Workflows canônicos
-- 6. Anti-patterns técnicos da API
-- 7. Regra de ouro de segurança
+- 2. Endpoints da Marketing API direta (+ credenciais da casa)
+- 3. Otimizar pra VENDA, não pra lead
+- 4. Workflows canônicos
+- 5. Anti-patterns técnicos da API
+- 6. Regra de ouro de segurança
 
 ---
 
-## 0. As duas vias (quando usar cada)
+## 0. Onde esta via entra (× o motor pipeboard)
 
-A skill executa pela via que estiver disponível no ambiente. As duas fazem a mesma coisa; muda a autenticação.
+A skill tem dois caminhos de execução REAL, além do plano manual quando não há nenhum:
 
-| | Via A, MCP oficial | Via B, Marketing API direta |
-|---|---|---|
-| Autenticação | OAuth da própria Meta, sem credencial de dev | token de acesso da conta (`META_ACCESS_TOKEN`) |
-| Setup | o dono conecta 1x (login + autoriza a conta) | credenciais já no ambiente da casa |
-| Endpoint | `https://mcp.facebook.com/ads` | `https://graph.facebook.com/<versão>/...` |
-| Cobre | Facebook + Instagram Ads | Facebook + Instagram Ads |
-| Limite | ~200 chamadas/hora por conta de anúncios | limite de rate do app/token |
-| Escrita | TOTAL, sem rascunho/undo/confirmação da Meta | TOTAL, idem |
-| Quando usar | quando o dono conectou o conector oficial | quando a casa opera por token (default hoje) |
+- **Motor pipeboard (MCP):** a `meta-ads-mcp` expõe as tools reais (`create_campaign`, `create_adset`, `upload_ad_image`, `create_ad_creative`, `create_ad`, `update_adset`, `update_ad`, `get_insights`, `search_*`). Duas trilhas de conexão (remote 2-min × self-host BSL). Detalhe em `motor-pipeboard.md`. É o caminho principal do produto.
+- **Marketing API direta (esta reference):** a casa fala com o Graph por token próprio (`META_ACCESS_TOKEN`), sem MCP no meio. Equivale à pipeboard self-host em capacidade; é o que a casa já usa por token hoje.
 
-Regra: **prefira a Via A quando o conector estiver plugado** (mais limpa, sem gerir token). Se não estiver, roda pela **Via B** com os tokens da casa. Nenhuma das duas tem undo, a segurança está na regra de ouro (Seção 7), não na plataforma.
+As duas mexem na mesma conta, escrita total sem undo. A segurança está na regra de ouro (Seção 6), não na plataforma. Quando NENHUMA está disponível, a skill entrega o plano pronto pra colar no Gerenciador (nunca para por falta de motor).
 
 ---
 
@@ -46,43 +38,9 @@ Hierarquia: **Campanha → Conjunto de anúncios (ad set) → Anúncio (ad) → 
 
 ---
 
-## 2. Via A: MCP oficial da Meta (mapa dos tools)
+## 2. Endpoints da Marketing API direta (+ credenciais da casa)
 
-Endpoint único: `https://mcp.facebook.com/ads`. Os tools por categoria:
-
-**Descoberta:**
-- `ads_get_ad_accounts`: lista contas; cada item traz `is_ads_mcp_enabled` (se `false`, NÃO usar essa conta).
-- `ads_get_pages_for_business`: pega o `page_id` pra montar o criativo.
-
-**Criação (tudo nasce PAUSED; ativar é call separada COM OK do dono):**
-- `ads_create_campaign`: objetivos ODAX. CBO se setar budget aqui; ABO se deixar vazio e setar no ad set.
-- `ads_create_ad_set`: `promoted_object` com pixel obrigatório pra `OUTCOME_SALES` + `WEBSITE`.
-- `ads_create_ad`: required: `ad_set_id`, `ad_name`, `creative`.
-- `ads_update_entity`: modifica campaign/ad_set/ad. Pra pausar: `fields={"status":"PAUSED"}`.
-- `ads_activate_entity`: PAUSED→ACTIVE. Ativar a hierarquia inteira, de cima pra baixo. SEMPRE com confirmação do dono.
-
-**Reporting:**
-- `ads_get_ad_entities`: leitura principal. Setar `level` (campaign/adset/ad), `fields` (incluir id+name), `filtering`, `sort`, `breakdowns`, `time_range`. Pra topo+fundo, 2 calls com `sort` invertido.
-
-**Insights analíticos:**
-- `ads_insights_advertiser_context`: overview business+funil (usar no início da auditoria).
-- `ads_insights_performance_trend`: série temporal (CPC/CPM/CPR/ROAS/CTR/CVR).
-- `ads_insights_anomaly_signal`: desvios (observação, não causa).
-- `ads_insights_auction_ranking_benchmarks`: competitividade de leilão + audiência sobreposta.
-- `ads_insights_industry_benchmark`: vs indústria.
-- `ads_get_opportunity_score`: score 0-100 da CONTA. Recomendações por `opportunity_score_lift` (pontos). NUNCA atribuir a campanha/ad set/ad.
-
-**Diagnóstico:**
-- `ads_get_errors`: só hard-stops de entrega (não performance/pacing).
-- `ads_get_help_article`: help center da Meta pra conceitos/políticas.
-
-**Catalog** (precisa permissão `catalog_management`): `ads_catalog_get_catalogs` (listar antes de criar, regra "one catalog"), `ads_catalog_create` (`feed_url` XOR `items` XOR `feed_file_content` base64), `ads_catalog_get_details`, `ads_catalog_get_diagnostics` (MUST_FIX vs OPPORTUNITY), `ads_catalog_get_feed_rules`, `ads_catalog_get_products` (filtro `retailer_id` = SKU alfanumérico), `ads_catalog_get_product_details` (só FBID numérico), `ads_catalog_get_product_sets`, `ads_catalog_get_product_set_products`, `ads_catalog_get_product_feed_details`.
-
-**Datasets / Pixel / CAPI:** `ads_get_dataset_details` (config + status; sinaliza `last_fired_time` velho = pixel morto), `ads_get_dataset_quality` (EMQ + match keys + freshness), `ads_get_dataset_stats` (lookback MÁX 28 dias; timestamps em Unix string, não ISO).
-
----
-
-## 3. Via B: Marketing API direta (endpoints + credenciais da casa)
+> Pra rodar o motor MCP (pipeboard) e o mapa das tools reais, ver `motor-pipeboard.md`. Esta seção é a via por token, falando com o Graph direto.
 
 Base: `https://graph.facebook.com/<versão>/`. Credenciais no ambiente:
 - `META_ACCESS_TOKEN` (ou `META_ACCESS_TOKEN_LEO`): o token.
@@ -103,7 +61,7 @@ CAPI (conversão server-side, opcional mas melhora a otimização): `POST /<pixe
 
 ---
 
-## 4. Otimizar pra VENDA, não pra lead
+## 3. Otimizar pra VENDA, não pra lead
 
 Princípio herdado: uma campanha de venda otimiza pra **conversão de compra**, não pra volume de lead barato.
 - Objetivo `OUTCOME_SALES`, `optimization_goal=OFFSITE_CONVERSIONS`, `promoted_object` com o pixel e `custom_event_type="PURCHASE"`.
@@ -113,22 +71,22 @@ Princípio herdado: uma campanha de venda otimiza pra **conversão de compra**, 
 
 ---
 
-## 5. Workflows canônicos
+## 4. Workflows canônicos
+
+Os nomes de tool abaixo são os reais do motor pipeboard (`get_ad_accounts`/`create_campaign`/`create_adset`/`create_ad`/`get_insights`/`update_adset`/`update_ad`/`search_*`); pela Marketing API direta os passos equivalem aos endpoints da Seção 2 (`GET /me/adaccounts`, `POST .../campaigns`, `.../insights`, etc.).
 
 **Auditoria de conta** (antes de criar qualquer coisa):
-`get_ad_accounts` → `get_opportunity_score` → `anomaly_signal` → `auction_ranking_benchmarks` → `industry_benchmark` → `get_errors`. Se aparecer hard-stop de entrega ou pixel morto, PARA e reporta antes de criar campanha.
+`get_ad_accounts` (confere a conta habilitada) → `get_insights` no nível conta pra opportunity score / anomalia / benchmarks → checa erros de entrega. Se aparecer hard-stop de entrega ou pixel morto, PARA e reporta antes de criar campanha.
 
 **Criar campanha SALES com pixel:**
-`get_ad_accounts` → `get_pages_for_business` → `create_campaign` (ABO, sem budget na campanha) → `create_ad_set` (`promoted_object` com pixel + `PURCHASE`) → `create_ad` → revisar → **STOP, pede OK** → `activate_entity` (campanha → ad set → ad, em ordem).
+`get_ad_accounts` → `search_interests`/`search_geo_locations` (monta o público) → `create_campaign` (ABO, sem budget na campanha) → `create_adset` (`promoted_object` com pixel + `PURCHASE`) → `upload_ad_image` → `create_ad_creative` → `create_ad` → revisar → **STOP, pede OK** → `update_adset`/`update_ad` pra ACTIVE (campanha → ad set → ad, em ordem).
 
 **Campanha não entrega:**
-`get_ad_entities` (acha os filhos com 0 impressões) → `get_errors` → `auction_ranking_benchmarks` → se for conversão, `dataset_quality` + `dataset_stats` (pixel disparando? EMQ ok?). Reporta o gargalo; a DECISÃO de fix (trocar público, refrescar criativo) volta pra impulsionar.
-
-**Catálogo** (só se o negócio vende produto físico com feed): `get_catalogs` → `get_details` → `get_diagnostics(MUST_FIX)` → `get_diagnostics(OPPORTUNITY)` → `product_feed_details` + `feed_rules`.
+`get_ads`/`get_adsets` (acha os filhos com 0 impressões) → checa erros de entrega → benchmarks de leilão → se for conversão, confere o pixel (disparando? EMQ ok?). Reporta o gargalo; a DECISÃO de fix (trocar público, refrescar criativo) volta pra impulsionar.
 
 ---
 
-## 6. Anti-patterns técnicos da API
+## 5. Anti-patterns técnicos da API
 
 - Ativar/mudar budget sem confirmação do dono (gasta dinheiro real, sem undo).
 - Objetivo legado (só ODAX).
@@ -136,16 +94,15 @@ Princípio herdado: uma campanha de venda otimiza pra **conversão de compra**, 
 - `OUTCOME_SALES` + site sem pixel no `promoted_object` (não otimiza pra compra).
 - Otimizar campanha de venda pra lead/clique barato (enche de curioso).
 - Atribuir Opportunity Score a campaign/ad set/ad (é nível de CONTA).
-- Criar catálogo sem listar primeiro (perde signal; regra "one catalog").
-- Confundir `retailer_id` (SKU alfanumérico) com FBID (numérico longo).
-- Lookback > 28 dias em `dataset_stats`; timestamp em ISO 8601 (é Unix string).
-- Usar uma conta com `is_ads_mcp_enabled=false` (não está habilitada; usa outra ou habilita no Business Manager).
+- Lookback grande demais na leitura de dataset; timestamp em formato errado.
+- Usar uma conta de anúncios não habilitada (confere no `get_ad_accounts`; usa outra ou habilita no Business Manager).
+- Inventar nome de tool fora da lista real do motor (`motor-pipeboard.md`).
 
 ---
 
-## 7. Regra de ouro de segurança
+## 6. Regra de ouro de segurança
 
-O acesso (por qualquer via) é de **escrita total, sem rascunho, sem undo, sem tela de confirmação da Meta**. A segurança inteira está no protocolo, não na plataforma:
+O acesso (por qualquer via, pipeboard ou token direto) é de **escrita total, sem rascunho, sem undo, sem tela de confirmação da Meta**. A segurança inteira está no protocolo, não na plataforma:
 
 1. **Toda entidade nasce PAUSED.** Criar não gasta; ativar gasta.
 2. **Ativar ou mudar budget é sempre uma call separada, COM o "pode ativar?" respondido pelo dono.** Mostra o plano (verba/dia × dias = total), pede o OK, só então ativa.

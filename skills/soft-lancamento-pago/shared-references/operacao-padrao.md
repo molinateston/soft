@@ -146,3 +146,14 @@ Se uma frase pode ser cortada sem perda, corta. Se uma seção pode ser comprimi
 A skill mais leve é a skill mais útil - porque sobra token pra você trabalhar em lote.
 
 Esse princípio vale pra escrita da skill E pro arquivo que ela entrega: o `.md` de output segue a Lei 6 da Seção 0 (enxuto pros 2 leitores). Mesma régua, dois alvos.
+
+---
+
+## 8. Melhor resultado com as ferramentas que o usuário TEM (adaptação por ferramenta)
+
+A skill NUNCA trava por falta de ferramenta. Entrega o MELHOR resultado possível com o que o usuário tem AGORA. Vale nos 3 ambientes (app, Code, agente) e pra qualquer ferramenta.
+
+1. **Detecta ou pergunta o que ele tem.** Ferramenta conectada, acesso, dado, credencial. Usa o MELHOR caminho disponível.
+2. **Ferramenta ideal presente = executa.** Se dá pra rodar (ex.: pipeboard pro Meta Ads, imagegen pra arte, CRM/GHL pro SDR, Whisper pra transcrever, Cloudflare pra publicar), usa e entrega o resultado EXECUTADO, não só o plano.
+3. **Ferramenta ausente = entrega pronto pra executar na mão.** Mesma qualidade de método: o plano completo, a copy, o passo-a-passo exato de onde clicar. Nunca um stub, nunca "não consigo".
+4. **Fecha em 1 linha** dizendo o que ele DESTRAVARIA com a ferramenta, pra ele escolher pegar. Sem empurrar.

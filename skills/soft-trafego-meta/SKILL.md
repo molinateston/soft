@@ -1,6 +1,6 @@
 ---
 name: soft-trafego-meta
-description: Executa tráfego pago no Meta (Facebook/Instagram) de verdade, cria campanha ODAX, sobe criativo, lê métrica, escala ou pausa, e publica post + liga a automação comentário-para-DM, tudo na conta do próprio dono via MCP oficial da Meta ou Marketing API. É a MÃO que opera a plataforma; a CABEÇA que DECIDE o que turbinar, verba, 50/30/20 e régua mora na soft-conteudo-impulsionar (é o gate de entrada desta skill). Use quando o pedido for "sobe/cria/ativa a campanha", "publica o carrossel no Instagram", "liga o comment-to-DM", "puxa as métricas da conta", "pausa/escala a campanha", "conecta minha conta de anúncios", "auditar a conta de ads", "por que a campanha não entrega". NÃO use pra DECIDIR estratégia de verba, distribuição ou diagnóstico de retorno (soft-conteudo-impulsionar), nem pra a COPY/CTA do anúncio (soft-conteudo-headlines/-carrossel/-reels), nem pra a ARTE (soft-designer), nem pra lançamento com evento/ingresso (soft-lancamento-pago).
+description: 'Executa tráfego pago no Meta (Facebook/Instagram) de verdade, cria campanha ODAX, sobe criativo, lê métrica, escala ou pausa, e publica post + liga a automação comentário-para-DM, na conta do próprio dono. Tool-adaptive: com a pipeboard (motor Meta Ads) conectada EXECUTA via as tools reais; sem ela entrega o plano pronto pra colar no Gerenciador. É a MÃO que opera; a CABEÇA que DECIDE o que turbinar, verba, 50/30/20 e régua mora na soft-conteudo-impulsionar (é o gate de entrada desta skill). Use quando o pedido for "sobe/cria/ativa a campanha", "publica o carrossel no Instagram", "liga o comment-to-DM", "puxa as métricas da conta", "pausa/escala a campanha", "conecta minha conta de anúncios", "por que a campanha não entrega". NÃO use pra DECIDIR estratégia de verba, distribuição ou diagnóstico de retorno (soft-conteudo-impulsionar), nem pra a COPY/CTA do anúncio (soft-conteudo-headlines/-carrossel/-reels), nem pra a ARTE (soft-designer), nem pra lançamento com evento/ingresso (soft-lancamento-pago).'
 ---
 
 # Tráfego Meta, a mão que executa na plataforma (a cabeça é a impulsionar)
@@ -21,7 +21,7 @@ Só executa se as duas condições abaixo estiverem cumpridas. Se qualquer uma f
 
 ## Output Contract (o que você entrega)
 - **No Claude Code / agente (tem Bash + credencial):** a operação EXECUTADA na conta: IDs criados (campaign_id, adset_id, ad_id, creative_id), o post publicado (media_id + permalink), a automação ligada (id + status), as métricas lidas (tabela). Tudo nasce PAUSED; a ativação é uma call separada COM OK do dono. A entrega final é um **arquivo `.md`** (o runbook do que foi feito + IDs + próximos passos) cujo **path completo vai na resposta**.
-- **No app/chat (sem Bash):** você NÃO opera a plataforma. Entrega o **checklist de execução pronto pra colar** (a sequência exata de calls/campos que quem tem a credencial roda) + as **copys/legendas finais** (= a copy JÁ APROVADA da `soft-conteudo-*` transcrita no campo exato do anúncio (`link_data`/`caption`), NÃO copy nova escrita aqui) + o mapa de campos da automação, tudo num doc MD. Deixa claro que a execução na conta acontece no Code/agente. Em app/chat os STOPs NÃO são perguntas de aprovação ao vivo: não há o que ativar, o doc é o deliverable inteiro pro dono da credencial; o checklist só MARCA onde quem tem a credencial precisa parar e obter o OK do dono antes de ativar/publicar.
+- **No app/chat (sem Bash):** se o dono adicionou o **conector MCP da pipeboard**, você opera por ele (com o "pode ativar?" antes de cada escrita). Sem o conector, você NÃO opera a plataforma e entrega o **plano de campanha pronto pra colar no Gerenciador** (a estrutura campanha → ad set → ad → criativo com todos os campos + o passo a passo de onde clicar) + as **copys/legendas finais** (= a copy JÁ APROVADA da `soft-conteudo-*` transcrita no campo exato do anúncio (`link_data`/`caption`), NÃO copy nova escrita aqui) + o mapa de campos da automação, tudo num doc MD, fechando em 1 linha que conectar a pipeboard executa isso sozinho. Quando não há conector, os STOPs NÃO são perguntas de aprovação ao vivo: não há o que ativar, o doc é o deliverable inteiro pro dono da credencial; o plano só MARCA onde quem executa precisa parar e obter o OK do dono antes de ativar/publicar.
 - Você **nunca ativa campanha nem muda budget sem OK explícito**. Você **nunca inventa uma métrica**: número vem da API real; sem leitura, marca `[LER: rodar insights]`.
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE
@@ -30,29 +30,36 @@ O RESULTADO desta skill sai como **UM documento markdown consolidado**. No **cla
 ## Os 3 ambientes (a mesma skill, entrega diferente)
 | Ambiente | Tem Bash? | O que esta skill faz | Entrega |
 |---|---|---|---|
-| **app / chat (claude.ai)** | Não | Prepara tudo: monta o checklist de calls, as copys/legendas prontas, o mapa de campos da automação | Doc MD com checklist + copys; avisa que a execução na conta roda no Code/agente |
-| **Claude Code** | Sim | Executa via MCP/Marketing API com as credenciais do `.env`: cria campanha/adset/ad, publica post, liga automação, lê métrica | Operação feita + arquivo `.md` (runbook + IDs + permalink) com o path na resposta |
-| **agente / Telegram** | Sim | Igual ao Code, com as credenciais do dono no ambiente | Operação feita; resposta ao dono = frase curta sem markdown pesado + **path completo do arquivo** |
+| **app / chat (claude.ai)** | Não | Se o dono adicionou o **conector MCP da pipeboard**, opera por ele; senão prepara tudo: o **plano de campanha pronto pra colar no Gerenciador**, as copys/legendas prontas, o mapa de campos da automação | Operação feita (se conector) OU doc MD com o plano manual + copys, avisando que conectar a pipeboard executa isso sozinho |
+| **Claude Code** | Sim | Executa via pipeboard (subprocess/MCP) ou Marketing API com as credenciais do ambiente: cria campanha/adset/ad, publica post, liga automação, lê métrica | Operação feita + arquivo `.md` (runbook + IDs + permalink) com o path na resposta |
+| **agente / Telegram** | Sim | Igual ao Code, com a pipeboard/credenciais do dono no ambiente | Operação feita; resposta ao dono = frase curta sem markdown pesado + **path completo do arquivo** |
 
-**Os STOPs em app/chat:** no app não há credencial e nada pode ser ativado nem publicado, então "pode ativar?" e "publico e ligo?" NÃO são perguntas de aprovação ao vivo. O checklist apenas MARCA no doc, no ponto exato, onde quem tem a credencial precisa parar e obter o OK do dono antes de ativar/publicar. Nunca simule um "pode, pode ativar" do dono nem finja que ativou: o doc é o deliverable inteiro.
+**Os STOPs em app/chat (sem conector):** sem credencial nem conector nada pode ser ativado nem publicado, então "pode ativar?" e "publico e ligo?" NÃO são perguntas de aprovação ao vivo. O plano apenas MARCA no doc, no ponto exato, onde quem executa precisa parar e obter o OK do dono antes de ativar/publicar. Nunca simule um "pode, pode ativar" do dono nem finja que ativou: o doc é o deliverable inteiro. Se o dono tem o **conector MCP da pipeboard** no app, aí sim os STOPs voltam a ser perguntas ao vivo (você opera).
 
 **Pedido que junta as duas trilhas:** se a mensagem combina campanha paga (Passo 2/4) E publicação + automação comment-to-DM (Passo 3) numa coisa só, o doc carrega AS DUAS trilhas (ou executa em sequência no Code/agente). Nunca dropa uma metade em silêncio: atendeu a campanha, atende também a publicação, e vice-versa.
 
-## PASSO 0: Confirma via de execução e credenciais
-Duas vias, a skill usa a que estiver disponível:
+## MOTOR DE EXECUÇÃO (o fork tool-adaptive: entrega o melhor com o que o dono tem AGORA)
+Esta skill NUNCA para por falta de ferramenta. Ela detecta o que o dono tem conectado e usa o melhor caminho; o que muda é COMO a operação sai, não SE sai. Roda o GATE DE ENTRADA acima ANTES de qualquer coisa; só depois escolhe o motor.
 
-**Via A, MCP oficial da Meta** (mais limpo, OAuth, sem credencial de dev). Endpoint único: `https://mcp.facebook.com/ads`. O dono conecta uma vez (login Meta + autoriza a conta de anúncios). Cobre Facebook + Instagram Ads. Limite ~200 chamadas/hora por conta. **Acesso de escrita TOTAL sem rascunho/undo/confirmação da Meta**, por isso a regra de ouro (nasce PAUSED, ativar só com OK).
+**COM a pipeboard conectada (remote OU self-host) = EXECUTA de verdade.** A `pipeboard` (motor `meta-ads-mcp`, open source sob BSL 1.1, livre pro nosso uso dentro da skill/produto) expõe as tools reais da Meta Ads via MCP. Você opera a conta chamando os tools reais, com o "pode ativar?" respondido pelo dono antes de CADA escrita:
+- Descoberta/leitura: `get_ad_accounts`, `get_campaigns`, `get_adsets`, `get_ads`, `get_insights`.
+- Público: `search_interests`, `search_behaviors`, `search_demographics`, `search_geo_locations` (monta o targeting do plano da impulsionar com os IDs reais da Meta).
+- Criação (tudo nasce PAUSED): `create_campaign`, `create_adset`, `upload_ad_image`, `create_ad_creative`, `create_ad`.
+- Edição/ativação: `update_adset`, `update_ad` (pra pausar/ativar/mudar budget, sempre call separada COM OK).
 
-**Via B, Marketing API direto** (o que a casa já usa). Credenciais no ambiente:
-- `META_ACCESS_TOKEN` (ou `_LEO`): token da conta.
-- `META_AD_ACCOUNT_*`: a conta de anúncios (`act_<id>`).
-- `META_PAGE_ID`: a Página, obrigatória pro criativo.
-- `META_LEOMOLINA_PIXEL` (+ CAPI token): pixel/dataset, obrigatório pra objetivo SALES + site.
-- Publicação de post no IG: token do tipo Instagram Login em `graph.instagram.com`.
+**SEM a pipeboard (nem outro motor Meta) = ENTREGA O PLANO PRONTO PRA EXECUTAR NA MÃO.** Nunca um "não consigo". Você monta o **plano de campanha completo pronto pra colar no Gerenciador de Anúncios**: a estrutura campanha → ad set → ad → criativo com todos os campos (objetivo ODAX, público detalhado, verba/dia, duração, criativo, legenda aprovada, CTA/destino) e o **passo a passo exato de onde clicar** no Gerenciador. Mesma qualidade de método, só a execução fica na mão do dono. Fecha em 1 linha: *"conectar a pipeboard (setup ~2 min) faz a skill subir isso sozinha, sem você tocar no Gerenciador"*, sem empurrar.
 
-No **app/chat** não há credencial: você só prepara o checklist. No **Code/agente**, confere quais variáveis existem antes de operar; se faltar a que a operação precisa, PARA e pede ao dono (sem inventar).
+Se a casa opera por **Marketing API direta** (token próprio no ambiente), esse é um terceiro caminho de execução real, equivalente à pipeboard self-host; detalhe em `references/meta-api.md`.
 
-> Detalhe completo das duas vias, os tools do MCP e os endpoints da Marketing API estão em `references/meta-api.md`. **O corpo abaixo já é executável; a reference é só profundidade.**
+**Credenciais / conexão (Code/agente):**
+- pipeboard remote: token da `pipeboard.co/api-tokens` (setup ~2 min, ideal pro Léo TESTAR já).
+- pipeboard self-host: Meta Developer App + token próprio da Meta (ideal pro PRODUTO, a casa dona, sem SaaS terceiro por cliente).
+- Marketing API direta: `META_ACCESS_TOKEN` (ou `_LEO`), `META_AD_ACCOUNT_*` (`act_<id>`), `META_PAGE_ID` (Página, obrigatória pro criativo), `META_LEOMOLINA_PIXEL` (+ CAPI token, obrigatório pra SALES + site).
+- Publicação de post no IG (Passo 3): token do tipo Instagram Login em `graph.instagram.com`, independente do motor de ads.
+
+No **app/chat** não há credencial nem Bash: você não opera. Ou o dono **adiciona o conector MCP da pipeboard** (aí a operação roda pelo próprio app), ou você entrega o **plano manual pronto pra colar**. No **Code/agente**, confere quais variáveis/conexões existem antes de operar; se faltar a que a operação precisa, PARA e pede ao dono (sem inventar).
+
+> As duas trilhas de conexão da pipeboard (A remote 2-min pro teste × B self-host BSL pro produto), o setup, a auth e o mapa das tools estão em `references/motor-pipeboard.md`. Os endpoints da Marketing API direta ficam em `references/meta-api.md`. **O corpo abaixo já é executável; as references são só profundidade.**
 
 ## PASSO 1: Auditoria da conta (antes de criar nada)
 Antes de subir campanha nova, diagnostica a conta na sequência canônica (nunca pule pra "criar" numa conta que já queima verba):
@@ -63,15 +70,15 @@ Antes de subir campanha nova, diagnostica a conta na sequência canônica (nunca
 4. Benchmarks de leilão + de indústria (competitividade, audiência sobreposta).
 5. Erros de entrega (só hard-stops, não performance).
 
-**No Code/agente:** roda as calls e lê. **No app:** entrega a sequência como checklist. Se a conta tiver problema estrutural (erro de entrega, pixel morto), PARA e reporta antes de criar campanha.
+**No Code/agente (ou app com conector):** roda as leituras (`get_ad_accounts` → insights → benchmarks) e lê. **No app sem conector:** entrega a sequência de diagnóstico como plano manual (onde clicar no Gerenciador pra ver score/anomalia/erros). Se a conta tiver problema estrutural (erro de entrega, pixel morto), PARA e reporta antes de criar campanha.
 
 ## PASSO 2: Cria a estrutura (tudo nasce PAUSED)
 Hierarquia da Meta: **Campanha → Conjunto de anúncios (ad set) → Anúncio (ad) → Criativo.**
 
-1. **Campanha**: objetivo ODAX (`OUTCOME_AWARENESS/TRAFFIC/ENGAGEMENT/LEADS/SALES/APP_PROMOTION`). Nunca objetivo legado. O objetivo vem do plano da impulsionar (a função Atração/Lead/Remarketing mapeia pro objetivo). **Otimize pra VENDA, não pra lead**: quando o destino é venda, o objetivo é `OUTCOME_SALES` e a otimização é conversão de compra, não volume de lead barato. Budget na campanha = CBO; deixe vazio pra ABO (budget no ad set). CBO e ABO são mutuamente exclusivos.
-2. **Ad set**: público (do plano), posicionamentos, agenda, e o budget se ABO. Pra `OUTCOME_SALES` + site, o `promoted_object` com o **pixel** é OBRIGATÓRIO (sem ele a campanha não otimiza pra compra).
-3. **Ad**: liga o ad set ao criativo. Precisa de `ad_set_id`, `ad_name`, `creative`.
-4. **Criativo**: a peça (imagem/vídeo + copy). A COPY e o CTA vêm da `soft-conteudo-headlines/-carrossel/-reels`; a ARTE vem da `soft-designer`. Aqui você só monta o creative object (precisa do `page_id`).
+1. **Campanha** (`create_campaign`): objetivo ODAX (`OUTCOME_AWARENESS/TRAFFIC/ENGAGEMENT/LEADS/SALES/APP_PROMOTION`). Nunca objetivo legado. O objetivo vem do plano da impulsionar (a função Atração/Lead/Remarketing mapeia pro objetivo). **Otimize pra VENDA, não pra lead**: quando o destino é venda, o objetivo é `OUTCOME_SALES` e a otimização é conversão de compra, não volume de lead barato. Budget na campanha = CBO; deixe vazio pra ABO (budget no ad set). CBO e ABO são mutuamente exclusivos.
+2. **Ad set** (`create_adset`): público (do plano; monta o targeting com `search_interests`/`search_behaviors`/`search_demographics`/`search_geo_locations` pra pegar os IDs reais da Meta), posicionamentos, agenda, e o budget se ABO. Pra `OUTCOME_SALES` + site, o `promoted_object` com o **pixel** é OBRIGATÓRIO (sem ele a campanha não otimiza pra compra).
+3. **Criativo** (`upload_ad_image` → `create_ad_creative`): a peça (imagem/vídeo + copy). A COPY e o CTA vêm da `soft-conteudo-headlines/-carrossel/-reels`; a ARTE vem da `soft-designer`. Aqui você sobe a arte e monta o creative object (precisa do `page_id`).
+4. **Ad** (`create_ad`): liga o ad set ao criativo. Precisa de `ad_set_id`, `ad_name`, `creative`.
 
 **Story ad em 2 camadas (herdado da impulsionar, respeite na execução):**
 | Camada | CTA no criativo | Objetivo típico |
@@ -81,7 +88,7 @@ Hierarquia da Meta: **Campanha → Conjunto de anúncios (ad set) → Anúncio (
 
 Cobrar CTA/destino de um story ad de atração quebra a camuflagem que o faz funcionar. Não faça.
 
-**STOP**, mostra a estrutura montada (ainda PAUSED) e pergunta "pode ativar?". Não ativa por conta própria. **Em app/chat** esse STOP não é pergunta ao vivo (não há o que ativar): o checklist só MARCA no doc onde quem tem a credencial precisa obter o OK do dono antes de ativar; nunca simule o OK nem finja que ativou.
+**STOP**, mostra a estrutura montada (ainda PAUSED) e pergunta "pode ativar?". Não ativa por conta própria. **Em app/chat sem conector** esse STOP não é pergunta ao vivo (não há o que ativar): o plano só MARCA no doc onde quem executa precisa obter o OK do dono antes de ativar; nunca simule o OK nem finja que ativou. Com o conector MCP da pipeboard no app, o STOP é ao vivo.
 
 ## PASSO 3: Publica o post + liga o comment-to-DM (publicação; pode vir JUNTO da campanha)
 Quando o pedido é publicar um post orgânico e ligar a automação, o fluxo é o abaixo. Este passo NÃO é alternativa ao Passo 2: se a mensagem pede campanha paga E publicação/automação, o doc carrega as duas trilhas (Passo 2/4 + Passo 3), nunca só a primeira metade.
@@ -97,11 +104,11 @@ Quando o pedido é publicar um post orgânico e ligar a automação, o fluxo é 
 
 A legenda que vai no `caption` = a copy JÁ APROVADA da `soft-conteudo-*` transcrita, nunca copy nova escrita aqui; se veio crua da conversa, PARA e volta pra soft-conteudo antes de publicar.
 
-**STOP**, publicação e automação também são ações no ar. Mostra a legenda + os campos da automação e pergunta "publico e ligo?". **Em app/chat** esse STOP não é pergunta ao vivo: entrega tudo como checklist (você não tem como publicar sem credencial) e MARCA no doc onde parar pro OK do dono; nunca simule o OK nem finja que publicou.
+**STOP**, publicação e automação também são ações no ar. Mostra a legenda + os campos da automação e pergunta "publico e ligo?". **Em app/chat sem conector** esse STOP não é pergunta ao vivo: entrega tudo como plano manual (você não tem como publicar sem credencial) e MARCA no doc onde parar pro OK do dono; nunca simule o OK nem finja que publicou.
 
 ## PASSO 4: Ativa (só com OK) e depois lê as métricas
-- **Ativar:** a hierarquia inteira precisa estar ativa pra entregar; ativa de cima pra baixo (campanha → ad set → ad). É uma call separada, SEMPRE com o "pode ativar?" respondido pelo dono.
-- **Ler métrica:** a leitura principal puxa por nível (`campaign/adset/ad`), com os campos (inclui id+name), filtro, ordenação, breakdowns e janela de tempo. Pra ver topo E fundo, duas leituras com ordenação invertida.
+- **Ativar:** a hierarquia inteira precisa estar ativa pra entregar; ativa de cima pra baixo (campanha → ad set → ad), via `update_adset`/`update_ad` (mudar `status` pra ACTIVE). É uma call separada, SEMPRE com o "pode ativar?" respondido pelo dono.
+- **Ler métrica** (`get_insights`): puxa por nível (`campaign/adset/ad`), com os campos (inclui id+name), filtro, ordenação, breakdowns e janela de tempo. Pra ver topo E fundo, duas leituras com ordenação invertida.
 - A DECISÃO sobre o que a métrica significa (continuar/trocar público/pausar/escalar, ROI absoluto) é da **soft-conteudo-impulsionar**: esta skill LÊ e ENTREGA o número; a leitura da régua volta pra cabeça. Você executa o que a régua mandar (pausar a peça cara, escalar a vencedora devagar: R$50→R$70, não pula de 30 pra 300).
 
 ## PASSO 5: Gate interno e PARA
@@ -116,21 +123,24 @@ Antes de entregar, confere (a tabela NÃO vai pra saída):
 | **quick_reply** | a automação usa `quick_reply` (entrega o lead), não `web_url` |
 | **Legenda vetada** | a legenda/copy = a aprovada da `soft-conteudo-*` (já passou anti-ia), nunca reescrita aqui; se veio crua/não-vetada, PARA e volta pra soft-conteudo antes de montar o creative |
 | **Trilha completa** | se o pedido juntou campanha E publicação/automação, o doc carrega as DUAS; nenhuma metade foi dropada |
+| **Não parou por ferramenta** | com pipeboard/motor = executou; sem = entregou o plano pronto pro Gerenciador + 1 linha do que a pipeboard liberaria; nunca "não consigo" |
 | **Doc + path** | a entrega é UM doc MD; no Code/agente o path completo do arquivo vai na resposta |
 
 Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. Não narra o fluxo.
 
-## Exemplo denso (inline): subir uma campanha SALES de conversão via Marketing API
-> Plano aprovado na impulsionar: turbinar o carrossel "3 erros que enterram a agenda" (28 saves orgânicos, acima da média), função LEAD→venda, R$40/dia, 7 dias, público lookalike 1% dos compradores, destino = Mini Carta no ar. Gate de entrada: 5 pré-requisitos ok, plano aprovado. Ambiente: Claude Code, Via B (Marketing API).
+## Exemplo denso (inline): subir uma campanha SALES de conversão pela pipeboard
+> Plano aprovado na impulsionar: turbinar o carrossel "3 erros que enterram a agenda" (28 saves orgânicos, acima da média), função LEAD→venda, R$40/dia, 7 dias, público lookalike 1% dos compradores, destino = Mini Carta no ar. Gate de entrada: 5 pré-requisitos ok, plano aprovado. Ambiente: Claude Code, pipeboard conectada (remote).
 
-1. **Auditoria** (Passo 1): leio opportunity score da conta (`act_...`), anomalia, erros. Conta limpa, sem hard-stop. Sigo.
-2. **Campanha** (Passo 2): crio `OUTCOME_SALES`, ABO (budget vazio na campanha), status `PAUSED`. Nome: `SALES · carrossel-agenda · lookalike1 · 2026-07`.
-3. **Ad set**: budget R$40/dia, público lookalike 1% dos compradores (100k-500k), posicionamento Instagram feed+stories, `promoted_object` com o `META_LEOMOLINA_PIXEL` e evento `PURCHASE` (obrigatório pra SALES+site). Otimização = conversão de compra, **não** cliques nem leads.
-4. **Criativo**: monto o creative com o `META_PAGE_ID`, os cards já hospedados no Cloudflare Pages (respondendo 200), a legenda aprovada (veio da soft-conteudo-carrossel, passou no anti-ia), CTA "Saiba mais" → link da Mini Carta.
-5. **Ad**: ligo ad set + creative. Tudo `PAUSED`.
+1. **Auditoria** (Passo 1): `get_ad_accounts` acha a conta (`act_...`), leio insights/benchmarks pra opportunity score, anomalia, erros. Conta limpa, sem hard-stop. Sigo.
+2. **Campanha** (Passo 2, `create_campaign`): `OUTCOME_SALES`, ABO (budget vazio na campanha), status `PAUSED`. Nome: `SALES · carrossel-agenda · lookalike1 · 2026-07`.
+3. **Ad set** (`create_adset`): budget R$40/dia, público lookalike 1% dos compradores (monto com `search_interests`/`search_demographics` pra pegar os IDs reais), posicionamento Instagram feed+stories, `promoted_object` com o pixel e evento `PURCHASE` (obrigatório pra SALES+site). Otimização = conversão de compra, **não** cliques nem leads.
+4. **Criativo** (`upload_ad_image` → `create_ad_creative`): subo os cards já hospedados no Cloudflare Pages (respondendo 200), monto o creative com o `page_id`, a legenda aprovada (veio da soft-conteudo-carrossel, passou no anti-ia), CTA "Saiba mais" → link da Mini Carta.
+5. **Ad** (`create_ad`): ligo ad set + creative. Tudo `PAUSED`.
 6. **STOP**: mostro os IDs criados (campaign/adset/ad) e a estrutura, pergunto "pode ativar? Vai gastar R$40/dia por 7 dias (R$280)."
-7. Com o OK: ativo de cima pra baixo (campanha → ad set → ad).
-8. **Entrega**: salvo `runbook-campanha-agenda-2026-07-04.md` com os IDs, a verba, a janela e "revisar métrica em 2 dias e voltar pra impulsionar decidir continuar/pausar". Respondo com o path completo do arquivo.
+7. Com o OK: ativo de cima pra baixo (`update_adset`/`update_ad` → ACTIVE, campanha → ad set → ad).
+8. **Entrega**: salvo `runbook-campanha-agenda-2026-07-04.md` com os IDs, a verba, a janela e "revisar métrica em 2 dias (`get_insights`) e voltar pra impulsionar decidir continuar/pausar". Respondo com o path completo do arquivo.
+>
+> **Sem a pipeboard** (nem token da casa): o mesmo Passo 2 a 5 sai como plano pronto pra colar no Gerenciador (objetivo, público, verba, criativo, onde clicar), e fecho: "conectar a pipeboard (2 min) faz a skill subir isso sozinha".
 
 ## When NOT to use (manda pra skill certa)
 - Pediu pra **DECIDIR** o que turbinar, quanta verba, distribuição 50/30/20, ou diagnóstico "não retorna" → **soft-conteudo-impulsionar** (a cabeça; esta skill é só a mão).
@@ -143,6 +153,7 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 | Sintoma | Correção |
 |---|---|
 | Ativou campanha ou mudou budget sem OK | Regra de ouro: nasce PAUSED, ativar é call separada COM o "pode ativar?" respondido |
+| Parou porque não tinha pipeboard conectada | Tool-adaptive: sem motor, entrega o plano de campanha pronto pra colar no Gerenciador (nunca "não consigo") e fecha dizendo que conectar a pipeboard executa sozinho |
 | Executou sem o plano da impulsionar | Gate de entrada: sem plano aprovado, PARA e manda montar na impulsionar |
 | Objetivo legado (LINK_CLICKS, BRAND_AWARENESS) | Só ODAX (`OUTCOME_*`) |
 | Otimizou pra lead barato numa campanha de venda | Otimiza pra VENDA (conversão de compra); lead barato enche de curioso, não de comprador |
@@ -157,5 +168,6 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 | Escalou a peça vencedora de 30 pra 300 | Escala devagar (R$50→R$70); salto queima o aprendizado do algoritmo |
 
 ## References (só pra profundidade, o corpo acima é autossuficiente)
-- `references/meta-api.md`: as duas vias de execução (MCP oficial `mcp.facebook.com/ads` com o mapa dos tools × Marketing API direta com os endpoints e credenciais da casa), a estrutura oficial da campanha, os workflows canônicos (auditoria, criar SALES, não-entrega) e os anti-patterns técnicos da API. **Fonte da verdade da execução.**
+- `references/motor-pipeboard.md`: as duas trilhas de conexão da pipeboard (A remote `meta-ads.mcp.pipeboard.co` com token, setup 2-min pro teste × B self-host BSL com Meta Developer App próprio pro produto), a auth de cada, o mapa das tools reais expostas (`create_campaign`/`create_adset`/`upload_ad_image`/`create_ad_creative`/`create_ad`/`get_insights`/`search_*`) e a licença BSL 1.1. **Fonte da verdade do motor de execução.**
+- `references/meta-api.md`: a Marketing API direta (endpoints + credenciais da casa) como caminho de execução real equivalente ao self-host, a estrutura oficial da campanha, os workflows canônicos (auditoria, criar SALES, não-entrega) e os anti-patterns técnicos da API. **Profundidade da via por token.**
 - `references/publicacao-e-automacao.md`: a publicação de post no `graph.instagram.com` (containers → carrossel → publish) e a automação comment-to-DM (campos, `quick_reply` vs `web_url`, Private Reply, os gotchas de hospedagem/cache/token). **Dirigida no Passo 3.**
