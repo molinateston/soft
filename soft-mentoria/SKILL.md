@@ -33,11 +33,17 @@ Mentoria que vende fácil e entrega fácil não nasce de conteúdo bonito. Nasce
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
 
-Regra dura: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA (Ficha Técnica, Oferta, ferramentas) mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; NUNCA reescreve a peça em pedaços soltos no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o path completo na resposta (o bridge anexa); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA (Ficha Técnica, Oferta, ferramentas) mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; NUNCA reescreve a peça em pedaços soltos no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
+**No app sem artifact nativo:** o doc vai num único bloco de código markdown fechado (uma cerca ```` ``` ```` que abre e fecha), separado da condução. O texto de bastidor (que Passo você detectou, que modo está ativo, o que o OK autoriza, "o entregável abaixo é o início") NUNCA entra no doc nem no chat: o usuário não quer ver o bastidor, quer o doc limpo e a próxima pergunta. Condução curta fora do bloco; peça inteira dentro do bloco.
 
 ---
 
 # O PROCESSO (P0 a P6, um STOP por passo)
+
+**Regra dura anti-corrida (uma resposta = no máximo UM Passo novo):** proibido rodar 2 Passos no mesmo turno, mesmo com OK. O OK do P(n) libera SÓ o P(n+1), nunca o P(n+2). NUNCA execute o Passo N+1 antes do OK explícito do Passo N. Um único STOP por resposta. Não existe "o OK me autoriza a adiantar uma etapa": não existe essa licença, avançar é sempre um passo por vez.
+
+**Regra dura contra bastidor (o raciocínio de processo é interno):** NUNCA narre qual Passo ou qual Modo você detectou, nem explique o que o OK do usuário autoriza, nem anuncie "li o SKILL, agora vou executar". Conduz com a próxima pergunta, entrega o doc, ponto. Qual Passo rodar e qual modo está ativo é decisão interna que não aparece no chat nem no doc.
 
 ## P0: Ancoragem (de onde o desenho nasce)
 
@@ -61,7 +67,7 @@ O conhecimento do dono é a soma de **experiências + habilidades + insights**. 
 | **Velocidade** | resolve em +120 dias | 60 a 120 dias | resolve em até 60 dias |
 | **Vontade** | não te empolga | tanto faz | é o teu tesão, tua zona de gênio |
 
-Cada linha da tabela: Conhecimento Macro · Conhecimento Específico · Problema Resolvido · Perfil do Cliente · (Dor + Piora + Poder + Velocidade + Vontade) · **Soma**. Escolhe o de MAIOR soma. Se empatar, a **Vontade** desempata.
+Cada linha da tabela: Conhecimento Macro · Conhecimento Específico · Problema Resolvido · Perfil do Cliente · (Dor + Piora + Poder + Velocidade + Vontade) · **Soma**. **As 4 primeiras colunas (Macro, Específico, Problema, Perfil) são DESCRITIVAS, não entram na conta; só os 5 critérios (Dor, Piora, Poder, Velocidade, Vontade) pontuam, cada um de 1 a 3, e a Soma é só a soma desses 5 (máximo 15).** Escolhe o de MAIOR soma. Se empatar, a **Vontade** desempata.
 
 > **Exemplo ilustrativo (nicho fictício):** macro "Gestão empresarial"; específicos pontuaram eficiência operacional **15**, gestão de equipe 13, liderança 12, comunicação 11. Conclusão: eficiência operacional é o problema de maior potencial. Bastam 20, 30 minutos preenchendo a tabela pra ela apontar o alvo na cara. (Mostra o formato da tabela, não o nicho do dono.)
 
@@ -217,8 +223,16 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Escala na ordem certa** | masteriza (80/20) antes do grupo; grupo simples/barato ANTES do avançado; puxa clientes 1:1; porta (micro-oferta) + esteira 3 públicos |
 | **Números são do dono (Lei da fidelidade)** | todo número/meta/case é do dono ou `[A CONFIRMAR]`; número de exemplo nunca virou promessa do método; zero invenção plausível |
 | **Output DENSO** | tabelas/listas, não prosa; zero meta-narração/bastidor; sem tabela de gate na saída |
-| **Anti-IA (HARD)** | zero em-dash · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuação correta. **VERIFICA DE FATO antes de marcar ✓: no Code roda `grep -c` do em-dash e da família "travar" no doc final; no chat faz a busca manual no texto inteiro. Declarar ✓ sem buscar é gate falso, o erro mais grave deste checklist.** |
+| **Anti-IA (HARD)** | zero em-dash (o travessão longo, código U+2014) · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuação correta. Ver o bloco de reescrita logo abaixo desta tabela. |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
+
+**Reescrita obrigatória do em-dash (o furo mais provável, o modelo usa por reflexo na prosa PT-BR densa):** o em-dash é o travessão longo, U+2014. **Não basta "buscar e refazer": REESCREVA de fato cada ocorrência.** Regra imperativa: substitua o travessão por **vírgula, dois-pontos ou ponto** conforme o sentido; travessão de aposto no meio da frase vira **vírgula**; travessão que anuncia uma consequência ou lista vira **dois-pontos**; travessão que separa duas ideias inteiras vira **ponto**. Faça isto ANTES de marcar o item ✓.
+
+- **ANTES:** `pós-parto [travessão] 14 dias sem dormir` · **DEPOIS:** `pós-parto: 14 dias sem dormir`
+- **ANTES:** `o preço aperta [travessão] pesa na hora de precificar` · **DEPOIS:** `o preço aperta, pesa na hora de precificar`
+- **ANTES:** `os furos viram [A CONFIRMAR] [travessão] entram no doc` · **DEPOIS:** `os furos viram [A CONFIRMAR]. Entram no doc`
+
+**Verificação real antes do ✓ (declarar ✓ sem buscar é gate falso, o erro mais grave deste checklist):** no Code roda `grep -oaP "\xe2\x80\x94" no-doc-final | wc -l` (tem que dar 0) e o mesmo pra família "travar"; no chat/app varre o texto inteiro procurando o travessão longo caractere a caractere. Achou um travessão, reescreve pela regra acima e varre de novo.
 
 O filtro anti-IA completo (12 padrões banidos, teste em voz alta) mora na `soft-anti-ia`: invoque-a na última checagem da copy da oferta.
 

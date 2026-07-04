@@ -109,10 +109,28 @@ Template diz a FÓRMULA da frase. Ângulo diz de que LADO psicológico você ata
 - Todo template escolhido continua passando pelo gate normal do Passo 4; a régua só decide QUAIS templates entram no conjunto, não afrouxa nenhum critério.
 
 ## Passo 3, escreve 2-3 headlines DENTRO de cada template
-Pra cada template escolhido, escreve **2-3 headlines**, todas ancoradas na fala real (Passo 0). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), tom de comando, nunca morno. **Clareza acima de tudo (Lei 1): nada de palavra difícil, nada de figura de linguagem vazia ("mensagem cheia"), só o que uma pessoa real diria.** Toda headline nasce **curta e densa, reaproveitável em qualquer formato** (capa, reel, post, story). **Quando o formato-destino já é conhecido, comprime pra ele:** reel ≤7 palavras nos 3s · texto na tela ≤5 · capa de carrossel 8-15 · story 5-10 · anúncio ≤5 (tabela dos 8 formatos + protocolo de redução em `references/criterios-v2.md`). **Tempero, só se a headline estiver chapada:** injeta 1 dispositivo de `references/dispositivos-de-frase.md` (preparação+virada, antítese, dizer o não-dito, evocação sensorial), nunca no lugar da ideia. No topo de cada grupo, declara o **template (nome/fórmula) + os gatilhos** que ele aciona. **Não narra o fluxo**, só entrega limpo, organizado por template.
+Pra cada template escolhido, escreve **2-3 headlines**, todas ancoradas na fala real (Passo 0). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), tom de comando, nunca morno. **Clareza acima de tudo (Lei 1): nada de palavra difícil, nada de figura de linguagem vazia ("mensagem cheia"), só o que uma pessoa real diria.** Toda headline nasce **curta e densa, reaproveitável em qualquer formato** (capa, reel, post, story). **Quando o formato-destino já é conhecido, comprime pra ele, respeitando OS DOIS eixos (palavras E caracteres com espaço):** reel falado ≤7 palavras nos 3s · reel texto na tela ≤5 palavras E ≤40 caracteres/linha · capa de carrossel 8-15 palavras E ≤65 caracteres na linha-título · story 5-10 palavras E ≤50 caracteres no topo · anúncio ≤5 palavras · email 8-12 palavras E ≤45 caracteres no assunto · YouTube 50-70 caracteres. A tabela completa dos 8 formatos vai INLINE no Passo 4 (é o alvo que o gate conta); o protocolo de redução detalhado está em `references/criterios-v2.md`. **Tempero, só se a headline estiver chapada:** injeta 1 dispositivo de `references/dispositivos-de-frase.md` (preparação+virada, antítese, dizer o não-dito, evocação sensorial), nunca no lugar da ideia. No topo de cada grupo, declara o **template (nome/fórmula) + os gatilhos** que ele aciona. **Não narra o fluxo**, só entrega limpo, organizado por template.
 
 ## Passo 4, roda o GATE por dentro (auditoria interna, NÃO imprime)
 Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headline que passa em TODOS os critérios vai pro cliente. Uma falha refaz a frase (não o conceito). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só as headlines limpas (Passo 5), jamais a tabela.
+
+### Os TETOS que o gate conta (números inline, não deixa pra reference)
+O check "Teto físico do formato" manda CONTAR contra um alvo. O alvo mora AQUI, no corpo, pra você não contar contra número de memória-vaga. Onde os DOIS eixos aparecem, os DOIS têm que passar (uma capa de 12 palavras que dá 80 caracteres **estoura** e falha).
+
+| Formato-destino | Teto em palavras | Teto em caracteres (com espaço) |
+|---|---|---|
+| Reel, 3s falados | ≤ 7 | n/a (é falado) |
+| Reel, texto na tela | ≤ 5 | ≤ 40 por linha |
+| **Carrossel, capa** | **8 a 15** | **≤ 65 na linha-título (frase de maior peso)** |
+| Stories, abertura | 5 a 10 | ≤ 50 na linha de topo |
+| Anúncio, 1.7s falados | ≤ 5 | n/a (é falado) |
+| Anúncio, 5s falados | ≤ 10 | n/a (é falado) |
+| Email/Substack, assunto | 8 a 12 | ≤ 45 no assunto |
+| Título de YouTube | n/a | 50 a 70 |
+
+**Contagem:** número em algarismo conta 1 palavra ("40 anos" = 2); caractere = letra + espaço + pontuação (espaço conta). Número sempre em algarismo ("3", nunca "três"): ocupa menos e lê mais rápido.
+
+**MARGEM DE SEGURANÇA no app/chat (sem Bash):** contar caractere de cabeça é impreciso e o erro típico é 15-30 caracteres pro lado do PASSA. Então trate o teto com FOLGA, não no fio: se a frase-título passa visivelmente de ~8-10 palavras OU tem 2 orações longas ("...na academia, mesmo sendo personal"), **presuma ESTOURO e comprime, nunca arredonde pra baixo pra caber**. Duas orações longas quase sempre quebram JUNTO o teto de caractere E o check "Curta e densa" (uma ideia por frase). No Claude Code/agente (com Bash), conta de fato: `echo -n "a headline" | wc -m` (caracteres) e `| wc -w` (palavras) antes de marcar ✓.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -122,20 +140,20 @@ Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headli
 | **Clareza, sem contexto presumido (Lei 1)** | dá pra entender sem já ser de dentro; cria o contexto antes da afirmação; zero palavra difícil. ✗ "reorganize a percepção de valor" · ✓ "cobra o que você vale sem o cliente achar caro" | |
 | **Stranger às 22h** | benefício concreto OU curiosidade real OU dor específica. ✗ "o futuro da nutrição é a personalização" · ✓ "treina 2 anos e a bioimpedância não mexe" | |
 | **Mesa-sentado** | eu falaria pro cliente na cara dele. ✗ "descubra o segredo que mudou tudo" · ✓ "cobrei 3x mais e o cliente agradeceu" | |
-| **Curta e densa (serve pra tudo)** | diz mais com menos; corta toda palavra que não muda o sentido; curta mas NÃO rasa; nunca encurta até virar figura vazia (Lei 1). A mesma headline serve de capa, reel, post ou story | |
-| **Teto físico do formato (CONTA, não estima)** | quando o formato-destino é conhecido, a headline respeita o teto de `references/criterios-v2.md` e você **CONTA de fato**, não chuta no olho: palavras pro corpo da frase, caracteres (com espaço) pro texto na tela / capa / título. Estourou 1 unidade = ✗ e comprime (não corta o gatilho). Número em algarismo, nunca por extenso ("3", não "três"), porque ocupa menos e lê mais rápido | |
+| **Curta e densa (serve pra tudo)** | diz mais com menos; corta toda palavra que não muda o sentido; curta mas NÃO rasa; nunca encurta até virar figura vazia (Lei 1). **Uma ideia por frase: headline que virou 2 orações longas encadeadas ("...na academia, mesmo sendo personal") já falha aqui E no Teto; comprime pra uma oração.** A mesma headline serve de capa, reel, post ou story | |
+| **Teto físico do formato (CONTA, não estima)** | quando o formato-destino é conhecido, a headline respeita **os dois eixos da tabela de tetos acima** (palavras E caracteres com espaço) e você **CONTA de fato**, não chuta no olho. Estourou 1 unidade em qualquer eixo = ✗ e comprime (não corta o gatilho). No app/chat sem Bash, vale a MARGEM DE SEGURANÇA acima: 2 orações longas ou muito acima de ~10 palavras = presume estouro. Ex.: capa "8-15 palavras" que só cabe se a linha-título ≤ 65 caracteres, senão vira parágrafo e não lê como capa. Número em algarismo, nunca por extenso | |
 | **Não-defendo** | não ensina a fazer melhor uma prática da lista do "não defendo" | |
 | **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **Dá pra falsificar?** | é um fato falsificável, não um adjetivo | |
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · **repetição paralela idêntica em série (a mesma casca sintática 2-3x seguidas, tipo "...é assim. Com Y é assim.") também é tell**; em T13/T28 varia a estrutura, não copia a moldura. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
 Mostra **só as que passaram, agrupadas por template, LIMPO** (no DOC, nunca solto no chat): cada grupo com o **template nomeado + os gatilhos** no topo e as 2-3 headlines embaixo. Sem tabela de gate, sem meta. Pergunta "quais te servem? ajusto, troco de template, ou gero mais?". **Espera a escolha** antes de gerar volume ou passar pro corpo (soft-conteudo-carrossel / -reels / -stories).
 
 ## COMO ENTREGAR (o banco de headlines vira doc MD)
-O resultado (as headlines agrupadas por template) é o entregável, e o cliente quer GUARDAR ele. Entrega como **documento markdown**: no **claude.ai** como um **artifact de markdown** (o banco que ele abre, copia e reusa), no **Claude Code** como arquivo `.md`. A condução (perguntas, escolha de template, o gate por dentro) acontece no chat; o **banco de headlines sai como doc**, agrupado por template, não só solto no meio da conversa. Volume (banco de 50/100/200/300) é SEMPRE doc.
+O resultado (as headlines agrupadas por template) é o entregável, e o cliente quer GUARDAR ele. Entrega como **documento markdown**: no **claude.ai** como um **artifact de markdown** (o banco que ele abre, copia e reusa), no **Claude Code** como arquivo `.md`. No **agente/Telegram**: gera o banco como arquivo `.md` e cita o path completo na resposta (o bridge anexa), com a condução em mensagens curtas, sem markdown pesado (sem `##`, sem tabela). A condução (perguntas, escolha de template, o gate por dentro) acontece no chat; o **banco de headlines sai como doc**, agrupado por template, não só solto no meio da conversa. Volume (banco de 50/100/200/300) é SEMPRE doc.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **CORPO** da peça → **soft-conteudo-carrossel** (slides do carrossel) · **soft-conteudo-reels** (roteiro do reel) · **soft-conteudo-stories** (arco de stories).

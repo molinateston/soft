@@ -29,7 +29,9 @@ Para cliente Soft, o Soft Launch é **injeção pontual** sobre o sistema, nunca
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (vira anexo); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário; o doc leva isso). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
+> **O DOC INTEIRO é livre de travessão e da família "travar", não só a copy de leitor final.** Este `.md` É o entregável que o DONO lê: títulos, prosa de condução, justificativa de formato, rótulos de opção (ex.: "Opção A: Sala Secreta"), recomendação e header contam igual. Antes de emitir o doc consolidado (qualquer modo, qualquer etapa, inclusive o Modo A que só recomenda), roda o CTRL+F de "—" e de "travar/travado/destravar" sobre o `.md` inteiro. Travessão "—" em qualquer lugar do doc = REFAZ. No Claude Code, roda `python3 scripts/lint_copy.py doc.md` sobre o arquivo consolidado inteiro (não só sobre a copy final) antes de entregar; em-dash e "travar" são HARD (exit 1), achou não sai. O teste anti-IA de olho (voz-alta + itens 10/14 "não é X, é Y" no máximo 1x no texto inteiro) também vale pro doc de trabalho, não só pro criativo.
 
 ## Passo 0, sempre: lê o perfil do usuário (NÃO PULE)
 Lê `shared-references/crivo/00-perfil-do-usuario.md`. Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do autor do método (que é só perfil de exemplo). Usuário sem perfil (cold start) vai pro onboarding (Plano na `soft-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir.
@@ -87,6 +89,8 @@ A skill detecta na entrada (Passo 1). Soft → lente Soft. Senão → padrão. N
 
 ## GATE de saída (artefato visível obrigatório)
 Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio, e-mail, manifesto) passa pelo GATE antes de entregar. Preenche a tabela e **imprime junto da peça**. Só peça com VEREDITO=PASSA sai. Um ✗ qualquer = refaz a peça (não o conceito). Sem a tabela impressa, a peça não foi entregue. O detalhe vivo de cada filtro está no Crivo e nos filtros da `shared-references/`.
+
+> A linha **Anti-IA (HARD)** abaixo não fica presa à peça de leitor final: o ban de travessão "—" e da família "travar" vale pro **`.md` inteiro** que o dono lê (header, prosa de condução, rótulos de opção, recomendação), conforme a regra da seção "ENTREGA = UM doc MD". Antes de emitir o doc, roda `python3 scripts/lint_copy.py` sobre o arquivo consolidado inteiro; um "—" em qualquer linha do doc = REFAZ o doc.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|

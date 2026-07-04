@@ -23,7 +23,7 @@ O dono terminou a peça e não sabe se aperta publicar. Duas perguntas diferente
   - **Eixo empírico (probabilidade, 5 notas de 1 a 10):** força do gancho vs. histórico · aderência à voz do perfil · densidade de valor vs. os melhores · formato/estrutura vs. o que engaja · encaixe no feed. Total /50.
   - **Eixo doutrinário (qualidade, PASSA/REFAZ binário):** ancorado no verbatim real · aponta pro método (deixa lacuna que o dono fecha) · C/U/B (aumenta o motivo de comprar, não só de olhar) · filtra o cliente certo · clareza (Lei 1) · anti-IA HARD.
 - Um **VEREDITO em 1 frase** que combina os dois eixos e cita um dado específico do perfil (ex.: "seus 10% melhores abrem com número 42% das vezes, este abre com pergunta; forte pelo método mas destoa do que engaja no seu perfil").
-- **Até 3 correções**, cada uma citando um dado real do perfil (ou, sem dados, citando o critério de método que falhou, marcado como tal). Nunca "melhore o gancho": sempre "seus melhores usam X, este usa Y, troque".
+- **Até 3 correções**, cada uma citando um dado real do perfil (ou, sem dados, citando o critério de método que falhou, marcado como tal). Nunca "melhore o gancho": sempre "seus melhores usam X, este usa Y, troque". Cada correção pode trazer no máximo UMA linha-exemplo curta, marcada como exemplo e sujeita ao gate Anti-IA (Passo 6). Nunca cola peça/capa/slide reescrito inteiro.
 - A **fonte de dados declarada** no topo (posts reais coletados / dados em cache / SEM dados: só eixo doutrinário).
 - Você **para e oferece** reescrever a parte mais fraca (aciona a skill de escrita certa) ou liberar pra publicar. Você **não reescreve** aqui: mede e aponta.
 - Você **nunca inventa benchmark, número de perfil nem "os seus melhores fazem X"** sem ter coletado. Sem dado, o eixo empírico sai marcado **[SEM DADOS, só qualidade]** e você pede a coleta.
@@ -109,7 +109,9 @@ Este eixo **sempre roda** (não precisa de dado do perfil, precisa do método e 
 **Toda correção cita um dado.** No eixo empírico, o dado é do perfil ("seus melhores usam X"). No eixo doutrinário, o dado é o critério de método que falhou ("não ancora: número sem fonte no slide 3"). Nunca sai correção subjetiva ("ficou fraco", "podia ser melhor"). Se você não tem o dado pra sustentar a correção, você não faz a correção, você pede o insumo.
 
 ## Passo 5, monta o scorecard e o VEREDITO combinado
-Renderiza o scorecard no DOC (tabela markdown, não bloco de código). Estrutura fixa:
+**O scorecard É copy que o dono lê. Ele passa no mesmo gate Anti-IA da peça (Passo 4B):** zero travessão "—", zero "travar/travado", zero frase-emoldura, zero negação clipada no rabo ("e não é X", "sem esse ou aquele"). O veredito, as correções e qualquer trecho de exemplo que você escrever obedecem o filtro. No chat, antes de publicar o artifact, faz CTRL+F de "—" no doc do scorecard e corrige o que achar. Em ambiente com Bash, roda `python3 scripts/lint_copy.py` TAMBÉM no arquivo do scorecard, não só em `peca.txt`. Um scorecard com o tell que ele mesmo reprova na peça é scorecard reprovado.
+
+Renderiza o scorecard no DOC (tabela markdown, não bloco de código). Estrutura fixa (repare: sem travessão, o separador do subtotal é ">", não "→" nem "—"):
 
 ```
 SCORECARD · [tipo de peça] · perfil @[dono]
@@ -125,7 +127,7 @@ EIXO EMPÍRICO (probabilidade de performar no seu perfil)
   Formato/estrutura        [X]/10   [formato]
   Encaixe no feed          [X]/10
   --------------------------------
-  SUBTOTAL                 [XX]/50   → [alta / média / baixa] chance
+  SUBTOTAL                 [XX]/50   > [alta / média / baixa] chance
 
 EIXO DOUTRINÁRIO (qualidade pelo método Soft)
   Ancorado          [PASSA/REFAZ]
@@ -146,13 +148,15 @@ CORREÇÕES (cada uma com o dado):
 ```
 
 O VEREDITO combina os dois eixos com honestidade:
-- **Passa nos dois** → "manda ver, forte pelo método e no padrão do que engaja no seu perfil".
-- **Passa no método, fraco no empírico** → "sólida pelo método, mas destoa do que performa aqui: [dado]. Ajusta [X] ou aceita que é aposta fora do padrão."
-- **Bate com o histórico, falha no método** → "combina com seu feed, mas [critério de método] falhou: [qual]. Corrige antes, senão é engajamento que não vira venda."
-- **Falha nos dois** → "não publica ainda: [pior do empírico] + [pior do doutrinário]."
-- **Sem dados** → veredito só do eixo doutrinário, com a nota "eixo empírico pendente da coleta".
+- **Passa nos dois:** "manda ver, forte pelo método e no padrão do que engaja no seu perfil".
+- **Passa no método, fraco no empírico:** "sólida pelo método, mas destoa do que performa aqui: [dado]. Ajusta [X] ou aceita que é aposta fora do padrão."
+- **Bate com o histórico, falha no método:** "combina com seu feed, mas [critério de método] falhou: [qual]. Corrige antes, senão é engajamento que não vira venda."
+- **Falha nos dois:** "não publica ainda: [pior do empírico] + [pior do doutrinário]."
+- **Sem dados:** veredito só do eixo doutrinário, com a nota "eixo empírico pendente da coleta".
 
 ## Passo 6, oferece o próximo passo (NÃO reescreve aqui)
+Esta skill mede e aponta, não reescreve a peça. **Limite duro da correção:** cada uma das até 3 correções é uma instrução curta ("seus melhores usam X, este usa Y, troque") mais NO MÁXIMO uma linha-exemplo curta, e essa linha vem marcada como `exemplo, versão final sai na soft-conteudo-[carrossel/reels/stories/headlines]`. Proibido colar capa inteira, slide inteiro ou peça reescrita dentro da correção: isso é a skill de escrita fazendo o trabalho, não esta. A linha-exemplo É copy-de-cliente e passa no MESMO gate Anti-IA do Passo 4B (zero travessão, zero clichê, zero negação clipada no rabo); no chat, o CTRL+F de "—" cobre também as linhas-exemplo antes de publicar o artifact.
+
 Depois do scorecard, PARA e oferece:
 > Quer que eu reescreva a parte mais fraca com os padrões dos seus melhores posts, ou já publica? (a reescrita vai pra soft-conteudo-[carrossel/reels/stories/headlines], que é quem escreve.)
 
@@ -162,10 +166,10 @@ Se o dono pedir a reescrita, **você aciona a skill de escrita certa** passando 
 Peça colada (1ª linha): *"Você já pensou em organizar melhor as finanças da sua empresa?"*
 Dado do perfil (Passo 3, N=112 posts): os 10% melhores abrem com **número** 42% das vezes e com **afirmação-contrária** 27%; **pergunta aberta** aparece só 9% e cai no terço pior. Tamanho médio dos melhores: 180 palavras. Formato campeão: carrossel (engaja 2,3× o texto simples). CTA campeão: "comenta a palavra X".
 
-- **Eixo empírico:** Gancho 3/10 (pergunta aberta é o padrão dos PIORES dele, não dos melhores). Aderência 6/10. Densidade 5/10 (o post tem 90 palavras, metade da faixa dos melhores). Formato 5/10 (é texto; carrossel engaja 2,3× mais). Encaixe 5/10. Subtotal 24/50 → **baixa chance**.
+- **Eixo empírico:** Gancho 3/10 (pergunta aberta é o padrão dos PIORES dele, não dos melhores). Aderência 6/10. Densidade 5/10 (o post tem 90 palavras, metade da faixa dos melhores). Formato 5/10 (é texto; carrossel engaja 2,3× mais). Encaixe 5/10. Subtotal 24/50 > **baixa chance**.
 - **Eixo doutrinário:** Ancorado ✗ (não nasce de fala do avatar, é pergunta genérica). Aponta pro método ✗ (não deixa lacuna, é conselho vago). C/U/B ✗ (não aumenta motivo de comprar). Filtra ✗ (atrai qualquer um). Clareza ✓. Anti-IA ✓. **GATE: REFAZ em 4 pontos.**
 - **VEREDITO:** "Não publica ainda: seu gancho campeão é número (42% dos melhores), este é pergunta aberta (o padrão dos seus piores); e pelo método não ancora nem aponta pro que você vende."
-- **CORREÇÃO 1:** "Troca a abertura por número: teus 10% melhores abrem com número 42% das vezes; ex.: 'O dono de PME que aprova cada compra de R$50 e não vê o rombo de R$8 mil/mês.'" **CORREÇÃO 2:** "Vira carrossel: no teu perfil carrossel engaja 2,3× o texto." **CORREÇÃO 3:** "Ancora na dor real ('eu controlo tudo mas o dinheiro some') e aponta pro teu sistema de gestão, senão é conselho que não vira cliente."
+- **CORREÇÃO 1:** "Troca a abertura por número: teus 10% melhores abrem com número 42% das vezes. Linha-exemplo (versão final sai na soft-conteudo-headlines): 'O dono de PME que aprova cada compra de R$50 e não vê o rombo de R$8 mil por mês.'" **CORREÇÃO 2:** "Vira carrossel: no teu perfil carrossel engaja 2,3× o texto." **CORREÇÃO 3:** "Ancora na dor real ('eu controlo tudo mas o dinheiro some') e aponta pro teu sistema de gestão, senão é conselho que não vira cliente." (Repare: as 3 correções passaram pelo CTRL+F de "—", zero travessão, e nenhuma colou capa/carrossel inteiro.)
 
 Contra-exemplo de correção proibida (nunca faça): "o gancho ficou fraco, melhore." Sem dado, sem critério. REPROVA a própria correção.
 
@@ -183,7 +187,8 @@ Contra-exemplo de correção proibida (nunca faça): "o gancho ficou fraco, melh
 | Só rodou um eixo | Rode SEMPRE os dois; se falta dado, o empírico degrada com honestidade, o doutrinário sempre roda |
 | Correção subjetiva ("ficou fraco", "melhore o gancho") | Toda correção cita um dado: do perfil (empírico) ou do critério de método que falhou (doutrinário) |
 | Deu 8+ no empírico sem o traço bater com os 10% melhores | Nota 8+ só quando o traço da peça casa com um padrão dos melhores dele; senão desce |
-| Começou a REESCREVER a peça | Esta skill mede e aponta; a reescrita vai pra skill de escrita certa no Passo 6 |
+| Começou a REESCREVER a peça / colou capa ou carrossel inteiro na correção | Esta skill mede e aponta; correção = instrução curta + no máximo 1 linha-exemplo marcada; a reescrita vai pra skill de escrita certa no Passo 6 |
+| Scorecard ou linha-exemplo saiu com travessão "—" ou clichê | O scorecard É copy que o dono lê; passa no MESMO gate Anti-IA da peça (Passo 4B). CTRL+F de "—" no doc antes de publicar; com Bash, roda lint_copy.py também no scorecard |
 | Amostra minúscula tratada como lei | Menos de ~20 posts = baixa confiança; avisa e não crava padrão como certeza |
 | Rodou coleta sem avisar do custo | Sempre avisa que a coleta Apify consome crédito antes de rodar |
 | Despejou o scorecard solto no chat / dentro de bloco de código | Scorecard sai como doc MD (artifact / arquivo / path no agente); tabela markdown que renderiza, nunca grade em bloco de código |
@@ -194,4 +199,4 @@ Contra-exemplo de correção proibida (nunca faça): "o gancho ficou fraco, melh
 - `shared-references/crivo/05-premissas-mestras.md`: a doutrina de copy que sustenta o eixo doutrinário (C/U/B, aponta pro método, a espinha da percepção). É o mesmo padrão que o Crivo do soft-leon usa.
 - `shared-references/filtro-anti-ia/`: o banco de padrões banidos + a seção de falsos-positivos que alimenta o check Anti-IA (pra não reprovar prosa autoral legítima).
 - `references/mecanica-avaliacao.md`: o detalhe operacional do eixo empírico (fórmula de engajamento, extração do perfil dos 10% melhores, coleta Apify passo a passo, como degradar sem dado). Índice no topo. Consulta quando a peça exige o cálculo fino.
-- `scripts/lint_copy.py`: no Claude Code/agente, roda `python3 scripts/lint_copy.py peca.txt` no texto da peça como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual.
+- `scripts/lint_copy.py`: no Claude Code/agente, roda `python3 scripts/lint_copy.py peca.txt` no texto da peça E no arquivo do scorecard como cinto extra do anti-IA (reprova em-dash e "travar" nos dois, porque o scorecard também é copy que o dono lê). No chat não roda, por isso o CTRL+F manual de "—" cobre a peça e o scorecard.

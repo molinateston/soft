@@ -52,7 +52,7 @@ Cada formato é um ÂNGULO diferente de atacar o mesmo pilar. Reescritos na dout
 | 1 | **Acionável** | passo a passo ultra específico que ensina UMA coisa e mostra a lacuna que só o método fecha | quem já sente a dor (C2) |
 | 2 | **Diagnóstico** | mostra o problema do avatar visto de perto, nomeia a dor que ele ainda não nomeou | quem não sabe que tem o problema (C1) |
 | 3 | **Analítico** | destrincha POR QUE algo funciona/quebra do jeito que funciona (o mecanismo por trás) | quem desconfia mas não entende (C2) |
-| 4 | **Contrário** | vira do avesso um conselho aceito do nicho e sustenta o ponto com prova | quem já tentou o caminho comum e empacou (C3) |
+| 4 | **Contrário** | vira do avesso um conselho aceito do nicho e sustenta o ponto com prova. **Varie a mecânica do contraste:** nem toda célula Contrária usa a forma "não é X, é Y" (vira tique quando concentrado numa coluna só, e o lint conta a estrutura). Alterne com afirmação invertida direta, com pergunta que fura o consenso, com o custo escondido do conselho aceito | quem já tentou o caminho comum e empacou (C3) |
 | 5 | **Observação** | uma tendência silenciosa/escondida que o dono notou e ninguém comenta | quem está dentro do universo (C2/C3) |
 | 6 | **X vs Y** | compara dois caminhos (método antigo vs o seu, ferramenta vs ferramenta) e mostra o custo do lado errado | quem está decidindo (C3) |
 | 7 | **Antes vs Depois** | o estado atual doloroso vs o estado com o método, com o número que prova a virada | quem quer o resultado (C3) |
@@ -81,11 +81,20 @@ Roda o gate em CADA célula internamente. Só pauta que passa em TODOS os crité
 | **Cabe no pilar** | responde "por que me seguir / por que comprar de mim" dentro do universo do dono; tema fora do círculo = ✗ (é da soft-posicionamento decidir isso) | |
 | **Filtra o cliente certo** | atrai quem compra, não estranho; ✗ pauta viral genérica ("5 hábitos de gente de sucesso") | |
 | **Clareza (Lei 1)** | dá pra entender sem já ser de dentro; zero palavra difícil, zero figura vazia | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). No chat/agente sem lint, faz CTRL+F manual de "—" e "travar" | |
+| **Anti-IA (HARD)** | zero travessão · zero "travar/travado/destravar" · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ a célula. Só tudo-✓ entra na matriz. | |
+
+**Varredura anti-IA OBRIGATÓRIA e VISÍVEL (não é checkbox implícito).** Antes de renderizar a matriz no doc, o alvo do check NÃO é só as células: é o doc INTEIRO, e o travessão mora justamente onde o modelo esquece de olhar (TÍTULO H1, HEADERS H2/H3, prosa fora da tabela). No chat/agente sem Bash (onde o `lint_copy.py` não roda), você NÃO declara "fiz CTRL+F" e segue: você **escreve no chat, como etapa do gate, o resultado literal da varredura** sobre o texto do doc, nesta forma exata:
+> `Varredura anti-IA do doc: travessão U+2014 encontrados: N em [onde]; família travar encontrados: N em [onde].`
+
+Se N maior que 0 em qualquer um, você **corrige antes de mostrar o doc** (troca travessão por ponto, dois-pontos, vírgula ou hífen comum; troca "travar/travou" por emperrar/empacar/parar/freio/amarra) e roda a varredura de novo até dar `0 em nada`. Só depois renderiza. Zona proibida de esquecer: título, headers, legendas e frases de ligação, NÃO só as células. No Claude Code/agente com Bash, `python3 scripts/lint_copy.py` no doc confirma o zero (exit 0); no app, a varredura escrita acima é o gate.
 
 ## Passo 4, monta a matriz e aponta as mais fortes
 Renderiza a matriz-calendário (tabela markdown: pilares nas linhas, formatos nas colunas, célula = manchete-pauta). Abaixo dela: **as 3 pautas mais fortes de toda a matriz** com 1 linha de porquê cada (a que mais fecha no método, a mais ancorada em dor, a mais contrária), e a **nota de qual pilar ficou mais raso** (pra pedir insumo). Não narra o fluxo, entrega limpo.
+
+**Título e subtítulo do doc também passam pelo anti-IA HARD.** O H1 e todo header (H2/H3) do documento seguem a mesma regra das células: use vírgula, ponto ou dois-pontos como separador, NUNCA travessão. Certo: "Matriz de Conteúdo, Nutrição Esportiva" ou "Matriz-Calendário: 4 pilares por 8 formatos". Errado: qualquer título com travessão entre as partes. Isso é o que a varredura visível do Passo 3 pega no título e nos headers.
+
+**O doc carrega SÓ o conteúdo, zero bastidor da conversa (Lei 6, corta meta-narração).** Dentro do arquivo entra APENAS: a matriz + os pilares + as 3 mais fortes + os `[A CONFIRMAR]`. Fica FORA do doc, e mora só no chat: qualquer eco de fala do dono ("você respondeu...", "perfeito, pode seguir"), qualquer narração do STOP, qualquer frase de condução ("matriz montada abaixo", "conforme você pediu"). A confirmação do dono acontece no chat e não vira carimbo no documento. Se você se pegar escrevendo no doc uma frase que só faz sentido pra quem viu a conversa, ela é meta-narração: corta.
 
 ## Passo 5, mostra e PARA
 Mostra a matriz **no DOC** (nunca solta no chat). Pergunta: "quais pautas te servem? quer que eu escreva a headline de alguma (passo pra soft-conteudo-headlines) ou gero mais numa linha?". **Espera a escolha** antes de gerar volume ou passar pra headline.
@@ -97,7 +106,7 @@ Pilar 2 (Diagnóstico) × Formato 2 (Diagnóstico de dor):
 - **Aponta pro método:** a lacuna (não é gastar menos, é o processo cego) fecha no "sistema mínimo de gestão" que o consultor vende.
 - **Específica:** dá pra ver (R$50 aprovado, R$8 mil somem), não é "gestão financeira".
 - **Filtra:** fala com dono que decide tudo sozinho (o cliente), não com quem quer dica de app de finanças.
-- **Anti-IA:** zero travessão, zero "travar", zero frase-emoldura. PASSA.
+- **Anti-IA:** zero travessão, zero "travar", zero frase-emoldura, no doc inteiro (célula, título e headers). PASSA.
 
 Contra-exemplo (REPROVA): "5 dicas de produtividade pra empreendedor." Genérica (qualquer creator posta), não aponta pro método, não filtra, não ancora em fala real. VEREDITO = ✗.
 
@@ -124,4 +133,4 @@ Contra-exemplo (REPROVA): "5 dicas de produtividade pra empreendedor." Genérica
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `shared-references/operacao-padrao.md`: as 6 leis (Seção 0) + regras de tom/economia/entrega. Consulta na 1ª invocação da sessão.
 - `shared-references/filtro-anti-ia/`: o banco de padrões banidos + falsos-positivos que alimenta o check Anti-IA do gate.
-- `scripts/lint_copy.py`: no Claude Code/agente, roda `python3 scripts/lint_copy.py` na matriz como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.
+- `scripts/lint_copy.py`: no Claude Code/agente, roda `python3 scripts/lint_copy.py` no doc INTEIRO como cinto extra do anti-IA (reprova em-dash e "travar" com exit 1, inclusive em título/headers). No chat não roda, por isso a varredura anti-IA escrita e visível do Passo 3 é o gate.

@@ -46,6 +46,10 @@ A régua **nasce no WhatsApp**, não é opcional. O e-mail é backup.
 
 **Este SKILL.md é o processo inteiro. Siga na ordem, pare nos checkpoints, rode o gate por dentro antes de mostrar qualquer mensagem.** A reference `references/sequencias-email-whatsapp-pre-pos.md` tem o molde de CADA peça preenchido por nicho; cada passo diz quando abri-la.
 
+## ⛔ REGRA DE GERAÇÃO nº 1: NUNCA digite o travessão (em-dash)
+
+Vale em TODA mensagem que você escrever, do cadastro ao pós. **Nunca gere o caractere travessão longo (Unicode U+2014, o "em-dash") nem o travessão médio (U+2013, o "en-dash").** Ao escrever, no lugar dele use **ponto final**, **vírgula** ou **hífen comum ` - `** (o hífen do teclado, com espaço dos dois lados). Exemplo: onde você seria tentado a pôr um travessão longo entre "o link vai por aqui" e "5 min antes", escreva `o link vai por aqui, 5 min antes` ou `o link vai por aqui. 5 min antes`. Isto NÃO é um passo de find-replace que roda depois: é como você digita cada frase desde o primeiro token. Um único travessão longo no doc entregue = REPROVA de zero-tolerância (Passo 6), independente do resto estar perfeito. A mesma regra dura vale pra família **travar/travado/destravar** (só entra se for aspa literal do cliente); no lugar use emperrar, empacar, parar, freio ou amarra.
+
 ## Antes de tudo: PERGUNTA o MODO (ao vivo ou perpétuo)
 
 Pergunta numa linha: "essa régua é pra um webinar AO VIVO (data marcada) ou PERPÉTUO (gravado, 24/7, cada lead escolhe horário)?" Sem resposta: marca `[A CONFIRMAR: ao vivo ou perpétuo]`, segue no ao vivo, avisa que o timing muda. Default por estágio: validação/sem volume = ao vivo; pós-validação/escala = perpétuo.
@@ -84,7 +88,7 @@ Esta sequência, e só esta, **nos dois modos**. **Não existe replay** - nada d
 - Saída = só as mensagens (canal+timing+trabalho+corpo). Zero meta, zero bastidor (Lei 6).
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`; no **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (o bridge anexa), com a condução em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 
@@ -274,10 +278,10 @@ Roda em **cada mensagem** (assunto + corpo) por dentro. Só VEREDITO = PASSA vai
 | **CTA com destino** | todo CTA tem link e destino (checkout/página/sala); e-mail repete 2x |
 | **Dá pra ver / falsificar?** | enxerga a cena ou o número; fato falsificável, não adjetivo |
 | **Só você diz?** | concorrente direto não assina igual (mecanismo/caso próprio) |
-| **Anti-IA** | zero em-dash · zero "travar/travado/destravar" (exceto aspa do cliente) · sem frase-emoldura · sem verbo-clichê. No chat, CTRL+F manual do em-dash e da família "travar". |
+| **Anti-IA** | zero travessão longo (nenhum U+2014 nem U+2013, ver REGRA DE GERAÇÃO nº 1) · zero "travar/travado/destravar" (exceto aspa do cliente) · sem frase-emoldura · sem verbo-clichê. A auto-revisão visível do Passo 7b prova que isto passou; sem ela, "zero em-dash" é decorativo. |
 | **VEREDITO** | **= o pior item acima.** Qualquer reprovação = REFAZ. Só tudo-aprovado = PASSA. |
 
-No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (reprova em-dash e "travar"). No chat, CTRL+F manual. (`shared-references/crivo/03-gate-cub.md`; `shared-references/filtro-anti-ia/padroes-banidos.md`.)
+No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (reprova em-dash e "travar"). No app/chat NÃO existe execução de script: a garantia é o Passo 7b, a auto-revisão visível e obrigatória, feita ANTES do STOP do Passo 8. (`shared-references/crivo/03-gate-cub.md`; `shared-references/filtro-anti-ia/padroes-banidos.md`.)
 
 ## Passo 7, métricas-alvo e diagnóstico (lê antes de culpar a copy)
 
@@ -293,9 +297,17 @@ No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (
 
 **Diagnóstico:** indicadores muito abaixo = quase sempre furo **técnico do encanamento** (página, horário, hospedagem do vídeo, mensageria, **WhatsApp não ligado**), não a copy da aula. Audita o encanamento antes de reescrever a aula no desespero.
 
+## Passo 7b, auto-revisão VISÍVEL anti-IA (obrigatória ANTES do STOP)
+
+O gate do Passo 6 roda por dentro, mas no app/chat ninguém executa script, então os 3 checks mecânicos abaixo você MOSTRA que fez, por escrito, antes de mostrar a régua. Sem esta linha visível, a nota "zero em-dash" não vale. Releia CADA mensagem do doc, palavra por palavra, e confirme por escrito ao dono, numa linha curta:
+
+> ✅ Auto-revisão anti-IA: 0 travessão longo (nenhum U+2014/U+2013, reescritos como ponto/vírgula/hífen comum), 0 "travar/travado/destravar" (fora de aspa do cliente), 0 e-mail durante a aula.
+
+Se ao reler você achar QUALQUER travessão longo, reescreve na hora (ponto, vírgula ou ` - `) ANTES de escrever essa linha; a confirmação só existe depois que o doc está limpo de verdade. Achou família "travar" fora de aspa, mesma coisa. Só então segue pro Passo 8.
+
 ## Passo 8, mostra e PARA
 
-Mostra **só as que passaram, LIMPO**: cada mensagem com canal + timing + trabalho + (no WhatsApp) [TEMPLATE]/[livre], e o corpo embaixo. Sem tabela de gate, sem meta. Pergunta "essa régua te serve? ajusto ou sigo?". **Espera o OK.**
+Só chega aqui depois de escrever a linha de auto-revisão do Passo 7b. Mostra **só as que passaram, LIMPO**: cada mensagem com canal + timing + trabalho + (no WhatsApp) [TEMPLATE]/[livre], e o corpo embaixo. Sem tabela de gate, sem meta. Pergunta "essa régua te serve? ajusto ou sigo?". **Espera o OK.**
 
 No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo 6 é a COPY):
 

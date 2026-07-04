@@ -16,10 +16,12 @@ O deck não é o conteúdo. É o amplificador visual de um roteiro que já funci
 - Você **para e espera OK** antes de seguir pra próxima fase.
 - Você **nunca reescreve o roteiro nem reordena os blocos**, só veste de tela. Se o texto de tela condensa a fala, re-passa pelo gate antes de exportar.
 - Você **nunca inventa número, prova, bônus ou preço** e **nunca exporta deck cuja fase falhou no gate**.
+- **ZERO travessão "—" em QUALQUER caractere do arquivo .md entregue** (títulos, rótulos de slide, nomes de fase, bullets, moldura do markdown, tela E nota, não só a copy falada). Use hífen "-" ou dois-pontos. O lint varre o arquivo inteiro; a moldura conta.
+- A entrega tem **veredito duplo**: **ESTRUTURA** (o esqueleto converte quando o lastro entrar?) e **PRONTA-PRO-AR** (todo `[DADO]`/`[FALA]`/`(a definir)` preenchido com lastro real?). Enquanto houver **um** placeholder aberto, o VEREDITO da fase é **RASCUNHO-COM-PENDÊNCIA**, nunca PASSA seco.
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`; no **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (o bridge anexa), com a condução em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário; o gate e o deck vão dentro do arquivo). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, exige o roteiro pronto (NÃO PULE)
 O deck nasce do script, nunca do zero. Procura o roteiro ADMA, nesta ordem: **roteiro colado na conversa** → **descrição do projeto** → **mensagens anteriores**. Três estados de entrada (declara qual é o seu):
@@ -73,9 +75,15 @@ Esta é a espinha do deck:
 ## Passo 5, roda o GATE antes de exportar (artefato visível obrigatório)
 Preenche a tabela **por fase**. Só fase com VEREDITO=PASSA é mostrada/exportada. Uma falha refaz a fase (não o roteiro). Sem a tabela impressa, a fase não foi entregue.
 
+**Regra dura de contagem (o furo que reprovou o teste):** o Anti-IA (HARD) NÃO é "CTRL+F que eu fiz de cabeça". No app (sem o lint) esse "confere de cabeça" é o auto-carimbo que o `03-gate-cub.md` diz que invalida a passada. Cola a contagem por caractere proibido, varrendo o TEXTO DO ARQUIVO INTEIRO (tela + nota + títulos + rótulos + bullets + moldura), não a memória. `— : 0` obrigatório em todo o .md, não só na copy falada.
+
+**A versão proibida NÃO fica no doc entregue**, nem como before, riscado, ou comentário "corrigido abaixo". Substitui no lugar e apaga a original. Placeholder de correção não conta como corrigido: o lint varre o arquivo inteiro e reprova a string proibida onde quer que esteja. Se "travou" aparece na copy de tela, a copy de tela vira "parou"/"emperrou"/"empacou" ali mesmo, e a palavra proibida some do arquivo.
+
+**Veredito duplo (não colapsa esqueleto com peça pronta):** cada fase recebe DOIS vereditos. **ESTRUTURA** = o esqueleto converte quando o lastro entrar? **PRONTA-PRO-AR** = todo `[DADO: confirmar]`/`[FALA: do roteiro]`/`(a definir)` está preenchido com lastro real? Enquanto houver um placeholder aberto, o VEREDITO da fase é **RASCUNHO-COM-PENDÊNCIA** (estrutura ok, não-pronta-pro-ar), nunca PASSA seco. Diz exatamente qual insumo do cliente falta (prova, número, fala, WhatsApp). Prova ainda-pendente = pendência, não aprovação.
+
 | Check | Passa se | ✓/✗ |
 |---|---|---|
-| **Ancorada no verbatim** | toda prova/número/aspa nasce da fonte REAL do roteiro (caso + N real); **inventado/plausível = ✗ automático**; sem fonte vira `[DADO: confirmar]` e não conta como ✓ | |
+| **Ancorada no verbatim** | toda prova/número/aspa nasce da fonte REAL do roteiro (caso + N real); **inventado/plausível = ✗ automático**; **sem fonte real na tela, esta passada sai NÃO-VERIFICADO = ✗** (não ✓ bonzinho), o slide vira `[DADO: confirmar]`/`[FALA: do roteiro]` e a FASE cai em RASCUNHO-COM-PENDÊNCIA. Prova ainda-pendente NÃO é PASSA | |
 | **3 perguntas do gate** | no título/frase de cada slide-chave: **dá pra ver?** (cena concreta, não adjetivo) · **dá pra falsificar?** (fato, não promessa vazia) · **só você diz?** (concorrente direto não assina igual) | |
 | **C/U/B** | a copy de tela é **Clara** (1 ideia legível) · **Útil** (serve à fala) · **Boa** (na voz do usuário, não genérica) | |
 | **CTA com destino** | o fechamento aponta destino real (link/canal humano) que captura indeciso pro comercial 1:1; sem "saiba mais" vago | |
@@ -86,13 +94,13 @@ Preenche a tabela **por fase**. Só fase com VEREDITO=PASSA é mostrada/exportad
 | **Ritmo ADMA** | respiro preto em TODA virada de fase; proporção ~55/45; fechamento não encurtado; ordem dos beats preservada | |
 | **Mobile/legível** | lê no celular (fonte grande, contraste, sem bloco miúdo) | |
 | **Slots e prova reais** | slots `(a definir)` marcados não inventados; stack/bônus/preço/escassez REAIS; Big-Idea não fabricada | |
-| **Anti-IA (HARD)** | zero travessão "—" na copy de tela e nota · zero "travar/travado/destravar" (exceção: aspa literal do usuário) · sem frase-emoldura · sem verbo-clichê. **No chat (sem o lint), CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** No Code, roda `python3 scripts/lint_copy.py` na copy de tela+nota. | |
-| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
+| **Anti-IA (HARD) — CONTAGEM COLADA, não declaração** | zero travessão "—" e zero família "travar" (trava/travou/destrava...) em **QUALQUER** caractere do arquivo (títulos, rótulos, bullets, moldura, tela E nota), · reticências unicode "…" trocadas por "..." · sem "Não é X. É Y." em série · sem frase-emoldura · sem verbo-clichê. **Esta passada NÃO passa por declaração: cola aqui a evidência, uma sub-linha por caractere proibido, com a contagem varrendo o TEXTO DO DOC INTEIRO (não a memória):** `— : 0 ocorrências` · `trav* : 0 ocorrências` · `… : 0 ocorrências`. **Contagem >0 = ✗ (a fase NÃO passa).** Sem a contagem colada, a passada sai NÃO-VERIFICADO = ✗ (espelha `03-gate-cub.md`: grep à mostra, não confere de cabeça). No Code, roda `python3 scripts/lint_copy.py` no arquivo inteiro e cola o exit code. | |
+| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. **Mas se houver placeholder aberto (`[DADO]`/`[FALA]`/`(a definir)`), o veredito é RASCUNHO-COM-PENDÊNCIA** (estrutura ok, não-pronta-pro-ar), nunca PASSA seco: diz qual insumo real falta. | |
 
 > **Re-gate ao condensar:** o texto VISÍVEL do slide é uma condensação NOVA que o lead LÊ, não a fala original. Se condensar/reescrever o texto de tela, re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` (+ `lint_copy.py`) ANTES de exportar. Depois de aprovado, o render não muda palavra.
 
 ## Passo 6, mostra a fase, PARA, e faz o handoff
-Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te serve? sigo pra próxima?". **Espera o OK** antes de seguir. Ao fim das 4 fases, faz o **handoff do visual fino** (paleta, tipografia, arte, mockups, animação clique-a-clique no player) pra **soft-designer**. Esta skill entrega o deck conceitual certo; o acabamento visual é lá.
+Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te serve? sigo pra próxima?". **Espera o OK** antes de seguir. **Um OK = uma fase; nunca adiante 2 fases num STOP.** O gate roda por fase, não no fim: mostrou a Atenção, para; só com o OK vai pro Diagnóstico, e assim por diante. Ao fim das 4 fases, faz o **handoff do visual fino** (paleta, tipografia, arte, mockups, animação clique-a-clique no player) pra **soft-designer**. Esta skill entrega o deck conceitual certo; o acabamento visual é lá.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **roteiro/falas do webinar inteiro** → **soft-webinar-script**.
@@ -114,9 +122,13 @@ Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te
 | Encurtou a oferta "pra não cansar" | Mantém ~45% do deck no fechamento; ordem dos beats é lei |
 | Reescreveu/reordenou o roteiro | Não: só veste de tela; se condensou texto, re-passa o gate antes de exportar |
 | Slide morto, sem troca | Respiro preto em toda virada; troca de estímulo casada com a fala |
+| Marcou Anti-IA ✓ "de cabeça" sem contar | Cola a contagem por caractere (`— : 0`, `trav* : 0`, `… : 0`) varrendo o arquivo inteiro; sem contagem = NÃO-VERIFICADO = ✗ |
+| Pôs travessão só na copy e deixou na moldura/rótulos/títulos | Zero "—" em QUALQUER caractere do .md; use hífen ou dois-pontos, o lint reprova o arquivo todo |
+| "Corrigiu" a palavra proibida num comentário mas manteve a versão errada na peça | A versão proibida sai do arquivo: substitui no lugar e apaga a original; before/riscado ainda reprova no lint |
+| Marcou PASSA com `[DADO]`/`[FALA]` aberto | Veredito é RASCUNHO-COM-PENDÊNCIA enquanto houver placeholder; diz qual insumo real falta |
 
 ## References (o fluxo acima é autossuficiente)
 - `shared-references/crivo/03-gate-cub.md`: detalhamento do gate (barreira de ancoragem, CUB em camadas, 3 perguntas do gate, anti-vazamento). Mesma régua, com mais exemplo.
 - `shared-references/filtro-anti-ia/`: os padrões banidos que o anti-IA HARD aplica.
 - `shared-references/filtro-mobile-first/`: regra de legibilidade na tela do celular.
-- `scripts/lint_copy.py`: no Code, roda `python3 scripts/lint_copy.py` na copy de tela+nota (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.
+- `scripts/lint_copy.py`: no Code, roda `python3 scripts/lint_copy.py` no ARQUIVO INTEIRO (não só tela+nota: ele varre toda string, moldura e rótulos inclusive) e reprova em-dash e a família "travar" com exit 1. No chat não roda, por isso a CONTAGEM COLADA do gate (não o "confere de cabeça").

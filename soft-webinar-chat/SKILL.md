@@ -42,7 +42,8 @@ O chat não é acessório, é o sistema operacional do webinar: termômetro E mo
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo (a planilha do perpétuo vira `.csv`/`.md`, o guia ao vivo vira `.md`) e cita o path completo na resposta pra virar anexo; a condução vai em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou. **Você NUNCA fabrica o turno/OK do usuário.** Sem OK real (a resposta tem que vir da pessoa, não de você "simulando" ou "assumindo" o de acordo dela), você PARA e encerra a vez; não produz a próxima etapa por conta própria nem finge que o OK veio pra seguir.
+> **Fallback do script:** o `lint_copy.py` do gate só roda onde há Bash (Claude Code, agente/Telegram). No **claude.ai** (sem Bash), aplica a checagem anti-voz manualmente NO DOC MD INTEIRO que você entrega (título, blockquotes `>`, notas `[A CONFIRMAR]`, cabeçalhos de seção E as linhas do chat, não só o conteúdo do CSV): em-dash e a família anti-voz reprovam do mesmo jeito, e UM único em-dash em qualquer lugar do doc reprova. Isso vale antes de liberar o doc.
 
 ## Passo 0, ancora e decide o MODO (NÃO PULE)
 
@@ -52,6 +53,8 @@ Puxa a fonte real, nesta ordem: **roteiro/deck colados na conversa** (da soft-we
 - **AO VIVO** → o chat é REAL; a skill NÃO gera comentário falso, entrega só o guia de moderação. Vai pro Passo 5.
 
 Se o player não disse o modo, pergunta numa linha. Pro PERPÉTUO, precisa de: o roteiro/deck gravado (pra varrer ecos e comandos), o **N** (pessoas-alvo "ao vivo", coerente com o contador honesto), o **modelo de planilha da plataforma** (colunas, ordem, header), e o **offset da sala de espera** (quanto de pre-roll roda antes de o host falar). Falta de qualquer um → `[A CONFIRMAR]`, não inventa.
+
+**Entrega mínima quando falta TUDO (nenhum dos 4 insumos veio):** não empaca e não fica só perguntando; entrega o que dá pra ancorar sem roteiro. Monta SÓ o cabeçalho do formato (`username,message,minutes,seconds`, com o N-default avisado) mais a fase de **sala de espera + abertura** (chegada, "cheguei", nome/cidade), que independe do conteúdo da aula. Marca a leva de apresentação como **PLANTADA aguardando eco** (os nomes/cidades só ganham respaldo firme quando o roteiro disser que o host os lê). Todo o resto (comandos, conta/números, carrinho, fechamento) fica declarado `[A CONFIRMAR]` esperando os 4 insumos. Depois disso, PARA no STOP e espera o OK real com o material.
 
 ---
 
@@ -125,7 +128,7 @@ Depois de montar o guia, vai pro **Gate de saída** e entrega.
 1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim real, carrega a dor. Aspa fabricada/parafraseada = FALHA.
 2. **Prova NUNCA inventada:** número, case, nome, vaga, preço só entram se vierem do briefing real; sem lastro, vira `[A CONFIRMAR]`. É o gêmeo da regra-mãe "simula a sala, nunca a prova".
 3. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece.
-4. **Gate CUB + 3 perguntas do gate** (`crivo/03-gate-cub.md`): inclui o anti-IA. **Roda `python3 scripts/lint_copy.py` no conteúdo do chat/guia** (em-dash e a família anti-voz reprovam zero-tolerância).
+4. **Gate CUB + 3 perguntas do gate** (`crivo/03-gate-cub.md`): inclui o anti-IA. **Roda `python3 scripts/lint_copy.py` no DOC MD INTEIRO que você entrega (título, blockquotes `>`, notas `[A CONFIRMAR]`, cabeçalhos de seção E as linhas do chat/guia, não só as linhas do CSV)** (o modelo já falhou aqui embarcando em-dash na própria prosa em volta e passando batido). A varredura de em-dash + a família anti-voz cobre TODA a saída, prosa e comentários; UM único em-dash em qualquer lugar do doc = exit 1 = reprova e re-roda.
 
 **Encanamento × copy:** a checagem de consistência (Passo 3, §5) é o encanamento (eco↔respaldo, comando↔rajada, zero antecipação); o Crivo é o gate da COPY. **Os dois são pré-condição da subida.** Sem passar nos dois, o chat não sobe e o guia não sai.
 
@@ -146,12 +149,14 @@ Depois de montar o guia, vai pro **Gate de saída** e entrega.
 - [ ] Realismo: nomes/cidades/perfis variados, timing escalonado, typo leve ocasional, comprimentos variados.
 - [ ] Zero contradição/antecipação do roteiro; voz de participante BR (nunca o tom clínico do host).
 - [ ] Output de auditoria entregue; nomes de produto/método/bônus são os que o player definiu (nunca inventados).
+- [ ] **Zero em-dash em TODO o doc** (prosa + comentários): título, blockquotes, notas `[A CONFIRMAR]`, cabeçalhos E linhas do CSV, não só as linhas do chat. `lint_copy.py` passou no doc inteiro (0 falhas duras); zero da família anti-voz.
 
 **Ao vivo:**
 - [ ] Escada de micro-compromissos mapeada pro webinar inteiro, subindo de custo; sim final é o último degrau.
 - [ ] Reason-why em todo pedido de chat; eco nominal sistemático; perguntas-isca de resposta fechada.
 - [ ] Disciplina de palco declarada; placar de vendas no fechamento; papel do moderador definido.
 - [ ] Zero nome falso / zero simulação de chat vivo (no ao vivo a sala é real).
+- [ ] **Zero em-dash em TODO o doc** (prosa + falas do guia): título, blockquotes, notas `[A CONFIRMAR]`, cabeçalhos E as falas, não só as linhas do guia. `lint_copy.py` passou no doc inteiro (0 falhas duras); zero da família anti-voz.
 
 ## Anti-padrões (o que quebra a simulação ou a moderação)
 

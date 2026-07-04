@@ -21,7 +21,8 @@ Esta skill contém TUDO do seu tema, a técnica de topo E o corpo operacional:
 ## ⚠️ ENTREGA = a operação rodando + o doc de contexto (nunca só um texto)
 O RESULTADO desta skill tem duas caras conforme o pedido:
 - **Ativar o SDR num projeto** → o SDR **operando**: CRM conectado e testado, gate confirmado com o dono, método carregado, ligado em modo shadow → autônomo. Sem isso ligado e testado, não terminou.
-- **Produzir uma peça de topo** (uma abordagem de DM, uma sequência de qualificação, um convite de sessão) → sai como **UM documento markdown consolidado** (no claude.ai um artifact de markdown; no Claude Code um arquivo `.md`). A CONDUÇÃO (perguntas de contexto, os STOPs de aprovação) acontece no chat; a PEÇA mora no DOC. Ao parar num STOP, mostra ou atualiza o DOC e pergunta *"ajusto?"*, nunca pinga a peça em pedaços no chat.
+- **Produzir uma peça de topo** (uma abordagem de DM, uma sequência de qualificação, um convite de sessão) → sai como **UM documento markdown consolidado** (no claude.ai um artifact de markdown; no Claude Code um arquivo `.md`; no agente/Telegram gera o doc como arquivo e cita o path completo na resposta, que vira o anexo enviado, com a condução em mensagens curtas sem markdown pesado). A CONDUÇÃO (perguntas de contexto, os STOPs de aprovação) acontece no chat; a PEÇA mora no DOC. Ao parar num STOP, mostra ou atualiza o DOC e pergunta *"ajusto?"*, nunca pinga a peça em pedaços no chat.
+- **Fallback dos scripts:** no claude.ai (sem Bash) não dá pra rodar os `curl` do `conector-ghl.md`; ali a conexão do CRM sai como o passo-a-passo escrito no doc pro dono rodar no Claude Code/agente. Rodar a operação viva é só onde tem Bash (Claude Code e agente).
 
 ## A régua-mãe (herda a doutrina do método)
 
@@ -55,6 +56,47 @@ lead manda mensagem (WhatsApp/DM via CRM)
         │
    5. registra TUDO no CRM (nota + tag + stage), o pipeline é a memória
 ```
+
+## A técnica de topo cravada (o que o SDR NÃO pode inventar)
+
+Estes quatro blocos são a espinha da abordagem. O corpo abaixo é a versão curta; o detalhe com todos os modelos e o downsell está em `references/prospeccao-e-qualificacao.md`. **Nada aqui é opcional nem substituível por conteúdo inventado.**
+
+### A ordem canônica (não se pula etapa)
+```
+[Abordagem/resposta] → qualifica de leve → PRÉ-QUALIFICADOR (Mini Carta / Mini Webinar)
+                     → volta esquentado → vende a SESSÃO → handoff pro closer
+```
+O **pré-qualificador (Mini Carta / Mini Webinar)** é etapa OBRIGATÓRIA: no cenário de **sinal ativo** ele é "o momento mais importante da abordagem" e entregá-lo na janela quente (até 2h) é o objetivo. É PROIBIDO saltar da qualificação direto pra sessão sem passar por ele (a única exceção é o lead que já chega quente pedindo a sessão). Se o pré-qualificador não existe no projeto, o SDR avisa o dono que precisa construir primeiro (`soft-funil-carta` / `soft-funil-miniwebinar`), não improvisa.
+
+### Os 4 elementos da qualificação (o framework, não invente outros)
+São EXATAMENTE estes quatro. Não é "situação → dor" nem nenhum outro rótulo: **DOR não é um dos elementos**, ela sai POR DENTRO de Ações/Resultados. O BANT também é lido por dentro, nunca perguntado a seco.
+
+| Elemento | Pergunta base |
+|---|---|
+| **Essência / Situação** | *"O que te fez começar a olhar pra isso?"* / *"Qual seu contexto hoje?"* |
+| **Tempo / Amarras** | *"Isso é pra agora ou ainda quer tentar por conta antes?"* / *"Tem algo te prendendo?"* |
+| **Ações** | *"O que você já fez pra resolver? O que não funcionou?"* (acha o Problema Avançado) |
+| **Resultados** | *"O que você conseguiu sozinho? O que espera ter?"* (quantifica a distância) |
+
+Uma pergunta por mensagem. O Problema Avançado e o BANT (Budget/Authority/Need/Timeline) emergem desses 4, nunca de perguntas cruas.
+
+### A abertura e o áudio no cenário sinal ativo (siga o modelo, não invente aberturas)
+A abertura do sinal ativo é UMA linha que confirma o interesse. Use o modelo, não crie aberturas bespoke por objeção:
+```
+Oi [Nome]! Vi que você [se inscreveu / baixou / respondeu].
+O que mais te chamou atenção em [tema]?
+```
+O **áudio da abertura é 5-10s, só o SDR falando o nome dele e a pergunta**: prova que é gente, não robô. NÃO faz pitch no áudio (nada de "muita gente acha que é normal, mas não é, dá pra reverter"): pitch na abertura contradiz o spec.
+
+### Os pontos de parada da peça de topo (STOP por etapa)
+Ao produzir a peça, o SDR para e mostra/atualiza o DOC ao fechar cada bloco: **fecha abertura → fecha qualificação → fecha convite de sessão**. Em todo STOP a pergunta é *"ajusto?"* (o vocabulário do gate desta skill), nunca outra fórmula.
+
+### O crivo anti-IA que TODA mensagem passa (não é só "existe um filtro")
+Antes de qualquer mensagem sair (pro lead ou dentro do pré-qualificador), aplica estes padrões concretos, além de invocar a `soft-anti-ia` na peça final:
+- **Zero em-dash.** O traço longo de LLM é banido; use ponto ou vírgula. Frase de tranquilização com esse traço ("muito mais comum do que te contaram, e tem solução") é dupla falha: pontuação de LLM + clichê genérico.
+- **Emoji contido.** Sem emoji em excesso (nada de 💛 repetido). No máximo um, só quando soa natural na voz do dono.
+- **Zero saudação de call center.** Nada de "olá! como posso ajudá-lo hoje?", "espero que esteja bem", "como vai?". Vai direto.
+- **Verbatim real, zero moldura genérica.** Nada de tranquilização vaga que qualquer LLM escreveria ("isso é mais comum do que imaginam e tem solução"). Usa a fala real do avatar, o vocabulário que ele usou na conversa.
 
 ## A FRONTEIRA com a soft-vendas-closer (onde o SDR para)
 
@@ -122,7 +164,9 @@ Autônomo **não é solto.** Faz sozinho o reversível e dentro do método; para
 | Oferece a sessão a seco pro lead frio | Pula o filtro, agenda quem cancela (no-show) | Qualifica de leve → pré-qualificador → só agenda o quente |
 | Implora a reunião ("por favor comparece") | Rebaixa a autoridade, enche a agenda de curioso | Guardião da agenda: a sessão é vaga, o lead se prova |
 | Metralha perguntas (interrogatório) | Lead foge, cara de robô | 1 pergunta por mensagem, ritmo de conversa humana |
-| SDR de IA que responde como call center | O lead sente o robô e esfria | Tom humano, áudio na abertura, passa pelo filtro anti-IA |
+| SDR de IA que responde como call center | O lead sente o robô e esfria | Tom humano, áudio de 5-10s só com nome+pergunta (sem pitch), crivo anti-IA: zero em-dash, emoji contido, sem saudação de call center, verbatim real |
+| Inventar aberturas ou "os 4 elementos" | Guarda o rótulo e falseia o conteúdo do framework | Segue o modelo de abertura do cenário e os 4 elementos cravados (Essência/Situação · Tempo/Amarras · Ações · Resultados); DOR sai por dentro, não é elemento |
+| Pular o pré-qualificador e ir direto à sessão | Quebra a ordem canônica, agenda quem não filtrou | Abordagem → qualifica → pré-qualificador (Mini Carta/Mini Webinar) → volta esquentado → vende a sessão |
 | Persegue quem não respondeu | Queima o lead e a marca | Cadência com teto (10min/24h/24h ou 4 toques), depois para |
 
 ## Handoff

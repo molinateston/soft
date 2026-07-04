@@ -19,10 +19,11 @@ Adaptar não é traduzir tom. É engenharia reversa. Você pega uma peça Soft q
 - O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. Versão que falha no gate não sai.
 - Você **para e espera** o OK antes de adaptar pra um segundo destino ou gerar variação.
 - Você **nunca inventa fala nem número do cliente** e **nunca dilui a tese pra caber no formato**.
+- **Regra dura de saída (em-dash):** a copy final **nunca** contém o caractere `—` (travessão). Se contém, a skill **NÃO terminou**: volta pro Passo 5b, reescreve a linha e varre de novo. Esta regra vale acima de qualquer "ficou bonito com o travessão".
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**: gera o doc como arquivo `.md` no disco e cita o path completo na resposta (o bridge anexa o arquivo); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela com `|` no texto ao usuário) — o doc vai como anexo. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de adaptar (NÃO PULE)
 O fluxo assume que a peça-âncora já passou pelo gate dela. Confirma duas coisas antes de mexer:
@@ -94,6 +95,8 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 - TikTok/Shorts → `references/plataforma-tiktok-shorts.md` · YouTube longo → `references/plataforma-youtube-longo.md` (traz o **pacote completo de publicação**: título, descrição, tags, capítulos, thumbnail, SEO, UTM)
 - PDF/Notion → `references/plataforma-pdf-notion.md` · Mini Webinar → `references/plataforma-mini-webinar.md` (distribuição/hospedagem; a construção do roteiro é da `soft-funil-miniwebinar`)
 
+**Ao re-renderizar, NÃO use travessão `—` como pausa dramática** (é o tique nº1 de IA e o furo mais comum aqui): prefira ponto curto, vírgula ou dois-pontos. Prevenir na escrita é mais barato que caçar no gate; escreve já sem `—`.
+
 **Idioma nativo, não copia-cola do Instagram.** LinkedIn e email são armadilha pra jargão de marketing: zero "lead/funil/ticket/conversão", sempre o campo semântico do cliente final. No formato curto (tweet único, email brevíssimo), papéis podem colapsar de propósito (Manifesto = Capa+CTA · Sentença = só Capa · Único = 1 unidade faz tudo). Colapso consciente não é traição da estrutura; perder um papel sem querer, sim.
 
 **Mini-exemplo de re-render** (exemplo ilustrativo, nicho fictício; modela a qualidade, nunca copia). O MESMO slide de capa de um carrossel migra pro limite de cada destino sem perder a tese:
@@ -145,11 +148,19 @@ Roda o gate na versão adaptada **internamente** (auditoria silenciosa). Só ver
 | **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **Este ✓ só fecha DEPOIS do Passo 5b abaixo, que é a varredura de verdade; aqui não confia no olho.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
+## Passo 5b, varredura anti-IA (BLOQUEANTE, antes do Passo 6)
+Marcar Anti-IA=✓ na tabela do gate não basta: aqui você VARRE de verdade, na **versão exata que vai sair**. É o passo que barra o furo mais comum (travessão que passou batido). Ordem:
+1. **CTRL+F por `—` (travessão)** na versão final. Se achar **qualquer** ocorrência: **REESCREVE a linha** (troca por ponto curto, vírgula ou dois-pontos, nunca por outro travessão) e **repete a varredura do zero**. Só **zero ocorrências** de `—` libera o Passo 6.
+2. **CTRL+F pela família "travar/travado/destravar"** (exceção: aspa literal do cliente). Achou fora de aspa? Reescreve e varre de novo.
+3. **CTRL+F pela frase-emoldura** ("a verdade é", "o segredo", "aqui está") e **verbo-clichê** ("revoluciona", "destrava", "transforma"). Achou? Reescreve e varre de novo.
+
+Critério de parada: só passa pro Passo 6 quando as 3 varreduras zerarem. Enquanto houver **um** `—`, a skill NÃO terminou.
+
 ## Passo 6, mostra e PARA
-Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peça adaptada no formato e idioma nativos do destino. Sem tabela de gate, sem meta. Pergunta "essa serve? ajusto, ou adapto pra outra plataforma?". **Espera o OK** antes de adaptar pro próximo destino ou gerar variação. Uma plataforma por vez, nunca despeja todas de uma vez.
+Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peça adaptada no formato e idioma nativos do destino. Sem tabela de gate, sem meta. **No app/claude.ai, o doc É o artifact de markdown da própria resposta; não precisa de ferramenta de arquivo. No Claude Code, é o `.md` no disco; no agente/Telegram, é o `.md` anexado.** Pergunta "essa serve? ajusto, ou adapto pra outra plataforma?". **Espera o OK** antes de adaptar pro próximo destino ou gerar variação. Uma plataforma por vez, nunca despeja todas de uma vez.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu a **HEADLINE/gancho/capa/abertura** do zero → **soft-conteudo-headlines**.

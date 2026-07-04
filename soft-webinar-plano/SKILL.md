@@ -41,7 +41,9 @@ Gate roda **por dentro** (silencioso); a saída é **só o doc limpo**. Nunca in
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+> **ANTI-IA no ATO de escrever (não é auditoria pós-fato):** ao ESCREVER o doc, use ponto, vírgula ou hífen comum (-); **NUNCA o travessão longo (em-dash, o traço U+2014), em NENHUM lugar: nem no TÍTULO, nem em cabeçalho de seção (`## Passo 1 - ...` com hífen curto, jamais o longo), nem na linha "Como usar", nem no "Estado de entrada", nem na prosa do veredito.** UM ÚNICO em-dash REPROVA o doc inteiro (gate abaixo, VEREDITO = o PIOR item). Idem família "travar/travado/destravar", salvo aspa literal do cliente. Vale enquanto você digita cada linha, não só na conferência do fim (no app não há lint nem CTRL+F pra te salvar depois).
+
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`; no **agente/Telegram**, gera o doc como arquivo `.md` no disco e cita o path completo na resposta (o bridge anexa o arquivo), com a condução em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário; isso mora no doc anexo). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ABSORVE o posicionamento + ancora no verbatim (NÃO PULE)
 Fonte, nesta ordem: **material rico gravado do cliente (aula/live/VSL/call → Modo C, destila do verbatim) → posicionamento colado → descrição do projeto → mensagens anteriores.** Se houver aula/conteúdo gravado, DESTILA dele ANTES de perguntar (verbatim real > resposta de intake; ver `references/extracao-de-material-existente.md`). **Absorve o posicionamento inteiro** pra dentro do plano (a Herança é seção, não ponteiro) e puxa **3-5 falas de DOR + 3-5 de DESEJO** literais, com o N. Promessa e mecanismo nascem delas. Extrai no mínimo: território/inimigo + tensão dor→desejo · problema geral E avançado + mecanismo-do-problema · mecanismo NOMEADO + tese · persona com cena privada + objeções/crenças literais · provas nome+nº+prazo+porquê · meta + preço já cobrado.
@@ -67,7 +69,11 @@ Webinar = degrau 2 (Funil → Webinar → Lançamento): **não valida do zero, e
 | Pelo menos UM case real percorreu o caminho | |
 | Funil de entrada já vende de forma previsível | |
 
-Ticket < ~3k não paga a estrutura (~R$5.000/rodada) → volta pro funil. Validar no carrossel custa ~R$600/rodada vs ~R$5.000 no webinar, e o campeão é raro (~30 testados, 1 que escala): valide barato, suba só o que passou. Tom: consultor que **mede antes de opinar**. (Tabela de custo, sinais de "ainda não", 3 produtos Carta/MT/Webinar, decisória por ticket/estágio/ciclo/repertório/avatar: `references/escolha-carta-mt-webinario.md`.)
+**Piso de ticket ~3k = ALERTA de economia, NÃO um STOP-de-volta automático** (a régua de `escolha-carta-mt-webinario.md` marca "exceção na régua de ticket abaixo"). Distingue os dois casos, não confunde:
+- **Ticket que cabe no checkout one-step (≤~R$2.000, ver Bloco 1):** as 2h de copy empilhando valor fecham lead frio na hora; abaixo de ~3k o webinar drena mais que escala, então AVISA a economia apertada e recomenda validar barato antes, mas NÃO manda "volta pro funil" só pelo ticket. A decisão fica com o dono, com a conta na mesa.
+- **Ticket que não sustenta nem o checkout nem a ascensão** (nem fecha one-step, nem vira degrau de esteira 1:1 que pague a rodada): AÍ sim → **volta pro funil de entrada, encerra a conversa de webinar.**
+
+Validar no carrossel custa ~R$600/rodada vs ~R$5.000 no webinar, e o campeão é raro (~30 testados, 1 que escala): valide barato, suba só o que passou. Tom: consultor que **mede antes de opinar**. (Tabela de custo, sinais de "ainda não", 3 produtos Carta/MT/Webinar, decisória por ticket/estágio/ciclo/repertório/avatar: `references/escolha-carta-mt-webinario.md`.)
 
 **STOP.** Régua avaliada (sobe ou volta, com a razão). Espera OK.
 
@@ -86,10 +92,11 @@ Regra de canal (devolve decidido). **O Funil de Aula Agendada fecha ONE-STEP: o 
 
 | Oferta | Canal |
 |---|---|
-| produto da aula (cabe no checkout, ~≤R$3.000) | fecha NA HORA no checkout, one-step (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
-| oferta acima disso (~>R$3.000) | **NÃO é o produto da aula:** é degrau de ascensão da esteira, fechado no 1:1 (soft-vendas-closer) DEPOIS. A aula vende o produto que cabe no checkout e aponta o caro como ascensão (botão pro checkout do produto da aula) |
+| produto da aula (cabe no checkout one-step, **≤~R$2.000**) | fecha NA HORA no checkout, one-step (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
+| faixa cinza **~R$2.000 a ~R$3.000** | checkout ainda dispara na aula, MAS bota um comercial pra pescar quem não fechou na hora (a régua canônica: até ~R$2k fecha 100% no checkout; de 2-3k pra cima vale o comercial de repesca) |
+| oferta acima disso (**>~R$3.000**) | **NÃO é o produto da aula:** é degrau de ascensão da esteira, fechado SEMPRE no 1:1 (soft-vendas-closer) DEPOIS. A aula vende o produto que cabe no checkout e aponta o caro como ascensão (botão pro checkout do produto da aula) |
 
-**Regra dura:** desenha o produto da aula pra caber no checkout e fechar one-step; se a oferta que você quer vender não cabe, ela vira **degrau de esteira**, não o produto da aula. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket do produto da aula (dentro do teto de checkout) ou joga o caro pra ascensão.
+**Regra dura:** desenha o produto da aula pra caber no checkout e fechar one-step (teto ≤~R$2.000; 2-3k já pede comercial de repesca); se a oferta que você quer vender não cabe, ela vira **degrau de esteira**, não o produto da aula. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket do produto da aula (dentro do teto de checkout) ou joga o caro pra ascensão.
 
 **STOP.** "O que vende + ticket + canal". Espera OK.
 
@@ -175,6 +182,8 @@ Crava: **provas** (cases reais; furo = `[A CONFIRMAR]`) · **prova externa** (Se
 
 # A MONTAGEM (Herança inteira + STACK rica + diagnóstico/mecanismo reais)
 
+> **Antes da 1ª linha do doc: ZERO em-dash.** Ao escrever cada seção use ponto, vírgula ou hífen comum (-), NUNCA o travessão longo (em-dash, U+2014), inclusive em títulos e cabeçalhos (`## Seção 0 - HERANÇA`, `## Passo 1 - ...`, sempre com hífen curto). É o tell nº 1 que reprova o doc inteiro no gate; plante certo aqui, não conte com conferência no fim.
+
 Com o intake fechado, monta o doc DENSO (Lei 6: tabelas/listas). Abre com a HERANÇA (posicionamento absorvido INTEIRO inline), as 8 seções, fecha com a Seção 9. A Seção 1 absorve o desenho da STACK; a 8, o pitch; a 3 é o ensino.
 
 ## Seção 0, A HERANÇA do posicionamento (inline, na voz do dono)
@@ -248,7 +257,7 @@ A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair
 ### 1j, A SOMA RISCADA na tela + a garantia + o ticket
 - **Soma riscada:** preços avulsos somam a âncora (ex.: R$3.000 + R$9.100 + R$2.000 + R$1.497 + R$997 = ~R$16.594) → cai pro final → desconto no link → 12x. **Cada parcela checável:** número grande nunca acima de crível (Soft recusa âncora inflada que os componentes não sustentam).
 - **Garantia** (frame "período de experiência", nunca "garantia"; maior que a objeção de risco e não mais): acesso/suporte (implícita, ticket baixo) · experimento 7 dias (bateu 15/30) · incondicional N dias (mid) · super-garantia 90+90 (alto/cético: 90 sem resultado → consultoria; +90 → devolve E paga R$X pelo tempo, R$X é SLOT) · ROI-como-garantia (prova esmagadora). Cobre o **resultado do método**, nunca a decisão de aplicar.
-- **Ticket + canal + ascensão:** meta ÷ ticket = clientes/mês; não cabe → SOBE. O **produto da aula fecha one-step no checkout** (cabe, ~≤3k); oferta acima disso NÃO é o produto da aula, é degrau de esteira/ascensão fechado no 1:1 DEPOIS (faço-sozinho → com-você → por-você); nenhum lead se perde.
+- **Ticket + canal + ascensão:** meta ÷ ticket = clientes/mês; não cabe → SOBE. O **produto da aula fecha one-step no checkout** (teto ≤~R$2.000; faixa 2-3k dispara no checkout mas pede comercial de repesca); oferta acima de ~3k NÃO é o produto da aula, é degrau de esteira/ascensão fechado SEMPRE no 1:1 DEPOIS (faço-sozinho → com-você → por-você); nenhum lead se perde.
 - **Equação Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
 
 ### 1k, CHECKLIST DE MONTAGEM DA STACK (o gate da pilha antes do roteiro)
@@ -431,7 +440,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Mundo Ideal abstrato | Cena + número + a pergunta do ROI; objeto, lugar, reação |
 | Crenças sem rótulo | Rotula INTERNA × EXTERNA |
 | Perpétuo "porque escala" sem validar | ao vivo valida → grava → perpetua |
-| Pôs a oferta cara (>~3k) como produto da aula | O produto da aula fecha one-step no checkout (cabe, ~≤3k); o caro vira degrau de esteira, fechado no 1:1 na ascensão DEPOIS |
+| Pôs a oferta cara (>~3k) como produto da aula | O produto da aula fecha one-step no checkout (teto ≤~R$2k; 2-3k pede comercial de repesca); o caro (>~3k) vira degrau de esteira, fechado SEMPRE no 1:1 na ascensão DEPOIS |
 | Clímax = a aula que ensina mais | Clímax = o passo que TIRA mais trabalho |
 | Stack inflado "pra parecer mais" | Cada item mata objeção nomeada OU ancora com preço real |
 | Bônus pra consertar objeção de mecanismo | Vai PRA DENTRO da aula |

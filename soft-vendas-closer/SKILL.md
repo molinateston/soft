@@ -22,8 +22,10 @@ Esta skill contém TUDO do seu tema, a técnica de fechamento inteira:
 - **Frameworks de venda consultiva adaptados ao Soft**, perguntas em escada, ensinar/desafiar a visão, qualificação por dor, tamanho do problema (`references/frameworks-consolidados.md`).
 - **A condução na prática**, o jeito de conduzir destilado de sessões reais (`references/conducao-na-pratica.md`).
 
-## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+## ⚠️ ENTREGA = UM doc MD consolidado e COMPLETO, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o path completo na resposta (vira anexo no Telegram); a condução vai em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário, isso mora só dentro do doc). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar no STOP, você mostra ou atualiza o DOC INTEIRO e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa.
+
+**"Script de venda" pedido = as 7 fases inteiras ATÉ a coleta do Pix, num só doc.** O script-builder (`references/script-builder.md`, §5 "Como entregar o script final") manda entregar as 7 fases juntas em blocos copiáveis + a nota final. **Anti-pattern grave: pingar fase-a-fase no chat, entregar F1–F3 e deferir "F4–F7 + objeções + Pix pro próximo passo".** Isso NÃO é "um passo por vez", é entrega incompleta, corta justo a Fase 7 (Isolamento → Fechamento → Pix) que é o núcleo desta skill (está no nome: o CLOSER que pega o sinal/Pix na hora). Um único STOP, sobre o SCRIPT INTEIRO já montado. Sem o doc completo entregue, a skill não terminou.
 
 **A exceção é o modo copiloto ao vivo:** quando o dono está NO MEIO de uma conversa real e precisa da próxima jogada agora, a resposta é a mensagem operacional na hora (bloco copiável), não um doc. Aí o formato é `diagnóstico em 1 linha → mensagem pronta em bloco → 1 linha com os 2 caminhos esperados`.
 
@@ -79,6 +81,12 @@ A ordem é fixa. O que muda por canal e ticket é ritmo e comprimento, nunca a s
 
 **Regras universais entre fases:** nunca apresenta antes de entender (pular F2 = pitch no vazio) · nunca revela preço com dúvida aberta (pular F6 = objeção garantida) · nunca força quem não tem perfil (encerra leve, isso é vitória) · uma oferta por vez (Principal → Condicional → Secundária) · tom de comando, nunca de súplica · nunca cala depois do preço (ancoragem negativa; diz o número com leveza e emenda no próximo passo).
 
+**Falas-assinatura irredutíveis (a assinatura Soft, não "qualquer LLM").** O repertório denso vive em `references/script-builder.md` (§"Falas de campo") e `conducao-na-pratica.md`; estas três são o piso que NÃO pode sair raso, porque no app o corpo é tudo que carrega. Adapta ao nicho, mantém o miolo:
+- **A Conta de Padaria** (quando o lead pede preço cedo, F2): *"Você já foi num restaurante? Trazem a conta antes ou primeiro perguntam o tamanho da sua fome? Aqui é igual, não consigo te passar valor sem entender o que você precisa. Hoje, qual é a maior dificuldade no seu [problema]?"*
+- **O reframe "saber ≠ aplicar"** (F5, movimento 1): *"Isso que você me diz, você já sabe. O problema não é informação. Quem mais sabe de [tema] muitas vezes é justo quem não colhe [resultado]. Se você sabe e o número ainda é [resultado ruim], a falta não é saber, é aplicar do jeito certo."*
+- **O termômetro que qualifica** (F3): *"De 0 a 10, quanto você quer resolver isso hoje? ... 7? Nota ruim, hein. Você me disse que [o que importa] importa muito. Eu não arranco com um 7."*
+Genérico do tipo "me conta como tá sua rotina" / "de 0 a 10 quanto quer resolver" sem o corte é a versão rasa: perde a assinatura.
+
 ## Top 7 objeções (resposta de cor, banco completo em `banco-de-objecoes`)
 
 Isola antes de responder quando der: *"É só isso ou tem mais coisa emperrando?"*
@@ -100,9 +108,11 @@ Quando o lead já chega quente (viu o perfil, consumiu um material, veio do SDR)
 "Manda o link" não é coleta. Pegar o Pix na própria reunião é uma habilidade separada de vender. As 6 jogadas de campo (a energia leve e o silêncio que mata · a condição única da call gravada · o sinal é prova de comprometimento · negociar o sinal possível · plano A/B/C do pagamento · o "faço depois" que se converte na hora) preenchem o buraco entre o "sim" e o dinheiro na conta. Tudo segue a lei Soft: escassez real nunca inventada, o sinal é prova de comprometimento (não armadilha), respeita-se o não.
 
 ## ⛔ STOP antes de mandar pro lead
-Mostra o script (ou o próximo passo/resposta de objeção) no DOC e **PARA**: pergunta *"ajusto ou pode ir pro lead?"*. Nunca despeja a peça direto pro lead nem assume o "manda". A condução é sua; o disparo é do dono. **No copiloto ao vivo** o STOP é implícito (o dono está na conversa e decide na hora), mas mesmo lá você entrega UMA jogada por vez, nunca um roteiro inteiro de uma vez.
+Um único STOP, sobre a PEÇA INTEIRA já montada no DOC (o script COMPLETO das 7 fases até o Pix, ou o próximo passo/resposta de objeção completo). Mostra no DOC, imprime a tabela do Crivo ANTES dele (ver o gate abaixo) e **PARA**: pergunta *"ajusto ou pode ir pro lead?"*. Nunca despeja a peça direto pro lead nem assume o "manda". A condução é sua; o disparo é do dono. **Não confunda "peça consolidada" com "liberação incremental de fases":** parar na F3 e prometer o resto pro próximo passo QUEBRA a regra `ENTREGA = UM doc completo` (é o anti-pattern do bloco de entrega acima). O STOP é sobre o doc pronto, não sobre liberar fase por fase. **No copiloto ao vivo** o STOP é implícito (o dono está na conversa e decide na hora), mas mesmo lá você entrega UMA jogada por vez, nunca um roteiro inteiro de uma vez.
 
 > **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do Léo (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (Plano na `soft-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Léo.
+>
+> **Aspa de cliente exige GREP visível na fonte real do usuário.** Toda fala entre aspas que se declara verbatim tem que ser substring literal que você grepou e mostrou na fonte de VoC DELE (a tabela de ancoragem, `01-entrada-verbatim.md` passo 6). **Persona fictícia SEM perfil de VoC real não tem fonte, logo NÃO pode ter aspa "real":** aí a peça sai marcada `RASCUNHO-COM-PENDÊNCIA` / `[A CONFIRMAR]` e roteia pro onboarding. É PROIBIDO afirmar "verbatim-âncora, fonte real da [persona]" ou "nenhuma aspa é inventada, todas batem na fonte" sem o grep à mostra na fonte do usuário. Sem fonte, não se ASSUME nem se DECLARA verbatim, marca-se rascunho. Encenar a ancoragem (afirmar que bateu sem grepar) é a fraude que o gate existe pra matar.
 
 ## Como conduz (por pergunta, nunca despeja)
 1. Confirma o Plano (Oferta + PUV + Mecanismo + Voz). Sem ele, volta pra `soft-posicionamento`.
@@ -119,12 +129,21 @@ Mostra o script (ou o próximo passo/resposta de objeção) no DOC e **PARA**: p
 - **Agente / Telegram (LEON e frota):** o dono cola a conversa real ("cliente disse X, o que respondo?") e recebe a próxima jogada na hora; ou pede o script pra uma oferta nova. É o ambiente do copiloto ao vivo e da análise de conversa colada.
 
 ## O gate de saída obrigatório (o Crivo, bloqueante)
-Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem:
-1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim literal da fonte real do cliente. Aspa que não bate na fonte reprova.
+Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem. **O gate é ARTEFATO IMPRESSO ANTES do doc no STOP, não promessa de texto.** Narrar "passei no Crivo, como a skill exige" sem a tabela na tela é encenação e não conta como entrega.
+1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim literal grepado na fonte real do usuário. Aspa que não bate na fonte reprova. **Persona sem fonte de VoC → nenhuma aspa "real": marca `RASCUNHO-COM-PENDÊNCIA`/`[A CONFIRMAR]`, nunca declara verbatim** (ver o Passo 0).
 2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-3. **Gate CUB bloqueante** (`crivo/03-gate-cub.md`): imprime a tabela, **o VEREDITO é o pior bloco** (Confusão · Inacreditável · Tédio); peça que falha não sai, volta pra reescrita.
+3. **Gate CUB bloqueante** (`crivo/03-gate-cub.md`): **imprime a tabela de fato**, o VEREDITO é o pior bloco (Confusão · Inacreditável · Tédio); peça que falha não sai, volta pra reescrita. Fala-mecânica de venda (descoberta, isolamento, termômetro) roda a régua reduzida; o bloco que carrega prova/promessa (o case, a oferta) roda a tabela cheia. Formato mínimo a colar:
 
-O linter `scripts/lint_copy.py` roda a peça (anti-IA + anti-voz Soft), exit 1 derruba a entrega. O anti-IA limpa o robô; o Crivo dá a força. **Sem a tabela do Crivo impressa junto, a peça não foi entregue.**
+```
+BLOCO: [o slide/parágrafo/fala, entre aspas]
+0. Ancorado ........ PASSA/FALHA (grep na fonte do usuário, N do sub-padrão)
+1. Confuso ......... PASSA/FALHA
+2. Inacreditável ... PASSA/FALHA
+3. Boring .......... PASSA/FALHA
+=> VEREDITO DA PEÇA: [pior bloco manda]
+```
+
+**O linter é passo BLOQUEANTE, não nota solta.** Roda a copy no `scripts/lint_copy.py` (anti-IA + anti-voz Soft): `python3 scripts/lint_copy.py peca.txt` ou `echo "..." | python3 scripts/lint_copy.py -`. **`exit 1` = COPY REPROVADA = não entrega, reescreve e re-roda.** Ele derruba por 2 falhas duras: **o em-dash (o travessão longo U+2014)** e a **família da palavra banida "tr-a-v-a-r"** (todas as flexões e o antônimo "des-tr-a-v-a-r"). **Valem em QUALQUER lugar do `.md`, inclusive TÍTULOS, cabeçalhos e rótulos de fase**, não só nas aspas de copy: um título "Script [travessão] WhatsApp" ou um header "FASE 3 [travessão]" ou a palavra banida na narração ("a intimidade tr-a-v-o-u", "(des-tr-a-v-a-d-a)") reprova igual. Troca o travessão por ponto ou hífen comum; troca a palavra banida por emperrar/empacar/parar/freio/amarra. No chat (sem rodar o script), faz CTRL+F manual do travessão e da palavra banida em todo o doc antes de marcar ✓. O anti-IA limpa o robô; o Crivo dá a força. **Sem a tabela do Crivo impressa junto E o linter em exit 0, a peça não foi entregue.**
 
 ## Princípios
 - **Confirma, não convence:** se a oferta do Plano é forte e a carta aqueceu, a conversa fecha confirmando a crença, não construindo do zero.

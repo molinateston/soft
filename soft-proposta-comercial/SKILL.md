@@ -12,6 +12,18 @@ description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premi
 - **Mensagem de envio:** o texto curto que acompanha o link (validade de 7 dias), passado pelo filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7) antes de mandar.
 - **Filtros obrigatórios em cima de toda a copy:** PT-BR com acentuação completa; zero travessões (sinal de IA mal calibrada); só números REAIS e verificáveis do dono na prova social.
 
+### ⛔ SCRUB DE TRAVESSÃO (obrigatório, vale pra TODA peça)
+
+Zero travessão não é rótulo, é passo. O travessão (o em-dash "—" e o traço-longo "–") é o marcador nº1 de texto de IA e sai até no doc de extração se você não caçar. **ANTES de mostrar qualquer peça (extração, HTML, mensagem de envio, comentário CSS), rode um find de "—" e de "–" no texto inteiro e troque cada um.** Nenhuma peça sai com travessão. Como reescrever, caso a caso:
+
+- Aposto vira vírgula: `Dra. Priscila Andrade — OdontoVita` vira `Dra. Priscila Andrade, da OdontoVita`.
+- Explicação vira ponto ou vírgula: `números da Camila — nunca atribuir ao cliente` vira `números da Camila. Nunca atribuir ao cliente`.
+- Contagem vira "de" ou parênteses: `14 pessoas — 6 dentistas` vira `14 pessoas, sendo 6 dentistas`.
+- Tag/etiqueta vira parênteses ou dois-pontos: `[UPSELL — ideia da Camila]` vira `[UPSELL (ideia da Camila)]`.
+- Comentário de código vira dois-pontos: `/* azul-petróleo — cor da marca */` vira `/* azul-petróleo: cor da marca */`.
+
+Se o find achar QUALQUER travessão, corrigir e rodar o find de novo até dar zero. Só então a peça sai.
+
 ## OS 12 CAMPOS DE EXTRAÇÃO
 
 A proposta só é boa se a extração for boa. Ler a transcrição do começo ao fim, palavra por palavra, e preencher:
@@ -28,6 +40,33 @@ A proposta só é boa se a extração for boa. Ler a transcrição do começo ao
 10. **Reação do cliente** (interessado, com objeção, fechou na hora, pediu prazo).
 11. **Próximos passos** (combinados ao final da call).
 12. **Personalizações específicas** (cor preferida, paleta da marca, tom de comunicação).
+
+### Formato do doc de extração (é ESTE layout que sai pro dono, não a lista crua 1-12)
+
+Os 12 campos acima são o que COLETAR. O que o dono VALIDA é um doc MD apresentado neste esqueleto (fonte: `references/reference.md`, seção 3-ETAPA2). Não devolver a lista numerada crua; devolver assim:
+
+```
+NOME DO CLIENTE | Nicho
+
+Quem é: descrição em uma frase.
+
+Situação atual:
+| Item | Status |
+|------|--------|
+| Produto 1 | Descrição + ticket |
+| Produto 2 | Descrição + ticket |
+
+Dor principal: o que o cliente disse, com as palavras dele.
+
+O que quer: lista do que ELE pediu de fato.
+O que foi sugerido: lista do que o DONO propôs (upsell), separado.
+
+Preços: Mentoria R$X / Consultoria R$Y.
+
+Reação: interessado, com objeção, fechou, pediu prazo.
+
+Personalização: cor da marca, tom desejado, observações.
+```
 
 ### Regras de atribuição (não violar)
 
@@ -60,11 +99,19 @@ Cor accent e gradient mudam por nicho (espiritualidade roxo, arte gold, saúde v
 
 ## ⛔ STOP OBRIGATÓRIO
 
-**Validar os 12 campos com o dono ANTES de gerar o HTML.** Montar o doc MD da extração, mostrar pro dono, e só seguir pro Layout Soft depois que ele confirmar. Proposta gerada em cima de extração não validada sai com erro de atribuição e quebra a venda.
+**Validar os 12 campos com o dono ANTES de gerar o HTML.** Montar o doc MD da extração no esqueleto acima, mostrar pro dono, e só seguir pro Layout Soft depois que ele confirmar. Proposta gerada em cima de extração não validada sai com erro de atribuição e quebra a venda.
+
+**O STOP encerra o turno.** NÃO gere o HTML no mesmo turno da extração. NÃO simule, invente nem assuma o OK do dono ("pode seguir", "gera o site") pra continuar sozinho: fabricar a confirmação anula o gate. Entregue SÓ o doc de extração e devolva o turno esperando a confirmação REAL dele. O HTML é o próximo turno, depois que ele responder de verdade.
 
 ## APP-FALLBACK (sem Bash)
 
-No app, sem acesso a shell: receber a transcrição ou o resumo da call colado pelo dono, rodar a extração dos 12 campos, validar com ele, e entregar o site como **artifact HTML** pronto pra visualizar. A publicação no Cloudflare Pages é passo do Claude Code (com o token do dono no ambiente); no app, entrega-se o HTML e o dono publica pelo fluxo dele.
+No app, sem acesso a shell: receber a transcrição ou o resumo da call colado pelo dono, rodar a extração dos 12 campos no esqueleto validável, e entregar SÓ o doc de extração. **Aqui vale o STOP: entregue a extração e devolva o turno; não gere o HTML no mesmo turno, não simule o OK do dono.** O HTML é o próximo turno, depois da confirmação real dele.
+
+Quando ele confirmar, entregar o site como **artifact HTML**, em UMA peça só, via ferramenta de artifact de uma vez. Nunca colar o HTML em pedaços no chat nem pingar por partes: é um arquivo único, entregue pronto pra visualizar.
+
+**Fontes no app (artifact tem CSP estrita):** o artifact BLOQUEIA host externo, então `<link>` pro `fonts.googleapis.com` NÃO funciona e a tipografia premium quebra no fallback genérico. No app/artifact, ou embutir as fontes (Cormorant Garamond + DM Sans) como `data:` URI no CSS, ou declarar uma stack de sistema como fallback explícito (ex.: `Cormorant Garamond, Georgia, "Times New Roman", serif` pros títulos e `DM Sans, -apple-system, "Segoe UI", Roboto, sans-serif` pro corpo). O `<link>` pro Google Fonts só vale no fluxo Claude Code / Cloudflare Pages, nunca no artifact.
+
+A publicação no Cloudflare Pages é passo do Claude Code (com o token do dono no ambiente); no app, entrega-se o HTML e o dono publica pelo fluxo dele.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 
@@ -92,6 +139,8 @@ Uma proposta comercial premium, entregue como **site HTML estático single-file*
 ## NOTA DE ENTREGA
 
 A entrega É o site (artifact HTML no app, ou link privado publicado no Cloudflare Pages via Claude Code). O doc MD consolidado desta skill é a **extração validada** dos 12 campos, que sai ANTES do HTML pra o dono conferir; não se despeja a extração no chat solto, entrega-se como doc. A mensagem de envio do link também passa pelo filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7).
+
+No agente/Telegram: tem Bash, então roda o pipeline e publica igual ao Claude Code; salva o HTML e o doc MD da extração em disco e cita o path completo de cada um na resposta (o bridge anexa o arquivo). Condução em mensagens curtas, sem markdown pesado (nada de ##, nem tabela). Se o token de publicação do dono não estiver no ambiente, entrega só o arquivo HTML pelo path e o dono publica pelo fluxo dele.
 
 ## When NOT to use
 

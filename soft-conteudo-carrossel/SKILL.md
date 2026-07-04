@@ -15,14 +15,14 @@ Reel atrai, carrossel vende. Quem desliza o primeiro slide já decidiu que vai a
 
 ## Output Contract (o que você entrega)
 - **A capa + 7 a 10 slides na Fórmula 7**, copy slide a slide, uma ideia por slide, na voz do cliente final do especialista.
-- **O mapa de densidade** (a tese de cada slide em 1 frase). O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
+- **O mapa de densidade** (a tese de cada slide em 1 frase). O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. Nada do gate entra no doc: nem a tabela, nem veredito, nem "nota de gate", nem auto-avaliação em prosa. A ÚNICA marca permitida dentro do doc é `[DADO: confirmar]` no lugar de um furo.
 - Você entrega **um carrossel por vez** e **para** pra ajuste antes de gerar outro ou passar pro design.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra um carrossel que falhou no gate**.
 - A copy sai daqui. **A arte/PNG e a embalagem visual da capa são da `soft-designer`**, você define a tese e o texto e aciona ela.
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`; no **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (o bridge anexa), com a condução em mensagens curtas sem markdown pesado (sem `##`, sem tabela). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, exige a headline e ancora (NÃO PULE)
 O fluxo assume que a **headline/capa já foi escolhida** (veio da `soft-conteudo-headlines`). **Regra dura, vem antes de tudo:** se não tiver headline definida, **não comece o corpo** em hipótese nenhuma. Manda fazer a capa na `soft-conteudo-headlines` primeiro e para. A capa é 90% do jogo, o corpo se constrói a partir dela. (Os três estados de entrada abaixo só valem DEPOIS que a headline existe, eles tratam da fonte de fala, não da headline.)
@@ -93,7 +93,7 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 **Repertório tático por papel (puxa de `references/estrutura-peca.md`).** O arco da Fórmula 7 dá a ordem; a `estrutura-peca` dá as FORMAS de aterrar cada papel: escolhe **1 por papel**, nunca despeja todas:
 - **Contexto (slide 3):** 1 das 7 formas: Cena Filmada · Dia Padrão · Conselho Falido · Número Próprio · Diálogo Interno · Paradoxo Observável · Contraste com Personagem. Nunca preâmbulo didático ("antes de entrar no método...") nem currículo.
 - **Conteúdo (slides 7-8):** 1 das 7 formas: Contraste Emparelhado · Reframe · Casos Empilhados · Linha do Tempo Numérica · Nome-Número-Condição · Bastidor Crítico · Declaração+Sustentação. Sempre em contraste mercado×método.
-- **CTA (slide final):** 1 das 7 formas: Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S. Ticket R$3k+ pede Filtro Duro.
+- **CTA (slide final):** 1 das 7 formas: Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S. Ticket R$3k+ pede Filtro Duro. **Casa o rótulo com a execução:** "Envia X no Direct" É a forma **Direct com palavra-senha**; "Comenta X que eu te mando" É a forma **Comentário** (não troque o nome da forma que você declarou; ver `references/estrutura-peca.md` Seção 3, formas 1 e 2).
 
 **As 21 formas em 1 linha (pra saber o que É cada uma sem abrir a ref; detalhe, templates e tabelas de decisão em `references/estrutura-peca.md`):**
 
@@ -141,7 +141,9 @@ Tema "Por que sua reunião gratuita não converte", 8 cards (o Diagnóstico ocup
 8. **Convite/CTA:** "Se bateu, o caminho é [a oferta]: 3 sessões, sistema em 60 dias. Comenta MÉTODO que te mando a carta pra ler antes." (pede comentário, entrega valor antes, CTA único)
 
 ## COMO ENTREGAR (o carrossel vira doc MD)
-O carrossel montado (capa + slides na ordem, uma ideia por slide) é o entregável, e o cliente quer guardar. Entrega como **documento markdown**: no **claude.ai** como **artifact de markdown** (o carrossel slide a slide, que ele abre, copia e manda pro designer), no **Claude Code** como arquivo `.md`. A condução (mapa de densidade, escolha das formas, gate por dentro) acontece no chat; o **carrossel final sai como doc**, slide a slide rotulado, nunca despejado solto no meio da conversa.
+O carrossel montado (capa + slides na ordem, uma ideia por slide) é o entregável, e o cliente quer guardar. Entrega como **documento markdown**: no **claude.ai** como **artifact de markdown** (o carrossel slide a slide, que ele abre, copia e manda pro designer), no **Claude Code** como arquivo `.md`, no **agente/Telegram** como arquivo `.md` cujo path completo vai citado na resposta (vira anexo), com a condução em mensagens curtas sem markdown pesado. A condução (mapa de densidade, escolha das formas, gate por dentro) acontece no chat; o **carrossel final sai como doc**, slide a slide rotulado, nunca despejado solto no meio da conversa.
+
+**Formato do rótulo de slide (obrigatório, decalca o do exemplo card-a-card acima):** cada slide sai como `N. **Papel:** copy`, ou seja, número do slide + ponto + o papel em negrito + dois-pontos + a copy. Ex.: `7. **Mecanismo/Prova:** "..."`. **É PROIBIDO usar o travessão (em-dash) como separador de rótulo** (nada de "Slide 7" seguido de travessão e o papel): o em-dash é o char que a própria skill bane no gate e reprova a peça inteira no `lint_copy.py`. Sem número disponível, usa só `**Papel:** copy`. O separador é sempre dois-pontos, nunca em-dash.
 
 ## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só carrossel com a linha VEREDITO=PASSA vai pro cliente. Uma falha refaz o ponto (não a peça inteira). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o carrossel limpo (Passo 5), jamais a tabela.
@@ -161,12 +163,12 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **CTA forte com palavra-chave** | slide final tem CTA único e muito bem feito: palavra-chave pra comentar + o que a pessoa recebe (bullets/benefício) + próximo passo real do funil (direct/carta/isca); CTA fraco ou **sem destino = ✗** | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** O em-dash "—" é ✗ em QUALQUER lugar do `.md`, não só nas frases de copy: rótulos de slide, cabeçalhos, marcadores `[DADO: confirmar]` e notas TAMBÉM são texto do doc e contam; um "—" em qualquer um deles reprova a peça igual ao `lint_copy.py` (exit 1). | |
 | **Voz do cliente (padrões de ausência)** | quando a lista de ausência do Passo 0 existe: **nenhum slide viola nenhum item dela** (palavra proibida, muleta, estrutura, tom que aquela voz nunca usa); um item da lista quebrado = ✗ igual a um travessão. Sem lista destilada, marca N/A e segue. | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
-Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide: a copy de cada slide, sem tabela de gate, sem meta. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
+Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide no formato `N. **Papel:** copy`: a copy de cada slide, sem tabela de gate, sem meta. **É PROIBIDO** colar dentro do doc qualquer traço do gate. Não só a tabela, mas TAMBÉM qualquer nota/prosa de gate, veredito, "nota de gate (interna)", auto-avaliação ou "fiz o CTRL+F". Entregar o gate em prosa viola a Lei 6 igual à tabela; o gate mora só na tua cabeça (Passo 4), nunca no doc. A única marca permitida no doc é `[DADO: confirmar]` no lugar do furo. Pergunta "esse carrossel te serve? ajusto algum slide ou parto pro design?". **Espera a escolha** antes de gerar outro carrossel ou acionar a `soft-designer` pra arte.
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **headline / capa / gancho / abertura** isolada → **soft-conteudo-headlines**.

@@ -21,7 +21,7 @@ Só executa se as duas condições abaixo estiverem cumpridas. Se qualquer uma f
 
 ## Output Contract (o que você entrega)
 - **No Claude Code / agente (tem Bash + credencial):** a operação EXECUTADA na conta: IDs criados (campaign_id, adset_id, ad_id, creative_id), o post publicado (media_id + permalink), a automação ligada (id + status), as métricas lidas (tabela). Tudo nasce PAUSED; a ativação é uma call separada COM OK do dono. A entrega final é um **arquivo `.md`** (o runbook do que foi feito + IDs + próximos passos) cujo **path completo vai na resposta**.
-- **No app/chat (sem Bash):** você NÃO opera a plataforma. Entrega o **checklist de execução pronto pra colar** (a sequência exata de calls/campos que quem tem a credencial roda) + as **copys/legendas finais** + o mapa de campos da automação, tudo num doc MD. Deixa claro que a execução na conta acontece no Code/agente.
+- **No app/chat (sem Bash):** você NÃO opera a plataforma. Entrega o **checklist de execução pronto pra colar** (a sequência exata de calls/campos que quem tem a credencial roda) + as **copys/legendas finais** (= a copy JÁ APROVADA da `soft-conteudo-*` transcrita no campo exato do anúncio (`link_data`/`caption`), NÃO copy nova escrita aqui) + o mapa de campos da automação, tudo num doc MD. Deixa claro que a execução na conta acontece no Code/agente. Em app/chat os STOPs NÃO são perguntas de aprovação ao vivo: não há o que ativar, o doc é o deliverable inteiro pro dono da credencial; o checklist só MARCA onde quem tem a credencial precisa parar e obter o OK do dono antes de ativar/publicar.
 - Você **nunca ativa campanha nem muda budget sem OK explícito**. Você **nunca inventa uma métrica**: número vem da API real; sem leitura, marca `[LER: rodar insights]`.
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE
@@ -33,6 +33,10 @@ O RESULTADO desta skill sai como **UM documento markdown consolidado**. No **cla
 | **app / chat (claude.ai)** | Não | Prepara tudo: monta o checklist de calls, as copys/legendas prontas, o mapa de campos da automação | Doc MD com checklist + copys; avisa que a execução na conta roda no Code/agente |
 | **Claude Code** | Sim | Executa via MCP/Marketing API com as credenciais do `.env`: cria campanha/adset/ad, publica post, liga automação, lê métrica | Operação feita + arquivo `.md` (runbook + IDs + permalink) com o path na resposta |
 | **agente / Telegram** | Sim | Igual ao Code, com as credenciais do dono no ambiente | Operação feita; resposta ao dono = frase curta sem markdown pesado + **path completo do arquivo** |
+
+**Os STOPs em app/chat:** no app não há credencial e nada pode ser ativado nem publicado, então "pode ativar?" e "publico e ligo?" NÃO são perguntas de aprovação ao vivo. O checklist apenas MARCA no doc, no ponto exato, onde quem tem a credencial precisa parar e obter o OK do dono antes de ativar/publicar. Nunca simule um "pode, pode ativar" do dono nem finja que ativou: o doc é o deliverable inteiro.
+
+**Pedido que junta as duas trilhas:** se a mensagem combina campanha paga (Passo 2/4) E publicação + automação comment-to-DM (Passo 3) numa coisa só, o doc carrega AS DUAS trilhas (ou executa em sequência no Code/agente). Nunca dropa uma metade em silêncio: atendeu a campanha, atende também a publicação, e vice-versa.
 
 ## PASSO 0: Confirma via de execução e credenciais
 Duas vias, a skill usa a que estiver disponível:
@@ -77,10 +81,10 @@ Hierarquia da Meta: **Campanha → Conjunto de anúncios (ad set) → Anúncio (
 
 Cobrar CTA/destino de um story ad de atração quebra a camuflagem que o faz funcionar. Não faça.
 
-**STOP**, mostra a estrutura montada (ainda PAUSED) e pergunta "pode ativar?". Não ativa por conta própria.
+**STOP**, mostra a estrutura montada (ainda PAUSED) e pergunta "pode ativar?". Não ativa por conta própria. **Em app/chat** esse STOP não é pergunta ao vivo (não há o que ativar): o checklist só MARCA no doc onde quem tem a credencial precisa obter o OK do dono antes de ativar; nunca simule o OK nem finja que ativou.
 
-## PASSO 3: Publica o post + liga o comment-to-DM (quando o pedido for publicação)
-Quando o pedido é publicar um post orgânico e ligar a automação (não uma campanha paga), o fluxo é:
+## PASSO 3: Publica o post + liga o comment-to-DM (publicação; pode vir JUNTO da campanha)
+Quando o pedido é publicar um post orgânico e ligar a automação, o fluxo é o abaixo. Este passo NÃO é alternativa ao Passo 2: se a mensagem pede campanha paga E publicação/automação, o doc carrega as duas trilhas (Passo 2/4 + Passo 3), nunca só a primeira metade.
 
 **Publicação (Instagram, `graph.instagram.com`, NÃO facebook):**
 1. Cada card do carrossel numa **URL pública própria** (Cloudflare Pages / hospedagem estática do negócio, `CLOUDFLARE_API_TOKEN` no ambiente). **NUNCA** Litterbox/Catbox/Imgur: o scraper da Meta bloqueia (erro 9004). Valida que respondem 200 antes de publicar; se a Meta rejeitar o JPEG (erro 36001), recompress `quality=92, optimize=True` e adiciona `?v=$(date +%s)` pra furar o cache.
@@ -91,7 +95,9 @@ Quando o pedido é publicar um post orgânico e ligar a automação (não uma ca
 - **Regra dura:** o botão é `quick_reply`, NÃO `web_url`. `quick_reply` entrega o lead pro fluxo do SDR (a conversa chega no DM e o vendedor assume); `web_url` abre link externo mas NÃO entrega pro fluxo. Pra handover, sempre `quick_reply`.
 - A Private Reply leva o botão anexado JUNTO no mesmo payload, nunca numa 2ª chamada.
 
-**STOP**, publicação e automação também são ações no ar. Mostra a legenda + os campos da automação e pergunta "publico e ligo?". No app, entrega tudo como checklist (você não tem como publicar sem credencial).
+A legenda que vai no `caption` = a copy JÁ APROVADA da `soft-conteudo-*` transcrita, nunca copy nova escrita aqui; se veio crua da conversa, PARA e volta pra soft-conteudo antes de publicar.
+
+**STOP**, publicação e automação também são ações no ar. Mostra a legenda + os campos da automação e pergunta "publico e ligo?". **Em app/chat** esse STOP não é pergunta ao vivo: entrega tudo como checklist (você não tem como publicar sem credencial) e MARCA no doc onde parar pro OK do dono; nunca simule o OK nem finja que publicou.
 
 ## PASSO 4: Ativa (só com OK) e depois lê as métricas
 - **Ativar:** a hierarquia inteira precisa estar ativa pra entregar; ativa de cima pra baixo (campanha → ad set → ad). É uma call separada, SEMPRE com o "pode ativar?" respondido pelo dono.
@@ -108,6 +114,8 @@ Antes de entregar, confere (a tabela NÃO vai pra saída):
 | **Objetivo certo** | ODAX (nunca legado); SALES+site tem pixel no `promoted_object`; otimiza pra venda não pra lead barato |
 | **Métrica real** | todo número vem da API; sem leitura, marca `[LER: rodar insights]`, nunca inventa |
 | **quick_reply** | a automação usa `quick_reply` (entrega o lead), não `web_url` |
+| **Legenda vetada** | a legenda/copy = a aprovada da `soft-conteudo-*` (já passou anti-ia), nunca reescrita aqui; se veio crua/não-vetada, PARA e volta pra soft-conteudo antes de montar o creative |
+| **Trilha completa** | se o pedido juntou campanha E publicação/automação, o doc carrega as DUAS; nenhuma metade foi dropada |
 | **Doc + path** | a entrega é UM doc MD; no Code/agente o path completo do arquivo vai na resposta |
 
 Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. Não narra o fluxo.

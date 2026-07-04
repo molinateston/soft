@@ -44,6 +44,8 @@ Três estados de entrada (declara qual é o seu):
 - **Tem foto mas ZERO fala literal:** NÃO inventa gancho de choque. Ancora em prova real do dono (resultado, case, mecanismo); número não confirmado vira `[A CONFIRMAR]`. Avisa que minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa o gancho muito mais cravado.
 - **Sem foto:** pede a foto numa única mensagem antes de gerar o prompt (o prompt sem foto de referência sai genérico e perde a marca do canal). Pode adiantar o briefing de texto enquanto espera.
 
+**Gatilho de nicho regulado (BLOQUEANTE, roda ANTES de fechar o gancho):** se o nicho do dono for regulado por conselho de classe (saúde, jurídico, finanças e correlatos, ex.: fisioterapeuta, dentista, nutri, advogado), roda o `shared-references/crivo/04-gate-regulado.md` ANTES de fechar o gancho e o briefing. Ele VETA gancho de cura, de resultado garantido, ou de prazo cravado sobre condição de saúde (ex.: "não é pra sempre" sobre um sintoma clínico = promessa implícita de cura, reprova) e manda trocar pro eixo educação/mecanismo. Na dúvida se o nicho é regulado, TRATA como regulado.
+
 ## Passo 1, pega o título e o tom emocional
 O título do vídeo vem do dono (ou você propõe 3 títulos fortes se ele pedir). O título e o gancho de capa são coisas diferentes: o título é a linha do YouTube (mais longa), o gancho é as 3-5 palavras GRANDES na imagem. Um complementa o outro, não repete.
 
@@ -61,7 +63,7 @@ Toda thumbnail respeita estas regras, elas são o que faz o olho parar na grade 
 | 1 | **Rosto ocupa 30-50% do quadro** | o rosto é grande, legível mesmo em miniatura pequena (mobile); rosto escondido/pequeno reprova |
 | 2 | **Texto = 3-5 palavras, gancho, não frase** | é um estilingue de curiosidade ("demiti meu time", "não faça isso"), nunca uma sentença completa; teto de 5, ideal 3, 6 só em último caso |
 | 3 | **2 cores dominam** | a cor da marca do dono + UMA cor de destaque de alto contraste (amarelo, vermelho ou ciano puxam o olho); paleta poluída reprova |
-| 4 | **1 elemento focal além do rosto** | um objeto, número grande, logo de ferramenta ou seta que dá o assunto num relance |
+| 4 | **1 elemento focal além do rosto** | um objeto, número grande, logo de ferramenta ou seta que dá o assunto num relance. Número/dado marcado `[A CONFIRMAR]` NÃO pode virar elemento focal nem número-atrás-do-ombro até ter fonte; se o número é a espinha da capa e não tá confirmado, PARA e minera a fala antes de montar a arte |
 | 5 | **Alto contraste testável** | apertando os olhos, rosto/texto/fundo ainda se separam; teste do olho semicerrado |
 | 6 | **Zona-limpa do selo de duração** | nada de texto ou logo importante no canto inferior direito (o selo de tempo do YouTube cobre) |
 | 7 | **Legível a 320px** | o texto se lê no tamanho mobile do YouTube; texto miúdo é texto invisível |
@@ -79,15 +81,16 @@ O gancho de 3-5 palavras é COPY, então passa pelo gate igual a uma headline. E
 | **Teto CONTADO (3-5 palavras)** | você CONTA de fato as palavras, não chuta; 5 no máximo, 3 é o melhor; estourou = comprime, não corta a curiosidade | |
 | **Gancho, não frase** | é um estilingue, não uma sentença explicativa; ✗ "veja como eu consegui aumentar minhas vendas" · ✓ "vendi dormindo" | |
 | **Clareza (Lei 1)** | dá pra entender num relance, sem já ser de dentro; zero palavra difícil, zero figura vazia; ✗ "reorganize sua percepção" · ✓ "cobrei o dobro" | |
-| **Complementa o título** | o gancho não repete o título palavra por palavra; os dois somam curiosidade | |
+| **Complementa o título** | o gancho não repete o título palavra por palavra; os dois somam curiosidade. Repetir trecho literal do título = ✗. Ex.: título *"...o que ninguém te explicou"* → ❌ gancho "Ninguém te explicou isso" (ecoa o parêntese do título) · ✓ "Não é pra sempre" (soma curiosidade nova) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma"). No chat/agente sem lint, faz CTRL+F manual de "—" e "travar" | |
-| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ o gancho. Só tudo-✓ entra no briefing | |
+| **Gate regulado (se aplicável)** | nicho regulado (saúde/jurídico/finanças) passou pelo `shared-references/crivo/04-gate-regulado.md`; VETA gancho de cura/resultado/prazo-cravado sobre condição de saúde e troca pro eixo educação/mecanismo. Fora de nicho regulado, não se aplica | |
+| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ o gancho. Repetir trecho literal do título = ✗ automático. Só tudo-✓ entra no briefing | |
 
 ## Passo 4, monta o briefing e o prompt de imagem
 Monta o BRIEFING enxuto no DOC:
 
 ```
-BRIEFING DA THUMBNAIL, [título do vídeo]
+Vídeo: [título do vídeo]
 Proporção: [1280x720 16:9  /  1080x1920 9:16]
 Gancho de texto: "[3-5 palavras, já gated]"
 Composição: [posição do rosto, % do quadro, direção do olhar, expressão/tom]
@@ -144,7 +147,8 @@ Contra-exemplo (REPROVA): gancho **"Você NÃO vai acreditar nisso"** com foto d
 |---|---|
 | Gancho virou frase explicativa longa | Comprime pra 3-5 palavras, estilingue de curiosidade, não sentença |
 | Clickbait de choque que o vídeo não entrega | Reprova no gate; reancora na dor real do avatar, a capa casa com o conteúdo |
-| Inventou um número de choque pra chamar clique | Fere a Lei 5; número sem fonte vira `[A CONFIRMAR]`, nunca vai pra capa |
+| Inventou um número de choque pra chamar clique | Fere a Lei 5; número sem fonte vira `[A CONFIRMAR]`, nunca vai pra capa, NEM no gancho NEM como elemento focal / número-atrás-do-ombro |
+| Pôs um número `[A CONFIRMAR]` como elemento focal gigante da arte | O veto cobre o VISUAL, não só o gancho de texto; número sem fonte não vira foco da capa. Para, minera a fala, só monta a arte com o número confirmado |
 | Pediu o prompt sem a foto de referência | Para e pede a foto; sem ela a capa sai genérica e perde a marca do canal |
 | Pôs texto DENTRO da imagem gerada | Texto vai por overlay por cima (soft-designer), nunca dentro do prompt; senão a copy não é editável |
 | Rosto pequeno ou escondido | Rosto 30-50% do quadro, ponto focal visível; refaz a composição |

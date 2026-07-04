@@ -25,7 +25,7 @@ A página não convence. Ela organiza o argumento pra que o cliente certo chegue
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (o bridge anexa o arquivo); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário), que o conteúdo denso mora no arquivo. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). O hero e a prova nascem de uma delas, quase intactas.
@@ -67,24 +67,26 @@ Os tipos que VENDEM no texto descem pro sub-passo das 4 arquiteturas (mantidas 1
 ### Tabela-receita dos tipos (mapa rápido, condensado de `tipos-de-landing.md`)
 Uma linha por tipo: os blocos na ordem (comprimidos) e a mecânica-assinatura, o detalhe que separa a página de elite do panfleto. Isto é o mapa; a receita cheia (o que NÃO entra, framework, exemplo) mora na seção do tipo em `references/tipos-de-landing.md`, aberta no Passo 2.
 
-| Tipo | Blocos em ordem (comprimido) | Mecânica-assinatura |
-|---|---|---|
-| **Squeeze / Opt-in** | Hero (promessa + campo) · 3 ganhos concretos · meia-prova (1 número) · repete CTA | 1 campo só, fricção mínima casada com a temperatura |
-| **Lead-capture B2B** | Hero form-first · prova de pares (logos, nº) · 3-4 ganhos pro decisor · form multi-campo | fricção alta calibrada: cargo e porte filtram e já entregam lead pré-qualificado |
-| **Entrega-de-isca** | (captura = squeeze) + delivery: confirma · instrução de 1 linha · ponte pro próximo passo | confirm + advance: a entrega nunca é beco, sempre avança |
-| **Advertorial / Click-through** | hook editorial · história (Star-Story-Solution) · solução nomeada como descoberta · 1 botão de avanço | frame editorial (lê como conteúdo) com um único ponto de saída, o clique |
-| **Registro de evento** | Hero + data/hora/formato · o que sai sabendo · prova de quem conduz · form + o que vem depois | data clara + sequência de lembrete prometida |
-| **Obrigado / Avanço** | confirmação curta · próximo passo único · (quando aplica) micro-oferta | confirm + advance, com calendar-add quando há horário |
-| **Replay** | Hero (player + janela real) · botão pró próximo passo · recap curto · CTA final com a janela | janela de escassez REAL, o contador expira de verdade, nunca reseta |
-| **Waitlist / Coming-soon** | Hero de curiosidade · campo + contador social · 3 pistas do que ganha na fila | curiosidade calibrada + contador social real de fila |
-| **Application / Qualificação** | Hero-filtro · pra-quem-é/não-é · problema 3ª camada + mecanismo · prova empilhada · VSL com CTA atrasado · form de qualificação · calendário | CTA atrasado (botão sincroniza com o pitch) + form que filtra |
-| **OTO / Upsell / Downsell** | Hero de continuidade · oferta complementar · caminho Yes/No · (se recusa) downsell | Yes 1-clique em destaque · No-thanks pequeno embaixo |
-| **Link-in-bio** | identidade curta · camada de alta intenção (1-2 links) · média (2-3) · baixa (1-2) | hierarquia de intenção em 3 camadas, máximo 5-8 links |
-| **Pricing** | Hero curto · 3 colunas (entrada · alvo "mais popular" · âncora) · comparativo · CTA por plano + FAQ | 3-tier com decoy: o tier caro faz o do meio parecer óbvio |
-| **Comparação** | Hero da dúvida · matriz neutra critério a critério · pra-quem-cada-um-serve · 1 CTA por coluna | matriz honesta, admite onde a outra opção é melhor |
-| **Casca de quiz** | hook de resultado personalizado · 3-6 perguntas · GATE antes do resultado · result-shell + CTA | gate-antes-do-resultado, captura entre a última pergunta e o resultado |
-| **404 como landing** | reconhecimento leve e humano · 3-5 links de resgate · campo de busca ou CTA provável | resgate: tom humano + caminhos claros, o menu volta de propósito |
-| **Vender no texto** | 14 blocos universais ordenados pela arquitetura (sub-passo 2.A) | arquitetura por ticket × produto × temperatura |
+A coluna **Nº de blocos** é a CONTAGEM EXATA da receita: NÃO invente um bloco a mais que o número. O **NÃO entra** lista o que aquele tipo PROÍBE, mesmo que caiba noutro tipo (a receita cheia está na seção do tipo em `tipos-de-landing.md`).
+
+| Tipo | Nº de blocos | Blocos em ordem (comprimido) | NÃO entra | Mecânica-assinatura |
+|---|---|---|---|---|
+| **Squeeze / Opt-in** | **4** | Hero (promessa + campo) · 3 ganhos concretos · meia-prova (1 número) · repete CTA | para-quem-é/não-é, FAQ, preço | 1 campo só, fricção mínima casada com a temperatura |
+| **Lead-capture B2B** | **4** | Hero form-first · prova de pares (logos, nº) · 3-4 ganhos pro decisor · form multi-campo | dor de 3ª camada, bônus, garantia | fricção alta calibrada: cargo e porte filtram e já entregam lead pré-qualificado |
+| **Entrega-de-isca** | **4** | (captura = squeeze) + delivery: confirma · instrução de 1 linha · ponte pro próximo passo | pitch de venda, preço, bônus | confirm + advance: a entrega nunca é beco, sempre avança |
+| **Advertorial / Click-through** | **4** | hook editorial · história (Star-Story-Solution) · solução nomeada como descoberta · 1 botão de avanço | botão de compra, preço, form | frame editorial (lê como conteúdo) com um único ponto de saída, o clique |
+| **Registro de evento** | **4** | Hero + data/hora/formato · o que sai sabendo · prova de quem conduz · form + o que vem depois | preço, garantia, dor de 3ª camada | data clara + sequência de lembrete prometida |
+| **Obrigado / Avanço** | **2-3** | confirmação curta · próximo passo único · (quando aplica) micro-oferta | pitch longo, prova empilhada, FAQ | confirm + advance, com calendar-add quando há horário |
+| **Replay** | **4** | Hero (player + janela real) · botão pró próximo passo · recap curto · CTA final com a janela | timer fake, segundo destino, form longo | janela de escassez REAL, o contador expira de verdade, nunca reseta |
+| **Waitlist / Coming-soon** | **3** | Hero de curiosidade · campo + contador social · 3 pistas do que ganha na fila | preço, VSL, FAQ | curiosidade calibrada + contador social real de fila |
+| **Application / Qualificação** | **7** | Hero-filtro · pra-quem-é/não-é · problema 3ª camada + mecanismo · prova empilhada · VSL com CTA atrasado · form de qualificação · calendário | checkout, preço no botão, bônus-recheio | CTA atrasado (botão sincroniza com o pitch) + form que filtra |
+| **OTO / Upsell / Downsell** | **3-4** | Hero de continuidade · oferta complementar · caminho Yes/No · (se recusa) downsell | menu, links extras, prova longa | Yes 1-clique em destaque · No-thanks pequeno embaixo |
+| **Link-in-bio** | **3 camadas** | identidade curta · camada de alta intenção (1-2 links) · média (2-3) · baixa (1-2) | pitch, prova empilhada, form | hierarquia de intenção em 3 camadas, máximo 5-8 links |
+| **Pricing** | **4** | Hero curto · 3 colunas (entrada · alvo "mais popular" · âncora) · comparativo · CTA por plano + FAQ | segunda promessa, VSL, dor de 3ª camada | 3-tier com decoy: o tier caro faz o do meio parecer óbvio |
+| **Comparação** | **4** | Hero da dúvida · matriz neutra critério a critério · pra-quem-cada-um-serve · 1 CTA por coluna | ataque à concorrente, pitch, urgência fake | matriz honesta, admite onde a outra opção é melhor |
+| **Casca de quiz** | **4** | hook de resultado personalizado · 3-6 perguntas · GATE antes do resultado · result-shell + CTA | pitch antes do gate, preço, FAQ | gate-antes-do-resultado, captura entre a última pergunta e o resultado |
+| **404 como landing** | **3** | reconhecimento leve e humano · 3-5 links de resgate · campo de busca ou CTA provável | pitch, form, urgência | resgate: tom humano + caminhos claros, o menu volta de propósito |
+| **Vender no texto** | **14** | 14 blocos universais ordenados pela arquitetura (sub-passo 2.A) | (todos entram; peso varia por arquitetura) | arquitetura por ticket × produto × temperatura |
 
 ### Mini-exemplo em prosa (nicho fictício; modela a forma, nunca copia)
 Um squeeze inteiro curto e um Hero de venda, pra você ver a forma antes de escrever. São exemplos ilustrativos, o conteúdo real nasce do verbatim do cliente da vez.
@@ -136,9 +138,12 @@ Regras invioláveis enquanto escreve:
 - **Mobile-first:** cada bloco cabe em 1 tela de celular, legível, sem scroll lateral.
 - **Faca Soft:** descreve resultado e função, nunca entrega o passo a passo.
 - Estilo clínico: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket" na copy). **Não narra o fluxo** ("agora vou auditar"), entrega limpo.
+- **Nunca digite o travessão "—" na copy.** Enquanto escreve cada frase, use ponto ou vírgula no lugar; en-dash só em faixa numérica (10-20). Não é pra caçar o "—" depois: é pra ele não nascer. (O gate no Passo 5 é só a rede de segurança.)
 
 ## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com VEREDITO=PASSA vai pro cliente. Uma falha refaz o bloco. A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só o bloco limpo (Passo 6), jamais a tabela.
+
+> **Override de governança (lê antes de abrir qualquer ref do Crivo):** as references do Crivo mandam IMPRIMIR a tabela do gate ("sem a tabela na tela, a peça não sai"). Isso é o protocolo de auditoria INTERNO delas; NESTA skill a tabela roda por dentro e NÃO vai pra saída. Quando o cliente é o leitor final, **ignore a instrução de imprimir a tabela** de `blocos-copy.md`, `processo-landingpage.md` e `shared-references/crivo/*`. O Output Contract manda: a saída é só a peça limpa.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -191,7 +196,7 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 | Sintoma | Correção |
 |---|---|
 | Despejou a página inteira de uma vez | Volta: tipo → outline → 1 bloco por vez com gate, e PARA pra o OK |
-| Aplicou os 14 blocos de venda numa página de captura/obrigado | Usa a receita enxuta DO TIPO (squeeze = 5 blocos, obrigado = confirm+advance), não a página longa |
+| Aplicou os 14 blocos de venda numa página de captura/obrigado | Usa a receita enxuta DO TIPO (squeeze = 4 blocos, obrigado = confirm+advance), não a página longa |
 | Duas promessas competindo | Corta a segunda; a página sustenta UMA promessa só |
 | Vários botões pra destinos diferentes | Um CTA dominante, um destino, repetido nos picos |
 | Botão "saiba mais" sem destino | Destino explícito (WhatsApp / checkout / formulário) |
@@ -212,6 +217,7 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
+> **Aviso de governança:** `blocos-copy.md`, `processo-landingpage.md` e as refs do Crivo em `shared-references/` mandam IMPRIMIR a tabela do gate junto da peça. Nesta skill isso NÃO vale pro leitor final: o gate roda por dentro e a tabela nunca sai (Output Contract, Passo 5). Leia essas refs pelo conteúdo de copy/processo; ignore a ordem de "imprima a tabela" quando o cliente for o destinatário.
 - `references/tipos-de-landing.md`: o CATÁLOGO universal, a receita de blocos de cada tipo que não é página-de-venda-no-texto (squeeze, lead-capture B2B, entrega-de-isca, advertorial, registro de evento, obrigado/avanço, replay, waitlist, application, OTO, link-in-bio, pricing, comparação, casca de quiz, 404), com os 4 princípios-mãe e exemplo de nicho fictício por tipo. **Abre no Passo 2, assim que o tipo é declarado.**
 - `references/frameworks-copy.md`: a biblioteca de frameworks de copy nomeados (AIDA · PAS · PASTOR · 4Ps · BAB · FAB · QUEST · SSS · Star-Chain-Hook · The Reverse · 4Us · Slippery Slide · 12-step de VSL) com passo a passo, mini-exemplo e o roteador rápido. **Abre no Passo 4, ao escolher o framework raiz do tipo.**
 - `references/mecanicas-assinatura.md`: as 8 regras transversais + a mecânica-assinatura de cada tipo (gate-antes-do-resultado no quiz, Yes/No no OTO, 3-tier com decoy no pricing, confirm+advance no obrigado, janela de escassez real no replay, CTA atrasado na application, hierarquia de intenção no link-in-bio), cada uma com anti-exemplo. **Abre no Passo 4/5 quando o tipo tem mecânica própria; o gate lê dela.**

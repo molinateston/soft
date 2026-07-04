@@ -9,7 +9,7 @@ description: "Editor de vídeo do método Soft: transforma um talking-head cru (
 Esta skill tem pipeline com Bash + FFmpeg + APIs. O ramo por ambiente:
 - **Claude Code:** roda o pipeline INTEIRO de verdade (Bash, FFmpeg de corte/silêncio/montagem/música, karaokê e animações, transcrição local com whisper.cpp, chamadas de imagem/vídeo). Entrega o **MP4 4K final** salvo na pasta de saída do dono e aberto pra ele ver.
 - **agente / Telegram (tem Bash):** roda igual ao Code. A entrega é o **ARQUIVO**: o path COMPLETO do MP4 gerado vai na resposta, e as mensagens saem sem markdown pesado.
-- **app / chat (claude.ai, sem Bash):** NÃO renderiza vídeo. A entrega possível é um **doc MD** com o **PLANO DE CENAS** (`scenes.json`: cada cena com personagens, pose e elementos, mapeada à fala), a **paginação da legenda karaokê** (quantas palavras por vez, qual acende, cor da marca), qual **animação de tela** usar em qual momento, e a **copy do gancho/cold open e do CTA**, deixando anotado que a transcrição, a geração de imagem, a animação e o render rodam no Code.
+- **app / chat (claude.ai, sem Bash):** NÃO renderiza vídeo. A entrega possível é um **doc MD** com o **PLANO DE CENAS** (`scenes.json`: cada cena com personagens, pose e elementos, mapeada à fala), a **paginação da legenda karaokê** (quantas palavras por vez, qual acende, cor da marca), qual **animação de tela** usar em qual momento, e a **copy do gancho/cold open e do CTA**, deixando anotado que a transcrição, a geração de imagem, a animação e o render rodam no Code. Duas regras do app-mode: (1) a **aprovação do elenco por imagem NÃO acontece** aqui (sem Bash pra gerar imagem) — marque o elenco `[PENDENTE: aprovar elenco com 1 imagem de teste no Code antes de produzir]` em vez de fingir o OK do dono (ver 0.2); (2) toda copy de tela roda o **micro-gate anti-IA** do passo 8b antes de entrar no doc, porque a `soft-anti-ia` não está carregada aqui.
 
 ## 📄 OUTPUT CONTRACT
 No **Code** e no **agente/Telegram** a entrega é o **MP4 final** (gancho, corpo com b-roll no rodapé + legenda karaokê, CTA, música). No app a entrega é o **doc MD** de plano descrito acima. Um artefato por vez, com checkpoint: imagens aprovadas antes de animar.
@@ -56,8 +56,19 @@ Antes de editar qualquer vídeo, verifique a configuração. **Se já existir, N
    - "Qual a **paleta de cores** da marca? E qual cor a **legenda** deve acender quando a palavra é falada?" (vira o campo `cor_legenda` no `personagens.json`, em hex; é a cor da legenda karaokê e das animações de tela.)
    - "Tem um **logo** que aparece nas cenas?"
    (Se o dono já tem identidade visual na `soft-designer`, reaproveite ela aqui, inclusive a cor da marca pra `cor_legenda`, em vez de perguntar do zero.)
-2. Monte `config/personagens.json` no formato do `config/personagens.example.md` (cada personagem com uma descrição detalhada em inglês pro gpt-image-2; mantenha consistência). Defina `trio_sempre` = quem aparece em TODA cena, e `cor_legenda` = a cor hex da marca (default verde `4ade80` se o dono não tiver uma).
-3. Confirme com o dono mostrando 1 imagem de teste de cada personagem antes de produzir vídeo (gere com `scripts/01_gen_images.py` a partir de um `scenes.json` de teste e abra pra ele aprovar).
+2. Monte `config/personagens.json` no ESQUELETO REAL abaixo (é o que `01_gen_images.py` e `07_karaoke.py` de fato leem; o `config/personagens.example.md` não é lido em app-mode, por isso o esqueleto vive aqui no corpo). Campos EXATOS, sem inventar nem aninhar:
+   - `estilo`: STRING única (ex.: `"ULTRA-REALISTIC ANIME-CINEMATIC 3D STYLE, premium movie-poster quality"`). **Obrigatório.**
+   - `ambiente`: STRING única do cenário padrão (ex.: `"a modern futuristic studio at night, neon glow, HUD panels, bokeh"`). **Obrigatório.**
+   - `paleta`: **STRING** de prosa (NÃO array). Ex.: `"deep navy, coral red, cyan glow, gold, cream. Cinematic neon lighting, ultra detailed"`.
+   - `cor_legenda`: hex SEM `#` (ex.: `"4ade80"`) — cor que a legenda karaokê e as animações acendem. Default verde `4ade80` se o dono não tiver marca.
+   - `personagens`: mapa **PLANO** `{ "chave": "descrição detalhada em inglês pro gpt-image-2" }` (NÃO aninhe `papel`/`prompt_en`; a descrição inteira é a string). Inclua os **"NUNCA"** de cada um DENTRO da string (ex.: `"...NEVER an insect, NEVER a smooth ball head"`) pra segurar o gpt-image-2 no personagem certo.
+   - `trio_sempre`: array das chaves que aparecem em TODA cena (ex.: `["principal","mascote","cohost"]`).
+   - `extras` (opcional): mapa plano de personagens que só entram conforme a fala.
+   - `safe_area`: STRING com o bloco CRITICAL SAFE-AREA dos 70% centrais (ex.: `"CRITICAL SAFE-AREA: this becomes a 16:9 video. Keep ALL characters, faces, logos and key text inside the central 70%. Leave top ~18% and bottom ~18% as pure environment only."`). **Obrigatório** — sem ele o crop 16:9 come cabeças/logos.
+   NÃO invente campos fora dessa lista (ex.: `cta_take` não é campo daqui; o CTA é `config/cta_take.mp4`, ver 0.3). Cada descrição em inglês e SEMPRE igual pra manter consistência entre vídeos.
+3. **Aprovação do elenco por imagem de teste — depende do ambiente:**
+   - **No Code / agente-Telegram (tem Bash):** gere 1 imagem de teste de cada personagem com `scripts/01_gen_images.py` (a partir de um `scenes.json` de teste) e abra pro dono aprovar ANTES de produzir vídeo.
+   - **No app (sem Bash):** NÃO há como gerar imagem, então esta aprovação NÃO acontece aqui. **Nunca simule o "OK" do dono.** Entregue o plano com o elenco marcado `[PENDENTE: aprovar elenco com 1 imagem de teste no Code antes de produzir]` e siga montando o resto do plano; a aprovação real fica pro Code.
 
 ### 0.3 CTA final (opcional)
 Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo vídeo). Se sim, ajude a criar: gere a imagem 9:16 no gpt-image-2 com os personagens + o texto/oferta dele → anime no Veo → salve em `config/cta_take.mp4`. Reuse em todos os vídeos. (A copy do CTA passa pelo guardrail anti-IA do produto: sem travessão, sem frase de robô, PT-BR completo.)
@@ -85,7 +96,12 @@ Clona e compila o whisper.cpp em `vendor/whisper.cpp` e baixa o modelo. Depois d
 8b. **GANCHO / cold open — PADRÃO v4 (ligado)** (`scripts/05_hook.py`): copiar a **FRASE COMPLETA mais forte** pro comecinho — **só o apresentador, SEM b-roll** — com um **efeito** (`pb` preto-e-branco / `vhs` / `fantasma` / `tv_velha`) E a **mesma frase numa faixa** na tela (gancho sonoro + visual). Depois **transição** (`xfade=fadeblack`) pro corpo. A frase continua no lugar original. Ordem final: **gancho, corpo, CTA, música**.
    - **FRASE COMPLETA, nunca cortada na metade** (A/B pegam a frase inteira, mesmo passando um pouco de 5s).
    - **Faixa: MÁX 2 LINHAS**, fonte ~50% menor (range 66→28px), posição centro+15% (terço inferior). Já está no `05_hook.py`.
-   - **O agente escolhe a frase sozinho** pelos critérios: viralização · gera expectativa · forte/polêmica. A frase passa pelo guardrail anti-IA do produto (sem travessão, sem frase de robô, PT-BR completo): nada que soe de IA na faixa.
+   - **O agente escolhe a frase sozinho** pelos critérios: viralização · gera expectativa · forte/polêmica.
+   - **MICRO-GATE ANTI-IA (rode ANTES de imprimir a frase, sempre, mesmo em app):** varra o texto do gancho, da faixa e do CTA atrás dos caracteres/padrões PROIBIDOS abaixo. Se achar qualquer um, REESCREVA e só então mostre. NÃO se autodeclare limpo sem varrer.
+     1. **Travessão `—` (em-dash) e `–` (en-dash): PROIBIDOS.** Se a frase tiver um, reescreva trocando por ponto final, dois pontos ou vírgula. Ex.: "Você não está gorda — está inflamada" vira "Você não está gorda. Está inflamada." O traço de menos `-` de palavra composta pode ficar; o que some é o traço longo que separa oração.
+     2. Sem frase de robô / abertura genérica de IA (nada de "descubra como", "a verdade que ninguém conta", "isso vai mudar tudo").
+     3. PT-BR completo: sem palavra em inglês solta, sem reticências decorativas, sem emoji na faixa.
+     Só depois de a frase passar nos 3 itens é que ela pode ir pra tela. Detalhe do protocolo na `soft-anti-ia`; o micro-gate acima é a versão executável que roda mesmo sem essa skill carregada (app-mode).
 9. **CTA no final** (se configurado): anexar `config/cta_take.mp4` com transição `xfade=fade:0.7` (sem corte seco). (`scripts/04_build_final.py` faz CTA + música.)
 10. **Música de fundo discreta:** `loudnorm=I=-34:TP=-6:LRA=6` + `volume=0.38`, `amix normalize=0`, fade in/out. NUNCA sobrepõe a fala.
 11. **Export 4K** + salvar na pasta de saída do dono. Abrir pra ele ver.
@@ -96,7 +112,7 @@ Clona e compila o whisper.cpp em `vendor/whisper.cpp` e baixa o modelo. Depois d
 - **Imagem aprovada = verdade absoluta.** O Veo só ANIMA, não recria. `negativePrompt` obrigatório.
 - **Personagens sempre consistentes** com `config/personagens.json`. Trio (ou elenco fixo) presente em toda cena; extras conforme a fala.
 - Checkpoint: **aprovar as imagens antes de animar.**
-- **Texto na tela passa pelo guardrail anti-IA do produto** (sem travessão, sem frase de robô, PT-BR completo) antes de queimar (gancho, faixa, CTA).
+- **Texto na tela roda o MICRO-GATE ANTI-IA (passo 8b) antes de queimar** (gancho, faixa, CTA). É acionável, não decorativo: varra os caracteres proibidos com o travessão `—` explícito no topo, e SE achar travessão, reescreva com ponto/vírgula e só então mostre. Proibido imprimir a frase e se autodeclarar "anti-IA: passou" sem ter varrido. Em app-mode (sem a `soft-anti-ia` carregada) este micro-gate É o guardrail.
 
 ## CUSTO (referência)
 Veo 720p ~$0,10/s → take de 8s = $0,80. Imagem gpt-image-2 ~$0,165. Vídeo de 60s ≈ 8 takes ≈ **~$8**. As chaves são do dono (paga OpenAI/Google direto). **Transcrição e legenda karaokê custam $0** (rodam local no whisper.cpp + FFmpeg): matam a legenda paga e a chamada de transcrição da OpenAI.

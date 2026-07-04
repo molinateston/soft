@@ -57,7 +57,120 @@ Use sempre que:
 - Modelo Soft padrão (Implementação Soft, Micro Treinamento, etc.)
 - Contratante é PF ou MEI/PJ pequena
 
-Ver `references/modo-soft-enxuto.md` para o template completo.
+#### Esqueleto verbatim das 11 cláusulas (usar ESTE texto, não reescrever da cabeça)
+
+Este é o texto validado em vendas reais. **Copiar essas frases como estão** e só preencher os campos `[entre colchetes]`. Não trocar termo, não inverter ordem, não gerar cláusula genérica de contrato comum. Se a cláusula tem bloco obrigatório (limites do suporte, frase-âncora, texto da não garantia), ele entra sempre. O modo Robusto é o único que sai daqui (por reference).
+
+**Termo e ordem das partes (cravado):** a Contratada é sempre o **CONTRATADO** (masculino, termo do modelo — nunca "CONTRATADA" mesmo que o nicho seja feminino). No cabeçalho, **CONTRATANTE vem primeiro, CONTRATADO depois**.
+
+```
+Cabeçalho:
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE CONSULTORIA
+
+Qualificação (Contratante PF):
+CONTRATANTE: [Nome completo], CPF [CPF], residente na [endereço completo],
+e-mail: [email].
+CONTRATADO: [Razão social ou nome], CNPJ [CNPJ] / CPF [CPF], com
+sede/residência na [endereço], neste ato representada por [nome do
+representante], CPF [CPF], [cargo se PJ].
+(Se Contratante for PJ: CONTRATANTE com Razão social/CNPJ/sede/representante;
+CONTRATADO igual. Contratante sempre primeiro.)
+
+1. OBJETO DO CONTRATO
+Prestação de serviços de consultoria estratégica voltada a [resumo do que o
+serviço resolve]. Metodologia aplicada: [nome do método, se houver], com
+foco na [resultado-MEIO, nunca número — ex.: "posicionamento claro e
+aquisição previsível de clientes"].
+
+2. ESCOPO DOS SERVIÇOS
+2.1 Sessão 1 — [Nome]
+• [Entregável]  • [Entregável]
+2.2 Sessão 2 — [Nome]
+• [Entregável]
+[continuar por sessão]
+2.X Acompanhamento de [X] dias
+Iniciado após [a última sessão / a primeira sessão]:
+• Suporte via [WhatsApp/email/plataforma] (segunda a sexta, das 9h às 18h)
+• Prazo de resposta de até 24h úteis
+• Revisões pontuais dentro do escopo
+• Orientação de execução
+Limites do suporte:
+• Não inclui execução de tarefas
+• Não inclui criação ilimitada de materiais
+• Não inclui atendimento fora do horário definido
+
+3. PRAZO
+O contrato permanece vigente durante toda a execução dos serviços e o
+período de acompanhamento de [X] dias.
+
+4. INVESTIMENTO — a frase-âncora "O início está condicionado à confirmação
+do pagamento (da 1ª parcela)" fecha TODA variante. Escolher uma:
+• À vista:
+  Valor total: R$ [X],00.
+  Forma de pagamento: à vista, no ato da contratação, via [PIX/boleto/cartão].
+  O início está condicionado à confirmação do pagamento.
+• Parcelado (cartão de crédito) — usar exatamente isto, sem cláusula de
+  taxa de cartão/gateway:
+  Valor total: R$ [X],00.
+  Forma de pagamento: em até [N]x no cartão de crédito.
+  O início está condicionado à confirmação do pagamento.
+• Parcelado (entrada + parcelas em datas):
+  Valor total: R$ [X],00.
+  Forma de pagamento:
+  a) 1ª parcela — R$ [Y],00 no ato da contratação, via [meio];
+  b) 2ª parcela — R$ [Z],00 com vencimento em 30 (trinta) dias contados da
+     1ª parcela, via [meio]; [demais parcelas]
+  O início está condicionado à confirmação do pagamento da 1ª parcela.
+• Entrada + meta: ver "Modalidade Entrada + Meta" abaixo (item "c" +
+  itens 4.1/4.2/4.3), fechando com "O início da execução está condicionado
+  à confirmação do pagamento da 1ª parcela."
+
+5. OBRIGAÇÕES DO CONTRATANTE
+• Participar das sessões  • Executar as orientações
+• Fornecer informações corretas  • Cumprir prazos
+Reagendamento e faltas:
+• Reagendamentos com mínimo de 24h de antecedência
+• Ausência sem aviso pode implicar em perda da sessão
+Observação: resultados dependem diretamente da execução do CONTRATANTE.
+
+6. OBRIGAÇÕES DO CONTRATADO
+• Entregar as sessões conforme descrito
+• Entregar materiais escritos conforme o escopo
+• Mentorar o CONTRATANTE no método durante as sessões
+• Prestar suporte dentro dos limites definidos
+• Manter confidencialidade
+
+7. NÃO GARANTIA DE RESULTADOS (obrigatória, texto exato, não negociável):
+O método aplicado possui potencial de gerar resultados expressivos, porém
+não há garantia de resultados financeiros específicos, uma vez que estes
+dependem da execução do CONTRATANTE, do mercado e de fatores externos.
+
+8. CANCELAMENTO E REEMBOLSO (variante padrão, garantia Sessão 1):
+Reembolso integral permitido apenas até o término da primeira sessão, desde
+que não tenham sido entregues materiais estratégicos completos. Após isso,
+não há reembolso. Em caso de cancelamento pelo CONTRATANTE após a Sessão 1,
+as parcelas vincendas referentes a sessões já agendadas ou que tenham gerado
+bloqueio de agenda do CONTRATADO permanecem devidas.
+
+9. ATRASO NO PAGAMENTO — Tom A Soft Flexível (texto na seção "Cláusula 9"
+abaixo). Sem multa, sem juros.
+
+10. CONFIDENCIALIDADE
+Ambas as partes concordam em manter sigilo sobre todas as informações
+compartilhadas em razão deste contrato.
+
+11. FORO
+Fica eleito o foro da comarca de [cidade da Contratada]/[UF] para dirimir
+quaisquer questões oriundas do presente contrato.
+
+Fechamento:
+E, por estarem assim justos e contratados, firmam o presente instrumento,
+admitida assinatura eletrônica em plataforma reconhecida.
+[Cidade]/[UF], _____ de ____________________ de [ano].
+(assina CONTRATANTE, depois CONTRATADO — sem testemunhas no Soft Enxuto)
+```
+
+Ver `references/modo-soft-enxuto.md` para o template completo (variante sem garantia, PJ, notas por cláusula).
 
 ### Modo ROBUSTO
 
@@ -114,12 +227,12 @@ Se o pedido não deixou claro, perguntar Soft Enxuto vs Robusto. Default: Soft E
 
 Coletar variáveis. Se o usuário já trouxe parte das informações, extrair do texto e confirmar — não perguntar de novo.
 
-**Bloco A · Partes**
-1. Nome / Razão social da **Contratada**
-2. CPF/CNPJ, endereço da Contratada
-3. Tipo de Contratante: PF ou PJ
-4. Nome / Razão social do **Contratante**
-5. CPF/CNPJ, endereço, email do Contratante
+**Bloco A · Partes** (no contrato, CONTRATANTE vem primeiro; o prestador é sempre **CONTRATADO**, termo masculino do modelo, mesmo em nicho feminino)
+1. Tipo de Contratante: PF ou PJ
+2. Nome / Razão social do **Contratante** (o cliente que contrata)
+3. CPF/CNPJ, endereço, email do Contratante
+4. Nome / Razão social do **CONTRATADO** (o prestador — o usuário)
+5. CPF/CNPJ, endereço do CONTRATADO
 
 **Bloco B · Serviço**
 6. Formato (escolher um ou combinar):
@@ -168,8 +281,9 @@ Onde a peça mora depende de onde a skill roda (ver a regra dura no topo, "ENTRE
 
 - **No app (claude.ai):** o contrato sai como **artifact de markdown**. Esse artifact É a entrega: o dono abre, copia e baixa dali; ele mesmo leva o texto pro D4Sign/Clicksign/Autentique.
 - **No Claude Code:** além do doc `.md`, dá pra gerar o **arquivo `.docx`** pronto pra assinatura eletrônica. Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`. Esse caminho `.docx`/`present_files` é do Claude Code, não do app.
+- **No agente/Telegram:** gera o doc como arquivo (`.md`) e cita o path completo na resposta, que vira anexo no Telegram. A condução (perguntas, STOPs) vai em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário); o contrato mora no arquivo.
 
-O `.md` consolidado é sempre a entrega mínima; o `.docx` é um extra do caminho Code.
+O `.md` consolidado é sempre a entrega mínima; o `.docx` é um extra do caminho Code. Nenhum passo aqui depende de script, então não há fallback manual a prever.
 
 Após entregar, **avisar o usuário**:
 

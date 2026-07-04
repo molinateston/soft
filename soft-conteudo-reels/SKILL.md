@@ -22,7 +22,7 @@ Reel atrai. Carrossel vende. A função do reel é uma só: fazer o cliente cert
 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o **caminho completo** na resposta (ex.: `/home/cloud/reels/reel-x.md`), que vira anexo; a condução fica em mensagens curtas, sem markdown pesado (sem `##`, sem tabela). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, parte da headline e ancora (NÃO PULE)
 O reel começa de uma **headline já escolhida**. Se o usuário ainda não tem a headline (a frase que para o scroll nos 3 primeiros segundos), você **não escreve o corpo**: manda fazer a headline antes na **soft-conteudo-headlines** e volta com ela. Corpo sem gancho é vídeo que ninguém assiste.
@@ -89,11 +89,25 @@ Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastid
 - **[0:35-0:40] CTA (Ação, destino real).** "Me conta o que você faz que te dou uma ideia." (comentar = próximo passo do funil)
 - **Edição (sugestão, não regra):** cortes secos entre as frases; se der, 2-3s de B-roll da análise na tela durante "analisei o financeiro". Grava do jeito que for possível, o roteiro é o que a skill garante.
 
+**Repara: o modelo acima não tem NENHUM travessão nem abertura-muleta, de propósito.** O reflexo de LLM é escrever com `—` e com frase-emoldura; caça e troca ANTES de entregar (é o Checkpoint do Passo 5):
+- Travessão: ✗ `O modelo velho — a dieta de restrição — te programou pra isso` → ✓ `O modelo velho, a dieta de restrição, te programou pra isso.`
+- Frase-emoldura: ✗ `O que ninguém te contou: a dieta te programou` → ✓ abre direto no conteúdo, `A dieta te programou.`
+
 ## Passo 4, fecha com CTA de próximo passo real
 O reel não fecha venda, mas aponta pra onde. O CTA convida, não empurra, e tem **destino concreto do funil**: salvar, comentar uma palavra, mandar pra alguém, ir pro carrossel que aprofunda, ir pra isca/carta. CTA sem destino é peça órfã, o leitor para e não tem pra onde ir. Escreve o CTA na voz do cliente, ligado ao ponto único do reel.
 
+**O CTA vem IMEDIATAMENTE depois da virada de interpretação, nunca depois de um bloco neutro** (`anti-padroes.md §3`). Se o parágrafo colado antes do CTA não reposiciona a crença (é mecanismo, recap ou frase de impacto), o CTA vira mendigo de interação. Confere: a frase logo acima do CTA é a revelação/virada? Se a virada real ficou 15-20s atrás, separada por mecanismo, ou re-ancora a virada numa linha curta antes do CTA, ou move o CTA pra logo depois dela.
+
 ## Passo 5, roda o GATE por dentro (auditoria interna, NÃO imprime)
 Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com a linha VEREDITO=PASSA vai pro cliente. Um ✗ refaz o ponto que falhou (não o conceito inteiro). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o roteiro limpo (Passo 6), jamais a tabela.
+
+**CHECKPOINT ANTI-IA (obrigatório, roda ANTES de escrever a linha VEREDITO, sem exceção):** o modelo do app NÃO tem o `lint_copy.py`, então esta varredura manual é o ÚNICO cinto; se pular, entrega peça com assinatura de IA e o follow-test REPROVA. Varra o roteiro inteiro, caractere-a-caractere:
+1. **Travessão `—`:** achou 1 que seja = **VEREDITO=REFAZ**. Reescreve com vírgula, ponto ou parênteses. (✗ `O modelo velho — a dieta — te programou` → ✓ `O modelo velho, a dieta de restrição, te programou`.)
+2. **Família `trav*`** (travar/travado/destravar/destrava): achou 1 fora de aspa literal do cliente = **VEREDITO=REFAZ**.
+3. **Frase-emoldura** (`padroes-banidos.md §4`): abre o parágrafo com "O que ninguém te conta/contou", "A verdade é que", "O segredo", "Vou te contar uma coisa"? = **VEREDITO=REFAZ**. Abre DIRETO no conteúdo. (✗ `O que ninguém te contou: a dieta te programou` → ✓ `A dieta te programou`.)
+4. **Figura abstrata que vira promessa** (teste "dá pra ver?", check abaixo): moldura vazia tipo "a conta muda quando...", "a chave é...", "o jogo vira"? Troca por número, cena ou mecanismo concreto. Achou = REFAZ o trecho.
+
+Achou QUALQUER um dos 4 = o VEREDITO já é REFAZ, não importa o resto. Só passa pro checklist da tabela depois que a varredura zerou.
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
@@ -108,7 +122,7 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **C/U/B** | não é **C**onfuso (carregamento cognitivo baixo, explica como pra criança), não é inacreditável (**U**nbelievable, promessa que o leitor não compra), não é **B**oring (chato, encheção de linguiça, introdução antes do conteúdo) | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | rodou o **CHECKPOINT ANTI-IA** de 4 varreduras acima e zerou: zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo", "o que ninguém te conta/contou", "vou te contar") · sem verbo-clichê ("revoluciona, destrava, transforma"). **1 achado = ✗ automático, VEREDITO=REFAZ; sem exceção, sem "quase passou".** | |
 | **Voz do cliente** | (só quando há voz mapeada) o roteiro não cai em NENHUM item da lista de ausência puxada no Passo 0 (palavra/muleta/estrutura que essa voz nunca faz); soa como ele, não genérico. Sem voz mapeada = N/A, não bloqueia | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
@@ -159,6 +173,9 @@ Dispara quando o dono cola a **URL de um reel** ou aponta uma base de referênci
 | Deu nota 95/100 ao roteiro modelado | Veredito é binário e honesto (PASSA/REFAZ) e aponta o item que falhou; nota inflada é teatro |
 | No app prometeu "baixar e transcrever o viral" | Sem Bash não baixa: pede transcrição colada + números, ou conduz pela estrutura descrita; nunca finge que assistiu |
 | Escreveu como se a voz do cliente fosse genérica | Puxa a lista de ausência da voz no Passo 0 e roda como filtro no gate; soa como ele, não só não-IA |
+| Deixou um travessão "—" ou frase-emoldura passar pro roteiro | Roda o CHECKPOINT ANTI-IA do Passo 5 (varredura caractere-a-caractere); 1 achado = REFAZ, é o único cinto no app sem lint |
+| Fechou com figura abstrata ("a conta muda quando…", "a chave é…") | Não passa no "dá pra ver?"; troca moldura vazia por número, cena ou mecanismo concreto |
+| Colou o CTA depois de um bloco neutro (mecanismo/recap) | O CTA vem logo após a virada de interpretação (anti-padroes.md §3); re-ancora a virada antes do CTA ou o CTA vira mendigo de interação |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.

@@ -1,21 +1,21 @@
 ---
 name: soft-apostila
-description: "Transforma uma aula/live gravada (Zoom, YouTube, MP4) em MATERIAL navegável — uma apostila/handout. Pipeline Whisper + Claude: extrai áudio → transcreve → limpa muletas → segmenta em capítulos → enriquece cada um (vira texto corrido, não transcrição crua). Output adapta ao ambiente: no chat entrega o material em Markdown; no Code renderiza a apostila HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, mobile) e publica. Marca-neutra: tema/cor/ID vêm do dono. Use quando o dono quiser virar conteúdo gravado em material — bônus de webinar, isca/lead magnet, micro-aula do funil, módulo de mentoria, material de comunidade, ou repurpose de uma masterclass/imersão. NÃO use para roteiro/ideia de conteúdo de feed (soft-conteudo-carrossel/-reels/-stories), página de captura/venda (soft-funil-landing), proposta comercial (soft-proposta-comercial), nem edição de vídeo (soft-editor-video)."
+description: "Transforma uma aula/live gravada (Zoom, YouTube, MP4) em MATERIAL navegável, uma apostila/handout. Pipeline Whisper + Claude: extrai áudio → transcreve → limpa muletas → segmenta em capítulos → enriquece cada um (vira texto corrido, não transcrição crua). Output adapta ao ambiente: no chat entrega o material em Markdown; no Code renderiza a apostila HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, mobile) e publica. Marca-neutra: tema/cor/ID vêm do dono. Use quando o dono quiser virar conteúdo gravado em material: bônus de webinar, isca/lead magnet, micro-aula do funil, módulo de mentoria, material de comunidade, ou repurpose de uma masterclass/imersão. NÃO use para roteiro/ideia de conteúdo de feed (soft-conteudo-carrossel/-reels/-stories), página de captura/venda (soft-funil-landing), proposta comercial (soft-proposta-comercial), nem edição de vídeo (soft-editor-video)."
 ---
 
-**Papel:** skill operacional de **materialização de conteúdo**. Pega algo que o dono já gravou (aula, live, webinar, call) e devolve um material indexável — sem plataforma de EAD travada, versionável, com link próprio. Suporte de ENTREGA e de ISCA; não está no pipeline de copy dos funis. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém — tema, cor e identidade vêm do dono (puxe da `soft-designer`). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
+**Papel:** skill operacional de **materialização de conteúdo**. Pega algo que o dono já gravou (aula, live, webinar, call) e devolve um material indexável, sem plataforma de EAD amarrada, versionável, com link próprio. Suporte de ENTREGA e de ISCA; não está no pipeline de copy dos funis. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém. Tema, cor e identidade vêm do dono (puxe da `soft-designer`). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 
 Uma **apostila** (material navegável) a partir de uma gravação, via pipeline Whisper + Claude:
 
 - **Áudio → transcrição** (ffmpeg → Whisper, `--language pt`).
-- **Limpeza** das muletas de fala (pré-pass sed + prompt Claude que preserva a voz e os exemplos do dono — não resume, não inventa).
+- **Limpeza** das muletas de fala (pré-pass sed + prompt Claude que preserva a voz e os exemplos do dono; não resume, não inventa).
 - **Segmentação em capítulos** (8–15) com índice.
 - **Enriquecimento** de cada capítulo: vira texto corrido com intro e fechamento, mantendo as falas e exemplos reais do dono.
-- **Material final** — com **índice clicável, navegação por teclado, scroll-spy, capítulo de Resumo** e variações (player de áudio sincronizado, embed do YouTube, quiz por capítulo, export PDF).
+- **Material final** com **índice clicável, navegação por teclado, scroll-spy, capítulo de Resumo** e variações (player de áudio sincronizado, embed do YouTube, quiz por capítulo, export PDF).
 
-**Output — adapta ao ambiente (regra do Léo):**
+**Output, adapta ao ambiente (regra do Léo):**
 - **No chat (Claude.ai):** entrega o material em **Markdown** limpo (capítulos enriquecidos, formato mapa-mental). Simples.
 - **No Claude Code:** **renderiza** a apostila HTML single-file (sidebar + nav por teclado + tema escuro/responsivo) e **publica** no Cloudflare Pages (padrão Soft), com a ID visual do dono.
 - Regra: `chat → MD · code → site`. Mesmo conteúdo, destino diferente.
@@ -26,7 +26,7 @@ Uma **apostila** (material navegável) a partir de uma gravação, via pipeline 
 - **Micro-aula do funil** (`soft-funil-miniwebinar`): o micro-treinamento entregue como apostila.
 - **Entrega da mentoria/produto**: cada call/aula vira material indexado pra comunidade (menos churn).
 
-**Invioláveis:** mantém a VOZ e os exemplos reais do dono (nunca inventa conteúdo); a copy do material passa pelo filtro anti-IA embutido (`shared-references/filtro-anti-ia/`, PT-BR completo, sem travessão); o visual segue a ID do dono na `soft-designer`.
+**Invioláveis:** mantém a VOZ e os exemplos reais do dono (nunca inventa conteúdo); a copy do material passa pela **varredura anti-IA** do passo 5 (padrões banidos inline abaixo, PT-BR completo, sem travessão em-dash, sem frase-emoldura); o visual segue a ID do dono na `soft-designer`.
 
 **Serve o agente:** equipa o LEON/cliente a transformar acervo gravado em entregável (isca, bônus, material de mentoria) sem editor nem plataforma de EAD.
 
@@ -40,6 +40,8 @@ Uma **apostila** (material navegável) a partir de uma gravação, via pipeline 
 ## ⚠️ ENTREGA = UM doc MD
 
 O resultado é UM documento só: a apostila consolidada em Markdown, entregue de uma vez no fim (artifact no chat, arquivo no Code), nunca despejada capítulo a capítulo solto no meio da conversa. No chat o destino é o MD limpo em formato mapa-mental; no Code o mesmo conteúdo vira o site. Regra: `chat → MD · code → site`.
+
+**No agente/Telegram:** tem Bash (roda o pipeline Whisper igual ao Code), mas gera a apostila como ARQUIVO (`apostila.md`, ou o HTML se pedido) e cita o path completo na resposta (o bridge anexa). A condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao dono); o material vai no arquivo, não no corpo da mensagem.
 
 ## Como executar
 
@@ -74,7 +76,7 @@ sed -E 's/\b(ahn|hum|tipo assim|né|então)\b//gi' out/aula.txt > out/aula-clean
 
 Corta nas mudanças naturais de tópico do próprio material, não em fatias iguais de tempo. Cada capítulo:
 
-- Título descritivo de 5 a 9 palavras, numerado.
+- Título descritivo de 5 a 9 palavras, numerado. **Conte as palavras de cada título antes do STOP**: menos de 5 ou mais de 9 refaz (ex.: "Por que o tutor de gato foge da clínica comum" tem 10, corta pra "Por que o tutor de gato foge"; "Precificando o atendimento especializado" tem 4, abre pra "Como precificar o atendimento especializado sem medo").
 - Começa numa frase específica do texto (marque o trecho de início).
 - Resumo de 1 frase do que aquele capítulo ensina.
 
@@ -86,16 +88,23 @@ Alvo de 800 a 2000 palavras por capítulo: menos que isso fica raso, mais que is
 
 Vira texto corrido, não transcrição crua. Por capítulo:
 
-- **Intro de 2 a 3 frases** que situa o tema do capítulo.
+- **Intro de 2 a 3 frases** que situa o tema do capítulo. Abre DIRETO no conteúdo, nunca com moldura meta: proibido "Este capítulo é sobre...", "Neste capítulo você vai...", "A verdade é que...". Zero travessão em-dash `—` (usa ponto ou hífen). Zero verbo de transformação vazio (transformar, destravar, potencializar); usa concreto (funciona, resolve, tira, muda).
 - **Corpo em prosa fluida**, mantendo o tom didático e as falas reais do dono; exemplos práticos onde forem naturais (os que ele deu, ou variações fiéis do que ele ensinou).
 - **Fechamento** de 1 parágrafo que amarra a ideia.
 - Listas, comandos e código, quando existirem na fala, viram Markdown formatado.
 
 Exemplo ilustrativo de recorte de capítulo (nicho fictício; modela a qualidade, nunca copia): de uma aula de confeitaria, o trecho onde o dono explica ponto de calda vira o capítulo "3. O ponto de calda que não empedra", com intro do porquê a calda falha, o passo dele em prosa e o fechamento com o teste do fio. Nada de fórmula nova: só o que ele disse, arrumado.
 
-### 5) Consolidar e (no Code) publicar
+### 5) Varrer anti-IA, consolidar e (no Code) publicar
 
-Concatene os capítulos em UM `apostila.md`. No chat, esse MD é a entrega. No Code, injeta no template HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, drawer mobile, âncora por capítulo) e publica no Cloudflare Pages com a ID visual do dono (puxada da `soft-designer`). Detalhes de template, build e deploy: `references/reference.md`.
+**Antes de fechar, varra o material inteiro pelo filtro anti-IA e reescreva o que acusar.** É passo acionável, não decoração do gate: o enriquecimento é o que mais planta esses tells. Padrões banidos (inline, porque no app roda só o corpo):
+
+- **Travessão em-dash `—`** (zero-tolerância): todo `—` sai, vira ponto ou hífen. Inclui título e `<title>` do HTML. No Code, `grep -n '—' apostila.md` tem que voltar vazio antes de publicar.
+- **Frase-emoldura** que promete revelação: "Este capítulo é sobre...", "Neste capítulo...", "A verdade é que...", "O segredo está em...". Reescreve abrindo direto no conteúdo.
+- **Verbo de transformação vazio**: transformar, revolucionar, destravar, potencializar, alavancar, elevar. Troca por concreto (funciona, resolve, ataca, tira, muda). Família "travar/travado/destravar" banida sempre, exceto fala literal do dono entre aspas.
+- **Tricolon performático** (a, b e c com mesma cadência): quebra em frases próprias.
+
+Detalhes e exemplos de reescrita em `references/reference.md` (seção "Checklist anti-IA"). Só depois de varrer: concatene os capítulos em UM `apostila.md`. No chat, esse MD é a entrega. No Code, injeta no template HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, drawer mobile, âncora por capítulo) e publica no Cloudflare Pages com a ID visual do dono (puxada da `soft-designer`). Detalhes de template, build e deploy: `references/reference.md`.
 
 ## Gate (antes de entregar)
 
@@ -103,7 +112,7 @@ Concatene os capítulos em UM `apostila.md`. No chat, esse MD é a entrega. No C
 - **Voz preservada:** soa como o dono, não como resumo neutro de IA.
 - **Exemplos intactos:** os casos concretos que ele deu continuam no material.
 - **Segmentação:** 8 a 15 capítulos, cortados por tópico, com "Resumo" no fim.
-- **Anti-IA:** passa pelo filtro anti-IA embutido (`shared-references/filtro-anti-ia/`): sem travessão em-dash, sem frase-emoldura, PT-BR com acentuação correta.
+- **Anti-IA:** a varredura do passo 5 rodou de fato: zero travessão em-dash `—` (checou `grep -n '—'` no Code), zero frase-emoldura ("Este capítulo é sobre..."), zero verbo de transformação vazio, PT-BR com acentuação correta. Padrões inline no passo 5 e em `references/reference.md`.
 - **Entrega:** UM doc MD consolidado (não capítulos soltos no chat).
 
 ## When NOT to use
