@@ -36,6 +36,24 @@ Três estados de entrada (já com a headline na mão, declara qual é o seu ante
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · mecanismo nomeado · lista do "não defendo" · cliente em uma frase. A base não se inventa aqui, vem do Plano. Sem ela, a peça vira jornalismo que atrai estranho.
 
+**Os padrões de ausência da voz (puxa ANTES de escrever, é o que impede o carrossel de soar genérico).** Uma voz se reconhece tanto pelo que ela faz quanto pelo que ela NUNCA faz. Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), abre ela e extrai, numa lista curta de **5-8 itens**, as coisas que aquela voz jamais faz: palavras que ele não usa, muletas que ele evita, estruturas de frase que soam falsas na boca dele, o tom que ele nunca adota (ex.: "nunca usa 'jornada', 'destravar' nem 'mindset'; nunca abre com pergunta retórica; nunca termina com emoji; nunca fala em 1ª pessoa do plural corporativo; nunca promete sem número"). Anota essa lista de ausência agora, no Passo 0, e carrega ela até o gate (Passo 4): cada slide é conferido contra ela, e um item da lista violado reprova igual a um travessão. Se **não existe** skill de voz do cliente, você não inventa a lista: escreve na voz neutra do cliente final e marca no doc que a voz específica ainda não foi destilada (a peça fica mais cravada quando ela existe). A lista de ausência é POR CLIENTE, nunca uma lista genérica sua, e nunca vira exemplo dentro do carrossel.
+
+## Passo 0.5, enriquecimento factual (só quando o tema pede prova, NÃO é storytelling puro)
+Casa direto com a Lei 5 (nunca inventa): o carrossel que afirma resultado, cita "estudo", compara mercado × método ou promete número precisa de **matéria-prima verificada**, não de um dado plausível que a IA chuta. Antes de montar o mapa (Passo 1), decide: **este tema apoia a tese num fato/número/case?** Se é puro storytelling ou opinião do autor, **pula este passo**. Se apoia, minera **1 insumo real** de uma destas quatro fontes, nesta ordem de preferência:
+- **Um dado/número do próprio autor** (resultado dele, do aluno, do case). É o mais forte, tem CPF e ninguém contesta.
+- **Uma visão contrária ou fato surpreendente** do nicho que sustenta o ângulo da capa.
+- **Um estudo de caso real** (nome + contexto + número + prazo) que vira a prova do slide de Mecanismo.
+- **Uma crença equivocada comum** do mercado, pra o Diagnóstico contestar com o fato.
+
+Regra dura: o insumo tem que ser **verificado**, não inventado. Fato que você não confirmou entra como `[DADO: confirmar]` no lugar do furo e **não conta como Ancorado=✓** no gate. Número de terceiro nunca vira fato do método (segue a Lei 5). Um insumo verificado basta pra dar corpo ao carrossel; não transforma a peça numa mini-aula (Lei do "dá o tijolo, não a planta").
+
+**Ramo por ambiente (onde a mineração acontece muda o que você entrega):**
+- **App / chat (claude.ai, sem Bash):** você não roda pesquisa nem script. Puxa o insumo do que já está na conversa (Plano, descrição do projeto, falas coladas) ou **pergunta ao dono** em 1 mensagem ("tem 1 número/case real desse tema? senão marco `[DADO: confirmar]`"). Nada de dado da web sem fonte na mão.
+- **Claude Code (tem Bash/pesquisa):** pode rodar a pesquisa real (busca, leitura de fonte) pra levantar o dado/contraponto/case, sempre guardando de onde veio; o que não fechar vira `[DADO: confirmar]`.
+- **Agente / Telegram (tem Bash):** minera pela infra disponível, mas a entrega final é o **arquivo do carrossel** (o path completo do `.md` vai na resposta) e as mensagens no chat vão **sem markdown pesado**; qualquer dado não confirmado fica marcado `[DADO: confirmar]` no arquivo.
+
+O insumo verificado alimenta o Diagnóstico e o slide de prova/Mecanismo do Passo 2. Sem tema-que-pede-prova, ignora tudo isto e vai pro Passo 1.
+
 ## Passo 1, declara a camada e monta o mapa de densidade (ANTES de escrever frase)
 **Primeiro a camada (atração é funil, não bloco).** Decide a que camada este carrossel serve: muda a capa e o nível de filtro:
 - **C1 Alcance:** capa que o leigo entende em 1s, não filtra; o técnico densifica nos cards 4-7. Volume (3-5/sem).
@@ -109,7 +127,7 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 
 A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra). O slide do CTA é **obrigatório e muito bem feito** (é o que vira o carrossel em mensagem no direct): de preferência uma **palavra-chave pra comentar** que entrega algo concreto, com os bullets do que a pessoa recebe. Ex.: comenta TRÁFEGO que eu te mando (1) o modelo de anúncio, (2) o passo do atendimento, (3) o painel. Liga a palavra-chave ao próximo passo real do funil (direct → carta/isca). Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
 
-> Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
+> Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), ela é a fonte do tom: pilares, bordões e anti-valores. Você já leu ela no Passo 0 pra tirar os **padrões de ausência**; aqui usa o lado positivo (pilares, bordões, ritmo) pra escrever COMO ele fala, enquanto a lista de ausência guarda o que ele nunca faz.
 
 ## Exemplo card-a-card (modela a QUALIDADE, nunca copia; nicho fictício)
 Tema "Por que sua reunião gratuita não converte", 8 cards (o Diagnóstico ocupou 2). Repara: nenhum card ensina a executar, todos mostram função, cena ou prova.
@@ -144,6 +162,7 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **CTA forte com palavra-chave** | slide final tem CTA único e muito bem feito: palavra-chave pra comentar + o que a pessoa recebe (bullets/benefício) + próximo passo real do funil (direct/carta/isca); CTA fraco ou **sem destino = ✗** | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** | |
+| **Voz do cliente (padrões de ausência)** | quando a lista de ausência do Passo 0 existe: **nenhum slide viola nenhum item dela** (palavra proibida, muleta, estrutura, tom que aquela voz nunca usa); um item da lista quebrado = ✗ igual a um travessão. Sem lista destilada, marca N/A e segue. | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, mostra e PARA
@@ -171,6 +190,9 @@ Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide: a
 | Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o carrossel limpo, sem as tabelas do gate |
 | Engessou a Fórmula 7 ignorando o assunto | Contexto é rei (Lei 4): redistribui o peso, mais no problema OU no mecanismo, mantendo o arco ADMA e os 7-10 slides |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
+| Escreveu na voz certa mas usou palavra/muleta que aquele cliente nunca usa | Puxa a lista de ausência da voz no Passo 0 e confere cada slide contra ela no gate; item violado reprova |
+| Afirmou resultado/estudo/número com dado "plausível" que ninguém verificou | Passo 0.5: minera 1 insumo REAL (do autor/case/fonte) ou marca `[DADO: confirmar]`; nunca chuta número |
+| Virou mini-aula ao empilhar todo dado pesquisado | 1 insumo verificado basta; dá o tijolo, não a planta (Faca Soft) |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/06-carrossel.md`: a engenharia completa do carrossel (Alta Polaridade, a Fórmula 7 nos 10 slides, Embalagem A+B da capa, exemplo card a card, métricas e diagnóstico por sintoma). É a fonte da verdade do formato.

@@ -301,7 +301,7 @@ Até aqui o guia conduz o **FUNIL SOFT** (degrau 1): a peça de aquecimento é a
 
 Existe um segundo trilho, o **FUNIL WEBINAR** (degrau 2 da escada), pra quando o caso pede webinário. O LEON só sobe o especialista pra esse degrau quando audiência, faturamento, produto e habilidade já aguentam, nunca antes. Sinais de que o caso pede webinar: o especialista já tem público entrando, já fecha no 1:1 com método, e quer escalar a venda de um para muitos sem perder a qualificação.
 
-Quando o caso pede webinar, a única coisa que muda é o **miolo do funil**. No lugar da Mini Carta do Passo 4, o LEON invoca a `soft-webinar-plano`, que entrega o pacote inteiro na ordem do método (oferta antes do roteiro, depois roteiro ADMA, deck, gravação, páginas, e-mails/WhatsApp, anúncios, máquina de pós-webinar). Tudo o que vem antes (Passos 0 a 3: concepção, pesquisa, projeção, posicionamento, voz) e tudo o que vem depois (feed, stories, e o **fechamento comercial sempre na `soft-vendas`**) é idêntico. O webinar qualifica o lead; high-ticket (3k+) fecha no 1:1, nunca no checkout.
+Quando o caso pede webinar, a única coisa que muda é o **miolo do funil**. No lugar da Mini Carta do Passo 4, o LEON invoca a `soft-webinar-plano`, que entrega o pacote inteiro na ordem do método (oferta antes do roteiro, depois roteiro ADMA, deck, gravação, páginas, e-mails/WhatsApp, anúncios, máquina de pós-webinar). Tudo o que vem antes (Passos 0 a 3: concepção, pesquisa, projeção, posicionamento, voz) e tudo o que vem depois (feed, stories, e o **fechamento comercial sempre na `soft-vendas-closer`**) é idêntico. O webinar qualifica o lead; high-ticket (3k+) fecha no 1:1, nunca no checkout.
 
 O degrau 3, Soft Launch / lançamento pago (`soft-lancamento-pago`), está **fora do escopo deste guia autoguiado**. É outro trilho, com skill própria, e não entra na condução aqui.
 
@@ -407,7 +407,7 @@ Fechado, libera o Passo 7.
 
 ### O que o LEON faz
 
-> *"Aciona a `soft-vendas`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
+> *"Aciona a `soft-vendas-closer`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
 
 A skill herda do guia a cabeça do vendedor, as 7 fases, o termômetro, o Isolamento, o catálogo de objeções no tom Soft e as frases de poder por situação. Adapta tudo ao canal (WhatsApp, call ou reunião) e ao ticket.
 
@@ -429,7 +429,7 @@ Fechado, libera o Passo 8.
 
 ### Skill invocada
 
-`soft-vendas`.
+`soft-vendas-closer` (a prospecção/abertura ativa, quando aparece, é `soft-vendas-sdr`).
 
 ---
 

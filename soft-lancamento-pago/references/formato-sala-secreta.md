@@ -313,7 +313,7 @@ Por quê:
 
 ### Time comercial
 
-- Vendedores treinados no método (script Soft via `soft-vendas`)
+- Vendedores treinados no método (script Soft via `soft-vendas-closer`)
 - Liga primeiro pros aprovados (aplicação respondida com vontade)
 - Conversão time comercial: 30-50% em leads aprovados (A Sala Secreta reporta 10-30%)
 

@@ -229,7 +229,7 @@ Etapa 3 - Cadência semanal/mensal/trimestral
 
 - Cliente quer **carta de vendas** → invoca `soft-funil-carta`
 - Cliente quer **carrossel/reel/stories** → invoca skill Soft específica
-- Cliente quer **script de venda 1-a-1** → invoca `soft-vendas`
+- Cliente quer **script de venda 1-a-1** → invoca `soft-vendas-closer`
 - Cliente quer **posicionamento** → invoca `soft-posicionamento`
 - Cliente quer **construção/reforma física** → invoca `projeto-construcao`
 

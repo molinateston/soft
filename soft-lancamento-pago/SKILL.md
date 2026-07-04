@@ -1,6 +1,6 @@
 ---
 name: soft-lancamento-pago
-description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta e Lançamento Pago Semanal Gravado / LPSG. 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (soft-conteudo-carrossel/-reels/-stories), carta ou VSL (soft-funil-carta/-landing), webinar perpétuo (soft-webinar-plano), posicionamento (soft-posicionamento), ou a venda, objeção, fechamento 1:1 (soft-vendas)."
+description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft (Funil Soft, Webinar Soft, Soft Launch). Lançamento pago com carrinho e tráfego, mira high-ticket (3k+) e fecha no Comercial 1:1. Combina Sala Secreta e Lançamento Pago Semanal Gravado / LPSG. 4 modos: A diagnóstico, B plano completo, C debriefing, D crise em tempo real. Cobre formatos, narrativa de pontos-cegos, página de ingresso, criativos, tráfego, ingresso pago (não CPL) e order bumps pra CAC zero. Use quando envolver Soft Launch, lançamento pago, lançamento semanal, Sala Secreta, LPSG, ingresso pago, carrinho aberto, noite única, desafio 5 dias, ROAS de lançamento, CAC zero, criativos de lançamento, ingresso não vende, comparecimento baixo, live de abertura. NÃO use pra carrossel, reel, stories (soft-conteudo-carrossel/-reels/-stories), carta ou VSL (soft-funil-carta/-landing), webinar perpétuo (soft-webinar-plano), posicionamento (soft-posicionamento), ou a venda, objeção, fechamento 1:1 (soft-vendas-closer)."
 ---
 
 # Soft Launch, o degrau 3 da escada de funis (lançamento pago)
@@ -11,7 +11,7 @@ description: "Operadora do SOFT LAUNCH, degrau 3 (topo) da escada de funis Soft 
 
 Skill operadora do **Soft Launch**: o topo da escada (Funil Soft → Webinar Soft → **Soft Launch**). É o lançamento pago do Soft: evento com carrinho, tráfego e ingresso. Mesma promessa e mesma tese dos outros funis, só mais longo e mais caro de operar. Combina dois métodos de referência validados no Brasil: **Sala Secreta** (ROAS 8x, 7 dígitos como referência, não promessa) e **Lançamento Pago Semanal Gravado / LPSG** (200+ lançamentos, R$100MM+ acumulado como referência).
 
-> Como todo funil Soft, é **+ Comercial**: o lançamento QUALIFICA o lead (gera o "sim do produto"); o fechamento 3k+ é no 1:1 (`soft-vendas`), nunca no checkout. O marketing entrega quente; a venda é da `soft-vendas`. A operação que materializa isso está em `references/aplicacao-e-comercial-operado-por-ia.md`.
+> Como todo funil Soft, é **+ Comercial**: o lançamento QUALIFICA o lead (gera o "sim do produto"); o fechamento 3k+ é no 1:1 (`soft-vendas-closer`), nunca no checkout. O marketing entrega quente; a venda é da `soft-vendas-closer`. A operação que materializa isso está em `references/aplicacao-e-comercial-operado-por-ia.md`.
 
 ## Princípio raiz
 > **Lançamento pago é ferramenta, não estratégia. Funciona muito aplicado certo, destrói o negócio quando vira repetição cega.**
@@ -80,7 +80,7 @@ A skill detecta na entrada (Passo 1). Soft → lente Soft. Senão → padrão. N
 |---|---|---|
 | Frequência | Máximo 1-2 lançamentos/ano | Sem limite, cliente decide |
 | Pré-requisito | Degraus 1 e 2 da escada de pé | Não exigido |
-| Fechamento | + Comercial 1:1, a venda 3k+ é no `soft-vendas` | Checkout direto, se o ticket comportar |
+| Fechamento | + Comercial 1:1, a venda 3k+ é no `soft-vendas-closer` | Checkout direto, se o ticket comportar |
 | Pós-lançamento | Integração obrigatória de volta no sistema | Continuidade padrão |
 | Linguagem | "Injeção pontual sobre o seu sistema" | "Estratégia de aquisição" |
 | Narrativa | Clínico, revela, não grita "evento épico" | Estilo padrão Sala Secreta/LPSG |
@@ -106,7 +106,7 @@ Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio,
 - **Carta / vídeo de vendas / VSL / landing do Funil Soft (degrau 1)** → `soft-funil-carta` / `soft-funil-landing`.
 - **Webinar Soft perpétuo (degrau 2)** → `soft-webinar-plano`.
 - **Posicionamento / Plano / método / oferta** → `soft-posicionamento`.
-- **A venda em si (script, objeção, follow-up, fechamento 1:1)** → `soft-vendas`.
+- **A venda em si (script, objeção, follow-up, fechamento 1:1)** → `soft-vendas-closer`.
 - **Lançamento Fórmula (Erico Rocha)** → fora do escopo combinado, não opera aqui.
 
 ## Anti-Patterns (sintoma → correção)
@@ -128,7 +128,7 @@ Toda peça que o lead ou o mercado lê (página de ingresso, criativo, anúncio,
 Os dois são complementares: Sala Secreta é evento concentrado, LPSG é cadência semanal. A skill ajuda a escolher qual cabe no contexto.
 
 ## Para o orquestrador (soft-leon)
-O LEON invoca esta skill como a mãe do degrau 3. Detectou Soft Launch, roda **Modo A primeiro, sempre**. O Crivo do LEON checa antes de liberar o plano: degraus 1 e 2 de pé? Há audiência, caixa e repertório de venda? Sem isso, o lançamento é a complexidade que o método combate, e o LEON segura. Fechado o lançamento, o LEON leva os leads quentes pro Comercial 1:1 (`soft-vendas`): o checkout não fecha high-ticket, a conversa fecha. Se o cliente já passou pelo Modo A, o LEON vai direto ao B, mas avisa: *"você já passou pelo diagnóstico, vamos ao plano. Se algo mudou, me diz."*
+O LEON invoca esta skill como a mãe do degrau 3. Detectou Soft Launch, roda **Modo A primeiro, sempre**. O Crivo do LEON checa antes de liberar o plano: degraus 1 e 2 de pé? Há audiência, caixa e repertório de venda? Sem isso, o lançamento é a complexidade que o método combate, e o LEON segura. Fechado o lançamento, o LEON leva os leads quentes pro Comercial 1:1 (`soft-vendas-closer`): o checkout não fecha high-ticket, a conversa fecha. Se o cliente já passou pelo Modo A, o LEON vai direto ao B, mas avisa: *"você já passou pelo diagnóstico, vamos ao plano. Se algo mudou, me diz."*
 
 ## References (profundidade, o fluxo acima é autossuficiente)
 | Reference | Quando carregar |

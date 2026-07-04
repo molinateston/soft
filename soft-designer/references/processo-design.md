@@ -225,6 +225,61 @@ O leitor vê o slide em 0,3 segundo. Se nesse tempo ele sente que é diferente d
 
 ---
 
+## 8. O branch de imagem-IA (quando renderizar HTML→PNG vs quando gerar ILUSTRAÇÃO por IA)
+
+Quase toda peça do designer é **HTML→PNG determinístico**: é o nosso diferencial (contraste em código, anti-órfã, marca do cliente, copy editável). Mas há um caminho paralelo, o **branch de imagem-IA**, pra quando a peça pede uma ILUSTRAÇÃO/cena/textura que o HTML tipográfico não entrega. Este branch é o lar canônico da regra; o Infográfico-Lousa da Manuscrito Cru, o fundo do deck animado (`formato-deck-animado.md`) e a thumbnail de vídeo (`soft-conteudo-thumbnail`) todos herdam daqui.
+
+### 8.1 O roteamento (HTML estruturado vs ilustração livre)
+
+A decisão é pela NATUREZA do conteúdo, não pelo gosto:
+
+| Vai por HTML→PNG (o default) quando o conteúdo é | Vai pelo branch de imagem-IA quando o conteúdo é |
+|---|---|
+| passos numerados, framework, comparação X/Y, tabela, prova de números | um resumo visual, um fluxo, uma cena, uma ilustração conceitual, uma textura fotográfica (caderno, cenário) |
+| grade rígida, tipografia editorial, copy que muda em A/B | escaneável e livre, onde a "cara feita à mão" ou a cena É a mensagem |
+| a marca do cliente precisa ser exata (fonte própria, hex de cor) | o fundo/atmosfera importa mais que a precisão tipográfica |
+
+Além do conteúdo, o **ambiente força a mão**: se o ambiente **não renderiza PNG** (app puro, sem Playwright) e o cliente quer um visual ilustrado, o branch de imagem-IA é o caminho, entregando o **prompt pronto** em vez do PNG.
+
+### 8.2 A regra dura: texto por overlay HTML/CSS, NUNCA dentro da imagem gerada
+
+Vale pra TODO uso de imagem-IA nossa. O gerador de imagem **só produz o fundo/cena**; todo texto que precisa ser editável (título, bullets, números, CTA) entra por cima via overlay HTML/CSS. Por quê é lei: copy editável depois sem regenerar · gate de contraste funciona · o modelo não erra letra/acento · anti-órfã e escala de densidade só valem no HTML. (Detalhe completo em `formato-deck-animado.md` §4.)
+
+Exceção única: o **Infográfico-Lousa em modo imagem-IA**, onde o traço manuscrito É o ponto e a peça não vai pra A/B, pode ter o texto dentro da imagem gerada, com o custo declarado ao cliente de que não fica editável (mudar palavra = regenerar). Em qualquer peça que precise de copy editável, o texto entra por overlay, sem exceção.
+
+### 8.3 O prompt portátil (funciona em imagegen, gpt-image e Gemini)
+
+A copy-visual passa pelo **Crivo ANTES** (ancoragem + gate + anti-IA do Passo 0), igual a qualquer peça. Só o render final vira "prompt fechado que o cliente cola no gerador dele". O prompt é neutro por construção: não amarra em gerador nenhum. Molde:
+
+```
+[Estilo: fotográfico / ilustração premium / lousa manuscrita, conforme a peça]
+
+CENA: [descrição do fundo/cena/textura, sem nenhuma palavra escrita]
+
+PALETA: [cores da marca do cliente, ex: preto #0A0908, accent verde #147a3c]
+
+COMPOSIÇÃO: [onde fica o elemento visual; qual área fica limpa/escurecida pra receber texto por cima]
+
+SEM TEXTO, SEM PALAVRAS ESCRITAS, SEM LEGENDAS, SEM LOGOS GRANDES.
+```
+
+### 8.4 O ramo dos 3 ambientes
+
+- **App / chat (sem Bash):** o designer **entrega o prompt pronto** (bloco pra copiar), a copy-visual já gated dentro dele, com o aviso "cole no seu gerador de imagem; o texto editável entra por cima depois, no HTML". Não roda gerador nem exporta PNG.
+- **Claude Code (tem Bash + imagegen):** o motor default é o **`imagegen` local** (gpt-image-1.5). Roda:
+  ```bash
+  export OPENAI_API_KEY="$OPENAI_API_KEY"
+  /home/cloud/.venvs/imagegen/bin/python \
+    /home/cloud/.codex/skills/.system/imagegen/scripts/image_gen.py generate \
+    --prompt "$(cat prompt.txt)" --size 1024x1536 --quality high --out out.png
+  ```
+  (tamanhos válidos: 1024x1024, 1536x1024, 1024x1536; use `edit` quando houver foto de referência). Depois compõe o texto por overlay em HTML e exporta.
+- **Agente / Telegram (tem Bash):** roda o pipeline do Code; a entrega é **ARQUIVO** cujo **path completo vai na resposta** (ex: `/home/cloud/pecas/lousa-estoque/final.png`), mensagens sem markdown pesado.
+
+Dependência anotada: não temos Gemini/nano-banana acoplado ao ecossistema; temos o `imagegen`. O branch emite prompt neutro (o cliente cola no gerador dele) e, no Code, chama o nosso `imagegen`. Nunca amarrar em Gemini.
+
+---
+
 ## Handoff
 
 PNGs exportados e aprovados → o usuário posta ou impulsiona. A copy-visual já foi escrita e gated no Passo 0; texto longo (caption, roteiro) é das skills de conteúdo. Derivar pra outras plataformas fica fora do core.

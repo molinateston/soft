@@ -5,7 +5,7 @@
 
 Uma das formas mais fortes de isca: **um artigo longo em prosa que revela UM pedaço do método por dentro**, prova a tese por argumento, matemática e história, e converte não por pitch, mas por **filtro** (um convite no fim). Não é "conteúdo de graça" nem tutorial: é a tese-mãe materializada, que faz o leitor reposicionar o que ele acha que precisa.
 
-É a isca certa pra quem já tem audiência e quer **aprofundar a confiança em escala** (o leitor lê 10 minutos e sai mais convencido da CAUSA do que sairia de uma call). O destino é a conversa quente ou o pré-qualificador (a skill `soft-funil-carta` / `soft-vendas`).
+É a isca certa pra quem já tem audiência e quer **aprofundar a confiança em escala** (o leitor lê 10 minutos e sai mais convencido da CAUSA do que sairia de uma call). O destino é a conversa quente ou o pré-qualificador (a skill `soft-funil-carta` / `soft-vendas-closer`).
 
 ## A macroestrutura (13 movimentos)
 
@@ -44,7 +44,7 @@ Cada movimento tem uma função. A ordem importa, é uma escada de percepção, 
 - **Sem inimigo** → sem o custo do caminho velho, falta a tensão que move.
 
 ## Handoff
-Artigo-Isca leu e filtrou → o leitor pronto bate na DM/WhatsApp → recebe o **convite** (Carta, a skill `soft-funil-carta`) → diz sim → `soft-vendas` fecha. Sem call, por desenho.
+Artigo-Isca leu e filtrou → o leitor pronto bate na DM/WhatsApp → recebe o **convite** (Carta, a skill `soft-funil-carta`) → diz sim → `soft-vendas-closer` fecha. Sem call, por desenho.
 
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)

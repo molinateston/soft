@@ -8,7 +8,7 @@ O erro estrutural é o lançamento tentar fazer marketing E vendas no mesmo luga
 - **O lançamento/evento QUALIFICA** — o pit de vendas não é pro cara comprar, é pro cara LEVANTAR A MÃO ("tenho interesse, me explica"). Esse é o "sim do produto".
 - **O Comercial 1:1 VENDE** — a decisão financeira (o Pix) é no um-a-um, onde você controla a narrativa. Esse é o "sim da venda".
 
-Não existe conversão melhor que o 1:1. High-ticket (3k+) não fecha no checkout do lançamento — fecha na conversa (`soft-vendas`, reference `comercial-1a1-e-conta-de-padaria`).
+Não existe conversão melhor que o 1:1. High-ticket (3k+) não fecha no checkout do lançamento — fecha na conversa (`soft-vendas-closer`, reference `comercial-1a1-e-conta-de-padaria`).
 
 ## Aplicação no lugar de checkout (o atrito proposital)
 
@@ -27,7 +27,7 @@ Pra encher a aula ao vivo, o time comercial liga INDIVIDUALMENTE pra base confir
 
 ## O Comercial operado por IA (o Sócio IA no lançamento)
 
-O que a IA carrega na operação do lançamento (aponta pro LEON / `soft-vendas`):
+O que a IA carrega na operação do lançamento (aponta pro LEON / `soft-vendas-sdr` abre e qualifica, `soft-vendas-closer` fecha):
 - **Automação de WhatsApp (função de SDR):** dispara mensagem até o lead responder, agenda a ligação, libera o humano só pro fechamento. A 1ª mensagem é montada pela IA com o que o lead respondeu na aplicação (personalizada).
 - **Cadência sem buraco:** sequência de 7 mensagens em 7 dias com estímulos diferentes; se não interagiu em nenhuma, o lead vira "perdido" e reabre se voltar a interagir.
 - **Transcrição da ligação + probabilidade de compra + próximos passos** em tempo real; **follow-up personalizado pela objeção dita** na call (a IA monta sem o vendedor lembrar).

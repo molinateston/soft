@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-plano
-description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil-carta), venda 1:1 (soft-vendas), posicionamento (soft-posicionamento)."
+description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil-carta), venda 1:1 (soft-vendas-closer), posicionamento (soft-posicionamento)."
 ---
 
 # Plano do webinar, o doc-mãe antes do roteiro
@@ -87,7 +87,7 @@ Regra de canal (devolve decidido). **O Funil de Aula Agendada fecha ONE-STEP: o 
 | Oferta | Canal |
 |---|---|
 | produto da aula (cabe no checkout, ~≤R$3.000) | fecha NA HORA no checkout, one-step (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
-| oferta acima disso (~>R$3.000) | **NÃO é o produto da aula:** é degrau de ascensão da esteira, fechado no 1:1 (soft-vendas) DEPOIS. A aula vende o produto que cabe no checkout e aponta o caro como ascensão (botão pro checkout do produto da aula) |
+| oferta acima disso (~>R$3.000) | **NÃO é o produto da aula:** é degrau de ascensão da esteira, fechado no 1:1 (soft-vendas-closer) DEPOIS. A aula vende o produto que cabe no checkout e aponta o caro como ascensão (botão pro checkout do produto da aula) |
 
 **Regra dura:** desenha o produto da aula pra caber no checkout e fechar one-step; se a oferta que você quer vender não cabe, ela vira **degrau de esteira**, não o produto da aula. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket do produto da aula (dentro do teto de checkout) ou joga o caro pra ascensão.
 
@@ -406,7 +406,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 - **Escrever a aula / roteiro / slides / deck** → **soft-webinar-script**.
 - **Páginas / e-mails / WhatsApp / anúncios / pós-webinar** → **soft-webinar-paginas** (páginas) · **soft-webinar-mensagens** (e-mails/WhatsApp/pós) · anúncios: **soft-conteudo-impulsionar**.
 - **Micro-aula curta do funil / carta / VSL / landing / isca** → **soft-funil-carta/-landing/-isca**.
-- **Fechamento 1:1 / script de venda / objeção** → **soft-vendas**.
+- **Fechamento 1:1 / script de venda / objeção** → **soft-vendas-closer**.
 - "Por onde começo / próximo passo / valida isso" → **soft-leon**.
 
 ## Anti-Patterns (sintoma → correção)
@@ -443,7 +443,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Pediu refino e reescreveu do zero | Modo B: audita, reescreve só o quebrado (Passo A) |
 
 ## Handoff
-O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. O produto da aula fecha one-step no checkout; a oferta cara acima (>~3k) é ascensão de esteira, fechada no 1:1 DEPOIS = **soft-vendas**. Nomes pendentes = **soft-posicionamento**.
+O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. O produto da aula fecha one-step no checkout; a oferta cara acima (>~3k) é ascensão de esteira, fechada no 1:1 DEPOIS = **soft-vendas-closer**. Nomes pendentes = **soft-posicionamento**.
 
 ## References (o corpo carrega o método; estas guardam a profundidade)
 - `references/escolha-carta-mt-webinario.md`: régua de maturidade, economia, 3 produtos, decisória. Passo 1.

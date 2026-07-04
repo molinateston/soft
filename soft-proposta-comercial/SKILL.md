@@ -1,9 +1,9 @@
 ---
 name: soft-proposta-comercial
-description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premium: um site HTML estático single-file (abas, diagnóstico, entregáveis com checkbox persistente, cronograma/Gantt, investimento, prova social, CTA), publicado num link único e privado por cliente. Pipeline em 4 etapas (transcrição → extração das informações-chave → geração do HTML no Layout Soft → publicação no Cloudflare Pages). Marca-neutra: cor, fontes, logo e prova social vêm do DONO. Use quando o dono fechar/conduzir uma call e precisar ENTREGAR a proposta em formato premium, pedir 'monta a proposta', 'proposta comercial', 'proposta de venda em HTML', 'site de proposta', 'orçamento premium', 'plano pro cliente', ou quiser fugir do PDF travado com um link próprio. NÃO use para página de vendas PÚBLICA / landing / VSL (soft-funil-landing), nem para o script/objeção/fechamento da venda em si (soft-vendas), nem para contrato (soft-contratos-consultoria)."
+description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premium: um site HTML estático single-file (abas, diagnóstico, entregáveis com checkbox persistente, cronograma/Gantt, investimento, prova social, CTA), publicado num link único e privado por cliente. Pipeline em 4 etapas (transcrição → extração das informações-chave → geração do HTML no Layout Soft → publicação no Cloudflare Pages). Marca-neutra: cor, fontes, logo e prova social vêm do DONO. Use quando o dono fechar/conduzir uma call e precisar ENTREGAR a proposta em formato premium, pedir 'monta a proposta', 'proposta comercial', 'proposta de venda em HTML', 'site de proposta', 'orçamento premium', 'plano pro cliente', ou quiser fugir do PDF travado com um link próprio. NÃO use para página de vendas PÚBLICA / landing / VSL (soft-funil-landing), nem para o script/objeção/fechamento da venda em si (soft-vendas-closer), nem para contrato (soft-contratos-consultoria)."
 ---
 
-**Papel:** skill operacional de pós-call do método Soft. Entra DEPOIS que a venda foi conduzida (o script, a objeção e o fechamento são da `soft-vendas`) e DEPOIS que a oferta existe (a oferta, a PUV e a prova vêm da `soft-posicionamento`). Pega a call gravada e devolve a proposta materializada num site premium com link próprio e privado por cliente, o "vendedor silencioso" que o prospect reabre quando vai decidir. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém; cor accent, fontes, logo e prova social são do DONO (puxados da Fundação dele). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
+**Papel:** skill operacional de pós-call do método Soft. Entra DEPOIS que a venda foi conduzida (o script, a objeção e o fechamento são da `soft-vendas-closer`) e DEPOIS que a oferta existe (a oferta, a PUV e a prova vêm da `soft-posicionamento`). Pega a call gravada e devolve a proposta materializada num site premium com link próprio e privado por cliente, o "vendedor silencioso" que o prospect reabre quando vai decidir. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém; cor accent, fontes, logo e prova social são do DONO (puxados da Fundação dele). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
 
 ## OUTPUT CONTRACT
 
@@ -79,7 +79,7 @@ Uma proposta comercial premium, entregue como **site HTML estático single-file*
 
 **Filtros obrigatórios:** toda a copy passa pelo filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7): PT-BR com acentuação completa, **zero travessões**, sinal de IA mal calibrada; o visual segue a ID do dono na `soft-designer`; a prova social usa só números REAIS e verificáveis do dono (nunca inventar, nunca usar número de terceiro).
 
-**Serve o agente:** equipa o LEON/cliente a fechar high-ticket com uma proposta que parece feita à mão, sem designer humano. A condução da venda é da `soft-vendas`; aqui é só a materialização da proposta.
+**Serve o agente:** equipa o LEON/cliente a fechar high-ticket com uma proposta que parece feita à mão, sem designer humano. A condução da venda é da `soft-vendas-closer`; aqui é só a materialização da proposta.
 
 ## COMO RODAR (resumo)
 
@@ -96,7 +96,7 @@ A entrega É o site (artifact HTML no app, ou link privado publicado no Cloudfla
 ## When NOT to use
 
 - Página de vendas PÚBLICA, landing ou VSL: é `soft-funil-landing`.
-- Script, objeção ou fechamento da venda em si: é `soft-vendas`.
+- Script, objeção ou fechamento da venda em si: é `soft-vendas-closer`.
 - Contrato de prestação de serviço pra assinar: é `soft-contratos-consultoria`.
 - Definir a oferta, a PUV, o preço ou a prova do zero: é `soft-posicionamento`. Aqui a skill só formata o que já existe.
 - Definir a identidade visual do dono do zero: é `soft-designer`. Aqui a skill só aplica a ID dele.

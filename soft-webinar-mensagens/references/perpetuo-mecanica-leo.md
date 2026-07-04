@@ -237,7 +237,7 @@ Para comparação completa de plataforma, scheduling e checklist de configuraç�
 
 ## 8. O perpétuo NÃO fecha high ticket sozinho
 
-Regra que amarra com a tese comercial da skill (`soft-vendas`):
+Regra que amarra com a tese comercial da skill (`soft-vendas-closer`):
 
 > "Eu não vou botar você pra vender automático no webinar porque tua parada é high ticket. Não dá pra você vender automático no webinar." (Léo, call Hugo)
 

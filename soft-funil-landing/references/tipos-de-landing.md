@@ -128,7 +128,7 @@ Cada tipo abaixo segue sempre o mesmo cartão, pra você ler rápido e montar o 
 
 **Framework de copy:** 4Ps (promessa, retrato do resultado, prova, empurrão) com a prova vindo de pares do mesmo setor.
 
-**Roteia pra irmã?** Não, é landing pura. Mas o SCRIPT que o comercial usa depois é `soft-vendas`.
+**Roteia pra irmã?** Não, é landing pura. Mas o SCRIPT que o comercial usa depois é `soft-vendas-closer`.
 
 **Exemplo de nicho fictício (software de gestão de frota):**
 
@@ -340,7 +340,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** PASTOR ou 12-step de VSL pro vídeo, com o arco-mãe da carta sendo o ADMA (ver nota em `frameworks-copy.md`).
 
-**Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas`. Aqui você monta a página.
+**Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas-sdr`. Aqui você monta a página.
 
 **Exemplo de nicho fictício (consultor de sucessão de empresa familiar):**
 

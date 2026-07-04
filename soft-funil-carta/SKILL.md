@@ -1,6 +1,6 @@
 ---
 name: soft-funil-carta
-description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA (Atenção-Diagnóstico-Mecanismo-Ação, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo-*; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas)."
+description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA (Atenção-Diagnóstico-Mecanismo-Ação, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo-*; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas-closer)."
 ---
 
 # Carta de vendas, o ativo que aquece antes da conversa
@@ -205,7 +205,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 - Pediu **webinar perpétuo ou ao vivo** → **soft-webinar-plano** (porta de entrada do pacote; o roteiro é **soft-webinar-script**).
 - Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
-- Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas**.
+- Pediu o **fechamento da venda** (script, objeção, follow-up, pós-venda) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |
@@ -214,7 +214,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 | Montou no arco AIDA (atenção→interesse→desejo→ação por gatilho) | Reescreve no ADMA: o Diagnóstico nomeia o inimigo, o Mecanismo constrói o desejo, só então a Ação convida |
 | Oferta colada logo na abertura | Falha "desejo antes da oferta": insere Diagnóstico + Mecanismo antes do convite |
 | Inventou um case/número "plausível" | Só prova REAL; sem fonte, marca `[CASE: confirmar]`/`[DADO: confirmar]` e a peça não sai como pronta |
-| Carta tenta fechar a venda sozinha | É degrau 1: aquece e filtra. O fechamento é o Comercial 1:1 (soft-vendas). Preço fora da peça (salvo ticket baixo) |
+| Carta tenta fechar a venda sozinha | É degrau 1: aquece e filtra. O fechamento é o Comercial 1:1 (soft-vendas-closer). Preço fora da peça (salvo ticket baixo) |
 | Múltiplos CTAs ("clica · agenda call · saiba mais") | UM convite firme pro WhatsApp, pré-explicando o que acontece lá |
 | Entregou o passo a passo executável do método | Faca aparada: mostra função das etapas, não o "como fazer" que dispensa o autor |
 | Carta bonita mas genérica (concorrente assina) | Falha no gate "só você diz"; reescreve com cena/mecanismo proprietário |

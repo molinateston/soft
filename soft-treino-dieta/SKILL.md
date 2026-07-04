@@ -219,7 +219,7 @@ Esta skill é o destino de tudo que é **treino, dieta e saúde musculoesquelét
 - Pediu **posicionamento, método de marca, oferta ou proposta de valor** → `soft-posicionamento`.
 - Pediu **carrossel, reel, story, headline, conteúdo de feed** → `soft-conteudo-*` (carrossel/reels/stories) / `soft-conteudo-headlines`.
 - Pediu **carta, VSL, landing, funil, isca** → `soft-funil-*` (carta/landing/isca).
-- Pediu **script de venda, objeção, fechamento, prospecção** → `soft-vendas`.
+- Pediu **script de venda, objeção, fechamento** → `soft-vendas-closer`; **prospecção/abertura de lead frio** → `soft-vendas-sdr`.
 - Pediu **webinar / lançamento** → `soft-webinar-plano` / `soft-lancamento-pago`.
 - Não sabe por onde começar o negócio, qual fase, próximo passo → `soft-leon` (o Sócio IA orquestra e chama a mãe certa).
 

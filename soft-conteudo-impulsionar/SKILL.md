@@ -38,12 +38,16 @@ Tráfego acelera o que já funciona. Ligar antes destes 5 itens é pagar pra ace
 
 Com os pré-requisitos ok, **ancora nos números REAIS do perfil** (engajamento das últimas peças, custo atual se já roda). Sem os números, pergunta numa mensagem e marca `[DADO: confirmar]`, nunca assume.
 
+**Pré-check do perfil (opcional, cruza com a soft-posicionamento):** o pré-requisito "perfil convertendo" tem um teste objetivo. O **Score de Autenticidade** (mora na `soft-posicionamento`, ref `references/modo-perfil.md` §3.6 + `scripts/score_perfil.py`) audita se o perfil parece real e limpo antes de virar destino de verba, foto real e não de banco, biografia e destaques de gente que faz, sinais de perfil vivo. Perfil que não passa nesse crivo não deve receber tráfego (o lead chega e desconfia). Se houver dúvida sobre a solidez do perfil, roda esse score na soft-posicionamento antes de montar o plano de verba aqui.
+
 ## Passo 1, escolhe o nível
 - **Turbinar (botão nativo):** amplifica peça orgânica que já provou ROI (40+ curtidas orgânicas naturais). R$10-15/dia por peça, 3-7 dias. Simples, custo baixo, menos controle de público. É onde o solo começa.
 - **Gerenciador de Anúncios:** campanhas estruturadas (públicos custom, lookalike, remarketing, pixel de conversão). R$50+/dia sustentado. Entra quando o turbinar atinge teto e o especialista quer escalar.
 
+**Nota-fronteira, decisão aqui × execução lá:** esta skill DECIDE o tráfego (o que turbinar, quanta verba, qual público, a régua). Quem EXECUTA a campanha estruturada no Gerenciador (cria conta/campanha/ad set/ad via API, audita a conta, ativa e pausa) é a `soft-trafego-meta`. Ela nasce toda campanha PAUSADA e só liga com o OK explícito do dono, e herda ESTA skill como gate de entrada (confere os 5 pré-requisitos, aplica o 50/30/20 e a régua de custo antes de gastar). Regra: o plano de verba sai daqui; a mão que mexe na conta de anúncios é a `soft-trafego-meta`. No **claude.ai** (sem credencial) esta skill entrega o plano e o especialista executa na mão ou aciona a `soft-trafego-meta` onde ela tem acesso à conta.
+
 ## Passo 2, identifica os candidatos e a função de cada um
-Olha as peças orgânicas dos últimos 30 dias (números reais). Candidato = top 3 carrosséis (swipe + saves acima da média) + top 3 reels (watch time + sends acima da média). Cada peça serve uma das **3 funções**, cada uma com criativo e métrica próprios:
+Olha as peças orgânicas dos últimos 30 dias (números reais). Candidato = top 3 carrosséis (swipe + saves acima da média) + top 3 reels (watch time + sends acima da média). O **Passo 2.5** (logo abaixo) refina essa lista pelos 4 quadrantes, prioriza a Estrela e a Ouro de nicho e descarta a de Alcance raso. Cada peça serve uma das **3 funções**, cada uma com criativo e métrica próprios:
 
 | Função | O que faz | Criativo | Métrica-chave |
 |---|---|---|---|
@@ -54,6 +58,26 @@ Olha as peças orgânicas dos últimos 30 dias (números reais). Candidato = top
 (A métrica-chave por formato e o duplo filtro algorítmico × financeiro estão em `references/metricas.md`.)
 
 **Quando o criativo de Atração for um STORY AD** (o anúncio que se camufla no conteúdo do dia, "não prometa, não convide, só afirmações e coisas soltas", foto/vídeo REAL nunca banco/IA, métrica = custo por visita R$0,15-0,25), a estrutura da associação + a régua de teste/escala (testa ~15, 2-3 vencem, escala devagar) estão em `references/story-ads.md`. A verba/distribuição segue o resto desta skill; a arte é da `soft-designer`. **As 2 camadas (D2):** o ad de ATRAÇÃO é SEM CTA (a segmentação faz o trabalho) e o filtro de destino não o reprova; o ad de CONVERSÃO leva CTA com destino sem exceção.
+
+## Passo 2.5, mapeia as peças nos 4 QUADRANTES (o que escalar, o que matar)
+Antes de decidir a verba, separa as peças orgânicas dos últimos 30 dias em dois eixos, **números reais do perfil, nunca adjetivo** ("2,3% de likes/reach", não "bom engajamento"):
+- **Eixo alcance:** quantas contas a peça atingiu (reach), comparado à média do perfil.
+- **Eixo engajamento:** a métrica-chave do formato dividida pelo alcance (reel = watch time + sends/reach · carrossel = swipe-até-3 + saves/reach), comparada à média do perfil.
+
+O cruzamento dá 4 quadrantes, e cada um tem um veredito de tráfego:
+
+| Quadrante | Alcance | Engajamento | O que significa | Decisão de verba |
+|---|---|---|---|---|
+| **Estrela** | alto | alto | a peça prova ROI orgânico redondo | **turbina primeiro**, é a candidata número 1 (Atração ou Lead) |
+| **Ouro de nicho** | baixo | alto | o algoritmo não distribuiu, mas quem viu amou | **turbina pra escalar o alcance** (a verba compra a distribuição que faltou), costuma ser a de melhor custo por seguidor |
+| **Alcance raso** | alto | baixo | espalhou mas não prendeu (público errado ou promessa vazia) | **NÃO turbina como está**, o dinheiro amplifica o vazamento; volta pro gancho/público antes |
+| **Abaixo do esperado** | baixo | baixo | não funcionou no orgânico | **mata**, turbinar é acelerar erro (Lei do Passo 0) |
+
+**A leitura que decide:** a Estrela e a Ouro de nicho são as candidatas do Passo 2, nessa ordem. A Ouro de nicho é a jogada de maior alavanca do impulsionar, porque a verba faz exatamente o que faltou (dar alcance a algo que já provou que prende). A de Alcance raso é uma armadilha, o número grande de alcance engana; sem engajamento, turbinar só paga pra espalhar mais rápido o que não converte.
+
+**Pauta orientada a dado (loop de volta pro orgânico):** o quadrante também vira pauta, não só verba. O que virou Estrela ou Ouro de nicho aponta o TEMA/ÂNGULO que o perfil deve repetir no orgânico, alimentando de volta a `soft-conteudo-carrossel/-reels/-headlines` (replica a fórmula que já provou). O Alcance raso e o Abaixo do esperado dizem o que parar de fazer. Você reporta essa leitura em 1-2 linhas no doc, pra o especialista decidir a próxima peça a partir do que os números mostraram, não do palpite.
+
+Se faltar o número de alcance ou de engajamento de alguma peça, marca `[DADO: confirmar]` e pede numa mensagem, jamais classifica no quadrante por estimativa (Lei 5).
 
 ## Passo 3, define público, verba e duração
 - **Público:** interesse do nicho (não inclui concorrente) · lookalike de seguidores (se já tem 1.000+ qualificados) · custom de quem visitou o perfil 30 dias. Mantém entre 100k-500k: amplo demais ("Brasil 18-65") queima verba, estreito demais (5k) o algoritmo não escala.
@@ -88,6 +112,7 @@ Antes de entregar, confere internamente (a tabela NÃO vai pra saída):
 |---|---|
 | **Pré-requisitos** | os 5 do Passo 0 cumpridos; algum faltando = PARA, não entrega plano |
 | **Números reais** | toda métrica vem do perfil real; número inventado/plausível = refaz e marca `[DADO: confirmar]` |
+| **Quadrante** | as candidatas são Estrela ou Ouro de nicho (Passo 2.5); nada de Alcance raso ou Abaixo do esperado na lista de turbinar |
 | **Distribuição** | a verba respeita o 50/30/20 (ou justifica o desvio em 1 linha) |
 | **Régua definida** | cada peça tem objetivo · público · verba/dia · duração · métrica-chave + a decisão por custo |
 | **ROI calculado** | o plano mostra o ROI mensal absoluto, não só o ROAS |
@@ -107,6 +132,8 @@ Mostra **só o plano LIMPO** e PARA pro especialista decidir antes de ligar a ve
 |---|---|
 | Montou plano sem os pré-requisitos | Passo 0 é bloqueante: para e diz o que falta antes de qualquer verba |
 | Turbinou peça sem teste orgânico | Só turbina peça com 40+ curtidas orgânicas naturais (acelerar erro queima dinheiro) |
+| Turbinou a peça de Alcance raso (muito reach, pouco engajamento) | O número grande de alcance engana; sem engajamento a verba só espalha o vazamento. Turbina Estrela ou Ouro de nicho (Passo 2.5), nunca Alcance raso como está |
+| Classificou a peça no quadrante por estimativa | Alcance e engajamento vêm do perfil real; sem o número, marca `[DADO: confirmar]` e pergunta |
 | Verba de R$5/dia | Mínimo R$10-15/dia, senão o algoritmo não aprende |
 | Tudo em Lead, nada em Distribuição Pura | Aplica os 50% de Distribuição: é o público de remarketing futuro |
 | Olhou só o ROAS | Calcula o ROI mensal absoluto; ROAS alto pode ser subinvestimento |

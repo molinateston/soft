@@ -40,6 +40,15 @@ Peça ao cliente:
 
 Com esses 3 conjuntos, dá pra fazer o diagnóstico.
 
+### Gate de amostras (mínimo 3, PARE antes de destilar)
+
+Padrão de voz só existe em 3 ou mais amostras da mesma pessoa. Menos que isso é **mania isolada de um texto**, não voz. Antes de aplicar os 6 ângulos, conte as amostras do Material A (a voz natural, não a performance):
+
+- **0 a 2 amostras:** NÃO destile. Peça mais material real ao especialista (mais áudios de WhatsApp com cliente, mais mensagens sem revisão). Se ele não tem escrita própria nenhuma, use provisoriamente 3 falas transcritas de um áudio/vídeo dele e **marque o Mapa de Voz como provisório** (revisar quando houver 3 textos escritos reais).
+- **3 ou mais amostras:** pode destilar. É o piso duro. Quanto mais, mais estável o padrão.
+
+Regra: nunca invente um padrão pra preencher a lacuna. Se as amostras não bastam, o entregável é "faltam amostras", não uma voz-chute.
+
 ---
 
 ## Os 6 ângulos de observação
@@ -136,12 +145,12 @@ Anti-padrão. Quem identifica o que detesta está identificando o oposto da pró
 
 ## O método de destilação (depois da coleta e observação)
 
-Com material em mãos + 6 ângulos mapeados + 5 perguntas respondidas, produzir 4 entregáveis:
+Com material em mãos + 6 ângulos mapeados + 5 perguntas respondidas, produzir 5 entregáveis:
 
 ### Entregável 1: Mapa de Voz
 - Comprimento típico de frase
 - 10 palavras-assinatura (vocabulário recorrente singular)
-- 10 palavras banidas (que ela rejeita)
+- 10 palavras banidas (que ela rejeita), **cada uma com a ausência contada** (ver Entregável 5)
 - Postura emocional dominante (descrição em 1 frase)
 - 3 frases-modelo que poderiam ser dela em qualquer contexto
 
@@ -160,6 +169,31 @@ Com material em mãos + 6 ângulos mapeados + 5 perguntas respondidas, produzir 
 - 1 parágrafo "errado" (como ela tem escrito) e 1 "certo" (na voz descoberta)
 - Mostrar a diferença lado a lado
 - Por que a versão certa funciona melhor
+
+### Entregável 5: O que esta voz NUNCA faz (por ausência contada)
+
+Tão revelador quanto o que a voz faz é o que ela **nunca** faz. Mas esse "nunca" não pode sair de uma lista genérica de palavras proibidas (isso é palpite disfarçado de voz). Cada item da lista de ausências tem que ser **respaldado por uma contagem real nas amostras coletadas**.
+
+**A regra dura:** item de ausência sem contagem não entra. É chute. Só entra o que as amostras claramente evitam, com o número do lado.
+
+**Como se escreve (formato com a contagem sempre visível):**
+- `travessão (o traço longo): 0 de 8 posts` (a pessoa nunca usa, isso é traço)
+- `pergunta retórica de abertura: 0 aparições em 6 amostras`
+- `a construção "não X, mas Y": 0 de 8 amostras`
+- `jargão corporativo (sinergia, alavancar, disrupção): 0 aparições`
+- `emoji no meio da frase: 0 de 10 amostras`
+- `fecho motivacional ("bora?", "vamos juntos"): 0 de 8`
+
+**O que preencher aqui (3 a 5 comportamentos, cada um contado):**
+1. **Pontuação/símbolos ausentes** (o travessão, o ponto-e-vírgula, o emoji decorativo) com a contagem.
+2. **Tipos de gancho que ela nunca usa** (nunca abre por pergunta retórica, nunca por "imagine um mundo onde") com a contagem.
+3. **Tons que ela nunca atinge** (nunca clínico-frio, nunca fofo-melado), observados na ausência, não no achismo.
+4. **Construções que ela evita** (a tríade, a simetria "não é X, é Y", a frase-emoldura de IA) com a contagem.
+5. **Vocabulário rejeitado** (as palavras que 0 amostras usam mesmo fazendo sentido no tema): nomeie as palavras.
+
+**Regra da contradição (não disfarça):** se as amostras se contradizem (num texto ela usa travessão, em três não usa), você **anota a contradição** no Mapa de Voz em vez de forçar um lado pra caber num arquétipo bonito. Ex.: `travessão: 5 de 8 posts, inconsistente, confirmar com o especialista`. A IA tende a suavizar pra fechar um padrão limpo; aqui isso é proibido. Voz real tem borda irregular.
+
+Esse Entregável 5 alimenta as "10 palavras banidas" do Entregável 1 e vira insumo direto do filtro anti-IA (o que a voz evita é o que o `lint_copy.py` e o CTRL+F vão caçar na copy pública depois).
 
 ---
 

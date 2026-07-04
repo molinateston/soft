@@ -14,11 +14,22 @@ Detalhamento do pipeline da `SKILL.md`. O processo é **b-roll image-first**: a 
 ## Parâmetros de API
 - **gpt-image-2:** POST `api.openai.com/v1/images/generations`, size 1536x1024 (ou 1024x1536 vertical pro CTA), quality high, divisível por 16. Resposta `data[0].b64_json`.
 - **Veo:** POST `generativelanguage.googleapis.com/v1beta/models/veo-3.1-fast-generate-preview:predictLongRunning?key=`, body image-to-video + `parameters:{aspectRatio, negativePrompt}`. Poll a operation; baixar o `uri` com `curl -L` + `&key=`. Saída 720p, 8s. Cada chave Gemini tem quota diária baixa de Veo → use VÁRIAS e rotacione no erro 429.
-- **Submagic (legenda):** POST `api.submagic.co/v1/projects` header `x-api-key`, `templateName:"Ella"`, poll até `completed`, baixar `directUrl`.
+- **Transcrição local (whisper.cpp):** roda em `vendor/whisper.cpp` depois do setup único (`setup_whisper.sh`). Sem chave, sem custo por minuto. Cospe word-level. Substitui a transcrição paga da OpenAI.
+- **Submagic (legenda paga, opcional):** POST `api.submagic.co/v1/projects` header `x-api-key`, `templateName:"Ella"`, poll até `completed`, baixar `directUrl`. Só se o dono preferir a paga; o padrão é a legenda karaokê da casa.
+
+## Legenda karaokê + animações (a camada de texto)
+Receita técnica completa em `references/legenda-e-animacoes.md`. Resumo:
+- **Transcrição local** cospe timestamps por palavra; **legenda karaokê** (`07_karaoke.py`) acende a palavra falada na `cor_legenda` da marca, FFmpeg-first (overlay de PNG por intervalo, sem render headless).
+- **Animações de tela** (`08_screen_fx.py`): `wipe` (marca-texto crescendo com `drawbox` dirigido por `t`), `reveal` (frase palavra a palavra) e `bar` (lower-third deslizando com `overlay` `y` por `t`). São só de TEXTO, pra retenção; nada de chart/dado (fora do escopo).
+- A cor vem de `config/personagens.json` (`cor_legenda`, ou hex no comando), com fallback verde `4ade80`.
 
 ## Ordem dos scripts
-1. `00_silence_cut.py entrada.mp4 saida.mp4`
-2. (agente escreve `scenes.json`) → `01_gen_images.py scenes.json pasta_img` → **aprovar com o dono**
-3. `02_animate.py pasta_img pasta_video`
-4. `03_assemble.py base.mp4 pasta_video montado.mp4 [overlay|crop]`
-5. `04_build_final.py montado.mp4 final_4k.mp4 [config/cta_take.mp4] [musica.mp3]`
+1. `06_transcribe_local.py entrada.mp4 palavras.json` (setup único antes: `bash setup_whisper.sh`)
+2. `00_silence_cut.py entrada.mp4 saida.mp4`
+3. (agente escreve `scenes.json`) → `01_gen_images.py scenes.json pasta_img` → **aprovar com o dono**
+4. `02_animate.py pasta_img pasta_video`
+5. `03_assemble.py base.mp4 pasta_video montado.mp4 [overlay|crop]` → gera o CORPO
+6. `07_karaoke.py corpo.mp4 palavras.json corpo_legendado.mp4 [palavras_por_pagina] [cor_hex]`
+7. (opcional) `08_screen_fx.py wipe|reveal|bar base.mp4 saida.mp4 "FRASE" [...]`
+8. `05_hook.py talking_head.mp4 A B efeito "FRASE" corpo_legendado.mp4 com_gancho.mp4`
+9. `04_build_final.py com_gancho.mp4 final_4k.mp4 [config/cta_take.mp4] [musica.mp3]`

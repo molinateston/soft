@@ -197,7 +197,7 @@ Cada um vai pra um destino específico no sistema Soft.
 
 **Destino Soft:**
 - Entra no fluxo de entrega do produto (não muda)
-- Após resultado concreto (60-90 dias), invocação automática de `soft-vendas` (reference `indicacoes-pos-venda`) — pede indicação + testemunho estruturado
+- Após resultado concreto (60-90 dias), invocação automática de `soft-vendas-closer` (reference `indicacoes-pos-venda`) — pede indicação + testemunho estruturado
 - Cliente vira input de testemunho pra próximos lançamentos E pra venda constante
 - Pode virar parte do banco de cases do Soft (perfil + Carta)
 
@@ -216,7 +216,7 @@ Cada um vai pra um destino específico no sistema Soft.
 
 **Destino Soft:**
 - Pesquisa pós-compra → insumo pra `soft-posicionamento` atualizar avatar e Posicionamento Incomum
-- Objeções recorrentes → entram no banco de objeções da `soft-vendas`
+- Objeções recorrentes → entram no banco de objeções da `soft-vendas-closer`
 - Padrões observados na aula → ajusta linguagem da Mini Carta
 - Insights sobre o nicho → alimentam carrosséis e reels do próximo trimestre
 

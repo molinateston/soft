@@ -1,6 +1,6 @@
 ---
 name: soft-funil-miniwebinar
-description: "Fecha o PACOTE do MINI WEBINAR Soft (degrau 1, Funil Soft): o vídeo de ~10min que filtra, instala UMA virada de percepção e move pro 1:1, MAIS os SLIDES (1 ideia por slide, copy na nota) e a PÁGINA DE HOSPEDAGEM RICA (player + provas + bio + FAQ + argumento estilo carta abaixo dele). É a Carta com câmera, arco ADMA comprimido, mecanismo nomeado no centro. Ancora no verbatim real, entrega UMA peça por vez com STOP, gate por dentro (ADMA-micro + 1-ideia-por-slide + página protege-ou-mede + anti-IA). Use pra \"mini webinar\", \"mini-webinar\", \"webinar curto\", \"aula de vendas curta\", \"webinar do funil\", \"mini aula em vídeo\", \"versão em vídeo da carta\", \"slides do mini webinar\", \"deck do mini webinar\", \"página do mini webinar\", \"página de hospedagem do vídeo\". NÃO use pro WEBINÁRIO COMPLETO/perpétuo nem seu DECK ou 3 PÁGINAS (degrau 2: soft-webinar-plano/soft-webinar-slides/soft-webinar-paginas), carta/VSL/landing/isca (soft-funil-*), nem a venda (soft-vendas)."
+description: "Fecha o PACOTE do MINI WEBINAR Soft (degrau 1, Funil Soft): o vídeo de ~10min que filtra, instala UMA virada de percepção e move pro 1:1, MAIS os SLIDES (1 ideia por slide, copy na nota) e a PÁGINA DE HOSPEDAGEM RICA (player + provas + bio + FAQ + argumento estilo carta abaixo dele). É a Carta com câmera, arco ADMA comprimido, mecanismo nomeado no centro. Ancora no verbatim real, entrega UMA peça por vez com STOP, gate por dentro (ADMA-micro + 1-ideia-por-slide + página protege-ou-mede + anti-IA). Use pra \"mini webinar\", \"mini-webinar\", \"webinar curto\", \"aula de vendas curta\", \"webinar do funil\", \"mini aula em vídeo\", \"versão em vídeo da carta\", \"slides do mini webinar\", \"deck do mini webinar\", \"página do mini webinar\", \"página de hospedagem do vídeo\". NÃO use pro WEBINÁRIO COMPLETO/perpétuo nem seu DECK ou 3 PÁGINAS (degrau 2: soft-webinar-plano/soft-webinar-slides/soft-webinar-paginas), carta/VSL/landing/isca (soft-funil-*), nem a venda (soft-vendas-closer)."
 ---
 
 # Mini Webinar, a Carta com câmera
@@ -149,7 +149,7 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 - Pediu **lançamento pago / carrinho / evento com tráfego** (degrau 3) → **soft-lancamento-pago**.
 - Pediu **carta / VSL / landing / isca** → **soft-funil-carta · soft-funil-landing · soft-funil-isca**.
 - Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **conteúdo de feed** → **soft-conteudo** (e variantes).
-- Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas** (e variantes).
+- Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 - Pediu **arte/visual** → **soft-designer**. Pediu **posicionamento/Plano** → **soft-posicionamento**.
 
 ## Anti-Patterns (sintoma → correção)

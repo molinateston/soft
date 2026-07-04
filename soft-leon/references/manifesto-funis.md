@@ -4,7 +4,7 @@
 
 O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do gate + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
 
-> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinar-plano) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo é a ORDEM de APONTAR as atômicas: cada passo roda numa **CONVERSA NOVA** dedicada (o LEON aponta e manda o especialista abrir a conversa da skill, NÃO executa a skill na conversa dele), e o ativo volta pra ESTA conversa pro Crivo. Ver o **Handoff** no `soft-leon`.
+> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinar-plano) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. A frente de vendas virou DUAS: `soft-vendas-sdr` (abre/qualifica/agenda) e `soft-vendas-closer` (conduz/fecha). Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo é a ORDEM de APONTAR as atômicas: cada passo roda numa **CONVERSA NOVA** dedicada (o LEON aponta e manda o especialista abrir a conversa da skill, NÃO executa a skill na conversa dele), e o ativo volta pra ESTA conversa pro Crivo. Ver o **Handoff** no `soft-leon`.
 
 ---
 
@@ -27,7 +27,7 @@ soft-designer                  (gate: craft.py no visual/PNG)
         ↓
 soft-funil-isca / -landing / -carta / -miniwebinar   (gate embutido por peça)
         ↓
-soft-vendas → -script → -objecao → -copiloto → -posvenda   (gate embutido; o fechamento 1:1 é AQUI)
+soft-vendas-sdr → soft-vendas-closer   (gate embutido; o SDR abre/qualifica/agenda, o closer conduz/objeção/copiloto/fecha/pós-venda; o fechamento 1:1 é AQUI)
 ```
 
 Gates, um por linha:
@@ -37,7 +37,7 @@ Gates, um por linha:
 - **soft-conteudo-multiplataforma**: re-renderiza a peça-âncora preservando a tese; mantém o gate.
 - **soft-designer**: o visual passa no `soft-designer/scripts/craft.py` (contraste + anti-órfã) antes de exportar PNG. O LEON só confere que rodou.
 - **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta ADMA), Mini-webinar (micro-aula ADMA). A peça qualifica; não fecha a venda.
-- **soft-vendas-***: o **fechamento comercial 1:1 é sempre aqui**: prospecção (abre), script (conduz), objeção (isola), copiloto (tempo real), pós-venda (indicação/onboarding). Cada um com gate embutido. **Canal padrão do 1:1 = DM/WhatsApp** (fecha no chat com áudio/doc/vídeo); call é exceção de contexto, SDR+Closer só com equipe e volume.
+- **soft-vendas-sdr / soft-vendas-closer**: o **Comercial 1:1 é sempre aqui**, em duas frentes. `soft-vendas-sdr` = a metade de cima: prospecção (abre), qualificação (BANT), agenda a sessão como vaga escassa, follow-up, autônomo no CRM/GHL; só entra com equipe e volume. `soft-vendas-closer` = a metade de baixo: script (conduz as 7 fases), objeção (isola), copiloto (tempo real), fechamento, coleta de sinal/Pix, pós-venda (indicação/onboarding). Cada um com gate embutido. **Canal padrão do 1:1 = DM/WhatsApp** (fecha no chat com áudio/doc/vídeo); call é exceção de contexto, o SDR+Closer separado só com equipe e volume.
 
 ---
 

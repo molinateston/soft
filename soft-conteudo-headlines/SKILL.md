@@ -90,6 +90,24 @@ Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates
 
 > **Regra dura:** as fórmulas são ESTAS 30. Se você escreveu um "template" que não é um destes, você INVENTOU (é o erro a não cometer). No máximo você adapta/combina um destes ao nicho do cliente. `references/templates.md` traz os mesmos 30 com mais contexto de uso.
 
+### Régua de cobertura de ângulo (camada de VARIAÇÃO, roda POR CIMA dos 30 templates)
+Template diz a FÓRMULA da frase. Ângulo diz de que LADO psicológico você ataca o mesmo tema. Dois templates diferentes podem cair no mesmo ângulo (dois jeitos de "confessar") e aí o cliente recebe 6 headlines que soam iguais por dentro. Esta régua garante DIVERSIDADE de ataque: quando o pedido é solto ("me dá 6 aberturas", "gera uns ganchos rápido", "headlines sobre X" sem número), o conjunto entregue cobre **pelo menos 4 dos 6 ângulos abaixo**, cada um mapeado a um template dos 30. Ela NÃO substitui os 7 gatilhos nem os 30 templates: é um checklist de cobertura por cima deles.
+
+| Ângulo | O lado que ataca | Templates que costumam servir |
+|---|---|---|
+| **Número** | abre com um número/métrica que o leitor calcula (algarismo, não extenso) | T8, T10, T16, T17, T25, T30 |
+| **Contrária** | declara uma crença aceita e vira ela do avesso | T5, T6, T13, T26, T27, T29 |
+| **Transformação** | antes vs depois, com o número que prova a virada | T12, T13, T19 |
+| **Autoridade** | ancora em quem fala (profissão, resultado real, nome citado) | T1, T2, T8, T18 |
+| **Confissão** | assume um erro, uma perda, um "eu deixei de" | T2, T22, T30 |
+| **Futuro** | previsão ou alerta do que está prestes a mudar | T15, T23, T24, T26 |
+
+**Como usar (não é passo novo, é lente do Passo 2-3):**
+- Pedido de VOLUME solto (6 aberturas, "uns ganchos", banco): antes de fechar, confere quantos ângulos distintos o conjunto cobre. **Menos de 4 ângulos = repetitivo, troca 1-2 templates por outros de ângulo faltante** e regenera essas headlines.
+- Pedido de CENA única (Comando 3, "headline pra esse reel"): cobertura não obrigatória, mas as 3-5 opções devem variar o ângulo pra dar escolha real ao cliente.
+- **A ancoragem manda sobre a cobertura.** Se a fala real do cliente só dá base honesta pra 3 ângulos, entrega 3 bem ancorados e diz que faltam falas pra cobrir os outros. NUNCA inventa número/fala só pra fechar um ângulo (fere a Lei 5 e o gate).
+- Todo template escolhido continua passando pelo gate normal do Passo 4; a régua só decide QUAIS templates entram no conjunto, não afrouxa nenhum critério.
+
 ## Passo 3, escreve 2-3 headlines DENTRO de cada template
 Pra cada template escolhido, escreve **2-3 headlines**, todas ancoradas na fala real (Passo 0). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), tom de comando, nunca morno. **Clareza acima de tudo (Lei 1): nada de palavra difícil, nada de figura de linguagem vazia ("mensagem cheia"), só o que uma pessoa real diria.** Toda headline nasce **curta e densa, reaproveitável em qualquer formato** (capa, reel, post, story). **Quando o formato-destino já é conhecido, comprime pra ele:** reel ≤7 palavras nos 3s · texto na tela ≤5 · capa de carrossel 8-15 · story 5-10 · anúncio ≤5 (tabela dos 8 formatos + protocolo de redução em `references/criterios-v2.md`). **Tempero, só se a headline estiver chapada:** injeta 1 dispositivo de `references/dispositivos-de-frase.md` (preparação+virada, antítese, dizer o não-dito, evocação sensorial), nunca no lugar da ideia. No topo de cada grupo, declara o **template (nome/fórmula) + os gatilhos** que ele aciona. **Não narra o fluxo**, só entrega limpo, organizado por template.
 
@@ -105,6 +123,7 @@ Roda o gate em CADA headline **internamente** (auditoria silenciosa). Só headli
 | **Stranger às 22h** | benefício concreto OU curiosidade real OU dor específica. ✗ "o futuro da nutrição é a personalização" · ✓ "treina 2 anos e a bioimpedância não mexe" | |
 | **Mesa-sentado** | eu falaria pro cliente na cara dele. ✗ "descubra o segredo que mudou tudo" · ✓ "cobrei 3x mais e o cliente agradeceu" | |
 | **Curta e densa (serve pra tudo)** | diz mais com menos; corta toda palavra que não muda o sentido; curta mas NÃO rasa; nunca encurta até virar figura vazia (Lei 1). A mesma headline serve de capa, reel, post ou story | |
+| **Teto físico do formato (CONTA, não estima)** | quando o formato-destino é conhecido, a headline respeita o teto de `references/criterios-v2.md` e você **CONTA de fato**, não chuta no olho: palavras pro corpo da frase, caracteres (com espaço) pro texto na tela / capa / título. Estourou 1 unidade = ✗ e comprime (não corta o gatilho). Número em algarismo, nunca por extenso ("3", não "três"), porque ocupa menos e lê mais rápido | |
 | **Não-defendo** | não ensina a fazer melhor uma prática da lista do "não defendo" | |
 | **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **Dá pra falsificar?** | é um fato falsificável, não um adjetivo | |

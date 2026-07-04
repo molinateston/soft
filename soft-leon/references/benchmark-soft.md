@@ -62,7 +62,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | Taxa resposta no DM em até 1h | 70% | 95% | 50% | WhatsApp Business |
 | Taxa conversa qualificada (nicho certo) | 60% | 85% | 40% | Análise manual ou CRM |
 
-**Sinal de vazamento aqui = primeira mensagem mal calibrada ou demora de resposta.** Lead chega quente, esfria em 24h. Conserta script de primeira mensagem (skill `soft-vendas`).
+**Sinal de vazamento aqui = primeira mensagem mal calibrada ou demora de resposta.** Lead chega quente, esfria em 24h. Conserta script de primeira mensagem (skill `soft-vendas-sdr`).
 
 ### Etapa 6, Conversa WhatsApp → Reunião/Conversa qualificada realizada
 
@@ -87,7 +87,7 @@ Pra ticket alto (R$5.000+), inclui reunião agendada.
 | Taxa fechamento Lead morno → Downsell passivo | 5% | 15% | 3% | Vendas / cliques na Carta Downsell |
 | Taxa upsell Downsell → Principal (em 60d) | 10% | 25% | 5% | CRM histórico |
 
-**Sinal de vazamento aqui = uma das 7 fases conversão falhou.** Recuo Estratégico fraco (lead se sente vendido), Descoberta rasa (não achou 3ª camada), Implicação fraca (não amplificou dor), Conexão genérica (não reformulou na voz do lead), Apresentação confusa (cliente não entendeu o método), Isolamento pulado (objeção real ficou escondida), Fechamento pressionado. Volta pra reference de scripts (skill `soft-vendas`).
+**Sinal de vazamento aqui = uma das 7 fases conversão falhou.** Recuo Estratégico fraco (lead se sente vendido), Descoberta rasa (não achou 3ª camada), Implicação fraca (não amplificou dor), Conexão genérica (não reformulou na voz do lead), Apresentação confusa (cliente não entendeu o método), Isolamento pulado (objeção real ficou escondida), Fechamento pressionado. Volta pra reference de scripts (skill `soft-vendas-closer`).
 
 ---
 

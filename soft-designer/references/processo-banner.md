@@ -56,11 +56,19 @@ Banner não é UM layout, é uma **biblioteca de modelos**. A anatomia (hook + a
 
 **Como escolher:** pela consciência e ângulo. Dor/problema → nota, checklist, "você nunca vai", caixinha. Solução/mecanismo → diagrama, comparação, equação, isca. Prova → número gigante, meme. Teste vários modelos pra a mesma tese; o tráfego diz qual vence.
 
+## Guardrail do card de citação (peça de frase): checa o descompasso de voz ANTES de desenhar
+
+O card de frase (uma frase forte sozinha, fundo chapado, cara de pôster) tem engajamento fácil e esforço baixo, e por isso é tentador. Mas ele carrega uma armadilha: **frase motivacional genérica descasa da voz do cliente e queima o posicionamento.** Antes de produzir qualquer card de citação, passe por 3 verificações:
+
+1. **Descompasso de voz (a verificação-mãe).** Se a voz do cliente é analítica, contrária ou seca (não motivacional), um card de frase inspiracional soa como outra pessoa. **Aponte o descompasso e pergunte se card de frase combina com o posicionamento dele** antes de desenhar. Card de frase só passa quando a voz do cliente já é de frase-tese/afirmação, não colada por cima.
+2. **A frase é do cliente, ancorada, não inventada.** A frase sai do verbatim e da tese do perfil (Passo 0), passa as 3 perguntas do gate (dá pra ver a cena? é falsificável? só este cliente diria?) e o anti-IA. Frase motivacional de banco ("você não acha tempo, você faz tempo") é reprovada: é a voz de ninguém. Sem atribuição inventada a terceiro.
+3. **Expectativa honesta de alcance.** Card de frase engaja, mas alcança menos que carrossel ou reel; não é o formato mais potente. Se o cliente vier só de card de frase, sinalize e recomende o formato que carrega a tese com corpo (carrossel, reel), sem recusar o card quando ele encaixa na voz.
+
 ## Contexto é rei (autossuficiência)
 
 Tampe a legenda mentalmente. Se a arte sozinha não diz **o que é, por que importa e o que fazer**, o banner falhou. Todo modelo (principalmente os visuais: diagrama, meme, mockup) carrega uma linha que orienta o estranho que nunca te viu, senão ele vê o desenho bonito e não entende a oferta. Sem contexto, não sobe.
 
-## Anti-órfã (trava dura)
+## Anti-órfã (filtro duro)
 
 Headline e copy do banner seguem o widow control de `tipografia-quebra-linhas.md`: NENHUMA palavra sozinha numa linha. `text-wrap` do CSS não basta em render headless; junte as 2 últimas palavras com espaço inquebrável ou quebre manual, e confira no render antes de subir.
 

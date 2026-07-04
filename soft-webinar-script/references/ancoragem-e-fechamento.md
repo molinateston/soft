@@ -26,7 +26,7 @@ Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o 
 - A **âncora por custo invisível** está inteira em `frameworks-proprietarios-leo.md` §5. Aqui só a **regra de discernimento** de quando usá-la vs a soma do stack.
 - A **objeção-mãe** ("você consegue, a pergunta é se você quer") está em `motor-3-viradas.md`. Aqui só como dobradiça que abre o fechamento.
 - O **stack como bloco da oferta** e a sequência da fase Ação estão em `estrutura-webinario-aida.md` Bloco 4. Aqui só a engenharia de empilhamento (bônus sem preço, acesso como perda).
-- A **régua operacional de canal por ticket** (WhatsApp/ligação/SDR+closer, tags, filas, CRM) está na skill `soft-webinar-mensagens` e o 1:1 humano na skill `soft-vendas`. Aqui (§11) só o que muda **dentro do webinar** pela faixa de preço: âncora, destino do CTA, escassez, garantia.
+- A **régua operacional de canal por ticket** (WhatsApp/ligação/SDR+closer, tags, filas, CRM) está na skill `soft-webinar-mensagens` e o 1:1 humano na skill `soft-vendas-closer`. Aqui (§11) só o que muda **dentro do webinar** pela faixa de preço: âncora, destino do CTA, escassez, garantia.
 
 ---
 
@@ -302,7 +302,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 
 **Até ~R$2.000 → CHECKOUT direto.** A aula termina, a oferta sobe, a pessoa passa o cartão sozinha - sem comercial, sem ligação. E o teto do checkout é mais alto do que o mercado acredita: o ticket do webinar de gestão (MindMaster, exemplo real do Léo) é **R$1.697, vendido pra lead frio, numa aula só, no automático** - "os caras do mercado acham que sou maluco; é porque a gente é bom de copy". Duas horas de copy bem feita empilhando valor fazem o lead frio pagar quase R$1.700 sem falar com ninguém. A capacidade de vender ticket alto no checkout mora no roteiro e na oferta, não em truque de canal.
 
-**Acima de ~R$2.000 → COMERCIAL.** Mentoria, consultoria, serviço de 5–6 mil, evento, high-ticket: o checkout self-service não dá conta, porque ticket alto exige uma confiança que só se constrói com gente. O webinar continua fazendo TODO o trabalho de consciência e desejo - só muda o destino do botão. (A mecânica do canal - WhatsApp/ligação/SDR+closer, filas, tags - mora na skill `soft-webinar-mensagens` e na skill `soft-vendas`; aqui, só o que muda dentro do webinar.)
+**Acima de ~R$2.000 → COMERCIAL.** Mentoria, consultoria, serviço de 5–6 mil, evento, high-ticket: o checkout self-service não dá conta, porque ticket alto exige uma confiança que só se constrói com gente. O webinar continua fazendo TODO o trabalho de consciência e desejo - só muda o destino do botão. (A mecânica do canal - WhatsApp/ligação/SDR+closer, filas, tags - mora na skill `soft-webinar-mensagens` e na skill `soft-vendas-closer`; aqui, só o que muda dentro do webinar.)
 
 ### O que muda dentro do webinar, faixa a faixa
 

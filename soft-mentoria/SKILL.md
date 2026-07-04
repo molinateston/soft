@@ -1,6 +1,6 @@
 ---
 name: soft-mentoria
-description: "PLANEJA, DESENHA, PRECIFICA, VALIDA e ENTREGA uma mentoria high-ticket do especialista/mentor/consultor. Conduz o método: Extração de Conhecimento (escolhe O QUE vender), Mapa da Transformação (4 etapas = os 4 encontros), desenho do programa + 4 ferramentas de acompanhamento, Ficha Técnica de 11 itens + a OFERTA (doc de 2 páginas, regra 10x, preço só se validado), validação e escala (1:1 pra grupo, micro-oferta, esteira de 3 públicos). Marca-neutra: avatar/números são slots do dono. Use quando o pedido for desenhar, estruturar, precificar, validar ou entregar uma mentoria, consultoria com acesso, programa em grupo ou mastermind; quanto cobrar; como estruturar os encontros; como sair do 1:1 pro grupo; a oferta da mentoria. NÃO use pra posicionamento/nomear método (soft-posicionamento); webinar/oferta de palco (soft-webinar-plano); script de venda 1:1 ou objeção na DM (soft-vendas); proposta pós-call (soft-proposta-comercial); contrato (soft-contratos-consultoria); apostila/material (soft-apostila)."
+description: "PLANEJA, DESENHA, PRECIFICA, VALIDA e ENTREGA uma mentoria high-ticket do especialista/mentor/consultor. Conduz o método: Extração de Conhecimento (escolhe O QUE vender), Mapa da Transformação (4 etapas = os 4 encontros), desenho do programa + 4 ferramentas de acompanhamento, Ficha Técnica de 11 itens + a OFERTA (doc de 2 páginas, regra 10x, preço só se validado), validação e escala (1:1 pra grupo, micro-oferta, esteira de 3 públicos). Marca-neutra: avatar/números são slots do dono. Use quando o pedido for desenhar, estruturar, precificar, validar ou entregar uma mentoria, consultoria com acesso, programa em grupo ou mastermind; quanto cobrar; como estruturar os encontros; como sair do 1:1 pro grupo; a oferta da mentoria. NÃO use pra posicionamento/nomear método (soft-posicionamento); webinar/oferta de palco (soft-webinar-plano); script de venda 1:1 ou objeção na DM (soft-vendas-closer); proposta pós-call (soft-proposta-comercial); contrato (soft-contratos-consultoria); apostila/material (soft-apostila)."
 ---
 
 # Mentoria high-ticket, do desenho à entrega
@@ -154,7 +154,7 @@ Piso do método: **não cobre menos que o piso do dono.** O piso é um SLOT, def
 
 **Preço só entra depois de validado.** Se é a primeira oferta, o doc TERMINA sem preço e chama pro WhatsApp: "me fala se é isso que você procura, se fez sentido." Só coloca preço + condições depois de ter vendido ao menos uma.
 
-**Canal de fechamento (D1):** a mentoria é funil comercial, então **fecha via de regra na DM/WhatsApp** (o doc de oferta + áudio/vídeo curto fecham ali mesmo, sem marcar call). A **call é exceção de contexto** (ticket muito alto, o lead pede, decisão a vários); o SDR+Closer só entra com equipe e volume. A condução do 1:1 é da `soft-vendas` (modo `dm-sem-call`).
+**Canal de fechamento (D1):** a mentoria é funil comercial, então **fecha via de regra na DM/WhatsApp** (o doc de oferta + áudio/vídeo curto fecham ali mesmo, sem marcar call). A **call é exceção de contexto** (ticket muito alto, o lead pede, decisão a vários); o SDR+Closer (`soft-vendas-sdr` abre/agenda · `soft-vendas-closer` conduz/fecha) só entra com equipe e volume. A condução do 1:1 é da `soft-vendas-closer` (modo `dm-sem-call`).
 
 **Condições de pagamento (modelo, adaptar ao ticket do dono):**
 - Cartão parcelado (ex.: 12x)
@@ -249,7 +249,7 @@ Repare: 4 etapas, cada uma com meta mensurável e atividade prática; o número 
 ## When NOT to use
 - **Posicionamento / nomear o método / PUV de marca / cliente ideal do zero** → **soft-posicionamento**.
 - **Webinar / oferta de palco / stack de webinar / gravar o perpétuo** → **soft-webinar-plano**.
-- **Script de venda 1:1 / objeção / fechamento na DM / follow-up / prospecção** → **soft-vendas**.
+- **Script de venda 1:1 / objeção / fechamento na DM / follow-up** → **soft-vendas-closer**; **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 - **Proposta comercial pós-call pra um cliente específico** → **soft-proposta-comercial**.
 - **Contrato de mentoria / termo de adesão / cláusulas** → **soft-contratos-consultoria**.
 - **Material / apostila / aula gravada / handout da mentoria** → **soft-apostila**.
@@ -278,7 +278,7 @@ Repare: 4 etapas, cada uma com meta mensurável e atividade prática; o número 
 | Doc com prosa/meta-narração | Tabelas e listas; corta bastidor e "isto serve para" |
 
 ## Handoff
-Plano de Mentoria aprovado alimenta: **soft-proposta-comercial** (proposta pra um cliente específico), **soft-contratos-consultoria** (o contrato do ciclo), **soft-apostila** (materializa cada call/aula em handout), **soft-vendas** (o script de venda da mentoria na DM/WhatsApp). Nomes/posicionamento pendentes = **soft-posicionamento**. Marca da oferta e da micro-oferta no feed = **soft-conteudo-***.
+Plano de Mentoria aprovado alimenta: **soft-proposta-comercial** (proposta pra um cliente específico), **soft-contratos-consultoria** (o contrato do ciclo), **soft-apostila** (materializa cada call/aula em handout), **soft-vendas-closer** (o script de venda da mentoria na DM/WhatsApp). Nomes/posicionamento pendentes = **soft-posicionamento**. Marca da oferta e da micro-oferta no feed = **soft-conteudo-***.
 
 ## References (o corpo carrega o método; estas guardam a profundidade dirigida)
 - `references/metodo-desenho-completo.md`: aprofunda P1-P4 (Extração com as 3 fontes de conhecimento e o filtro; Mapa com exemplos; Ficha Técnica item a item com 2 fichas preenchidas; Oferta visível campo a campo, regra 10x, condições) com exemplos ilustrativos em nicho fictício. Lida nos P1 a P4.

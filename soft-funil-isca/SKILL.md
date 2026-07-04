@@ -1,6 +1,6 @@
 ---
 name: soft-funil-isca
-description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo-carrossel/-reels/-stories/-multiplataforma). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar). NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
+description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo-carrossel/-reels/-stories/-multiplataforma). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar). NÃO use pra venda/script/objeção (→ soft-vendas-closer), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
 ---
 
 # Isca, a amostra que prova a tese e captura o lead certo
@@ -91,7 +91,7 @@ A isca FILTRA: quem não é o avatar certo larga no meio, e tudo bem. Atrai todo
 
 ## Passo 4, desenha a captura (fricção mínima) e o destino
 - **Captura.** Troca a isca por e-mail ou WhatsApp. Promessa específica, uma só. Sem formulário longo, sem campo que não serve a nada. Cada campo a mais derruba conversão sem pagar por si. Formato interativo (quiz/calculadora) captura o contato no resultado (gate de e-mail antes de revelar o resultado personalizado): fricção baixa porque a pessoa JÁ quer o resultado. Se a isca tem página própria (ex.: Artigo-Isca ou um vídeo-isca), os 6 elementos da página de hospedagem estão em `references/pagina-hospedagem.md`.
-- **Destino.** Pegou o contato, tem pra onde levar: a Carta (`soft-funil-carta`), o mini webinar (`soft-funil-miniwebinar`) ou a conversa (`soft-vendas`). Captura sem destino é lead morto. Next-dollar manda: o destino é o problema que a isca ABRE, não o que ela fecha; quem amou a isca quer naturalmente o próximo degrau (a Carta/conversa).
+- **Destino.** Pegou o contato, tem pra onde levar: a Carta (`soft-funil-carta`), o mini webinar (`soft-funil-miniwebinar`) ou a conversa (`soft-vendas-closer`). Captura sem destino é lead morto. Next-dollar manda: o destino é o problema que a isca ABRE, não o que ela fecha; quem amou a isca quer naturalmente o próximo degrau (a Carta/conversa).
 - **Nutrição.** Ponte curta (não newsletter eterna) da isca pro destino. **Mostra a estrutura de captura + destino e PARA pro OK.**
 
 ## Passo 4b, a ponte do feed pra isca (Filtro Soft)
@@ -131,7 +131,7 @@ Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): a peça e a fo
 - Pediu **carta de vendas / VSL / página de vendas** → **soft-funil-carta**.
 - Pediu **mini-webinar como ISCA de topo** → **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a ele, não o evento em si.
 - Pediu **mini webinar** → **soft-funil-miniwebinar**.
-- Pediu **a venda em si** (script, objeção, fechamento, prospecção) → **soft-vendas**.
+- Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 - Pediu **Plano / posicionamento / nomear mecanismo** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
 

@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-multiplataforma
-description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion) sem diluir a tese. Não traduz tom, faz engenharia reversa, extrai os 5 papéis e o núcleo da peça-âncora e re-renderiza no idioma nativo do destino, mantendo o gate da peça original. Use quando o pedido for "repurpose", "adaptar pra LinkedIn", "pra X", "pra Threads", "pra YouTube", "pra newsletter", "pra email", "multiplataforma", "republicar a peça", "transformar esse carrossel em [outro formato]". NÃO use pra escrever a HEADLINE/gancho/capa/abertura do zero (soft-conteudo-headlines), nem pra arte/PNG/visual (soft-designer), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/página/venda (soft-funil-carta / soft-funil-landing). Pra criar o CORPO original de carrossel/reel/stories no Instagram, são as skills irmãs soft-conteudo-carrossel/-reels/-stories.
+description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion) sem diluir a tese. Não traduz tom, faz engenharia reversa, extrai os 5 papéis e o núcleo da peça-âncora e re-renderiza no idioma nativo do destino, mantendo o gate da peça original. Newsletter/email sem âncora nem histórico tem modo arquétipo (7 moldes na voz do Plano). Use quando o pedido for "repurpose", "adaptar pra LinkedIn", "pra X", "pra Threads", "pra YouTube", "pra newsletter", "pra email", "multiplataforma", "republicar a peça", "transformar esse carrossel em [outro formato]". NÃO use pra escrever a HEADLINE/gancho/capa/abertura do zero (soft-conteudo-headlines), nem pra arte/PNG/visual (soft-designer), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/página/venda (soft-funil-carta / soft-funil-landing). Pra criar o CORPO original de carrossel/reel/stories no Instagram, são as skills irmãs soft-conteudo-carrossel/-reels/-stories.
 ---
 
 # Multiplataforma, a mesma peça em idioma nativo
@@ -33,6 +33,8 @@ Três estados de entrada (declara qual é o seu antes de adaptar):
 - **Peça-âncora colada + verbatim com N:** caminho ideal. Adapta preservando a fala literal e o N real.
 - **Peça-âncora colada, mas sem a fala literal por trás:** mantém o que a âncora já tinha; qualquer número que você não confirmou entra como `[DADO: confirmar]` e **NÃO conta como Ancorada=✓**.
 - **Nada colado:** pergunta numa única mensagem ("qual peça você quer adaptar, e pra qual plataforma?") e para. Sem peça-âncora não há o que adaptar.
+
+**Exceção só pra newsletter/email (modo arquétipo):** se o destino é newsletter/email e o especialista NÃO tem peça-âncora pra adaptar NEM edições passadas pra destilar a voz dele, você não fica parado: entra no **modo arquétipo** (Passo 4a). A regra-mãe continua valendo: **com exemplos, você destila a voz do dono; sem exemplos, arquétipo + coleta**. Arquétipo é molde emprestado pra sair do cold-start, marcado como provisório, nunca a voz definitiva. Fora de newsletter/email, sem âncora não há adaptação: para e pergunta.
 
 ## Passo 1, identifica a peça-âncora e o destino
 - **Âncora:** o que foi colado? Carrossel, reel, story, carta, post pronto. Anota o tipo.
@@ -88,7 +90,7 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 | **TikTok / Shorts** | 15-35s ideal; 9:16 vertical; legenda 1 linha | retention 70%+ no 1º 3s (gancho visual+texto+verbal) senão o algoritmo suprime; loop natural | "comenta [PALAVRA] que eu respondo" ou "link na bio" |
 
 **Abre a reference da plataforma e segue as regras nativas dela** (formato, limites, exemplos, SEO/UTM). Não adapta de cabeça: a reference tem as regras que mudam a peça:
-- LinkedIn → `references/plataforma-linkedin.md` · X/Threads → `references/plataforma-x-threads.md` · Substack/Email → `references/plataforma-substack-email.md`
+- LinkedIn → `references/plataforma-linkedin.md` · X/Threads → `references/plataforma-x-threads.md` · Substack/Email → `references/plataforma-substack-email.md` (**sem âncora nem histórico? vai pro Passo 4a + `references/newsletter-arquetipos.md`**)
 - TikTok/Shorts → `references/plataforma-tiktok-shorts.md` · YouTube longo → `references/plataforma-youtube-longo.md` (traz o **pacote completo de publicação**: título, descrição, tags, capítulos, thumbnail, SEO, UTM)
 - PDF/Notion → `references/plataforma-pdf-notion.md` · Mini Webinar → `references/plataforma-mini-webinar.md` (distribuição/hospedagem; a construção do roteiro é da `soft-funil-miniwebinar`)
 
@@ -102,6 +104,30 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 A tese ("cliente errado, não falta de cliente") viaja inteira; muda só o tempo de exposição e a unidade.
 
 **Se o destino for YouTube longo**, entrega também o pacote de publicação: título, descrição, capítulos, tags, sugestão de thumbnail.
+
+## Passo 4a, modo arquétipo (SÓ newsletter/email sem âncora nem histórico)
+Só cai aqui se o Passo 0 marcou o estado de exceção: destino newsletter/email e o dono não tem peça-âncora pra adaptar nem edições passadas pra destilar a voz. Não inventa a voz dele; empresta uma estrutura e ancora na voz que o Plano já tem.
+
+1. **Confirma que é cold-start real.** Se ele tem 2+ edições passadas, NÃO é modo arquétipo: pede pra colar, você destila a voz real (padrão de abertura, fluxo de seção, formatação, fechamento, sinais de ausência que se repetem) e adapta a partir dela. Modo arquétipo é só quando não há nada.
+2. **Escolhe o molde COM ele, numa mensagem só** e para: *"Você não tem edição pronta pra eu adaptar. Vou montar a partir de um molde ajustado à sua voz, marcado como provisório. Qual encaixa: (0) conversão direta que vende no fim · (1) aula com método · (2) ensaio que crava posição · (3) dissecação de um caso · (4) digest com curadoria · (5) ensaio pessoal · (6) entrevista/perfil?"* O **(0) conversão Soft é o default**: se ele não escolhe, é esse (é o que vende).
+3. **Puxa a voz que já existe** antes de escrever: mecanismo com nome próprio, Problema Sofisticado, campo semântico do cliente final e os "sem", do Plano/perfil. Se não há nem Plano, coleta o mínimo (nicho, mecanismo, uma prova real) e só então monta. Sem mecanismo nomeado, manda pra **soft-posicionamento** primeiro.
+4. **Monta pelo molde escolhido** (menu abaixo), ajustando cada campo à voz dele. As 3 trocas Soft valem em TODOS: (a) ancoragem = verbatim/prova real, nunca "todo dado com número"; número plausível de enfeite = `[DADO: confirmar]`; (b) CTA filtrante no fechamento (link pra Carta / responder com uma palavra / Direct), nunca "curte, assina e compartilha"; (c) mecanismo nomeado onde o molde diz "método".
+5. **Marca como provisório** no topo do doc: *"Base: arquétipo [nome] ajustado à voz do Plano. Molde emprestado, não a voz definitiva. Revisitar depois de ~5 edições reais publicadas."*
+6. **Roda o gate normal** (Passo 5) na versão montada. Molde não isenta do gate.
+
+**Menu dos 7 moldes (faixas de palavra por seção = ritmo, não trilho; o assunto decide onde pesar):**
+
+| Molde | Abertura | Espinha de seções | Ancoragem | Tamanho |
+|---|---|---|---|---|
+| **0. Conversão Soft (DEFAULT)** | subject <50 + 2º gancho na 1ª linha | Gancho → Problema (3-4 blocos) → Diagnóstico (nomeia o Problema Sofisticado) → Método (mecanismo + etapas) → Fechamento → CTA → **PS obrigatório** | verbatim na abertura/diagnóstico, prova no método | 400-700 |
+| **1. Aula com método** | resultado real + autoridade 1 linha + promessa | Gancho → Problema (inimigo-categoria) → Mecanismo (nome próprio) → Passo a passo (exemplo por passo) → Exemplos reais → bônus opcional → Fecho+CTA | verbatim/cena/prova por afirmação; casos nomeados | 800-1.500 (até 2.500 guia) |
+| **2. Ensaio que crava posição** | consenso → contraposição → o que está em jogo | Consenso → por que ele prende o leitor → contraposição (mecanismo) → prova → objeção+resposta → o que fazer → fecho sem meio-termo+CTA | prova pro seu lado com honestidade do contra; vilão = categoria, nunca pessoa | 700-1.200 |
+| **3. Dissecação de um caso** | caso + resultado + a lição que vem | Gancho → Contexto → Dissecação → o que funcionou (numerado) → o que falhou (numerado) → 3-5 lições → fecho+CTA | métrica/linha-do-tempo real; especulação sinalizada; furo = `[DADO: confirmar]` | 800-1.500 |
+| **4. Digest com curadoria** | tema do período + item mais forte | Tema → 5-7 itens (link+comentário PRÓPRIO, não resumo) → notas rápidas → fecho+CTA | atribuição real por link; comentário pela lente do mecanismo; zero link inventado | 600-1.200 |
+| **5. Ensaio pessoal** | cai na cena, sem preâmbulo | Cena → tensão → exploração → virada (percepção) → fecho + CTA LEVE | detalhe específico (dá pra ver); zero número/personagem inventado | 600-1.500 |
+| **6. Entrevista / perfil** | fala direta + por que importa | Quem é → origem → trabalho → visões → 3-5 lições → o que vem + CTA | fala direta, não paráfrase; marco/projeto/data reais | 800-1.500 |
+
+**Detalhe de cada molde (o que ele nunca faz, o modelo de abertura preenchível, a nota de CTA) está em `references/newsletter-arquetipos.md`.** Abre a reference quando montar; o menu acima é o mapa, a reference é o passo a passo.
 
 ## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate na versão adaptada **internamente** (auditoria silenciosa). Só versão com VEREDITO=PASSA vai pro cliente. Um ✗ refaz. A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só a versão limpa (Passo 6), jamais a tabela. A âncora já passou no gate dela; a adaptação passa de novo no idioma novo.
@@ -146,10 +172,15 @@ Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peç
 | Narrou o fluxo ("agora vou extrair o núcleo") | Não narra: executa em silêncio e entrega só o mapa + a versão limpa, sem a tabela do gate |
 | Gerou a adaptação sem perguntar a preferência do especialista | Consultiva (Lei 3): extrai duração, formato e tom desejado antes de re-renderizar |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
+| Newsletter sem âncora: parou e mandou o dono voltar depois | É a exceção do Passo 4a: entra no modo arquétipo (molde + voz do Plano + marca de provisório), não deixa o dono na mão |
+| Modo arquétipo: inventou a voz do dono do zero | Molde dá só a estrutura; a voz vem do Plano/perfil já destilado. Sem Plano, coleta o mínimo antes; sem mecanismo nomeado, manda pra soft-posicionamento |
+| Entregou peça em modo arquétipo sem marcar como provisória | Toda saída de arquétipo carrega a linha "Base: arquétipo X, molde emprestado, revisitar após ~5 edições reais" |
+| Tinha 2+ edições passadas e mesmo assim usou arquétipo | Com exemplos, DESTILA a voz real (não usa molde); arquétipo é só cold-start sem nada |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/processo-multiplataforma.md`: a engenharia reversa completa, a tabela de mapeamento com TikTok/Shorts e Mini Webinar, e os colapsos conscientes detalhados. É o mesmo processo, com mais formato e exemplo.
 - `references/nucleo-soft-extracao.md`: o protocolo de extração do núcleo do Passo 2, com os 6 componentes e o checklist pós-extração.
+- `references/newsletter-arquetipos.md`: os 7 moldes de newsletter/email do Passo 4a (modo arquétipo, só quando o dono não tem âncora nem histórico), cada um com abertura preenchível, espinha de seções, ancoragem Soft, tamanho e o "nunca faz". Com exemplos, destila a voz; sem, arquétipo + coleta + marca de provisório.
 - `references/conducao-na-pratica.md`: o porquê por trás (conteúdo reorganiza percepção, não dá passo a passo; estoura a bolha; polariza; aponta sempre pro método). Lê quando a adaptação está tecnicamente certa mas sem alma.
 - `references/estrutura-peca.md`: a Estrutura-Mãe dos 5 papéis (Capa · Capa Reserva · Contexto · Conteúdo · CTA) com as formas de cada um. É a base da engenharia reversa do Passo 3.
 - **Uma reference por plataforma (dirigidas no Passo 4):** `references/plataforma-linkedin.md` · `plataforma-x-threads.md` · `plataforma-substack-email.md` · `plataforma-tiktok-shorts.md` · `plataforma-youtube-longo.md` (com o pacote de publicação) · `plataforma-pdf-notion.md` · `plataforma-mini-webinar.md`. Cada uma traz regras de formato, exemplos e checklist nativos do destino.

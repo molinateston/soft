@@ -87,7 +87,7 @@ O erro clássico: empilhar um "bloco de depoimentos" perto do fim. **Quando voc�
 
 > **Régua de liderança (inegociável):** ao justificar o webinar OU construir o mecanismo, **LIDERE pelas 4 Condições da Venda** (tempo de tela · atenção presa · oferta vista · crença em sequência) - **NUNCA por "ambiente".** Ambiente = sub-item de atenção, não a tese. Liderar com "recria o ambiente presencial" é o atalho errado que a IA pega - bloqueado aqui.
 
-O Webinar Soft é o **degrau 2 da escada** (Funil Soft → **Webinar Soft** → Soft Launch) e, como todo funil Soft, é **+ Comercial**: o webinar QUALIFICA (gera o "sim do produto"), o fechamento high-ticket é no 1:1 (`soft-vendas`), nunca no checkout do webinar.
+O Webinar Soft é o **degrau 2 da escada** (Funil Soft → **Webinar Soft** → Soft Launch) e, como todo funil Soft, é **+ Comercial**: o webinar QUALIFICA (gera o "sim do produto"), o fechamento high-ticket é no 1:1 (`soft-vendas-closer`), nunca no checkout do webinar.
 
 > **Onde o webinar fica na hierarquia da venda:** nada supera o 1:1. No 1:muitos, o EVENTO presencial é o formato mais poderoso. O webinar supera os outros formatos 1:muitos (carrossel, VSL, e-mail, ao vivo aberto) PELAS PREMISSAS que ele serve melhor: tempo de tela longo, a oferta vista, a crença instalada degrau a degrau, a atenção controlada. O webinar ganha pelas premissas, não por "ambiente". A IA nunca enquadra o webinar como o canal supremo: ele é o 1:muitos que melhor serve as premissas e roda no automático, abaixo do 1:1 e do evento presencial.
 

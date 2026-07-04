@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-paginas
-description: "Escreve as 3 páginas que orbitam o webinar do método Soft: Cadastro (captura/qualifica), Obrigado/Lembrete (sobe comparecimento) e Checkout (abre a venda de quem já decidiu). Cada página tem UMA função, é mobile-first, passa pelo gate. Carrega: bio detalhada na última dobra (cadastro/obrigado), obrigado modelo web-v1 (nome dinâmico, badges anti-fuga, card da aula com timer, ficha wizard que fecha no WhatsApp, variante ao vivo), checkout ENXUTO (cronômetro 5min, 15 primeiros, garantia, provas, bônus), variante wa.me sem form, formatos AO VIVO x PERPÉTUO, ticket até ~3k no botão x acima vai pro 1:1. Use quando o pedido for páginas do webinar, página de cadastro/inscrição/captura, obrigado/lembrete ou checkout do webinar. NÃO use pro roteiro/oferta/deck/gravação/e-mails/anúncios/pós-webinar (soft-webinar irmãs); vendas/VSL/landing fora de webinar (soft-funil-carta/soft-funil-landing); headline isolada (soft-conteudo-headlines); posicionamento (soft-posicionamento); arte (soft-designer); script 1:1 (soft-vendas)."
+description: "Escreve as 3 páginas que orbitam o webinar do método Soft: Cadastro (captura/qualifica), Obrigado/Lembrete (sobe comparecimento) e Checkout (abre a venda de quem já decidiu). Cada página tem UMA função, é mobile-first, passa pelo gate. Carrega: bio detalhada na última dobra (cadastro/obrigado), obrigado modelo web-v1 (nome dinâmico, badges anti-fuga, card da aula com timer, ficha wizard que fecha no WhatsApp, variante ao vivo), checkout ENXUTO (cronômetro 5min, 15 primeiros, garantia, provas, bônus), variante wa.me sem form, formatos AO VIVO x PERPÉTUO, ticket até ~3k no botão x acima vai pro 1:1. Use quando o pedido for páginas do webinar, página de cadastro/inscrição/captura, obrigado/lembrete ou checkout do webinar. NÃO use pro roteiro/oferta/deck/gravação/e-mails/anúncios/pós-webinar (soft-webinar irmãs); vendas/VSL/landing fora de webinar (soft-funil-carta/-landing); headline isolada (soft-conteudo-headlines); posicionamento (soft-posicionamento); arte (soft-designer); script 1:1 (soft-vendas-closer)."
 ---
 
 # As 3 páginas que orbitam o webinar
@@ -281,7 +281,7 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 - Pediu o **CORPO de conteúdo de feed** → **soft-conteudo-carrossel** (carrossel), **soft-conteudo-reels** (reel) ou **soft-conteudo-stories** (stories).
 - Pediu **posicionamento / oferta-mãe / mecanismo nomeado** → **soft-posicionamento**.
 - Pediu **arte / PNG / visual** da página → **soft-designer**.
-- Pediu **script de venda / objeção no 1:1** → **soft-vendas**.
+- Pediu **script de venda / objeção no 1:1** → **soft-vendas-closer**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

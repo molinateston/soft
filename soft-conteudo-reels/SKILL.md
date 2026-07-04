@@ -36,6 +36,10 @@ Três estados de entrada (declara qual é o seu antes de escrever):
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · mecanismo nomeado · cliente em uma frase.
 
+**Puxa os padrões de ausência da voz (o que essa voz NUNCA faz).** Se existir voz do cliente (na descrição do projeto, no Plano, ou numa skill de voz dele), tira de lá uma lista curta, de 5 a 8 itens, do que aquela voz NÃO faz: palavras que ele não usa, muletas que ele evita, estruturas que soam falsas na boca dele, o termo que ele detesta. Isso vira um **filtro extra** que roda junto do anti-IA no gate (Passo 5): antes de marcar ✓, confere que o roteiro não caiu em nenhum item da ausência. É o que faz o reel soar COMO ele, não só "não-IA". Se não houver voz mapeada, segue sem, e anota que definir a voz (na soft-posicionamento) deixaria o roteiro mais fiel. Nunca inventa uma "ausência" que o cliente não declarou.
+
+**Enriquecimento factual (mini-passo opcional, só quando o tema pede prova).** Se o ponto do reel se apoia em dado, contraponto ou caso (não é puro relato pessoal), minera ANTES de roteirizar: 1 dado/estatística que sustenta o ângulo, ou 1 crença comum do nicho pra contestar, ou 1 caso real. Puxa isso da fonte do cliente (Plano, prova real dele) ou de pesquisa quando for fato público verificável. Regra dura: o dado só entra se for REAL e verificável; número que você não confirmou vira `[DADO: confirmar]` e **não conta como Ancorado=✓**. Nunca fabrica estatística "plausível". Reel de puro storytelling pula esse passo.
+
 ## Passo 1, confirma o ÚNICO ponto do reel
 O reel carrega **um insight, uma virada, uma frase**, nunca a tese inteira. Quem tenta cuspir tudo numa peça produz vídeo pesado que ninguém assiste. Define em uma linha qual pedaço do quebra-cabeça esta peça materializa, e o que ela reorganiza na cabeça do leitor. A peça não precisa estar completa: ela é uma pecinha que o mercado monta ao longo do tempo. Se o ponto não cabe numa frase, ainda está grande demais, corta antes de roteirizar.
 
@@ -105,12 +109,29 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **C/U/B** | não é **C**onfuso (carregamento cognitivo baixo, explica como pra criança), não é inacreditável (**U**nbelievable, promessa que o leitor não compra), não é **B**oring (chato, encheção de linguiça, introdução antes do conteúdo) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Voz do cliente** | (só quando há voz mapeada) o roteiro não cai em NENHUM item da lista de ausência puxada no Passo 0 (palavra/muleta/estrutura que essa voz nunca faz); soa como ele, não genérico. Sem voz mapeada = N/A, não bloqueia | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
 Mostra **só o roteiro que passou, LIMPO** (no DOC, nunca solto no chat), com a espinha marcada (qual frase é qual movimento). Sem tabela de gate, sem meta. Pergunta "esse te serve? ajusto ou faço outro?". **Espera a escolha** antes de gerar outro ou montar lote. **Não narra o fluxo** ("agora vou auditar"), só entrega limpo.
 
 **Quando um reel performa, escala (regra do "faz mais", `references/metodo-reel.md` 7.7):** faz mais do mesmo ASSUNTO em outros ângulos, OU troca o tema mantendo a ESTRUTURA da headline que funcionou. Mede comparando com o típico do TEU perfil (skip rate · tempo médio · tempo total · interações), nunca com benchmark de fora: a métrica é diagnóstico, não troféu (`references/metodo-reel.md` 7.9).
+
+## MODO Modelar um viral (opcional, quando há reel de referência)
+Dispara quando o dono cola a **URL de um reel** ou aponta uma base de referências e pede "modela esse", "faz um parecido", "um reel na estrutura desse". É um **atalho de estrutura**: em vez de partir do zero, parte de uma espinha de atenção já provada, extrai a PREMISSA dela, e enche com o TEU conteúdo. Modelar aqui é a doutrina Soft, extrai o porquê aquilo prende, nunca decalca. Depois o roteiro volta pro trilho normal e passa pelo MESMO gate do Passo 5. (Fluxo completo, protocolo de dissecação, infra e exemplo denso em `references/modelar-viral.md`.)
+
+**Os 3 ambientes (declara qual é o teu antes de prometer captura):**
+- **app / claude.ai (sem Bash):** você NÃO baixa nem transcreve sozinho. Pede a **transcrição colada** + os números (print de views/curtidas/comentários) e disseca o texto; ou conduz pela estrutura que o dono descreve, avisando que sem a transcrição a leitura fica mais rasa. Nunca finge que assistiu.
+- **Claude Code (tem Bash):** roda o pipeline inteiro (Apify pega o `videoUrl` → ffmpeg extrai áudio → Groq Whisper transcreve) e entrega o roteiro como arquivo `.md`. **Sem Gemini/análise de vídeo por LLM:** transcreve o ÁUDIO e disseca o TEXTO (a perda é o visual, pega pela legenda ou pergunta ao dono).
+- **agente / Telegram (tem Bash):** mesmo pipeline; a ENTREGA é **arquivo**, e a resposta traz o **caminho completo** (ex.: `/home/cloud/reels-modelados/reel-x.md`) com mensagens em texto limpo, sem tabela nem bloco gigante no chat.
+
+**STOP após a dissecação:** mostra a sacada-chave e a estrutura extraída ANTES de escrever o roteiro novo, e confirma o tema/nicho pra onde vai modelar. Não sai escrevendo em cima da premissa sem o dono ver o que você leu do viral.
+
+**O protocolo de dissecação (o checklist do que extrair, `references/modelar-viral.md` §3):** transcrição por timestamp aproximado · gancho (palavras exatas, quantas palavras contadas de fato, qual gatilho, abre com "Eu"?) · linguagem (frase média, proporção você/eu, transições, minimizadores) · estrutura (duração, seções com tempos, antes/depois, CTA, quantos pontos-chave) · a ÚNICA sacada-chave (a premissa que você importa).
+
+**O que importa e o que NÃO importa (§5):** importa a FORMA do gancho, o ritmo, a arquitetura de seções (é a nossa ADMA), o tipo de CTA. NÃO importa o conteúdo dele, e **número/case/fala de terceiro NUNCA vira fato do teu método** (usa o teu número real ou `[DADO: confirmar]`, jamais o dele reaproveitado), nem o traço-assinatura que denunciaria cópia.
+
+**Se a captura/transcrição falhar: relata e PARA.** Nunca inventa a análise (Lei 5). E **descarta a nota 95/100**: o veredito continua binário e honesto (PASSA/REFAZ), o REFAZ aponta o item que falhou. Os dois ✗ mais comuns no modo modelar: **Ancorado ✗** (herdou o número do viral, troca por prova tua) e **Só você diz ✗** (ficou parecido demais, reescreve até a estrutura sumir na tua voz).
 
 ## When NOT to use (manda pra skill certa)
 - Pediu só a **headline / gancho / capa / abertura** isolada → **soft-conteudo-headlines** (e faz a headline ANTES deste reel).
@@ -133,9 +154,15 @@ Mostra **só o roteiro que passou, LIMPO** (no DOC, nunca solto no chat), com a 
 | Despejou 5 reels de uma vez | 1 por vez com gate; lote só sob comando "lote de [tema]" |
 | Narrou o fluxo ("agora vou pro passo X") | Não narra: executa em silêncio e entrega só o roteiro limpo, sem a tabela do gate |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
+| Modelou um viral e trouxe o número/case DELE | Número/fala de terceiro nunca vira fato teu; usa o teu real ou `[DADO: confirmar]`, não conta como Ancorado=✓ |
+| Roteiro modelado ficou parecido demais com o original | Importa a premissa, não o roteiro; reescreve até a estrutura sumir dentro da tua voz (gate: Só você diz) |
+| Deu nota 95/100 ao roteiro modelado | Veredito é binário e honesto (PASSA/REFAZ) e aponta o item que falhou; nota inflada é teatro |
+| No app prometeu "baixar e transcrever o viral" | Sem Bash não baixa: pede transcrição colada + números, ou conduz pela estrutura descrita; nunca finge que assistiu |
+| Escreveu como se a voz do cliente fosse genérica | Puxa a lista de ausência da voz no Passo 0 e roda como filtro no gate; soa como ele, não só não-IA |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.
+- `references/modelar-viral.md`: o **modo modelar um viral** por inteiro (dissecação por timestamp, o checklist do que extrair, a infra Apify + Whisper pros 3 ambientes, importar premissa sem decalcar, e o exemplo denso do link ao roteiro). **Dirigida no MODO Modelar um viral.**
 - `references/producao-em-lote.md`: template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa (pro comando "lote de [tema]").
 - `references/anti-padroes.md`: os anti-padrões do reel com pares errado→certo escritos por extenso.
 - `references/metodo-reel.md`: o capítulo-método completo do reel (Lo-fi vence Hi-fi, a Fórmula 7 comprimida, os 3 tipos + os 7 gatilhos da atenção 7.4, conteúdo notável 7.5, a regra do "faz mais"/escalar 7.7, e as 4 métricas como diagnóstico 7.9). É a fonte da verdade do formato. **Dirigida nos Passos 2, 3 e 6.**

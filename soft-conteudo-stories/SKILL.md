@@ -132,7 +132,7 @@ Mostra **só os frames que passaram, LIMPO** (no DOC, nunca solto no chat), em b
 - Pediu **carrossel** → **soft-conteudo-carrossel** · **reel** → **soft-conteudo-reels** · **adaptar pra outras plataformas** → **soft-conteudo-multiplataforma**.
 - Pediu **Plano / posicionamento / fundação / bio / destaques** → **soft-posicionamento**.
 - Pediu **arte/visual/PNG** dos frames → **soft-designer**.
-- O lead chegou no Direct e quer **fechar / carta / VSL / venda** → **soft-funil-carta** (a venda em si é soft-vendas).
+- O lead chegou no Direct e quer **fechar / carta / VSL / venda** → **soft-funil-carta** (a venda em si é soft-vendas-closer).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

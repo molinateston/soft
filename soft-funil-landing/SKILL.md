@@ -1,6 +1,6 @@
 ---
 name: soft-funil-landing
-description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas), webinário."
+description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas-closer), webinário."
 ---
 
 # Landing page, a decisão inevitável pro cliente certo
@@ -165,6 +165,16 @@ Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com
 ## Passo 6, mostra e PARA
 Mostra **só os blocos que passaram, LIMPO** (no DOC, nunca solto no chat): só o bloco em si, sem tabela de gate, sem meta. Pergunta "esse bloco te serve? sigo pro próximo?". **Espera o OK** antes de escrever o próximo bloco. No fim, confere a congruência: a página inteira repete UMA promessa e aponta pra UM destino.
 
+## Passo 7, render e deploy (OPCIONAL, só com OK e copy aprovada)
+A entrega principal desta skill é o **`.md` de copy** (Output Contract). Depois que ele passou no gate e o cliente aprovou, pergunta UMA vez: *"quer essa página no ar, ou só a copy?"*. Com OK, entra a camada de render, descrita inteira em `references/render-e-deploy.md`: veste a copy num **HTML de arquivo único no tema-marca do CLIENTE** (lido do perfil, marca-neutra, nunca a identidade de terceiro nem um tema fixo), com **`base.css` único em tokens**, a regra **tema-inverte-por-fase** (antes da compra = base, pós-compra = invertido), **accordion nativo `<details>`**, player VSL autoplay-mudo+unmute e reveal-on-scroll, e publica em **Cloudflare Pages via `wrangler pages deploy`** (NUNCA Vercel). Só sobe pra produção com destino de CTA real e prova real; senão usa o botão de checkout pendente e avisa.
+
+**Ramo dos 3 ambientes (a copy é igual, muda o que a camada entrega):**
+- **App / chat (sem Bash):** entrega o **HTML de arquivo único pronto** (base.css inline no `<head>`) como artifact/código pro cliente baixar e subir; não promete link no ar.
+- **Claude Code (tem Bash):** roda o pipeline inteiro (cria pasta, escreve `index.html` + `base.css`, deploya no Cloudflare Pages, valida com `curl -I`) e **devolve o link no ar** + o caminho local.
+- **Agente / Telegram (tem Bash):** mesmo pipeline; entrega o **ARQUIVO** (caminho completo na resposta) + o **link no ar**, em mensagem sem markdown pesado (link e path no corpo, denso no arquivo).
+
+Abre `references/render-e-deploy.md` no Passo 7; ele traz o mapa de temas por marca, o runbook de deploy, os componentes prontos e os anti-patterns de design.
+
 ## When NOT to use (manda pra skill certa)
 Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ativo de DENTRO pode ser a irmã, agora que o escopo alargou:
 - Pediu **carrossel / reel / stories** → **soft-conteudo-carrossel / -reels / -stories / -multiplataforma**.
@@ -174,7 +184,7 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 - Pediu páginas que orbitam **WEBINAR** (cadastro / obrigado / checkout de webinar) → **soft-webinar-paginas**.
 - Pediu **quiz como LÓGICA/perguntas de segmentação profunda de marca** → **soft-posicionamento** se for diagnóstico de marca; a landing monta só a CASCA (hook + gate + result-shell).
 - Pediu **Plano / posicionamento / oferta** → **soft-posicionamento**. **Arte/visual/PNG** → **soft-designer**.
-- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas**.
+- Pediu **a venda em si** (script, objeção, pós-venda) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 - Pediu **webinário / evergreen** → é do próprio autor, não roteia daqui.
 
 ## Anti-Patterns (sintoma → correção)
@@ -210,4 +220,5 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 - `references/blocos-copy.md`: a copy de cada um dos 14 blocos (fórmula raiz do Hero e variações de headline, as 3 camadas do Problema, anatomia do case e do bônus, funcionalidade vs benefício, sequência de empilhamento, estrutura da garantia, as 7 objeções do FAQ) com fórmulas, exemplos e anti-exemplos. Abre no Passo 4, no bloco da vez.
 - `references/vsl-script.md`: o roteiro denso do VSL na página (fórmulas de hook, scripts-exemplo, anatomia de case no vídeo, checklist do VSL, durações por ticket). Abre no Passo 4, antes do bloco do vídeo.
 - `references/conducao-na-pratica.md`: o porquê e o como, congruência (a página repete a tese do Plano), minimalismo, o feed como entrada.
+- `references/render-e-deploy.md`: a camada RENDER/DEPLOY opcional, do `.md` de copy aprovado à página no ar. Mapa de temas por marca do cliente (marca-neutra), `base.css` único em tokens, tema-inverte-por-fase, componentes prontos (accordion nativo, player VSL autoplay+unmute, reveal-on-scroll), o runbook Cloudflare Pages (`wrangler pages deploy`, nunca Vercel), os anti-patterns de design e o ramo dos 3 ambientes. **Abre no Passo 7, só quando o cliente pede a página no ar.**
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.

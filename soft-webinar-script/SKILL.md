@@ -210,7 +210,7 @@ Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): cada slide com
 - Pediu **só a headline/abertura isolada** ou banco de ganchos → **soft-conteudo-headlines**.
 - Pediu **carta de vendas / VSL / micro-aula / funil** → **soft-funil-carta/-landing/-miniwebinar**.
 - Pediu o **Plano / posicionamento / nomear mecanismo** do zero → **soft-posicionamento**.
-- Pediu a **venda 1:1 / script de WhatsApp / objeção na conversa** → **soft-vendas**.
+- Pediu a **venda 1:1 / script de WhatsApp / objeção na conversa** → **soft-vendas-closer**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

@@ -10,7 +10,7 @@
 
 - 1. O que é o Perfil no atração
 - 2. Quando ativar este modo
-- 3. Os 3 elementos estratégicos
+- 3. Os 3 elementos estratégicos (3.1-3.3 Instagram · 3.4 Perfil LinkedIn · 3.5 Briefing de imagem por asset · 3.6 Score de Autenticidade)
 - 4. Estrutura de produção (passo a passo)
 - 5. Anti-padrões
 - 6. Teste de validação (perfil pronto)
@@ -108,6 +108,10 @@ Pra negócios locais:
 - Quebra o padrão do mercado, nunca soa como bio de concorrente
 - Máximo 150 caracteres por linha, máximo 4 linhas
 - Inclui palavra-chave do nicho (reforço SEO, Instagram lê a bio também)
+
+#### Regra de formatação: não quebre linha manualmente
+
+A plataforma cuida da quebra no celular e no desktop. Escreva **frases completas**, uma quebra de linha entre frases ou blocos, quebra dupla entre seções. **Não pique a frase a cada 50 ou 60 caracteres.** Frase curta e direta é boa; frase cortada pela metade não é (fica horrível no mobile, onde a maioria lê). Vale pra bio de Instagram e pra todo campo de texto do LinkedIn (Sobre, Experiência) da seção 3.4.
 
 #### O "sem" é o diferencial real
 
@@ -272,6 +276,184 @@ Usa resultado próprio, antes/depois da criação do método, prints de validaç
 
 ---
 
+### 3.4. Perfil LinkedIn (quando o especialista também vive no LinkedIn)
+
+As seções 3.1 a 3.3 são de Instagram (Nome SEO, Bio, Destaques). Quando o especialista atua no LinkedIn (comum em B2B, consultoria, jurídico, engenharia), o perfil de lá tem outra anatomia: **Headline · Sobre · Experiência · Seção em Destaque**. Mesmo método Soft por cima (o "sem" obrigatório, o mecanismo nomeado, o Crivo), só muda a estrutura dos campos. Puxa tudo do Posicionamento igual à Bio.
+
+> **Quando NÃO fazer:** se o especialista não usa LinkedIn, pula. Não force presença onde o avatar dele não está.
+
+#### 3.4.1. Headline do LinkedIn (o campo abaixo do nome)
+
+É a linha que aparece na busca e embaixo da foto. Restrições duras:
+
+- **Máximo 50 caracteres** (o que passa disso some no mobile e na busca)
+- **Só a primeira letra maiúscula**, não Title Case
+- **Começa pelo valor central** (o resultado, não o cargo)
+- **Sem cargo** (nada de "Fundador", "CEO", "Consultor", "Especialista"): cargo não vende, resultado vende
+- Inclui o público quando couber no limite
+- Sem palavra de enrolação
+
+**Fórmula:** `[Valor central] + [para público]`
+
+Entrega **3 variações rotuladas** pro especialista escolher:
+```
+Opção 1 (Direta): [resultado + público]
+Opção 2 (Focada na dor): [problema que resolve + público]
+Opção 3 (Diferencial): [ângulo único do método + público]
+```
+
+Exemplo-molde (a forma, não a copy a copiar; o especialista preenche com o eixo dele):
+```
+Opção 1 (Direta): Menos imposto pra empresa de serviço
+Opção 2 (Focada na dor): Fim do imposto que come seu lucro
+Opção 3 (Diferencial): Blindagem tributária sem holding cara
+```
+
+#### 3.4.2. Seção Sobre
+
+Arco: **Gancho → Luta/Empatia → Método/Filosofia → Autoridade → CTA**. Tom direto, humano, sem corporativês. Segue a regra de formatação da seção 3.2 (frases completas, a plataforma quebra, sem picar a frase). O "sem" Soft mora aqui dentro (no bloco de Método), e o CTA final aponta pra UM destino de conversão (Carta, Direct, agendamento).
+
+Estrutura:
+1. **Gancho:** a virada ou o número que para a leitura (uma frase, específica).
+2. **Luta/Empatia:** de onde você saiu, a dor que você viveu ou vê no cliente.
+3. **Método/Filosofia:** o que você faz de diferente + o mecanismo nomeado + o "sem".
+4. **Autoridade:** a prova real (número, tempo, resultado agregado), nunca lista de diplomas.
+5. **CTA:** um convite só, com destino claro.
+
+#### 3.4.3. Seção Experiência (os 2 cargos do topo)
+
+Reescreve como **storytelling, não tópicos**. Bullets de currículo ("Gerenciei time de 15", "Responsável pela meta do Q3") não vendem, mostram tarefa, não transformação.
+
+Estrutura por cargo: **Contexto → Desafio → Ação → Resultado**. De 8 a 15 frases por cargo, no máximo.
+
+**Certo (storytelling):**
+```
+Entrei num time que tinha perdido 3 gestores em 2 anos.
+A moral no chão, a receita escorregando.
+
+Não comecei com slide de estratégia. Comecei ouvindo.
+
+Em 6 meses a cultura estava de pé.
+Em 12 meses a receita subiu 40%.
+```
+
+**Errado (bullets de tarefa):**
+```
+- Gerenciei um time de 15 vendedores
+- Responsável pela meta de receita do Q3
+- Implementei um novo CRM
+```
+
+#### 3.4.4. Seção em Destaque
+
+**Máximo 2 itens, os dois são links externos** (o LinkedIn permite fixar links no topo do perfil). Um pra conversão, outro pra confiança:
+
+- **Item 1, conversão:** caminho direto pra oferta (página de agendamento, formulário de aplicação, Carta, página de vendas). Título de 3 a 5 palavras focado em benefício.
+- **Item 2, confiança:** captura ou prova (inscrição na isca, recurso gratuito, portfólio, case detalhado). Título de 3 a 5 palavras focado em benefício.
+
+Sem post interno do LinkedIn, sem item "me chama no Direct", sem subtítulo. Só os 2 links que movem o lead.
+
+---
+
+### 3.5. Briefing de imagem por asset (prompts prontos, com dimensões)
+
+Quando o perfil pede arte (banner, foto, cards), o modo-perfil **entrega os prompts prontos, um por asset, com a dimensão exata**, como briefing pro `soft-designer` executar (o nosso stack de imagem: `soft-designer` / gpt-image-1.5). Não é só apontar "pede pro designer": é entregar o texto do prompt já escrito, cada um autossuficiente pra colar sozinho.
+
+**Abre declarando as cores de marca** (herda do Plano/perfil do usuário se existir; senão sugere pelo posicionamento e diz por que combinam):
+- Hex primário: [do perfil do usuário ou sugerido]
+- Hex secundário: [do perfil do usuário ou sugerido]
+- Uma linha do porquê essas cores casam com o posicionamento
+
+**Asset 1, Banner do LinkedIn (1584 x 396 px):**
+- Base na foto de rosto do especialista
+- Headline escolhida no centro-direita
+- Tagline de 5 a 8 palavras abaixo da headline
+- Um elemento de botão de CTA (3 a 4 palavras)
+- Texto de prova social real
+- Cores de marca, estilo de fundo especificado
+
+**Asset 2, Foto de perfil (400 x 400 px):**
+- Base na foto de rosto real do especialista
+- Fundo na cor de marca (sólido ou gradiente)
+- Rosto centralizado a 60 a 70% do quadro
+- Funciona recortado em círculo
+- Borda na cor de marca se fizer sentido
+
+**Asset 3, Card da Seção em Destaque 1 (552 x 368 px):**
+- Título do Item 1 em Destaque como ponto focal
+- Cores de marca casando com o banner
+- Pista visual de que é clicável (ícone de seta)
+- Limpo, minimalista, sem subtítulo, sem foto
+
+**Asset 4, Card da Seção em Destaque 2 (552 x 368 px):**
+- Título do Item 2 em Destaque como ponto focal
+- Visualmente diferente do Card 1 (inverte o uso da cor primária/secundária)
+- Sem foto
+
+> **Instagram:** a mesma lógica de briefing por asset vale pra capa de destaque (1080 x 1920 px do story, ou o círculo de 161 x 161 px da capa) e foto de perfil (320 x 320 px). Entrega o prompt pronto com a dimensão, mesmo racional.
+
+Cada prompt é entregue no doc final como bloco copiável, com a dimensão no título, pronto pro `soft-designer`.
+
+---
+
+### 3.6. Score de Autenticidade (auditar um perfil de terceiro)
+
+As seções acima CONSTROEM o perfil do próprio especialista. Esta aqui faz o contrário: **audita um perfil de fora** por número puro, pra responder uma pergunta só, "esse perfil cheira a real ou a seguidor comprado?". Serve em 3 momentos:
+
+- **Auditar concorrente:** o número grande dele é orgânico ou inflado?
+- **Validar prova social:** aquele perfil que você ia citar como case aguenta o olhar?
+- **Pré-tráfego:** antes de jogar verba num perfil (o do especialista ou de um parceiro), o público engaja de verdade? Base comprada não converte tráfego pago.
+
+O cálculo é **determinístico** (os mesmos números dão sempre o mesmo score) e roda com dados **públicos** que você lê no próprio perfil: seguidores, seguindo, e as curtidas/comentários dos últimos posts (mínimo 4 posts pra medir a variação). Sem scraping, sem API, sem projeção de faturamento. É só o crivo "isso é real?", nada de análise de marca ou promessa de crescimento.
+
+#### Os 4 indicadores (somados, capeados em 100)
+
+**Indicador 1, engajamento vs benchmark da faixa.** Quanto maior o perfil, menor o engajamento normal. Tabela do esperado:
+
+| Faixa de seguidores | Engajamento esperado |
+|---|---|
+| Menos de 10K | 4 a 8% |
+| 10K a 100K | 2 a 4% |
+| 100K a 1M | 1 a 2% |
+| Mais de 1M | 0,5 a 1% |
+
+`engajamento_atual = (média_likes + média_comentários) / seguidores × 100`
+- Se o atual for menor que **30%** do mínimo esperado da faixa: **+40 pontos**.
+- Se for menor que **60%** do mínimo: **+20 pontos**.
+
+**Indicador 2, coeficiente de variação das curtidas** (mínimo 4 posts). `CV = desvio_padrão_das_curtidas / média_das_curtidas`.
+- CV maior que **2,5**: **+25 pontos** (picos artificiais, uns posts explodem e outros morrem).
+- CV maior que **1,5**: **+10 pontos** (inconsistência).
+
+**Indicador 3, proporção seguidores/seguindo.** Se `seguidores/seguindo` for maior que **50** E o perfil tiver mais de 50K seguidores: **+10 pontos**.
+
+**Indicador 4, curtidas vs seguidores.** Se a média de curtidas for menor que **0,2%** dos seguidores E o perfil tiver mais de 10K: **+15 pontos**.
+
+#### Veredicto (soma final)
+
+| Score | Veredicto |
+|---|---|
+| 0 a 30 | **LIMPO** (orgânico) |
+| 31 a 60 | **SUSPEITO** |
+| 61 a 100 | **ALTA PROBABILIDADE DE COMPRA** |
+
+#### Os 3 ambientes (como rodar)
+
+- **App / chat (sem Bash):** você NÃO tem o script. Pega os números do perfil (seguidores, seguindo, curtidas e comentários dos últimos posts), **calcula na mão pela tabela acima** (aplica os 4 indicadores, soma, capeia em 100, lê o veredicto) e entrega o resultado no doc: score + veredicto + o porquê de cada indicador que pontuou.
+- **Claude Code (tem Bash):** roda o script pronto e cola a saída JSON no doc.
+  ```
+  python3 scripts/score_perfil.py --seguidores 245000 --seguindo 890 \
+      --likes 3200,4100,2800,3600,5200,2900,3800,4400,3100,3700,2600,4000 \
+      --comments 45,60,38,52,71,40,58,66,42,55,36,61
+  ```
+- **Agente / Telegram (tem Bash):** roda o mesmo script, mas a ENTREGA é um **arquivo** (salva a saída num `.md`/`.json` e devolve o **path completo** na resposta) e a mensagem de volta vem **sem markdown pesado**, o score e o veredicto em texto limpo.
+
+O que o script devolve: `score_autenticidade` (0-100), `veredicto` e `indicadores_detalhados` (cada cálculo, pra você explicar por que o perfil pontuou). Self-test em `python3 scripts/score_perfil.py --self-test`.
+
+> **Leitura Soft do resultado:** SUSPEITO ou ALTA PROBABILIDADE num concorrente = o número dele é fumaça, não use como régua. Num perfil que você ia citar como prova = não cita. No perfil do próprio especialista antes do tráfego = arruma o conteúdo/engajamento antes de gastar verba, público fantasma não compra. O score não julga a pessoa, mede se o ativo aguenta receber atenção paga.
+
+---
+
 ## 4. Estrutura de produção (passo a passo)
 
 Quando o usuário acionar este modo, segue essa ordem:
@@ -306,6 +488,14 @@ Se a resposta de qualquer uma for "não", **não avança**, manda invocar a skil
 1. **PROBLEMA**, extrai do Posicionamento o problema Problema Avançado e os efeitos colaterais. Gera roteiro de 4-6 stories.
 2. **MÉTODO**, extrai do Posicionamento as partes do Mecanismo da Solução (na forma que ele tem). Gera roteiro de 6-8 stories. **Nunca entrega passo executável.**
 3. **CLIENTES**, pede ao criador a lista de cases reais. Cada um vira story com nome + contexto + resultado.
+
+### Passo 4.5, LinkedIn (só se o especialista usa)
+
+Se o especialista também vive no LinkedIn (pergunta antes; se não usa, pula): monta Headline (3 variações), Sobre (arco Gancho→Luta→Método→Autoridade→CTA), Experiência (2 cargos em storytelling Contexto→Desafio→Ação→Resultado) e Seção em Destaque (2 links). Puxa do mesmo Posicionamento. Detalhe na seção 3.4.
+
+### Passo 4.6, Briefing de imagem (se o perfil pede arte)
+
+Se o perfil vai ganhar banner/foto/cards, gera os prompts prontos por asset com dimensões (seção 3.5), declarando as cores de marca do usuário, como briefing pro `soft-designer` executar. Não gera a arte aqui, entrega o prompt pronto.
 
 ### Passo 5, Validar com o teste
 
@@ -383,7 +573,9 @@ Quando o modo-perfil termina de processar, entrega ao criador:
 3. **Roteiro de Destaque PROBLEMA** (4-6 stories, texto pronto pra gravar/postar)
 4. **Roteiro de Destaque MÉTODO** (6-8 stories, texto pronto pra gravar/postar)
 5. **Template de Destaque CLIENTES** (estrutura + 2 exemplos do próprio criador)
-6. **Checklist final** (testes de 5s e 1min)
+6. **Perfil LinkedIn** (só se o especialista usa LinkedIn): Headline (3 variações) · Sobre · Experiência (2 cargos) · Seção em Destaque (2 links)
+7. **Briefing de imagem por asset** (se o perfil pede arte): prompts prontos com dimensões, pro `soft-designer`
+8. **Checklist final** (testes de 5s e 1min)
 
 Tudo entregue em formato copiável (markdown ou texto puro).
 

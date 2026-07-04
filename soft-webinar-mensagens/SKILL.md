@@ -195,7 +195,7 @@ Quem não fecha nas primeiras 72h cai numa cadência semanal sincronizada - cria
 
 ### 4d. O reconvite puxa pro Comercial 1:1
 
-Quem responde o WhatsApp vira lead quente: abre conversa humana, **nunca resposta automática** (e a resposta reabre a janela de 24h). Quem ficou até o fim sem comprar = lead mais quente, contato direto, prioridade máxima. Alto ticket fecha no 1:1, nunca no checkout. (A venda em si é da **soft-vendas**.)
+Quem responde o WhatsApp vira lead quente: abre conversa humana, **nunca resposta automática** (e a resposta reabre a janela de 24h). Quem ficou até o fim sem comprar = lead mais quente, contato direto, prioridade máxima. Alto ticket fecha no 1:1, nunca no checkout. (A venda em si é da **soft-vendas-closer**.)
 
 ## 3 mensagens-modelo (o molde na mão; a fonte cheia é a reference)
 
@@ -316,7 +316,7 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 | OFERTA, preço, bônus, garantia | soft-webinar-plano |
 | Página de cadastro/obrigado/checkout/VSL | soft-funil-landing (ou soft-funil-carta) |
 | PLANO ou esqueleto ADMA | soft-webinar-plano |
-| Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas |
+| Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas-closer |
 | Anúncio do webinar / headline de feed | soft-conteudo-impulsionar / soft-conteudo-headlines |
 | Pacote inteiro do webinar | soft-webinar-plano |
 
