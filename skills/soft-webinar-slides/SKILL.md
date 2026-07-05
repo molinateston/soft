@@ -108,7 +108,7 @@ Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te
 - Pediu a **OFERTA / stack / preço / garantia** → **soft-webinar-plano**.
 - Pediu **arte/visual fino/PNG/paleta** → **soft-designer**.
 - Pediu **carta/VSL/landing** → **soft-funil-carta** / **soft-funil-landing**.
-- Pediu **posicionamento / nomear método** → **soft-posicionamento**.
+- Pediu **posicionamento / nomear método** → **soft-plano-posicionamento**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

@@ -1,6 +1,6 @@
 ---
 name: soft-trafego-meta
-description: 'Executa tráfego pago no Meta (Facebook/Instagram) de verdade, cria campanha ODAX, sobe criativo, lê métrica, escala ou pausa, e publica post + liga a automação comentário-para-DM, na conta do próprio dono. Tool-adaptive: com a pipeboard (motor Meta Ads) conectada EXECUTA via as tools reais; sem ela entrega o plano pronto pra colar no Gerenciador. É a MÃO que opera; a CABEÇA que DECIDE o que turbinar, verba, 50/30/20 e régua mora na soft-conteudo-impulsionar (é o gate de entrada desta skill). Use quando o pedido for "sobe/cria/ativa a campanha", "publica o carrossel no Instagram", "liga o comment-to-DM", "puxa as métricas da conta", "pausa/escala a campanha", "conecta minha conta de anúncios", "por que a campanha não entrega". NÃO use pra DECIDIR estratégia de verba, distribuição ou diagnóstico de retorno (soft-conteudo-impulsionar), nem pra a COPY/CTA do anúncio (soft-conteudo-headlines/-carrossel/-reels), nem pra a ARTE (soft-designer), nem pra lançamento com evento/ingresso (soft-lancamento-pago).'
+description: 'Executa tráfego pago no Meta (Facebook/Instagram) de verdade, cria campanha ODAX, sobe criativo, lê métrica, escala ou pausa, e publica post + liga a automação comentário-para-DM, na conta do próprio dono. Tool-adaptive: com a pipeboard (motor Meta Ads) conectada EXECUTA via as tools reais; sem ela entrega o plano pronto pra colar no Gerenciador. É a MÃO que opera; a CABEÇA que DECIDE o que turbinar, verba, 50/30/20 e régua mora na soft-conteudo-impulsionar (é o gate de entrada desta skill). Use quando o pedido for "sobe/cria/ativa a campanha", "publica o carrossel no Instagram", "liga o comment-to-DM", "puxa as métricas da conta", "pausa/escala a campanha", "conecta minha conta de anúncios", "por que a campanha não entrega". NÃO use pra DECIDIR estratégia de verba, distribuição ou diagnóstico de retorno (soft-conteudo-impulsionar), nem pra a COPY/CTA do anúncio (soft-conteudo-headlines/-carrossel/-reels), nem pra a ARTE (soft-designer), nem pra lançamento com evento/ingresso (soft-launch).'
 ---
 
 # Tráfego Meta, a mão que executa na plataforma (a cabeça é a impulsionar)
@@ -146,8 +146,8 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 - Pediu pra **DECIDIR** o que turbinar, quanta verba, distribuição 50/30/20, ou diagnóstico "não retorna" → **soft-conteudo-impulsionar** (a cabeça; esta skill é só a mão).
 - Pediu a **COPY/CTA** do anúncio ou da legenda → **soft-conteudo-headlines / -carrossel / -reels**.
 - Pediu a **ARTE/PNG/visual** do criativo ou dos cards → **soft-designer**.
-- Pediu **lançamento pago tático** (evento, ingresso, congresso, pico de data) → **soft-lancamento-pago**.
-- Pediu o **Plano / posicionamento / perfil** → **soft-posicionamento**.
+- Pediu **lançamento pago tático** (evento, ingresso, congresso, pico de data) → **soft-launch**.
+- Pediu o **Plano / posicionamento / perfil** → **soft-plano-posicionamento**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

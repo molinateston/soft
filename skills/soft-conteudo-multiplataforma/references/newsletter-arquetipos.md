@@ -36,7 +36,7 @@ O molde importado vinha de outra doutrina (jornalismo de newsletter, "toda afirm
 
 1. **Ancoragem = verbatim/prova real, não "todo dado tem número".** Onde o molde original pedia "toda afirmação amparada por um número", vale a régua Soft: âncora em fala literal do cliente, cena concreta ou prova específica REAL. Número entra só se for verdadeiro e do especialista; número plausível pra encher = furo, marca `[DADO: confirmar]` e não conta como ancorado. Fecha em chão (cena/número/fala), nunca em tese solta bonita.
 2. **CTA filtrante Soft no fechamento de todo arquétipo.** Nenhum arquétipo fecha em "curte, compartilha, assina e comenta". Fecha num convite que FILTRA e tem destino: link pra Carta, responder o email com uma palavra, Direct com o termo. O digest e o Substack podem ter o "assinar" nativo como CTA secundário, nunca como o principal.
-3. **Mecanismo nomeado onde couber.** Onde o molde diz "método/framework/abordagem", entra o mecanismo com NOME PRÓPRIO do especialista (o que o Plano já batizou), nunca um rótulo genérico. Se o especialista ainda não nomeou o mecanismo, é sinal de que falta Plano: manda pra soft-posicionamento antes de virar rotina de newsletter.
+3. **Mecanismo nomeado onde couber.** Onde o molde diz "método/framework/abordagem", entra o mecanismo com NOME PRÓPRIO do especialista (o que o Plano já batizou), nunca um rótulo genérico. Se o especialista ainda não nomeou o mecanismo, é sinal de que falta Plano: manda pra soft-plano-posicionamento antes de virar rotina de newsletter.
 
 Os tamanhos de seção abaixo são faixas de referência (dão ritmo), não trilhos. Contexto é rei: o assunto decide onde pesar.
 
@@ -179,7 +179,7 @@ Modelo: *"[O tema da semana no nicho, uma linha]. O que você mais precisa ler �
 
 **O que este arquétipo nunca faz:** resume a fonte sem opinião própria; pula a atribuição; enche a lista com link fraco pra bater número; ordena por recência em vez de por importância.
 
-> **Nota de ambiente:** os links do digest precisam ser reais e datados. Puxa a curadoria da soft-radar-tendencias quando ela existir (ela já entrega tema + ângulo pra compartilhar). Nunca inventa link nem métrica.
+> **Nota de ambiente:** os links do digest precisam ser reais e datados. Puxa a curadoria do MODO RADAR da soft-conteudo-planner (ela já entrega tema + ângulo datado pra compartilhar). Nunca inventa link nem métrica.
 
 ---
 

@@ -3,7 +3,7 @@ name: soft-proposta-comercial
 description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premium: um site HTML estático single-file (abas, diagnóstico, entregáveis com checkbox persistente, cronograma/Gantt, investimento, prova social, CTA), publicado num link único e privado por cliente. Pipeline em 4 etapas (transcrição → extração das informações-chave → geração do HTML no Layout Soft → publicação no Cloudflare Pages). Marca-neutra: cor, fontes, logo e prova social vêm do DONO. Use quando o dono fechar/conduzir uma call e precisar ENTREGAR a proposta em formato premium, pedir 'monta a proposta', 'proposta comercial', 'proposta de venda em HTML', 'site de proposta', 'orçamento premium', 'plano pro cliente', ou quiser fugir do PDF travado com um link próprio. NÃO use para página de vendas PÚBLICA / landing / VSL (soft-funil-landing), nem para o script/objeção/fechamento da venda em si (soft-vendas-closer), nem para contrato (soft-contratos-consultoria)."
 ---
 
-**Papel:** skill operacional de pós-call do método Soft. Entra DEPOIS que a venda foi conduzida (o script, a objeção e o fechamento são da `soft-vendas-closer`) e DEPOIS que a oferta existe (a oferta, a PUV e a prova vêm da `soft-posicionamento`). Pega a call gravada e devolve a proposta materializada num site premium com link próprio e privado por cliente, o "vendedor silencioso" que o prospect reabre quando vai decidir. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém; cor accent, fontes, logo e prova social são do DONO (puxados da Fundação dele). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
+**Papel:** skill operacional de pós-call do método Soft. Entra DEPOIS que a venda foi conduzida (o script, a objeção e o fechamento são da `soft-vendas-closer`) e DEPOIS que a oferta existe (a oferta, a PUV e a prova vêm da `soft-plano-posicionamento`). Pega a call gravada e devolve a proposta materializada num site premium com link próprio e privado por cliente, o "vendedor silencioso" que o prospect reabre quando vai decidir. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém; cor accent, fontes, logo e prova social são do DONO (puxados da Fundação dele). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
 
 ## OUTPUT CONTRACT
 
@@ -92,7 +92,7 @@ Template premium single-file, em 2 gerações (Dark Premium / Light Corporate), 
 - **Entregáveis com checkbox persistente**: marcação salva no localStorage + progress bar que conta o percentual lido.
 - **Cronograma**: fases com número circular, entregas, período, e Gantt.
 - **Investimento com 2 a 3 opções**: two-column (mentoria × consultoria), badge "MAIS COMPLETO" no premium, nunca opção única.
-- **Prova social**: cards com números REAIS do dono (da `soft-posicionamento`/banco de provas, nunca inventar, nunca número de terceiro).
+- **Prova social**: cards com números REAIS do dono (da `soft-plano-posicionamento`/banco de provas, nunca inventar, nunca número de terceiro).
 - **CTA + FAQ**: convite à decisão com contato direto + 4 a 6 perguntas frequentes.
 
 Cor accent e gradient mudam por nicho (espiritualidade roxo, arte gold, saúde verde, tech azul, vinícola/luxo vinho). Tipografia default Cormorant Garamond + DM Sans; o dono pode trocar pela ID dele (`soft-designer`).
@@ -122,7 +122,7 @@ Uma proposta comercial premium, entregue como **site HTML estático single-file*
 - **Diagnóstico extraído da call** — 12 campos-chave (nicho, produtos/ticket, dor central, objetivo de 12 meses, o que o cliente pediu × o que foi sugerido, preço, reação, próximos passos…), validado com o dono ANTES do HTML. Regra de ouro: **nunca atribuir fala/número do dono ao cliente**; separar o que o cliente quer do que foi só sugerido (upsell); tangibilizar tudo; precificar o valor de mercado de qualquer app/SaaS no escopo.
 - **Layout Soft** — template premium em 2 gerações (Dark Premium / Light Corporate), dirigido por variáveis de CSS (cada cliente escolhe a própria paleta/ID), com ~15 componentes prontos: hero com métricas-âncora, diagnóstico two-column, pilares, **entregáveis com checkbox persistente + barra de progresso**, cronograma/Gantt, investimento two-column, prova social, CTA + FAQ.
 - **Estrutura de conteúdo** — abas obrigatórias (Visão Geral → personalizadas → Entregáveis → Plano de Ação → Investimento) + variações da última aba por tipo de proposta.
-- **Apresentação da oferta** — 2 a 3 opções (nunca uma só), validade de 7 dias, ancoragem por custo evitado/ROI. Os VALORES são do dono (`soft-posicionamento`); a skill formata, não define preço.
+- **Apresentação da oferta** — 2 a 3 opções (nunca uma só), validade de 7 dias, ancoragem por custo evitado/ROI. Os VALORES são do dono (`soft-plano-posicionamento`); a skill formata, não define preço.
 - **Publicação** — Cloudflare Pages (o mesmo fluxo de deploy que o dono já usa), com slug privado não-adivinhável, SSL e teste mobile.
 - **Checklist de qualidade + erros históricos** — guardrails de conteúdo, visual, técnico e entrega.
 
@@ -132,7 +132,7 @@ Uma proposta comercial premium, entregue como **site HTML estático single-file*
 
 ## COMO RODAR (resumo)
 
-1. **Onboarding (1ª vez):** confirmar o token de publicação do dono (Cloudflare Pages) e a ID visual dele (puxar da `soft-designer`/`soft-posicionamento`). Guardar na config do dono — nunca hardcodar.
+1. **Onboarding (1ª vez):** confirmar o token de publicação do dono (Cloudflare Pages) e a ID visual dele (puxar da `soft-designer`/`soft-plano-posicionamento`). Guardar na config do dono — nunca hardcodar.
 2. **Pipeline (4 etapas)** — seguir `references/reference.md`: transcrever a call → extrair os 12 campos e validar com o dono → gerar o HTML no Layout Soft com a ID/oferta do dono → publicar no link privado.
 3. **Antes de entregar:** rodar o checklist de qualidade (seção 9) e o filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7).
 
@@ -149,7 +149,7 @@ No agente/Telegram: tem Bash, então roda o pipeline e publica igual ao Claude C
 - Página de vendas PÚBLICA, landing ou VSL: é `soft-funil-landing`.
 - Script, objeção ou fechamento da venda em si: é `soft-vendas-closer`.
 - Contrato de prestação de serviço pra assinar: é `soft-contratos-consultoria`.
-- Definir a oferta, a PUV, o preço ou a prova do zero: é `soft-posicionamento`. Aqui a skill só formata o que já existe.
+- Definir a oferta, a PUV, o preço ou a prova do zero: é `soft-plano-posicionamento`. Aqui a skill só formata o que já existe.
 - Definir a identidade visual do dono do zero: é `soft-designer`. Aqui a skill só aplica a ID dele.
 
 ## Anti-Patterns

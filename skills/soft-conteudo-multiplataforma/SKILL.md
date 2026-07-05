@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-multiplataforma
-description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion) sem diluir a tese. Não traduz tom, faz engenharia reversa, extrai os 5 papéis e o núcleo da peça-âncora e re-renderiza no idioma nativo do destino, mantendo o gate da peça original. Newsletter/email sem âncora nem histórico tem modo arquétipo (7 moldes na voz do Plano). Use quando o pedido for "repurpose", "adaptar pra LinkedIn", "pra X", "pra Threads", "pra YouTube", "pra newsletter", "pra email", "multiplataforma", "republicar a peça", "transformar esse carrossel em [outro formato]". NÃO use pra escrever a HEADLINE/gancho/capa/abertura do zero (soft-conteudo-headlines), nem pra arte/PNG/visual (soft-designer), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/página/venda (soft-funil-carta / soft-funil-landing). Pra criar o CORPO original de carrossel/reel/stories no Instagram, são as skills irmãs soft-conteudo-carrossel/-reels/-stories.
+description: Adapta uma peça Soft que já existe pra OUTRA plataforma (LinkedIn, X/Threads, Substack, YouTube, newsletter, email, PDF/Notion, E o COMENTÁRIO FIXADO embaixo do post) sem diluir a tese. Engenharia reversa, extrai os 5 papéis e o núcleo da âncora e re-renderiza no idioma nativo do destino. Newsletter/email sem âncora tem modo arquétipo. O comentário fixado humaniza (1º comentário do criador, confissão que casa com a tese + imagem cômica de status baixo; arte pela soft-designer). Use pra "repurpose", "adaptar pra LinkedIn/X/YouTube/newsletter/email", "multiplataforma", "republicar a peça", "transformar esse carrossel em outro formato", "comentário fixado/fixo", "primeiro comentário", "legenda cômica do post", "humanizar esse post". NÃO use pra HEADLINE/capa do zero (soft-conteudo-headlines), arte/PNG (soft-designer; aqui sai só o briefing), posicionamento (soft-plano-posicionamento), nem carta/venda (soft-funil). Pro CORPO de carrossel/reel/stories, use as irmãs soft-conteudo-carrossel/-reels/-stories.
 ---
 
 # Multiplataforma, a mesma peça em idioma nativo
@@ -77,6 +77,7 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 | **PDF / Notion** | capa do doc + título | intro de 1 parágrafo | cena/dado concreto | seções principais | CTA de fechamento |
 | **TikTok / Shorts** | 0-3s | 3-6s | 6-12s | 12-40s | 40-50s |
 | **Mini Webinar** | abertura 0-30s | 30s-1min | 1-2min | corpo 2-8min | fechamento com convite |
+| **Comentário fixado** | a imagem cômica (a piada visual) | linha 1 legenda o fato | linha 2 (status baixo do dono) | linhas 3-4 (vitória triste + resignação) | não vende: humaniza, sem CTA de venda |
 
 **Regras nativas por destino (o resumo; a reference tem o resto).** Cada linha: o limite que aperta a peça, a regra crítica que a maioria erra, e o formato do CTA.
 
@@ -89,11 +90,13 @@ Usa a tabela como ponto de partida. Cada papel migra preservando a função, no 
 | **YouTube longo** | roteiro 8-12min; descrição 1000+ char; tags <500 char; capítulos 10+ | a cauda de publicação é 60% do trabalho: título+thumb são gatekeepers do CTR | Carta/WhatsApp + inscrição no canal, no fim e no 1º comentário fixado |
 | **PDF / Notion** | 5-7 páginas (PDF); subpágina por capítulo (Notion) | entrega valor real mas mantém desejo: filtra a gente errada no meio, nunca resolve tudo | Mini Carta / reunião / Direct no fechamento; nunca "me segue" |
 | **TikTok / Shorts** | 15-35s ideal; 9:16 vertical; legenda 1 linha | retention 70%+ no 1º 3s (gancho visual+texto+verbal) senão o algoritmo suprime; loop natural | "comenta [PALAVRA] que eu respondo" ou "link na bio" |
+| **Comentário fixado** | 4 linhas exatas, ≤40 char cada, 📌 na linha 1 | a IMAGEM carrega a piada, o texto só legenda; o dono é o status mais baixo em TODA linha; morno lido sozinho = ótimo | nenhum: humaniza, não vende (CTA de venda no comentário = ✗) |
 
 **Abre a reference da plataforma e segue as regras nativas dela** (formato, limites, exemplos, SEO/UTM). Não adapta de cabeça: a reference tem as regras que mudam a peça:
 - LinkedIn → `references/plataforma-linkedin.md` · X/Threads → `references/plataforma-x-threads.md` · Substack/Email → `references/plataforma-substack-email.md` (**sem âncora nem histórico? vai pro Passo 4a + `references/newsletter-arquetipos.md`**)
 - TikTok/Shorts → `references/plataforma-tiktok-shorts.md` · YouTube longo → `references/plataforma-youtube-longo.md` (traz o **pacote completo de publicação**: título, descrição, tags, capítulos, thumbnail, SEO, UTM)
 - PDF/Notion → `references/plataforma-pdf-notion.md` · Mini Webinar → `references/plataforma-mini-webinar.md` (distribuição/hospedagem; a construção do roteiro é da `soft-funil-miniwebinar`)
+- **Comentário fixado** (o 1º comentário do criador embaixo do post, como peça de humanização) → **vai pro Passo 4c**, que tem a mecânica inteira. É uma superfície da peça, não uma plataforma de re-render normal: em vez dos 5 papéis, ela roda a mecânica confissão + imagem cômica + 4 linhas.
 
 **Ao re-renderizar, NÃO use travessão `—` como pausa dramática** (é o tique nº1 de IA e o furo mais comum aqui): prefira ponto curto, vírgula ou dois-pontos. Prevenir na escrita é mais barato que caçar no gate; escreve já sem `—`.
 
@@ -113,7 +116,7 @@ Só cai aqui se o Passo 0 marcou o estado de exceção: destino newsletter/email
 
 1. **Confirma que é cold-start real.** Se ele tem 2+ edições passadas, NÃO é modo arquétipo: pede pra colar, você destila a voz real (padrão de abertura, fluxo de seção, formatação, fechamento, sinais de ausência que se repetem) e adapta a partir dela. Modo arquétipo é só quando não há nada.
 2. **Escolhe o molde COM ele, numa mensagem só** e para: *"Você não tem edição pronta pra eu adaptar. Vou montar a partir de um molde ajustado à sua voz, marcado como provisório. Qual encaixa: (0) conversão direta que vende no fim · (1) aula com método · (2) ensaio que crava posição · (3) dissecação de um caso · (4) digest com curadoria · (5) ensaio pessoal · (6) entrevista/perfil?"* O **(0) conversão Soft é o default**: se ele não escolhe, é esse (é o que vende).
-3. **Puxa a voz que já existe** antes de escrever: mecanismo com nome próprio, Problema Sofisticado, campo semântico do cliente final e os "sem", do Plano/perfil. Se não há nem Plano, coleta o mínimo (nicho, mecanismo, uma prova real) e só então monta. Sem mecanismo nomeado, manda pra **soft-posicionamento** primeiro.
+3. **Puxa a voz que já existe** antes de escrever: mecanismo com nome próprio, Problema Sofisticado, campo semântico do cliente final e os "sem", do Plano/perfil. Se não há nem Plano, coleta o mínimo (nicho, mecanismo, uma prova real) e só então monta. Sem mecanismo nomeado, manda pra **soft-plano-posicionamento** primeiro.
 4. **Monta pelo molde escolhido** (menu abaixo), ajustando cada campo à voz dele. As 3 trocas Soft valem em TODOS: (a) ancoragem = verbatim/prova real, nunca "todo dado com número"; número plausível de enfeite = `[DADO: confirmar]`; (b) CTA filtrante no fechamento (link pra Carta / responder com uma palavra / Direct), nunca "curte, assina e compartilha"; (c) mecanismo nomeado onde o molde diz "método".
 5. **Marca como provisório** no topo do doc: *"Base: arquétipo [nome] ajustado à voz do Plano. Molde emprestado, não a voz definitiva. Revisitar depois de ~5 edições reais publicadas."*
 6. **Roda o gate normal** (Passo 5) na versão montada. Molde não isenta do gate.
@@ -131,6 +134,38 @@ Só cai aqui se o Passo 0 marcou o estado de exceção: destino newsletter/email
 | **6. Entrevista / perfil** | fala direta + por que importa | Quem é → origem → trabalho → visões → 3-5 lições → o que vem + CTA | fala direta, não paráfrase; marco/projeto/data reais | 800-1.500 |
 
 **Detalhe de cada molde (o que ele nunca faz, o modelo de abertura preenchível, a nota de CTA) está em `references/newsletter-arquetipos.md`.** Abre a reference quando montar; o menu acima é o mapa, a reference é o passo a passo.
+
+## Passo 4c, COMENTÁRIO FIXADO (a superfície de humanização embaixo do post)
+Só cai aqui quando o destino é o **comentário fixado**, o 1º comentário que o próprio criador solta embaixo de um post. Ele é a superfície onde a peça vira gente: embaixo de um post técnico ou de autoridade seca, o criador tira a máscara polida e se rebaixa com graça pra o público baixar a guarda. Aqui a re-render não roda os 5 papéis; roda a mecânica própria abaixo. **Uso situacional, não é peça obrigatória do funil: humaniza, NÃO vende, zero CTA de venda.** É ouro embaixo de post de autoridade fria; se o pedido é vender, é outra skill (soft-funil / soft-vendas).
+
+**A sacada central (leia primeiro): a IMAGEM carrega a piada, o comentário só legenda a imagem.** Se o comentário é engraçado sozinho, ele está trabalhando demais e a imagem está fraca. Por isso o conceito da imagem vem PRIMEIRO, sempre. A arte final NÃO sai daqui: você entrega o briefing e o dono aciona a **soft-designer** com a ID visual dele (nunca escreve prompt de Gemini/Nano Banana nem de ferramenta externa).
+
+**Insumos antes de escrever (não pula; herda do Passo 0):** (a) **o post** (o que ele diz/entrega) e (b) **a tese/inimigo do Plano** (o Grande Dominó, o Mecanismo do Problema, na soft-plano-posicionamento). É a tese que faz o humor reforçar o posicionamento em vez de virar piada solta. Não viu o post ou não tem o Plano? Pergunta numa linha ou marca `[DADO: confirmar]`; nunca chuta uma piada plausível.
+
+**O Output Contract muda pra 4 blocos** (esta superfície tem contrato próprio; o doc MD continua sendo UM só):
+1. **A confissão** (1 frase): a verdade meio constrangedora que o post esconde em silêncio, casada com a tese/inimigo do Plano. Ex. de forma (não copiar): "Eu cobro caro e ainda tenho medo de mandar o orçamento." / "Passei anos aprendendo o que ensino em 20 minutos." Se você não nomeia a confissão em 1 frase, o post não está pronto pro comentário fixado: avisa o dono, não força piada em cima de post que não confessa nada.
+2. **O conceito da imagem** (briefing pra soft-designer, parágrafo): a piada visual clara + a postura de status baixo do dono. Formato: *"Imagem fotorrealista de [cena]. A piada visual: [quem tem o status alto e como]. O dono aparece [postura/expressão de status baixo, levada a sério]. [Luz e enquadramento]."*
+3. **O comentário de 4 linhas** (começa com 📌): legenda a imagem como se noticiasse o fato.
+4. **A nota de gate** (1 linha): confirma que passou nos checks + anti-IA.
+
+**As 3 regras da imagem:** (1) **uma piada visual clara** (o olho cai nela em <1s; se precisa de mais de 5 palavras pra descrever, está cheia, simplifica; uma piada é mais afiada que três); (2) **levada totalmente a sério** (sem piscadinha, sem joinha, sem cara exagerada; o humor vem de tratar o absurdo como normal); (3) **o dono é a figura de status mais BAIXO, sempre** (quem "ganha" na cena é o oposto dele: o cliente, a planilha, a concorrência complicada, o estagiário; o dono perde com dignidade silenciosa).
+
+**As regras das 4 linhas (inegociáveis):** exatamente 4 linhas, cada uma frase completa; cada linha ≤40 caracteres (**conte, não estime**); linha 1 começa com 📌 e legenda o fato que a imagem mostra (não monta piada separada); linha 2 vira o status do dono pra baixo; linha 3 é uma vitória triste (o menor ganho possível); linha 4 é aceitação resignada, não piada esperta (**resignado vence esperto**). Sem P.S., sem ponto-e-vírgula, sem hashtag. PT-BR com acentuação correta. Evita muleta (só, que, muito, realmente, na verdade, literalmente).
+
+**Gate próprio desta superfície (roda por dentro, um ✗ refaz):** Confissão nomeada em 1 frase · Confissão casa com a tese (mesma briga do Grande Dominó/inimigo, não piada solta de creator) · Piada visual descritível em ≤5 palavras · Linha 1 legenda o fato · Dono é status baixo em TODA linha (se ele ganha/parece esperto em alguma, reescreve) · Linha 4 resignada · 4 linhas exatas, ≤40 char cada, 📌 na linha 1 · **Teste do tédio sozinho** (leia as 4 linhas SEM a imagem: morno sozinho = ótimo, a imagem faz o trabalho; engraçado sozinho = a imagem está fraca, reforça a imagem) · Clareza (zero palavra difícil, zero figura vazia) · Anti-IA HARD (Passo 5b). Este gate SUBSTITUI a tabela dos 5 papéis do Passo 5 (aqui não há 5 papéis); o Passo 5b (varredura anti-IA) e o Passo 6 (mostra e PARA) valem igual.
+
+**Exemplo denso (LABEL, não copiar). Nicho: consultor que vende gestão SIMPLES pra dono de PME.** Post: carrossel provando que o dono não precisa de ERP caro, só de uma planilha de 1 aba. Tese do Plano: simplicidade radical vence a complexidade cara (inimigo = o sistema complicado que vendem pro pequeno).
+- **A confissão:** "Construí um negócio inteiro numa planilha de 1 aba e ainda tenho vergonha de mostrar."
+- **O conceito da imagem (briefing):** "Imagem fotorrealista de uma sala de reunião de empresa grande. Na cadeira da cabeceira, imponente, um monitor gigante rodando um ERP cheio de gráficos, tratado como o executivo-chefe. O dono está numa banquetinha no canto, de camiseta, com um notebook velho e uma única planilha aberta, olhando pro monitor com respeito tímido. Luz corporativa fria, tudo levado a sério."
+- **O comentário de 4 linhas:**
+```
+📌 O ERP tem a cadeira da chefia.
+Eu fico na banqueta do canto.
+Minha planilha de 1 aba paga as contas.
+Alguém tinha que segurar o rojão.
+```
+- **Por que passa:** a confissão casa com a tese (humildade simples vence o sistema caro); a piada visual em 5 palavras ("ERP na chefia, dono na banqueta"); a linha 1 legenda o fato; o dono perde em toda linha e só "ganha" a vitória mais triste (a planilha paga as contas); a linha 4 é resignada; lido sozinho é morno, com a imagem canta. Anti-IA limpo. Cada linha ≤40. **PASSA.**
+- **Contra-exemplo (REPROVA):** "📌 Fiz um negócio de 7 dígitos numa planilha." O dono GANHA (parece esperto), não é status baixo, não casa com a humildade da tese, e é impactante sozinho (a imagem vira redundante). ✗.
 
 ## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate na versão adaptada **internamente** (auditoria silenciosa). Só versão com VEREDITO=PASSA vai pro cliente. Um ✗ refaz. A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só a versão limpa (Passo 6), jamais a tabela. A âncora já passou no gate dela; a adaptação passa de novo no idioma novo.
@@ -165,9 +200,10 @@ Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peç
 ## When NOT to use (manda pra skill certa)
 - Pediu a **HEADLINE/gancho/capa/abertura** do zero → **soft-conteudo-headlines**.
 - Pediu **arte/visual/PNG** da versão adaptada → **soft-designer**.
-- Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
+- Pediu o **Plano / posicionamento / fundação** → **soft-plano-posicionamento**.
 - Pediu o **CORPO original** de carrossel/reel/stories no Instagram → **soft-conteudo-carrossel / -reels / -stories**.
 - Pediu **carta / VSL** → **soft-funil-carta** · **página de vendas / captura / obrigado** → **soft-funil-landing** · **mini webinar** → **soft-funil-miniwebinar**.
+- Pediu uma **LEGENDA que vende** ou um **CTA de conversão** no comentário → o comentário fixado (Passo 4c) humaniza, não fecha; a venda é **soft-funil** / **soft-vendas**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |
@@ -184,9 +220,11 @@ Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peç
 | Gerou a adaptação sem perguntar a preferência do especialista | Consultiva (Lei 3): extrai duração, formato e tom desejado antes de re-renderizar |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 | Newsletter sem âncora: parou e mandou o dono voltar depois | É a exceção do Passo 4a: entra no modo arquétipo (molde + voz do Plano + marca de provisório), não deixa o dono na mão |
-| Modo arquétipo: inventou a voz do dono do zero | Molde dá só a estrutura; a voz vem do Plano/perfil já destilado. Sem Plano, coleta o mínimo antes; sem mecanismo nomeado, manda pra soft-posicionamento |
+| Modo arquétipo: inventou a voz do dono do zero | Molde dá só a estrutura; a voz vem do Plano/perfil já destilado. Sem Plano, coleta o mínimo antes; sem mecanismo nomeado, manda pra soft-plano-posicionamento |
 | Entregou peça em modo arquétipo sem marcar como provisória | Toda saída de arquétipo carrega a linha "Base: arquétipo X, molde emprestado, revisitar após ~5 edições reais" |
 | Tinha 2+ edições passadas e mesmo assim usou arquétipo | Com exemplos, DESTILA a voz real (não usa molde); arquétipo é só cold-start sem nada |
+| Comentário fixado: o texto é engraçado sozinho (imagem vira redundante) | A piada mora na IMAGEM; enfraquece o texto e reforça a imagem; morno lido sozinho = ótimo |
+| Comentário fixado: o dono ganha/parece esperto em alguma linha, ou enfiou CTA de venda | Status baixo em TODA linha (ele perde com dignidade); o comentário humaniza, não vende; tira o CTA |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/processo-multiplataforma.md`: a engenharia reversa completa, a tabela de mapeamento com TikTok/Shorts e Mini Webinar, e os colapsos conscientes detalhados. É o mesmo processo, com mais formato e exemplo.

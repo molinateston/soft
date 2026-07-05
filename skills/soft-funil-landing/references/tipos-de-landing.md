@@ -492,7 +492,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** curiosidade no hook, microcopy por pergunta, promessa de personalização no result-shell.
 
-**Roteia pra irmã?** A LÓGICA de perguntas de diagnóstico profundo de marca (segmentação estratégica) pode vir de `soft-posicionamento`. Aqui você monta a casca: hook + perguntas + gate + result-shell.
+**Roteia pra irmã?** A LÓGICA de perguntas de diagnóstico profundo de marca (segmentação estratégica) pode vir de `soft-plano-posicionamento`. Aqui você monta a casca: hook + perguntas + gate + result-shell.
 
 **Exemplo de nicho fictício (loja de suplementos):**
 

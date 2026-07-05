@@ -26,7 +26,7 @@
 ## O que entra (a espinha, puxando do que o LEON JÁ tem, nada reescrito do zero)
 
 1. **Onde está:** diagnóstico de partida (`diagnostico-partida.md`): fase, fricção principal, número ruim.
-2. **Posição + oferta + esteira:** invoca `soft-posicionamento` (narrativa/mecanismo/oferta/PUV) e a `esteira-minima-viavel.md`. A prova é REAL do cliente, nunca inventada.
+2. **Posição + oferta + esteira:** invoca `soft-plano-posicionamento` (narrativa/mecanismo/oferta/PUV) e a `esteira-minima-viavel.md`. A prova é REAL do cliente, nunca inventada.
 3. **A Conta (cabe na vida?):** meta ÷ ticket = clientes/mês; clientes × horas + produção + venda = horas/semana; se não cabe, sobe o ticket (`rotina.md`, `calculo-do-caixa-ao-conteudo.md`).
 4. **Projeção (funil reverso) em 3 cenários:** meta → vendas → reuniões → leads → volume de conteúdo, com os 3 cenários (conservador, realista, agressivo) e a régua de realismo abaixo (`meta-realista.md`, `calculo-do-caixa-ao-conteudo.md`).
 5. **Plano de Guerra (sprint 30 dias) dentro de um Roadmap de 90 dias:** ficha calculada de trás pra frente, PRIMEIRA VENDA no 1º mês, estendida pra 3 meses com checkpoint mensal (seção abaixo + `plano-de-guerra.md`, `cronograma-6-meses.md`).
@@ -99,7 +99,7 @@ Régua aplicada: o agressivo (R$95k) é 3,8x o atual, dentro do que o nicho sust
 
 ## Score de Nicho (5 critérios, faixa nomeada)
 
-Ferramenta de decisão pra quando o cliente está em cima do muro entre nichos ou o nicho atual parece raso. Não substitui a pesquisa profunda da `soft-posicionamento` (essa continua sendo a fundação); dá um número defensável pra decisão de sub-nicho que hoje o consultor faz no olho.
+Ferramenta de decisão pra quando o cliente está em cima do muro entre nichos ou o nicho atual parece raso. Não substitui a pesquisa profunda da `soft-plano-posicionamento` (essa continua sendo a fundação); dá um número defensável pra decisão de sub-nicho que hoje o consultor faz no olho.
 
 Cada critério recebe nota de 0 a 10. Soma vai de 0 a 50.
 

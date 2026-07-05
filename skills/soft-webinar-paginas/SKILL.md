@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-paginas
-description: "Escreve as 3 páginas que orbitam o webinar do método Soft: Cadastro (captura/qualifica), Obrigado/Lembrete (sobe comparecimento) e Checkout (abre a venda de quem já decidiu). Cada página tem UMA função, é mobile-first, passa pelo gate. Carrega: bio detalhada na última dobra (cadastro/obrigado), obrigado modelo web-v1 (nome dinâmico, badges anti-fuga, card da aula com timer, ficha wizard que fecha no WhatsApp, variante ao vivo), checkout ENXUTO (cronômetro 5min, 15 primeiros, garantia, provas, bônus), variante wa.me sem form, formatos AO VIVO x PERPÉTUO, ticket até ~3k no botão x acima vai pro 1:1. Use quando o pedido for páginas do webinar, página de cadastro/inscrição/captura, obrigado/lembrete ou checkout do webinar. NÃO use pro roteiro/oferta/deck/gravação/e-mails/anúncios/pós-webinar (soft-webinar irmãs); vendas/VSL/landing fora de webinar (soft-funil-carta/-landing); headline isolada (soft-conteudo-headlines); posicionamento (soft-posicionamento); arte (soft-designer); script 1:1 (soft-vendas-closer)."
+description: "Escreve as 3 páginas que orbitam o webinar do método Soft: Cadastro (captura/qualifica), Obrigado/Lembrete (sobe comparecimento) e Checkout (abre a venda de quem já decidiu). Cada página tem UMA função, é mobile-first, passa pelo gate. Carrega: bio detalhada na última dobra (cadastro/obrigado), obrigado modelo web-v1 (nome dinâmico, badges anti-fuga, card da aula com timer, ficha wizard que fecha no WhatsApp, variante ao vivo), checkout ENXUTO (cronômetro 5min, 15 primeiros, garantia, provas, bônus), variante wa.me sem form, formatos AO VIVO x PERPÉTUO, ticket até ~3k no botão x acima vai pro 1:1. Use quando o pedido for páginas do webinar, página de cadastro/captura, obrigado/lembrete ou checkout do webinar. NÃO use pro roteiro/oferta/deck/gravação/e-mails/anúncios/pós-webinar (soft-webinar irmãs); vendas/VSL/landing fora de webinar (soft-funil-carta/-landing); headline isolada (soft-conteudo-headlines); posicionamento (soft-plano-posicionamento); arte (soft-designer); script 1:1 (soft-vendas-closer)."
 ---
 
 # As 3 páginas que orbitam o webinar
@@ -46,7 +46,7 @@ Procura a fonte de fala/prova real, nesta ordem: **descrição do projeto** → 
 
 Três estados de entrada (declara qual é o seu, sem imprimir explicação longa):
 - **Tem oferta + fala real:** caminho ideal. Ancora nelas, cita o N real.
-- **Tem nicho/fundação mas ZERO oferta fechada ou fala literal:** NÃO inventa. Cada bloco ancora em prova real; o que faltar entra como `[A CONFIRMAR: o que falta]` (dois-pontos, nunca travessão). Avisa que a oferta precisa estar fechada antes do checkout (vem da soft-posicionamento/soft-webinar-plano).
+- **Tem nicho/fundação mas ZERO oferta fechada ou fala literal:** NÃO inventa. Cada bloco ancora em prova real; o que faltar entra como `[A CONFIRMAR: o que falta]` (dois-pontos, nunca travessão). Avisa que a oferta precisa estar fechada antes do checkout (vem da soft-plano-posicionamento/soft-webinar-plano).
 - **Sem nada:** pergunta numa única mensagem (nicho em 1 linha + a promessa + 1 dor real que o cliente fala) e segue.
 
 **Decide o MODELO antes de tudo**, porque ele muda os campos do formulário (é decisão de negócio, não estética):
@@ -279,7 +279,7 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 - Pediu **página de vendas / VSL / landing** fora do contexto de webinar → **soft-funil-carta** (carta/VSL em texto) ou **soft-funil-landing** (página hero-ao-botão).
 - Pediu **só a headline** (isolada, banco de ganchos) → **soft-conteudo-headlines**.
 - Pediu o **CORPO de conteúdo de feed** → **soft-conteudo-carrossel** (carrossel), **soft-conteudo-reels** (reel) ou **soft-conteudo-stories** (stories).
-- Pediu **posicionamento / oferta-mãe / mecanismo nomeado** → **soft-posicionamento**.
+- Pediu **posicionamento / oferta-mãe / mecanismo nomeado** → **soft-plano-posicionamento**.
 - Pediu **arte / PNG / visual** da página → **soft-designer**.
 - Pediu **script de venda / objeção no 1:1** → **soft-vendas-closer**.
 

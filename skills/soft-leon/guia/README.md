@@ -46,6 +46,6 @@ Tese (o mecanismo): **C + Im = In** (Complexidade + Improviso = Invisibilidade).
 - doc3, "Reels que Funcionam" (engenharia de reels, dissolvida nos caps 5 e 7)
 
 ## Pendências de costura (decisão do autor do método)
-- **Tabela de preços/ofertas oficial**: manual (doc2) e skill `soft-posicionamento` divergem; guia segue doc2 por ora, fixar no passo da imersão.
+- **Tabela de preços/ofertas oficial**: manual (doc2) e skill `soft-plano-posicionamento` divergem; guia segue doc2 por ora, fixar no passo da imersão.
 - **Papel do doc1**: material da imersão ou fonte de tom (default atual: tom).
 - **Nomenclatura de fases** guia↔skills, alinhar no passo 2 (skills seguem o guia v12).

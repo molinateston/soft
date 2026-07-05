@@ -1,6 +1,6 @@
 ---
 name: soft-funil-isca
-description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo-carrossel/-reels/-stories/-multiplataforma). NÃO use pra carta/VSL/página de venda (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar). NÃO use pra venda/script/objeção (→ soft-vendas-closer), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
+description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo-carrossel/-reels/-stories/-multiplataforma). NÃO use pra carta/VSL/página de venda (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar). NÃO use pra venda/script/objeção (→ soft-vendas-closer), posicionamento (→ soft-plano-posicionamento) nem arte (→ soft-designer)."
 ---
 
 # Isca, a amostra que prova a tese e captura o lead certo
@@ -29,7 +29,7 @@ Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM doc
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Abre a fonte de fala real do cliente da vez, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores** (detalhe em `references/entrada-verbatim.md`). Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A primeira linha da isca nasce de uma delas, quase intacta. Citações entre aspas são substring literal da fonte. Prova ou número que não vier do briefing entra como `[DADO: confirmar]` e não conta como ancorado.
 
-Sem nenhuma fala real: NÃO inventa. Ancora em prova real do autor (resultado, case, mecanismo) e avisa que minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa a isca muito mais cravada. **PARA e confirma a fonte antes de seguir.**
+Sem nenhuma fala real: NÃO inventa. Ancora em prova real do autor (resultado, case, mecanismo) e avisa que minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa a isca muito mais cravada. **PARA e confirma a fonte antes de seguir.**
 
 A fundação (quando existe, do Plano): tese central · mecanismo nomeado · inimigo nominal · cliente em uma frase. A isca é uma amostra desse mecanismo, nunca um tema solto.
 
@@ -137,7 +137,7 @@ Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): a peça e a fo
 - Pediu **mini-webinar como ISCA de topo** → **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a ele, não o evento em si.
 - Pediu **mini webinar** → **soft-funil-miniwebinar**.
 - Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
-- Pediu **Plano / posicionamento / nomear mecanismo** → **soft-posicionamento**.
+- Pediu **Plano / posicionamento / nomear mecanismo** → **soft-plano-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
 
 ## Anti-Patterns (sintoma → correção)

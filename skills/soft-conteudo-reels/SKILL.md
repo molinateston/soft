@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-reels
-description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
+description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-plano-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Reel, o vídeo curto que atrai
@@ -31,12 +31,12 @@ Com a headline na mão, procura a fonte de fala real do cliente, nesta ordem: **
 
 Três estados de entrada (declara qual é o seu antes de escrever):
 - **Tem fala real (com N):** ancora nela e cita o N. Caminho ideal.
-- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. O roteiro ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número que você não confirmou entra como `[DADO: confirmar]` e **NÃO conta como Ancorado=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa o roteiro muito mais cravado.
+- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. O roteiro ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número que você não confirmou entra como `[DADO: confirmar]` e **NÃO conta como Ancorado=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa o roteiro muito mais cravado.
 - **Sem nicho e sem nada:** pergunta numa única mensagem (nicho em 1 linha + 1 dor real que o cliente fala + a headline) e segue daí.
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · mecanismo nomeado · cliente em uma frase.
 
-**Puxa os padrões de ausência da voz (o que essa voz NUNCA faz).** Se existir voz do cliente (na descrição do projeto, no Plano, ou numa skill de voz dele), tira de lá uma lista curta, de 5 a 8 itens, do que aquela voz NÃO faz: palavras que ele não usa, muletas que ele evita, estruturas que soam falsas na boca dele, o termo que ele detesta. Isso vira um **filtro extra** que roda junto do anti-IA no gate (Passo 5): antes de marcar ✓, confere que o roteiro não caiu em nenhum item da ausência. É o que faz o reel soar COMO ele, não só "não-IA". Se não houver voz mapeada, segue sem, e anota que definir a voz (na soft-posicionamento) deixaria o roteiro mais fiel. Nunca inventa uma "ausência" que o cliente não declarou.
+**Puxa os padrões de ausência da voz (o que essa voz NUNCA faz).** Se existir voz do cliente (na descrição do projeto, no Plano, ou numa skill de voz dele), tira de lá uma lista curta, de 5 a 8 itens, do que aquela voz NÃO faz: palavras que ele não usa, muletas que ele evita, estruturas que soam falsas na boca dele, o termo que ele detesta. Isso vira um **filtro extra** que roda junto do anti-IA no gate (Passo 5): antes de marcar ✓, confere que o roteiro não caiu em nenhum item da ausência. É o que faz o reel soar COMO ele, não só "não-IA". Se não houver voz mapeada, segue sem, e anota que definir a voz (na soft-plano-posicionamento) deixaria o roteiro mais fiel. Nunca inventa uma "ausência" que o cliente não declarou.
 
 **Enriquecimento factual (mini-passo opcional, só quando o tema pede prova).** Se o ponto do reel se apoia em dado, contraponto ou caso (não é puro relato pessoal), minera ANTES de roteirizar: 1 dado/estatística que sustenta o ângulo, ou 1 crença comum do nicho pra contestar, ou 1 caso real. Puxa isso da fonte do cliente (Plano, prova real dele) ou de pesquisa quando for fato público verificável. Regra dura: o dado só entra se for REAL e verificável; número que você não confirmou vira `[DADO: confirmar]` e **não conta como Ancorado=✓**. Nunca fabrica estatística "plausível". Reel de puro storytelling pula esse passo.
 
@@ -150,7 +150,7 @@ Dispara quando o dono cola a **URL de um reel** ou aponta uma base de referênci
 ## When NOT to use (manda pra skill certa)
 - Pediu só a **headline / gancho / capa / abertura** isolada → **soft-conteudo-headlines** (e faz a headline ANTES deste reel).
 - Pediu **carrossel** → **soft-conteudo-carrossel**. Pediu **stories** → **soft-conteudo-stories**. Pediu **adaptar pra LinkedIn/X/YouTube** → **soft-conteudo-multiplataforma**.
-- Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
+- Pediu o **Plano / posicionamento / fundação** → **soft-plano-posicionamento**.
 - Pediu **arte/visual/PNG/edição** → **soft-designer**.
 - Pediu **carta / VSL / página / venda** → **soft-funil-carta**.
 

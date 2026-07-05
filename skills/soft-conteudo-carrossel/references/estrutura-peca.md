@@ -198,7 +198,7 @@ Teste: *"se eu publicar essa peça, ela aumenta ou diminui o motivo de comprar o
 
 > *Dá o tijolo. Não dá a planta da casa.*
 
-Detalhe completo em `references/06-carrossel.md` (engenharia do formato) e no Mecanismo da `soft-posicionamento`.
+Detalhe completo em `references/06-carrossel.md` (engenharia do formato) e no Mecanismo da `soft-plano-posicionamento`.
 
 ## As 7 formas de executar o Conteúdo
 

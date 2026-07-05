@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do gate + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do gate + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-plano-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
 ---
 
 # Carrossel, a peça que move a decisão
@@ -174,7 +174,7 @@ Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide no
 - Pediu **headline / capa / gancho / abertura** isolada → **soft-conteudo-headlines**.
 - Pediu **arte / visual / PNG / design dos slides** → **soft-designer**.
 - Pediu **reel** → **soft-conteudo-reels** · **stories** → **soft-conteudo-stories** · **adaptação multiplataforma** → **soft-conteudo-multiplataforma**.
-- Pediu **Plano / posicionamento / fundação / mecanismo** → **soft-posicionamento**.
+- Pediu **Plano / posicionamento / fundação / mecanismo** → **soft-plano-posicionamento**.
 - Pediu **carta / VSL / página / a venda em si** → **soft-funil-carta / soft-funil-landing**.
 
 ## Anti-Patterns (sintoma → correção)

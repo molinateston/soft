@@ -1,6 +1,6 @@
 ---
 name: soft-vendas-sdr
-description: O SDR do método Soft, a frente que ABRE, QUALIFICA e AGENDA o lead, sozinho no CRM/WhatsApp 24/7 ou operado por uma pessoa. Faz a metade de cima da venda e contém TUDO do tema, a técnica de topo (prospecção nos 3 cenários da DM, qualificação com BANT, pré-qualificador Mini Carta/Mini Webinar, downsell) e o corpo operacional autônomo no CRM GHL/GoHighLevel (agenda, move o card, follow-up, gate de segurança), o diferencial da skill. Vende a SESSÃO como vaga escassa (guardião da agenda), nunca o produto, e passa o lead QUENTE com contexto pro fechamento. Use SEMPRE que envolver "SDR", "SDR de IA", "abrir/qualificar lead", "prospecção na DM/Direct", "atender lead sozinho", "WhatsApp automático", "agendar/vender a sessão", "conectar CRM", "GHL", "GoHighLevel", "follow-up/reativar", "pré-qualificador". NÃO use pro FECHAMENTO (conduzir a sessão, objeção de preço, pedir o sim, contrato, pós-venda) que é da soft-vendas-closer; nem funil, posicionamento ou webinar (soft-funil/soft-posicionamento/soft-webinar-*).
+description: O SDR do método Soft, a frente que ABRE, QUALIFICA e AGENDA o lead, sozinho no CRM/WhatsApp 24/7 ou operado por uma pessoa. Faz a metade de cima da venda e contém TUDO do tema, a técnica de topo (prospecção nos 3 cenários da DM, qualificação com BANT, pré-qualificador Mini Carta/Mini Webinar, downsell) e o corpo operacional autônomo no CRM GHL/GoHighLevel (agenda, move o card, follow-up, gate de segurança), o diferencial da skill. Vende a SESSÃO como vaga escassa (guardião da agenda), nunca o produto, e passa o lead QUENTE com contexto pro fechamento. Use SEMPRE que envolver "SDR", "SDR de IA", "abrir/qualificar lead", "prospecção na DM/Direct", "atender lead sozinho", "WhatsApp automático", "agendar/vender a sessão", "conectar CRM", "GHL", "GoHighLevel", "follow-up/reativar", "pré-qualificador". NÃO use pro FECHAMENTO (conduzir a sessão, objeção de preço, pedir o sim, contrato, pós-venda) que é da soft-vendas-closer; nem funil, posicionamento ou webinar (soft-funil/soft-plano-posicionamento/soft-webinar-*).
 ---
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -127,7 +127,7 @@ Autônomo **não é solto.** Faz sozinho o reversível e dentro do método; para
 - **Agente / Telegram (LEON e frota):** o ambiente FORTE do SDR. É onde ele roda **autônomo 24/7** dentro do CRM do cliente, acordado por webhook, respondendo lead de verdade. O `.env` é re-lido ao vivo (token vale sem restart). Aqui a skill entrega o SDR **operando**, não um texto sobre SDR.
 
 ## Como ativar num projeto (o fluxo de entrega)
-1. **Levanta o contexto:** que CRM (GHL primeiro), a Oferta/PUV (da `soft-posicionamento`), o ticket (define o caminho pelo limiar), o calendário da sessão, quem é o closer.
+1. **Levanta o contexto:** que CRM (GHL primeiro), a Oferta/PUV (da `soft-plano-posicionamento`), o ticket (define o caminho pelo limiar), o calendário da sessão, quem é o closer.
 2. **Conecta o CRM:** segue `references/setup-conexao.md`; testa (lê 1 contato, lista o calendário) ANTES de ligar. Conexão quebrada não liga o SDR.
 3. **Carrega o método:** a técnica de topo já vive aqui; o **fechamento** (pra quando o lead cai no closer) vem da `soft-vendas-closer`. Confirma que a Oferta/PUV do cliente está de pé.
 4. **Confirma o gate:** mostra a tabela pro dono, ajusta o que ele quer apertar, pega o OK.
@@ -150,7 +150,7 @@ Autônomo **não é solto.** Faz sozinho o reversível e dentro do método; para
 ## When NOT to use
 - **Conduzir e FECHAR a venda** (a sessão de fechamento, isolar objeção de preço, pedir o sim, contrato, pós-venda, indicação, testemunho) → **soft-vendas-closer**. O SDR para no agendamento com contexto.
 - **Carta, VSL, mini-webinar ou landing** que traz o lead → `soft-funil-*`.
-- **Posicionamento, Oferta, PUV, Mecanismo, Voz** → `soft-posicionamento` (o SDR consome a oferta pronta).
+- **Posicionamento, Oferta, PUV, Mecanismo, Voz** → `soft-plano-posicionamento` (o SDR consome a oferta pronta).
 - **Conteúdo de feed** (carrossel, reel, stories, headline) → `soft-conteudo-*`.
 - **Onde começar / próximo passo / diagnóstico da jornada** → `soft-leon`.
 - **O webinar:** o Funil de Aula fecha no checkout (`soft-webinar-*`); o SDR é o 1:1/comercial.
@@ -171,4 +171,4 @@ Autônomo **não é solto.** Faz sozinho o reversível e dentro do método; para
 
 ## Handoff
 - **Pra frente (o principal):** lead qualificado + agendado → **soft-vendas-closer**, com o contexto pronto na nota do CRM. É o handoff quente que faz a sessão converter.
-- **Pra trás:** os números do SDR (leads → qualificados → agendados → show rate) voltam pro **LEON**, que calibra a rotina; pré-qualificador que falta → `soft-funil-carta`/`soft-funil-miniwebinar`; oferta/tabela indefinida → `soft-posicionamento`.
+- **Pra trás:** os números do SDR (leads → qualificados → agendados → show rate) voltam pro **LEON**, que calibra a rotina; pré-qualificador que falta → `soft-funil-carta`/`soft-funil-miniwebinar`; oferta/tabela indefinida → `soft-plano-posicionamento`.

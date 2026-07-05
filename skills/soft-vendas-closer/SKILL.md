@@ -1,6 +1,6 @@
 ---
 name: soft-vendas-closer
-description: O CLOSER do método Soft, a frente que CONDUZ e FECHA o lead que já chegou quente. Faz a metade de baixo da venda e contém TUDO do tema, a espinha das 7 fases, o fechamento na DM/WhatsApp (canal default do 1:1), o banco de objeções, o script por canal, o copiloto em tempo real, a análise de conversa, a Conta de Padaria + a coleta de sinal/Pix na hora, a mentalidade do vendedor, o pós-venda (indicação, testemunho, troca bônus-por-prova). Recebe o lead qualificado do SDR (com contexto) OU direto do funil; puxa a Oferta/PUV do Plano. Use SEMPRE que envolver "script de venda", "conduzir/fechar a venda", "objeção", "tá caro/vou pensar", "pedir o sim", "coletar o Pix/sinal", "follow-up", "copiloto", "analisa essa conversa", "não consigo cobrar caro", "pós-venda", "indicação", "testemunho". NÃO use pra ABRIR/qualificar/agendar lead frio, prospecção na DM, SDR, CRM (soft-vendas-sdr); contrato (soft-contratos-consultoria); carta/VSL/landing (soft-funil); posicionamento (soft-posicionamento); conteúdo (soft-conteudo).
+description: O CLOSER do método Soft, a frente que CONDUZ e FECHA o lead que já chegou quente. Faz a metade de baixo da venda e contém TUDO do tema, a espinha das 7 fases, o fechamento na DM/WhatsApp (canal default do 1:1), o banco de objeções, o script por canal, o copiloto em tempo real, a análise de conversa, a Conta de Padaria + a coleta de sinal/Pix, a mentalidade do vendedor, o pós-venda (indicação, testemunho, troca bônus-por-prova). Recebe o lead qualificado do SDR (com contexto) OU direto do funil; puxa a Oferta/PUV do Plano. Use SEMPRE que envolver "script de venda", "conduzir/fechar a venda", "objeção", "tá caro/vou pensar", "pedir o sim", "coletar o Pix/sinal", "follow-up", "copiloto", "analisa essa conversa", "não consigo cobrar caro", "pós-venda", "indicação", "testemunho". NÃO use pra ABRIR/qualificar/agendar lead frio, prospecção na DM, SDR, CRM (soft-vendas-sdr); contrato (soft-contratos-consultoria); carta/VSL/landing (soft-funil); posicionamento (soft-plano-posicionamento); conteúdo (soft-conteudo).
 ---
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -33,7 +33,7 @@ Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM doc
 
 Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à força: ela **revela a dor que já existe** e pede a decisão. O lead chega quente (veio do funil ou o SDR entregou o lead qualificado com contexto). Aqui você **confirma, não convence**, mas a conversa ainda precisa ser conduzida, e é isso que esta skill faz.
 
-**Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
+**Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-plano-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
 
 ## De onde vem o lead (a fronteira com a soft-vendas-sdr)
 
@@ -102,7 +102,7 @@ Isola antes de responder quando der: *"É só isso ou tem mais coisa emperrando?
 Se a mesma objeção volta duas vezes, é outra coisa: *"Acho que tem algo além disso. O que é?"* Não nomeou, é curiosidade, não comprador, encerra com leveza.
 
 ## Fechar high-ticket na DM (o canal DEFAULT, detalhe em `dm-sem-call`)
-Quando o lead já chega quente (viu o perfil, consumiu um material, veio do SDR) e quer **resolver agora** sem marcar call, você fecha 100% na DM/WhatsApp com áudio, doc e vídeo curto. Comprime a espinha de 7 fases em **5 etapas** (Conexão → Qualificação com 3-4 perguntas que filtram → Autoridade em áudio que normaliza a dor + pede permissão "posso te mostrar como funciona?" → Oferta com doc/vídeo de 3min + "já libero seu acesso" → Follow-up 10min/24h/24h). Doutrina: **venda fácil = entrega fácil**, não mata objeção à força; e **só flexibiliza o preço quando a própria pessoa abre a brecha** ("só teria metade agora" → ajusta a forma de pagamento, nunca baixa o valor cheio). O doc/vídeo da oferta puxa o bloco Oferta da `soft-posicionamento`. A abordagem fria que TRAZ o lead até aqui é da `soft-vendas-sdr`.
+Quando o lead já chega quente (viu o perfil, consumiu um material, veio do SDR) e quer **resolver agora** sem marcar call, você fecha 100% na DM/WhatsApp com áudio, doc e vídeo curto. Comprime a espinha de 7 fases em **5 etapas** (Conexão → Qualificação com 3-4 perguntas que filtram → Autoridade em áudio que normaliza a dor + pede permissão "posso te mostrar como funciona?" → Oferta com doc/vídeo de 3min + "já libero seu acesso" → Follow-up 10min/24h/24h). Doutrina: **venda fácil = entrega fácil**, não mata objeção à força; e **só flexibiliza o preço quando a própria pessoa abre a brecha** ("só teria metade agora" → ajusta a forma de pagamento, nunca baixa o valor cheio). O doc/vídeo da oferta puxa o bloco Oferta da `soft-plano-posicionamento`. A abordagem fria que TRAZ o lead até aqui é da `soft-vendas-sdr`.
 
 ## Coletar o sinal/Pix na hora (detalhe em `comercial-1a1-e-conta-de-padaria`)
 "Manda o link" não é coleta. Pegar o Pix na própria reunião é uma habilidade separada de vender. As 6 jogadas de campo (a energia leve e o silêncio que mata · a condição única da call gravada · o sinal é prova de comprometimento · negociar o sinal possível · plano A/B/C do pagamento · o "faço depois" que se converte na hora) preenchem o buraco entre o "sim" e o dinheiro na conta. Tudo segue a lei Soft: escassez real nunca inventada, o sinal é prova de comprometimento (não armadilha), respeita-se o não.
@@ -110,12 +110,12 @@ Quando o lead já chega quente (viu o perfil, consumiu um material, veio do SDR)
 ## ⛔ STOP antes de mandar pro lead
 Um único STOP, sobre a PEÇA INTEIRA já montada no DOC (o script COMPLETO das 7 fases até o Pix, ou o próximo passo/resposta de objeção completo). Mostra no DOC, imprime a tabela do Crivo ANTES dele (ver o gate abaixo) e **PARA**: pergunta *"ajusto ou pode ir pro lead?"*. Nunca despeja a peça direto pro lead nem assume o "manda". A condução é sua; o disparo é do dono. **Não confunda "peça consolidada" com "liberação incremental de fases":** parar na F3 e prometer o resto pro próximo passo QUEBRA a regra `ENTREGA = UM doc completo` (é o anti-pattern do bloco de entrega acima). O STOP é sobre o doc pronto, não sobre liberar fase por fase. **No copiloto ao vivo** o STOP é implícito (o dono está na conversa e decide na hora), mas mesmo lá você entrega UMA jogada por vez, nunca um roteiro inteiro de uma vez.
 
-> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do Léo (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (Plano na `soft-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Léo.
+> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do Léo (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (Plano na `soft-plano-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do Léo.
 >
 > **Aspa de cliente exige GREP visível na fonte real do usuário.** Toda fala entre aspas que se declara verbatim tem que ser substring literal que você grepou e mostrou na fonte de VoC DELE (a tabela de ancoragem, `01-entrada-verbatim.md` passo 6). **Persona fictícia SEM perfil de VoC real não tem fonte, logo NÃO pode ter aspa "real":** aí a peça sai marcada `RASCUNHO-COM-PENDÊNCIA` / `[A CONFIRMAR]` e roteia pro onboarding. É PROIBIDO afirmar "verbatim-âncora, fonte real da [persona]" ou "nenhuma aspa é inventada, todas batem na fonte" sem o grep à mostra na fonte do usuário. Sem fonte, não se ASSUME nem se DECLARA verbatim, marca-se rascunho. Encenar a ancoragem (afirmar que bateu sem grepar) é a fraude que o gate existe pra matar.
 
 ## Como conduz (por pergunta, nunca despeja)
-1. Confirma o Plano (Oferta + PUV + Mecanismo + Voz). Sem ele, volta pra `soft-posicionamento`.
+1. Confirma o Plano (Oferta + PUV + Mecanismo + Voz). Sem ele, volta pra `soft-plano-posicionamento`.
 2. Confirma de onde vem o lead: veio do funil quente? veio do SDR com nota no CRM (então lê a nota e ecoa)? Nunca faz o lead repetir o que já contou.
 3. Pergunta o estágio: conduzir/gerar o script (DM / call / reunião)? uma objeção específica? diagnóstico de uma conversa que empacou? copiloto em tempo real? pós-venda (indicação / testemunho)?
 4. Puxa o reference certo (`processo-conversao` é o hub) + os densos da etapa.
@@ -154,7 +154,7 @@ BLOCO: [o slide/parágrafo/fala, entre aspas]
 - **Abrir conversa fria, prospectar no Direct, qualificar de leve, vender/agendar a sessão, operar o CRM (GHL/GoHighLevel), o SDR de IA** → **soft-vendas-sdr**. Esta skill começa quando o lead já chega quente.
 - **Contrato de mentoria/consultoria** (depois do sim) → **soft-contratos-consultoria** (cláusulas anti-calote/pagamento/PF-PJ/por formato, glossário jurídico, modo enxuto vs robusto). Fechou a venda → gera o contrato lá, sem trocar de método.
 - **Carta, VSL, mini-webinar ou landing** (aquecer/qualificar o lead antes da conversa) → `soft-funil-carta`, `soft-funil-miniwebinar`, `soft-funil-landing`.
-- **Posicionamento, Oferta, PUV, Mecanismo, Voz** (a fundação de onde o script puxa) → `soft-posicionamento`. Sem Plano, a venda volta pra lá.
+- **Posicionamento, Oferta, PUV, Mecanismo, Voz** (a fundação de onde o script puxa) → `soft-plano-posicionamento`. Sem Plano, a venda volta pra lá.
 - **Conteúdo de feed** (carrossel, reel, stories, headline) → `soft-conteudo-*`.
 - **Onde começar / próximo passo / diagnóstico da jornada** → `soft-leon` (o orquestrador invoca esta skill quando chega no fechamento).
 
@@ -172,5 +172,5 @@ BLOCO: [o slide/parágrafo/fala, entre aspas]
 | Nome de framework vazando pro lead | "Degrau de implicação" soa manual, mata a naturalidade | O framework opera invisível; vira pergunta em linguagem do nicho |
 
 ## Handoff
-- **Pra trás:** lead frio, prospecção, qualificação, agendamento → **soft-vendas-sdr** (o closer não abre conversa fria). Pré-qualificador que falta → `soft-funil-carta`/`soft-funil-miniwebinar`. Oferta/PUV indefinida → `soft-posicionamento`.
-- **Pra frente:** venda fechada → contrato na **soft-contratos-consultoria**; os números (lead → reunião → venda → ticket) voltam pro **LEON**, que calibra a rotina; cliente novo → o pós-venda abre indicações e testemunho (a troca bônus-por-prova), que viram prova pra `soft-posicionamento` e as `soft-conteudo-*`.
+- **Pra trás:** lead frio, prospecção, qualificação, agendamento → **soft-vendas-sdr** (o closer não abre conversa fria). Pré-qualificador que falta → `soft-funil-carta`/`soft-funil-miniwebinar`. Oferta/PUV indefinida → `soft-plano-posicionamento`.
+- **Pra frente:** venda fechada → contrato na **soft-contratos-consultoria**; os números (lead → reunião → venda → ticket) voltam pro **LEON**, que calibra a rotina; cliente novo → o pós-venda abre indicações e testemunho (a troca bônus-por-prova), que viram prova pra `soft-plano-posicionamento` e as `soft-conteudo-*`.

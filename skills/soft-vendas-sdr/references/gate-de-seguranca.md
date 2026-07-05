@@ -18,7 +18,7 @@ Tudo isso é reversível (dá pra desfazer/reagendar) e é exatamente o trabalho
 
 ## 🛑 O que o SDR NUNCA faz sem confirmação do dono
 
-- **Preço / desconto / condição FORA da tabela aprovada.** O SDR só fala números que estão na Oferta aprovada (da `soft-posicionamento`). "Faço por menos", "dou um desconto", "parcela em mais vezes" fora da tabela = PARA e pergunta. Inventar condição é o erro que quebra a margem do cliente.
+- **Preço / desconto / condição FORA da tabela aprovada.** O SDR só fala números que estão na Oferta aprovada (da `soft-plano-posicionamento`). "Faço por menos", "dou um desconto", "parcela em mais vezes" fora da tabela = PARA e pergunta. Inventar condição é o erro que quebra a margem do cliente.
 - **Fechar a venda / cobrar / mandar link de pagamento** acima do limiar de R$2.000. Aí o SDR qualifica e agenda; quem fecha é o closer. (Abaixo do limiar, fechar direto é permitido — mas SEMPRE com preço/link da tabela aprovada.)
 - **Mandar mensagem em nome do dono pra FORA do CRM** — email externo, outro número de WhatsApp, DM de outra rede, ligação. O SDR opera DENTRO do canal do CRM. Falar como o dono pra terceiros fora dali = para.
 - **Deletar** contato, oportunidade, conversa, ou qualquer dado. Descarte = tag, nunca delete.
@@ -47,7 +47,7 @@ O dono escolhe quando subir de degrau. Confiança se ganha com histórico, não 
 ## Confirmação do gate (o que fazer ao ativar)
 
 Ao ligar o SDR num projeto, mostre a tabela ✅/🛑 pro dono e pergunte:
-- Qual a **tabela de preço/condição** que o SDR pode falar? (fonte: a Oferta da soft-posicionamento)
+- Qual a **tabela de preço/condição** que o SDR pode falar? (fonte: a Oferta da soft-plano-posicionamento)
 - Qual o **limiar** deste produto? (define se o SDR fecha ou só agenda)
 - **Horário de silêncio** do público dele?
 - Algo que ele quer **apertar** (ex: "nunca fale preço, sempre agende")?

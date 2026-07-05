@@ -42,7 +42,7 @@ Engajamento qualificado = salvar + compartilhar (não like, não comentário dec
 | CTR no link da Carta | 1% | 3% | 0,5% | Encurtador (Bitly, link nativo IG) |
 | Cliques no botão "Ver Mais" do Reel | 5% dos que assistiram 50%+ | 15% | 2% | Insights do Reel |
 
-**Sinal de vazamento aqui = bio fraca ou CTA da peça inexistente.** Peça não direciona pra ação clara, ou direciona mas a bio não vende clique. Conserta CTA na peça + bio (reference o Perfil Enxuto da skill `soft-posicionamento`).
+**Sinal de vazamento aqui = bio fraca ou CTA da peça inexistente.** Peça não direciona pra ação clara, ou direciona mas a bio não vende clique. Conserta CTA na peça + bio (reference o Perfil Enxuto da skill `soft-plano-posicionamento`).
 
 ### Etapa 4, Clique → DM qualificado
 

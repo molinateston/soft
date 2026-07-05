@@ -198,7 +198,7 @@ Teste: *"se eu publicar essa peça, ela aumenta ou diminui o motivo de comprar o
 
 > *Dá o tijolo. Não dá a planta da casa.*
 
-Detalhe completo no núcleo da peça-âncora (`references/nucleo-soft-extracao.md`) e no Mecanismo da `soft-posicionamento`.
+Detalhe completo no núcleo da peça-âncora (`references/nucleo-soft-extracao.md`) e no Mecanismo da `soft-plano-posicionamento`.
 
 ## As 7 formas de executar o Conteúdo
 

@@ -69,7 +69,7 @@ O cliente ajusta. O LEON crava. Esse é o Briefing de Concepção, o insumo que 
 
 ### Skill invocada
 
-Nenhuma ainda. O Passo 0 é o próprio LEON entrevistando. A síntese vira o insumo estruturado que ele entrega à `soft-posicionamento` no Passo 2 (que, por isso, pula o briefing dela).
+Nenhuma ainda. O Passo 0 é o próprio LEON entrevistando. A síntese vira o insumo estruturado que ele entrega à `soft-plano-posicionamento` no Passo 2 (que, por isso, pula o briefing dela).
 
 ---
 
@@ -109,7 +109,7 @@ Quase nada, esse passo é trabalho do LEON. No máximo o especialista confirma 1
 
 ### Skill invocada
 
-Ainda o LEON, usando WebSearch + WebFetch nas fontes públicas do nicho do cliente, mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
+Ainda o LEON, usando WebSearch + WebFetch nas fontes públicas do nicho do cliente, mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-plano-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
 
 ---
 
@@ -183,7 +183,7 @@ Antes de invocar a skill, o LEON ensina em três parágrafos por que esta etapa 
 
 Invoca a skill explicitamente:
 
-> *"Abre uma conversa nova e aciona a `soft-posicionamento`. Eu já vou passar pra ela o que extraí de você na concepção e na Super Pesquisa, você não vai repetir tudo. Traz o Plano pronto aqui pra eu validar."*
+> *"Abre uma conversa nova e aciona a `soft-plano-posicionamento`. Eu já vou passar pra ela o que extraí de você na concepção e na Super Pesquisa, você não vai repetir tudo. Traz o Plano pronto aqui pra eu validar."*
 
 A skill entra com o Briefing de Concepção e o Dossiê de Nicho já na mão. Ela roda a própria pesquisa de mercado pra confirmar e aprofundar, faz uma entrevista dirigida (sem repetir o que o LEON já extraiu), trabalha o território em silêncio e constrói os três blocos e as duas saídas, um a um, mostrando cada um e pedindo "tá bom? ajusto?".
 
@@ -210,13 +210,13 @@ Se o especialista responde com jargão de mercado, ou "ajudo pessoas" sem recort
 
 ### Skill invocada
 
-`soft-posicionamento`.
+`soft-plano-posicionamento`.
 
 ---
 
 ## PASSO 3, Identidade de Voz
 
-**O ativo de saída:** a Identidade de Voz destilada, empacotada como `soft-posicionamento-[nome-do-cliente]`. O ativo de IA que vai produzir tudo dele daqui pra frente.
+**O ativo de saída:** a Identidade de Voz destilada, empacotada como `soft-plano-posicionamento-[nome-do-cliente]`. O ativo de IA que vai produzir tudo dele daqui pra frente.
 
 ### A pílula do LEON
 
@@ -226,7 +226,7 @@ Se o especialista responde com jargão de mercado, ou "ajudo pessoas" sem recort
 
 ### O que o LEON faz
 
-> *"Abre conversa nova e aciona a `soft-posicionamento`. Ela vai pegar o Plano que a gente fechou, a persona-âncora é o destinatário da sua voz. Traz a voz destilada aqui."*
+> *"Abre conversa nova e aciona a `soft-plano-posicionamento`. Ela vai pegar o Plano que a gente fechou, a persona-âncora é o destinatário da sua voz. Traz a voz destilada aqui."*
 
 A skill conduz a descoberta observando a voz natural. Pede material real (áudios, textos que o especialista já escreveu), identifica padrões, e destila cinco elementos, sem prescrever, amplificando o que é singular.
 
@@ -240,7 +240,7 @@ Material bruto da própria voz e respostas às perguntas-fonte da skill. Sai com
 4. **Valores e anti-valores**: o que ele defende e o que ele recusa explicitamente. Valor sem anti-valor é gelatina.
 5. **Pilares de conteúdo**: os 3 a 5 temas que organizam tudo que ele publica.
 
-Os cinco viram a skill `soft-posicionamento-[nome-dele]`, o pacote que toda peça das fases seguintes vai consultar. É o que separa "conteúdo seu, feito com ajuda de IA" de "conteúdo de IA qualquer".
+Os cinco viram a skill `soft-plano-posicionamento-[nome-dele]`, o pacote que toda peça das fases seguintes vai consultar. É o que separa "conteúdo seu, feito com ajuda de IA" de "conteúdo de IA qualquer".
 
 ### Como o LEON valida
 
@@ -250,7 +250,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ### Skill invocada
 
-`soft-posicionamento`.
+`soft-plano-posicionamento`.
 
 ---
 
@@ -268,7 +268,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ### O que o LEON faz
 
-> *"Abre conversa nova e aciona a `soft-funil-carta`. Ela já vai ler sua `soft-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
+> *"Abre conversa nova e aciona a `soft-funil-carta`. Ela já vai ler sua `soft-plano-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
 
 A skill confirma os pré-requisitos (Plano e Voz definidos), escreve primeiro a espinha em texto corrido na voz do cliente, depois adapta ao formato escolhido (Carta em 4 blocos pra leitura solitária, ou Vídeo com os timings de gravação), e diagrama caso a caso.
 
@@ -303,7 +303,7 @@ Existe um segundo trilho, o **FUNIL WEBINAR** (degrau 2 da escada), pra quando o
 
 Quando o caso pede webinar, a única coisa que muda é o **miolo do funil**. No lugar da Mini Carta do Passo 4, o LEON invoca a `soft-webinar-plano`, que entrega o pacote inteiro na ordem do método (oferta antes do roteiro, depois roteiro ADMA, deck, gravação, páginas, e-mails/WhatsApp, anúncios, máquina de pós-webinar). Tudo o que vem antes (Passos 0 a 3: concepção, pesquisa, projeção, posicionamento, voz) e tudo o que vem depois (feed, stories, e o **fechamento comercial sempre na `soft-vendas-closer`**) é idêntico. O webinar qualifica o lead; high-ticket (3k+) fecha no 1:1, nunca no checkout.
 
-O degrau 3, Soft Launch / lançamento pago (`soft-lancamento-pago`), está **fora do escopo deste guia autoguiado**. É outro trilho, com skill própria, e não entra na condução aqui.
+Existe ainda um terceiro trilho, o **FUNIL DE LANÇAMENTO** (degrau 3, `soft-launch`): o lançamento completo, pago ou gratuito, evento com carrinho, escassez honesta e tráfego. É injeção pontual sobre o sistema (máximo 1-2 por ano) e só entra depois dos degraus 1 e 2 de pé. Este guia autoguiado foca a base (degraus 1 e 2); quando o caso pede lançamento, o LEON invoca a `soft-launch`, que roda primeiro o diagnóstico de viabilidade antes de montar o plano.
 
 A régua de invocação dos dois trilhos vive em `references/manifesto-funis.md`: o pipeline explícito, passo a passo, com o gate de cada etapa. É de lá que o LEON tira a certeza de qual mãe invocar e em que ordem, sem depender de memória.
 
@@ -479,7 +479,7 @@ Quando o especialista chega aqui, ele não tem "umas ideias de marketing". Ele t
 - **O Dossiê de Nicho**: mercado, concorrentes e a linguagem real do público, salvo e reusável. (Passo 0.5)
 - **A Tabela de Projeção**: a meta calibrada e o tamanho do trabalho em números. (Passo 1)
 - **O Plano de Marca Pessoal**: Discurso, Mecanismo nomeado, Proposta em 3 Níveis, Perfil Enxuto, Fundação de Headlines. (Passo 2)
-- **A Identidade de Voz**: empacotada como `soft-posicionamento-[nome-dele]`, o ativo de IA que produz tudo na voz dele. (Passo 3)
+- **A Identidade de Voz**: empacotada como `soft-plano-posicionamento-[nome-dele]`, o ativo de IA que produz tudo na voz dele. (Passo 3)
 - **A Carta / Vídeo Minimalista**: a peça que qualifica antes da conversa. (Passo 4)
 - **O Feed**: carrosséis e reels, copy + PNGs, prontos pra publicar e impulsionar. (Passo 5)
 - **Os Stories**: rotina diária, caixinhas e sequência de venda. (Passo 6)

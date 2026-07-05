@@ -108,7 +108,7 @@ Sem interesse secreto. Segmenta pelo perfil de cliente ideal com **interesses ó
 
 ## Diagnóstico rápido
 
-- **Chega muita visita mas ninguém segue** → o problema é **nutrição** (feed), não o anúncio. A atração está ok, falta conteúdo que retenha. Volta pro conteúdo de feed / perfil (`soft-posicionamento` modo perfil + `soft-conteudo-*`).
+- **Chega muita visita mas ninguém segue** → o problema é **nutrição** (feed), não o anúncio. A atração está ok, falta conteúdo que retenha. Volta pro conteúdo de feed / perfil (`soft-plano-posicionamento` modo perfil + `soft-conteudo-*`).
 - **Custo por visita acima da faixa** → o criativo não está gerando atenção qualificada (associação fraca ou pública errada); testa outra associação, troca o público.
 - **Chega gente errada (fora do ICP)** → a associação está genérica demais ou a segmentação está larga; aperta o interesse do nicho e reforça a Big Idea no criativo.
 

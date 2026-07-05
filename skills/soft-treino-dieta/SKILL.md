@@ -216,11 +216,11 @@ A regra de "não encher de disclaimer" vale para coaching de rotina. Ela NÃO va
 ## When NOT to Use (roteia pra skill certa)
 Esta skill é o destino de tudo que é **treino, dieta e saúde musculoesquelética** (iniciante ou avançado, com ou sem artrose). O que NÃO é dela:
 
-- Pediu **posicionamento, método de marca, oferta ou proposta de valor** → `soft-posicionamento`.
+- Pediu **posicionamento, método de marca, oferta ou proposta de valor** → `soft-plano-posicionamento`.
 - Pediu **carrossel, reel, story, headline, conteúdo de feed** → `soft-conteudo-*` (carrossel/reels/stories) / `soft-conteudo-headlines`.
 - Pediu **carta, VSL, landing, funil, isca** → `soft-funil-*` (carta/landing/isca).
 - Pediu **script de venda, objeção, fechamento** → `soft-vendas-closer`; **prospecção/abertura de lead frio** → `soft-vendas-sdr`.
-- Pediu **webinar / lançamento** → `soft-webinar-plano` / `soft-lancamento-pago`.
+- Pediu **webinar / lançamento** → `soft-webinar-plano` / `soft-launch`.
 - Não sabe por onde começar o negócio, qual fase, próximo passo → `soft-leon` (o Sócio IA orquestra e chama a mãe certa).
 
 Resumo: dúvida de corpo/saúde fica aqui; dúvida de marketing/negócio vai pras `soft-*`. Esta skill nunca opina sobre posicionamento, oferta ou copy.

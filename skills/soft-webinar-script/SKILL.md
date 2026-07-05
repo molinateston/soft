@@ -49,7 +49,7 @@ O Plano-base entrega ~70% dos insumos; a aula ADICIONA só a Camada Webinar. **A
 
 Três estados de entrada (declara qual é o seu):
 - **Tem oferta + Plano completos:** ancora em tudo acima. Caminho ideal.
-- **Tem nicho mas falta peça:** NÃO inventa. Cada slide ancora em prova real; o que falta entra como `[DADO: confirmar]` ou `[SLOT: definir com o cliente]`. Avisa que rodar soft-webinar-plano e soft-posicionamento antes deixa a aula muito mais cravada.
+- **Tem nicho mas falta peça:** NÃO inventa. Cada slide ancora em prova real; o que falta entra como `[DADO: confirmar]` ou `[SLOT: definir com o cliente]`. Avisa que rodar soft-webinar-plano e soft-plano-posicionamento antes deixa a aula muito mais cravada.
 - **Sem nada:** pergunta numa única mensagem (nicho + tese + inimigo + oferta + preço) e segue.
 
 > **É hora de webinar?** Se o cliente chegou sem o degrau 1 firme (sem arroz-com-feijão rodando, sem case, sem narrativa validada), **lê `references/escolha-carta-mt-webinario.md`** (a régua de maturidade dos 5) antes de escrever: na maioria das vezes a resposta honesta é "ainda não, volta pro Funil Soft". O webinar amplifica o argumento que já existe; argumento fraco amplifica a fraqueza com custo 10x maior.
@@ -209,7 +209,7 @@ Mostra **só o que passou, LIMPO** (no DOC, nunca solto no chat): cada slide com
 - Pediu **design fino / arte / PNG / layout final** do deck → **soft-designer**.
 - Pediu **só a headline/abertura isolada** ou banco de ganchos → **soft-conteudo-headlines**.
 - Pediu **carta de vendas / VSL / micro-aula / funil** → **soft-funil-carta/-landing/-miniwebinar**.
-- Pediu o **Plano / posicionamento / nomear mecanismo** do zero → **soft-posicionamento**.
+- Pediu o **Plano / posicionamento / nomear mecanismo** do zero → **soft-plano-posicionamento**.
 - Pediu a **venda 1:1 / script de WhatsApp / objeção na conversa** → **soft-vendas-closer**.
 
 ## Anti-Patterns (sintoma → correção)

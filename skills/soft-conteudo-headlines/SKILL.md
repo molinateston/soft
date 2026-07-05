@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-headlines
-description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do gate + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinar-plano).
+description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do gate + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-plano-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinar-plano).
 ---
 
 # Headline, os primeiros 3 segundos
@@ -29,7 +29,7 @@ Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto**
 
 Três estados de entrada (declara qual é o seu antes de escrever):
 - **Tem fala real (com N):** ancora nela e cita o N. Caminho ideal.
-- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Cada headline ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número que você não confirmou entra como `[DADO: confirmar]` e **NÃO conta como Ancorada=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa as headlines muito mais cravadas.
+- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Cada headline ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número que você não confirmou entra como `[DADO: confirmar]` e **NÃO conta como Ancorada=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa as headlines muito mais cravadas.
 - **Sem nicho e sem nada:** pergunta numa única mensagem (nicho em 1 linha + 1 dor real que o cliente fala) e segue daí.
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · lista do "não defendo" · cliente em uma frase.
@@ -157,7 +157,7 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **CORPO** da peça → **soft-conteudo-carrossel** (slides do carrossel) · **soft-conteudo-reels** (roteiro do reel) · **soft-conteudo-stories** (arco de stories).
-- Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
+- Pediu o **Plano / posicionamento / fundação** → **soft-plano-posicionamento**.
 - Pediu **arte/visual/PNG** → **soft-designer**.
 - Pediu **abertura de VSL / webinar** → **soft-webinar-plano** (a headline de webinar é operada lá).
 

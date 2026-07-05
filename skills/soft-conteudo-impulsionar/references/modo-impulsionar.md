@@ -4,7 +4,7 @@
 >
 > **O que entrega:** decisão de impulsionamento por peça · estratégia de Distribuição Pura · régua de custo por seguidor · diagnóstico de campanha que não converte.
 >
-> **O que NÃO faz:** este modo cobre tráfego pago **básico** do Especialista solo (turbinar + campanhas simples no gerenciador). Pra lançamento pago tático (eventos, picos, congresso, ingresso pago), invocar `soft-lancamento-pago` (degrau 3).
+> **O que NÃO faz:** este modo cobre tráfego pago **básico** do Especialista solo (turbinar + campanhas simples no gerenciador). Pra lançamento pago tático (eventos, picos, congresso, ingresso pago), invocar `soft-launch` (degrau 3).
 
 ---
 
@@ -245,7 +245,7 @@ Métricas-chave (vide `metricas.md`):
 | DMs chegando, sem fechamento | Carta fraca OU público errado | Diagnóstico: revisa Carta (desejo) · revisa público (atração) |
 | Engagement do turbinado < orgânico | Público pago errado | Só turbinar pra interesse + lookalike de seguidores |
 | Custo subindo após 7 dias | Fadiga de criativo | Pausa · novo criativo |
-| Tráfego rodando mas perfil não cresce | Bio/Destaques fracos · público chega e vaza | Consultar `soft-posicionamento` (perfil) antes de continuar tráfego |
+| Tráfego rodando mas perfil não cresce | Bio/Destaques fracos · público chega e vaza | Consultar `soft-plano-posicionamento` (perfil) antes de continuar tráfego |
 
 ---
 
@@ -257,7 +257,7 @@ Métricas-chave (vide `metricas.md`):
 | Criar variação de criativo pra teste A/B | as skills `soft-conteudo-carrossel` / `soft-conteudo-reels` |
 | Reescrever CTA do criativo | a skill `soft-conteudo-headlines` |
 | Diagnóstico de Stories Pago (Story Infiltrado) | a skill `soft-conteudo-stories` |
-| Lançamento pago tático (evento, ingresso pago) | `soft-lancamento-pago` (degrau 3) |
+| Lançamento pago tático (evento, ingresso pago) | `soft-launch` (degrau 3) |
 | Métricas detalhadas por formato | `metricas.md` |
 
 ---

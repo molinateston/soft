@@ -93,7 +93,7 @@ As duas têm a mesma estrutura Soft Business. A segunda soa como alguém que ent
 
 | Skill | Onde a tradução entra |
 |---|---|
-| `soft-posicionamento` | Bloco 1 (Discurso), Bloco 3 (Proposta), Bloco 4 (Bio, Destaques) |
+| `soft-plano-posicionamento` | Bloco 1 (Discurso), Bloco 3 (Proposta), Bloco 4 (Bio, Destaques) |
 | `soft-conteudo-headlines` | Headline e gancho, no vocabulário do nicho |
 | `soft-conteudo-carrossel` · `soft-conteudo-reels` · `soft-conteudo-stories` | Copy dos cards e roteiros (tese, blocos de argumento, CTA), exceto quando o nicho é marketing |
 | `soft-funil-carta` · `soft-funil-landing` · `soft-funil-isca` · `soft-funil-miniwebinar` | Carta e páginas inteiras, sem exceção |

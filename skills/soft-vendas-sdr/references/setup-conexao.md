@@ -66,7 +66,7 @@ Escolher UMA rota (detalhe técnico no `conector-ghl.md`):
 
 Antes de soltar o SDR:
 - **Método:** a técnica de topo (abordagem, qualificação, vender a sessão) já vive nesta skill; o **fechamento** (pra quando o lead cai no closer) vem da `soft-vendas-closer`. Confirma que a Oferta/PUV do cliente está de pé. Sem oferta clara, o SDR vira robô genérico, volta e monta primeiro.
-- **Oferta:** puxa a tabela de preço/condição da `soft-posicionamento` (o SDR só fala números aprovados — ver `gate-de-seguranca.md`).
+- **Oferta:** puxa a tabela de preço/condição da `soft-plano-posicionamento` (o SDR só fala números aprovados — ver `gate-de-seguranca.md`).
 - **Gate:** mostra a tabela ✅/🛑 pro dono, pega o OK, anota o que ele quer apertar.
 
 ## Passo 8 — Ligar em modo shadow → autônomo

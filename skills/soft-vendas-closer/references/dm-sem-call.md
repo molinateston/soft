@@ -103,7 +103,7 @@ Conexão → Qualificação → Autoridade (valor + urgência) → Oferta → Fo
 ## Os 2 suportes de venda: o doc e o vídeo
 
 Na hora de ofertar, o suporte é um de três: mensagem no chat, um **doc** ou um **vídeo curto**.
-- **O doc** não é página de venda, é um doc mesmo (o modelo Soft: a Oferta do Plano em documento simples, os 3 pilares meta/impacto/logística). No Soft esse doc nasce de `soft-mentoria` (se a oferta é mentoria) ou do bloco Oferta da `soft-posicionamento`. Preço só entra se a oferta já foi validada (vendida antes); se é a 1ª, encerra sem preço e chama de volta pro WhatsApp.
+- **O doc** não é página de venda, é um doc mesmo (o modelo Soft: a Oferta do Plano em documento simples, os 3 pilares meta/impacto/logística). No Soft esse doc nasce da `soft-plano-ofertas` (a Oferta como stack, e o doc de 2 páginas quando a oferta é mentoria) ou do bloco Oferta da `soft-plano-posicionamento`. Preço só entra se a oferta já foi validada (vendida antes); se é a 1ª, encerra sem preço e chama de volta pro WhatsApp.
 - **O vídeo da oferta** é diferente do material de autoridade: o material mostra o método; o vídeo mostra a OFERTA. É humanizado; dentro dele você fala *"se você está vendo esse vídeo, é porque está conversando comigo no WhatsApp/Instagram. Agora que viu, volta lá e me avisa que viu."* Isso força o próximo micro-compromisso. Duração de referência: 4 a 6 minutos, lido de um PDF.
 
 ---
@@ -151,4 +151,4 @@ As etapas fazem loop. Numa venda real, a pessoa objeta na hora da oferta, você 
 - **Modo A (gerar script):** monta a sequência de 5 etapas por DM/WhatsApp, com os scripts literais adaptados à Voz e à Oferta do Plano do cliente.
 - **A prospecção que traz o lead** (abrir a DM fria, qualificar de leve, entregar o pré-qualificador) é da **soft-vendas-sdr**; este modo pega dali pra frente, quando o lead volta quente e quer fechar sem call. O fechamento na DM é o canal DEFAULT do 1:1.
 - **Modo C (análise de conversa):** diagnostica um chat que empacou pela lente das 5 etapas (pulou a permissão? matou objeção à força? não fez o follow-up?).
-- **Sempre:** todo texto que vai pro lead passa antes pelo `shared-references/crivo/` (gate CUB) e pelos filtros anti-ia. O doc/vídeo da oferta puxa a Oferta de `soft-mentoria` (mentoria) ou do bloco Oferta da `soft-posicionamento`.
+- **Sempre:** todo texto que vai pro lead passa antes pelo `shared-references/crivo/` (gate CUB) e pelos filtros anti-ia. O doc/vídeo da oferta puxa a Oferta da `soft-plano-ofertas` (a stack, e o doc de 2 páginas da mentoria) ou do bloco Oferta da `soft-plano-posicionamento`.

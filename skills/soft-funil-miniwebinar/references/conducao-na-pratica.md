@@ -27,7 +27,7 @@ Não repete a engenharia (os 12 blocos do Mini Webinar, o arco ADMA, os modelos 
 - **A entrada filtra, não só capta.** A ponte do feed pra carta já é qualificação: quem pede a carta demonstrou interesse real. O funil não quer volume na entrada, quer a pessoa certa atravessando, alcance grande de estranho é vaidade, não funil.
 
 ## 5. Lançamento pago: a sabedoria por trás da operação
-O lançamento é o pico, não o sistema, injeção pontual, 1-2 por ano pra cliente Soft. Quando entra, a condução obedece a alguns reframes (operação fina na skill `soft-lancamento-pago`):
+O lançamento é o pico, não o sistema, injeção pontual, 1-2 por ano pra cliente Soft. Quando entra, a condução obedece a alguns reframes (operação fina na skill `soft-launch`):
 - **Não é o ingresso que paga, é o produto lá dentro.** O jogo do pago é aceitar prejuízo na entrada (benchmark: CAC até ~4x o ingresso) porque o lucro está no pitch do produto principal. Quem tenta lucrar no ingresso espreme o CAC e esvazia o evento. Por isso se projeta cenários antes, orçamento nasce do ticket e do retorno, nunca do "quanto quero faturar".
 - **Comprometimento não é comparecimento, e comparecimento não é venda.** O ingresso compra presença; a presença não compra o produto. A Trilha de Conscientização (objeções e oportunidades respondidas, só pra quem já está dentro) e o follow-up comercial existem pra tirar a fricção antes do pitch, sem eles, o lead chega frio na hora da oferta.
 - **Entrega o ouro.** No pago a pessoa pagou pra aprender: segura o ouro e ela não compra. O pitch não é "te falta o método", é "te falta o acompanhamento". Mesmo princípio do conteúdo, dá o valor, vende a relação.

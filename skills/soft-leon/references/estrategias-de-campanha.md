@@ -4,7 +4,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **O LEON usa este banco ao planejar o mês.** Depois de rodar o funil reverso (no `plano-de-guerra.md`), o LEON não manda o cliente "postar mais": propõe **a jogada certa pro momento dele**, na ordem certa, e aponta a mãe que executa cada parte. O banco é o cardápio; a Conta diz quantas jogadas e com que frequência.
 
-**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence**, revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada, reescreve como ele falaria no zap.
+**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence**, revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-plano-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada, reescreve como ele falaria no zap.
 
 **Extensível:** o cliente (e o autor do método) adicionam jogadas aqui ao longo do tempo. Toda jogada nova entra no mesmo formato: *o que é · quem pode rodar · resultado esperado · como funciona · onde encaixa no mês · qual mãe executa · ajuste Soft*.
 
@@ -77,7 +77,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** O fluxo-base de conversão. Roda em fundo toda semana pra manter o direct cheio enquanto as jogadas maiores acontecem.
 
-**Quem executa.** O story = `soft-conteudo-stories`. A abertura + a qualificação do DM = `soft-vendas-sdr`; conduzir e fechar a conversa = `soft-vendas-closer`. Se o próximo passo é uma mentoria high ticket (estruturar oferta, ticket, formato) = `soft-mentoria`.
+**Quem executa.** O story = `soft-conteudo-stories`. A abertura + a qualificação do DM = `soft-vendas-sdr`; conduzir e fechar a conversa = `soft-vendas-closer`. Se o próximo passo é uma mentoria high ticket (estruturar oferta, ticket, formato) = `soft-plano-ofertas`.
 
 **Ajuste Soft.** O story **filtra** (escassez real, público nomeado), não promete milagre pra todo mundo. As 3 perguntas são diagnóstico que revela a dor real, nunca pra inflar. A oferta confirma o que a conversa já mostrou.
 
@@ -98,7 +98,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Diário, o motor de fundo. Alimenta as outras jogadas (mede demanda pra Temática, Pré-venda e Oferta Direta) e sustenta a autoridade que faz o resto converter.
 
-**Quem executa.** A rotina de stories + as respostas = `soft-conteudo-stories`. Quando a resposta vira oferta de mentoria = aponta pra `soft-mentoria` (desenhar a oferta) e `soft-vendas-closer` (conduzir o DM).
+**Quem executa.** A rotina de stories + as respostas = `soft-conteudo-stories`. Quando a resposta vira oferta de mentoria = aponta pra `soft-plano-ofertas` (desenhar a oferta) e `soft-vendas-closer` (conduzir o DM).
 
 **Ajuste Soft.** Não responde caixinha "besta" (brincadeira de 1 cliente, cunho pessoal que os outros não entendem). A resposta útil de verdade é a que vale, não o volume: 3 respostas boas valem mais que 20 genéricas. Ofertar todo dia não incomoda o comprador certo, incomoda quem nunca ia comprar.
 
@@ -118,7 +118,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Ritmo semanal fixo. Cada semana pode falar com um público diferente. É a comunicação clara que sustenta a esteira.
 
-**Quem executa.** A copy da oferta = `soft-conteudo-headlines` (a chamada) + `soft-conteudo-stories`/`-carrossel` (o corpo). O desenho da oferta = `soft-posicionamento` (bloco oferta). Se a oferta é uma mentoria high ticket = `soft-mentoria`. O fechamento no DM/checkout = `soft-vendas-closer`.
+**Quem executa.** A copy da oferta = `soft-conteudo-headlines` (a chamada) + `soft-conteudo-stories`/`-carrossel` (o corpo). O desenho da oferta = `soft-plano-posicionamento` (bloco oferta). Se a oferta é uma mentoria high ticket = `soft-plano-ofertas`. O fechamento no DM/checkout = `soft-vendas-closer`.
 
 **Ajuste Soft.** A oferta específica **filtra** (afasta quem se incomoda, que nunca seria cliente) e **convence** quem se reconhece. Não força framework padrão: varia a narrativa por público. Preço só entra quando a oferta já foi validada, senão vai pra DM.
 
@@ -138,7 +138,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Ao lançar ou relançar uma oferta. Começa pela base quente pra aquecer, depois abre.
 
-**Quem executa.** A sequência de stories = `soft-conteudo-stories`. A história de transformação (a narrativa pessoal) = `soft-posicionamento` (narrativa). Se a oferta contada é uma mentoria = `soft-mentoria`. O fechamento = `soft-vendas-closer`.
+**Quem executa.** A sequência de stories = `soft-conteudo-stories`. A história de transformação (a narrativa pessoal) = `soft-plano-posicionamento` (narrativa). Se a oferta contada é uma mentoria = `soft-plano-ofertas`. O fechamento = `soft-vendas-closer`.
 
 **Ajuste Soft.** A história é **verdadeira** (transformação real, própria ou de cliente com permissão), nunca inventada pra emocionar. A exclusividade da base quente é vantagem honesta de quem está perto, não escassez fabricada. Não complica a história: às vezes 1 story basta.
 
@@ -163,7 +163,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** O **pico** do mês: gera caixa imediato (os R$100) e ativa os mais quentes pro high ticket. No Plano de Guerra, é a jogada que mais move a meta, encaixa como evento âncora.
 
-**Quem executa.** Os stories e a sequência = `soft-conteudo-stories`. O desenho do evento e do conteúdo da aula = `soft-funil-miniwebinar` (a micro-aula) ou `soft-webinar-plano` (se virar webinar cheio). A oferta high ticket ofertada no fim, se for mentoria = `soft-mentoria`. A oferta dentro da reunião e o follow-up de 24h = `soft-vendas-closer`.
+**Quem executa.** Os stories e a sequência = `soft-conteudo-stories`. O desenho do evento e do conteúdo da aula = `soft-funil-miniwebinar` (a micro-aula) ou `soft-webinar-plano` (se virar webinar cheio). A oferta high ticket ofertada no fim, se for mentoria = `soft-plano-ofertas`. A oferta dentro da reunião e o follow-up de 24h = `soft-vendas-closer`.
 
 **Ajuste Soft.** O conteúdo da reunião é útil de verdade, não isca vazia pra empurrar a venda no fim. A oferta **confirma** o que a sala acabou de provar (filtra e convence). O R$100 é filtro de compromisso, não barreira de caixa: o valor real está no que sobe pro programa. Não dá desconto, dá vantagem.
 
@@ -183,7 +183,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Antes de gastar tempo/dinheiro produzindo um produto novo. Protege o caixa: o cliente não cria no escuro, cria o que já foi pago. Se não vender, era hipótese errada e ele gastou minutos de story, não semanas de produção.
 
-**Quem executa.** Os stories e o destaque = `soft-conteudo-stories`. O desenho da oferta e do bônus = `soft-posicionamento` (bloco oferta) + `soft-funil-carta`. Se o produto pré-vendido é uma mentoria = `soft-mentoria`.
+**Quem executa.** Os stories e o destaque = `soft-conteudo-stories`. O desenho da oferta e do bônus = `soft-plano-posicionamento` (bloco oferta) + `soft-funil-carta`. Se o produto pré-vendido é uma mentoria = `soft-plano-ofertas`.
 
 **Ajuste Soft.** Valida com verdade: se a caixinha não acusou demanda real, não fabrica. O bônus é vantagem honesta de entrar cedo, não escassez inventada. O "segredo" da narrativa é real (o que de fato só os clientes 1 a 1 tinham), nunca invenção. Pré-venda Soft é teste de mercado, não pressão.
 
@@ -208,7 +208,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Quando o cliente vai reajustar o preço, ou pra fechar o lead quente da Levantada de Mão / Reunião de R$100 que empacou só no valor.
 
-**Quem executa.** Os stories do congelamento de preço = `soft-conteudo-stories`. O modo 1:1 e a quebra de objeção = `soft-vendas-closer`. Se o produto é uma mentoria = `soft-mentoria`.
+**Quem executa.** Os stories do congelamento de preço = `soft-conteudo-stories`. O modo 1:1 e a quebra de objeção = `soft-vendas-closer`. Se o produto é uma mentoria = `soft-plano-ofertas`.
 
 **Ajuste Soft.** Nunca esconde o valor cheio (fala o preço desde o começo). Só usa com gatilho real de aumento de preço ou demanda represada de verdade, senão a urgência é fabricada e reprova. Os bônus são ganha-ganha honesto (ajudam o cliente a juntar o resto), não pressão. Dá acesso imediato a algo, senão a pessoa "passou o cartão e some".
 
@@ -229,7 +229,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Passivo, sempre no ar. Reaproveita o que as outras jogadas já produziram. É a venda que acontece enquanto o cliente faz outra coisa.
 
-**Quem executa.** Os stories que viram destaque = `soft-conteudo-stories`. A estrutura de cada mini-sequência (a mini-VSL) = `soft-funil-miniwebinar` / `soft-funil-carta`. O perfil e a ordem dos destaques = `soft-posicionamento` (modo perfil). Se um destaque vende mentoria = `soft-mentoria`.
+**Quem executa.** Os stories que viram destaque = `soft-conteudo-stories`. A estrutura de cada mini-sequência (a mini-VSL) = `soft-funil-miniwebinar` / `soft-funil-carta`. O perfil e a ordem dos destaques = `soft-plano-posicionamento` (modo perfil). Se um destaque vende mentoria = `soft-plano-ofertas`.
 
 **Ajuste Soft.** Destaque de prova primeiro desarma a desconfiança sem empurrar. Cada mini-sequência filtra e convence (mostra por dentro de verdade), não é vitrine vazia. Não deixa destaque desatualizado (número mentiroso reprova).
 
@@ -248,7 +248,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Quando o volume de DM cansa o manual. Automatiza a triagem e a venda da oferta menor, libera o especialista pro high ticket.
 
-**Quem executa.** Os stories + o take-away = `soft-conteudo-stories`. A oferta e o downsell = `soft-posicionamento` (bloco oferta) / `soft-mentoria` (se a esteira sobe pra mentoria). O fluxo de conversa do bot que tria e o follow-up = `soft-vendas-sdr` (o comercial operado por IA, sozinho no CRM/WhatsApp); a venda da oferta em si = `soft-vendas-closer`.
+**Quem executa.** Os stories + o take-away = `soft-conteudo-stories`. A oferta e o downsell = `soft-plano-posicionamento` (bloco oferta) / `soft-plano-ofertas` (se a esteira sobe pra mentoria). O fluxo de conversa do bot que tria e o follow-up = `soft-vendas-sdr` (o comercial operado por IA, sozinho no CRM/WhatsApp); a venda da oferta em si = `soft-vendas-closer`.
 
 **Ajuste Soft.** O bot **não se esconde** (deixa claro que é bot) e **revela o preço cedo** (economiza o tempo de todo mundo, sem constrangimento). O take-away é filtro honesto, não manipulação. A consultoria como downsell é o primeiro passo real de quem não está pronto, não um consolo pra não perder o lead.
 
@@ -268,7 +268,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** A **primeira** jogada quando abre um produto novo, base quente rende antes de qualquer tráfego. Custo de aquisição mais baixo do banco.
 
-**Quem executa.** O script e a condução 1:1 = `soft-vendas-closer` (reativação de base). Se a novidade apresentada é uma mentoria (estruturar, precificar, formato) = `soft-mentoria`.
+**Quem executa.** O script e a condução 1:1 = `soft-vendas-closer` (reativação de base). Se a novidade apresentada é uma mentoria (estruturar, precificar, formato) = `soft-plano-ofertas`.
 
 **Ajuste Soft (atenção, o esqueleto genérico dessa jogada engana).** O molde padrão usa tom de robô educado: *"Espero que você esteja bem", "Agradeço pela confiança que sempre depositou"*. **Isso não passa no filtro anti-ia**, soa em massa, mata a tal "conexão genuína" que a jogada promete. Reescreve **na voz do cliente**: direto, real, como ele mandaria pra alguém que conhece de verdade. E apresenta a novidade pelo **teto que aquele cliente específico sente** (o resultado que ele buscava e não alcançou), não por "estou lançando". Lembrar dele de verdade > anunciar pra ele.
 
@@ -281,7 +281,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 - **Ancoragem de preço é sistêmica:** oferta cara reposiciona a barata; a Reunião de R$100 converte porque a audiência já conhece o grupo (R$3k) e a mentoria high ticket.
 - **Prova social é manufaturada de propósito:** feedback individual pós-reunião/consultoria (#5, #9), boom inicial de compras (#5, #6). Toda prova é real, só é coletada por design.
 - **Take-away/afastamento filtra:** aparece em #3 e #9. Filtrar é vender.
-- **A esteira:** entrada barata (R$100) → consultoria/sessão → grupo (R$3k) → mentoria high ticket. Quem estrutura a mentoria high ticket (oferta, ticket, formato 1:1 ou grupo) vai pra `soft-mentoria`.
+- **A esteira:** entrada barata (R$100) → consultoria/sessão → grupo (R$3k) → mentoria high ticket. Quem estrutura a mentoria high ticket (oferta, ticket, formato 1:1 ou grupo) vai pra `soft-plano-ofertas`.
 
 ---
 
@@ -289,4 +289,4 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 - **No planejamento do mês / Plano de Guerra:** depois do funil reverso, propõe a combinação de jogadas que fecha o volume de conversa exigido, não manda "produzir mais conteúdo solto".
 - **No Consultor Vivo:** cliente sem caixa esse mês → o LEON localiza (tem base? tem audiência semente? tem produto pra validar? tem fluxo de seguidor novo? tem volume de DM?) e indica a jogada de menor custo pro momento dele.
-- **Sempre:** aponta a mãe que executa cada parte e lembra que o script é esqueleto, passa na voz e no anti-ia antes de ir pra rua. Jogada que sobe pra mentoria high ticket → `soft-mentoria` desenha o produto.
+- **Sempre:** aponta a mãe que executa cada parte e lembra que o script é esqueleto, passa na voz e no anti-ia antes de ir pra rua. Jogada que sobe pra mentoria high ticket → `soft-plano-ofertas` desenha o produto.

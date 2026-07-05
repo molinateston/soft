@@ -33,7 +33,7 @@ Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto**
 
 Três estados de entrada (declara qual é o seu antes de escrever):
 - **Tem fala real (com N):** ancora nela e cita o N. Caminho ideal.
-- **Tem Plano/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número não confirmado entra como `[DADO: confirmar]` e **NÃO conta como Ancorado=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa o roteiro muito mais cravado. **STOP do número-manchete:** se a PRÓPRIA promessa quantificada (o número-manchete de A.1 na Atenção ou de D.1 no Mecanismo) cai em `[A CONFIRMAR]`, PARA e minera/pergunta esse número específico ANTES de escrever a fase, não segue com a promessa toda em placeholder. Uma promessa inteira em colchete não filtra avatar, e filtrar avatar é a função nº1 da ATENÇÃO; A.1/D.1 com o miolo todo `[A CONFIRMAR]` = molde vazio que qualquer LLM preenche, não é peça ancorada em prova real do autor.
+- **Tem Plano/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Ancora em **prova real do autor** (resultado, case, mecanismo); qualquer número não confirmado entra como `[DADO: confirmar]` e **NÃO conta como Ancorado=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa o roteiro muito mais cravado. **STOP do número-manchete:** se a PRÓPRIA promessa quantificada (o número-manchete de A.1 na Atenção ou de D.1 no Mecanismo) cai em `[A CONFIRMAR]`, PARA e minera/pergunta esse número específico ANTES de escrever a fase, não segue com a promessa toda em placeholder. Uma promessa inteira em colchete não filtra avatar, e filtrar avatar é a função nº1 da ATENÇÃO; A.1/D.1 com o miolo todo `[A CONFIRMAR]` = molde vazio que qualquer LLM preenche, não é peça ancorada em prova real do autor.
 - **Sem nada:** pergunta numa única mensagem as 6 entradas do briefing (cliente ideal · problema avançado · soluções comuns que falham · método nomeado · cases/prova · oferta) e segue daí.
 
 A fundação (quando existe, do Plano): tese central · mecanismo nomeado · top inimigos nominais · cliente em uma frase · oferta com PUV.
@@ -151,11 +151,11 @@ Roda o gate por DENTRO de cada fase (auditoria silenciosa, NÃO imprime). Só fa
 - Pediu **webinário completo / perpétuo / evergreen** (degrau 2, a oferta fecha metade do tempo) → **soft-webinar-plano**.
 - Pediu o **DECK de um WEBINÁRIO COMPLETO/perpétuo** (com stack/preço, 50+ slides) → **soft-webinar-slides** (degrau 2). Aqui é só o deck ENXUTO do mini-webinar (~12 a 20 slides, sem maquinaria de oferta).
 - Pediu as **3 PÁGINAS do webinar completo** (cadastro/obrigado/checkout, ficha wizard, automação de comparecimento) → **soft-webinar-paginas**. Aqui é UMA página de hospedagem do mini-webinar do funil.
-- Pediu **lançamento pago / carrinho / evento com tráfego** (degrau 3) → **soft-lancamento-pago**.
+- Pediu **lançamento pago / carrinho / evento com tráfego** (degrau 3) → **soft-launch**.
 - Pediu **carta / VSL / landing / isca** → **soft-funil-carta · soft-funil-landing · soft-funil-isca**.
 - Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **conteúdo de feed** → **soft-conteudo** (e variantes).
 - Pediu **a venda em si** (script, objeção, fechamento) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
-- Pediu **arte/visual** → **soft-designer**. Pediu **posicionamento/Plano** → **soft-posicionamento**.
+- Pediu **arte/visual** → **soft-designer**. Pediu **posicionamento/Plano** → **soft-plano-posicionamento**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

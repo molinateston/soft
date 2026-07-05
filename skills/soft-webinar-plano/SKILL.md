@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-plano
-description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil-carta), venda 1:1 (soft-vendas-closer), posicionamento (soft-posicionamento)."
+description: "Etapa CONSULTIVA do webinar Soft que DECIDE o que vender e monta o doc-mãe de onde o roteiro nasce. Decide se é hora de webinar (régua de maturidade), perpétuo vs ao vivo, crava a UMA promessa, nomeia o mecanismo (gate anti-rótulo), e MONTA a OFERTA como STACK rica na tripartição (módulos x cursos-prateleira x bônus pelo RESULTADO) + bônus-âncora MAIOR que o produto + bônus de 15-primeiros em camadas (turma/15/10, 2 moedas desconto-vs-bônus, com a REDE) + soma riscada na tela + Diagnóstico e Mecanismo como SEQUÊNCIA REAL (ADMA). HERDA o Plano de Posicionamento INTEIRO inline. Coleta a PROVA EXTERNA, fecha com INSUMOS ORGANIZADOS. Também AUDITA webinar existente. Use pra plano de webinar, o que vender, desenhar oferta, stack, ancoragem, garantia, ticket, PUV, fascinations, perpétuo ou ao vivo, gravar o perpétuo. NÃO use pra roteiro/deck (soft-webinar-script), páginas/anúncios (soft-webinar-paginas), carta/VSL (soft-funil-carta), venda 1:1 (soft-vendas-closer), posicionamento (soft-plano-posicionamento)."
 ---
 
 # Plano do webinar, o doc-mãe antes do roteiro
@@ -53,8 +53,8 @@ Estado de entrada (declara):
 | Estado | Ação |
 |---|---|
 | Posicionamento pronto + objeção real + prova | caminho ideal; herda inteiro, intake só decide o que falta |
-| Nicho mas ZERO fala/prova | NÃO inventa; ancora em prova real, número não confirmado = `[A CONFIRMAR]`; avisa que `soft-posicionamento` (ou minerar 5-8 falas) crava o plano |
-| Sem mecanismo nomeado | PUV e batismo exigem nome → `[A CONFIRMAR: nomear na soft-posicionamento]`, não fabrica |
+| Nicho mas ZERO fala/prova | NÃO inventa; ancora em prova real, número não confirmado = `[A CONFIRMAR]`; avisa que `soft-plano-posicionamento` (ou minerar 5-8 falas) crava o plano |
+| Sem mecanismo nomeado | PUV e batismo exigem nome → `[A CONFIRMAR: nomear na soft-plano-posicionamento]`, não fabrica |
 
 > Se o especialista DUVIDA do webinar ("não é pra mim", "prefiro reels", "caro demais"): lê `references/arsenal-vantagens-webinar.md` e usa a vantagem que bate na objeção dele. Lidera pela PREMISSA (tempo de tela, atenção presa, oferta vista, crença em sequência), nunca por "ambiente"; nome de cliente é SLOT.
 
@@ -120,7 +120,7 @@ Crava:
 - **Promessa central (UMA):** `DESEJO + MECANISMO − OBJEÇÃO`, na frase *"Como ter [benefício que quer muito] SEM [objeção/medo], mesmo que [o que ele acha que o desqualifica]."* Benefício = o desejo real (às vezes "respirar", não "faturar"); "mesmo que" = a auto-exclusão que ELE diria. Duas promessas = sala perdida.
 - **Big Domino (fórmula fixa):** *"A NOVA OPORTUNIDADE é a chave para o PRINCIPAL DESEJO e só é possível através do MECANISMO ÚNICO, mesmo sem A PRINCIPAL OBJEÇÃO."* Nova oportunidade NUNCA melhoria; objeção que o avatar diria (empilha se 2 medos). Literal em 3 momentos (abertura resumida · mecanismo elaborada · oferta repetida).
 - **Mecanismo como SEQUÊNCIA** (Seção 3): caminho nomeado + PASSOS (tipicamente 3, memorizáveis) + crenças por beat. NÃO "inverter 3 crenças" (aposentado): é a sequência real.
-- **GATE ANTI-RÓTULO:** não aceita nome antes de cravar por escrito o **fenômeno concreto** (fato/efeito real do domínio + metáfora + prova de terceiro). Teste: *"apago o nome, sobra fenômeno que explico e provo em 2 min?"* Sobrou = fundo; não sobrou = RÓTULO, VOLTA. Nome é a ÚLTIMA peça. Sem nome real → `[A CONFIRMAR: nomear na soft-posicionamento]`.
+- **GATE ANTI-RÓTULO:** não aceita nome antes de cravar por escrito o **fenômeno concreto** (fato/efeito real do domínio + metáfora + prova de terceiro). Teste: *"apago o nome, sobra fenômeno que explico e provo em 2 min?"* Sobrou = fundo; não sobrou = RÓTULO, VOLTA. Nome é a ÚLTIMA peça. Sem nome real → `[A CONFIRMAR: nomear na soft-plano-posicionamento]`.
 - **Sacada de graça:** o conceito que muda a percepção (o "o quê", não o "como").
 
 **STOP.** Promessa + Big Domino + mecanismo (passos+crenças) + sacada. Espera OK.
@@ -187,7 +187,7 @@ Crava: **provas** (cases reais; furo = `[A CONFIRMAR]`) · **prova externa** (Se
 Com o intake fechado, monta o doc DENSO (Lei 6: tabelas/listas). Abre com a HERANÇA (posicionamento absorvido INTEIRO inline), as 8 seções, fecha com a Seção 9. A Seção 1 absorve o desenho da STACK; a 8, o pitch; a 3 é o ensino.
 
 ## Seção 0, A HERANÇA do posicionamento (inline, na voz do dono)
-Primeira seção, a que a auditoria reprovou quando faltou. NÃO resumo nem ponteiro: o **Plano de Posicionamento absorvido por completo**, em listas, com a profundidade do original: território + inimigo + tensão dor→desejo · problema geral + avançado + mecanismo-do-problema · persona com cena (base da S4) + objeções/crenças literais · mecanismo nomeado (base da S3) + tese · provas nome+nº+prazo+porquê · oferta de origem + a **VOZ em 4-5 marcas concretas** (cada marca com 1 fala literal que a prova, nunca "tom" abstrato; ver `references/extracao-de-material-existente.md` refinamento 1). Sem posicionamento → `[A CONFIRMAR]` + aviso que `soft-posicionamento` vem antes.
+Primeira seção, a que a auditoria reprovou quando faltou. NÃO resumo nem ponteiro: o **Plano de Posicionamento absorvido por completo**, em listas, com a profundidade do original: território + inimigo + tensão dor→desejo · problema geral + avançado + mecanismo-do-problema · persona com cena (base da S4) + objeções/crenças literais · mecanismo nomeado (base da S3) + tese · provas nome+nº+prazo+porquê · oferta de origem + a **VOZ em 4-5 marcas concretas** (cada marca com 1 fala literal que a prova, nunca "tom" abstrato; ver `references/extracao-de-material-existente.md` refinamento 1). Sem posicionamento → `[A CONFIRMAR]` + aviso que `soft-plano-posicionamento` vem antes.
 
 ## Seção 1, A OFERTA como STACK rica (o DESENHO)
 > Profundidade: `references/stack-de-oferta-e-bonus.md` (a composição da pilha, as camadas, as 2 moedas, a rede, a ordem canônica) + `references/desenho-e-empacotamento-da-oferta.md` (cardápio, equação Hormozi, garantias, esteira).
@@ -411,7 +411,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
 
 ## When NOT to use
-- **Posicionamento / nomear o método / PUV de marca** → **soft-posicionamento**.
+- **Posicionamento / nomear o método / PUV de marca** → **soft-plano-posicionamento**.
 - **Escrever a aula / roteiro / slides / deck** → **soft-webinar-script**.
 - **Páginas / e-mails / WhatsApp / anúncios / pós-webinar** → **soft-webinar-paginas** (páginas) · **soft-webinar-mensagens** (e-mails/WhatsApp/pós) · anúncios: **soft-conteudo-impulsionar**.
 - **Micro-aula curta do funil / carta / VSL / landing / isca** → **soft-funil-carta/-landing/-isca**.
@@ -452,7 +452,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Pediu refino e reescreveu do zero | Modo B: audita, reescreve só o quebrado (Passo A) |
 
 ## Handoff
-O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. O produto da aula fecha one-step no checkout; a oferta cara acima (>~3k) é ascensão de esteira, fechada no 1:1 DEPOIS = **soft-vendas-closer**. Nomes pendentes = **soft-posicionamento**.
+O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra frente): S2b + S0 + S3a + S4 = Atenção e Diagnóstico; S2 + S3b + Mundo Ideal = Mecanismo; S1 + S8 = Ação coreografada; S9 = o que páginas/ads/briefing consomem. O script lê só este doc. O produto da aula fecha one-step no checkout; a oferta cara acima (>~3k) é ascensão de esteira, fechada no 1:1 DEPOIS = **soft-vendas-closer**. Nomes pendentes = **soft-plano-posicionamento**.
 
 ## References (o corpo carrega o método; estas guardam a profundidade)
 - `references/escolha-carta-mt-webinario.md`: régua de maturidade, economia, 3 produtos, decisória. Passo 1.

@@ -14,7 +14,7 @@ A jornada do zero ao negócio rodando tem uma sequência testada. Cada etapa só
 3. **Plano de ação no Notion.** O mapa da jornada entregue num formato que o especialista lê, avalia e acompanha. O entregável diagramado é o que torna a condução tangível pra ele.
 4. **Sobe as 5 skills na conta do especialista + cria um Projeto.** As skills do método entram na conta dele; o Projeto carrega contexto e memória por cliente, cada especialista tem o próprio cérebro, com o próprio Plano dentro. (Operacional em `ambiente-e-sistemas.md`.)
 5. **A Conta primeiro.** Antes do posicionamento, a projeção: meta ÷ ticket = clientes; clientes × horas = carga semanal; **cabe na vida?** Se não cabe, sobe o ticket, nunca o volume. A conta vem antes de tudo porque ela decide o tamanho do jogo; sem ela, o especialista monta uma operação que estoura a semana dele. (Detalhe em `cabimento-na-vida.md` e `calculo-do-caixa-ao-conteudo.md`.)
-6. **Posicionamento (a alma, 98%).** Aí sim invoca `soft-posicionamento`. É o coração da implementação, acertou aqui, o resto nasce daqui. O Plano vira o cérebro do LEON daquele cliente.
+6. **Posicionamento (a alma, 98%).** Aí sim invoca `soft-plano-posicionamento`. É o coração da implementação, acertou aqui, o resto nasce daqui. O Plano vira o cérebro do LEON daquele cliente.
 7. **Próximas sessões:** carta, conteúdo, funil, vendas, cada uma na sua skill-mãe, cada uma só quando a anterior está de pé.
 
 > A ordem é deliberada: contexto → pesquisa → plano → ambiente → a conta → a alma → as peças. Pular a pesquisa rasa a alma; pular a conta monta operação que não cabe; montar peça antes da alma é ruído. Não reordene.

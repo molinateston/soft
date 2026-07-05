@@ -1,6 +1,6 @@
 # Fundamentos pré-roteiro
 
-> **Nota de skill (atômica):** esta reference foi absorvida na `soft-webinar-plano` (planejamento + oferta). Ponteiros a `estrutura-webinario-aida.md`, `objection-annihilation.md`, `exemplos-por-bloco/02-08`, `geracao-de-slides`, `template-72-slides`, `anuncios-pra-encher-webinar`, `pos-webinar-tags-comercial`, `perpetuo-mecanica-leo`, `sequencias-email-whatsapp` e `super-pesquisa` apontam pras skills-irmãs do pipeline (`soft-posicionamento`, `soft-webinar-script`, `soft-webinar-paginas`, `soft-webinar-mensagens`, `soft-webinar-mensagens`); o que é da fase de planejamento/oferta vive aqui (`estrutura-real-webinar.md`, `desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `frameworks-proprietarios-leo.md`, `fundamentos-pre-roteiro.md`, `premissas-e-guarda-corpos.md`, `esqueleto-universal-e-discernimento.md`, `escolha-carta-mt-webinario.md`, `analise-webinario-existente.md` + `exemplos-por-bloco/09,10,12`).
+> **Nota de skill (atômica):** esta reference foi absorvida na `soft-webinar-plano` (planejamento + oferta). Ponteiros a `estrutura-webinario-aida.md`, `objection-annihilation.md`, `exemplos-por-bloco/02-08`, `geracao-de-slides`, `template-72-slides`, `anuncios-pra-encher-webinar`, `pos-webinar-tags-comercial`, `perpetuo-mecanica-leo`, `sequencias-email-whatsapp` e `super-pesquisa` apontam pras skills-irmãs do pipeline (`soft-plano-posicionamento`, `soft-webinar-script`, `soft-webinar-paginas`, `soft-webinar-mensagens`, `soft-webinar-mensagens`); o que é da fase de planejamento/oferta vive aqui (`estrutura-real-webinar.md`, `desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `frameworks-proprietarios-leo.md`, `fundamentos-pre-roteiro.md`, `premissas-e-guarda-corpos.md`, `esqueleto-universal-e-discernimento.md`, `escolha-carta-mt-webinario.md`, `analise-webinario-existente.md` + `exemplos-por-bloco/09,10,12`).
 
 > **Quando consultar:** Etapa 1 do fluxo, antes de escrever uma linha do roteiro do webinar. Tudo que vem depois (estrutura ADMA, slides, páginas, emails, anúncios) puxa daqui. Sem fundamentos cravados, o webinar sai genérico.
 
@@ -26,24 +26,24 @@
 
 ## GATE 0: o Plano de Posicionamento ANTES do roteiro - Plano-base + Camada Webinar (arquitetura do método, 11/jun)
 
-O webinar NÃO tem um posicionamento próprio e raso. Ele **herda o Plano de Posicionamento completo** do cliente (o que a `soft-posicionamento` entrega em profundidade e na voz do dono: Racional/Território · Narrativa · Mecanismo · Oferta · as 2 Saídas · os 5 elementos de Voz) e **adiciona em cima uma Camada Webinar** - só os insumos que o roteiro consome e que o Plano-base ainda não produz na forma de palco. O gate é uma SOMA, nunca um resumo:
+O webinar NÃO tem um posicionamento próprio e raso. Ele **herda o Plano de Posicionamento completo** do cliente (o que a `soft-plano-posicionamento` entrega em profundidade e na voz do dono: Racional/Território · Narrativa · Mecanismo · Oferta · as 2 Saídas · os 5 elementos de Voz) e **adiciona em cima uma Camada Webinar** - só os insumos que o roteiro consome e que o Plano-base ainda não produz na forma de palco. O gate é uma SOMA, nunca um resumo:
 
 > **plano do webinar = Plano de Posicionamento (completo, fundo, na voz do dono) + Camada Webinar (os insumos do roteiro)**
 
 - **Se o cliente já tem o Plano** (a maioria do ecossistema Soft chega com ele, é o Passo 1 do método): **herda INTEIRO - não refaz, não resume, não comprime.** ~70% dos insumos que o roteiro consome já estão lá, prontos e fundos.
-- **Se não tem:** roda a `soft-posicionamento` primeiro, fecha o Plano completo, e só então pluga a Camada Webinar. Nada de roteiro com o Plano aberto.
+- **Se não tem:** roda a `soft-plano-posicionamento` primeiro, fecha o Plano completo, e só então pluga a Camada Webinar. Nada de roteiro com o Plano aberto.
 
 A espinha do Plano são os **4 Blocos** abaixo (Território · Narrativa · Mecanismo · Oferta), que nascem da **pesquisa profunda de mercado + a ideia que o cliente já tem**, nunca de um questionário. A Camada Webinar (os insumos que faltam) está logo depois deles.
 
 ### A régua que rege os quatro Blocos: perguntar MENOS, confirmar MAIS
 
-É exatamente como a `soft-posicionamento` opera hoje. O especialista quase nunca sabe responder uma pergunta de posicionamento - e quando você pergunta cru ("qual é o seu mecanismo único?", "o que seu lead precisa sentir?"), ele trava ou devolve chavão. O método é o inverso: **a pesquisa profunda + a ideia que ele já tem respondem a maior parte das perguntas; a skill traz o caminho já montado e ele só CONFIRMA ou corrige.** Pergunta dirigida e fechada ("é por aqui? ajusto?"), nunca formulário aberto. Cada Bloco abaixo carrega a sua régua de condução - o que se CONFIRMA com ele, o que se TIRA dele, o que se SUGERE pra ele.
+É exatamente como a `soft-plano-posicionamento` opera hoje. O especialista quase nunca sabe responder uma pergunta de posicionamento - e quando você pergunta cru ("qual é o seu mecanismo único?", "o que seu lead precisa sentir?"), ele trava ou devolve chavão. O método é o inverso: **a pesquisa profunda + a ideia que ele já tem respondem a maior parte das perguntas; a skill traz o caminho já montado e ele só CONFIRMA ou corrige.** Pergunta dirigida e fechada ("é por aqui? ajusto?"), nunca formulário aberto. Cada Bloco abaixo carrega a sua régua de condução - o que se CONFIRMA com ele, o que se TIRA dele, o que se SUGERE pra ele.
 
 **Protocolo (não negociável).** Cada Bloco chega ao dono com o caminho JÁ montado - o slot preenchido com o default que a pesquisa + a ideia dele sustentam, marcado `(default - confirme/ajuste)` (distinto de `[slot]`, que é o insumo AINDA vazio que depende de decisão do dono). Você pede CONFIRMAÇÃO ou correção, não resposta do zero. Teto: **no máx 3 perguntas abertas por rodada**; insumo que dá pra inferir vira default proposto (e o dono corrige), nunca vira pergunta. Bateria de perguntas = anti-padrão - se você precisaria de >3 perguntas, é sinal de pesquisa rasa (Passo 0), não de entrevista longa.
 
 ### Passo 0 - A pesquisa profunda de mercado (a matéria-prima dos 4 Blocos)
 
-Roda ANTES de cravar qualquer Bloco. É a mesma Super Pesquisa da `soft-posicionamento` (`super-pesquisa.md`), calibrada pro webinar - e o Léo crava (11/jun): **tem que ser muito profunda em mercado, narrativas, concorrentes e clientes**, não busca rasa. Quatro frentes:
+Roda ANTES de cravar qualquer Bloco. É a mesma Super Pesquisa da `soft-plano-posicionamento` (`super-pesquisa.md`), calibrada pro webinar - e o Léo crava (11/jun): **tem que ser muito profunda em mercado, narrativas, concorrentes e clientes**, não busca rasa. Quatro frentes:
 
 - **Mercado e força da dor** - tamanho do nicho, faixas de preço praticadas, quão aguda é a dor (forte/média/fraca). Decide se há jogo.
 - **Narrativas** - quais histórias e ângulos o nicho já conta e já cansou de ouvir. É o que diz o que NÃO repetir e onde está o vão de discurso.
@@ -52,7 +52,7 @@ Roda ANTES de cravar qualquer Bloco. É a mesma Super Pesquisa da `soft-posicion
 
 Sem web no ambiente, usa o material do cliente + o briefing e marca o que ficou sem confirmação - não para. A pesquisa NÃO substitui a entrevista: ela monta a **hipótese** que a entrevista CONFIRMA. É essa combinação (pesquisa densa + ideia do cliente) que faz a skill "perguntar menos".
 
-### Os 4 Blocos (a mesma espinha da `soft-posicionamento`, no contexto do webinar)
+### Os 4 Blocos (a mesma espinha da `soft-plano-posicionamento`, no contexto do webinar)
 
 A estrutura é **idêntica à do Plano de Posicionamento** - Território · Narrativa · Mecanismo · Oferta - só calibrada pros parâmetros do webinar. Cada Bloco carrega a sua régua de condução: o que se CONFIRMA, o que se TIRA, o que se CONSTRÓI, o que se SUGERE.
 
@@ -696,7 +696,7 @@ Acionar a mesma alavanca em todos os blocos (geralmente "encoraja sonhos") e ign
 
 ## Checklist antes de avançar pra Etapa 2
 
-- [ ] **GATE 0 - Plano-base herdado INTEIRO** (`soft-posicionamento`, completo e fundo): os 4 Blocos (**Território** CONFIRMAR · **Narrativa** TIRAR dele · **Novo Mecanismo Único** CONSTRUIR com ele · **Oferta Completa** SUGERIR/ORGANIZAR) + as 2 Saídas (Perfil · Fundação de Headlines) + os 5 elementos de Voz. Precedido da **pesquisa profunda** (mercado · narrativas · concorrentes · clientes). Se o cliente já tem o Plano, herda sem refazer nem resumir; se não, fecha aqui antes de seguir
+- [ ] **GATE 0 - Plano-base herdado INTEIRO** (`soft-plano-posicionamento`, completo e fundo): os 4 Blocos (**Território** CONFIRMAR · **Narrativa** TIRAR dele · **Novo Mecanismo Único** CONSTRUIR com ele · **Oferta Completa** SUGERIR/ORGANIZAR) + as 2 Saídas (Perfil · Fundação de Headlines) + os 5 elementos de Voz. Precedido da **pesquisa profunda** (mercado · narrativas · concorrentes · clientes). Se o cliente já tem o Plano, herda sem refazer nem resumir; se não, fecha aqui antes de seguir
 - [ ] **GATE 0 - Camada Webinar plugada** (os insumos que o roteiro adiciona ao Plano, a maioria DERIVADA dele): zona A crença (Big Idea 7 partes · One Belief · USP falada · título+5 ganchos · nível de consciência · premise · Mecanismo em sequência real com a batida de ensino de 4 tempos · persona ao vivo · provas em 3 camadas · internal/external belief · future pacing · desejo oculto ×3 · aprendizados ×5) · zona B oferta/pitch (jornada nomeada · stack · 2 caminhos · objeção-mãe · 5 objeções nas 3 caixas · ROI · bônus sem preço · 3 CTAs · fechamento emocional · escassez · esteira) · zona C mecânica de sala (pré-início · compliance · retenção · Fastpass · Genie)
 - [ ] **GATE DE COMPLETUDE:** os ~80 insumos (Plano-base + Camada) preenchidos ou marcados `[slot]` - **nenhum beat do roteiro sem insumo de onde puxar.** Entrega = documento completo na voz do dono, NUNCA resumo/cartão comprimido
 - [ ] **Mapa do Avatar** com 3-7 entradas concretas em CADA eixo (desejos, dores, objeções, autoconhecimento), **puxadas de conversa real, não inventadas**, e nenhuma entrada que caberia no avatar de um concorrente

@@ -206,7 +206,7 @@ Quando esta skill produzir qualquer texto que será publicado ou enviado ao púb
 - Pediu **parecer jurídico ou contábil sobre o caso concreto** ("processo o banco?", "no meu caso isso é ilegal?") → não é desta skill: **encaminhe a advogado / Defensoria / contador** (ato privativo, art. 1º da Lei 8.906/94).
 - Há **ação judicial, penhora, bloqueio ou risco patrimonial** → STOP de escalada: **advogado / Defensoria Pública / Procon**, nunca reclamação administrativa.
 - Pediu **peça/pedido judicial** (petição, ação revisional, devolução em dobro, tutela pra limpar nome) → **advogado**. A skill não redige peça jurídica.
-- Pediu **marketing, posicionamento, conteúdo ou funil** do produto financeiro → `soft-posicionamento` / `soft-conteudo-*` / `soft-funil-carta` / `soft-funil-landing`.
+- Pediu **marketing, posicionamento, conteúdo ou funil** do produto financeiro → `soft-plano-posicionamento` / `soft-conteudo-*` / `soft-funil-carta` / `soft-funil-landing`.
 - Pediu **a venda em si** (script, objeção, fechamento da consultoria/finance.me) → `soft-vendas-closer`.
 - Quer **afirmar uma regra que você não conferiu na fonte primária** → não afirma: marca NÃO VERIFICADO e manda confirmar na fonte oficial.
 

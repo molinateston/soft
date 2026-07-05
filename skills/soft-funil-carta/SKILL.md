@@ -34,10 +34,10 @@ Procura a fonte de fala real, nesta ordem: **descrição do projeto** → **Plan
 
 Três estados de entrada (declara qual é o seu antes de escrever):
 - **Tem fala real (com N):** ancora nela e cita o N. Caminho ideal.
-- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Ancora em **prova real do autor** (resultado, case, mecanismo). Número não confirmado entra como `[DADO: confirmar]` e **não conta como Ancorada=✓**. Case que não existe entra como `[CASE: confirmar]`. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa a carta muito mais cravada.
+- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Ancora em **prova real do autor** (resultado, case, mecanismo). Número não confirmado entra como `[DADO: confirmar]` e **não conta como Ancorada=✓**. Case que não existe entra como `[CASE: confirmar]`. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa a carta muito mais cravada.
 - **Sem nicho e sem nada:** pergunta numa única mensagem (nicho em 1 linha + 1 dor real + o ticket) e segue daí.
 
-Confirma o que vem do Plano (`soft-posicionamento`): Oferta + PUV + Mecanismo nomeado + Voz. Sem Plano, a carta sai genérica, volta pra `soft-posicionamento`.
+Confirma o que vem do Plano (`soft-plano-posicionamento`): Oferta + PUV + Mecanismo nomeado + Voz. Sem Plano, a carta sai genérica, volta pra `soft-plano-posicionamento`.
 
 ## Passo 1, briefing num bloco só (espera resposta)
 Se veio do Plano com os dados, confirma em 1 linha e pula. Senão, coleta de uma vez:
@@ -203,7 +203,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 - Pediu **mini-webinar do funil** (vídeo de ~10min em blocos) → **soft-funil-miniwebinar**.
 - Pediu **isca / lead magnet / artigo-isca / captura** → **soft-funil-isca**.
 - Pediu **webinar perpétuo ou ao vivo** → **soft-webinar-plano** (porta de entrada do pacote; o roteiro é **soft-webinar-script**).
-- Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
+- Pediu **Plano / posicionamento / oferta / PUV** → **soft-plano-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
 - Pediu o **fechamento da venda** (script, objeção, follow-up, pós-venda) → **soft-vendas-closer**; a **prospecção/abertura de lead frio** → **soft-vendas-sdr**.
 

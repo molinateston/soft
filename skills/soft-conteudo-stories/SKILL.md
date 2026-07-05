@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-stories
-description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
+description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do gate + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-plano-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Stories, o arco de conversão diária
@@ -28,7 +28,7 @@ Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto**
 
 Três estados de entrada (declara qual é o seu antes de escrever):
 - **Tem fala real (com N):** ancora nela e cita o N. Caminho ideal.
-- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Cada frame ancora em **prova real do autor** (print, case, mecanismo); qualquer número não confirmado entra como `[DADO: confirmar]` e **NÃO conta como Ancorada=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa o arco muito mais cravado.
+- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Cada frame ancora em **prova real do autor** (print, case, mecanismo); qualquer número não confirmado entra como `[DADO: confirmar]` e **NÃO conta como Ancorada=✓**. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-plano-posicionamento) deixa o arco muito mais cravado.
 - **Sem nicho e sem nada:** pergunta numa única mensagem (nicho em 1 linha + 1 dor real que o cliente fala) e segue daí.
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · lista do "não defendo" · cliente em uma frase.
@@ -130,7 +130,7 @@ Mostra **só os frames que passaram, LIMPO** (no DOC, nunca solto no chat), em b
 ## When NOT to use (manda pra skill certa)
 - Pediu **HEADLINE/gancho/capa/abertura** isolada → **soft-conteudo-headlines** (faz a headline primeiro, o arco parte dela).
 - Pediu **carrossel** → **soft-conteudo-carrossel** · **reel** → **soft-conteudo-reels** · **adaptar pra outras plataformas** → **soft-conteudo-multiplataforma**.
-- Pediu **Plano / posicionamento / fundação / bio / destaques** → **soft-posicionamento**.
+- Pediu **Plano / posicionamento / fundação / bio / destaques** → **soft-plano-posicionamento**.
 - Pediu **arte/visual/PNG** dos frames → **soft-designer**.
 - O lead chegou no Direct e quer **fechar / carta / VSL / venda** → **soft-funil-carta** (a venda em si é soft-vendas-closer).
 

@@ -20,39 +20,38 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 
 ## O que vem
 - `soft-leon`
-- `soft-posicionamento`
+- `soft-plano-negocio`
+- `soft-plano-posicionamento`
+- `soft-plano-ofertas`
+- `soft-financeiro`
+- `soft-contratos-consultoria`
+- `soft-conteudo-planner`
 - `soft-conteudo-headlines`
 - `soft-conteudo-carrossel`
 - `soft-conteudo-reels`
 - `soft-conteudo-stories`
 - `soft-conteudo-multiplataforma`
 - `soft-conteudo-impulsionar`
-- `soft-conteudo-matriz`
-- `soft-conteudo-scorer`
-- `soft-conteudo-thumbnail`
-- `soft-conteudo-comentario-fixado`
-- `soft-radar-tendencias`
+- `soft-designer`
+- `soft-editor-video`
+- `soft-trafego-meta`
+- `soft-apostila`
 - `soft-funil-carta`
 - `soft-funil-miniwebinar`
 - `soft-funil-landing`
 - `soft-funil-isca`
-- `soft-trafego-meta`
 - `soft-webinar-plano`
 - `soft-webinar-script`
+- `soft-webinar-slides`
 - `soft-webinar-paginas`
 - `soft-webinar-mensagens`
 - `soft-webinar-chat`
-- `soft-webinar-slides`
+- `soft-launch`
+- `soft-vendas-estrategias`
 - `soft-vendas-sdr`
 - `soft-vendas-closer`
-- `soft-designer`
 - `soft-proposta-comercial`
-- `soft-editor-video`
-- `soft-financeiro`
 - `soft-treino-dieta`
-- `soft-contratos-consultoria`
-- `soft-apostila`
-- `soft-mentoria`
-- `soft-lancamento-pago`
+- `soft-sistema`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

@@ -64,8 +64,8 @@ O **Modo A é a função principal.** `script-builder.md` é a reference mais de
 
 O script Soft é **filtro de chegada + fechamento de quem já está aquecido**, não prospecção fria. Antes de escrever qualquer script, confirme que a fundação existe (consulte **`shared-references`**, o mapa skill→capítulo e os filtros universais vivem lá):
 
-- **Plano de Marca Pessoal empacado** (Cap 2 · `soft-posicionamento`), sem isso o script não tem o que filtrar.
-- **Voz destilada** (Cap 3 · `soft-posicionamento`), sem voz, a mensagem soa como qualquer vendedor de mercado.
+- **Plano de Marca Pessoal empacado** (Cap 2 · `soft-plano-posicionamento`), sem isso o script não tem o que filtrar.
+- **Voz destilada** (Cap 3 · `soft-plano-posicionamento`), sem voz, a mensagem soa como qualquer vendedor de mercado.
 - **Carta/Vídeo funcionando** (Cap 4 · `soft-funil`), é o que aquece o lead antes do WhatsApp. Sem ela, o lead chega frio e a conversa vira gasto de energia, não confirmação.
 - **Feed publicando** (Caps 5–8), onde o lead valida a autoridade antes de chegar.
 
