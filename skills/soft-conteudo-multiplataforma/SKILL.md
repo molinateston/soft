@@ -136,7 +136,7 @@ Só cai aqui se o Passo 0 marcou o estado de exceção: destino newsletter/email
 **Detalhe de cada molde (o que ele nunca faz, o modelo de abertura preenchível, a nota de CTA) está em `references/newsletter-arquetipos.md`.** Abre a reference quando montar; o menu acima é o mapa, a reference é o passo a passo.
 
 ## Passo 4c, COMENTÁRIO FIXADO (a superfície de humanização embaixo do post)
-Só cai aqui quando o destino é o **comentário fixado**, o 1º comentário que o próprio criador solta embaixo de um post. Ele é a superfície onde a peça vira gente: embaixo de um post técnico ou de autoridade seca, o criador tira a máscara polida e se rebaixa com graça pra o público baixar a guarda. Aqui a re-render não roda os 5 papéis; roda a mecânica própria abaixo. **Uso situacional, não é peça obrigatória do funil: humaniza, NÃO vende, zero CTA de venda.** É ouro embaixo de post de autoridade fria; se o pedido é vender, é outra skill (soft-funil / soft-vendas).
+Só cai aqui quando o destino é o **comentário fixado**, o 1º comentário que o próprio criador solta embaixo de um post. Ele é a superfície onde a peça vira gente: embaixo de um post técnico ou de autoridade seca, o criador tira a máscara polida e se rebaixa com graça pra o público baixar a guarda. Aqui a re-render não roda os 5 papéis; roda a mecânica própria abaixo. **Uso situacional, não é peça obrigatória do funil: humaniza, NÃO vende, zero CTA de venda.** É ouro embaixo de post de autoridade fria; se o pedido é vender, é outra skill (soft-funil / soft-vendas-closer).
 
 **A sacada central (leia primeiro): a IMAGEM carrega a piada, o comentário só legenda a imagem.** Se o comentário é engraçado sozinho, ele está trabalhando demais e a imagem está fraca. Por isso o conceito da imagem vem PRIMEIRO, sempre. A arte final NÃO sai daqui: você entrega o briefing e o dono aciona a **soft-designer** com a ID visual dele (nunca escreve prompt de Gemini/Nano Banana nem de ferramenta externa).
 
@@ -203,7 +203,7 @@ Mostra **só a versão que passou, LIMPO** (no DOC, nunca solto no chat): a peç
 - Pediu o **Plano / posicionamento / fundação** → **soft-plano-posicionamento**.
 - Pediu o **CORPO original** de carrossel/reel/stories no Instagram → **soft-conteudo-carrossel / -reels / -stories**.
 - Pediu **carta / VSL** → **soft-funil-carta** · **página de vendas / captura / obrigado** → **soft-funil-landing** · **mini webinar** → **soft-funil-miniwebinar**.
-- Pediu uma **LEGENDA que vende** ou um **CTA de conversão** no comentário → o comentário fixado (Passo 4c) humaniza, não fecha; a venda é **soft-funil** / **soft-vendas**.
+- Pediu uma **LEGENDA que vende** ou um **CTA de conversão** no comentário → o comentário fixado (Passo 4c) humaniza, não fecha; a venda é **soft-funil** / **soft-vendas-closer**.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

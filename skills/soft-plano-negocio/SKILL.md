@@ -1,6 +1,6 @@
 ---
 name: soft-plano-negocio
-description: "Monta o PLANO DE NEGÓCIO do especialista do método Soft: onde ele está (diagnóstico por número real), a meta, A Conta (cabe na vida?), a projeção em 3 cenários (conservador/realista/agressivo com premissa escrita), o Score de Nicho quando o nicho está em aberto, e o roadmap de 90 dias. Consolida num só entregável o diagnóstico, a Conta, a projeção, o próximo passo e o roadmap, do que o negócio já produz, nada inventado. Use quando o pedido for 'meu plano de negócio', 'minha projeção', 'por onde começo', 'que meta é realista', 'faz a Conta', 'quantos clientes preciso', 'roadmap', 'onde estou na jornada', 'plano de 90 dias', 'consolida tudo num plano', 'que nicho escolho / meu nicho vale a pena', 'quanto vou faturar'. NÃO use para posicionamento/marca/oferta/PUV/nomear mecanismo (soft-plano-posicionamento), nem para conteúdo/carta/funil/venda (soft-conteudo-*, soft-funil-*, soft-vendas), nem para o financeiro de back-office (preço, DRE, dívida: soft-financeiro)."
+description: "Monta o PLANO DE NEGÓCIO do especialista do método Soft, a meta, A Conta, a projeção e o roadmap de 90 dias do NEGÓCIO (não a pauta de conteúdo): diagnóstico por número real, A Conta (cabe na vida?), projeção em 3 cenários com premissa escrita, Score de Nicho quando o nicho está em aberto. Âncora, 'planeja meu negócio' = plano-negocio; 'planeja meu mês de conteúdo/pauta' = soft-conteudo-planner. Consolida num só entregável, do que o negócio já produz, nada inventado. Use quando o pedido for 'meu plano de negócio', 'minha projeção', 'por onde começo', 'que meta é realista', 'faz a Conta', 'quantos clientes preciso', 'roadmap', 'plano de 90 dias', 'que nicho escolho', 'quanto vou faturar'. NÃO use para o planejamento do mês de CONTEÚDO/pautas/calendário editorial (soft-conteudo-planner), posicionamento/marca/oferta/PUV/nomear mecanismo (soft-plano-posicionamento), conteúdo/carta/funil/venda (soft-conteudo-*, soft-funil-*, soft-vendas-*), nem o financeiro de back-office (DRE, dívida: soft-financeiro)."
 ---
 
 **Papel:** skill de negócio do método Soft. Sai de dentro do LEON pra virar peça de primeira: produz o **PLANO DE NEGÓCIO** do especialista, o entregável que ele recebe, reabre e usa como bússola. Junta num só lugar o que hoje sairia espalhado: onde ele está (diagnóstico), a meta, A Conta (cabe na vida?), a projeção em 3 cenários, o Score de Nicho quando o nicho está em aberto, e o roadmap de 90 dias. **Não cria método novo, não inventa número: consolida e projeta a partir do que o negócio do especialista JÁ tem, e onde falta insumo, pergunta ou marca `[A CONFIRMAR]`.** É a etapa "quanto e por onde", a irmã de negócio do posicionamento (que é a alma/marca): quando o pedido é *plano de negócio / projeção / por onde começo*, é aqui; quando é *quem eu sou pro mercado / minha oferta / meu mecanismo*, é a `soft-plano-posicionamento`.
@@ -173,7 +173,7 @@ O LEON (o Sócio IA) **aponta pra esta skill** quando o pedido é de negócio:
 **O que NÃO é desta skill** (o LEON aponta pro lugar certo):
 
 - Quem eu sou pro mercado, minha marca, minha oferta, minha PUV, nomear meu mecanismo, meu tom de voz → **`soft-plano-posicionamento`** (a fundação/alma; esta skill é a irmã de negócio, o "quanto e por onde").
-- Conteúdo (carrossel, reel, stories, headline), carta/VSL, landing, funil, script de venda/objeção → skills irmãs **`soft-conteudo-*` / `soft-funil-*` / `soft-vendas`**.
+- Conteúdo (carrossel, reel, stories, headline), carta/VSL, landing, funil, script de venda/objeção → skills irmãs **`soft-conteudo-*` / `soft-funil-*` / `soft-vendas-*`**.
 - Preço/markup/margem, DRE, fluxo de caixa, capital de giro, defesa de dívida/banco, MEI/Simples → **`soft-financeiro`** (back-office; esta skill projeta o negócio, não faz a contabilidade dele).
 - A proposta comercial materializada em site pós-call → **`soft-proposta-comercial`** (esta skill reusa o motor de site dela quando o dono pede o plano publicado, mas não é a proposta de venda).
 
@@ -195,7 +195,7 @@ O LEON (o Sócio IA) **aponta pra esta skill** quando o pedido é de negócio:
 ## When NOT to Use (manda pro caminho certo)
 
 - Pediu **posicionamento, marca, oferta, PUV, mecanismo, tom de voz** → `soft-plano-posicionamento`. Esta skill projeta o negócio; não define quem ele é pro mercado.
-- Pediu **conteúdo, headline, carta, VSL, landing, funil, script de venda** → `soft-conteudo-*` / `soft-funil-*` / `soft-vendas`.
+- Pediu **conteúdo, headline, carta, VSL, landing, funil, script de venda** → `soft-conteudo-*` / `soft-funil-*` / `soft-vendas-*`.
 - Pediu **preço/markup, DRE, fluxo de caixa, capital de giro, dívida, regime tributário** → `soft-financeiro`. Esta skill projeta o faturamento; não faz a contabilidade nem a defesa financeira.
 - Pediu a **proposta comercial em site pós-call** (o vendedor silencioso do prospect) → `soft-proposta-comercial`.
 - Pediu **estratégia de 12+ meses / planejamento de 3 anos** → o método opera em 6 meses; explique e ofereça o plano de 90 dias + a curva de 6 meses no lugar.

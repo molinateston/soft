@@ -19,7 +19,7 @@ Designer dos carrosséis do método Soft Business. **Escreve a copy-visual de ca
 - 5. Quando o usuário é leigo
 - 6. Erros que esta reference nunca comete
 - 7. Princípio final
-- 8. O branch de imagem-IA (HTML→PNG vs ilustração por IA); a capa/thumbnail de vídeo, antiga soft-conteudo-thumbnail, mora aqui
+- 8. O branch de imagem-IA (HTML→PNG vs ilustração por IA); a capa/thumbnail de vídeo (modo desta soft-designer) mora aqui
 - Handoff
 
 ---
