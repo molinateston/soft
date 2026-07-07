@@ -114,6 +114,17 @@ Um único STOP, sobre a PEÇA INTEIRA já montada no DOC (o script COMPLETO das 
 >
 > **Aspa de cliente exige GREP visível na fonte real do usuário.** Toda fala entre aspas que se declara verbatim tem que ser substring literal que você grepou e mostrou na fonte de VoC DELE (a tabela de ancoragem, `01-entrada-verbatim.md` passo 6). **Persona fictícia SEM perfil de VoC real não tem fonte, logo NÃO pode ter aspa "real":** aí a peça sai marcada `RASCUNHO-COM-PENDÊNCIA` / `[A CONFIRMAR]` e roteia pro onboarding. É PROIBIDO afirmar "verbatim-âncora, fonte real da [persona]" ou "nenhuma aspa é inventada, todas batem na fonte" sem o grep à mostra na fonte do usuário. Sem fonte, não se ASSUME nem se DECLARA verbatim, marca-se rascunho. Encenar a ancoragem (afirmar que bateu sem grepar) é a fraude que o gate existe pra matar.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Como conduz (por pergunta, nunca despeja)
 1. Confirma o Plano (Oferta + PUV + Mecanismo + Voz). Sem ele, volta pra `soft-plano-posicionamento`.
 2. Confirma de onde vem o lead: veio do funil quente? veio do SDR com nota no CRM (então lê a nota e ecoa)? Nunca faz o lead repetir o que já contou.

@@ -77,6 +77,17 @@ A aula são 4 fases na ordem, mais um pré-início OBRIGATÓRIO. **A régua de p
 
 > A engenharia completa de cada bloco ADMA (pergunta-chave, estado-alvo, modelo de fala, anti-padrão) está em `references/estrutura-webinario-aida.md`. **Lê esse arquivo bloco a bloco antes de escrever a fase correspondente.** Ele é a fonte da ordem e do porquê de cada beat. A mecânica universal por trás (as 4 partes do modelo, os 5 elementos da introdução, o checklist de 4 da autoridade, as 2 vendas, o CVSC por passo, os 8 mecanismos da história) está em `references/modelo-webinar-referencia.md`; o cérebro de premissas que JULGA cada peça (as 10 meta-premissas + os 11 guarda-corpos) está em `references/premissas-e-guarda-corpos.md`. Quando a forma canônica ferir a premissa num nicho, a premissa ganha.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 2, escreve o Mecanismo na SEQUÊNCIA REAL (o coração da aula)
 O Mecanismo NÃO é "inverter 3 crenças" nem "3 viradas". É uma **sequência rica e fixa** que instala uma NOVA OPORTUNIDADE (não uma melhoria) e termina no "EU QUERO". **Esta é a correção-mãe da skill: o Mecanismo segue a ordem da Fase M de `references/estrutura-real-webinar.md`, não um motor de viradas.** A ordem (estilo webinar de referência):
 

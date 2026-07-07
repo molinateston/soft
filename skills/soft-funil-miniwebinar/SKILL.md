@@ -40,6 +40,17 @@ A fundação (quando existe, do Plano): tese central · mecanismo nomeado · top
 
 **Atenção, não confunda:** o Passo 0 acima é a ANCORAGEM (achar fala real, declarar o estado de entrada). Produzir o Discurso Base é OUTRA coisa, é o Passo 0.5 logo abaixo, e ele é obrigatório antes de escrever qualquer fase.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 0.5, PRODUZ o Discurso Base 7 passos e NÃO avança sem ele (OBRIGATÓRIO)
 Antes de quebrar nos 12 blocos, **produz a versão-mestre dos 7 passos do Discurso Base** (`references/discurso-base-7-passos.md`): a narrativa de venda em texto corrido neutro (Gancho · Diagnóstico sem culpa · por que as soluções comuns falham · Método nomeado · Prova específica · objeções · Oferta+CTA). É o andaime que alimenta os 12 blocos, cada passo do Discurso Base se distribui nas 4 fases ADMA conforme o mapeamento da `references/modo-mini-webinar.md`. Sem essa espinha, os 12 blocos saem soltos e o vídeo perde a costura. Ir do Passo 1 direto pra escrever a ATENÇÃO, pulando este passo, é o furo que reprova a skill: cada fala das 4 fases tem que rastrear a um dos 7 passos deste andaime.
 

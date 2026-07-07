@@ -79,6 +79,17 @@ Se o player não disse o modo, pergunta numa linha. Pro PERPÉTUO, precisa de: o
 - **~10-15% da sala comenta**, cada um 2-4 vezes. Régua de bolso: **~1 comentário/minuto de MÉDIA**, mas a média mente, a distribuição é em ONDAS. Teto de poluição: não estourar ~150-200 mensagens visíveis.
 - **A curva (onde concentrar):** cheia na **sala de espera + abertura** (chegada, áudio/vídeo, nome/cidade quando o host pede), **VALE obrigatório no meio do ensino puro** (chat quase mudo pra não roubar a atenção do conteúdo), **picos nos comandos** do host ("digita EU QUERO", "estão curtindo?") e **na conta/números**, **MÁXIMO no LINK NO AR / carrinho**, **urgência no fechamento**.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 3, planta os TIPOS, casa a CONSISTÊNCIA, passa o REALISMO
 
 **Lê `references/_CHAT-MODELO.md` §4, §5 e §6 e aplica:**

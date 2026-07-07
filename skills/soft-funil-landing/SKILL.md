@@ -110,6 +110,17 @@ A estrutura bloco a bloco de cada arquitetura está em `references/arquiteturas.
 ## Passo 3, outline pra aprovar
 Entrega um outline numerado dos blocos **da receita do tipo escolhido** (a sequência do tipo em `references/tipos-de-landing.md`, ou os blocos da arquitetura quando o objetivo é vender no texto), com a headline de cada bloco e onde fica cada CTA. **Para e espera o OK.** O cliente vê o esqueleto antes do corpo.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 4, escreve UM bloco por vez
 Escreve a **receita de blocos DO TIPO escolhido**, um bloco por vez, com STOP a cada um. Cada tipo tem sua própria sequência, seu "NÃO entra" e sua mecânica-assinatura.
 - **Vender no texto:** usa os 14 blocos universais + a arquitetura escolhida. Os 14 (peso e ordem mudam por arquitetura, nenhum some): Hero · VSL (quando aplica) · Para quem é/não é · O problema (dor de 3ª camada) · Mecanismo do problema · Apresentação do método · Prova social · O produto por dentro · Bônus · Oferta + empilhamento · Garantia · Sobre o autor · FAQ · CTA final. Detalhe de condução em `references/processo-landingpage.md`.

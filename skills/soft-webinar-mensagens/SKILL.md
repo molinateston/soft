@@ -127,6 +127,17 @@ Régua escala com o ticket. Confirma antes de escrever:
 | Diário | ~1 dia | padrão (24h/1h/5 min encaixa) |
 | Just-in-time (15/30/60 min) | <60 min | comprimida (quase só "faltam X min" + link; o WhatsApp carrega tudo) |
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 2, escreve a régua de ANTES (cada mensagem com 1 trabalho)
 
 Canais em paralelo na mesma régua de horários. O WhatsApp **não repete** o e-mail: comprime na promessa e pede o compromisso. Pra cada linha, abre `references/sequencias-email-whatsapp-pre-pos.md` na seção PRÉ-WEBINAR (Mensagem 1 a 4) e troca só o recheio pelo nicho.

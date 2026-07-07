@@ -90,6 +90,17 @@ Profundidade das 10 jogadas em `references/jogadas-de-campanha.md` (cada uma: o 
 
 **STOP.** A(s) jogada(s) escolhida(s) + o porque + a ordem no mes + a frequencia. Espera OK.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## P2: Montar a jogada (o esqueleto na voz do dono)
 
 Monta o esqueleto da(s) jogada(s) escolhida(s). Cada jogada tem seu passo-a-passo; o esqueleto passa na voz do dono e no anti-ia ANTES de ir pra rua. As 10, em resumo executavel:

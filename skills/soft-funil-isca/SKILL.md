@@ -80,6 +80,17 @@ Quando o formato é **Artigo-Isca**, segue os 13 movimentos (a escada de percep�
 
 Antes de produzir, puxa o porquê da condução em `references/conducao-na-pratica.md` (o funil é o fácil e a posição é o difícil; congruência repete a tese; minimalismo), usa os §1-4; o §5 (lançamento pago) fica fora de escopo da isca. **Mostra o formato + a promessa e PARA pro OK. Este é o STOP do Passo 2: o OK aqui autoriza SÓ o formato, NÃO a produção. Não emenda o Passo 3 no mesmo OK.**
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 3, produz a isca ancorada (com seeding do método)
 **STOP de entrada:** este passo SÓ abre depois do OK do Passo 2 (o do formato). Passo 2 e Passo 3 nunca compartilham OK; se o usuário só aprovou o formato, você para aqui e pede o OK pra produzir.
 

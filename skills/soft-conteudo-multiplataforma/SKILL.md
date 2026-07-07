@@ -65,6 +65,17 @@ Identifica qual trecho da âncora faz cada papel. Isso é o mapa que você impri
 
 Anti-padrão: traduzir cada slide em 1 parágrafo/tweet sem repensar os papéis. O carrossel tem N slides, mas os 5 papéis não são N unidades: alguns papéis ocupam vários slides (Conteúdo), outros colapsam (Capa + Capa Reserva num formato curto). Adaptação fiel preserva os **papéis**, não o número de unidades.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 4, re-renderiza no idioma nativo do destino
 Usa a tabela como ponto de partida. Cada papel migra preservando a função, no formato do destino.
 

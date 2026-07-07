@@ -57,6 +57,17 @@ Antes de desenhar, ancora no dono. Puxe o posicionamento dele (Narrativa, Mecani
 
 **STOP.** Confirma avatar + mecanismo nomeado + resultado que já gera + TIPO de oferta + estágio. Espera OK.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## P1: A PUV (destila, não inventa)
 
 Antes de listar um entregável sequer, a oferta abre com a **PUV: a Proposta Única de Valor**, a frase que amarra pra quem (Narrativa) · a virada (Racional) · por qual mecanismo único · qual transformação. **Não se inventa aqui, destila-se do que já está pronto.** Se a PUV sai fraca, o problema está atrás dela (um bloco do posicionamento está raso), não nela.

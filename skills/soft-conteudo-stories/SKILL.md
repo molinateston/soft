@@ -93,6 +93,17 @@ lotou em um dia. Manda 'SESSAO' no Direct pra pegar a sua."
 
 **Story Infiltrado.** Único que mira público frio. Parece orgânico: roda lógica de Resultado/Alinhamento sem cara de anúncio (sem "saiba mais", sem CTA, foto real). Cobra teste pra valer, não é onde se começa sem verba.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 3, escreve frame a frame (cada um com função)
 Cada frame: **observação → interpretação → tese curta ancorada**. Parte do que se vê (o print, a cena real), interpreta sob a lente da percepção, fecha numa tese ancorada em chão (print, número, cena), nunca opinião solta. Estilo Soft: uma ideia por frame, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket" no texto), tom de comando nunca de súplica (*"Direct 'MÉTODO'"*, nunca *"você gostaria de…"*). Front-load: o primeiro frame decide se a pessoa continua, é o print ou a tese, não enrolação. **CTA é DM com palavra-chave, nunca link externo** (o algoritmo penaliza link). **Não narra o fluxo** ("agora vou montar a oferta"), só entrega limpo.
 

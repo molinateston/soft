@@ -87,6 +87,17 @@ Menos de 7 slides não desenvolve a tensão. Mais de 10 cansa e derruba o CTA.
 
 **Contexto é rei (a estrutura flutua).** A Fórmula 7 é o guia, não um trilho rígido. O assunto manda: um carrossel pode pesar mais no Mecanismo (2-3 slides só pra ele) e enxugar o Diagnóstico; outro pode ser quase inteiro sobre o Problema, quando a dor ainda não doeu o suficiente; outro corta a Nova Oportunidade porque a virada já está na capa. Mantém os 7 a 10 slides e o arco ADMA de pé, mas distribui o peso pelo que ESTE assunto pede. Decide o peso no mapa de densidade (Passo 1) e justifica em 1 linha.
 
+## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
+Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
+2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
+3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
+4. **Standalone:** cada frase entendida sem contexto e sem explicação.
+5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
+6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
+7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
+Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+
 ## Passo 3, escreve slide a slide (na voz do cliente)
 Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando numa frase-conclusão ancorada (nunca um slide que só prepara o próximo). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), toma lado, nunca morno. Trabalha dor e desejo (o estado preso × o estado solto) e, quando der, ancora o contraste num número.
 
