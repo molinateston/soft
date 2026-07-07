@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-headlines
-description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do gate + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-plano-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinar-plano).
+description: Escreve a HEADLINE/gancho/abertura de qualquer peça do método Soft, da capa de carrossel ao título, chamada, gancho FALADO do reel (3 primeiros segundos), título de vídeo/YouTube e assunto de e-mail. Ancora no verbatim do cliente e escreve DENTRO dos templates validados do cânone (T/C/H/Y/E), cada uma pelo gate (standalone sem precisar de contexto + CUB + as 3 perguntas do crivo + anti-IA + teto físico CONTADO por formato). Pedido aberto sem orientação específica = BANCO COMPLETO, mínimo 50 templates validados com 3+ headlines cada, agrupadas por template com o número de origem. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "título do YouTube", "assunto de e-mail", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (soft-conteudo-carrossel/-reels/-stories), nem pro Plano (soft-plano-posicionamento), nem pra arte (soft-designer), nem pra abertura de VSL (soft-funil-carta) ou da aula do webinar (soft-webinar-script).
 ---
 
 # Headline, os primeiros 3 segundos
@@ -14,10 +14,11 @@ A decisão de ficar ou pular acontece em menos de 2 segundos. A abertura é 90% 
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer headline.**
 
 ## Output Contract (o que você entrega)
-- Por padrão, **escolhe os templates que encaixam no assunto** (de `references/templates.md`) e escreve **2-3 headlines DENTRO de cada template**, agrupadas por template. É assim que se ensina headline: a mesma ideia rendida por várias fórmulas testadas. Nunca uma lista solta de 10 genéricas.
-- A saída é **limpa, no doc (artifact)**: cada grupo traz **o template nomeado + os gatilhos que ele aciona** no topo, e as 2-3 headlines embaixo. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
-- Você **para e espera** o cliente escolher/ajustar antes de gerar mais ou passar pro corpo.
-- Volume grande (banco de 50/100/200/300) só sob o comando explícito "banco de [tema]".
+**O cânone VALIDADO tem ~58 templates: T1-T30 (gerais) + C1-C6 (ângulos) + H1-H8 (reel falado) + Y1-Y7 (YouTube) + E1-E7 (e-mail).** C9-C12 são INCUBADORA (`references/templates-candidatos.md`): só entram sob o comando "usa os candidatos", sempre marcados com o C-número; candidato sem métrica não vira cânone.
+- **Pedido ABERTO, sem orientação específica** ("me dá headlines sobre X", "banco de headlines"): entrega o **BANCO COMPLETO no doc: no mínimo 50 templates validados, com PELO MENOS 3 headlines cada**, organizado em 2 partes: Cânone geral (T por gatilho) e Por formato (H reel falado · Y YouTube · E e-mail). Cada grupo com **o número de origem (T/C/H/Y/E) + fórmula + gatilhos** no topo. Se a ancoragem real só sustenta menos templates com honestidade, entrega o que sustenta e DIZ quais faltaram e por quê (nunca inventa pra completar).
+- **Pedido ESPECÍFICO** (formato, quantidade, "headline pra ESTE carrossel/reel"): obedece a orientação, escolhe 3-5 templates que encaixam, 2-3 headlines cada, com a mesma marcação de origem.
+- A saída é **limpa, no doc (artifact)**. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
+- No pedido específico, você **para e espera** o cliente escolher antes de gerar mais. No banco completo, entrega o doc inteiro de uma vez e pergunta o que ajustar.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra headline que falhou no gate**.
 
 
@@ -88,7 +89,37 @@ Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates
 | 29 | O [melhor/pior] pra [situação] não é X, não é Y, não é Z | "O exame mais importante pro coração não é colesterol, não é glicose, e o médico não pede." | Mistério |
 | 30 | Erros que você comete ao [ação comum] e como evitar | "4 erros que você comete na primeira reunião com um cliente." | Reconhecimento + Recompensa |
 
-> **Regra dura:** as fórmulas são ESTAS 30. Se você escreveu um "template" que não é um destes, você INVENTOU (é o erro a não cometer). No máximo você adapta/combina um destes ao nicho do cliente. `references/templates.md` traz os mesmos 30 com mais contexto de uso.
+> **Regra dura:** as fórmulas do cânone geral são ESTAS 30 (+ os sub-cânones por formato abaixo). Se você escreveu um "template" fora do cânone, você INVENTOU (é o erro a não cometer). No máximo adapta/combina ao nicho do cliente. `references/templates.md` traz os 30 com mais contexto e as notas de refinamento.
+
+### SUB-CÂNONES POR FORMATO (validados com dado; detalhe e evidência em `references/subcanones-formato.md`)
+Quando o destino é reel falado, YouTube ou e-mail, os moldes do formato entram no jogo junto dos 30. Teto físico é validação DURA (conta, não estima).
+
+| Nº | Fórmula | Teto |
+|---|---|---|
+| H1 | Para de [ação]. | ≤7 palavras faladas |
+| H2 | [Ação já acontecendo, in media res]. | ≤7 palavras |
+| H3 | Se você [característica ultraespecífica], escuta. | ≤7 palavras |
+| H4 | [Declaração que confronta o senso comum]. | ≤7 palavras |
+| H5 | Por que [X] e não [Y]? | ≤7 palavras |
+| H6 | Fiz [número] fazendo isso. (prova crua) | ≤7 palavras |
+| H7 | Eu errei nisso por [tempo]. | ≤7 palavras |
+| H8 | Teu [X] tá te fazendo perder [Y]. | ≤7 palavras |
+| Y1 | [N] [coisas] que [resultado] (a maioria erra a Nº X) | 50-70 caracteres |
+| Y2 | [Mudança pequena] e [resultado grande] | 50-70c |
+| Y3 | De [X concreto] para [Y concreto] | 50-70c |
+| Y4 | Testei [X] por [tempo]. [resultado] | 50-70c |
+| Y5 | [Credencial real] explica: [afirmação] | 50-70c |
+| Y6 | Por que [crença comum] tá te fazendo [dano] | 50-70c |
+| Y7 | [Resultado] sem [obstáculo comum] | 50-70c |
+| E1 | A única coisa que mudou [X] | ≤45 caracteres |
+| E2 | Você ainda [comportamento-dor]? | ≤45c |
+| E3 | Dobre [X] sem mudar [Y] | ≤45c |
+| E4 | [N] [coisas] que [resultado] | ≤45c |
+| E5 | Uma coisa rápida (tom de colega) | ≤45c |
+| E6 | [R$ N] de [fonte] (parcimônia: risco spam) | ≤45c |
+| E7 | Não abre esse e-mail (parcimônia: desgasta) | ≤45c |
+
+**Comandos rápidos:** "**usa os candidatos**" libera C9-C12 da incubadora (sempre marcados com o C-número na saída). "**minera benchmark de [tema]**" roda nova rodada de mineração com veredito de dedup contra o cânone ANTES de propor candidato (no app sem web, conduz com o material que o dono colar); registro em `references/mineracao-benchmark.md`.
 
 ### Régua de cobertura de ângulo (camada de VARIAÇÃO, roda POR CIMA dos 30 templates)
 Template diz a FÓRMULA da frase. Ângulo diz de que LADO psicológico você ataca o mesmo tema. Dois templates diferentes podem cair no mesmo ângulo (dois jeitos de "confessar") e aí o cliente recebe 6 headlines que soam iguais por dentro. Esta régua garante DIVERSIDADE de ataque: quando o pedido é solto ("me dá 6 aberturas", "gera uns ganchos rápido", "headlines sobre X" sem número), o conjunto entregue cobre **pelo menos 4 dos 6 ângulos abaixo**, cada um mapeado a um template dos 30. Ela NÃO substitui os 7 gatilhos nem os 30 templates: é um checklist de cobertura por cima deles.
@@ -137,7 +168,8 @@ O check "Teto físico do formato" manda CONTAR contra um alvo. O alvo mora AQUI,
 | **Ancorada** | nasce de fala literal da fonte (cita N **real**) OU de prova real do autor; **N inventado/plausível = ✗ automático**; fecha em chão/número/cena, não em tese solta bonita | |
 | **Gatilhos rastreáveis** | **≥2 dos 7 gatilhos rastreáveis na frase (ideal 3); 1 só = ✗**, e "no espírito" não conta | |
 | **Target-leigo** | zero palavra-container sem adjetivo concreto. ✗ "um sistema que transforma" · ✓ "sistema de aquisição por indicação" | |
-| **Clareza, sem contexto presumido (Lei 1)** | dá pra entender sem já ser de dentro; cria o contexto antes da afirmação; zero palavra difícil. ✗ "reorganize a percepção de valor" · ✓ "cobra o que você vale sem o cliente achar caro" | |
+| **STANDALONE, sem contexto e sem explicação (Lei 1)** | a headline se sustenta SOZINHA: num print isolado, quem nunca te viu entende e para. Se precisa da linha de cima, de "ou seja" ou de um rodapé explicando, REPROVA. Zero palavra difícil, cria o contexto dentro da própria frase. ✗ "reorganize a percepção de valor" · ✓ "cobra o que você vale sem o cliente achar caro" | |
+| **CUB** | a frase carrega com força pelo menos 1 dos três: Curiosidade real (loop que o cérebro quer fechar) · Utilidade/valor prático · Benefício concreto. Nenhum dos três = frase morta, refaz | |
 | **Stranger às 22h** | benefício concreto OU curiosidade real OU dor específica. ✗ "o futuro da nutrição é a personalização" · ✓ "treina 2 anos e a bioimpedância não mexe" | |
 | **Mesa-sentado** | eu falaria pro cliente na cara dele. ✗ "descubra o segredo que mudou tudo" · ✓ "cobrei 3x mais e o cliente agradeceu" | |
 | **Curta e densa (serve pra tudo)** | diz mais com menos; corta toda palavra que não muda o sentido; curta mas NÃO rasa; nunca encurta até virar figura vazia (Lei 1). **Uma ideia por frase: headline que virou 2 orações longas encadeadas ("...na academia, mesmo sendo personal") já falha aqui E no Teto; comprime pra uma oração.** A mesma headline serve de capa, reel, post ou story | |
@@ -159,7 +191,7 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 - Pediu o **CORPO** da peça → **soft-conteudo-carrossel** (slides do carrossel) · **soft-conteudo-reels** (roteiro do reel) · **soft-conteudo-stories** (arco de stories).
 - Pediu o **Plano / posicionamento / fundação** → **soft-plano-posicionamento**.
 - Pediu **arte/visual/PNG** → **soft-designer**.
-- Pediu **abertura de VSL / webinar** → **soft-webinar-plano** (a headline de webinar é operada lá).
+- Pediu **abertura de VSL** → **soft-funil-carta** · **abertura da aula do webinar** → **soft-webinar-script** (a headline de palco é operada lá).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |
@@ -176,9 +208,15 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só template + gatilhos + as headlines limpas |
 | Inventou uma fórmula genérica (não é um dos 30 templates) | Usa ESTES 30 do corpo; adapta ao nicho, nunca cria fórmula do zero |
 | Entregou as headlines só soltas no chat, sem doc | O banco sai como doc MD (artifact no claude.ai / arquivo no Code); o chat é a condução |
+| Promoveu candidato sem métrica | C9-C12 são incubadora: só sob "usa os candidatos", sempre com o C-número; viram cânone SÓ com baseline batido em 2+ peças reais do dono |
+| Alegou "todas dentro do teto" sem contar | O teto é CONTADO (palavras E caracteres); declarar conformidade sem contagem é gate falso, o erro mais grave |
+| Banco "completo" com menos de 50 templates, calado | Ou entrega os 50+ validados, ou DIZ quais faltaram e por quê (ancoragem insuficiente); nunca entrega menos em silêncio |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
-- `references/templates.md`: banco de 30 templates por gatilho. **Central nos Passos 2-3** (escolhe os que encaixam, 2-3 headlines por template). Adapta ao nicho, nunca copia a frase pronta.
+- `references/templates.md`: os 30 templates por gatilho + as notas de refinamento da mineração (T1 duas faces, reveal-first, etc.) + a numeração C1-C6 dos ângulos. **Central nos Passos 2-3.**
+- `references/subcanones-formato.md`: os moldes H1-H8 (reel falado), Y1-Y7 (YouTube) e E1-E7 (e-mail) com a evidência de dado de cada um. A tabela compacta está inline no Passo 2.
+- `references/templates-candidatos.md`: a INCUBADORA (C9-C12) com fichas completas e a regra de promoção por métrica. Só via "usa os candidatos".
+- `references/mineracao-benchmark.md`: o registro das rodadas de mineração (metodologia, fontes, dedup) e o protocolo do comando "minera benchmark de [tema]".
 - `references/criterios-v2.md`: o detalhamento do gate do Passo 4 (rastreabilidade física dos 7 gatilhos + exemplos passa/falha por nicho + comprimento por 8 formatos). É o mesmo gate, com mais exemplo, não um segundo sistema.
 - `references/comandos-rapidos.md`: lógica de volume (50/100/200/300) e protocolo de lotes do "banco de [tema]".
 - `references/modo-input-livre.md`: decodar um viral de outro nicho pra modelar.
