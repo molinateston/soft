@@ -37,15 +37,15 @@ As duas rodam o MESMO motor e expõem as MESMAS tools; muda quem hospeda e como 
 | Setup | ~2 min (conecta e usa) | criar o app na Meta + `pip install` do repo |
 | Transporte | remote MCP | streamable HTTP |
 | Dono da infra | pipeboard (SaaS terceiro) | a casa (sem terceiro no meio) |
-| Ideal pra | o Léo **TESTAR já** | o **PRODUTO** (a gente dono, sem SaaS terceiro por cliente) |
+| Ideal pra | você **TESTAR já** | o **PRODUTO** (a gente dono, sem SaaS terceiro por cliente) |
 
-Regra: **pro teste rápido, Trilha A** (2 min, o Léo prova o valor hoje). **Pro produto de escala, Trilha B** (self-host, a casa dona, um cliente não depende de um SaaS terceiro nem de um token compartilhado).
+Regra: **pro teste rápido, Trilha A** (2 min, você prova o valor hoje). **Pro produto de escala, Trilha B** (self-host, a casa dona, um cliente não depende de um SaaS terceiro nem de um token compartilhado).
 
 ---
 
 ## 3. Trilha A: remote hospedado (2 min, pro teste)
 
-O caminho mais curto pro Léo ver a skill executando de verdade.
+O caminho mais curto pra você ver a skill executando de verdade.
 
 - **Endpoint:** o remote MCP hospedado em `https://meta-ads.mcp.pipeboard.co/`.
 - **Auth:** token gerado em `pipeboard.co/api-tokens` (ou OAuth da própria pipeboard). O dono cria a conta na pipeboard, autoriza a conta de anúncios da Meta e pega o token.

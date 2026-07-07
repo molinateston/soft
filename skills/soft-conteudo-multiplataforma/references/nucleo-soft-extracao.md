@@ -49,7 +49,7 @@ Dado o conteúdo-âncora, pergunta internamente:
 
 ## O que viaja e o que muda
 
-**Viaja inalterado (núcleo Soft):** Problema Sofisticado, Método Nomeado, Vilão-Categoria, CTA filtrante, tom Forma Léon.
+**Viaja inalterado (núcleo Soft):** Problema Sofisticado, Método Nomeado, Vilão-Categoria, CTA filtrante, tom autoral do dono.
 
 **Muda por plataforma (invólucro):** tamanho, ritmo, estrutura visual, tipo de gancho, formato do CTA (palavra-chave no Direct vs comentário vs reply de email), elementos específicos (thumbnail, subject, hashtag, SEO).
 

@@ -7,7 +7,7 @@ Esta reference é a **etapa de DESENHO da oferta** - o que se vende, com que com
 **Onde NÃO duplicar (aponta, não repete):**
 - A **APRESENTAÇÃO da oferta no webinar** (âncora, semeadura do preço, queda em degraus, "combinado não sai caro", reduzir ao ridículo, escassez, falas de garantia no palco, o que muda dentro do webinar por faixa de ticket) está em `ancoragem-e-fechamento.md`. Aqui se decide **o que existe**; lá se decide **como cai na tela**.
 - A **sequência da fase Ação** (ordem dos blocos, transição, permissão, recapitulação, CTAs) está em `estrutura-webinario-aida.md` Bloco 4.
-- A **construção do mecanismo único** (Transmutação Mental, 6 passos) está em `frameworks-proprietarios-leo.md`; a objeção-mãe e o gancho do braçal estão em `estrutura-real-webinar.md` (Fase M).
+- A **construção do mecanismo único** (Transmutação Mental, 6 passos) está em `frameworks-proprietarios.md`; a objeção-mãe e o gancho do braçal estão em `estrutura-real-webinar.md` (Fase M).
 - A **máquina pós-webinar** (tags, canal comercial, formulário de aplicação em operação) está em `pos-webinar-tags-comercial.md`; o fechamento 1:1 humano na skill `soft-vendas-closer`.
 
 A fronteira numa frase: **desenho = decidir o produto, os componentes, a garantia, o ticket e os nomes. Apresentação = a ordem e as falas que fazem isso afundar a pessoa na areia movediça.** Esta reference é o primeiro; os outros arquivos são o segundo.
@@ -86,7 +86,7 @@ O primeiro erro que mata oferta é descrever o produto pelo que ele TEM, não pe
 
 ## 3. A proposição única (PUV): o artefato que abre a oferta se escreve no desenho
 
-A oferta abre com uma frase, antes de qualquer número. Ela se escreve AQUI, em cima do mecanismo único já construído (Transmutação, `frameworks-proprietarios-leo.md`), e o roteiro só a declama.
+A oferta abre com uma frase, antes de qualquer número. Ela se escreve AQUI, em cima do mecanismo único já construído (Transmutação, `frameworks-proprietarios.md`), e o roteiro só a declama.
 
 **O template (Sniper, literal):** *"O [nome do produto] é o ÚNICO com [mecanismo único] que [o que faz] mesmo sem [a principal objeção]."* Variante do manual cap. 4: "[o produto] é o ÚNICO com [mecanismo] para [objetivo] - usando o que você já tem."
 

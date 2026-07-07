@@ -15,7 +15,7 @@ Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o 
 - Sintoma de que você está no arquivo errado: se a pergunta é "este item entra no pacote?", vá pro desenho. Se é "em que segundo e com que palavra eu mostro isso?", é aqui.
 
 **Onde NÃO duplicar (aponta, não repete):**
-- A **âncora por custo invisível** está inteira em `frameworks-proprietarios-leo.md` §5. Aqui só a **regra de discernimento** de quando usá-la vs a soma do stack.
+- A **âncora por custo invisível** está inteira em `frameworks-proprietarios.md` §5. Aqui só a **regra de discernimento** de quando usá-la vs a soma do stack.
 - A **objeção-mãe** ("você consegue, a pergunta é se você quer") está em `estrutura-real-webinar.md` (Fase M, o gancho do braçal; e Fase Ação, a quebra de objeção em escada). Aqui só como dobradiça que abre o fechamento.
 - O **stack como bloco da oferta** e a sequência da fase Ação estão em `estrutura-webinario-aida.md` Bloco 4. Aqui só a engenharia de empilhamento (bônus sem preço, acesso como perda).
 - A **régua operacional de canal por ticket** (WhatsApp/ligação/SDR+closer, tags, filas, CRM) está em `pos-webinar-tags-comercial.md` e o 1:1 humano na skill `soft-vendas-closer`. Aqui (§11) só o que muda **dentro do webinar** pela faixa de preço: âncora, destino do CTA, escassez, garantia.
@@ -48,7 +48,7 @@ Ancorar é dar um número grande **antes** do preço, pra que ele caia ao lado e
 
 Ancora contra a **conta de continuar como está** (a margem que a complexidade já come, o ano que passa igual, o teto que não rompe). O preço vira troco contra uma **perda presente e contínua**, não contra ganho prometido.
 
-> Mecanismo, fala literal e slides: ver `frameworks-proprietarios-leo.md` §5 (R$300 mil/ano). Não repetir aqui.
+> Mecanismo, fala literal e slides: ver `frameworks-proprietarios.md` §5 (R$300 mil/ano). Não repetir aqui.
 
 ### Âncora (b) - soma do stack / concorrente caro: o que você GANHA comprando
 

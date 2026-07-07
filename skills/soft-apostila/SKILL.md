@@ -15,7 +15,7 @@ Uma **apostila** (material navegável) a partir de uma gravação, via pipeline 
 - **Enriquecimento** de cada capítulo: vira texto corrido com intro e fechamento, mantendo as falas e exemplos reais do dono.
 - **Material final** com **índice clicável, navegação por teclado, scroll-spy, capítulo de Resumo** e variações (player de áudio sincronizado, embed do YouTube, quiz por capítulo, export PDF).
 
-**Output, adapta ao ambiente (regra do Léo):**
+**Output, adapta ao ambiente (regra do autor do método):**
 - **No chat (Claude.ai):** entrega o material em **Markdown** limpo (capítulos enriquecidos, formato mapa-mental). Simples.
 - **No Claude Code:** **renderiza** a apostila HTML single-file (sidebar + nav por teclado + tema escuro/responsivo) e **publica** no Cloudflare Pages (padrão Soft), com a ID visual do dono.
 - Regra: `chat → MD · code → site`. Mesmo conteúdo, destino diferente.

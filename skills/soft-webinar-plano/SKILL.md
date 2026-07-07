@@ -296,7 +296,7 @@ Ordem **EXTERNO → FILOSÓFICO → INTERNO**, cada um um PICO curto:
 - **ARMADILHAS**: a lista do que comprou e o que cada uma cobrou → "nenhuma TIROU".
 - **INIMIGO NOMEADO** (quem LUCRA com a complexidade) + **ABSOLVIÇÃO** (*"para de se cobrar, você fez o que mandaram, o problema foi o mapa"*) + **DOBRADIÇA** que arma o Mecanismo sem nomear.
 
-Frameworks que vivem aqui (derivados da Herança): **6º nível** · **dor ≠ problema** (escada sintoma→causa→soluções→prisão) · **conta do filtro** (cascata ao vivo, só quando o avatar FATURA) · **persona-âncora construída ao vivo**. (`references/frameworks-proprietarios-leo.md`.)
+Frameworks que vivem aqui (derivados da Herança): **6º nível** · **dor ≠ problema** (escada sintoma→causa→soluções→prisão) · **conta do filtro** (cascata ao vivo, só quando o avatar FATURA) · **persona-âncora construída ao vivo**. (`references/frameworks-proprietarios.md`.)
 
 ### 3b, O MECANISMO (a SEQUÊNCIA real, o CORAÇÃO, termina no "EU QUERO")
 Instala uma **NOVA OPORTUNIDADE** (não melhoria). Beats, cada um em lista, item por clique: **1** o prático (UM aperitivo, sem saciar) → **2** a nova oportunidade + a estreia do nome do veículo → **3** o fundamento antes da receita → **4** a prova racional (tabela comparativa + head-to-heads + lastro Schwartz/níveis) → **5** o batismo (*"fora de ordem é cobre, na ordem certa vira ouro"*) → **6** a prova-meta (*"você tá sentindo funcionar em você agora, você é a prova"*) → **7** a IA no nível da capacidade (mata "é complicado de montar"; nunca vira bandeira) → **8** o plano em passos (os 3 do produto, cada um matando uma crença) → **9** quadro-síntese ("printa esse slide") + yes-ladder (só "sim" → "digita EU QUERO no chat").
@@ -318,7 +318,7 @@ Nome + cena privada + mentira que conta a si + desejo embaixo do desejo (herdada
 | Grandes nomes como espólio (cada saber = autor prestigioso) | SOLUÇÃO / superioridade | Mecanismo, o tour |
 | Prova documental de dinheiro (print com zoom no número) | SOLUÇÃO / probabilidade | Oferta, prova de existência |
 
-**5 slots a coletar** (vazio = `[A CONFIRMAR]`): (1) reportagem do nicho [problema]; (2) dado/gráfico macro [causa]; (3) nome de autoridade/lastro [solução]; (4) grandes-nomes-espólio; (5) prova documental de dinheiro / "carteira de trabalho do avatar". **Guarda-corpo (Lei 5):** IMAGEM real grifada só no trecho que importa, REAL nunca inventada, só números canônicos verificados. A prova-meta cobre parte, não dispensa o print de mercado no Diagnóstico. (`references/frameworks-proprietarios-leo.md` §5.)
+**5 slots a coletar** (vazio = `[A CONFIRMAR]`): (1) reportagem do nicho [problema]; (2) dado/gráfico macro [causa]; (3) nome de autoridade/lastro [solução]; (4) grandes-nomes-espólio; (5) prova documental de dinheiro / "carteira de trabalho do avatar". **Guarda-corpo (Lei 5):** IMAGEM real grifada só no trecho que importa, REAL nunca inventada, só números canônicos verificados. A prova-meta cobre parte, não dispensa o print de mercado no Diagnóstico. (`references/frameworks-proprietarios.md` §5.)
 
 ## Seção 6, A CONTA
 meta ÷ ticket = vendas → ÷ conversão = assistentes → ÷ comparecimento = inscritos. Benchmarks ajustáveis; exemplo "(NÃO é dado seu)".
@@ -461,7 +461,7 @@ O Plano aprovado entra no **soft-webinar-script** (roteiro nasce de trás pra fr
 - `references/desenho-e-empacotamento-da-oferta.md`: o DESENHO da oferta (3 camadas, equação Hormozi, jornada em passos, PUV, cardápio a-h, mapa de objeções, garantias, ticket, naming, esteira). Seção 1.
 - `references/ancoragem-e-fechamento.md`: a engenharia de palco do preço (dupla ancoragem, semeadura, stack, cadeia de SINs, queda em degraus, "combinado", reduzir ao ridículo, garantia no palco, escassez, identidade, espectro de ticket). Seção 8.
 - `references/estrutura-real-webinar.md`: o gabarito da estrutura REAL (ADMA, proporção, Atenção, Diagnóstico de fora-pra-dentro, Mecanismo em sequência, Ação, doutrina das listas, o que arrancar do "motor das 3 viradas"). Seção 3.
-- `references/frameworks-proprietarios-leo.md`: frameworks de ensino (6º nível, dor≠problema, conta do filtro, persona ao vivo, âncora vs custo invisível). Seção 3.
+- `references/frameworks-proprietarios.md`: frameworks de ensino (6º nível, dor≠problema, conta do filtro, persona ao vivo, âncora vs custo invisível). Seção 3.
 - `references/premissas-e-guarda-corpos.md`: o cérebro (10 meta-premissas + premissas por domínio + 11 guarda-corpos). Antes de escrever qualquer bloco.
 - `references/esqueleto-universal-e-discernimento.md`: esqueleto universal + 3 categorias de crença + nova oportunidade vs melhoria + prova como conteúdo + discernimento de maturidade. Montagem.
 - `references/arsenal-vantagens-webinar.md`: as 20 vantagens pra convencer o especialista que duvida. Passo 0.

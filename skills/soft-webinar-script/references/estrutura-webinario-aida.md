@@ -4,7 +4,7 @@
 
 > **Quando consultar:** Etapa 2 do fluxo, produção do roteiro bloco a bloco. Pré-requisito: Fundamentos pré-roteiro completos (reference 1).
 >
-> **A ESPINHA É O SLIDE-MODELO.** A ordem dos blocos ADMA abaixo segue, beat a beat, o `_webinar-corpus/slide-modelo/SLIDE-MODELO-SCRIPT-LEO.md` (o "slide cru" do script, o modelo canônico). Quando a ordem ou o nome de um bloco aqui divergir do slide-modelo, **o slide-modelo ganha**. Não reordene.
+> **A ESPINHA É O SLIDE-MODELO.** A ordem dos blocos ADMA abaixo segue, beat a beat, o `_webinar-corpus/slide-modelo/SLIDE-MODELO-SCRIPT.md` (o "slide cru" do script, o modelo canônico). Quando a ordem ou o nome de um bloco aqui divergir do slide-modelo, **o slide-modelo ganha**. Não reordene.
 >
 > **SCRIPT POR BLOCO (correção 10/jun): cada bloco entrega DUAS coisas.** (1) um **TEMPLATE BÁSICO DA FALA** (o "Modelo [UNIVERSAL]": a frase com slots `[ ]` que a IA preenche, FIEL ao template de fala do slide-modelo); e (2) um **EXEMPLO instanciado** num nicho-modelo, pra a IA ver o template já preenchido e não gerar genérico. O template é a fala; o exemplo é a prova de que dá pra preencher. Os dois juntos, em todo bloco.
 >
@@ -466,7 +466,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **Único = incomparável.** O mecanismo não precisa ser inédito no mundo, precisa ser **renomeado e reenquadrado de um jeito que não tenha com o que comparar.** Conteúdo batido com um enquadramento próprio vira único: "todo mundo fala de [X batido], mas com [seu ângulo/visão] ninguém tinha visto assim. Agora tudo faz sentido".
 
-> **Construção detalhada do mecanismo:** os 6 passos da Transmutação Mental (solução técnica → contexto/prova de terceiro → mecanismo apetitoso → prova/exemplo → nome → PUV) estão em `frameworks-proprietarios-leo.md`. O mecanismo pode receber VÁRIOS nomes em webinars diferentes (escala horizontal de headlines, capacidade da soft-webinar-plano).
+> **Construção detalhada do mecanismo:** os 6 passos da Transmutação Mental (solução técnica → contexto/prova de terceiro → mecanismo apetitoso → prova/exemplo → nome → PUV) estão em `frameworks-proprietarios.md`. O mecanismo pode receber VÁRIOS nomes em webinars diferentes (escala horizontal de headlines, capacidade da soft-webinar-plano).
 
 **Modelo:**
 > "O método tem nome: [Nome do Mecanismo]. Funciona em [2-4] movimentos. Movimento 1: [o quê, alto nível]. Movimento 2: [o quê]. Quando você combina os dois, [resultado]. Como faz cada um na prática, é o que a gente aprofunda lá dentro."
@@ -516,7 +516,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 > Máxima: "eu afirmei, eu provo." Nunca afirma e deixa pra provar depois. Prova na mesma hora (estudo, print, caso), constrói autoridade contínua em vez de "prometer prova".
 
 **Prova matemática [EXEMPLO, só pra avatar que fatura/B2B]:**
-> Quando o avatar é profissional/empresa, a aritmética do negócio prova sozinha (ex.: custo de execução x preço cobrado x volume = faturamento). **Não use com consumidor final.** Em Soft Business, a conta do negócio do usuário entra aqui como prova matemática, ver `frameworks-proprietarios-leo.md`.
+> Quando o avatar é profissional/empresa, a aritmética do negócio prova sozinha (ex.: custo de execução x preço cobrado x volume = faturamento). **Não use com consumidor final.** Em Soft Business, a conta do negócio do usuário entra aqui como prova matemática, ver `frameworks-proprietarios.md`.
 
 ### Bloco 3.5: Internal Belief (Brunson, Secret 2) (2-3 min) **[UNIVERSAL]**
 
@@ -538,7 +538,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **O que é:** uma pessoa específica desenhada ao vivo (cena privada + a mentira que ela conta a si mesma + o desejo real que ela não verbaliza). O espectador se reconhece dentro dela.
 
-> **Construção detalhada da persona-âncora em `frameworks-proprietarios-leo.md`.**
+> **Construção detalhada da persona-âncora em `frameworks-proprietarios.md`.**
 
 **A regra de execução, FALE O NOME DELE [UNIVERSAL]:**
 > "Se alguém te chamar pelo nome na rua, mesmo que não seja com você, você olha." Quando você fala com aquele lead muito específico, a cena dele, a hora dele, a dor exata dele, você fala com a alma dele, e ele sente "caralho, tá com a câmera na minha casa". É o que faz uma aula para milhares parecer uma conversa de um pra um.
@@ -582,7 +582,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 > Objetivo: pivotar pro pitch sem perder o público, ofertar com stack, ancorar, reverter risco, fechar por identidade. **Não corra aqui, esta fase pesa tanto quanto o Mecanismo.**
 
-> **Ancoragem, stack, queda de preço e escassez detalhados estão em `exemplos-por-bloco/10-ancoragem-preco.md` (preço/queda), `exemplos-por-bloco/09-oferta-stack.md` (stack), `exemplos-por-bloco/12-escassez-urgencia-cta.md` (escassez) e `frameworks-proprietarios-leo.md` §5 (âncora vs custo invisível).** Esta seção dá a sequência e os blocos-chave; aqueles arquivos dão a engenharia de preço (dupla ancoragem: custo invisível vs soma do stack, com a regra de quando usar cada; "se tudo"; queda em degraus com reason-why; "combinado não sai caro"; reduzir ao ridículo com objeto real; escassez visível e honesta; "15 primeiros" gamificado; fricção de checkout como urgência).
+> **Ancoragem, stack, queda de preço e escassez detalhados estão em `exemplos-por-bloco/10-ancoragem-preco.md` (preço/queda), `exemplos-por-bloco/09-oferta-stack.md` (stack), `exemplos-por-bloco/12-escassez-urgencia-cta.md` (escassez) e `frameworks-proprietarios.md` §5 (âncora vs custo invisível).** Esta seção dá a sequência e os blocos-chave; aqueles arquivos dão a engenharia de preço (dupla ancoragem: custo invisível vs soma do stack, com a regra de quando usar cada; "se tudo"; queda em degraus com reason-why; "combinado não sai caro"; reduzir ao ridículo com objeto real; escassez visível e honesta; "15 primeiros" gamificado; fricção de checkout como urgência).
 
 ### Bloco 4.1: Follow-up + pedir PERMISSÃO pra vender (1-2 min) **[UNIVERSAL]**
 
@@ -662,13 +662,13 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ### Bloco 4.8: Stack + ancoragem + queda + escassez (8-12 min) **[UNIVERSAL]**
 
-> **Este é o núcleo de preço da fase. O princípio da engenharia está em `frameworks-proprietarios-leo.md` §5 (âncora vs custo invisível).** Falas verbatim do corpus pra stack e preço: **`exemplos-por-bloco/09-oferta-stack.md`** (a oferta é a aula reembalada, 7 passos = 7 módulos; cada item do stack mata UMA objeção nomeada) e **`exemplos-por-bloco/10-ancoragem-preco.md`** (dupla ancoragem + queda em degraus com reason-why próprio + troca de unidade progressiva até "uma Coca por dia" com prova documental do gasto banal). Escassez crível e auditável: **`exemplos-por-bloco/12-escassez-urgencia-cta.md`**. Aqui ficam só os princípios que o roteiro precisa amarrar, na ordem:
+> **Este é o núcleo de preço da fase. O princípio da engenharia está em `frameworks-proprietarios.md` §5 (âncora vs custo invisível).** Falas verbatim do corpus pra stack e preço: **`exemplos-por-bloco/09-oferta-stack.md`** (a oferta é a aula reembalada, 7 passos = 7 módulos; cada item do stack mata UMA objeção nomeada) e **`exemplos-por-bloco/10-ancoragem-preco.md`** (dupla ancoragem + queda em degraus com reason-why próprio + troca de unidade progressiva até "uma Coca por dia" com prova documental do gasto banal). Escassez crível e auditável: **`exemplos-por-bloco/12-escassez-urgencia-cta.md`**. Aqui ficam só os princípios que o roteiro precisa amarrar, na ordem:
 
 > **PERGUNTA-CHAVE (stack):** "x10 do preço valeria a pena pra ter essa transformação?" **PERGUNTA-CHAVE (queda):** "quanto isso vale pra você?"
 > **ESTADO ALVO:** avaliando → percebendo valor muito maior que o preço; medo do preço → "estou levando vantagem".
 
 1. **Stack empilhado**, cada item com valor avulso ANTES de virar bônus; itens anteriores ficam VISÍVEIS na tela (a pilha cresce). **Bônus que valem mais que o produto.** **Bônus SEM preço** ("meu [recurso pessoal] eu não vendo pra ninguém"). **Acesso estendido como PERDA** (dá 1 ano, anuncia "6 meses + 6 só hoje"). Evita a palavra "bônus" batida em nichos saturados ("não é só isso, te dou também esse OUTRO [recurso]").
-2. **Dupla ancoragem**, custo invisível (o que ele JÁ PERDE não agindo) vs soma do stack / concorrente caro (o que ele GANHA agindo). **Regra de discernimento:** perda presente pesa mais que ganho prometido pro avatar maduro; use custo invisível quando o ticket é baixo ou o stack ancora fraco. (Detalhe em `frameworks-proprietarios-leo.md` §5.)
+2. **Dupla ancoragem**, custo invisível (o que ele JÁ PERDE não agindo) vs soma do stack / concorrente caro (o que ele GANHA agindo). **Regra de discernimento:** perda presente pesa mais que ganho prometido pro avatar maduro; use custo invisível quando o ticket é baixo ou o stack ancora fraco. (Detalhe em `frameworks-proprietarios.md` §5.)
 3. **"Se tudo"**, cadeia de SIMs antes do preço, o cliente justifica o preço sozinho ("se isso te desse [X], valeria? Comenta").
 4. **Queda de preço em degraus, cada degrau com REASON-WHY narrativo**, desconto sem motivo "parece balela / produto ruim".
 5. **"O combinado não sai caro"**, desconto extra em troca de DEPOIMENTO futuro. Fabrica prova futura + compromisso + reciprocidade num golpe (= o "tô abrindo pra gerar cases"). Autoalimenta o próximo webinar.
@@ -870,8 +870,8 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 - **`exemplos-por-bloco/` (00-INDICE + 01..14), biblioteca de falas VERBATIM de 9 webinars que venderam, fatiada por bloco.** Abra o arquivo do bloco equivalente ANTES de escrever: cada exemplo traz a fala literal + o que o autor fez + por que funciona + o que é decalcável vs. do nicho. Mapa de correspondência com este ADMA: pré-início→`01`; atenção/abertura→`02`; autoridade→`03`; problema/interesse→`04`; Big Domino→`05`; viradas de conteúdo (motor)→`06`; provas→`07`; transição pra venda→`08`; stack→`09`; ancoragem/preço→`10`; garantia→`11`; escassez/CTA→`12`; Q&A→`13`; interação/chat (transversal)→`14`. **Regra G2:** premissas pra extrair, nunca moldes pra decalcar; bordão/mantra/mecanismo têm dono e viram SLOT.
 - `falas-prontas-por-bloco.md`, a FALA pronta verbatim de cada bloco (pré-início → pitch FOMO → despedida), já no tom Soft, com lacunas pra preencher, e as joias escritas por extenso (proposição única, two-choices, yes-momentum, servir-não-vender, queda de preço, fórmula de bônus, garantia). Esta reference dá a engenharia (ordem, porquê, pergunta-chave, estado alvo); aquela dá a fala.
 - `motor-3-viradas.md`, a batida de 4 tempos (valor real → o quê → gancho do braçal → atalho) e a objeção-mãe. Joia central; este ADMA só aponta.
-- `frameworks-proprietarios-leo.md`, 6 passos da Transmutação Mental, persona-âncora, 6º nível de consciência, prova matemática do negócio, custo invisível.
-- `exemplos-por-bloco/10-ancoragem-preco.md` + `frameworks-proprietarios-leo.md` §5, dupla ancoragem e regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível.
+- `frameworks-proprietarios.md`, 6 passos da Transmutação Mental, persona-âncora, 6º nível de consciência, prova matemática do negócio, custo invisível.
+- `exemplos-por-bloco/10-ancoragem-preco.md` + `frameworks-proprietarios.md` §5, dupla ancoragem e regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível.
 - `objection-annihilation.md`, Q&A planted, objeção-mãe como categoria-rainha, desejo oculto, banco de objeções, FAQ final.
 - **Pós-webinar (na soft-webinar-plano):** lead quente = quem viu a oferta, segmentação por % assistido → tags → comercial por faixa de ticket, checkout vs aplicação, rede de captura pra esteira.
 - **Perpétuo (na soft-webinar-plano):** validação ao vivo → perpetuar, 4 horários, ROAS não CPL, escala horizontal, jogo avançado.

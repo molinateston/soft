@@ -104,7 +104,7 @@ Entrega junto com a peça:
 - [ ] Método com nome próprio + 3 etapas?
 - [ ] Filtra gente errada no meio (não tenta agradar todo mundo)?
 - [ ] CTA final aponta pra Carta/reunião/Direct - nunca "me segue"?
-- [ ] Tom Forma Léon mantido (sem "espero que esteja bem", sem motivacional)?
+- [ ] Tom autoral do dono mantido (sem "espero que esteja bem", sem motivacional)?
 - [ ] Design limpo/navegação simples?
 - [ ] Bio de autoridade sem arrogância?
 

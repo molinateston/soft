@@ -85,7 +85,7 @@ A escada de descoberta e as regras de condução já vivem no guia. O que falta 
 **Por que funciona:** o lead já pagou o pedágio de contar a vida pro SDR; pedir pra ele recomeçar do zero queima a primeira impressão e expõe que não existe passagem de bastão, que o time não conversa. O closer que abre ecoando a qualificação faz três coisas de uma vez: prova que leu (autoridade e respeito), entra direto no flow do diagnóstico sem aquecimento morno, e instala o "é exatamente por isso que eu tô aqui". É a mesma cena da triagem pro médico, ninguém estranha o médico que já chega sabendo o que a enfermeira anotou; estranha o que pergunta tudo de novo. Isso só funciona se o **SDR escreveu TUDO no CRM** (as dores, o objetivo, o porquê de buscar aquilo, os números). O recebimento do bastão depende do envio bem feito, é a outra ponta do fluxo de SDR.
 
 **Na prática:** antes de a call começar, abra o CRM e leia a qualificação. Abra a reunião devolvendo o que a pessoa já contou, em fato concreto e número, e emende na pergunta de diagnóstico: *"[Nome], vi aqui que [contexto: tamanho, equipe, números], que hoje [situação atual] e que tu busca [objetivo que ele deu pro SDR]. É isso mesmo? O que vem acontecendo?"*. Nunca abra com "me conta o que te trouxe aqui" / "o que a gente traz aqui hoje" quando o lead já passou pelo SDR, isso é fazer repetir. Se a qualificação veio fraca ou vazia, o problema é upstream: cobre do SDR registrar tudo no CRM, senão o bastão chega quebrado e o closer paga a conta na frente do lead.
-*(origem: campo Léo, passagem de bastão SDR→closer)*
+*(origem: campo do autor do método, passagem de bastão SDR→closer)*
 
 ### Ganhar o direito de cavar: a metáfora do médico que só examina
 **Diálogo/fala real:**

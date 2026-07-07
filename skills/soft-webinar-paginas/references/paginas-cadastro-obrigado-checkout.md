@@ -16,14 +16,14 @@
 - Notas operacionais
 - Variante crua: CTA direto pro WhatsApp, SEM formulário (`wa.me`)
 - Dados dinâmicos do perpétuo (a espinha invisível)
-- Números de referência de uma máquina bem montada (Léo, MANUAL-COMPLETO cap09)
+- Números de referência de uma máquina bem montada (MANUAL-COMPLETO cap09)
 - Gate de saída obrigatório, o Crivo (bloqueante)
 
 ---
 
 ## A régua que governa este arquivo inteiro
 
-A frase do Léo que abre o capítulo de encanamento (MANUAL-COMPLETO cap09): **"a ferramenta não vende, a ferramenta protege."** Quem cria desejo é a aula. As páginas só fazem o desejo não vazar.
+A frase do autor do método que abre o capítulo de encanamento (MANUAL-COMPLETO cap09): **"a ferramenta não vende, a ferramenta protege."** Quem cria desejo é a aula. As páginas só fazem o desejo não vazar.
 
 Toda peça aqui existe por um de três motivos. Quando ficar na dúvida se inclui ou não um elemento, pergunte:
 1. **Protege a atenção?** (impede a pessoa de pausar, sair, se distrair)
@@ -32,7 +32,7 @@ Toda peça aqui existe por um de três motivos. Quando ficar na dúvida se inclu
 
 Se não faz nenhuma das três, descarta. Enfeite que não protege nem mede é fricção.
 
-> **Mito que este arquivo desfaz - direto do Léo (MANUAL-WEBINAR-SOFT cap10):** *"já testei páginas lindas, não converteu."* A página do Léo é "feia", o sócio aparece de camisa manchada, e ela converte 30%. Página bonita demais converte menos: cada animação, cada enfeite é uma fricção e uma distração que tira a pessoa do único trabalho da página. **A página feia que converte ganha da página linda que enfeita.** Não segura a operação esperando design polido.
+> **Mito que este arquivo desfaz - direto da fonte de referência (MANUAL-WEBINAR-SOFT cap10):** *"já testei páginas lindas, não converteu."* A página de referência é "feia", o sócio aparece de camisa manchada, e ela converte 30%. Página bonita demais converte menos: cada animação, cada enfeite é uma fricção e uma distração que tira a pessoa do único trabalho da página. **A página feia que converte ganha da página linda que enfeita.** Não segura a operação esperando design polido.
 
 ---
 
@@ -46,7 +46,7 @@ Se não faz nenhuma das três, descarta. Enfeite que não protege nem mede é fr
 
 > **Cada página tem UMA função.** Quando você tenta fazer a página de cadastro também vender, ela falha nas duas. Quando o checkout precisa convencer do zero, é porque a aula não fez o trabalho. (MANUAL-WEBINAR-SOFT cap10.)
 
-> **Princípio Soft em todas:** filtra-não-convence. Página boa expulsa quem não é avatar - não tenta agradar todo mundo. *"Quanto mais lead melhor é mentira. Lead errado não comparece, não compra, suja a sua métrica e queima sua verba."* (Léo, MANUAL-COMPLETO cap09.)
+> **Princípio Soft em todas:** filtra-não-convence. Página boa expulsa quem não é avatar - não tenta agradar todo mundo. *"Quanto mais lead melhor é mentira. Lead errado não comparece, não compra, suja a sua métrica e queima sua verba."* (o autor do método, MANUAL-COMPLETO cap09.)
 
 ---
 
@@ -56,7 +56,7 @@ Se não faz nenhuma das três, descarta. Enfeite que não protege nem mede é fr
 
 Convencer o avatar **certo** a se cadastrar e expulsar o avatar **errado**. Não é maximizar volume - é maximizar **qualidade**.
 
-A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap09):
+A página de captura tem três trabalhos, e só três (o autor do método, MANUAL-COMPLETO cap09):
 1. **Comunicar de cara o que é a aula** - a pessoa bate o olho e entende.
 2. **Qualificar o lead** - atrair o avatar certo e repelir o errado. *"O objetivo NÃO é atrair o máximo de gente."*
 3. **Gerar desejo e curiosidade** - sem isso, a taxa de cadastro despenca.
@@ -78,7 +78,7 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 
 **Função:** prender em 2 segundos. Avatar precisa pensar *"é exatamente sobre mim"*. É a peça mais importante da página - é onde a pessoa bate o olho.
 
-**Fôrma-mãe do Léo (MANUAL-COMPLETO cap09):**
+**Fôrma-mãe do autor do método (MANUAL-COMPLETO cap09):**
 > **"Como usar [o seu mecanismo único] pra [o objetivo final] mesmo sem [a principal objeção]"** - e, opcional, "em [tanto tempo]".
 
 **Variações por temperatura de avatar:**
@@ -90,7 +90,7 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 | **Revelação contra-intuitiva** | Avatar cético | "O que [as referências do nicho] não te contam sobre [tema]" |
 | **Big Idea condensada** | Posicionamento maduro | "[Nome do método (slot Soft: a definir com o especialista)]: o caminho [adjetivo único] pra [resultado]" |
 
-**EXEMPLO - a mesma fôrma instanciada em 4 nichos diferentes** (3 primeiros são moldes literais do Léo, MANUAL-COMPLETO cap09; o 4º é Soft Business, MANUAL-WEBINAR-SOFT cap10):
+**EXEMPLO - a mesma fôrma instanciada em 4 nichos diferentes** (3 primeiros são moldes literais de referência, MANUAL-COMPLETO cap09; o 4º é Soft Business, MANUAL-WEBINAR-SOFT cap10):
 - **Nicho emprego/LinkedIn:** "A nova estratégia sniper pra conseguir emprego em 2025 mesmo sem ser o melhor candidato." *(mecanismo = estratégia sniper · objetivo = conseguir emprego · objeção = não ser o melhor candidato)*
 - **Nicho comportamento felino:** "Como parar o xixi fora da caixa de areia sem brigar com o seu gato." *(mecanismo = método de comportamento · objetivo = parar o xixi · objeção = brigar com o gato)*
 - **Nicho gestão:** "Como dobrar a produtividade do seu time sem contratar mais ninguém." *(mecanismo = método · objetivo = dobrar produtividade · objeção = contratar mais gente)*
@@ -111,11 +111,11 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 **Modelo:**
 > "Webinar gratuito de [duração]. Você sai com [resultado tangível] e o método completo, [nome do mecanismo (slot Soft)], sem enrolação."
 
-**Duas variações de função (Léo, MANUAL-COMPLETO cap09):**
+**Duas variações de função (o autor do método, MANUAL-COMPLETO cap09):**
 - **Reforço por urgência:** "saiba o que ajustar hoje mesmo…"
 - **Reforço por prova social:** "a estratégia que já recolocou mais de mil profissionais…"
 
-**EXEMPLO (nicho emprego/LinkedIn, fôrma Léo):**
+**EXEMPLO (nicho emprego/LinkedIn, fôrma de referência):**
 > "Webinar gratuito de 60 minutos. Você sai com a Estratégia Sniper aplicada ao seu currículo - a mesma que já recolocou mais de mil profissionais, sem precisar ser o melhor candidato da vaga."
 
 ### Bloco 1.3 - Bullet points (3-5)
@@ -124,7 +124,7 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 
 **Princípio Faca Soft:** descreve resultado e função, **não execução**. *"Bullet que entrega o passo a passo já entregou o produto de graça."* (MANUAL-WEBINAR-SOFT cap10.)
 
-**O segredo (Léo, MANUAL-COMPLETO cap09):** cada bullet tem que tocar **um dos 3 Ds do avatar - Dor, Desejo ou Dúvida.** Bullet que acerta um nervo real faz a pessoa pensar *"como ele sabe disso? isso é pra mim"*. Bullet genérico é ruído. Mínimo 4, no máximo 6.
+**O segredo (o autor do método, MANUAL-COMPLETO cap09):** cada bullet tem que tocar **um dos 3 Ds do avatar - Dor, Desejo ou Dúvida.** Bullet que acerta um nervo real faz a pessoa pensar *"como ele sabe disso? isso é pra mim"*. Bullet genérico é ruído. Mínimo 4, no máximo 6.
 
 **Errado (entrega o como):**
 - "Os 7 passos do método X"
@@ -167,7 +167,7 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 > "[Seu nome]. [Resultado próprio numerado]. [Resultado de clientes numerado]. Já passei pelo problema que você está vivendo."
 
 **EXEMPLO (Soft Business):**
-> "Léo Molina. R$40MM gerados nos bastidores em 10 anos de mercado digital. Já operei sem método, sem audiência e sem resultado - sei o caminho até aqui."
+> "[nome do dono]. 8 dígitos gerados nos bastidores em 10 anos de mercado digital. Já operei sem método, sem audiência e sem resultado - sei o caminho até aqui."
 
 **EXEMPLO (nicho gestão, fôrma Soft):**
 > "[Nome]. Já gerenciei time preso em reunião que não entregava nada - sei como é (empatia). Hoje 60+ empresas rodam o método; uma de 200 pessoas dobrou a entrega sem contratar (feito)."
@@ -183,7 +183,7 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 | **Self-service** (venda fecha sozinha no checkout, sem ninguém ligar) | só nome + e-mail | a taxa de cadastro cai muito ao pedir telefone, e sem comercial pra ligar o telefone não vale o cadastro perdido |
 | **Comercial 1:1 / high-ticket** (esteira de WhatsApp + ligação atrás) | nome + e-mail + WhatsApp (+ qualificador) | capturar o WhatsApp vale mais que os cadastros perdidos - é o canal que sobe comparecimento e alimenta o comercial |
 
-> **Regra de decisão do Léo (verbatim, MANUAL-COMPLETO cap09):** *"Não copia o 'só nome e e-mail' se você tem comercial high-ticket - você vai jogar fora o canal que fecha a venda. E não pede telefone se você é 100% self-service barato - você sacrifica cadastro sem retorno."*
+> **Regra de decisão do autor do método (verbatim, MANUAL-COMPLETO cap09):** *"Não copia o 'só nome e e-mail' se você tem comercial high-ticket - você vai jogar fora o canal que fecha a venda. E não pede telefone se você é 100% self-service barato - você sacrifica cadastro sem retorno."*
 
 **Campos qualificadores (só pra alto ticket, opcionais):**
 - Estágio atual (faturamento, tempo no negócio)
@@ -191,11 +191,11 @@ A página de captura tem três trabalhos, e só três (Léo, MANUAL-COMPLETO cap
 
 > Quanto mais campos, menos cadastros - porém leads mais qualificados.
 
-#### O detalhe do Léo que faz diferença: o horário escolhido vira variável
+#### O detalhe de referência que faz diferença: o horário escolhido vira variável
 
-No formulário do Léo, além de nome/e-mail/telefone, captura-se o **horário escolhido** da sessão. Esse horário vira uma variável que **acompanha o lead pela automação inteira** - é o que permite mandar "te vejo às 19h" e o **link individual** da sessão certa. (MANUAL-WEBINAR-SOFT cap10.) No perpétuo isso é a espinha de tudo: ver bloco "Dados dinâmicos do perpétuo" no fim deste arquivo.
+No formulário de referência, além de nome/e-mail/telefone, captura-se o **horário escolhido** da sessão. Esse horário vira uma variável que **acompanha o lead pela automação inteira** - é o que permite mandar "te vejo às 19h" e o **link individual** da sessão certa. (MANUAL-WEBINAR-SOFT cap10.) No perpétuo isso é a espinha de tudo: ver bloco "Dados dinâmicos do perpétuo" no fim deste arquivo.
 
-#### Truque de captura form-less do WhatsApp (Léo, MANUAL-COMPLETO cap09)
+#### Truque de captura form-less do WhatsApp (o autor do método, MANUAL-COMPLETO cap09)
 
 Pedir o telefone no formulário derruba o cadastro. O truque que evita isso: **em vez de pedir o número, você faz a pessoa te mandar uma mensagem pré-pronta - e quando ela manda, você captura o número dela automaticamente.** Ela acha que está só "confirmando a inscrição pelo WhatsApp", e você ganhou o canal sem ter pedido o número.
 
@@ -205,7 +205,7 @@ Pedir o telefone no formulário derruba o cadastro. O truque que evita isso: **e
 - "Confirmar minha vaga" · "Quero participar" · "Reservar acesso"
 - ❌ Evitar: "Cadastrar", "Registrar", "Enviar" - *"são palavras de formulário burocrático, não de evento."* (MANUAL-WEBINAR-SOFT cap10.)
 
-**A aula é sempre GRÁTIS na captura.** *"Ninguém dá certo com aula paga na captura."* (Léo.) E a captura é uma **barra de inscrição que aparece direto**, sem aquele íconezinho-bolha que a pessoa tem que clicar pra abrir.
+**A aula é sempre GRÁTIS na captura.** *"Ninguém dá certo com aula paga na captura."* (o autor do método.) E a captura é uma **barra de inscrição que aparece direto**, sem aquele íconezinho-bolha que a pessoa tem que clicar pra abrir.
 
 **Política de privacidade:** linha discreta abaixo do botão.
 
@@ -232,9 +232,9 @@ PLATAFORMA: [zoom/EverWebinar/WebinarKit/etc - se aparecer pro participante]
 
 > **A regra que não se mistura:** página de **perpétuo NUNCA escreve data fixa** (cada lead vê a SUA sessão, ver "Dados dinâmicos do perpétuo"); página de **ao vivo NUNCA usa contagem relativa de minutos** quando o evento é daqui a dias. O formato é decisão de negócio e governa cadastro (este bloco), obrigado (lembrete + anti-fuga + timer) e a espinha de medição.
 
-**Por que o horário relativo no perpétuo (Léo, MANUAL-COMPLETO cap09):** quando a pessoa **escolhe um horário**, ela marca um compromisso. Na cabeça dela é um meeting, um Zoom, uma hora pra estar com você ao vivo - e quem tem compromisso marcado aparece. *"As pessoas me avisam por e-mail ou WhatsApp quando não vão poder vir na aula. 'Léo, não vou conseguir hoje, dá pra remarcar?' A pessoa se sentiu tão comprometida com uma aula gravada que ela me avisa que não vai poder ir. Nenhuma VSL no mundo gera isso."* Essa única decisão - escolher um horário - é o que separa o webinar de uma VSL qualquer.
+**Por que o horário relativo no perpétuo (o autor do método, MANUAL-COMPLETO cap09):** quando a pessoa **escolhe um horário**, ela marca um compromisso. Na cabeça dela é um meeting, um Zoom, uma hora pra estar com você ao vivo - e quem tem compromisso marcado aparece. *"As pessoas me avisam por e-mail ou WhatsApp quando não vão poder vir na aula. 'Ô, não vou conseguir hoje, dá pra remarcar?' A pessoa se sentiu tão comprometida com uma aula gravada que ela me avisa que não vai poder ir. Nenhuma VSL no mundo gera isso."* Essa única decisão - escolher um horário - é o que separa o webinar de uma VSL qualquer.
 
-> **Quantos horários (Léo):** quatro por dia. *"Se você bota horários demais, a pessoa pensa 'isso roda a qualquer hora, eu nem preciso assistir agora' e procrastina. Se bota de menos, ela não encaixa nenhum e desiste. Quatro é o ponto ótimo."* (Os do Léo: 9h, 11h, 14h, 19h - achados do avatar DELE; o seu avatar pode comprar em outro horário. Use a lógica manhã/tarde/noite e descubra os seus.)
+> **Quantos horários (o autor do método):** quatro por dia. *"Se você bota horários demais, a pessoa pensa 'isso roda a qualquer hora, eu nem preciso assistir agora' e procrastina. Se bota de menos, ela não encaixa nenhum e desiste. Quatro é o ponto ótimo."* (Os do exemplo: 9h, 11h, 14h, 19h - achados do avatar do autor do método; o seu avatar pode comprar em outro horário. Use a lógica manhã/tarde/noite e descubra os seus.)
 
 > **Detalhe de vitrine:** o Ever Webinar mostra os **dois** próximos horários na página; o Webinar Kit mostra **quatro**. Convertem igual - só muda a vitrine.
 
@@ -297,7 +297,7 @@ NÃO É PRA VOCÊ SE:
 
 **Princípio:** discreto. Página de cadastro **não é página de vendas**. Prova social pesada vai pra página de checkout. Aqui ela só endossa.
 
-> **No perpétuo, a prova social tem um segundo uso (ver `01-pre-inicio` da biblioteca):** o mesmo depoimento que endossa o cadastro pode rodar em **loop de pre-roll** dentro da sala antes do host aparecer - escolhido pra já contar a tese (vilão + contraste numérico + promessa contraintuitiva). EXEMPLO verbatim de pre-roll que vende sozinho (nicho nutrição, pele Soft / Vítor Abrão, `01-pre-inicio`): *"eu tava com 72, 70 mais ou menos, e hoje eu tô com 58 […] perdi uns 18 Kg"* e *"ele falou: você não tem resultado porque você não tá comendo, é falta de comida"*. O depoimento instala a big idea ("comer muito = definir") antes da abertura. Escolha o seu depoimento pelo mesmo critério.
+> **No perpétuo, a prova social tem um segundo uso (ver `01-pre-inicio` da biblioteca):** o mesmo depoimento que endossa o cadastro pode rodar em **loop de pre-roll** dentro da sala antes do host aparecer - escolhido pra já contar a tese (vilão + contraste numérico + promessa contraintuitiva). EXEMPLO verbatim de pre-roll que vende sozinho (nicho nutrição, pele de referência, `01-pre-inicio`): *"eu tava com 72, 70 mais ou menos, e hoje eu tô com 58 […] perdi uns 18 Kg"* e *"ele falou: você não tem resultado porque você não tá comendo, é falta de comida"*. O depoimento instala a big idea ("comer muito = definir") antes da abertura. Escolha o seu depoimento pelo mesmo critério.
 
 ---
 
@@ -307,7 +307,7 @@ NÃO É PRA VOCÊ SE:
 
 A função da página de obrigado é uma só: **fazer a pessoa aparecer.** Maximizar **comparecimento** (cadastrado → presente). Benchmark de mercado: 33-57%. Meta com Soft: 50%+. E o que move esse número, mais que qualquer coisa, é o WhatsApp.
 
-> A página é **proposital besta** (Léo, MANUAL-COMPLETO cap09): *"a página de obrigado é idiota de tão simples."* Mas ela faz três trabalhos que valem dinheiro além de dizer "obrigado": definir lembrete (presença), capturar a ficha (inteligência) e o opt-in de WhatsApp (comparecimento). **Ela não é o fim do funil - é o começo da inteligência.**
+> A página é **proposital besta** (o autor do método, MANUAL-COMPLETO cap09): *"a página de obrigado é idiota de tão simples."* Mas ela faz três trabalhos que valem dinheiro além de dizer "obrigado": definir lembrete (presença), capturar a ficha (inteligência) e o opt-in de WhatsApp (comparecimento). **Ela não é o fim do funil - é o começo da inteligência.**
 
 ### Estrutura
 
@@ -333,7 +333,7 @@ A função da página de obrigado é uma só: **fazer a pessoa aparecer.** Maxim
 
 **Função:** capturar consentimento explícito pra mensagem no WhatsApp. **É o que sobe o comparecimento.**
 
-**O número que justifica este bloco (Léo, MANUAL-COMPLETO cap09):** num teste A/B sério, colocar o WhatsApp no funil subiu o comparecimento em **+54% - de 31% pra 47% de show-up.** É meio comparecimento a mais só por adicionar um canal. *"Se você usa só e-mail, o seu comparecimento cai pela metade."* No Brasil, WhatsApp não é complemento - é o canal principal de lembrete.
+**O número que justifica este bloco (o autor do método, MANUAL-COMPLETO cap09):** num teste A/B sério, colocar o WhatsApp no funil subiu o comparecimento em **+54% - de 31% pra 47% de show-up.** É meio comparecimento a mais só por adicionar um canal. *"Se você usa só e-mail, o seu comparecimento cai pela metade."* No Brasil, WhatsApp não é complemento - é o canal principal de lembrete.
 
 **Regra que não se quebra:** o opt-in é **explícito**. A pessoa manda "OI" pra você - você não sai disparando pra base. Sem opt-in, além de cair na caixa de spam do WhatsApp, você se expõe a bloqueio.
 
@@ -353,7 +353,7 @@ Você vai receber por aqui:
 [BOTÃO: ABRIR O WHATSAPP AGORA]
 ```
 
-> **EXEMPLO de mensagem que sobe comparecimento (nicho emagrecimento, fôrma Léo, MANUAL-COMPLETO cap09):** *"Ei Maria, nossa aula começa em uma hora, separa esse horário!"* Chega às 18h, quando a pessoa está no sofá com o celular na mão - não um e-mail que ela talvez nem veja. Esse é o canal que sobe o comparecimento.
+> **EXEMPLO de mensagem que sobe comparecimento (nicho emagrecimento, fôrma de referência, MANUAL-COMPLETO cap09):** *"Ei Maria, nossa aula começa em uma hora, separa esse horário!"* Chega às 18h, quando a pessoa está no sofá com o celular na mão - não um e-mail que ela talvez nem veja. Esse é o canal que sobe o comparecimento.
 
 ### Bloco 2.3 - Informações da sessão
 
@@ -385,13 +385,13 @@ Você vai receber por aqui:
 
 **Princípio:** atrito zero. Cliente clica, evento entra na agenda dele com lembrete automático nativo.
 
-**O detalhe que combate o esquecimento (Léo, MANUAL-COMPLETO cap09):** o botão de lembrete adiciona o evento na agenda da pessoa **na data e hora exatas que ela se inscreveu, já com o LINK INDIVIDUAL dela embutido.** Quando o lembrete apita, o link já está lá - zero atrito pra entrar. *"Agora tá cravado na agenda da pessoa, vai apitar na hora, e o link já tá lá. Mais presença."*
+**O detalhe que combate o esquecimento (o autor do método, MANUAL-COMPLETO cap09):** o botão de lembrete adiciona o evento na agenda da pessoa **na data e hora exatas que ela se inscreveu, já com o LINK INDIVIDUAL dela embutido.** Quando o lembrete apita, o link já está lá - zero atrito pra entrar. *"Agora tá cravado na agenda da pessoa, vai apitar na hora, e o link já tá lá. Mais presença."*
 
 ### Bloco 2.6 - Ficha / Pesquisa (a mina de ouro)
 
 **Função:** transformar a página de obrigado de "fim de funil" em "começo da inteligência". É um link de pesquisa (Google Forms / Typeform) com 3-5 perguntas, logo abaixo da confirmação.
 
-**O fato que torna isso viável (Léo, MANUAL-COMPLETO cap09):** *"uns 30% respondem mesmo sem você oferecer nada em troca."* A pessoa acabou de se inscrever, está engajada, e responde.
+**O fato que torna isso viável (o autor do método, MANUAL-COMPLETO cap09):** *"uns 30% respondem mesmo sem você oferecer nada em troca."* A pessoa acabou de se inscrever, está engajada, e responde.
 
 **Por que é mina de ouro - três usos:**
 1. **Alimenta o Lead Score** - um painel que fica verde ou vermelho conforme a qualidade dos leads entrando. Verde = escala o tráfego. Vermelho = o anúncio traz lead errado, ajusta antes de queimar verba. Você sabe se a campanha traz gente boa **antes** de eles assistirem a aula.
@@ -412,7 +412,7 @@ Você vai receber por aqui:
 
 **Função:** impedir que o cadastrado considere "ah, depois vejo a gravação". Senão ele não aparece.
 
-**Por que (Léo, MANUAL-COMPLETO cap09):** *"replay não vende - já foi testado à exaustão. A venda mora na pessoa atravessar a aula inteira no momento de evento; replay tira o evento e tira a venda."* A pessoa que pensa "depois vejo a gravação" nunca vê - e some.
+**Por que (o autor do método, MANUAL-COMPLETO cap09):** *"replay não vende - já foi testado à exaustão. A venda mora na pessoa atravessar a aula inteira no momento de evento; replay tira o evento e tira a venda."* A pessoa que pensa "depois vejo a gravação" nunca vê - e some.
 
 **Modelo:**
 > "Importante: essa sessão **não terá replay completo**. Vou liberar um trecho de 15 minutos no email seguinte, mas o método inteiro + Q&A só pra quem assistir ao vivo. Bloqueia o horário."
@@ -473,7 +473,7 @@ O stack repete a oferta empilhada que foi construída na aula, com cada item anc
 └─────────────────────────────────────────────────┘
 ```
 
-> **EXEMPLO instanciado (nicho gestão - espelhando a oferta MindMaster/Gestão Ágil, `09`/`10` da biblioteca):**
+> **EXEMPLO instanciado (nicho gestão - espelhando a oferta da operação-referência (8 dígitos, que o autor rodou como CRO), `09`/`10` da biblioteca):**
 ```
 VOCÊ ESTÁ ADQUIRINDO:
 ✓ Formação completa (X módulos)         .... R$ 1.997
@@ -510,7 +510,7 @@ ou 12x de R$ 199
 
 **A regra de ouro da prova (ver `07-provas-casos` da biblioteca): prova na MOEDA da promessa.** Se o webinar prometeu salário, a prova é a foto da carteira de trabalho. Se prometeu emagrecimento, é o número na balança. Documento bruto e feio > slide bonito.
 
-> **EXEMPLO de depoimento que prova na moeda certa (nicho gestão, verbatim do corpus, `01`/`07`):** *"Estava desempregado durante a pandemia, eu me tornei aluno […] Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master […] em uma semana eu tive sete empresas do exterior me contatando."* (aluno Guilherme Godoy, MindMaster). A prova é o resultado na moeda da promessa (emprego), na boca do cliente, não do vendedor.
+> **EXEMPLO de depoimento que prova na moeda certa (nicho gestão, verbatim do corpus, `01`/`07`):** *"Estava desempregado durante a pandemia, eu me tornei aluno […] Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master […] em uma semana eu tive sete empresas do exterior me contatando."* (aluno-case, operação-referência). A prova é o resultado na moeda da promessa (emprego), na boca do cliente, não do vendedor.
 
 ### Bloco 3.4 - Garantia em destaque
 
@@ -529,7 +529,7 @@ Sem fricção. Sem depoimento de saída.
 Você só clica em "quero sair" e recebe o reembolso.
 ```
 
-> **ATENÇÃO (a confirmar com o especialista):** a máquina MindMaster fecha SEM garantia em todas as edições; O modelo usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
+> **ATENÇÃO (a confirmar com o especialista):** a operação-referência fecha SEM garantia em todas as edições; o modelo de referência usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
 
 ### Bloco 3.5 - FAQ (objeções residuais)
 
@@ -602,9 +602,9 @@ R: Em até 1 minuto após o pagamento, no seu e-mail, com login e senha.
 
 ### Bloco 3.9 - Link controlado + presente no checkout (a peça que corta a fuga e empurra o clique)
 
-**Mecanismo do link controlado (MindMaster, MANUAL-COMPLETO cap09 e `12-escassez`):** o checkout do webinar é um **link próprio**, recompensado, e o avatar é desviado do site sem oferta. EXEMPLO verbatim (MindMaster): *"não se inscreve pelo nosso site, quem usar o link que eu vou disponibilizar AQUI ganha 15% de desconto."* O desconto por canal dá razão pra comprar pelo link da aula, e o checkout vira prêmio (a "telinha que confirma os 15 primeiros").
+**Mecanismo do link controlado (operação-referência, MANUAL-COMPLETO cap09 e `12-escassez`):** o checkout do webinar é um **link próprio**, recompensado, e o avatar é desviado do site sem oferta. EXEMPLO verbatim (operação-referência): *"não se inscreve pelo nosso site, quem usar o link que eu vou disponibilizar AQUI ganha 15% de desconto."* O desconto por canal dá razão pra comprar pelo link da aula, e o checkout vira prêmio (a "telinha que confirma os 15 primeiros").
 
-**Presente escondido no checkout (Léo A / Vítor Abrão, `12-escassez`):** EXEMPLO verbatim: *"eu tenho presente para você na página de pagamento, é um extra; se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada."* Isso converte curiosidade em **início de checkout** - até quem só quer "olhar" clica. O evento InitiateCheckout dispara, e o pós-webinar passa a saber quem chegou aqui.
+**Presente escondido no checkout (webinar de referência A, `12-escassez`):** EXEMPLO verbatim: *"eu tenho presente para você na página de pagamento, é um extra; se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada."* Isso converte curiosidade em **início de checkout** - até quem só quer "olhar" clica. O evento InitiateCheckout dispara, e o pós-webinar passa a saber quem chegou aqui.
 
 > **Por que funciona:** o checkout não fica passivo esperando - ele tem um motivo extra de clique (presente) e um motivo de não fugir pro site (desconto exclusivo do canal). Escassez de condição auditável, nunca mentira de estoque.
 
@@ -629,7 +629,7 @@ Checklist mobile-first, item por item e o porquê de cada um:
 - Comprime imagens (WebP)
 - Sem fontes externas pesadas
 - Inline CSS crítico
-- **Vídeo: nunca Vimeo.** *"Bonito que trava perde pra feio que roda"* (bordão do Léo, citado verbatim, MANUAL-COMPLETO cap09) - o Vimeo prioriza resolução e engasga em banda fraca; vídeo que engasga no mobile mata o webinar. Use o servidor da própria ferramenta, ou YouTube com código anti-clique.
+- **Vídeo: nunca Vimeo.** *"Bonito que trava perde pra feio que roda"* (bordão de referência, citado verbatim, MANUAL-COMPLETO cap09) - o Vimeo prioriza resolução e engasga em banda fraca; vídeo que engasga no mobile mata o webinar. Use o servidor da própria ferramenta, ou YouTube com código anti-clique.
 
 ### Pixel + tracking
 
@@ -640,7 +640,7 @@ Configurar antes de subir tráfego:
 - Evento "InitiateCheckout" quando entra na página 3 (e dispara com o presente do Bloco 3.9)
 - Evento "Purchase" quando completa pagamento (via gateway)
 
-> **Detalhe técnico que derruba a medição e quase ninguém percebe (Léo, MANUAL-COMPLETO cap09):** se você usa uma **página de redirect**, o pixel tem que carregar de forma **síncrona** (`async=false`) - senão a página redireciona antes do pixel disparar e você perde o evento de cadastro. *"Pequeno detalhe, dinheiro grande."*
+> **Detalhe técnico que derruba a medição e quase ninguém percebe (o autor do método, MANUAL-COMPLETO cap09):** se você usa uma **página de redirect**, o pixel tem que carregar de forma **síncrona** (`async=false`) - senão a página redireciona antes do pixel disparar e você perde o evento de cadastro. *"Pequeno detalhe, dinheiro grande."*
 
 ### Coerência visual
 
@@ -687,7 +687,7 @@ Páginas que parecem de empresas diferentes destróem confiança.
 
 - **No perpétuo just-in-time**, a página de cadastro mostra o **horário relativo** ("começa em 12 min"), não absoluto. Isso aumenta urgência real.
 - **Para webinários ao vivo de validação inicial**, a página pode ser mais rústica (Notion público, Carrd, ou similar). Não invista em design polido até validar conversão.
-- **A/B test prioritário**: headline da página de cadastro. Testa 2 variantes paralelas, 50% tráfego cada, 200 leads mínimo cada antes de decidir. **Erro caro:** o A/B só vale dentro do MESMO mecanismo. Não mande metade do tráfego de um anúncio de "estratégia sniper" pra uma página de "robô do LinkedIn" - o anúncio não casa com a página e a conversão despenca (Léo, MANUAL-COMPLETO cap09).
+- **A/B test prioritário**: headline da página de cadastro. Testa 2 variantes paralelas, 50% tráfego cada, 200 leads mínimo cada antes de decidir. **Erro caro:** o A/B só vale dentro do MESMO mecanismo. Não mande metade do tráfego de um anúncio de "estratégia sniper" pra uma página de "robô do LinkedIn" - o anúncio não casa com a página e a conversão despenca (o autor do método, MANUAL-COMPLETO cap09).
 - **Páginas não precisam ser feitas por designer** se o método já tem padrão visual da marca. Use templates do Hotmart Pages, ClickFunnels, Cartpanda ou similar - adaptados ao Posicionamento Incomum do cliente.
 
 ---
@@ -731,7 +731,7 @@ Nessa variante, em vez de mandar o lead pra um formulário, você manda **direto
 
 O perpétuo não pode ter "data fixa" escrita na página. Cada lead vê a SUA sessão, o SEU horário, o SEU link. Isso vem de uma peça técnica que sustenta as três páginas: **o link único por lead.**
 
-**O conceito (Léo, MANUAL-COMPLETO cap09):** todo mundo que se inscreve recebe um link **só dele**. Imagem do cinema: *"cada pessoa tem o ingresso dela - único, nominal - mas a sessão é a mesma. Link só seu, sala compartilhada."* Quem caiu no mesmo horário se vê no chat, comenta junto, vive como evento ao vivo.
+**O conceito (o autor do método, MANUAL-COMPLETO cap09):** todo mundo que se inscreve recebe um link **só dele**. Imagem do cinema: *"cada pessoa tem o ingresso dela - único, nominal - mas a sessão é a mesma. Link só seu, sala compartilhada."* Quem caiu no mesmo horário se vê no chat, comenta junto, vive como evento ao vivo.
 
 **Por que o link único é a espinha (não é só estética):** ele é a peça da **medição**. Como cada pessoa entra por um link só dela, você sabe individualmente até onde cada uma foi - não veio / saiu nos 10 min / ficou até 25% / 50% / 100% / **viu a oferta**. *"Você não pode segmentar o que você não consegue medir."*
 
@@ -740,13 +740,13 @@ O perpétuo não pode ter "data fixa" escrita na página. Cada lead vê a SUA se
 - A página de obrigado embute o **link individual** no botão de calendário (Bloco 2.5).
 - A mensagem das 5 min antes chega com o **link exato da sessão daquela pessoa**, no horário que ela escolheu.
 
-**A tag "viu a oferta" - o ouro puro (Léo, MANUAL-COMPLETO cap09):** a oferta cai num **timestamp exato** da aula (no webinar do Léo foi aos 49min57s; em outros casos por volta dos 40min). Você manda taggear todo mundo que assistiu até aquele segundo com a tag "viu a oferta". Quem viu a oferta e não comprou tem uma objeção específica que faltou cair - é praticamente recuperação de venda, e recebe oferta direta no pós. Quem mal entrou recebe convite pra voltar e assistir. **Monta a estrutura de tags AGORA, ao configurar a ferramenta - a medição não é retroativa.** (O uso completo das tags no pós está na reference do pós-webinar / `Cap 11`.)
+**A tag "viu a oferta" - o ouro puro (o autor do método, MANUAL-COMPLETO cap09):** a oferta cai num **timestamp exato** da aula (no webinar de referência foi aos 49min57s; em outros casos por volta dos 40min). Você manda taggear todo mundo que assistiu até aquele segundo com a tag "viu a oferta". Quem viu a oferta e não comprou tem uma objeção específica que faltou cair - é praticamente recuperação de venda, e recebe oferta direta no pós. Quem mal entrou recebe convite pra voltar e assistir. **Monta a estrutura de tags AGORA, ao configurar a ferramenta - a medição não é retroativa.** (O uso completo das tags no pós está na reference do pós-webinar / `Cap 11`.)
 
-> **Aviso operacional sério (Léo):** *"não fica mexendo nas integrações depois que o webinário tá rodando."* O link único é a espinha dorsal das tags e da medição; reconfigurar à toa quebra a medição inteira. Monta com cuidado uma vez, testa, e deixa rodar.
+> **Aviso operacional sério (o autor do método):** *"não fica mexendo nas integrações depois que o webinário tá rodando."* O link único é a espinha dorsal das tags e da medição; reconfigurar à toa quebra a medição inteira. Monta com cuidado uma vez, testa, e deixa rodar.
 
 ---
 
-## Números de referência de uma máquina bem montada (Léo, MANUAL-COMPLETO cap09)
+## Números de referência de uma máquina bem montada (MANUAL-COMPLETO cap09)
 
 | Etapa | Faixa saudável |
 |-------|----------------|
@@ -754,7 +754,7 @@ O perpétuo não pode ter "data fixa" escrita na página. Cada lead vê a SUA se
 | Comparecimento (inscrito → presente) | benchmark 33-57%, **alvo Soft 50%+**; **+54% (de 31% pra 47%) quando liga o WhatsApp** |
 | Compra automática no checkout (de quem compareceu) | 6-8%, antes de qualquer comercial tocar (de quem ENTRA no checkout, 60-85%) |
 
-> **A leitura que importa (Léo):** se os indicadores estão muito abaixo disso, o furo quase sempre está numa **peça técnica deste arquivo** - a página, o horário, a hospedagem do vídeo, a mensageria - **não na sua copy.** Antes de reescrever a aula no desespero, audita o encanamento: na maioria das vezes é vídeo engasgando, horário mal escolhido, ou o WhatsApp que você não ligou.
+> **A leitura que importa (o autor do método):** se os indicadores estão muito abaixo disso, o furo quase sempre está numa **peça técnica deste arquivo** - a página, o horário, a hospedagem do vídeo, a mensageria - **não na sua copy.** Antes de reescrever a aula no desespero, audita o encanamento: na maioria das vezes é vídeo engasgando, horário mal escolhido, ou o WhatsApp que você não ligou.
 
 ---
 

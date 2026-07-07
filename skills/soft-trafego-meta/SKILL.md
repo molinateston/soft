@@ -52,7 +52,7 @@ Esta skill NUNCA para por falta de ferramenta. Ela detecta o que o dono tem cone
 Se a casa opera por **Marketing API direta** (token próprio no ambiente), esse é um terceiro caminho de execução real, equivalente à pipeboard self-host; detalhe em `references/meta-api.md`.
 
 **Credenciais / conexão (Code/agente):**
-- pipeboard remote: token da `pipeboard.co/api-tokens` (setup ~2 min, ideal pro Léo TESTAR já).
+- pipeboard remote: token da `pipeboard.co/api-tokens` (setup ~2 min, ideal pra você TESTAR já).
 - pipeboard self-host: Meta Developer App + token próprio da Meta (ideal pro PRODUTO, a casa dona, sem SaaS terceiro por cliente).
 - Marketing API direta: `META_ACCESS_TOKEN` (ou `_LEO`), `META_AD_ACCOUNT_*` (`act_<id>`), `META_PAGE_ID` (Página, obrigatória pro criativo), `META_LEOMOLINA_PIXEL` (+ CAPI token, obrigatório pra SALES + site).
 - Publicação de post no IG (Passo 3): token do tipo Instagram Login em `graph.instagram.com`, independente do motor de ads.

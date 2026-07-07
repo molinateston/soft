@@ -28,7 +28,7 @@ Regra dura: **antes de reprovar qualquer coisa por causa dos padrões banidos, p
 
 Cada um destes pode aparecer numa peça 100% humana. Isolado, não condena.
 
-1. **Gramática perfeita e texto polido.** Muita gente escreve bem, revisa, ou passou por editor. Capricho não é IA. O Léo reescreve headline dele até ficar cirúrgica, e isso é o oposto de IA.
+1. **Gramática perfeita e texto polido.** Muita gente escreve bem, revisa, ou passou por editor. Capricho não é IA. O o autor do método reescreve headline dele até ficar cirúrgica, e isso é o oposto de IA.
 
 2. **Frase curta e cortada pra cravar um ponto.** Uma frase clipada isolada é recurso humano clássico ("E funciona."). Só marca como drama em staccato (padrão 28) quando vêm VÁRIAS em fila inflando o tom, não uma sozinha.
 
@@ -52,7 +52,7 @@ Cada um destes pode aparecer numa peça 100% humana. Isolado, não condena.
 
 ## Os 7 sinais de escrita humana pra PRESERVAR
 
-Quando você vir estes, encosta o lápis. São a impressão digital de uma pessoa de verdade, e editar por cima destrói exatamente o que faz a copy do Léo soar como Léo.
+Quando você vir estes, encosta o lápis. São a impressão digital de uma pessoa de verdade, e editar por cima destrói exatamente o que faz a copy do autor do método soar como autor do método.
 
 1. **Detalhe específico difícil de inventar.** "O dentista que atende no andar de cima da minha padaria." "O cliente que fechou às 23h de um domingo." A IA arredonda o detalhe; a pessoa acumula. Detalhe estranho e concreto é ouro, não erro.
 
@@ -60,13 +60,13 @@ Quando você vir estes, encosta o lápis. São a impressão digital de uma pesso
 
 3. **Referência datada, de época.** Uma gíria, um meme, uma piada que só faz sentido neste ano e nesta bolha. A IA atrasa. Se a referência está fresca e específica, é sinal de gente.
 
-4. **Escolha que o autor consegue defender.** Se o Léo consegue explicar POR QUE cortou aquela palavra ou usou aquela expressão, isso é decisão autoral. Não desfaz decisão que tem motivo.
+4. **Escolha que o autor consegue defender.** Se o autor do método consegue explicar POR QUE cortou aquela palavra ou usou aquela expressão, isso é decisão autoral. Não desfaz decisão que tem motivo.
 
 5. **Variedade real no tamanho das frases.** Curta, curta, aí uma longa que leva o tempo dela. A IA tende à cadência média uniforme. Frase que respira diferente é humana.
 
 6. **Aparte, parêntese ou autocorreção de verdade.** "(quase escrevi 'sempre' aqui, mas não é sempre)". A pessoa se interrompe. A IA quase nunca. Isso fica.
 
-7. **A voz específica do cliente.** O jeito do Léo (ou do cliente) de falar, os bordões dele, a irreverência dele, o palavrão no lugar certo. Isso vem da skill de voz do cliente e do `dicionario-conversacional.md`, e SEMPRE ganha do gate genérico. Anti-IA garante que não soe de robô; a voz garante que soe como ELE. Onde os dois brigam, a voz manda.
+7. **A voz específica do cliente.** O jeito do autor do método (ou do cliente) de falar, os bordões dele, a irreverência dele, o palavrão no lugar certo. Isso vem da skill de voz do cliente e do `dicionario-conversacional.md`, e SEMPRE ganha do gate genérico. Anti-IA garante que não soe de robô; a voz garante que soe como ELE. Onde os dois brigam, a voz manda.
 
 ---
 

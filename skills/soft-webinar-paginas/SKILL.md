@@ -112,7 +112,7 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 
   **Truque form-less do WhatsApp:** pedir o número no form derruba o cadastro. Em vez de pedir, faz a pessoa te mandar uma mensagem pré-pronta; ela acha que está só "confirmando a inscrição pelo WhatsApp" e você captura o número sem ter pedido. Frase-modelo do opt-in form-less (exemplo ilustrativo; modela a qualidade, nunca copia): "confirma sua inscrição mandando esta mensagem pelo WhatsApp: quero minha vaga na aula". O clique no `wa.me` é, ele próprio, o cadastro + o opt-in num gesto só (é a ponte pra variante crua do Passo 7). **Lê Bloco 1.5 e aplica o detalhe do horário-variável + o truque form-less com a fala literal.**
 
-**6. Informações do evento**: data / horário / duração / formato / plataforma (se aparece pro participante). **Ramifica pelo FORMATO (Passo 0):** no **ao vivo**, data fixa real ("quinta, 20h") + contagem regressiva real até a data; no **perpétuo**, horário **relativo** ("próxima sessão começa em 12 min", just-in-time) ou horários fixos do dia (recurring), nunca data fixa. **Escolher um horário vira compromisso** na cabeça do lead (vira um meeting, e quem tem compromisso aparece); é o que separa o webinar de uma VSL. **Quatro horários por dia é o ponto ótimo** (manhã/tarde/noite; os do exemplo do método são **9h / 11h / 14h / 19h**, achados do avatar DELE, o seu avatar pode comprar em outro horário): demais e a pessoa procrastina ("roda a qualquer hora"), de menos e ela não encaixa nenhum.
+**6. Informações do evento**: data / horário / duração / formato / plataforma (se aparece pro participante). **Ramifica pelo FORMATO (Passo 0):** no **ao vivo**, data fixa real ("quinta, 20h") + contagem regressiva real até a data; no **perpétuo**, horário **relativo** ("próxima sessão começa em 12 min", just-in-time) ou horários fixos do dia (recurring), nunca data fixa. **Escolher um horário vira compromisso** na cabeça do lead (vira um meeting, e quem tem compromisso aparece); é o que separa o webinar de uma VSL. **Quatro horários por dia é o ponto ótimo** (manhã/tarde/noite; os do exemplo do método são **9h / 11h / 14h / 19h**, achados do avatar do autor do método, o seu avatar pode comprar em outro horário): demais e a pessoa procrastina ("roda a qualquer hora"), de menos e ela não encaixa nenhum.
 
   > **Vitrine (detalhe de ferramenta):** o **EverWebinar** mostra os **dois** próximos horários na página; o **WebinarKit** mostra **quatro**. **Convertem igual**, só muda a vitrine; escolhe pela ferramenta que o cliente já usa, não por achar que "mais horário converte mais". (Bloco 1.6 traz o porquê do horário relativo com a fala do compromisso.)
 
@@ -128,8 +128,8 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 
 **9. BIO DETALHADA na última dobra**: ver a regra única no Passo 1.B (vale pro cadastro E pro obrigado; checkout NÃO leva). No cadastro fecha a página depois da prova social, antes do CTA repetido.
 
-## Passo 1.B, a BIO DETALHADA na ÚLTIMA DOBRA (regra das páginas, do bench do Léo)
-**Onde:** penúltima/última dobra, DEPOIS do conteúdo da aula/oferta, ANTES do fecho. NUNCA no topo. **Em quais:** CADASTRO e OBRIGADO. **CHECKOUT não leva** (já viu o cara na aula; bio lá é fricção). **Função:** valida autoridade SEM currículo. **Ordem fixa:** empatia/cicatriz ANTES do feito (cicatriz antes do troféu). **Lê `references/_PAGINAS-BENCH.md` Seção 1 pros 2 textos verbatim do Léo.**
+## Passo 1.B, a BIO DETALHADA na ÚLTIMA DOBRA (regra das páginas, do bench de referência)
+**Onde:** penúltima/última dobra, DEPOIS do conteúdo da aula/oferta, ANTES do fecho. NUNCA no topo. **Em quais:** CADASTRO e OBRIGADO. **CHECKOUT não leva** (já viu o cara na aula; bio lá é fricção). **Função:** valida autoridade SEM currículo. **Ordem fixa:** empatia/cicatriz ANTES do feito (cicatriz antes do troféu). **Lê `references/_PAGINAS-BENCH.md` Seção 1 pros 2 textos verbatim de referência.**
 
 **Escolhe 1 dos 2 formatos pelo tipo de página:**
 
@@ -138,11 +138,11 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 | **A · Prosa 1ª pessoa** | captura/obrigado | foto P&B numa coluna + 5-6 parágrafos curtos, voz de boteco |
 | **B · Prosa + grade de credenciais** | landing mais vendedora | 1 parágrafo denso + 4 cards numéricos (número verde + label mono) |
 
-**O molde da prosa (5 parágrafos, a ordem que o Léo bate):**
+**O molde da prosa (5 parágrafos, a ordem que o autor do método bate):**
 1. Quebra de imagem / empatia: "não sou [estereótipo de guru], sou um cara normal" + a credencial-mãe em 1 linha.
 2. Número-âncora COM ressalva honesta: o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei") → prova que é honesto.
 3. A cicatriz (fundo do poço): quebrou / recomeçou do zero / "foi caindo que descobri".
-4. O feito-prova DEPOIS da cicatriz: resultado grande nomeado e calculável (ex.: "R$13M, 2 anos, 5 pessoas, 1 funil"), não "milhões genéricos".
+4. O feito-prova DEPOIS da cicatriz: resultado grande nomeado e calculável (ex.: "8 dígitos, 2 anos, 5 pessoas, 1 funil"), não "milhões genéricos".
 5. Anti-milagre + promessa: "não vim te vender milagre. Vim mostrar que [promessa]. E provar por A mais B."
 
 **A grade do Formato B (4 cards, cada um = número + contexto-que-prova):** 4 ângulos: escala · amplitude · feito-âncora · cicatriz. Nunca número solto; cada um vem com o contexto que impede leitura inflada.
@@ -174,7 +174,7 @@ Barra de progresso · salva sozinha (retoma se fechar a aba) · prefill do que v
 | **Score** (define HOT) | sim | urgência (0-10) · quando quer resolver · faturamento mensal · **quanto toparia investir** (piso HOT = topa 3k+) |
 | **Insight** | não | "O que mais te trava hoje?" (campo aberto, na voz do lead) |
 
-**Tela final:** "Pronto, [nome]. Vaga garantida." + único próximo passo = botão WhatsApp c/ msg pré-pronta ("Oi Léo! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala.") + nota "A sala abre no horário que você escolheu · não falta, tem presente no fim".
+**Tela final:** "Pronto, [nome]. Vaga garantida." + único próximo passo = botão WhatsApp c/ msg pré-pronta ("Oi, [nome do dono]! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala.") + nota "A sala abre no horário que você escolheu · não falta, tem presente no fim".
 
 ### Variante AO VIVO (obrigado da imersão): quando o evento tem data fixa
 | Elemento | No AO VIVO |
@@ -200,7 +200,7 @@ Quem chega já está ~80% decidido. A aula vendeu. **O checkout NÃO convence do
 |---|---|---|
 | A | **Cronômetro 5min** (topo) | faixa verde fina · "Sua condição vale por: [04:59 → 00:00]" · some/volta o preço cheio ao zerar · escassez de **condição auditável** (o desconto/bônus do link da aula), nunca mentira de estoque |
 | B | **"Você está entre os 15 primeiros"** | selo logo abaixo do timer: "Você está entre os 15 primeiros, bônus liberado." Vem do **link controlado** ("quem usar o link que eu disponibilizo AQUI ganha [vantagem]"); o checkout vira **prêmio**, não página passiva. Dispara InitiateCheckout |
-| C | **Garantia em destaque** | escudo · garantia do **cardápio** (não dogma, escolhe pelo ticket) · inverte o risco. Molde incondicional: "🛡️ Garantia de [X] dias. Não é pra você, devolvemos 100%. Sem perguntas." (perpétuo do Léo fecha 90+90; MindMaster fecha sem garantia; desenho `[A CONFIRMAR: garantia do cliente]` por cliente). **Lê Bloco 3.4 pro cardápio** |
+| C | **Garantia em destaque** | escudo · garantia do **cardápio** (não dogma, escolhe pelo ticket) · inverte o risco. Molde incondicional: "🛡️ Garantia de [X] dias. Não é pra você, devolvemos 100%. Sem perguntas." (o perpétuo de referência fecha 90+90; a operação-referência (8 dígitos, que o autor rodou como CRO) fecha sem garantia; desenho `[A CONFIRMAR: garantia do cliente]` por cliente). **Lê Bloco 3.4 pro cardápio** |
 | D | **Provas (na moeda da promessa)** | 3-5 provas fortes, mais pesadas que na captura · **prova na MOEDA**: prometeu salário → foto da carteira; prometeu venda no automático → print do dashboard · documento bruto e feio > slide bonito · depoimento na boca do cliente. **Lê Bloco 3.3** |
 | E | **Bônus (stack empilhado)** | cada item ancorado pelo valor avulso, soma riscada acima do preço · cada bônus mata UMA objeção; o de ação rápida ("15 primeiros") amarra com o Bloco B. Preço é slot, instancia pelo produto. **Lê Bloco 3.1** |
 

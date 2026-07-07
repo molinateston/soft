@@ -1,16 +1,16 @@
-# Páginas de Webinar — BENCHMARK das páginas reais do Léo
+# Páginas de Webinar — BENCHMARK das páginas reais de referência
 
-> **Pra que serve:** modelo reutilizável das 3 páginas que orbitam o webinar (CAPTURA → OBRIGADO → CHECKOUT), extraído das páginas REAIS do Léo que estão no ar, não da teoria. Use como régua quando montar as páginas de qualquer cliente (Guilherme, Natália, etc.).
+> **Pra que serve:** modelo reutilizável das 3 páginas que orbitam o webinar (CAPTURA → OBRIGADO → CHECKOUT), extraído das páginas REAIS de referência que estão no ar, não da teoria. Use como régua quando montar as páginas de qualquer cliente.
 >
-> **As fontes lidas (todas do Léo, todas no ar ou versionadas):**
-> - Captura web-v1: `/home/cloud/sites/leonardomolina-site/web-v1/index.html` (no ar em `leonardomolina.com.br/web-v1/`)
-> - Obrigado web-v1 (perpétuo): `/home/cloud/sites/leonardomolina-site/web-v1/obrigado/index.html`
-> - Ficha web-v1: `/home/cloud/sites/leonardomolina-site/web-v1/ficha/index.html`
-> - Home/landing webinar: `/home/cloud/sites/leonardomolina-site/index.html` (bloco "Bastidor" = bio detalhada)
-> - Obrigado imersão (ao vivo): `/home/cloud/sites/leonardomolina-site/imersao/gt/obrigado/index.html`
-> - Reference da skill: `/home/cloud/.claude/skills/soft-webinar-paginas/references/paginas-cadastro-obrigado-checkout.md`
+> **As fontes lidas (todas de referência, todas no ar ou versionadas):**
+> - Captura (perpétuo, modelo web-v1): página de captura de referência no ar
+> - Obrigado (perpétuo, modelo web-v1): página de obrigado de referência
+> - Ficha (modelo web-v1): wizard de ficha de referência
+> - Home/landing webinar: bloco "Bastidor" (bio detalhada)
+> - Obrigado imersão (ao vivo): página de obrigado de evento ao vivo de referência
+> - Reference da skill: `references/paginas-cadastro-obrigado-checkout.md`
 >
-> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout do Léo é a tela do gateway (Cakto/WebinarKit). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente que o Léo usa. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
+> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout de referência é a tela do gateway (Cakto/WebinarKit). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente que o Léo usa. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
 
 ---
 
@@ -23,7 +23,7 @@ Cada elemento entra por UM de três motivos. Se não faz nenhum, **corta** (é f
 2. **Protege a venda?** (põe o botão no instante em que a pessoa decide)
 3. **Mede?** (te diz depois quem está quente)
 
-> **Mito que o bench desfaz:** *"já testei páginas lindas, não converteu."* A página do Léo é "feia" e converte 30%. Cada animação é uma fricção. **Página feia que roda ganha de página linda que enfeita.**
+> **Mito que o bench desfaz:** *"já testei páginas lindas, não converteu."* A página de referência é "feia" e converte 30%. Cada animação é uma fricção. **Página feia que roda ganha de página linda que enfeita.**
 
 **ID visual fixa em todas (extraído do CSS real):** fundo preto `#000`, verde-neon `#4ade80` como única cor de ação, Bebas Neue (títulos) + Inter (corpo) + JetBrains Mono (labels/eyebrows), cantos retos ou raio pequeno, hairlines `#1e1e1e`. Eyebrow = label mono verde com tracinho antes. Mobile-first é a régua (70-85% do tráfego é celular).
 
@@ -35,30 +35,30 @@ Cada elemento entra por UM de três motivos. Se não faz nenhum, **corta** (é f
 
 **Função:** validar a autoridade SEM currículo. A ordem é **empatia ANTES do feito** — cicatriz antes do troféu. A pessoa precisa ver "ele já passou pelo que eu vivo" antes de "ele tem números".
 
-O Léo usa a bio detalhada em **dois formatos** — escolha pelo tipo de página:
+O autor do método usa a bio detalhada em **dois formatos** — escolha pelo tipo de página:
 
 ## Formato A — Bio em PROSA (1ª pessoa) · usado na web-v1 (captura)
 
 Foto em P&B (grayscale + contraste) numa coluna, texto na outra. Eyebrow "Quem vai te ensinar" + nome em Bebas gigante + 5-6 parágrafos curtos em 1ª pessoa. Tom: cara normal, anti-engomadinho, números com ressalva honesta.
 
-**Texto real do Léo (verbatim, web-v1):**
+**Texto real de referência (verbatim, modelo web-v1):**
 
 ```
 [eyebrow] Quem vai te ensinar
-[nome grande] Léo Molina
+[nome grande] [nome do dono]
 
-Eu não sou engomadinho de Alphaville, sou um cara normal. Passei 10 anos no
+Eu não sou engomadinho de bairro chique, sou um cara normal. Passei 10 anos no
 bastidor do digital, montando a estratégia de quem vende de verdade.
 
-Eu falo que gerenciei R$46 milhões, não que faturei. Quem fala que faturou
-geralmente não viu esse dinheiro entrar no bolso. Eu vi de perto, em mais de
-40 nichos e mais de 150 lançamentos.
+Eu falo que gerenciei uma cifra de 8 dígitos, não que faturei. Quem fala que
+faturou geralmente não viu esse dinheiro entrar no bolso. Eu vi de perto, em
+mais de 40 nichos e mais de 150 lançamentos.
 
-Já quebrei devendo mais de R$500 mil. Voltei pro sofá da casa da minha mãe e
-recomecei do zero. Foi caindo que eu descobri o que funciona de verdade.
+Já quebrei devendo uma cifra de 6 dígitos. Voltei pro sofá da casa da minha mãe
+e recomecei do zero. Foi caindo que eu descobri o que funciona de verdade.
 
-Depois disso, na maior escola de Gestão Ágil do Brasil, eu fiz R$13 milhões
-em 2 anos. Com 5 pessoas e um funil só.
+Depois disso, à frente da receita de uma operação de 8 dígitos, eu fiz esse
+número em 2 anos. Com 5 pessoas e um funil só.
 
 Eu não vim te vender milagre. Vim te mostrar que vender pode ser simples e
 acontecer todo dia. E te provar por A mais B.
@@ -68,38 +68,39 @@ acontecer todo dia. E te provar por A mais B.
 1. **Quebra de imagem / empatia:** "não sou [estereótipo de guru], sou um cara normal" + o que faz (a credencial-mãe em uma linha).
 2. **Número-âncora com ressalva honesta:** o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei" → prova que é honesto). É a assinatura do Léo: o número vem com a nuance que o torna falsificável.
 3. **A cicatriz (fundo do poço):** quebrou / recomeçou do zero / "foi caindo que descobri". É o que cria empatia e licença pra falar.
-4. **O feito-prova depois da cicatriz:** o resultado grande nomeado e específico (R$13M, 2 anos, 5 pessoas, 1 funil) — pequeno, calculável, não "milhões genéricos".
+4. **O feito-prova depois da cicatriz:** o resultado grande nomeado e específico (8 dígitos, 2 anos, 5 pessoas, 1 funil), pequeno, calculável, não "milhões genéricos".
 5. **Anti-milagre + promessa:** "não vim te vender milagre. Vim mostrar que [a promessa]. E provar por A mais B." Fecha desarmando o cético.
 
-## Formato B — Bio com GRADE DE CREDENCIAIS · usado na home/landing (index.html)
+## Formato B — Bio com GRADE DE CREDENCIAIS · usado na home/landing
 
 Mesma coluna foto + texto, mas o texto é UM parágrafo denso de 1ª pessoa + uma **grade de 4 cards numéricos** (número grande em verde + label mono em 2 linhas). É o formato pra landing mais "vendedora".
 
-**Texto real (verbatim, index.html, bloco "Bastidor"):**
+**Texto real (verbatim, bloco "Bastidor"):**
 
 ```
 [section-label] Bastidor
 [título] 10 anos vendo o que funciona.
 
-10 anos no digital. Gerenciei R$46 milhões, não faturei, e faço questão da
-distinção. Quebrei em 2020 devendo R$500 mil. Na MindMaster, como CRO, fiz
-R$13 milhões em 2 anos com 5 pessoas e 1 funil só, sem post diário, e a empresa
-ficou quase um ano sem postar com o perpétuo vendendo todo dia. Não inventei
-isso na teoria. Achei na unha.
+10 anos no digital. Gerenciei uma cifra de 8 dígitos, não faturei, e faço
+questão da distinção. Quebrei devendo uma cifra de 6 dígitos. Na
+operação-referência (8 dígitos, que rodei como CRO), fiz esse número em 2 anos
+com 5 pessoas e 1 funil só, sem post diário, e a empresa ficou quase um ano sem
+postar com o perpétuo vendendo todo dia. Não inventei isso na teoria. Achei na
+unha.
 
 [grade de 4 cards]
-  R$46M   → Gerenciados em 10 anos · não faturados
+  8 díg.  → Gerenciados em 10 anos · não faturados
   150+    → Lançamentos em 40+ nichos diferentes
-  R$13M   → 2 anos, 5 pessoas, 1 funil · MindMaster
-  R$500k  → Quebrei em 2020 e voltei do zero
+  8 díg.  → 2 anos, 5 pessoas, 1 funil · feito-âncora
+  6 díg.  → Quebrei e voltei do zero
 ```
 
-**A grade reutilizável (cada card = número + contexto-que-prova):** cada número vem com o contexto que o torna verificável e impede leitura inflada. Nunca número solto. Os 4 cards do Léo cobrem: **escala** (R$46M gerenciados), **amplitude** (150+ lançamentos / 40 nichos), **o feito-âncora** (R$13M, 5 pessoas, 1 funil), **a cicatriz** (R$500k quebrado). Replique essa lógica de 4 ângulos no número do cliente.
+**A grade reutilizável (cada card = número + contexto-que-prova):** cada número vem com o contexto que o torna verificável e impede leitura inflada. Nunca número solto. Os 4 cards de referência cobrem: **escala** (cifra de 8 dígitos gerenciada), **amplitude** (150+ lançamentos / 40 nichos), **o feito-âncora** (8 dígitos, 5 pessoas, 1 funil), **a cicatriz** (6 dígitos de dívida). Replique essa lógica de 4 ângulos no número do cliente.
 
 ## Regras da bio (valem pros dois formatos)
 
 - **1ª pessoa, voz de boteco.** Frase curta. Nada de "profissional com vasta experiência".
-- **Empatia/cicatriz ANTES do feito.** Sempre. É a ordem que o Léo bate.
+- **Empatia/cicatriz ANTES do feito.** Sempre. É a ordem que o autor do método bate.
 - **Número com lastro/ressalva.** "Gerenciei, não faturei." O número que vem cru e redondo soa falso; o que vem com a nuance soa real.
 - **Anti-milagre explícito** no fecho da prosa ("não vim vender milagre").
 - **Foto em P&B**, grayscale + contraste, vertical (aspect 4/5), com tag discreta (nome + cidade).
@@ -156,7 +157,7 @@ Card discreto: *"🎁 Tem um **presente pra quem ficar até o fim**. Entra no ho
 - **Segmentação (não pontua):** tipo de especialista · nicho específico · tempo de mercado · ticket médio · uso de IA · dor principal.
 - **Score (pontua, define HOT):** urgência (escala 0-10) · quando quer resolver · faturamento mensal · **quanto toparia investir** (piso HOT = topa 3k+).
 - **Insight (opcional):** "O que mais te trava hoje?" (campo aberto, na voz do lead).
-- **Tela final:** *"Pronto, [nome]. Vaga garantida."* + **único próximo passo = botão WhatsApp** com mensagem pré-pronta: *"Oi Léo! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala."* + nota: *"A sala abre no horário que você escolheu · não falta, tem presente no fim."*
+- **Tela final:** *"Pronto, [nome]. Vaga garantida."* + **único próximo passo = botão WhatsApp** com mensagem pré-pronta: *"Oi, [nome do dono]! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala."* + nota: *"A sala abre no horário que você escolheu · não falta, tem presente no fim."*
 
 ## O fluxo de obrigado, resumido
 CONFIRMA (nome) → ANTI-FUGA (3 badges) → SUA AULA (data/hora + timer + agenda) → FICHA (gate verde) → opt-in WhatsApp (na tela final da ficha) → PRESENTE. O WhatsApp é o destino final, não o formulário.
@@ -193,7 +194,7 @@ Quando NÃO é perpétuo (turma/imersão ao vivo), a estrutura muda um pouco (ve
 - Bloco visual com escudo: a garantia escolhida do cardápio (não dogma — escolhe pelo ticket).
 - Função: **inverte o risco** — tira do bolso do cliente, põe no seu.
 - Molde (garantia incondicional, um item do cardápio): *"🛡️ Garantia incondicional de [X] dias. Se decidir que não é pra você, devolvemos 100%. Sem perguntas, sem fricção. Você clica em 'quero sair' e recebe o reembolso."*
-- (Webinar perpétuo do Léo trava 90+90; MindMaster fecha sem garantia. O desenho é `[A CONFIRMAR]` por cliente.)
+- (O perpétuo de referência trava 90+90; a operação-referência fecha sem garantia. O desenho é `[A CONFIRMAR]` por cliente.)
 
 ### Bloco D — Provas (na moeda da promessa)
 - 3-5 provas fortes, mais pesadas que na captura (aqui a pessoa quer a última confirmação).
@@ -227,7 +228,7 @@ HOJE VOCÊ INVESTE                   R$ [preço]   (ou 12x de R$ ...)
 
 ---
 
-## Números de referência de máquina bem montada (Léo)
+## Números de referência de máquina bem montada
 | Etapa | Faixa saudável |
 |-------|----------------|
 | Página → lead | 30-40% |

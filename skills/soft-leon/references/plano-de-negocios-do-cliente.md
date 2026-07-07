@@ -206,7 +206,7 @@ O plano fecha sempre com **3 a 5 próximos passos imediatos**, concretos e datad
 
 ---
 
-## Output, adapta ao ambiente (regra do Léo)
+## Output, adapta ao ambiente (regra do autor do método)
 
 - **No chat (Claude.ai):** entrega em **Markdown** limpo, formato mapa-mental (tópicos por macro-tema + bullets com exemplo). Simples, sem firula. Sem Bash: o LEON monta o conteúdo (projeção, score, roadmap) e devolve o doc consolidado.
 - **No Claude Code:** **renderiza e publica** como **site**, reusa o motor da `soft-proposta-comercial` (Layout Soft, link único e privado, chat=MD / code=site), com a ID visual do cliente (`soft-designer`). O pipeline completo roda aqui.
@@ -218,7 +218,7 @@ O plano fecha sempre com **3 a 5 próximos passos imediatos**, concretos e datad
 
 ## Invioláveis
 
-- **Marca-neutra:** cor, fontes, logo e prova são do CLIENTE (puxe da Fundação dele). Nunca os números do Léo, nunca número de terceiro, nunca inventar.
+- **Marca-neutra:** cor, fontes, logo e prova são do CLIENTE (puxe da Fundação dele). Nunca os números do autor do método, nunca número de terceiro, nunca inventar.
 - **Projeção sempre em 3 cenários com premissa escrita.** Sem premissa, projeção é fantasia. A régua de realismo é obrigatória antes de mostrar.
 - **Nicho sem conexão real não vira posicionamento.** Score alto com Critério 4 baixo volta pra mesa.
 - **Roadmap fecha com 3-5 próximos passos concretos e datados.** Cliente sai com tarefa da semana.

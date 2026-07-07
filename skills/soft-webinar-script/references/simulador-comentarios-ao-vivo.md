@@ -8,7 +8,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 > - **Como GRAVAR com energia** (3 formas de gravar, conduta de sala, eco de chat real, setup): `gravacao-energia-ao-vivo.md`. Aqui é o que entra no chat DEPOIS de a gravação existir.
 > - **A engenharia de interação do host** (escada de micro-compromissos, eco nominal, perguntas-isca, falas literais dos campeões): `exemplos-por-bloco/14-interacao-chat.md` e `01-pre-inicio.md`. Aqui eu uso a PREMISSA daqueles blocos pra saber o que a sala responde a cada comando do host; não recopio as falas do host.
 > - **Plataforma, scheduling, contador de presença, config**: capacidade da soft-webinar-plano. Aqui só o campo de chat simulado.
-> - **A ordem dos blocos e ONDE ficam o "EU QUERO", o carrinho aberto, o pitch**: `SLIDE-MODELO-SCRIPT-LEO.md` (a espinha canônica) e `estrutura-webinario-aida.md`. Aqui eu mapeio a CURVA de comentários sobre essa ordem.
+> - **A ordem dos blocos e ONDE ficam o "EU QUERO", o carrinho aberto, o pitch**: `SLIDE-MODELO-SCRIPT.md` (a espinha canônica) e `estrutura-webinario-aida.md`. Aqui eu mapeio a CURVA de comentários sobre essa ordem.
 
 > Voz dos comentários = **participante brasileiro real**, não o tom clínico do host. O participante fala torto, abrevia, erra acento, usa gíria leve. O host é frio e mede; o público é quente e desorganizado. Exemplos marcados como EXEMPLO. Nomes próprios do método (Big Idea, mecanismo, bônus, produto) entram como SLOT `[…]`. Zero travessão de prosa.
 
@@ -95,7 +95,7 @@ Dado **N = pessoas-alvo "ao vivo"** (o número que a sessão simula ter na sala;
 - **Teto de poluição (herdado do `gravacao-energia-ao-vivo.md` §5.1):** mesmo simulado, não estourar. Acima de ~150-200 mensagens visíveis "ninguém presta atenção na aula, presta no chat". A simulação dá energia, não ruído.
 - **Comentários/minuto por fase:** ZERO a baixo no meio do ensino (pra não competir com o conteúdo), picos nos momentos de comando e prova, MÁXIMO no carrinho aberto.
 
-### A curva de densidade (onde concentrar, mapeada sobre a espinha do `SLIDE-MODELO-SCRIPT-LEO.md`)
+### A curva de densidade (onde concentrar, mapeada sobre a espinha do `SLIDE-MODELO-SCRIPT.md`)
 
 ```
 densidade
@@ -113,7 +113,7 @@ densidade
 
 **Os picos, na ordem da espinha:**
 1. **PRÉ-INÍCIO / abertura (pico de warm-up):** quando o host pede "comente seu nome e de onde está falando" e "hoje como está em relação ao seu problema?", vem a rajada de cidade+nome. É o pico que estabelece "a sala está cheia e viva".
-2. **COMANDOS do host ("digita EU QUERO no chat", "estão curtindo a aula?", "comenta que sim eu quero"):** cada comando do host dispara uma rajada. No `SLIDE-MODELO-SCRIPT-LEO.md` o "digita EU QUERO" mora no fim do MECANISMO; o "tá bom pra você?"/"estão curtindo?" aparece na MECANISMO e na TRANSIÇÃO.
+2. **COMANDOS do host ("digita EU QUERO no chat", "estão curtindo a aula?", "comenta que sim eu quero"):** cada comando do host dispara uma rajada. No `SLIDE-MODELO-SCRIPT.md` o "digita EU QUERO" mora no fim do MECANISMO; o "tá bom pra você?"/"estão curtindo?" aparece na MECANISMO e na TRANSIÇÃO.
 3. **PROVAS / viradas:** reações de identificação ("isso sou eu", "fez sentido"), volume médio. Não exagerar, o conteúdo é o protagonista aqui.
 4. **CARRINHO ABERTO (o MÁXIMO):** quando as vagas abrem e o CTA dispara (bloco OFERTA/Ação e FECHAMENTO). Aqui mora o social proof de compra, a prova de decisão, a objeção que se resolve, o FOMO, e os 1-2 haters neutralizados. É onde a sala simulada trabalha mais duro.
 5. **FECHAMENTO (urgência real):** "corre que tá acabando", "consegui na última vaga". Acompanha o pitch FEAR/FOMO da espinha.

@@ -44,7 +44,7 @@ Seções 1-4 e 6 sempre. Seção 5 só quando o nicho estava em aberto. Prosa m�
 
 ---
 
-## Adaptação de output ao ambiente (a regra do Léo)
+## Adaptação de output ao ambiente (a regra do autor do método)
 
 Mesmo conteúdo, destino diferente. `chat → MD · code → site`.
 

@@ -259,7 +259,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 **Premissa do bloco:** todo valor é relativo (M8), só existe "barato" depois de âncora alta com motivo crível pra cada queda; e a decisão se defende por identidade, não por capacidade (M2): concede que ele conseguiria sozinho e move a conversa pra escolha inteligente. **31 dos 72 slides são oferta (~43%)**, a proporção ~55/45 ensino/oferta do `geracao-de-slides.md` está cravada no próprio template: fechamento NUNCA se encurta (G6). Achado-mãe do corpus: **a oferta é a aula reembalada**, os módulos espelham 1:1 o que foi ensinado, e cada item do stack mata UMA objeção nomeada.
 
-→ Falas verbatim: **`exemplos-por-bloco/09-oferta-stack.md`** (stack/bônus) + **`exemplos-por-bloco/10-ancoragem-preco.md`** (âncora, queda, redução ao ridículo) + **`exemplos-por-bloco/11-garantia.md`** (garantia). Roteiro: blocos 4.3–4.12 + `frameworks-proprietarios-leo.md` §5. Render: `oferta`/`investimento` (títulos verdes = luz verde pra comprar), `prova`, `mao`.
+→ Falas verbatim: **`exemplos-por-bloco/09-oferta-stack.md`** (stack/bônus) + **`exemplos-por-bloco/10-ancoragem-preco.md`** (âncora, queda, redução ao ridículo) + **`exemplos-por-bloco/11-garantia.md`** (garantia). Roteiro: blocos 4.3–4.12 + `frameworks-proprietarios.md` §5. Render: `oferta`/`investimento` (títulos verdes = luz verde pra comprar), `prova`, `mao`.
 
 ### 6a. Produto & pertencimento: slides 35–43
 

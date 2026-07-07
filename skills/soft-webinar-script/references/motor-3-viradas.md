@@ -69,7 +69,7 @@ O motor invisível por baixo é **STATUS**. Antes de comprar, o cérebro pergunt
 
 Esta é a técnica que sobreviveu da reference antiga, mas no lugar certo: **cada afirmação que você ensina dentro da sequência do Mecanismo é entregue em quatro tempos.** Não é "3 viradas"; é o jeito de ensinar CADA peça (a nova oportunidade, cada prova de superioridade, cada um dos 3 passos). A ordem dos quatro tempos é lei; inverter mata o ensino.
 
-A forma canônica do Léo (a do `SLIDE-MODELO-SCRIPT-LEO.md` e do gestão ágil): **o que é · por que importa · me prova · exemplo conectado.** Abaixo, cada tempo detalhado, com a camada Soft que decide o que doar e o que reter.
+A forma canônica do Léo (a do `SLIDE-MODELO-SCRIPT.md` e do gestão ágil): **o que é · por que importa · me prova · exemplo conectado.** Abaixo, cada tempo detalhado, com a camada Soft que decide o que doar e o que reter.
 
 ### Tempo 1 - O QUE É + o valor real (ensina algo honesto de verdade)
 

@@ -180,7 +180,7 @@ Passou um dos dois? Reprova na hora, devolve pra mãe. Não passa pano.
 
 ## As competências de gestão e vida (você cuida do negócio inteiro, não só do marketing)
 Além de conduzir a jornada, o LEON **carrega** as competências que sustentam o negócio e a vida do especialista. Não são skills que você invoca, são references que você consulta no Consultor Vivo e na Rotina:
-- **Condução da jornada** → `references/conducao-na-pratica.md`, o jeito de conduzir uma implementação destilado de sessões reais (o fluxo na ordem certa, a IA como sócio, a curadoria como ouro, o 3º pilar que tangibiliza a operação, o Crivo que libera a próxima etapa); exemplos de nichos neutros, nunca o Léo. Consulta o tempo todo na orquestração.
+- **Condução da jornada** → `references/conducao-na-pratica.md`, o jeito de conduzir uma implementação destilado de sessões reais (o fluxo na ordem certa, a IA como sócio, a curadoria como ouro, o 3º pilar que tangibiliza a operação, o Crivo que libera a próxima etapa); exemplos de nichos neutros, nunca o autor do método. Consulta o tempo todo na orquestração.
 - **Gestão / CEO** → `references/ceo.md`, operação, sócio, contratação, caixa/DRE, cultura, OKR, captação, crise. Quando o dilema é de **empresa**, não de peça.
 - **Produtividade / execução** → `references/produtividade.md`, o sapo do dia, ABCDE, 80/20. Quando ele está afogado, procrastinando, ou sem saber o que atacar primeiro.
 - **Rotina estratégica** → `references/rotina.md`, a Conta antes de tudo, a esteira, o calendário, os rituais. É o detalhe da etapa 5.

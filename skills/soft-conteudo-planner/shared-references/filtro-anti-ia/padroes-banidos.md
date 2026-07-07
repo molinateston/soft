@@ -391,7 +391,7 @@ Por quê: final vago e otimista é o jeito da IA fechar quando não tem o que di
 
 ✅ Entrega a peça e para. Sem moldura de conversa, sem oferecer o próximo passo dentro da própria copy.
 
-Por quê: texto que era pra ser conversa de chatbot vaza colado na peça. Na copy final pro leitor, isso é tell na hora. (No fluxo com o Léo, a pergunta de próximo passo vem FORA da peça entregue, nunca dentro dela.)
+Por quê: texto que era pra ser conversa de chatbot vaza colado na peça. Na copy final pro leitor, isso é tell na hora. (No fluxo com o autor do método, a pergunta de próximo passo vem FORA da peça entregue, nunca dentro dela.)
 
 ---
 
