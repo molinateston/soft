@@ -1,82 +1,69 @@
-# Sub-cânones por formato (H · Y · E)
+# Renderização por formato (o mesmo cânone, comprimido pro teto)
 
-> Estes são **cânone VALIDADO** (não incubadora): 3 famílias de molde ancoradas em base de estudo com proxy de performance, cada uma amarrada a um teto físico de formato. Entram na geração normal quando o formato-destino é o dela (reel falado, título de YouTube, assunto de e-mail), citando a origem H/Y/E igual aos T e C. A validação dura de cada família é o **teto contado** (não estimado): estourou o teto, comprime ou corta, nunca alega "dentro do teto" sem contar (a fraude que o gate mata). Os exemplos usam SLOT (`[N]`, `[R$ X]`, `[Y]`) ou nicho fictício rotulado, marca-neutra: nenhum número real fixo.
-
-O lastro de todas as três famílias vem de bases de estudo externas distantes (retenção de vídeo curto, títulos de YouTube, assunto de e-mail B2B); metodologia e fontes completas em `mineracao-benchmark.md`.
+> **Doutrina (do dono):** gancho é gancho, headline é headline. **A plataforma NÃO é família de gatilho, é camada de RENDERIZAÇÃO.** A mesma fórmula do cânone (`templates.md`, 6 famílias por gatilho) serve pra qualquer formato: o que muda é o **teto físico** (quantas palavras/caracteres cabem), e a headline é **comprimida** pra caber. **Zero fórmula exclusiva de plataforma.** Os antigos moldes "de reel / de YouTube / de e-mail" foram absorvidos no cânone (ver "Onde foram parar os antigos moldes" abaixo): os que eram estrutura própria viraram fórmulas T; os que eram jeito de comprimir um T viraram nota de compressão aqui.
 
 ## Índice
-- [4.1 Gancho falado de reel (H1-H8)](#41-gancho-falado-de-reel-h1-h8)
-- [4.2 Título de YouTube (Y1-Y7)](#42-titulo-de-youtube-y1-y7)
-- [4.3 Assunto de e-mail (E1-E7)](#43-assunto-de-e-mail-e1-e7)
-- [Como o teto vira validação dura](#como-o-teto-vira-validacao-dura)
+- [Os tetos por formato](#os-tetos-por-formato)
+- [Uma fórmula, quatro renderizações (o exemplo que ensina a compressão)](#uma-formula-quatro-renderizacoes-o-exemplo-que-ensina-a-compressao)
+- [O protocolo de compressão (o teto vira validação DURA)](#o-protocolo-de-compressao-o-teto-vira-validacao-dura)
+- [Onde foram parar os antigos moldes H/Y/E](#onde-foram-parar-os-antigos-moldes-hye)
 
 ---
 
-## 4.1 Gancho falado de reel (H1-H8)
+## Os tetos por formato
+É a mesma tabela do gate (Passo 4 do SKILL.md), aqui com a evidência que justifica cada teto. Onde há **dois eixos** (palavras E caracteres), os DOIS têm que passar.
 
-**Teto físico: ≤ 7 palavras faladas** (nos primeiros 3 segundos).
-**Nota de evidência da família:** 71% dos espectadores decidem ficar ou pular nos primeiros 3 segundos; retenção de 70-85% puxa ~2,2x mais views, 85%+ puxa ~2,8x (limiar prático de retenção 65-70%). O gancho falado nos 3s é o que decide essa curva. As mecânicas que funcionam: **pattern interrupt** (quebra do padrão esperado), **curiosity gap** (lacuna que o cérebro quer fechar) e **prova social** crua. Fala natural, não copy lapidada.
+| Formato-destino | Teto em palavras | Teto em caracteres (com espaço) | Evidência do teto |
+|---|---|---|---|
+| Reel, 3s falados | ≤ 7 | n/a (falado) | 71% decidem ficar/pular nos 3s; retenção 70-85% puxa ~2,2x views, 85%+ ~2,8x; o gancho falado decide a curva |
+| Reel, texto na tela | ≤ 5 | ≤ 40 por linha | leitura em tela pequena, a linha estoura o quadro acima disso |
+| **Carrossel, capa** | **8 a 15** | **≤ 65 na linha-título** | acima disso vira parágrafo e não lê como capa |
+| Stories, abertura | 5 a 10 | ≤ 50 na linha de topo | a barra de topo do story corta o resto |
+| Anúncio, 1.7s falados | ≤ 5 | n/a (falado) | o 1º frame do vídeo-anúncio decide o skip |
+| Anúncio, 5s falados | ≤ 10 | n/a (falado) | a janela antes do "pular anúncio" |
+| Email/Substack, assunto | 8 a 12 | ≤ 45 no assunto | pergunta puxa ~46% de abertura, 2-4 palavras ~46%; valor monetário 29% vs 13%; mobile corta acima de ~45c |
+| Título de YouTube | n/a | 50 a 70 (hook nos ~40 primeiros) | sweet spot 50-60c (base grande de títulos); 40-60c rende +8,9% CTR; mobile mostra só ~40c, o hook vai na frente |
 
-| Molde | Fórmula | Exemplo (slot/nicho fictício) |
+**Contagem:** número em algarismo conta 1 palavra ("40 anos" = 2); caractere = letra + espaço + pontuação. Número sempre em algarismo (ocupa menos, lê mais rápido). Lastro das faixas: bases de estudo externas distantes (retenção de vídeo curto, títulos de YouTube, assunto de e-mail B2B); fontes completas em `mineracao-benchmark.md`.
+
+## Uma fórmula, quatro renderizações (o exemplo que ensina a compressão)
+Pega **UMA** fórmula, **T40 · De [PROBLEMA/DOR] a [DESEJO]** (família Recompensa), com a mesma munição (nicho fictício: consultor que quer o funil rodando sozinho). Veja a MESMA ideia comprimida pro teto de cada formato, sem perder o gatilho:
+
+| Formato | Renderização | Conta |
 |---|---|---|
-| **H1** Comando de proibição | `Para de [ação].` | "Para de vender no direct." |
-| **H2** In media res | `[Ação já acontecendo].` | "Ontem às 22h, três vendas caíram." |
-| **H3** Callout ultraespecífico | `Se você [característica], escuta.` | "Consultor que vende no story: escuta." |
-| **H4** Declaração contrária | `[Afirmação que confronta o senso comum].` | "Postar mais te faz vender menos." |
-| **H5** Pergunta com lacuna | `Por que [X] e não [Y]?` | "Por que [N] aparecem e você não?" |
-| **H6** Prova crua (proof-first) | `Fiz [número] fazendo isso.` | "[N] vendas saíram de uma aula." |
-| **H7** Confissão de erro | `Eu errei nisso por [tempo].` | "Vendi repartido por anos. Errado." |
-| **H8** Alerta de dano invisível | `Teu [X] tá te fazendo perder [Y].` | "Teu reel tá espantando quem compraria." |
+| **Reel, 3s falados** (≤7 palavras) | "De agenda vazia a aula vendendo sozinha." | 7 palavras ✓ |
+| **Título de YouTube** (50-70c) | "De agenda vazia pra uma aula que vende no automático" | ~52 caracteres ✓ |
+| **Assunto de e-mail** (≤45c) | "De agenda vazia a venda automática" | ~35 caracteres ✓ |
+| **Capa de carrossel** (8-15 palavras, ≤65c) | "Saí da agenda vazia pra uma aula que vende todo dia sozinha" | 11 palavras / ~59c ✓ |
 
-**Nota:** H1 é a face de proibição do T1 (ver nota de refinamento de T1 no `templates.md`). H6 pode ir em 3ª pessoa ("[N] vendas saíram") pra fugir do auto-elogio.
+O **gatilho** (a transformação de-para) sobrevive nas quatro; o que muda é quanto texto cabe. É isso que a renderização por formato faz: **não troca a fórmula, aperta o texto**. A mesma lógica vale pra qualquer T do cânone.
 
----
+## O protocolo de compressão (o teto vira validação DURA)
+1. Escolhe a fórmula T pela **família de gatilho** (não pela plataforma) em `templates.md`.
+2. Preenche os slots com a munição real (Passo 0) e escreve a headline **densa**.
+3. **CONTA** (não estima) contra o teto do formato-destino: palavras faladas (`| wc -w` no Code), caracteres com espaço (`| wc -m` no Code; à mão com folga no app/chat).
+4. Estourou por 1 unidade em qualquer eixo: **comprime** (corta palavra que não muda o sentido) ou **corta** a oração secundária. **Nunca corta o gatilho.**
+5. **PROIBIDO** marcar como aprovada alegando "dentro do teto" sem ter contado. Essa alegação sem contagem é a fraude que o gate endurecido do SKILL.md (Passo 4) mata.
 
-## 4.2 Título de YouTube (Y1-Y7)
+O teto contado é o que torna a renderização confiável e não palpite: a base diz o número, e a peça só sai se respeita o número de fato.
 
-**Teto físico: 50-70 caracteres, com o hook nos primeiros ~40.**
-**Nota de evidência da família:** o sweet spot de comprimento é 50-60 caracteres (base grande de títulos, SubSub 120.703 títulos, mediana de top performers em ~8 palavras); a faixa 40-60 caracteres rende +8,9% de CTR (Backlinko, ~4M de resultados). O mobile mostra só ~40 caracteres, então o hook tem que estar na frente. Números e os pronomes eu/você elevam CTR. Título e thumbnail contam **partes diferentes** da mesma história (não repete na thumb o que o título já diz).
+## Onde foram parar os antigos moldes H/Y/E
+A skill separava por plataforma (H = reel falado, Y = YouTube, E = e-mail). Isso era organização errada. Cada antigo molde foi reclassificado (veredito completo em `mineracao-benchmark.md`, Rodada 2):
 
-| Molde | Fórmula | Exemplo (slot/nicho fictício) |
-|---|---|---|
-| **Y1** Número+resultado+tensão | `[N] [coisas] que [resultado] (a maioria erra a Nº X)` | "5 erros que fazem sua venda vazar entre reel e direct" |
-| **Y2** Curiosity gap com stake | `[Mudança pequena] e [resultado grande]` | "Juntei os 4 pedaços da venda numa aula só. Deu isso" |
-| **Y3** Contraste/transformação | `De [X concreto] para [Y concreto]` | "De [R$ A] pra [R$ B] com uma aula rodando sozinha" |
-| **Y4** Experimento (= C11) | `Testei [X] por [tempo]. [resultado]` | "Rodei a mesma aula 3x por dia durante [tempo]. O que deu" |
-| **Y5** Credencial+claim (= C12) | `[Credencial] explica: [afirmação]` | "[Ex-cargo de R$ X] explica por que sua venda não fecha" |
-| **Y6** Contrária/mito | `Por que [crença comum] tá te fazendo [dano]` | "Por que postar todo dia tá secando suas vendas" |
-| **Y7** Resultado sem obstáculo | `[Resultado] sem [obstáculo comum]` | "Venda pra público frio sem viver preso ao direct" |
+**Viraram fórmula T (eram estrutura própria, universal):**
+- **In media res** (abrir no meio da cena) → **T62** (família Mistério).
+- **Prova crua / proof-first** ("Fiz [X] fazendo isso") → **T42** (família Recompensa).
+- **Confissão de erro** ("eu errei nisso por [tempo]") → **T64** (família Crença).
+- **Tom de colega** ("uma coisa rápida") → **T63** (família Mistério).
+- **Negação / reverse-psych** ("não abre esse [X]") → **T71** (família Disrupção).
 
-**Nota:** Y4 é a projeção do candidato **C11** no formato YouTube e Y5 do **C12**; no YouTube esses dois já rendem como sub-cânone validado do formato (o teto e a base os sustentam), mesmo enquanto os candidatos-mãe seguem em incubadora pros outros formatos. Se o dono validar C11/C12 em 2 peças, eles promovem a T-fixo e Y4/Y5 viram só a variante-título.
+**Viraram nota de compressão (eram só um T comprimido pro teto de um formato):**
+- Comando de proibição "Para de [ação]" = **T1** (face de proibição), comprimido ≤7 palavras.
+- Callout ultraespecífico "Se você [X], escuta" = **T9/T15/T20/T81**, comprimido pra reel.
+- Declaração contrária = **T5/T28/T64**, comprimida.
+- Pergunta com lacuna "Por que [X] e não [Y]?" = **T61**, comprimida.
+- Alerta de dano invisível "Teu [X] tá te fazendo perder [Y]" = **T56**, comprimido.
+- Número+resultado+tensão / curiosity-gap / contraste / mito / resultado-sem-obstáculo de título = **T25/T30 · T12/T21 · T13/T40 · T5/T26 · T36**, renderizados no teto 50-70c.
+- Curiosity-gap curto / auto-diagnóstico / benefício direto / número-lista / valor específico de assunto = **T16 · T27 · T33 · T25 · T42**, renderizados no teto ≤45c.
 
----
-
-## 4.3 Assunto de e-mail (E1-E7)
-
-**Teto físico: ≤ 45 caracteres.**
-**Nota de evidência da família:** pergunta no assunto puxa 46% de abertura e assunto de 2-4 palavras também ~46% (base Belkins, 5,5M de e-mails); interrogação abre 20% vs 12% sem, e valor monetário explícito abre 29% vs 13% (base Klenty, 255k+). Um "coisa rápida" com cara de colega soma ~+8 pontos. Jargão e urgência genérica derrubam a abertura pra baixo de 36%. Mobile corta o assunto acima de ~45 caracteres, por isso o teto é duro.
-
-| Molde | Fórmula | Exemplo (slot/nicho fictício) |
-|---|---|---|
-| **E1** Curiosity gap curto | `A única coisa que mudou [X]` | "A coisa que dobrou minhas vendas" |
-| **E2** Pergunta auto-diagnóstico | `Você ainda [comportamento-dor]?` | "Você ainda vende no direct?" |
-| **E3** Benefício direto | `Dobre [X] sem mudar [Y]` | "Mais vendas sem postar mais" |
-| **E4** Número/lista | `[N] [coisas] que [resultado]` | "4 pedaços da venda numa aula só" |
-| **E5** Pattern interrupt de colega | `Uma coisa rápida` | "uma ideia rápida" |
-| **E6** Valor específico | `[R$ N] de uma aula só` | "[R$ N] de uma aula automática" |
-| **E7** Negação/pattern interrupt | `Não abre esse e-mail` | "não abre se vende no story" |
-
-**Parcimônia (regra da família):** **E6** carrega risco de cair em spam (valor monetário no assunto), use com conta; **E7** desgasta rápido se repetido (o "não abre" só surpreende uma vez). Rotaciona, não abusa.
-
----
-
-## Como o teto vira validação dura
-
-Nas três famílias, o teto **não é sugestão, é o gate**. Fluxo:
-
-1. Gera a headline no molde da família certa pro formato-destino.
-2. **CONTA** (não estima): palavras faladas pra H (`| wc -w` no Code), caracteres com espaço pra Y e E (`| wc -m` no Code; à mão com folga no app/chat).
-3. Estourou o teto por 1 unidade: **comprime** (corta palavra que não muda o sentido) ou **corta** (tira a oração secundária). Nunca corta o gatilho.
-4. **PROIBIDO** marcar a headline como aprovada alegando "dentro do teto" sem ter contado. Essa alegação sem contagem é a fraude que o gate endurecido do SKILL.md (Passo 4) mata: teto FÍSICO CONTADO por formato.
-
-O teto contado é o que torna estes moldes cânone e não palpite: a base diz o número, e a peça só sai se respeita o número de fato.
+**Seguem como candidatos (incubadora, `templates-candidatos.md`):** o "experimento documentado" (C11, o antigo Y4) e a "credencial emprestada na frente" (C12, o antigo Y5) rendem bem no teto de YouTube, mas continuam em quarentena até bater baseline em 2 peças reais do dono. Quando o destino é YouTube e o dono libera "usa os candidatos", entram marcados com o C-número. O irmão do C11 que **emula personagem conhecido** já é cânone: **T75** (família Popularidade/Reputação).

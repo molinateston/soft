@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-headlines
-description: Escreve a HEADLINE/gancho/abertura de qualquer peça do método Soft, da capa de carrossel ao título, chamada, gancho FALADO do reel (3 primeiros segundos), título de vídeo/YouTube e assunto de e-mail. Ancora no verbatim do cliente e escreve DENTRO dos templates validados do cânone (T/C/H/Y/E), cada uma pelo gate (standalone sem precisar de contexto + CUB + as 3 perguntas do crivo + anti-IA + teto físico CONTADO por formato). Pedido aberto sem orientação específica = BANCO COMPLETO, mínimo 50 templates validados com 3+ headlines cada, agrupadas por template com o número de origem. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "título do YouTube", "assunto de e-mail", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (soft-conteudo-carrossel/-reels/-stories), nem pro Plano (soft-plano-posicionamento), nem pra arte (soft-designer), nem pra abertura de VSL (soft-funil-carta) ou da aula do webinar (soft-webinar-script).
+description: Escreve a HEADLINE/gancho/abertura de qualquer peça do método Soft, da capa de carrossel ao título, gancho FALADO do reel (3 primeiros segundos), título de YouTube e assunto de e-mail. Ancora no verbatim e escreve DENTRO do CÂNONE POR GATILHO (6 famílias, Recompensa/Mistério/Crença/Disrupção/Popularidade/Reconhecimento) com gramática de SLOTS que puxam do Mapa de Munição da Audiência, cada uma pelo gate (standalone + CUB + as 3 perguntas + anti-IA + teto CONTADO). Plataforma não é família, é teto de renderização. Pedido aberto = BANCO COMPLETO, mínimo 50 fórmulas com 3+ headlines. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "título do YouTube", "assunto de e-mail", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (soft-conteudo-carrossel/-reels/-stories), nem pro Plano (soft-plano-posicionamento), nem pra arte (soft-designer), nem pra abertura de VSL (soft-funil-carta) ou da aula do webinar (soft-webinar-script).
 ---
 
 # Headline, os primeiros 3 segundos
@@ -14,8 +14,8 @@ A decisão de ficar ou pular acontece em menos de 2 segundos. A abertura é 90% 
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer headline.**
 
 ## Output Contract (o que você entrega)
-**O cânone VALIDADO tem ~58 templates: T1-T30 (gerais) + C1-C6 (ângulos) + H1-H8 (reel falado) + Y1-Y7 (YouTube) + E1-E7 (e-mail).** C9-C12 são INCUBADORA (`references/templates-candidatos.md`): só entram sob o comando "usa os candidatos", sempre marcados com o C-número; candidato sem métrica não vira cânone.
-- **Pedido ABERTO, sem orientação específica** ("me dá headlines sobre X", "banco de headlines"): entrega o **BANCO COMPLETO no doc: no mínimo 50 templates validados, com PELO MENOS 3 headlines cada**, organizado em 2 partes: Cânone geral (T por gatilho) e Por formato (H reel falado · Y YouTube · E e-mail). Cada grupo com **o número de origem (T/C/H/Y/E) + fórmula + gatilhos** no topo. Se a ancoragem real só sustenta menos templates com honestidade, entrega o que sustenta e DIZ quais faltaram e por quê (nunca inventa pra completar).
+**O cânone VALIDADO é O CÂNONE POR GATILHO: 86 fórmulas T em 6 famílias de gatilho (Recompensa · Mistério · Crença · Disrupção · Popularidade/Reputação · Reconhecimento) + C1-C6 (ângulos ortogonais).** Numeração única e estável: T1-T30 mantêm o número histórico (com a família onde moram); T31-T86 são as fórmulas da Rodada 2. O cânone inteiro, com todas as fórmulas e variações, mora em `references/templates.md`, e é o que o banco completo usa. C9-C12 são INCUBADORA (`references/templates-candidatos.md`): só entram sob o comando "usa os candidatos", sempre marcados com o C-número; candidato sem métrica não vira cânone.
+- **Pedido ABERTO, sem orientação específica** ("me dá headlines sobre X", "banco de headlines"): entrega o **BANCO COMPLETO no doc: no mínimo 50 fórmulas validadas, com PELO MENOS 3 headlines cada**, organizado **por família de gatilho** (nunca por plataforma). Cada grupo com **o T-número + a família + a fórmula (notação de slots) + os gatilhos** no topo. Se a ancoragem real só sustenta menos fórmulas com honestidade, entrega o que sustenta e DIZ quais faltaram e por quê (nunca inventa pra completar).
 - **Pedido ESPECÍFICO** (formato, quantidade, "headline pra ESTE carrossel/reel"): obedece a orientação, escolhe 3-5 templates que encaixam, 2-3 headlines cada, com a mesma marcação de origem.
 - A saída é **limpa, no doc (artifact)**. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
 - No pedido específico, você **para e espera** o cliente escolher antes de gerar mais. No banco completo, entrega o doc inteiro de uma vez e pergunta o que ajustar.
@@ -35,14 +35,18 @@ Três estados de entrada (declara qual é o seu antes de escrever):
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · lista do "não defendo" · cliente em uma frase.
 
+**A munição dos SLOTS vem do MAPA DE MUNIÇÃO DA AUDIÊNCIA** (os 12 campos do público, coletados pela `soft-plano-posicionamento` e salvos no Plano: desejos, dores, medos, hábitos comuns, filmes/séries/músicas, técnicas, pessoas/personagens, instituições, objetos/ferramentas, crenças, violações de expectativa, características do avatar). Cada slot das fórmulas (`references/templates.md`, gramática de slots) puxa de um desses campos. **Sem o Mapa no contexto**, NÃO inventa: pergunta numa única mensagem os **3-4 campos mais críticos pro tema** (desejos · dores · o que a audiência já conhece · características do avatar) e segue daí.
+
 ## Passo 1, escolhe o assunto que carrega a tese
 Pega 1 das 3 fontes de assunto e, quando der, **cruza duas** pra multiplicar público:
 - **Universal** (idade, dinheiro, tempo, medo, status) · **Nicho** (dor, desejo, crença, ferramenta do cliente) · **Momento** (algo em alta, com link claro à tese).
 - A tese vai sempre por dentro. Assunto sem tese vira jornalismo que atrai estranho.
 - Abre com palavra ampla (pra não expulsar), nicha do meio pro fim (onde aprofunda e filtra).
 
-## Passo 2, escolhe os gatilhos e os TEMPLATES que encaixam
-Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates de `references/templates.md`** que encaixam no assunto + na fala real. Os templates são o coração do passo, não profundidade opcional. O inimigo nominal entra como **ataque** ("isso te custa X"), nunca como "ensinar a fazer melhor".
+## Passo 2, escolhe a família de gatilho e as FÓRMULAS que encaixam
+O cânone se organiza por **GATILHO**, não por plataforma (gancho é gancho, headline é headline). Escolhe a **família de gatilho** que o assunto pede e, dentro dela, **escolhe 3-5 fórmulas de `references/templates.md`** que encaixam no assunto + na fala real. As fórmulas são o coração do passo, não profundidade opcional. O inimigo nominal entra como **ataque** ("isso te custa X"), nunca como "ensinar a fazer melhor".
+
+**Família ≠ gatilho rastreável.** As **6 FAMÍLIAS** organizam o cânone (onde a fórmula mora): Recompensa · Mistério · Crença · Disrupção · Popularidade/Reputação · Reconhecimento. Os **7 GATILHOS** abaixo são o que se **rastreia NA FRASE** (o que o gate conta). Autoridade **própria** e Valor prático não são família (temperam fórmulas das 6; Autoridade **emprestada** = a família Popularidade/Reputação), mas seguem rastreáveis na frase:
 
 | # | Gatilho | Como aparece NA FRASE (rastreável) |
 |---|---|---|
@@ -54,7 +58,9 @@ Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates
 | 6 | Autoridade | A profissão ("sou X") · B resultado ("fiz X") · C emprestada ("X disse Y") |
 | 7 | Disrupção | "não é A, é B" / "para de fazer X" |
 
-**OS 30 TEMPLATES TESTADOS (usa ESTES, NUNCA invente uma fórmula genérica).** Escolhe 3-5 que encaixam no assunto + na fala real; preenche com elementos concretos e reais do cliente (adapta ao nicho, nunca copia o exemplo):
+**AS FÓRMULAS-ÂNCORA POR GATILHO (usa ESTAS, NUNCA invente uma fórmula genérica).** As 30 âncoras históricas (T1-T30) abaixo, seguidas das âncoras novas mais fortes da Rodada 2. Escolhe 3-5 que encaixam no assunto + na fala real; preenche com elementos concretos e reais do cliente (adapta ao nicho, nunca copia o exemplo). **O cânone COMPLETO, com todas as 86 fórmulas e as variações, mora em `references/templates.md`, e é o que o banco completo usa.**
+
+**Âncoras históricas T1-T30** (a coluna Gatilho é o que se rastreia na frase; a família de cada uma está em `templates.md`):
 
 | # | Template (fórmula) | Exemplo | Gatilho |
 |---|---|---|---|
@@ -89,40 +95,38 @@ Vê quais dos **7 gatilhos** o assunto pede e, com eles, **escolhe 3-5 templates
 | 29 | O [melhor/pior] pra [situação] não é X, não é Y, não é Z | "O exame mais importante pro coração não é colesterol, não é glicose, e o médico não pede." | Mistério |
 | 30 | Erros que você comete ao [ação comum] e como evitar | "4 erros que você comete na primeira reunião com um cliente." | Reconhecimento + Recompensa |
 
-> **Regra dura:** as fórmulas do cânone geral são ESTAS 30 (+ os sub-cânones por formato abaixo). Se você escreveu um "template" fora do cânone, você INVENTOU (é o erro a não cometer). No máximo adapta/combina ao nicho do cliente. `references/templates.md` traz os 30 com mais contexto e as notas de refinamento.
+**Âncoras novas da Rodada 2** (as mais fortes; 1 por linha, com T-número e família. O cânone inteiro está em `templates.md`):
 
-### SUB-CÂNONES POR FORMATO (validados com dado; detalhe e evidência em `references/subcanones-formato.md`)
-Quando o destino é reel falado, YouTube ou e-mail, os moldes do formato entram no jogo junto dos 30. Teto físico é validação DURA (conta, não estima).
+| T# | Família | Fórmula (slots) | Exemplo |
+|---|---|---|---|
+| T31 | Recompensa | Como [DESEJO] | "Como acabar com manchas na pele" |
+| T36 | Recompensa | [X] que substitui [OBJEÇÃO] | "Treino de 4 min que substitui 1 hora de academia" |
+| T40 | Recompensa | De [PROBLEMA/DOR] a [DESEJO] | "De agenda vazia a aula vendendo sozinha" |
+| T42 | Recompensa | Fiz [X] fazendo isso (prova crua) | "5 vendas saíram de uma aula só" |
+| T43 | Mistério | [X] coisas piores do que [CONHECIDO] | "5 carboidratos piores que o açúcar" |
+| T53 | Mistério | A ciência por trás de [PROBLEMA/HÁBITO] | "A ciência por trás da procrastinação" |
+| T58 | Mistério | [X] coisas que [INSTITUIÇÃO] esconde de você | "5 investimentos que o banco esconde de você" |
+| T61 | Mistério | [PERGUNTA LITERAL DA AUDIÊNCIA] | "Quanto eu ganho com 1 milhão de views?" |
+| T62 | Mistério | [AÇÃO JÁ ACONTECENDO] (in media res) | "Ontem às 22h, três vendas caíram" |
+| T64 | Crença | Eu estava errado sobre [CONHECIDO] (confissão) | "Vendi do jeito errado por anos, olha o que mudou" |
+| T66 | Crença | Como eu [DESEJO] fazendo [ALGO CONTRA A CRENÇA] | "Como fiquei rico comprando imóvel financiado" |
+| T67 | Crença | [CONHECIDO], você está fazendo isso errado | "Agachamento, você está fazendo errado" |
+| T70 | Disrupção | Fazendo [COMPORTAMENTO QUE VIOLA A EXPECTATIVA] pela 1ª vez | "Comprando seguidores pela primeira vez" |
+| T71 | Disrupção | Não abre esse [X] (negação) | "Não abre esse e-mail se você vende no direct" |
+| T75 | Popularidade | Vivi como [PERSONAGEM/ESTILO] por [TEMPO] | "Copiei a carteira do Warren Buffett por 30 dias" |
+| T78 | Popularidade | A [TÉCNICA] de [PERSONAGEM/CULTURA] para [DESEJO] | "A técnica japonesa para superar a preguiça" |
+| T80 | Reconhecimento | Como [DESEJO] se você é [AVATAR] | "Como ganhar massa muscular depois dos 40" |
+| T81 | Reconhecimento | [X] coisas que só quem é [AVATAR] entende | "10 coisas que só quem é diabético passa" |
+| T86 | Reconhecimento | Se [SITUAÇÃO] acontecer, faça isso imediatamente | "Se ver esses 3 sinais nas campanhas, pause já" |
 
-| Nº | Fórmula | Teto |
-|---|---|---|
-| H1 | Para de [ação]. | ≤7 palavras faladas |
-| H2 | [Ação já acontecendo, in media res]. | ≤7 palavras |
-| H3 | Se você [característica ultraespecífica], escuta. | ≤7 palavras |
-| H4 | [Declaração que confronta o senso comum]. | ≤7 palavras |
-| H5 | Por que [X] e não [Y]? | ≤7 palavras |
-| H6 | Fiz [número] fazendo isso. (prova crua) | ≤7 palavras |
-| H7 | Eu errei nisso por [tempo]. | ≤7 palavras |
-| H8 | Teu [X] tá te fazendo perder [Y]. | ≤7 palavras |
-| Y1 | [N] [coisas] que [resultado] (a maioria erra a Nº X) | 50-70 caracteres |
-| Y2 | [Mudança pequena] e [resultado grande] | 50-70c |
-| Y3 | De [X concreto] para [Y concreto] | 50-70c |
-| Y4 | Testei [X] por [tempo]. [resultado] | 50-70c |
-| Y5 | [Credencial real] explica: [afirmação] | 50-70c |
-| Y6 | Por que [crença comum] tá te fazendo [dano] | 50-70c |
-| Y7 | [Resultado] sem [obstáculo comum] | 50-70c |
-| E1 | A única coisa que mudou [X] | ≤45 caracteres |
-| E2 | Você ainda [comportamento-dor]? | ≤45c |
-| E3 | Dobre [X] sem mudar [Y] | ≤45c |
-| E4 | [N] [coisas] que [resultado] | ≤45c |
-| E5 | Uma coisa rápida (tom de colega) | ≤45c |
-| E6 | [R$ N] de [fonte] (parcimônia: risco spam) | ≤45c |
-| E7 | Não abre esse e-mail (parcimônia: desgasta) | ≤45c |
+> **Regra dura:** as fórmulas do cânone são as 86 de `references/templates.md` (T1-T86, nas 6 famílias). Se você escreveu um "template" fora do cânone, você INVENTOU (é o erro a não cometer). No máximo adapta/combina ao nicho do cliente. `templates.md` traz todas com slots, exemplos, variações e a família de cada uma.
+
+**Plataforma NÃO é família: é teto de RENDERIZAÇÃO.** A mesma fórmula serve pra qualquer formato; o que muda é quanto texto cabe. A tabela de tetos por formato está no gate (Passo 4); o protocolo de compressão (a mesma fórmula apertada pro teto de reel/YouTube/e-mail/capa) está em `references/subcanones-formato.md`. Não existe fórmula exclusiva de plataforma.
 
 **Comandos rápidos:** "**usa os candidatos**" libera C9-C12 da incubadora (sempre marcados com o C-número na saída). "**minera benchmark de [tema]**" roda nova rodada de mineração com veredito de dedup contra o cânone ANTES de propor candidato (no app sem web, conduz com o material que o dono colar); registro em `references/mineracao-benchmark.md`.
 
-### Régua de cobertura de ângulo (camada de VARIAÇÃO, roda POR CIMA dos 30 templates)
-Template diz a FÓRMULA da frase. Ângulo diz de que LADO psicológico você ataca o mesmo tema. Dois templates diferentes podem cair no mesmo ângulo (dois jeitos de "confessar") e aí o cliente recebe 6 headlines que soam iguais por dentro. Esta régua garante DIVERSIDADE de ataque: quando o pedido é solto ("me dá 6 aberturas", "gera uns ganchos rápido", "headlines sobre X" sem número), o conjunto entregue cobre **pelo menos 4 dos 6 ângulos abaixo**, cada um mapeado a um template dos 30. Ela NÃO substitui os 7 gatilhos nem os 30 templates: é um checklist de cobertura por cima deles.
+### Régua de cobertura de ângulo (camada de VARIAÇÃO, roda POR CIMA das fórmulas do cânone)
+Fórmula diz a ESTRUTURA da frase. Ângulo diz de que LADO psicológico você ataca o mesmo tema. Duas fórmulas diferentes podem cair no mesmo ângulo (dois jeitos de "confessar") e aí o cliente recebe 6 headlines que soam iguais por dentro. Esta régua garante DIVERSIDADE de ataque: quando o pedido é solto ("me dá 6 aberturas", "gera uns ganchos rápido", "headlines sobre X" sem número), o conjunto entregue cobre **pelo menos 4 dos 6 ângulos abaixo**, cada um mapeado a uma fórmula do cânone. Ela NÃO substitui os 7 gatilhos nem as fórmulas T: é um checklist de cobertura por cima deles.
 
 | Ângulo | O lado que ataca | Templates que costumam servir |
 |---|---|---|
@@ -206,15 +210,16 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 | Headline que só quem já é de dentro entende | Falha na Clareza (Lei 1): reescreve criando o contexto e troca a palavra difícil pela simples |
 | Figura de linguagem vazia ("mensagem cheia") | Curto nunca acima de claro: reescreve concreto, como uma pessoa real diria ("muitas mensagens pra responder e zero contratos") |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só template + gatilhos + as headlines limpas |
-| Inventou uma fórmula genérica (não é um dos 30 templates) | Usa ESTES 30 do corpo; adapta ao nicho, nunca cria fórmula do zero |
+| Inventou uma fórmula genérica (não é uma fórmula do cânone) | Usa as fórmulas T do cânone por gatilho (`templates.md`); adapta ao nicho, nunca cria fórmula do zero |
+| Organizou o banco por plataforma (reel/YouTube/e-mail) | Organiza por FAMÍLIA de gatilho; plataforma é só teto de renderização (comprime a mesma fórmula) |
 | Entregou as headlines só soltas no chat, sem doc | O banco sai como doc MD (artifact no claude.ai / arquivo no Code); o chat é a condução |
 | Promoveu candidato sem métrica | C9-C12 são incubadora: só sob "usa os candidatos", sempre com o C-número; viram cânone SÓ com baseline batido em 2+ peças reais do dono |
 | Alegou "todas dentro do teto" sem contar | O teto é CONTADO (palavras E caracteres); declarar conformidade sem contagem é gate falso, o erro mais grave |
 | Banco "completo" com menos de 50 templates, calado | Ou entrega os 50+ validados, ou DIZ quais faltaram e por quê (ancoragem insuficiente); nunca entrega menos em silêncio |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
-- `references/templates.md`: os 30 templates por gatilho + as notas de refinamento da mineração (T1 duas faces, reveal-first, etc.) + a numeração C1-C6 dos ângulos. **Central nos Passos 2-3.**
-- `references/subcanones-formato.md`: os moldes H1-H8 (reel falado), Y1-Y7 (YouTube) e E1-E7 (e-mail) com a evidência de dado de cada um. A tabela compacta está inline no Passo 2.
+- `references/templates.md`: **O CÂNONE POR GATILHO completo** (as 86 fórmulas T nas 6 famílias, com a gramática de slots no topo, os exemplos multi-nicho, as variações fundidas e as notas de refinamento) + a numeração C1-C6 dos ângulos. **Central nos Passos 2-3.**
+- `references/subcanones-formato.md`: **renderização por formato** (a MESMA fórmula comprimida pro teto de cada formato, com o exemplo de uma fórmula renderizada nos 4 formatos e a evidência de cada teto). Plataforma não é família, é camada de renderização. A tabela de tetos está inline no gate (Passo 4).
 - `references/templates-candidatos.md`: a INCUBADORA (C9-C12) com fichas completas e a regra de promoção por métrica. Só via "usa os candidatos".
 - `references/mineracao-benchmark.md`: o registro das rodadas de mineração (metodologia, fontes, dedup) e o protocolo do comando "minera benchmark de [tema]".
 - `references/criterios-v2.md`: o detalhamento do gate do Passo 4 (rastreabilidade física dos 7 gatilhos + exemplos passa/falha por nicho + comprimento por 8 formatos). É o mesmo gate, com mais exemplo, não um segundo sistema.
