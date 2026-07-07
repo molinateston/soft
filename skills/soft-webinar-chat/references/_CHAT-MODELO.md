@@ -1,14 +1,14 @@
 # MODELO FINAL, Chat Simulado do Webinar (base da skill `soft-webinar-chat`)
 
-> Esta é a especificação da skill que **substitui** a parte de chat da `soft-webinar-poswebinar` (que o Léo disse não servir). Foi destilada do modelo final REAL já produzido pro perpétuo do Léo ("Venda com Webinars"), não de teoria.
+> Esta é a especificação da skill que **substitui** a parte de chat da `soft-webinar-poswebinar` (que a fonte de referência disse não servir). Foi destilada do modelo final REAL já produzido pro perpétuo de referência, não de teoria.
 >
 > **Fontes do modelo (lidas pra montar este spec):**
-> - `/home/cloud/webinar-leo/chat-simulado-webinar.csv`, a planilha de PLANEJAMENTO final (388 linhas, 7 colunas, com tipo+gatilho).
-> - `/home/cloud/webinar-leo/chat-import.csv`, o EXPORT final EverWebinar (4 colunas `username,message,minutes,seconds`).
-> - `/home/cloud/webinar-leo/_chat_final.json` / `_chat_corrigido.json`, o estado intermediário (prefixo `WAIT:` = sala de espera).
+> - A planilha de PLANEJAMENTO final de referência (388 linhas, 7 colunas, com tipo+gatilho).
+> - O EXPORT final de referência no EverWebinar (4 colunas `username,message,minutes,seconds`).
+> - O estado intermediário de referência (prefixo `WAIT:` = sala de espera).
 > - `references/simulador-comentarios-ao-vivo.md (bundlada nesta skill)`, a doutrina (curva, honestidade, consistência, Crivo).
 > - `references/interacao-chat-ao-vivo.md (bundlada nesta skill)`, a engenharia de interação do host (premissa AO VIVO; o que presta pra moderação).
-> - `/home/cloud/guia-soft-business/_webinar-corpus/slide-modelo/FORMATO-CHAT-EM-MASSA.md`, o formato canônico confirmado pelo Léo (10/jun).
+> - O formato canônico de import, confirmado na fonte de referência (10/jun).
 
 ---
 
@@ -51,16 +51,16 @@ Ricardo M.,oi gente,1,47
 - Só essas 4 colunas. **NÃO existe** coluna de cidade nem de tipo no arquivo de import.
 - Timestamp = **minuto + segundo do VÍDEO**, em duas colunas separadas (nunca um campo só, nunca `mm:ss`).
 - Disparos **escalonados**: nunca dois comentários no mesmo `(minutes,seconds)`. Espalhe alguns segundos (sala real não fala em uníssono).
-- **Sempre pedir/confirmar o modelo da plataforma do player ANTES de gerar.** Plataformas/contas diferentes têm colunas diferentes; gerar no formato errado obriga remapeamento manual. `username,message,minutes,seconds` é o default do Léo, usado só quando não há outro modelo declarado.
+- **Sempre pedir/confirmar o modelo da plataforma do player ANTES de gerar.** Plataformas/contas diferentes têm colunas diferentes; gerar no formato errado obriga remapeamento manual. `username,message,minutes,seconds` é o default de referência, usado só quando não há outro modelo declarado.
 
 ### 1.2 Formato de PLANEJAMENTO (interno da skill), NÃO sobe na plataforma
 
-A skill planeja numa tabela rica de 7 colunas e só EXPORTA as 4 do §1.1. O planejamento é o que permite auditar a curva, casar ecos e bater consistência. Formato real do modelo do Léo:
+A skill planeja numa tabela rica de 7 colunas e só EXPORTA as 4 do §1.1. O planejamento é o que permite auditar a curva, casar ecos e bater consistência. Formato real do modelo de referência:
 
 ```
 Tempo no vídeo,Tempo no roteiro,Nome,Nicho/Cidade,Comentário,Tipo,Gatilho
-05:06,00:06,Patricia Nunes,arquiteta · Florianopolis,oi pessoal,entrada,Leo dando boas-vindas
-05:24,00:24,Camila Souza,nutri · SP,"Camila aqui de SP, ouvindo direitinho",apresentacao,Leo pediu nome/cidade nos comentarios
+05:06,00:06,Patricia Nunes,arquiteta · Florianopolis,oi pessoal,entrada,host dando boas-vindas
+05:24,00:24,Camila Souza,nutri · SP,"Camila aqui de SP, ouvindo direitinho",apresentacao,host pediu nome/cidade nos comentarios
 ```
 
 - **Tempo no vídeo** → vira `minutes,seconds` no export.
@@ -80,10 +80,10 @@ O perpétuo tem DUAS linhas de tempo, e o export usa a do VÍDEO:
 
 - **Tempo no roteiro** = o relógio do script gravado (o "oi" do host é 00:00 do roteiro).
 - **Tempo no vídeo** = o relógio do arquivo que a plataforma toca. Inclui a **sala de espera / pré-roll** que roda ANTES do host começar a falar.
-- No modelo do Léo a sala de espera é de **~5 min**: roteiro `00:06` = vídeo `05:06`. Fórmula: **`vídeo = roteiro + offset da sala de espera`**.
+- No modelo de referência a sala de espera é de **~5 min**: roteiro `00:06` = vídeo `05:06`. Fórmula: **`vídeo = roteiro + offset da sala de espera`**.
 
 Consequências operacionais:
-- Comentários de chegada (`entrada`) acontecem DURANTE a sala de espera, no modelo do Léo, do vídeo `00:34` até `~05:00`, ANTES de o host abrir a aula. É o que faz a sala já parecer cheia quando o vídeo "começa".
+- Comentários de chegada (`entrada`) acontecem DURANTE a sala de espera, no modelo de referência, do vídeo `00:34` até `~05:00`, ANTES de o host abrir a aula. É o que faz a sala já parecer cheia quando o vídeo "começa".
 - O export usa o **tempo do vídeo**. Se a skill planeja no tempo do roteiro, soma o offset da sala de espera antes de exportar.
 - **Sempre confirmar com o player a duração da sala de espera** (pode não ser 5 min). Sem isso, todo eco/comando sai dessincronizado do que aparece na tela.
 
@@ -93,7 +93,7 @@ Consequências operacionais:
 
 Régua a partir de **N = pessoas-alvo "ao vivo"** (coerente com o contador de presença honesto; nunca maior):
 
-- **~10-15% da sala comenta**, cada uma 2-4 vezes (a escada de micro-compromissos faz o mesmo dedo voltar ao chat). N=200 → ~20-30 ativos × ~3 = **~60-90 comentários** numa aula de 60-90 min. O modelo final do Léo tem ~387 linhas pra um perpétuo de ~2h20 com sala de espera, denso, mas o player calibra por N.
+- **~10-15% da sala comenta**, cada uma 2-4 vezes (a escada de micro-compromissos faz o mesmo dedo voltar ao chat). N=200 → ~20-30 ativos × ~3 = **~60-90 comentários** numa aula de 60-90 min. O modelo final de referência tem ~387 linhas pra um perpétuo de ~2h20 com sala de espera, denso, mas o player calibra por N.
 - **Régua de bolso:** ~1 comentário/minuto de MÉDIA, mas a média mente, a distribuição é em ondas.
 - **Teto de poluição:** não estourar ~150-200 mensagens visíveis; acima disso ninguém presta atenção na aula, só no chat.
 - **No meio do ensino puro a densidade CAI** (vale obrigatório): comentário demais durante a explicação rouba a atenção do conteúdo.
@@ -116,20 +116,20 @@ densidade
 **Os picos, na ordem:**
 1. **SALA DE ESPERA + ABERTURA (warm-up):** chegada + confirmação de áudio/vídeo + nome/cidade quando o host pede. Estabelece "a sala está cheia e viva" antes mesmo de a aula começar.
 2. **COMANDOS do host** ("digita EU QUERO", "comenta SIM", "estão curtindo?"): cada comando dispara uma rajada concentrada.
-3. **A CONTA / números** (no webinar do Léo): quando o host faz a conta (ex.: "1000 inscritos / 25 compram / 37 mil"), vem onda de reação numérica ("a conta fecha sim", "37 mil com 1000 inscrito? caramba").
+3. **A CONTA / números** (no webinar de referência): quando o host faz a conta (ex.: "1000 inscritos / 25 compram / 37 mil"), vem onda de reação numérica ("a conta fecha sim", "37 mil com 1000 inscrito? caramba").
 4. **LINK NO AR / CARRINHO (o MÁXIMO):** quando o host libera o link, dispara o flood de compra. É onde a sala trabalha mais duro.
 5. **FECHAMENTO (urgência real):** "corre que tá acabando", "entrei nos 15 primeiros", despedidas de quem comprou.
 
 ---
 
-## 4. OS TIPOS DE MENSAGEM (com a taxonomia REAL do modelo do Léo)
+## 4. OS TIPOS DE MENSAGEM (com a taxonomia REAL do modelo de referência)
 
 Tipos extraídos do `chat-simulado-webinar.csv` (coluna `Tipo`), em ordem da curva. Cada um responde a um gatilho do roteiro:
 
 | Tipo | Onde mora | Função | Exemplos REAIS do modelo |
 |---|---|---|---|
 | **entrada** | sala de espera | encher a sala antes da aula; chegada com saudação NEUTRA | "oi gente", "cheguei!", "presente", "primeira vez aqui, vim curioso", "salve salve" |
-| **engajamento** | abertura + transversal | confirmar áudio/vídeo; reagir aos comandos | "to ouvindo sim Leo", "som perfeito aqui", "imagem otima daqui" |
+| **engajamento** | abertura + transversal | confirmar áudio/vídeo; reagir aos comandos | "to ouvindo sim", "som perfeito aqui", "imagem otima daqui" |
 | **apresentacao** | abertura (host pede nome/cidade) | nome + cidade + dor leve | "Camila aqui de SP, ouvindo direitinho", "Aline, Fortaleza! tudo certo por aqui" |
 | **dor** | diagnóstico | identificação com o problema (sem antecipar solução) | "agenda cheia e conta vazia", "a imprevisibilidade me matou", "posto todo dia e nao converte" |
 | **reação** | conteúdo/viradas (esparso) | concordância, "isso sou eu" | "nossa isso faz muito sentido", "to anotando tudo", "nunca tinha visto desse angulo" |
@@ -139,11 +139,11 @@ Tipos extraídos do `chat-simulado-webinar.csv` (coluna `Tipo`), em ordem da cur
 | **pergunta** | conteúdo + FOMO de vaga | dúvida de conteúdo ou de vaga | "preciso ter audiencia pra comecar?", "ainda tem vaga dos 15?" |
 | **objecao** | antes do pitch | o ceticismo que a sala tem (a ser neutralizado pela própria sala) | "ta, mas o perpetuo nao satura o pixel?", "achei meio puxado o valor" |
 | **atrito** | reta final | o indeciso amolecendo (não fecha ainda) | "garantia parruda, mas vou analisar com calma", "quase me convenceu, to no limite do sim" |
-| **anticipacao** | pré-link | já com o cartão na mão esperando o link | "ja to com o cartao na mao esperando o link", "cade o link Leo, to pronto" |
+| **anticipacao** | pré-link | já com o cartão na mão esperando o link | "ja to com o cartao na mao esperando o link", "cade o link, to pronto" |
 | **compra** | LINK NO AR (pico) | social proof de compra, o flood | "comprei agora", "fechei", "acabei de garantir o meu", "to dentro!", "feito. paguei" |
 | **hate** | longe do clímax (1-2 na aula) | o cético neutralizado pela sala/lógica | "na pratica nao funciona nao" → resolvido por outro participante |
 | **prova-real** | junto das provas (SÓ se real) | validação ancorada em case verídico do player | (do banco real, ver regra de honestidade) |
-| **despedida** | fechamento | quem já comprou se despedindo | "te vejo do outro lado", "melhor decisao, to dentro", "valeu Leo" |
+| **despedida** | fechamento | quem já comprou se despedindo | "te vejo do outro lado", "melhor decisao, to dentro", "valeu!" |
 
 ### Padrões de execução por tipo (o que faz cada um funcionar)
 
@@ -151,7 +151,7 @@ Tipos extraídos do `chat-simulado-webinar.csv` (coluna `Tipo`), em ordem da cur
 - **A objeção SURGE e se RESOLVE** (movimento mais importante do carrinho): a dúvida aparece no chat e, 1-3 min depois, OUTRO participante (ou o eco do host) a derruba. A sala se autorregula; o host nunca briga. Pares reais do modelo: erro no cartão → "era só trocar pra crédito"; "achei puxado o valor" → "puxado é continuar no problema mais um ano, eu fechei".
 - **Haters: no máximo 1-2 na aula inteira**, sempre resolvidos em 1-3 min, NUNCA perto do clímax de compra, neutralizados pela comunidade/lógica e não pelo host brigando.
 - **Compra só DEPOIS de o link aparecer.** Antes do link só existe `anticipacao` ("to com o cartão na mão"). O primeiro `compra` é casado com a fala do host "valendo, to liberando o link". No modelo, o flood de compra começa em `2:25:46` (vídeo), exatamente quando o host libera.
-- **FOMO pós-link** alimenta a escassez REAL (no caso do Léo, os "15 primeiros" e a garantia 90+90), nunca inventa vaga.
+- **FOMO pós-link** alimenta a escassez REAL (no caso de referência, os "15 primeiros" e a garantia 90+90), nunca inventa vaga.
 
 ---
 
@@ -170,7 +170,7 @@ O pior buraco possível: o host gravado **ECOA** um comentário que não existe 
 
 - **Nomes BR variados:** alternar regiões e gerações; não repetir o mesmo nome em comentários próximos no tempo. Pool do modelo: Camila, Rafael, Patrícia, Marcos, Juliana, Bruno, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Wesley, Sandra, Eduardo, Felipe, Carlos.
 - **Cidades espalhadas pelo país** (não só capitais do Sudeste): Manaus, Recife, Goiânia, Porto Alegre, Belém, Florianópolis, Fortaleza, Salvador, Curitiba, Maringá, Natal, Londrina, Uberlândia.
-- **Perfis de avatar variados** dão textura (no modelo do Léo: mentor, consultor financeiro, copywriter iniciante, nutri, advogada, dentista, personal, arquiteta, gestor de tráfego), alguns iniciantes, alguns avançados/céticos, alguns já clientes.
+- **Perfis de avatar variados** dão textura (no modelo de referência: mentor, consultor financeiro, copywriter iniciante, nutri, advogada, dentista, personal, arquiteta, gestor de tráfego), alguns iniciantes, alguns avançados/céticos, alguns já clientes.
 - **Timing escalonado:** numa rajada, intervalos irregulares (3s, 7s, 4s, 11s…). Sala real digita em velocidades diferentes.
 - **Typo/abreviação leve ocasional:** "vc", "tbm", "kkkk", "to dentro", acento faltando, emoji esporádico, não em todo comentário (vira caricatura). O host nunca erra; o público erra.
 - **Comprimentos variados:** mistura "EU QUERO" de duas palavras com frases de uma linha.

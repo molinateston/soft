@@ -1,6 +1,6 @@
 # Frente WAR ROOM
 
-O painel com que o **dono conduz a apresentação ao cliente dele**. Não é um site institucional nem uma landing de venda: é a sala de guerra de uma reunião. Uma SPA leve, trancada por login, onde cada seção é um passo da conversa. O dono abre, loga na frente do cliente, e caminha da visão geral até a proposta. Toda tela segue `padrao-visual-leo.md` (componentes ricos, tokens, zero gradiente/emoji/travessão).
+O painel com que o **dono conduz a apresentação ao cliente dele**. Não é um site institucional nem uma landing de venda: é a sala de guerra de uma reunião. Uma SPA leve, trancada por login, onde cada seção é um passo da conversa. O dono abre, loga na frente do cliente, e caminha da visão geral até a proposta. Toda tela segue `padrao-visual-default.md` (componentes ricos, tokens, zero gradiente/emoji/travessão).
 
 ## O que a frente entrega
 
@@ -8,7 +8,7 @@ Uma SPA + um backend enxuto (Express + sessão), deploy em **Cloudflare Pages** 
 
 ## Anatomia dos menus (as seções canônicas)
 
-A nav é numerada e renderizada de array (`padrao-visual-leo.md`). As seções abaixo são o esqueleto; adapta ao caso, mas a ordem serve à narrativa da reunião (do panorama à decisão):
+A nav é numerada e renderizada de array (`padrao-visual-default.md`). As seções abaixo são o esqueleto; adapta ao caso, mas a ordem serve à narrativa da reunião (do panorama à decisão):
 
 1. **Visão geral**: o panorama do negócio do cliente em KPIs número-gigante (faturamento, unidades, o número que importa). Hero de 2 colunas: à esquerda o kicker + a frase do diagnóstico; à direita os KPIs. É a abertura, tem que impactar em 5 segundos.
 2. **Diagnóstico**: os gargalos que o dono achou, cada um como **card rico** (kicker "Gargalo 0N", título, o dado que prova, chips de área/impacto). Um número por gargalo, sempre com a fonte do número. Nunca opinião solta: cada gargalo tem prova.
@@ -43,7 +43,7 @@ Quando o diagnóstico pede um gráfico (evolução, comparação, participação
 ## Backend (Express + sessão)
 
 Enxuto de propósito: a war room é read-mostly (o cliente consome, não edita).
-- **Auth por sessão**: login split (`padrao-visual-leo.md`) → sessão em cookie httpOnly. Uma conta por apresentação basta; se o dono quer que o cliente acesse depois, um login por cliente.
+- **Auth por sessão**: login split (`padrao-visual-default.md`) → sessão em cookie httpOnly. Uma conta por apresentação basta; se o dono quer que o cliente acesse depois, um login por cliente.
 - **Servir a SPA** + endpoints só de leitura (dados do painel, URL do vídeo). Nada sensível no client.
 - **Sem banco pesado**: os dados do painel podem morar em JSON versionado no repo ou numa tabela simples. A war room não é multi-tenant como o produto; é um painel por cliente.
 - Deploy Cloudflare Pages: a SPA é estática + Functions pro backend de sessão, ou um Worker. Ver `entrega-e-infra.md`.

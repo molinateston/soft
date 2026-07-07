@@ -4,7 +4,7 @@
 >
 > **A régua de tom Soft (vale pra TODA fala abaixo).** Tirar hype, exclamação em cascata, auto-celebração, cifra própria e nome de mecanismo (viram `[ ]` ou SLOT). Manter intacto a estrutura lógica, a escada de sins, a inversão de risco, o "servir não vender". Quem fala é um consultor que já mediu e tem convicção, não um vendedor empolgado. A convicção substitui o entusiasmo.
 >
-> **Como usar.** Cada fala é pra ADAPTAR (preencher o `[ ]` com a verdade do nicho do player), nunca pra recitar crua. Os nomes próprios do método do Léo entram como slot "(a definir)". Citar Hormozi ou o webinar de referência aqui é referência interna de linhagem (de onde a jogada veio), não é o que vai pro roteiro do cliente.
+> **Como usar.** Cada fala é pra ADAPTAR (preencher o `[ ]` com a verdade do nicho do player), nunca pra recitar crua. Os nomes próprios do método do autor entram como slot "(a definir)". Citar Hormozi ou o webinar de referência aqui é referência interna de linhagem (de onde a jogada veio), não é o que vai pro roteiro do cliente.
 >
 > **Régua G2 (vale aqui também):** bordão, frase-mantra e nome de mecanismo TÊM DONO. Onde a fonte traz um nome concreto, ele vira SLOT a preencher COM o especialista. A skill não transplanta o caso de ninguém, conduz o player a escrever a fala DELE em cima do molde.
 

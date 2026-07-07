@@ -1,6 +1,6 @@
 # Entrega e infra
 
-Como o sistema sai do código pro ar, com prova. A infra é a do **dono** (autoria própria, nada de terceiro): GitHub `molinateston`, Cloudflare Pages pro war room, VPS do dono pro produto, imagegen local pras imagens, cofre do dono pras credenciais. Doutrina **tool-adaptive**: com essa infra, executa e entrega no ar; sem ela (ambiente sem Bash/tokens), entrega a spec + arquitetura + o plano de build e diz o que a infra somaria.
+Como o sistema sai do código pro ar, com prova. A infra é a do **dono** (autoria própria, nada de terceiro): GitHub `<org-do-dono>`, Cloudflare Pages pro war room, VPS do dono pro produto, imagegen local pras imagens, cofre do dono pras credenciais. Doutrina **tool-adaptive**: com essa infra, executa e entrega no ar; sem ela (ambiente sem Bash/tokens), entrega a spec + arquitetura + o plano de build e diz o que a infra somaria.
 
 ## GitHub SEMPRE (repo = produção)
 
@@ -9,10 +9,10 @@ Antes da 1ª linha de código (Fase 2, Arquitetura):
 ```bash
 cd <workdir>
 git init
-gh repo create molinateston/<nome> --private --source=. --remote=origin
+gh repo create <org-do-dono>/<nome> --private --source=. --remote=origin
 ```
 
-- Repos **privados**, um por cliente, sob `molinateston`.
+- Repos **privados**, um por cliente, sob `<org-do-dono>`.
 - **Commit por agente**: cada subagente do Build commita seu escopo (mensagem clara do que fez). Facilita o review e o rollback por peça.
 - **Repo = produção**: a sincronização final (Fase 5) garante que o que está no ar é o que está no `main`. Nada de "ajuste rápido direto no servidor" que o repo não vê.
 - **Editando sistema existente sem repo?** Cria o repo na hora e **commita o estado atual ANTES de mexer** (Pergunta Zero, SKILL.md). É o ponto de retorno.
@@ -45,14 +45,14 @@ WantedBy=multi-user.target
 ```
 ```
 # Caddyfile (bloco do subdomínio)
-<sub>.leonardomolina.com.br {
+<sub>.seudominio.com.br {
     reverse_proxy 127.0.0.1:<porta>
 }
 ```
 
 ## Subdomínio
 
-Default `cliente.leonardomolina.com.br` (subdomínio no domínio do dono, via Cloudflare: DNS A/CNAME apontando pra VPS, TLS pelo Caddy). Quando o cliente tem domínio próprio e quer usar, aponta o DNS dele pro mesmo destino; o padrão é o subdomínio do dono pra subir rápido.
+Default `cliente.seudominio.com.br` (subdomínio no domínio do dono, via Cloudflare: DNS A/CNAME apontando pra VPS, TLS pelo Caddy). Quando o cliente tem domínio próprio e quer usar, aponta o DNS dele pro mesmo destino; o padrão é o subdomínio do dono pra subir rápido.
 
 ## Imagens e infográficos → imagegen local
 
@@ -81,10 +81,10 @@ Não marca "no ar" sem colar a prova de cada item:
 
 | Item | Prova |
 |---|---|
-| Repo criado e sincronizado | `git remote -v` aponta pra `molinateston/<nome>`; `main` = o que está no ar |
+| Repo criado e sincronizado | `git remote -v` aponta pra `<org-do-dono>/<nome>`; `main` = o que está no ar |
 | Sem segredo no repo | grep de segredo no histórico do último push = limpo |
 | War room no ar | URL do Pages responde; login split carrega |
-| Produto no ar | `curl -I https://<sub>.leonardomolina.com.br` = 200, TLS de pé |
+| Produto no ar | `curl -I https://<sub>.seudominio.com.br` = 200, TLS de pé |
 | Serviço resiliente | `systemctl status <nome>` ativo; `Restart=always` no unit |
 | Login real feito | logou com credencial de teste, screenshot da tela pós-login |
 | Navegação | screenshots das telas principais (as seções da spec) |

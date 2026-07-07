@@ -1,6 +1,6 @@
 # O Mecanismo: como ensinar pra vender (a engenharia de conteúdo do Webinar Soft)
 
-> **ESTA REFERENCE FOI CORRIGIDA.** A versão antiga ensinava um "motor das 3 viradas" como espinha do Mecanismo. **Isso era invenção e foi purgado.** O Mecanismo real do Léo NÃO é "inverter 3 crenças". É uma sequência rica e fixa (ver `estrutura-real-webinar.md`, Fase M). O que sobrevive desta reference é a **batida de 4 tempos como TÉCNICA DE ENSINO por afirmação** (não como arquitetura), a Faca Soft, a prova-meta, a nomeação do mecanismo e o mundo ideal. O nome do arquivo continua `motor-3-viradas.md` só pra não quebrar os ponteiros; o conteúdo é o ensino do Mecanismo real.
+> **ESTA REFERENCE FOI CORRIGIDA.** A versão antiga ensinava um "motor das 3 viradas" como espinha do Mecanismo. **Isso era invenção e foi purgado.** O Mecanismo real do autor do método NÃO é "inverter 3 crenças". É uma sequência rica e fixa (ver `estrutura-real-webinar.md`, Fase M). O que sobrevive desta reference é a **batida de 4 tempos como TÉCNICA DE ENSINO por afirmação** (não como arquitetura), a Faca Soft, a prova-meta, a nomeação do mecanismo e o mundo ideal. O nome do arquivo continua `motor-3-viradas.md` só pra não quebrar os ponteiros; o conteúdo é o ensino do Mecanismo real.
 
 Esta reference ensina como o conteúdo do Webinar Soft entrega **valor real E vende no mesmo movimento**, dentro da fase Mecanismo. É a peça que a skill genérica de webinar não tem. Senta DENTRO da fase Mecanismo do esqueleto, na ordem real, e instala a técnica que faz essa fase converter sem queimar o produto.
 
@@ -57,7 +57,7 @@ Melhoria não vende, por quatro razões concretas:
 
 O motor invisível por baixo é **STATUS**. Antes de comprar, o cérebro pergunta em milissegundos: "isso me faz parecer mais à frente, ou me expõe a parecer idiota de novo?". Nova oportunidade não carrega risco de status: a pessoa ainda não falhou ali. Conexão direta com o 6º nível de consciência (o avatar em quem a solução virou o problema): pra ele, "tente de novo, agora melhor" é o pior gatilho que existe. Ele só se move por categoria nova, sinalizada pelo **nome próprio do mecanismo**.
 
-> **EXEMPLO (gestão, exemplo de outro nicho).** O tema era canvas, OKR, Scrum: coisa batidíssima, que o avatar já viu mil vezes. Vender "melhore sua gestão ágil" seria melhoria pura e não venderia. A virada foi reembrulhar o batido numa nova oportunidade com nome próprio: a "visão de floresta". O mesmo conteúdo, reposicionado como categoria incomparável, fez a sala dizer "agora tudo faz sentido". A régua: não é porque o conteúdo tá batido que você não vai vender. O que não pode ser velho é a **oportunidade** que você abre com ele, não o dado.
+> **EXEMPLO (gestão, exemplo de outro nicho).** O tema era canvas, OKR, Scrum: coisa batidíssima, que o avatar já viu mil vezes. Vender "melhore sua programa de gestão" seria melhoria pura e não venderia. A virada foi reembrulhar o batido numa nova oportunidade com nome próprio: a "visão de floresta". O mesmo conteúdo, reposicionado como categoria incomparável, fez a sala dizer "agora tudo faz sentido". A régua: não é porque o conteúdo tá batido que você não vai vender. O que não pode ser velho é a **oportunidade** que você abre com ele, não o dado.
 
 > **EXEMPLO (emagrecimento, molde de reembrulho).** Todo mundo no nicho fala de insulina; virou ruído. Em vez de "controle melhor sua insulina" (melhoria), o player abre uma categoria nova: dois hormônios que o avatar nunca ouviu nesse contexto (grelina e leptina, a fome e a saciedade) e batiza o mecanismo (no exemplo-fonte: "efeito GL"). A pessoa para porque não tem com o que comparar. Não é "mais uma dieta da insulina"; é coisa nova, com nome. *(O nome do mecanismo é do player; "efeito GL" é exemplo de nicho alheio, não recheio a decalcar.)*
 
@@ -69,7 +69,7 @@ O motor invisível por baixo é **STATUS**. Antes de comprar, o cérebro pergunt
 
 Esta é a técnica que sobreviveu da reference antiga, mas no lugar certo: **cada afirmação que você ensina dentro da sequência do Mecanismo é entregue em quatro tempos.** Não é "3 viradas"; é o jeito de ensinar CADA peça (a nova oportunidade, cada prova de superioridade, cada um dos 3 passos). A ordem dos quatro tempos é lei; inverter mata o ensino.
 
-A forma canônica do Léo (a do `SLIDE-MODELO-SCRIPT.md` e do gestão ágil): **o que é · por que importa · me prova · exemplo conectado.** Abaixo, cada tempo detalhado, com a camada Soft que decide o que doar e o que reter.
+A forma canônica do autor do método (a do `SLIDE-MODELO-SCRIPT.md` e do programa de gestão): **o que é · por que importa · me prova · exemplo conectado.** Abaixo, cada tempo detalhado, com a camada Soft que decide o que doar e o que reter.
 
 ### Tempo 1 - O QUE É + o valor real (ensina algo honesto de verdade)
 

@@ -2,7 +2,7 @@
 
 Esta reference define UMA capacidade operacional da skill: **gerar o cronograma de comentários que a plataforma de webinar injeta num perpétuo gravado, simulando uma sala viva de N pessoas, e auditar um webinar pronto pra fechar os buracos de consistência.** O webinar gravado não tem chat ao vivo; sem nada, ele nasce vazio, e "ninguém quer ser o primeiro" a comentar. A plataforma (EverWebinar, WebinarKit) tem um campo de chat simulado que dispara mensagens por timestamp; o que faltava era a skill produzir o conteúdo desse campo com método: volume certo, colocação estratégica, falas naturais brasileiras, e zero contradição com o roteiro.
 
-> **A decisão que abre esta reference (Léo, 10/jun):** no perpétuo, a **simulação de comentários É padrão.** Isto SUPERA a nota mais conservadora do `gravacao-energia-ao-vivo.md` (que tratava só comentários reais como padrão e a simulação como variante a validar). O Léo decidiu: a sala simulada é o desenho operacional do perpétuo Soft. A nota de honestidade fica LEVE e precisa: a **escassez/vagas declaradas continuam REAIS** (guarda-corpo G7, sessão de lugares limitados de verdade, contador honesto); os **comentários reproduzem a energia típica que uma sala real daquele tamanho teria** naquele momento da aula. Não se inventa resultado de cliente, não se inventa número de vagas, não se mente estoque. Simula-se a CONVERSA de uma sala, não a PROVA do produto.
+> **A decisão que abre esta reference (fonte de referência, 10/jun):** no perpétuo, a **simulação de comentários É padrão.** Isto SUPERA a nota mais conservadora do `gravacao-energia-ao-vivo.md` (que tratava só comentários reais como padrão e a simulação como variante a validar). A fonte de referência decidiu: a sala simulada é o desenho operacional do perpétuo Soft. A nota de honestidade fica LEVE e precisa: a **escassez/vagas declaradas continuam REAIS** (guarda-corpo G7, sessão de lugares limitados de verdade, contador honesto); os **comentários reproduzem a energia típica que uma sala real daquele tamanho teria** naquele momento da aula. Não se inventa resultado de cliente, não se inventa número de vagas, não se mente estoque. Simula-se a CONVERSA de uma sala, não a PROVA do produto.
 
 > **Fronteiras (o que NÃO mora aqui, pra não duplicar):**
 > - **Como GRAVAR com energia** (3 formas de gravar, conduta de sala, eco de chat real, setup): roteiro/gravação = território da **soft-webinar-plano**. Aqui é o que entra no chat DEPOIS de a gravação existir.
@@ -17,7 +17,7 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 ## Índice
 
 - 1. O problema e a decisão (por que esta capacidade existe)
-- 2. O formato Excel (a skill aprende o modelo do Léo)
+- 2. O formato Excel (a skill aprende o modelo de referência)
 - 3. A matemática de cadência (volume e curva de densidade)
 - 4. Tipos de comentário + colocação estratégica (com falas prontas)
 - 5. Realismo (anti-robótico)
@@ -31,9 +31,9 @@ Esta reference define UMA capacidade operacional da skill: **gerar o cronograma 
 
 ## 1. O problema e a decisão (por que esta capacidade existe)
 
-**O problema.** Um perpétuo é uma aula gravada uma vez e rodada todo dia, em 4 horários (`perpetuo-mecanica-leo.md`). O vídeo é o mesmo sempre; o que muda a cada sessão é a sala que entra. Mas a sala que entra não pode digitar pro vídeo (ele já aconteceu), e o host gravado não pode responder de verdade. Restam duas opções: deixar o chat morto (a aula respira como cinema vazio, a tela parada perde a sala) ou **injetar um chat roteirizado** que reproduz o movimento de uma sala viva. A plataforma serve o campo técnico (mensagens por timestamp); a skill serve o conteúdo.
+**O problema.** Um perpétuo é uma aula gravada uma vez e rodada todo dia, em 4 horários (`perpetuo-mecanica.md`). O vídeo é o mesmo sempre; o que muda a cada sessão é a sala que entra. Mas a sala que entra não pode digitar pro vídeo (ele já aconteceu), e o host gravado não pode responder de verdade. Restam duas opções: deixar o chat morto (a aula respira como cinema vazio, a tela parada perde a sala) ou **injetar um chat roteirizado** que reproduz o movimento de uma sala viva. A plataforma serve o campo técnico (mensagens por timestamp); a skill serve o conteúdo.
 
-**A decisão (Léo, 10/jun).** No perpétuo, **simular comentários É o padrão Soft.** Não é o último recurso, é o desenho. A razão é a mesma tese da energia do `gravacao-energia-ao-vivo.md`: o que converte não é só o que o host fala, é o ambiente de sala viva que faz o lead ficar imerso. Uma sala silenciosa denuncia o gravado e inverte o sinal de confiança; uma sala que conversa sustenta o frame de evento. O caminho "duplicar a melhor sessão real com comentários reais" continua válido e é o ideal quando existe (`gravacao-energia-ao-vivo.md` §2 e §5.1); mas a maioria dos perpétuos não nasce de uma sessão ao vivo gravada com chat, e pra esses a simulação roteirizada é o padrão.
+**A decisão (fonte de referência, 10/jun).** No perpétuo, **simular comentários É o padrão Soft.** Não é o último recurso, é o desenho. A razão é a mesma tese da energia do `gravacao-energia-ao-vivo.md`: o que converte não é só o que o host fala, é o ambiente de sala viva que faz o lead ficar imerso. Uma sala silenciosa denuncia o gravado e inverte o sinal de confiança; uma sala que conversa sustenta o frame de evento. O caminho "duplicar a melhor sessão real com comentários reais" continua válido e é o ideal quando existe (`gravacao-energia-ao-vivo.md` §2 e §5.1); mas a maioria dos perpétuos não nasce de uma sessão ao vivo gravada com chat, e pra esses a simulação roteirizada é o padrão.
 
 **A nota de honestidade (leve, mas inegociável):**
 
@@ -48,16 +48,16 @@ A régua, em uma frase: **simula-se a sala, nunca a prova.** Um comentário simu
 
 ---
 
-## 2. O formato Excel (a skill aprende o modelo do Léo)
+## 2. O formato Excel (a skill aprende o modelo de referência)
 
-A plataforma importa o chat simulado de uma planilha. **A skill NÃO impõe um formato: ela lê o modelo que o Léo (ou o player) sobe e gera NAQUELE formato.** Aprende as colunas dele, os nomes das colunas, a ordem, e devolve a planilha pronta pra importar sem retrabalho.
+A plataforma importa o chat simulado de uma planilha. **A skill NÃO impõe um formato: ela lê o modelo que o autor do método (ou o player) sobe e gera NAQUELE formato.** Aprende as colunas dele, os nomes das colunas, a ordem, e devolve a planilha pronta pra importar sem retrabalho.
 
 **Regra de operação (vale nos dois ambientes):**
 - **SEMPRE perguntar/pedir o modelo primeiro.** "Você tem o modelo de planilha que a sua plataforma importa? Sobe pra mim que eu gero nesse formato." Plataformas diferentes (EverWebinar × WebinarKit) e contas diferentes têm colunas diferentes; gerar no formato errado é obrigar o especialista a remapear coluna a coluna.
-- **No Claude CHAT:** o Léo sobe o `.xlsx`/`.csv` no chat; a skill lê as colunas, gera o conteúdo e devolve uma tabela markdown pronta pra colar OU um CSV pra baixar. (Chat não roda script, então o entregável é a tabela/CSV.)
+- **No Claude CHAT:** o autor do método sobe o `.xlsx`/`.csv` no chat; a skill lê as colunas, gera o conteúdo e devolve uma tabela markdown pronta pra colar OU um CSV pra baixar. (Chat não roda script, então o entregável é a tabela/CSV.)
 - **No Claude CODE:** a skill lê o arquivo do disco, gera e grava o `.csv`/`.xlsx` no formato exato do modelo (mesmas colunas, mesma ordem, mesmo cabeçalho). Se a plataforma exige timestamp em formato específico (mm:ss, segundos absolutos, hh:mm:ss), respeitar o que o modelo mostra.
 
-**FORMATO CANÔNICO da plataforma do Léo (confirmado 10/jun).** É ESTE o CSV de import:
+**FORMATO CANÔNICO da plataforma de referência (confirmado 10/jun).** É ESTE o CSV de import:
 
 ```
 username,message,minutes,seconds
@@ -77,11 +77,11 @@ Joe,I LOVE pizza,0,15
 - O **tipo** de comentário (abertura, reação, eu-quero, prova, compra, objeção, fomo, hater, fechamento) é **planejamento INTERNO** da skill pra montar a curva e auditar. Fica num rascunho à parte, **nunca entra no CSV**.
 - O timestamp é **minuto + segundo da SESSÃO**, em duas colunas separadas (não um campo só). Ordenar o arquivo final por (`minutes`, `seconds`) crescente.
 - Disparos **escalonados**: nunca dois comentários no mesmo `minutes,seconds`; espalhe alguns segundos entre eles (sala real não fala em uníssono).
-- **PROIBIDO saudação por hora do dia** - nada de "bom dia", "boa tarde", "boa noite". O perpétuo roda o MESMO vídeo em 4 horários por dia (`perpetuo-mecanica-leo.md`): quem assiste às 21h vendo um chat que diz "boa tarde" percebe na hora que é gravado, e o frame de evento ao vivo cai. Usar saudação NEUTRA de chegada: "oi gente", "cheguei!", "opa", "presente", "tô aqui", "primeira vez aqui". Vale pra TODA mensagem do chat, especialmente as de entrada/abertura.
+- **PROIBIDO saudação por hora do dia** - nada de "bom dia", "boa tarde", "boa noite". O perpétuo roda o MESMO vídeo em 4 horários por dia (`perpetuo-mecanica.md`): quem assiste às 21h vendo um chat que diz "boa tarde" percebe na hora que é gravado, e o frame de evento ao vivo cai. Usar saudação NEUTRA de chegada: "oi gente", "cheguei!", "opa", "presente", "tô aqui", "primeira vez aqui". Vale pra TODA mensagem do chat, especialmente as de entrada/abertura.
 
 > **EXEMPLO (formato real).** O eco do host "muito legal, Camila do Rio de Janeiro" no minuto 6 exige uma linha tipo `Camila RJ,oi gente! de Niterói aqui,5,40` ANTES (5min40s < 6min). O host ecoa no 6:05; a Camila apareceu no 5:40.
 
-> **Outras plataformas:** se um player usa EverWebinar/WebinarKit com colunas diferentes, vale a régra geral (pedir o modelo, gerar naquele formato). Mas `username,message,minutes,seconds` é o formato do Léo e o **default da skill**.
+> **Outras plataformas:** se um player usa EverWebinar/WebinarKit com colunas diferentes, vale a régra geral (pedir o modelo, gerar naquele formato). Mas `username,message,minutes,seconds` é o formato de referência e o **default da skill**.
 
 ---
 
@@ -267,7 +267,7 @@ O que separa uma sala simulada que converte de uma que denuncia o gravado:
 
 ## 6. A checagem de consistência (a parte crítica, bidirecional)
 
-Esta é a peça que o Léo destacou. Um chat simulado que não está casado com o roteiro produz o pior buraco possível: o host **ECOA** um comentário que não existe. Se o host gravado diz "muito legal, a Camila do Rio de Janeiro" e nenhum comentário da Camila do Rio apareceu no chat antes, o lead percebe na hora que é teatro mal feito. A consistência é bidirecional: o roteiro manda comentários existirem, e os comentários nunca podem furar o roteiro.
+Esta é a peça que o autor do método destacou. Um chat simulado que não está casado com o roteiro produz o pior buraco possível: o host **ECOA** um comentário que não existe. Se o host gravado diz "muito legal, a Camila do Rio de Janeiro" e nenhum comentário da Camila do Rio apareceu no chat antes, o lead percebe na hora que é teatro mal feito. A consistência é bidirecional: o roteiro manda comentários existirem, e os comentários nunca podem furar o roteiro.
 
 ### 6.1 Ler o roteiro/deck PRONTO e mapear os ecos
 
@@ -313,7 +313,7 @@ Esse output é a prova de que o chat e o roteiro estão costurados, não dois ar
 
 ### Modo A: GERAR do zero (roteiro + N vira cronograma)
 
-Pré-requisito: roteiro/deck pronto (ou pelo menos a ordem dos blocos e os comandos do host) + N (pessoas-alvo) + o modelo de planilha do Léo.
+Pré-requisito: roteiro/deck pronto (ou pelo menos a ordem dos blocos e os comandos do host) + N (pessoas-alvo) + o modelo de planilha de referência.
 
 1. **Pegar o modelo de planilha** (perguntar/pedir; §2). Aprender as colunas.
 2. **Definir N e calcular o volume** total e a curva (§3): total ≈ 1/min com ondas; picos na abertura, comandos, provas, carrinho (máx), fechamento; vale no ensino.
@@ -342,7 +342,7 @@ Pré-requisito: o roteiro/deck do webinar + a planilha de chat que já existe (s
 
 ## 8. Checklist final (antes de subir o Excel na plataforma)
 
-- [ ] **Formato:** a planilha está no formato EXATO do modelo do Léo/plataforma (colunas, ordem, cabeçalho, formato de timestamp). Default só foi usado se não havia modelo, e isso foi avisado.
+- [ ] **Formato:** a planilha está no formato EXATO do modelo de referência/plataforma (colunas, ordem, cabeçalho, formato de timestamp). Default só foi usado se não havia modelo, e isso foi avisado.
 - [ ] **Volume coerente com N:** total na régua (~1/min com ondas), sem estourar o teto de poluição (~150-200 visíveis), coerente com o tamanho da sala simulada.
 - [ ] **Curva certa:** pico na abertura, vale no ensino puro, picos nos comandos/provas, MÁXIMO no carrinho aberto, urgência no fechamento.
 - [ ] **Todo eco do host tem respaldo:** cada "[nome] de [cidade]" / "o [nome] perguntou" do roteiro tem um comentário agendado ANTES, com nome/cidade/conteúdo exatos.
@@ -369,7 +369,7 @@ Pré-requisito: o roteiro/deck do webinar + a planilha de chat que já existe (s
 - **Sala robótica.** Todos no mesmo segundo, nomes repetidos, zero typo, comprimento uniforme, só capitais do Sudeste. Cheira a script.
 - **Hater no momento errado.** Cético colocado perto do clímax de compra, ou neutralizado pelo host brigando. Os haters ficam longe do pico e a sala se autorregula.
 - **Volume incoerente.** Chat fervendo numa sala de 40, ou silêncio numa de 500. O volume segue N.
-- **Formato chutado.** Gerar num formato que a plataforma do Léo não importa, obrigando remapeamento manual. Sempre o modelo dele.
+- **Formato chutado.** Gerar num formato que a plataforma de referência não importa, obrigando remapeamento manual. Sempre o modelo dela.
 - **Tom de host na boca do público.** Comentário clínico, frase de consultor, vocabulário do método. O participante fala como participante.
 
 ---

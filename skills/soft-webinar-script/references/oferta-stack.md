@@ -4,7 +4,7 @@
 >
 > **Relação com `ancoragem-e-fechamento.md` (irmã, não duplica).** Aquela cobre a ENGENHARIA DE PREÇO (dupla ancoragem, queda em degraus, reduzir ao ridículo, garantia, prova). ESTA cobre o que vem ANTES do preço: a COMPOSIÇÃO da pilha (quantos itens, de que tipos, como cada um é desejável, e em que ordem entram). "Em que segundo o preço cai" vai pra irmã. "Que itens existem na pilha e em que ordem" é aqui.
 >
-> **Marca-neutra (lei das skills genéricas).** Todos os números, nomes de produto, nomes de bônus e valores abaixo são **EXEMPLO ilustrativo** de molde preenchido (nicho neutro). O recheio real (itens, preços, garantia) é SLOT do cliente, puxado da oferta/Plano dele. Nunca decalcar rótulo com dono ("GPS da Gestão Ágil", "Swipe de webinários", "Black Belt Club" = de terceiros). A pilha do avatar mata os modos de fracasso DELE.
+> **Marca-neutra (lei das skills genéricas).** Todos os números, nomes de produto, nomes de bônus e valores abaixo são **EXEMPLO ilustrativo** de molde preenchido (nicho neutro). O recheio real (itens, preços, garantia) é SLOT do cliente, puxado da oferta/Plano dele. Nunca decalcar rótulo com dono ("GPS do programa de gestão", "Swipe de webinários", "Black Belt Club" = de terceiros). A pilha do avatar mata os modos de fracasso DELE.
 
 ---
 

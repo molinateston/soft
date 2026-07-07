@@ -81,7 +81,7 @@ Cada prova que o cliente já tem sai **etiquetada com o beat onde entra**, não 
 Assim o roteiro já sabe ONDE usar cada prova, e o que falta como print real vira `[A CONFIRMAR]` (depoimento em vídeo, print de plataforma, etc.).
 
 ### Refinamento 3 · Gate de CONSISTÊNCIA dos números do case
-Material gravado quase sempre tem o mesmo case dito com **números diferentes** em momentos diferentes (ex.: "fiz 3 milhões" num ponto, "10 milhões" noutro, "13 milhões" noutro). **Não escolhe um por conta:** lista os 3 lado a lado e marca `[A CONFIRMAR: qual é bruto/líquido/período]`. Número de case que bate olho com olho na própria aula é o que mais derruba credibilidade do avançado. Isso é um item do gate (Lei 5 estendida): **os números do case têm que ser consistentes entre si**, não só "não inventados".
+Material gravado quase sempre tem o mesmo case dito com **números diferentes** em momentos diferentes (ex.: "fiz 3 milhões" num ponto, "10 milhões" noutro, "8 dígitos" noutro). **Não escolhe um por conta:** lista os 3 lado a lado e marca `[A CONFIRMAR: qual é bruto/líquido/período]`. Número de case que bate olho com olho na própria aula é o que mais derruba credibilidade do avançado. Isso é um item do gate (Lei 5 estendida): **os números do case têm que ser consistentes entre si**, não só "não inventados".
 
 ---
 

@@ -1,7 +1,7 @@
 # Abertura/Atenção (promessa da aula, headline falada, regras da sala, por que ficar até o fim)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = MindMaster/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = webinar de referência).
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
+> Ressalva de atribuição: o "Webinar C" do corpus do autor do método tem voz única que se identifica como **o autor do case de odontologia** (dentista) - é referência de craft, não fala do autor do método. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = operação-referência; "dieta inteligente" = o autor do case de nutrição; "Introduction→Content→Transition→Close" = webinar de referência).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -11,11 +11,11 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, edição A - Denison Vieira) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$13M
+### Webinar de gestão (8 dígitos) (operação-referência, edição A) - gestão p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de 8 dígitos
 
 **Trecho literal:**
 
-> "sejam todos muito bem-vindos para o nosso treinamento de gestão ágil. hoje nós vamos falar sobre os cinco níveis de planejamento e como que você faz para usar isso para organizar melhor seu trabalho, organizar melhor sua equipe, organizar melhor o seu tempo e e obviamente né ter V receber os benefícios de isso tudo"
+> "sejam todos muito bem-vindos para o nosso treinamento de gestão. hoje nós vamos falar sobre os cinco níveis de planejamento e como que você faz para usar isso para organizar melhor seu trabalho, organizar melhor sua equipe, organizar melhor o seu tempo e e obviamente né ter V receber os benefícios de isso tudo"
 
 > "primeiro deles tá, eu quero que você aprenda como organizar melhor o trabalho usando cinco níveis de planejamento […] segundo grande objetivo, eu quero que você domine as técnicas ágeis mais atuais, vou grifar a palavra atuais aqui […] e o terceiro objetivo, eh eu quero que você descubra como ser um Líder melhor, admirado pela sua equipe, reconhecido pelo mercado em 90 dias. então Ó vou grifar essa palavrinha aqui ó 90 dias, e ao final da aula vou te explicar como é que você consegue isso"
 
@@ -25,13 +25,13 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Por que funciona:** os objetivos da aula são o espelho exato da promessa do produto - quando a oferta chega 90 minutos depois, ela parece desfecho, não interrupção. O "90 dias" grifado na abertura reaparece literal na promessa do curso ("se torne um líder valioso em 90 dias"): quem aceitou o objetivo 3 já aceitou a premissa da oferta. E o presente cria razão concreta (não emocional) pra atravessar o pitch inteiro.
 
-**Decalcável vs do nicho:** decalcável: 3 objetivos com o último = promessa do produto + presente-mistério + grifo verbal do prazo. Do nicho/voz: "guerreiros e guerreiras", "gestor do futuro" e o trio trabalho/equipe/tempo são da MindMaster - o Léo nomeia na voz dele.
+**Decalcável vs do nicho:** decalcável: 3 objetivos com o último = promessa do produto + presente-mistério + grifo verbal do prazo. Do nicho/voz: "guerreiros e guerreiras", "gestor do futuro" e o trio trabalho/equipe/tempo são da operação-referência - o autor do método nomeia na voz dele.
 
-### Gestão Ágil 2.0 (MindMaster, ed. 2 - Denison) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
+### GA ed.2 (operação-referência) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
 
 **Trecho literal:**
 
-> "Qual é o tema da aula de hoje? Hoje a gente vai falar sobre como organizar seus projetos com gestão ágil e como se tornar uma referência em gestão na sua área de atuação. Então é isso que a gente... Essa é a grande promessa da aula de hoje e eu vou cumpri-la com certeza."
+> "Qual é o tema da aula de hoje? Hoje a gente vai falar sobre como organizar seus projetos com gestão e como se tornar uma referência em gestão na sua área de atuação. Então é isso que a gente... Essa é a grande promessa da aula de hoje e eu vou cumpri-la com certeza."
 
 > "Eu estou até conseguindo ver o chat. Eu consigo ver aqui os comentários de vocês. Mas como tem muita gente e é muito comentário, eu não vou conseguir responder individualmente todo mundo. Já aviso para vocês. Mas a equipe está monitorando aqui os comentários. Então se você tiver qualquer problema, pode colocar aqui. Enquanto isso, coloca nos comentários o seu nome e de onde você está falando para a gente ir se conhecendo. […] Eu queria que essa aula não fosse só aquele negócio que só eu fico falando, falando, falando. Vamos todo mundo interagir junto. Beleza?"
 
@@ -43,7 +43,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: promessa + juramento de cumprimento, regra de chat com delegação, presente sem revelar. Do nicho: "referência em gestão" é a identidade aspiracional desse avatar CLT; cada nicho tem a sua.
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - mesmo roteiro do 13M, outra sessão; R$1.997/R$1.697
+### 5N (o estrategista da operação-referência) - mesmo roteiro do caso de 8 dígitos, outra sessão; R$1.997/R$1.697
 
 **Trecho literal:**
 
@@ -55,21 +55,21 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 > "Eu queria começar pedindo para vocês imaginarem alguns cenários. […] Imagina você ter um domínio total do seu tempo, equilibrando carreira e vida pessoal de forma harmoniosa. Quem aqui tem problema com gestão de tempo? Coloca aqui para eu saber."
 
-**O que ele fez:** mesma sequência do 13M (headline tripla → 3 objetivos com grifo → presente dos "guerreiros") + emenda direto na sequência de future pacing "imagina…" com pergunta-isca de dor no meio - a abertura já desemboca em construção de desejo confirmada no chat.
+**O que ele fez:** mesma sequência do caso de 8 dígitos (headline tripla → 3 objetivos com grifo → presente dos "guerreiros") + emenda direto na sequência de future pacing "imagina…" com pergunta-isca de dor no meio - a abertura já desemboca em construção de desejo confirmada no chat.
 
 **Por que funciona:** ele cola a promessa de transformação ("em 90 dias") na agenda da aula - e o "imagina" faz a audiência ensaiar emocionalmente o estado-depois ANTES do diagnóstico do problema. Cada cenário pede confirmação no chat: o desejo privado vira compromisso público. Detalhe de máquina: a repetição literal entre sessões prova que esta abertura é roteiro fixo, não improviso - o bloco foi desenhado uma vez e roda em escala.
 
 **Decalcável vs do nicho:** decalcável: emendar abertura → future pacing com isca de dor no chat; abertura como roteiro fixo reutilizável. Do nicho: os cenários imaginados (tempo/equipe/carreira) são o sonho do gestor CLT.
 
-### GAIA2k (Denison - "Gestão Ágil na Era da IA") - mesma máquina com onda nova (IA); R$1.997 à vista / 12x R$199
+### GA ed.1 (o estrategista da operação-referência - "o programa de gestão com IA") - mesma máquina com onda nova (IA); R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
-> "Então bora lá, vamos começar aqui mais uma grande aula, que é uma imersão, um workshop, que a gente vai falar sobre a gestão ágil nessa era da inteligência artificial. Tem muita coisa mudando, cara, tem muita coisa pra gente. Se especializar para a gente se atualizar. E eu quero trazer aqui um banho de loja para você sair daqui atualizado para o que está acontecendo no momento, né?"
+> "Então bora lá, vamos começar aqui mais uma grande aula, que é uma imersão, um workshop, que a gente vai falar sobre a gestão nessa era da inteligência artificial. Tem muita coisa mudando, cara, tem muita coisa pra gente. Se especializar para a gente se atualizar. E eu quero trazer aqui um banho de loja para você sair daqui atualizado para o que está acontecendo no momento, né?"
 
 > "Ainda bem que você está aqui, né? E você já está na frente de um monte de gente, porque só o fato de você estar aqui se atualizando para tudo que a gente vai falar, predisposto, já mostra que você é uma pessoa diferente. Então, parabéns, eu quero começar te parabenizando por estar aqui, se atualizando. E investindo em você mesmo."
 
-> "Gestão ágil na era da IA, o futuro da gestão. E aí eu coloquei um subtítulo aqui: Como se tornar um gestor indispensável, combinando métodos ágeis, ou os métodos de gestão ágil, com a potência da inteligência artificial. Esse é o melhor dos mundos, né? Tem muita gente com medo da IA. Eu vou explicar aqui para você que você não precisa ter medo."
+> "o programa de gestão com IA, o futuro da gestão. E aí eu coloquei um subtítulo aqui: Como se tornar um gestor indispensável, combinando métodos ágeis, ou os métodos de gestão, com a potência da inteligência artificial. Esse é o melhor dos mundos, né? Tem muita gente com medo da IA. Eu vou explicar aqui para você que você não precisa ter medo."
 
 > "Eu vou focar na apresentação, porque assim, hoje o tempo é cada vez mais escasso, né? Ninguém tem muito tempo livre. E eu tenho muito, mas muito conteúdo para passar para vocês. Se eu ficar nos comentários, lendo, eu não vou conseguir ler todos os comentários, tá? […] Peço desculpas por isso, mas é por uma boa causa, porque eu vou focar na apresentação para eu entregar o máximo de conteúdo possível. Mas de tempos em tempos eu olho aqui nos comentários e vou falando com vocês. Beleza, combinado?"
 
@@ -79,9 +79,9 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Por que funciona:** a abertura instala três coisas: identidade aspiracional (indispensável vs ficar pra trás), contrato de comportamento (eu falo, vocês respondem quando eu pedir) e razão concreta pra ficar até o fim. O elogio de entrada faz o espectador defender a própria escolha de estar ali - sair vira contradição. E a prova das duas edições (VUCA → IA) mostra que a abertura tem "slot de onda" trocável: o esqueleto fica, só a onda muda.
 
-**Decalcável vs do nicho:** decalcável: elogio de entrada, pacto de chat com reason-why, presente com punição, slot de onda. Do nicho/voz: "banho de loja" e "gestor indispensável" são maneirismos e rótulos do Denison.
+**Decalcável vs do nicho:** decalcável: elogio de entrada, pacto de chat com reason-why, presente com punição, slot de onda. Do nicho/voz: "banho de loja" e "gestor indispensável" são maneirismos e rótulos do estrategista da operação-referência.
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetos BR trabalhando p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - arquitetos BR trabalhando p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
 
 **Trecho literal:**
 
@@ -93,19 +93,19 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 > "E como promessa é lei, eu garanto que hoje você vai sair daqui com essas duas estratégias para você trabalhar com arquitetura e design de interiores remotamente do Brasil Estados Unidos e ganhar três vezes mais. Pelo menos, pelo menos não aceito menos do que isso. Três vezes mais porque você ganha no Brasil. Combinado?"
 
-> "essa aula é para quem? Arquitetos, designers de interiores, artistas 3Ds, técnico em edificações, engenheiro. Ju, eu sou engenheiro, eu sou engenheira, sou engenheiro civil, já trabalho com projeto. Eu posso trabalhar pros Estados Unidos? Pode."
+> "essa aula é para quem? Arquitetos, designers de interiores, artistas 3Ds, técnico em edificações, engenheiro. [host], eu sou engenheiro, eu sou engenheira, sou engenheiro civil, já trabalho com projeto. Eu posso trabalhar pros Estados Unidos? Pode."
 
-**O que ela fez:** promessa sensorial de irreversibilidade ("nunca mais vai conseguir desver") → escassez de consumo declarada 2x (sem reprise - a aula em si é perecível) → presente-mistério "exclusivo para essa aula" → micro-compromisso explícito de tempo ("posso contar com você nos próximos 60 minutos?") → comando físico ("pega um caderno, anota tudo" - justificado pelo no-replay) → headline com número-âncora e contrato ("ganhar três vezes mais… Combinado?") → qualificação de público que AMPLIA o mercado endereçável (lista de profissões + auto-Q&A "Ju, eu posso? Pode").
+**O que ela fez:** promessa sensorial de irreversibilidade ("nunca mais vai conseguir desver") → escassez de consumo declarada 2x (sem reprise - a aula em si é perecível) → presente-mistério "exclusivo para essa aula" → micro-compromisso explícito de tempo ("posso contar com você nos próximos 60 minutos?") → comando físico ("pega um caderno, anota tudo" - justificado pelo no-replay) → headline com número-âncora e contrato ("ganhar três vezes mais… Combinado?") → qualificação de público que AMPLIA o mercado endereçável (lista de profissões + auto-Q&A "[host], eu posso? Pode").
 
 **Por que funciona:** o no-replay converte atenção em custo de saída ("se sair, perdeu pra sempre") e dá razão funcional pro caderno - anotar é se comprometer com o conteúdo. O "promessa é lei" transforma a headline num contrato moral auditável no fim. E a abertura veio DEPOIS de um vídeo-depoimento de aluna: a primeira impressão do webinar é resultado de terceiro, não autopromoção.
 
 **Decalcável vs do nicho:** decalcável: no-replay como motor de retenção (se for verdade), "posso contar com você por X minutos?", promessa com multiplicador numérico, qualificação que amplia em vez de filtrar. Do nicho: "três vezes mais porque você ganha no Brasil" só faz sentido na arbitragem cambial dela.
 
-### Webinar Léo A (pele Soft aplicada - Vítor Abrão, nutrição/MDI) - perpétuo gravado; R$997→R$797 na sessão; garantia em dobro
+### Webinar de referência A (pele Soft aplicada - o autor do case de nutrição, nutrição) - perpétuo gravado; R$997→R$797 na sessão; garantia em dobro
 
 **Trecho literal:**
 
-> "Olá, seja muito bem-vinda à aula sobre dieta inteligente. eu sou Vítor Abrão, sou nutricionista, e aqui eu vou te dar todas as orientações para você entender como você vai perder gordura e ganhar massa muscular ao mesmo tempo. vamos ter um ano de resultado com TRS meses através de uma dieta inteligente, e é óbvio, sem abandonar o que realmente importa: os momentos da tua vida, as coisas que você tem que viver para ser feliz"
+> "Olá, seja muito bem-vinda à aula sobre dieta inteligente. eu sou o autor do case de nutrição, sou nutricionista, e aqui eu vou te dar todas as orientações para você entender como você vai perder gordura e ganhar massa muscular ao mesmo tempo. vamos ter um ano de resultado com TRS meses através de uma dieta inteligente, e é óbvio, sem abandonar o que realmente importa: os momentos da tua vida, as coisas que você tem que viver para ser feliz"
 
 > "bom, Qual o objetivo dessa aula aqui pessoal: o erro que faz 99% das pessoas falhar e se frustrar n tentativas de dieta, eu V falar sobre isso. V falar também o caminho validado por milhares de pessoas, mais 3000, para você perder massa gorda e GH massa mesmo tempo. Alé disso vou falar os três pilares de uma dieta inteligente, como você pode conquistar um ano de resultado em apenas 3 meses com essa dieta, ok"
 
@@ -121,15 +121,15 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: promessa com cláusula anti-sacrifício, agenda de loops numerados, desqualificação ativa, presente vinculado a compromisso - e o desenho perpétuo-friendly (nada que dependa de sala viva). Do nicho: "perder gordura e ganhar massa ao mesmo tempo" e o vilão "milagre" são da nutrição.
 
-### Webinar C (corpus Léo - voz Bruno, dentista; "Resina Anterior / Método One 2.0") - odonto; R$3.000→R$1.997 p/ 10 primeiros
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - odonto; R$3.000→R$1.997 p/ 10 primeiros
 
 **Trecho literal:**
 
-> "Fala galera, bem-vindos a essa aula aqui. Que bom ter você aqui com a gente, que bom a gente poder partilhar nesse momento de falar de resina anterior em alto nível, em alto padrão. Que bom que você tirou esse tempo e veio para cá nesse momento junto comigo para a gente poder discutir algo que aparece o seu consultório todo dia. Escute: algo que foi um dos primeiros procedimentos que você aprendeu a fazer na faculdade e que até hoje você ainda erra. Eu não quero ainda entrar em todos os méritos do motivo pelos quais acontecem os erros, mas eu sei que mesmo você tendo contato com esse material há muito tempo, você ainda sofre um pouco com relação a cor, com relação acinzentamento, com relação a opacidade, com relação a formato. Então obrigado a você que tirou esse tempo, e eu prometo que no final dessa aula você vai ter chegado nessa aula nesse nível aqui, você vai estar nesse aqui no final dessa aula. Fica por aqui"
+> "Fala galera, bem-vindos a essa aula aqui. Que bom ter você aqui com a gente, que bom a gente poder partilhar nesse momento de falar do procedimento-case em alto nível, em alto padrão. Que bom que você tirou esse tempo e veio para cá nesse momento junto comigo para a gente poder discutir algo que aparece o seu consultório todo dia. Escute: algo que foi um dos primeiros procedimentos que você aprendeu a fazer na faculdade e que até hoje você ainda erra. Eu não quero ainda entrar em todos os méritos do motivo pelos quais acontecem os erros, mas eu sei que mesmo você tendo contato com esse material há muito tempo, você ainda sofre um pouco com relação a cor, com relação acinzentamento, com relação a opacidade, com relação a formato. Então obrigado a você que tirou esse tempo, e eu prometo que no final dessa aula você vai ter chegado nessa aula nesse nível aqui, você vai estar nesse aqui no final dessa aula. Fica por aqui"
 
-> "se você tá aqui nessa aula porque o assunto resina anterior te interessa, a gente vai falar de resina anterior. Eu quero te ajudar a evoluir em resenha anterior, eu quero te ajudar a melhorar o seu faturamento fazendo resina anterior"
+> "se você tá aqui nessa aula porque o assunto do procedimento-case te interessa, a gente vai falar do procedimento-case. Eu quero te ajudar a evoluir no procedimento-case, eu quero te ajudar a melhorar o seu faturamento fazendo o procedimento-case"
 
-**O que ele fez:** abre na primeira frase com a headline-paradoxo ("primeiro procedimento da faculdade e até hoje você ainda erra") → lista as dores específicas sem culpar ainda (cor, acinzentamento, opacidade, formato) → loop aberto explícito ("não quero AINDA entrar nos méritos dos erros") → promessa visual amarrada a slide ("você vai estar NESSE aqui no final dessa aula" - antes/depois apontado na tela) → declaração dupla de promessa (evoluir tecnicamente + faturamento). Detalhe de ordem: ele abre com a promessa e SÓ DEPOIS acorda a sala (roll call de cidades) - inverte o padrão MindMaster.
+**O que ele fez:** abre na primeira frase com a headline-paradoxo ("primeiro procedimento da faculdade e até hoje você ainda erra") → lista as dores específicas sem culpar ainda (cor, acinzentamento, opacidade, formato) → loop aberto explícito ("não quero AINDA entrar nos méritos dos erros") → promessa visual amarrada a slide ("você vai estar NESSE aqui no final dessa aula" - antes/depois apontado na tela) → declaração dupla de promessa (evoluir tecnicamente + faturamento). Detalhe de ordem: ele abre com a promessa e SÓ DEPOIS acorda a sala (roll call de cidades) - inverte o padrão operação-referência.
 
 **Por que funciona:** o paradoxo "básico que você ainda erra" fura a defesa do avatar experiente sem humilhar (a culpa vem depois, no vilão). A promessa amarrada a um slide visível cria um contrato de permanência VERIFICÁVEL: a pessoa fica pra conferir se chega "nesse nível aqui". E declarar faturamento junto com técnica já posiciona a aula no dinheiro desde o minuto 1.
 
@@ -176,28 +176,28 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 ## Padrões transversais (checklist - o que TODOS fazem neste bloco)
 
 - [ ] **Headline falada nos primeiros minutos**, com resultado + prazo (e nos melhores, a negação da dor esperada: "sem abandonar os momentos", "sem inglês fluente").
-- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina MindMaster; 5 loops com número no webinar de referência; "o erro de 99% + 3 pilares" no Vítor Abrão).
+- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina da operação-referência; 5 loops com número no webinar de referência; "o erro de 99% + 3 pilares" no o autor do case de nutrição).
 - [ ] **O último objetivo é a promessa do PRODUTO** disfarçada de objetivo da aula ("reconhecido pelo mercado em 90 dias", "gestor indispensável") - abertura e oferta são o mesmo texto em dois tempos.
-- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (MindMaster, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (webinar de referência). Nunca revelada na abertura; repicada no meio.
-- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (webinar de referência #1 e #2), "Combinado?" (Juliana, Denison), "posso contar com você nos próximos 60 minutos?" (Juliana).
-- [ ] **Regras da sala que protegem o host sem esfriar**: "não respondo 1:1, a equipe monitora" (ed.2), "vou focar na apresentação, mas de tempos em tempos eu olho" (GAIA2k) - sempre com reason-why ("por uma boa causa").
+- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (operação-referência, GA ed.1, o autor do case de nutrição), no-replay (a autora do case de arquitetura), promessa visual verificável (o autor do case de odontologia), agenda de loops (webinar de referência). Nunca revelada na abertura; repicada no meio.
+- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (webinar de referência #1 e #2), "Combinado?" (a autora do case de arquitetura, o estrategista da operação-referência), "posso contar com você nos próximos 60 minutos?" (a autora do case de arquitetura).
+- [ ] **Regras da sala que protegem o host sem esfriar**: "não respondo 1:1, a equipe monitora" (ed.2), "vou focar na apresentação, mas de tempos em tempos eu olho" (GA ed.1) - sempre com reason-why ("por uma boa causa").
 - [ ] **Micro-compromisso digitado já neste bloco** (quiz T/F, "quem tem problema com gestão de tempo?", nome+cidade) - instala o hábito de responder que será cobrado no pitch.
 - [ ] **Elogio/rotulagem da audiência**: "guerreiros e guerreiras", "você já está na frente de um monte de gente", "você já é diferente" - quem fica ganha identidade.
 - [ ] **Compromisso público de cumprimento**: "eu vou cumpri-la com certeza", "promessa é lei", "I will show you how to do it" - a promessa vira contrato auditável no recap.
-- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Juliana), "papel e caneta" (Denison), "take it out right now" (webinar de referência).
+- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (a autora do case de arquitetura), "papel e caneta" (o estrategista da operação-referência), "take it out right now" (webinar de referência).
 - [ ] **Prazo/número grifado verbalmente** ("vou grifar essa palavrinha: 90 dias", "três vezes mais, não aceito menos") - o número da promessa fica marcado pra reaparecer na oferta.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
-- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (webinar de referência #2, "spoiler") - sem número, sem stack. (O price-seeding da MindMaster acontece no bloco de autoridade, como fato de catálogo - não aqui.)
+- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (webinar de referência #2, "spoiler") - sem número, sem stack. (O price-seeding da operação-referência acontece no bloco de autoridade, como fato de catálogo - não aqui.)
 - **Revelar o presente do fim.** Todos escondem o conteúdo do presente ("eu não vou falar o que é"). Presente revelado = loop fechado = retenção perdida.
 - **Promessa vaga, sem número e sem prazo.** Todos quantificam: 90 dias, 3x mais, 2 horas, um ano em 3 meses. Promessa genérica ("vou te ensinar muito sobre X") não aparece em nenhum campeão.
 - **Entrar no conteúdo técnico antes de fechar o contrato de atenção.** Todos gastam os primeiros minutos comprando permanência; nenhum abre ensinando.
 - **Abrir pedindo desculpas ou diminuindo a aula** ("vou tentar", "é só uma aulinha"). O movimento é o oposto: reprecificar o evento ("a melhor decisão que você tomou", "bolo com calda", "melhor conteúdo de 2020").
 - **Regras de sala sem reason-why.** Pedir comportamento "porque sim" não acontece - todo pedido vem com motivo funcional ("se ninguém colocar eu não vou saber", "é por uma boa causa").
-- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/MindMaster; "Do we have a deal" é cadência do webinar de referência. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do Léo - nunca transplantar a frase.
-- **Pra perpétuo: abertura que depende de sala viva.** O Vítor Abrão mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
-- **No-replay falso.** A Juliana usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
+- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do estrategista da operação-referência; "Do we have a deal" é cadência do webinar de referência. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do autor do método - nunca transplantar a frase.
+- **Pra perpétuo: abertura que depende de sala viva.** O o autor do case de nutrição mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
+- **No-replay falso.** A a autora do case de arquitetura usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -205,6 +205,6 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 O que varia (e vale registrar como dado adjacente):
 - **webinar de referência #1 e #2 não têm pré-início** (bloco 01): a gravação abre direto na headline ("And we are rolling" / "Product creation secrets") e a abertura ABSORVE a função do aquecimento - no #2, o quiz faz o papel de acordar o chat. Padrão de formato gravado/evergreen.
-- **Aluna 80k e Léo A abrem com vídeo-depoimento** antes da abertura falada (Léo A em loop perpétuo): a primeira impressão é prova de terceiro, e a abertura chega com a big idea pré-validada por uma cliente. O pré-início clássico (check técnico) não existe ou ficou fora do corte.
-- **Webinar C (Bruno) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
-- **A máquina MindMaster roda a MESMA abertura em 4 edições** (13M, ed.2, 5 Níveis, GAIA2k) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.
+- **o case de arquitetura e webinar de referência A abrem com vídeo-depoimento** antes da abertura falada (webinar de referência A em loop perpétuo): a primeira impressão é prova de terceiro, e a abertura chega com a big idea pré-validada por uma cliente. O pré-início clássico (check técnico) não existe ou ficou fora do corte.
+- **Webinar C (o autor do case de odontologia) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
+- **A máquina da operação-referência roda a MESMA abertura em 4 edições** (caso de 8 dígitos, ed.2, 5N, GA ed.1) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.

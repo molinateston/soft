@@ -1,5 +1,5 @@
-# SLIDE-MODELO DO SCRIPT (o "slide cru" do Léo)
-> Fonte: Google Slides do Léo (1gUP-VrMzC-m7GJLskt8-4F8uS4rEpkqR), "modelo de slides crus do script". É a ESPINHA canônica bloco a bloco com os templates de fala. Ser FIEL a esta ordem (decisão Léo 10/jun).
+# SLIDE-MODELO DO SCRIPT (o "slide cru" do autor do método)
+> Fonte: o slide-modelo canônico do autor do método (o "slide cru" do script). É a ESPINHA canônica bloco a bloco com os templates de fala. Ser FIEL a esta ordem (decisão do autor do método 10/jun).
 
 ## PRÉ-INÍCIO
 - Cronômetro 5 min pra iniciar / deixa rodando depoimentos

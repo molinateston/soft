@@ -43,9 +43,9 @@ webinar de referência do mercado americano chama de **Objection Annihilation** 
 Nos 9 campeões do corpus, **a objeção quase nunca espera o Q&A**. Ela é **encenada pelo próprio host, em primeira pessoa do espectador**, e demolida antes do lead formulá-la. Quem encena controla a formulação: você escolhe a **versão mais fraca da dúvida** e responde com a **versão mais forte do argumento** - quando a dúvida real nasce no espectador, já vem com a resposta acoplada.
 
 > **EXEMPLO (a encenação em 1ª pessoa, 4 nichos diferentes - ver `exemplos-por-bloco/13-qa-objecoes.md`):**
-> - Gestão ágil (MindMaster): *"aí você pode falar: pô, mas eu não sou dono de empresa, que que eu tenho a ver com isso… Ah meu amigo, é aí que você se engana."*
-> - Arquitetura/inglês (Juliana Pupim, formato "ventríloquo"): *"Ju, preciso falar fluente, todo mundo quer saber isso." / "Você vai conseguir. É muito mais importante a comunicação do que falar fluente."*
-> - Dentística (Webinar C, dispositivo "Bruno, mas…"): *"Bruno, tudo bem, mas eu não cobro isso ainda."*
+> - O programa de gestão (operação-referência): *"aí você pode falar: pô, mas eu não sou dono de empresa, que que eu tenho a ver com isso… Ah meu amigo, é aí que você se engana."*
+> - Arquitetura/inglês (a autora do case de arquitetura, formato "ventríloquo"): *"[host], preciso falar fluente, todo mundo quer saber isso." / "Você vai conseguir. É muito mais importante a comunicação do que falar fluente."*
+> - Dentística (Webinar C, dispositivo "[host], mas…"): *"o autor do case de odontologia, tudo bem, mas eu não cobro isso ainda."*
 > - Marketing (webinar de referência, pergunta plantada com o próprio nome): *"Is that hype, Jason? Absolutely not. I speak from experience seeing customers do exactly just that."*
 >
 > **O mecanismo (decalcável):** dar voz à dúvida na fala do espectador ("aí você pensa: …", "[seu nome], mas …?"), antes que ela amadureça em silêncio, e respondê-la no SEU enquadramento, não no do cético. **O recheio (do nicho):** a fala literal da dúvida vem do baú de voz do avatar - pro avatar do perfil (dono de negócio), as dúvidas são "minha equipe não dá conta", "não tenho tempo de dono", "meu mercado é diferente", "já comprei curso e não apliquei" - nunca o template CLT.
@@ -55,9 +55,9 @@ Nos 9 campeões do corpus, **a objeção quase nunca espera o Q&A**. Ela é **en
 O segundo achado: o player campeão não responde a objeção principal - ele a **vira do avesso**, transformando o motivo de NÃO comprar no maior motivo PRA comprar.
 
 > **EXEMPLO (inversão em vantagem - ver `exemplos-por-bloco/13-qa-objecoes.md`):**
-> - "minha área não usa gestão ágil" → *"é aí que tá a grande oportunidade […] em terra de cego quem tem olho é rei. Você trabalhar numa área que não tem gestão ágil, cara, você é rei ali."* (MindMaster - "terra de cego" é assinatura deles, extraia o mecanismo)
-> - "por que o americano me contrataria?" → *"a grade curricular do arquiteto brasileiro é muito superior à dos Estados Unidos. O arquiteto nos EUA se forma sem saber fazer projeto."* (Juliana Pupim)
-> - "não cobro esse preço, na minha região não dá" → *"você não confia no material porque você não confia em você mesmo. A resina sempre vai ser material nível B na mão de profissional que ainda é B pra trabalhar com resina."* (Webinar C/Bruno)
+> - "minha área não usa programa de gestão" → *"é aí que tá a grande oportunidade […] em terra de cego quem tem olho é rei. Você trabalhar numa área que não tem programa de gestão, cara, você é rei ali."* (operação-referência - "terra de cego" é assinatura deles, extraia o mecanismo)
+> - "por que o americano me contrataria?" → *"a grade curricular do arquiteto brasileiro é muito superior à dos Estados Unidos. O arquiteto nos EUA se forma sem saber fazer projeto."* (a autora do case de arquitetura)
+> - "não cobro esse preço, na minha região não dá" → *"você não confia no material porque você não confia em você mesmo. A resina sempre vai ser material nível B na mão de profissional que ainda é B pra trabalhar com resina."* (Webinar C/o autor do case de odontologia)
 > - "isso funciona internacionalmente?" → *"not only does this work internationally, this is one of the greatest untapped markets […] the coolest way to time travel is to pick what's working and port it over to a market that's never seen it."* (webinar de referência #2)
 >
 > **O mecanismo:** a objeção é defesa do cético; respondê-la defensivamente ("não, não é bem assim…") valida o frame dele. Invertê-la rouba o frame: o mesmo fato que ele usava pra dizer "não é pra mim" passa a provar "é exatamente pra mim". **Anti-padrão:** defender-se em vez de inverter.
@@ -236,9 +236,9 @@ A fórmula abstrata:
 
 > "A pergunta não é se você consegue [fazer X]. É se você quer ser o seu próprio [função operacional que ele não quer ser] por mais [janela de tempo]."
 
-> **EXEMPLO (a fala literal da rainha, voz autoral - METODO-WEBINAR-SOFT-COMPLETO, cap oferta):** o Léo trata a objeção-mãe "na moral": *"Sozinho dá. Eu fiz sozinho, levou anos. Mas qual caminho parece mais inteligente?"* A maioria responde "comigo". Repare: ele **nunca** diz "você não consegue". Concede e move. A síntese registrada no BLUEPRINT: *"Eu nem vou perguntar se você consegue, porque consegue. A pergunta é: você quer ser seu próprio departamento de operações por mais 6 meses?"* (⚠️ síntese, não verbatim - a frase canônica da objeção-mãe Soft fica como **(nome Soft: a definir com o especialista)**.)
+> **EXEMPLO (a fala literal da rainha, voz autoral - METODO-WEBINAR-SOFT-COMPLETO, cap oferta):** o autor do método trata a objeção-mãe "na moral": *"Sozinho dá. Eu fiz sozinho, levou anos. Mas qual caminho parece mais inteligente?"* A maioria responde "comigo". Repare: ele **nunca** diz "você não consegue". Concede e move. A síntese registrada no BLUEPRINT: *"Eu nem vou perguntar se você consegue, porque consegue. A pergunta é: você quer ser seu próprio departamento de operações por mais 6 meses?"* (⚠️ síntese, não verbatim - a frase canônica da objeção-mãe Soft fica como **(nome Soft: a definir com o especialista)**.)
 
-> **EXEMPLO (a objeção-mãe NOMEADA e invertida, nicho dentística - Webinar C/Bruno, ver `exemplos-por-bloco/13-qa-objecoes.md`):** Bruno nomeia a objeção-mãe da qual todas as outras derivam: *"Bruno, tudo bem, mas eu não cobro isso ainda. Então eu quero te perguntar agora: você não cobra isso porque você não confia no material - porque você não confia em você mesmo."* Repare o poder de nomear a objeção-mãe: ela permite **responder dez objeções com um único movimento** (região, preço, material - tudo deriva de "não confio em mim"). No avatar do perfil (dono de negócio orgulhoso), a objeção-mãe é "eu faço sozinho"; mas em avatares de competência insegura, a objeção-mãe pode ser o oposto ("não confio em mim"). Identifique QUAL é a do seu avatar antes de escolher concede-e-move (maduro) ou inversão-de-confiança (inseguro).
+> **EXEMPLO (a objeção-mãe NOMEADA e invertida, nicho dentística - Webinar C/o autor do case de odontologia, ver `exemplos-por-bloco/13-qa-objecoes.md`):** o autor do case de odontologia nomeia a objeção-mãe da qual todas as outras derivam: *"o autor do case de odontologia, tudo bem, mas eu não cobro isso ainda. Então eu quero te perguntar agora: você não cobra isso porque você não confia no material - porque você não confia em você mesmo."* Repare o poder de nomear a objeção-mãe: ela permite **responder dez objeções com um único movimento** (região, preço, material - tudo deriva de "não confio em mim"). No avatar do perfil (dono de negócio orgulhoso), a objeção-mãe é "eu faço sozinho"; mas em avatares de competência insegura, a objeção-mãe pode ser o oposto ("não confio em mim"). Identifique QUAL é a do seu avatar antes de escolher concede-e-move (maduro) ou inversão-de-confiança (inseguro).
 
 ### Por que converte de competência em ESCOLHA (e por que isso liberta)
 
@@ -266,7 +266,7 @@ A objeção-mãe ganha um slide próprio, e ele tem dois movimentos que andam ju
 
 1. **O slide de dois caminhos.** Caminho 1 - sozinho: tortuoso, longo, no escuro, na tentativa e erro. Caminho 2 - comigo: o atalho de quem já trilhou. Você desenha os dois lado a lado e pergunta pro chat qual escolhem.
 
-> **EXEMPLO (o slide dois caminhos, nicho gestão - MindMaster, via METODO-WEBINAR-SOFT-COMPLETO):** na MindMaster ele mostra os dois caminhos e pergunta pro chat *"caminho 1 ou caminho 2?"*, e o chat enche de *"2, 2, 2"*. Mas sempre com respeito: *"nada contra quem quer ir sozinho, eu só acho mais inteligente pegar um atalho com quem já fez."* O chat respondendo "2" é o próprio lead concluindo a venda - ninguém escolhe o caminho longo em voz alta.
+> **EXEMPLO (o slide dois caminhos, nicho gestão - operação-referência, via METODO-WEBINAR-SOFT-COMPLETO):** na operação-referência ele mostra os dois caminhos e pergunta pro chat *"caminho 1 ou caminho 2?"*, e o chat enche de *"2, 2, 2"*. Mas sempre com respeito: *"nada contra quem quer ir sozinho, eu só acho mais inteligente pegar um atalho com quem já fez."* O chat respondendo "2" é o próprio lead concluindo a venda - ninguém escolhe o caminho longo em voz alta.
 
 2. **A psicologia reversa - o slide "pra quem isso NÃO é".** Logo depois, um slide que desqualifica o tipo errado. Ninguém admite ser o tipo errado, então o lead se afirma como o tipo certo.
 
@@ -291,7 +291,7 @@ A objeção-mãe ganha um slide próprio, e ele tem dois movimentos que andam ju
 
 É o desejo verdadeiro do avatar - o motivo profundo, às vezes constrangedor, que ele **nunca escreve no chat** mas que move a decisão de verdade. Não é o benefício de catálogo ("mais clientes", "mais faturamento"). É a coisa por baixo dele: voltar a ser admirado, parar de sentir vergonha do próprio negócio, provar pra alguém específico, ter de volta o tempo com os filhos, deixar de ser o gargalo da própria vida.
 
-> Léo, na mentoria Olympo: *"No começo eu não conheço as pessoas, tô meio puritano. Uma hora e meia eu já tenho intimidade. Se você falasse [o desejo oculto] no começo: que escroto, sai fora, que babaca. Aqui você tem intimidade, pode ser mais incisivo."* (exemplo do nicho dele)
+> autor do método, na mentoria de referência D: *"No começo eu não conheço as pessoas, tô meio puritano. Uma hora e meia eu já tenho intimidade. Se você falasse [o desejo oculto] no começo: que escroto, sai fora, que babaca. Aqui você tem intimidade, pode ser mais incisivo."* (exemplo do nicho dele)
 
 ### Por que o timing é lei
 
@@ -429,7 +429,7 @@ Fastpass dá a porta de entrada **agora** - sem prejudicar quem precisa do conte
 ### Fastpass instanciado - o molde preenchido
 
 > **EXEMPLO (Fastpass preenchido, nicho gestão - molde do MANUAL-WEBINAR-SOFT cap 9 preenchido):**
-> "Antes de eu começar, um aviso rápido pra quem já me acompanha e já sabe que quer entrar. O [Método Gestão Ágil] está com inscrições abertas. Eu vou mostrar tudo no final, com calma. Mas se você já quer pular a fila e entrar agora, quem entra nos próximos minutos leva uma sessão extra de implementação comigo na semana de entrada - esse bônus só existe agora, não vai estar na oferta do final. O link tá aqui embaixo. Se você prefere entender o método primeiro, fica tranquilo, fica e absorve tudo."
+> "Antes de eu começar, um aviso rápido pra quem já me acompanha e já sabe que quer entrar. O [programa de gestão] está com inscrições abertas. Eu vou mostrar tudo no final, com calma. Mas se você já quer pular a fila e entrar agora, quem entra nos próximos minutos leva uma sessão extra de implementação comigo na semana de entrada - esse bônus só existe agora, não vai estar na oferta do final. O link tá aqui embaixo. Se você prefere entender o método primeiro, fica tranquilo, fica e absorve tudo."
 >
 > Repare: aviso transparente → nome do produto → "explico no final" → bônus REAL e exclusivo de agora → CTA discreta → retorno ao conteúdo. Não é o pitch, é a porta.
 
@@ -454,7 +454,7 @@ Inserida **dentro de uma resposta** do Q&A. Não é parágrafo isolado.
 
 > **EXEMPLO (Genie costurado numa resposta de objeção financeira, nicho nutrição):**
 > Pergunta do chat: *"vale a pena pelo preço?"*
-> Resposta + Genie embutido: "Vale, e eu te mostrei a conta: o que você gasta de besteira no mês paga isso. **Por isso o MDI já inclui o cardápio pronto, pra você não gastar pensando o que comer. E quem entrar agora ainda pega o grupo de acompanhamento dos primeiros 30 dias, que fecha hoje à noite.** Mas vamos pra próxima."
+> Resposta + Genie embutido: "Vale, e eu te mostrei a conta: o que você gasta de besteira no mês paga isso. **Por isso o [PROGRAMA] já inclui o cardápio pronto, pra você não gastar pensando o que comer. E quem entrar agora ainda pega o grupo de acompanhamento dos primeiros 30 dias, que fecha hoje à noite.** Mas vamos pra próxima."
 >
 > Repare: o Genie só existe porque a resposta ANTES dele cobriu a objeção (preço). Ele é uma costura de 2-3 frases dentro da resposta, com bônus de ação rápida e prazo - e volta pro Q&A. Nunca um parágrafo solto de venda.
 
@@ -545,7 +545,7 @@ Quem faz pergunta evasiva ("e se eu não conseguir? e se for diferente? e tal de
 
 Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação seletiva que eleva o valor do grupo em vez de implorar pela venda. A resposta qualifica quem entra, não suplica.
 
-> **EXEMPLO (takeaway dentro da resposta, nicho nutrição - Webinar Léo A/Vítor, ver `exemplos-por-bloco/13-qa-objecoes.md`):** dentro de uma resposta sobre adequação, ele desqualifica de propósito: *"agora se você quer continuar sedentária por escolha, não quer se cuidar, não entra pra mim, daí não é pra você. Gente preguiçosa me irrita, eu não gosto. Se você quer começar, vem, vou ficar muito feliz de ter você lá, de verdade."* O mecanismo: o takeaway mira **comportamento** ("preguiçosa por escolha"), nunca a pessoa que perguntou - e o "não é pra todo mundo" faz o lead certo se afirmar. **Anti-padrão:** esmagar quem pergunta - humilhar uma pergunta congela o chat inteiro.
+> **EXEMPLO (takeaway dentro da resposta, nicho nutrição - Webinar de referência A/o autor do case de nutrição, ver `exemplos-por-bloco/13-qa-objecoes.md`):** dentro de uma resposta sobre adequação, ele desqualifica de propósito: *"agora se você quer continuar sedentária por escolha, não quer se cuidar, não entra pra mim, daí não é pra você. Gente preguiçosa me irrita, eu não gosto. Se você quer começar, vem, vou ficar muito feliz de ter você lá, de verdade."* O mecanismo: o takeaway mira **comportamento** ("preguiçosa por escolha"), nunca a pessoa que perguntou - e o "não é pra todo mundo" faz o lead certo se afirmar. **Anti-padrão:** esmagar quem pergunta - humilhar uma pergunta congela o chat inteiro.
 
 ---
 
@@ -576,7 +576,7 @@ Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação s
 >
 > Se a tua era 'não tenho tempo' - agora você sabe que essa não barra mais."
 
-> **EXEMPLO (objeção de tempo resolvida por FEATURE, encenada em 1ª pessoa, nicho gestão - MindMaster, ver `exemplos-por-bloco/13-qa-objecoes.md`):** em vez de discutir o tempo, ele converte a objeção numa feature do produto. Encena a dúvida e responde: *"Ah, não consigo, os próximos 90 dias eu tô sem tempo agora - não tem problema, você vai ter 12 meses de acesso pra você poder iniciar quando você puder."* O mecanismo: quando a objeção de tempo é real (a pessoa de fato está sufocada), não brigue com a realidade dela - mostre que a estrutura do produto absorve a falta de tempo (acesso longo, ritmo flexível). No Soft, o cronograma pré-definido e a IA Vertical são exatamente os features que matam essa objeção.
+> **EXEMPLO (objeção de tempo resolvida por FEATURE, encenada em 1ª pessoa, nicho gestão - operação-referência, ver `exemplos-por-bloco/13-qa-objecoes.md`):** em vez de discutir o tempo, ele converte a objeção numa feature do produto. Encena a dúvida e responde: *"Ah, não consigo, os próximos 90 dias eu tô sem tempo agora - não tem problema, você vai ter 12 meses de acesso pra você poder iniciar quando você puder."* O mecanismo: quando a objeção de tempo é real (a pessoa de fato está sufocada), não brigue com a realidade dela - mostre que a estrutura do produto absorve a falta de tempo (acesso longo, ritmo flexível). No Soft, o cronograma pré-definido e a IA Vertical são exatamente os features que matam essa objeção.
 
 ### 2. Objeção de DINHEIRO
 
@@ -612,7 +612,7 @@ Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação s
 > - Ancoragem por dia (voz autoral): *"165 dividido por 30 é R$5,50 por dia. É mais barato que o MBA e mais rápido."*
 > O mecanismo: a conta sempre termina **transferindo a pergunta de "cabe no orçamento?" pra "eu vou aplicar?"** - porque pra quem aplica o preço some, e pra quem não aplica nenhum preço cabe. No seu, monte a conta com os números reais do funil do avatar.
 
-> **EXEMPLO (honestidade na objeção de juros, nicho gestão - GAIA2k/MindMaster, ver `exemplos-por-bloco/13-qa-objecoes.md`):** quando a objeção financeira é sobre juros do parcelamento (objeção real, não plantada), a jogada é honestidade + transferência de culpa + re-ancoragem: *"Sim, 12 vezes tem um juros ali. Nem é pra gente, eu não recebo esses juros, é pra a bandeira do cartão. Mas, cara, R$1,99 por mês é uma parcela irrisória perto de tudo que você vai ganhar aqui."* Admitir o defeito e explicar o porquê **compra credibilidade no momento de maior desconfiança**. Anti-padrão: esconder ou minimizar o juro - o lead percebe e a confiança cai.
+> **EXEMPLO (honestidade na objeção de juros, nicho gestão - GA ed.1/operação-referência, ver `exemplos-por-bloco/13-qa-objecoes.md`):** quando a objeção financeira é sobre juros do parcelamento (objeção real, não plantada), a jogada é honestidade + transferência de culpa + re-ancoragem: *"Sim, 12 vezes tem um juros ali. Nem é pra gente, eu não recebo esses juros, é pra a bandeira do cartão. Mas, cara, R$1,99 por mês é uma parcela irrisória perto de tudo que você vai ganhar aqui."* Admitir o defeito e explicar o porquê **compra credibilidade no momento de maior desconfiança**. Anti-padrão: esconder ou minimizar o juro - o lead percebe e a confiança cai.
 
 ### 3. Objeção de ADEQUAÇÃO
 
@@ -639,9 +639,9 @@ Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação s
 >
 > Aliás, **se na primeira semana você ver que não se aplica ao teu nicho, devolvemos 100%**. Sem fricção."
 
-> **EXEMPLO (objeção de adequação invertida em vantagem, nicho gestão - MindMaster, ver `exemplos-por-bloco/13-qa-objecoes.md`):** a versão mais forte da objeção de adequação não é respondida, é virada do avesso. *"Muita gente pode estar perguntando: mas gestão ágil ainda não é exigida na minha área, será que vale a pena? Se você está nessa situação, é aí que tem a maior oportunidade pra você. Você é a pessoa com dois olhos numa terra de cego. Você vai nadar de braçada."* O mecanismo: o fato que parecia desqualificar o lead ("minha área não usa") passa a ser o motivo de ele largar na frente. No avatar do perfil, "meu mercado é diferente / é saturado" vira "se é saturado de todo mundo fazendo igual, você é o único que vai fazer diferente - a saturação é o seu mercado-alvo". (O reframe "terra de cego" é assinatura MindMaster - extraia o mecanismo, reconstrua na voz do especialista.)
+> **EXEMPLO (objeção de adequação invertida em vantagem, nicho gestão - operação-referência, ver `exemplos-por-bloco/13-qa-objecoes.md`):** a versão mais forte da objeção de adequação não é respondida, é virada do avesso. *"Muita gente pode estar perguntando: mas programa de gestão ainda não é exigida na minha área, será que vale a pena? Se você está nessa situação, é aí que tem a maior oportunidade pra você. Você é a pessoa com dois olhos numa terra de cego. Você vai nadar de braçada."* O mecanismo: o fato que parecia desqualificar o lead ("minha área não usa") passa a ser o motivo de ele largar na frente. No avatar do perfil, "meu mercado é diferente / é saturado" vira "se é saturado de todo mundo fazendo igual, você é o único que vai fazer diferente - a saturação é o seu mercado-alvo". (O reframe "terra de cego" é assinatura operação-referência - extraia o mecanismo, reconstrua na voz do especialista.)
 
-> **EXEMPLO (adequação com prova reciclada por gênero/idade, nicho nutrição - Webinar Léo A/Vítor, ver `exemplos-por-bloco/13-qa-objecoes.md`):** a objeção de adequação muitas vezes é "funciona pro meu perfil?" (idade, gênero). Resposta com prova já mostrada na aula: *"funciona pra todas as idades, de 14 a 65 anos […] funciona pra homem também, com certeza, como mostrei o resultado do Renato, do Vander."* O mecanismo: reciclar na resposta uma prova que o lead JÁ viu economiza confiança e fecha a objeção sem nova prova.
+> **EXEMPLO (adequação com prova reciclada por gênero/idade, nicho nutrição - Webinar de referência A/o autor do case de nutrição, ver `exemplos-por-bloco/13-qa-objecoes.md`):** a objeção de adequação muitas vezes é "funciona pro meu perfil?" (idade, gênero). Resposta com prova já mostrada na aula: *"funciona pra todas as idades, de 14 a 65 anos […] funciona pra homem também, com certeza, como mostrei o resultado do Renato, do Vander."* O mecanismo: reciclar na resposta uma prova que o lead JÁ viu economiza confiança e fecha a objeção sem nova prova.
 
 ### 4. Objeção de COMPETÊNCIA
 
@@ -676,9 +676,9 @@ Uma resposta de objeção pode embutir um **takeaway** - uma desqualificação s
 > Se essa era tua dúvida - agora sabe que não barra."
 
 > **EXEMPLO (competência do iniciante resolvida com redução do primeiro passo + bordão, 2 nichos - ver `exemplos-por-bloco/13-qa-objecoes.md`):**
-> - Arquitetura/software (Juliana Pupim): *"Ah, Ju, mas eu só sei AutoCAD. Comece com AutoCAD. Põe o carro pra andar e vai trocando a roda no meio do caminho."*
-> - Gestão (GAIA2k): *"pô, eu nunca participei de um projeto ágil, não tenho experiência. Cara, você vai já colocar na prática em você mesmo. Antes de colocar em projeto, você já coloca em você mesmo."*
-> O mecanismo: a objeção de competência do iniciante se mata **reduzindo o primeiro passo ao que ele já consegue fazer hoje**, não provando que ele vai virar expert. Repare que isso é o OPOSTO da objeção-mãe - aqui você prova que é acessível; na objeção-mãe você concede que ele já é capaz. ("Põe o carro pra andar e vai trocando a roda" é bordão da Juliana - extraia o mecanismo.)
+> - Arquitetura/software (a autora do case de arquitetura): *"Ah, [host], mas eu só sei AutoCAD. Comece com AutoCAD. Põe o carro pra andar e vai trocando a roda no meio do caminho."*
+> - Gestão (GA ed.1): *"pô, eu nunca participei de um projeto ágil, não tenho experiência. Cara, você vai já colocar na prática em você mesmo. Antes de colocar em projeto, você já coloca em você mesmo."*
+> O mecanismo: a objeção de competência do iniciante se mata **reduzindo o primeiro passo ao que ele já consegue fazer hoje**, não provando que ele vai virar expert. Repare que isso é o OPOSTO da objeção-mãe - aqui você prova que é acessível; na objeção-mãe você concede que ele já é capaz. ("Põe o carro pra andar e vai trocando a roda" é bordão da autora do case de arquitetura - extraia o mecanismo.)
 
 ### 5. Objeção de TIMING
 
@@ -807,9 +807,9 @@ Um slide (ou bloco de fala no perpétuo) com "as dúvidas que sempre surgem", re
 6. PAGAMENTO         "Quais formas de pagamento / dá pra parcelar?"
 ```
 
-> **EXEMPLO (FAQ operacional em rajada, voz pré-compilada da pesquisa de inscrição, nicho gestão - Gestão Ágil ed. 2.0/MindMaster, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"como eu tenho muita gente na aula, a equipe já foi separando algumas dúvidas no questionário inicial, e a gente compilou aqui no slide. Tem algum pré-requisito? Não, não tem nenhum. Vou ter suporte? Vai ter suporte diário. Vou receber certificado? Sim. Formas de pagamento: pode pagar no cartão, PayPal, boleto, Pix."* Repare a sacada: a FAQ é alimentada pela MESMA pesquisa de inscrição usada lá no início - o funil alimenta o Q&A.
+> **EXEMPLO (FAQ operacional em rajada, voz pré-compilada da pesquisa de inscrição, nicho gestão - GA ed.2/operação-referência, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"como eu tenho muita gente na aula, a equipe já foi separando algumas dúvidas no questionário inicial, e a gente compilou aqui no slide. Tem algum pré-requisito? Não, não tem nenhum. Vou ter suporte? Vai ter suporte diário. Vou receber certificado? Sim. Formas de pagamento: pode pagar no cartão, PayPal, boleto, Pix."* Repare a sacada: a FAQ é alimentada pela MESMA pesquisa de inscrição usada lá no início - o funil alimenta o Q&A.
 
-> **EXEMPLO (FAQ-rajada como "sim, e por isso é ainda melhor pra você", nicho nutrição/dentística - Webinar Léo A, via MANUAL-WEBINAR-SOFT cap 9):** o FAQ final dispara as desculpas em sequência e responde cada uma virando vantagem: *"funciona online? pra quem não tem tempo? pra homem? acima de 65 anos? é caro? é complicado?"* - cada resposta é "sim, e por isso é ainda melhor pra você". No de perícia: *"acabei de me formar, terei chance? Sim. Tem idade limite? Não há discriminação."* O mecanismo: a rajada varre as últimas barreiras antes do botão, e o ritmo rápido impede qualquer uma de virar âncora de hesitação. No seu, liste as 6 a 8 desculpas mais comuns do avatar e responda em sequência, cada uma virando argumento a favor.
+> **EXEMPLO (FAQ-rajada como "sim, e por isso é ainda melhor pra você", nicho nutrição/dentística - Webinar de referência A, via MANUAL-WEBINAR-SOFT cap 9):** o FAQ final dispara as desculpas em sequência e responde cada uma virando vantagem: *"funciona online? pra quem não tem tempo? pra homem? acima de 65 anos? é caro? é complicado?"* - cada resposta é "sim, e por isso é ainda melhor pra você". No de perícia: *"acabei de me formar, terei chance? Sim. Tem idade limite? Não há discriminação."* O mecanismo: a rajada varre as últimas barreiras antes do botão, e o ritmo rápido impede qualquer uma de virar âncora de hesitação. No seu, liste as 6 a 8 desculpas mais comuns do avatar e responda em sequência, cada uma virando argumento a favor.
 
 > **Anti-padrão:** pular o FAQ "chato" porque parece banal. Pré-requisito, acesso e pagamento liberam o comprador silencioso - ignorá-los deixa dinheiro no checkout.
 
@@ -823,11 +823,11 @@ Um slide (ou bloco de fala no perpétuo) com "as dúvidas que sempre surgem", re
 
 1. **E-mail comercial de plantão** - um endereço, dito em voz alta no fim, com equipe de plantão durante o webinar, que **mantém as mesmas condições** sem furar a escassez em público.
 
-> **EXEMPLO (e-mail de plantão, inclusive "deu erro no cartão", nicho gestão - MindMaster, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"E se sobrar alguma dúvida não respondida aqui, você pode mandar um e-mail pra comercial@mindmaster.com.br, a nossa equipe comercial está de plantão. Ah, Denison, não consegui pagar, deu erro no meu cartão - manda aqui, o pessoal tá lá pra te ajudar."* E o Fastpass que preserva condições: *"fala, eu estava lá no webinar e não consegui fazer a inscrição, que aí a nossa equipe vai garantir as mesmas condições que você viu aqui."* O mecanismo: reconhecer em voz alta que venda morre em atrito ("deu erro no cartão") e tapar esse ralo, estendendo a venda sem estender a escassez publicamente.
+> **EXEMPLO (e-mail de plantão, inclusive "deu erro no cartão", nicho gestão - operação-referência, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"E se sobrar alguma dúvida não respondida aqui, você pode mandar um e-mail pra [o e-mail comercial da operação-referência], a nossa equipe comercial está de plantão. Ah, [host], não consegui pagar, deu erro no meu cartão - manda aqui, o pessoal tá lá pra te ajudar."* E o Fastpass que preserva condições: *"fala, eu estava lá no webinar e não consegui fazer a inscrição, que aí a nossa equipe vai garantir as mesmas condições que você viu aqui."* O mecanismo: reconhecer em voz alta que venda morre em atrito ("deu erro no cartão") e tapar esse ralo, estendendo a venda sem estender a escassez publicamente.
 
 2. **Canal 1:1 no WhatsApp** - pra dúvida residual íntima depois do pitch, que não se reabre no palco mas se fecha no privado.
 
-> **EXEMPLO (canal 1:1 pós-pitch, nicho arquitetura - Juliana Pupim, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"se vocês ainda tiverem alguma dúvida pode mandar aqui no chat. Se não, pode chamar minha equipe lá no WhatsApp, na sala secreta. Você pode chamar no privado lá e tirar sua dúvida."* O mecanismo: não reabrir debate na sala (contamina a sala inteira) - empurrar a dúvida residual pro atendimento humano, onde se fecha venda. ("Sala secreta" é assinatura da Juliana - extraia o mecanismo, nomeie no Soft com o especialista.)
+> **EXEMPLO (canal 1:1 pós-pitch, nicho arquitetura - a autora do case de arquitetura, ver `exemplos-por-bloco/13-qa-objecoes.md`):** *"se vocês ainda tiverem alguma dúvida pode mandar aqui no chat. Se não, pode chamar minha equipe lá no WhatsApp, na sala secreta. Você pode chamar no privado lá e tirar sua dúvida."* O mecanismo: não reabrir debate na sala (contamina a sala inteira) - empurrar a dúvida residual pro atendimento humano, onde se fecha venda. ("Sala secreta" é assinatura da autora do case de arquitetura - extraia o mecanismo, nomeie no Soft com o especialista.)
 
 3. **Conditional close 1:1 transmitido pra sala** - fechar uma pessoa específica ao vivo, na frente de todos, para que a sala inteira veja a objeção morrer e a compra acontecer.
 
@@ -915,7 +915,7 @@ Plataforma (EverWebinar, WebinarKit) injeta perguntas pré-escritas no chat ao v
 - **No ao vivo, deixa o público fazer 2-3 perguntas reais primeiro** antes de introduzir uma plantada. Mostra que o Q&A é genuíno.
 - **Genie não é Fastpass.** Fastpass abre porta no início pros prontos. Genie reforça oferta no Q&A pros indecisos. Os dois coexistem.
 - **Desejo oculto e sabotador externo NÃO vivem no Q&A** - o Q&A é racional (limpa objeção). O desejo oculto pede o palco do fechamento; o sabotador é pré-inoculado no corpo do webinar. Não jogue os três no mesmo bloco.
-- **As objeções de um avatar são FINITAS e roteirizáveis.** Uma vez mapeadas (3-5 recorrentes), as respostas se reusam verbatim entre edições - a máquina MindMaster roda as mesmas respostas em todo webinar; o Léo A roteiriza o FAQ inteiro pro perpétuo. **Este bloco se ESCREVE uma vez, não se improvisa toda edição.** Para o avatar do perfil (dono de negócio), minere as objeções do baú de voz: "minha equipe não dá conta", "não tenho tempo de dono", "meu mercado é diferente", "já comprei curso e não apliquei" - nunca o template CLT.
+- **As objeções de um avatar são FINITAS e roteirizáveis.** Uma vez mapeadas (3-5 recorrentes), as respostas se reusam verbatim entre edições - a máquina da operação-referência roda as mesmas respostas em todo webinar; o webinar de referência A roteiriza o FAQ inteiro pro perpétuo. **Este bloco se ESCREVE uma vez, não se improvisa toda edição.** Para o avatar do perfil (dono de negócio), minere as objeções do baú de voz: "minha equipe não dá conta", "não tenho tempo de dono", "meu mercado é diferente", "já comprei curso e não apliquei" - nunca o template CLT.
 - **Mate a objeção no bloco onde ela NASCE, não no Q&A final.** Objeção de área → no diagnóstico; de tempo → na oferta; de preço → na ancoragem. Nenhum campeão acumula objeção pro fim - quando chegam ao Q&A, ele já é burocracia de pedido (FAQ operacional), não campo de batalha.
 - **Sim e não são aceitáveis; "talvez" é o inimigo.** O bloco existe pra forçar decisão, não pra esgotar curiosidade. Quem está em "talvez" não precisa de mais informação - precisa de uma forma de decidir sem risco (a garantia).
 

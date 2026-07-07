@@ -1,23 +1,23 @@
 # Interação com chat (TRANSVERSAL - escada de micro-compromissos, eco nominal, chat como termômetro e motor)
 
-> Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo do método; a cadência "Would you like…? Of course." e o caso Ian = webinar de referência.
+> Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
+> Ressalva de atribuição: o "Webinar C" do corpus do autor do método tem voz única que se identifica como **o autor do case de odontologia** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo do método; a cadência "Would you like…? Of course." e o caso Ian = webinar de referência.
 
 ---
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-O chat não é acessório: é o sistema operacional do webinar - termômetro E motor. A premissa central, presente nos 9 campeões: construir uma ESCADA de micro-compromissos que sobe de custo ao longo da aula ("tá me ouvindo?" → nome/cidade/profissão → "qual seu maior desafio?" → confissão da dor → voto na enquete → "tá gostando?" → "sim eu quero" → "caminho 2" → "já me inscrevi") - cada resposta digitada é um sim comportamental público que torna o sim financeiro do final coerente com o histórico que a própria pessoa escreveu (consistência de Cialdini operacionalizada via teclado). Regras de execução comuns: (1) TODO pedido de chat tem reason-why funcional ("se ninguém colocar eu não vou saber", "pra eu saber se tô falando com as pessoas certas") - obedecer parece ajudar o host, nunca ceder a dinâmica de engajamento; (2) eco nominal sistemático - quem escreve é lido em voz alta com nome (20-25 nomes por live na máquina MindMaster), ensinando a sala que participar é recompensado; (3) perguntas-isca de resposta óbvia ou fechada (T/F, números 1-5, "qual a chance? nenhuma né") que maximizam taxa de resposta sem risco pra quem responde; (4) eco seletivo - o host repete em voz alta só o comentário que serve à narrativa do momento, inclusive convertendo comentário ambíguo em argumento de venda ("fiquei perdida com tanto conteúdo" → "por isso existe o curso"); (5) no fechamento, o chat vira placar público de vendas (compras anunciadas e celebradas com nome). No formato GRAVADO/PERPÉTUO a função sobrevive com outra engenharia: fallback verbal ("say yes out loud"), eco genérico sem nomes ("aparentemente tô falando com a galera certa"), cadência de auto-pergunta-e-resposta - NUNCA nomes falsos.
+O chat não é acessório: é o sistema operacional do webinar - termômetro E motor. A premissa central, presente nos 9 campeões: construir uma ESCADA de micro-compromissos que sobe de custo ao longo da aula ("tá me ouvindo?" → nome/cidade/profissão → "qual seu maior desafio?" → confissão da dor → voto na enquete → "tá gostando?" → "sim eu quero" → "caminho 2" → "já me inscrevi") - cada resposta digitada é um sim comportamental público que torna o sim financeiro do final coerente com o histórico que a própria pessoa escreveu (consistência de Cialdini operacionalizada via teclado). Regras de execução comuns: (1) TODO pedido de chat tem reason-why funcional ("se ninguém colocar eu não vou saber", "pra eu saber se tô falando com as pessoas certas") - obedecer parece ajudar o host, nunca ceder a dinâmica de engajamento; (2) eco nominal sistemático - quem escreve é lido em voz alta com nome (20-25 nomes por live na máquina da operação-referência), ensinando a sala que participar é recompensado; (3) perguntas-isca de resposta óbvia ou fechada (T/F, números 1-5, "qual a chance? nenhuma né") que maximizam taxa de resposta sem risco pra quem responde; (4) eco seletivo - o host repete em voz alta só o comentário que serve à narrativa do momento, inclusive convertendo comentário ambíguo em argumento de venda ("fiquei perdida com tanto conteúdo" → "por isso existe o curso"); (5) no fechamento, o chat vira placar público de vendas (compras anunciadas e celebradas com nome). No formato GRAVADO/PERPÉTUO a função sobrevive com outra engenharia: fallback verbal ("say yes out loud"), eco genérico sem nomes ("aparentemente tô falando com a galera certa"), cadência de auto-pergunta-e-resposta - NUNCA nomes falsos.
 
 ---
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, ed. A) - a escada completa, do "tá me ouvindo" ao "já me inscrevi"
+### Webinar de gestão (8 dígitos) (operação-referência, ed. A) - a escada completa, do "tá me ouvindo" ao "já me inscrevi"
 
 **Trecho literal:**
 
-> (censo da sala + apresentação cruzada) "coloca aqui nos comentários quem já me conhece, quem já conhece a Mind Master […] coloca aqui o o seu nome, a sua profissão, seu maior desafio ou o que que você veio buscar nessa aula, coloca aqui no chat pra gente ir se conhecendo. Enquanto você se apresenta eu vou me apresentar para essa galera nova"
+> (censo da sala + apresentação cruzada) "coloca aqui nos comentários quem já me conhece, quem já conhece a operação-referência […] coloca aqui o o seu nome, a sua profissão, seu maior desafio ou o que que você veio buscar nessa aula, coloca aqui no chat pra gente ir se conhecendo. Enquanto você se apresenta eu vou me apresentar para essa galera nova"
 
 > (eco de nomes e profissões) "tô vendo aqui Janaína do governança corporativa, arian chefe de ti, e Renato gestor administrativo ipmp, olha só que legal […] e Ita infermeira, olha só que legal, Tem gente com qué lugar"
 
@@ -39,7 +39,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### 5 Níveis de Planejamento (Denison/MindMaster) - o exemplar mais denso: 20+ nomes lidos e a pausa da "aguinha"
+### 5N (o estrategista da operação-referência) - o exemplar mais denso: 20+ nomes lidos e a pausa da "aguinha"
 
 **Trecho literal:**
 
@@ -61,7 +61,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Gestão Ágil ed. 2.0 (MindMaster) - chat como coautor do argumento
+### GA ed.2 (operação-referência) - chat como coautor do argumento
 
 **Trecho literal:**
 
@@ -71,7 +71,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 > (chat ensinando o host, com crédito devolvido) "Estou vendo, o pessoal está colocando aqui o atual, não seria o mundo BUNNY. […] Antônio me ajudou aqui, o Bani é o que quer dizer? frágil, ansioso, não linear e incompreensível."
 
-> (comentário ambíguo convertido em venda) "A Ana está falando aqui, eu fiquei até perdida com tanto conteúdo. Cara, é muito conteúdo, por isso que não dá para explicar tudo isso. […] por isso que a gente tem um programa gestão ágil 2.0, onde a gente consegue aprofundar esse conteúdo com calma."
+> (comentário ambíguo convertido em venda) "A Ana está falando aqui, eu fiquei até perdida com tanto conteúdo. Cara, é muito conteúdo, por isso que não dá para explicar tudo isso. […] por isso que a gente tem um programo programa de gestão (ed. 2), onde a gente consegue aprofundar esse conteúdo com calma."
 
 > (tamanho da sala revelado no alinhamento) "Digita aqui, sim eu quero, só para eu saber. A pessoa está vendo aqui, somos 377 alunos. […] nossa, choveu um monte de comentário aqui, sim eu quero, sim eu quero, legal, estamos alinhados."
 
@@ -83,7 +83,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### GAIA2k (Denison/MindMaster) - a escada mapeada de ponta a ponta com o porquê declarado
+### GA ed.1 (o estrategista da operação-referência) - a escada mapeada de ponta a ponta com o porquê declarado
 
 **Trecho literal:**
 
@@ -107,7 +107,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Aluna 80k (Juliana Pupim) - o chat fazendo a audiência se declarar em três tempos
+### Case de arquitetura (a autora do case de arquitetura) - o chat fazendo a audiência se declarar em três tempos
 
 **Trecho literal:**
 
@@ -129,9 +129,9 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Webinar Léo A (pele Soft: nutrição / Vítor Abrão / MDI) - a engenharia de interação pra PERPÉTUO (nota clínica decisiva)
+### Webinar de referência A (pele Soft: nutrição / o autor do case de nutrição) - a engenharia de interação pra PERPÉTUO (nota clínica decisiva)
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o autor do case de nutrição)*
 
 > (censo de abertura) "comenta aqui para mim por gentileza: De onde você é, qual é o teu nome e qual é o teu objetivo, por que que você tá aqui nessa aula"
 
@@ -151,11 +151,11 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 **Por que funciona:** quem digita 8 vezes ao longo de 90 minutos construiu identidade pública de "comprometida" - recusar a oferta no fim viraria incoerência consigo mesma. E o desenho honesto (eco genérico, zero nomes) entrega o efeito de sala viva sem criar promessa que a gravação não cumpre.
 
-**O que é decalcável vs do nicho:** decalcável: ESTE é o gabarito de interação pra perpétuo do método - escada completa + eco genérico + pergunta retórica de resposta única. Do nicho: elefante/dieta/hashtag (a hashtag-revolução é da pele Vítor).
+**O que é decalcável vs do nicho:** decalcável: ESTE é o gabarito de interação pra perpétuo do método - escada completa + eco genérico + pergunta retórica de resposta única. Do nicho: elefante/dieta/hashtag (a hashtag-revolução é da pele o autor do case de nutrição).
 
 ---
 
-### Webinar C (corpus Léo - voz Bruno, dentista) - chat como caixa registradora e alunos como testemunhas ao vivo
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - chat como caixa registradora e alunos como testemunhas ao vivo
 
 **Trecho literal:**
 
@@ -167,15 +167,15 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 > (alunos atuais como prova viva) "tem pessoas que são meus alunos, conversa comigo aqui - legal, concluiu o curso já, show de bola, já está fazendo, já tá ganhando dinheiro fazendo resina […] Camila, como é que tá indo o curso? Me conta, escreve para mim aqui"
 
-> (validação por alunos sob demanda) "Bruno, que nunca mais vai [errar] cor? Nunca mais vai a cor - pergunta meus alunos, a galera que já é meu aluno aqui no chat, olha aqui para mim: terra, você não erra a cor"
+> (validação por alunos sob demanda) "o autor do case de odontologia, que nunca mais vai [errar] cor? Nunca mais vai a cor - pergunta meus alunos, a galera que já é meu aluno aqui no chat, olha aqui para mim: terra, você não erra a cor"
 
-> (celebração nominal de compradores) "Quem já se inscreveu escreve para mim aqui, escreve 'Bruno, já deu certo a minha inscrição' - analise, Parabéns analise, bem-vinda, bem-vinda ao time de faixa preta. Babi, Parabéns Babi, bem-vindo ao time. […] Lorena, acabou o jogo, ganho, jogo ganho."
+> (celebração nominal de compradores) "Quem já se inscreveu escreve para mim aqui, escreve 'o autor do case de odontologia, já deu certo a minha inscrição' - analise, Parabéns analise, bem-vinda, bem-vinda ao time de faixa preta. Babi, Parabéns Babi, bem-vindo ao time. […] Lorena, acabou o jogo, ganho, jogo ganho."
 
 **O que ele fez:** escada de micro-compromissos crescentes (cidade → frase → "anota" → "escreve meio" → "faz sentido?" → "me conta seu caso" → "escreve que sua inscrição deu certo"); eco nominal com resposta personalizada; alunos atuais convocados como testemunhas ao vivo ("pergunta meus alunos aqui no chat"); engenharia de consenso ("a maioria concorda para mim também"); ditado de mantras (o espectador digita a Big Idea com as próprias mãos); no carrinho, o chat vira placar público de vendas com boas-vindas ao "time de faixa preta".
 
 **Por que funciona:** cada micro-compromisso digitado é um sim comportamental que torna o sim financeiro coerente. E o chat lido em voz alta fabrica densidade social - quem assiste sente sala cheia e movimento de manada na hora exata da compra.
 
-**O que é decalcável vs do nicho:** decalcável: convocar alunos presentes como testemunhas, o ditado do mantra, a celebração nominal de compradores com rito de pertencimento. Do nicho/dono: "time de faixa preta" é do Bruno.
+**O que é decalcável vs do nicho:** decalcável: convocar alunos presentes como testemunhas, o ditado do mantra, a celebração nominal de compradores com rito de pertencimento. Do nicho/dono: "time de faixa preta" é do autor do case de odontologia.
 
 ---
 
@@ -197,7 +197,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 **Por que funciona:** num formato sem chat real, ele simula a fisiologia de uma conversa: pergunta, pausa implícita, resposta. O cérebro do espectador responde mesmo sem digitar - cada micro-sim é um tijolo do sim final. E revelar a técnica enquanto a usa, em vez de quebrar o encanto, aprofunda a confiança.
 
-**O que é decalcável vs do nicho:** decalcável: o fallback "diz em voz alta", a cadência de auto-pergunta-e-resposta, a prova chegando "ao vivo" com timing desenhado. Do nicho: nada - é o segundo gabarito de evergreen (junto com Léo A).
+**O que é decalcável vs do nicho:** decalcável: o fallback "diz em voz alta", a cadência de auto-pergunta-e-resposta, a prova chegando "ao vivo" com timing desenhado. Do nicho: nada - é o segundo gabarito de evergreen (junto com webinar de referência A).
 
 ---
 
@@ -227,7 +227,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 - [ ] **Escada de micro-compromissos subindo de custo** - do trivial ("tá me ouvindo?") ao transacional ("já me inscrevi"), com 6-9 degraus distribuídos pelo webinar inteiro. O sim final é o último degrau de uma escada, nunca o primeiro pedido.
 - [ ] **Reason-why funcional em TODO pedido de chat** ("se ninguém colocar eu não vou saber"; "pra eu saber se tô falando com as pessoas certas"; "ajuda quem está de fora") - obedecer parece ajudar o host.
-- [ ] **Eco nominal sistemático** - quem escreve é lido com nome e resposta personalizada (20-25 nomes/live na máquina MindMaster); a sala aprende que participar é recompensado.
+- [ ] **Eco nominal sistemático** - quem escreve é lido com nome e resposta personalizada (20-25 nomes/live na máquina da operação-referência); a sala aprende que participar é recompensado.
 - [ ] **Perguntas-isca de resposta fechada ou óbvia** (T/F, números 1-5, "qual a chance? nenhuma né", tomada da geladeira) - participação de custo zero e taxa de resposta máxima.
 - [ ] **Eco seletivo a serviço da narrativa** - repetir em voz alta só o que serve ao momento; converter comentário ambíguo em argumento ("fiquei perdida" → "por isso existe o curso").
 - [ ] **Chat como coautor e testemunha** - a sala constrói o argumento, o aluno presente valida ao vivo ("pergunta meus alunos aqui no chat"), o comentário espontâneo vira prova.
@@ -242,17 +242,17 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 - **Pedir interação sem razão funcional** ("comenta aí!", "manda um foguinho") - nenhum campeão pede engajamento pelo engajamento; todo pedido tem utilidade declarada pro host.
 - **Pedir e ignorar.** Comando de chat sem eco depois quebra o contrato no primeiro degrau - a sala aprende que responder não rende nada e o chat morre pro resto da live.
 - **Interação de custo alto cedo demais.** Ninguém abre pedindo confissão pesada ou opinião elaborada - a escada começa no custo zero e sobe devagar.
-- **Em perpétuo, ler nomes falsos ou simular chat vivo.** O desenho honesto validado é o do Léo A (eco genérico) e do webinar de referência #1 (fallback verbal + auto-resposta) - nome inventado é a mentira que, descoberta, contamina o webinar inteiro.
+- **Em perpétuo, ler nomes falsos ou simular chat vivo.** O desenho honesto validado é o do webinar de referência A (eco genérico) e do webinar de referência #1 (fallback verbal + auto-resposta) - nome inventado é a mentira que, descoberta, contamina o webinar inteiro.
 - **Deixar o chat pautar a aula.** Os campeões atendem pedidos pontuais (João/print) mas declaram a disciplina ("vou parar de olhar os comentários") - o chat serve à narrativa, não o contrário.
 - **Humilhar quem erra ou expor quem não responde.** A correção do modelo é coletiva e com parabéns a quem acertou; a pressão do caso Ian é sobre quem se OFERECEU à negociação.
 - **Interação que não escala compromisso.** Quiz e enquete que não se conectam ao pitch são entretenimento - em todos os campeões, cada degrau do chat prepara o degrau da compra ("sim eu quero" → "caminho 2" → link).
-- **Decalcar bordão/rito com dono** ("bem-vinda ao time de faixa preta" é do Bruno; "caminho 1 ou 2" é assinatura MindMaster; a hashtag-revolução é da pele Vítor). A escada é premissa universal; os degraus se escrevem na voz do especialista.
+- **Decalcar bordão/rito com dono** ("bem-vinda ao time de faixa preta" é do autor do case de odontologia; "caminho 1 ou 2" é assinatura operação-referência; a hashtag-revolução é da pele o autor do case de nutrição). A escada é premissa universal; os degraus se escrevem na voz do especialista.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum.** Os 9 webinars executam interação - é o bloco TRANSVERSAL por definição: não mora num minuto do roteiro, atravessa todos os outros blocos (o check do 01, a confissão do 04, o mantra do 05, o "sim eu quero" do 08, o placar do 12). O que varia é a engenharia por formato:
 
-- **Ao vivo com sala real** (máquina MindMaster, Aluna 80k, Léo C, webinar de referência #2): eco nominal, enquetes, coautoria, fechamento 1:1, placar de vendas.
-- **Gravado/perpétuo** (Léo A, webinar de referência #1): a mesma escada, com eco genérico, fallback verbal e auto-pergunta-e-resposta - zero nomes, zero promessas que a gravação não cumpre.
+- **Ao vivo com sala real** (máquina da operação-referência, o case de arquitetura, webinar de referência C, webinar de referência #2): eco nominal, enquetes, coautoria, fechamento 1:1, placar de vendas.
+- **Gravado/perpétuo** (webinar de referência A, webinar de referência #1): a mesma escada, com eco genérico, fallback verbal e auto-pergunta-e-resposta - zero nomes, zero promessas que a gravação não cumpre.
 
 **Leitura clínica pra skill:** antes de escrever qualquer bloco do webinar Soft, decidir o formato (vivo vs perpétuo) e escolher o gabarito de interação correspondente - e desenhar a escada de micro-compromissos do webinar INTEIRO numa passada (que degrau mora em que bloco), porque ela é o fio que costura todos os outros 13 blocos.

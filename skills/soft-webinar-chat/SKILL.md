@@ -29,7 +29,7 @@ O chat não é acessório, é o sistema operacional do webinar: termômetro E mo
 ## Output Contract (o que você entrega)
 
 **No PERPÉTUO (chat simulado):**
-- **A planilha de chat** no formato de import EXATO da plataforma do player (default Léo: `username,message,minutes,seconds`, 4 colunas, ordenada por `(minutes,seconds)` do VÍDEO, disparos escalonados), pronta pra subir.
+- **A planilha de chat** no formato de import EXATO da plataforma do player (default de referência: `username,message,minutes,seconds`, 4 colunas, ordenada por `(minutes,seconds)` do VÍDEO, disparos escalonados), pronta pra subir.
 - **O output de auditoria** junto: ecos do host sem respaldo encontrados + comentários criados pra fechá-los + comandos sem rajada + comentários reprovados por contradizer/antecipar (com motivo).
 
 **No AO VIVO (guia de moderação):**
@@ -60,16 +60,16 @@ Se o player não disse o modo, pergunta numa linha. Pro PERPÉTUO, precisa de: o
 
 # TRILHO PERPÉTUO (chat simulado)
 
-> **Leia `references/_CHAT-MODELO.md` INTEIRO antes de gerar.** É a especificação canônica destilada do modelo REAL do perpétuo do Léo ("Venda com Webinars"), não de teoria. Os Passos 1-4 aplicam essa spec; a `references/simulador-comentarios-ao-vivo.md` é a doutrina longa (matemática de cadência, falas prontas por tipo, os 2 modos de uso GERAR/AUDITAR) e se consulta sob demanda.
+> **Leia `references/_CHAT-MODELO.md` INTEIRO antes de gerar.** É a especificação canônica destilada do modelo REAL do perpétuo de referência, não de teoria. Os Passos 1-4 aplicam essa spec; a `references/simulador-comentarios-ao-vivo.md` é a doutrina longa (matemática de cadência, falas prontas por tipo, os 2 modos de uso GERAR/AUDITAR) e se consulta sob demanda.
 
 ## Passo 1, fixa o FORMATO e o TEMPO (a mecânica que ninguém erra de boca)
 
 **Lê `references/_CHAT-MODELO.md` §1 e §2 e aplica:**
 
 - **Formato de import = 4 colunas APENAS**, com header, ordenado por `(minutes,seconds)` crescente: `username,message,minutes,seconds`. NÃO existe coluna de cidade nem de tipo no arquivo. A origem ("de SP") só entra no `username` ("Camila SP") ou dentro da `message`, e só quando o host pede de onde a pessoa é (senão polui).
-- **Pede/confirma o modelo da plataforma ANTES de gerar.** Contas/plataformas diferentes têm colunas diferentes; gerar no formato errado obriga remapeamento manual. `username,message,minutes,seconds` é o default do Léo, usado só quando não há outro modelo declarado.
+- **Pede/confirma o modelo da plataforma ANTES de gerar.** Contas/plataformas diferentes têm colunas diferentes; gerar no formato errado obriga remapeamento manual. `username,message,minutes,seconds` é o default de referência, usado só quando não há outro modelo declarado.
 - **O TIPO e o GATILHO são planejamento INTERNO** (a tabela rica de 7 colunas do §1.2), nunca sobem na plataforma. O Tipo monta a curva; o Gatilho registra a que fala/comando do host o comentário responde.
-- **As 2 linhas de tempo:** *tempo no roteiro* = relógio do script gravado (o "oi" do host é 00:00); *tempo no vídeo* = relógio do arquivo que a plataforma toca, que inclui a **sala de espera / pre-roll** antes de o host falar. **Fórmula: `vídeo = roteiro + offset da sala de espera`.** No modelo do Léo a sala de espera é ~5 min (roteiro 00:06 = vídeo 05:06). O export usa o tempo do VÍDEO. **Confirma o offset com o player** (pode não ser 5 min); sem isso todo eco/comando sai dessincronizado da tela.
+- **As 2 linhas de tempo:** *tempo no roteiro* = relógio do script gravado (o "oi" do host é 00:00); *tempo no vídeo* = relógio do arquivo que a plataforma toca, que inclui a **sala de espera / pre-roll** antes de o host falar. **Fórmula: `vídeo = roteiro + offset da sala de espera`.** No modelo de referência a sala de espera é ~5 min (roteiro 00:06 = vídeo 05:06). O export usa o tempo do VÍDEO. **Confirma o offset com o player** (pode não ser 5 min); sem isso todo eco/comando sai dessincronizado da tela.
 - **Disparos escalonados:** nunca dois comentários no mesmo `(minutes,seconds)`; espalha alguns segundos (sala real não fala em uníssono).
 
 ## Passo 2, dimensiona o VOLUME e desenha a CURVA
@@ -95,7 +95,7 @@ Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumul
 
 **Lê `references/_CHAT-MODELO.md` §4, §5 e §6 e aplica:**
 
-- **A taxonomia de tipos** (planejamento, não sobe): `entrada` · `engajamento` · `apresentacao` · `dor` · `reação` · `sim-eu-quero` · `numero` · `duvida` · `pergunta` · `objecao` · `atrito` · `anticipacao` · `compra` · `hate` · `prova-real` · `despedida`. Cada um mora numa fase e responde a um gatilho do roteiro (exemplos reais do modelo no §4). Falas-modelo dos 5 tipos mais estratégicos (do modelo real do Léo, use como calibre de voz, não copie): **dor** = "agenda cheia e conta vazia"; **reação** = "nossa isso faz muito sentido"; **numero** = "37 mil com 1000 inscrito? caramba"; **objecao** = "ta, mas o perpetuo nao satura o pixel?"; **compra** = "acabei de garantir o meu". O par que fecha o carrinho, a objeção que SURGE e OUTRO participante RESOLVE 1-3 min depois: "achei puxado o valor" respondido por "puxado é continuar no problema mais um ano, eu fechei".
+- **A taxonomia de tipos** (planejamento, não sobe): `entrada` · `engajamento` · `apresentacao` · `dor` · `reação` · `sim-eu-quero` · `numero` · `duvida` · `pergunta` · `objecao` · `atrito` · `anticipacao` · `compra` · `hate` · `prova-real` · `despedida`. Cada um mora numa fase e responde a um gatilho do roteiro (exemplos reais do modelo no §4). Falas-modelo dos 5 tipos mais estratégicos (do modelo real de referência, use como calibre de voz, não copie): **dor** = "agenda cheia e conta vazia"; **reação** = "nossa isso faz muito sentido"; **numero** = "37 mil com 1000 inscrito? caramba"; **objecao** = "ta, mas o perpetuo nao satura o pixel?"; **compra** = "acabei de garantir o meu". O par que fecha o carrinho, a objeção que SURGE e OUTRO participante RESOLVE 1-3 min depois: "achei puxado o valor" respondido por "puxado é continuar no problema mais um ano, eu fechei".
 - **Saudação SEMPRE neutra (PROIBIDO hora do dia):** zero "bom dia/boa tarde/boa noite", porque o perpétuo roda o mesmo vídeo em vários horários. Usa "oi gente", "cheguei", "opa", "presente", "primeira vez aqui". Nada que date a gravação (dia da semana, evento, notícia, estação).
 - **A objeção SURGE e se RESOLVE** (movimento mais importante do carrinho): a dúvida aparece e, 1-3 min depois, OUTRO participante (ou o eco do host) a derruba. A sala se autorregula; o host nunca briga. **Haters: 1-2 na aula inteira**, longe do clímax, neutralizados pela comunidade/lógica.
 - **A consistência bidirecional (a parte crítica, §5):** todo **ECO** do host ("muito legal, a Camila do Rio") exige um comentário plantado ANTES com nome/cidade/conteúdo EXATOS; se não existe, CRIA e posiciona alguns segundos/minutos antes. Eco genérico ("vários colocaram EU QUERO") é respaldado pela RAJADA. Todo **COMANDO** do host exige a rajada depois. Nenhum comentário CONTRADIZ nem ANTECIPA o roteiro (citar preço/bônus/desfecho antes de o host abrir = reprova).

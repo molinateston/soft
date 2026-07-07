@@ -344,10 +344,10 @@ A ordem em que se fala no fim (checkout OU 1:1). Falas-modelo pra ajustar pra bo
 9. **Escassez verificável + honesta + REDE:** N = capacidade real; rede pro 16º; no 1:1 vira "velocidade de chamar".
 10. **Fecha por identidade + custo da inação + 3 CTAs (Ganho→Lógica→Medo) → o botão:** pico emocional DEPOIS do preço; **botão só no 1º CTA**; recap da pilha + "de X por Y" no clique; no 1:1 o CTA leva pro WhatsApp/formulário.
 
-> **Ordem canônica de revelação da oferta** (afunda a pessoa, idêntica em método/gestão ágil/Léo): transição+depoimento+"EU QUERO" → caminho 1 (sozinho) x 2 (comigo) → PUV → módulos por benefício → inclusos de confiança → âncora alta → prateleira com preço → bônus-âncora>produto → bônus Mastercard → garantia → queda em degraus → parcela/dia → **15-primeiros em camadas + bônus surpresa** → recap total no clique → 3 CTAs + rede. (Verbatim: `references/ancoragem-e-fechamento.md`, `references/stack-de-oferta-e-bonus.md` §10, `references/exemplos-por-bloco/`.)
+> **Ordem canônica de revelação da oferta** (afunda a pessoa, idêntica em método/programa de gestão/autor do método): transição+depoimento+"EU QUERO" → caminho 1 (sozinho) x 2 (comigo) → PUV → módulos por benefício → inclusos de confiança → âncora alta → prateleira com preço → bônus-âncora>produto → bônus Mastercard → garantia → queda em degraus → parcela/dia → **15-primeiros em camadas + bônus surpresa** → recap total no clique → 3 CTAs + rede. (Verbatim: `references/ancoragem-e-fechamento.md`, `references/stack-de-oferta-e-bonus.md` §10, `references/exemplos-por-bloco/`.)
 
 ## Seção 9, INSUMOS ORGANIZADOS (FINAL, sempre, peças soltas reutilizáveis)
-A que o Léo lê primeiro. NÃO resumo: a matéria-prima das seções **destilada em peças soltas**, cada uma pronta pra copiar pra página/anúncio/e-mail/roteiro. Sai SEMPRE (com `[A CONFIRMAR]` no que faltar):
+A que o autor do método lê primeiro. NÃO resumo: a matéria-prima das seções **destilada em peças soltas**, cada uma pronta pra copiar pra página/anúncio/e-mail/roteiro. Sai SEMPRE (com `[A CONFIRMAR]` no que faltar):
 
 | Peça | Fonte | Uso |
 |---|---|---|
@@ -402,7 +402,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **INSUMOS ORGANIZADOS** | Seção 9 no fim, peças soltas reutilizáveis, não resumo |
 | **Páginas + Ângulos (sempre)** | Seção 10 (proposta de captura + obrigado, copy-base no molde) E Seção 11 (5-8 ângulos de ad, cada um com headline + pilar + público) presentes; derivados do plano, furo = `[A CONFIRMAR]` |
 | **Não inventa (Lei 5)** | furo = `[A CONFIRMAR]` no lugar exato; zero plausível |
-| **Números do case consistentes** | o MESMO case dito com valores diferentes (ex.: "3M" / "10M" / "13M" pro mesmo resultado) = `[A CONFIRMAR: bruto/líquido/período]`, nunca escolhe um por conta. Case que bate olho com olho na própria aula derruba credibilidade |
+| **Números do case consistentes** | o MESMO case dito com valores diferentes (ex.: "3M" num slide, "10M" noutro, pro mesmo resultado) = `[A CONFIRMAR: bruto/líquido/período]`, nunca escolhe um por conta. Case que bate olho com olho na própria aula derruba credibilidade |
 | **Output DENSO (Lei 6)** | tabelas/listas, não prosa; zero meta-narração/bastidor/"isto serve para"; sem tabela de gate na saída |
 | **3 perguntas do gate + C/U/B** | dá pra VER a cena · dá pra FALSIFICAR · SÓ ele assina; Clareza · Único · Benefício |
 | **Naming honesto** | todo nome é do dono ou "(nome Soft: a definir)" |

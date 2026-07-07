@@ -70,7 +70,7 @@ Cada slide é um objeto com estes campos (todos opcionais conforme o `tipo`):
   "titulo": "título do slide",
   "sub":    "subtítulo / linha de apoio",
   "itens":  [ { "titulo": "...", "texto": "..." } ],   // listas: conteudo / mao / oferta / investimento / fechamento
-  "numero": "R$ 13.575.195",                            // SÓ no tipo 'prova', vira o número-gigante verde
+  "numero": "R$ [SEU NÚMERO DE PROVA]",                            // SÓ no tipo 'prova', vira o número-gigante verde
   "fonte":  "fonte do número",                          // SÓ no tipo 'prova'
   "corpo":  "frase grande centralizada",                // tipos 'frase' / 'secao' (e cauda opcional de 'conteudo')
   "nota":   "TODA a copy falada deste slide (Speaker Notes)"
@@ -116,13 +116,13 @@ São **18 peças de Lego persuasivas**, cada uma com função fixa, identificada
 
 ### Arquétipo 1, RESPIRO / TELA-PRETA-1-FRASE (reset de atenção)
 Fundo preto + uma frase branca centralizada, fonte grande, zero ruído. 1 ideia. É o slide mais **frequente** do deck, vive em toda virada e em todo pico persuasivo. Frequentemente termina em reticência (abre open loop). Render: `frase`/`secao`.
-- **EXEMPLO (gestão):** s.54 `corpo`: *"No mundo BANI, uma Gestão Ágil é mais NECESSÁRIA DO QUE NUNCA!"* · s.274 *"Antes de eu liberar o link…"*
+- **EXEMPLO (gestão):** s.54 `corpo`: *"No mundo BANI, umo programa de gestão é mais NECESSÁRIA DO QUE NUNCA!"* · s.274 *"Antes de eu liberar o link…"*
 - **Porquê:** a atenção decai sob estímulo constante (habituação); a quebra de padrão mais barata é o **esvaziamento**, não há pra onde o olho fugir, o peso recai 100% na frase narrada.
 - **Soft:** o mais transferível e barato. Use em **TODA virada de fase**. Funciona em qualquer nicho sem adaptar, só troca a frase.
 
 ### Arquétipo 2, CAPA / BIG-IDEA (título-promessa)
 Título-promessa em display pesado + subtítulo + ilustração que planta o subtexto da tese. Slide 1 e abertura de cada grande seção/produto. Render: `capa`.
-- **EXEMPLO de outro nicho (gestão):** s.1 *"Gestão Ágil na Era da IA / Como se tornar um gestor indispensável…"*, com estrutura-azul (legado) colidindo com cometa-laranja (a tecnologia chegando). A tecnologia é o gancho **porque aquele público a teme/cobiça**.
+- **EXEMPLO de outro nicho (gestão):** s.1 *"o programa de gestão com IA / Como se tornar um gestor indispensável…"*, com estrutura-azul (legado) colidindo com cometa-laranja (a tecnologia chegando). A tecnologia é o gancho **porque aquele público a teme/cobiça**.
 - **Porquê:** a decisão de ficar é tomada em ~3 s, por uma pergunta inconsciente *"isto é sobre mim e sobre o que eu quero?"*, a capa responde com a **transformação do avatar**, não com a ferramenta.
 - **Soft:** a Big Idea é um **SLOT construído por webinário** (transformação-mãe do avatar do usuário), nunca frase fixa. A promessa grande de transformação do avatar vai aqui, com imagem. A ferramenta, quando aparecer, é subtexto visual, **nunca o título**. *(nome do título/Big Idea: a definir com o usuário)*. Ver `exemplos-por-bloco/05-big-idea-domino.md`.
 
@@ -159,7 +159,7 @@ Promessa explícita de uma recompensa no fim, pra reduzir abandono no momento cr
 
 ### Arquétipo 8, NÚMERO-GIGANTE / ESTATÍSTICA (a manchete numérica)
 O número vira a manchete tipográfica (display gigante); o texto vira legenda. Quantifica ROI, prova tendência, ancora valor. Render: `prova` (`numero` = o gigante verde, `fonte` = lastro).
-- **EXEMPLO de outro nicho (gestão):** s.15 *"3-5x Multiplicação Salarial / R$20k+ Faixa Executiva"* · s.24 *"Mais de 70% das empresas já adotavam Gestão Ágil no Brasil em 2025!"* com seta vermelha · s.107 *"O 4% que gera 64% do resultado"*.
+- **EXEMPLO de outro nicho (gestão):** s.15 *"3-5x Multiplicação Salarial / R$20k+ Faixa Executiva"* · s.24 *"Mais de 70% das empresas já adotavam o programa de gestão no Brasil em 2025!"* com seta vermelha · s.107 *"O 4% que gera 64% do resultado"*.
 - **Porquê:** o abstrato não move, o concreto move. Número grande = ROI mensurável / tendência esmagadora + FOMO numérico ("você é a minoria atrasada").
 - **Soft:** números reais do usuário (resultados de alunos, faturamento, % de mercado) viram manchete. ⚠️ **sem inventar número**, só o que tem prova.
 
@@ -203,7 +203,7 @@ Print de chat com setas "Prompt:" → "Resultado:": mostra o copy-paste exato + 
 
 ### Arquétipo 15, REVELAÇÃO PROGRESSIVA DO MECANISMO (build animado, peça por peça)
 O MESMO diagrama entra coluna por coluna / passo por passo, por CLIQUES dentro de UM slide (o build de animação). É a aplicação do clique-a-clique. **Um único slide do deck, vários cliques, NÃO um slide por passo.** Render: `conteudo`/`mao` (anotar o build na `nota`: *"revelar passo a passo por clique, mesma tela"*).
-- **EXEMPLO de outro nicho (gestão):** o slide dos *"4 PASSOS"* revelado por clique 1 → 1+2 → 1+2+3 → completo (a numeração s.66-69 do PDF-referência são os ESTADOS de animação do mesmo slide ao longo dos cliques, não 4 slides distintos) · o mega-mapa "Jornada Gestão Ágil 2.0" entrando fase por fase no mesmo quadro. **(O mega-blueprint de 7 fases × 7 passos é o oposto de baixa complexidade, referência do que NÃO copiar no Soft.)**
+- **EXEMPLO de outro nicho (gestão):** o slide dos *"4 PASSOS"* revelado por clique 1 → 1+2 → 1+2+3 → completo (a numeração s.66-69 do PDF-referência são os ESTADOS de animação do mesmo slide ao longo dos cliques, não 4 slides distintos) · o mega-mapa "Jornado programa de gestão (ed. 2)" entrando fase por fase no mesmo quadro. **(O mega-blueprint de 7 fases × 7 passos é o oposto de baixa complexidade, referência do que NÃO copiar no Soft.)**
 - **Porquê:** revelar tudo de uma vez é spoiler e mata a curiosidade; peça por peça sincroniza com a fala, mantém open loop a cada item e faz o método parecer engenheirado (justifica preço premium).
 - **Soft:** revelar os passos do método do usuário, **SIMPLES**. O build serve à curiosidade e à robustez honesta, **nunca** a inflar complexidade artificialmente.
 

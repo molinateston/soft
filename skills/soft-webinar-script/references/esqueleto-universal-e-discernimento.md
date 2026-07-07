@@ -2,7 +2,7 @@
 
 Esta reference é a **camada de inteligência** do Webinar Soft: por que a estrutura funciona em QUALQUER nicho, e como adaptá-la ao player específico. Ela senta POR CIMA do roteiro (`estrutura-webinario-aida.md`) - não repete o roteiro, explica o esqueleto e o discernimento.
 
-> Destilado de webinars que faturaram alto em nichos OPOSTOS (gestão ágil, incorporação, arquitetura, dieta, dentística, perícia) + a teoria clássica (Brunson Perfect Webinar e Expert Secrets). A descoberta: **todos rodam o MESMO esqueleto.** Muda o tom e os exemplos, nunca a estrutura. Esta reference carrega a inteligência que decide O QUÊ entra (universal) e COMO preencher (do avatar).
+> Destilado de webinars que faturaram alto em nichos OPOSTOS (programa de gestão, incorporação, arquitetura, dieta, dentística, perícia) + a teoria clássica (Brunson Perfect Webinar e Expert Secrets). A descoberta: **todos rodam o MESMO esqueleto.** Muda o tom e os exemplos, nunca a estrutura. Esta reference carrega a inteligência que decide O QUÊ entra (universal) e COMO preencher (do avatar).
 
 ## A regra-mãe: esqueleto é LEI, tom e exemplo são do avatar
 

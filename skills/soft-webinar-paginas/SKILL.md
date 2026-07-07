@@ -188,9 +188,9 @@ Barra de progresso · salva sozinha (retoma se fechar a aba) · prefill do que v
 ## Passo 3, Página de CHECKOUT ENXUTO (abre a venda de quem já decidiu)
 Quem chega já está ~80% decidido. A aula vendeu. **O checkout NÃO convence do zero**: tira a última hesitação e dá o trajeto mais curto pro cartão. Se precisa convencer, o furo está na aula. Conversão de quem ENTRA: 60-85%. **Lê `references/_PAGINAS-BENCH.md` Seção 3.**
 
-> **A régua do Léo (não negocia):** checkout SÓ com **cronômetro 5min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Cada bloco extra é fricção que faz a pessoa pensar de novo.
+> **A régua de referência (não negocia):** checkout SÓ com **cronômetro 5min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Cada bloco extra é fricção que faz a pessoa pensar de novo.
 
-**Achado:** não há HTML de checkout deployado, o checkout do Léo é a tela do gateway (Cakto/WebinarKit). Os blocos são o que entra NA tela / no topo dela.
+**Achado:** não há HTML de checkout deployado, o checkout de referência é a tela do gateway (Cakto/WebinarKit). Os blocos são o que entra NA tela / no topo dela.
 
 **Decide o DESENHO pelo ticket:** até ~3k = checkout impessoal (os blocos abaixo). High-ticket = fecha no **1:1** (CTA pro `wa.me`, **nunca o preço seco**; ver Passo 7).
 
@@ -221,7 +221,7 @@ HOJE VOCÊ INVESTE                   R$ [preço]   (ou 12x de R$ ...)
 ### O que NÃO entra no checkout enxuto (corte explícito)
 | ❌ Fora | Por quê |
 |---|---|
-| FAQ longo (5-7 perguntas) | é o checkout "completo" da reference; o Léo pediu enxuto |
+| FAQ longo (5-7 perguntas) | é o checkout "completo" da reference; a régua de referência pede enxuto |
 | Re-explicação do método / nova dobra de vendas | quem chegou já decidiu |
 | Upsell agressivo | mata conversão |
 | Bio detalhada | já foi na aula/captura (regra do Passo 1.B) |
@@ -324,7 +324,7 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 | Imprimiu a tabela do gate ou narrou o fluxo na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 
 ## References (o corpo acima carrega o método; esta guarda a profundidade que os passos mandam ler)
-- `references/_PAGINAS-BENCH.md`: o BENCHMARK das páginas REAIS do Léo (no ar). Dirigido assim: Seção 1 (bio detalhada na última dobra, 2 formatos verbatim, Passo 1.B) · Seção 2 (obrigado web-v1 + ficha wizard + variante ao vivo, Passo 2) · Seção 3 (checkout enxuto, 5 blocos + lista de corte, Passo 3). É a régua que governa as 3 páginas; lê antes de montar.
+- `references/_PAGINAS-BENCH.md`: o BENCHMARK das páginas REAIS de referência (no ar). Dirigido assim: Seção 1 (bio detalhada na última dobra, 2 formatos verbatim, Passo 1.B) · Seção 2 (obrigado web-v1 + ficha wizard + variante ao vivo, Passo 2) · Seção 3 (checkout enxuto, 5 blocos + lista de corte, Passo 3). É a régua que governa as 3 páginas; lê antes de montar.
 - `references/paginas-cadastro-obrigado-checkout.md`: a profundidade do tema inteiro, falas verbatim, moldes visuais e exemplos por nicho. Dirigida assim: Bloco 1.1 (4 headlines instanciadas, Passo 1.1) · Bloco 1.3 (bullets por D, Passo 1.3) · Bloco 1.5 (horário-variável + form-less, Passo 1.5) · Bloco 1.6 (vitrine 2 vs 4, Passo 1.6) · Bloco 1.7 (contra-filtro, Passo 1.7) · Bloco 1.8 (pre-roll, Passo 1.8) · Bloco 2.2 (opt-in WhatsApp, Passo 2.2) · Bloco 2.6 (ficha/mina de ouro, Passo 2.6) · Bloco 3.1 (stack + ancoragem em degraus, Bloco E) · Bloco 3.3 (prova na moeda, Bloco D) · Bloco 3.4 (cardápio de garantia, Bloco C) · "Variante crua" (Passo 7) · "Dados dinâmicos do perpétuo" (Passo 5) · "Notas operacionais" (página rústica, A/B, designer, Passos 0 e 4).
 - `shared-references/crivo/01-entrada-verbatim.md`: como ancorar no verbatim real (Passo 0).
 - `shared-references/crivo/03-gate-cub.md`: C/U/B + as 3 perguntas do gate (Passo 6).

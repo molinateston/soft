@@ -36,7 +36,7 @@ O webinar é o **degrau 2** de uma escada de três funis. Cada degrau só existe
 
 **O webinar não cria o argumento que vende - ele amplifica o que já existe.** Se o argumento ainda é fraco, o webinar amplifica a fraqueza, com custo dez vezes maior.
 
-> **EXEMPLO (a postura do Léo nas calls - origem: consultorias, MANUAL-WEBINAR-SOFT Cap 0).** O Léo ama webinar - diz que é o primeiro a recomendar quando dá. E mesmo assim, na maioria das consultorias, ele manda **não fazer ainda**. A competência dele em webinar é o que dá autoridade pra recusar webinar: *"quando arroz com feijão tá bem feito, você vai pro pirotécnico. Um webinar é o teu marketing vendendo. Ele só vai fazer o que o seu Instagram faz numa escala maior."* - **Por que importa pra decisão:** se o cliente chega pedindo webinar, a primeira pergunta não é "Carta ou webinar?", é "o teu arroz com feijão já vende?". Sem isso, a comparação dos 3 ativos nem começa.
+> **EXEMPLO (a postura do autor do método nas calls - origem: consultorias, MANUAL-WEBINAR-SOFT Cap 0).** O autor do método ama webinar - diz que é o primeiro a recomendar quando dá. E mesmo assim, na maioria das consultorias, ele manda **não fazer ainda**. A competência dele em webinar é o que dá autoridade pra recusar webinar: *"quando arroz com feijão tá bem feito, você vai pro pirotécnico. Um webinar é o teu marketing vendendo. Ele só vai fazer o que o seu Instagram faz numa escala maior."* - **Por que importa pra decisão:** se o cliente chega pedindo webinar, a primeira pergunta não é "Carta ou webinar?", é "o teu arroz com feijão já vende?". Sem isso, a comparação dos 3 ativos nem começa.
 
 ---
 
@@ -66,7 +66,7 @@ A régua não é cautela - é matemática. O custo de validar via webinar contra
 | O que compra | ~300 leads → ~120 ao vivo → leitura de conversão só sobre esses ~120 (meta mínima 6% de quem compareceu) | testa a narrativa na mesma semana, num público que já existe |
 | Precisa gravar? | sim, uma aula inteira | não |
 
-> **EXEMPLO (a fala que crava o custo - origem: Léo em consultoria, MANUAL-WEBINAR-SOFT Cap 0).** *"Um webinário você vai ter que enfiar R$5.000 pra de boa. O carrossel, a gente bota seis conto [R$600]. Se você já tem o público, já tem a lista, a gente tenta jogar pra essa lista. Esse mesmo dinheiro que você ia jogar pra um webinário, no webinar tem que gastar cinco."*
+> **EXEMPLO (a fala que crava o custo - origem: autor do método em consultoria, MANUAL-WEBINAR-SOFT Cap 0).** *"Um webinário você vai ter que enfiar R$5.000 pra de boa. O carrossel, a gente bota seis conto [R$600]. Se você já tem o público, já tem a lista, a gente tenta jogar pra essa lista. Esse mesmo dinheiro que você ia jogar pra um webinário, no webinar tem que gastar cinco."*
 
 A diferença não é só o preço por rodada. É o **número de rodadas até acertar**. A régua que vale tatuar:
 
@@ -126,7 +126,7 @@ A escolha **não é sobre qual é melhor**. É sobre **qual encaixa no momento d
 
 **Mecanismo (por que não webinar aqui):** o custo de encher a sala (R$15-40 por cadastrado, ~R$5.000 por rodada) não fecha com ticket pequeno. Nem que converta 10%, o ROAS fica abaixo de 1,5x - e a régua realista de um bom webinar é **ROAS 2,5 a 4** (origem: MANUAL-COMPLETO cap00). Abaixo de 3k o webinar drena.
 
-> EXEMPLO instanciado (nicho emagrecimento, origem: persona Cláudia do Léo, MANUAL-WEBINAR-SOFT). Produto: ebook de receitas a R$197. Avatar: Cláudia, que "à noite visita o armário escondida e deita com raiva de si mesma". **Decisão: Carta.** A dor é íntima e textual, a Carta longa pode descrever a cena privada que ninguém vê e desaguar no checkout. Webinar a R$197 queimaria R$5.000 de tráfego pra fechar talvez R$3.000 - prejuízo. **Slot:** o título e o inimigo nomeado da Carta = a definir com o cliente.
+> EXEMPLO instanciado (nicho emagrecimento, origem: persona Cláudia do autor do método, MANUAL-WEBINAR-SOFT). Produto: ebook de receitas a R$197. Avatar: Cláudia, que "à noite visita o armário escondida e deita com raiva de si mesma". **Decisão: Carta.** A dor é íntima e textual, a Carta longa pode descrever a cena privada que ninguém vê e desaguar no checkout. Webinar a R$197 queimaria R$5.000 de tráfego pra fechar talvez R$3.000 - prejuízo. **Slot:** o título e o inimigo nomeado da Carta = a definir com o cliente.
 
 ### Ticket MÉDIO (R$1.500-5.000)
 
@@ -402,5 +402,5 @@ Após as perguntas, **recomenda 1 ativo principal**. Empate → escolhe o de men
 
 - **Onde exatamente o checkout direto vira processo comercial.** As fontes apontam "até ~R$2k checkout direto", mas mostram tickets diferentes no mesmo formato (R$490 checkout, R$1.697 checkout a lead frio, R$2.500 com 3 quedas). **[o especialista define: a linha de corte canônica Soft entre checkout direto e processo comercial.]**
 - **Número de sessões ao vivo antes de perpetuar.** Cap 0 cita "4-8 sessões". **[o especialista define: régua fixa ou faixa, e o número exato.]**
-- **Parâmetros do perpétuo** (nº de horários/dia, números de validação pra perpetuar). As fontes cravam "4 horários/dia" e "150-200 valida / 8-15 grava" como o que ficou em pé na operação do Léo. **[o especialista define: confirmar se esses números são lei Soft ou default a calibrar por volume do nicho.]**
+- **Parâmetros do perpétuo** (nº de horários/dia, números de validação pra perpetuar). As fontes cravam "4 horários/dia" e "150-200 valida / 8-15 grava" como o que ficou em pé na operação do autor do método. **[o especialista define: confirmar se esses números são lei Soft ou default a calibrar por volume do nicho.]**
 - **Nomes próprios** (inimigo nomeado da Carta, nome do mecanismo de cada nicho-exemplo): são SLOTS por cliente - nunca inventar e atribuir ao especialista.

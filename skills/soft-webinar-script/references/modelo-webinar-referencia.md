@@ -8,9 +8,9 @@
 
 ---
 
-## A tese que confirma a hierarquia do Léo
+## A tese que confirma a hierarquia do autor do método
 
-O modelo coloca o webinar como o segundo meio mais poderoso de educar, atrás só da interação presencial cara a cara. Isso confirma a correção do Léo (10/jun): **nada supera o 1:1; o webinar é o mais forte do 1:muitos.** O porquê econômico: o webinar atrai os 20% do mercado que detêm 80% do poder de compra (Pareto), quem leva educação a sério e investe sério. A lei que ele tira disso: quanto mais você serve, mais você pode vender. No Soft isso não é frase de palco, é a justificativa de servir de verdade no conteúdo (ver "as 2 vendas" abaixo).
+O modelo coloca o webinar como o segundo meio mais poderoso de educar, atrás só da interação presencial cara a cara. Isso confirma a correção do autor do método (10/jun): **nada supera o 1:1; o webinar é o mais forte do 1:muitos.** O porquê econômico: o webinar atrai os 20% do mercado que detêm 80% do poder de compra (Pareto), quem leva educação a sério e investe sério. A lei que ele tira disso: quanto mais você serve, mais você pode vender. No Soft isso não é frase de palco, é a justificativa de servir de verdade no conteúdo (ver "as 2 vendas" abaixo).
 
 ---
 
@@ -85,13 +85,13 @@ A definição operacional do modelo: se a pessoa não muda de comportamento, voc
    - **Estratégia:** o QUÊ fazer.
    - **Compromisso:** faz a pessoa aderir à nova ideia.
 
-A peça que protege a oferta: a "estratégia" do CVSC é o **O QUÊ, não o como-fazer manualizado.** Isso casa exatamente com a correção do Léo (cap 2): dar aula é entregar problema, solução, o quê e por quê, mais a troca de crença, sem o passo a passo de execução que é o que abre o loop do produto (a Faca Soft). O CVSC é a forma fina de rodar isso passo a passo: cada etapa ensinada de verdade no nível de entendimento, retendo só o braço.
+A peça que protege a oferta: a "estratégia" do CVSC é o **O QUÊ, não o como-fazer manualizado.** Isso casa exatamente com a correção do autor do método (cap 2): dar aula é entregar problema, solução, o quê e por quê, mais a troca de crença, sem o passo a passo de execução que é o que abre o loop do produto (a Faca Soft). O CVSC é a forma fina de rodar isso passo a passo: cada etapa ensinada de verdade no nível de entendimento, retendo só o braço.
 
 ### Best practices do conteúdo
 
 - Dê um road map (onde a gente está no arco da aula).
 - Cheque o ESTADO EMOCIONAL que você cria, é mais importante que o conteúdo em si.
-- Melhore o mesmo webinar ao longo do tempo. **EXEMPLO (webinar de referência):** o mesmo webinar evoluiu de 1,7M para 2,6M para 3M em vendas, só por refinamento. (Casa com o perpétuo do Léo: a sessão gravada é ativo que se melhora, não evento que se descarta.)
+- Melhore o mesmo webinar ao longo do tempo. **EXEMPLO (webinar de referência):** o mesmo webinar evoluiu de 1,7M para 2,6M para 3M em vendas, só por refinamento. (Casa com o perpétuo do autor do método: a sessão gravada é ativo que se melhora, não evento que se descarta.)
 
 ---
 
@@ -109,7 +109,7 @@ Dispara uma série de perguntas de "sim" ("nosso tempo foi valioso? sim. você s
 
 ### 3.3 Two Choices Close (a peça de ouro)
 
-> **Esta é a versão ELOQUENTE dos "2 caminhos (sozinho × comigo)" que já está no slide-modelo do Léo (Bloco 4.3 da ADMA, a Encruzilhada).** Mesma mecânica: divide a sala em dois grupos e faz ela pedir o pitch. O slide-modelo do Léo é a fonte canônica da forma; a two-choices do modelo mostra a articulação mais bem-acabada da MESMA jogada, pra você ver o teto da técnica antes de reconstruir na voz do especialista.
+> **Esta é a versão ELOQUENTE dos "2 caminhos (sozinho × comigo)" que já está no slide-modelo do autor do método (Bloco 4.3 da ADMA, a Encruzilhada).** Mesma mecânica: divide a sala em dois grupos e faz ela pedir o pitch. O slide-modelo do autor do método é a fonte canônica da forma; a two-choices do modelo mostra a articulação mais bem-acabada da MESMA jogada, pra você ver o teto da técnica antes de reconstruir na voz do especialista.
 
 > **EXEMPLO (webinar de referência, a articulação literal, traduzida, NÃO decalcar):** *"Eu tenho absoluta confiança de que você pode pegar tudo que vimos hoje e, sozinho, sair e conseguir resultados que achava impossíveis. E se essa fosse sua única opção, já seria um ideal digno de perseguir. Mas e se houvesse outra opção? Uma em que a gente vai junto. Uma chance de ir mais fundo do que dá em uma hora de webinar. E se eu tivesse um papel ativo no seu resultado, uma responsabilidade no seu sucesso? Se eu tivesse essa opção pra você, você gostaria de conhecer? É por isso que é com grande prazer que eu te apresento [a oferta]."*
 
@@ -187,13 +187,13 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 
 > **Quando consultar:** depois de ter a espinha (as 4 partes acima) e antes de escrever as falas. Esta seção é a camada profunda: as seções de cima são o ESQUELETO (onde cada peça entra); esta é a ENGENHARIA (por que cada peça converte, com foco em COMO o modelo usa história). A régua continua a mesma: modelar o porquê, traduzir o tom, decalcar nada.
 
-**A tese-mãe:** a história nunca é "só história". Toda narrativa do modelo executa duas ou três funções de venda ao mesmo tempo, nunca é entretenimento. É autoridade mais prova mais micro-sim mais future pace empacotados em narrativa. Quem modela errado copia as histórias; quem modela certo copia a engenharia por baixo e troca o recheio pela própria verdade. No Soft, o recheio é a imersão do Léo (casos reais, números, a cicatriz, a voz); a engenharia é o que segue.
+**A tese-mãe:** a história nunca é "só história". Toda narrativa do modelo executa duas ou três funções de venda ao mesmo tempo, nunca é entretenimento. É autoridade mais prova mais micro-sim mais future pace empacotados em narrativa. Quem modela errado copia as histórias; quem modela certo copia a engenharia por baixo e troca o recheio pela própria verdade. No Soft, o recheio é a imersão do autor do método (casos reais, números, a cicatriz, a voz); a engenharia é o que segue.
 
 **Os 8 mecanismos.**
 
-1. **Origin story é o checklist de autoridade disfarçado de narrativa.** O modelo não afirma "sou bom"; ele conta uma sequência onde OS OUTROS afirmam (o grupo pago de acesso vira posicionamento, a palestra curta que gerou pedidos vira resultado, o email de um nome de peso vira depoimento de terceiro, o caso com cliente nomeado vira resultado mais celebridade). Os 4 componentes da autoridade (Resultado, Posicionamento, Celebridade, Depoimento) costurados em história, e a pessoa nunca sente auto-elogio. *Soft:* o Léo conta a cicatriz dele e os números reais dele; a autoridade vem de terceiros (alunos, prova documental), não de adjetivo sobre si. É a versão narrativa do checklist de 4 da introdução (seção 1) e da autoridade por espelho.
+1. **Origin story é o checklist de autoridade disfarçado de narrativa.** O modelo não afirma "sou bom"; ele conta uma sequência onde OS OUTROS afirmam (o grupo pago de acesso vira posicionamento, a palestra curta que gerou pedidos vira resultado, o email de um nome de peso vira depoimento de terceiro, o caso com cliente nomeado vira resultado mais celebridade). Os 4 componentes da autoridade (Resultado, Posicionamento, Celebridade, Depoimento) costurados em história, e a pessoa nunca sente auto-elogio. *Soft:* o autor do método conta a cicatriz dele e os números reais dele; a autoridade vem de terceiros (alunos, prova documental), não de adjetivo sobre si. É a versão narrativa do checklist de 4 da introdução (seção 1) e da autoridade por espelho.
 
-2. **Especificidade é credibilidade; vago lê como mentira.** Data exata, valor quebrado, nome completo de cada pessoa. O cérebro lê número redondo e anônimo como marketing, e número quebrado, datado e nominal como fato. *Soft:* bate com "concretude vence abstração" e com o anti-guru. Todo caso do Léo entra com nome, cidade e número exato; arredondar é enfraquecer.
+2. **Especificidade é credibilidade; vago lê como mentira.** Data exata, valor quebrado, nome completo de cada pessoa. O cérebro lê número redondo e anônimo como marketing, e número quebrado, datado e nominal como fato. *Soft:* bate com "concretude vence abstração" e com o anti-guru. Todo caso do autor do método entra com nome, cidade e número exato; arredondar é enfraquecer.
 
 3. **Micro-sim transversal (yes momentum o webinar inteiro).** Pergunta de "sim" no fim de quase toda seção ("combinado? escreve sim"; "isso não ajudaria?"). Ele coleta dezenas de sins pequenos antes do sim grande, e o sim final vira só mais um da série. Não é exclusivo da transição (seção 3.2), é transversal. *Soft:* o "EU QUERO" no chat e os micro-comandos do slide-modelo são isto; a alavanca é aumentar a FREQUÊNCIA, não guardar tudo pro fim.
 
@@ -201,7 +201,7 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 
 5. **Reframe muda a RÉGUA, não argumenta mais forte.** O estudo dos médicos (mesma informação, "90% de sobrevivência" vende e "10% de mortalidade" não); "compra a furadeira pelo buraco, não pela furadeira"; "dinheiro sozinho é quase inútil" (preço é relativo ao valor). Ele não empurra o mesmo argumento com mais força, troca a lente com que a pessoa julga. *Soft:* o reframe é o coração da troca de crença (cap 2) e o eixo do `motor-3-viradas.md`, achar o enquadramento que faz o avatar reavaliar tudo de uma vez.
 
-6. **Humanizar vende VOCÊ (a 2ª venda).** O detalhe pessoal, a pausa "respira um segundo comigo". Isso não vende o curso, vende a pessoa. Todo webinar tem 2 vendas (o produto e VOCÊ); o teste é se depois a sala quer ouvir mais ou menos de você (seção 2, as 2 vendas). *Soft:* a relação é o ativo que alimenta o pós-webinar e a esteira; o tom clínico do Léo é o jeito DELE de gerar like e trust, não o registro de palco americano.
+6. **Humanizar vende VOCÊ (a 2ª venda).** O detalhe pessoal, a pausa "respira um segundo comigo". Isso não vende o curso, vende a pessoa. Todo webinar tem 2 vendas (o produto e VOCÊ); o teste é se depois a sala quer ouvir mais ou menos de você (seção 2, as 2 vendas). *Soft:* a relação é o ativo que alimenta o pós-webinar e a esteira; o tom clínico do autor do método é o jeito DELE de gerar like e trust, não o registro de palco americano.
 
 7. **Future pacing constante.** Ele pinta a cena do depois repetidamente, não só na oferta ("na próxima boa oportunidade, você age com uma confiança que não tinha"). A pessoa se vê já com o resultado, e então não comprar vira perder algo que ela já sentiu como seu. *Soft:* o "imagine como será" do slide-modelo e a pergunta que faz o cérebro gastar o ganho ANTES do preço chegar (conecta com a ancoragem da seção 4.2).
 
@@ -215,7 +215,7 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 4. **Validação de terceiro** (o que outra pessoa de peso disse depois).
 5. **A generalização** (e se eu sistematizasse isso?, e o produto nasce da história).
 
-A força do arco: a oferta é o desfecho NATURAL da história, não um pitch colado no fim. *Soft:* a história do Léo (fracasso, virada, método) já tem esse arco; a oferta tem que nascer dela. Este arco é o que ALIMENTA o ensino do Mecanismo (`motor-3-viradas.md`): o passo 5 (generalização) é onde a crença central se planta, e o reframe do mecanismo 5 é o combustível das afirmações do Mecanismo. A engenharia de persuasão são estes 8 mecanismos; a estrutura é o slide-modelo mais a ADMA mais a sequência real do Mecanismo (`estrutura-real-webinar.md`); o recheio é a imersão do Léo (`/home/cloud/imersao-analise` e o corpus de voz); o tom é clínico, de quem já fez.
+A força do arco: a oferta é o desfecho NATURAL da história, não um pitch colado no fim. *Soft:* a história do autor do método (fracasso, virada, método) já tem esse arco; a oferta tem que nascer dela. Este arco é o que ALIMENTA o ensino do Mecanismo (`motor-3-viradas.md`): o passo 5 (generalização) é onde a crença central se planta, e o reframe do mecanismo 5 é o combustível das afirmações do Mecanismo. A engenharia de persuasão são estes 8 mecanismos; a estrutura é o slide-modelo mais a ADMA mais a sequência real do Mecanismo (`estrutura-real-webinar.md`); o recheio é a imersão do autor do método (`/home/cloud/imersao-analise` e o corpus de voz); o tom é clínico, de quem já fez.
 
 ---
 

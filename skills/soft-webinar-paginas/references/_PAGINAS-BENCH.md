@@ -10,11 +10,11 @@
 > - Obrigado imersão (ao vivo): página de obrigado de evento ao vivo de referência
 > - Reference da skill: `references/paginas-cadastro-obrigado-checkout.md`
 >
-> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout de referência é a tela do gateway (Cakto/WebinarKit). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente que o Léo usa. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
+> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout de referência é a tela do gateway (Cakto/WebinarKit). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente de referência. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
 
 ---
 
-## A régua que governa as 3 páginas (direto do Léo)
+## A régua que governa as 3 páginas (direto da fonte de referência)
 
 > *"A ferramenta não vende, a ferramenta protege."* Quem cria desejo é a aula. As páginas só fazem o desejo não vazar.
 
@@ -66,7 +66,7 @@ acontecer todo dia. E te provar por A mais B.
 
 **A estrutura desse texto, parágrafo por parágrafo (o molde reutilizável):**
 1. **Quebra de imagem / empatia:** "não sou [estereótipo de guru], sou um cara normal" + o que faz (a credencial-mãe em uma linha).
-2. **Número-âncora com ressalva honesta:** o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei" → prova que é honesto). É a assinatura do Léo: o número vem com a nuance que o torna falsificável.
+2. **Número-âncora com ressalva honesta:** o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei" → prova que é honesto). É a assinatura de referência: o número vem com a nuance que o torna falsificável.
 3. **A cicatriz (fundo do poço):** quebrou / recomeçou do zero / "foi caindo que descobri". É o que cria empatia e licença pra falar.
 4. **O feito-prova depois da cicatriz:** o resultado grande nomeado e específico (8 dígitos, 2 anos, 5 pessoas, 1 funil), pequeno, calculável, não "milhões genéricos".
 5. **Anti-milagre + promessa:** "não vim te vender milagre. Vim mostrar que [a promessa]. E provar por A mais B." Fecha desarmando o cético.
@@ -176,9 +176,9 @@ Quando NÃO é perpétuo (turma/imersão ao vivo), a estrutura muda um pouco (ve
 
 **Função:** abrir a venda de quem JÁ decidiu. A aula vendeu; o checkout não convence do zero — tira a última hesitação e dá o caminho mais curto pro cartão. **Se o checkout precisa convencer, o furo está na aula, não na página.** Conversão de quem ENTRA no checkout: 60-85%.
 
-> **O pedido do Léo (a régua deste item):** checkout só com **cronômetro de 5 min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Sem FAQ longo, sem re-explicar o método, sem dobra de vendas. Quem chegou aqui já está com o cartão na mão. Cada bloco extra é fricção que faz a pessoa pensar de novo.
+> **O pedido de referência (a régua deste item):** checkout só com **cronômetro de 5 min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Sem FAQ longo, sem re-explicar o método, sem dobra de vendas. Quem chegou aqui já está com o cartão na mão. Cada bloco extra é fricção que faz a pessoa pensar de novo.
 
-**Achado:** não há HTML de checkout deployado — o checkout do Léo é a tela do gateway (Cakto/WebinarKit). Os blocos abaixo são o que entra NA tela / no topo dela.
+**Achado:** não há HTML de checkout deployado — o checkout de referência é a tela do gateway (Cakto/WebinarKit). Os blocos abaixo são o que entra NA tela / no topo dela.
 
 ### Bloco A — Cronômetro de 5 minutos (escassez de tempo, no topo)
 - Barra/contagem no topo: **"Sua condição vale por: [04:59 → 00:00]"** contando pra baixo.
@@ -187,7 +187,7 @@ Quando NÃO é perpétuo (turma/imersão ao vivo), a estrutura muda um pouco (ve
 
 ### Bloco B — "Você está entre os 15 primeiros" (escassez de vaga + prêmio do link)
 - Selo/linha logo abaixo do timer: **"Você está entre os 15 primeiros — bônus liberado."**
-- Vem do mecanismo de **link controlado** do Léo: o checkout é um link próprio, recompensado, desviado do site sem oferta. *"Quem usar o link que eu vou disponibilizar AQUI ganha [vantagem]."* O checkout vira **prêmio** (a "telinha que confirma os 15 primeiros"), não uma página passiva.
+- Vem do mecanismo de **link controlado** de referência: o checkout é um link próprio, recompensado, desviado do site sem oferta. *"Quem usar o link que eu vou disponibilizar AQUI ganha [vantagem]."* O checkout vira **prêmio** (a "telinha que confirma os 15 primeiros"), não uma página passiva.
 - Dá razão pra comprar AGORA e por ESTE canal. Dispara o evento InitiateCheckout (o pós-webinar passa a saber quem chegou aqui).
 
 ### Bloco C — Garantia em destaque
@@ -218,7 +218,7 @@ HOJE VOCÊ INVESTE                   R$ [preço]   (ou 12x de R$ ...)
 > Preço é slot do espectro Soft — instancia pelo produto real do cliente, não decalca o número.
 
 ### O que NÃO entra no checkout enxuto (corte explícito)
-- ❌ FAQ longo de 5-7 perguntas (isso é checkout "completo" da reference; o Léo pediu enxuto).
+- ❌ FAQ longo de 5-7 perguntas (isso é checkout "completo" da reference; a régua de referência pede enxuto).
 - ❌ Re-explicação do método / nova dobra de vendas.
 - ❌ Upsell agressivo (mata conversão).
 - ❌ Bio detalhada (já foi na aula/captura).

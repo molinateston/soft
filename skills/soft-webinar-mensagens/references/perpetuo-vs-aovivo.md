@@ -3,7 +3,7 @@
 > **Quando consultar (dentro da skill soft-webinar-mensagens):** no **Passo 1**, depois de o especialista dizer se a régua é AO VIVO ou PERPÉTUO. É aqui que mora a diferença de TIMING entre os dois modos (datas absolutas vs relativas ao cadastro), a **escassez por SESSÃO** que o perpétuo usa no lugar da escassez de evento, o **multi-horário** (que muda a cadência das mensagens), o **link individual por lead** (o que faz o perpétuo parecer ao vivo) e as **métricas do perpétuo já no ar** (pra diagnosticar antes de culpar a copy).
 
 > **Fronteiras (o que NÃO mora aqui — manda pra skill certa):**
-> - **A mecânica crua do Léo** (validar ao vivo, 150-200 valida / 8-15 grava, ~10% de sinal verde, sala = sessão estratégica, ROAS-rei, otimizar tráfego pra venda, escala horizontal, zerar ROAS, high ticket não fecha sozinho): `perpetuo-mecanica-leo.md` (a reference irmã, copiada junto nesta skill). As falas literais do Léo vivem lá.
+> - **A mecânica crua de referência** (validar ao vivo, 150-200 valida / 8-15 grava, ~10% de sinal verde, sala = sessão estratégica, ROAS-rei, otimizar tráfego pra venda, escala horizontal, zerar ROAS, high ticket não fecha sozinho): `perpetuo-mecanica.md` (a reference irmã, copiada junto nesta skill). As falas literais de referência vivem lá.
 > - **Gravar/editar o vídeo, conduta de sala, chat semeado, setup técnico, plataforma (EverWebinar × WebinarKit) e edição** → **soft-webinar-script** / **soft-webinar-plano** (pacote). Esta skill só escreve a COPY das mensagens; não grava, não edita, não configura player.
 > - **Oferta/escassez/Q&A na AULA** → **soft-webinar-plano** e **soft-webinar-script**. Aqui a escassez aparece só como o que a MENSAGEM pode dizer (eco da escassez da sessão, nunca uma nova).
 > - **Páginas de cadastro/obrigado/checkout** → **soft-funil-landing**.
@@ -36,7 +36,7 @@ Webinar roda em três modos. A diferença não é técnica, é o que cada um gan
 | **Ao vivo recorrente** | Audiência média, ticket alto, capacidade limitada | Cansa, não escala, depende de você toda vez | Toque humano, conversão alta |
 | **Perpétuo** | Pós-validação, escala | Sem você na sala; converte um pouco menos por sessão | Roda 24/7 sem você, vende enquanto você dorme |
 
-**O workflow Soft é sempre o mesmo:** ao vivo de validação → sessão de gravação → perpétuo. Nunca o contrário. (Números e falas dessa sequência vivem em `perpetuo-mecanica-leo.md`.)
+**O workflow Soft é sempre o mesmo:** ao vivo de validação → sessão de gravação → perpétuo. Nunca o contrário. (Números e falas dessa sequência vivem em `perpetuo-mecanica.md`.)
 
 **Por que perpétuo, e não VSL.** O perpétuo Soft não é "clica e assiste já". É o gravado desenhado como **sessão estratégica marcada** (horário escolhido, escassez de sala real, sensação de reunião 1:1 em escala). É isso que faz ele converter mais que VSL — e é exatamente o que a mensageria do perpétuo sustenta: as mensagens é que criam a sensação de "marquei com ele". O instant-watch/VSL puro não tem compromisso, não tem escassez, não tem o "marquei", e por isso converte menos (1-3%) e não serve a ticket alto.
 
@@ -66,7 +66,7 @@ A **estrutura** das mensagens é a mesma (antes / durante / pós, em `sequencias
 
 O único desenho honesto de escassez que roda em loop infinito: a oferta acaba quando a AULA acaba, e o produto continua comprável depois por mais caro — não se mente estoque nem se finge um timer de calendário.
 
-> **EXEMPLO (verbatim, pele Soft / nutrição / Vítor Abrão — ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`):** "se acabar essa aula, bicho, acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R$200 de desconto aqui." A urgência é atrelada à SESSÃO ("se essa aula acabar, acabou") — perfeita pra evergreen, porque a condição é da sessão e não do calendário.
+> **EXEMPLO (verbatim, pele de referência / nutrição — ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`):** "se acabar essa aula, bicho, acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R$200 de desconto aqui." A urgência é atrelada à SESSÃO ("se essa aula acabar, acabou") — perfeita pra evergreen, porque a condição é da sessão e não do calendário.
 
 **O que isso significa pra a COPY das mensagens (o que a skill escreve):**
 - O WhatsApp do **min 50** (oferta abriu) diz "vale só nessa sessão", não "vale só hoje".
@@ -88,7 +88,7 @@ No perpétuo, o link da sala que vai no WhatsApp 5 min antes é **individual** �
 
 A frequência mexe em três alavancas: **volume** (mais horários, mais audiência), **exclusividade percebida** (mais frequente, menos especial) e **custo de anúncio** (multi-horário melhora a entrega). **No que importa pra a mensageria:** a frequência decide quão CURTA é a janela entre cadastro e sessão — e isso governa a régua de antes (quantos lembretes cabem e a que distância).
 
-### O padrão Soft, da fala do Léo: 4 horários por dia
+### O padrão Soft, da fala de referência: 4 horários por dia
 
 "Rodam quatro horários por dia. Já testamos rodar dois, já testamos rodar um, já fizemos uma vez na semana." **4/dia foi o que ficou em pé** — volume suficiente sem matar a sensação de evento. EXEMPLO instanciado (pele Soft): **9h / 11h / 14h / 19h**. Ancore os horários em quando o **seu** avatar decide comprar, não em preferência.
 
@@ -111,9 +111,9 @@ Quando os números desabam, o furo quase sempre é técnico (encanamento), não 
 
 | Métrica | Faixa saudável (perpétuo) | Sinal de alerta | O que olhar |
 |---------|---------------------------|-----------------|-------------|
-| Cadastrados → compareceram | **30-40%** (fala do Léo, varia com a época) | Abaixo de 30% | sequência PRÉ fraca: revisar e-mail/WhatsApp e a promessa da captura — **e conferir se o WhatsApp está ligado** (é a maior alavanca de comparecimento) |
+| Cadastrados → compareceram | **30-40%** (fala de referência, varia com a época) | Abaixo de 30% | sequência PRÉ fraca: revisar e-mail/WhatsApp e a promessa da captura — **e conferir se o WhatsApp está ligado** (é a maior alavanca de comparecimento) |
 | Tempo médio de retenção | 50-70% | Abaixo de 45% | algum bloco da AULA vaza (não é a mensagem) → soft-webinar-script |
-| Comparece → compra | **~6% piso de saúde** (médio ticket) | Abaixo disso | "ou o COP está errado, ou o ticket não fecha a conta" (Léo) → oferta/aula |
+| Comparece → compra | **~6% piso de saúde** (médio ticket) | Abaixo disso | "ou o COP está errado, ou o ticket não fecha a conta" (o autor do método) → oferta/aula |
 | ROAS dos anúncios | **2,2-4** | Abaixo de 1,5x | anúncio/público/pixel → soft-conteudo-impulsionar |
 
 > **A leitura que importa pra a mensageria:** comparecimento abaixo da faixa = primeiro suspeito é o **WhatsApp não ligado** ou a régua de antes fraca (são o que esta skill resolve). Conversão de pós abaixo = checar se a tag por % assistido está roteando certo (quem viu a oferta recebe fechamento; quem saiu antes recebe nutrição). Retenção e conversão-na-sala baixas NÃO são problema de mensagem — são da aula/oferta; não reescreva mensagem pra consertar a aula.
@@ -122,7 +122,7 @@ Quando os números desabam, o furo quase sempre é técnico (encanamento), não 
 
 ## A regra dos 90% (o guarda-corpo que a mensageria não cobre)
 
-Webinar perpétuo gravado **sem validar ao vivo antes** tem ~90% de chance de não converter. A mensageria mais cravada do mundo não salva um webinar não validado. Antes de montar a régua do perpétuo, confirme que o webinar foi **validado ao vivo** (a fase 1/2 do `perpetuo-mecanica-leo.md` aconteceu). Se o especialista está montando a régua pra um perpétuo nunca testado ao vivo, **avise**: a régua sobe, mas o risco mora na aula não validada, não nas mensagens. (Não é cautela, é o número.)
+Webinar perpétuo gravado **sem validar ao vivo antes** tem ~90% de chance de não converter. A mensageria mais cravada do mundo não salva um webinar não validado. Antes de montar a régua do perpétuo, confirme que o webinar foi **validado ao vivo** (a fase 1/2 do `perpetuo-mecanica.md` aconteceu). Se o especialista está montando a régua pra um perpétuo nunca testado ao vivo, **avise**: a régua sobe, mas o risco mora na aula não validada, não nas mensagens. (Não é cautela, é o número.)
 
 ---
 

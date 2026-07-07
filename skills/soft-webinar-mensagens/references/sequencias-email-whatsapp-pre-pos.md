@@ -356,7 +356,7 @@ Entra logo. A sala abre [10 min] antes - quanto mais cedo, mais sossego.
 > [seu nome]
 > ```
 >
-> **Mecanismo do bônus-de-retenção:** prometer um bônus que só é anunciado perto do fim (aqui, "no minuto 50") segura a pessoa até a oferta - e a oferta abre logo depois. É o mesmo gancho que a MindMaster opera ("PDF da aula automaticamente... só pra quem ficou até o final"). **No seu nicho:** o bônus tem que ser do nicho e desejável; o ponto ("minuto 50") é o seu timestamp de oferta.
+> **Mecanismo do bônus-de-retenção:** prometer um bônus que só é anunciado perto do fim (aqui, "no minuto 50") segura a pessoa até a oferta - e a oferta abre logo depois. É o mesmo gancho que a operação-referência (8 dígitos, que o autor rodou como CRO) opera ("PDF da aula automaticamente... só pra quem ficou até o final"). **No seu nicho:** o bônus tem que ser do nicho e desejável; o ponto ("minuto 50") é o seu timestamp de oferta.
 
 **WHATSAPP 3 - molde**
 
@@ -501,7 +501,7 @@ A sequência abaixo NÃO é a mesma pra todo mundo. Antes de escrever qualquer e
 - **Porquê isto é ouro puro:** *"Essas tags são ouro puro. Como é gravado, você sabe o segundo exato em que a oferta aconteceu. Você tagueia quem viu aquilo exatamente e empurra pro comercial só quem já viu a oferta."* Só cerca de **10% chegam ao fim, e é de onde vem a maioria das vendas.** Sem a tag, esses 10% recebem o mesmo email de quem saiu aos 5 minutos, e você perde os dois. (origem: corpus de webinar Soft.)
 - **A regra de ouro do pós:** a sequência Mensagem 5→9 abaixo é a **régua de fechamento pra quem tem `viu-oferta` ou `chegou-fim`**. Quem tem `assistiu-50` recebe primeiro a versão NUTRIÇÃO (reconvite + valor) e só entra no fechamento quando reage. Quem `nao-compareceu` recebe **só reconvite** - nunca pitch. **Mensagem certa, temperatura certa, canal certo.**
 
-> **EXEMPLO da máquina operando à vista (MindMaster, R$13M):** o apresentador fala casual *"a gente vai mandar o PDF da aula automaticamente pro email de vocês... só pra quem ficou até o final"* e completa *"está no sistema, a gente consegue ver quem ficou até o final"*. Aquilo é a tag de 100% assistido operando na frente de todo mundo. (origem: cap09.)
+> **EXEMPLO da máquina operando à vista (operação-referência):** o apresentador fala casual *"a gente vai mandar o PDF da aula automaticamente pro email de vocês... só pra quem ficou até o final"* e completa *"está no sistema, a gente consegue ver quem ficou até o final"*. Aquilo é a tag de 100% assistido operando na frente de todo mundo. (origem: cap09.)
 
 ---
 

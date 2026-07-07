@@ -1,7 +1,7 @@
 # Oferta/Stack (a aula reembalada como produto, bônus por objeção, valor empilhado item a item)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Mecanismos com dono: "bônus do combinado não sai caro" = MindMaster; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = webinar de referência.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
+> Ressalva de atribuição: o "Webinar C" do corpus do autor do método tem voz única que se identifica como **o autor do case de odontologia** (dentista) - é referência de craft, não fala do autor do método. Mecanismos com dono: "bônus do combinado não sai caro" = operação-referência; "Black Belt Club" e a escada de faixas = o autor do case de odontologia/Webinar C; a regra "bônus convertem mais que a oferta" = webinar de referência.
 
 ---
 
@@ -13,13 +13,13 @@ A oferta dos campeões nunca é um produto novo: é a AULA reembalada. Os módul
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165
+### Webinar de gestão (8 dígitos) (operação-referência, ed. A - modelo-mestre 8 dígitos) - gestão corporativa, o programa de gestão (ed. 2) de R$3.000 por 12x R$165
 
 **Trecho literal:**
 
 Promessa do produto (espelho do objetivo 3 da aula):
 
-> "qual que é a grande promessa desse curso: domínio a gestão ag 2.0 e se torne um líder valioso em qualquer área tá, isso aqui se aplica em qualquer área, em 90 dias, em 90 dias tá. é um curso para você fazer cara é rápido […] esse é o meu compromisso com com você"
+> "qual que é a grande promessa desse curso: domínio a gestão (ed. 2) e se torne um líder valioso em qualquer área tá, isso aqui se aplica em qualquer área, em 90 dias, em 90 dias tá. é um curso para você fazer cara é rápido […] esse é o meu compromisso com com você"
 
 Diferenciação contra a alternativa (MBA = linguiça):
 
@@ -27,7 +27,7 @@ Diferenciação contra a alternativa (MBA = linguiça):
 
 Componentes (7 módulos mapeados 1:1 com a aula):
 
-> "segundo módulo é o módulo de organização do trabalho, é aqui que eu entro a fundo tudo que a gente viu Nessa aula aqui dos cinco níveis de planejamento, a gente vai aprofundar no módulo dois desse curso […] é um curso de campan dentro desse curso […] é um é um curso de liderança dentro de do do curso do gestão ag 2.0"
+> "segundo módulo é o módulo de organização do trabalho, é aqui que eu entro a fundo tudo que a gente viu Nessa aula aqui dos cinco níveis de planejamento, a gente vai aprofundar no módulo dois desse curso […] é um curso de campan dentro desse curso […] é um é um curso de liderança dentro de do do curso do gestão (ed. 2)"
 
 Bônus 1 - mentoria quinzenal com preço:
 
@@ -37,19 +37,19 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > "tem um bônus que eu quero fazer aqui para vocês que é o bônus do combinado não sai caro […] eu quero que você seja esse próximo aluno que vai me mandar esse depoimento […] para que você me mande esses o seu depoimento no futuro eu vou te dar r$ 300 de desconto adicional tá […] e o compromisso é a nossa palavra aqui tá bom"
 
-**O que ele fez:** (1) promessa com prazo ("90 dias", repetido - fecha o loop aberto na abertura); (2) cada módulo nomeado como "um curso dentro do curso" (multiplicação de valor percebido); (3) comparação estrutural com MBA (360h/24 meses/linguiça vs 64h/90 dias) - vende a compressão como benefício; (4) bônus precificados antes de doados (mentoria R$9.100); (5) "bônus do combinado não sai caro" (mecanismo MindMaster) transforma desconto em troca recíproca - R$300 por depoimento futuro, desconto com reason-why embutido; (6) remoção de atritos logísticos (100% gravado, 12 meses de acesso, suporte diário, certificado).
+**O que ele fez:** (1) promessa com prazo ("90 dias", repetido - fecha o loop aberto na abertura); (2) cada módulo nomeado como "um curso dentro do curso" (multiplicação de valor percebido); (3) comparação estrutural com MBA (360h/24 meses/linguiça vs 64h/90 dias) - vende a compressão como benefício; (4) bônus precificados antes de doados (mentoria R$9.100); (5) "bônus do combinado não sai caro" (mecanismo operação-referência) transforma desconto em troca recíproca - R$300 por depoimento futuro, desconto com reason-why embutido; (6) remoção de atritos logísticos (100% gravado, 12 meses de acesso, suporte diário, certificado).
 
 **Por que funciona:** o stack é a aula reembalada - cada módulo corresponde a um buraco que a própria aula abriu ("a gente acabou não vendo… mas dentro do curso tem"). E nenhum bônus é grátis "porque sim": cada um tem preço e motivo, o que mantém a credibilidade da ancoragem.
 
-**O que é decalcável vs do nicho:** decalcável: módulos espelhando a aula, bônus precificado com reason-why de custo, desconto-por-depoimento-futuro como contrapartida. Do nicho/dono: o anti-MBA serve o avatar CLT; "bônus do combinado não sai caro" é nome da MindMaster - extrair o mecanismo (contrapartida), nunca o rótulo.
+**O que é decalcável vs do nicho:** decalcável: módulos espelhando a aula, bônus precificado com reason-why de custo, desconto-por-depoimento-futuro como contrapartida. Do nicho/dono: o anti-MBA serve o avatar CLT; "bônus do combinado não sai caro" é nome da operação-referência - extrair o mecanismo (contrapartida), nunca o rótulo.
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - mesma máquina, mesmo script-base; bônus em camadas de escassez
+### 5N (o estrategista da operação-referência) - mesma máquina, mesmo script-base; bônus em camadas de escassez
 
 **Trecho literal:**
 
-> "qual que é a grande promessa desse curso? domine a Gestão Ágil 2.0 e se torne um líder valioso em qualquer área isso aqui se aplica em qualquer área em 90 dias. É um curso para você fazer, é rápido, é um negócio rápido, é 100% prático"
+> "qual que é a grande promessa desse curso? domine o programa de gestão (ed. 2) e se torne um líder valioso em qualquer área isso aqui se aplica em qualquer área em 90 dias. É um curso para você fazer, é rápido, é um negócio rápido, é 100% prático"
 
 > (bônus 1 com justificativa de custo) "E quanto custa esse acompanhamento ao vivo? […] Por que isso aqui é um bônus para você? Porque normalmente a gente cobra para fazer, porque isso aqui tem um custo para nós. Custo do professor, custo de estar ali cada 15 dias […] A gente cobra essas mentorias R$ 9.100,00. 12 meses de mentoria. E para essa turma, isso aqui vai ser bônus."
 
@@ -57,21 +57,21 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > (bônus 4 - 10 primeiros) "tem um presentinho aqui para os 10 primeiros. Isso aqui vai automático no nosso sistema. Os 10 primeiros que se inscreverem vão ganhar também um workshop de gestão de tempo"
 
-**O que ele fez:** mesma espinha do 13M com a camada extra mais nítida do corpus: bônus em CAMADAS de escassez decrescente (turma inteira → 15 primeiros → 10 primeiros), todo bônus com preço nominal e reason-why do custo, e âncora externa absurda dentro do bônus (Stanford US$13 mil / R$70 mil com a viagem → "o mesmo curso em português por R$2.000").
+**O que ele fez:** mesma espinha do caso de 8 dígitos com a camada extra mais nítida do corpus: bônus em CAMADAS de escassez decrescente (turma inteira → 15 primeiros → 10 primeiros), todo bônus com preço nominal e reason-why do custo, e âncora externa absurda dentro do bônus (Stanford US$13 mil / R$70 mil com a viagem → "o mesmo curso em português por R$2.000").
 
-**Por que funciona:** o stack reusa a aula como demonstração ("tudo que a gente viu hoje é o módulo 2") - o aluno já provou o produto. E precificar cada bônus com justificativa de custo faz a soma de R$15 mil parecer contabilidade, não retórica. ACHADO de máquina: este bloco roda quase idêntico ao 13M entre edições - o stack é ativo roteirizado, não improviso.
+**Por que funciona:** o stack reusa a aula como demonstração ("tudo que a gente viu hoje é o módulo 2") - o aluno já provou o produto. E precificar cada bônus com justificativa de custo faz a soma de R$15 mil parecer contabilidade, não retórica. ACHADO de máquina: este bloco roda quase idêntico ao caso de 8 dígitos entre edições - o stack é ativo roteirizado, não improviso.
 
 **O que é decalcável vs do nicho:** decalcável: camadas de escassez nos bônus (alimentam o bloco 12 sem mexer no produto), âncora externa de prestígio dentro do bônus. Do nicho: Stanford/OKR - o prestígio emprestado precisa ser o que o avatar do nicho reverencia.
 
 ---
 
-### Gestão Ágil ed. 2.0 (MindMaster, host Denison) - stack com o ativo proprietário mais original da máquina
+### GA ed.2 (operação-referência) - stack com o ativo proprietário mais original da máquina
 
 **Trecho literal:**
 
 > "Ele é um curso de 7 módulos, tá? […] Nesses sete módulos, você vai aprender tudo sobre Scrum, Kanban, OKR, Design Thinking, Lean, Antifrágil, Liderança, Inteligência Emocional."
 
-> (entrega que mata objeções logísticas) "você vai ter 12 meses de acesso para você poder rever e rever quantas vezes você precisar […] A cada 15 dias, eu ou o Denis ou a nossa equipe de tutores vai estar lá no Zoom, ao vivo […] a gente tem uma equipe de tutores, que são ex-alunos nossos, aqueles alunos cases de sucesso […] tem uma área de vagas, mural de vagas, tem muita vaga que é fechada dentro do curso, que é aluno que contrata outro aluno"
+> (entrega que mata objeções logísticas) "você vai ter 12 meses de acesso para você poder rever e rever quantas vezes você precisar […] A cada 15 dias, eu ou o meu sócio ou a nossa equipe de tutores vai estar lá no Zoom, ao vivo […] a gente tem uma equipe de tutores, que são ex-alunos nossos, aqueles alunos cases de sucesso […] tem uma área de vagas, mural de vagas, tem muita vaga que é fechada dentro do curso, que é aluno que contrata outro aluno"
 
 > (o Drive de 14 mil alunos - ativo proprietário) "cada aluno nosso ganha uma pasta no nosso Google Drive […] lembra que eu falei que a gente já tem 14 mil alunos? imagina a quantidade de exercícios que a gente tem aqui […] você entra lá na sua área de aluno e digita aqui, exemplo de Kanban na logística, vai aparecer um monte para você."
 
@@ -85,17 +85,17 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### GAIA2k (Denison/MindMaster - "Gestão Ágil na Era da IA") - a mesma máquina com bônus desenhados pela onda do momento
+### GA ed.1 (o estrategista da operação-referência - "o programa de gestão com IA") - a mesma máquina com bônus desenhados pela onda do momento
 
 **Trecho literal:**
 
-> "Então, é um curso de 7 módulos, lembra dos sete passos de gestão AG 2.0? O curso segue os sete passos."
+> "Então, é um curso de 7 módulos, lembra dos sete passos de gestão (ed. 2)? O curso segue os sete passos."
 
 > (linhagem reciclada na oferta) "Eu trago para esse curso todo o conhecimento que eu trabalhei na Toyota, eu estive lá dentro, tá? […] eu aprendi direto na fonte. Eu trago pra dentro desse curso."
 
-> (anti-curso-abandonado) "E a gente acompanha o teu progresso ao longo do curso, tem um negócio que a gente chama de GPS da gestão ágil. Então, a minha equipe monitora os alunos, sabe quem assistiu, quem não assistiu, quem fez exercício, quem não fez. […] A gente está junto com você, você não está lá sozinho."
+> (anti-curso-abandonado) "E a gente acompanha o teu progresso ao longo do curso, tem um negócio que a gente chama de GPS da gestão. Então, a minha equipe monitora os alunos, sabe quem assistiu, quem não assistiu, quem fez exercício, quem não fez. […] A gente está junto com você, você não está lá sozinho."
 
-> (pergunta hipotética antes do bônus) "Imagina ter acesso direto a um especialista em gestão ágil a cada 15 dias. Seria bacana para você? […] Custa R$ 9.100. Por ano. […] você não vai pagar nada por isso, tá?"
+> (pergunta hipotética antes do bônus) "Imagina ter acesso direto a um especialista em gestão a cada 15 dias. Seria bacana para você? […] Custa R$ 9.100. Por ano. […] você não vai pagar nada por isso, tá?"
 
 > (bônus de onda) "a gente falou bastante de IA, eu vou te dar 97 prompts ou usos práticos de inteligência artificial para líderes."
 
@@ -107,13 +107,13 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - oferta como completude dos 3 pilares da aula
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - oferta como completude dos 3 pilares da aula
 
 **Trecho literal:**
 
 > "A base dele são três pilares, como você já teve aqui, é a base desse conteúdo que eu te dei aqui hoje, network, material profissional, que é o portfólio, currículo, né? Network são as oportunidades e projeto americano, que é a técnica. De nada adianta você ter as oportunidades e não ter a técnica ou não ter um portfólio […] Você precisa desses três pilares."
 
-> (a objeção do inglês resolvida DENTRO do stack) "Se você tava em dúvida que você, Ju, não fala inglês […] tem um professor que dá aula ao vivo dentro do programa Seja Arquiteto na América para você treinar o seu vocabulário, perder a vergonha, soltar a língua."
+> (a objeção do inglês resolvida DENTRO do stack) "Se você tava em dúvida que você, [host], não fala inglês […] tem um professor que dá aula ao vivo dentro do programa de arquitetura internacional para você treinar o seu vocabulário, perder a vergonha, soltar a língua."
 
 > (comunidade com prova de elite dentro) "inclusive tem arquitetos do estúdio Artur Casas do Jacob sem arquitetura dentro do programa […] é um network estratégico de pessoas que já fazem projeto nos Estados Unidos."
 
@@ -127,13 +127,13 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Webinar Léo A (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - produto apresentado como JORNADA de identidades
+### Webinar de referência A (pele Soft aplicada: nutrição / o autor do case de nutrição) - produto apresentado como JORNADA de identidades
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o autor do case de nutrição)*
 
-> "o que que é o MDI: um programa de 12 semanas para você montar e seguir a sua dieta inteligente e alcançar um ano de resultado em 3 meses"
+> "o que que é o [PROGRAMA]: um programa de 12 semanas para você montar e seguir a sua dieta inteligente e alcançar um ano de resultado em 3 meses"
 
-> (a jornada em identidades) "primeira semana a quarta semana você vai ser aprendiz […] da quinta semana até a oitava semana você já vai se tornar flexível […] depois da nona semana a 12ª você vai ser inteligente, o que que é inteligente: você já come o que você bem entender […] e no final, inteligente e inspiradora, que é o para sempre, pro resto da sua vida, porque o que você aprende no MDI não dá para você desaprender"
+> (a jornada em identidades) "primeira semana a quarta semana você vai ser aprendiz […] da quinta semana até a oitava semana você já vai se tornar flexível […] depois da nona semana a 12ª você vai ser inteligente, o que que é inteligente: você já come o que você bem entender […] e no final, inteligente e inspiradora, que é o para sempre, pro resto da sua vida, porque o que você aprende no [PROGRAMA] não dá para você desaprender"
 
 > (componentes por objeção) "aplicativo Smart di […] um ano de acesso que custa atualmente R 49,90 por mês, no ano 59880, por zero você vai ganhar o acesso" / "treinos de musculação: você não precisa gastar com personal" / "comunidade do telegram, Ou seja, você vai ter uma galera que tá em busca do resultado junto com você"
 
@@ -143,11 +143,11 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 **Por que funciona:** jornada com nomes de identidade vende transformação de quem ela É, não acesso a conteúdo. Stack desenhado objeção-a-objeção faz o "não" ficar sem onde morar antes mesmo do preço aparecer.
 
-**O que é decalcável vs do nicho:** decalcável: a jornada em identidades nomeadas com prazo por fase; componente-por-objeção; precificar cada peça antes do total. Do nicho: app de dieta, Telegram, os nomes das fases (são do MDI/Vítor).
+**O que é decalcável vs do nicho:** decalcável: a jornada em identidades nomeadas com prazo por fase; componente-por-objeção; precificar cada peça antes do total. Do nicho: app de dieta, Telegram, os nomes das fases (são do [PROGRAMA]/o autor do case de nutrição).
 
 ---
 
-### Webinar C (corpus Léo - voz Bruno, dentista; "Resina Anterior / Método One 2.0") - stack que fecha os buracos da aula na mesma ordem
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - stack que fecha os buracos da aula na mesma ordem
 
 **Trecho literal:**
 
@@ -163,11 +163,11 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > "são 31 módulos, são mais de 90 aulas, direto ao ponto viu galera, entendeu meu estilo já, não tem mimimi"
 
-**O que ele fez:** stack clássico com "poderia vender separado" verbalizado 3x; bônus que matam objeções específicas (precificação → "não sei cobrar"; psiquiatra/humanização → "técnica não basta"; redes sociais → "não tenho pacientes"); continuidade semanal (Black Belt Club, nome do Bruno) amarrada à metáfora das faixas plantada na autoridade; bônus aspiracional de status (lista de indicações = virar o dentista-referência prometido no bloco 04); números de volume (31 módulos / 90+ aulas); a oferta paga a metáfora das pegadas plantada na Big Idea ("as pegadas já estão marcadas para você").
+**O que ele fez:** stack clássico com "poderia vender separado" verbalizado 3x; bônus que matam objeções específicas (precificação → "não sei cobrar"; psiquiatra/humanização → "técnica não basta"; redes sociais → "não tenho pacientes"); continuidade semanal (Black Belt Club, nome do autor do case de odontologia) amarrada à metáfora das faixas plantada na autoridade; bônus aspiracional de status (lista de indicações = virar o dentista-referência prometido no bloco 04); números de volume (31 módulos / 90+ aulas); a oferta paga a metáfora das pegadas plantada na Big Idea ("as pegadas já estão marcadas para você").
 
 **Por que funciona:** cada item do stack fecha um buraco aberto durante a aula - o stack é a lista das dores na mesma ordem em que foram instaladas. O Black Belt Club e as indicações vendem PERTENCIMENTO ao time, não conteúdo extra.
 
-**O que é decalcável vs do nicho:** decalcável: "poderia vender separado" como construção de valor; continuidade que paga a metáfora-identidade do método; bônus de status que entrega a promessa do bloco de problema. Do nicho/dono: faixas, espátula, acervo de resinas e "Black Belt Club" são do Bruno.
+**O que é decalcável vs do nicho:** decalcável: "poderia vender separado" como construção de valor; continuidade que paga a metáfora-identidade do método; bônus de status que entrega a promessa do bloco de problema. Do nicho/dono: faixas, espátula, acervo de resinas e "Black Belt Club" são do autor do case de odontologia.
 
 ---
 
@@ -229,7 +229,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - [ ] **Remoção de atritos logísticos dentro do stack** (12 meses de acesso, 100% gravado, suporte diário, certificado, início imediato) - as objeções operacionais morrem aqui, não no Q&A.
 - [ ] **Tangibilização física** (duração ao segundo, 31 módulos/90 aulas, plataforma "estilo Netflix", evento filmado com data) - volume que se consegue visualizar.
 - [ ] **Bônus de identidade/pertencimento no topo** (Black Belt Club, lista de indicações, comunidade vitalícia, consultoria pós-$10k) - o último degrau vende quem o aluno vira, não o que ele recebe.
-- [ ] **Re-listagem cumulativa** (webinar de referência #1; a máquina MindMaster faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
+- [ ] **Re-listagem cumulativa** (webinar de referência #1; a máquina da operação-referência faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
@@ -239,15 +239,15 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - **Detalhar demais o produto-núcleo e correr nos bônus.** O modelo inverte de propósito ("everybody does wrong… they'll spend 55 minutes explaining every little thing") - bônus convertem mais que a oferta.
 - **Revelar tudo do bônus.** Curiosity gap dentro do stack (armas secretas, produtos não revelados) é padrão dos dois webinars de referência - bônus 100% transparente perde tração.
 - **Esconder limitações que vão aparecer no checkout** (juros, acesso limitado). Os campeões declaram ("tem um juros pequeno da plataforma") - surpresa no checkout mata a venda construída.
-- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é MindMaster; "Black Belt Club" é do Bruno; "GPS da gestão ágil" é MindMaster. No Soft: mesma premissa, nome do Léo, validado com ele.
-- **Pro avatar Soft especificamente:** o stack MindMaster resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
+- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é operação-referência; "Black Belt Club" é do autor do case de odontologia; "GPS da gestão" é operação-referência. No Soft: mesma premissa, nome do autor do método, validado com ele.
+- **Pro avatar Soft especificamente:** o stack operação-referência resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum.** Os 9 webinars do corpus executam oferta/stack - junto com abertura, problema, big idea, conteúdo, transição, prova e preço, é bloco de presença universal: não existe webinar-campeão que apresente o produto como item único sem empilhamento.
 
 Variações que valem registrar como dado:
-- **A máquina MindMaster roda o stack quase idêntico em 4 edições** (13M, 5 Níveis, ed. 2.0, GAIA2k), trocando só o bônus de onda (97 prompts de IA no GAIA2k) - stack é peça de máquina, escrita uma vez e reusada.
+- **A máquina da operação-referência roda o stack quase idêntico em 4 edições** (caso de 8 dígitos, 5N, GA ed.2, GA ed.1), trocando só o bônus de onda (97 prompts de IA no GA ed.1) - stack é peça de máquina, escrita uma vez e reusada.
 - **webinar de referência #1 dá mais palco aos bônus que ao produto** - e verbaliza a doutrina ("bonuses are more important than the offer itself"). É o gabarito teórico pra auditar os outros.
-- **Léo A empacota como jornada de identidades** (Aprendiz→Inspiradora) - formato que conversa melhor com avatar de transformação pessoal do que lista de módulos.
-- **Léo C devolve as metáforas plantadas** (pegadas, faixas) dentro do stack - em webinar com metáfora-mestra, o stack é onde ela é paga.
+- **webinar de referência A empacota como jornada de identidades** (Aprendiz→Inspiradora) - formato que conversa melhor com avatar de transformação pessoal do que lista de módulos.
+- **webinar de referência C devolve as metáforas plantadas** (pegadas, faixas) dentro do stack - em webinar com metáfora-mestra, o stack é onde ela é paga.

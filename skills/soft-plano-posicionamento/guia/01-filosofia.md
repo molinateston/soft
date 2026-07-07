@@ -35,7 +35,7 @@ O nome carrega a tese. **Soft** = sólido, simples, sustentável. **Business** =
 O que ele cobre:
 
 - **Posicionamento Incomum** - quem você atende, qual problema resolve, como você ocupa um lugar que ninguém mais ocupa. É a fonte da percepção que todo o resto instala.
-- **O webinário perpétuo** - o melhor funil do mundo: uma aula gravada uma vez que vende no automático, pra público frio, sem você aparecer. É onde a percepção se reorganiza num lugar só, todo dia.
+- **O webinário perpétuo** - uma aula gravada uma vez que vende no automático, pra público frio, sem você aparecer. É onde a percepção se reorganiza num lugar só, todo dia.
 - **A IA do método (o agente de IA do especialista)** - os agentes treinados no método que escrevem roteiro, página, e-mails e anúncios na sua voz. O agente executa, você dirige.
 
 ### A fórmula do método: posição + mecanismo + máquina = 10X$

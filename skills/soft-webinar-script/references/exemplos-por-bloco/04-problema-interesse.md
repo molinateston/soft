@@ -1,7 +1,7 @@
 # Problema/Diagnóstico (diagnóstico da dor, vilão nomeado, níveis de consciência, "é exatamente isso")
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do Léo. Nomes de mecanismo citados sempre com dono ("síndrome do Fantástico", "gestor do passado", "gestossauro", o uso de VUCA/BANI = MindMaster/Denison; "dieta burra" e "modo sobrevivência" = Vítor Abrão; "pitchfest" e "bright shiny objects" = webinar de referência; a frase-vilã "resina é assim mesmo" = Bruno/Webinar C).
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
+> Ressalva de atribuição: o "Webinar C" do corpus do autor do método tem voz única que se identifica como **o autor do case de odontologia** (dentista) - é referência de craft, não fala do autor do método. Nomes de mecanismo citados sempre com dono ("síndrome do Fantástico", "gestor do passado", "gestossauro", o uso de VUCA/BANI = operação-referência; "dieta burra" e "modo sobrevivência" = o autor do case de nutrição; "pitchfest" e "bright shiny objects" = webinar de referência; a frase-vilã "resina é assim mesmo" = o autor do case de odontologia/Webinar C).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -15,7 +15,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, edição A - Denison Vieira) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$13M
+### Webinar de gestão (8 dígitos) (operação-referência, edição A) - gestão p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de 8 dígitos
 
 **Trecho literal:**
 
@@ -27,19 +27,19 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "eu coloquei aqui um uma brincadeira, gerei aqui com inteligência artificial uma imagem né de um homem das cavernas tentando usar um kamban aqui né. isso aqui tá acontecendo demais tá, tá perdido, tem um monte de gente que a gente chama de gestores do passado que estão perdidos. quem é que é gestor do passado que tá perdido hoje em dia coloca nos comentários pra gente, não tem problema a sumir não tá gente, aqui nós estamos num num ambiente seguro"
 
-> "aqui a gente faz muita pesquisa de mercado aqui na Mind Master né, talvez você já tenha respondido alguma pesquisa Nossa, eh e a gente tem sei lá eu acho que a última vez que eu lei deve ter umas 880.000 respostas nessa pesquisa. por que que eu tô dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado"
+> "aqui a gente faz muita pesquisa de mercado aqui na operação-referência né, talvez você já tenha respondido alguma pesquisa Nossa, eh e a gente tem sei lá eu acho que a última vez que eu lei deve ter umas 880.000 respostas nessa pesquisa. por que que eu tô dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado"
 
 > "aí você pode falar pô mas eu não sou dono da de empresa, que que eu tenho a ver com isso, por que que eu tenho que saber os problemas das empresas? Ah meu amigo, é aí que você se engana se você acha que você não tem que saber disso aqui. porque você como profissional eu sei que você também tem alguns problemas, que a gente também faz pesquisas […] primeiro problema que mais relatam aqui pra gente é estagnação de carreira tá, muitos profissionais sentem que estão presos nas suas posições atuais"
 
 > "E aí se você tiver algum desses aqui, se você se identificar com alguns, coloca nos comentários e eu vou te explicar como é que você resolve eles tá"
 
-**O que ele fez:** abre com a dor emocional batizada com âncora cultural ("síndrome do Fantástico" - nome da MindMaster) → valida o motivo de continuar preso (boleto, filhos) sem julgar → instala o vilão estrutural ("o mundo mudou" + "gestor do passado" ridicularizado por imagem de IA, nunca por pessoa da sala) → convida confissão no chat criando "ambiente seguro" → lastro de dado próprio (pesquisa com "880.000 respostas") → duas listas espelhadas (7 problemas das empresas ↔ 5 problemas dos profissionais) → antecipa a objeção "não sou dono de empresa" e a usa de ponte pra dor pessoal → fecha pedindo auto-identificação no chat com promessa de resolução adiante.
+**O que ele fez:** abre com a dor emocional batizada com âncora cultural ("síndrome do Fantástico" - nome da operação-referência) → valida o motivo de continuar preso (boleto, filhos) sem julgar → instala o vilão estrutural ("o mundo mudou" + "gestor do passado" ridicularizado por imagem de IA, nunca por pessoa da sala) → convida confissão no chat criando "ambiente seguro" → lastro de dado próprio (pesquisa com "880.000 respostas") → duas listas espelhadas (7 problemas das empresas ↔ 5 problemas dos profissionais) → antecipa a objeção "não sou dono de empresa" e a usa de ponte pra dor pessoal → fecha pedindo auto-identificação no chat com promessa de resolução adiante.
 
 **Por que funciona:** quem confessa a dor no chat se auto-diagnostica - o vendedor não precisa convencer ninguém de que tem problema. Como o vilão é externo (mundo mudou, ensinaram o método de outra era), aceitar a solução não exige admitir incompetência. E a pesquisa gigante dá ao diagnóstico selo de estatística, não de chute.
 
-**Decalcável vs do nicho:** decalcável: dor com nome memorável + vilão despersonalizado + confissão segura no chat + lista espelhada empresa/pessoa com lastro de pesquisa. Do nicho/dono: "síndrome do Fantástico", "gestor do passado" e o frame VUCA são da MindMaster - cada nicho batiza a própria dor.
+**Decalcável vs do nicho:** decalcável: dor com nome memorável + vilão despersonalizado + confissão segura no chat + lista espelhada empresa/pessoa com lastro de pesquisa. Do nicho/dono: "síndrome do Fantástico", "gestor do passado" e o frame VUCA são da operação-referência - cada nicho batiza a própria dor.
 
-### Gestão Ágil 2.0 (MindMaster, ed. 2 - Denison) - mesma máquina; R$1.997 → R$165,34/mês; variação: pesquisa de inscrição devolvida como top-5
+### GA ed.2 (operação-referência) - mesma máquina; R$1.997 → R$165,34/mês; variação: pesquisa de inscrição devolvida como top-5
 
 **Trecho literal:**
 
@@ -47,7 +47,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "E aí eu faço uma provocação aqui. Imagina como seria ser capaz de aumentar a produtividade sem sobrecarregar as pessoas. Garantir que projetos sejam bem sucedidos, sem gastar milhares de horas de planejamento, planejando, planejando, planejando. Conseguir promover agilidade, uma cultura ágil, sem mudar radicalmente a cultura da empresa. Parece utopia tudo isso, né?"
 
-> "Por que está todo mundo adotando gestão ágil hoje em dia? Por causa de um negocinho chamado VUCA. Alguém já ouviu falar dessa sigla? […] significa volátil, o de uncertain, que em português seria incerto, complexo e ambíguo."
+> "Por que está todo mundo adotando gestão hoje em dia? Por causa de um negocinho chamado VUCA. Alguém já ouviu falar dessa sigla? […] significa volátil, o de uncertain, que em português seria incerto, complexo e ambíguo."
 
 > "hoje em dia nós temos muito excesso de projetos. quem aqui não está na empresa e tem um monte de projetos, além de um monte de projetos em paralelo tem um monte de projetos ainda que nem começou e está lá, todo mundo quer tocar os projetos, falta tempo para concluir tudo isso. é uma realidade hoje em dia, reflexo do mundo VUCA"
 
@@ -57,17 +57,17 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 **O que ele fez:** devolve a pesquisa de inscrição como "top 5 expectativas" e manda votar por número no chat → provoca com o mundo ideal ("parece utopia, né?") deixando o gancho aberto → nomeia o vilão de sigla (VUCA) que externaliza a culpa → lista as 5 dores do dia a dia com pergunta de identificação universal ("quem não tem… que atire a primeira pedra") → fecha com prova científica (gráfico de Fogel) que torna o problema estrutural, não pessoal.
 
-**Por que funciona:** a dor não é afirmada, é DEVOLVIDA - ele cita a pesquisa que a própria audiência preencheu e faz a sala votar, então o diagnóstico é inegável: o "é exatamente isso" foi escrito pelo próprio lead na inscrição. O apoio (exemplos-vivos/gestao-agil-mindmaster.md) nomeia o mecanismo: a aula vira ENCOMENDA da audiência - "o espectador compra o que ele mesmo pediu". E o gráfico macro tira a tese da boca do vendedor: quem discorda, discorda da história da humanidade.
+**Por que funciona:** a dor não é afirmada, é DEVOLVIDA - ele cita a pesquisa que a própria audiência preencheu e faz a sala votar, então o diagnóstico é inegável: o "é exatamente isso" foi escrito pelo próprio lead na inscrição. O apoio (corpus de referência interno) nomeia o mecanismo: a aula vira ENCOMENDA da audiência - "o espectador compra o que ele mesmo pediu". E o gráfico macro tira a tese da boca do vendedor: quem discorda, discorda da história da humanidade.
 
 **Decalcável vs do nicho:** decalcável: pesquisa de inscrição devolvida + votação numerada + vilão-sigla + prova por gráfico/dado externo. Do nicho: VUCA e as 5 dores de gestão são desse avatar; a pergunta "atire a primeira pedra" precisa mirar uma dor de fato universal no nicho novo.
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - mesmo roteiro do 13M, outra sessão; R$1.997/R$1.697; prova de que o bloco é roteiro fixo
+### 5N (o estrategista da operação-referência) - mesmo roteiro do caso de 8 dígitos, outra sessão; R$1.997/R$1.697; prova de que o bloco é roteiro fixo
 
 **Trecho literal:**
 
 > "E para fazer gestão aqui, o que você aprendeu, se você aprendeu métodos do passado, joga fora. Não funciona. […] E tem muitos gestores do passado que estão perdidos hoje em dia. Eu coloquei aqui uma brincadeira, eu gerei aqui com inteligência artificial, uma imagem de um homem das cavernas tentando usar um Kanban. Isso é o que está acontecendo demais. Está perdido. […] Quem aqui é gestor do passado e está perdido hoje em dia? Coloca nos comentários para a gente. Não tem problema em assumir não, gente. Aqui nós estamos em um ambiente seguro."
 
-> "E a gente faz muita pesquisa de mercado aqui na Mindmaster. talvez você já tenha respondido alguma pesquisa nossa e a gente tem sei lá acho que a última vez que eu li eu tenho umas 80 mil respostas nessa pesquisa por que eu estou dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado […] o que as empresas mais reclamam para a gente? é de ineficiência operacional"
+> "E a gente faz muita pesquisa de mercado aqui na operação-referência. talvez você já tenha respondido alguma pesquisa nossa e a gente tem sei lá acho que a última vez que eu li eu tenho umas 80 mil respostas nessa pesquisa por que eu estou dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado […] o que as empresas mais reclamam para a gente? é de ineficiência operacional"
 
 > "Primeiro problema que mais relatam aqui pra gente é a estagnação de carreira. Muitos profissionais sentem que estão presos nas suas posições atuais, estão há muito tempo fazendo a mesma coisa e está sem oportunidades claras de avanço na carreira"
 
@@ -75,13 +75,13 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "Aí você pode falar, mas eu não sou o dono de empresa. O que eu tenho a ver com isso? Por que eu tenho que saber os problemas das empresas? Ah, meu amigo, é aí que você se engana."
 
-**O que ele fez:** mesma espinha do 13M, com a ordem invertida (vilão primeiro, dor emocional depois): manda "jogar fora" o método antigo → vilão "gestor do passado" + homem das cavernas com Kanban (ridículo sem humilhar - a imagem é de IA, não é ninguém da sala) → confissão segura no chat → dupla lista de dores (empresas e profissionais) com dado proprietário → "síndrome do Fantástico" com contraste implícito (nem todo mundo tem - quem gosta do que faz não tem) → antecipa a objeção "não sou dono de empresa".
+**O que ele fez:** mesma espinha do caso de 8 dígitos, com a ordem invertida (vilão primeiro, dor emocional depois): manda "jogar fora" o método antigo → vilão "gestor do passado" + homem das cavernas com Kanban (ridículo sem humilhar - a imagem é de IA, não é ninguém da sala) → confissão segura no chat → dupla lista de dores (empresas e profissionais) com dado proprietário → "síndrome do Fantástico" com contraste implícito (nem todo mundo tem - quem gosta do que faz não tem) → antecipa a objeção "não sou dono de empresa".
 
-**Por que funciona:** ele tira a culpa do avatar (o mundo mudou, te ensinaram o método errado) e a transfere pro vilão - isso permite admitir a dor sem se sentir burro. O apoio (exemplos-vivos/mindmaster-5niveis.md) crava a premissa: "a culpa nunca é do aluno - é do método de outra era, da empresa que consome, da promoção sem preparo. Ele antecipa a objeção em primeira pessoa e responde na hora, mantendo o ego do avatar intacto". Detalhe de máquina: os trechos são quase idênticos aos do 13M - este bloco roda como roteiro fixo, sessão após sessão, porque foi desenhado uma vez e validado.
+**Por que funciona:** ele tira a culpa do avatar (o mundo mudou, te ensinaram o método errado) e a transfere pro vilão - isso permite admitir a dor sem se sentir burro. O apoio (exemplos-vivos/referencia-5N.md) crava a premissa: "a culpa nunca é do aluno - é do método de outra era, da empresa que consome, da promoção sem preparo. Ele antecipa a objeção em primeira pessoa e responde na hora, mantendo o ego do avatar intacto". Detalhe de máquina: os trechos são quase idênticos aos do caso de 8 dígitos - este bloco roda como roteiro fixo, sessão após sessão, porque foi desenhado uma vez e validado.
 
-**Decalcável vs do nicho:** decalcável: a sequência vilão externo → confissão segura → dado próprio → dor batizada → objeção antecipada (é a espinha MindMaster do bloco). Do nicho: número de pesquisa, nome da síndrome e a figura do homem das cavernas são deles.
+**Decalcável vs do nicho:** decalcável: a sequência vilão externo → confissão segura → dado próprio → dor batizada → objeção antecipada (é a espinha operação-referência do bloco). Do nicho: número de pesquisa, nome da síndrome e a figura do homem das cavernas são deles.
 
-### GAIA2k (Denison - "Gestão Ágil na Era da IA") - mesma máquina surfando onda nova (medo da IA); R$1.997 à vista / 12x R$199
+### GA ed.1 (o estrategista da operação-referência - "o programa de gestão com IA") - mesma máquina surfando onda nova (medo da IA); R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
@@ -99,13 +99,13 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "E tem um gestor dinossauro aqui que está ficando desatualizado, eu chamo ele de gestossauro. Alguém conhece um gestossauro? Coloca nos comentários aqui. Ou alguém é um gestossauro, né? […] Ou você fica indispensável, ou você é gestossauro, vai cair o meteoro, vai explodir, você vai ser extinto."
 
-**O que ele fez:** abre com bifurcação binária (indispensável vs. ficar pra trás) repetida como refrão do webinar inteiro → devolve a pesquisa pré-aula como enquete numerada (01-05) votada no chat → encena a dor na voz do próprio avatar ("não quero ser babá de adulto") → dramatiza um dia inteiro em segunda pessoa (relatório obsoleto às 8h, software com 3 updates, chefe do "todos pra ontem") → batiza o vilão com nome ridicularizável ("gestossauro" - nome do Denison) e pergunta no chat "alguém conhece um?" → fecha com a ameaça em imagem (meteoro/extinção).
+**O que ele fez:** abre com bifurcação binária (indispensável vs. ficar pra trás) repetida como refrão do webinar inteiro → devolve a pesquisa pré-aula como enquete numerada (01-05) votada no chat → encena a dor na voz do próprio avatar ("não quero ser babá de adulto") → dramatiza um dia inteiro em segunda pessoa (relatório obsoleto às 8h, software com 3 updates, chefe do "todos pra ontem") → batiza o vilão com nome ridicularizável ("gestossauro" - nome do estrategista da operação-referência) e pergunta no chat "alguém conhece um?" → fecha com a ameaça em imagem (meteoro/extinção).
 
 **Por que funciona:** ele não descreve a dor - faz a plateia votar na própria dor, o que transforma diagnóstico em confissão pública. O gestossauro dá nome seguro ao medo: a pergunta é "quem CONHECE um gestossauro" (aponta pro colega, não pro espectador), então dá pra rir do vilão sem se sentir o vilão - e quem riu já aceitou que a extinção existe. A onda do momento (IA) é encaixada na mesma espinha de sempre: mundo mudou → método antigo morreu → dois caminhos.
 
-**Decalcável vs do nicho:** decalcável: bifurcação binária sem meio-termo + enquete numerada + dia-na-vida dramatizado em segunda pessoa + vilão com apelido que mira o colega, não o lead. Do nicho/dono: "gestossauro", "babá de adulto", BANI e o meteoro são do Denison; a onda (IA) troca conforme a época.
+**Decalcável vs do nicho:** decalcável: bifurcação binária sem meio-termo + enquete numerada + dia-na-vida dramatizado em segunda pessoa + vilão com apelido que mira o colega, não o lead. Do nicho/dono: "gestossauro", "babá de adulto", BANI e o meteoro são do estrategista da operação-referência; a onda (IA) troca conforme a época.
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetos BR mal pagos → trabalhar p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - arquitetos BR mal pagos → trabalhar p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
 
 **Trecho literal:**
 
@@ -127,13 +127,13 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 **Decalcável vs do nicho:** decalcável: dor provada por print + estatística institucional + comparação social calibrada + futuro projetado sem ação + o twist "culpa externa real, mas inútil". Do nicho: "escraviário", porteiro, censo do CAU e o tabuleiro Brasil-vs-EUA são deste avatar.
 
-### Webinar Léo A (pele Soft aplicada - Vítor Abrão, nutrição/MDI) - perpétuo gravado; R$997→R$797 na sessão; o bloco mais longo e denso do corpus (~17-37% do webinar)
+### Webinar de referência A (pele Soft aplicada - o autor do case de nutrição, nutrição) - perpétuo gravado; R$997→R$797 na sessão; o bloco mais longo e denso do corpus (~17-37% do webinar)
 
 **Trecho literal:**
 
 > "as jas convencionais […] Elas têm normalmente dois desfechos, tá: um, você não conseguiu seguir Porque ela foi uma dieta muito restritiva, não teve resultado […] ou você até seguiu, teve o resultado que você queria, mas não conseguiu manter aquele resultado porque aquela dieta era insustentável e você acabou sofrendo de efeito sanfona"
 
-> "eu fiz uma pesquisa com mais de 1600 alunas do MDI na matrícula […] 52,5 das pessoas já passaram com outros profissionais e não gostaram da abordagem […] eu sei o que eu tô falando, eu sei o que são baseado em dados, eu não tô tirando da minha cabeça"
+> "eu fiz uma pesquisa com mais de 1600 alunas do [PROGRAMA] na matrícula […] 52,5 das pessoas já passaram com outros profissionais e não gostaram da abordagem […] eu sei o que eu tô falando, eu sei o que são baseado em dados, eu não tô tirando da minha cabeça"
 
 > "a a dieta não era para você, era uma dieta burra que não se adequava ao teu estilo de vida […] normalmente eu chamo isso de dieta burra porque não se adequa para tua realidade"
 
@@ -147,13 +147,13 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "tem gente muito lucrando muito muito com uma solução Milagrosa e com o teu desespero […] é muito lucrativo pro médico charlatão que fala que pão causa câncer, Alzheimer e diabetes, para você ficar cada vez com mais dificuldade de emagrecer e procurar as soluções que ele tem para te oferecer"
 
-**O que ele fez:** falso dilema dos dois desfechos (não seguiu OU seguiu e perdeu no efeito sanfona - todo caminho conhecido fracassa) → lastro de dado próprio (pesquisa de matrícula, 1.600 alunas, 52,5%) → vilão batizado em binário ("dieta burra" - nome do Vítor - que já reserva o trono pra "dieta inteligente") → taxonomia de restrições em checklist (nutriente/horário/momentos - cada item acerta alguém da sala, e ele se inclui: "eu já fiz isso") → pergunta-pivô que transfere a culpa ("será que você é tão indisciplinada… ou te venderam a estratégia errada?") → mecanismo neurológico do problema com nome ("modo sobrevivência") + cena cotidiana hiperespecífica (chocolate na mesa) + analogia visual (mulher no elefante) → motivo econômico pro vilão existir (charlatão lucra com o desespero).
+**O que ele fez:** falso dilema dos dois desfechos (não seguiu OU seguiu e perdeu no efeito sanfona - todo caminho conhecido fracassa) → lastro de dado próprio (pesquisa de matrícula, 1.600 alunas, 52,5%) → vilão batizado em binário ("dieta burra" - nome do autor do case de nutrição - que já reserva o trono pra "dieta inteligente") → taxonomia de restrições em checklist (nutriente/horário/momentos - cada item acerta alguém da sala, e ele se inclui: "eu já fiz isso") → pergunta-pivô que transfere a culpa ("será que você é tão indisciplinada… ou te venderam a estratégia errada?") → mecanismo neurológico do problema com nome ("modo sobrevivência") + cena cotidiana hiperespecífica (chocolate na mesa) + analogia visual (mulher no elefante) → motivo econômico pro vilão existir (charlatão lucra com o desespero).
 
 **Por que funciona:** ela só compra se acreditar que o fracasso anterior não foi culpa dela - ele entrega um culpado nomeado, um mecanismo neurológico E um motivo financeiro para o vilão existir. É a transferência de culpa mais completa do corpus: nome, ciência e dinheiro. O diagnóstico "com dados, não tô tirando da minha cabeça" blinda contra "isso é papo de vendedor". E a cena do chocolate é o gerador de "é exatamente isso" - específica demais pra não ser a vida da lead.
 
-**Decalcável vs do nicho:** decalcável: falso dilema de desfechos + vilão batizado em binário (X burro / X inteligente) + checklist de situações + pergunta que transfere culpa + mecanismo com nome e cena + motivo econômico do vilão. Do nicho/dono: "dieta burra", "modo sobrevivência", o elefante e o charlatão do pão são do Vítor Abrão.
+**Decalcável vs do nicho:** decalcável: falso dilema de desfechos + vilão batizado em binário (X burro / X inteligente) + checklist de situações + pergunta que transfere culpa + mecanismo com nome e cena + motivo econômico do vilão. Do nicho/dono: "dieta burra", "modo sobrevivência", o elefante e o charlatão do pão são do autor do case de nutrição.
 
-### Webinar C (corpus Léo - voz Bruno, dentista; "Resina Anterior / Método One 2.0") - odonto; R$3.000→R$1.997 p/ 10 primeiros; níveis de consciência LITERAIS em slide
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - odonto; R$3.000→R$1.997 p/ 10 primeiros; níveis de consciência LITERAIS em slide
 
 **Trecho literal:**
 
@@ -165,7 +165,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "se você é esse, eu tô te acompanhando: que fez a faculdade e pagode mensalidade 2.500, 3000, 3.500, comprou material […] gastou para morar fora de casa, sofreu financeiramente, porque Odontologia é um curso caro, e hoje você não tá pegando mesmo esse dinheiro para trás. Não aceite isso, não se acomode"
 
-> "ah Bruno, mais resina pigmenta - pigmenta na mão de quem não sabe fazer, pigmenta na mão de quem não se preparou, pigmenta na mão do conformado, o do 'resina é assim mesmo'"
+> "ah o autor do case de odontologia, mais resina pigmenta - pigmenta na mão de quem não sabe fazer, pigmenta na mão de quem não se preparou, pigmenta na mão do conformado, o do 'resina é assim mesmo'"
 
 **O que ele fez:** slide de carinhas (feliz / amarela neutra / triste) como mapa de níveis de consciência explicado AO VIVO - e mira na amarela: o inconsciente conformado que "acha que tá ok" → demole a desculpa geográfica ("não é a região, é você… ainda" - o "ainda" preserva a esperança) → cena do desconto por insegurança narrada em segunda pessoa com confirmação induzida ("já aconteceu com vocês, né? Eu sei") → dor financeira quantificada (mensalidade 2.500-3.500 sem retorno) → vilão = a FRASE do próprio avatar ("resina é assim mesmo"), demolida toda vez que reaparece.
 
@@ -213,35 +213,35 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 ## Padrões transversais (o que TODOS fazem neste bloco - vira checklist)
 
-- [ ] **Vilão nomeado e EXTERNO ao avatar** - "gestor do passado"/"gestossauro" (MindMaster), "dieta burra"/charlatão (Vítor Abrão), ecossistema Brasil + chefe abusivo (Pupim), "resina é assim mesmo" (Bruno), "pitchfest" e "shiny objects" (webinar de referência). A culpa do fracasso passado SAI do lead e vai pro vilão. Ninguém da sala é o vilão.
-- [ ] **Transferência de culpa explícita, dita em voz alta** - "será que você é tão indisciplinada… ou te venderam a estratégia errada?" (Vítor); "não é você, é a era" (Denison via VUCA). Admitir a dor não pode custar o ego.
-- [ ] **Dor provada com dado, nunca só afirmada** - pesquisa própria com número grande (880k/80k respostas MindMaster; 1.600 alunas/52,5% Vítor), estatística de instituição (censo CAU 77%), print de terceiro (vaga R$18/h), dado de mercado (148x, US$325 bi). O lastro blinda contra "papo de vendedor".
-- [ ] **"É exatamente isso" fabricado por mecânica, não esperado** - pesquisa de inscrição devolvida e votada por número no chat (MindMaster), checklist de situações onde cada item acerta alguém (restrições do Vítor), cena cotidiana hiperespecífica em segunda pessoa (chocolate na mesa; relatório obsoleto às 8h; orçamento baixado por insegurança).
+- [ ] **Vilão nomeado e EXTERNO ao avatar** - "gestor do passado"/"gestossauro" (operação-referência), "dieta burra"/charlatão (o autor do case de nutrição), ecossistema Brasil + chefe abusivo (a autora do case de arquitetura), "resina é assim mesmo" (o autor do case de odontologia), "pitchfest" e "shiny objects" (webinar de referência). A culpa do fracasso passado SAI do lead e vai pro vilão. Ninguém da sala é o vilão.
+- [ ] **Transferência de culpa explícita, dita em voz alta** - "será que você é tão indisciplinada… ou te venderam a estratégia errada?" (o autor do case de nutrição); "não é você, é a era" (o estrategista da operação-referência via VUCA). Admitir a dor não pode custar o ego.
+- [ ] **Dor provada com dado, nunca só afirmada** - pesquisa própria com número grande (880k/80k respostas operação-referência; 1.600 alunas/52,5% o autor do case de nutrição), estatística de instituição (censo CAU 77%), print de terceiro (vaga R$18/h), dado de mercado (148x, US$325 bi). O lastro blinda contra "papo de vendedor".
+- [ ] **"É exatamente isso" fabricado por mecânica, não esperado** - pesquisa de inscrição devolvida e votada por número no chat (operação-referência), checklist de situações onde cada item acerta alguém (restrições do autor do case de nutrição), cena cotidiana hiperespecífica em segunda pessoa (chocolate na mesa; relatório obsoleto às 8h; orçamento baixado por insegurança).
 - [ ] **Dor batizada com nome memorável** - "síndrome do Fantástico", "modo sobrevivência", "gestossauro", "pitchfest". Nome = a dor vira objeto manipulável, citável, e gruda na memória até o pitch.
-- [ ] **Confissão pública no chat, com permissão/segurança** - "coloca nos comentários… aqui é um ambiente seguro" (Denison); "quem nunca? levanta a mão" (Pupim); "já aconteceu com vocês, né? Eu sei" (Bruno). Quem confessa se auto-diagnostica e se compromete em público.
-- [ ] **Objeção antecipada DENTRO do diagnóstico** - "mas eu não sou dono de empresa…" (Denison), "Hey, I'm an accountant…" (webinar de referência). O host fala a objeção em primeira pessoa antes do lead pensar nela.
-- [ ] **Saídas falsas demolidas uma a uma** - região ("não é a região, é você… ainda" - Bruno), governo ("não adianta culpar" - Pupim), disciplina (Vítor), tráfego ("nobody has a traffic problem" - webinar de referência). Fecham-se as portas até sobrar só o mecanismo que a oferta resolve.
-- [ ] **O bloco termina em dilema/equação sem solução conhecida** - dois desfechos da dieta (Vítor), valor-sem-venda × pitchfest (webinar de referência), indispensável × extinto (GAIA2k). A ferida fica aberta: quem resolve é a Big Idea, no bloco seguinte.
+- [ ] **Confissão pública no chat, com permissão/segurança** - "coloca nos comentários… aqui é um ambiente seguro" (o estrategista da operação-referência); "quem nunca? levanta a mão" (a autora do case de arquitetura); "já aconteceu com vocês, né? Eu sei" (o autor do case de odontologia). Quem confessa se auto-diagnostica e se compromete em público.
+- [ ] **Objeção antecipada DENTRO do diagnóstico** - "mas eu não sou dono de empresa…" (o estrategista da operação-referência), "Hey, I'm an accountant…" (webinar de referência). O host fala a objeção em primeira pessoa antes do lead pensar nela.
+- [ ] **Saídas falsas demolidas uma a uma** - região ("não é a região, é você… ainda" - o autor do case de odontologia), governo ("não adianta culpar" - a autora do case de arquitetura), disciplina (o autor do case de nutrição), tráfego ("nobody has a traffic problem" - webinar de referência). Fecham-se as portas até sobrar só o mecanismo que a oferta resolve.
+- [ ] **O bloco termina em dilema/equação sem solução conhecida** - dois desfechos da dieta (o autor do case de nutrição), valor-sem-venda × pitchfest (webinar de referência), indispensável × extinto (GA ed.1). A ferida fica aberta: quem resolve é a Big Idea, no bloco seguinte.
 - [ ] **Cena sensorial em segunda pessoa** - a musiquinha do Fantástico, o "ih, o chefe chegou", a marmita no aniversário. Dor abstrata não dói; cena com som e objeto dói.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
-- **Culpar ou humilhar o avatar.** Nenhum campeão diz "você é preguiçoso/incompetente". O máximo é "inconsciente" ou "conformado" (Bruno) - e sempre com saída honrosa ("talvez você ainda não está no nível… AINDA"). Atacar o lead fecha o ouvido que o bloco existe pra abrir.
+- **Culpar ou humilhar o avatar.** Nenhum campeão diz "você é preguiçoso/incompetente". O máximo é "inconsciente" ou "conformado" (o autor do case de odontologia) - e sempre com saída honrosa ("talvez você ainda não está no nível… AINDA"). Atacar o lead fecha o ouvido que o bloco existe pra abrir.
 - **Vilão = pessoa identificável ou concorrente com nome próprio.** O vilão é sempre categoria, sistema, sigla ou frase ("gestores do passado", "médico charlatão", "dieta burra") - nunca "o fulano". Imagem ridícula recai sobre um boneco (homem das cavernas de IA, gestossauro), nunca sobre alguém da sala.
 - **Afirmar a dor sem lastro.** Diagnóstico sem pesquisa/print/estatística é opinião de vendedor - todos os nove trazem prova. Webinar novo sem dado próprio usa instituição, print ou precedente; nunca "todo mundo sabe que".
 - **Resolver a dor dentro do bloco.** A solução pertence à Big Idea e ao conteúdo. Quem entrega o mecanismo da cura aqui mata a tensão que sustenta as próximas duas horas. O bloco abre a ferida e promete ("eu vou te explicar como resolve"), não fecha.
 - **Empilhar medo sem rota implícita de saída.** Todos mantêm o duplo registro "não é culpa sua E tem jeito" - terrorismo puro paralisa em vez de mobilizar. Até o meteoro do gestossauro vem com a porta "ou você se atualiza".
 - **Lista de dores genérica, sem cena nem voz do avatar.** "Você se sente cansado e sem tempo" não diagnostica ninguém. Os campeões usam a fala literal do avatar ("resina é assim mesmo", "eu não vou cobrar muito caro não") e cena com objeto (chocolate, marmita, relatório). No método Soft isso significa: buscar no baú de voz do nicho as frases reais, não inventar dor de template.
-- **Decalcar o nome do vilão de outro dono (viola G2).** "Síndrome do Fantástico" é da MindMaster, "dieta burra" é do Vítor - webinar novo batiza a PRÓPRIA dor e o PRÓPRIO vilão na linguagem do nicho. Copiar o rótulo entrega que o roteiro é de segunda mão.
-- **Pular o nível de consciência da sala.** Bruno gasta o bloco inteiro criando consciência na "carinha amarela" antes de qualquer promessa; webinar de referência #2 reeduca o frame de mercado antes de diagnosticar. Tratar sala inconsciente como sala consciente do problema desperdiça o bloco - o diagnóstico chega antes de existir paciente.
+- **Decalcar o nome do vilão de outro dono (viola G2).** "Síndrome do Fantástico" é da operação-referência, "dieta burra" é do autor do case de nutrição - webinar novo batiza a PRÓPRIA dor e o PRÓPRIO vilão na linguagem do nicho. Copiar o rótulo entrega que o roteiro é de segunda mão.
+- **Pular o nível de consciência da sala.** o autor do case de odontologia gasta o bloco inteiro criando consciência na "carinha amarela" antes de qualquer promessa; webinar de referência #2 reeduca o frame de mercado antes de diagnosticar. Tratar sala inconsciente como sala consciente do problema desperdiça o bloco - o diagnóstico chega antes de existir paciente.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum.** Os 9 webinars do corpus executam o bloco - é o único bloco, junto com a oferta, presente em 100% das máquinas analisadas. Isso por si é dado: não existe webinar-campeão que pule o diagnóstico da dor.
 
 O que varia (e também é dado) é a POSIÇÃO e o PESO:
-- **Posição padrão** (13M, ed. 2, 5 Níveis, GAIA2k, Pupim, Léo A): depois da autoridade/história - a cicatriz do host pré-valida o diagnóstico que vem em seguida.
-- **Webinar C (Bruno)** inverte: o bloco vem ANTES da autoridade (~3-12% do texto, logo após o roll call de cidades) - primeiro cria a consciência do problema com o espelho das carinhas, depois apresenta quem ele é. Funciona porque a abertura dele já tinha fisgado com o paradoxo "procedimento básico que você ainda erra".
+- **Posição padrão** (caso de 8 dígitos, ed. 2, 5N, GA ed.1, a autora do case de arquitetura, webinar de referência A): depois da autoridade/história - a cicatriz do host pré-valida o diagnóstico que vem em seguida.
+- **Webinar C (o autor do case de odontologia)** inverte: o bloco vem ANTES da autoridade (~3-12% do texto, logo após o roll call de cidades) - primeiro cria a consciência do problema com o espelho das carinhas, depois apresenta quem ele é. Funciona porque a abertura dele já tinha fisgado com o paradoxo "procedimento básico que você ainda erra".
 - **webinar de referência #1** fragmenta: a dor aparece em dois pontos (~min 16 e ~min 30), já entrelaçada com a Big Idea - em meta-webinar para audiência consciente do problema, o diagnóstico pode ser curto e cirúrgico (um dilema bem armado substitui a lista de dores).
-- **Peso máximo**: Léo A (Vítor Abrão) dedica ~20% do webinar inteiro ao bloco (~17-37% do arquivo) - em nicho saturado de promessas (emagrecimento), a venda é ganha no diagnóstico, não na oferta.
-- **Sementes antecipadas**: Pupim planta a dor já na qualificação de público (~7% do texto, "cansado de aguentar o ego inflado do seu chefe") antes do bloco formal - a dor pode vazar pra blocos anteriores, o diagnóstico formal é que tem lugar fixo.
+- **Peso máximo**: webinar de referência A (o autor do case de nutrição) dedica ~20% do webinar inteiro ao bloco (~17-37% do arquivo) - em nicho saturado de promessas (emagrecimento), a venda é ganha no diagnóstico, não na oferta.
+- **Sementes antecipadas**: a autora do case de arquitetura planta a dor já na qualificação de público (~7% do texto, "cansado de aguentar o ego inflado do seu chefe") antes do bloco formal - a dor pode vazar pra blocos anteriores, o diagnóstico formal é que tem lugar fixo.

@@ -67,7 +67,7 @@ A **estrutura** (antes/durante/pós) é idêntica nos dois. O que MUDA é timing
 
 Tabela-mãe completa em `references/perpetuo-vs-aovivo.md` (abre no Passo 1).
 
-> **Guarda-corpo (regra dos 90%):** régua de perpétuo só pra webinar **validado ao vivo** antes. Perpétuo nunca testado = risco mora na aula não validada, não nas mensagens; avisa. (`references/perpetuo-mecanica-leo.md` e `perpetuo-vs-aovivo.md`.)
+> **Guarda-corpo (regra dos 90%):** régua de perpétuo só pra webinar **validado ao vivo** antes. Perpétuo nunca testado = risco mora na aula não validada, não nas mensagens; avisa. (`references/perpetuo-mecanica.md` e `perpetuo-vs-aovivo.md`.)
 
 ## A régua correta do método (a espinha, decore)
 
@@ -378,7 +378,7 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 
 - `references/sequencias-email-whatsapp-pre-pos.md`: a fonte rica, **molde + exemplo preenchido por nicho de CADA mensagem** (pré, durante, pós), a mecânica da tag por % assistido, a esteira semanal, a captura sem fricção e a config técnica (incl. WhatsApp Cloud API oficial, templates, opt-in). Passos 2, 3, 4.
 - `references/perpetuo-vs-aovivo.md`: **a tabela-mãe do que muda na mensageria entre AO VIVO e PERPÉTUO** (timing, escassez, link), escassez por sessão, link individual por lead, multi-horário, métricas do perpétuo. Passo 1.
-- `references/perpetuo-mecanica-leo.md`: a mecânica crua do Léo no perpétuo (sessão estratégica, escassez de sala, escolha de horário, regra dos 90%). Passo 1, modo perpétuo.
+- `references/perpetuo-mecanica.md`: a mecânica crua de referência no perpétuo (sessão estratégica, escassez de sala, escolha de horário, regra dos 90%). Passo 1, modo perpétuo.
 - `shared-references/crivo/03-gate-cub.md`: detalhamento do gate (C/U/B + 3 perguntas).
 - `shared-references/crivo/01-entrada-verbatim.md`: como minerar e contar a fala real do Passo 0.
 - `shared-references/filtro-anti-ia/padroes-banidos.md`: os padrões que o anti-IA reprova.

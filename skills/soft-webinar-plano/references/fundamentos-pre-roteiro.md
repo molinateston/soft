@@ -1,6 +1,6 @@
 # Fundamentos pré-roteiro
 
-> **Nota de skill (atômica):** esta reference foi absorvida na `soft-webinar-plano` (planejamento + oferta). Ponteiros a `estrutura-webinario-aida.md`, `objection-annihilation.md`, `exemplos-por-bloco/02-08`, `geracao-de-slides`, `template-72-slides`, `anuncios-pra-encher-webinar`, `pos-webinar-tags-comercial`, `perpetuo-mecanica-leo`, `sequencias-email-whatsapp` e `super-pesquisa` apontam pras skills-irmãs do pipeline (`soft-plano-posicionamento`, `soft-webinar-script`, `soft-webinar-paginas`, `soft-webinar-mensagens`, `soft-webinar-mensagens`); o que é da fase de planejamento/oferta vive aqui (`estrutura-real-webinar.md`, `desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `frameworks-proprietarios.md`, `fundamentos-pre-roteiro.md`, `premissas-e-guarda-corpos.md`, `esqueleto-universal-e-discernimento.md`, `escolha-carta-mt-webinario.md`, `analise-webinario-existente.md` + `exemplos-por-bloco/09,10,12`).
+> **Nota de skill (atômica):** esta reference foi absorvida na `soft-webinar-plano` (planejamento + oferta). Ponteiros a `estrutura-webinario-aida.md`, `objection-annihilation.md`, `exemplos-por-bloco/02-08`, `geracao-de-slides`, `template-72-slides`, `anuncios-pra-encher-webinar`, `pos-webinar-tags-comercial`, `perpetuo-mecanica`, `sequencias-email-whatsapp` e `super-pesquisa` apontam pras skills-irmãs do pipeline (`soft-plano-posicionamento`, `soft-webinar-script`, `soft-webinar-paginas`, `soft-webinar-mensagens`, `soft-webinar-mensagens`); o que é da fase de planejamento/oferta vive aqui (`estrutura-real-webinar.md`, `desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `frameworks-proprietarios.md`, `fundamentos-pre-roteiro.md`, `premissas-e-guarda-corpos.md`, `esqueleto-universal-e-discernimento.md`, `escolha-carta-mt-webinario.md`, `analise-webinario-existente.md` + `exemplos-por-bloco/09,10,12`).
 
 > **Quando consultar:** Etapa 1 do fluxo, antes de escrever uma linha do roteiro do webinar. Tudo que vem depois (estrutura ADMA, slides, páginas, emails, anúncios) puxa daqui. Sem fundamentos cravados, o webinar sai genérico.
 
@@ -43,7 +43,7 @@ A espinha do Plano são os **4 Blocos** abaixo (Território · Narrativa · Meca
 
 ### Passo 0 - A pesquisa profunda de mercado (a matéria-prima dos 4 Blocos)
 
-Roda ANTES de cravar qualquer Bloco. É a mesma Super Pesquisa da `soft-plano-posicionamento` (`super-pesquisa.md`), calibrada pro webinar - e o Léo crava (11/jun): **tem que ser muito profunda em mercado, narrativas, concorrentes e clientes**, não busca rasa. Quatro frentes:
+Roda ANTES de cravar qualquer Bloco. É a mesma Super Pesquisa da `soft-plano-posicionamento` (`super-pesquisa.md`), calibrada pro webinar - e o autor do método crava (11/jun): **tem que ser muito profunda em mercado, narrativas, concorrentes e clientes**, não busca rasa. Quatro frentes:
 
 - **Mercado e força da dor** - tamanho do nicho, faixas de preço praticadas, quão aguda é a dor (forte/média/fraca). Decide se há jogo.
 - **Narrativas** - quais histórias e ângulos o nicho já conta e já cansou de ouvir. É o que diz o que NÃO repetir e onde está o vão de discurso.
@@ -99,7 +99,7 @@ Eles não sabem responder as perguntas de oferta - componentes, garantia, ticket
 
 O Plano-base + a Camada Webinar somam **~80 insumos** que o roteiro consome. **Não se escreve uma linha de roteiro com insumo faltando.** Cada insumo nasce de um Bloco do Plano e morre num beat do script - se um beat não tem de onde puxar, o PLANO está incompleto (não o roteiro). Antes de abrir a Etapa 3 (roteiro), roda o checklist completo abaixo; faltou insumo, volta e completa. O webinar não cobre buraco de plano com chavão.
 
-### A REGRA DE ENTREGA (a forma do plano - correção do Léo, 11/jun)
+### A REGRA DE ENTREGA (a forma do plano - correção do autor do método, 11/jun)
 
 O plano é um **documento completo**: herda o Plano de Posicionamento inteiro e adiciona a Camada Webinar, na profundidade e na voz do dono, com **cada insumo preenchido** (ou marcado `[slot]` quando depende de uma decisão do dono - preço, nome, garantia). **NUNCA um resumo, um mapa-mental raso ou um cartão comprimido.** Entrega pra leitura/avaliação = documento longo (Notion diagramado ou markdown completo), nunca bullets que escondem o que falta. **Resumir o plano é o anti-padrão que faz o roteiro nascer sem insumo** - foi o erro a evitar. A profundidade não depende do meio (chat/Code/LEON) nem do humor do operador: a skill exige o documento completo, sempre.
 
@@ -497,7 +497,7 @@ A promessa primária é o título do webinar (e geralmente do produto). Tem que 
 - Específico (não "fature mais", mas "fature R$30k em 90 dias")
 - Visualmente concreto (o avatar consegue VER o resultado)
 - Tira a maior objeção da equação (mesmo sem X)
-- Fala com **UM** avatar, não com todos ("gestão ágil pra dentista" bate 10x mais forte que "gestão ágil")
+- Fala com **UM** avatar, não com todos ("programa de gestão pra dentista" bate 10x mais forte que "programa de gestão")
 - **Curto** - se passou de 25 palavras, comprime
 
 ### Os 3 trabalhos da promessa (atrai · filtra · pré-frame)
@@ -581,7 +581,7 @@ Faça uma pergunta: **o que o meu avatar já comprou pra resolver isso - e o que
 
 > **EXEMPLO (emagrecimento, a Cláudia):** "dieta restrita, educação alimentar, canetas, treino como castigo, força de vontade." No seu nicho, faça a mesma lista. O nome que você der à soma vira o seu **inimigo nomeado**.
 
-A fala que entrega o 6º nível ao avatar (do método do Léo, MANUAL-WEBINAR-SOFT Cap 2):
+A fala que entrega o 6º nível ao avatar (do método do autor, MANUAL-WEBINAR-SOFT Cap 2):
 
 > "Você não [fatura/resolve] pouco porque é ruim. Você [fatura/resolve] pouco porque está carregando **peso demais - peso que te venderam e chamaram de estratégia**."
 
@@ -655,7 +655,7 @@ Cada bloco do webinar precisa **acionar pelo menos 2 dessas alavancas**. Distrib
 
 A fala-absolvição do 6º nível (seção 6) é o melhor exemplo REAL de alavanca dupla no corpus:
 
-> "Você não fatura pouco porque é ruim. Você fatura pouco porque está carregando peso demais - **peso que te venderam e chamaram de estratégia**." - método do Léo, MANUAL-WEBINAR-SOFT Cap 2
+> "Você não fatura pouco porque é ruim. Você fatura pouco porque está carregando peso demais - **peso que te venderam e chamaram de estratégia**." - método do autor, MANUAL-WEBINAR-SOFT Cap 2
 
 - "Você não fatura pouco porque é ruim" = **justifica fracassos** (a culpa não é dele).
 - "peso que te VENDERAM e chamaram de estratégia" = **atira pedras no inimigo** (quem lucrou vendendo o peso).

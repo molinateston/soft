@@ -5,7 +5,7 @@ Schema de cada slide:
 { "tipo": "capa|secao|frase|conteudo|prova|mao|oferta|investimento|fechamento",
   "rotulo": "kicker em caps", "titulo": "...", "sub": "...",
   "itens": [ {"titulo":"...", "texto":"..."} ],   # conteudo/oferta/mao
-  "numero": "R$ 13.575.195", "fonte": "...",        # prova
+  "numero": "R$ 1.234.567", "fonte": "...",        # prova
   "corpo": "frase grande",                          # frase/secao
   "nota": "speaker notes" }
 """

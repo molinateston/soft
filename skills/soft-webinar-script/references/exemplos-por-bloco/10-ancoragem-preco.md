@@ -1,6 +1,6 @@
 # Ancoragem e preço (dupla ancoragem, queda em degraus com reason-why, reduzir ao ridículo)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
 
 ---
 
@@ -16,13 +16,13 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-O preço NUNCA aparece seco: ele chega como o último degrau de uma queda a partir de âncoras maiores que a audiência já aceitou. O mecanismo comum aos nove campeões tem quatro movimentos. (1) Dupla ancoragem: uma âncora EXTERNA (o que a categoria cobra: MBA de 10-20 mil, consulta de R$3.000, seminário de US$4.995, custo de contratar tudo avulso) + uma âncora INTERNA (a soma do stack, item a item, riscada na frente do espectador). (2) Queda em degraus - 2 a 4 degraus - onde CADA degrau tem um reason-why próprio e público que preserva o valor do produto: ficou até o final, link do canal, "combinado" com contrapartida (nome MindMaster: "bônus do combinado não sai caro"), 10/15 primeiros. Desconto sem razão cheira a liquidação; desconto com razão cheira a privilégio. (3) Troca de unidade progressiva: a parcela vira o preço oficial (o total parcelado nunca é verbalizado na máquina MindMaster), depois o preço cai pra unidade diária, depois é reduzido ao ridículo contra um gasto que o avatar JÁ faz sem pensar (pizza, iFood, Coca-Cola, cafezinho) - idealmente com prova documental (print real). (4) A conta fecha em ROI na moeda da promessa construída na aula (salário novo, 1 freelance, 2-3 casos clínicos = payback). Detalhe estrutural do corpus: 6 dos 9 webinars NÃO têm garantia - este bloco absorve a função de reversão de risco via trivialização do preço. Se o webinar novo não tiver garantia, este bloco não pode sair fraco.
+O preço NUNCA aparece seco: ele chega como o último degrau de uma queda a partir de âncoras maiores que a audiência já aceitou. O mecanismo comum aos nove campeões tem quatro movimentos. (1) Dupla ancoragem: uma âncora EXTERNA (o que a categoria cobra: MBA de 10-20 mil, consulta de R$3.000, seminário de US$4.995, custo de contratar tudo avulso) + uma âncora INTERNA (a soma do stack, item a item, riscada na frente do espectador). (2) Queda em degraus - 2 a 4 degraus - onde CADA degrau tem um reason-why próprio e público que preserva o valor do produto: ficou até o final, link do canal, "combinado" com contrapartida (nome operação-referência: "bônus do combinado não sai caro"), 10/15 primeiros. Desconto sem razão cheira a liquidação; desconto com razão cheira a privilégio. (3) Troca de unidade progressiva: a parcela vira o preço oficial (o total parcelado nunca é verbalizado na máquina da operação-referência), depois o preço cai pra unidade diária, depois é reduzido ao ridículo contra um gasto que o avatar JÁ faz sem pensar (pizza, iFood, Coca-Cola, cafezinho) - idealmente com prova documental (print real). (4) A conta fecha em ROI na moeda da promessa construída na aula (salário novo, 1 freelance, 2-3 casos clínicos = payback). Detalhe estrutural do corpus: 6 dos 9 webinars NÃO têm garantia - este bloco absorve a função de reversão de risco via trivialização do preço. Se o webinar novo não tiver garantia, este bloco não pode sair fraco.
 
 ---
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster/Gestão Ágil, ed. A - modelo-mestre R$13M) - gestão corporativa p/ CLT que quer promoção; R$3.000 → 1.997 → 1.697 (12x R$165)
+### Webinar de gestão (8 dígitos) (operação-referência/o programa de gestão, ed. A - modelo-mestre 8 dígitos) - gestão corporativa p/ CLT que quer promoção; R$3.000 → 1.997 → 1.697 (12x R$165)
 
 **Trecho literal:**
 
@@ -36,7 +36,7 @@ Queda 2 (bônus do combinado, com reason-why = depoimento):
 
 Soma do stack (segunda âncora, interna):
 
-> "se você fosse comprar tudo isso aqui olha só: gestão ag 2.0 que custa 3.000, acompanhamento quinzenal 9.000, o okr 1997 né arredondando aqui 2000, o design f não tá invertido aqui design F 2000 e o okr 1497, somando tudo isso daria R 15.000, mais de R 15.000 você gastaria em formação profissional. e tá bom porque um mês de salário de gestor você paga isso tá, estaria justo pagar os R 15.000, mas cara isso isso aqui tá injusto com a Mind Master né, 12 de 165 por mês tá, tá de graça"
+> "se você fosse comprar tudo isso aqui olha só: gestão (ed. 2) que custa 3.000, acompanhamento quinzenal 9.000, o okr 1997 né arredondando aqui 2000, o design f não tá invertido aqui design F 2000 e o okr 1497, somando tudo isso daria R 15.000, mais de R 15.000 você gastaria em formação profissional. e tá bom porque um mês de salário de gestor você paga isso tá, estaria justo pagar os R 15.000, mas cara isso isso aqui tá injusto com a operação-referência né, 12 de 165 por mês tá, tá de graça"
 
 Redução ao ridículo em 3 atos (iFood → diária → Coca-Cola, com fotos):
 
@@ -50,7 +50,7 @@ Elogio à audiência embutido na justificativa do preço:
 
 > "eu sei que aqui eu não tô falando com ninguém aqui que recebe bolsa família, com sei lá com pessoal carente. eu sei que vocês, eu sei pelo público da M massa né, é um público diferenciado, vocês são profissionais diferenciados, vocês são profissionais que estão almejando aqui cargos de gestão de liderança, vocês vão ganhar muito mais"
 
-**O que ele fez:** âncora externa (MBA R$15-20 mil, desqualificado como "encheção de linguiça") → valor de mercado próprio (R$3.000, já plantado no começo da aula) → queda 1 com reason-why (ficou até o final = R$1.997) → queda 2 com reason-why (combinado de depoimento = R$1.697) → parcela como preço real ("165 por mês") → âncora interna (stack somado R$15.000, "injusto com a Mind Master") → redução ao ridículo em três atos com prova fotográfica própria (print iFood R$165 = 1 jantar; ÷30 = R$5,51/dia; foto da Coca R$5,29) → elogio de identidade que constrange a objeção → ROI ancorado nos holerites mostrados minutos antes (17.850/23.000 CLT).
+**O que ele fez:** âncora externa (MBA R$15-20 mil, desqualificado como "encheção de linguiça") → valor de mercado próprio (R$3.000, já plantado no começo da aula) → queda 1 com reason-why (ficou até o final = R$1.997) → queda 2 com reason-why (combinado de depoimento = R$1.697) → parcela como preço real ("165 por mês") → âncora interna (stack somado R$15.000, "injusto com a operação-referência") → redução ao ridículo em três atos com prova fotográfica própria (print iFood R$165 = 1 jantar; ÷30 = R$5,51/dia; foto da Coca R$5,29) → elogio de identidade que constrange a objeção → ROI ancorado nos holerites mostrados minutos antes (17.850/23.000 CLT).
 
 **Por que funciona:** quando chega o número final, ele já foi esmagado por quatro âncoras maiores e dissolvido em unidades triviais (jantar, refrigerante). A pergunta na cabeça da audiência deixa de ser "vale 1.697?" e vira "eu troco uma Coca por dia pela minha carreira?". E cada queda tem causa que preserva o valor - o produto nunca desvaloriza, só o acesso de quem está na sala fica privilegiado.
 
@@ -58,12 +58,12 @@ Elogio à audiência embutido na justificativa do preço:
 
 ---
 
-### Gestão Ágil ed. 2.0 (MindMaster - host Denison) - mesma máquina, outra sessão; stack 12.100→16.000, 12x R$165,34 / 1.697 à vista
+### GA ed.2 (operação-referência) - mesma máquina, outra sessão; stack 12.100→16.000, 12x R$165,34 / 1.697 à vista
 
 **Trecho literal:**
 
 Primeira âncora (MBA) e preço cheio:
-> "E aí a pergunta que está muita gente fazendo aqui, né? Qual é o investimento? Quanto custa para participar disso aí? um MBA, como eu comentei aqui pra vocês, eles custam em média de 10 a 20 mil reais […] sendo que 80% é encheção de linguiça. o gestão ágil 2.0 não custa 20 mil reais como custa o MBA, nem 10 mil reais como custa os MBAs mais baratos. ele vale 3 mil reais, esse é o valor, tá?"
+> "E aí a pergunta que está muita gente fazendo aqui, né? Qual é o investimento? Quanto custa para participar disso aí? um MBA, como eu comentei aqui pra vocês, eles custam em média de 10 a 20 mil reais […] sendo que 80% é encheção de linguiça. O programa de gestão (ed. 2) não custa 20 mil reais como custa o MBA, nem 10 mil reais como custa os MBAs mais baratos. ele vale 3 mil reais, esse é o valor, tá?"
 
 Reason-why da queda (não quero que o valor impeça):
 > "como eu sei que a situação não está fácil para muita gente hoje em dia […] a gente quer que o valor não seja um impeditivo para você entrar nessa turma. […] então por conta disso, somente pra quem ficou até o final dessa aula, n vai ser 3 mil reais o investimento. apenas hoje, somente pra quem ficou at o final do webinar, o forma completa gest 2 vai ser R 1 t [mil novecentos e noventa e sete] Mil reais de desconto, mas tem mais coisas aqui, não é só isso, tá?"
@@ -79,7 +79,7 @@ Reduzir ao ridículo (pizza, sushi, Coca-Cola):
 
 > "Eu trouxe um print aqui de um iFood que eu pedi outro dia. […] A gente pediu ali um combinado de sushi para a gente, mais as bebidas. Deu R$164,00. basicamente o valor da parcela do curso aqui […] Por um jantar, o valor de um jantar, voc investe e pode possivelmente mudar a sua carreira de patamar."
 
-> "Pega todo esse investimento, os R$165,34, divide por 30. Sabe quanto que dá isso? Dá R$5,51 por dia. […] O que você compra com 5 reais por dia? Você compra uma Coca-Cola […] e aí eu pergunto, o que vale mais? uma coca-cola que estraga sua saúde ou todo esse programa gestão ágil 2.0?"
+> "Pega todo esse investimento, os R$165,34, divide por 30. Sabe quanto que dá isso? Dá R$5,51 por dia. […] O que você compra com 5 reais por dia? Você compra uma Coca-Cola […] e aí eu pergunto, o que vale mais? uma coca-cola que estraga sua saúde ou todo esse programo programa de gestão (ed. 2)?"
 
 Soma total do stack:
 > "tudo isso que se você fosse comprar separadamente custaria 16, você ia ter que investir 16 mil reais. você não vai investir 16 mil reais. você vai investir tudo isso na sua carreira por R$165,34 por mês."
@@ -95,27 +95,27 @@ Soma total do stack:
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - mesma esteira; price-seeding aos ~6 min; 1.997 / 1.697 com "Combinado não sai caro"
+### 5N (o estrategista da operação-referência) - mesma esteira; price-seeding aos ~6 min; 1.997 / 1.697 com "Combinado não sai caro"
 
 **Trecho literal:**
 
-> (tripla âncora + cobrança do seeding) "Eu falei aqui para vocês, MBAs tradicionais, tem um monte de encheção de linguiça, e custam em média 10 a 20 mil reais. O gestão ágil não vai custar nem 20, nem 10 mil reais. O valor dele é 3 mil reais. Eu já tinha falado lá no começo, não estou falando aqui, fazendo suspense, mas eu já tinha falado lá no começo que ele custa 3 mil reais. Esse é o valor de mercado dessa formação. Mas, obviamente, vai ter uma oferta exclusiva para quem ficou até o final da aula. […] Onde essa formação completa no Gestão Ágil 2.0 vai sair de R$ 3.000,00 por R$ 1.997,00. R$ 1.000,00 de desconto. Mas... Segura aí que tem mais."
+> (tripla âncora + cobrança do seeding) "Eu falei aqui para vocês, MBAs tradicionais, tem um monte de encheção de linguiça, e custam em média 10 a 20 mil reais. O gestão não vai custar nem 20, nem 10 mil reais. O valor dele é 3 mil reais. Eu já tinha falado lá no começo, não estou falando aqui, fazendo suspense, mas eu já tinha falado lá no começo que ele custa 3 mil reais. Esse é o valor de mercado dessa formação. Mas, obviamente, vai ter uma oferta exclusiva para quem ficou até o final da aula. […] Onde essa formação completa no programa de gestão (ed. 2) vai sair de R$ 3.000,00 por R$ 1.997,00. R$ 1.000,00 de desconto. Mas... Segura aí que tem mais."
 
 > (degrau 2 com reason-why - o combinado) "tem um bônus que eu quero fazer aqui pra vocês que é o bônus do combinado não sai caro […] Eu quero que você seja esse próximo aluno, que vai me mandar esse depoimento. E para que você, assim como um incentivo, para que você mande esse depoimento para mim, no futuro, assim que você tiver os resultados do curso, Para que você me dê isso, eu vou te dar um descontinho a mais. […] eu vou te dar R$300,00 de desconto adicional. […] Então, com esse bônus do combinado não sai caro, não vai ser R$1.997, acaba ficando R$1.697, ou R$165 por mês."
 
 > (reduzir ao ridículo + elogio ao bolso da audiência) "Por que eu estou fazendo isso? Porque eu quero que o orçamento não seja um empecilho para você. Eu quero que o valor não seja um problema para você. eu fiz isso aqui pra ter um valor que eu sei que cabe no orçamento 165 cabe no orçamento […] no orçamento de qualquer pessoa, eu sei que cabe eu sei que eu não tô falando com ninguém aqui que recebe bolsa família, com, sei lá, com pessoal carente, eu sei que vocês eu sei pelo público da mais massa, é um público diferenciado, vocês são profissionais diferenciados […] Então eu sei que R$165 cabe no orçamento."
 
-> (soma do stack vs. preço - o "injusto invertido") "Se você fosse comprar tudo isso aqui, olha só. Gestão ágil 2.0, que custa R$ 3.000,00. O acompanhamento quinzenal, R$ 9.000,00. […] Somando tudo isso daria 15 mil reais mais de 15 mil reais Você gastaria em formação profissional. E está bom, porque em um mês de salário de gestão, você paga isso. Estaria justo pagar os 15 mil reais. Mas, cara, isso aqui está injusto com a Mindmaster, né? 12 de 165 por mês."
+> (soma do stack vs. preço - o "injusto invertido") "Se você fosse comprar tudo isso aqui, olha só. O programa de gestão (ed. 2), que custa R$ 3.000,00. O acompanhamento quinzenal, R$ 9.000,00. […] Somando tudo isso daria 15 mil reais mais de 15 mil reais Você gastaria em formação profissional. E está bom, porque em um mês de salário de gestão, você paga isso. Estaria justo pagar os 15 mil reais. Mas, cara, isso aqui está injusto com a operação-referência, né? 12 de 165 por mês."
 
-**O que ele fez:** price-seeding - a PRIMEIRA âncora (R$3 mil "valor de mercado") foi plantada aos ~6 minutos, na apresentação da empresa, junto com a esteira inteira com preços (workshop "de R$297 até R$997", MBA, consultoria); na hora da oferta, o 1.997 já nasce parecendo desconto sobre algo estabelecido → ancoragem em três camadas (MBA 10-20 mil → valor de mercado 3 mil → stack somado 15 mil) → queda em degraus com reason-why próprio (1.997 = ficou até o final; −300 = "Combinado não sai caro", desconto trocado por compromisso de depoimento futuro - contrapartida, não esmola) → parcela 165/mês amarrada ao elogio que constrange a objeção → ROI relâmpago ("em um mês de salário de gestão você paga os 15 mil") → autodepreciação calculada ("injusto com a Mindmaster") que inverte quem está ganhando no negócio.
+**O que ele fez:** price-seeding - a PRIMEIRA âncora (R$3 mil "valor de mercado") foi plantada aos ~6 minutos, na apresentação da empresa, junto com a esteira inteira com preços (workshop "de R$297 até R$997", MBA, consultoria); na hora da oferta, o 1.997 já nasce parecendo desconto sobre algo estabelecido → ancoragem em três camadas (MBA 10-20 mil → valor de mercado 3 mil → stack somado 15 mil) → queda em degraus com reason-why próprio (1.997 = ficou até o final; −300 = "Combinado não sai caro", desconto trocado por compromisso de depoimento futuro - contrapartida, não esmola) → parcela 165/mês amarrada ao elogio que constrange a objeção → ROI relâmpago ("em um mês de salário de gestão você paga os 15 mil") → autodepreciação calculada ("injusto com a operação-referência") que inverte quem está ganhando no negócio.
 
-**Por que funciona:** cada queda de preço tem uma razão que preserva o valor (não é "tá barato", é "você mereceu/combinou") - o produto nunca desvaloriza, só o seu acesso a ele fica privilegiado. E o elogio ao bolso transforma "não tenho dinheiro" em confissão de não ser o "profissional diferenciado" que ele disse que você é. O "Combinado não sai caro" (mecanismo MindMaster) ainda faz o desconto plantar a prova social do próximo webinar.
+**Por que funciona:** cada queda de preço tem uma razão que preserva o valor (não é "tá barato", é "você mereceu/combinou") - o produto nunca desvaloriza, só o seu acesso a ele fica privilegiado. E o elogio ao bolso transforma "não tenho dinheiro" em confissão de não ser o "profissional diferenciado" que ele disse que você é. O "Combinado não sai caro" (mecanismo operação-referência) ainda faz o desconto plantar a prova social do próximo webinar.
 
 **O que é decalcável vs do nicho:** decalcável: price-seeding na apresentação institucional (declarar a esteira com preços a 80+ minutos do pitch), desconto condicionado a depoimento futuro. Do nicho: a régua salarial do gestor e o vocabulário CLT.
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetura/emprego nos EUA; R$7.355 → 3.000 → 2.500 (12x R$258)
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - arquitetura/emprego nos EUA; R$7.355 → 3.000 → 2.500 (12x R$258)
 
 **Trecho literal:**
 
@@ -137,25 +137,25 @@ Payback provado com caso:
 
 Segunda queda com reason-why comportamental (o "combinado"):
 
-> "eu quero fazer um combinado com você, por eu vou dar mais um desconto para você entrar hoje, hoje no programa Seja arquiteto na méica. Mas você tem que me prometer uma coisa, só uma coisa. Você tem que me prometer que quando você atingir esse resultado, quando você conseguir o seu primeiro emprego, você vai me avisar. […] e aí sim, se você me avisar, eu vou te dar mais R$ 500 de desconto. Em vez de você pagar tudo isso, esse combo inteiro por 3.000, vai sair por R$ 2.500."
+> "eu quero fazer um combinado com você, por eu vou dar mais um desconto para você entrar hoje, hoje no programa de arquitetura internacional. Mas você tem que me prometer uma coisa, só uma coisa. Você tem que me prometer que quando você atingir esse resultado, quando você conseguir o seu primeiro emprego, você vai me avisar. […] e aí sim, se você me avisar, eu vou te dar mais R$ 500 de desconto. Em vez de você pagar tudo isso, esse combo inteiro por 3.000, vai sair por R$ 2.500."
 
 Fricção de pagamento removida:
 
-> "Você pode parcelar em 12 vezes de 258 58. 12 vezes. Presta atenção. Tem o recorrente. Eu vou deixar liberado o recorrente. Ah, Ju, não tenho limite no cartão. Tá liberado o recorrente. Não vai ocupar o limite do seu cartão. Se você pagar a vista é R$ 2.500. Se você pagar parcelado, é 12 de 258. Com R$ 500 de desconto."
+> "Você pode parcelar em 12 vezes de 258 58. 12 vezes. Presta atenção. Tem o recorrente. Eu vou deixar liberado o recorrente. Ah, [host], não tenho limite no cartão. Tá liberado o recorrente. Não vai ocupar o limite do seu cartão. Se você pagar a vista é R$ 2.500. Se você pagar parcelado, é 12 de 258. Com R$ 500 de desconto."
 
 **O que ela fez:** quebra de padrão pessoal como escassez ("eu não dou cupom em lugar nenhum") antes do número → ancoragem item a item até a soma do stack (R$7.355) → queda 1 (R$3.000) imediatamente dissolvida contra a renda prometida ("o que é R$3.000 pra quem vai ganhar R$25.000/mês?") → payback de 1 freelance/1 semana provado com caso nomeado (Bianca) → queda 2 com micro-compromisso não-financeiro ("me avisa quando conseguir o emprego" = −R$500) → remoção de fricção de cartão (recorrente que não ocupa limite).
 
 **Por que funciona:** o segundo desconto condicionado a "me avisar do resultado" é a jogada-assinatura: faz o comprador assinar mentalmente um contrato de sucesso (pressupõe que o emprego virá) e ainda abastece a máquina de provas do próximo webinar. O preço nunca é defendido - é dissolvido contra o salário em dólar que a aula inteira tornou crível.
 
-**O que é decalcável vs do nicho:** decalcável: desconto condicionado a aviso de resultado (mesma família do "combinado" MindMaster), payback contra a moeda da promessa, recorrente como remoção de objeção de cartão. Do nicho: salário em dólar e o freelance como unidade de payback.
+**O que é decalcável vs do nicho:** decalcável: desconto condicionado a aviso de resultado (mesma família do "combinado" operação-referência), payback contra a moeda da promessa, recorrente como remoção de objeção de cartão. Do nicho: salário em dólar e o freelance como unidade de payback.
 
 ---
 
-### Webinar do Léo - A (pele Soft: nutrição / Vítor Abrão / MDI) - emagrecimento; R$5.638 → 3.000 → 997 → 797 (12x R$79,78)
+### Webinar do autor do método - A (pele Soft: nutrição / o autor do case de nutrição) - emagrecimento; R$5.638 → 3.000 → 997 → 797 (12x R$79,78)
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o autor do case de nutrição)*
 
-> "mas agora a parte que conta né, a parte importante: Qual é o investimento. Vitor, me conta que eu quero saber […] pensa comigo: ao longo de um ano que é o acesso que você vai ter o MDI, se você contratar um nutricionista, vamos supor um nutricionista minimamente bom […] 1200 da dieta, 1440 do treinamento, acesso por um ano a aplicativo Smart di r$ 98 […] uma prescrição de manipulado deste tamanho que vai custar ali mais de R 2.000 […] somando tudo isso […] você teria um gasto anual de 5.638. Mas é óbvio que eu não vou te cobrar isso"
+> "mas agora a parte que conta né, a parte importante: Qual é o investimento. o autor do case de nutrição, me conta que eu quero saber […] pensa comigo: ao longo de um ano que é o acesso que você vai ter o [PROGRAMA], se você contratar um nutricionista, vamos supor um nutricionista minimamente bom […] 1200 da dieta, 1440 do treinamento, acesso por um ano a aplicativo Smart di r$ 98 […] uma prescrição de manipulado deste tamanho que vai custar ali mais de R 2.000 […] somando tudo isso […] você teria um gasto anual de 5.638. Mas é óbvio que eu não vou te cobrar isso"
 
 > "Hoje a minha consulta tá custando r$ 3.000. se você quiser consultar comigo, sentar lá na minha frente, você vai ter que pagar r$ 3 3.000"
 
@@ -163,7 +163,7 @@ Fricção de pagamento removida:
 
 > "então você não vai pagar R 5638, você não vai pagar R 3000, você não vai pagar r00 que já seria super justo para toda a entrega que eu vou te dar: você vai pagar só o valor de 997. tá bom? não tá bom né […] só hoje, durante essa aula […] você vai pagar somente 12 parcelas de R 7978, ou R 797 à vista, você tem um descontinho se você paga ali a vista"
 
-> "custa menos do que uma pizza hoje. se você entrar no iFood procurar uma pizza para você pedir você vai pagar no mínimo R 85$ 80, é mais caro do que uma parcela do MDI. você gasta isso no final de semana e pizza, Bicho, Comeu vira cocô depois"
+> "custa menos do que uma pizza hoje. se você entrar no iFood procurar uma pizza para você pedir você vai pagar no mínimo R 85$ 80, é mais caro do que uma parcela do [PROGRAMA]. você gasta isso no final de semana e pizza, Bicho, Comeu vira cocô depois"
 
 > "se você quiser fazer essa conta ainda mais minuciosa: 2,60 por dia. é mais barato do que um cafezinho hoje em dia, para você tomar um expresso na rua tu paga r$ 6 no mínimo, cara, R 2,60 por dia é ridículo de barato para tudo que você vai ganhar"
 
@@ -175,13 +175,13 @@ Fricção de pagamento removida:
 
 ---
 
-### Webinar C (corpus Léo - "Resina Anterior / Método One 2.0", voz Bruno, dentista) - odontologia; valor R$12.000 (calculado) → 3.000 (bio) → 1.997 (10 primeiros)
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - odontologia; valor R$12.000 (calculado) → 3.000 (bio) → 1.997 (10 primeiros)
 
 **Trecho literal:**
 
 > "te oferecendo tudo isso, te oferecendo a oportunidade de aprender tudo isso, oferecer um curso clareamento, o curso e precificação, um curso de humanização do atendimento odontológico, toda a parte técnica restauradora […] quando você está disposto a pagar? Quero que você pense, quero que você me responda aqui ó: quando você pagaria por isso, quanto vale isso?"
 
-> "eu tô te falando que você vai faturar no mínimo […] 6 mil reais por mês só fazendo resina anterior […] se eu falar assim ó: em um ano você vai dedicar dois meses a pagar o curso. Então o curso vai custar 12 mil, e depois vai passar 10 meses ganhando sozinho e o resto da sua vida ganhando, concurso é pago. Você dedica dois meses a pagar o curso. Se esse curso custasse r$ 12.000 e o resto da sua vida tendo lucro em cima disso, e aí, valeria? […] se esse curso vale isso […] vocês custasse r$ 12 mil reais, estaria barato"
+> "eu tô te falando que você vai faturar no mínimo […] 6 mil reais por mês só fazendo o procedimento-case […] se eu falar assim ó: em um ano você vai dedicar dois meses a pagar o curso. Então o curso vai custar 12 mil, e depois vai passar 10 meses ganhando sozinho e o resto da sua vida ganhando, concurso é pago. Você dedica dois meses a pagar o curso. Se esse curso custasse r$ 12.000 e o resto da sua vida tendo lucro em cima disso, e aí, valeria? […] se esse curso vale isso […] vocês custasse r$ 12 mil reais, estaria barato"
 
 > "eu te faço outra pergunta: quanto você pagaria para mudar de vida? Quanto que você pagaria agora, quanto você investiria agora para mudar a vida da sua família?"
 
@@ -197,15 +197,15 @@ Fricção de pagamento removida:
 
 ---
 
-### GAIA2k (Denison Vieira / MindMaster - "Gestão Ágil na Era da IA") - vende Gestão Ágil 2.0; R$3.500 → 2.497 → 1.997 (12x R$199)
+### GA ed.1 (o estrategista da operação-referência - "o programa de gestão com IA") - vende o programa de gestão (ed. 2); R$3.500 → 2.497 → 1.997 (12x R$199)
 
 **Trecho literal:**
 
 Dupla ancoragem externa (MBA dos outros + MBA próprio):
-> "MBAs tradicionais, que eu sei que vocês fizeram um monte aí, e vocês gastaram de 10 a 20 mil reais para fazer eles. Fica tranquilo que o gestão ágil não vai custar isso, ele não vai custar 20 mil reais. Também não vai custar, não custa 10 mil reais, até porque a gente enxugou, isso aqui não é um MBA, ele é mais curto, muito mais curto. A gente tem um MBA, o nosso MBA custa 18 mil."
+> "MBAs tradicionais, que eu sei que vocês fizeram um monte aí, e vocês gastaram de 10 a 20 mil reais para fazer eles. Fica tranquilo que o gestão não vai custar isso, ele não vai custar 20 mil reais. Também não vai custar, não custa 10 mil reais, até porque a gente enxugou, isso aqui não é um MBA, ele é mais curto, muito mais curto. A gente tem um MBA, o nosso MBA custa 18 mil."
 
 Preço de prateleira (verificável no site - reason-why da queda):
-> "O valor dele é R$ 3.500, tá? Por ser um programa mais enxuto. Só que tem uma oferta exclusiva para quem ficou até o final da aula. […] Se você entrar no site agora, cara, entra ali, mindmaster.com.br. Você vai ver lá, vai estar, gestão mais de 2.0, 3.500 reais. Esse é o nosso preço. Quem não tá na live, quem não tá participando aqui. Vai entrar no nosso site, e a gente tem aluno todo dia entrando, né? Vai lá no nosso site e compra por 3.500 reais. Esse é o preço de prateleira. Você não vai pagar 3.500 reais."
+> "O valor dele é R$ 3.500, tá? Por ser um programa mais enxuto. Só que tem uma oferta exclusiva para quem ficou até o final da aula. […] Se você entrar no site agora, cara, entra ali, [dominio-da-operação]. Você vai ver lá, vai estar, gestão mais de 2.0, 3.500 reais. Esse é o nosso preço. Quem não tá na live, quem não tá participando aqui. Vai entrar no nosso site, e a gente tem aluno todo dia entrando, né? Vai lá no nosso site e compra por 3.500 reais. Esse é o preço de prateleira. Você não vai pagar 3.500 reais."
 
 Degrau 1 (desconto com gesto pessoal):
 > "Apenas hoje, somente quem ficou até o final da aula, eu vou dar um desconto de mil reais. Mil reais eu vou tirar do meu bolso e vou dar para você. Mil reais. […] Somente hoje é R$ 2.497 o acesso a essa formação. Só que espera que tem mais. Não é só isso."
@@ -226,7 +226,7 @@ Fechamento da conta (ROI):
 
 > "Resumo: Se você fosse contratar tudo separado, ia dar um dinheirão aqui, né? 3.500, mais 9.100, tudo isso por 12 de 1,99."
 
-**O que ele fez:** ancoragem tripla antes do preço (MBA mercado 10-20k, MBA próprio 18k plantado no minuto 7, mentoria avulsa 9,1k) → preço de prateleira auditável ("entra no site agora, mindmaster.com.br" - com a prova extra "a gente tem aluno todo dia entrando" = gente paga 3.500 de verdade) → queda em 3 degraus, cada um com reason-why distinto (3.500 prateleira → −1.000 por ficar até o fim, "do meu bolso" → −500 pelo link da aula = 1.997) → parcela como missão ("fiz de propósito, pro dinheiro não ser empecilho") → redução ao ridículo em cascata (streaming → pizza → iFood → R$6/dia → Coca-Cola) → o "gestossauro" (figura GAIA2k/MindMaster do gestor obsoleto) volta como custo de NÃO comprar → ROI contra o salário-alvo (199/mês vs salário de 20 mil).
+**O que ele fez:** ancoragem tripla antes do preço (MBA mercado 10-20k, MBA próprio 18k plantado no minuto 7, mentoria avulsa 9,1k) → preço de prateleira auditável ("entra no site agora, [dominio-da-operação]" - com a prova extra "a gente tem aluno todo dia entrando" = gente paga 3.500 de verdade) → queda em 3 degraus, cada um com reason-why distinto (3.500 prateleira → −1.000 por ficar até o fim, "do meu bolso" → −500 pelo link da aula = 1.997) → parcela como missão ("fiz de propósito, pro dinheiro não ser empecilho") → redução ao ridículo em cascata (streaming → pizza → iFood → R$6/dia → Coca-Cola) → o "gestossauro" (figura GA ed.1/operação-referência do gestor obsoleto) volta como custo de NÃO comprar → ROI contra o salário-alvo (199/mês vs salário de 20 mil).
 
 **Por que funciona:** cada degrau tem causa pública e verificável, então a queda não cheira a pechincha falsa. Quando chega no R$6/dia, o cérebro já comparou com 18.900 (MBA dele, plantado no minuto 7), 9.100 (mentoria) e 70 mil (Stanford) - o preço final é ridículo por construção.
 
@@ -298,28 +298,28 @@ Inflação reversa (no Q&A):
 
 1. **Nenhum número final sem âncora antes.** Todos apresentam no mínimo 2 referências maiores já aceitas antes do preço real. A pergunta do comprador deve ser "comparado com o quê?" - e a resposta já foi dada.
 2. **Dupla ancoragem: externa + interna.** Externa = o que a categoria/o problema custa por fora (MBA, consulta, seminário, nutricionista+personal+manipulado, item a item). Interna = a soma do stack riscada na frente do espectador (15.000 / 16.594 / 12.100 / 7.355 / 5.638).
-3. **Queda em degraus, cada degrau com reason-why PRÓPRIO e público.** Ficou até o final; link do canal (desconto por canal, não por cupom - padrão MindMaster); combinado/depoimento futuro (o "Combinado não sai caro" da MindMaster; o "me avisa quando conseguir o emprego" da Juliana); 10/15 primeiros; à vista. Desconto sempre com causa - nunca "porque sim".
+3. **Queda em degraus, cada degrau com reason-why PRÓPRIO e público.** Ficou até o final; link do canal (desconto por canal, não por cupom - padrão operação-referência); combinado/depoimento futuro (o "Combinado não sai caro" da operação-referência; o "me avisa quando conseguir o emprego" da autora do case de arquitetura); 10/15 primeiros; à vista. Desconto sempre com causa - nunca "porque sim".
 4. **Desconto com contrapartida preserva o valor.** O produto nunca desvaloriza; o ACESSO de quem está na sala fica privilegiado. Variante avançada: a contrapartida planta a prova social do próximo webinar.
-5. **Âncora com lastro auditável.** Preço de prateleira no site ("entra no mindmaster.com.br agora"), link da bio (Léo C), preço real pago por turmas anteriores (webinar de referência: "people have paid this"). Âncora verificável = desconto crível.
-6. **A parcela é o preço.** O total parcelado não é verbalizado (máquina MindMaster); depois a parcela cai pra unidade diária (5,51 / 6,00 / 2,60 por dia). É troca de unidade progressiva, não só desconto.
+5. **Âncora com lastro auditável.** Preço de prateleira no site ("entra no [dominio-da-operação] agora"), link da bio (webinar de referência C), preço real pago por turmas anteriores (webinar de referência: "people have paid this"). Âncora verificável = desconto crível.
+6. **A parcela é o preço.** O total parcelado não é verbalizado (máquina da operação-referência); depois a parcela cai pra unidade diária (5,51 / 6,00 / 2,60 por dia). É troca de unidade progressiva, não só desconto.
 7. **Reduzir ao ridículo contra gasto que o avatar JÁ faz** - pizza, iFood, Coca, streaming, cafezinho - em duas alturas: comparação verbal primeiro, prova documental depois (print do iFood, foto da Coca na gôndola). Bônus: contraste moral embutido (Coca "estraga sua saúde"; pizza "comeu vira cocô" vs. o objetivo da avatar).
 8. **A conta fecha em ROI/payback na moeda da promessa.** Um aumento de salário, um freelance, uma semana de trabalho (Bianca), 2-3 casos clínicos, "em um mês de salário de gestor você paga". O preço é julgado contra o retorno que a aula tornou crível - nunca contra zero.
 9. **O reason-why da trivialização é VERBALIZADO.** "Eu fiz isso de propósito, pro dinheiro não ser um empecilho" / "pra que o valor não seja uma desculpa" - o vendedor explica por que o preço cabe, e com isso elimina a desculpa financeira por antecipação.
 10. **Elogio de identidade que constrange a objeção.** "Vocês são profissionais diferenciados, eu sei que cabe no orçamento" - dizer "não tenho dinheiro" passa a contradizer a identidade que o próprio lead aceitou.
-11. **Fricção de pagamento removida dentro do bloco.** Recorrente que não ocupa limite (Juliana), "pega o cartão" antes do link (MindMaster), parcelamento explicado com honestidade (Léo C admite o juros da plataforma).
-12. **Na tela: stack que cresce e risca, preço final em verde gigante** - e na hora da decisão a webcam some, fica só a conta (slide-craft MindMaster).
+11. **Fricção de pagamento removida dentro do bloco.** Recorrente que não ocupa limite (a autora do case de arquitetura), "pega o cartão" antes do link (operação-referência), parcelamento explicado com honestidade (webinar de referência C admite o juros da plataforma).
+12. **Na tela: stack que cresce e risca, preço final em verde gigante** - e na hora da decisão a webcam some, fica só a conta (slide-craft operação-referência).
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
 - **Preço seco.** Anunciar o número sem âncoras é entregar o julgamento "caro/barato" ao repertório do lead.
 - **Desconto sem reason-why.** Queda de preço sem causa pública cheira a margem inflada e desvaloriza o produto inteiro - todos os degraus do corpus têm razão nomeada.
-- **Âncora inventada e inauditável.** "Valor de tabela" que nunca foi cobrado de ninguém quebra a credencial do resto do pitch; os campeões ancoram em preço real praticado ou em conta construída com o espectador (Léo C).
+- **Âncora inventada e inauditável.** "Valor de tabela" que nunca foi cobrado de ninguém quebra a credencial do resto do pitch; os campeões ancoram em preço real praticado ou em conta construída com o espectador (webinar de referência C).
 - **Verbalizar o total parcelado.** "12x de 199 = 2.388 no cartão" destrói a troca de unidade; ninguém do corpus faz isso.
 - **Trivializar contra gasto fora do universo do avatar.** Coca-Cola funciona pro CLT, não necessariamente pro cirurgião; a premissa é "gasto banal que ELE já faz", não o objeto Coca/iFood - decalcar o objeto é erro G2.
-- **Empilhar descontos na mesma moeda.** A máquina MindMaster separa: o desconto remove objeção de preço (todos levam), a corrida é pelos bônus dos 15 primeiros (camada própria). Misturar dilui as duas urgências.
-- **Pedir desculpa pelo preço / tom de súplica.** O frame dos campeões é o inverso: "injusto comigo" (Vítor/Léo A), "injusto com a Mindmaster", sweet spot do modelo ("making them feel like they're taking advantage of you").
+- **Empilhar descontos na mesma moeda.** A máquina da operação-referência separa: o desconto remove objeção de preço (todos levam), a corrida é pelos bônus dos 15 primeiros (camada própria). Misturar dilui as duas urgências.
+- **Pedir desculpa pelo preço / tom de súplica.** O frame dos campeões é o inverso: "injusto comigo" (o autor do case de nutrição/webinar de referência A), "injusto com a operação-referência", sweet spot do modelo ("making them feel like they're taking advantage of you").
 - **Deixar este bloco fraco quando não há garantia.** Em 6 dos 9 webinars não existe reversão de risco formal - a trivialização do preço É o de-risking. Bloco de preço raso + sem garantia = risco inteiro no colo do lead.
-- **Atribuir mecanismo a dono errado.** "Price linking" e o sweet spot são do modelo; "Combinado não sai caro", desconto por canal, Coca-Cola/R$5,51-por-dia e o price-seeding institucional são da máquina MindMaster; o "gestossauro" é da edição GAIA2k; a "visão de floresta" (citada em outros blocos) é da MindMaster. Ao escrever pro Léo, usar as PREMISSAS - a forma final se define com ele.
+- **Atribuir mecanismo a dono errado.** "Price linking" e o sweet spot são do modelo; "Combinado não sai caro", desconto por canal, Coca-Cola/R$5,51-por-dia e o price-seeding institucional são da máquina da operação-referência; o "gestossauro" é da edição GA ed.1; a "visão de floresta" (citada em outros blocos) é da operação-referência. Ao escrever pro autor do método, usar as PREMISSAS - a forma final se define com ele.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -328,4 +328,4 @@ Inflação reversa (no Q&A):
 Dois dados estruturais que saem dessa cobertura total:
 
 - **webinar de referência #1 é caso duplo:** ensina a técnica em ~min 62 (com nome: price linking) e a executa em ~min 78 no próprio pitch - serve de gabarito teórico pra auditar os outros oito.
-- **A ausência correlata é a GARANTIA (bloco 11):** 13M, 5 Níveis, Aluna 80k, GAIA2k, Gestão Ágil ed. 2 e Léo C fecham SEM reversão de risco formal (auditado por grep nas partições). Nesses webinars, o de-risking mora AQUI: âncora + degraus + trivialização + payback. Quem escrever um webinar sem garantia precisa dimensionar este bloco pra carregar essa função; quem tiver garantia (caso webinar de referência #2, "protected by two guarantees") pode fechar a queda apontando pra ela.
+- **A ausência correlata é a GARANTIA (bloco 11):** caso de 8 dígitos, 5N, o case de arquitetura, GA ed.1, GA ed.2 e webinar de referência C fecham SEM reversão de risco formal (auditado por grep nas partições). Nesses webinars, o de-risking mora AQUI: âncora + degraus + trivialização + payback. Quem escrever um webinar sem garantia precisa dimensionar este bloco pra carregar essa função; quem tiver garantia (caso webinar de referência #2, "protected by two guarantees") pode fechar a queda apontando pra ela.

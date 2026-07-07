@@ -1,10 +1,10 @@
-# Estrutura Real do Webinar (modelada do material do Leo)
+# Estrutura Real do Webinar (modelada do material do autor do método)
 
-> **O que é este doc.** A especificação da estrutura REAL do webinário do Léo, consolidada de três estudos: (1) a destilação do webinário do próprio Léo ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da MindMaster (Denison Vieira), a máquina-mãe que o Léo modelou; (3) a doutrina do método (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
+> **O que é este doc.** A especificação da estrutura REAL do webinário do autor do método, consolidada de três estudos: (1) a destilação do webinário do próprio autor do método (roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar do programa de gestão da operação-referência (8 dígitos em 2 anos, que o autor do método rodou como CRO), a máquina-mãe que o autor do método modelou; (3) a doutrina do método (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
 >
-> **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes (Guilherme Reginatto, Natália Fischer). É o gabarito que o `soft-webinar-plano` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
+> **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes. É o gabarito que o `soft-webinar-plano` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
-> **A correção-mãe, numa frase.** O método do Léo NÃO são "3 viradas". É **ADMA = Atenção → Diagnóstico → Mecanismo → Ação** (4 caixinhas), batizado de **Reorganização da Percepção (RP)**. Lastro: Eugene Schwartz, níveis de consciência, 1966. *"Fora de ordem, é cobre. Na ordem certa, vira ouro."*
+> **A correção-mãe, numa frase.** O método do autor NÃO são "3 viradas". É **ADMA = Atenção → Diagnóstico → Mecanismo → Ação** (4 caixinhas), batizado de **Reorganização da Percepção (RP)**. Lastro: Eugene Schwartz, níveis de consciência, 1966. *"Fora de ordem, é cobre. Na ordem certa, vira ouro."*
 
 ---
 
@@ -24,14 +24,14 @@
 
 **Quem viola a régua:** quem faz Mecanismo de 10 min e Ação de 5 min (o erro das "3 viradas", ver última seção). O Mecanismo e a Ação juntos são ~70% da aula.
 
-**As duas confirmações entre fontes.** A estrutura do webinar de gestão ágil (a máquina que o Léo modelou) bate beat-a-beat com a do Léo: pré-roll de depoimentos sob timer → check técnico como 1º sim → autoridade por número (empresa antes da pessoa) → história de origem amarrada ao mecanismo → diagnóstico de fora pra dentro com prints de mídia → ensino 80/20 em listas → recap "olha tudo que você aprendeu" → ancoragem progressiva em degraus → CTA com escassez. **O esqueleto é o mesmo.** O que muda entre nichos é só a "onda" (no gestão ágil foi VUCA→IA; isso é um slot trocável, não a estrutura).
+**As duas confirmações entre fontes.** A estrutura do webinar do programa de gestão (a máquina que o autor do método modelou) bate beat-a-beat com a do autor do método: pré-roll de depoimentos sob timer → check técnico como 1º sim → autoridade por número (empresa antes da pessoa) → história de origem amarrada ao mecanismo → diagnóstico de fora pra dentro com prints de mídia → ensino 80/20 em listas → recap "olha tudo que você aprendeu" → ancoragem progressiva em degraus → CTA com escassez. **O esqueleto é o mesmo.** O que muda entre nichos é só a "onda" (no programa de gestão foi VUCA→IA; isso é um slot trocável, não a estrutura).
 
 ---
 
 ## FASE 0 · PRÉ-INÍCIO (~5 min)
 
 ### Estrutura real (a ordem dos beats)
-1. **Tela de espera = cronômetro regressivo + depoimentos REAIS em loop + card fixo de autoridade.** O frame do gestão ágil mostra literalmente **"COMEÇAREMOS EM 5:09"** com vídeo de aluno rodando ao lado do timer. No Léo: card fixo *"MindMaster, 13 milhões em 2 anos, com 5 pessoas e 1 funil."* No perpétuo, isso é pré-roll: depoimento colhido ao vivo é eternizado e jogado pra cá.
+1. **Tela de espera = cronômetro regressivo + depoimentos REAIS em loop + card fixo de autoridade.** O frame do programa de gestão mostra literalmente **"COMEÇAREMOS EM 5:09"** com vídeo de aluno rodando ao lado do timer. No autor do método: card fixo *"operação-referência, 8 dígitos em 2 anos, com 5 pessoas e 1 funil."* No perpétuo, isso é pré-roll: depoimento colhido ao vivo é eternizado e jogado pra cá.
 2. **Slide 1 na tela** (a pergunta-na-dor já fixa): *"Começamos em 5 minutos / Hoje você vende todo dia, ou todo mês recomeça do zero? · Já escreve no chat de onde você assiste."*
 3. **Boas-vindas + ativa o chat com comando pequeno:** *"Antes de começar faz uma coisa pra mim. Escreve no chat teu nome, tua cidade, e o que te trouxe aqui hoje."*
 4. **Pergunta de entrada que abre a ferida** (fixa 4–5 min): a pessoa **verbaliza o tamanho do próprio problema**, auto-convencimento, arranca o 1º "sim".
@@ -40,12 +40,12 @@
 
 ### As técnicas (com exemplo literal)
 - **Pré-venda passiva:** o tempo morto vende antes do "olá". O countdown transforma espera em antecipação.
-- **Curadoria de depoimentos por OBJEÇÃO:** cada depoimento cobre um perfil diferente e fecha em resultado material + bordão. Modelo do gestão ágil: o desempregado na pandemia ("em uma semana, sete empresas do exterior me contatando"), o sobrecarregado ("a equipe não faz mais hora extra, estou sendo reconhecido"), o promovido ("recebi aumento, meu bônus aumentou", +40% de salário). → Para o cliente: 5–6 depoimentos, cada um matando uma objeção distinta.
+- **Curadoria de depoimentos por OBJEÇÃO:** cada depoimento cobre um perfil diferente e fecha em resultado material + bordão. Modelo do programa de gestão: o desempregado na pandemia ("em uma semana, sete empresas do exterior me contatando"), o sobrecarregado ("a equipe não faz mais hora extra, estou sendo reconhecido"), o promovido ("recebi aumento, meu bônus aumentou", +40% de salário). → Para o cliente: 5–6 depoimentos, cada um matando uma objeção distinta.
 - **Abrir a mente do cético por VOLUME de prova ANTES de qualquer argumento.** A rajada de prova social vem antes da tese.
 
 ### Listas / diagramas / dados
 - A própria fila de depoimentos é uma **lista visual em loop**.
-- Card de autoridade = **um número grande na tela** (13M / 5 pessoas / 1 funil).
+- Card de autoridade = **um número grande na tela** (caso de 8 dígitos / 5 pessoas / 1 funil).
 
 ---
 
@@ -57,23 +57,23 @@
 3. **As FASCINATIONS / open loops**, lê uma a uma SEM explicar (explicar fecha o loop): *"Por que postar todo dia te afasta da venda, e o que faz no lugar"* · *"O lugar onde a venda inteira acontece junta, e por que nenhum canal teu tem ele"* · *"Como a IA monta a parte técnica que faz gente desistir, e que hoje não te trava mais."*
 4. **A LEAD = HISTÓRIA em 3 camadas (terceiro → eu → você).** Abre o GRANDE loop narrativo que só fecha no fim. **Vulnerabilidade ANTES da credencial.**
    - **Camada 1 (terceiro):** *"Deixa eu te contar de um cara. Especialista bom de verdade, melhor que muita gente que vende mais que ele. Acorda, posta, responde direct, faz call, entrega, e no fim do mês o número não bate com o tamanho do trabalho. Esse cara tá exausto, e tem vergonha de dizer que tá exausto."*
-   - **Camada 2 (era eu), autoridade empilhada, EMPRESA antes da pessoa:** *"Esse cara era eu. 2019. Vim do presencial, trocava hora por dinheiro. Montei uma agência, cheguei a 35 pessoas, botei a mão em mais de 150 lançamentos, e a maioria não deu o que prometia. Até que eu montei o marketing e vendas de uma empresa chamada MindMaster. 13 milhões em 2 anos, com 5 pessoas. E ali eu entendi: o jogo não é faturar alto um mês. É vender todo dia. Consistência ganha de pico."*
+   - **Camada 2 (era eu), autoridade empilhada, EMPRESA antes da pessoa:** *"Esse cara era eu. 2019. Vim do presencial, trocava hora por dinheiro. Montei uma agência, cheguei a 35 pessoas, botei a mão em mais de 150 lançamentos, e a maioria não deu o que prometia. Até que eu montei o marketing e vendas de uma empresa chamada operação-referência. 8 dígitos em 2 anos, com 5 pessoas. E ali eu entendi: o jogo não é faturar alto um mês. É vender todo dia. Consistência ganha de pico."*
    - **Camada 3 (você), future pacing:** *"Imagina abrir o teu painel de manhã e ver que já vendeu enquanto você dormia. Sem ter postado nada ontem. A venda aconteceu sozinha. Isso não é sorte. É um sistema."*
-5. **A AUTORIDADE, por número e por terceiros, NUNCA por adjetivo sobre si.** 10 anos no digital · *"gerenciei R$46 milhões"* (gerenciei, NÃO faturei, ele faz questão da distinção) · +150 lançamentos · +40 nichos · MindMaster R$13M/2 anos/5 pessoas/1 funil · um webinário ~R$3M · **quebrou em 2020 devendo R$500k (a cicatriz é a credencial)**. A autoridade vem DENTRO da história, não num slide de currículo isolado.
+5. **A AUTORIDADE, por número e por terceiros, NUNCA por adjetivo sobre si.** 10 anos no digital · *"gerenciei dezenas de milhões"* (gerenciei, NÃO faturei, ele faz questão da distinção) · +150 lançamentos · +40 nichos · operação-referência 8 dígitos/2 anos/5 pessoas/1 funil · um webinário ~7 dígitos · **quebrou em 2020 devendo R$500k (a cicatriz é a credencial)**. A autoridade vem DENTRO da história, não num slide de currículo isolado.
 6. **O ESPELHO** (vira a câmera pro espectador): *"Eu acredito que todo especialista que já é bom merece vender todo dia, sem se matar de trabalhar."*
 7. **CONTRATO/AGENDA (os marcos) + semear o preço cedo:** *"e no final eu te mostro como ter acesso a tudo isso, com uma condição que só existe hoje."*
 8. **O PRESENTE pra quem fica** (loop de recompensa, real): *"Separei um presente pra quem ficar até o final, não vou contar o que é agora."* (é o Swipe, entregue na oferta).
 9. **A ONE BELIEF plantada:** *"A virada não é fazer mais. É o contrário. **Para de espalhar. Concentra.** Guarda essa frase. Ela é a aula inteira."*
 
 ### As técnicas (com exemplo literal)
-- **Headline = promessa de transformação de IDENTIDADE, não de conteúdo.** No gestão ágil: *"se tornar uma referência em gestão na SUA área de atuação."*
+- **Headline = promessa de transformação de IDENTIDADE, não de conteúdo.** No programa de gestão: *"se tornar uma referência em gestão na SUA área de atuação."*
 - **Escada de obediência:** ~12 comandos de custo crescente (som → nome/cidade → vota → palpite → printa → "eu quero" → caminho 2 → pega o cartão → corre).
-- **Alinhar expectativa via PESQUISA DE INSCRIÇÃO** (tecnologia rara, do gestão ágil): *"Quando vocês se inscreveram teve uma pesquisa. Eu fiz o compilado das top-5 expectativas. Coloca nos comentários o número da que você mais espera."*, a aula vira encomenda da própria audiência; esses 5 itens viram o checklist do recap e, no fim, a lista de benefícios do produto.
+- **Alinhar expectativa via PESQUISA DE INSCRIÇÃO** (tecnologia rara, do programa de gestão): *"Quando vocês se inscreveram teve uma pesquisa. Eu fiz o compilado das top-5 expectativas. Coloca nos comentários o número da que você mais espera."*, a aula vira encomenda da própria audiência; esses 5 itens viram o checklist do recap e, no fim, a lista de benefícios do produto.
 
 ### Listas / diagramas / dados
 - **Fascinations** = lista de 3, lida sem explicar.
 - **História** = lista de 3 camadas (terceiro → eu → você).
-- **Autoridade** = lista de números (no gestão ágil: 500k leitores / 320k e-mails / 200k redes / **14.426 alunos**, número hiperespecífico que parece auditado).
+- **Autoridade** = lista de números (no programa de gestão: 500k leitores / 320k e-mails / 200k redes / **14.426 alunos**, número hiperespecífico que parece auditado).
 - **Trajetória** = lista de empresas (amarrada ao mecanismo: *"foi NA TOYOTA que aprendi o Lean"*, o método vira espólio vivido, não teoria).
 - **Top-5 expectativas** = lista numerada votada no chat (reaparece 2x).
 
@@ -85,9 +85,9 @@
 
 ### Estrutura real: o EXTERNO → FILOSÓFICO → INTERNO (de fora pra dentro)
 
-**1. O EXTERNO (mercado/país, com dados e matérias REAIS, não citações).** Abre pelo macro pra tirar a objeção "vale a pena?". No gestão ágil, **prints em tamanho real** (G1, Você S/A, Valor Econômico, Exame) com a frase: *"Não sou só eu que estou falando isso."* No Léo: *"Na era da IA o digital ainda é bom negócio?"* + dados → *"Enquanto existir problema, alguém paga, demanda nunca foi o problema"* → a metáfora-tese: *"o algoritmo é uma avenida de 180 padarias."*
+**1. O EXTERNO (mercado/país, com dados e matérias REAIS, não citações).** Abre pelo macro pra tirar a objeção "vale a pena?". No programa de gestão, **prints em tamanho real** (G1, Você S/A, Valor Econômico, Exame) com a frase: *"Não sou só eu que estou falando isso."* No autor do método: *"Na era da IA o digital ainda é bom negócio?"* + dados → *"Enquanto existir problema, alguém paga, demanda nunca foi o problema"* → a metáfora-tese: *"o algoritmo é uma avenida de 180 padarias."*
 
-**2. O FILOSÓFICO (a injustiça, não deveria ser assim).** *"Tem gente pior que você vendendo mais. Não porque sabe mais. Porque foi vista."* + o MLK: *"o silêncio dos bons, teu silêncio é prejuízo."* No gestão ágil é o paradigma quebrado domesticado na mesa de jantar: *"Antigamente as pessoas ficavam 15 anos na mesma empresa. Hoje não existe."* → "organizações-máquina vs organismos."
+**2. O FILOSÓFICO (a injustiça, não deveria ser assim).** *"Tem gente pior que você vendendo mais. Não porque sabe mais. Porque foi vista."* + o MLK: *"o silêncio dos bons, teu silêncio é prejuízo."* No programa de gestão é o paradigma quebrado domesticado na mesa de jantar: *"Antigamente as pessoas ficavam 15 anos na mesma empresa. Hoje não existe."* → "organizações-máquina vs organismos."
 
 **3. O INTERNO (o que ele vive na pele).** *"Você faz o que todo mundo manda (postar) → virou social media de si mesmo → um emprego que não paga hora extra."*
 
@@ -98,7 +98,7 @@
 - **A pulverização (a causa, a inversão "não é falta, é excesso espalhado"):** *"Você pega essas quatro etapas e espalha em pedaço. A atenção tá num reel. O problema num carrossel de terça. A solução num story que sumiu em 24h. A decisão você empurra no direct. A pessoa nunca vê as quatro juntas. Você tá espalhando a venda. Por isso ela não fecha."*
 - **A autópsia (por que cada canal falha sozinho, um por clique):** *"O post morre em três segundos. O story evapora em 24 horas. O conteúdo solto entrega migalha. A página joga a oferta na cara sem a travessia. O direct chega frio. Você tem todas as peças, só nunca botou elas juntas, na ordem."*
 
-> No gestão ágil a causa-raiz é o **vilão nomeado (VUCA)** chegado por pergunta socrática ("Por que isso acontece? Alguém tem palpite?") + **gráfico de Fogel** (a tese "a gestão do passado morreu" vira consequência de um gráfico macroeconômico, não opinião do vendedor).
+> No programa de gestão a causa-raiz é o **vilão nomeado (VUCA)** chegado por pergunta socrática ("Por que isso acontece? Alguém tem palpite?") + **gráfico de Fogel** (a tese "a gestão do passado morreu" vira consequência de um gráfico macroeconômico, não opinião do vendedor).
 
 **IMPLICAÇÃO (a consequência que dói):**
 - **A conta invisível + a humilhação:** *"Isso cobra um preço que não aparece na planilha. Tuas horas evaporam produzindo conteúdo que não vende. Tem gente pior que você, com método pior, vendendo mais. E todo fim de mês bate o medo do mês que vem. Não é falta de competência. É a conta de espalhar."*
@@ -121,7 +121,7 @@
 - A autópsia (lista de 6, cada canal com seu defeito).
 - As armadilhas (lista de 4 + lista-espelho "nenhuma TIROU").
 - O custo crescente (lista de 3 horizontes).
-- No gestão ágil: as **5 dores do VUCA** (lista) + o martelo **"falta processo" 4x** (anáfora-lista).
+- No programa de gestão: as **5 dores do VUCA** (lista) + o martelo **"falta processo" 4x** (anáfora-lista).
 - Cada frente = tipicamente 1 slide; os picos emocionais ("a culpa não é sua") = slide quase vazio, UMA frase grande.
 
 ---
@@ -132,12 +132,12 @@
 > **Regra de ouro de altitude (a "Faca Soft"):** *"Você ensina o QUÊ e o PORQUÊ. Nunca o COMO executável. O 'como' está pago, dentro do produto. Loop aberto, carteira fechada."*
 
 ### Como ele EXPLICA (a doutrina webinar de referência)
-Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por que importa · me prova · exemplo.** Cada peça de prova = 1 slide ("1 caso = 1 slide", porque cada CASO é um ASSUNTO próprio). Isto NÃO é "1 item de lista = 1 slide": os itens de uma MESMA lista/stack ficam num slide só, revelados por clique na mesma tela. A profundidade é REAL (o espectador entende de verdade), mas o COMO executável fica pago. **A sobrecarga é projetada:** *"Não pode ter pressa, vamos digerir que é bastante conteúdo."* (do gestão ágil), o tour 80/20 funciona como catálogo disfarçado de aula, onde cada corpo de conhecimento = um módulo do produto.
+Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por que importa · me prova · exemplo.** Cada peça de prova = 1 slide ("1 caso = 1 slide", porque cada CASO é um ASSUNTO próprio). Isto NÃO é "1 item de lista = 1 slide": os itens de uma MESMA lista/stack ficam num slide só, revelados por clique na mesma tela. A profundidade é REAL (o espectador entende de verdade), mas o COMO executável fica pago. **A sobrecarga é projetada:** *"Não pode ter pressa, vamos digerir que é bastante conteúdo."* (do programa de gestão), o tour 80/20 funciona como catálogo disfarçado de aula, onde cada corpo de conhecimento = um módulo do produto.
 
 ### Estrutura real (a ordem dos beats)
 
 **O PRÁTICO (o "algo prático", UM aperitivo real, sem saciar):**
-- *"Quem tiver papel e caneta já pega, porque esse conteúdo é prático."* Entrega UM truque real e só um. No gestão ágil: os 4 passos pra organizar o trabalho (backlog → Kanban → sprint+daily → kaizen), com revelação progressiva e colunas "O QUE FAZER?" / "BENEFÍCIOS". No Léo: as 4 condições da venda. **Doutrina:** *"Abre o apetite, não enche a barriga. Quem sai saciado não compra. Quem sai com mais fome, compra."* → *"Isso é UMA. Lá dentro tem a sequência inteira."*
+- *"Quem tiver papel e caneta já pega, porque esse conteúdo é prático."* Entrega UM truque real e só um. No programa de gestão: os 4 passos pra organizar o trabalho (backlog → Kanban → sprint+daily → kaizen), com revelação progressiva e colunas "O QUE FAZER?" / "BENEFÍCIOS". No autor do método: as 4 condições da venda. **Doutrina:** *"Abre o apetite, não enche a barriga. Quem sai saciado não compra. Quem sai com mais fome, compra."* → *"Isso é UMA. Lá dentro tem a sequência inteira."*
 
 **A NOVA OPORTUNIDADE + a ESTREIA do nome (só aqui, com orgulho):**
 - *"Aquele evento que vende por você tem um nome. É um webinário perpétuo. Não é uma aula ao vivo que acaba. É um evento que você grava uma vez, e que roda todo dia, vendendo sozinho, com você dormindo. Não é uma versão melhor do que você já faz. É outra categoria de coisa."* (tela quase vazia: o nome merece o palco).
@@ -160,7 +160,7 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 
 **O "MOSTRAR UM PLANO", os 3 passos (revelação progressiva, peça por peça):**
 - **Passo 1, O Argumento** (destilar a mensagem na ordem que converte; mata "não sei o que falar") · **Passo 2, A Sala** (gravar o ambiente que prende; mata "vai ficar amador") · **Passo 3, A Máquina** (ligar o sistema que roda sozinho; mata "travo na técnica"). Revela um por clique. **Por que 3:** *"Três é o que você memoriza e repete pro amigo no boteco. Completo E possível."*
-- No gestão ágil o plano é a metáfora-mecanismo nomeada: **VISÃO DE FLORESTA** (3 pilares: Liderança · Estratégia · Gestão), *"o gestor que só sabe Scrum e Kanban tá olhando uma arvorezinha; pra ser relevante, enxerga a floresta."*
+- No programa de gestão o plano é a metáfora-mecanismo nomeada: **VISÃO DE FLORESTA** (3 pilares: Liderança · Estratégia · Gestão), *"o gestor que só sabe Scrum e Kanban tá olhando uma arvorezinha; pra ser relevante, enxerga a floresta."*
 
 **O QUADRO-SÍNTESE (o souvenir + o motor por último):** *"Esse é o caminho completo. E o que faz tudo rodar tem nome: a Reorganização da Percepção. Printa esse slide, esse quadro vale a aula."* ("Printa esse slide" = mídia espontânea).
 
@@ -168,7 +168,7 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 1. **Pausa de elogios colhidos ao vivo** (prova social no momento certo): *"Olha o que o Pablo mandou: 'fazia tempo que eu não assistia uma aula tão boa'. A Simone: 'aula magnífica'."*
 2. **Recap-checklist em cadeia de perguntas-dominó que só têm "sim"** (cada sim reduz a resistência ao pedido): *"Concorda que espalhar a venda não fecha? Concorda que nenhum canal teu dá as 4 condições, só o webinário perpétuo? Concorda que o caminho é concentrar pela Reorganização da Percepção, com a IA fazendo a parte técnica?"*, pergunta → pausa → próxima.
    - **O micro-compromisso:** *"Se você entendeu e pensou 'eu quero montar isso', digita 'eu quero' no chat."* (lê os nomes em voz alta, o chat cheio de EU QUERO é prova social ao vivo).
-   - No gestão ágil o recap é uma **contabilidade de valor entregue**: o checklist das 5 expectativas reaparece quase todo verde ("você JÁ sabe... JÁ sabe... isso está EM ANDAMENTO"). A aula gratuita cobre conscientemente 1 de 5; o curso cobre 5 de 5.
+   - No programa de gestão o recap é uma **contabilidade de valor entregue**: o checklist das 5 expectativas reaparece quase todo verde ("você JÁ sabe... JÁ sabe... isso está EM ANDAMENTO"). A aula gratuita cobre conscientemente 1 de 5; o curso cobre 5 de 5.
 
 ### Listas / diagramas / dados (mapa do Mecanismo)
 - As 4 condições (lista/diagrama).
@@ -177,7 +177,7 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 - As ~12 provas de superioridade (a lista enorme do "deixa eu provar").
 - Os 3 passos (lista revelada um por clique).
 - O recap/yes-ladder (cadeia de perguntas-SIM).
-- No gestão ágil: o tour 80/20 dos 6 corpos (Antifrágil · Lean · Design Thinking · Essencialismo · OKR · Scrum/Kanban · Inteligência Emocional), cada um = lista de 3 pilares + diagrama + livro/origem prestigiosa + "isso resolve a expectativa X".
+- No programa de gestão: o tour 80/20 dos 6 corpos (Antifrágil · Lean · Design Thinking · Essencialismo · OKR · Scrum/Kanban · Inteligência Emocional), cada um = lista de 3 pilares + diagrama + livro/origem prestigiosa + "isso resolve a expectativa X".
 
 ---
 
@@ -186,8 +186,8 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 ### Estrutura real (a coreografia, na ordem exata)
 1. **Desejo oculto (a cena concreta, "o melhor beat", com 1h de intimidade):** *"Domingo. Teu filho chega e te chama pra jogar bola. E você fala 'já vou, filho'. E não vai. O trabalho comeu teu domingo. De novo. O que eu tô te oferecendo não é faturamento. É o teu domingo de volta."*
 2. **A permissão (pivota pra venda sem quebrar o estado):** *"Posso te mostrar como eu posso te ajudar a partir daqui?"* (NADA de botão/link ainda).
-3. **Alavancagem:** *"Tudo que eu mostrei funciona, e é de graça. Mas é o ABC. Tem 10 anos de teste e erro por trás, e eu botei tudo dentro do Venda com Webinar."*
-4. **A PUV (a frase mais importante, dita 2x, pausada):** *"O Venda com Webinar é o único método com a RP que te faz vender todo dia sem precisar aparecer todo dia."*
+3. **Alavancagem:** *"Tudo que eu mostrei funciona, e é de graça. Mas é o ABC. Tem 10 anos de teste e erro por trás, e eu botei tudo dentro do [NOME DO PRODUTO]."*
+4. **A PUV (a frase mais importante, dita 2x, pausada):** *"O [NOME DO PRODUTO] é o único método com a RP que te faz vender todo dia sem precisar aparecer todo dia."*
 5. **O produto por dentro, a escada de IDENTIDADE ("De preso a procurado"):** cada degrau = um módulo = uma versão de você.
 6. **Prova de existência:** prints REAIS da área de membros. *"Isso não é projeto, é o que tá pronto hoje."*
 7. **Os 2 caminhos (a objeção-mãe, medo primeiro):** *"Você pode fazer sozinho. Dá. Foi o que eu fiz. Levei anos. Ou pega o caminho já aberto, com a IA montando, em tempo recorde. A pergunta não é se você consegue. É qual parece mais inteligente."*
@@ -195,9 +195,9 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 ### A ANCORAGEM PROGRESSIVA, passo a passo (a peça central da oferta)
 
 **1. A âncora de VALOR (o teto, não o preço).** *"O que tá em jogo aqui não é um curso. É um negócio que pode fazer 100 mil por mês. É teto, tem gente fazendo."*
-> **Guarda-corpo crítico:** o teto entra SEMPRE como teto provado por case, NUNCA como promessa pessoal. No gestão ágil a âncora é externa primeiro: *"MBAs custam de 10 a 20 mil, 360 horas, 80% encheção de linguiça"* → e só então *"o curso vale 3 mil."*
+> **Guarda-corpo crítico:** o teto entra SEMPRE como teto provado por case, NUNCA como promessa pessoal. No programa de gestão a âncora é externa primeiro: *"MBAs custam de 10 a 20 mil, 360 horas, 80% encheção de linguiça"* → e só então *"o curso vale 3 mil."*
 
-**2. A âncora AUDITÁVEL (o stack somado, peça por peça, como quem confere nota fiscal).** Cada item entra **por clique**, com o anterior visível, o valor crescendo na tela. Modelo do Léo:
+**2. A âncora AUDITÁVEL (o stack somado, peça por peça, como quem confere nota fiscal).** Cada item entra **por clique**, com o anterior visível, o valor crescendo na tela. Modelo do autor do método:
 
 | Item | Valor |
 |---|---|
@@ -209,26 +209,26 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 | Acompanhamento | R$497 |
 | **Total** | **R$2.182** (≈2,2x o preço final) |
 
-> Variante canônica do Léo (deck real): âncora R$3.500, stack de bônus ~R$13k. No gestão ágil há uma jogada extra: **um bônus-âncora MAIOR que o próprio produto** (a mentoria "venderia por R$9.100, mas você ganha"), de modo que a pessoa não compra um curso, "ganha R$9.100"; total riscado ~R$16.594.
+> Variante canônica do autor do método (deck real): âncora R$3.500, stack de bônus ~R$13k. No programa de gestão há uma jogada extra: **um bônus-âncora MAIOR que o próprio produto** (a mentoria "venderia por R$9.100, mas você ganha"), de modo que a pessoa não compra um curso, "ganha R$9.100"; total riscado ~R$16.594.
 
 **3. O bônus MASTERCARD (sem preço, escapa da régua numérica, só DEPOIS do stack).** O **Swipe de webinários validados**: *"Esse é o único bônus de verdade. Quanto vale? Não sei te dizer, porque isso eu não vendo. Quem entra hoje, leva."* (é o presente prometido na abertura).
 
-**4. A GARANTIA (inversão de risco).** Canônica do Léo = **90+90**: aplica 90 dias; se não der, ele entra 90 dias de consultoria; se ainda não der, devolve o DOBRO. *"O risco não é teu, é meu."* (No gestão ágil não há garantia formal, o risco é invertido por acúmulo: 12 meses de acesso, suporte diário, sem pré-requisito + prova documental).
+**4. A GARANTIA (inversão de risco).** Canônica do autor do método = **90+90**: aplica 90 dias; se não der, ele entra 90 dias de consultoria; se ainda não der, devolve o DOBRO. *"O risco não é teu, é meu."* (No programa de gestão não há garantia formal, o risco é invertido por acúmulo: 12 meses de acesso, suporte diário, sem pré-requisito + prova documental).
 
-**5. A QUEDA em degraus, RISCANDO ao vivo, com reason-why em CADA degrau.** *"Não é peça por peça, é tudo junto e montado. É gravado, não consome minha agenda. Por isso não é R$3.500 (riscado), nem R$1.497 (riscado). Pra quem tá aqui: 12x R$155."* No gestão ágil a queda é em camadas com razão de canal: 3 mil → 1.997 ("pra quem ficou até o final") → "NÃO se inscreve ainda; quem usa o link deste webinar ganha 15% adicional" (desconto por CANAL, não cupom, recompensa quem assistiu, protege o preço público).
+**5. A QUEDA em degraus, RISCANDO ao vivo, com reason-why em CADA degrau.** *"Não é peça por peça, é tudo junto e montado. É gravado, não consome minha agenda. Por isso não é R$3.500 (riscado), nem R$1.497 (riscado). Pra quem tá aqui: 12x R$155."* No programa de gestão a queda é em camadas com razão de canal: 3 mil → 1.997 ("pra quem ficou até o final") → "NÃO se inscreve ainda; quem usa o link deste webinar ganha 15% adicional" (desconto por CANAL, não cupom, recompensa quem assistiu, protege o preço público).
 
 **6. O COMBINADO (desconto COM razão recíproca).** *"Tem um combinado: quando o teu webinário vender, você me manda o resultado. Topa? Digita 'combinado'."*, pede o SIM, espera, e SÓ ENTÃO revela o preço final.
 
 **7. A PARCELA é a manchete.** *"Fica 12x R$155. Em parcela, cabe num almoço por semana."* (repete a parcela 2x, deixa o slide na tela por TEMPO).
 
-**8. A redução ao ridículo** (troca de unidade progressiva, total → parcela → por dia → objeto): *"R$5,16 por dia, menos que um café."* No gestão ágil, com print REAL do iFood (R$164 ≈ a parcela) e print do Pão de Açúcar: *"165 ÷ 30 = R$5,51 por dia. O que vale mais: uma Coca-Cola que estraga sua saúde, ou todo o curso?"* (a textura do cotidiano convence mais que slide bonito).
+**8. A redução ao ridículo** (troca de unidade progressiva, total → parcela → por dia → objeto): *"R$5,16 por dia, menos que um café."* No programa de gestão, com print REAL do iFood (R$164 ≈ a parcela) e print do Pão de Açúcar: *"165 ÷ 30 = R$5,51 por dia. O que vale mais: uma Coca-Cola que estraga sua saúde, ou todo o curso?"* (a textura do cotidiano convence mais que slide bonito).
 
 ### O FECHAMENTO (a coreografia final)
 - **3 CTAs em sequência (ganho → lógica → medo):** CTA 1 = liga ao destino emocional (botão VISÍVEL, "pega o cartão agora") · CTA 2 = os números frios (emoção decide, razão justifica) · CTA 3 = aversão à perda (a janela fecha quando a aula acabar).
 - **O SLIDE-MESTRE FIXO:** durante TODO o bloco de dúvidas/fechamento o slide da oferta fica na tela; volta a ele entre cada resposta. **Na hora da decisão, tira a câmera** ("sai o vendedor, fica a oferta").
 - **A quebra de objeção em escada (uma por vez, perto do CTA):** *"'Não tenho audiência', não precisa, converte fundo o pouco que chega. 'Não tenho tempo', é por isso mesmo. 'Não sei se funciona pra mim', você sentiu funcionar em você nessa última hora. 'Já comprei e não apliquei', porque aquilo te deu tarefa, esse aqui te dá MENOS o que fazer."*
 - **O pré-inóculo do sabotador:** *"Você vai contar pra alguém e essa pessoa vai falar 'lá vem você com mais um curso da internet'. Mas essa pessoa também tava do teu lado em cada solução que ADICIONOU trabalho. Não deixa quem nunca montou nada decidir por você."*
-- **A escassez como INTERFACE (do gestão ágil):** botão + contador de vagas; *"quando você clicar, o sistema identifica: 'parabéns, você está entre os 15 primeiros'."* + contagem narrada ao vivo + **rede pra quem perde** (*"não se preocupe se não ficar entre os 15, a oferta deste link já é gritante"*, escassez sem matar a fila).
+- **A escassez como INTERFACE (do programa de gestão):** botão + contador de vagas; *"quando você clicar, o sistema identifica: 'parabéns, você está entre os 15 primeiros'."* + contagem narrada ao vivo + **rede pra quem perde** (*"não se preocupe se não ficar entre os 15, a oferta deste link já é gritante"*, escassez sem matar a fila).
 - **Fechamento por IDENTIDADE (two-choices final):** *"No fundo a pergunta não é sobre webinário. É sobre que tipo de especialista você vai ser. O que se mata pra ser pago menos do que merece, ou o que organiza o que já sabe e é pago como merece. Existem 2 tipos de pessoas. Te vejo do outro lado."*
 - **Despedida no auge (máx 5s, sem "ah, mais uma coisa"),** desejando o bem de quem NÃO comprou: *"Te vejo do outro lado. Um abraço."*
 
@@ -241,7 +241,7 @@ Tela final roda ~5 min com oferta + mais um depoimento + botão. Recuperação p
 - A recapitulação da oferta inteira (lista, um por clique).
 - A escada de objeções (lista de 4–5, uma por vez).
 - Os 3 CTAs (lista: ganho / lógica / medo).
-- Prova = prints REAIS (no gestão ágil, a carteira de trabalho: zoom em R$17.856,72 / sócio Diretor R$23.583,25 / aluno R$2.500→14.000 = 460%).
+- Prova = prints REAIS (no programa de gestão, a carteira de trabalho: zoom em R$17.856,72 / sócio Diretor R$23.583,25 / aluno R$2.500→14.000 = 460%).
 
 ---
 
@@ -266,16 +266,16 @@ E o restante do código de slide:
 
 ## O QUE ESTÁ ERRADO no script atual (e a correção)
 
-> O framework hoje vigente nos clientes (`guilherme-reginatto-plano-webinar.md`, `guilherme-reginatto-script.md`, `natalia-fischer-plano-webinar.md`) usa um **"MOTOR DAS 3 VIRADAS"** dentro do Mecanismo. Ele tem mérito (cada virada roda uma batida de 4 tempos, isso bate com a doutrina), mas como ESTRUTURA do Mecanismo ele é uma invenção que não existe no material do Léo e precisa ser substituído. Os quatro erros:
+> O framework hoje vigente nos clientes (planos de webinar de clientes reais, internos) usa um **"MOTOR DAS 3 VIRADAS"** dentro do Mecanismo. Ele tem mérito (cada virada roda uma batida de 4 tempos, isso bate com a doutrina), mas como ESTRUTURA do Mecanismo ele é uma invenção que não existe no material do autor do método e precisa ser substituído. Os quatro erros:
 
 ### ERRO 1 · As "3 viradas" como espinha do Mecanismo
 **O que tem:** o Mecanismo é organizado como exatamente 3 viradas (3 crenças invertidas), com a régua dura *"nunca mais de 3 viradas"*. A profundidade da aula vira "virar 3 crenças".
-**Por que está errado:** o Mecanismo real do Léo NÃO é "inverter 3 crenças". É uma sequência rica e fixa: **nova oportunidade → estreia do nome do veículo → as 4 condições (fundamento) → tabela/​~12 provas de superioridade → head-to-heads → batismo da RP + cobre→ouro → prova-meta ("você é a prova") → Schwartz/neurociência → a IA como capacidade → os 3 passos → quadro-síntese → recap yes-ladder.** Comprimir isso em "3 viradas" joga fora a tabela comparativa, a pilha de superioridade, a prova-meta e o recap, que são o que faz o Mecanismo converter.
+**Por que está errado:** o Mecanismo real do autor do método NÃO é "inverter 3 crenças". É uma sequência rica e fixa: **nova oportunidade → estreia do nome do veículo → as 4 condições (fundamento) → tabela/​~12 provas de superioridade → head-to-heads → batismo da RP + cobre→ouro → prova-meta ("você é a prova") → Schwartz/neurociência → a IA como capacidade → os 3 passos → quadro-síntese → recap yes-ladder.** Comprimir isso em "3 viradas" joga fora a tabela comparativa, a pilha de superioridade, a prova-meta e o recap, que são o que faz o Mecanismo converter.
 **Correção:** trocar o cabeçalho `MOTOR DAS 3 VIRADAS` pela espinha **ADMA / Reorganização da Percepção** detalhada na Fase M acima. A batida de 4 tempos (o que é · por que · me prova · exemplo) **sobrevive**, mas como o jeito de ensinar CADA afirmação do Mecanismo, não como "3 viradas". O número de afirmações é o que o conteúdo pedir, não um teto de 3. As crenças a inverter viram munição DENTRO dessa sequência (ex.: a crença "é complicado de montar" é morta no beat da IA; "não tenho audiência" no fechamento), não a arquitetura dela.
 
 ### ERRO 2 · Falta a doutrina das LISTAS / dopamina por clique
 **O que falta:** o script não trata LISTA como unidade-base nem marca "um por clique". O Mecanismo das 3 viradas é prosa, não pilha.
-**Por que está errado:** a fala do Léo (e do gestão ágil) é construída em listas que entram animadas item a item, *"NUNCA a lista aberta"*. É o que gera a dopamina e segura a sala.
+**Por que está errado:** a fala do autor do método (e do programa de gestão) é construída em listas que entram animadas item a item, *"NUNCA a lista aberta"*. É o que gera a dopamina e segura a sala.
 **Correção:** reestruturar cada bloco em listas explícitas (anatomia/pulverização/autópsia no Diagnóstico; 4 condições/​superioridade/​3 passos no Mecanismo; stack no Oferta), cada item marcado para entrar **por clique**, valor/​pilha crescendo na tela. Adotar o checklist-que-volta (modelo das 5 expectativas).
 
 ### ERRO 3 · O DEPOIMENTO (pré-roll) ausente ou subdimensionado

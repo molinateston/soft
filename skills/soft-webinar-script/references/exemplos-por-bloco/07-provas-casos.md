@@ -1,6 +1,6 @@
 # Provas e casos (estudos de caso, depoimentos, demonstrações, números, persona-âncora)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
 
 ---
 
@@ -22,19 +22,19 @@ Este bloco transforma a promessa em fato verificável - e o mecanismo comum aos 
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165, avatar CLT querendo promoção
+### Webinar de gestão (8 dígitos) (operação-referência, ed. A - modelo-mestre 8 dígitos) - gestão corporativa, o programa de gestão (ed. 2) de R$3.000 por 12x R$165, avatar CLT querendo promoção
 
 **Trecho literal:**
 
 Prova de tendência (mídia de massa):
 
-> "métodos ágeis gestão ágil é um termo que tá em alta cara, tá tá na grande mídia. eu trouxe alum alguns prints só para vocês verem que isso aqui já tá nas notícias […] então ó na Globo no site da da G1 falando em métodos ágeis, revista vsa, Valor Econômico falando em gestão ágil, Revista Exame"
+> "métodos ágeis gestão é um termo que tá em alta cara, tá tá na grande mídia. eu trouxe alum alguns prints só para vocês verem que isso aqui já tá nas notícias […] então ó na Globo no site da da G1 falando em métodos ágeis, revista vsa, Valor Econômico falando em gestão, Revista Exame"
 
 Prova pessoal documentada (holerite do apresentador e do sócio):
 
 > "a meu último registro em carteira eu ganhava 17.000 CLT tá, eu trouxe aqui o print da minha carteira profissional para vocês, é um print é uma foto né que eu sou da época do do negócio físico ainda, eh eu ganhava R 17.850 né isso aqui no em carteira mais benefícios"
 
-> "esse aqui é o salário do meu sócio do Denis Pedro que também ganhava também era CLT como executivo, ganhava 23.000 registrado em carteira naquela época tá, de novo traz isso pros salários atuais, Dá Um bom salário né"
+> "esse aqui é o salário do meu sócio que também ganhava também era CLT como executivo, ganhava 23.000 registrado em carteira naquela época tá, de novo traz isso pros salários atuais, Dá Um bom salário né"
 
 Casos de alunos com números (antes/depois):
 
@@ -58,7 +58,7 @@ E pede o testemunho social do ato da compra em tempo real:
 
 ---
 
-### Gestão Ágil ed. 2.0 (MindMaster, host Denison) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
+### GA ed.2 (operação-referência) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
 
 **Trecho literal:**
 
@@ -72,29 +72,29 @@ Cases de alunos em rajada (números + documentos):
 > "Há um exemplo aqui do José Maurício, ele ganhou 60% de aumento depois que ele começou a fazer o curso. Hoje ele ganha mais de 13 mil reais, ele não era gestor, não era líder, ele acabou sendo promovido […] Outra aqui, Celso Júnior, teve 70% de aumento, recebeu várias propostas de emprego, e continua recebendo propostas de emprego depois disso. O Eero Tildes saiu de um salário de 9.500 para 19 mil reais […] Ele saiu de um salário de R$2.500 e hoje ele ganha R$14.000 depois do curso. Ele mandou aqui o print também pra gente da carteira de trabalho dele aqui. E da proposta de emprego que ele recebeu de R$14.000. Era 460% de aumento."
 
 Ancoragem do valor do conhecimento via consultoria:
-> "Quando eu prestava consultoria, para eu implementar os sete passos aqui da gestão ágil […] eu cobrava a partir de R$ 84 mil de consultoria. Esse era o ticket básico. Centenas de empresas pagaram por isso. O que isso significa? Que esse conhecimento vale muito"
+> "Quando eu prestava consultoria, para eu implementar os sete passos aqui da gestão […] eu cobrava a partir de R$ 84 mil de consultoria. Esse era o ticket básico. Centenas de empresas pagaram por isso. O que isso significa? Que esse conhecimento vale muito"
 
 Prova espontânea vinda do chat (ecoada na hora):
-> "O Wellington está mandando aqui: Uma amiga minha, coordenadora do Itaú, ganha mais de 28 mil reais. A gente tem muito aluno do Itaú, muito mesmo, porque o Itaú é um grande case de gestão ágil, tem 50 mil funcionários mais ou menos […] e a empresa inteira, o Itaú inteiro trabalha com gestão ágil"
+> "O Wellington está mandando aqui: Uma amiga minha, coordenadora do Itaú, ganha mais de 28 mil reais. A gente tem muito aluno do Itaú, muito mesmo, porque o Itaú é um grande case de gestão, tem 50 mil funcionários mais ou menos […] e a empresa inteira, o Itaú inteiro trabalha com gestão"
 
 Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
-> "Os nossos alunos que mais explodem na carreira são justamente os que estão aqui nessa categoria. São os que trabalham em alguma área ou em alguma empresa que ainda não tem gestão ágil. E aí começam a colocar esses conceitos lá dentro. Nossa, a pessoa se destaca de uma maneira que não tem como não ser promovida, não crescer. Vira gestor de referência"
+> "Os nossos alunos que mais explodem na carreira são justamente os que estão aqui nessa categoria. São os que trabalham em alguma área ou em alguma empresa que ainda não tem gestão. E aí começam a colocar esses conceitos lá dentro. Nossa, a pessoa se destaca de uma maneira que não tem como não ser promovida, não crescer. Vira gestor de referência"
 
 **O que ele fez:** (1) prova documental (foto da carteira, prints de proposta de emprego) em vez de só depoimento; (2) escada de provas: eu → sócio → alunos comuns → caso extremo (460%); (3) números não-redondos (23.583, 9.500→19.000, 2.500→14.000); (4) ancoragem B2B (consultoria de R$84 mil) plantada minutos antes do preço; (5) eco oportunista de prova vinda do chat (Wellington/Itaú) - comentário aleatório vira case institucional em 15 segundos; (6) persona-âncora que INVERTE a objeção: "minha área não usa ágil" vira o perfil de maior sucesso.
 
-**Por que funciona:** a moeda da promessa é salário, então a prova é em moeda literal - documentos com cifras, não adjetivos. A diversidade de perfis fecha a brecha do "mas na minha área não funciona". Nota da análise MindMaster (exemplos-vivos): esta edição ainda roda um pré-roll de ~6 depoimentos em vídeo SOB o countdown antes de o host aparecer - designer, doutor em agronomia desempregado, coordenador de embalagens, coach pós-demissão - cada um cobrindo uma objeção diferente; quem chega cedo (o lead mais quente) recebe 6 minutos de prova social involuntária: o webinar começa a vender antes de começar. E a análise registra a regra de produção: "foto-prova em vez de gráfico-prova" - quando o assunto é dinheiro e vivência, a tela mostra documento bruto e levemente feio; verossimilhança > estética.
+**Por que funciona:** a moeda da promessa é salário, então a prova é em moeda literal - documentos com cifras, não adjetivos. A diversidade de perfis fecha a brecha do "mas na minha área não funciona". Nota da análise operação-referência (exemplos-vivos): esta edição ainda roda um pré-roll de ~6 depoimentos em vídeo SOB o countdown antes de o host aparecer - designer, doutor em agronomia desempregado, coordenador de embalagens, coach pós-demissão - cada um cobrindo uma objeção diferente; quem chega cedo (o lead mais quente) recebe 6 minutos de prova social involuntária: o webinar começa a vender antes de começar. E a análise registra a regra de produção: "foto-prova em vez de gráfico-prova" - quando o assunto é dinheiro e vivência, a tela mostra documento bruto e levemente feio; verossimilhança > estética.
 
 **O que é decalcável vs do nicho:** decalcável: pré-roll de depoimentos sob countdown, escada eu→sócio→alunos→extremo, ancoragem por serviço caro já vendido, eco de prova do chat, persona-âncora que inverte a objeção. Do nicho: o Itaú como case e o crachá corporativo - autoridade institucional serve ao avatar CLT; o Soft prova por espelho de negócio de dono.
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
+### 5N (o estrategista da operação-referência) - o programa de gestão (ed. 2) de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
 
 **Trecho literal:**
 
 > (prova documental própria) "Eu não sei quanto estão os salários hoje em dia, quanto eu ganharia hoje. Vocês já viram, eu já estou há mais de 10 anos fora do mercado tradicional. […] Meu último registro em carteira, eu ganhava 17 mil CLT. Eu trouxe aqui o print da minha carteira profissional para vocês. É um print, é uma foto, porque eu sou da época do negócio físico ainda. Eu ganhava 17.850 reais. isso aqui em carteira, mais benefícios"
 
-> (prova do sócio - segunda âncora salarial) "esse aqui é o salário do meu sócio, do Denis Pedro que também ganhava, também era a série como executivo ele ganhava 23 mil registrado em carteira naquela época. De novo, traz isso para os salários atuais."
+> (prova do sócio - segunda âncora salarial) "esse aqui é o salário do meu sócio que também ganhava, também era a série como executivo ele ganhava 23 mil registrado em carteira naquela época. De novo, traz isso para os salários atuais."
 
 > (casos de alunos com números) "ganhou 60% de aumento, passou para 13 mil, esse aqui ganhou 70% de aumento, o Erodilde saiu de 9 mil para 19 mil reais de salário depois do curso, o Alessandro que saiu de 2.500 para 14 mil, e vir e mexe a gente recebe esses depoimentos."
 
@@ -106,13 +106,13 @@ Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
 
 **O que ele fez:** (1) prova documental com hedge honesto ("não sei quanto ganharia hoje" - e manda a sala corrigir pela inflação); (2) números específicos não-redondos (17.850, não "quase 18 mil"); (3) escada de casos cobrindo do executivo ao iniciante (Erodilde 9→19 mil, Alessandro 2.500→14 mil); (4) alunos reais no chat lidos em voz alta no momento exato do pitch (Ivesen aparece 3+ vezes na transcrição); (5) convocação ativa de depoimento com justificativa altruísta ("ajuda para quem está de fora"); (6) elogio espontâneo do chat reciclado na hora como prova do valor da própria aula.
 
-**Por que funciona:** a alegação central é salarial, então toda prova é salarial e documentada - coerência total entre promessa e evidência. E o depoimento lido do chat ao vivo vale mais que slide: a sala vê que é gente de verdade, agora, não print antigo. Nota da análise 5 Níveis (exemplos-vivos): nesta edição há ainda a prova circular elegante - o crescimento da PRÓPRIA MindMaster como termômetro do mercado ("a gestão ágil está em franco crescimento. Por isso que a gente acaba crescendo junto") e a demo ao vivo da plataforma como prova de existência do produto; e a "Visão de Floresta" (mecanismo da MindMaster) pauta o currículo do curso, fazendo a grade encarnar a tese vendida.
+**Por que funciona:** a alegação central é salarial, então toda prova é salarial e documentada - coerência total entre promessa e evidência. E o depoimento lido do chat ao vivo vale mais que slide: a sala vê que é gente de verdade, agora, não print antigo. Nota da análise 5N (exemplos-vivos): nesta edição há ainda a prova circular elegante - o crescimento da PRÓPRIA operação-referência como termômetro do mercado ("a gestão está em franco crescimento. Por isso que a gente acaba crescendo junto") e a demo ao vivo da plataforma como prova de existência do produto; e a "Visão de Floresta" (mecanismo da operação-referência) pauta o currículo do curso, fazendo a grade encarnar a tese vendida.
 
-**O que é decalcável vs do nicho:** decalcável: hedge honesto sobre o próprio número, convocação de depoimento ao vivo com motivo altruísta, demo da plataforma como prova de existência. Do nicho: a moeda salário-CLT e a prova por crachá; "Visão de Floresta" é mecanismo da MindMaster, não do Léo.
+**O que é decalcável vs do nicho:** decalcável: hedge honesto sobre o próprio número, convocação de depoimento ao vivo com motivo altruísta, demo da plataforma como prova de existência. Do nicho: a moeda salário-CLT e a prova por crachá; "Visão de Floresta" é mecanismo da operação-referência, não do autor do método.
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetura remota Brasil→EUA, R$7.355 → R$3.000 → R$2.500 com cupom, deadline 23:59
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - arquitetura remota Brasil→EUA, R$7.355 → R$3.000 → R$2.500 com cupom, deadline 23:59
 
 **Trecho literal:**
 
@@ -134,7 +134,7 @@ Karine Bastos (números de hora):
 
 Mariana (prova emocional - valorização, não dinheiro):
 
-> "ela falou: \"Ju, eu não sabia quando tinha sido a última vez que uma pessoa ou uma equipe tinha me agradecido por eu fazer parte e por e pelo meu trabalho ser reconhecido.\""
+> "ela falou: \"[host], eu não sabia quando tinha sido a última vez que uma pessoa ou uma equipe tinha me agradecido por eu fazer parte e por e pelo meu trabalho ser reconhecido.\""
 
 Ana Lúcia (expande o mercado pro Canadá):
 
@@ -152,27 +152,27 @@ Prova de mercado (vaga real, não depoimento):
 
 ---
 
-### Webinar Léo A (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - emagrecimento, galeria de antes/depois segmentada por avatar
+### Webinar de referência A (pele Soft aplicada: nutrição / o autor do case de nutrição) - emagrecimento, galeria de antes/depois segmentada por avatar
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o autor do case de nutrição)*
 
 > "assim como a f a Fernanda […] ela chegou a acreditar que ter sobrepeso era melhor do que viver esse estilo de vida, até conhecer uma dieta inteligente, até ver que o que ela tava fazendo não era falta de disciplina dela, era simplesmente modo de sobrevivência sendo ativado por uma dieta restritiva […] depois de uma dieta inteligente ela perdeu mais de 15 Kg ganhando massa muscular como vocês podem ver na foto"
 
 > "era o caso da Taí. taí, 34 anos: Sempre tentei fazer dieta mas ia na base de tirar tudo, comia e continuava com fome e sempre me dava compulsão por doce e isso ferrava tudo […] dieta inteligente: perdeu 11 kg ganhando massa muscular, Olha a coxa dela torneada"
 
-> "esse aqui é o Rafael. Rafael emagreceu mais de 50 kg. ele já tinha feito bariátrica antes, engordou de novo, e emagreceu mais de 50 kg em um ano com MDI"
+> "esse aqui é o Rafael. Rafael emagreceu mais de 50 kg. ele já tinha feito bariátrica antes, engordou de novo, e emagreceu mais de 50 kg em um ano com [PROGRAMA]"
 
 > "naara Rosendo, mãe de duas crianças, mora no Canadá. Olha o resultado dela: menos de 16 kg de gordura. Olha o abdômen. ela não tinha short, gente, a naar ela não tinha short, a primeira foto dela é de calça porque ela não tinha short"
 
-> "você tá vendo que a Juliana ela não era, não tinha um sobrepeso enorme […] ela não precisava emagrecer ficar magra para caramba porque nem era isso que ela queria, ela só queria Sec e definir"
+> "você tá vendo que a autora do case de arquitetura ela não era, não tinha um sobrepeso enorme […] ela não precisava emagrecer ficar magra para caramba porque nem era isso que ela queria, ela só queria Sec e definir"
 
 > "Renato. Renato só tinha barriguinha também, barriguinha de shope. ele não parou de beber o chope dele, não, tá, para chegar nessa segunda foto aí, não parou, ele só aprendeu a administrar"
 
-> *(feedback Laura, lido na tela)* "Vitor, era doce de leite que me faltava […] fora que olha o orgulho: conquistei a minha primeira barra, primeira barra fixa"
+> *(feedback Laura, lido na tela)* "o autor do case de nutrição, era doce de leite que me faltava […] fora que olha o orgulho: conquistei a minha primeira barra, primeira barra fixa"
 
 > *(feedback Vander, lido na tela)* "no início pensa, sabe que seria mais uma Fórmula Mágica dessas que o pessoal adora vender na internet, por isso estava bem desconfiado […] Ah para minha grata surpresa eu estava errado, mas muito errado mesmo […] desde que iniciei meu processo já se foram embora 6 kg de gordura mantendo totalmente a massa magra […] quer saber algumas coisas que eu que eu comi […] torresmo, salame, hambúrguer, pizza, arroz, feijão, Leite […] doce de leite, chocolate e por aí vai, tudo calculado"
 
-**O que ele fez:** (1) galeria de personas-âncora segmentada por sub-avatar ("sobrepeso e obesidade" → Rafael/Naara; "secar e definir" → Juliana; homem cervejeiro → Renato) - cada lead encontra seu espelho; (2) case re-explicado pelo mecanismo (Fernanda = modo sobrevivência → o case prova a teoria, não só o resultado, e descarrega a culpa da aluna); (3) detalhe físico-narrativo em vez de número seco ("ela não tinha short", "olha a coxa dela torneada"); (4) depoimento que encena a objeção e a mata (Vander: "estava bem desconfiado… eu estava errado"); (5) números sempre duplos (−gordura E +massa magra), casando exatamente com a promessa da headline; (6) a lista de comidas proibidas comidas (torresmo, pizza, doce de leite) como prova sensorial do mecanismo "sem restrição".
+**O que ele fez:** (1) galeria de personas-âncora segmentada por sub-avatar ("sobrepeso e obesidade" → Rafael/Naara; "secar e definir" → a autora do case de arquitetura; homem cervejeiro → Renato) - cada lead encontra seu espelho; (2) case re-explicado pelo mecanismo (Fernanda = modo sobrevivência → o case prova a teoria, não só o resultado, e descarrega a culpa da aluna); (3) detalhe físico-narrativo em vez de número seco ("ela não tinha short", "olha a coxa dela torneada"); (4) depoimento que encena a objeção e a mata (Vander: "estava bem desconfiado… eu estava errado"); (5) números sempre duplos (−gordura E +massa magra), casando exatamente com a promessa da headline; (6) a lista de comidas proibidas comidas (torresmo, pizza, doce de leite) como prova sensorial do mecanismo "sem restrição".
 
 **Por que funciona:** prova segmentada elimina o "mas eu sou diferente". Quando o case carrega o mecanismo, ele vende a crença (e não sorte individual). O cético convertido (Vander) é a objeção-mãe respondida por um terceiro - o vendedor não precisa se defender.
 
@@ -180,7 +180,7 @@ Prova de mercado (vaga real, não depoimento):
 
 ---
 
-### Webinar Léo C ("Resina Anterior / Método One 2.0", voz Bruno, dentista) - odonto, 12.000 → 3.000 → R$1.997, 10 vagas; depoimentos DEPOIS do CTA
+### Webinar de referência C (voz o autor do case de odontologia, dentista) - odonto, 12.000 → 3.000 → R$1.997, 10 vagas; depoimentos DEPOIS do CTA
 
 **Trecho literal:**
 
@@ -188,10 +188,10 @@ Caso-demonstração da tese (resina = cerâmica):
 > "galera, olha para esse caso Inicial, olha para esse caso final. Esse caso que vocês estão vendo aqui perde em alguma coisa para restauração cerâmica? Me responde, fala comigo […] não perde, não perde mesmo. Porque que não perde? Porque eu me preparei para entregar esteticamente um resultado em resina tão bom quanto eu entrego em cerâmica"
 
 Caso do sorriso misto (prova de indistinguibilidade):
-> "alguns dentes são dentes rígidos naturais, não tem restauração, alguns são resina totalmente 100% feita em resina, outros são resina apenas uma parte e outros são cerâmica. Bruno, pera aí, é sério? Tem tudo esses caras? Tem tudo isso galera. […] Dente 11 […] 21 resina, 12:22 é cerâmica […] tem diferença no resultado estético? Na mão de quem domina o material não tem diferença"
+> "alguns dentes são dentes rígidos naturais, não tem restauração, alguns são resina totalmente 100% feita em resina, outros são resina apenas uma parte e outros são cerâmica. o autor do case de odontologia, pera aí, é sério? Tem tudo esses caras? Tem tudo isso galera. […] Dente 11 […] 21 resina, 12:22 é cerâmica […] tem diferença no resultado estético? Na mão de quem domina o material não tem diferença"
 
-Casos de alunos (antecipando o "mas é você fazendo, Bruno"):
-> "Mas é você Bruno fazendo - você tá pensando isso. Eu quero saber se os seus alunos conseguem fazer isso […] galera, de ontem para hoje eu comecei a selecionar a casa dos meus alunos, o país inteiro, eu enchi dois slides com vários casos, sem repetir casos tá, sem repetir"
+Casos de alunos (antecipando o "mas é você fazendo, o autor do case de odontologia"):
+> "Mas é você o autor do case de odontologia fazendo - você tá pensando isso. Eu quero saber se os seus alunos conseguem fazer isso […] galera, de ontem para hoje eu comecei a selecionar a casa dos meus alunos, o país inteiro, eu enchi dois slides com vários casos, sem repetir casos tá, sem repetir"
 
 Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 > "eu já tive mais de 4 mil alunos"
@@ -200,9 +200,9 @@ Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 
 > "resultado são os alunos por aí galera, tudo resultado de cada um de uma região, ó: Thiago Arruda lá de Porto Velho, Heloísa lá de flores Recife […] o Mateus lá de Recife, a Gabi lá de Sinop, a Fernanda Wenceslau lá de Aracaju, ali a Bezerra lá de Fortaleza, o Randal lá de Curitiba"
 
-> "a espátula é show, tem uma coleção de espátula mas hoje praticamente só uso a do método One […] essa pessoa que a Rose, é uma dentista de BH, trabalha altíssimo nível"
+> "a espátula é show, tem uma coleção de espátula mas hoje praticamente só uso a do método do case de odonto […] essa pessoa que a Rose, é uma dentista de BH, trabalha altíssimo nível"
 
-**O que ele fez:** (1) demonstração com pergunta de adesão ("perde em alguma coisa? me responde") - a plateia declara a prova, ele não afirma; (2) caso misto resina/cerâmica/dente natural = teste cego de indistinguibilidade que o espectador faz sozinho; (3) verbaliza a objeção antes da prova ("Mas é você Bruno fazendo - você tá pensando isso") e responde com 2 slides de casos de alunos; (4) depoimentos com NOME + CIDADE espelhando o roll call geográfico da abertura ("funciona na sua região"); (5) persona-âncora improvável (31 anos de formada = "não é tarde para mim"); (6) prova social exibida DURANTE o carrinho aberto, não antes, com espontaneidade encenada ("não tava no Script aqui mas você merece ver isso").
+**O que ele fez:** (1) demonstração com pergunta de adesão ("perde em alguma coisa? me responde") - a plateia declara a prova, ele não afirma; (2) caso misto resina/cerâmica/dente natural = teste cego de indistinguibilidade que o espectador faz sozinho; (3) verbaliza a objeção antes da prova ("Mas é você o autor do case de odontologia fazendo - você tá pensando isso") e responde com 2 slides de casos de alunos; (4) depoimentos com NOME + CIDADE espelhando o roll call geográfico da abertura ("funciona na sua região"); (5) persona-âncora improvável (31 anos de formada = "não é tarde para mim"); (6) prova social exibida DURANTE o carrinho aberto, não antes, com espontaneidade encenada ("não tava no Script aqui mas você merece ver isso").
 
 **Por que funciona:** a sequência de prova segue a ordem das dúvidas: o material presta? (caso misto) → ALUNOS conseguem? (2 slides) → gente COMO EU consegue? (nome+cidade+idade). Guardar depoimentos para depois do CTA mantém quem hesitou dentro da sala recebendo razões enquanto o timer das 10 vagas corre.
 
@@ -210,17 +210,17 @@ Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 
 ---
 
-### GAIA2k ("Gestão Ágil na Era da IA", Denison Vieira / MindMaster) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
+### GA ed.1 ("o programa de gestão com IA", o estrategista da operação-referência) - a formação de gestão (ed. 2), R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
 
 **Trecho literal:**
 
 Prova de mainstream (mídia + dado de mercado):
 > "Então, aqui, por exemplo, no site da Globo.com, G1, métodos AGS, como pode ajudar o seu crescimento da sua empresa, na VocSA, no valor econômico, métodos áreas avançam nas empresas. Reportagem no exame, na CIO, capa da revista."
 
-> "É uma reportagem de 2025, mas naquela época, em 2025, mais de 70% das empresas já adotavam gestão ágil no Brasil. 70% das empresas. […] Cara, mais de 70% do mercado de trabalho brasileiro já usa isso. Quem está desatualizado para isso aqui, esquece, já está fora do mercado."
+> "É uma reportagem de 2025, mas naquela época, em 2025, mais de 70% das empresas já adotavam gestão no Brasil. 70% das empresas. […] Cara, mais de 70% do mercado de trabalho brasileiro já usa isso. Quem está desatualizado para isso aqui, esquece, já está fora do mercado."
 
 Prova de primeira pessoa (o contracheque):
-> "Esse é o meu último registro em carteira, CLT. Há mais de 10 anos atrás, com esse conhecimento. Eu ganhava ali arredondando aqui 17.800, 18 mil reais. Isso há mais de 10 anos, né? […] Coloque a inflação nisso aqui. Eu nem sei que valor que dá hoje. Daria um salário de 40 mil, sei lá, talvez, 40, 50 mil, não sei. Meu sócio, Denis Pedro, a mesma coisa, tá? Nessa mesma época, ele ganhava 23 mil."
+> "Esse é o meu último registro em carteira, CLT. Há mais de 10 anos atrás, com esse conhecimento. Eu ganhava ali arredondando aqui 17.800, 18 mil reais. Isso há mais de 10 anos, né? […] Coloque a inflação nisso aqui. Eu nem sei que valor que dá hoje. Daria um salário de 40 mil, sei lá, talvez, 40, 50 mil, não sei. Meu sócio, a mesma coisa, tá? Nessa mesma época, ele ganhava 23 mil."
 
 Prova de terceiros (casos de alunos, com nome e número):
 > "E tem exemplos de alunos nossos, o José Maurício, que ganhou 60% de aumento, passou para 13 mil, ele ganhava um pouquinho. Adquiru esse conhecimento foi lá para 13 mil. O Celsius Júnior, 70% de aumento. Herotildes, foi para R$ 19 mil de salário. O Lessandro, faltou o nome dele aqui, ele teve um aumento aqui de 2.500 para 14 mil reais de salário."
@@ -232,9 +232,9 @@ Prova social da comunidade:
 > "Muitas trocas de empregos acontecem aqui, vagas. São divulgadas aqui. Então, aqui é só prints da comunidade para você ver."
 
 Prova de demanda de mercado (a própria consultoria como termômetro):
-> "OKR hoje, a consultoria da Mindmaster, nós somos. O que a gente é mais contratado hoje em dia é para implementar o KR. […] Eu sei porque a gente está sendo contratado para ajudar as empresas nisso. Porque as empresas estão tudo perdidas com isso aqui."
+> "OKR hoje, a consultoria da operação-referência, nós somos. O que a gente é mais contratado hoje em dia é para implementar o KR. […] Eu sei porque a gente está sendo contratado para ajudar as empresas nisso. Porque as empresas estão tudo perdidas com isso aqui."
 
-**O que ele fez:** (1) as mesmas quatro camadas do 13M: macro (mídia + 70% do mercado), pessoal (contracheque com correção de inflação falada na hora), terceiros (4 alunos com nome + salário), emprestada (d.school/Stanford ancorando um bônus); (2) a agenda da própria consultoria usada como prova de demanda ("eu sei porque a gente está sendo contratado"); (3) prints da comunidade como prova de efeito de rede (vagas trocadas entre alunos); (4) cada promessa numérica da abertura (3–5x salarial, faixa R$20k+) recebe lastro com rosto e número na hora do pitch.
+**O que ele fez:** (1) as mesmas quatro camadas do caso de 8 dígitos: macro (mídia + 70% do mercado), pessoal (contracheque com correção de inflação falada na hora), terceiros (4 alunos com nome + salário), emprestada (d.school/Stanford ancorando um bônus); (2) a agenda da própria consultoria usada como prova de demanda ("eu sei porque a gente está sendo contratado"); (3) prints da comunidade como prova de efeito de rede (vagas trocadas entre alunos); (4) cada promessa numérica da abertura (3–5x salarial, faixa R$20k+) recebe lastro com rosto e número na hora do pitch.
 
 **Por que funciona:** o contracheque prova ao mesmo tempo a autoridade (ele viveu aquilo) e o teto da promessa (o aluno pode chegar lá). A edição confirma a modularidade da máquina: trocou-se a onda (VUCA → IA) e as provas de salário/aluno permaneceram idênticas - prova boa sobrevive à troca de tema; o que envelhece é a manchete, não a escada.
 
@@ -326,8 +326,8 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 6. **Artefato bruto na tela** (carteira de trabalho, print de proposta, vaga do LinkedIn, foto sem produção). Documento levemente feio > slide bonito: verossimilhança acima de estética.
 7. **O case carrega o mecanismo:** o resultado é re-explicado pela tese do webinar (Fernanda = modo sobrevivência; Maddie = tirar da cabeça), nunca atribuído a talento ou sorte.
 8. **Prova colhida ao vivo do chat e amplificada na hora** (Wellington/Itaú, Ivesen, texto do Mike) - e compra anunciada publicamente vira prova de manada. No perpétuo, isso é engenharia de simulação.
-9. **Prova distribuída, não em bloco único:** pré-início (loop de depoimentos sob countdown), dentro do conteúdo, no pitch (colada ao item/bônus que valida) e até DEPOIS do CTA (sustain do carrinho - Léo C).
-10. **Objeção verbalizada antes da prova** ("Mas é você Bruno fazendo - você tá pensando isso") e **cético convertido** como porta-voz dela (Vander) - o vendedor nunca se defende sozinho.
+9. **Prova distribuída, não em bloco único:** pré-início (loop de depoimentos sob countdown), dentro do conteúdo, no pitch (colada ao item/bônus que valida) e até DEPOIS do CTA (sustain do carrinho - webinar de referência C).
+10. **Objeção verbalizada antes da prova** ("Mas é você o autor do case de odontologia fazendo - você tá pensando isso") e **cético convertido** como porta-voz dela (Vander) - o vendedor nunca se defende sozinho.
 11. **Hedge honesto nos próprios números** ("eu chutaria… não tenho esse dado preciso"; "nem sei quanto daria hoje") - a modéstia pontual blinda o resto.
 12. **Pedido ativo de prova nova:** convocar alunos presentes a testemunhar ("coloca quanto você tá ganhando… ajuda quem está de fora").
 
@@ -340,17 +340,17 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 - **Prova que não responde objeção nenhuma do avatar** - case escolhido por ser impressionante, não por ser espelho.
 - **Número redondo, inflado e sem hedge** - os campeões usam cifras quebradas e admitem incerteza onde não têm o dado.
 - **Esconder a objeção em vez de encená-la** - o padrão vencedor é dizer em voz alta o que a plateia está pensando e só então provar o contrário.
-- **Para o Soft especificamente:** prova por crachá institucional (Toyota, Itaú, MBA) é a gramática MindMaster para avatar CLT - decalcá-la quebraria o método; o Soft prova por espelho de NEGÓCIO (caso de aluno-dono, agenda, contrato, cliente high-ticket falando), conforme a nota da análise MindMaster (exemplos-vivos): "qual é a 'carteira de trabalho' do nosso avatar? (extrato, agenda lotada, contrato assinado)".
-- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da MindMaster; "permission to succeed" é do modelo), nunca apresentá-las como criação própria.
+- **Para o Soft especificamente:** prova por crachá institucional (Toyota, Itaú, MBA) é a gramática operação-referência para avatar CLT - decalcá-la quebraria o método; o Soft prova por espelho de NEGÓCIO (caso de aluno-dono, agenda, contrato, cliente high-ticket falando), conforme a nota da análise operação-referência (exemplos-vivos): "qual é a 'carteira de trabalho' do nosso avatar? (extrato, agenda lotada, contrato assinado)".
+- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da operação-referência; "permission to succeed" é do modelo), nunca apresentá-las como criação própria.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus executam provas e casos - é, junto com a oferta, o bloco que nenhum campeão pula (vários pulam garantia: 13M, Gestão Ágil ed. 2.0 e Léo C não têm; nenhum pula prova). O que varia é a GEOGRAFIA do bloco, e a variação é instrutiva:
+**Nenhum.** Os 9 webinars do corpus executam provas e casos - é, junto com a oferta, o bloco que nenhum campeão pula (vários pulam garantia: caso de 8 dígitos, GA ed.2 e webinar de referência C não têm; nenhum pula prova). O que varia é a GEOGRAFIA do bloco, e a variação é instrutiva:
 
-- **Espalhado com pico no pitch** (13M, 5 Níveis, GAIA2k): mídia cedo, holerite e alunos na hora da oferta.
-- **Sanduíche** (Aluna 80k, Léo A): depoimento em vídeo abre E fecha a gravação - assinatura de sala perpétua com pre-roll em loop.
-- **Pré-roll sob countdown** (Gestão Ágil ed. 2.0): a prova começa antes do host aparecer.
-- **Pós-CTA como sustain** (Léo C): a rajada principal de depoimentos vem com o carrinho já aberto, alimentando quem hesita enquanto as vagas caem.
+- **Espalhado com pico no pitch** (caso de 8 dígitos, 5N, GA ed.1): mídia cedo, holerite e alunos na hora da oferta.
+- **Sanduíche** (o case de arquitetura, webinar de referência A): depoimento em vídeo abre E fecha a gravação - assinatura de sala perpétua com pre-roll em loop.
+- **Pré-roll sob countdown** (GA ed.2): a prova começa antes do host aparecer.
+- **Pós-CTA como sustain** (webinar de referência C): a rajada principal de depoimentos vem com o carrinho já aberto, alimentando quem hesita enquanto as vagas caem.
 - **Colada item a item da oferta** (webinar de referência #1): cada bônus chega com seu próprio depoimento validador.
 
 A premissa que isso revela: prova não é um capítulo, é uma corrente contínua - a decisão de design não é "se", nem "quanto", e sim ONDE cada peça de prova rende mais.

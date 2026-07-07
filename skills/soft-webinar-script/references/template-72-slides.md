@@ -31,7 +31,7 @@ Esta reference é o **esqueleto slide a slide** do webinário: os **72 beats, na
 
 Por que a ordem é lei (M4): cada beat deixa o lead num estado de consciência que é **pré-condição física** do beat seguinte, o micro-sim do slide 3 prepara o "EU QUERO" do 29, que prepara a permissão do 30, que prepara a oferta do 35+. Pular ou reordenar beats não "enxuga" o webinário: quebra a cadeia causal e a oferta chega num lead frio (G6).
 
-> Prova de que o esqueleto é máquina, não improviso: no corpus, **o pré-início, a abertura e a transição da MindMaster aparecem VERBATIM em edições diferentes, com hosts diferentes** (13M e 5 Níveis abrem lendo os MESMOS nomes, "Lilian, Caroline, Rodrigo, Ligia, Michel, Evelyn"). O beat é escrito UMA vez, bem, e roda em escala. É exatamente o que esta reference permite: gerar o esqueleto certo e preencher só o recheio.
+> Prova de que o esqueleto é máquina, não improviso: no corpus, **o pré-início, a abertura e a transição da operação-referência aparecem VERBATIM em edições diferentes, com hosts diferentes** (caso de 8 dígitos e 5N abrem lendo os MESMOS nomes, "Lilian, Caroline, Rodrigo, Ligia, Michel, Evelyn"). O beat é escrito UMA vez, bem, e roda em escala. É exatamente o que esta reference permite: gerar o esqueleto certo e preencher só o recheio.
 
 ### Como ler cada beat (a anatomia que se repete nos 72)
 
@@ -61,18 +61,18 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S1: Cronômetro de 5 min + depoimentos rodando em loop.**
   - *Função:* prova social passiva enquanto a sala enche; tempo morto vira pré-venda.
   - *TELA:* contador "Começamos em 4:32" + vídeos de depoimento em loop. *NOTA:* (vazia ou cumprimento solto, o apresentador ainda não entrou).
-  - *EXEMPLO (gestão/MindMaster ed.2.0, → bloco 01):* o loop roda dois alunos ANTES do host aparecer, uma designer ("eu conhecia Scrum, mas não sabia como começar… por meio de um webinar conheci a Mindmaster… não deixe pra depois") e um agrônomo ("estava desempregado na pandemia… em uma semana sete empresas do exterior me contataram"). Escolha depoimentos que JÁ CONTAM a tese: dor → método → resultado nomeado. *Porquê:* quem entra cedo marina em prova antes de ouvir uma palavra de venda.
+  - *EXEMPLO (gestão/GA ed.2, → bloco 01):* o loop roda dois alunos ANTES do host aparecer, uma designer ("eu conhecia Scrum, mas não sabia como começar… por meio de um webinar conheci a operação-referência… não deixe pra depois") e um agrônomo ("estava desempregado na pandemia… em uma semana sete empresas do exterior me contataram"). Escolha depoimentos que JÁ CONTAM a tese: dor → método → resultado nomeado. *Porquê:* quem entra cedo marina em prova antes de ouvir uma palavra de venda.
   - *Slot Soft:* se o nicho NÃO tem banco de depoimentos em vídeo, não force, use cronômetro + capa da promessa; o loop é decisão de design, não obrigatório.
 
 - **S2: "Sejam todos(as) bem-vindos(as)".**
   - *Função:* recepção humana, sinaliza que é ao vivo (ou "online, que legal" se gravado, cap08, o efeito de presença vem da condução, não da palavra "ao vivo").
   - *TELA:* "Bem-vindos!" + nome do evento. *NOTA:* saudação + check técnico como primeiro micro-compromisso.
-  - *EXEMPLO (gestão/5 Níveis, → bloco 01):* "Coloca nos comentários aqui pra eu saber se está tudo bem, se está tudo funcionando. **Se ninguém colocar, eu não vou saber.** Ah, Lilian, perfeitamente. Caroline, Rodrigo, ouvindo." *Porquê:* o check de áudio é o "sim" mais barato da noite (custa zero responder "tá funcionando") e instala o padrão de que o chat responde ao host.
+  - *EXEMPLO (gestão/5N, → bloco 01):* "Coloca nos comentários aqui pra eu saber se está tudo bem, se está tudo funcionando. **Se ninguém colocar, eu não vou saber.** Ah, Lilian, perfeitamente. Caroline, Rodrigo, ouvindo." *Porquê:* o check de áudio é o "sim" mais barato da noite (custa zero responder "tá funcionando") e instala o padrão de que o chat responde ao host.
 
 - **S3: "Comente seu nome e de onde está falando".**
   - *Função:* 1º micro-compromisso + sensação de sala cheia; o slide fica FIXO (cap08: quem chega atrasado bate o olho e já interage).
   - *TELA:* "Comente seu nome e de onde você fala 👇" (fixo). *NOTA:* o apresentador LÊ nomes em voz alta como recompensa instantânea.
-  - *EXEMPLO (gestão/13M, → bloco 01):* "Tô vendo aqui que a galera tá entrando… tem bastante gente, muito bom." Ler nomes nos primeiros 60s ensina que comentar gera reconhecimento. *Porquê:* quem digitou uma vez digita de novo, inclusive na hora do "sim eu quero".
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 01):* "Tô vendo aqui que a galera tá entrando… tem bastante gente, muito bom." Ler nomes nos primeiros 60s ensina que comentar gera reconhecimento. *Porquê:* quem digitou uma vez digita de novo, inclusive na hora do "sim eu quero".
 
 - **S4: "Como está hoje em relação ao seu problema?" + "quem sair não volta mais" + "posso começar?".**
   - *Função:* dor declarada pelo próprio lead (o "é exatamente isso" começa aqui), 1ª escassez de sala e o 2º micro-sim (autorização pra começar).
@@ -88,7 +88,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S5: Título da aula: "Como ter [PRINCIPAL BENEFÍCIO] em [X tempo] sem [MAIOR OBJEÇÃO]".**
   - *Função:* a promessa-mãe (slot por nicho); o destino. cap08: vai GRANDE, com imagem forte, domina a tela.
   - *TELA:* o título, enorme, sobre imagem do estado-depois. *NOTA:* o apresentador anuncia o tema e jura cumprir.
-  - *EXEMPLO (gestão/13M):* "Como organizar seus projetos com gestão ágil e se tornar uma referência em gestão na sua área… essa é a grande promessa da aula de hoje e **eu vou cumpri-la com certeza**." O juramento cria critério de sucesso que ele dá baixa no recap (S26).
+  - *EXEMPLO (gestão/caso de 8 dígitos):* "Como organizar seus projetos com programa de gestão e se tornar uma referência em gestão na sua área… essa é a grande promessa da aula de hoje e **eu vou cumpri-la com certeza**." O juramento cria critério de sucesso que ele dá baixa no recap (S26).
   - *Molde Soft preenchido (EXEMPLO de nicho, odontologia/dentista, didático):* "Como lotar a agenda do seu consultório em 90 dias sem depender de convênio." → benefício = agenda cheia; tempo = 90 dias; objeção = "preciso aceitar convênio". *Slot:* o título real sai da pesquisa de avatar do nicho do usuário.
 
 - **S6: Fascinations: 3–5 bullets do que será visto.**
@@ -99,27 +99,27 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S7: "Pra quem serve": 3–5 avatares identificados PELA DIFICULDADE.**
   - *Função:* o lead se reconhece e baixa a guarda.
   - *TELA:* 3–5 perfis ("Pra você que…"). *NOTA:* descreve cada perfil pela dor, não pela demografia.
-  - *EXEMPLO (molde, nutrição, pele Soft/Vítor, → blocos 02/04):* "Pra você que já fez 5 dietas e recuperou tudo; pra você que treina e não muda; pra você que vive de segunda a segunda começando 'na segunda'." *Porquê:* identificação pela dificuldade ("eu já fiz 5 dietas") é mais forte que por categoria ("mulheres de 30-40"), o lead se vê no espelho.
+  - *EXEMPLO (molde, nutrição, pele Soft/o autor do case de nutrição, → blocos 02/04):* "Pra você que já fez 5 dietas e recuperou tudo; pra você que treina e não muda; pra você que vive de segunda a segunda começando 'na segunda'." *Porquê:* identificação pela dificuldade ("eu já fiz 5 dietas") é mais forte que por categoria ("mulheres de 30-40"), o lead se vê no espelho.
 
 - **S8: Presentes pra quem ficar até o final (3–5 + presente-surpresa).**
   - *Função:* gancho de retenção concreto, razão racional pra atravessar o pitch inteiro. O loop fecha em S64/escassez.
   - *TELA:* lista de presentes, com o último marcado "SURPRESA". *NOTA:* promete sem revelar.
-  - *EXEMPLO (gestão/5 Níveis):* "Vai ter presente só para os guerreiros e as guerreiras que ficam até o fim… **eu não vou falar o que é**, porque eu quero realmente que vocês fiquem até o final." *Porquê:* o presente-mistério cria custo de saída crescente, quem investiu 1h não sai a 10 min do prêmio, e o "final" é exatamente onde mora o pitch.
+  - *EXEMPLO (gestão/5N):* "Vai ter presente só para os guerreiros e as guerreiras que ficam até o fim… **eu não vou falar o que é**, porque eu quero realmente que vocês fiquem até o final." *Porquê:* o presente-mistério cria custo de saída crescente, quem investiu 1h não sai a 10 min do prêmio, e o "final" é exatamente onde mora o pitch.
 
 - **S9: "Nos próximos 60 minutos preciso da sua atenção total. Posso contar?".**
   - *Função:* contrato explícito de tempo e foco; mais um micro-sim.
   - *TELA:* "Posso contar com sua atenção pelos próximos 60 min?". *NOTA:* pede o compromisso e (se houver) avisa que não responde 1:1.
-  - *EXEMPLO (gestão/GA 2.0):* "Vamos todo mundo interagir junto. Beleza?" + a regra honesta: "tem muita gente, eu não vou conseguir responder individualmente… mas a equipe está monitorando." *Porquê:* libera o host de responder todos SEM esfriar a sala (a equipe cobre) e formaliza o contrato de interação.
+  - *EXEMPLO (gestão/o programa de gestão (ed. 2)):* "Vamos todo mundo interagir junto. Beleza?" + a regra honesta: "tem muita gente, eu não vou conseguir responder individualmente… mas a equipe está monitorando." *Porquê:* libera o host de responder todos SEM esfriar a sala (a equipe cobre) e formaliza o contrato de interação.
 
 - **S10: PROPOSIÇÃO ÚNICA: "te ensinar por que ___ é a oportunidade para conseguir ___ sem precisar ___ mesmo que ___".**
   - *Função:* a oferta inteira em UMA frase, a big idea operacionalizada (slot). É o gancho que o conteúdo vai provar.
   - *TELA:* a frase única, grifada. *NOTA:* o apresentador a declara devagar e manda registrar.
- - *EXEMPLO (gestão/13M, → bloco 05):* "tudo isso é possível aprendendo gestão ágil - **vamos grifar aqui: gestão ágil**." (a oportunidade = gestão ágil; o conseguir = ser valorizado; o sem = sem trocar de empresa; o mesmo que = mesmo sendo CLT). *Porquê:* a decisão de compra vira um sim/não sobre UMA frase só. *Slot:* o "por que ___" é o nome do mecanismo/big idea, `(nome Soft: a definir com a mentoria)`.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 05):* "tudo isso é possível aprendendo programa de gestão - **vamos grifar aqui: programa de gestão**." (a oportunidade = programa de gestão; o conseguir = ser valorizado; o sem = sem trocar de empresa; o mesmo que = mesmo sendo CLT). *Porquê:* a decisão de compra vira um sim/não sobre UMA frase só. *Slot:* o "por que ___" é o nome do mecanismo/big idea, `(nome Soft: a definir com a mentoria)`.
 
 - **S11: Mundo ideal: 4–5 "benefício sem objeção".**
   - *Função:* future pacing inicial, incentiva o sonho; cada cenário pede confirmação no chat.
   - *TELA:* 4–5 cenários do estado-depois (animados). *NOTA:* "Imagina você…" em série, com micro-isca de dor.
-  - *EXEMPLO (gestão/13M, → bloco 05):* "Imagina você ter domínio total do seu tempo… **quem aqui tem problema com gestão de tempo coloca aqui pra eu saber**… Imagina você liderar uma equipe engajada e autônoma… Imagine ter metas superadas." *Porquê:* o desejo é ensaiado ANTES da tese, e cada "imagina" confirmado no chat vira compromisso público, o querer fica auditado.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 05):* "Imagina você ter domínio total do seu tempo… **quem aqui tem problema com gestão de tempo coloca aqui pra eu saber**… Imagina você liderar uma equipe engajada e autônoma… Imagine ter metas superadas." *Porquê:* o desejo é ensaiado ANTES da tese, e cada "imagina" confirmado no chat vira compromisso público, o querer fica auditado.
 
 - **S12: Depoimento-relâmpago em print.**
   - *Função:* a transformação EXISTE, antes mesmo da autoridade. cap08: prova entra como IMAGEM (print real), grifa só a frase de impacto.
@@ -129,8 +129,8 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S13: "Quem sou eu": autoridade por resultados e credenciais, DEPOIS da promessa.**
   - *Função:* autoridade a serviço da promessa; ordem empresa→pessoa→cicatriz. cap08/corpus: **cicatriz antes do troféu**, e a cicatriz É o estado atual do avatar.
   - *TELA:* números (alunos, anos, mídia) + foto. *NOTA:* credenciais → cicatriz que espelha a dor da sala.
-  - *EXEMPLO (gestão/13M, → bloco 03):* "minha primeira posição de gestão foi em 2006 no Santander… deu tudo errado, quase perdi o emprego… eu era aquela frase: **perdemos um bom técnico e ganhamos um péssimo líder**. esse era eu." *Porquê:* a cicatriz idêntica ao perfil da sala (técnico promovido sem saber liderar) faz a autoridade dizer "eu fui você" em vez de distanciar.
-  - *Nota de máquina (→ bloco 03):* a MindMaster ainda **planta a âncora de preço aqui** ("o curso vale R$3.000, o MBA R$12.000") como fato neutro de catálogo, 90 min antes da oferta, assim a ancoragem do pitch parece informação, não manobra. *Slot Soft:* a cicatriz tem que ser de DONO de negócio, não de empregado.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 03):* "minha primeira posição de gestão foi em 2006 no Santander… deu tudo errado, quase perdi o emprego… eu era aquela frase: **perdemos um bom técnico e ganhamos um péssimo líder**. esse era eu." *Porquê:* a cicatriz idêntica ao perfil da sala (técnico promovido sem saber liderar) faz a autoridade dizer "eu fui você" em vez de distanciar.
+  - *Nota de máquina (→ bloco 03):* a operação-referência ainda **planta a âncora de preço aqui** ("o curso vale R$3.000, o MBA R$12.000") como fato neutro de catálogo, 90 min antes da oferta, assim a ancoragem do pitch parece informação, não manobra. *Slot Soft:* a cicatriz tem que ser de DONO de negócio, não de empregado.
 
 ## 3. PROBLEMA: slides 14–19 (primeiro o vácuo)
 
@@ -141,32 +141,32 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S14: O problema do mundo atual e suas consequências.**
   - *Função:* diagnóstico, em 3ª pessoa e concreto, com lastro.
   - *TELA:* a dor batizada (1 frase) + dado/pesquisa. *NOTA:* nomeia a dor com âncora memorável e pede confissão.
-  - *EXEMPLO (gestão/13M, → bloco 04):* "o que é síndrome do Fantástico? é quando começa a musiquinha do Fantástico… quem que tem é quem não gosta do trabalho, quem se sente mal na segunda-feira." + lastro: "a gente tem umas 880.000 respostas nessa pesquisa." *Porquê:* a dor com nome memorável gruda, e a pesquisa gigante transforma "papo de vendedor" em estatística. *Slot:* cada nicho batiza a própria dor (a "síndrome do Fantástico" é da MindMaster).
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 04):* "o que é síndrome do Fantástico? é quando começa a musiquinha do Fantástico… quem que tem é quem não gosta do trabalho, quem se sente mal na segunda-feira." + lastro: "a gente tem umas 880.000 respostas nessa pesquisa." *Porquê:* a dor com nome memorável gruda, e a pesquisa gigante transforma "papo de vendedor" em estatística. *Slot:* cada nicho batiza a própria dor (a "síndrome do Fantástico" é da operação-referência).
 
 - **S15: "E por que isso acontece?": causa raiz.**
   - *Função:* o modelo causal que torna a dor inteligível, e desloca a culpa pro mundo, não pro lead.
   - *TELA:* o vilão estrutural nomeado (sigla/gráfico). *NOTA:* explica a causa como força externa.
-  - *EXEMPLO (gestão/GA 2.0, → bloco 04):* "Por que todo mundo está adotando gestão ágil? Por causa de um negocinho chamado **VUCA**… volátil, incerto, complexo e ambíguo" + gráfico de Fogel. *Porquê:* nomear o vilão de sigla externaliza a culpa ("quem discorda, discorda da história da humanidade"); o gráfico tira a tese da boca do vendedor.
+  - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 04):* "Por que todo mundo está adotando programa de gestão? Por causa de um negocinho chamado **VUCA**… volátil, incerto, complexo e ambíguo" + gráfico de Fogel. *Porquê:* nomear o vilão de sigla externaliza a culpa ("quem discorda, discorda da história da humanidade"); o gráfico tira a tese da boca do vendedor.
 
 - **S16: Como as pessoas tentam resolver (as armadilhas) e por que acham que devem fazer assim.**
   - *Função:* demolição EMPÁTICA das alternativas, valida a tentativa antes de matá-la.
   - *TELA:* as 2–3 saídas falsas listadas. *NOTA:* "faz sentido você ter tentado isso, mas…".
- - *EXEMPLO (molde, nutrição, pele Soft/Vítor):* "todo mundo te mandou cortar carboidrato e malhar mais - e faz sentido, é o que ensinam. te venderam a **dieta burra**: restrição que joga seu corpo no modo sobrevivência." *Porquê:* a culpa vai pro método ("dieta burra"), não pra disciplina do lead, admitir a dor não custa ego. (nomes "dieta burra"/"modo sobrevivência" = Vítor Abrão.)
+ - *EXEMPLO (molde, nutrição, pele Soft/o autor do case de nutrição):* "todo mundo te mandou cortar carboidrato e malhar mais - e faz sentido, é o que ensinam. te venderam a **dieta burra**: restrição que joga seu corpo no modo sobrevivência." *Porquê:* a culpa vai pro método ("dieta burra"), não pra disciplina do lead, admitir a dor não custa ego. (nomes "dieta burra"/"modo sobrevivência" = o autor do case de nutrição.)
 
 - **S17: Por que isso não funciona.**
   - *Função:* fecha a porta das soluções velhas (sem isso, o lead sai achando que "só falta esforço").
   - *TELA:* 1 frase de sentença. *NOTA:* o mecanismo do fracasso da alternativa.
-  - *EXEMPLO (gestão/5 Níveis, → bloco 04):* "se você aprendeu métodos do passado, **joga fora. Não funciona.** Tem muitos gestores do passado perdidos hoje" + imagem de IA de um homem das cavernas usando Kanban. *Porquê:* ridiculariza o MÉTODO, nunca a pessoa da sala (a figura é de IA), fecha a porta sem humilhar.
+  - *EXEMPLO (gestão/5N, → bloco 04):* "se você aprendeu métodos do passado, **joga fora. Não funciona.** Tem muitos gestores do passado perdidos hoje" + imagem de IA de um homem das cavernas usando Kanban. *Porquê:* ridiculariza o MÉTODO, nunca a pessoa da sala (a figura é de IA), fecha a porta sem humilhar.
 
 - **S18: O que pode piorar se o problema não for resolvido.**
   - *Função:* a consequência que dói, custo da inação plantado cedo.
   - *TELA:* a cena do futuro ruim. *NOTA:* binariza o tempo (aprende ou fica pra trás).
-  - *EXEMPLO (gestão/GAIA, → bloco 04):* "Dois tipos de profissionais: os que se tornarão indispensáveis e os que vão ficar pra trás… nós estamos vivendo uma era que não tem meio termo. Ou você se atualiza, ou você fica pra trás." *Porquê:* a falsa dicotomia temporal converte a inação num custo concreto e iminente.
+  - *EXEMPLO (gestão/GA ed.1, → bloco 04):* "Dois tipos de profissionais: os que se tornarão indispensáveis e os que vão ficar pra trás… nós estamos vivendo uma era que não tem meio termo. Ou você se atualiza, ou você fica pra trás." *Porquê:* a falsa dicotomia temporal converte a inação num custo concreto e iminente.
 
 - **S19: "Por que isso nem é culpa delas" + inimigo em comum.**
   - *Função:* reposicionamento de culpa, o gatilho-mãe, alívio, gratidão e aliança "nós contra eles".
   - *TELA:* "A culpa não é sua." + o inimigo nomeado. *NOTA:* o pivô explícito de culpa, em ambiente seguro.
-  - *EXEMPLO (gestão/13M, → bloco 04):* "às vezes você tá ali porque não tem opção… tem boleto pra pagar, às vezes tem filhos… **o mundo mudou e vai continuar mudando**… quem é gestor do passado que tá perdido coloca nos comentários, não tem problema assumir não, **aqui é um ambiente seguro**." *Porquê:* validar o motivo de continuar preso (boleto, filhos) sem julgar + culpa no vilão externo = o lead admite a dor sem se sentir incapaz. *Slot:* o inimigo é nome próprio do nicho `(a definir com a mentoria)`.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 04):* "às vezes você tá ali porque não tem opção… tem boleto pra pagar, às vezes tem filhos… **o mundo mudou e vai continuar mudando**… quem é gestor do passado que tá perdido coloca nos comentários, não tem problema assumir não, **aqui é um ambiente seguro**." *Porquê:* validar o motivo de continuar preso (boleto, filhos) sem julgar + culpa no vilão externo = o lead admite a dor sem se sentir incapaz. *Slot:* o inimigo é nome próprio do nicho `(a definir com a mentoria)`.
 
 ## 4. SOLUÇÃO: slides 20–26 (crença antes da prescrição)
 
@@ -177,17 +177,17 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S20: O PORQUÊ da outra solução (contexto/fundamento).**
   - *Função:* a informação que torna a solução inteligível antes de qualquer prescrição.
   - *TELA:* a tese-contexto em 1 frase. *NOTA:* o fundamento, com promessa de prova aberta.
- - *EXEMPLO (gestão/GA 2.0, → bloco 05):* "Existe hoje uma clara oportunidade pra quem conhece gestão ágil… pra alguns é crise, pra você é oportunidade - **e eu vou provar aqui pra você**." *Porquê:* a promessa de prova ("vou provar") abre o loop que o bloco vai fechar, a aula inteira vira evidência.
+ - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 05):* "Existe hoje uma clara oportunidade pra quem conhece programa de gestão… pra alguns é crise, pra você é oportunidade - **e eu vou provar aqui pra você**." *Porquê:* a promessa de prova ("vou provar") abre o loop que o bloco vai fechar, a aula inteira vira evidência.
 
 - **S21: Provas do contexto.**
   - *Função:* evidência EXTERNA que valida o fundamento (não a sua opinião, fatos). cap08: prova = print real grifado.
   - *TELA:* colagem de prints de mídia/dado, frase grifada. *NOTA:* "não sou só eu falando isso".
-  - *EXEMPLO (gestão/GA 2.0, → bloco 05):* "se fala em gestão ágil no G1, na globo.com… notícia na Você S/A, no Valor Econômico, na Exame… olha essa capa da Você S/A." *Porquê:* manchete de mídia de massa terceiriza a prova, não é o vendedor dizendo que o mercado quer, é a Globo.
+  - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 05):* "se fala em programa de gestão no G1, na globo.com… notícia na Você S/A, no Valor Econômico, na Exame… olha essa capa da Você S/A." *Porquê:* manchete de mídia de massa terceiriza a prova, não é o vendedor dizendo que o mercado quer, é a Globo.
 
 - **S22: O QUÊ deve ser feito = MECANISMO ÚNICO (o que é / por que importa / me prova).**
   - *Função:* o mecanismo nomeado na voz do dono (M9), mata a comparação. O nome é SLOT.
   - *TELA:* o nome do mecanismo + 1 linha. *NOTA:* o que é, por que importa, a prova.
-  - *EXEMPLO (gestão/13M, → bloco 06):* o filtro 80/20 batizado de "**visão de floresta**": "qual é o Pareto dos métodos de gestão? esse 80/20 é o que eu chamo de visão de floresta… como já estou há muitos anos no mercado, eu sei qual é esse 80/20." *Porquê:* batizar o mecanismo o torna proprietário, vira ativo do dono, não commodity. *Slot crítico:* `(nome Soft: a definir com a mentoria)`, NUNCA inventar e atribuir como verdade. "Visão de floresta" é da MindMaster.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 06):* o filtro 80/20 batizado de "**visão de floresta**": "qual é o Pareto dos métodos de gestão? esse 80/20 é o que eu chamo de visão de floresta… como já estou há muitos anos no mercado, eu sei qual é esse 80/20." *Porquê:* batizar o mecanismo o torna proprietário, vira ativo do dono, não commodity. *Slot crítico:* `(nome Soft: a definir com a mentoria)`, NUNCA inventar e atribuir como verdade. "Visão de floresta" é da operação-referência.
 
 - **S23: Exemplo conectado à solução.**
   - *Função:* o mecanismo aterrissado no mundo do avatar.
@@ -197,17 +197,17 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S24: Como será a vida com o problema resolvido (argumento ou depoimento).**
   - *Função:* future pacing COM prova.
   - *TELA:* cena do estado-depois ou print de resultado. *NOTA:* projeta o depois e ancora numa prova.
-  - *EXEMPLO (gestão/13M, → bloco 07):* prova na MOEDA da promessa, não um número digitado, mas a **foto da carteira de trabalho** com zoom no salário (R$17.856,72) e o print do portal do governo (cargo de diretor, R$23.583,25). *Porquê:* prova na moeda do desejo (salário → carteira) é incontestável; documento bruto e feio > slide bonito.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 07):* prova na MOEDA da promessa, não um número digitado, mas a **foto da carteira de trabalho** com zoom no salário (R$17.856,72) e o print do portal do governo (cargo de diretor, R$23.583,25). *Porquê:* prova na moeda do desejo (salário → carteira) é incontestável; documento bruto e feio > slide bonito.
 
 - **S25: "Estão curtindo a aula de hoje?".**
   - *Função:* pulso de engajamento, micro-sim que mede e aquece; dá tempo do chat encher.
   - *TELA:* a pergunta. *NOTA:* colhe elogios e bebe uma água enquanto o chat responde.
-  - *EXEMPLO (gestão/13M, → bloco 08):* "eu fico falando falando, nem sei se vocês estão gostando… comenta aqui pra mim se tá curtindo a aula, **enquanto isso deixa eu tomar uma aguinha aqui**." *Porquê:* a colheita de elogios públicos aquece a sala e o "aguinha" é pausa natural de ao vivo que enche o chat.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 08):* "eu fico falando falando, nem sei se vocês estão gostando… comenta aqui pra mim se tá curtindo a aula, **enquanto isso deixa eu tomar uma aguinha aqui**." *Porquê:* a colheita de elogios públicos aquece a sala e o "aguinha" é pausa natural de ao vivo que enche o chat.
 
 - **S26: "O que aprendemos hoje": recap em lista.**
   - *Função:* yes-ladder que faz o lead confirmar que recebeu valor, reativa a sensação de dívida e fecha os loops abertos. Entra animado, item a item.
   - *TELA:* lista de aprendizados (1 por clique). *NOTA:* empilha o valor entregue.
-  - *EXEMPLO (gestão/13M, → bloco 06):* "olha só o que a gente já viu: quem é o executivo do futuro, que a gestão do passado não funciona, a importância da visão de floresta, vimos BSC, Scrum, Kanban, inteligência emocional… **vimos muita coisa hoje**." *Porquê:* o recap acumulativo cria a dívida ("recebi muito de graça") que faz a transição (S27+) parecer justa.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 06):* "olha só o que a gente já viu: quem é o executivo do futuro, que a gestão do passado não funciona, a importância da visão de floresta, vimos BSC, Scrum, Kanban, inteligência emocional… **vimos muita coisa hoje**." *Porquê:* o recap acumulativo cria a dívida ("recebi muito de graça") que faz a transição (S27+) parecer justa.
 
 ## 5. TRANSIÇÃO DE VENDA: slides 27–34 (a plateia pede a oferta)
 
@@ -223,27 +223,27 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S28: "Você realmente busca uma nova oportunidade para ___?".**
   - *Função:* micro-sim de desejo, reafirma NOVA oportunidade, não melhoria (M3).
   - *TELA:* a pergunta de desejo. *NOTA:* future pacing curto do que ele vai fazer com o resultado.
-  - *EXEMPLO (gestão/13M, → bloco 08):* "se você colocar em prática você vai ganhar mais… **o que você vai fazer com esse dinheiro a mais?** vai trocar de carro, ajudar a família? eu não sei, mas você vai ganhar mais." *Porquê:* o future pacing financeiro com perguntas concretas (carro/família) faz o lead ensaiar a vitória antes do veículo (produto) aparecer.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 08):* "se você colocar em prática você vai ganhar mais… **o que você vai fazer com esse dinheiro a mais?** vai trocar de carro, ajudar a família? eu não sei, mas você vai ganhar mais." *Porquê:* o future pacing financeiro com perguntas concretas (carro/família) faz o lead ensaiar a vitória antes do veículo (produto) aparecer.
 
 - **S29: "Digite EU QUERO no chat".**
   - *Função:* compromisso público em massa, a plateia declara que quer mudar.
   - *TELA:* "EU QUERO" gigante. *NOTA:* bateria de "sim eu quero" em aspectos diferentes do desejo + leitura do consenso.
-  - *EXEMPLO (gestão/13M, → bloco 08):* "escreve nos comentários: **sim eu quero**… quem quer aumentar seu reconhecimento profissional e conquistar uma posição executiva, escreve sim eu quero… tá vendo, todo mundo quer." *Porquê:* o lead se compromete por escrito várias vezes, recuar depois custa dissonância.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 08):* "escreve nos comentários: **sim eu quero**… quem quer aumentar seu reconhecimento profissional e conquistar uma posição executiva, escreve sim eu quero… tá vendo, todo mundo quer." *Porquê:* o lead se compromete por escrito várias vezes, recuar depois custa dissonância.
 
 - **S30: "Mais importante que saber O QUÊ é saber COMO colocar isso na sua vida" + "tudo bem se eu passar 10 minutos…?".**
   - *Função:* permissão explícita pra vender, o COMO mora no produto (M5).
   - *TELA:* "Saber ≠ Aplicar". *NOTA:* o argumento (não o pedido) de que conhecimento sem implementação não basta.
-  - *EXEMPLO (gestão/5 Níveis, → bloco 08):* "só pegar conhecimento por conhecimento, a única coisa que você ganha é o que eu chamo de **obesidade mental**. Não adianta ficar só aprendendo. Tem que saber o que eu faço com isso. E eu quero te ajudar nisso." *Porquê:* a venda vira favor, a oferta resolve a lacuna que a própria aula criou. *Slot:* cada nicho tem sua "obesidade mental" (variação possível: "saber ≠ aplicar"); "obesidade mental" é nome do Denison/MindMaster.
+  - *EXEMPLO (gestão/5N, → bloco 08):* "só pegar conhecimento por conhecimento, a única coisa que você ganha é o que eu chamo de **obesidade mental**. Não adianta ficar só aprendendo. Tem que saber o que eu faço com isso. E eu quero te ajudar nisso." *Porquê:* a venda vira favor, a oferta resolve a lacuna que a própria aula criou. *Slot:* cada nicho tem sua "obesidade mental" (variação possível: "saber ≠ aplicar"); "obesidade mental" é nome do estrategista da operação-referência.
 
 - **S31: "Quero te ajudar a…": desejos declarados intercalados com desejos ocultos.**
   - *Função:* fala ao que ele admite querer E ao que ele não admite querer.
   - *TELA:* lista de "Quero te ajudar a…" (animada). *NOTA:* intercala desejo confessável e desejo oculto.
- - *EXEMPLO (gestão/GA 2.0, → bloco 08):* "Quero te ajudar a ser mais reconhecido, a ser um líder admirado - **não só admirado pela equipe, mas cobiçado pelo mercado. Tem empresa disputando você a tapa.**" *Porquê:* "cobiçado/disputado a tapa" toca o desejo de status que o lead não verbaliza, mas sente.
+ - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 08):* "Quero te ajudar a ser mais reconhecido, a ser um líder admirado - **não só admirado pela equipe, mas cobiçado pelo mercado. Tem empresa disputando você a tapa.**" *Porquê:* "cobiçado/disputado a tapa" toca o desejo de status que o lead não verbaliza, mas sente.
 
 - **S32: Alavancagem pra oferta: por que o que ele realmente precisa está dentro de um produto.**
   - *Função:* a ponte lógica conteúdo→oferta.
   - *TELA:* "O caminho completo está aqui dentro." *NOTA:* conecta a lacuna (S30) ao produto.
-  - *EXEMPLO (gestão/GA 2.0, → bloco 08):* "essa semana a gente está com inscrições abertas pra uma nova turma do nosso curso Gestão Ágil 2.0", dito SÓ depois de "pra todo mundo que digitou sim eu quero". *Porquê:* o anúncio é endereçado a quem já se declarou comprador no chat; a oferta é consequência do sim, não interrupção.
+  - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 08):* "essa semana a gente está com inscrições abertas pra uma nova turma do nosso curso programa de gestão (ed. 2)", dito SÓ depois de "pra todo mundo que digitou sim eu quero". *Porquê:* o anúncio é endereçado a quem já se declarou comprador no chat; a oferta é consequência do sim, não interrupção.
 
 - **S33: "Inscrições abertas essa semana… não compre ainda".**
   - *Função:* takeaway que inverte a pressão e dispara reatância a favor.
@@ -264,18 +264,18 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 ### 6a. Produto & pertencimento: slides 35–43
 
 - **S35: Proposição única de VALOR do produto (o que é, em uma frase).**
- - *EXEMPLO (gestão/13M, → bloco 09):* "qual é a grande promessa desse curso: **domine a gestão ágil 2.0 e se torne um líder valioso em qualquer área, em 90 dias** - esse é o meu compromisso." *Porquê:* o "90 dias" grifado lá na abertura (S5) reaparece literal aqui, a oferta fecha o loop, parece desfecho.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* "qual é a grande promessa desse curso: **domine o programa de gestão (ed. 2) e se torne um líder valioso em qualquer área, em 90 dias** - esse é o meu compromisso." *Porquê:* o "90 dias" grifado lá na abertura (S5) reaparece literal aqui, a oferta fecha o loop, parece desfecho.
 
 - **S36: História do produto (plausibilidade).**
-  - *EXEMPLO (gestão/13M, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci o Denis, meu sócio… a gente fundou a Mind Master em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci o meu sócio… a gente fundou a operação-referência em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
 
 - **S37: "Por que isso é diferente de tudo que eu já vi?": mecanismo único DO PRODUTO.**
   - *Função:* mata a comparação e a commodity (M9). cap08/corpus: diferenciar contra a alternativa pelo DEFEITO dela.
- - *EXEMPLO (gestão/13M, → bloco 09):* "MBAs têm em média 360 horas… o pessoal por não saber o que fazer fica **enchendo de linguiça** - a gente fez uma formação de 3 meses, 64 horas, direto ao ponto." *Porquê:* a compressão é vendida como benefício, não como falta.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* "MBAs têm em média 360 horas… o pessoal por não saber o que fazer fica **enchendo de linguiça** - a gente fez uma formação de 3 meses, 64 horas, direto ao ponto." *Porquê:* a compressão é vendida como benefício, não como falta.
 
 - **S38: Os 2 caminhos, sozinho ou atalho.**
   - *Função:* a objeção-mãe ("eu conseguiria sozinho") tratada por ESCOLHA, concedendo a competência (M2).
-  - *EXEMPLO (gestão/13M, → bloco 08):* "você tem dois caminhos: sair tentando aprender tudo sozinho, ou pegar um atalho com a minha experiência. **nada contra quem quer ir sozinho**, mas… eu quero ser seu mentor." *Porquê:* concede a competência ("você conseguiria") e move pra escolha inteligente, ninguém escolhe o caminho solitário em público.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 08):* "você tem dois caminhos: sair tentando aprender tudo sozinho, ou pegar um atalho com a minha experiência. **nada contra quem quer ir sozinho**, mas… eu quero ser seu mentor." *Porquê:* concede a competência ("você conseguiria") e move pra escolha inteligente, ninguém escolhe o caminho solitário em público.
 
 - **S39: Pra quem NÃO é: exclusão que qualifica.**
   - *EXEMPLO (molde, nutrição):* "isso NÃO é pra quem quer pílula mágica, NÃO é pra quem não vai abrir o app uma vez por dia." *Porquê:* a exclusão quebra objeções por contraste e qualifica, quem fica se sente escolhido.
@@ -284,7 +284,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
   - *EXEMPLO (template + cap08):* perfis com FOTO de pessoas como o avatar (não ícones). *Porquê:* a pessoa se vê literalmente dentro do grupo; imagem > texto.
 
 - **S41: "Você será capaz de…": capacidades que o produto instala.**
-  - *EXEMPLO (gestão/GA 2.0, → bloco 08):* "você vai ser capaz de aumentar a produtividade sem sobrecarregar as pessoas, promover cultura ágil sem mudar radicalmente a empresa." *Porquê:* cada capacidade é "benefício sem objeção", entrega o sonho já desarmando a resistência.
+  - *EXEMPLO (gestão/o programa de gestão (ed. 2), → bloco 08):* "você vai ser capaz de aumentar a produtividade sem sobrecarregar as pessoas, promover cultura ágil sem mudar radicalmente a empresa." *Porquê:* cada capacidade é "benefício sem objeção", entrega o sonho já desarmando a resistência.
 
 - **S42: Problemas que o produto já resolveu: anos de estrada.**
   - *EXEMPLO (template):* "com tantos anos nesse meio, conheço todos os caminhos, os riscos que você deve evitar e os atalhos." *Porquê:* riscos mapeados + atalhos prontos = valor da experiência, não só do conteúdo.
@@ -295,37 +295,37 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 ### 6b. Ancoragem & stack: slides 44–56
 
 - **S44: "Quanto vale?": o preço normal, a 1ª âncora, SEMPRE antes de qualquer desconto (M8).**
- - *EXEMPLO (gestão/13M, → bloco 10):* "MBAs custam em média 15-20 mil… o Gestão Ágil não vai custar nem 20 nem mil reais. **o valor dele é R$3.000** - eu já tinha falado lá no começo." *Porquê:* a âncora externa (MBA) desqualificada + o valor próprio já plantado na autoridade fazem o preço chegar como fato, não manobra. (R$3.000 é EXEMPLO do template.)
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 10):* "MBAs custam em média 15-20 mil… o programa de gestão não vai custar nem 20 nem mil reais. **o valor dele é R$3.000** - eu já tinha falado lá no começo." *Porquê:* a âncora externa (MBA) desqualificada + o valor próprio já plantado na autoridade fazem o preço chegar como fato, não manobra. (R$3.000 é EXEMPLO do template.)
 
 - **S45: Benefícios comuns (acesso, suporte, certificado, fórum…): o chão da entrega.**
   - *EXEMPLO (template):* "30 horas de aulas, início imediato, 100% online, assista quantas vezes quiser, fórum de dúvidas, certificado, equipe de atendimento." *Porquê:* lista o que QUALQUER um esperaria, pra depois ser superado, é o chão que faz o resto parecer extra.
 
 - **S46: Jornada do programa: entregável + por que importa + print de prova (beat expansível).**
-  - *EXEMPLO (gestão/13M, → bloco 09):* cada módulo apresentado como "**um curso dentro do curso**", "é um curso de liderança dentro do Gestão Ágil 2.0." *Porquê:* multiplica o valor percebido; cada entregável fecha um buraco que a aula abriu. *Beat expansível:* "quantos slides precisar".
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* cada módulo apresentado como "**um curso dentro do curso**", "é um curso de liderança dentro do programa de gestão (ed. 2)." *Porquê:* multiplica o valor percebido; cada entregável fecha um buraco que a aula abriu. *Beat expansível:* "quantos slides precisar".
 
 - **S47: Módulos por PROMESSA + transformação + prova social, nunca por horas.**
-  - *EXEMPLO (gestão/13M, → bloco 09):* "o módulo 2 é onde eu entro a fundo em tudo que a gente viu nessa aula dos 5 níveis." *Porquê:* o módulo espelha 1:1 a aula, comprar parece continuar o que já começou, não iniciar algo desconhecido.
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* "o módulo 2 é onde eu entro a fundo em tudo que a gente viu nessa aula dos 5N." *Porquê:* o módulo espelha 1:1 a aula, comprar parece continuar o que já começou, não iniciar algo desconhecido.
 
 - **S48: Como você será acompanhado: o suporte (o que é / por que importa).**
-  - *EXEMPLO (molde, nutrição/Vítor, → bloco 11):* "você vai ter consultoria individual de acompanhamento", o suporte como item de valor próprio, mata a objeção "vou ficar sozinho". *Porquê:* nomear o suporte mata o medo de abandono.
+  - *EXEMPLO (molde, nutrição/o autor do case de nutrição, → bloco 11):* "você vai ter consultoria individual de acompanhamento", o suporte como item de valor próprio, mata a objeção "vou ficar sozinho". *Porquê:* nomear o suporte mata o medo de abandono.
 
 - **S49–S51, Produtos 2, 3 e 4 da prateleira: transformação + preço que custaria (beat ajustável).**
-  - *EXEMPLO (gestão/13M, → bloco 09):* "tem o OKR que a gente vende por R$1.497, o Design F por R$2.000…" cada um com preço declarado. *Porquê:* o stack empilha item a item, cada um com valor próprio, construindo a âncora interna. *Ajustável ao tamanho real da prateleira.*
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* "tem o OKR que a gente vende por R$1.497, o Design F por R$2.000…" cada um com preço declarado. *Porquê:* o stack empilha item a item, cada um com valor próprio, construindo a âncora interna. *Ajustável ao tamanho real da prateleira.*
 
 - **S52: Prateleira somada: "tudo isso custaria R$ X", o stack-nota-fiscal (entra animado, item a item).**
- - *EXEMPLO (gestão/13M, → bloco 10):* "Gestão Ágil R$3.000, acompanhamento R$9.000, OKR R$2.000, Design F R$2.000, OKR R$1.497 - **somando tudo daria mais de R$15.000**." cap08: o valor cresce na frente da pessoa, clique a clique. *Porquê:* empilhado ao vivo, vira uma escada de valor; mostrado de uma vez, era só uma conta.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 10):* "o programa de gestão R$3.000, acompanhamento R$9.000, OKR R$2.000, Design F R$2.000, OKR R$1.497 - **somando tudo daria mais de R$15.000**." cap08: o valor cresce na frente da pessoa, clique a clique. *Porquê:* empilhado ao vivo, vira uma escada de valor; mostrado de uma vez, era só uma conta.
 
 - **S53–S55, "10x esse valor valeria a pena pela transformação A / B / C?": três micro-sins de valor.**
   - *EXEMPLO (template):* "X10 valeria a pena pra você ter essa transformação A?" repetido pra B e C. *Porquê:* o lead confirma que vale ANTES de ver o preço real, quando o número cai, já está pré-aceito como bom negócio.
 
 - **S56: 1ª queda: "tudo de R$X por R$Y", primeiro degrau do desconto (nunca o último).**
   - *Função:* primeiro degrau com reason-why próprio (M8/G7).
- - *EXEMPLO (gestão/13M, → bloco 10):* "vai ter uma oferta exclusiva **pra quem ficou até o final** - de R$3.000 por R$1.997, R$1.000 de desconto." *Porquê:* o reason-why ("ficou até o final") preserva o valor do produto, só o acesso de quem está na sala fica privilegiado.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 10):* "vai ter uma oferta exclusiva **pra quem ficou até o final** - de R$3.000 por R$1.997, R$1.000 de desconto." *Porquê:* o reason-why ("ficou até o final") preserva o valor do produto, só o acesso de quem está na sala fica privilegiado.
 
 ### 6c. Bônus, garantia & queda final: slides 57–65
 
 - **S57: Bônus 1, "não tem preço": escapa da régua numérica (M8).**
-  - *EXEMPLO (gestão/13M, → bloco 09):* a mentoria quinzenal com reason-why de custo ANTES de ser doada: "a gente cobra essas mentorias R$9.100… custo do professor, custo de estar ali a cada 15 dias… **e pra essa turma vai ser bônus, de graça**." *Porquê:* o bônus precificado vira contabilidade (não retórica) e constrói a âncora que a queda final vai derrubar. (webinar de referência: bônus convertem mais que a oferta, merecem tempo de palco.)
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* a mentoria quinzenal com reason-why de custo ANTES de ser doada: "a gente cobra essas mentorias R$9.100… custo do professor, custo de estar ali a cada 15 dias… **e pra essa turma vai ser bônus, de graça**." *Porquê:* o bônus precificado vira contabilidade (não retórica) e constrói a âncora que a queda final vai derrubar. (webinar de referência: bônus convertem mais que a oferta, merecem tempo de palco.)
 
 - **S58: Bônus 2, "não tem preço": segundo empilhamento.**
  - *EXEMPLO (template):* "Bônus 2 - não tem preço." *Porquê:* "não tem preço" escapa da régua numérica, a palavra enquadra o valor (M8) onde o número limitaria.
@@ -342,13 +342,13 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
  - *EXEMPLO (template):* "esse é o nosso resultado - o que eu mais amo é receber os resultados de vocês." *Porquê:* a ponte emocional prepara a condição especial (S62), o desconto vem de afeto, não de desespero.
 
 - **S62: "Combinado não sai caro": o MOTIVO crível do desconto final (G7).**
-  - *EXEMPLO (gestão/13M, → bloco 09):* "o bônus do **combinado não sai caro**: eu te dou um desconto, e quando você atingir o resultado, você me manda seu depoimento, pode ser? o compromisso é a nossa palavra." *Porquê:* desconto sem motivo é desconto queimado; aqui o desconto é uma TROCA recíproca (preço menor ↔ depoimento futuro), vira privilégio, não liquidação. ("combinado não sai caro" = nome MindMaster.)
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 09):* "o bônus do **combinado não sai caro**: eu te dou um desconto, e quando você atingir o resultado, você me manda seu depoimento, pode ser? o compromisso é a nossa palavra." *Porquê:* desconto sem motivo é desconto queimado; aqui o desconto é uma TROCA recíproca (preço menor ↔ depoimento futuro), vira privilégio, não liquidação. ("combinado não sai caro" = nome operação-referência.)
 
 - **S63: Queda final em degraus, riscada: "temos um combinado?".**
-  - *EXEMPLO (gestão/13M, → bloco 10):* "com esse bônus do combinado, não vai ser R$1.997, acaba ficando R$1.697, ou **R$165 por mês**… eu fiz isso pra ter um valor que cabe no orçamento de qualquer pessoa." (a parcela vira o preço oficial; o total parcelado nem é verbalizado.) *Porquê:* o desconto é JUSTIFICADO pelo acordo, nunca seco. (R$1.497→R$497, 12x69 são EXEMPLO do template.)
+  - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 10):* "com esse bônus do combinado, não vai ser R$1.997, acaba ficando R$1.697, ou **R$165 por mês**… eu fiz isso pra ter um valor que cabe no orçamento de qualquer pessoa." (a parcela vira o preço oficial; o total parcelado nem é verbalizado.) *Porquê:* o desconto é JUSTIFICADO pelo acordo, nunca seco. (R$1.497→R$497, 12x69 são EXEMPLO do template.)
 
 - **S64: SURPRESA: bônus exclusivo pros N primeiros, escassez honesta de velocidade.**
- - *EXEMPLO (gestão/13M, → bloco 12):* "vai ter bônus só pros **15 primeiros** que se inscreverem agora - quando você clicar no link, vai aparecer 'parabéns, você está entre os 15 primeiros'." *Porquê:* escassez mecânica e auditável (o sistema decide quem é o 15º) desarma o ceticismo de "escassez falsa". ("10 primeiras vagas" do template = o que realmente cabe entregar, G7.)
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 12):* "vai ter bônus só pros **15 primeiros** que se inscreverem agora - quando você clicar no link, vai aparecer 'parabéns, você está entre os 15 primeiros'." *Porquê:* escassez mecânica e auditável (o sistema decide quem é o 15º) desarma o ceticismo de "escassez falsa". ("10 primeiras vagas" do template = o que realmente cabe entregar, G7.)
 
 - **S65: RESUMO DA OFERTA: stack completo + preço final + "clique no botão", o slide-mestre (animado, fica fixo).**
  - *EXEMPLO (template):* "Curso A + B + C + Pacote A + Bônus 1 + Bônus 2 + Experimente 7D + Acesso estendido + Bônus individualizado - TUDO DE R$1.497 POR R$497 (12x69). Clique no botão >>>". cap08: cada componente aparece por clique, o valor cresce na frente da pessoa. *Porquê:* é o slide-mestre que vai ficar na tela durante o Q&A, o stack revelado item a item parece maior do que a soma.
@@ -361,7 +361,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 - **S66: "Abre as vagas!" com muita energia: o botão nasce no pico, nunca num vale.**
   - *Função:* CTA físico no pico emocional; cartão na mão ANTES do link (elimina o atrito que mata o impulso).
- - *EXEMPLO (gestão/13M, → bloco 12):* "enquanto eu tô abrindo aqui, **já vai pegando o seu cartão**, já vai abrindo o cartão virtual no celular - porque se você perde tempo digitando número de cartão, você perde os 15 primeiros." *Porquê:* fazer a sala abrir o cartão antes do link existir converte intenção em ação motora, quando o link cai, o corpo já está no meio da compra, sem janela pra racionalizar.
+ - *EXEMPLO (gestão/caso de 8 dígitos, → bloco 12):* "enquanto eu tô abrindo aqui, **já vai pegando o seu cartão**, já vai abrindo o cartão virtual no celular - porque se você perde tempo digitando número de cartão, você perde os 15 primeiros." *Porquê:* fazer a sala abrir o cartão antes do link existir converte intenção em ação motora, quando o link cai, o corpo já está no meio da compra, sem janela pra racionalizar.
 
 - **S67: PITCH EMOCIONAL: future pacing de identidade (M2).**
   - *EXEMPLO (template):* "imagine como será… **quem vai ter orgulho de você?** o que isso muda na sua vida? imagine… imagine…" *Porquê:* a decisão vira projeção de identidade ("quem eu me torno"), não cálculo de capacidade.
@@ -374,16 +374,16 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 - **S70: Q&A + quebra de objeções (~10 min): a oferta fixa na tela, compras celebradas ao vivo.**
   - *Função:* objection annihilation distribuída + redução ao ridículo do preço (valor por dia vs. gasto trivial) + prova social em tempo real.
-  - *EXEMPLO de redução ao ridículo (gestão/13M, → bloco 10):* "peguei R$165 e dividi por 30 dias: dá **R$5,51 por dia**… vi uma Coca de 600ml a R$5,29 no mercado [foto real]… você troca uma Coca por dia por transformar sua carreira?" *Porquê:* a pergunta deixa de ser "vale R$1.697?" e vira "eu troco uma Coca por dia pela minha carreira?".
- - *EXEMPLO de objeção invertida (gestão/13M, → bloco 13):* "'gestão ágil não é demandada na minha área' - **e aí que está a grande oportunidade: em terra de cego quem tem olho é rei.**" *Porquê:* a objeção-mãe é invertida em USP no enquadramento do apresentador, antes do cético formular.
-  - *EXEMPLO de placar de vendas (gestão/5 Níveis, → bloco 12):* "quem for se inscrevendo, pode colocar nos comentários, até pra outros irem sabendo como está a inscrição." *Porquê:* o chat vira placar de vendas ao vivo, efeito manada. *Slot:* mapear as 3–5 objeções recorrentes do nicho e escrever as respostas como peça fixa.
+  - *EXEMPLO de redução ao ridículo (gestão/caso de 8 dígitos, → bloco 10):* "peguei R$165 e dividi por 30 dias: dá **R$5,51 por dia**… vi uma Coca de 600ml a R$5,29 no mercado [foto real]… você troca uma Coca por dia por transformar sua carreira?" *Porquê:* a pergunta deixa de ser "vale R$1.697?" e vira "eu troco uma Coca por dia pela minha carreira?".
+ - *EXEMPLO de objeção invertida (gestão/caso de 8 dígitos, → bloco 13):* "'programa de gestão não é demandada na minha área' - **e aí que está a grande oportunidade: em terra de cego quem tem olho é rei.**" *Porquê:* a objeção-mãe é invertida em USP no enquadramento do apresentador, antes do cético formular.
+  - *EXEMPLO de placar de vendas (gestão/5N, → bloco 12):* "quem for se inscrevendo, pode colocar nos comentários, até pra outros irem sabendo como está a inscrição." *Porquê:* o chat vira placar de vendas ao vivo, efeito manada. *Slot:* mapear as 3–5 objeções recorrentes do nicho e escrever as respostas como peça fixa.
 
 - **S71: "Te vejo do outro lado": fechamento de pertencimento.**
   - *EXEMPLO (template):* "te vejo do outro lado." *Porquê:* quem compra cruza pra dentro do grupo, a frase já posiciona a compra como mudança de pertencimento.
 
 - **S72: Resumo da oferta FIXO + depoimentos + cronômetro encerrando + WhatsApp.**
   - *Função:* a tela de fundo até o último segundo, oferta visível, prazo visível, canal humano visível (captura indecisos pro comercial 1:1 da esteira, M10).
- - *EXEMPLO (template):* "Resumo da oferta + DEPOIMENTOS + cronômetro finalizando + WhatsApp." + rota de resgate (gestão/13M, → bloco 13): "se sobrou dúvida, manda e-mail pro comercial, a equipe está de plantão - inclusive se deu erro no cartão." *Porquê:* venda morre em atrito operacional tanto quanto em dúvida; o WhatsApp/comercial tapa esse ralo e leva o indeciso pra esteira 1:1.
+ - *EXEMPLO (template):* "Resumo da oferta + DEPOIMENTOS + cronômetro finalizando + WhatsApp." + rota de resgate (gestão/caso de 8 dígitos, → bloco 13): "se sobrou dúvida, manda e-mail pro comercial, a equipe está de plantão - inclusive se deu erro no cartão." *Porquê:* venda morre em atrito operacional tanto quanto em dúvida; o WhatsApp/comercial tapa esse ralo e leva o indeciso pra esteira 1:1.
 
 ---
 

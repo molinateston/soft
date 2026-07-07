@@ -1,19 +1,19 @@
 # Transição pra venda (mundo ideal, permissão pra vender, ponte conteúdo→oferta)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
 A transição existe pra que a oferta entre A PEDIDO, nunca como interrupção.
 O mecanismo comum a todos os campeões: fazer a audiência se declarar publicamente ANTES de ver preço - elogio à aula, "sim eu quero" digitado, escolha de caminho, hashtag.
 Antes do compromisso, dois preparos: (1) recap-inventário do valor entregue (reativa a sensação de dívida e fecha os loops abertos no início) e (2) mundo ideal projetado em detalhe concreto (carro, câmbio, lingerie, promoção) - a pessoa ensaia a vitória antes do veículo aparecer.
-A permissão pra vender vem de um argumento, não de um pedido: conhecimento sem implementação não basta ("obesidade mental" do Denison/MindMaster, "stubborn little booger" do modelo, "saber→aplicar" do Vítor/Léo A). A oferta resolve a lacuna que a própria aula criou.
+A permissão pra vender vem de um argumento, não de um pedido: conhecimento sem implementação não basta ("obesidade mental" do estrategista da operação-referência, "stubborn little booger" do modelo, "saber→aplicar" do autor do case de nutrição/webinar de referência A). A oferta resolve a lacuna que a própria aula criou.
 O fechamento da transição é quase sempre uma bifurcação: sozinho (caro, lento, já tentou) vs. comigo (atalho com experiência). Ninguém escolhe o caminho 1 em público.
 Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz a audiência sentir que VOCÊ está fazendo um favor ao abrir a oportunidade - não o contrário.
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster/Gestão Ágil, ed. A) - gestão/carreira, curso + mentoria, modelo-mestre R$13M
+### Webinar de gestão (8 dígitos) (operação-referência/o programa de gestão, ed. A) - gestão/carreira, curso + mentoria, modelo-mestre 8 dígitos
 **Trecho literal:**
 > "E aí eu queria perguntar para você que eu fico falando falando falando, eu nem sei se vocês estão gostando da aula. agora vou olhar PR os comentários de novo aqui, comenta aqui para mim tá curtindo a aula de hoje, vocês estão gostando da aula, coloca nos comentários aqui para mim só para eu saber se vocês estão gostando, enquanto isso deixa eu tomar uma aguinha aqui"
 
@@ -27,9 +27,9 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 
 **O que ele fez:** sequência de consentimento em 4 degraus, na ordem: (1) colheita de elogios públicos (a "aguinha" dá tempo do chat encher); (2) future pacing do dinheiro com perguntas concretas (carro/família); (3) bateria de "sim eu quero" repetida em aspectos diferentes do desejo; (4) escolha binária pública "caminho 1 ou 2" - e a oferta só abre "para quem escolheu o caminho dois". O "eu quero ser seu mentor" reposiciona venda como adoção.
 **Por que funciona:** quando o pitch começa, a audiência já disse sim quatro vezes em público. Vender vira atender um pedido - a dissonância de recuar depois de digitar "caminho dois" trabalha a favor do fechamento.
-**O que é decalcável vs do nicho:** decalcável = a escada de 4 degraus inteira (elogio → futuro → sim eu quero → bifurcação). Do nicho = "gestor do Futuro", posição executiva, 90 dias; a encruzilhada/caminho 1-2 é assinatura MindMaster - extrair o mecanismo (escolha binária pública), não a metáfora.
+**O que é decalcável vs do nicho:** decalcável = a escada de 4 degraus inteira (elogio → futuro → sim eu quero → bifurcação). Do nicho = "gestor do Futuro", posição executiva, 90 dias; a encruzilhada/caminho 1-2 é assinatura operação-referência - extrair o mecanismo (escolha binária pública), não a metáfora.
 
-### 5 Níveis de Planejamento - Denison Vieira (CEO MindMaster) - gestão/carreira; MESMO script da transição do 13M, reaplicado
+### 5N - o estrategista da operação-referência (CEO da operação-referência) - gestão/carreira; MESMO script da transição do caso de 8 dígitos, reaplicado
 **Trecho literal:**
 > (permissão pra vender via insuficiência do conteúdo) "Porque só pegar o conhecimento por conhecimento, a única coisa que você vai ganhar é o que eu chamo de obesidade mental. Não adianta nada, você fica só aprendendo, aprendendo, aprendendo. Tem que saber, cara, o que eu faço com esse conhecimento? E eu quero te ajudar nisso."
 
@@ -37,41 +37,41 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 
 > (a encruzilhada - escolha binária) "E aí, para quem chegou até esse momento da aula, você tem dois caminhos. Eu dei todo o caminho das pedras para você. Falei tudo o que você tem que aprender para ser o gestor do futuro. Você pode sair lá tentando aprender tudo isso sozinho ou você pode caminhar aqui comigo. […] Ou você vai embora, fecha, sai da aula aqui e vai aprender tudo isso aqui sozinho. Ou você vai seguir, pegar um atalho aqui com a minha experiência, com tudo que eu já aprendi. E eu quero ser seu mentor nisso tudo. […] Coloca aqui pra mim, caminho 1 ou caminho 2 Coloca nos comentários aqui pra eu saber"
 
-**O que ele fez:** mesmos 4 degraus do 13M (check de satisfação → future pacing → 5x "sim, eu quero" → caminho 1/2), com um acréscimo nomeado: o frame da "obesidade mental" (mecanismo do Denison/MindMaster) como licença intelectual pra vender - conhecimento sem implementação não resolve, logo a oferta é o serviço, não o saque.
+**O que ele fez:** mesmos 4 degraus do caso de 8 dígitos (check de satisfação → future pacing → 5x "sim, eu quero" → caminho 1/2), com um acréscimo nomeado: o frame da "obesidade mental" (mecanismo do estrategista da operação-referência) como licença intelectual pra vender - conhecimento sem implementação não resolve, logo a oferta é o serviço, não o saque.
 **Por que funciona:** ele faz a sala VENDER PRA SI MESMA antes de ver o preço: elogiou a aula em público, digitou "sim eu quero" 5 vezes, escolheu "caminho 2" em público. Recusar a oferta é contradizer o que a própria pessoa acabou de escrever.
-**O que é decalcável vs do nicho:** decalcável = a tese "consumir conteúdo ≠ implementar" como justificativa da oferta (todo nicho tem sua "obesidade mental" - nomear a do avatar). Do nicho/dono = o termo "obesidade mental" e a encruzilhada são MindMaster; o achado-chave deste exemplo é que o script roda VERBATIM em outra edição com outro host - a sequência é máquina, não improviso.
+**O que é decalcável vs do nicho:** decalcável = a tese "consumir conteúdo ≠ implementar" como justificativa da oferta (todo nicho tem sua "obesidade mental" - nomear a do avatar). Do nicho/dono = o termo "obesidade mental" e a encruzilhada são operação-referência; o achado-chave deste exemplo é que o script roda VERBATIM em outra edição com outro host - a sequência é máquina, não improviso.
 
-### Gestão Ágil ed. 2.0 (MindMaster, host Denison) - gestão/carreira, curso GA 2.0; transição enxuta (1 cadeia de sim)
+### GA ed.2 (operação-referência) - gestão/carreira, curso programa de gestão (ed. 2); transição enxuta (1 cadeia de sim)
 **Trecho literal:**
-> "Então, vamos ver o que a gente aprendeu até agora? A gente aprendeu que a gestão do passado não funciona no mundo VUCA. A gente aprendeu que a gestão ágil é a evolução da gestão tradicional. A gente não está inventando nada novo. A gente está evoluindo o que já existia. a gente aprendeu como organizar a execução do trabalho usando gestão ágil […] Você já sabe o que você tem que fazer para melhorar a eficiência e eficácia da sua equipe. Você já sabe como ser um líder admirado e reconhecido na empresa."
+> "Então, vamos ver o que a gente aprendeu até agora? A gente aprendeu que a gestão do passado não funciona no mundo VUCA. A gente aprendeu que a gestão é a evolução da gestão tradicional. A gente não está inventando nada novo. A gente está evoluindo o que já existia. a gente aprendeu como organizar a execução do trabalho usando gestão […] Você já sabe o que você tem que fazer para melhorar a eficiência e eficácia da sua equipe. Você já sabe como ser um líder admirado e reconhecido na empresa."
 
 > "Eu quero ajudar você a aumentar sua produtividade, a ser mais reconhecido profissionalmente, a ser um líder admirado. Não só admirado pela equipe, mas cobiçado pelo mercado. Tem empresas disputando você a tapa. Quem quer isso? Digita aqui nos comentários quem quer esses benefícios aqui. […] digita nos coment sim eu quero. S para ter uma no se a gente est alinhado com os mesmos objetivos aqui. Se o que eu quero ajudar vocês é o que vocês querem. Digita aqui, sim eu quero, só para eu saber."
 
-> "pra todo mundo que digitou sim eu quero aqui, eu quero falar um negócio aqui pra vocês, importante, decisivo pra carreira de vocês. essa semana a gente está com as inscrições abertas para uma nova turma do nosso curso Gestão Ágil 2.0."
+> "pra todo mundo que digitou sim eu quero aqui, eu quero falar um negócio aqui pra vocês, importante, decisivo pra carreira de vocês. essa semana a gente está com as inscrições abertas para uma nova turma do nosso curso programa de gestão (ed. 2)."
 
-> "com tudo que você ouviu nessa aula aqui você tem a opção de sair para aprender tudo isso aqui sozinho, que obviamente vai ser um caminho mais tortuoso, um caminho mais difícil. Ou você pode pegar um atalho com a minha experiência, um atalho com todos esses anos de trabalho, implementação, gestão ágil, 14 mil alunos depois. […] Então o que você escolhe? Coloca aqui nos comentários pra mim o que você quer […] deixa eu dar uma olhada aqui nos caminhos. caminho 2, caminho 2, 2, 2, show de bola, ningu quer ir sozinho, muito bom"
+> "com tudo que você ouviu nessa aula aqui você tem a opção de sair para aprender tudo isso aqui sozinho, que obviamente vai ser um caminho mais tortuoso, um caminho mais difícil. Ou você pode pegar um atalho com a minha experiência, um atalho com todos esses anos de trabalho, implementação, gestão, 14 mil alunos depois. […] Então o que você escolhe? Coloca aqui nos comentários pra mim o que você quer […] deixa eu dar uma olhada aqui nos caminhos. caminho 2, caminho 2, 2, 2, show de bola, ningu quer ir sozinho, muito bom"
 
 **O que ele fez:** recap como contabilidade de valor que fecha os loops das 5 expectativas votadas no início (a aula foi desenhada pela pesquisa, o recap devolve item a item); "sim eu quero" enquadrado como ALINHAMENTO ("pra saber se a gente está alinhado"), não como pedido; anúncio da turma endereçado só a quem digitou; bifurcação caminho 1/2 com leitura do consenso ("ningu quer ir sozinho") antes de abrir a oferta; respeito tático ao frame ("nada contra quem quiser aprender sozinho").
 **Por que funciona:** a venda nunca é imposta - é consequência de três consentimentos públicos em sequência (recap aceito → "sim eu quero" → "caminho 2"). Quando a oferta aparece, a audiência já se declarou compradora por escrito no chat. Nota da análise destilada (exemplos-vivos): aqui é UMA cadeia de "sim eu quero", não cinco - o peso está na lista de benefícios que ESPELHA a pesquisa de expectativas do início.
-**O que é decalcável vs do nicho:** decalcável = recap que devolve exatamente o que o lead pediu na inscrição (ciclo pesquisa→aula→pitch) e o "sim eu quero" como verificação de alinhamento. Do nicho = VUCA, líder cobiçado, 14 mil alunos; "caminho 1/2" segue sendo assinatura MindMaster.
+**O que é decalcável vs do nicho:** decalcável = recap que devolve exatamente o que o lead pediu na inscrição (ciclo pesquisa→aula→pitch) e o "sim eu quero" como verificação de alinhamento. Do nicho = VUCA, líder cobiçado, 14 mil alunos; "caminho 1/2" segue sendo assinatura operação-referência.
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison/MindMaster) - gestão+IA, R$1.997; versão mais completa da escada
+### GA ed.1 - "o programa de gestão com IA" (o estrategista da operação-referência) - gestão+IA, R$1.997; versão mais completa da escada
 **Trecho literal:**
 > "E aí eu quero perguntar, eu falei um monte aqui, eu queria perguntar pra vocês: quem tá curtindo a aula de hoje? Coloca nos comentários, só pra eu saber se tá bacana, se eu tô num ritmo bom aqui."
 
-> "Mas sabe o que é mais legal disso tudo, cara? Isso aqui é só o começo. Isso aqui é a pontinha da pontinha do iceberg. E se eu te dissesse que você pode dominar tudo isso e se tornar uma referência em gestão ágil com IA? Eu quero te ajudar, tá? Para todo mundo que gostou da aula aqui, falou que foi bacana, eu quero ajudar você. Ainda mais você tá aqui, cara guerreiro, ficou até o final - até esse momento aqui da aula."
+> "Mas sabe o que é mais legal disso tudo, cara? Isso aqui é só o começo. Isso aqui é a pontinha da pontinha do iceberg. E se eu te dissesse que você pode dominar tudo isso e se tornar uma referência em gestão com IA? Eu quero te ajudar, tá? Para todo mundo que gostou da aula aqui, falou que foi bacana, eu quero ajudar você. Ainda mais você tá aqui, cara guerreiro, ficou até o final - até esse momento aqui da aula."
 
 > "Eu quero te ajudar a aumentar sua produtividade. Eu quero te ajudar a ser mais reconhecido profissionalmente. Eu quero te ajudar a ser um líder ou uma líder admirado, cobiçado pelo mercado, requisitado pelo mercado. Aquele profissional indispensável que eu falei, eu quero te ajudar a ser ele, porque eu sei que dá. Eu sei o caminho das pedras."
 
 > "E eu quero te perguntar: responde aqui nos comentários, sim, eu quero, se você quer algumas dessas coisas, tá? Se você quer aumentar o seu reconhecimento profissional, conquistar uma posição executiva, escreve aqui sim, eu quero. […] Quem quer isso aqui? Deixa eu ver se alguém quer. Sim, eu quero, sim, eu quero, sim, todos, eu quero todos, sim, todos, show, show, show. Nossa, tem um monte de sim, eu quero, não é nem pra eu ler."
 
-> "Você pode pegar tudo que você aprendeu aqui, comprar todos aqueles livros que eu dei ali para você, ler todos eles, fazer um monte de curso, fazer um curso de Scrum, outro curso de Kanban separado por aí, fazer um cursinho de OKR, vai lá um cursinho de inteligência emocional. Você pode fazer tudo isso sozinho, vai ser um caminho mais difícil, ou você pode pegar um atalho aqui comigo, com a minha experiência, com a experiência da Mindmaster. Coloca nos comentários quem quer ir pelo caminho 1 e quem decidiu o caminho 1 e quem decidiu. […] Escreve aqui caminho 1 ou caminho 2. […] Caminho 2, caminho 2, 2, legal. Michele 2, Antônio 2, Rosane 2. Daniele 2, legal, 2, 2. Puta, tudo 2."
+> "Você pode pegar tudo que você aprendeu aqui, comprar todos aqueles livros que eu dei ali para você, ler todos eles, fazer um monte de curso, fazer um curso de Scrum, outro curso de Kanban separado por aí, fazer um cursinho de OKR, vai lá um cursinho de inteligência emocional. Você pode fazer tudo isso sozinho, vai ser um caminho mais difícil, ou você pode pegar um atalho aqui comigo, com a minha experiência, com a experiência da operação-referência. Coloca nos comentários quem quer ir pelo caminho 1 e quem decidiu o caminho 1 e quem decidiu. […] Escreve aqui caminho 1 ou caminho 2. […] Caminho 2, caminho 2, 2, legal. Michele 2, Antônio 2, Rosane 2. Daniele 2, legal, 2, 2. Puta, tudo 2."
 
 **O que ele fez:** 6 movimentos encadeados: (1) checkpoint de satisfação; (2) recap-inventário; (3) frame do iceberg (o que você viu é fração - abre espaço pro produto sem desvalorizar a aula); (4) anáfora "eu quero te ajudar" colando a venda em generosidade; (5) sim-ladder no chat; (6) falsa alternativa onde o caminho 1 é itemizado como caro e fragmentado (curso de Scrum + Kanban + OKR + IE separados).
 **Por que funciona:** quando a plateia digita "caminho 2", ela se auto-seleciona como compradora antes de saber o preço. A venda deixa de ser interrupção e vira resposta a um pedido - consistência comportamental (Cialdini) operacionalizada no chat. O detalhe novo: o caminho 1 não é só "difícil", é DECOMPOSTO em compras avulsas - o atalho fica matematicamente óbvio.
-**O que é decalcável vs do nicho:** decalcável = iceberg (aula = amostra honesta de um corpo maior) e a decomposição do caminho solitário em custos itemizados. Do nicho = Scrum/Kanban/OKR, "referência em gestão ágil com IA"; nomes de lista lidos no chat são teatro de ao vivo da MindMaster.
+**O que é decalcável vs do nicho:** decalcável = iceberg (aula = amostra honesta de um corpo maior) e a decomposição do caminho solitário em custos itemizados. Do nicho = Scrum/Kanban/OKR, "referência em gestão com IA"; nomes de lista lidos no chat são teatro de ao vivo da operação-referência.
 
-### Webinar do Léo - A (pele Soft: nutrição / Vítor Abrão / MDI) - emagrecimento, Método Dieta Inteligente; voz Vítor
+### Webinar do autor do método - A (pele Soft: nutrição / o autor do case de nutrição) - emagrecimento, [PROGRAMA]; voz o autor do case de nutrição
 **Trecho literal:**
 > "agora vou recapitular O que que a gente aprendeu até aqui […] cara, a gente falou bastante coisa aqui né, já aprendemos bastante. mais importante do que saber o que fazer é saber como aplicar isso na sua vida de uma forma que traga resultados duradores"
 
@@ -89,7 +89,7 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 **Por que funciona:** quem digita a hashtag já disse "sim" à crença - a oferta vira consequência, não pedido. O "não compra ainda" troca a posição de caçador pela de guardião do bom negócio, e retém a audiência até a oferta completa.
 **O que é decalcável vs do nicho:** decalcável = hashtag de crença antes da oferta, custo da inação em cenas (não em números), e o "não compra ainda" como retenção. Do nicho = lingerie/biquíni/pizza - o future pacing aqui é sensorial-social porque o avatar é mulher em dieta; em outro nicho, trocar as cenas, manter a concretude.
 
-### Webinar C (corpus Léo) - "Resina Anterior / Método One 2.0" - odontologia, voz Bruno (dentista)
+### Webinar C (corpus do autor do método) - odontologia, voz o autor do case de odontologia (dentista)
 **Trecho literal:**
 > "depois de tudo que eu te mostrei, vou fechar aqui um pouco. Depois de tudo que eu te mostrei, de verdade, coração aberto: você só não vai evoluir se você não quiser. E eu quero ser o seu mentor, e mais, e mais: eu te afim, eu te desafio, que qualquer pessoa que tiver disposta a andar no campo minado pisando nas minhas pegadas vai ter um bom resultado"
 
@@ -101,7 +101,7 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 **Por que funciona:** a venda é apresentada como ESCOLHA DE GRUPO, não como compra - recusar a oferta vira escolher conscientemente a estrada esburacada. A metáfora plantada 1h antes como "conteúdo" agora cobra o pedágio: as pegadas existem, só falta pisar.
 **O que é decalcável vs do nicho:** decalcável = pagar a metáfora plantada no conteúdo na hora da transição (setup no bloco 05, payoff no 08) e o elogio de permanência como qualificação. Do nicho = campo minado/resina/consultório; o tom desafiador ("eu te desafio") combina com avatar técnico que se orgulha de mão boa - não transplantar pra avatar fragilizado.
 
-### Aluna 80k - Juliana Pupim ("Seja Arquiteto na América") - arquitetura/dólar, programa high-ticket
+### Case de arquitetura - a autora do case de arquitetura (o programa de arquitetura internacional) - arquitetura/dólar, programa high-ticket
 **Trecho literal:**
 > "E como vai ser a sua vida depois que você começar a ganhar em dólar? Sabe qual a preocupação dos meus alunos? É essa daqui. Eles querem saber quanto tá o câmbio do dia. Só isso. Eles ficam atualizando o câmbio porque eles ganham em dólar."
 
@@ -135,19 +135,19 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 
 **O que ele fez:** (1) padrão interrompido brutal: depois de 15 min de "outros conseguiram", declara "você provavelmente NÃO consegue" - choque que recaptura atenção total no momento mais crítico; (2) a ponte é a LACUNA conhecimento→implementação ("if we parted ways right now…"); (3) tough love como permissão pra vender: ele vende porque "não vai deixar" o aluno voltar ao hábito velho; (4) garantia dobrada teaserizada DENTRO da transição, antes do produto aparecer; (5) zero pedido de permissão - a oferta entra como consequência lógica ("It's with great pleasure that I introduce…").
 **Por que funciona:** a transição clássica gera queda de atenção ("lá vem o pitch"). O modelo inverte: nega a competência da plateia no auge da esperança, cria um problema novo (você sozinho vai falhar) cuja única solução é a oferta. O pitch não interrompe o conteúdo; ele RESOLVE o conteúdo.
-**O que é decalcável vs do nicho:** decalcável = a estrutura "prova → dúvida sobre VOCÊ → eu sou a diferença" e o teaser de garantia dentro da transição. Do nicho/voz = "stubborn little booger" e o tough love agressivo exigem autoridade já consolidada e avatar americano de marketing direto; em pele Soft, a mesma lacuna se entrega com mais afeto (cf. "obesidade mental" do Denison e "você já tentou sozinha antes" do Léo A - mesma premissa, temperatura diferente).
+**O que é decalcável vs do nicho:** decalcável = a estrutura "prova → dúvida sobre VOCÊ → eu sou a diferença" e o teaser de garantia dentro da transição. Do nicho/voz = "stubborn little booger" e o tough love agressivo exigem autoridade já consolidada e avatar americano de marketing direto; em pele Soft, a mesma lacuna se entrega com mais afeto (cf. "obesidade mental" do estrategista da operação-referência e "você já tentou sozinha antes" do webinar de referência A - mesma premissa, temperatura diferente).
 
 ## Padrões transversais (checklist do bloco)
 
-- [ ] **Checkpoint de temperatura antes de qualquer venda** - "tá curtindo a aula?" colhe elogios públicos que servem de prova social pré-oferta (13M, 5 Níveis, GAIA2k; O modelo faz como pergunta retórica "wasn't it?").
+- [ ] **Checkpoint de temperatura antes de qualquer venda** - "tá curtindo a aula?" colhe elogios públicos que servem de prova social pré-oferta (caso de 8 dígitos, 5N, GA ed.1; O modelo faz como pergunta retórica "wasn't it?").
 - [ ] **Recap-inventário do valor entregue** - listar item a item o que a aula deu; fecha os loops abertos na abertura e reativa a dívida de valor (todos os 9, sem exceção).
-- [ ] **Mundo ideal em cena concreta, não em abstração** - carro/viagem/família (MindMaster), câmbio do dia/jantar japonês (Juliana), lingerie/foto de barco (Léo A), "mudar a vida da família" (Léo C). A pessoa ensaia a vitória antes do preço.
-- [ ] **Permissão pra vender via lacuna saber→fazer** - o argumento de que a aula sozinha não basta: "obesidade mental" (Denison/MindMaster), "saber como aplicar" (Vítor/Léo A), "probably not" (webinar de referência #2), "isso é a pontinha do iceberg" (GAIA2k).
-- [ ] **Micro-compromisso público digitado ANTES da oferta** - "sim eu quero" (família MindMaster), hashtag de crença (Léo A), perguntas-sim (webinar de referência #1). A sala pede o pitch por escrito.
-- [ ] **Bifurcação sozinho-vs-comigo fechando a transição** - caminho 1/2 (MindMaster), estrada esburacada vs. asfalto (Léo C), "você vai sozinho… já tentou antes" (Léo A), "you need me in your ear" (webinar de referência #2). Ninguém escolhe a opção solitária em público.
-- [ ] **A oferta entra como resposta, endereçada a quem consentiu** - "para quem escolheu o caminho dois" (13M), "pra todo mundo que digitou sim eu quero" (GA ed.2), "é por isso que existe o programa" (Juliana), colada no último sim (webinar de referência #1).
+- [ ] **Mundo ideal em cena concreta, não em abstração** - carro/viagem/família (operação-referência), câmbio do dia/jantar japonês (a autora do case de arquitetura), lingerie/foto de barco (webinar de referência A), "mudar a vida da família" (webinar de referência C). A pessoa ensaia a vitória antes do preço.
+- [ ] **Permissão pra vender via lacuna saber→fazer** - o argumento de que a aula sozinha não basta: "obesidade mental" (o estrategista da operação-referência), "saber como aplicar" (o autor do case de nutrição/webinar de referência A), "probably not" (webinar de referência #2), "isso é a pontinha do iceberg" (GA ed.1).
+- [ ] **Micro-compromisso público digitado ANTES da oferta** - "sim eu quero" (família operação-referência), hashtag de crença (webinar de referência A), perguntas-sim (webinar de referência #1). A sala pede o pitch por escrito.
+- [ ] **Bifurcação sozinho-vs-comigo fechando a transição** - caminho 1/2 (operação-referência), estrada esburacada vs. asfalto (webinar de referência C), "você vai sozinho… já tentou antes" (webinar de referência A), "you need me in your ear" (webinar de referência #2). Ninguém escolhe a opção solitária em público.
+- [ ] **A oferta entra como resposta, endereçada a quem consentiu** - "para quem escolheu o caminho dois" (caso de 8 dígitos), "pra todo mundo que digitou sim eu quero" (GA ed.2), "é por isso que existe o programa" (a autora do case de arquitetura), colada no último sim (webinar de referência #1).
 - [ ] **Ler o chat em voz alta e nomear o consenso** - "tudo 2", "ningu quer ir sozinho", "não é nem pra eu ler": o consentimento individual vira fato coletivo.
-- [ ] **Opcional de retenção: prometer algo pra depois do pitch** - presente reativado (13M), "não compra ainda, fica até o final" (Léo A).
+- [ ] **Opcional de retenção: prometer algo pra depois do pitch** - presente reativado (caso de 8 dígitos), "não compra ainda, fica até o final" (webinar de referência A).
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
@@ -156,11 +156,11 @@ Premissa-mãe (webinar de referência a verbaliza): a transição bem feita faz 
 - **Mundo ideal genérico ("sua vida vai mudar").** Os campeões dão cena com objeto e testemunha: a conta do jantar japonês, o comentário no Instagram, o câmbio do dia. Abstração não ensaia vitória.
 - **Esmagar a autoestima sem oferecer a saída na mesma frase.** webinar de referência #2 diz "probably not" mas emenda "and that's why I ain't going to let that happen" - a dúvida nunca fica órfã. Diagnóstico sem adoção é só ofensa.
 - **Bifurcação com opção solitária respeitável demais.** O caminho 1 é sempre descrito como caro, lento e já-fracassado ("você já tentou sozinha antes né") - se as duas opções parecem boas, a escolha pública perde função.
-- **Importar a forma com dono junto.** "Encruzilhada/caminho 1-2", "obesidade mental" e a teatralidade da aguinha são assinatura MindMaster; "yes momentum"/"60-second recap" são do webinar de referência; a hashtag-revolução é da pele Vítor Abrão. Em webinar Soft novo: mesma premissa, forma própria (G2).
+- **Importar a forma com dono junto.** "Encruzilhada/caminho 1-2", "obesidade mental" e a teatralidade da aguinha são assinatura operação-referência; "yes momentum"/"60-second recap" são do webinar de referência; a hashtag-revolução é da pele o autor do case de nutrição. Em webinar Soft novo: mesma premissa, forma própria (G2).
 - **Vender antes do compromisso público.** A ordem importa: recap → mundo ideal → consentimento digitado → bifurcação → oferta. Inverter (oferta antes do "sim eu quero") transforma pedido em empurrão.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum.** Os 9 webinars do corpus executam o bloco 08 - é um dos únicos blocos com presença 9/9 (compare: garantia só existe em 3; pré-início, em 6). Leitura clínica: nenhum campeão atravessa de conteúdo pra oferta sem uma ponte de consentimento construída - este bloco não é opcional no método, é a dobradiça que decide se o pitch chega a uma sala que pediu ou a uma sala que aguenta.
 
-Dado adicional do corpus: 13M e 5 Níveis rodam a MESMA transição quase palavra por palavra (com hosts/edições diferentes), e GA ed.2 e GAIA2k variam só a dosagem (1 cadeia de sim vs. escada completa). A transição da MindMaster é peça de máquina reutilizável - evidência de que este bloco se ESCREVE e se testa, não se improvisa ao vivo.
+Dado adicional do corpus: caso de 8 dígitos e 5N rodam a MESMA transição quase palavra por palavra (com hosts/edições diferentes), e GA ed.2 e GA ed.1 variam só a dosagem (1 cadeia de sim vs. escada completa). A transição da operação-referência é peça de máquina reutilizável - evidência de que este bloco se ESCREVE e se testa, não se improvisa ao vivo.

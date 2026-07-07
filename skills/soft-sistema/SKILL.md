@@ -3,7 +3,7 @@ name: soft-sistema
 description: "O BRAÇO TÉCNICO do usuário: constrói QUALQUER coisa com código, do pedido falado até no ar com prova, no mesmo loop de 5 fases (Spec com STOP, Arquitetura, Build em Opus, Review, Entrega provada). Cinco tipos: SISTEMA/APP (multi-tenant, login, banco, IA atrás de proxy), WAR ROOM (painel de apresentação pro cliente), SITE ou página rica, FERRAMENTA/dashboard, e AUTOMAÇÃO/INTEGRAÇÃO (WhatsApp, API, n8n, script, robô, webhook, cron). Gate visual no que tem tela (zero gradiente/emoji/travessão, componentes ricos, tokens, 2 temas); gate de robustez no que não tem (idempotência, erro tratado, logs, sem segredo). Marca-neutra e tool-adaptive: com GitHub/Cloudflare/VPS entrega no ar; sem, entrega spec + arquitetura + plano igual. Use para construir OU editar qualquer coisa técnica: sistema, site, ferramenta, automação, integração. NÃO use para marketing/copy/funil/landing de venda (soft-conteudo/-funil/-webinar/-vendas) nem arte ou vídeo solto (soft-designer/soft-editor-video)."
 ---
 
-**Papel:** o **BRAÇO TÉCNICO**. Sai de um pedido falado e chega em **qualquer coisa com código PRONTA, no ar, com prova**, sem o dono corrigir no meio. Constrói (ou edita) o que precisar: um **sistema/app**, um **war room** de apresentação, um **site**, uma **ferramenta/dashboard**, ou uma **automação/integração**. O mesmo loop e o mesmo rigor de qualidade valem pra todos. Marca-neutra (lê a marca do cliente e aplica; o Leo Design System é a estética default). Não faz copy de venda, arte solta nem edição de vídeo: isso é das outras skills.
+**Papel:** o **BRAÇO TÉCNICO**. Sai de um pedido falado e chega em **qualquer coisa com código PRONTA, no ar, com prova**, sem o dono corrigir no meio. Constrói (ou edita) o que precisar: um **sistema/app**, um **war room** de apresentação, um **site**, uma **ferramenta/dashboard**, ou uma **automação/integração**. O mesmo loop e o mesmo rigor de qualidade valem pra todos. Marca-neutra (lê a marca do cliente e aplica; o padrão visual default da skill é a estética de fallback). Não faz copy de venda, arte solta nem edição de vídeo: isso é das outras skills.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 
@@ -13,7 +13,7 @@ Qualquer build técnico funcionando, com prova, entregue conforme o **tipo** (ve
 - **PRODUTO**: app multi-tenant (RLS por tenant), banco próprio, IA sempre atrás de proxy server-side com JWT (nunca chave no client), LMS, onboarding guiado, dados demo semeados. Deploy na VPS do dono (Caddy → serviço em porta alta, systemd `Restart=always`, bind `127.0.0.1`), subdomínio no domínio do dono.
 - **SPEC** (`specs/<nome>.md`): objetivo, requisitos, restrições, definição-de-pronto. É o contrato de onde o build nasce e contra o que o review compara.
 - **PROVA de entrega**: login real feito, navegação com screenshots, query no banco, probe no domínio. Sem prova, a skill não terminou.
-- **REPO** privado em `molinateston/<nome>` (repo = produção; commit por agente).
+- **REPO** privado em `<org-do-dono>/<nome>` (repo = produção; commit por agente). Troque `<org-do-dono>` pela org GitHub de quem opera.
 
 **Serve o agente:** skill de construção invocada pelo `soft-leon` (ou direto) quando o pedido é "construir/editar um sistema". Não produz peça de marketing: pra posicionamento/conteúdo/funil/venda o LEON invoca as skills `soft-*` correspondentes.
 
@@ -45,7 +45,7 @@ Antes de qualquer outra pergunta: **sistema do ZERO, ou EDIÇÃO de um que JÁ E
 - **Do zero** → segue direto pra Fase 1 (Spec).
 - **Edição** → primeiro **localiza e estuda o sistema real**, e só então entrevista sobre as mudanças:
   1. Pergunta **qual** sistema, a URL, onde roda.
-  2. **Localiza o repo e o código real** (busca em `molinateston/`, na VPS, no domínio).
+  2. **Localiza o repo e o código real** (busca em `<org-do-dono>/`, na VPS, no domínio).
   3. **Estuda o sistema inteiro** com agentes de exploração **em paralelo** (leitura de código pré-existente **pode em modelo menor** (Sonnet), porque é só ler o que já foi escrito e é permitido). Mapeia telas, tabelas, rotas, serviços.
   4. Se **não há repo**, cria na hora e **commita o estado atual ANTES de mexer** (ponto de retorno).
   5. Só então **entrevista sobre as mudanças**, com perguntas **informadas** pelo que estudou, citando telas e tabelas reais ("na tela de Alunos hoje a coluna X não existe; você quer adicioná-la na tabela `students` ou numa view?"), nunca perguntas genéricas.
@@ -69,7 +69,7 @@ Antes da 1ª linha, decide e registra no doc:
 - **Síncrono vs assíncrono**: o que é rápido responde na hora; o que é **lento** (gerar vídeo, processar upload, chamar IA em lote) vai pra **fila + worker**, nunca segura a request.
 - **Segurança de base**: auth, **RLS por tenant** (no produto), rate-limit, logs.
 - **Checklist antes de construir** (ver `references/entrega-e-infra.md`): repo criado, tokens no cofre, tema/tokens de cor definidos, dados demo desenhados.
-- **Cria o repo AGORA**, antes da 1ª linha: `git init` + `gh repo create molinateston/<nome> --private`. Repo = produção.
+- **Cria o repo AGORA**, antes da 1ª linha: `git init` + `gh repo create <org-do-dono>/<nome> --private`. Repo = produção.
 
 ### Fase 3 · BUILD (constrói exatamente a spec, em paralelo)
 
@@ -103,7 +103,7 @@ O mesmo loop e o mesmo padrão servem a qualquer build. Os cinco tipos:
 - **FERRAMENTA / DASHBOARD**: calculadora, painel de métricas, gerador, ferramenta interna. Tela funcional + a lógica. Gate visual no que tem UI.
 - **AUTOMAÇÃO / INTEGRAÇÃO**: WhatsApp/API/webhook, fluxo n8n, script, robô, cron, sincronização entre sistemas. **Sem UI** na maioria: aqui o gate NÃO é visual, é de **ROBUSTEZ** (ver o Gate de Robustez abaixo). Deploy = serviço na VPS (systemd) ou worker.
 
-Todo build com **tela** segue o mesmo padrão visual e engenharia estrutural (`references/padrao-visual-leo.md`) e passa pelo Gate Visual. Todo build **sem tela** passa pelo Gate de Robustez.
+Todo build com **tela** segue o mesmo padrão visual e engenharia estrutural (`references/padrao-visual-default.md`) e passa pelo Gate Visual. Todo build **sem tela** passa pelo Gate de Robustez.
 
 ## 🎨 GATE VISUAL (preencha, imprima e só então libere a tela)
 
@@ -114,12 +114,12 @@ Toda tela/componente passa por aqui, no Build e no Review. Qualquer ✗ reprova 
 | **Zero gradiente decorativo** | `grep -rniE "linear-gradient|radial-gradient|conic-gradient" <dir>` = **0** (a riqueza vem de 2 tons SÓLIDOS em blocos, não de degradê). Exceção única: glow do CTA e backdrop-blur de nav, contados à parte | `gradiente: N` |
 | **Zero emoji na UI** | Nenhum emoji renderizado na interface; todo ícone é **SVG de linha**. Rode o grep de emoji (bloco abaixo) = **0** | `emoji: N` |
 | **Zero travessão** | `grep -rn "—" <dir de UI e docs>` = **0** (usa vírgula, parênteses ou `·`). Vale pra UI E docs novos | `travessão: N` |
-| **Componentes ricos** | Nenhuma "caixinha título+descrição". Usa os componentes ricos (hero 2 colunas, KPI número gigante + label mono, escada de valor, acordeão numerado, vídeo com capítulos, mockup device, vitrine, timeline, card kicker+título+chips, modal pra conteúdo longo, lightbox). Ver `padrao-visual-leo.md` | ✓/✗ |
+| **Componentes ricos** | Nenhuma "caixinha título+descrição". Usa os componentes ricos (hero 2 colunas, KPI número gigante + label mono, escada de valor, acordeão numerado, vídeo com capítulos, mockup device, vitrine, timeline, card kicker+título+chips, modal pra conteúdo longo, lightbox). Ver `padrao-visual-default.md` | ✓/✗ |
 | **Tokens de cor + 2 temas** | Toda cor é `var(--token)`; 2 temas (claro/escuro) aplicados **antes do paint, sem flash** (o tema é setado no `<head>`, não depois de renderizar) | ✓/✗ |
 | **Login split** | Entrada por login split de 2 colunas (narrativa da marca + card do form ~392px); o resto atrás do gate | ✓/✗ |
 | **Nav numerada + menus de dados** | Nav numerada, grupos colapsáveis **persistidos**, menus renderizados de **array de dados** (não hard-coded item a item) | ✓/✗ |
 | **i18n motor próprio** | pt/en/es com chaves **namespaced**, motor próprio (sem string solta no meio do JSX) | ✓/✗ |
-| **Marca do cliente aplicada** | A paleta/tipo é a do CLIENTE (leu a marca dele); na ausência, o **default é o Leo Design System** (preto, Bebas/Inter/JetBrains Mono, acento `#4ade80`, hairlines, cantos retos) | ✓/✗ |
+| **Marca do cliente aplicada** | A paleta/tipo é a do CLIENTE (leu a marca dele); na ausência, o **default é o padrão visual da skill** (preto, Bebas/Inter/JetBrains Mono, acento `#4ade80`, hairlines, cantos retos) | ✓/✗ |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ = REFAZ a tela. Só tudo-✓ = LIBERA | |
 
 **Grep de prova (rode e cole o número):**
@@ -132,7 +132,7 @@ grep -rn "—" <dir> | wc -l
 grep -rnP "[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}\x{2190}-\x{21FF}\x{2B00}-\x{2BFF}]" <dir> | wc -l
 ```
 
-Por que inegociável: o dono vai **apresentar isso na frente do cliente dele**. Gradiente, emoji e travessão são a assinatura de "saiu de IA barata"; caixinha de título+descrição é a de "template genérico". A tela tem que parecer construída por alguém que se importa. Detalhe de cada componente e do CSS/HTML em `references/padrao-visual-leo.md`.
+Por que inegociável: o dono vai **apresentar isso na frente do cliente dele**. Gradiente, emoji e travessão são a assinatura de "saiu de IA barata"; caixinha de título+descrição é a de "template genérico". A tela tem que parecer construída por alguém que se importa. Detalhe de cada componente e do CSS/HTML em `references/padrao-visual-default.md`.
 
 ## 🔧 GATE DE ROBUSTEZ (pro que NÃO tem tela: automação, integração, script, robô)
 
@@ -164,7 +164,7 @@ Build sem UI não passa no Gate Visual, passa aqui. Todo ✗ reprova: corrige e 
 
 → **STOP: "pode ir?"** → "pode ir".
 
-**Fase 2 (Arquitetura):** repo `molinateston/vet-rede-painel` criado. War room = SPA + Express/sessão no Cloudflare Pages. Produto = Node na VPS (Caddy → `127.0.0.1:8412`, systemd), Supabase com RLS por `tenant_id`, subdomínio `vetrede.leonardomolina.com.br`. Vídeo (lento) → o upload/transcode vai pra fila + worker. Tokens de cor da marca azul-petróleo definidos; tema claro/escuro.
+**Fase 2 (Arquitetura):** repo `<org-do-dono>/vet-rede-painel` criado. War room = SPA + Express/sessão no Cloudflare Pages. Produto = Node na VPS (Caddy → `127.0.0.1:8412`, systemd), Supabase com RLS por `tenant_id`, subdomínio `vetrede.seudominio.com.br`. Vídeo (lento) → o upload/transcode vai pra fila + worker. Tokens de cor da marca azul-petróleo definidos; tema claro/escuro.
 
 **Fase 3 (Build, paralelo):** um agente no war room (as 5 seções como componentes ricos: hero 2 colunas, KPIs número-gigante, acordeão numerado do plano, player com capítulos, escada de 3 níveis na proposta), outro no schema + RLS do produto, outro no LMS + onboarding. Cada tela passa pelo gate visual (grep de gradiente/emoji/travessão = 0).
 
@@ -191,7 +191,7 @@ A régua: se o entregável é **código que roda** (sistema, site, ferramenta, a
 
 | Sintoma | Correção |
 |---|---|
-| Fez "caixinha título+descrição" em vez de componente rico | Reprova no gate visual: troca por hero 2 colunas / KPI número-gigante / acordeão numerado / vídeo com capítulos (ver `padrao-visual-leo.md`) |
+| Fez "caixinha título+descrição" em vez de componente rico | Reprova no gate visual: troca por hero 2 colunas / KPI número-gigante / acordeão numerado / vídeo com capítulos (ver `padrao-visual-default.md`) |
 | Usou gradiente decorativo | Grep > 0 = ✗ automático. Riqueza vem de 2 tons sólidos em blocos, não de degradê |
 | Emoji na UI ou travessão na UI/doc | Grep > 0 = ✗ automático. Ícone = SVG de linha; travessão vira vírgula/parênteses/`·` |
 | Fez deploy sem repo | Cria o repo na Fase 2, ANTES da 1ª linha. Repo = produção; sem repo não há ponto de retorno |
@@ -208,7 +208,7 @@ A régua: se o entregável é **código que roda** (sistema, site, ferramenta, a
 
 ## References (profundidade; o fluxo acima é autossuficiente)
 
-- `references/padrao-visual-leo.md`: o design system (paleta, 3 fontes, forma) + a engenharia estrutural (componentes ricos, tokens, 2 temas sem flash, login split, nav numerada, i18n) com exemplos de CSS/HTML. Leia antes de construir qualquer tela.
+- `references/padrao-visual-default.md`: o design system (paleta, 3 fontes, forma) + a engenharia estrutural (componentes ricos, tokens, 2 temas sem flash, login split, nav numerada, i18n) com exemplos de CSS/HTML. Leia antes de construir qualquer tela.
 - `references/frente-war-room.md`: anatomia dos menus do war room, vídeo com capítulos, infográficos, backend Express + sessão. Leia na Fase 1/3 do war room.
 - `references/frente-produto.md`: multi-tenant com RLS, IA atrás de proxy com JWT, LMS, onboarding, dados demo, segurança. Leia na Fase 1/3 do produto.
 - `references/entrega-e-infra.md`: GitHub sempre, Cloudflare Pages (war room) / VPS Caddy + systemd (produto), subdomínio, cofre de credenciais, checklist de pronto. Leia nas Fases 2 e 5.

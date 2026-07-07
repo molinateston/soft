@@ -1,6 +1,6 @@
 # Frente PRODUTO
 
-O app que o **cliente do dono entrega pros clientes DELE**. Não é o painel de apresentação (isso é `frente-war-room.md`): é o software que roda no dia a dia, com muitos usuários, dados de verdade e as contas dos clientes finais separadas umas das outras. Toda tela segue `padrao-visual-leo.md`. Deploy na VPS do dono (ver `entrega-e-infra.md`).
+O app que o **cliente do dono entrega pros clientes DELE**. Não é o painel de apresentação (isso é `frente-war-room.md`): é o software que roda no dia a dia, com muitos usuários, dados de verdade e as contas dos clientes finais separadas umas das outras. Toda tela segue `padrao-visual-default.md`. Deploy na VPS do dono (ver `entrega-e-infra.md`).
 
 ## O que a frente entrega
 
@@ -33,7 +33,7 @@ Se o produto usa IA (chat, geração, classificação), a chave do modelo **nunc
 ## LMS
 
 Área de conteúdo em módulos/aulas (protocolos, treinamentos, o que o cliente ensina pros clientes dele):
-- **Módulo → aulas**, progresso por usuário (o que já completou), renderizado de array de dados (`padrao-visual-leo.md`).
+- **Módulo → aulas**, progresso por usuário (o que já completou), renderizado de array de dados (`padrao-visual-default.md`).
 - Aula = vídeo (com capítulos, igual `frente-war-room.md`) + material; conteúdo longo abre em **modal**, não estoura o card.
 - Progresso e conclusão gravados por `(user_id, lesson_id)`, respeitando o tenant.
 

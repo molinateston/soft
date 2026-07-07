@@ -176,7 +176,7 @@ A página de captura tem três trabalhos, e só três (o autor do método, MANUA
 
 **Campos:** nome, e-mail, WhatsApp - e, no perpétuo, o **horário escolhido** da sessão.
 
-**A decisão de campos é uma decisão de MODELO DE NEGÓCIO, não estética (Léo, MANUAL-COMPLETO cap09). Decide pelo seu modelo de monetização, não por dogma:**
+**A decisão de campos é uma decisão de MODELO DE NEGÓCIO, não estética (o autor do método, MANUAL-COMPLETO cap09). Decide pelo seu modelo de monetização, não por dogma:**
 
 | Modelo | Campos | Por quê |
 |--------|--------|---------|
@@ -710,7 +710,7 @@ Nessa variante, em vez de mandar o lead pra um formulário, você manda **direto
 3. **A qualificação é com curiosidade, nunca com pitch.** A abordagem inicial é interesse genuíno:
 > EXEMPLO: "Oi [nome], a gente gosta de falar com quem chega aqui. Tô curioso: por que você quer resolver [tema] agora?"
 
-4. **Nunca dê o preço seco.** Regra que o Léo bate na tecla (MANUAL-WEBINAR-SOFT cap10): quando o lead pergunta "quanto custa?" e o vendedor responde o número, perdeu - o único parâmetro que o lead tem pra julgar o número é o bolso dele, quando deveria ser o valor que você gera. Dá um passo atrás primeiro:
+4. **Nunca dê o preço seco.** Regra que o autor do método bate na tecla (MANUAL-WEBINAR-SOFT cap10): quando o lead pergunta "quanto custa?" e o vendedor responde o número, perdeu - o único parâmetro que o lead tem pra julgar o número é o bolso dele, quando deveria ser o valor que você gera. Dá um passo atrás primeiro:
 > EXEMPLO: "A gente tá com uma condição boa essa semana. Antes, me conta: por que você tá buscando resolver isso agora?"
 
 > **EXEMPLO real (a aluna que fez 80k - Juliana, MANUAL-WEBINAR-SOFT cap10):** no webinar dela, o fechamento dos indecisos não ia pra um checkout impessoal. Ela redirecionava: *"dúvidas no chat, ou minha equipe no WhatsApp na sala secreta."* Os indecisos caíam num atendimento humano 1:1 e a venda fechava na conversa. É o CTA-direto-pro-WhatsApp na prática - captura o calor de quem assistiu e leva pra conversa em vez de deixar a pessoa sozinha com um botão.

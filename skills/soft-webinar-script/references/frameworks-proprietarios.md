@@ -8,7 +8,7 @@ Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia**
 
 ## 1. O 6º nível de consciência (a extensão do Schwartz)
 
-**O que é.** Schwartz (Breakthrough Advertising, 1966) parou em 5 níveis de consciência. Este framework adiciona um sexto, o **problema avançado**: *a solução que a pessoa escolheu/comprou virou o novo problema dela.* Não é "mais consciente" no sentido do Schwartz (pronto pra comprar). É uma pessoa que já comprou a solução errada, já paga o preço dela, e ainda não resolveu. É um nível depois do 5, que o clássico não nomeia.
+**O que é.** Schwartz (Breakthrough Advertising, 1966) parou em 5N de consciência. Este framework adiciona um sexto, o **problema avançado**: *a solução que a pessoa escolheu/comprou virou o novo problema dela.* Não é "mais consciente" no sentido do Schwartz (pronto pra comprar). É uma pessoa que já comprou a solução errada, já paga o preço dela, e ainda não resolveu. É um nível depois do 5, que o clássico não nomeia.
 
 **O mecanismo.** A pessoa sobe a régua normal: sente a dor, descobre a causa, conhece soluções, escolhe uma, compra. Aqui o clássico encerra. Existe o passo seguinte: a solução comprada **gera consequências que a pessoa já não quer** (é cara, é difícil, toma tempo, e mesmo assim não resolveu). A solução vira uma peça que ela carrega. Esse é o cliente que "já tentou de tudo". E o ponto contra-intuitivo: **o avançado é o mais fácil de vender, não o mais difícil**, porque a vontade já existe e está madura. Você não precisa criar a dor (o mais caro que existe). Ele só quer um processo diferente do que já falhou.
 
@@ -31,7 +31,7 @@ Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia**
 O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega o nível ao avatar: "Você não [fatura/resolve] pouco porque é ruim. Você [fatura/resolve] pouco porque está carregando peso demais, peso que te venderam e chamaram de estratégia." É absolvição e alívio ao mesmo tempo: a culpa não é dele, é da solução errada que ele comprou.
 
 **Como usar como bloco do webinar.** É a coluna da Virada 1, na ponte Diagnóstico para Mecanismo. A sequência ao vivo:
-1. Sobe os 5 níveis em voz alta, dando o exemplo de cada. Crava que não é teoria sua: "a primeira aula de marketing do mundo, Eugene Schwartz, 1966."
+1. Sobe os 5N em voz alta, dando o exemplo de cada. Crava que não é teoria sua: "a primeira aula de marketing do mundo, Eugene Schwartz, 1966."
 2. Deixa a sala errar pra baixo (acham que o cliente está no nível 1 ou 2). Abre o loop: "tem um nível que o Schwartz nem chegou a nomear, que é onde mora o dinheiro de verdade."
 3. Ensina o framework 2 (dor não é problema, abaixo) com a escoliose.
 4. Punch numa frase isolada e com pausa longa: "a solução que ela escolheu virou o novo problema dela."
@@ -43,7 +43,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 **A conexão que muda a oferta inteira (nova oportunidade, nunca melhoria).** O avatar do 6º nível é PRECISAMENTE quem não pode receber "melhoria". Pra ele, "tente de novo, agora melhor" é o pior gatilho possível: reabre todas as cicatrizes e ameaça o status ("comprei errado uma vez, vou comprar errado de novo?"). O 6º nível só se move por **nova oportunidade que eleva status**, um caminho que o tira do lugar de quem fracassou e o põe no lugar de quem finalmente entendeu. Por isso o framework 1 não é só diagnóstico de público: ele dita que a Big Domino e o pitch tenham que oferecer um caminho DIFERENTE, nunca "mais da mesma dor".
 
-> Ponteiro: o bloco de Problema/Diagnóstico onde isso é encenado tem falas verbatim de webinars campeões em `exemplos-por-bloco/04-problema-interesse.md`, repare como o 13M transfere a culpa pro vilão externo ("o mundo mudou", "gestor do passado") sem nunca acusar quem está na sala, que é o mesmo mecanismo de absolvição do 6º nível.
+> Ponteiro: o bloco de Problema/Diagnóstico onde isso é encenado tem falas verbatim de webinars campeões em `exemplos-por-bloco/04-problema-interesse.md`, repare como o caso de 8 dígitos transfere a culpa pro vilão externo ("o mundo mudou", "gestor do passado") sem nunca acusar quem está na sala, que é o mesmo mecanismo de absolvição do 6º nível.
 
 ---
 
@@ -65,7 +65,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 > "comida é sintoma; mexer no prato é podar a folha de uma planta cuja raiz ninguém olhou." (exemplo de outro nicho, emagrecimento)
 
-**Como usar como bloco do webinar.** Vive dentro da fase Diagnóstico/Mecanismo, imediatamente antes do 6º nível (entre os 5 níveis e o punch do 6º). Conduz item por item batendo na diferença entre **sentir e diagnosticar**. Guarda a tensão no último item ("ela escolheu o RPG e parece que acabou. Não acabou.") pra emendar no framework 1. O usuário escolhe a metáfora-escada do nicho dele (uma cadeia sintoma → causa → soluções → a solução que vira prisão), não a escoliose. Três moldes preenchidos:
+**Como usar como bloco do webinar.** Vive dentro da fase Diagnóstico/Mecanismo, imediatamente antes do 6º nível (entre os 5N e o punch do 6º). Conduz item por item batendo na diferença entre **sentir e diagnosticar**. Guarda a tensão no último item ("ela escolheu o RPG e parece que acabou. Não acabou.") pra emendar no framework 1. O usuário escolhe a metáfora-escada do nicho dele (uma cadeia sintoma → causa → soluções → a solução que vira prisão), não a escoliose. Três moldes preenchidos:
 > EXEMPLO (saúde/postura, nicho da escoliose): sintoma = dor nas costas → causa = escoliose → soluções = RPG/cirurgia/pilates → a que vira prisão = o RPG eterno que ela faz há 3 anos.
 > EXEMPLO (marketing para especialista): sintoma = "não vendo / ninguém me vê" → causa estrutural = excesso de operação → soluções = funil/lançamento/social selling → a que vira prisão = a operação inchada que come a margem.
 > EXEMPLO (advocacia/escritório): sintoma = "não entra cliente bom, só causa pequena" → causa = posicionamento de advogado-genérico que compete por preço → soluções = mais anúncio/baixar honorário/atender de tudo → a que vira prisão = a agenda lotada de causa de R$500 que não deixa tempo pra prospectar a causa de R$50 mil. A escoliose é exemplo de saúde; cada nicho monta a própria escada com a verdade dele.
@@ -143,7 +143,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 **Por que funciona.** Demonstrar a construção é mais forte que pregar "tenha avatar". A sala se reconhece na cena privada (todo avatar tem o equivalente ao armário à noite) e o webinar prova, ao vivo, o que o posicionamento profundo produz: "o nível de profundidade que separa quem vende dica de quem vende transformação". Também serve de prova social invertida: o avatar pensa "se ele consegue me descrever assim, ele entende meu problema melhor que eu". E prepara o gancho do produto: fazer isso na mão "é destilar dezenas de conversas, horas de escuta", o que o produto do usuário entrega rápido. A persona vira, de quebra, future pacing: o desejo nomeado ("paz, não peso") é o destino que o produto entrega.
 
-> Ponteiro: a persona-âncora também aparece como prova REAL nos webinars campeões, ver `exemplos-por-bloco/07-provas-casos.md`. O melhor instanciado é a **Verônica** (Juliana Pupim, arquitetura remota): persona construída em duas camadas (teaser cedo, história completa no meio), com cena concreta ("fez a entrevista com o tradutor e o Google abertos ao mesmo tempo, zero inglês, e passou") e a fala de quem paga citada em discurso direto ("Eu vou comprar o seu sonho"). A diferença entre os dois usos: a Cláudia é persona CONSTRUÍDA ao vivo (conteúdo de desejo, mostra o método); a Verônica é persona REAL já transformada (prova). O webinar Soft usa as duas: uma demonstra o sistema, a outra prova que ele entrega.
+> Ponteiro: a persona-âncora também aparece como prova REAL nos webinars campeões, ver `exemplos-por-bloco/07-provas-casos.md`. O melhor instanciado é a **Verônica** (a autora do case de arquitetura, arquitetura remota): persona construída em duas camadas (teaser cedo, história completa no meio), com cena concreta ("fez a entrevista com o tradutor e o Google abertos ao mesmo tempo, zero inglês, e passou") e a fala de quem paga citada em discurso direto ("Eu vou comprar o seu sonho"). A diferença entre os dois usos: a Cláudia é persona CONSTRUÍDA ao vivo (conteúdo de desejo, mostra o método); a Verônica é persona REAL já transformada (prova). O webinar Soft usa as duas: uma demonstra o sistema, a outra prova que ele entrega.
 
 ---
 

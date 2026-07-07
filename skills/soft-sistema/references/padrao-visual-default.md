@@ -1,10 +1,10 @@
 # Padrão visual e engenharia estrutural
 
-O que faz uma tela parecer construída por alguém que se importa, não cuspida por IA barata. Duas camadas: a **estética** (paleta, tipo, forma: a do cliente por cima, o Leo Design System como default) e a **engenharia estrutural** (componentes ricos, tokens, temas, login, nav, i18n, **universal**, vale pra qualquer marca). O dono vai apresentar isso na frente do cliente dele: a tela é parte da venda.
+O que faz uma tela parecer construída por alguém que se importa, não cuspida por IA barata. Duas camadas: a **estética** (paleta, tipo, forma: a do cliente por cima, o padrão visual da skill como default) e a **engenharia estrutural** (componentes ricos, tokens, temas, login, nav, i18n, **universal**, vale pra qualquer marca). O dono vai apresentar isso na frente do cliente dele: a tela é parte da venda.
 
 ## Índice
-- [Regra-mãe: marca do cliente por cima, Leo por baixo](#regra-mae)
-- [A estética default (Leo Design System)](#estetica-default)
+- [Regra-mãe: marca do cliente por cima, o padrão visual por baixo](#regra-mae)
+- [A estética default](#estetica-default)
 - [Tokens de cor e os 2 temas (sem flash)](#tokens-temas)
 - [Os 3 inegociáveis (com grep de prova)](#inegociaveis)
 - [Componentes ricos (o catálogo)](#componentes-ricos)
@@ -14,12 +14,12 @@ O que faz uma tela parecer construída por alguém que se importa, não cuspida 
 - [Checklist visual antes de liberar](#checklist)
 
 <a id="regra-mae"></a>
-## Regra-mãe: marca do cliente por cima, Leo por baixo
+## Regra-mãe: marca do cliente por cima, o padrão visual por baixo
 
-Esta skill é **marca-neutra**. A ESTRUTURA (componentes ricos, tema duplo, login split, nav numerada, tokens, zero gradiente/emoji/travessão) é **universal**, vale pra toda tela, toda marca. A **paleta e o tipo** vêm da marca do CLIENTE: leia a identidade dele (site, material, o que o dono passar) e aplique nos tokens. Na ausência de marca definida, o **default é o Leo Design System** abaixo. Nunca decida a paleta sozinho quando o cliente tem uma; nunca deixe sem paleta quando ele não tem (cai no default).
+Esta skill é **marca-neutra**. A ESTRUTURA (componentes ricos, tema duplo, login split, nav numerada, tokens, zero gradiente/emoji/travessão) é **universal**, vale pra toda tela, toda marca. A **paleta e o tipo** vêm da marca do CLIENTE: leia a identidade dele (site, material, o que o dono passar) e aplique nos tokens. Na ausência de marca definida, o **default é o padrão visual da skill** abaixo. Nunca decida a paleta sozinho quando o cliente tem uma; nunca deixe sem paleta quando ele não tem (cai no default).
 
 <a id="estetica-default"></a>
-## A estética default (Leo Design System)
+## A estética default
 
 Editorial brutalista-técnico. Sofisticação pela subtração. O contraste vem de branco-sobre-preto e hairlines de 1px, **não** de blocos de cor.
 
@@ -171,4 +171,4 @@ Espelha o GATE VISUAL do SKILL.md. Antes de dar uma tela por pronta:
 - entrada por login split; resto atrás do gate.
 - nav numerada, grupos persistidos, menus de array.
 - i18n com chaves namespaced; nenhuma string solta.
-- paleta = a do cliente (ou o default Leo, se ele não tem marca).
+- paleta = a do cliente (ou o default da skill, se ele não tem marca).

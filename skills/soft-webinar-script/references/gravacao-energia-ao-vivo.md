@@ -2,7 +2,7 @@
 
 Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato de gravar.** A skill já sabe gerar o roteiro (`estrutura-webinario-aida.md`) e o deck (`geracao-de-slides.md`, `template-72-slides.md`). O que faltava é o que o cap 8 do manual ensina: como botar esse material na frente de uma câmera de um jeito que a pessoa não largue, mesmo sabendo (nós) que é gravado. A tese em uma linha: **o que converte não é só o que você fala, é como você fala. E o "como" se chama energia de ao vivo.**
 
-> Destilada do cap 8 do manual do curso ("Gravar a aula: slides e energia de ao vivo", fonte primária), do MANUAL-WEBINAR-SOFT (caps 1, 4, 9 e 13) e do METODO-WEBINAR-SOFT-COMPLETO (Parte 5, com as falas do Léo sobre integridade do gravado). Falas literais citadas com origem. Exemplos de nichos alheios marcados como EXEMPLO.
+> Destilada do cap 8 do manual do curso ("Gravar a aula: slides e energia de ao vivo", fonte primária), do MANUAL-WEBINAR-SOFT (caps 1, 4, 9 e 13) e do METODO-WEBINAR-SOFT-COMPLETO (Parte 5, com as falas do autor do método sobre integridade do gravado). Falas literais citadas com origem. Exemplos de nichos alheios marcados como EXEMPLO.
 
 **Fronteiras (o que NÃO mora aqui):**
 
@@ -19,11 +19,11 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 
 **O que "energia" significa (e o que não significa).** Não é iluminação, não é câmera. É a forma de comunicar:
 
-> "O gravado não tem energia do ao vivo. Quando eu falo energia é a forma como vocês comunicam." (Léo, call Hugo)
+> "O gravado não tem energia do ao vivo. Quando eu falo energia é a forma como vocês comunicam." (autor do método, call Hugo)
 
-> "Quando você tá falando de um webinar, o que converte não é só o que você fala, é *como* você fala. Você é muito mais fã do jeito que [um grande comunicador] fala do que do que ele fala. Porque o que ele fala, no final das contas, você já ouviu tudo." (Léo, call Hugo; nome do comunicador citado na call, aqui tratado como slot)
+> "Quando você tá falando de um webinar, o que converte não é só o que você fala, é *como* você fala. Você é muito mais fã do jeito que [um grande comunicador] fala do que do que ele fala. Porque o que ele fala, no final das contas, você já ouviu tudo." (autor do método, call Hugo; nome do comunicador citado na call, aqui tratado como slot)
 
-**A distinção que fecha o argumento:** "Gravado é bom pra curso" (Léo, call Hugo). No curso o cliente já comprou, ele quer a informação. No webinar você está **vendendo**, e a venda mora no como. Por isso esta reference existe: um perpétuo é uma venda gravada, e o que se grava é a energia, não só as palavras.
+**A distinção que fecha o argumento:** "Gravado é bom pra curso" (autor do método, call Hugo). No curso o cliente já comprou, ele quer a informação. No webinar você está **vendendo**, e a venda mora no como. Por isso esta reference existe: um perpétuo é uma venda gravada, e o que se grava é a energia, não só as palavras.
 
 **E o lembrete de altitude, antes de qualquer técnica:**
 
@@ -31,7 +31,7 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 
 A gravação não salva roteiro fraco. Ela impede que um roteiro ótimo morra na execução.
 
-> **EXEMPLO.** O webinar de gestão de ~R$13M é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador de vagas caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
+> **EXEMPLO.** O webinar de gestão de ~8 dígitos é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador de vagas caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
 
 ---
 
@@ -41,7 +41,7 @@ A gravação não salva roteiro fraco. Ela impede que um roteiro ótimo morra na
 
 **Por quê (a armadilha da sensação).** O gravado engana quem grava:
 
-> "Se você não vai bem no ao vivo, você não vai bem no gravado. No gravado você tem a sensação que você vai bem." (Léo, call Hugo)
+> "Se você não vai bem no ao vivo, você não vai bem no gravado. No gravado você tem a sensação que você vai bem." (autor do método, call Hugo)
 
 A pessoa pode repetir, cortar, refazer, e por isso *sente* que ficou bom. Mas o que ficou registrado é a versão sem energia dela, e versão sem energia converte como versão sem energia. Por isso a regra dos 90% (webinar perpetuado sem validação ao vivo tem ~90% de chance de não converter) não é cautela: o ao vivo é onde a energia se treina e a oferta se prova, **antes** de congelar tudo num arquivo.
 
@@ -112,9 +112,9 @@ Aqui é o coração do capítulo 8 e desta reference. O deck dinâmico (listas p
 
 ### 4.3 O detalhe da palavra "ao vivo"
 
-**Mecanismo.** O efeito de presença não vem da palavra "ao vivo"; vem do jeito de conduzir. O cap 8 dá a saída pra quem se incomoda em dizer "estamos ao vivo" numa gravação: **não diz.** "Fala 'estamos online, que legal'." E a prática do próprio Léo é ainda mais limpa:
+**Mecanismo.** O efeito de presença não vem da palavra "ao vivo"; vem do jeito de conduzir. O cap 8 dá a saída pra quem se incomoda em dizer "estamos ao vivo" numa gravação: **não diz.** "Fala 'estamos online, que legal'." E a prática do próprio autor do método é ainda mais limpa:
 
-> "Eu não falo que estou ao vivo nem que não estou. Eu dou a entender que estou… ninguém se importa. Se um fala 'isso é gravado, eu sabia', você fala: gênio." (Léo, destilado no METODO, Parte 5)
+> "Eu não falo que estou ao vivo nem que não estou. Eu dou a entender que estou… ninguém se importa. Se um fala 'isso é gravado, eu sabia', você fala: gênio." (autor do método, destilado no METODO, Parte 5)
 
 **A regra que sai das fontes:** nunca **afirmar** explicitamente o que não é. O calor vem do frame (chat povoado, contador, horário marcado, condução com presença), não da declaração. Mentira explícita, se desmascarada, inverte o sinal e destrói a confiança que o webinar inteiro construiu.
 
@@ -126,12 +126,12 @@ O perpétuo tem um paradoxo de partida: **precisa parecer cheio pra ficar cheio*
 
 ### 5.1 O chat semeado e curado
 
-**Mecanismo (destilação do 13M, METODO 5.2.2):**
+**Mecanismo (destilação do caso de 8 dígitos, METODO 5.2.2):**
 - Perpétuo sem chat de origem: **pré-preencher mensagens** simulando participantes (o empurrão inicial).
 - Ativar "salvar comentários reais": tudo que a audiência real digita **passa por aprovação sua** e vira chat das sessões seguintes.
-- Com o tempo, o semeado é substituído pelo real: "hoje, isso aqui tudo são comentários reais das pessoas que eu fui aprovando" (fonte 13M, METODO 5.2.2).
+- Com o tempo, o semeado é substituído pelo real: "hoje, isso aqui tudo são comentários reais das pessoas que eu fui aprovando" (fonte caso de 8 dígitos, METODO 5.2.2).
 - **Calibragem:** 50 a 150 mensagens. Mais de 200, "ninguém presta atenção na aula, presta no chat".
-- **A jogada do Léo (eternizar):** elogio real colhido numa sessão ao vivo vira comentário das sessões futuras. Prova social que se autoalimenta, sem produzir nada.
+- **A jogada do autor do método (eternizar):** elogio real colhido numa sessão ao vivo vira comentário das sessões futuras. Prova social que se autoalimenta, sem produzir nada.
 
 **A régua de honestidade, literal da fonte:** "Semear ≠ mentir descaradamente; é dar o empurrão inicial e curar o real." (METODO 5.2.2, regra de decisão). Anti-padrão nomeado pela fonte: prova social falsa óbvia/exagerada (números absurdos, depoimentos inventados), que desmascarada inverte o sinal.
 
@@ -147,7 +147,7 @@ O conteúdo das perguntas (5 categorias, respostas-molde) está em `objection-an
 
 ### 5.3 Escassez de sala e contador
 
-**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: a sessão tem lugares limitados de verdade, o link é individual, quem fecha a janela perde a sessão daquele horário. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o Léo cita 180-200; a fonte 13M usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
+**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: a sessão tem lugares limitados de verdade, o link é individual, quem fecha a janela perde a sessão daquele horário. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o autor do método cita 180-200; a fonte caso de 8 dígitos usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
 
 ### 5.4 A questão da integridade (a resposta do cap 8, inteira)
 
@@ -200,7 +200,7 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 1. **Tela parada.** Falar minutos sobre o mesmo slide. É o erro número um do cap 8: perde a sala, e no perpétuo perde pra sempre, em todas as sessões.
 2. **Gravar sem validar.** A regra dos 90%. A sensação enganosa de "no gravado eu vou bem" congela a sua versão sem energia. Treina ao vivo até ir bem ao vivo, depois grava.
 3. **Ler o slide em voz alta.** Teleprompter público. A copy mora nas notas; quem aparece na tela é só o reforço (`geracao-de-slides.md`).
-4. **Afirmar "estou ao vivo" como declaração.** O frame faz o trabalho; a declaração explícita é a única coisa que, desmascarada, inverte o sinal. (Léo, METODO Parte 5)
+4. **Afirmar "estou ao vivo" como declaração.** O frame faz o trabalho; a declaração explícita é a única coisa que, desmascarada, inverte o sinal. (autor do método, METODO Parte 5)
 5. **Prova social falsa óbvia.** Número absurdo no contador, depoimento inventado, chat com 300 mensagens que ninguém lê. A fonte manda semear pouco e curar o real.
 6. **Sala de gravação do tamanho errado.** Menos de 8 parece vazio; mais de 15 tira o controle. E não confundir com a sala de validação (150-200).
 7. **Gravar a chamada em vez do arquivo local.** Compressão de Zoom vira a cara do perpétuo inteiro. Grava local, sempre.
@@ -247,9 +247,9 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 
 ## DECISÕES CRAVADAS (10/jun) - onde as fontes divergiam
 
-Critério: a prática literal do Léo + o guarda-corpo da escassez honesta (G7) decidem; a variante de mercado fica documentada como EXEMPLO, nunca como padrão. *(Decisões vetáveis pelo especialista.)*
+Critério: a prática literal do autor do método + o guarda-corpo da escassez honesta (G7) decidem; a variante de mercado fica documentada como EXEMPLO, nunca como padrão. *(Decisões vetáveis pelo especialista.)*
 
-1. **"Estamos ao vivo" no gravado: BANIDO afirmar explicitamente.** O padrão Soft é a prática do Léo: *"eu não falo que estou ao vivo nem que não estou, eu dou a entender"* (METODO). Presença se faz por condução (eco de chat, micro-comandos, pausas), nunca por declaração. "Estamos online" é a forma autorizada. A "escolha de consciência" do cap 8 do manual fica registrada como variante de mercado - fora do padrão Soft.
+1. **"Estamos ao vivo" no gravado: BANIDO afirmar explicitamente.** O padrão Soft é a prática do autor do método: *"eu não falo que estou ao vivo nem que não estou, eu dou a entender"* (METODO). Presença se faz por condução (eco de chat, micro-comandos, pausas), nunca por declaração. "Estamos online" é a forma autorizada. A "escolha de consciência" do cap 8 do manual fica registrada como variante de mercado - fora do padrão Soft.
 2. **Chat na gravação: pode ecoar - desde que REAL e ATEMPORAL.** Com sala real (8-15), ecoar nomes/cidades/dores é recomendado (o eco é verdadeiro e dá energia). A regra da soft-webinar-plano ("não interagir ao gravar") protege o evergreen - o que ela proíbe de fato é o eco que DATA a gravação: nunca responder data, evento, notícia, "hoje é…". Eco atemporal sim; eco datável nunca; Q&A sempre em bloco separado (atualizável).
-3. **Contador de presença: padrão = comportamento do Léo (manter 180-200).** A simulação dinâmica com pico ~120 da máquina 13M fica como EXEMPLO de variante, não como padrão Soft.
-4. **Comentários simulados no perpétuo: SÃO padrão Soft (atualização 10/jun).** O Léo decidiu que, no perpétuo gravado, a **simulação de comentários É o padrão** (supera a nota conservadora anterior, que tratava só comentário real como padrão e a simulação como variante a validar). A sala simulada é o desenho operacional do perpétuo: reproduz a energia típica que uma sala real daquele tamanho teria, sem o que NÃO se simula nunca: **escassez/vagas declaradas continuam REAIS** (G7), **resultado de cliente nunca se inventa** (vem do banco real do player), preço/oferta/garantia são os de verdade. A régua em uma frase: **simula-se a SALA, nunca a PROVA.** O caminho "duplicar a melhor sessão real com comentários reais" (§2, §5.1) continua sendo o ideal quando existe; a simulação roteirizada é o padrão pros perpétuos que não nascem de uma sessão ao vivo gravada com chat. A referência OPERACIONAL dessa capacidade (matemática de cadência, tipos de comentário com falas prontas, formato Excel, checagem de consistência bidirecional contra o roteiro, 2 modos: gerar/auditar) é `simulador-comentarios-ao-vivo.md`.
+3. **Contador de presença: padrão = comportamento do autor do método (manter 180-200).** A simulação dinâmica com pico ~120 da máquina de 8 dígitos fica como EXEMPLO de variante, não como padrão Soft.
+4. **Comentários simulados no perpétuo: SÃO padrão Soft (atualização 10/jun).** O autor do método decidiu que, no perpétuo gravado, a **simulação de comentários É o padrão** (supera a nota conservadora anterior, que tratava só comentário real como padrão e a simulação como variante a validar). A sala simulada é o desenho operacional do perpétuo: reproduz a energia típica que uma sala real daquele tamanho teria, sem o que NÃO se simula nunca: **escassez/vagas declaradas continuam REAIS** (G7), **resultado de cliente nunca se inventa** (vem do banco real do player), preço/oferta/garantia são os de verdade. A régua em uma frase: **simula-se a SALA, nunca a PROVA.** O caminho "duplicar a melhor sessão real com comentários reais" (§2, §5.1) continua sendo o ideal quando existe; a simulação roteirizada é o padrão pros perpétuos que não nascem de uma sessão ao vivo gravada com chat. A referência OPERACIONAL dessa capacidade (matemática de cadência, tipos de comentário com falas prontas, formato Excel, checagem de consistência bidirecional contra o roteiro, 2 modos: gerar/auditar) é `simulador-comentarios-ao-vivo.md`.

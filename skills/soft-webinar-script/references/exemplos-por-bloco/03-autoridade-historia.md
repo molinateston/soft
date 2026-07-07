@@ -1,6 +1,6 @@
 # Autoridade + história de origem (cicatriz, prova de autoridade, "por que eu posso te ensinar isso")
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = MindMaster.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars de referência A/C; máquina de 8 dígitos = operação-referência.
 
 ---
 
@@ -16,21 +16,21 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-Este bloco responde a UMA pergunta na cabeça do lead: "por que ESSA pessoa pode me ensinar isso?" - e os campeões respondem em duas camadas que precisam vir nas duas, nunca só numa. Camada 1: identificação - a cicatriz do apresentador é o estado ATUAL do avatar ("perdemos um bom técnico e ganhamos um péssimo líder. Esse era eu" = exatamente quem está assistindo; 110kg aos 14 anos = a aluna de dieta; chorar no chuveiro sem entender projeto americano = a arquiteta que quer ir pros EUA). Camada 2: credencial - escala e linhagem com fonte nomeada (16.236 alunos, Toyota "direto na fonte", doutorado USP, US$ 100 milhões em vendas). A ordem é rigorosa em todos: fundo do poço PRIMEIRO, troféu depois - a vulnerabilidade antes da autoridade faz o avatar se ver na história; o troféu sem a cicatriz distancia. Terceiro trabalho: a virada nunca é dom - é sorte, mentor, método ou estudo ("por sorte eu entrei na Toyota", "o que mudou foi quando investi num mentor"), porque dom não é transferível e método é. Quarto: o superlativo nunca sai da boca do próprio ("best in the world at webinars" é e-mail de terceiro lido verbatim; o próprio só dá número e documento). Quinto: a biografia pré-figura a oferta - o ponto-de-virada do herói é a mesma decisão que se pedirá no pitch. Sexto (máquina MindMaster): o bloco ainda carrega seeding - preço de tabela e esteira entram aqui como "fato de catálogo", 90 minutos antes da oferta.
+Este bloco responde a UMA pergunta na cabeça do lead: "por que ESSA pessoa pode me ensinar isso?" - e os campeões respondem em duas camadas que precisam vir nas duas, nunca só numa. Camada 1: identificação - a cicatriz do apresentador é o estado ATUAL do avatar ("perdemos um bom técnico e ganhamos um péssimo líder. Esse era eu" = exatamente quem está assistindo; 110kg aos 14 anos = a aluna de dieta; chorar no chuveiro sem entender projeto americano = a arquiteta que quer ir pros EUA). Camada 2: credencial - escala e linhagem com fonte nomeada (16.236 alunos, Toyota "direto na fonte", doutorado USP, US$ 100 milhões em vendas). A ordem é rigorosa em todos: fundo do poço PRIMEIRO, troféu depois - a vulnerabilidade antes da autoridade faz o avatar se ver na história; o troféu sem a cicatriz distancia. Terceiro trabalho: a virada nunca é dom - é sorte, mentor, método ou estudo ("por sorte eu entrei na Toyota", "o que mudou foi quando investi num mentor"), porque dom não é transferível e método é. Quarto: o superlativo nunca sai da boca do próprio ("best in the world at webinars" é e-mail de terceiro lido verbatim; o próprio só dá número e documento). Quinto: a biografia pré-figura a oferta - o ponto-de-virada do herói é a mesma decisão que se pedirá no pitch. Sexto (máquina da operação-referência): o bloco ainda carrega seeding - preço de tabela e esteira entram aqui como "fato de catálogo", 90 minutos antes da oferta.
 
 ---
 
 ## Exemplo por exemplo
 
-### Webinar 13M (MindMaster, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 (de R$3.000 por 12x R$165), avatar CLT querendo promoção
+### Webinar de gestão (8 dígitos) (operação-referência, ed. A - modelo-mestre 8 dígitos) - gestão corporativa, o programa de gestão (ed. 2), de R$3.000 por 12x R$165, avatar CLT querendo promoção
 
 **Trecho literal:**
 
 Prova de autoridade institucional + seeding de preços da esteira (antes de qualquer conteúdo):
 
-> "a m Master já tem mais de 10 anos de mercado, já tem mais, tem que até atualizar, acho que tá mais de 17.000 agora, mas enfim temos Vamos seguir o slide aqui né, mais de 16.23 alunos, eh mais de 500.000 leitores, 400.000 seguidores nas redes sociais, assim a a empresa já é uma empresa grande né, e é considerada uma das maiores escolas e consultoria de gestão ágil do Brasil"
+> "a m Master já tem mais de 10 anos de mercado, já tem mais, tem que até atualizar, acho que tá mais de 17.000 agora, mas enfim temos Vamos seguir o slide aqui né, mais de 16.23 alunos, eh mais de 500.000 leitores, 400.000 seguidores nas redes sociais, assim a a empresa já é uma empresa grande né, e é considerada uma das maiores escolas e consultoria de gestão do Brasil"
 
-> "normalmente o valor desse workshop gira aí de 297 até 997 tá, eu não sei qual foi a condição que você entrou nesse aqui […] esse é o nosso curso mais vendido tá, desses 16.000 e tantos alunos aqui A grande maioria é desse curso Aqui é do gestão ag 2.0, eh o valor de mercado dele é R 3.000 […] eu Ten o MBA de Gestão ágil e custa R 12.000"
+> "normalmente o valor desse workshop gira aí de 297 até 997 tá, eu não sei qual foi a condição que você entrou nesse aqui […] esse é o nosso curso mais vendido tá, desses 16.000 e tantos alunos aqui A grande maioria é desse curso Aqui é do gestão (ed. 2), eh o valor de mercado dele é R 3.000 […] eu Ten o MBA de gestão e custa R 12.000"
 
 A cicatriz (primeira posição de gestão = fracasso):
 
@@ -44,7 +44,7 @@ A virada (Toyota como fonte primária, com humildade narrativa - "por sorte"):
 
 A fundação (origem do negócio como consequência de paixão, não de marketing):
 
-> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a Mind Master em 2014 tá, e a aí o resto é história"
+> "foi nessas consultorias que eu conheci o meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a operação-referência em 2014 tá, e a aí o resto é história"
 
 **O que ele fez:** (1) dupla autoridade na ordem empresa→pessoa (16.230 alunos, 500k leitores, 400k seguidores / 25 anos de carreira, Santander, Toyota, BRQ); (2) seeding da âncora de preço dentro da autoridade - workshop 297-997, curso R$3.000, MBA R$12.000 ditos como informação neutra de catálogo, 90 min antes da oferta; (3) cicatriz com frase-síntese citável ("perdemos um bom técnico e ganhamos um péssimo Líder"); (4) o vilão da história é a ignorância dele mesmo ("eu não sabia ser gestor") - a mesma dor do avatar; (5) virada por sorte + Toyota como prova de linhagem ("direto na fonte"), reaproveitada depois na seção "por que esse curso é diferente"; (6) fundação da empresa como consequência de paixão.
 
@@ -54,23 +54,23 @@ A fundação (origem do negócio como consequência de paixão, não de marketin
 
 ---
 
-### Gestão Ágil ed. 2.0 (MindMaster, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
+### GA ed.2 (operação-referência) - mesma máquina, edição com loop de depoimentos no pré-início; o programa de gestão (ed. 2) a R$1.997 → R$165,34/mês
 
 **Trecho literal:**
 
 Autoridade da empresa por números:
 
-> "Então a Mindmaster, ela já tem 6, 7 anos, eu sou ruim de fazer contas de matemática, mas é por aí, 7, 8 anos de mercado, não lembro exatamente, mas os números que estão na tela aqui estão mais fáceis de falar. A gente já tem mais de 500 mil leitores do nosso blog, mais de 320 mil pessoas cadastradas recebendo nossos e-mails diariamente, mais de 200 mil pessoas nas nossas redes sociais recebendo conteúdo de gestão ágil todo dia, e o número que eu mais gosto desses todos aqui, a gente já tem mais de 14.426 alunos de gestão. Olha só que bacana, né? E hoje somos a maior escola de gestão ágil do Brasil."
+> "Então a operação-referência, ela já tem 6, 7 anos, eu sou ruim de fazer contas de matemática, mas é por aí, 7, 8 anos de mercado, não lembro exatamente, mas os números que estão na tela aqui estão mais fáceis de falar. A gente já tem mais de 500 mil leitores do nosso blog, mais de 320 mil pessoas cadastradas recebendo nossos e-mails diariamente, mais de 200 mil pessoas nas nossas redes sociais recebendo conteúdo de gestão todo dia, e o número que eu mais gosto desses todos aqui, a gente já tem mais de 14.426 alunos de gestão. Olha só que bacana, né? E hoje somos a maior escola de gestão do Brasil."
 
 Autoridade pessoal:
 
-> "Meu nome é Denison, eu tenho mais de 20 anos, vou até atualizar esse slide, mais de 20 anos de experiência, nos últimos 14, na verdade nos últimos 15, […] Últimos 15 anos me especializando em gestão ágil de projetos. Sou apaixonado por isso, por esse tema"
+> "Meu nome é [o host], eu tenho mais de 20 anos, vou até atualizar esse slide, mais de 20 anos de experiência, nos últimos 14, na verdade nos últimos 15, […] Últimos 15 anos me especializando em gestão de projetos. Sou apaixonado por isso, por esse tema"
 
 História de origem (trajetória com marcas de prova):
 
-> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão ágil. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão ágil em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e o Denis Pedro fundamos a MindMaster."
+> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e o meu sócio fundamos a operação-referência."
 
-**O que ele fez:** (1) autoridade em duas camadas (empresa → indivíduo); (2) número hiperespecífico (14.426 alunos, não "14 mil") para credibilidade; (3) claim de categoria ("a MAIOR escola de gestão ágil do Brasil"); (4) name-dropping de marcas Tier 1 (Toyota, Santander) com a Toyota dobrando como ORIGEM do método que ele vai ensinar (Lean) - autoridade vira setup de conteúdo; (5) loop aberto ("que eu vou explicar aqui para vocês"); (6) imperfeição calculada ("sou ruim de contas", "slide desatualizado") que humaniza e, por contraste, valida a precisão do número no slide.
+**O que ele fez:** (1) autoridade em duas camadas (empresa → indivíduo); (2) número hiperespecífico (14.426 alunos, não "14 mil") para credibilidade; (3) claim de categoria ("a MAIOR escola de gestão do Brasil"); (4) name-dropping de marcas Tier 1 (Toyota, Santander) com a Toyota dobrando como ORIGEM do método que ele vai ensinar (Lean) - autoridade vira setup de conteúdo; (5) loop aberto ("que eu vou explicar aqui para vocês"); (6) imperfeição calculada ("sou ruim de contas", "slide desatualizado") que humaniza e, por contraste, valida a precisão do número no slide.
 
 **Por que funciona:** nesta edição a história é menos cicatriz emocional e mais trilha de credenciais que termina fundando a escola. A jogada-chave é amarrar a biografia ao mecanismo ("foi NA TOYOTA que eu aprendi o Lean"): o método deixa de ser teoria de curso e vira espólio vivido, impossível de commoditizar.
 
@@ -78,15 +78,15 @@ História de origem (trajetória com marcas de prova):
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO MindMaster) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
+### 5N (o estrategista da operação-referência) - gestão, o programa de gestão (ed. 2) (R$3.000 ancorado → R$1.697 / R$165 por mês)
 
 **Trecho literal:**
 
-> "A Mindmaster já tem mais de 10 anos de mercado, já tem mais... tem que atualizar, acho que está mais de 17 mil agora. Mas enfim, temos... Vamos seguir o slide aqui, né? Mais de 16.236 alunos. Mais de 500 mil leitores, 400 mil seguidores nas redes sociais. A empresa já é uma empresa grande. E é considerada uma das maiores escolas e consultoria de gestão ágil do Brasil."
+> "A operação-referência já tem mais de 10 anos de mercado, já tem mais... tem que atualizar, acho que está mais de 17 mil agora. Mas enfim, temos... Vamos seguir o slide aqui, né? Mais de 16.236 alunos. Mais de 500 mil leitores, 400 mil seguidores nas redes sociais. A empresa já é uma empresa grande. E é considerada uma das maiores escolas e consultoria de gestão do Brasil."
 
 Seeding de preço dentro da autoridade - jogada-chave:
 
-> "Do que você está participando? Você está participando disso aqui, de um workshop de gestão ágil. […] normalmente o valor desse workshop gira de R$ 2,97 até R$ 9,97. […] Temos o nosso curso principal, que é o Gestão Ágil 2.0. […] Esse é o nosso curso mais vendido. Desses 16 mil e tantos alunos aqui, a grande maioria é desse curso aqui. É do Gestão Ágil 2.0. O valor de mercado dele é R$ 3 mil. E é o nosso principal curso de formação."
+> "Do que você está participando? Você está participando disso aqui, de um workshop de gestão. […] normalmente o valor desse workshop gira de R$ 2,97 até R$ 9,97. […] Temos o nosso curso principal, que é o programa de gestão (ed. 2). […] Esse é o nosso curso mais vendido. Desses 16 mil e tantos alunos aqui, a grande maioria é desse curso aqui. É do programa de gestão (ed. 2). O valor de mercado dele é R$ 3 mil. E é o nosso principal curso de formação."
 
 A cicatriz:
 
@@ -96,7 +96,7 @@ A virada de sorte com prova de fonte:
 
 > "E aí, por sorte do destino, dois anos depois, eu apliquei para uma vaga, e eu nem sabia que era Toyota, era porque era perto de casa. […] Num tal de um conceito chamado Lean, que em português significa enxuto. Eu aprendi na Toyota, direto na fonte. E por que eu digo que é sorte? Cara porque n tinha empresa melhor para eu trabalhar do que a Toyota e eu nem sabia que era Toyota"
 
-> "A gente vai ter mais liberdade. E a gente fundou a Mindmaster em 2014. E aí, o resto é história."
+> "A gente vai ter mais liberdade. E a gente fundou a operação-referência em 2014. E aí, o resto é história."
 
 **O que ele fez:** (1) prova numérica específica (16.236 alunos - o número quebrado dá veracidade; 500 mil leitores, 400 mil seguidores, 10+ anos); (2) **seeding da âncora de preço (R$ 3 mil) aos ~6 minutos de aula**, apresentado como informação neutra de catálogo - e ele mesmo cobra esse seeding lá na frente ("Eu já tinha falado lá no começo, não estou fazendo suspense"); (3) história de origem em arco cicatriz→mentor (Toyota como mentor institucional)→missão; (4) humildade estratégica ("por sorte", "eu quase perdi o emprego") que desarma a vaidade do expert; (5) frase-espelho do avatar.
 
@@ -106,23 +106,23 @@ A virada de sorte com prova de fonte:
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / MindMaster) - vende Gestão Ágil 2.0 por R$1.997 à vista / 12x R$199
+### GA ed.1 - "o programa de gestão com IA" (o estrategista da operação-referência) - vende o programa de gestão (ed. 2) por R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
 Autoridade da empresa + reason-why de contar:
 
-> "a Mindmaster é uma empresa, a gente já está há mais de 10 anos no mercado. Hoje é uma das maiores escolas e consultoria de gestão do Brasil. A gente já tem aí mais de 19 mil alunos. Esse slide está até desatualizado, tá? É mais de 20. […] Tem mais de 500 mil seguidores no Instagram, aquela coisa toda. A gente tem uma relevância muito grande no mercado."
+> "a operação-referência é uma empresa, a gente já está há mais de 10 anos no mercado. Hoje é uma das maiores escolas e consultoria de gestão do Brasil. A gente já tem aí mais de 19 mil alunos. Esse slide está até desatualizado, tá? É mais de 20. […] Tem mais de 500 mil seguidores no Instagram, aquela coisa toda. A gente tem uma relevância muito grande no mercado."
 
 > "Por que eu estou trazendo isso? Só para você entender que, cara. Quem está trazendo essa informação para você, essa atualização do mercado, não é alguém que surgiu ontem, tá? Só a nossa empresa já tem mais de 10 anos do mercado, só ensinando isso."
 
 Seeding da esteira e do preço (ainda na apresentação!):
 
-> "Nós temos o nosso carro-chefe, que é o Formação Gestão Ágil 2.0, é um curso. É o nosso custo mais vendido, é a formação mais completa do nosso método, custa R$ 3.500,00. Temos MBA em gestão ágil, dois MBAs, inclusive. Custa R$ 18.900 e a nossa consultoria, que é sob consulta."
+> "Nós temos o nosso carro-chefe, que é o a formação de gestão (ed. 2), é um curso. É o nosso custo mais vendido, é a formação mais completa do nosso método, custa R$ 3.500,00. Temos MBA em gestão, dois MBAs, inclusive. Custa R$ 18.900 e a nossa consultoria, que é sob consulta."
 
 Credencial pessoal + anti-teoria:
 
-> "Eu sou o Denison Vieira, eu tenho 27 anos de experiência profissional, sendo mais de 20 anos dedicados à gestão ágil. Então, tudo isso que eu vou falar pra você aqui também, eu não aprendi ontem, não aprendi nos livros, eu aprendi, cara, trabalhando no campo de batalha, no dia a dia dos projetos".
+> "Eu sou [o host], eu tenho 27 anos de experiência profissional, sendo mais de 20 anos dedicados à gestão. Então, tudo isso que eu vou falar pra você aqui também, eu não aprendi ontem, não aprendi nos livros, eu aprendi, cara, trabalhando no campo de batalha, no dia a dia dos projetos".
 
 A cicatriz:
 
@@ -144,11 +144,11 @@ Falsa modéstia de fechamento:
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500, avatar arquiteta mal paga no Brasil
+### Case de arquitetura (a autora do case de arquitetura - o programa de arquitetura internacional) - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500, avatar arquiteta mal paga no Brasil
 
 **Trecho literal:**
 
-> "Quem é Juliana Pupim? Quem sou eu? Quem é que já me conhece? Quem é que sabe? Quem já ouviu falar de mim? Bom, eu treino e mentoro arquitetos e designers de interiores brasileiros. Eu sou pioneira ensinando projeto arquitetônico, projeto de arquitetura para brasileiros nos Estados Unidos. Por quê? Porque nasceu a partir da minha necessidade."
+> "Quem é a autora do case de arquitetura? Quem sou eu? Quem é que já me conhece? Quem é que sabe? Quem já ouviu falar de mim? Bom, eu treino e mentoro arquitetos e designers de interiores brasileiros. Eu sou pioneira ensinando projeto arquitetônico, projeto de arquitetura para brasileiros nos Estados Unidos. Por quê? Porque nasceu a partir da minha necessidade."
 
 A cicatriz (adaptação sem ninguém ensinando):
 
@@ -156,11 +156,11 @@ A cicatriz (adaptação sem ninguém ensinando):
 
 Origem do produto = pedido da chefe americana (autoridade emprestada):
 
-> "E há dois anos eu criei o programa Seja Arquiteto na América, que é o meu programa de treinamento. Por quê? Porque a minha chefe americana, ela me pediu, depois que eu já tava há dois anos na empresa, ela me pediu que treinasse outros arquitetos para entrar, porque os americanos gostam dos brasileiros, gente, sem essa síndrome de viraatra."
+> "E há dois anos eu criei o programa de arquitetura internacional, que é o meu programa de treinamento. Por quê? Porque a minha chefe americana, ela me pediu, depois que eu já tava há dois anos na empresa, ela me pediu que treinasse outros arquitetos para entrar, porque os americanos gostam dos brasileiros, gente, sem essa síndrome de viraatra."
 
 Humildade calculada + credencial gigante na mesma frase:
 
-> "eu entrei como cadista, então eu entrei sem saber nada col, eu já tinha 18 anos de formada no Brasil, uma baita de uma experiência, mais de 1 milhão de m² projetados, executados no Brasil. Eu realmente era muito grande no Brasil, mas quem era Juliana nos Estados Unidos? Ninguém."
+> "eu entrei como cadista, então eu entrei sem saber nada col, eu já tinha 18 anos de formada no Brasil, uma baita de uma experiência, mais de 1 milhão de m² projetados, executados no Brasil. Eu realmente era muito grande no Brasil, mas quem era a autora do case de arquitetura nos Estados Unidos? Ninguém."
 
 Arco completo até o presente (ela vive o que vende):
 
@@ -174,7 +174,7 @@ Arco completo até o presente (ela vive o que vende):
 
 ---
 
-### Webinar Léo A (pele Soft aplicada: nutrição / voz Vítor Abrão / MDI) - emagrecimento, MDI a R$997 → R$797, sala perpétua
+### Webinar de referência A (pele Soft aplicada: nutrição / voz o autor do case de nutrição) - emagrecimento, [PROGRAMA] a R$997 → R$797, sala perpétua
 
 **Trecho literal:**
 
@@ -198,17 +198,17 @@ Arco completo até o presente (ela vive o que vende):
 
 ---
 
-### Webinar C (corpus Léo - voz Bruno, dentista) - "Resina Anterior / Método One 2.0", odonto, R$3.000 público → R$1.997 pros 10 primeiros
+### Webinar C (corpus do autor do método - voz o autor do case de odontologia, dentista) - odonto, R$3.000 público → R$1.997 pros 10 primeiros
 
 **Trecho literal:**
 
-> "sabe aonde que eu aprendi isso? Eu aprendi isso fazendo, eu aprendi isso no bucho, eu aprendi isso pagando as minhas contas fazendo resina anterior. Eu não vi uma família que tem grana, eu não vim de família rica. Vou deixar uma foto aqui ó, eu na minha adolescência lá em Patos de Minas, e sou eu de camisa laranja, pode acreditar, essa cachopa de cabelo aqui eu sou eu, o pescoço era dessa figurinha aqui. Essa que estão vendo na foto aí ó é a minha mãe, a minha avó, a primeira vez que eu fiz uma live e que elas conseguiram ligar a Live na televisão, ficou parecendo que eu era um artista, que elas fizeram uma foto assistindo a minha Live. Será que eu quero te dizer é que eu não vim de família rica, o que eu vou te ensinar aqui eu aprendi a dura as penas. Eu não vou deixar você aprender a dor apenas, porque hoje eu vou te dar o caminho. Mas a resina foi meio para mim e ela pode ser meio para você"
+> "sabe aonde que eu aprendi isso? Eu aprendi isso fazendo, eu aprendi isso no bucho, eu aprendi isso pagando as minhas contas fazendo o procedimento-case. Eu não vi uma família que tem grana, eu não vim de família rica. Vou deixar uma foto aqui ó, eu na minha adolescência lá em Patos de Minas, e sou eu de camisa laranja, pode acreditar, essa cachopa de cabelo aqui eu sou eu, o pescoço era dessa figurinha aqui. Essa que estão vendo na foto aí ó é a minha mãe, a minha avó, a primeira vez que eu fiz uma live e que elas conseguiram ligar a Live na televisão, ficou parecendo que eu era um artista, que elas fizeram uma foto assistindo a minha Live. Será que eu quero te dizer é que eu não vim de família rica, o que eu vou te ensinar aqui eu aprendi a dura as penas. Eu não vou deixar você aprender a dor apenas, porque hoje eu vou te dar o caminho. Mas o procedimento-case foi meio para mim e ele pode ser meio para você"
 
-> "eu peguei todo o conteúdo que eu desenvolvi ao longo do meu tempo fazendo mestrado - fiz mestrado na Federal de Uberlândia, fiz doutorado na USP São Paulo, fiz especialização de Radiologia, fiz especialização de dentística, fiz atualizações de prótese - peguei tudo isso, virei Professor, pesquisei, orientei mestrado, quarentei doutorado, e peguei todo o conteúdo que eu desenvolvi, que me ajudou a melhorar de vida, e coloquei nesses dois livros. Um deles, de finalização e manutenção de resina, tá esgotado, acabou, esse livro não tem mais, vendeu tudo. O outro - Bruno, você vai fazer de novo? Cara, não sei. Eu quero privilegiar você que tá aqui comigo, eu quero privilegiar os alunos que querem ficar comigo, eu não sei se eu vou colocar todos esses livros de novo no mercado"
+> "eu peguei todo o conteúdo que eu desenvolvi ao longo do meu tempo fazendo mestrado - fiz mestrado na Federal de Uberlândia, fiz doutorado na USP São Paulo, fiz especialização de Radiologia, fiz especialização de dentística, fiz atualizações de prótese - peguei tudo isso, virei Professor, pesquisei, orientei mestrado, quarentei doutorado, e peguei todo o conteúdo que eu desenvolvi, que me ajudou a melhorar de vida, e coloquei nesses dois livros. Um deles, de finalização e manutenção de resina, tá esgotado, acabou, esse livro não tem mais, vendeu tudo. O outro - o autor do case de odontologia, você vai fazer de novo? Cara, não sei. Eu quero privilegiar você que tá aqui comigo, eu quero privilegiar os alunos que querem ficar comigo, eu não sei se eu vou colocar todos esses livros de novo no mercado"
 
 A história do pai (reprise da origem, ~55% do webinar):
 
-> "Meu pai fez um curso técnico de eletrônica lá em 1982 […] trabalhou durante quase 30 anos essa empresa, ele faleceu trabalhando nessa empresa […] como funcionário operacional, carteira assinada, bater ponto na hora de chegar, bater ponto na hora de sair. Falou: Bruno, só tem uma opção para você estudar, se você fizer uma escola pública, não tem condição de pagar particular. Fiz faculdade pública, minha mãe é costureira. Ou seja, eu mudei o padrão na minha família e eu espero que você mude da sua"
+> "Meu pai fez um curso técnico de eletrônica lá em 1982 […] trabalhou durante quase 30 anos essa empresa, ele faleceu trabalhando nessa empresa […] como funcionário operacional, carteira assinada, bater ponto na hora de chegar, bater ponto na hora de sair. Falou: o autor do case de odontologia, só tem uma opção para você estudar, se você fizer uma escola pública, não tem condição de pagar particular. Fiz faculdade pública, minha mãe é costureira. Ou seja, eu mudei o padrão na minha família e eu espero que você mude da sua"
 
 A faixa preta de verdade (metáfora-identidade lastreada em vida):
 
@@ -216,9 +216,9 @@ A faixa preta de verdade (metáfora-identidade lastreada em vida):
 
 E o crédito devolvido na hora do pitch (frase emprestada com dono):
 
-> "se eu não vim família rica, uma coisa eu vou te falar: a minha filha vai vir de família rica" - e na hora do pitch ele devolve o crédito: "essa frase não é minha, tá. […] essa frase é do Wendell Carvalho, eu vi essa frase uma live dele, achei incrível"
+> "se eu não vim família rica, uma coisa eu vou te falar: a minha filha vai vir de família rica" - e na hora do pitch ele devolve o crédito: "essa frase não é minha, tá. […] essa frase é do mentor citado no case de arquitetura, eu vi essa frase uma live dele, achei incrível"
 
-**O que ele fez:** (1) cicatriz + origem humilde (Patos de Minas, mãe costureira, pai CLT falecido na empresa) entrelaçada com prova acadêmica máxima (UFU + USP + professor + 2 livros, um esgotado); (2) "aprendi no bucho, pagando as minhas contas" - autoridade de prática antes do diploma; (3) escassez embutida na autoridade (livro esgotado que talvez não volte); (4) foto de família como prova física (mãe e avó assistindo a live na TV); (5) metáfora-identidade reutilizável e VIVIDA (faixa preta de verdade no jiu-jitsu → o método em faixas que estrutura a aula inteira); (6) legado da filha como motor aspiracional - com o crédito da frase devolvido ao dono (Wendell Carvalho); (7) a autoridade volta em reprises (~38% e ~55%), não fica presa num bloco único.
+**O que ele fez:** (1) cicatriz + origem humilde (Patos de Minas, mãe costureira, pai CLT falecido na empresa) entrelaçada com prova acadêmica máxima (UFU + USP + professor + 2 livros, um esgotado); (2) "aprendi no bucho, pagando as minhas contas" - autoridade de prática antes do diploma; (3) escassez embutida na autoridade (livro esgotado que talvez não volte); (4) foto de família como prova física (mãe e avó assistindo a live na TV); (5) metáfora-identidade reutilizável e VIVIDA (faixa preta de verdade no jiu-jitsu → o método em faixas que estrutura a aula inteira); (6) legado da filha como motor aspiracional - com o crédito da frase devolvido ao dono (o mentor citado no case de arquitetura); (7) a autoridade volta em reprises (~38% e ~55%), não fica presa num bloco único.
 
 **Por que funciona:** o avatar (dentista endividado de origem simples) precisa de DOIS sinais: "ele é como eu" (cicatriz) e "ele chegou lá pelo mérito que eu respeito" (USP/doutorado). A história do pai CLT que morre batendo ponto é o contra-modelo exato da promessa de liberdade dos blocos seguintes.
 
@@ -290,19 +290,19 @@ Desmonte do pedestal (objeção "você é especial"):
 
 ## Padrões transversais (checklist pra escrever o bloco)
 
-1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus MindMaster resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
-2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (Denison), 110kg (Vítor), chorar no chuveiro sem entender projeto (Juliana), dentista de origem simples cobrando pouco (Bruno), dar aula boa e não vender (webinar de referência). Se a cicatriz não espelha a sala, é biografia, não ponte.
+1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus operação-referência resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
+2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (o estrategista da operação-referência), 110kg (o autor do case de nutrição), chorar no chuveiro sem entender projeto (a autora do case de arquitetura), dentista de origem simples cobrando pouco (o autor do case de odontologia), dar aula boa e não vender (webinar de referência). Se a cicatriz não espelha a sala, é biografia, não ponte.
 3. **Duas camadas de credencial:** escala/instituição (alunos, anos, seguidores, empresa) + vivência pessoal (onde aprendeu fazendo). Uma sem a outra fica coxa.
 4. **Número específico e quebrado** (16.236, não "16 mil"; 12/11/2007; 1 milhão de m²) - número auditado convence, número redondo cheira a invenção. Prova documental quando der (foto de família, e-mail lido verbatim, foto da sala paga).
-5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - MindMaster; USP/doutorado - Bruno; Genius Network - webinar de referência; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
+5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - operação-referência; USP/doutorado - o autor do case de odontologia; Genius Network - webinar de referência; chefe americana - a autora do case de arquitetura). Autoridade vira setup do conteúdo: a fonte volta no método.
 6. **A virada nunca é dom:** é sorte ("nem sabia que era Toyota"), estudo ("resolvi estudar"), mentor ("my first big investment") ou pedido externo. Dom não é transferível; método e decisão são - e a decisão de comprar mentoria pode ser o próprio ponto-de-virada (webinar de referência #2).
 7. **Humildade calculada:** "por sorte", "sou ruim de contas", "slide desatualizado", typo na 1ª frase, "é ruim ficar falando de si". A imperfeição na fala valida a precisão do número no slide.
 8. **Superlativo sempre terceirizado:** "best in the world" vem de e-mail; "maior escola do Brasil" vem de "é considerada"; o próprio só entrega número e documento.
-9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (MindMaster), Tesla na garagem → "sistematizar" (webinar de referência), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
+9. **Origem do produto com reason-why externo:** chefe pediu (a autora do case de arquitetura), sócio e paixão (operação-referência), Tesla na garagem → "sistematizar" (webinar de referência), "não vou te deixar aprender a duras penas como eu" (o autor do case de odontologia). O produto nunca nasce de "resolvi vender".
 10. **A biografia pré-figura a oferta:** o arco do herói termina exatamente na porta da decisão que o pitch vai pedir (cadista→empreendedora = as 2 estratégias; investir no mentor = comprar o curso; mudei o padrão da minha família = mude o da sua).
-11. **Seeding dentro da autoridade (máquina MindMaster):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
-12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era Juliana nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
-13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação webinar de referência #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. Bruno também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
+11. **Seeding dentro da autoridade (máquina da operação-referência):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
+12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era a autora do case de arquitetura nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
+13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação webinar de referência #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. o autor do case de odontologia também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
 
 ---
 
@@ -313,18 +313,18 @@ Desmonte do pedestal (objeção "você é especial"):
 - **Dizer o superlativo na própria voz** ("eu sou o melhor em X"). Todos terceirizam: e-mail, mídia, "é considerada", aluno. Autodeclaração gera resistência; artefato gera aceitação.
 - **Atribuir a virada a talento.** "Eu sempre tive facilidade" destrói a transferibilidade - se foi dom, o método não serve pro lead. Os campeões atribuem a sorte+método+mentor.
 - **Cicatriz genérica** ("eu também já sofri"). Sem detalhe sensorial e verificável (chuveiro, vômito, dormir no chão, camisa laranja na foto), a cicatriz não cola - especificidade é o que separa história de discurso.
-- **Âncora inventada dentro da autoridade.** Quando MindMaster e Bruno citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
-- **Usar mecanismo alheio sem dono.** Bruno cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da MindMaster; "gestossauro" é do Denison) - apropriar mecanismo de outro como seu é contaminação.
-- **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da MindMaster - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
+- **Âncora inventada dentro da autoridade.** Quando operação-referência e o autor do case de odontologia citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
+- **Usar mecanismo alheio sem dono.** o autor do case de odontologia cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao o mentor citado no case de arquitetura ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da operação-referência; "gestossauro" é do estrategista da operação-referência) - apropriar mecanismo de outro como seu é contaminação.
+- **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da operação-referência - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
 - **Bloco de autoridade longo demais antes de dar valor.** Todos resolvem em ~5-8 minutos e fecham com humildade ("é ruim ficar falando de si") ou loop pro conteúdo. Autoridade que não abre loop pro resto da aula é monumento, não ponte.
 
 ---
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o modelo, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina MindMaster, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
+**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o modelo, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina da operação-referência, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
 
 Variações de forma que valem registrar como dado:
 - **webinar de referência #2 é o único que QUEBRA o bloco em dois:** credencial no início, cicatriz (galpão/dormir no chão/investir no mentor) guardada para a entrada da oferta - a história de origem usada como peça de fechamento, não de abertura.
-- **Bruno (Webinar C) faz reprises:** a origem volta aos ~38% (faixa preta de luta) e ~55% (história do pai) - autoridade como fio contínuo, não capítulo único.
-- **Juliana (Aluna 80k) abre a cicatriz com loop:** "vou falar mais sobre ela aqui depois" - e paga o loop na transição pra venda (história da comida japonesa). A origem alimenta dois blocos.
+- **o autor do case de odontologia (Webinar C) faz reprises:** a origem volta aos ~38% (faixa preta de luta) e ~55% (história do pai) - autoridade como fio contínuo, não capítulo único.
+- **a autora do case de arquitetura (o case de arquitetura) abre a cicatriz com loop:** "vou falar mais sobre ela aqui depois" - e paga o loop na transição pra venda (história da comida japonesa). A origem alimenta dois blocos.
