@@ -144,15 +144,25 @@ Fórmula diz a ESTRUTURA da frase. Ângulo diz de que LADO psicológico você at
 - Todo template escolhido continua passando pelo gate normal do Passo 4; a régua só decide QUAIS templates entram no conjunto, não afrouxa nenhum critério.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
 1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
-3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
-4. **Standalone:** cada frase entendida sem contexto e sem explicação.
-5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
-6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
-7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
-Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
+6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
+7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
+8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
+Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
+
+### PRINCÍPIO-MÃE + ordem de operação (a headline NASCE da cena; a régua só confere)
+A headline nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: frase gerada de regra nasce limpa e morta. Frase reprovada NÃO se remenda, REGENERA do zero, cena primeiro (frase editada herda o esqueleto do defeito). **Ordem:** (1) cena com a emoção (raiva, medo, absurdo, cobiça) → (2) frase de mesa, com atitude → (3) template como esqueleto que arruma a cena → (4) checklist completo, mecânico, TODOS os filtros. A régua INTEGRAL (8 seções + cemitério + calibradores) mora em `references/regua-final.md`; a doutrina marca-neutra, em `shared-references/crivo/06-regua-de-escrita.md`.
+
+**Calibradores (reprovada → aprovada; o padrão do defeito):**
+- "Coisas que parecem dia rendendo..." (composto de laboratório) → "Coisas que enchem o teu dia mas não pagam o teu mês: responder direct é a primeira."
+- "Demite 3 das tuas 4 estratégias" (verbo concreto, objeto abstrato) → "Cancela o lançamento do segundo semestre."
+- "O 'vou pensar' morre no domingo" (personificação, figura de escritor) → "Quem te fala 'vou pensar' na sexta, na segunda já esqueceu teu nome."
+- "Você tem permissão... desde que" (template pela casca; contrato, não alforria) → "A regra dos '6 meses gerando valor' foi inventada por quem vive do teu conteúdo grátis."
 
 ## Passo 3, escreve 2-3 headlines DENTRO de cada template
 Pra cada template escolhido, escreve **2-3 headlines**, todas ancoradas na fala real (Passo 0). Estilo Soft: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket"), tom de comando, nunca morno. **Clareza acima de tudo (Lei 1): nada de palavra difícil, nada de figura de linguagem vazia ("mensagem cheia"), só o que uma pessoa real diria.** Toda headline nasce **curta e densa, reaproveitável em qualquer formato** (capa, reel, post, story). **Quando o formato-destino já é conhecido, comprime pra ele, respeitando OS DOIS eixos (palavras E caracteres com espaço):** reel falado ≤7 palavras nos 3s · reel texto na tela ≤5 palavras E ≤40 caracteres/linha · capa de carrossel 8-15 palavras E ≤65 caracteres na linha-título · story 5-10 palavras E ≤50 caracteres no topo · anúncio ≤5 palavras · email 8-12 palavras E ≤45 caracteres no assunto · YouTube 50-70 caracteres. A tabela completa dos 8 formatos vai INLINE no Passo 4 (é o alvo que o gate conta); o protocolo de redução detalhado está em `references/criterios-v2.md`. **Tempero, só se a headline estiver chapada:** injeta 1 dispositivo de `references/dispositivos-de-frase.md` (preparação+virada, antítese, dizer o não-dito, evocação sensorial), nunca no lugar da ideia. No topo de cada grupo, declara o **template (nome/fórmula) + os gatilhos** que ele aciona. **Não narra o fluxo**, só entrega limpo, organizado por template.
@@ -194,7 +204,21 @@ O check "Teto físico do formato" manda CONTAR contra um alvo. O alvo mora AQUI,
 | **Dá pra falsificar?** | é um fato falsificável, não um adjetivo | |
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · **repetição paralela idêntica em série (a mesma casca sintática 2-3x seguidas, tipo "...é assim. Com Y é assim.") também é tell**; em T13/T28 varia a estrutura, não copia a moldura. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **VIDA (tensão/absurdo)** | tem tensão, absurdo, força ou visceralidade; dá pra sentir no corpo; algo em jogo DENTRO da frase (custo, medo ou desejo com nome). **Frase limpa mas MORTA = ✗ mesmo passando em todo o resto** | |
+| **Valência única + 1 operação** | leitura única sem re-parse; o leitor sabe na 1ª leitura se é bom ou ruim (valência única); sintaxe linear (sujeito-verbo-objeto, zero oração encaixada); 1 operação mental só (uma cena OU um contraste OU uma conta já resolvida, nunca duas) | |
+| **Compressão cota ZERO** | verbo da relação por extenso ("gente que te segue há 2 anos", nunca "seguidor de 2 anos"); todo pronome com dono óbvio; corte de cinema diz quem fala. Aperto de frase NÃO é fonte de força, a força é do fato | |
+| **Concretude (mundo do leitor)** | componentes do método viram dias/horas/lugares/falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo; **verbo concreto + objeto abstrato ("demite a estratégia") = concretude falsa, ✗**; ordem executável só sobre objeto que o leitor POSSUI hoje | |
+| **Voz de mesa** | a colocação inteira é fala real numa mesa; metáfora morta entra ("a venda morre", "ficou no vácuo"), personificação e figura de escritor não ("o 'vou pensar' morre no domingo"); licença poética cota 1-2 por lote de 30, sinalizada | |
+| **Template = movimento** | template é movimento psicológico, não casca; a instrução do molde nunca vaza literal pra frase ("pôs a mão em X"); culpa no desenho ou no timing, nunca no caráter do leitor | |
+| **Densidade** | duas headlines com a mesma tese de roupa nova = 1 falha; corta com log transparente | |
+| **Prova (atribuição exata)** | número do banco de provas do dono com atribuição exata, nunca fundir (o número de A jamais aparece como de B); [CONTA] apresentada sempre como conta, nunca faturamento realizado; renda do leitor só em 3ª pessoa; camada do dono: zero preço/garantia/oferta em conteúdo | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
+
+### META-REGRAS do processo (valem no lote inteiro, não só na frase)
+- **Régua CUMULATIVA:** filtro novo nunca substitui os velhos. A passada FINAL roda TODOS os filtros em cada linha, em modo checklist, nunca só os frescos. (O pêndulo, otimizar o feedback novo quebrando a conquista anterior, foi o erro mais repetido.)
+- **Cemitério de conceitos:** ideia reprovada pelo dono não ressuscita de roupa nova. A lista de mortos vive na seção "Cemitério" de `references/regua-final.md`; quando o dono reprova, a entrada É ADICIONADA lá e passa a fazer parte do gate.
+- **Auto-lupa antes do dono:** aponta as próprias dúvidas do lote ANTES da auditoria dele (a whitelist mental deixa passar o próprio vício).
+- **Dono no loop no MEIO:** em varredura grande (banco de 50/100/200), amostra por seção no meio do caminho, não só no fim. A régua garante o piso; o olho do dono constrói a régua.
 
 ## Passo 5, mostra e PARA
 Mostra **só as que passaram, agrupadas por template, LIMPO** (no DOC, nunca solto no chat): cada grupo com o **template nomeado + os gatilhos** no topo e as 2-3 headlines embaixo. Sem tabela de gate, sem meta. Pergunta "quais te servem? ajusto, troco de template, ou gero mais?". **Espera a escolha** antes de gerar volume ou passar pro corpo (soft-conteudo-carrossel / -reels / -stories).
@@ -229,6 +253,7 @@ O resultado (as headlines agrupadas por template) é o entregável, e o cliente 
 | Banco "completo" com menos de 50 templates, calado | Ou entrega os 50+ validados, ou DIZ quais faltaram e por quê (ancoragem insuficiente); nunca entrega menos em silêncio |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
+- `references/regua-final.md`: **A RÉGUA INTEGRAL** (as 8 seções calibradas em 6 rodadas: Vida · Clareza · Concretude · Voz · Template · Prova · Anti-IA · Meta-regras) + o **Cemitério de conceitos** (vivo: entra aqui quando o dono reprova) + os **calibradores completos** (pares reprovada → aprovada). É o miolo do gate do Passo 4, com toda a evidência. A doutrina marca-neutra da qual ela deriva está em `shared-references/crivo/06-regua-de-escrita.md`.
 - `references/templates.md`: **O CÂNONE POR GATILHO completo** (as 86 fórmulas T nas 6 famílias, com a gramática de slots no topo, os exemplos multi-nicho, as variações fundidas e as notas de refinamento) + a numeração C1-C6 dos ângulos. **Central nos Passos 2-3.**
 - `references/subcanones-formato.md`: **renderização por formato** (a MESMA fórmula comprimida pro teto de cada formato, com o exemplo de uma fórmula renderizada nos 4 formatos e a evidência de cada teto). Plataforma não é família, é camada de renderização. A tabela de tetos está inline no gate (Passo 4).
 - `references/templates-candidatos.md`: a INCUBADORA (C9-C12) com fichas completas e a regra de promoção por métrica. Só via "usa os candidatos".

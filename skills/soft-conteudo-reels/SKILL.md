@@ -46,15 +46,16 @@ O reel carrega **um insight, uma virada, uma frase**, nunca a tese inteira. Quem
 **Declara a camada (atração é funil, não bloco):** C1 = reel curto com gancho que o leigo entende (alcance) · C2 = reel longo opinativo, técnica entremeada com opinião pessoal (convicção, ótimo pra dark post) · C3 = reel-visita ao cliente no contexto real dele (prova viva). A camada muda o gancho e o comprimento. (Detalhe em `references/camadas-conciencia.md`.)
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
 1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
-3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
-4. **Standalone:** cada frase entendida sem contexto e sem explicação.
-5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
-6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
-7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
-Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
+6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
+7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
+8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
+Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
 
 ## Passo 2, escreve o gancho nos 3 tipos (os 3 primeiros segundos)
 A headline do Passo 0 entra nos 3 primeiros segundos, trabalhada em **até 3 frentes ao mesmo tempo**. Uma já segura. As três em conflito multiplicam (o texto contradiz a imagem, a fala abre o loop, a pessoa precisa descobrir o que vem). Escreve as que servirem ao reel:

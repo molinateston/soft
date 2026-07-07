@@ -31,15 +31,16 @@ O design do método num lugar só: banner, carrossel e slide viram uma capacidad
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o path completo na resposta (vira anexo); condução em mensagens curtas, sem markdown pesado. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
 1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
-3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
-4. **Standalone:** cada frase entendida sem contexto e sem explicação.
-5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
-6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
-7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
-Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
+6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
+7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
+8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
+Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
 
 ## Passo 0, lê o perfil e ancora a copy-visual (NÃO PULE)
 Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): avatar, fonte de VoC, banco de provas, voz e nicho são DELE. Usuário sem perfil vai pro onboarding antes de produzir. O designer nunca assume dados de outra pessoa, nem deixa o perfil-de-referência vazar pra peça.

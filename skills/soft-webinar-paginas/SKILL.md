@@ -78,15 +78,16 @@ Faz as 5 perguntas **numa única mensagem** (não interroga uma a uma; junta tud
 O que ele entregar vira a matéria-prima dos blocos: a resposta 1 alimenta a Headline (Passo 1.1) e a Subheadline; a 2 vira as Provas na moeda do checkout (Bloco D); a 3 vira o Contra-filtro (Passo 1.7) e cada bônus que mata 1 objeção (Bloco E); a 4 vira a bio detalhada/USP (Passo 1.B); a 5 fixa o Stack e a escassez auditável (Blocos A/B/E). Resposta vaga ou ausente NÃO autoriza inventar: minera primeiro as fontes do Passo 0, e o que ainda faltar entra como `[A CONFIRMAR: o que falta]` e não conta como ancorado. Com o ouro na mão (extraído + minerado), segue pro Passo 1.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
 1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
-3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
-4. **Standalone:** cada frase entendida sem contexto e sem explicação.
-5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
-6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
-7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
-Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
+6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
+7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
+8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
+Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
 
 ## Passo 1, Página de CADASTRO (captura e qualifica)
 Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atrair o avatar certo, repelir o errado) · gerar desejo e curiosidade. O objetivo NÃO é volume máximo, é qualidade. Ordem dos blocos: Hook → Subheadline → Bullets → Foto/autoridade → Formulário → Infos do evento → Contra-filtro → Prova social discreta.

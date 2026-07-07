@@ -78,15 +78,16 @@ A aula são 4 fases na ordem, mais um pré-início OBRIGATÓRIO. **A régua de p
 > A engenharia completa de cada bloco ADMA (pergunta-chave, estado-alvo, modelo de fala, anti-padrão) está em `references/estrutura-webinario-aida.md`. **Lê esse arquivo bloco a bloco antes de escrever a fase correspondente.** Ele é a fonte da ordem e do porquê de cada beat. A mecânica universal por trás (as 4 partes do modelo, os 5 elementos da introdução, o checklist de 4 da autoridade, as 2 vendas, o CVSC por passo, os 8 mecanismos da história) está em `references/modelo-webinar-referencia.md`; o cérebro de premissas que JULGA cada peça (as 10 meta-premissas + os 11 guarda-corpos) está em `references/premissas-e-guarda-corpos.md`. Quando a forma canônica ferir a premissa num nicho, a premissa ganha.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-Escreve JÁ dentro do gate, nunca pra ser corrigido por ele depois:
+A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
 1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Uma ideia por frase.** Número em algarismo no lugar de adjetivo.
-3. **Voz do cliente final:** zero jargão de marketing (lead, funil, ticket, copy).
-4. **Standalone:** cada frase entendida sem contexto e sem explicação.
-5. **Anti-IA:** zero travessão, zero família banida, zero frase-emoldura, zero clichê de robô.
-6. **Promessa do tamanho da prova:** menor com chão ganha de grande sem chão.
-7. **Teto do formato conhecido ANTES de escrever** (conta durante, não conserta depois).
-Depois de escrita, a auditoria do gate confere DE FATO (busca e contagem). Reprovou, reescreve ANTES de mostrar.
+2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
+6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
+7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
+8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
+Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
 
 ## Passo 2, escreve o Mecanismo na SEQUÊNCIA REAL (o coração da aula)
 O Mecanismo NÃO é "inverter 3 crenças" nem "3 viradas". É uma **sequência rica e fixa** que instala uma NOVA OPORTUNIDADE (não uma melhoria) e termina no "EU QUERO". **Esta é a correção-mãe da skill: o Mecanismo segue a ordem da Fase M de `references/estrutura-real-webinar.md`, não um motor de viradas.** A ordem (estilo webinar de referência):
