@@ -149,6 +149,18 @@
 
 > **A regra da fatia:** o produto barato é uma FATIA do que já está dentro do principal, não um produto novo. Tenha UM produto central masterizado e derive fatias dele, em vez de espalhar produto novo.
 
+### Modo tráfego frio (o degrau de entrada de ticket doce)
+
+Quando o dono roda **tráfego pago frio**, o produto de entrada ganha uma versão calibrada pra ser a porta barata que abastece a esteira e o webinário. É **possibilidade/degrau, não um novo pilar do negócio.**
+
+- **Ticket doce: ~R$197 a R$497**, com **297/397** costumando ser o ponto ideal (baixo o bastante pra decisão de impulso no frio, alto o bastante pra filtrar curioso e ajudar a pagar o tráfego). High-ticket direto no frio via VSL longa + time de vendas é exceção, não a rota-padrão deste degrau.
+- **Dois caminhos pra montá-lo sem inventar produto novo:**
+  - **(a) Resumo condensado do carro-chefe:** a versão enxuta do principal, o "essencial que já resolve", que dá a 1ª vitória e cria fome do completo.
+  - **(b) Extrair UM módulo e vender solto:** pega o módulo mais autônomo do principal (o que entrega um resultado sozinho) e vende como produto fechado. É a "fatia" da regra acima, com preço de frio.
+- **Função na esteira:** é degrau de ENTRADA que alimenta o topo (quem compra o degrau doce vira lead quente do núcleo/webinário; quem não compra segue no remarketing). Não substitui nada acima dele.
+
+> **Guarda-corpo (decisão do dono, "só músculo tático"):** este degrau de ticket doce **NÃO é um funil de VSL rival** e não vira novo pilar. O **webinário-perpétuo continua o funil-mãe** do ecossistema; o produto de entrada pra tráfego frio é uma das PORTAS que abastecem esse funil, uma possibilidade tática, não um funil substituto. Ao desenhar, deixa explícito no doc que o produto barato alimenta a esteira/webinário, não compete com ela.
+
 ---
 
 ## Como os tipos convivem (a esteira)

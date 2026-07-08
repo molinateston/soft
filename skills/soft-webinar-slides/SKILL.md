@@ -1,6 +1,6 @@
 ---
 name: soft-webinar-slides
-description: "Renderiza o DECK/slides do webinar Soft a partir de um roteiro ADMA já pronto: projeta o roteiro nos beats do deck, escolhe o arquétipo de cada slide, joga TODA a copy falada pras notas e deixa na tela só o reforço (1 ideia, 1 número ou 1 imagem por slide), com mecanismo e oferta em slides próprios e respiro em toda virada. Não reescreve o roteiro nem reordena os blocos, só veste de tela. Roda o gate antes de exportar e faz o handoff do visual fino. Use quando o pedido for slides do webinar, deck do webinar, apresentação do webinar, gerar os slides, montar o deck, template de slides, copy na nota, ritmo do deck. NÃO use pra escrever o roteiro/falas do webinar inteiro → soft-webinar-script; nem pro PLANO/esqueleto ADMA → soft-webinar-plano; nem pra OFERTA/stack/preço → soft-webinar-plano; nem pro visual fino/arte/PNG → soft-designer; nem pra carta/VSL/landing → soft-funil-carta/soft-funil-landing."
+description: "Renderiza o DECK/slides do webinar Soft a partir de um roteiro APSD já pronto: projeta o roteiro nos beats do deck, escolhe o arquétipo de cada slide, joga TODA a copy falada pras notas e deixa na tela só o reforço (1 ideia, 1 número ou 1 imagem por slide), com mecanismo e oferta em slides próprios e respiro em toda virada. Não reescreve o roteiro nem reordena os blocos, só veste de tela. Roda o gate antes de exportar e faz o handoff do visual fino. Use quando o pedido for slides do webinar, deck do webinar, apresentação do webinar, gerar os slides, montar o deck, template de slides, copy na nota, ritmo do deck. NÃO use pra escrever o roteiro/falas do webinar inteiro → soft-webinar-script; nem pro PLANO/esqueleto APSD → soft-webinar-plano; nem pra OFERTA/stack/preço → soft-webinar-plano; nem pro visual fino/arte/PNG → soft-designer; nem pra carta/VSL/landing → soft-funil-carta/soft-funil-landing."
 ---
 
 # Slides do webinar, o deck que constrói crença slide a slide
@@ -10,7 +10,7 @@ O deck não é o conteúdo. É o amplificador visual de um roteiro que já funci
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de exportar qualquer deck.**
 
 ## Output Contract (o que você entrega)
-- Um **deck descrito slide a slide** projetado sobre o roteiro ADMA: por slide, o **arquétipo/tipo**, o **reforço visível** (1 frase OU 1 número OU 1 imagem-conceito) e **a copy falada na NOTA**.
+- Um **deck descrito slide a slide** projetado sobre o roteiro APSD: por slide, o **arquétipo/tipo**, o **reforço visível** (1 frase OU 1 número OU 1 imagem-conceito) e **a copy falada na NOTA**.
 - A entrega vem **por fase do roteiro, uma de cada vez** (Atenção → Diagnóstico → Mecanismo → Ação), nunca o deck inteiro despejado.
 - Cada fase mostrada vem com **a tabela do gate preenchida** (o artefato visível).
 - Você **para e espera OK** antes de seguir pra próxima fase.
@@ -24,8 +24,8 @@ O deck não é o conteúdo. É o amplificador visual de um roteiro que já funci
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`; no **agente/Telegram**, gera o doc como arquivo `.md` e cita o path completo na resposta (o bridge anexa), com a condução em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário; o gate e o deck vão dentro do arquivo). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
 ## Passo 0, exige o roteiro pronto (NÃO PULE)
-O deck nasce do script, nunca do zero. Procura o roteiro ADMA, nesta ordem: **roteiro colado na conversa** → **descrição do projeto** → **mensagens anteriores**. Três estados de entrada (declara qual é o seu):
-- **Tem roteiro ADMA completo:** caminho ideal. Projeta direto.
+O deck nasce do script, nunca do zero. Procura o roteiro APSD, nesta ordem: **roteiro colado na conversa** → **descrição do projeto** → **mensagens anteriores**. Três estados de entrada (declara qual é o seu):
+- **Tem roteiro APSD completo:** caminho ideal. Projeta direto.
 - **Tem só esqueleto/blocos, sem fala fechada:** projeta os beats, mas marca cada nota como `[FALA: do roteiro, a fechar]` e avisa que o deck só fecha com o roteiro pronto (vai pra **soft-webinar-script** escrever, ou **soft-webinar-plano** pro esqueleto).
 - **Não tem roteiro:** PARA. Não inventa fala de palco. Manda fechar o roteiro primeiro (**soft-webinar-script**) e volta.
 
@@ -34,7 +34,7 @@ Puxa do roteiro: a UMA promessa central · o mecanismo nomeado · as provas reai
 ## Passo 1, projeta o roteiro nos beats do deck (ordem-lei)
 Cada bloco do roteiro vira uma faixa de slides. A ordem é lei: cada slide deixa o lead num estado que é pré-condição do próximo. Pode **expandir** um beat em mais slides; **não pode suprimir nem reordenar**. Proporção-alvo: **~55% ensino / ~45% oferta** (o fechamento pesa quase tanto quanto o conteúdo, nunca encurta).
 
-| Fase ADMA | Faz na tela | Arquétipos típicos |
+| Fase APSD | Faz na tela | Arquétipos típicos |
 |---|---|---|
 | **Pré-início** | sala "começa" antes de começar: pergunta de dor fixa + prova social passiva | capa · respiro |
 | **Atenção** | promessa-mãe → autoridade (empresa antes da pessoa) → origem (fracasso primeiro) → manifesto-tese → dicotomia (medo primeiro) → contrato com loops → presente pra quem ficar | capa · respiro · prova · dicotomia |
@@ -91,7 +91,7 @@ Preenche a tabela **por fase**. Só fase com VEREDITO=PASSA é mostrada/exportad
 | **Slide serve a fala** | o reforço amplifica a fala, não compete com ela; nada de teleprompter público | |
 | **Densidade baixa** | framework SIMPLES; só prova/documento pode ser denso; zero mega-diagrama de consultoria | |
 | **Mecanismo e oferta próprios** | mecanismo tem slide(s) só dele; stack e preço nos slides de oferta; nada dividindo palco | |
-| **Ritmo ADMA** | respiro preto em TODA virada de fase; proporção ~55/45; fechamento não encurtado; ordem dos beats preservada | |
+| **Ritmo APSD** | respiro preto em TODA virada de fase; proporção ~55/45; fechamento não encurtado; ordem dos beats preservada | |
 | **Mobile/legível** | lê no celular (fonte grande, contraste, sem bloco miúdo) | |
 | **Slots e prova reais** | slots `(a definir)` marcados não inventados; stack/bônus/preço/escassez REAIS; Big-Idea não fabricada | |
 | **Anti-IA (HARD) — CONTAGEM COLADA, não declaração** | zero travessão "—" e zero família "travar" (trava/travou/destrava...) em **QUALQUER** caractere do arquivo (títulos, rótulos, bullets, moldura, tela E nota), · reticências unicode "…" trocadas por "..." · sem "Não é X. É Y." em série · sem frase-emoldura · sem verbo-clichê. **Esta passada NÃO passa por declaração: cola aqui a evidência, uma sub-linha por caractere proibido, com a contagem varrendo o TEXTO DO DOC INTEIRO (não a memória):** `— : 0 ocorrências` · `trav* : 0 ocorrências` · `… : 0 ocorrências`. **Contagem >0 = ✗ (a fase NÃO passa).** Sem a contagem colada, a passada sai NÃO-VERIFICADO = ✗ (espelha `03-gate-cub.md`: grep à mostra, não confere de cabeça). No Code, roda `python3 scripts/lint_copy.py` no arquivo inteiro e cola o exit code. | |
@@ -104,7 +104,7 @@ Mostra **só a fase que passou**, com a tabela do gate, e pergunta "essa fase te
 
 ## When NOT to use (manda pra skill certa)
 - Pediu o **roteiro/falas do webinar inteiro** → **soft-webinar-script**.
-- Pediu o **PLANO/esqueleto ADMA / perpétuo vs ao vivo** → **soft-webinar-plano**.
+- Pediu o **PLANO/esqueleto APSD / perpétuo vs ao vivo** → **soft-webinar-plano**.
 - Pediu a **OFERTA / stack / preço / garantia** → **soft-webinar-plano**.
 - Pediu **arte/visual fino/PNG/paleta** → **soft-designer**.
 - Pediu **carta/VSL/landing** → **soft-funil-carta** / **soft-funil-landing**.

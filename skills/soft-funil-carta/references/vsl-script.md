@@ -176,6 +176,22 @@ Diferença do VSL genérico:
 
 ---
 
+## Testa a MENSAGEM antes de produzir (MVP barato)
+
+Produção cara (locação, câmera, edição, regravação) só entra DEPOIS que a mensagem provou que segura. Antes disso, o VSL vencedor não se acha gravando bonito, se acha testando barato.
+
+O caminho:
+
+1. **Roda a mensagem num formato barato.** Vídeo cinético (imagens + legendas + narração), slides narrados, uma gravação caseira de celular. O objetivo não é ficar bonito, é testar o ROTEIRO (hook, mecanismo, prova, oferta) por poucos reais.
+2. **Compara os ângulos e acha a menos-pior.** Vários leads/roteiros no mesmo formato barato; o tráfego diz qual segura e converte melhor. Você não está procurando a peça final, está eliminando as ruins.
+3. **Só a vencedora do teste barato vai pra produção pesada.** Aí sim vale gravar caro: você já sabe qual mensagem defender.
+
+**Ressalva honesta (não-validado, testar caso a caso).** Às vezes a mensagem que ganha no cinético não ganha depois de produzida (a produção muda o tom, a presença, o ritmo). Então o teste barato elimina as claramente ruins e aponta a favorita, mas não é veredito final: quando a produção subir, re-testa a vencedora contra uma alternativa antes de escalar verba.
+
+Isso casa com a modelagem do Passo 0-bis: você modela a estrutura de um vencedor, testa a mensagem barato, e só produz o que sobreviveu ao teste.
+
+---
+
 ## Durações por ticket
 
 | Ticket | Duração ideal do VSL |

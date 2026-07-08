@@ -149,6 +149,14 @@ Profundidade em `references/lancamento-e-esteira.md` (vender antes com data, fou
 
 **STOP.** A estrategia de lancamento: data futura, 2 founding alternados, gate de consumo, teto individual, porta (micro-oferta), canal de fechamento. Espera OK.
 
+## Funil micro-ondas (aquece o lead frio antes do contato humano, pra quem vende servico)
+
+Uma jogada de arquitetura de funil pra quem vende **procedimento ou servico** (quem atende, consultor, mentor): esquenta o lead frio em minutos, antes de qualquer contato humano. E **tatica**: convive com a escada de 3 funis (Funil Soft, Webinar, Launch), o webinario-perpetuo segue como funil-mae. A regra do menor custo continua: base quente e audiencia antes de trafego frio.
+
+- **Funil micro-ondas:** reel/anuncio que fisga a dor, automacao de comentario/DM ("digita [palavra]"), pagina de aula de ~15 min que AQUECE (o especialista tira a duvida do pre/durante/pos do servico), botao de WhatsApp so no fim. Quem chega no WhatsApp ja assistiu a aula e chega quente pro fechamento de servico 1:1, nunca frio.
+
+Profundidade e handoffs em `references/lancamento-e-esteira.md` (secao "Funil micro-ondas").
+
 ---
 
 ## O GATE (roda por dentro, silencioso, NAO imprime)
@@ -237,4 +245,4 @@ Plano de Jogadas aprovado alimenta: **soft-conteudo-stories** (a sequencia de st
 
 ## References (o corpo carrega o metodo; estas guardam a profundidade dirigida)
 - `references/jogadas-de-campanha.md`: as 10 jogadas de campanha, cada uma no formato completo (o que e · quem pode rodar · resultado esperado como SLOT · como funciona passo-a-passo com as falas-ancora · onde encaixa no mes · quem executa · ajuste Soft), o cardapio rapido e os fios que costuram as jogadas. Lida nos P1 e P2.
-- `references/lancamento-e-esteira.md`: o lado lancamento da oferta (vender antes com data futura, os 2 founding alternados, o gate de consumo, o teto individual, a micro-oferta como porta e o downsell com cashback, a esteira de 3 publicos e a matematica da meta). Lida no P3.
+- `references/lancamento-e-esteira.md`: o lado lancamento da oferta (vender antes com data futura, os 2 founding alternados, o gate de consumo, o teto individual, a micro-oferta como porta e o downsell com cashback, a esteira de 3 publicos e a matematica da meta) + os **funis de entrada de baixa friccao** (tripwire/ganho por lead, grupo de WhatsApp "lead eterno", funil micro-ondas), a camada tatica que enche o topo da esteira. Lida no P3.

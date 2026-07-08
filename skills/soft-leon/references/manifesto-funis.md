@@ -62,7 +62,7 @@ Gates, um por linha:
 - **soft-conteudo-multiplataforma**: re-renderiza a peça-âncora preservando a tese (LinkedIn/X/YouTube/email) e escreve o comentário fixado da peça; mantém o gate.
 - **soft-designer**: o visual passa no `soft-designer/scripts/craft.py` (contraste + anti-órfã) antes de exportar PNG, incluindo a capa/thumbnail de vídeo. O LEON só confere que rodou.
 - **soft-conteudo-impulsionar**: avalia/pontua a peça antes de publicar (Modo Avaliar) e decide o impulsionar (o que turbinar, verba, público); só entra com peças que já provaram engajamento real.
-- **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta ADMA), Mini-webinar (micro-aula ADMA). A peça qualifica; não fecha a venda.
+- **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta APSD), Mini-webinar (micro-aula APSD). A peça qualifica; não fecha a venda.
 - **soft-vendas-sdr / soft-vendas-closer**: o **Comercial 1:1 é sempre aqui**, em duas frentes. `soft-vendas-sdr` = a metade de cima: prospecção (abre), qualificação (BANT), agenda a sessão como vaga escassa, follow-up, autônomo no CRM/GHL; só entra com equipe e volume. `soft-vendas-closer` = a metade de baixo: script (conduz as 7 fases), objeção (isola), copiloto (tempo real), fechamento, coleta de sinal/Pix, pós-venda (indicação/onboarding). Cada um com gate embutido. **Canal padrão do 1:1 = DM/WhatsApp** (fecha no chat com áudio/doc/vídeo); call é exceção de contexto, o SDR+Closer separado só com equipe e volume.
 
 ---
@@ -78,7 +78,7 @@ soft-plano-posicionamento  → soft-conteudo-planner → -headlines → -carross
         ↓
 soft-webinar-plano      (desenha a oferta ANTES da aula; o resto do webinar nasce dela)
         ↓
-soft-webinar-script      (a AULA: roteiro + slides numa coisa só, ADMA + motor de 3 viradas + objeções aniquiladas + perpétuo vs ao vivo; o visual fino do deck = soft-designer)
+soft-webinar-script      (a AULA: roteiro + slides numa coisa só, APSD + motor de 3 viradas + objeções aniquiladas + perpétuo vs ao vivo; o visual fino do deck = soft-designer)
         ↓
 soft-webinar-slides      (o deck da aula, quando o especialista quer os slides como peça separada)
         ↓

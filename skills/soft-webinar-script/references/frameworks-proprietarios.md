@@ -1,8 +1,8 @@
 # Frameworks avançados de webinar (o que não está na skill genérica nem no clássico)
 
-Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia** (Schwartz, Brunson, Ries e Trout). São formas avançadas de conduzir certos blocos ao vivo. Esta reference ensina cada um: o que é, o mecanismo, a fala-modelo, como usar como BLOCO do webinar, e por que funciona. **O esqueleto continua sendo o de `estrutura-webinario-aida.md` e a inteligência o de `esqueleto-universal-e-discernimento.md`.** Isto aqui é o que vai DENTRO de blocos específicos quando o usuário adota o ângulo Soft. O usuário adapta cada um com a verdade do nicho dele. Os exemplos abaixo são de nichos variados (marcados), nunca para copiar literal.
+Cinco frameworks que **não saem da estrutura APSD padrão nem da bibliografia** (Schwartz, Brunson, Ries e Trout). São formas avançadas de conduzir certos blocos ao vivo. Esta reference ensina cada um: o que é, o mecanismo, a fala-modelo, como usar como BLOCO do webinar, e por que funciona. **O esqueleto continua sendo o de `estrutura-webinario-aida.md` e a inteligência o de `esqueleto-universal-e-discernimento.md`.** Isto aqui é o que vai DENTRO de blocos específicos quando o usuário adota o ângulo Soft. O usuário adapta cada um com a verdade do nicho dele. Os exemplos abaixo são de nichos variados (marcados), nunca para copiar literal.
 
-> Onde cada um vive no ADMA: os frameworks 1, 2, 3 e 4 vivem na fase **Mecanismo**, e o 1 e o 2 fazem a ponte com o **Diagnóstico/problema**. O framework 5 vive na **Ação**, no bloco de Investimento. Quase tudo aqui mora em Mecanismo e na Oferta, que é onde o webinar Soft ganha ou perde.
+> Onde cada um vive no APSD: os frameworks 1, 2, 3 e 4 vivem na fase **Mecanismo**, e o 1 e o 2 fazem a ponte com o **Diagnóstico/problema**. O framework 5 vive na **Ação**, no bloco de Investimento. Quase tudo aqui mora em Mecanismo e na Oferta, que é onde o webinar Soft ganha ou perde.
 
 ---
 
@@ -185,11 +185,11 @@ Só depois disso o preço aparece, e a comparação é com o custo invisível, n
 
 ---
 
-## Como os cinco se encaixam no ADMA (a sequência real do Mecanismo)
+## Como os cinco se encaixam no APSD (a sequência real do Mecanismo)
 
 > A ESTRUTURA do Mecanismo é a sequência real de `estrutura-real-webinar.md` (Fase M), **não "3 viradas"** (invenção purgada). Estes cinco frameworks são munição que entra em pontos específicos dessa sequência.
 
-| Framework | Fase ADMA | Onde no webinar | Função |
+| Framework | Fase APSD | Onde no webinar | Função |
 |---|---|---|---|
 | 1. 6º nível de consciência | Diagnóstico para Mecanismo | abertura do Mecanismo (a nova oportunidade) | Falar com quem já tentou de tudo; dar alívio; "avançado é o mais fácil" |
 | 2. Dor não é problema (escoliose) | Diagnóstico | causa-raiz / dobradiça | Tirar o especialista da avenida lotada; montar o 6º nível |

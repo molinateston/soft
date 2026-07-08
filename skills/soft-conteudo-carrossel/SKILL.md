@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Âncora, "post/publicação de feed" SEM formato dito = carrossel (o default do feed); só sai daqui se o pedido nomear reel, stories ou outra plataforma. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "publicação de feed", "faz um post" (sem formato dito), "slides/corpo do carrossel", "escreve/monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-plano-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Âncora, "post/publicação de feed" SEM formato dito = carrossel (o default do feed); só sai daqui se o pedido nomear reel, stories ou outra plataforma. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco APSD) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "publicação de feed", "faz um post" (sem formato dito), "slides/corpo do carrossel", "escreve/monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-plano-posicionamento), nem pra carta/VSL/venda (soft-funil-carta/-landing).
 ---
 
 # Carrossel, a peça que move a decisão
@@ -66,8 +66,8 @@ Declara a camada em 1 linha no topo do mapa. Detalhe + a **regra do "fragmento d
 
 Esse mapa é o esqueleto que o gate vai conferir. Se não fecha 6 teses distintas, o tema não tem corpo pra carrossel: ou aprofunda o ângulo, ou vira reel.
 
-## Passo 2, distribui pela Fórmula 7 (arco ADMA, alta polaridade)
-A Fórmula 7 são **7 movimentos** distribuídos nos **7 a 10 slides**. Movimento não é slide: alguns ocupam um card, outros se esticam por dois. A espinha é o arco ADMA (Atenção · Diagnóstico · Mecanismo · Ação). Começa em **alta polaridade** (a capa já confronta uma crença real do mercado) e termina instalando a crença nova. Sem tensão não há movimento, sem crença nova não há ação.
+## Passo 2, distribui pela Fórmula 7 (arco APSD, alta polaridade)
+A Fórmula 7 são **7 movimentos** distribuídos nos **7 a 10 slides**. Movimento não é slide: alguns ocupam um card, outros se esticam por dois. A espinha é o arco APSD (Atenção · Problema · Solução · Decisão). Começa em **alta polaridade** (a capa já confronta uma crença real do mercado) e termina instalando a crença nova. Sem tensão não há movimento, sem crença nova não há ação.
 
 | # | Movimento | Slide | Função |
 |---|---|---|---|
@@ -85,7 +85,7 @@ Os dois pontos onde o carrossel morre:
 
 Menos de 7 slides não desenvolve a tensão. Mais de 10 cansa e derruba o CTA.
 
-**Contexto é rei (a estrutura flutua).** A Fórmula 7 é o guia, não um trilho rígido. O assunto manda: um carrossel pode pesar mais no Mecanismo (2-3 slides só pra ele) e enxugar o Diagnóstico; outro pode ser quase inteiro sobre o Problema, quando a dor ainda não doeu o suficiente; outro corta a Nova Oportunidade porque a virada já está na capa. Mantém os 7 a 10 slides e o arco ADMA de pé, mas distribui o peso pelo que ESTE assunto pede. Decide o peso no mapa de densidade (Passo 1) e justifica em 1 linha.
+**Contexto é rei (a estrutura flutua).** A Fórmula 7 é o guia, não um trilho rígido. O assunto manda: um carrossel pode pesar mais no Mecanismo (2-3 slides só pra ele) e enxugar o Diagnóstico; outro pode ser quase inteiro sobre o Problema, quando a dor ainda não doeu o suficiente; outro corta a Nova Oportunidade porque a virada já está na capa. Mantém os 7 a 10 slides e o arco APSD de pé, mas distribui o peso pelo que ESTE assunto pede. Decide o peso no mapa de densidade (Passo 1) e justifica em 1 linha.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
 A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
@@ -166,7 +166,7 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **Densidade** | o mapa do Passo 1 fecha **≥6 teses DISTINTAS** em ~10 slides; duas teses iguais com roupa nova = ✗ (funde e corta) | |
 | **Slide 2 abre loop** | o slide 2 vai MAIS FUNDO que a capa ("tem uma coisa pior"); **não responde nem reembala a capa = ✗** | |
 | **Mecanismo = função** | slides 7-8 mostram a FUNÇÃO do método; **qualquer passo a passo executável = ✗** | |
-| **Espinha Fórmula 7 / ADMA** | os 7 movimentos estão na ordem; começa em alta polaridade; cada slide fecha numa conclusão ancorada (nenhum só prepara o próximo) | |
+| **Espinha Fórmula 7 / APSD** | os 7 movimentos estão na ordem; começa em alta polaridade; cada slide fecha numa conclusão ancorada (nenhum só prepara o próximo) | |
 | **Confuso (C)** | dá pra ler cada slide sem reler; uma ideia por slide; zero abstração que não vira imagem | |
 | **Inacreditável (U)** | nenhuma promessa que o leitor não engole; prova ancorada onde afirma resultado | |
 | **Chato (B)** | nenhum slide morno/educativo neutro; polariza, mexe na crença ou na cena, não só informa | |
@@ -202,7 +202,7 @@ Mostra **só o carrossel LIMPO** (no DOC, nunca solto no chat), slide a slide no
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou a peça inteira sem mapa nem gate | Volta: mapa de densidade + gate impressos, e PARA pra escolha |
 | Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o carrossel limpo, sem as tabelas do gate |
-| Engessou a Fórmula 7 ignorando o assunto | Contexto é rei (Lei 4): redistribui o peso, mais no problema OU no mecanismo, mantendo o arco ADMA e os 7-10 slides |
+| Engessou a Fórmula 7 ignorando o assunto | Contexto é rei (Lei 4): redistribui o peso, mais no problema OU no mecanismo, mantendo o arco APSD e os 7-10 slides |
 | Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
 | Escreveu na voz certa mas usou palavra/muleta que aquele cliente nunca usa | Puxa a lista de ausência da voz no Passo 0 e confere cada slide contra ela no gate; item violado reprova |
 | Afirmou resultado/estudo/número com dado "plausível" que ninguém verificou | Passo 0.5: minera 1 insumo REAL (do autor/case/fonte) ou marca `[DADO: confirmar]`; nunca chuta número |

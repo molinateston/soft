@@ -60,7 +60,7 @@ Pega o OBJETIVO confirmado no Passo 1 e declara, em 1 linha, o TIPO de página e
 | Ajudar a comparar opções | Comparação | FAB |
 | Segmentar e capturar | Casca de quiz | curiosidade |
 | Resgatar quem caiu fora | 404 como landing | leve |
-| **Vender no texto** (infoproduto/mentoria/serviço) | **as 4 arquiteturas** (sub-passo abaixo) | ADMA |
+| **Vender no texto** (infoproduto/mentoria/serviço) | **as 4 arquiteturas** (sub-passo abaixo) | APSD |
 
 Os tipos que VENDEM no texto descem pro sub-passo das 4 arquiteturas (mantidas 100%). Todos os outros puxam a receita de blocos de `references/tipos-de-landing.md`. **Abre `references/tipos-de-landing.md` assim que o tipo é declarado** e monta o outline com os blocos daquele tipo.
 

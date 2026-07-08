@@ -1,12 +1,12 @@
 # Geração de slides, como a skill monta o deck quase perfeito
 
-Esta reference é a **última etapa de produção** do Webinar Soft: pega o roteiro ADMA já pronto (`estrutura-webinario-aida.md`) e o transforma num **deck que constrói crença slide a slide**. Não reescreve copy nem reordena o roteiro, só *amplifica visualmente* o que já está escrito. A skill aqui aprende a (1) obedecer a **regra de ouro** (copy nas notas, slide visível mínimo, com slide bom×ruim instanciado na Seção 0), (2) montar o deck como **JSON no schema exato do `deck_gen.py`** (Seção 1), (3) escolher entre os **18 arquétipos de slide catalogados** com molde e exemplo (Seção 2), (4) mapear cada bloco do roteiro aos arquétipos por fase (Seção 3), e (5) sair por **dois caminhos portáveis** (Claude Code → `.pptx`; Claude Chat → PDF direto) passando no **checklist "quase perfeito"**.
+Esta reference é a **última etapa de produção** do Webinar Soft: pega o roteiro APSD já pronto (`estrutura-webinario-aida.md`) e o transforma num **deck que constrói crença slide a slide**. Não reescreve copy nem reordena o roteiro, só *amplifica visualmente* o que já está escrito. A skill aqui aprende a (1) obedecer a **regra de ouro** (copy nas notas, slide visível mínimo, com slide bom×ruim instanciado na Seção 0), (2) montar o deck como **JSON no schema exato do `deck_gen.py`** (Seção 1), (3) escolher entre os **18 arquétipos de slide catalogados** com molde e exemplo (Seção 2), (4) mapear cada bloco do roteiro aos arquétipos por fase (Seção 3), e (5) sair por **dois caminhos portáveis** (Claude Code → `.pptx`; Claude Chat → PDF direto) passando no **checklist "quase perfeito"**.
 
 > Destilada do slide-craft de um deck-referência de alto faturamento (325 slides reconstruídos) mais o capítulo didático de montagem de deck (voz autoral, exemplos por nicho) e o gerador `_decks/deck_gen.py`. Todos os exemplos de slide são por **NICHO** (webinar de gestão, webinar de emprego, etc.), **nunca nome próprio de pessoa, aluno ou marca**. Os slots `(nome a definir com o usuário)` ficam marcados, não inventados.
 
 **Coerência com as outras references (a costura):** o `estrutura-webinario-aida.md` diz **o que falar e em que ordem**; o `template-72-slides.md` diz **em quantos/quais slides essa fala se projeta** (os 72 beats na ordem-lei); **esta reference diz COMO renderizar** cada beat (arquétipo + JSON + copy-na-nota). Gere o roteiro, projete nos 72 beats, renderize com os arquétipos daqui.
 
-**Pré-requisito inegociável:** o **roteiro ADMA (Parte 3) tem que estar pronto.** O deck nasce do script, nunca do zero.
+**Pré-requisito inegociável:** o **roteiro APSD (Parte 3) tem que estar pronto.** O deck nasce do script, nunca do zero.
 
 ---
 
@@ -27,7 +27,7 @@ Esta reference é a **última etapa de produção** do Webinar Soft: pega o rote
 
 O deck **não é o conteúdo**, é o amplificador visual de uma copy que já funciona. A ordem de produção é fixa:
 
-1. O **script já está pronto** (saída da estrutura ADMA).
+1. O **script já está pronto** (saída da estrutura APSD).
 2. Pega-se a **copy falada** e cola-se **nas notas** (campo `nota` do JSON / Speaker Notes), invisível à plateia.
 3. **Só depois** cria-se o conteúdo visível do slide, o reforço (1 frase, 1 número, 1 imagem-conceito).
 4. O slide visível recebe **só o reforço**. O parágrafo falado mora na nota.
@@ -232,7 +232,7 @@ Escassez por TEMPO ("só HOJE / só quem ficou") + por QUANTIDADE ("15 primeiros
 
 ## 3. MAPA, cada bloco do roteiro → arquétipo(s) de slide
 
-O deck é um **ADMA visualizado**: cada bloco do roteiro vira uma faixa de slides com arquétipos característicos. Proporção-alvo: **~55% ensino / ~45% oferta** (o fechamento pesa quase tanto quanto o conteúdo, nunca encurtar). Esta seção mapeia em granularidade de FASE; o **`template-72-slides.md` dá a granularidade beat-a-beat** (os 72 slides na ordem-lei), gere o roteiro, projete nos 72 beats, renderize com os arquétipos abaixo.
+O deck é um **APSD visualizado**: cada bloco do roteiro vira uma faixa de slides com arquétipos característicos. Proporção-alvo: **~55% ensino / ~45% oferta** (o fechamento pesa quase tanto quanto o conteúdo, nunca encurtar). Esta seção mapeia em granularidade de FASE; o **`template-72-slides.md` dá a granularidade beat-a-beat** (os 72 slides na ordem-lei), gere o roteiro, projete nos 72 beats, renderize com os arquétipos abaixo.
 
 ### Pré-início / boas-vindas → **Capa(2) + Respiro(1) + a pergunta fixa**
 Slide 1 = boas-vindas com **a pergunta da dor fixa** (segura quem chega atrasado). Promessa grande + imagem logo depois. Tipos: `capa`, `frase`.

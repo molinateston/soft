@@ -131,6 +131,14 @@ Não adianta se inscrever se:
    - *"Você contratou [solução]. E funcionou, por 3 meses. Depois [efeito colateral concreto]."*
 3. **O diagnóstico** (1 parágrafo): nomeia o inimigo-categoria. *"O problema não é você. É [nome do inimigo]."*
 
+**As 3 camadas da dor (StoryBrand/Donald Miller).** A cena-âncora fica mais funda quando toca as 3 camadas do problema, não só a de fora:
+
+- **Externo** (o fato mensurável): "o mês fecha no zero", "1 cliente fechado em 10 consultas".
+- **Interno** (como ele se sente com o fato): a vergonha, o medo de que o negócio não pare de pé, a sensação de estar sempre correndo e nunca chegando.
+- **Filosófico** (o porquê que dói mais fundo): "por que eu faço tudo certo e nada dá certo?", "não é justo trabalhar tanto e não sobrar nada."
+
+O externo abre a cena; o interno faz o leitor se ver; o filosófico é o que gruda. A dor que só nomeia o externo soa relatório; a que atravessa as 3 faz ele pensar "é exatamente o que eu vivo". É o espelho negativo do benefício em 3 níveis (Bloco 8).
+
 **Nome do inimigo-categoria:** sempre um sistema ou prática, nunca uma pessoa ou empresa.
 
 **Exemplos de nomes de inimigo:**
@@ -210,6 +218,20 @@ Não é falta de esforço. É arquitetura.
 | Autoridade | 3–5 cases longos (mais contexto, menos quantidade) |
 | Problema-Solução | 5–8 com foco em resultado recorrente |
 
+### O arsenal de prova (prova ≠ só depoimento, ≠ só científica)
+
+Depoimento e número são dois tipos de prova, não os únicos. Existem dezenas, e o bloco de prova fica mais forte quando varia. Qual usar depende do que ESTE público aceita como prova (a prova é relativa ao leitor, seção do gate). Os principais:
+
+- **Reason-why.** Amarra a afirmação a um motivo declarado: "por causa de 2 motivos: X e Y". Bencivenga usava muito, quase ninguém usa; a mente aceita melhor o que vem com um porquê explícito, mesmo simples.
+- **Demonstração dramática.** A prova mais forte que existe. Mostrar valendo mais que mil argumentos: se a coisa acontece na frente do leitor (o antes-e-depois filmado, o objeto agindo, o teste ao vivo), não precisa argumentar. Sempre que der pra demonstrar em vez de afirmar, demonstra.
+- **Prova testável / quiz de qualificação.** Uma checagem que o próprio leitor faz e não consegue negar: "responda sim a 1 destas 5 perguntas: [...]. Se respondeu sim a qualquer uma, você faz parte dos X que [...]." Impossível dizer não, qualifica o leitor certo e ele se convence sozinho (a persuasão mais forte é a conclusão que ele tira, não a que você entrega).
+- **Prova mediática.** Uma figura reconhecida ou um veículo dizendo o que você diz. Empresta credibilidade de fora.
+- **Metáfora como prova.** Uma comparação com algo que o leitor já aceita como verdadeiro transporta a crença ("o suplemento é como jogar água num balde furado"). Não substitui a prova dura, mas abaixa a resistência antes dela.
+
+**O teste de demonstrabilidade = teste de clareza.** Se você NÃO consegue desenhar nem demonstrar o mecanismo (só descrevê-lo com palavra bonita), é sinal de que ele está confuso ou mal-encaixado. Mecanismo claro é mecanismo demonstrável; se não dá pra mostrar, volta e simplifica antes de escrever a prova.
+
+**Dose a prova pelo tamanho da crença (Sagan).** Afirmação extraordinária pede prova extraordinária; afirmação pequena aceita prova leve. Não gasta a demonstração mais cara num ponto que o leitor já aceitaria de graça, nem tenta fechar uma crença ousada só com um depoimento solto.
+
 ---
 
 ## Bloco 8 - O Produto por Dentro
@@ -233,6 +255,18 @@ O que você vai conquistar aqui: [resultado concreto]
 O que você vai usar: [ferramenta/entregável específico]
 Onde você vai estar ao terminar: [cena concreta]
 ```
+
+### O benefício em 3 níveis (expande cada resultado)
+
+Um benefício raso ("você vende mais") deixa valor na mesa. Cada resultado abre em 3 níveis, do concreto ao íntimo:
+
+1. **Funcional** (o que é / o que muda no fato): "você fecha clientes de R$5k."
+2. **Dimensional** (como isso se manifesta na vida dela, nas outras pessoas e nas cenas do dia): o marido para de perguntar quando o negócio vai andar, as amigas notam, a roupa que estava guardada volta a servir. É o benefício ganhando corpo no mundo real.
+3. **Emocional** (como ela se sente por dentro): o alívio de acordar sem a conta na cabeça, o orgulho de dizer o que faz sem se justificar.
+
+O nível dimensional é o mais esquecido e o que mais faz o leitor se ver na cena. Escreve os três; a copy final escolhe onde bater conforme o que o verbatim do público mostra.
+
+**Espelha no lado negativo (StoryBrand/Donald Miller).** O mesmo benefício tem um custo espelhado quando ele NÃO age, também em 3 camadas (externo / interno / filosófico, ver Bloco 4). O produto tira a pessoa do lado negativo e a leva pro positivo; mostrar os dois lados adensa o desejo.
 
 ---
 

@@ -198,7 +198,7 @@ Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu m
 
 ## 1.10 · A lógica da percepção: o que faz o cliente comprar
 
-As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro existe pra operar uma coisa só: **a percepção do cliente.** É o que o método chama de **Reorganização da Percepção** - conduzir a pessoa por Atenção, Diagnóstico, Mecanismo e Ação (ADMA) até a decisão. Vender não é convencer, é conduzir. Vale entender a mecânica disso, porque é ela que decide a compra.
+As seções anteriores montaram a posição. Esta explica por que ela vende. O método inteiro existe pra operar uma coisa só: **a percepção do cliente.** É o que o método chama de **Reorganização da Percepção** - conduzir a pessoa por Atenção, Diagnóstico, Mecanismo e Ação (APSD) até a decisão. Vender não é convencer, é conduzir. Vale entender a mecânica disso, porque é ela que decide a compra.
 
 A régua, sobretudo no topo do funil: **o mercado não escolhe só quem sabe mais - escolhe quem entende e confia mais rápido.** Ser bom é condição de entrada; ser percebido como bom, e rápido, é o que faz o cliente certo procurar e aceitar o preço. (Em ticket alto e decisão técnica, profundidade demonstrada também fecha - os dois andam juntos, não são rivais.) Por isso o princípio que filtra qualquer decisão do método não é "como pareço maior", é **"como organizo melhor"**. Toda peça, todo nome, toda oferta passa por um teste único: *isso faz o cliente certo entender e confiar mais rápido?* O que não acelera a percepção, atrapalha.
 
@@ -275,7 +275,7 @@ Cada ativo do método existe pra empurrar o cliente um degrau na cadeia. É o qu
 |---|---|---|
 | Atenção · Interesse · Convicção | Conteúdo do feed e anúncio que quebram a crença | Conteúdo / Anúncio |
 | Identificação | Perfil Enxuto - a posição lida em segundos | Posicionamento Incomum |
-| Convicção · Desejo · Confiança | O webinário perpétuo - roda o ADMA inteiro num lugar só | Webinário perpétuo |
+| Convicção · Desejo · Confiança | O webinário perpétuo - roda o APSD inteiro num lugar só | Webinário perpétuo |
 | Decisão | O checkout (até ~R$2.000) ou a conversa 1:1 (ticket alto) | Webinário / Vendas Consultivas |
 
 O **Posicionamento Incomum** é a fonte: define a percepção que todos os outros ativos instalam. Sem ele definido, o feed não tem o que repetir, o webinário não tem o que reorganizar, e a conversa não tem o que confirmar. E o **webinário perpétuo** é onde essa reorganização acontece no automático - a aula gravada uma vez que conduz o frio do reconhecimento à decisão, todo dia, sem você aparecer.

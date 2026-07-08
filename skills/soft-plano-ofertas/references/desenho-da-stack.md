@@ -6,9 +6,12 @@
 
 ## Índice
 - [O princípio-mãe: a oferta é a tese virando produto](#o-princípio-mãe-a-oferta-é-a-tese-virando-produto)
+- [A escolha do mecanismo (a decisão mais importante do QUE vender)](#a-escolha-do-mecanismo-a-decisão-mais-importante-do-que-vender)
 - [P1: A PUV](#p1-a-puv)
 - [P2: A Equação de Valor](#p2-a-equação-de-valor)
+- [P2b: Engenharia de valor percebido](#p2b-engenharia-de-valor-percebido-sobe-valor-sem-inflar-número)
 - [P3: Entregáveis (de lista de itens a lista de motivos)](#p3-entregáveis-de-lista-de-itens-a-lista-de-motivos)
+- [P3a: Fascinations (o nome de cada entregável)](#p3a-fascinations-o-nome-de-cada-entregável)
 - [P3b: O entregável-tese](#p3b-o-entregável-tese)
 - [P4: O cardápio de componentes](#p4-o-cardápio-de-componentes)
 - [P4b: A régua de bônus (mapa de objeções)](#p4b-a-régua-de-bônus-mapa-de-objeções)
@@ -29,6 +32,20 @@ Isso dá o **filtro de curadoria**: pra cada entregável, pergunte *"isto prova 
 - **A oferta** é o pacote completo: produto + componentes empilhados + garantia + preço com motivo + razão de agir agora.
 
 **A chave que vira:** durante a aula/carta vende-se UMA coisa, o método; na oferta, vira-se a chave e passa-se a vender **cada ENTREGA do produto, uma de cada vez**. Implicação de desenho: cada componente nasce **vendável sozinho**, com nome, benefício e prova própria. Componente que não se sustenta como micro-venda é peso morto.
+
+---
+
+## A escolha do mecanismo (a decisão mais importante do QUE vender)
+
+O posicionamento **nomeia** o mecanismo único (soft-plano-posicionamento); aqui se decide **em cima de qual mecanismo a oferta é construída** e como reembalá-lo. É a decisão mais pesada da oferta, porque o mecanismo é o que faz o lead ACREDITAR: ele **transfere o desejo do resultado pro método** ("eu quero magreza" vira "eu quero ESTE jeito de emagrecer"). Método em que a pessoa não acredita não vende, por mais forte que seja o desejo. Por isso a força do mecanismo é decidida ANTES de empilhar um único entregável.
+
+**A régua 80/20 do novo (Schwartz: canaliza o desejo que já existe, não cria um do zero).** O mecanismo campeão é **~20% novo e ~80% conhecido**. O pedaço conhecido dá o chão de credibilidade (a pessoa já acredita naquilo); os 20% novos geram a ESPERANÇA de que desta vez é diferente ("é por isso que o resto falhou, e é por isso que ISTO funciona"). Os dois extremos quebram: novo DEMAIS soa "de outro mundo", a pessoa não acredita, o custo de convencer explode (cada venda vira uma aula de física) e não escala; novo DE MENOS é commodity e some no meio do YouTube. O ponto ideal é reconhecível o bastante pra crer, diferente o bastante pra esperar.
+
+**Critério pra escolher entre candidatos = qual tem mais PROVA embutida.** Quando há vários mecanismos possíveis pro mesmo problema, não escolhe pelo mais bonito nem pelo mais chocante: escolhe pelo que você consegue PROVAR (estudo, demonstração, case, lógica inatacável). Ferramenta de pesquisa: pedir ao repertório/à IA "liste 20 coisas surpreendentes que podem causar [o problema do avatar]", pega 2 ou 3, aprofunda cada uma, e **fica com a que tem a prova mais forte na mão**. Mecanismo sem prova é promessa; mecanismo com prova é oferta. Isto casa com a Demonstração (P2): o candidato que dá pra MOSTRAR funcionando vale mais que o candidato só argumentável.
+
+**Reaproveitar e REEMBALAR o que já deu certo.** Mecanismo validado é ativo. Em vez de inventar do zero, pega o que já converteu e **reembala**: simplifica, troca a história/lead/oferta em volta, às vezes muda até o tipo de produto. O mecanismo continua, a roupa muda. É barato, rápido e de risco baixo perto de criar um mecanismo novo (que carrega todo o custo de convencer de que ele existe).
+
+**Framework de melhoria de oferta existente (o motor do Modo B):** pra apertar uma oferta que já roda, três alavancas, nesta ordem de retorno: **maximizar o resultado · minimizar o esforço · remover os obstáculos.** São as três variáveis da Equação de Valor (P2) por outro nome: subir o numerador (resultado/probabilidade), descer o denominador (esforço) e tirar o que barra a PARTIDA (o obstáculo do começo, que mora entre o esforço e a probabilidade). Toda auditoria de oferta passa por essas três perguntas ANTES de tocar no preço. Lastro: a Equação de Hormozi por baixo; a leitura de Schwartz de canalizar o desejo de massa em vez de fabricá-lo.
 
 ---
 
@@ -79,6 +96,10 @@ As quatro variáveis, com o mecanismo de cada uma e quem do cardápio (P4) mexe 
 
 **Por que o denominador manda no avatar maduro:** quem já comprou e não terminou já acredita no sonho; o que ele não acredita é que desta vez vai ter tempo e braço. Multiplicar promessa em cima de quem já deseja rende pouco; dividir por menos esforço rende muito. Por isso o **clímax da stack é sempre o passo que TIRA mais trabalho.**
 
+**DFY (Feito-Pra-Você), o formato mais forte do denominador.** Os dois padrões que mais aparecem nas ofertas que mais escalam são o **feito-pra-você** e a **Demonstração**. O DFY carrega uma força que os outros itens de esforço não têm: mata a objeção de **auto-estima de execução baixa**, *"teu método é ótimo, MAS eu não vou conseguir executar."* Repare que essa objeção não é sobre o método (nenhuma prova de que funciona a desarma), é sobre o braço do próprio cliente. A régua de desenho: **quanto mais coisa pronta a oferta entrega (template, página, os modelos, o sistema montado), menos o resultado depende do braço dele, e mais essa objeção some.** Grau máximo é o "faço por você / a IA-que-faz" (o item (f) do cardápio); os graus intermediários são os swipes/acervo/sistema montado (item (e)). Ao desenhar o denominador, pergunte por entregável: *o que dá pra entregar PRONTO no lugar de ENSINAR a fazer?* Cada troca de "ensino" por "pronto" derruba esforço e sobe a probabilidade de conclusão.
+
+**Demonstração, a prova mais forte, mora na PROBABILIDADE.** Mostrar a coisa funcionando ao vivo (o resultado acontecendo na frente, a ferramenta rodando, o antes/depois em tempo real) convence mais que qualquer depoimento, porque não pede fé: a pessoa VÊ. No desenho da oferta isso vira duas decisões: **(1)** se existe um item/momento que dá pra DEMONSTRAR (a "foto" do produto, um teste ao vivo, a ferramenta rodando com um caso real), ele ganha destaque; **(2)** o entregável-tese (P3b) é o candidato natural a ser demonstrado, porque é o que materializa o mecanismo. A apresentação ao vivo da demonstração (em que segundo, com que palavra) é handoff pra `soft-funil-carta` e `soft-webinar-plano`; aqui se decide se ela EXISTE na oferta.
+
 **A régua de teste de cada item (a pergunta única):** este item **sobe o numerador ou derruba o denominador?** Se a resposta exige malabarismo, é nenhum, e o item sai. O item que só "enriquece o pacote" sem variável declarada mexe SIM, pro lado errado: mais volume = mais esforço percebido (o efeito "120 aulas").
 
 **Bônus com NOME e valor declarado.** Feature dissolvida na descrição não entra na conta de ninguém: a cabeça só pesa o que segura como unidade. Bônus NOMEADO, com valor declarado e crível, vira uma compra separada que a pessoa recebe sem pagar. A exceção é desenhada: o bônus sem preço escapa da régua DE PROPÓSITO, o que não tem número não sofre desconto mental.
@@ -88,6 +109,20 @@ As quatro variáveis, com o mecanismo de cada uma e quem do cardápio (P4) mexe 
 2. **Valida-se no pequeno.** O 1º desenho é hipótese; poucas centenas de leads já dizem se a conta fechou, e o ajuste é em VARIÁVEL (mais prova, menos esforço, parcelamento em evidência), nunca desconto sem motivo.
 
 > **Antes de subir preço, mexe os outros três.** A maioria sobe o numerador do jeito errado (promete mais resultado). Os caminhos mais fortes descem o denominador: mais prova (probabilidade), resultado mais cedo (tempo), menos trabalho (esforço). **Eficiência é motor de preço, não só de conforto:** entre dois métodos que entregam o mesmo, o mais rápido cobra mais caro. Se a oferta não encurta o caminho até o resultado, ela briga por preço com o mais barato.
+
+---
+
+## P2b: Engenharia de valor percebido (sobe valor sem inflar número)
+
+Antes de mexer no preço ou inventar componente, uma alavanca barata e honesta: **o mesmo conteúdo entregue num formato mais sofisticado vale mais**, sem uma linha nova de método. É subir a probabilidade percebida e descer o esforço pela EMBALAGEM, não pela promessa (por isso não fere a régua de fidelidade: não infla número, muda o veículo).
+
+**A escada de formato (mesmo saber, valor crescente):** eBook < curso gravado < mentoria < "curso COM um time acompanhando teu progresso". O conhecimento pode ser o mesmo; o que sobe é o acesso, o acompanhamento e a sensação de que alguém garante a chegada. Subir um degrau dessa escada costuma render mais que qualquer desconto no mesmo degrau.
+
+**Colocar o entregável DENTRO de um app/plataforma** sobe o valor percebido: deixa de ser "um PDF no e-mail" e vira produto com casa própria (área de membros, app, painel). O mesmo material, hospedado com cara de produto, pesa mais na mão e reduz a ansiedade do intangível (casa com a "foto do produto", P4c).
+
+**"Equipe que acompanha teu progresso" mata a objeção de execução por outra porta.** O DFY (P2) mata "eu não vou conseguir executar" ENTREGANDO pronto; o acompanhamento mata a MESMA objeção VIGIANDO o progresso ("vou esquecer, vou largar na metade" morre quando tem alguém puxando). São as duas saídas pra auto-estima de execução baixa: fazer por ele, ou não deixar ele parar. Escolhe a que cabe no tipo de oferta (DFY no serviço/curso premium; acompanhamento na mentoria/comunidade).
+
+**Análise de esforço como alavanca de valor.** Entre dois entregáveis que dão o mesmo resultado, vale mais o que **exige menos esforço e entrega evidência sensorial mais cedo**. Princípio, fora do nicho, só pra fixar a régua: uma cápsula converte mais que um creme pro mesmo fim, porque tomar é menos esforço que passar todo dia e a sensação de "fiz certo" chega mais rápido. Ao desenhar cada item, pergunta: **dá pra entregar o mesmo resultado com menos passo e com uma vitória sensorial mais cedo?** Se dá, o valor percebido sobe sem inflar número nenhum, e a probabilidade de a pessoa CONCLUIR sobe junto (o que realimenta a prova).
 
 ---
 
@@ -104,6 +139,46 @@ Regra dura: **cada entregável carrega uma objeção específica na nuca.** Se v
 2. **Detalhe técnico rouba a atenção:** tira do estado de desejo e joga no estado calculista.
 
 > **Exemplo (fala literal, nicho emprego).** Morto: "nesse módulo você vai aprender a fazer as configurações do seu perfil do LinkedIn". Que vende: *"nesse módulo você vai aprender a fazer o robô LinkedIn e ficar 24h procurando o emprego ideal pra você. Nenhum candidato consegue fazer isso."* Mesmo conteúdo, outra venda: a headline entrega o resultado e abre o loop ("como assim, robô?").
+
+## P3a: Fascinations (o nome de cada entregável)
+
+Aquela "headline de benefício" tem um nome no ofício: **fascination**. É o bullet que **promete o resultado e abre a curiosidade sem entregar o como**. Ela transforma *"módulo 1: pesquisa"* em *"o Raio-X que revela o desejo mais profundo do teu cliente"*. É o que faz o "o que tem dentro" da oferta ficar SEXY: cada linha é uma promessa fechada, não um item de índice. Lastro citável do repertório: Makepeace.
+
+**As duas regras que dão o miolo:**
+1. **Cada módulo carrega UMA técnica/método** que, sozinha, já entrega um resultado. A fascination promete ESSE resultado. Se um módulo não tem uma técnica isolável que rende sozinha, ou ele se funde com outro, ou vira gordura.
+2. **O nome esconde o mecanismo.** Revelar o "como" comoditiza (o lead mapeia pro que já conhece, "isso tem no YouTube", e o valor cai) e rouba a atenção (tira do desejo, joga no cálculo). A fascination diz O QUE a pessoa ganha, nunca COMO se faz.
+
+**O teto do bullet:** promessa grande que você **entrega de fato**. Fascination que promete o que o módulo não dá é isca furada, o avatar maduro cobra na entrega e a oferta inteira perde crédito. Na dúvida, promete o resultado real com curiosidade, não o resultado inflado.
+
+### Os tipos de bullet (o repertório, pra sair da fascination óbvia)
+
+Cada entregável fica mais forte quando você escolhe o TIPO de bullet que melhor casa com a objeção dele, em vez de escrever sempre no mesmo molde ("como fazer X"). O repertório clássico (~21 tipos, referência Makepeace), em voz de trabalho:
+
+| # | Tipo | O gancho | Exemplo fictício (nicho emprego) |
+|---|---|---|---|
+| 1 | **Como fazer** | promete a habilidade | "Como montar um robô que caça vaga 24h por você" |
+| 2 | **O segredo de** | conhecimento fechado | "O segredo dos currículos que o RH lê até o fim" |
+| 3 | **Por que** | inverte uma crença | "Por que enviar mais currículo AFASTA a vaga certa" |
+| 4 | **O quê / o único** | singularidade | "A única seção do LinkedIn que o recrutador filtra" |
+| 5 | **Quando** | timing | "Quando mandar a mensagem pro recrutador (a hora muda a resposta)" |
+| 6 | **Onde** | lugar não óbvio | "Onde as vagas boas moram antes de virarem anúncio" |
+| 7 | **Qual destes** | auto-diagnóstico | "Qual destes 3 erros trava o teu perfil agora?" |
+| 8 | **Número** | promessa fatiada | "As 7 falas que viram uma entrevista em proposta" |
+| 9 | **Você faz isto?** | fisgada pessoal | "Você comete este erro no 'fale sobre você'?" |
+| 10 | **Se… então** | conclusão lógica | "Se você tem 3 anos de experiência, isto vale mais que um MBA" |
+| 11 | **A verdade sobre** | desmascara | "A verdade sobre 'enviar pra vaga pelo site da empresa'" |
+| 12 | **Aviso / cuidado** | perda iminente | "Cuidado: este detalhe do perfil te elimina antes da leitura" |
+| 13 | **Benefício direto** | ganho cru | "Entrevistas marcadas na primeira semana, sem enviar currículo em massa" |
+| 14 | **Melhor que** | comparação | "Melhor que qualquer curso de 'como fazer entrevista'" |
+| 15 | **Pouca gente sabe** | informação rara | "O que quase nenhum candidato sabe sobre o filtro automático" |
+| 16 | **Mito** | quebra consenso | "Não, mandar currículo pra RH não é o caminho (faça isto)" |
+| 17 | **Rápido / atalho** | esforço baixo | "O atalho de 10 minutos que refaz teu perfil inteiro" |
+| 18 | **História / loop aberto** | curiosidade narrativa | "O que fiz depois de 200 currículos ignorados (e virou o jogo)" |
+| 19 | **Certo x errado** | jeito certo | "O jeito certo de responder 'qual sua pretensão' sem se queimar" |
+| 20 | **Resultado + prazo** | promessa com relógio | "Um perfil que atrai recrutador em 7 dias" |
+| 21 | **Nu / direto (plus)** | fato seco e forte | "Mais: o roteiro de 4 respostas pra derrubar a objeção de salário" |
+
+Regra de uso: **um entregável, um tipo de bullet que case com a objeção dele** (item de esforço pede tipo "rápido/atalho" ou "feito-pronto"; item de prova pede "por que/verdade/mito"; item de resultado pede "número/benefício/prazo"). Variar o tipo por entregável evita a stack toda soar no mesmo tom de "como fazer".
 
 **O clímax da jornada** é o passo de pico de desejo, e quase nunca é o que ensina mais. **É o passo que TIRA mais trabalho.** Ninguém compra trabalho; compra-se o resultado com menos esforço. Marca o elemento que automatiza/delega/faz-pela-pessoa como clímax (mora no denominador da equação, a variável onde o avatar maduro decide).
 

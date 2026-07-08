@@ -34,7 +34,7 @@ Com Discurso Base:
 | Passo 6, Antecipação de objeções | Bloco 3, Solução · Método · Proposta (continuação) |
 | Passo 7, Oferta + CTA | Bloco 4, CTA |
 
-**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Mini Webinar, os 7 passos se distribuem no arco ADMA (Atenção · Diagnóstico · Mecanismo · Ação) · 12 blocos · 10min de vídeo.
+**Resumo:** os 7 passos são granulares. Os 4 blocos são a apresentação visual. Quando vai pra Carta, os 7 passos colapsam em 4 blocos. Quando vai pra Mini Webinar, os 7 passos se distribuem no arco APSD (Atenção · Problema · Solução · Decisão) · 12 blocos · 10min de vídeo.
 
 ---
 

@@ -257,7 +257,7 @@ Liste **cada coisa que você entrega**. Pra cada entregável, responda quatro pe
 | Entregável | O que resolve · dor que tira · objeção que quebra · valor que gera |
 |---|---|
 | Módulo 1 - Planejamento | Define a tese, o pra quem, a promessa e a crença antes da aula · tira o improviso ("comece pelo plano, nunca pela aula") · quebra "eu não sei por onde começar" · sai com o webinário planejado, não chutado |
-| Módulo 2 - Reorganização da Percepção | Monta o roteiro ADMA caixa a caixa (nuances, argumentos, provas) · tira o peso de "ter que convencer" · quebra "não sei vender sem forçar" · conduz o frio até a decisão num lugar só |
+| Módulo 2 - Reorganização da Percepção | Monta o roteiro APSD caixa a caixa (nuances, argumentos, provas) · tira o peso de "ter que convencer" · quebra "não sei vender sem forçar" · conduz o frio até a decisão num lugar só |
 | Módulo 3 - Scripts e Slides | Entrega script e deck do webinário · tira a página em branco · quebra "não sei estruturar a aula" · webinário pronto pra gravar |
 | Módulo 4 - Gravação e Configuração | Grava uma vez e configura o perpétuo · tira o medo da técnica · quebra "não entendo de tecnologia" · funil rodando 24/7 sem aparecer |
 | Módulos 5 e 6 - Automações, Anúncio, Escala | Liga tráfego, automações e a régua de escala · tira o medo de queimar caixa · quebra "tráfego não funciona pra mim" · público frio entrando todo dia |

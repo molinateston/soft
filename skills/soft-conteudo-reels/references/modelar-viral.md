@@ -20,7 +20,7 @@ Esse é um **modo opcional** da soft-conteudo-reels. Ele dispara quando o dono:
 - cola a **URL de um reel de referência** (dele ou de fora) e diz "modela esse", "faz um parecido", "quero um reel na estrutura desse";
 - aponta uma **base de referências** (anotações, pasta de reels salvos) e pede pra puxar a estrutura de um deles.
 
-O fluxo normal da skill (headline do Passo 0 → ADMA → gate) continua sendo o padrão. O modo modelar é um **atalho de estrutura**: em vez de partir do zero, você parte de uma espinha de atenção que já provou funcionar, extrai a premissa dela, e enche com o TEU conteúdo. Depois disso, o roteiro volta pro trilho normal e passa pelo mesmo gate.
+O fluxo normal da skill (headline do Passo 0 → APSD → gate) continua sendo o padrão. O modo modelar é um **atalho de estrutura**: em vez de partir do zero, você parte de uma espinha de atenção que já provou funcionar, extrai a premissa dela, e enche com o TEU conteúdo. Depois disso, o roteiro volta pro trilho normal e passa pelo mesmo gate.
 
 **Quando NÃO usar esse modo:**
 - Se o dono não tem referência e só quer um reel sobre um tema: fluxo normal, ignora esse arquivo.
@@ -102,7 +102,7 @@ Aqui é onde o modo modelar honra a doutrina Soft: **você importa a PREMISSA da
 O que você transporta do viral:
 - a **forma do gancho** (se ele abriu com número, você abre com número TEU; se abriu com confissão, você confessa algo TEU);
 - o **ritmo** (frase curta que abre a próxima, tensão que não relaxa);
-- a **arquitetura de seções** (gancho → tensão → 1-2 pontos → fechamento → CTA), que é a nossa espinha ADMA comprimida;
+- a **arquitetura de seções** (gancho → tensão → 1-2 pontos → fechamento → CTA), que é a nossa espinha APSD comprimida;
 - o **tipo de CTA** (comentar palavra, salvar), adaptado ao destino do teu funil.
 
 O que você NÃO transporta:
@@ -131,7 +131,7 @@ Essas regras já vivem no corpo do SKILL.md; o modo modelar só as confirma com 
 
 ## 7. Fechar no gate de sempre (descarta a nota 95/100)
 
-O roteiro que sai do modo modelar **passa pelo MESMO gate do Passo 5 do SKILL.md** (Ancorado, Um ponto só, 3 tipos de gancho, Tensão contínua, Lo-fi, Espinha ADMA, CTA com destino, Dá pra ver, Dá pra falsificar, Só você diz, C/U/B, Anti-IA HARD). Um ✗ refaz o ponto que falhou.
+O roteiro que sai do modo modelar **passa pelo MESMO gate do Passo 5 do SKILL.md** (Ancorado, Um ponto só, 3 tipos de gancho, Tensão contínua, Lo-fi, Espinha APSD, CTA com destino, Dá pra ver, Dá pra falsificar, Só você diz, C/U/B, Anti-IA HARD). Um ✗ refaz o ponto que falhou.
 
 **Não usa nota numérica tipo "95/100".** Nota inflada é teatro: dá sensação de rigor sem dizer o que está errado. O nosso veredito é binário e honesto, **PASSA ou REFAZ**, e o REFAZ aponta exatamente qual item falhou. Se o roteiro modelado não passa no Ancorado (porque só tinha número do viral, não teu), ele REFAZ, não "tira 88".
 

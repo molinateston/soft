@@ -15,6 +15,7 @@
 - [Família RECONHECIMENTO](#familia-reconhecimento)
 - [Autoridade própria e Valor prático (temperos, não família)](#autoridade-propria-e-valor-pratico-temperos-nao-familia)
 - [Cânone de ângulos ortogonais (C1-C6)](#canone-de-angulos-ortogonais-c1-c6)
+- [Ângulos de ABORDAGEM (o tema, camada acima da frase)](#angulos-de-abordagem-o-tema-camada-acima-da-frase)
 - [Notas de refinamento (Rodada 1)](#notas-de-refinamento-rodada-1)
 
 ---
@@ -217,6 +218,27 @@ A **Régua de cobertura de ângulo** do SKILL.md (Passo 2, camada de variação 
 | **C6** | Futuro | previsão ou alerta do que está prestes a mudar | T15, T23, T24, T44, T57 |
 
 > **C7 e C8 ficam reservados** a refinamentos de ângulo (reveal-first, obstáculo-mental) que hoje vivem como nota sob T (abaixo). **C9-C12** são candidatos de TEMPLATE (incubadora, `templates-candidatos.md`), não ângulos: só entram sob "usa os candidatos", sempre com o C-número; numeração contínua só pra não colidir.
+
+---
+
+## Ângulos de ABORDAGEM (o tema, camada acima da frase)
+Enquanto C1-C6 dizem de que **LADO a FRASE ataca**, os ângulos de abordagem dizem sobre **O QUE a peça inteira fala** (o tema-mãe, a "grande ideia"). São a lista de ângulos validados de resposta direta e rodam POR CIMA de tudo: primeiro escolhe a abordagem (o tema), depois a fórmula T que veste a frase, depois checa a cobertura de C-ângulos. Lastro citável: Schwartz (níveis de consciência do mercado), Halbert. **Não recebem C-número** (o C é do ângulo de ataque de frase, C1-C6, mais os reservados C7-C8 e os candidatos C9-C12); estes são a camada de TEMA, nomeados, pra não colidir na numeração.
+
+> **Ativo de swipe:** ângulo de abordagem que já escalou num nicho vira ativo guardado, você reaproveita com mais prova em cima. A engenharia de um ângulo transpõe entre nichos (a mesma "causa-raiz" serve emagrecimento, dor, sono, diabetes).
+
+| Ângulo de abordagem | Sobre o que fala | Exemplo (marca-neutra) | T que servem |
+|---|---|---|---|
+| **Descoberta científica** | um estudo/achado que muda o jogo | "A descoberta que explica por que você não emagrece mesmo na dieta" | T53, T50, T16 |
+| **Solução** | a saída/o caminho direto pro desejo | "O jeito de dormir 8 horas sem remédio" | T31, T35, T80 |
+| **Problema** | nomeia a dor que o avatar vive | "Por que você acorda cansado mesmo dormindo cedo" | T3, T27, T56 |
+| **Mecanismo do problema (causa-raiz)** | a CAUSA oculta por trás da dor | "A verdadeira causa da sua insônia não é o celular" | T4, T26, T53 |
+| **Mecanismo da solução** | como/por que a solução funciona | "Como um mineral barato corrige o sono em 3 noites" | T16, T66, T78 |
+| **Contrária** | vira o senso comum do avesso | "Comer à noite não engorda, olha o que engorda" | T5, T6, T64, T68 |
+| **Pergunta paradoxal** | uma pergunta que não fecha na cabeça | "Como quem treina menos ganha mais músculo?" | T61, T49 |
+
+> **Causa-raiz domina saúde.** O ângulo de mecanismo do problema (a causa oculta) lidera saúde há anos e é o de maior alcance quando existe uma crença errada sobre a causa: nomeia a causa-raiz que ninguém viu, depois entrega o mecanismo da solução por cima. A mesma dobradinha (causa-raiz → mecanismo da solução) serve emagrecimento, dor, sono e diabetes.
+>
+> **Contrária aparece nas duas camadas:** aqui como ABORDAGEM (o tema é virar a crença do avesso) e em **C2** como ataque de frase. É o mesmo movimento em camadas diferentes, e por isso casam bem: escolhe a abordagem Contrária e veste com uma fórmula de ataque C2 (T5, T6, T64, T68).
 
 ---
 

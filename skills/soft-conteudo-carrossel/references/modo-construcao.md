@@ -20,7 +20,7 @@ Antes de escrever, diagnostica em uma linha: que nível de consciência tem o le
 ### 3. Escreve pela espinha
 Monta a peça na **estrutura-mãe** (Diagnóstico → Nomeação → Polaridade → Nova interpretação → Consequência → Movimento), ou na Fórmula 7 no feed. Cada frase obedece as **8 leis** (`shared-references/crivo/05-premissas-mestras.md`): revela não ensina, cada frase é conclusão, ancora em chão, rótulo vira sintoma na pele. Mira o estado emocional ("isso explica o que eu vivo"), não a informação. Respeita o que muda por formato (carrossel uma ideia por slide, anúncio com criativo cru, reel com tensão que não relaxa).
 
-**A Ação (4º beat do ADMA) é um CTA OBRIGATÓRIO.** Pela consequência + um próximo passo real do funil do cliente (comenta uma palavra → direct, link → carta/isca, manda no direct, cadastra). Nunca termina só na consequência sem dizer o que fazer. Nunca CTA cafona. Peça sem CTA forte não passa no Crivo.
+**A Ação (4º beat do APSD) é um CTA OBRIGATÓRIO.** Pela consequência + um próximo passo real do funil do cliente (comenta uma palavra → direct, link → carta/isca, manda no direct, cadastra). Nunca termina só na consequência sem dizer o que fazer. Nunca CTA cafona. Peça sem CTA forte não passa no Crivo.
 
 **Teste de densidade (antes de escrever, vale ouro no carrossel):** lista a tese de cada slide em uma frase. Teses iguais com roupa nova se fundem. Cada slide AVANÇA a espinha, nunca repete a anterior com outras palavras. Carrossel de 10 slides precisa de 6 ou mais teses distintas, senão corta slide. Densidade vence comprimento, "repita a tese" é marca, não enchimento.
 

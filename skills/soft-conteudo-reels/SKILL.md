@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-reels
-description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Âncora, ESCREVER o roteiro (o que falar/mostrar) = reels; EDITAR o vídeo já gravado (corte, legenda karaokê, b-roll, gancho/cold open) = soft-editor-video. Parte da headline já escolhida, constrói o corpo pela espinha ADMA em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim + as 3 perguntas + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo". NÃO use pra EDITAR/cortar/legendar o vídeo gravado, b-roll, gancho/cold open (soft-editor-video), pra HEADLINE/gancho/capa isolada (soft-conteudo-headlines), carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), posicionamento (soft-plano-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
+description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Âncora, ESCREVER o roteiro (o que falar/mostrar) = reels; EDITAR o vídeo já gravado (corte, legenda karaokê, b-roll, gancho/cold open) = soft-editor-video. Parte da headline já escolhida, constrói o corpo pela espinha APSD em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim + as 3 perguntas + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo". NÃO use pra EDITAR/cortar/legendar o vídeo gravado, b-roll, gancho/cold open (soft-editor-video), pra HEADLINE/gancho/capa isolada (soft-conteudo-headlines), carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), posicionamento (soft-plano-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil-carta).
 ---
 
 # Reel, o vídeo curto que atrai
@@ -14,7 +14,7 @@ Reel atrai. Carrossel vende. A função do reel é uma só: fazer o cliente cert
 **Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer roteiro.**
 
 ## Output Contract (o que você entrega)
-- Por padrão, **1 roteiro de reel completo** pro pedido: headline nos 3 primeiros segundos (nos 3 tipos quando útil) + corpo pela espinha ADMA + CTA com destino real. Escrito como fala/cena, não como ensaio literário.
+- Por padrão, **1 roteiro de reel completo** pro pedido: headline nos 3 primeiros segundos (nos 3 tipos quando útil) + corpo pela espinha APSD + CTA com destino real. Escrito como fala/cena, não como ensaio literário.
 - O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída. O roteiro vem com a marcação da espinha (qual frase é qual movimento).
 - Você **para e espera** o cliente aprovar/ajustar antes de gerar outro ou escalar pra lote.
 - Lote (5 reels numa tarde, banco de pautas) só sob comando explícito "lote de [tema]".
@@ -72,10 +72,12 @@ Não força os três se um só já cria o conflito. Mas marca no roteiro qual en
 
 **Amplificador (opcional, 0-2s antes da headline falada):** uma frase curta que precede a headline e carrega 2s a mais de atenção (ex.: "Por que ninguém tá falando sobre isso?"). Os 10 canônicos + a afinidade por template em `references/amplificadores.md`. Um por peça, nunca se a headline já está cravada ou o tempo dos 3s estourou.
 
+**Variação `if…then` de abertura (opcional, lastro Halbert):** "Se você [tem X / é Y], isto pode te ajudar." A condicional filtra quem é o público e cria uma conclusão lógica na cabeça de quem se encaixa; frente extra de gancho (parente do Reconhecimento), entra ao lado das outras, não no lugar delas. (Detalhe em `references/metodo-reel.md` 7.13.)
+
 **Como aparecer no vídeo é só sugestão, nunca obrigação.** A pessoa grava do jeito dela; o que a skill garante e entrega é o ROTEIRO. Quando sugerir cena, gesto ou edição, deixa explícito que é opcional, um caminho possível, não uma regra.
 
-## Passo 3, desenvolve pela espinha ADMA (comprimida em 1-2 min)
-A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a próxima. **A tensão não relaxa.** Se o leitor consegue prever a próxima frase, ele pula. A tensão é o que segura, não a informação. Mostra o **diagnóstico**, nunca o passo a passo executável (passo a passo vira aula grátis e não vira venda).
+## Passo 3, desenvolve pela espinha APSD (comprimida em 1-2 min)
+A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a próxima. **A tensão não relaxa.** Se o leitor consegue prever a próxima frase, ele pula. A tensão é o que segura, não a informação. **Micro-vendas frase a frase:** a pessoa te paga com ATENÇÃO, e cada linha é uma micro-venda, entrega um pingo de valor, ela te dá mais alguns segundos, fica mais comprometida, segue. Cada frase precisa VALER o segundo que custa; linha que não entrega valor nem abre curiosidade vira imposto que ela não paga e sai. Por isso abrir ENTREGANDO valor bate abrir anunciando que vai vender. Mostra o **diagnóstico**, nunca o passo a passo executável (passo a passo vira aula grátis e não vira venda).
 
 | Trecho | Movimento | Função |
 |---|---|---|
@@ -91,7 +93,7 @@ Duração: 1 a 2 minutos, em torno de 1:30 quando for impulsionar. Polariza (tom
 
 Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastidor · contraste de resultado · crença errada · caso real) estão em `references/roteiros-modelo.md`, profundidade opcional, clona e adapta, nunca copia cru.
 
-**Roteiro-modelo inline (Bastidor Invisível, ~50s, nicho Consultoria de gestão), modela a qualidade, nunca copia.** Repara como cada marca de tempo carrega um movimento da espinha ADMA:
+**Roteiro-modelo inline (Bastidor Invisível, ~50s, nicho Consultoria de gestão), modela a qualidade, nunca copia.** Repara como cada marca de tempo carrega um movimento da espinha APSD:
 - **[0:00-0:03] GANCHO (Atenção).** Texto na tela: "O que acontece antes da reunião". Fala: "Eu cobro R$4.500 por consultoria. E 80% do trabalho acontece antes da primeira reunião."
 - **[0:03-0:10] TENSÃO (quebra de crença).** "O cliente acha que o valor está na reunião. Não está." Abre o loop, não resolve.
 - **[0:10-0:18] DIAGNÓSTICO (Diagnóstico + vilão).** "Antes de sentar com ele, eu já analisei o financeiro, os processos, as margens. Levo entre 6 e 8 horas nisso." O modelo velho (achar que o valor mora na hora do encontro) é o culpado, não o cliente.
@@ -105,8 +107,12 @@ Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastid
 - Travessão: ✗ `O modelo velho — a dieta de restrição — te programou pra isso` → ✓ `O modelo velho, a dieta de restrição, te programou pra isso.`
 - Frase-emoldura: ✗ `O que ninguém te contou: a dieta te programou` → ✓ abre direto no conteúdo, `A dieta te programou.`
 
+**Camada CRIATIVO (só quando o reel é anúncio impulsionado ou aponta pra isca/carta).** Aqui o reel tem um trabalho a mais: não vende o produto, **vende o PRÓXIMO passo** (o clique, o consumo do próximo conteúdo). Ele "abre a venda" entregando valor, e o convite promete um passo que é **rápido** e **de graça**. Cada atributo mata uma objeção: valor → falta de interesse; rápido → falta de tempo; grátis → resistência à venda. Fala prática do convite: "preparei uma coisa rápida e gratuita onde te mostro X", nunca "tenho um vídeo de uma hora". Como CAMADA de geração (não gate novo, o gate do Passo 5 continua soberano), varre os **10 elementos** e põe o que couber de forma natural: curiosidade · promessa · segmentação · problema · spoiler do mecanismo · autoridade · benefício · prova social · urgência · CTA. Se algum conflita com o gate Soft (prova social que não existe, urgência fabricada), o gate manda e corta. (Miolo em `references/metodo-reel.md` 7.13. RODAR/testar o anúncio, verba e público, é a skill de tráfego, não aqui.)
+
 ## Passo 4, fecha com CTA de próximo passo real
 O reel não fecha venda, mas aponta pra onde. O CTA convida, não empurra, e tem **destino concreto do funil**: salvar, comentar uma palavra, mandar pra alguém, ir pro carrossel que aprofunda, ir pra isca/carta. CTA sem destino é peça órfã, o leitor para e não tem pra onde ir. Escreve o CTA na voz do cliente, ligado ao ponto único do reel.
+
+**Dois CTAs espaçados (opcional, só em roteiro longo, C2 opinativo ou criativo de ~1:30):** um por volta de 1/3 do vídeo e outro perto do fim, ambos pro MESMO destino, com valor e urgência entre eles; reel curto (30s) fica com UM só, dois viram atropelo.
 
 **O CTA vem IMEDIATAMENTE depois da virada de interpretação, nunca depois de um bloco neutro** (`anti-padroes.md §3`). Se o parágrafo colado antes do CTA não reposiciona a crença (é mecanismo, recap ou frase de impacto), o CTA vira mendigo de interação. Confere: a frase logo acima do CTA é a revelação/virada? Se a virada real ficou 15-20s atrás, separada por mecanismo, ou re-ancora a virada numa linha curta antes do CTA, ou move o CTA pra logo depois dela.
 
@@ -128,7 +134,7 @@ Achou QUALQUER um dos 4 = o VEREDITO já é REFAZ, não importa o resto. Só pas
 | **3 tipos de gancho** | usa Falar/Mostrar/Texto na tela quando útil (ao menos 1 marcado; ideal os 3 em conflito) | |
 | **Tensão contínua** | a tensão NÃO relaxa no meio; em nenhum ponto o leitor prevê a próxima frase (se prevê, ele pula) | |
 | **Lo-fi** | gancho + ideia carregam a peça, sem depender de câmera/edição cara; gravável em minutos | |
-| **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida em 1-2 min; mostra função, nunca passo a passo | |
+| **Espinha APSD** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida em 1-2 min; mostra função, nunca passo a passo | |
 | **CTA com destino** | termina com próximo passo real do funil (salvar/comentar/manda/carrossel/isca), não solto | |
 | **Dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **Dá pra falsificar?** | é fato falsificável, não adjetivo | |
@@ -155,7 +161,7 @@ Dispara quando o dono cola a **URL de um reel** ou aponta uma base de referênci
 
 **O protocolo de dissecação (o checklist do que extrair, `references/modelar-viral.md` §3):** transcrição por timestamp aproximado · gancho (palavras exatas, quantas palavras contadas de fato, qual gatilho, abre com "Eu"?) · linguagem (frase média, proporção você/eu, transições, minimizadores) · estrutura (duração, seções com tempos, antes/depois, CTA, quantos pontos-chave) · a ÚNICA sacada-chave (a premissa que você importa).
 
-**O que importa e o que NÃO importa (§5):** importa a FORMA do gancho, o ritmo, a arquitetura de seções (é a nossa ADMA), o tipo de CTA. NÃO importa o conteúdo dele, e **número/case/fala de terceiro NUNCA vira fato do teu método** (usa o teu número real ou `[DADO: confirmar]`, jamais o dele reaproveitado), nem o traço-assinatura que denunciaria cópia.
+**O que importa e o que NÃO importa (§5):** importa a FORMA do gancho, o ritmo, a arquitetura de seções (é a nossa APSD), o tipo de CTA. NÃO importa o conteúdo dele, e **número/case/fala de terceiro NUNCA vira fato do teu método** (usa o teu número real ou `[DADO: confirmar]`, jamais o dele reaproveitado), nem o traço-assinatura que denunciaria cópia.
 
 **Se a captura/transcrição falhar: relata e PARA.** Nunca inventa a análise (Lei 5). E **descarta a nota 95/100**: o veredito continua binário e honesto (PASSA/REFAZ), o REFAZ aponta o item que falhou. Os dois ✗ mais comuns no modo modelar: **Ancorado ✗** (herdou o número do viral, troca por prova tua) e **Só você diz ✗** (ficou parecido demais, reescreve até a estrutura sumir na tua voz).
 
@@ -188,13 +194,16 @@ Dispara quando o dono cola a **URL de um reel** ou aponta uma base de referênci
 | Deixou um travessão "—" ou frase-emoldura passar pro roteiro | Roda o CHECKPOINT ANTI-IA do Passo 5 (varredura caractere-a-caractere); 1 achado = REFAZ, é o único cinto no app sem lint |
 | Fechou com figura abstrata ("a conta muda quando…", "a chave é…") | Não passa no "dá pra ver?"; troca moldura vazia por número, cena ou mecanismo concreto |
 | Colou o CTA depois de um bloco neutro (mecanismo/recap) | O CTA vem logo após a virada de interpretação (anti-padroes.md §3); re-ancora a virada antes do CTA ou o CTA vira mendigo de interação |
+| Criativo abriu anunciando que vai vender ("hoje vou te apresentar meu produto") | Abre ENTREGANDO valor; cada frase é micro-venda paga em atenção; anunciar a venda cobra antes de entregar e a pessoa pula (Passo 3, metodo-reel 7.13) |
+| Convite do criativo prometeu "vídeo de uma hora"/"aula completa" | Promete o rápido e o grátis: "preparei uma coisa rápida e gratuita onde te mostro X"; o tamanho anunciado mata o clique (7.13) |
+| Empilhou os 10 elementos numa lista dura que soa anúncio | Os 10 são camada de geração, põe o que couber de forma natural; o gate Soft do Passo 5 é soberano e corta prova/urgência fabricada (7.13) |
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.
 - `references/modelar-viral.md`: o **modo modelar um viral** por inteiro (dissecação por timestamp, o checklist do que extrair, a infra Apify + Whisper pros 3 ambientes, importar premissa sem decalcar, e o exemplo denso do link ao roteiro). **Dirigida no MODO Modelar um viral.**
 - `references/producao-em-lote.md`: template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa (pro comando "lote de [tema]").
 - `references/anti-padroes.md`: os anti-padrões do reel com pares errado→certo escritos por extenso.
-- `references/metodo-reel.md`: o capítulo-método completo do reel (Lo-fi vence Hi-fi, a Fórmula 7 comprimida, os 3 tipos + os 7 gatilhos da atenção 7.4, conteúdo notável 7.5, a regra do "faz mais"/escalar 7.7, e as 4 métricas como diagnóstico 7.9). É a fonte da verdade do formato. **Dirigida nos Passos 2, 3 e 6.**
+- `references/metodo-reel.md`: o capítulo-método completo do reel (Lo-fi vence Hi-fi, a Fórmula 7 comprimida, os 3 tipos + os 7 gatilhos da atenção 7.4, conteúdo notável 7.5, a regra do "faz mais"/escalar 7.7, as 4 métricas como diagnóstico 7.9, e o reel como criativo que vende o próximo passo 7.13: as 3 objeções valor/rápido/grátis, micro-vendas frase a frase, os 10 elementos como camada, if…then e os dois CTAs). É a fonte da verdade do formato. **Dirigida nos Passos 2, 3 e 6.**
 - `references/amplificadores.md`: os 10 amplificadores canônicos (frase de 0-2s antes da headline falada) + a tabela de afinidade por template + as regras de uso. **Dirigida no Passo 2.**
 - `references/camadas-conciencia.md`: as 3 camadas de atração (C1 reel curto · C2 reel longo opinativo · C3 reel-visita). **Dirigida no Passo 1.**
 - `references/estrutura-peca.md`: a Estrutura-Mãe dos 5 papéis com as formas de aterrar Contexto/Conteúdo/CTA, pra quando o reel precisa de repertório tático no corpo.

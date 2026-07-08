@@ -32,6 +32,16 @@ Estes passos rodam a IA pra **gerar hipótese de avatar**, não verdade. No mét
 
 **Compilação final:** fecha com um resumo único e colável de tudo (motivadores emocionais, citações, Problema Central, Big Idea) - o bloco que vira contexto pra gerar copy, e-mail e conteúdo desse avatar com fidelidade.
 
+## Dois atalhos de IA pra abastecer os movimentos (aprofunda o "olhar o que o público já consome")
+
+A Super Pesquisa colhe a fala real na web e no material do cliente. Estes dois atalhos usam a própria IA pra **densificar** o material emocional dos movimentos 2, 5 e 6, sempre sob o mesmo enquadramento: a IA propõe, a fonte confirma.
+
+1. **O relato emocional de 1.000 palavras.** Prompt: *"escreva um relato emocional de 1.000 palavras, em primeira pessoa, de uma pessoa que vive [problema do nicho]; seja criativo e concreto no dia a dia dela"*. Não é pra usar o texto como verdade. É pra **minerar frases**: o relato despeja dezenas de formulações de dor, medo e desejo que você garimpa, marca as 5-10 mais vivas e leva pra entrevista confirmar. Roda variações trocando o gatilho ("no dia em que percebeu que...", "depois da terceira tentativa que falhou") pra abrir ângulos diferentes da mesma dor.
+
+2. **Alimentar a IA com um relato do nicho e extrair as falas.** Pega um material longo onde alguém do público já falou solto (um livro, uma autobiografia, um depoimento extenso, um capítulo, uma transcrição de história real do nicho), cola na IA e pede: *"extraia as falas específicas de dor e de desejo desta pessoa, com as palavras dela, sem parafrasear"*. Isso puxa o **vocabulário que a pessoa real usou**, não o que a IA inventaria do zero. É o mesmo princípio de olhar o que o público já consome e compra: a linguagem de quem já pagou pra resolver o problema é a mais quente.
+
+**Regra dura (vale pros dois):** o que sai daqui é hipótese, não fundação. Toda frase minerada volta pra entrevista ("isso bate com teu cliente real?") e pra Super Pesquisa (repete na fonte pública?). O que a fonte não confirma, cai. IA sozinha vira avatar de marketing genérico, exatamente o que o método combate.
+
 ## Handoff
 
 O Problema Central nomeado aqui é candidato a **Problema Avançado** do Bloco 2 - mas só se a pesquisa + a entrevista confirmarem que é real e técnico, não genérico. O vocabulário coloquial (movimentos 4-6) abastece a Fundação de Headlines e a Voz. A Big Idea conversa com o Racional do Posicionamento.

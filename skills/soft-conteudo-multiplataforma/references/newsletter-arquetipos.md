@@ -51,7 +51,7 @@ Subject deriva do gancho principal (<50 char, polariza). Primeira linha do corpo
 
 Modelo: *"[Percepção que polariza, curta]. [1 linha que aprofunda o loop antes do "ver mais" da caixa de entrada]."*
 
-**Fluxo de seções (arco ADMA)**
+**Fluxo de seções (arco APSD)**
 1. Abertura / gancho (2-3 linhas) - a percepção que para o leitor
 2. Problema (3-4 blocos curtos) - soluções comuns + os efeitos colaterais delas
 3. Diagnóstico (2 blocos) - o Problema Sofisticado nomeado explicitamente

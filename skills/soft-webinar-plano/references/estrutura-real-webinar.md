@@ -4,7 +4,7 @@
 >
 > **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que está hoje nos scripts e planos-de-webinar dos clientes. É o gabarito que o `soft-webinar-plano` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
-> **A correção-mãe, numa frase.** O método do autor NÃO são "3 viradas". É **ADMA = Atenção → Diagnóstico → Mecanismo → Ação** (4 caixinhas), batizado de **Reorganização da Percepção (RP)**. Lastro: Eugene Schwartz, níveis de consciência, 1966. *"Fora de ordem, é cobre. Na ordem certa, vira ouro."*
+> **A correção-mãe, numa frase.** O método do autor NÃO são "3 viradas". É **APSD = Atenção → Diagnóstico → Mecanismo → Ação** (4 caixinhas), batizado de **Reorganização da Percepção (RP)**. Lastro: Eugene Schwartz, níveis de consciência, 1966. *"Fora de ordem, é cobre. Na ordem certa, vira ouro."*
 
 ---
 
@@ -269,7 +269,7 @@ E o restante do código de slide:
 ### ERRO 1 · As "3 viradas" como espinha do Mecanismo
 **O que tem:** o Mecanismo é organizado como exatamente 3 viradas (3 crenças invertidas), com a régua dura *"nunca mais de 3 viradas"*. A profundidade da aula vira "virar 3 crenças".
 **Por que está errado:** o Mecanismo real do autor do método NÃO é "inverter 3 crenças". É uma sequência rica e fixa: **nova oportunidade → estreia do nome do veículo → as 4 condições (fundamento) → tabela/​~12 provas de superioridade → head-to-heads → batismo da RP + cobre→ouro → prova-meta ("você é a prova") → Schwartz/neurociência → a IA como capacidade → os 3 passos → quadro-síntese → recap yes-ladder.** Comprimir isso em "3 viradas" joga fora a tabela comparativa, a pilha de superioridade, a prova-meta e o recap — que são o que faz o Mecanismo converter.
-**Correção:** trocar o cabeçalho `MOTOR DAS 3 VIRADAS` pela espinha **ADMA / Reorganização da Percepção** detalhada na Fase M acima. A batida de 4 tempos (o que é · por que · me prova · exemplo) **sobrevive** — mas como o jeito de ensinar CADA afirmação do Mecanismo, não como "3 viradas". O número de afirmações é o que o conteúdo pedir, não um teto de 3. As crenças a inverter viram munição DENTRO dessa sequência (ex.: a crença "é complicado de montar" é morta no beat da IA; "não tenho audiência" no fechamento), não a arquitetura dela.
+**Correção:** trocar o cabeçalho `MOTOR DAS 3 VIRADAS` pela espinha **APSD / Reorganização da Percepção** detalhada na Fase M acima. A batida de 4 tempos (o que é · por que · me prova · exemplo) **sobrevive** — mas como o jeito de ensinar CADA afirmação do Mecanismo, não como "3 viradas". O número de afirmações é o que o conteúdo pedir, não um teto de 3. As crenças a inverter viram munição DENTRO dessa sequência (ex.: a crença "é complicado de montar" é morta no beat da IA; "não tenho audiência" no fechamento), não a arquitetura dela.
 
 ### ERRO 2 · Falta a doutrina das LISTAS / dopamina por clique
 **O que falta:** o script não trata LISTA como unidade-base nem marca "um por clique". O Mecanismo das 3 viradas é prosa, não pilha.

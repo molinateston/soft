@@ -15,6 +15,7 @@
 - [P7b: O espectro do ticket (R$497 → R$50.000)](#p7b-o-espectro-do-ticket-r497--r50000)
 - [P7c: A esteira (nenhum lead se perde)](#p7c-a-esteira-nenhum-lead-se-perde)
 - [P7d: O racional de curadoria (o teste final)](#p7d-o-racional-de-curadoria-o-teste-final)
+- [P7e: A ordem de apresentar o bloco de oferta](#p7e-a-ordem-de-apresentar-o-bloco-de-oferta)
 
 ---
 
@@ -40,6 +41,15 @@ Soma dos componentes avulsos = a âncora contra a qual o preço é lido. Duas â
 > **Exemplo (molde-preenchido da âncora (a) subindo, nicho emprego).** Produto principal isolado, preço cheio: "o método completo, todo o passo a passo, R$990" (o R$990 vira a régua, não é o preço final) → empilha avulso: "mais R$200, mais R$200, mais R$100", a âncora interna sobe pra R$1.490 → só DEPOIS revela que vem junto: "tudo isso, quem comprar o principal, ganha junto." A queda final cairá de R$1.490 (teto) pra R$490, sentida a partir do teto. **Decalcável:** ancorar o principal alto e isolado, somar avulso por cima, só depois revelar que vem junto. **Do nicho:** os valores e os itens.
 
 > **Exemplo (custo invisível como âncora PRIMÁRIA, fisio).** O Mapa soma ~R$6k pra um preço de até R$5k, então não é ele que segura. O que segura é a conta de continuar: cada mês parada é vida menor + a roda de consulta-exame-PS que cobra todo mês e não recalibra nada. Somado, passa o preço de qualquer nível. É ele que ancora.
+
+### Os três registros da âncora (lógico · emocional · medo/perda)
+
+A âncora não fala só com a razão. Ela toca três registros, e o **terceiro é o mais duro pro avatar maduro:**
+- **Lógico** (a conta): a soma do stack, o retorno 10x, o custo de mercado. Fala com a cabeça.
+- **Emocional** (o sonho): a vida do outro lado, o que a pessoa passa a sentir. Fala com o desejo.
+- **Medo / perda** (o que ela PERDE se não agir): "se você deixar isso passar, [X concreto] continua ou acontece." É o registro da aversão à perda, e pesa mais que os outros dois, porque uma perda dói mais do que um ganho equivalente anima.
+
+O **custo invisível** (âncora b) já é a forma de MEDIR esse terceiro registro no PRESENTE (o que já se perde hoje, todo mês). O registro de medo estende a mesma lógica pro FUTURO: pinta a perda de deixar passar a chance, não só a de continuar parado. Regra de honestidade: a perda tem que ser **real e checável** (a roda de custo que continua, o ano que passa igual, a janela que fecha), nunca catástrofe inventada. O avatar maduro fareja o medo forçado, e o medo falso derruba a âncora inteira junto com a credibilidade do método. Os três registros somam quando empilhados na ordem: mostra a conta (lógico), pinta o sonho (emocional), fecha com a perda de não agir (medo).
 
 ---
 
@@ -85,6 +95,15 @@ O cardápio, do mais leve ao mais pesado, com o que cada um EXIGE pra ser honest
 **A régua de escolha:** a garantia tem que ser **maior que a objeção de risco do avatar, e não maior que isso.** Avatar cético + ticket alto pedem reversão extrema; avatar que já confia + ticket baixo com super-garantia gera o efeito inverso ("por que tanto?"). O tom Soft: a garantia cobre o **resultado do método**, nunca a decisão de aplicar, "eu garanto o método; não garanto fazer por você o que só você decide fazer." O risco financeiro é do player, a decisão é do cliente. A 90+90 é a forma extrema exatamente disso: paga até pelo tempo perdido, mas só pra quem aplicou (a condição de aplicação é a honestidade embutida).
 
 > **Exemplo (ROI-como-garantia, arquitetura).** A player não dava reembolso; a "garantia" era um caso real: "a Bianca pagou o curso em uma semana de trabalho." **Do nicho:** o case; **decalcável:** substituir reembolso por prova esmagadora quando o resultado é financeiro e rápido.
+
+### Garantia antecipada (sobe a garantia pra ANTES do preço)
+
+A garantia costuma cair DEPOIS do preço (no molde de apresentação de P7e ela vem no fim do bloco). Uma variação forte, sobretudo pro avatar cético: **sobe a garantia pra ANTES do preço**, e até **semeia a promessa dela lá na entrada** ("você acessa sem pagar nada agora", "experimenta sem risco antes de decidir"). O efeito é de credibilidade: quando o preço aparece, o risco já saiu da mesa, e o número é lido por alguém que já baixou a guarda em vez de por alguém em posição de defesa.
+
+- **Quando usar:** o risco percebido é a objeção-MÃE (ticket alto + avatar que já tomou pau de promessa e chega com o escudo em pé).
+- **Quando NÃO:** avatar que já confia, onde antecipar reversão pesada só planta a dúvida "por que tanta segurança assim?" (a mesma régua do cardápio: garantia maior que a objeção de risco, e não maior que isso).
+
+Guarda: antecipar a garantia **não é prometer mais**, é reposicionar QUANDO o risco sai da conta. Continua sendo "período de experiência", continua cobrindo o resultado do método e não a decisão de aplicar. A semente na promessa ("acesse sem pagar nada") derruba a guarda na entrada; a garantia inteira, com prazo e condição, ainda aparece por extenso no lugar dela dentro do bloco.
 
 ---
 
@@ -159,6 +178,22 @@ Nenhum produto único cobre R$497→R$50.000, a **escada** cobre. A esteira não
 - por que tal entregável existe e **não** o "pacote óbvio" do nicho (criaria a dependência que a tese combate).
 
 Se o especialista não consegue dizer *por que deixa de ser* a alternativa óbvia, a oferta ainda está rasa. Esse é o teste final.
+
+---
+
+## P7e: A ordem de apresentar o bloco de oferta
+
+**Cuidado com a fronteira: P0-P7 é a ordem de DESENHAR a oferta; esta é a ordem de APRESENTAR a oferta já pronta na copy.** São coisas diferentes. Você desenha destilando a PUV, calibrando a Equação, montando a stack, ancorando e precificando (a ordem dos Passos). Na hora de MOSTRAR isso ao lead (na carta ou no palco), um molde testado de resposta direta sequencia o bloco assim:
+
+**apresentação do produto → benefícios → o que tem dentro (SEXY, via fascinations) → pra quem é / pra quem NÃO é → ancoragem → preço → CTA → garantia → bônus → recap → fecho de 2 caminhos.**
+
+Três peças desse molde valem como acréscimo tático (o resto o desenho Soft já cobre):
+- **Pra quem é / pra quem NÃO é** (logo antes da ancoragem): o "pra quem NÃO é" filtra e, de quebra, SOBE o desejo de quem se encaixa (a exclusão vira pertencimento). É o mesmo trabalho que a aplicação faz no high-ticket, aplicado dentro da copy.
+- **Bônus solto DEPOIS do preço** (não antes): o bônus surpresa personalizado (P4c) cai depois de o preço já ter ancorado, como o "por que agora". A ordem importa, anunciar o surpresa antes do preço queima a munição.
+- **Fecho de 2 caminhos** (o fim do bloco): contrasta o custo de fazer sozinho contra o atalho da oferta, *"você aplica isto sozinho e leva meses, ou pega aqui pronto e aprende em horas."* Fecha empurrando a decisão sem escassez falsa: os dois caminhos são reais, um só é mais lento.
+- **Garantia antes OU depois do preço (escolha, não regra):** o molde acima põe a garantia depois do preço; a **garantia antecipada** (P6b) inverte isso pro avatar cético, subindo a reversão pra antes do número e semeando-a já na promessa. As duas ordens são válidas; decide pelo peso do risco percebido no avatar (quanto mais o risco é a objeção-mãe, mais cedo a garantia entra).
+
+**Harmonização com a doutrina Soft (a doutrina manda).** Este molde é ordem LINEAR de bloco, própria de carta/VSL. No webinar Soft a oferta não cai em bloco linear: ela é **semeada ao longo da aula e ancorada no palco por degraus** (a apresentação de palco é da `soft-webinar-plano`). Onde o molde linear divergir da forma Soft, ele vale como **VARIAÇÃO de apresentação pra copy escrita**, nunca sobrescreve a doutrina. A montagem final é sempre handoff: `soft-funil-carta` (carta/VSL) e `soft-webinar-plano` (palco). Aqui se decide o QUE a oferta tem; a ordem de exibir é lá.
 
 > **Calibragem (voz e erros):** tom clínico, todo movimento de preço MEDE, não dramatiza ("mil do lado de trezentos mil é troco" é medição; "chance única da sua vida" é palco, proibido). Escassez, garantia e número honestos: vaga real, prazo real, garantia real, número defensável. O avatar maduro fareja o falso, e isso contamina toda a credibilidade. **Banido na copy:** em-dash (travessão longo), família "travar/travado", ALL-CAPS corrido, "alavancar", "jornada" como jargão de copy, "mindset", tricolon performático, tom de guru.
 >

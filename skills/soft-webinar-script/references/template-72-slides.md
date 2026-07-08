@@ -20,7 +20,7 @@ Esta reference é o **esqueleto slide a slide** do webinário: os **72 beats, na
 - 5. TRANSIÇÃO DE VENDA: slides 27–34 (a plateia pede a oferta)
 - 6. OFERTA: slides 35–65 (quase metade do deck, e é proposital)
 - 7. FECHAMENTO: slides 66–72 (o pico emocional coincide com o botão)
-- MAPA 72 BEATS ↔ ROTEIRO ADMA ↔ BIBLIOTECA (a costura)
+- MAPA 72 BEATS ↔ ROTEIRO APSD ↔ BIBLIOTECA (a costura)
 - CHECKLIST ao gerar um deck sobre este esqueleto
 
 ---
@@ -387,9 +387,9 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 ---
 
-## MAPA 72 BEATS ↔ ROTEIRO ADMA ↔ BIBLIOTECA (a costura)
+## MAPA 72 BEATS ↔ ROTEIRO APSD ↔ BIBLIOTECA (a costura)
 
-| Bloco do template | Slides | Fase ADMA (`estrutura-webinario-aida.md`) | Biblioteca (`exemplos-por-bloco/`) | Render (`geracao-de-slides.md`) |
+| Bloco do template | Slides | Fase APSD (`estrutura-webinario-aida.md`) | Biblioteca (`exemplos-por-bloco/`) | Render (`geracao-de-slides.md`) |
 |---|---|---|---|---|
 | Pré-início | 1–4 | BLOCO 0 (0.1–0.4, compliance progressiva) | 01-pre-inicio | `capa`, `frase` |
 | Abertura | 5–13 | ATENÇÃO (1.1–1.8) | 02-abertura-atencao + 03-autoridade-historia (S13) | `capa`, `conteudo`, `prova` |
@@ -400,7 +400,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 | Fechamento | 66–72 | AÇÃO (4.10–4.18, Q&A, despedida) | 12-escassez-urgencia-cta + 13-qa-objecoes | `fechamento`, `frase`, `prova` |
 | (transversal a TODOS) |, | micro-compromissos S3/S4/S25/S27-29/S70 | 14-interacao-chat (leia ANTES de tudo) |, |
 
-O roteiro ADMA tem granularidade de FALA (blocos com tempos e copy); o template 72 tem granularidade de TELA (beats visuais); a biblioteca tem granularidade de EXEMPLO (verbatim de campeões). São o mesmo esqueleto em três resoluções, gere o roteiro primeiro, projete nos 72 beats puxando exemplos da biblioteca, renderize por último.
+O roteiro APSD tem granularidade de FALA (blocos com tempos e copy); o template 72 tem granularidade de TELA (beats visuais); a biblioteca tem granularidade de EXEMPLO (verbatim de campeões). São o mesmo esqueleto em três resoluções, gere o roteiro primeiro, projete nos 72 beats puxando exemplos da biblioteca, renderize por último.
 
 ---
 
@@ -421,4 +421,4 @@ O roteiro ADMA tem granularidade de FALA (blocos com tempos e copy); o template 
 
 ---
 
-*O esqueleto é LEI; o recheio é do nicho. Este template é a ordem física dos 72 beats que o roteiro ADMA preenche de fala, a biblioteca instancia em exemplo e o gerador de slides veste de tela. Quando a forma de um beat ferir a premissa num nicho, a premissa ganha, adapta-se a forma do beat, nunca sua posição na cadeia.*
+*O esqueleto é LEI; o recheio é do nicho. Este template é a ordem física dos 72 beats que o roteiro APSD preenche de fala, a biblioteca instancia em exemplo e o gerador de slides veste de tela. Quando a forma de um beat ferir a premissa num nicho, a premissa ganha, adapta-se a forma do beat, nunca sua posição na cadeia.*

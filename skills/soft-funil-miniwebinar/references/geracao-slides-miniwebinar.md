@@ -1,6 +1,6 @@
 # Geração de slides do Mini Webinar, vestir o roteiro de 12 blocos com tela
 
-Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela ensina a pegar o roteiro ADMA de 12 blocos já fechado e **vesti-lo de tela**, comprimido pro mini-webinar de ~10 min. O deck não é o conteúdo; é o amplificador visual de uma fala que já funciona. A fala constrói a crença, o slide só devolve o olho pra voz e ancora 1 ideia.
+Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela ensina a pegar o roteiro APSD de 12 blocos já fechado e **vesti-lo de tela**, comprimido pro mini-webinar de ~10 min. O deck não é o conteúdo; é o amplificador visual de uma fala que já funciona. A fala constrói a crença, o slide só devolve o olho pra voz e ancora 1 ideia.
 
 > **Pré-requisito-lei.** O roteiro das 4 fases tem que estar fechado e aprovado. Se não tem, PARA e fecha o roteiro primeiro (volta pro corpo do SKILL.md, Passos 2 a 5). O deck nasce do script, nunca do zero. Sem roteiro, montar slides é alucinar fala de palco.
 
@@ -13,7 +13,7 @@ Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela e
 ## Índice
 
 - 0. PRINCÍPIO-MÃE, copy na nota (o slide serve a fala)
-- 1. MAPA dos 12 blocos ADMA pras faixas de slide
+- 1. MAPA dos 12 blocos APSD pras faixas de slide
 - 2. CATÁLOGO ENXUTO de arquétipos (molde + slide instanciado em nicho fictício)
 - 3. CALIBRAGEM MINI (deck de ~12 a 20 slides, sem stack/preço)
 - 4. DOIS CAMINHOS DE SAÍDA (Code via deck_gen.py, Chat via PDF)
@@ -25,7 +25,7 @@ Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela e
 
 A ordem de produção é fixa e não inverte:
 
-1. O **roteiro já está pronto** (saída das 4 fases ADMA).
+1. O **roteiro já está pronto** (saída das 4 fases APSD).
 2. Pega a **copy falada** de cada bloco e cola **na NOTA** (campo `nota` do JSON / Speaker Notes), invisível pra quem assiste.
 3. **Só depois** cria o conteúdo visível do slide: o reforço (1 frase OU 1 número OU 1 imagem-conceito).
 4. A tela recebe **só o reforço**. O parágrafo falado mora na nota.
@@ -49,11 +49,11 @@ O Bloco I.1 (Diagnóstico) do roteiro fala: *"você abre o ateliê, posta a peç
 
 ---
 
-## 1. MAPA dos 12 blocos ADMA pras faixas de slide
+## 1. MAPA dos 12 blocos APSD pras faixas de slide
 
-O deck é um ADMA visualizado. Cada bloco do roteiro vira uma faixa de slides com arquétipos característicos. A ordem é lei: cada slide deixa a pessoa num estado que é pré-condição do próximo. Pode **expandir** um bloco em mais slides quando a fala pede respiro; **não pode suprimir nem reordenar**.
+O deck é um APSD visualizado. Cada bloco do roteiro vira uma faixa de slides com arquétipos característicos. A ordem é lei: cada slide deixa a pessoa num estado que é pré-condição do próximo. Pode **expandir** um bloco em mais slides quando a fala pede respiro; **não pode suprimir nem reordenar**.
 
-| Fase ADMA | Blocos do roteiro | Faixa de slides (arquétipos) |
+| Fase APSD | Blocos do roteiro | Faixa de slides (arquétipos) |
 |---|---|---|
 | **ATENÇÃO (0:00 a 1:30)** | A.1 Promessa + filtragem · A.2 Prova social ancorada | capa/big-idea → respiro → prova social ancorada (número-gigante OU depoimento empilhado) → respiro |
 | **DIAGNÓSTICO (1:30 a 3:00)** | I.1 Problema geral · I.2 Problema avançado (opcional) | storytelling-de-dor (1 cena por slide) → manifesto-tese do inimigo nomeado → respiro-chave (a virada) |

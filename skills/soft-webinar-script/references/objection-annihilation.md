@@ -372,7 +372,7 @@ A jogada inverte o sinal: o boicote, que seria prova de erro, vira prova de prog
 
 ### O que é
 
-Menção curta da oferta logo nos primeiros 3-5 minutos do webinar (Bloco 1.4 da estrutura ADMA).
+Menção curta da oferta logo nos primeiros 3-5 minutos do webinar (Bloco 1.4 da estrutura APSD).
 
 **Por que existe:** 5-15% da audiência **chega pronta**. Já viu seu conteúdo, já decidiu, está só esperando o link. Se você não menciona oferta no início, eles esperam até o final pra ouvir e podem desistir no meio (sair, atrasar, ser interrompido).
 

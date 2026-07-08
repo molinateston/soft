@@ -287,7 +287,7 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 
 ## When NOT to use (manda pra skill certa)
 - Pediu **oferta / stack / garantia / ancoragem do webinar** → **soft-webinar-plano** (esta skill só monta as 3 páginas; a oferta nasce lá).
-- Pediu **roteiro / estrutura ADMA** → **soft-webinar-script**. **Deck/slides** → **soft-webinar-slides**. **Gravação/perpetuação** → **soft-webinar-plano**. **E-mails/WhatsApp** → **soft-webinar-mensagens**. **Anúncios** → **soft-conteudo-impulsionar**. **Pós-webinar/esteira** → **soft-webinar-mensagens**. **Plano/diagnóstico do webinar** → **soft-webinar-plano**.
+- Pediu **roteiro / estrutura APSD** → **soft-webinar-script**. **Deck/slides** → **soft-webinar-slides**. **Gravação/perpetuação** → **soft-webinar-plano**. **E-mails/WhatsApp** → **soft-webinar-mensagens**. **Anúncios** → **soft-conteudo-impulsionar**. **Pós-webinar/esteira** → **soft-webinar-mensagens**. **Plano/diagnóstico do webinar** → **soft-webinar-plano**.
 - Pediu **página de vendas / VSL / landing** fora do contexto de webinar → **soft-funil-carta** (carta/VSL em texto) ou **soft-funil-landing** (página hero-ao-botão).
 - Pediu **só a headline** (isolada, banco de ganchos) → **soft-conteudo-headlines**.
 - Pediu o **CORPO de conteúdo de feed** → **soft-conteudo-carrossel** (carrossel), **soft-conteudo-reels** (reel) ou **soft-conteudo-stories** (stories).

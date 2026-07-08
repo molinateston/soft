@@ -15,7 +15,7 @@ O que converte não é só o que você fala, é COMO você fala. O "como" se cha
 
 ## Passo 0, confirma a pré-condição (NÃO PULE)
 Gravar é a fase DEPOIS de validar ao vivo. A regra: webinar perpetuado sem validação ao vivo tem chance enorme de não converter, porque você grava a sua versão SEM energia achando que vai bem. Antes de qualquer coisa, confirme:
-- O roteiro ADMA está fechado (vem da **soft-webinar-script**). Se não está, manda pra lá primeiro.
+- O roteiro APSD está fechado (vem da **soft-webinar-script**). Se não está, manda pra lá primeiro.
 - O deck está montado, copy nas notas, listas por clique (vem da **soft-webinar-slides**).
 - O ao vivo já foi validado (conversão estável de quem está na sala) OU o especialista decidiu, consciente, gravar antes (avisa o risco).
 
@@ -73,7 +73,7 @@ Preenche a tabela pra cada etapa entregue. Só etapa com VEREDITO=PASSA vai pro 
 | **Atemporalidade perpétua** | zero "hoje/agora/essa semana/dia da semana/evento/notícia" no que é perpétuo; Q&A em bloco separado | |
 | **Pontos de interação previstos** | cada bloco tem pelo menos 1 micro-comando com pausa pra "resposta"; pré-início conduz prova social | |
 | **Captação mínima** | vídeo local, áudio direto, fundo limpo, câmera no eixo, gravação redundante; nada depende de compressão de chamada | |
-| **Casa com o roteiro (ADMA)** | a conduta segue os blocos do roteiro ADMA já pronto, na ordem; não reescreve nem reordena o roteiro | |
+| **Casa com o roteiro (APSD)** | a conduta segue os blocos do roteiro APSD já pronto, na ordem; não reescreve nem reordena o roteiro | |
 | **Presença honesta** | não afirma "estou ao vivo"; escassez de sessão é real; simula a SALA, nunca a PROVA (resultado/preço/garantia são de verdade) | |
 | **C/U/B** | o plano serve Clareza (entende), Utilidade (executa), Brevidade (sem encher linguiça) | |
 | **CTA com destino** | o micro-comando e o pitch apontam pra um destino concreto (digitar no chat, o botão da oferta no minuto exato) | |
@@ -98,5 +98,5 @@ Mostra só o que passou, com a tabela do gate. Pergunta "essa etapa te serve? aj
 | Gravou a chamada em vez do arquivo local | Grava local sempre; compressão de chamada vira a cara do perpétuo inteiro |
 | Inventou número/case "plausível" | Só número/case REAL; sem fonte, não passa Ancorada=✓ |
 | Edição polida demais (cortou toda hesitação) | Preserva respiração humana e repetições estratégicas; corta só lixo técnico |
-| Reescreveu o roteiro na hora de gravar | Não reescreve; a conduta veste o roteiro ADMA pronto, na ordem |
+| Reescreveu o roteiro na hora de gravar | Não reescreve; a conduta veste o roteiro APSD pronto, na ordem |
 

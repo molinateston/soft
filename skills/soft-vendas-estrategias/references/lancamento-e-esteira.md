@@ -15,6 +15,7 @@
 - [A micro-oferta como porta e downsell](#a-micro-oferta-como-porta-e-downsell)
 - [O canal de fechamento (regra do funil)](#o-canal-de-fechamento-regra-do-funil)
 - [A esteira de 3 publicos e a matematica da meta](#a-esteira-de-3-publicos-e-a-matematica-da-meta)
+- [Funil micro-ondas (aquece o lead de servico antes do contato humano)](#funil-micro-ondas-encher-o-topo-com-lead-de-servico-ja-quente)
 - [A caixa de provas (coletar o caso documentado por design)](#a-caixa-de-provas-coletar-o-caso-documentado-por-design)
 
 ---
@@ -117,6 +118,22 @@ Mesmo conhecimento, 3 alturas de acesso e preco. Conhecimento e ativo flexivel: 
 > **Como a esteira vira jogada:** cada altura da esteira e servida por jogadas diferentes. Consumidor → Vendas Automaticas (#9) e Destaques (#8); Membro → Reuniao de R$100 (#5), Storytelling (#4), Oferta Direta (#3); Cliente full → Lembrei de Voce (#10) na base quente + Pix de Compromisso (#7) pra fechar o valor. A matematica da meta (da Conta, no soft-leon) diz quantas de cada.
 
 > **Regua de fidelidade:** todo numero/ticket/faixa acima e so formato. O do dono sai da conta 10x (que mora na **soft-plano-ofertas**) e da meta real dele (que sai da Conta, no **soft-leon**), `[A CONFIRMAR]` ate validar. Nunca use o numero de exemplo como promessa.
+
+---
+
+## Funil micro-ondas (encher o topo com lead de servico ja quente)
+
+> **O que e.** Uma jogada de arquitetura de funil que esquenta um lead frio em minutos, antes de qualquer contato humano, pra ele chegar pronto no fechamento de servico. E TATICA: convive com a escada de 3 funis do metodo (Funil Soft, Webinar, Launch), nao a substitui. O webinario-perpetuo segue como funil-mae. A regra do menor custo continua valendo: base quente antes de audiencia, audiencia antes de trafego frio.
+
+Feito pra quem vende **procedimento ou servico** (o profissional que atende, o consultor, o mentor, quem entrega um servico tecnico). A sequencia:
+1. **Reel ou anuncio** que fisga a dor.
+2. **Automacao de comentario/DM**: "comenta [palavra]" ou "me manda [palavra] no direct", o bot responde com o link.
+3. **Pagina de aula de ~15 min que AQUECE**: o proprio especialista tira as duvidas reais do pre, do durante e do pos do procedimento/servico. A aula educa de verdade e dissolve a objecao antes dela aparecer.
+4. **Botao de WhatsApp so no fim da aula**: quando o lead ja assistiu e esquentou, o contato humano abre com ele quente, nunca frio.
+
+O nome "micro-ondas" e literal: aquece rapido. O pulo do gato e o WhatsApp aparecer **so depois** da aula, nunca antes: quem chega no WhatsApp ja passou pela aula e chega pronto pra fechar, o que muda o jogo pra quem fecha servico 1:1.
+
+**Ajuste Soft:** a aula **filtra E convence** (ensina de verdade, nao isca vazia pra empurrar), a mesma doutrina do conteudo util da Reuniao de R$100. O reel = **soft-conteudo-reels**; o trafego do anuncio = **soft-conteudo-impulsionar**; a automacao de comentario/DM (o bot) = **soft-vendas-sdr**; a pagina de aula de 15 min = **soft-funil-miniwebinar**; o fechamento no WhatsApp no fim = **soft-vendas-closer**. Handoff limpo: esta reference decide a arquitetura do funil, as maes executam cada peca.
 
 ---
 

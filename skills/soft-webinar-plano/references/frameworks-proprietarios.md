@@ -2,9 +2,9 @@
 
 > **Nota de skill (atômica):** esta reference foi absorvida na `soft-webinar-plano` (planejamento + oferta). Ponteiros a `estrutura-webinario-aida.md`, `objection-annihilation.md`, `exemplos-por-bloco/02-08`, `geracao-de-slides`, `template-72-slides`, `anuncios-pra-encher-webinar`, `pos-webinar-tags-comercial`, `perpetuo-mecanica`, `sequencias-email-whatsapp` e `super-pesquisa` apontam pras skills-irmãs do pipeline (`soft-plano-posicionamento`, `soft-webinar-script`, `soft-webinar-paginas`, `soft-webinar-mensagens`, `soft-webinar-mensagens`); o que é da fase de planejamento/oferta vive aqui (`estrutura-real-webinar.md`, `desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `frameworks-proprietarios.md`, `fundamentos-pre-roteiro.md`, `premissas-e-guarda-corpos.md`, `esqueleto-universal-e-discernimento.md`, `escolha-carta-mt-webinario.md`, `analise-webinario-existente.md` + `exemplos-por-bloco/09,10,12`).
 
-Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia** (Schwartz, Brunson, Ries e Trout). São formas avançadas de conduzir certos blocos ao vivo. Esta reference ensina cada um: o que é, o mecanismo, a fala-modelo, como usar como BLOCO do webinar, e por que funciona. **O esqueleto continua sendo o de `estrutura-real-webinar.md` (a espinha ADMA) e a inteligência o de `esqueleto-universal-e-discernimento.md`.** Isto aqui é o que vai DENTRO de blocos específicos quando o usuário adota o ângulo Soft. O usuário adapta cada um com a verdade do nicho dele. Os exemplos abaixo são de nichos variados (marcados), nunca para copiar literal.
+Cinco frameworks que **não saem da estrutura APSD padrão nem da bibliografia** (Schwartz, Brunson, Ries e Trout). São formas avançadas de conduzir certos blocos ao vivo. Esta reference ensina cada um: o que é, o mecanismo, a fala-modelo, como usar como BLOCO do webinar, e por que funciona. **O esqueleto continua sendo o de `estrutura-real-webinar.md` (a espinha APSD) e a inteligência o de `esqueleto-universal-e-discernimento.md`.** Isto aqui é o que vai DENTRO de blocos específicos quando o usuário adota o ângulo Soft. O usuário adapta cada um com a verdade do nicho dele. Os exemplos abaixo são de nichos variados (marcados), nunca para copiar literal.
 
-> Onde cada um vive no ADMA: os frameworks 1, 2, 3 e 4 vivem na fase **Mecanismo**, e o 1 e o 2 fazem a ponte com o **Diagnóstico/problema**. O framework 5 vive na **Ação**, no bloco de Investimento. Quase tudo aqui mora em Mecanismo e na Oferta, que é onde o webinar Soft ganha ou perde.
+> Onde cada um vive no APSD: os frameworks 1, 2, 3 e 4 vivem na fase **Mecanismo**, e o 1 e o 2 fazem a ponte com o **Diagnóstico/problema**. O framework 5 vive na **Ação**, no bloco de Investimento. Quase tudo aqui mora em Mecanismo e na Oferta, que é onde o webinar Soft ganha ou perde.
 
 ---
 
@@ -187,11 +187,11 @@ Só depois disso o preço aparece, e a comparação é com o custo invisível, n
 
 ---
 
-## Como os cinco se encaixam no ADMA (estrutura real, sem "3 viradas")
+## Como os cinco se encaixam no APSD (estrutura real, sem "3 viradas")
 
-> **Nota de framing (correção-mãe):** o "Ato 2 / as 3 viradas" era a arquitetura inventada que a auditoria mandou arrancar. Estes cinco frameworks NÃO se organizam em "viradas" - eles vivem nas fases reais do ADMA (`estrutura-real-webinar.md`): a maioria na ponte Diagnóstico→Mecanismo e no Mecanismo, e o 5 na Ação. A batida de ensino de 4 tempos (o que é · por que · me prova · exemplo) sobrevive como o JEITO de ensinar cada afirmação, nunca como teto de "3".
+> **Nota de framing (correção-mãe):** o "Ato 2 / as 3 viradas" era a arquitetura inventada que a auditoria mandou arrancar. Estes cinco frameworks NÃO se organizam em "viradas" - eles vivem nas fases reais do APSD (`estrutura-real-webinar.md`): a maioria na ponte Diagnóstico→Mecanismo e no Mecanismo, e o 5 na Ação. A batida de ensino de 4 tempos (o que é · por que · me prova · exemplo) sobrevive como o JEITO de ensinar cada afirmação, nunca como teto de "3".
 
-| Framework | Fase ADMA real | Função |
+| Framework | Fase APSD real | Função |
 |---|---|---|
 | 1. 6º nível de consciência | Diagnóstico → Mecanismo (a dobradiça) | Falar com quem já tentou de tudo; dar alívio; "avançado é o mais fácil" |
 | 2. Dor não é problema (escoliose) | Diagnóstico → Mecanismo (a dobradiça) | Tirar o especialista da avenida lotada; montar o 6º nível |

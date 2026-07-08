@@ -10,8 +10,7 @@ Procedimento para criar 5-15 Reels em uma sessão. O objetivo é maximizar outpu
 - Setup (luz, câmera, roupa, mentalidade) é o maior custo. Uma vez montado, multiplique.
 - A edição de 10 Reels simples leva o mesmo tempo que editar 3 complexos.
 - O algoritmo recompensa consistência. Ter banco de conteúdo = nunca ficar sem postar.
-
----
+- A abertura (os primeiros ~15s, a **"Lead" da peça**) é o que decide ficar ou pular: pra gerar 10 criativos quase novos, varia SÓ esses 15s (fala/imagem/formato de entrada) e reaproveita o mesmo miolo e fecho, mesmo princípio da esteira de criativos pago.
 
 ## 2. Planejamento da sessão
 

@@ -25,6 +25,18 @@ Adaptar não é traduzir tom. É engenharia reversa. Você pega uma peça Soft q
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**: gera o doc como arquivo `.md` no disco e cita o path completo na resposta (o bridge anexa o arquivo); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela com `|` no texto ao usuário) — o doc vai como anexo. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
+## A cascata de recriação (1 peça-mãe vira a semana inteira)
+Repurpose ponto a ponto (peça pronta → outra plataforma) é o que os Passos abaixo executam. A cascata é a visão macro que os alimenta: UMA peça-mãe longa (uma live, um podcast, uma aula de 1h) vira N peças que enchem a semana, gravadas num único dia de produção. A régua de alavancagem é essa: **o dono grava 1 dia por semana; a equipe (ou a ferramenta) faz o alvoroço** o resto dos dias. Sem a cascata, cada post custa uma ideia nova; com ela, a semana inteira sai de uma gravação só.
+
+A ordem da cascata (cada elo é um destino que os Passos já sabem re-renderizar):
+1. **Transcreve + humaniza** a peça-mãe (tira muleta, corta repetição, vira texto que se lê; a `soft-apostila` faz esse pipeline quando o dono quer o material navegável).
+2. **Resumo pro blog / newsletter** (o texto longo indexável; Passo 4, destino PDF/Notion ou Substack/email).
+3. **Carrossel com CTA de automação** (o corpo é da `soft-conteudo-carrossel`; aqui a peça-mãe vira os slides, e o CTA é de captura: *"comenta [PALAVRA] que eu te mando o ebook"*).
+4. **Ebook como isca (a "propina"):** o ebook é o presente que a automação entrega. A sacada é que quase ninguém consome o ebook, mas quase ninguém suporta perder a chance de baixar de graça, então o pedido de comentário vira lead. O ebook não é o produto, é o anzol que transforma um comentário em contato (nome/email/WhatsApp). O **ATIVO** do ebook (o que vai dentro, a página de captura, a entrega) é da `soft-funil-isca`; aqui ele é só o elo da cascata que fecha o loop do carrossel.
+5. **Reel de "react"** (fundo verde, lo-fi, o dono reagindo à própria peça: *"gravei uma live inteira sobre X, comenta [PALAVRA] que eu te mando"*; o roteiro é da `soft-conteudo-reels`, aqui a peça-mãe vira o gancho).
+
+Cada elo herda a tese da peça-mãe e passa pelo gate do destino (os Passos abaixo). A cascata decide QUANTAS peças e em que ordem; o Passo 4 decide COMO cada uma fala no idioma nativo dela. O CTA de automação ("comenta a palavra") é o fio que costura carrossel e reel de volta pro ebook-isca, então a semana inteira empurra pro mesmo lead.
+
 ## Passo 0, ancora antes de adaptar (NÃO PULE)
 O fluxo assume que a peça-âncora já passou pelo gate dela. Confirma duas coisas antes de mexer:
 - **A headline/abertura já está escolhida?** Se a âncora ainda não tem headline aprovada, manda fazer na **soft-conteudo-headlines** primeiro e para. Você adapta a partir de uma peça pronta, não cria do zero.

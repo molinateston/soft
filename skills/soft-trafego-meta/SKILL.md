@@ -54,7 +54,7 @@ Se a casa opera por **Marketing API direta** (token próprio no ambiente), esse 
 **Credenciais / conexão (Code/agente):**
 - pipeboard remote: token da `pipeboard.co/api-tokens` (setup ~2 min, ideal pra você TESTAR já).
 - pipeboard self-host: Meta Developer App + token próprio da Meta (ideal pro PRODUTO, a casa dona, sem SaaS terceiro por cliente).
-- Marketing API direta: `META_ACCESS_TOKEN` (ou `_LEO`), `META_AD_ACCOUNT_*` (`act_<id>`), `META_PAGE_ID` (Página, obrigatória pro criativo), `META_LEOMOLINA_PIXEL` (+ CAPI token, obrigatório pra SALES + site).
+- Marketing API direta: `META_ACCESS_TOKEN`, `META_AD_ACCOUNT_*` (`act_<id>`), `META_PAGE_ID` (Página, obrigatória pro criativo), `META_PIXEL_ID` (+ CAPI token, obrigatório pra SALES + site).
 - Publicação de post no IG (Passo 3): token do tipo Instagram Login em `graph.instagram.com`, independente do motor de ads.
 
 No **app/chat** não há credencial nem Bash: você não opera. Ou o dono **adiciona o conector MCP da pipeboard** (aí a operação roda pelo próprio app), ou você entrega o **plano manual pronto pra colar**. No **Code/agente**, confere quais variáveis/conexões existem antes de operar; se faltar a que a operação precisa, PARA e pede ao dono (sem inventar).
@@ -88,6 +88,8 @@ Hierarquia da Meta: **Campanha → Conjunto de anúncios (ad set) → Anúncio (
 
 Cobrar CTA/destino de um story ad de atração quebra a camuflagem que o faz funcionar. Não faça.
 
+**Os 10 elementos do bom anúncio (checagem antes de subir o creative):** o criativo que vai pro ar tenta carregar, de forma natural, os 10: curiosidade, promessa, segmentação, problema, spoiler do mecanismo, autoridade, benefício, prova social, urgência, CTA. A estrutura solta é AIDA. Régua: se falta um, ainda pode vender, mas você tenta pôr todos sem forçar. Isto é CHECAGEM, não escrita: o roteiro/copy vem pronto da `soft-conteudo-headlines/-carrossel/-reels` (já passou no anti-ia); se o criativo entregue não carrega os essenciais, bounce de volta pra lá, nunca reescreve a copy aqui.
+
 **STOP**, mostra a estrutura montada (ainda PAUSED) e pergunta "pode ativar?". Não ativa por conta própria. **Em app/chat sem conector** esse STOP não é pergunta ao vivo (não há o que ativar): o plano só MARCA no doc onde quem executa precisa obter o OK do dono antes de ativar; nunca simule o OK nem finja que ativou. Com o conector MCP da pipeboard no app, o STOP é ao vivo.
 
 ## PASSO 3: Publica o post + liga o comment-to-DM (publicação; pode vir JUNTO da campanha)
@@ -111,6 +113,26 @@ A legenda que vai no `caption` = a copy JÁ APROVADA da `soft-conteudo-*` transc
 - **Ler métrica** (`get_insights`): puxa por nível (`campaign/adset/ad`), com os campos (inclui id+name), filtro, ordenação, breakdowns e janela de tempo. Pra ver topo E fundo, duas leituras com ordenação invertida.
 - A DECISÃO sobre o que a métrica significa (continuar/trocar público/pausar/escalar, ROI absoluto) é da **soft-conteudo-impulsionar**: esta skill LÊ e ENTREGA o número; a leitura da régua volta pra cabeça. Você executa o que a régua mandar (pausar a peça cara, escalar a vencedora devagar: R$50→R$70, não pula de 30 pra 300).
 
+## A ESTEIRA DE CRIATIVOS (o que variar pra testar, e em que ordem)
+A `soft-conteudo-impulsionar` decide SE produz mais criativo e quanto testar; esta skill sabe COMO nasce a variação e em que ordem gastar a alavanca barata antes da cara. O roteiro/copy sai da `soft-conteudo-reels`; aqui você mexe no FORMATO, na ABERTURA e na MODELAGEM da mesma mensagem que JÁ funciona, nunca reescreve o roteiro. Princípio: só processualiza depois de achar o que funciona (itera primeiro, monta a esteira depois).
+
+**Ordem de otimização (exaure o barato antes de escrever copy nova):**
+1. **Formato.** Com um criativo validado, a troca que mais move o resultado é o FORMATO, mais que um hook novo. Grava a MESMA copy validada em muitos formatos (falando pra câmera, dentro do carro, no mercado com o produto na mão, andando, fundo verde infinito) até um estourar. Fundo verde vira criativo infinito: regrava a mesma copy sem depender de cenário.
+2. **Aberturas segmentadas.** Mesma copy, varia só os primeiros segundos por público ("se você é X..."). Acha o público de menor custo por resultado sem tocar no miolo. É a alavanca mais barata pra baixar o custo por resultado.
+3. **Ângulos primos (adjacentes).** Só depois de esgotar formato e abertura, testa ângulos vizinhos do que venceu (mesma dor, causa-raiz ou promessa ligeiramente diferente). Ângulo que já venceu vira ativo de swipe: guarda e reusa com mais prova por cima.
+4. **Empilhamento de ganchos.** Empilha 3 ou mais aberturas diferentes antes de entregar a mensagem (chama, chama, chama, e só então entrega). Parece estranho, o teste valida, não briga com o número.
+
+**As 3 modelagens (como nasce cada variação):**
+- **Preguiçosa** (o pão de cada dia, a maior parte do que sobe): pega um anúncio validado, troca o gancho e o formato, mantém a mensagem intacta.
+- **Estudiosa** (pra bater o controle): a estrutura invisível. Transcreve o anúncio que mais vende no nicho, marca frase por frase qual ELEMENTO ela é (curiosidade, promessa, problema, prova, mecanismo, CTA), e reescreve cada ponto melhor NA MESMA ORDEM. O que vende é a ordem em que a informação aparece, não as palavras exatas.
+- **Crazy** (quando o nicho secou de referência): modela um anúncio de OUTRO nicho com IA e adapta a mecânica pro seu.
+
+**Anúncio não pode parecer anúncio.** A pessoa cria radar de anúncio: foge dos hooks que todo mundo usa e disfarça a venda no formato (o formato "conteúdo" derruba o radar). Trocar o formato é o que impede o cérebro de etiquetar "vão me vender" e pular o criativo.
+
+**Onde minerar a variação (orgânico é a melhor fonte de pesquisa).** O que já viralizou no orgânico provou puxar atenção, transpõe pro pago com potência. Fontes: as ferramentas de espionagem de anúncios (muito anúncio ativo do mesmo anunciante = está escalando, vale modelar), os livros mais vendidos revelam o mecanismo da vez, buscas em alta e vídeos de muitas views revelam ângulo e formato. Não inventa dor no vácuo: olha o que a audiência JÁ consome e no que JÁ gasta dinheiro.
+
+Cada variação que sai daqui sobe pelo PASSO 2 (executada com a pipeboard, ou listada no plano pro Gerenciador sem ela): a esteira alimenta o teste, o motor decide só COMO a variação entra no ar.
+
 ## PASSO 5: Gate interno e PARA
 Antes de entregar, confere (a tabela NÃO vai pra saída):
 
@@ -122,6 +144,8 @@ Antes de entregar, confere (a tabela NÃO vai pra saída):
 | **Métrica real** | todo número vem da API; sem leitura, marca `[LER: rodar insights]`, nunca inventa |
 | **quick_reply** | a automação usa `quick_reply` (entrega o lead), não `web_url` |
 | **Legenda vetada** | a legenda/copy = a aprovada da `soft-conteudo-*` (já passou anti-ia), nunca reescrita aqui; se veio crua/não-vetada, PARA e volta pra soft-conteudo antes de montar o creative |
+| **10 elementos** | o criativo que sobe carrega os essenciais (curiosidade/promessa/segmentação/problema/mecanismo/autoridade/benefício/prova/urgência/CTA); faltando os essenciais, bounce pra soft-conteudo, não reescreve aqui |
+| **Ordem da esteira** | ao produzir variação, exaure formato → aberturas → ângulos primos → empilhamento antes de pedir copy nova; não trocou a copy pulando o formato |
 | **Trilha completa** | se o pedido juntou campanha E publicação/automação, o doc carrega as DUAS; nenhuma metade foi dropada |
 | **Não parou por ferramenta** | com pipeboard/motor = executou; sem = entregou o plano pronto pro Gerenciador + 1 linha do que a pipeboard liberaria; nunca "não consigo" |
 | **Doc + path** | a entrega é UM doc MD; no Code/agente o path completo do arquivo vai na resposta |
@@ -166,6 +190,10 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 | Inventou uma métrica de campanha | Só número da API; sem leitura, marca `[LER: rodar insights]` |
 | Forçou CTA num story ad de atração | Atração é CTA-less por desenho; CTA quebra a camuflagem, vale só no ad de conversão |
 | Escalou a peça vencedora de 30 pra 300 | Escala devagar (R$50→R$70); salto queima o aprendizado do algoritmo |
+| Trocou a copy antes de esgotar o formato | Ordem da esteira: formato → aberturas → ângulos primos → empilhamento; copy nova é a última alavanca, não a primeira |
+| Reescreveu o roteiro/copy do anúncio aqui | A copy é da soft-conteudo; nesta skill você varia FORMATO/ABERTURA/MODELAGEM da mesma mensagem validada, não escreve roteiro novo |
+| Criativo com hook manjado que grita "anúncio" | Foge do hook que todo mundo usa e disfarça a venda no formato; a pessoa tem radar de anúncio |
+| Gerou variação inventando dor no vácuo | Minera o que JÁ viralizou no orgânico e o que o concorrente JÁ escala; o validado prova puxar atenção antes de virar pago |
 
 ## References (só pra profundidade, o corpo acima é autossuficiente)
 - `references/motor-pipeboard.md`: as duas trilhas de conexão da pipeboard (A remote `meta-ads.mcp.pipeboard.co` com token, setup 2-min pro teste × B self-host BSL com Meta Developer App próprio pro produto), a auth de cada, o mapa das tools reais expostas (`create_campaign`/`create_adset`/`upload_ad_image`/`create_ad_creative`/`create_ad`/`get_insights`/`search_*`) e a licença BSL 1.1. **Fonte da verdade do motor de execução.**

@@ -339,7 +339,7 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 | ROTEIRO ou falas do webinar | soft-webinar-script |
 | OFERTA, preço, bônus, garantia | soft-webinar-plano |
 | Página de cadastro/obrigado/checkout/VSL | soft-funil-landing (ou soft-funil-carta) |
-| PLANO ou esqueleto ADMA | soft-webinar-plano |
+| PLANO ou esqueleto APSD | soft-webinar-plano |
 | Conversa de venda 1:1 (script, objeção ao vivo, fechamento) | soft-vendas-closer |
 | Anúncio do webinar / headline de feed | soft-conteudo-impulsionar / soft-conteudo-headlines |
 | Pacote inteiro do webinar | soft-webinar-plano |

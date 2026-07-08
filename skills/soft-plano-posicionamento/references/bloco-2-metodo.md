@@ -23,6 +23,8 @@ O lead já sabe que está mal. O que ele NÃO sabe é por quê. O Mecanismo do P
 
 **A regra:** o Mecanismo do Problema responde "POR QUE isso acontece comigo?", não "O QUE está errado?". Quem explica a causa primeiro vira a autoridade, porque o lead pensa "finalmente alguém que entende o que está acontecendo comigo".
 
+**Corolário, a autoridade instantânea.** Descrever o problema do lead melhor do que ele mesmo descreveria dispara um atalho na cabeça dele: "esse cara sabe tudo sobre mim, então já deve ter a solução". O lead não abre teu currículo. Ele mede se você enxerga a vida dele por dentro. Por isso o Mecanismo do Problema entrega mais autoridade que qualquer credencial: quem nomeia a dor com as palavras exatas que o lead nunca conseguiu juntar ganha, no mesmo instante, o crédito da resposta. É também por isso que a face 1 puxa o verbatim cru da super-pesquisa em vez da paráfrase educada. Quanto mais fiel a descrição, maior o salto de autoridade.
+
 **Como construir:**
 1. Parte do Problema Avançado já cravado no Bloco 1 (a imprevisibilidade + a invisibilidade, no caso do avatar do método; ou o equivalente do nicho do usuário).
 2. Pergunta "por quê?" três vezes seguidas até bater no fenômeno real. Cada "por quê" desce uma camada.

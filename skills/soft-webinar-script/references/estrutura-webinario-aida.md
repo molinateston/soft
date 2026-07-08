@@ -1,10 +1,10 @@
-# Estrutura do webinar: ADMA híbrido (Insta Sniper + Brunson + webinar de referência + doutrina Soft)
+# Estrutura do webinar: APSD híbrido (Insta Sniper + Brunson + webinar de referência + doutrina Soft)
 
-> **Nota de nomenclatura (decisão do método, framework unificado em ADMA):** este arquivo descreve o **ADMA** (Atenção, Diagnóstico, Mecanismo, Ação). O nome de arquivo "aida" é legado e foi mantido só pra não quebrar os links que apontam pra ele. Onde você ler "aida" no caminho do arquivo, leia ADMA.
+> **Nota de nomenclatura (decisão do método, framework unificado em APSD):** este arquivo descreve o **APSD** (Atenção, Problema, Solução, Decisão). O nome de arquivo "aida" é legado e foi mantido só pra não quebrar os links que apontam pra ele. Onde você ler "aida" no caminho do arquivo, leia APSD.
 
 > **Quando consultar:** Etapa 2 do fluxo, produção do roteiro bloco a bloco. Pré-requisito: Fundamentos pré-roteiro completos (reference 1).
 >
-> **A ESPINHA É O SLIDE-MODELO.** A ordem dos blocos ADMA abaixo segue, beat a beat, o `_webinar-corpus/slide-modelo/SLIDE-MODELO-SCRIPT.md` (o "slide cru" do script, o modelo canônico). Quando a ordem ou o nome de um bloco aqui divergir do slide-modelo, **o slide-modelo ganha**. Não reordene.
+> **A ESPINHA É O SLIDE-MODELO.** A ordem dos blocos APSD abaixo segue, beat a beat, o `_webinar-corpus/slide-modelo/SLIDE-MODELO-SCRIPT.md` (o "slide cru" do script, o modelo canônico). Quando a ordem ou o nome de um bloco aqui divergir do slide-modelo, **o slide-modelo ganha**. Não reordene.
 >
 > **SCRIPT POR BLOCO (correção 10/jun): cada bloco entrega DUAS coisas.** (1) um **TEMPLATE BÁSICO DA FALA** (o "Modelo [UNIVERSAL]": a frase com slots `[ ]` que a IA preenche, FIEL ao template de fala do slide-modelo); e (2) um **EXEMPLO instanciado** num nicho-modelo, pra a IA ver o template já preenchido e não gerar genérico. O template é a fala; o exemplo é a prova de que dá pra preencher. Os dois juntos, em todo bloco.
 >
@@ -39,7 +39,7 @@
 
 ## Princípio estrutural
 
-Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação) do framework Insta Sniper, com 3 enxertos do mercado mais a doutrina Soft:
+Webinar Soft segue **APSD** (Atenção → Diagnóstico → Mecanismo → Ação) do framework Insta Sniper, com 3 enxertos do mercado mais a doutrina Soft:
 
 - **Brunson** (Perfect Webinar): Big Domino, 3 Secrets (Vehicle/Internal/External), Stack, nova oportunidade vs melhoria
 - **Webinar de referência** (mercado americano): Premise chocante, Fastpass, Genie, Objection Annihilation no Q&A
@@ -867,9 +867,9 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 
 ## Mapa de references irmãs (pra onde aponta o que NÃO está aqui)
 
-- **`exemplos-por-bloco/` (00-INDICE + 01..14), biblioteca de falas VERBATIM de 9 webinars que venderam, fatiada por bloco.** Abra o arquivo do bloco equivalente ANTES de escrever: cada exemplo traz a fala literal + o que o autor fez + por que funciona + o que é decalcável vs. do nicho. Mapa de correspondência com este ADMA: pré-início→`01`; atenção/abertura→`02`; autoridade→`03`; problema/interesse→`04`; Big Domino→`05`; viradas de conteúdo (motor)→`06`; provas→`07`; transição pra venda→`08`; stack→`09`; ancoragem/preço→`10`; garantia→`11`; escassez/CTA→`12`; Q&A→`13`; interação/chat (transversal)→`14`. **Regra G2:** premissas pra extrair, nunca moldes pra decalcar; bordão/mantra/mecanismo têm dono e viram SLOT.
+- **`exemplos-por-bloco/` (00-INDICE + 01..14), biblioteca de falas VERBATIM de 9 webinars que venderam, fatiada por bloco.** Abra o arquivo do bloco equivalente ANTES de escrever: cada exemplo traz a fala literal + o que o autor fez + por que funciona + o que é decalcável vs. do nicho. Mapa de correspondência com este APSD: pré-início→`01`; atenção/abertura→`02`; autoridade→`03`; problema/interesse→`04`; Big Domino→`05`; viradas de conteúdo (motor)→`06`; provas→`07`; transição pra venda→`08`; stack→`09`; ancoragem/preço→`10`; garantia→`11`; escassez/CTA→`12`; Q&A→`13`; interação/chat (transversal)→`14`. **Regra G2:** premissas pra extrair, nunca moldes pra decalcar; bordão/mantra/mecanismo têm dono e viram SLOT.
 - `falas-prontas-por-bloco.md`, a FALA pronta verbatim de cada bloco (pré-início → pitch FOMO → despedida), já no tom Soft, com lacunas pra preencher, e as joias escritas por extenso (proposição única, two-choices, yes-momentum, servir-não-vender, queda de preço, fórmula de bônus, garantia). Esta reference dá a engenharia (ordem, porquê, pergunta-chave, estado alvo); aquela dá a fala.
-- `motor-3-viradas.md`, a batida de 4 tempos (valor real → o quê → gancho do braçal → atalho) e a objeção-mãe. Joia central; este ADMA só aponta.
+- `motor-3-viradas.md`, a batida de 4 tempos (valor real → o quê → gancho do braçal → atalho) e a objeção-mãe. Joia central; este APSD só aponta.
 - `frameworks-proprietarios.md`, 6 passos da Transmutação Mental, persona-âncora, 6º nível de consciência, prova matemática do negócio, custo invisível.
 - `exemplos-por-bloco/10-ancoragem-preco.md` + `frameworks-proprietarios.md` §5, dupla ancoragem e regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível.
 - `objection-annihilation.md`, Q&A planted, objeção-mãe como categoria-rainha, desejo oculto, banco de objeções, FAQ final.

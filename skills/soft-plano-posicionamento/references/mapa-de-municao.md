@@ -3,10 +3,14 @@
 > Entregável de pesquisa do Plano: os **12 campos** do que se sabe do público, cada um a matéria-prima de um **gatilho** de headline. Coletado na **Super Pesquisa** (`super-pesquisa.md`, verbatim) + na **entrevista dirigida**, e salvo como uma **seção do Plano** (o perfil do cliente-final do usuário). Quem consome: `soft-conteudo-headlines` (cada `[SLOT]` das fórmulas do cânone puxa de um campo daqui) e as demais `soft-conteudo-*`.
 
 ## Índice
+- [Por que o Mapa funciona (teoria de avatar)](#por-que-o-mapa-funciona-teoria-de-avatar)
 - [Como se coleta e se salva](#como-se-coleta-e-se-salva)
 - [Os 12 campos (com perguntas-guia)](#os-12-campos-com-perguntas-guia)
 - [A ponte pras headlines](#a-ponte-pras-headlines)
 - [Regras de qualidade](#regras-de-qualidade)
+
+## Por que o Mapa funciona (teoria de avatar)
+Um nicho é um grupo de pessoas com o **mesmo desejo**. Quem carrega o mesmo desejo tende a carregar os **mesmos medos**, as **mesmas objeções** e as **mesmas crenças**, e a senti-los **na mesma ordem**. Por isso o Mapa vale: um punhado de campos bem preenchidos com a munição real desse público descreve não uma pessoa, mas a estrutura que se repete no nicho inteiro. É o que faz uma headline ancorada no verbatim ressoar em muita gente ao mesmo tempo, e é a mesma razão pela qual modelar a SEQUÊNCIA de argumentos de uma peça que já vende no nicho funciona: quando os medos e as objeções vêm na mesma ordem, atacá-los nessa ordem também funciona. O Mapa cheio é o retrato dessa estrutura compartilhada, não um perfil de indivíduo.
 
 ## Como se coleta e se salva
 - **Na Super Pesquisa (Passo 2 do Plano):** garimpa cada campo em **verbatim** das fontes públicas do nicho (reviews, comentários, fóruns, Reddit BR, FAQs, autocomplete do buscador) + do material que o próprio especialista trouxe (call, depoimento, print). Frase crua, nunca paráfrase.

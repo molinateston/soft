@@ -338,7 +338,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Mecânica-assinatura:** CTA atrasado (o botão sincroniza com o pitch, não aparece no topo) + formulário de qualificação como fricção que filtra.
 
-**Framework de copy:** PASTOR ou 12-step de VSL pro vídeo, com o arco-mãe da carta sendo o ADMA (ver nota em `frameworks-copy.md`).
+**Framework de copy:** PASTOR ou 12-step de VSL pro vídeo, com o arco-mãe da carta sendo o APSD (ver nota em `frameworks-copy.md`).
 
 **Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas-sdr`. Aqui você monta a página.
 

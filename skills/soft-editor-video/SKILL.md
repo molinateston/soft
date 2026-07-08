@@ -106,6 +106,13 @@ Clona e compila o whisper.cpp em `vendor/whisper.cpp` e baixa o modelo. Depois d
 10. **Música de fundo discreta:** `loudnorm=I=-34:TP=-6:LRA=6` + `volume=0.38`, `amix normalize=0`, fade in/out. NUNCA sobrepõe a fala.
 11. **Export 4K** + salvar na pasta de saída do dono. Abrir pra ele ver.
 
+## SUB-TÁTICAS DE RETENÇÃO (opções de formato/edição, marca-neutra, ligar conforme a peça)
+Alavancas genéricas de edição que puxam retenção. Cada uma é OPCIONAL e escolhida pela peça; não empilha todas de uma vez (mesma lógica de "uma animação por momento"). Qualquer texto que apareça na tela passa antes pelo micro-gate anti-IA (passo 8b).
+- **Vídeo satisfatório ao lado da fala:** em vez de (ou junto com) o b-roll de cena, a faixa de baixo roda um clipe visualmente satisfatório e sem relação direta com o assunto (algo repetitivo e agradável de ver) que segura o olho enquanto o apresentador fala. É uma variação do b-roll do rodapé, entra no lugar da cena de IA quando o objetivo é só reter, não ilustrar. Mantém a regra do rodapé (nunca cobre o apresentador em cima).
+- **Som de corte no 1º segundo do gancho:** um efeito sonoro curto e seco (buzina, apito, "whoosh") logo no primeiro segundo do gancho, junto do cold open. Quebra o silêncio do feed e fisga o ouvido antes da 1ª palavra. Entra no passo do gancho (8b), nivelado pra nunca estourar a fala (mesma régua da música do passo 10).
+- **Formato REACT:** o vídeo principal aparece numa janela e um segundo plano (o apresentador ou outra pessoa) reage a ele ("olha o que esse cara está falando"). A reação empresta contexto e curiosidade a um material que sozinho não seguraria. É um formato de montagem alternativo ao talking-head puro.
+- **UGC / conteúdo caseiro (GC):** depoimento ou fala gravada com cara de caseiro (celular na mão, luz de casa, sem produção), que passa como conteúdo real de pessoa comum e não como anúncio. Serve de gancho ou de prova. Aqui a edição é mínima de propósito: o "mal acabado" é o que faz parecer autêntico, então não pule polindo demais.
+
 ## REGRAS INVIOLÁVEIS
 - B-roll **image-first** (gpt-image-2 → Veo). Nunca texto→vídeo direto.
 - B-roll **sempre no rodapé**, nunca no meio. Apresentador inteiro em cima.

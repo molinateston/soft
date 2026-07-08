@@ -2,7 +2,7 @@
 
 O resto do filtro-mobile-first cuida do VISUAL da peça (tamanho de fonte, contraste, layout, px). Este arquivo cuida do TEXTO cru como ele chega no feed: a legenda do post, o corpo do carrossel em texto, o copy que a pessoa lê rolando o dedão. Régua de escaneabilidade, com contagem de verdade.
 
-Aviso de escopo: aqui não tem framework de estrutura de argumento. O método Soft usa a espinha ADMA (Atenção, Diagnóstico, Mecanismo, Ação), e ela mora nas skills de conteúdo. Este arquivo é só a FORMA no celular: quantas linhas, quanto respiro, que tamanho de frase. Não decide o que dizer, decide como o texto se apresenta na tela pequena.
+Aviso de escopo: aqui não tem framework de estrutura de argumento. O método Soft usa a espinha APSD (Atenção, Problema, Solução, Decisão), e ela mora nas skills de conteúdo. Este arquivo é só a FORMA no celular: quantas linhas, quanto respiro, que tamanho de frase. Não decide o que dizer, decide como o texto se apresenta na tela pequena.
 
 ---
 

@@ -32,7 +32,7 @@ Hierarquia: **Campanha → Conjunto de anúncios (ad set) → Anúncio (ad) → 
 - **Ad set:** público (targeting), posicionamentos, agenda e o orçamento se ABO. O `promoted_object` com `pixel_id` (+ evento, ex. `PURCHASE`) é OBRIGATÓRIO pra `OUTCOME_SALES` + site. **CBO (budget na campanha) e budget no ad set são mutuamente exclusivos**: escolhe um.
 - **Ad:** liga o ad set ao criativo. Campos obrigatórios: `ad_set_id`, `ad_name`, `creative`.
 - **Criativo:** a peça (imagem/vídeo + copy + CTA). Precisa de `page_id` (a Página do Facebook/Instagram). A COPY vem da soft-conteudo-*; a ARTE da soft-designer; aqui só se monta o objeto.
-- **IDs envolvidos:** conta de anúncios (`act_<id>`), Página (`page_id` / `META_PAGE_ID`), Pixel/Dataset (`META_LEOMOLINA_PIXEL` e afins). Descobertos pelos tools/endpoints de descoberta.
+- **IDs envolvidos:** conta de anúncios (`act_<id>`), Página (`page_id` / `META_PAGE_ID`), Pixel/Dataset (`META_PIXEL_ID` e afins). Descobertos pelos tools/endpoints de descoberta.
 
 **Todo nível nasce PAUSED.** A entrega só acontece com a hierarquia inteira ativa; ativa de cima pra baixo (campanha → ad set → ad), sempre com OK do dono.
 
@@ -43,10 +43,10 @@ Hierarquia: **Campanha → Conjunto de anúncios (ad set) → Anúncio (ad) → 
 > Pra rodar o motor MCP (pipeboard) e o mapa das tools reais, ver `motor-pipeboard.md`. Esta seção é a via por token, falando com o Graph direto.
 
 Base: `https://graph.facebook.com/<versão>/`. Credenciais no ambiente:
-- `META_ACCESS_TOKEN` (ou `META_ACCESS_TOKEN_LEO`): o token.
-- `META_AD_ACCOUNT_*` (`_DEFAULT`, `_LEO`, `_LEVIN`, `_ID`): a conta `act_<id>`.
+- `META_ACCESS_TOKEN`: o token.
+- `META_AD_ACCOUNT_ID` (`act_<id>`): a conta de anúncios (use um sufixo por conta se tiver várias).
 - `META_PAGE_ID`: a Página.
-- `META_LEOMOLINA_PIXEL` (+ `META_LEOMOLINA_CAPI_TOKEN`): pixel/dataset e o CAPI (conversões server-side). Outros pixels da casa: `META_MINIMAL_PIXEL`, `META_RECANTO_PIXEL_ID`.
+- `META_PIXEL_ID` (+ `META_CAPI_TOKEN`): pixel/dataset e o CAPI (conversões server-side). Se tiver mais de uma marca, um pixel por marca com sufixo próprio.
 
 Endpoints principais (o `<versão>` segue a atual da conta):
 - **Descoberta:** `GET /me/adaccounts`, `GET /<ad_account_id>/` (campos `name,account_status`), `GET /<business_id>/owned_pages` ou `GET /me/accounts` (pega `page_id`).
@@ -57,7 +57,7 @@ Endpoints principais (o `<versão>` segue a atual da conta):
 - **Ativar/pausar:** `POST /<entity_id>` com `status=ACTIVE` ou `PAUSED`.
 - **Insights:** `GET /<entity_id>/insights`: `level`, `fields` (`spend,impressions,clicks,cpc,cpm,ctr,actions,cost_per_action_type,purchase_roas`), `time_range`, `breakdowns`, `filtering`.
 
-CAPI (conversão server-side, opcional mas melhora a otimização): `POST /<pixel_id>/events` com o `META_LEOMOLINA_CAPI_TOKEN`, enviando o evento `Purchase` com os dados hasheados do comprador.
+CAPI (conversão server-side, opcional mas melhora a otimização): `POST /<pixel_id>/events` com o `META_CAPI_TOKEN`, enviando o evento `Purchase` com os dados hasheados do comprador.
 
 ---
 

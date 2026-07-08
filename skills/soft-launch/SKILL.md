@@ -84,6 +84,9 @@ Entrega, **uma etapa por vez, com STOP entre elas**:
 A sabedoria que costura as escolhas (gerar demanda antes, régua de CAC, públicos, virada de lotes, dois estímulos, trilha de conscientização, entregar o ouro na imersão, intercalar pago e gratuito) está em `lancamento-pago-operacao.md`.
 **STOP a cada etapa**: produz → mostra com o GATE → espera OK antes da próxima.
 
+> **O desafio (5 a 14 dias) é uma VARIANTE de evento, não um pilar novo.** Cai dentro da estrutura de evento acima (`estrutura-evento.md`), com a mesma engenharia de lançamento; muda o formato do evento, não a máquina. O que o desafio ganha do webinário/aula única é a PROVA em vez da promessa: no webinário ou na aula você DIZ que pode ajudar; no desafio a pessoa põe a mão na massa em mini-vitórias diárias (mais workshop que teoria) e você AJUDA e PROVA que guia ao resultado. Quem já sentiu um resultadinho na própria mão nos dias do desafio chega no carrinho com a objeção "será que funciona pra mim?" já derrubada, então o desafio costuma converter mais que o evento que só ensina. A monetização segue o padrão do lançamento: **ingresso VIP no meio** (uma faixa VIP vendida nos primeiros dias que já paga o tráfego) + **produto principal no fim** (onde mora o lucro). O VIP no começo zera o CAC; o principal na reta final colhe a base aquecida pelos mini-resultados.
+> **Ao vivo vence gravado pela sensação de EVENTO** (o mesmo motivo do CPL ao vivo bater o gravado): estar junto, em tempo real, com data marcada, cria comparecimento e compromisso que o gravado não entrega. Onde o formato comportar, o desafio e as aulas rodam ao vivo. Bônus: o ao vivo depois indexa (fica publicado, é encontrado) e segue performando como ativo, sem custo novo.
+
 ### Modo C, Debriefing Pós-Lançamento
 Gatilho: *"acabou, me ajuda a entender"*, *"faturei R$X com R$Y de tráfego"*, *"foi mal, onde errei?"*.
 Análise por etapa (entrada → comparecimento → conversão → ticket médio), diagnóstico de gargalo, plano de ajuste; pra cliente Soft, plano de integração de volta no sistema. Lê os números contra o **histórico do próprio cliente**, não contra o mercado. Reference: `debriefing-e-integracao.md`.
@@ -131,7 +134,7 @@ Toda peça que o lead ou o mercado lê (página do evento, criativo, anúncio, e
 - **Posicionamento / Plano / método / oferta** → `soft-plano-posicionamento`.
 - **Subir/operar a campanha na plataforma Meta (a MÃO)** → `soft-trafego-meta`. Aqui é a estratégia do lançamento, não a operação do Gerenciador.
 - **A venda em si (script, objeção, follow-up, fechamento 1:1)** → `soft-vendas-closer`.
-- **Lançamento Fórmula (Erico Rocha)** → fora do escopo combinado, não opera aqui.
+- **O lançamento-fórmula clássico de sementes/CPLs** → fora do escopo combinado, não opera aqui.
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

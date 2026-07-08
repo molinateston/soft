@@ -1,6 +1,6 @@
 # Ancoragem, preço e fechamento (a engenharia fina da fase Ação)
 
-Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o preço, empilhar o stack, descer em degraus, reverter o risco, fechar por escassez e identidade - e calibrar tudo isso pela **faixa de ticket** (§11). Mora na **fase Ação** do `estrutura-webinario-aida.md` (bloco de Investimento), depois que o motor já rodou e a oferta já foi apresentada por benefício. Instala a mecânica fina de cada movimento de preço, sem repetir produto, stack estrutural ou sequência ADMA.
+Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o preço, empilhar o stack, descer em degraus, reverter o risco, fechar por escassez e identidade - e calibrar tudo isso pela **faixa de ticket** (§11). Mora na **fase Ação** do `estrutura-webinario-aida.md` (bloco de Investimento), depois que o motor já rodou e a oferta já foi apresentada por benefício. Instala a mecânica fina de cada movimento de preço, sem repetir produto, stack estrutural ou sequência APSD.
 
 > Destilada do webinar real do autor do método (custo invisível, R$1.000), dos modelos (operação-referência (8 dígitos), o autor do case de nutrição, o autor do case de odontologia), do manual caps. 7 e 12 (oferta movediça, espectro de ticket) e da mentoria de referência D do autor do método (cardápio de garantias 90+90, ancoragem 20k→2k). Falas marcadas "(exemplo)" são instâncias de nicho - molde, nunca cópia. O método (a régua de quando usar cada movimento) é universal.
 
@@ -290,7 +290,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 
 ## 11. O espectro do ticket (R$497 → R$50.000): a mesma aula, outra engenharia de Ação
 
-**Decisão do método: o webinar não tem teto de ticket - tem ESPECTRO.** O mesmo método vende de R$497 a R$50.000; o que muda pela faixa não é a aula (ADMA, motor, oferta por benefício - tudo igual), é a **engenharia da fase Ação**: qual âncora (§1), pra onde aponta o CTA, sobre o quê recai a escassez (§9) e qual prato do cardápio de garantia (§8). A bifurcação-mãe:
+**Decisão do método: o webinar não tem teto de ticket - tem ESPECTRO.** O mesmo método vende de R$497 a R$50.000; o que muda pela faixa não é a aula (APSD, motor, oferta por benefício - tudo igual), é a **engenharia da fase Ação**: qual âncora (§1), pra onde aponta o CTA, sobre o quê recai a escassez (§9) e qual prato do cardápio de garantia (§8). A bifurcação-mãe:
 
 **Até ~R$2.000 → CHECKOUT direto.** A aula termina, a oferta sobe, a pessoa passa o cartão sozinha - sem comercial, sem ligação. E o teto do checkout é mais alto do que o mercado acredita: o ticket do webinar de gestão (operação-referência, exemplo real do autor do método) é **R$1.697, vendido pra lead frio, numa aula só, no automático** - "os caras do mercado acham que sou maluco; é porque a gente é bom de copy". Duas horas de copy bem feita empilhando valor fazem o lead frio pagar quase R$1.700 sem falar com ninguém. A capacidade de vender ticket alto no checkout mora no roteiro e na oferta, não em truque de canal.
 

@@ -5,6 +5,24 @@
 
 ---
 
+## Índice
+
+- **7.1** Por que esse capítulo importa
+- **7.2** Por que Lo-fi vence Hi-fi
+- **7.3** A estrutura única do Reel Soft (a Fórmula 7 comprimida)
+- **7.4** A engenharia de gancho (os primeiros 3 segundos + os 7 gatilhos)
+- **7.5** O que vem depois do gancho: conteúdo notável + moeda social
+- **7.6** Os 6 roteiros-modelo
+- **7.7** Como escalar: a regra do "faz mais"
+- **7.8** Frequência e produção em lote
+- **7.9** Como medir: comparação interna, nunca benchmark de fora
+- **7.10** Anti-padrões (o que mata o Reel)
+- **7.11** Banco de 30 templates de headline
+- **7.12** Checklist antes de publicar
+- **7.13** O reel como criativo: vende o próximo passo, não o produto (as 3 objeções valor/rápido/grátis, micro-vendas frase a frase, os 10 elementos como camada, if…then, dois CTAs)
+
+---
+
 ## 7.1. Por que esse capítulo importa
 
 O Reel é a peça de **atração** do Funil Minimalista. Ele não fecha venda, não aprofunda método, não substitui a Carta. A função dele é uma só: **fazer o público qualificado parar de rolar e te enxergar diferente**. Quem para, depois encontra o Carrossel (que aprofunda) e a Carta (que vende). Tirar do Reel mais do que isso é pedir a peça errada para o trabalho errado.
@@ -261,6 +279,48 @@ Cada template é uma **fórmula** que você preenche com elementos do seu nicho.
 - [ ] Tempo total
 - [ ] Total de interações (bônus: compartilhamentos/likes como proxy de moeda social)
 - [ ] Funcionou? → capilariza e escala (7.7). Não funcionou? → descarta e testa outro.
+
+---
+
+## 7.13. O reel como criativo: vende o próximo passo, não o produto
+
+> Vale quando o reel é anúncio (vai ser impulsionado, Cap 9) ou quando aponta pra uma isca/carta. O reel orgânico do resto do capítulo atrai; aqui o reel tem um trabalho a mais, abrir a venda. O lado de RODAR e TESTAR o anúncio (verba, público, curva de teste, métrica de campanha) fica na skill de tráfego; aqui é só o ROTEIRO.
+
+### O criativo não vende o produto, vende o clique
+
+O erro do iniciante é tentar fechar a venda dentro do criativo. O criativo bom faz uma coisa só: **entrega valor e vende o PRÓXIMO passo**, o clique, o consumo do próximo conteúdo (a isca, a carta, a apresentação gratuita). Ele "abre a venda" em vez de tentar fechar.
+
+Três atributos do próximo passo, e cada um mata uma objeção diferente:
+
+| Atributo do próximo passo | Objeção que ele mata | Como aparece na fala |
+|---|---|---|
+| **Entrega valor** | falta de interesse ("não é pra mim") | o criativo já ensina um pedaço, a pessoa sai sabendo mais do que entrou |
+| **É rápido** | falta de tempo ("não tenho uma hora") | "preparei uma coisa rápida onde te mostro X" |
+| **É de graça** | resistência à venda ("vão me empurrar algo") | "é gratuito, é só assistir" |
+
+Fala prática do CTA: **"preparei uma coisa rápida e gratuita onde te mostro [o X que ela quer]"**, nunca "tenho um vídeo de uma hora" nem "tenho uma aula completa". O tamanho anunciado é inimigo do clique; promete o rápido e o grátis, não o volume.
+
+### Micro-vendas frase a frase: a pessoa paga com atenção
+
+Por que abrir ENTREGANDO valor bate abrir anunciando que vai vender: cada frase do reel é uma micro-venda. A pessoa te paga com **atenção**. Cada linha entrega um pingo de valor, ela te dá mais alguns segundos, fica um pouco mais comprometida, segue pra próxima. Anunciar "vou te vender X" logo no início cobra antes de entregar, e ela pula. Entregar primeiro compra o segundo seguinte.
+
+É o mesmo princípio da tensão que não relaxa (7.3), visto pelo lado econômico: cada frase precisa VALER o segundo que custa. Se uma linha não entrega valor nem abre curiosidade, ela vira imposto que a pessoa não paga, e ela sai.
+
+### Os 10 elementos (camada de geração, não substitui o gate)
+
+Checklist pra CONSTRUIR o roteiro do criativo, uma camada AIDA-expandida por cima da espinha APSD. Não é um gate novo: o gate Soft do Passo 5 (verbatim real, as 3 perguntas, C/U/B, tensão, CTA com destino, anti-IA) continua soberano e é o que decide PASSA/REFAZ. Estes 10 só ajudam a não esquecer peça na hora de escrever:
+
+curiosidade · promessa · segmentação (pra quem é) · problema · spoiler do mecanismo · autoridade · benefício · prova social · urgência · CTA.
+
+Régua realista: se falta algum, o criativo ainda pode vender; a meta é pôr todos de forma NATURAL, nunca empilhar os 10 numa lista dura que soa anúncio. Quando algum conflitar com o gate Soft (ex.: uma "prova social" que você não tem de verdade, ou "urgência" fabricada), o gate manda, corta o elemento. A camada gera, o gate julga.
+
+### if…then de abertura (variação de gancho, lastro Halbert)
+
+Uma abertura que segmenta e prende de um golpe: **"Se você [tem X / é Y], isto pode te ajudar."** A estrutura condicional cria uma conclusão lógica na cabeça de quem se encaixa (funciona mesmo entre coisas desconexas) e ao mesmo tempo filtra quem não é o público. É uma variação do gancho de Reconhecimento (7.4), útil quando o público-alvo é bem definido. Entra como mais uma frente de gancho no Passo 2, não substitui as outras.
+
+### Dois CTAs espaçados (padrão opcional, roteiro mais longo)
+
+Reel curto tem UM CTA no fim. Reel mais longo (C2 opinativo, ou criativo de ~1:30 pra impulsionar) aguenta **dois CTAs**: um cedo, por volta de 1/3 do vídeo, e outro perto do fim. Entre os dois você continua entregando valor (benefício) e planta a urgência. O primeiro pega quem já se convenceu; o segundo, quem precisou do corpo inteiro pra decidir. Os dois apontam pro MESMO destino. Só use em roteiro que tem corpo pra sustentar; num reel de 30 segundos, dois CTAs viram atropelo.
 
 ---
 

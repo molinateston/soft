@@ -2,7 +2,7 @@
 
 Este doc é o que separa um funil que "funciona no papel" de um funil que entrega o lead quente porque cada etapa repetiu a mesma percepção. Captura o **jeito de conduzir** a frente de funil, os reframes, as decisões, a sequência, destilado de sessões reais. A skill consulta isto pra montar como quem entende que o funil é o fácil e o posicionamento é o difícil, não como quem acha que a peça é o jogo.
 
-Não repete a engenharia (os 12 blocos do Mini Webinar, o arco ADMA, os modelos por bloco, isso vive no corpo desta skill e em `modo-mini-webinar.md`). Aqui está o **porquê e o como**: o movimento por trás do funil.
+Não repete a engenharia (os 12 blocos do Mini Webinar, o arco APSD, os modelos por bloco, isso vive no corpo desta skill e em `modo-mini-webinar.md`). Aqui está o **porquê e o como**: o movimento por trás do funil.
 
 **Os exemplos são de nichos diferentes** (um consultor de pequenas e médias empresas, um psicólogo de futebol de base, um fisioterapeuta de dor crônica) - ilustração da forma, **nunca copie**, sempre destile o do especialista à frente.
 

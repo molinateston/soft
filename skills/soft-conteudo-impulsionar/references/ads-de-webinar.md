@@ -41,7 +41,7 @@ Criativo solto queima dinheiro. Cada anúncio ataca UMA crença do avatar. Antes
 
 > EXEMPLO ILUSTRATIVO (nicho fictício: nutricionista). Ângulo ERRO fixo: "comer pouco não emagrece". Erro x PROVA: "estudo X mostra que cortar calorias trava o metabolismo em N semanas" (números ilustrativos). Erro x EMOÇÃO: a cena da paciente que fechou a boca 6 meses e não saiu do lugar. Erro x OBJEÇÃO: "você acha que é genética. Não é. É o hormônio". Erro x AUTORIDADE: "atendi N pacientes; o erro é sempre o mesmo". Quatro criativos, uma tese.
 
-## Passo 2, monta o criativo em ADMA (<15s)
+## Passo 2, monta o criativo em APSD (<15s)
 Mesma estrutura do webinar, comprimida. 15s é o teto; 6-15s é o sweet spot.
 - **ATENÇÃO (0-3s) HOOK:** para o scroll. 5 formas: pergunta provocativa · afirmação contraintuitiva · revelação numérica · cena específica · quebra de expectativa. Hook **filtra**, não maximiza (quem não é avatar não para, e isso é bom). O hook sai do título-fórmula na voz do avatar. **Proibido:** "Olá, eu sou...", "Você sabia que...", "Vou te ensinar...".
 - **DIAGNÓSTICO (3-7s):** nomeia o problema concreto + a consequência. "[Problema]. Isso faz [consequência]. E enquanto não consertar, [pior]."
@@ -82,6 +82,7 @@ Quando o cliente pede a campanha, não só o criativo, entrega os princípios (s
 - **Sobe a escada de otimização:** Lead → initiate checkout → venda (após volume). Nunca otimiza pra venda no dia 1.
 - **Não mexe na campanha nova 7-15 dias** (ela tende à média; mexer reinicia o aprendizado).
 - **Testa do barato pro caro:** toda copy nova nasce no formato cru/feião; só grava o caro depois que a copy provou que vende. A copy vence o formato.
+- **A outra face: formato é a maior alavanca de um ativo JÁ VALIDADO.** Se a copy nova ainda não provou, quem manda é a copy (linha acima). Mas depois que a mensagem já vende, trocar o FORMATO costuma render mais salto de conversão do que reescrever a copy de novo. E o formato certo é o que AQUELE público consome: audiência mais velha (saúde 45+, por exemplo) responde a formato de TV, entrevista, programa; audiência jovem responde a podcast e vídeo curto. Escolhe o formato pela dieta de mídia do avatar, não pelo que é mais fácil de gravar. **Timing:** quem estreia um formato no nicho antes dos outros pega a alavanca inteira; formato que todo mundo já copiou converte menos. Regra prática: valida a mensagem no cru, e quando ela pegar, escala vestindo ela do formato que o público-alvo já assiste.
 - **Escala horizontal: 1 ângulo novo por semana.** Criativo cansa em 14-30 dias (mais verba = mais saturação); clona o campeão mudando **1 variável por vez** (medo-negado / visual / voz / tempero).
 - **Testa criativo, não público** (público amplo, criativos variados). Muda 1 variável por teste A/B.
 

@@ -32,7 +32,7 @@ O designer tem dois caminhos de deck. A escolha é pela **finalidade de uso**, n
 
 Regra de decisão curta: **se abre num navegador e navega com seta, é deck animado. Se vira imagem que se posta, é PNG estático.** Na dúvida entre os dois, pergunta ao cliente "você vai apresentar isso ao vivo compartilhando a tela, ou vai postar como imagem?" e roteia pela resposta.
 
-A **inteligência de conteúdo é a mesma** dos dois lados: a espinha de tensão do deck, a decisão de 1 ideia por slide, os arquétipos por função ADMA e a copy-visual pelo Crivo vêm todos de `processo-slides.md` (e, quando é webinário, o conteúdo já chega decidido por `soft-webinar-slides`). O que muda aqui é só o motor de render: de imagem parada pra HTML animado hospedado.
+A **inteligência de conteúdo é a mesma** dos dois lados: a espinha de tensão do deck, a decisão de 1 ideia por slide, os arquétipos por função APSD e a copy-visual pelo Crivo vêm todos de `processo-slides.md` (e, quando é webinário, o conteúdo já chega decidido por `soft-webinar-slides`). O que muda aqui é só o motor de render: de imagem parada pra HTML animado hospedado.
 
 ---
 

@@ -1,6 +1,6 @@
 # O modelo de referência (a mecânica universal do webinar que vende, traduzida pro tom Soft)
 
-> **Quando consultar:** quando você for desenhar a ESPINHA do webinar inteiro (as 4 partes), ou afinar um dos quatro momentos críticos: a introdução (5 elementos + autoridade), a entrega de valor que não esgota o assunto (CVSC), a transição que faz a sala PEDIR o pitch (recap, yes momentum, two choices), ou a close (oferta, preço em queda, primeiro CTA rápido, bônus, garantia, escassez). Leia ANTES de produzir o roteiro, junto de `estrutura-webinario-aida.md`. Esta reference é a fonte da mecânica; a ADMA é onde ela vira ordem de blocos.
+> **Quando consultar:** quando você for desenhar a ESPINHA do webinar inteiro (as 4 partes), ou afinar um dos quatro momentos críticos: a introdução (5 elementos + autoridade), a entrega de valor que não esgota o assunto (CVSC), a transição que faz a sala PEDIR o pitch (recap, yes momentum, two choices), ou a close (oferta, preço em queda, primeiro CTA rápido, bônus, garantia, escassez). Leia ANTES de produzir o roteiro, junto de `estrutura-webinario-aida.md`. Esta reference é a fonte da mecânica; a APSD é onde ela vira ordem de blocos.
 
 > **De onde vem:** o webinar de referência do mercado americano de alto volume, aquele que vende um curso de webinar FAZENDO um webinar, então o modelo está nu: ensina a estrutura enquanto a executa. Mais de US$100M vendidos por webinar, ROI documentado. É a referência mais limpa que existe da mecânica de 1:muitos. **(O nome próprio do mecanismo Soft é SLOT, a definir com o especialista; aqui só extraímos o porquê funciona.)**
 
@@ -20,9 +20,9 @@ A ordem é: Introdução, Conteúdo, Transição, Close.
 
 A jogada contraintuitiva, e o ponto mais útil de toda a reference: **a close é a parte MENOS importante de dominar.** O motivo: uma introdução melhor leva naturalmente a uma close melhor. Se a introdução, o conteúdo e a transição estão certos, a venda já está praticamente feita quando a close chega; a close vira só técnica de empilhar e revelar. O erro comum é o inverso: o player gasta toda a energia na técnica de fechamento e chega lá com uma sala que não foi preparada.
 
-**Tradução Soft:** isso reforça a régua de proporção da ADMA (Mecanismo e Ação têm o mesmo peso), mas com uma nuance: o peso da Ação é de TEMPO, não de esforço de persuasão. A persuasão pesada está lá atrás, na introdução e no diagnóstico. Quem precisa "forçar" na close é porque falhou na introdução.
+**Tradução Soft:** isso reforça a régua de proporção da APSD (Mecanismo e Ação têm o mesmo peso), mas com uma nuance: o peso da Ação é de TEMPO, não de esforço de persuasão. A persuasão pesada está lá atrás, na introdução e no diagnóstico. Quem precisa "forçar" na close é porque falhou na introdução.
 
-> **Onde isso mora na skill:** as 4 partes do modelo mapeiam, beat a beat, na ADMA do `estrutura-webinario-aida.md` (Introdução vira Atenção, Conteúdo vira Diagnóstico+Mecanismo, Transição e Close viram Ação). A ADMA é a fonte da ORDEM; esta reference é a fonte da MECÂNICA de cada parte.
+> **Onde isso mora na skill:** as 4 partes do modelo mapeiam, beat a beat, na APSD do `estrutura-webinario-aida.md` (Introdução vira Atenção, Conteúdo vira Diagnóstico+Mecanismo, Transição e Close viram Ação). A APSD é a fonte da ORDEM; esta reference é a fonte da MECÂNICA de cada parte.
 
 ---
 
@@ -109,7 +109,7 @@ Dispara uma série de perguntas de "sim" ("nosso tempo foi valioso? sim. você s
 
 ### 3.3 Two Choices Close (a peça de ouro)
 
-> **Esta é a versão ELOQUENTE dos "2 caminhos (sozinho × comigo)" que já está no slide-modelo do autor do método (Bloco 4.3 da ADMA, a Encruzilhada).** Mesma mecânica: divide a sala em dois grupos e faz ela pedir o pitch. O slide-modelo do autor do método é a fonte canônica da forma; a two-choices do modelo mostra a articulação mais bem-acabada da MESMA jogada, pra você ver o teto da técnica antes de reconstruir na voz do especialista.
+> **Esta é a versão ELOQUENTE dos "2 caminhos (sozinho × comigo)" que já está no slide-modelo do autor do método (Bloco 4.3 da APSD, a Encruzilhada).** Mesma mecânica: divide a sala em dois grupos e faz ela pedir o pitch. O slide-modelo do autor do método é a fonte canônica da forma; a two-choices do modelo mostra a articulação mais bem-acabada da MESMA jogada, pra você ver o teto da técnica antes de reconstruir na voz do especialista.
 
 > **EXEMPLO (webinar de referência, a articulação literal, traduzida, NÃO decalcar):** *"Eu tenho absoluta confiança de que você pode pegar tudo que vimos hoje e, sozinho, sair e conseguir resultados que achava impossíveis. E se essa fosse sua única opção, já seria um ideal digno de perseguir. Mas e se houvesse outra opção? Uma em que a gente vai junto. Uma chance de ir mais fundo do que dá em uma hora de webinar. E se eu tivesse um papel ativo no seu resultado, uma responsabilidade no seu sucesso? Se eu tivesse essa opção pra você, você gostaria de conhecer? É por isso que é com grande prazer que eu te apresento [a oferta]."*
 
@@ -127,7 +127,7 @@ A ordem do modelo: apresenta a oferta, revela o preço, PEDE o pedido, empilha o
 
 A frase-âncora: você compra a furadeira pelo BURACO, não pela furadeira. As features justificam a compra mas NÃO vendem, então passe por elas RÁPIDO. Cada componente apresentado numa estrutura fixa: **Headline + 3 benefícios + Prova + Future Pace** (algo como 3 slides, 3 minutos por componente). Nome do produto, tagline, uma frase de benefício.
 
-> **Tradução Soft:** "drill for the hole" é a tradução exata da Faca Soft aplicada à oferta, venda o resultado (o buraco), não a mão de obra (a furadeira). O detalhe de como cada componente cai na tela (headline, benefício, prova) está na soft-webinar-plano (desenho) e na fase Ação da ADMA (apresentação, `estrutura-webinario-aida.md`).
+> **Tradução Soft:** "drill for the hole" é a tradução exata da Faca Soft aplicada à oferta, venda o resultado (o buraco), não a mão de obra (a furadeira). O detalhe de como cada componente cai na tela (headline, benefício, prova) está na soft-webinar-plano (desenho) e na fase Ação da APSD (apresentação, `estrutura-webinario-aida.md`).
 
 ### 4.2 O preço: ancoragem em queda
 
@@ -167,7 +167,7 @@ Cada bônus na mesma fórmula (headline, benefícios, prova, future pace) e cone
 
 O modelo fecha com uma sequência de auto-qualificação: responsabilidade moral de levar a solução a quem precisa, o prospect mais educado fecha melhor, usar múltiplos veículos, e "seu coração te puxa pra isso? a resposta é sim, senão você não estaria aqui". Qualquer "sim" conclui a compra pela porta da identidade: discordar é negar a própria presença ali.
 
-> **Tradução Soft:** mesma função do Fastpass e da psicologia reversa do "pra quem NÃO é", a pessoa se afirma como o tipo certo. No tom Soft, isto é clínico (devolve a escolha com respeito), nunca chantagem emocional ("você não ama sua família o suficiente?"). Detalhe em `objection-annihilation.md` (Fastpass por checklist) e Bloco 4.3 da ADMA.
+> **Tradução Soft:** mesma função do Fastpass e da psicologia reversa do "pra quem NÃO é", a pessoa se afirma como o tipo certo. No tom Soft, isto é clínico (devolve a escolha com respeito), nunca chantagem emocional ("você não ama sua família o suficiente?"). Detalhe em `objection-annihilation.md` (Fastpass por checklist) e Bloco 4.3 da APSD.
 
 ---
 
@@ -215,7 +215,7 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 4. **Validação de terceiro** (o que outra pessoa de peso disse depois).
 5. **A generalização** (e se eu sistematizasse isso?, e o produto nasce da história).
 
-A força do arco: a oferta é o desfecho NATURAL da história, não um pitch colado no fim. *Soft:* a história do autor do método (fracasso, virada, método) já tem esse arco; a oferta tem que nascer dela. Este arco é o que ALIMENTA o ensino do Mecanismo (`motor-3-viradas.md`): o passo 5 (generalização) é onde a crença central se planta, e o reframe do mecanismo 5 é o combustível das afirmações do Mecanismo. A engenharia de persuasão são estes 8 mecanismos; a estrutura é o slide-modelo mais a ADMA mais a sequência real do Mecanismo (`estrutura-real-webinar.md`); o recheio é a imersão do autor do método (`/home/cloud/imersao-analise` e o corpus de voz); o tom é clínico, de quem já fez.
+A força do arco: a oferta é o desfecho NATURAL da história, não um pitch colado no fim. *Soft:* a história do autor do método (fracasso, virada, método) já tem esse arco; a oferta tem que nascer dela. Este arco é o que ALIMENTA o ensino do Mecanismo (`motor-3-viradas.md`): o passo 5 (generalização) é onde a crença central se planta, e o reframe do mecanismo 5 é o combustível das afirmações do Mecanismo. A engenharia de persuasão são estes 8 mecanismos; a estrutura é o slide-modelo mais a APSD mais a sequência real do Mecanismo (`estrutura-real-webinar.md`); o recheio é a imersão do autor do método (`/home/cloud/imersao-analise` e o corpus de voz); o tom é clínico, de quem já fez.
 
 ---
 
