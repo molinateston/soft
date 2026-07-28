@@ -3,6 +3,25 @@ name: soft-webinar-mensagens
 description: "Escreve a SEQUÊNCIA de WhatsApp (canal primário, API oficial) e e-mail (secundário) do webinar Soft que enche a sala e fecha a venda, SEM replay. Cobre a régua de ANTES (cadastro com opt-in, faltam 24h, faltam 1h, link da sala 5 min antes), os 2 toques DURANTE (reativa quem se distraiu, avisa que a oferta abriu) e o PÓS pra quem NÃO comprou (resumo, prova, quebra de objeção, last call, fechamento, downsell ou pergunta de 1 palavra) roteado pela tag de percentual assistido, mais a esteira semanal e o repasse do lead quente pro Comercial 1:1. Use quando o pedido for WhatsApp, e-mails, sequência, lembrete ou follow-up do webinar, faltam 30 minutos, estou ao vivo, link da sala, reconvite, pós-webinar. A MÁQUINA de pós (timestamp, tags no CRM, marcos de %, roteamento) é escopo DESTA skill, no Passo 4. NAO use pro ROTEIRO/falas (soft-webinar-script); OFERTA/preço/bônus (soft-webinar-plano); página de cadastro/checkout (soft-funil-landing); pacote inteiro (soft-webinar-plano)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # Mensagens do webinar, a régua que enche a sala e fecha a venda
 
 A aula é metade do jogo; as mensagens são a outra metade. Sem régua de antes a sala fica vazia (tirar o WhatsApp divide o comparecimento por dois). Sem régua de depois a maior parte do dinheiro fica na mesa (quase ninguém compra no minuto da oferta; a maioria das vendas vem de quem ficou até o fim). Esta skill escreve três réguas: antes, durante, depois.
@@ -48,7 +67,7 @@ A régua **nasce no WhatsApp**, não é opcional. O e-mail é backup.
 
 ## ⛔ REGRA DE GERAÇÃO nº 1: NUNCA digite o travessão (em-dash)
 
-Vale em TODA mensagem que você escrever, do cadastro ao pós. **Nunca gere o caractere travessão longo (Unicode U+2014, o "em-dash") nem o travessão médio (U+2013, o "en-dash").** Ao escrever, no lugar dele use **ponto final**, **vírgula** ou **hífen comum ` - `** (o hífen do teclado, com espaço dos dois lados). Exemplo: onde você seria tentado a pôr um travessão longo entre "o link vai por aqui" e "5 min antes", escreva `o link vai por aqui, 5 min antes` ou `o link vai por aqui. 5 min antes`. Isto NÃO é um passo de find-replace que roda depois: é como você digita cada frase desde o primeiro token. Um único travessão longo no doc entregue = REPROVA de zero-tolerância (Passo 6), independente do resto estar perfeito. A mesma regra dura vale pra família **travar/travado/destravar** (só entra se for aspa literal do cliente); no lugar use emperrar, empacar, parar, freio ou amarra.
+Vale em TODA mensagem que você escrever, do cadastro ao pós. **Nunca gere o caractere travessão longo (Unicode U+2014, o "em-dash") nem o travessão médio (U+2013, o "en-dash").** Ao escrever, no lugar dele use **ponto final**, **vírgula** ou **hífen comum ` - `** (o hífen do teclado, com espaço dos dois lados). Exemplo: onde você seria tentado a pôr um travessão longo entre "o link vai por aqui" e "5 min antes", escreva `o link vai por aqui, 5 min antes` ou `o link vai por aqui. 5 min antes`. Isto NÃO é um passo de find-replace que roda depois: é como você digita cada frase desde o primeiro token. Um único travessão longo no doc entregue = REPROVA de zero-tolerância (Passo 6), independente do resto estar perfeito. A mesma regra dura vale pra família **emperrar/empacado/desemperrar** (só entra se for aspa literal do cliente); no lugar use emperrar, empacar, parar, freio ou amarra.
 
 ## Antes de tudo: PERGUNTA o MODO (ao vivo ou perpétuo)
 
@@ -290,10 +309,10 @@ Roda em **cada mensagem** (assunto + corpo) por dentro. Só VEREDITO = PASSA vai
 | **CTA com destino** | todo CTA tem link e destino (checkout/página/sala); e-mail repete 2x |
 | **Dá pra ver / falsificar?** | enxerga a cena ou o número; fato falsificável, não adjetivo |
 | **Só você diz?** | concorrente direto não assina igual (mecanismo/caso próprio) |
-| **Anti-IA** | zero travessão longo (nenhum U+2014 nem U+2013, ver REGRA DE GERAÇÃO nº 1) · zero "travar/travado/destravar" (exceto aspa do cliente) · sem frase-emoldura · sem verbo-clichê. A auto-revisão visível do Passo 7b prova que isto passou; sem ela, "zero em-dash" é decorativo. |
+| **Anti-IA** | zero travessão longo (nenhum U+2014 nem U+2013, ver REGRA DE GERAÇÃO nº 1) · zero "emperrar/empacado/desemperrar" (exceto aspa do cliente) · sem frase-emoldura · sem verbo-clichê. A auto-revisão visível do Passo 7b prova que isto passou; sem ela, "zero em-dash" é decorativo. |
 | **VEREDITO** | **= o pior item acima.** Qualquer reprovação = REFAZ. Só tudo-aprovado = PASSA. |
 
-No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (reprova em-dash e "travar"). No app/chat NÃO existe execução de script: a garantia é o Passo 7b, a auto-revisão visível e obrigatória, feita ANTES do STOP do Passo 8. (`shared-references/crivo/03-gate-cub.md`; `shared-references/filtro-anti-ia/padroes-banidos.md`.)
+No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (reprova em-dash e "emperrar"). No app/chat NÃO existe execução de script: a garantia é o Passo 7b, a auto-revisão visível e obrigatória, feita ANTES do STOP do Passo 8. (`shared-references/crivo/03-gate-cub.md`; `shared-references/filtro-anti-ia/padroes-banidos.md`.)
 
 ## Passo 7, métricas-alvo e diagnóstico (lê antes de culpar a copy)
 
@@ -313,9 +332,9 @@ No Claude Code, roda `python3 scripts/lint_copy.py mensagem.txt` em cada peça (
 
 O gate do Passo 6 roda por dentro, mas no app/chat ninguém executa script, então os 3 checks mecânicos abaixo você MOSTRA que fez, por escrito, antes de mostrar a régua. Sem esta linha visível, a nota "zero em-dash" não vale. Releia CADA mensagem do doc, palavra por palavra, e confirme por escrito ao dono, numa linha curta:
 
-> ✅ Auto-revisão anti-IA: 0 travessão longo (nenhum U+2014/U+2013, reescritos como ponto/vírgula/hífen comum), 0 "travar/travado/destravar" (fora de aspa do cliente), 0 e-mail durante a aula.
+> ✅ Auto-revisão anti-IA: 0 travessão longo (nenhum U+2014/U+2013, reescritos como ponto/vírgula/hífen comum), 0 "emperrar/empacado/desemperrar" (fora de aspa do cliente), 0 e-mail durante a aula.
 
-Se ao reler você achar QUALQUER travessão longo, reescreve na hora (ponto, vírgula ou ` - `) ANTES de escrever essa linha; a confirmação só existe depois que o doc está limpo de verdade. Achou família "travar" fora de aspa, mesma coisa. Só então segue pro Passo 8.
+Se ao reler você achar QUALQUER travessão longo, reescreve na hora (ponto, vírgula ou ` - `) ANTES de escrever essa linha; a confirmação só existe depois que o doc está limpo de verdade. Achou família "emperrar" fora de aspa, mesma coisa. Só então segue pro Passo 8.
 
 ## Passo 8, mostra e PARA
 
@@ -383,4 +402,235 @@ No fim, entrega o **checklist técnico de subida** (encanamento; o gate do Passo
 - `shared-references/crivo/01-entrada-verbatim.md`: como minerar e contar a fala real do Passo 0.
 - `shared-references/filtro-anti-ia/padroes-banidos.md`: os padrões que o anti-IA reprova.
 - `shared-references/filtro-cliente-primeiro.md`: a lente de filtrar e atrair o cliente certo.
-- `scripts/lint_copy.py`: no Claude Code, o cinto extra do anti-IA (reprova em-dash e "travar").
+- `scripts/lint_copy.py`: no Claude Code, o cinto extra do anti-IA (reprova em-dash e "emperrar").
+
+
+---
+
+## 📧 AUTOMAÇÃO 7 DIAS PÓS-WEBINAR (Marco Enes aula 19, injetado 16/07/2026)
+
+Maioria não compra no webinar. Quem entrou na lista e não é cliente entra NESSA automação (tag `AutoAll`, exclui quem tem tag de cliente). Sequência:
+
+- **D+1 · Melhor material de graça (reciprocidade).** Anexa PDF curto do teu melhor conteúdo (até 1MB) DIRETO no e-mail , não link pra baixar. Encanta antes de vender de novo.
+- **Espera até segunda-feira 9h** (represa todo mundo da semana no mesmo pulso).
+- **Seg 9h · Ramo A (já viu oferta no webinar e não comprou):** oferta direta por e-mail → link pra página de vendas. **Ramo B (não viu a oferta):** re-convite pro webinar HOJE 20h com botão pro link One-Click Registration (`https://event.webinarjam.com/register/<id>/<hash>?first_name={{first_name}}&email={{email}}&schedule_id=3`) , botão inscreve sozinho, muda o jogo em participação e compra.
+- **Qua · Re-convite headline B.** Mesmo webinar, MECANISMO ÚNICO com tema trocado (ex: "robô LinkedIn" → "nova IA pra fazer LinkedIn"). Copy do mecanismo a mesma, embalagem nova.
+- **Sex · Oferta direta last-call.** "Hoje é o último dia, inscreve aqui" → página de vendas. Fecha a semana.
+- **Goal:** comprou em qualquer ponto → pula pro fim da automação (não recebe o resto).
+
+**Broadcast semanal** pra base com tag `AutoAll` (passou pela automação e não comprou) testando e-mail novo, do mesmo jeito que testa criativo de ad. **Rotina de limpeza:** 30 dias sem abrir → unsubscribe automático (regra padrão do ActiveCampaign serve).
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-webinar-mensagens
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"que sequência você quer agora?
+ (a) pré-webinar (do lead se inscrever até entrar na aula)
+ (b) durante (lembrete e call-in pra aumentar show-up)
+ (c) pós-aula (janela quente de venda)
+ (d) recuperação (quem viu e não comprou, replay, downsell)
+ (e) tudo (sequência completa ponta a ponta)"
+
+Grava state.sequencia. (e) roda as 4 em ordem, preservando
+consistência de promessa e voz.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (Oferta, PUV, Mecanismo, Voz)
+- Roteiro do webinar pronto (soft-webinar-plano)
+- Páginas do funil prontas (soft-webinar-paginas)
+- Canal principal (e-mail/WhatsApp/SMS/mix)
+- Ferramenta de envio (GHL/MailerLite/Zapi)
+- Ticket + garantia + urgência (data-limite real)
+- Sequência antiga rodando (pra modelar)
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES
+
+F1. BRIEFING, canal, ferramenta, janela de envio (data do
+    webinar), temperatura de quem entra.
+
+F2. MAPA DA SEQUÊNCIA, quantos toques em que canal, em que
+    dia/hora, com que gatilho. Preview do mapa antes de escrever.
+
+F3. ESCRITA MENSAGEM A MENSAGEM, UMA pergunta por mensagem
+    quando precisa de insumo. 2-3 opções por mensagem cruzando
+    com verbatim + tese-mãe. Preview a cada 5.
+
+F4. GATILHOS + CONDIÇÕES, abriu/não abriu, clicou/não clicou,
+    assistiu/não assistiu. Ramo por comportamento.
+
+F5. GATE INTERNO + soft-critico-copy nas mensagens de venda.
+
+F6. ENTREGA Google Doc com cada mensagem no formato pronta-pra-
+    colar + tabela de gatilhos + observação de setup no CRM.
+
+State: /tmp/soft-webinar-mensagens-<slug>-<epoch>.json
+

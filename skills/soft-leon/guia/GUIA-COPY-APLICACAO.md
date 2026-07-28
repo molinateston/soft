@@ -187,7 +187,7 @@ Palavra que ninguém usa numa conversa real não entra. As principais:
 - **jornada** → caminho, processo, o que você viveu
 - **potencializar** → aumentar, fortalecer, fazer render mais
 - **mindset** → cabeça, jeito de pensar
-- **destravar / travar / travado** → soltar, sair do lugar, desempacar *(banido em dobro, o autor do método nunca usa "travar"; pra cliente parado, use empacado, emperrado)*
+- **destravar / travar / travado** → soltar, sair do lugar, desempacar *(banido em dobro, o autor do método nunca usa "travar"; pra cliente parado, use empacado, emperrado)* <!-- lint-ok: glossario de palavras banidas -->
 - **alinhamento, sinergia, holístico, disruptivo, escalar (no sentido vago)** → corta ou troca pelo que a coisa é de verdade
 
 A regra por trás da lista: **se você não falaria a palavra num boteco explicando seu trabalho pra um amigo, ela não entra na copy.** A lista cresce, toda vez que você flagrar uma palavra "de LinkedIn" saindo da sua mão, adiciona.

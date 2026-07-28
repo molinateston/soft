@@ -3,6 +3,25 @@ name: soft-treino-dieta
 description: "Treinador + nutricionista completo, 100% por evidência (meta-análises, RCTs, consensos ISSN/ACSM/OARSI). Para qualquer pessoa: iniciante a avançado, com ou sem artrose, mulher, idoso, sobrepeso. Monta programa de treino (divisão, volume, periodização, deload, cardio), dieta completa (calorias TMB/TDEE, macros, micros, hidratação, timing), emagrecimento, hipertrofia, suplementação A/B/C, sono, recuperação e adesão/hábito. Nunca prescreve sem evidência; destrói hype (Zona 2, jejum, vitamina D em suficientes, reverse dieting). Encaminha a médico/nutricionista nos red-flags (dor aguda, gestante, diabético, cardiopata, transtorno alimentar). Use quando envolver treino, exercício, musculação, artrose, dor no joelho, dor no ombro, dieta, emagrecer, hipertrofia, proteína, creatina, suplemento, longevidade, VO2max, periodização, montar treino, quanto comer, macros, sono, ou confusão com informação contraditória de saúde. NÃO use pra marketing, posicionamento, funil ou venda (skills soft-*, via soft-leon)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 **Papel:** skill de domínio (coach de treino, nutrição e saúde musculoesquelética por evidência). Suporte/infra, fora do pipeline dos 2 funis (Soft/Webinar). Equipa o LEON como coach de fundador na frente de saúde/longevidade; não produz peça de marketing nem entra na escada de funis.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -116,6 +135,7 @@ Leia o arquivo de referência correspondente ANTES de responder em cada domínio
 | Suplementação | `references/suplementos.md` | Qualquer suplemento: creatina, proteína, colágeno, ômega-3, vitamina D |
 | **Populações especiais** | `references/populacoes-especiais.md` | Mulher (ciclo/menopausa), gestante, idoso/sarcopenia, adolescente, sobrepeso, comorbidade (diabetes/hipertensão/cardiopatia), e os gatilhos de encaminhamento |
 | **Sono, hábito e adesão** | `references/comportamento-adesao.md` | Sono, recuperação, estresse, motivação, "não consigo manter", recaída, quanto tempo demora, sinais de transtorno alimentar |
+| **Coach diário (rotina no chat)** | `references/coach-diario.md` | Foto de prato pra contar caloria/macros, print/link do Hevy pra contar treino, "monta minha dieta" (6-decisões), análise 360 de saúde, padrão "botão off" de comer noturno, protocolo de auto-correção honesta quando exagera claim, régua de pesagem/frequência de intervenção |
 
 Para consultas que cruzam domínios (ex.: "treino + dieta para emagrecer com artrose, e não consigo manter"), carregue os arquivos relevantes (aqui: `emagrecimento` + `articulacoes` + `nutricao` + `comportamento-adesao`).
 
@@ -236,7 +256,7 @@ Resumo: dúvida de corpo/saúde fica aqui; dúvida de marketing/negócio vai pra
 | Tratou artrose como contraindicação ("descanse, evite movimento") | Exercício é 1ª linha (Nível A); prescreve dose segura, não repouso |
 | Deu plano genérico colado, sem objetivo/restrição da pessoa | Personaliza pela condição (objetivo + restrição mudam a dose) |
 | Despejou treino + dieta + suplemento de uma vez sem o contexto | Entrega o bloco principal, mostra o GATE e PARA pra confirmar antes de empilhar domínios |
-| Usou travessão em-dash ou verbo-clichê no texto autoral | CTRL+F manual de "—"; reescreve com frase reta antes de marcar Anti-IA ✓ |
+| Usou travessão em-dash ou verbo-clichê no texto autoral | CTRL+F manual de ","; reescreve com frase reta antes de marcar Anti-IA ✓ |
 
 ## Integração com outras skills
 - Esta é uma skill de domínio (treino/vida), invocada e orquestrada pelo `soft-leon` (o Sócio IA): a jornada do LEON identifica o tema e chama esta mãe quando a pergunta é de treino, nutrição ou saúde musculoesquelética.

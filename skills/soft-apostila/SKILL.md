@@ -3,6 +3,25 @@ name: soft-apostila
 description: "Transforma uma aula/live gravada (Zoom, YouTube, MP4) em MATERIAL navegável, uma apostila/handout. Pipeline Whisper + Claude: extrai áudio → transcreve → limpa muletas → segmenta em capítulos → enriquece cada um (vira texto corrido, não transcrição crua). Output adapta ao ambiente: no chat entrega o material em Markdown; no Code renderiza a apostila HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, mobile) e publica. Marca-neutra: tema/cor/ID vêm do dono. Use quando o dono quiser virar conteúdo gravado em material: bônus de webinar, isca/lead magnet, micro-aula do funil, módulo de mentoria, material de comunidade, ou repurpose de uma masterclass/imersão. NÃO use para roteiro/ideia de conteúdo de feed (soft-conteudo-carrossel/-reels/-stories), página de captura/venda (soft-funil-landing), proposta comercial (soft-proposta-comercial), nem edição de vídeo (soft-editor-video)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar).
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta , é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 **Papel:** skill operacional de **materialização de conteúdo**. Pega algo que o dono já gravou (aula, live, webinar, call) e devolve um material indexável, sem plataforma de EAD amarrada, versionável, com link próprio. Suporte de ENTREGA e de ISCA; não está no pipeline de copy dos funis. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém. Tema, cor e identidade vêm do dono (puxe da `soft-designer`). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
 
 ## 📦 O QUE ESTA SKILL PRODUZ
@@ -88,7 +107,7 @@ Alvo de 800 a 2000 palavras por capítulo: menos que isso fica raso, mais que is
 
 Vira texto corrido, não transcrição crua. Por capítulo:
 
-- **Intro de 2 a 3 frases** que situa o tema do capítulo. Abre DIRETO no conteúdo, nunca com moldura meta: proibido "Este capítulo é sobre...", "Neste capítulo você vai...", "A verdade é que...". Zero travessão em-dash `—` (usa ponto ou hífen). Zero verbo de transformação vazio (transformar, destravar, potencializar); usa concreto (funciona, resolve, tira, muda).
+- **Intro de 2 a 3 frases** que situa o tema do capítulo. Abre DIRETO no conteúdo, nunca com moldura meta: proibido "Este capítulo é sobre...", "Neste capítulo você vai...", "A verdade é que...". Zero travessão em-dash `,` (usa ponto ou hífen). Zero verbo de transformação vazio (transformar, desemperrar, potencializar); usa concreto (funciona, resolve, tira, muda).
 - **Corpo em prosa fluida**, mantendo o tom didático e as falas reais do dono; exemplos práticos onde forem naturais (os que ele deu, ou variações fiéis do que ele ensinou).
 - **Fechamento** de 1 parágrafo que amarra a ideia.
 - Listas, comandos e código, quando existirem na fala, viram Markdown formatado.
@@ -99,9 +118,9 @@ Exemplo ilustrativo de recorte de capítulo (nicho fictício; modela a qualidade
 
 **Antes de fechar, varra o material inteiro pelo filtro anti-IA e reescreva o que acusar.** É passo acionável, não decoração do gate: o enriquecimento é o que mais planta esses tells. Padrões banidos (inline, porque no app roda só o corpo):
 
-- **Travessão em-dash `—`** (zero-tolerância): todo `—` sai, vira ponto ou hífen. Inclui título e `<title>` do HTML. No Code, `grep -n '—' apostila.md` tem que voltar vazio antes de publicar.
+- **Travessão em-dash `,`** (zero-tolerância): todo `,` sai, vira ponto ou hífen. Inclui título e `<title>` do HTML. No Code, `grep -n ',' apostila.md` tem que voltar vazio antes de publicar.
 - **Frase-emoldura** que promete revelação: "Este capítulo é sobre...", "Neste capítulo...", "A verdade é que...", "O segredo está em...". Reescreve abrindo direto no conteúdo.
-- **Verbo de transformação vazio**: transformar, revolucionar, destravar, potencializar, alavancar, elevar. Troca por concreto (funciona, resolve, ataca, tira, muda). Família "travar/travado/destravar" banida sempre, exceto fala literal do dono entre aspas.
+- **Verbo de transformação vazio**: transformar, revolucionar, desemperrar, potencializar, alavancar, elevar. Troca por concreto (funciona, resolve, ataca, tira, muda). Família "emperrar/empacado/desemperrar" banida sempre, exceto fala literal do dono entre aspas.
 - **Tricolon performático** (a, b e c com mesma cadência): quebra em frases próprias.
 
 Detalhes e exemplos de reescrita em `references/reference.md` (seção "Checklist anti-IA"). Só depois de varrer: concatene os capítulos em UM `apostila.md`. No chat, esse MD é a entrega. No Code, injeta no template HTML single-file (sidebar com índice, navegação por teclado, scroll-spy, drawer mobile, âncora por capítulo) e publica no Cloudflare Pages com a ID visual do dono (puxada da `soft-designer`). Detalhes de template, build e deploy: `references/reference.md`.
@@ -112,7 +131,7 @@ Detalhes e exemplos de reescrita em `references/reference.md` (seção "Checklis
 - **Voz preservada:** soa como o dono, não como resumo neutro de IA.
 - **Exemplos intactos:** os casos concretos que ele deu continuam no material.
 - **Segmentação:** 8 a 15 capítulos, cortados por tópico, com "Resumo" no fim.
-- **Anti-IA:** a varredura do passo 5 rodou de fato: zero travessão em-dash `—` (checou `grep -n '—'` no Code), zero frase-emoldura ("Este capítulo é sobre..."), zero verbo de transformação vazio, PT-BR com acentuação correta. Padrões inline no passo 5 e em `references/reference.md`.
+- **Anti-IA:** a varredura do passo 5 rodou de fato: zero travessão em-dash `,` (checou `grep -n ','` no Code), zero frase-emoldura ("Este capítulo é sobre..."), zero verbo de transformação vazio, PT-BR com acentuação correta. Padrões inline no passo 5 e em `references/reference.md`.
 - **Entrega:** UM doc MD consolidado (não capítulos soltos no chat).
 
 ## When NOT to use
@@ -133,3 +152,60 @@ Detalhes e exemplos de reescrita em `references/reference.md` (seção "Checklis
 - Despejar capítulo por capítulo no chat em vez de UM doc MD no fim.
 - Escrever a apostila inteira sem o STOP do índice aprovado.
 - Publicar o HTML no app sem Whisper/Bash: deploy é passo do Claude Code.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).

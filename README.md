@@ -19,39 +19,33 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 📖 Guia ilustrado passo a passo: https://leonardomolina.com.br/softskills
 
 ## O que vem
-- `soft-leon`
-- `soft-plano-negocio`
-- `soft-plano-posicionamento`
-- `soft-plano-ofertas`
-- `soft-financeiro`
+- `soft-apostila`
+- `soft-conteudo`
 - `soft-contratos-consultoria`
-- `soft-conteudo-planner`
-- `soft-conteudo-headlines`
-- `soft-conteudo-carrossel`
-- `soft-conteudo-reels`
-- `soft-conteudo-stories`
-- `soft-conteudo-multiplataforma`
-- `soft-conteudo-impulsionar`
+- `soft-critico-copy`
 - `soft-designer`
 - `soft-editor-video`
-- `soft-trafego-meta`
-- `soft-apostila`
+- `soft-financeiro`
 - `soft-funil-carta`
-- `soft-funil-miniwebinar`
-- `soft-funil-landing`
 - `soft-funil-isca`
-- `soft-webinar-plano`
-- `soft-webinar-script`
-- `soft-webinar-slides`
-- `soft-webinar-paginas`
-- `soft-webinar-mensagens`
-- `soft-webinar-chat`
+- `soft-funil-landing`
+- `soft-funil-miniwebinar`
+- `soft-gestao-agil`
 - `soft-launch`
+- `soft-leon`
+- `soft-plano-negocio`
+- `soft-plano-ofertas`
+- `soft-plano-posicionamento`
+- `soft-proposta-comercial`
+- `soft-sistema`
+- `soft-trafego-meta`
+- `soft-treino-dieta`
+- `soft-vendas-closer`
 - `soft-vendas-estrategias`
 - `soft-vendas-sdr`
-- `soft-vendas-closer`
-- `soft-proposta-comercial`
-- `soft-treino-dieta`
-- `soft-sistema`
+- `soft-webinar-chat`
+- `soft-webinar-mensagens`
+- `soft-webinar-paginas`
+- `soft-webinario`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

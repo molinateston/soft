@@ -3,6 +3,25 @@ name: soft-vendas-estrategias
 description: "O PLAYBOOK de COMO e QUANDO vender do metodo Soft: escolhe a JOGADA de campanha certa pro momento (audiencia + oferta + objetivo) e monta a estrategia de lancamento. Contem as 10 jogadas (Levantada de Mao, Caixinha, Oferta Direta, Storytelling, Reuniao de R$100, Pre-venda, Pix de Compromisso, Destaques, Vendas Automaticas, Lembrei de Voce) + o LANCAMENTO da oferta high-ticket (vender antes de montar, founding alternados, gate de consumo, micro-oferta, DM sem call). Diagnostica o momento e devolve a jogada de menor custo + a ordem no mes. Use quando o pedido for como/quando/o que vender agora, plano do mes, campanha, jogada, lancar/relancar oferta, gerar caixa, reativar base, validar produto, subir preco, sem caixa esse mes. NAO use pra ABRIR/qualificar/agendar lead (soft-vendas-sdr) nem CONDUZIR/fechar/objecao (soft-vendas-closer); desenhar a mentoria (soft-plano-ofertas); posicionamento (soft-plano-posicionamento); trafego pago (soft-conteudo-impulsionar); a copy da peca (soft-conteudo/soft-funil)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # Estrategias de venda, as jogadas de COMO e QUANDO vender
 
 Caixa nao entra de "postar mais". Entra de **rodar a jogada certa pro momento**: a audiencia que ele tem, a oferta que ele quer mover, o objetivo do mes. Esta skill e o cardapio das jogadas de campanha do metodo Soft e o lado lancamento da oferta. Recebe o momento do especialista e devolve **qual jogada rodar, em que ordem no mes, e qual mae executa cada parte**, tudo no menor custo de aquisicao possivel.
@@ -13,7 +32,10 @@ Caixa nao entra de "postar mais". Entra de **rodar a jogada certa pro momento**:
 
 **Como o metodo trata numero e exemplo:** a mecanica abaixo e a regra do caminho, em voz propria. Onde aparece exemplo, vem em **nicho ficticio rotulado** (mostra o formato, nunca e molde pra copiar). Nenhum numero de resultado (ticket, quantidade de vendas, taxa de subida) e afirmacao universal: ou vira **principio sem numero**, ou vira **SLOT do dono** preenchido COM ele e falsificavel, marcado `[A CONFIRMAR]` ate validar. Numeros de MECANICA (R$100 de filtro, 10% do Pix, 2 founding, 6-7 pessoas, 3 a 7 perguntas/dia) ficam, porque sao parametro do processo, nao prova emprestada.
 
-**Este SKILL.md e o processo inteiro.** O miolo executavel (as 10 jogadas, o lancamento, o diagnostico) mora aqui no corpo. As references guardam a profundidade dirigida (lidas no passo indicado). Roda o **gate por dentro** antes de mostrar.
+**Este SKILL.md e o processo inteiro.**
+
+**🔴 O DOC NASCE NO PRIMEIRO TURNO E É O PREVIEW VIVO.** Antes da 1ª pergunta de condução, CRIA o arquivo `.md` do plano com o esqueleto INTEIRO preenchido com `[A CONFIRMAR]` em cada campo, e cita o path no primeiro turno. A partir daí, cada resposta do dono num STOP, você EDITA a seção correspondente do arquivo (troca o `[A CONFIRMAR]` por conteúdo real) e responde no chat SÓ *"atualizei a Seção X, olha o doc; ajusto?"*. **O `.md` é a FONTE DE VERDADE, não o chat:** o dono pode EDITAR direto o arquivo (VS Code, editor local, quem quiser), e no próximo turno você LÊ a versão atualizada dele antes de continuar (nunca sobrescreve edição do dono sem confirmar). NUNCA despeja seção montada no corpo da conversa "pra ele ver antes"; o lugar de ver é o doc. Chat = perguntas curtas + confirmações. Peça inteira despejada no chat = paredão que ninguém aproveita e reprova o output.
+ O miolo executavel (as 10 jogadas, o lancamento, o diagnostico) mora aqui no corpo. As references guardam a profundidade dirigida (lidas no passo indicado). Roda o **gate por dentro** antes de mostrar.
 
 **Modo A (Consultor do mes, default):** o dono chega com um momento ("sem caixa esse mes", "vou lancar", "como vendo isso") → diagnostica e devolve a jogada/combinacao certa. **Modo B (Uma jogada especifica):** o dono ja sabe qual quer ("monta minha Reuniao de R$100") → vai direto pra ela, roda o esqueleto na voz dele. Detecta o modo na 1a mensagem.
 
@@ -178,7 +200,7 @@ So doc com **VEREDITO=PASSA** vai pro usuario. Um ✗ refaz **o item**, nao o do
 | **Esqueleto vai na voz do dono** | todo script bruto sai marcado como esqueleto pra passar na voz do dono + anti-ia antes da rua; tom de robo educado reprova |
 | **Numeros sao do dono (Lei da fidelidade)** | todo resultado/ticket/taxa e do dono ou `[A CONFIRMAR]`; numero de exemplo nunca virou promessa; numeros de mecanica ficam |
 | **Output DENSO** | tabelas/listas, nao prosa; zero meta-narracao/bastidor; sem tabela de gate na saida |
-| **Anti-IA (HARD)** | zero em-dash (o travessao longo, codigo U+2014) · zero familia "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuacao correta. Ver o bloco de reescrita logo abaixo. |
+| **Anti-IA (HARD)** | zero em-dash (o travessao longo, codigo U+2014) · zero familia "emperrar/empacado/desemperrar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · PT-BR com acentuacao correta. Ver o bloco de reescrita logo abaixo. |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. So tudo-✓ = PASSA. |
 
 **Reescrita obrigatoria do em-dash (o furo mais provavel, o modelo usa por reflexo na prosa PT-BR densa):** o em-dash e o travessao longo, U+2014. **Nao basta "buscar e refazer": REESCREVA de fato cada ocorrencia.** Regra imperativa: substitua o travessao por **virgula, dois-pontos ou ponto** conforme o sentido; travessao de aposto no meio da frase vira **virgula**; travessao que anuncia consequencia ou lista vira **dois-pontos**; travessao que separa duas ideias inteiras vira **ponto**. Faca isto ANTES de marcar o item ✓.
@@ -187,7 +209,7 @@ So doc com **VEREDITO=PASSA** vai pro usuario. Um ✗ refaz **o item**, nao o do
 - **ANTES:** `base quente rende [travessao] e o caixa mais barato` · **DEPOIS:** `base quente rende, e o caixa mais barato`
 - **ANTES:** `a jogada gera o lead [travessao] o closer fecha` · **DEPOIS:** `a jogada gera o lead. O closer fecha`
 
-**Verificacao real antes do ✓ (declarar ✓ sem buscar e gate falso, o erro mais grave):** no Code roda `grep -oaP "\xe2\x80\x94" no-doc-final | wc -l` (tem que dar 0) e o mesmo pra familia "travar"; no chat/app varre o texto inteiro procurando o travessao longo caractere a caractere. Achou um travessao, reescreve pela regra acima e varre de novo.
+**Verificacao real antes do ✓ (declarar ✓ sem buscar e gate falso, o erro mais grave):** no Code roda `grep -oaP "\xe2\x80\x94" no-doc-final | wc -l` (tem que dar 0) e o mesmo pra familia "emperrar"; no chat/app varre o texto inteiro procurando o travessao longo caractere a caractere. Achou um travessao, reescreve pela regra acima e varre de novo.
 
 O filtro anti-IA completo (12 padroes banidos, teste em voz alta) mora na `soft-anti-ia`: invoque-a na ultima checagem da copy da jogada.
 
@@ -202,7 +224,7 @@ O filtro anti-IA completo (12 padroes banidos, teste em voz alta) mora na `soft-
 | **Momento (5 perguntas)** | Base? SIM (15 clientes) · Audiencia ativa? SIM (250 views qualificados) · Produto pra validar? SIM (a mentoria nova) · Vai subir preco? nao agora · Volume de DM? baixo |
 | **Jogada 1 (menor custo)** | **Lembrei de Voce** com os 15 clientes: apresenta a mentoria como evolucao natural do que aprendeu atendendo restaurantes, convite leve pra conhecer. Na voz dele, pelo teto de cada um (o dono que trabalha 14h e nao tira o negocio das costas) |
 | **Jogada 2 (fundo)** | **Caixinha** diaria (3-5 perguntas, 1 oferta) + **Levantada de Mao** 2x/semana pra encher o direct |
-| **Jogada 3 (pico)** | **Reuniao de R$100** tematica sobre "a escala que trava" (tema que a caixinha acusou), 20+ pessoas, oferta da mentoria no fim |
+| **Jogada 3 (pico)** | **Reuniao de R$100** tematica sobre "a escala que amarra" (tema que a caixinha acusou), 20+ pessoas, oferta da mentoria no fim |
 | **Lancamento** | Vende a mentoria com data futura ("turma comeca em 30 dias"); 2 founding alternados em troca de caso documentado; individual ate 6-7 antes do grupo; fecha na DM (call e excecao) |
 | **Ordem no mes** | Lembrei de Voce (semana 1) → Caixinha+Levantada em fundo (todo mes) → Reuniao de R$100 (semana 3, o pico) → founding fechando na DM ao longo do mes |
 | **Handoff comercial** | lead quente da Levantada/Reuniao → **soft-vendas-sdr** abre/agenda (se houver volume) → **soft-vendas-closer** conduz e fecha na DM. Desenho/preco da mentoria → **soft-plano-ofertas** |
@@ -246,3 +268,194 @@ Plano de Jogadas aprovado alimenta: **soft-conteudo-stories** (a sequencia de st
 ## References (o corpo carrega o metodo; estas guardam a profundidade dirigida)
 - `references/jogadas-de-campanha.md`: as 10 jogadas de campanha, cada uma no formato completo (o que e · quem pode rodar · resultado esperado como SLOT · como funciona passo-a-passo com as falas-ancora · onde encaixa no mes · quem executa · ajuste Soft), o cardapio rapido e os fios que costuram as jogadas. Lida nos P1 e P2.
 - `references/lancamento-e-esteira.md`: o lado lancamento da oferta (vender antes com data futura, os 2 founding alternados, o gate de consumo, o teto individual, a micro-oferta como porta e o downsell com cashback, a esteira de 3 publicos e a matematica da meta) + os **funis de entrada de baixa friccao** (tripwire/ganho por lead, grupo de WhatsApp "lead eterno", funil micro-ondas), a camada tatica que enche o topo da esteira. Lida no P3.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+## GATE OBRIGATORIO soft-critico-copy
+
+Antes de entregar QUALQUER linha de copy publica que sai desta skill (headline, hook, corpo, CTA, script, roteiro, legenda, e-mail, mensagem, pagina), a copy passa por soft-critico-copy: 4 filtros na ordem (CUB, Estrutura-mae, Anti-IA, Verbatim). Se reprova em qualquer um, reescreve e reroda ate zero falha dura.
+
+Rodar: `python3 ~/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>`
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-vendas-estrategias
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"que peça de estratégia comercial você quer agora?
+ (a) desenhar a arquitetura de venda do zero (SDR? closer?
+     canal? ticket?)
+ (b) mudar o canal principal (ex: sair de DM pra call)
+ (c) mudar o ticket (subir/descer preço com arquitetura nova)
+ (d) montar um upsell/downsell/cross-sell
+ (e) recuperar base fria (quem comprou barato ou parou)
+ (f) definir a régua de indicação/afiliado/testemunho
+ (g) análise de gargalo do funil comercial atual"
+
+Grava state.sub_caso. Cada um puxa um pipeline curto próprio.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (Oferta, PUV, Mecanismo, Voz)
+- Ticket atual + margem definida
+- Funil comercial rodando (métricas: lead→call→venda)
+- Time comercial (SDR, closer, tamanho)
+- CRM + ferramentas em uso
+- Base de clientes/leads (tamanho e maturidade)
+- Cases + verbatim
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES
+
+F1. BRIEFING DA SITUAÇÃO, números atuais (se tem), maturidade
+    do dono, banda de ticket, gargalo percebido.
+
+F2. LEITURA, devolve em 1 linha qual é o problema-mãe do
+    momento. Dono confirma ou corrige.
+
+F3. 2-3 CAMINHOS ESTRATÉGICOS, cada um com ganho esperado,
+    trabalho pra montar, risco. Dono escolhe.
+
+F4. DESENHO DA ARQUITETURA, mapa do fluxo (lead → onde → quem
+    fala → onde fecha), régua de números-alvo, papéis.
+
+F5. PEÇAS DE APOIO, lista o que precisa produzir (scripts,
+    páginas, mensagens) e linka nas skills irmãs.
+
+F6. GATE INTERNO, auditoria silenciosa.
+
+F7. ENTREGA Google Doc com o plano + arquitetura visual em
+    texto + lista de peças a produzir + próximo passo.
+
+State: /tmp/soft-vendas-estrategias-<slug>-<epoch>.json
+

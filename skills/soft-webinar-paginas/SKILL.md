@@ -3,11 +3,30 @@ name: soft-webinar-paginas
 description: "Escreve as 3 páginas que orbitam o webinar do método Soft: Cadastro (captura/qualifica), Obrigado/Lembrete (sobe comparecimento) e Checkout (abre a venda de quem já decidiu). Cada página tem UMA função, é mobile-first, passa pelo gate. Carrega: bio na última dobra, obrigado modelo web-v1 (nome dinâmico, badges anti-fuga, card da aula com timer, ficha wizard que fecha no WhatsApp), checkout ENXUTO (cronômetro, 15 primeiros, garantia, provas, bônus), variante wa.me sem form, AO VIVO x PERPÉTUO, ticket até ~3k no botão x acima pro 1:1. Use quando o pedido for páginas do webinar, cadastro/captura, obrigado/lembrete ou checkout. NÃO use pro roteiro/oferta/deck/gravação/e-mails/pós-webinar (soft-webinar irmãs); ANÚNCIO/CAMPANHA pra encher a sala do webinar (decisão de tráfego: soft-conteudo-impulsionar); vendas/VSL/landing fora de webinar (soft-funil-carta/-landing); headline isolada (soft-conteudo-headlines); posicionamento (soft-plano-posicionamento); arte (soft-designer); script 1:1 (soft-vendas-closer)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # As 3 páginas que orbitam o webinar
 
 **O que esta skill faz por você:** escreve as PÁGINAS do webinar (cadastro, obrigado, checkout) que enchem a sala e levam pra oferta, no padrão do método, cada bloco pronto pra colar na ferramenta.
 
-**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, zero figura de linguagem vazia, só o que uma pessoa real diria, cria o contexto ANTES da afirmação; (2) abre ensinando o que faz e por que aquele passo importa; (3) é consultiva, puxa o contexto de você antes de gerar, nunca cospe no escuro; (4) contexto é rei, a estrutura flutua pelo assunto, não é trilho rígido; (5) **admite se faltar insumo, nunca inventa**, marca `[A CONFIRMAR: o que falta]` no lugar exato do furo (número/case/fala/oferta que falta é pendência declarada, jamais buraco preenchido com algo plausível). **FORMATO do marcador: dois-pontos pra nomear o furo, JAMAIS travessão dentro dele.** Certo: `[A CONFIRMAR: nº de clientes atendidos]`. ERRADO: `[nº de clientes atendidos — A CONFIRMAR]` (o travessão no marcador é o furo que mais derruba o gate anti-IA do Passo 6); (6) **doc de output enxuto pros 2 leitores** (o humano que cola a página + a IA que a recebe como contexto), zero texto além do necessário, corta meta-narração e bastidor. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0; as leis 5 e 6 também estão embutidas no gate do Passo 6.)
+**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, zero figura de linguagem vazia, só o que uma pessoa real diria, cria o contexto ANTES da afirmação; (2) abre ensinando o que faz e por que aquele passo importa; (3) é consultiva, puxa o contexto de você antes de gerar, nunca cospe no escuro; (4) contexto é rei, a estrutura flutua pelo assunto, não é trilho rígido; (5) **admite se faltar insumo, nunca inventa**, marca `[A CONFIRMAR: o que falta]` no lugar exato do furo (número/case/fala/oferta que falta é pendência declarada, jamais buraco preenchido com algo plausível). **FORMATO do marcador: dois-pontos pra nomear o furo, JAMAIS travessão dentro dele.** Certo: `[A CONFIRMAR: nº de clientes atendidos]`. ERRADO: `[nº de clientes atendidos , A CONFIRMAR]` (o travessão no marcador é o furo que mais derruba o gate anti-IA do Passo 6); (6) **doc de output enxuto pros 2 leitores** (o humano que cola a página + a IA que a recebe como contexto), zero texto além do necessário, corta meta-narração e bastidor. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0; as leis 5 e 6 também estão embutidas no gate do Passo 6.)
 
 **Este SKILL.md é o processo inteiro e ele carrega o método.** Siga os passos na ordem, pare nos checkpoints, e rode o gate por dentro antes de mostrar qualquer página. A profundidade (falas verbatim, moldes visuais, exemplos por nicho) vive em `references/paginas-cadastro-obrigado-checkout.md`; cada passo que precisa dela DIZ qual seção ler e o que aplicar. Nenhuma técnica fica só na reference, o corpo sempre manda usar.
 
@@ -159,7 +178,7 @@ Função única: **fazer a pessoa aparecer.** Alvo Soft 50%+ (benchmark 33-57%);
 | 1 | **Confirmação enfática (nome dinâmico)** | eyebrow check verde "✓ Inscrição confirmada" · H1 "Informações importantes" · lead c/ nome: "Tá garantida, **[nome]**. O acesso é **gratuito e limitado**." Nome vem da URL (`?first_name=`) c/ fallback `localStorage` (funciona em qualquer aparelho) |
 | 2 | **3 badges anti-fuga** (cards X vermelho) | no **perpétuo** usa a fórmula honesta "✗ Essa sessão não terá replay" (NÃO "ao vivo, sem gravação" cru); no **ao vivo** "✗ Ao vivo, sem replay" · "✗ Sem material depois" · "✗ Só quem fica até o fim". É o anti-fuga virado 3 selos no topo; mata o "depois vejo a gravação" |
 | 3 | **Card "Sua aula"** | Data + Horário (do horário que o lead escolheu na captura; perpétuo NUNCA tem data fixa, cada lead vê a SUA) · **timer OFICIAL da ferramenta** restilizado na marca ("Sua aula começa em: …"; ao zerar a página vira a sala) · linha de acesso dashed ("**Deixe esta página aberta.** Na hora ela vira sua sala e te leva pra dentro. O link chega no **e-mail** e **WhatsApp**.") · **agenda**: 3 botões Google/Outlook/.ICS c/ link individual embutido |
-| 4 | **Gate "Passo decisivo" → FICHA** | card verde · selo "Passo decisivo" · H2 "Garanta sua vaga na sala" · "Assentos limitados. Preenche a ficha rápida (3 min) pra travar teu lugar. Uso tuas respostas pra preparar a sala pro teu caso." · botão "Garantir minha vaga →" pra `/ficha/` |
+| 4 | **Gate "Passo decisivo" → FICHA** | card verde · selo "Passo decisivo" · H2 "Garanta sua vaga na sala" · "Assentos limitados. Preenche a ficha rápida (3 min) pra emperrar teu lugar. Uso tuas respostas pra preparar a sala pro teu caso." · botão "Garantir minha vaga →" pra `/ficha/` |
 | 5 | **Presente de retenção** (fecho) | card discreto: "🎁 Tem um **presente pra quem ficar até o fim**. Entra no horário e fica até o final." |
 
 > **Lê Bloco 2.2 pro molde do opt-in + a mensagem que sobe comparecimento, e Bloco 2.6 pros 3 usos da ficha (Lead Score / comercial / dor na voz do lead).** ~30% respondem a ficha sem incentivo. O timer é SEMPRE o oficial da ferramenta, nunca contagem em localStorage (quebra cross-device).
@@ -172,7 +191,7 @@ Barra de progresso · salva sozinha (retoma se fechar a aba) · prefill do que v
 | **Identificação** (só se NÃO veio da captura) | não | e-mail · nome · WhatsApp |
 | **Segmentação** | não | tipo de especialista · nicho · tempo de mercado · ticket médio · usa IA · dor principal |
 | **Score** (define HOT) | sim | urgência (0-10) · quando quer resolver · faturamento mensal · **quanto toparia investir** (piso HOT = topa 3k+) |
-| **Insight** | não | "O que mais te trava hoje?" (campo aberto, na voz do lead) |
+| **Insight** | não | "O que mais te amarra hoje?" (campo aberto, na voz do lead) |
 
 **Tela final:** "Pronto, [nome]. Vaga garantida." + único próximo passo = botão WhatsApp c/ msg pré-pronta ("Oi, [nome do dono]! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala.") + nota "A sala abre no horário que você escolheu · não falta, tem presente no fim".
 
@@ -256,7 +275,7 @@ Roda o gate em CADA página **internamente**. Só página com VEREDITO=PASSA vai
 | **Sem promessa fabricada** | nenhuma promessa de resultado, número de prova ou garantia que o cliente não confirmou de fato | |
 | **CTA com destino** | todo botão diz o que acontece ao clicar e tem destino real (form / wa.me / calendário / gateway), nunca "Saiba mais" vago | |
 | **3 perguntas do gate** | Dá pra VER? (cena/chão, não tese) · Dá pra FALSIFICAR? (fato, não adjetivo) · SÓ você diz? (o concorrente não assina igual) | |
-| **Anti-IA (HARD)** | zero travessão "—" em QUALQUER lugar da copy (a exceção é SÓ aspa literal do cliente) · **inclusive DENTRO de `[A CONFIRMAR]`** (usa dois-pontos, nunca hífen longo: `[A CONFIRMAR: nº]`, jamais `[nº — A CONFIRMAR]`) · **inclusive travessão de atribuição de depoimento** (`"frase." — [autor]` conta como em-dash: usa aspas + o nome em linha/parêntese separado) · **inclusive travessão juntando duas orações** (`frase A — frase B`: vira dois períodos ou dois-pontos) · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma"). **No chat (sem o lint), faz CTRL+F manual de "—" e da família "travar" antes de marcar ✓, e o CTRL+F conta marcador, atribuição e junção de orações, não só o em-dash "solto".** Não canta "zero ocorrências" sem ter varrido esses 3 focos: eles são onde o "—" mais nasce. No Code, roda `python3 scripts/lint_copy.py`.<br>**Exemplos de FALHA (o que o CTRL+F tem que pegar):** ERRADO `Próxima sessão começa em 12 min — ou escolha um horário de hoje` → CERTO `Próxima sessão começa em 12 min. Ou escolha um horário de hoje.` · ERRADO `"...sem colocar absorvente." — [aluna]` → CERTO `"...sem colocar absorvente." (aluna, cidade)` · ERRADO `[nº de mulheres atendidas — A CONFIRMAR]` → CERTO `[A CONFIRMAR: nº de mulheres atendidas]`. | |
+| **Anti-IA (HARD)** | zero travessão "," em QUALQUER lugar da copy (a exceção é SÓ aspa literal do cliente) · **inclusive DENTRO de `[A CONFIRMAR]`** (usa dois-pontos, nunca hífen longo: `[A CONFIRMAR: nº]`, jamais `[nº , A CONFIRMAR]`) · **inclusive travessão de atribuição de depoimento** (`"frase." , [autor]` conta como em-dash: usa aspas + o nome em linha/parêntese separado) · **inclusive travessão juntando duas orações** (`frase A , frase B`: vira dois períodos ou dois-pontos) · zero "emperrar/empacado/desemperrar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma"). **No chat (sem o lint), faz CTRL+F manual de "," e da família "emperrar" antes de marcar ✓, e o CTRL+F conta marcador, atribuição e junção de orações, não só o em-dash "solto".** Não canta "zero ocorrências" sem ter varrido esses 3 focos: eles são onde o "," mais nasce. No Code, roda `python3 scripts/lint_copy.py`.<br>**Exemplos de FALHA (o que o CTRL+F tem que pegar):** ERRADO `Próxima sessão começa em 12 min , ou escolha um horário de hoje` → CERTO `Próxima sessão começa em 12 min. Ou escolha um horário de hoje.` · ERRADO `"...sem colocar absorvente." , [aluna]` → CERTO `"...sem colocar absorvente." (aluna, cidade)` · ERRADO `[nº de mulheres atendidas , A CONFIRMAR]` → CERTO `[A CONFIRMAR: nº de mulheres atendidas]`. | |
 | **Coerência de formato** | página de **ao vivo** tem data fixa real + contagem real até a data; página de **perpétuo** NÃO tem data fixa, usa horário relativo/recurring + link único. Misturou (data fixa no perpétuo, "12 min" num evento de 3 dias) = ✗ | |
 | **Lei 5, admite-não-inventa** | todo furo de insumo (número, case, fala, oferta, vagas, preço) está marcado `[A CONFIRMAR: o que falta]` no lugar exato (dois-pontos, ZERO travessão dentro do marcador), NUNCA preenchido com algo plausível; nenhum dado parece real sem fonte | |
 | **Lei 6, doc enxuto pros 2 leitores** | a saída é só a página colável: blocos + `[A CONFIRMAR: o que falta]` + rótulos mínimos. Zero meta-narração, zero bastidor/racional, zero explicação-do-método-pro-leitor, zero repetição. Serve humano que cola E IA que recebe como contexto | |
@@ -313,8 +332,8 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 | Bullets entregando o passo a passo | Troca por resultado/função (cada bullet num D); o COMO fica dentro do produto |
 | Apagou a linha anti-milagre do contra-filtro | Recoloca: é a peça universal que não se troca por nicho |
 | Inventou número de prova / case "plausível" | Só prova REAL; sem fonte vira `[A CONFIRMAR: o que falta]` (dois-pontos, nunca travessão) e não conta como ancorado |
-| Travessão dentro do marcador (`[... — A CONFIRMAR]`) | É em-dash proibido no gate anti-IA; reescreve `[A CONFIRMAR: o que falta]` com dois-pontos |
-| Depoimento atribuído com travessão (`"frase." — [aluna]`) | Aspas + linha separada pro nome: `"frase." (aluna, cidade)`; travessão de atribuição = ✗ no gate |
+| Travessão dentro do marcador (`[... , A CONFIRMAR]`) | É em-dash proibido no gate anti-IA; reescreve `[A CONFIRMAR: o que falta]` com dois-pontos |
+| Depoimento atribuído com travessão (`"frase." , [aluna]`) | Aspas + linha separada pro nome: `"frase." (aluna, cidade)`; travessão de atribuição = ✗ no gate |
 | Vitrine "mais horário converte mais" | EverWebinar (2) e WebinarKit (4) convertem igual; escolhe pela ferramenta |
 | Investiu design/automação antes de validar | Página rústica (Notion/Carrd) ou `wa.me`-direto na validação; só investe depois de provar conversão |
 | A/B com anúncio e página de mecanismos diferentes | A/B só dentro do MESMO mecanismo, 200 leads/variante antes de decidir |
@@ -331,3 +350,244 @@ Se os indicadores estão muito abaixo disso, o furo quase sempre está numa **pe
 - `shared-references/filtro-anti-ia/`: padrões banidos + reescrita do anti-IA HARD (Passo 6).
 - `shared-references/filtro-mobile-first/`: checklist mobile-first item a item, quando a página vira visual (Passo 4).
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy de cada página como cinto extra do anti-IA. No chat não roda, por isso o CTRL+F manual do gate.
+
+
+---
+
+## 🧲 PÁGINA DE CAPTURA , cânone (Marco Enes aula 17, injetado 16/07/2026)
+
+**Fórmula da headline (funciona sempre):**
+> "Aula online, como usar `[MECANISMO ÚNICO]` para conseguir `[OBJETIVO FINAL]`, mesmo sem `[PRINCIPAL OBJEÇÃO]`" *(opcional: "em `[tempo]`")*.
+
+Exemplos do Enes: "Nova estratégia SNIPER pra conseguir emprego em 2025 mesmo sem ser o melhor candidato" · "Como fazer o robô do LinkedIn encontrar o emprego ideal pra você".
+
+**Subhead (opcional):** "Saiba o que ajustar HOJE mesmo no seu `[X]` pra `[resultado]`" , dá senso de urgência. Se tem prova social forte, entra aqui ("já recolocou 1.000+ profissionais").
+
+**Bullets (4-6, formato 3D , Dor, Desejo, Dúvida):** cada bullet ataca UM dos 3D do avatar, alternando. Exemplos: "Como ser chamado pra entrevista mesmo sem todas as qualificações" (objeção) · "O que falar pro recrutador pra não perder pra jovens" (dúvida) · "Como transformar currículo comum em supercurrículo com 3 ajustes" (desejo) · "Como responder a pergunta mais importante da entrevista mesmo sendo introvertido" (dúvida+objeção).
+
+**Escala por múltiplos mecanismos:** o MESMO webinar aceita 3-5 páginas de captura com mecanismos únicos diferentes ("SNIPER", "robô LinkedIn", "fura-fila"). Cada mecanismo abre uma nova frente de tráfego e ideias de criativo. Quando um mecanismo satura, sobe outro. Teste A/B só dentro do MESMO mecanismo (senão não compara).
+
+---
+
+## 🎬 4ª PÁGINA , VSL PARALELA (Marco Enes aula 20, injetado 16/07/2026)
+
+Além das 3 padrão (captura / obrigado / reprise), toda operação de webinar TEM uma **página de vendas pública do produto** (VSL) , vale 6-10% de venda extra vindo de quem assiste o webinar e pesquisa depois.
+
+Regras: (1) vídeo dessa página **NÃO é o webinar gravado** , fica estranho pra quem já assistiu; é uma VSL com MESMA estrutura de copy, gravação diferente; (2) o bônus surpresa fica EXCLUSIVO do webinar, não entra na VSL; (3) player com bloqueio de avanço (VTurb); (4) estrutura padrão: vídeo + oferta + depoimentos + garantia + FAQ + preço. Serve também pra tráfego direto, e-mail broadcast, campanhas meteóricas.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-webinar-paginas
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"que página do funil de webinar você quer agora?
+ (a) inscrição (captura pra assistir)
+ (b) confirmação/obrigado (pós-inscrição)
+ (c) sala/aula (onde o vídeo roda)
+ (d) oferta/vendas (pós-aula, checkout)
+ (e) replay (recupera quem faltou)
+ (f) todas de uma vez (kit completo)"
+
+Grava state.pagina. (f) roda as 5 em sequência preservando
+consistência (mesma voz, mesmo mecanismo, mesma promessa).
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (Oferta, PUV, Mecanismo, Voz)
+- Roteiro do webinar já pronto (soft-webinar-plano)
+- Big idea + Tese-mãe formuladas
+- Verbatim do avatar (dores + desejos com N)
+- Cases + prints reais
+- Ticket + garantia + bônus definidos
+- Ferramenta escolhida (WebinarKit/Zoom/próprio)
+- Páginas antigas rodando (pra modelar)
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES (por página; se M0=f roda o loop 5 vezes)
+
+F1. BRIEFING DA PÁGINA, objetivo específico + destino do CTA
+    + temperatura do tráfego que chega.
+
+F2. OUTLINE, blocos da página (hero, contadora, prova, oferta,
+    FAQ, CTA final). Preview aqui.
+
+F3. ESCRITA BLOCO A BLOCO, UMA pergunta por bloco. 2-3 opções
+    cruzando com verbatim + tese-mãe. Preview a cada 5.
+
+F4. CONSISTÊNCIA DO FUNIL, quando roda kit completo, checa
+    que a MESMA promessa aparece nas 5 páginas com escadas
+    diferentes (não muda a tese entre elas).
+
+F5. GATE INTERNO + soft-critico-copy na página de vendas.
+
+F6. ENTREGA Google Doc com cada página bloco a bloco + destino
+    de CTA + observação de embed do vídeo.
+
+State: /tmp/soft-webinar-paginas-<slug>-<epoch>.json
+

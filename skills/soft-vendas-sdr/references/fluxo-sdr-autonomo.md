@@ -8,6 +8,8 @@ O SDR é notificado pelo CRM quando chega mensagem nova do lead (webhook `Inboun
 
 Ao acordar, o SDR tem: `contactId`, `conversationId`, o texto da mensagem, o canal (WhatsApp/SMS/IG).
 
+**Debounce de 8s:** a 1ª mensagem chega e o SDR espera 8 segundos antes de processar. Se o mesmo lead manda mensagem nova nesse intervalo, a janela reinicia. Quando fecha sem mensagem nova, todas as mensagens da rajada viram um turno único (detalhe em `../SKILL.md` § Debounce). Isso evita responder a cada fragmento de uma ideia que o lead ainda está digitando.
+
 ## 1. Contexto antes de responder (NUNCA responde no vazio)
 
 Antes de qualquer resposta, o SDR **lê o estado**, igual um humano abriria a conversa:

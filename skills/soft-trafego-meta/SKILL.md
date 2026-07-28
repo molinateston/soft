@@ -3,6 +3,25 @@ name: soft-trafego-meta
 description: 'A MÃO que EXECUTA NA CONTA Meta (Facebook/Instagram), cria/sobe campanha ODAX, sobe criativo, lê a métrica DA CONTA, escala ou pausa, publica post + liga a automação comentário-para-DM (comment-to-DM), na conta do próprio dono. Âncora, OPERAR a conta = soft-trafego-meta; a DECISÃO de verba e do-que-turbinar (50/30/20, régua, diagnóstico) é da soft-conteudo-impulsionar, o gate de entrada desta skill. Tool-adaptive: com a pipeboard (motor Meta Ads) EXECUTA via as tools reais; sem ela entrega o plano pronto pra colar no Gerenciador. Use quando o pedido for "sobe/cria/ativa a campanha", "publica o carrossel no Instagram", "liga o comment-to-DM", "puxa as métricas da conta", "pausa/escala a campanha", "conecta minha conta". NÃO use pra DECIDIR verba, o que turbinar, distribuição ou diagnóstico de retorno (soft-conteudo-impulsionar), pra a COPY/CTA do anúncio (soft-conteudo-headlines/-carrossel/-reels), pra a ARTE (soft-designer), nem pra lançamento com evento/ingresso (soft-launch).'
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # Tráfego Meta, a mão que executa na plataforma (a cabeça é a impulsionar)
 
 Esta skill NÃO decide estratégia. Ela EXECUTA na conta de anúncios do dono o que a `soft-conteudo-impulsionar` já decidiu: cria a campanha, sobe o criativo, lê a métrica, escala ou pausa. E faz o outro par de mãos: **publica o post** (carrossel/imagem/reel) no Instagram e **liga a automação comentário-para-DM**. Toda operação gasta ou pode gastar dinheiro real, então a regra-mãe é uma: **nada entra no ar sem OK explícito do dono, toda campanha nasce PAUSED.**
@@ -199,3 +218,10 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 - `references/motor-pipeboard.md`: as duas trilhas de conexão da pipeboard (A remote `meta-ads.mcp.pipeboard.co` com token, setup 2-min pro teste × B self-host BSL com Meta Developer App próprio pro produto), a auth de cada, o mapa das tools reais expostas (`create_campaign`/`create_adset`/`upload_ad_image`/`create_ad_creative`/`create_ad`/`get_insights`/`search_*`) e a licença BSL 1.1. **Fonte da verdade do motor de execução.**
 - `references/meta-api.md`: a Marketing API direta (endpoints + credenciais da casa) como caminho de execução real equivalente ao self-host, a estrutura oficial da campanha, os workflows canônicos (auditoria, criar SALES, não-entrega) e os anti-patterns técnicos da API. **Profundidade da via por token.**
 - `references/publicacao-e-automacao.md`: a publicação de post no `graph.instagram.com` (containers → carrossel → publish) e a automação comment-to-DM (campos, `quick_reply` vs `web_url`, Private Reply, os gotchas de hospedagem/cache/token). **Dirigida no Passo 3.**
+
+
+## GATE OBRIGATORIO soft-critico-copy
+
+Antes de entregar QUALQUER linha de copy publica que sai desta skill (headline, hook, corpo, CTA, script, roteiro, legenda, e-mail, mensagem, pagina), a copy passa por soft-critico-copy: 4 filtros na ordem (CUB, Estrutura-mae, Anti-IA, Verbatim). Se reprova em qualquer um, reescreve e reroda ate zero falha dura.
+
+Rodar: `python3 ~/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>`

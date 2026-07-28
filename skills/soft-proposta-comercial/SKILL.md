@@ -1,7 +1,26 @@
 ---
 name: soft-proposta-comercial
-description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premium: um site HTML estático single-file (abas, diagnóstico, entregáveis com checkbox persistente, cronograma/Gantt, investimento, prova social, CTA), publicado num link único e privado por cliente. Pipeline em 4 etapas (transcrição → extração das informações-chave → geração do HTML no Layout Soft → publicação no Cloudflare Pages). Marca-neutra: cor, fontes, logo e prova social vêm do DONO. Use quando o dono fechar/conduzir uma call e precisar ENTREGAR a proposta em formato premium, pedir 'monta a proposta', 'proposta comercial', 'proposta de venda em HTML', 'site de proposta', 'orçamento premium', 'plano pro cliente', ou quiser fugir do PDF travado com um link próprio. NÃO use para página de vendas PÚBLICA / landing / VSL (soft-funil-landing), nem para o script/objeção/fechamento da venda em si (soft-vendas-closer), nem para contrato (soft-contratos-consultoria)."
+description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premium: um site HTML estático single-file (abas, diagnóstico, entregáveis com checkbox persistente, cronograma/Gantt, investimento, prova social, CTA), publicado num link único e privado por cliente. Pipeline em 4 etapas (transcrição → extração das informações-chave → geração do HTML no Layout Soft → publicação no Cloudflare Pages). Marca-neutra: cor, fontes, logo e prova social vêm do DONO. Use quando o dono fechar/conduzir uma call e precisar ENTREGAR a proposta em formato premium, pedir 'monta a proposta', 'proposta comercial', 'proposta de venda em HTML', 'site de proposta', 'orçamento premium', 'plano pro cliente', ou quiser fugir do PDF empacado com um link próprio. NÃO use para página de vendas PÚBLICA / landing / VSL (soft-funil-landing), nem para o script/objeção/fechamento da venda em si (soft-vendas-closer), nem para contrato (soft-contratos-consultoria)."
 ---
+
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
 
 **Papel:** skill operacional de pós-call do método Soft. Entra DEPOIS que a venda foi conduzida (o script, a objeção e o fechamento são da `soft-vendas-closer`) e DEPOIS que a oferta existe (a oferta, a PUV e a prova vêm da `soft-plano-posicionamento`). Pega a call gravada e devolve a proposta materializada num site premium com link próprio e privado por cliente, o "vendedor silencioso" que o prospect reabre quando vai decidir. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém; cor accent, fontes, logo e prova social são do DONO (puxados da Fundação dele). Método completo e autossuficiente: `references/reference.md` (LER antes de executar).
 
@@ -14,13 +33,13 @@ description: "Transforma uma call de venda gravada numa PROPOSTA COMERCIAL premi
 
 ### ⛔ SCRUB DE TRAVESSÃO (obrigatório, vale pra TODA peça)
 
-Zero travessão não é rótulo, é passo. O travessão (o em-dash "—" e o traço-longo "–") é o marcador nº1 de texto de IA e sai até no doc de extração se você não caçar. **ANTES de mostrar qualquer peça (extração, HTML, mensagem de envio, comentário CSS), rode um find de "—" e de "–" no texto inteiro e troque cada um.** Nenhuma peça sai com travessão. Como reescrever, caso a caso:
+Zero travessão não é rótulo, é passo. O travessão (o em-dash "," e o traço-longo "–") é o marcador nº1 de texto de IA e sai até no doc de extração se você não caçar. **ANTES de mostrar qualquer peça (extração, HTML, mensagem de envio, comentário CSS), rode um find de "," e de "–" no texto inteiro e troque cada um.** Nenhuma peça sai com travessão. Como reescrever, caso a caso:
 
-- Aposto vira vírgula: `Dra. Priscila Andrade — OdontoVita` vira `Dra. Priscila Andrade, da OdontoVita`.
-- Explicação vira ponto ou vírgula: `números da Camila — nunca atribuir ao cliente` vira `números da Camila. Nunca atribuir ao cliente`.
-- Contagem vira "de" ou parênteses: `14 pessoas — 6 dentistas` vira `14 pessoas, sendo 6 dentistas`.
-- Tag/etiqueta vira parênteses ou dois-pontos: `[UPSELL — ideia da Camila]` vira `[UPSELL (ideia da Camila)]`.
-- Comentário de código vira dois-pontos: `/* azul-petróleo — cor da marca */` vira `/* azul-petróleo: cor da marca */`.
+- Aposto vira vírgula: `Dra. Priscila Andrade , OdontoVita` vira `Dra. Priscila Andrade, da OdontoVita`.
+- Explicação vira ponto ou vírgula: `números da Camila , nunca atribuir ao cliente` vira `números da Camila. Nunca atribuir ao cliente`.
+- Contagem vira "de" ou parênteses: `14 pessoas , 6 dentistas` vira `14 pessoas, sendo 6 dentistas`.
+- Tag/etiqueta vira parênteses ou dois-pontos: `[UPSELL , ideia da Camila]` vira `[UPSELL (ideia da Camila)]`.
+- Comentário de código vira dois-pontos: `/* azul-petróleo , cor da marca */` vira `/* azul-petróleo: cor da marca */`.
 
 Se o find achar QUALQUER travessão, corrigir e rodar o find de novo até dar zero. Só então a peça sai.
 
@@ -119,12 +138,12 @@ A publicação no Cloudflare Pages é passo do Claude Code (com o token do dono 
 
 Uma proposta comercial premium, entregue como **site HTML estático single-file** (zero build, CSS+JS inline, funciona offline), com link **único e privado** por cliente:
 
-- **Diagnóstico extraído da call** — 12 campos-chave (nicho, produtos/ticket, dor central, objetivo de 12 meses, o que o cliente pediu × o que foi sugerido, preço, reação, próximos passos…), validado com o dono ANTES do HTML. Regra de ouro: **nunca atribuir fala/número do dono ao cliente**; separar o que o cliente quer do que foi só sugerido (upsell); tangibilizar tudo; precificar o valor de mercado de qualquer app/SaaS no escopo.
-- **Layout Soft** — template premium em 2 gerações (Dark Premium / Light Corporate), dirigido por variáveis de CSS (cada cliente escolhe a própria paleta/ID), com ~15 componentes prontos: hero com métricas-âncora, diagnóstico two-column, pilares, **entregáveis com checkbox persistente + barra de progresso**, cronograma/Gantt, investimento two-column, prova social, CTA + FAQ.
-- **Estrutura de conteúdo** — abas obrigatórias (Visão Geral → personalizadas → Entregáveis → Plano de Ação → Investimento) + variações da última aba por tipo de proposta.
-- **Apresentação da oferta** — 2 a 3 opções (nunca uma só), validade de 7 dias, ancoragem por custo evitado/ROI. Os VALORES são do dono (`soft-plano-posicionamento`); a skill formata, não define preço.
-- **Publicação** — Cloudflare Pages (o mesmo fluxo de deploy que o dono já usa), com slug privado não-adivinhável, SSL e teste mobile.
-- **Checklist de qualidade + erros históricos** — guardrails de conteúdo, visual, técnico e entrega.
+- **Diagnóstico extraído da call** , 12 campos-chave (nicho, produtos/ticket, dor central, objetivo de 12 meses, o que o cliente pediu × o que foi sugerido, preço, reação, próximos passos…), validado com o dono ANTES do HTML. Regra de ouro: **nunca atribuir fala/número do dono ao cliente**; separar o que o cliente quer do que foi só sugerido (upsell); tangibilizar tudo; precificar o valor de mercado de qualquer app/SaaS no escopo.
+- **Layout Soft** , template premium em 2 gerações (Dark Premium / Light Corporate), dirigido por variáveis de CSS (cada cliente escolhe a própria paleta/ID), com ~15 componentes prontos: hero com métricas-âncora, diagnóstico two-column, pilares, **entregáveis com checkbox persistente + barra de progresso**, cronograma/Gantt, investimento two-column, prova social, CTA + FAQ.
+- **Estrutura de conteúdo** , abas obrigatórias (Visão Geral → personalizadas → Entregáveis → Plano de Ação → Investimento) + variações da última aba por tipo de proposta.
+- **Apresentação da oferta** , 2 a 3 opções (nunca uma só), validade de 7 dias, ancoragem por custo evitado/ROI. Os VALORES são do dono (`soft-plano-posicionamento`); a skill formata, não define preço.
+- **Publicação** , Cloudflare Pages (o mesmo fluxo de deploy que o dono já usa), com slug privado não-adivinhável, SSL e teste mobile.
+- **Checklist de qualidade + erros históricos** , guardrails de conteúdo, visual, técnico e entrega.
 
 **Filtros obrigatórios:** toda a copy passa pelo filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7): PT-BR com acentuação completa, **zero travessões**, sinal de IA mal calibrada; o visual segue a ID do dono na `soft-designer`; a prova social usa só números REAIS e verificáveis do dono (nunca inventar, nunca usar número de terceiro).
 
@@ -132,8 +151,8 @@ Uma proposta comercial premium, entregue como **site HTML estático single-file*
 
 ## COMO RODAR (resumo)
 
-1. **Onboarding (1ª vez):** confirmar o token de publicação do dono (Cloudflare Pages) e a ID visual dele (puxar da `soft-designer`/`soft-plano-posicionamento`). Guardar na config do dono — nunca hardcodar.
-2. **Pipeline (4 etapas)** — seguir `references/reference.md`: transcrever a call → extrair os 12 campos e validar com o dono → gerar o HTML no Layout Soft com a ID/oferta do dono → publicar no link privado.
+1. **Onboarding (1ª vez):** confirmar o token de publicação do dono (Cloudflare Pages) e a ID visual dele (puxar da `soft-designer`/`soft-plano-posicionamento`). Guardar na config do dono , nunca hardcodar.
+2. **Pipeline (4 etapas)** , seguir `references/reference.md`: transcrever a call → extrair os 12 campos e validar com o dono → gerar o HTML no Layout Soft com a ID/oferta do dono → publicar no link privado.
 3. **Antes de entregar:** rodar o checklist de qualidade (seção 9) e o filtro anti-IA embutido (as REGRAS INVIOLÁVEIS de conteúdo em `references/reference.md`, seção 7).
 
 > Regra-mãe: a proposta só é boa se a EXTRAÇÃO for boa. A maior parte do tempo é entender a call, não montar o HTML.
@@ -160,3 +179,199 @@ No agente/Telegram: tem Bash, então roda o pipeline e publica igual ao Claude C
 - Apresentar opção única de investimento (sempre 2 a 3).
 - Meter travessão, deixar palavra sem acento, ou copiar o exemplo ilustrativo em vez de modelar a qualidade dele.
 - Hardcodar o token de publicação do dono no HTML ou na skill; entregar link sem HTTPS/cadeado.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+## GATE OBRIGATORIO soft-critico-copy
+
+Antes de entregar QUALQUER linha de copy publica que sai desta skill (headline, hook, corpo, CTA, script, roteiro, legenda, e-mail, mensagem, pagina), a copy passa por soft-critico-copy: 4 filtros na ordem (CUB, Estrutura-mae, Anti-IA, Verbatim). Se reprova em qualquer um, reescreve e reroda ate zero falha dura.
+
+Rodar: `python3 ~/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>`
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-proposta-comercial
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"que proposta você quer montar agora?
+ (a) proposta 1:1 pra cliente específico (personalizada)
+ (b) template reutilizável (padrão pro time usar)
+ (c) reengenhar proposta antiga que não fechou
+ (d) só a parte de precificação/escopo (a proposta em si já
+     existe, falta cravar valor)
+ (e) proposta de continuidade/renovação de cliente atual"
+
+Grava state.sub_caso.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (Oferta, PUV, Mecanismo, Voz)
+- Diagnóstico do cliente (dor nomeada, contexto, restrições)
+- Cases reais em nicho parecido
+- Ticket + garantia + escopo canônico
+- Proposta anterior rodando (pra modelar)
+- Reunião de diagnóstico já feita (áudio/transcrição/notas)
+- Verbatim do cliente (o que ELE falou)
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES
+
+F1. BRIEFING, quem é o cliente, qual o problema em 1 linha,
+    canal de entrega da proposta (Doc/PDF/reunião), prazo.
+
+F2. LEITURA DO PROBLEMA, devolve em 3-5 bullets o que ouviu
+    do cliente na LINGUAGEM DELE (verbatim). Cliente se sente
+    lido antes de ver preço.
+
+F3. DIAGNÓSTICO EM 1 FRASE, a causa-raiz que só você enxerga.
+    Mecanismo do problema.
+
+F4. CAMINHO PROPOSTO, o mecanismo da solução (não o método
+    técnico, o mecanismo do resultado). 3-5 etapas nomeadas.
+
+F5. ESCOPO, o que entrega, com que ritmo, o que NÃO entrega
+    (recorte explícito).
+
+F6. INVESTIMENTO, âncora → valor → forma de pagamento →
+    garantia → prazo de validade da proposta.
+
+F7. PRÓXIMO PASSO, 1 ação clara (assinar, marcar call, Pix).
+
+F8. GATE INTERNO + soft-critico-copy nas partes de venda
+    (leitura, diagnóstico, caminho, investimento).
+
+F9. ENTREGA Google Doc com proposta bloco a bloco em tom Soft
+    (clínico, sem convencer, sem enfeite).
+
+State: /tmp/soft-proposta-comercial-<slug>-<epoch>.json
+

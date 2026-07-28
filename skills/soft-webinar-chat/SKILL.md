@@ -3,6 +3,25 @@ name: soft-webinar-chat
 description: "Gera e audita o CHAT do webinar Soft nos 2 modos. PERPÉTUO: o chat SIMULADO que a plataforma injeta no gravado por timestamp, no formato de import EverWebinar/WebinarKit (4 colunas username,message,minutes,seconds), com a regra-mãe simula a SALA nunca a PROVA, compra só DEPOIS do link, zero saudação de hora do dia, respaldo de todo nome/comando que o host ecoa, a taxonomia de tipos, a curva de densidade e as 2 linhas de tempo (vídeo = roteiro + offset da sala de espera). AO VIVO: o guia de moderação do chat real (escada de micro-compromissos, eco nominal, reason-why, perguntas-isca, placar de vendas). Roda o gate por dentro: o comentário é copy que o lead LÊ. Use quando o pedido for chat do webinar, comentários simulados, chat ao vivo, simular a sala, planilha de chat do perpétuo, import EverWebinar/WebinarKit, moderar o chat, placar de vendas. NÃO use pro roteiro/aula/oferta (soft-webinar-script), nem pra subir/operar o perpétuo, tags, CRM, ROAS, pós-webinar (soft-webinar-plano/soft-vendas-closer)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # O chat do webinar Soft: a sala viva (simulada no perpétuo, moderada no ao vivo)
 
 O chat não é acessório, é o sistema operacional do webinar: termômetro E motor. Cada coisa que a sala digita é um micro-sim público que torna o sim final (a compra) coerente com o histórico que a própria pessoa escreveu. No **ao vivo** a sala digita de verdade e o host conduz; no **perpétuo** gravado a sala não pode digitar pro vídeo (ele já aconteceu) e o host não responde, então a plataforma injeta um chat roteirizado por timestamp pra reproduzir uma sala viva. Esta skill produz as duas coisas: o **chat simulado** do perpétuo (a planilha de import) e o **guia de moderação** do chat ao vivo.
@@ -174,3 +193,196 @@ Depois de montar o guia, vai pro **Gate de saída** e entrega.
 
 - **Eco do host sem comentário de respaldo** (o erro nº 1) · **comando sem rajada** · **comentário que antecipa o roteiro** · **inventar prova/escassez** · **compra antes do link** · **saudação com hora do dia** ou marca que data a gravação · **chat poluindo o ensino** · **sala robótica** (todos no mesmo segundo, nomes repetidos, zero typo, só capitais do Sudeste) · **hater no momento errado** · **volume incoerente com N** · **formato chutado** · **tom de host na boca do público**.
 - **No ao vivo:** pedir interação sem reason-why ("comenta aí!"), pedir e ignorar, interação de custo alto cedo demais, **ler nome falso ou simular chat vivo**, deixar o chat pautar a aula, decalcar bordão com dono.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+## GATE OBRIGATORIO soft-critico-copy
+
+Antes de entregar QUALQUER linha de copy publica que sai desta skill (headline, hook, corpo, CTA, script, roteiro, legenda, e-mail, mensagem, pagina), a copy passa por soft-critico-copy: 4 filtros na ordem (CUB, Estrutura-mae, Anti-IA, Verbatim). Se reprova em qualquer um, reescreve e reroda ate zero falha dura.
+
+Rodar: `python3 ~/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>`
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-webinar-chat
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"o que você quer agora pro chat/atendimento do webinar?
+ (a) script de moderação (mensagens fixas + gatilhos durante a aula)
+ (b) plantão pós-aula (respostas prontas de objeção + fechamento)
+ (c) copiloto ao vivo (você está moderando/vendendo AGORA)
+ (d) banco de respostas rápidas (biblioteca do time)
+ (e) fluxo de bot/WhatsApp pra rodar sozinho"
+
+Grava state.sub_caso. (c) é modo operacional na hora, sem doc.
+Os outros geram doc.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (Oferta, PUV, Mecanismo, Voz)
+- Roteiro do webinar pronto (soft-webinar-plano)
+- Oferta + garantia + bônus + link de checkout
+- Banco de objeções mapeado
+- Cases + prints pra usar em resposta
+- Ferramenta do chat (WebinarKit/Zoom/WhatsApp/Discord)
+- Time de moderação (quantas pessoas)
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES
+
+F1. BRIEFING, ferramenta, tamanho do time, momento da jornada
+    (durante aula vs pós), volume esperado.
+
+F2. MAPA DE MOMENTOS, os pontos-chave do webinar em que o chat
+    precisa de mensagem (abertura, quebra de objeção, PUV,
+    preço, garantia, fechamento).
+
+F3. ESCRITA MENSAGEM A MENSAGEM, UMA pergunta por bloco quando
+    precisa de insumo. 2-3 opções por mensagem cruzando com
+    verbatim. Preview a cada 5.
+
+F4. RESPOSTAS DE OBJEÇÃO, pega top 8-12 objeções e escreve
+    resposta pronta com tom Soft (clínico, sem convencer).
+
+F5. GATE INTERNO + soft-critico-copy nas mensagens de venda.
+
+F6. ENTREGA Google Doc com biblioteca de mensagens indexada por
+    momento + tabela de objeções + fluxograma se for bot.
+
+Sub-caso (c) copiloto ao vivo:
+F1. Print/mensagem do lead.
+F2. Diagnóstico 1 linha + resposta pronta em bloco copiável.
+F3. 2 caminhos esperados. Sem doc, resposta direta.
+
+State: /tmp/soft-webinar-chat-<slug>-<epoch>.json
+

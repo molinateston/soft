@@ -3,6 +3,25 @@ name: soft-funil-landing
 description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar-paginas), posicionamento (soft-plano-posicionamento), arte (soft-designer), venda (soft-vendas-closer), webinário."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar).
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta , é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # Landing page, a decisão inevitável pro cliente certo
 
 A página não convence. Ela organiza o argumento pra que o cliente certo chegue ao botão pensando "seria idiota não entrar agora". O cliente errado abandona antes do botão, e isso é sucesso. Página que convence todo mundo não converte ninguém. Página que filtra na entrada converte os certos no fundo.
@@ -150,7 +169,7 @@ Regras invioláveis enquanto escreve:
 - **Mobile-first:** cada bloco cabe em 1 tela de celular, legível, sem scroll lateral.
 - **Faca Soft:** descreve resultado e função, nunca entrega o passo a passo.
 - Estilo clínico: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket" na copy). **Não narra o fluxo** ("agora vou auditar"), entrega limpo.
-- **Nunca digite o travessão "—" na copy.** Enquanto escreve cada frase, use ponto ou vírgula no lugar; en-dash só em faixa numérica (10-20). Não é pra caçar o "—" depois: é pra ele não nascer. (O gate no Passo 5 é só a rede de segurança.)
+- **Nunca digite o travessão "," na copy.** Enquanto escreve cada frase, use ponto ou vírgula no lugar; en-dash só em faixa numérica (10-20). Não é pra caçar o "," depois: é pra ele não nascer. (O gate no Passo 5 é só a rede de segurança.)
 
 ## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com VEREDITO=PASSA vai pro cliente. Uma falha refaz o bloco. A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só o bloco limpo (Passo 6), jamais a tabela.
@@ -176,7 +195,7 @@ Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Form casa com temperatura** | a fricção do formulário é proporcional ao ticket, não acidental: 1 campo no frio/topo, multi-campo no qualificado. Passa se a fricção é deliberada | |
 | **Mecânica-assinatura presente** | quando o tipo tem mecânica própria, ela está implementada de fato (não só citada): gate-antes-do-resultado no quiz · Yes/No path no OTO · 3-tier com decoy no pricing · próximo-passo no obrigado/replay · escassez REAL com janela no replay/launch | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | zero travessão "," · zero "emperrar/empacado/desemperrar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, desemperra, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "," e da família "emperrar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 6, mostra e PARA
@@ -239,4 +258,239 @@ Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ati
 - `references/vsl-script.md`: o roteiro denso do VSL na página (fórmulas de hook, scripts-exemplo, anatomia de case no vídeo, checklist do VSL, durações por ticket). Abre no Passo 4, antes do bloco do vídeo.
 - `references/conducao-na-pratica.md`: o porquê e o como, congruência (a página repete a tese do Plano), minimalismo, o feed como entrada.
 - `references/render-e-deploy.md`: a camada RENDER/DEPLOY opcional, do `.md` de copy aprovado à página no ar. Mapa de temas por marca do cliente (marca-neutra), `base.css` único em tokens, tema-inverte-por-fase, componentes prontos (accordion nativo, player VSL autoplay+unmute, reveal-on-scroll), o runbook Cloudflare Pages (`wrangler pages deploy`, nunca Vercel), os anti-patterns de design e o ramo dos 3 ambientes. **Abre no Passo 7, só quando o cliente pede a página no ar.**
-- `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.
+- `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy como cinto extra do anti-IA (reprova em-dash e "emperrar"). No chat não roda, por isso o CTRL+F manual do gate.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-funil-landing
+============================================================
+
+M0. MODO, UMA pergunta abre o objetivo (nome amigável, nunca
+"tipo de página" na cara):
+"o que essa página precisa fazer AGORA?
+ (a) pegar e-mail/WhatsApp (captura)
+ (b) entregar a isca
+ (c) qualificar lead caro (aplicação)
+ (d) vender no texto (sales page)
+ (e) confirmar + avançar (obrigado)
+ (f) recuperar quem sumiu (replay)
+ (g) juntar fila (waitlist)
+ (h) registrar em evento
+ (i) aumentar ticket pós-compra (OTO)
+ (j) centralizar social (link-in-bio)
+ (k) mostrar planos (pricing)
+ (l) ajudar a comparar
+ (m) segmentar (quiz)
+ (n) outro (descreve)"
+
+Grava state.objetivo. O Passo 2 do corpo (Seletor por Objetivo)
+mapeia direto pro TIPO de página + framework de copy.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"marca com sim/não:
+
+- Plano de posicionamento (soft-plano-posicionamento rodado)
+- Falas reais do cliente (verbatim com N)
+- Prova real do autor (cases, prints, números documentáveis)
+- Ticket definido (valor exato ou faixa)
+- Destino do botão (WhatsApp/checkout/formulário) definido
+- Temperatura do tráfego identificada (frio/morno/quente)
+- Landing anterior rodando (pra modelar arquitetura)
+- Nada, começo do zero"
+
+Salva em state.pecas_prontas.
+
+
+FASES
+
+F1. ÂNCORA (Passo 0 do corpo), declara estado de entrada + puxa
+    falas de dor e desejo.
+
+F2. BRIEFING MÍNIMO (Passo 1), objetivo do funil (já veio de M0) +
+    produto, ticket, cliente ideal, método nomeado, prova real,
+    temperatura, destino do botão. Faltando algo crítico, UMA
+    pergunta.
+
+F3. SELETOR POR OBJETIVO (Passo 2), declara em 1 linha o TIPO +
+    framework raiz cruzando M0 com a tabela do corpo.
+
+F4. OUTLINE (blocos por tipo), devolve o outline dos blocos do
+    tipo escolhido (hero, prova, oferta, filtro, CTA…). Espera OK.
+    Preview aqui.
+
+F5. ESCRITA BLOCO A BLOCO, UMA pergunta por bloco quando precisa
+    de insumo. 2-3 opções por bloco cruzando com verbatim. Preview
+    a cada 5.
+
+F6. QUEBRAS VISUAIS + MOBILE-FIRST, callouts, separadores, botão
+    único (regra do Attention Ratio 1:1, salvo 404/link-in-bio/
+    comparação).
+
+F7. GATE INTERNO (Passo 5), auditoria silenciosa.
+
+F8. ENTREGA, Google Doc com a landing bloco a bloco + destino
+    explícito do CTA. Invoca soft-critico-copy no bloco de venda.
+
+State: /tmp/soft-funil-landing-<slug>-<epoch>.json
+

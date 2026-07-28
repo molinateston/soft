@@ -3,6 +3,25 @@ name: soft-funil-carta
 description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco APSD (Atenção-Problema-Solução-Decisão, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo-*; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas-closer)."
 ---
 
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar).
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta , é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
 # Carta de vendas, o ativo que aquece antes da conversa
 
 A carta faz o trabalho que a reunião fazia. Lida em silêncio, no celular. Ela **filtra, explica e constrói desejo**, entrega o lead quente pro Comercial 1:1. Ela NÃO fecha a venda: high-ticket (3k+) fecha na conversa, a carta é o degrau 1 que aquece e qualifica. Carta que tenta fechar sozinha vira pitch e esfria o lead certo.
@@ -28,6 +47,8 @@ A carta faz o trabalho que a reunião fazia. Lida em silêncio, no celular. Ela 
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o path completo na resposta (vira anexo); a condução vai em mensagens curtas, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário; o doc vai como arquivo). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
+**🔴 O DOC NASCE NO PRIMEIRO TURNO E É O PREVIEW VIVO.** Antes da 1ª pergunta de condução, CRIA o arquivo `.md` do plano com o esqueleto INTEIRO preenchido com `[A CONFIRMAR]` em cada campo, e cita o path no primeiro turno. A partir daí, cada resposta do dono num STOP, você EDITA a seção correspondente do arquivo (troca o `[A CONFIRMAR]` por conteúdo real) e responde no chat SÓ *"atualizei a Seção X, olha o doc; ajusto?"*. **O `.md` é a FONTE DE VERDADE, não o chat:** o dono pode EDITAR direto o arquivo (VS Code, editor local, quem quiser), e no próximo turno você LÊ a versão atualizada dele antes de continuar (nunca sobrescreve edição do dono sem confirmar). NUNCA despeja seção montada no corpo da conversa "pra ele ver antes"; o lugar de ver é o doc. Chat = perguntas curtas + confirmações. Peça inteira despejada no chat = paredão que ninguém aproveita e reprova o output.
 
 ## Passo 0, ancora antes de escrever (NÃO PULE)
 Procura a fonte de fala real, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). A Atenção (primeira linha) nasce de uma delas, quase intacta, citando o N.
@@ -248,10 +269,10 @@ Antes do gate, confere os 5 movimentos de Blair Warren (Sonhos · Falhas · Medo
 | **Só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
 | **Teste único** | o cliente certo pensa "isso fala comigo" na primeira linha e "finalmente alguém que entende" no fim | |
 | **CTA com destino** | o convite aponta pra um lugar real (link do WhatsApp/conversa), não pro vácuo | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
+| **Anti-IA (HARD)** | zero travessão "," · zero "emperrar/empacado/desemperrar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, desemperra, transforma"). **No chat (sem o lint), faz CTRL+F manual de "," e da família "emperrar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
-No Claude Code, roda `python3 scripts/lint_copy.py` na peça como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual.
+No Claude Code, roda `python3 scripts/lint_copy.py` na peça como cinto extra do anti-IA (reprova em-dash e "emperrar"). No chat não roda, por isso o CTRL+F manual.
 
 ## Passo 6, mostra e PARA
 Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela de gate, sem meta. Adiciona o comentário de publicação (como colar no Notion e configurar o link). Pergunta "essa te serve? ajusto?". **Espera o OK** antes de seguir pra próxima etapa ou variação. Não narra o fluxo ("agora vou diagramar"), só entrega limpo.
@@ -299,3 +320,235 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), no doc (artifact): sem tabela 
 - `references/tom-e-ritmo-desejo.md`: as 7 categorias de corte e a tabela-síntese de tom (auditoria frase a frase).
 - `references/conducao-na-pratica.md`: o jeito de conduzir (sem-call é posicionamento, minimalismo, carta-virou-site, congruência repete a tese, o feed é a entrada).
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na peça como cinto extra do anti-IA. No chat não roda, por isso o CTRL+F manual do gate.
+
+
+---
+
+## RÉGUA DE DIAGRAMAÇÃO obrigatória (18/07/2026)
+
+Todo doc/entregável que essa skill produz DEVE seguir `/home/cloud/.openclaw/brain/REGUA-DIAGRAMACAO-DOCS.md`:
+
+- Topo: rótulo pequeno + título grande + subtítulo + metadata `chave: valor`
+- Números ANTES da narrativa (seção "0" com tabela/KPI ancora tudo)
+- Numeração hierárquica (1, 2, 3.1, 3.2), divisa entre seções
+- Bloco padronizado que se repete em TODAS as seções
+- Bullet > parágrafo, com palavra-âncora em **negrito**
+- Callouts (azul/verde/amarelo/vermelho) 1 por seção no máximo
+- Comparação = 2 colunas paralelas · Fluxo = seta ↓ · KPI = cards
+- Aspas literais pra citação · badges pra marcar novidade
+- Fecha com checklist acionável (dono/prazo quando existe)
+- Zero gordura: NUNCA "vale destacar", "importante notar", "além disso", "por outro lado", "em suma", "conforme mencionado", "neste documento", "vamos explorar"
+- **Zero changelog** dentro do doc (não escreva "atualizei X, antes era Y")
+- **Zero meta-processo** ("pesquisei X, cruzei com Y")
+- 1 bloco = 1 tela de celular (Léo lê no Telegram)
+
+**Teste antes de entregar:** (1) topo bate no padrão? (2) número ancora antes da narrativa? (3) bloco padronizado repete? (4) callout ≤1 por seção? (5) checklist acionável no fim? (6) zero das palavras proibidas? Se sim nos 6 → entrega. Se não → reescreve.
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).
+
+
+============================================================
+MODO PIPELINE Q&A GUIADO RETOMÁVEL (mold soft-webinar-plano), 2026-07-23
+============================================================
+
+Esta skill agora OPERA em Q&A guiado retomável, no mesmo molde da
+soft-webinar-plano. O corpo acima é a FONTE DE MÉTODO (os frameworks,
+as tabelas, as fórmulas, os anti-patterns, os checks do gate). O
+pipeline abaixo é a EXPERIÊNCIA que conduz o dono pelo método,
+uma pergunta por vez, com preview e retomabilidade.
+
+Ordem sempre: (a) chega pedido, (b) roda M0 pra identificar sub-caso,
+(c) roda P0 pra importar o que já existe e pular perguntas cobertas,
+(d) roda as Fases numeradas, cada uma UMA pergunta por vez com 2-3
+opções cruzando com o método do corpo, (e) preview a cada 5 respostas,
+(f) fecha com o gate.
+
+
+REGRAS TRANSVERSAIS DURAS (valem em TODOS os blocos)
+
+1) UMA PERGUNTA POR VEZ. Nunca despejar 5 perguntas juntas. Nunca
+   continuar antes da resposta anterior.
+
+2) SUGERE 2-3 OPÇÕES depois das perguntas cruas. Nunca sugestão única
+   (vira empurrão). As opções vêm cruzando a resposta do dono com o
+   método do corpo acima. Ele escolhe, edita, ou pede mais.
+
+3) PREVIEW a cada 5 respostas. Bloco curto: "com o que você me deu
+   até agora, o esqueleto ta assim: [3-4 linhas]. seguimos?".
+
+4) ZERO DEFAULT DO DONO DO MÉTODO (Léo). Exemplos do produto do Léo
+   (Operação SOFT, Mesa de Operação, Call de Arquitetura) só entram
+   como REFERÊNCIA marcada "(exemplo, não copia)". Naming do dono da
+   skill é SEMPRE aberto: ele escolhe o nome. A skill NUNCA impõe.
+
+5) RETOMABILIDADE. A cada resposta o state cai em
+   /tmp/<skill>-<slug>-<epoch>.json. Se o dono chamar de novo (ou
+   sair e voltar), a skill lê o state mais recente e pergunta
+   "quer continuar de onde parou ou começar novo?".
+
+6) SAIR/PAUSAR SALVA. "sai", "pausa", "amanhã" → salva state, avisa
+   o path, encerra limpo.
+
+7) PULAR = "[A CONFIRMAR]". Se o dono digitar "pula" ou "depois", a
+   resposta vira [A CONFIRMAR - <bloco>] no state e o pacote final
+   marca esses pontos pra ele afinar.
+
+8) RESPOSTA RASA = REFAZ A PERGUNTA. Se o dono responde em 3 palavras
+   algo que precisa contexto, devolve UMA pergunta específica pra
+   abrir mais.
+
+9) ZERO INVENTAR DADO DO DONO. Preço, número, case, nome de cliente,
+   fala do avatar: se não respondeu, pergunta. Nunca chuta.
+
+10) NAMING USER-FRIENDLY. Nomes internos (canonico/high_ticket, tipo
+    A/B/C) nunca aparecem na cara do dono. Perguntar sempre pelo
+    resultado que ele quer.
+
+
+COMO OPERA (o loop)
+
+Passo 1 - CHECA state antigo
+   Lê /tmp/<skill>-*.json. Se encontrou, pergunta "vi um trabalho
+   de {data} sobre {tese}. continua ou começa novo?".
+
+Passo 2 - RODA a fase atual
+   Uma pergunta por vez. Salva resposta no state. Cruza com o método
+   do corpo. Devolve 2-3 sugestões. Dono escolhe ou edita.
+
+Passo 3 - PREVIEW a cada 5 respostas
+   Bloco curto de progresso.
+
+Passo 4 - AVANÇA pra próxima fase quando fecha a atual
+   Anuncia em uma linha: "beleza, agora vou pra {nome amigável}".
+
+Passo 5 - NA FASE DE GERAÇÃO
+   Monta o entregável usando o método do corpo (as fórmulas dos
+   blocos, o gate, os anti-patterns).
+
+Passo 6 - ENTREGA
+   Google Doc (via gog drive upload --convert) OU artefato específico
+   da skill + resumo curto + lista de [A CONFIRMAR] pendentes.
+
+
+ESTADO EM /tmp
+
+Arquivo: /tmp/<skill>-<slug>-<epoch>.json
+
+Formato mínimo:
+{
+  "skill": "<nome>",
+  "slug": "<slug curto>",
+  "epoch": <unix>,
+  "criado_em": "<ISO>",
+  "atualizado_em": "<ISO>",
+  "fase_atual": "M0|P0|F1|F2|...|Fn|entrega",
+  "sub_caso": "<valor de M0>",
+  "pecas_prontas": {},
+  "respostas": {},
+  "pendentes_a_confirmar": []
+}
+
+
+
+============================================================
+M0 / P0 / FASES, soft-funil-carta
+============================================================
+
+M0. MODO, UMA pergunta abre o sub-caso:
+"que formato desta carta você quer entregar pro seu lead?
+ (a) Mini-carta em texto, 4-7 min de leitura
+ (b) Carta média em texto
+ (c) Carta longa (sales letter completa)
+ (d) Roteiro de VSL/vídeo de vendas"
+
+Grava state.formato. Nunca dizer nomes técnicos (canonico/DR) na
+cara do dono. Se ele hesitar, o Passo 2-bis do corpo decide pela
+consciência × ticket × temperatura.
+
+
+P0. IMPORT DE PEÇAS PRONTAS, UMA pergunta com checklist:
+"antes de eu perguntar tudo do zero, me diz o que você já tem?
+marca com sim/não:
+
+- Plano de posicionamento (soft-plano-posicionamento rodado)
+- Verbatim/falas reais do avatar (dores + desejos com N)
+- 1-3 cases reais documentáveis (nome + número + prazo)
+- Oferta com PUV, garantia e ticket definidos
+- Mecanismo nomeado com 3-4 etapas
+- Carta/VSL antiga rodando que a gente possa modelar
+- Nada, começo do zero"
+
+Pra cada SIM: pede o input. Salva em state.pecas_prontas. Nas fases
+seguintes, as perguntas cobertas são PULADAS.
+
+
+FASES (mapeiam nos Passos do corpo)
+
+F1. ÂNCORA (Passo 0 do corpo), declara o estado de entrada em 1
+    linha (tem fala real com N / tem nicho zero fala / sem nada) +
+    puxa 3-5 falas de dor e 3-5 de desejo.
+
+F2. ESTRUTURA INVISÍVEL (Passo 0-bis), pergunta se tem carta/VSL
+    vencedora do nicho pra modelar SEQUÊNCIA. Se sim, marca frase a
+    frase QUAL elemento é + anota contagem. Se não, segue.
+
+F3. BRIEFING (Passo 1), cobre (a)-(f) obrigatórios em UMA mensagem
+    só. Se modo=longa também cobre (g) mecanismo do problema, (h)
+    reversão de risco + bônus, (i) urgência honesta.
+
+F4. FORMATO CARTA-TEXTO OU VSL (Passo 2), se M0 não decidiu, roda a
+    tabela por ticket.
+
+F5. CONSCIÊNCIA + COMPRIMENTO + LEAD (Passo 2-bis), a tabela
+    Schwartz decide abertura + comprimento; casa com o lead de
+    Masterson. Declara em 1 linha: "Consciência X → Lead Y →
+    Comprimento Z".
+
+F6. ESPINHA APSD (Passo 3), monta de trás pra frente. Cada bloco
+    da tabela de fórmulas vira UMA pergunta com 2-3 opções cruzando
+    com o método do corpo. Preview a cada 5.
+
+F7. DIAGRAMAÇÃO / VSL (Passo 4), carta-texto vira página com
+    quebras visuais, VSL vira roteiro em blocos com timings.
+
+F8. GATE INTERNO (Passo 5), roda o checklist do gate por dentro
+    (auditoria silenciosa). Um ✗ = refaz o trecho.
+
+F9. ENTREGA (Passo 6), mostra SÓ a peça limpa no doc. Invoca gate
+    soft-critico-copy no /tmp/copy-<slug>-<epoch>.txt. Loop máximo
+    3 iterações. Entrega Google Doc + resumo.
+
+State: /tmp/soft-funil-carta-<slug>-<epoch>.json
+
