@@ -196,7 +196,7 @@ def _self_test():
     reais = [
         'vender não é convencer, é conduzir',
         'educar não vende',
-        'eu gerenciei R$46 milhões, não faturei',
+        'eu gerenciei dezenas de milhões, não faturei',
         'O vilão não é você, é a fama que o funil ganhou.',
         'Porque vender não é ensinar, é fazer decidir.',
         'Funil que só vende pra seguidor não é funil, é plateia.',

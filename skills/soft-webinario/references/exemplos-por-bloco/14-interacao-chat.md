@@ -1,7 +1,7 @@
 # Interação com chat (TRANSVERSAL - escada de micro-compromissos, eco nominal, chat como termômetro e motor)
 
 > Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars Léo A/C; máquina 13M = a escola de gestão.
-> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito por Marcos Enes; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
+> Ressalva de atribuição: o "Webinar C" do corpus Léo tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito por um especialista de referência; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
 
 ---
 
@@ -17,7 +17,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 **Trecho literal:**
 
-> (censo da sala + apresentação cruzada) "coloca aqui nos comentários quem já me conhece, quem já conhece a Mind Master […] coloca aqui o o seu nome, a sua profissão, seu maior desafio ou o que que você veio buscar nessa aula, coloca aqui no chat pra gente ir se conhecendo. Enquanto você se apresenta eu vou me apresentar para essa galera nova"
+> (censo da sala + apresentação cruzada) "coloca aqui nos comentários quem já me conhece, quem já conhece a escola de gestão […] coloca aqui o o seu nome, a sua profissão, seu maior desafio ou o que que você veio buscar nessa aula, coloca aqui no chat pra gente ir se conhecendo. Enquanto você se apresenta eu vou me apresentar para essa galera nova"
 
 > (eco de nomes e profissões) "tô vendo aqui Janaína do governança corporativa, arian chefe de ti, e Renato gestor administrativo ipmp, olha só que legal […] e Ita infermeira, olha só que legal, Tem gente com qué lugar"
 

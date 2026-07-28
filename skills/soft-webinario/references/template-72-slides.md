@@ -267,7 +267,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
  - *EXEMPLO (gestão/curso, → bloco 09):* "qual é a grande promessa desse curso: **domine a gestão ágil 2.0 e se torne um líder valioso em qualquer área, em 90 dias** - esse é o meu compromisso." *Porquê:* o "90 dias" grifado lá na abertura (S5) reaparece literal aqui, a oferta fecha o loop, parece desfecho.
 
 - **S36: História do produto (plausibilidade).**
-  - *EXEMPLO (gestão/curso, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci o Denis, meu sócio… a gente fundou a Mind Master em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
+  - *EXEMPLO (gestão/curso, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci o Denis, meu sócio… a gente fundou a escola de gestão em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
 
 - **S37: "Por que isso é diferente de tudo que eu já vi?": mecanismo único DO PRODUTO.**
   - *Função:* mata a comparação e a commodity (M9). cap08/corpus: diferenciar contra a alternativa pelo DEFEITO dela.

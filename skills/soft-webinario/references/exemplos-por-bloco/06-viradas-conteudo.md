@@ -46,7 +46,7 @@ O 80/20 como mapa proprietário ("visão de floresta", da escola de gestão):
 
 Dica de carreira embutida (demanda de mercado = seeding do bônus OKR):
 
-> "dica para quem é profissional aí quer crescer na carreira: domina esse negócio aqui ó okr. cara aqui na Mind Master a nossa consultoria né a nossa unidade de consultoria o que a gente mais está sendo contratado hoje em dia para prestar consultoria é consultoria de okr"
+> "dica para quem é profissional aí quer crescer na carreira: domina esse negócio aqui ó okr. cara aqui na escola de gestão a nossa consultoria né a nossa unidade de consultoria o que a gente mais está sendo contratado hoje em dia para prestar consultoria é consultoria de okr"
 
 Recap acumulativo antes da transição:
 

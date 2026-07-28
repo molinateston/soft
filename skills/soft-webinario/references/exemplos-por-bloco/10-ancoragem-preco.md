@@ -36,7 +36,7 @@ Queda 2 (bônus do combinado, com reason-why = depoimento):
 
 Soma do stack (segunda âncora, interna):
 
-> "se você fosse comprar tudo isso aqui olha só: gestão ag 2.0 que custa 3.000, acompanhamento quinzenal 9.000, o okr 1997 né arredondando aqui 2000, o design f não tá invertido aqui design F 2000 e o okr 1497, somando tudo isso daria R 15.000, mais de R 15.000 você gastaria em formação profissional. e tá bom porque um mês de salário de gestor você paga isso tá, estaria justo pagar os R 15.000, mas cara isso isso aqui tá injusto com a Mind Master né, 12 de 165 por mês tá, tá de graça"
+> "se você fosse comprar tudo isso aqui olha só: gestão ag 2.0 que custa 3.000, acompanhamento quinzenal 9.000, o okr 1997 né arredondando aqui 2000, o design f não tá invertido aqui design F 2000 e o okr 1497, somando tudo isso daria R 15.000, mais de R 15.000 você gastaria em formação profissional. e tá bom porque um mês de salário de gestor você paga isso tá, estaria justo pagar os R 15.000, mas cara isso isso aqui tá injusto com a escola de gestão né, 12 de 165 por mês tá, tá de graça"
 
 Redução ao ridículo em 3 atos (iFood → diária → Coca-Cola, com fotos):
 
@@ -50,7 +50,7 @@ Elogio à audiência embutido na justificativa do preço:
 
 > "eu sei que aqui eu não tô falando com ninguém aqui que recebe bolsa família, com sei lá com pessoal carente. eu sei que vocês, eu sei pelo público da M massa né, é um público diferenciado, vocês são profissionais diferenciados, vocês são profissionais que estão almejando aqui cargos de gestão de liderança, vocês vão ganhar muito mais"
 
-**O que ele fez:** âncora externa (MBA R$15-20 mil, desqualificado como "encheção de linguiça") → valor de mercado próprio (R$3.000, já plantado no começo da aula) → queda 1 com reason-why (ficou até o final = R$1.997) → queda 2 com reason-why (combinado de depoimento = R$1.697) → parcela como preço real ("165 por mês") → âncora interna (stack somado R$15.000, "injusto com a Mind Master") → redução ao ridículo em três atos com prova fotográfica própria (print iFood R$165 = 1 jantar; ÷30 = R$5,51/dia; foto da Coca R$5,29) → elogio de identidade que constrange a objeção → ROI ancorado nos holerites mostrados minutos antes (17.850/23.000 CLT).
+**O que ele fez:** âncora externa (MBA R$15-20 mil, desqualificado como "encheção de linguiça") → valor de mercado próprio (R$3.000, já plantado no começo da aula) → queda 1 com reason-why (ficou até o final = R$1.997) → queda 2 com reason-why (combinado de depoimento = R$1.697) → parcela como preço real ("165 por mês") → âncora interna (stack somado R$15.000, "injusto com a escola de gestão") → redução ao ridículo em três atos com prova fotográfica própria (print iFood R$165 = 1 jantar; ÷30 = R$5,51/dia; foto da Coca R$5,29) → elogio de identidade que constrange a objeção → ROI ancorado nos holerites mostrados minutos antes (17.850/23.000 CLT).
 
 **Por que funciona:** quando chega o número final, ele já foi esmagado por quatro âncoras maiores e dissolvido em unidades triviais (jantar, refrigerante). A pergunta na cabeça da audiência deixa de ser "vale 1.697?" e vira "eu troco uma Coca por dia pela minha carreira?". E cada queda tem causa que preserva o valor - o produto nunca desvaloriza, só o acesso de quem está na sala fica privilegiado.
 

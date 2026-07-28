@@ -1,6 +1,6 @@
 # Perpétuo, a mecânica crua do Léo (destilado das calls)
 
-> A mecânica do perpétuo do jeito que o Léo faz, com os números e as falas literais dele. Complementa `perpetuo-vs-aovivo.md` (que tem as tabelas de métrica, as fases de produção e as plataformas). Aqui é o que falta: a sequência de ação validar-ao-vivo-antes-de-perpetuar, a mecânica de sala que ele usa, a métrica-rei (ROAS, e como otimizar o tráfego PRA VENDA), a escala horizontal de múltiplos webinars, o jogo avançado de zerar o ROAS quando o LTV paga, a tese da energia e a economia que decide POR QUE postergar o webinar. Sai de 4 calls reais (Guilherme 01/out, Hugo 04/nov, 10/nov, 18/nov) + a mentoria de webinário perpétuo que o Léo deu no Olympo. **Quando consultar:** antes de recomendar webinar a um player, na hora de planejar a validação, e quando for escalar/otimizar um perpétuo que já roda. Sente por cima do workflow do `perpetuo-vs-aovivo.md`.
+> A mecânica do perpétuo do jeito que o Léo faz, com os números e as falas literais dele. Complementa `perpetuo-vs-aovivo.md` (que tem as tabelas de métrica, as fases de produção e as plataformas). Aqui é o que falta: a sequência de ação validar-ao-vivo-antes-de-perpetuar, a mecânica de sala que ele usa, a métrica-rei (ROAS, e como otimizar o tráfego PRA VENDA), a escala horizontal de múltiplos webinars, o jogo avançado de zerar o ROAS quando o LTV paga, a tese da energia e a economia que decide POR QUE postergar o webinar. Sai de 4 calls reais (Guilherme 01/out, Hugo 04/nov, 10/nov, 18/nov) + a mentoria de webinário perpétuo que o Léo deu na mentoria de perpétuo. **Quando consultar:** antes de recomendar webinar a um player, na hora de planejar a validação, e quando for escalar/otimizar um perpétuo que já roda. Sente por cima do workflow do `perpetuo-vs-aovivo.md`.
 
 ## A coisa toda numa frase do Léo
 
@@ -97,9 +97,9 @@ Por que o CPL engana: um lead barato que não comparece e não compra é caro. U
 
 ### 3.1. Tráfego otimizado pra VENDA, não pra lead
 
-ROAS é a régua de saúde (acima). A jogada de otimização que fecha a régua, e que a maioria erra, vem da doutrina do Léo na mentoria Olympo: depois que o funil tem volume, **a campanha não otimiza mais pra captar lead - otimiza pra fechar VENDA.**
+ROAS é a régua de saúde (acima). A jogada de otimização que fecha a régua, e que a maioria erra, vem da doutrina do Léo na mentoria de perpétuo: depois que o funil tem volume, **a campanha não otimiza mais pra captar lead - otimiza pra fechar VENDA.**
 
-> "A campanha de conversão é otimizada pra venda, não pra lead. A página capta o lead, mas eu mando o algoritmo buscar quem COMPRA." (Léo, mentoria Olympo)
+> "A campanha de conversão é otimizada pra venda, não pra lead. A página capta o lead, mas eu mando o algoritmo buscar quem COMPRA." (Léo, mentoria de perpétuo)
 
 O raciocínio liga direto no item 3 (ROAS, não CPL): se você otimiza pra lead, o Facebook entrega o lead mais **barato** - que é exatamente o lead que não comparece e não compra. Quando você otimiza pelo evento de **compra**, o algoritmo passa a perseguir o perfil de quem passou o cartão, não o perfil de quem só preencheu a página. O CPL pode subir; o ROAS sobe junto, e é o ROAS que paga a conta.
 
@@ -168,7 +168,7 @@ O `perpetuo-vs-aovivo.md` já carrega: "Webinar perpétuo gravado sem validar pr
 
 Reforço da escala real, pra o player calibrar expectativa (e pra a IA não prometer fácil):
 
-> "A gente faturou na Mind Master 6.5 milhões com um único webinário que foi gravado em 2021. Significa que a gente não testou outros? Não, a gente já testou mais de 30 webinários. Só esse é o que escala." (Léo, call Hugo)
+> "A gente faturou na escola de gestão 6.5 milhões com um único webinário que foi gravado em 2021. Significa que a gente não testou outros? Não, a gente já testou mais de 30 webinários. Só esse é o que escala." (Léo, call Hugo)
 
 30 webinars testados, 1 que escala. O webinar campeão é raro e custa iteração. Por isso a validação barata vem antes.
 
@@ -184,9 +184,9 @@ Por que esse exemplo importa pra a IA não prometer ROAS mágico: o próprio Lé
 
 ## 6.1. Múltiplos webinars = escala HORIZONTAL
 
-O item 6 diz que o campeão é raro (1 em 30). A pergunta que vem em seguida é: achei o campeão, como escalo? A resposta do Léo **não** é só jogar mais verba no mesmo webinar. É a escala **horizontal** - a jogada que a mentoria Olympo crava e que separa quem tem um funil de quem tem uma máquina.
+O item 6 diz que o campeão é raro (1 em 30). A pergunta que vem em seguida é: achei o campeão, como escalo? A resposta do Léo **não** é só jogar mais verba no mesmo webinar. É a escala **horizontal** - a jogada que a mentoria de perpétuo crava e que separa quem tem um funil de quem tem uma máquina.
 
-> "Diferentes peixes por diferentes iscas, mesmo aquário depois." (Léo, mentoria Olympo)
+> "Diferentes peixes por diferentes iscas, mesmo aquário depois." (Léo, mentoria de perpétuo)
 
 A metáfora é o método inteiro. O **aquário** é o mercado/avatar (o mesmo). As **iscas** são webinars diferentes - temas, ângulos, dores de entrada distintas - cada um pescando um peixe que o outro não pegava. Quem tem **um** webinar depende 100% dele converter; quem tem **vários** escala lateralmente, e um webinar com ROAS menor ainda soma porque traz um lead que o campeão não alcançava.
 
@@ -203,9 +203,9 @@ A cadência operacional, na fala dele:
 
 ## 6.2. Jogo avançado: zerar (ou aceitar negativo) o ROAS do webinar
 
-Esta é a virada de mentalidade do topo do jogo, e ela parece contradizer o item 3 (ROAS é a régua-rei) - não contradiz, **muda a régua de lugar.** A mentoria Olympo é explícita:
+Esta é a virada de mentalidade do topo do jogo, e ela parece contradizer o item 3 (ROAS é a régua-rei) - não contradiz, **muda a régua de lugar.** A mentoria de perpétuo é explícita:
 
-> "A partir do momento que o LTV do cara é garantido, eu posso zerar o ROI do meu webinário e usar ele apenas como uma isca digital. Perco na entrada, mas ganho muito mais no processo comercial." (Léo, mentoria Olympo)
+> "A partir do momento que o LTV do cara é garantido, eu posso zerar o ROI do meu webinário e usar ele apenas como uma isca digital. Perco na entrada, mas ganho muito mais no processo comercial." (Léo, mentoria de perpétuo)
 
 A lógica: enquanto o webinar é o **único** ponto de monetização, o ROAS do webinar TEM que pagar a conta sozinho (é o item 3, e é onde a maioria opera). Mas quando existe **back-end** - esteira, high ticket, recompra, comercial que fecha o que o checkout não fechou - o webinar deixa de ser o lugar onde o lucro acontece e vira a **isca** que abastece o lugar onde o lucro acontece. Aí você pode rodar o webinar **no zero ou até no negativo de propósito**, porque o LTV do cliente garante o lucro no fim.
 

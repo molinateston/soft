@@ -44,7 +44,7 @@ A virada (Toyota como fonte primária, com humildade narrativa - "por sorte"):
 
 A fundação (origem do negócio como consequência de paixão, não de marketing):
 
-> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a Mind Master em 2014 tá, e a aí o resto é história"
+> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a escola de gestão em 2014 tá, e a aí o resto é história"
 
 **O que ele fez:** (1) dupla autoridade na ordem empresa→pessoa (16.230 alunos, 500k leitores, 400k seguidores / 25 anos de carreira, Santander, Toyota, BRQ); (2) seeding da âncora de preço dentro da autoridade - workshop 297-997, curso R$3.000, MBA R$12.000 ditos como informação neutra de catálogo, 90 min antes da oferta; (3) cicatriz com frase-síntese citável ("perdemos um bom técnico e ganhamos um péssimo Líder"); (4) o vilão da história é a ignorância dele mesmo ("eu não sabia ser gestor") - a mesma dor do avatar; (5) virada por sorte + Toyota como prova de linhagem ("direto na fonte"), reaproveitada depois na seção "por que esse curso é diferente"; (6) fundação da empresa como consequência de paixão.
 

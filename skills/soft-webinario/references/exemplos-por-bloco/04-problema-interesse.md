@@ -27,7 +27,7 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 
 > "eu coloquei aqui um uma brincadeira, gerei aqui com inteligência artificial uma imagem né de um homem das cavernas tentando usar um kamban aqui né. isso aqui tá acontecendo demais tá, tá perdido, tem um monte de gente que a gente chama de gestores do passado que estão perdidos. quem é que é gestor do passado que tá perdido hoje em dia coloca nos comentários pra gente, não tem problema a sumir não tá gente, aqui nós estamos num num ambiente seguro"
 
-> "aqui a gente faz muita pesquisa de mercado aqui na Mind Master né, talvez você já tenha respondido alguma pesquisa Nossa, eh e a gente tem sei lá eu acho que a última vez que eu lei deve ter umas 880.000 respostas nessa pesquisa. por que que eu tô dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado"
+> "aqui a gente faz muita pesquisa de mercado aqui na escola de gestão né, talvez você já tenha respondido alguma pesquisa Nossa, eh e a gente tem sei lá eu acho que a última vez que eu lei deve ter umas 880.000 respostas nessa pesquisa. por que que eu tô dizendo isso? porque isso que eu vou mostrar para vocês é bem fiel ao que realmente está acontecendo no mercado"
 
 > "aí você pode falar pô mas eu não sou dono da de empresa, que que eu tenho a ver com isso, por que que eu tenho que saber os problemas das empresas? Ah meu amigo, é aí que você se engana se você acha que você não tem que saber disso aqui. porque você como profissional eu sei que você também tem alguns problemas, que a gente também faz pesquisas […] primeiro problema que mais relatam aqui pra gente é estagnação de carreira tá, muitos profissionais sentem que estão presos nas suas posições atuais"
 

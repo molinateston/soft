@@ -24,7 +24,7 @@ Se nenhum arquivo retorna, e chute. Reprova.
 
 Estes sao os fatos verbatim que aparecem na aula do webinar dele. Ilustram o padrao "afirmacao grande + prova ao lado":
 
-- R$46 milhoes gerados em dez anos (na agencia).
+- dezenas de milhoes gerados em dez anos (na agencia).
 - Escola de gestao: 8 digitos em 2 anos, com 5 pessoas, 1 funil so.
 - 1 ano sem postar e seguiu vendendo.
 

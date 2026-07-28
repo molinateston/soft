@@ -291,7 +291,7 @@ A objeção-mãe ganha um slide próprio, e ele tem dois movimentos que andam ju
 
 É o desejo verdadeiro do avatar - o motivo profundo, às vezes constrangedor, que ele **nunca escreve no chat** mas que move a decisão de verdade. Não é o benefício de catálogo ("mais clientes", "mais faturamento"). É a coisa por baixo dele: voltar a ser admirado, parar de sentir vergonha do próprio negócio, provar pra alguém específico, ter de volta o tempo com os filhos, deixar de ser o gargalo da própria vida.
 
-> Léo, na mentoria Olympo: *"No começo eu não conheço as pessoas, tô meio puritano. Uma hora e meia eu já tenho intimidade. Se você falasse [o desejo oculto] no começo: que escroto, sai fora, que babaca. Aqui você tem intimidade, pode ser mais incisivo."* (exemplo do nicho dele)
+> Léo, na mentoria de perpétuo: *"No começo eu não conheço as pessoas, tô meio puritano. Uma hora e meia eu já tenho intimidade. Se você falasse [o desejo oculto] no começo: que escroto, sai fora, que babaca. Aqui você tem intimidade, pode ser mais incisivo."* (exemplo do nicho dele)
 
 ### Por que o timing é lei
 

@@ -60,7 +60,7 @@ trimestre, trimestre gera mes, mes gera semana. "Se voce ficar
 planejando da semana para o macro, um belo dia voce pode descobrir
 que voce nao chegou onde voce gostaria."
 
-EXEMPLO REAL DO DENISSON (MINDMASTER)
+EXEMPLO REAL DO DENISSON (ESCOLA DE GESTAO)
 --------------------------------------
 Situacao atual: curso Gestao Agil 2.0, MBA, mentoria/consultoria,
 16 mil alunos, sem processo formal de vendas, clientes 100% organico.
