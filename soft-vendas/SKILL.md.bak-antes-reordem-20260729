@@ -3,12 +3,6 @@ name: soft-vendas
 description: A venda consultiva do método Soft, o fechamento limpo. Transforma a conversa em cliente sem empurrar, revela a dor real e pede a decisão. Cobre script de venda (WhatsApp / call / reunião), prospecção no Direct, isolamento de objeção, diagnóstico de conversa empacada, copiloto em tempo real, métricas de pipeline e pós-venda (indicações + testemunhos). Puxa a Oferta e a PUV do Plano de Posicionamento. Use SEMPRE que envolver "script de venda", "objeção", "fechamento", "follow-up", "prospecção", "DM/Direct", "lead sumiu", "pipeline", "analisa essa conversa", "pedir indicação". NÃO use pra carta/vídeo de aquecimento ou funil (isso é soft-funil), nem pra posicionamento ou conteúdo.
 ---
 
-# Soft Vendas, a venda consultiva (fechamento limpo)
-
-Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à força: ela **revela a dor que já existe** e pede a decisão. Quando o Plano está de pé, o lead chega quente da carta e aqui você **confirma, não convence**, mas a conversa ainda precisa ser conduzida, e é isso que esta skill faz.
-
-**Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
-
 ## 📦 O QUE ESTA SKILL PRODUZ
 
 **Serve o agente:** braço-comercial do LEON (orquestrador) e cliente final direto, equipa quem vende e fecha o 1:1 high-ticket; também o copiloto que conduz a conversa ao vivo.
@@ -27,6 +21,12 @@ Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à
 - **Contrato de mentoria/consultoria pronto pra assinar**, gerado no mesmo fluxo depois do sim, em **`.docx`** (D4Sign/Clicksign/Autentique) ou, sem `/mnt/user-data/outputs`, em **markdown inline**; com cláusulas anti-calote, de pagamento, PF/PJ e por formato, mais glossário jurídico (`processo-contratos` + `clausulas-*` + `glossario-juridico`).
 
 **Gate externo obrigatório:** todo texto que vai pro lead (script, DM, follow-up) passa antes pelo `shared-references/crivo/`, o gate CUB bloqueante (Confusão · Inacreditável · Tédio). Mensagem genérica ou promessa sem chão é consertada antes de sair.
+
+# Soft Vendas, a venda consultiva (fechamento limpo)
+
+Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à força: ela **revela a dor que já existe** e pede a decisão. Quando o Plano está de pé, o lead chega quente da carta e aqui você **confirma, não convence**, mas a conversa ainda precisa ser conduzida, e é isso que esta skill faz.
+
+**Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
 
 ## A fonte e a lei
 - Guia: `guia/10-vendas-consultivas.md` (a mecânica). Fonte da verdade.
