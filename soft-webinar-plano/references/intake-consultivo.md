@@ -1,6 +1,7 @@
 # O INTAKE CONSULTIVO do plano de webinar, bloco a bloco (a profundidade dos Blocos 1 a 6)
 
 ## Índice
+- As regras duras que valem no intake inteiro
 - A régua do intake
 - Bloco 1, O QUE VENDER + ticket → regra de canal
 - Bloco 2, PRA QUEM (recorte + persona-âncora + nível de consciência) + tráfego
@@ -139,3 +140,7 @@ Webinar = degrau 2 (Funil → Webinar → Lançamento): **não valida do zero, e
 Ticket < ~3k não paga a estrutura (~R$5.000/rodada) → volta pro funil. Validar no carrossel custa ~R$600/rodada vs ~R$5.000 no webinar, e o campeão é raro (~30 testados, 1 que escala): valide barato, suba só o que passou. Tom: consultor que **mede antes de opinar**. (Tabela de custo, sinais de "ainda não", 3 produtos Carta/MT/Webinar, decisória por ticket/estágio/ciclo/repertório/avatar: `references/escolha-carta-mt-webinario.md`.)
 
 **STOP.** Régua avaliada (sobe ou volta, com a razão). Espera OK.
+
+
+## As regras duras que valem no intake inteiro
+As leis que o gate cobra na oferta e no ensino: a **tripartição** MÓDULOS (pelo que a pessoa VIRA, sem preço) × CURSOS de prateleira (nome próprio + PREÇO real checável, NUNCA "bônus") × **BÔNUS** (palavra reservada a UM item sem preço) · **STACK rica** de vários itens, cada um matando UMA objeção nomeada · **bônus-âncora MAIOR que o produto** · **2 moedas separadas** (desconto pra todos x bônus dos 15-primeiros pra quem corre) · **rede pro 16º** · **soma riscada** com cada parcela checável · Diagnóstico **de fora pra dentro** (externo → filosófico → interno → causa → implicação → armadilhas → inimigo → absolvição → dobradiça) · Mecanismo como **SEQUÊNCIA real**, nunca "3 viradas" · **Faca Soft** (o QUÊ e o PORQUÊ, nunca o COMO executável).

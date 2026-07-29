@@ -1,6 +1,7 @@
 # A MONTAGEM do doc: as Seções 0 a 9 escritas por dentro (a profundidade que a montagem manda ler)
 
 ## Índice
+- As leis que o gate cobra na oferta e no ensino
 - Seção 0, A HERANÇA do posicionamento
 - Seção 1, A OFERTA como STACK rica (1a camadas · 1b tripartição · 1c stack rica · 1d jornada · 1e PUV · 1f mapa de objeções · 1g as 3 jogadas · 1h 15-primeiros · 1i a rede · 1j soma riscada, garantia, ticket)
 - Seção 2, PROMESSA + BIG DOMINO + NÍVEL DE CONSCIÊNCIA
@@ -180,3 +181,7 @@ A que o Léo lê primeiro. NÃO resumo: a matéria-prima das seções **destilad
 | **BRIEFING REDONDO** | tudo | parágrafo único: o que vende + pra quem + promessa + mecanismo + formato + canal |
 
 Cada peça é **derivada** (destila, não repete o doc); nada novo que não passou pelo intake e pelo gate.
+
+
+## As leis que o gate cobra na oferta e no ensino
+Só doc com **VEREDITO=PASSA** vai pro usuário; **VEREDITO = o PIOR item, um ✗ refaz O ITEM**, não o doc. Os 25 checks: é hora de webinar · HERANÇA inteira inline · OFERTA = STACK rica na tripartição · 15-primeiros + 2 moedas + rede + soma riscada · PUV + jornada em passos · garantia + frame · Diagnóstico e Mecanismo na estrutura REAL (**zero "3 viradas" = ✗**) · Big Domino na fórmula + 3 momentos · UMA promessa · mecanismo nomeado (anti-rótulo) · abertura completa · persona + crenças rotuladas · nível de consciência · provas + PROVA EXTERNA reais · modo pelo estágio · a conta fecha · canal + CTA com destino · pitch completo · INSUMOS ORGANIZADOS · Lei 5 · Lei 6 · Harry + C/U/B · naming honesto · nicho regulado · anti-IA (HARD). O critério de cada um: `references/gate-e-anti-patterns.md`. Anti-IA: **no chat, CTRL+F do em-dash e da família "travar"**; no Code, `python3 scripts/lint_copy.py` na copy do pitch.
