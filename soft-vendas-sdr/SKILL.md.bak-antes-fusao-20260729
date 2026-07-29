@@ -75,21 +75,10 @@ Estes quatro blocos são a espinha da abordagem. O corpo abaixo é a versão cur
 
 ### A ordem canônica (não se pula etapa)
 ```
-[Abordagem/resposta] → qualifica de leve → PRÉ-QUALIFICADOR
+[Abordagem/resposta] → qualifica de leve → PRÉ-QUALIFICADOR (Mini Carta / Mini Webinar)
                      → volta esquentado → vende a SESSÃO → handoff pro closer
 ```
-O **pré-qualificador é etapa OBRIGATÓRIA**, e hoje ele tem duas formas. Qual delas vale depende do funil que o SDR serve, e a bifurcação é explícita:
-
-**A. WEBINAR (o padrão hoje, decisão do dono em 29/07).** A aula É o pré-qualificador: quem assistiu já recebeu diagnóstico, mecanismo e oferta. O SDR entra DEPOIS dela, em 4 modos por estado do lead:
-- **pré-evento**: acolhe, confirma data, hora e link. Não vende.
-- **em cima da hora / ao vivo**: urgência real, manda o link.
-- **pós-evento, compareceu**: modo consultivo. Escuta, valida a dor, qualifica pelos 4 elementos, vende a sessão.
-- **pós-evento, faltou**: acolhe sem culpa, oferece o replay ou remarcar. Não qualifica ainda.
-O estado vem da fonte de verdade (inscrição, presença), nunca de chute.
-
-**B. MINI CARTA / MINI WEBINAR (o funil 1:1 sem aula).** Aqui a peça curta faz o filtro: no cenário de **sinal ativo** ela é "o momento mais importante da abordagem", e entregá-la na janela quente (até 2h) é o objetivo.
-
-**Nas duas formas vale a mesma lei:** é PROIBIDO saltar da qualificação direto pra sessão sem o lead ter passado pelo pré-qualificador. A única exceção é o lead que já chega quente pedindo a sessão. Se nenhum dos dois existe no projeto, o SDR avisa o dono que precisa construir primeiro (`soft-webinar-plano` / `soft-funil-carta` / `soft-funil-miniwebinar`), não improvisa.
+O **pré-qualificador (Mini Carta / Mini Webinar)** é etapa OBRIGATÓRIA: no cenário de **sinal ativo** ele é "o momento mais importante da abordagem" e entregá-lo na janela quente (até 2h) é o objetivo. É PROIBIDO saltar da qualificação direto pra sessão sem passar por ele (a única exceção é o lead que já chega quente pedindo a sessão). Se o pré-qualificador não existe no projeto, o SDR avisa o dono que precisa construir primeiro (`soft-funil-carta` / `soft-funil-miniwebinar`), não improvisa.
 
 ### Os 4 elementos da qualificação (o framework, não invente outros)
 São EXATAMENTE estes quatro. Não é "situação → dor" nem nenhum outro rótulo: **DOR não é um dos elementos**, ela sai POR DENTRO de Ações/Resultados. O BANT também é lido por dentro, nunca perguntado a seco.
