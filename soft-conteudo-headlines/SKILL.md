@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-headlines
-description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + as 3 perguntas do Harry + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "chamada", "capa de carrossel", "primeiros segundos", "banco de headlines". NÃO use pro CORPO da peça (o texto longo, slides do carrossel, roteiro do reel ou arco de stories vão pra soft-conteudo-carrossel/-reels/-stories), nem pro Plano/posicionamento (soft-posicionamento), nem pro visual/arte (soft-designer), nem pra abertura de VSL/webinar (soft-webinario).
+description: Escreve a HEADLINE/gancho/abertura de uma peça do método Soft, os primeiros 3 segundos que param o scroll e filtram o cliente certo. Ancora no verbatim do cliente, cruza o assunto com os teus templates testados, escreve 2-3 headlines por template, e passa cada uma pelo gate (ancoragem + clareza + anti-IA) antes de mostrar. Use quando o pedido for "headline", "gancho", "abertura", "manchete", "título", "capa de carrossel", "banco de headlines". Esta skill escreve só a HEADLINE isolada; o CORPO da peça que vem depois dela (slides do carrossel, roteiro do reel, arco de stories) é soft-conteudo-carrossel/-reels/-stories.
 ---
 
 # Headline, os primeiros 3 segundos

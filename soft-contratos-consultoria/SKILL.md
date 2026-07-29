@@ -2,19 +2,16 @@
 name: soft-contratos-consultoria
 description: >-
   Gera contratos de prestação de serviço de consultoria/mentoria prontos pra
-  assinar — em português brasileiro para mercado digital. Dois modos: SOFT
-  ENXUTO (default — 11 cláusulas, tom flexível, sem multa, baseado em modelo
-  validado em vendas reais) e ROBUSTO (13 cláusulas, anti-calote completo
-  com multa, juros, protesto). Cobre 4 formatos (mentoria 1:1, em grupo,
-  infoproduto gravado, feito-pra-você) e 4 modalidades de pagamento (à
-  vista, parcelado, entrada+meta com 3 variantes, recorrência). Atende PF ou
-  PJ. Use SEMPRE que envolver "contrato de consultoria", "contrato de
-  mentoria", "contrato de serviço", "termo de adesão", "contrato pra
-  cliente", "modelo de contrato", "cláusulas", "rescisão", "preciso de
-  contrato", "vou fechar com cliente". Use TAMBÉM quando o usuário descrever
-  o caso ("fechei mentoria 12x pra PJ, preciso do contrato") sem citar
-  "contrato" diretamente. NÃO use pra NDA isolado, cessão de direitos,
-  contrato internacional ou societário.
+  assinar, em português brasileiro para mercado digital. Dois modos: SOFT
+  ENXUTO (default, 11 cláusulas, tom flexível, sem multa) e ROBUSTO (13
+  cláusulas, anti-calote completo com multa, juros, protesto). Cobre 4
+  formatos (mentoria 1:1, em grupo, infoproduto gravado, feito-pra-você) e 4
+  modalidades de pagamento. Atende PF ou PJ. Use SEMPRE que envolver
+  "contrato de consultoria", "contrato de mentoria", "cláusulas", "preciso
+  de contrato", inclusive quando o usuário descrever o caso sem citar
+  "contrato" diretamente. Esta skill gera o CONTRATO que formaliza a venda
+  já fechada; a proposta que antecede e apresenta a oferta é
+  soft-proposta-comercial.
 ---
 
 # Soft Contratos · Consultoria
