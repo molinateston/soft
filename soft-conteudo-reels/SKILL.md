@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-reels
-description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida em 1 a 2 minutos, escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo lo-fi", "script de vídeo". Esta skill ESCREVE o que falar/mostrar no roteiro; EDITAR o vídeo já gravado (corte, legenda, b-roll, gancho/cold open) é soft-editor-video.
+description: Escreve o ROTEIRO de um reel do método Soft, o vídeo curto lo-fi que para o scroll e atrai o cliente certo. Parte da headline já escolhida, constrói o corpo pela espinha ADMA comprimida na duração da camada (topo 15-40s, fundo 60-90s), escreve nos 3 tipos quando útil (falar, mostrar, texto na tela), e passa o roteiro pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + tensão que não relaxa + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "reel", "roteiro de reel", "vídeo curto", "vídeo lo-fi", "reels", "script de vídeo", "o que falar no vídeo". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), stories (soft-conteudo-stories) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil).
 ---
 
 # Reel, o vídeo curto que atrai
@@ -54,7 +54,19 @@ Não força os três se um só já cria o conflito. Mas marca no roteiro qual en
 
 **Como aparecer no vídeo é só sugestão, nunca obrigação.** A pessoa grava do jeito dela; o que a skill garante e entrega é o ROTEIRO. Quando sugerir cena, gesto ou edição, deixa explícito que é opcional, um caminho possível, não uma regra.
 
-## Passo 3, desenvolve pela espinha ADMA (comprimida em 1-2 min)
+### MODO ALCANCE vs MODO FILTRO (declara o modo ANTES de escrever o gancho)
+- **Reel de TOPO (objetivo alcance): capa/gancho AMPLO**, o filtro entra do meio pro fim do reel. Motivo com número: ~50% da audiência cai nos 3 primeiros segundos; reel com hold acima de 60% nos 3s alcança 5 a 10x mais que reel com hold abaixo de 40%. Gancho que filtra cedo derruba o hold e mata a distribuição.
+- **Reel de FUNDO (aquecer quem já segue): filtro cedo**, doutrina Soft normal.
+- A escolha do modo é declarada antes de escrever. **Em anúncio, SEMPRE modo filtro** (regra da capa por terreno da `soft-trafego-meta`: em anúncio o criativo é a segmentação, gancho amplo entrega lead ruim).
+
+### FORMATO YAP (talking-head cru)
+Variante lo-fi levada ao limite: vídeo falado direto pra câmera, zero edição polida, cenário real (sofá, carro, rua). Benchmark 2026: especialista falando direto pra câmera supera criativo polido em alcance e engajamento; o cérebro processa rosto mais forte que qualquer outro estímulo visual; confiança em pessoa vale mais que confiança em anúncio. **REGRA-CHAVE: o yap viral é PLANEJADO com cara de improviso.** A espinha ADMA continua obrigatória por baixo; o que muda é a casca: sem corte seco, sem legenda de estúdio, fala corrida de mesa. Compatível com MODO ALCANCE.
+
+### FORMATO REEL DE 7 SEGUNDOS (vídeo mudo, conteúdo na legenda)
+Variante que inverte onde mora a informação: o vídeo (até 7s, sem fala, cena cotidiana comum, tomando café, mexendo com o cachorro, trabalhando, embalando pedido, sem olhar pra câmera) é só o gancho visual, e o conteúdo inteiro vai pra legenda (1000-1500 caracteres, escrita por esta skill e passando pelo gate normal do Passo 5, mesmo sem fala no vídeo). Por cima do vídeo entra um título de curiosidade que empurra pra legenda (modelo: "e eu que descobri o método para alcançar X objetivo"), o TEXTO NA TELA do Passo 2 fazendo esse trabalho sozinho, já que aqui não há FALAR nem MOSTRAR carregando gancho. Ritmo: 1-2 posts por dia. Compatível com MODO ALCANCE (gancho amplo, o filtro mora na legenda). **Nota de automação:** o formato é esteira: biblioteca de cenas cotidianas reaproveitável + títulos de curiosidade do banco de headlines + legenda gerada por esta skill formam um pipeline automatizável (cena + título + legenda), sem depender de roteiro falado novo a cada peça.
+Lastro (benchmark 2026, tecnica conhecida como "Read Caption"): o intervalo de decisao do viewer e exatamente 5-7s; reel curto tem 68% de completion vs 48% do longo, e completion e o sinal que o algoritmo mais premia; 75% assistem no mudo. Legenda com pergunta/CTA puxa comentario e amplia distribuicao.
+
+## Passo 3, desenvolve pela espinha ADMA (na duração da camada)
 A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a próxima. **A tensão não relaxa.** Se o leitor consegue prever a próxima frase, ele pula. A tensão é o que segura, não a informação. Mostra o **diagnóstico**, nunca o passo a passo executável (passo a passo vira aula grátis e não vira venda).
 
 | Trecho | Movimento | Função |
@@ -65,7 +77,7 @@ A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a p
 | **Virada** | Nova oportunidade | a virada de interpretação, existe um caminho diferente |
 | **Fechamento** | Mecanismo + Convite | aponta pro método (função, não execução) + CTA com destino |
 
-Duração: 1 a 2 minutos, em torno de 1:30 quando for impulsionar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese.
+Duração POR CAMADA (benchmark de retenção 2026: faixa ótima 30-60s; abaixo de 30s tem o maior engajamento): TOPO/alcance 15-40s · FUNDO/aquecer 60-90s. Passar de 90s só quando a tese exigir e cada bloco segurar sozinho. Quando for impulsionar, testa o corte 30-45s contra a versão longa antes de escalar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese.
 
 **Depois do gancho, o conteúdo precisa ser NOTÁVEL** (`references/metodo-reel.md` 7.5): (1) algo NOVO, um ângulo que quase ninguém falou (se a pessoa prevê a próxima frase, ela pula); (2) baixo carregamento cognitivo, explica como pra criança, termo técnico só com tradução fácil em seguida; (3) sem encher linguiça, curto não raso, zero introdução antes de entrar no conteúdo.
 
@@ -84,7 +96,7 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **3 tipos de gancho** | usa Falar/Mostrar/Texto na tela quando útil (ao menos 1 marcado; ideal os 3 em conflito) | |
 | **Tensão contínua** | a tensão NÃO relaxa no meio; em nenhum ponto o leitor prevê a próxima frase (se prevê, ele pula) | |
 | **Lo-fi** | gancho + ideia carregam a peça, sem depender de câmera/edição cara; gravável em minutos | |
-| **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida em 1-2 min; mostra função, nunca passo a passo | |
+| **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida na duração da camada (topo 15-40s, fundo 60-90s); mostra função, nunca passo a passo | |
 | **CTA com destino** | termina com próximo passo real do funil (salvar/comentar/manda/carrossel/isca), não solto | |
 | **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
@@ -122,6 +134,7 @@ Mostra **só o roteiro que passou, LIMPO** (como no Claude Chat), com a espinha 
 
 ## References (só pra profundidade, o fluxo acima é autossuficiente)
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.
+- `references/roteiros-modelo-gringos.md`: 49 estruturas de roteiro modeladas de material externo (04/08/2026, marca-neutra), rodízio de forma pra clonar a ESTRUTURA e preencher com o território do avatar; nunca copia o exemplo, todo roteiro gerado passa pelo gate do Passo 5.
 - `references/producao-em-lote.md`: template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa (pro comando "lote de [tema]").
 - `references/anti-padroes.md`: os anti-padrões do reel com pares errado→certo escritos por extenso.
 - `references/metodo-reel.md`: o capítulo-método completo do reel (Lo-fi vence Hi-fi, a Fórmula 7 comprimida, os 3 tipos + os 7 gatilhos da atenção 7.4, conteúdo notável 7.5, a regra do "faz mais"/escalar 7.7, e as 4 métricas como diagnóstico 7.9). É a fonte da verdade do formato. **Dirigida nos Passos 2, 3 e 6.**

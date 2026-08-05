@@ -1,6 +1,6 @@
 ---
 name: soft-funil-isca
-description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria qualquer formato (guia, checklist, diagnóstico, mini-aula, template, quiz, calculadora, desafio) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca certa pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"material gratuito\", \"o que oferecer de graça\". Esta skill faz o ATIVO da isca (o material em si); a página que captura o lead e entrega o arquivo é soft-funil-landing."
+description: "Constrói a ISCA do método Soft: o material gratuito que captura o lead certo, entrega valor real e aponta pro método (a isca é fração, o sistema é o produto). Cria QUALQUER formato (guia, checklist, diagnóstico, mini-aula, template, script, swipe, quiz, calculadora, planilha, mini-curso, desafio, audit, Artigo-Isca) e tem MODO IDEAÇÃO que ajuda a PENSAR e ESCOLHER a isca perfeita pro avatar antes de produzir. Ancora no verbatim real, conduz por etapas com STOP, passa por gate-checklist embutido. Use quando o pedido for \"isca\", \"lead magnet\", \"material gratuito\", \"PDF/ebook de captura\", \"o que oferecer de graça\", \"que isca eu faço\", \"quiz\", \"checklist\", \"template\", \"artigo isca\". NÃO use pra conteúdo de feed/carrossel/reel/stories (→ soft-conteudo). NÃO use pra carta/VSL/página de vendas (→ soft-funil-carta). NÃO use pra mini webinar (→ soft-funil-miniwebinar) nem webinário (→ soft-webinar). NÃO use pra venda/script/objeção (→ soft-vendas), posicionamento (→ soft-posicionamento) nem arte (→ soft-designer)."
 ---
 
 # Isca, a amostra que prova a tese e captura o lead certo
@@ -39,7 +39,11 @@ Conduz por pergunta, em poucas mensagens, na ordem profit-driven (destino primei
 2. **O que o avatar precisa ACREDITAR pra querer isso?** A crença-ponte que a isca vai instalar (do estado atual pro estado que faz o produto virar o passo óbvio).
 3. **Brainstorm do tópico** a partir das falas do Passo 0 + dos prompts de ideação (a pergunta #1 que ele recebe, o que deixaria o avatar de queixo caído, qual o quick-win possível em menos de 20 minutos).
 
-Gera **5-8 ideias-de-isca candidatas**. Cada uma traz: a dor TOP-3 que ataca · o quick-win em <5-20min · o formato sugerido · o próximo-dólar pra onde leva. Pontua cada uma pelo crivo de seleção (Específico>Amplo · ataca a TOP-3 · traz informação Nova · prova a SUA autoridade · não satura o produto) e **RECOMENDA 1-2 com convicção** (postura consultor, não menu neutro). **STOP:** mostra as candidatas + a recomendação e PARA pro usuário escolher.
+Gera **5-8 ideias-de-isca candidatas**. Cada uma traz: a dor TOP-3 que ataca · o quick-win em <5-20min · o formato sugerido · o próximo-dólar pra onde leva. Pontua cada uma pelo crivo de seleção (Específico>Amplo · ataca a TOP-3 · traz informação Nova · prova a SUA autoridade · não satura o produto) e **RECOMENDA 1-2 com convicção** (postura consultor, não menu neutro).
+
+**Peso pró-interativo na ordem de recomendação (benchmark 2026):** formato interativo (quiz, template, calculadora) converte 5,2% ou mais de visitante em lead; ebook gateado fica abaixo de 0,9%, uma distância de ~6x. Na recomendação, o interativo é o default sugerido; ebook só quando o avatar pede profundidade de leitura.
+
+**STOP:** mostra as candidatas + a recomendação e PARA pro usuário escolher.
 
 ## Passo 2, escolhe o formato pelo catálogo (uma isca, uma promessa, um destino)
 Com a isca-alvo escolhida, decide o FORMATO pela matriz de seleção. O universo de formatos por função e a matriz por estágio de consciência estão em `references/catalogo-iscas.md` (consulte aqui). As 5 famílias por função psicológica:
@@ -100,9 +104,9 @@ Mostra **só o que passou, LIMPO** (como no Claude Chat): a peça e a fonte do v
 - Pediu **carrossel, reel, stories, headline ou texto de feed** → **soft-conteudo**.
 - Pediu **peça de FEED** (carrossel/reel/stories/post solto pra alcance, sem captura de contato) → **soft-conteudo**. A isca é material de CAPTURA (troca por contato) com destino marcado; se não captura contato nem leva a destino, não é isca.
 - Pediu **carta de vendas / VSL / página de vendas** → **soft-funil-carta**.
-- Pediu **webinário/mini-webinar como ISCA de topo** → **soft-webinario** / **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a eles, não o evento em si.
+- Pediu **webinário/mini-webinar como ISCA de topo** → **soft-webinar** / **soft-funil-miniwebinar**. Esta skill desenha a isca que LEVA a eles, não o evento em si.
 - Pediu **mini webinar** → **soft-funil-miniwebinar**.
-- Pediu **webinário perpétuo / ao vivo** → **soft-webinario**.
+- Pediu **webinário perpétuo / ao vivo** → **soft-webinar**.
 - Pediu **a venda em si** (script, objeção, fechamento, prospecção) → **soft-vendas**.
 - Pediu **Plano / posicionamento / nomear mecanismo** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.

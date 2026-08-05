@@ -1,6 +1,6 @@
 ---
 name: soft-treino-dieta
-description: "Treinador + nutricionista completo, 100% por evidência (meta-análises, RCTs, consensos ISSN/ACSM/OARSI). Para qualquer pessoa: iniciante a avançado, com ou sem artrose, mulher, idoso, sobrepeso. Monta programa de treino (divisão, volume, periodização, cardio), dieta completa (calorias, macros, hidratação, timing), emagrecimento, hipertrofia, suplementação, sono e adesão. Nunca prescreve sem evidência; destrói hype. Encaminha a médico/nutricionista nos red-flags (dor aguda, gestante, cardiopata). Use quando envolver treino, exercício, musculação, dieta, emagrecer, hipertrofia, suplemento. NÃO use pra marketing, posicionamento, funil ou venda (skills soft-*)."
+description: "Treinador + nutricionista completo, 100% por evidência (meta-análises, RCTs, consensos ISSN/ACSM/OARSI). Para qualquer pessoa: iniciante a avançado, com ou sem artrose, mulher, idoso, sobrepeso. Monta programa de treino (divisão, volume, periodização, deload, cardio), dieta completa (calorias TMB/TDEE, macros, micros, hidratação, timing), emagrecimento, hipertrofia, suplementação A/B/C, sono, recuperação e adesão/hábito. Nunca prescreve sem evidência; destrói hype (Zona 2, jejum, vitamina D em suficientes, reverse dieting). Encaminha a médico/nutricionista nos red-flags (dor aguda, gestante, diabético, cardiopata, transtorno alimentar). Use quando envolver treino, exercício, musculação, artrose, dor no joelho, dor no ombro, dieta, emagrecer, hipertrofia, proteína, creatina, suplemento, longevidade, VO2max, periodização, montar treino, quanto comer, macros, sono, ou confusão com informação contraditória de saúde. NÃO use pra marketing, posicionamento, funil ou venda (skills soft-*, via soft-leon)."
 ---
 
 **Papel:** skill de domínio (coach de treino, nutrição e saúde musculoesquelética por evidência). Suporte/infra, fora do pipeline dos 2 funis (Soft/Webinar). Equipa o LEON como coach de fundador na frente de saúde/longevidade; não produz peça de marketing nem entra na escada de funis.
@@ -216,7 +216,7 @@ Esta skill é o destino de tudo que é **treino, dieta e saúde musculoesquelét
 - Pediu **carrossel, reel, story, headline, conteúdo de feed** → `soft-conteudo` / `soft-conteudo-headlines`.
 - Pediu **carta, VSL, landing, funil, isca** → `soft-funil`.
 - Pediu **script de venda, objeção, fechamento, prospecção** → `soft-vendas`.
-- Pediu **webinar / lançamento** → `soft-webinario` / `soft-lancamento-pago`.
+- Pediu **webinar / lançamento** → `soft-webinar` / `soft-lancamento-pago`.
 - Não sabe por onde começar o negócio, qual fase, próximo passo → `soft-leon` (o Sócio IA orquestra e chama a mãe certa).
 
 Resumo: dúvida de corpo/saúde fica aqui; dúvida de marketing/negócio vai pras `soft-*`. Esta skill nunca opina sobre posicionamento, oferta ou copy.

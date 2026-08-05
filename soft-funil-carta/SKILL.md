@@ -1,6 +1,6 @@
 ---
 name: soft-funil-carta
-description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA, nunca AIDA. Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"sales letter\", \"VSL\". Esta skill escreve o TEXTO corrido da carta/vídeo de vendas; a página que hospeda esse texto do hero ao botão é soft-funil-landing."
+description: "Escreve a CARTA DE VENDAS do método Soft que aquece e qualifica o lead antes da conversa, o degrau 1 do funil. ESCALA da mini-carta (4-7min) até a CARTA LONGA de resposta direta (sales letter: duplo mecanismo, value stack, garantia, bônus, FAQ, P.S.), no MESMO arco ADMA (Atenção-Diagnóstico-Mecanismo-Ação, nunca AIDA). Diagnostica a consciência (Schwartz) pra calibrar comprimento e lead, ancora no verbatim real, constrói desejo antes da oferta, fecha em UM convite pro 1:1, roda o gate embutido (ancoragem, duplo mecanismo, prova maior que alegação, anti-IA HARD). Também faz roteiro de VSL. Use pra \"carta\", \"carta de vendas\", \"carta longa\", \"sales letter\", \"mini-carta\", \"VSL\", \"vídeo de vendas\", \"escreve a carta\", \"deixa a carta mais completa\". NÃO use pro corpo de feed (slides, reel, stories: soft-conteudo; headline: soft-conteudo-headlines), landing/sales page hero-ao-botão (soft-funil-landing), mini-webinar (soft-funil-miniwebinar), nem o fechamento (objeção, follow-up: soft-vendas)."
 ---
 
 # Carta de vendas, o ativo que aquece antes da conversa
@@ -166,7 +166,7 @@ Mostra **só a peça LIMPA** (ou a etapa pronta), como no Claude Chat: sem tabel
 - Pediu **landing page completa / sales page** (hero ao botão, 4 arquiteturas, blocos de copy) → **soft-funil-landing**.
 - Pediu **mini-webinar do funil** (vídeo de ~10min em blocos) → **soft-funil-miniwebinar**.
 - Pediu **isca / lead magnet / artigo-isca / captura** → **soft-funil-isca**.
-- Pediu **webinar perpétuo ou ao vivo** → **soft-webinario**.
+- Pediu **webinar perpétuo ou ao vivo** → **soft-webinar**.
 - Pediu **Plano / posicionamento / oferta / PUV** → **soft-posicionamento**.
 - Pediu **arte / visual / PNG** → **soft-designer**.
 - Pediu o **fechamento da venda** (script, objeção, follow-up, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.

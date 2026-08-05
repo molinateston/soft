@@ -165,29 +165,41 @@ Vocabulário interno do método em vez do mundo do leitor.
 
 ---
 
-## Critério 5, COMPRIMENTO POR FORMATO
+## Critério 5, COMPRIMENTO POR FORMATO (teto físico, CONTADO)
 
-A headline tem que respeitar o **comprimento limite** do formato de destino. Headline boa pra carrossel pode ser longa demais pra reel.
+A headline tem que respeitar o **teto físico** do formato de destino. Headline boa pra carrossel pode ser longa demais pra reel. E aqui a regra é dura: **você CONTA, não estima no olho.** Chutar comprimento é a origem número 1 de gancho que estoura a tela do reel ou some no preview do email. Estourou o teto por 1 unidade que seja, a headline falha o Critério 5 e você comprime (sem cortar o gatilho).
 
 ### Limites por formato
 
-| Formato | Limite | Por quê |
-|---|---|---|
-| **Reel, primeiros 3s falados** | ≤ 7 palavras | Threshold crítico de decisão é 1.7s. 7 palavras cabem em 3s. |
-| **Reel, texto na tela** | ≤ 5 palavras | Lê em <1s. Resto é distração. |
-| **Carrossel, capa** | 8 a 15 palavras | Leitor para na imagem, lê com calma. Pode ser mais densa. |
-| **Stories, abertura** | 5 a 10 palavras | Lê em 1-2s antes de tocar pra pular. |
-| **Anúncio em vídeo, primeiros 1.7s** | ≤ 5 palavras | Threshold de decisão. Sub-curta. |
-| **Anúncio em vídeo, primeiros 5s** | ≤ 10 palavras | Janela completa de gancho. |
-| **Headline de email/Substack** | 8 a 12 palavras | Mobile preview corta acima disso. |
-| **Título de YouTube** | 50-70 caracteres | SEO + thumbnail readability. |
+Dois eixos de teto convivem: **palavras** (governa quanto tempo o cérebro leva pra ler o corpo da frase, o que importa em vídeo/fala) e **caracteres com espaço** (governa o que CABE fisicamente numa faixa de texto na tela, numa capa, num preview de email/título). Onde os dois aparecem, os DOIS têm que passar.
 
-### Regras de medição
+| Formato | Teto em palavras | Teto em caracteres (com espaço) | Por quê |
+|---|---|---|---|
+| **Reel, primeiros 3s falados** | ≤ 7 palavras | n/a (é falado) | Threshold crítico de decisão é 1.7s. 7 palavras cabem em 3s. |
+| **Reel, texto na tela** | ≤ 5 palavras | ≤ 40 caracteres por linha | Lê em <1s. Acima de 40 caracteres a linha quebra feio no 9:16. |
+| **Carrossel, capa** | 8 a 15 palavras | ≤ 65 caracteres na frase de maior peso | Leitor para na imagem, lê com calma. Pode ser mais densa, mas a linha-título não pode virar parágrafo. |
+| **Stories, abertura** | 5 a 10 palavras | ≤ 50 caracteres na linha de topo | Lê em 1-2s antes de tocar pra pular. |
+| **Anúncio em vídeo, primeiros 1.7s** | ≤ 5 palavras | n/a (é falado) | Threshold de decisão. Sub-curta. |
+| **Anúncio em vídeo, primeiros 5s** | ≤ 10 palavras | n/a (é falado) | Janela completa de gancho. |
+| **Headline de email/Substack** | 8 a 12 palavras | ≤ 45 caracteres no assunto | Mobile preview corta o assunto acima de ~45 caracteres. |
+| **Título de YouTube** | n/a | 50 a 70 caracteres | SEO + leitura na thumbnail. |
 
-- **Conta palavras**, não caracteres (idioma português é mais denso que inglês)
-- Números contam como 1 palavra (R$5.000 = 1)
+### Regras de contagem (CONTA de fato, não estima)
+
+**Palavras:**
+- Números contam como 1 palavra (R$5.000 = 1, "40 anos" = 2)
 - Hashtags não contam
-- Pontuação não conta
+- Pontuação não conta como palavra
+
+**Caracteres (quando o formato tem teto de caractere):**
+- Conta **letra, espaço e pontuação**. Espaço é caractere.
+- **Número em algarismo, nunca por extenso**: "3" (1 caractere) no lugar de "três" (4). Além de mais curto, lê mais rápido no scroll. Isso vale como regra de escrita, não só de contagem.
+- Emoji não entra em headline Soft, então nem conta.
+
+**A contagem muda com o ambiente (onde a skill roda):**
+- **App / chat (claude.ai, sem Bash):** conta mentalmente/à mão a frase que vai pra tela/capa/assunto antes de marcar o Critério 5. Na dúvida entre 2 headlines, prefere a que sobra folga no teto.
+- **Claude Code (tem Bash):** confere a contagem de fato. Palavras: `echo -n "a headline" | wc -w`. Caracteres com espaço: `echo -n "a headline" | wc -m`. Use isso nas headlines de formato com teto de caractere (texto na tela, capa, assunto de email, título de YouTube) em vez de estimar.
+- **Agente / Telegram (tem Bash, entrega em arquivo):** mesma contagem do Claude Code; o resultado é o arquivo `.md` com o path completo na resposta, e a checagem de teto roda antes de fechar o arquivo.
 
 ### Headlines longas demais, fix
 
@@ -225,7 +237,7 @@ A skill **nunca entrega "passa fraco" como "passa forte"**. Pra cada headline ge
    - C2: target-leigo
    - C3: stranger no feed às 22h
    - C4: mesa-sentado
-   - C5: comprimento adequado pro formato
+   - C5: teto físico do formato, CONTADO (palavras e/ou caracteres com espaço), não estimado
 3. **Confere se respeita "não defendo"** (lista da Fundação destilada)
 4. Marca passa / falha pra cada
 5. Se TODOS passam → vai pro chat (com template marcado)

@@ -1,6 +1,6 @@
 ---
 name: soft-funil-nutricao
-description: "Escreve a RÉGUA DE NUTRIÇÃO do método Soft: a sequência que pega o lead depois que ele baixou a isca e o aquece até o convite (webinar, call ou oferta direta). Nutrição não vende, aquece; é ponte curta com UM destino, nunca newsletter eterna. Cobre a sequência pós-isca (arco, dias, frequência), a rota por TEMPERATURA (frio, morno, quente que foi a call e não fechou), a régua por CANAL (WhatsApp com opt-in, e-mail), a reativação de lista fria e o broadcast. Use pra nutrição, pós-isca, o que mandar depois que baixou, aquecer lead, lista parada, reativação, broadcast. Cuida do lead FORA do webinar; a régua de dentro dele (faltam 24h, link da sala, pós por % assistido) é soft-webinar-mensagens."
+description: "Escreve a RÉGUA DE NUTRIÇÃO do método Soft: a sequência que pega o lead depois que ele baixou a isca e o aquece até o convite (webinar, call ou oferta direta). Nutrição não vende, aquece; é ponte curta com UM destino, nunca newsletter eterna. Cobre a sequência pós-isca (arco, dias, frequência), a rota por TEMPERATURA (frio, morno, quente que foi a call e não fechou), a régua por CANAL (WhatsApp com opt-in, e-mail), a reativação de lista fria e o broadcast. Use pra nutrição, pós-isca, o que mandar depois que baixou, aquecer lead, lista parada, reativação, broadcast. Cuida do lead FORA do webinar; a régua de dentro dele (faltam 24h, link da sala, pós por % assistido) é soft-webinar."
 ---
 
 # Nutrição, a ponte entre a isca e o convite
@@ -60,7 +60,7 @@ No Claude Code roda `python3 scripts/lint_copy.py`; no chat, CTRL+F do travessã
 Mostra **só as que passaram, LIMPO**, mais o checklist de subida (tags de temperatura, filtro "é cliente?", higiene de lista, UTM, teste). Pergunta "te serve? ajusto, ou sigo?" e **espera o OK**.
 
 ## When NOT to use
-Régua **dentro** do webinar (24h, link da sala, pós por % assistido) → **soft-webinar-mensagens**. ATIVO da isca → **soft-funil-isca**. Páginas → **soft-funil-landing**. Carta/VSL → **soft-funil-carta**. Venda 1:1 → **soft-vendas**. Feed → **soft-conteudo-planner**. Headline → **soft-conteudo-headlines**. Posicionamento → **soft-posicionamento**.
+Régua **dentro** do webinar (24h, link da sala, pós por % assistido) → **soft-webinar**. ATIVO da isca → **soft-funil-isca**. Páginas → **soft-funil-landing**. Carta/VSL → **soft-funil-carta**. Venda 1:1 → **soft-vendas**. Feed → **soft-conteudo-planner**. Headline → **soft-conteudo-headlines**. Posicionamento → **soft-posicionamento**.
 
 ## References
 - `intake-e-destino.md`: estados de entrada, como cravar DESTINO e temperatura. **P0.**

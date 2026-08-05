@@ -1,6 +1,6 @@
 ---
 name: soft-negocio-metricas
-description: "LÊ e INTERPRETA o número do negócio Soft, a skill que responde \"meu anúncio não converteu, por quê?\". Acha em QUAL etapa do funil o número quebrou (alcance, clique, DM, conversa, reunião, venda), compara PROJETADO x REALIZADO, separa número que decide de número de vaidade, barra a recomendação quando a amostra é pequena ou o rastreio quebrou, e devolve UM gargalo com UMA ação e a skill que conserta. Use pra \"por que não converteu\", \"diagnostica meu funil\", \"os números da semana\", \"caiu o resultado\", \"bati a meta?\", \"vale escalar?\". Esta skill LÊ o número; soft-leon CONSTRÓI a projeção e a rotina, soft-financeiro PUXA o dado de dinheiro, soft-conteudo-impulsionar DECIDE a verba."
+description: "LÊ e INTERPRETA o número do negócio Soft, a skill que responde \"meu anúncio não converteu, por quê?\". Acha em QUAL etapa do funil o número quebrou (alcance, clique, DM, conversa, reunião, venda), compara PROJETADO x REALIZADO, separa número que decide de número de vaidade, barra a recomendação quando a amostra é pequena ou o rastreio quebrou, e devolve UM gargalo com UMA ação e a skill que conserta. Use pra \"por que não converteu\", \"diagnostica meu funil\", \"os números da semana\", \"caiu o resultado\", \"bati a meta?\", \"vale escalar?\". Esta skill LÊ o número; soft-leon CONSTRÓI a projeção e a rotina, soft-financeiro PUXA o dado de dinheiro, soft-trafego-meta DECIDE a verba."
 ---
 
 # Ler o número e dizer o que fazer
@@ -38,7 +38,7 @@ Uma ação por ciclo, medida no ciclo seguinte, com o alvo declarado antes ("med
 Confere em silêncio (nunca vai pra saída): fonte e data em toda métrica · confiabilidade aprovada ou saída virou "medir melhor" · a conta na tela · o delta escrito · UM gargalo, a primeira vermelha · UMA ação com número-alvo · zero benchmark inventado · zero travessão. Item reprovado refaz o passo, não a análise: `gate-linha-a-linha.md`. Mostra a leitura limpa e **para**.
 
 ## When NOT to use
-Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, preço, caixa → **soft-financeiro**. Quanto investir e pra qual público → **soft-conteudo-impulsionar**. Reescrever peça → **soft-conteudo-***. Carta ou página → **soft-funil-***. Objeção e closer → **soft-vendas**. Oferta e ticket → **soft-posicionamento**.
+Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, preço, caixa → **soft-financeiro**. Quanto investir e pra qual público → **soft-trafego-meta**. Reescrever peça → **soft-conteudo-***. Carta ou página → **soft-funil-***. Objeção e closer → **soft-vendas**. Oferta e ticket → **soft-posicionamento**.
 
 ## References
 - `coleta-e-fontes.md` (P0): os 8 números, onde medir, a pergunta única.

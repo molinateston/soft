@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-stories
-description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "arco de stories", "campanha de 5 dias". Esta skill faz a sequência FRAME A FRAME de stories; o corpo do carrossel de feed é soft-conteudo-carrossel.
+description: Escreve a SEQUÊNCIA de stories do método Soft, o canal de conversão diária com quem já te segue. Parte da headline/abertura já escolhida, monta o arco pela estrutura CARO (Caixinha · Alinhamento · Resultado · Oferta) ou pela Sequência de Venda de 5 dias, frame a frame, e passa cada bloco que vai pro público pelo gate (verbatim real + as 3 perguntas do Harry + C/U/B + CTA com destino + anti-IA) antes de mostrar. Use quando o pedido for "stories", "story", "sequência de stories", "caixinha", "story de venda", "arco de stories", "rotina de stories", "campanha de 5 dias", "story infiltrado". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines, faz a headline primeiro), nem pro carrossel (soft-conteudo-carrossel), reel (soft-conteudo-reels) ou adaptação multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), arte/PNG/visual (soft-designer), ou carta/VSL/venda (soft-funil).
 ---
 
 # Stories, o arco de conversão diária
@@ -46,6 +46,8 @@ O arco do dia precisa de um eixo. **Assume que a HEADLINE/abertura já foi escol
 Ordem: primeiro garante o eixo (sem headline/eixo do dia, resolve na soft-conteudo-headlines antes, como diz o início deste passo). Com o eixo na mão, se o pedido for ambíguo pergunta UMA vez; CARO é o default quando o cliente só diz "stories de hoje".
 
 ## Passo 2, monta o arco do sistema certo
+
+**Régua de teto por bloco (benchmark Storrito 2026):** arco com 1-3 frames por movimento fecha com completion de 75%; bloco com 7+ frames seguidos derruba pra 50%. Regra: bloco enxuto, 1-3 frames por movimento do arco, e nunca 7 ou mais frames em sequência sem uma virada (novo movimento, pergunta, prova ou CTA).
 
 **CARO, a rotina do dia (3-7 frames).** Quatro tipos, cada um com função. A Oferta só entra se couber na regra (não abre o dia, máx 2-3x/semana).
 - **C, Caixinha.** Pergunta plantada, ligada ao método ou à dor real do cliente, nunca genérica ("me conta de você"). A resposta vira pauta amanhã e revela intenção de compra. Tipo mais importante: prova competência E abre CTA natural.

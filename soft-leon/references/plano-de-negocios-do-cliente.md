@@ -20,7 +20,7 @@
 ## Output — adapta ao ambiente (regra do Léo)
 
 - **No chat (Claude.ai):** entrega em **Markdown** limpo, formato mapa-mental (tópicos por macro-tema + bullets com exemplo). Simples, sem firula.
-- **No Claude Code:** **renderiza e publica** como **site** — reusa o motor da `soft-proposta-comercial` (Layout Soft, link único e privado, chat=MD / code=site), com a ID visual do cliente (`soft-designer`).
+- **No Claude Code:** **renderiza e publica** como **site** — reusa o motor da `soft-vendas-proposta` (Layout Soft, link único e privado, chat=MD / code=site), com a ID visual do cliente (`soft-designer`).
 
 > Regra: `chat → MD · code → site`. Mesmo conteúdo, destino diferente.
 

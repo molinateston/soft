@@ -219,7 +219,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** AIDA enxuto, com a data fazendo o papel de urgência real.
 
-**Roteia pra irmã?** Se o evento é um WEBINAR (perpétuo ou ao vivo), as páginas de cadastro/obrigado/checkout são `soft-webinar-paginas`. Este tipo aqui serve evento presencial ou aula avulsa que NÃO é o sistema de webinar.
+**Roteia pra irmã?** Se o evento é um WEBINAR (perpétuo ou ao vivo), as páginas de cadastro/obrigado/checkout são `soft-webinar`. Este tipo aqui serve evento presencial ou aula avulsa que NÃO é o sistema de webinar.
 
 **Exemplo de nicho fictício (sommelier que dá aula de vinho):**
 
@@ -248,7 +248,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** direto, sem arco longo. Confirma, avança.
 
-**Roteia pra irmã?** Página de obrigado de WEBINAR é `soft-webinar-paginas`.
+**Roteia pra irmã?** Página de obrigado de WEBINAR é `soft-webinar`.
 
 **Exemplo de nicho fictício (terapeuta de casais):**
 
@@ -278,7 +278,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** Slippery Slide leve (cada linha puxa a próxima), com a janela como urgência verdadeira.
 
-**Roteia pra irmã?** Replay de WEBINAR é `soft-webinar-paginas`. Este tipo serve replay de aula/evento avulso.
+**Roteia pra irmã?** Replay de WEBINAR é `soft-webinar`. Este tipo serve replay de aula/evento avulso.
 
 **Exemplo de nicho fictício (professor de violão):**
 

@@ -4,7 +4,7 @@
 
 O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do Harry + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
 
-> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinario) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo invoca as atômicas na ordem.
+> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinar) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo invoca as atômicas na ordem.
 
 ---
 
@@ -43,31 +43,31 @@ Gates, um por linha:
 
 ## FUNIL WEBINAR (degrau 2)
 
-Igual ao FUNIL SOFT na fundação e na atração; o miolo troca a Carta pelo webinário (as 5 atômicas de webinar), com um gate de maturidade na entrada.
+Igual ao FUNIL SOFT na fundação e na atração; o miolo troca a Carta pela `soft-webinar` UNIFICADA (as 6 etapas num POP só), com um aviso de maturidade na entrada (consultivo, sem porteiro).
 
 ```
-gate de maturidade   (audiência + faturamento + produto + habilidade aguentam o degrau 2? se não, fica no FUNIL SOFT)
+aviso de maturidade   (1 linha: validar barato antes costuma render mais; dá pra seguir mesmo assim)
         ↓
-soft-posicionamento  → soft-conteudo-headlines → -carrossel/-reels/-stories → soft-designer   (atração, idêntica)
+soft-plano-posicionamento  → soft-conteudo-headlines → -carrossel/-reels/-stories → soft-designer   (atração, idêntica)
         ↓
-soft-webinar-plano      (desenha a oferta ANTES da aula; o resto do webinar nasce dela)
+soft-webinar   Etapa CONSULTIVA (entrevista de 11 blocos + pesquisa de mercado; perpétuo vs ao vivo = parâmetro)
         ↓
-soft-webinar-script      (a AULA: roteiro + slides numa coisa só, ADMA + motor de 3 viradas + objeções aniquiladas + perpétuo vs ao vivo; o visual fino do deck = soft-designer)
+soft-webinar   Etapa OFERTA (stack tripartida, bônus-âncora, 15-primeiros, régua de preço por faixa)
         ↓
-soft-webinar-paginas     (cadastro/obrigado/checkout)
+soft-webinar   Etapa AULA (roteiro SLIDE A SLIDE: título + objetivo + conteúdo; passe adversarial; emite o timestamp da oferta; render fino do deck = soft-designer)
         ↓
-soft-webinar-mensagens   (e-mails + WhatsApp pré/pós)
+soft-webinar   Etapa PÁGINAS (cadastro/obrigado/checkout)
         ↓
-soft-webinar-mensagens  (tags/CRM + chat simulado) → soft-vendas-*   (fechamento 1:1)
+soft-webinar   Etapas MENSAGENS (réguas + máquina de tags) e CHAT (consome o timestamp) → soft-vendas-*   (fechamento 1:1)
 
-(banner pra encher a sala = soft-conteudo-headlines + soft-designer, igual qualquer criativo · a gravação do perpétuo vive DENTRO da aula soft-webinar-script)
+(banner pra encher a sala = soft-conteudo-headlines + soft-designer, igual qualquer criativo · a gravação do perpétuo vive DENTRO da Etapa AULA)
 ```
 
-- **gate de maturidade**: o LEON só sobe pro degrau 2 quando audiência, faturamento, produto e habilidade pedem. Não cabe? Fica no degrau 1.
-- **a oferta vem antes do roteiro** (soft-webinar-plano antes de soft-webinar-script). Cada atômica de webinar tem o gate embutido; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
+- **aviso de maturidade**: quando audiência/faturamento/produto ainda não validaram, o LEON dá o aviso consultivo de 1 linha e segue com a decisão do dono (SEM porteiro).
+- **a oferta vem antes do roteiro** (dentro da soft-webinar: Etapa OFERTA antes da Etapa AULA). O gate vem embutido em cada etapa; nicho regulado (saúde/jurídico/finanças) também passa o gate-regulado do crivo.
 - **fechamento**: high-ticket (3k+) fecha no Comercial 1:1 (soft-vendas-*), nunca no checkout.
 
-> **Material privado do autor do método:** o webinar REAL dele (case proprietário, calls, frameworks proprietários) NÃO está nas 9 atômicas genéricas (são client-safe). Ele vive na `soft-webinario` (rica, privada, restrita ao autor, fonte+bot, nunca em plugin público).
+> **Material privado do autor do método:** o webinar REAL dele (case proprietário, calls, frameworks proprietários) NÃO está na skill genérica `soft-webinar` (client-safe). Ele vive na skill privada do autor (rica, restrita, fonte+bot, nunca em plugin público).
 
 ---
 

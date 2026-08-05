@@ -1,6 +1,6 @@
 ---
 name: soft-conteudo-carrossel
-description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Âncora, "post de feed" sem formato dito é carrossel (o default do feed); só sai daqui se o pedido nomear reel, stories ou outra plataforma. Parte da headline já escolhida, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed" (sem formato dito), "monta um carrossel". NÃO use pra HEADLINE/gancho/capa isolada (soft-conteudo-headlines); esta skill parte da headline já pronta e escreve o corpo que vem depois dela.
+description: Escreve o CORPO de um carrossel de feed do método Soft, da capa ao CTA, a peça que mais converte no feed. Parte da headline já escolhida, abre o loop, conduz pela Fórmula 7 (arco ADMA) em 7 a 10 slides com uma tese por slide, e passa o carrossel inteiro pelo gate (densidade + as 3 perguntas do Harry + C/U/B + CTA + anti-IA) antes de mostrar. Use quando o pedido for "carrossel", "post de feed", "slides do carrossel", "corpo do carrossel", "escreve um carrossel", "monta um carrossel". NÃO use pra HEADLINE/gancho/capa/abertura isolada (soft-conteudo-headlines), nem pra arte/PNG/visual/design dos slides (soft-designer), nem pra reel (soft-conteudo-reels), stories (soft-conteudo-stories) ou multiplataforma (soft-conteudo-multiplataforma), nem pro Plano/posicionamento (soft-posicionamento), nem pra carta/VSL/venda (soft-funil).
 ---
 
 # Carrossel, a peça que move a decisão
@@ -31,6 +31,70 @@ Três estados de entrada (já com a headline na mão, declara qual é o seu ante
 - **Sem nenhuma fonte de fala:** pergunta numa única mensagem (nicho em 1 linha + 1 dor real que o cliente fala) e segue daí.
 
 A fundação (quando existe, do Plano): tese central · top 3 inimigos nominais · mecanismo nomeado · lista do "não defendo" · cliente em uma frase. A base não se inventa aqui, vem do Plano. Sem ela, a peça vira jornalismo que atrai estranho.
+
+## Passo 0.1, escolhe o FORMATO (os 7 canônicos)
+
+Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. São **7 formatos canônicos**, cada um serve um tipo de tema/objetivo diferente. O arco APSD (Fórmula 7) continua sendo o esqueleto conceitual, mas cada formato DISTRIBUI o arco de um jeito.
+
+**Como escolher (router):** olha o TEMA + a INTENÇÃO da peça e recomenda **2 formatos** que encaixam, com 1 linha de razão cada. O dono decide. Nunca cravar 1 sozinho, sempre 2 pra ele escolher (formato é decisão editorial que muda a peça inteira).
+
+**Duas regras duras que valem em TODOS os formatos:**
+1. **CTA canônico obrigatório.** O slide final segue uma das 7 formas de CTA do Passo 3 (Direct com palavra-senha, Comentário, Siga com razão, Batida Emocional, Filtro Duro, Convite Específico, P.S. que vira CTA). Nunca CTA improvisado, nunca sem destino.
+2. **Slides livres.** Número de slides varia por formato (2 no Promessa+CTA, 5-10 nos outros). NÃO forçar 10 slides quando o formato pede menos.
+
+### Formato 1, Problema Solução
+**Quando escolher:** tema pesado, dor real do avatar, você tem prova/case pra sustentar. É o "faz-tudo" que mais vende. Default quando o pedido é vago.
+**Espinha (7-10 slides):** capa (hook confronta crença) · slide 2 abre loop mais fundo · diagnóstico (2 slides, a cena do leitor) · vilão nomeado · nova oportunidade · mecanismo função (2 slides) · prova + CTA.
+**Exemplo de capa (SIA):** *"Você não precisa de mais um ChatGPT. Precisa de um sócio que abre a agenda sem você pedir."*
+**Erro clássico:** slide 2 responde a capa em vez de aprofundar; mecanismo vira tutorial.
+**Base:** o Passo 2 (Fórmula 7 APSD completa) desta skill é ESTE formato.
+
+### Formato 2, Lista
+**Quando escolher:** tema que naturalmente se organiza em itens ("N sinais de", "N erros que", "N coisas que"). Ótimo pra alcance e salvar.
+**Espinha (6-9 slides):** capa (headline lista: "5 sinais de que...") · 1 item por slide (cada item é micro-diagnóstico ancorado em cena) · penúltimo slide vira a chave (o padrão que os itens revelam) · último slide CTA canônico.
+**Exemplo de capa (SIA):** *"5 sinais de que o teu 'sócio IA' é só um ChatGPT com prompt bonito."*
+**Erro clássico:** itens virarem lista genérica de conselho ("seja mais consistente"); vira "listículo" sem tese.
+**Regra do formato:** cada item se explica sozinho E aponta pra mesma tese-mãe. Nunca listar 5 coisas desconexas.
+
+### Formato 3, Problema Solução Rápido
+**Quando escolher:** mesmo tema do formato 1 mas você quer postar mais na semana; tema simples que não pede 10 slides pra maturar.
+**Espinha (5-6 slides):** capa · slide 2 aprofunda · diagnóstico em 1 slide (não 2) · nova oportunidade · mecanismo função + CTA no mesmo slide OU CTA separado.
+**Exemplo de capa (SIA):** *"O motivo do teu ChatGPT esquecer tudo toda vez que você abre uma conversa nova."*
+**Erro clássico:** achar que "rápido" é raso; o corte é de REDUNDÂNCIA, não de tese. Densidade continua a mesma.
+**Regra do formato:** mantém ≥5 teses distintas em 5-6 slides.
+
+### Formato 4, Dualidade (isso versus aquilo)
+**Quando escolher:** quer FILTRAR forte, posicionar contra o mercado, mostrar categoria nova. Cara a cara.
+**Espinha (6-8 slides):** capa (dualidade nomeada: "Agente X Sócio") · slide 2 abre a tensão · slides do meio alternam: "como todo mundo faz / como você faz" (3-4 pares) · slide de virada nomeia por que a diferença muda o jogo · CTA filtrante.
+**Exemplo de capa (SIA):** *"Agente responde. Sócio abre a agenda."*
+**Erro clássico:** comparações cosméticas ("mais rápido" vs "mais lento"); dualidade precisa ser categórica, não gradual.
+**Regra do formato:** cada par tem que sustentar a MESMA fratura (o mesmo eixo de decisão), não misturar critérios.
+
+### Formato 5, Promessa + CTA (dois slides)
+**Quando escolher:** manter presença sem produzir demais; tema que morre esticado; capa forte que já entrega a virada.
+**Espinha (2 slides):** slide 1 = promessa/virada completa (não é capa que abre loop, é capa que ENTREGA a tese) · slide 2 = CTA canônico com palavra-senha + o que a pessoa recebe.
+**Exemplo de capa (SIA):** *"Sábado 14h, parque com a Alice, LEON operando. Comenta LEON e te mando como funciona."*
+**Erro clássico:** slide 1 curto demais que não entrega nada; sem contexto do resultado, vira frase de motivação.
+**Regra do formato:** o slide 1 tem que sustentar a peça INTEIRA sozinho. Se depende do slide 2 pra fazer sentido, virou capa órfã.
+
+### Formato 6, Oportunidade Amplificada
+**Quando escolher:** tema é uma janela de MERCADO/MOMENTO/TECNOLOGIA que tá aberta agora e 99% ignora. Bom pra tese ampla (categoria nova).
+**Espinha (7-9 slides):** capa (nomeia a oportunidade + o custo de ignorar) · slide 2 mostra que a janela existe AGORA (fato/dado/sinal) · 2-3 slides amplificam: por que 99% não vê, o que os poucos que veem já colhem, o tamanho da diferença · slide de mecanismo (como capturar a oportunidade) · caso/prova · CTA convite específico.
+**Exemplo de capa (SIA):** *"A janela pra virar Sócio IA da tua empresa fecha quando todo mundo perceber que dá. Hoje ainda não é todo mundo."*
+**Erro clássico:** "oportunidade" vaga (hype geral de IA); precisa ser janela ESPECÍFICA com custo de ignorar nomeado.
+**Regra do formato:** amplifica com FATO/DADO/SINAL, não com adjetivo ("gigante", "histórico", "único").
+
+### Formato 7, Utilidade Viral
+**Quando escolher:** planta autoridade sem vender direto; gera share alto; tema é "como fazer X" prático.
+**Espinha (6-9 slides):** capa (utilidade nomeada: "Como fazer X sem Y") · slides do meio entregam o passo/dica com CENA real · penúltimo slide conecta a utilidade à tese-mãe (por que quem domina isso escala) · último slide CTA canônico (comentário/direct).
+**Exemplo de capa (SIA):** *"Como instalar um segundo cérebro pro teu negócio em 1 tarde."*
+**Erro clássico:** virar tutorial completo executável (a Faca Soft reprova: dá o tijolo, não a planta); OU utilidade solta sem conexão com o método.
+**Regra do formato:** a utilidade é REAL (o leitor sai com algo aplicável), mas a **profundidade fica no método**. Ensina o QUE, sugere o COMO, guarda o PORQUÊ COMPLETO.
+
+---
+
+**Depois de escolher o formato:** volta pro Passo 1 (mapa de densidade), mas o número de teses/slides e a distribuição do arco APSD **seguem a espinha do formato escolhido**, não o default 7-10 da Fórmula 7 pura.
+
 
 ## Passo 1, declara a camada e monta o mapa de densidade (ANTES de escrever frase)
 **Primeiro a camada (atração é funil, não bloco).** Decide a que camada este carrossel serve: muda a capa e o nível de filtro:

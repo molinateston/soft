@@ -98,7 +98,7 @@ Output enxuto com headlines + aviso curto ao final:
 
 ---
 
-*Headlines geradas em modo input livre, sem fundação empacada do Plano de Posicionamento. Pra headlines mais cravadas (com inimigo nominal real e tese central empacada), vale rodar o Plano. A skill `soft-posicionamento` faz em 30-45 minutos.*
+*Headlines geradas em modo input livre, sem fundação empacada do Plano de Posicionamento. Pra headlines mais cravadas (com inimigo nominal real e tese central empacada), vale rodar o Plano. A skill `soft-plano-posicionamento` faz em 30-45 minutos.*
 ```
 
 O aviso aparece **uma vez** por sessão. Se o cliente continuar gerando headlines no mesmo modo, skill não repete.

@@ -4,7 +4,7 @@ Esta reference é a profundidade do **MODO PÁGINA RICA (Passo 7 do SKILL.md)**.
 
 > **Marca-neutra.** Todos os exemplos aqui são de **nicho FICTÍCIO** (uma confeiteira que ensina bolo de pote, um personal de reabilitação de ombro, um professor de inglês pra entrevista). Os slots ficam marcados `[A CONFIRMAR]` no que faltar (número, prova, oferta), nunca preenchidos com plausível. O cliente traz a fundação; a página só veste a prova mais forte que ele tem.
 
-> **Modela em 2 irmãs.** A régua, a bio e as provas na moeda vêm da `soft-webinar-paginas` (degrau 2). O argumento de 7 passos e os blocos de copy vêm da `soft-funil-carta` e do `discurso-base-7-passos.md` desta própria skill. Aqui é UMA página de hospedagem do mini-webinar, não as 3 páginas (cadastro/obrigado/checkout) do webinário completo.
+> **Modela em 2 irmãs.** A régua, a bio e as provas na moeda vêm da `soft-webinar` (degrau 2). O argumento de 7 passos e os blocos de copy vêm da `soft-funil-carta` e do `discurso-base-7-passos.md` desta própria skill. Aqui é UMA página de hospedagem do mini-webinar, não as 3 páginas (cadastro/obrigado/checkout) do webinário completo.
 
 ---
 

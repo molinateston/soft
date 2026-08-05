@@ -1,6 +1,6 @@
 ---
 name: soft-designer
-description: "A skill ÚNICA de design VISUAL do método Soft. Recebe a tese/copy de uma skill de conteúdo (soft-conteudo) ou do usuário e produz o ARQUIVO final: carrossel PNG 1080x1350, banner estático, ou deck de slides 16:9. Escreve a copy-visual (headline do banner, texto de cada card, título de cada slide) pelo Crivo e renderiza em HTML/CSS com 3 famílias de estilo, exportando PNG que quebra padrão no feed. Use quando o pedido for design, arte, PNG, banner, slides visuais, exportar imagem, 'faz o carrossel', 'cria o banner', 'monta o visual', 'transforma essa copy em arte'. Esta skill produz o ARQUIVO visual final; quem escreve o texto/copy que ela recebe é soft-conteudo-*."
+description: "A skill ÚNICA de design VISUAL do método Soft. Recebe a tese/copy de uma skill de conteúdo (soft-conteudo) ou do usuário e produz o ARQUIVO final: carrossel PNG 1080x1350, banner estático, ou deck de slides 16:9. Escreve a copy-visual (headline do banner, texto de cada card, título de cada slide) pelo Crivo e renderiza em HTML/CSS com 3 famílias de estilo, exportando PNG que quebra padrão no feed. Use quando o pedido for design, arte, PNG, carrossel visual, banner, slides visuais, capa, diagrama, exportar imagem, 'faz o carrossel', 'cria o banner', 'desenha os slides', 'monta o visual', 'transforma essa copy em arte'. NÃO use pra escrever a headline/gancho de texto (vai pra soft-conteudo-headlines), nem o CORPO de texto longo, caption, roteiro ou carta (vai pra soft-conteudo), nem o posicionamento (vai pra soft-posicionamento), nem os slides operados dentro do webinar (vão pra soft-webinar)."
 ---
 
 # Soft Designer, a única skill de visual
@@ -28,7 +28,7 @@ Lê o perfil do usuário (`shared-references/crivo/00-perfil-do-usuario.md`): av
 
 Lê também a **identidade visual do cliente** (`references/identidade-visual-cliente.md`): cores, fontes e formato são DELE. A skill é marca-neutra, não tem visual próprio, cada cliente desenha na marca dele. Se a ID está no perfil, ela manda no Passo 2 (e você não pergunta cor/fonte). Se não está, o Passo 2 pergunta e oferece salvar.
 
-O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinario`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
+O que ENTRA: a tese ou briefing da peça (de `soft-conteudo`, `soft-webinar`, `soft-lancamento-pago`, ou do usuário direto). Pode vir só o tema, pode vir copy longa de apoio. O que NÃO vem pronto é a **copy-visual** (a frase que vai dentro do desenho): isso é trabalho daqui.
 
 A copy-visual obedece o Crivo como qualquer peça:
 1. **Ancora:** puxa o verbatim real do público do usuário sobre o tema (`shared-references/crivo/01-entrada-verbatim.md`). A capa e os cards nascem de palavra real, não de rótulo.
@@ -90,7 +90,7 @@ Este é o gate que **funciona em qualquer ambiente, inclusive o Claude Chat**, e
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
-| **Contraste por pele** | cada bloco de texto tem contraste forte contra o fundo IMEDIATO atrás dele (mira WCAG ≥ 3:1, AA 4.5:1 no corpo). **Pele clara → texto escuro `#1a1814` + accent escuro (verde `#147a3c`, NUNCA o neon `#4ade80` que some no creme); pele escura → texto claro.** Texto claro em fundo claro = ✗ automático. Teste: se você "sabe" que o texto está lá mas mal enxerga, é bug, não "sutil" | |
+| **Contraste por pele** | cada bloco de texto tem contraste forte contra o fundo IMEDIATO atrás dele (mira WCAG ≥ 3:1, AA 4.5:1 no corpo). **Pele clara → texto escuro `#1a1814` + accent escuro (verde `#147a3c`, NUNCA o neon `[COR-DE-ACAO do dono via config]` que some no creme); pele escura → texto claro.** Texto claro em fundo claro = ✗ automático. Teste: se você "sabe" que o texto está lá mas mal enxerga, é bug, não "sutil" | |
 | **Anti-órfã** | NENHUMA palavra sozinha na última linha de um bloco. Última linha com 1 palavra, ou 2 palavras somando < 8 caracteres ("é só", "no a") = ✗. Termo composto (marca, R$3k, "Soft Business", 48h) quebrado entre linhas = ✗. Corrige puxando 1 palavra da linha anterior | |
 | **Diagrama forte** | se a peça tem diagrama/gráfico/seta: traço **5–6px** (1–2px some no thumbnail = ✗) + **marcador semântico** (✕ vermelho = errado/morto · ✓ ou `$` verde = certo/dinheiro · ↑ = cresce; linha pelada sem marcador = ✗) + **rótulo** do que cada parte é (diagrama sem contexto = adivinhação = ✗) + grande o bastante pra ocupar o espaço. Sem diagrama na peça = N/A (✓) | |
 | **1 ideia por peça** | o card/slide carrega UMA ideia, fechando numa frase-conclusão. Duas mensagens competindo pelo olho = ✗. No banner: um ponto focal só (hook OU número OU imagem, nunca dois) | |
@@ -116,8 +116,8 @@ Saída: `slide_01.png`, `slide_02.png`, … (zero-padding de 2 dígitos). Move p
 - Pediu a **headline/gancho de TEXTO** (não a arte) → **soft-conteudo-headlines**.
 - Pediu o **CORPO de texto longo, caption, roteiro, carta, e-mail** → **soft-conteudo** (e sub-skills).
 - Pediu o **Plano / posicionamento / fundação** → **soft-posicionamento**.
-- Pediu os **slides operados DENTRO do webinar** (deck do roteiro do webinário) → **soft-webinar-slides**.
-- Pediu **anúncios de tráfego do webinar** como sistema → **soft-conteudo-impulsionar** (a arte do banner volta pra cá quando precisar renderizar).
+- Pediu os **slides operados DENTRO do webinar** (deck do roteiro do webinário) → **soft-webinar**.
+- Pediu **anúncios de tráfego do webinar** como sistema → **soft-trafego-meta** (a arte do banner volta pra cá quando precisar renderizar).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

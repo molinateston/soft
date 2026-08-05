@@ -6,7 +6,7 @@ Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela e
 
 > **Marca-neutra.** Todos os exemplos de slide aqui são de **nicho FICTÍCIO** (um estúdio de cerâmica, um nutricionista de corredores, uma escola de violão online). O slot do nome do método, dos bordões e dos polos da dicotomia fica marcado `(a definir com o usuário)`, nunca inventado nem decalcado de outra marca. Os números são ilustrativos e marcados como tal; número de verdade só sai do que o cliente confirmou.
 
-> **Modela na irmã do degrau 2.** A engenharia vem da `soft-webinar-slides` e da ref `geracao-de-slides.md` do webinário completo. A diferença é a ESCALA: aqui o deck é enxuto (~12 a 20 slides, não 72) e SEM a maquinaria de oferta (stack/preço/queda riscada), porque o mini-webinar é degrau 1 e a Ação convida pro 1:1, não fecha no checkout.
+> **Modela na irmã do degrau 2.** A engenharia vem da `soft-webinar` e da ref `geracao-de-slides.md` do webinário completo. A diferença é a ESCALA: aqui o deck é enxuto (~12 a 20 slides, não 72) e SEM a maquinaria de oferta (stack/preço/queda riscada), porque o mini-webinar é degrau 1 e a Ação convida pro 1:1, não fecha no checkout.
 
 ---
 
@@ -128,7 +128,7 @@ São os arquétipos que o degrau 1 usa. É um **subset** dos 18 do webinário co
 - **Slide instanciado (nicho: nutricionista de corredores):** **"Manda CORRIDA no meu direct."** + sub *"não é compra, é conversa: eu te explico e você decide"*.
 - **Leitura Soft:** o destino é sempre um canal humano que captura o indeciso pro 1:1. Nada de "saiba mais" vago. Sem stack, sem preço seco, sem checkout na tela.
 
-> **O que o degrau 1 NÃO usa.** Os arquétipos de oferta do webinário completo (âncora externa alta, stack-nota-fiscal somado, queda em degraus riscada, redução ao ridículo do preço por dia, escassez + FAQ matador de fechamento) ficam de fora. Eles são a maquinaria de venda do degrau 2 (`soft-webinar-slides`). Aqui a Ação é leve e convida pro 1:1.
+> **O que o degrau 1 NÃO usa.** Os arquétipos de oferta do webinário completo (âncora externa alta, stack-nota-fiscal somado, queda em degraus riscada, redução ao ridículo do preço por dia, escassez + FAQ matador de fechamento) ficam de fora. Eles são a maquinaria de venda do degrau 2 (`soft-webinar`). Aqui a Ação é leve e convida pro 1:1.
 
 ---
 

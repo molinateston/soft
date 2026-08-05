@@ -149,7 +149,7 @@ Critérios para impulsionar:
 - O conteúdo do Reel fala com público amplo (não só nicho).
 - O CTA direciona para perfil, não para venda direta.
 
-Para detalhes de configuração do Botão Turbinar, consulte a skill `soft-conteudo-impulsionar`.
+Para detalhes de configuração do Botão Turbinar, consulte a skill `soft-trafego-meta`.
 
 ---
 
