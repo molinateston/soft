@@ -301,6 +301,11 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 - Pediu o **Plano / posicionamento / perfil** → **soft-plano-posicionamento**.
 - Pediu **diagnóstico de Story pago / infiltrado** → **soft-conteudo-stories**.
 
+## GATE DURO ANTES DE EXECUTAR (checklist bloqueante, confere item a item)
+1. Algum viral de capa ampla recebendo verba? SO com objetivo de CONVERSAO profunda. OUTCOME_TRAFFIC, engajamento ou ThruPlay em viral amplo = plano REPROVADO, refaz.
+2. A distribuicao 50/30/20 esta integra? Sumir com a fatia de remarketing sem justificativa escrita = REPROVADO.
+3. O plano imprime o ROI mensal ABSOLUTO (nao so ROAS)? Sem ele o Output Contract nao foi cumprido: nao entrega.
+
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |
 |---|---|

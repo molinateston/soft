@@ -17,6 +17,9 @@ O que **não muda** entre pago e gratuito: a sequência (gerar demanda antes →
 
 > Como todo funil Soft, é **+ Comercial**: o lançamento QUALIFICA o lead (gera o "sim do produto"); o fechamento 3k+ é no 1:1 (`soft-vendas-closer`), nunca no checkout. O marketing entrega quente; a venda é da `soft-vendas-closer`. A operação que materializa isso está em `references/aplicacao-e-comercial-operado-por-ia.md`.
 
+## REGRA DE BLOQUEIO (le ANTES de qualquer etapa)
+O Modo A (diagnostico das 6 variaveis + veredito) e BLOQUEANTE: roda primeiro, mostra o veredito e PARA esperando o OK. Entregar as etapas em lote, sem gate e sem STOP, e defeito que REPROVA a entrega inteira: refaz do Modo A. Cada etapa desce ao chao (denso), nunca 2-4 linhas adiando conteudo.
+
 ## Princípio raiz
 > **Lançamento é ferramenta, não estratégia. Funciona muito aplicado certo (pago ou gratuito), destrói o negócio quando vira repetição cega.**
 
