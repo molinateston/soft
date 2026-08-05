@@ -1,6 +1,6 @@
 ---
 name: soft-trafego-meta
-description: 'DECIDE e EXECUTA o tráfego pago Meta. Primeiro a CABEÇA: o que turbinar (peça que JÁ provou no orgânico), verba, dias, público (amplo Advantage+ por default, o criativo segmenta), a distribuição 50/30/20, a régua de custo por seguidor, ROAS de palco vs ROI real, o Modo Avaliar da peça, e o diagnóstico da campanha que não retorna. Depois a MÃO: cria/sobe campanha ODAX na conta do dono, sobe criativo, publica post, liga o comment-to-DM, lê a métrica da conta, escala ou pausa (com a pipeboard executa via tools reais; sem ela entrega o plano pronto pro Gerenciador; tudo nasce PAUSED). Use quando o pedido for "impulsionar", "turbinar", "verba", "ROAS", "custo por seguidor", "Advantage+", "regra automatizada", "sobe/pausa/escala a campanha", "comment-to-DM", "métricas da conta", "avaliar a peça antes de publicar", "anúncio não retorna". NÃO use pra COPY/CTA do anúncio (soft-conteudo-*), ARTE (soft-designer), lançamento (soft-launch), posicionamento (soft-plano-posicionamento).'
+description: 'DECIDE e EXECUTA o tráfego pago em 3 plataformas. Primeiro a CABEÇA: escolhe a plataforma (onde o avatar está + CPL relativo, Meta ~2,5x mais barato no Brasil como default; Google pra demanda ativa de busca; TikTok pra alcance jovem com criativo nativo), o que turbinar (peça que JÁ provou no orgânico), verba, dias, público, o 50/30/20, ROAS vs ROI real e o diagnóstico do que não retorna. Depois a MÃO: no Meta, a via completa, cria campanha ODAX na conta do dono, sobe criativo, publica post, liga o comment-to-DM, lê a métrica, escala ou pausa (nasce PAUSED); no Google Ads (Search, PMax, Demand Gen, tCPA/tROAS) e no TikTok Ads (Spark, Smart+) entrega o PLANO PRONTO PRA COLAR no gerenciador. Use quando o pedido for "impulsionar", "turbinar", "verba", "ROAS", "tráfego pago", "qual plataforma anunciar", "Google Ads", "PMax", "TikTok Ads", "Spark", "sobe/pausa/escala a campanha", "comment-to-DM", "métricas da conta". NÃO use pra COPY/CTA do anúncio (soft-conteudo-*), ARTE (soft-designer), lançamento (soft-launch).'
 ---
 
 # Tráfego Meta: primeiro DECIDE, depois EXECUTA
@@ -28,6 +28,25 @@ Tráfego pago não substitui posicionamento, acelera o que já funciona organica
 
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE
 O RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code / agente**, um **arquivo `.md`** salvo no disco cujo **path completo vai na resposta**. A CONDUÇÃO (perguntas, os STOPs de aprovação, "pode ativar?") acontece no chat; o RUNBOOK/checklist/IDs moram no DOC. No agente/Telegram, a resposta ao dono é sem markdown pesado (sem tabela crua, sem bloco de código gigante): frase curta + o path do arquivo. Sem o doc entregue, a skill não terminou.
+
+---
+
+# PASSO P0: ESCOLHE A PLATAFORMA (antes da PARTE A)
+
+Esta skill cobre 3 plataformas. **Meta é a via completa** (decide E executa na conta, todo o corpo abaixo, nada do que segue muda); **Google Ads e TikTok Ads entregam o PLANO PRONTO PRA COLAR** no gerenciador de cada uma (sem execução via API por enquanto), com o cérebro de cada plataforma em `references/google-ads.md` e `references/tiktok-ads.md`. A PARTE A (pré-requisitos, funções, régua, ROI) roda igual pra qualquer plataforma; o que muda é a mão da PARTE B.
+
+**A régua de escolha (aplica na ordem):**
+1. **Onde o avatar está.** Plataforma sem o avatar não entra no plano, por mais barata que seja. Demanda ativa (gente JÁ buscando o problema no Google) = Google Search entra; público jovem + munição de vídeo nativo lo-fi = TikTok entra; todo o resto (e o avatar 45+ conservador em particular) = Meta.
+2. **CPL relativo.** Default Brasil: o Meta entrega o lead do perfil Soft na casa de 2,5x mais barato, então ele é o ponto de partida. Sai do Meta só com motivo declarado no plano: **Google** pra CAPTURAR demanda ativa de busca (o lead chega pronto e encurta o funil, o que paga o CPL maior); **TikTok** pra alcance jovem com criativo nativo (CPM 30-50% mais barato que o Meta, mas funil mais frio: o juiz é o CPL final, não o CPM).
+3. **Uma plataforma por vez.** Solo iniciando valida no Meta primeiro (é onde o método roda inteiro); a segunda plataforma só entra com a primeira dando ROI absoluto positivo e verba sobrando. Nunca dilui verba mínima em 3 frentes.
+
+## DOUTRINA DO DONO (camada comum, as 3 plataformas obedecem)
+Vale IGUAL em Meta, Google e TikTok; nenhum plano de nenhuma plataforma sai sem os 5:
+1. **Proteção do pixel/sinal:** otimiza SEMPRE por conversão PROFUNDA (agendamento, lead qualificado, compra), nunca clique/visualização/engajamento; rastreio verificado ANTES de ligar; o curioso não entra no sinal.
+2. **Capa por terreno:** anúncio nasce ESPECÍFICO (capa/gancho no Meta e no TikTok, keyword + headline no Google); o criativo é a segmentação, amplo genérico atrai curioso e suja o sinal.
+3. **ROI absoluto:** a decisão é o ROI mensal ABSOLUTO, nunca só ROAS/CPL/CPM de palco.
+4. **PAUSED por padrão:** tudo nasce pausado; ativar, escalar ou mudar verba é call separada com OK explícito do dono, em qualquer plataforma.
+5. **Teste antes de escalar:** só recebe verba o que JÁ provou (peça orgânica validada, Spark sobre post real, Search sobre demanda que existe); escala devagar (+20-50% por vez), salto reseta o aprendizado.
 
 ---
 
@@ -350,5 +369,7 @@ Mostra só o resultado LIMPO (IDs, permalink, métricas ou checklist) e PARA. N�
 - `references/ads-de-webinar.md`: a COPY do anúncio de tráfego frio que enche o WEBINAR (promessa do webinar em ADMA <15s, bateria ângulos×temperos, legenda, gate próprio). **Dirigida quando o tráfego pago for pra encher um webinar** (a verba/régua é a PARTE A; a arte é da soft-designer).
 - `references/motor-pipeboard.md`: as duas trilhas de conexão da pipeboard (A remote `meta-ads.mcp.pipeboard.co` com token, setup 2-min pro teste × B self-host BSL com Meta Developer App próprio pro produto), a auth de cada, o mapa das tools reais expostas (`create_campaign`/`create_adset`/`upload_ad_image`/`create_ad_creative`/`create_ad`/`get_insights`/`search_*`) e a licença BSL 1.1. **Fonte da verdade do motor de execução.**
 - `references/meta-api.md`: a Marketing API direta (endpoints + credenciais da casa) como caminho de execução real equivalente ao self-host, a estrutura oficial da campanha, os workflows canônicos (auditoria, criar SALES, não-entrega) e os anti-patterns técnicos da API. **Profundidade da via por token.**
+- `references/google-ads.md`: o cérebro do Google Ads 2025-2026 (Search vs PMax vs Demand Gen e quando cada um, estrutura de conta enxuta, a escada de lances tCPA/tROAS, públicos-sinal, criativos por formato, benchmarks EUA e Brasil com fonte, erros clássicos, e o checklist do plano pronto pra colar). **Dirigida quando o Passo P0 apontar Google.** Sem execução via API: a entrega é o plano manual.
+- `references/tiktok-ads.md`: o cérebro do TikTok Ads 2025-2026 (Spark Ads com o benchmark Nielsen, Smart+, formatos, a lei do criativo nativo lo-fi, benchmarks globais e Brasil com fonte, compliance, erros clássicos, e o checklist do plano pronto pra colar). **Dirigida quando o Passo P0 apontar TikTok.** Sem execução via API: a entrega é o plano manual.
 - `references/publicacao-e-automacao.md`: a publicação de post no `graph.instagram.com` (containers → carrossel → publish) e a automação comment-to-DM (campos, `quick_reply` vs `web_url`, Private Reply, os gotchas de hospedagem/cache/token). **Dirigida no Passo B3.**
 - `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` em qualquer CTA/copy que passar pela tua mão (reprova em-dash e a família proibida). No chat não roda.
