@@ -79,6 +79,25 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 - Checkpoint: **aprovar as imagens antes de animar.**
 - **Texto na tela passa pelo `soft-anti-ia`** antes de queimar (gancho, faixa, CTA).
 
+## GERAÇÃO DE VÍDEO POR IA (Higgsfield MCP — 12/08)
+
+Quando o dono pedir vídeo GERADO (cena nova, b-roll que não existe, personagem consistente
+entre criativos), o caminho é o MCP da Higgsfield (mcp.higgsfield.ai/mcp): reúne Kling 3,
+Veo 3, Sora 2 e afins numa conexão só, com personagem consistente (Soul) entre peças.
+
+**Pré-requisito (uma vez, do dono):** assinatura Higgsfield ativa + login OAuth feito POR ELE
+numa sessão interativa (o MCP não loga sozinho em servidor). Sem o MCP conectado, diga
+exatamente isso em 1 linha e siga com o que a edição local resolve — nunca finja gerar.
+
+**Regras de uso (duras):**
+1. ANTES de toda geração: conferir o custo em créditos e o saldo (dry-run). Sem conferir, não gera.
+2. Crédito é caro e evapora em vídeo: 1 geração por vez, aprovação do dono entre tentativas.
+   Nada de "gerei 5 versões pra você escolher".
+3. Vídeo demora minutos: use o padrão de trabalho assíncrono do MCP e avise o dono do prazo
+   real, em vez de segurar a conversa.
+4. Registre créditos gastos por peça APROVADA (a métrica que decide se a assinatura fica).
+5. Personagem consistente: crie o personagem UMA vez e reutilize; não treinar de novo por peça.
+
 ## CUSTO (referência)
 Veo 720p ~$0,10/s → take de 8s = $0,80. Imagem gpt-image-2 ~$0,165. Vídeo de 60s ≈ 8 takes ≈ **~$8**. As chaves são do dono (paga OpenAI/Google direto).
 
