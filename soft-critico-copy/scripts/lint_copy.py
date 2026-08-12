@@ -253,5 +253,9 @@ if __name__ == '__main__':
     if len(sys.argv) >= 2 and sys.argv[1] not in ('--self-test', '--selftest', '--test'):
         arg = sys.argv[1]
         txt = sys.stdin.read() if arg == '-' else open(arg, encoding='utf-8').read()
+        # 12/08 (minerado do impeccable): o modelo que escreve a ENTIDADE HTML do travessao
+        # (&mdash; &#8212; &#x2014;) passava reto pelo contador. Decodifica ANTES de lintar.
+        import html as _html
+        txt = _html.unescape(txt)
         sys.exit(_run(txt))
     _self_test()
