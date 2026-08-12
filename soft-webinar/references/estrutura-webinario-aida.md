@@ -10,7 +10,7 @@
 >
 > **Esta reference é INSTRUÇÃO INTERNA da skill.** Ela dá ordem pra IA gerar o webinar DO CLIENTE, em QUALQUER nicho. Todo bloco está marcado **[UNIVERSAL]**: o esqueleto é lei, o tom e o exemplo são do avatar. Onde aparece um número, nome ou nicho concreto, está marcado **[EXEMPLO, não copiar literal, só ilustra]**. A skill não embute nenhum caso pessoal no método; ela conduz o usuário a preencher cada bloco com a verdade do nicho dele.
 >
-> **Antes de escrever cada bloco, abra o arquivo equivalente em `exemplos-por-bloco/`.** É a biblioteca de falas VERBATIM de 9 webinars que venderam (caso 13M, 5 Níveis, Gestão Ágil 2.0, GAIA2k, Aluna 80k/Pupim, corpusA/Vítor Abrão nutrição, corpusC/Bruno odonto, Fladlien #1 e #2). **Não duplique a biblioteca aqui: cada bloco APONTA pra ela** (ponteiro "→ `exemplos-por-bloco/NN-xxx.md`") e traz só o template de fala + um exemplo curto. Cada exemplo lá vem com **o que ele fez + por que funciona + o que é decalcável vs. do nicho**. Os trechos são **PREMISSAS demonstradas, nunca moldes pra decalcar (G2)**: extraia o porquê-funciona e reconstrua na voz do usuário. **Bordão, frase-mantra e nome de mecanismo TÊM DONO** (13M, Fladlien, Vítor Abrão, Bruno/Pupim): não se transplantam, viram SLOT a preencher COM o usuário. Os ponteiros "→ ver `exemplos-por-bloco/NN-xxx.md`" estão plantados em cada bloco abaixo, no ponto certo.
+> **Antes de escrever cada bloco, abra o arquivo equivalente em `exemplos-por-bloco/`.** É a biblioteca de falas VERBATIM de 9 webinars que venderam (caso GA, 5 Níveis, Gestão Ágil 2.0, GAIA2k, Aluna 80k/Pupim, corpusA/Vítor Abrão nutrição, corpusC/Bruno odonto, Fladlien #1 e #2). **Não duplique a biblioteca aqui: cada bloco APONTA pra ela** (ponteiro "→ `exemplos-por-bloco/NN-xxx.md`") e traz só o template de fala + um exemplo curto. Cada exemplo lá vem com **o que ele fez + por que funciona + o que é decalcável vs. do nicho**. Os trechos são **PREMISSAS demonstradas, nunca moldes pra decalcar (G2)**: extraia o porquê-funciona e reconstrua na voz do usuário. **Bordão, frase-mantra e nome de mecanismo TÊM DONO** (GA, Fladlien, Vítor Abrão, Bruno/Pupim): não se transplantam, viram SLOT a preencher COM o usuário. Os ponteiros "→ ver `exemplos-por-bloco/NN-xxx.md`" estão plantados em cada bloco abaixo, no ponto certo.
 
 > **A fala pronta verbatim de cada bloco está em `falas-prontas-por-bloco.md`.** Aqui está o mapa do bloco (a ordem, o porquê, o modelo curto, e os dois campos PERGUNTA-CHAVE + ESTADO ALVO abaixo); a fala inteira já escrita no tom Soft, com lacunas pra preencher, está na reference irmã. Quando for redigir o roteiro, abra as duas: esta dá a engenharia, aquela dá a fala.
 
@@ -63,7 +63,7 @@ Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação
 
 ## BLOCO 0: PRÉ-INÍCIO (5 minutos) **[UNIVERSAL]**
 
-> **→ Falas verbatim do corpus: `exemplos-por-bloco/01-pre-inicio.md`** (6 de 9 webinars têm o bloco; os 3 ausentes são gravações/evergreen, ausência é decisão de design). Achado-mestre: 13M e 5 Níveis abrem com o MESMO script palavra por palavra, o pré-início é ativo roteirizado de máquina, escrito uma vez e reusado, NÃO improviso.
+> **→ Falas verbatim do corpus: `exemplos-por-bloco/01-pre-inicio.md`** (6 de 9 webinars têm o bloco; os 3 ausentes são gravações/evergreen, ausência é decisão de design). Achado-mestre: GA e 5 Níveis abrem com o MESMO script palavra por palavra, o pré-início é ativo roteirizado de máquina, escrito uma vez e reusado, NÃO improviso.
 
 > **→ Falas prontas verbatim (já no tom Soft, com lacunas): `falas-prontas-por-bloco.md` § PRÉ-INÍCIO (PI.1-PI.3).**
 > **PERGUNTA-CHAVE:** "comente de onde você está falando / como está seu problema hoje?" (e "posso começar?", o 1º micro-sim).
@@ -88,7 +88,7 @@ Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação
 **Modelo [UNIVERSAL]:**
 > "Coloca no chat se você está me ouvindo, se está conseguindo ver o slide. Me dá 30 segundos pra ajeitar o microfone aqui."
 
-**EXEMPLO verbatim (13M/Gestão Ágil, 13M):** *"coloca nos comentários se vocês estão me ouvindo, se tá tudo ok aqui, se vocês estão conseguindo ver o slide... só para eu saber se tá tudo bem. Coloca nos comentários aqui para eu saber se tá bem, **se ninguém colocar eu não vou saber**. ah Lilian perfeitamente, Obrigado Lilian. Caroline, Rodrigo ouvindo... dá só um minutinho, um minuto não, **é 30 segundos**, só para eu ajeitar o microfone aqui, a gente já começa tá."*
+**EXEMPLO verbatim (GA/Gestão Ágil, GA):** *"coloca nos comentários se vocês estão me ouvindo, se tá tudo ok aqui, se vocês estão conseguindo ver o slide... só para eu saber se tá tudo bem. Coloca nos comentários aqui para eu saber se tá bem, **se ninguém colocar eu não vou saber**. ah Lilian perfeitamente, Obrigado Lilian. Caroline, Rodrigo ouvindo... dá só um minutinho, um minuto não, **é 30 segundos**, só para eu ajeitar o microfone aqui, a gente já começa tá."*
 
 **O mecanismo a roubar (não a fala):** o pedido vem com **razão funcional** ("se ninguém colocar eu não vou saber"), obedecer parece AJUDAR o host, não ceder a ele; e o **falso atraso declarado** ("30 segundos") segura a sala enquanto entra gente.
 
@@ -259,7 +259,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 
 **Princípio (metanoia, Brunson):** "ninguém quer saber da sua história, quer saber de resultado. MAS como você mudou a sua cabeça e achou essa solução é interessante." Conte a virada de mente, não a biografia.
 
-> **Específico do método Soft (anti-padrão de avatar):** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da 13M. O avatar Soft é DONO de negócio, o Soft constrói autoridade por **espelho de NEGÓCIO** (vida e números de dono, casos de alunos-donos), não por logo corporativo. A "carteira de trabalho" do avatar Soft é outro artefato: extrato, agenda lotada, contrato fechado. **Superlativo sempre terceirizado**, "melhor do mundo em X" vem de e-mail/mídia/aluno, nunca da própria boca.
+> **Específico do método Soft (anti-padrão de avatar):** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA. O avatar Soft é DONO de negócio, o Soft constrói autoridade por **espelho de NEGÓCIO** (vida e números de dono, casos de alunos-donos), não por logo corporativo. A "carteira de trabalho" do avatar Soft é outro artefato: extrato, agenda lotada, contrato fechado. **Superlativo sempre terceirizado**, "melhor do mundo em X" vem de e-mail/mídia/aluno, nunca da própria boca.
 
 ### Autoridade EMPRESTADA quando a sua é fraca **[UNIVERSAL]**
 
@@ -352,7 +352,7 @@ A culpa precisa ir pra ALGUÉM ou ALGO. **Nunca pro universo** (ninguém luta co
 
 **EXEMPLO de vilão que mira o COLEGA, não o lead (GAIA2k/Denison):** *"tem um gestor dinossauro aqui que está ficando desatualizado, eu chamo ele de **gestossauro**. Alguém CONHECE um gestossauro? Coloca nos comentários."*, a pergunta é "quem CONHECE um" (aponta pro outro), então dá pra rir do vilão sem se sentir o vilão.
 
-> **Atenção (nomes têm dono):** "dieta burra"/"modo sobrevivência" são do Vítor Abrão; "gestossauro"/"gestor do passado" são do Denison/13M; "resina é assim mesmo" é do webinar do Bruno. NÃO transplante. O NOME proprietário do vilão é SLOT a definir COM o usuário; a skill conduz o usuário a batizar o vilão DELE na linguagem do nicho.
+> **Atenção (nomes têm dono):** "dieta burra"/"modo sobrevivência" são do Vítor Abrão; "gestossauro"/"gestor do passado" são do Denison/GA; "resina é assim mesmo" é do webinar do Bruno. NÃO transplante. O NOME proprietário do vilão é SLOT a definir COM o usuário; a skill conduz o usuário a batizar o vilão DELE na linguagem do nicho.
 
 > **GATE DE FIDELIDADE (obrigatório antes de escrever o inimigo):** o inimigo = o inimigo LITERAL do Plano/raio-X herdado do avatar (Etapa 1), conferido contra a voz real do cliente. NUNCA um inimigo-default da sua cabeça (ex.: defaultar "lançamento" quando o avatar nem faz lançamento). Se o Plano nomeia a complexidade inteira (postar todo dia, direct, sessão grátis) como inimigo, é ISSO que entra - não um recorte que você achou mais "vendável". Antes de escrever, aponte de qual trecho do Plano herdado o inimigo saiu. Não saiu de lá = PERGUNTA, não inventa.
 
@@ -453,7 +453,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 > **Embuta a negação das objeções-mãe DENTRO da crença (Aluna 80k/Pupim):** *"Se eu posso, você também pode... e detalhe, **sem precisar falar inglês fluente e sem precisar validar diploma**"*, os dois maiores bloqueios negados dentro da própria frase. E **prova por precedente de elite** ("escritórios grandes fazem isso há décadas, eles só nunca te contaram como") torna a novidade crível porque é antiga.
 
-> **Atenção (G2 + voz):** "resina é meio" é do webinar do Bruno; "adesão/dieta burra/dieta inteligente" são do MDI/Vítor; "gestor do futuro"/"visão de floresta" são da 13M; "the more you serve, the more you can sell"/"one problem one solution one sitting" são do Fladlien. A frase-mantra do Webinar Soft é **SLOT**, tem que sair do vocabulário do PRÓPRIO usuário, validada com ele (a decisão metodológica é do usuário).
+> **Atenção (G2 + voz):** "resina é meio" é do webinar do Bruno; "adesão/dieta burra/dieta inteligente" são do MDI/Vítor; "gestor do futuro"/"visão de floresta" são da GA; "the more you serve, the more you can sell"/"one problem one solution one sitting" são do Fladlien. A frase-mantra do Webinar Soft é **SLOT**, tem que sair do vocabulário do PRÓPRIO usuário, validada com ele (a decisão metodológica é do usuário).
 
 ### Bloco 3.2: O mecanismo único nomeado (Brunson, Vehicle) (3-4 min) **[UNIVERSAL]**
 
@@ -482,7 +482,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **EXEMPLO verbatim, framework de 3 com o item nº1 CONTRAINTUITIVO (corpusA/Vítor):** *"como você identifica uma dieta inteligente: ela tem três pilares, são os três 'C': **comer muito**, comer gostoso e comer saudável."*, no nicho da restrição, o primeiro mandamento é "comer MUITO": cada pilar reverte um "não pode" do vilão. Os 3 C's são, ao mesmo tempo, o conteúdo da aula E a grade do curso.
 
-**EXEMPLO verbatim, seeding nominal do produto DENTRO do conteúdo (GAIA2k/Denison):** *"a gente, na 13M, tem um método passo a passo pra aplicar tudo o que eu falei aqui, que é o gestão ágil 2.0. Tem algumas fases, são **sete passos**."*, os 7 passos do conteúdo viram os 7 módulos do curso, citados 40 min antes da oferta. Quando o pitch chega, comprar é só liberar a profundidade do mapa que ele já mostrou. (As "faixas branca → preta" do Bruno e "os 5 níveis" da 13M são a mesma jogada, nomes COM dono, não decalcar.)
+**EXEMPLO verbatim, seeding nominal do produto DENTRO do conteúdo (GAIA2k/Denison):** *"a gente, na GA, tem um método passo a passo pra aplicar tudo o que eu falei aqui, que é o gestão ágil 2.0. Tem algumas fases, são **sete passos**."*, os 7 passos do conteúdo viram os 7 módulos do curso, citados 40 min antes da oferta. Quando o pitch chega, comprar é só liberar a profundidade do mapa que ele já mostrou. (As "faixas branca → preta" do Bruno e "os 5 níveis" da GA são a mesma jogada, nomes COM dono, não decalcar.)
 
 **A regra G2:** o framework/escada/níveis é desenhado COM o usuário a partir do método DELE, de modo que ensinar o índice gere desejo do conteúdo. O número de pilares e os nomes são SLOT.
 
@@ -507,7 +507,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **A regra que muda tudo, prova prova o MÉTODO, não o gênio [UNIVERSAL]:**
 > Enfatize sempre "são casos de ALUNOS". Se a prova mostra só o quão bom VOCÊ é, o espectador conclui "funciona com ele, não comigo". Se a prova mostra dezenas de pessoas comuns aplicando, ele conclui "funciona na MINHA mão também". Isto é o que efetivamente vende. E **verbalize a objeção ANTES de provar** (corpusC/Bruno: *"Mas é você Bruno fazendo - você tá pensando isso. Eu quero saber se os seus alunos conseguem"* → 2 slides de casos de alunos com nome+cidade).
 
-> **Específico do método Soft:** a "carteira de trabalho" do avatar Soft NÃO é holerite CLT (isso é gramática 13M pra avatar empregado). O avatar Soft é dono, prove por **espelho de NEGÓCIO**: extrato, agenda lotada, contrato assinado, cliente high-ticket falando do dono. Decalcar a prova por crachá erra de avatar.
+> **Específico do método Soft:** a "carteira de trabalho" do avatar Soft NÃO é holerite CLT (isso é gramática GA pra avatar empregado). O avatar Soft é dono, prove por **espelho de NEGÓCIO**: extrato, agenda lotada, contrato assinado, cliente high-ticket falando do dono. Decalcar a prova por crachá erra de avatar.
 
 **Prova como CONTEÚDO / estudo de caso [UNIVERSAL]:**
 > Não despeje depoimentos (todo mundo vai embora). Use o caso COMO conteúdo, no meio do ensino: "deixa eu te mostrar o caso da [pessoa parecida com o avatar] que tinha [exatamente a dor] e veja o que ela fez", o depoimento vira aula, sutil, e prende.
@@ -550,7 +550,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **Modelo [UNIVERSAL]:**
 > "Imagina: [cena específica de uma manhã do avatar daqui a 90 dias]. [situação social em que ele se sente diferente]. [número concreto na conta dele]. Não é fantasia, é o resultado padrão do método aplicado. E deixa eu te perguntar: **o que você vai fazer com esse dinheiro a mais? Com esse tempo a mais?**"
 
-**EXEMPLO verbatim, future pacing do dinheiro com perguntas concretas (caso 13M (gestão), gestão):** *"se você colocar em prática essas coisas você vai ganhar mais. E aí eu te pergunto: **o que que você vai fazer com esse dinheiro a mais que você vai ganhar? Vai fazer uma viagem, vai trocar de carro, vai ajudar a sua família?** Eu não sei o que você vai fazer, mas você vai ganhar mais."*, o cérebro gasta o ROI antes de pagar o preço.
+**EXEMPLO verbatim, future pacing do dinheiro com perguntas concretas (caso GA (gestão), gestão):** *"se você colocar em prática essas coisas você vai ganhar mais. E aí eu te pergunto: **o que que você vai fazer com esse dinheiro a mais que você vai ganhar? Vai fazer uma viagem, vai trocar de carro, vai ajudar a sua família?** Eu não sei o que você vai fazer, mas você vai ganhar mais."*, o cérebro gasta o ROI antes de pagar o preço.
 
 **EXEMPLO verbatim, cena sensorial e social (corpusA/Vítor):** *"imagina você ir na loja do shopping comprar a lingerie que você sempre quis... imagina você postar uma foto com teu marido num passeio de barco, numa festa na piscina de biquíni, e todo mundo comenta 'Nossa, que resultado, você tá linda'."*, o future pacing tem objeto, lugar e a reação de terceiros; abstração ("sua vida vai mudar") não ensaia vitória. Em outro avatar, trocar as cenas mantendo a concretude.
 
@@ -566,11 +566,11 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **Modelo [UNIVERSAL]:**
 > "Escreve no chat **SIM EU QUERO**. Quem quer [benefício 1], escreve sim eu quero. Quem quer [benefício 2], escreve sim eu quero. [repetir 4-5x, cada uma com um benefício do produto]."
 
-**EXEMPLO verbatim, sim-ladder antes da oferta (caso 13M (gestão)):** *"escreve nos comentários isso aqui pra mim: **sim eu quero**. Quem quer aumentar seu reconhecimento profissional e conquistar uma posição executiva escreve aí sim eu quero... deixa eu ver como tá de sim, sim eu quero, sim eu quero, Ixe tá muito bom galera, eu tô vendo todo mundo quer."*, repete o "sim eu quero" em aspectos diferentes do desejo; depois de digitar 5x, dizer "não" pro pitch contradiz o que a própria pessoa escreveu.
+**EXEMPLO verbatim, sim-ladder antes da oferta (caso GA (gestão)):** *"escreve nos comentários isso aqui pra mim: **sim eu quero**. Quem quer aumentar seu reconhecimento profissional e conquistar uma posição executiva escreve aí sim eu quero... deixa eu ver como tá de sim, sim eu quero, sim eu quero, Ixe tá muito bom galera, eu tô vendo todo mundo quer."*, repete o "sim eu quero" em aspectos diferentes do desejo; depois de digitar 5x, dizer "não" pro pitch contradiz o que a própria pessoa escreveu.
 
 **Por que funciona:** compromisso público em massa. Depois de digitar "sim eu quero" cinco vezes, dizer "não" pro pitch fica caro.
 
-> **Pausa estratégica pra colher prova social [UNIVERSAL]:** logo antes do pitch, faça uma pausa natural ("deixa eu tomar uma água") enquanto o chat enche de elogios. A pausa vira prova social positiva exatamente no ponto de transição. EXEMPLO verbatim (caso 13M (gestão)): *"comenta aqui pra mim se tá curtindo a aula de hoje... enquanto isso deixa eu tomar uma aguinha aqui"*, a "aguinha" dá tempo do chat encher de elogios que viram prova social pré-oferta.
+> **Pausa estratégica pra colher prova social [UNIVERSAL]:** logo antes do pitch, faça uma pausa natural ("deixa eu tomar uma água") enquanto o chat enche de elogios. A pausa vira prova social positiva exatamente no ponto de transição. EXEMPLO verbatim (caso GA (gestão)): *"comenta aqui pra mim se tá curtindo a aula de hoje... enquanto isso deixa eu tomar uma aguinha aqui"*, a "aguinha" dá tempo do chat encher de elogios que viram prova social pré-oferta.
 
 ---
 
@@ -594,7 +594,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **Modelo [UNIVERSAL]:**
 > "Tudo o que vimos até agora: você acredita que teria sucesso aplicando isso? Comenta sim. [pausa] Então deixa eu te perguntar: tudo bem se eu passar os próximos 10 minutos te mostrando uma oportunidade de seguir comigo? Quem não quiser, pode sair. Ficam os mais interessados."
 
-**EXEMPLO verbatim, permissão pra vender via lacuna saber→aplicar (5 Níveis/Denison):** *"só pegar o conhecimento por conhecimento, a única coisa que você vai ganhar é o que eu chamo de **obesidade mental**. Não adianta nada, você fica só aprendendo, aprendendo. Tem que saber: o que eu faço com esse conhecimento? E eu quero te ajudar nisso."*, a permissão vem de um ARGUMENTO (a aula sozinha não basta), não de um pedido. Todo nicho tem sua "obesidade mental", nomeie a do avatar (o termo em si é do Denison/13M, é SLOT).
+**EXEMPLO verbatim, permissão pra vender via lacuna saber→aplicar (5 Níveis/Denison):** *"só pegar o conhecimento por conhecimento, a única coisa que você vai ganhar é o que eu chamo de **obesidade mental**. Não adianta nada, você fica só aprendendo, aprendendo. Tem que saber: o que eu faço com esse conhecimento? E eu quero te ajudar nisso."*, a permissão vem de um ARGUMENTO (a aula sozinha não basta), não de um pedido. Todo nicho tem sua "obesidade mental", nomeie a do avatar (o termo em si é do Denison/GA, é SLOT).
 
 **Princípio:** não envergonha o pitch. Avatar maduro respeita pivot transparente. Quem fica é quem mais quer.
 
@@ -690,7 +690,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 **Princípio:** garantia substitui pressão. "É difícil de pedir porque, se aplicar, tem resultado." Reverte o risco.
 
-> **→ Falas verbatim: `exemplos-por-bloco/11-garantia.md`.** Dado do corpus: garantia existe em só **3 de 9** webinars (a máquina 13M fecha SEM garantia em TODAS as edições), ausência é decisão de design, não esquecimento. Quando existe, é condicional de aplicação com dobro do dinheiro, e as condições SÃO o protocolo de implementação (Fladlien: *"twice your investment back... I can only make such a guarantee because the only thing preventing your success is not following the most basic part"*, "o cheque que você precisa descontar no banco"). Isto casa com tratar **garantia como cardápio** (não bandeira única): a tabela de 3 tipos acima é o cardápio a oferecer conforme ticket e ceticismo do avatar.
+> **→ Falas verbatim: `exemplos-por-bloco/11-garantia.md`.** Dado do corpus: garantia existe em só **3 de 9** webinars (a máquina do webinar-modelo GA fecha SEM garantia em TODAS as edições), ausência é decisão de design, não esquecimento. Quando existe, é condicional de aplicação com dobro do dinheiro, e as condições SÃO o protocolo de implementação (Fladlien: *"twice your investment back... I can only make such a guarantee because the only thing preventing your success is not following the most basic part"*, "o cheque que você precisa descontar no banco"). Isto casa com tratar **garantia como cardápio** (não bandeira única): a tabela de 3 tipos acima é o cardápio a oferecer conforme ticket e ceticismo do avatar.
 
 ### Bloco 4.10: Botão / abertura da oferta + pit emocional (1-2 min) **[UNIVERSAL]**
 

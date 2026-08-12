@@ -54,7 +54,7 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 1. Quebra de imagem / empatia: "não sou [estereótipo de guru], sou um cara normal" + a credencial-mãe em 1 linha.
 2. Número-âncora COM ressalva honesta: o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei") → prova que é honesto.
 3. A cicatriz (fundo do poço): quebrou / recomeçou do zero / "foi caindo que descobri".
-4. O feito-prova DEPOIS da cicatriz: resultado grande nomeado e calculável (ex.: "R$13M, 2 anos, 5 pessoas, 1 funil"), não "milhões genéricos".
+4. O feito-prova DEPOIS da cicatriz: resultado grande nomeado e calculável (ex.: "R$3M, 2 anos, 5 pessoas, 1 funil"), não "milhões genéricos".
 5. Anti-milagre + promessa: "não vim te vender milagre. Vim mostrar que [promessa]. E provar por A mais B."
 
 **A grade do Formato B (4 cards, cada um = número + contexto-que-prova):** 4 ângulos: escala · amplitude · feito-âncora · cicatriz. Nunca número solto; cada um vem com o contexto que impede leitura inflada.
@@ -112,7 +112,7 @@ Quem chega já está ~80% decidido. A aula vendeu. **O checkout NÃO convence do
 |---|---|---|
 | A | **Cronômetro 5min** (topo) | faixa verde fina · "Sua condição vale por: [04:59 → 00:00]" · some/volta o preço cheio ao zerar · escassez de **condição auditável** (o desconto/bônus do link da aula), nunca mentira de estoque |
 | B | **"Você está entre os 15 primeiros"** | selo logo abaixo do timer: "Você está entre os 15 primeiros, bônus liberado." Vem do **link controlado** ("quem usar o link que eu disponibilizo AQUI ganha [vantagem]"); o checkout vira **prêmio**, não página passiva. Dispara InitiateCheckout |
-| C | **Garantia em destaque** | escudo · garantia do **cardápio** (não dogma, escolhe pelo ticket) · inverte o risco. Molde incondicional: "🛡️ Garantia de [X] dias. Não é pra você, devolvemos 100%. Sem perguntas." (perpétuo do corpus estudado fecha 90+90; 13M fecha sem garantia; desenho `[A CONFIRMAR]` por cliente). **Lê Bloco 3.4 pro cardápio** |
+| C | **Garantia em destaque** | escudo · garantia do **cardápio** (não dogma, escolhe pelo ticket) · inverte o risco. Molde incondicional: "🛡️ Garantia de [X] dias. Não é pra você, devolvemos 100%. Sem perguntas." (perpétuo do corpus estudado fecha 90+90; GA fecha sem garantia; desenho `[A CONFIRMAR]` por cliente). **Lê Bloco 3.4 pro cardápio** |
 | D | **Provas (na moeda da promessa)** | 3-5 provas fortes, mais pesadas que na captura · **prova na MOEDA**: prometeu salário → foto da carteira; prometeu venda no automático → print do dashboard · documento bruto e feio > slide bonito · depoimento na boca do cliente. **Lê Bloco 3.3** |
 | E | **Bônus (stack empilhado)** | cada item ancorado pelo valor avulso, soma riscada acima do preço · cada bônus mata UMA objeção; o de ação rápida ("15 primeiros") amarra com o Bloco B. Preço é slot, instancia pelo produto. **Lê Bloco 3.1** |
 

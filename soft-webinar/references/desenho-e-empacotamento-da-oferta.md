@@ -26,7 +26,7 @@ Antes de desenhar, separar três coisas que o player confunde - e a confusão cu
 
 **O teste-mãe de cada peça** (manual cap. 4, a frase que rege tudo): *"cada peça da oferta ou SOMA peso ou REDUZ fricção."* Soma valor, soma prova, soma exclusividade - ou tira crença, tira risco, tira preço. Peça que não faz nenhum dos dois sai do desenho. (O ponteiro numérico desse teste é a equação de valor - §1b, logo abaixo.)
 
-> **EXEMPLO (nicho gestão, caso caso 13M (gestão)).** O método é a gestão ágil (o mecanismo). O produto é o curso com nome próprio e passos. A oferta é: curso + mentoria quinzenal por 12 meses + 2 cursos complementares + workshop + garantia + preço com motivo. Um único produto, um único webinar perpétuo, R$3,5 milhões em ~9 meses - não empilhando mais aula, mas empacotando o que já existia como transformação com nome.
+> **EXEMPLO (nicho gestão, caso caso GA (gestão)).** O método é a gestão ágil (o mecanismo). O produto é o curso com nome próprio e passos. A oferta é: curso + mentoria quinzenal por 12 meses + 2 cursos complementares + workshop + garantia + preço com motivo. Um único produto, um único webinar perpétuo, R$3,5 milhões em ~9 meses - não empilhando mais aula, mas empacotando o que já existia como transformação com nome.
 
 ---
 
@@ -108,7 +108,7 @@ A oferta se monta escolhendo de um cardápio de tipos de componente. Cada tipo t
 > **EXEMPLO (nicho emprego, Enes).** Principal R$990 + Mapa do Currículo R$200 + Inteligência Emocional pra Recolocação R$200 + aula de vídeo currículo R$100 = soma R$1.490. Cada parcela parece checável; a soma só impressiona porque cada pedaço é crível.
 
 **(c) Acompanhamento / comunidade / suporte.** O componente vivo: mentoria em grupo, comunidade, atendimento. É o candidato natural a **item que vale mais que o produto principal** - o que inverte a percepção da compra ("só isso já valia o preço").
-> **EXEMPLO (nicho gestão, 13M).** A mentoria quinzenal por 12 meses "que custaria R$9.100" entregue junto do curso de R$1.997: o comprador deixa de achar que compra um curso e passa a achar que GANHA R$9.100. O bônus maior que o produto vira o motivo da compra.
+> **EXEMPLO (nicho gestão, GA).** A mentoria quinzenal por 12 meses "que custaria R$9.100" entregue junto do curso de R$1.997: o comprador deixa de achar que compra um curso e passa a achar que GANHA R$9.100. O bônus maior que o produto vira o motivo da compra.
 
 **(d) Plano de ação / implementação.** O componente que mata o "por onde eu começo": um plano com prazos, um onboarding guiado, um diagnóstico inicial. Reduz fricção de partida - o avatar maduro não teme o conteúdo, teme mais uma coisa parada na metade.
 > **EXEMPLO (nicho consultório/dentística).** "O plano dos primeiros 30 dias: o que abrir, configurar e publicar em cada semana, na ordem, pra primeira oferta sair no dia 30." Não ensina mais nada; só remove o custo de decidir por onde começar.

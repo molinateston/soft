@@ -146,7 +146,7 @@ Vazamento = **uma das fases da conversa de venda falhou**.
 
 ## A régua de realismo (obrigatória antes de mostrar)
 
-- **Piso ancorado no atual.** O agressivo não multiplica num salto que o nicho não sustenta. Quem faz ~R$15k/mês tem teto realista no agressivo em ~R$80k a R$150k em 12 meses, **não R$500k**. Múltiplo grande demais quebra a credibilidade do plano inteiro.
+- **Piso ancorado no atual.** O agressivo não multiplica num salto que o nicho não sustenta. Quem faz ~R$15k/mês tem teto realista no agressivo em ~R$80k a R$150k em 12 meses, **não R$300k**. Múltiplo grande demais quebra a credibilidade do plano inteiro.
 - **Sem base, sem número.** Projeção que não amarra num benchmark real nem no histórico próprio é marcada como estimativa e puxada pra baixo.
 - **Virou fantasia, corta.** Qualquer cenário que passou a régua do bom senso: corta 30% a 50% e revisa as premissas. Se cortado continua irreal, o problema é ticket baixo demais ou nicho errado → volta pra Conta ou pro Score de Nicho.
 - **Casa com o estágio.** Teto de crescimento (Destravar 5x, Escalar 3x, Estabilizar 2x, Verticalizar 1,5-2x). Agressivo que estoura o teto é cortado: *"esse patamar o método não cobre em 6 meses; realista é X agora + Y nos 6 seguintes."*

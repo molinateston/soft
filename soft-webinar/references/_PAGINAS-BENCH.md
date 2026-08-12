@@ -38,7 +38,7 @@ O autor do corpus usa a bio detalhada em **dois formatos** — escolha pelo tipo
 
 Foto em P&B (grayscale + contraste) numa coluna, texto na outra. Eyebrow "Quem vai te ensinar" + nome em fonte display gigante + 5-6 parágrafos curtos em 1ª pessoa. Tom: cara normal, anti-engomadinho, números com ressalva honesta.
 
-**Texto real do corpus estudado (verbatim, web-v1):**
+**Texto-exemplo no molde do corpus estudado (números ilustrativos, inventados):**
 
 ```
 [eyebrow] Quem vai te ensinar
@@ -47,14 +47,14 @@ Foto em P&B (grayscale + contraste) numa coluna, texto na outra. Eyebrow "Quem v
 Eu não sou engomadinho de Alphaville, sou um cara normal. Passei 10 anos no
 bastidor do digital, montando a estratégia de quem vende de verdade.
 
-Eu falo que gerenciei R$46 milhões, não que faturei. Quem fala que faturou
+Eu falo que gerenciei R$8 milhões, não que faturei. Quem fala que faturou
 geralmente não viu esse dinheiro entrar no bolso. Eu vi de perto, em mais de
 40 nichos e mais de 150 lançamentos.
 
-Já quebrei devendo mais de R$500 mil. Voltei pro sofá da casa da minha mãe e
-recomecei do zero. Foi caindo que eu descobri o que funciona de verdade.
+Já quebrei devendo mais de R$300 mil. Voltei pra estaca zero e
+recomecei. Foi caindo que eu descobri o que funciona de verdade.
 
-Depois disso, numa grande escola do meu nicho, eu fiz R$13 milhões
+Depois disso, numa grande escola do meu nicho, eu fiz R$3 milhões
 em 2 anos. Com 5 pessoas e um funil só.
 
 Eu não vim te vender milagre. Vim te mostrar que vender pode ser simples e
@@ -65,33 +65,33 @@ acontecer todo dia. E te provar por A mais B.
 1. **Quebra de imagem / empatia:** "não sou [estereótipo de guru], sou um cara normal" + o que faz (a credencial-mãe em uma linha).
 2. **Número-âncora com ressalva honesta:** o feito grande + a distinção que o concorrente não faz ("gerenciei, não faturei" → prova que é honesto). É a assinatura do corpus estudado: o número vem com a nuance que o torna falsificável.
 3. **A cicatriz (fundo do poço):** quebrou / recomeçou do zero / "foi caindo que descobri". É o que cria empatia e licença pra falar.
-4. **O feito-prova depois da cicatriz:** o resultado grande nomeado e específico (R$13M, 2 anos, 5 pessoas, 1 funil) — pequeno, calculável, não "milhões genéricos".
+4. **O feito-prova depois da cicatriz:** o resultado grande nomeado e específico (R$3M, 2 anos, 5 pessoas, 1 funil) — pequeno, calculável, não "milhões genéricos".
 5. **Anti-milagre + promessa:** "não vim te vender milagre. Vim mostrar que [a promessa]. E provar por A mais B." Fecha desarmando o cético.
 
 ## Formato B — Bio com GRADE DE CREDENCIAIS · usado na home/landing (index.html)
 
 Mesma coluna foto + texto, mas o texto é UM parágrafo denso de 1ª pessoa + uma **grade de 4 cards numéricos** (número grande na cor de ação + label mono em 2 linhas). É o formato pra landing mais "vendedora".
 
-**Texto real (verbatim, index.html, bloco "Bastidor"):**
+**Texto-exemplo no molde (bloco "Bastidor"; números ilustrativos, inventados):**
 
 ```
 [section-label] Bastidor
 [título] 10 anos vendo o que funciona.
 
-10 anos no digital. Gerenciei R$46 milhões, não faturei, e faço questão da
-distinção. Quebrei em 2020 devendo R$500 mil. Como CRO de uma grande escola do nicho, fiz
-R$13 milhões em 2 anos com 5 pessoas e 1 funil só, sem post diário, e a empresa
+10 anos no digital. Gerenciei R$8 milhões, não faturei, e faço questão da
+distinção. Quebrei em 2020 devendo R$300 mil. Como CRO de uma grande escola do nicho, fiz
+R$3 milhões em 2 anos com 5 pessoas e 1 funil só, sem post diário, e a empresa
 ficou quase um ano sem postar com o perpétuo vendendo todo dia. Não inventei
 isso na teoria. Achei na unha.
 
 [grade de 4 cards]
-  R$46M   → Gerenciados em 10 anos · não faturados
+  R$8M   → Gerenciados em 10 anos · não faturados
   150+    → Lançamentos em 40+ nichos diferentes
-  R$13M   → 2 anos, 5 pessoas, 1 funil · caso estudado
-  R$500k  → Quebrei em 2020 e voltei do zero
+  R$3M   → 2 anos, 5 pessoas, 1 funil · caso estudado
+  R$300k  → Quebrei em 2020 e voltei do zero
 ```
 
-**A grade reutilizável (cada card = número + contexto-que-prova):** cada número vem com o contexto que o torna verificável e impede leitura inflada. Nunca número solto. Os 4 cards do corpus estudado cobrem: **escala** (R$46M gerenciados), **amplitude** (150+ lançamentos / 40 nichos), **o feito-âncora** (R$13M, 5 pessoas, 1 funil), **a cicatriz** (R$500k quebrado). Replique essa lógica de 4 ângulos no número do cliente.
+**A grade reutilizável (cada card = número + contexto-que-prova):** cada número vem com o contexto que o torna verificável e impede leitura inflada. Nunca número solto. Os 4 cards do corpus estudado cobrem: **escala** (R$8M gerenciados), **amplitude** (150+ lançamentos / 40 nichos), **o feito-âncora** (R$3M, 5 pessoas, 1 funil), **a cicatriz** (R$300k quebrado). Replique essa lógica de 4 ângulos no número do cliente.
 
 ## Regras da bio (valem pros dois formatos)
 
@@ -190,7 +190,7 @@ Quando NÃO é perpétuo (turma/imersão ao vivo), a estrutura muda um pouco (ve
 - Bloco visual com escudo: a garantia escolhida do cardápio (não dogma — escolhe pelo ticket).
 - Função: **inverte o risco** — tira do bolso do cliente, põe no seu.
 - Molde (garantia incondicional, um item do cardápio): *"🛡️ Garantia incondicional de [X] dias. Se decidir que não é pra você, devolvemos 100%. Sem perguntas, sem fricção. Você clica em 'quero sair' e recebe o reembolso."*
-- (Webinar perpétuo do corpus estudado trava 90+90; 13M fecha sem garantia. O desenho é `[A CONFIRMAR]` por cliente.)
+- (Webinar perpétuo do corpus estudado trava 90+90; GA fecha sem garantia. O desenho é `[A CONFIRMAR]` por cliente.)
 
 ### Bloco D — Provas (na moeda da promessa)
 - 3-5 provas fortes, mais pesadas que na captura (aqui a pessoa quer a última confirmação).

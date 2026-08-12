@@ -43,7 +43,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 **A conexão que muda a oferta inteira (nova oportunidade, nunca melhoria).** O avatar do 6º nível é PRECISAMENTE quem não pode receber "melhoria". Pra ele, "tente de novo, agora melhor" é o pior gatilho possível: reabre todas as cicatrizes e ameaça o status ("comprei errado uma vez, vou comprar errado de novo?"). O 6º nível só se move por **nova oportunidade que eleva status**, um caminho que o tira do lugar de quem fracassou e o põe no lugar de quem finalmente entendeu. Por isso o framework 1 não é só diagnóstico de público: ele dita que a Big Domino e o pitch tenham que oferecer um caminho DIFERENTE, nunca "mais da mesma dor".
 
-> Ponteiro: o bloco de Problema/Diagnóstico onde isso é encenado tem falas verbatim de webinars campeões em `exemplos-por-bloco/04-problema-interesse.md`, repare como o 13M transfere a culpa pro vilão externo ("o mundo mudou", "gestor do passado") sem nunca acusar quem está na sala, que é o mesmo mecanismo de absolvição do 6º nível.
+> Ponteiro: o bloco de Problema/Diagnóstico onde isso é encenado tem falas verbatim de webinars campeões em `exemplos-por-bloco/04-problema-interesse.md`, repare como o GA transfere a culpa pro vilão externo ("o mundo mudou", "gestor do passado") sem nunca acusar quem está na sala, que é o mesmo mecanismo de absolvição do 6º nível.
 
 ---
 

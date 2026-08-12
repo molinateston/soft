@@ -292,7 +292,7 @@ CADA INDIVÍDUO (opcional) - 1-3 OKRs alinhados aos da área
 >
 > **Key Results:**
 > 1. CAC inbound estável em <R$300 (variação <20% mês a mês)
-> 2. Pipeline qualificado >R$500k no fim do trimestre
+> 2. Pipeline qualificado >R$300k no fim do trimestre
 > 3. NPS de leads inbound >70
 
 **Exemplo ruim:**
@@ -342,7 +342,7 @@ SEMANA 13 - Avaliação do trimestre + planejamento do próximo
 
 | Erro | Sintoma | Correção |
 |------|---------|----------|
-| **OKR igual a meta** | "Vender R$500k" como OKR | OKR é objetivo + Key Results |
+| **OKR igual a meta** | "Vender R$300k" como OKR | OKR é objetivo + Key Results |
 | **OKRs demais** | Time tem 12 OKRs | Máximo 5 |
 | **KRs vagos** | "Melhorar atendimento" | Métrica + alvo |
 | **Sem tracking** | Definiu, esqueceu | Checkpoint quinzenal obrigatório |

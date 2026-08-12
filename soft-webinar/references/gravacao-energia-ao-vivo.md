@@ -31,7 +31,7 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 
 A gravação não salva roteiro fraco. Ela impede que um roteiro ótimo morra na execução.
 
-> **EXEMPLO.** O webinar de gestão de ~R$13M é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador de vagas caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
+> **EXEMPLO.** O webinar de gestão de ~R$3M é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador de vagas caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
 
 ---
 
@@ -126,10 +126,10 @@ O perpétuo tem um paradoxo de partida: **precisa parecer cheio pra ficar cheio*
 
 ### 5.1 O chat semeado e curado
 
-**Mecanismo (destilação do 13M, METODO 5.2.2):**
+**Mecanismo (destilação do GA, METODO 5.2.2):**
 - Perpétuo sem chat de origem: **pré-preencher mensagens** simulando participantes (o empurrão inicial).
 - Ativar "salvar comentários reais": tudo que a audiência real digita **passa por aprovação sua** e vira chat das sessões seguintes.
-- Com o tempo, o semeado é substituído pelo real: "hoje, isso aqui tudo são comentários reais das pessoas que eu fui aprovando" (fonte 13M, METODO 5.2.2).
+- Com o tempo, o semeado é substituído pelo real: "hoje, isso aqui tudo são comentários reais das pessoas que eu fui aprovando" (fonte GA, METODO 5.2.2).
 - **Calibragem:** 50 a 150 mensagens. Mais de 200, "ninguém presta atenção na aula, presta no chat".
 - **A jogada do corpus estudado (eternizar):** elogio real colhido numa sessão ao vivo vira comentário das sessões futuras. Prova social que se autoalimenta, sem produzir nada.
 
@@ -147,7 +147,7 @@ O conteúdo das perguntas (5 categorias, respostas-molde) está em `objection-an
 
 ### 5.3 Escassez de sala e contador
 
-**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: a sessão tem lugares limitados de verdade, o link é individual, quem fecha a janela perde a sessão daquele horário. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o autor do corpus cita 180-200; a fonte 13M usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
+**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: a sessão tem lugares limitados de verdade, o link é individual, quem fecha a janela perde a sessão daquele horário. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o autor do corpus cita 180-200; a fonte GA usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
 
 ### 5.4 A questão da integridade (a resposta do cap 8, inteira)
 
@@ -251,5 +251,5 @@ Critério: a prática literal do corpus estudado + o guarda-corpo da escassez ho
 
 1. **"Estamos ao vivo" no gravado: BANIDO afirmar explicitamente.** O padrão Soft é a prática do corpus estudado: *"eu não falo que estou ao vivo nem que não estou, eu dou a entender"* (METODO). Presença se faz por condução (eco de chat, micro-comandos, pausas), nunca por declaração. "Estamos online" é a forma autorizada. A "escolha de consciência" do cap 8 do manual fica registrada como variante de mercado - fora do padrão Soft.
 2. **Chat na gravação: pode ecoar - desde que REAL e ATEMPORAL.** Com sala real (8-15), ecoar nomes/cidades/dores é recomendado (o eco é verdadeiro e dá energia). A regra da soft-webinar ("não interagir ao gravar") protege o evergreen - o que ela proíbe de fato é o eco que DATA a gravação: nunca responder data, evento, notícia, "hoje é…". Eco atemporal sim; eco datável nunca; Q&A sempre em bloco separado (atualizável).
-3. **Contador de presença: padrão = comportamento do corpus estudado (manter 180-200).** A simulação dinâmica com pico ~120 da máquina 13M fica como EXEMPLO de variante, não como padrão Soft.
+3. **Contador de presença: padrão = comportamento do corpus estudado (manter 180-200).** A simulação dinâmica com pico ~120 da máquina do webinar-modelo GA fica como EXEMPLO de variante, não como padrão Soft.
 4. **Comentários simulados no perpétuo: SÃO padrão Soft (atualização 10/jun).** O autor do corpus decidiu que, no perpétuo gravado, a **simulação de comentários É o padrão** (supera a nota conservadora anterior, que tratava só comentário real como padrão e a simulação como variante a validar). A sala simulada é o desenho operacional do perpétuo: reproduz a energia típica que uma sala real daquele tamanho teria, sem o que NÃO se simula nunca: **escassez/vagas declaradas continuam REAIS** (G7), **resultado de cliente nunca se inventa** (vem do banco real do player), preço/oferta/garantia são os de verdade. A régua em uma frase: **simula-se a SALA, nunca a PROVA.** O caminho "duplicar a melhor sessão real com comentários reais" (§2, §5.1) continua sendo o ideal quando existe; a simulação roteirizada é o padrão pros perpétuos que não nascem de uma sessão ao vivo gravada com chat. A referência OPERACIONAL dessa capacidade (matemática de cadência, tipos de comentário com falas prontas, formato Excel, checagem de consistência bidirecional contra o roteiro, 2 modos: gerar/auditar) é `simulador-comentarios-ao-vivo.md`.

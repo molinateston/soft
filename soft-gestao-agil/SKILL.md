@@ -35,7 +35,7 @@ Ancorado na arquitetura de 3 camadas do Denisson (Estrategica, Tatica, Operacion
 
 - UMA pergunta por vez. Nunca despeje 3 perguntas juntas.
 - Sugerir 2-3 OPCOES em cada decisao (nunca uma so). Dono escolhe.
-- ZERO default do Leo. Exemplos ilustrativos, nunca o produto/naming do Leo como padrao.
+- ZERO default de outro negocio. Exemplos ilustrativos, nunca o produto/naming de terceiro como padrao.
 - Preview a cada 5 respostas: "olha o que ja da pra montar com o que voce me deu".
 - Retomabilidade: estado salvo em `/tmp/soft-gestao-agil-<slug>-<epoch>.json` a cada resposta.
 - Anti-IA lint no output final antes de fechar.
@@ -189,7 +189,7 @@ Se aprovado: exporta em Google Doc via `gog drive upload --convert` e devolve a 
 
 Antes de fechar QUALQUER output pro dono:
 ```
-python3 /home/cloud/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>
+python3 ~/.claude/skills/soft-critico-copy/scripts/lint_copy.py <arquivo>
 ```
 Se falhar hard (exit 1), reescreve e roda de novo. Vale pra .md do plano, brief exportado, tudo.
 
@@ -229,7 +229,7 @@ Se qualquer NAO, revisa antes de entregar.
 - Nao empurrar OKR quando a dor eh individual (GTD resolve).
 - Nao empurrar Scrum puro em pequeno/medio negocio (o pipeline Denisson chega).
 - Nao criar quadro/ritual sem envolver o dono no desenho (senao ninguem usa).
-- Nao usar naming do Leo (Mesa de Operacao, Sistema Soft, etc) como default. Sao exemplos ilustrativos apenas.
+- Nao usar naming de terceiro (Mesa de Operacao, Sistema Soft, etc) como default. Sao exemplos ilustrativos apenas.
 - Nao pular a Tatica (Briefing + Backlog Duas Dimensoes). Erro mais comum do empresario.
 - Nao deixar FAZENDO sem limite WIP.
 - Nao rodar Kanban sem Revisao sexta.

@@ -1,6 +1,6 @@
 # Pré-início (aquecimento de sala, check técnico, compliance progressiva, chat acordando)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais (de outros nichos) de webinars que venderam, extraia a PREMISSA e adapte ao nicho do usuário; NUNCA decalcar a forma (G2). Máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais (de outros nichos) de webinars que venderam, extraia a PREMISSA e adapte ao nicho do usuário; NUNCA decalcar a forma (G2). Máquina GA = GA.
 
 ---
 
@@ -12,7 +12,7 @@ O pré-início tem UM trabalho central: fazer a audiência executar o primeiro c
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A) - gestão ágil corporativa, curso Gestão Ágil 2.0 (de R$3.000 por 12x R$165), edição-âncora da máquina R$13M
+### Webinar-modelo GA (Gestão Ágil, ed. A) - gestão ágil corporativa, curso Gestão Ágil 2.0 (de R$3.000 por 12x R$165), edição-âncora da máquina R$3M
 
 **Trecho literal:**
 
@@ -28,7 +28,7 @@ O pré-início tem UM trabalho central: fazer a audiência executar o primeiro c
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
 
 **Trecho literal:**
 
@@ -36,23 +36,23 @@ O pré-início tem UM trabalho central: fazer a audiência executar o primeiro c
 
 > "Show de bola, tô vendo aqui que a galera tá entrando, deixa eu ver, tem bastante gente, a galera está chegando, muito bom. Vamos começar, deixa eu só ver se meu mouse está funcionando, se ele rabisse, eu gosto de rabiscar de vermelhinho, está tudo funcionando, então vamos lá."
 
-**O que ele fez:** a mesma sequência do 13M, palavra por palavra: check como pretexto pro primeiro micro-compromisso, razão explícita ("se ninguém colocar, eu não vou saber"), nomes lidos (os MESMOS nomes - Lilian, Caroline, Rodrigo, Ligia, Michel, Evelyn), social proof de sala cheia, informalidade do mouse.
+**O que ele fez:** a mesma sequência do GA, palavra por palavra: check como pretexto pro primeiro micro-compromisso, razão explícita ("se ninguém colocar, eu não vou saber"), nomes lidos (os MESMOS nomes - Lilian, Caroline, Rodrigo, Ligia, Michel, Evelyn), social proof de sala cheia, informalidade do mouse.
 
 **Por que funciona:** o primeiro comentário é o mais barato de conseguir (responder "tá funcionando?") e instala o hábito de digitar; quem digitou uma vez digita de novo - inclusive na hora do "sim, eu quero" e do link. Ler nomes em voz alta nos primeiros 60 segundos ensina a sala que comentar gera reconhecimento.
 
-**O que é decalcável vs do nicho:** o achado clínico aqui é META: 13M e 5 Níveis abrem com o MESMO script verbatim - o pré-início da 13M é um ativo roteirizado, reutilizado entre edições, não improviso. Premissa decalcável: escreva o pré-início UMA vez, bem, e rode-o como peça fixa da máquina. Nada aqui é do nicho.
+**O que é decalcável vs do nicho:** o achado clínico aqui é META: GA e 5 Níveis abrem com o MESMO script verbatim - o pré-início da GA é um ativo roteirizado, reutilizado entre edições, não improviso. Premissa decalcável: escreva o pré-início UMA vez, bem, e rode-o como peça fixa da máquina. Nada aqui é do nicho.
 
 ---
 
-### Gestão Ágil 2.0 (13M, host Denison) - gestão ágil, R$1.997 → 15% off → R$165,34/mês ou R$1.697 à vista; variação com loop de depoimentos pré-host
+### Gestão Ágil 2.0 (GA, host Denison) - gestão ágil, R$1.997 → 15% off → R$165,34/mês ou R$1.697 à vista; variação com loop de depoimentos pré-host
 
 **Trecho literal:**
 
 Loop de depoimentos rodando antes do início (aluna designer, voz 1):
-> "Eu sou designer gráfica e diretora de arte em uma agência de comunicação e design. A gente tem as demandas sempre muito urgentes. A gente já implementou alguns softwares, mas nada nunca pareceu dar o resultado que a gente esperava. Eu conhecia a metodologia Scrum, mas eu não sabia como começar, não sabia como fazer. Eu acabei, por meio de um webinar, conhecendo a 13M. Por meio dele, já consegui começar a implementar. […] Então a minha dica é, não deixe para depois, comece a ser ágil agora mesmo."
+> "Eu sou designer gráfica e diretora de arte em uma agência de comunicação e design. A gente tem as demandas sempre muito urgentes. A gente já implementou alguns softwares, mas nada nunca pareceu dar o resultado que a gente esperava. Eu conhecia a metodologia Scrum, mas eu não sabia como começar, não sabia como fazer. Eu acabei, por meio de um webinar, conhecendo a GA. Por meio dele, já consegui começar a implementar. […] Então a minha dica é, não deixe para depois, comece a ser ágil agora mesmo."
 
-(aluno do caso 13M, voz 2):
-> "Eu sou [ALUNO], formado em agronomia e também tenho título de doutor em agronomia. Estava desempregado durante a pandemia, eu me tornei aluno da 13M. Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master. O método 13M me forneceu todo o conhecimento para ser contratado como gerente de projetos de Scrum Master. […] Então em uma semana eu tive aí sete empresas me contatando, sete empresas do exterior me contatando, querendo que eu fizesse parte dos projetos deles"
+(aluno do caso GA, voz 2):
+> "Eu sou [ALUNO], formado em agronomia e também tenho título de doutor em agronomia. Estava desempregado durante a pandemia, eu me tornei aluno da GA. Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master. O método GA me forneceu todo o conhecimento para ser contratado como gerente de projetos de Scrum Master. […] Então em uma semana eu tive aí sete empresas me contatando, sete empresas do exterior me contatando, querendo que eu fizesse parte dos projetos deles"
 
 Check técnico + chat acordando (Denison, início do ao vivo):
 > "Fala pessoal, tudo bem? Sejam muito bem-vindos. Coloca nos comentários aqui só para eu saber se vocês estão conseguindo me ouvir, se o áudio está bom, se está tudo ok. Coloca aqui se vocês estão me vendo e me ouvindo, né? Só para eu saber se está tudo bem com a infraestrutura aqui. Eu n sei se eu estou falando aqui mas eu n consigo me ouvir para saber se est tudo bem. Coloca aqui para mim s para eu saber. E vamos l bora come. A Maria est dizendo aqui que est sim, Luiz sim, beleza, tudo funcionando muito bem. Obrigado galera, obrigado voc por comparecerem aqui na aula. Eu prometo para vocês que eu vou dar o meu melhor conteúdo."
@@ -68,7 +68,7 @@ Gestão de problema técnico sem perder a sala:
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / 13M) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199
+### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
@@ -144,7 +144,7 @@ Gestão de problema técnico sem perder a sala:
 - **Esconder ou dramatizar falha técnica** - nenhum campeão finge que não houve problema nem entra em pânico; nomear + normalizar + solução pronta é o padrão (GAIA2k, Gestão Ágil 2.0).
 - **Esticar além de ~3 minutos ao vivo** - falso atraso é de 30 segundos a 1 minuto, declarado; segurar a sala 10 minutos "esperando gente" queima quem chegou no horário.
 - **Em perpétuo, simular chat ao vivo com nomes falsos** - o Webinar A mostra o caminho honesto: a mecânica de interação existe roteirizada, mas NENHUM nome individual é lido; quem precisa de aquecimento usa pre-roll de depoimento real.
-- **Improvisar o bloco a cada edição** - a 13M roda o mesmo script verbatim entre edições (13M = 5 Níveis palavra por palavra); o pré-início é ativo de máquina, não aquecimento de improviso.
+- **Improvisar o bloco a cada edição** - a GA roda o mesmo script verbatim entre edições (GA = 5 Níveis palavra por palavra); o pré-início é ativo de máquina, não aquecimento de improviso.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 

@@ -143,7 +143,7 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 
 A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra). O slide do CTA é **obrigatório e muito bem feito** (é o que vira o carrossel em mensagem no direct): de preferência uma **palavra-chave pra comentar** que entrega algo concreto, com os bullets do que a pessoa recebe. Ex.: comenta TRÁFEGO que eu te mando (1) o modelo de anúncio, (2) o passo do atendimento, (3) o painel. Liga a palavra-chave ao próximo passo real do funil (direct → carta/isca). Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
 
-> Se existe skill de voz destilada do cliente (ex.: `soft-voz-leo-molina`), consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
+> Se existe skill de voz destilada do cliente, consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
 
 ## Passo 4, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
 Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só carrossel com a linha VEREDITO=PASSA vai pro cliente. Uma falha refaz o ponto (não a peça inteira). A tabela abaixo é o teu **checklist interno**, nunca a saída: o usuário recebe só o carrossel limpo (Passo 5), jamais a tabela.

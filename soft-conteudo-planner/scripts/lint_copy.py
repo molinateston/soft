@@ -41,7 +41,7 @@ HARD = [
     (re.compile(r'n[aã]o\s+é\.\s+(?:É|Falta|Faltou|Sobrou)\b', re.I),
      '"Nao e." pelado + virada (molde de IA; complete a frase sem o truque)'),
     # Antítese-nominal telegráfica → HARD (antes era WARN). Mesma régua: polos de 1 palavra,
-    # clause-anchored. Fala real do Léo com sujeito/verbo ou cauda de +1 palavra escapa.
+    # clause-anchored. Fala real do dono com sujeito/verbo ou cauda de +1 palavra escapa.
     (re.compile(
         r'(?:(?<=[.!?])\s+|^)\s*(?:isso\s+)?'
         r'(?:n[aã]o\s+(?:é|foi)\s+[\wáéíóúâêôãõç]+\s*,\s*(?:é|foi)\s+[\wáéíóúâêôãõç]+'
@@ -73,7 +73,7 @@ HARD = [
         r')',
         re.I),
      'muleta de swipe/proximo-slide (contexto fora do slide; a seta ja basta — feche a tensao AQUI)'),
-    # Personificação Soft Soft (Léo 13/jul): caixa/renda/algoritmo/mês/janela com verbo de humano
+    # Personificação Soft Soft (regra do dono): caixa/renda/algoritmo/mês/janela com verbo de humano
     (re.compile(
         r'(?:'
         r'(?:o\s+)?caixa\s+(?:ainda\s+)?'
@@ -192,7 +192,7 @@ def _self_test():
     assert _hard('Enquanto a renda pede câmera todo dia, você não tem folga.', 'personificacao'), 'renda pede'
     assert _hard('O algoritmo come. O mês não fecha.', 'personificacao'), 'algoritmo come'
 
-    # ── falas REAIS do Léo: NÃO podem ser HARD de antítese ────────────────────
+    # ── falas reais do dono: NÃO podem ser HARD de antítese ────────────────────
     reais = [
         'vender não é convencer, é conduzir',
         'educar não vende',
@@ -212,7 +212,7 @@ def _self_test():
         assert not ant, f'FALSO-POSITIVO HARD em fala real: {r!r} -> {ant}'
 
     print('lint_copy.py self-test OK — HARD (em-dash, travar, dupla nao-e, antitese, '
-          'nao-e-sobre, muleta, personificacao) + falas REAIS do Léo passam limpas.')
+          'nao-e-sobre, muleta, personificacao) + falas reais do dono passam limpas.')
     print('uso: python3 scripts/lint_copy.py peca.txt   |   echo "..." | python3 scripts/lint_copy.py -')
 
 

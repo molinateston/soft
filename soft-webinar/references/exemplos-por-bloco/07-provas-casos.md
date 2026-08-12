@@ -1,6 +1,6 @@
 # Provas e casos (estudos de caso, depoimentos, demonstrações, números, persona-âncora)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ---
 
@@ -22,7 +22,7 @@ Este bloco transforma a promessa em fato verificável - e o mecanismo comum aos 
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165, avatar CLT querendo promoção
+### Webinar-modelo GA (Gestão Ágil, ed. A - modelo-mestre R$3M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165, avatar CLT querendo promoção
 
 **Trecho literal:**
 
@@ -58,7 +58,7 @@ E pede o testemunho social do ato da compra em tempo real:
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M, host Denison) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
+### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
 
 **Trecho literal:**
 
@@ -82,13 +82,13 @@ Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
 
 **O que ele fez:** (1) prova documental (foto da carteira, prints de proposta de emprego) em vez de só depoimento; (2) escada de provas: eu → sócio → alunos comuns → caso extremo (460%); (3) números não-redondos (23.583, 9.500→19.000, 2.500→14.000); (4) ancoragem B2B (consultoria de R$84 mil) plantada minutos antes do preço; (5) eco oportunista de prova vinda do chat (Wellington/Itaú) - comentário aleatório vira case institucional em 15 segundos; (6) persona-âncora que INVERTE a objeção: "minha área não usa ágil" vira o perfil de maior sucesso.
 
-**Por que funciona:** a moeda da promessa é salário, então a prova é em moeda literal - documentos com cifras, não adjetivos. A diversidade de perfis fecha a brecha do "mas na minha área não funciona". Nota da análise 13M (exemplos-vivos): esta edição ainda roda um pré-roll de ~6 depoimentos em vídeo SOB o countdown antes de o host aparecer - designer, doutor em agronomia desempregado, coordenador de embalagens, coach pós-demissão - cada um cobrindo uma objeção diferente; quem chega cedo (o lead mais quente) recebe 6 minutos de prova social involuntária: o webinar começa a vender antes de começar. E a análise registra a regra de produção: "foto-prova em vez de gráfico-prova" - quando o assunto é dinheiro e vivência, a tela mostra documento bruto e levemente feio; verossimilhança > estética.
+**Por que funciona:** a moeda da promessa é salário, então a prova é em moeda literal - documentos com cifras, não adjetivos. A diversidade de perfis fecha a brecha do "mas na minha área não funciona". Nota da análise GA (exemplos-vivos): esta edição ainda roda um pré-roll de ~6 depoimentos em vídeo SOB o countdown antes de o host aparecer - designer, doutor em agronomia desempregado, coordenador de embalagens, coach pós-demissão - cada um cobrindo uma objeção diferente; quem chega cedo (o lead mais quente) recebe 6 minutos de prova social involuntária: o webinar começa a vender antes de começar. E a análise registra a regra de produção: "foto-prova em vez de gráfico-prova" - quando o assunto é dinheiro e vivência, a tela mostra documento bruto e levemente feio; verossimilhança > estética.
 
 **O que é decalcável vs do nicho:** decalcável: pré-roll de depoimentos sob countdown, escada eu→sócio→alunos→extremo, ancoragem por serviço caro já vendido, eco de prova do chat, persona-âncora que inverte a objeção. Do nicho: o Itaú como case e o crachá corporativo - autoridade institucional serve ao avatar CLT; o Soft prova por espelho de negócio de dono.
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
 
 **Trecho literal:**
 
@@ -106,9 +106,9 @@ Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
 
 **O que ele fez:** (1) prova documental com hedge honesto ("não sei quanto ganharia hoje" - e manda a sala corrigir pela inflação); (2) números específicos não-redondos (17.850, não "quase 18 mil"); (3) escada de casos cobrindo do executivo ao iniciante (Erodilde 9→19 mil, Alessandro 2.500→14 mil); (4) alunos reais no chat lidos em voz alta no momento exato do pitch (Ivesen aparece 3+ vezes na transcrição); (5) convocação ativa de depoimento com justificativa altruísta ("ajuda para quem está de fora"); (6) elogio espontâneo do chat reciclado na hora como prova do valor da própria aula.
 
-**Por que funciona:** a alegação central é salarial, então toda prova é salarial e documentada - coerência total entre promessa e evidência. E o depoimento lido do chat ao vivo vale mais que slide: a sala vê que é gente de verdade, agora, não print antigo. Nota da análise 5 Níveis (exemplos-vivos): nesta edição há ainda a prova circular elegante - o crescimento da PRÓPRIA 13M como termômetro do mercado ("a gestão ágil está em franco crescimento. Por isso que a gente acaba crescendo junto") e a demo ao vivo da plataforma como prova de existência do produto; e a "Visão de Floresta" (mecanismo da 13M) pauta o currículo do curso, fazendo a grade encarnar a tese vendida.
+**Por que funciona:** a alegação central é salarial, então toda prova é salarial e documentada - coerência total entre promessa e evidência. E o depoimento lido do chat ao vivo vale mais que slide: a sala vê que é gente de verdade, agora, não print antigo. Nota da análise 5 Níveis (exemplos-vivos): nesta edição há ainda a prova circular elegante - o crescimento da PRÓPRIA GA como termômetro do mercado ("a gestão ágil está em franco crescimento. Por isso que a gente acaba crescendo junto") e a demo ao vivo da plataforma como prova de existência do produto; e a "Visão de Floresta" (mecanismo da GA) pauta o currículo do curso, fazendo a grade encarnar a tese vendida.
 
-**O que é decalcável vs do nicho:** decalcável: hedge honesto sobre o próprio número, convocação de depoimento ao vivo com motivo altruísta, demo da plataforma como prova de existência. Do nicho: a moeda salário-CLT e a prova por crachá; "Visão de Floresta" é mecanismo da 13M, não do corpus estudado.
+**O que é decalcável vs do nicho:** decalcável: hedge honesto sobre o próprio número, convocação de depoimento ao vivo com motivo altruísta, demo da plataforma como prova de existência. Do nicho: a moeda salário-CLT e a prova por crachá; "Visão de Floresta" é mecanismo da GA, não do corpus estudado.
 
 ---
 
@@ -210,7 +210,7 @@ Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 
 ---
 
-### GAIA2k ("Gestão Ágil na Era da IA", Denison Vieira / 13M) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
+### GAIA2k ("Gestão Ágil na Era da IA", Denison Vieira / GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
 
 **Trecho literal:**
 
@@ -232,9 +232,9 @@ Prova social da comunidade:
 > "Muitas trocas de empregos acontecem aqui, vagas. São divulgadas aqui. Então, aqui é só prints da comunidade para você ver."
 
 Prova de demanda de mercado (a própria consultoria como termômetro):
-> "OKR hoje, a consultoria da 13M, nós somos. O que a gente é mais contratado hoje em dia é para implementar o KR. […] Eu sei porque a gente está sendo contratado para ajudar as empresas nisso. Porque as empresas estão tudo perdidas com isso aqui."
+> "OKR hoje, a consultoria da GA, nós somos. O que a gente é mais contratado hoje em dia é para implementar o KR. […] Eu sei porque a gente está sendo contratado para ajudar as empresas nisso. Porque as empresas estão tudo perdidas com isso aqui."
 
-**O que ele fez:** (1) as mesmas quatro camadas do 13M: macro (mídia + 70% do mercado), pessoal (contracheque com correção de inflação falada na hora), terceiros (4 alunos com nome + salário), emprestada (d.school/Stanford ancorando um bônus); (2) a agenda da própria consultoria usada como prova de demanda ("eu sei porque a gente está sendo contratado"); (3) prints da comunidade como prova de efeito de rede (vagas trocadas entre alunos); (4) cada promessa numérica da abertura (3–5x salarial, faixa R$20k+) recebe lastro com rosto e número na hora do pitch.
+**O que ele fez:** (1) as mesmas quatro camadas do GA: macro (mídia + 70% do mercado), pessoal (contracheque com correção de inflação falada na hora), terceiros (4 alunos com nome + salário), emprestada (d.school/Stanford ancorando um bônus); (2) a agenda da própria consultoria usada como prova de demanda ("eu sei porque a gente está sendo contratado"); (3) prints da comunidade como prova de efeito de rede (vagas trocadas entre alunos); (4) cada promessa numérica da abertura (3–5x salarial, faixa R$20k+) recebe lastro com rosto e número na hora do pitch.
 
 **Por que funciona:** o contracheque prova ao mesmo tempo a autoridade (ele viveu aquilo) e o teto da promessa (o aluno pode chegar lá). A edição confirma a modularidade da máquina: trocou-se a onda (VUCA → IA) e as provas de salário/aluno permaneceram idênticas - prova boa sobrevive à troca de tema; o que envelhece é a manchete, não a escada.
 
@@ -340,14 +340,14 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 - **Prova que não responde objeção nenhuma do avatar** - case escolhido por ser impressionante, não por ser espelho.
 - **Número redondo, inflado e sem hedge** - os campeões usam cifras quebradas e admitem incerteza onde não têm o dado.
 - **Esconder a objeção em vez de encená-la** - o padrão vencedor é dizer em voz alta o que a plateia está pensando e só então provar o contrário.
-- **Para o Soft especificamente:** prova por crachá institucional (Toyota, Itaú, MBA) é a gramática 13M para avatar CLT - decalcá-la quebraria o método; o Soft prova por espelho de NEGÓCIO (caso de aluno-dono, agenda, contrato, cliente high-ticket falando), conforme a nota da análise 13M (exemplos-vivos): "qual é a 'carteira de trabalho' do nosso avatar? (extrato, agenda lotada, contrato assinado)".
-- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da 13M; "permission to succeed" é do Fladlien), nunca apresentá-las como criação própria.
+- **Para o Soft especificamente:** prova por crachá institucional (Toyota, Itaú, MBA) é a gramática GA para avatar CLT - decalcá-la quebraria o método; o Soft prova por espelho de NEGÓCIO (caso de aluno-dono, agenda, contrato, cliente high-ticket falando), conforme a nota da análise GA (exemplos-vivos): "qual é a 'carteira de trabalho' do nosso avatar? (extrato, agenda lotada, contrato assinado)".
+- **Mecanismo sem dono:** ao citar peças nomeadas de referência ("Visão de Floresta" é da GA; "permission to succeed" é do Fladlien), nunca apresentá-las como criação própria.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus executam provas e casos - é, junto com a oferta, o bloco que nenhum campeão pula (vários pulam garantia: 13M, Gestão Ágil ed. 2.0 e webinar C do corpus não têm; nenhum pula prova). O que varia é a GEOGRAFIA do bloco, e a variação é instrutiva:
+**Nenhum.** Os 9 webinars do corpus executam provas e casos - é, junto com a oferta, o bloco que nenhum campeão pula (vários pulam garantia: GA, Gestão Ágil ed. 2.0 e webinar C do corpus não têm; nenhum pula prova). O que varia é a GEOGRAFIA do bloco, e a variação é instrutiva:
 
-- **Espalhado com pico no pitch** (13M, 5 Níveis, GAIA2k): mídia cedo, holerite e alunos na hora da oferta.
+- **Espalhado com pico no pitch** (GA, 5 Níveis, GAIA2k): mídia cedo, holerite e alunos na hora da oferta.
 - **Sanduíche** (Aluna 80k, webinar A do corpus): depoimento em vídeo abre E fecha a gravação - assinatura de sala perpétua com pre-roll em loop.
 - **Pré-roll sob countdown** (Gestão Ágil ed. 2.0): a prova começa antes do host aparecer.
 - **Pós-CTA como sustain** (webinar C do corpus): a rajada principal de depoimentos vem com o carrinho já aberto, alimentando quem hesita enquanto as vagas caem.

@@ -1,6 +1,6 @@
 # Big Idea / Big Domino (a declaração da crença única, nova oportunidade, promessa de prova)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ---
 
@@ -16,13 +16,13 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-Este bloco reduz a decisão de compra inteira a UMA crença, dita numa frase curta e repetível - se o lead aceita a frase, o produto vira a única conclusão lógica (é o dominó: derruba ele, e todas as objeções e todas as alternativas caem juntas). O mecanismo comum aos nove campeões: (1) o desejo é ensaiado ANTES da tese - future pacing em série ("Imagina você…"), quiz, cenários - para a crença pousar sobre um querer que o próprio lead já confirmou no chat; (2) a crença é declarada como fórmula gravável e o palestrante manda registrar ("vamos grifar", "write this down", "escreve no chat: meio"); (3) a culpa do fracasso anterior é deslocada para fora do avatar (o mundo mudou / te venderam dieta burra / a falha é do operador não-treinado, nunca "você é incapaz") - aceitar a crença não custa ego; (4) a nova oportunidade vem com janela quantificada e prova terceirizada (mídia de massa, precedente de elite, dado de pesquisa, "fato matemático" do 80/20) - a tese fica impessoal e, portanto, inatacável; (5) o bloco carrega promessa explícita de prova ("eu vou provar aqui pra você", "I will show you how") que abre o loop que o bloco de conteúdo vai fechar - a aula inteira vira evidência do dominó; (6) fecha numa equação causal simples dita em voz alta ("você aprendendo a resolver os problemas das empresas vai gerar duas coisas…"). Detalhe estrutural: na maioria dos exemplares o bloco NÃO é um momento único - é montado em movimentos distribuídos (declaração cedo + reforço com dado no meio + fechamento em equação), e na máquina 13M essa anatomia tem 6 movimentos mapeados (mídia → causa-raiz impessoal → inimigo nomeado → equação pessoal → ampliação de escopo que cria a lacuna → janela).
+Este bloco reduz a decisão de compra inteira a UMA crença, dita numa frase curta e repetível - se o lead aceita a frase, o produto vira a única conclusão lógica (é o dominó: derruba ele, e todas as objeções e todas as alternativas caem juntas). O mecanismo comum aos nove campeões: (1) o desejo é ensaiado ANTES da tese - future pacing em série ("Imagina você…"), quiz, cenários - para a crença pousar sobre um querer que o próprio lead já confirmou no chat; (2) a crença é declarada como fórmula gravável e o palestrante manda registrar ("vamos grifar", "write this down", "escreve no chat: meio"); (3) a culpa do fracasso anterior é deslocada para fora do avatar (o mundo mudou / te venderam dieta burra / a falha é do operador não-treinado, nunca "você é incapaz") - aceitar a crença não custa ego; (4) a nova oportunidade vem com janela quantificada e prova terceirizada (mídia de massa, precedente de elite, dado de pesquisa, "fato matemático" do 80/20) - a tese fica impessoal e, portanto, inatacável; (5) o bloco carrega promessa explícita de prova ("eu vou provar aqui pra você", "I will show you how") que abre o loop que o bloco de conteúdo vai fechar - a aula inteira vira evidência do dominó; (6) fecha numa equação causal simples dita em voz alta ("você aprendendo a resolver os problemas das empresas vai gerar duas coisas…"). Detalhe estrutural: na maioria dos exemplares o bloco NÃO é um momento único - é montado em movimentos distribuídos (declaração cedo + reforço com dado no meio + fechamento em equação), e na máquina do webinar-modelo GA essa anatomia tem 6 movimentos mapeados (mídia → causa-raiz impessoal → inimigo nomeado → equação pessoal → ampliação de escopo que cria a lacuna → janela).
 
 ---
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165, avatar CLT querendo promoção
+### Webinar-modelo GA (Gestão Ágil, ed. A - modelo-mestre R$3M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165, avatar CLT querendo promoção
 
 **Trecho literal:**
 
@@ -52,11 +52,11 @@ A equação (o dominó formalizado):
 
 **Por que funciona:** ele não vende gestão ágil pela técnica, vende pela posição de mercado que ela dá ("terra de cego"). A crença única reduz a decisão a um sim/não sobre uma frase só - e a frase já foi pré-aceita cenário por cenário no chat. O hedging do dado ("eu chutaria… não tenho preciso") soa honestidade e blinda o número.
 
-**O que é decalcável vs do nicho:** decalcável: future pacing → frase única grifada → reframe de culpa → janela com número → equação. Do nicho: a equação carreira-CLT (resolver problema da empresa → salário) e o slogan "gestor do futuro" (da 13M) - o equivalente Soft tem que ser equação de dono de negócio, na voz do dono.
+**O que é decalcável vs do nicho:** decalcável: future pacing → frase única grifada → reframe de culpa → janela com número → equação. Do nicho: a equação carreira-CLT (resolver problema da empresa → salário) e o slogan "gestor do futuro" (da GA) - o equivalente Soft tem que ser equação de dono de negócio, na voz do dono.
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
+### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
 
 **Trecho literal:**
 
@@ -82,13 +82,13 @@ Reforço com autoridade emprestada:
 
 **O que ele fez:** (1) reframe crise→oportunidade com promessa de prova explícita ("eu vou provar aqui pra você"); (2) prova terceirizada institucional - manchetes do G1, Você SA, Valor, Exame lidas na tela; (3) destilação explícita do dominó ("se for lembrar de UMA coisa, lembra disso"); (4) falsa dicotomia temporal (aprende agora ou fica para trás); (5) citação de autoridade com disclaimer honesto (Einstein "nem sei se é dele").
 
-**Por que funciona:** o dominó é "quem resolve problemas das empresas cresce; gestão ágil é COMO se resolve os problemas da era VUCA" - aceitou isso, o curso é a única conclusão. As manchetes terceirizam a prova: não é o vendedor dizendo que o mercado quer, é a Globo. E o disclaimer do Einstein compra credibilidade para o resto. Nota da análise 13M (exemplos-vivos): este bloco é montado em 6 movimentos distribuídos - mídia, causa-raiz impessoal (gráfico de Fogel), inimigo nomeado (gestor do passado), equação pessoal, ampliação de escopo ("muito mais que Scrum e Kanban" - a "visão de floresta", mecanismo da 13M), janela ("em terra de cego quem tem olho é rei").
+**Por que funciona:** o dominó é "quem resolve problemas das empresas cresce; gestão ágil é COMO se resolve os problemas da era VUCA" - aceitou isso, o curso é a única conclusão. As manchetes terceirizam a prova: não é o vendedor dizendo que o mercado quer, é a Globo. E o disclaimer do Einstein compra credibilidade para o resto. Nota da análise GA (exemplos-vivos): este bloco é montado em 6 movimentos distribuídos - mídia, causa-raiz impessoal (gráfico de Fogel), inimigo nomeado (gestor do passado), equação pessoal, ampliação de escopo ("muito mais que Scrum e Kanban" - a "visão de floresta", mecanismo da GA), janela ("em terra de cego quem tem olho é rei").
 
-**O que é decalcável vs do nicho:** decalcável: a anatomia em movimentos + "se for lembrar de uma coisa só" + prova por manchete + binarização. Do nicho: VUCA, "visão de floresta" (da 13M) e o frame de obsolescência profissional CLT.
+**O que é decalcável vs do nicho:** decalcável: a anatomia em movimentos + "se for lembrar de uma coisa só" + prova por manchete + binarização. Do nicho: VUCA, "visão de floresta" (da GA) e o frame de obsolescência profissional CLT.
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - mesma máquina/mesmo script-base do 13M; Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês)
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesma máquina/mesmo script-base do GA; Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês)
 
 **Trecho literal:**
 
@@ -102,11 +102,11 @@ Reforço com autoridade emprestada:
 
 > "Porque gestor ágil é o gestor do futuro. Eu costumo sempre colocar essa frase, a gestão ágil é a gestão do futuro. Mas, na verdade, é a gestão do presente. […] É a gestão do futuro, mas é aquele futuro que já começou."
 
-**O que ele fez:** (1) big domino explícito ("basta você aprender a resolver os problemas das empresas" → todos os sonhos caem); (2) reframe de crença (problema = ouro, não sofrimento); (3) janela quantificada com hedging tático; (4) slogan repetível ("gestor do futuro", da 13M) que vira identidade aspiracional usada o webinar inteiro; (5) correção da própria frase para fechar a janela ("é a gestão do futuro, mas é aquele futuro que já começou" - urgência sem timer); (6) prova por interesse próprio (o crescimento da 13M citado como termômetro da onda).
+**O que ele fez:** (1) big domino explícito ("basta você aprender a resolver os problemas das empresas" → todos os sonhos caem); (2) reframe de crença (problema = ouro, não sofrimento); (3) janela quantificada com hedging tático; (4) slogan repetível ("gestor do futuro", da GA) que vira identidade aspiracional usada o webinar inteiro; (5) correção da própria frase para fechar a janela ("é a gestão do futuro, mas é aquele futuro que já começou" - urgência sem timer); (6) prova por interesse próprio (o crescimento da GA citado como termômetro da onda).
 
-**Por que funciona:** a crença única é uma só: "se você souber resolver os problemas de gestão das empresas, tudo o mais (salário, reconhecimento, liberdade) é consequência automática". Aceitou, o curso vira o único passo lógico - todo o resto do webinar só empilha evidência nesse dominó. ACHADO DE CORPUS: este bloco é quase palavra-por-palavra idêntico ao do 13M - duas gravações, mesma sequência, mesmas frases. O Big Domino da máquina 13M é ativo fixo ensaiado, não improviso de palco.
+**Por que funciona:** a crença única é uma só: "se você souber resolver os problemas de gestão das empresas, tudo o mais (salário, reconhecimento, liberdade) é consequência automática". Aceitou, o curso vira o único passo lógico - todo o resto do webinar só empilha evidência nesse dominó. ACHADO DE CORPUS: este bloco é quase palavra-por-palavra idêntico ao do GA - duas gravações, mesma sequência, mesmas frases. O Big Domino da máquina do webinar-modelo GA é ativo fixo ensaiado, não improviso de palco.
 
-**O que é decalcável vs do nicho:** decalcável: a constatação de que a frase-dominó deve ser FIXA e repetida idêntica em toda edição do perpétuo. Do nicho: tudo que é da 13M (gestor do futuro, equação carreira) - extrair o esqueleto, nunca as palavras.
+**O que é decalcável vs do nicho:** decalcável: a constatação de que a frase-dominó deve ser FIXA e repetida idêntica em toda edição do perpétuo. Do nicho: tudo que é da GA (gestor do futuro, equação carreira) - extrair o esqueleto, nunca as palavras.
 
 ---
 
@@ -188,7 +188,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / 13M) - Formação GA 2.0 a R$1.997 à vista / 12x R$199; edição que troca a onda VUCA pela onda IA
+### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - Formação GA 2.0 a R$1.997 à vista / 12x R$199; edição que troca a onda VUCA pela onda IA
 
 **Trecho literal:**
 
@@ -212,7 +212,7 @@ A consequência prática (o que te sobra - e vale mais):
 
 **O que ele fez:** (1) big idea formulada como sentença memorizável e repetida ("na era da IA, o gestor do futuro é um gestor ágil"); (2) promessa explícita de prova ("eu vou te explicar porquê") que abre o loop do bloco de conteúdo inteiro; (3) analogia da calculadora para desarmar o medo da IA com precedente histórico; (4) inversão ameaça→oportunidade que posiciona exatamente o produto (formação de gestão + lado humano) como o único movimento lógico; (5) o medo que trouxe o lead à live é convertido em demanda pelo produto.
 
-**Por que funciona:** se o espectador aceita "a IA automatiza tudo, menos cuidar de pessoas", o resto cai sozinho: gestão+liderança vira a única profissão blindada, e quem vende formação nisso vende o seguro contra o meteoro. ACHADO da análise 13M (exemplos-vivos): comparando com as edições VUCA, esta edição prova que a big idea bem construída tem um "slot de onda" trocável - VUCA saiu, IA entrou, e a equação pessoal + o mecanismo (a "visão de floresta", da 13M) ficaram intactos; o ticket até subiu (R$3.000→3.500 de tabela). O que envelhece é a onda, nunca a equação.
+**Por que funciona:** se o espectador aceita "a IA automatiza tudo, menos cuidar de pessoas", o resto cai sozinho: gestão+liderança vira a única profissão blindada, e quem vende formação nisso vende o seguro contra o meteoro. ACHADO da análise GA (exemplos-vivos): comparando com as edições VUCA, esta edição prova que a big idea bem construída tem um "slot de onda" trocável - VUCA saiu, IA entrou, e a equação pessoal + o mecanismo (a "visão de floresta", da GA) ficaram intactos; o ticket até subiu (R$3.000→3.500 de tabela). O que envelhece é a onda, nunca a equação.
 
 **O que é decalcável vs do nicho:** decalcável: converter o MEDO da audiência (a razão de ela estar na live) na própria oportunidade; analogia com precedente histórico; desenhar a big idea já com slot de onda trocável para o perpétuo. Do nicho: IA/gestão/liderança CLT.
 
@@ -280,16 +280,16 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 
 1. **UMA crença, UMA frase.** Todos reduzem a tese a uma sentença curta e repetível ("tudo isso é possível aprendendo gestão ágil" · "resina não é fim, é meio" · "one problem, one solution, one sitting" · "a dieta se adequa à sua vida" · "se eu posso, você também pode"). Duas big ideas = nenhum dominó.
 2. **Comando de registro.** A frase nunca passa solta: "vamos grifar", "write this down", "já grava isso", "escreve para mim aqui no chat: meio", "se for lembrar de UMA coisa, lembra disso". O espectador grava/digita a crença - micro-compromisso com a tese antes da oferta.
-3. **Desejo ensaiado ANTES da tese.** Future pacing em série (13M/5 Níveis), quiz de crenças (Fladlien #2), cenários de carreira (GAIA2k): a crença pousa sobre um querer já confirmado no chat.
-4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - 13M), te venderam "dieta burra" (Vítor Abrão), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (Fladlien), "eles nunca te contaram como" (Pupim).
+3. **Desejo ensaiado ANTES da tese.** Future pacing em série (GA/5 Níveis), quiz de crenças (Fladlien #2), cenários de carreira (GAIA2k): a crença pousa sobre um querer já confirmado no chat.
+4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - GA), te venderam "dieta burra" (Vítor Abrão), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (Fladlien), "eles nunca te contaram como" (Pupim).
 5. **O dominó derruba a concorrência junto.** Se a crença é verdadeira, TODA alternativa cai por definição: toda dieta restritiva, todo MBA "de linguiça", todo cursinho de Scrum isolado, toda tática de tráfego. O bloco é desenhado para esvaziar as outras opções, não só para convencer.
 6. **Prova terceirizada e impessoal.** Manchetes (G1/Exame), precedente de elite (Arthur Casas), gráfico acadêmico (Fogel), "fato matemático" (80/20), pesquisa própria com volume (880 mil respostas), número de mercado. A tese atacável vira tese de terceiros - quem ataca, ataca a Globo ou a matemática.
-7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (13M); "nem 10% têm a licença" (Pupim); "148 times" (Fladlien). A ressalva declarada aumenta a credibilidade do número.
+7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (GA); "nem 10% têm a licença" (Pupim); "148 times" (Fladlien). A ressalva declarada aumenta a credibilidade do número.
 8. **Promessa de prova explícita.** "Eu vou provar aqui pra você" · "Eu vou te explicar porquê" · "I will show you how to do it". O bloco abre o loop; o bloco de conteúdo existe para fechá-lo - a aula inteira vira evidência do dominó.
-9. **Fecho em equação causal simples, dita em voz alta.** "A equação é simples: você resolvendo os problemas das empresas → empresa lucra + você é valorizado" (13M); "adesão → resultado mantido" (MDI); "uma sentada → produto pronto → primeiro dólar" (Fladlien).
-10. **Reframe identitário embutido.** O lead sai de "quem sofre o problema" para "quem resolve problemas" / "gestor do futuro" (13M) / faixa preta (webinar C) / quem dá "permission to succeed" a si (Fladlien).
-11. **Slot de onda trocável (achado da análise 13M).** Entre as edições VUCA e a edição IA (GAIA2k), trocou-se a onda e manteve-se equação pessoal + mecanismo - escrever o bloco já sabendo qual pedaço é "onda" (vai envelhecer) e qual é "equação" (não pode mudar).
-12. **Bloco distribuído, não pontual.** Declaração cedo + reforço com dado no meio + equação no fim (13M: min 13-23 → min 25 → min 43-45; webinar C: 7% → 15% → 21%). A crença é construída em camadas, e a frase-mantra plantada aqui é cobrada na transição (pegadas → "pisar nas minhas pegadas"; hashtag da revolução no MDI).
+9. **Fecho em equação causal simples, dita em voz alta.** "A equação é simples: você resolvendo os problemas das empresas → empresa lucra + você é valorizado" (GA); "adesão → resultado mantido" (MDI); "uma sentada → produto pronto → primeiro dólar" (Fladlien).
+10. **Reframe identitário embutido.** O lead sai de "quem sofre o problema" para "quem resolve problemas" / "gestor do futuro" (GA) / faixa preta (webinar C) / quem dá "permission to succeed" a si (Fladlien).
+11. **Slot de onda trocável (achado da análise GA).** Entre as edições VUCA e a edição IA (GAIA2k), trocou-se a onda e manteve-se equação pessoal + mecanismo - escrever o bloco já sabendo qual pedaço é "onda" (vai envelhecer) e qual é "equação" (não pode mudar).
+12. **Bloco distribuído, não pontual.** Declaração cedo + reforço com dado no meio + equação no fim (GA: min 13-23 → min 25 → min 43-45; webinar C: 7% → 15% → 21%). A crença é construída em camadas, e a frase-mantra plantada aqui é cobrada na transição (pegadas → "pisar nas minhas pegadas"; hashtag da revolução no MDI).
 
 ---
 
@@ -301,11 +301,11 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 - **Tese sustentada só na própria palavra.** Todos terceirizam a prova (mídia, precedente, dado, estudo); afirmar "acredite em mim" sem lastro externo quebraria o bloco.
 - **Inversão contraintuitiva sem lastro.** Contradizer o senso comum ("o close é o menos importante") só funciona acoplado a um número que paga o direito de contradizer (US$100M); sem isso é arrogância.
 - **Janela sem número.** "Essa é uma grande oportunidade" genérico não aparece em nenhum campeão - todos quantificam (80% das empresas, 148x, nem 10%).
-- **Vender o veículo pelo atributo técnico.** Nenhum campeão vende a ferramenta em si - 13M não vende Scrum, vende posição de mercado; o webinar C não vende resina, vende liberdade ("resina é meio"); Fladlien não vende webinar, vende sistema-à-prova-de-pessoa. Defender feature aqui mata o dominó.
-- **Específico do método Soft (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da 13M; "adesão/dieta burra" é do MDI; "111" é do Fladlien); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
+- **Vender o veículo pelo atributo técnico.** Nenhum campeão vende a ferramenta em si - GA não vende Scrum, vende posição de mercado; o webinar C não vende resina, vende liberdade ("resina é meio"); Fladlien não vende webinar, vende sistema-à-prova-de-pessoa. Defender feature aqui mata o dominó.
+- **Específico do método Soft (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da GA; "adesão/dieta burra" é do MDI; "111" é do Fladlien); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
 
 ---
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco Big Idea/Big Domino - é, ao lado do conteúdo e da oferta, o único bloco presente em 100% dos exemplares. Contraste que vira dado: a garantia falta em 6 dos 9; o pré-início falta nos dois Fladlien e na Aluna 80k; o Q&A ao vivo falta em vários. Ou seja: campeão fecha sem garantia, sem aquecimento, sem Q&A - nunca sem a crença única. Dois registros finos do corpus: (a) 13M e 5 Níveis são duas gravações da mesma máquina 13M com este bloco quase idêntico palavra a palavra - a frase-dominó é ativo fixo ensaiado e reutilizado, não improviso; (b) na Aluna 80k a crença é declarada já aos ~4% da aula (na abertura) e re-cravada aos ~23-27% - prova de que o bloco pode ancorar cedo desde que volte com prova depois.
+**Nenhum.** Os 9 webinars do corpus têm o bloco Big Idea/Big Domino - é, ao lado do conteúdo e da oferta, o único bloco presente em 100% dos exemplares. Contraste que vira dado: a garantia falta em 6 dos 9; o pré-início falta nos dois Fladlien e na Aluna 80k; o Q&A ao vivo falta em vários. Ou seja: campeão fecha sem garantia, sem aquecimento, sem Q&A - nunca sem a crença única. Dois registros finos do corpus: (a) GA e 5 Níveis são duas gravações da mesma máquina do webinar-modelo GA com este bloco quase idêntico palavra a palavra - a frase-dominó é ativo fixo ensaiado e reutilizado, não improviso; (b) na Aluna 80k a crença é declarada já aos ~4% da aula (na abertura) e re-cravada aos ~23-27% - prova de que o bloco pode ancorar cedo desde que volte com prova depois.

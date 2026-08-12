@@ -1,7 +1,7 @@
 # Abertura/Atenção (promessa da aula, headline falada, regras da sala, por que ficar até o fim)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = 13M/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = Fladlien).
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
+> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = GA/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = Fladlien).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -11,7 +11,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, edição A - Denison Vieira) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$13M
+### Webinar-modelo GA (Gestão Ágil, edição A - Denison Vieira) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$3M
 
 **Trecho literal:**
 
@@ -25,9 +25,9 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Por que funciona:** os objetivos da aula são o espelho exato da promessa do produto - quando a oferta chega 90 minutos depois, ela parece desfecho, não interrupção. O "90 dias" grifado na abertura reaparece literal na promessa do curso ("se torne um líder valioso em 90 dias"): quem aceitou o objetivo 3 já aceitou a premissa da oferta. E o presente cria razão concreta (não emocional) pra atravessar o pitch inteiro.
 
-**Decalcável vs do nicho:** decalcável: 3 objetivos com o último = promessa do produto + presente-mistério + grifo verbal do prazo. Do nicho/voz: "guerreiros e guerreiras", "gestor do futuro" e o trio trabalho/equipe/tempo são da 13M - o autor do corpus nomeia na voz dele.
+**Decalcável vs do nicho:** decalcável: 3 objetivos com o último = promessa do produto + presente-mistério + grifo verbal do prazo. Do nicho/voz: "guerreiros e guerreiras", "gestor do futuro" e o trio trabalho/equipe/tempo são da GA - o autor do corpus nomeia na voz dele.
 
-### Gestão Ágil 2.0 (13M, ed. 2 - Denison) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
+### Gestão Ágil 2.0 (GA, ed. 2 - Denison) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
 
 **Trecho literal:**
 
@@ -43,7 +43,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: promessa + juramento de cumprimento, regra de chat com delegação, presente sem revelar. Do nicho: "referência em gestão" é a identidade aspiracional desse avatar CLT; cada nicho tem a sua.
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - mesmo roteiro do 13M, outra sessão; R$1.997/R$1.697
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesmo roteiro do GA, outra sessão; R$1.997/R$1.697
 
 **Trecho literal:**
 
@@ -55,7 +55,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 > "Eu queria começar pedindo para vocês imaginarem alguns cenários. […] Imagina você ter um domínio total do seu tempo, equilibrando carreira e vida pessoal de forma harmoniosa. Quem aqui tem problema com gestão de tempo? Coloca aqui para eu saber."
 
-**O que ele fez:** mesma sequência do 13M (headline tripla → 3 objetivos com grifo → presente dos "guerreiros") + emenda direto na sequência de future pacing "imagina…" com pergunta-isca de dor no meio - a abertura já desemboca em construção de desejo confirmada no chat.
+**O que ele fez:** mesma sequência do GA (headline tripla → 3 objetivos com grifo → presente dos "guerreiros") + emenda direto na sequência de future pacing "imagina…" com pergunta-isca de dor no meio - a abertura já desemboca em construção de desejo confirmada no chat.
 
 **Por que funciona:** ele cola a promessa de transformação ("em 90 dias") na agenda da aula - e o "imagina" faz a audiência ensaiar emocionalmente o estado-depois ANTES do diagnóstico do problema. Cada cenário pede confirmação no chat: o desejo privado vira compromisso público. Detalhe de máquina: a repetição literal entre sessões prova que esta abertura é roteiro fixo, não improviso - o bloco foi desenhado uma vez e roda em escala.
 
@@ -129,7 +129,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 > "se você tá aqui nessa aula porque o assunto resina anterior te interessa, a gente vai falar de resina anterior. Eu quero te ajudar a evoluir em resenha anterior, eu quero te ajudar a melhorar o seu faturamento fazendo resina anterior"
 
-**O que ele fez:** abre na primeira frase com a headline-paradoxo ("primeiro procedimento da faculdade e até hoje você ainda erra") → lista as dores específicas sem culpar ainda (cor, acinzentamento, opacidade, formato) → loop aberto explícito ("não quero AINDA entrar nos méritos dos erros") → promessa visual amarrada a slide ("você vai estar NESSE aqui no final dessa aula" - antes/depois apontado na tela) → declaração dupla de promessa (evoluir tecnicamente + faturamento). Detalhe de ordem: ele abre com a promessa e SÓ DEPOIS acorda a sala (roll call de cidades) - inverte o padrão 13M.
+**O que ele fez:** abre na primeira frase com a headline-paradoxo ("primeiro procedimento da faculdade e até hoje você ainda erra") → lista as dores específicas sem culpar ainda (cor, acinzentamento, opacidade, formato) → loop aberto explícito ("não quero AINDA entrar nos méritos dos erros") → promessa visual amarrada a slide ("você vai estar NESSE aqui no final dessa aula" - antes/depois apontado na tela) → declaração dupla de promessa (evoluir tecnicamente + faturamento). Detalhe de ordem: ele abre com a promessa e SÓ DEPOIS acorda a sala (roll call de cidades) - inverte o padrão GA.
 
 **Por que funciona:** o paradoxo "básico que você ainda erra" fura a defesa do avatar experiente sem humilhar (a culpa vem depois, no vilão). A promessa amarrada a um slide visível cria um contrato de permanência VERIFICÁVEL: a pessoa fica pra conferir se chega "nesse nível aqui". E declarar faturamento junto com técnica já posiciona a aula no dinheiro desde o minuto 1.
 
@@ -176,9 +176,9 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 ## Padrões transversais (checklist - o que TODOS fazem neste bloco)
 
 - [ ] **Headline falada nos primeiros minutos**, com resultado + prazo (e nos melhores, a negação da dor esperada: "sem abandonar os momentos", "sem inglês fluente").
-- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina 13M; 5 loops com número no Fladlien; "o erro de 99% + 3 pilares" no Vítor Abrão).
+- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina do webinar-modelo GA; 5 loops com número no Fladlien; "o erro de 99% + 3 pilares" no Vítor Abrão).
 - [ ] **O último objetivo é a promessa do PRODUTO** disfarçada de objetivo da aula ("reconhecido pelo mercado em 90 dias", "gestor indispensável") - abertura e oferta são o mesmo texto em dois tempos.
-- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (13M, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (Fladlien). Nunca revelada na abertura; repicada no meio.
+- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (GA, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (Fladlien). Nunca revelada na abertura; repicada no meio.
 - [ ] **Contrato bilateral explícito**: "Do we have a deal?" (Fladlien 1 e 2), "Combinado?" (Juliana, Denison), "posso contar com você nos próximos 60 minutos?" (Juliana).
 - [ ] **Regras da sala que protegem o host sem esfriar**: "não respondo 1:1, a equipe monitora" (ed.2), "vou focar na apresentação, mas de tempos em tempos eu olho" (GAIA2k) - sempre com reason-why ("por uma boa causa").
 - [ ] **Micro-compromisso digitado já neste bloco** (quiz T/F, "quem tem problema com gestão de tempo?", nome+cidade) - instala o hábito de responder que será cobrado no pitch.
@@ -189,13 +189,13 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
-- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (Fladlien #2, "spoiler") - sem número, sem stack. (O price-seeding da 13M acontece no bloco de autoridade, como fato de catálogo - não aqui.)
+- **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (Fladlien #2, "spoiler") - sem número, sem stack. (O price-seeding da GA acontece no bloco de autoridade, como fato de catálogo - não aqui.)
 - **Revelar o presente do fim.** Todos escondem o conteúdo do presente ("eu não vou falar o que é"). Presente revelado = loop fechado = retenção perdida.
 - **Promessa vaga, sem número e sem prazo.** Todos quantificam: 90 dias, 3x mais, 2 horas, um ano em 3 meses. Promessa genérica ("vou te ensinar muito sobre X") não aparece em nenhum campeão.
 - **Entrar no conteúdo técnico antes de fechar o contrato de atenção.** Todos gastam os primeiros minutos comprando permanência; nenhum abre ensinando.
 - **Abrir pedindo desculpas ou diminuindo a aula** ("vou tentar", "é só uma aulinha"). O movimento é o oposto: reprecificar o evento ("a melhor decisão que você tomou", "bolo com calda", "melhor conteúdo de 2020").
 - **Regras de sala sem reason-why.** Pedir comportamento "porque sim" não acontece - todo pedido vem com motivo funcional ("se ninguém colocar eu não vou saber", "é por uma boa causa").
-- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/13M; "Do we have a deal" é cadência Fladlien. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do corpus estudado - nunca transplantar a frase.
+- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/GA; "Do we have a deal" é cadência Fladlien. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do corpus estudado - nunca transplantar a frase.
 - **Pra perpétuo: abertura que depende de sala viva.** O Vítor Abrão mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
 - **No-replay falso.** A Juliana usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
 
@@ -207,4 +207,4 @@ O que varia (e vale registrar como dado adjacente):
 - **Fladlien #1 e #2 não têm pré-início** (bloco 01): a gravação abre direto na headline ("And we are rolling" / "Product creation secrets") e a abertura ABSORVE a função do aquecimento - no #2, o quiz faz o papel de acordar o chat. Padrão de formato gravado/evergreen.
 - **Aluna 80k e webinar A do corpus abrem com vídeo-depoimento** antes da abertura falada (webinar A do corpus em loop perpétuo): a primeira impressão é prova de terceiro, e a abertura chega com a big idea pré-validada por uma cliente. O pré-início clássico (check técnico) não existe ou ficou fora do corte.
 - **Webinar C (Bruno) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
-- **A máquina 13M roda a MESMA abertura em 4 edições** (13M, ed.2, 5 Níveis, GAIA2k) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.
+- **A máquina do webinar-modelo GA roda a MESMA abertura em 4 edições** (GA, ed.2, 5 Níveis, GAIA2k) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.

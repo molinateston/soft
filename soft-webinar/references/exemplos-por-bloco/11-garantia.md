@@ -1,6 +1,6 @@
 # Garantia (reversão de risco, garantia condicional de resultado, dobro do dinheiro)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 > Atenção estrutural: este é o bloco MAIS RARO do corpus - só 3 de 9 webinars têm garantia (Fladlien #1, Fladlien #2, webinar A do corpus). Os outros 6 fecham sem reversão de risco formal e absorvem essa função no bloco 10 (preço trivializado) e no payback. A decisão "ter ou não ter garantia" é de design, não de praxe - e quem NÃO tem precisa de bloco 10 forte.
 
 ---
@@ -103,11 +103,11 @@ As condições (no Q&A, com a metáfora do cheque):
 
 **Seis dos nove NÃO têm garantia - é o bloco mais ausente do corpus** (auditado por grep nas partições: zero menção a garantia/reembolso/devolução):
 
-- **13M (13M):** nenhuma menção. O risco é tratado por outras vias: preço reduzido ao ridículo ("cabe no orçamento de qualquer um"), 12 meses de acesso ("inicia quando puder") e suporte de plantão. Fecha no impulso + preço baixo percebido.
+- **GA (GA):** nenhuma menção. O risco é tratado por outras vias: preço reduzido ao ridículo ("cabe no orçamento de qualquer um"), 12 meses de acesso ("inicia quando puder") e suporte de plantão. Fecha no impulso + preço baixo percebido.
 - **5 Níveis:** zero menção (ressalva: a transcrição corta no momento do link - mas o lugar canônico da garantia, antes do preço, passou em branco). Amortecedor usado: 12 meses de acesso + parcela de R$165 + bônus do combinado.
 - **Gestão Ágil ed. 2.0:** zero menção. De-risking via R$5,51/dia + "não quero que o valor seja um impeditivo". Os "eu te garanto" do texto são retóricos (sobre a promessa da aula), não garantia comercial.
 - **GAIA2k:** zero menção. Escolha estrutural da máquina: fechar sem reversão de risco formal, com R$6/dia + GPS de acompanhamento fazendo o serviço.
 - **Aluna 80k (Juliana Pupim):** nenhuma garantia. Substituição por payback ("um freelance… você já pagou o curso"), prova social em volume e o desconto-combinado que pressupõe sucesso.
 - **webinar C do corpus (voz Bruno):** inexistente. Risco tratado só por payback ("você vai pegar esse investimento de volta nos primeiros casos que você fechar") e pela tese das pegadas.
 
-**Leitura clínica do conjunto:** a máquina 13M - a mais testada do corpus, R$13M - escolhe NÃO ter garantia em todas as 4 edições; quem usa garantia pesada (dobro do dinheiro) são os webinars de ticket menor ou de promessa mais incrédula (Fladlien, MDI). Regra de decisão pra skill: garantia é alavanca opcional que troca de lugar com o de-risking do bloco 10 - se a promessa do webinar novo enfrenta ceticismo alto ("isso não funciona pra mim"), a garantia condicional de aplicação é a arma; se o preço já foi trivializado e o payback é óbvio, fechar sem garantia é padrão validado pelo corpus. A decisão final é do corpus estudado (método é dele) - apresentar as duas rotas com estes dados.
+**Leitura clínica do conjunto:** a máquina do webinar-modelo GA - a mais testada do corpus, R$3M - escolhe NÃO ter garantia em todas as 4 edições; quem usa garantia pesada (dobro do dinheiro) são os webinars de ticket menor ou de promessa mais incrédula (Fladlien, MDI). Regra de decisão pra skill: garantia é alavanca opcional que troca de lugar com o de-risking do bloco 10 - se a promessa do webinar novo enfrenta ceticismo alto ("isso não funciona pra mim"), a garantia condicional de aplicação é a arma; se o preço já foi trivializado e o payback é óbvio, fechar sem garantia é padrão validado pelo corpus. A decisão final é do corpus estudado (método é dele) - apresentar as duas rotas com estes dados.

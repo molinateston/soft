@@ -469,7 +469,7 @@ Na Fase 2, captação **fica realmente disponível pela primeira vez**.
 | Tipo | Quem | Características |
 |------|------|-----------------|
 | **Anjo** | Investidor individual (R$50k-500k) | Mentoria + dinheiro pequeno, mais flexível |
-| **Seed VC** | Fundo de seed (R$500k-3MM) | Espera 10-30x retorno, busca crescimento agressivo |
+| **Seed VC** | Fundo de seed (R$300k-3MM) | Espera 10-30x retorno, busca crescimento agressivo |
 | **Family Office** | Grupo familiar | Paciência maior, retorno menor mas estável |
 | **Bootstrapping** | Receita reinvestida | Sem dilutição, crescimento mais lento |
 | **Dívida** | Banco ou peer-to-peer | Não dilui, mas paga juros, só faz sentido com receita previsível |

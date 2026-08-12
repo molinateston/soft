@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "soft-skills",
   "owner": {
-    "name": "Léo Molina"
+    "name": "Soft Business"
   },
   "metadata": {
     "description": "Soft Skills — o Sócio IA (LEON) e as skills que montam o negócio do especialista, do zero ao rodando."

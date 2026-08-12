@@ -38,7 +38,7 @@ Toda skill de arsenal Soft que produz linha publica pro dono:
 - soft-vendas-sdr (scripts DM, follow-up, qualificacao)
 - soft-vendas-closer (fechamento, objecao, pos-venda)
 - soft-plano-posicionamento (dominio, tese, headlines)
-- soft-voz-leo-molina (peca canonica sob voz do dono)
+- a skill de voz destilada do dono, se existir (peca canonica sob voz do dono)
 - soft-apostila (headline de capitulo, gancho de secao)
 
 Como e invocada
@@ -153,7 +153,7 @@ Roda o script Python bundled na propria skill:
 O script tem 3 camadas:
 
 HARD (exit 1, zero tolerancia): em-dash U+2014 e a familia
-palavra da familia T-word (use empacar/emperrar) (regra dura do Leo, memory
+palavra da familia T-word (use empacar/emperrar) (regra dura do dono, memory
 feedback-doc-ascii-diagramacao).
 
 WARN (nao bloqueia, avisa): conectivo formal de IA
@@ -241,10 +241,10 @@ Fontes canonicas obrigatorias, na ordem:
 
 1. aula-webinar-AAA-gravada.md (verbatim real do dono na
    aula do webinar, ~1h49, com transcricao literal). Path:
-   /home/cloud/.openclaw/brain/conteudo/aula-webinar-AAA-gravada.md
+   ~/.openclaw/brain/conteudo/aula-webinar-AAA-gravada.md
    (ou o path equivalente no cliente)
 2. NARRATIVA-CANONICA.md (a fonte da verdade da tese-mae).
-   Path: /home/cloud/.openclaw/brain/NARRATIVA-CANONICA.md
+   Path: ~/.openclaw/brain/NARRATIVA-CANONICA.md
 3. CANONICO.md, ARSENAL-DE-DESEJOS.md, PROMESSA-MAXIMA.md,
    BANCO-DE-MATERIA-PRIMA.md (camadas)
 4. plano-de-posicionamento do dono (se ja existe, path
@@ -364,14 +364,14 @@ CONTRA-EXEMPLOS (O QUE A SKILL NAO FAZ)
 REGRAS TRANSVERSAIS
 ============================================================
 
-1) ZERO DEFAULT DO LEO. Naming do produto do Leo (Operacao
+1) ZERO DEFAULT DE TERCEIRO. Naming de produto de outro negocio (Operacao
    SOFT, Mesa de Operacao, Call de Arquitetura, Consultoria
    Soft) so entra como REFERENCIA marcada "(exemplo, nao
    copia)" nas references/. Skill e generica pra qualquer
    cliente do LEON.
 
 2) FONTE VERBATIM CONFIGURAVEL. Skill chamadora passa
-   verbatim_ref no contexto. Default e o brain do Leo, mas
+   verbatim_ref no contexto. Default e o brain do dono, mas
    se o cliente tem brain proprio, esse e o path.
 
 3) OUTPUT ESTRUTURADO E CURTO. Feedback nao vira ensaio.
@@ -390,17 +390,17 @@ REGRAS TRANSVERSAIS
 FONTES CANONICAS DO METODO SOFT (REFERENCIAS DA SKILL)
 ============================================================
 
-- /home/cloud/.claude/skills/_plugin/guia/GUIA-COPY-APLICACAO.md
+- ~/.claude/skills/_plugin/guia/GUIA-COPY-APLICACAO.md
   (fonte da verdade do metodo de copy Soft, CUB + estrutura-
   mae + 8 leis + revisao em camadas + peca por peca +
   checklist final)
-- /home/cloud/.claude/skills/_plugin/guia/CODIGO-DE-ESCRITA.md
+- ~/.claude/skills/_plugin/guia/CODIGO-DE-ESCRITA.md
   (a lei, o codigo por tras do guia)
-- /home/cloud/.claude/skills/_plugin/guia/03-identidade-voz.md
+- ~/.claude/skills/_plugin/guia/03-identidade-voz.md
   (elementos de voz Soft)
-- /home/cloud/.openclaw/brain/conteudo/aula-webinar-AAA-gravada.md
-  (verbatim canonico do Leo, fonte 1 do Verbatim filtro)
-- /home/cloud/.openclaw/brain/NARRATIVA-CANONICA.md
+- ~/.openclaw/brain/conteudo/aula-webinar-AAA-gravada.md
+  (verbatim canonico do dono, fonte 1 do Verbatim filtro)
+- ~/.openclaw/brain/NARRATIVA-CANONICA.md
   (fonte da tese-mae)
 
 Este SKILL.md sintetiza. Detalhe operacional dos filtros em

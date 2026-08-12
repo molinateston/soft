@@ -178,7 +178,7 @@ Sem virar agência. Sem postar todo dia.
 **Jurídico (tributário):**
 ```
 Reduzo até 47% da carga tributária da sua empresa.
-Empresas faturando R$500k-5M/mês.
+Empresas faturando R$300k-5M/mês.
 Sem holding desnecessária. Sem operação fora da lei.
 ⤵️ Diagnóstico tributário
 ```

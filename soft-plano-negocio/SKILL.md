@@ -120,7 +120,7 @@ Os três cenários (as premissas completas em `references/projecao-funil-reverso
 
 Depois de rodar os três, confira contra a realidade do especialista ANTES de mostrar:
 
-- **Piso ancorado no atual.** O agressivo não multiplica o faturamento num salto que o nicho não sustenta. Referência: quem faz ~R$15k/mês tem teto realista no agressivo em ~R$80k a R$150k em 12 meses, **não R$500k**. Múltiplo grande demais quebra a credibilidade do plano inteiro.
+- **Piso ancorado no atual.** O agressivo não multiplica o faturamento num salto que o nicho não sustenta. Referência: quem faz ~R$15k/mês tem teto realista no agressivo em ~R$80k a R$150k em 12 meses, **não R$300k**. Múltiplo grande demais quebra a credibilidade do plano inteiro.
 - **Sem base, sem número.** Projeção que não amarra num benchmark real nem no histórico do próprio especialista é marcada como estimativa e puxada pra baixo.
 - **Virou fantasia, corta.** Qualquer cenário que passou a régua do bom senso: corta 30% a 50% e revisa as premissas. Se cortado continua irreal, o problema é ticket baixo demais ou nicho errado → volta pra Conta ou pro Score de Nicho.
 - **Casa com o estágio.** O teto de crescimento da tabela do Passo 1 (Destravar 5x, Escalar 3x, Estabilizar 2x, Verticalizar ~1,5-2x) é o limite de cima. Agressivo que estoura o teto é cortado, com o aviso: *"esse patamar o método não cobre em 6 meses; realista é X agora + Y nos 6 seguintes."*
@@ -149,7 +149,7 @@ Antes de entregar o plano, preencha a tabela abaixo **no próprio output** (é o
 |---|---|---|
 | **Número real, não inventado** | Todo cálculo parte de número que o especialista deu; o que faltou está marcado `[A CONFIRMAR]`, nunca preenchido com plausível nem "média do mercado" | |
 | **3 cenários com premissa** | A projeção tem os três (conservador/realista/agressivo), cada um com a premissa escrita do que muda entre eles | |
-| **Régua de realismo aplicada** | O agressivo está ancorado no atual e no teto do estágio; nada quebrando credibilidade (sem 30x, sem R$500k pra quem faz R$15k). Fantasia foi cortada 30-50% | |
+| **Régua de realismo aplicada** | O agressivo está ancorado no atual e no teto do estágio; nada quebrando credibilidade (sem 30x, sem R$300k pra quem faz R$15k). Fantasia foi cortada 30-50% | |
 | **A Conta fecha (ou tem ajuste)** | Meta ÷ ticket → clientes → horas confere com as horas disponíveis; se não coube, tem o ajuste escolhido (ticket primeiro, nunca volume) | |
 | **Nicho com conexão** (se rodou Score) | Nenhum nicho recomendado com Critério 4 (conexão) baixo. Score alto + conexão baixa volta pra mesa | |
 | **Roadmap fecha com próximos passos** | O plano fecha com 3 a 5 ações concretas e datadas pra ESSA semana. Nunca "estudar mais" ou "pensar melhor" | |
@@ -207,7 +207,7 @@ O LEON (o Sócio IA) **aponta pra esta skill** quando o pedido é de negócio:
 |---|---|
 | Projetou com "média do mercado" ou número plausível pra faltante | Volta pro real: pergunta o número exato ou marca `[A CONFIRMAR]`. Sem número real, não calcula |
 | Deu um cenário único ("você vai faturar R$X") | Roda os 3 cenários com premissa escrita em cada; o realista vira a meta do roadmap |
-| Agressivo inflado (30x, R$500k pra quem faz R$15k) | Aplica a régua de realismo: ancora no atual + teto do estágio, corta 30-50%, revisa premissa |
+| Agressivo inflado (30x, R$300k pra quem faz R$15k) | Aplica a régua de realismo: ancora no atual + teto do estágio, corta 30-50%, revisa premissa |
 | Meta não cabe na vida e mandou "trabalhar mais" | Aplica a Conta: sobe o ticket primeiro, nunca o volume; nunca sacrifica vida/saúde/família |
 | Recomendou nicho com Score alto mas conexão pessoal baixa | Trava do Critério 4: volta pra mesa. Sem conexão real, sem nicho |
 | Roadmap fechou com "estudar mais", "pensar melhor" | Fecha com 3-5 ações concretas e datadas pra ESSA semana |

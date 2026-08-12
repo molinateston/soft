@@ -1,6 +1,6 @@
 # Autoridade + história de origem (cicatriz, prova de autoridade, "por que eu posso te ensinar isso")
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ---
 
@@ -16,13 +16,13 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-Este bloco responde a UMA pergunta na cabeça do lead: "por que ESSA pessoa pode me ensinar isso?" - e os campeões respondem em duas camadas que precisam vir nas duas, nunca só numa. Camada 1: identificação - a cicatriz do apresentador é o estado ATUAL do avatar ("perdemos um bom técnico e ganhamos um péssimo líder. Esse era eu" = exatamente quem está assistindo; 110kg aos 14 anos = a aluna de dieta; chorar no chuveiro sem entender projeto americano = a arquiteta que quer ir pros EUA). Camada 2: credencial - escala e linhagem com fonte nomeada (16.236 alunos, Toyota "direto na fonte", doutorado USP, US$ 100 milhões em vendas). A ordem é rigorosa em todos: fundo do poço PRIMEIRO, troféu depois - a vulnerabilidade antes da autoridade faz o avatar se ver na história; o troféu sem a cicatriz distancia. Terceiro trabalho: a virada nunca é dom - é sorte, mentor, método ou estudo ("por sorte eu entrei na Toyota", "o que mudou foi quando investi num mentor"), porque dom não é transferível e método é. Quarto: o superlativo nunca sai da boca do próprio ("best in the world at webinars" é e-mail de terceiro lido verbatim; o próprio só dá número e documento). Quinto: a biografia pré-figura a oferta - o ponto-de-virada do herói é a mesma decisão que se pedirá no pitch. Sexto (máquina 13M): o bloco ainda carrega seeding - preço de tabela e esteira entram aqui como "fato de catálogo", 90 minutos antes da oferta.
+Este bloco responde a UMA pergunta na cabeça do lead: "por que ESSA pessoa pode me ensinar isso?" - e os campeões respondem em duas camadas que precisam vir nas duas, nunca só numa. Camada 1: identificação - a cicatriz do apresentador é o estado ATUAL do avatar ("perdemos um bom técnico e ganhamos um péssimo líder. Esse era eu" = exatamente quem está assistindo; 110kg aos 14 anos = a aluna de dieta; chorar no chuveiro sem entender projeto americano = a arquiteta que quer ir pros EUA). Camada 2: credencial - escala e linhagem com fonte nomeada (16.236 alunos, Toyota "direto na fonte", doutorado USP, US$ 100 milhões em vendas). A ordem é rigorosa em todos: fundo do poço PRIMEIRO, troféu depois - a vulnerabilidade antes da autoridade faz o avatar se ver na história; o troféu sem a cicatriz distancia. Terceiro trabalho: a virada nunca é dom - é sorte, mentor, método ou estudo ("por sorte eu entrei na Toyota", "o que mudou foi quando investi num mentor"), porque dom não é transferível e método é. Quarto: o superlativo nunca sai da boca do próprio ("best in the world at webinars" é e-mail de terceiro lido verbatim; o próprio só dá número e documento). Quinto: a biografia pré-figura a oferta - o ponto-de-virada do herói é a mesma decisão que se pedirá no pitch. Sexto (máquina do webinar-modelo GA): o bloco ainda carrega seeding - preço de tabela e esteira entram aqui como "fato de catálogo", 90 minutos antes da oferta.
 
 ---
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 (de R$3.000 por 12x R$165), avatar CLT querendo promoção
+### Webinar-modelo GA (Gestão Ágil, ed. A - modelo-mestre R$3M) - gestão ágil corporativa, Gestão Ágil 2.0 (de R$3.000 por 12x R$165), avatar CLT querendo promoção
 
 **Trecho literal:**
 
@@ -44,7 +44,7 @@ A virada (Toyota como fonte primária, com humildade narrativa - "por sorte"):
 
 A fundação (origem do negócio como consequência de paixão, não de marketing):
 
-> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a 13M em 2014 tá, e a aí o resto é história"
+> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a GA em 2014 tá, e a aí o resto é história"
 
 **O que ele fez:** (1) dupla autoridade na ordem empresa→pessoa (16.230 alunos, 500k leitores, 400k seguidores / 25 anos de carreira, Santander, Toyota, BRQ); (2) seeding da âncora de preço dentro da autoridade - workshop 297-997, curso R$3.000, MBA R$12.000 ditos como informação neutra de catálogo, 90 min antes da oferta; (3) cicatriz com frase-síntese citável ("perdemos um bom técnico e ganhamos um péssimo Líder"); (4) o vilão da história é a ignorância dele mesmo ("eu não sabia ser gestor") - a mesma dor do avatar; (5) virada por sorte + Toyota como prova de linhagem ("direto na fonte"), reaproveitada depois na seção "por que esse curso é diferente"; (6) fundação da empresa como consequência de paixão.
 
@@ -54,13 +54,13 @@ A fundação (origem do negócio como consequência de paixão, não de marketin
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
+### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
 
 **Trecho literal:**
 
 Autoridade da empresa por números:
 
-> "Então a 13M, ela já tem 6, 7 anos, eu sou ruim de fazer contas de matemática, mas é por aí, 7, 8 anos de mercado, não lembro exatamente, mas os números que estão na tela aqui estão mais fáceis de falar. A gente já tem mais de 500 mil leitores do nosso blog, mais de 320 mil pessoas cadastradas recebendo nossos e-mails diariamente, mais de 200 mil pessoas nas nossas redes sociais recebendo conteúdo de gestão ágil todo dia, e o número que eu mais gosto desses todos aqui, a gente já tem mais de 14.426 alunos de gestão. Olha só que bacana, né? E hoje somos a maior escola de gestão ágil do Brasil."
+> "Então a GA, ela já tem 6, 7 anos, eu sou ruim de fazer contas de matemática, mas é por aí, 7, 8 anos de mercado, não lembro exatamente, mas os números que estão na tela aqui estão mais fáceis de falar. A gente já tem mais de 500 mil leitores do nosso blog, mais de 320 mil pessoas cadastradas recebendo nossos e-mails diariamente, mais de 200 mil pessoas nas nossas redes sociais recebendo conteúdo de gestão ágil todo dia, e o número que eu mais gosto desses todos aqui, a gente já tem mais de 14.426 alunos de gestão. Olha só que bacana, né? E hoje somos a maior escola de gestão ágil do Brasil."
 
 Autoridade pessoal:
 
@@ -68,7 +68,7 @@ Autoridade pessoal:
 
 História de origem (trajetória com marcas de prova):
 
-> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão ágil. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão ágil em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e o Denis Pedro fundamos a 13M."
+> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão ágil. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão ágil em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e o Denis Pedro fundamos a GA."
 
 **O que ele fez:** (1) autoridade em duas camadas (empresa → indivíduo); (2) número hiperespecífico (14.426 alunos, não "14 mil") para credibilidade; (3) claim de categoria ("a MAIOR escola de gestão ágil do Brasil"); (4) name-dropping de marcas Tier 1 (Toyota, Santander) com a Toyota dobrando como ORIGEM do método que ele vai ensinar (Lean) - autoridade vira setup de conteúdo; (5) loop aberto ("que eu vou explicar aqui para vocês"); (6) imperfeição calculada ("sou ruim de contas", "slide desatualizado") que humaniza e, por contraste, valida a precisão do número no slide.
 
@@ -78,11 +78,11 @@ História de origem (trajetória com marcas de prova):
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
 
 **Trecho literal:**
 
-> "A 13M já tem mais de 10 anos de mercado, já tem mais... tem que atualizar, acho que está mais de 17 mil agora. Mas enfim, temos... Vamos seguir o slide aqui, né? Mais de 16.236 alunos. Mais de 500 mil leitores, 400 mil seguidores nas redes sociais. A empresa já é uma empresa grande. E é considerada uma das maiores escolas e consultoria de gestão ágil do Brasil."
+> "A GA já tem mais de 10 anos de mercado, já tem mais... tem que atualizar, acho que está mais de 17 mil agora. Mas enfim, temos... Vamos seguir o slide aqui, né? Mais de 16.236 alunos. Mais de 500 mil leitores, 400 mil seguidores nas redes sociais. A empresa já é uma empresa grande. E é considerada uma das maiores escolas e consultoria de gestão ágil do Brasil."
 
 Seeding de preço dentro da autoridade - jogada-chave:
 
@@ -96,7 +96,7 @@ A virada de sorte com prova de fonte:
 
 > "E aí, por sorte do destino, dois anos depois, eu apliquei para uma vaga, e eu nem sabia que era Toyota, era porque era perto de casa. […] Num tal de um conceito chamado Lean, que em português significa enxuto. Eu aprendi na Toyota, direto na fonte. E por que eu digo que é sorte? Cara porque n tinha empresa melhor para eu trabalhar do que a Toyota e eu nem sabia que era Toyota"
 
-> "A gente vai ter mais liberdade. E a gente fundou a 13M em 2014. E aí, o resto é história."
+> "A gente vai ter mais liberdade. E a gente fundou a GA em 2014. E aí, o resto é história."
 
 **O que ele fez:** (1) prova numérica específica (16.236 alunos - o número quebrado dá veracidade; 500 mil leitores, 400 mil seguidores, 10+ anos); (2) **seeding da âncora de preço (R$ 3 mil) aos ~6 minutos de aula**, apresentado como informação neutra de catálogo - e ele mesmo cobra esse seeding lá na frente ("Eu já tinha falado lá no começo, não estou fazendo suspense"); (3) história de origem em arco cicatriz→mentor (Toyota como mentor institucional)→missão; (4) humildade estratégica ("por sorte", "eu quase perdi o emprego") que desarma a vaidade do expert; (5) frase-espelho do avatar.
 
@@ -106,13 +106,13 @@ A virada de sorte com prova de fonte:
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / 13M) - vende Gestão Ágil 2.0 por R$1.997 à vista / 12x R$199
+### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - vende Gestão Ágil 2.0 por R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
 Autoridade da empresa + reason-why de contar:
 
-> "a 13M é uma empresa, a gente já está há mais de 10 anos no mercado. Hoje é uma das maiores escolas e consultoria de gestão do Brasil. A gente já tem aí mais de 19 mil alunos. Esse slide está até desatualizado, tá? É mais de 20. […] Tem mais de 500 mil seguidores no Instagram, aquela coisa toda. A gente tem uma relevância muito grande no mercado."
+> "a GA é uma empresa, a gente já está há mais de 10 anos no mercado. Hoje é uma das maiores escolas e consultoria de gestão do Brasil. A gente já tem aí mais de 19 mil alunos. Esse slide está até desatualizado, tá? É mais de 20. […] Tem mais de 500 mil seguidores no Instagram, aquela coisa toda. A gente tem uma relevância muito grande no mercado."
 
 > "Por que eu estou trazendo isso? Só para você entender que, cara. Quem está trazendo essa informação para você, essa atualização do mercado, não é alguém que surgiu ontem, tá? Só a nossa empresa já tem mais de 10 anos do mercado, só ensinando isso."
 
@@ -290,17 +290,17 @@ Desmonte do pedestal (objeção "você é especial"):
 
 ## Padrões transversais (checklist pra escrever o bloco)
 
-1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus 13M resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
+1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus GA resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
 2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (Denison), 110kg (Vítor), chorar no chuveiro sem entender projeto (Juliana), dentista de origem simples cobrando pouco (Bruno), dar aula boa e não vender (Fladlien). Se a cicatriz não espelha a sala, é biografia, não ponte.
 3. **Duas camadas de credencial:** escala/instituição (alunos, anos, seguidores, empresa) + vivência pessoal (onde aprendeu fazendo). Uma sem a outra fica coxa.
 4. **Número específico e quebrado** (16.236, não "16 mil"; 12/11/2007; 1 milhão de m²) - número auditado convence, número redondo cheira a invenção. Prova documental quando der (foto de família, e-mail lido verbatim, foto da sala paga).
-5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - 13M; USP/doutorado - Bruno; Genius Network - Fladlien; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
+5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - GA; USP/doutorado - Bruno; Genius Network - Fladlien; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
 6. **A virada nunca é dom:** é sorte ("nem sabia que era Toyota"), estudo ("resolvi estudar"), mentor ("my first big investment") ou pedido externo. Dom não é transferível; método e decisão são - e a decisão de comprar mentoria pode ser o próprio ponto-de-virada (Fladlien #2).
 7. **Humildade calculada:** "por sorte", "sou ruim de contas", "slide desatualizado", typo na 1ª frase, "é ruim ficar falando de si". A imperfeição na fala valida a precisão do número no slide.
 8. **Superlativo sempre terceirizado:** "best in the world" vem de e-mail; "maior escola do Brasil" vem de "é considerada"; o próprio só entrega número e documento.
-9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (13M), Tesla na garagem → "sistematizar" (Fladlien), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
+9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (GA), Tesla na garagem → "sistematizar" (Fladlien), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
 10. **A biografia pré-figura a oferta:** o arco do herói termina exatamente na porta da decisão que o pitch vai pedir (cadista→empreendedora = as 2 estratégias; investir no mentor = comprar o curso; mudei o padrão da minha família = mude o da sua).
-11. **Seeding dentro da autoridade (máquina 13M):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
+11. **Seeding dentro da autoridade (máquina do webinar-modelo GA):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
 12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era Juliana nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
 13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação Fladlien #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. Bruno também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
 
@@ -313,16 +313,16 @@ Desmonte do pedestal (objeção "você é especial"):
 - **Dizer o superlativo na própria voz** ("eu sou o melhor em X"). Todos terceirizam: e-mail, mídia, "é considerada", aluno. Autodeclaração gera resistência; artefato gera aceitação.
 - **Atribuir a virada a talento.** "Eu sempre tive facilidade" destrói a transferibilidade - se foi dom, o método não serve pro lead. Os campeões atribuem a sorte+método+mentor.
 - **Cicatriz genérica** ("eu também já sofri"). Sem detalhe sensorial e verificável (chuveiro, vômito, dormir no chão, camisa laranja na foto), a cicatriz não cola - especificidade é o que separa história de discurso.
-- **Âncora inventada dentro da autoridade.** Quando 13M e Bruno citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
-- **Usar mecanismo alheio sem dono.** Bruno cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da 13M; "gestossauro" é do Denison) - apropriar mecanismo de outro como seu é contaminação.
-- **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da 13M - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
+- **Âncora inventada dentro da autoridade.** Quando GA e Bruno citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
+- **Usar mecanismo alheio sem dono.** Bruno cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da GA; "gestossauro" é do Denison) - apropriar mecanismo de outro como seu é contaminação.
+- **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
 - **Bloco de autoridade longo demais antes de dar valor.** Todos resolvem em ~5-8 minutos e fecham com humildade ("é ruim ficar falando de si") ou loop pro conteúdo. Autoridade que não abre loop pro resto da aula é monumento, não ponte.
 
 ---
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o Fladlien, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina 13M, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
+**Nenhum.** Os 9 webinars do corpus têm o bloco de autoridade + história de origem - é um dos únicos blocos universais do corpus (compare: garantia falta em 6 dos 9; pré-início falta em 3). Isso é dado: nenhum campeão considera dispensável responder "por que eu posso te ensinar isso" - nem o Fladlien, que vende a US$14,97 (ticket onde a confiança "deveria" pesar menos), nem a máquina do webinar-modelo GA, que repete o bloco quase palavra por palavra em 4 edições diferentes (sinal de peça testada e estável: quando a máquina acha a história que funciona, ela congela e reusa).
 
 Variações de forma que valem registrar como dado:
 - **Fladlien #2 é o único que QUEBRA o bloco em dois:** credencial no início, cicatriz (galpão/dormir no chão/investir no mentor) guardada para a entrada da oferta - a história de origem usada como peça de fechamento, não de abertura.

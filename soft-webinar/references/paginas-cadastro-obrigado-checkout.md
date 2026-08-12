@@ -473,7 +473,7 @@ O stack repete a oferta empilhada que foi construída na aula, com cada item anc
 └─────────────────────────────────────────────────┘
 ```
 
-> **EXEMPLO instanciado (nicho gestão - espelhando a oferta 13M/Gestão Ágil, `09`/`10` da biblioteca):**
+> **EXEMPLO instanciado (nicho gestão - espelhando a oferta GA/Gestão Ágil, `09`/`10` da biblioteca):**
 ```
 VOCÊ ESTÁ ADQUIRINDO:
 ✓ Formação completa (X módulos)         .... R$ 1.997
@@ -510,7 +510,7 @@ ou 12x de R$ 199
 
 **A regra de ouro da prova (ver `07-provas-casos` da biblioteca): prova na MOEDA da promessa.** Se o webinar prometeu salário, a prova é a foto da carteira de trabalho. Se prometeu emagrecimento, é o número na balança. Documento bruto e feio > slide bonito.
 
-> **EXEMPLO de depoimento que prova na moeda certa (nicho gestão, verbatim do corpus, `01`/`07`):** *"Estava desempregado durante a pandemia, eu me tornei aluno […] Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master […] em uma semana eu tive sete empresas do exterior me contatando."* (aluno do caso 13M, 13M). A prova é o resultado na moeda da promessa (emprego), na boca do cliente, não do vendedor.
+> **EXEMPLO de depoimento que prova na moeda certa (nicho gestão, verbatim do corpus, `01`/`07`):** *"Estava desempregado durante a pandemia, eu me tornei aluno […] Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master […] em uma semana eu tive sete empresas do exterior me contatando."* (aluno do caso GA, GA). A prova é o resultado na moeda da promessa (emprego), na boca do cliente, não do vendedor.
 
 ### Bloco 3.4 - Garantia em destaque
 
@@ -529,7 +529,7 @@ Sem fricção. Sem depoimento de saída.
 Você só clica em "quero sair" e recebe o reembolso.
 ```
 
-> **ATENÇÃO (a confirmar com o especialista):** a máquina 13M fecha SEM garantia em todas as edições; Fladlien usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
+> **ATENÇÃO (a confirmar com o especialista):** a máquina do webinar-modelo GA fecha SEM garantia em todas as edições; Fladlien usa condicional-de-aplicação. Qual desenho a Soft adota como padrão por faixa de ticket é decisão do método - não cravar aqui.
 
 ### Bloco 3.5 - FAQ (objeções residuais)
 
@@ -602,7 +602,7 @@ R: Em até 1 minuto após o pagamento, no seu e-mail, com login e senha.
 
 ### Bloco 3.9 - Link controlado + presente no checkout (a peça que corta a fuga e empurra o clique)
 
-**Mecanismo do link controlado (13M, corpus estudado`12-escassez`):** o checkout do webinar é um **link próprio**, recompensado, e o avatar é desviado do site sem oferta. EXEMPLO verbatim (13M): *"não se inscreve pelo nosso site, quem usar o link que eu vou disponibilizar AQUI ganha 15% de desconto."* O desconto por canal dá razão pra comprar pelo link da aula, e o checkout vira prêmio (a "telinha que confirma os 15 primeiros").
+**Mecanismo do link controlado (GA, corpus estudado`12-escassez`):** o checkout do webinar é um **link próprio**, recompensado, e o avatar é desviado do site sem oferta. EXEMPLO verbatim (GA): *"não se inscreve pelo nosso site, quem usar o link que eu vou disponibilizar AQUI ganha 15% de desconto."* O desconto por canal dá razão pra comprar pelo link da aula, e o checkout vira prêmio (a "telinha que confirma os 15 primeiros").
 
 **Presente escondido no checkout (webinar A do corpus / Vítor Abrão, `12-escassez`):** EXEMPLO verbatim: *"eu tenho presente para você na página de pagamento, é um extra; se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada."* Isso converte curiosidade em **início de checkout** - até quem só quer "olhar" clica. O evento InitiateCheckout dispara, e o pós-webinar passa a saber quem chegou aqui.
 

@@ -306,7 +306,7 @@ Zero-base é doloroso. Aplicado mal vira cultura de **ressentimento** ("cortam t
 | Tipo | Tamanho típico (BR 2026) | Diluição | Quando faz sentido |
 |------|--------------------------|----------|-------------------|
 | **Pré-seed/Anjo** | R$50k-500k | 5-15% | Validar PMF inicial, Fase 1 final |
-| **Seed** | R$500k-3MM | 15-25% | PMF claro, escalar primeiro time, Fase 2 |
+| **Seed** | R$300k-3MM | 15-25% | PMF claro, escalar primeiro time, Fase 2 |
 | **Series A** | R$10-30MM | 15-25% | Crescimento provado, expansão, Fase 2/3 |
 | **Series B** | R$30-100MM | 15-25% | Escala internacional / multi-produto, Fase 3 |
 | **Series C+** | R$100MM+ | 10-20% | Pré-IPO, consolidação setor, Fase 3/4 |

@@ -10,7 +10,7 @@ Esta reference é a **engenharia de preço** do Webinar Soft: ancorar, semear o 
 
 > **LEI: NÃO existe "âncora do iPhone" como técnica de preço.** Procurada em todo o corpus estudado e o do Enes: não existe. O único "iPhone" relevante é o lançamento do iPhone pelo Jobs, citado como exemplo de **bundle 3-em-1 / revelação-surpresa** (*"um iPod, um telefone, um navegador… são a MESMA coisa"*), que é técnica de **EMPILHAMENTO** (pertence ao §3), NÃO de preço. **Nunca crie um número/técnica de iPhone.** Onde alguém pedir "âncora do iPhone", a técnica real é a **parcela por dia + objeto trivial fotografado** (§7, iFood/Coca). Se quiser usar a lição do Jobs, ela entra só como nota dentro do empilhamento (§3): *"revele os componentes como 3 produtos separados que, juntos, são um só, o efeito-surpresa do 3-em-1 aumenta o valor percebido do mesmo pacote"*, sem número de iPhone.
 
-> Destilada do webinar real do corpus estudado (custo invisível, R$1.000), dos modelos (caso 13M (gestão), Vitor-nutrição, Bruno-dentística), do corpus estudado(oferta movediça, espectro de ticket) e da mentoria high-ticket do corpus estudado (cardápio de garantias 90+90, ancoragem 20k→2k). Falas marcadas "(exemplo)" são instâncias de nicho - molde, nunca cópia. O método (a régua de quando usar cada movimento) é universal.
+> Destilada do webinar real do corpus estudado (custo invisível, R$1.000), dos modelos (caso GA (gestão), Vitor-nutrição, Bruno-dentística), do corpus estudado(oferta movediça, espectro de ticket) e da mentoria high-ticket do corpus estudado (cardápio de garantias 90+90, ancoragem 20k→2k). Falas marcadas "(exemplo)" são instâncias de nicho - molde, nunca cópia. O método (a régua de quando usar cada movimento) é universal.
 
 > **Exemplos verbatim:** quando esta reference tem o movimento de preço/escassez, há falas literais de 9 webinars que venderam fatiadas em `exemplos-por-bloco/09-oferta-stack.md` (empilhamento), `exemplos-por-bloco/10-ancoragem-preco.md` (dupla ancoragem, queda em degraus, reduzir ao ridículo) e `exemplos-por-bloco/12-escassez-urgencia-cta.md` (escassez auditável, cartão na mão, CTA). **Leia o bloco equivalente ANTES de escrever** - cada seção abaixo aponta pra ele no ponto certo. Lá está a fala crua; aqui está a régua de quando e por quê usar.
 
@@ -62,7 +62,7 @@ Ancora contra a **conta de continuar como está** (a margem que a complexidade j
 
 Ancora contra o **valor de mercado** do entregue (a soma dos componentes, ou o que custaria por fora / com o concorrente caro). O preço vira pechincha contra um **ganho futuro empilhado**.
 
-- Soma do stack (13M): "Curso R$3.000 + mentoria R$9.100 + dois cursos-bônus + workshop passa de R$15.000. Vai sair por 12x [valor]."
+- Soma do stack (GA): "Curso R$3.000 + mentoria R$9.100 + dois cursos-bônus + workshop passa de R$15.000. Vai sair por 12x [valor]."
 - Por-fora (nutrição): "Nutri + treino + app + manipulados, por fora, dá R$5.638. Minha consulta presencial sozinha é R$3.000."
 - Concorrente como piso (dentística): "Se custasse R$12.000 ainda estaria barato: você paga em dois meses de faturamento e lucra o resto da vida."
 
@@ -75,7 +75,7 @@ Ancora contra o **valor de mercado** do entregue (a soma dos componentes, ou o q
 > - A queda final cairá de R$1.490 (teto) pra R$490 - sentida a partir do teto, não do zero. (a engenharia da queda em si: §5.)
 > **O que é decalcável vs do nicho:** decalcável: ancorar o principal alto e isolado primeiro, somar avulso por cima, só depois revelar que vem junto. Do nicho: os valores e os itens - saem da realidade do negócio do player.
 
-> Falas verbatim de soma do stack riscada na frente do espectador (13M, nutrição, dentística, arquitetura, Fladlien) e da âncora externa (MBA, consulta, seminário, custo de fazer por fora): ver `exemplos-por-bloco/10-ancoragem-preco.md` (seção "Exemplo por exemplo" + padrão transversal 2, "Dupla ancoragem: externa + interna").
+> Falas verbatim de soma do stack riscada na frente do espectador (GA, nutrição, dentística, arquitetura, Fladlien) e da âncora externa (MBA, consulta, seminário, custo de fazer por fora): ver `exemplos-por-bloco/10-ancoragem-preco.md` (seção "Exemplo por exemplo" + padrão transversal 2, "Dupla ancoragem: externa + interna").
 
 ### A REGRA (perda presente > ganho prometido)
 
@@ -100,7 +100,7 @@ O preço **não estreia no pitch**. É plantado lá no começo, na apresentaçã
 **Mecanismo.** Na fase Atenção, ao se apresentar, o player mostra o portfólio com preços (produto principal no valor cheio). A audiência ouve o número uma vez, sem pressão. 1h depois ele volta familiar: o cérebro não recebe preço novo, confirma um conhecido.
 
 - Fala-modelo (semeadura, Atenção): "Só pra você situar: [produto A] custa [X], [produto principal] custa [Y], a consultoria é sob consulta. Guarda isso, vou voltar no fim."
-- Fala-modelo (reencontro, no pitch): "Lembra do [produto principal] que citei no começo, [Y]? É dele que eu vim falar. Eu estava fazendo suspense." (13M)
+- Fala-modelo (reencontro, no pitch): "Lembra do [produto principal] que citei no começo, [Y]? É dele que eu vim falar. Eu estava fazendo suspense." (GA)
 
 **Por que funciona.** Preço de surpresa gera defesa; preço já visto é só confirmação - e a queda em degraus parece desconto real porque o teto já estava cravado. **Tom Soft:** semeia o número cheio sem dramatizar ("esse é o valor, registra", não "olha que barato"). Semear barato demais mata o degrau.
 
@@ -112,7 +112,7 @@ O preço **não estreia no pitch**. É plantado lá no começo, na apresentaçã
 
 **(a) Itens visíveis acumulando na tela.** Cada componente entra com valor avulso **antes** de virar parte do pacote, e os anteriores **continuam visíveis** enquanto os novos entram. A pilha cresce na tela, o olho soma sozinho - o contraste com o preço final é visual.
 
-**(b) Bônus que valem mais que o produto.** Pelo menos um bônus com valor percebido **maior que o produto principal**, pra parecer a verdadeira razão de comprar. Exemplo 13M: a mentoria "vale R$9.100", mais que o curso de R$3.000 - o bônus vira o motivo.
+**(b) Bônus que valem mais que o produto.** Pelo menos um bônus com valor percebido **maior que o produto principal**, pra parecer a verdadeira razão de comprar. Exemplo GA: a mentoria "vale R$9.100", mais que o curso de R$3.000 - o bônus vira o motivo.
 
 **(c) Bônus SEM preço (o que não tem mercado).** O componente mais íntimo - o script que ele não vende, o acervo pessoal, o método cru - entra **sem valor numérico**: "isso aqui eu não vendo pra ninguém, não tem preço" pesa mais que qualquer número, sinaliza acesso a algo que dinheiro não compra. Misture bônus-com-preço (ancoram a soma) e sem-preço (exclusividade).
 
@@ -150,7 +150,7 @@ Antes de revelar o preço, conduza uma cadeia de perguntas hipotéticas cuja res
 
 O preço cai em **degraus**, e **cada degrau tem uma razão narrativa**. Desconto sem motivo parece balela ("se já podia cobrar menos, o valor cheio era mentira, ou o produto é ruim e ele está desovando").
 
-**A escada (exemplo 13M):** R$3.000 cheio (o semeado) → R$1.997 ("só pra quem ficou até o fim": recompensa por presença) → R$697 ("o combinado não sai caro": troca por depoimento futuro, §6) → 12x [valor], apresentado como injustiça **a favor** do cliente ("seria justo pagar o cheio, está injusto comigo").
+**A escada (exemplo GA):** R$3.000 cheio (o semeado) → R$1.997 ("só pra quem ficou até o fim": recompensa por presença) → R$697 ("o combinado não sai caro": troca por depoimento futuro, §6) → 12x [valor], apresentado como injustiça **a favor** do cliente ("seria justo pagar o cheio, está injusto comigo").
 
 > **EXEMPLO - molde da escada instanciado (origem: Enes, "Admirável Emprego Novo", emprego; cap07).** Continuação do molde da âncora (§1b): R$1.490 (teto somado) → "experimento de 7 dias" (a garantia entra ANTES da queda, baixando o risco pra queda pesar mais) → "o combinado não sai caro" (§6) → **de R$1.490 por R$490** → revisão personalizada pros primeiros (§9). É o molde puro da oferta movediça num único nicho. **Do nicho:** os valores; a coreografia (teto → garantia → combinado → queda → bônus dos primeiros) é universal.
 
@@ -162,7 +162,7 @@ O preço cai em **degraus**, e **cada degrau tem uma razão narrativa**. Descont
 
 **Por que funciona.** Desconto com motivo **eleva** (exclusividade); sem motivo **rebaixa** (o valor cheio era ficção). A escada dá ritmo: cada "segura aí que tem mais" reabre o loop até o preço final. **Tom Soft:** o reason-why mais forte é a própria tese - "é barato porque é gravado e roda com o sistema, não consome agenda." O preço baixo prova o método, não desova estoque.
 
-> Falas verbatim de queda em degraus com reason-why próprio (13M, GAIA2k em 3 degraus, Aluna 80k, Fladlien #2 defendendo cada degrau como preço REAL praticado) + os anti-padrões ("preço seco", "verbalizar o total parcelado destrói a troca de unidade"): ver `exemplos-por-bloco/10-ancoragem-preco.md`.
+> Falas verbatim de queda em degraus com reason-why próprio (GA, GAIA2k em 3 degraus, Aluna 80k, Fladlien #2 defendendo cada degrau como preço REAL praticado) + os anti-padrões ("preço seco", "verbalizar o total parcelado destrói a troca de unidade"): ver `exemplos-por-bloco/10-ancoragem-preco.md`.
 
 ---
 
@@ -170,7 +170,7 @@ O preço cai em **degraus**, e **cada degrau tem uma razão narrativa**. Descont
 
 Um degrau da escada: desconto extra **em troca da promessa de um depoimento futuro**. Faz três coisas num golpe.
 
-**Mecanismo.** "Eu te dou [X] a mais de desconto, e o combinado é: quando você tiver resultado, me manda seu depoimento. O compromisso é a nossa palavra." (13M)
+**Mecanismo.** "Eu te dou [X] a mais de desconto, e o combinado é: quando você tiver resultado, me manda seu depoimento. O compromisso é a nossa palavra." (GA)
 
 **A batida-por-batida (origem: Enes, cap07 - a sequência exata importa):**
 1. Mostra um problema real SEU: *"sabe o que mais me dói? Aluno que tem resultado e não me conta."*
@@ -179,7 +179,7 @@ Um degrau da escada: desconto extra **em troca da promessa de um depoimento futu
 4. **Pede pra a pessoa SELAR em público:** *"digita aí no chat: combinado."* - o micro-compromisso público é o que amarra a coerência.
 5. E **só então** revela o preço final.
 
-> **EXEMPLO - a mesma jogada, três nichos (corpus estudado+ biblioteca bloco 10).** 13M: *"é o bônus do combinado não sai caro; pra você me mandar seu depoimento no futuro eu te dou R$300 de desconto adicional, o compromisso é a nossa palavra."* / Arquitetura (Juliana, 80k): *"me promete que quando conseguir seu primeiro emprego você me avisa; aí sim eu te dou mais R$500 de desconto."* / Mentoria, autor do corpus: *"o que eu mais amo receber é o seu resultado; quero fazer um combinado, vou dar mais um desconto e, quando você atingir o resultado, você me avisa - aí chove de combinado nos comentários."* Mesma engenharia, recheio de cada nicho. ⚠️ "Bônus do combinado não sai caro" é **nome do caso 13M** - extrair o mecanismo (desconto trocado por depoimento futuro + selo público), nunca o rótulo; o nome Soft se define com o especialista.
+> **EXEMPLO - a mesma jogada, três nichos (corpus estudado+ biblioteca bloco 10).** GA: *"é o bônus do combinado não sai caro; pra você me mandar seu depoimento no futuro eu te dou R$300 de desconto adicional, o compromisso é a nossa palavra."* / Arquitetura (Juliana, 80k): *"me promete que quando conseguir seu primeiro emprego você me avisa; aí sim eu te dou mais R$500 de desconto."* / Mentoria, autor do corpus: *"o que eu mais amo receber é o seu resultado; quero fazer um combinado, vou dar mais um desconto e, quando você atingir o resultado, você me avisa - aí chove de combinado nos comentários."* Mesma engenharia, recheio de cada nicho. ⚠️ "Bônus do combinado não sai caro" é **nome do caso GA** - extrair o mecanismo (desconto trocado por depoimento futuro + selo público), nunca o rótulo; o nome Soft se define com o especialista.
 
 **O que faz de uma vez:**
 1. **Reduz o preço** com um reason-why que o cliente sente justo (ele "paga" com algo que ainda nem custa).
@@ -195,12 +195,12 @@ Um degrau da escada: desconto extra **em troca da promessa de um depoimento futu
 Dividir o preço pelo período até virar um gasto trivial cotidiano, comparado a um **objeto real fotografado**.
 
 **Mecanismo.** Preço ÷ dias = valor diário ridículo, comparado a um consumo trivial que a pessoa nem pensa pra gastar - com **foto autêntica** do objeto (não slide gráfico).
-- Exemplo 13M: "R$165 ÷ 30 = R$5,51 por dia. É uma Coca-Cola." Com foto real da Coca de R$5,29 no mercado e do próprio jantar de iFood de R$165 ("eu gasto isso sem pensar").
+- Exemplo GA: "R$165 ÷ 30 = R$5,51 por dia. É uma Coca-Cola." Com foto real da Coca de R$5,29 no mercado e do próprio jantar de iFood de R$165 ("eu gasto isso sem pensar").
 - Exemplo nutrição: "R$2,60 por dia, menos que um café, menos que uma pizza."
 
 **Por que a foto real importa (as DUAS alturas de prova).** A trivialização vem em duas alturas, nesta ordem: primeiro a **comparação verbal** ("é o valor de uma pizza no fim de semana") dita de improviso, depois a **prova documental** - o print/foto real que torna o argumento irrefutável. Foto autêntica é mais crível que ícone de slide: prova que o player **mede** o preço contra a vida real, e ancora num objeto que a audiência reconhece e desvaloriza. **A elevação simultânea:** ao trivializar o custo, eleva o que está em jogo - "[gasto trivial] por dia, do lado de [o que você ganha / já perde]". O preço encolhe e o prêmio cresce na mesma frase.
 
-> **EXEMPLO - a prova documental do preço (origem: caso 13M (gestão), gestão; biblioteca bloco 10).** Verbal primeiro: *"165 reais, duas pizzas no fim de semana com refrigerante você gasta mais que isso."* Depois o print REAL: *"trouxe um print de um iFood que pedi outro dia - combinado de sushi mais bebidas, deu R$164. Basicamente o valor da parcela; por um jantar você investe e pode mudar sua carreira de patamar."* E a divisão: *"165 ÷ 30 = R$5,51 por dia."* É a mesma gramática de prova documental usada nas provas de salário, aplicada agora ao PREÇO - é a jogada que torna o argumento impossível de refutar. **Do nicho:** sushi/iFood/Coca é gasto de CLT; o objeto é o que o avatar JÁ consome sem pensar - decalcar o objeto Coca pro cirurgião é erro (a premissa é "gasto banal que ELE faz", não a Coca).
+> **EXEMPLO - a prova documental do preço (origem: caso GA (gestão), gestão; biblioteca bloco 10).** Verbal primeiro: *"165 reais, duas pizzas no fim de semana com refrigerante você gasta mais que isso."* Depois o print REAL: *"trouxe um print de um iFood que pedi outro dia - combinado de sushi mais bebidas, deu R$164. Basicamente o valor da parcela; por um jantar você investe e pode mudar sua carreira de patamar."* E a divisão: *"165 ÷ 30 = R$5,51 por dia."* É a mesma gramática de prova documental usada nas provas de salário, aplicada agora ao PREÇO - é a jogada que torna o argumento impossível de refutar. **Do nicho:** sushi/iFood/Coca é gasto de CLT; o objeto é o que o avatar JÁ consome sem pensar - decalcar o objeto Coca pro cirurgião é erro (a premissa é "gasto banal que ELE faz", não a Coca).
 
 **Tom Soft (a diferença que importa).** O autor do corpus faz **clínico**, não apelão. A versão guru ("sua Coca vale mais que o futuro da sua família?") é proibida - culpabiliza e cheira a palco. A versão Soft mede frio: "Mil reais do lado de trezentos mil por ano de custo invisível é troco. Literalmente. Ou em parcela que cabe num almoço por semana." Compara contra o **custo invisível**, não contra a emoção. No Soft é aritmética, não chantagem.
 
@@ -247,7 +247,7 @@ Tira o risco das costas do cliente e bota nas do player. Reduzir o risco percebi
 Escassez funciona quando é **verificável na tela** e **honesta**. Inventada, o avatar maduro fareja e perde a confiança.
 
 **Mecanismo visível (gamificado).** A escassez aparece confirmada na tela do cliente, não só na boca do player.
-- Exemplo 13M: "só pros 15 primeiros" - "ao clicar no link vai aparecer: parabéns, você está entre os 15." A vaga é verificável, a corrida vira jogo.
+- Exemplo GA: "só pros 15 primeiros" - "ao clicar no link vai aparecer: parabéns, você está entre os 15." A vaga é verificável, a corrida vira jogo.
 - Exemplo dentística: contagem regressiva ao vivo ("prepara o cartão, o link aparece em 3, 2, 1") - urgência cinética, vaga real.
 
 **Escalonada (camadas de FOMO).** "15 primeiros ganham [bônus A]; 10 primeiros, também [bônus B]." Quem chega primeiro ganha mais - recompensa a velocidade, multiplica a urgência.
@@ -258,7 +258,7 @@ Escassez funciona quando é **verificável na tela** e **honesta**. Inventada, o
 
 **A REDE pra quem perde a corrida (mecanismo que faz a fila inteira comprar).** A corrida dos N primeiros cria urgência, mas pune o 16º - que pensa "perdi os bônus, deixa pra próxima" e sai. Antes de ele reagir, você já desarma: *"não se preocupe se você não ficar entre os 15 primeiros, porque só o desconto que esse link já dá é uma oferta gritante."* A escassez dos 15 cria a corrida; **a rede garante que o 16º, o 40º e o 200º também comprem**. Escassez que pune o perdedor mata a fila; escassez com rede converte a fila inteira. (corpus estudado)
 
-> **EXEMPLO - escassez por TIPO de webinar (a escolha não é por gosto, é pelo formato; biblioteca bloco 12).** Ao vivo, máquina de turmas (13M): bônus pros 15/10 primeiros com confirmação de sistema. Ao vivo, evento único (Aluna 80k): deadline de relógio (23:59) + cupom. Perpétuo (webinar A do corpus): **condição de SESSÃO** - *"se essa aula acabar, acabou tua chance; você até consegue comprar depois, mas no mínimo por R$997"* (o único desenho honesto pra loop infinito). Vagas de preço (webinar C do corpus): 10 unidades no preço com contagem ao vivo até a última frase. Evergreen gravado (Fladlien): timer mecânico terceirizado com reason-why ("it's rigged up, automatically closes - pra eu ser deliberado com quem entra").
+> **EXEMPLO - escassez por TIPO de webinar (a escolha não é por gosto, é pelo formato; biblioteca bloco 12).** Ao vivo, máquina de turmas (GA): bônus pros 15/10 primeiros com confirmação de sistema. Ao vivo, evento único (Aluna 80k): deadline de relógio (23:59) + cupom. Perpétuo (webinar A do corpus): **condição de SESSÃO** - *"se essa aula acabar, acabou tua chance; você até consegue comprar depois, mas no mínimo por R$997"* (o único desenho honesto pra loop infinito). Vagas de preço (webinar C do corpus): 10 unidades no preço com contagem ao vivo até a última frase. Evergreen gravado (Fladlien): timer mecânico terceirizado com reason-why ("it's rigged up, automatically closes - pra eu ser deliberado com quem entra").
 
 **Fricção de checkout como urgência (acoplada).** Antecipe o atrito do pagamento e transforme em motivo de agir já: "Já pega o cartão, abre o app antes de eu liberar. Você perde tempo digitando e perde a vaga." Acopla com o Q&A preventivo do `objection-annihilation.md` ("deu erro no cartão? manda aqui").
 

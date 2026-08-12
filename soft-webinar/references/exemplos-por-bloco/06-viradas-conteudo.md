@@ -1,6 +1,6 @@
 # Viradas de conteúdo (os secrets/viradas: valor real → o quê → gancho do braçal → atalho)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ## Índice
 
@@ -18,13 +18,13 @@ Este bloco é o miolo do webinar - e ele tem dupla função simultânea: a aula 
 1. Entregar valor REAL e aplicável amanhã (checklist, conta feita ao vivo, demo de tela) - isso compra confiança, gera reciprocidade e prova competência.
 2. Ensinar o QUÊ (o mapa completo, os nomes, a ordem) e nunca o COMO sistematizado (preencher o canvas, calcular o macro, o template) - o gancho do braçal: quem entendeu o mapa sente competência crescendo e ao mesmo tempo percebe o tamanho do trabalho de fazer sozinho.
 3. Cada virada demole uma crença específica na ordem em que ela impediria a compra - e o conteúdo prova a big idea em vez de esgotar o assunto.
-4. Nomear o atalho como mecanismo proprietário (com dono: "visão de floresta" é da 13M, "3 Cs" é do Vítor, "faixas" é do Bruno) - o nome vira atalho verbal que reaparece no pitch.
+4. Nomear o atalho como mecanismo proprietário (com dono: "visão de floresta" é da GA, "3 Cs" é do Vítor, "faixas" é do Bruno) - o nome vira atalho verbal que reaparece no pitch.
 5. Costurar o produto DENTRO do conteúdo ("isso a gente aprofunda no curso") muito antes da oferta - quando o pitch chega, comprar é só a conclusão natural da própria aula.
 O teste de qualidade: a pessoa precisa sair do bloco dizendo "aprendi mais aqui do que em curso pago" E sentindo com clareza o que ainda falta - as duas coisas juntas, nunca só uma.
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M/Gestão Ágil, ed. A) - gestores corporativos, curso Gestão Ágil 2.0, modelo-mestre dos R$13M
+### Webinar-modelo GA (Gestão Ágil, ed. A) - gestores corporativos, curso Gestão Ágil 2.0, modelo-mestre dos R$3M
 
 **Trecho literal:**
 
@@ -38,7 +38,7 @@ O gancho do braçal → atalho (ensina O QUÊ, vende o COMO):
 
 > "esse aqui é um canva que a gente disponibiliza dentro do nosso curso gestão ágil 2.0, lá obviamente a gente ensina como é que como é que preenche isso né, como é que você usa isso, mas eu vou explicar rapidamente como funciona"
 
-O 80/20 como mapa proprietário ("visão de floresta", da 13M):
+O 80/20 como mapa proprietário ("visão de floresta", da GA):
 
 > "como se separa o joio do tri né, que que eu devo aprender aqui disso tudo, Qual que é o 8020? alguém aqui já falar do princípio de Pareto que diz que 20% das coisas são responsáveis por 80% dos resultados. Qual que é o Pareto dos métodos de gestão? […] esse 8020 é o que eu chamo de Opa é o que eu chamo de visão de floresta da gestão tá. como eu já tô há muitos anos no mercado Já implantei um pouco de tudo, eh eu sei qual é esse 8020 né, já testei muita coisa já Aprendi muita coisa, eu sei o que funciona o que não funciona"
 
@@ -46,21 +46,21 @@ O 80/20 como mapa proprietário ("visão de floresta", da 13M):
 
 Dica de carreira embutida (demanda de mercado = seeding do bônus OKR):
 
-> "dica para quem é profissional aí quer crescer na carreira: domina esse negócio aqui ó okr. cara aqui na 13M a nossa consultoria né a nossa unidade de consultoria o que a gente mais está sendo contratado hoje em dia para prestar consultoria é consultoria de okr"
+> "dica para quem é profissional aí quer crescer na carreira: domina esse negócio aqui ó okr. cara aqui na GA a nossa consultoria né a nossa unidade de consultoria o que a gente mais está sendo contratado hoje em dia para prestar consultoria é consultoria de okr"
 
 Recap acumulativo antes da transição:
 
 > "olha só o que a gente já viu até aqui: quem é o executivo do futuro, que a gestão do passado não funciona mais no mundo atual, a gente viu a importância da visão de Floresta […] vimos bsc, vimos scram, vimos canan, Vimos a importância da Inteligência Emocional. cara vimos muita coisa hoje né"
 
-**O que ele fez:** (1) ensina os 5 níveis de planejamento um a um, cada nível com conceito + ferramenta visível (canvas/briefing) mas preenchimento "tá no curso" - gancho repetido ≥4x; (2) usa Pareto como permissão para não ensinar tudo; (3) batiza o filtro de "visão de floresta" (nome do caso 13M) e dá outros nomes proprietários ("gestão gasosa", "técnica do caiaque"); (4) eleva o status do espectador em tempo real ("na frente de 90%"); (5) autoriza tirar print - generosidade explícita; (6) recap acumulativo empilhando o valor entregue antes da transição.
+**O que ele fez:** (1) ensina os 5 níveis de planejamento um a um, cada nível com conceito + ferramenta visível (canvas/briefing) mas preenchimento "tá no curso" - gancho repetido ≥4x; (2) usa Pareto como permissão para não ensinar tudo; (3) batiza o filtro de "visão de floresta" (nome do caso GA) e dá outros nomes proprietários ("gestão gasosa", "técnica do caiaque"); (4) eleva o status do espectador em tempo real ("na frente de 90%"); (5) autoriza tirar print - generosidade explícita; (6) recap acumulativo empilhando o valor entregue antes da transição.
 
 **Por que funciona:** o conteúdo prova a tese em vez de esgotar o assunto - a pessoa sai sabendo que existe um sistema completo e que ele funciona, e exatamente por isso sente o tamanho do que falta. O atalho (curso) vira conclusão dela, não do vendedor. A análise beat-a-beat (exemplos-vivos) mostra o mecanismo fino: é um catálogo disfarçado de aula - cada corpo de conhecimento ensinado é um módulo ou bônus do produto.
 
-**O que é decalcável vs do nicho:** decalcável: a estrutura nível-a-nível com "o quê na aula, o como no curso", o Pareto como permissão, a elevação de status, o recap. Do nicho: os 5 níveis, os nomes 13M, o bônus OKR.
+**O que é decalcável vs do nicho:** decalcável: a estrutura nível-a-nível com "o quê na aula, o como no curso", o Pareto como permissão, a elevação de status, o recap. Do nicho: os 5 níveis, os nomes GA, o bônus OKR.
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M, host Denison) - gestores, curso R$~2k, mesma máquina com a virada de escopo mais nítida do corpus
+### Gestão Ágil ed. 2.0 (GA, host Denison) - gestores, curso R$~2k, mesma máquina com a virada de escopo mais nítida do corpus
 
 **Trecho literal:**
 
@@ -70,7 +70,7 @@ Conteúdo real, acionável (valor genuíno entregue):
 A virada que reabre o gap (o que ensinei não basta):
 > "Só que gestão ágil é muito mais do que só executar essa parte da execução. […] Gestão ágil é muito mais do que Scrum e Kanban. inclusive eu gosto de trazer essas notícias só para mostrar porque não sou só eu que estou falando isso. olha aqui, saiu na revista Exame […] implementar uma cultura ágil vai muito além do Scrum ou Kanban. […] só saber Scrum Kanban não te qualifica para isso. te qualifica ali para fazer a gestão de uma pequena equipe, mas não te qualifica para crescer na carreira"
 
-A analogia-mestra ("visão de floresta", da 13M):
+A analogia-mestra ("visão de floresta", da GA):
 > "Imagina que a empresa é como uma floresta, onde cada árvore dessa floresta é um processo dentro dessa empresa, ou uma área dentro dessa empresa. O gestor que quer prosperar nesse mundo VUCA, o gestor que quer ser o gestor do futuro, ele tem que conseguir enxergar a floresta além das árvores. Logo, o gestor que só sabe Scrum Kanban, que só sabe fazer a organização ali da sua equipezinha, ele só está olhando para uma arvorezinha da floresta"
 
 Premissa-âncora repetida:
@@ -85,15 +85,15 @@ Gancho do braçal → atalho (80/20):
 Posicionamento acima da concorrência:
 > "Você aprender isso aqui, já te coloca à frente de 98% dos gestores que tem por aí. Te garanto, vai ser um gestor muito acima da média."
 
-**O que ele fez:** (1) entrega checklist de 4 passos executável amanhã - valor real ANTES de reabrir o gap; (2) comando físico "papel e caneta"; (3) a virada de escopo: rebaixa o que acabou de ensinar de graça a "primeiro item da lista" ("só Scrum e Kanban não te qualifica"), com prova de mídia (Exame); (4) analogia visual proprietária (floresta vs árvore, da 13M) que vira o NOME do diferencial do curso; (5) cada conceito ancorado em origem prestigiosa (Toyota, Stanford/D-School, Google/John Doerr); (6) promessa de material só pra quem fica até o fim; (7) estatística de superioridade (98%).
+**O que ele fez:** (1) entrega checklist de 4 passos executável amanhã - valor real ANTES de reabrir o gap; (2) comando físico "papel e caneta"; (3) a virada de escopo: rebaixa o que acabou de ensinar de graça a "primeiro item da lista" ("só Scrum e Kanban não te qualifica"), com prova de mídia (Exame); (4) analogia visual proprietária (floresta vs árvore, da GA) que vira o NOME do diferencial do curso; (5) cada conceito ancorado em origem prestigiosa (Toyota, Stanford/D-School, Google/John Doerr); (6) promessa de material só pra quem fica até o fim; (7) estatística de superioridade (98%).
 
 **Por que funciona:** cada "secret" entrega valor de verdade e simultaneamente prova que o todo é grande demais pra uma aula. A virada de escopo desarma o "já aprendi, não preciso do curso" - a aula gratuita cobre 1 de 5 expectativas; o curso cobre 5 de 5 (mecanismo mapeado no beat 15 da análise exemplos-vivos). E a visão de floresta cria uma régua nova em que o concorrente (MBA, quem só sabe Scrum) é estruturalmente insuficiente.
 
-**O que é decalcável vs do nicho:** decalcável: dar de graça → rebaixar o que deu a "só o começo" → mostrar o mapa inteiro; a régua nova que esvazia concorrentes. Do nicho: Scrum/Kanban/VUCA, a citação da Exame, a metáfora floresta (é da 13M - criar a SUA imagem).
+**O que é decalcável vs do nicho:** decalcável: dar de graça → rebaixar o que deu a "só o começo" → mostrar o mapa inteiro; a régua nova que esvazia concorrentes. Do nicho: Scrum/Kanban/VUCA, a citação da Exame, a metáfora floresta (é da GA - criar a SUA imagem).
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, 13M) - gestores/profissionais, mesma esteira, versão com curadoria-como-autoridade mais explícita
+### 5 Níveis de Planejamento (Denison Vieira, GA) - gestores/profissionais, mesma esteira, versão com curadoria-como-autoridade mais explícita
 
 **Trecho literal:**
 
@@ -105,15 +105,15 @@ Posicionamento acima da concorrência:
 
 > (elevação de status no meio do conteúdo) "olha só que, vocês não tem noção o quão gestores ou gestoras diferenciadas vocês já estão virando só de assistir essa aula aqui, só de assistir isso aqui eu tenho certeza, só com isso aqui vocês já saem na frente de 90% da galera que está por aí. 90% da galera não tem nem noção do que eu estou falando aqui para vocês. Por que eu sei disso? Porque eu treino muita gente."
 
-> (a virada-mestra: o 80-20 / visão de floresta, da 13M) "qual que é o pareto dos métodos de gestão? qual que é o 80-20 de toda essa maçaroca de métodos que existem no mercado hoje em dia? qual é o 80-20 disso tudo? esse 80-20 é o que eu chamo de visão de floresta da gestão como eu já estou há muitos anos no mercado, já implantei um pouco de tudo Eu sei qual é esse 80-20. Já testei muita coisa, já aprendi muita coisa. Eu sei o que funciona e o que não funciona."
+> (a virada-mestra: o 80-20 / visão de floresta, da GA) "qual que é o pareto dos métodos de gestão? qual que é o 80-20 de toda essa maçaroca de métodos que existem no mercado hoje em dia? qual é o 80-20 disso tudo? esse 80-20 é o que eu chamo de visão de floresta da gestão como eu já estou há muitos anos no mercado, já implantei um pouco de tudo Eu sei qual é esse 80-20. Já testei muita coisa, já aprendi muita coisa. Eu sei o que funciona e o que não funciona."
 
 > (storytelling de fonte - Toyota/Lean) "e os americanos mais precisamente em Harvard, quando foram estudar a Toyota, isso na década de 80, que a Toyota chegou assim como uma bomba no mundo saiu lá de um país devastado pós-guerra […] e aí deram, enxuto em inglês é Lean, por isso que saiu esse nome Lean mas são os americanos que deram esse nome os japoneses mesmo não chamam assim"
 
-**O que ele fez:** (1) abre quebrando o senso comum (planejar ≠ listinha de tarefas) - posiciona o espectador no nível 5 de 5 e mostra que existem 4 acima; (2) ensina de verdade os 5 níveis, OKR, Scrum, Kanban - o "o quê", nunca o "como" completo; (3) cita o curso nominalmente DENTRO do conteúdo pelo menos 6 vezes ("a gente aprofunda no módulo X do Gestão Ágil 2.0"); (4) nomes proprietários ("gestão gasosa", "visão de floresta", "obesidade mental" - todos da 13M); (5) vende curadoria, não informação ("eu sei qual é o 80-20" - o filtro é o produto); (6) história de bastidor da fonte (Toyota/Lean, "os japoneses mesmo não chamam assim") como selo de quem viu por dentro. Detalhe da análise exemplos-vivos: ele VERBALIZA que está segurando a técnica de propósito ("a parte técnica é fácil… e é a menor parte que vai influenciar sua carreira") - o porquê antes do como, dito em voz alta, vira aula de consciência e o aluno agradece em vez de reclamar.
+**O que ele fez:** (1) abre quebrando o senso comum (planejar ≠ listinha de tarefas) - posiciona o espectador no nível 5 de 5 e mostra que existem 4 acima; (2) ensina de verdade os 5 níveis, OKR, Scrum, Kanban - o "o quê", nunca o "como" completo; (3) cita o curso nominalmente DENTRO do conteúdo pelo menos 6 vezes ("a gente aprofunda no módulo X do Gestão Ágil 2.0"); (4) nomes proprietários ("gestão gasosa", "visão de floresta", "obesidade mental" - todos da GA); (5) vende curadoria, não informação ("eu sei qual é o 80-20" - o filtro é o produto); (6) história de bastidor da fonte (Toyota/Lean, "os japoneses mesmo não chamam assim") como selo de quem viu por dentro. Detalhe da análise exemplos-vivos: ele VERBALIZA que está segurando a técnica de propósito ("a parte técnica é fácil… e é a menor parte que vai influenciar sua carreira") - o porquê antes do como, dito em voz alta, vira aula de consciência e o aluno agradece em vez de reclamar.
 
 **Por que funciona:** a aula entrega o mapa completo sem o passo-a-passo - quem entendeu o mapa sente competência crescendo e simultaneamente percebe o tamanho do trabalho de aprender sozinho. Cada "isso a gente aprofunda no curso" é um mini-pitch indolor que normaliza o produto como extensão natural da aula.
 
-**O que é decalcável vs do nicho:** decalcável: verbalizar a retenção ("não vou entrar no detalhe porque…") com razão honesta; citar o produto como referência natural dentro da aula; vender o filtro, não o conteúdo. Do nicho: os 5 níveis e todo o vocabulário 13M.
+**O que é decalcável vs do nicho:** decalcável: verbalizar a retenção ("não vou entrar no detalhe porque…") com razão honesta; citar o produto como referência natural dentro da aula; vender o filtro, não o conteúdo. Do nicho: os 5 níveis e todo o vocabulário GA.
 
 ---
 
@@ -221,7 +221,7 @@ Virada 4 - demonstração da foto-ativação (prova científica dentro do conte�
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira/13M) - gestores + IA, Formação Gestão Ágil 2.0, R$1.997; a máquina 13M com camada de IA
+### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira/GA) - gestores + IA, Formação Gestão Ágil 2.0, R$1.997; a máquina do webinar-modelo GA com camada de IA
 
 **Trecho literal:**
 
@@ -234,26 +234,26 @@ A analogia que carrega a aula (IA = estagiário gênio):
 O gancho do braçal (todo mundo faz errado):
 > "E isso aqui, gente, parece básico, né? Mas se eu te disser que 99% das pessoas não sabem fazer isso, 99% das pessoas usam IA do jeito errado. O que é usar IA do jeito errado? Cara, surgiu uma ferramenta nova, ela vai lá, instala a ferramenta […] Não é a ferramenta a solução."
 
-Virada 2 - a moldura que esvazia a concorrência (visão de floresta, da 13M):
+Virada 2 - a moldura que esvazia a concorrência (visão de floresta, da GA):
 > "o gestor que prospera hoje e que vai se tornar relevante no futuro não é aquele ultra especializado na árvore X. […] O gestor do futuro não é o especialista em árvore. O gestor do futuro é aquele capaz de enxergar a floresta."
 
 O atalho matemático (80/20 do 80/20):
 > "Qual seria o 80-20 do 80-20? […] E se eu pegar esse pequeno bloco do 80-20 e aplicar de novo 80-20? Qual é o 20% dele que gera 80% do resultado dele? Aqui a gente chega no 64,4%, tá? Que é aquele 4% que se eu souber isso aqui, eu gero 64% do resultado. Quem quer saber isso? Quem quer saber o 64,4% da gestão?"
 
 Seeding do método (a ponte invisível pra oferta):
-> "E a gente, na 13M, obviamente, tem um método passo a passo para você aplicar tudo o que eu falei aqui, tá? Que é o que a gente chama de gestão ágil 2.0. Tem algumas fases, são sete passos nessas fases."
+> "E a gente, na GA, obviamente, tem um método passo a passo para você aplicar tudo o que eu falei aqui, tá? Que é o que a gente chama de gestão ágil 2.0. Tem algumas fases, são sete passos nessas fases."
 
 A analogia que mata o atalho da ferramenta (robô aspirador):
 > "Percebe que é Iá, que está todo mundo com medo de IA, todo mundo querendo saber sobre IA. Cara, Iá é o último passo, é a última coisa. Antes você organiza a casa. Depois você coloca o robô aspirador para limpar a casa. Mas ele vai se tropeçar, ele vai se atrapalhar todo se a casa estiver com meia jogada lá. Ele vai se misturar na meia."
 
 O carimbo de valor sobre o conteúdo dado:
-> "Isso aqui não nasceu ontem, isso aqui são fruto de. Dos mais de 20 anos, meus de experiência e mais de 10 anos da 13M colocando isso no mercado. E isso aqui vale ouro. […] Isso aqui te coloca na frente de 90% das pessoas. 90% das pessoas. Eu te garanto, tá?"
+> "Isso aqui não nasceu ontem, isso aqui são fruto de. Dos mais de 20 anos, meus de experiência e mais de 10 anos da GA colocando isso no mercado. E isso aqui vale ouro. […] Isso aqui te coloca na frente de 90% das pessoas. 90% das pessoas. Eu te garanto, tá?"
 
-**O que ele fez:** (1) mesma espinha da máquina 13M (4 passos + visão de floresta + 80/20) com camada nova de IA; (2) analogias densas e reutilizáveis (estagiário QI 160, Hidra/antifrágil, robô aspirador, árvore vs floresta); (3) número-isca proprietário (64,4%) que transforma curadoria em matemática; (4) estatística de exclusividade ("99% usam IA errado") que transforma o básico em segredo; (5) seeding nominal do produto ("gestão ágil 2.0… são sete passos") 40 min antes da oferta - os 7 passos do conteúdo viram os 7 módulos do curso; (6) a analogia do robô aspirador desativa o concorrente real (curso de ferramenta de IA): a ferramenta sem o método se enrola na meia; (7) carimbo de valor sobre o que acabou de dar ("isso aqui vale ouro… 20 anos de experiência").
+**O que ele fez:** (1) mesma espinha da máquina do webinar-modelo GA (4 passos + visão de floresta + 80/20) com camada nova de IA; (2) analogias densas e reutilizáveis (estagiário QI 160, Hidra/antifrágil, robô aspirador, árvore vs floresta); (3) número-isca proprietário (64,4%) que transforma curadoria em matemática; (4) estatística de exclusividade ("99% usam IA errado") que transforma o básico em segredo; (5) seeding nominal do produto ("gestão ágil 2.0… são sete passos") 40 min antes da oferta - os 7 passos do conteúdo viram os 7 módulos do curso; (6) a analogia do robô aspirador desativa o concorrente real (curso de ferramenta de IA): a ferramenta sem o método se enrola na meia; (7) carimbo de valor sobre o que acabou de dar ("isso aqui vale ouro… 20 anos de experiência").
 
 **Por que funciona:** cada virada desloca a solução para longe do que o espectador já tentou (ferramenta da moda, curso isolado, planejamento antigo) e para perto do que só o método dele cobre (a floresta inteira). Quando a oferta chega, o curso já foi "ensinado" - comprar é só liberar a profundidade do mapa que ele acabou de mostrar.
 
-**O que é decalcável vs do nicho:** decalcável: requalificar o assunto quente do momento (IA) como ÚLTIMO passo do seu método; o seeding nominal do produto dentro do conteúdo; o carimbo de valor sobre o que foi entregue. Do nicho: estagiário QI 160, 64,4%, os 7 passos 13M.
+**O que é decalcável vs do nicho:** decalcável: requalificar o assunto quente do momento (IA) como ÚLTIMO passo do seu método; o seeding nominal do produto dentro do conteúdo; o carimbo de valor sobre o que foi entregue. Do nicho: estagiário QI 160, 64,4%, os 7 passos GA.
 
 ---
 
@@ -335,9 +335,9 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - [ ] **Valor real verificável**: algo aplicável amanhã (checklist de 4 passos, 35ml/kg, busca "hiring" no LinkedIn, script copiável) - sem isso o gancho do braçal vira só teaser.
 - [ ] **O quê sem o como sistematizado**: mapa completo na aula, preenchimento no produto. Os campeões VERBALIZAM a retenção com razão honesta ("senão a gente fica o dia inteiro aqui").
 - [ ] **Viradas ordenadas por crença**: cada secret demole a objeção na ordem em que ela barraria a compra (mais nítido na Aluna 80k e no webinar A do corpus).
-- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (13M), "3 Cs" (Vítor/MDI), escada de faixas + espátula One (Bruno), "better than free" e "two choices close" (Fladlien). O nome reaparece no pitch como diferencial.
+- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (GA), "3 Cs" (Vítor/MDI), escada de faixas + espátula One (Bruno), "better than free" e "two choices close" (Fladlien). O nome reaparece no pitch como diferencial.
 - [ ] **Curadoria como autoridade**: "eu sei qual é o 80/20" - vende-se o filtro, não a informação ("você não precisa ler tudo isso").
-- [ ] **Seeding nominal do produto dentro do conteúdo** (≥1x, 13M faz 4-6x): "isso a gente aprofunda no curso X" - normaliza a oferta antes dela existir.
+- [ ] **Seeding nominal do produto dentro do conteúdo** (≥1x, GA faz 4-6x): "isso a gente aprofunda no curso X" - normaliza a oferta antes dela existir.
 - [ ] **Comando físico de engajamento**: "papel e caneta", "anota", "tira print", "write this down" - e o print/PDF prometido só pra quem fica até o fim.
 - [ ] **Elevação de status do espectador em tempo real**: "você já sai na frente de 90/98/99%" - a aula muda a identidade, não só o conhecimento.
 - [ ] **Carimbo de valor sobre o que foi dado**: "isso vale ouro", "já te economizei R$1.000" - reciprocidade declarada e, quando possível, quantificada.
@@ -353,10 +353,10 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - **Esconder o produto até o pitch**: nenhum campeão trata o curso como segredo - ele é citado naturalmente dentro do conteúdo. Pitch que aparece "do nada" cobra o preço na transição.
 - **Conteúdo desconectado da big idea**: aula boa que prova outra tese não vende. Em todos os exemplos, cada virada é um tijolo da mesma tese (no webinar A do corpus, cada virada reverte um "não pode" do vilão; no Fladlien #2, cada rodada muda o mesmo critério de decisão).
 - **Ensinar sem demolir**: virada que só adiciona informação, sem quebrar uma crença ou um mito do senso comum do nicho, não move ninguém - o padrão é mito demolido + substituto instalado.
-- **Claims sem porquê nem dono**: afirmação sem mecanismo, sem fonte e sem número não constrói a régua nova. E atribuir a si o que é de outro (a "visão de floresta" é da 13M) destrói a confiança se descoberto.
+- **Claims sem porquê nem dono**: afirmação sem mecanismo, sem fonte e sem número não constrói a régua nova. E atribuir a si o que é de outro (a "visão de floresta" é da GA) destrói a confiança se descoberto.
 - **Monólogo sem engajamento físico/chat**: todos comandam anotação, print, resposta no chat, micro-sim - o bloco mais longo do webinar é justamente onde a atenção mais escorre.
 - **Aula de teoria/história**: o próprio Fladlien proíbe no produto e pratica no webinar - "no history lessons, no covering every little detail". O bloco é tático, não enciclopédico.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-**Nenhum.** Os 9 webinars do corpus têm o bloco 06 - é o único bloco do miolo presente em 100% dos campeões, e em todos ele é o trecho MAIS LONGO do webinar (tipicamente 30-50% da duração total: ~min 46-91 no 13M, ~27-80% na Aluna 80k, ~23-77% no webinar C do corpus, ~min 25-70 no Fladlien #2). Leitura: não existe webinar campeão sem miolo de conteúdo genuíno - o que varia é só a forma da virada (framework nomeado, conta econômica, jogo de diagnóstico, demo ao vivo, recursividade). Se um roteiro novo sair com este bloco curto ou raso, ele está fora do padrão de tudo que vendeu neste corpus.
+**Nenhum.** Os 9 webinars do corpus têm o bloco 06 - é o único bloco do miolo presente em 100% dos campeões, e em todos ele é o trecho MAIS LONGO do webinar (tipicamente 30-50% da duração total: ~min 46-91 no GA, ~27-80% na Aluna 80k, ~23-77% no webinar C do corpus, ~min 25-70 no Fladlien #2). Leitura: não existe webinar campeão sem miolo de conteúdo genuíno - o que varia é só a forma da virada (framework nomeado, conta econômica, jogo de diagnóstico, demo ao vivo, recursividade). Se um roteiro novo sair com este bloco curto ou raso, ele está fora do padrão de tudo que vendeu neste corpus.

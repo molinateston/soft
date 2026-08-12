@@ -2,7 +2,7 @@
 
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
-> **O que é este doc.** A especificação da estrutura REAL do webinário do corpus estudado, consolidada de três estudos: (1) a destilação do webinário do próprio o autor do corpus ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da 13M (Denison Vieira), a máquina-mãe que o autor do corpus modelou; (3) a doutrina Marco Enes (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
+> **O que é este doc.** A especificação da estrutura REAL do webinário do corpus estudado, consolidada de três estudos: (1) a destilação do webinário do próprio o autor do corpus ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da GA (Denison Vieira), a máquina-mãe que o autor do corpus modelou; (3) a doutrina Marco Enes (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
 >
 > **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que circulava em scripts e planos-de-webinar antigos. É o gabarito que o `soft-webinar` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
@@ -23,7 +23,7 @@
 ## FASE 0 · PRÉ-INÍCIO (~5 min)
 
 ### Estrutura real (a ordem dos beats)
-1. **Tela de espera = cronômetro regressivo + depoimentos REAIS em loop + card fixo de autoridade.** O frame do gestão ágil mostra literalmente **"COMEÇAREMOS EM 5:09"** com vídeo de aluno rodando ao lado do timer. No autor do corpus: card fixo *"13M, 13 milhões em 2 anos, com 5 pessoas e 1 funil."* No perpétuo, isso é pré-roll: depoimento colhido ao vivo é eternizado e jogado pra cá.
+1. **Tela de espera = cronômetro regressivo + depoimentos REAIS em loop + card fixo de autoridade.** O frame do gestão ágil mostra literalmente **"COMEÇAREMOS EM 5:09"** com vídeo de aluno rodando ao lado do timer. No autor do corpus: card fixo *"GA, 3 milhões em 2 anos, com 5 pessoas e 1 funil."* No perpétuo, isso é pré-roll: depoimento colhido ao vivo é eternizado e jogado pra cá.
 2. **Slide 1 na tela** (a pergunta-na-dor já fixa): *"Começamos em 5 minutos / Hoje você vende todo dia, ou todo mês recomeça do zero? · Já escreve no chat de onde você assiste."*
 3. **Boas-vindas + ativa o chat com comando pequeno:** *"Antes de começar faz uma coisa pra mim. Escreve no chat teu nome, tua cidade, e o que te trouxe aqui hoje."*
 4. **Pergunta de entrada que abre a ferida** (fixa 4–5 min): a pessoa **verbaliza o tamanho do próprio problema**, auto-convencimento, arranca o 1º "sim".
@@ -37,7 +37,7 @@
 
 ### Listas / diagramas / dados
 - A própria fila de depoimentos é uma **lista visual em loop**.
-- Card de autoridade = **um número grande na tela** (13M / 5 pessoas / 1 funil).
+- Card de autoridade = **um número grande na tela** (GA / 5 pessoas / 1 funil).
 
 ---
 
@@ -49,9 +49,9 @@
 3. **As FASCINATIONS / open loops**, lê uma a uma SEM explicar (explicar fecha o loop): *"Por que postar todo dia te afasta da venda, e o que faz no lugar"* · *"O lugar onde a venda inteira acontece junta, e por que nenhum canal teu tem ele"* · *"Como a IA monta a parte técnica que faz gente desistir, e que hoje não te trava mais."*
 4. **A LEAD = HISTÓRIA em 3 camadas (terceiro → eu → você).** Abre o GRANDE loop narrativo que só fecha no fim. **Vulnerabilidade ANTES da credencial.**
    - **Camada 1 (terceiro):** *"Deixa eu te contar de um cara. Especialista bom de verdade, melhor que muita gente que vende mais que ele. Acorda, posta, responde direct, faz call, entrega, e no fim do mês o número não bate com o tamanho do trabalho. Esse cara tá exausto, e tem vergonha de dizer que tá exausto."*
-   - **Camada 2 (era eu), autoridade empilhada, EMPRESA antes da pessoa:** *"Esse cara era eu. 2019. Vim do presencial, trocava hora por dinheiro. Montei uma agência, cheguei a 35 pessoas, botei a mão em mais de 150 lançamentos, e a maioria não deu o que prometia. Até que eu montei o marketing e vendas de uma empresa chamada 13M. 13 milhões em 2 anos, com 5 pessoas. E ali eu entendi: o jogo não é faturar alto um mês. É vender todo dia. Consistência ganha de pico."*
+   - **Camada 2 (era eu), autoridade empilhada, EMPRESA antes da pessoa:** *"Esse cara era eu. 2019. Vim do presencial, trocava hora por dinheiro. Montei uma agência, cheguei a 35 pessoas, botei a mão em mais de 150 lançamentos, e a maioria não deu o que prometia. Até que eu montei o marketing e vendas de uma empresa chamada GA. 3 milhões em 2 anos, com 5 pessoas. E ali eu entendi: o jogo não é faturar alto um mês. É vender todo dia. Consistência ganha de pico."*
    - **Camada 3 (você), future pacing:** *"Imagina abrir o teu painel de manhã e ver que já vendeu enquanto você dormia. Sem ter postado nada ontem. A venda aconteceu sozinha. Isso não é sorte. É um sistema."*
-5. **A AUTORIDADE, por número e por terceiros, NUNCA por adjetivo sobre si.** 10 anos no digital · *"gerenciei R$46 milhões"* (gerenciei, NÃO faturei, ele faz questão da distinção) · +150 lançamentos · +40 nichos · 13M R$13M/2 anos/5 pessoas/1 funil · um webinário ~R$3M · **quebrou em 2020 devendo R$500k (a cicatriz é a credencial)**. A autoridade vem DENTRO da história, não num slide de currículo isolado.
+5. **A AUTORIDADE, por número e por terceiros, NUNCA por adjetivo sobre si.** 10 anos no digital · *"gerenciei R$8 milhões"* (gerenciei, NÃO faturei, ele faz questão da distinção) · +150 lançamentos · +40 nichos · R$3M/2 anos/5 pessoas/1 funil · um webinário de sete dígitos · **quebrou em 2020 devendo R$300k (a cicatriz é a credencial)**. A autoridade vem DENTRO da história, não num slide de currículo isolado.
 6. **O ESPELHO** (vira a câmera pro espectador): *"Eu acredito que todo especialista que já é bom merece vender todo dia, sem se matar de trabalhar."*
 7. **CONTRATO/AGENDA (os marcos) + semear o preço cedo:** *"e no final eu te mostro como ter acesso a tudo isso, com uma condição que só existe hoje."*
 8. **O PRESENTE pra quem fica** (loop de recompensa, real): *"Separei um presente pra quem ficar até o final, não vou contar o que é agora."* (é o Swipe, entregue na oferta).

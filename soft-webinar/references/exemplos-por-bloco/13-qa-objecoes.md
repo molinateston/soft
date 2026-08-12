@@ -1,7 +1,7 @@
 # Q&A e objeções (objeção encenada antes de nascer, FAQ plantada, fechamento do "maybe")
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista). Mecanismos com dono: "em terra de cego quem tem olho é rei" como reframe da objeção de área = máquina 13M; "layups → curve balls", "nickel-and-dime vs $100 questions" e a demonização do "maybe" = Fladlien; o ventríloquo "Ju, …?" = Juliana Pupim; o "Bruno, mas…" = Bruno/Webinar C.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
+> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista). Mecanismos com dono: "em terra de cego quem tem olho é rei" como reframe da objeção de área = máquina do webinar-modelo GA; "layups → curve balls", "nickel-and-dime vs $100 questions" e a demonização do "maybe" = Fladlien; o ventríloquo "Ju, …?" = Juliana Pupim; o "Bruno, mas…" = Bruno/Webinar C.
 
 ---
 
@@ -13,7 +13,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A) - objection annihilation distribuída + FAQ plantada no último slide
+### Webinar-modelo GA (Gestão Ágil, ed. A) - objection annihilation distribuída + FAQ plantada no último slide
 
 **Trecho literal:**
 
@@ -31,11 +31,11 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 **Por que funciona:** ao dar voz à objeção antes do espectador formulá-la, ele a responde no enquadramento dele, não no do cético. E a rota de resgate reconhece que venda morre em atrito operacional tanto quanto em dúvida - e tapa esse ralo.
 
-**O que é decalcável vs do nicho:** decalcável: a tríade encenar-inverter-resgatar e a FAQ operacional de fechamento. Do nicho/dono: "terra de cego" como resposta da objeção de área é assinatura 13M - extrair o mecanismo (objeção-mãe → vantagem), reconstruir na voz do especialista.
+**O que é decalcável vs do nicho:** decalcável: a tríade encenar-inverter-resgatar e a FAQ operacional de fechamento. Do nicho/dono: "terra de cego" como resposta da objeção de área é assinatura GA - extrair o mecanismo (objeção-mãe → vantagem), reconstruir na voz do especialista.
 
 ---
 
-### 5 Níveis de Planejamento (Denison/13M) - a prova de que o bloco é roteiro fixo
+### 5 Níveis de Planejamento (Denison/GA) - a prova de que o bloco é roteiro fixo
 
 **Trecho literal:**
 
@@ -43,9 +43,9 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 > "ah, não consigo. Os próximos 90 dias, eu estou sem tempo, estou ocupado […] Não tem problema. Você vai ter 12 meses de acesso para você poder iniciar quando você puder."
 
-> (pergunta real do chat com redirecionamento suave) "O pessoal está perguntando aqui, a diferença de OKR e BSC, esqueci de colocar, que a gente também ensina BSC, tá? […] Obviamente, a minha sugestão acaba sendo vem fazer um curso com a 13M, porque a gente vai ensinar a fazer isso."
+> (pergunta real do chat com redirecionamento suave) "O pessoal está perguntando aqui, a diferença de OKR e BSC, esqueci de colocar, que a gente também ensina BSC, tá? […] Obviamente, a minha sugestão acaba sendo vem fazer um curso com a GA, porque a gente vai ensinar a fazer isso."
 
-**O que ele fez:** mesmas objeções, mesmas respostas, quase palavra por palavra do 13M - o bloco roda como roteiro fixo entre edições; pergunta técnica real (OKR vs BSC) respondida com mini-aula generosa + redirecionamento suave pro curso.
+**O que ele fez:** mesmas objeções, mesmas respostas, quase palavra por palavra do GA - o bloco roda como roteiro fixo entre edições; pergunta técnica real (OKR vs BSC) respondida com mini-aula generosa + redirecionamento suave pro curso.
 
 **Por que funciona:** matar a objeção ANTES dela ser formulada impede que ela ganhe voz no chat e contamine a sala; e responder pergunta técnica ao vivo com generosidade prova que o suporte prometido na oferta é real. ACHADO de máquina: as objeções de um nicho são finitas e estáveis - uma vez mapeadas e roteirizadas, as respostas se reusam em toda edição.
 
@@ -53,7 +53,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M) - FAQ pré-compilada da pesquisa de inscrição + Fastpass comercial
+### Gestão Ágil ed. 2.0 (GA) - FAQ pré-compilada da pesquisa de inscrição + Fastpass comercial
 
 **Trecho literal:**
 
@@ -73,7 +73,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 
 ---
 
-### GAIA2k (Denison/13M) - objeções plantadas no pitch + a única real (juros) com transferência de culpa
+### GAIA2k (Denison/GA) - objeções plantadas no pitch + a única real (juros) com transferência de culpa
 
 **Trecho literal:**
 
@@ -213,7 +213,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 - [ ] **FAQ operacional plantada no fechamento** (pré-requisito, acesso, suporte, certificado, formas de pagamento) - as dúvidas do comprador silencioso, que emperram o checkout sem nunca virarem pergunta.
 - [ ] **Rota de resgate pra venda morta em atrito** (e-mail comercial que mantém condições, "sala secreta" no WhatsApp, "deu erro no cartão? manda aqui") - estende a venda sem furar a escassez em público.
 - [ ] **Pergunta real do chat respondida com generosidade + redirecionamento suave** (OKR vs BSC → mini-aula + "vem fazer o curso"); honestidade em objeção de pagamento (juros: "é da bandeira, eu não recebo").
-- [ ] **As objeções são finitas e roteirizáveis** - a máquina 13M roda as mesmas respostas verbatim entre edições; o webinar A do corpus roteiriza o FAQ inteiro pro perpétuo. Este bloco se ESCREVE, não se improvisa.
+- [ ] **As objeções são finitas e roteirizáveis** - a máquina do webinar-modelo GA roda as mesmas respostas verbatim entre edições; o webinar A do corpus roteiriza o FAQ inteiro pro perpétuo. Este bloco se ESCREVE, não se improvisa.
 - [ ] **Takeaway dentro da resposta** ("gente preguiçosa me irrita"; "não é para todo mundo") - a resposta qualifica o grupo em vez de implorar.
 - [ ] **Sim e não são aceitáveis; "maybe" é o inimigo** - o bloco existe pra forçar decisão, não pra esgotar curiosidade.
 
@@ -224,16 +224,16 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 - **Abrir microfone/chat sem curadoria.** O único Q&A longo do corpus (Fladlien #2) tem moderador que seleciona e ordena (layups → curve balls) - Q&A sem curadoria entrega o palco à objeção mais tóxica.
 - **Defender-se da objeção em vez de invertê-la.** O padrão vencedor transforma a dúvida em argumento de compra; resposta defensiva ("não, não é bem assim…") valida o frame do cético.
 - **Ignorar as dúvidas operacionais banais.** Pré-requisito, acesso, pagamento, certificado liberam o comprador silencioso - pular o FAQ "chato" deixa dinheiro no checkout.
-- **Reabrir debate depois do pitch fechado.** Juliana delega pro WhatsApp; 13M pro e-mail comercial - dúvida residual vai pro 1:1, não pro palco.
+- **Reabrir debate depois do pitch fechado.** Juliana delega pro WhatsApp; GA pro e-mail comercial - dúvida residual vai pro 1:1, não pro palco.
 - **Esmagar quem pergunta.** O takeaway dos campeões mira comportamento ("preguiçosa por escolha"), nunca a pessoa que perguntou; humilhar pergunta congela o chat inteiro.
-- **Decalcar rótulo com dono** ("terra de cego" = 13M; "nickel-and-dime" e o frame do maybe = Fladlien; "sala secreta" = Juliana). E pro Soft: as objeções do dono de negócio (equipe, tempo de dono, "meu mercado é diferente", "já comprei curso e não apliquei") têm que vir do baú de voz do avatar do perfil, não do template CLT.
+- **Decalcar rótulo com dono** ("terra de cego" = GA; "nickel-and-dime" e o frame do maybe = Fladlien; "sala secreta" = Juliana). E pro Soft: as objeções do dono de negócio (equipe, tempo de dono, "meu mercado é diferente", "já comprei curso e não apliquei") têm que vir do baú de voz do avatar do perfil, não do template CLT.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum webinar pula o tratamento de objeções - mas só 1 de 9 tem Q&A formal longo.** A distribuição é o dado:
 
 - **Q&A formal de ~90 min:** só Fladlien #2 (metade do webinar!) - e só porque tem dupla garantia como resposta-mestra e moderador (Wilson) fazendo curadoria.
-- **FAQ plantada/roteirizada de fechamento:** 13M, GA ed. 2.0, GAIA2k, webinar A do corpus - perguntas auto-respondidas em slide, sem abrir o palco.
+- **FAQ plantada/roteirizada de fechamento:** GA, GA ed. 2.0, GAIA2k, webinar A do corpus - perguntas auto-respondidas em slide, sem abrir o palco.
 - **Aniquilação 100% inline, sem bloco formal:** 5 Níveis (transcrição corta no link), Aluna 80k (ventríloquo "Ju…?" transversal + delegação pro WhatsApp), webinar C do corpus ("Bruno, mas…" transversal), Fladlien #1 (checklist de auto-qualificação + e-mail).
 
 **Leitura clínica:** o tratamento de objeção é função obrigatória, mas o Q&A aberto é opcional e raro - só se sustenta com garantia forte + curadoria. Pra escrita Soft: mapear as objeções do avatar (são finitas), encenar e matar cada uma no bloco onde ela nasce, fechar com FAQ operacional + rota de resgate - e só abrir Q&A ao vivo se houver moderação e resposta-mestra preparada.

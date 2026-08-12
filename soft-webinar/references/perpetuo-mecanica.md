@@ -168,11 +168,11 @@ O `perpetuo-vs-aovivo.md` já carrega: "Webinar perpétuo gravado sem validar pr
 
 Reforço da escala real, pra o player calibrar expectativa (e pra a IA não prometer fácil):
 
-> "A gente faturou na 13M 6.5 milhões com um único webinário que foi gravado em 2021. Significa que a gente não testou outros? Não, a gente já testou mais de 30 webinários. Só esse é o que escala." (corpus estudado, call Hugo)
+> "A gente faturou na GA 6.5 milhões com um único webinário que foi gravado em 2021. Significa que a gente não testou outros? Não, a gente já testou mais de 30 webinários. Só esse é o que escala." (corpus estudado, call Hugo)
 
 30 webinars testados, 1 que escala. O webinar campeão é raro e custa iteração. Por isso a validação barata vem antes.
 
-**EXEMPLO de economics completo de UM webinar campeão (MANUAL cap 13 / 13M / Gestão Ágil 2.0 - o número que o autor do corpus abre na mentoria com o print do dashboard):**
+**EXEMPLO de economics completo de UM webinar campeão (MANUAL cap 13 / GA / Gestão Ágil 2.0 - o número que o autor do corpus abre na mentoria com o print do dashboard):**
 - Produto: um curso de método ("arroz com feijão do digital", curso gravado + mentoria quinzenal).
 - **Faturamento bruto: ~R$3,5 milhões em ~9 meses** (janeiro a setembro).
 - **ROAS médio: 2.2.**

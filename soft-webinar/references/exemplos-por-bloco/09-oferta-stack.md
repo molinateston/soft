@@ -1,7 +1,7 @@
 # Oferta/Stack (a aula reembalada como produto, bônus por objeção, valor empilhado item a item)
 
-> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina 13M = 13M.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Mecanismos com dono: "bônus do combinado não sai caro" = 13M; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = Fladlien.
+> Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
+> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Mecanismos com dono: "bônus do combinado não sai caro" = GA; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = Fladlien.
 
 ---
 
@@ -13,7 +13,7 @@ A oferta dos campeões nunca é um produto novo: é a AULA reembalada. Os módul
 
 ## Exemplo por exemplo
 
-### Webinar 13M (13M, ed. A - modelo-mestre R$13M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165
+### Webinar-modelo GA (Gestão Ágil, ed. A - modelo-mestre R$3M) - gestão ágil corporativa, Gestão Ágil 2.0 de R$3.000 por 12x R$165
 
 **Trecho literal:**
 
@@ -37,15 +37,15 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > "tem um bônus que eu quero fazer aqui para vocês que é o bônus do combinado não sai caro […] eu quero que você seja esse próximo aluno que vai me mandar esse depoimento […] para que você me mande esses o seu depoimento no futuro eu vou te dar r$ 300 de desconto adicional tá […] e o compromisso é a nossa palavra aqui tá bom"
 
-**O que ele fez:** (1) promessa com prazo ("90 dias", repetido - fecha o loop aberto na abertura); (2) cada módulo nomeado como "um curso dentro do curso" (multiplicação de valor percebido); (3) comparação estrutural com MBA (360h/24 meses/linguiça vs 64h/90 dias) - vende a compressão como benefício; (4) bônus precificados antes de doados (mentoria R$9.100); (5) "bônus do combinado não sai caro" (mecanismo 13M) transforma desconto em troca recíproca - R$300 por depoimento futuro, desconto com reason-why embutido; (6) remoção de atritos logísticos (100% gravado, 12 meses de acesso, suporte diário, certificado).
+**O que ele fez:** (1) promessa com prazo ("90 dias", repetido - fecha o loop aberto na abertura); (2) cada módulo nomeado como "um curso dentro do curso" (multiplicação de valor percebido); (3) comparação estrutural com MBA (360h/24 meses/linguiça vs 64h/90 dias) - vende a compressão como benefício; (4) bônus precificados antes de doados (mentoria R$9.100); (5) "bônus do combinado não sai caro" (mecanismo GA) transforma desconto em troca recíproca - R$300 por depoimento futuro, desconto com reason-why embutido; (6) remoção de atritos logísticos (100% gravado, 12 meses de acesso, suporte diário, certificado).
 
 **Por que funciona:** o stack é a aula reembalada - cada módulo corresponde a um buraco que a própria aula abriu ("a gente acabou não vendo… mas dentro do curso tem"). E nenhum bônus é grátis "porque sim": cada um tem preço e motivo, o que mantém a credibilidade da ancoragem.
 
-**O que é decalcável vs do nicho:** decalcável: módulos espelhando a aula, bônus precificado com reason-why de custo, desconto-por-depoimento-futuro como contrapartida. Do nicho/dono: o anti-MBA serve o avatar CLT; "bônus do combinado não sai caro" é nome do caso 13M - extrair o mecanismo (contrapartida), nunca o rótulo.
+**O que é decalcável vs do nicho:** decalcável: módulos espelhando a aula, bônus precificado com reason-why de custo, desconto-por-depoimento-futuro como contrapartida. Do nicho/dono: o anti-MBA serve o avatar CLT; "bônus do combinado não sai caro" é nome do caso GA - extrair o mecanismo (contrapartida), nunca o rótulo.
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO 13M) - mesma máquina, mesmo script-base; bônus em camadas de escassez
+### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesma máquina, mesmo script-base; bônus em camadas de escassez
 
 **Trecho literal:**
 
@@ -57,15 +57,15 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > (bônus 4 - 10 primeiros) "tem um presentinho aqui para os 10 primeiros. Isso aqui vai automático no nosso sistema. Os 10 primeiros que se inscreverem vão ganhar também um workshop de gestão de tempo"
 
-**O que ele fez:** mesma espinha do 13M com a camada extra mais nítida do corpus: bônus em CAMADAS de escassez decrescente (turma inteira → 15 primeiros → 10 primeiros), todo bônus com preço nominal e reason-why do custo, e âncora externa absurda dentro do bônus (Stanford US$13 mil / R$70 mil com a viagem → "o mesmo curso em português por R$2.000").
+**O que ele fez:** mesma espinha do GA com a camada extra mais nítida do corpus: bônus em CAMADAS de escassez decrescente (turma inteira → 15 primeiros → 10 primeiros), todo bônus com preço nominal e reason-why do custo, e âncora externa absurda dentro do bônus (Stanford US$13 mil / R$70 mil com a viagem → "o mesmo curso em português por R$2.000").
 
-**Por que funciona:** o stack reusa a aula como demonstração ("tudo que a gente viu hoje é o módulo 2") - o aluno já provou o produto. E precificar cada bônus com justificativa de custo faz a soma de R$15 mil parecer contabilidade, não retórica. ACHADO de máquina: este bloco roda quase idêntico ao 13M entre edições - o stack é ativo roteirizado, não improviso.
+**Por que funciona:** o stack reusa a aula como demonstração ("tudo que a gente viu hoje é o módulo 2") - o aluno já provou o produto. E precificar cada bônus com justificativa de custo faz a soma de R$15 mil parecer contabilidade, não retórica. ACHADO de máquina: este bloco roda quase idêntico ao GA entre edições - o stack é ativo roteirizado, não improviso.
 
 **O que é decalcável vs do nicho:** decalcável: camadas de escassez nos bônus (alimentam o bloco 12 sem mexer no produto), âncora externa de prestígio dentro do bônus. Do nicho: Stanford/OKR - o prestígio emprestado precisa ser o que o avatar do nicho reverencia.
 
 ---
 
-### Gestão Ágil ed. 2.0 (13M, host Denison) - stack com o ativo proprietário mais original da máquina
+### Gestão Ágil ed. 2.0 (GA, host Denison) - stack com o ativo proprietário mais original da máquina
 
 **Trecho literal:**
 
@@ -85,7 +85,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### GAIA2k (Denison/13M - "Gestão Ágil na Era da IA") - a mesma máquina com bônus desenhados pela onda do momento
+### GAIA2k (Denison/GA - "Gestão Ágil na Era da IA") - a mesma máquina com bônus desenhados pela onda do momento
 
 **Trecho literal:**
 
@@ -229,7 +229,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - [ ] **Remoção de atritos logísticos dentro do stack** (12 meses de acesso, 100% gravado, suporte diário, certificado, início imediato) - as objeções operacionais morrem aqui, não no Q&A.
 - [ ] **Tangibilização física** (duração ao segundo, 31 módulos/90 aulas, plataforma "estilo Netflix", evento filmado com data) - volume que se consegue visualizar.
 - [ ] **Bônus de identidade/pertencimento no topo** (Black Belt Club, lista de indicações, comunidade vitalícia, consultoria pós-$10k) - o último degrau vende quem o aluno vira, não o que ele recebe.
-- [ ] **Re-listagem cumulativa** (Fladlien #1; a máquina 13M faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
+- [ ] **Re-listagem cumulativa** (Fladlien #1; a máquina do webinar-modelo GA faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
 
@@ -239,15 +239,15 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - **Detalhar demais o produto-núcleo e correr nos bônus.** Fladlien inverte de propósito ("everybody does wrong… they'll spend 55 minutes explaining every little thing") - bônus convertem mais que a oferta.
 - **Revelar tudo do bônus.** Curiosity gap dentro do stack (armas secretas, produtos não revelados) é padrão dos dois Fladlien - bônus 100% transparente perde tração.
 - **Esconder limitações que vão aparecer no checkout** (juros, acesso limitado). Os campeões declaram ("tem um juros pequeno da plataforma") - surpresa no checkout mata a venda construída.
-- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é 13M; "Black Belt Club" é do Bruno; "GPS da gestão ágil" é 13M. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
-- **Pro avatar Soft especificamente:** o stack 13M resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
+- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é GA; "Black Belt Club" é do Bruno; "GPS da gestão ágil" é GA. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
+- **Pro avatar Soft especificamente:** o stack GA resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
 **Nenhum.** Os 9 webinars do corpus executam oferta/stack - junto com abertura, problema, big idea, conteúdo, transição, prova e preço, é bloco de presença universal: não existe webinar-campeão que apresente o produto como item único sem empilhamento.
 
 Variações que valem registrar como dado:
-- **A máquina 13M roda o stack quase idêntico em 4 edições** (13M, 5 Níveis, ed. 2.0, GAIA2k), trocando só o bônus de onda (97 prompts de IA no GAIA2k) - stack é peça de máquina, escrita uma vez e reusada.
+- **A máquina do webinar-modelo GA roda o stack quase idêntico em 4 edições** (GA, 5 Níveis, ed. 2.0, GAIA2k), trocando só o bônus de onda (97 prompts de IA no GAIA2k) - stack é peça de máquina, escrita uma vez e reusada.
 - **Fladlien #1 dá mais palco aos bônus que ao produto** - e verbaliza a doutrina ("bonuses are more important than the offer itself"). É o gabarito teórico pra auditar os outros.
 - **webinar A do corpus empacota como jornada de identidades** (Aprendiz→Inspiradora) - formato que conversa melhor com avatar de transformação pessoal do que lista de módulos.
 - **webinar C do corpus devolve as metáforas plantadas** (pegadas, faixas) dentro do stack - em webinar com metáfora-mestra, o stack é onde ela é paga.

@@ -1501,7 +1501,7 @@ Dia [NÚMERO] tentando fazer R$[META] até [PRAZO] [ATIVIDADE DO NEGÓCIO]. Hoje
 fechei [ITEM/NEGÓCIO ESPECÍFICO]. Comprei por R$[VALOR DE COMPRA] e vendi por R$[VALOR DE VENDA].
 ```
 Exemplo prático em outro nicho · NICHO MARKETING DIGITAL:
-Dia 32 tentando fazer R$500 mil até o fim do ano revendendo perfil de Instagram. Hoje eu finalmente fechei esse perfil de nicho de viagem. Comprei por R$8 mil e vendi por R$22 mil.
+Dia 32 tentando fazer R$300 mil até o fim do ano revendendo perfil de Instagram. Hoje eu finalmente fechei esse perfil de nicho de viagem. Comprei por R$8 mil e vendi por R$22 mil.
 
 ### 2. ESTRUTURA DO ROTEIRO DETALHADO
 
@@ -1531,7 +1531,7 @@ Por que funciona: encerrar com uma atividade rotineira e pouco glamourosa, em ve
 Dica: sempre feche de forma curta e casual, sem um CTA elaborado · o tom direto reforça que esse é um relato de rotina de negócio.
 
 ### Exemplo Prático de Aplicação (NICHO MARKETING DIGITAL)
-- (O Contador do Desafio): "Dia 32 tentando fazer R$500 mil até o fim do ano revendendo perfil de Instagram. Hoje eu finalmente fechei esse perfil de nicho de viagem. Comprei por R$8 mil e vendi por R$22 mil."
+- (O Contador do Desafio): "Dia 32 tentando fazer R$300 mil até o fim do ano revendendo perfil de Instagram. Hoje eu finalmente fechei esse perfil de nicho de viagem. Comprei por R$8 mil e vendi por R$22 mil."
 - (O Negócio Fechado): "Depois de taxa de intermediação e imposto, fiquei com R$11 mil de lucro nesse negócio."
 - (O Total Acumulado): "Isso me deixa em R$28 mil no ano. Vamo que vamo."
 - (O Próximo Negócio): "Também coloquei sob negociação um perfil de 50 mil seguidores de nicho fitness. É uma compra de R$5 mil pra revender por R$12 mil. Então tenho uma margem de R$7 mil nesse negócio."

@@ -17,7 +17,7 @@
 6. **Régua + recalibragem** — benchmark de cada etapa do funil e onde vaza (`benchmark-soft.md`, `recalibragem-semanal.md`).
 7. **Sócio IA: que braços ativar e quando** — sequência **na ordem do método Soft** (posição → conteúdo de atração → funil/captura → comercial), cada braço apontando a skill-mãe que executa. Não é calendário importado de fora; segue a jornada (`conducao-na-pratica.md`).
 
-## Output — adapta ao ambiente (regra do Léo)
+## Output — adapta ao ambiente (regra fixa)
 
 - **No chat (Claude.ai):** entrega em **Markdown** limpo, formato mapa-mental (tópicos por macro-tema + bullets com exemplo). Simples, sem firula.
 - **No Claude Code:** **renderiza e publica** como **site** — reusa o motor da `soft-vendas-proposta` (Layout Soft, link único e privado, chat=MD / code=site), com a ID visual do cliente (`soft-designer`).
@@ -26,6 +26,6 @@
 
 ## Invioláveis
 
-- **Marca-neutra:** cor, fontes, logo e prova são do CLIENTE (puxe da Fundação dele). Nunca os números do Léo, nunca número de terceiro, nunca inventar.
+- **Marca-neutra:** cor, fontes, logo e prova são do CLIENTE (puxe da Fundação dele). Nunca número de terceiro, nunca inventar.
 - O LEON **não cria método novo aqui**: consolida o que já produziu e **avalia no Crivo** antes de entregar.
 - Toda copy passa pelo filtro anti-ia (PT-BR completo, sem travessão).
