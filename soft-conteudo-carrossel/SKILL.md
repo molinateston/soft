@@ -84,11 +84,18 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 **Erro clássico:** "oportunidade" vaga (hype geral de IA); precisa ser janela ESPECÍFICA com custo de ignorar nomeado.
 **Regra do formato:** amplifica com FATO/DADO/SINAL, não com adjetivo ("gigante", "histórico", "único").
 
-### Formato 7, Utilidade Viral
-**Quando escolher:** planta autoridade sem vender direto; gera share alto; tema é "como fazer X" prático.
-**Espinha (6-9 slides):** capa (utilidade nomeada: "Como fazer X sem Y") · slides do meio entregam o passo/dica com CENA real · penúltimo slide conecta a utilidade à tese-mãe (por que quem domina isso escala) · último slide CTA canônico (comentário/direct).
-**Exemplo de capa (SIA):** *"Como instalar um segundo cérebro pro teu negócio em 1 tarde."*
-**Erro clássico:** virar tutorial completo executável (a Faca Soft reprova: dá o tijolo, não a planta); OU utilidade solta sem conexão com o método.
+### Formato 7, Utilidade Viral (esqueleto save-first)
+**Quando escolher:** planta autoridade sem vender direto; o objetivo da peça é SAVE e share (os 2 sinais que mais ranqueiam no Instagram em 2026) e o tema é "como fazer X" prático.
+**Espinha (8 slides, aprofundada 12/08 com a destilação de 24 carrosséis do maior perfil de conteúdo de IA do Brasil):**
+1. **Capa-gancho**: UMA frase + UMA palavra em destaque. Sem parágrafo, sem explicação. Parou o dedo em 1 segundo ou não parou. **Regra de esforço: a capa vale mais que os slides 2-8 somados** (a maioria capricha no conteúdo e improvisa a capa; inverta).
+2. **Promessa**: o que a pessoa LEVA se continuar ("nos próximos slides, o [X] pra você [resultado]"). É o que faz o dedo avançar.
+3-6. **Passos**: UMA ideia por slide, regra dura (título curto + até 2 linhas; se precisa de parágrafo, são 2 slides). Cada passo com CENA real.
+7. **O DADO**: um número que sustenta a tese, com a fonte embaixo. É o slide que transforma "opinião de internet" em "isso é sério" e é o que mais gera save.
+8. **CTA canônico** de comentário com palavra-senha (forma 2 do Passo 3): comentário e direct são funil E ranqueamento.
+**Capa: parte de um dos 5 moldes** (todos casam com o cânone da soft-conteudo-headlines; use a headline do Passo 0): número+promessa · o erro ("você faz [X] errado, levei [tempo] pra descobrir") · o roubo/insider ("roube o [sistema] que eu uso pra [resultado]") · antes→depois sem a objeção comum · a pergunta que dói.
+**Métrica da peça:** responda "por que alguém salvaria isto pra depois?". Sem resposta = falta o slide do dado ou falta utilidade de verdade.
+**Exemplo de capa (SIA):** *"Roube o sistema que faz meu negócio atender sozinho às 2 da manhã."* (molde roubo/insider; palavra em destaque: sozinho)
+**Erro clássico:** virar tutorial completo executável (a Faca Soft reprova: dá o tijolo, não a planta); utilidade solta sem conexão com o método; parágrafo em slide de passo.
 **Regra do formato:** a utilidade é REAL (o leitor sai com algo aplicável), mas a **profundidade fica no método**. Ensina o QUE, sugere o COMO, guarda o PORQUÊ COMPLETO.
 
 ---
