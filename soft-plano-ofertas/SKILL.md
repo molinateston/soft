@@ -249,7 +249,9 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Tipo respeitado** | o modo do tipo detectado (núcleo, nível, garantia, canal) bate com a tabela dos 6 tipos |
 | **Output DENSO** | tabelas/listas, não prosa; cada oferta fechada em si; zero meta-narração/bastidor; sem tabela de gate na saída |
 | **Anti-IA (HARD)** | zero em-dash (travessão longo, U+2014) · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · sem tricolon performático · PT-BR com acentuação correta. Ver o bloco de reescrita abaixo. |
-| **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
+| **Entregáveis LISTADOS (HARD)** | cada nível/oferta com os entregáveis NOMEADOS um a um (o que a pessoa recebe, em que formato); oferta sem lista de entregáveis = ✗ na hora — foi exatamente assim que um doc "PASSA" saiu sem entregável nenhum (caso real 06/08) |
+| **Entregável-tese presente (HARD)** | existe o entregável que CARREGA o mecanismo nomeado (a peça que prova a tese na prática); sem ele a oferta é promessa sem espinha |
+| **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. **O gate confere TODAS as linhas desta tabela, uma a uma, na ordem — conferir só PUV/Equação e carimbar PASSA é veredito INVÁLIDO (caso real 06/08).** |
 
 **Reescrita obrigatória do em-dash (o furo mais provável, o modelo usa por reflexo na prosa PT-BR densa):** o em-dash é o travessão longo, U+2014. **Não basta "buscar e refazer": REESCREVA de fato cada ocorrência.** Travessão de aposto no meio da frase vira **vírgula**; travessão que anuncia consequência ou lista vira **dois-pontos**; travessão que separa duas ideias inteiras vira **ponto**. Faça isto ANTES de marcar o item ✓.
 
