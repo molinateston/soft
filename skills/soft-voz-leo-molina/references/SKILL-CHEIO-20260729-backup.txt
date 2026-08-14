@@ -1,0 +1,324 @@
+---
+name: soft-voz-leo-molina
+description: "Skill canônica de VOZ e posicionamento do Léo Molina (Posicionamento + Identidade de Voz do método Soft aplicados ao próprio Léo): avatar, posicionamento incomum, método Soft, catálogo de ofertas, provas validadas, voz destilada (Clínico + Profético), narrativa pessoal, valores e anti-valores, pilares de conteúdo. Eixo canônico: de invisível e imprevisível a procurado pelo nome e pago como merece; mecanismo = Reorganização da Percepção (RP/APSD); veículo = webinário perpétuo. É a referência de VOZ do Léo, as outras skills consultam esta antes de gerar qualquer peça dele, e a jornada é gerenciada pelo soft-leon. Use SEMPRE que envolver gerar copy do Léo: carrossel, reel, story, página, anúncio, carta, email, headline, script comercial, briefing pra agente. É o MODELO que cada cliente da Implementação Soft sai no formato soft-voz-[nome-cliente]."
+---
+
+> 🔴 **REGRA DURA DE FRASE , "TODA FRASE SE EXPLICA SOZINHA"** (vale em TUDO que esta skill escrever pro público)
+>
+> Copy Soft é **frase que gera IMAGEM na cabeça de quem lê frio**. Não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes/depois. Toda frase que você escrever precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título, ou do que "obviamente é". Frase curta que "soa punchy" e deixa o entendimento pro contexto é reprovada.
+>
+> **Teste antes de aprovar CADA frase:** "se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ + PRA QUEM + O RESULTADO CONCRETO?" Se não, REESCREVE nomeando explícito: qual é o objeto ("dieta", "calorias", "conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+>
+> **Ex reprovado →** *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
+> **Ex aprovado →** *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
+>
+> Adicionar as 3-5 palavras que ancoram o contexto é MELHOR que a frase curta ambígua. Copy boa não é curta, é **inequívoca e imagética**. Frase que precisa de contexto pra ser entendida = frase quebrada, refaz.
+
+> **REGRA-IRMÃ · "NENHUM VERBO ÓRFÃO" (cérebro preguiçoso do leitor):** o leitor tem cérebro preguiçoso e NÃO vai completar sua frase pra você. Todo verbo precisa vir com seu OBJETO NOMEADO na mesma frase, senão vira frase média. Verbos-armadilha que exigem complemento explícito: cortar (**cortar o quê?**), recomeçar (**recomeçar o quê?**), parar (**parar de quê?**), mudar, melhorar, escapar, largar, controlar, ajustar, resolver, virar, transformar. Sempre nomeia o objeto concreto (arroz, pão, doce, dieta, treino, agenda, cliente, valor), NUNCA deixa aberto.
+>
+> **Ex ✅ BOA (verbos ancorados + objetos nomeados):** *"Você come arroz, pão e o que ama, e uma ferramenta minha conta as calorias de tudo por você todo dia, pra você emagrecer sem viver de dieta."* , "come" tem objeto (arroz, pão), "conta" tem objeto (calorias), "emagrecer" tem contexto ("sem viver de dieta").
+>
+> **Ex ⚠️ MÉDIA (verbo órfão no fim):** *"…pra você emagrecer comendo o que gosta em vez de cortar."* , "cortar O QUÊ?" ficou pro leitor completar. Cérebro preguiçoso não completa, desiste. Correto: *"…em vez de cortar arroz, pão e doce."*
+>
+> Antes de aprovar a frase, sublinha mentalmente cada verbo e confere: cada um tem OBJETO nomeado? Não? Nomeia agora.
+
+# Soft-Voz Léo Molina
+
+Skill canônica completa do Léo Molina.
+
+Resultado da FASE 1 (Posicionamento Estratégico) + FASE 2 (Identidade de Voz) do método Soft Business aplicadas ao próprio Léo.
+
+Esta skill é o **modelo de entregável** que cada cliente da Implementação Soft sai com, no formato `soft-voz-[nome-cliente]`.
+
+---
+
+## 📦 O QUE ESTA SKILL PRODUZ
+
+Esta skill não é executiva (não escreve a peça final sozinha). É a **fonte-da-verdade de VOZ e posicionamento do Léo** que as skills executivas consultam. O que ela entrega/habilita:
+
+**Material de identidade do Léo (consumido por qualquer peça)**
+- Avatar completo, o verdadeiro especialista (do zero ao avançado): quem é, dia, dores literais e por trás da dor (imprevisibilidade, invisibilidade, exaustão), desejos, crenças erradas, o que paga e o que não, regras de escrita pra ele. Otávio aparece como UM exemplo do avatar, não como a régua única (`references/persona-otavio.md`).
+- Posicionamento Incomum nos 5 blocos, cliente ideal, problema (a imprevisibilidade nascida de complexidade + improviso), mecanismo nomeado (Reorganização da Percepção), Proposta de Valor, Perfil Enxuto (bio + CTA) + Fundação Destilada de headlines-fonte (`references/posicionamento-incomum.md`).
+- Narrativa do método, tese central (Reorganização da Percepção: vender não é convencer, é conduzir), frase-mãe, de onde veio o Soft Business, por que existe, princípios universais (`references/narrativa-metodo.md`).
+- Catálogo de ofertas, o produto canônico Venda com Webinar (6 módulos) + a IA Webinar Skills; âncora R$3.500, 12x R$155 ou R$1.497 à vista, garantia 90+90, bônus, CTAs, regras de apresentação (`references/catalogo-ofertas.md`).
+- Provas validadas, os ativos numéricos autorizados em copy + regras do que nunca usar (`references/provas-validadas.md`).
+- Voz destilada Clínico-Profética, modos, vocabulário usado/banido, frases canônicas, tiques, testes de voz, cheat-sheet (`references/voz-leo-destilada.md`).
+- Narrativa pessoal, 5 blocos (origem, conversão, inimigo, manifesto de 7 crenças, visão) + frase-resumo (`references/narrativa-leo.md`).
+- Bastidor estratégico, tabela SIM/NÃO/DEPENDE de exposição (trabalho, rotina, família, dinheiro, hobbies), regras de filho/esposa/Atibaia, pirâmide e pergunta-filtro (`references/bastidor-leo.md`).
+- Valores e anti-valores, 7 valores, cada um com oposto declarado, exemplo concreto e hierarquia de uso (`references/valores-leo.md`).
+- Pilares de conteúdo, 4 pilares (Diagnóstico, Método, Tese, Bastidor) com proporção, ganchos-modelo, calendário modelo e anti-pilares (`references/pilares-leo.md`).
+
+**Saídas operacionais (quando uma executiva é invocada pro Léo, ancorada nesta skill)**
+- Briefing de voz/posicionamento empacotado pra agente externo (princípios duros explícitos).
+- Análise de fit de lead colado pelo Léo + sugestão de produto da esteira adequado.
+- Revisão/diagnóstico de copy existente contra a voz e os princípios duros.
+- Checklist de entrega (as 12 perguntas) aplicado a qualquer peça do Léo antes de liberar.
+- Mapa de "qual reference ler por tipo de peça" (página, carrossel/reel, story, anúncio, script comercial, briefing).
+
+**Saída de meta-nível (entregável oficial do programa)**
+- O **molde reproduzível** `soft-voz-[nome-cliente]`: a estrutura de 10 references (Fase 1 Posicionamento + Fase 2 Voz) que cada cliente da Implementação Soft recebe como sua própria skill de voz.
+
+**Serve o agente:** equipa o LEON orquestrador (soft-leon) com a identidade do Léo pra invocar a mãe certa e avaliar no Crivo; serve as skills executivas (soft-conteudo-*, soft-funil-*, soft-vendas-*, soft-webinar-*, soft-launch) como referência de voz quando o cliente é o Léo; e é o gabarito do braço-criador de conteúdo e do braço-comercial pra produzir peça congruente com a voz do Léo. (Não é distribuída no plugin: cada cliente constrói a própria voz via soft-plano-posicionamento.)
+
+> **Onde vivem os filtros citados abaixo:** `shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/` são carregados pela skill executiva que consome esta (soft-conteudo-*, soft-funil-*, soft-vendas-*, etc., cada uma traz a própria cópia). Esta skill não embute os filtros; ela aponta pra eles. Fallback se a executiva não os tiver: aplicar a skill `soft-anti-ia` do plugin.
+
+---
+
+
+## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
+Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
+
+## A sequência do método (resumo)
+
+```
+FASE 1, POSICIONAMENTO ESTRATÉGICO (concluída pro Léo)
+├── persona-otavio.md                 (Bloco 1: cliente ideal)
+├── posicionamento-incomum.md         (Blocos 2-5: problema, método, proposta, perfil)
+├── narrativa-metodo.md               (de onde veio o método)
+├── catalogo-ofertas.md               (esteira de produtos)
+└── provas-validadas.md               (5 ativos autorizados)
+
+      ↓
+
+FASE 2, IDENTIDADE DE VOZ (concluída pro Léo)
+├── voz-leo-destilada.md              (Clínico + Profético)
+├── narrativa-leo.md                  (origem, conversão, inimigo, manifesto, visão)
+├── bastidor-leo.md                   (tabela SIM/NÃO/DEPENDE)
+├── valores-leo.md                    (7 valores com anti-valores)
+└── pilares-leo.md                    (4 pilares: Diagnóstico, Método, Tese, Bastidor)
+```
+
+Quando esta skill é consultada por uma skill executiva, ela traz tudo do Léo num lugar só.
+
+---
+
+## Quando esta skill é usada
+
+Toda peça do Léo passa por aqui. Sem exceção.
+
+- Carrossel, reel, story do Léo
+- Página de vendas do Léo
+- Anúncio do Léo
+- E-mail, carta, headline do Léo
+- Script comercial pro Léo
+- Briefing pra agente externo
+- Análise de lead que entrou pelo funil
+- Revisão de copy existente
+
+Esta skill é consultada por outras skills executivas (soft-conteudo-*, soft-funil-*, soft-vendas-*, soft-webinar-*, soft-launch, etc) quando o cliente é o Léo. Quando trabalham com OUTRO cliente, usam a `soft-voz-[nome-cliente]` específica. O LEON (soft-leon) orquestra: invoca a mãe certa pra cada peça e avalia tudo no Crivo.
+
+---
+
+## A lei de escrita (carregar antes de escrever)
+
+> **`/home/cloud/guia-soft-business/CODIGO-DE-ESCRITA.md`, a lei de tudo que sai daqui.** As 8 leis (como cada frase soa) e os 6 mecanismos (como a percepção se constrói). Toda peça do Léo carrega isto antes de escrever. Esta skill diz QUEM é o Léo; o Código diz COMO a frase soa. Em dúvida de forma, vale o Código.
+
+---
+
+## Ordem de leitura dos references
+
+> **0. /home/cloud/.openclaw/brain/CANONICO.md + NARRATIVA-CANONICA.md, DOCUMENTO CANÔNICO (20/06/2026). LER PRIMEIRO. Em conflito com qualquer reference abaixo, o canônico prevalece.** Eixo: de invisível e imprevisível a procurado pelo nome e pago como merece · mecanismo = Reorganização da Percepção (RP/APSD: atenção→diagnóstico→mecanismo→ação) · veículo = webinário perpétuo ("o melhor funil do mundo") · produto = Venda com Webinar (6 módulos) + a IA Webinar Skills · inimigo = complexidade + improviso (lançamento, low-ticket, prospecção, postar todo dia). (O reference local `plano-de-marca-pessoal.md` é o documento da skill MAIS alinhado ao canônico, realinhado em jun/2026, traz todo o eixo destrinchado; em conflito entre references locais, ele prevalece.)
+
+### Fase 1 - Posicionamento Estratégico
+1. **persona-otavio.md** - quem é o leitor (o verdadeiro especialista, do zero ao avançado, com método próprio que gera resultado real e vende de R$500 a R$50k; Otávio é UM exemplo, não a régua)
+2. **posicionamento-incomum.md** - cliente, problema (imprevisibilidade = complexidade + improviso), mecanismo (Reorganização da Percepção), proposta, perfil
+3. **narrativa-metodo.md** - origem do método (a Reorganização da Percepção no webinário perpétuo)
+4. **catalogo-ofertas.md** - o produto Venda com Webinar (tickets do canônico)
+5. **provas-validadas.md** - ativos validados pra usar em copy
+
+### Fase 2 - Identidade de Voz
+6. **voz-leo-destilada.md** - como Léo fala (Clínico + Profético)
+7. **narrativa-leo.md** - origem, conversão, inimigos, manifesto, visão
+8. **bastidor-leo.md** - o que da vida do Léo aparece
+9. **valores-leo.md** - 7 valores com anti-valores
+10. **pilares-leo.md** - 4 pilares de conteúdo
+
+---
+
+## Princípios duros (não-negociáveis)
+
+1. **Toda copy é pro verdadeiro especialista.** Não pra "minha audiência". Não pra "infoprodutor". É pra quem tem método próprio, gera resultado real e vende de R$500 a R$50k, do zero ao avançado, um não anula o outro. Otávio é UM exemplo concreto desse avatar, não a régua única. Se a frase não passa pelo teste "esse especialista leria isso?", reescreve.
+
+2. **A dor é imprevisibilidade, invisibilidade e exaustão.** Imprevisibilidade: não sabe quanto vai faturar esse mês. Invisibilidade: tem gente pior vendendo mais porque está sendo vista, enquanto ele, que tem o método, segue invisível. Exaustão: virou social mídia, editor e vendedor de si mesmo, "emprego que não paga hora extra". NUNCA tratar a dor como "depender de indicação", "teto" ou "nunca tentou digital".
+
+3. **Eixo-mãe: de invisível e imprevisível a procurado pelo nome e pago como merece.** (Canônico 20/06/2026, CANONICO.md + NARRATIVA-CANONICA.md.) O inimigo é **complexidade + improviso = imprevisibilidade**: lançamento de 400 microtarefas, low-ticket, prospecção fria, sessão estratégica, postar todo dia ("o digital é uma avenida com 180 padarias"). Cada solução que venderam pra ele adicionou trabalho, nenhuma tirou. A virada não é fazer mais; é reorganizar a percepção, num lugar só, uma vez, rodando todo dia. A Big Idea é construída por peça via framework, sempre dentro desse eixo.
+
+4. **Mecanismo: Reorganização da Percepção (RP) · APSD.** "Vender não é convencer, é conduzir." Conduz a pessoa por **Atenção → Diagnóstico → Mecanismo (novo/único) → Ação** até a decisão, com a postura de médico que diagnostica: transforma atenção em decisão, dor em desejo. "Educar não vende." "O mapa não é o território." Lastro: Eugene Schwartz, níveis de consciência. O veículo dessa RP é o **webinário perpétuo** ("o melhor funil do mundo"): aula gravada uma vez, vende todo dia, pra público frio, sem aparecer. O produto que ensina a montar é o **Venda com Webinar** (6 módulos) + a IA **Webinar Skills** ("o agente executa, você dirige"). A conversão vem de competência demonstrada, não de prova social acumulada.
+
+5. **Voz Clínico-Profética.** 80-90% Clínico (frase curta, diagnóstico, ponto como bisturi). 10-20% Profético em momentos cirúrgicos (tese de mercado, postura visionária).
+
+6. **Anti-IA permanente.** Toda copy passa pelo filtro `shared-references/filtro-anti-ia/` antes de entregar. Se soar a IA bem-comportada, refaz.
+
+7. **Mobile-first sempre.** Toda peça visual passa pelo filtro `shared-references/filtro-mobile-first/`. Letras pequenas e contraste fraco proibidos.
+
+8. **Bastidor estratégico, sempre.** Cada pedaço de vida do Léo que aparece tem função: autoridade, identificação, intimidade controlada, provocação ou prova da tese. Sem exceção. (Toda peça e todo entregável passam pelo Crivo: "isso prova a tese ou contradiz?")
+
+9. **Família tem regras estritas.** Esposa pode aparecer em referência neutra, sem foto explícita, sem conflito. Filho de 4 anos: nunca com nome, nunca com cara, raramente em referência.
+
+10. **Anti-valores explícitos.** Cada valor do Léo carrega oposto declarado. Sem oposto, vira gelatina.
+
+11. **Sem inventar números.** Só os 5 ativos validados de prova podem ser usados. Sem ticket inventado. Sem case fictício. Sem "média de aluno".
+
+12. **Sem citar concorrentes.** Nem positivo, nem negativo. Vini Grevy, Doug Demarco, Erico Rocha: nenhum nome aparece em peça.
+
+13. **A IA potencializa, não substitui.** No produto, a camada de IA é a **Webinar Skills**: agentes treinados no método que escrevem roteiro/página/e-mails/anúncios na voz do especialista. "O agente executa, você dirige." Nunca vender a IA como quem faz o trabalho no lugar dele. No ecossistema interno, o LEON é quem orquestra a jornada: invoca a mãe certa pra cada peça e avalia no Crivo.
+
+14. **Em dashes (travessões ",") banidos.** Substituir por ponto ou hífen comum.
+
+15. **Anti-voz: nada de "emperrar / empacado / amarra".** Era "emperrar a posição"; o Léo cortou. Usar **ocupar, cravar, fincar, deixar de pé, feito**. Pra cliente bloqueado: empacado, emperrado. (Lista viva em `CODIGO-DE-ESCRITA.md` §6 e na memória.)
+
+16. **O Código de Escrita manda na forma.** Antes de qualquer peça sair, as duas perguntas da regra-zero do Código: "que percepção estou reorganizando?" e "onde está o chão?" (número, Otávio, mecanismo). Sem as duas respostas, não sai.
+
+---
+
+## Aplicação por tipo de peça
+
+### Página de vendas
+Lê todos os 10 references. Aplica os filtros `shared-references/filtro-anti-ia/` + `shared-references/filtro-mobile-first/` obrigatórios.
+
+### Carrossel ou Reel
+Lê persona-otavio, voz-leo, narrativa-leo (relevante), pilares-leo. Catálogo só se a peça tiver CTA pra produto.
+
+### Story
+Lê persona-otavio, voz-leo, bastidor-leo, valores-leo (1-2 relevantes pra peça).
+
+### Anúncio
+Lê persona-otavio, posicionamento-incomum, voz-leo. Mobile-first obrigatório.
+
+### Script comercial / WhatsApp
+Lê persona-otavio, catalogo-ofertas, voz-leo, narrativa-leo (conversão é central).
+
+### Briefing pra agente externo
+Lê todos os 10. Empacota os princípios duros explicitamente no briefing.
+
+### Análise de lead colado pelo Léo
+Lê persona-otavio + catalogo-ofertas. Avalia fit. Sugere produto da esteira adequado.
+
+---
+
+## Como esta skill se relaciona com outras
+
+```
+UNIVERSAIS (servem pra qualquer cliente Soft)
+├── shared-references / guia     (método teórico universal: PLANO + CÓDIGO DE ESCRITA)
+├── soft-plano-posicionamento          (Passo 1: posição + descoberta de voz)
+├── shared-references/filtro-anti-ia/      (protocolo IA universal, filtro embutido)
+├── shared-references/filtro-mobile-first/ (requisitos visuais universais, filtro embutido)
+├── soft-leon                    (MOTOR: orquestra a jornada, invoca a mãe certa, avalia no Crivo)
+└── soft-conteudo-*, soft-funil-*, soft-vendas-*, soft-webinar-*, soft-launch, etc
+    (skills executivas que produzem peças)
+
+ESPECÍFICA DO LÉO
+└── soft-voz-leo-molina          (TUDO sobre o Léo numa skill só)
+```
+
+Quando uma skill executiva é invocada PARA o Léo, ela consulta:
+1. soft-voz-leo-molina (esta): pra saber tudo do Léo
+2. `shared-references/filtro-anti-ia/`: pra garantir que não sai com cara de IA
+3. `shared-references/filtro-mobile-first/`: se a peça for visual
+
+E aí produz a peça.
+
+Quando trabalha com OUTRO cliente, consulta as universais + a skill específica do cliente (que tem mesma estrutura desta, mas com dados do cliente).
+
+---
+
+## Checagem antes de entregar
+
+Antes de devolver qualquer peça pro Léo:
+
+1. [ ] A copy fala com o verdadeiro especialista (método próprio, vende R$500-50k)? Não com "audiência" genérica?
+2. [ ] Tratou a dor como "depender de indicação", "teto" ou "nunca tentou digital"? (se sim, refaz: a dor é imprevisibilidade + invisibilidade + exaustão.)
+3. [ ] O mecanismo nomeado é a Reorganização da Percepção (RP/APSD)? (se inventou "a Conta" ou outro, refaz.)
+4. [ ] Inventou número, ticket, case? (se sim, troca pelos validados ou tira)
+5. [ ] Citou concorrente direta ou indiretamente? (se sim, tira)
+6. [ ] Tem em dash "," em algum lugar? (se sim, troca)
+7. [ ] Passou no filtro `shared-references/filtro-anti-ia/` (os 12 padrões)?
+8. [ ] Se for visual: cumpre o filtro `shared-references/filtro-mobile-first/`?
+9. [ ] A peça ancora no eixo (invisível/imprevisível → procurado pelo nome) e na RP quando faz sentido? Nomeia o webinário perpétuo com orgulho (sem anti-tell)?
+10. [ ] A voz Clínico-Profética está respeitada (80-90% Clínico)?
+11. [ ] Bastidor pessoal (se houver) tem função estratégica?
+12. [ ] Soa como Léo conversando no WhatsApp, ou soa como palestra?
+
+Se qualquer item falhar, refaz antes de entregar.
+
+---
+
+## Esta skill como ENTREGÁVEL OFICIAL da Implementação Soft
+
+A intenção é que cada cliente da Implementação Soft saia com a **própria skill** no mesmo formato desta.
+
+Nome: `soft-voz-[nome-cliente]`.
+
+Estrutura idêntica (10 references):
+
+**Fase 1, Posicionamento Estratégico** (construído nas semanas 1-2 da Implementação)
+- persona-âncora do cliente (o avatar dele: o especialista que ele serve)
+- posicionamento-incomum (5 blocos: cliente, problema, mecanismo nomeado, proposta, perfil)
+- narrativa-do-metodo (origem do método/serviço dele)
+- catalogo-ofertas (esteira dele)
+- provas-validadas (cases/números reais dele)
+
+**Fase 2, Identidade de Voz** (construído nas semanas 3-4 da Implementação)
+- voz-destilada (não prescrita, observada)
+- narrativa-pessoal (origem, conversão, inimigo, manifesto, visão)
+- bastidor-estrategico (tabela do cliente)
+- valores-e-anti-valores (5-7 valores)
+- pilares-de-conteudo (3-5 pilares)
+
+Construção feita aplicando:
+- `soft-plano-posicionamento` na Fase 1 (Passo 1: posição + descoberta de voz)
+- a referência de voz desta skill na Fase 2
+
+Depois das 2 fases concluídas, a skill `soft-voz-[cliente]` é empacotada e entregue como **ativo oficial** do programa. É auto-aplicável: com ela em mãos, o cliente sozinho gera peça congruente e tem excelente resultado, com o LEON orquestrando a jornada.
+
+Esse pacote vira a fundação de tudo que o cliente vai produzir daquele momento em diante. Skills executivas (soft-conteudo-*, soft-funil-*, soft-vendas-*, etc) consultam essa skill do cliente quando produzem peça pra ele, sob orquestração do LEON.
+
+---
+
+## Versionamento
+
+Skill viva. Atualizar sempre que:
+- Léo entrega novo produto / muda ticket
+- Otávio muda (nova reunião com lead revela detalhe importante)
+- Posicionamento ajusta
+- Nova prova é validada
+- Surge novo inimigo no mercado
+- Léo evolui na voz ou narrativa
+
+Última atualização: 20 de junho de 2026. Eixo realinhado à NARRATIVA CANÔNICA (CANONICO.md + NARRATIVA-CANONICA.md, da transcrição literal do webinar): de invisível e imprevisível a procurado pelo nome e pago como merece · mecanismo = Reorganização da Percepção (RP/APSD) · veículo = webinário perpétuo, nomeado com orgulho · produto = Venda com Webinar (6 módulos) + a IA Webinar Skills · oferta âncora R$3.500, 12x155 ou R$1.497, garantia 90+90. Purgados: "A Conta de Poucos" como mecanismo, "3 passos + motor", a esteira velha (Imersão/Soft Start/Implementação) e o anti-tell. Otávio rebaixado a UM exemplo do avatar (o verdadeiro especialista, do zero ao avançado), não a régua. O reference `plano-de-marca-pessoal.md` é o doc da skill MAIS alinhado ao canônico (não histórico). References `narrativa-leo.md`, `bastidor-leo.md` e `valores-leo.md` migrados pro eixo canônico (purgados Negócio Simples, Sócio IA/Leon como nome de produto, esteira de tickets, zonas Z1/Z2/Z3; cronologia da a escola de gestão corrigida). Travessões removidos em texto corrido.
+
+
+============================================================
+GATE OBRIGATORIO · soft-critico-copy
+============================================================
+
+Antes de entregar QUALQUER linha final publica pro dono
+(headline, capa, corpo, slide, script, sequencia, carta,
+landing, isca, oferta, WhatsApp, e-mail, bio, CTA), esta
+skill invoca o GATE UNIVERSAL soft-critico-copy passando o
+texto pronto + o tipo de peca.
+
+Como acionar:
+
+1. Salva a copy pronta em /tmp/copy-<slug>-<epoch>.txt
+2. Invoca a Skill soft-critico-copy com:
+   - texto: o conteudo do arquivo
+   - tipo_de_peca: um de {headline, capa, corpo, slide,
+     script_reel, sequencia_stories, carta, landing_bloco,
+     landing_completa, isca_copy, oferta, whatsapp, email,
+     script_sdr, script_closer, pos_venda, bio, cta}
+   - contexto (opcional): tese-mae, avatar, verbatim_ref
+
+O gate retorna: passou_nos_4 (sim/nao) + falhas em 4 filtros
+(CUB, Estrutura-mae, Anti-IA, Verbatim) com trecho, motivo e
+sugestao de reescrita.
+
+Se reprovou, aplica as sugestoes e re-invoca. Loop de no
+maximo 3 iteracoes. Se ainda reprovar, escala pro dono com
+as falhas listadas (nao insiste automatico ao infinito).
+
+Substitui qualquer gate anti-IA anterior desta skill. O
+soft-critico-copy JA roda o lint_copy.py internamente no
+filtro 3 (Anti-IA), mais 3 filtros adicionais (CUB,
+Estrutura-mae, Verbatim).
