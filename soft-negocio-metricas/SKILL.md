@@ -26,22 +26,22 @@ A regra não é "a pior taxa", é **a primeira etapa vermelha de cima pra baixo*
 Diagnóstico sem a meta é conserto sem destino. Compara com a projeção que gerou o plano em **três deltas**: **volume** (entrou menos gente), **taxa** (entrou o volume mas converteu menos), **receita** (volume e taxa bateram, o ticket caiu). Cada um pede conserto diferente, e confundi-los é o erro mais caro. **Nenhuma recomendação sai sem o delta na tela** (`projetado 40 DMs · real 23 · delta -42%`): `projetado-x-realizado.md`.
 
 ## Passo 5, separa o número que decide do de vaidade
-Dois filtros na mesma peça: **algorítmico** (ficou acima do típico do próprio perfil?) e **financeiro** (tem chance de virar cheque?). **Divergiu, o financeiro vence:** peça abaixo da média que trouxe venda fica; acima da média que não move nada manda reavaliar segmentação, não replicar. Vaidade é like absoluto, seguidor total, impressão inflada, emoji. ROAS isolado entra na lista: **ROAS de palco não é ROI que paga conta**, e ROAS muito alto costuma sinalizar subinvestimento: `numeros-que-decidem.md`.
+Dois filtros na mesma peça: **algorítmico** (ficou acima do típico do próprio perfil?) e **financeiro** (tem chance de virar cheque?). **Divergiu, o financeiro vence:** peça abaixo da média que trouxe venda fica; acima da média que não move nada manda reavaliar segmentação, não replicar. Vaidade é like absoluto, seguidor total, impressão inflada, emoji. ROAS isolado entra na lista: **ROAS de palco não é ROI que paga conta**, e ROAS muito alto costuma sinalizar subinvestimento.
 
 ## Passo 6, responde "por que não converteu"
-Pergunta aberta não se responde com opinião. Desce a escada: **sintoma → etapa onde o número parou → causa candidata → o que medir pra confirmar → ação**. O mesmo anúncio quebra em lugar diferente conforme onde parou: não viu (entrega e público), viu e não clicou (criativo e promessa), clicou e não virou lead (página e mensagem), virou lead e não comprou (oferta, preço ou conversa): `roteiro-por-que-nao-converteu.md`.
+Pergunta aberta não se responde com opinião. Desce a escada: **sintoma → etapa onde o número parou → causa candidata → o que medir pra confirmar → ação**. O mesmo anúncio quebra em lugar diferente conforme onde parou: não viu (entrega e público), viu e não clicou (criativo e promessa), clicou e não virou lead (página e mensagem), virou lead e não comprou (oferta, preço ou conversa).
 
 ## Passo 7, entrega UMA ação e a skill que executa
-Uma ação por ciclo, medida no ciclo seguinte, com o alvo declarado antes ("mede X; se subir pra Y, confirmou"). Cinco ações juntas destroem o aprendizado: nada fica atribuível. Cada causa tem dono: copy fraca → `soft-conteudo-*` · público errado → `soft-posicionamento` · oferta ou preço → `soft-posicionamento` (Bloco 3) · objeção → `soft-vendas`. Mapa completo: `causa-para-skill.md`.
+Uma ação por ciclo, medida no ciclo seguinte, com o alvo declarado antes ("mede X; se subir pra Y, confirmou"). Cinco ações juntas destroem o aprendizado: nada fica atribuível. Cada causa tem dono: copy fraca → `soft-conteudo-*` · público errado → `soft-plano-posicionamento` · oferta ou preço → `soft-plano-posicionamento` (Bloco 3) · objeção → `soft-vendas-closer`. Mapa completo.
 
 ## Passo 8, roda o gate por dentro e PARA
-Confere em silêncio (nunca vai pra saída): fonte e data em toda métrica · confiabilidade aprovada ou saída virou "medir melhor" · a conta na tela · o delta escrito · UM gargalo, a primeira vermelha · UMA ação com número-alvo · zero benchmark inventado · zero travessão. Item reprovado refaz o passo, não a análise: `gate-linha-a-linha.md`. Mostra a leitura limpa e **para**.
+Confere em silêncio (nunca vai pra saída): fonte e data em toda métrica · confiabilidade aprovada ou saída virou "medir melhor" · a conta na tela · o delta escrito · UM gargalo, a primeira vermelha · UMA ação com número-alvo · zero benchmark inventado · zero travessão. Item reprovado refaz o passo, não a análise. Mostra a leitura limpa e **para**.
 
 ## Camada de escala, o funil em REAIS e o tamanho do time
 Duas perguntas que só aparecem quando a operação cresce, respondidas em contexto de **operação com time/escala** (convivem com o modo elite 1:1, não o substituem; válidas pra esteira call-first acima de ~R$3.000): **"vale escalar o tráfego?"** se responde com o funil em dinheiro (CPL, custo por agendamento, custo por comparecimento, custo por call realizada x **faturamento por call realizada**, e a leitura Soft de ROAS: muito alto = subinvestimento): `funil-em-reais.md`. **"Quantas pessoas eu preciso, e quando contrato?"** se responde com as réguas de capacidade (1 SDR = 450-750 leads/mês, closer 3-4 calls/dia) e os gatilhos de contratação: `dimensionamento-de-time.md`.
 
 ## When NOT to use
-Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, preço, caixa → **soft-financeiro**. Quanto investir e pra qual público → **soft-trafego-meta**. Reescrever peça → **soft-conteudo-***. Carta ou página → **soft-funil-***. Objeção e closer → **soft-vendas**. Oferta e ticket → **soft-posicionamento**.
+Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, preço, caixa → **soft-financeiro**. Quanto investir e pra qual público → **soft-trafego-meta**. Reescrever peça → **soft-conteudo-***. Carta ou página → **soft-funil-***. Objeção e closer → **soft-vendas**. Oferta e ticket → **soft-plano-posicionamento**.
 
 ## References
 - `coleta-e-fontes.md` (P0): os 8 números, onde medir, a pergunta única.
@@ -49,9 +49,5 @@ Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, p
 - `funil-etapa-a-etapa.md` (P2): as 7 etapas, fórmulas, faixas, vazamento, migração pra taxa própria.
 - `diagnostico-por-etapa.md` (P3): sintoma → causa → o que medir; vazamento por estágio.
 - `projetado-x-realizado.md` (P4): molde da comparação, os 3 deltas, revisão semanal/mensal/M3/M6.
-- `numeros-que-decidem.md` (P5): duplo filtro, vaidade, ROAS x ROI, métrica por formato.
-- `roteiro-por-que-nao-converteu.md` (P6): a escada para anúncio, página, webinar e conversa.
-- `causa-para-skill.md` (P7): mapa causa → skill + molde da ação única.
-- `gate-linha-a-linha.md` (P8): os checks e os anti-padrões da leitura.
 - `funil-em-reais.md` (escala): as 5 contas em dinheiro, a decisão de escala por CCR x faturamento por call, ROAS na moldura Soft.
 - `dimensionamento-de-time.md` (escala): capacidade por função, metas em 4 degraus, gatilhos de contratação, as 3 formações.
