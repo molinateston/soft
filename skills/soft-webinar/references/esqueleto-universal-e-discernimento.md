@@ -2,7 +2,7 @@
 
 Esta reference é a **camada de inteligência** do Webinar Soft: por que a estrutura funciona em QUALQUER nicho, e como adaptá-la ao player específico. Ela senta POR CIMA do roteiro (`estrutura-webinario-aida.md`) - não repete o roteiro, explica o esqueleto e o discernimento.
 
-> Destilado de webinars que faturaram alto em nichos OPOSTOS (gestão ágil, incorporação, arquitetura, dieta, dentística, perícia) + a teoria clássica (Fladlien, Brunson Perfect Webinar e Expert Secrets, Marcos Enes). A descoberta: **todos rodam o MESMO esqueleto.** Muda o tom e os exemplos, nunca a estrutura. Esta reference carrega a inteligência que decide O QUÊ entra (universal) e COMO preencher (do avatar).
+> Destilado de webinars que faturaram alto em nichos OPOSTOS (gestão ágil, incorporação, arquitetura, dieta, dentística, perícia) + a teoria clássica (Fladlien, Brunson Perfect Webinar e Expert Secrets, a escola do webinar de conversão). A descoberta: **todos rodam o MESMO esqueleto.** Muda o tom e os exemplos, nunca a estrutura. Esta reference carrega a inteligência que decide O QUÊ entra (universal) e COMO preencher (do avatar).
 
 ## A regra-mãe: esqueleto é LEI, tom e exemplo são do avatar
 
@@ -30,7 +30,7 @@ Detalhe bloco-a-bloco no `estrutura-webinario-aida.md`. Aqui, a função de cada
 
 ## Os 6 passos da Transmutação Mental (o sub-processo do mecanismo nomeado)
 
-Como transformar a solução técnica "chata" no mecanismo que faz o lead sentir "agora eu consigo" (Marcos Enes). Roda isto na fase 3, antes de batizar o mecanismo:
+Como transformar a solução técnica "chata" no mecanismo que faz o lead sentir "agora eu consigo" (a escola do webinar de conversão). Roda isto na fase 3, antes de batizar o mecanismo:
 1. **Solução técnica** - o que o cliente realmente vai fazer (a explicação chata que sozinha não venderia).
 2. **Contexto (porquê)** - uma informação de terceiro com que ele concorda na hora (estudo, dado, fato incontestável) que prepara a solução.
 3. **Mecanismo (o quê)** - a explicação apetitosa da solução, simples, com metáfora.

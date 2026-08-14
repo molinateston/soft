@@ -68,7 +68,7 @@ Ancora contra o **valor de mercado** do entregue (a soma dos componentes, ou o q
 
 **A mecânica da âncora alta (a régua que rege a (b)):** o **primeiro número que você joga vira a régua** contra a qual todos os próximos são julgados. Se você não planta um teto alto de propósito, o preço final é comparado com "o nada" - ou com um "preço justo" abstrato que na cabeça de qualquer um é sempre baixo. Plantou um teto alto, vai somando por cima, e só lá na frente derruba: a queda é sentida **a partir do teto, não a partir do zero**. O número-âncora tem que ser **crível pro seu mercado** - sai da realidade do seu negócio (quanto o produto principal valeria vendido sozinho, com um pouco de gordura por cima), nunca copiado de outro nicho.
 
-> **EXEMPLO - molde-preenchido da âncora subindo (origem: Marcos Enes / "Admirável Emprego Novo", nicho emprego/recolocação; corpus estudado).** Mostra a âncora (b) sendo plantada e empilhada, item a item, ANTES do preço cair:
+> **EXEMPLO - molde-preenchido da âncora subindo (origem: a escola do webinar de conversão, num webinar de emprego/recolocação; corpus estudado).** Mostra a âncora (b) sendo plantada e empilhada, item a item, ANTES do preço cair:
 > - Produto principal sozinho, com preço cheio e isolado: *"o método completo, com todo o passo a passo - R$990."* - e o player deixa claro que esse não é o preço final, é a âncora (o R$990 vira a régua)
 > - Empilha por cima, somando avulso: *"R$990 do principal. Mais R$200 [curso complementar]. Mais R$200 [outro]. Mais R$100 [outro]."* - a âncora interna subiu pra **R$1.490**.
 > - E só DEPOIS de mostrar a soma revela que tudo vem junto: *"tudo isso, quem comprar o principal, ganha junto."*

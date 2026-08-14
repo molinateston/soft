@@ -413,9 +413,9 @@ O motor por baixo disso é **STATUS**. Antes de qualquer compra, o cérebro perg
 
 A nova oportunidade transfere a culpa pra fora e protege a identidade: a mensagem vira "você não falhou, você só estava no veículo errado". E o estado que ela provoca é o que abre a carteira:
 
-> "As pessoas veem uma solução diferente, diferente de tudo que tem no YouTube, por exemplo, e o cara fala assim, cara, **agora eu consigo. Apesar de eu já ter tentado um monte de coisa, agora eu consigo.**" - Marcos Enes, via METODO B.5
+> "As pessoas veem uma solução diferente, diferente de tudo que tem no YouTube, por exemplo, e o cara fala assim, cara, **agora eu consigo. Apesar de eu já ter tentado um monte de coisa, agora eu consigo.**" - a escola do webinar de conversão
 
-> "ele não vai só pensar, ele vai sentir... a adrenalina vai ser bombeada ali pra ele, e ele fala, cara, agora eu consigo - **e é esse estado que você quer provocar logo antes da oferta.**" - Marcos Enes, via METODO B.5
+> "ele não vai só pensar, ele vai sentir... a adrenalina vai ser bombeada ali pra ele, e ele fala, cara, agora eu consigo - **e é esse estado que você quer provocar logo antes da oferta.**" - a escola do webinar de conversão
 
 Compra-se nesse pico emocional, não na conclusão racional.
 

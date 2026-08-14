@@ -114,7 +114,7 @@ Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação
 
 ### A arquitetura invisível: COMPLIANCE PROGRESSIVA **[UNIVERSAL]**
 
-> **→ A escada de micro-compromissos é TRANSVERSAL, desenhe-a numa passada antes de escrever qualquer bloco: `exemplos-por-bloco/14-interacao-chat.md`** (9 de 9). Achado: do "tá me ouvindo?" ao "já me inscrevi", quando chega o pedido caro a pessoa já disse "sim" em público ~8 vezes. (É a "escada de micro-sins" do Marcos Enes.) No perpétuo, o desenho honesto é eco genérico, NUNCA nome falso.
+> **→ A escada de micro-compromissos é TRANSVERSAL, desenhe-a numa passada antes de escrever qualquer bloco: `exemplos-por-bloco/14-interacao-chat.md`** (9 de 9). Achado: do "tá me ouvindo?" ao "já me inscrevi", quando chega o pedido caro a pessoa já disse "sim" em público ~8 vezes. (É a "escada de micro-sins" da escola do webinar de conversão.) No perpétuo, o desenho honesto é eco genérico, NUNCA nome falso.
 
 A aula inteira é uma **escada de pequenos "sim"** que começa aqui:
 
