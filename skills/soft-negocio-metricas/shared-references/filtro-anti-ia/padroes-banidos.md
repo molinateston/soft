@@ -523,7 +523,7 @@ O passo 2 ("CTRL+F cada padrão") agora tem um linter executável que toda skill
 **Porta Soft Soft (pilha completa):** `/root/missao-conteudo/ANTI-IA-SISTEMA.md`
 
 ```bash
-python3 /home/cloud/.claude/skills/soft-conteudo-headlines/scripts/lint_copy.py peca.txt
+python3 "$SKILLS_DIR/soft-conteudo-headlines/scripts/lint_copy.py" peca.txt   # SKILLS_DIR = o diretório de skills da SUA instalação
 ```
 
 - **HARD (reprova, exit 1):** em-dash; família "travar"; dupla nao-e; "Nao e." pelado; antítese-nominal telegráfica; molde Nao-e-X / E-Y curto; "nao e sobre"; muleta de swipe/proximo; **personificação Soft Soft** (caixa/renda/algoritmo/feed/mês/janela + verbo humano).

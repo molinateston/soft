@@ -407,7 +407,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 - **ANTES:** `custo invisível [travessão] a âncora primária` · **DEPOIS:** `custo invisível: a âncora primária`
 - **ANTES:** `número inventado mata a credibilidade [travessão] na dúvida, subestime` · **DEPOIS:** `número inventado mata a credibilidade. Na dúvida, subestime`
 
-**Verificação real antes do ✓ (declarar ✓ sem buscar é gate falso, o erro mais grave):** no Code roda o lint físico no doc final, `python3 /home/cloud/.claude/skills/soft-conteudo-headlines/scripts/lint_copy.py <arquivo>`, e só segue com exit 0 (ele pega o travessão longo e o verbo-freio banido de uma vez); no chat/app varre o texto inteiro procurando o travessão longo caractere a caractere. Achou um, reescreve pela regra acima e varre de novo.
+**Verificação real antes do ✓ (declarar ✓ sem buscar é gate falso, o erro mais grave):** no Code roda o lint físico no doc final (o script `scripts/lint_copy.py` que vem DENTRO da skill soft-conteudo-headlines instalada, chamado com python3 e o arquivo do doc), e só segue com exit 0 (ele pega o travessão longo e o verbo-freio banido de uma vez); no chat/app varre o texto inteiro procurando o travessão longo caractere a caractere. Achou um, reescreve pela regra acima e varre de novo.
 
 O filtro anti-IA completo (12 padrões banidos, teste em voz alta) mora na `soft-anti-ia`: invoque-a na última checagem de qualquer copy da oferta (PUV, falas de garantia, nomes). Ancoragem e prova (número de Mapa, case, garantia) só entram se vierem do briefing real; sem isso, viram placeholder marcado.
 
