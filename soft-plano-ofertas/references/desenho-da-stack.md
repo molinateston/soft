@@ -13,9 +13,13 @@
 - [P3: Entregáveis (de lista de itens a lista de motivos)](#p3-entregáveis-de-lista-de-itens-a-lista-de-motivos)
 - [P3a: Fascinations (o nome de cada entregável)](#p3a-fascinations-o-nome-de-cada-entregável)
 - [P3b: O entregável-tese](#p3b-o-entregável-tese)
+- [P3c: Mapa de barreiras práticas](#p3c-mapa-de-barreiras-práticas)
+- [P3d: Primeira vitória + as primeiras 24 horas](#p3d-primeira-vitória--as-primeiras-24-horas)
 - [P4: O cardápio de componentes](#p4-o-cardápio-de-componentes)
 - [P4b: A régua de bônus (mapa de objeções)](#p4b-a-régua-de-bônus-mapa-de-objeções)
 - [P4c: O bônus sem preço e o surpresa personalizado](#p4c-o-bônus-sem-preço-e-o-surpresa-personalizado)
+- [P4d: Rubrica de corte e checagem de canibalização](#p4d-rubrica-de-corte-e-checagem-de-canibalização)
+- [P4e: O nome da oferta e a escada de fadiga](#p4e-o-nome-da-oferta-e-a-escada-de-fadiga)
 - [Anti-raso da oferta (o teste antes de fechar)](#anti-raso-da-oferta-o-teste-antes-de-fechar)
 
 ---
@@ -194,6 +198,40 @@ Achar esse entregável é o que faz a oferta parar de soar genérica. Pergunta a
 
 ---
 
+## P3c: Mapa de barreiras práticas
+
+O mapa de objeções (P4b) enxerga CRENÇA; este mapa enxerga FATO. São coisas diferentes e as duas geram entregável: a crença se quebra com prova, a barreira se remove com um item da stack. Varre as 4 categorias no caminho inteiro do resultado (antes, durante e depois do método):
+
+| Categoria | O que é | Reversão típica em entregável |
+|---|---|---|
+| **Lacuna de conhecimento** | não sabe o que fazer | o passo/módulo que ensina exatamente aquilo |
+| **Déficit de habilidade** | sabe, mas não executa bem | template + exemplo pronto + revisão do dono |
+| **Barreira externa** | falta ferramenta, acesso, verba, agenda | o ativo PRONTO (conta configurada, a ferramenta inclusa, o script que corta a etapa) |
+| **Bloqueio psicológico** | medo de aparecer, vergonha de vender, síndrome de impostor | acompanhamento + primeiro passo minúsculo desenhado + roteiro pronto pra situação temida |
+
+Regras: **(1)** a varredura é pelo CAMINHO, não pela imaginação: pra cada etapa do método, "o que impede uma pessoa comum de completar ESTA etapa?"; **(2)** barreira sem entregável não se esconde: vira furo declarado no doc (o dono decide se cobre ou se a oferta assume o pré-requisito por escrito); **(3)** a categoria "barreira externa" é a que o mapa de objeções mais deixa passar, porque não é crença nenhuma: a pessoa acredita em tudo e mesmo assim não tem a ferramenta. Dependência de ferramenta vira ativo incluso, sempre que o custo couber.
+
+> **Exemplo (nicho fictício, fisio):** etapa "praticar a dose diária em casa". Conhecimento: sabe os exercícios (o módulo cobre). Habilidade: execução errada sem espelho → vídeo curto de conferência por exercício. Externa: não tem o elástico/apoio → kit enviado ou lista de substitutos caseiros. Psicológica: medo de sentir dor ao se mover → o protocolo começa com a amplitude que NÃO dispara alarme, por desenho, e isso é dito.
+
+---
+
+## P3d: Primeira vitória + as primeiras 24 horas
+
+**O componente obrigatório que quase nenhuma oferta tem.** A menor vitória VISÍVEL que o cliente alcança em **5 a 30 minutos** depois de entrar, com um **ativo nomeado** dedicado só a ela, mais o desenho das primeiras 24 horas.
+
+**Por que é obrigatório (o lastro):** o compromisso do comprador decai depois do pagamento. A dor do boleto se dilui com o tempo e o engajamento cai junto, mês a mês (payment depreciation, Gourville & Soman, 1998, o estudo das mensalidades de academia: quem pagou anual frequenta muito no 1º mês e some no 6º). Consequências de desenho: a janela de energia máxima é o COMEÇO, e é nela que a primeira vitória tem que caber; e entregas longas precisam de **marcos de recomeço** (eventos, fases que abrem, desafios com data) que renovem o compromisso quando a dor do pagamento já diluiu.
+
+**O desenho das primeiras 24h, campo a campo:**
+- **Hora 0 (o que ele VÊ ao entrar):** a área de membros/grupo com UM caminho óbvio, não um menu de 12 opções. A primeira tela diz "comece aqui" e aponta pro ativo de primeira vitória.
+- **Hora 1 (a primeira vitória concluída):** o ativo rodado e a evidência visível (o diagnóstico preenchido que devolve um resultado, o template aplicado no caso dele, a primeira peça publicada). Régua: 5-30 minutos de esforço, resultado que ele consegue MOSTRAR pra alguém.
+- **Dia 1 (o primeiro marco do método):** o primeiro passo real da jornada concluído + o ponto de contato humano (a mensagem de boas-vindas que pede a evidência da hora 1, o que já inaugura o hábito de reportar).
+
+**O ativo tem nome próprio** (é uma fascination como qualquer entregável) e aparece na stack como item, não como detalhe de onboarding: ele mata a objeção "vou comprar e deixar parado" ANTES da compra, porque o lead vê no doc que a primeira vitória está desenhada.
+
+> **Exemplo (nicho fictício, fisio):** ativo "Mapa do teu Alarme em 15 minutos": o questionário que devolve, na hora, o padrão de disparo da dor da pessoa. Hora 0: vídeo de 3 min + o questionário. Hora 1: o mapa preenchido (ela VÊ o próprio padrão pela primeira vez). Dia 1: a primeira dose de movimento do plano, com o registro no diário.
+
+---
+
 ## P4: O cardápio de componentes
 
 A oferta se monta escolhendo de um cardápio de tipos. Cada tipo tem função; nenhum entra "pra encher". O teste de entrada é a régua da equação (P2) + a régua de bônus (P4b). **A tripartição É a ancoragem** (a separação das classes é o que faz a soma pesar):
@@ -255,6 +293,38 @@ Cada objeção mora numa variável da equação: risco → probabilidade; "não 
 **Duas decisões de entrega que se tomam no desenho:**
 - **A "foto" do produto digital existe?** Print da área de membros, dos entregáveis, do Zoom da mentoria. No digital, a ansiedade é "o que eu recebo, afinal?"; a foto tira a insegurança do intangível. Se não existe, criar antes.
 - **Acesso: qual o tempo real?** Decide o acesso verdadeiro (ex.: 1 ano) já prevendo o enquadre como perda ("6 meses + 6 só hoje"). O desenho define o número real; a apresentação define a moldura.
+
+---
+
+## P4d: Rubrica de corte e checagem de canibalização
+
+**A rubrica de corte (pra stack longa; a Equação continua sendo a faca, esta é a régua auxiliar).** Quando a lista de candidatos passa de ~10 itens, nota cada um em dois eixos, **valor pro cliente 1-10 × custo de entrega 1-10**, e decide pela tabela:
+
+| Nota | Decisão |
+|---|---|
+| valor 8+ | vira NÚCLEO (independe do custo: se o valor é esse, o custo se resolve) |
+| valor 6-7, custo baixo | vira complementar/prateleira |
+| valor 6-7, custo alto | CORTA (é o item que afunda a margem sem carregar a venda) |
+| valor ≤5 | corta sem discussão |
+
+Alvo final: **6 a 10 componentes** na stack inteira. Acima disso, a pilha vira sobrecarga e gera adiamento de decisão em vez de desejo (o efeito "120 aulas" aplicado à oferta inteira: volume percebido é esforço percebido).
+
+**A checagem de canibalização (roda depois do corte).** Pergunta por bônus: *este item promete um ATALHO pro mesmo resultado do mecanismo central?* Se sim, ele mata o consumo do núcleo: o comprador vai direto no atalho, pula o método, não tem resultado e a culpa cai na oferta. O sintoma inequívoco é o lead perguntando **"posso comprar só o bônus X?"**. Regra: bônus opera em eixo COMPLEMENTAR (velocidade, ferramenta, suporte, contexto), nunca no eixo do mecanismo. O item que canibaliza ou sai, ou é absorvido pra DENTRO do núcleo como parte do método.
+
+---
+
+## P4e: O nome da oferta e a escada de fadiga
+
+**O nome da oferta (o embrulho da coisa inteira; a fascination nomeia o entregável, isto nomeia o PACOTE).** Monta por função, com 4 slots, e **3 deles presentes já funcionam**:
+
+- **[Embrulho/formato]:** o container (Mentoria, Programa, Sistema, Desafio, Imersão). Sinaliza o nível de acesso sem explicar.
+- **[Resultado]:** o destino nas palavras do avatar (Consultório Cheio, Primeira Turma Vendida). Nunca o mecanismo (o nome esconde o mecanismo, mesma regra da fascination).
+- **[Avatar]:** pra quem (quando o nicho não está óbvio no resultado).
+- **[Prazo]:** o relógio (em 90 dias), só quando o dono sustenta o prazo com prova.
+
+> **Exemplo (fictício):** "Mentoria Consultório Cheio, pra dentistas, em 90 dias". Embrulho + resultado + avatar + prazo. "Programa Recalibra" funciona com 2 slots porque o mecanismo batizado (Recalibra) já carrega identidade, é o caso do mecanismo forte dispensando slots.
+
+**A escada de fadiga (a ordem de mexer quando a resposta cai).** Quando o anúncio/oferta cansa, troca-se do mais barato pro mais caro, e **renomear vem MUITO antes de reestruturar**: 1º criativo → 2º copy → 3º headline → 4º **NOME da oferta** → 5º sazonalidade/gancho de época → 6º duração/prazo → 7º reforçador (bônus/garantia) → 8º estrutura de monetização (preço/formato), por último. A fadiga quase sempre é da EMBALAGEM antes de ser da estrutura: a mesma oferta com nome novo ressuscita resposta de anúncio sem tocar no produto. Mexer no degrau 8 sem ter esgotado o 1-7 é jogar fora uma estrutura validada por tédio de quem a olha todo dia (o dono cansa da própria oferta anos antes do mercado).
 
 ---
 

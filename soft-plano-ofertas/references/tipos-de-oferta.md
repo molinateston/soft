@@ -111,6 +111,17 @@
 
 > **Gate de consumo:** antes de abrir o próximo nível, o membro precisa CONSUMIR o pré-requisito (assistir a base, cumprir a fase). Só libera quem consumiu o atual, isso puxa quem estava parado.
 
+### O desenho de CONTINUIDADE (quando o tipo é recorrente)
+
+Comunidade/assinatura não se desenha só pra vender, se desenha pra FICAR. Quatro peças:
+
+- **Churn voluntário × involuntário são problemas diferentes.** O involuntário (cartão que falha, limite, vencimento) se resolve por operação: retentativa de cobrança, aviso antes do vencimento, atualização de cartão em 1 clique. O voluntário (cansou, não usa) se resolve por desenho: as três peças abaixo. Tratar os dois com a mesma arma é errar os dois.
+- **A pausa como downsell interno.** Antes do cancelamento, a oferta de PAUSA (30-60 dias congelado, sem perder acesso ao histórico/comunidade) ou de degrau menor (só o acervo, sem as calls). Segura uma fatia real de quem ia embora e preserva a porta de volta; cancelamento seco não preserva nada.
+- **O vínculo é a REDE, não o conteúdo.** Conteúdo o membro esgota ou acha fora; as relações que ele construiu no grupo, não. O desenho que retém coloca os membros se ajudando (hot seat, duplas, mural de resultado), porque sair passa a custar as relações, não o acesso a aulas.
+- **Marcos de recomeço contra a diluição do boleto.** O engajamento decai conforme a dor do pagamento se dilui (payment depreciation, Gourville & Soman, 1998; na assinatura o efeito é contínuo). Antídoto: eventos com data (desafio do mês, imersão trimestral, turma de implementação) que renovam o compromisso em ciclos, cada marco funcionando como uma "nova entrada" sem nova cobrança.
+
+> **A régua de honestidade da recorrência:** renovação automática dita com clareza na compra, cancelamento sem labirinto. Reter por atrito de cancelamento é churn adiado com dano de marca; reter por rede e marco é retenção real.
+
 ---
 
 ## 5. Serviço feito-pra-você

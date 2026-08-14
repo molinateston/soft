@@ -1,6 +1,6 @@
 ---
 name: soft-plano-ofertas
-description: "EMPACOTA e precifica qualquer oferta do método Soft como STACK: destila a PUV, calibra a Equação de Valor, monta entregáveis (cada um matando UMA objeção), acha o entregável-tese, empilha a prateleira e o bônus sem preço, escolhe a garantia e precifica pela régua 10x. Âncora, EMPACOTAR a OFERTA como stack (régua 10x, ancoragem, garantia) = ofertas; a conta/margem/markup/ponto de equilíbrio/imposto (por CÁLCULO) = soft-financeiro. Cobre 6 tipos como MODOS (mentoria, consultoria, curso, comunidade, feito-pra-você, entrada). Marca-neutra: números e preço são do dono. Use pra desenhar/empacotar/precificar oferta, montar a stack, PUV, bônus, garantia, ou auditar oferta que não fecha. NÃO use pra precificação por CÁLCULO/markup/margem (soft-financeiro); posicionamento/nomear o método (soft-plano-posicionamento); oferta DENTRO do webinar (soft-webinar); script/fechamento (soft-vendas-closer); proposta pós-call (soft-vendas-proposta); carta/VSL/landing (soft-funil); contrato (soft-vendas-contratos)."
+description: "EMPACOTA, precifica e VALIDA qualquer oferta do método Soft como STACK, da pesquisa ao preço: minera a munição VoC, lê a sofisticação do mercado, destila a PUV com gate anti-vago (promessa sem número/prazo/condição reprova), calibra a Equação de Valor, monta entregáveis + barreiras práticas + primeira vitória e as primeiras 24h, acha o entregável-tese, empilha a prateleira e o bônus sem preço, escolhe a garantia (piso legal CDC art. 49 sempre avisado), precifica pela régua 10x com psicologia de preço, fecha com escassez só real e valida quem nunca vendeu pela pré-venda fundadora. Âncora, EMPACOTAR/VALIDAR a oferta = ofertas; conta/margem/markup por CÁLCULO = soft-financeiro. 6 tipos como MODOS. Marca-neutra: números e preço são do dono. Use pra desenhar/empacotar/precificar/validar oferta, stack, PUV, bônus, garantia, ou auditar oferta que não fecha. NÃO use pra posicionamento (soft-plano-posicionamento); oferta DENTRO do webinar (soft-webinar); script (soft-vendas-closer); carta/VSL/landing (soft-funil)."
 ---
 
 # Plano de Ofertas, a engenharia da oferta como stack
@@ -13,9 +13,9 @@ Oferta que fecha não é uma lista de itens com preço. É a **tese virando prod
 
 **Como o método trata número e exemplo:** a mecânica abaixo é a regra do caminho, em voz própria. Onde aparece um exemplo, ele vem em **nicho fictício rotulado** (mostra o formato, nunca é molde pra copiar). Nenhum número (ticket, valor de mercado, resultado, faturamento) é afirmação universal do método: ou vira **princípio sem número**, ou vira **SLOT do dono** preenchido COM ele, falsificável, marcado `[A CONFIRMAR]` até validar. Números de MECÂNICA (a régua ~2x, a régua 10x, 12x) ficam, porque são parâmetro do processo.
 
-**Este SKILL.md é o processo inteiro.** Segue os Passos P0 a P7 na ordem, **para nos STOP** (uma decisão por vez, espera o OK), roda o **gate por dentro** antes de mostrar. As references guardam a profundidade dirigida (lidas no passo indicado); o miolo executável está aqui no corpo.
+**Este SKILL.md é o processo inteiro.** Segue os Passos P0 a P8 na ordem (P0.5 e P8 são condicionais, entram só quando a condição dispara), **para nos STOP** (uma decisão por vez, espera o OK), roda o **gate por dentro** antes de mostrar. As references guardam a profundidade dirigida (lidas no passo indicado); o miolo executável está aqui no corpo.
 
-**Modo A (default):** desenha do zero, do P0 ao P7. **Modo B (auditoria):** "minha oferta não fecha / quero refinar" → entra no GATE + Anti-Patterns, reescreve só o quebrado, guiado pelas **três alavancas de melhoria de oferta existente** (maximizar o resultado · minimizar o esforço · remover os obstáculos de partida, as três variáveis da Equação por outro nome; mexe nelas ANTES de tocar no preço). Detecta o modo na 1ª mensagem.
+**Modo A (default):** desenha do zero, do P0 ao P8. **Modo B (auditoria):** "minha oferta não fecha / quero refinar" → entra no GATE + Anti-Patterns, reescreve só o quebrado, guiado pelas **três alavancas de melhoria de oferta existente** (maximizar o resultado · minimizar o esforço · remover os obstáculos de partida, as três variáveis da Equação por outro nome; mexe nelas ANTES de tocar no preço). Detecta o modo na 1ª mensagem.
 
 ## O que esta skill PRODUZ
 
@@ -24,6 +24,7 @@ Oferta que fecha não é uma lista de itens com preço. É a **tese virando prod
 - **O Mapa de Valor** (a âncora) + o custo invisível + a Equação rodada item a item.
 - **A garantia** escolhida do cardápio + o **preço** pela régua 10x (só se validado) + a **ancoragem** e os níveis de acesso.
 - **O racional de curadoria** ("por que é assim, por que deixa de ser outra coisa").
+- **Quando a condição dispara:** a **planilha VoC + Mapa de Conversão** (P0.5, se faltou verbatim) e o **plano de validação por pré-venda fundadora** (P8, se nunca vendeu), com número-alvo fixado antes.
 
 **Serve o agente:** equipa o LEON/cliente a desenhar e precificar a própria oferta sem virar loja, sem stack de volume vazio, sem número inventado e sem preço definido pelo bolso do cliente.
 
@@ -43,7 +44,7 @@ Regra dura: o RESULTADO desta skill sai como **UM documento markdown consolidado
 
 ---
 
-# O PROCESSO (P0 a P7, um STOP por passo)
+# O PROCESSO (P0 a P8, um STOP por passo)
 
 **Regra dura anti-corrida (uma resposta = no máximo UM Passo novo):** proibido rodar 2 Passos no mesmo turno, mesmo com OK. O OK do P(n) libera SÓ o P(n+1), nunca o P(n+2). NUNCA execute o Passo N+1 antes do OK explícito do Passo N. Um único STOP por resposta. Não existe licença de "adiantar uma etapa".
 
@@ -56,11 +57,24 @@ Antes de desenhar, ancora no dono. Puxe o posicionamento dele (Narrativa, Mecani
 - **Sem mecanismo nomeado** (não tem o método/mecanismo único de pé) → PARA e manda pra **soft-plano-posicionamento** antes. Oferta sem mecanismo nomeado é slogan genérico, e genérico compete por preço.
 - **Com posicionamento** → herda inline (não aponta "veja lá") e segue.
 - **Vários mecanismos possíveis, ou mecanismo a reembalar** → a escolha do mecanismo é a decisão mais pesada do QUE vender: **~20% novo / 80% conhecido** (esperança sem soar "de outro mundo"; novo demais = não acredita, custo de convencer explode, não escala), escolhe o candidato com mais PROVA na mão, e **reembala** o que já deu certo em vez de inventar do zero. Profundidade em `references/desenho-da-stack.md` (A escolha do mecanismo).
-- Detecta o **TIPO de oferta** (mentoria · consultoria · curso · comunidade/grupo · serviço feito-pra-você · produto de entrada) e o **estágio do dono** (nunca vendeu isto × já vendeu algumas × já tem esteira). O tipo puxa o modo (ver "Os 6 tipos" abaixo); o estágio muda o P6 (preço) e o P7 (ancoragem).
+- Detecta o **TIPO de oferta** (mentoria · consultoria · curso · comunidade/grupo · serviço feito-pra-você · produto de entrada) e o **estágio do dono** (nunca vendeu isto × já vendeu algumas × já tem esteira). O tipo puxa o modo (ver "Os 6 tipos" abaixo); o estágio muda o P6 (preço) e o P7 (ancoragem), e o estágio **nunca vendeu isto** liga o **P8** (validação por pré-venda fundadora).
+- **Triagem de mercado (4 perguntas, 1 minuto):** a dor é VIVA (o avatar já procura solução sozinho)? o público tem PODER de compra? é ALCANÇÁVEL pelos canais do dono? está crescendo ou encolhendo? Mercado encolhendo é bandeira levantada no doc, não veto: o dono decide com o risco dito.
+- **Diagnóstico de SOFISTICAÇÃO (decide o TIPO de promessa que ainda vende):** conta quantos concorrentes fazem a MESMA promessa no MESMO canal. Ninguém fazendo = a promessa direta ainda vende sozinha (estágio inicial; nua ou superlativa). Vários fazendo = a promessa sozinha morreu, quem carrega a venda é o **mecanismo nomeado** (o estágio onde a maioria dos nichos de infoproduto BR está, e o motivo de o método Soft exigir o mecanismo no P0). Saturado até de mecanismo = a venda muda de eixo pra identidade/tribo, e promessa inflada gera ceticismo, não desejo. Lastro citável: os 5 estágios de sofisticação de mercado (Schwartz, Breakthrough Advertising, 1966). O estágio diagnosticado entra no doc; o gate confere se a promessa do P1 bate com ele.
+- **Checagem de munição:** o posicionamento trouxe verbatim VIVO (falas literais, dores na língua do avatar, objeções reais)? Se sim, herda. Se não, o **P0.5** minera antes de qualquer linha de oferta.
 
 > **Variação de mercado (quando o dono quer MÁXIMA certeza de demanda; TEMPERA o posicionamento, não o anula).** Há uma escola de resposta direta que escolhe DE PROPÓSITO um mercado já explorado (os três grandes: saúde/beleza, ganhar dinheiro, relacionamento), pra que a única variável a acertar vire a COPY e a OFERTA, não a existência de demanda; nessa lógica, "ninguém vendendo nesse nicho" é bandeira VERMELHA (gente mais esperta já checou e não achou dinheiro), não oportunidade. Isso é escolha de CONTEXTO (risco baixo de demanda) e **tempera** o posicionamento diferenciado do especialista que o método Soft prega, não o sobrescreve: o Soft ganha num mercado grande por ANGULAÇÃO e mecanismo único (o especialista incomum DENTRO do nicho faminto), não fugindo pro nicho vazio. Se o dono já tem posicionamento diferenciado de pé, mantém; se está ESCOLHENDO onde entrar e quer risco baixo, o mercado explorado é a aposta mais segura, e o diferencial mora na oferta e na copy.
 
-**STOP.** Confirma avatar + mecanismo nomeado + resultado que já gera + TIPO de oferta + estágio. Espera OK.
+**STOP.** Confirma avatar + mecanismo nomeado + resultado que já gera + TIPO de oferta + estágio + sofisticação do mercado + se a munição VoC é suficiente (senão, o próximo passo é o P0.5). Espera OK.
+
+## P0.5: Munição VoC (condicional: só quando falta verbatim)
+
+**Dispara quando o P0 detectou verbatim raso ou ausente.** Com o Plano de Posicionamento trazendo munição viva, este passo NÃO roda: herda e segue pro P1. Sem ela, minerar vem antes de escrever, porque a lei do verbatim ("nunca fala simulada") só se cumpre com fala COLHIDA.
+
+O pipeline, em ordem de custo: **mineração de reviews** (3 estrelas = equilíbrio, 1 estrela = objeção, 5 estrelas = resultado-sonho; frases LITERAIS até saturar) → **observação de comunidade** (o que o público diz quando nenhum vendedor está na sala; thread mais comentado = dor rankeada) → **concorrente como dado** (anúncio ativo 90+ dias na biblioteca da Meta = ângulo que paga; FAQ do concorrente = mapa de objeções; reclamação dos clientes dele = a lacuna que vira promessa) → **entrevista com quem já comprou** (8-12 entrevistas saturam um segmento; reconstrói a linha do tempo da decisão).
+
+Sai a **planilha VoC** (frase · fonte · tema · intensidade) e o **Mapa de Conversão**, a ponte achado→componente: DOR → promessa · DESEJO → resultado-sonho · OBJEÇÃO → componente que a mata · ANSIEDADE → garantia específica · HÁBITO → custo invisível + primeira vitória · LINGUAGEM → copy literal, sem parafrasear pra bonito. O pipeline inteiro com as réguas e os números mora em `references/pesquisa-e-validacao.md`.
+
+**STOP.** A planilha VoC + o Mapa de Conversão preenchido. Espera OK.
 
 ## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
 A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
@@ -84,6 +98,8 @@ Template de apoio (do método, quando o tipo pede singularidade explícita): *"O
 
 Entrega em **dois cortes**: o **parágrafo** (abre a carta, empilha virada + mecanismo + transformação) e a **uma linha** (bio, perfil, pitch de elevador).
 
+**Gate anti-vago da promessa (lista física, roda ANTES de mostrar).** A promessa da PUV carrega **resultado com número + prazo + a condição "sem X"**. Formulações REPROVADAS de saída (a família, não só as frases): "aumentar sua receita" · "ganhar mais tempo" · "mais clientes" · "escalar seu negócio" · "transformar sua vida/carreira" · "ir pro próximo nível" · "resultados reais" · "viver do seu conhecimento". Reprovou, REGENERA descendo ao concreto: "fechar 2 clientes a mais por mês" vale, "mais clientes" não. Quando o número do dono ainda não existe, o slot `[A CONFIRMAR]` entra no lugar EXATO do número; a frase nunca volta pro vago. E o tipo de promessa respeita o estágio de sofisticação do P0: promessa nua em mercado saturado gera ceticismo, não desejo.
+
 > **Teste:** leia a PUV pro cliente ideal. Se ele pensa "é exatamente isso que eu vivo, e nunca vi ninguém explicar assim", passou. Se cabe em qualquer concorrente do nicho, ainda é rótulo: desce até o mecanismo. Uma PUV, não três, é a mesma nos níveis de acesso (muda quanto do especialista entra, nunca a proposta).
 
 Profundidade em `references/desenho-da-stack.md` (seção PUV) e `references/tipos-de-oferta.md` (o corte de PUV por tipo).
@@ -100,6 +116,7 @@ Profundidade em `references/desenho-da-stack.md` (seção PUV) e `references/tip
 - **DFY (Feito-Pra-Você) é o formato mais forte do denominador, e mata uma objeção que os outros não alcançam.** A objeção do avatar maduro muitas vezes não é sobre o método, é sobre ele mesmo: *"teu método é ótimo, mas EU não vou conseguir executar"* (a auto-estima de execução baixa). Nenhuma prova de que o método funciona desarma isso, porque a dúvida é sobre o braço dele, não sobre a tese. A régua: **quanto mais coisa pronta a oferta entrega (template, página, modelos, sistema montado), menos o resultado depende do braço do cliente, e mais essa objeção some.** É por isso que os dois padrões que mais escalam nas ofertas fortes são o feito-pra-você (empilhado no clímax) e a Demonstração.
 - **Demonstração = a prova mais forte que existe, e mora na PROBABILIDADE.** Mostrar a coisa funcionando ao vivo (o resultado acontecendo na frente, a ferramenta rodando, o antes/depois em tempo real) convence mais que qualquer depoimento, porque tira o "será que é verdade" da conta. Onde couber, a oferta desenha um item ou um momento de demonstração; a apresentação ao vivo dela é handoff (carta, webinar).
 - **A régua de teste de cada item (a pergunta única):** este item **sobe o numerador (resultado/probabilidade) ou derruba o denominador (tempo/esforço)?** Se exige malabarismo, é nenhum, e o item sai. Item que só "enriquece o pacote" mexe SIM, pro lado errado: mais volume = mais esforço percebido.
+- **Por que resultado cedo importa (a dor do boleto se dilui):** o compromisso do cliente decai depois do pagamento; mês a mês a compra "já paga" pesa menos e o engajamento cai junto (payment depreciation, Gourville & Soman, 1998). O antídoto é de DESENHO, não de cobrança: primeira vitória rápida (P3) e marcos de recomeço na entrega.
 - **Engenharia de valor percebido (sobe valor sem inflar número):** o MESMO conteúdo num formato mais sofisticado vale mais (eBook < curso < mentoria < "com time acompanhando teu progresso"); colocar o entregável DENTRO de um app pesa mais que um PDF solto; "equipe que acompanha teu progresso" mata a objeção de execução VIGIANDO o progresso (a outra porta do DFY, que mata ENTREGANDO pronto). É embalagem, não promessa: não fere a fidelidade. Detalhe em `references/desenho-da-stack.md` (P2b).
 
 Profundidade em `references/desenho-da-stack.md` (seção Equação, com o mapa tipo→variável).
@@ -118,9 +135,13 @@ Regra dura: **cada entregável carrega uma objeção específica na nuca.** Se v
 
 **O entregável-tese (o coração):** todo método tem UM entregável que É o mecanismo virando produto. Não é o mais caro nem o maior, é o que materializa a tese de um jeito que nenhum concorrente entrega. Pergunta ao dono: *"qual a coisa que você entrega que prova, sozinha, que seu método é diferente?"* Ele ganha o destaque. (No molde Recalibra: o **Protocolo de Crise**, o que fazer sozinha quando a dor voltar, autonomia virando item, enquanto o mercado vende "volte sempre".)
 
-Profundidade em `references/desenho-da-stack.md` (Entregáveis + entregável-tese).
+**Mapa de barreiras práticas (varre ANTES de fechar o cardápio; complementa o mapa de objeções, não o substitui).** Objeção é CRENÇA a quebrar; barreira é FATO prático a remover, e o mapa de objeções sozinho não a enxerga. As 4 categorias, varridas uma a uma no caminho do resultado: **lacuna de conhecimento** (não sabe) · **déficit de habilidade** (sabe, não executa bem) · **barreira externa** (falta ferramenta, acesso, verba de mídia, agenda) · **bloqueio psicológico** (medo de aparecer, vergonha de vender). Cada barreira revertida vira entregável: dependência de ferramenta vira ativo pronto, déficit de habilidade vira template + revisão, bloqueio vira acompanhamento. Barreira sem entregável é furo DECLARADO no doc.
 
-**STOP.** Os entregáveis com as 5 perguntas + o entregável-tese marcado. Espera OK.
+**Ativo de primeira vitória (componente OBRIGATÓRIO da stack).** A menor vitória VISÍVEL que o cliente alcança em **5 a 30 minutos** depois de entrar, com um ativo nomeado dedicado a ela, mais o desenho das primeiras 24 horas: **hora 0** (o que ele vê ao entrar) · **hora 1** (a primeira vitória concluída) · **dia 1** (o primeiro marco do método). O lastro é o payment depreciation do P2: a dor do boleto se dilui e o engajamento cai; a vitória cedo é o antídoto e realimenta a prova (quem começa, conclui; quem conclui, vira case). Se a oferta não tem, ou se cria um, ou a ausência é escolha declarada no racional.
+
+Profundidade em `references/desenho-da-stack.md` (Entregáveis + entregável-tese + barreiras + primeira vitória).
+
+**STOP.** Os entregáveis com as 5 perguntas + o entregável-tese marcado + o mapa de barreiras varrido + o ativo de primeira vitória (hora 0 / hora 1 / dia 1). Espera OK.
 
 ## P4: A prateleira, os inclusos e o bônus sem preço
 
@@ -138,6 +159,10 @@ Monta o resto da stack pelo **cardápio de componentes** e pelo **mapa de objeç
 - **Bônus surpresa personalizado** (o "por que AGORA"): desenhado desde já, não anunciado, solto DEPOIS do preço. Personalizado + escasso (só os N primeiros) + surpresa. N = capacidade real de entrega, nunca teatro. No perpétuo/escala, desenha automatizável (template + automação) pra entregar a todos sem quebrar a honestidade.
 
 **Régua de bônus:** cada componente de entrega mata UMA objeção nomeada. Objeção que ataca o MECANISMO ("mas e se X?") vai PARA DENTRO do mecanismo (reposiciona o escopo), NUNCA vira bônus. Bônus não conserta método furado.
+
+- **Checagem de canibalização:** bônus que promete atalho pro MESMO resultado do mecanismo central mata o consumo do núcleo (sintoma: "posso comprar só o bônus X?"). Bônus opera em eixo COMPLEMENTAR (velocidade, ferramenta, suporte), nunca no eixo do mecanismo. Achou um, sai ou vira componente do núcleo.
+- **Stack longa pede rubrica de corte:** valor 1-10 × custo 1-10 por item; valor 8+ é núcleo; 6-7 com custo baixo é complementar; 6-7 com custo alto corta; alvo de 6 a 10 componentes. Molde em `references/desenho-da-stack.md` (P4d).
+- **Nota de apresentação (handoff):** na carta/palco, pede-se a venda ANTES de revelar o bônus surpresa; o bônus cai como recompensa, não como argumento. A ordem final é da `soft-funil-carta`/`soft-webinar`.
 
 Profundidade em `references/desenho-da-stack.md` (cardápio + régua de bônus + mapa de objeções).
 
@@ -172,11 +197,17 @@ Profundidade em `references/ancoragem-e-precificacao.md` (Mapa + as 2 âncoras +
 
 A garantia tem que ser **maior que a objeção de risco do avatar, e não maior que isso** (super-garantia onde ele já confia gera "por que tanto?"). Cobre o **resultado do método**, nunca a decisão de aplicar: "eu garanto o método, não garanto fazer por você o que só você decide fazer." Frame: chama de **"período de experiência"**, nunca "garantia" (garantia carrega frame de defeito).
 
+**⚖️ Piso legal BR (a skill AVISA SEMPRE, junto de qualquer garantia):** o **CDC art. 49** dá **7 dias de arrependimento INCONDICIONAIS** em toda venda a distância (online inclusa), mesmo com o curso parcialmente consumido. Três consequências de desenho: **"sem devolução" é ilegal** no varejo online BR (a anti-garantia não existe aqui, nem importada de fonte gringa); garantia condicional só existe POR CIMA do piso (7 dias legais + N condicionais, e o doc declara os dois separados); e vender "garantia de 7 dias" como diferencial é vender a lei como bônus, erro de credibilidade que o comprador informado pega. O aviso entra por escrito no doc do dono, colado na garantia escolhida.
+
+**Fórmula com dentes (molde de redação de qualquer prato):** *"se você não tiver [X mensurável] em [Y prazo], nós [Z ação]"*. A garantia mira o MAIOR medo específico do avatar (a linha ANSIEDADE do Mapa de Conversão, quando o P0.5 rodou), nunca "30 dias" genérico.
+
 **Garantia antecipada (variação de ordem):** pro avatar cético, sobe a garantia pra ANTES do preço e semeia a promessa dela já na entrada ("acesse sem pagar nada agora", "experimenta sem risco"). Quando o preço chega, o risco já saiu da mesa. Não é prometer mais, é reposicionar QUANDO o risco sai da conta. Detalhe em `references/ancoragem-e-precificacao.md` (P6b).
 
 **Preço, a régua 10x:** a oferta deve retornar ao cliente, em valor, **~10x** o preço. **Retorno potencial** (nichos de dinheiro, mensurável): preço X → 10X em 12 meses, comunica a conta. **Valor percebido** (saúde/relação, não mensurável): ancora no que não se mede ("quanto vale não terminar um casamento?"). Piso: mentoria/programa high-ticket tem chão de programa, não preço de curso avulso, e o piso é SLOT do dono (conta 10x + mercado dele), nunca herdado do exemplo. **Crava pela Equação, nunca pelo bolso do cliente.**
 
-**Preço só entra depois de validado.** Validado = vendido. Se é a 1ª vez, o doc TERMINA sem preço, encerra a oferta e chama pra conversa ("me fala se faz sentido pra você"); só coloca preço + condições quando já vendeu antes. Condições (modelo, adaptar ao ticket): cartão parcelado · Pix parcelado (entrada + 30 + 60) · Pix à vista com desconto.
+**Preço só entra depois de validado.** Validado = vendido. Se é a 1ª vez, o doc não crava preço público: o caminho OFICIAL de chegar ao "vendido" é o **P8**, a pré-venda fundadora com preço de fundador na mesa (a lei se cumpre VENDENDO a primeira turma, não esperando o preço se validar sozinho). Fora do P8, a 1ª oferta sai sem preço e chama pra conversa ("me fala se faz sentido pra você"); preço + condições públicos só depois de vendida.
+
+**A camada de psicologia de preço com evidência** (âncora e a força dela, dígito da esquerda, redondo no premium, frame por dia com comparativo nomeado, parcelamento e a métrica receita completada) mora em `references/ancoragem-e-precificacao.md` (P6d): são defaults RECOMENDADOS com fonte e ano; o número final é sempre do dono. Condições (modelo, adaptar ao ticket): cartão parcelado · Pix parcelado (entrada + 30 + 60) · Pix à vista com desconto.
 
 > **"Grátis" vs "R$1" (as duas faces da palavra grátis).** A palavra "grátis" não é só "preço zero", é um gatilho de comportamento, e ela ajuda ou atrapalha dependendo de ONDE cai na oferta.
 > - **Onde "grátis" é alavanca (isca / porta de entrada):** o experimento clássico de Dan Ariely (Predictably Irrational) mostra que baixar o preço de uma isca de R$0,01 pra R$0 não é "um centavo de diferença", é uma virada de decisão: a escolha explode pro item grátis (na casa de ~90/10). "Grátis" dispara o medo de perder mais forte que qualquer preço simbólico. Quando o objetivo é VOLUME de lead (a isca da cascata, o produto de entrada como iscagem, o comentário que vira contato), "grátis" bate qualquer R$1 simbólico. Use grátis pra ENTRAR.
@@ -193,13 +224,30 @@ Profundidade em `references/ancoragem-e-precificacao.md` (cardápio de garantia 
 
 **Terceiro uso da âncora (destino comercial).** Até ~R$2.000 a oferta fecha no **checkout direto**. Acima de ~R$2.000 a mesma âncora alta muda de ALVO: deixa de mirar a compra e mira a **conversa** ("ancora em 20k, vende a porta da conversa por 2k"), destino = WhatsApp/aplicação. **High-ticket (3k+) fecha no 1:1, nunca no checkout** (a condução é da `soft-vendas-closer`; o formulário de aplicação inverte o desejo, "se eu não te chamar, você não foi aceito"). Escolher o ticket é escolher a engenharia inteira em cascata.
 
+**O fechamento (urgência e escassez, SÓ real).** A razão de agir AGORA é parte do DESENHO, não enfeite de copy. O cardápio, todo com lastro verificável: **vaga limitada pela capacidade real** (o mesmo N do bônus surpresa) · **prazo de evento real** (turma que abre, preço que sobe de verdade e não volta) · **bônus que MORRE de verdade na data** · no perpétuo, **deadline PESSOAL por lead** (prazo individual daquele lead, verificável pra ele, o único deadline honesto em funil sempre aberto). Regras duras: toda escassez com **razão dita** ("é limitado porque a entrega é minha"); só escassez verificável empilha; **zero timer falso, zero teatro** (urgência fabricada é punida por plataforma e queimada pelo avatar maduro na primeira atualização de página). Lastro citável: deadline desloca a decisão pro presente e ativa a aversão à perda (perda pesa ~2x o ganho equivalente, Kahneman & Tversky, 1979); escassez por DEMANDA real é a forma mais forte (experimento dos potes, Worchel, 1975). E a moeda de urgência preferida é o bônus-que-morre, não o desconto: desconto rebaixa a âncora futura (evidência em `references/ancoragem-e-precificacao.md`, P6d).
+
+**A regra das duas peças (compliance de anúncio):** a promessa da OFERTA (número + prazo, exigida no P1) e a promessa do ANÚNCIO são peças DISTINTAS: no anúncio, nunca parear claim quantificável com prazo (a política de anúncios da Meta reprova claim de ganho garantido, com fiscalização automatizada). A oferta promete no doc/página; o anúncio promete o ângulo. Handoff: `soft-conteudo-*` e `soft-trafego-meta`.
+
+**O nome da oferta (o embrulho):** nomeia por função, com 3 destes 4 slots já funcionando: **[embrulho/formato] + [resultado] + [avatar] + [prazo]** (exemplo fictício: "Mentoria Consultório Cheio, pra dentistas, em 90 dias"). Renomear a MESMA oferta ressuscita resposta de anúncio antes de qualquer reestruturação (a fadiga é da embalagem antes de ser da estrutura); a escada de fadiga completa mora em `references/desenho-da-stack.md` (P4e).
+
 **A ordem de APRESENTAR o bloco de oferta (variação, não sobrescreve o desenho).** Os Passos P0-P7 são a ordem de DESENHAR (destila PUV, calibra Equação, monta stack, ancora, precifica). A ordem de APRESENTAR a oferta pronta na copy/palco é outra, e um molde testado de resposta direta sequencia assim: apresentação do produto → benefícios → o que tem dentro (SEXY, via fascinations) → **pra quem é / pra quem NÃO é** → ancoragem → preço → CTA → garantia → bônus → recap → **fecho de 2 caminhos** (*"você aplica isto sozinho e leva meses, ou pega aqui pronto e aprende em horas"*). Duas peças aí são acréscimo tático útil: o **pra quem NÃO é** (filtra e sobe o desejo de quem se encaixa) e o **fecho de 2 caminhos** (contrasta o custo de fazer sozinho contra o atalho da oferta). Onde essa ordem divergir da doutrina Soft (a stack cai na tela do webinar por ancoragem semeada, não em bloco linear), **vale como VARIAÇÃO de apresentação, a doutrina Soft manda.** A montagem final dessa sequência é handoff: **soft-funil-carta** (na carta/VSL) e **soft-webinar** (no palco).
 
 **O racional de curadoria (fecha SEMPRE, o teste final).** Pra cada escolha estruturante, uma linha de "por que é assim, por que deixa de ser outra coisa": por que 12 semanas e não sessão avulsa; por que o nível de baixo tem triagem e não é programa aberto; por que tal entregável existe e não o "pacote óbvio" do nicho. Se o dono não consegue dizer *por que deixa de ser* a alternativa óbvia, a oferta ainda está rasa.
 
 Profundidade em `references/ancoragem-e-precificacao.md` (ancoragem + espectro de ticket + esteira).
 
-**STOP.** Ancoragem (por onde abre, destino do CTA por faixa) + o racional de curadoria linha a linha. Espera OK. Doc consolidado entregue.
+**STOP.** Ancoragem (por onde abre, destino do CTA por faixa) + fechamento (escassez com lastro) + nome da oferta + o racional de curadoria linha a linha. Espera OK. Estágio "já vendeu": doc consolidado entregue. Estágio "nunca vendeu": segue pro P8.
+
+## P8: Validação pré-lançamento (condicional: só quando nunca vendeu)
+
+**Dispara quando o estágio do P0 é "nunca vendeu isto".** Fecha o furo entre "sai sem preço" e "já vendeu": é o CAMINHO oficial de cumprir a lei "preço só se validado", não uma exceção a ela.
+
+- **A hierarquia de força do sinal:** dinheiro pago > cartão salvo > pré-reserva sem cobrança > lista de espera com telefone > e-mail > curtida. **Só dinheiro valida disposição a pagar**; o resto calibra mensagem.
+- **A pré-venda fundadora é o modo oficial:** vender a primeira turma ANTES de produzir, com preço de fundador + bônus de fundador + **data de entrega dita + reembolso integral se não entregar**, pra lista mais quente do dono, com N igual à capacidade real. Vendeu = validado, o preço entra no doc. Não vendeu = a leitura das conversas devolve pro passo quebrado (ninguém respondeu → promessa; sumiu no preço → âncora/preço; pediu outra coisa → stack). A turma fundadora ainda fabrica os 3-5 primeiros cases documentados.
+- **Regra do número-alvo (signpost):** o número que separa "validou" de "não validou" é fixado POR ESCRITO antes de qualquer teste. Régua definida depois do resultado é auto-engano.
+- **Testes auxiliares** (antes ou ao lado da pré-venda, cada um matando a ideia mais barato que o seguinte): teste de fumaça HONESTO (lista de espera real, nunca botão falso) pra escolher entre promessas · faixa de preço por 4 perguntas abertas (Van Westendorp) pra ordem de grandeza · pesquisa de decepção pós-piloto (Sean Ellis, régua dos 40%) pra decidir se escala · oferta-antes-de-criativo quando vai pro tráfego. Réguas e números em `references/pesquisa-e-validacao.md`.
+
+**STOP.** O plano de validação (modo escolhido + número-alvo fixado + data + N real). Espera OK. Doc consolidado entregue.
 
 ---
 
@@ -251,6 +299,15 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Anti-IA (HARD)** | zero em-dash (travessão longo, U+2014) · zero família "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · sem tricolon performático · PT-BR com acentuação correta. Ver o bloco de reescrita abaixo. |
 | **Entregáveis LISTADOS (HARD)** | cada nível/oferta com os entregáveis NOMEADOS um a um (o que a pessoa recebe, em que formato); oferta sem lista de entregáveis = ✗ na hora — foi exatamente assim que um doc "PASSA" saiu sem entregável nenhum (caso real 06/08) |
 | **Entregável-tese presente (HARD)** | existe o entregável que CARREGA o mecanismo nomeado (a peça que prova a tese na prática); sem ele a oferta é promessa sem espinha |
+| **Promessa anti-vaga (HARD)** | resultado com número + prazo + condição "sem X"; zero formulação da lista reprovada do P1; slot `[A CONFIRMAR]` no lugar do número que falta, nunca a frase de volta pro vago |
+| **Sofisticação respeitada** | o tipo de promessa bate com o estágio diagnosticado no P0 (mercado saturado não leva promessa nua) |
+| **Barreiras práticas varridas** | as 4 categorias conferidas no P3; barreira sem entregável = furo declarado no doc |
+| **Primeira vitória presente** | existe o ativo com régua de minutos + hora 0/hora 1/dia 1; ou a ausência é escolha declarada no racional |
+| **Escassez com lastro** | todo elemento de urgência tem condição verificável + razão dita; zero timer falso, zero teatro |
+| **Piso legal CDC** | nenhuma garantia abaixo dos 7 dias do art. 49; a condicional declara o piso; o aviso está no doc do dono |
+| **Duas peças** | a promessa do anúncio não pareia claim quantificável com prazo; a promessa cheia fica no doc/página |
+| **Validação com signpost** | (se P8 rodou) número-alvo fixado ANTES do teste; pré-venda com data + reembolso se não entregar; fala de cliente só colhida, nunca simulada |
+| **Prova com fonte** | número de estudo só entra citado com fonte e ano; número sem fonte sai ou vira `[A CONFIRMAR]` |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. **O gate confere TODAS as linhas desta tabela, uma a uma, na ordem — conferir só PUV/Equação e carimbar PASSA é veredito INVÁLIDO (caso real 06/08).** |
 
 **Reescrita obrigatória do em-dash (o furo mais provável, o modelo usa por reflexo na prosa PT-BR densa):** o em-dash é o travessão longo, U+2014. **Não basta "buscar e refazer": REESCREVA de fato cada ocorrência.** Travessão de aposto no meio da frase vira **vírgula**; travessão que anuncia consequência ou lista vira **dois-pontos**; travessão que separa duas ideias inteiras vira **ponto**. Faça isto ANTES de marcar o item ✓.
@@ -339,7 +396,8 @@ Repare: cada item mata uma objeção nomeada; o entregável-tese materializa a t
 Plano de Ofertas aprovado alimenta: **soft-funil-carta** e **soft-funil-landing** (a oferta virando carta/página), **soft-vendas-closer** (a oferta virando conversa/script), **soft-vendas-estrategias** (como e quando lançar a oferta, founding, esteira), **soft-webinar** (a oferta caindo na tela do webinar por ancoragem de palco), **soft-vendas-proposta** (a oferta pra um cliente específico), **soft-vendas-contratos** (o contrato do ciclo). É doc vivo: muda a oferta principal → revisa carta, script e páginas. Nomes/posicionamento pendentes = **soft-plano-posicionamento**.
 
 ## References (o corpo carrega o método; estas guardam a profundidade dirigida)
-- `references/desenho-da-stack.md`: aprofunda P1-P4 (a escolha e reembalagem do mecanismo com a régua 80/20 e o framework maximizar/minimizar/remover; PUV com anatomia e teste; Equação de Valor Hormozi com o mapa tipo→variável; engenharia de valor percebido em P2b; entregáveis com as 5 perguntas e o entregável-tese; cardápio de componentes, régua de bônus, mapa de objeções, bônus sem preço e surpresa) com exemplos em nicho fictício. Lida nos P1 a P4 (e no P0 pra escolha do mecanismo).
-- `references/ancoragem-e-precificacao.md`: aprofunda P5-P7 (Mapa de Valor e as 2 âncoras, os três registros da âncora, a régua ~2x, o custo invisível; cardápio de garantia campo a campo + a garantia antecipada; régua 10x e condições de pagamento; níveis de acesso; ancoragem abre-pelo-alto, espectro de ticket R$497→R$50k, esteira, canal por faixa). Lida nos P5 a P7.
+- `references/desenho-da-stack.md`: aprofunda P1-P4 (a escolha e reembalagem do mecanismo com a régua 80/20 e o framework maximizar/minimizar/remover; PUV com anatomia e teste; Equação de Valor Hormozi com o mapa tipo→variável; engenharia de valor percebido em P2b; entregáveis com as 5 perguntas e o entregável-tese; mapa de barreiras práticas em P3c; primeira vitória + primeiras 24h em P3d; cardápio de componentes, régua de bônus, mapa de objeções, bônus sem preço e surpresa; rubrica de corte e canibalização em P4d; naming da oferta e escada de fadiga em P4e) com exemplos em nicho fictício. Lida nos P1 a P4 (e no P0 pra escolha do mecanismo).
+- `references/ancoragem-e-precificacao.md`: aprofunda P5-P7 (Mapa de Valor e as 2 âncoras, os três registros da âncora, a régua ~2x, o custo invisível; cardápio de garantia campo a campo com o piso CDC + a fórmula com dentes + a garantia antecipada; régua 10x e condições de pagamento; psicologia de preço com evidência em P6d; níveis de acesso; ancoragem abre-pelo-alto, espectro de ticket R$497→R$50k, esteira com a matemática de caixa em P7c, canal por faixa; fechamento com escassez em P7f). Lida nos P5 a P7 (e no P8 pra calibrar preço de fundador).
 - `references/tipos-de-oferta.md`: os 6 tipos (mentoria, consultoria, curso, comunidade/grupo, serviço feito-pra-você, produto de entrada), cada um com o modo completo (núcleo, nível natural, entregável-tese típico, garantia, canal, PUV). Lida no P0 e sempre que o tipo calibrar um passo.
+- `references/pesquisa-e-validacao.md`: os dois passos condicionais por dentro. O **P0.5** (pipeline de munição VoC: mineração de reviews com a régua 3/1/5 estrelas, observação de comunidade, concorrente como dado, entrevista com comprador, e o Mapa de Conversão achado→componente) e o **P8** (hierarquia de força do sinal, pré-venda fundadora campo a campo, teste de fumaça honesto, Van Westendorp, Sean Ellis, oferta-antes-de-criativo), com as réguas e os números com fonte. Lida quando P0.5 ou P8 disparam.
 - `references/mentoria-operacional.md`: o tipo MENTORIA por dentro (a Extração de Conhecimento com a tabela dos 5 critérios, o Mapa da Transformação em 4, o formato 1:1, as 4 ferramentas de acompanhamento com moldes de perguntas, a Ficha Técnica de 11 itens com fichas preenchidas, o doc de 2 páginas campo a campo). Lida quando o tipo detectado no P0 é mentoria e o dono quer o operacional.

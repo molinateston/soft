@@ -11,11 +11,13 @@
 - [P6a: Os níveis de acesso (a lente)](#p6a-os-níveis-de-acesso-a-lente)
 - [P6b: O cardápio de garantias](#p6b-o-cardápio-de-garantias)
 - [P6c: Precificação, a régua 10x](#p6c-precificação-a-régua-10x)
+- [P6d: Psicologia de preço com evidência](#p6d-psicologia-de-preço-com-evidência)
 - [P7a: Ancoragem (abre pelo alto)](#p7a-ancoragem-abre-pelo-alto)
 - [P7b: O espectro do ticket (R$497 → R$50.000)](#p7b-o-espectro-do-ticket-r497--r50000)
 - [P7c: A esteira (nenhum lead se perde)](#p7c-a-esteira-nenhum-lead-se-perde)
 - [P7d: O racional de curadoria (o teste final)](#p7d-o-racional-de-curadoria-o-teste-final)
 - [P7e: A ordem de apresentar o bloco de oferta](#p7e-a-ordem-de-apresentar-o-bloco-de-oferta)
+- [P7f: O fechamento (urgência e escassez com lastro)](#p7f-o-fechamento-urgência-e-escassez-com-lastro)
 
 ---
 
@@ -94,6 +96,10 @@ O cardápio, do mais leve ao mais pesado, com o que cada um EXIGE pra ser honest
 
 **A régua de escolha:** a garantia tem que ser **maior que a objeção de risco do avatar, e não maior que isso.** Avatar cético + ticket alto pedem reversão extrema; avatar que já confia + ticket baixo com super-garantia gera o efeito inverso ("por que tanto?"). O tom Soft: a garantia cobre o **resultado do método**, nunca a decisão de aplicar, "eu garanto o método; não garanto fazer por você o que só você decide fazer." O risco financeiro é do player, a decisão é do cliente. A 90+90 é a forma extrema exatamente disso: paga até pelo tempo perdido, mas só pra quem aplicou (a condição de aplicação é a honestidade embutida).
 
+**⚖️ O piso legal BR (por baixo de TODO prato do cardápio).** O **CDC art. 49** dá ao comprador **7 dias de arrependimento incondicionais** em toda venda a distância (online inclusa), contados da compra ou do acesso, mesmo com o produto parcialmente consumido. O que isso muda no cardápio: **(1)** "sem devolução" é ILEGAL no varejo online BR, a anti-garantia de fonte gringa não se importa nunca; o prato ROI-como-garantia continua existindo, mas por CIMA do piso (os 7 dias legais valem mesmo sem serem anunciados); **(2)** toda condicional se escreve em duas camadas declaradas, "7 dias incondicionais por lei + N dias condicionais por política nossa"; **(3)** anunciar "garantia de 7 dias" como diferencial é vender a lei como bônus, e o comprador informado percebe (dano de credibilidade). A skill escreve o aviso no doc do dono, colado na garantia escolhida, SEMPRE.
+
+**A fórmula com dentes (o molde de redação de qualquer prato):** *"se você não tiver [X mensurável] em [Y prazo], nós [Z ação]"*. X sai da linha ANSIEDADE da pesquisa (o maior medo específico do avatar, nunca um genérico); Y é um prazo que o método sustenta; Z é a reversão que dói no dono e é crível. Garantia sem os três dentes é decoração. Evidência de campo pra calibrar: garantia forte tende a subir conversão mais do que sobe refund (o caso clássico de +26% de conversão com 30 dias), prazo MAIOR tende a MENOS refund (a procrastinação trabalha a favor), e incondicional vende mais E devolve mais que condicional (McDougall & Levesque, 2000): a conta se fecha pela **receita líquida**, nunca pelo refund isolado (100 vendas com 5 refunds perdem de 130 vendas com 13).
+
 > **Exemplo (ROI-como-garantia, arquitetura).** A player não dava reembolso; a "garantia" era um caso real: "a Bianca pagou o curso em uma semana de trabalho." **Do nicho:** o case; **decalcável:** substituir reembolso por prova esmagadora quando o resultado é financeiro e rápido.
 
 ### Garantia antecipada (sobe a garantia pra ANTES do preço)
@@ -121,6 +127,19 @@ Amplificadores: **impacto** (o quanto muda a vida) + **logística** (explica de 
 
 **Condições de pagamento (modelo, adaptar ao ticket do dono):** cartão parcelado (ex.: 12x) · Pix parcelado (entrada + 30 + 60 dias) · Pix à vista com desconto.
 > **Exemplo (nicho fictício):** uma oferta de R$30.000 = 12x de R$3.000 · 3x de R$10.000 no Pix · R$25.000 à vista. **Só o formato das 3 vias; o preço do dono sai da conta 10x com os números reais dele, `[A CONFIRMAR]` até validar.**
+
+---
+
+## P6d: Psicologia de preço com evidência
+
+A camada fina por cima da régua 10x. Cada item é **default recomendado com fonte**; o número final é do dono (a doutrina "ticket é slot do dono" manda). Número citado aqui só entra no DOC do dono se a mecânica for usada, e nunca como benchmark nomeado.
+
+- **A âncora é o efeito mais forte da mesa.** Até âncora ALEATÓRIA move o valor aceito: no experimento de leilão do MIT, lances entre grupos ancorados variaram **216-346%** (Ariely, Loewenstein & Prelec, 2003). O primeiro número que o lead vê define a escala, por isso o Mapa de Valor vem antes do preço, sempre. E âncora PRECISA ancora mais forte que redonda (Janiszewski & Uy, 2008): "R$6.340 avulso" segura mais que "R$6.000".
+- **Dígito da esquerda (final 9/7).** Em teste de campo de catálogo, o final 9 subiu a demanda **~24%** e venceu até preço MENOR (Anderson & Simester, 2003): 1.497 é lido como "1 e alguma coisa". CONTRA-régua: compra emocional/de status prefere número REDONDO (Wadhwa & Zhang, 2015). Default: produto de escala com dígito derrubado (997, 1.497); high-ticket premium 1:1 em redondo (20k), porque ali o preço é sinal de categoria, não conta.
+- **Frame por dia (com o comparativo NOMEADO).** Reenquadrar em "R$X por dia" recupera comparações triviais (Gourville, 1998), e o comparativo tem que ser dito ("menos que um lanche"), não subentendido. Quebra quando o valor diário deixa de ser trivial: acima do preço de um almoço, o frame vira contra.
+- **Parcelamento sobe conversão E refund.** Cartão anestesia a dor de pagar (disposição ~2x maior em leilão com cartão, Prelec & Simester, 2001); em infoproduto BR o parcelado é o default cultural. O outro lado: aluno parcelado pede refund/cancela na ordem de **3x mais** que o à vista. A régua de gestão: a métrica do dono é **receita COMPLETADA**, nunca a primeira parcela; o doc registra o preço nas duas leituras (vendido × completado esperado).
+- **Isca de comparação (decoy): não contar com ela.** O efeito clássico (a opção do meio desenhada pra ser recusada) só replica em tabela NUMÉRICA de planos lado a lado, cenário raro no high-ticket falado; e desenhar opção PRA ser recusada é teatro na régua Soft. O que fica: a opção cara REAL (o 1:1 de 20k que existe e se vende) ancorando a porta de 2k, que já é doutrina desta skill.
+- **Bônus vence desconto como moeda.** Bônus equivalente vendeu **73% mais** unidades que o desconto de mesmo valor (Diamond, 1992, bens de consumo; direção confirmada em 2024 pra perfil focado em ganho, Yao, Psychology & Marketing). E desconto tem custo oculto: rebaixa a âncora futura e treina o comprador a esperar promoção. Default: a moeda de negociação e de urgência é BÔNUS; desconto só à vista (Pix) ou como decisão explícita do dono.
 
 ---
 
@@ -167,6 +186,12 @@ Nenhum produto único cobre R$497→R$50.000, a **escada** cobre. A esteira não
 
 **Nenhum lead se perde:** quem não compra um degrau vira lead do degrau de cima (rede de captura → comercial) ou de baixo (a versão faz-sozinho). O "não" a uma oferta é "não a ISSO, AGORA". E a régua do canal: o custo do fechamento tem que caber na margem da faixa (closer no Zoom pra produto de R$300 destrói a matemática; checkout self-service pra R$20.000 deixa dinheiro na mesa).
 
+**A matemática de caixa da esteira (a camada que a escada de alturas não cobria).** A unidade de desenho da aquisição deixou de ser UMA oferta: é a SEQUÊNCIA: oferta de atração → núcleo → subida (upsell) → recorrência. Quatro regras de desenho:
+- **Payback do CAC como SLOT do dono:** o doc registra em quantos dias a receita do cliente novo paga o custo de adquiri-lo (`[A CONFIRMAR]` até medir). Referência de operadores 2025: esteira desenhada pra pagar o CAC em ~30 dias escala com o próprio caixa; mas o prazo é parâmetro do dono, não lei do método.
+- **O preço do núcleo é INTOCÁVEL:** downsell mexe em PAGAMENTO (parcela, entrada menor) ou em COMPONENTE (fatia menor da stack), nunca no preço do core, que é a doutrina "downsell é movimento da conversa" com a razão de caixa explícita: preço do core que cede vira o novo preço pra sempre.
+- **A subida vende a solução do problema que o núcleo REVELA:** o upsell natural nunca é "mais do mesmo": vende o próximo problema que aparece quando o primeiro se resolve (vendeu o método de atrair → o cliente atraiu → o próximo problema é converter/entregar).
+- **Complemento óbvio e barato na porta:** o degrau de entrada comporta um complemento de checkout (o template que acompanha o mini-curso); referências de mercado pra calibrar expectativa, sem promessa: complemento de porta bem casado toma dupla utilidade da ordem de 30-40% de adesão em funil de info [faixa de mercado, não estudo], e a soma dessas camadas costuma responder por 10-30% da receita do funil.
+
 ---
 
 ## P7d: O racional de curadoria (o teste final)
@@ -194,6 +219,28 @@ Três peças desse molde valem como acréscimo tático (o resto o desenho Soft j
 - **Garantia antes OU depois do preço (escolha, não regra):** o molde acima põe a garantia depois do preço; a **garantia antecipada** (P6b) inverte isso pro avatar cético, subindo a reversão pra antes do número e semeando-a já na promessa. As duas ordens são válidas; decide pelo peso do risco percebido no avatar (quanto mais o risco é a objeção-mãe, mais cedo a garantia entra).
 
 **Harmonização com a doutrina Soft (a doutrina manda).** Este molde é ordem LINEAR de bloco, própria de carta/VSL. No webinar Soft a oferta não cai em bloco linear: ela é **semeada ao longo da aula e ancorada no palco por degraus** (a apresentação de palco é da `soft-webinar`). Onde o molde linear divergir da forma Soft, ele vale como **VARIAÇÃO de apresentação pra copy escrita**, nunca sobrescreve a doutrina. A montagem final é sempre handoff: `soft-funil-carta` (carta/VSL) e `soft-webinar` (palco). Aqui se decide o QUE a oferta tem; a ordem de exibir é lá.
+
+---
+
+## P7f: O fechamento (urgência e escassez com lastro)
+
+A razão de agir AGORA se DESENHA aqui; a apresentação dela (em que segundo, com que fala) é handoff (`soft-funil-carta`, `soft-webinar`). O cardápio, do mais natural ao mais operado, todo com condição verificável:
+
+| Elemento | O lastro que exige | Onde funciona |
+|---|---|---|
+| **Vaga limitada** | capacidade REAL de entrega (o mesmo N do bônus surpresa) | high-ticket, turma, personalizado |
+| **Prazo de evento** | a turma abre em data real; o carrinho fecha de verdade | lançamento, ao vivo |
+| **Preço que sobe** | o preço sobe MESMO na data e não volta | founding, fase de validação |
+| **Bônus que morre** | o bônus sai do ar na data, de verdade | qualquer canal; a moeda preferida (desconto rebaixa a âncora futura, P6d) |
+| **Deadline pessoal por lead** | prazo INDIVIDUAL daquele lead, verificável pra ele | perpétuo (o único deadline honesto em funil sempre aberto) |
+
+**As regras duras:**
+- **Razão dita (reason-why), sempre:** toda escassez com o motivo na frase ("são 15 vagas porque a revisão é minha"). Escassez sem razão soa tática e queima.
+- **Só escassez VERIFICÁVEL empilha.** Empilhar duas ou três verificáveis (vaga + bônus que morre + prazo) é legítimo e forte; UMA fabricada contamina as verdadeiras.
+- **Zero timer falso, zero teatro.** O avatar maduro dá refresh na página; plataforma e regulador miram countdown fabricado. Urgência falsa custa menos em conversão do que em marca.
+- **A calibragem por ticket:** no high-ticket o cliente cansou de escassez gritante; o doc de 2 páginas com oferta VISÍVEL e um prazo sóbrio real vence a pirotecnia (a doutrina da mentoria-operacional manda nessa faixa). A escassez empilhada é ferramenta de escala/checkout, não da mesa 1:1.
+
+**O lastro citável (por que deadline funciona):** a decisão desloca pro presente porque o AGORA vale desproporcionalmente mais (desconto hiperbólico) e porque perder um bônus hoje dói ~2x mais do que o ganho equivalente anima (aversão à perda, Kahneman & Tversky, 1979); a escassez movida por DEMANDA real (esvazia porque outros compraram) é a forma mais valorizada (experimento dos potes de cookies, Worchel, 1975). O bônus de ação rápida desloca recompensa pro presente sem tocar no preço, por isso vence o desconto como moeda de urgência.
 
 > **Calibragem (voz e erros):** tom clínico, todo movimento de preço MEDE, não dramatiza ("mil do lado de trezentos mil é troco" é medição; "chance única da sua vida" é palco, proibido). Escassez, garantia e número honestos: vaga real, prazo real, garantia real, número defensável. O avatar maduro fareja o falso, e isso contamina toda a credibilidade. **Banido na copy:** em-dash (travessão longo), família "travar/travado", ALL-CAPS corrido, "alavancar", "jornada" como jargão de copy, "mindset", tricolon performático, tom de guru.
 >
