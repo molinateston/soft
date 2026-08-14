@@ -154,6 +154,7 @@ Princípio-mãe: **tudo que o prompt diz "nunca faça" tem um equivalente EM CÓ
 - **`conector-ghl.md`:** as chamadas reais da API GHL + achados de campo.
 - **`setup-conexao.md`:** conectar o GHL passo a passo (token, IDs, teste).
 - **`playbook-operacao.md`:** os 7 estados do lead, cadências, handoff, auditoria, métricas por objetivo.
+- **`sales-farming.md`:** o cultivo contínuo da base fria como ROTINA do SDR/agente (esteira própria no CRM, ciclo de ~30 dias com toques de valor, critérios de entrada e reentrada). Contexto de operação com time/escala; convive com o teto de 4 toques da conversa viva e com o fim-do-follow-up do closer, que seguem valendo.
 
 ## When NOT to use
 - **Conduzir e FECHAR a venda** (call de fechamento, objeção de preço, pedir o sim, contrato, pós-venda) → **soft-vendas-closer**.

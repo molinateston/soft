@@ -37,6 +37,9 @@ Uma ação por ciclo, medida no ciclo seguinte, com o alvo declarado antes ("med
 ## Passo 8, roda o gate por dentro e PARA
 Confere em silêncio (nunca vai pra saída): fonte e data em toda métrica · confiabilidade aprovada ou saída virou "medir melhor" · a conta na tela · o delta escrito · UM gargalo, a primeira vermelha · UMA ação com número-alvo · zero benchmark inventado · zero travessão. Item reprovado refaz o passo, não a análise: `gate-linha-a-linha.md`. Mostra a leitura limpa e **para**.
 
+## Camada de escala, o funil em REAIS e o tamanho do time
+Duas perguntas que só aparecem quando a operação cresce, respondidas em contexto de **operação com time/escala** (convivem com o modo elite 1:1, não o substituem; válidas pra esteira call-first acima de ~R$3.000): **"vale escalar o tráfego?"** se responde com o funil em dinheiro (CPL, custo por agendamento, custo por comparecimento, custo por call realizada x **faturamento por call realizada**, e a leitura Soft de ROAS: muito alto = subinvestimento): `funil-em-reais.md`. **"Quantas pessoas eu preciso, e quando contrato?"** se responde com as réguas de capacidade (1 SDR = 450-750 leads/mês, closer 3-4 calls/dia) e os gatilhos de contratação: `dimensionamento-de-time.md`.
+
 ## When NOT to use
 Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, preço, caixa → **soft-financeiro**. Quanto investir e pra qual público → **soft-trafego-meta**. Reescrever peça → **soft-conteudo-***. Carta ou página → **soft-funil-***. Objeção e closer → **soft-vendas**. Oferta e ticket → **soft-posicionamento**.
 
@@ -50,3 +53,5 @@ Dashboard, rotina, projeção, plano de guerra → **soft-leon**. DRE, margem, p
 - `roteiro-por-que-nao-converteu.md` (P6): a escada para anúncio, página, webinar e conversa.
 - `causa-para-skill.md` (P7): mapa causa → skill + molde da ação única.
 - `gate-linha-a-linha.md` (P8): os checks e os anti-padrões da leitura.
+- `funil-em-reais.md` (escala): as 5 contas em dinheiro, a decisão de escala por CCR x faturamento por call, ROAS na moldura Soft.
+- `dimensionamento-de-time.md` (escala): capacidade por função, metas em 4 degraus, gatilhos de contratação, as 3 formações.

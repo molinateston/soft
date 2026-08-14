@@ -284,6 +284,8 @@
 
 **Ajuste Soft (atencao, o esqueleto generico dessa jogada engana).** O molde padrao usa tom de robo educado: *"Espero que voce esteja bem", "Agradeco pela confianca que sempre depositou"*. **Isso nao passa no filtro anti-ia**, soa em massa, mata a tal "conexao genuina" que a jogada promete. Reescreve **na voz do dono**: direto, real, como ele mandaria pra alguem que conhece de verdade. E apresenta a novidade pelo **teto que aquele cliente especifico sente** (o resultado que ele buscava e nao alcancou), nao por "estou lancando". Lembrar dele de verdade > anunciar pra ele.
 
+**Variacao: a lista quente PESSOAL (caixa do zero absoluto).** Pra quem esta comecando sem base de clientes nenhuma: a lista sao os **20 a 50 contatos proprios** (rede pessoal e profissional que confia em voce, nao clientes). Outra lista, outra abordagem: a relacao e pessoal, nao historico de compra, entao a mensagem retoma a RELACAO primeiro (individual, um por um, jamais broadcast) e apresenta o que voce esta fazendo agora, com convite leve pra conhecer ou indicar alguem. E a jogada de menor custo absoluto do banco, roda ANTES mesmo da base existir. Complemento de time: o **programa interno de indicacao** (quem trabalha com voce traz leads da propria rede, com bonus por conversao). O anti-pattern de tom de robo do molde acima vale em dobro aqui: contato pessoal que recebe texto de mala direta nunca mais responde.
+
 ---
 
 ## Fios que costuram as jogadas (sintese operacional)

@@ -77,6 +77,8 @@ Antes de entregar o pré-qualificador OU de oferecer a sessão, toda conversa de
 
 Por dentro desses 4 elementos o SDR lê o **BANT**: Budget (dá pra investir no ticket?), Authority (é quem decide?), Need (a dor é real e nomeada?), Timeline (agora ou algum dia?). Ele **não pergunta BANT a seco** ("qual seu orçamento?"), extrai pelo diagnóstico.
 
+**O piso de aceite (o cliente MÍNIMO).** Além do cliente ideal (a mira, que vem do posicionamento), o dono define o cliente **mínimo**: as características de piso pra aceitar alguém e ele AINDA ter resultado (faixa mínima de faturamento/estágio, condição de aplicar o método, capacidade de investir sem se quebrar). O SDR lê o piso por dentro dos 4 elementos: abaixo dele, encerra leve e registra (isso é acerto, não perda); entre o piso e a mira, segue qualificando; na mira, prioridade. A definição do piso nasce no `soft-plano-posicionamento` e entra no onboarding do agente; aqui é só o uso comercial. O piso protege o caixa sem poluir a mira: aceitar abaixo dele gera cliente sem resultado, e cliente sem resultado vira prova contra.
+
 Regra do ritmo: **1 pergunta por mensagem**. Metralhar pergunta = interrogatório = lead foge.
 Regra do recuo: se o lead responde com fricção ou pressa, recua. *"Tranquilo, quando fizer sentido a gente conversa. Por ora, dá uma olhada nisso: [link do pré-qualificador]."* E solta. Quem recua tem mais autoridade.
 
