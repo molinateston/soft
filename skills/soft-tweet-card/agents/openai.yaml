@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cards estilo tweet"
+  short_description: "Cria carrosséis fiéis ao formato tweet"
+  default_prompt: "Use $soft-tweet-card para montar um carrossel no formato print de tweet aprovado."
