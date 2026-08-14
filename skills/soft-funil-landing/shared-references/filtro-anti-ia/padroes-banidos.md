@@ -220,7 +220,7 @@ Por quê: aspas são pra discurso direto ou citação. IA usa pra "dar tom" a pa
 ❌ "A estratégia trabalha por você enquanto você dorme."
 ❌ "Seu conteúdo conversa com o cliente certo."
 ❌ "A IA cuida disso pra você."
-❌ "Em julho o caixa ainda pergunta se você vai aparecer amanhã." (Soft Soft · Léo 13/jul)
+❌ "Em julho o caixa ainda pergunta se você vai aparecer amanhã." (personificação de objeto: reprovada)
 ❌ "O caixa pede mais um post." / "a renda pede câmera" / "o algoritmo come"
 
 ✅ "Você entende onde está. O método é só o mapa."
