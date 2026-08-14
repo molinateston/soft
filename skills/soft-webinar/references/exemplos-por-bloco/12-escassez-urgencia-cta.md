@@ -1,13 +1,13 @@
 # Escassez/urgência/CTA (escassez auditável, corrida pelos bônus, cartão na mão, fechamento)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista). Mecanismos com dono: escassez de bônus "15 primeiros" com confirmação automática = máquina do webinar-modelo GA; timer "rigged" e a demonização do "maybe" = Fladlien; o frame "viver comigo ou ver pelo Instagram" = pele Vítor Abrão/MDI.
+> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **o especialista** (dentista). Mecanismos com dono: escassez de bônus "15 primeiros" com confirmação automática = máquina do webinar-modelo GA; timer "rigged" e a demonização do "maybe" = Fladlien; o frame "viver comigo ou ver pelo Instagram" = pele do especialista do corpusA/MDI.
 
 ---
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca recai sobre uma mentira. Os três desenhos validados: (1) escassez de BÔNUS, não de produto (máquina do webinar-modelo GA: o curso não fecha; o que evapora são os bônus dos 15/10 primeiros, com confirmação automática do sistema - "parabéns, você está entre os 15 primeiros"); (2) escassez de CONDIÇÃO/PREÇO (webinar A do corpus: a oferta da sessão acaba com a aula, mas o produto continua comprável por mais caro - "você até consegue comprar depois, mas no mínimo por 997"; webinar C do corpus: 10 vagas só no preço de 1.997; Juliana: cupom até 23:59); (3) escassez MECÂNICA terceirizada (Fladlien: timer "rigged up" que fecha sozinho, com reason-why operacional). Segundo trabalho: converter intenção em ação MOTORA antes do link existir - "já vai pegando o seu cartão, se é virtual já abre no celular" - para que no pico emocional não haja janela de racionalização. Terceiro: narrar a corrida ao vivo (vagas caindo 12→11→9→8→4; compras anunciadas no chat; "parabéns fulana, bem-vinda ao time") - a compra alheia vira pressão social audível e prova de manada. Quarto: o custo da inação é tornado concreto (R$200 mais caro amanhã; "é fácil ficar no Brasil e ganhar pouco"; o concorrente usando enquanto você não usa). Quinto: o CTA é operacional e sem fricção - botão + link no chat + fallback narrado clique a clique, com troubleshooting ao vivo. Sexto: vários campeões posicionam um pico EMOCIONAL depois do preço (a história da mãe da Juliana; o "barco saindo" do Vítor; o takeaway do Bruno) - a decisão é tomada em estado alterado, e quem não compra escolhe em público a estrada pior. E o presente prometido na abertura é pago aqui - o loop de retenção fecha dentro do CTA ("só quem ficou até o final vai ganhar").
+A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca recai sobre uma mentira. Os três desenhos validados: (1) escassez de BÔNUS, não de produto (máquina do webinar-modelo GA: o curso não fecha; o que evapora são os bônus dos 15/10 primeiros, com confirmação automática do sistema - "parabéns, você está entre os 15 primeiros"); (2) escassez de CONDIÇÃO/PREÇO (webinar A do corpus: a oferta da sessão acaba com a aula, mas o produto continua comprável por mais caro - "você até consegue comprar depois, mas no mínimo por 997"; webinar C do corpus: 10 vagas só no preço de 1.997; a Aluna 80k: cupom até 23:59); (3) escassez MECÂNICA terceirizada (Fladlien: timer "rigged up" que fecha sozinho, com reason-why operacional). Segundo trabalho: converter intenção em ação MOTORA antes do link existir - "já vai pegando o seu cartão, se é virtual já abre no celular" - para que no pico emocional não haja janela de racionalização. Terceiro: narrar a corrida ao vivo (vagas caindo 12→11→9→8→4; compras anunciadas no chat; "parabéns fulana, bem-vinda ao time") - a compra alheia vira pressão social audível e prova de manada. Quarto: o custo da inação é tornado concreto (R$200 mais caro amanhã; "é fácil ficar no Brasil e ganhar pouco"; o concorrente usando enquanto você não usa). Quinto: o CTA é operacional e sem fricção - botão + link no chat + fallback narrado clique a clique, com troubleshooting ao vivo. Sexto: vários campeões posicionam um pico EMOCIONAL depois do preço (a história da mãe da Aluna 80k; o "barco saindo" do especialista do corpusA; o takeaway do especialista do corpusC) - a decisão é tomada em estado alterado, e quem não compra escolhe em público a estrada pior. E o presente prometido na abertura é pago aqui - o loop de retenção fecha dentro do CTA ("só quem ficou até o final vai ganhar").
 
 ---
 
@@ -35,7 +35,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 ---
 
-### 5 Níveis de Planejamento (Denison/GA) - mesma máquina; o chat como placar de vendas
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado/GA) - mesma máquina; o chat como placar de vendas
 
 **Trecho literal:**
 
@@ -75,11 +75,11 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 ---
 
-### GAIA2k (Denison/GA) - a narração de vagas mais longa do corpus + empurrão moral final
+### GAIA2k (o criador do webinar de gestão ágil estudado/GA) - a narração de vagas mais longa do corpus + empurrão moral final
 
 **Trecho literal:**
 
-> "Já vai separando o cartão? Pega aí o seu cartão, já fica no jeito para você não reclamar e falar: Ah, Denison, não deu tempo de me inscrever."
+> "Já vai separando o cartão? Pega aí o seu cartão, já fica no jeito para você não reclamar e falar: Ah, não deu tempo de me inscrever."
 
 > (a regra declarada) "Tem um contador aqui, tá? Então, as vagas são escassas. Os 15 primeiros vão ganhar essa série toda de bônus. Passou dos 15 primeiros, já era. […] Quando você clicar, a telinha já vai mostrar para você."
 
@@ -99,7 +99,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 ---
 
-### Aluna 80k (Juliana Pupim) - deadline de relógio + pico emocional DEPOIS do preço
+### Aluna 80k (a Aluna 80k) - deadline de relógio + pico emocional DEPOIS do preço
 
 **Trecho literal:**
 
@@ -125,9 +125,9 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 ---
 
-### Webinar webinar A do corpus (pele Soft: nutrição / Vítor Abrão / MDI) - urgência de SESSÃO, o desenho canônico pra perpétuo
+### Webinar webinar A do corpus (pele Soft: nutrição / o especialista do corpusA / MDI) - urgência de SESSÃO, o desenho canônico pra perpétuo
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > "só hoje, durante essa aula. se essa aula acabar, Acabou. então quero valorizar quem se comprometer"
 
@@ -145,11 +145,11 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Por que funciona:** a oferta-da-sessão cria deadline crível sem mentir estoque - funciona em loop infinito porque a condição é da sessão, não do calendário. O frame viver-vs-assistir transforma não-comprar numa escolha de identidade dolorosa, e o presente na página converte curiosidade em início de checkout.
 
-**O que é decalcável vs do nicho:** decalcável: o desenho inteiro é o gabarito de escassez pra webinar perpétuo (condição de sessão + diferença de preço real + presente no checkout). Do nicho/dono: o barco/arquibancada e o tom "bicho" são da pele Vítor.
+**O que é decalcável vs do nicho:** decalcável: o desenho inteiro é o gabarito de escassez pra webinar perpétuo (condição de sessão + diferença de preço real + presente no checkout). Do nicho/dono: o barco/arquibancada e o tom "bicho" são da pele do corpusA.
 
 ---
 
-### Webinar C (corpus o autor do corpus - voz Bruno, dentista) - 10 vagas de PREÇO com contagem ao vivo até a última frase
+### Webinar C (corpus o autor do corpus - voz do especialista do corpusC, dentista) - 10 vagas de PREÇO com contagem ao vivo até a última frase
 
 **Trecho literal:**
 
@@ -161,7 +161,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > (takeaway no fecho) "se você não se inscreveu, você fez uma escolha e tá tudo certo, fica bem com a sua escolha. Talvez não era para você, e esse curso é só para quem quer sair do lugar […] mas você tá perdendo uma chance de acelerar as coisas na sua vida, não deixa para depois não"
 
-> (última frase do webinar) "tá uma vaga ainda, Bruno, nos 10, última vaga dos dez, não perde, que esse preço é só para agora tá. Tamo junto galera, forte abraço para vocês"
+> (última frase do webinar) "tá uma vaga ainda, [nome dele], nos 10, última vaga dos dez, não perde, que esse preço é só para agora tá. Tamo junto galera, forte abraço para vocês"
 
 **O que ele fez:** escassez por unidade (10 vagas no PREÇO, não no produto) com contagem ao vivo via equipe (10 → duas → uma, encerrando o webinar literalmente na última vaga); countdown teatral do link ("três, dois, um"); comando físico ("prepara o cartão"); recusa pública de extensão (consistência da escassez - negar o pedido de "mantém amanhã?" blinda todas as escassezes futuras); takeaway selling no fecho ("não é para todo mundo"); carrinho aberto preenchido com detalhamento + depoimentos + celebração de compradores (zero silêncio).
 
@@ -217,7 +217,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 ## Padrões transversais (checklist - o que TODOS fazem neste bloco)
 
-- [ ] **Escassez crível e auditável, nunca sobre mentira.** Três desenhos validados: bônus pros N primeiros (produto não fecha - GA), condição/preço da sessão (comprável depois por mais caro - webinar A do corpus/C, Juliana), mecanismo terceirizado com reason-why (timer - Fladlien). Nenhum campeão mente estoque.
+- [ ] **Escassez crível e auditável, nunca sobre mentira.** Três desenhos validados: bônus pros N primeiros (produto não fecha - GA), condição/preço da sessão (comprável depois por mais caro - webinar A do corpus/C, a Aluna 80k), mecanismo terceirizado com reason-why (timer - Fladlien). Nenhum campeão mente estoque.
 - [ ] **Confirmação verificável da escassez** ("a telinha mostra: parabéns, você está entre os 15"; contador na tela; preço de prateleira auditável no site/bio). Escassez sem prova vira desconfiança.
 - [ ] **Cartão na mão ANTES do link** ("já vai pegando o seu cartão, se é virtual abre no celular") - converter intenção em prontidão motora no pico emocional.
 - [ ] **Corrida narrada ao vivo** (vagas caindo 12→11→9→8→4; compras celebradas com nome; "tô vendo que já tem inscrições") - a compra alheia vira pressão social audível.
@@ -236,10 +236,10 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 - **Liberar o link sem preparar o corpo.** Soltar o link com a sala fria de fricção (cartão na gaveta, sem instrução de clique) desperdiça o pico - o corpus inteiro prepara a ação motora antes.
 - **Silêncio ou encerramento seco pós-link.** Fechar a live logo após liberar o link abandona quem hesita - os campeões seguram a sala com prova, contagem e celebração até a última vaga.
 - **Prorrogar a escassez em público.** Ceder ao "mantém o preço amanhã?" uma vez ensina a audiência a nunca mais correr.
-- **Urgência por gritaria, sem reason-why.** O Fladlien racionaliza ("matar o maybe"), a GA mecaniza (sistema), a Juliana emociona (identidade) - nenhum simplesmente grita "CORRE!" sem estrutura por baixo.
+- **Urgência por gritaria, sem reason-why.** O Fladlien racionaliza ("matar o maybe"), a GA mecaniza (sistema), a Aluna 80k emociona (identidade) - nenhum simplesmente grita "CORRE!" sem estrutura por baixo.
 - **Empilhar escassez e desconto na mesma moeda.** A máquina do webinar-modelo GA separa: o desconto remove a objeção de preço (todos levam), a corrida é pelos bônus (15 primeiros). Misturar dilui as duas urgências.
 - **Pro perpétuo: deadline de calendário fake.** O desenho validado é o do webinar A do corpus - condição da SESSÃO com diferença de preço real e auditável. Timer de calendário falso em evergreen é o erro que queima a máquina.
-- **Decalcar forma com dono** ("rigged timer" e o frame do maybe são Fladlien; "parabéns, você está entre os 15" é GA; barco/arquibancada é pele Vítor). Extrair o desenho, reconstruir na voz do especialista.
+- **Decalcar forma com dono** ("rigged timer" e o frame do maybe são Fladlien; "parabéns, você está entre os 15" é GA; barco/arquibancada é pele do corpusA). Extrair o desenho, reconstruir na voz do especialista.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 

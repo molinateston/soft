@@ -1,7 +1,7 @@
 # Oferta/Stack (a aula reembalada como produto, bônus por objeção, valor empilhado item a item)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Mecanismos com dono: "bônus do combinado não sai caro" = GA; "Black Belt Club" e a escada de faixas = Bruno/Webinar C; a regra "bônus convertem mais que a oferta" = Fladlien.
+> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **o especialista** (dentista) - é referência de craft, não fala do corpus estudado. Mecanismos com dono: "bônus do combinado não sai caro" = GA; "Black Belt Club" e a escada de faixas = o especialista do corpusC/Webinar C; a regra "bônus convertem mais que a oferta" = Fladlien.
 
 ---
 
@@ -45,7 +45,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesma máquina, mesmo script-base; bônus em camadas de escassez
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - mesma máquina, mesmo script-base; bônus em camadas de escassez
 
 **Trecho literal:**
 
@@ -65,13 +65,13 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - stack com o ativo proprietário mais original da máquina
+### Gestão Ágil ed. 2.0 (GA, apresentado pelo criador do webinar de gestão ágil estudado) - stack com o ativo proprietário mais original da máquina
 
 **Trecho literal:**
 
 > "Ele é um curso de 7 módulos, tá? […] Nesses sete módulos, você vai aprender tudo sobre Scrum, Kanban, OKR, Design Thinking, Lean, Antifrágil, Liderança, Inteligência Emocional."
 
-> (entrega que mata objeções logísticas) "você vai ter 12 meses de acesso para você poder rever e rever quantas vezes você precisar […] A cada 15 dias, eu ou o Denis ou a nossa equipe de tutores vai estar lá no Zoom, ao vivo […] a gente tem uma equipe de tutores, que são ex-alunos nossos, aqueles alunos cases de sucesso […] tem uma área de vagas, mural de vagas, tem muita vaga que é fechada dentro do curso, que é aluno que contrata outro aluno"
+> (entrega que mata objeções logísticas) "você vai ter 12 meses de acesso para você poder rever e rever quantas vezes você precisar […] A cada 15 dias, eu ou o meu sócio ou a nossa equipe de tutores vai estar lá no Zoom, ao vivo […] a gente tem uma equipe de tutores, que são ex-alunos nossos, aqueles alunos cases de sucesso […] tem uma área de vagas, mural de vagas, tem muita vaga que é fechada dentro do curso, que é aluno que contrata outro aluno"
 
 > (o Drive de 14 mil alunos - ativo proprietário) "cada aluno nosso ganha uma pasta no nosso Google Drive […] lembra que eu falei que a gente já tem 14 mil alunos? imagina a quantidade de exercícios que a gente tem aqui […] você entra lá na sua área de aluno e digita aqui, exemplo de Kanban na logística, vai aparecer um monte para você."
 
@@ -85,7 +85,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### GAIA2k (Denison/GA - "Gestão Ágil na Era da IA") - a mesma máquina com bônus desenhados pela onda do momento
+### GAIA2k (o criador do webinar de gestão ágil estudado/GA - "Gestão Ágil na Era da IA") - a mesma máquina com bônus desenhados pela onda do momento
 
 **Trecho literal:**
 
@@ -107,7 +107,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - oferta como completude dos 3 pilares da aula
+### Aluna 80k (a Aluna 80k - "Seja Arquiteto na América") - oferta como completude dos 3 pilares da aula
 
 **Trecho literal:**
 
@@ -127,9 +127,9 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 ---
 
-### Webinar webinar A do corpus (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - produto apresentado como JORNADA de identidades
+### Webinar webinar A do corpus (pele Soft aplicada: nutrição / o especialista do corpusA / MDI) - produto apresentado como JORNADA de identidades
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > "o que que é o MDI: um programa de 12 semanas para você montar e seguir a sua dieta inteligente e alcançar um ano de resultado em 3 meses"
 
@@ -143,11 +143,11 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 **Por que funciona:** jornada com nomes de identidade vende transformação de quem ela É, não acesso a conteúdo. Stack desenhado objeção-a-objeção faz o "não" ficar sem onde morar antes mesmo do preço aparecer.
 
-**O que é decalcável vs do nicho:** decalcável: a jornada em identidades nomeadas com prazo por fase; componente-por-objeção; precificar cada peça antes do total. Do nicho: app de dieta, Telegram, os nomes das fases (são do MDI/Vítor).
+**O que é decalcável vs do nicho:** decalcável: a jornada em identidades nomeadas com prazo por fase; componente-por-objeção; precificar cada peça antes do total. Do nicho: app de dieta, Telegram, os nomes das fases (são do MDI/especialista do corpusA).
 
 ---
 
-### Webinar C (corpus o autor do corpus - voz Bruno, dentista; "Resina Anterior / Método One 2.0") - stack que fecha os buracos da aula na mesma ordem
+### Webinar C (corpus o autor do corpus - voz do especialista do corpusC, dentista; "Resina Anterior / Método One 2.0") - stack que fecha os buracos da aula na mesma ordem
 
 **Trecho literal:**
 
@@ -163,11 +163,11 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 
 > "são 31 módulos, são mais de 90 aulas, direto ao ponto viu galera, entendeu meu estilo já, não tem mimimi"
 
-**O que ele fez:** stack clássico com "poderia vender separado" verbalizado 3x; bônus que matam objeções específicas (precificação → "não sei cobrar"; psiquiatra/humanização → "técnica não basta"; redes sociais → "não tenho pacientes"); continuidade semanal (Black Belt Club, nome do Bruno) amarrada à metáfora das faixas plantada na autoridade; bônus aspiracional de status (lista de indicações = virar o dentista-referência prometido no bloco 04); números de volume (31 módulos / 90+ aulas); a oferta paga a metáfora das pegadas plantada na Big Idea ("as pegadas já estão marcadas para você").
+**O que ele fez:** stack clássico com "poderia vender separado" verbalizado 3x; bônus que matam objeções específicas (precificação → "não sei cobrar"; psiquiatra/humanização → "técnica não basta"; redes sociais → "não tenho pacientes"); continuidade semanal (Black Belt Club, nome do especialista do corpusC) amarrada à metáfora das faixas plantada na autoridade; bônus aspiracional de status (lista de indicações = virar o dentista-referência prometido no bloco 04); números de volume (31 módulos / 90+ aulas); a oferta paga a metáfora das pegadas plantada na Big Idea ("as pegadas já estão marcadas para você").
 
 **Por que funciona:** cada item do stack fecha um buraco aberto durante a aula - o stack é a lista das dores na mesma ordem em que foram instaladas. O Black Belt Club e as indicações vendem PERTENCIMENTO ao time, não conteúdo extra.
 
-**O que é decalcável vs do nicho:** decalcável: "poderia vender separado" como construção de valor; continuidade que paga a metáfora-identidade do método; bônus de status que entrega a promessa do bloco de problema. Do nicho/dono: faixas, espátula, acervo de resinas e "Black Belt Club" são do Bruno.
+**O que é decalcável vs do nicho:** decalcável: "poderia vender separado" como construção de valor; continuidade que paga a metáfora-identidade do método; bônus de status que entrega a promessa do bloco de problema. Do nicho/dono: faixas, espátula, acervo de resinas e "Black Belt Club" são do especialista do corpusC.
 
 ---
 
@@ -239,7 +239,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - **Detalhar demais o produto-núcleo e correr nos bônus.** Fladlien inverte de propósito ("everybody does wrong… they'll spend 55 minutes explaining every little thing") - bônus convertem mais que a oferta.
 - **Revelar tudo do bônus.** Curiosity gap dentro do stack (armas secretas, produtos não revelados) é padrão dos dois Fladlien - bônus 100% transparente perde tração.
 - **Esconder limitações que vão aparecer no checkout** (juros, acesso limitado). Os campeões declaram ("tem um juros pequeno da plataforma") - surpresa no checkout mata a venda construída.
-- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é GA; "Black Belt Club" é do Bruno; "GPS da gestão ágil" é GA. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
+- **Decalcar rótulo com dono.** "Bônus do combinado não sai caro" é GA; "Black Belt Club" é do especialista do corpusC; "GPS da gestão ágil" é GA. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
 - **Pro avatar Soft especificamente:** o stack GA resolve dores de CLT (vagas, certificado, plano de carreira). O dono de negócio tem outros modos de fracasso (não implementar, não ter equipe, não ter processo) - mapear os dele antes de desenhar os itens.
 
 ## Webinars sem este bloco (e por quê - também é dado)

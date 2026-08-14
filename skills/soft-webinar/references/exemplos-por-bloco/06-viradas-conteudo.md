@@ -18,7 +18,7 @@ Este bloco é o miolo do webinar - e ele tem dupla função simultânea: a aula 
 1. Entregar valor REAL e aplicável amanhã (checklist, conta feita ao vivo, demo de tela) - isso compra confiança, gera reciprocidade e prova competência.
 2. Ensinar o QUÊ (o mapa completo, os nomes, a ordem) e nunca o COMO sistematizado (preencher o canvas, calcular o macro, o template) - o gancho do braçal: quem entendeu o mapa sente competência crescendo e ao mesmo tempo percebe o tamanho do trabalho de fazer sozinho.
 3. Cada virada demole uma crença específica na ordem em que ela impediria a compra - e o conteúdo prova a big idea em vez de esgotar o assunto.
-4. Nomear o atalho como mecanismo proprietário (com dono: "visão de floresta" é da GA, "3 Cs" é do Vítor, "faixas" é do Bruno) - o nome vira atalho verbal que reaparece no pitch.
+4. Nomear o atalho como mecanismo proprietário (com dono: "visão de floresta" é da GA, "3 Cs" é do especialista do corpusA, "faixas" é do especialista do corpusC) - o nome vira atalho verbal que reaparece no pitch.
 5. Costurar o produto DENTRO do conteúdo ("isso a gente aprofunda no curso") muito antes da oferta - quando o pitch chega, comprar é só a conclusão natural da própria aula.
 O teste de qualidade: a pessoa precisa sair do bloco dizendo "aprendi mais aqui do que em curso pago" E sentindo com clareza o que ainda falta - as duas coisas juntas, nunca só uma.
 
@@ -60,7 +60,7 @@ Recap acumulativo antes da transição:
 
 ---
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - gestores, curso R$~2k, mesma máquina com a virada de escopo mais nítida do corpus
+### Gestão Ágil ed. 2.0 (GA) - gestores, curso R$~2k, mesma máquina com a virada de escopo mais nítida do corpus
 
 **Trecho literal:**
 
@@ -93,7 +93,7 @@ Posicionamento acima da concorrência:
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, GA) - gestores/profissionais, mesma esteira, versão com curadoria-como-autoridade mais explícita
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, GA) - gestores/profissionais, mesma esteira, versão com curadoria-como-autoridade mais explícita
 
 **Trecho literal:**
 
@@ -117,7 +117,7 @@ Posicionamento acima da concorrência:
 
 ---
 
-### Aluna 80k (Juliana Pupim, "Seja Arquiteto na América") - arquitetos BR → mercado dos EUA; bloco mais longo do corpus (~27–80% do webinar), 6 viradas encadeadas por crença
+### Aluna 80k ("Seja Arquiteto na América") - arquitetos BR → mercado dos EUA; bloco mais longo do corpus (~27–80% do webinar), 6 viradas encadeadas por crença
 
 **Trecho literal:**
 
@@ -133,7 +133,7 @@ Virada 2 - por que o arquiteto é valorizado lá (mecanismo, não mística):
 
 Gancho do braçal → atalho (a esporra do chefe vira regra):
 
-> "o meu chefe, depois de me dar tanta esporra, ele falou: \"Juliana, o tempo que você gasta fazendo esse tanto de corte, a obra já tá pronta. Não dá tempo."
+> "o meu chefe, depois de me dar tanta esporra, ele falou: \"[nome dela], o tempo que você gasta fazendo esse tanto de corte, a obra já tá pronta. Não dá tempo."
 
 Virada 3 - sistema imperial sem medo (com bordão):
 
@@ -163,9 +163,9 @@ Virada 6 - Estratégia 2, empreender nichado (com conta feita ao vivo):
 
 ---
 
-### Webinar do corpus estudado - A (pele Soft: nutrição / Vítor Abrão / MDI) - emagrecimento, virada curta e cirúrgica: o framework dos 3 Cs
+### Webinar do corpus estudado - A (pele Soft: nutrição / especialista do corpusA / MDI) - emagrecimento, virada curta e cirúrgica: o framework dos 3 Cs
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > "Olha só como você faz para identificar uma dieta inteligente: ela tem três pilares, são os três seis: comer muito, comer gostoso e comer saudável"
 
@@ -179,7 +179,7 @@ Virada 6 - Estratégia 2, empreender nichado (com conta feita ao vivo):
 
 > "sabe o que que foi mais legal aqui: é que não teve diferença no desfecho Total entre as pessoas que fizeram a dieta low carb e as pessoas que fizeram dietas baixas em gordura. se você quiser procurar Esse estudo é só você pegar copiar esse nome que tá aqui […] e jogar lá no site pubmed"
 
-**O que ele fez:** (1) framework proprietário de 3 itens (3 Cs, do Vítor/MDI) com nome simples e pilar nº1 contraintuitivo - no nicho da restrição, o primeiro mandamento é "comer MUITO"; (2) entrega o QUÊ e o PORQUÊ com generosidade real (combinações proteína+carbo com fibra, 35ml/kg de água - aplicável hoje) mas retém o COMO sistematizado (cálculo de macros, cardápio, app - ficam no produto); (3) cada pilar fecha com feedback de aluna colado (prova just-in-time); (4) convite à verificação externa (PubMed) como teatro de transparência.
+**O que ele fez:** (1) framework proprietário de 3 itens (3 Cs, do especialista do corpusA/MDI) com nome simples e pilar nº1 contraintuitivo - no nicho da restrição, o primeiro mandamento é "comer MUITO"; (2) entrega o QUÊ e o PORQUÊ com generosidade real (combinações proteína+carbo com fibra, 35ml/kg de água - aplicável hoje) mas retém o COMO sistematizado (cálculo de macros, cardápio, app - ficam no produto); (3) cada pilar fecha com feedback de aluna colado (prova just-in-time); (4) convite à verificação externa (PubMed) como teatro de transparência.
 
 **Por que funciona:** o conteúdo é a própria demonstração da big idea - cada virada reverte um "não pode" do vilão (dieta restritiva) em "pode, e é por isso que funciona". Dar tática real cria reciprocidade e prova competência; o trabalho pesado de personalizar e calcular continua atrás do paywall.
 
@@ -187,21 +187,21 @@ Virada 6 - Estratégia 2, empreender nichado (com conta feita ao vivo):
 
 ---
 
-### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0", voz Bruno (dentista) - dentistas, curso R$1.997; a virada central é ECONÔMICA, não técnica
+### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0", voz do especialista do corpusC (dentista) - dentistas, curso R$1.997; a virada central é ECONÔMICA, não técnica
 
 **Trecho literal:**
 
 Virada 1 - a conta do dente de R$30 (o quê + número):
 > "resina r$ 200 dividido por 20 facetas, r$ 10 por dente. Adesivo: você foi lá e comprou um bom adesivo […] r$ 300 e ele tá dando 150 gotas, ou seja sai 2 reais a gota […] é de 2 a r$ 4 […] gás, lençol de borracha, as fosfórico, luva, tudo não vai dar mais que r$ 18. O custo total de material para você fazer um dente de resina é r$ 30 galera"
 
-> "se eu somar a hora Clínica com material tá dando 100 reais por dente […] se você cobrar r$ 500 por dente é cinco vezes o valor do seu custo […] agora é você que determina quando você quer ganhar. Vamos falar do que que é justo: o justa mil reais por dentro, se o seu curso fossem pelo trabalho que se entrega. Bruno, que isso, mas não existe essa margem de lucro que sai de 100 e dá 900. Mais de lucro você merece. Se você está olhando para isso e falando 'ai cara, não sei que eu mereço', então você não merece mesmo não"
+> "se eu somar a hora Clínica com material tá dando 100 reais por dente […] se você cobrar r$ 500 por dente é cinco vezes o valor do seu custo […] agora é você que determina quando você quer ganhar. Vamos falar do que que é justo: o justa mil reais por dentro, se o seu curso fossem pelo trabalho que se entrega. [nome dele], que isso, mas não existe essa margem de lucro que sai de 100 e dá 900. Mais de lucro você merece. Se você está olhando para isso e falando 'ai cara, não sei que eu mereço', então você não merece mesmo não"
 
 Virada 2 - erros do faixa branca (gancho do braçal → atalho):
-> "se você é faixa branca, se você veio hoje para o seu primeiro treino, você nem kimono tem ainda, não complica a sua vida. Existe uma coisa que eu adoro que é fazer o básico bem feito […] Bruno, quer comprar um pigmento? Não, mas espera aí, você acha o quê - você não precisa de pigmento não, meu amigo, deixa o pigmentar faixa preta"
+> "se você é faixa branca, se você veio hoje para o seu primeiro treino, você nem kimono tem ainda, não complica a sua vida. Existe uma coisa que eu adoro que é fazer o básico bem feito […] [nome dele], quer comprar um pigmento? Não, mas espera aí, você acha o quê - você não precisa de pigmento não, meu amigo, deixa o pigmentar faixa preta"
 
 > "achar que para ficar bom em resina precisa treinar em cena [encerar]. […] quero ficar bom e resina, vou lhe comprar um gotejador e vou encerar. Eu quero ficar bom em tênis: jogar tênis. Eu vou ali, vou comprar uma bola de beisebol e vou jogar tênis - faz sentido nenhum"
 
-> "instrumento e equipamento nunca vem antes de conhecimento. Bruno, que que eu compro primeiro, uma lupa ou faça um curso? Faz um curso. […] galera, já te ajudei a economizar pelo menos r$ 1000 não deixando você comprar pincel espátula caro"
+> "instrumento e equipamento nunca vem antes de conhecimento. [nome dele], que que eu compro primeiro, uma lupa ou faça um curso? Faz um curso. […] galera, já te ajudei a economizar pelo menos r$ 1000 não deixando você comprar pincel espátula caro"
 
 Virada 3 - a escada de faixas (estrutura do método inteiro entregue como conteúdo):
 > "quando você chega na faixa Verde você começa a saber trabalhar com os instrumentos. Eu desenvolvi uma espátula […] chama One, é uma espátula que eu desenvolvi para fazer resina anterior. Sabe quantas espátulas você precisa para fazer resina anterior? Só essa aqui"
@@ -213,7 +213,7 @@ Virada 3 - a escada de faixas (estrutura do método inteiro entregue como conte�
 Virada 4 - demonstração da foto-ativação (prova científica dentro do conteúdo):
 > "pegou um grupo de estudantes, todos formados, todos fazendo pós-graduação, entregou o mesmo foto polimerizador para todos […] dentro de 16 existe um sensor […] cada linha vermelha é um operador, é uma pessoa, o mesmo foto polimerizador, o mesmo dente. Olha como o sensor captor diferente, porque as pessoas posicionam o foto ativador de maneira errada"
 
-**O que ele fez:** (1) reprecificação mental como conteúdo: números auditáveis (R$200/20 facetas/R$30 de custo/R$100 com hora clínica/justo = R$1.000) - a "aula" reprecifica o serviço do próprio aluno; (2) cada "erro do faixa branca" é um mito demolido + economia presenteada ("já te ajudei a economizar R$1.000") = reciprocidade quantificada; (3) a escada de faixas (do Bruno) É o índice do curso disfarçado de conteúdo - mostra O QUÊ de cada faixa, o COMO fica para o produto; (4) analogias em série (tênis/beisebol, academia); (5) mecanismo proprietário nomeado e físico (a espátula One, do Bruno); (6) loop de retenção no meio da aula; (7) estudo científico encenado como prova de que até o básico (fotoativar) é feito errado por formados.
+**O que ele fez:** (1) reprecificação mental como conteúdo: números auditáveis (R$200/20 facetas/R$30 de custo/R$100 com hora clínica/justo = R$1.000) - a "aula" reprecifica o serviço do próprio aluno; (2) cada "erro do faixa branca" é um mito demolido + economia presenteada ("já te ajudei a economizar R$1.000") = reciprocidade quantificada; (3) a escada de faixas (do especialista do corpusC) É o índice do curso disfarçado de conteúdo - mostra O QUÊ de cada faixa, o COMO fica para o produto; (4) analogias em série (tênis/beisebol, academia); (5) mecanismo proprietário nomeado e físico (a espátula One, do especialista do corpusC); (6) loop de retenção no meio da aula; (7) estudo científico encenado como prova de que até o básico (fotoativar) é feito errado por formados.
 
 **Por que funciona:** a virada central não é técnica, é econômica - quando o espectador aceita que o dente custa R$30 e o justo é R$1.000, o curso de R$1.997 já está pago em dois dentes: a ancoragem do bloco de preço foi plantada uma hora antes. E a escada de faixas instala a crença "existe um caminho ordenado" enquanto cria a consciência de tudo que falta dominar.
 
@@ -221,7 +221,7 @@ Virada 4 - demonstração da foto-ativação (prova científica dentro do conte�
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira/GA) - gestores + IA, Formação Gestão Ágil 2.0, R$1.997; a máquina do webinar-modelo GA com camada de IA
+### GAIA2k - "Gestão Ágil na Era da IA" (GA) - gestores + IA, Formação Gestão Ágil 2.0, R$1.997; a máquina do webinar-modelo GA com camada de IA
 
 **Trecho literal:**
 
@@ -335,7 +335,7 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - [ ] **Valor real verificável**: algo aplicável amanhã (checklist de 4 passos, 35ml/kg, busca "hiring" no LinkedIn, script copiável) - sem isso o gancho do braçal vira só teaser.
 - [ ] **O quê sem o como sistematizado**: mapa completo na aula, preenchimento no produto. Os campeões VERBALIZAM a retenção com razão honesta ("senão a gente fica o dia inteiro aqui").
 - [ ] **Viradas ordenadas por crença**: cada secret demole a objeção na ordem em que ela barraria a compra (mais nítido na Aluna 80k e no webinar A do corpus).
-- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (GA), "3 Cs" (Vítor/MDI), escada de faixas + espátula One (Bruno), "better than free" e "two choices close" (Fladlien). O nome reaparece no pitch como diferencial.
+- [ ] **Mecanismo/filtro com nome próprio**: "visão de floresta" e "gestão gasosa" (GA), "3 Cs" (o especialista do corpusA/MDI), escada de faixas + espátula One (o especialista do corpusC), "better than free" e "two choices close" (Fladlien). O nome reaparece no pitch como diferencial.
 - [ ] **Curadoria como autoridade**: "eu sei qual é o 80/20" - vende-se o filtro, não a informação ("você não precisa ler tudo isso").
 - [ ] **Seeding nominal do produto dentro do conteúdo** (≥1x, GA faz 4-6x): "isso a gente aprofunda no curso X" - normaliza a oferta antes dela existir.
 - [ ] **Comando físico de engajamento**: "papel e caneta", "anota", "tira print", "write this down" - e o print/PDF prometido só pra quem fica até o fim.

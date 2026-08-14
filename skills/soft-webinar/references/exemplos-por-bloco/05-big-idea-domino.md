@@ -56,7 +56,7 @@ A equação (o dominó formalizado):
 
 ---
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
+### Gestão Ágil ed. 2.0 (GA) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
 
 **Trecho literal:**
 
@@ -88,7 +88,7 @@ Reforço com autoridade emprestada:
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesma máquina/mesmo script-base do GA; Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês)
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - mesma máquina/mesmo script-base do GA; Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês)
 
 **Trecho literal:**
 
@@ -110,7 +110,7 @@ Reforço com autoridade emprestada:
 
 ---
 
-### Aluna 80k (Juliana Pupim - Seja Arquiteto na América) - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500 com cupom, deadline 23:59
+### Aluna 80k ("Seja Arquiteto na América") - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500 com cupom, deadline 23:59
 
 **Trecho literal:**
 
@@ -136,7 +136,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 > "vou te contar, depois que você entender a estratégia, não existe mais fronteira para você. É isso."
 
-**O que ele fez:** (1) identificação espelhada como tese ("se eu posso, você também pode" - assinatura da Juliana Pupim); (2) cláusulas anti-objeção embutidas na própria crença ("sem inglês fluente e sem validar diploma" - os dois maiores bloqueios negados dentro da frase); (3) prova por precedente de elite (Arthur Casas, Jacobsen "fazem há décadas") + conspiração suave ("eles só nunca te contaram como"); (4) mito derrubado com número ("nem 10% dos americanos têm licença"); (5) fechamento ritual de crença ("Quebrado esse mito. Tirou isso da sua cabeça.").
+**O que ele fez:** (1) identificação espelhada como tese ("se eu posso, você também pode" - assinatura da Aluna 80k); (2) cláusulas anti-objeção embutidas na própria crença ("sem inglês fluente e sem validar diploma" - os dois maiores bloqueios negados dentro da frase); (3) prova por precedente de elite (Arthur Casas, Jacobsen "fazem há décadas") + conspiração suave ("eles só nunca te contaram como"); (4) mito derrubado com número ("nem 10% dos americanos têm licença"); (5) fechamento ritual de crença ("Quebrado esse mito. Tirou isso da sua cabeça.").
 
 **Por que funciona:** o "ninguém te contou, mas os grandes sempre fizeram" transforma ceticismo em sensação de segredo revelado - a novidade fica crível porque é antiga. E quebrar o maior bloqueio (diploma/inglês) ANTES do conteúdo libera a audiência para se imaginar dentro da promessa o resto da aula.
 
@@ -144,7 +144,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 ---
 
-### Webinar do corpus estudado - A (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - evergreen, MDI de R$5.638 ancorado → R$997 → 12x R$79,78, garantia em dobro
+### Webinar do corpus estudado - A (pele Soft aplicada: nutrição / especialista do corpusA / MDI) - evergreen, MDI de R$5.638 ancorado → R$997 → 12x R$79,78, garantia em dobro
 
 **Trecho literal:**
 
@@ -158,7 +158,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 > "é é para você entender que não é a sua vida que se adequa a dieta, e sim a dieta que se adequa a sua vida. você não precisa fazer a tua vida caber dentro de um papel com alimentos escritos, gente, entende isso […] por isso que a dieta inteligente ela funciona tanto: que a ideia dela é fazer uma dieta que se adequ a você e não você se adequar o papel"
 
-**O que ele fez:** (1) big domino em variável única ("adesão" - conceito do Vítor Abrão/MDI: se você tem adesão, tudo cai); (2) declarações quiasmáticas memoráveis ("pode emagrecer comendo pão / engordar sem pão"; "não é a sua vida que se adequa à dieta, é a dieta que se adequa à sua vida"); (3) nova oportunidade batizada em binário sem meio-termo ("dieta inteligente" vs "dieta burra" - nomes do Vítor); (4) acusação ao silêncio do mercado ("é isso que ninguém nunca te explicou"); (5) selo de ciência + Einstein para fechar.
+**O que ele fez:** (1) big domino em variável única ("adesão" - conceito do especialista do corpusA/MDI: se você tem adesão, tudo cai); (2) declarações quiasmáticas memoráveis ("pode emagrecer comendo pão / engordar sem pão"; "não é a sua vida que se adequa à dieta, é a dieta que se adequa à sua vida"); (3) nova oportunidade batizada em binário sem meio-termo ("dieta inteligente" vs "dieta burra" - nomes do especialista do corpusA); (4) acusação ao silêncio do mercado ("é isso que ninguém nunca te explicou"); (5) selo de ciência + Einstein para fechar.
 
 **Por que funciona:** reduz um nicho saturado de táticas a UMA crença: adesão. Se a lead aceita esse dominó, toda dieta restritiva (toda a concorrência) cai automaticamente - e o produto dele é, por definição, o único compatível com a crença. O quiasmo torna a frase repetível: a lead consegue recontar a tese para a amiga, e quem reconta já comprou a crença.
 
@@ -166,7 +166,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 ---
 
-### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0" (voz que se identifica como Bruno, dentista) - odonto, R$12.000 ancorado → R$3.000 (bio) → R$1.997 p/ 10 primeiros
+### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0" (voz única que se identifica como o especialista, dentista) - odonto, R$12.000 ancorado → R$3.000 (bio) → R$1.997 p/ 10 primeiros
 
 **Trecho literal:**
 
@@ -188,7 +188,7 @@ E o fecho do dominó (dito no meio do case da Verônica):
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - Formação GA 2.0 a R$1.997 à vista / 12x R$199; edição que troca a onda VUCA pela onda IA
+### GAIA2k - "Gestão Ágil na Era da IA" (GA) - Formação GA 2.0 a R$1.997 à vista / 12x R$199; edição que troca a onda VUCA pela onda IA
 
 **Trecho literal:**
 
@@ -281,10 +281,10 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 1. **UMA crença, UMA frase.** Todos reduzem a tese a uma sentença curta e repetível ("tudo isso é possível aprendendo gestão ágil" · "resina não é fim, é meio" · "one problem, one solution, one sitting" · "a dieta se adequa à sua vida" · "se eu posso, você também pode"). Duas big ideas = nenhum dominó.
 2. **Comando de registro.** A frase nunca passa solta: "vamos grifar", "write this down", "já grava isso", "escreve para mim aqui no chat: meio", "se for lembrar de UMA coisa, lembra disso". O espectador grava/digita a crença - micro-compromisso com a tese antes da oferta.
 3. **Desejo ensaiado ANTES da tese.** Future pacing em série (GA/5 Níveis), quiz de crenças (Fladlien #2), cenários de carreira (GAIA2k): a crença pousa sobre um querer já confirmado no chat.
-4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - GA), te venderam "dieta burra" (Vítor Abrão), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (Fladlien), "eles nunca te contaram como" (Pupim).
+4. **Culpa externalizada.** Aceitar a crença nunca exige o avatar admitir incompetência: o mundo mudou (VUCA/IA - GA), te venderam "dieta burra" (o especialista do corpusA), a falha é do operador não-treinado e existe trilha (webinar C), o problema é a interrupção, não você (Fladlien), "eles nunca te contaram como" (a Aluna 80k).
 5. **O dominó derruba a concorrência junto.** Se a crença é verdadeira, TODA alternativa cai por definição: toda dieta restritiva, todo MBA "de linguiça", todo cursinho de Scrum isolado, toda tática de tráfego. O bloco é desenhado para esvaziar as outras opções, não só para convencer.
 6. **Prova terceirizada e impessoal.** Manchetes (G1/Exame), precedente de elite (Arthur Casas), gráfico acadêmico (Fogel), "fato matemático" (80/20), pesquisa própria com volume (880 mil respostas), número de mercado. A tese atacável vira tese de terceiros - quem ataca, ataca a Globo ou a matemática.
-7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (GA); "nem 10% têm a licença" (Pupim); "148 times" (Fladlien). A ressalva declarada aumenta a credibilidade do número.
+7. **Janela de oportunidade quantificada com hedging honesto.** "Eu chutaria, não tenho esse dado preciso… mas 80% com certeza" (GA); "nem 10% têm a licença" (a Aluna 80k); "148 times" (Fladlien). A ressalva declarada aumenta a credibilidade do número.
 8. **Promessa de prova explícita.** "Eu vou provar aqui pra você" · "Eu vou te explicar porquê" · "I will show you how to do it". O bloco abre o loop; o bloco de conteúdo existe para fechá-lo - a aula inteira vira evidência do dominó.
 9. **Fecho em equação causal simples, dita em voz alta.** "A equação é simples: você resolvendo os problemas das empresas → empresa lucra + você é valorizado" (GA); "adesão → resultado mantido" (MDI); "uma sentada → produto pronto → primeiro dólar" (Fladlien).
 10. **Reframe identitário embutido.** O lead sai de "quem sofre o problema" para "quem resolve problemas" / "gestor do futuro" (GA) / faixa preta (webinar C) / quem dá "permission to succeed" a si (Fladlien).

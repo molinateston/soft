@@ -7,7 +7,7 @@
 
 ## Passo 2, escreve o Mecanismo na SEQUÊNCIA REAL (o coração da aula)
 
-O Mecanismo NÃO é "inverter 3 crenças" nem "3 viradas". É uma **sequência rica e fixa** que instala uma NOVA OPORTUNIDADE (não uma melhoria) e termina no "EU QUERO". **Esta é a correção-mãe da skill: o Mecanismo segue a ordem da Fase M de `references/estrutura-real-webinar.md`, não um motor de viradas.** A ordem (estilo Marco Enes / Fladlien):
+O Mecanismo NÃO é "inverter 3 crenças" nem "3 viradas". É uma **sequência rica e fixa** que instala uma NOVA OPORTUNIDADE (não uma melhoria) e termina no "EU QUERO". **Esta é a correção-mãe da skill: o Mecanismo segue a ordem da Fase M de `references/estrutura-real-webinar.md`, não um motor de viradas.** A ordem (estilo escola do webinar de conversão / Fladlien):
 
 1. **O prático.** UM aperitivo real e só um ("quem tiver papel e caneta pega"). Abre o apetite, não enche a barriga. "Isso é UMA. Lá dentro tem a sequência inteira."
 2. **A nova oportunidade + a estreia do nome.** O veículo (ex.: o webinário perpétuo) ganha o palco e o nome é dito **com orgulho, só aqui**. "Não é versão melhor do que você já faz. É outra categoria de coisa." (tela quase vazia).

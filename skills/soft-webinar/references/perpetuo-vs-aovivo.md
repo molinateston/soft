@@ -66,7 +66,7 @@ A **estrutura** das mensagens é a mesma (antes / durante / pós, em `sequencias
 
 O único desenho honesto de escassez que roda em loop infinito: a oferta acaba quando a AULA acaba, e o produto continua comprável depois por mais caro, não se mente estoque nem se finge um timer de calendário.
 
-> **EXEMPLO (verbatim, pele Soft / nutrição / Vítor Abrão, ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`):** "se acabar essa aula, bicho, acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R$200 de desconto aqui." A urgência é atrelada à SESSÃO ("se essa aula acabar, acabou"), perfeita pra evergreen, porque a condição é da sessão e não do calendário.
+> **EXEMPLO (verbatim, pele Soft / nutrição / especialista do corpusA, ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`):** "se acabar essa aula, bicho, acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R$200 de desconto aqui." A urgência é atrelada à SESSÃO ("se essa aula acabar, acabou"), perfeita pra evergreen, porque a condição é da sessão e não do calendário.
 
 **O que isso significa pra a COPY das mensagens (o que a skill escreve):**
 - O WhatsApp do **min 50** (oferta abriu) diz "vale só nessa sessão", não "vale só hoje".

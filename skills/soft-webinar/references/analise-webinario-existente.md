@@ -47,7 +47,7 @@ Esta é a tabela-mãe da auditoria. Cada linha: o bloco, o que o **campeão faz*
 | **Ancoragem/preço** | Dupla ancoragem + queda em degraus com reason-why + troca de unidade ("R$5,51/dia, uma Coca") com prova do gasto banal (`10-ancoragem-preco.md`) | Preço a seco, sem âncora; desconto sem reason-why; sem trivialização | Preço sem âncora parece caro; desconto sem motivo cheira a desespero/preço inflado |
 | **Garantia** | Garantia CONDICIONAL de resultado (as condições são o plano de implementação); reembolso encenado com dignidade (`11-garantia.md`) | "Satisfação ou dinheiro de volta" genérico OU garantia ausente sem o bloco 10 forte que a substitua | Garantia é cardápio (decisão de design, não praxe), 6 de 9 campeões fecham sem ela; quem não tem, **precisa** de preço trivializado forte. NÃO decidir sozinho qual garantia: registrar como pergunta pro usuário decidir |
 | **Escassez/urgência/CTA** | Escassez crível e auditável (15 primeiros com confirmação na tela; sessão limitada no perpétuo); CTA repetido Gain/Logic/Fear (`12-escassez-urgencia-cta.md`) | Urgência inventada que o avatar fareja; CTA único (só 1 vez); sem CTA Fear | Urgência falsa quebra confiança do avatar maduro; um CTA só não pega quem decide por lógica nem quem decide por medo da inação |
-| **Q&A/objeções** | Objeção encenada pelo host antes de nascer ("Ju, …?" / "Bruno, mas…"); objeção-mãe invertida em vantagem; responde o estado decisório, não a pergunta literal (`13-qa-objecoes.md`) | Sem perguntas plantadas; respostas curtas que não quebram objeção; Q&A que alimenta o "maybe" | O "maybe" é o inimigo do bloco; responder o detalhe da pergunta evasiva alimenta o medo em vez de mover pra sim/não |
+| **Q&A/objeções** | Objeção encenada pelo host antes de nascer ("[nome], …?" / "[nome dele], mas…"); objeção-mãe invertida em vantagem; responde o estado decisório, não a pergunta literal (`13-qa-objecoes.md`) | Sem perguntas plantadas; respostas curtas que não quebram objeção; Q&A que alimenta o "maybe" | O "maybe" é o inimigo do bloco; responder o detalhe da pergunta evasiva alimenta o medo em vez de mover pra sim/não |
 | **Interação/chat (transversal)** | Escada de micro-compromissos do "tá me ouvindo?" ao "já me inscrevi" - no pitch a pessoa já disse sim 8x em público (`14-interacao-chat.md`) | Webinar que só transmite, sem colher confirmação; perpétuo com nome falso ("Maria de SP acabou de comprar") | Sem a escada de sins o pedido caro chega frio; nome falso no perpétuo = escassez/prova mentirosa, quebra de confiança |
 
 > **Como usar a tabela:** percorre cada bloco do webinar do cliente, compara com a coluna "régua", e onde houver vazamento, anota o bloco + o sintoma + a premissa violada. Esse trio (bloco + sintoma + premissa) é a unidade de diagnóstico do relatório - nunca anota um sintoma sem dizer qual premissa ele fere.
@@ -312,7 +312,7 @@ A linha de chegada: UMA crença gravável (Big Domino), mecanismo nomeado, "o qu
 
 > **EXEMPLO (régua, equação causal dita em voz alta - GA):** *"a equação é simples: você como profissional aprendendo a resolver os problemas das empresas vai gerar duas coisas, empresas mais produtivas e lucrativas… e para você como profissional um profissional mais valorizado."* **A régua:** a equação do webinar reduz o mecanismo a uma relação causal de uma frase, na moeda do avatar do usuário (o eixo/pilar do usuário, não um eixo importado).
 
-> **EXEMPLO (régua, comando de registro - campeões; "escreve no chat: meio" = Webinar C/voz Bruno, dentista; "vamos grifar" = GA):** o campeão manda o lead DIGITAR a crença ("escreve no chat: meio"; "vamos grifar"). Se o webinar do cliente declara a tese mas não manda registrar, perde o micro-compromisso.
+> **EXEMPLO (régua, comando de registro - campeões; "escreve no chat: meio" = Webinar C, voz do especialista do corpusC, dentista; "vamos grifar" = GA):** o campeão manda o lead DIGITAR a crença ("escreve no chat: meio"; "vamos grifar"). Se o webinar do cliente declara a tese mas não manda registrar, perde o micro-compromisso.
 
 > **EXEMPLO (régua da Faca Soft):** *"conteúdo bom não vende. Conteúdo bom sacia. E quem sai saciado não compra. Você estava com fome, comeu até encher, e agora não quer mais o prato do cara."* **Por que funciona:** entrega o "o quê" inteiro (eleva a consciência), reserva o "como" operacional pro produto. Auditoria: se o cliente ensina o passo a passo executável, ele saciou - vaza.
 
@@ -386,7 +386,7 @@ Solução: afia o **mecanismo único**. Se o método não tem nome próprio, **t
 **Reescrita prioritária:**
 - Adiciona 5 perguntas plantadas (tempo, dinheiro, adequação, competência, timing)
 - Insere Genie em 1 das respostas
-- Cada objeção plantada deve ser ENCENADA na voz do espectador ("Bruno, mas eu não cobro isso ainda…") e respondida no enquadramento do host, não do cético
+- Cada objeção plantada deve ser ENCENADA na voz do espectador ("[nome dele], mas eu não cobro isso ainda…") e respondida no enquadramento do host, não do cético
 - A objeção-mãe do nicho ("eu faço isso sozinho" / "não é pra minha área") é invertida em vantagem, nunca só respondida
 - Ver references `objection-annihilation.md` e `exemplos-por-bloco/13-qa-objecoes.md`
 

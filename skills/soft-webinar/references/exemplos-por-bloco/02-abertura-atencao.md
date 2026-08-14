@@ -1,7 +1,7 @@
 # Abertura/Atenção (promessa da aula, headline falada, regras da sala, por que ficar até o fim)
 
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista) - é referência de craft, não fala do corpus estudado. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = GA/Denison; "dieta inteligente" = Vítor Abrão; "Introduction→Content→Transition→Close" = Fladlien).
+> Ressalva de atribuição: o "Webinar C" do corpus tem um dispositivo de voz único, o host se dirige a si mesmo pelo próprio nome (dentista) - é referência de craft, não fala do corpus estudado. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = GA, do webinar de gestão ágil estudado; "dieta inteligente" = do especialista do corpusA; "Introduction→Content→Transition→Close" = Fladlien).
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
@@ -11,7 +11,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 ## Exemplo por exemplo
 
-### Webinar-modelo GA (Gestão Ágil, edição A - Denison Vieira) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$3M
+### Webinar-modelo GA (Gestão Ágil, edição A, do webinar de gestão ágil estudado) - gestão ágil p/ CLT que quer promoção; curso R$3.000→12x R$165; modelo-mestre do funil de R$3M
 
 **Trecho literal:**
 
@@ -27,7 +27,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: 3 objetivos com o último = promessa do produto + presente-mistério + grifo verbal do prazo. Do nicho/voz: "guerreiros e guerreiras", "gestor do futuro" e o trio trabalho/equipe/tempo são da GA - o autor do corpus nomeia na voz dele.
 
-### Gestão Ágil 2.0 (GA, ed. 2 - Denison) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
+### Gestão Ágil 2.0 (GA, ed. 2, do webinar de gestão ágil estudado) - mesma máquina; R$1.997 → R$165,34/mês; abre com loop de depoimentos antes do host
 
 **Trecho literal:**
 
@@ -43,7 +43,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: promessa + juramento de cumprimento, regra de chat com delegação, presente sem revelar. Do nicho: "referência em gestão" é a identidade aspiracional desse avatar CLT; cada nicho tem a sua.
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - mesmo roteiro do GA, outra sessão; R$1.997/R$1.697
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - mesmo roteiro do GA, outra sessão; R$1.997/R$1.697
 
 **Trecho literal:**
 
@@ -61,7 +61,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: emendar abertura → future pacing com isca de dor no chat; abertura como roteiro fixo reutilizável. Do nicho: os cenários imaginados (tempo/equipe/carreira) são o sonho do gestor CLT.
 
-### GAIA2k (Denison - "Gestão Ágil na Era da IA") - mesma máquina com onda nova (IA); R$1.997 à vista / 12x R$199
+### GAIA2k (do criador do webinar de gestão ágil estudado - "Gestão Ágil na Era da IA") - mesma máquina com onda nova (IA); R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
@@ -79,9 +79,9 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Por que funciona:** a abertura instala três coisas: identidade aspiracional (indispensável vs ficar pra trás), contrato de comportamento (eu falo, vocês respondem quando eu pedir) e razão concreta pra ficar até o fim. O elogio de entrada faz o espectador defender a própria escolha de estar ali - sair vira contradição. E a prova das duas edições (VUCA → IA) mostra que a abertura tem "slot de onda" trocável: o esqueleto fica, só a onda muda.
 
-**Decalcável vs do nicho:** decalcável: elogio de entrada, pacto de chat com reason-why, presente com punição, slot de onda. Do nicho/voz: "banho de loja" e "gestor indispensável" são maneirismos e rótulos do Denison.
+**Decalcável vs do nicho:** decalcável: elogio de entrada, pacto de chat com reason-why, presente com punição, slot de onda. Do nicho/voz: "banho de loja" e "gestor indispensável" são maneirismos e rótulos do criador do webinar de gestão ágil estudado.
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetos BR trabalhando p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
+### Aluna 80k ("Seja Arquiteto na América") - arquitetos BR trabalhando p/ EUA; R$7.355 ancorado → R$2.500, deadline 23:59
 
 **Trecho literal:**
 
@@ -101,11 +101,11 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: no-replay como motor de retenção (se for verdade), "posso contar com você por X minutos?", promessa com multiplicador numérico, qualificação que amplia em vez de filtrar. Do nicho: "três vezes mais porque você ganha no Brasil" só faz sentido na arbitragem cambial dela.
 
-### Webinar webinar A do corpus (pele Soft aplicada - Vítor Abrão, nutrição/MDI) - perpétuo gravado; R$997→R$797 na sessão; garantia em dobro
+### Webinar webinar A do corpus (pele Soft aplicada - o especialista do corpusA, nutrição/MDI) - perpétuo gravado; R$997→R$797 na sessão; garantia em dobro
 
 **Trecho literal:**
 
-> "Olá, seja muito bem-vinda à aula sobre dieta inteligente. eu sou Vítor Abrão, sou nutricionista, e aqui eu vou te dar todas as orientações para você entender como você vai perder gordura e ganhar massa muscular ao mesmo tempo. vamos ter um ano de resultado com TRS meses através de uma dieta inteligente, e é óbvio, sem abandonar o que realmente importa: os momentos da tua vida, as coisas que você tem que viver para ser feliz"
+> "Olá, seja muito bem-vinda à aula sobre dieta inteligente. eu sou nutricionista, e aqui eu vou te dar todas as orientações para você entender como você vai perder gordura e ganhar massa muscular ao mesmo tempo. vamos ter um ano de resultado com TRS meses através de uma dieta inteligente, e é óbvio, sem abandonar o que realmente importa: os momentos da tua vida, as coisas que você tem que viver para ser feliz"
 
 > "bom, Qual o objetivo dessa aula aqui pessoal: o erro que faz 99% das pessoas falhar e se frustrar n tentativas de dieta, eu V falar sobre isso. V falar também o caminho validado por milhares de pessoas, mais 3000, para você perder massa gorda e GH massa mesmo tempo. Alé disso vou falar os três pilares de uma dieta inteligente, como você pode conquistar um ano de resultado em apenas 3 meses com essa dieta, ok"
 
@@ -121,7 +121,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Decalcável vs do nicho:** decalcável: promessa com cláusula anti-sacrifício, agenda de loops numerados, desqualificação ativa, presente vinculado a compromisso - e o desenho perpétuo-friendly (nada que dependa de sala viva). Do nicho: "perder gordura e ganhar massa ao mesmo tempo" e o vilão "milagre" são da nutrição.
 
-### Webinar C (corpus o autor do corpus - voz Bruno, dentista; "Resina Anterior / Método One 2.0") - odonto; R$3.000→R$1.997 p/ 10 primeiros
+### Webinar C (corpus, o especialista do corpusC, dentista; "Resina Anterior / Método One 2.0") - odonto; R$3.000→R$1.997 p/ 10 primeiros
 
 **Trecho literal:**
 
@@ -176,15 +176,15 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 ## Padrões transversais (checklist - o que TODOS fazem neste bloco)
 
 - [ ] **Headline falada nos primeiros minutos**, com resultado + prazo (e nos melhores, a negação da dor esperada: "sem abandonar os momentos", "sem inglês fluente").
-- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina do webinar-modelo GA; 5 loops com número no Fladlien; "o erro de 99% + 3 pilares" no Vítor Abrão).
+- [ ] **Agenda em objetivos/loops numerados** (3 objetivos na máquina do webinar-modelo GA; 5 loops com número no Fladlien; "o erro de 99% + 3 pilares" no especialista do corpusA).
 - [ ] **O último objetivo é a promessa do PRODUTO** disfarçada de objetivo da aula ("reconhecido pelo mercado em 90 dias", "gestor indispensável") - abertura e oferta são o mesmo texto em dois tempos.
-- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (GA, GAIA2k, Vítor), no-replay (Juliana), promessa visual verificável (Bruno), agenda de loops (Fladlien). Nunca revelada na abertura; repicada no meio.
-- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (Fladlien 1 e 2), "Combinado?" (Juliana, Denison), "posso contar com você nos próximos 60 minutos?" (Juliana).
+- [ ] **Razão concreta pra ficar até o fim, plantada ANTES do conteúdo**: presente-mistério (GA, GAIA2k, especialista do corpusA), no-replay (Aluna 80k), promessa visual verificável (especialista do corpusC), agenda de loops (Fladlien). Nunca revelada na abertura; repicada no meio.
+- [ ] **Contrato bilateral explícito**: "Do we have a deal?" (Fladlien 1 e 2), "Combinado?" (Aluna 80k; webinar de gestão ágil estudado), "posso contar com você nos próximos 60 minutos?" (Aluna 80k).
 - [ ] **Regras da sala que protegem o host sem esfriar**: "não respondo 1:1, a equipe monitora" (ed.2), "vou focar na apresentação, mas de tempos em tempos eu olho" (GAIA2k) - sempre com reason-why ("por uma boa causa").
 - [ ] **Micro-compromisso digitado já neste bloco** (quiz T/F, "quem tem problema com gestão de tempo?", nome+cidade) - instala o hábito de responder que será cobrado no pitch.
 - [ ] **Elogio/rotulagem da audiência**: "guerreiros e guerreiras", "você já está na frente de um monte de gente", "você já é diferente" - quem fica ganha identidade.
 - [ ] **Compromisso público de cumprimento**: "eu vou cumpri-la com certeza", "promessa é lei", "I will show you how to do it" - a promessa vira contrato auditável no recap.
-- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Juliana), "papel e caneta" (Denison), "take it out right now" (Fladlien).
+- [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Aluna 80k), "papel e caneta" (webinar de gestão ágil estudado), "take it out right now" (Fladlien).
 - [ ] **Prazo/número grifado verbalmente** ("vou grifar essa palavrinha: 90 dias", "três vezes mais, não aceito menos") - o número da promessa fica marcado pra reaparecer na oferta.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
@@ -195,9 +195,9 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 - **Entrar no conteúdo técnico antes de fechar o contrato de atenção.** Todos gastam os primeiros minutos comprando permanência; nenhum abre ensinando.
 - **Abrir pedindo desculpas ou diminuindo a aula** ("vou tentar", "é só uma aulinha"). O movimento é o oposto: reprecificar o evento ("a melhor decisão que você tomou", "bolo com calda", "melhor conteúdo de 2020").
 - **Regras de sala sem reason-why.** Pedir comportamento "porque sim" não acontece - todo pedido vem com motivo funcional ("se ninguém colocar eu não vou saber", "é por uma boa causa").
-- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do Denison/GA; "Do we have a deal" é cadência Fladlien. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do corpus estudado - nunca transplantar a frase.
-- **Pra perpétuo: abertura que depende de sala viva.** O Vítor Abrão mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
-- **No-replay falso.** A Juliana usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
+- **Pra escrita Soft: decalcar bordão e rótulo de outro dono.** "Guerreiros e guerreiras", "banho de loja", "gestor do futuro" são assinatura do webinar de gestão ágil estudado/GA; "Do we have a deal" é cadência Fladlien. Extrair a premissa (rotular quem fica / contrato bilateral) e reconstruir no léxico do corpus estudado - nunca transplantar a frase.
+- **Pra perpétuo: abertura que depende de sala viva.** O especialista do corpusA mostra o desenho correto: todos os mecanismos do bloco (desqualificação, loops, presente) funcionam sem ler um único nome. Escrever abertura de perpétuo que promete ler o chat nominalmente cria promessa que a gravação não cumpre.
+- **No-replay falso.** A Aluna 80k usa "sem reprise" como motor - só é decalcável se for verdade operacional. Escassez de consumo inventada contamina a credibilidade de toda escassez posterior do webinar.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
@@ -206,5 +206,5 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 O que varia (e vale registrar como dado adjacente):
 - **Fladlien #1 e #2 não têm pré-início** (bloco 01): a gravação abre direto na headline ("And we are rolling" / "Product creation secrets") e a abertura ABSORVE a função do aquecimento - no #2, o quiz faz o papel de acordar o chat. Padrão de formato gravado/evergreen.
 - **Aluna 80k e webinar A do corpus abrem com vídeo-depoimento** antes da abertura falada (webinar A do corpus em loop perpétuo): a primeira impressão é prova de terceiro, e a abertura chega com a big idea pré-validada por uma cliente. O pré-início clássico (check técnico) não existe ou ficou fora do corte.
-- **Webinar C (Bruno) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
+- **Webinar C (o especialista do corpusC) inverte a ordem**: promessa primeiro, roll call de cidades depois - prova que a sequência interna do bloco é flexível; os trabalhos do bloco, não.
 - **A máquina do webinar-modelo GA roda a MESMA abertura em 4 edições** (GA, ed.2, 5 Níveis, GAIA2k) trocando só a onda (VUCA → IA): a abertura de campeão é roteiro fixo com slot de onda, não improviso por sessão.

@@ -104,7 +104,7 @@ A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair
 Os 5 do Bloco 3b, escritos: título + 5 ganchos + premise + USP falada + Mundo Ideal. Tudo deriva do fechado, nunca inventa. Sem esta seção o script inventa o título.
 
 ## Seção 3, O DIAGNÓSTICO + O MECANISMO (o ENSINO; o peso segue a consciência do público, sem percentual fixo)
-Estrutura REAL (`references/estrutura-real-webinar.md`), NÃO "3 viradas" (invenção arrancada). Tudo em LISTAS, item por clique (doutrina Marco Enes). **Faca Soft:** ensina o QUÊ e o PORQUÊ, nunca o COMO executável (*"se sair só com isto, ENTENDE o caminho ou CONSEGUE executar sozinho?"*: entende = certo; capaz = recuou demais). Loop aberto, carteira fechada.
+Estrutura REAL (`references/estrutura-real-webinar.md`), NÃO "3 viradas" (invenção arrancada). Tudo em LISTAS, item por clique (doutrina do clique). **Faca Soft:** ensina o QUÊ e o PORQUÊ, nunca o COMO executável (*"se sair só com isto, ENTENDE o caminho ou CONSEGUE executar sozinho?"*: entende = certo; capaz = recuou demais). Loop aberto, carteira fechada.
 
 ### 3a, O DIAGNÓSTICO (de fora pra dentro, postura de MÉDICO, em listas)
 Ordem **EXTERNO → FILOSÓFICO → INTERNO**, cada um um PICO curto:
@@ -122,7 +122,7 @@ Frameworks que vivem aqui (derivados da Herança): **6º nível** · **dor ≠ p
 Instala uma **NOVA OPORTUNIDADE** (não melhoria). Beats, cada um em lista, item por clique: **1** o prático (UM aperitivo, sem saciar) → **2** a nova oportunidade + a estreia do nome do veículo → **3** o fundamento antes da receita → **4** a prova racional (tabela comparativa + head-to-heads + lastro Schwartz/níveis) → **5** o batismo (*"fora de ordem é cobre, na ordem certa vira ouro"*) → **6** a prova-meta (*"você tá sentindo funcionar em você agora, você é a prova"*) → **7** a IA no nível da capacidade (mata "é complicado de montar"; nunca vira bandeira) → **8** o plano em passos (os 3 do produto, cada um matando uma crença) → **9** quadro-síntese ("printa esse slide") + yes-ladder (só "sim" → "digita EU QUERO no chat").
 
 ### 3c, COMO ENSINAR cada afirmação (batida de 4 tempos, a TÉCNICA, NÃO a arquitetura)
-Cada afirmação: **o que é · por que importa · me prova · exemplo** (Marco Enes/Fladlien; cada prova = 1 slide). É o JEITO de ensinar cada beat, NÃO uma divisão em "viradas". O "me prova" é colado na afirmação, na hora. **As 3 categorias de crença** (checklist): MÉTODO (mecanismo+prova) · INTERNA (acessibilidade+absolvição) · EXTERNA (inimigo+timing+garantia). **Prova como CONTEÚDO** (estudo de caso no meio da aula, prova o MÉTODO replicável, nunca o gênio). (`references/estrutura-real-webinar.md` Fases D e M; `references/esqueleto-universal-e-discernimento.md`.)
+Cada afirmação: **o que é · por que importa · me prova · exemplo** (doutrina do clique/Fladlien; cada prova = 1 slide). É o JEITO de ensinar cada beat, NÃO uma divisão em "viradas". O "me prova" é colado na afirmação, na hora. **As 3 categorias de crença** (checklist): MÉTODO (mecanismo+prova) · INTERNA (acessibilidade+absolvição) · EXTERNA (inimigo+timing+garantia). **Prova como CONTEÚDO** (estudo de caso no meio da aula, prova o MÉTODO replicável, nunca o gênio). (`references/estrutura-real-webinar.md` Fases D e M; `references/esqueleto-universal-e-discernimento.md`.)
 
 ## Seção 4, A PERSONA-ÂNCORA + crenças rotuladas
 Nome + cena privada + mentira que conta a si + desejo embaixo do desejo (herdada) + **crenças rotuladas INTERNA ou EXTERNA** + dores em verbatim. Sem fonte literal, `[A CONFIRMAR]`.

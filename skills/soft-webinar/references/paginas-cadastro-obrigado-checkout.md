@@ -297,7 +297,7 @@ NÃO É PRA VOCÊ SE:
 
 **Princípio:** discreto. Página de cadastro **não é página de vendas**. Prova social pesada vai pra página de checkout. Aqui ela só endossa.
 
-> **No perpétuo, a prova social tem um segundo uso (ver `01-pre-inicio` da biblioteca):** o mesmo depoimento que endossa o cadastro pode rodar em **loop de pre-roll** dentro da sala antes do host aparecer - escolhido pra já contar a tese (vilão + contraste numérico + promessa contraintuitiva). EXEMPLO verbatim de pre-roll que vende sozinho (nicho nutrição, pele Soft / Vítor Abrão, `01-pre-inicio`): *"eu tava com 72, 70 mais ou menos, e hoje eu tô com 58 […] perdi uns 18 Kg"* e *"ele falou: você não tem resultado porque você não tá comendo, é falta de comida"*. O depoimento instala a big idea ("comer muito = definir") antes da abertura. Escolha o seu depoimento pelo mesmo critério.
+> **No perpétuo, a prova social tem um segundo uso (ver `01-pre-inicio` da biblioteca):** o mesmo depoimento que endossa o cadastro pode rodar em **loop de pre-roll** dentro da sala antes do host aparecer - escolhido pra já contar a tese (vilão + contraste numérico + promessa contraintuitiva). EXEMPLO verbatim de pre-roll que vende sozinho (nicho nutrição, pele Soft / o especialista do corpusA, `01-pre-inicio`): *"eu tava com 72, 70 mais ou menos, e hoje eu tô com 58 […] perdi uns 18 Kg"* e *"ele falou: você não tem resultado porque você não tá comendo, é falta de comida"*. O depoimento instala a big idea ("comer muito = definir") antes da abertura. Escolha o seu depoimento pelo mesmo critério.
 
 ---
 
@@ -604,7 +604,7 @@ R: Em até 1 minuto após o pagamento, no seu e-mail, com login e senha.
 
 **Mecanismo do link controlado (GA, corpus estudado`12-escassez`):** o checkout do webinar é um **link próprio**, recompensado, e o avatar é desviado do site sem oferta. EXEMPLO verbatim (GA): *"não se inscreve pelo nosso site, quem usar o link que eu vou disponibilizar AQUI ganha 15% de desconto."* O desconto por canal dá razão pra comprar pelo link da aula, e o checkout vira prêmio (a "telinha que confirma os 15 primeiros").
 
-**Presente escondido no checkout (webinar A do corpus / Vítor Abrão, `12-escassez`):** EXEMPLO verbatim: *"eu tenho presente para você na página de pagamento, é um extra; se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada."* Isso converte curiosidade em **início de checkout** - até quem só quer "olhar" clica. O evento InitiateCheckout dispara, e o pós-webinar passa a saber quem chegou aqui.
+**Presente escondido no checkout (webinar A do corpus / o especialista do corpusA, `12-escassez`):** EXEMPLO verbatim: *"eu tenho presente para você na página de pagamento, é um extra; se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada."* Isso converte curiosidade em **início de checkout** - até quem só quer "olhar" clica. O evento InitiateCheckout dispara, e o pós-webinar passa a saber quem chegou aqui.
 
 > **Por que funciona:** o checkout não fica passivo esperando - ele tem um motivo extra de clique (presente) e um motivo de não fugir pro site (desconto exclusivo do canal). Escassez de condição auditável, nunca mentira de estoque.
 
@@ -713,7 +713,7 @@ Nessa variante, em vez de mandar o lead pra um formulário, você manda **direto
 4. **Nunca dê o preço seco.** Regra que o autor do corpus bate na tecla (corpus estudado): quando o lead pergunta "quanto custa?" e o vendedor responde o número, perdeu - o único parâmetro que o lead tem pra julgar o número é o bolso dele, quando deveria ser o valor que você gera. Dá um passo atrás primeiro:
 > EXEMPLO: "A gente tá com uma condição boa essa semana. Antes, me conta: por que você tá buscando resolver isso agora?"
 
-> **EXEMPLO real (a aluna que fez 80k - Juliana, corpus estudado):** no webinar dela, o fechamento dos indecisos não ia pra um checkout impessoal. Ela redirecionava: *"dúvidas no chat, ou minha equipe no WhatsApp na sala secreta."* Os indecisos caíam num atendimento humano 1:1 e a venda fechava na conversa. É o CTA-direto-pro-WhatsApp na prática - captura o calor de quem assistiu e leva pra conversa em vez de deixar a pessoa sozinha com um botão.
+> **EXEMPLO real (a Aluna 80k, corpus estudado):** no webinar dela, o fechamento dos indecisos não ia pra um checkout impessoal. Ela redirecionava: *"dúvidas no chat, ou minha equipe no WhatsApp na sala secreta."* Os indecisos caíam num atendimento humano 1:1 e a venda fechava na conversa. É o CTA-direto-pro-WhatsApp na prática - captura o calor de quem assistiu e leva pra conversa em vez de deixar a pessoa sozinha com um botão.
 
 **Quando usar:**
 - Validação inicial (antes de investir em páginas e automação).

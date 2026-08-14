@@ -44,7 +44,7 @@ A virada (Toyota como fonte primária, com humildade narrativa - "por sorte"):
 
 A fundação (origem do negócio como consequência de paixão, não de marketing):
 
-> "foi nessas consultorias que eu conheci o Denis Pedro também meu sócio que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a GA em 2014 tá, e a aí o resto é história"
+> "foi nessas consultorias que eu conheci meu sócio, que também gostava muito dessa parte. a gente falou cara vamos fundar uma empresa de Treinamento pra gente fazer isso que a gente tá fazendo aqui só que para na nossa empresa né, que a gente vai ter mais liberdade. e a gente fundou a GA em 2014 tá, e a aí o resto é história"
 
 **O que ele fez:** (1) dupla autoridade na ordem empresa→pessoa (16.230 alunos, 500k leitores, 400k seguidores / 25 anos de carreira, Santander, Toyota, BRQ); (2) seeding da âncora de preço dentro da autoridade - workshop 297-997, curso R$3.000, MBA R$12.000 ditos como informação neutra de catálogo, 90 min antes da oferta; (3) cicatriz com frase-síntese citável ("perdemos um bom técnico e ganhamos um péssimo Líder"); (4) o vilão da história é a ignorância dele mesmo ("eu não sabia ser gestor") - a mesma dor do avatar; (5) virada por sorte + Toyota como prova de linhagem ("direto na fonte"), reaproveitada depois na seção "por que esse curso é diferente"; (6) fundação da empresa como consequência de paixão.
 
@@ -54,7 +54,7 @@ A fundação (origem do negócio como consequência de paixão, não de marketin
 
 ---
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
+### Gestão Ágil ed. 2.0 (GA, host o criador do webinar de gestão ágil estudado) - mesma máquina, edição com loop de depoimentos no pré-início; Gestão Ágil 2.0 a R$1.997 → R$165,34/mês
 
 **Trecho literal:**
 
@@ -64,11 +64,11 @@ Autoridade da empresa por números:
 
 Autoridade pessoal:
 
-> "Meu nome é Denison, eu tenho mais de 20 anos, vou até atualizar esse slide, mais de 20 anos de experiência, nos últimos 14, na verdade nos últimos 15, […] Últimos 15 anos me especializando em gestão ágil de projetos. Sou apaixonado por isso, por esse tema"
+> "Eu tenho mais de 20 anos, vou até atualizar esse slide, mais de 20 anos de experiência, nos últimos 14, na verdade nos últimos 15, […] Últimos 15 anos me especializando em gestão ágil de projetos. Sou apaixonado por isso, por esse tema"
 
 História de origem (trajetória com marcas de prova):
 
-> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão ágil. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão ágil em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e o Denis Pedro fundamos a GA."
+> "Então eu comecei a trabalhar ali por volta de 97, 98, passei por diversas grandes empresas, Telefônica, Atento, Caixa, Nextel, Santander, e foi no Santander que eu tive minha primeira posição de gestão, onde eu comecei a aprender sobre gestão de projetos e gestão ágil. Logo em seguida eu entrei na Toyota, e aqui na Toyota foi onde eu aprendi sobre Lean, que eu vou explicar aqui para vocês nessa aula […] Então depois da Toyota eu passei por algumas consultorias como Tivit e BRQ, onde a gente implantou gestão ágil em diversas empresas, em vários lugares, E aí por volta de 2014, final de 2013 e 2014, eu e meu sócio fundamos a GA."
 
 **O que ele fez:** (1) autoridade em duas camadas (empresa → indivíduo); (2) número hiperespecífico (14.426 alunos, não "14 mil") para credibilidade; (3) claim de categoria ("a MAIOR escola de gestão ágil do Brasil"); (4) name-dropping de marcas Tier 1 (Toyota, Santander) com a Toyota dobrando como ORIGEM do método que ele vai ensinar (Lean) - autoridade vira setup de conteúdo; (5) loop aberto ("que eu vou explicar aqui para vocês"); (6) imperfeição calculada ("sou ruim de contas", "slide desatualizado") que humaniza e, por contraste, valida a precisão do número no slide.
 
@@ -78,7 +78,7 @@ História de origem (trajetória com marcas de prova):
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
 
 **Trecho literal:**
 
@@ -106,7 +106,7 @@ A virada de sorte com prova de fonte:
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - vende Gestão Ágil 2.0 por R$1.997 à vista / 12x R$199
+### GAIA2k - "Gestão Ágil na Era da IA" (o criador do webinar de gestão ágil estudado / GA) - vende Gestão Ágil 2.0 por R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
@@ -122,7 +122,7 @@ Seeding da esteira e do preço (ainda na apresentação!):
 
 Credencial pessoal + anti-teoria:
 
-> "Eu sou o Denison Vieira, eu tenho 27 anos de experiência profissional, sendo mais de 20 anos dedicados à gestão ágil. Então, tudo isso que eu vou falar pra você aqui também, eu não aprendi ontem, não aprendi nos livros, eu aprendi, cara, trabalhando no campo de batalha, no dia a dia dos projetos".
+> "Eu tenho 27 anos de experiência profissional, sendo mais de 20 anos dedicados à gestão ágil. Então, tudo isso que eu vou falar pra você aqui também, eu não aprendi ontem, não aprendi nos livros, eu aprendi, cara, trabalhando no campo de batalha, no dia a dia dos projetos".
 
 A cicatriz:
 
@@ -144,11 +144,11 @@ Falsa modéstia de fechamento:
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500, avatar arquiteta mal paga no Brasil
+### Aluna 80k ("Seja Arquiteto na América") - arquitetura remota Brasil→EUA, programa de R$7.355 ancorado → R$2.500, avatar arquiteta mal paga no Brasil
 
 **Trecho literal:**
 
-> "Quem é Juliana Pupim? Quem sou eu? Quem é que já me conhece? Quem é que sabe? Quem já ouviu falar de mim? Bom, eu treino e mentoro arquitetos e designers de interiores brasileiros. Eu sou pioneira ensinando projeto arquitetônico, projeto de arquitetura para brasileiros nos Estados Unidos. Por quê? Porque nasceu a partir da minha necessidade."
+> "Quem sou eu? Quem é que já me conhece? Quem é que sabe? Quem já ouviu falar de mim? Bom, eu treino e mentoro arquitetos e designers de interiores brasileiros. Eu sou pioneira ensinando projeto arquitetônico, projeto de arquitetura para brasileiros nos Estados Unidos. Por quê? Porque nasceu a partir da minha necessidade."
 
 A cicatriz (adaptação sem ninguém ensinando):
 
@@ -160,7 +160,7 @@ Origem do produto = pedido da chefe americana (autoridade emprestada):
 
 Humildade calculada + credencial gigante na mesma frase:
 
-> "eu entrei como cadista, então eu entrei sem saber nada col, eu já tinha 18 anos de formada no Brasil, uma baita de uma experiência, mais de 1 milhão de m² projetados, executados no Brasil. Eu realmente era muito grande no Brasil, mas quem era Juliana nos Estados Unidos? Ninguém."
+> "eu entrei como cadista, então eu entrei sem saber nada col, eu já tinha 18 anos de formada no Brasil, uma baita de uma experiência, mais de 1 milhão de m² projetados, executados no Brasil. Eu realmente era muito grande no Brasil, mas quem era eu nos Estados Unidos? Ninguém."
 
 Arco completo até o presente (ela vive o que vende):
 
@@ -174,7 +174,7 @@ Arco completo até o presente (ela vive o que vende):
 
 ---
 
-### Webinar webinar A do corpus (pele Soft aplicada: nutrição / voz Vítor Abrão / MDI) - emagrecimento, MDI a R$997 → R$797, sala perpétua
+### Webinar webinar A do corpus (pele Soft aplicada: nutrição / voz do especialista do corpusA / MDI) - emagrecimento, MDI a R$997 → R$797, sala perpétua
 
 **Trecho literal:**
 
@@ -198,17 +198,17 @@ Arco completo até o presente (ela vive o que vende):
 
 ---
 
-### Webinar C (corpus o autor do corpus - voz Bruno, dentista) - "Resina Anterior / Método One 2.0", odonto, R$3.000 público → R$1.997 pros 10 primeiros
+### Webinar C (corpus, o especialista do corpusC, dentista) - "Resina Anterior / Método One 2.0", odonto, R$3.000 público → R$1.997 pros 10 primeiros
 
 **Trecho literal:**
 
 > "sabe aonde que eu aprendi isso? Eu aprendi isso fazendo, eu aprendi isso no bucho, eu aprendi isso pagando as minhas contas fazendo resina anterior. Eu não vi uma família que tem grana, eu não vim de família rica. Vou deixar uma foto aqui ó, eu na minha adolescência lá em Patos de Minas, e sou eu de camisa laranja, pode acreditar, essa cachopa de cabelo aqui eu sou eu, o pescoço era dessa figurinha aqui. Essa que estão vendo na foto aí ó é a minha mãe, a minha avó, a primeira vez que eu fiz uma live e que elas conseguiram ligar a Live na televisão, ficou parecendo que eu era um artista, que elas fizeram uma foto assistindo a minha Live. Será que eu quero te dizer é que eu não vim de família rica, o que eu vou te ensinar aqui eu aprendi a dura as penas. Eu não vou deixar você aprender a dor apenas, porque hoje eu vou te dar o caminho. Mas a resina foi meio para mim e ela pode ser meio para você"
 
-> "eu peguei todo o conteúdo que eu desenvolvi ao longo do meu tempo fazendo mestrado - fiz mestrado na Federal de Uberlândia, fiz doutorado na USP São Paulo, fiz especialização de Radiologia, fiz especialização de dentística, fiz atualizações de prótese - peguei tudo isso, virei Professor, pesquisei, orientei mestrado, quarentei doutorado, e peguei todo o conteúdo que eu desenvolvi, que me ajudou a melhorar de vida, e coloquei nesses dois livros. Um deles, de finalização e manutenção de resina, tá esgotado, acabou, esse livro não tem mais, vendeu tudo. O outro - Bruno, você vai fazer de novo? Cara, não sei. Eu quero privilegiar você que tá aqui comigo, eu quero privilegiar os alunos que querem ficar comigo, eu não sei se eu vou colocar todos esses livros de novo no mercado"
+> "eu peguei todo o conteúdo que eu desenvolvi ao longo do meu tempo fazendo mestrado - fiz mestrado na Federal de Uberlândia, fiz doutorado na USP São Paulo, fiz especialização de Radiologia, fiz especialização de dentística, fiz atualizações de prótese - peguei tudo isso, virei Professor, pesquisei, orientei mestrado, quarentei doutorado, e peguei todo o conteúdo que eu desenvolvi, que me ajudou a melhorar de vida, e coloquei nesses dois livros. Um deles, de finalização e manutenção de resina, tá esgotado, acabou, esse livro não tem mais, vendeu tudo. O outro - você vai fazer de novo? Cara, não sei. Eu quero privilegiar você que tá aqui comigo, eu quero privilegiar os alunos que querem ficar comigo, eu não sei se eu vou colocar todos esses livros de novo no mercado"
 
 A história do pai (reprise da origem, ~55% do webinar):
 
-> "Meu pai fez um curso técnico de eletrônica lá em 1982 […] trabalhou durante quase 30 anos essa empresa, ele faleceu trabalhando nessa empresa […] como funcionário operacional, carteira assinada, bater ponto na hora de chegar, bater ponto na hora de sair. Falou: Bruno, só tem uma opção para você estudar, se você fizer uma escola pública, não tem condição de pagar particular. Fiz faculdade pública, minha mãe é costureira. Ou seja, eu mudei o padrão na minha família e eu espero que você mude da sua"
+> "Meu pai fez um curso técnico de eletrônica lá em 1982 […] trabalhou durante quase 30 anos essa empresa, ele faleceu trabalhando nessa empresa […] como funcionário operacional, carteira assinada, bater ponto na hora de chegar, bater ponto na hora de sair. Falou: só tem uma opção para você estudar, se você fizer uma escola pública, não tem condição de pagar particular. Fiz faculdade pública, minha mãe é costureira. Ou seja, eu mudei o padrão na minha família e eu espero que você mude da sua"
 
 A faixa preta de verdade (metáfora-identidade lastreada em vida):
 
@@ -291,18 +291,18 @@ Desmonte do pedestal (objeção "você é especial"):
 ## Padrões transversais (checklist pra escrever o bloco)
 
 1. **Cicatriz antes do troféu - sempre.** Todos os 9 abrem o arco pessoal pelo fracasso/fundo do poço e só depois sobem. A análise do corpus GA resume: "a vulnerabilidade antes da autoridade faz o avatar se ver na história".
-2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (Denison), 110kg (Vítor), chorar no chuveiro sem entender projeto (Juliana), dentista de origem simples cobrando pouco (Bruno), dar aula boa e não vender (Fladlien). Se a cicatriz não espelha a sala, é biografia, não ponte.
+2. **A cicatriz É o estado atual do avatar.** Técnico promovido sem saber liderar (o criador do webinar de gestão ágil estudado), 110kg (o especialista do corpusA), chorar no chuveiro sem entender projeto (a Aluna 80k), dentista de origem simples cobrando pouco (o especialista do corpusC), dar aula boa e não vender (Fladlien). Se a cicatriz não espelha a sala, é biografia, não ponte.
 3. **Duas camadas de credencial:** escala/instituição (alunos, anos, seguidores, empresa) + vivência pessoal (onde aprendeu fazendo). Uma sem a outra fica coxa.
 4. **Número específico e quebrado** (16.236, não "16 mil"; 12/11/2007; 1 milhão de m²) - número auditado convence, número redondo cheira a invenção. Prova documental quando der (foto de família, e-mail lido verbatim, foto da sala paga).
-5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - GA; USP/doutorado - Bruno; Genius Network - Fladlien; chefe americana - Juliana). Autoridade vira setup do conteúdo: a fonte volta no método.
+5. **Linhagem com fonte nomeada:** o método tem berço e o apresentador esteve lá (Toyota "direto na fonte" - GA; USP/doutorado - o especialista do corpusC; Genius Network - Fladlien; chefe americana - a Aluna 80k). Autoridade vira setup do conteúdo: a fonte volta no método.
 6. **A virada nunca é dom:** é sorte ("nem sabia que era Toyota"), estudo ("resolvi estudar"), mentor ("my first big investment") ou pedido externo. Dom não é transferível; método e decisão são - e a decisão de comprar mentoria pode ser o próprio ponto-de-virada (Fladlien #2).
 7. **Humildade calculada:** "por sorte", "sou ruim de contas", "slide desatualizado", typo na 1ª frase, "é ruim ficar falando de si". A imperfeição na fala valida a precisão do número no slide.
 8. **Superlativo sempre terceirizado:** "best in the world" vem de e-mail; "maior escola do Brasil" vem de "é considerada"; o próprio só entrega número e documento.
-9. **Origem do produto com reason-why externo:** chefe pediu (Juliana), sócio e paixão (GA), Tesla na garagem → "sistematizar" (Fladlien), "não vou te deixar aprender a duras penas como eu" (Bruno). O produto nunca nasce de "resolvi vender".
+9. **Origem do produto com reason-why externo:** chefe pediu (Aluna 80k), sócio e paixão (GA), Tesla na garagem → "sistematizar" (Fladlien), "não vou te deixar aprender a duras penas como eu" (o especialista do corpusC). O produto nunca nasce de "resolvi vender".
 10. **A biografia pré-figura a oferta:** o arco do herói termina exatamente na porta da decisão que o pitch vai pedir (cadista→empreendedora = as 2 estratégias; investir no mentor = comprar o curso; mudei o padrão da minha família = mude o da sua).
 11. **Seeding dentro da autoridade (máquina do webinar-modelo GA):** preço de tabela e esteira apresentados como catálogo neutro no minuto ~6 - a âncora do pitch vira fato estabelecido 90 min antes.
-12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era Juliana nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
-13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação Fladlien #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. Bruno também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
+12. **Frase-síntese citável da cicatriz** ("perdemos um bom técnico e ganhamos um péssimo líder"; "fui promovido para perder o emprego"; "quem era eu nos Estados Unidos? Ninguém") - a história precisa de uma linha que a sala consegue repetir.
+13. **Posição: cedo (~min 4–12), antes do conteúdo** - com a variação Fladlien #2 de distribuir: credencial cedo, cicatriz guardada pra transição→oferta. O especialista do corpusC também faz reprises (~38% e ~55%): autoridade não precisa morar num bloco só.
 
 ---
 
@@ -313,8 +313,8 @@ Desmonte do pedestal (objeção "você é especial"):
 - **Dizer o superlativo na própria voz** ("eu sou o melhor em X"). Todos terceirizam: e-mail, mídia, "é considerada", aluno. Autodeclaração gera resistência; artefato gera aceitação.
 - **Atribuir a virada a talento.** "Eu sempre tive facilidade" destrói a transferibilidade - se foi dom, o método não serve pro lead. Os campeões atribuem a sorte+método+mentor.
 - **Cicatriz genérica** ("eu também já sofri"). Sem detalhe sensorial e verificável (chuveiro, vômito, dormir no chão, camisa laranja na foto), a cicatriz não cola - especificidade é o que separa história de discurso.
-- **Âncora inventada dentro da autoridade.** Quando GA e Bruno citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
-- **Usar mecanismo alheio sem dono.** Bruno cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da GA; "gestossauro" é do Denison) - apropriar mecanismo de outro como seu é contaminação.
+- **Âncora inventada dentro da autoridade.** Quando GA e o especialista do corpusC citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
+- **Usar mecanismo alheio sem dono.** O especialista do corpusC cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da GA; "gestossauro" é do criador do webinar de gestão ágil estudado) - apropriar mecanismo de outro como seu é contaminação.
 - **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
 - **Bloco de autoridade longo demais antes de dar valor.** Todos resolvem em ~5-8 minutos e fecham com humildade ("é ruim ficar falando de si") ou loop pro conteúdo. Autoridade que não abre loop pro resto da aula é monumento, não ponte.
 
@@ -326,5 +326,5 @@ Desmonte do pedestal (objeção "você é especial"):
 
 Variações de forma que valem registrar como dado:
 - **Fladlien #2 é o único que QUEBRA o bloco em dois:** credencial no início, cicatriz (galpão/dormir no chão/investir no mentor) guardada para a entrada da oferta - a história de origem usada como peça de fechamento, não de abertura.
-- **Bruno (Webinar C) faz reprises:** a origem volta aos ~38% (faixa preta de luta) e ~55% (história do pai) - autoridade como fio contínuo, não capítulo único.
-- **Juliana (Aluna 80k) abre a cicatriz com loop:** "vou falar mais sobre ela aqui depois" - e paga o loop na transição pra venda (história da comida japonesa). A origem alimenta dois blocos.
+- **O especialista do corpusC (Webinar C) faz reprises:** a origem volta aos ~38% (faixa preta de luta) e ~55% (história do pai) - autoridade como fio contínuo, não capítulo único.
+- **A Aluna 80k abre a cicatriz com loop:** "vou falar mais sobre ela aqui depois" - e paga o loop na transição pra venda (história da comida japonesa). A origem alimenta dois blocos.

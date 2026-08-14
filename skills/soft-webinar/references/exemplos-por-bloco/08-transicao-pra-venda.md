@@ -7,7 +7,7 @@
 A transição existe pra que a oferta entre A PEDIDO, nunca como interrupção.
 O mecanismo comum a todos os campeões: fazer a audiência se declarar publicamente ANTES de ver preço - elogio à aula, "sim eu quero" digitado, escolha de caminho, hashtag.
 Antes do compromisso, dois preparos: (1) recap-inventário do valor entregue (reativa a sensação de dívida e fecha os loops abertos no início) e (2) mundo ideal projetado em detalhe concreto (carro, câmbio, lingerie, promoção) - a pessoa ensaia a vitória antes do veículo aparecer.
-A permissão pra vender vem de um argumento, não de um pedido: conhecimento sem implementação não basta ("obesidade mental" do Denison/GA, "stubborn little booger" do Fladlien, "saber→aplicar" do Vítor/webinar A do corpus). A oferta resolve a lacuna que a própria aula criou.
+A permissão pra vender vem de um argumento, não de um pedido: conhecimento sem implementação não basta ("obesidade mental" do webinar de gestão ágil estudado/GA, "stubborn little booger" do Fladlien, "saber→aplicar" do especialista do corpusA/webinar A do corpus). A oferta resolve a lacuna que a própria aula criou.
 O fechamento da transição é quase sempre uma bifurcação: sozinho (caro, lento, já tentou) vs. comigo (atalho com experiência). Ninguém escolhe o caminho 1 em público.
 Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência sentir que VOCÊ está fazendo um favor ao abrir a oportunidade - não o contrário.
 
@@ -29,7 +29,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 **Por que funciona:** quando o pitch começa, a audiência já disse sim quatro vezes em público. Vender vira atender um pedido - a dissonância de recuar depois de digitar "caminho dois" trabalha a favor do fechamento.
 **O que é decalcável vs do nicho:** decalcável = a escada de 4 degraus inteira (elogio → futuro → sim eu quero → bifurcação). Do nicho = "gestor do Futuro", posição executiva, 90 dias; a encruzilhada/caminho 1-2 é assinatura GA - extrair o mecanismo (escolha binária pública), não a metáfora.
 
-### 5 Níveis de Planejamento - Denison Vieira (CEO GA) - gestão/carreira; MESMO script da transição do GA, reaplicado
+### 5 Níveis de Planejamento - o criador do webinar de gestão ágil estudado (CEO GA) - gestão/carreira; MESMO script da transição do GA, reaplicado
 **Trecho literal:**
 > (permissão pra vender via insuficiência do conteúdo) "Porque só pegar o conhecimento por conhecimento, a única coisa que você vai ganhar é o que eu chamo de obesidade mental. Não adianta nada, você fica só aprendendo, aprendendo, aprendendo. Tem que saber, cara, o que eu faço com esse conhecimento? E eu quero te ajudar nisso."
 
@@ -37,11 +37,11 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 
 > (a encruzilhada - escolha binária) "E aí, para quem chegou até esse momento da aula, você tem dois caminhos. Eu dei todo o caminho das pedras para você. Falei tudo o que você tem que aprender para ser o gestor do futuro. Você pode sair lá tentando aprender tudo isso sozinho ou você pode caminhar aqui comigo. […] Ou você vai embora, fecha, sai da aula aqui e vai aprender tudo isso aqui sozinho. Ou você vai seguir, pegar um atalho aqui com a minha experiência, com tudo que eu já aprendi. E eu quero ser seu mentor nisso tudo. […] Coloca aqui pra mim, caminho 1 ou caminho 2 Coloca nos comentários aqui pra eu saber"
 
-**O que ele fez:** mesmos 4 degraus do GA (check de satisfação → future pacing → 5x "sim, eu quero" → caminho 1/2), com um acréscimo nomeado: o frame da "obesidade mental" (mecanismo do Denison/GA) como licença intelectual pra vender - conhecimento sem implementação não resolve, logo a oferta é o serviço, não o saque.
+**O que ele fez:** mesmos 4 degraus do GA (check de satisfação → future pacing → 5x "sim, eu quero" → caminho 1/2), com um acréscimo nomeado: o frame da "obesidade mental" (mecanismo do webinar de gestão ágil estudado/GA) como licença intelectual pra vender - conhecimento sem implementação não resolve, logo a oferta é o serviço, não o saque.
 **Por que funciona:** ele faz a sala VENDER PRA SI MESMA antes de ver o preço: elogiou a aula em público, digitou "sim eu quero" 5 vezes, escolheu "caminho 2" em público. Recusar a oferta é contradizer o que a própria pessoa acabou de escrever.
 **O que é decalcável vs do nicho:** decalcável = a tese "consumir conteúdo ≠ implementar" como justificativa da oferta (todo nicho tem sua "obesidade mental" - nomear a do avatar). Do nicho/dono = o termo "obesidade mental" e a encruzilhada são GA; o achado-chave deste exemplo é que o script roda VERBATIM em outra edição com outro host - a sequência é máquina, não improviso.
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - gestão/carreira, curso GA 2.0; transição enxuta (1 cadeia de sim)
+### Gestão Ágil ed. 2.0 (GA, host do webinar de gestão ágil estudado) - gestão/carreira, curso GA 2.0; transição enxuta (1 cadeia de sim)
 **Trecho literal:**
 > "Então, vamos ver o que a gente aprendeu até agora? A gente aprendeu que a gestão do passado não funciona no mundo VUCA. A gente aprendeu que a gestão ágil é a evolução da gestão tradicional. A gente não está inventando nada novo. A gente está evoluindo o que já existia. a gente aprendeu como organizar a execução do trabalho usando gestão ágil […] Você já sabe o que você tem que fazer para melhorar a eficiência e eficácia da sua equipe. Você já sabe como ser um líder admirado e reconhecido na empresa."
 
@@ -55,7 +55,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 **Por que funciona:** a venda nunca é imposta - é consequência de três consentimentos públicos em sequência (recap aceito → "sim eu quero" → "caminho 2"). Quando a oferta aparece, a audiência já se declarou compradora por escrito no chat. Nota da análise destilada (exemplos-vivos): aqui é UMA cadeia de "sim eu quero", não cinco - o peso está na lista de benefícios que ESPELHA a pesquisa de expectativas do início.
 **O que é decalcável vs do nicho:** decalcável = recap que devolve exatamente o que o lead pediu na inscrição (ciclo pesquisa→aula→pitch) e o "sim eu quero" como verificação de alinhamento. Do nicho = VUCA, líder cobiçado, 14 mil alunos; "caminho 1/2" segue sendo assinatura GA.
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison/GA) - gestão+IA, R$1.997; versão mais completa da escada
+### GAIA2k - "Gestão Ágil na Era da IA" (do webinar de gestão ágil estudado/GA) - gestão+IA, R$1.997; versão mais completa da escada
 **Trecho literal:**
 > "E aí eu quero perguntar, eu falei um monte aqui, eu queria perguntar pra vocês: quem tá curtindo a aula de hoje? Coloca nos comentários, só pra eu saber se tá bacana, se eu tô num ritmo bom aqui."
 
@@ -71,7 +71,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 **Por que funciona:** quando a plateia digita "caminho 2", ela se auto-seleciona como compradora antes de saber o preço. A venda deixa de ser interrupção e vira resposta a um pedido - consistência comportamental (Cialdini) operacionalizada no chat. O detalhe novo: o caminho 1 não é só "difícil", é DECOMPOSTO em compras avulsas - o atalho fica matematicamente óbvio.
 **O que é decalcável vs do nicho:** decalcável = iceberg (aula = amostra honesta de um corpo maior) e a decomposição do caminho solitário em custos itemizados. Do nicho = Scrum/Kanban/OKR, "referência em gestão ágil com IA"; nomes de lista lidos no chat são teatro de ao vivo da GA.
 
-### Webinar do corpus estudado - A (pele Soft: nutrição / Vítor Abrão / MDI) - emagrecimento, Método Dieta Inteligente; voz Vítor
+### Webinar do corpus estudado - A (pele Soft: nutrição / o especialista do corpusA / MDI) - emagrecimento, Método Dieta Inteligente; voz do especialista do corpusA
 **Trecho literal:**
 > "agora vou recapitular O que que a gente aprendeu até aqui […] cara, a gente falou bastante coisa aqui né, já aprendemos bastante. mais importante do que saber o que fazer é saber como aplicar isso na sua vida de uma forma que traga resultados duradores"
 
@@ -89,7 +89,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 **Por que funciona:** quem digita a hashtag já disse "sim" à crença - a oferta vira consequência, não pedido. O "não compra ainda" troca a posição de caçador pela de guardião do bom negócio, e retém a audiência até a oferta completa.
 **O que é decalcável vs do nicho:** decalcável = hashtag de crença antes da oferta, custo da inação em cenas (não em números), e o "não compra ainda" como retenção. Do nicho = lingerie/biquíni/pizza - o future pacing aqui é sensorial-social porque o avatar é mulher em dieta; em outro nicho, trocar as cenas, manter a concretude.
 
-### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0" - odontologia, voz Bruno (dentista)
+### Webinar C (corpus o autor do corpus) - "Resina Anterior / Método One 2.0" - odontologia, voz do especialista do corpusC (dentista)
 **Trecho literal:**
 > "depois de tudo que eu te mostrei, vou fechar aqui um pouco. Depois de tudo que eu te mostrei, de verdade, coração aberto: você só não vai evoluir se você não quiser. E eu quero ser o seu mentor, e mais, e mais: eu te afim, eu te desafio, que qualquer pessoa que tiver disposta a andar no campo minado pisando nas minhas pegadas vai ter um bom resultado"
 
@@ -101,7 +101,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 **Por que funciona:** a venda é apresentada como ESCOLHA DE GRUPO, não como compra - recusar a oferta vira escolher conscientemente a estrada esburacada. A metáfora plantada 1h antes como "conteúdo" agora cobra o pedágio: as pegadas existem, só falta pisar.
 **O que é decalcável vs do nicho:** decalcável = pagar a metáfora plantada no conteúdo na hora da transição (setup no bloco 05, payoff no 08) e o elogio de permanência como qualificação. Do nicho = campo minado/resina/consultório; o tom desafiador ("eu te desafio") combina com avatar técnico que se orgulha de mão boa - não transplantar pra avatar fragilizado.
 
-### Aluna 80k - Juliana Pupim ("Seja Arquiteto na América") - arquitetura/dólar, programa high-ticket
+### Aluna 80k - a Aluna 80k ("Seja Arquiteto na América") - arquitetura/dólar, programa high-ticket
 **Trecho literal:**
 > "E como vai ser a sua vida depois que você começar a ganhar em dólar? Sabe qual a preocupação dos meus alunos? É essa daqui. Eles querem saber quanto tá o câmbio do dia. Só isso. Eles ficam atualizando o câmbio porque eles ganham em dólar."
 
@@ -135,17 +135,17 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 
 **O que ele fez:** (1) padrão interrompido brutal: depois de 15 min de "outros conseguiram", declara "você provavelmente NÃO consegue" - choque que recaptura atenção total no momento mais crítico; (2) a ponte é a LACUNA conhecimento→implementação ("if we parted ways right now…"); (3) tough love como permissão pra vender: ele vende porque "não vai deixar" o aluno voltar ao hábito velho; (4) garantia dobrada teaserizada DENTRO da transição, antes do produto aparecer; (5) zero pedido de permissão - a oferta entra como consequência lógica ("It's with great pleasure that I introduce…").
 **Por que funciona:** a transição clássica gera queda de atenção ("lá vem o pitch"). Fladlien inverte: nega a competência da plateia no auge da esperança, cria um problema novo (você sozinho vai falhar) cuja única solução é a oferta. O pitch não interrompe o conteúdo; ele RESOLVE o conteúdo.
-**O que é decalcável vs do nicho:** decalcável = a estrutura "prova → dúvida sobre VOCÊ → eu sou a diferença" e o teaser de garantia dentro da transição. Do nicho/voz = "stubborn little booger" e o tough love agressivo exigem autoridade já consolidada e avatar americano de marketing direto; em pele Soft, a mesma lacuna se entrega com mais afeto (cf. "obesidade mental" do Denison e "você já tentou sozinha antes" do webinar A do corpus - mesma premissa, temperatura diferente).
+**O que é decalcável vs do nicho:** decalcável = a estrutura "prova → dúvida sobre VOCÊ → eu sou a diferença" e o teaser de garantia dentro da transição. Do nicho/voz = "stubborn little booger" e o tough love agressivo exigem autoridade já consolidada e avatar americano de marketing direto; em pele Soft, a mesma lacuna se entrega com mais afeto (cf. "obesidade mental" do webinar de gestão ágil estudado e "você já tentou sozinha antes" do webinar A do corpus - mesma premissa, temperatura diferente).
 
 ## Padrões transversais (checklist do bloco)
 
 - [ ] **Checkpoint de temperatura antes de qualquer venda** - "tá curtindo a aula?" colhe elogios públicos que servem de prova social pré-oferta (GA, 5 Níveis, GAIA2k; Fladlien faz como pergunta retórica "wasn't it?").
 - [ ] **Recap-inventário do valor entregue** - listar item a item o que a aula deu; fecha os loops abertos na abertura e reativa a dívida de valor (todos os 9, sem exceção).
-- [ ] **Mundo ideal em cena concreta, não em abstração** - carro/viagem/família (GA), câmbio do dia/jantar japonês (Juliana), lingerie/foto de barco (webinar A do corpus), "mudar a vida da família" (webinar C do corpus). A pessoa ensaia a vitória antes do preço.
-- [ ] **Permissão pra vender via lacuna saber→fazer** - o argumento de que a aula sozinha não basta: "obesidade mental" (Denison/GA), "saber como aplicar" (Vítor/webinar A do corpus), "probably not" (Fladlien #2), "isso é a pontinha do iceberg" (GAIA2k).
+- [ ] **Mundo ideal em cena concreta, não em abstração** - carro/viagem/família (GA), câmbio do dia/jantar japonês (a Aluna 80k), lingerie/foto de barco (webinar A do corpus), "mudar a vida da família" (webinar C do corpus). A pessoa ensaia a vitória antes do preço.
+- [ ] **Permissão pra vender via lacuna saber→fazer** - o argumento de que a aula sozinha não basta: "obesidade mental" (webinar de gestão ágil estudado/GA), "saber como aplicar" (o especialista do corpusA/webinar A do corpus), "probably not" (Fladlien #2), "isso é a pontinha do iceberg" (GAIA2k).
 - [ ] **Micro-compromisso público digitado ANTES da oferta** - "sim eu quero" (família GA), hashtag de crença (webinar A do corpus), perguntas-sim (Fladlien #1). A sala pede o pitch por escrito.
 - [ ] **Bifurcação sozinho-vs-comigo fechando a transição** - caminho 1/2 (GA), estrada esburacada vs. asfalto (webinar C do corpus), "você vai sozinho… já tentou antes" (webinar A do corpus), "you need me in your ear" (Fladlien #2). Ninguém escolhe a opção solitária em público.
-- [ ] **A oferta entra como resposta, endereçada a quem consentiu** - "para quem escolheu o caminho dois" (GA), "pra todo mundo que digitou sim eu quero" (GA ed.2), "é por isso que existe o programa" (Juliana), colada no último sim (Fladlien #1).
+- [ ] **A oferta entra como resposta, endereçada a quem consentiu** - "para quem escolheu o caminho dois" (GA), "pra todo mundo que digitou sim eu quero" (GA ed.2), "é por isso que existe o programa" (a Aluna 80k), colada no último sim (Fladlien #1).
 - [ ] **Ler o chat em voz alta e nomear o consenso** - "tudo 2", "ningu quer ir sozinho", "não é nem pra eu ler": o consentimento individual vira fato coletivo.
 - [ ] **Opcional de retenção: prometer algo pra depois do pitch** - presente reativado (GA), "não compra ainda, fica até o final" (webinar A do corpus).
 
@@ -156,7 +156,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 - **Mundo ideal genérico ("sua vida vai mudar").** Os campeões dão cena com objeto e testemunha: a conta do jantar japonês, o comentário no Instagram, o câmbio do dia. Abstração não ensaia vitória.
 - **Esmagar a autoestima sem oferecer a saída na mesma frase.** Fladlien #2 diz "probably not" mas emenda "and that's why I ain't going to let that happen" - a dúvida nunca fica órfã. Diagnóstico sem adoção é só ofensa.
 - **Bifurcação com opção solitária respeitável demais.** O caminho 1 é sempre descrito como caro, lento e já-fracassado ("você já tentou sozinha antes né") - se as duas opções parecem boas, a escolha pública perde função.
-- **Importar a forma com dono junto.** "Encruzilhada/caminho 1-2", "obesidade mental" e a teatralidade da aguinha são assinatura GA; "yes momentum"/"60-second recap" são Fladlien; a hashtag-revolução é da pele Vítor Abrão. Em webinar Soft novo: mesma premissa, forma própria (G2).
+- **Importar a forma com dono junto.** "Encruzilhada/caminho 1-2", "obesidade mental" e a teatralidade da aguinha são assinatura GA; "yes momentum"/"60-second recap" são Fladlien; a hashtag-revolução é da pele o especialista do corpusA. Em webinar Soft novo: mesma premissa, forma própria (G2).
 - **Vender antes do compromisso público.** A ordem importa: recap → mundo ideal → consentimento digitado → bifurcação → oferta. Inverter (oferta antes do "sim eu quero") transforma pedido em empurrão.
 
 ## Webinars sem este bloco (e por quê - também é dado)

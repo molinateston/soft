@@ -166,7 +166,7 @@ O pior buraco possível: o host gravado **ECOA** um comentário que não existe 
 
 ## 6. REALISMO (anti-robótico)
 
-- **Nomes BR variados:** alternar regiões e gerações; não repetir o mesmo nome em comentários próximos no tempo. Pool do modelo: Camila, Rafael, Patrícia, Marcos, Juliana, Bruno, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Wesley, Sandra, Eduardo, Felipe, Carlos.
+- **Nomes BR variados:** alternar regiões e gerações; não repetir o mesmo nome em comentários próximos no tempo. Pool do modelo: Camila, Rafael, Patrícia, Marcos, Letícia, Vinícius, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Wesley, Sandra, Eduardo, Felipe, Carlos.
 - **Cidades espalhadas pelo país** (não só capitais do Sudeste): Manaus, Recife, Goiânia, Porto Alegre, Belém, Florianópolis, Fortaleza, Salvador, Curitiba, Maringá, Natal, Londrina, Uberlândia.
 - **Perfis de avatar variados** dão textura (no modelo do corpus estudado: mentor, consultor financeiro, copywriter iniciante, nutri, advogada, dentista, personal, arquiteta, gestor de tráfego), alguns iniciantes, alguns avançados/céticos, alguns já clientes.
 - **Timing escalonado:** numa rajada, intervalos irregulares (3s, 7s, 4s, 11s…). Sala real digita em velocidades diferentes.

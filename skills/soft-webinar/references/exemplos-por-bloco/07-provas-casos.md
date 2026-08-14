@@ -34,7 +34,7 @@ Prova pessoal documentada (holerite do apresentador e do sócio):
 
 > "a meu último registro em carteira eu ganhava 17.000 CLT tá, eu trouxe aqui o print da minha carteira profissional para vocês, é um print é uma foto né que eu sou da época do do negócio físico ainda, eh eu ganhava R 17.850 né isso aqui no em carteira mais benefícios"
 
-> "esse aqui é o salário do meu sócio do Denis Pedro que também ganhava também era CLT como executivo, ganhava 23.000 registrado em carteira naquela época tá, de novo traz isso pros salários atuais, Dá Um bom salário né"
+> "esse aqui é o salário do meu sócio, que também ganhava, também era CLT como executivo, ganhava 23.000 registrado em carteira naquela época tá, de novo traz isso pros salários atuais, Dá Um bom salário né"
 
 Casos de alunos com números (antes/depois):
 
@@ -58,7 +58,7 @@ E pede o testemunho social do ato da compra em tempo real:
 
 ---
 
-### Gestão Ágil ed. 2.0 (GA, host Denison) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
+### Gestão Ágil ed. 2.0 (GA) - mesma máquina, R$1.997 → R$165,34/mês; edição com loop de depoimentos rodando no pré-início
 
 **Trecho literal:**
 
@@ -88,13 +88,13 @@ Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - Gestão Ágil 2.0 de R$3.000 → R$1.697 (R$165/mês), ~1h50 ao vivo
 
 **Trecho literal:**
 
 > (prova documental própria) "Eu não sei quanto estão os salários hoje em dia, quanto eu ganharia hoje. Vocês já viram, eu já estou há mais de 10 anos fora do mercado tradicional. […] Meu último registro em carteira, eu ganhava 17 mil CLT. Eu trouxe aqui o print da minha carteira profissional para vocês. É um print, é uma foto, porque eu sou da época do negócio físico ainda. Eu ganhava 17.850 reais. isso aqui em carteira, mais benefícios"
 
-> (prova do sócio - segunda âncora salarial) "esse aqui é o salário do meu sócio, do Denis Pedro que também ganhava, também era a série como executivo ele ganhava 23 mil registrado em carteira naquela época. De novo, traz isso para os salários atuais."
+> (prova do sócio - segunda âncora salarial) "esse aqui é o salário do meu sócio, que também ganhava, também era a série como executivo ele ganhava 23 mil registrado em carteira naquela época. De novo, traz isso para os salários atuais."
 
 > (casos de alunos com números) "ganhou 60% de aumento, passou para 13 mil, esse aqui ganhou 70% de aumento, o Erodilde saiu de 9 mil para 19 mil reais de salário depois do curso, o Alessandro que saiu de 2.500 para 14 mil, e vir e mexe a gente recebe esses depoimentos."
 
@@ -112,7 +112,7 @@ Persona-âncora ("aluno que mais explode" = quem está em terra virgem):
 
 ---
 
-### Aluna 80k (Juliana Pupim - "Seja Arquiteto na América") - arquitetura remota Brasil→EUA, R$7.355 → R$3.000 → R$2.500 com cupom, deadline 23:59
+### Aluna 80k ("Seja Arquiteto na América") - arquitetura remota Brasil→EUA, R$7.355 → R$3.000 → R$2.500 com cupom, deadline 23:59
 
 **Trecho literal:**
 
@@ -152,9 +152,9 @@ Prova de mercado (vaga real, não depoimento):
 
 ---
 
-### Webinar webinar A do corpus (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - emagrecimento, galeria de antes/depois segmentada por avatar
+### Webinar webinar A do corpus (pele Soft aplicada: nutrição / especialista do corpusA / MDI) - emagrecimento, galeria de antes/depois segmentada por avatar
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > "assim como a f a Fernanda […] ela chegou a acreditar que ter sobrepeso era melhor do que viver esse estilo de vida, até conhecer uma dieta inteligente, até ver que o que ela tava fazendo não era falta de disciplina dela, era simplesmente modo de sobrevivência sendo ativado por uma dieta restritiva […] depois de uma dieta inteligente ela perdeu mais de 15 Kg ganhando massa muscular como vocês podem ver na foto"
 
@@ -164,15 +164,15 @@ Prova de mercado (vaga real, não depoimento):
 
 > "naara Rosendo, mãe de duas crianças, mora no Canadá. Olha o resultado dela: menos de 16 kg de gordura. Olha o abdômen. ela não tinha short, gente, a naar ela não tinha short, a primeira foto dela é de calça porque ela não tinha short"
 
-> "você tá vendo que a Juliana ela não era, não tinha um sobrepeso enorme […] ela não precisava emagrecer ficar magra para caramba porque nem era isso que ela queria, ela só queria Sec e definir"
+> "você tá vendo que a aluna ela não era, não tinha um sobrepeso enorme […] ela não precisava emagrecer ficar magra para caramba porque nem era isso que ela queria, ela só queria Sec e definir"
 
 > "Renato. Renato só tinha barriguinha também, barriguinha de shope. ele não parou de beber o chope dele, não, tá, para chegar nessa segunda foto aí, não parou, ele só aprendeu a administrar"
 
-> *(feedback Laura, lido na tela)* "Vitor, era doce de leite que me faltava […] fora que olha o orgulho: conquistei a minha primeira barra, primeira barra fixa"
+> *(feedback Laura, lido na tela)* "Era doce de leite que me faltava […] fora que olha o orgulho: conquistei a minha primeira barra, primeira barra fixa"
 
 > *(feedback Vander, lido na tela)* "no início pensa, sabe que seria mais uma Fórmula Mágica dessas que o pessoal adora vender na internet, por isso estava bem desconfiado […] Ah para minha grata surpresa eu estava errado, mas muito errado mesmo […] desde que iniciei meu processo já se foram embora 6 kg de gordura mantendo totalmente a massa magra […] quer saber algumas coisas que eu que eu comi […] torresmo, salame, hambúrguer, pizza, arroz, feijão, Leite […] doce de leite, chocolate e por aí vai, tudo calculado"
 
-**O que ele fez:** (1) galeria de personas-âncora segmentada por sub-avatar ("sobrepeso e obesidade" → Rafael/Naara; "secar e definir" → Juliana; homem cervejeiro → Renato) - cada lead encontra seu espelho; (2) case re-explicado pelo mecanismo (Fernanda = modo sobrevivência → o case prova a teoria, não só o resultado, e descarrega a culpa da aluna); (3) detalhe físico-narrativo em vez de número seco ("ela não tinha short", "olha a coxa dela torneada"); (4) depoimento que encena a objeção e a mata (Vander: "estava bem desconfiado… eu estava errado"); (5) números sempre duplos (−gordura E +massa magra), casando exatamente com a promessa da headline; (6) a lista de comidas proibidas comidas (torresmo, pizza, doce de leite) como prova sensorial do mecanismo "sem restrição".
+**O que ele fez:** (1) galeria de personas-âncora segmentada por sub-avatar ("sobrepeso e obesidade" → Rafael/Naara; "secar e definir" → a aluna do case; homem cervejeiro → Renato) - cada lead encontra seu espelho; (2) case re-explicado pelo mecanismo (Fernanda = modo sobrevivência → o case prova a teoria, não só o resultado, e descarrega a culpa da aluna); (3) detalhe físico-narrativo em vez de número seco ("ela não tinha short", "olha a coxa dela torneada"); (4) depoimento que encena a objeção e a mata (Vander: "estava bem desconfiado… eu estava errado"); (5) números sempre duplos (−gordura E +massa magra), casando exatamente com a promessa da headline; (6) a lista de comidas proibidas comidas (torresmo, pizza, doce de leite) como prova sensorial do mecanismo "sem restrição".
 
 **Por que funciona:** prova segmentada elimina o "mas eu sou diferente". Quando o case carrega o mecanismo, ele vende a crença (e não sorte individual). O cético convertido (Vander) é a objeção-mãe respondida por um terceiro - o vendedor não precisa se defender.
 
@@ -180,7 +180,7 @@ Prova de mercado (vaga real, não depoimento):
 
 ---
 
-### Webinar webinar C do corpus ("Resina Anterior / Método One 2.0", voz Bruno, dentista) - odonto, 12.000 → 3.000 → R$1.997, 10 vagas; depoimentos DEPOIS do CTA
+### Webinar webinar C do corpus ("Resina Anterior / Método One 2.0", voz do especialista do corpusC, dentista) - odonto, 12.000 → 3.000 → R$1.997, 10 vagas; depoimentos DEPOIS do CTA
 
 **Trecho literal:**
 
@@ -188,10 +188,10 @@ Caso-demonstração da tese (resina = cerâmica):
 > "galera, olha para esse caso Inicial, olha para esse caso final. Esse caso que vocês estão vendo aqui perde em alguma coisa para restauração cerâmica? Me responde, fala comigo […] não perde, não perde mesmo. Porque que não perde? Porque eu me preparei para entregar esteticamente um resultado em resina tão bom quanto eu entrego em cerâmica"
 
 Caso do sorriso misto (prova de indistinguibilidade):
-> "alguns dentes são dentes rígidos naturais, não tem restauração, alguns são resina totalmente 100% feita em resina, outros são resina apenas uma parte e outros são cerâmica. Bruno, pera aí, é sério? Tem tudo esses caras? Tem tudo isso galera. […] Dente 11 […] 21 resina, 12:22 é cerâmica […] tem diferença no resultado estético? Na mão de quem domina o material não tem diferença"
+> "alguns dentes são dentes rígidos naturais, não tem restauração, alguns são resina totalmente 100% feita em resina, outros são resina apenas uma parte e outros são cerâmica. [nome dele], pera aí, é sério? Tem tudo esses caras? Tem tudo isso galera. […] Dente 11 […] 21 resina, 12:22 é cerâmica […] tem diferença no resultado estético? Na mão de quem domina o material não tem diferença"
 
-Casos de alunos (antecipando o "mas é você fazendo, Bruno"):
-> "Mas é você Bruno fazendo - você tá pensando isso. Eu quero saber se os seus alunos conseguem fazer isso […] galera, de ontem para hoje eu comecei a selecionar a casa dos meus alunos, o país inteiro, eu enchi dois slides com vários casos, sem repetir casos tá, sem repetir"
+Casos de alunos (antecipando o "mas é você fazendo"):
+> "Mas é você fazendo - você tá pensando isso. Eu quero saber se os seus alunos conseguem fazer isso […] galera, de ontem para hoje eu comecei a selecionar a casa dos meus alunos, o país inteiro, eu enchi dois slides com vários casos, sem repetir casos tá, sem repetir"
 
 Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 > "eu já tive mais de 4 mil alunos"
@@ -202,7 +202,7 @@ Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 
 > "a espátula é show, tem uma coleção de espátula mas hoje praticamente só uso a do método One […] essa pessoa que a Rose, é uma dentista de BH, trabalha altíssimo nível"
 
-**O que ele fez:** (1) demonstração com pergunta de adesão ("perde em alguma coisa? me responde") - a plateia declara a prova, ele não afirma; (2) caso misto resina/cerâmica/dente natural = teste cego de indistinguibilidade que o espectador faz sozinho; (3) verbaliza a objeção antes da prova ("Mas é você Bruno fazendo - você tá pensando isso") e responde com 2 slides de casos de alunos; (4) depoimentos com NOME + CIDADE espelhando o roll call geográfico da abertura ("funciona na sua região"); (5) persona-âncora improvável (31 anos de formada = "não é tarde para mim"); (6) prova social exibida DURANTE o carrinho aberto, não antes, com espontaneidade encenada ("não tava no Script aqui mas você merece ver isso").
+**O que ele fez:** (1) demonstração com pergunta de adesão ("perde em alguma coisa? me responde") - a plateia declara a prova, ele não afirma; (2) caso misto resina/cerâmica/dente natural = teste cego de indistinguibilidade que o espectador faz sozinho; (3) verbaliza a objeção antes da prova ("Mas é você fazendo - você tá pensando isso") e responde com 2 slides de casos de alunos; (4) depoimentos com NOME + CIDADE espelhando o roll call geográfico da abertura ("funciona na sua região"); (5) persona-âncora improvável (31 anos de formada = "não é tarde para mim"); (6) prova social exibida DURANTE o carrinho aberto, não antes, com espontaneidade encenada ("não tava no Script aqui mas você merece ver isso").
 
 **Por que funciona:** a sequência de prova segue a ordem das dúvidas: o material presta? (caso misto) → ALUNOS conseguem? (2 slides) → gente COMO EU consegue? (nome+cidade+idade). Guardar depoimentos para depois do CTA mantém quem hesitou dentro da sala recebendo razões enquanto o timer das 10 vagas corre.
 
@@ -210,7 +210,7 @@ Volume de alunos + depoimentos nominais com cidade (durante o carrinho):
 
 ---
 
-### GAIA2k ("Gestão Ágil na Era da IA", Denison Vieira / GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
+### GAIA2k ("Gestão Ágil na Era da IA", GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199; a mesma máquina com a onda trocada (VUCA → IA)
 
 **Trecho literal:**
 
@@ -220,7 +220,7 @@ Prova de mainstream (mídia + dado de mercado):
 > "É uma reportagem de 2025, mas naquela época, em 2025, mais de 70% das empresas já adotavam gestão ágil no Brasil. 70% das empresas. […] Cara, mais de 70% do mercado de trabalho brasileiro já usa isso. Quem está desatualizado para isso aqui, esquece, já está fora do mercado."
 
 Prova de primeira pessoa (o contracheque):
-> "Esse é o meu último registro em carteira, CLT. Há mais de 10 anos atrás, com esse conhecimento. Eu ganhava ali arredondando aqui 17.800, 18 mil reais. Isso há mais de 10 anos, né? […] Coloque a inflação nisso aqui. Eu nem sei que valor que dá hoje. Daria um salário de 40 mil, sei lá, talvez, 40, 50 mil, não sei. Meu sócio, Denis Pedro, a mesma coisa, tá? Nessa mesma época, ele ganhava 23 mil."
+> "Esse é o meu último registro em carteira, CLT. Há mais de 10 anos atrás, com esse conhecimento. Eu ganhava ali arredondando aqui 17.800, 18 mil reais. Isso há mais de 10 anos, né? […] Coloque a inflação nisso aqui. Eu nem sei que valor que dá hoje. Daria um salário de 40 mil, sei lá, talvez, 40, 50 mil, não sei. Meu sócio, a mesma coisa, tá? Nessa mesma época, ele ganhava 23 mil."
 
 Prova de terceiros (casos de alunos, com nome e número):
 > "E tem exemplos de alunos nossos, o José Maurício, que ganhou 60% de aumento, passou para 13 mil, ele ganhava um pouquinho. Adquiru esse conhecimento foi lá para 13 mil. O Celsius Júnior, 70% de aumento. Herotildes, foi para R$ 19 mil de salário. O Lessandro, faltou o nome dele aqui, ele teve um aumento aqui de 2.500 para 14 mil reais de salário."
@@ -327,7 +327,7 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 7. **O case carrega o mecanismo:** o resultado é re-explicado pela tese do webinar (Fernanda = modo sobrevivência; Maddie = tirar da cabeça), nunca atribuído a talento ou sorte.
 8. **Prova colhida ao vivo do chat e amplificada na hora** (Wellington/Itaú, Ivesen, texto do Mike) - e compra anunciada publicamente vira prova de manada. No perpétuo, isso é engenharia de simulação.
 9. **Prova distribuída, não em bloco único:** pré-início (loop de depoimentos sob countdown), dentro do conteúdo, no pitch (colada ao item/bônus que valida) e até DEPOIS do CTA (sustain do carrinho - webinar C do corpus).
-10. **Objeção verbalizada antes da prova** ("Mas é você Bruno fazendo - você tá pensando isso") e **cético convertido** como porta-voz dela (Vander) - o vendedor nunca se defende sozinho.
+10. **Objeção verbalizada antes da prova** ("Mas é você fazendo - você tá pensando isso") e **cético convertido** como porta-voz dela (Vander) - o vendedor nunca se defende sozinho.
 11. **Hedge honesto nos próprios números** ("eu chutaria… não tenho esse dado preciso"; "nem sei quanto daria hoje") - a modéstia pontual blinda o resto.
 12. **Pedido ativo de prova nova:** convocar alunos presentes a testemunhar ("coloca quanto você tá ganhando… ajuda quem está de fora").
 

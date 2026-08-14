@@ -1,7 +1,7 @@
 # Interação com chat (TRANSVERSAL - escada de micro-compromissos, eco nominal, chat como termômetro e motor)
 
 > Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
-> Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **Bruno** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito pela escola do webinar de conversão; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
+> Ressalva de atribuição: o "Webinar C" do corpus tem um dispositivo de voz único, o host se dirige a si mesmo pelo próprio nome (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito pela escola do webinar de conversão; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
 
 ---
 
@@ -39,7 +39,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### 5 Níveis de Planejamento (Denison/GA) - o exemplar mais denso: 20+ nomes lidos e a pausa da "aguinha"
+### 5 Níveis de Planejamento (GA) - o exemplar mais denso: 20+ nomes lidos e a pausa da "aguinha"
 
 **Trecho literal:**
 
@@ -83,7 +83,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### GAIA2k (Denison/GA) - a escada mapeada de ponta a ponta com o porquê declarado
+### GAIA2k (GA) - a escada mapeada de ponta a ponta com o porquê declarado
 
 **Trecho literal:**
 
@@ -107,7 +107,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Aluna 80k (Juliana Pupim) - o chat fazendo a audiência se declarar em três tempos
+### Aluna 80k - o chat fazendo a audiência se declarar em três tempos
 
 **Trecho literal:**
 
@@ -129,9 +129,9 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 ---
 
-### Webinar webinar A do corpus (pele Soft: nutrição / Vítor Abrão / MDI) - a engenharia de interação pra PERPÉTUO (nota clínica decisiva)
+### Webinar webinar A do corpus (pele Soft: nutrição / o especialista do corpusA / MDI) - a engenharia de interação pra PERPÉTUO (nota clínica decisiva)
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > (censo de abertura) "comenta aqui para mim por gentileza: De onde você é, qual é o teu nome e qual é o teu objetivo, por que que você tá aqui nessa aula"
 
@@ -151,11 +151,11 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 **Por que funciona:** quem digita 8 vezes ao longo de 90 minutos construiu identidade pública de "comprometida" - recusar a oferta no fim viraria incoerência consigo mesma. E o desenho honesto (eco genérico, zero nomes) entrega o efeito de sala viva sem criar promessa que a gravação não cumpre.
 
-**O que é decalcável vs do nicho:** decalcável: ESTE é o gabarito de interação pra perpétuo do método - escada completa + eco genérico + pergunta retórica de resposta única. Do nicho: elefante/dieta/hashtag (a hashtag-revolução é da pele Vítor).
+**O que é decalcável vs do nicho:** decalcável: ESTE é o gabarito de interação pra perpétuo do método - escada completa + eco genérico + pergunta retórica de resposta única. Do nicho: elefante/dieta/hashtag (a hashtag-revolução é da pele do especialista do corpusA).
 
 ---
 
-### Webinar C (corpus o autor do corpus - voz Bruno, dentista) - chat como caixa registradora e alunos como testemunhas ao vivo
+### Webinar C (corpus, o especialista do corpusC, dentista) - chat como caixa registradora e alunos como testemunhas ao vivo
 
 **Trecho literal:**
 
@@ -167,15 +167,15 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 
 > (alunos atuais como prova viva) "tem pessoas que são meus alunos, conversa comigo aqui - legal, concluiu o curso já, show de bola, já está fazendo, já tá ganhando dinheiro fazendo resina […] Camila, como é que tá indo o curso? Me conta, escreve para mim aqui"
 
-> (validação por alunos sob demanda) "Bruno, que nunca mais vai [errar] cor? Nunca mais vai a cor - pergunta meus alunos, a galera que já é meu aluno aqui no chat, olha aqui para mim: terra, você não erra a cor"
+> (validação por alunos sob demanda, host chamando a si mesmo pelo nome) "[nome], que nunca mais vai [errar] cor? Nunca mais vai a cor - pergunta meus alunos, a galera que já é meu aluno aqui no chat, olha aqui para mim: terra, você não erra a cor"
 
-> (celebração nominal de compradores) "Quem já se inscreveu escreve para mim aqui, escreve 'Bruno, já deu certo a minha inscrição' - analise, Parabéns analise, bem-vinda, bem-vinda ao time de faixa preta. Babi, Parabéns Babi, bem-vindo ao time. […] Lorena, acabou o jogo, ganho, jogo ganho."
+> (celebração nominal de compradores) "Quem já se inscreveu escreve para mim aqui, escreve '[nome], já deu certo a minha inscrição' - analise, Parabéns analise, bem-vinda, bem-vinda ao time de faixa preta. Babi, Parabéns Babi, bem-vindo ao time. […] Lorena, acabou o jogo, ganho, jogo ganho."
 
 **O que ele fez:** escada de micro-compromissos crescentes (cidade → frase → "anota" → "escreve meio" → "faz sentido?" → "me conta seu caso" → "escreve que sua inscrição deu certo"); eco nominal com resposta personalizada; alunos atuais convocados como testemunhas ao vivo ("pergunta meus alunos aqui no chat"); engenharia de consenso ("a maioria concorda para mim também"); ditado de mantras (o espectador digita a Big Idea com as próprias mãos); no carrinho, o chat vira placar público de vendas com boas-vindas ao "time de faixa preta".
 
 **Por que funciona:** cada micro-compromisso digitado é um sim comportamental que torna o sim financeiro coerente. E o chat lido em voz alta fabrica densidade social - quem assiste sente sala cheia e movimento de manada na hora exata da compra.
 
-**O que é decalcável vs do nicho:** decalcável: convocar alunos presentes como testemunhas, o ditado do mantra, a celebração nominal de compradores com rito de pertencimento. Do nicho/dono: "time de faixa preta" é do Bruno.
+**O que é decalcável vs do nicho:** decalcável: convocar alunos presentes como testemunhas, o ditado do mantra, a celebração nominal de compradores com rito de pertencimento. Do nicho/dono: "time de faixa preta" é do especialista do corpusC.
 
 ---
 
@@ -246,7 +246,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 - **Deixar o chat pautar a aula.** Os campeões atendem pedidos pontuais (João/print) mas declaram a disciplina ("vou parar de olhar os comentários") - o chat serve à narrativa, não o contrário.
 - **Humilhar quem erra ou expor quem não responde.** A correção do Fladlien é coletiva e com parabéns a quem acertou; a pressão do caso Ian é sobre quem se OFERECEU à negociação.
 - **Interação que não escala compromisso.** Quiz e enquete que não se conectam ao pitch são entretenimento - em todos os campeões, cada degrau do chat prepara o degrau da compra ("sim eu quero" → "caminho 2" → link).
-- **Decalcar bordão/rito com dono** ("bem-vinda ao time de faixa preta" é do Bruno; "caminho 1 ou 2" é assinatura GA; a hashtag-revolução é da pele Vítor). A escada é premissa universal; os degraus se escrevem na voz do especialista.
+- **Decalcar bordão/rito com dono** ("bem-vinda ao time de faixa preta" é do especialista do corpusC; "caminho 1 ou 2" é assinatura GA; a hashtag-revolução é da pele do especialista do corpusA). A escada é premissa universal; os degraus se escrevem na voz do especialista.
 
 ## Webinars sem este bloco (e por quê - também é dado)
 

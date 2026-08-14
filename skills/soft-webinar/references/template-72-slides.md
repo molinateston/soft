@@ -101,7 +101,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S7: "Pra quem serve": 3–5 avatares identificados PELA DIFICULDADE.**
   - *Função:* o lead se reconhece e baixa a guarda.
   - *TELA:* 3–5 perfis ("Pra você que…"). *NOTA:* descreve cada perfil pela dor, não pela demografia.
-  - *EXEMPLO (molde, nutrição, pele Soft/Vítor, → blocos 02/04):* "Pra você que já fez 5 dietas e recuperou tudo; pra você que treina e não muda; pra você que vive de segunda a segunda começando 'na segunda'." *Porquê:* identificação pela dificuldade ("eu já fiz 5 dietas") é mais forte que por categoria ("mulheres de 30-40"), o lead se vê no espelho.
+  - *EXEMPLO (molde, nutrição, pele Soft do corpusA, → blocos 02/04):* "Pra você que já fez 5 dietas e recuperou tudo; pra você que treina e não muda; pra você que vive de segunda a segunda começando 'na segunda'." *Porquê:* identificação pela dificuldade ("eu já fiz 5 dietas") é mais forte que por categoria ("mulheres de 30-40"), o lead se vê no espelho.
 
 - **S8: Presentes pra quem ficar até o final (3–5 + presente-surpresa).**
   - *Função:* gancho de retenção concreto, razão racional pra atravessar o pitch inteiro. O loop fecha em S64/escassez.
@@ -153,7 +153,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S16: Como as pessoas tentam resolver (as armadilhas) e por que acham que devem fazer assim.**
   - *Função:* demolição EMPÁTICA das alternativas, valida a tentativa antes de matá-la.
   - *TELA:* as 2–3 saídas falsas listadas. *NOTA:* "faz sentido você ter tentado isso, mas…".
- - *EXEMPLO (molde, nutrição, pele Soft/Vítor):* "todo mundo te mandou cortar carboidrato e malhar mais - e faz sentido, é o que ensinam. te venderam a **dieta burra**: restrição que joga seu corpo no modo sobrevivência." *Porquê:* a culpa vai pro método ("dieta burra"), não pra disciplina do lead, admitir a dor não custa ego. (nomes "dieta burra"/"modo sobrevivência" = Vítor Abrão.)
+ - *EXEMPLO (molde, nutrição, pele Soft do corpusA):* "todo mundo te mandou cortar carboidrato e malhar mais - e faz sentido, é o que ensinam. te venderam a **dieta burra**: restrição que joga seu corpo no modo sobrevivência." *Porquê:* a culpa vai pro método ("dieta burra"), não pra disciplina do lead, admitir a dor não custa ego. (nomes "dieta burra"/"modo sobrevivência" = o especialista do corpusA.)
 
 - **S17: Por que isso não funciona.**
   - *Função:* fecha a porta das soluções velhas (sem isso, o lead sai achando que "só falta esforço").
@@ -235,7 +235,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 - **S30: "Mais importante que saber O QUÊ é saber COMO colocar isso na sua vida" + "tudo bem se eu passar 10 minutos…?".**
   - *Função:* permissão explícita pra vender, o COMO mora no produto (M5).
   - *TELA:* "Saber ≠ Aplicar". *NOTA:* o argumento (não o pedido) de que conhecimento sem implementação não basta.
-  - *EXEMPLO (gestão/5 Níveis, → bloco 08):* "só pegar conhecimento por conhecimento, a única coisa que você ganha é o que eu chamo de **obesidade mental**. Não adianta ficar só aprendendo. Tem que saber o que eu faço com isso. E eu quero te ajudar nisso." *Porquê:* a venda vira favor, a oferta resolve a lacuna que a própria aula criou. *Slot:* cada nicho tem sua "obesidade mental" (variação possível: "saber ≠ aplicar"); "obesidade mental" é nome do Denison/GA.
+  - *EXEMPLO (gestão/5 Níveis, → bloco 08):* "só pegar conhecimento por conhecimento, a única coisa que você ganha é o que eu chamo de **obesidade mental**. Não adianta ficar só aprendendo. Tem que saber o que eu faço com isso. E eu quero te ajudar nisso." *Porquê:* a venda vira favor, a oferta resolve a lacuna que a própria aula criou. *Slot:* cada nicho tem sua "obesidade mental" (variação possível: "saber ≠ aplicar"); "obesidade mental" é nome cunhado no webinar de gestão ágil estudado.
 
 - **S31: "Quero te ajudar a…": desejos declarados intercalados com desejos ocultos.**
   - *Função:* fala ao que ele admite querer E ao que ele não admite querer.
@@ -269,7 +269,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
  - *EXEMPLO (gestão/GA, → bloco 09):* "qual é a grande promessa desse curso: **domine a gestão ágil 2.0 e se torne um líder valioso em qualquer área, em 90 dias** - esse é o meu compromisso." *Porquê:* o "90 dias" grifado lá na abertura (S5) reaparece literal aqui, a oferta fecha o loop, parece desfecho.
 
 - **S36: História do produto (plausibilidade).**
-  - *EXEMPLO (gestão/GA, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci o Denis, meu sócio… a gente fundou a GA em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
+  - *EXEMPLO (gestão/GA, → bloco 03):* a fundação como consequência de paixão: "foi nessas consultorias que conheci meu sócio… a gente fundou a GA em 2014, e o resto é história." *Porquê:* origem por paixão (não por marketing) explica por que o produto existe e funciona.
 
 - **S37: "Por que isso é diferente de tudo que eu já vi?": mecanismo único DO PRODUTO.**
   - *Função:* mata a comparação e a commodity (M9). cap08/corpus: diferenciar contra a alternativa pelo DEFEITO dela.
@@ -309,7 +309,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
   - *EXEMPLO (gestão/GA, → bloco 09):* "o módulo 2 é onde eu entro a fundo em tudo que a gente viu nessa aula dos 5 níveis." *Porquê:* o módulo espelha 1:1 a aula, comprar parece continuar o que já começou, não iniciar algo desconhecido.
 
 - **S48: Como você será acompanhado: o suporte (o que é / por que importa).**
-  - *EXEMPLO (molde, nutrição/Vítor, → bloco 11):* "você vai ter consultoria individual de acompanhamento", o suporte como item de valor próprio, mata a objeção "vou ficar sozinho". *Porquê:* nomear o suporte mata o medo de abandono.
+  - *EXEMPLO (molde, nutrição do corpusA, → bloco 11):* "você vai ter consultoria individual de acompanhamento", o suporte como item de valor próprio, mata a objeção "vou ficar sozinho". *Porquê:* nomear o suporte mata o medo de abandono.
 
 - **S49–S51, Produtos 2, 3 e 4 da prateleira: transformação + preço que custaria (beat ajustável).**
   - *EXEMPLO (gestão/GA, → bloco 09):* "tem o OKR que a gente vende por R$1.497, o Design F por R$2.000…" cada um com preço declarado. *Porquê:* o stack empilha item a item, cada um com valor próprio, construindo a âncora interna. *Ajustável ao tamanho real da prateleira.*

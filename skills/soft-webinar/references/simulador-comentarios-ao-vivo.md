@@ -255,7 +255,7 @@ Acompanha o pitch FEAR/FOMO da espinha ("só temos mais 2 vagas, depois que acab
 
 O que separa uma sala simulada que converte de uma que denuncia o gravado:
 
-- **Nomes BR variados:** alternar regiões e gerações. EXEMPLO de pool: Camila, Rafael, Patrícia, Marcos, Juliana, Bruno, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Luan, Bia, Wesley, Sandra, Eduardo. Evitar repetir o mesmo nome em comentários próximos no tempo. NÃO usar nomes que o host vá ecoar a menos que o eco esteja casado (ver §6).
+- **Nomes BR variados:** alternar regiões e gerações. EXEMPLO de pool: Camila, Rafael, Patrícia, Marcos, Letícia, Vinícius, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Luan, Bia, Wesley, Sandra, Eduardo. Evitar repetir o mesmo nome em comentários próximos no tempo. NÃO usar nomes que o host vá ecoar a menos que o eco esteja casado (ver §6).
 - **Cidades variadas:** espalhar pelo país, não só capitais do Sudeste. EXEMPLO: Manaus, Recife, Goiânia, Porto Alegre, Belém, Campo Grande, interior (Sorocaba, Caxias, Juazeiro). Coerente com o "gente do país inteiro" que o host celebra.
 - **Timing ESCALONADO:** nunca todos no mesmo segundo. Numa rajada de "EU QUERO", espalhar pelos 60-90 segundos com intervalos irregulares (3s, 7s, 4s, 11s…). Uma sala real digita em velocidades diferentes.
 - **Abreviação/typo leve ocasional:** "vc", "tbm", "kkkk", "to dentro", acento faltando, emoji esporádico. Não em todo comentário (vira caricatura), mas o suficiente pra soar humano. O host nunca erra; o público erra.

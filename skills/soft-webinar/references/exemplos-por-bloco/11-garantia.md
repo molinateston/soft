@@ -63,9 +63,9 @@ As condições (no Q&A, com a metáfora do cheque):
 
 ---
 
-### Webinar webinar A do corpus (pele Soft aplicada: nutrição / Vítor Abrão / MDI) - R$997→797; garantia escalonada em dois estágios com consultoria no meio
+### Webinar webinar A do corpus (pele Soft aplicada: nutrição / especialista do corpusA / MDI) - R$997→797; garantia escalonada em dois estágios com consultoria no meio
 
-**Trecho literal:** *(voz: Vítor)*
+**Trecho literal:** *(voz: o especialista do corpusA)*
 
 > "a garantia que eu vou te dar do MBI é o seguinte: você vai ter 90 dias aplicando. presta atenção nessa garantia para você poder acionar ela caso você queira, grava essa tela, tá, para você poder ter isso gravado. a garantia é o seguinte: eu tenho tanta certeza do que eu tô te oferecendo que eu vou fazer o seguinte: 90 dias botando o método em prática, tá, botou em prática o método, preencheu no aplicativo, cumpriu certinho com tudo, subiu as fotos, fez exatamente o que eu te mandei, não teve resultado, eu vou fazer o seguinte: vou te dar uma consultoria individual que custa R 3.000, vou te dar ela de graça para você conseguir destravar teus resultados. E aí você vai botar em prática o MDI mais a consultoria por mais de 90 dias, vai me provar que botou em prática, fez tudo certinho, subiu tudo direitinho do jeito que eu te pedi, se você não tiver resultado eu devolvo o teu dinheiro e te dou o dobro que Você investiu, do meu bolso, tá, o dobro do valor que Você investiu do MDI eu te dou do meu bolso pelo tempo que você perdeu"
 
@@ -107,7 +107,7 @@ As condições (no Q&A, com a metáfora do cheque):
 - **5 Níveis:** zero menção (ressalva: a transcrição corta no momento do link - mas o lugar canônico da garantia, antes do preço, passou em branco). Amortecedor usado: 12 meses de acesso + parcela de R$165 + bônus do combinado.
 - **Gestão Ágil ed. 2.0:** zero menção. De-risking via R$5,51/dia + "não quero que o valor seja um impeditivo". Os "eu te garanto" do texto são retóricos (sobre a promessa da aula), não garantia comercial.
 - **GAIA2k:** zero menção. Escolha estrutural da máquina: fechar sem reversão de risco formal, com R$6/dia + GPS de acompanhamento fazendo o serviço.
-- **Aluna 80k (Juliana Pupim):** nenhuma garantia. Substituição por payback ("um freelance… você já pagou o curso"), prova social em volume e o desconto-combinado que pressupõe sucesso.
-- **webinar C do corpus (voz Bruno):** inexistente. Risco tratado só por payback ("você vai pegar esse investimento de volta nos primeiros casos que você fechar") e pela tese das pegadas.
+- **Aluna 80k:** nenhuma garantia. Substituição por payback ("um freelance… você já pagou o curso"), prova social em volume e o desconto-combinado que pressupõe sucesso.
+- **webinar C do corpus (voz do especialista do corpusC):** inexistente. Risco tratado só por payback ("você vai pegar esse investimento de volta nos primeiros casos que você fechar") e pela tese das pegadas.
 
 **Leitura clínica do conjunto:** a máquina do webinar-modelo GA - a mais testada do corpus, R$3M - escolhe NÃO ter garantia em todas as 4 edições; quem usa garantia pesada (dobro do dinheiro) são os webinars de ticket menor ou de promessa mais incrédula (Fladlien, MDI). Regra de decisão pra skill: garantia é alavanca opcional que troca de lugar com o de-risking do bloco 10 - se a promessa do webinar novo enfrenta ceticismo alto ("isso não funciona pra mim"), a garantia condicional de aplicação é a arma; se o preço já foi trivializado e o payback é óbvio, fechar sem garantia é padrão validado pelo corpus. A decisão final é do corpus estudado (método é dele) - apresentar as duas rotas com estes dados.

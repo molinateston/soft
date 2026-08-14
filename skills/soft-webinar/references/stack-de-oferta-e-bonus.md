@@ -1,8 +1,8 @@
-# Stack de Oferta e Bonus (molde gestao agil + o autor do corpus + Marco Enes)
+# Stack de Oferta e Bonus (molde gestao agil + o autor do corpus + a escola do webinar de conversao)
 
 > **O que e este doc.** A spec de COMO MONTAR A STACK DE OFERTA de um webinar do corpus estudado: varios cursos/bonus desejaveis pelo avatar, ancorados PROGRESSIVAMENTE (a pilha de valor crescendo na tela, item por item), MAIS o pacote de bonus de "15 primeiros" (fast-action / acao rapida). O autor do corpus pediu pra SEGUIR O MOLDE DO WEBINAR DE GESTAO AGIL (GA, o de R$3M), entao este doc destrincha esse molde primeiro, e depois mostra como o autor do corpus aplica.
 >
-> **Fontes primarias.** Webinar gestao agil (GA): `_webinar-corpus/destil/exemplos-vivos/gestao-agil-mindmaster.md` (destilacao integral) + `particoes-por-bloco/gestao-agil-ed2.md`. Webinar real do corpus estudado: `corpus/webinar/CANONICO-WEBINAR-LEO.md` + `PROMESSA-MAXIMA.md` + `DESEJOS-QUE-ESCALAM.md` + `script-venda-com-webinars.md`. Marco Enes (desenho/empacotamento): `desenho-e-empacotamento-da-oferta.md` (nesta pasta) + `ancoragem-e-fechamento.md` + `exemplos-por-bloco/09-oferta-stack.md` + manual `modulo06-oferta.md`.
+> **Fontes primarias.** Fontes primarias: a destilacao integral do webinar de gestao agil do corpus + o webinar real do corpus estudado + a camada de desenho/empacotamento da escola do webinar de conversao, consolidadas nas references desta skill (`desenho-e-empacotamento-da-oferta.md`, `ancoragem-e-fechamento.md`, `exemplos-por-bloco/09-oferta-stack.md`).
 >
 > **Relacao com `_OFERTA-ANCORAGEM-PROVA.md` (irmao deste doc, NAO duplica).** Aquele doc cobre a ENGENHARIA DE PRECO (dupla ancoragem, queda em degraus, reduzir ao ridiculo, garantia, prova externa). ESTE doc cobre o que vem ANTES do preco: a COMPOSICAO da pilha, quantos itens, que tipos, como cada um e desejavel, e como entram um a um. Onde o assunto e "em que segundo o preco cai", va pro irmao. Onde e "que itens existem na pilha e em que ordem entram", e aqui.
 
@@ -41,7 +41,7 @@ A oferta campea nunca e um produto: e a aula REEMBALADA como uma pilha de coisas
 
 1. **Cada item ancora o proximo.** O primeiro numero jogado vira a regua; cada item somado por cima sobe a regua interna; so la na frente o preco derruba, e a queda e sentida a partir do TETO somado, nunca do zero. Pilha de 6 itens = teto 6x mais alto que um curso solto.
 2. **Cada item mata UMA objecao nomeada.** A stack nao se monta por acumulo ("o que mais eu tenho pra jogar dentro?"); monta-se por MAPA DE OBJECOES. Quando cada item fecha uma porta de saida especifica, a oferta termina sem portas abertas.
-3. **A escala progressiva de desejo afunda a pessoa.** Enes: *"afundando as pessoas na oferta para que a compra seja inevitavel."* autor do corpus: *"vou dando mais coisa, ele acha que ja acabou e tem mais, acha que ja acabou e tem mais, muito pior do que mostrar tudo de uma vez."* O "ainda tem mais" repetido vale mais que a lista aberta de uma vez.
+3. **A escala progressiva de desejo afunda a pessoa.** A escola do webinar de conversao: *"afundando as pessoas na oferta para que a compra seja inevitavel."* autor do corpus: *"vou dando mais coisa, ele acha que ja acabou e tem mais, acha que ja acabou e tem mais, muito pior do que mostrar tudo de uma vez."* O "ainda tem mais" repetido vale mais que a lista aberta de uma vez.
 
 **A chave que vira (a "oferta movedica").** Durante a aula INTEIRA vende-se UMA coisa: o metodo/mecanismo. Na hora da oferta, **vira-se a chave** e passa-se a vender CADA ENTREGA do produto, uma de cada vez. Implicacao de desenho: cada item da stack precisa nascer **vendavel sozinho**, com nome, beneficio e (quando couber) preco proprio. Item que nao se sustenta como micro-venda e peso morto.
 
@@ -49,22 +49,22 @@ A oferta campea nunca e um produto: e a aula REEMBALADA como uma pilha de coisas
 
 ## 2. A TRIPARTICAO dos itens (a classificacao que e a propria ancoragem)
 
-Tres classes de item, deliberadamente separadas. **A separacao E a ancoragem** (Marco Enes):
+Tres classes de item, deliberadamente separadas. **A separacao E a ancoragem** (a doutrina do clique):
 
 | Classe | O que e | Como nomear | Tem preco? | Funcao na stack |
 |---|---|---|---|---|
 | **MODULOS / PASSOS** | os passos dentro do produto-nucleo (o veiculo) | pelo que a pessoa VIRA, nunca pelo numero | nao (sao o que voce compra) | a transformacao em etapas (a escada de identidade) |
 | **CURSOS / prateleira** | treinamentos COMPLEMENTARES, cada um vendavel separado | nome proprio + beneficio; **NUNCA chamado de "bonus"** → "outro curso", "outro treinamento" | **SIM**, preco real, avulso, checavel | somar a ancora COM credibilidade |
-| **BONUS** (o "Mastercard" do Enes) | UM unico item, o de maior valor, que so o player consegue gerar | a palavra "bonus" fica RESERVADA so pra ele | **NAO** (de proposito) | pico de valor que ESCAPA da regua numerica |
+| **BONUS** (o "Mastercard" da escola do webinar de conversao) | UM unico item, o de maior valor, que so o player consegue gerar | a palavra "bonus" fica RESERVADA so pra ele | **NAO** (de proposito) | pico de valor que ESCAPA da regua numerica |
 
-Falas literais do Enes sobre por que os complementares NAO sao chamados de "bonus":
+Falas literais da escola do webinar de conversao sobre por que os complementares NAO sao chamados de "bonus":
 > *"ao inves de falar 'esse curso aqui tem esses bonus', eu faco diferente... eu estou mostrando a minha prateleira. E esses produtos custam tanto cada um."*
 > *"eu nao coloco os produtos como bonus, porque senao vai diluir esse negocio aqui. Se tudo e bonus, 'bonus' nao significa nada."*
 
 o autor do corpus radicaliza: evita ate a palavra "bonus" pros complementares (*"ela ta batida"*) → *"te dou esse OUTRO curso."*
 
 **Regra de NUMERACAO (cuidado, nao e "Curso 1, Curso 2"):**
-- Os MODULOS do nucleo sao numerados, mas **nomeados pelo que a pessoa vira**: gestao agil = "Iniciante → Agilista → Gerente Agil → Executivo Agil"; Enes emprego = "Curriculo Lapidado / LinkedIn Valioso / Networking Especial / Entrevista Brilhante"; o autor do corpus NAO usa numero, usa os 3 passos do proprio mecanismo (O Argumento · A Sala · A Maquina).
+- Os MODULOS do nucleo sao numerados, mas **nomeados pelo que a pessoa vira**: gestao agil = "Iniciante → Agilista → Gerente Agil → Executivo Agil"; a escola do webinar de conversao, no nicho de emprego = "Curriculo Lapidado / LinkedIn Valioso / Networking Especial / Entrevista Brilhante"; o autor do corpus NAO usa numero, usa os 3 passos do proprio mecanismo (O Argumento · A Sala · A Maquina).
 - Os CURSOS da prateleira sao por NOME, nunca "Curso 1/2/3": "Mapa do Curriculo", "OKR Coach", "Design Thinking".
 - **Regra dura:** descrever produto por "120 aulas, 12 modulos, 64 horas" virou argumento CONTRA. O avatar maduro le "120 aulas" e pensa "nunca vou assistir tudo isso". Cada modulo = um PASSO nomeado pelo resultado + uma headline de beneficio + uma prova propria.
 
@@ -112,7 +112,7 @@ Pelo menos um item da stack tem valor percebido **maior que o produto principal*
 O item mais original da maquina: o **Drive de 14 mil alunos**. Nao e uma feature, e um ativo que se VALORIZA com a escala do negocio.
 > *"cada aluno nosso ganha uma pasta no nosso Google Drive... lembra que eu falei que a gente ja tem 14 mil alunos? imagina a quantidade de exercicios que a gente tem aqui... voce digita 'exemplo de Kanban na logistica', vai aparecer um monte pra voce."*
 
-**Por que e poderoso:** mata a objecao-mae "sera que funciona na MINHA area?" entregando exemplo da profissao exata da pessoa, e e algo que NENHUM concorrente menor consegue oferecer (precisa de 14 mil alunos pra ter o acervo). E o equivalente, no gestao agil, do "bonus sem preco" do Enes: algo que so o player gera.
+**Por que e poderoso:** mata a objecao-mae "sera que funciona na MINHA area?" entregando exemplo da profissao exata da pessoa, e e algo que NENHUM concorrente menor consegue oferecer (precisa de 14 mil alunos pra ter o acervo). E o equivalente, no gestao agil, do "bonus sem preco" da escola do webinar de conversao: algo que so o player gera.
 
 ### 4.3 A pergunta hipotetica ANTES de cada item (faz desejar antes de receber)
 Na edicao "Era da IA", cada item entra precedido de uma pergunta cuja resposta so pode ser "sim":
@@ -156,7 +156,7 @@ Ou seja: **turma inteira leva o desconto → 15 primeiros levam 2 cursos → 10 
 
 ### 7.1 Escassez + personalizacao (as duas pernas)
 - **Escassez honesta:** o "15 primeiros" e crivel porque o numero E a capacidade real de entrega, nunca teatro. o autor do corpus, literal: *"Estou em paz com a estrategia dos 15 primeiros porque ainda nao tenho escala que compra mais de 15 por sessao. O dia que comprar mais, vou la e mudo a live: pros 20 primeiros, pronto."*
-- **Personalizacao = a melhor escassez possivel** (porque e honesta por natureza): trabalho individual nao escala, entao limitar e autoevidente. Enes: *"os primeiros a se inscrever ganham uma revisao completa, individual, do curriculo e do perfil do LinkedIn."* / o *"mapa de personalidade do cachorro"* (a pessoa informa raca+idade, recebe o mapa do animal dela). Ninguem duvida que voce nao faz revisao pessoal pra dez mil pessoas.
+- **Personalizacao = a melhor escassez possivel** (porque e honesta por natureza): trabalho individual nao escala, entao limitar e autoevidente. A escola do webinar de conversao: *"os primeiros a se inscrever ganham uma revisao completa, individual, do curriculo e do perfil do LinkedIn."* / o *"mapa de personalidade do cachorro"* (a pessoa informa raca+idade, recebe o mapa do animal dela). Ninguem duvida que voce nao faz revisao pessoal pra dez mil pessoas.
 
 ### 7.2 As DUAS moedas separadas (o achado-mae que nao pode misturar)
 > O DESCONTO remove a objecao de PRECO, TODO MUNDO leva. Os BONUS DOS 15 PRIMEIROS criam a CORRIDA, so quem age rapido leva.
@@ -181,7 +181,7 @@ A nocao de "se nao agora, eu perco" nao espera a oferta. autor do corpus: *"la n
 
 ## 8. O bonus surpresa personalizado (o "por que AGORA", solto DEPOIS do preco)
 Alem dos cursos-bonus, existe UM bonus desenhado desde ja, **nao anunciado**, solto DEPOIS do preco e ANTES de liberar o botao. Tres tracos: **personalizado + escasso (so os N primeiros) + surpresa.**
-> Enes: *"os 10 primeiros ganham uma revisao completa, individual, do curriculo e do perfil LinkedIn."*
+> A escola do webinar de conversao: *"os 10 primeiros ganham uma revisao completa, individual, do curriculo e do perfil LinkedIn."*
 > autor do corpus: *"eu olho o teu primeiro webinario e te dou o ajuste, individual, entao so consigo pros 15 primeiros."*
 
 **No perpetuo:** desenhar como ALGO AUTOMATIZAVEL (template + automacao) pra poder entregar a todos sem quebrar a honestidade da escassez.
@@ -230,7 +230,7 @@ O autor do corpus segue a logica (3 passos do nucleo primeiro, depois a pratelei
 
 ## 10. A ORDEM CANONICA de revelacao da oferta (a coreografia que afunda a pessoa)
 
-Identica em Enes, no gestao agil e nos 2 webinares do corpus estudado. Cada item entra **um por clique, animado, NUNCA a lista aberta de uma vez** (regra de slide do corpus estudado: *"a dopamina, cada item por clique"*).
+Identica na escola do webinar de conversao, no gestao agil e nos 2 webinares do corpus estudado. Cada item entra **um por clique, animado, NUNCA a lista aberta de uma vez** (regra de slide do corpus estudado: *"a dopamina, cada item por clique"*).
 
 1. **Transicao + depoimento** abrangente (reaquece a prova) + o "EU QUERO" / "SIM EU QUERO" digitado no chat (permissao publica pra vender)
 2. **Caminho 1 (sozinho) x Caminho 2 (comigo)**, a audiencia escolhe o 2 no chat e PEDE o pitch
@@ -277,6 +277,6 @@ Identica em Enes, no gestao agil e nos 2 webinares do corpus estudado. Cada item
 ## Calibragem (voz e erros a nao cometer)
 - **A pilha SUBTRAI complexidade, nunca adiciona.** Se um item aparece como "mais uma coisa pra operar", ele virou o inimigo do posicionamento Soft. O climax da stack e sempre o item que TIRA mais trabalho (a IA que faz, o acervo pronto, o sistema montado).
 - **Stack de volume vazio e proibido.** Empilhar PDF generico / "aulas extras" que nao respondem objecao nenhuma incha a lista e dilui os itens que vendem. O criterio unico: que objecao este item mata, ou quanta ancora ele soma com credibilidade?
-- **Nao decalcar rotulo com dono.** "Bonus do combinado nao sai caro" / "GPS da Gestao Agil" = GA; "Black Belt Club" = Bruno. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
+- **Nao decalcar rotulo com dono.** "Bonus do combinado nao sai caro" / "GPS da Gestao Agil" = GA; "Black Belt Club" = o especialista do corpusC. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
 - **Exemplos de nicho (gestao, emprego, nutricao, dentistica) ilustram o beat, NUNCA viram recheio a decalcar.** O recheio sai da pesquisa real do avatar do corpus estudado.
 - **Banido na copy:** travessao, "travar/travado", ALL-CAPS corrido, "alavancar", "mindset", tom de palco/guru. Tom clinico: medir, nunca dramatizar.

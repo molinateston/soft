@@ -28,7 +28,7 @@ O pré-início tem UM trabalho central: fazer a audiência executar o primeiro c
 
 ---
 
-### 5 Níveis de Planejamento (Denison Vieira, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
+### 5 Níveis de Planejamento (o criador do webinar de gestão ágil estudado, CEO GA) - gestão ágil, Gestão Ágil 2.0 (R$3.000 ancorado → R$1.697 / R$165 por mês)
 
 **Trecho literal:**
 
@@ -44,7 +44,7 @@ O pré-início tem UM trabalho central: fazer a audiência executar o primeiro c
 
 ---
 
-### Gestão Ágil 2.0 (GA, host Denison) - gestão ágil, R$1.997 → 15% off → R$165,34/mês ou R$1.697 à vista; variação com loop de depoimentos pré-host
+### Gestão Ágil 2.0 (GA, host o criador do webinar de gestão ágil estudado) - gestão ágil, R$1.997 → 15% off → R$165,34/mês ou R$1.697 à vista; variação com loop de depoimentos pré-host
 
 **Trecho literal:**
 
@@ -54,7 +54,7 @@ Loop de depoimentos rodando antes do início (aluna designer, voz 1):
 (aluno do caso GA, voz 2):
 > "Eu sou [ALUNO], formado em agronomia e também tenho título de doutor em agronomia. Estava desempregado durante a pandemia, eu me tornei aluno da GA. Consegui a minha vaga, a primeira vaga como gerente de projetos e Scrum Master. O método GA me forneceu todo o conhecimento para ser contratado como gerente de projetos de Scrum Master. […] Então em uma semana eu tive aí sete empresas me contatando, sete empresas do exterior me contatando, querendo que eu fizesse parte dos projetos deles"
 
-Check técnico + chat acordando (Denison, início do ao vivo):
+Check técnico + chat acordando (o criador do webinar de gestão ágil estudado, início do ao vivo):
 > "Fala pessoal, tudo bem? Sejam muito bem-vindos. Coloca nos comentários aqui só para eu saber se vocês estão conseguindo me ouvir, se o áudio está bom, se está tudo ok. Coloca aqui se vocês estão me vendo e me ouvindo, né? Só para eu saber se está tudo bem com a infraestrutura aqui. Eu n sei se eu estou falando aqui mas eu n consigo me ouvir para saber se est tudo bem. Coloca aqui para mim s para eu saber. E vamos l bora come. A Maria est dizendo aqui que est sim, Luiz sim, beleza, tudo funcionando muito bem. Obrigado galera, obrigado voc por comparecerem aqui na aula. Eu prometo para vocês que eu vou dar o meu melhor conteúdo."
 
 Gestão de problema técnico sem perder a sala:
@@ -68,7 +68,7 @@ Gestão de problema técnico sem perder a sala:
 
 ---
 
-### GAIA2k - "Gestão Ágil na Era da IA" (Denison Vieira / GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199
+### GAIA2k - "Gestão Ágil na Era da IA" (o criador do webinar de gestão ágil estudado / GA) - Formação Gestão Ágil 2.0, R$1.997 à vista / 12x R$199
 
 **Trecho literal:**
 
@@ -108,7 +108,7 @@ Gestão de problema técnico sem perder a sala:
 
 ---
 
-### Webinar C (exemplo de outro nicho: odonto) - "Resina Anterior / Método One 2.0", R$12.000 → R$3.000 → R$1.997, 10 vagas; voz que se identifica como Bruno (dentista)
+### Webinar C (exemplo de outro nicho: odonto) - "Resina Anterior / Método One 2.0", R$12.000 → R$3.000 → R$1.997, 10 vagas; voz única que se identifica como o especialista (dentista)
 
 **Trecho literal:**
 
@@ -148,7 +148,7 @@ Gestão de problema técnico sem perder a sala:
 
 ## Webinars sem este bloco (e por quê - também é dado)
 
-- **Aluna 80k (Juliana Pupim - Seja Arquiteto na América):** a gravação abre direto no vídeo-depoimento da Karine e cai na saudação formal - sem aquecimento, contagem, check de som ou compliance prévia. Único resquício técnico já dentro da abertura: "Deixa eu só ajeitar aqui, gente, ó. […] A minha, o meu rosto tá um pouco fora. Pronto, agora vocês vão conseguir ver melhor." Provável corte da gravação: o pré-início pode ter existido e ficado fora do arquivo. Lição: mesmo sem o bloco, ela abre com depoimento - a função "pré-validar a tese" foi preservada.
+- **Aluna 80k ("Seja Arquiteto na América"):** a gravação abre direto no vídeo-depoimento da Karine e cai na saudação formal - sem aquecimento, contagem, check de som ou compliance prévia. Único resquício técnico já dentro da abertura: "Deixa eu só ajeitar aqui, gente, ó. […] A minha, o meu rosto tá um pouco fora. Pronto, agora vocês vão conseguir ver melhor." Provável corte da gravação: o pré-início pode ter existido e ficado fora do arquivo. Lição: mesmo sem o bloco, ela abre com depoimento - a função "pré-validar a tese" foi preservada.
 - **Fladlien #1 (One to Many - Genius Webinars):** a gravação abre direto em "And we are rolling" e cai na agenda; sem aquecimento, check técnico ou chat acordando. Consistente com formato evergreen/gravado, onde o pré-início é cortado ou nunca existiu.
 - **Fladlien #2 (Product Creation Secrets / Product E-Class 2020):** abre direto na headline falada ("Product creation secrets. My name is Jason Fladdlin…"). O papel de "acordar o chat" foi absorvido pelo quiz do bloco 02 no primeiro minuto - a função de primeiro micro-compromisso sobrevive sem o bloco, deslocada pra abertura.
 
