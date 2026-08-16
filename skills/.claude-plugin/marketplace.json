@@ -1,0 +1,53 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "soft-business",
+  "owner": {
+    "name": "Léo Molina"
+  },
+  "metadata": {
+    "description": "Método Soft Business — o Sócio IA (LEON) e as skills que montam o negócio do especialista do zero ao rodando, conduzido por perguntas."
+  },
+  "plugins": [
+    {
+      "name": "soft",
+      "source": "./",
+      "description": "Sistema Soft Business completo: o agente LEON conduz a jornada nas 10 categorias (Plano de Negócio, Posicionamento, Ofertas, Financeiro/Contratos, Conteúdo, os 3 funis Funil Soft/Soft Webinário/Soft Launch, Vendas) e avalia cada ativo. As skills sobem juntas e atualizam sozinhas a cada git push.",
+      "strict": false,
+      "skills": [
+        "./soft-leon",
+        "./soft-plano-negocio",
+        "./soft-plano-posicionamento",
+        "./soft-plano-ofertas",
+        "./soft-financeiro",
+        "./soft-contratos-consultoria",
+        "./soft-conteudo-planner",
+        "./soft-conteudo-headlines",
+        "./soft-conteudo-carrossel",
+        "./soft-conteudo-reels",
+        "./soft-conteudo-stories",
+        "./soft-conteudo-multiplataforma",
+        "./soft-conteudo-impulsionar",
+        "./soft-designer",
+        "./soft-editor-video",
+        "./soft-trafego-meta",
+        "./soft-apostila",
+        "./soft-funil-carta",
+        "./soft-funil-miniwebinar",
+        "./soft-funil-landing",
+        "./soft-funil-isca",
+        "./soft-webinar-plano",
+        "./soft-webinar-script",
+        "./soft-webinar-slides",
+        "./soft-webinar-paginas",
+        "./soft-webinar-mensagens",
+        "./soft-webinar-chat",
+        "./soft-launch",
+        "./soft-vendas-estrategias",
+        "./soft-vendas-sdr",
+        "./soft-vendas-closer",
+        "./soft-proposta-comercial",
+        "./soft-treino-dieta"
+      ]
+    }
+  ]
+}
