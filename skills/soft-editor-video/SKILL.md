@@ -70,6 +70,10 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 9. **CTA no final** (se configurado): anexar `config/cta_take.mp4` com transição `xfade=fade:0.7` (sem corte seco). (`scripts/04_build_final.py` faz CTA + música.)
 10. **Música de fundo discreta:** `loudnorm=I=-34:TP=-6:LRA=6` + `volume=0.38`, `amix normalize=0`, fade in/out. NUNCA sobrepõe a fala.
 11. **Export 4K** + salvar na pasta de saída do dono. Abrir pra ele ver.
+12. **AUDITORIA VISUAL (OBRIGATÓRIA, olhos reais):** `python3 scripts/06_audit.py <final.mp4> <pasta>/audit 12 "<fim_gancho>,<inicio_cta>"`. O script extrai 12 frames do MP4 ENTREGUE, monta `audit/mosaico.jpg` e passa os frames pro **codex OAuth** (conta ChatGPT, via `codex exec -i`, ZERO API paga) conferir a composição (teto morto, enquadramento frouxo, faixa de b-roll vazia, legenda no rosto, b-roll deformado, faixa do gancho) + mede decodificação íntegra. Você NÃO tem olhos no turno normal: este passo é o único que confere de verdade.
+    - **PASSA (exit 0):** entregue o MP4 + `audit/mosaico.jpg` (os DOIS caminhos absolutos, cada um em linha isolada; a ponte sobe os dois no Telegram). Selo permitido, exato: "Auditoria visual: PASSA (N frames, codex). Prova: <mosaico>". Nada de "sync 0,000 ms" — isso não foi medido.
+    - **REPROVA (exit 1):** NÃO é pronto. Corrige o problema apontado no `veredito.json` e re-roda a auditoria (1 ciclo). Persistiu ou é ambíguo: manda o mosaico + os motivos pro dono decidir.
+    - **INDISPONÍVEL (exit 2, codex/visão fora do ar):** entregue o MP4 + mosaico com o aviso literal "não consegui auditar visualmente (visão indisponível), confere no mosaico". SEM selo.
 
 ## REGRAS INVIOLÁVEIS
 - B-roll **image-first** (gpt-image-2 → Veo). Nunca texto→vídeo direto.
@@ -78,6 +82,11 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 - **Personagens sempre consistentes** com `config/personagens.json`. Trio (ou elenco fixo) presente em toda cena; extras conforme a fala.
 - Checkpoint: **aprovar as imagens antes de animar.**
 - **Texto na tela passa pelo `soft-anti-ia`** antes de queimar (gancho, faixa, CTA).
+- **Mostrar, não afirmar.** "Conferido/auditado" só existe se `scripts/06_audit.py` rodou AGORA sobre o arquivo entregue e devolveu PASSA, com `audit/mosaico.jpg` anexo na mesma mensagem. Selo sem mosaico anexo é mentira, mesmo que o vídeo esteja bom.
+- **Você não tem olhos.** Nunca descreva o conteúdo de um frame que nenhuma ferramenta de visão te devolveu. Proibido alegar "sync", "ms", "frames conferidos", "decodificação sem erros" ou qualidade visual de qualquer coisa que você não passou pelo `06_audit.py`.
+- **Conclusão honesta.** Auditoria REPROVOU ou não rodou = a entrega NÃO ganha selo. Reprovado: corrige ou vai pro dono com o mosaico e os motivos. Indisponível: entrega com o aviso. "Concluída" por cima de reprovação não existe.
+- **Custo da auditoria:** ZERO API paga — roda na conta OAuth do ChatGPT (mesmo motor do LEON). +40-100s no pipeline. Irrelevante perto do Veo.
+- **Gotcha:** amostrar 0.8s DEPOIS de transição; frame no meio do `xfade` parece dupla exposição e reprova à toa (o `06_audit.py` já trata via marcos).
 
 ## GERAÇÃO DE VÍDEO POR IA (Higgsfield MCP — 12/08)
 
