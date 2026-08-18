@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apresentação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* === TOKENS EDITÁVEIS === */
+    :root {
+      --stage-bg: #000;
+      --slide-bg: #000;
+      --paper: #f5f2ec;
+      --green: #4ade80;
+      --muted: #898985;
+      --line: #30332f;
+      --ease: cubic-bezier(.16, 1, .3, 1);
+    }
+    * { box-sizing: border-box; }
+
+    /* === PALCO FIXO 1920×1080 === */
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--stage-bg, #000);
+    }
+    .deck-viewport {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      background: var(--stage-bg, #000);
+    }
+    .deck-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      transform-origin: 0 0;
+      background: var(--slide-bg, #fff);
+    }
+    .slide {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      background: var(--slide-bg, #fff);
+    }
+    .slide.active,
+    .slide.visible {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+      z-index: 1;
+    }
+    img,
+    video,
+    canvas,
+    svg { max-width: 100%; max-height: 100%; }
+    .deck-controls {
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translateX(-50%);
+      z-index: 1000;
+    }
+    @media print {
+      html,
+      body { width: 1920px; height: auto; overflow: visible; background: #fff; }
+      .deck-viewport { position: static; overflow: visible; background: #fff; }
+      .deck-stage { position: static; width: auto; height: auto; transform: none !important; background: none; }
+      .slide {
+        position: relative;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        width: 1920px;
+        height: 1080px;
+        break-after: page;
+        page-break-after: always;
+      }
+      .slide:last-child { break-after: auto; page-break-after: auto; }
+      .deck-controls { display: none !important; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .2s !important; }
+    }
+
+    /* === BASE B80 === */
+    .slide {
+      padding: 72px 88px;
+      color: var(--paper);
+      font-family: Inter, sans-serif;
+      background: #000;
+    }
+    .slide::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 79% 20%, rgba(74, 222, 128, .12), transparent 30%);
+      pointer-events: none;
+    }
+    .eyebrow,
+    .brand,
+    .counter {
+      position: absolute;
+      top: 54px;
+      z-index: 2;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .eyebrow { left: 88px; color: var(--green); text-transform: uppercase; }
+    .brand { right: 88px; color: var(--muted); }
+    .counter { right: 88px; top: 90px; color: #4c4c49; letter-spacing: 1px; }
+    h1 {
+      position: absolute;
+      left: 88px;
+      top: 145px;
+      width: 1360px;
+      margin: 0;
+      font-size: 78px;
+      line-height: 1.02;
+      letter-spacing: -3.5px;
+      font-weight: 900;
+    }
+    h1 i { color: var(--green); font-style: normal; }
+    .body {
+      position: absolute;
+      left: 92px;
+      top: 515px;
+      width: 1260px;
+      font-size: 31px;
+      line-height: 1.28;
+    }
+    .camera {
+      position: absolute;
+      right: 88px;
+      bottom: 70px;
+      width: 334px;
+      height: 188px;
+      border: 2px solid #30302e;
+      background: #090909;
+    }
+    .camera span {
+      position: absolute;
+      left: 16px;
+      top: 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* === C20: NÚMERO, PROCESSO E COMPARAÇÃO === */
+    .stat .body { top: 270px; width: 900px; }
+    .stat strong { display: block; color: var(--green); font-size: 150px; line-height: .9; letter-spacing: -8px; }
+    .stat .unit { display: block; font-size: 42px; font-weight: 800; }
+    .stat p { margin-top: 26px; font-size: 28px; color: #d0cec8; }
+    .steps h1 { width: 1500px; font-size: 66px; }
+    .steps .body { top: 430px; width: 1390px; }
+    .steps ol { list-style: none; counter-reset: item; display: flex; gap: 26px; margin: 0; padding: 0; }
+    .steps li { counter-increment: item; flex: 1; border-top: 2px solid var(--green); padding-top: 18px; }
+    .steps li::before { content: counter(item, decimal-leading-zero); display: block; color: var(--green); font-size: 17px; font-weight: 800; margin-bottom: 13px; }
+    .steps li b { display: block; font-size: 27px; }
+    .steps li span { display: block; margin-top: 10px; color: #b8b7b2; font-size: 20px; }
+    .comparison h1 { width: 1450px; font-size: 64px; }
+    .comparison .body { top: 390px; width: 1375px; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
+    .compare > div { min-height: 280px; padding: 28px 30px; border: 1px solid var(--line); background: rgba(255, 255, 255, .025); }
+    .compare > div:last-child { border-color: var(--green); }
+    .compare b { display: block; color: var(--green); font-size: 29px; margin-bottom: 20px; }
+    .compare span { display: block; margin: 9px 0; font-size: 21px; }
+
+    /* === MOVIMENTO === */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .32s var(--ease), transform .32s var(--ease); }
+    .visible .reveal { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+  <div class="deck-viewport">
+    <main class="deck-stage" id="deckStage">
+      <section class="slide active visible">
+        <div class="eyebrow reveal">Seção</div><div class="brand reveal">Marca</div><div class="counter">01 / 04</div>
+        <h1 class="reveal">Uma ideia forte.<br><i>Uma direção clara.</i></h1>
+        <div class="body reveal">Use este espaço para sustentar a headline sem repetir a fala inteira.</div>
+        <div class="camera"><span>CÂMERA</span></div>
+      </section>
+      <section class="slide stat">
+        <div class="eyebrow reveal">Número</div><div class="brand reveal">Marca</div><div class="counter">02 / 04</div>
+        <h1 class="reveal">O dado que muda<br><i>a interpretação.</i></h1>
+        <div class="body reveal"><strong>42</strong><span class="unit">unidades</span><p>Explique a origem e o significado do número.</p></div>
+        <div class="camera"><span>CÂMERA</span></div>
+      </section>
+      <section class="slide steps">
+        <div class="eyebrow reveal">Processo</div><div class="brand reveal">Marca</div><div class="counter">03 / 04</div>
+        <h1 class="reveal">Do ponto de partida<br><i>à entrega.</i></h1>
+        <div class="body reveal"><ol><li><b>Contexto</b><span>O que precisa ser sabido.</span></li><li><b>Decisão</b><span>O que governa a sequência.</span></li><li><b>Execução</b><span>O trabalho produzido.</span></li><li><b>Prova</b><span>O que confirma o pronto.</span></li></ol></div>
+        <div class="camera"><span>CÂMERA</span></div>
+      </section>
+      <section class="slide comparison">
+        <div class="eyebrow reveal">Comparação</div><div class="brand reveal">Marca</div><div class="counter">04 / 04</div>
+        <h1 class="reveal">Antes havia atrito.<br><i>Agora existe sequência.</i></h1>
+        <div class="body reveal"><div class="compare"><div><b>Antes</b><span>Informação solta</span><span>Retrabalho</span><span>Entrega incerta</span></div><div><b>Depois</b><span>Contexto recuperado</span><span>Sequência clara</span><span>Artefato conferível</span></div></div></div>
+        <div class="camera"><span>CÂMERA</span></div>
+      </section>
+    </main>
+  </div>
+  <script>
+    class Deck {
+      constructor() {
+        this.slides = [...document.querySelectorAll('.slide')];
+        this.index = 0;
+        this.stage = document.getElementById('deckStage');
+        this.locked = false;
+        this.scale();
+        addEventListener('resize', () => this.scale());
+        addEventListener('keydown', event => this.onKey(event));
+        this.touch();
+        this.wheel();
+        this.show(0);
+      }
+      scale() {
+        const factor = Math.min(innerWidth / 1920, innerHeight / 1080);
+        const x = (innerWidth - 1920 * factor) / 2;
+        const y = (innerHeight - 1080 * factor) / 2;
+        this.stage.style.transform = `translate(${x}px, ${y}px) scale(${factor})`;
+      }
+      onKey(event) {
+        if (['ArrowRight', 'ArrowDown', ' ', 'PageDown'].includes(event.key)) this.show(this.index + 1);
+        if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(event.key)) this.show(this.index - 1);
+      }
+      touch() {
+        let x = 0;
+        addEventListener('touchstart', event => { x = event.touches[0].clientX; }, { passive: true });
+        addEventListener('touchend', event => {
+          const delta = x - event.changedTouches[0].clientX;
+          if (Math.abs(delta) > 45) this.show(this.index + (delta > 0 ? 1 : -1));
+        }, { passive: true });
+      }
+      wheel() {
+        addEventListener('wheel', event => {
+          if (this.locked) return;
+          this.locked = true;
+          this.show(this.index + (event.deltaY > 0 ? 1 : -1));
+          setTimeout(() => { this.locked = false; }, 450);
+        }, { passive: true });
+      }
+      show(index) {
+        this.index = Math.max(0, Math.min(index, this.slides.length - 1));
+        this.slides.forEach((slide, position) => {
+          slide.classList.toggle('active', position === this.index);
+          slide.classList.toggle('visible', position === this.index);
+        });
+      }
+    }
+    window.deck = new Deck();
+  </script>
+</body>
+</html>

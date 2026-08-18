@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apresentações LEON"
+  short_description: "Cria decks editoriais e exporta todos os formatos"
+  default_prompt: "Use $soft-apresentacao para criar uma apresentação guiada pela minha fala e exportar HTML, PDF, PNG e PowerPoint."
