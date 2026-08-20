@@ -251,19 +251,75 @@ Acompanha o pitch FEAR/FOMO da espinha ("só temos mais 2 vagas, depois que acab
 
 ---
 
-## 5. Realismo (anti-robótico)
+## 5. Realismo (anti-robótico): a FICHA DE DIGITAÇÃO, obrigatória e medida
 
-O que separa uma sala simulada que converte de uma que denuncia o gravado:
+> **Origem da régua (o especialista, 20/08/2026, reprovando um chat simulado de 300 comentários):** *"tem muito comentário muito parecido. Quando eu peço para as pessoas me falarem, a não ser que eu falo pra elas a palavra certa, ninguém vai digitar exatamente com a mesma vírgula, com o mesmo tamanho de texto. São pessoas diferentes, com personalidades diferentes, que escrevem de um jeito diferente, de estados diferentes."*
+> O que o chat reprovado tinha: 21 de 300 mensagens começando com maiúscula, NENHUMA passando de 64 letras, 2 com risada, zero emoji. Uma pessoa só escrevendo 300 vezes com nomes diferentes. As instruções antigas desta seção ("typo leve ocasional", "comprimentos variados") eram frouxas demais pra impedir isso. Agora tem ficha por pessoa e número a bater.
 
-- **Nomes BR variados:** alternar regiões e gerações. EXEMPLO de pool: Camila, Rafael, Patrícia, Marcos, Letícia, Vinícius, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Luan, Bia, Wesley, Sandra, Eduardo. Evitar repetir o mesmo nome em comentários próximos no tempo. NÃO usar nomes que o host vá ecoar a menos que o eco esteja casado (ver §6).
-- **Cidades variadas:** espalhar pelo país, não só capitais do Sudeste. EXEMPLO: Manaus, Recife, Goiânia, Porto Alegre, Belém, Campo Grande, interior (Sorocaba, Caxias, Juazeiro). Coerente com o "gente do país inteiro" que o host celebra.
-- **Timing ESCALONADO:** nunca todos no mesmo segundo. Numa rajada de "EU QUERO", espalhar pelos 60-90 segundos com intervalos irregulares (3s, 7s, 4s, 11s…). Uma sala real digita em velocidades diferentes.
-- **Abreviação/typo leve ocasional:** "vc", "tbm", "kkkk", "to dentro", acento faltando, emoji esporádico. Não em todo comentário (vira caricatura), mas o suficiente pra soar humano. O host nunca erra; o público erra.
-- **Volume coerente com a sala:** N=200 não comporta 300 comentários. A régua do §3 manda. Sala pequena, chat discreto; sala grande, chat movimentado. Incoerência (chat fervendo numa sala de 40) denuncia.
-- **Variedade de comprimento:** mistura "EU QUERO" de duas palavras com frases de uma linha. Sala real tem os dois.
-- **Nunca contradizer nem antecipar o roteiro:** nenhum comentário pode revelar algo que o host ainda não disse (ex.: citar o preço antes de o host abrir o preço), nem discordar de um fato do roteiro, nem reagir a algo que não aconteceu na tela. Cada comentário é uma reação ao que JÁ passou no vídeo naquele timestamp.
+### 5.1 A FICHA DE DIGITAÇÃO vem ANTES do primeiro comentário
 
----
+Não se escreve nenhuma mensagem antes de existir uma linha por pessoa do elenco, gravada num
+`personas-digitacao.csv` ao lado do chat. Colunas obrigatórias:
+
+`nome, caixa, pontuacao, abreviacao, risada, emoji, tamanho, erro_digitacao, regiao, personalidade`
+
+- **caixa:** `minusculo` (tudo minúsculo) · `maiuscula_inicio` · `correto` (maiúscula e ponto final) · `exagerado` (CAPS numa palavra, excesso de exclamação)
+- **pontuacao:** `nenhuma` · `so_virgula` · `correta` · `reticencias`
+- **abreviacao:** `nenhuma` · `media` (tbm, pq, vc, msm, q) · `alta`
+- **risada:** `nunca` · `kkk` · `rsrs` · `haha`
+- **emoji:** `nunca` · `raro` · `usa` (no MÁXIMO 1 por mensagem, sempre)
+- **tamanho:** `curtissimo` 5-15 letras · `curto` 15-35 · `medio` 35-70 · `longo` 70-160
+- **erro_digitacao:** `nunca` · `as_vezes`
+- **regiao:** Sul · Sudeste · Nordeste · Centro-Oeste · Norte
+- **personalidade:** animado · cético · técnico · tímido · tagarela · prático · ansioso
+
+Depois disso, cada mensagem obedece à ficha de quem assina. A mesma pessoa escreve do mesmo jeito
+a aula inteira: é isso que faz o leitor acreditar que são pessoas.
+
+### 5.2 Distribuição do elenco (proporção de PESSOAS, não de mensagens)
+
+Chat de webinário é celular na mão, e celular é majoritariamente minúsculo:
+
+- ~60% `minusculo`, ~15% `maiuscula_inicio`, ~15% `correto`, ~10% `exagerado`
+- emoji em ~20% das pessoas, risada em ~25%, abreviação média ou alta em ~35%
+- sotaque regional leve em ~20% (oxe, uai, bah, tchê, meu, mano, véi, égua), no máximo UMA marca por mensagem
+
+**Armadilha medida:** a proporção de MENSAGENS não é a de PESSOAS. Quem fala mais puxa a conta.
+Na primeira volta desse mesmo trabalho, uma distribuição com 65% do elenco capitalizado gerou 195
+de 300 mensagens com maiúscula, o oposto do defeito original. Depois de escrever, MEÇA a saída e
+rebalanceie o elenco até a mensagem bater a meta do §5.3.
+
+### 5.3 As metas numéricas da saída (medidas por script, não por impressão)
+
+Sobre o total de comentários do chat:
+
+| o quê | alvo |
+|---|---|
+| começa com maiúscula | 20% a 30% |
+| mensagens com mais de 70 letras | pelo menos 8% |
+| mensagens com mais de 110 letras (o cara que escreve um parágrafo) | pelo menos 2% |
+| mensagens com menos de 15 letras | pelo menos 10% |
+| abreviação, typo real ou risada | 15% a 30% |
+| emoji | 6% a 12%, nunca mais de 1 por mensagem |
+| sem nenhuma pontuação | 35% a 50% |
+| sotaque regional leve | até 10% |
+
+Meta que não bateu se ESCREVE na auditoria como não batida. Inflar número aqui é pior que a falha.
+
+### 5.4 A única repetição autorizada
+
+Quando o host manda a sala digitar a palavra exata ("digita EU QUERO no chat"), aí SIM várias
+pessoas escrevem a mesma coisa: é comportamento de sala real. Mas mesmo aí a caixa e a pontuação
+variam: `eu quero`, `EU QUERO`, `Eu quero!!`, `quero sim`, `eu quero demais`. **Nunca duas linhas
+idênticas seguidas, e nunca quatro pessoas seguidas com a mesma palavra.**
+
+### 5.5 O resto do realismo (continua valendo)
+
+- **Nomes BR variados:** alternar regiões e gerações; não repetir nome em comentários próximos. Nome que o host vá ecoar só entra casado (ver §6).
+- **Cidades variadas:** país inteiro, não só capital do Sudeste.
+- **Timing ESCALONADO:** nunca todos no mesmo segundo; intervalos irregulares (3s, 7s, 4s, 11s).
+- **Volume coerente com a sala:** N=200 não comporta 300 comentários. A régua do §3 manda.
+- **Nunca contradizer nem antecipar o roteiro:** cada comentário reage ao que JÁ passou no vídeo naquele timestamp.
 
 ## 6. A checagem de consistência (a parte crítica, bidirecional)
 
@@ -349,7 +405,10 @@ Pré-requisito: o roteiro/deck do webinar + a planilha de chat que já existe (s
 - [ ] **Todo comando do host tem rajada:** "digita EU QUERO", "de onde você é", "quem já se inscreveu" disparam ondas correspondentes.
 - [ ] **Carrinho completo:** tem social proof de compra, prova de decisão, ao menos 1 objeção que SURGE e RESOLVE, FOMO, e 1-2 haters neutralizados (sem briga, resolvidos longe do clímax).
 - [ ] **Honestidade:** nenhum comentário inventa resultado de cliente, número de vagas, preço ou prova; a escassez declarada é a REAL da sessão (G7). Simula a sala, não a prova.
-- [ ] **Realismo:** nomes e cidades variados (não só capitais do Sudeste, sem repetir nome em comentários próximos), timing escalonado (não todos no mesmo segundo), typo/abreviação leve ocasional, comprimentos variados.
+- [ ] **Ficha de digitação existe:** `personas-digitacao.csv` gravado ANTES do primeiro comentário, uma linha por pessoa do elenco, com as 10 colunas do §5.1.
+- [ ] **Metas de digitação medidas por script:** rodar `python3 scripts/mede_digitacao.py <chat.csv>` e terminar em `VEREDITO DIGITACAO: OK`. O número real vai escrito na auditoria; meta não batida se declara, nunca se infla.
+- [ ] **Repetição só onde o host mandou:** fora do comando literal, zero mensagens idênticas; e mesmo na rajada do comando, caixa e pontuação variam e nunca há 4 pessoas seguidas iguais (§5.4).
+- [ ] **Realismo:** nomes e cidades variados (não só capitais do Sudeste, sem repetir nome em comentários próximos), timing escalonado (não todos no mesmo segundo).
 - [ ] **Zero contradição/antecipação:** nenhum comentário cita algo antes de o host dizer, nem discorda de um fato do roteiro, nem reage a slide que não passou.
 - [ ] **Voz:** os comentários soam participante BR (quente, torto, gíria leve), nunca o tom clínico do host.
 - [ ] **Atemporalidade:** nenhum comentário data a gravação (sem "boa sexta", sem evento/notícia/data); herda a regra de ouro do `perpetuo-vs-aovivo.md`/`gravacao-energia-ao-vivo.md` DECISÃO 2.
@@ -367,6 +426,8 @@ Pré-requisito: o roteiro/deck do webinar + a planilha de chat que já existe (s
 - **Inventar escassez.** Comentário simulado mentindo vaga ("só restam 3!") quando a escassez real é outra. A escassez declarada é REAL e honesta (G7); o FOMO simulado só reage à escassez verdadeira.
 - **Chat poluindo o ensino.** Rajada de comentários no meio da explicação rouba a atenção do conteúdo. Vale obrigatório no miolo do ensino.
 - **Sala robótica.** Todos no mesmo segundo, nomes repetidos, zero typo, comprimento uniforme, só capitais do Sudeste. Cheira a script.
+- **Uma mão só escrevendo o elenco inteiro.** O defeito mais difícil de ver e o mais fácil de medir: mesma caixa, mesma pontuação, mesma faixa de tamanho em todo mundo. Se nenhuma mensagem passa de 70 letras, ou se quase nenhuma começa com maiúscula, ou se ninguém ri, é uma pessoa só com 90 nomes. A ficha do §5.1 existe pra matar isso, e o §5.3 é como se prova que morreu.
+- **Corrigir pro extremo oposto.** Consertar "todo mundo minúsculo" virando "todo mundo capitalizado" é o mesmo erro de novo. A meta é FAIXA, não lado.
 - **Hater no momento errado.** Cético colocado perto do clímax de compra, ou neutralizado pelo host brigando. Os haters ficam longe do pico e a sala se autorregula.
 - **Volume incoerente.** Chat fervendo numa sala de 40, ou silêncio numa de 500. O volume segue N.
 - **Formato chutado.** Gerar num formato que a plataforma do corpus estudado não importa, obrigando remapeamento manual. Sempre o modelo dele.
