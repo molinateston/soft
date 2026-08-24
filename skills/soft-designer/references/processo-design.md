@@ -40,8 +40,8 @@ O feed do Instagram é dominado por: gradientes coloridos · templates Canva gen
 1. **Fundo chapado.** Preto (#0A0908 ou #0A0A0A) ou branco (#FFFFFF / #F5F2EC). Nunca gradiente. Nunca textura forte.
 2. **Hierarquia de 2 níveis no máximo.** Título grande + corpo. Subtítulo é exceção rara.
 3. **Espaço negativo brutal.** 30–50% do slide vazio. Conteúdo num bloco centrado com `max-width` controlado. Nunca centralizado simétrico burro, nunca apinhado.
-4. **Cor de destaque cirúrgica.** UMA cor por carrossel. Aparece em 2–4 palavras-chave por slide. Nunca em parágrafos inteiros.
-5. **Negrito é arma.** Aparece em 2–4 palavras por slide. Nunca em frases inteiras. Negrito é 700 ou 800, nunca 600.
+4. **Cor de destaque cirúrgica.** UMA cor por carrossel. Aparece somente no trecho decisivo; 2–4 palavras por slide é teto, não cota. Nunca em parágrafos inteiros.
+5. **Negrito é acento.** Título pode ser forte; corpo é 400/500. Fora do título, use 700/800 apenas no trecho decisivo, nunca em frase ou parágrafo inteiro.
 6. **Tipografia mista é assinatura.** Serif elegante pra títulos editoriais OU sans pesada pra títulos de comando. Nunca mistura serif e sans no mesmo título.
 7. **Sem chrome do Instagram.** Sem progress bar, sem frame de IG, sem watermark (exceto se pedido). **Seta de arraste e handle são padrão global**, aparecem em todos os slides de 1 a N-1 na variação C (`references/setinha-arraste.md`): seta SVG manuscrita centralizada no rodapé (bottom 80px) + handle `@` da conta acima (bottom 140px). O handle aparece também no topo do slide 1, criando consistência de identidade ao longo do carrossel. Seta `›` no canto e seta-template-Canva colorida: proibidas.
 
@@ -127,15 +127,15 @@ Pra cada slide, pegue a função detectada no Passo 1 e escolha o layout corresp
 
 Não invente layout novo. Se o slide não encaixa em nenhum, escolha o mais próximo e adapte respeitando padding/escala da família.
 
-**Ritmo orgânico, não force título+corpo em todo card.** A hierarquia de 2 níveis (Regra 2) é **teto, não obrigação**: muitos cards ficam mais fortes SEM título. Se 3+ cards seguidos usam o mesmo molde (título grande + corpo), o carrossel vira template e cansa, quebre o padrão. Varie a forma pela função do card:
+**Ritmo orgânico, sem oscilar entre ornamento e vazio.** A hierarquia de 2 níveis (Regra 2) é **teto, não obrigação**. Se 3+ cards seguidos usam o mesmo molde, varie a forma pela função do card. O texto editorial continua sendo a base; linha, caixa, chip e diagrama só entram quando servem à informação:
 
 - **Afirmação pura** (uma frase grande sozinha, sem corpo) na virada e no soco.
-- **Lista / chips** sempre que o card **enumera** coisas. Enumeração nunca vira prosa amassada: "posta story, posta no feed, manda direct" vira três itens de lista (ou chips), não uma frase corrida. Lista é mais escaneável e quebra o padrão visual do bloco de texto.
+- **Tópicos simples** quando a enumeração ganha escaneabilidade. Use chips/caixas apenas se cada item for uma unidade real; não transforme toda lista em cards.
 - **Prosa** (parágrafo fluido sem título, com 1–2 palavras em accent no meio) pra dor que precisa respirar.
 - **Número dominante** (o dado gigante ocupando o card) na prova.
 - **Título + corpo** só quando os dois realmente somam, não por inércia.
 
-Regra prática no Passo 1: ao detectar a função de cada card, decida também a **forma** (afirmação / lista / prosa / número / título+corpo) e garanta variação ao longo do carrossel. Card que enumera → lista, sempre.
+Regra prática no Passo 1: ao detectar a função de cada card, decida também a **forma** (afirmação / tópicos / prosa / número / título+corpo) e varie sem aplicar uma fórmula fixa. Preserve imagens que tragam contexto ou prova, sem repetir; no molde tweet, prefira-as abaixo do texto. CTA final não recicla imagem para preencher.
 
 ### Passo 5, Gere o HTML com Python
 

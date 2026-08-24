@@ -3,18 +3,18 @@ name: soft-editor-video
 description: "Editor de vídeo do método Soft: transforma um talking-head cru (9:16) num reels com b-roll gerado por IA (imagem no gpt-image-2 → animação no Veo 3.1 fast) na faixa de baixo e o apresentador inteiro em cima, mais corte de roteiro/silêncio, gancho (cold open), legenda, CTA fixo no final e música de fundo discreta. Marca-neutra: na PRIMEIRA vez roda o ONBOARDING (pede as chaves de API do dono e entrevista os personagens/identidade dele em config/), e cada cliente usa a própria cara. Use quando o dono mandar um vídeo pra editar, pedir b-roll, 'cobre o vídeo com cenas', gerar reels a partir de uma gravação, enxugar/cortar um vídeo, criar gancho/cold open, ou pôr CTA/música. NÃO use para roteiro/ideia de conteúdo (soft-conteudo / soft-conteudo-reels), nem para carrossel/slide/banner estático (soft-designer), nem para a copy da legenda em si (essa passa por soft-anti-ia)."
 ---
 
-**Papel:** skill de domínio (operador de produção audiovisual). Suporte/infra, FORA do pipeline de copy dos funis — entra DEPOIS que o roteiro/ideia já existe (isso é da `soft-conteudo`/`soft-conteudo-reels`). Pega uma gravação talking-head e devolve um reels editado. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém — no onboarding entrevista o dono e salva o elenco/identidade dele em `config/personagens.json`, e cada cliente roda com a própria marca. As chaves de API são do dono (ele paga OpenAI/Google direto). Método detalhado: `references/metodo.md`.
+**Papel:** skill de domínio (operador de produção audiovisual). Suporte/infra, FORA do pipeline de copy dos funis - entra DEPOIS que o roteiro/ideia já existe (isso é da `soft-conteudo`/`soft-conteudo-reels`). Pega uma gravação talking-head e devolve um reels editado. **É marca-neutra como a `soft-designer`**: não embute a cara de ninguém - no onboarding entrevista o dono e salva o elenco/identidade dele em `config/personagens.json`, e cada cliente roda com a própria marca. As chaves de API são do dono (ele paga OpenAI/Google direto). Método detalhado: `references/metodo.md`.
 
 ## 📦 O QUE ESTA SKILL PRODUZ
 
 Um reels vertical (9:16) finalizado a partir de um talking-head cru, com:
 
-- **B-roll IA image-first** — gera a IMAGEM da cena (gpt-image-2) e depois ANIMA a imagem (Veo 3.1 fast, câmera travada + `negativePrompt`). Nunca texto→vídeo direto. B-roll SEMPRE na faixa de baixo; apresentador inteiro em cima.
-- **Corte de roteiro + silêncio** — transcrição word-level (Whisper), enxuga o que não muda a mensagem (aprovado pelo dono) e tira os silêncios. Mais barato e mais ritmado.
-- **Gancho / cold open (padrão v4)** — copia a frase mais forte pro comecinho, só o apresentador, com efeito + a mesma frase numa faixa, e transição pro corpo (`scripts/05_hook.py`).
-- **Legenda** — Submagic automático, ou reusa a que já veio no vídeo.
-- **CTA fixo no final** (opcional) — card de encerramento do dono colado com transição suave.
-- **Música de fundo discreta** — nivelada pra nunca cobrir a fala.
+- **B-roll IA image-first** - gera a IMAGEM da cena (gpt-image-2) e depois ANIMA a imagem (Veo 3.1 fast, câmera fixa + `negativePrompt`). Nunca texto→vídeo direto. B-roll SEMPRE na faixa de baixo; apresentador inteiro em cima.
+- **Corte de roteiro + silêncio** - transcrição word-level (Whisper), enxuga o que não muda a mensagem (aprovado pelo dono) e tira os silêncios. Mais barato e mais ritmado.
+- **Gancho / cold open (padrão v4)** - copia a frase mais forte pro comecinho, só o apresentador, com efeito + a mesma frase numa faixa, e transição pro corpo (`scripts/05_hook.py`).
+- **Legenda** - Submagic automático, ou reusa a que já veio no vídeo.
+- **CTA fixo no final** (opcional) - card de encerramento do dono colado com transição suave.
+- **Música de fundo discreta** - nivelada pra nunca cobrir a fala.
 - **Export 4K** na pasta de saída do dono.
 
 **Identidade visual (marca-neutra):** os `personagens.json` SÃO a identidade do dono nas cenas (etnia/look do apresentador, mascote, sócio, ambiente, paleta, logo). Se o dono já tem ID visual definida na `soft-designer` (`identidade-visual-cliente`), puxe dela pra manter a mesma cara entre carrossel/banner e vídeo. Texto que aparece na tela (gancho, CTA) passa pelo filtro `soft-anti-ia` antes de queimar.
@@ -23,15 +23,15 @@ Um reels vertical (9:16) finalizado a partir de um talking-head cru, com:
 
 ---
 
-## PASSO 0 — ONBOARDING (rodar SÓ se ainda não estiver configurado)
+## PASSO 0 - ONBOARDING (rodar SÓ se ainda não estiver configurado)
 
-Antes de editar qualquer vídeo, verifique a configuração. **Se já existir, NÃO pergunte de novo** — siga direto pro pipeline.
+Antes de editar qualquer vídeo, verifique a configuração. **Se já existir, NÃO pergunte de novo** - siga direto pro pipeline.
 
 ### 0.1 Chaves de API
 1. Verifique se existe `config/keys.env` (ou as variáveis no ambiente). Campos necessários:
-   - `OPENAI_API_KEY` — gera as imagens (gpt-image-2) e transcreve (Whisper). **Obrigatória.**
-   - `GEMINI_API_KEYS` — uma ou mais chaves Google AI (Veo 3.1 fast), separadas por vírgula. **Obrigatória.**
-   - `SUBMAGIC_API_KEY` — legenda automática. **Opcional** (só se o vídeo não vier legendado).
+   - `OPENAI_API_KEY` - gera as imagens (gpt-image-2) e transcreve (Whisper). **Obrigatória.**
+   - `GEMINI_API_KEYS` - uma ou mais chaves Google AI (Veo 3.1 fast), separadas por vírgula. **Obrigatória.**
+   - `SUBMAGIC_API_KEY` - legenda automática. **Opcional** (só se o vídeo não vier legendado).
 2. Se faltar alguma, **PERGUNTE ao dono** de forma simples, ex.:
    > "Pra editar seus vídeos eu preciso de 2 chaves (e 1 opcional): **OpenAI** (imagens), **Google AI/Gemini** (vídeo) e, se quiser legenda automática, **Submagic**. Me passa elas aqui."
    Diga onde pegar: OpenAI em platform.openai.com/api-keys · Gemini em aistudio.google.com/apikey · Submagic em app.submagic.co/account (precisa plano com API).
@@ -60,10 +60,10 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 3. **Corte de silêncio (ligado):** `scripts/00_silence_cut.py`. Legenda queimada anda junto.
 4. **Planejar b-roll:** nº takes = ceil(dur/8); janelas contíguas; mapear fala→cena. Escrever `scenes.json` (cada cena: id, quais personagens, pose, elementos) usando os personagens do dono.
 5. **Gerar imagens** (`scripts/01_gen_images.py`): gpt-image-2 1536x1024 high + crop 16:9 `crop=1536:864:0:80` (safe-area no prompt). **Abrir no computador do dono e esperar ele aprovar.**
-6. **Animar** (`scripts/02_animate.py`): Veo 3.1 fast image-to-video 16:9, **câmera travada + `negativePrompt`** (proíbe deturpar corpo/membros/look/cenário/texto). Pool de chaves Gemini (429 = pular).
+6. **Animar** (`scripts/02_animate.py`): Veo 3.1 fast image-to-video 16:9, **câmera fixa + `negativePrompt`** (proíbe deturpar corpo/membros/look/cenário/texto). Pool de chaves Gemini (429 = pular).
 7. **Legenda:** A) Submagic (vídeo sem legenda) ou B) usar a que já veio.
 8. **Montar** (`scripts/03_assemble.py`): b-roll SEMPRE no RODAPÉ (16:9, full width, alt 608, borda fina no topo) + apresentador em cima. Se o vídeo já tem legenda baixa, cortar o teto morto (`crop=1080:1312:0:~400`) e `vstack`. → gera o CORPO.
-8b. **GANCHO / cold open — PADRÃO v4 (ligado)** (`scripts/05_hook.py`): copiar a **FRASE COMPLETA mais forte** pro comecinho — **só o apresentador, SEM b-roll** — com um **efeito** (`pb` preto-e-branco / `vhs` / `fantasma` / `tv_velha`) E a **mesma frase numa faixa** na tela (gancho sonoro + visual). Depois **transição** (`xfade=fadeblack`) pro corpo. A frase continua no lugar original. Ordem final: **gancho → corpo → CTA → música**.
+8b. **GANCHO / cold open - PADRÃO v4 (ligado)** (`scripts/05_hook.py`): copiar a **FRASE COMPLETA mais forte** pro comecinho - **só o apresentador, SEM b-roll** - com um **efeito** (`pb` preto-e-branco / `vhs` / `fantasma` / `tv_velha`) E a **mesma frase numa faixa** na tela (gancho sonoro + visual). Depois **transição** (`xfade=fadeblack`) pro corpo. A frase continua no lugar original. Ordem final: **gancho → corpo → CTA → música**.
    - **FRASE COMPLETA, nunca cortada na metade** (A/B pegam a frase inteira, mesmo passando um pouco de 5s).
    - **Faixa: MÁX 2 LINHAS**, fonte ~50% menor (range 66→28px), posição centro+15% (terço inferior). Já está no `05_hook.py`.
    - **O agente escolhe a frase sozinho** pelos critérios: viralização · gera expectativa · forte/polêmica. A frase passa pelo `soft-anti-ia` (nada que soe de IA na faixa).
@@ -71,7 +71,7 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 10. **Música de fundo discreta:** `loudnorm=I=-34:TP=-6:LRA=6` + `volume=0.38`, `amix normalize=0`, fade in/out. NUNCA sobrepõe a fala.
 11. **Export 4K** + salvar na pasta de saída do dono. Abrir pra ele ver.
 12. **AUDITORIA VISUAL (OBRIGATÓRIA, olhos reais):** `python3 scripts/06_audit.py <final.mp4> <pasta>/audit 12 "<fim_gancho>,<inicio_cta>"`. O script extrai 12 frames do MP4 ENTREGUE, monta `audit/mosaico.jpg` e passa os frames pro **codex OAuth** (conta ChatGPT, via `codex exec -i`, ZERO API paga) conferir a composição (teto morto, enquadramento frouxo, faixa de b-roll vazia, legenda no rosto, b-roll deformado, faixa do gancho) + mede decodificação íntegra. Você NÃO tem olhos no turno normal: este passo é o único que confere de verdade.
-    - **PASSA (exit 0):** entregue o MP4 + `audit/mosaico.jpg` (os DOIS caminhos absolutos, cada um em linha isolada; a ponte sobe os dois no Telegram). Selo permitido, exato: "Auditoria visual: PASSA (N frames, codex). Prova: <mosaico>". Nada de "sync 0,000 ms" — isso não foi medido.
+    - **PASSA (exit 0):** entregue o MP4 + `audit/mosaico.jpg` (os DOIS caminhos absolutos, cada um em linha isolada; a ponte sobe os dois no Telegram). Selo permitido, exato: "Auditoria visual: PASSA (N frames, codex). Prova: <mosaico>". Nada de "sync 0,000 ms" - isso não foi medido.
     - **REPROVA (exit 1):** NÃO é pronto. Corrige o problema apontado no `veredito.json` e re-roda a auditoria (1 ciclo). Persistiu ou é ambíguo: manda o mosaico + os motivos pro dono decidir.
     - **INDISPONÍVEL (exit 2, codex/visão fora do ar):** entregue o MP4 + mosaico com o aviso literal "não consegui auditar visualmente (visão indisponível), confere no mosaico". SEM selo.
 
@@ -85,10 +85,10 @@ Pergunte se o dono quer um **card de encerramento fixo** (aparece no fim de todo
 - **Mostrar, não afirmar.** "Conferido/auditado" só existe se `scripts/06_audit.py` rodou AGORA sobre o arquivo entregue e devolveu PASSA, com `audit/mosaico.jpg` anexo na mesma mensagem. Selo sem mosaico anexo é mentira, mesmo que o vídeo esteja bom.
 - **Você não tem olhos.** Nunca descreva o conteúdo de um frame que nenhuma ferramenta de visão te devolveu. Proibido alegar "sync", "ms", "frames conferidos", "decodificação sem erros" ou qualidade visual de qualquer coisa que você não passou pelo `06_audit.py`.
 - **Conclusão honesta.** Auditoria REPROVOU ou não rodou = a entrega NÃO ganha selo. Reprovado: corrige ou vai pro dono com o mosaico e os motivos. Indisponível: entrega com o aviso. "Concluída" por cima de reprovação não existe.
-- **Custo da auditoria:** ZERO API paga — roda na conta OAuth do ChatGPT (mesmo motor do LEON). +40-100s no pipeline. Irrelevante perto do Veo.
+- **Custo da auditoria:** ZERO API paga - roda na conta OAuth do ChatGPT (mesmo motor do LEON). +40-100s no pipeline. Irrelevante perto do Veo.
 - **Gotcha:** amostrar 0.8s DEPOIS de transição; frame no meio do `xfade` parece dupla exposição e reprova à toa (o `06_audit.py` já trata via marcos).
 
-## GERAÇÃO DE VÍDEO POR IA (Higgsfield MCP — 12/08)
+## GERAÇÃO DE VÍDEO POR IA (Higgsfield MCP - 12/08)
 
 Quando o dono pedir vídeo GERADO (cena nova, b-roll que não existe, personagem consistente
 entre criativos), o caminho é o MCP da Higgsfield (mcp.higgsfield.ai/mcp): reúne Kling 3,
@@ -96,7 +96,7 @@ Veo 3, Sora 2 e afins numa conexão só, com personagem consistente (Soul) entre
 
 **Pré-requisito (uma vez, do dono):** assinatura Higgsfield ativa + login OAuth feito POR ELE
 numa sessão interativa (o MCP não loga sozinho em servidor). Sem o MCP conectado, diga
-exatamente isso em 1 linha e siga com o que a edição local resolve — nunca finja gerar.
+exatamente isso em 1 linha e siga com o que a edição local resolve - nunca finja gerar.
 
 **Regras de uso (duras):**
 1. ANTES de toda geração: conferir o custo em créditos e o saldo (dry-run). Sem conferir, não gera.
@@ -111,7 +111,28 @@ exatamente isso em 1 linha e siga com o que a edição local resolve — nunca f
 Veo 720p ~$0,10/s → take de 8s = $0,80. Imagem gpt-image-2 ~$0,165. Vídeo de 60s ≈ 8 takes ≈ **~$8**. As chaves são do dono (paga OpenAI/Google direto).
 
 ## GOTCHAS
-- Corte do topo do b-roll = crop + zoom do Veo → safe-area no prompt + Veo travado (sem zoom).
+- Corte do topo do b-roll = crop + zoom do Veo → safe-area no prompt + Veo com câmera fixa (sem zoom).
 - `xfade` exige timebase igual: `settb=AVTB` nos dois lados.
 - Rodar gerações como `.py` em background; baixar vídeo do Veo com `curl -L` + `&key=`.
 - Fontes da faixa do gancho: o `05_hook.py` tenta DejaVu/Liberation (Linux/VPS) primeiro e cai pra Arial/Helvetica no Mac.
+
+---
+
+## DUAS FORMAS (escolha pela matéria-prima)
+
+Esta skill entrega em duas formas. Leia a linha e decida antes de produzir:
+
+- **FORMA A - B-roll IA no rodapé** (o corpo acima): apresentador inteiro em
+  cima, cenas geradas por IA (gpt-image-2 → Veo) na faixa de baixo. Use quando o
+  apoio são CENAS ilustrativas.
+- **FORMA B - Topo-fixo com slides e telas** (aprovada pelo Léo em 18/08/2026):
+  rosto FIXO em cima, faixa de baixo com SLIDES de texto + TELAS reais de
+  produto (print/gravação), legenda branca fina rente à divisão, fala tratada
+  (corta respiração/pausa + 1.2x). Motor React/Remotion. Use quando o apoio é
+  MOSTRAR o que a fala cita, não ilustrar. Receita completa, as 4 correções
+  cravadas e o template pronto: **`references/forma-topo-fixo.md`** +
+  **`templates/topo-fixo/`**.
+
+Na Forma B, o IMG_4361 aprovado em 22/08/2026 é o molde visual intocável desta
+família. Os critérios obrigatórios e o gate de amostra estão registrados na
+receita completa. Não regenere nem altere o IMG_4361.

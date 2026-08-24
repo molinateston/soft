@@ -65,16 +65,29 @@ Antes de gerar HTML, lê os references da família escolhida (cores, tipografia,
 ## Passo 3, decide o layout e escreve o HTML com Python
 Pra cada peça, pega a função detectada e escolhe o layout correspondente da família. **Sempre usa Python pra gerar o HTML** (nunca shell heredoc/echo; `$` e crase corrompem strings). Usa `scripts/build_carousel.py` como esqueleto (template `assets/template-base.html`, viewport 1080×1350, `make_symmetric_slide()`).
 
-As 7 regras inegociáveis do desenho:
+### Régua editorial de equilíbrio, carrossel no molde tweet (Léo, 17/08/2026)
+
+O texto editorial é a base; recursos gráficos entram para esclarecer. **Não oscile entre decorar tudo e retirar toda a hierarquia.** Use como calibração concreta a amostra restaurada `/home/cloud/trabalho/conteudo/2026-08/2026-08-13-carrosseis-banco-modelagem/preview-v1-framework-completo-20260817-a/mosaico-preview-v1.png` e o gerador `build_preview.py` na mesma pasta.
+
+- Dê peso forte ao título; mantenha o corpo em peso normal (400/500). Não transforme o corpo inteiro em bold.
+- Use verde, negrito, traço, linha e caixa como acentos semânticos, nunca como tratamento geral nem decoração obrigatória.
+- Preserve tópicos, ritmo e hierarquia quando melhorarem a leitura. Não converta todo slide em card/chip/quadrado e não reduza tudo a parágrafo plano.
+- Varie a quebra pela informação: lista para enumeração escaneável, linha para separar uma virada, caixa para agrupar uma unidade, número para prova. Se o recurso não muda a leitura, remova.
+- Preserve imagem quando acrescentar contexto ou prova; não repita imagem. No molde tweet, prefira texto acima e imagem abaixo. Use lateral apenas quando a relação texto/imagem exigir.
+- No CTA final, não recicle foto apenas para preencher espaço. Feche com comando e sistema visual suficiente.
+
+As regras inegociáveis do desenho:
 1. **Fundo chapado** (preto #0A0908 ou branco #F5F2EC/#FFFFFF). Nunca gradiente nem textura forte.
-2. **Hierarquia de 2 níveis no máximo** (título + corpo).
+2. **Hierarquia de 2 níveis no máximo** (título + corpo); título forte, corpo normal.
 3. **Espaço negativo brutal** (30–50% do slide vazio).
-4. **UMA cor de destaque** por peça, em 2–4 palavras-chave por slide.
-5. **Negrito é arma:** 2–4 palavras, weight 700/800 (nunca 600).
+4. **UMA cor de destaque** por peça, aplicada só ao trecho que precisa guiar o olho; 2–4 palavras é teto, não cota.
+5. **Negrito é acento:** fora do título, limite-o ao trecho decisivo; nunca use bold no parágrafo inteiro.
 6. **Tipografia mista é assinatura** (serif elegante OU sans pesada, nunca as duas no mesmo título).
 7. **Sem chrome do Instagram**, e seta de arraste + handle (variação C) em todos os slides de 1 a N-1 do carrossel.
 
-**Ritmo orgânico:** a hierarquia de 2 níveis é teto, não obrigação. Se 3+ cards seguidos usam título+corpo, o carrossel vira template e cansa. Varia a forma pela função: afirmação pura na virada, **lista/chips sempre que o card enumera** (nunca prosa amassada), prosa pra dor que respira, número dominante na prova.
+**Ritmo orgânico:** a hierarquia de 2 níveis é teto, não obrigação. Se 3+ cards seguidos repetem o mesmo molde, mude a forma pela função: afirmação pura na virada, tópicos simples quando a enumeração pede escaneabilidade, prosa para narrativa, número dominante na prova. **Caixa/chip só quando agrupa uma unidade real.**
+
+**Imagem de capa, quebra de padrão (Léo, 17/08/2026):** quando o primeiro slide tiver imagem, a primeira imagem tem função de interromper o scroll e é a única do carrossel autorizada a liberar absurdo controlado. A cena pode ser impossível, mas precisa comunicar a tese de imediato e nunca virar enfeite desconectado. Esta licença não torna imagem obrigatória em toda capa; ela define a régua quando houver imagem.
 
 **Anti-órfã na origem:** no Code, envolve TODO texto de peça com `nw()` de `scripts/craft.py` (junta as 2 últimas palavras com espaço inquebrável). No chat, faz a quebra manual com `<br>` e confere a última linha de cada bloco.
 
@@ -90,6 +103,12 @@ Este é o gate que **funciona em qualquer ambiente, inclusive o Claude Chat**, e
 
 | Check | Passa se | ✓/✗ |
 |---|---|---|
+| **Título** | é o único bloco com peso forte por padrão; cria entrada clara sem disputar com corpo, foto e ornamento | |
+| **Corpo** | usa peso normal 400/500 e leitura editorial; parágrafo inteiro em bold = ✗ | |
+| **Tópico** | aparece quando a informação é enumerável e ganha escaneabilidade; lista removida por “simplificar” ou caixas em tudo = ✗ | |
+| **Destaque** | verde/negrito marca somente a palavra ou trecho decisivo; destaque espalhado ou usado para cumprir cota = ✗ | |
+| **Quebra útil** | traço, linha, caixa, diagrama ou mudança de layout explica relação, separa virada ou agrupa unidade; ornamento sem função e texto plano sem ritmo = ✗ | |
+| **Imagem e CTA** | imagem acrescenta contexto/prova, não se repete e normalmente vem abaixo do texto; CTA não recicla foto para preencher | |
 | **Contraste por pele** | cada bloco de texto tem contraste forte contra o fundo IMEDIATO atrás dele (mira WCAG ≥ 3:1, AA 4.5:1 no corpo). **Pele clara → texto escuro `#1a1814` + accent escuro (verde `#147a3c`, NUNCA o neon `[COR-DE-ACAO do dono via config]` que some no creme); pele escura → texto claro.** Texto claro em fundo claro = ✗ automático. Teste: se você "sabe" que o texto está lá mas mal enxerga, é bug, não "sutil" | |
 | **Anti-órfã** | NENHUMA palavra sozinha na última linha de um bloco. Última linha com 1 palavra, ou 2 palavras somando < 8 caracteres ("é só", "no a") = ✗. Termo composto (marca, R$3k, "Soft Business", 48h) quebrado entre linhas = ✗. Corrige puxando 1 palavra da linha anterior | |
 | **Diagrama forte** | se a peça tem diagrama/gráfico/seta: traço **5–6px** (1–2px some no thumbnail = ✗) + **marcador semântico** (✕ vermelho = errado/morto · ✓ ou `$` verde = certo/dinheiro · ↑ = cresce; linha pelada sem marcador = ✗) + **rótulo** do que cada parte é (diagrama sem contexto = adivinhação = ✗) + grande o bastante pra ocupar o espaço. Sem diagrama na peça = N/A (✓) | |
@@ -127,6 +146,10 @@ Saída: `slide_01.png`, `slide_02.png`, … (zero-padding de 2 dígitos). Move p
 | Palavra sozinha na última linha | Aplica `nw()` (Code) ou puxa 1 palavra da linha anterior; nunca deixa órfã |
 | Diagrama com linha fina sem marcador | Traço 5–6px + marcador ✕/✓/$ + rótulo; senão ninguém entende em 0,3s |
 | 3+ cards seguidos com título+corpo | Quebra o ritmo: afirmação pura, lista/chips (se enumera), prosa ou número dominante |
+| Tudo virou caixa, linha, chip ou quadrado | Volta ao texto editorial; mantenha apenas os recursos que explicam, agrupam ou provam |
+| Tudo virou texto plano e as imagens/tópicos sumiram | Reponha hierarquia, tópicos e imagens com função; a simplificação vazia não é recomendada |
+| Corpo inteiro em negrito | Deixe forte só o título e o trecho decisivo; corpo volta a 400/500 |
+| Repetiu foto ou usou foto no CTA para preencher | Remova a repetição; CTA fecha com comando e sistema visual |
 | Inventou um número "plausível" | Só prova com lastro do banco; sem fonte, placeholder marcado, nunca inventado |
 | Render reescreveu a copy às escondidas | Texto desenhado = o que passou no gate; mexeu, re-passa a ancoragem antes de exportar |
 | Regenerou o carrossel inteiro por 1 ajuste | Edita só o slide mencionado com `str_replace` |

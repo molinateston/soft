@@ -39,7 +39,7 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 **Como escolher (router):** olha o TEMA + a INTENÇÃO da peça e recomenda **2 formatos** que encaixam, com 1 linha de razão cada. O dono decide. Nunca cravar 1 sozinho, sempre 2 pra ele escolher (formato é decisão editorial que muda a peça inteira).
 
 **Duas regras duras que valem em TODOS os formatos:**
-1. **CTA canônico obrigatório.** O slide final segue uma das 7 formas de CTA do Passo 3 (Direct com palavra-senha, Comentário, Siga com razão, Batida Emocional, Filtro Duro, Convite Específico, P.S. que vira CTA). Nunca CTA improvisado, nunca sem destino.
+1. **CTA canônico obrigatório.** O slide final sempre reconecta a peça ao método e usa a estrutura fixa do Passo 3: mini-headline + 3 benefícios concretos + palavra-chave. Para o Léo, a palavra-chave é escolhida somente entre **SÓCIO, AULA ou IA**. Nunca CTA improvisado, nunca sem destino.
 2. **Slides livres.** Número de slides varia por formato (2 no Promessa+CTA, 5-10 nos outros). NÃO forçar 10 slides quando o formato pede menos.
 
 ### Formato 1, Problema Solução
@@ -72,8 +72,8 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 
 ### Formato 5, Promessa + CTA (dois slides)
 **Quando escolher:** manter presença sem produzir demais; tema que morre esticado; capa forte que já entrega a virada.
-**Espinha (2 slides):** slide 1 = promessa/virada completa (não é capa que abre loop, é capa que ENTREGA a tese) · slide 2 = CTA canônico com palavra-senha + o que a pessoa recebe.
-**Exemplo de capa (SIA):** *"Sábado 14h, parque com a Alice, LEON operando. Comenta LEON e te mando como funciona."*
+**Espinha (2 slides):** slide 1 = promessa/virada completa (não é capa que abre loop, é capa que ENTREGA a tese) · slide 2 = CTA canônico com mini-headline + 3 benefícios + palavra-chave.
+**Exemplo de capa (SIA):** *"Sábado 14h, parque com a família, Sócio IA operando."*
 **Erro clássico:** slide 1 curto demais que não entrega nada; sem contexto do resultado, vira frase de motivação.
 **Regra do formato:** o slide 1 tem que sustentar a peça INTEIRA sozinho. Se depende do slide 2 pra fazer sentido, virou capa órfã.
 
@@ -142,13 +142,21 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 **Repertório tático por papel (puxa de `references/estrutura-peca.md`).** O arco da Fórmula 7 dá a ordem; a `estrutura-peca` dá as FORMAS de aterrar cada papel: escolhe **1 por papel**, nunca despeja todas:
 - **Contexto (slide 3):** 1 das 7 formas: Cena Filmada · Dia Padrão · Conselho Falido · Número Próprio · Diálogo Interno · Paradoxo Observável · Contraste com Personagem. Nunca preâmbulo didático ("antes de entrar no método...") nem currículo.
 - **Conteúdo (slides 7-8):** 1 das 7 formas: Contraste Emparelhado · Reframe · Casos Empilhados · Linha do Tempo Numérica · Nome-Número-Condição · Bastidor Crítico · Declaração+Sustentação. Sempre em contraste mercado×método.
-- **CTA (slide final):** 1 das 7 formas: Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S. Ticket R$3k+ pede Filtro Duro.
+- **CTA (slide final):** a forma pode variar entre Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S., mas a estrutura fixa continua obrigatória: mini-headline + 3 benefícios + palavra-chave. Ticket R$3k+ pede Filtro Duro.
 
 **Faca Soft (teste antes de fechar cada slide de método):** *"se eu publicar isso, aumenta ou diminui o motivo de comprar o produto?"* Aumenta → fica. Diminui → corta. Dá o tijolo, nunca a planta da casa. (O exemplo card-a-card completo está em `references/06-carrossel.md` 6.7; modela, não copia.)
 
 **Tempero, só na revisão (`references/dispositivos-de-frase.md`).** Com a estrutura de pé, pergunta "tá chapado?" e injeta 1-2 dispositivos (preparação+virada, antítese, evocação sensorial, dizer o não-dito) onde a peça está morna, nunca os 6 de uma vez, nunca no lugar da estrutura.
 
-A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra). O slide do CTA é **obrigatório e muito bem feito** (é o que vira o carrossel em mensagem no direct): de preferência uma **palavra-chave pra comentar** que entrega algo concreto, com os bullets do que a pessoa recebe. Ex.: comenta TRÁFEGO que eu te mando (1) o modelo de anúncio, (2) o passo do atendimento, (3) o painel. Liga a palavra-chave ao próximo passo real do funil (direct → carta/isca). Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
+A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra).
+
+**Estrutura fixa do slide final para o Léo:**
+
+1. **Mini-headline:** fecha a tese do carrossel e traz o leitor de volta ao método do Léo.
+2. **3 benefícios concretos:** três tópicos curtos que mostram o que o leitor passa a entender, comandar ou executar ao conhecer o método. Benefício não é nome de módulo nem promessa inventada.
+3. **CTA com palavra-chave:** convite aberto para entender melhor o método. Usa uma única palavra-chave, escolhida somente entre **SÓCIO, AULA ou IA**, conforme o ângulo da peça.
+
+O CTA não depende de checklist, isca ou material criado só para justificar o comentário. Também não manda o leitor diagnosticar o próprio problema. O destino é sempre o método: entender como funciona, assistir à aula existente ou conhecer o Sócio IA. Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
 
 > Se existe skill de voz destilada do cliente, consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
 
@@ -168,7 +176,7 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **Harry, dá pra ver?** | o diagnóstico fecha o olho e vira cena. ✗ "tenha mais clareza" · ✓ "a call de 1h vira 40 min de desabafo e um 'vou pensar'" | |
 | **Harry, dá pra falsificar?** | as afirmações são fatos falsificáveis, não adjetivos | |
 | **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **CTA forte com palavra-chave** | slide final tem CTA único e muito bem feito: palavra-chave pra comentar + o que a pessoa recebe (bullets/benefício) + próximo passo real do funil (direct/carta/isca); CTA fraco ou **sem destino = ✗** | |
+| **CTA aponta ao método** | slide final tem mini-headline que reconecta ao método + exatamente 3 benefícios concretos + uma palavra-chave. Para o Léo, aceita somente SÓCIO, AULA ou IA. CTA sem qualquer uma dessas quatro partes = ✗ | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma") · sem tricolon nem contraste "não é X, é Y" repetido. **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" em TODOS os slides antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
@@ -192,7 +200,7 @@ Mostra **só o carrossel LIMPO** (como no Claude Chat), slide a slide: a copy de
 | Mecanismo virou tutorial executável | Mostra resultado e função do método, esconde o procedimento |
 | Slide que só prepara o próximo | Cada slide fecha numa frase-conclusão ancorada |
 | Carrossel jornalístico ("5 fatos sobre X") | Costura o final apontando pro método ou faz seeding da tese |
-| Terminou sem CTA ou com CTA cafona | Slide final: CTA único, firme, palavra-chave + próximo passo real do funil |
+| Terminou sem CTA ou com CTA cafona | Slide final: mini-headline que volta ao método + 3 benefícios concretos + palavra-chave. Para o Léo, somente SÓCIO, AULA ou IA |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou a peça inteira sem mapa nem gate | Volta: mapa de densidade + gate impressos, e PARA pra escolha |
 | Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o carrossel limpo, sem as tabelas do gate |

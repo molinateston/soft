@@ -1,8 +1,20 @@
-# Layout Tweet-Avatar (hook screenshot-de-tweet)
+# Layout Tweet-Avatar e molde tweet editorial
 
 Variação de **hook** inspirada no formato "print de tweet" que circula no feed. Avatar circular do especialista + nome + @handle no topo, frase grande em sans pesada no corpo, destaques manuscritos em 1-2 palavras-chave.
 
 Referência visual: posts de Christian Prado (@ochrisprado) e Renato Duran (@renatoduran07) que usam esse formato para hook de carrossel.
+
+## Modo molde tweet editorial, quando a referência pedir o sistema inteiro
+
+Não confunda o hook que imita um print com o **carrossel editorial no molde tweet**. Quando o usuário pedir “igual à versão restaurada” ou fornecer uma referência equivalente, o cabeçalho compacto de autor pode continuar nos slides seguintes como assinatura. O avatar grande + frase de hook continua exclusivo do slide 1.
+
+Régua aprovada por Léo em 17/08/2026, calibrada pela amostra `/home/cloud/trabalho/conteudo/2026-08/2026-08-13-carrosseis-banco-modelagem/preview-v1-framework-completo-20260817-a/mosaico-preview-v1.png`:
+
+- Base em texto editorial: título forte, corpo 400/500.
+- Verde, negrito, traço e caixa são acentos semânticos; não usar em tudo nem repetir a mesma quebra em todo slide.
+- Manter tópicos, ritmo e hierarquia. Rejeitar tanto a grade de cards ornamental quanto a simplificação em texto plano sem estrutura.
+- Preservar foto quando trouxer contexto ou prova, sem repetição; normalmente posicionar texto acima e foto abaixo.
+- Fechar o CTA sem reciclar imagem apenas para ocupar espaço.
 
 ## Quando usar
 

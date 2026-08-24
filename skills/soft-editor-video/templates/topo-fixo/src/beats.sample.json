@@ -1,0 +1,54 @@
+[
+  {
+    "fromS": 5.84, "toS": 17.90,
+    "eyebrow": "UM AGENTE DE IA",
+    "line1": "Faz tudo que um",
+    "accent": "humano faria",
+    "items": []
+  },
+  {
+    "fromS": 17.90, "toS": 30.60,
+    "eyebrow": "ELE MONTA E RODA",
+    "line1": "Sua operação",
+    "accent": "no piloto",
+    "items": [
+      {"t": "Cria sua página", "at": 18.64},
+      {"t": "Cria a oferta", "at": 19.82},
+      {"t": "Cria os funis de venda", "at": 20.90},
+      {"t": "Atende seus leads", "at": 23.02},
+      {"t": "Manda relatórios de Ads", "at": 24.82},
+      {"t": "Monta seus dashboards", "at": 26.44}
+    ]
+  },
+  {
+    "fromS": 30.90, "toS": 45.60,
+    "eyebrow": "ELE APRENDE VOCÊ",
+    "line1": "Sua marca,",
+    "accent": "sua voz",
+    "items": [
+      {"t": "Sua identidade visual", "at": 36.44},
+      {"t": "Como você fala", "at": 37.58},
+      {"t": "Como você escreve", "at": 38.76},
+      {"t": "Conteúdo no automático", "at": 40.20},
+      {"t": "Em qualquer rede social", "at": 44.48}
+    ]
+  },
+  {
+    "fromS": 45.90, "toS": 53.70,
+    "eyebrow": "TRÁFEGO NO COMANDO",
+    "line1": "Suas campanhas",
+    "accent": "por áudio",
+    "items": [
+      {"t": "Sobe campanhas por áudio", "at": 49.42},
+      {"t": "Otimiza os anúncios", "at": 50.52},
+      {"t": "Relatórios das campanhas", "at": 51.72}
+    ]
+  },
+  {
+    "fromS": 54.46, "toS": 59.70,
+    "eyebrow": "A PERGUNTA",
+    "line1": "Um só agente,",
+    "accent": "isso tudo?",
+    "items": []
+  }
+]
