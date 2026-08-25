@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soft Reel 7seg"
+  short_description: "Cria e valida Reels cinematográficos salváveis"
+  default_prompt: "Use $soft-reel-7seg para montar e validar um Reel cinematográfico com HEADLINE e descrição útil."

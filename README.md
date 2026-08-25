@@ -33,6 +33,7 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 - `soft-conteudo-multiplataforma`
 - `soft-designer`
 - `soft-editor-video`
+- `soft-reel-7seg`
 - `soft-trafego-meta`
 - `soft-apostila`
 - `soft-funil-carta`
