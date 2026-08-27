@@ -99,7 +99,22 @@ _gancho_files = [os.path.basename(f) for f in frames if "_t1.0.jpg" in f]
 gancho = ", ".join(_gancho_files)
 cta = os.path.basename(frames[-1])
 _lista = "\n".join(f"  {i+1}. {os.path.basename(f)}" for i, f in enumerate(frames))
-if AUDIT_MODE == "feed_plain":
+if AUDIT_MODE == "lesson_screen":
+    PROMPT = f"""Voce audita uma AULA DE ONBOARDING em 16:9, gravada no Google Meet.
+A composicao original alterna dois estados corretos: conversa com a camera do instrutor ocupando a tela e demonstracao com a tela compartilhada como prova principal, acompanhada pela coluna pequena dos participantes do Meet. Nao deve haver b-roll, headline, legenda queimada, CTA, musica visualizada, moldura nova ou layout artificial.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: false em tela compartilhada; em camera cheia, true somente se houver espaco vazio claramente excessivo acima da cabeca
+- enquadramento_frouxo: false em tela compartilhada; em camera cheia, true somente se o instrutor estiver pequeno e perdido no quadro
+- rosto_cortado: true se olhos, boca, queixo ou topo da cabeca estiverem cortados de modo ruim na camera cheia ou na miniatura do Meet
+- faixa_broll_vazia: true somente se houver faixa, painel, moldura ou layout artificial acrescentado pela edicao; a coluna original do Meet nao e b-roll
+- broll_deformado: true se a tela compartilhada estiver esticada, cortada, ilegivel por deformacao ou visualmente corrompida
+- legenda_cobre_rosto: true se texto, legenda ou arte acrescentada cobrir rosto ou conteudo importante da tela; o relogio t= do canto e somente identificacao da auditoria e deve ser ignorado
+- faixa_gancho_estoura: true se houver headline, selo, CTA ou gancho visual acrescentado; se nao houver, false
+Confirme no resumo se os dois estados originais da aula foram preservados, se as telas continuam legiveis e se nao existe arte de reel. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Mudanca normal de tela ou cursor entre cortes nao e defeito.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "feed_plain":
     PROMPT = f"""Voce audita um video vertical 9:16 de FEED com tratamento minimo.
 O enquadramento original do apresentador deve ser preservado. Esta peca NAO deve ter headline, legenda, apoio, slide, efeito, musica, CTA ou layout dividido. Espaco do ambiente acima da cabeca faz parte da gravacao original e NAO e defeito neste modo.
 Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
@@ -143,6 +158,95 @@ Para CADA frame responda booleans usando estes campos legados:
 - legenda_cobre_rosto: true se qualquer texto cobrir o rosto do apresentador
 - faixa_gancho_estoura: false em todos os frames; esta peca nao usa faixa de gancho
 Confirme no resumo se ha alternancia clara entre apresentador, slides narrativos de tela inteira e prova real do Telegram em tela inteira. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "screen_captioned":
+    PROMPT = f"""Voce audita uma GRAVACAO DE TELA vertical 9:16 em tela cheia com legenda queimada palavra por palavra.
+A tela real e a prova principal. A unica arte acrescentada permitida e a legenda em Inter, branca, com uma palavra ativa verde, no terco inferior. Nao deve haver talking-head, split-screen, b-roll, slide, headline, CTA, moldura, efeito ou cartela.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: false em todos os frames, pois nao existe apresentador
+- enquadramento_frouxo: true somente se a tela real nao preencher o quadro vertical ou ficar pequena com bordas artificiais
+- rosto_cortado: false em todos os frames, pois nao existe apresentador
+- faixa_broll_vazia: true se existir split-screen, faixa artificial ou painel vazio; tela real cheia deve ser false
+- broll_deformado: true se a tela real estiver girada, esticada, cortada de modo inutilizavel ou visualmente corrompida
+- legenda_cobre_rosto: use este campo como falha de POSICAO da legenda: true somente se a legenda cobrir uma informacao central claramente importante da tela ou estiver cortada; a legenda no terco inferior, legivel e com fundo discreto deve ser false
+- faixa_gancho_estoura: true se aparecer headline, faixa de gancho, CTA ou cartela; a legenda comum nao conta
+No resumo confirme se a legenda aparece ao longo do video, e legivel, tem no maximo duas linhas, usa branco com palavra ativa verde e se a gravacao permanece em tela cheia e corretamente orientada. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. O relogio t= no canto pertence a auditoria e deve ser ignorado.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "cta_fullscreen":
+    PROMPT = f"""Voce audita um CTA FINAL vertical 9:16 em tela cheia.
+A peca usa um take cinematografico do apresentador caminhando como fundo continuo. De 0,25s a 3,70s aparece uma promessa no topo, com no maximo duas linhas. De 3,82s ao fim aparece somente o CTA no terco inferior, com no maximo duas linhas. Nao deve existir seta, split-screen, faixa de b-roll, slide ou cartela vazia. Texto branco com destaques verde-neon e fundo preto discreto e a identidade aprovada.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: true somente se houver vazio artificial excessivo acima da cena; o texto no topo nao conta como vazio
+- enquadramento_frouxo: true somente se o apresentador ficar pequeno demais ou perdido no quadro
+- rosto_cortado: true se olhos, boca, queixo ou topo da cabeca estiverem cortados de modo ruim
+- faixa_broll_vazia: true somente se existir split-screen, faixa artificial ou painel vazio; take em tela cheia deve ser false
+- broll_deformado: true se apresentador, membros, rosto ou ambiente estiverem visivelmente deformados ou corrompidos
+- legenda_cobre_rosto: true se a promessa ou o CTA cobrirem o rosto, ficarem cortados ou ilegíveis; texto fora do rosto deve ser false
+- faixa_gancho_estoura: true somente se a promessa do topo sair da area segura, ultrapassar duas linhas ou encostar nas bordas; caso contrario false
+No resumo confirme se a promessa e o CTA sao legiveis, se nao existe seta, se o rosto permanece livre e se o take ocupa o quadro inteiro. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. O relogio t= pertence a auditoria e deve ser ignorado.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "cta_fullscreen_3line":
+    PROMPT = f"""Voce audita um CTA FINAL vertical 9:16 em tela cheia.
+A peca usa um take cinematografico do apresentador caminhando como fundo continuo. De 0,10s ate o fim aparece uma promessa fixa no topo, obrigatoriamente em tres linhas. De 3,82s ao fim aparece tambem o CTA no terco inferior, com no maximo duas linhas. Nao deve existir seta, split-screen, faixa de b-roll, slide ou cartela vazia. Texto branco com destaques verde-neon e fundo preto discreto e a identidade aprovada.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: true somente se houver vazio artificial excessivo acima da cena; o texto no topo nao conta como vazio
+- enquadramento_frouxo: true somente se o apresentador ficar pequeno demais ou perdido no quadro
+- rosto_cortado: true se olhos, boca, queixo ou topo da cabeca estiverem cortados de modo ruim
+- faixa_broll_vazia: true somente se existir split-screen, faixa artificial ou painel vazio; take em tela cheia deve ser false
+- broll_deformado: true se apresentador, membros, rosto ou ambiente estiverem visivelmente deformados ou corrompidos
+- legenda_cobre_rosto: true se a promessa ou o CTA cobrirem o rosto, ficarem cortados ou ilegíveis; texto fora do rosto deve ser false
+- faixa_gancho_estoura: true somente se a promessa do topo sair da area segura, tiver quantidade diferente de tres linhas ou encostar nas bordas; tres linhas e o desenho correto e nao reprova
+No resumo confirme se a promessa fixa de tres linhas e o CTA sao legiveis, se nao existe seta, se o rosto permanece livre e se o take ocupa o quadro inteiro. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. O relogio t= pertence a auditoria e deve ser ignorado.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "cta_fullscreen_3line_from_start":
+    PROMPT = f"""Voce audita um CTA FINAL vertical 9:16 em tela cheia.
+A peca usa um take cinematografico do apresentador caminhando como fundo continuo. De 0,10s ate o fim aparecem ao mesmo tempo: uma promessa fixa no topo, obrigatoriamente em tres linhas, e o CTA no terco inferior, com no maximo duas linhas. Nao deve existir seta, split-screen, faixa de b-roll, slide ou cartela vazia. Texto branco com destaques verde-neon e fundo preto discreto e a identidade aprovada.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: true somente se houver vazio artificial excessivo acima da cena; o texto no topo nao conta como vazio
+- enquadramento_frouxo: true somente se o apresentador ficar pequeno demais ou perdido no quadro
+- rosto_cortado: true se olhos, boca, queixo ou topo da cabeca estiverem cortados de modo ruim
+- faixa_broll_vazia: true somente se existir split-screen, faixa artificial ou painel vazio; take em tela cheia deve ser false
+- broll_deformado: true se apresentador, membros, rosto ou ambiente estiverem visivelmente deformados ou corrompidos
+- legenda_cobre_rosto: true se a promessa ou o CTA cobrirem o rosto, ficarem cortados ou ilegíveis; texto fora do rosto deve ser false
+- faixa_gancho_estoura: true somente se a promessa do topo sair da area segura, tiver quantidade diferente de tres linhas, o CTA inferior tiver mais de duas linhas, um dos dois textos nao estiver presente desde o primeiro frame auditado ou encostar nas bordas
+No resumo confirme se a promessa fixa de tres linhas e o CTA aparecem juntos desde o inicio e permanecem legiveis, se nao existe seta, se o rosto permanece livre e se o take ocupa o quadro inteiro. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. O relogio t= pertence a auditoria e deve ser ignorado.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "organic_body_cta":
+    PROMPT = f"""Voce audita uma variante organica vertical 9:16 composta por um corpo de video ja aprovado e um CTA final de 7 segundos.
+O corpo pode ser talking-head com apresentador em cima e apoios embaixo ou gravacao de tela cheia. Preserve a composicao que ja existe: nao exija um unico layout para todos. No fim ha uma transicao curta e limpa, sem dupla exposicao, para o CTA em tela cheia com apresentador caminhando. Nesse CTA, a promessa fica fixa em tres linhas no topo e "Comente SOCIO para receber o link" fica em ate duas linhas no terco inferior, ambos desde o inicio do CTA. Nao deve haver seta.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: true somente se houver vazio artificial claramente ruim; espaco natural da gravacao nao conta
+- enquadramento_frouxo: true somente se houver enquadramento claramente defeituoso, nunca apenas por diferenca de estilo entre os videos
+- rosto_cortado: true se olhos, boca, queixo ou topo da cabeca estiverem cortados de modo ruim
+- faixa_broll_vazia: true se existir painel ou faixa artificial vazia; gravacao de tela cheia e CTA em tela cheia devem ser false
+- broll_deformado: true se imagem, tela, apresentador ou apoio estiverem visivelmente deformados, corrompidos ou com dupla exposicao na transicao
+- legenda_cobre_rosto: true se legenda ou texto cobrir informacao central, rosto, ficar cortado ou ilegivel
+- faixa_gancho_estoura: no corpo, true somente para arte claramente fora da area segura; no CTA, true se a promessa nao tiver tres linhas, o CTA inferior nao estiver presente, houver seta ou algum texto encostar nas bordas
+No resumo confirme a integridade visual do corpo, a transicao limpa e a presenca simultanea da promessa de tres linhas e do CTA inferior no encerramento. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. O relogio t= pertence a auditoria e deve ser ignorado.
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "generated_clip":
+    PROMPT = f"""Voce audita um CLIPE CURTO DE ANIMACAO GERADA, sem apresentador, legenda, headline ou CTA.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Avalie tambem a coerencia visual entre os frames sucessivos. Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: false em todos os frames, pois nao existe apresentador
+- enquadramento_frouxo: false em todos os frames, pois a cena deve ocupar o quadro inteiro
+- rosto_cortado: true somente se surgir rosto ou pessoa acidentalmente e estiver deformado ou cortado
+- faixa_broll_vazia: true se o quadro estiver vazio, preto, quebrado ou sem a cena principal
+- broll_deformado: true se houver objeto duplicado, geometria derretida, texto inventado, artefato grave, mudanca incoerente de cena ou deformacao evidente
+- legenda_cobre_rosto: true se aparecer legenda, palavra, logo ou marca d'agua inventada; caso contrario false
+- faixa_gancho_estoura: false em todos os frames, pois nao existe gancho
+No resumo diga se a cena permanece coerente ao longo da sequencia e se ha movimento visual perceptivel entre os frames, sem inventar medidas de tempo. CALIBRACAO: marque true SO para problema CLARAMENTE visivel.
 Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
 elif AUDIT_MODE == "split_no_hook":
     PROMPT = f"""Voce audita a COMPOSICAO de um video vertical 9:16 em split-screen 50/50 CONTINUO: apresentador na metade superior e slides narrativos na metade inferior.

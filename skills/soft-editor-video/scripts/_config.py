@@ -16,15 +16,13 @@ def _load_keys_env():
 
 _load_keys_env()
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 GEMINI_KEYS = [k.strip() for k in os.environ.get("GEMINI_API_KEYS", "").split(",") if k.strip()]
-SUBMAGIC_API_KEY = os.environ.get("SUBMAGIC_API_KEY", "")
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "").strip() or os.path.join(SKILL_DIR, "output")
 
 def require(*names):
     miss = [n for n in names if not os.environ.get(n) and not (n == "GEMINI_API_KEYS" and GEMINI_KEYS)]
     if miss:
-        raise SystemExit(f"FALTAM CHAVES: {miss}. Rode o onboarding (PASSO 0 da SKILL) e preencha config/keys.env.")
+        raise SystemExit(f"RECURSO OPCIONAL NAO CONFIGURADO: {miss}. Leia o PASSO 0 da SKILL.")
 
 def load_personagens():
     p = os.path.join(CFG_DIR, "personagens.json")
