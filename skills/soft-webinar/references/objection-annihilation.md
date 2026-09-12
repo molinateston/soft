@@ -728,19 +728,19 @@ Se, mesmo depois do slide-pivô, alguém ainda escrever "isso eu faço sozinho",
 
 > **Por que assim:** concede (não humilha) → move pra escolha (libera) → reduz o produto a tempo economizado (tangível). Nunca "você não vai conseguir".
 
-### Específica de produto (exemplo Soft Business)
+### Específica de produto (exemplo genérico)
 
 **Pergunta:**
-> "Qual a diferença entre [Soft Business] e [outro método/curso]?"
+> "Qual a diferença entre [o método do dono] e [outro método/curso]?"
 
 **Resposta:**
 
 > "Pergunta legítima.
 >
-> [Outro método] é desenhado pra [estágio/perfil A]. [Soft Business] é desenhado pra [estágio/perfil B].
+> [Outro método] é desenhado pra [estágio/perfil A]. [o método do dono] é desenhado pra [estágio/perfil B].
 >
 > Quem deveria ir pra [outro método]: [perfil específico]
-> Quem deveria vir pra [Soft Business]: [perfil específico]
+> Quem deveria vir pra [o método do dono]: [perfil específico]
 >
 > Não é melhor ou pior. É **diferente estágio**.
 >

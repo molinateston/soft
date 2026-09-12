@@ -75,10 +75,10 @@ Quando você vir estes, encosta o lápis. São a impressão digital de uma pesso
 Pega a frase suspeita e conta os tells de verdade que ela tem:
 
 - **1 tell isolado que está nesta lista de falso positivo** → deixa como está.
-- **1 tell que NÃO está aqui (ex.: em-dash, família "travar")** → conserta, esses são zero-tolerância.
+- **1 tell que NÃO está aqui (ex.: em-dash, a família do verbo-freio)** → conserta, esses são zero-tolerância.
 - **2 ou mais tells juntos na mesma frase ou no mesmo bloco** → aí sim reescreve, é aglomerado.
 
-Exemplo de aglomerado (reprova): *"Não é só sobre vender — é sobre transformar vidas, marcando um momento decisivo na sua jornada."* (paralelismo negativo + em-dash + importância inflada + gerúndio + abstrato). Isso é IA, refaz inteiro.
+Exemplo de aglomerado (reprova): *"Não é só sobre vender [travessão longo] é sobre transformar vidas, marcando um momento decisivo na sua jornada."* (paralelismo negativo + em-dash + importância inflada + gerúndio + abstrato). Isso é IA, refaz inteiro.
 
 Exemplo de falso positivo (mantém): *"Funcionou. Três clientes fecharam na mesma semana."* Tem frase curta cravando um ponto (que sozinha pareceria staccato), mas é UMA, é concreta, é falsificável. Fica.
 

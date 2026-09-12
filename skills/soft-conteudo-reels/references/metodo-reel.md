@@ -47,7 +47,7 @@ Funciona assim: a **espinha narrativa Soft** conduz o vídeo do início ao fim, 
 | **Virada** | Nova oportunidade | **Virada.** A virada de interpretação. Existe um caminho diferente. |
 | **Fechamento** | Mecanismo + Convite | **Convite.** Aponta pro método (função, não execução) + próximo passo que convida, não empurra. |
 
-**Duração:** 1 a 2 minutos. Em torno de **1:30 quando for impulsionar** (Cap 9).
+**Duração:** faixa ótima 30 a 60s. Teto 90s só quando a tese exigir e cada bloco segurar sozinho. Quando for impulsionar, pode ir ao teto (até 90s), nunca "1 a 2 minutos" (Cap 9).
 
 ### Exemplo da progressão na prática
 
@@ -158,7 +158,7 @@ Você não pode acertar **uma vez só**. Tem que acertar sempre e pra sempre. Br
 
 **Meta: 1 reel/dia nos primeiros 90 dias.**
 
-Não grava um por dia - **isso mata o ritmo**. Produz em lote: **5 reels numa tarde**. Grava todos, edita todos, agenda todos. O Sócio IA (Cap 11) carrega a criação dos roteiros e headlines; o humano carrega a estratégia e a cara na câmera. Sem o Sócio IA, esse volume com foco é insustentável solo.
+Não grava um por dia - **isso mata o ritmo**. Produz em lote: **5 reels numa tarde**. Grava todos, edita todos, agenda todos. O agente de IA carrega a criação dos roteiros e headlines; o humano carrega a estratégia e a cara na câmera. Sem esse braço de IA, esse volume com foco é insustentável solo.
 
 > **Documentação > Produção.** Não inventa pauta. Vive a vida e documenta. Cada coisa do dia é matéria-prima para uma headline.
 

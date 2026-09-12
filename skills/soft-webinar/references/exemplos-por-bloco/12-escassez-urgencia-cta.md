@@ -229,7 +229,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 - [ ] **Zero silêncio com o carrinho aberto** - detalhamento, depoimentos, celebração de compradores e contagem preenchem cada segundo até o fim.
 - [ ] **O loop do presente da abertura fecha aqui** ("o material vai pro e-mail só de quem ficou até o final") - retenção paga, contrato cumprido.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Escassez de estoque falsa.** Nenhum campeão diz "últimas vagas do curso" sem ser verdade - a escassez recai sobre bônus, preço ou sessão, sempre verificável. Mentir aqui contamina a credibilidade de TODO o webinar (e do próximo).
 - **Deadline sem mecânica.** "Só até hoje" sem timer, sem contador, sem preço de prateleira auditável é retórica - todos os campeões dão à escassez um corpo verificável.

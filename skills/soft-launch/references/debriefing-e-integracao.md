@@ -2,7 +2,7 @@
 
 > **Quando consultar:** Modo C sempre. Esta é a reference que **diferencia** essa skill, sem ela, o lançamento vira pico isolado e cliente cai na Armadilha 3 (refém de evento).
 
-Cobre análise pós-lançamento estruturada (universal) + bloco condicional de **integração com sistema constante** (ativo quando cliente é Soft Business ou tem outro sistema próprio rodando).
+Cobre análise pós-lançamento estruturada (universal) + bloco condicional de **integração com sistema constante** (ativo quando cliente é o método ou tem outro sistema próprio rodando).
 
 ---
 
@@ -10,8 +10,8 @@ Cobre análise pós-lançamento estruturada (universal) + bloco condicional de *
 
 - Princípio raiz
 - BLOCO A: Debriefing
-- BLOCO B1: Integração com sistema Soft (cliente Soft Business)
-- BLOCO B2: Integração com sistema próprio (cliente não-Soft)
+- BLOCO B1: Integração com sistema do método (cliente deste método)
+- BLOCO B2: Integração com sistema próprio (cliente fora do método)
 - Bloco C: Comunicação do debriefing
 - Princípios não-negociáveis
 - Aplicação por modo
@@ -31,7 +31,7 @@ A reference tem 2 blocos:
 BLOCO A, DEBRIEFING (todos os clientes)
   ↓
 BLOCO B, INTEGRAÇÃO
-  ├── B1, Soft Business: integra no sistema constante Soft
+  ├── B1, o método: integra no sistema constante do método
   └── B2, Não-Soft: integra no sistema próprio do cliente
 ```
 
@@ -161,9 +161,9 @@ Após preencher os 5 eixos, cliente cai em **uma de 4 zonas**:
 
 ---
 
-## BLOCO B1: Integração com sistema Soft (cliente Soft Business)
+## BLOCO B1: Integração com sistema do método (cliente deste método)
 
-> Esta seção é ativada **apenas quando cliente é Soft Business**. Para cliente não-Soft, pular pra B2.
+> Esta seção é ativada **apenas quando cliente é o método**. Para cliente fora do método, pular pra B2.
 
 ### A doutrina Soft pós-lançamento
 
@@ -179,19 +179,19 @@ Os ativos pós-lançamento que precisam integrar:
 5. CONTEÚDO (gravações, manifestos, criativos que performaram)
 ```
 
-Cada um vai pra um destino específico no sistema Soft.
+Cada um vai pra um destino específico no sistema do método.
 
 ### Integração 1: Leads (compraram ingresso, não produto)
 
 **Risco se não integrar:** vira base "esfriando" que só será acionada no próximo lançamento.
 
 **Destino Soft:**
-- Entram no fluxo da **Mini Carta** (`soft-funil` puxa a estrutura)
+- Entram no fluxo da **Mini Carta** (`soft-funil-carta` puxa a estrutura; se não estiver instalada, faço aqui em modo reduzido)
 - Recebem sequência de e-mail/WhatsApp leve por 30-45 dias com conteúdo que reforça o método (não o lançamento)
 - Entram no público de remarketing dos Carrosséis 3C e Reels Lo-fi do conteúdo Z1
 - Stories CARO do dia-a-dia continua endereçando dores deles (audiência crescida)
 
-**Resultado:** lead que comprou ingresso mas não comprou produto **não esfria**. Continua sendo trabalhado pelo sistema Soft constante. Eventual conversão acontece via Carta + DM, não no próximo lançamento.
+**Resultado:** lead que comprou ingresso mas não comprou produto **não esfria**. Continua sendo trabalhado pelo sistema constante do método. Eventual conversão acontece via Carta + DM, não no próximo lançamento.
 
 ### Integração 2: Clientes (compraram produto)
 
@@ -220,7 +220,7 @@ Cada um vai pra um destino específico no sistema Soft.
 - Padrões observados na aula → ajusta linguagem da Mini Carta
 - Insights sobre o nicho → alimentam carrosséis e reels do próximo trimestre
 
-**Resultado:** dados do lançamento ficam vivos no sistema Soft, não engavetados pro próximo evento.
+**Resultado:** dados do lançamento ficam vivos no sistema do método, não engavetados pro próximo evento.
 
 ### Integração 5: Conteúdo
 
@@ -241,7 +241,7 @@ Cada um vai pra um destino específico no sistema Soft.
 | Leads do lançamento "sumiram" | Não entraram no fluxo da Carta nem no remarketing |
 | Próximo lançamento vai precisar reconstruir audiência do zero | Audiência foi tratada como descartável |
 
-> **Sem integração, o lançamento não é alavanca do Soft Business, é Armadilha 3 disfarçada.**
+> **Sem integração, o lançamento não é alavanca do método, é Armadilha 3 disfarçada.**
 
 ### Cadência segura pós-lançamento (cliente Soft)
 
@@ -251,7 +251,7 @@ Após o lançamento terminar:
 |---|---|
 | **Semanas 1-2** | Entrega + onboarding dos clientes que compraram |
 | **Semanas 3-4** | Debriefing + integração dos 5 ativos |
-| **Mês 2-3** | Sistema Soft constante operando com base ampliada |
+| **Mês 2-3** | Sistema constante do método operando com base ampliada |
 | **Mês 4-6** | Nutrição contínua, indicação e testemunho dos clientes |
 | **Mês 7-8** | Avaliação: faz sentido outro lançamento? Sistema constante tá girando? |
 | **Mês 9-12** | Se sim: prepara segundo lançamento. Se não: continua Soft constante. |
@@ -260,9 +260,9 @@ Após o lançamento terminar:
 
 ---
 
-## BLOCO B2: Integração com sistema próprio (cliente não-Soft)
+## BLOCO B2: Integração com sistema próprio (cliente fora do método)
 
-> Esta seção é ativada quando cliente **não é Soft Business** mas tem outro modelo (perpétuo, recorrência, comunidade, agência).
+> Esta seção é ativada quando cliente **não segue este método** mas tem outro modelo (perpétuo, recorrência, comunidade, agência).
 
 ### Pergunta-chave
 
@@ -296,7 +296,7 @@ Skill pergunta ao cliente qual é o sistema atual e ajuda a integrar. Não impõ
 - Aprendizados de um lançamento alimentam os outros (criativos, copy, insights)
 - Banco de bumps validados cresce a cada operação
 
-### Princípio universal (não-Soft)
+### Princípio universal (fora do método)
 
 > Independente do modelo, **debriefing estruturado + decisão consciente sobre próximo passo** evita o vício de "lançar de novo porque é o que sei fazer". Skill orienta o cliente a decidir baseado em dado, não em hábito.
 
@@ -318,11 +318,11 @@ Reunião de 90 min:
 - Brutal facts confrontados (princípio Stockdale do `soft-leon`)
 - Decisões saem com responsável + prazo
 
-### Pra cliente Soft Business
+### Pra cliente deste método
 
 Sessão dedicada com:
 - Debriefing dos 5 eixos
-- **Plano de integração dos 5 ativos no sistema Soft**
+- **Plano de integração dos 5 ativos no sistema do método**
 - Cadência segura pro próximo (6+ meses)
 - Reforço: lançamento foi injeção, sistema continua sendo o constante
 
@@ -334,7 +334,7 @@ Sessão dedicada com:
 2. **Matriz de decisão Verde/Amarelo/Laranja/Vermelho.** Sem categorização, dado vira impressão.
 3. **Para Soft: integração obrigatória dos 5 ativos.** Sem isso = Armadilha 3.
 4. **Mínimo 6 meses entre lançamentos Soft.** Abaixo disso, sinal vermelho.
-5. **Para não-Soft: integração consciente.** Skill orienta sem impor modelo.
+5. **Para fora do método: integração consciente.** Skill orienta sem impor modelo.
 6. **Aprendizado > faturamento.** Lançamento que faturou bem mas sem aprendizado estruturado não é vitória plena.
 
 ---

@@ -23,10 +23,10 @@ Comandos rápidos existem porque o especialista que tem fundação empacada não
 - *"me dá 7 headlines pra [contexto]"*
 - *"headlines sobre [tema]"* → default 10
 
-**Output:** inline no chat. Sem artifact (até 15 headlines). Acima disso, vira artifact.
+**Output:** inline no chat. Sem doc separado (até 15 headlines). Acima disso, vira doc MD.
 
 **Fluxo interno:**
-1. Lê fundação (4 itens) do projeto Claude / conversa atual
+1. Lê fundação (4 itens) do contexto do projeto / conversa atual
 2. Pra cada headline, escolhe 1 dos 30 templates do curso (rotação)
 3. Acopla pelo menos 1 assunto viral (Categoria 1, 2 ou 3, ver Cap 5.2 (guia))
 4. Aplica os 5 critérios v2 em cada headline gerada
@@ -45,7 +45,7 @@ Comandos rápidos existem porque o especialista que tem fundação empacada não
 - *"me dá um banco pra [contexto]"*
 - *"várias/muitas headlines sobre [tema]"* (sem qtd numérica)
 
-**Output:** artifact `text/markdown`.
+**Output:** doc markdown (`.md` salvo no disco; se o ambiente renderizar markdown, mostre).
 
 **Fluxo interno:**
 
@@ -68,14 +68,14 @@ Manda só o número.
 
 | Volume | Cobertura | Por template | Como entrega |
 |---|---|---|---|
-| **50** | 30 templates (cobertura larga) ou 5-10 templates (foco vertical) | ~1-2 ou 5-10 | 1 artifact |
-| **100** | 30 templates × ~3-4 headlines | ~3-4 | 1 artifact |
-| **200** | 30 templates × ~6-7 headlines | ~6-7 | 1 artifact |
-| **300** | 30 templates × 10 headlines | **10** | **3 artifacts em 3 lotes (ver Passo 3)** |
+| **50** | 30 templates (cobertura larga) ou 5-10 templates (foco vertical) | ~1-2 ou 5-10 | 1 doc |
+| **100** | 30 templates × ~3-4 headlines | ~3-4 | 1 doc |
+| **200** | 30 templates × ~6-7 headlines | ~6-7 | 1 doc |
+| **300** | 30 templates × 10 headlines | **10** | **3 docs em 3 lotes (ver Passo 3)** |
 
 #### Passo 3, Lotes pra 300 headlines
 
-300 headlines em 1 artifact estoura tokens e cansa olho. Skill divide em **3 lotes por ASSUNTO**, frame do curso de Reels (Capítulo 6, "Escalar um ASSUNTO viral").
+300 headlines em 1 doc estoura tokens e cansa olho. Skill divide em **3 lotes por ASSUNTO**, frame do curso de Reels (Capítulo 6, "Escalar um ASSUNTO viral").
 
 **Pergunta antes da geração:**
 
@@ -102,7 +102,7 @@ Manda A ou B.
 - Cada lote = 1 template em ~33 temas variados
 - Cliente decide os temas OU skill puxa da Fundação
 
-#### Passo 4, Estrutura do artifact
+#### Passo 4, Estrutura do doc
 
 ```markdown
 # Banco de headlines, [tema] · [Volume]
@@ -207,7 +207,7 @@ Manda A ou B.
 
 A skill **não** processa como comando rápido se:
 
-- Cliente pede roteiro completo, copy de carta, ou conteúdo além de headline → aponta pra outra frente (`processo-feed.md`) ou skill (`soft-funil`)
+- Cliente pede roteiro completo, copy de carta, ou conteúdo além de headline → aponta pra outra frente (`processo-feed.md`) ou skill (`soft-funil-*`)
 - Cliente pede análise estratégica de feed inteiro → aponta pro coach
 - Cliente cola texto longo pra "transformar em headline" → entra em modo input livre com aviso
 

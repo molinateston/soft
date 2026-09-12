@@ -10,13 +10,30 @@ def _number(value):
     return isinstance(value, (int, float)) and not isinstance(value, bool)
 
 
+def _text(value):
+    return isinstance(value, str) and bool(value.strip())
+
+
 def validate(data, check_files=True):
     errors = []
+    # Insumo sem fala e caminho previsto, nao falha: speech_words vazio + motivo
+    # medido em no_speech_reason libera os criterios que dependem de fala
+    # (legenda palavra por palavra, tempos e compactacao). Texto falso dentro de
+    # speech_words so pra satisfazer o formato continua reprovando.
+    raw_words = data.get("speech_words")
+    no_speech_reason = data.get("no_speech_reason")
+    no_speech = isinstance(raw_words, list) and not raw_words and _text(no_speech_reason)
+    if isinstance(raw_words, list):
+        for item in raw_words:
+            word = str(item.get("word", "")).strip() if isinstance(item, dict) else str(item).strip()
+            if word.startswith("[") and word.endswith("]"):
+                errors.append("speech_words com marcador no lugar de fala real")
+                break
     mode = data.get("layout_mode")
     adaptive = mode == "adaptive"
     if mode not in {"adaptive", "fullscreen-proof", "top-fixed", "feed-plain"}:
         errors.append("layout_mode invalido")
-    if adaptive:
+    if adaptive and not no_speech:
         if data.get("caption_mode") != "word":
             errors.append("legenda precisa ser palavra por palavra")
         if data.get("keyword_highlight") is not True:
@@ -27,9 +44,11 @@ def validate(data, check_files=True):
     if data.get("speech_speed") not in (1, 1.0, 1.2):
         errors.append("velocidade fora das familias aprovadas")
 
-    words = data.get("speech_words")
-    if not isinstance(words, list) or not words:
-        errors.append("fala compactada sem palavras e tempos")
+    words = raw_words
+    if no_speech:
+        pass
+    elif not isinstance(words, list) or not words:
+        errors.append("fala compactada sem palavras e tempos (sem fala no material: grave speech_words: [] e no_speech_reason com o motivo medido)")
     else:
         previous_start = -1.0
         for index, item in enumerate(words, 1):
@@ -45,7 +64,9 @@ def validate(data, check_files=True):
                 previous_start = start
 
     compaction = data.get("speech_compaction")
-    if not isinstance(compaction, dict) or compaction.get("word_timed") is not True:
+    if no_speech:
+        pass
+    elif not isinstance(compaction, dict) or compaction.get("word_timed") is not True:
         errors.append("fala compactada sem prova word-timed")
     else:
         source_duration = compaction.get("source_duration")
@@ -125,7 +146,21 @@ def validate(data, check_files=True):
     segments = data.get("support_segments", [])
     if adaptive and not segments:
         errors.append("composicao adaptativa sem apoios")
+    if segments:
+        direction = data.get("visual_direction")
+        if not isinstance(direction, dict):
+            errors.append("direcao visual central ausente")
+        else:
+            for field in ("semantic_division", "continuity_rule", "phrase_rhythm",
+                          "transition_language"):
+                if not _text(direction.get(field)):
+                    errors.append(f"direcao visual sem {field}")
+            if direction.get("director_reviewed") is not True:
+                errors.append("direcao visual sem revisao central")
     for index, segment in enumerate(segments, 1):
+        if not isinstance(segment, dict):
+            errors.append(f"apoio {index} invalido")
+            continue
         try:
             duration = float(segment["end"]) - float(segment["start"])
         except (KeyError, TypeError, ValueError):
@@ -135,6 +170,21 @@ def validate(data, check_files=True):
             errors.append(f"apoio {index} tem duracao invalida")
         if duration > 3.4 and segment.get("type") != "real_screen" and not segment.get("exception"):
             errors.append(f"apoio {index} dura {duration:.2f}s sem excecao")
+        for field in ("speech_excerpt", "intent", "visual_strategy", "first_frame_plan",
+                      "last_frame_plan", "motion", "transition_in", "transition_out"):
+            if not _text(segment.get(field)):
+                errors.append(f"apoio {index} sem {field}")
+        phrase = segment.get("support_phrase")
+        if not isinstance(phrase, dict):
+            errors.append(f"apoio {index} sem decisao de frase")
+        elif phrase.get("decision") == "use":
+            if not _text(phrase.get("text")) or not _text(phrase.get("role")):
+                errors.append(f"apoio {index} com frase incompleta")
+        elif phrase.get("decision") == "none":
+            if not _text(phrase.get("reason")):
+                errors.append(f"apoio {index} sem motivo para nao usar frase")
+        else:
+            errors.append(f"apoio {index} com decisao de frase invalida")
     reveals = data.get("list_reveals", [])
     if len(reveals) > 1:
         times = [item.get("at") for item in reveals]
@@ -174,7 +224,25 @@ def sample_manifest(proof):
             {"cut_id": "cut-002", "passed": True, "proof": proof,
              "reviewer": "codex-oauth"}
         ],
-        "support_segments": [{"start": 0, "end": 2.7, "type": "image"}],
+        "visual_direction": {
+            "semantic_division": "blocos de argumento",
+            "continuity_rule": "uma linguagem visual",
+            "phrase_rhythm": "frases apenas nas ideias fortes",
+            "transition_language": "transicoes motivadas pela fala",
+            "director_reviewed": True,
+        },
+        "support_segments": [{
+            "start": 0, "end": 2.7, "type": "image",
+            "speech_excerpt": "fala limpa", "intent": "mostrar a acao",
+            "visual_strategy": "a ordem vira resultado",
+            "support_phrase": {"decision": "use", "text": "Ordem em trabalho",
+                               "role": "tese"},
+            "first_frame_plan": "ordem no celular",
+            "last_frame_plan": "resultado na tela",
+            "motion": "onda de audio vira resultado",
+            "transition_in": "camera entra no celular",
+            "transition_out": "resultado ocupa o quadro",
+        }],
         "list_reveals": [{"at": 2.0}, {"at": 3.0}],
         "paid_generation": {"provider": "none", "credits": 0, "approved": True},
     }
@@ -198,7 +266,31 @@ def self_test():
         variants.append(no_fade)
         wrong_order = dict(good, render_order=["base", "captions", "animations_overlays"])
         variants.append(wrong_order)
-        return all(validate(variant) for variant in variants)
+        no_direction = json.loads(json.dumps(good))
+        no_direction.pop("visual_direction")
+        variants.append(no_direction)
+        no_phrase = json.loads(json.dumps(good))
+        no_phrase["support_segments"][0].pop("support_phrase")
+        variants.append(no_phrase)
+        no_transition = json.loads(json.dumps(good))
+        no_transition["support_segments"][0].pop("transition_out")
+        variants.append(no_transition)
+        # sem fala mas sem motivo medido: continua reprovando
+        empty_no_reason = json.loads(json.dumps(good))
+        empty_no_reason["speech_words"] = []
+        variants.append(empty_no_reason)
+        # marcador falso no lugar de fala real: reprova
+        fake_word = json.loads(json.dumps(good))
+        fake_word["speech_words"] = [{"word": "[sem_fala_no_material]", "start": 0, "end": 1}]
+        variants.append(fake_word)
+        if not all(validate(variant) for variant in variants):
+            return False
+        # caminho previsto: sem fala, com motivo medido, o gate ACEITA
+        no_speech = json.loads(json.dumps(good))
+        no_speech["speech_words"] = []
+        no_speech["no_speech_reason"] = "material sem fala: medido na ingestao"
+        no_speech.pop("speech_compaction", None)
+        return validate(no_speech) == []
 
 
 def main(argv=None):

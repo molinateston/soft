@@ -1,7 +1,7 @@
 
 # Soft Produtividade
 
-Coach de execução para o Especialista Soft Business.
+Coach de execução para o Especialista este método.
 Baseado no princípio de começar pela tarefa mais difícil e importante do dia primeiro (o "sapo").
 
 ---
@@ -193,7 +193,7 @@ Regra final: iniciou o A1, só para quando terminar.
 
 ---
 
-## Hierarquia de consequência Soft Business
+## Hierarquia de consequência este método
 
 | Prioridade | Tipo de tarefa |
 |---|---|

@@ -13,7 +13,12 @@ def capture(video, at, target):
 
 
 def changed_pixels(a, b, box, threshold=40):
-    diff = ImageChops.difference(Image.open(a).convert("RGB").crop(box), Image.open(b).convert("RGB").crop(box))
+    first = Image.open(a).convert("RGB")
+    second = Image.open(b).convert("RGB")
+    # O arquivo-base pode ter dimensão diferente da exportada; alinhe antes de comparar.
+    if second.size != first.size:
+        second = second.resize(first.size)
+    diff = ImageChops.difference(first.crop(box), second.crop(box))
     return sum(1 for pixel in diff.getdata() if max(pixel) > threshold)
 
 
@@ -30,7 +35,20 @@ def main():
     v = next(s for s in streams if s["codec_type"] == "video")
     a = next((s for s in streams if s["codec_type"] == "audio"), None)
     errors = []
-    if (v.get("width"), v.get("height")) != (720, 1280): errors.append("dimensões diferentes de 720x1280")
+    width, height = int(v.get("width") or 0), int(v.get("height") or 0)
+    # Vertical 9:16, e nunca abaixo da resolução do arquivo-base: exportar menor
+    # que a fonte joga resolução fora sem necessidade.
+    if not width or not height:
+        errors.append("não foi possível ler a dimensão do vídeo")
+    elif abs(width * 16 - height * 9) > max(2, height * 0.01):
+        errors.append(f"não é vertical 9:16: {width}x{height}")
+    base = manifest.get("base")
+    if base and width and height:
+        base_probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "json", str(base)]))
+        bs = base_probe["streams"][0]
+        base_h = int(bs.get("height") or 0)
+        if base_h and height < base_h:
+            errors.append(f"saída {width}x{height} abaixo da fonte {bs.get('width')}x{base_h}")
     if v.get("codec_name") != "h264": errors.append("vídeo não está em H.264")
     if not a or a.get("codec_name") != "aac": errors.append("áudio não está em AAC")
     if abs(float(probe["format"]["duration"]) - float(manifest["duration"])) > 0.03: errors.append("duração fora da tolerância")
@@ -57,7 +75,12 @@ def main():
             files[label] = t / f"{label}.png"
             capture(source, at, files[label])
         call_y = int(manifest["call_y"])
-        roi = (80, call_y - 10, 640, min(1280, call_y + 100))
+        # A janela de leitura acompanha a dimensão real do arquivo, em vez de
+        # coordenadas cravadas de uma resolução só.
+        escala = height / 1280 if height else 1
+        margem = int(80 * escala)
+        roi = (margem, call_y - int(10 * escala), max(margem + 1, width - margem),
+               min(height, call_y + int(100 * escala)))
         before_pixels = changed_pixels(files["ob"], files["bb"], roi)
         after_pixels = changed_pixels(files["oa"], files["ba"], roi)
         if before_pixels > 400: errors.append(f"microchamada aparece cedo: {before_pixels} pixels")

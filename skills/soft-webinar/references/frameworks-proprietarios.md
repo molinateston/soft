@@ -93,7 +93,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 > "tudo que tira gente certa desse funil é desperdício. Tudo que enche de gente errada é o excesso voltando."
 
-**Fidelidade aos números.** O **ticket de R$ 3k+** é piso doutrinário do método Soft (não baixe disso). A meta de R$ 50k e a divisão exata (17 clientes, 20 conversas) são derivação editorial coerente com a doutrina. O usuário **usa os números que servem ao caso dele na hora**, o que importa é a lógica do filtro, não os dígitos. A estatística "de 100, ~10% têm dinheiro" é o coração da cascata. Não invente conversões mais bonitas pra impressionar. Conta inflada mata a credibilidade, que é justo o oposto do tom clínico.
+**Fidelidade aos números.** O **ticket de R$ 3k+** é piso doutrinário deste método (não baixe disso). A meta de R$ 50k e a divisão exata (17 clientes, 20 conversas) são derivação editorial coerente com a doutrina. O usuário **usa os números que servem ao caso dele na hora**, o que importa é a lógica do filtro, não os dígitos. A estatística "de 100, ~10% têm dinheiro" é o coração da cascata. Não invente conversões mais bonitas pra impressionar. Conta inflada mata a credibilidade, que é justo o oposto do tom clínico.
 
 **Quando NÃO usar (régua de discernimento).** A prova matemática só funciona quando o avatar **fatura** (profissional ou empresa, B2B, dono de negócio). Com consumidor final (emagrecimento, relacionamento, idioma) a aritmética de faturamento não cabe e soa deslocada; ali a prova vem das outras camadas (persona-âncora, antes-e-depois, depoimento). Saber quando deixar a conta do filtro de fora é parte da régua, não esquecimento.
 

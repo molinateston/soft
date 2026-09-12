@@ -2,7 +2,7 @@
 
 > **SEM PORTEIRO (regra do dono, manda sobre tudo abaixo):** qualquer pessoa usa esta skill e faz o webinar quando quiser; nada aqui exige nascer de outro processo. A régua de maturidade virou **aviso consultivo de 1 linha** ("webinar rende mais quando funil/promessa já validaram; dá pra seguir mesmo assim"), **nunca um bloqueio, nunca encerra a conversa**. Tudo que abaixo soar como bloqueio, leia como recomendação.
 
-> **Quando consultar:** **Antes** de invocar a skill. Cliente em dúvida entre os 3 produtos do sistema Soft, OU cliente que já decidiu "quero webinar" sem ter passado pela régua de maturidade. Esta reference faz duas coisas, nesta ordem: **(1) decide se já é hora de webinar** (a régua de maturidade - a maioria das vezes a resposta honesta é "ainda não"); **(2) se for, escolhe entre os 3 ativos** pelo cruzamento ticket × estágio × ciclo × repertório de palco. Pular a régua é o erro mais caro do método: webinar é o funil mais poderoso da operação e o mais fácil de gravar errado.
+> **Quando consultar:** **Antes** de invocar a skill. Cliente em dúvida entre os 3 produtos deste sistema, OU cliente que já decidiu "quero webinar" sem ter passado pela régua de maturidade. Esta reference faz duas coisas, nesta ordem: **(1) decide se já é hora de webinar** (a régua de maturidade - a maioria das vezes a resposta honesta é "ainda não"); **(2) se for, escolhe entre os 3 ativos** pelo cruzamento ticket × estágio × ciclo × repertório de palco. Pular a régua é o erro mais caro do método: webinar é o funil mais poderoso da operação e o mais fácil de gravar errado.
 
 ---
 
@@ -10,14 +10,14 @@
 
 - REGRA ZERO - o webinar é o degrau 2, não o começo
 - A RÉGUA DE MATURIDADE - os 5 sinais de que o webinar rende MAIS (aviso, não porteiro)
-- SE PASSOU NA RÉGUA - os 3 produtos do sistema Soft
+- SE PASSOU NA RÉGUA - os 3 produtos deste sistema
 - Pergunta 1 - Ticket (o motor de preço Soft: R$497 a R$50k)
 - Pergunta 2 - Estágio do negócio
 - Pergunta 3 - Ciclo de venda (impulso vs. decisão longa)
 - Pergunta 4 - Repertório de palco do cliente
 - Pergunta 5 - Comportamento do avatar
 - Tabela decisória completa
-- Combinações comuns no sistema Soft
+- Combinações comuns neste sistema
 - Sinais de que o cliente escolheu errado
 - Quando usar mais de um ao mesmo tempo
 - Como conduzir a decisão com o cliente
@@ -90,14 +90,14 @@ Pare e recomende voltar pro degrau 1 (Carta) se **qualquer um** destes for verda
 
 ---
 
-## SE PASSOU NA RÉGUA - os 3 produtos do sistema Soft
+## SE PASSOU NA RÉGUA - os 3 produtos deste sistema
 
-O sistema Soft tem **3 ativos de fechamento de venda** que **convivem** (não substituem um ao outro). Cliente pode ter um, dois ou os três - mas geralmente começa com **um** e depois decide se adiciona, baseado em **vazamento medido** (ver final).
+Este sistema tem **3 ativos de fechamento de venda** que **convivem** (não substituem um ao outro). Cliente pode ter um, dois ou os três - mas geralmente começa com **um** e depois decide se adiciona, baseado em **vazamento medido** (ver final).
 
 | Produto | Skill | Função | Duração | Custo de produção | Repertório de palco exigido |
 |---------|-------|--------|---------|-------------------|------------------------------|
-| **Carta de Vendas** | `soft-funil` | Texto longo que vende sozinho | 5-15 min de leitura | Baixo | Nenhum - só escrever |
-| **Micro Treinamento (MT)** | `soft-funil` (variação MT) | Vídeo curto: entrega valor + vende | 15-25 min de vídeo | Médio | Pouco - fala curta, editável |
+| **Carta de Vendas** | `soft-funil-carta` | Texto longo que vende sozinho | 5-15 min de leitura | Baixo | Nenhum - só escrever |
+| **Micro Treinamento (MT)** | `soft-funil-carta` (variação MT) | Vídeo curto: entrega valor + vende | 15-25 min de vídeo | Médio | Pouco - fala curta, editável |
 | **Webinário** | `soft-webinar` | Aula completa + oferta robusta + Q&A | 60-90 min | Alto | Alto - conduzir uma sala 60-90 min |
 
 A escolha **não é sobre qual é melhor**. É sobre **qual encaixa no momento do cliente** (ticket + estágio + ciclo) **e no repertório dele** (consegue conduzir 90 min de sala?) **e no comportamento do avatar dele** (lê ou assiste?).
@@ -293,7 +293,7 @@ Esta é a régua que o diagnóstico esquecia. O webinar exige uma habilidade que
 
 ---
 
-## Combinações comuns no sistema Soft
+## Combinações comuns neste sistema
 
 ### Combinação A - Iniciante: só Carta
 ```
@@ -390,7 +390,7 @@ Após as perguntas, **recomenda 1 ativo principal**. Empate → escolhe o de men
 ## Notas operacionais
 
 - **Não force Webinário** se o cliente não tem disposição nem repertório. Webinário ruim mata posicionamento. Carta boa > Webinário ruim.
-- **Não desvalorize a Carta.** Carta longa bem escrita converte muito - não é "produto de iniciante". Russell Brunson, Dan Kennedy, Stefan Georgi vendem high-ticket com Carta. E no método Soft a Carta é o degrau 1, onde TODO argumento é validado antes de virar webinar.
+- **Não desvalorize a Carta.** Carta longa bem escrita converte muito - não é "produto de iniciante". Russell Brunson, Dan Kennedy, Stefan Georgi vendem high-ticket com Carta. E neste método a Carta é o degrau 1, onde TODO argumento é validado antes de virar webinar.
 - **MT é subutilizado no Brasil.** Combina vídeo + valor + oferta em formato curto. Vale considerar mesmo quando a intuição manda Webinário - especialmente pra cliente sem palco.
 - **A régua é conselho, não catraca.** Dizer "validar barato primeiro costuma render mais" é consultoria; segurar o webinar de quem decidiu fazer não é. Um aviso de 1 linha, e segue.
 - **Mudar de ativo não é fracasso.** Cliente que começou em Carta e migrou pra Webinário não falhou - evoluiu de estágio. Cliente que desceu de Webinar pra Carta não regrediu - voltou pro degrau onde a base estava firme.

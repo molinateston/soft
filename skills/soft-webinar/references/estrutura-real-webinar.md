@@ -2,7 +2,7 @@
 
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
-> **O que é este doc.** A especificação da estrutura REAL do webinário do corpus estudado, consolidada de três estudos: (1) a destilação do webinário do próprio o autor do corpus ("VENDA COM WEBINARS / O Melhor Funil do Mundo", roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da GA, a máquina-mãe que o autor do corpus modelou; (3) a doutrina do clique (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
+> **O que é este doc.** A especificação da estrutura REAL do webinário do corpus estudado, consolidada de três estudos: (1) a destilação do webinário do próprio autor do corpus (o produto dele, roteiro-FINAL, deck de 69 slides, deck Canva de 224 slides, curso que ensina o método); (2) a destilação completa do webinar de gestão ágil da GA, a máquina-mãe que o autor do corpus modelou; (3) a doutrina do clique (listas, caixinhas, dopamina por clique), que não é um documento à parte, é a camada doutrinal que atravessa os dois webinares e explica o PORQUÊ de cada técnica.
 >
 > **Para que serve.** Este doc **SUBSTITUI o framework inventado das "3 viradas"** que circulava em scripts e planos-de-webinar antigos. É o gabarito que o `soft-webinar` e o script da aula devem seguir. A última seção (`O QUE ESTÁ ERRADO no script atual`) diz exatamente o que arrancar e com o que substituir.
 >
@@ -178,8 +178,8 @@ Cada afirmação do Mecanismo é ensinada em **quatro tempos: o que é · por qu
 ### Estrutura real (a coreografia, na ordem exata)
 1. **Desejo oculto (a cena concreta, "o melhor beat", com 1h de intimidade):** *"Domingo. Teu filho chega e te chama pra jogar bola. E você fala 'já vou, filho'. E não vai. O trabalho comeu teu domingo. De novo. O que eu tô te oferecendo não é faturamento. É o teu domingo de volta."*
 2. **A permissão (pivota pra venda sem quebrar o estado):** *"Posso te mostrar como eu posso te ajudar a partir daqui?"* (NADA de botão/link ainda).
-3. **Alavancagem:** *"Tudo que eu mostrei funciona, e é de graça. Mas é o ABC. Tem 10 anos de teste e erro por trás, e eu botei tudo dentro do Venda com Webinar."*
-4. **A PUV (a frase mais importante, dita 2x, pausada):** *"O Venda com Webinar é o único método com a RP que te faz vender todo dia sem precisar aparecer todo dia."*
+3. **Alavancagem:** *"Tudo que eu mostrei funciona, e é de graça. Mas é o ABC. Tem 10 anos de teste e erro por trás, e eu botei tudo dentro do [produto do dono]."*
+4. **A PUV (a frase mais importante, dita 2x, pausada):** *"O [produto do dono] é o único método com a RP que te faz vender todo dia sem precisar aparecer todo dia."*
 5. **O produto por dentro, a escada de IDENTIDADE ("De preso a procurado"):** cada degrau = um módulo = uma versão de você.
 6. **Prova de existência:** prints REAIS da área de membros. *"Isso não é projeto, é o que tá pronto hoje."*
 7. **Os 2 caminhos (a objeção-mãe, medo primeiro):** *"Você pode fazer sozinho. Dá. Foi o que eu fiz. Levei anos. Ou pega o caminho já aberto, com a IA montando, em tempo recorde. A pergunta não é se você consegue. É qual parece mais inteligente."*

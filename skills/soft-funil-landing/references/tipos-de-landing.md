@@ -87,7 +87,7 @@ Cada tipo abaixo segue sempre o mesmo cartão, pra você ler rápido e montar o 
 **Blocos em ordem:**
 1. **Hero** com a promessa única e o campo de captura juntos, acima da dobra. Headline + sub de uma linha + 1 campo + botão.
 2. **Bullet de 3 ganhos** concretos do que a pessoa recebe ao entrar (o que vai chegar no e-mail/WhatsApp).
-3. **Meia-prova** (1 número ou 1 frase de credibilidade, curta, sem caso longo).
+3. **Meia-prova** (1 número ou 1 frase de credibilidade, curta, sem caso longo). O número agregado sozinho vale, e a combinação número agregado mais 1 caso nominal também vale, desde que o caso caiba em uma linha (nome, o que mudou, em quanto tempo). O que a meia-prova não aceita é o caso NARRADO: parágrafo de história, antes e depois em cena, depoimento longo. Ex. que passa: "1.200 costureiras já usam esse gabarito; a Márcia parou de refazer barra em 2 semanas." Ex. que não passa: as mesmas duas informações esticadas em quatro linhas de história.
 4. **Repetição do CTA** com o mesmo campo, pra quem rolou.
 
 **1 CTA:** entrar na lista. Um campo, um botão. Sempre o mesmo destino.
@@ -128,7 +128,7 @@ Cada tipo abaixo segue sempre o mesmo cartão, pra você ler rápido e montar o 
 
 **Framework de copy:** 4Ps (promessa, retrato do resultado, prova, empurrão) com a prova vindo de pares do mesmo setor.
 
-**Roteia pra irmã?** Não, é landing pura. Mas o SCRIPT que o comercial usa depois é `soft-vendas`.
+**Roteia pra irmã?** Não, é landing pura. Mas o SCRIPT que o comercial usa depois é `soft-vendas-closer`.
 
 **Exemplo de nicho fictício (software de gestão de frota):**
 
@@ -321,7 +321,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 ## Tipo 9 · Application / Qualificação (high-ticket 3k+)
 
-**Objetivo:** qualificar lead de ticket alto antes de qualquer conversa de venda. A página filtra duro; quem chega ao formulário já está semivendido. Fecha no 1:1, nunca no checkout. Casa com a doutrina Soft (high-ticket fecha no comercial).
+**Objetivo:** qualificar lead de ticket alto antes de qualquer conversa de venda. A página filtra duro; quem chega ao formulário já está semivendido. Fecha no 1:1, nunca no checkout. Casa com a doutrina deste método (high-ticket fecha no comercial).
 
 **Blocos em ordem:**
 1. **Hero de autoridade** com promessa específica + filtro explícito ("pra quem já fatura X").
@@ -340,7 +340,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** PASTOR ou 12-step de VSL pro vídeo, com o arco-mãe da carta sendo o ADMA (ver nota em `frameworks-copy.md`).
 
-**Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas`. Aqui você monta a página.
+**Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas-closer`. Aqui você monta a página.
 
 **Exemplo de nicho fictício (consultor de sucessão de empresa familiar):**
 
@@ -492,7 +492,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** curiosidade no hook, microcopy por pergunta, promessa de personalização no result-shell.
 
-**Roteia pra irmã?** A LÓGICA de perguntas de diagnóstico profundo de marca (segmentação estratégica) pode vir de `soft-posicionamento`. Aqui você monta a casca: hook + perguntas + gate + result-shell.
+**Roteia pra irmã?** A LÓGICA de perguntas de diagnóstico profundo de marca (segmentação estratégica) pode vir de `soft-plano-posicionamento`. Aqui você monta a casca: hook + perguntas + gate + result-shell.
 
 **Exemplo de nicho fictício (loja de suplementos):**
 

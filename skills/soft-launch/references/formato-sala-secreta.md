@@ -23,7 +23,7 @@ Material consolidado do método de referência da Sala Secreta. A skill usa o no
 - Bloco 9: Distribuição de conteúdo (estratégia complementar)
 - Métricas de referência
 - Quando NÃO usar Sala Secreta
-- Adaptação Soft Business (lente opcional)
+- Adaptação ao método (lente) (lente opcional)
 - Erros comuns na execução
 - Notas operacionais
 
@@ -244,7 +244,7 @@ Zoom cria **comprometimento ao vivo**. YouTube cria audiência passiva. A difere
 
 > *"Tem desafio com a escala. Tem que ser feito junto com outras estratégias."*
 
-Skill alerta: lançamento pra 3k+ ao vivo não é tarefa solo, exige equipe técnica de transmissão. Pra cliente Soft Business, isso geralmente é sinal de **fora de escala**.
+Skill alerta: lançamento pra 3k+ ao vivo não é tarefa solo, exige equipe técnica de transmissão. Pra cliente deste método, isso geralmente é sinal de **fora de escala**.
 
 ---
 
@@ -360,7 +360,7 @@ Estratégia de **distribuição contínua**:
 
 Não é o método central, mas é forma de manter máquina rodando entre lançamentos.
 
-> Skill alerta: pra cliente **não-Soft**, isso vira boa estratégia híbrida. Pra cliente **Soft Business**, vira complemento, mas atenção pra não virar Armadilha 3 disfarçada.
+> Skill alerta: pra cliente **fora do método**, isso vira boa estratégia híbrida. Pra cliente **o método**, vira complemento, mas atenção pra não virar Armadilha 3 disfarçada.
 
 ---
 
@@ -399,21 +399,21 @@ Em qualquer desses casos, considera:
 
 ---
 
-## Adaptação Soft Business (lente opcional)
+## Adaptação ao método (lente) (lente opcional)
 
-**Quando cliente é Soft Business**, skill aplica modificadores:
+**Quando cliente é o método**, skill aplica modificadores:
 
 ### Modificador 1: Cadência
 
-Sala Secreta como **injeção pontual**: máximo 1-2 por ano. Entre lançamentos, sistema Soft (Carta + Conteúdo + DM) segue rodando.
+Sala Secreta como **injeção pontual**: máximo 1-2 por ano. Entre lançamentos, sistema do método (Carta + Conteúdo + DM) segue rodando.
 
 ### Modificador 2: Filtragem na entrada
 
-Aplicação **mais dura**, recusa cliente fora do ICP mesmo que pague. Skill aplica princípio Soft "filtra-não-convence" na fase de aprovação.
+Aplicação **mais dura**, recusa cliente fora do ICP mesmo que pague. Skill aplica princípio do método "filtra-não-convence" na fase de aprovação.
 
 ### Modificador 3: Pós-venda Soft
 
-Cliente fechado entra no sistema Soft (não em "lista de futuro lançamento"). Detalhe em `debriefing-e-integracao.md`.
+Cliente fechado entra no sistema do método (não em "lista de futuro lançamento"). Detalhe em `debriefing-e-integracao.md`.
 
 ### Modificador 4: Conteúdo no tom Soft
 
@@ -448,6 +448,6 @@ Lançamento Soft é **solo + IA Vertical + freelancers pontuais** (designer, ges
 - Skill **cita a Sala Secreta pelo nome** quando puxa material específico (transparência)
 - Skill **nunca promete** os números de referência (7 dígitos, ROAS 8x) ao cliente
 - Skill **adapta o método** conforme audiência, ticket e capacidade do cliente
-- **Cliente Soft Business** recebe modificadores adicionais (cadência, filtragem, pós-venda)
-- **Cliente não-Soft** recebe método neutro
+- **Cliente deste método** recebe modificadores adicionais (cadência, filtragem, pós-venda)
+- **Cliente fora do método** recebe método neutro
 - **Sempre puxa `narrativa-pontos-cegos.md`** quando estrutura aula, sem isso, qualquer formato falha

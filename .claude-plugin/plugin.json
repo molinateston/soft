@@ -1,9 +1,9 @@
 {
   "name": "soft-skills",
   "displayName": "Soft Skills",
-  "version": "1.0.6",
-  "description": "Sistema Soft Business completo: LEON conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
+  "version": "1.0.7",
+  "description": "Sistema completo do Sócio IA LEON, que conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
   "author": {
-    "name": "Soft Business"
+    "name": "LEON"
   }
 }

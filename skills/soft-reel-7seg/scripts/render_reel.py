@@ -13,7 +13,7 @@ def run(cmd):
 def main():
     p = argparse.ArgumentParser(description="Renderiza Reel vertical com HEADLINE em duas caixas e microchamada tardia.")
     p.add_argument("--base", required=True)
-    p.add_argument("--audio", required=True, help="Arquivo que fornece a faixa de áudio final.")
+    p.add_argument("--audio", default=None, help="Arquivo que fornece a faixa de áudio final. Sem ele, o render segue com uma faixa silenciosa da duração do vídeo e declara isso no manifesto.")
     p.add_argument("--output", required=True)
     p.add_argument("--line1", required=True)
     p.add_argument("--line2", required=True)
@@ -30,9 +30,15 @@ def main():
     p.add_argument("--max-mb", type=float, default=5.0)
     args = p.parse_args()
 
-    for value in (args.base, args.audio, args.font):
+    for value in (args.base, args.font):
         if not Path(value).is_file():
             raise SystemExit(f"Arquivo ausente: {value}")
+    # Vídeo sem fala É matéria-prima válida deste formato: o reel é headline sobre vídeo, e a
+    # fala nunca foi obrigatória. Sem arquivo de áudio, o render NÃO para: entra uma faixa
+    # silenciosa da mesma duração e o manifesto marca `audio_silencioso` pro handoff declarar.
+    audio_silencioso = args.audio is None
+    if not audio_silencioso and not Path(args.audio).is_file():
+        raise SystemExit(f"Arquivo ausente: {args.audio}")
     line_height = args.font_size + 20
     headline_bottom = args.headline_y + 2 * line_height + args.line_gap
     face_gap = args.face_top_y - headline_bottom
@@ -59,7 +65,12 @@ def main():
             f"box=1:boxcolor=white:boxborderw=10:x=(w-text_w)/2:y={args.call_y + 10}:"
             f"enable='gte(t,{args.call_time})'[v]"
         )
-        run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", args.base, "-i", args.audio,
+        if audio_silencioso:
+            entrada_audio = ["-f", "lavfi", "-t", f"{args.duration:.6f}",
+                             "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
+        else:
+            entrada_audio = ["-i", args.audio]
+        run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", args.base, *entrada_audio,
              "-filter_complex", filt, "-map", "[v]", "-map", "1:a:0", "-c:v", "libx264",
              "-preset", "medium", "-crf", "23", "-pix_fmt", "yuv420p", "-c:a", "aac",
              "-b:a", "160k", "-t", f"{args.duration:.6f}", "-movflags", "+faststart", str(output), "-y"])
@@ -73,7 +84,9 @@ def main():
         "headline_bottom": headline_bottom, "face_top_y": args.face_top_y,
         "face_gap": face_gap, "min_face_gap": args.min_face_gap,
         "call": args.call, "call_time": args.call_time, "call_y": args.call_y,
-        "duration": args.duration, "max_bytes": int(args.max_mb * 1024 * 1024)
+        "duration": args.duration, "max_bytes": int(args.max_mb * 1024 * 1024),
+        "audio": str(Path(args.audio).resolve()) if args.audio else None,
+        "audio_silencioso": audio_silencioso
     }
     output.with_suffix(output.suffix + ".json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False))

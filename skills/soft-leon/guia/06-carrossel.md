@@ -1,6 +1,6 @@
 # Capítulo 6 · Carrossel, Fórmula 7
 
-> A peça que mais converte no Soft Business. Não é mini-curso ilustrado. É instalação de crença nova através de tensão com o status quo. Reel atrai; Carrossel vende. Este capítulo é a engenharia da peça onde o método aparece com mais profundidade sem virar aula.
+> A peça que mais converte neste método. Não é mini-curso ilustrado. É instalação de crença nova através de tensão com o status quo. Reel atrai; Carrossel vende. Este capítulo é a engenharia da peça onde o método aparece com mais profundidade sem virar aula.
 
 ---
 
@@ -33,7 +33,7 @@ Alta polaridade não é agressividade nem polêmica vazia. É contrariar uma cre
 
 ## 6.3 · A Fórmula 7, os 7 movimentos do Carrossel Soft
 
-A Fórmula 7 é a estrutura canônica do Carrossel Soft Business. É a mesma espinha que conduz todo conteúdo do feed (Cap 5) e que sustenta a Mini Carta (Cap 4), aqui, aplicada ao formato de slides. São **7 movimentos**, distribuídos ao longo dos **10 slides** do Carrossel. Movimento não é slide: alguns movimentos ocupam um card, outros se esticam por dois, conforme a função exija mais respiro.
+A Fórmula 7 é a estrutura canônica do Carrossel este método. É a mesma espinha que conduz todo conteúdo do feed (Cap 5) e que sustenta a Mini Carta (Cap 4), aqui, aplicada ao formato de slides. São **7 movimentos**, distribuídos ao longo dos **10 slides** do Carrossel. Movimento não é slide: alguns movimentos ocupam um card, outros se esticam por dois, conforme a função exija mais respiro.
 
 | Movimento | Slide | Função |
 |---|---|---|
@@ -143,7 +143,7 @@ A capa boa tem duas camadas ao mesmo tempo: é **concreta** (a imagem que o cér
 
 **Card 6, Nova Oportunidade**
 
-> No Soft Business a venda acontece antes da conversa.
+> Neste método a venda acontece antes da conversa.
 > Cliente lê a Mini Carta, entende o método, manda mensagem já decidido.
 > A reunião deixa de ser venda. Vira confirmação.
 

@@ -1,201 +1,386 @@
 ---
 name: soft-vendas-closer
-description: O CLOSER do método Soft, a frente que CONDUZ e FECHA o lead que já chegou quente. Faz a metade de baixo da venda e contém TUDO do tema, a espinha das 7 fases, o fechamento na DM/WhatsApp (canal default do 1:1), o banco de objeções, o script por canal, o copiloto em tempo real, a análise de conversa, a Conta de Padaria + a coleta de sinal/Pix, a mentalidade do vendedor, o pós-venda (indicação, testemunho, troca bônus-por-prova). Recebe o lead qualificado do SDR (com contexto) OU direto do funil; puxa a Oferta/PUV do Plano. Use SEMPRE que envolver "script de venda", "conduzir/fechar a venda", "objeção", "tá caro/vou pensar", "pedir o sim", "coletar o Pix/sinal", "follow-up", "copiloto", "analisa essa conversa", "não consigo cobrar caro", "pós-venda", "indicação", "testemunho". NÃO use pra ABRIR/qualificar/agendar lead frio, prospecção na DM, SDR, CRM (soft-vendas-sdr); contrato (soft-vendas-contratos); carta/VSL/landing (soft-funil); posicionamento (soft-plano-posicionamento); conteúdo (soft-conteudo).
+description: >-
+  Conduz e FECHA o lead que já chegou quente: entrega o script das 7 fases até a coleta do sinal, a resposta de objeção, o diagnóstico da conversa que empacou, o copiloto ao vivo e o pós-venda. Use quando o pedido for: "script de venda", "como conduzo essa conversa", "o cliente disse que tá caro", "ele falou que vai pensar", "como peço o sim", "como pego o Pix", "analisa essa conversa", "me ajuda agora, tô no meio da call", "não consigo cobrar caro", "como peço indicação". NÃO use pra: o DOSSIÊ e o roteiro de temas ANTES da call, pesquisa do lead, objetivo da reunião (soft-vendas-call-prep); abrir conversa fria, qualificar, agendar, operar o CRM ou montar agente de IA (soft-vendas-sdr, que faz a metade de cima); prospecção fria em lista (soft-vendas-outreach); o kit de SDR (soft-sdr-kit); a campanha do mês (soft-vendas-estrategias); contrato (soft-vendas-contratos); proposta em site (soft-vendas-proposta); posicionamento e oferta (soft-plano-posicionamento). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
-## 📦 O QUE ESTA SKILL PRODUZ
+# O closer: conduzir a conversa quente até o dinheiro na conta
 
-**Serve o agente:** a frente COMERCIAL DE FECHAMENTO do LEON (orquestrador) e do cliente final direto, o closer que conduz a conversa quente até o Pix. Também o copiloto que conduz a venda ao vivo, mensagem a mensagem. Faz muito bem a metade de baixo da venda; a metade de cima (abrir, qualificar, agendar) é da **soft-vendas-sdr**.
+Esta skill transforma a conversa em cliente sem empurrar. Ela recebe o lead que já chegou quente, do funil ou do agendamento, e entrega a condução inteira: o script das 7 fases até a coleta do sinal, a objeção isolada e respondida, o diagnóstico de uma negociação que empacou, a jogada ao vivo quando o dono está no meio da conversa, e o pós-venda que vira indicação e prova. O resultado é sempre um documento nomeado, completo, pronto pra usar.
 
-Esta skill contém TUDO do seu tema, a técnica de fechamento inteira:
+**A skill confere que é ela mesma, antes da primeira linha do fluxo.** As quatro skills de venda são vizinhas e se confundem: uma execução leu a pasta da vizinha, concluiu que esta skill não existia, rodou a outra, e entregou 2 arquivos onde o contrato pede 8, sem `conferencia/checagem-titulos.md`. A PRIMEIRA linha do fluxo é `head -3 SKILL.md` da pasta indicada, e você cola `SKILL.md lido: <caminho literal> · nome no frontmatter: <nome>`. **Nome diferente do que o dono pediu PARA tudo** e reporta que a skill pedida não está no catálogo desta sessão, em vez de rodar a vizinha: contratos de saída diferentes produzem entrega incompleta que parece completa.
 
-- **A espinha das 7 fases da conversa de venda** (o hub do diagnóstico que desce até a dor e pede a decisão), aplicada em qualquer canal (`references/processo-conversao.md`).
-- **Script de venda por canal**, o roteiro de fechamento pra DM/WhatsApp, call ou reunião, montado pelo `script-builder` a partir da Oferta/PUV do Plano, com as falas de campo fase a fase (`references/script-builder.md`).
-- **Fechar high-ticket na DM/WhatsApp** sem sessão estratégica, a espinha comprimida em 5 etapas com áudio, doc e vídeo curto, o **canal DEFAULT do 1:1** (`references/dm-sem-call.md`).
-- **Isolamento e resposta de objeção**, uma de cada vez, com o banco completo de 30 objeções + frases de poder (`references/banco-de-objecoes.md`).
-- **A arquitetura do Comercial 1:1 high-ticket + a Conta de Padaria + a coleta de sinal/Pix na própria conversa**, as 4 etapas, o diagnóstico pelos números do próprio comprador, as jogadas de fechamento e as 6 falas de campo que pegam o Pix na hora (`references/comercial-1a1-e-conta-de-padaria.md`).
-- **Copiloto de venda em tempo real**, conduz uma conversa ao vivo, mensagem a mensagem (`references/copiloto-tempo-real.md`).
-- **Diagnóstico de conversa empacada**, análise de print/transcrição de uma negociação que emperrou e o próximo passo (`references/analise-de-conversa.md`).
-- **Métricas de pipeline** (lead → reunião → venda → ticket, win rate, CAC/LTV) pra achar o gargalo do fechamento (`references/funil-e-metricas.md`).
-- **O Quadro de Produtos**, as concessões pré-autorizadas por produto pra operação COM TIME (5 colunas: tabela, condição promocional, última condição, bônus de decisão, cartas na manga); o closer contratado só concede o que o dono decidiu a frio. Convive com o modo elite 1:1, onde a condição única criada na call segue a via principal (`references/quadro-de-produtos.md`).
-- **Pós-venda**, pedido de indicação, coleta de testemunho, a troca bônus-por-prova e expansão de cliente (`references/indicacoes-pos-venda.md`).
-- **A cabeça do vendedor**, o sistema de crença e a confiança no preço, antes de qualquer técnica (`references/mentalidade-do-vendedor.md`).
-- **Os 5 perfis de closer**, a autoavaliação do vendedor com o estudo dos ~6.000 vendedores B2B (o desafiador com 39% de alta performance vs o amigão com 7%) e os 4 pilares que se treinam (`references/perfis-de-closer.md`).
-- **A caixa de ferramentas do closer**, checklists por fase, régua de autoavaliação de call, roteiro de roleplay, prompts de copiloto e o modelo de laudo de diagnóstico visual (`references/caixa-de-ferramentas-closer.md`).
-- **Frameworks de venda consultiva adaptados ao Soft**, perguntas em escada, ensinar/desafiar a visão, qualificação por dor, tamanho do problema (`references/frameworks-consolidados.md`).
-- **A condução na prática**, o jeito de conduzir destilado de sessões reais (`references/conducao-na-pratica.md`).
+**O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem os arquivos da ação MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0. A última linha dessa saída vai colada no relato ou no handoff. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência (checagem-titulos.md, titulos.txt, teses.txt, nomes.txt, conferir.txt) mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. Sem isso, não diga "pronto": diga o que falta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela**, e o comando colado no relato é literalmente o comando desta linha: o script imprime `insumos resolvido: <caminho>` e reprova a forma quando o perfil mora fora da pasta de insumos. O passo a passo da régua está em `shared-references/crivo/07-regua-de-titulos.md`. Esta skill é a pasta instalada que contém este arquivo e a subpasta `scripts/` (confira com `ls scripts/checar_titulos.py` a partir dela); se você leu este arquivo de um plugin, cache ou cópia sem `scripts/`, pare e abra a pasta instalada.
 
-## ⚠️ ENTREGA = UM doc MD consolidado e COMPLETO, SEMPRE (nunca pingar a peça no chat)
-Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. No **claude.ai**, um **artifact de markdown** (o dono abre, copia, baixa); no **Claude Code**, um arquivo `.md`. No **agente/Telegram**, gera o doc como arquivo e cita o path completo na resposta (vira anexo no Telegram); a condução vai em mensagens curtas, sem markdown pesado (nada de `##` nem tabela `|` no texto ao usuário, isso mora só dentro do doc). A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar no STOP, você mostra ou atualiza o DOC INTEIRO e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa.
+**Os arquivos que cada ação exige (`--exige`).** Conferência: `--conferir <pasta> --exige <lista>`. Script de sessão: `--exige script-sessao.md`; objeções: `--exige mapa-objecoes.md`; follow-up pós-call: `--exige followup-pos-call.md`; pacote: as três somadas. Arquivo ausente sai com exit 1.
 
-**"Script de venda" pedido = as 7 fases inteiras ATÉ a coleta do Pix, num só doc.** O script-builder (`references/script-builder.md`, §5 "Como entregar o script final") manda entregar as 7 fases juntas em blocos copiáveis + a nota final. **Anti-pattern grave: pingar fase-a-fase no chat, entregar F1–F3 e deferir "F4–F7 + objeções + Pix pro próximo passo".** Isso NÃO é "um passo por vez", é entrega incompleta, corta justo a Fase 7 (Isolamento → Fechamento → Pix) que é o núcleo desta skill (está no nome: o CLOSER que pega o sinal/Pix na hora). Um único STOP, sobre o SCRIPT INTEIRO já montado. Sem o doc completo entregue, a skill não terminou.
+**A resposta devolve à pessoa o que ela mesma trouxe de bom.** Rode `grep -niE 'melhorou|funcionou|gostei|deu certo|obrigad' <insumo>` e cole a saída. Toda linha que voltar entra na mensagem, em uma frase, ANTES da parte que falhou. Cole `pontos positivos na reclamação: N · reconhecidos na mensagem: N`, iguais.
 
-**A exceção é o modo copiloto ao vivo:** quando o dono está NO MEIO de uma conversa real e precisa da próxima jogada agora, a resposta é a mensagem operacional na hora (bloco copiável), não um doc. Aí o formato é `diagnóstico em 1 linha → mensagem pronta em bloco → 1 linha com os 2 caminhos esperados`.
+**A mensagem promete ato, nunca processo.** Rode `grep -niE 'apurar|apurando|verificar|analisar|definição|retorno|posicionamento|alinhar' <mensagem>` e cole a saída, inclusive vazia. Troque cada ocorrência por um ato com sujeito e hora (`eu volto a responder o grupo hoje à noite`), ou tire a frase: contar à pessoa o trabalho interno da casa não é resposta. Cole `palavras de processo na mensagem: 0`.
 
-# Soft Vendas Closer, conduzir e fechar (fechamento limpo)
+**A promessa que consome recurso do dono sai da mensagem pronta, e o teste é por efeito, nunca por nome.** Liste tudo que a mensagem promete e marque cada item: `<promessa> | consome tempo, acesso ou dinheiro que não estava no combinado? sim/não`. Extensão de prazo, dias a mais de acesso, sessão extra e prioridade na fila respondem **sim** do mesmo jeito que mês grátis. Tudo que responde `sim` vira linha da tabela, marcada `quem aprova: o dono`. Cole a lista item a item e `promessas que consomem recurso na mensagem pronta: 0`. **A contagem sem a lista ao lado não conta como feita**, porque quem classifica sozinho classifica a favor do próprio texto.
 
-Transforma a conversa em cliente **sem empurrar**. A venda Soft não convence à força: ela **revela a dor que já existe** e pede a decisão. O lead chega quente (veio do funil ou o SDR entregou o lead qualificado com contexto). Aqui você **confirma, não convence**, mas a conversa ainda precisa ser conduzida, e é isso que esta skill faz.
+**Exit diferente de 0 não é entrega, mesmo com o relato honesto.** As linhas que o script imprime dizem o que corrigir, e corrigir uma linha de contagem custa menos que entregar uma peça reprovada. Depois de corrigir, rode de novo e cole a saída nova.
 
-**Puxa do Plano** (a Oferta, a PUV, o Mecanismo e a Voz da `soft-plano-posicionamento`): o script é a oferta do Plano virando conversa. Sem Plano, volta.
+**Cada linha da mensagem curta carrega algo que a anterior não carrega.** Antes de fechar, releia as linhas e corte a que só reformula a de cima; numa mensagem de três linhas, repetição é metade da peça.
 
-## De onde vem o lead (a fronteira com a soft-vendas-sdr)
+**Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra, num caso fictício de nicho neutro, a entrada que o dono deu, as perguntas que a skill fez e a saída de cada ação, com o script das 7 fases montado por inteiro, a resposta de objeção, o laudo da conversa empacada e a mensagem de pós-venda. Ler antes economiza uma rodada inteira de retrabalho.
 
-Esta é a linha que faz as duas skills fazerem muito bem cada uma a sua metade da venda:
+### A régua de canal por ticket (mesma régua das skills irmãs)
 
-- **A metade de cima (abrir, qualificar, agendar) é da `soft-vendas-sdr`.** O SDR prospecta na DM fria, qualifica de leve, entrega o pré-qualificador (Mini Carta / Mini Webinar), vende a SESSÃO como vaga e agenda. Ele NÃO fecha.
-- **A metade de baixo (conduzir e fechar) é esta skill.** O closer recebe o lead de dois jeitos:
-  1. **Direto do funil:** o lead veio quente da carta/jogada/mini-webinar e cai na DM ou na sessão querendo resolver. Você começa na Fase 1.
-  2. **Do SDR, com contexto:** o SDR agendou e deixou uma **nota rica no CRM** (a dor nomeada, o Problema Avançado, o score/temperatura, o BANT, as objeções que ele já disse, o que ainda falta cair). Você **abre lendo o CRM**, ecoa a qualificação e entra direto no flow do diagnóstico, nunca faz o lead repetir tudo (o recebimento do bastão, em `conducao-na-pratica.md`).
-- **Handoff quente é o combustível.** Se a nota do SDR veio rasa ("tá quente"), o closer entra perdendo. Cobre o contexto upstream; o bastão bem enviado é o que faz a sessão converter.
+Até R$ 3.000 o fechamento acontece na própria conversa (DM ou WhatsApp, com áudio, doc e vídeo curto). Acima de R$ 3.000 a conversa qualifica e agenda a call 1:1, e o fechamento acontece na call. O funil de aula/webinar é a exceção: ele fecha de uma vez no checkout, dentro da própria aula. A call também entra abaixo do limiar quando o lead pede a condução ao vivo, quando a decisão é a vários ou quando o caso é complexo. Esta régua é a mesma nas skills irmãs soft-vendas-sdr, soft-vendas-closer e soft-vendas-estrategias, com o texto idêntico nas três; mudou numa, muda nas três.
 
-## A doutrina do canal (é do FUNIL, não do ticket)
-- **O Funil de Aula Agendada fecha de uma vez no checkout, na própria aula (one-step).** A esteira 1:1 vem DEPOIS como ascensão, e é AÍ que esta skill entra, não no fechamento do produto da aula.
-- **Nos funis comerciais (carta, jogadas de campanha, mentoria), o LIMIAR UNIFICADO manda:** até ~R$3.000 o closer FECHA na própria DM/WhatsApp (chat com áudio, doc e vídeo curto, o modo `dm-sem-call`); **acima de ~R$3.000 o chat qualifica e AGENDA a call 1:1**, e é na call que o high-ticket fecha. Fora do limiar, a call também entra quando o lead pede a condução ao vivo, o caso é complexo (B2B, decisão a vários), ou o especialista prefere.
-- **SDR+Closer só com equipe e volume.** Volume baixo e ticket alto, uma pessoa faz as duas pontas. Não confunda: aula = one-step no checkout; carta/jogada/mentoria = DM até ~R$3.000, call 1:1 acima.
-- **Variante de operação em massa (registrada, não é o default):** existe o modelo com time em que toda venda vai pra call, de qualquer ticket, com condição promocional que expira na própria call. Fica registrado como variante de escala em `references/quadro-de-produtos.md`; o default Soft mantém o limiar de ~R$3.000 e escassez só com gatilho real.
+### A fronteira com as duas irmãs (escrita dos dois lados)
 
-## A fonte e a lei
-- Guia: `guia/10-vendas-consultivas.md` (a mecânica). Fonte da verdade, leia na 1ª invocação da sessão. Lá vivem a cabeça do vendedor (10.3), os 4 princípios (10.4), as premissas dos grandes (10.5), a espinha de 7 fases (10.6), o Filtro Soft (10.7), o mapa de canal (10.8), a mecânica do diagnóstico que revela sem inflar (10.10-A), o roteiro fase a fase com as falas prontas (10.10), o Isolamento (Fase 6), o catálogo de objeções no tom Soft (10.11), as frases de poder (10.12) e os 3 níveis no fechamento (10.13).
-- `guia/CODIGO-DE-ESCRITA.md`: pegada falada, **simples e honesto, nunca fácil e mágico**, sem travessão na copy.
-- **Biblioteca `guia/` (acervo da era monolítica; consulta dirigida, nunca leitura obrigatória):**
-  - Fundação e marca: `guia/02-plano-marca-pessoal.md` · `guia/03-identidade-voz.md` (a fonte VIVA disso hoje é a soft-plano-posicionamento).
-  - Copy e conteúdo: `guia/04-carta-video.md` · `guia/05-feed-conteudo.md` · `guia/06-carrossel.md` · `guia/07-reel.md` · `guia/08-stories.md` · `guia/GUIA-COPY-APLICACAO.md` (as fontes VIVAS são as soft-conteudo-* e soft-funil-*).
-  - Operação e rotina: `guia/09-trafego.md` (viva: soft-trafego-meta) · `guia/11-socio-ia.md` (viva: soft-vendas-sdr) · `guia/12-rotina.md` · `guia/13-regras.md` · `guia/14-glossario.md` (o vocabulário do método).
-  - Mapas gerais: `guia/GUIA-SOFT-MARKETING.md` · `guia/GUIA-APLICACAO-AUTOGUIADA.md` · `guia/PIPELINE-DE-PRODUCAO.md` · `guia/README.md` (o índice da biblioteca).
-- **O eixo:** o lead vive o **teto** (preso, comparado por preço, refém da operação); "invisibilidade/percepção" é o teu diagnóstico, não a fala da conversa. Fala pelo teto que ele sente.
-- Filtros anti-ia + cliente-primeiro (não vaza o autor do método nem jargão de cozinha) antes de qualquer texto sair: `shared-references/filtro-anti-ia/` e `filtro-cliente-primeiro.md`.
+| Quem | O que é dela | Onde para |
+|---|---|---|
+| **soft-vendas-closer** (esta) | o FUNDO: recebe o lead quente, conduz as 7 fases, isola objeção, pede a decisão e coleta o sinal | não abre conversa fria, não prospecta, não opera o CRM nem monta agente de IA |
+| **soft-vendas-sdr** | o TOPO: abre a conversa, responde o lead novo, qualifica de leve, vende a sessão como vaga e agenda | para no agendamento com a nota rica; nunca responde objeção de preço nem pede o sim |
+| **soft-vendas-estrategias** | a JOGADA: decide qual campanha rodar no mês e em que ordem, pra gerar a conversa que esta skill vai fechar | não conduz conversa nem responde objeção |
+| **soft-vendas-call-prep** | o ANTES da call: o dossiê do lead, o objetivo da reunião, o roteiro de temas e as objeções antecipadas por escrito | para quando a call começa; não conduz a conversa nem responde ao vivo |
+| **soft-vendas-outreach** | a PROSPECÇÃO FRIA: pesquisa a conta que nunca ouviu falar do dono e escreve a abordagem que abre a porta | para quando a pessoa responde; daí em diante é sdr ou closer |
 
-## A mecânica (frameworks consolidados)
-- **Diagnóstico que desce** do fato neutro à dor que o cliente **nomeia com a própria boca**. Não se entrega a dor pronta, se conduz até ele dizer.
-- **Revela dor real, NUNCA inventa.** A mesma escada que revela a verdade pode fabricar urgência, o Soft só usa a primeira. Lead sem a dor real, solta, não empurra.
-- **Isola a objeção** (uma de cada vez) antes de responder.
-- **Pede o sim ou o não no fim.** Sem follow-up eterno, sem perseguir quem não decide.
-- **Filtra E convence:** não trabalha com quem precisa ser arrastado. Trabalha com quem já sentiu o teto e cansou dele.
-- **Cabeça antes da técnica:** a mentalidade do vendedor (sistema de crença, confiança no preço) vem antes de qualquer script.
-- **Coleta o sinal/Pix na própria conversa, com a temperatura no pico.** O que se empurra pra "depois" esfria e vira cobrança por mensagem (as 6 falas de campo em `comercial-1a1-e-conta-de-padaria.md`).
+Variante registrada, não é o padrão: existe o modelo com equipe grande em que toda venda vai pra call, de qualquer ticket, com condição promocional que expira na própria call. Fica em `references/quadro-de-produtos.md`; o padrão desta skill mantém o limiar e escassez só com gatilho real.
 
-## A espinha de 7 fases (a venda consultiva Soft)
+## A condução: a skill te ajuda a fazer, não só te entrega
 
-A ordem é fixa. O que muda por canal e ticket é ritmo e comprimento, nunca a sequência. Detalhe fase a fase com falas de campo em `references/script-builder.md`; a mecânica e o catálogo de objeções em `references/processo-conversao.md`.
+Esta skill conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:
+
+**Pergunta o modo, uma vez, logo na primeira mensagem, nesta linha:**
+
+> Nesta peça eu já faço no modo direto (você cola a oferta e o lead e eu escrevo o script). Se quiser ser guiado passo a passo (te pergunto o que preciso, uma coisa de cada vez) em vez disso, é só pedir.
+
+- **Modo direto** (default, e o que roda no silêncio): vai pro script com o que o dono colou. Se faltar um insumo que a condução não vive sem (a oferta, o preço, a objeção que aparece), pergunta AQUELE insumo e segue, sem repetir a entrevista inteira. No copiloto ao vivo, responde a jogada na hora, sem documento.
+- **Modo guiado**: só quando o dono pede explicitamente. Pergunta a oferta, o preço e como o lead chegou, uma coisa de cada vez, e escreve a condução com o que o dono for dando.
+
+A pergunta do modo é UMA por conversa. As outras três partes acontecem nos passos abaixo:
+
+- **Ensina enquanto faz:** em cada escolha estrutural (a fase que resolve o empaque, o isolamento da objeção, o momento de pedir o sim) escreve UMA linha do porquê. O dono lê a razão e aprende a conduzir sozinho.
+- **Puxa o material bruto:** quando a resposta vier rasa ("o cliente tá em cima do muro", "acho que é preço"), não segue com o genérico. Pede o concreto que só o dono tem: a última frase literal que o lead falou, onde a conversa esfriou, o que ele já comprou antes. Fala real do lead vira resposta certeira; resposta rasa vira script que não encaixa.
+- **Oferece refinar no fim:** depois de entregar, fecha com UMA linha: "quer a resposta pra outra objeção? o tom mais firme? o pós-venda também? me diz o que ajustar que eu refaço só essa parte."
+
+## Roteamento: o dono pediu X, você entra na ação N
+
+| O dono pediu | Entra na ação |
+|---|---|
+| "script de venda", "como conduzo", "roteiro pra call", "roteiro pra DM", "monta minha conversa" | **1 · SCRIPT DAS 7 FASES** |
+| "tá caro", "vou pensar", "preciso falar com meu sócio", "já tentei e não deu certo", "tem desconto", "como respondo isso" | **2 · OBJEÇÃO** |
+| "analisa essa conversa", "empacou", "ele sumiu", "olha esse print", "onde eu errei" | **3 · DIAGNÓSTICO DA CONVERSA** |
+| "tô no meio da call agora", "o que eu respondo", "me ajuda agora", "próxima mensagem" | **4 · COPILOTO AO VIVO** |
+| "como peço o Pix", "ele disse sim e sumiu", "coleta de sinal", "fechamento" | **5 · COLETA DO SINAL** |
+| "como peço indicação", "como coleto depoimento", "pós-venda", "expandir cliente" | **6 · PÓS-VENDA** |
+| "não consigo cobrar caro", "empaco na hora do preço", "medo de vender" | **7 · CABEÇA DO VENDEDOR** |
+
+Pedido ambíguo ("me ajuda com a venda", "olha essa conversa aqui"): pergunte UMA coisa só, "você quer o script pronto ou a próxima jogada de uma conversa que já está rolando?", mostre a tabela como cardápio e siga pela resposta.
+
+## Como ler cada ação
+
+Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo** · **Entrega** · **Leia primeiro** · **Profundidade** · passos numerados com **STOP** onde o dono aprova.
+
+**O perfil do dono vem do banco do agente.** Onde a ação precisar de oferta, PUV, mecanismo, voz, avatar ou prova: leia do perfil/brain do agente quando existir; se não existir, rode a entrevista rápida abaixo e siga com o que faltar marcado `[A CONFIRMAR]`. Nunca invente, nunca pare por causa disso.
+
+**Não existe Plano de Posicionamento pronto? O caminho é a entrevista rápida de 5 perguntas logo abaixo, e mais nada.** Isso vale em toda ação, e vale igual quando a `soft-plano-posicionamento` não está instalada. Você não para, não manda o dono buscar o Plano e não inventa oferta: faz as 5 perguntas num bloco só, escreve com o que voltar, e o que faltar sai marcado `[A CONFIRMAR]` no lugar exato.
+
+> **Entrevista rápida (5 perguntas, num bloco só, quando não há perfil):**
+> 1. Qual é a oferta: o que você entrega, em que formato, em quanto tempo?
+> 2. Qual o preço e a condição de pagamento?
+> 3. Qual a promessa concreta, com número e prazo quando der?
+> 4. Qual a objeção que mais aparece nas suas conversas?
+> 5. Que prova você tem na mão: case, número, depoimento?
+>
+> Com essas 5 respostas o script sai completo.
+
+**Quando a pergunta 4 fica sem resposta (o perfil não cobre a objeção).** Pergunte UMA vez, direta: "qual é a frase que mais aparece quando o lead não fecha?". Se o dono não responder ou não souber, **não pare e não invente uma objeção exótica**: assuma a mais comum do nicho dele, escreva a resposta pra ela no script, e marque no lugar exato `[A CONFIRMAR: objeção assumida por ser a mais comum do nicho, o dono não confirmou]`. Declare a premissa em 1 linha no chat, no STOP. As mais comuns por natureza de decisão, pra quando você precisa escolher: compra pessoal de ticket médio puxa "preciso falar com meu marido / minha esposa" e "vou pensar"; compra pessoal de ticket baixo puxa "tá caro" e "agora não é o momento"; compra de empresa puxa "preciso levar pro sócio" e "vou ver o orçamento"; nicho onde o lead já tentou de tudo puxa "já tentei e não deu certo". Uma objeção assumida, nunca três: o script responde a que você assumiu e o dono corrige no STOP.
+
+### De onde vem o lead
+
+O closer recebe o lead de dois jeitos. **Direto do funil:** o lead veio quente da carta, da jogada ou da aula e cai na conversa querendo resolver; você começa na Fase 1. **Do agendamento, com contexto:** quem abriu deixou uma nota rica (a dor nomeada, o problema avançado, a temperatura, o BANT, as objeções já ditas, o que ainda falta cair); você abre lendo a nota, ecoa a qualificação e entra direto no diagnóstico, nunca faz o lead repetir tudo. Nota rasa ("tá quente") faz o closer entrar perdendo: cobre o contexto de quem abriu.
+
+---
+
+## Ação 1 · SCRIPT DAS 7 FASES (a entrega principal)
+
+**O que faz:** monta o roteiro de fechamento inteiro, da abertura até a coleta do sinal, no canal escolhido.
+
+**Precisa de:** a oferta, o preço e a promessa, do perfil/brain do agente · o canal (DM/WhatsApp ou call) e o ticket · o verbatim real do avatar, pra as falas nascerem da boca dele.
+
+**Sem o insumo:** rode a entrevista rápida de 5 perguntas acima. Sem verbatim, escreva o script com `[A CONFIRMAR]` no lugar de cada aspa que se declararia real e diga isso em 1 linha; nunca invente fala de cliente.
+
+**Passo 0, obrigatório antes de escrever a Fase 1: varredura de conversa em curso.** Antes de montar o script, procure nos insumos do dono uma conversa já aberta sobre esta oferta: transcrição de call, caixa de entrada, histórico de chat, nota de agendamento. **Se existir, o script é pra ELA**, e abre na fase em que a conversa parou, nunca na fase 1. Cole a linha `conversa em curso encontrada: <arquivo:item> · fase em que parou: <N>` ou `conversa em curso: nenhuma nos insumos (varridos: <lista de arquivos>)`. **Script que abre em descoberta com uma lead que já ouviu o preço reprova**: pedir três perguntas de diagnóstico a quem acabou de escrever "ainda tem vaga?" recomeça do zero uma conversa que estava na hora de fechar. O script reusa o que ela já contou, com as palavras dela, e não a faz repetir nada.
+
+**Regra da variável sem resposta.** Variável sem resposta entra como `[A CONFIRMAR: o quê]` SEM valor assumido; é proibido inventar número, data ou nome e etiquetar.
+
+**Entrega:** `01-script-venda.md`, as **7 fases inteiras num só documento**, cada fase com a fala pronta em bloco copiável, mais a nota final de condução. **Um único STOP, sobre o script completo: "ajusto ou pode ir pro lead?"**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/script-builder.md`, o roteiro fase a fase com as falas de campo e a seção "Como entregar o script final". **É por ele que você começa, e na maioria dos casos ele basta pra escrever o script.**
+
+**Sobre a sobreposição com `references/processo-conversao.md`, pra você não ler duas vezes a mesma coisa:** as duas trazem a espinha das 7 fases, e isso é de propósito, cada uma serve um momento. **`script-builder.md` é o "leia primeiro"**: a espinha com a fala pronta pra copiar, é dele que o script sai. **`processo-conversao.md` é a profundidade**: o porquê de cada fase, o roteamento entre os modos da skill e o catálogo de objeções. Abra ele quando precisar do catálogo de objeções, quando o dono perguntar por que a ordem das fases é essa, ou quando a conversa fugiu do roteiro. Se você já leu a espinha no script-builder, não releia no processo-conversao: pule pro catálogo.
+
+**Profundidade:** `references/dm-sem-call.md` (fechar na DM, a espinha comprimida em 5 etapas) · `references/frameworks-consolidados.md` (perguntas em escada, ensinar e desafiar a visão, tamanho do problema) · `references/conducao-na-pratica.md` (o jeito de conduzir, destilado de sessões reais) · `references/quadro-de-produtos.md` (as concessões pré-autorizadas por produto, pra operação com equipe) · `guia/10-vendas-consultivas.md` (a fonte da mecânica, leitura dirigida).
+
+> **Anti-pattern grave: pingar fase a fase no chat.** Entregar as fases 1 a 3 e deixar "o resto pro próximo passo" não é um passo por vez, é entrega incompleta, e corta justo a fase 7, que é o núcleo desta skill. O STOP é sobre o documento pronto, não sobre liberar fase por fase.
+
+### A espinha de 7 fases
+
+A ordem é fixa. O que muda por canal e ticket é ritmo e comprimento, nunca a sequência.
 
 | Fase | O que faz | Fala-âncora de campo |
 |---|---|---|
-| **1. Recuo Estratégico** | Abre consultivo, mostra que não veio empurrar; pede permissão pra perguntar antes de falar do programa. | *"Primeiro eu faço um diagnóstico do seu [problema] e te falo na cara se consigo ajudar. Se não, sou o primeiro a dizer. Só se fizer sentido nos dois lados é que a gente fala de plano e valor."* |
-| **2. Descoberta** | Lead fala 70%; desce em escada da situação à dor, acha o Problema Avançado (o que as tentativas antigas criaram de pior). | *"Antes de te responder: quando você diz [palavra dele], o que isso significa pra você?"* / *"Já tentou resolver antes? O que não funcionou?"* |
-| **3. Implicação** | Amplia a consciência do custo de ficar como está e qualifica a intenção; o lead verbaliza o custo, você só pergunta. | *"De 0 a 10, quanto você quer resolver isso hoje? ... 7? Mas você me disse que [o que importa] importa muito. Como isso é 7?"* |
+| **1. Recuo estratégico** | Abre consultivo, mostra que não veio empurrar; pede permissão pra perguntar antes de falar do programa. | *"Primeiro eu faço um diagnóstico do seu [problema] e te falo na cara se consigo ajudar. Se não, sou o primeiro a dizer. Só se fizer sentido nos dois lados é que a gente fala de plano e valor."* |
+| **2. Descoberta** | Lead fala 70%; desce em escada da situação à dor, acha o problema avançado (o que as tentativas antigas criaram de pior). | *"Antes de te responder: quando você diz [palavra dele], o que isso significa pra você?"* / *"Já tentou resolver antes? O que não funcionou?"* |
+| **3. Implicação** | Amplia a consciência do custo de ficar como está e qualifica a intenção; o lead verbaliza o custo, você só pergunta. | *"De 0 a 10, quanto você quer resolver isso hoje?"* |
 | **4. Conexão (espelho)** | Mostra que entendeu antes de apresentar; devolve a situação nas palavras dele e confirma. | *"Deixa eu ver se entendi: você tá em [situação], tentou [X], deu [efeito colateral], e o que quer de verdade é [desejo]. É isso?"* |
-| **5. Apresentação + Reframe** | Conecta só o que amarra com o que ele disse e vira a crença dele em camadas até ele concluir sozinho que precisa. | *"Isso que você me diz, você já sabe. O problema não é informação. Se você sabe e o número ainda é [resultado ruim], a falta é aplicar do jeito certo."* |
+| **5. Apresentação + reframe** | Conecta só o que amarra com o que ele disse e vira a crença dele em camadas até ele concluir sozinho que precisa. | *"Isso que você me diz, você já sabe. O problema não é informação. Se você sabe e o número ainda é [resultado ruim], a falta é aplicar do jeito certo."* |
 | **6. Isolamento** | Confirma que, com valor e ajuste claros, falta só investir; separa objeção real de decorativa, ANTES do preço. | *"Antes de eu te passar o investimento: se a gente resolver [as dores] em [prazo], com [formato], e o valor fizer sentido, faz sentido trabalhar junto?"* |
-| **7. Fechamento** | Operacionaliza a venda (preço, condição, coleta do sinal/Pix); quem chegou aqui já decidiu. Uma jogada de encaminhamento no máximo, depois para. | *"O investimento é R$[valor] à vista ou [Xx] de R$[parcela]. [O que inclui em 1 frase]. E a gente já garante sua entrada pra começar."* |
+| **7. Fechamento** | Operacionaliza a venda (preço, condição, coleta do sinal); quem chegou aqui já decidiu. Uma jogada de encaminhamento no máximo, depois para. | *"O investimento é R$[valor] à vista ou [Xx] de R$[parcela]. [O que inclui em 1 frase]. E a gente já garante sua entrada pra começar."* |
 
-**Regras universais entre fases:** nunca apresenta antes de entender (pular F2 = pitch no vazio) · **nunca apresenta sem saber quanto o lead tem** (a leitura de capacidade é pré-condição da F5) · nunca revela preço com dúvida aberta (pular F6 = objeção garantida) · **antecipa as objeções clássicas ANTES do preço** (decisor, financeiro, "vou pensar", concorrente; enquanto são hipotéticas, morrem baratas) · nunca força quem não tem perfil (encerra leve, isso é vitória) · uma oferta por vez (Principal → Condicional → Secundária) · tom de comando, nunca de súplica (e a régua 7-38-55: a palavra é ~7% do impacto, tom ~38%, corpo ~55%; incisivo com semblante leve, nunca agressivo) · nunca cala depois do preço (ancoragem negativa; diz o número com leveza e emenda no próximo passo) · **"faz sentido pra você?" é banido do fechamento** (pergunta de validação devolve o bastão; engaja com "o que você entendeu disso?") · **conversão = PAGAMENTO** (dinheiro ou sinal na conta; a taxa se mede sobre os aprovados no diagnóstico: ≤20% péssimo · 30% sinal de vida · 40% no jogo · 50% bom).
+### As 3 falas-assinatura (o piso que não sai raso)
 
-**Falas-assinatura irredutíveis (a assinatura Soft, não "qualquer LLM").** O repertório denso vive em `references/script-builder.md` (§"Falas de campo") e `conducao-na-pratica.md`; estas três são o piso que NÃO pode sair raso, porque no app o corpo é tudo que carrega. Adapta ao nicho, mantém o miolo:
-- **A Conta de Padaria** (quando o lead pede preço cedo, F2): *"Você já foi num restaurante? Trazem a conta antes ou primeiro perguntam o tamanho da sua fome? Aqui é igual, não consigo te passar valor sem entender o que você precisa. Hoje, qual é a maior dificuldade no seu [problema]?"*
-- **O reframe "saber ≠ aplicar"** (F5, movimento 1): *"Isso que você me diz, você já sabe. O problema não é informação. Quem mais sabe de [tema] muitas vezes é justo quem não colhe [resultado]. Se você sabe e o número ainda é [resultado ruim], a falta não é saber, é aplicar do jeito certo."*
-- **O termômetro que qualifica** (F3): *"De 0 a 10, quanto você quer resolver isso hoje? ... 7? Nota ruim, hein. Você me disse que [o que importa] importa muito. Eu não arranco com um 7."*
-Genérico do tipo "me conta como tá sua rotina" / "de 0 a 10 quanto quer resolver" sem o corte é a versão rasa: perde a assinatura.
+Estas três carregam a assinatura da condução. Adapte ao nicho, mantenha o miolo. Genérico do tipo "me conta como tá sua rotina" ou "de 0 a 10 quanto quer resolver" sem o corte é a versão rasa e perde a assinatura. O repertório denso vive em `references/script-builder.md` e `references/conducao-na-pratica.md`.
 
-## Top 7 objeções (resposta de cor, banco completo em `banco-de-objecoes`)
+> **A conta da padaria** (quando o lead pede preço cedo, na fase 2):
+> *"Você já foi num restaurante? Trazem a conta antes ou primeiro perguntam o tamanho da sua fome? Aqui é igual, não consigo te passar valor sem entender o que você precisa. Hoje, qual é a maior dificuldade no seu [problema]?"*
 
-Isola antes de responder quando der: *"É só isso ou tem mais coisa emperrando?"*
+> **O reframe "saber não é aplicar"** (fase 5, movimento 1):
+> *"Isso que você me diz, você já sabe. O problema não é informação. Quem mais sabe de [tema] muitas vezes é justo quem não colhe [resultado]. Se você sabe e o número ainda é [resultado ruim], a falta não é saber, é aplicar do jeito certo."*
 
-- **"Tá caro"** → *"Caro comparado com quê? Com continuar [problema] por mais [tempo]? Se não cabe à vista, tenho condicional: parte agora, parte quando [resultado]. Facilita?"*
-- **"Preciso pensar"** → *"Claro. Pensar sobre o quê, o método ou o investimento? Às vezes é uma pergunta que eu respondo agora."*
-- **"Preciso falar com [sócio/cônjuge]"** → *"Faz sentido. Quando vocês conversam? Se quiser, faço uma call com vocês dois, ou te mando um resumo pra levar."*
-- **"Já tentei e não deu certo"** → *"Por isso faz sentido. O que você tentou ensinava [a solução errada]. Aqui é o oposto. Você não falhou, tentou o método errado."*
-- **"Não tenho tempo"** → *"Por isso o formato é esse. Separa [X] por semana. Consegue ou não?"*
-- **"Funciona mesmo?"** → *"Funciona pra quem aplica como foi pensado. Se é pra você, eu descubro nas perguntas. O que você já tentou antes?"*
-- **"Tem desconto?"** → *"Esse já é o menor valor. Não abaixo porque não quero te filtrar pelo desconto."*
+> **O termômetro que qualifica** (fase 3):
+> *"De 0 a 10, quanto você quer resolver isso hoje? ... 7? Nota ruim, hein. Você me disse que [o que importa] importa muito. Eu não arranco com um 7."*
 
-Se a mesma objeção volta duas vezes, é outra coisa: *"Acho que tem algo além disso. O que é?"* Não nomeou, é curiosidade, não comprador, encerra com leveza.
+### Regras universais entre fases
 
-## Fechar na DM até ~R$3.000 (detalhe em `dm-sem-call`; acima disso, call 1:1)
-Quando o lead já chega quente (viu o perfil, consumiu um material, veio do SDR) e quer **resolver agora** sem marcar call, você fecha 100% na DM/WhatsApp com áudio, doc e vídeo curto. Comprime a espinha de 7 fases em **5 etapas** (Conexão → Qualificação com 3-4 perguntas que filtram → Autoridade em áudio que normaliza a dor + pede permissão "posso te mostrar como funciona?" → Oferta com doc/vídeo de 3min + "já libero seu acesso" → Follow-up 10min/24h/24h). Doutrina: **venda fácil = entrega fácil**, não mata objeção à força; e **só flexibiliza o preço quando a própria pessoa abre a brecha** ("só teria metade agora" → ajusta a forma de pagamento, nunca baixa o valor cheio). O doc/vídeo da oferta puxa o bloco Oferta da `soft-plano-posicionamento`. A abordagem fria que TRAZ o lead até aqui é da `soft-vendas-sdr`.
+- Nunca apresenta antes de entender: pular a fase 2 é pitch no vazio.
+- **Nunca apresenta sem saber quanto o lead tem.** A leitura de capacidade é pré-condição da fase 5.
+- Nunca revela preço com dúvida aberta: pular a fase 6 é objeção garantida.
+- **Antecipa as objeções clássicas ANTES do preço** (decisor, financeiro, "vou pensar", concorrente); enquanto são hipotéticas, morrem baratas.
+- Nunca força quem não tem perfil: encerra leve, e isso é vitória.
+- Uma oferta por vez: principal, condicional, secundária.
+- Tom de comando, nunca de súplica. A régua 7-38-55: a palavra é cerca de 7% do impacto, o tom cerca de 38%, o corpo cerca de 55%. Incisivo com semblante leve, nunca agressivo.
+- Nunca cala depois do preço: ancoragem negativa. Diz o número com leveza e emenda no próximo passo.
+- **"Faz sentido pra você?" é banido do fechamento.** Pergunta de validação devolve o bastão; engaje com "o que você entendeu disso?".
+- **Conversão é PAGAMENTO**, dinheiro ou sinal na conta, medido sobre os aprovados no diagnóstico: até 20% é péssimo, 30% é sinal de vida, 40% está no jogo, 50% é bom.
 
-## Coletar o sinal/Pix na hora (detalhe em `comercial-1a1-e-conta-de-padaria`)
-"Manda o link" não é coleta. Pegar o Pix na própria reunião é uma habilidade separada de vender. As 6 jogadas de campo (a energia leve e o silêncio que mata · a condição única da call gravada · o sinal é prova de comprometimento · negociar o sinal possível · plano A/B/C do pagamento · o "faço depois" que se converte na hora) preenchem o buraco entre o "sim" e o dinheiro na conta. Tudo segue a lei Soft: escassez real nunca inventada, o sinal é prova de comprometimento (não armadilha), respeita-se o não.
+---
 
-## ⛔ STOP antes de mandar pro lead
-Um único STOP, sobre a PEÇA INTEIRA já montada no DOC (o script COMPLETO das 7 fases até o Pix, ou o próximo passo/resposta de objeção completo). Mostra no DOC, imprime a tabela do Crivo ANTES dele (ver o gate abaixo) e **PARA**: pergunta *"ajusto ou pode ir pro lead?"*. Nunca despeja a peça direto pro lead nem assume o "manda". A condução é sua; o disparo é do dono. **Não confunda "peça consolidada" com "liberação incremental de fases":** parar na F3 e prometer o resto pro próximo passo QUEBRA a regra `ENTREGA = UM doc completo` (é o anti-pattern do bloco de entrega acima). O STOP é sobre o doc pronto, não sobre liberar fase por fase. **No copiloto ao vivo** o STOP é implícito (o dono está na conversa e decide na hora), mas mesmo lá você entrega UMA jogada por vez, nunca um roteiro inteiro de uma vez.
+## Ação 2 · OBJEÇÃO (isola primeiro, responde depois)
 
-> **Passo 0, sempre: lê o perfil do usuário** (`shared-references/crivo/00-perfil-do-usuario.md`). Avatar, fonte de VoC, banco de provas, voz e nicho são DELE, nunca os do autor do método (que são só um perfil de exemplo). Usuário sem perfil (cold start) é roteado pro onboarding (Plano na `soft-plano-posicionamento` + mineração de VoC no `01-entrada-verbatim.md`) antes de produzir, em vez de assumir os dados do autor do método.
->
-> **Aspa de cliente exige GREP visível na fonte real do usuário.** Toda fala entre aspas que se declara verbatim tem que ser substring literal que você grepou e mostrou na fonte de VoC DELE (a tabela de ancoragem, `01-entrada-verbatim.md` passo 6). **Persona fictícia SEM perfil de VoC real não tem fonte, logo NÃO pode ter aspa "real":** aí a peça sai marcada `RASCUNHO-COM-PENDÊNCIA` / `[A CONFIRMAR]` e roteia pro onboarding. É PROIBIDO afirmar "verbatim-âncora, fonte real da [persona]" ou "nenhuma aspa é inventada, todas batem na fonte" sem o grep à mostra na fonte do usuário. Sem fonte, não se ASSUME nem se DECLARA verbatim, marca-se rascunho. Encenar a ancoragem (afirmar que bateu sem grepar) é a fraude que o gate existe pra matar.
+**O que faz:** entrega a resposta pronta pra objeção que o lead acabou de dizer, isolada antes de respondida.
 
-## ✍️ PRÉ-FLIGHT DE COPY (relê IMEDIATAMENTE antes de escrever a 1ª linha)
-A copy nasce da terça-feira à noite DO LEITOR. Regra é CHECAGEM, nunca geradora: escreve a partir da CENA (a emoção dela: raiva, medo, absurdo, cobiça), com voz de mesa; a regra confere depois. Reprovou, REGENERA do zero (frase editada herda o esqueleto do defeito):
-1. **Munição na mão:** verbatim/prova real do dono na frente (sem munição = pergunta, jamais inventa).
-2. **Leitura única:** uma leitura em voz alta, sem re-parse; valência única (bom ou ruim na 1ª leitura); sintaxe linear; 1 operação mental por frase.
-3. **Mundo do leitor, não o mapa do autor:** componentes do método viram dias, horas, lugares e falas do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
-4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato, nunca do aperto da frase.
-5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, personificação e figura de escritor não.
-6. **Prova com atribuição exata** (do banco de provas do dono, nunca fundir); conta apresentada como conta; renda do leitor só em 3ª pessoa.
-7. **Anti-IA:** zero travessão, zero família banida, zero verbo genérico de transformação, zero frase-emoldura.
-8. **Teto do formato conhecido ANTES** (conta durante, não conserta depois).
-Depois de escrita, a auditoria roda TODOS os filtros em cada linha (régua cumulativa, checklist mecânico). Reprovou, regenera ANTES de mostrar.
+**Precisa de:** a objeção literal, como o lead escreveu ou falou · a oferta e o preço · onde na conversa ela apareceu.
 
-## Como conduz (por pergunta, nunca despeja)
-1. Confirma o Plano (Oferta + PUV + Mecanismo + Voz). Sem ele, volta pra `soft-plano-posicionamento`.
-2. Confirma de onde vem o lead: veio do funil quente? veio do SDR com nota no CRM (então lê a nota e ecoa)? Nunca faz o lead repetir o que já contou.
-3. Pergunta o estágio: conduzir/gerar o script (DM / call / reunião)? uma objeção específica? diagnóstico de uma conversa que empacou? copiloto em tempo real? pós-venda (indicação / testemunho)?
-4. Puxa o reference certo (`processo-conversao` é o hub) + os densos da etapa.
-5. Escreve ou conduz, mostra, ajusta, passa no filtro anti-ia e no gate `shared-references/crivo/` (CUB bloqueante), entrega.
+**Sem o insumo:** pergunta única, "me cola a frase exata que ele mandou", porque a resposta muda inteira conforme a palavra que ele usou.
 
-**Consulta `references/conducao-na-pratica.md` o tempo todo**, é o jeito de conduzir que faz a venda sair excelente (recebe o bastão do SDR lendo o CRM · diagnóstico de mudança mental, não passo a passo · a nota 0-10 ancora · expectativa honesta, promete melhorar não 100% · mostra o case sem medo · ser pequeno é a vantagem · ofertas de risco/ancoragem/custo invisível · sistema de prova · vender liberta, sem mágica).
+**Entrega:** `02-resposta-objecao.md`, com o isolamento, a resposta em bloco copiável e os 2 caminhos esperados depois dela. **STOP.**
 
-## Os 3 ambientes onde o closer roda
-- **App (claude.ai):** o dono pede a peça de fechamento (um script, uma resposta de objeção, um diagnóstico de conversa) → entrega no **artifact de markdown**. O copiloto ao vivo aqui responde a jogada na hora, no chat.
-- **Claude Code:** mesma coisa, a peça sai como arquivo `.md`.
-- **Agente / Telegram (LEON e frota):** o dono cola a conversa real ("cliente disse X, o que respondo?") e recebe a próxima jogada na hora; ou pede o script pra uma oferta nova. É o ambiente do copiloto ao vivo e da análise de conversa colada.
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
-## O gate de saída obrigatório (o Crivo, bloqueante)
-Antes de mostrar a peça, ela passa pelo Crivo embutido em `shared-references/crivo/`, nesta ordem. **O gate é ARTEFATO IMPRESSO ANTES do doc no STOP, não promessa de texto.** Narrar "passei no Crivo, como a skill exige" sem a tabela na tela é encenação e não conta como entrega.
-1. **Ancoragem** (`crivo/01-entrada-verbatim.md`): toda fala entre aspas é verbatim literal grepado na fonte real do usuário. Aspa que não bate na fonte reprova. **Persona sem fonte de VoC → nenhuma aspa "real": marca `RASCUNHO-COM-PENDÊNCIA`/`[A CONFIRMAR]`, nunca declara verbatim** (ver o Passo 0).
-2. **Simulação na pele do avatar** (`crivo/02-simulacao-cliente.md`): onde ele larga, onde se reconhece, o teste dos 2 segundos.
-3. **Gate CUB bloqueante** (`crivo/03-gate-cub.md`): **imprime a tabela de fato**, o VEREDITO é o pior bloco (Confusão · Inacreditável · Tédio); peça que falha não sai, volta pra reescrita. Fala-mecânica de venda (descoberta, isolamento, termômetro) roda a régua reduzida; o bloco que carrega prova/promessa (o case, a oferta) roda a tabela cheia. Formato mínimo a colar:
+**Leia primeiro:** `references/banco-de-objecoes.md` (as 30 objeções e as frases de poder).
 
-```
-BLOCO: [o slide/parágrafo/fala, entre aspas]
-0. Ancorado ........ PASSA/FALHA (grep na fonte do usuário, N do sub-padrão)
-1. Confuso ......... PASSA/FALHA
-2. Inacreditável ... PASSA/FALHA
-3. Boring .......... PASSA/FALHA
-=> VEREDITO DA PEÇA: [pior bloco manda]
-```
+**Isola antes de responder, sempre que der:** *"É só isso ou tem mais coisa emperrando?"*
 
-**O linter é passo BLOQUEANTE, não nota solta.** Roda a copy no `scripts/lint_copy.py` (anti-IA + anti-voz Soft): `python3 scripts/lint_copy.py peca.txt` ou `echo "..." | python3 scripts/lint_copy.py -`. **`exit 1` = COPY REPROVADA = não entrega, reescreve e re-roda.** Ele derruba por 2 falhas duras: **o em-dash (o travessão longo U+2014)** e a **família da palavra banida "tr-a-v-a-r"** (todas as flexões e o antônimo "des-tr-a-v-a-r"). **Valem em QUALQUER lugar do `.md`, inclusive TÍTULOS, cabeçalhos e rótulos de fase**, não só nas aspas de copy: um título "Script [travessão] WhatsApp" ou um header "FASE 3 [travessão]" ou a palavra banida na narração ("a intimidade tr-a-v-o-u", "(des-tr-a-v-a-d-a)") reprova igual. Troca o travessão por ponto ou hífen comum; troca a palavra banida por emperrar/empacar/parar/freio/amarra. No chat (sem rodar o script), faz CTRL+F manual do travessão e da palavra banida em todo o doc antes de marcar ✓. O anti-IA limpa o robô; o Crivo dá a força. **Sem a tabela do Crivo impressa junto E o linter em exit 0, a peça não foi entregue.**
+| Objeção | Resposta de cor |
+|---|---|
+| **"Tá caro"** | *"Caro comparado com quê? Com continuar [problema] por mais [tempo]? Se não cabe à vista, tenho condicional: parte agora, parte quando [resultado]. Facilita?"* |
+| **"Preciso pensar"** | *"Claro. Pensar sobre o quê, o método ou o investimento? Às vezes é uma pergunta que eu respondo agora."* |
+| **"Preciso falar com [sócio/cônjuge]"** | *"Faz sentido. Quando vocês conversam? Se quiser, faço uma call com vocês dois, ou te mando um resumo pra levar."* |
+| **"Já tentei e não deu certo"** | *"Por isso faz sentido. O que você tentou ensinava [a solução errada]. Aqui é o oposto. Você não falhou, tentou o método errado."* |
+| **"Não tenho tempo"** | *"Por isso o formato é esse. Separa [X] por semana. Consegue ou não?"* |
+| **"Funciona mesmo?"** | *"Funciona pra quem aplica como foi pensado. Se é pra você, eu descubro nas perguntas. O que você já tentou antes?"* |
+| **"Tem desconto?"** | *"Esse já é o menor valor. Não abaixo porque não quero te filtrar pelo desconto."* |
 
-## Princípios
-- **Confirma, não convence:** se a oferta do Plano é forte e a carta aqueceu, a conversa fecha confirmando a crença, não construindo do zero.
-- **Honesto sempre:** simples e real, nunca fácil e mágico. O avatar já tomou pau de promessa mágica.
-- **Pede decisão e respeita o não.** Lead que precisa de empurrão não é cliente, é problema futuro.
+Se a mesma objeção volta duas vezes, é outra coisa: *"Acho que tem algo além disso. O que é?"*. Não nomeou, é curiosidade e não comprador: encerra com leveza.
 
-## When NOT to use
-- **Abrir conversa fria, prospectar no Direct, qualificar de leve, vender/agendar a sessão, operar o CRM (GHL/GoHighLevel), o SDR de IA** → **soft-vendas-sdr**. Esta skill começa quando o lead já chega quente.
-- **Contrato de mentoria/consultoria** (depois do sim) → **soft-vendas-contratos** (cláusulas anti-calote/pagamento/PF-PJ/por formato, glossário jurídico, modo enxuto vs robusto). Fechou a venda → gera o contrato lá, sem trocar de método.
-- **Carta, VSL, mini-webinar ou landing** (aquecer/qualificar o lead antes da conversa) → `soft-funil-carta`, `soft-funil-miniwebinar`, `soft-funil-landing`.
-- **Posicionamento, Oferta, PUV, Mecanismo, Voz** (a fundação de onde o script puxa) → `soft-plano-posicionamento`. Sem Plano, a venda volta pra lá.
-- **Conteúdo de feed** (carrossel, reel, stories, headline) → `soft-conteudo-*`.
-- **Onde começar / próximo passo / diagnóstico da jornada** → `soft-leon` (o orquestrador invoca esta skill quando chega no fechamento).
+---
 
-## Anti-Patterns
+## Ação 3 · DIAGNÓSTICO DA CONVERSA (o laudo do que empacou)
+
+**O que faz:** lê a conversa que emperrou e devolve onde a condução saiu do trilho, mais o próximo passo concreto.
+
+**Precisa de:** a conversa colada, o print ou a transcrição · o ticket e o que foi oferecido.
+
+**Sem o insumo:** sem a conversa, não há laudo. Pergunta única: "cola a conversa, do começo ou do ponto em que virou".
+
+**Entrega:** `03-laudo-conversa.md`, com a fase em que emperrou, o erro nomeado, o que fazer agora e a mensagem de retomada pronta. **STOP.**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/analise-de-conversa.md`.
+
+**Profundidade:** `references/caixa-de-ferramentas-closer.md` (a régua de autoavaliação de call e o modelo de laudo) · `references/funil-e-metricas.md` (quando o problema não é a conversa e sim o funil: lead, reunião, venda, ticket, taxa de ganho).
+
+---
+
+## Ação 4 · COPILOTO AO VIVO (a exceção ao documento)
+
+**O que faz:** dá a próxima jogada agora, enquanto o dono está no meio da conversa real.
+
+**Precisa de:** a última mensagem do lead · onde a conversa está.
+
+**Sem o insumo:** pergunta única e curta, sem interromper o ritmo: "o que ele disse por último?".
+
+**Entrega:** aqui, e só aqui, a resposta não é um documento. O formato é: **diagnóstico em 1 linha → mensagem pronta em bloco copiável → 1 linha com os 2 caminhos esperados.** UMA jogada por vez, nunca um roteiro inteiro. O STOP é implícito, porque o dono está na conversa e decide na hora.
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/copiloto-tempo-real.md`.
+
+---
+
+## Ação 5 · COLETA DO SINAL (entre o sim e o dinheiro)
+
+**O que faz:** fecha o buraco entre o "sim" e o dinheiro na conta, com o sinal coletado na própria conversa.
+
+**Precisa de:** o sim já dado, ou o lead na fase 7 · a condição de pagamento e o valor do sinal.
+
+**Sem o insumo:** sem a condição definida, pergunta única: "qual entrada você aceita pra começar hoje?". **Se o dono não respondeu ou não definiu valor de sinal, o roteiro NÃO inventa entrada parcial: ele coleta o pagamento integral da condição que o lead escolheu** (à vista ou a primeira parcela do parcelamento já ofertado), e deixa marcado `[valor de sinal a definir pelo dono]` para quando ele quiser abrir essa porta.
+
+**Entrega:** `05-coleta-sinal.md`, as jogadas escolhidas pro caso, cada uma com a fala pronta. **STOP.**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/comercial-1a1-e-conta-de-padaria.md` (as 4 etapas, o diagnóstico pelos números do próprio comprador e as 6 falas de campo que pegam o sinal na hora).
+
+"Manda o link" não é coleta. Pegar o sinal na própria reunião é uma habilidade separada de vender. As 6 jogadas: a energia leve e o silêncio que resolve · a condição única da call gravada · o sinal como prova de comprometimento · negociar o sinal possível · plano A, B e C de pagamento · o "faço depois" convertido na hora. Tudo segue a lei: escassez real nunca inventada, o sinal é prova de comprometimento e não armadilha, e o não se respeita.
+
+---
+
+## Ação 6 · PÓS-VENDA (a venda que gera as próximas)
+
+**O que faz:** transforma o cliente novo em indicação, depoimento e prova pra próxima venda.
+
+**Precisa de:** o cliente que fechou e há quanto tempo · o resultado que ele já teve, mesmo parcial.
+
+**Sem o insumo:** entrevista curta de 3 perguntas: quando ele fechou · o que já mudou pra ele · ele já falou de você pra alguém.
+
+**Entrega:** `06-pos-venda.md`, com o pedido de indicação, o roteiro de coleta de depoimento e a troca bônus por prova. **STOP.**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/indicacoes-pos-venda.md`.
+
+---
+
+## Ação 7 · CABEÇA DO VENDEDOR (antes de qualquer técnica)
+
+**O que faz:** trata o que emperra o dono antes do script: o sistema de crença e a confiança no preço.
+
+**Precisa de:** onde ele sente que perde a firmeza (na hora do valor, no silêncio depois do preço, no "vou pensar").
+
+**Sem o insumo:** pergunta única: "em que ponto exato da conversa você sente que perde o chão?".
+
+**Entrega:** `07-cabeca-vendedor.md`, o diagnóstico e o treino da semana. **STOP.**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/mentalidade-do-vendedor.md`.
+
+**Profundidade:** `references/perfis-de-closer.md` (os 5 perfis, a autoavaliação e os 4 pilares que se treinam; no estudo com cerca de 6.000 vendedores, o perfil desafiador aparece em 39% dos de alta performance contra 7% do perfil amigão).
+
+---
+
+## Contrato de entrega (vale em todas as ações, menos a 4)
+
+O resultado sai como **UM documento markdown consolidado e completo**. Se o ambiente renderizar markdown, mostre o documento inteiro ali; senão salve um arquivo `.md` no disco e cite o caminho completo na resposta. A condução vai em mensagens curtas, sem markdown pesado. A peça e a copy moram no documento; as perguntas, as escolhas e os STOP moram no chat. Ao parar no STOP, você mostra ou atualiza o documento inteiro e pergunta "ajusto?", nunca reescreve a peça em pedaços no corpo da conversa. Sem o documento completo entregue, a skill não terminou.
+
+## Pré-flight de copy (releia imediatamente antes da primeira linha)
+
+A copy nasce da terça-feira à noite DO LEITOR. A regra é checagem, nunca geradora: escreva a partir da cena e da emoção dela, com voz de mesa; a regra confere depois. Reprovou, regenera do zero, porque frase editada herda o esqueleto do defeito.
+
+1. **Munição na mão:** verbatim e prova real do dono na frente; sem munição, pergunta, jamais inventa.
+2. **Leitura única:** uma leitura em voz alta, sem reler; valência única; sintaxe linear; 1 operação mental por frase.
+3. **Mundo do leitor:** componente do método vira dia, hora, lugar e fala do cliente; rótulo abstrato só entre aspas, como palavra do inimigo.
+4. **Compressão gramatical: cota zero.** Verbo da relação por extenso; a força é do fato.
+5. **Voz de mesa, não palco:** a colocação inteira é fala real; metáfora morta entra, figura de escritor não.
+6. **Prova com atribuição exata**, do banco de provas do dono, nunca fundida; renda do leitor só em terceira pessoa.
+7. **Anti-IA:** zero travessão, zero da família banida, zero verbo genérico de transformação, zero frase de moldura.
+8. **Teto do formato conhecido ANTES**, contado durante, não consertado depois.
+
+## Gate de qualidade (roda antes de entregar, sempre)
+
+**Régua de títulos (roda antes do resto do gate).** Todo título que sai desta skill passa pela régua `shared-references/crivo/07-regua-de-titulos.md`, R1 a R7. Rode a régua sobre a primeira linha de cada mensagem de abertura e de cada retomada do script, que é o que decide se a pessoa responde. A checagem sai colada num arquivo do disco que o dono abre, uma linha por título, nesta forma: `<título> | gatilho: <qual> | veredito: passa` ou `| veredito: reescrito de: <versão anterior>`. Checagem que só declara "conferido" não conta como feita, e título sem gatilho nomeado reprova a entrega antes da análise de conteúdo.
+
+**Marcador nunca no miolo da fala (vale em toda peça que o lead lê ou ouve).** `[A CONFIRMAR: x]` e todo marcador de pendência só entram na peça em posição de CAMPO: um link, um telefone, uma data, um valor, sempre no fim da linha e substituível por colagem sem reescrever a frase. É PROIBIDO no miolo de uma frase falada ou lida, isto é, onde a frase perde o sentido sem o valor. Quando o dado falta no miolo há duas saídas e nenhuma terceira: escrever a frase na versão que dispensa o dado, ou perguntar ao dono ANTES de escrever a peça. O furo em si vai pro handoff, nunca pra fala. Checagem verificável: com shell, `grep -n "\[A CONFIRMAR" <peça>`; sem shell, leia linha a linha. Pra cada marcador, apague o marcador e releia a frase; se ela virar agramatical ou mudar de sentido, o marcador está no miolo e reprova. Cole a linha `marcadores na peça: N · em posição de campo: N · no miolo de frase: 0`.
+
+**Nome de pessoa real em copy pública (vale em toda peça desta skill).** Nome, caso, frase ou história de pessoa real que veio de mensagem privada, caixa de entrada ou call NUNCA entra em copy pública sem autorização registrada pelo dono, isto é, uma linha `autorizado por <dono> em <data>` no próprio insumo. Sem essa linha: anonimiza (a primeira letra do nome, ou uma forma sem identificação como "uma aluna", sem cirurgia, idade e histórico que devolvam a identidade) ou não usa. **Lead em negociação aberta nunca é chamada de aluna nem de cliente.** Marcar `[A CONFIRMAR: autorização]` e publicar mesmo assim reprova: o marcador registra a dúvida e não resolve o risco. **A checagem é COMANDO, nunca de memória** (`shared-references/crivo/08-consentimento.md`, os 3 passos): (1) extraia a lista de primeiros nomes dos insumos privados (caixa de entrada, call, reclamação, perfil do dono) com `grep -hoE '\b[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][a-záàâãéêíóôõúç]{2,}(?=[,:] ?|[,:]$| [0-9]{2} anos)' <insumos privados> | sort -u`, somando toda lista de nomes colada pelo dono; (2) rode `grep -nwF '<nome>' <peça>` para cada nome, sobre o arquivo INTEIRO da peça (campos de configuração, filtros e checklists inclusos), não só as linhas que o destinatário lê; (3) cole a saída literal dos dois greps e feche com `nomes de pessoa na peça: N · com autorização registrada: N · vindos de conversa privada sem autorização: 0`. **Nome presente na saída sem a linha de autorização apontada por `<arquivo:linha>` reprova a entrega**, e `nomes de pessoa na peça: N` só pode ser maior que zero quando `com autorização registrada` for igual a N. Contagem declarada sem a saída colada não conta como feita, e declarar zero num arquivo onde o grep devolveu nome reprova.
+
+**Molde endereçado a pessoa nomeada exige o insumo dela aberto:** rode `grep -n '<Nome>' <insumo>` e cole a saída antes da fala, na forma do bloco "Fala atribuída ao destinatário" de `shared-references/crivo/08-consentimento.md`. Fala atribuída sem trecho literal do insumo reprova.
+
+**Uso completo do que o dono deu (vale em toda entrega desta skill).** Todo dado que o dono forneceu e cabe na entrega tem que aparecer nela ou ter o motivo da exclusão declarado. Checagem verificável antes de fechar: liste os dados que o dono deu, um por linha, na forma `<dado> | usado em <onde> ou descartado porque <motivo>`, e feche com `Dados fornecidos: N · usados: N · descartados com motivo: N · sem destino: 0.` Qualquer dado em `sem destino` reprova a entrega. A linha de fechamento vai no arquivo de entrega que o dono lê, nunca só no relato de processo. **A granularidade é a do dado que o dono forneceu: agrupar vários dados numa linha só reprova o crivo.** Um dado por linha, mesmo quando dois parecem do mesmo assunto, porque agrupado ninguém confere qual dos dois ficou de fora. **O piso é CONTADO, não estimado:** conte os dados do perfil do dono um a um (com shell, `grep -c '^-' <perfil>` dá o número de campos) e desdobre os campos de valor múltiplo, porque oferta com preço, parcela, 3 bônus e garantia são 6 linhas, não 1. Cole a conta na entrega, nesta forma: `dados no perfil: N · usados: N · descartados com motivo: N`, e a soma de usados mais descartados tem que fechar em N. **Entrega sem essa contagem reprova sem análise de conteúdo**, e inventário com menos linhas que N também reprova.
+
+**Proveniência de terceiro (vale em toda entrega desta skill).** Nome de empresa, de pessoa, domínio, telefone, e-mail ou endereço de TERCEIRO só entra na entrega se veio do dono, do insumo dele, ou de uma busca ou ferramenta executada neste turno com o comando e o resultado registrados no relatório. Sem isso, o campo sai como `[A CONFIRMAR: nome/contato]`. Memória de treino não é fonte. Checagem verificável antes de fechar: para cada nome próprio de terceiro na entrega, aponte ao lado a linha do insumo ou o comando que o produziu; nome sem origem apontada reprova a entrega inteira.
+
+
+| Check | Passa se |
+|---|---|
+| **Ancoragem do verbatim** | toda fala entre aspas que se declara real foi encontrada literalmente na fonte do dono e mostrada; sem fonte, a peça sai marcada `[A CONFIRMAR]` e nunca se declara verbatim |
+| **Documento completo** | as 7 fases inteiras num só documento, até a coleta do sinal; nada foi deferido pro próximo passo |
+| **Ordem das fases** | ninguém apresentou antes de entender, nem revelou preço com dúvida aberta |
+| **Capacidade lida** | a leitura de quanto o lead tem aconteceu antes da fase 5 |
+| **Fronteira respeitada** | não abriu conversa fria nem qualificou lead frio (é da soft-vendas-sdr), não escolheu campanha do mês (é da soft-vendas-estrategias), não redigiu contrato (é da soft-vendas-contratos) |
+| **Frase banida fora** | "faz sentido pra você?" não aparece no fechamento |
+| **Nicho regulado** | quando a profissão do dono é regulada por conselho, o roteiro roda o gate regulado antes de sair. **Personal trainer e educação física entram como saúde regulada, inclusive em conversa privada de venda:** o script pode falar de processo, método e experiência, e **nunca promete resultado garantido, prazo cravado de resultado nem cura**; projeção vira faixa com "pode", e a peça sai com o aviso de confirmar a regra atual no conselho. Conversa privada não é exceção: o que o conselho proíbe em anúncio, esta skill também não escreve na DM |
+| **Prova real** | nenhum case, número ou depoimento inventado; furo vira `[A CONFIRMAR]` no lugar exato |
+| **Saída em arquivo** | a peça está num `.md` nomeado, com o caminho citado na resposta |
+| **Anti-IA** | com shell, roda o linter anti-IA do ambiente sobre o arquivo e exige saída limpa; sem shell, varre o texto inteiro atrás do travessão longo e da família do verbo-freio banida pela régua anti-voz, inclusive em títulos e rótulos, e reescreve cada ocorrência |
+| **VEREDITO** | é o pior item; um ✗ refaz o item, não o documento inteiro |
+
+Onde a pasta trouxer `shared-references/crivo/` e `shared-references/filtro-anti-ia/`, eles são a régua completa: o crivo roda antes de mostrar (ancoragem, simulação na pele do avatar, veredito pelo pior bloco) e o artefato dele sai junto do documento no STOP. Narrar que passou no crivo, sem artefato nenhum na tela, não conta como entrega.
+
+**Qual artefato, e por quê, porque script de venda é o caso especial.** O gate CUB cheio foi escrito pra copy que o leitor lê (case, promessa, oferta), e a maior parte de um script é **fala-mecânica**: descoberta, isolamento, termômetro, transição. Fala-mecânica não roda a tabela cheia, roda a régua curta (soa natural lido em voz alta, não é pomposo, não vaza framework), e isso está em `shared-references/crivo/03-gate-cub.md`. Então **o artefato de um script é um relato de régua, não uma tabela cheia**: 3 a 6 linhas dizendo quais blocos são fala-mecânica e que passaram na régua curta, quais blocos carregam prova ou promessa (o case, a oferta, a fase 5, a fase 7) e a tabela CUB SÓ desses blocos, mais o veredito pelo pior item. Tabela cheia num script inteiro é over-engineering e reprova por rigor errado; relato de régua sem nomear os blocos que rodaram a tabela cheia é entrega incompleta. Nas ações de copy pura (a mensagem de pós-venda da Ação 6, por exemplo) vale a tabela cheia normal.
+
+## O que esta skill NÃO faz
+
+Em toda rota abaixo: se a outra skill não estiver instalada, esta faz o mínimo aqui e diz que fez, com o pedaço mais fino marcado `[A CONFIRMAR]`.
+
+- **Abrir conversa fria, prospectar na DM, qualificar de leve, agendar, operar o CRM, montar agente de IA** → **soft-vendas-sdr**. Esta skill começa quando o lead já chega quente.
+- **Escolher a campanha do mês, plano de jogadas, estratégia de lançamento** → **soft-vendas-estrategias**.
+- **Contrato depois do sim** → **soft-vendas-contratos**. **Proposta em site premium com validade** → **soft-vendas-proposta**.
+- **Carta, VSL, mini webinar, landing** que aquece antes da conversa → `soft-funil-*`. **O webinar** → `soft-webinar`.
+- **Posicionamento, oferta, PUV, mecanismo, voz** → `soft-plano-posicionamento`. Sem ele, a entrevista rápida de 5 perguntas cobre o mínimo e a venda segue.
+- **Conteúdo de feed** → `soft-conteudo-*`.
+
+## Anti-patterns
 
 | Erro | Por que quebra | Faz assim |
 |---|---|---|
-| Deu preço antes do Isolamento (F6) | Dúvida aberta + preço = objeção garantida ("vou pensar" em 70% dos casos) | Isola primeiro, revela valor só com o caminho limpo |
-| Faz o lead do SDR repetir tudo | Queima a 1ª impressão, expõe que o time não conversa | Abre lendo a nota do CRM, ecoa a qualificação, entra direto no diagnóstico |
-| Cala depois de dizer o preço | Ancoragem negativa: o cérebro ecoa só o custo, apaga o valor | Diz o número com leveza e emenda no próximo passo, sem pausa dramática |
-| "Faço o Pix depois" aceito de boa | Sai da conversa quente, esfria, vira cobrança por mensagem | Resolve na hora: ou faz agora, ou o "mas..." vira objeção pra tratar ali |
-| Script sem verbatim (aspas inventadas) | Reprova no Crivo de ancoragem; soa genérico, não fecha | Puxa 3-5 falas reais da fonte do cliente, a 1ª linha nasce de uma delas |
-| Follow-up eterno sem pedir sim/não | Queima o aquecimento e a autoridade; lead que precisa de 7 toques não está pronto | Pede a decisão na conversa; antecipa o follow-up pra dentro da conversa |
-| Apresentou o método inteiro (F5) | Lead desengaja; vira aula, não venda | Só o que amarra com o que ele disse + 1 reframe |
-| Apresentou sem saber quanto o lead tem | Pitch no escuro: a conta nunca ia fechar, e a melhor munição foi gasta à toa | Leitura de capacidade ANTES da F5 ("quanto se programou?" + faixas decrescentes) |
-| "Faz sentido pra você?" na hora de fechar | Pede aprovação, devolve o bastão, abre porta de fuga | "O que você entendeu disso?" + afirmação com convicção + escada de fechamento com o número DELE |
-| Mede conversão de "call feita" | Mistura filtro (acerto) com perda (erro); o número mente | Conversão = pagamento sobre APROVADOS no diagnóstico (régua 20/30/40/50) |
-| Nome de framework vazando pro lead | "Degrau de implicação" soa manual, mata a naturalidade | O framework opera invisível; vira pergunta em linguagem do nicho |
+| Deu preço antes do isolamento (fase 6) | Dúvida aberta mais preço é objeção garantida | Isola primeiro, revela valor só com o caminho limpo |
+| Faz o lead repetir o que já contou | Queima a primeira impressão e expõe que ninguém conversa | Abre lendo a nota, ecoa a qualificação, entra direto no diagnóstico |
+| Cala depois de dizer o preço | Ancoragem negativa: o cérebro ecoa o custo e apaga o valor | Diz o número com leveza e emenda no próximo passo |
+| Aceita "faço o Pix depois" | Sai da conversa quente, esfria, vira cobrança por mensagem | Resolve na hora, ou o "mas" vira objeção pra tratar ali |
+| Script com aspas inventadas | Reprova na ancoragem, soa genérico e não fecha | Puxa falas reais da fonte do cliente; a primeira linha nasce de uma delas |
+| Follow-up eterno sem pedir sim ou não | Queima o aquecimento e a autoridade | Pede a decisão na conversa |
+| Apresentou o método inteiro na fase 5 | O lead desengaja: virou aula, não venda | Só o que amarra com o que ele disse, mais 1 reframe |
+| Apresentou sem saber quanto o lead tem | Pitch no escuro, e a melhor munição foi gasta à toa | Leitura de capacidade antes da fase 5 |
+| "Faz sentido pra você?" na hora de fechar | Pede aprovação, devolve o bastão, abre porta de fuga | "O que você entendeu disso?", com o número dele na escada de fechamento |
+| Mede conversão sobre "call feita" | Mistura filtro com perda, e o número mente | Conversão é pagamento sobre aprovados no diagnóstico |
+| Nome de framework vazando pro lead | Soa manual e mata a naturalidade | O framework opera invisível, vira pergunta na linguagem do nicho |
+| Entrega as fases 1 a 3 e defere o resto | Corta justo o núcleo da skill | Documento completo, um STOP só |
 
 ## Handoff
-- **Pra trás:** lead frio, prospecção, qualificação, agendamento → **soft-vendas-sdr** (o closer não abre conversa fria). Pré-qualificador que falta → `soft-funil-carta`/`soft-funil-miniwebinar`. Oferta/PUV indefinida → `soft-plano-posicionamento`.
-- **Call sem Pix (a hierarquia é explícita):** a rota é FECHAR NA CALL, lapidando cada pendência dentro dela ("vou ver o cartão" → "abre o app agora"; "falo com o sócio" → "liga pra ele, eu espero"). Não fechou e não há justificativa: *"o que muda de hoje pra amanhã?"*; sem resposta, encerra com dignidade e libera. **A proposta de 7 dias é EXCEÇÃO, não etapa:** só entra pra call que sobreviveu ao método com motivo real (processo formal de empresa, rito de decisão a vários com sinceridade demonstrada), e SEMPRE com compromisso amarrado na própria call (dia/hora do retorno + condição que expira). Nesse caso, a **soft-vendas-proposta** materializa a oferta num site premium com validade de 7 dias, e o follow-up desses 7 dias é do CLOSER (cobra no dia 5, fecha ou encerra no dia 7). Proposta virou rotina = as reuniões estão sendo feitas PRA gerar follow-up; conserta a reunião, não a proposta.
-- **Pra frente:** venda fechada → contrato na **soft-vendas-contratos**; os números (lead → reunião → venda → ticket) voltam pro **LEON**, que calibra a rotina; cliente novo → o pós-venda abre indicações e testemunho (a troca bônus-por-prova), que viram prova pra `soft-plano-posicionamento` e as `soft-conteudo-*`.
+
+**Pra trás:**
+- Lead frio, prospecção, qualificação, agendamento → **soft-vendas-sdr**.
+- Pré-qualificador que falta → `soft-funil-carta` ou `soft-funil-miniwebinar`.
+- Oferta ou PUV indefinida → `soft-plano-posicionamento`.
+
+**Call que terminou sem o sinal**, os 3 desfechos possíveis, nesta hierarquia:
+1. **Fecha na própria call**, lapidando cada pendência dentro dela: "vou ver o cartão" vira "abre o app agora"; "falo com o sócio" vira "liga pra ele, eu espero". Esta é a rota padrão.
+2. **Encerra com dignidade e libera**, quando não fechou e não há justificativa. A pergunta que decide é *"o que muda de hoje pra amanhã?"*; sem resposta, encerra.
+3. **Proposta de 7 dias, exceção e não etapa.** Só pra call que sobreviveu ao método com motivo real (processo formal de empresa, rito de decisão a vários com sinceridade demonstrada), e sempre com compromisso amarrado na própria call: dia e hora do retorno mais condição que expira. A **soft-vendas-proposta** materializa a oferta; o follow-up desses 7 dias é do closer, que cobra no dia 5 e fecha ou encerra no dia 7. Proposta virada rotina significa que as reuniões estão sendo feitas pra gerar follow-up: conserta a reunião, não a proposta.
+
+**Pra frente:**
+- Venda fechada → contrato na **soft-vendas-contratos**.
+- Os números (lead, reunião, venda, ticket) voltam pro orquestrador, que calibra a rotina.
+- Cliente novo → o pós-venda abre indicação e depoimento, que viram prova pra `soft-plano-posicionamento` e pras `soft-conteudo-*`.
+
+---
+
+## Nome do arquivo e lint (vale em toda entrega)
+- **Nome do arquivo:** slug curto do tema, minúsculas, hífens, sem acento, até 6 palavras (ex.: `carrossel-comeca-e-para.md`).
+- **Lint:** com shell disponível, rode `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) em todo arquivo gravado no diretório de saída, o relatório de processo e as notas de confirmação inclusos, e só declare o gate aprovado depois de exit 0 em cada um; sem shell, confira à mão o travessão longo e o verbo-freio banido. **Cole no relatório uma linha por arquivo, no formato `<arquivo>: exit N`.** Alegação de lint aprovado sem a linha por arquivo não conta como gate cumprido: "passou no lint" sem o exit colado, arquivo por arquivo, é a afirmação que mais aparece em relato e menos confere no disco. **O relatório de processo é o arquivo que mais reprova, e ele conta.** O `RELATO.md` (ou como você tiver chamado o relatório desta rodada) entra na varredura como qualquer outro arquivo, e a linha `RELATO.md: exit 0` é obrigatória na lista. Como o relatório é escrito por último, rode o lint nele **depois** de terminar de escrevê-lo, e se ele reprovar, conserte o relatório e rode de novo antes de entregar: relatório com travessão longo é a falha mais comum do lote inteiro e reprova a entrega igual a peça de cliente. A lista de linhas `<arquivo>: exit N` fecha com o total, nesta forma: `arquivos linteados: N · exit 0: N · exit diferente de 0: 0`.
+- **Arquivo aberto de volta:** o lint lê o texto, não o formato, e arquivo corrompido passa com exit 0. Antes de declarar o gate aprovado, abra cada arquivo gravado e confira a primeira linha, a última e uma do meio: cabeçalho, tabela e lista renderizam como markdown válido. Prefixo repetido em toda linha, tabela sem a linha de separação e bloco de código não fechado reprovam a entrega e mandam regravar o arquivo.
+- **Configuração do dono fora da pasta da skill.** Configuração, perfil ou qualquer arquivo do dono nunca é gravado dentro da pasta desta skill (código versionado e compartilhado); vai pra pasta de trabalho do dono, com o caminho declarado no relatório.
+
+- **Passo 2 da checagem:** rode `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos> --perfil <perfil do dono>; echo exit=$?` e cole a saída; `exit` diferente de 0 reprova a entrega inteira.

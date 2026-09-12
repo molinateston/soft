@@ -62,7 +62,7 @@ A diferença não é volume. É natureza do conteúdo.
 
 - ✅ Ótimo pra cliente PAGO (entrega)
 - ❌ Falha em aula gratuita: entrega o jogo, mata venda
-- **Princípio "faca Soft" do Soft Business:** aula descreve resultado e função, nunca passo a passo executável
+- **Princípio "faca do método" deste método:** aula descreve resultado e função, nunca passo a passo executável
 
 ### Tipo 4: Conteúdo de Ponto Cego
 *"Você acha que o problema é X. Não é. É Y. E você não pode resolver Y com método tradicional porque [razão estrutural]."*
@@ -265,7 +265,7 @@ Estatística não emociona. Caso emociona.
 
 ✅ *"O João, advogado tributarista. 12 anos de OAB. Postava todo dia. Faturava R$25k. Quando entendeu [B], em 60 dias ele tava em R$80k, postando 3x na semana."*
 
-Caso real com nome + número + prazo (princípio Soft já documentado em outras skills) = emoção + autoridade + prova.
+Caso real com nome + número + prazo (princípio do método já documentado em outras skills) = emoção + autoridade + prova.
 
 ---
 
@@ -331,7 +331,7 @@ Tom da aula NÃO é didático ("aqui está a fórmula!"). É **conversacional + 
 ## Notas operacionais
 
 - **Skill puxa esta reference em todo Modo B**, independente do formato escolhido (Sala Secreta ou LPSG).
-- **Cliente Soft Business** aplica fórmula com vocabulário Soft (filtra-não-convence, 3ª camada, Complexidade).
-- **Cliente não-Soft** aplica fórmula com vocabulário neutro do nicho dele.
+- **Cliente deste método** aplica fórmula com vocabulário do método (filtra-não-convence, 3ª camada, Complexidade).
+- **Cliente fora do método** aplica fórmula com vocabulário neutro do nicho dele.
 - **Sem pontos cegos identificados, skill bloqueia avanço pro Modo B.** Aula sem ponto cego = lançamento que falha. Vale construir antes de qualquer outra peça.
 - **5-10 horas de trabalho** pra construir os 5 pontos cegos bem feitos. É o ativo de maior alavancagem do lançamento inteiro.

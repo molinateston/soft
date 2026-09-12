@@ -70,6 +70,26 @@ class MechanismBenchTest(unittest.TestCase):
         manifest["cut_inspections"][0]["proof"] = os.path.join(self.temp.name, "ausente.jpg")
         self.assert_reproves(manifest, "prova visual inexistente")
 
+    def test_missing_visual_direction_reproves(self):
+        manifest = copy.deepcopy(self.good)
+        manifest.pop("visual_direction")
+        self.assert_reproves(manifest, "direcao visual central")
+
+    def test_missing_support_phrase_decision_reproves(self):
+        manifest = copy.deepcopy(self.good)
+        manifest["support_segments"][0].pop("support_phrase")
+        self.assert_reproves(manifest, "decisao de frase")
+
+    def test_support_without_phrase_requires_reason(self):
+        manifest = copy.deepcopy(self.good)
+        manifest["support_segments"][0]["support_phrase"] = {"decision": "none"}
+        self.assert_reproves(manifest, "motivo para nao usar frase")
+
+    def test_missing_transition_reproves(self):
+        manifest = copy.deepcopy(self.good)
+        manifest["support_segments"][0].pop("transition_out")
+        self.assert_reproves(manifest, "transition_out")
+
     def test_cut_builder_has_exact_fades_and_map(self):
         keep = [(0.0, 1.0), (2.0, 3.0)]
         filter_graph = silence.build_filter(keep)

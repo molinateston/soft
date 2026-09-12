@@ -29,7 +29,7 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 1 - Abertura de carta de vendas
 
 ### Versão IA
-> "Imagine só ter um sistema completo, simples e eficiente que transforma seu consultório, trazendo clareza, resultados e a verdadeira liberdade que você sempre sonhou. Esse é o poder do método que vou te apresentar — um método revolucionário que vai destravar todo o seu potencial."
+> "Imagine só ter um sistema completo, simples e eficiente que transforma seu consultório, trazendo clareza, resultados e a verdadeira liberdade que você sempre sonhou. Esse é o poder do método que vou te apresentar, um método revolucionário que vai liberar todo o seu potencial."
 
 ### Diagnóstico
 - "Imagine só" (abertura banida)
@@ -39,9 +39,9 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 - "verdadeira liberdade" (adjetivo IA)
 - "que você sempre sonhou" (cringe)
 - "Esse é o poder" (frase-emoldura)
-- "—" (em dash)
+- travessão longo (em dash)
 - "método revolucionário" (verbo IA)
-- "destravar todo o seu potencial" (verbo IA + abstração)
+- "liberar todo o seu potencial" (verbo IA + abstração; o verbo-freio com prefixo "des-" cai na mesma vala e é banido em qualquer flexão)
 
 ### Versão autoral
 > "Consultório cheio, margem apertada. O problema não é volume de paciente. É o que você aceita por convênio."
@@ -58,11 +58,11 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 2 - Apresentação pessoal (página "Sobre")
 
 ### Versão IA
-> "Sou uma especialista apaixonada em ajudar pacientes a destravarem seu potencial máximo de saúde. Ao longo dos meus anos de experiência, descobri que a verdadeira chave do sucesso está em protocolos simples e poderosos. Minha missão é trazer clareza e direção pra você."
+> "Sou uma especialista apaixonada em ajudar pacientes a liberarem seu potencial máximo de saúde. Ao longo dos meus anos de experiência, descobri que a verdadeira chave do sucesso está em protocolos simples e poderosos. Minha missão é trazer clareza e direção pra você."
 
 ### Diagnóstico
 - "especialista apaixonada" (adjetivo IA)
-- "destravarem seu potencial máximo" (verbo IA + abstração + adjetivo redundante)
+- "liberarem seu potencial máximo" (verbo IA + abstração + adjetivo redundante)
 - "anos de experiência" (vago)
 - "descobri que a verdadeira chave" (frase-emoldura + adjetivo IA)
 - "simples e poderosos" (adjetivo duplo)
@@ -259,11 +259,11 @@ Cada exemplo mostra: versão IA, diagnóstico, versão autoral.
 ## Exemplo 10 - Pitch curto de palestra
 
 ### Versão IA
-> "Apresento o método que está revolucionando a forma como dentistas constroem suas clínicas — um sistema simples, prático e altamente eficiente que está transformando vidas e gerando resultados extraordinários!"
+> "Apresento o método que está revolucionando a forma como dentistas constroem suas clínicas [travessão longo] um sistema simples, prático e altamente eficiente que está transformando vidas e gerando resultados extraordinários!"
 
 ### Diagnóstico
 - "revolucionando a forma" (verbo IA)
-- "—" (em dash)
+- travessão longo (em dash)
 - "simples, prático e altamente eficiente" (tricolon + advérbio)
 - "transformando vidas" (verbo IA + cringe)
 - "resultados extraordinários" (banido)

@@ -198,7 +198,7 @@ Conectivo lógico é coisa de redação escolar. Em carrossel, a próxima frase 
 > "De certa forma, isso pode ajudar..."
 > "Pode ser que funcione pra alguns casos..."
 
-Hedge é o oposto de Soft Business. Carrossel 3C **afirma**, não sugere. Se você não tem certeza do que tá afirmando, escolha outra ideia pra escrever.
+Hedge é o oposto deste sistema. Carrossel 3C **afirma**, não sugere. Se você não tem certeza do que tá afirmando, escolha outra ideia pra escrever.
 
 ### 4. Adjetivo abstrato sem prova
 > "Estratégia poderosa", "método incrível", "transformação completa"

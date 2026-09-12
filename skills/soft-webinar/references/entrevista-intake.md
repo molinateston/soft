@@ -4,7 +4,7 @@ A aula excelente não sai de um brief solto, sai de respostas específicas. A sk
 
 **SEM PORTEIRO:** a entrevista serve pra juntar insumo, nunca pra barrar ninguém. Se faltar maturidade (funil/promessa não validados), o aviso é UMA linha consultiva e a conversa segue.
 
-**Etapa consultiva de verdade:** além de perguntar, a skill AJUDA a responder. Entende o negócio, propõe hipóteses, e usa **pesquisa de mercado (WebSearch, quando disponível)** pra trazer dados do nicho: tamanho do mercado, concorrentes e as promessas deles, preço praticado, linguagem real do público (fóruns, reviews, redes). O objetivo é juntar TODOS os insumos pra melhor aula possível, não preencher formulário.
+**Etapa consultiva de verdade:** além de perguntar, a skill AJUDA a responder. Entende o negócio, propõe hipóteses, e usa **pesquisa de mercado (busque na web se o ambiente tiver acesso; senão peça o material ao dono)** pra trazer dados do nicho: tamanho do mercado, concorrentes e as promessas deles, preço praticado, linguagem real do público (fóruns, reviews, redes). O objetivo é juntar TODOS os insumos pra melhor aula possível, não preencher formulário.
 
 ## A REGRA QUE REGE TUDO (o FILTRO)
 

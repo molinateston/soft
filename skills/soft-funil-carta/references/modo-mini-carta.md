@@ -53,9 +53,10 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 |---|---|
 | Discurso Base aprovado · cliente pediu Carta | ✅ Ativa este modo |
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
-| Cliente pediu landing page completa com VSL | Roteia pra a skill `soft-funil-landing` |
+| Cliente pediu roteiro da VSL | Usa o modo VSL da `soft-funil-carta` |
+| Cliente pediu a página completa que hospeda a VSL | Roteia a arquitetura pra `soft-funil-landing`; o roteiro continua na `soft-funil-carta` |
 | Cliente pediu webinar | Roteia pra skill `soft-webinar` |
-| Cliente quer versão em vídeo da Carta | Roteia pra a skill `soft-funil-miniwebinar` (alternativa à Carta) |
+| Cliente quer versão em vídeo que conduz à decisão comercial | Usa o modo VSL da `soft-funil-carta` |
 | Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinar`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
@@ -265,7 +266,7 @@ Use tabela pra contraste **"Hoje × Agora"** (recomendado quando ticket ≥ R$3k
 
 ## 5. Exemplo completo, Carta diagramada (referência)
 
-Trecho de Carta para Especialista solo · ticket R$4.800 · método "Implementação Soft" (exemplo ilustrativo, aqui o produto vendido é o próprio método Soft; pro cliente à frente, troque pelo método e oferta DELE):
+Trecho de Carta para Especialista solo · ticket R$4.800 · método fictício "Implementação Enxuta" (exemplo ilustrativo; pro cliente à frente, troque pelo método e oferta DELE):
 
 ```markdown
 # Sistema de aquisição que funciona quando você para
@@ -491,8 +492,8 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Tom Soft amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |
 | Adaptação semântica pro nicho do cliente | `shared-references/adaptacao-semantica.md` |
 | Aplicação nos 7 passos | `shared-references/crivo/05-premissas-mestras.md` |
-| Versão em vídeo (alternativa à Carta) | a skill `soft-funil-miniwebinar` |
-| Landing page com VSL ou multimídia | a skill `soft-funil-landing` |
+| Roteiro de VSL curta, média ou profunda | o modo VSL desta `soft-funil-carta` |
+| Página que hospeda VSL ou multimídia | a skill `soft-funil-landing` |
 | Webinar ao vivo ou perpétuo | skill `soft-webinar` |
 
 

@@ -12,17 +12,17 @@
 - O que é o círculo
 - Como construir o círculo (exercício)
 - Como o círculo guia toda criação
-- Relação com outros princípios Soft
+- Relação com os outros princípios do método
 - Aplicação ao Perfil Enxuto (Cap 4)
 - Quando o círculo precisa ser refeito
-- Exemplo aplicado: o círculo do Soft Business (auto-referência)
+- Exemplo aplicado (fictício): o círculo de uma consultoria de operação
 - Princípio de fechamento
 
 ---
 
 ## As 2 perguntas que o círculo responde
 
-Toda criação no Soft Business, peça, produto, perfil, oferta, existe pra responder duas perguntas:
+Toda criação deste método, peça, produto, perfil, oferta, existe pra responder duas perguntas:
 
 > **1. Por que alguém deveria me seguir?**
 > **2. Por que alguém deveria comprar de mim?**
@@ -100,16 +100,16 @@ Cada tema direto:
 
 Temas que **não tocam o método diretamente**, mas orbitam a vida real do cliente ideal **E** cruzam o método em algum ponto.
 
-A regra do cruzamento é dura: se o tema é só sobre a vida do cliente sem cruzamento com o método, **é creator**. Se cruza o método, é Soft.
+A regra do cruzamento é dura: se o tema é só sobre a vida do cliente sem cruzamento com o método, **é creator**. Se cruza o método, entra.
 
 Exemplo aplicado:
 
 | Tema indireto | Por que está no círculo |
 |---|---|
-| "Por que comecei a recusar reuniões nas sextas" | Cruza com método, tempo livre é resultado de sistema (Sócio IA IA Vertical) |
+| "Por que comecei a recusar reuniões nas sextas" | Cruza com método, tempo livre é resultado de sistema (IA Vertical) |
 | "A decisão que mudou meu jeito de cobrar" | Cruza com método, posicionamento de preço (Cap 3) |
-| "O dia em que parei de aceitar cliente novo por indicação" | Cruza com método, filtro Soft (conversão) |
-| "Como eu organizo minha rotina sem reunião" | Cruza com método, sistema constante (Sócio IA) |
+| "O dia em que parei de aceitar cliente novo por indicação" | Cruza com método, filtro de entrada (conversão) |
+| "Como eu organizo minha rotina sem reunião" | Cruza com método, sistema constante (IA Vertical) |
 
 Tema indireto **sem** cruzamento:
 
@@ -290,9 +290,9 @@ A revisão acontece a cada 3-6 meses ou quando o produto muda (módulo novo, ofe
 
 ---
 
-## Exemplo aplicado: o círculo do Soft Business (auto-referência)
+## Exemplo aplicado (fictício): o círculo de uma consultoria de operação
 
-Pra ilustrar como funciona, mapa parcial do próprio círculo do Soft:
+Pra ilustrar como funciona, mapa parcial do círculo de um especialista fictício que vende consultoria de operação pra prestador de serviço:
 
 **Núcleo (parcial):**
 - Posicionamento Incomum
@@ -300,7 +300,7 @@ Pra ilustrar como funciona, mapa parcial do próprio círculo do Soft:
 - Carrossel 3C
 - Stories CARO
 - IA Vertical
-- 7 Fases Soft (conversão)
+- as 7 fases da conversão
 
 **Anel direto (exemplos):**
 - "Por que reunião gratuita treina cliente a não pagar"

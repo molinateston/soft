@@ -1,5 +1,100 @@
 # A regra-mãe da TELA e da GRANULARIDADE + como escrever cada bloco
 
+> ## ⛔ REGRA DA FRASE COMPLETA NA TELA (cravada em 02/09/2026, manda sobre TODO este arquivo e sobre `geracao-de-slides.md`)
+>
+> **O slide é auto-explicativo.** Quem pega a aula e lê só os slides, do primeiro ao último, entende
+> o argumento inteiro, na ordem, sem a fala do apresentador do lado. E quem vai apresentar olha o
+> slide e já sabe o que dizer, mesmo sem ter ensaiado. Se qualquer uma das duas coisas falha, a tela
+> está errada e volta para reescrita.
+>
+> **A regra, em uma linha: toda linha que vai para a tela é uma FRASE COMPLETA que se explica
+> sozinha.** Frase completa quer dizer sujeito e verbo conjugado, terminando em ponto, interrogação
+> ou exclamação, e entendida sem depender do slide anterior, do título do slide ou da fala.
+>
+> **Rótulo curto sozinho está proibido.** Palavra solta, etapa de fluxo, nome de campo, nome de fase:
+> nada disso pode ocupar uma linha por conta própria. Rótulo só existe como **ETIQUETA COLADA**, isto
+> é, grudado a uma frase completa **na mesma linha**, servindo de índice visual dela. A etiqueta é o
+> carimbo, a frase é o conteúdo, e as duas andam juntas ou nenhuma entra.
+>
+> **O que continua valendo, e não muda:** a tela nunca é o parágrafo falado inteiro, porque isso é
+> teleprompter público e mata a aula; a densidade se calibra pela função do slide, com virada em tela
+> quase vazia e ensino em tela densa; e lista do mesmo assunto continua num slide só, revelada por
+> clique. A frase completa vale para cada item da lista também: cada clique revela uma frase, nunca
+> uma palavra.
+>
+> **A prova de que a tela está certa são duas leituras, e as duas precisam passar:**
+> 1. **Leitura cega do argumento.** Alguém que nunca viu a aula lê só as telas, em sequência, e
+>    reconstrói o argumento inteiro: a promessa, para quem é, o problema, a causa, o mecanismo, a
+>    oferta e o pedido final. Se ele se perde em algum ponto, aquela tela é o buraco.
+> 2. **Leitura do apresentador sem ensaio.** Alguém que nunca leu a fala olha o slide e sabe o que
+>    falar ali. Se ele olha e pergunta "e agora, o que eu digo?", aquela tela é rótulo disfarçado.
+>
+> ### Exemplo RUIM × exemplo BOM (nicho neutro, uma consultoria que atende empresa)
+>
+> Beat: o caminho que um interessado percorre, do anúncio até a assinatura do contrato.
+>
+> **❌ TELA RUIM (o defeito que esta regra existe para matar), rótulo em cadeia:**
+> ```
+> `anúncio` → `mensagem` → `reunião marcada` → `pessoa na reunião` → `decisão`
+> ```
+> Cinco palavras soltas. Não afirmam nada, não ensinam nada, e quem vai apresentar olha para isso e
+> não sabe o que falar em nenhuma das cinco. Quem lê só o slide também não aprende nada: fica com
+> uma fila de substantivos e nenhuma ideia.
+>
+> **❌ TELA RUIM, versão nome de campo:**
+> ```
+> `ATRAÇÃO` → `QUALIFICAÇÃO` → `CONVERSÃO`
+> ```
+> Mesmo defeito com roupa de método. Três nomes de fase, zero conteúdo.
+>
+> **✅ TELA BOA (etiqueta colada a frase completa, uma linha por passo, revelada por clique):**
+> ```
+> `1 · ANÚNCIO` A pessoa vê o seu anúncio e para de rolar porque reconheceu o problema dela ali.
+> `2 · MENSAGEM` Ela manda a primeira mensagem, e é essa frase que diz o que ela realmente quer.
+> `3 · REUNIÃO MARCADA` Alguém do seu time responde e marca um horário na agenda.
+> `4 · PESSOA NA REUNIÃO` Ela aparece, e só aqui a sua proposta é apresentada de verdade.
+> `5 · DECISÃO` Ela decide se assina, e é neste ponto que o dinheiro entra ou não entra.
+> Este é o único caminho que interessa, porque é ele que termina em contrato assinado.
+> ```
+> Cada linha se sustenta sozinha. A etiqueta em maiúscula continua dando o ritmo visual e a âncora de
+> memória, e a frase ao lado ensina. O apresentador olha para a linha 2 e já sabe o que falar. O
+> leitor que só tem os slides entende o caminho inteiro.
+>
+> **✅ TELA BOA, versão frase-tese (slide de virada, tela quase vazia):**
+> ```
+> A sua empresa não perde o cliente na hora de fechar. Ela perde nas passagens entre uma etapa e outra.
+> ```
+> Uma frase só, e ainda assim afirma algo, ensina algo e pode ser falada de improviso.
+>
+> ### O gate mecânico desta regra (rode antes de dar qualquer tela por pronta)
+>
+> Para CADA linha de tela, nesta ordem:
+> 1. Tem verbo conjugado? Se não tem, é fragmento. Reescreva.
+> 2. Termina em ponto, interrogação ou exclamação? Dois pontos só valem quando a linha abre uma lista
+>    logo abaixo. Se não termina, é fragmento. Reescreva.
+> 3. Ela se entende sem o slide anterior e sem a fala? Se precisa de contexto de fora, nomeie o
+>    contexto dentro da própria linha.
+> 4. Todo verbo tem objeto nomeado? "cortar" pede *cortar o quê*, "perder" pede *perder o quê*,
+>    "resolver" pede *resolver o quê*. Verbo órfão é frase quebrada.
+> 5. Se a linha tem rótulo, o rótulo está colado a uma frase completa na mesma linha? Rótulo em linha
+>    própria não passa.
+>
+> Os itens 3 e 4 são o **gate de frase** da skill `soft-critico-copy`, que já vale para toda linha
+> pública do método: toda frase se explica sozinha, e nenhum verbo fica órfão. A tela do webinário é
+> linha pública como qualquer outra, e passa pela mesma régua.
+>
+> **Como isto convive com `geracao-de-slides.md`.** Aquela reference prega "slide mínimo, a copy vai
+> na nota". O que ela acerta e continua valendo: a fala corrida não sobe para a tela. O que ela erra e
+> fica revogado: "mínimo" nunca autorizou palavra solta. Mínimo é **poucas frases completas**, nunca
+> muitas palavras soltas. Onde as duas divergirem, manda este arquivo.
+>
+> **De onde saiu esta regra.** O dono do método, em 02/09/2026, sobre uma aula em que 357 linhas de
+> tela eram fragmento, espalhadas em 68 de 92 slides: *"Os slides tem que ser auto-explicativo. É como
+> se a pessoa pegasse a aula e conseguisse entender a aula só de ler os slides. Ali você tem várias
+> frases soltas que se o cara não tiver ensaiado, ele não sabe nem o que falar no slide."* Foi a
+> segunda reprovação seguida do mesmo ponto, depois de uma primeira, às 09h05 do mesmo dia, mandando
+> o slide servir de guia para quem apresenta e de apoio para quem assiste.
+
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
 ## Índice

@@ -5,7 +5,7 @@
 > **As fontes lidas:** as páginas reais do caso estudado (captura, obrigado do perpétuo, ficha, home/landing e obrigado do ao vivo). Os arquivos-fonte vivem no modelo do dono via config, fora deste bundle; o que importa deles está destilado abaixo.
 > - Reference da skill: `references/paginas-cadastro-obrigado-checkout.md` (desta skill)
 >
-> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout do corpus estudado é a tela do gateway (Cakto/WebinarKit). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente que o autor do corpus usa. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
+> **Nota de achado:** o CHECKOUT enxuto NÃO existe como HTML deployado — o checkout do corpus estudado é a tela do gateway (a plataforma de checkout/webinar do dono). O que está abaixo no item 3 é o spec do que entra na tela de checkout, extraído da reference + do mecanismo de link-controlado/presente que o autor do corpus usa. As páginas de captura e obrigado, sim, existem como HTML real e foram lidas verbatim.
 
 ---
 
@@ -174,7 +174,7 @@ Quando NÃO é perpétuo (turma/imersão ao vivo), a estrutura muda um pouco (ve
 
 > **O pedido do corpus estudado (a régua deste item):** checkout só com **cronômetro de 5 min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Sem FAQ longo, sem re-explicar o método, sem dobra de vendas. Quem chegou aqui já está com o cartão na mão. Cada bloco extra é fricção que faz a pessoa pensar de novo.
 
-**Achado:** não há HTML de checkout deployado — o checkout do corpus estudado é a tela do gateway (Cakto/WebinarKit). Os blocos abaixo são o que entra NA tela / no topo dela.
+**Achado:** não há HTML de checkout deployado — o checkout do corpus estudado é a tela do gateway (a plataforma de checkout/webinar do dono). Os blocos abaixo são o que entra NA tela / no topo dela.
 
 ### Bloco A — Cronômetro de 5 minutos (escassez de tempo, no topo)
 - Barra/contagem no topo: **"Sua condição vale por: [04:59 → 00:00]"** contando pra baixo.

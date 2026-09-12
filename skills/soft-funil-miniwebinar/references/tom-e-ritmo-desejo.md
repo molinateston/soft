@@ -151,7 +151,7 @@ Olho cansa em parágrafo longo. Leitor pula.
 
 ❌ **Errado:**
 ```
-A Carta é a peça mais importante do sistema Soft Business porque ela carrega toda a desejo, substitui reunião, funil complexo, VSL longa, e qualquer outra coisa que o mercado tente vender como "essencial". Quando você tem uma Carta no ar, todo o conteúdo público da atração ganha destino, porque o lead que se interessa tem pra onde ir, e quem não se interessa identifica e sai sem queimar seu tempo.
+A Carta é a peça mais importante deste sistema porque ela carrega toda a desejo, substitui reunião, funil complexo, VSL longa, e qualquer outra coisa que o mercado tente vender como "essencial". Quando você tem uma Carta no ar, todo o conteúdo público da atração ganha destino, porque o lead que se interessa tem pra onde ir, e quem não se interessa identifica e sai sem queimar seu tempo.
 ```
 
 ✅ **Certo:**

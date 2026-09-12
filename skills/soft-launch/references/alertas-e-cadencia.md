@@ -96,7 +96,7 @@ Lançamento amplifica **conversão conhecida**. Se o cliente nunca vendeu o prod
 ### Se está Vermelho
 
 Considere:
-- Validar produto **antes** com 10-20 clientes via venda direta (Soft Business, Mini Carta, indicação)
+- Validar produto **antes** com 10-20 clientes via venda direta (o método, Mini Carta, indicação)
 - Lançamento pequeno só pra validar conversão (ticket baixo, audiência atual)
 - Não fazer lançamento grande em produto não validado
 
@@ -113,7 +113,7 @@ Considere:
 | 🔴 Vermelho | Lançamento é a ÚNICA fonte de receita. Entre lançamentos, negócio para. |
 
 **Por quê:**
-Vermelho aqui é **sintoma da Armadilha 3** (lançamento perpétuo/semente do guia Soft Business v9):
+Vermelho aqui é **sintoma da Armadilha 3** (lançamento perpétuo/semente do guia de origem deste método):
 
 > *"Mês passado fechou alto em 5 dias de carrinho aberto. Esse mês fechou um décimo. Não vende produto, vende evento. Entre lançamentos, negócio para."*
 
@@ -126,9 +126,9 @@ A skill **não recusa** mas avisa explicitamente:
 - "Mas em 60-90 dias você vai estar no mesmo lugar, esperando o próximo lançamento"
 - "A solução estrutural é construir aquisição constante. Lançamento é injeção, não cura."
 
-**Para cliente Soft Business**: skill puxa explicitamente o sistema Soft (Carta + Conteúdo + DM) como rota alternativa.
+**Para cliente deste método**: skill puxa explicitamente o sistema do método (Carta + Conteúdo + DM) como rota alternativa.
 
-**Para cliente não-Soft**: skill recomenda construir base de leads pago + nutrição entre lançamentos (algo como o Funil 8 da LPSG).
+**Para cliente fora do método**: skill recomenda construir base de leads pago + nutrição entre lançamentos (algo como o Funil 8 da LPSG).
 
 ---
 
@@ -210,14 +210,14 @@ Considere:
 
 Independente do diagnóstico, a skill sempre fala da cadência. **Lançamento isolado ≠ negócio**:
 
-### Cliente Soft Business
+### Cliente deste método
 
 - Máximo 1-2 lançamentos pontuais por ano
-- Sistema Soft constante segue rodando entre lançamentos
+- Sistema constante do método segue rodando entre lançamentos
 - Cada lançamento integra de volta no sistema (`debriefing-e-integracao.md`)
 - Lançamento NUNCA substitui Carta + Conteúdo + DM
 
-### Cliente não-Soft
+### Cliente fora do método
 
 - Cadência adaptada ao formato escolhido (Sala Secreta vs LPSG)
 - Sistema constante recomendado entre eventos (Funil 8, conteúdo orgânico, e-mail nutrição)
@@ -255,9 +255,9 @@ Frases que skill diz com frequência (quando aplicável):
 
 ## O que skill NÃO faz
 
-- ❌ Recusa lançamento por motivo Soft Business sem perguntar contexto
+- ❌ Recusa lançamento por motivo deste método sem perguntar contexto
 - ❌ Moraliza ("você não deveria")
-- ❌ Recomenda só método Soft pra cliente não-Soft
+- ❌ Recomenda só este método pra cliente fora do método
 - ❌ Esconde os riscos pra agradar
 - ❌ Promete números específicos
 
@@ -277,6 +277,6 @@ Frases que skill diz com frequência (quando aplicável):
 ## Notas operacionais
 
 - **Skill puxa esta reference em todo Modo A.** É o portão informativo, não bloqueio.
-- **Quando cliente é Soft Business**, alertas sobre Armadilha 3 são **mais explícitos**. Quando não-Soft, alertas são genéricos sobre dependência de lançamento.
+- **Quando cliente é o método**, alertas sobre Armadilha 3 são **mais explícitos**. Quando fora do método, alertas são genéricos sobre dependência de lançamento.
 - **Cliente em modo "vou lançar com a roupa do corpo"** (Vermelho em 4+ variáveis): skill avisa explicitamente que tá apostando o negócio. Se cliente persiste, skill estrutura no Modo B com avisos no rodapé.
 - **Skill não substitui análise de contador / financeiro.** Cálculos de exposição são estimativas, número real depende do cliente.

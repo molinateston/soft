@@ -33,7 +33,7 @@ Peça pedida: carrossel sobre por que o consultório não lota.
 Isso é a frase média. Qualquer um assina. O dentista já leu mil vezes.
 
 ✅ **Com o passo (fala crua de dentista e de paciente):** "Sua recepcionista diz 'semana que vem enche'. Faz três meses que ela diz isso."
-A segunda nasceu da queixa literal. Ela não é mais bonita. Ela é mais REAL. Por isso prende. (No método Soft, a fala vem da página real do tema na pasta de padrões do acervo de VoC do usuário, com o N.)
+A segunda nasceu da queixa literal. Ela não é mais bonita. Ela é mais REAL. Por isso prende. (Neste método, a fala vem da página real do tema na pasta de padrões do acervo de VoC do usuário, com o N.)
 
 ## O freio contra o óbvio (Verbalized Sampling)
 

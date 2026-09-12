@@ -89,7 +89,7 @@ As condições (no Q&A, com a metáfora do cheque):
 - [ ] **A garantia vira resposta-mestra no Q&A** (Fladlien #2: toda pergunta evasiva é respondida com "entre e experimente 30 dias" + analogia do restaurante). Quem tem garantia usa ela pra fechar o "maybe".
 - [ ] **Frase-síntese citável** ("There is no risk. There's only reward."; "if I remove every possibility for you to fail, what is left? Only success.") - a garantia fecha em aforismo.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Garantia genérica de 7 dias jogada de passagem.** Nenhum dos 3 usa a garantia legal mínima como argumento - ou ela é peça desenhada (condicional, encenada, com porquê) ou não aparece.
 - **Garantia incondicional de resultado.** Ninguém promete devolver o dobro sem condição de aplicação - isso atrairia o oportunista e quebraria a conta. A condição auditável é o que torna a inversão de risco sustentável.

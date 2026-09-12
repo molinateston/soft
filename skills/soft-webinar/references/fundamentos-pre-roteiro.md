@@ -28,7 +28,7 @@ O webinar NÃO tem um posicionamento próprio e raso. Ele **herda o Plano de Pos
 
 > **plano do webinar = Plano de Posicionamento (completo, fundo, na voz do dono) + Camada Webinar (os insumos do roteiro)**
 
-- **Se o cliente já tem o Plano** (a maioria do ecossistema Soft chega com ele, é o Passo 1 do método): **herda INTEIRO - não refaz, não resume, não comprime.** ~70% dos insumos que o roteiro consome já estão lá, prontos e fundos.
+- **Se o cliente já tem o Plano** (a maioria do ecossistema do método chega com ele, é o Passo 1 do método): **herda INTEIRO - não refaz, não resume, não comprime.** ~70% dos insumos que o roteiro consome já estão lá, prontos e fundos.
 - **Se não tem:** roda a `soft-plano-posicionamento` primeiro, fecha o Plano completo, e só então pluga a Camada Webinar. Nada de roteiro com o Plano aberto.
 
 A espinha do Plano são os **4 Blocos** abaixo (Território · Narrativa · Mecanismo · Oferta), que nascem da **pesquisa profunda de mercado + a ideia que o cliente já tem**, nunca de um questionário. A Camada Webinar (os insumos que faltam) está logo depois deles.
@@ -520,7 +520,7 @@ A promessa não muda com o preço - muda só **pra onde ela leva a pessoa depois
 | R$2 mil – R$6 mil (mentoria, consultoria, serviço) | Levanta a mão → **comercial 1:1** ("ancora em 20k, vende por 2k"; formulário pré-qualifica) |
 | R$10 mil+ (high-ticket, evento) | A promessa abre a porta; quem fecha é **closer no Zoom**, com SDR protegendo o closer do lead ruim |
 
-(Regra do corpus estudado- cruzar com a esteira do ecossistema Soft, capacidade da soft-webinar.)
+(Regra do corpus estudado- cruzar com a esteira do ecossistema do método, capacidade da soft-webinar.)
 
 ### Onde aparece
 
@@ -533,7 +533,7 @@ A promessa não muda com o preço - muda só **pra onde ela leva a pessoa depois
 
 ## 6. Os 6 níveis de consciência (com QUEM você está falando)
 
-Antes de escolher o tom e quanto carregar no problema, você precisa saber em que nível de consciência o avatar está. Eugene Schwartz (1966) descreveu cinco. O método Soft adiciona um sexto - que é onde mora o dinheiro de verdade hoje, e é O avatar Soft.
+Antes de escolher o tom e quanto carregar no problema, você precisa saber em que nível de consciência o avatar está. Eugene Schwartz (1966) descreveu cinco. Este método adiciona um sexto - que é onde mora o dinheiro de verdade hoje, e é O avatar Soft.
 
 ### Os 5 clássicos (Schwartz)
 
@@ -712,7 +712,7 @@ Sem todos os itens marcados, **não avance**. Volte e complete. Webinar bom é c
 
 ## Notas operacionais
 
-- Esses fundamentos servem **também** para Carta de Vendas e Micro Treinamento - não são exclusivos do webinar. Se cliente já tem isso pronto da skill `soft-funil`, **reaproveita** (não refaça).
+- Esses fundamentos servem **também** para Carta de Vendas e Micro Treinamento - não são exclusivos do webinar. Se cliente já tem isso pronto da skill `soft-funil-carta`, **reaproveita** (não refaça); se a skill não estiver instalada, faço aqui em modo reduzido.
 - Big Idea é o ativo mais reusável: serve pra webinar, carta, MT, lançamento, anúncios, posicionamento orgânico. E é **slot**: o mesmo produto comporta vários ângulos (escala horizontal - ver os 4 nomes do produto de emprego na seção 5).
 - One Sentence Persuasion não aparece **nomeada** no webinar - é uma régua interna pra você medir camadas. Avatar não vê esse rótulo.
 - A Proposição Única falada ocupa o slot **S10** do `template-72-slides.md`; o peso da fase Diagnóstico (decidido pelo nível de consciência) se aplica em `estrutura-webinario-aida.md`; a régua de ticket conversa com a soft-webinar (pós-webinar).

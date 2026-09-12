@@ -134,7 +134,7 @@ Não adianta se inscrever se:
 **Nome do inimigo-categoria:** sempre um sistema ou prática, nunca uma pessoa ou empresa.
 
 **Exemplos de nomes de inimigo:**
-- "A Complexidade Digital" (Soft Business)
+- "A Complexidade Digital" (mercado digital)
 - "O modelo da sessão gratuita"
 - "A indústria do conteúdo diário"
 - "A farinha de funil"

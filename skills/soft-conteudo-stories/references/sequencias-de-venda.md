@@ -212,7 +212,7 @@ Quando o usuário pede uma sequência, segue esta ordem:
 
 1. **Identifica o template** (A/B/C/D/E) pelo ticket + formato + objetivo. Se ambíguo, pergunta UMA vez.
 2. **Coleta inputs mínimos** numa única mensagem: nicho, oferta (nome + entrega principal), Problema Avançado do cliente, palavra-chave escolhida. Pergunta só os que faltam.
-3. **Monta a tabela de tradução semântica** (via `adaptacao-semantica.md`) pro vocabulário do nicho.
+3. **Monta a tabela de tradução semântica** (via `shared-references/adaptacao-semantica.md`) pro vocabulário do nicho.
 4. **Entrega os stories em blocos copiáveis**, 1 bloco por story numerado. Cada bloco com máximo 3 linhas.
 5. **Inclui nota de produção** no final: elementos visuais sugeridos por story + ritmo recomendado de publicação.
 6. **Fecha com checklist** de 5 pontos pro usuário auditar antes de postar.
@@ -220,6 +220,8 @@ Quando o usuário pede uma sequência, segue esta ordem:
 ---
 
 ## 5. Checklist antes de publicar qualquer sequência
+
+Os **5 movimentos** são os 5 ângulos de dor e desejo que uma sequência de venda percorre pra levar o cliente do problema até a decisão: **sonhos** (o que ele quer alcançar), **falhas** (o que ele já tentou e não deu), **medos** (o que emperra a compra), **desconfianças** (por que ele duvida que funcione pra ele) e **inimigo** (o culpado externo pela dor, que sua oferta derrota). A sequência boa toca os cinco, não repete o mesmo.
 
 - [ ] Os 5 movimentos estão distribuídos (sonhos, falhas, medos, desconfianças, inimigo)?
 - [ ] Vocabulário está no campo semântico do cliente final (não "lead/funil/ticket")?

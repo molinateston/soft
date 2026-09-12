@@ -1,6 +1,6 @@
 # Plataforma PDF / Guia Notion
 
-Lead magnet em formato longo. PDF é linear, imprimível, offline. Notion é navegável, hipertextual, online. O núcleo Soft é o mesmo - o invólucro muda.
+Lead magnet em formato longo. PDF é linear, imprimível, offline. Notion é navegável, hipertextual, online. O núcleo da peça é o mesmo - o invólucro muda.
 
 ## Regra central
 

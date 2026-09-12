@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "soft-skills",
   "owner": {
-    "name": "Soft Business"
+    "name": "LEON"
   },
   "metadata": {
     "description": "Soft Skills — o Sócio IA (LEON) e as skills que montam o negócio do especialista, do zero ao rodando."
@@ -12,8 +12,8 @@
       "name": "soft-skills",
       "displayName": "Soft Skills",
       "source": "./",
-      "version": "1.0.6",
-      "description": "Sistema Soft Business completo: LEON conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
+      "version": "1.0.7",
+      "description": "Sistema completo do Sócio IA LEON, que conduz a jornada (posicionamento → conteúdo → funil → vendas → webinário → lançamento) e avalia cada ativo. Inclui treino. Instala tudo de uma vez e atualiza sozinho a cada release.",
       "strict": true
     }
   ]

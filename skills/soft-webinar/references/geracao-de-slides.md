@@ -2,7 +2,7 @@
 
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
-Esta reference é a **última etapa de produção** do Webinar Soft: pega o roteiro ADMA já pronto (`estrutura-webinario-aida.md`) e o transforma num **deck que constrói crença slide a slide**. Não reescreve copy nem reordena o roteiro, só *amplifica visualmente* o que já está escrito. A skill aqui aprende a (1) obedecer a **regra de ouro** (copy nas notas, slide visível mínimo, com slide bom×ruim instanciado na Seção 0), (2) montar o deck como **JSON no schema exato do `deck_gen.py`** (Seção 1), (3) escolher entre os **18 arquétipos de slide catalogados** com molde e exemplo (Seção 2), (4) mapear cada bloco do roteiro aos arquétipos por fase (Seção 3), e (5) sair por **dois caminhos portáveis** (Claude Code → `.pptx`; Claude Chat → PDF direto) passando no **checklist "quase perfeito"**.
+Esta reference é a **última etapa de produção** do Webinar deste método: pega o roteiro ADMA já pronto (`estrutura-webinario-aida.md`) e o transforma num **deck que constrói crença slide a slide**. Não reescreve copy nem reordena o roteiro, só *amplifica visualmente* o que já está escrito. A skill aqui aprende a (1) obedecer a **regra de ouro** (copy nas notas, slide visível mínimo, com slide bom×ruim instanciado na Seção 0), (2) montar o deck como **JSON no schema exato do `deck_gen.py`** (Seção 1), (3) escolher entre os **18 arquétipos de slide catalogados** com molde e exemplo (Seção 2), (4) mapear cada bloco do roteiro aos arquétipos por fase (Seção 3), e (5) sair por **dois caminhos portáveis** (com shell → `.pptx`; sem shell → PDF direto) passando no **checklist "quase perfeito"**.
 
 > Destilada do slide-craft de um deck-referência de alto faturamento (325 slides reconstruídos) mais o capítulo didático de montagem de deck (voz autoral, exemplos por nicho) e o gerador `scripts/deck_gen.py`. Todos os exemplos de slide são por **NICHO** (webinar de gestão, webinar de emprego, etc.), **nunca nome próprio de pessoa, aluno ou marca**. Os slots `(nome a definir com o usuário)` ficam marcados, não inventados.
 
@@ -99,7 +99,7 @@ Cada slide é um objeto com estes campos (todos opcionais conforme o `tipo`):
 - O rodapé "{DECK_BRAND} · {rotulo}" e o número da página são automáticos (a `capa` não numera). **A marca do rodapé vem da env `DECK_BRAND`** (default vazio = sem marca); nada de marca literal no código.
 - **Listas longas:** uma lista = UM objeto de slide com o array `itens` completo (NÃO um objeto por item). O `.pptx` mostra os itens estáticos numa tela só. A **animação clique-a-clique** (regra de ouro 7 da Seção 5, a dopamina) é aplicada *depois*, no PowerPoint/Slides (entrada item a item, na MESMA tela). No JSON, basta ter os `itens` na ordem da fala num único slide; anote na `nota` *"revelar item a item por clique (mesma tela)"*. Item por clique é animação, nunca slide novo.
 
-### Comando de build (Claude Code)
+### Comando de build (ambiente com shell)
 
 ```bash
 python3 scripts/deck_gen.py deck.json saida.pptx
@@ -381,6 +381,27 @@ Esqueleto mínimo de um webinário (nicho genérico, anonimizado). A copy comple
 
 ## 5. A REGRA DE OURO (a copy vai na nota, o slide é mínimo)
 
+> ### ⛔ CORREÇÃO DE 02/09/2026, LEIA ANTES DOS 9 ITENS ABAIXO
+>
+> **"Mínimo" nunca significou palavra solta.** A regra-mãe da tela é
+> `references/tela-granularidade-e-bloco.md`, e ela manda sobre esta seção: **toda linha que vai
+> para a tela é uma frase completa, com verbo conjugado, terminando em ponto, e que se explica
+> sozinha.** Rótulo curto só existe colado a uma frase completa na mesma linha.
+>
+> O item 1 abaixo diz "o slide visível recebe só o reforço (1 frase / 1 número / 1 imagem-conceito)".
+> Leia **1 frase** ao pé da letra: uma FRASE, não uma palavra, não uma etapa de fluxo, não um nome de
+> campo. E o item 3, "1 ideia por slide", continua valendo, com a correção de que a ideia se escreve
+> em frase inteira, mesmo na tela quase vazia da virada.
+>
+> O item 7 manda organizar tudo em lista para revelar por clique. Continua certo, com a mesma emenda:
+> **cada item da lista é uma frase completa**, e cada clique revela uma frase, nunca uma palavra.
+>
+> Motivo: o dono do método reprovou duas vezes seguidas, em 02/09/2026, uma aula cuja tela tinha
+> `anúncio → WhatsApp → horário marcado` e `ATRAÇÃO → QUALIFICAÇÃO → CONVERSÃO`, porque o apresentador
+> sem ensaio não sabe o que falar olhando para isso, e quem lê só os slides não entende a aula. O
+> exemplo ruim e o exemplo bom estão escritos por extenso na regra-mãe.
+
+
 1. **A copy falada mora no campo `nota`.** Sempre. O slide visível recebe só o reforço (1 frase / 1 número / 1 imagem-conceito).
 2. **Pergunta-teste:** se o slide pode ser narrado lendo o que está nele → está errado. Mova o texto pra `nota`.
 3. **1 ideia por slide.** Emoção/virada → tela quase vazia (`frase`/`secao`). Prova/referência → pode ser densa (`prova`, print).
@@ -402,21 +423,21 @@ Esqueleto mínimo de um webinário (nicho genérico, anonimizado). A copy comple
 
 ## 6. DOIS CAMINHOS DE SAÍDA (portabilidade)
 
-A skill roda tanto no Claude **Code** quanto no Claude **Chat**. O deck sai dos dois, só muda o motor.
+A skill roda tanto **com shell** quanto **só no chat**. O deck sai dos dois, só muda o caminho.
 
-### Caminho A, Claude CODE (gera `.pptx` via `deck_gen.py`)
+### Caminho A, com shell (gera `.pptx` via `deck_gen.py`)
 1. Monta o **array JSON** no schema da Seção 1 (copy na `nota`, tela mínima).
 2. Escreve em `deck.json`.
 3. Roda o build:
    ```bash
    python3 scripts/deck_gen.py deck.json saida.pptx
    ```
-4. Entrega o `.pptx` (ID visual Soft já aplicado). O player abre no PowerPoint/Google Slides e adiciona a **animação clique-a-clique** nas listas e o **quadro da câmera** (reservar a zona do vídeo do apresentador, apagar no fim), passos manuais que o `.pptx` não automatiza.
+4. Entrega o `.pptx` (a ID visual do dono já aplicada). O player abre no PowerPoint/Google Slides e adiciona a **animação clique-a-clique** nas listas e o **quadro da câmera** (reservar a zona do vídeo do apresentador, apagar no fim), passos manuais que o `.pptx` não automatiza.
 
-### Caminho B, Claude CHAT (descreve os slides e gera o PDF direto)
+### Caminho B, só no chat (descreve os slides e gera o PDF direto)
 Não há acesso a `deck_gen.py` nem a shell. Então:
 1. **Descreve cada slide** seguindo o mesmo mapa de arquétipos e a mesma regra de ouro, para cada slide: `tipo`/arquétipo, o **reforço visível** (1 frase/número/imagem) e a **copy nas notas**.
-2. Aplica na descrição o **ID visual Soft** (fundo preto, título display, verde=ganho/comprar, vermelho=medo, números gigantes na prova) para o player conseguir reproduzir.
+2. Aplica na descrição a **ID visual do dono** (fundo preto, título display, verde=ganho/comprar, vermelho=medo, números gigantes na prova) para o player conseguir reproduzir.
 3. **Gera o PDF direto** (renderizando a descrição como deck), entregando o documento pronto, sem passar por `deck_gen.py`.
 4. Marca os mesmos slots `(nome a definir com o usuário)` e as mesmas notas de animação clique-a-clique.
 

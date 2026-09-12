@@ -19,7 +19,7 @@ Material consolidado da Sala Secreta (evento de referência Julho 2025). Skill a
 - Princípios universais (todos os formatos)
 - Quando combinar formatos
 - Formato e cadência
-- Adaptação Soft Business
+- Adaptação ao método (lente)
 - Notas operacionais
 
 ---
@@ -522,16 +522,16 @@ Acima dessas cadências, audiência queima.
 
 ---
 
-## Adaptação Soft Business
+## Adaptação ao método (lente)
 
-**Cliente Soft Business** com lente Soft ativa:
+**Cliente deste método** com lente do método ativa:
 
 - Prioriza **noite única** ou **dia longo** (formatos solo)
-- **Recusa congresso** (exige squad: fora do espírito Soft)
-- Adapta tom da aula pro padrão Soft (clínico, filtra-não-convence, faca Soft)
+- **Recusa congresso** (exige squad: fora do espírito do método)
+- Adapta tom da aula pro padrão do método (clínico, filtra-não-convence, faca Soft)
 - Usa aplicação > checkout sempre (filtra ICP)
 - **Cadência máxima 1-2x/ano** (não importa o formato)
-- Pós-venda integra ao sistema Soft (não fica solto)
+- Pós-venda integra ao sistema do método (não fica solto)
 
 ---
 
@@ -541,4 +541,4 @@ Acima dessas cadências, audiência queima.
 - **Não impõe formato**: cliente decide com info na mesa
 - **Cliente que insiste em formato fora do recomendado**: skill estrutura mas alerta os riscos
 - **Combinação de formatos** só recomenda quando cliente tem 2+ lançamentos de experiência
-- **Formato Congresso** quase nunca cabe pra cliente Soft Business, skill alerta explicitamente
+- **Formato Congresso** quase nunca cabe pra cliente deste método, skill alerta explicitamente

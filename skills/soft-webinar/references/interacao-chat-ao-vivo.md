@@ -237,7 +237,7 @@ O chat não é acessório: é o sistema operacional do webinar - termômetro E m
 - [ ] **Disciplina de palco declarada** - o host anuncia quando vai parar de olhar o chat (protege o conteúdo sem esfriar) e justifica o silêncio no Q&A ("não estamos te ignorando").
 - [ ] **Em gravado/perpétuo: fallback honesto** - "say yes out loud", eco genérico sem nomes, auto-pergunta-e-resposta em cadência. A função sobrevive; a mentira, nunca.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Pedir interação sem razão funcional** ("comenta aí!", "manda um foguinho") - nenhum campeão pede engajamento pelo engajamento; todo pedido tem utilidade declarada pro host.
 - **Pedir e ignorar.** Comando de chat sem eco depois quebra o contrato no primeiro degrau - a sala aprende que responder não rende nada e o chat morre pro resto da live.

@@ -23,7 +23,7 @@ Um gerador de copy só é tão bom quanto a matéria-prima do usuário. Se o pro
 
 ## Onde o perfil mora (self-serve)
 
-O usuário instala as skills no Claude Code dele, e o perfil vive no ambiente DELE. Convenção: o arquivo `soft-perfil.md` na raiz do projeto do usuário (ou onde ele apontar). Todo Passo 0 procura esse arquivo. Achou: lê os 5 slots. Não achou: roda o onboarding antes de produzir qualquer peça. Nunca cai nos dados do perfil de exemplo por falta de perfil.
+O usuário instala as skills no ambiente dele, e o perfil vive no ambiente DELE. Convenção: o arquivo `soft-perfil.md` na raiz do projeto do usuário (ou onde ele apontar). Todo Passo 0 procura esse arquivo. Achou: lê os 5 slots. Não achou: roda o onboarding antes de produzir qualquer peça. Nunca cai nos dados do perfil de exemplo por falta de perfil.
 
 ## Onboarding (primeira vez, usuário sem perfil)
 

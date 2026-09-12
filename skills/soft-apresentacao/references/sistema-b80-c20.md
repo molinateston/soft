@@ -4,11 +4,11 @@
 
 B80/C20 é um sistema editorial para apresentações conduzidas com clareza. A base visual ocupa a maior parte do deck; recursos didáticos aparecem apenas quando o conteúdo exige uma estrutura adicional.
 
-## B — base de 80%
+## B, base de 80%
 
-- Fundo preto ou quase preto.
+- Fundo preto ou quase preto **quando o dono não declarou identidade visual**. Com identidade declarada, o fundo vem dela e a base pode ser clara; o que não muda é a régua: uma área focal, respiro amplo, destaque pontual e contraste de texto sobre fundo de no mínimo 4.5:1. Declare no handoff qual das duas origens você usou.
 - Texto claro e grande, normalmente alinhado à esquerda.
-- Verde usado para uma palavra, número, etapa ou ação — nunca espalhado por hábito.
+- Verde usado para uma palavra, número, etapa ou ação, nunca espalhado por hábito.
 - Uma área focal por slide.
 - Respiro amplo e margens consistentes.
 - Tipografia sans pesada nas headlines e regular no corpo.
@@ -23,7 +23,7 @@ Layouts-base:
 4. **Sequência simples:** etapas sobre uma linha comum, sem caixa para cada ideia.
 5. **Fechamento:** decisão única + CTA único.
 
-## C — recurso funcional de até 20%
+## C, recurso funcional de até 20%
 
 Usar somente para:
 

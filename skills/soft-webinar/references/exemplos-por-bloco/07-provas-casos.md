@@ -9,7 +9,7 @@
 - O que este bloco precisa fazer (síntese das premissas)
 - Exemplo por exemplo
 - Padrões transversais (checklist - o que TODOS fazem neste bloco)
-- Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+- Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 - Webinars sem este bloco (e por quê - também é dado)
 
 ---
@@ -331,7 +331,7 @@ Callback do contador ao vivo como prova de mercado (no fim do pitch):
 11. **Hedge honesto nos próprios números** ("eu chutaria… não tenho esse dado preciso"; "nem sei quanto daria hoje") - a modéstia pontual blinda o resto.
 12. **Pedido ativo de prova nova:** convocar alunos presentes a testemunhar ("coloca quanto você tá ganhando… ajuda quem está de fora").
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Depoimento adjetival sem nome nem número** ("curso maravilhoso, recomendo") como peça central - todos os campeões exigem cifra, timeline ou artefato.
 - **Um único tipo de prova** repetido (só prints, só o resultado do guru) - sem a escada, a objeção que aquela camada não cobre sobrevive.

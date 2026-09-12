@@ -99,7 +99,7 @@ Volume bateu, taxa bateu, o dinheiro não veio.
 
 Quando fica abaixo de 70% da meta no ponto de revisão, separa a natureza do problema:
 
-- **Vazamento estrutural** (posicionamento errado, Carta fraca, cliente ideal confuso) → volta pra fundação: `soft-posicionamento` ou `soft-funil-carta`. Não adianta ajustar volume.
+- **Vazamento estrutural** (posicionamento errado, Carta fraca, cliente ideal confuso) → volta pra fundação: `soft-plano-posicionamento` ou `soft-funil-carta`. Não adianta ajustar volume.
 - **Vazamento operacional** (cadência ruim, comercial despreparado, faltou tempo) → recalibra o plano dos meses seguintes com `soft-leon`.
 
 Fechamento de M6:

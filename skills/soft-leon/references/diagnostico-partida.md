@@ -113,7 +113,7 @@ Se cliente recusa, coach avisa que método não cobre essa promessa e cliente de
 
 ### O que extrair
 
-- Horas/semana disponíveis pra produção + comercial + operação Soft
+- Horas/semana disponíveis pra produção + comercial + operação do método
 - Quantas dessas são pra **produção de conteúdo** especificamente (separa do comercial)
 - Já trabalha com IA Vertical? Quanto tempo isso libera?
 
@@ -199,7 +199,7 @@ Skill identifica e avisa cliente em 3 casos:
 
 ### Caso 3, Posicionamento ausente
 Se cliente responde mas não tem Posicionamento Incomum cumprido (Fase 1 do coach):
-> *"Plano de Guerra precisa de Posicionamento cravado. Sem ele, conteúdo vira ruído mesmo no volume certo. Roda Fase 1 antes (skill `soft-posicionamento`) e volta com Posicionamento pronto."*
+> *"Plano de Guerra precisa de Posicionamento cravado. Sem ele, conteúdo vira ruído mesmo no volume certo. Roda Fase 1 antes (skill `soft-plano-posicionamento`) e volta com Posicionamento pronto."*
 
 ---
 

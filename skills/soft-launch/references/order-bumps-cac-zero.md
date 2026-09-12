@@ -264,8 +264,8 @@ A âncora visual aumenta conversão em 30-50%.
 
 ---
 
-## Nota Soft Business
+## Nota do método
 
-Para cliente Soft Business, alerta: **bumps que geram acesso direto ao expert** (Q&A, mentoria privada, sessão 1:1) escalam mal. Se o cliente vende 500 ingressos e 30% pegam Q&A = 150 pessoas. Q&A com 150 pessoas vira live, perde valor. Q&A com 30 pessoas é íntimo.
+Para cliente deste método, alerta: **bumps que geram acesso direto ao expert** (Q&A, mentoria privada, sessão 1:1) escalam mal. Se o cliente vende 500 ingressos e 30% pegam Q&A = 150 pessoas. Q&A com 150 pessoas vira live, perde valor. Q&A com 30 pessoas é íntimo.
 
-**Recomendação Soft:** limita explicitamente o bump de acesso ("apenas as primeiras 30 pessoas que adicionarem"). Cria escassez genuína + protege qualidade de entrega + mantém o expert escalando solo (princípio Soft).
+**Recomendação do método:** limita explicitamente o bump de acesso ("apenas as primeiras 30 pessoas que adicionarem"). Cria escassez genuína + protege qualidade de entrega + mantém o expert escalando solo (princípio do método).

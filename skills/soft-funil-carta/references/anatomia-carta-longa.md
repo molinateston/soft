@@ -1,6 +1,6 @@
 # Anatomia da Carta Longa de Resposta Direta (mapeada sobre o ADMA)
 
-A espinha da carta de vendas longa de resposta direta (a sales letter completa), mapeada SOBRE o arco ADMA do método Soft. É o que faz a skill escalar da Mini-Carta de 4-7min até a sales letter de 15-25min de leitura sem virar landing nem AIDA. Esta ref carrega a ESTRUTURA (a ordem dos blocos, o porquê de cada um, em qual fase ADMA cada bloco mora); a copy de cada bloco está em `blocos-copy.md`.
+A espinha da carta de vendas longa de resposta direta (a sales letter completa), mapeada SOBRE o arco ADMA deste método. É o que faz a skill escalar da Mini-Carta de 4-7min até a sales letter de 15-25min de leitura sem virar landing nem AIDA. Esta ref carrega a ESTRUTURA (a ordem dos blocos, o porquê de cada um, em qual fase ADMA cada bloco mora); a copy de cada bloco está em `blocos-copy.md`.
 
 **Leia esta ref no Passo 2-bis** (pra escolher o lead e o comprimento) **e no Passo 3** ao escrever a Longa (pra a ordem dos blocos, o duplo mecanismo, o value stack ancorado e o P.S. triplo).
 
@@ -132,7 +132,7 @@ Esta é a sequência completa da carta longa de resposta direta. Nem toda Longa 
 
 ## 5. O DUPLO MECANISMO (problema antes da solução)
 
-A virada que separa a Longa boa da Longa fraca. Vem do RMBC (Stefan Georgi) e é a versão de resposta direta do que o método Soft chama de **Reorganização da Percepção.**
+A virada que separa a Longa boa da Longa fraca. Vem do RMBC (Stefan Georgi) e é a versão de resposta direta do que este método chama de **Reorganização da Percepção.**
 
 Existem DOIS mecanismos, e a ordem importa:
 
@@ -183,7 +183,7 @@ Cada semente é curta, sai do conteúdo concreto, e empurra pro bloco seguinte. 
 
 ## 7. O value stack ancorado (lente Soft)
 
-Vem da lente de oferta de Alex Hormozi, destilada para o método Soft. A ideia: o leitor compara o valor que percebe contra o preço que vai pagar. Se o valor percebido pesa muito mais que o preço, ele compra. O value stack **empilha os componentes da oferta, cada um com sua própria âncora de valor**, pra que a soma percebida fique muito acima do número final.
+Vem da lente de oferta de Alex Hormozi, destilada para este método. A ideia: o leitor compara o valor que percebe contra o preço que vai pagar. Se o valor percebido pesa muito mais que o preço, ele compra. O value stack **empilha os componentes da oferta, cada um com sua própria âncora de valor**, pra que a soma percebida fique muito acima do número final.
 
 Três peças do value stack:
 

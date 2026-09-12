@@ -1,21 +1,22 @@
 # Receita canônica do formato print de tweet
 
-Decisão aprovada pelo Leo em 13/08/2026: “vamos ir nessa linha agora”. Fonte primária: `/home/cloud/.leon/brain/conteudo/frames-tweet-catalogo.md`.
+Receita fechada deste formato. Ela manda em toda peça estilo print de tweet; nada aqui é sugestão.
 
 ## Base comum
 
 - Formato: 1080×1350; fator de escala 2.
-- Cabeçalho: avatar real redondo de `/tmp/lean-bridge/avatar-circle.png`, nome `Léo Molina` (com acento, sempre), selo azul `#1D9BF0`, handle `@instadoleomolina`.
+- Cabeçalho: avatar real redondo (`PERFIL_AVATAR`), `<nome do dono>` grafado como ele escreve, acento incluído (`PERFIL_NOME`), selo azul `#1D9BF0`, `<@handle>` (`PERFIL_HANDLE`). Os três vêm do onboarding da skill, nunca cravados no código.
 - Nunca usar selo verde.
 - Nunca numerar o card.
 - Palavra-chave em verde; restante neutro.
 - Nunca deixar uma palavra sozinha na última linha. Nunca separar `R$` do número.
-- Tipografia: NUNCA Bebas Neue neste formato. Print de tweet é escrito na fonte de tweet: `-apple-system, 'Inter', 'Helvetica Neue', Arial, sans-serif` no corpo e no cabeçalho, tudo em peso normal/medium, texto tranquilo como um tweet de verdade. Peso 800 só na palavra-chave verde. Bebas é a identidade do carrossel genérico Soft e não entra aqui — se aparecer, a peça está contaminada e reprova.
+- Tipografia: NUNCA Bebas Neue neste formato. Print de tweet é escrito na fonte de tweet: `-apple-system, 'Inter', 'Helvetica Neue', Arial, sans-serif` no corpo e no cabeçalho, tudo em peso normal/medium, texto tranquilo como um tweet de verdade. Peso 800 só na palavra-chave verde. Bebas é a identidade do carrossel comum e não entra aqui: se aparecer, a peça está contaminada e reprova.
 
 ## Temas
 
 - Escuro: fundo `#0A0A0A` (a identidade geral aceita `#000000`), texto creme `#F5F2EC`, mudo `#8A8580`, destaque `#4ade80`.
-- Claro: fundo `#FFFFFF` ou `#F7F9F9`, texto `#0F1419`, mudo `#536471`, destaque `#15803d` ou `#16a34a`.
+- Claro: fundo `#F7F9F9` (o off-white padrão), texto `#0F1419`, mudo `#536471`, destaque `#15803d` ou `#16a34a`.
+- **O tema claro herda a cor do dono.** O fundo do tema claro é a cor declarada pelo dono; sem cor declarada, use o off-white padrão `#F7F9F9`. Branco puro `#FFFFFF` só entra quando o dono pede branco puro, com todas as letras. Prova antes de fechar: cole o hex do pixel do canto superior esquerdo do `slide-01.png` ao lado do hex declarado; hex diferente do declarado reprova o render.
 - Fundos internos claros: citação `#F7F9F9`/`#E1E8ED`, enquete `#EFF3F4`, balão recebido `#EFF3F4`, enviado `#D3F3DE`.
 
 ## Os nove frames e sua função
@@ -25,7 +26,7 @@ Decisão aprovada pelo Leo em 13/08/2026: “vamos ir nessa linha agora”. Font
 3. Thread: criar continuidade. Mostrar cabeçalho uma única vez; segundo bloco sem avatar, nome ou selo.
 4. Texto puro: punchline seca.
 5. Tópicos/chips: organizar dois ou três pontos.
-6. Citação: comentário do Leo sobre take genérico do mercado; nunca inventar autor real.
+6. Citação: comentário do dono sobre um take genérico do mercado; nunca inventar autor real.
 7. Número/KPI: provar com número real e contexto fiel.
 8. Print real: usar somente screenshot catalogado de verdade.
 9. Conversa: balões de bastidor; não chamar de print se for composição.
@@ -47,14 +48,13 @@ Decisão aprovada pelo Leo em 13/08/2026: “vamos ir nessa linha agora”. Font
 - Arco: listar o tipo escolhido para cada tela e provar ausência de repetição consecutiva.
 - Lastro: citar a fonte de todo número, print ou fala atribuída.
 
-## Ajustes de movimento e imagem (aprovado Leo 14/08/2026)
+## Ajustes de movimento e imagem
 
-Regras novas do formato, nascidas do V5 "ia-generica-vs-brain":
+Regras do formato que nasceram de peça reprovada em revisão:
 
 - SETINHA DE ARRASTE obrigatoria: seta pequena `->` em verde `#4ade80`
   no canto inferior direito de TODOS os slides de 1 a N-1. NUNCA no
-  ultimo slide (CTA). E o indicador de arrastar pro lado; faltou no V5 e
-  o Leo cobrou. Sem ela, reprova.
+  ultimo slide (CTA). E o indicador de arrastar pro lado. Sem ela, reprova.
 - ULTIMO SLIDE (CTA) = GIF animado com imagem forte de fundo, nao PNG
   chapado. Salvar slide-<N>.gif E um slide-<N>.png de fallback. A
   animacao pode ser sutil (CTA/seta pulsando, imagem com leve movimento).
@@ -62,5 +62,14 @@ Regras novas do formato, nascidas do V5 "ia-generica-vs-brain":
   um no meio da tensao, a prova, o GIF final no minimo), pra dar quebra
   visual entre os frames de texto.
 - IMPACTO CINEMATOGRAFICO nas imagens, NUNCA line-art chapado: fotografico,
-  profundidade, luz verde `#4ade80` batendo, fundo dark, dramatico. Gerar
-  via Codex image_gen ou mcp__morphix__generate_image. Imagem basica reprova.
+  profundidade, luz verde `#4ade80` batendo, fundo dark, dramatico. Gerar pelo
+  gerador de imagem disponivel no ambiente; se o ambiente nao tiver nenhum, pedir
+  a imagem ao dono descrevendo a cena nesses termos. Imagem basica reprova.
+- A CHECAGEM DE IMAGEM FORTE E DE NATUREZA, NAO DE QUANTIDADE. Por card marcado
+  como imagem forte, cole no veredito a linha:
+  `slide-NN | origem: <caminho do arquivo .png/.jpg no disco> | cores unicas: N (minimo 20.000)`.
+  Imagem desenhada em CSS (gradiente, silhueta, forma vetorial, ruido SVG) NAO
+  conta como imagem forte e nao entra na contagem, por mais bonita que fique: a
+  receita pede fotografico e proibe line-art chapado. Card sem arquivo de imagem
+  no disco conta como card de texto. A contagem de cores unicas separa foto de
+  desenho por medicao, sem depender de julgamento.

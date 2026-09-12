@@ -9,7 +9,7 @@
 - O que este bloco precisa fazer (síntese das premissas)
 - Exemplo por exemplo
 - Padrões transversais (checklist pra escrever o bloco)
-- Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+- Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 - Webinars sem este bloco (e por quê - também é dado)
 
 ---
@@ -306,7 +306,7 @@ Desmonte do pedestal (objeção "você é especial"):
 
 ---
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Currículo seco sem cicatriz.** Nenhum campeão lista títulos e resultados sem fundo do poço antes. Autoridade sem identificação distancia - e o lead que admira sem se identificar não compra ("ele consegue porque é ele").
 - **Começar pelo troféu.** Inverter a ordem (resultado primeiro, fracasso depois como nota de rodapé) mata o efeito espelho. O fracasso vem primeiro, sempre.
@@ -315,7 +315,7 @@ Desmonte do pedestal (objeção "você é especial"):
 - **Cicatriz genérica** ("eu também já sofri"). Sem detalhe sensorial e verificável (chuveiro, vômito, dormir no chão, camisa laranja na foto), a cicatriz não cola - especificidade é o que separa história de discurso.
 - **Âncora inventada dentro da autoridade.** Quando GA e o especialista do corpusC citam preço aqui, é preço auditável (site, bio). Seeding com número fake quebra o bloco inteiro quando o lead checa.
 - **Usar mecanismo alheio sem dono.** O especialista do corpusC cita "minha filha vai vir de família rica" e DEVOLVE o crédito ao Wendell Carvalho ao vivo. Regra do corpus: nome próprio de conceito tem dono ("visão de floresta" e "Síndrome do Fantástico" são da GA; "gestossauro" é do criador do webinar de gestão ágil estudado) - apropriar mecanismo de outro como seu é contaminação.
-- **Pro método Soft especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA - o avatar Soft é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
+- **Pra este método especificamente:** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA - o avatar deste método é DONO de negócio; a análise do corpus aponta que o Soft constrói autoridade por espelho de negócio (vida e números de dono, casos de alunos-donos), não por credencial corporativa. Decalcar a trilha de logos seria errar de avatar.
 - **Bloco de autoridade longo demais antes de dar valor.** Todos resolvem em ~5-8 minutos e fecham com humildade ("é ruim ficar falando de si") ou loop pro conteúdo. Autoridade que não abre loop pro resto da aula é monumento, não ponte.
 
 ---

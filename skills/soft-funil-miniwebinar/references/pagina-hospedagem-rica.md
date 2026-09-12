@@ -109,7 +109,7 @@ A ordem é lei. Cada bloco prepara o próximo.
 
 O destino do CTA muda pelo ticket (é decisão de negócio, não estética):
 - **Ticket ≤~3k:** pode levar pro **checkout/link** direto (a página pode fechar a venda de quem já decidiu).
-- **High-ticket (acima de ~3k):** fecha no **1:1**. O CTA leva pro `wa.me` ou pro Direct, **nunca o preço seco na página**. O degrau 1 qualifica e entrega quente; a venda em si é da `soft-vendas`.
+- **High-ticket (acima de ~3k):** fecha no **1:1**. O CTA leva pro `wa.me` ou pro Direct, **nunca o preço seco na página**. O degrau 1 qualifica e entrega quente; a venda em si é da `soft-vendas-closer`.
 
 Coerente com a regra Soft de preço-fora-da-peça: a página leva pra conversa no high-ticket, não despeja stack nem preço seco.
 

@@ -255,6 +255,6 @@ A mesma ideia × vários templates × um amplificador na frente = banco de peça
 
 1. Escolha o roteiro que se encaixa no ângulo e formato desejado.
 2. Substitua o nicho, os números e o mecanismo.
-3. Ajuste a duração (lembre: máximo 1:30).
+3. Ajuste a duração (faixa ótima 30 a 60s; teto 90s só quando a tese exigir e cada bloco segurar sozinho).
 4. Passe pelo gate interno do SKILL.md (Passo 5) antes de mostrar.
 5. Se for produção em lote, crie variações do mesmo roteiro trocando apenas o ângulo ou o gancho.

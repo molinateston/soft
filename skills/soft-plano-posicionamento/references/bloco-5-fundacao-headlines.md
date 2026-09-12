@@ -155,7 +155,7 @@ NÃO DEFENDO (não cabe nem como "fazer melhor"):
 
 ## Formato de saída do Bloco 5
 
-A skill apresenta o Bloco 5 EXATAMENTE no formato abaixo, ao final do artifact (depois do Bloco 4):
+A skill apresenta o Bloco 5 EXATAMENTE no formato abaixo, ao final do documento (depois do Bloco 4):
 
 ```markdown
 ---

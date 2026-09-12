@@ -223,21 +223,21 @@ Comparecimento é proporcional a quantos lembretes a pessoa recebe **no canal ce
 
 ---
 
-## Bloco 5: Operação Soft no pós-venda
+## Bloco 5: a operação do método no pós-venda
 
-### Quando o cliente é Soft Business
+### Quando o cliente é o método
 
-A área de membros pós-ingresso pode ser **embrião do sistema Soft próprio** que o cliente vai construir depois do lançamento. Aproveita:
+A área de membros pós-ingresso pode ser **embrião do sistema próprio do método** que o cliente vai construir depois do lançamento. Aproveita:
 
 - Pesquisa pós-compra → vira insumo pra `soft-plano-posicionamento` (Posicionamento Incomum) atualizar avatar
 - Feed/fórum → vira ativo permanente que pode evoluir pra comunidade soft pós-venda
-- Lead scoring → vira input pro CRM Soft
+- Lead scoring → vira input pro CRM do método
 
-### Erro Soft mais comum
+### Erro mais comum do método
 
-Cliente Soft que faz lançamento e **abandona a área de membros após o evento**. Lead que pagou ingresso, comprou produto ou não, fica órfão. **Pior cenário:** todos esses leads viram base congelada que só mexe no próximo lançamento (Armadilha 3 plena).
+Cliente deste método que faz lançamento e **abandona a área de membros após o evento**. Lead que pagou ingresso, comprou produto ou não, fica órfão. **Pior cenário:** todos esses leads viram base congelada que só mexe no próximo lançamento (Armadilha 3 plena).
 
-**Recomendação Soft:** após o lançamento, integra essa base no sistema constante (Mini Carta do Soft + conteúdo Z1 + Stories CARO direcionado). Detalhe em `debriefing-e-integracao.md`.
+**Recomendação do método:** após o lançamento, integra essa base no sistema constante (Mini Carta do método + conteúdo Z1 + Stories CARO direcionado). Detalhe em `debriefing-e-integracao.md`.
 
 ---
 
@@ -275,7 +275,7 @@ Comparecimento <70% é vermelho. Diagnóstico em ordem:
 6. **WhatsApp + E-mail.** Só e-mail mata comparecimento.
 7. **Lembretes em 5 momentos:** 48h, 24h, 2h, 30min, 5min.
 8. **Comparecimento <70% = sintoma.** Não problema.
-9. **Para Soft Business: área não morre pós-evento.** Vira embrião do sistema constante.
+9. **Para quem segue este método: área não morre pós-evento.** Vira embrião do sistema constante.
 
 ---
 

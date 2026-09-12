@@ -1,44 +1,55 @@
-# Verbatim · toda copy Soft ancora em fonte canonica do dono
+# Verbatim · toda copy ancora em fonte que o dono forneceu
 
-A copy Soft NAO inventa fato do negocio. Tese, prova, nome de mecanismo, numero, historia, transformacao tem lastro em fonte canonica.
+A copy NAO inventa fato do negocio. Tese, prova, nome de mecanismo, numero, historia, transformacao tem lastro em fonte real do dono.
 
-## Fontes na ordem
+As fontes de lastro sao ENTRADA desta skill. Ela nunca sai lendo arquivo fora da propria pasta: quem chama informa os caminhos, ou o dono informa na conversa.
 
-1. aula-webinar-AAA-gravada.md (verbatim real da aula do webinar do dono, ~1h49 com transcricao literal). Path default: ~/.openclaw/brain/conteudo/aula-webinar-AAA-gravada.md
+## Fontes na ordem de peso
 
-2. NARRATIVA-CANONICA.md (a fonte da verdade da tese-mae). Path: ~/.openclaw/brain/NARRATIVA-CANONICA.md
+1. Transcricao literal do dono falando (aula, webinar, live, call gravada). Maior peso: e a voz dele, palavra por palavra.
+2. A tese-mae escrita: narrativa canonica, documento de posicionamento, manifesto, o que o dono chamar de fonte da verdade do negocio.
+3. Bancos derivados: desejos, promessas, materia-prima, verbatim de cliente, comentario e mensagem real.
+4. Plano de posicionamento do dono, se ja existir.
 
-3. Camadas: CANONICO.md, ARSENAL-DE-DESEJOS.md, PROMESSA-MAXIMA.md, BANCO-DE-MATERIA-PRIMA.md, DESEJOS-QUE-ESCALAM.md
+## Onde procurar (nesta ordem)
 
-4. plano-de-posicionamento do dono (se ja existe, path informado pela skill chamadora)
+1. Os caminhos que a skill chamadora informou.
+2. A variavel de ambiente `FONTES_LASTRO`, se o ambiente tiver shell e ela estiver definida (lista de caminhos separados por dois-pontos).
+3. A pasta que o dono apontar na conversa.
 
-## Como grepar
+## Se nao houver fonte nenhuma
 
-Para cada afirmacao grande da copy, extrai 2-3 termos-chave (nome de mecanismo, numero, prova, historia) e grepa nas fontes:
+O filtro nao para o trabalho. Usa a tese e a oferta declaradas na propria conversa como lastro e marca toda afirmacao grande que nao apareceu ali como `[LASTRO: confirmar com o dono]`. Numero, nome de mecanismo e historia continuam reprovando se sairam do nada.
 
-  grep -i -l "TERMO" ~/.openclaw/brain/**/*.md
+## Como checar
 
-Se nenhum arquivo retorna, e chute. Reprova.
+Para cada afirmacao grande da copy, extrai 2-3 termos-chave (nome de mecanismo, numero, prova, historia) e procura nas fontes informadas.
 
-## Provas canonicas validadas (exemplo inventado, nao copia)
+Com shell:
 
-Estes sao exemplos ilustrativos, no formato dos fatos verbatim que aparecem na aula do webinar do dono. Ilustram o padrao "afirmacao grande + prova ao lado":
+    grep -ril "TERMO" "$FONTES_LASTRO"
+
+Sem shell: pede o trecho ao dono e confere no olho. Se nenhum material retorna o termo, e chute. Reprova.
+
+## Formato da prova (exemplos inventados, nao copia)
+
+Exemplos ilustrativos, no formato dos fatos verbatim que costumam aparecer numa aula gravada. Ilustram o padrao "afirmacao grande + prova ao lado":
 
 - alguns milhoes gerados em dez anos (na agencia).
 - Escola de nicho: 7 digitos em 2 anos, com 5 pessoas, 1 funil so.
 - 1 ano sem postar e seguiu vendendo.
 
-Nao use estes numeros pra cliente nenhum: sao inventados. Cada dono tem os seus. Estao aqui so como MODELO da estrutura "numero + contexto + peso".
+Nao use estes numeros pra dono nenhum: sao inventados. Cada dono tem os seus. Estao aqui so como MODELO da estrutura "numero + contexto + peso".
 
-## Como o dono novo declara as provas dele
+## Como o dono declara as provas dele
 
-A skill chamadora, quando trabalha pra outro dono, precisa do path do brain dele. Padrao esperado:
+Quando a skill chamadora trabalha pra um dono novo, ela precisa apontar o material de lastro. Padrao esperado, dentro da pasta que o dono escolher:
 
-- <brain-do-dono>/conteudo/aula-webinar-AAA-gravada.md (se ja tem aula gravada)
-- <brain-do-dono>/NARRATIVA-CANONICA.md (a tese-mae dele)
-- <brain-do-dono>/plano-de-posicionamento.md (se ja rodou soft-plano-posicionamento)
+- a transcricao da aula ou live, se ja tiver alguma gravada;
+- o documento da tese-mae dele;
+- o plano de posicionamento, se ja rodou `soft-plano-posicionamento`.
 
-Se o dono nao tem nada disso ainda, o filtro Verbatim reprova qualquer promessa grande e sugere: "roda soft-plano-posicionamento antes, precisa da tese-mae ancorada."
+Se o dono nao tem nada disso ainda, o filtro reprova promessa grande sem prova e sugere: rode `soft-plano-posicionamento` antes, ou declare a tese e a oferta aqui na conversa pra virarem o lastro minimo.
 
 ## O criterio duro
 

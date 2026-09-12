@@ -5,7 +5,7 @@ import captions from './captions.json';
 
 const green='#4ade80',white='#f7f7f3',mute='#b8b8b8';
 const clamp={extrapolateLeft:'clamp' as const,extrapolateRight:'clamp' as const};
-const TOP_H=1070;               // metade de cima: rosto do Leo, FIXO, nunca coberto
+const TOP_H=1070;               // metade de cima: rosto do apresentador, FIXO, nunca coberto
 const BAND_H=1920-TOP_H;        // metade de baixo: todo o apoio mora aqui
 
 const Reveal:React.FC<React.PropsWithChildren<{delay?:number}>>=({children,delay=0})=>{
@@ -26,7 +26,7 @@ const Bullets:React.FC<{items:string[];delay:number}>=({items,delay})=>(
   </div>
 );
 
-// cabecalho da faixa (eyebrow + titulo) — comum a slide e a tela
+// cabecalho da faixa (eyebrow + titulo), comum a slide e a tela
 const Eyebrow:React.FC<{eyebrow:string}>=({eyebrow})=>(
   <Reveal><div style={{display:'flex',alignItems:'center',gap:16}}><div style={{width:40,height:6,background:green,borderRadius:3}}/><div style={{fontSize:28,fontWeight:800,color:green,letterSpacing:3,textTransform:'uppercase'}}>{eyebrow}</div></div></Reveal>
 );
@@ -34,7 +34,7 @@ const Title:React.FC<{line1:string;accent:string;delay?:number}>=({line1,accent,
   <Reveal delay={delay}><div style={{fontSize:88,lineHeight:.98,fontWeight:900,letterSpacing:-3,color:white,marginTop:36}}>{line1}<br/><span style={{color:green}}>{accent}</span></div></Reveal>
 );
 
-// SLIDE de texto (metade de baixo) — pontos um a um
+// SLIDE de texto (metade de baixo), pontos um a um
 const Lower:React.FC<{eyebrow:string;line1:string;accent:string;body?:string;dur:number}>=({eyebrow,line1,accent,body,dur})=>{
   const f=useCurrentFrame();
   const items=body?(body.includes('→')?body.split('→'):body.includes('·')?body.split('·'):[]).map(s=>s.trim()).filter(Boolean):[];
@@ -93,7 +93,7 @@ const Caption:React.FC=()=>{
 };
 
 const Director=()=> <AbsoluteFill style={{background:'#000'}}>
-  {/* METADE DE CIMA: rosto LIMPO do Leo (clean_top.mp4), FIXO o video inteiro, nunca coberto */}
+  {/* METADE DE CIMA: rosto LIMPO do apresentador (clean_top.mp4), FIXO o video inteiro, nunca coberto */}
   <div style={{position:'absolute',top:0,left:0,width:1080,height:TOP_H,overflow:'hidden'}}>
     <Video src={staticFile('clean_top.mp4')} durationInFrames={1845} style={{position:'absolute',top:-700,left:-135,width:1350,height:2400}}/>
   </div>
@@ -103,7 +103,7 @@ const Director=()=> <AbsoluteFill style={{background:'#000'}}>
   <Sequence from={180} durationInFrames={360}><Lower dur={360} eyebrow="Caso Augusto" line1="Uma operação de" accent="~ R$ 5 mi/ano" body="Educação online · Harmonização facial"/></Sequence>
   <Sequence from={540} durationInFrames={350}><Lower dur={350} eyebrow="Antes" line1="Duas semanas" accent="para cada volta" body="Copy · análise · web design · feedback · retrabalho"/></Sequence>
   <Sequence from={890} durationInFrames={350}><Lower dur={350} eyebrow="Agora" line1="Um áudio." accent="Página pronta." body="Outro áudio · 100% pronta no domínio"/></Sequence>
-  <Sequence from={1240} durationInFrames={310}><LowerScreen dur={310} eyebrow="Interface" line1="Direto com o agente" accent="no Telegram." kind="video" src="telegram.mp4"/></Sequence>
+  <Sequence from={1240} durationInFrames={310}><LowerScreen dur={310} eyebrow="Interface" line1="Direto com o agente" accent="no mensageiro." kind="video" src="tela-app.mp4"/></Sequence>
   <Sequence from={1550} durationInFrames={295}><LowerScreen dur={295} eyebrow="Resultado" line1="Eficiência" accent="operacional." kind="img" src="ops.png"/></Sequence>
 </AbsoluteFill>;
 

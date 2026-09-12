@@ -1,4 +1,4 @@
-# Como o especialista aplica o Soft Business no próprio negócio, autoguiado pelo LEON
+# Como o especialista aplica este método no próprio negócio, autoguiado pelo LEON
 
 > O passo a passo do cliente sendo conduzido. Não é teoria do método: é o que acontece na tela, do zero ao negócio rodando, com o LEON entrevistando, invocando a skill certa e cravando cada ativo antes de liberar o próximo.
 
@@ -6,7 +6,7 @@
 
 ## Antes de começar: o que é o LEON, e por que ele entrevista
 
-O LEON é o Sócio IA. Não é um chat que responde pergunta. É quem conduz a obra.
+O LEON é o Motor de IA. Não é um chat que responde pergunta. É quem conduz a obra.
 
 Ele faz três coisas, nessa ordem: orquestra a jornada (sabe a sequência, invoca a skill certa, uma por vez), ensina o porquê de cada etapa numa pílula curta, e valida o ativo antes de liberar o próximo. Tom clínico. Direto. Crítico quando merece, aprovador quando merece. Nunca guru, nunca "você consegue".
 
@@ -87,8 +87,8 @@ Ele anuncia e age:
 
 Como ele faz, concretamente:
 
-- **WebSearch**, rastreia o mercado: quem são os concorrentes que ocupam o espaço, que linguagem eles usam, que faixas de preço pratica o nicho, que ângulos já têm dono. Roda em rodadas encadeadas: mapeia nomes, aprofunda nos tops, caça a lacuna, mede a força da dor.
-- **WebFetch**, entra nas páginas e perfis-chave e lê o que está lá: o que o concorrente promete, o que os comentários reclamam, as expressões cruas que aparecem nas fontes públicas do nicho, reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais.
+- **Busca web** (a do ambiente, quando houver), rastreia o mercado: quem são os concorrentes que ocupam o espaço, que linguagem eles usam, que faixas de preço pratica o nicho, que ângulos já têm dono. Roda em rodadas encadeadas: mapeia nomes, aprofunda nos tops, caça a lacuna, mede a força da dor.
+- **Leitura de página** (se o ambiente abrir URL; senão peça o texto ao usuário), entra nas páginas e perfis-chave e lê o que está lá: o que o concorrente promete, o que os comentários reclamam, as expressões cruas que aparecem nas fontes públicas do nicho, reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais.
 - **Cruza com o material que o próprio especialista trouxer**, se o cliente tem transcrição de call, depoimento cru ou print de conversa de venda do público dele, é aqui que a pesquisa passa de "o que a internet diz" pra "o que o cliente-final disse, com as palavras dele". O LEON cruza o que achou na web com esse material e separa o vocabulário que repete. Se o especialista não tem nada disso, a web sozinha já entrega a linguagem do nicho, a pesquisa não depende de nenhuma base pré-pronta.
 
 ### Por que isso supera o deep research do chat
@@ -109,7 +109,7 @@ Quase nada, esse passo é trabalho do LEON. No máximo o especialista confirma 1
 
 ### Skill invocada
 
-Ainda o LEON, usando WebSearch + WebFetch nas fontes públicas do nicho do cliente, mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-plano-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
+Ainda o LEON, usando a busca web e a leitura de página do ambiente nas fontes públicas do nicho do cliente, mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-plano-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
 
 ---
 
@@ -268,7 +268,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ### O que o LEON faz
 
-> *"Abre conversa nova e aciona a `soft-funil`. Ela já vai ler sua `soft-plano-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
+> *"Abre conversa nova e aciona a `soft-funil-carta`. Ela já vai ler sua `soft-plano-posicionamento-[nome]` antes de escrever uma linha, é de lá que sai o tom. Você decide: Carta ou Vídeo. Traz a peça pronta e diagramada."*
 
 A skill confirma os pré-requisitos (Plano e Voz definidos), escreve primeiro a espinha em texto corrido na voz do cliente, depois adapta ao formato escolhido (Carta em 4 blocos pra leitura solitária, ou Vídeo com os timings de gravação), e diagrama caso a caso.
 
@@ -291,7 +291,7 @@ Carta densa, sem gordura, com um só caminho de saída. Fechou, libera o Passo 5
 
 ### Skill invocada
 
-`soft-funil`.
+`soft-funil-carta`.
 
 ---
 
@@ -393,7 +393,7 @@ Fechado, libera o Passo 7.
 
 ### O que o LEON faz
 
-> *"Aciona a `soft-funil`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
+> *"Aciona a `soft-vendas-closer`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
 
 A skill herda do guia a cabeça do vendedor, as 7 fases, o termômetro, o Isolamento, o catálogo de objeções no tom Soft e as frases de poder por situação. Adapta tudo ao canal (WhatsApp, call ou reunião) e ao ticket.
 
@@ -415,7 +415,7 @@ Fechado, libera o Passo 8.
 
 ### Skill invocada
 
-`soft-funil`.
+`soft-vendas-closer`.
 
 ---
 
@@ -472,7 +472,7 @@ Quando o especialista chega aqui, ele não tem "umas ideias de marketing". Ele t
 - **Os Scripts Comerciais**, as 7 fases, objeções e frases de poder no tom dele. (Passo 7)
 - **A Rotina Estratégica**, a conta, a esteira, o calendário, os blocos e os rituais. (Passo 8)
 
-E o motor que carrega tudo isso todo dia: o **Sócio IA** já configurado com a voz e os ativos dele dentro. Ele não abre perguntando "sobre o que você quer falar?". Abre já sabendo quem é o cliente, qual é o método, como o especialista fala e o que ele vende. O improviso morre na configuração.
+E o motor que carrega tudo isso todo dia: o **Motor de IA** já configurado com a voz e os ativos dele dentro. Ele não abre perguntando "sobre o que você quer falar?". Abre já sabendo quem é o cliente, qual é o método, como o especialista fala e o que ele vende. O improviso morre na configuração.
 
 ### A régua do LEON (a lei que atravessa tudo)
 

@@ -2,11 +2,11 @@
 
 ## Ordem de escolha
 
-1. Imagem pela conta ChatGPT: padrão para cenas e objetos. Nunca usar chave OpenAI paga.
+1. Imagem pelo gerador já incluído no ambiente (a CLI de IA em uso, quando ela gera imagem): padrão para cenas e objetos. Nunca abrir chave paga nova por conta própria.
 2. Movimento local: zoom suave, deriva, parallax e camadas. Custo zero e padrão para volume.
 3. KAIROGEN: usar quando uma cena realmente precisa de movimento gerado. Endereço oficial `https://mcp.kairogen.ai/mcp`. Consultar saldo, modelo e custo antes. Mostrar o número ao dono e esperar o sim. Gerar uma cena por vez.
 4. Higgsfield: alternativa quando personagem consistente, modelo específico ou controle de cena justificar. Exige conexão e a mesma confirmação de custo.
-5. Veo direto ou outro serviço: fallback opcional. Nunca substituir por uma chave paga sem ordem.
+5. Outro serviço de vídeo generativo: fallback opcional. Nunca substituir por uma chave paga sem ordem do dono.
 
 ## Regra image-first
 

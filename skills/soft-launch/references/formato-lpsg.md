@@ -18,7 +18,7 @@ Material consolidado do método de referência da LPSG, baseado no que está pub
 - Bloco 5: Cadência operacional
 - Bloco 6: estrutura operacional de referência (esquadrão de agentes)
 - Bloco 7: Integração Funil 8 + LPSG
-- Adaptação Soft Business (lente opcional)
+- Adaptação ao método (lente) (lente opcional)
 - Quando NÃO usar LPSG
 - Métricas de referência LPSG
 - Erros comuns na execução
@@ -144,10 +144,10 @@ C3: Conversão (fundo)
 
 ### Distribuição de conteúdo
 
-A LPSG opera distribuição alta, múltiplos posts por dia em múltiplos formatos (Reel, Carrossel, Stories, YouTube). Para cliente Soft Business, isso pode contradizer o princípio 1:1:1:1 (1 canal principal). Adapta:
+A LPSG opera distribuição alta, múltiplos posts por dia em múltiplos formatos (Reel, Carrossel, Stories, YouTube). Para cliente deste método, isso pode contradizer o princípio 1:1:1:1 (1 canal principal). Adapta:
 
-- **Cliente não-Soft:** segue distribuição LPSG
-- **Cliente Soft Business:** adapta C1/C2/C3 ao canal principal escolhido
+- **Cliente fora do método:** segue distribuição LPSG
+- **Cliente deste método:** adapta C1/C2/C3 ao canal principal escolhido
 
 ---
 
@@ -244,7 +244,7 @@ LPSG opera direto via checkout, não aplicação. Diferente de Sala Secreta, ond
 
 ### Risco específico do LPSG
 
-> **Operação contínua exige time/IA forte.** Não dá pra rodar LPSG sem alguém dedicado a tráfego, criativos, CRM. Pra cliente Soft Business operando solo, LPSG sem IA Vertical é insustentável.
+> **Operação contínua exige time/IA forte.** Não dá pra rodar LPSG sem alguém dedicado a tráfego, criativos, CRM. Pra cliente deste método operando solo, LPSG sem IA Vertical é insustentável.
 
 ---
 
@@ -275,7 +275,7 @@ A estrutura de referência opera com constituição explícita (princípios que 
 4. **Anti-IA visual**: zero elemento com cara de IA em peça visual
 5. **Português sempre**
 
-> Para cliente Soft Business, esses princípios se sobrepõem com filosofia Soft (zero invenção, tom clínico, foco). Adaptação direta.
+> Para cliente deste método, esses princípios se sobrepõem com filosofia do método (zero invenção, tom clínico, foco). Adaptação direta.
 
 ### O conceito Base-Turbo (relevante pra qualquer skill)
 
@@ -287,7 +287,7 @@ Antes de produzir qualquer peça, A LPSG exige consolidação em 6 dossiês:
 - `referencias-expert.md`: concorrência e benchmarks
 - `inventario.md`: assets existentes
 
-> Conceito **muito útil** pra integrar ao ecossistema Soft (extração futura, fora do escopo desta skill).
+> Conceito **muito útil** pra integrar ao ecossistema do método (extração futura, fora do escopo desta skill).
 
 ---
 
@@ -326,35 +326,35 @@ Resultado: CAC negativo + receita previsível + base que se autossustenta.
 
 ---
 
-## Adaptação Soft Business (lente opcional)
+## Adaptação ao método (lente) (lente opcional)
 
-**Quando cliente é Soft Business**, skill aplica modificadores:
+**Quando cliente é o método**, skill aplica modificadores:
 
 ### Modificador 1: Cadência
 
-LPSG **semanal contínuo** contradiz princípio Soft *"sistema constante > pico"*. Alternativas:
+LPSG **semanal contínuo** contradiz princípio do método *"sistema constante > pico"*. Alternativas:
 - LPSG quinzenal ou mensal (não semanal)
 - LPSG só pra produto secundário (não principal)
 - LPSG temporário pra acelerar receita, não pra estruturar negócio
 
 ### Modificador 2: Funil 8 vs Carta Soft
 
-Funil 8 é **front-end de aquisição via produto baixo ticket**. Soft Business usa **Mini Carta + DM** com mesma função, qualifica antes da conversa.
+Funil 8 é **front-end de aquisição via produto baixo ticket**. Este método usa **Mini Carta + DM** com mesma função, qualifica antes da conversa.
 
-Skill recomenda: cliente Soft pode usar Funil 8 **adicionalmente** (não em substituição) à Carta Soft. Funil 8 = aquisição volumétrica. Carta = qualificação alto-ticket.
+Skill recomenda: cliente deste método pode usar Funil 8 **adicionalmente** (não em substituição) à Carta Soft. Funil 8 = aquisição volumétrica. Carta = qualificação alto-ticket.
 
 ### Modificador 3: esquadrão de agentes vs Solo + IA Vertical
 
-A LPSG opera com 10 agentes IA + freelancers. Soft Business opera solo + IA Vertical + freelancers pontuais.
+A LPSG opera com 10 agentes IA + freelancers. Quem segue este método opera solo + IA Vertical + freelancers pontuais.
 
-Cliente Soft adapta:
+Cliente deste método adapta:
 - 1-2 agentes principais (não 10)
 - IA Vertical absorve a maior parte
 - Freelancers pontuais (designer, gestor de tráfego)
 
-### Modificador 4: C1/C2/C3 + Conteúdo Soft
+### Modificador 4: C1/C2/C3 + Conteúdo do método
 
-Skill ajusta C1/C2/C3 ao princípio Soft "1 canal principal":
+Skill ajusta C1/C2/C3 ao princípio do método "1 canal principal":
 - C1 vira Reel Lo-fi (alcance)
 - C2 vira Carrossel 3C (preparação)
 - C3 vira Stories CARO (conversão)
@@ -363,7 +363,7 @@ Estrutura paralela, vocabulário diferente.
 
 ### Modificador 5: Integração final
 
-Cliente alto-ticket convertido pelo LPSG entra no sistema Soft (não em "lista pra próximo lançamento"). Detalhe em `debriefing-e-integracao.md`.
+Cliente alto-ticket convertido pelo LPSG entra no sistema do método (não em "lista pra próximo lançamento"). Detalhe em `debriefing-e-integracao.md`.
 
 ---
 

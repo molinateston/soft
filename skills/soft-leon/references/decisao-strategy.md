@@ -92,17 +92,17 @@ Onde os 3 se encontram = ouriço.
 - Cliente confunde com concorrente
 - Aceita qualquer oportunidade que aparece
 
-### Aplicação prática, caso Soft Business (do autor do método)
+### Aplicação prática, caso do método (exemplo genérico do autor do método)
 
 | Círculo | Resposta |
 |---------|----------|
 | Paixão | Ajudar especialistas (consultores/mentores) escalarem sem virar caos digital |
-| Melhor do mundo | Método Soft Business validado em 10 anos de mercado |
+| Melhor do mundo | Método validado em 10 anos de mercado |
 | Motor econômico | Lucro por mentoria/implementação (R$2-5k × volume) |
 
-**Ouriço Soft:** "Ajudar especialistas (consultores/mentores/infoprodutores) que já vendem conhecimento a estruturar sistema de aquisição simples, com método Soft Business, vendendo mentoria/implementação de R$2-5k."
+**Ouriço do método:** "Ajudar especialistas (consultores/mentores/infoprodutores) que já vendem conhecimento a estruturar sistema de aquisição simples, com método próprio, vendendo mentoria/implementação de R$2-5k."
 
-**Tudo fora dessa interseção, Soft Business recusa:**
+**Tudo fora dessa interseção, este método recusa:**
 - Tráfego pago como serviço (não é o melhor)
 - Lançamentos PLF (não é o método)
 - E-commerce (não é o cliente)
@@ -549,7 +549,7 @@ Cliente Fase 1-2 cansado de não ver resultado em 6 meses pivota por exaustão. 
 ## Notas operacionais
 
 - **Skill puxa essa reference em qualquer decisão estratégica importante.** ouriço, captação grande, M&A, pivot, oferta nova, mercado novo.
-- **Para o autor do método escalando o negócio**: ouriço Soft já está claro. A fronteira frequentemente está em "recusar oportunidade" (especialista pedindo serviço fora do Soft).
+- **Para o autor do método escalando o negócio**: ouriço do método já está claro. A fronteira frequentemente está em "recusar oportunidade" (especialista pedindo serviço fora do Soft).
 - **Para o especialista cliente do método**: ouriço ainda em construção. Reference 4 (decisão) ajuda na transição de validação pra escala.
 - **Para empresário genérico**: dependendo da fase, prioriza ouriço (Fase 1-2) ou frameworks de decisão (Fase 3-4).
 - **Decisão em chama (estresse extremo)**: skill **alerta** cliente pra adiar se possível. Decisão sob estresse erra mais.

@@ -21,7 +21,7 @@ A Estrutura Mãe (os 5 papéis: Capa · Capa Reserva · Contexto · Conteúdo ·
 E o tom universal em `shared-references/` (`shared-references/dicionario-conversacional.md` + `shared-references/adaptacao-semantica.md` - **atenção redobrada**: LinkedIn e YouTube são armadilhas pra jargão de marketing) e os **2 filtros obrigatórios** (`shared-references/filtro-anti-ia/` e `shared-references/filtro-mobile-first/`).
 
 Também obrigatório na primeira invocação:
-- **`references/nucleo-soft-extracao.md`** - o protocolo desta reference: extrai o núcleo Soft do conteúdo-âncora primeiro, adapta depois.
+- **`references/nucleo-soft-extracao.md`** - o protocolo desta reference: extrai o núcleo da peça do conteúdo-âncora primeiro, adapta depois.
 
 ---
 
@@ -79,7 +79,7 @@ Depois de mapear, **como cada papel deve ser re-renderizado no formato alvo?**
 | **TikTok / Reels / Shorts** | `references/plataforma-tiktok-shorts.md` | Reel Soft já vira TikTok/Shorts - intro retention 70%+, 15-35s ideal, loop natural, legendas |
 | **YouTube longo** | `references/plataforma-youtube-longo.md` | Roteiro 8-12min + pacote completo de publicação (título, descrição, tags, capítulos, thumbnail, SEO, UTM) |
 | **PDF / Guia Notion** | `references/plataforma-pdf-notion.md` | Lead magnet 5-7 páginas (PDF) ou página Notion (mais navegável, links internos) |
-| **Mini Webinar** | `references/plataforma-mini-webinar.md` | Distribuição/hospedagem da Mini Webinar Soft (a construção do roteiro fica na skill `soft-funil`) |
+| **Mini Webinar** | `references/plataforma-mini-webinar.md` | Distribuição/hospedagem da Mini Webinar (a construção do roteiro fica na skill `soft-funil-*`) |
 
 ---
 
@@ -97,7 +97,7 @@ Se não disse, pergunta UMA vez:
 
 > *"Pra qual plataforma? LinkedIn, X/Threads, Substack/Email, TikTok/Shorts, YouTube longo, PDF/Notion ou distribuição da Mini Webinar?"*
 
-### Etapa 3 - Extração do núcleo Soft (obrigatório)
+### Etapa 3 - Extração do núcleo da peça (obrigatório)
 
 Consulta `references/nucleo-soft-extracao.md` e extrai do conteúdo-âncora:
 - Problema de 3ª Camada
@@ -121,12 +121,12 @@ A peça adaptada atravessa os **2 filtros de `shared-references/`** + a checagem
 1. **Anti-IA** (toda a copy) - zero em-dashes, nenhum dos 12 padrões banidos, teste em voz alta. Detectou padrão → `shared-references/filtro-anti-ia/estrategias-reescrita.md`.
 2. **Mobile-First** - só quando a peça é visual (carrossel PDF, thumbnail, guia em PDF/Notion). Detectou falha → `shared-references/filtro-mobile-first/checklist-final.md`.
 3. **Fidelidade Soft** (silenciosa):
-   - O núcleo Soft (problema, método, contraste, prova, CTA) permaneceu?
+   - O núcleo da peça (problema, método, contraste, prova, CTA) permaneceu?
    - O tom clínico foi preservado ou vazou jargão da plataforma?
    - O CTA continua filtrante?
    - Se eu apagasse o nome do criador, a peça adaptada poderia ser de qualquer um? (Se sim, falhou.)
 
-> **Blair Warren é princípio de fundo, não framework citado.** Os 5 movimentos já estão absorvidos pela Estrutura Mãe e pelo núcleo Soft (Problema de 3ª Camada justifica falhas, vilão atira a pedra, diagnóstico confirma desconfianças, promessa incentiva sonhos, garantia aplaca medos). Não cheque "os 5 movimentos de Blair" como lista - cheque se o **núcleo Soft sobreviveu** à adaptação. Se sobreviveu, os movimentos vieram junto.
+> **Blair Warren é princípio de fundo, não framework citado.** Os 5 movimentos já estão absorvidos pela Estrutura Mãe e pelo núcleo da peça (Problema de 3ª Camada justifica falhas, vilão atira a pedra, diagnóstico confirma desconfianças, promessa incentiva sonhos, garantia aplaca medos). Não cheque "os 5 movimentos de Blair" como lista - cheque se o **núcleo da peça sobreviveu** à adaptação. Se sobreviveu, os movimentos vieram junto.
 
 ---
 
@@ -177,14 +177,14 @@ O carrossel tem N slides mas os 5 papéis não são N unidades - alguns papéis 
 
 ## References desta reference
 
-- **`references/nucleo-soft-extracao.md`** - protocolo de extração do núcleo Soft
+- **`references/nucleo-soft-extracao.md`** - protocolo de extração do núcleo da peça
 - **`references/plataforma-linkedin.md`** - LinkedIn
 - **`references/plataforma-x-threads.md`** - X / Threads
 - **`references/plataforma-substack-email.md`** - Substack / Email
 - **`references/plataforma-tiktok-shorts.md`** - TikTok / Shorts
 - **`references/plataforma-youtube-longo.md`** - YouTube longo + pacote de publicação
 - **`references/plataforma-pdf-notion.md`** - PDF / Notion
-- **`references/plataforma-mini-webinar.md`** - Distribuição da Mini Webinar Soft (hospedagem, cauda, follow-up)
+- **`references/plataforma-mini-webinar.md`** - Distribuição da Mini Webinar (hospedagem, cauda, follow-up)
 
 Estrutura Mãe → `references/estrutura-peca.md`. Fórmula 7 → skill `soft-conteudo-carrossel`. Tom e filtros → `shared-references/`.
 
@@ -192,8 +192,8 @@ Estrutura Mãe → `references/estrutura-peca.md`. Fórmula 7 → skill `soft-co
 
 ## Resumo da regra única
 
-> **Multiplataforma não é tradução. É engenharia reversa. Mapeia os 5 papéis do original (`references/estrutura-peca.md`). Re-renderiza no formato alvo preservando função. Núcleo Soft intacto. Tom clínico intacto. CTA filtrante intacto. Filtros Anti-IA + Mobile-First antes de entregar.**
+> **Multiplataforma não é tradução. É engenharia reversa. Mapeia os 5 papéis do original (`references/estrutura-peca.md`). Re-renderiza no formato alvo preservando função. Núcleo da Peça intacto. Tom clínico intacto. CTA filtrante intacto. Filtros Anti-IA + Mobile-First antes de entregar.**
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
 
-A peça adaptada passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de entregar, IGUAL à peça-âncora: ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + 3 perguntas do Harry + Ação/CTA com destino) → anti-IA. Peça que falha não sai. Adaptar de formato não dispensa o gate.
+A peça adaptada passa pelo Crivo embutido (`shared-references/crivo/`) ANTES de entregar, IGUAL à peça-âncora: ancoragem (aspa literal real) → simulação na pele do avatar → gate CUB bloqueante (Confuso, Inacreditável, Boring, + as 3 perguntas (dá pra ver, dá pra falsificar, só você diz) + Ação/CTA com destino) → anti-IA. Peça que falha não sai. Adaptar de formato não dispensa o gate.

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Builder do Soft Carrossel Designer.
+Builder do Carrossel Designer.
 
 Monta o preview.html a partir de:
 - Lista de slides (cada um já desenhado como string HTML)
@@ -24,10 +24,10 @@ Uso típico (dentro do código que gera o carrossel):
         embed_fonts=True,  # use False pra carregar do Google Fonts CDN
     )
 
-    Path("/home/claude/trabalho/preview.html").write_text(html, encoding="utf-8")
+    Path(os.environ.get("WORKDIR", ".")).joinpath("preview.html").write_text(html, encoding="utf-8")
 
 Esse script NÃO desenha slides individuais. Ele apenas costura o template.
-A skill (Claude) é quem decide a estrutura interna de cada slide com base
+A skill (o modelo) é quem decide a estrutura interna de cada slide com base
 nos references das famílias.
 
 MODO FONTES:

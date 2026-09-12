@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consultoria de Instagram"
+  short_description: "Audita perfis do Instagram como sistemas comerciais"
+  default_prompt: "Audite este Instagram, separe evidência de hipótese e entregue correções prontas em ordem de prioridade."

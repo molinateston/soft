@@ -1,4 +1,4 @@
-# Capítulo 1 · Filosofia Soft Business
+# Capítulo 1 · Filosofia este método
 
 > Fundação do método. Antes de qualquer tática, a posição. Este capítulo explica por que o método existe, o que ele é, e a única coisa que ele opera: a percepção do cliente.
 
@@ -22,13 +22,13 @@ Toda vez que não dá certo, a conclusão é sempre a mesma: "talvez o próximo 
 
 Não é falta de esforço. Nunca foi. É falta de **posição**, e de um sistema que funcione sem ele estar presente o tempo todo.
 
-Soft Business existe pra resolver esse Especialista.
+este método existe pra resolver esse Especialista.
 
 ---
 
 ## 1.2 · O que é
 
-Soft Business é um método de construção e escala de negócio digital pro Especialista que opera solo: pessoa com conhecimento próprio, método de entrega, expertise pra vender.
+este método é um método de construção e escala de negócio digital pro Especialista que opera solo: pessoa com conhecimento próprio, método de entrega, expertise pra vender.
 
 O nome carrega a tese. **Soft** = sólido, simples, sustentável. **Business** = negócio inteiro, não só marketing.
 
@@ -36,11 +36,11 @@ O que ele cobre:
 
 - **Posicionamento Incomum**: quem você atende, qual problema resolve, como você ocupa um lugar que ninguém mais ocupa.
 - **Funil Minimalista**: conteúdo que filtra (orgânico **e** pago), Carta ou Vídeo Minimalista que qualifica, WhatsApp que fecha.
-- **Sócio IA**: o motor de criação que carrega roteiros, copy, páginas e briefings pra você operar solo.
+- **Motor de IA**: o motor de criação que carrega roteiros, copy, páginas e briefings pra você operar solo.
 
 ### A fórmula do método: 2 Pilares + 1 Motor = 10X$
 
-Dois Pilares mais o Sócio IA produzem um resultado 10x em três dimensões:
+Dois Pilares mais o Motor de IA produzem um resultado 10x em três dimensões:
 
 | Dimensão | O que muda |
 |---|---|
@@ -48,7 +48,7 @@ Dois Pilares mais o Sócio IA produzem um resultado 10x em três dimensões:
 | **10x mais leve** | Não precisa focar em vender o tempo todo. O sistema atrai, qualifica e pré-vende enquanto você atende. |
 | **10x mais previsível** | Controle total das variáveis do negócio. Quem controla, gere. Quem gere, prevê. |
 
-A promessa não é mágica, é mecânica. Ela se sustenta na equação que abre a próxima seção: o Funil Minimalista resolve a Complexidade (mais simples), o Sócio IA resolve o Improviso (mais leve), o Posicionamento resolve a Invisibilidade (mais previsível).
+A promessa não é mágica, é mecânica. Ela se sustenta na equação que abre a próxima seção: o Funil Minimalista resolve a Complexidade (mais simples), o Motor de IA resolve o Improviso (mais leve), o Posicionamento resolve a Invisibilidade (mais previsível).
 
 ---
 
@@ -66,15 +66,15 @@ Quando os dois se somam, o resultado é **Invisibilidade**: só vem gente desqua
 
 **Dois registros, uma verdade.** "Invisibilidade" é o nome do **mecanismo**, o diagnóstico que o método enxerga por baixo. Mas ninguém chega dizendo "sou invisível". O que sai da boca dele é o **teto**: tá preso, comparado por preço, refém da operação, vê gente pior na frente. Na superfície você fala pelo teto que ele vive; a invisibilidade fica por baixo, como a causa que o método ataca. **Regra dura: nunca escreva "você é invisível" numa peça, isso é jargão de diagnóstico. Escreve o teto.**
 
-O Soft Business quebra os dois lados da equação ao mesmo tempo:
+O este método quebra os dois lados da equação ao mesmo tempo:
 
 | Pilar | O que resolve |
 |---|---|
 | **Posicionamento Incomum** | Resolve a Invisibilidade. Faz o cliente certo te encontrar pelo método, não pelo preço. |
 | **Funil Minimalista** | Resolve a Complexidade. Um caminho simples do conteúdo ao fechamento, sem operação pesada. |
-| **Sócio IA** | Resolve o Improviso. Carrega o que você não sabe fazer (copy, roteiro, tecnologia) com sistema, não com ânimo do dia. |
+| **Motor de IA** | Resolve o Improviso. Carrega o que você não sabe fazer (copy, roteiro, tecnologia) com sistema, não com ânimo do dia. |
 
-Na prática, esses dois pilares viram três guias que você percorre em ordem. O **Plano de Marca Pessoal** constrói o Pilar 1. O **Funil Mínimo Viável** e as **Vendas Consultivas** desdobram o Pilar 2, o funil leva o lead até a conversa, a venda fecha. O **Sócio IA** atravessa os três. É a mesma arquitetura vista de dois jeitos: 2 pilares pra entender, 3 guias pra executar.
+Na prática, esses dois pilares viram três guias que você percorre em ordem. O **Plano de Marca Pessoal** constrói o Pilar 1. O **Funil Mínimo Viável** e as **Vendas Consultivas** desdobram o Pilar 2, o funil leva o lead até a conversa, a venda fecha. O **Motor de IA** atravessa os três. É a mesma arquitetura vista de dois jeitos: 2 pilares pra entender, 3 guias pra executar.
 
 ---
 
@@ -143,14 +143,14 @@ Receita pode desaparecer no mês seguinte. Ativo se acumula: posicionamento fort
 
 A informação commoditizou, o cliente chega tendo pesquisado tudo. O valor migrou da informação pra curadoria, interpretação e síntese. **Quem organiza melhor o caos do mercado vale mais que quem só sabe mais.** Você não vence mais só sabendo mais; vence organizando e conduzindo melhor.
 
-Por isso o Soft Business não constrói só um funil de vendas. Constrói um conjunto de **ativos de percepção** que se compõem com o tempo. A pergunta de ouro que orienta isso: *o que eu construo hoje que ainda vai me trazer cliente daqui a dois anos?*
+Por isso este método não constrói só um funil de vendas. Constrói um conjunto de **ativos de percepção** que se compõem com o tempo. A pergunta de ouro que orienta isso: *o que eu construo hoje que ainda vai me trazer cliente daqui a dois anos?*
 
 ---
 
-## 1.7 · O que Soft Business NÃO é
+## 1.7 · O que este método NÃO é
 
 - **Não é "postar pouco" como filosofia.** É postar muito sobre 1 coisa só.
-- **Não é fugir de volume por medo.** É volume com foco, com o Sócio IA carregando a criação.
+- **Não é fugir de volume por medo.** É volume com foco, com o Motor de IA carregando a criação.
 - **Não é marketing fraco ou passivo.** É marketing clínico, direto, sem floreio.
 - **Não é pra iniciante sem competência técnica.** O sistema amplifica quem já transforma.
 
@@ -166,7 +166,7 @@ O Verdadeiro Especialista tem três atributos:
 - **Posição clara no mercado**: sabe quem atende, qual problema resolve, por que é diferente.
 - **Sistema de aquisição previsível**: não depende de lançamento, indicação ou sorte.
 
-Soft Business serve a qualquer Especialista que vende conhecimento e precisa construir posição no digital. Alguns exemplos:
+este método serve a qualquer Especialista que vende conhecimento e precisa construir posição no digital. Alguns exemplos:
 
 - **Profissionais liberais:** advogados, médicos, dentistas, fisioterapeutas, nutricionistas, psicólogos, arquitetos, engenheiros, contadores.
 - **Consultores e mentores:** consultores B2B, mentores de negócio, consultores financeiros, coaches com método próprio, especialistas em RH, processos, gestão.
@@ -192,7 +192,7 @@ A diferença entre os dois estados aparece no dia a dia:
 
 Competência técnica real. O sistema amplifica quem já transforma, **não resolve falta de expertise.**
 
-Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu método não tem prova de transformar pessoas, pare aqui. Soft Business não vai resolver isso. Volte ao básico: pegue 3 a 5 clientes em condições reais, comprove que entrega resultado, e só então aplique este manual.
+Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu método não tem prova de transformar pessoas, pare aqui. este método não vai resolver isso. Volte ao básico: pegue 3 a 5 clientes em condições reais, comprove que entrega resultado, e só então aplique este manual.
 
 ---
 

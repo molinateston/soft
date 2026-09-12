@@ -4,7 +4,7 @@
 >
 > **O que entrega:** as 7 etapas do funil único com fórmula, faixa baixa, faixa alta e piso de vazamento; os 4 sinais agregados; a migração do benchmark pra taxa própria.
 
-**Origem dos números:** tabela do Benchmark Soft do método (`soft-leon/references/benchmark-soft.md`). Nenhum número aqui é de mercado externo. Onde a referência não existe, está escrito `[A DEFINIR com o dono]`.
+**Origem dos números:** a tabela de benchmark do próprio método, consolidada nesta reference. Nenhum número aqui é de mercado externo. Onde a referência não existe, está escrito `[A DEFINIR com o dono]`.
 
 ---
 
@@ -58,6 +58,20 @@ Engajamento qualificado = salvar + compartilhar. Like e comentário decorativo n
 
 **Vazamento aqui = bio fraca ou CTA inexistente.** A peça não direciona, ou direciona e a bio não vende o clique.
 
+## Etapa 3B, Funil de isca: Download da isca → Resposta do lead
+
+Vale quando o funil entrega uma isca (guia, planilha, checklist, aula gravada) antes da conversa. Esta etapa entra entre a Etapa 3 (clique) e a Etapa 5 (conversa), e substitui a Etapa 4 quando não existe DM no caminho.
+
+| Variável | Faixa baixa | Faixa alta | Vazamento abaixo | Onde medir |
+|---|---|---|---|---|
+| Clique na página → e-mail ou WhatsApp deixado | 25% | 45% | 15% | página de captura |
+| Download da isca → resposta do lead (qualquer canal) | 8% | 20% | 4% | ferramenta de envio + caixa do dono |
+| Download → conversa que passa de 2 trocas | 4% | 12% | 2% | caixa do dono |
+
+**Estas 3 faixas são referência inicial `[A CONFIRMAR]`.** Elas não vieram do histórico do dono, e sim de piso de mercado pra funil de isca com tráfego frio a morno. Use como primeira régua enquanto o dono não tiver 2 ciclos próprios medidos; a partir do segundo ciclo, o histórico dele vence a faixa. Sempre que citar um número desta tabela num diagnóstico, escreva junto: `faixa de referência [A CONFIRMAR], ainda não é o histórico do dono`.
+
+**Vazamento aqui = isca que resolve sozinha ou não pede nada.** O lead baixa, agradece e some, porque a isca fecha o assunto em vez de abrir a próxima pergunta, ou porque nada dentro dela pede resposta.
+
 ## Etapa 4, Clique → DM qualificado
 
 | Variável | Faixa baixa | Faixa alta | Vazamento abaixo |
@@ -99,13 +113,13 @@ Até R$1.500 a "conversa qualificada" é o próprio WhatsApp. De R$1.500 a R$5.0
 | Lead morno → Downsell passivo | 5% | 15% | 3% |
 | Upsell Downsell → Principal (60d) | 10% | 25% | 5% |
 
-**Vazamento aqui = uma das fases da conversa falhou** (Recuo, Descoberta, Implicação, Conexão, Apresentação, Isolamento, Fechamento). Vai pra `soft-vendas`.
+**Vazamento aqui = uma das fases da conversa falhou** (Recuo, Descoberta, Implicação, Conexão, Apresentação, Isolamento, Fechamento). Vai pra `soft-vendas-closer`.
 
 ---
 
 ## Os 4 sinais agregados (saúde geral, além das taxas)
 
-| Sinal | Fórmula | Faixa Soft | Vazamento |
+| Sinal | Fórmula | Faixa do método | Vazamento |
 |---|---|---|---|
 | Custo por DM qualificado (orgânico) | horas de produção ÷ DMs qualificados | 0,5h a 2h por DM | acima de 3h |
 | Custo por DM qualificado (pago) | investimento ÷ DMs gerados | R$3 a R$15 por DM | acima de R$25 |

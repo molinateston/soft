@@ -2,7 +2,7 @@
 
 > **Quando consultar:** ao rodar o P3 do SKILL.md (a estrategia de COMO/QUANDO lancar a oferta high-ticket).
 >
-> **A fronteira desta reference:** aqui e a **estrategia de lancamento** (quando vender, com que sequencia, por que canal). **Desenhar/precificar a mentoria em si** (a regra 10x, as 4 etapas do Mapa, a Ficha Tecnica de 11 itens, as 4 ferramentas de acompanhamento) e da **soft-plano-ofertas** (tipo mentoria, em `references/mentoria-operacional.md`). **Conduzir a conversa e responder objecao** e da **soft-vendas-closer**. Esta reference decide a JOGADA de lancamento e aponta pras maes; nao faz o trabalho delas.
+> **A fronteira desta reference:** aqui e a **estrategia de lancamento** (quando vender, com que sequencia, por que canal). **Desenhar/precificar a mentoria em si** (a regra 10x, as 4 etapas do Mapa, a Ficha Tecnica de 11 itens, as 4 ferramentas de acompanhamento) e da **soft-plano-ofertas** (tipo mentoria). **Conduzir a conversa e responder objecao** e da **soft-vendas-closer**. Esta reference decide a JOGADA de lancamento e aponta pras maes; nao faz o trabalho delas.
 >
 > **Como esta reference trata numero e exemplo:** a mecanica esta em voz propria. Exemplos em **nicho ficticio rotulado** (mostram o formato, nunca sao molde). Metas e tickets do dono sao SLOTS, `[A CONFIRMAR]` ate validar. Numeros de MECANICA (2 founding, dias alternados, 6-7 pessoas, ciclo de 6 meses, 10% do Pix) ficam.
 
@@ -28,7 +28,7 @@
 
 Ou seja: vende a proposta primeiro, com data de inicio; monta em progresso com os primeiros, elaborando junto com a primeira turma. **Se nao vender, era hipotese errada e o dono gastou minutos de story, nao semanas de producao.**
 
-> **Fronteira:** o DESENHO do que vai ser vendido (o problema escolhido, o Mapa da Transformacao, a Ficha Tecnica, o preco pela regra 10x) e da **soft-plano-ofertas** (o tipo mentoria, em `references/mentoria-operacional.md`). Aqui a jogada e decidir vender ANTES de montar, com data futura.
+> **Fronteira:** o DESENHO do que vai ser vendido (o problema escolhido, o Mapa da Transformacao, a Ficha Tecnica, o preco pela regra 10x) e da **soft-plano-ofertas** (o tipo mentoria). Aqui a jogada e decidir vender ANTES de montar, com data futura.
 
 ---
 
@@ -54,7 +54,7 @@ So libera o proximo nivel quem consumiu o atual. Puxa quem estava parado.
 
 Os primeiros entram por condicao especial em troca de deixar o caso documentado: o formulario de saida cruzado + depoimento. **Sem caso, nao escala** (sem renovacao, sem indicacao).
 
-> **Fronteira:** o formulario de saida cruzado (a ferramenta 4 de acompanhamento) e o desenho da mentoria, da **soft-plano-ofertas** (`references/mentoria-operacional.md`). A **regua do depoimento e a troca bonus-por-prova** estao logo abaixo (secao "A caixa de provas"). Aqui a jogada e condicionar o preco especial de founding a entrega do caso.
+> **Fronteira:** o formulario de saida cruzado (a ferramenta 4 de acompanhamento) e o desenho da mentoria, da **soft-plano-ofertas** (bloco do tipo mentoria). A **regua do depoimento e a troca bonus-por-prova** estao logo abaixo (secao "A caixa de provas"). Aqui a jogada e condicionar o preco especial de founding a entrega do caso.
 
 ---
 
@@ -94,7 +94,7 @@ O canal do fechamento e do **FUNIL, nao do ticket**:
 
 - **A esteira comercial 1:1** (mentoria, jogadas de campanha) fecha **via de regra na DM/WhatsApp**, mesmo high-ticket. O doc de oferta + audio/video curto fecham ali mesmo, sem marcar call.
 - **A call/reuniao e excecao de contexto**, nao o degrau seguinte do preco: entra quando o lead pede a conducao ao vivo, o caso e complexo (B2B, decisao a varios), ou o especialista prefere.
-- **O Funil de Aula Agendada** fecha one-step no checkout, na propria aula. A esteira 1:1 vem DEPOIS como ascensao.
+- **O funil de aula/webinar** fecha one-step no checkout, na propria aula. A esteira 1:1 vem DEPOIS como ascensao.
 - **SDR+Closer so com equipe e volume.** Volume baixo e ticket alto, uma pessoa faz as duas pontas na DM.
 
 > **Fronteira:** quem **conduz** o fechamento na DM = **soft-vendas-closer** (modo `dm-sem-call`); quem **abre/qualifica/agenda** quando ha equipe e volume = **soft-vendas-sdr**. Esta reference so decide QUE canal a jogada usa; a conducao e das irmas.
@@ -160,7 +160,7 @@ Um depoimento que vende tem estrutura. Peca (e a nota "baixo valor nao sera acei
 - O que foi a virada / o momento que virou a chave.
 - **Print** da tela/resultado quando existir.
 
-O relatorio de evolucao (do formulario de saida cruzado, a ferramenta 4 em `soft-plano-ofertas` → `references/mentoria-operacional.md`) ja entrega ao mentorado o material do depoimento na mao: ele viu o proprio delta, os numeros, o antes e depois. Peca o depoimento LOGO depois de mostrar o relatorio, e quando a percepcao do resultado esta no pico.
+O relatorio de evolucao (do formulario de saida cruzado, a ferramenta 4 da `soft-plano-ofertas`) ja entrega ao mentorado o material do depoimento na mao: ele viu o proprio delta, os numeros, o antes e depois. Peca o depoimento LOGO depois de mostrar o relatorio, e quando a percepcao do resultado esta no pico.
 
 ### Case vs depoimento da experiencia (nao confundir)
 | | **Depoimento da experiencia** | **Case (resultado)** |

@@ -12,7 +12,7 @@ Antes de cortar o que cheira a IA, garante o positivo: cada frase **simples, cla
 
 ## Índice
 
-- 1. Em dashes "—"
+- 1. Em dashes (o travessão longo U+2014)
 - 2. Tricolons performáticos (a, b, e c)
 - 3. Listas paralelas com mesma estrutura sintática
 - 4. Frases-emoldura que prometem revelação
@@ -50,17 +50,17 @@ Antes de cortar o que cheira a IA, garante o positivo: cada frase **simples, cla
 
 ---
 
-## 1. Em dashes "—"
+## 1. Em dashes (o travessão longo U+2014)
 
 ZERO em qualquer lugar do texto. Substituir SEMPRE por ponto ou hífen comum.
 
-❌ "Soft Business — sistema simples — funciona."
-✅ "Soft Business. Sistema simples. Funciona."
+❌ "Consultoria de vendas [travessão longo] sistema simples [travessão longo] funciona."
+✅ "Consultoria de vendas. Sistema simples. Funciona."
 
-❌ "Você quer crescer — mas o sistema te emperra."
+❌ "Você quer crescer [travessão longo] mas o sistema te emperra."
 ✅ "Você quer crescer. Mas o sistema te emperra."
 
-Por quê: em dash é praticamente assinatura de IA. Nenhum brasileiro digita em dash naturalmente. Quem digita "—" tá usando IA ou tá tentando parecer que tá usando.
+Por quê: em dash é praticamente assinatura de IA. Nenhum brasileiro digita em dash naturalmente. Quem digita travessão longo tá usando IA ou tá tentando parecer que tá usando.
 
 ---
 
@@ -145,7 +145,7 @@ Por quê: IA gosta de fechar parágrafo com frase de impacto isolada. Vira gimmi
 ## 8. Verbos de transformação genéricos
 
 ❌ "Revoluciona", "transforma", "redefine"
-❌ "Destrava", "desbloqueia", "libera"
+❌ "Desbloqueia", "libera", "solta o freio"
 ❌ "Potencializa", "alavanca", "amplifica"
 ❌ "Eleva", "expande", "maximiza"
 
@@ -153,13 +153,13 @@ Por quê: IA gosta de fechar parágrafo com frase de impacto isolada. Vira gimmi
 
 Por quê: IA adora verbo de transformação. Soa potente, mas é vazio. Copy autoral usa verbo concreto.
 
-> **Anti-voz Soft - "travar" é palavra banida em TODAS as formas.** O método não escreve **travar · trava · travado/travada · travou · travando · travamento · destravar · destrava**, nem na copy nem na descrição (única exceção: citação literal da fala do cliente, entre aspas, ex.: *"tô travado"*). É tell de método-genérico, e foi banido na voz Soft. Substitutos por sentido:
-> - *parar/emperrar:* emperrar · empacar · paralisar · parar · ficar parado (✅ "o sorriso **fica parado** na foto", ❌ "o sorriso **trava** na foto")
+> **Anti-voz Soft: o verbo-freio é palavra banida em TODAS as formas.** O verbo aqui é aquele que rima com "cravar" e quer dizer emperrar. O método não o escreve em nenhuma flexão (infinitivo, presente, particípio, gerúndio, o substantivo derivado, nem a versão com o prefixo "des-"), nem na copy nem na descrição. Única exceção: citação literal da fala do cliente, entre aspas. É tell de método-genérico. Substitutos por sentido:
+> - *parar/emperrar:* emperrar · empacar · paralisar · parar · ficar parado (✅ "o sorriso **fica parado** na foto", ❌ o mesmo com o verbo-freio no lugar de "fica parado")
 > - *consolidar/fixar:* cravar · firmar · fechar · fixar
 > - *o oposto (soltar):* sair do lugar · soltar · destrancar
 > - *o obstáculo:* freio · amarra · bloqueio · gargalo
 >
-> Vale pra carrossel, reel, stories, carta, headline - qualquer peça. Achou "trava" na revisão? Troca antes de entregar.
+> Vale pra carrossel, reel, stories, carta, headline, qualquer peça. Achou o verbo-freio na revisão? Troca antes de entregar.
 
 ---
 
@@ -230,7 +230,7 @@ Por quê: aspas são pra discurso direto ou citação. IA usa pra "dar tom" a pa
 
 Por quê: dar vontade, intenção ou cuidado a uma coisa inanimada (método, estratégia, IA, conteúdo, **caixa, renda, algoritmo, mês, janela**) é tell estrutural de IA, e envelhece menos que palavra da moda, por isso é traiçoeiro. Quem age é a pessoa; a ferramenta é ferramenta. Devolve a agência pro humano. (Tell estrutural, do stop-slop.)
 
-**Soft Soft:** "caixa" como substantivo de dinheiro passa ("gasta o caixa", "era o caixa que eu tinha"). Crime = caixa/renda/mês **agindo** com verbo de humano. Porta operacional: `/root/missao-conteudo/ANTI-IA-SISTEMA.md`.
+**Soft Soft:** "caixa" como substantivo de dinheiro passa ("gasta o caixa", "era o caixa que eu tinha"). Crime = caixa/renda/mês **agindo** com verbo de humano.
 
 ---
 
@@ -520,13 +520,11 @@ Não pula. Esse é o filtro final.
 
 O passo 2 ("CTRL+F cada padrão") agora tem um linter executável que toda skill de peça carrega na própria pasta: **`scripts/lint_copy.py`**. Roda igual em toda execução, não depende do agente lembrar.
 
-**Porta Soft Soft (pilha completa):** `/root/missao-conteudo/ANTI-IA-SISTEMA.md`
-
 ```bash
 python3 "$SKILLS_DIR/soft-conteudo-headlines/scripts/lint_copy.py" peca.txt   # SKILLS_DIR = o diretório de skills da SUA instalação
 ```
 
-- **HARD (reprova, exit 1):** em-dash; família "travar"; dupla nao-e; "Nao e." pelado; antítese-nominal telegráfica; molde Nao-e-X / E-Y curto; "nao e sobre"; muleta de swipe/proximo; **personificação Soft Soft** (caixa/renda/algoritmo/feed/mês/janela + verbo humano).
+- **HARD (reprova, exit 1):** em-dash; família do verbo-freio; dupla nao-e; "Nao e." pelado; antítese-nominal telegráfica; molde Nao-e-X / E-Y curto; "nao e sobre"; muleta de swipe/proximo; **personificação Soft Soft** (caixa/renda/algoritmo/feed/mês/janela + verbo humano).
 - **WARN (revisar no olho):** conectivo formal, frase-emoldura, verbo de transformação, frase dramática, abertura/fechamento banido, emoji decorativo, excesso de "literalmente/absolutamente/verdadeiro".
 - **Continua no olho** (código não pega sem falso-positivo alto): tricolon, simetria de listas, adjetivação dupla, abstrato-virando-promessa, leva 14-28, drama em staccato genérico. Soft Soft: metáfora literária ("mesma roda") + voz de mesa (`CRIVO-VOZ-MESA.md`). Pra esses: voz alta + `falsos-positivos.md`.
 

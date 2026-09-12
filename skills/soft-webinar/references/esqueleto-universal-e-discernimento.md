@@ -1,6 +1,6 @@
 # Esqueleto universal + discernimento (o Webinar Soft por dentro)
 
-Esta reference é a **camada de inteligência** do Webinar Soft: por que a estrutura funciona em QUALQUER nicho, e como adaptá-la ao player específico. Ela senta POR CIMA do roteiro (`estrutura-webinario-aida.md`) - não repete o roteiro, explica o esqueleto e o discernimento.
+Esta reference é a **camada de inteligência** do Webinar deste método: por que a estrutura funciona em QUALQUER nicho, e como adaptá-la ao player específico. Ela senta POR CIMA do roteiro (`estrutura-webinario-aida.md`) - não repete o roteiro, explica o esqueleto e o discernimento.
 
 > Destilado de webinars que faturaram alto em nichos OPOSTOS (gestão ágil, incorporação, arquitetura, dieta, dentística, perícia) + a teoria clássica (Fladlien, Brunson Perfect Webinar e Expert Secrets, a escola do webinar de conversão). A descoberta: **todos rodam o MESMO esqueleto.** Muda o tom e os exemplos, nunca a estrutura. Esta reference carrega a inteligência que decide O QUÊ entra (universal) e COMO preencher (do avatar).
 

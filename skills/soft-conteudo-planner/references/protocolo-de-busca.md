@@ -32,11 +32,11 @@ Essas três regras são o que separa o radar de um "clipping genérico de IA". S
 
 A varredura ao vivo depende do ambiente. Use a melhor via disponível, nesta ordem:
 
-1. **WebSearch + WebFetch** (base, quase sempre disponível no Claude Code e no agente). WebSearch roda as buscas datadas; WebFetch abre cada resultado promissor pra você ler a data no corpo e o conteúdo real. É o núcleo confiável da varredura e nunca depende de login.
-2. **Chrome MCP / navegador com IA** (quando disponível): serve pra rolar feed social que não aparece bem em busca (Reddit home, r/popular, timeline do X, grade de um perfil do Instagram). Mais rico pra "o que está pegando no feed", mais frágil (login, bloqueio de scraper).
-3. **Só o que o dono colou** (fallback do app/chat sem navegação): quando não há como pesquisar ao vivo, você CONDUZ. Pede ao dono colar o que ele já viu quente essa semana (prints, links de posts de concorrente, manchetes que ele notou) e ORGANIZA isso na tabela-radar, aplicando o filtro de saliência e escrevendo o ângulo Soft. Você não inventa varredura; você estrutura o que ele trouxe.
+1. **Busca web + leitura de página** (base, disponível na maioria dos ambientes com acesso à web). A busca roda as queries datadas; a leitura abre cada resultado promissor pra você ler a data no corpo e o conteúdo real. É o núcleo confiável da varredura e nunca depende de login.
+2. **Navegador controlado pelo agente, quando o ambiente tiver um** (conector de browser ou equivalente): serve pra rolar feed social que não aparece bem em busca (Reddit home, r/popular, timeline do X, grade de um perfil do Instagram). Mais rico pra "o que está pegando no feed", mais frágil (login, bloqueio de scraper).
+3. **Só o que o dono colou** (fallback sem acesso à web): quando não há como pesquisar ao vivo, você CONDUZ. Pede ao dono colar o que ele já viu quente essa semana (prints, links de posts de concorrente, manchetes que ele notou) e ORGANIZA isso na tabela-radar, aplicando o filtro de saliência e escrevendo o ângulo do método. Você não inventa varredura; você estrutura o que ele trouxe.
 
-Escolha o melhor caminho disponível e siga. Na dúvida entre dois, WebSearch datado é sempre o chão firme.
+Escolha o melhor caminho disponível e siga. Na dúvida entre dois, a busca web datada é sempre o chão firme.
 
 ---
 
@@ -53,8 +53,8 @@ Cinco eixos capturam pauta quente sem virar clipping de notícia geral. Para cad
 | **Viral/em alta** | `[nicho] viralizou` / `[nicho] bombando` / `[nicho] em alta` | formato/gancho/tema que está pegando fogo no feed agora |
 
 **Como rodar:**
-1. Roda a busca de cada eixo, uma a uma. No WebSearch, prefira restringir por tempo quando a ferramenta permite (última semana). Quando não permite, você filtra pela data lida no corpo (Seção 5 desta reference, Verificação de data).
-2. Abre os primeiros resultados promissores de cada eixo com WebFetch.
+1. Roda a busca de cada eixo, uma a uma. Na busca web, prefira restringir por tempo quando a ferramenta permite (última semana). Quando não permite, você filtra pela data lida no corpo (Seção 5 desta reference, Verificação de data).
+2. Abre os primeiros resultados promissores de cada eixo e lê a página.
 3. Lê a data de publicação no corpo da página. Fora da janela = descarta na hora.
 4. Guarda o link real (o que você abriu), a data, e uma frase do que a página diz.
 
@@ -91,7 +91,7 @@ O feed é bônus de riqueza, não obrigação. Se só as buscas datadas rodaram,
 
 É a etapa que a IA mais tende a pular, e é a que sustenta o radar inteiro. Pra CADA item candidato:
 
-1. **Abre a página** (WebFetch ou o navegador). Não confia no snippet da busca: o snippet mente sobre data com frequência.
+1. **Abre a página** (leitura direta da URL ou o navegador). Não confia no snippet da busca: o snippet mente sobre data com frequência.
 2. **Localiza a data visível** no corpo: carimbo do post, linha "publicado em", meta-data do artigo, "há X dias" do feed.
 3. **Confirma que está dentro da janela** (hoje menos N dias). Formato de referência: DD/MM/AAAA.
 4. **Se a data está faltando, confusa ou fora da janela: descarta.** Não deduz "parece recente" pelo visual da página nem pela URL. Sem data verificável, o item não existe pro radar.
@@ -133,9 +133,9 @@ Itens soltos não são pauta; TEMAS são. Depois de datar e filtrar:
 
 O X logado e o Instagram privado são os pontos que mais falham. Quando um deles (ou a navegação inteira) não está disponível:
 
-1. **Cai no WebSearch datado + WebFetch.** As buscas dos 5 eixos capturam a maior parte da pauta quente sem depender de feed logado. Reddit costuma abrir sem login e cobre a discussão social.
+1. **Cai na busca web datada + leitura de página.** As buscas dos 5 eixos capturam a maior parte da pauta quente sem depender de feed logado. Reddit costuma abrir sem login e cobre a discussão social.
 2. **Registra o que ficou de fora.** Na nota abaixo da tabela: "varredura via buscas datadas + Reddit; X e Instagram não abriram nesta rodada." O dono calibra a confiança sabendo o que o radar viu.
-3. **No app/chat sem navegação nenhuma:** conduz. Pede ao dono colar o que ele viu quente (prints, links, manchetes) e monta o radar do que ele trouxe, aplicando saliência e ângulo. Deixa claro que a varredura ampla roda no Code/agente.
+3. **Sem acesso à web nenhum:** conduz. Pede ao dono colar o que ele viu quente (prints, links, manchetes) e monta o radar do que ele trouxe, aplicando saliência e ângulo. Deixa claro que a varredura ampla roda em ambiente com acesso à web.
 4. **Nunca simula.** Um feed que você não abriu não vira linha no radar. A tentação de "provavelmente estava pegando no X também" é exatamente o que a Lei 5 proíbe.
 
 ---
@@ -153,7 +153,7 @@ Mapa de cada coluna do Output Contract, pra não deixar campo vago:
 | **Sinais de calor** | quais dos 4 sinais o tema tem (mín. 2) | nomeia os sinais, não "está bombando" |
 | **O que está sendo dito/debatido** | resumo de 1 linha da discussão real | o que as fontes dizem, não o que você acha |
 | **Por que importa pro [NICHO]** | a implicação concreta pro avatar do dono | conecta ao cliente, não ao nicho abstrato |
-| **Ângulo Soft pra postar** | a manchete-ângulo enquadrada pela tese do dono | o coração; roda no gate anti-IA + cliente-primeiro (ver SKILL.md Passo 3 RADAR) |
+| **Ângulo do Método pra postar** | a manchete-ângulo enquadrada pela tese do dono | o coração; roda no gate anti-IA + cliente-primeiro (ver SKILL.md Passo 3 RADAR) |
 
 Nada fora da tabela além da primeira linha datada e das 3 pautas quentes apontadas embaixo.
 

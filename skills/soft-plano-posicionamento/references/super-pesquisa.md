@@ -32,13 +32,13 @@ O que sai daqui (a síntese e o arquivo) é regido por `guia/CODIGO-DE-ESCRITA.m
 ### 1. Anuncia e parte
 Avisa em 1 linha que vai pesquisar o mercado (não pra entregar relatório - pra pegar as palavras reais do público e o que os concorrentes prometem). Se o especialista já deu **1-2 concorrentes** ou o **@ dele**, usa pra começar a busca mais quente. O resto a skill faz sozinha.
 
-> **Se não houver WebSearch/WebFetch no ambiente, não para:** usa o material que o próprio cliente trouxe (etapa 3) e, faltando isso, infere do briefing e marca no arquivo o que ficou sem confirmação web.
+> **Se o ambiente não tiver busca web, não para:** usa o material que o próprio cliente trouxe (etapa 3) e, faltando isso, infere do briefing e marca no arquivo o que ficou sem confirmação web. Também vale pedir ao usuário que cole o texto das páginas-chave.
 
 ### 2. Rodadas de web (teto ~10 queries · silencioso)
-**WebSearch** em rodadas encadeadas - mapeia, aprofunda, caça a lacuna, mede a dor:
+**Busca web** (a do ambiente, quando houver) em rodadas encadeadas - mapeia, aprofunda, caça a lacuna, mede a dor:
 - **R1 - Mercado + concorrentes (2-3 queries):** quem ocupa o espaço, vocabulário do nicho, faixas de preço. Extrai nomes pra aprofundar.
-- **R2 - Aprofundar nos tops (2-3 queries + WebFetch):** entra nas páginas/perfis-chave com **WebFetch** e lê o que está lá - o que o concorrente promete e onde todos repetem o mesmo (o genérico = a lacuna).
-- **R3 - Linguagem crua do público (2-3 queries + WebFetch):** caça as fontes públicas do nicho onde o cliente-final fala solto - reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais. Pega **5-10 expressões reais** da dor e do desejo, verbatim. Prioriza `WebFetch` em 2-3 URLs ricas em vez de muitas buscas rasas. **Garimpo rápido e barato:** o autocomplete do buscador - digita "[nicho] como", "[problema] por que", "[avatar] pode" e colhe as sugestões; são as perguntas que o público de fato digita, com as palavras dele (urgências ocultas que ninguém verbaliza em review).
+- **R2 - Aprofundar nos tops (2-3 queries + leitura de página):** entra nas páginas/perfis-chave (se o ambiente abrir URL; senão peça o texto ao usuário) e lê o que está lá - o que o concorrente promete e onde todos repetem o mesmo (o genérico = a lacuna).
+- **R3 - Linguagem crua do público (2-3 queries + leitura de página):** caça as fontes públicas do nicho onde o cliente-final fala solto - reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais. Pega **5-10 expressões reais** da dor e do desejo, verbatim. Prioriza a leitura de 2-3 URLs ricas em vez de muitas buscas rasas. **Garimpo rápido e barato:** o autocomplete do buscador - digita "[nicho] como", "[problema] por que", "[avatar] pode" e colhe as sugestões; são as perguntas que o público de fato digita, com as palavras dele (urgências ocultas que ninguém verbaliza em review).
 - **R4 - Força da dor + objeções (2 queries):** "[nicho] me arrependi", "[nicho] já tentei de tudo", "[nicho] vale a pena" → classifica a dor (forte/média/fraca) e colhe as objeções recorrentes.
 
 ### 3. Integra a voz que o próprio cliente trouxe (quando existe)

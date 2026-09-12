@@ -10,6 +10,23 @@
 
 ---
 
+## Índice
+
+- A REGRA-MÃE (a frase que governa tudo)
+- 1. O FORMATO
+- 2. O TEMPO: vídeo vs roteiro + a sala de espera
+- 3. O RITMO E A DENSIDADE (quantos comentários, e onde)
+- 4. OS TIPOS DE MENSAGEM (a taxonomia)
+- 5. CONSISTÊNCIA COM O ROTEIRO (bidirecional)
+- 6. REALISMO (anti-robótico): personas derivadas do avatar, rodízio proibido, coerência username e texto
+- 7. AO VIVO × PERPÉTUO (a bifurcação-mãe da skill)
+- 8. CHECKLIST FINAL (antes de subir e entregar)
+- 9. ANTI-PADRÕES (o que quebra a simulação)
+- 10. GATE DE SAÍDA (o Crivo), bloqueante
+- O QUE MORRE das versões antigas de chat
+
+---
+
 ## A REGRA-MÃE (a frase que governa tudo)
 
 **Simula-se a SALA, nunca a PROVA.**
@@ -79,6 +96,7 @@ O perpétuo tem DUAS linhas de tempo, e o export usa a do VÍDEO:
 - **Tempo no roteiro** = o relógio do script gravado (o "oi" do host é 00:00 do roteiro).
 - **Tempo no vídeo** = o relógio do arquivo que a plataforma toca. Inclui a **sala de espera / pré-roll** que roda ANTES do host começar a falar.
 - No modelo do corpus estudado a sala de espera é de **~5 min**: roteiro `00:06` = vídeo `05:06`. Fórmula: **`vídeo = roteiro + offset da sala de espera`**.
+- **Caso resolvido, com os números escritos (copie a forma).** Aula de **60 minutos**, oferta no **minuto 42**, sala de espera de **5 minutos**. Minuto do dono é do **roteiro** por padrão, a não ser que ele diga "no vídeo" com todas as letras. Então: link no vídeo em `42:00 + 05:00 = 47:00`; preço, parcela, garantia e bônus só depois de `47:00`; teto no vídeo em `60:00 + 05:00 = 65:00`, e o último comentário do CSV cai antes disso. Se em vez disso o dono declarar os 60 minutos como **duração do arquivo de vídeo**, a conta inverte e sai escrita assim: o roteiro termina em `55:00`, a oferta do minuto 42 do vídeo já é tempo de vídeo (link em `42:00`, sem somar de novo) e o teto é `60:00`. **Link e teto saem sempre do mesmo lado da conta**, e o lado escolhido vai declarado em 1 linha no planejamento.
 
 Consequências operacionais:
 - Comentários de chegada (`entrada`) acontecem DURANTE a sala de espera, no modelo do corpus estudado, do vídeo `00:34` até `~05:00`, ANTES de o host abrir a aula. É o que faz a sala já parecer cheia quando o vídeo "começa".
@@ -159,6 +177,19 @@ O pior buraco possível: o host gravado **ECOA** um comentário que não existe 
 
 1. **Todo ECO do host tem respaldo ANTES.** Pra cada "[nome] de [cidade]", "o [nome] perguntou [X]", "vários colocaram [Z]" no roteiro, tem que existir um comentário agendado com tempo de vídeo ANTERIOR ao eco, com nome/cidade/conteúdo exatos. Se não existe, a skill CRIA e posiciona alguns segundos/minutos antes. (Eco genérico "vários colocaram EU QUERO" é respaldado pela RAJADA, não por um nome.)
 2. **Todo COMANDO do host tem rajada depois.** "comente nome e cidade" → onda de `apresentacao`; "digita EU QUERO" → rajada `sim-eu-quero`; "estão curtindo?" → onda de `reação`; "quem já se inscreveu coloca aqui" → onda de `compra`. Comando sem resposta é tão denunciador quanto eco órfão.
+
+   **Sem roteiro na mão, a rajada não some: ela segue a espinha padrão.** Quando o player não entregou o roteiro (caso previsto na própria Etapa 6), você NÃO conclui "sem roteiro não há comando, logo não planto rajada". Você assume a espinha padrão de comandos abaixo, planta a rajada de cada um e **declara na auditoria qual comando foi assumido**, com o timestamp em que você o colocou:
+
+   | Momento (tempo de vídeo) | Comando assumido do host | Rajada que você planta |
+   |---|---|---|
+   | logo após a abertura | "comenta seu nome e sua cidade" | onda de `apresentacao`, 6 a 10 linhas |
+   | fim do bloco de diagnóstico | "faz sentido pra você? comenta SIM" | onda de `reação`, 4 a 8 linhas |
+   | estreia do mecanismo | "quem quer o passo a passo digita EU QUERO" | rajada `sim-eu-quero`, 8 a 15 linhas |
+   | **transição para o pitch** | "vou liberar o link agora, quem quiser entrar comenta EU QUERO" | a rajada MAIOR da aula, `sim-eu-quero` mais `anticipacao` |
+   | link no ar | "quem já se inscreveu coloca aqui" | onda de `compra`, escalonada |
+   | fechamento | "últimas vagas, quem entrou avisa" | `compra` mais `fomo` |
+
+   A transição para o pitch é a única obrigatória: **planilha em modo sem roteiro que não tem rajada na transição para o pitch reprova.** Na auditoria, escreva: `Modo sem roteiro. Comandos assumidos: <lista com o timestamp de cada um>.`
 3. **Nenhum comentário CONTRADIZ nem ANTECIPA o roteiro.** Reprovar/reescrever qualquer fala que cite preço/oferta/bônus antes de o host abrir, reaja a slide que não passou, ou discorde de um fato do roteiro. Cada comentário é reação ao que JÁ passou no vídeo naquele timestamp.
 4. **Output de auditoria** (entregue junto da planilha): ecos sem respaldo encontrados + comentários criados pra fechá-los + comandos sem rajada + comentários reprovados por contradizer/antecipar (com motivo).
 
@@ -166,10 +197,21 @@ O pior buraco possível: o host gravado **ECOA** um comentário que não existe 
 
 ## 6. REALISMO (anti-robótico)
 
+- **Elenco simulado nunca toca a prova real do dono (regra dura).** Nenhum nome, idade, cidade, profissão ou caso do chat simulado pode coincidir com pessoa citada na prova do dono (depoimento, print, estudo de caso, aluno nomeado no roteiro). Coincidência parcial também conta: "Marcia S., 52" ao lado de uma Márcia de 52 na prova é a mesma pessoa aos olhos de quem assiste, e transforma sala simulada em depoimento falso. **Checagem verificável antes de entregar:** liste os nomes citados na prova do dono e no roteiro, liste os nomes do elenco simulado, e escreva `Nomes da prova: <lista> · nomes do elenco: <lista> · coincidências (nome, primeiro nome, ou nome mais idade): 0`. Qualquer coincidência acima de zero, troque o nome do elenco, nunca o da prova.
+
+  **A lista de nomes proibidos não se lembra: ela se extrai, com o comando do consentimento, e a saída vai colada.** Rode o passo 1 sobre TODOS os insumos privados (caixa de entrada, transcrição de call, reclamação, perfil do dono), não só sobre o campo de prova: o risco não é citar a aluna do caso, é sortear pro elenco o primeiro nome de uma lead que está negociando e que vai assistir à aula. Cole `nomes nos insumos privados: <lista> (N)`. Depois rode o passo 2 sobre o CSV entregue, com um grep por nome, e cole a saída literal, inclusive vazia: `grep -nwF -f <lista> 06-chat-simulado.csv`. **Qualquer linha devolvida reprova a planilha e o nome é trocado antes da entrega**, valendo para o primeiro nome sozinho. Feche com `nomes nos insumos privados: N · colisões no elenco: 0`, e a segunda contagem só pode ser declarada depois da saída do grep colada. Uma lista de 3 nomes escrita de cabeça num perfil que tem 9 é o modo típico de falhar aqui, e ela passa despercebida porque os 3 lembrados costumam ser os certos.
 - **Nomes BR variados:** alternar regiões e gerações; não repetir o mesmo nome em comentários próximos no tempo. Pool do modelo: Camila, Rafael, Patrícia, Marcos, Letícia, Vinícius, Fernanda, Tiago, Aline, Rodrigo, Vanessa, Diego, Larissa, Anderson, Gabriela, Wesley, Sandra, Eduardo, Felipe, Carlos.
 - **Cidades espalhadas pelo país** (não só capitais do Sudeste): Manaus, Recife, Goiânia, Porto Alegre, Belém, Florianópolis, Fortaleza, Salvador, Curitiba, Maringá, Natal, Londrina, Uberlândia.
-- **Perfis de avatar variados** dão textura (no modelo do corpus estudado: mentor, consultor financeiro, copywriter iniciante, nutri, advogada, dentista, personal, arquiteta, gestor de tráfego), alguns iniciantes, alguns avançados/céticos, alguns já clientes.
+- **Os perfis das personas saem do AVATAR do dono, nunca desta página.** Antes de nomear qualquer persona, escreva o avatar em uma linha (faixa etária, gênero predominante, dor de entrada) e derive dela os nomes, as cidades e os perfis. O que dá textura é a variação DENTRO do avatar (algumas iniciantes, algumas céticas, algumas já clientes, dores de entrada diferentes), nunca a variação de profissão pescada de uma lista pronta. **Se você está copiando perfis de um exemplo, você errou.** Os perfis do corpus estudado ficam em `exemplos-por-bloco/`, como estudo do formato, nunca como lista de escolha.
+  **Checagem contada, colada na auditoria antes de exportar:** `avatar declarado: <uma linha> · nomes coerentes com o gênero predominante do avatar: N de N · perfis derivados do avatar: N de N · perfis vindos de lista de exemplo: 0.` Qualquer divergência sem justificativa escrita reprova. Sala majoritariamente masculina num webinar cujo avatar é feminino, ou perfis de profissão que não têm relação com a dor de entrada do avatar, reprovam a planilha inteira.
 - **Timing escalonado:** numa rajada, intervalos irregulares (3s, 7s, 4s, 11s…). Sala real digita em velocidades diferentes.
+- **Rodízio determinístico é proibido, e a proibição é contável.** Sala real não é lista circular. Duas regras que você mede no CSV antes de entregar:
+  1. **Nenhum participante fala em intervalo fixo.** Pra cada nome com 3 ou mais comentários, calcule os intervalos entre falas consecutivas; se dois intervalos seguidos do mesmo nome forem iguais, ou variarem menos de 15%, refaça o posicionamento. Ninguém volta ao chat de minuto em minuto cravado.
+  2. **A ordem dos nomes não se repete como ciclo.** Nenhuma sequência de 3 nomes consecutivos aparece duas vezes na mesma ordem no arquivo inteiro.
+  Além disso, dê a cada persona uma **ficha de digitação** própria (velocidade, tamanho típico de mensagem, se usa emoji, se abrevia, se erra acento) e mantenha a ficha coerente do começo ao fim: quem escreve "vc" no minuto 8 não escreve "você" no minuto 70. Salve as fichas junto da planilha, num arquivo `personas-digitacao.csv` com as colunas `nome,cidade,perfil,velocidade,tamanho_tipico,emoji,abrevia,erra_acento`.
+  **Checagem escrita na auditoria:** `Nomes com 3+ falas: N (mínimo 8, e piso de 20% do elenco) · nomes com intervalo fixo: 0 · sequências de 3 nomes repetidas: 0 · fichas de digitação: <N linhas em personas-digitacao.csv>.` Qualquer número diferente de zero nos dois do meio reprova, **e `Nomes com 3+ falas` abaixo do mínimo reprova igualmente**: sala sem reincidência não tem escada de micro-compromissos, que é o mecanismo central do formato. Uma pessoa que volta ao chat pela terceira vez já se comprometeu em público três vezes e chega no pitch preparada pra decidir; 46 estranhos que dizem no máximo duas coisas e somem não constroem compromisso nenhum, por mais naturais que as falas sejam. **Régua de elenco, medida junto:** o número de nomes distintos fica entre 15% e 40% do número de linhas do CSV. Elenco acima do teto dilui a sala em estranhos; abaixo do piso, as mesmas vozes se repetem e a sala soa montada.
+  **Os números da auditoria são MEDIDOS no CSV entregue por SCRIPT, nunca por leitura.** Com shell, o instrumento vem junto da skill: rode `python3 scripts/auditar_chat.py <chat.csv> --link MM:SS --teto MM:SS --offset MM:SS` e **cole a saída literal dele na auditoria**, com o comando acima. Ele imprime as três contagens desta seção, a régua de elenco, a sala de espera, o teto, a ordem, a prova de preço-depois-do-link e o veredito. **Declarar `intervalo fixo: 0` ou `sequências repetidas: 0` sem a saída do script colada reprova a planilha**, mesmo que o número esteja certo: a regra existe porque o olho não pega rodízio, e uma trinca de nomes repetida oito vezes já passou debaixo de uma linha que declarava zero. Sem shell, essas três não podem ser declaradas: escreva `não medido (sem shell)` em cada uma e a planilha sai marcada como não auditada. **Declarar `0` sem ter medido é a falha mais cara desta etapa**, porque o número declarado vira a prova que ninguém confere: um nome que aparece nas posições 6, 16 e 26 é intervalo fixo, e a linha que diz `intervalo fixo: 0` num arquivo assim reprova a entrega inteira por relato que o disco desmente. Cole junto da auditoria o comando ou a conta que produziu cada número.
+- **Coerência entre `username` e o texto, contada.** Nenhum comentário se apresenta com nome diferente do `username` da própria linha ("Anderson Reis" escrevendo "Camila aqui de SP" é visível ao lead na tela da plataforma), o gênero gramatical do texto acompanha o nome da persona (nome masculino não escreve "fico mais tranquila"), e nenhuma persona usa o primeiro nome do host nem do dono. **Checagens contadas, coladas na auditoria:** `linhas com nome no texto divergente do username: 0 · linhas com gênero gramatical divergente do nome: 0 · personas com o primeiro nome do host ou do dono: 0.` Qualquer número acima de zero reprova a planilha e manda reescrever as linhas apontadas.
 - **Typo/abreviação leve ocasional:** "vc", "tbm", "kkkk", "to dentro", acento faltando, emoji esporádico, não em todo comentário (vira caricatura). O host nunca erra; o público erra.
 - **Comprimentos variados:** mistura "EU QUERO" de duas palavras com frases de uma linha.
 - **Volume coerente com N:** chat fervendo numa sala de 40 denuncia tanto quanto silêncio numa de 500.
@@ -209,19 +251,43 @@ No ao vivo a sala digita de verdade. A skill NÃO gera comentários falsos, entr
 
 - [ ] **Formato exato** da plataforma do player (colunas, ordem, header, formato de tempo). Default só se não havia modelo, e foi avisado.
 - [ ] **Tempo de vídeo correto:** offset da sala de espera somado; export por `(minutes,seconds)` do VÍDEO, escalonado (sem dois no mesmo segundo).
+- [ ] **Sala de espera povoada, contada:** existem **no mínimo 8 comentários de `entrada`** com timestamp de vídeo entre `00:30` e o fim do offset da sala de espera. Conte no CSV salvo e escreva o número na auditoria, nesta forma: `Entradas na sala de espera (00:30 até <offset>): N.` **Sala de espera vazia, ou N abaixo de 8, reprova a planilha**, porque a sala precisa parecer cheia no instante em que o host abre a boca. Com offset menor que 2 minutos, o piso cai pra 4, e o motivo vai escrito.
 - [ ] **Volume coerente com N** (~1/min com ondas), sem estourar ~150-200 visíveis.
 - [ ] **Curva certa:** cheia na sala de espera/abertura, vale no ensino puro, picos nos comandos/conta, MÁXIMO no link no ar, urgência no fechamento.
 - [ ] **Todo eco do host tem respaldo ANTES** (nome/cidade/conteúdo exatos).
 - [ ] **Todo comando do host tem rajada** ("EU QUERO", nome/cidade, "comenta SIM", placar de vendas).
 - [ ] **Carrinho completo:** social proof de compra, prova de decisão, ≥1 objeção que surge e resolve, FOMO de vaga real, 1-2 haters neutralizados longe do clímax.
-- [ ] **Compra só depois do link:** antes do link só `anticipacao`; primeiro `compra` casado com a fala "to liberando o link".
+- [ ] **Compra só depois do link, provado por número:** antes do link só `anticipacao`; primeiro `compra` casado com a fala "to liberando o link". Releia o CSV salvo e escreva na auditoria o timestamp do link, igual a (minuto da oferta no roteiro + offset), e os **3 primeiros** timestamps de comentário que citam preço, parcela, garantia ou bônus (ou quantos existirem, se forem menos de 3). O segundo tem que ser maior que o primeiro; se não for, reprova.
+- [ ] **Teto de duração:** nenhum timestamp passa do teto **em tempo de vídeo**, que é (duração de roteiro + offset) quando a duração declarada é de roteiro, e a própria duração quando ela já é do arquivo de vídeo (nesse caso o offset já está dentro dela e somar de novo estoura). Escreva o teto, o maior timestamp do arquivo e a contagem de linhas acima do teto, mesmo quando ela é zero. Linha além do fim do vídeo nunca dispara no import, então qualquer contagem maior que zero reprova a planilha.
 - [ ] **Saudação neutra:** zero "bom dia/boa tarde/boa noite"; nada que date a gravação (dia da semana, evento, notícia, estação).
 - [ ] **Honestidade:** nenhum comentário inventa resultado de cliente, vaga, preço ou prova. Simula a sala, não a prova.
 - [ ] **Realismo:** nomes/cidades/perfis variados, timing escalonado, typo leve ocasional, comprimentos variados.
 - [ ] **Zero contradição/antecipação** do roteiro.
 - [ ] **Voz de participante BR** (quente, torto, gíria leve), nunca o tom clínico do host.
-- [ ] **Output de auditoria entregue** (ecos sem respaldo + criados + comandos sem rajada + reprovados).
+- [ ] **Output de auditoria entregue e VERIFICADO contra o arquivo** (ecos sem respaldo + criados + comandos sem rajada + reprovados). Ver a regra da auditoria logo abaixo do checklist: auditoria escrita de memória não conta.
 - [ ] **Nomes-SLOT:** todo nome de produto/método/bônus citado é o que o player definiu, nunca inventado.
+
+---
+
+### A regra da auditoria: ela só vale relida contra o CSV
+
+A auditoria não é um resumo do que você acha que fez. Ela é o resultado de **reabrir e reler o arquivo que você salvou** e medir dentro dele. Auditoria escrita de memória, sem reler, é o defeito mais perigoso desta skill, porque ela afirma o contrário do próprio arquivo com cara de conferência feita.
+
+Como se faz, sempre nesta ordem:
+
+1. Salve o CSV.
+2. Reabra o CSV salvo e leia todas as linhas.
+3. Escreva cada afirmação da auditoria **citando o timestamp e o número que você acabou de medir no arquivo**.
+
+Toda linha da auditoria tem esta forma, com valor real, nunca adjetivo:
+
+```
+<o que foi checado> | medido no CSV: <número ou timestamp> | passa? sim/não
+```
+
+Exemplos do formato: `Entradas entre 00:30 e 05:00 | medido no CSV: 11 | passa? sim` · `Menor timestamp que cita preço | medido no CSV: 49:12 | link no ar em 47:40 | passa? sim` · `Maior timestamp do arquivo | medido no CSV: 1:58:44 | teto (aula 1:55:00 + offset 5:00) = 2:00:00 | passa? sim`.
+
+**Prova de ordem obrigatória.** A auditoria fecha com a linha: `Ordem conferida: as N linhas do CSV estão em ordem crescente de (minutes, seconds), sem dois no mesmo segundo.` Se a ordem não fecha, você corrige o arquivo e refaz a auditoria do zero. Auditoria sem a prova de ordem e sem número medido em cada linha reprova a entrega, mesmo que a planilha esteja boa.
 
 ---
 

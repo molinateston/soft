@@ -40,11 +40,13 @@ Quando o cadastro tenta vender, falha nas duas. Quando o checkout precisa conven
 
 ## When NOT to use (manda pra skill certa)
 
+Em toda rota abaixo: se a skill não estiver instalada, faço aqui em modo reduzido.
+
 - Pediu **oferta / stack / garantia / ancoragem do webinar** → **Etapa PLANO/OFERTA (desta skill)** (esta skill só monta as 3 páginas; a oferta nasce lá).
 - Pediu **roteiro / estrutura ADMA** → **Etapa AULA (desta skill)**. **Deck/slides** → **Etapa AULA (desta skill; render fino = soft-designer)**. **Gravação/perpetuação** → **Etapa PLANO/OFERTA (desta skill)**. **E-mails/WhatsApp** → **Etapa MENSAGENS (desta skill)**. **Anúncios** → **soft-trafego-meta**. **Pós-webinar/esteira** → **Etapa MENSAGENS (desta skill)**. **Plano/diagnóstico do webinar** → **Etapa PLANO/OFERTA (desta skill)**.
-- Pediu **página de vendas / VSL / landing** fora do contexto de webinar → **soft-funil**.
+- Pediu **página de vendas / VSL / landing** fora do contexto de webinar → **soft-funil-carta** / **soft-funil-landing**. Se a skill não estiver instalada, faço aqui em modo reduzido.
 - Pediu **só a headline** (isolada, banco de ganchos) → **soft-conteudo-headlines**.
-- Pediu o **CORPO de conteúdo de feed** (carrossel, reel, stories) → **soft-conteudo**.
+- Pediu o **CORPO de conteúdo de feed** (carrossel, reel, stories) → **soft-conteudo-carrossel** / **soft-conteudo-reels** / **soft-conteudo-stories**. Se a skill não estiver instalada, faço aqui em modo reduzido.
 - Pediu **posicionamento / oferta-mãe / mecanismo nomeado** → **soft-plano-posicionamento**.
 - Pediu **arte / PNG / visual** da página → **soft-designer**.
 - Pediu **script de venda / objeção no 1:1** → **soft-vendas-closer**.

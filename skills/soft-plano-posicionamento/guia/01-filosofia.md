@@ -1,4 +1,4 @@
-# Capítulo 1 · Filosofia Soft Business
+# Capítulo 1 · A filosofia deste método
 
 > Fundação do método. Antes de qualquer tática, a posição. Este capítulo explica por que o método existe, o que ele é, e a única coisa que ele opera: a percepção do cliente.
 
@@ -22,13 +22,13 @@ Toda vez que não dá certo, a conclusão é sempre a mesma: "talvez o próximo 
 
 Não é falta de esforço. Nunca foi. É falta de **posição** - e de um sistema que venda no automático sem ele estar presente o tempo todo.
 
-Soft Business existe pra resolver esse Especialista.
+Este método existe pra resolver esse Especialista.
 
 ---
 
 ## 1.2 · O que é
 
-Soft Business é um método de construção e escala de negócio digital pro Especialista que opera solo: pessoa com conhecimento próprio, método de entrega, expertise pra vender.
+Este é um método de construção e escala de negócio digital pro Especialista que opera solo: pessoa com conhecimento próprio, método de entrega, expertise pra vender.
 
 O nome carrega a tese. **Soft** = sólido, simples, sustentável. **Business** = negócio inteiro, não só marketing.
 
@@ -66,7 +66,7 @@ Quando os dois se somam, o resultado é **Imprevisibilidade**: ele não sabe qua
 
 **Dois registros, uma verdade.** "Imprevisibilidade" e "invisibilidade" são nomes do **diagnóstico** - o que o método enxerga por baixo. Mas ninguém chega dizendo "sou invisível" ou "sou imprevisível". O que sai da boca dele é o **teto**: não sabe quanto vai faturar, tá comparado por preço, refém da operação, vê gente pior na frente. Na superfície você fala pelo teto que ele vive; o diagnóstico fica por baixo, como a causa que o método ataca. **Regra dura: nunca escreva "você é invisível" numa peça - isso é jargão de diagnóstico. Escreve o teto.**
 
-O Soft Business quebra os dois lados da equação ao mesmo tempo:
+O método quebra os dois lados da equação ao mesmo tempo:
 
 | Frente | O que resolve |
 |---|---|
@@ -143,11 +143,11 @@ Receita pode desaparecer no mês seguinte. Ativo se acumula: posicionamento fort
 
 A informação commoditizou - o cliente chega tendo pesquisado tudo. O valor migrou da informação pra curadoria, interpretação e síntese. **Quem organiza melhor o caos do mercado vale mais que quem só sabe mais.** Você não vence mais só sabendo mais; vence organizando e conduzindo melhor.
 
-Por isso o Soft Business não constrói só um funil de vendas. Constrói um conjunto de **ativos de percepção** que se compõem com o tempo. A pergunta de ouro que orienta isso: *o que eu construo hoje que ainda vai me trazer cliente daqui a dois anos?*
+Por isso o método não constrói só um funil de vendas. Constrói um conjunto de **ativos de percepção** que se compõem com o tempo. A pergunta de ouro que orienta isso: *o que eu construo hoje que ainda vai me trazer cliente daqui a dois anos?*
 
 ---
 
-## 1.7 · O que Soft Business NÃO é
+## 1.7 · O que este método NÃO é
 
 - **Não é "postar pouco" como filosofia.** É vender todo dia sem precisar aparecer todo dia - a venda mora no webinário perpétuo, não no feed.
 - **Não é fugir de volume por medo.** É volume com foco, com a IA do método carregando a criação.
@@ -166,7 +166,7 @@ O Verdadeiro Especialista tem três atributos:
 - **Posição clara no mercado** - sabe quem atende, qual problema resolve, por que é diferente.
 - **Sistema de aquisição previsível** - não depende de lançamento, indicação ou sorte.
 
-Soft Business serve a qualquer Especialista que vende conhecimento e precisa construir posição no digital. Alguns exemplos:
+O método serve a qualquer Especialista que vende conhecimento e precisa construir posição no digital. Alguns exemplos:
 
 - **Profissionais liberais:** advogados, médicos, dentistas, fisioterapeutas, nutricionistas, psicólogos, arquitetos, engenheiros, contadores.
 - **Consultores e mentores:** consultores B2B, mentores de negócio, consultores financeiros, coaches com método próprio, especialistas em RH, processos, gestão.
@@ -192,7 +192,7 @@ A diferença entre os dois estados aparece no dia a dia:
 
 Competência técnica real. O sistema amplifica quem já transforma - **não resolve falta de expertise.**
 
-Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu método não tem prova de transformar pessoas, pare aqui. Soft Business não vai resolver isso. Volte ao básico: pegue 3 a 5 clientes em condições reais, comprove que entrega resultado, e só então aplique este manual.
+Se você ainda não fechou nenhum cliente cobrando o que cobra hoje, ou se seu método não tem prova de transformar pessoas, pare aqui. O método não vai resolver isso. Volte ao básico: pegue 3 a 5 clientes em condições reais, comprove que entrega resultado, e só então aplique este manual.
 
 ---
 

@@ -55,7 +55,7 @@ Para **cada slide** do carrossel, responda 16 perguntas. Resposta esperada: SIM 
 
 11. **Phrase ragging respeitado?**, cada quebra de linha está entre pedaços semânticos, nunca no meio de um pedaço. Teste: leia cada linha isoladamente, faz sentido? Se soa "cortada no meio", falha. Exceção: corpo muito longo (>40 palavras) pode quebrar por largura do container em vez de phrase ragging.
 
-12. **Termos compostos inteiros?**, nenhuma marca ("WhatsApp", "ChatGPT", "Instagram"), valor monetário ("R$3k"), unidade numérica ("3 msgs", "48h"), ou nome próprio composto ("Soft Business") está quebrado entre linhas. Checar se estão em `<span style="white-space:nowrap">` ou se a quebra manual respeita o termo.
+12. **Termos compostos inteiros?**, nenhuma marca ("WhatsApp", "ChatGPT", "Instagram"), valor monetário ("R$3k"), unidade numérica ("3 msgs", "48h"), ou nome próprio composto ("Design System") está quebrado entre linhas. Checar se estão em `<span style="white-space:nowrap">` ou se a quebra manual respeita o termo.
 
 13. **Ritmo varia e enumeração virou lista?** O carrossel NÃO repete o molde título+corpo em todo card. Se 3+ cards seguidos têm a mesma forma (título grande + corpo), **falha**, quebre com afirmação pura, lista, prosa ou número dominante (ver "Ritmo orgânico" em `processo-design.md`). E todo card que **enumera** coisas está em **lista/chips**, nunca amassado em prosa corrida, card que enumera em frase corrida = falha.
 

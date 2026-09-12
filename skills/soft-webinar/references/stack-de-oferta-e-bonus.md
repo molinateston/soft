@@ -188,7 +188,7 @@ Alem dos cursos-bonus, existe UM bonus desenhado desde ja, **nao anunciado**, so
 
 ---
 
-# PARTE III, A APLICACAO DO LEO (o molde gestao agil vestido em "Venda com Webinar")
+# PARTE III, A APLICACAO NO CORPUS (o molde gestao agil vestido no produto do dono)
 
 ## 9. A stack do corpus estudado hoje (e o que falta pra ficar identica ao molde)
 

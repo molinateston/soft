@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-lint_copy.py — gate de COPY em código (anti-IA / anti-voz Soft).
+lint_copy.py, gate de COPY em código (anti-IA / anti-voz Soft).
 
 Automatiza o "CTRL+F cada padrão" do filtro-anti-ia/padroes-banidos.md: escaneia
 um texto e sinaliza o que cheira a IA. Antes era prosa que o agente varria no
 olho (e esquecia); aqui é código que roda igual em toda execução. Sem dependência
-externa — roda em qualquer ambiente onde o bot rode.
+externa: roda em qualquer ambiente onde o bot rode.
 
 USO:
     python3 scripts/lint_copy.py peca.txt          # linta um arquivo, exit 1 se HARD
@@ -13,7 +13,7 @@ USO:
     python3 scripts/lint_copy.py                    # self-test
 
 HARD (exit 1, zero tolerância): em-dash e a família "travar".
-WARN (não bloqueia): padrões que valem no máximo 1x/peça — o agente decide
+WARN (não bloqueia): padrões que valem no máximo 1x/peça, e o agente decide
 reescrever. A lista vem fiel do padroes-banidos.md; o que não dá pra detectar
 em código sem falso-positivo (tricolon, simetria, abstrato-virando-promessa)
 continua no olho, via teste-voz-alta.md e teste-construtivo.md.
@@ -62,14 +62,14 @@ HARD = [
         r'(?:n[aã]o\s+(?:é|foi)\s+[\wáéíóúâêôãõç]+\s*,\s*(?:é|foi)\s+[\wáéíóúâêôãõç]+'
         r'|é\s+[\wáéíóúâêôãõç]+\s*,\s*n[aã]o\s+[\wáéíóúâêôãõç]+)\s*[.!?]',
         re.I | re.M),
-     'antitese-nominal telegrafica ("Nao e X, e Y" / "Isso e conta, nao sorte") — banida; '
+     'antitese-nominal telegrafica ("Nao e X, e Y" / "Isso e conta, nao sorte"), banida; '
      'reescreva com sujeito/cena (ex.: "vender nao e convencer, e conduzir" passa)'),
     # "não é X. É Y." com polos curtos (1–3 palavras) colados
     (re.compile(
         r'n[aã]o\s+(?:é|foi)\s+[\wáéíóúâêôãõç]+(?:\s+[\wáéíóúâêôãõç]+){0,2}\s*[.]\s*'
         r'(?:É|Foi)\s+[\wáéíóúâêôãõç]+(?:\s+[\wáéíóúâêôãõç]+){0,2}\s*[.!?]',
         re.I),
-     'molde "Nao e X. E Y." (nao e isso, e aquilo) — banido; afirme o que e sem o espelho'),
+     'molde "Nao e X. E Y." (nao e isso, e aquilo), banido; afirme o que e sem o espelho'),
     (re.compile(r'n[aã]o\s+é\s+sobre\s+.{1,40}?[,.]?\s*é\s+sobre\b', re.I),
      'molde "nao e sobre X, e sobre Y" (fechamento generico de coach/IA)'),
     # Muleta de carrossel: empurra o sentido pro "próximo slide" (a seta já existe)
@@ -87,8 +87,8 @@ HARD = [
         r'|n[aã]o\s+é\s+o\s+que\s+parece'
         r')',
         re.I),
-     'muleta de swipe/proximo-slide (contexto fora do slide; a seta ja basta — feche a tensao AQUI)'),
-    # Personificação Soft Soft (regra do dono): caixa/renda/algoritmo/mês/janela com verbo de humano
+     'muleta de swipe/proximo-slide (contexto fora do slide; a seta ja basta, feche a tensao AQUI)'),
+    # Personificação Soft Soft (regra de 13/jul): caixa/renda/algoritmo/mês/janela com verbo de humano
     (re.compile(
         r'(?:'
         r'(?:o\s+)?caixa\s+(?:ainda\s+)?'
@@ -146,6 +146,24 @@ COUNT = [
 HARD_FOLDED = [(_fold_pattern(rx), label) for rx, label in HARD]
 
 
+_FENCE_RE = re.compile(r'^[ \t]*(```|~~~).*?^[ \t]*\1[ \t]*$', re.M | re.S)
+
+
+def strip_code_blocks(text):
+    """Apaga o conteudo de todo bloco de codigo cercado, preservando as linhas.
+
+    Um veredito de critica CITA o trecho reprovado, e a citacao carrega o termo
+    banido, entao o lint do proprio veredito pegava a citacao. A regra manda
+    citar dentro de bloco de codigo cercado; esta funcao e o outro lado dessa
+    regra. So o conteudo do bloco sai: o texto do dono, fora do bloco, continua
+    lintado igual. A numeracao de linha se mantem, pro contador de molde nao
+    deslocar o '<arquivo>:<linha>'.
+    """
+    def _blank(m):
+        return '\n' * m.group(0).count('\n')
+    return _FENCE_RE.sub(_blank, text)
+
+
 def lint(text):
     """Retorna (hard, warn): listas de (label, trecho)."""
     hard, warn = [], []
@@ -171,10 +189,81 @@ def lint(text):
     return hard, warn
 
 
-def _run(text):
+# ── MOLDE DE ANTÍTESE: o contador que a régua de títulos (R5) usa como AUTORIDADE ──
+# A cota é 1 por peça. A régua manda contar; aqui a contagem sai do arquivo, com o
+# número da linha de cada ocorrência, pra ninguém escrever o número de cabeça.
+#
+# O padrão conta SÓ a negação-espelho: a negação e a afirmação são a mesma frase
+# com o polo trocado ("Não é sorte, é conta." / "Não é preguiça. É carga errada.").
+# A ordem inversa ("é X, não Y") NÃO entra na cota: em prosa analítica ela é
+# aposto comum ("a ancoragem abre pelo custo invisível, não por soma de stack"),
+# e contá-la junto inflava o número. Numa peça com 4 moldes reais o contador
+# antigo acusava 11, e contador que erra por 7 ensina o motor a ignorar o número.
+# Ela continua sendo medida, na linha separada de CONTRASTE_INVERTIDO, fora da cota.
+MOLDE_ANTITESE = re.compile(
+    r'(?:n[aã]o\s+(?:é|foi|era|seria)\s+[^.!?\n]{1,60}[.,]\s*(?:É|é|Foi|foi|Era|era|Seria|seria)\b'
+    r'|n[aã]o\s+é\s+sobre\s+[^.!?\n]{1,40}[,.]?\s*é\s+sobre\b)',
+    re.I)
+
+# Fora da cota: contraste em ordem inversa. Medido e relatado, nunca somado ao teto.
+CONTRASTE_INVERTIDO = re.compile(
+    r'(?:é|foi)\s+[^.!?\n]{1,60},\s*n[aã]o\s+[^.!?\n]{1,40}[.!?]',
+    re.I)
+
+# A versão sem acento do molde: a peça às vezes exporta em ASCII ("nao e sorte, e
+# conta") e o número não pode mudar com o encoding. O "e" desacentuado é também a
+# conjunção mais comum do português, então a forma folded só vale ANCORADA na
+# negação inicial: sem essa âncora ela transformava qualquer aposto em molde.
+MOLDE_ANTITESE_FOLDED = _fold_pattern(MOLDE_ANTITESE)
+
+
+def molde_antitese(text, origem='<peça>'):
+    """Devolve a lista de '<arquivo>:<linha>: <trecho>' de cada ocorrência do molde.
+
+    Conta com e sem acento: peça exportada em ASCII ('nao e sorte, e conta')
+    tem que somar igual à acentuada, senão o número muda com o encoding. O
+    padrão sem acento só entra quando o acentuado não pegou nada na linha, pra
+    a mesma ocorrência não contar duas vezes.
+    """
+    return _varre(MOLDE_ANTITESE, MOLDE_ANTITESE_FOLDED, text, origem)
+
+
+def contraste_invertido(text, origem='<peça>'):
+    """Contraste em ordem inversa ("é X, não Y"). FORA da cota de R5.
+
+    Sai numa linha própria pra quem escreve ver o que o molde não conta, sem
+    que o número entre no teto: em prosa analítica esta forma é aposto, não
+    molde de IA.
+    """
+    return _varre(CONTRASTE_INVERTIDO, _fold_pattern(CONTRASTE_INVERTIDO), text, origem)
+
+
+def _varre(rx, rx_folded, text, origem):
+    achados = []
+    for n, linha in enumerate(text.splitlines(), 1):
+        achou = [m.group(0).strip() for m in rx.finditer(linha)]
+        if not achou:
+            achou = [m.group(0).strip() for m in rx_folded.finditer(_fold(linha))]
+        for trecho in achou:
+            achados.append(f'{origem}:{n}: {trecho}')
+    return achados
+
+
+def _run(text, origem='<peça>'):
     hard, warn = lint(text)
     for label, ex in warn:
         print(f'  ⚠ {label}: {ex}')
+    moldes = molde_antitese(text, origem)
+    print(f'molde de antítese: {len(moldes)} (teto 1)')
+    for linha in moldes:
+        print(f'  · {linha}')
+    if len(moldes) > 1:
+        print('  ↑ acima do teto: o lote volta pro passo de escrita. '
+              'Este número é a autoridade; número declarado diferente reprova a peça.')
+    invertidos = contraste_invertido(text, origem)
+    print(f'contraste invertido ("é X, não Y"): {len(invertidos)} (fora da cota)')
+    for linha in invertidos:
+        print(f'  · {linha}')
     if hard:
         print(f'\n✗ COPY REPROVADA ({len(hard)} falha dura):')
         for label, ex in hard:
@@ -186,7 +275,7 @@ def _run(text):
 
 
 def _self_test():
-    dirty = 'O método destrava tudo — literalmente. Isso muda o jogo. ✨'
+    dirty = 'O método destrava tudo — literalmente. Isso muda o jogo. ✨'  # em-dash proposital: o self-test precisa de um caso sujo
     h, w = lint(dirty)
     assert any('EM-DASH' in l for l, _ in h), 'devia pegar em-dash'
     assert any('travar' in l for l, _ in h), 'devia pegar destrava'
@@ -213,7 +302,7 @@ def _self_test():
     assert _hard('Enquanto a renda pede câmera todo dia, você não tem folga.', 'personificacao'), 'renda pede'
     assert _hard('O algoritmo come. O mês não fecha.', 'personificacao'), 'algoritmo come'
 
-    # ── falas reais do dono: NÃO podem ser HARD de antítese ────────────────────
+    # ── falas REAIS do dono: NÃO podem ser HARD de antítese ────────────────────
     reais = [
         'vender não é convencer, é conduzir',
         'educar não vende',
@@ -232,30 +321,130 @@ def _self_test():
                or 'Nao e X' in l or 'nao e sobre' in l]
         assert not ant, f'FALSO-POSITIVO HARD em fala real: {r!r} -> {ant}'
 
-    # ── mesmos padroes, texto SEM ACENTO (carrossel as vezes exporta em ASCII) ──
+    # ── mesmos padroes, texto SEM ACENTO (peca as vezes exporta em ASCII) ──────
     assert _hard('Isso nao e sorte, e pilotagem.', 'antitese-nominal'), 'ASCII: Nao e X, e Y'
     assert _hard('Nao e sorte. E pilotagem.', 'Nao e X. E Y'), 'ASCII: Nao e X. E Y'
     assert _hard('Nao e sobre o preco, e sobre profundidade.', 'nao e sobre'), 'ASCII: nao e sobre'
-    ascii_reais = [_fold(r) for r in reais]
-    for r in ascii_reais:
+    for r in [_fold(x) for x in reais]:
         hh, _ = lint(r)
         ant = [l for l, _ in hh if 'antitese' in l or 'dupla' in l or 'pelado' in l
                or 'Nao e X' in l or 'nao e sobre' in l]
         assert not ant, f'FALSO-POSITIVO HARD em fala real SEM ACENTO: {r!r} -> {ant}'
 
-    print('lint_copy.py self-test OK — HARD (em-dash, travar, dupla nao-e, antitese, '
-          'nao-e-sobre, muleta, personificacao) + falas reais do dono passam limpas, '
-          'com e sem acento.')
+    # ── contador de molde: sai do arquivo, com numero de linha ─────────────────
+    assert len(molde_antitese('linha limpa\nnao e sorte, e conta.\n')) == 1, 'contador de molde'
+    assert molde_antitese('nao e sorte, e conta.', 'p.md')[0].startswith('p.md:1:'), 'origem:linha'
+
+    # ── --ignore-code-blocks apaga so o conteudo do bloco, sem mover a linha ───
+    com_bloco = 'texto limpo\n```\nnao e sorte, e conta.\n```\nfim\n'
+    assert molde_antitese(strip_code_blocks(com_bloco)) == [], 'fence devia zerar o molde citado'
+    assert len(strip_code_blocks(com_bloco).splitlines()) == len(com_bloco.splitlines()), 'fence nao pode mover linha'
+    assert molde_antitese(com_bloco), 'sem a flag, a citacao continua contando'
+
+    _selftest_molde()
+
+    print('lint_copy.py self-test OK: HARD (em-dash, travar, dupla nao-e, antitese, '
+          'nao-e-sobre, muleta, personificacao) + falas REAIS do dono passam limpas.')
     print('uso: python3 scripts/lint_copy.py peca.txt   |   echo "..." | python3 scripts/lint_copy.py -')
 
 
-if __name__ == '__main__':
-    if len(sys.argv) >= 2 and sys.argv[1] not in ('--self-test', '--selftest', '--test'):
-        arg = sys.argv[1]
+def _selftest():
+    """Entrada nomeada do self-test (`--selftest`, `--self-test`, `--test`).
+
+    Roda a bateria inteira: os padroes HARD, as falas reais do dono que nao
+    podem reprovar, e os 3 casos de molde-vs-prosa de `_selftest_molde`.
+    """
+    return _self_test()
+
+
+def _selftest_molde():
+    """Os 3 casos que separam MOLDE de PROSA (o defeito que errava por 7).
+
+    1. molde de verdade: negacao-espelho, entra na cota.
+    2. prosa que PARECE molde: aposto em ordem inversa, fica FORA da cota.
+    3. bloco de codigo: a citacao do molde some com --ignore-code-blocks.
+    """
+    # 1. molde verdadeiro: a negacao e a afirmacao sao a mesma frase com o polo trocado
+    for verdadeiro in [
+        'Nao e sorte, e conta.',
+        'Não é preguiça. É carga errada.',
+        'Não é sobre o preço, é sobre profundidade.',
+    ]:
+        assert len(molde_antitese(verdadeiro)) == 1, f'molde verdadeiro nao contado: {verdadeiro!r}'
+        assert contraste_invertido(verdadeiro) == [], f'molde nao e contraste invertido: {verdadeiro!r}'
+
+    # 2. prosa analitica que PARECE molde: aposto em ordem inversa, fora da cota
+    prosa = [
+        'a ancoragem abre pelo custo invisivel (P5), nao por soma de stack.',
+        'É pedido de UMA oferta, não da esteira inteira.',
+        'e a progressao segue o ritmo do seu corpo, nao o do calendario.',
+    ]
+    for p in prosa:
+        assert molde_antitese(p) == [], f'FALSO-POSITIVO de molde em prosa: {p!r}'
+    assert len(contraste_invertido(prosa[0])) == 1, 'o aposto tem que sair na linha fora da cota'
+
+    # a peca inteira: 4 moldes de verdade e a prosa toda fora da cota
+    peca = '\n'.join(['Nao e sorte, e conta.', 'Não é preguiça. É carga errada.'] + prosa)
+    assert len(molde_antitese(peca, 'peca.md')) == 2, 'contagem da peca mista'
+    assert len(contraste_invertido(peca, 'peca.md')) == 3, 'contagem invertida da peca mista'
+
+    # 3. bloco de codigo: a citacao do molde nao conta com a flag, conta sem ela
+    doc = 'antes\n```\nNao e sorte, e conta.\n```\ndepois\n'
+    assert len(molde_antitese(doc)) == 1, 'sem a flag, a citacao no bloco conta'
+    assert molde_antitese(strip_code_blocks(doc)) == [], 'com a flag, o bloco nao conta'
+
+    # o formato <arquivo>:<linha> nao muda
+    assert molde_antitese('Nao e sorte, e conta.', 'p.md')[0].startswith('p.md:1:'), 'origem:linha'
+
+
+USO_TEXTO = """lint_copy.py, gate de COPY em codigo (anti-IA / anti-voz).
+
+uso:
+  python3 scripts/lint_copy.py peca.md                        linta um arquivo (exit 1 se HARD)
+  python3 scripts/lint_copy.py peca.md --ignore-code-blocks   ignora o conteudo dos blocos ``` (pra veredito que CITA o trecho reprovado)
+  echo "texto..." | python3 scripts/lint_copy.py -            linta stdin
+  python3 scripts/lint_copy.py --selftest                     roda o self-test (--self-test e --test valem igual)
+  python3 scripts/lint_copy.py --help                         mostra esta ajuda
+
+saida: a linha "molde de antitese: N (teto 1)" e a AUTORIDADE da contagem.
+Numero declarado diferente do numero do script reprova a peca.
+A linha "contraste invertido" ("e X, nao Y") sai LOGO ABAIXO e fica FORA da cota:
+em prosa analitica essa forma e aposto comum, e somar as duas inflava o numero."""
+
+
+def _cli(argv):
+    if '--help' in argv or '-h' in argv:
+        print(USO_TEXTO)
+        return 0
+    skip_fences = False
+    restantes = []
+    for a in argv:
+        if a in ('--ignore-code-blocks', '--ignore-fences'):
+            skip_fences = True
+        else:
+            restantes.append(a)
+    if not restantes or restantes[0] in ('--self-test', '--selftest', '--test'):
+        _selftest()
+        return 0
+    arg = restantes[0]
+    if arg.startswith('--'):
+        print(f'opcao desconhecida: {arg}\n')
+        print(USO_TEXTO)
+        return 2
+    try:
         txt = sys.stdin.read() if arg == '-' else open(arg, encoding='utf-8').read()
-        # 12/08 (minerado do impeccable): o modelo que escreve a ENTIDADE HTML do travessao
-        # (&mdash; &#8212; &#x2014;) passava reto pelo contador. Decodifica ANTES de lintar.
-        import html as _html
-        txt = _html.unescape(txt)
-        sys.exit(_run(txt))
-    _self_test()
+    except FileNotFoundError:
+        print(f'arquivo nao encontrado: {arg}\n')
+        print(USO_TEXTO)
+        return 2
+    if skip_fences:
+        txt = strip_code_blocks(txt)
+    # entidade HTML do travessao (&mdash; &#8212; &#x2014;) passava reto pelo gate:
+    # decodifica ANTES de lintar, senao o em-dash entra escapado e nao e visto.
+    import html as _html
+    txt = _html.unescape(txt)
+    return _run(txt, 'stdin' if arg == '-' else arg)
+
+
+if __name__ == '__main__':
+    sys.exit(_cli(sys.argv[1:]))

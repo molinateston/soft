@@ -4,7 +4,7 @@ Um protocolo de aprofundamento do **Bloco 1 · Narrativa**: leva o Cliente Ideal
 
 ## Enquadramento Soft (lê antes de rodar - inegociável)
 
-Estes passos rodam a IA pra **gerar hipótese de avatar**, não verdade. No método Soft, **a densidade real (o mecanismo do nicho, o vocabulário cru) sai da pesquisa + da entrevista, nunca da cabeça da IA**. Logo:
+Estes passos rodam a IA pra **gerar hipótese de avatar**, não verdade. Neste método, **a densidade real (o mecanismo do nicho, o vocabulário cru) sai da pesquisa + da entrevista, nunca da cabeça da IA**. Logo:
 
 - **Ordem certa:** roda a **Super Pesquisa** (`super-pesquisa.md`) primeiro - ela traz o vocabulário real e os concorrentes. Este protocolo **aprofunda emocionalmente** o que a pesquisa achou. Sem pesquisa antes, o que sai daqui é rascunho a confirmar, não fundação.
 - **A IA propõe, a fonte confirma:** todo "Problema Central", toda citação, todo medo que a IA gerar **volta pra entrevista** ("isso bate com o teu cliente real?"). O que o especialista não reconhecer, cai. Avatar que a pesquisa e a entrevista não confirmam é avatar de marketing genérico - exatamente o que o método combate.

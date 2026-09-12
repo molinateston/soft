@@ -15,6 +15,7 @@ Uso:
 
 import argparse
 import asyncio
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -120,6 +121,25 @@ def main():
 
     if not args.html.exists():
         print(f"Erro: arquivo HTML não encontrado: {args.html}", file=sys.stderr)
+        sys.exit(1)
+
+    # Gate de marcador (enforcement): marcador de pendência no HTML de render vira
+    # pixel no PNG de publicação, e PNG não se corrige por colagem. Então o marcador
+    # quebra o build, ANTES de exportar. Este gate não aceita --force de propósito:
+    # o dono publica a imagem, e a imagem não carrega o relato junto.
+    _html_txt = args.html.read_text(encoding="utf-8")
+    _marcadores = [
+        (n, l.strip()[:200])
+        for n, l in enumerate(_html_txt.splitlines(), 1)
+        if re.search(r"\[(?:A CONFIRMAR|DADO|CONFIRMAR)", l)
+    ]
+    print(f"marcadores no html de render: {len(_marcadores)} | "
+          f"grep -cE '\\[(A CONFIRMAR|DADO|CONFIRMAR)' {args.html.name}")
+    for n, l in _marcadores:
+        print(f"  {args.html.name}:{n}: {l}")
+    if _marcadores:
+        print("\n✗ EXPORT BLOQUEADO: marcador viraria pixel.")
+        print("Resolva o dado com o dono, ou reescreva a frase sem ele, e rode de novo.")
         sys.exit(1)
 
     # Gate de craft (enforcement): não exporta peça com falha dura — ex: texto

@@ -1,4 +1,4 @@
-# Código de Escrita Soft
+# Código de Escrita
 
 > A lei de tudo que sai daqui. Toda skill carrega isto antes de escrever qualquer peça. Não é guia de estilo: é a arquitetura que separa o método de mais um perfil ensinando a postar. Melhorar este arquivo afia todas as peças de uma vez.
 
@@ -52,7 +52,7 @@ Os movimentos que toda peça forte usa pra reorganizar a cabeça do leitor:
 - **Nomeação de fenômenos.** Dê nome ao que o mercado sente e não verbaliza. Nomear é parecer profundo e original.
 - **Categoria própria.** Não compita dentro da categoria. Crie uma. "Existem dois tipos de especialista: o que performa e o que é lembrado."
 - **Inimigo comum.** Nomeie a cultura, nunca o concorrente da esquina. A doença é o "mais", não o fulano. Lutar contra a tática é briga rasa; lutar contra a crença coletiva é marca.
-- **Simplificação.** Simples não é fazer pouco. É não inflar antes da hora: a ordem certa e a clareza, nunca amputar ferramenta. O negócio Soft maduro tem o arsenal inteiro (lançamento, webinário, gestão); o que o torna simples é usar cada coisa na hora certa, sobre a base, nunca como ponto de partida. Sofisticação parece simples por dentro, não por ter menos.
+- **Simplificação.** Simples não é fazer pouco. É não inflar antes da hora: a ordem certa e a clareza, nunca amputar ferramenta. O negócio maduro tem o arsenal inteiro (lançamento, webinário, gestão); o que o torna simples é usar cada coisa na hora certa, sobre a base, nunca como ponto de partida. Sofisticação parece simples por dentro, não por ter menos.
 - **Reorganização.** Você não informa. Reorganiza a cabeça do leitor até ele pensar "agora fez sentido". Isso é descoberta, não aula.
 
 ---

@@ -71,7 +71,7 @@ Preenche a tabela pra cada criativo. Só o que tem VEREDITO=PASSA vai pro client
 | **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat, CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
 
-(No Claude Code, roda `python3 scripts/lint_copy.py` no hook e na legenda como cinto extra do anti-IA. No chat, o CTRL+F manual cobre.)
+(Onde houver shell, roda `python3 scripts/lint_copy.py` no hook e na legenda como cinto extra do anti-IA. Sem shell, o CTRL+F manual cobre.)
 
 ## Passo 5, mostra e PARA
 Mostra **só o que passou**: o criativo completo (4 blocos + legenda), a célula da bateria (ângulo x tempero) marcada, e a tabela do gate. Pergunta "esse te serve? ajusto, gero o próximo ângulo, ou monto a bateria?". **Espera o OK** antes de gerar volume.

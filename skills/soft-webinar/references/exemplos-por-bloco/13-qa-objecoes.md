@@ -217,7 +217,7 @@ O achado central do corpus: nos 9 campeões, a objeção quase nunca espera o Q&
 - [ ] **Takeaway dentro da resposta** ("gente preguiçosa me irrita"; "não é para todo mundo") - a resposta qualifica o grupo em vez de implorar.
 - [ ] **Sim e não são aceitáveis; "maybe" é o inimigo** - o bloco existe pra forçar decisão, não pra esgotar curiosidade.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Deixar as objeções pro Q&A final.** Nenhum campeão acumula - a objeção é morta no bloco onde ela nasceria (área → no diagnóstico; tempo → na oferta; preço → na ancoragem). Q&A final é burocracia de pedido, não campo de batalha.
 - **Responder a pergunta literal de quem está com medo.** Fladlien verbaliza: responder o detalhe de quem está em "maybe" gera "a million more of them". A resposta certa endereça o estado decisório.

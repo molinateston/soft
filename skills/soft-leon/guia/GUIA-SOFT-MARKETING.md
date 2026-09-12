@@ -61,7 +61,7 @@ Por isso existe profissional mediano cheio de cliente e profissional excelente p
 
 ### A persona-âncora: o Otávio (persona-exemplo do método)
 
-> O "Otávio" é a persona-âncora ilustrativa que o Soft Business usa pra ensinar, o avatar do próprio produto do autor do método. Cada especialista destila o SEU Otávio; este aqui é o molde didático, não o cliente de todo nicho.
+> O "Otávio" é a persona-âncora ilustrativa que este método usa pra ensinar, o avatar do próprio produto do autor do método. Cada especialista destila o SEU Otávio; este aqui é o molde didático, não o cliente de todo nicho.
 
 36 anos, dez de estrada, método próprio, nome no nicho.
 Fatura R$20k por mês. Instável. Agenda das oito às oito. Já está no digital faz uns três anos: posta, rodou tráfego, talvez lançou, fecha uma venda aqui e ali. Não é iniciante. Mas patina, e o faturamento não acompanha o esforço.
@@ -84,7 +84,7 @@ Escreve-se pra ele. Quando você escreve pra uma pessoa, mil parecidas se reconh
 - **O que vendo, e o que prometo**: não consultoria de marketing, isso é o veículo; vende-se a volta da dignidade de quem é bom e foi tratado como mais um (entra creator cansado, sai Verdadeiro Especialista, pago à altura do que sabe). E o concreto: o cliente certo te achando e pagando o que você vale, sem virar creator, marca de pé na primeira sessão, sistema em três, sessenta dias até virar hábito.
 - **O fio**: a tensão dor→desejo e o sentimento. Toda peça entra por uma dor e sai no desejo: invisível sai em lembrado primeiro, comparado por preço sai em procurado pelo nome, improviso sai em previsibilidade, caçando cliente sai em cliente certo chegando. E no fundo não se vende dinheiro, vende-se alívio: o Otávio chega saturado, perdido entre métodos, e o que sente é "finalmente algo faz sentido". Calma estratégica, não hype. (Esse é o fio *desse* avatar, cada marca define o seu. Pra um avatar aspiracional, o fio pode ser status.)
 
-**Bloco 2 · Mecanismo.** Método todo mundo tem; "minha metodologia" não diferencia ninguém. Mecanismo é o jeito proprietário, com nome, que explica por que funciona quando o do concorrente não funciona. Soft Business. Protocolo Anti-Sanfona. Advocacia Valorizada. HOF Start. Sem nome, vira commodity; sem mecanismo por trás, vira rótulo bonito. Três passos (quatro na exceção), porque três o cliente memoriza e repete. Cada passo faz duas coisas: quebra uma objeção E tira uma dor.
+**Bloco 2 · Mecanismo.** Método todo mundo tem; "minha metodologia" não diferencia ninguém. Mecanismo é o jeito proprietário, com nome, que explica por que funciona quando o do concorrente não funciona. este método. Protocolo Anti-Sanfona. Advocacia Valorizada. HOF Start. Sem nome, vira commodity; sem mecanismo por trás, vira rótulo bonito. Três passos (quatro na exceção), porque três o cliente memoriza e repete. Cada passo faz duas coisas: quebra uma objeção E tira uma dor.
 
 **Bloco 3 · Oferta.** Uma promessa, três ofertas. A promessa é a mesma, sair do invisível, virar o procurado pelo nome. O que muda é quanto do especialista entra e a qualificação do cliente: Principal, Secundária (downsell), Super. Especialista que vende cinco produtos vira loja, e o cliente paralisa. A **Equação de Valor** (Resultado × Probabilidade ÷ Tempo + Esforço) é o que se mexe antes do preço: antes de subir preço, três caminhos, mais prova, resultado mais rápido, menos trabalho do cliente. O **Mapa de Valor** ancora: o cliente não compara R$5 mil com nada, compara com R$11 mil. Ou com o custo de não resolver, R$20k instável virando R$40k previsível é um delta de R$20k por mês. **Garantia** obrigatória: quem garante sinaliza que confia na entrega. **Custo invisível**: o que continuar como está cobra em silêncio.
 
@@ -213,7 +213,7 @@ Quem responde "umas 40h" sem pensar quase sempre tem 22 a 28 reais. Faz preenche
 
 Tocar · Analisar · Melhorar. Sempre nesta ordem.
 
-**Tocar.** Produz o conteúdo, com o Sócio IA carregando a parte braçal. Mantém o funil no ar. Conduz as conversas que o funil já qualificou. Uma oferta ativa por semana, não cinco, quem toca cinco não consegue ler qual funcionou.
+**Tocar.** Produz o conteúdo, com o Motor de IA carregando a parte braçal. Mantém o funil no ar. Conduz as conversas que o funil já qualificou. Uma oferta ativa por semana, não cinco, quem toca cinco não consegue ler qual funcionou.
 
 **Analisar.** Lê os números contra o próprio padrão, não contra benchmark de fora. Subiu ou caiu em relação a você mesmo da semana passada. Quem lê isso toda semana gere; quem gere, otimiza; quem otimiza, prevê.
 

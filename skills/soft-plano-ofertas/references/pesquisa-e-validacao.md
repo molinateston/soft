@@ -115,7 +115,7 @@ Fechados os buckets, o survey longo vira um **quiz curto na entrada do funil** (
 
 Há uma escola de resposta direta que escolhe DE PROPÓSITO um mercado já explorado (os três grandes: saúde e beleza, ganhar dinheiro, relacionamento), pra que a única variável a acertar vire a COPY e a OFERTA, não a existência de demanda. Nessa lógica, **"ninguém vendendo nesse nicho" é bandeira VERMELHA**, não oportunidade: gente mais esperta já checou antes e não achou dinheiro ali.
 
-**O que isso muda no método Soft, e o que não muda.** Isso é escolha de CONTEXTO (risco baixo de demanda) e **tempera** o posicionamento diferenciado do especialista que o método prega, não o sobrescreve. O Soft ganha num mercado grande por ANGULAÇÃO e mecanismo único, o especialista incomum DENTRO do nicho faminto, não fugindo pro nicho vazio. A régua de decisão:
+**O que isso muda neste método, e o que não muda.** Isso é escolha de CONTEXTO (risco baixo de demanda) e **tempera** o posicionamento diferenciado do especialista que o método prega, não o sobrescreve. O Soft ganha num mercado grande por ANGULAÇÃO e mecanismo único, o especialista incomum DENTRO do nicho faminto, não fugindo pro nicho vazio. A régua de decisão:
 
 | Situação do dono | O que a variação manda |
 |---|---|
@@ -174,6 +174,6 @@ A ordem de teste quando a oferta validada vai pro tráfego pago, porque criativo
 2. **Testar a OFERTA** (preço, garantia, stack) com criativo FIXO: muda uma variável de oferta por vez.
 3. **Só depois multiplicar criativos** em cima da combinação vencedora.
 
-Regras de operação: **15-20% do orçamento numa campanha de teste separada**, nunca teste dentro da campanha de escala; métrica de graduação = retorno blended + **receita de cliente NOVO** (não retorno inflado por remarketing). A execução na conta é handoff (`soft-trafego-meta`); a decisão de verba é da `soft-conteudo-impulsionar`. Aqui só mora a ORDEM: promessa → oferta → criativo, cada etapa matando a ideia mais barato que a seguinte.
+Regras de operação: **15-20% do orçamento numa campanha de teste separada**, nunca teste dentro da campanha de escala; métrica de graduação = retorno blended + **receita de cliente NOVO** (não retorno inflado por remarketing). A execução na conta e a decisão de verba são handoff (`soft-trafego-meta`). Aqui só mora a ORDEM: promessa → oferta → criativo, cada etapa matando a ideia mais barato que a seguinte.
 
 > **Régua de fidelidade (lei desta reference):** número de estudo só com fonte e ano; número do dono é SLOT `[A CONFIRMAR]` até validar; frase de cliente só colhida, nunca simulada; número-alvo de teste fixado ANTES de rodar.

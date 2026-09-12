@@ -1,5 +1,5 @@
-"""GANCHO (cold open) AUDIOVISUAL — PADRÃO v4.
-Copia a FRASE COMPLETA mais forte pro comecinho — SÓ o apresentador, SEM b-roll — com (1) EFEITO
+"""GANCHO (cold open) AUDIOVISUAL, PADRAO v4.
+Copia a FRASE COMPLETA mais forte pro comecinho, SO o apresentador, SEM b-roll, com (1) EFEITO
 diferenciado e (2) a MESMA FRASE escrita numa FAIXA (MÁX 2 LINHAS, fonte menor, ~15% abaixo do centro).
 Depois transicao animada (fadeblack) pro corpo. A frase continua no lugar original.
 

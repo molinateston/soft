@@ -7,7 +7,7 @@
 - O que este bloco precisa fazer (síntese das premissas)
 - Exemplo por exemplo
 - Padrões transversais (checklist - o que TODOS fazem neste bloco)
-- Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+- Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 - Webinars sem este bloco (e por quê - também é dado)
 
 ---
@@ -346,7 +346,7 @@ O gancho do braçal → atalho (ensina o princípio, vende o preenchimento):
 - [ ] **Conta feita ao vivo com micro-sim** ("4 × $1.500 = R$36k/mês. Poderia, não poderia?"; "R$30 de custo, justo é R$1.000") - quando a conta é do bolso do aluno, ela já planta a âncora do preço.
 - [ ] **Recap acumulativo antes da transição**: empilhar tudo que foi visto ("vimos BSC, vimos Scrum, vimos Kanban…") para a transição pesar.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Esgotar o assunto**: ensinar o COMO completo mata a oferta - nenhum campeão entrega o preenchimento, só o mapa. Mas o inverso também quebra:
 - **Teaser sem substância**: "isso eu só conto no curso" repetido SEM ter entregue valor real antes. Todos os campeões dão algo aplicável hoje primeiro; a retenção vem depois e com razão verbalizada.

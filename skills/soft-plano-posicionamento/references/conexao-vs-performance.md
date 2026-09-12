@@ -219,7 +219,7 @@ Quem escolhe performance:
 
 A escolha não é estética. É estratégica.
 
-O método Soft escolhe conexão. Sempre. Sem exceção.
+Este método escolhe conexão. Sempre. Sem exceção.
 
 Quem escolher performance, tá no método errado.
 

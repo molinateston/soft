@@ -231,7 +231,7 @@ Bônus 2 - o "combinado" (desconto com contrapartida):
 - [ ] **Bônus de identidade/pertencimento no topo** (Black Belt Club, lista de indicações, comunidade vitalícia, consultoria pós-$10k) - o último degrau vende quem o aluno vira, não o que ele recebe.
 - [ ] **Re-listagem cumulativa** (Fladlien #1; a máquina do webinar-modelo GA faz versão suave no "resumo de tudo") - repetir o stack inteiro a cada item novo.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Oferta desconectada da aula.** Nenhum campeão apresenta produto com estrutura diferente do que ensinou - stack que não espelha o conteúdo chega como produto estranho e reabre o ceticismo.
 - **Bônus sem preço e sem porquê.** "E ainda levam mais isso!" sem valor nominal nem reason-why de custo esvazia a âncora - todos os campeões precificam e justificam.

@@ -55,7 +55,7 @@ A plataforma importa o chat simulado de uma planilha. **A skill NÃO impõe um f
 **Regra de operação (vale nos dois ambientes):**
 - **SEMPRE perguntar/pedir o modelo primeiro.** "Você tem o modelo de planilha que a sua plataforma importa? Sobe pra mim que eu gero nesse formato." Plataformas diferentes (EverWebinar × WebinarKit) e contas diferentes têm colunas diferentes; gerar no formato errado é obrigar o especialista a remapear coluna a coluna.
 - **No Claude CHAT:** o autor do corpus sobe o `.xlsx`/`.csv` no chat; a skill lê as colunas, gera o conteúdo e devolve uma tabela markdown pronta pra colar OU um CSV pra baixar. (Chat não roda script, então o entregável é a tabela/CSV.)
-- **No Claude CODE:** a skill lê o arquivo do disco, gera e grava o `.csv`/`.xlsx` no formato exato do modelo (mesmas colunas, mesma ordem, mesmo cabeçalho). Se a plataforma exige timestamp em formato específico (mm:ss, segundos absolutos, hh:mm:ss), respeitar o que o modelo mostra.
+- **Com shell e acesso a arquivo:** a skill lê o arquivo do disco, gera e grava o `.csv`/`.xlsx` no formato exato do modelo (mesmas colunas, mesma ordem, mesmo cabeçalho). Se a plataforma exige timestamp em formato específico (mm:ss, segundos absolutos, hh:mm:ss), respeitar o que o modelo mostra.
 
 **FORMATO CANÔNICO da plataforma do corpus estudado (confirmado 10/jun).** É ESTE o CSV de import:
 

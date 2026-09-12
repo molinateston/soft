@@ -3,7 +3,7 @@
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business. O VSL não é palestra, é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
+Guia para construir o roteiro do Vídeo de Vendas (VSL) neste sistema. O VSL não é palestra, é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
 
 ---
 

@@ -1,7 +1,7 @@
-# Formato de saida — Markdown -> Google Doc
+# Formato de saida: Markdown -> Google Doc
 
 Cada elemento de Markdown, como cai no Google Doc depois do pandoc + gog --convert-to doc.
-Testado com o doc-exemplo (id 1pCfoX3htfNhPTRatIugXCGqDLc9pDCDydI1gryZJvQY, 13/08).
+Verificado num doc-exemplo que exercita todos os elementos da tabela abaixo.
 
 | No Markdown            | No Google Doc                         | Quando usar                          |
 |------------------------|---------------------------------------|--------------------------------------|

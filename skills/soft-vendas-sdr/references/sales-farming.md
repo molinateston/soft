@@ -56,7 +56,7 @@ Sem resposta ao fim do ciclo: o lead **descansa** (60 a 90 dias) antes de entrar
 
 ## O agente 24-7 como farmer (o objetivo D natural)
 
-O farming é trabalho de volume, paciência e registro, exatamente o que a máquina faz melhor que gente: o agente desta skill assume a esteira como **rotina extra do objetivo configurado** (ou como missão própria numa operação madura), processando a fatia do mês em lote, respeitando TODAS as regras sempre-ligadas (killswitch, horário de silêncio, optout imediato, anti-spam, debounce) e o crivo anti-IA em cada mensagem. Num time com SDR humano, o perfil "sales farmer" é uma das especializações da pré-venda em escala (referência de mercado); na operação Soft, o agente cobre essa função sem contratar.
+O farming é trabalho de volume, paciência e registro, exatamente o que a máquina faz melhor que gente: o agente desta skill assume a esteira como **rotina extra do objetivo configurado** (ou como missão própria numa operação madura), processando a fatia do mês em lote, respeitando TODAS as regras sempre-ligadas (killswitch, horário de silêncio, optout imediato, anti-spam, debounce) e o crivo anti-IA em cada mensagem. Num time com SDR humano, o perfil "sales farmer" é uma das especializações da pré-venda em escala (referência de mercado); nesta operação, o agente cobre essa função sem contratar.
 
 ## Métricas do farming (placar próprio, não mistura com o topo)
 

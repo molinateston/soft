@@ -224,14 +224,14 @@ O bloco termina com a ferida aberta em forma de dilema ou equação sem soluçã
 - [ ] **O bloco termina em dilema/equação sem solução conhecida** - dois desfechos da dieta (o especialista do corpusA), valor-sem-venda × pitchfest (Fladlien), indispensável × extinto (GAIA2k). A ferida fica aberta: quem resolve é a Big Idea, no bloco seguinte.
 - [ ] **Cena sensorial em segunda pessoa** - a musiquinha do Fantástico, o "ih, o chefe chegou", a marmita no aniversário. Dor abstrata não dói; cena com som e objeto dói.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Culpar ou humilhar o avatar.** Nenhum campeão diz "você é preguiçoso/incompetente". O máximo é "inconsciente" ou "conformado" (o especialista do corpusC) - e sempre com saída honrosa ("talvez você ainda não está no nível… AINDA"). Atacar o lead fecha o ouvido que o bloco existe pra abrir.
 - **Vilão = pessoa identificável ou concorrente com nome próprio.** O vilão é sempre categoria, sistema, sigla ou frase ("gestores do passado", "médico charlatão", "dieta burra") - nunca "o fulano". Imagem ridícula recai sobre um boneco (homem das cavernas de IA, gestossauro), nunca sobre alguém da sala.
 - **Afirmar a dor sem lastro.** Diagnóstico sem pesquisa/print/estatística é opinião de vendedor - todos os nove trazem prova. Webinar novo sem dado próprio usa instituição, print ou precedente; nunca "todo mundo sabe que".
 - **Resolver a dor dentro do bloco.** A solução pertence à Big Idea e ao conteúdo. Quem entrega o mecanismo da cura aqui mata a tensão que sustenta as próximas duas horas. O bloco abre a ferida e promete ("eu vou te explicar como resolve"), não fecha.
 - **Empilhar medo sem rota implícita de saída.** Todos mantêm o duplo registro "não é culpa sua E tem jeito" - terrorismo puro paralisa em vez de mobilizar. Até o meteoro do gestossauro vem com a porta "ou você se atualiza".
-- **Lista de dores genérica, sem cena nem voz do avatar.** "Você se sente cansado e sem tempo" não diagnostica ninguém. Os campeões usam a fala literal do avatar ("resina é assim mesmo", "eu não vou cobrar muito caro não") e cena com objeto (chocolate, marmita, relatório). No método Soft isso significa: buscar no baú de voz do nicho as frases reais, não inventar dor de template.
+- **Lista de dores genérica, sem cena nem voz do avatar.** "Você se sente cansado e sem tempo" não diagnostica ninguém. Os campeões usam a fala literal do avatar ("resina é assim mesmo", "eu não vou cobrar muito caro não") e cena com objeto (chocolate, marmita, relatório). Neste método isso significa: buscar no baú de voz do nicho as frases reais, não inventar dor de template.
 - **Decalcar o nome do vilão de outro dono (viola G2).** "Síndrome do Fantástico" é da GA, "dieta burra" é do especialista do corpusA - webinar novo batiza a PRÓPRIA dor e o PRÓPRIO vilão na linguagem do nicho. Copiar o rótulo entrega que o roteiro é de segunda mão.
 - **Pular o nível de consciência da sala.** O especialista do corpusC gasta o bloco inteiro criando consciência na "carinha amarela" antes de qualquer promessa; Fladlien #2 reeduca o frame de mercado antes de diagnosticar. Tratar sala inconsciente como sala consciente do problema desperdiça o bloco - o diagnóstico chega antes de existir paciente.
 

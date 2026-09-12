@@ -53,7 +53,7 @@ Melhoria não vende, por quatro razões concretas:
 - **Melhoria dói.** "Melhore seu funil" diz a quem já tentou funil e se queimou: faça de novo a coisa que não deu certo.
 - **Melhoria exige ambição.** Só os 2% mais ambiciosos topam "ser melhor". Os outros 98% acordam por "existe outro caminho", não por "melhore".
 - **Melhoria reabre o fracasso.** Cada "melhore X" acende a memória das tentativas que falharam. Você vende sobre uma cicatriz.
-- **Melhoria compete por preço.** Mesma categoria "melhorada" = mar vermelho, e o método Soft não vence por ser mais barato.
+- **Melhoria compete por preço.** Mesma categoria "melhorada" = mar vermelho, e este método não vence por ser mais barato.
 
 O motor invisível por baixo é **STATUS**. Antes de comprar, o cérebro pergunta em milissegundos: "isso me faz parecer mais à frente, ou me expõe a parecer idiota de novo?". Nova oportunidade não carrega risco de status: a pessoa ainda não falhou ali. Conexão direta com o 6º nível de consciência (o avatar em quem a solução virou o problema): pra ele, "tente de novo, agora melhor" é o pior gatilho que existe. Ele só se move por categoria nova, sinalizada pelo **nome próprio do mecanismo**.
 

@@ -28,7 +28,7 @@ O pós-venda do método: os princípios de MERECER a indicação (em vez de pedi
 
 A skill comercial atual termina na **Fase 7 (Fechamento)**. Vende, recebe, agenda primeira sessão. Fim da história.
 
-**Buraco:** o cliente fechado é o ativo mais barato pra gerar próxima venda. E a maioria dos especialistas Soft Business **não tem nenhum sistema** pra extrair valor desse ativo.
+**Buraco:** o cliente fechado é o ativo mais barato pra gerar próxima venda. E a maioria dos especialistas **não tem nenhum sistema** pra extrair valor desse ativo.
 
 A regra central do pós-venda:
 
@@ -325,7 +325,7 @@ Cliente que recebe check-in mensal **lembra de você**. Quem lembra, indica. Que
 
 ## Métricas do pós-venda
 
-A skill diagnostica funil/métricas (Modo D). Quando o cliente Soft Business já tem base de 10+ clientes fechados, métricas pós-venda entram:
+A skill diagnostica funil/métricas (Modo D). Quando o cliente já tem base de 10+ clientes fechados, métricas pós-venda entram:
 
 | Métrica | Cálculo | Alvo |
 |---|---|---|

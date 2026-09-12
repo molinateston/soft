@@ -147,9 +147,9 @@ Entregar em **dois formatos**:
 1. **No chat**, markdown estruturado pra revisão rápida
 2. **Arquivo .docx**, pronto pra D4Sign/Clicksign/Autentique
 
-Salvar em `/mnt/user-data/outputs/contrato-[nome]-[data].docx` e apresentar com `present_files`.
+Salvar o arquivo no disco e, **se o ambiente tiver um apresentador de arquivo nativo, apresentar por ele**; senão basta informar o path completo na resposta. Nome sugerido: `contrato-[nome]-[data].docx`, no diretório de saída do ambiente (working dir, quando não houver um dedicado).
 
-**Fallback (ambiente sem `/mnt/user-data/outputs`):** se o diretório de saída não existir (rodando fora do Claude Chat, ex. CLI/bot), não tenta gravar `.docx` nem chamar `present_files`, entrega o contrato como **markdown estruturado inline no chat**, pronto pra copiar pro D4Sign/Clicksign/Autentique. O conteúdo das cláusulas é o mesmo; muda só o formato de entrega.
+**Fallback (ambiente sem escrita em disco):** se não der pra gravar arquivo (só chat), não tenta gerar `.docx`: entrega o contrato como **markdown estruturado inline**, pronto pra copiar pro D4Sign/Clicksign/Autentique. O conteúdo das cláusulas é o mesmo; muda só o formato de entrega.
 
 Após entregar, **avisar o usuário**:
 

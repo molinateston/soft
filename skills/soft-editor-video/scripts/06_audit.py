@@ -1,8 +1,12 @@
 """Auditoria VISUAL do MP4 final: extrai frames, monta mosaico (prova pro dono)
-e pergunta pro codex OAuth (conta ChatGPT) se a composicao esta certa. OLHOS REAIS, ZERO API paga.
+e pergunta pra CLI de IA com visao se a composicao esta certa. OLHOS REAIS, sem chave paga nova.
 
-O motor do LEON (codex exec, texto puro) NAO ve imagem. Sem este passo, qualquer
+O motor do agente em modo texto puro NAO ve imagem. Sem este passo, qualquer
 "12/12 frames conferidos" e alucinacao de conformidade. Aqui a alegacao vira medicao.
+
+A CLI de visao vem de VISAO_CLI (default "codex"); os argumentos de invocacao vem de
+VISAO_CLI_ARGS; o modelo com visao vem de AUDIT_MODEL. Se a CLI nao existir no PATH, o script sai com codigo 2 (INDISPONIVEL)
+e entrega so o mosaico: nunca finja auditoria visual que nao aconteceu.
 
 Uso: python3 06_audit.py final.mp4 [pasta_audit] [N] [marcos_csv]
   marcos_csv: timestamps de transicao (fim do gancho, inicio do CTA), ex: "6.2,52.0"
@@ -13,15 +17,41 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _config as C
 
 if len(sys.argv) < 2:
-    print("uso: python3 06_audit.py final.mp4 [pasta_audit] [N] [marcos_csv]"); sys.exit(2)
+    print("uso: python3 06_audit.py final.mp4 [pasta_audit] [N] [marcos_csv] [verbos.json]"); sys.exit(2)
 
-# Visao pelo codex OAuth (conta ChatGPT) — NAO exige OPENAI_API_KEY (nada de API paga).
+# Visao pela CLI de IA do ambiente (variavel VISAO_CLI, default 'codex'), sem chave paga nova.
 SRC = os.path.abspath(sys.argv[1])
 if not os.path.exists(SRC):
     print(f"AUDIT INDISPONIVEL: MP4 nao existe: {SRC}"); sys.exit(2)
 AUD = os.path.abspath(sys.argv[2]) if len(sys.argv) > 2 else os.path.join(C.OUTPUT_DIR, "audit")
 N = int(sys.argv[3]) if len(sys.argv) > 3 else 12
 MARCOS = [float(x) for x in sys.argv[4].split(",") if x.strip()] if len(sys.argv) > 4 else []
+# Tabela de verbos do pedido (argv[5]): lista de {"verbo","estado","motivo_medido"}.
+# Estado "nao_feito" reconcilia o status do veredito, pra o JSON nunca dizer PASSA
+# enquanto o relatorio diz PASSA COM PENDENCIA.
+VERBOS_PATH = sys.argv[5] if len(sys.argv) > 5 and sys.argv[5].strip() else None
+VERBOS = []
+if VERBOS_PATH:
+    if not os.path.exists(VERBOS_PATH):
+        print(f"AUDIT INDISPONIVEL: tabela de verbos nao existe: {VERBOS_PATH}"); sys.exit(2)
+    with open(VERBOS_PATH, encoding="utf-8") as _vh:
+        _vd = json.load(_vh)
+    VERBOS = _vd.get("verbos", _vd) if isinstance(_vd, dict) else _vd
+    if not isinstance(VERBOS, list):
+        print("AUDIT INDISPONIVEL: verbos.json tem que ser lista de {verbo, estado, motivo_medido}"); sys.exit(2)
+
+
+def _pendencias_dos_verbos(verbos):
+    """Verbo do pedido em 'nao_feito' vira entrada de problema, no formato da regra."""
+    out = []
+    for item in verbos:
+        if not isinstance(item, dict):
+            continue
+        estado = str(item.get("estado", "")).strip().lower().replace(" ", "_")
+        if estado in ("nao_feito", "não_feito"):
+            out.append({"verbo": item.get("verbo", "?"),
+                        "motivo_medido": item.get("motivo_medido", "sem motivo medido declarado")})
+    return out
 FRD = os.path.join(AUD, "frames"); os.makedirs(FRD, exist_ok=True)
 # Reauditar na mesma pasta nao pode misturar frames de uma rodada anterior no mosaico.
 for _old_frame in glob.glob(os.path.join(FRD, "f_*_t*.jpg")):
@@ -52,7 +82,7 @@ def dur(p):
 
 D = dur(SRC)
 if D < 1.0:
-    _fail(f"duracao invalida ({D}s) — MP4 corrompido ou vazio?", 2)
+    _fail(f"duracao invalida ({D}s): MP4 corrompido ou vazio?", 2)
 
 # ---- 1. timestamps: gancho(1s) + CTA(D-2) + marcos+0.8 (NUNCA no meio do xfade) + uniforme ----
 ts = {1.0, max(0.5, D - 2.0)} | {min(D - 1.0, m + 0.8) for m in MARCOS}
@@ -61,7 +91,7 @@ while len(ts) < N and i < N * 3:
     ts.add(round(2.0 + (D - 5.0) * (i + 0.5) / N, 2)); i += 1
 TS = sorted(t for t in ts if 0.2 <= t <= D - 0.2)[:N]
 
-# ---- 2. extrai frames (768 de largura, ts queimado pra o codex referenciar) ----
+# ---- 2. extrai frames (768 de largura, ts queimado pra a visao referenciar) ----
 frames = []
 for k, t in enumerate(TS):
     f = os.path.join(FRD, f"f_{k:02d}_t{t:.1f}.jpg")
@@ -75,7 +105,7 @@ for k, t in enumerate(TS):
 if len(frames) < max(4, N // 2):
     _fail(f"extracao de frames falhou (so {len(frames)} de {N})", 2)
 
-# ---- 3. mosaico (a PROVA pro Telegram; existe mesmo se a visao cair) ----
+# ---- 3. mosaico (a PROVA pra entrega; existe mesmo se a visao cair) ----
 MOSAICO = os.path.join(AUD, "mosaico.jpg")
 subprocess.run(["ffmpeg", "-y", "-framerate", "1", "-pattern_type", "glob", "-i", f"{FRD}/f_*.jpg",
                 "-vf", "scale=360:640,tile=4x3", "-frames:v", "1", "-q:v", "3", MOSAICO],
@@ -89,11 +119,14 @@ decode_ok = (r.returncode == 0 and not r.stderr.strip())
 if r.stderr.strip():
     open(os.path.join(AUD, "decode_errors.txt"), "w").write(r.stderr)
 
-# ---- 5. VISAO via codex OAuth (-i FILE...), JSON estrito por --output-schema ----
-# VISAO PELO CODEX OAUTH (conta ChatGPT, ZERO API paga). O codex exec ve imagem
-# nativamente via -i FILE... (17/08 Leo: "100% na conta oauth, nada de credito openai").
-# O motor do LEON e cego SO porque o bridge nunca passava -i; aqui passamos os frames.
-CODEX = "codex"
+# ---- 5. VISAO via CLI de imagem (-i FILE...), JSON estrito por --output-schema ----
+# A CLI e configuravel: VISAO_CLI (binario) e VISAO_CLI_ARGS (argumentos). O default
+# usa a sessao ja autenticada da CLI, sem abrir chave paga nova. O motor fica cego
+# quando ninguem passa os frames; aqui passamos.
+CODEX = os.environ.get("VISAO_CLI", "codex")
+# Modelo de visao passado pra CLI. Configuravel por AUDIT_MODEL: cada ambiente/motor
+# nomeia o proprio modelo com visao, e o default so serve o caso mais comum.
+AUDIT_MODEL = os.environ.get("AUDIT_MODEL", "gpt-5.6-terra")
 AUDIT_MODE = os.environ.get("SOFT_EDITOR_AUDIT_MODE", "standard").strip().lower()
 _gancho_files = [os.path.basename(f) for f in frames if "_t1.0.jpg" in f]
 gancho = ", ".join(_gancho_files)
@@ -145,7 +178,7 @@ Para CADA frame responda booleans usando estes campos legados:
 Confirme no resumo se a abertura split ocupa os primeiros segundos, se o corpo fica em tela cheia, se as legendas permanecem legiveis no terco inferior e se o final termina no rosto sem card. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
 Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
 elif AUDIT_MODE == "slides_fullscreen":
-    PROMPT = f"""Voce audita a COMPOSICAO de uma APRESENTACAO VERTICAL 9:16 que alterna tres estados de tela inteira: take do apresentador, slide narrativo e prova real do Telegram. NAO existe faixa de b-roll e NAO deve existir layout dividido permanente.
+    PROMPT = f"""Voce audita a COMPOSICAO de uma APRESENTACAO VERTICAL 9:16 que alterna tres estados de tela inteira: take do apresentador, slide narrativo e prova real de tela (uma conversa, um app, um painel). NAO existe faixa de b-roll e NAO deve existir layout dividido permanente.
 Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
 {_lista}
 Frame inicial: {gancho or 'nenhum'}. Frame final: {cta}.
@@ -153,11 +186,11 @@ Para CADA frame responda booleans usando estes campos legados:
 - teto_morto: true SOMENTE em take do apresentador quando o ar vazio acima da cabeca for MAIOR que a altura da propria cabeca; em slide/prova, false
 - enquadramento_frouxo: true SOMENTE em take do apresentador pequeno, com sobra clara em cima E laterais; em slide/prova, false
 - rosto_cortado: true se rosto, topo da cabeca ou queixo estiverem cortados; em slide/prova, false
-- faixa_broll_vazia: neste modo, true se houver split-screen constante, apresentador espremido ou Telegram usado como rodape pequeno; false para take, slide e prova que ocupam o canvas inteiro
-- broll_deformado: neste modo, true se slide estiver quebrado/deformado OU se a prova real do Telegram estiver pequena/ilegivel; false nos takes do apresentador
+- faixa_broll_vazia: neste modo, true se houver split-screen constante, apresentador espremido ou prova de tela usada como rodape pequeno; false para take, slide e prova que ocupam o canvas inteiro
+- broll_deformado: neste modo, true se slide estiver quebrado/deformado OU se a prova real de tela estiver pequena/ilegivel; false nos takes do apresentador
 - legenda_cobre_rosto: true se qualquer texto cobrir o rosto do apresentador
 - faixa_gancho_estoura: false em todos os frames; esta peca nao usa faixa de gancho
-Confirme no resumo se ha alternancia clara entre apresentador, slides narrativos de tela inteira e prova real do Telegram em tela inteira. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
+Confirme no resumo se ha alternancia clara entre apresentador, slides narrativos de tela inteira e prova real de tela em tela inteira. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
 Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
 elif AUDIT_MODE == "screen_captioned":
     PROMPT = f"""Voce audita uma GRAVACAO DE TELA vertical 9:16 em tela cheia com legenda queimada palavra por palavra.
@@ -248,6 +281,21 @@ Avalie tambem a coerencia visual entre os frames sucessivos. Para CADA frame res
 - faixa_gancho_estoura: false em todos os frames, pois nao existe gancho
 No resumo diga se a cena permanece coerente ao longo da sequencia e se ha movimento visual perceptivel entre os frames, sem inventar medidas de tempo. CALIBRACAO: marque true SO para problema CLARAMENTE visivel.
 Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
+elif AUDIT_MODE == "forma_d":
+    PROMPT = f"""Voce audita a COMPOSICAO de um video vertical 9:16 na FORMA D (conteudo puro): o video original ocupa a tela INTEIRA do comeco ao fim.
+Nesta forma NAO existe faixa de b-roll, NAO existe apoio gerado, NAO existe split-screen e NAO existe slide. A unica arte acrescentada permitida e uma headline curta nos primeiros 3 segundos e, quando houver, a legenda no terco inferior. Nada disso e defeito: e a forma escolhida.
+Recebeu {len(frames)} frames em ordem cronologica (t= queimado no canto superior esquerdo), nesta ordem:
+{_lista}
+Para CADA frame responda booleans usando estes campos legados:
+- teto_morto: true SOMENTE se houver apresentador visivel E o ar vazio acima da cabeca for MAIOR que a altura da propria cabeca; sem apresentador na tela, false
+- enquadramento_frouxo: true SOMENTE se houver apresentador visivel e ele ficar pequeno demais para reconhecer; sem apresentador, false
+- rosto_cortado: true somente se houver rosto visivel cortado pela borda; sem rosto, false
+- faixa_broll_vazia: false em todos os frames, pois a Forma D nao tem faixa de b-roll por design; marque true apenas se a edicao acrescentou uma faixa, painel ou moldura artificial que ficou vazia
+- broll_deformado: true somente se a imagem principal estiver esticada, girada, cortada de modo inutilizavel ou visualmente corrompida
+- legenda_cobre_rosto: true se a legenda cobrir rosto, informacao central da tela ou estiver cortada; legenda legivel no terco inferior deve ser false
+- faixa_gancho_estoura: SO no frame de gancho dos 3 primeiros segundos, true se a headline tiver mais de 2 linhas, estourar a area segura ou encostar nas bordas; nos demais frames, false
+No resumo confirme que a peca permanece em tela cheia e diga se a headline dos 3 primeiros segundos esta legivel e dentro da area segura. Nao cobre b-roll nem apoio: eles nao existem nesta forma. CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
+Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
 elif AUDIT_MODE == "split_no_hook":
     PROMPT = f"""Voce audita a COMPOSICAO de um video vertical 9:16 em split-screen 50/50 CONTINUO: apresentador na metade superior e slides narrativos na metade inferior.
 Esta peca NAO tem gancho separado, CTA, b-roll de IA ou tela cheia. Portanto o frame de 1s e um frame comum do corpo, e `faixa_gancho_estoura` deve ser false em todos os frames.
@@ -279,7 +327,7 @@ Para CADA frame responda booleans:
 CALIBRACAO: marque true SO para problema CLARAMENTE visivel. Na duvida ou problema leve, false e cite em "obs".
 Use exatamente os nomes de arquivo da lista no campo "arquivo". Responda SOMENTE o JSON pedido."""
 
-# JSON Schema estrito: o codex --output-schema forca o formato (melhor que parsear texto)
+# JSON Schema estrito: --output-schema forca o formato (melhor que parsear texto)
 SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -316,9 +364,9 @@ def visao():
     last_path = os.path.join(AUD, "audit_last.json")
     # -i por frame; --output-schema forca JSON; --output-last-message captura so a resposta final.
     # O prompt vai por STDIN, nao posicional: -i e variadico (--image FILE...) e engoliria o
-    # prompt posicional como se fosse mais uma imagem (o codex entao acha o prompt vazio).
+    # prompt posicional como se fosse mais uma imagem (a CLI entao acha o prompt vazio).
     args = [CODEX, "exec", "--skip-git-repo-check", "--dangerously-bypass-approvals-and-sandbox",
-            "-m", "gpt-5.6-terra", "--output-schema", schema_path, "--output-last-message", last_path]
+            "-m", AUDIT_MODEL, "--output-schema", schema_path, "--output-last-message", last_path]
     for f in frames:
         args += ["-i", f]
     p = subprocess.run(args, input=PROMPT, capture_output=True, text=True, timeout=420)
@@ -328,7 +376,7 @@ def visao():
     if not raw:
         raw = (p.stdout or "").strip()
     if not raw:
-        raise RuntimeError((p.stderr or "").strip()[-300:] or "codex exec nao devolveu resposta")
+        raise RuntimeError((p.stderr or "").strip()[-300:] or f"{CODEX} nao devolveu resposta")
     limpo = re.sub(r"^```(json)?|```$", "", raw.strip(), flags=re.M).strip()
     v = json.loads(limpo)
     if "frames" not in v or not isinstance(v["frames"], list):
@@ -360,10 +408,17 @@ if not decode_ok:
     probs.append("decodificacao com erros (ver audit/decode_errors.txt)")
 veredito = "REPROVA" if probs else "PASSA"
 
-json.dump({"status": veredito, "problemas": probs, "resumo": v.get("resumo", ""), "frames": v["frames"],
+# Reconciliacao com a tabela de verbos: o JSON e o relatorio dizem a mesma coisa.
+pend_verbos = _pendencias_dos_verbos(VERBOS)
+if pend_verbos:
+    probs = probs + [f"verbo do pedido nao feito: {p['verbo']} ({p['motivo_medido']})" for p in pend_verbos]
+    if veredito == "PASSA":
+        veredito = "PASSA_COM_PENDENCIA"
+
+json.dump({"status": veredito, "problemas": probs, "verbos": VERBOS, "pendencias_de_verbo": pend_verbos, "resumo": v.get("resumo", ""), "frames": v["frames"],
            "decode_ok": decode_ok, "n_frames": len(frames), "mosaico": MOSAICO if _mos_ok else None,
            "mp4": SRC, "mp4_mtime": os.path.getmtime(SRC), "audited_at": time.time()},
           open(os.path.join(AUD, "veredito.json"), "w"), indent=1)
 print(f"AUDIT {veredito}  frames={len(frames)}  decode={'ok' if decode_ok else 'ERRO'}  mosaico={MOSAICO}"
       + "".join("\n  - " + p for p in probs))
-sys.exit(0 if veredito == "PASSA" else 1)
+sys.exit(0 if veredito in ("PASSA", "PASSA_COM_PENDENCIA") else 1)

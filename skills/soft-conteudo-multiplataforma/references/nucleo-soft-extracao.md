@@ -1,10 +1,10 @@
-# Núcleo Soft - Protocolo de Extração
+# Núcleo da Peça - Protocolo de Extração
 
-Antes de adaptar qualquer conteúdo pra qualquer plataforma, **extrai o núcleo Soft primeiro**. Esse núcleo é o que viaja inalterado entre plataformas. A adaptação só muda o invólucro.
+Antes de adaptar qualquer conteúdo pra qualquer plataforma, **extrai o núcleo da peça primeiro**. Esse núcleo é o que viaja inalterado entre plataformas. A adaptação só muda o invólucro.
 
 ---
 
-## Os 6 componentes do núcleo Soft
+## Os 6 componentes do núcleo da peça
 
 Ao receber o conteúdo-âncora, identifica internamente:
 
@@ -49,7 +49,7 @@ Dado o conteúdo-âncora, pergunta internamente:
 
 ## O que viaja e o que muda
 
-**Viaja inalterado (núcleo Soft):** Problema Sofisticado, Método Nomeado, Vilão-Categoria, CTA filtrante, tom da marca.
+**Viaja inalterado (núcleo da peça):** Problema Sofisticado, Método Nomeado, Vilão-Categoria, CTA filtrante, tom da marca.
 
 **Muda por plataforma (invólucro):** tamanho, ritmo, estrutura visual, tipo de gancho, formato do CTA (palavra-chave no Direct vs comentário vs reply de email), elementos específicos (thumbnail, subject, hashtag, SEO).
 

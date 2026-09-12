@@ -17,7 +17,7 @@
 
 Quando o pedido é **publicar um post orgânico e ligar a automação** (não subir uma campanha paga). Ex.: "publica o carrossel e ativa o comment-to-DM com a palavra QUERO". A COPY/legenda vem da soft-conteudo-*; a ARTE dos cards vem da soft-designer; aqui é só a operação de publicar e automatizar.
 
-No **app/chat** você não publica (sem credencial): entrega a legenda + os campos da automação como checklist. No **Code/agente** você executa.
+No **ambiente sem shell** você não publica (sem credencial): entrega a legenda + os campos da automação como checklist. Com shell e credencial, você executa.
 
 ---
 

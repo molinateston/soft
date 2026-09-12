@@ -297,10 +297,10 @@ Uma palavra fácil de digitar com o polegar. Uma palavra só. Sem hashtag, sem s
 
 ## As 7 formas de executar o CTA
 
-### 1. Direct com Palavra-Senha (padrão Soft)
+### 1. Direct com Palavra-Senha (padrão do método)
 **Template:** [Razão concreta em 1-2 linhas]. Envia "[PALAVRA]" no Direct.
 
-**Exemplo:** Eu documentei o sistema Soft inteiro numa mini webinar de 1h20. Envia "SOFT" no Direct.
+**Exemplo:** Eu documentei o método inteiro numa mini webinar de 1h20. Envia "MÉTODO" no Direct.
 
 ### 2. Comentário com Palavra-Senha
 **Template:** [Razão]. Comenta "[PALAVRA]" que eu te mando.

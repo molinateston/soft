@@ -35,7 +35,7 @@ Um nicho é um grupo de pessoas com o **mesmo desejo**. Quem carrega o mesmo des
 | 12 | **Características do avatar** | Reconhecimento | Os recortes ultraespecíficos de quem ele é (idade, profissão, fase, histórico, ferramenta que usa)? |
 
 ## A ponte pras headlines
-Cada `[SLOT]` das fórmulas do cânone (`soft-conteudo-headlines/references/templates.md`, gramática de slots) puxa de um campo daqui:
+Cada `[SLOT]` das fórmulas do cânone (banco de headlines da `soft-conteudo-headlines`, gramática de slots) puxa de um campo daqui:
 - `[DESEJO]` ← campo 1 · `[PROBLEMA/DOR/MEDO]` ← campos 2-3 · `[OBJEÇÃO]` ← campos 2-3, 10 · `[SITUAÇÃO/HÁBITO COMUM]` ← campo 4 · `[ALGO CONHECIDO PELA AUDIÊNCIA]` ← campos 5-9 · `[PERSONAGEM CONHECIDO]` ← campo 7 · `[TÉCNICA CONHECIDA]` ← campo 6 · `[CRENÇA DA AUDIÊNCIA]` ← campo 10 · `[COMPORTAMENTO QUE VIOLA A EXPECTATIVA]` ← campo 11 · `[AVATAR DENTRO DESSAS CARACTERÍSTICAS]` ← campo 12.
 
 Com o Mapa cheio, a headline nasce cravada (slot preenchido com munição real). Sem ele, a `soft-conteudo-headlines` cai em palavra-container genérica OU para e pergunta os 3-4 campos mais críticos pro tema (desejos, dores, o que a audiência já conhece, características do avatar).

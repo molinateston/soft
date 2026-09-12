@@ -149,7 +149,7 @@ Premissa-mãe (Fladlien a verbaliza): a transição bem feita faz a audiência s
 - [ ] **Ler o chat em voz alta e nomear o consenso** - "tudo 2", "ningu quer ir sozinho", "não é nem pra eu ler": o consentimento individual vira fato coletivo.
 - [ ] **Opcional de retenção: prometer algo pra depois do pitch** - presente reativado (GA), "não compra ainda, fica até o final" (webinar A do corpus).
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Pedir desculpa por vender ou avisar "agora vem a parte comercial".** Nenhum dos 9 faz; todos entram pela ponte lógica ou pelo pedido da sala. Anunciar o pitch devolve a guarda que a transição existe pra baixar.
 - **Pular do conteúdo direto pro preço.** Zero exemplos no corpus. Sem recap + compromisso público, a oferta chega como interrupção e a sala esvazia.

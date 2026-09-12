@@ -90,7 +90,7 @@ A página de captura tem três trabalhos, e só três (corpus estudado):
 | **Revelação contra-intuitiva** | Avatar cético | "O que [as referências do nicho] não te contam sobre [tema]" |
 | **Big Idea condensada** | Posicionamento maduro | "[Nome do método (slot Soft: a definir com o especialista)]: o caminho [adjetivo único] pra [resultado]" |
 
-**EXEMPLO - a mesma fôrma instanciada em 4 nichos diferentes** (3 primeiros são moldes literais do corpus estudado; o 4º é Soft Business, corpus estudado):
+**EXEMPLO - a mesma fôrma instanciada em 4 nichos diferentes** (3 primeiros são moldes literais do corpus estudado; o 4º é do próprio método, corpus estudado):
 - **Nicho emprego/LinkedIn:** "A nova estratégia sniper pra conseguir emprego em 2025 mesmo sem ser o melhor candidato." *(mecanismo = estratégia sniper · objetivo = conseguir emprego · objeção = não ser o melhor candidato)*
 - **Nicho comportamento felino:** "Como parar o xixi fora da caixa de areia sem brigar com o seu gato." *(mecanismo = método de comportamento · objetivo = parar o xixi · objeção = brigar com o gato)*
 - **Nicho gestão:** "Como dobrar a produtividade do seu time sem contratar mais ninguém." *(mecanismo = método · objetivo = dobrar produtividade · objeção = contratar mais gente)*
@@ -240,7 +240,7 @@ PLATAFORMA: [zoom/EverWebinar/WebinarKit/etc - se aparecer pro participante]
 
 ### Bloco 1.7 - Contra-filtro (pra quem NÃO é)
 
-**Função:** expulsa avatar errado. **É a parte mais Soft da página.** Diz pra quem o webinar NÃO é antes de dizer pra quem é.
+**Função:** expulsa avatar errado. **É a parte mais característica do método da página.** Diz pra quem o webinar NÃO é antes de dizer pra quem é.
 
 **Modelo:**
 ```
@@ -259,7 +259,7 @@ ESTE WEBINAR É PRA VOCÊ SE:
 
 > **A linha anti-milagre é UNIVERSAL (corpus estudado):** mantenha sempre, no NÃO, a linha que expulsa quem busca milagre. O Webinar Soft promete **simples e honesto, nunca fácil e mágico** - e a página tem que dizer isso desde o cadastro. Essa é a peça que não se troca por nicho.
 
-**EXEMPLO (Soft Business, corpus estudado):**
+**EXEMPLO (do próprio método, corpus estudado):**
 ```
 NÃO É PRA VOCÊ SE:
 ❌ Está começando do zero (procura outro tipo de conteúdo)
@@ -514,7 +514,7 @@ ou 12x de R$ 199
 
 ### Bloco 3.4 - Garantia em destaque
 
-> **Decisão metodológica do método: garantia = CARDÁPIO, não dogma.** O método Soft não cravou "30 dias incondicional" como regra universal. Existem desenhos diferentes (incondicional, condicional-de-aplicação com dobro do dinheiro, sem garantia). Escolha o item do cardápio pelo ticket e pelo produto - ver reference `garantia` / `11-garantia` da biblioteca. Abaixo um molde de **um** dos itens (incondicional), não o único.
+> **Decisão metodológica do método: garantia = CARDÁPIO, não dogma.** Este método não cravou "30 dias incondicional" como regra universal. Existem desenhos diferentes (incondicional, condicional-de-aplicação com dobro do dinheiro, sem garantia). Escolha o item do cardápio pelo ticket e pelo produto - ver reference `garantia` / `11-garantia` da biblioteca. Abaixo um molde de **um** dos itens (incondicional), não o único.
 
 **Por que a garantia funciona:** ela **inverte o risco** - tira o risco do bolso do cliente e bota no seu. *"O cheque que você precisa descontar no banco"* (F2, `11-garantia`): a garantia condicional transforma as condições no próprio protocolo de implementação.
 

@@ -21,7 +21,7 @@ Cobre os 3 ativos técnicos do lançamento pago: **página de vendas do ingresso
 - Bloco 5: Pixel e estrutura de dados
 - Bloco 6: Princípios não-negociáveis
 - Aplicação por modo
-- Nota Soft Business
+- Nota do método
 
 ---
 
@@ -367,11 +367,11 @@ A entrega do ingresso **escala junto com o ticket do produto**. Sem isso, lead q
 
 ---
 
-## Nota Soft Business
+## Nota do método
 
-Para cliente Soft Business, alerta extra: **distribuição de conteúdo pago contínua** (modelo Euler/Torres com criativos de 5 min) é um sistema próprio, não compatível com lançamento pontual. Cliente Soft que adota distribuição contínua sai do espírito de "injeção pontual" e entra em "presença pago contínua", funciona, mas é outro jogo.
+Para cliente deste método, alerta extra: **distribuição de conteúdo pago contínua** (modelo Euler/Torres com criativos de 5 min) é um sistema próprio, não compatível com lançamento pontual. Cliente deste método que adota distribuição contínua sai do espírito de "injeção pontual" e entra em "presença pago contínua", funciona, mas é outro jogo.
 
-Skill avisa quando cliente Soft tá flertando com isso. Não bloqueia. Orienta.
+Skill avisa quando cliente deste método tá flertando com isso. Não bloqueia. Orienta.
 
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)
@@ -395,10 +395,10 @@ O Bloco 2 desenha o ENVELOPE visual (foto + headline + preço). A copy em si seg
 | Rota | Destino do CTA | CTA-padrão |
 |---|---|---|
 | Ingresso direto | Checkout | "Garante teu ingresso" |
-| High-ticket Soft (+Comercial) | Aplicação → conversa 1:1 | "Aplica pro diagnóstico, a gente vê se faz sentido" |
+| High-ticket do método (+Comercial) | Aplicação → conversa 1:1 | "Aplica pro diagnóstico, a gente vê se faz sentido" |
 | Isca → aquecimento | Página da isca | "Pega o material e vem pro evento aquecido" |
 
-O cliente Soft fecha no Comercial 1:1, então o destino padrão pra high-ticket NÃO é checkout direto, é a aplicação. O gate reprova CTA que manda pro checkout um produto que se vende na conversa.
+O cliente deste método fecha no Comercial 1:1, então o destino padrão pra high-ticket NÃO é checkout direto, é a aplicação. O gate reprova CTA que manda pro checkout um produto que se vende na conversa.
 
 ## Craft do criativo (os 3 primeiros segundos)
 

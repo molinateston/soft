@@ -57,7 +57,7 @@ Para cada Reel da sessão, crie 2-3 opções de gancho usando o banco de templat
 
 ### Passo 5, Escreva roteiros em sequência
 
-Use os roteiros-modelo (`references/reels-roteiros-modelo.md`) como template. Adapte. Marque tempos.
+Use os roteiros-modelo (`references/roteiros-modelo.md`) como template. Adapte. Marque tempos.
 
 ---
 
@@ -142,7 +142,7 @@ Frequência recomendada por objetivo:
 
 ## 6. Impulsionamento (Botão Turbinar)
 
-Todo Reel desta reference está dentro do limite de 1:30, então é elegível para impulsionamento.
+Todo Reel desta reference está dentro do teto de 90s (faixa ótima 30 a 60s), então é elegível para impulsionamento.
 
 Critérios para impulsionar:
 - Reel já teve performance orgânica acima da média nos primeiros 24h.

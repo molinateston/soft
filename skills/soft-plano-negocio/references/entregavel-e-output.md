@@ -44,13 +44,13 @@ Seções 1-4 e 6 sempre. Seção 5 só quando o nicho estava em aberto. Prosa m�
 
 ---
 
-## Adaptação de output ao ambiente (a regra do autor do método)
+## Adaptação de output ao ambiente
 
-Mesmo conteúdo, destino diferente. `chat → MD · code → site`.
+Mesmo conteúdo, destino diferente. `sem shell → MD · com shell → site`.
 
-- **No chat (claude.ai):** entrega em **Markdown** limpo (artifact), formato mapa-mental. Simples, sem firula. Sem Bash: você monta o conteúdo (Conta, projeção, score, roadmap) e devolve o doc consolidado. O dono abre, copia, baixa.
-- **No Claude Code:** entrega o arquivo `.md`. Se o dono pedir o plano publicado/bonito, **renderiza como site** reusando o motor da `soft-vendas-proposta` (Layout Soft, link único e privado, CSS+JS inline, zero build), com a ID visual do especialista (`soft-designer`). O pipeline completo roda aqui.
-- **No agente/Telegram (tem Bash):** a entrega é um **arquivo .md** consolidado; você grava e devolve o **caminho completo do arquivo** na resposta (o bridge anexa). A condução vai em mensagens de texto limpo, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário, que ficam no doc anexado).
+- **Sem shell (só chat):** entrega em **Markdown** limpo, formato mapa-mental; se o ambiente renderizar markdown, mostre. Simples, sem firula. Você monta o conteúdo (Conta, projeção, score, roadmap) e devolve o doc consolidado. O dono abre, copia, baixa.
+- **Com shell e acesso a arquivo:** entrega o arquivo `.md`. Se o dono pedir o plano publicado/bonito, **renderiza como site** reusando o motor da `soft-vendas-proposta` (link único e privado, CSS+JS inline, zero build), com a ID visual do especialista (`soft-designer`); se alguma das duas não estiver instalada, faço aqui em modo reduzido. O pipeline completo roda aqui.
+- **Com ponte de arquivo (o ambiente anexa o que você salva):** a entrega é um **arquivo .md** consolidado; você grava e devolve o **caminho completo do arquivo** na resposta. A condução vai em mensagens de texto limpo, sem markdown pesado (sem `##`, sem tabela `|` no texto ao usuário, que ficam no doc anexado).
 
 A CONDUÇÃO (perguntas, escolhas de ajuste, os STOPs) acontece no chat; o PLANO mora no doc. Ao parar num STOP, mostra ou atualiza o DOC e pergunta "ajusto?". Nunca reescreve o plano em pedaços no corpo da conversa.
 

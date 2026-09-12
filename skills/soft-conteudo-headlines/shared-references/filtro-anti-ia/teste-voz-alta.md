@@ -161,12 +161,12 @@ Esse processo de 2 camadas garante que sai com voz autêntica e sem padrão IA.
 ## Exemplo prático
 
 ### Texto que falha o teste
-> "Outrossim, a verdade é que o marketing digital tradicional foi feito para grandes equipes — e isso transforma profundamente o cenário para quem opera sozinho. É exatamente esse paradigma que precisa ser quebrado."
+> "Outrossim, a verdade é que o marketing digital tradicional foi feito para grandes equipes [travessão longo] e isso transforma profundamente o cenário para quem opera sozinho. É exatamente esse paradigma que precisa ser quebrado."
 
 Lendo em voz alta, você tropeça:
 - "outrossim" (ninguém fala)
 - "a verdade é que" (frase-emoldura)
-- "—" (em dash)
+- travessão longo (em dash)
 - "transforma profundamente" (verbo genérico + adverbial)
 - "exatamente esse paradigma que precisa ser quebrado" (frase rebuscada de IA)
 

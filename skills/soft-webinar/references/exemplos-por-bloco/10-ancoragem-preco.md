@@ -9,7 +9,7 @@
 - O que este bloco precisa fazer (síntese das premissas)
 - Exemplo por exemplo
 - Padrões transversais (checklist - o que TODOS fazem neste bloco)
-- Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+- Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 - Webinars sem este bloco (e por quê - também é dado)
 
 ---
@@ -309,7 +309,7 @@ Inflação reversa (no Q&A):
 11. **Fricção de pagamento removida dentro do bloco.** Recorrente que não ocupa limite (a Aluna 80k), "pega o cartão" antes do link (GA), parcelamento explicado com honestidade (webinar C do corpus admite o juros da plataforma).
 12. **Na tela: stack que cresce e risca, preço final em verde gigante** - e na hora da decisão a webcam some, fica só a conta (slide-craft GA).
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Preço seco.** Anunciar o número sem âncoras é entregar o julgamento "caro/barato" ao repertório do lead.
 - **Desconto sem reason-why.** Queda de preço sem causa pública cheira a margem inflada e desvaloriza o produto inteiro - todos os degraus do corpus têm razão nomeada.

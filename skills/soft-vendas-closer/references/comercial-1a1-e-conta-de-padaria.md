@@ -45,9 +45,9 @@ Por que é devastadora: o gap não é o vendedor que aponta, são os números DE
 - **Dado que reposiciona a causa:** uma estatística de terceiro que move o problema do cliente na direção da sua solução ("não é talento que falta, é processo").
 - **Recusa o cliente errado:** "já desisti de vendas que não faziam sentido". Poder de dizer não = autoridade. (= o filtra-E-convence do Soft.)
 
-## O Comercial operado por IA (o Sócio IA no comercial)
+## O Comercial operado por IA (o Motor de IA no comercial)
 
-O comercial é o ponto cego que mais consome o especialista solo, e o que mais a IA carrega. O LEON (Sócio IA) opera:
+O comercial é o ponto cego que mais consome o especialista solo, e o que mais a IA carrega. O LEON (Motor de IA) opera:
 - **Automação do WhatsApp** (a função de SDR: abre, qualifica, agenda; é a **soft-vendas-sdr** que carrega essa metade): manda mensagem até o lead responder, agenda a conversa, libera o humano só pro fechamento.
 - **Transcrição da conversa + probabilidade de compra + próximos passos** em tempo real.
 - **Follow-up personalizado pela objeção dita na conversa** (a IA monta a mensagem a partir do que emperrou, sem o vendedor lembrar).

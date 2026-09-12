@@ -2,7 +2,7 @@
 
 A teoria da Oferta vive no guia: `guia/02-plano-marca-pessoal.md` (Bloco 3 - Equação de Valor, Logística/Entregáveis, Mapa de Valor, Investimento, Garantia). **Não duplique aqui.** Esta reference é o *como conduzir* e o **calibre**: a profundidade que separa uma oferta pensada de uma lista de itens com preço.
 
-**Por que este é o bloco mais detalhado, nunca enxuto.** A Oferta é o **produto que o cliente vai vender de fato**. Tudo no funil nasce daqui: a carta (`soft-funil` desejo) é esta oferta virando texto; o script (`soft-funil` conversão) é esta oferta virando conversa. Posicionamento raso ainda atrai; **oferta rasa não fecha.** Se um bloco merece exaustão, é este.
+**Por que este é o bloco mais detalhado, nunca enxuto.** A Oferta é o **produto que o cliente vai vender de fato**. Tudo no funil nasce daqui: a carta (`soft-funil-carta`) é esta oferta virando texto; o script (`soft-vendas-closer`) é esta oferta virando conversa. Posicionamento raso ainda atrai; **oferta rasa não fecha.** Se um bloco merece exaustão, é este.
 
 ---
 
@@ -63,7 +63,7 @@ Antes de listar um entregável sequer, a Oferta abre com a **PUV: a Proposta Ún
 **Regras:**
 - **Uma PUV, não três.** É a mesma nos três níveis de acesso - muda quanto do especialista entra, nunca a proposta. Se cada nível pede uma PUV diferente, viraram produtos diferentes (erro de loja).
 - **Falada, não slogan.** Passa no teste do boteco: o especialista diria isso no olho do cliente. Zero adjetivo de marketing.
-- **Vira ativo.** A PUV é a primeira linha da carta (`soft-funil`), o cabeçalho do perfil e a abertura do script. É a oferta antes dos entregáveis.
+- **Vira ativo.** A PUV é a primeira linha da carta (`soft-funil-carta`), o cabeçalho do perfil e a abertura do script. É a oferta antes dos entregáveis.
 - **Dois cortes.** Entrega em dois tamanhos da mesma proposta: o **parágrafo** (abre a carta - empilha virada + mecanismo + transformação) e a **uma linha** (bio, perfil, pitch de elevador). Destila na vitrine, empilha na carta.
 
 > **Teste:** leia a PUV pro cliente ideal. Se ele pensa *"é exatamente isso que eu vivo, e nunca vi alguém explicar assim"*, passou. Se cabe em qualquer concorrente do nicho, ainda é rótulo - desce até o mecanismo.
@@ -122,7 +122,7 @@ O calibre:
 
 ### Quando o núcleo é um programa high-ticket (mentoria/consultoria)
 
-Se a oferta central é um programa high-ticket, três regras extras (o desenho completo do programa, formato 1:1 x grupo, entregáveis e stack, mora na `soft-plano-ofertas`, o tipo mentoria em `references/mentoria-operacional.md`; a estratégia de lançamento e escala é da `soft-vendas-estrategias`):
+Se a oferta central é um programa high-ticket, três regras extras (o desenho completo do programa, formato 1:1 x grupo, entregáveis e stack, mora na `soft-plano-ofertas`, no bloco do tipo mentoria; a estratégia de lançamento e escala é da `soft-vendas-estrategias`):
 - **Regra 10x:** o programa deve retornar ao cliente, em valor, ~10x o preço, em retorno potencial (nichos de dinheiro, mensurável) ou em valor percebido (nichos de saúde/relação, o que não se mede). Piso de referência: nunca abaixo de alguns milhares. O preço se justifica pelo delta que gera, não pela carga horária.
 - **Preço só entra depois de validado.** "Validado" = vendido. Se é a 1ª vez, apresenta a oferta SEM preço, encerra e chama pra conversa ("me fala se faz sentido pra você"); só coloca preço + condições quando a oferta já vendeu antes.
 - **O doc de 2 páginas.** High-ticket não precisa de página de vendas cheia; apresenta num doc simples (promessa/meta · pra quem · benefícios · estrutura de acompanhamento · investimento se validado). O cliente desse ticket já cansou de oferta irresistível: quer clareza, não escassez.
@@ -216,4 +216,4 @@ Casos complexos ou presença intensiva. Entrega: tudo do Programa + 2x/semana + 
 
 ## Handoff
 
-Oferta pronta = a base do funil. Vira a **carta** (`soft-funil` desejo) e o **script de venda** (`soft-funil` conversão). Doc vivo: muda a oferta principal → revisa a carta e o script. A oferta é o contrato entre a promessa e o que o cliente recebe; se ela falha, todo o resto soa vendido.
+Oferta pronta = a base do funil. Vira a **carta** (`soft-funil-carta`) e o **script de venda** (`soft-vendas-closer`). Doc vivo: muda a oferta principal → revisa a carta e o script. A oferta é o contrato entre a promessa e o que o cliente recebe; se ela falha, todo o resto soa vendido.

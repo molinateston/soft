@@ -4,7 +4,7 @@
 
 O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada passo abaixo é uma skill ATÔMICA (1 tarefa) que produz o ativo e roda o **próprio gate embutido** (o checklist no corpo do SKILL.md: ancoragem no verbatim + 3 perguntas do Harry + CUB + anti-IA, com a linha VEREDITO) antes de devolver. O papel do LEON é conferir que o gate rodou e que o ativo está de pé (segunda barreira: os 6 filtros do Crivo do LEON), e só então liberar a próxima etapa.
 
-> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo, soft-funil, soft-vendas, soft-webinar) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo invoca as atômicas na ordem.
+> **Nota de arquitetura (atômicas):** as antigas skills largas (soft-conteudo-*, soft-funil-*, soft-vendas-*, soft-webinar) foram separadas em skills de UMA tarefa cada, porque no Claude Chat a skill larga não era seguida. Cada atômica tem o processo INTEIRO no corpo + o gate como checklist embutido. O trilho abaixo invoca as atômicas na ordem.
 
 ---
 
@@ -13,7 +13,7 @@ O LEON orquestra e avalia; **não escreve peça e não exporta peça**. Cada pas
 Atração filtra e aquece → o lead cai no Comercial 1:1. Pipeline:
 
 ```
-soft-posicionamento            (gate: Crivo do Plano de Posicionamento)
+soft-plano-posicionamento            (gate: Crivo do Plano de Posicionamento)
         ↓
 soft-conteudo-headlines        (gate embutido: Harry + CUB + anti-IA; a headline ANTES do corpo)
         ↓
@@ -27,7 +27,7 @@ soft-designer                  (gate: craft.py no visual/PNG)
         ↓
 soft-funil-isca / -landing / -carta / -miniwebinar   (gate embutido por peça)
         ↓
-soft-vendas → -script → -objecao → -copiloto → -posvenda   (gate embutido; o fechamento 1:1 é AQUI)
+soft-vendas-sdr → soft-vendas-closer → soft-vendas-estrategias   (gate embutido; o fechamento 1:1 é AQUI)
 ```
 
 Gates, um por linha:
@@ -35,7 +35,7 @@ Gates, um por linha:
 - **soft-conteudo-headlines**: a headline nasce do verbatim, passa o gate embutido (5 critérios + Harry + anti-IA, com VEREDITO). **Headline antes do corpo, sempre.**
 - **soft-conteudo-{carrossel,reels,stories}**: o corpo parte da headline escolhida; cada um tem o gate embutido (densidade/tensão/CARO + CUB + anti-IA).
 - **soft-conteudo-multiplataforma**: re-renderiza a peça-âncora preservando a tese; mantém o gate.
-- **soft-designer**: o visual passa no `soft-designer/scripts/craft.py` (contraste + anti-órfã) antes de exportar PNG. O LEON só confere que rodou.
+- **soft-designer**: o visual passa pelo gate de contraste e anti-órfã da própria skill de design antes de exportar PNG. O LEON só confere que rodou.
 - **soft-funil-***: Isca (captura), Landing (página/VSL), Carta (mini-carta ADMA), Mini-webinar (micro-aula ADMA). A peça qualifica; não fecha a venda.
 - **soft-vendas-***: o **fechamento comercial 1:1 é sempre aqui**: prospecção (abre), script (conduz), objeção (isola), copiloto (tempo real), pós-venda (indicação/onboarding). Cada um com gate embutido.
 
@@ -79,7 +79,7 @@ CEO, produtividade, rotina/A Conta, finanças do fundador, treino, princípios: 
 
 ## Degrau 3, FORA DE ESCOPO
 
-O **Soft Launch / lançamento pago** (`soft-lancamento-pago`) é o degrau 3. **Parqueado: fora desta orquestração autoguiada.** Quando o caso pedir lançamento pago, é outra condução, com skill própria.
+O **Soft Launch / lançamento pago** (`soft-launch`) é o degrau 3. **Parqueado: fora desta orquestração autoguiada.** Quando o caso pedir lançamento pago, é outra condução, com skill própria.
 
 ---
 

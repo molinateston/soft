@@ -132,17 +132,17 @@ Se interseção for vazia → empresa vai sofrer.
 Se interseção for genérica ("ajudar empresários") → empresa vai sofrer (genérico não escala).
 Se interseção for específica ("metodologia Y aplicada a clientes Z gerando ROI W") → tem ouriço.
 
-### Exemplo aplicado, Soft Business (caso do autor do método)
+### Exemplo aplicado, este método (caso do autor do método)
 
 | Círculo | Resposta |
 |---------|----------|
 | Paixão | Ajudar especialistas a escalarem sem virar empresa caótica |
-| Pode ser o melhor | Método Soft (validado em 10 anos de mercado digital) |
+| Pode ser o melhor | este método (validado em 10 anos de mercado digital) |
 | Motor econômico | Lucro por cliente: R$2-5k de implementação + recorrência |
 
-**Ouriço Soft:** "Ajudar especialistas (consultores/mentores/infoprodutores) que já vendem conhecimento a estruturar sistema de aquisição simples, com método Soft, vendendo mentoria/implementação de R$2-5k."
+**Ouriço do método:** "Ajudar especialistas (consultores/mentores/infoprodutores) que já vendem conhecimento a estruturar sistema de aquisição simples, com este método, vendendo mentoria/implementação de R$2-5k."
 
-> Tudo que não cabe nessa interseção, Soft Business **recusa**: tráfego pago como serviço, lançamentos PLF, e-commerce, B2B grande, etc.
+> Tudo que não cabe nessa interseção, este método **recusa**: tráfego pago como serviço, lançamentos PLF, e-commerce, B2B grande, etc.
 
 ### Aplicação prática
 
@@ -474,7 +474,7 @@ Na Fase 2, captação **fica realmente disponível pela primeira vez**.
 | **Bootstrapping** | Receita reinvestida | Sem dilutição, crescimento mais lento |
 | **Dívida** | Banco ou peer-to-peer | Não dilui, mas paga juros, só faz sentido com receita previsível |
 
-**Princípio Soft Business:** **bootstrapping até onde aguenta.** Captação dilui controle e cria expectativa de crescimento agressivo. Dilui só quando há tese clara que justifica.
+**Princípio do método:** **bootstrapping até onde aguenta.** Captação dilui controle e cria expectativa de crescimento agressivo. Dilui só quando há tese clara que justifica.
 
 ---
 

@@ -35,11 +35,11 @@ Se a primeira vermelha reprovou no teste de amostra (`confiabilidade-do-dado.md`
 | **1. Peças publicadas** | cadência, não está publicando o volume | peças planejadas x publicadas | `soft-leon` (rotina) |
 | **2. Alcance** | gancho fraco, capa/3s não filtram | retenção 3s por peça; alcance das 3 piores x 3 melhores | `soft-conteudo-headlines` |
 | **3. Engajamento qualificado** | peça agrada e não polariza, sem ponta filtrante | taxa de salvar isolada da de like | `soft-conteudo-carrossel`/`-reels` |
-| **4. Cliques na bio/Carta** | bio fraca ou CTA ausente na peça | quantas peças tinham CTA explícito; cliques na bio por peça | `soft-posicionamento` (perfil) |
+| **4. Cliques na bio/Carta** | bio fraca ou CTA ausente na peça | quantas peças tinham CTA explícito; cliques na bio por peça | `soft-plano-posicionamento` (perfil) |
 | **5. DMs qualificados** | Carta genérica, longa ou sem filtro | tempo de leitura da Carta; % que lê até o fim | `soft-funil-carta` |
-| **6. Conversas WhatsApp** | primeira mensagem fria ou demora na resposta | tempo médio de resposta; % respondida em 1h | `soft-vendas` |
-| **7. Reuniões realizadas** | lead não qualificado, a Carta não filtrou | no-show rate x taxa de qualificação | `soft-funil-carta` + `soft-vendas` |
-| **8. Vendas** | uma fase da conversa quebrou | gravação da última reunião contra as fases | `soft-vendas` |
+| **6. Conversas WhatsApp** | primeira mensagem fria ou demora na resposta | tempo médio de resposta; % respondida em 1h | `soft-vendas-sdr` |
+| **7. Reuniões realizadas** | lead não qualificado, a Carta não filtrou | no-show rate x taxa de qualificação | `soft-funil-carta` + `soft-vendas-sdr` |
+| **8. Vendas** | uma fase da conversa quebrou | gravação da última reunião contra as fases | `soft-vendas-closer` |
 
 **Nunca entrega duas causas.** Se duas parecem plausíveis, a skill diz qual é a mais provável e **o que medir pra desempatar** na semana seguinte.
 

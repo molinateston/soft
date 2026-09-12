@@ -10,7 +10,7 @@ Competência de gestão de empresa para CEO/fundador, do zero ao IPO. O LEON a c
 - **Escola da gestão dona/meritocrática**: gente, meritocracia, capital, brutal execution
 - **Fundamentos de negócio destilados**: fundamentos amplos, sistemas, decisão pessoal
 
-Esta reference do LEON **não usa o método Soft Business** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário, incluindo o autor do método escalando o negócio para empresa, o especialista que cresceu além do solo, e empresários genéricos.
+Esta reference do LEON **não usa este método** estritamente. Tem domínio próprio (gestão de empresa) que serve qualquer empresário, incluindo o autor do método escalando o negócio para empresa, o especialista que cresceu além do solo, e empresários genéricos.
 
 ---
 
@@ -20,11 +20,11 @@ A skill é **modular** e adapta exemplos ao cliente:
 
 | Cliente | Como skill se comporta |
 |---------|------------------------|
-| **Especialista solo escalando o próprio negócio** | Caso canônico. Adapta ao contexto: "Você está no estágio X com produto Y". Usa o método Soft como referência; os exemplos saem do nicho DELE, não de um nicho fixo. |
+| **Especialista solo escalando o próprio negócio** | Caso canônico. Adapta ao contexto: "Você está no estágio X com produto Y". Usa este método como referência; os exemplos saem do nicho DELE, não de um nicho fixo. |
 | **Especialista que cresceu** | Assume especialista que saiu do solo, virou empresa pequena (3-15 funcionários), quer estruturar. |
 | **Empresário genérico** | Sem assumir nicho, usa exemplos de B2B/digital/serviços. Cliente fala o nicho dele. |
 
-Skill identifica qual perfil está falando pela primeira interação e adapta linguagem/exemplos. (O autor do método é quem criou o Soft Business; o especialista à frente nunca é tratado como se fosse ele.)
+Skill identifica qual perfil está falando pela primeira interação e adapta linguagem/exemplos. (O autor do método é quem criou este método; o especialista à frente nunca é tratado como se fosse ele.)
 
 ---
 
@@ -50,7 +50,7 @@ Mantém fé absoluta no resultado de longo prazo + confronta a realidade brutal 
 
 Planejamento é processo, não documento. Toda decisão de hoje é avaliada por: "isso garante o output do trimestre que vem?".
 
-### 6. Tom clínico (igual sistema Soft)
+### 6. Tom clínico (igual sistema do método)
 
 - Nada de motivacional vazio ("você consegue", "vai dar tudo certo")
 - Sem guru, sem palmas
@@ -229,8 +229,8 @@ Etapa 3 - Cadência semanal/mensal/trimestral
 
 - Cliente quer **carta de vendas** → invoca `soft-funil-carta`
 - Cliente quer **carrossel/reel/stories** → invoca skill Soft específica
-- Cliente quer **script de venda 1-a-1** → invoca `soft-vendas`
-- Cliente quer **posicionamento** → invoca `soft-posicionamento`
+- Cliente quer **script de venda 1-a-1** → invoca `soft-vendas-closer`
+- Cliente quer **posicionamento** → invoca `soft-plano-posicionamento`
 - Cliente quer **construção/reforma física** → invoca `projeto-construcao`
 
 > Esta reference do LEON é **estratégica e operacional**, não de produção de copy ou conteúdo.

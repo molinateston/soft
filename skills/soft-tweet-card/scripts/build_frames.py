@@ -1,10 +1,23 @@
-import asyncio, base64, re
+import asyncio, base64, os, re
+from pathlib import Path
 from playwright.async_api import async_playwright
 
-with open('/tmp/lean-bridge/avatar-circle.png', 'rb') as f:
-    AVATAR_B64 = base64.b64encode(f.read()).decode()
+# Identidade e caminhos vem do ambiente (onboarding da skill), nunca cravados aqui.
+#   PERFIL_NOME / PERFIL_HANDLE / PERFIL_AVATAR / SAIDA_DIR
+SKILL_DIR = Path(__file__).resolve().parent.parent
+NOME = os.environ.get("PERFIL_NOME", "<nome do dono>")
+HANDLE = os.environ.get("PERFIL_HANDLE", "@handle")
+_AVATAR = os.environ.get("PERFIL_AVATAR", "")
 
-OUTDIR = "/home/cloud/trabalho/designer/2026-08/2026-08-13-biblioteca-frames-tweet"
+if _AVATAR and os.path.isfile(_AVATAR):
+    with open(_AVATAR, 'rb') as f:
+        AVATAR_B64 = base64.b64encode(f.read()).decode()
+else:
+    AVATAR_B64 = ""
+    print("aviso: sem PERFIL_AVATAR valido, o cabecalho sai com placeholder (rascunho)")
+
+OUTDIR = os.environ.get("SAIDA_DIR", str(SKILL_DIR / "saida" / "frames"))
+os.makedirs(OUTDIR, exist_ok=True)
 VERIFIED = "#1D9BF0"
 
 THEMES = {
@@ -17,8 +30,11 @@ THEMES = {
         BUBBLE_OUT_BG="#123a22", BUBBLE_OUT_TXT="#F5F2EC",
         THREAD_LINE="#2a2a2a",
     ),
+    # BG do tema claro: off-white padrão. Branco puro só quando o dono pedir
+    # branco puro; cor declarada pelo dono sobrescreve este default.
     "light": dict(
-        BG="#FFFFFF", TEXT="#0F1419", MUTED="#536471", KW="#15803d",
+        BG=os.environ.get("TEMA_CLARO_BG", "#F7F9F9"),
+        TEXT="#0F1419", MUTED="#536471", KW="#15803d",
         BODYBG="#EFF3F4",
         QUOTE_BG="#F7F9F9", QUOTE_BORDER="#E1E8ED",
         POLL_BARBG="#EFF3F4", POLL_FILL="rgba(21,128,61,0.16)",
@@ -122,20 +138,28 @@ body {{
 .bubble-out {{ background:{t['BUBBLE_OUT_BG']}; color:{t['BUBBLE_OUT_TXT']}; align-self:flex-end; border-bottom-right-radius:8px; }}
 """
 
+def avatar_img(t):
+    if AVATAR_B64:
+        return f'<img src="data:image/png;base64,{AVATAR_B64}">'
+    inicial = (NOME.strip() or "?")[0].upper()
+    return (f'<div style="width:100%;height:100%;display:flex;align-items:center;'
+            f'justify-content:center;background:{t["BG"]};color:{t["MUTED"]};'
+            f'font-size:44px;font-weight:800;">{inicial}</div>')
+
 def avatar_header(t, small=False):
     scale = "transform:scale(0.86); transform-origin:left center;" if small else ""
     return f"""
     <div class="autor" style="{scale}">
-      <div class="avatar"><img src="data:image/png;base64,{AVATAR_B64}"></div>
+      <div class="avatar">{avatar_img(t)}</div>
       <div class="autor-info">
         <div class="nome-linha">
-          <span class="nome">Léo Molina</span>
+          <span class="nome">{NOME}</span>
           <svg class="selo" viewBox="0 0 24 24" fill="{VERIFIED}">
             <path d="M12 1l2.4 1.8 3-.5 1.1 2.8 2.8 1.1-.5 3L23 12l-1.8 2.4.5 3-2.8 1.1-1.1 2.8-3-.5L12 23l-2.4-1.8-3 .5-1.1-2.8-2.8-1.1.5-3L1 12l1.8-2.4-.5-3 2.8-1.1L6.4 2.3l3 .5L12 1z"/>
             <path d="M9.5 12.5l1.8 1.8 3.7-4.1" stroke="{t['BG']}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="handle">@instadoleomolina</div>
+        <div class="handle">{HANDLE}</div>
       </div>
     </div>
     """
@@ -144,7 +168,7 @@ def wrap(inner, t):
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{head_style(t)}</style></head>
 <body><div class="card">{inner}</div></body></html>"""
 
-# 1. THREAD — cabecalho UMA vez so; segundo tweet so texto, conectado pela linha
+# 1. THREAD: cabecalho UMA vez so; segundo tweet so texto, conectado pela linha
 def frame_thread(t):
     inner = f"""
     <div class="thread-wrap">
@@ -231,7 +255,7 @@ def frame_chat(t):
       {txt("Print de uma DM que recebo direto:")}
     </div>
     <div class="chat">
-      <div class="bubble bubble-in">{txt("Léo, contratar agência ainda vale a pena ou dá pra fazer sozinho?")}</div>
+      <div class="bubble bubble-in">{txt("Contratar agência ainda vale a pena ou dá pra fazer sozinho?")}</div>
       <div class="bubble bubble-out">{txt("Dá. O que falta não é habilidade, é saber pilotar a IA certa pra cada etapa.", "pilotar")}</div>
       <div class="bubble bubble-in">{txt("E se eu nunca programei na vida?")}</div>
       <div class="bubble bubble-out">{txt("Não precisa. Você comanda, a IA executa.")}</div>

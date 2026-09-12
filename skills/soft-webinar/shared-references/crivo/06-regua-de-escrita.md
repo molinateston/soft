@@ -52,8 +52,17 @@ A frase nasce da terça-feira à noite DO LEITOR. As regras entram como CHECAGEM
 - Camada do dono: zero garantia, preço, produto ou oferta em conteúdo; sempre método, dor, mecanismo do problema ou da solução.
 
 ## 7 · Anti-IA mecânico (roda em código, sem exceção)
-> Nota: esta seção NOMEIA os padrões banidos; é doc de regra, não copy; o lint roda nos entregáveis.
+> Nota: esta seção NOMEIA os padrões banidos; é doc de regra, não copy; o lint roda nos entregáveis. A lista sai em bloco cercado pra que o lint não conte a nomeação como ocorrência.
+
+```
 Zero em-dash · zero família travar/destravar · zero verbo genérico de transformação (revoluciona, transforma, potencializa, alavanca, eleva) · zero frase-emoldura ("a verdade é", "o segredo", "o que ninguém te conta") · máximo 2 "Não é X. É Y." por doc · números em algarismo · lint de copy em todo entregável + grep de rótulos abstratos fora de aspas (produtividade, profissionalismo, crescimento, previsibilidade, clareza, consistência, mindset, jornada, potencial) + teto por formato CONTADO.
+```
+
+## 7b · O dono lê, o dono usa (as 4 regras que nasceram do crivo dele)
+- **Nunca entregar comando pro dono.** `npx wrangler pages deploy`, `python3 scripts/...`, `gog drive upload`: ou a skill executa, ou ela diz o que pedir e pra quem, com o passo a passo escrito pra terceiro. O dono opera pelo aplicativo de mensagem e não abre terminal. Comando fora de bloco de bastidor sai por exit no `checar_titulos.py`.
+- **Escolha operacional sai decidida, com aviso de uma linha.** Horário, dia da semana, ordem dos itens, nome de arquivo: a skill escolhe e escreve "escolhi segunda 8h30; me diga se não servir". FATO nunca é assumido: número, nome, preço e data de evento vêm do dono ou viram pergunta. Três `[A CONFIRMAR: horário]` numa rotina semanal fizeram o dono preferir o chute do outro motor.
+- **Jargão interno traduzido em até 4 palavras, ou fora do texto do dono.** "Fase 7", "Tipo 5", "Ação 2.A", "molde de antítese", "RASTREIO QUEBRADO", "camada C2", "crivo clínico", "read-caption", "PUV": ou vem a glosa entre parênteses ao lado, ou o termo mora no bastidor.
+- **Quando a skill não conseguir, a primeira linha do relato diz isso em português.** Não no meio, não no fim: a primeira linha. "Não consegui publicar porque a conta do Drive não está conectada; me manda o acesso que eu publico." O dono descobriu por conta própria, lendo o relato inteiro, que recebeu um arquivo em vez do link.
 
 ## 8 · Meta-regras do processo
 - A régua é CUMULATIVA. Filtro novo nunca substitui os velhos; a passada final roda TODOS em cada linha, em modo checklist mecânico. (O pêndulo, otimizar o feedback novo quebrando a conquista anterior, foi o erro mais repetido.)

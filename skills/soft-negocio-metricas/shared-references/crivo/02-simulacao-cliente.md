@@ -52,7 +52,7 @@ Devolve, nesta forma:
    - Ele se sentiu visto? (teve 🎯 ou não)
 4. **O diagnóstico do tipo de problema** (separa dois casos que parecem iguais e não são):
    - **FRACA:** falha de força. Confusa, sem prova, morna, óbvia. Isso vai pro gate e REPROVA.
-   - **FORA DE PÚBLICO:** forte, mas falando com o avatar errado. A peça tem garra, só não é pra esse leitor. Isso é ALERTA, não reprova. O conserto é trocar o público-alvo ou o ângulo, não enfraquecer a copy.
+   - **FORA DE PÚBLICO:** forte, mas falando com o avatar errado. A peça tem garra, só não é pra esse leitor. Isso levanta ALERTA e segue. O conserto é trocar o público-alvo ou o ângulo, não enfraquecer a copy.
 5. **Uma frase de cliente:** o que ele diria pra um amigo depois de ler. "Salvei pra ver depois" (morte), "achei que era mais um e não era" (acerto), "bonito mas não é pra mim" (público errado).
 
 ## Exemplo de fita (nicho odonto, pra não ecoar copy Soft)
@@ -73,9 +73,12 @@ Fita:
 
 Veredito de pele: não chegou no CTA, não acreditou, zero 🎯. Tipo de problema: FRACA. Frase do cliente: "mais um ensinando o que eu já sei". **Morte no slide 2.**
 
-Reescrita (ancorada em fala real de dentista e de paciente):
+Reescrita (ancorada em fala real de dentista e de paciente), citada em bloco pra não contaminar a contagem do lint:
+
+```
 1. "Sua recepcionista diz 'semana que vem enche'. Faz três meses que ela diz isso."
 2. "O paciente não some porque seu trabalho é ruim. Some porque esqueceu que você existe no dia que a dor passou."
 3. "Não é falta de presença digital. É que ninguém lembra de quem só aparece quando dói."
+```
 
 Agora a fita vira: slide 1 🎯 (ele se reconheceu na cena da recepcionista), slide 2 ▶ (a causa que ele não tinha pensado), slide 3 ▶ e vira a chave (tira a culpa do "você posta pouco" e dá uma ideia nova). Isso é uma peça que passa pro gate.

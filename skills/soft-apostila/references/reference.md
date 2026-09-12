@@ -26,7 +26,7 @@ Pipeline para transformar uma aula gravada (Zoom, YouTube, lives) em uma apostil
 
 - Você dá aulas, mentorias, lives, e quer transformar cada uma em material de estudo.
 - Precisa entregar apostila pra alunos da comunidade.
-- Quer um material indexável (sidebar, busca, anchors) e não um PDF travado.
+- Quer um material indexável (sidebar, busca, anchors) e não um PDF engessado.
 - Não quer pagar plataforma EAD pra hospedar o conteúdo.
 
 ---
@@ -39,7 +39,7 @@ Pipeline para transformar uma aula gravada (Zoom, YouTube, lives) em uma apostil
 - Navegação: setas teclado, scroll spy, botões "Anterior / Próximo".
 - Dark theme (terminal/matrix), responsivo, drawer mobile.
 - Cada capítulo com âncora própria (`#capitulo-1`, `#capitulo-2`, ...).
-- Pronto pra publicar em Cloudflare Pages (padrão Soft) ou qualquer host estático.
+- Pronto pra publicar em Cloudflare Pages (padrão do método) ou qualquer host estático.
 
 ---
 
@@ -79,7 +79,7 @@ Pipeline para transformar uma aula gravada (Zoom, YouTube, lives) em uma apostil
 | Python 3.10+ | runtime | `apt install python3` |
 | ffmpeg | extrair áudio | `apt install ffmpeg` |
 | Whisper | transcrição | `pip install openai-whisper` |
-| Claude Code | pós-processamento | seguir instalação oficial |
+| Um agente de terminal com LLM | pós-processamento | seguir instalação oficial da ferramenta escolhida |
 | Node 18+ (opcional) | build se quiser pipeline JS | `nvm install 18` |
 
 ---
@@ -114,7 +114,7 @@ Saída: `out/aula.txt`.
 
 ### 3) Limpar muletas
 
-Use Claude Code via CLI ou um script com regex inicial e LLM como passo final:
+Use um agente de terminal com LLM, ou um script com regex inicial e LLM como passo final:
 
 ```bash
 # Pré-limpeza com sed (regex)
@@ -186,7 +186,7 @@ Estrutura mínima:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Apostila — {titulo}</title>
+<title>Apostila de {titulo}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -259,7 +259,12 @@ Estrutura mínima:
     const id = 'cap-' + (i+1);
     const html = md2html(s);
     content.insertAdjacentHTML('beforeend', `<section id="${id}"><h2>${titulo}</h2>${html.replace(/<h2>.+?<\/h2>/,'')}</section>`);
-    toc.insertAdjacentHTML('beforeend', `<li><a href="#${id}" data-cap="${i+1}">${(i+1).toString().padStart(2,'0')}. ${titulo}</a></li>`);
+    // O título do capítulo costuma já vir numerado do Markdown ("01. Nome").
+    // Numerar por cima gera "01. 01. Nome" na barra lateral, então o prefixo
+    // só entra quando o título ainda não tem um.
+    const jaNumerado = /^\s*\d+\s*[.)-]\s+/.test(titulo);
+    const rotulo = jaNumerado ? titulo : `${(i+1).toString().padStart(2,'0')}. ${titulo}`;
+    toc.insertAdjacentHTML('beforeend', `<li><a href="#${id}" data-cap="${i+1}">${rotulo}</a></li>`);
   });
 
   // Navegação ativa por scroll
@@ -343,7 +348,7 @@ wrangler pages project list
 ## Boas práticas
 
 - Numerar capítulos no título: facilita navegação e referência cruzada.
-- Manter cada capítulo entre 800-2000 palavras: não cansa, não fica raso.
+- Manter cada capítulo entre 800-2000 palavras **quando a transcrição passa de 3.000 palavras**: não cansa, não fica raso. Com fonte de 3.000 palavras ou menos o piso não se aplica: o critério vira cobertura (todo bloco da gravação virou capítulo, zero descoberto), e o motivo vai declarado em 1 linha. Fonte curta demais? Funda capítulos correlatos primeiro; se ainda não fechar, entregue curto. O piso cede antes do inviolável de não inventar, e nunca se preenche com material do perfil do dono.
 - Sempre incluir um capítulo "Resumo" no final com bullets do que foi visto.
 - Adicionar exemplos práticos a cada conceito teórico.
 - Versionar a apostila no Git: histórico mostra quando alunos pediram correção.
@@ -364,7 +369,7 @@ wrangler pages project list
 
 | Erro | Causa | Solução |
 |---|---|---|
-| Whisper trava em vídeo longo | sem `--model small/medium` ou GPU | usar `--device cuda` ou modelo menor |
+| Whisper empaca em vídeo longo | sem `--model small/medium` ou GPU | usar `--device cuda` ou modelo menor |
 | HTML quebra no markdown | backticks dentro de code blocks | escapar com `\\`` antes de injetar |
 | Sidebar não atualiza scroll | `IntersectionObserver` não suportado | adicionar polyfill ou simplificar |
 | Mobile drawer não abre | `transform` em pai com `overflow:hidden` | verificar CSS pai |

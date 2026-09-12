@@ -1,9 +1,17 @@
 # VSL Soft - Roteiro Completo
 
+## Sumário
+
+1. Entrada ancorada
+2. Escolha do modo e do destino comercial
+3. Estrutura em 8 blocos
+4. Checklist
+5. Gate de saída
+
 > **Passo 0, antes de escrever a primeira linha (entrada ancorada).** Abre a fonte de fala real do cliente da vez (`shared-references/crivo/01-entrada-verbatim.md`, passo 0: identifica a fonte do usuário) e puxa 3-5 falas de dor e 3-5 de desejo do tema, literais. A primeira linha da peça nasce de uma delas, quase intacta, citando o N. Assim a peça nasce ancorada, não só é reprovada no gate do fim.
 
 
-Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business. O VSL não é palestra, é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
+Guia para construir o roteiro do Vídeo de Vendas (VSL) neste sistema. O VSL não é palestra, é conversa de alta consequência. O espectador decide em 30 segundos se fica ou sai.
 
 ---
 
@@ -14,6 +22,50 @@ Guia para construir o roteiro do Vídeo de Vendas (VSL) no sistema Soft Business
 Diferença do VSL genérico:
 - Genérico: entusiasmo crescente, promessa exagerada, contagem regressiva
 - Soft: tom clínico, confirmação de desconfiança, filtro explícito
+
+---
+
+## Escolha do modo e do destino comercial
+
+Declara antes de escrever: `Destino X → Consciência Y → Temperatura Z → Complexidade W → Modo Q`.
+
+### Destino comercial
+
+| Destino | Oferta e preço | CTA único |
+|---|---|---|
+| **Venda direta** | oferta completa, preço, condição e garantia reais | checkout/compra |
+| **Aplicação ou conversa** | oferta entra; preço só entra se o dono da oferta decidir mostrar | formulário, agenda ou WhatsApp |
+| **Autoridade** | problema, mecanismo e prova; sem fechamento fingido | aplicação ou conversa |
+
+### Profundidade
+
+| Modo | Duração-alvo | Critério |
+|---|---:|---|
+| **Curta** | 7-12min | público quente ou consciente, mecanismo simples, pouca mudança de crença |
+| **Média** | 12-25min | tráfego frio, diagnóstico necessário, mecanismo novo e prova moderada |
+| **Profunda** | 25-35min | baixa consciência, mecanismo complexo, várias crenças e objeções, prova robusta |
+
+Ticket é insumo, não sentença. Acima de 35 minutos exige referência vencedora ou necessidade explícita do projeto. Não preencher minutos com repetição.
+
+### Fronteira com miniwebinar
+
+VSL conduz a uma decisão comercial e carrega a oferta compatível com esse destino. Miniwebinar ensina uma promessa e avança ou capta o lead sem carregar o argumento completo de venda. Duração parecida não muda a função.
+
+### Distribuição do tempo
+
+O hook ocupa os primeiros 30 segundos. Distribui o restante como ponto de partida, ajustando pela objeção real:
+
+| Bloco | Faixa do tempo total |
+|---|---:|
+| Empatia + justificativa de falha | 5-12% |
+| Inimigo-categoria | 12-20% |
+| Procedência | 20-28% |
+| Método | 28-55% |
+| Prova | 55-75% |
+| Oferta | 75-95% |
+| CTA | 95-100% |
+
+Na Curta, comprime procedência e prova. Na Média, desenvolve diagnóstico, método e prova. Na Profunda, aprofunda mudanças de crença, objeções e demonstrações; não repete a mesma tese com palavras novas.
 
 ---
 
@@ -39,7 +91,7 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 2 - Empatia + Justificativa de Falha (30s–2min)
+### Bloco 2 - Empatia + Justificativa de Falha
 
 **Função:** fazer o espectador baixar a guarda. *"Essa pessoa entende o que eu vivo."*
 
@@ -57,7 +109,7 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 3 - Inimigo-Categoria (2–4min)
+### Bloco 3 - Inimigo-Categoria
 
 **Função:** nomear o sistema que causou o problema. Dar ao espectador um inimigo claro, não uma pessoa, uma prática.
 
@@ -75,7 +127,7 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 4 - Credencial de Procedência (4–6min)
+### Bloco 4 - Credencial de Procedência
 
 **Função:** mostrar por que o especialista tem autoridade pra falar sobre isso. Não é currículo, é história de procedência.
 
@@ -90,7 +142,7 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 5 - O Método (6–15min)
+### Bloco 5 - O Método
 
 **Função:** apresentar a solução como categoria diferente. O espectador precisa sair desse bloco pensando *"faz sentido lógico"*, não *"parece ótimo"*.
 
@@ -108,7 +160,7 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 6 - Prova (15–20min)
+### Bloco 6 - Prova
 
 **Função:** mostrar que funciona pra pessoas reais, em condições específicas. Não elogio, evidência.
 
@@ -130,17 +182,21 @@ Diferença do VSL genérico:
 
 ---
 
-### Bloco 7 - Oferta (20–25min)
+### Bloco 7 - Oferta
 
 **Função:** apresentar o que está sendo vendido com clareza total.
 
-**Sequência:**
+**Sequência na venda direta:**
 
 1. **Transição da prova pra oferta** - natural, sem virada abrupta: *"O que eu mostrei até agora é o sistema que X, Y e Z usaram. Você pode aplicar de duas formas..."*
 2. **Empilhamento** - lista o que está incluído + valor de cada item
 3. **Preço** - apresentado depois do empilhamento, nunca antes
 4. **Formas de pagamento**
 5. **Garantia** - vendida como confirmação de confiança, não proteção legal
+
+**Na aplicação ou conversa:** apresenta o que é vendido, o resultado, o encaixe e o próximo passo. Preço só entra se o dono da oferta decidiu mostrar. O bloco não termina em checkout; prepara a aplicação ou a conversa.
+
+**Na autoridade:** não inventa oferta nem preço. Fecha a lógica do mecanismo e explica por que a aplicação ou conversa é o próximo passo adequado.
 
 **Tom na oferta:** o mesmo tom clínico do restante do vídeo. Nenhuma aceleração de empolgação. Especialista que acelera no momento da oferta soa como vendedor que saiu do personagem.
 
@@ -150,9 +206,11 @@ Diferença do VSL genérico:
 
 **Função:** instrução clara e única. 1 ação. 1 botão. Nenhuma ambiguidade.
 
-**Estrutura:**
+**Estrutura-base:**
 
 *"Se o que você viu faz sentido pra você, o próximo passo é [ação concreta]. Você vai [o que acontece depois]. [Nome do botão/link] está [localização na página/abaixo do vídeo]."*
+
+Substitui os colchetes pelo destino declarado: checkout, formulário, agenda ou WhatsApp. Nunca mistura dois destinos.
 
 **Anti-exemplo:**
 ❌ *"Então o que você tá esperando? Clica no botão agora! Não perde mais tempo! A vida que você quer está a um clique de distância!"*, tom de televendas. Destrói tudo que foi construído antes.
@@ -170,22 +228,16 @@ Diferença do VSL genérico:
 - [ ] O método foi descrito como categoria diferente, não como "melhor versão" do que existe?
 - [ ] A prova tem nome + número + condição, não elogio genérico?
 - [ ] A oferta foi apresentada depois do empilhamento?
-- [ ] O CTA final tem 1 instrução clara sem empolgação artificial?
+- [ ] Preço, oferta e garantia obedecem ao destino comercial declarado?
+- [ ] O CTA final aponta para 1 destino real sem empolgação artificial?
 - [ ] O tom é consistente do início ao fim, clínico, direto, sem virada de empolgação?
 - [ ] Blair Warren (pré-filtro): algum dos 5 movimentos ausente? Reforça antes do Crivo. O veredito final é do Crivo, não dos movimentos.
 
 ---
 
-## Durações por ticket
+## Regra final de duração
 
-| Ticket | Duração ideal do VSL |
-|---|---|
-| ≤ R$297 | 10–15 min |
-| R$297–R$997 | 15–25 min |
-| R$1k–R$2k | 20–35 min |
-| R$2k+ | VSL não recomendado → Página de Autoridade sem vídeo |
-
-VSL acima de 35 minutos com tráfego frio raramente converte mais que versão mais curta. Sinal pra cortar: se o método tem mais de 4 passos, agrupa 2 por bloco no vídeo.
+Mede a fala real antes de fechar. Se o roteiro ultrapassou o modo escolhido, corta repetição, história ornamental e explicação que não muda crença. Não corta diagnóstico, mecanismo, prova ou objeção que faz trabalho comercial. Se ainda precisar passar de 35 minutos, registra a razão e a referência que sustenta a exceção.
 
 
 ## Gate de saída obrigatório, o Crivo (bloqueante)

@@ -16,7 +16,7 @@ Esta reference é a profundidade do **MODO SLIDES (Passo 6 do SKILL.md)**. Ela e
 - 1. MAPA dos 12 blocos ADMA pras faixas de slide
 - 2. CATÁLOGO ENXUTO de arquétipos (molde + slide instanciado em nicho fictício)
 - 3. CALIBRAGEM MINI (deck de ~12 a 20 slides, sem stack/preço)
-- 4. DOIS CAMINHOS DE SAÍDA (Code via deck_gen.py, Chat via PDF)
+- 4. DOIS CAMINHOS DE SAÍDA (com shell via deck_gen.py, sem shell via PDF)
 - 5. RE-GATE ao condensar + checklist do mini-deck
 
 ---
@@ -147,15 +147,15 @@ O deck do mini-webinar é ENXUTO. A diferença de escala em relação ao webiná
 
 ---
 
-## 4. DOIS CAMINHOS DE SAÍDA (Code via deck_gen.py, Chat via PDF)
+## 4. DOIS CAMINHOS DE SAÍDA (com shell via deck_gen.py, sem shell via PDF)
 
-A skill roda no Claude **Code** e no Claude **Chat**. O deck sai dos dois, só muda o motor de render. A inteligência (mapa de arquétipos, copy na nota, ritmo) é idêntica.
+A skill roda **com shell** (terminal, python disponível) e **sem shell** (só conversa). O deck sai dos dois, só muda o motor de render. A inteligência (mapa de arquétipos, copy na nota, ritmo) é idêntica.
 
-### Caminho A, Claude CODE (gera `.pptx` via `deck_gen.py`)
+### Caminho A, com shell (gera `.pptx` via `deck_gen.py`)
 1. Monta o **array JSON** no schema do `deck_gen.py`. Cada slide é um objeto com `tipo` (`capa`/`secao`/`frase`/`conteudo`/`prova`/`mao`/`oferta`/`investimento`/`fechamento`), o reforço visível nos campos da tela (`titulo`/`corpo`/`numero`/`itens`) e **a copy falada SEMPRE no campo `nota`** (vira Speaker Notes).
 2. No mini-webinar, usa só os tipos enxutos: `capa`, `frase`, `secao`, `prova`, `conteudo`, `mao`. Os tipos `oferta`/`investimento` (que pintam os títulos de verde pra stack/preço) **não entram** no degrau 1.
-3. Escreve em `deck.json` e roda o build (`python3 .../deck_gen.py deck.json saida.pptx`). Depende de `python-pptx`.
-4. Entrega o `.pptx` com o ID visual Soft já aplicado. A animação clique-a-clique das listas e o quadro da câmera são passos manuais no PowerPoint/Slides depois.
+3. Escreve em `deck.json` e roda o build (`python3 scripts/deck_gen.py deck.json saida.pptx`, relativo a esta pasta de skill). Depende de `python-pptx`; se a biblioteca não estiver instalada, cai no Caminho B.
+4. Entrega o `.pptx` com o ID visual do dono já aplicado. A animação clique-a-clique das listas e o quadro da câmera são passos manuais no PowerPoint/Slides depois.
 
 > **EXEMPLO de slide em JSON (nicho: estúdio de cerâmica, arquétipo respiro):**
 > ```json
@@ -167,10 +167,10 @@ A skill roda no Claude **Code** e no Claude **Chat**. O deck sai dos dois, só m
 > ```
 > O parágrafo falado inteiro na `nota`; na tela, só a frase. O reforço passa pelo gate antes de exportar.
 
-### Caminho B, Claude CHAT (descreve slide a slide e gera PDF direto)
+### Caminho B, sem shell (descreve slide a slide e gera PDF direto)
 Sem acesso a shell nem ao `deck_gen.py`. Então:
 1. **Descreve cada slide** com o mesmo mapa de arquétipos e a mesma regra de ouro: o `tipo`/arquétipo, o **reforço visível** (1 frase/número/imagem) e a **copy na nota**.
-2. Aplica na descrição o **ID visual Soft** (fundo preto, título display, verde = ganho, número gigante na prova) pra o player reproduzir.
+2. Aplica na descrição o **ID visual do dono** (fundo preto, título display, verde = ganho, número gigante na prova) pra o player reproduzir.
 3. **Gera o PDF direto** renderizando a descrição como deck.
 4. Marca os mesmos slots `(a definir com o usuário)` e as notas de animação clique-a-clique.
 
@@ -181,7 +181,7 @@ Sem acesso a shell nem ao `deck_gen.py`. Então:
 ## 5. RE-GATE ao condensar + checklist do mini-deck
 
 ### RE-GATE (a regra que fecha o modo)
-O roteiro já passou pelo gate quando foi escrito. Mas o texto VISÍVEL de cada slide (a 1 frase / 1 número / 1 imagem-conceito do reforço) é uma **condensação NOVA** que o lead LÊ, não a fala original. Então a copy de tela de cada slide **re-passa pelo gate** ANTES de exportar: a ancoragem (o número é real?), as 3 perguntas do Harry no título de cada slide-chave (dá pra ver? dá pra falsificar? só você diz?), o C/U/B e o anti-IA do gate do SKILL.md (o item Anti-IA HARD, com o CTRL+F manual dos padrões banidos no chat; `python3 scripts/lint_copy.py` na copy de tela + nota no Code). Depois de aprovado, o render não muda palavra; se condensar ou reescrever o texto de tela, re-passa o gate antes de exportar.
+O roteiro já passou pelo gate quando foi escrito. Mas o texto VISÍVEL de cada slide (a 1 frase / 1 número / 1 imagem-conceito do reforço) é uma **condensação NOVA** que o lead LÊ, não a fala original. Então a copy de tela de cada slide **re-passa pelo gate** ANTES de exportar: a ancoragem (o número é real?), as 3 perguntas do Harry no título de cada slide-chave (dá pra ver? dá pra falsificar? só você diz?), o C/U/B e o anti-IA do gate do SKILL.md (o item Anti-IA HARD, com o CTRL+F manual dos padrões banidos quando não há shell; `python3 scripts/lint_copy.py` na copy de tela + nota quando há). Depois de aprovado, o render não muda palavra; se condensar ou reescrever o texto de tela, re-passa o gate antes de exportar.
 
 ### Checklist do mini-deck (roda por dentro, por fase)
 - [ ] Nenhum slide passa na pergunta-teste ("dá pra narrar lendo só a tela"). Copy toda na nota.

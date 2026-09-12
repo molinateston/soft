@@ -198,7 +198,7 @@ Teste: *"se eu publicar essa peça, ela aumenta ou diminui o motivo de comprar o
 
 > *Dá o tijolo. Não dá a planta da casa.*
 
-Detalhe completo em `references/06-carrossel.md` (engenharia do formato) e no Mecanismo da `soft-posicionamento`.
+Detalhe completo em `references/06-carrossel.md` (engenharia do formato) e no Mecanismo da `soft-plano-posicionamento`.
 
 ## As 7 formas de executar o Conteúdo
 
@@ -297,10 +297,10 @@ Uma palavra fácil de digitar com o polegar. Uma palavra só. Sem hashtag, sem s
 
 ## As 7 formas de executar o CTA
 
-### 1. Direct com Palavra-Senha (padrão Soft)
+### 1. Direct com Palavra-Senha (o padrão)
 **Template:** [Razão concreta em 1-2 linhas]. Envia "[PALAVRA]" no Direct.
 
-**Exemplo:** Eu documentei o sistema Soft inteiro numa mini webinar de 1h20. Envia "SOFT" no Direct.
+**Exemplo:** Eu documentei o método inteiro numa mini webinar de 1h20. Envia "[PALAVRA-CHAVE DO DONO]" no Direct.
 
 ### 2. Comentário com Palavra-Senha
 **Template:** [Razão]. Comenta "[PALAVRA]" que eu te mando.

@@ -284,7 +284,7 @@ Régua de volume: **abaixo de 15 obstáculos, a varredura ficou na superfície.*
 
 Pra cada item da lista, a solução correspondente, no molde **"como fazer [resultado] sem [obstáculo]"**. Ainda sem decidir formato, sem pensar em custo, sem cortar nada: aqui o objetivo é volume bruto do que a oferta PODERIA resolver. Cortar cedo demais mata o item bom que ainda não achou o veículo barato.
 
-O molde do "sem X" não é enfeite: ele já nasce na língua da promessa Soft (o mesmo "sem X" que o P1 exige na PUV pra quebrar a crença de pré-requisito). Um problema bem invertido costuma virar uma linha de venda quase pronta.
+O molde do "sem X" não é enfeite: ele já nasce na língua da promessa (o mesmo "sem X" que o P1 exige na PUV pra quebrar a crença de pré-requisito). Um problema bem invertido costuma virar uma linha de venda quase pronta.
 
 > **Exemplo (nicho fictício, fisio).** Problema de ambiente: "não tem elástico nem espaço em casa". Invertido: "como fazer a dose diária sem equipamento e sem sala livre". Problema de psicologia: "medo de sentir dor ao se mover". Invertido: "como voltar a se mover sem disparar a dor". Repare que a inversão já entrega a headline do entregável.
 

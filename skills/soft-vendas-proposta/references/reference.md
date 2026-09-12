@@ -1,6 +1,6 @@
 # Método de Criação de Propostas Comerciais
 
-> Documento operacional autossuficiente para reproduzir o padrão de propostas comerciais premium do método Soft.
+> Documento operacional autossuficiente para reproduzir o padrão de propostas comerciais premium deste método.
 > Versão: 1.0. Atualizado em abril de 2026.
 > Idioma: português brasileiro com acentuação completa, sem travessões.
 
@@ -293,7 +293,7 @@ Cada proposta é **PRIVADA**: o projeto recebe um nome único com um **sufixo al
 
 #### Entregar o link
 
-Sempre com `https://`. Mensagem de envio (adaptar ao tom da relação, e passar pelo `soft-anti-ia`):
+Sempre com `https://`. Mensagem de envio (adaptar ao tom da relação, e passar pelo filtro anti-IA deste documento):
 
 ```
 Olá NOME, sua proposta tá pronta.
@@ -1008,7 +1008,7 @@ A precificação segue uma matriz por perfil de cliente. Os valores são referê
 
 ### Matriz de preços (exemplo de estrutura)
 
-> Faixas só de referência pra mostrar a LÓGICA (perfil do cliente → ticket). O dono define os próprios números conforme a oferta dele (`soft-plano-posicionamento`). NÃO trate estes valores como tabela oficial do método Soft.
+> Faixas só de referência pra mostrar a LÓGICA (perfil do cliente → ticket). O dono define os próprios números conforme a oferta dele (`soft-plano-posicionamento`). NÃO trate estes valores como tabela oficial de preço.
 
 | Perfil do cliente | Mentoria (6 meses) | Consultoria (entrega completa) |
 |-------------------|--------------------|--------------------------------|
@@ -1241,6 +1241,6 @@ Padrões que funcionam bem em propostas e merecem ser reforçados:
 
 ---
 
-Documento operacional do método Soft. Atualizar conforme novas propostas consolidam novas práticas.
+Documento operacional deste método. Atualizar conforme novas propostas consolidam novas práticas.
 
 Versão Soft: 1.0 (modelada a partir de um método externo, des-marcada e alinhada ao Soft).

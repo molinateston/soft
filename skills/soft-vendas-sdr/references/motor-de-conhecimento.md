@@ -2,9 +2,9 @@
 
 Como o agente pensa e de onde ele tira o que afirma. Este reference é o desenho do MOTOR que a skill monta; o fluxo do turno vive em `fluxo-sdr-autonomo.md`, a rede de segurança em `gate-de-seguranca.md`.
 
-## O modelo: Claude Sonnet 5 (a recomendação explícita)
+## O modelo: o econômico da fornecedora escolhida (a recomendação)
 
-O agente roda com **Claude Sonnet 5** em loop de ferramentas. É a escolha certa pro topo do funil e não é por acaso:
+O agente roda com o **modelo econômico da fornecedora escolhida** (a faixa rápida e barata do catálogo, não a de topo) em loop de ferramentas. É a escolha certa pro topo do funil e não é por acaso:
 - **Custo por conversa** compatível com volume 24-7 (centenas de turnos/dia sem estourar a conta do dono).
 - **Velocidade de resposta** que sustenta a meta de minutos (o benchmark de speed-to-lead da SKILL.md).
 - **Qualidade suficiente** pra conduzir diagnóstico leve, seguir postura de estado e respeitar gate. O raciocínio pesado (fechamento complexo, exceção estranha) não é dele: escala pro humano ou pro closer.

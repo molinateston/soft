@@ -1,4 +1,4 @@
-# Como o especialista aplica o Soft Business no próprio negócio, autoguiado pelo LEON
+# Como o especialista aplica este método no próprio negócio, autoguiado pelo LEON
 
 > O passo a passo do cliente sendo conduzido. Não é teoria do método: é o que acontece na tela, do zero ao negócio rodando, com o LEON entrevistando, invocando a skill certa e cravando cada ativo antes de liberar o próximo.
 
@@ -6,7 +6,7 @@
 
 ## Antes de começar: o que é o LEON, e por que ele entrevista
 
-O LEON é o Sócio IA. Não é um chat que responde pergunta. É quem conduz a obra.
+O LEON é o Motor de IA. Não é um chat que responde pergunta. É quem conduz a obra.
 
 Ele faz três coisas, nessa ordem: orquestra a jornada (sabe a sequência, invoca a skill certa, uma por vez), ensina o porquê de cada etapa numa pílula curta, e valida o ativo antes de liberar o próximo. Tom clínico. Direto. Crítico quando merece, aprovador quando merece. Nunca guru, nunca "você consegue".
 
@@ -69,7 +69,7 @@ O cliente ajusta. O LEON crava. Esse é o Briefing de Concepção, o insumo que 
 
 ### Skill invocada
 
-Nenhuma ainda. O Passo 0 é o próprio LEON entrevistando. A síntese vira o insumo estruturado que ele entrega à `soft-posicionamento` no Passo 2 (que, por isso, pula o briefing dela).
+Nenhuma ainda. O Passo 0 é o próprio LEON entrevistando. A síntese vira o insumo estruturado que ele entrega à `soft-plano-posicionamento` no Passo 2 (que, por isso, pula o briefing dela).
 
 ---
 
@@ -87,8 +87,8 @@ Ele anuncia e age:
 
 Como ele faz, concretamente:
 
-- **WebSearch**: rastreia o mercado: quem são os concorrentes que ocupam o espaço, que linguagem eles usam, que faixas de preço pratica o nicho, que ângulos já têm dono. Roda em rodadas encadeadas: mapeia nomes, aprofunda nos tops, caça a lacuna, mede a força da dor.
-- **WebFetch**: entra nas páginas e perfis-chave e lê o que está lá: o que o concorrente promete, o que os comentários reclamam, as expressões cruas que aparecem nas fontes públicas do nicho, reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais.
+- **Busca na web (se o ambiente tiver acesso; senão o especialista traz o material)**: rastreia o mercado: quem são os concorrentes que ocupam o espaço, que linguagem eles usam, que faixas de preço pratica o nicho, que ângulos já têm dono. Roda em rodadas encadeadas: mapeia nomes, aprofunda nos tops, caça a lacuna, mede a força da dor.
+- **Leitura das páginas (se o ambiente tiver acesso; senão o especialista cola o texto)**: entra nas páginas e perfis-chave e lê o que está lá: o que o concorrente promete, o que os comentários reclamam, as expressões cruas que aparecem nas fontes públicas do nicho, reviews, depoimentos, comentários, fóruns, Reddit BR, grupos, FAQs, threads de redes sociais.
 - **Cruza com o material que o próprio especialista trouxer**: se o cliente tem transcrição de call, depoimento cru ou print de conversa de venda do público dele, é aqui que a pesquisa passa de "o que a internet diz" pra "o que o cliente-final disse, com as palavras dele". O LEON cruza o que achou na web com esse material e separa o vocabulário que repete. Se o especialista não tem nada disso, a web sozinha já entrega a linguagem do nicho, a pesquisa não depende de nenhuma base pré-pronta.
 
 ### Por que isso supera o deep research do chat
@@ -109,7 +109,7 @@ Quase nada, esse passo é trabalho do LEON. No máximo o especialista confirma 1
 
 ### Skill invocada
 
-Ainda o LEON, usando WebSearch + WebFetch nas fontes públicas do nicho do cliente, mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
+Ainda o LEON, buscando e lendo as fontes públicas do nicho do cliente se o ambiente tiver acesso à web (senão o especialista traz o material), mais o material que o próprio especialista trouxer (call, depoimento, conversa de venda), se tiver. A `soft-plano-posicionamento` também roda a própria pesquisa interna, a Super Pesquisa do LEON a alimenta e aprofunda, não a substitui.
 
 ---
 
@@ -183,7 +183,7 @@ Antes de invocar a skill, o LEON ensina em três parágrafos por que esta etapa 
 
 Invoca a skill explicitamente:
 
-> *"Abre uma conversa nova e aciona a `soft-posicionamento`. Eu já vou passar pra ela o que extraí de você na concepção e na Super Pesquisa, você não vai repetir tudo. Traz o Plano pronto aqui pra eu validar."*
+> *"Abre uma conversa nova e aciona a `soft-plano-posicionamento`. Eu já vou passar pra ela o que extraí de você na concepção e na Super Pesquisa, você não vai repetir tudo. Traz o Plano pronto aqui pra eu validar."*
 
 A skill entra com o Briefing de Concepção e o Dossiê de Nicho já na mão. Ela roda a própria pesquisa de mercado pra confirmar e aprofundar, faz uma entrevista dirigida (sem repetir o que o LEON já extraiu), trabalha o território em silêncio e constrói os três blocos e as duas saídas, um a um, mostrando cada um e pedindo "tá bom? ajusto?".
 
@@ -210,7 +210,7 @@ Se o especialista responde com jargão de mercado, ou "ajudo pessoas" sem recort
 
 ### Skill invocada
 
-`soft-posicionamento`.
+`soft-plano-posicionamento`.
 
 ---
 
@@ -226,7 +226,7 @@ Se o especialista responde com jargão de mercado, ou "ajudo pessoas" sem recort
 
 ### O que o LEON faz
 
-> *"Abre conversa nova e aciona a `soft-posicionamento`. Ela vai pegar o Plano que a gente fechou, a persona-âncora é o destinatário da sua voz. Traz a voz destilada aqui."*
+> *"Abre conversa nova e aciona a `soft-plano-posicionamento`. Ela vai pegar o Plano que a gente fechou, a persona-âncora é o destinatário da sua voz. Traz a voz destilada aqui."*
 
 A skill conduz a descoberta observando a voz natural. Pede material real (áudios, textos que o especialista já escreveu), identifica padrões, e destila cinco elementos, sem prescrever, amplificando o que é singular.
 
@@ -250,7 +250,7 @@ Se a voz soa como qualquer creator, ou é cosplay de alguma referência, não pa
 
 ### Skill invocada
 
-`soft-posicionamento`.
+`soft-plano-posicionamento`.
 
 ---
 
@@ -301,9 +301,9 @@ Até aqui o guia conduz o **FUNIL SOFT** (degrau 1): a peça de aquecimento é a
 
 Existe um segundo trilho, o **FUNIL WEBINAR** (degrau 2 da escada), pra quando o caso pede webinário. O LEON só sobe o especialista pra esse degrau quando audiência, faturamento, produto e habilidade já aguentam, nunca antes. Sinais de que o caso pede webinar: o especialista já tem público entrando, já fecha no 1:1 com método, e quer escalar a venda de um para muitos sem perder a qualificação.
 
-Quando o caso pede webinar, a única coisa que muda é o **miolo do funil**. No lugar da Mini Carta do Passo 4, o LEON invoca a `soft-webinar`, que entrega o pacote inteiro na ordem do método (consultiva/entrevista → oferta → aula slide-a-slide → páginas → mensagens + máquina de tags → chat; anúncios = `soft-trafego-meta`). Tudo o que vem antes (Passos 0 a 3: concepção, pesquisa, projeção, posicionamento, voz) e tudo o que vem depois (feed, stories, e o **fechamento comercial sempre na `soft-vendas`**) é idêntico. O webinar qualifica o lead; high-ticket (3k+) fecha no 1:1, nunca no checkout.
+Quando o caso pede webinar, a única coisa que muda é o **miolo do funil**. No lugar da Mini Carta do Passo 4, o LEON invoca a `soft-webinar`, que entrega o pacote inteiro na ordem do método (consultiva/entrevista → oferta → aula slide-a-slide → páginas → mensagens + máquina de tags → chat; anúncios = `soft-trafego-meta`). Tudo o que vem antes (Passos 0 a 3: concepção, pesquisa, projeção, posicionamento, voz) e tudo o que vem depois (feed, stories, e o **fechamento comercial sempre na `soft-vendas-*`**) é idêntico. O webinar qualifica o lead; high-ticket (3k+) fecha no 1:1, nunca no checkout.
 
-O degrau 3, Soft Launch / lançamento pago (`soft-lancamento-pago`), está **fora do escopo deste guia autoguiado**. É outro trilho, com skill própria, e não entra na condução aqui.
+O degrau 3, Soft Launch / lançamento pago (`soft-launch`), está **fora do escopo deste guia autoguiado**. É outro trilho, com skill própria, e não entra na condução aqui.
 
 A régua de invocação dos dois trilhos vive em `references/manifesto-funis.md`: o pipeline explícito, passo a passo, com o gate de cada etapa. É de lá que o LEON tira a certeza de qual mãe invocar e em que ordem, sem depender de memória.
 
@@ -321,9 +321,9 @@ A régua de invocação dos dois trilhos vive em `references/manifesto-funis.md`
 
 ### O que o LEON faz, uma skill, três tempos em ordem rígida
 
-O LEON nunca pula direto pro design. A `soft-conteudo` conduz em três tempos, e ele valida um antes de liberar o próximo:
+O LEON nunca pula direto pro design. A família `soft-conteudo-*` (`-headlines` → `-carrossel`/`-reels`/`-stories` → `-multiplataforma`) conduz em três tempos, e ele valida um antes de liberar o próximo:
 
-> *"Aciona a `soft-conteudo`. Ela trabalha em três tempos, nessa ordem, você aprova cada um antes do próximo."*
+> *"Aciona a `soft-conteudo-headlines` e depois a do formato (`soft-conteudo-carrossel`, `-reels` ou `-stories`). Trabalha em três tempos, nessa ordem, você aprova cada um antes do próximo."*
 
 > **1. Headline.** *"Primeiro a capa/gancho. Ela puxa da Fundação de Headlines que já está no seu Plano. A gente escolhe antes de qualquer outra coisa."*
 
@@ -354,7 +354,7 @@ A red flag é "virou aula". Carrossel que entrega o como-fazer mata a venda e at
 
 ### Skills invocadas
 
-`soft-conteudo` (conduz headline → corpo → design, nessa ordem).
+`soft-conteudo-headlines` → `soft-conteudo-carrossel`/`-reels`/`-stories` → `soft-designer` (headline → corpo → design, nessa ordem).
 
 ---
 
@@ -370,7 +370,7 @@ A red flag é "virou aula". Carrossel que entrega o como-fazer mata a venda e at
 
 ### O que o LEON faz
 
-> *"Aciona a `soft-conteudo`. Ela vai montar sua rotina diária e te dar os roteiros prontos. Traz a primeira semana pra eu validar."*
+> *"Aciona a `soft-conteudo-planner`. Ela vai montar sua rotina diária e te dar os roteiros prontos. Traz a primeira semana pra eu validar."*
 
 A skill opera quatro sistemas: o CARO pra rotina diária (Caixinha · Alinhamento · Resultado · Oferta), a Caixinha Estratégica pra plantar perguntas e ler intenção, a Sequência de Venda de 5 dias pra campanha, e o Story Infiltrado pra tráfego frio.
 
@@ -391,7 +391,7 @@ Fechado, libera o Passo 7.
 
 ### Skill invocada
 
-`soft-conteudo`.
+`soft-conteudo-planner`.
 
 ---
 
@@ -407,7 +407,7 @@ Fechado, libera o Passo 7.
 
 ### O que o LEON faz
 
-> *"Aciona a `soft-vendas`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
+> *"Aciona a `soft-vendas-closer`. Ela vai te dar a espinha de 7 fases e os scripts prontos pro seu canal. Quando você tiver uma conversa real, cola aqui que ela te ajuda a conduzir em tempo real."*
 
 A skill herda do guia a cabeça do vendedor, as 7 fases, o termômetro, o Isolamento, o catálogo de objeções no tom Soft e as frases de poder por situação. Adapta tudo ao canal (WhatsApp, call ou reunião) e ao ticket.
 
@@ -429,7 +429,7 @@ Fechado, libera o Passo 8.
 
 ### Skill invocada
 
-`soft-vendas`.
+`soft-vendas-closer`.
 
 ---
 
@@ -486,7 +486,7 @@ Quando o especialista chega aqui, ele não tem "umas ideias de marketing". Ele t
 - **Os Scripts Comerciais**: as 7 fases, objeções e frases de poder no tom dele. (Passo 7)
 - **A Rotina Estratégica**: a conta, a esteira, o calendário, os blocos e os rituais. (Passo 8)
 
-E o motor que carrega tudo isso todo dia: o **Sócio IA** já configurado com a voz e os ativos dele dentro. Ele não abre perguntando "sobre o que você quer falar?". Abre já sabendo quem é o cliente, qual é o método, como o especialista fala e o que ele vende. O improviso morre na configuração.
+E o motor que carrega tudo isso todo dia: o **Motor de IA** já configurado com a voz e os ativos dele dentro. Ele não abre perguntando "sobre o que você quer falar?". Abre já sabendo quem é o cliente, qual é o método, como o especialista fala e o que ele vende. O improviso morre na configuração.
 
 ### A régua do LEON (a lei que atravessa tudo)
 

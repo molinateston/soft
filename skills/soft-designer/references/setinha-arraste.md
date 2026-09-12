@@ -35,12 +35,14 @@ O padrão aplica em todos os slides 1 a N-1, em todas as famílias:
 </svg>
 ```
 
-**Slide 1 (hook):** o handle aparece também no topo do bloco de conteúdo, acima do título, em substituição à tag de contexto. Cor `#6B6B6B`, peso 500, sem uppercase, sem letter-spacing.
+**Slide 1 (hook): o handle aparece UMA vez só, e a posição é o rodapé.** A capa já leva o handle no rodapé, junto da seta de arraste, como todos os slides de 1 a N-1. Repetir no topo produz a mesma assinatura duas vezes na mesma tela, que é o defeito mais comum da capa. O topo do bloco de conteúdo, acima do título, recebe a **tag de contexto** (tema, categoria, número da série), nunca o handle. Cor `#6B6B6B`, peso 500, sem uppercase, sem letter-spacing.
 
 ```html
-<!-- Handle no topo do slide 1, dentro do container interno -->
-<p style="font-size: 22px; font-weight: 500; color: #6B6B6B; margin-bottom: 52px;">@handle</p>
+<!-- Topo do slide 1: tag de contexto, NÃO o handle (o handle já está no rodapé) -->
+<p style="font-size: 22px; font-weight: 500; color: #6B6B6B; margin-bottom: 52px;">[tag de contexto]</p>
 ```
+
+**Checagem verificável antes de exportar:** conte as ocorrências do handle por slide e escreva `slide N: handle Nx`. Passa só com 1 por slide (0 no último). Duas no slide 1 reprovam o export.
 
 **Último slide (CTA):** sem seta, sem handle no rodapé. O CTA fala por si.
 
@@ -62,7 +64,7 @@ Esta é a **única exceção permitida** à regra 13 do SKILL.md que proíbe `po
 
 Item 9 do `auditoria-pre-preview.md`:
 
-> Slides 1 a N-1: seta SVG variação C no rodapé (bottom 80px) + handle centralizado (bottom 140px) + handle no topo do slide 1. Último slide: sem seta, sem handle no rodapé. Qualquer `›` no canto = falha.
+> Slides 1 a N-1: seta SVG variação C no rodapé (bottom 80px) + handle centralizado (bottom 140px), **uma ocorrência do handle por slide**, o do slide 1 incluso (no topo da capa vai a tag de contexto, não o handle). Último slide: sem seta, sem handle no rodapé. Qualquer `›` no canto = falha. Handle duas vezes no mesmo slide = falha.
 
 ## Nota histórica
 

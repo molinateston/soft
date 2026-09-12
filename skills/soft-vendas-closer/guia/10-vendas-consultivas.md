@@ -129,7 +129,7 @@ O Filtro Soft é a sequência automatizada que recebe o lead vindo do Feed (via 
 
 ## 10.8 · Mapa de canal (o canal é do FUNIL, não do ticket)
 
-O canal de conversão sai do **funil**, não do preço. Na esteira comercial 1:1 (carta, jogadas de campanha, prospecção, mentoria) **o padrão é a DM/WhatsApp em qualquer ticket**: fecha no chat com áudio, doc e vídeo curto (o modo `references/dm-sem-call.md`), mesmo high-ticket. A call, a reunião e o SDR+Closer são **exceções de contexto**, não degraus automáticos do preço. Mesmas 7 fases; muda só o canal e o ritmo. (No **Funil de Aula Agendada**, o produto da aula fecha DE UMA VEZ no checkout da própria aula, one-step; a esteira 1:1 vem DEPOIS como ascensão, e é aí que este mapa vale.)
+O canal de conversão sai do **funil**, não do preço. Na esteira comercial 1:1 (carta, jogadas de campanha, prospecção, mentoria) **o padrão é a DM/WhatsApp em qualquer ticket**: fecha no chat com áudio, doc e vídeo curto (o modo `references/dm-sem-call.md`), mesmo high-ticket. A call, a reunião e o SDR+Closer são **exceções de contexto**, não degraus automáticos do preço. Mesmas 7 fases; muda só o canal e o ritmo. (No **funil de aula/webinar**, o produto da aula fecha DE UMA VEZ no checkout da própria aula, one-step; a esteira 1:1 vem DEPOIS como ascensão, e é aí que este mapa vale.)
 
 | Canal | Quando usar | Ritmo das 7 fases |
 |---|---|---|

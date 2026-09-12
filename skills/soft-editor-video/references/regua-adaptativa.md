@@ -4,7 +4,7 @@ Use esta referência em talking-head, reels e anúncios que combinam apresentado
 
 ## Escolha de composição
 
-1. Prova real central: mostrar em tela inteira. Não reduzir Telegram, página, produto ou resultado real a uma faixa pequena.
+1. Prova real central: mostrar em tela inteira. Não reduzir uma conversa real, página, produto ou resultado a uma faixa pequena.
 2. Talking-head com explicação: usar composição adaptativa, com apresentador e apoio trocando de importância ao longo da fala.
 3. Demonstração com muitas telas e slides: usar topo-fixo.
 4. Conteúdo puro: preservar o quadro original e usar somente a HEADLINE temporária aprovada.
@@ -24,6 +24,7 @@ Nunca copiar automaticamente o formato do vídeo anterior.
 - Fazer uma virada de layout por flash branco no terço inicial: apresentador grande em cima passa a close embaixo, enquanto o apoio ocupa cerca de dois terços superiores.
 - Não fabricar print de notícia, tela de produto, painel, número ou resultado.
 - Movimento local é o padrão. Cena gerada com créditos só entra por ordem do dono, após mostrar custo e receber o sim.
+- Toda cena decide frase de apoio e transição. Frase destaca a ideia que merece permanecer, sem copiar a legenda. Transição liga a transformação visual ou a mudança de argumento, sem efeito aleatório.
 
 ## Manifesto obrigatório
 
@@ -78,9 +79,42 @@ Criar `edit-manifest.json` com:
     }
   ],
   "semantic_cuts_approved": false,
+  "visual_direction": {
+    "semantic_division": "blocos de argumento",
+    "continuity_rule": "uma linguagem visual para o filme inteiro",
+    "phrase_rhythm": "frases apenas em tese, numero, contraste ou conclusao",
+    "transition_language": "transicoes motivadas pela acao ou pela virada da fala",
+    "director_reviewed": true
+  },
   "support_segments": [
-    {"start": 0.0, "end": 2.4, "type": "generated_image"},
-    {"start": 2.4, "end": 5.1, "type": "real_screen"}
+    {
+      "start": 0.0,
+      "end": 2.4,
+      "type": "generated_image",
+      "speech_excerpt": "Implemente IA",
+      "intent": "materializar a ordem virando trabalho",
+      "visual_strategy": "celular recebe a ordem e entrega o resultado na tela",
+      "support_phrase": {"decision": "use", "text": "Da ordem ao trabalho", "role": "tese"},
+      "first_frame_plan": "celular com campo de audio pronto",
+      "last_frame_plan": "resultado final ocupando a tela do celular",
+      "motion": "onda de audio entra e se transforma no resultado",
+      "transition_in": "aproximacao da camera ate a tela",
+      "transition_out": "o resultado cresce e ocupa o quadro"
+    },
+    {
+      "start": 2.4,
+      "end": 5.1,
+      "type": "real_screen",
+      "speech_excerpt": "veja o resultado",
+      "intent": "provar que o trabalho existe",
+      "visual_strategy": "tela real em quadro inteiro",
+      "support_phrase": {"decision": "none", "reason": "a prova real precisa ficar limpa"},
+      "first_frame_plan": "entrada da tela real",
+      "last_frame_plan": "resultado legivel em tela inteira",
+      "motion": "rolagem real preservada",
+      "transition_in": "resultado da cena anterior vira a tela real",
+      "transition_out": "corte motivado pela proxima fala"
+    }
   ],
   "list_reveals": [
     {"label": "Comercial", "at": 12.2},

@@ -259,7 +259,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 
 **Princípio (metanoia, Brunson):** "ninguém quer saber da sua história, quer saber de resultado. MAS como você mudou a sua cabeça e achou essa solução é interessante." Conte a virada de mente, não a biografia.
 
-> **Específico do método Soft (anti-padrão de avatar):** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA. O avatar Soft é DONO de negócio, o Soft constrói autoridade por **espelho de NEGÓCIO** (vida e números de dono, casos de alunos-donos), não por logo corporativo. A "carteira de trabalho" do avatar Soft é outro artefato: extrato, agenda lotada, contrato fechado. **Superlativo sempre terceirizado**, "melhor do mundo em X" vem de e-mail/mídia/aluno, nunca da própria boca.
+> **Específico deste método (anti-padrão de avatar):** autoridade só por crachá institucional (Toyota, Santander, MEC) serve o avatar CLT da GA. O avatar deste método é DONO de negócio, o Soft constrói autoridade por **espelho de NEGÓCIO** (vida e números de dono, casos de alunos-donos), não por logo corporativo. A "carteira de trabalho" do avatar Soft é outro artefato: extrato, agenda lotada, contrato fechado. **Superlativo sempre terceirizado**, "melhor do mundo em X" vem de e-mail/mídia/aluno, nunca da própria boca.
 
 ### Autoridade EMPRESTADA quando a sua é fraca **[UNIVERSAL]**
 
@@ -293,7 +293,7 @@ Se o player ainda não tem resultado próprio ou case forte, a autoridade vem de
 
 **EXEMPLO verbatim de cena com objeto, gera "é exatamente isso" (corpusA (o especialista), nutrição):** *"aí Você levantou para fazer xixi, só que indo pro banheiro você passou na mesa da sala e tinha um chocolate aberto ali... aí você TACA a mão no chocolate, ó, Arrebenta a barra."*, específico demais pra não ser a vida da lead. Dor abstrata não dói; cena com som e objeto dói.
 
-**Princípio:** narra o cotidiano dele em 3ª (ou 2ª) pessoa. Quanto mais específico, mais o avatar pensa *"é exatamente isso"*. Funciona como o médico que dá o diagnóstico preciso: a pessoa se identifica de um jeito absurdo e passa a esperar a solução de você, porque só você parece entender o problema dela. **No método Soft, busque a cena no baú de voz do nicho, não invente dor de template.**
+**Princípio:** narra o cotidiano dele em 3ª (ou 2ª) pessoa. Quanto mais específico, mais o avatar pensa *"é exatamente isso"*. Funciona como o médico que dá o diagnóstico preciso: a pessoa se identifica de um jeito absurdo e passa a esperar a solução de você, porque só você parece entender o problema dela. **Neste método, busque a cena no baú de voz do nicho, não invente dor de template.**
 
 **Aciona Blair:** **justifica fracassos** + **confirma suspeitas**
 
@@ -507,7 +507,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 **A regra que muda tudo, prova prova o MÉTODO, não o gênio [UNIVERSAL]:**
 > Enfatize sempre "são casos de ALUNOS". Se a prova mostra só o quão bom VOCÊ é, o espectador conclui "funciona com ele, não comigo". Se a prova mostra dezenas de pessoas comuns aplicando, ele conclui "funciona na MINHA mão também". Isto é o que efetivamente vende. E **verbalize a objeção ANTES de provar** (corpusC: *"mas é você mesmo fazendo, você tá pensando isso. Eu quero saber se os seus alunos conseguem"* → 2 slides de casos de alunos com nome+cidade).
 
-> **Específico do método Soft:** a "carteira de trabalho" do avatar Soft NÃO é holerite CLT (isso é gramática GA pra avatar empregado). O avatar Soft é dono, prove por **espelho de NEGÓCIO**: extrato, agenda lotada, contrato assinado, cliente high-ticket falando do dono. Decalcar a prova por crachá erra de avatar.
+> **Específico deste método:** a "carteira de trabalho" do avatar deste método NÃO é holerite CLT (isso é gramática GA pra avatar empregado). O avatar Soft é dono, prove por **espelho de NEGÓCIO**: extrato, agenda lotada, contrato assinado, cliente high-ticket falando do dono. Decalcar a prova por crachá erra de avatar.
 
 **Prova como CONTEÚDO / estudo de caso [UNIVERSAL]:**
 > Não despeje depoimentos (todo mundo vai embora). Use o caso COMO conteúdo, no meio do ensino: "deixa eu te mostrar o caso da [pessoa parecida com o avatar] que tinha [exatamente a dor] e veja o que ela fez", o depoimento vira aula, sutil, e prende.
@@ -516,7 +516,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 > Máxima: "eu afirmei, eu provo." Nunca afirma e deixa pra provar depois. Prova na mesma hora (estudo, print, caso), constrói autoridade contínua em vez de "prometer prova".
 
 **Prova matemática [EXEMPLO, só pra avatar que fatura/B2B]:**
-> Quando o avatar é profissional/empresa, a aritmética do negócio prova sozinha (ex.: custo de execução x preço cobrado x volume = faturamento). **Não use com consumidor final.** Em Soft Business, a conta do negócio do usuário entra aqui como prova matemática, ver `frameworks-proprietarios.md`.
+> Quando o avatar é profissional/empresa, a aritmética do negócio prova sozinha (ex.: custo de execução x preço cobrado x volume = faturamento). **Não use com consumidor final.** Neste método, a conta do negócio do usuário entra aqui como prova matemática, ver `frameworks-proprietarios.md`.
 
 ### Bloco 3.5: Internal Belief (Brunson, Secret 2) (2-3 min) **[UNIVERSAL]**
 
@@ -860,7 +860,7 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 
 - **No perpétuo**, a gravação é única, não dá pra ajustar sem re-rodar. Por isso o workflow recomenda **validar ao vivo primeiro** (mecânica do perpétuo na soft-webinar).
 - **No ao vivo**, há flex no Q&A (perguntas reais) e dá pra ler nomes do chat em voz alta. As 5 plantadas continuam servindo de esqueleto. Comentários reais bons podem ser "eternizados" pra entrar nas sessões perpétuas.
-- **Slides** seguem padrão Soft Business, fundo branco ou preto absoluto, tipografia editorial, sem ícones coloridos. Dinâmica visual segura a atenção (slides aparecendo aos poucos, quebra de padrão, vir pertinho do vídeo, mudar o tom de voz nos pontos-chave). Use a skill `soft-conteudo` pro padrão visual cravado.
+- **Slides** seguem padrão visual do método, fundo branco ou preto absoluto, tipografia editorial, sem ícones coloridos. Dinâmica visual segura a atenção (slides aparecendo aos poucos, quebra de padrão, vir pertinho do vídeo, mudar o tom de voz nos pontos-chave). Use a skill `soft-designer` pro padrão visual cravado.
 - **Mantém ritmo.** Cada bloco tem um beat. Não desacelere nos blocos longos do Mecanismo; não corra nos curtos. E nunca corra no fechamento, ele é metade do webinar.
 
 ---

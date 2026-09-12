@@ -197,9 +197,9 @@ Dois eixos de teto convivem: **palavras** (governa quanto tempo o cérebro leva 
 - Emoji não entra em headline Soft, então nem conta.
 
 **A contagem muda com o ambiente (onde a skill roda):**
-- **App / chat (claude.ai, sem Bash):** conta mentalmente/à mão a frase que vai pra tela/capa/assunto antes de marcar o Critério 5. Na dúvida entre 2 headlines, prefere a que sobra folga no teto.
-- **Claude Code (tem Bash):** confere a contagem de fato. Palavras: `echo -n "a headline" | wc -w`. Caracteres com espaço: `echo -n "a headline" | wc -m`. Use isso nas headlines de formato com teto de caractere (texto na tela, capa, assunto de email, título de YouTube) em vez de estimar.
-- **Agente / Telegram (tem Bash, entrega em arquivo):** mesma contagem do Claude Code; o resultado é o arquivo `.md` com o path completo na resposta, e a checagem de teto roda antes de fechar o arquivo.
+- **Sem shell (só conversa):** conta mentalmente/à mão a frase que vai pra tela/capa/assunto antes de marcar o Critério 5. Na dúvida entre 2 headlines, prefere a que sobra folga no teto.
+- **Com shell (terminal):** confere a contagem de fato. Palavras: `echo -n "a headline" | wc -w`. Caracteres com espaço: `echo -n "a headline" | wc -m`. Use isso nas headlines de formato com teto de caractere (texto na tela, capa, assunto de email, título de YouTube) em vez de estimar.
+- **Agente de mensageria (tem shell, entrega em arquivo):** mesma contagem do caso acima; o resultado é o arquivo `.md` com o path completo na resposta, e a checagem de teto roda antes de fechar o arquivo.
 
 ### Headlines longas demais, fix
 

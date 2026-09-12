@@ -1,4 +1,4 @@
-"""Gera imagens pela conta ChatGPT do Codex, sem chave OpenAI paga.
+"""Gera imagens pelo gerador de imagem da CLI de IA disponivel no ambiente, sem chave paga.
 
 scenes.json (o agente escreve por vídeo):
 [
@@ -7,7 +7,7 @@ scenes.json (o agente escreve por vídeo):
 ]
 Uso: python3 01_gen_images.py scenes.json /pasta/saida_img
 """
-import os, sys, json, subprocess
+import os, sys, json, shlex, shutil, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
 import _config as C
 
@@ -52,9 +52,20 @@ def gen(scene):
         "Use your built-in image_gen tool to generate: " + frame(scene) + ". "
         "Save the result to " + raw + ". Do not write any python or HTML."
     )
+    # CLI de geracao de imagem: configuravel por ambiente. IMG_CLI e o binario,
+    # IMG_CLI_ARGS os argumentos antes da instrucao, IMG_CWD o diretorio de trabalho
+    # (default: a pasta de saida, sempre gravavel).
+    cli = os.environ.get("IMG_CLI", "codex")
+    cli_args = shlex.split(os.environ.get(
+        "IMG_CLI_ARGS", "exec --skip-git-repo-check --sandbox workspace-write"))
+    cwd = os.environ.get("IMG_CWD", OUTDIR)
+    if not shutil.which(cli):
+        print(f"FALHA: '{cli}' nao encontrado no PATH. Defina IMG_CLI com a CLI de imagem "
+              f"do ambiente, ou gere as imagens a mao com o prompt acima.")
+        return False
     run = subprocess.run(
-        ["codex", "exec", "--skip-git-repo-check", "--sandbox", "workspace-write", instruction],
-        cwd="/home/cloud", text=True, capture_output=True, timeout=900
+        [cli, *cli_args, instruction],
+        cwd=cwd, text=True, capture_output=True, timeout=900
     )
     if run.returncode != 0 or not os.path.exists(raw) or os.path.getsize(raw) == 0:
         print(f"FALHA: imagem {scene['id']} nao foi criada")

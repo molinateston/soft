@@ -7,7 +7,7 @@
 
 ## 9.1 · Tráfego é parte do funil, orgânico e pago
 
-O método Soft tem dois pilares, Posicionamento e Funil, e um motor, o Sócio IA. O **Funil (Pilar 2) é orgânico e pago**: o orgânico prova, o pago escala. Tráfego não é um acelerador que você liga "se sobrar", é parte do funil. A regra é simples: o orgânico testa, e o que passa no teste você **impulsiona**. A tendência é sempre turbinar o que converte, principalmente os carrosséis, que costumam puxar mais convicção. O que não se faz é ligar tráfego **antes** de a estrutura estar de pé e de o orgânico provar.
+Este método tem dois pilares, Posicionamento e Funil, e um motor, o Motor de IA. O **Funil (Pilar 2) é orgânico e pago**: o orgânico prova, o pago escala. Tráfego não é um acelerador que você liga "se sobrar", é parte do funil. A regra é simples: o orgânico testa, e o que passa no teste você **impulsiona**. A tendência é sempre turbinar o que converte, principalmente os carrosséis, que costumam puxar mais convicção. O que não se faz é ligar tráfego **antes** de a estrutura estar de pé e de o orgânico provar.
 
 A ordem importa, e é inegociável. Tráfego pago não conserta posicionamento fraco, não salva perfil confuso, não cria desejo onde a Carta não criou. Ele só faz uma coisa: pega o que já funciona em pequena escala e mostra pra mais gente. Se a peça já filtra e converte com público orgânico, tráfego multiplica o alcance dela. Se a peça não converte, tráfego multiplica o desperdício, você passa a pagar pra que mais gente veja algo que não vende.
 
@@ -33,7 +33,7 @@ E ela escala com o ticket:
 | R$5.000 | 11 meses |
 | R$10.000 | 22 meses |
 
-A leitura que importa: **o CAC fica irrelevante quando o ticket é coerente.** Quem vende ticket de entrada vive aflito com o custo de aquisição porque a margem é apertada. Quem vende ticket coerente com o método Soft, alto, com competência real por trás, descobre que uma única venda banca meses de tráfego. O cálculo de custo por lead vira ruído. O que sobra é o custo por venda fechada, e ele é baixo quando o ticket é certo.
+A leitura que importa: **o CAC fica irrelevante quando o ticket é coerente.** Quem vende ticket de entrada vive aflito com o custo de aquisição porque a margem é apertada. Quem vende ticket coerente com este método, alto, com competência real por trás, descobre que uma única venda banca meses de tráfego. O cálculo de custo por lead vira ruído. O que sobra é o custo por venda fechada, e ele é baixo quando o ticket é certo.
 
 ---
 
@@ -67,7 +67,7 @@ Tráfego ligado sobre estrutura incompleta queima caixa e não converte. Antes d
 
 ## 9.5 · Os 2 níveis de tráfego: Turbinar vs Gerenciador
 
-Tráfego no método Soft tem dois níveis, e a ordem entre eles é fixa. Você só sobe pro nível 2 depois que o nível 1 provou.
+Tráfego neste método tem dois níveis, e a ordem entre eles é fixa. Você só sobe pro nível 2 depois que o nível 1 provou.
 
 **Nível 1, Turbinar.** É o botão nativo do Instagram, usado em conteúdo que **já performou organicamente**. Investimento de **R$10 a R$30 por dia, por peça**. Não usa Gerenciador de Anúncios, não exige configuração complexa, não pede gestor de tráfego. A função é uma só: pegar a peça que o orgânico já validou e amplificar o alcance dela. É simples de propósito, o Especialista opera sozinho, sem terceirizar.
 

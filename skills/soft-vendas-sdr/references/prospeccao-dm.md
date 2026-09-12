@@ -137,7 +137,7 @@ Depois de passar pelos 4 elementos (ou até um ponto em que você entendeu o suf
 | **Mini Carta** | Padrão Soft. Serve pra qualquer nicho. Filtra por leitura. |
 | **Mini Webinar** | Alternativa em vídeo (10min em 12 blocos). Quando cliente prefere vídeo a texto, ou tem audiência em formato vídeo. |
 
-> **Funis complementares (skills separadas):** Landing Page (`soft-funil`) quando precisa página com VSL completa. Webinário (`soft-webinar`) quando precisa formato longo ao vivo ou perpétuo.
+> **Funis complementares (skills separadas):** Landing Page (`soft-funil-landing`) quando precisa página com VSL completa. Webinário (`soft-webinar`) quando precisa formato longo ao vivo ou perpétuo.
 
 **Modelo de entrega da DM:**
 
@@ -272,7 +272,7 @@ Te vejo daqui a pouco, [hora], [Nome].
 Quando o usuário pedir "me ajuda a prospectar" ou "bora mandar DM pra esse lead", a skill diagnostica antes de entregar a mensagem:
 
 1. **Cenário do lead**, frio / morno engajado / sinal ativo? Usa a abertura certa.
-2. **Pré-qualificador disponível**, qual Carta ou Mini Webinar você tem? Se não tem nenhum, avisa que precisa construir antes (e aponta pra `soft-funil`).
+2. **Pré-qualificador disponível**, qual Carta ou Mini Webinar você tem? Se não tem nenhum, avisa que precisa construir antes (e aponta pra `soft-funil-carta` ou `soft-funil-miniwebinar`).
 3. **Downsell necessário?**, se o lead deu sinais financeiros empacados, sugere downsell em vez de Carta principal.
 4. **Volume vs personalização**, se o usuário quer prospectar 50/dia, recomenda DM manual 1:1 mesmo (Soft não escala via Direct automático). Pra ticket alto, DM manual 1:1 é sempre o caminho.
 

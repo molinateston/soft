@@ -88,6 +88,8 @@ Zero em-dash · zero família travar/destravar · zero verbo genérico de transf
 | "gente pior faturando mais" / "você é bom demais" | sentimento-trope do avatar virou clichê do nicho; é insight interno, não headline |
 | "você tem permissão... desde que" | template pela casca; virou contrato, não a alforria que o molde promete |
 | soletrar "atenção, problema, solução e decisão" | mapa do autor; listar os componentes não cria cena |
+| "Empresa desorganizada não deveria contratar" | diagnóstico abstrato e modal brando; demora para entender e não provoca reação imediata |
+| "Dono que não sabe delegar não pode contratar" | explica demais a condição antes do ataque; no Reel curto, a leitura perde impacto |
 
 ## Calibradores completos (reprovada → aprovada)
 | Reprovada (o crime) | Aprovada |

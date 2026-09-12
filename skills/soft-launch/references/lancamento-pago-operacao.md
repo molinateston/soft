@@ -2,7 +2,7 @@
 
 A operação fina do lançamento pago, destilada de masterclasses de quem roda esse funil há anos (operação própria + coprodução de centenas de lançamentos). É o "como se faz na prática" que está por baixo dos formatos: gerar demanda, vender ingresso, encher a imersão, entregar o ouro, converter no pitch e medir tudo. Complementa `estrutura-evento.md` (formatos), `paginas-criativos-trafego.md` (página/criativo/tráfego), `pos-venda-ingresso.md`, `order-bumps-cac-zero.md` e `debriefing-e-integracao.md`, aqui está a costura entre eles e a sabedoria que decide cada escolha.
 
-> **Régua Soft:** este é doc de operação interna (CPA, lote, order bump, CAC são jargão de cozinha, nunca vazam pro cliente final). Pra especialista Soft, lançamento é **injeção pontual** (1-2/ano), nunca o sistema. Tom clínico: sem urgência fabricada, sem promessa grandiosa, sem incentivar dívida. Os números aqui são **benchmark de mercado**, não promessa.
+> **Régua do método:** este é doc de operação interna (CPA, lote, order bump, CAC são jargão de cozinha, nunca vazam pro cliente final). Pra especialista do método, lançamento é **injeção pontual** (1-2/ano), nunca o sistema. Tom clínico: sem urgência fabricada, sem promessa grandiosa, sem incentivar dívida. Os números aqui são **benchmark de mercado**, não promessa.
 
 ## 1. O que é (e quando NÃO fazer)
 
@@ -65,7 +65,7 @@ Comprar o ingresso não garante presença nem compra. O follow-up fecha essa fen
 - **Time comercial chama TODO ingresso** assim que compra: boas-vindas, explica como funciona, manda o link do grupo, fica à disposição. Cria relacionamento antes do pitch.
 - **Social selling com os mais qualificados:** o próprio especialista (ou perfil dele) conecta com os leads mais quentes ("vi que você comprou o ingresso, que massa"), força de autoridade.
 - **Na aula:** time comercial presente, interagindo, tirando dúvida no chat.
-- **O ganho real não é só comparecimento: é tirar a fricção.** Depois do pitch, a objeção "não sei se é pra mim, depois eu vejo" mata a venda. Um follow-up bem feito ("e aí, o que achou da oferta? lembrei de você, tem alguma dúvida?") chega leve, porque já existe intimidade, muito mais que um "oi, quer comprar?" do nada. (Sem dominância nem pressão, autoridade, não empurra; régua Soft.)
+- **O ganho real não é só comparecimento: é tirar a fricção.** Depois do pitch, a objeção "não sei se é pra mim, depois eu vejo" mata a venda. Um follow-up bem feito ("e aí, o que achou da oferta? lembrei de você, tem alguma dúvida?") chega leve, porque já existe intimidade, muito mais que um "oi, quer comprar?" do nada. (Sem dominância nem pressão, autoridade, não empurra; régua do método.)
 
 ## 9. A imersão: entregar o ouro
 
@@ -86,11 +86,11 @@ Comprar o ingresso não garante presença nem compra. O follow-up fecha essa fen
 
 ## 11. Debriefing (o número é a bússola)
 
-Depois, lê os números contra o **histórico** (não contra o mercado): comparecimento, conversão, conversão de grupo de super-interessados, CPL, ano a ano. Queda em todas com CPL subindo é o sinal de testar um funil novo. Acha o gargalo por etapa (ingresso → comparecimento → conversão → ticket médio), decide o ajuste do próximo, e, pra cliente Soft, **integra os leads/clientes de volta no sistema** (ver `debriefing-e-integracao.md`). Aprendizados recorrentes de mercado: não faça 4 aulas; escala o low-ticket de fronte; ticket ~R$47; faz virada de lote; não venda gravação se comparecimento importa; trial converte.
+Depois, lê os números contra o **histórico** (não contra o mercado): comparecimento, conversão, conversão de grupo de super-interessados, CPL, ano a ano. Queda em todas com CPL subindo é o sinal de testar um funil novo. Acha o gargalo por etapa (ingresso → comparecimento → conversão → ticket médio), decide o ajuste do próximo, e, pra cliente do método, **integra os leads/clientes de volta no sistema** (ver `debriefing-e-integracao.md`). Aprendizados recorrentes de mercado: não faça 4 aulas; escala o low-ticket de fronte; ticket ~R$47; faz virada de lote; não venda gravação se comparecimento importa; trial converte.
 
-## 12. O que mantém Soft (não-negociável)
+## 12. O que mantém o método (não-negociável)
 
 - **Tom clínico, sem evento épico.** Sem "vamos quebrar a internet". Mesmo registro das outras frentes.
 - **Sem urgência fabricada, sem incentivar dívida** (nada de "usa o limite do cartão"), **sem eufemismo manipulador.** Escassez só real (lotes que de fato viram, vagas que de fato acabam).
 - **Jargão é interno.** CPA, lote, order bump, CAC, CPL ficam na cozinha; o cliente final lê a linguagem do nicho dele.
-- **Pra especialista Soft:** injeção pontual (1-2/ano), integração obrigatória pós-evento, nunca vira "agora prepara o próximo". O sistema constante é o caminho principal; o lançamento é o pico.
+- **Pra especialista do método:** injeção pontual (1-2/ano), integração obrigatória pós-evento, nunca vira "agora prepara o próximo". O sistema constante é o caminho principal; o lançamento é o pico.

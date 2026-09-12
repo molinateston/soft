@@ -199,7 +199,7 @@ Sempre aberto exige:
 - Bastidor de clientes ativos
 - Posts de educação que naturalmente puxam pra oferta
 
-A skill `soft-conteudo` (Fase 2) consome esse calendário pra calibrar produção.
+A skill `soft-conteudo-planner` (Fase 2) consome esse calendário pra calibrar produção.
 
 ---
 

@@ -42,7 +42,7 @@ Todo lead que chega (do Reel, do tráfego, da indicação) **vaza na entrada**. 
 | Posicionamento Incomum acabou de ficar pronto | Ativar modo-perfil **antes** de qualquer peça atração pública |
 | Perfil existe mas não converte (alta visita / baixo follow) | Ativar modo-perfil, Bio ou Destaques estão fracos |
 | Especialista mudou de oferta principal | Ativar modo-perfil, alinhar comunicação com nova oferta |
-| Cliente novo migrando pro método Soft | Ativar modo-perfil **depois** do Posicionamento (não antes) |
+| Cliente novo migrando pra este método | Ativar modo-perfil **depois** do Posicionamento (não antes) |
 
 ### Quando NÃO ativar
 
@@ -278,7 +278,7 @@ Usa resultado próprio, antes/depois da criação do método, prints de validaç
 
 ### 3.4. Perfil LinkedIn (quando o especialista também vive no LinkedIn)
 
-As seções 3.1 a 3.3 são de Instagram (Nome SEO, Bio, Destaques). Quando o especialista atua no LinkedIn (comum em B2B, consultoria, jurídico, engenharia), o perfil de lá tem outra anatomia: **Headline · Sobre · Experiência · Seção em Destaque**. Mesmo método Soft por cima (o "sem" obrigatório, o mecanismo nomeado, o Crivo), só muda a estrutura dos campos. Puxa tudo do Posicionamento igual à Bio.
+As seções 3.1 a 3.3 são de Instagram (Nome SEO, Bio, Destaques). Quando o especialista atua no LinkedIn (comum em B2B, consultoria, jurídico, engenharia), o perfil de lá tem outra anatomia: **Headline · Sobre · Experiência · Seção em Destaque**. Mesmo método por cima (o "sem" obrigatório, o mecanismo nomeado, o Crivo), só muda a estrutura dos campos. Puxa tudo do Posicionamento igual à Bio.
 
 > **Quando NÃO fazer:** se o especialista não usa LinkedIn, pula. Não force presença onde o avatar dele não está.
 
@@ -439,14 +439,14 @@ O cálculo é **determinístico** (os mesmos números dão sempre o mesmo score)
 
 #### Os 3 ambientes (como rodar)
 
-- **App / chat (sem Bash):** você NÃO tem o script. Pega os números do perfil (seguidores, seguindo, curtidas e comentários dos últimos posts), **calcula na mão pela tabela acima** (aplica os 4 indicadores, soma, capeia em 100, lê o veredicto) e entrega o resultado no doc: score + veredicto + o porquê de cada indicador que pontuou.
-- **Claude Code (tem Bash):** roda o script pronto e cola a saída JSON no doc.
+- **Ambiente sem shell:** você NÃO tem o script. Pega os números do perfil (seguidores, seguindo, curtidas e comentários dos últimos posts), **calcula na mão pela tabela acima** (aplica os 4 indicadores, soma, capeia em 100, lê o veredicto) e entrega o resultado no doc: score + veredicto + o porquê de cada indicador que pontuou.
+- **Ambiente com shell:** roda o script pronto e cola a saída JSON no doc.
   ```
   python3 scripts/score_perfil.py --seguidores 245000 --seguindo 890 \
       --likes 3200,4100,2800,3600,5200,2900,3800,4400,3100,3700,2600,4000 \
       --comments 45,60,38,52,71,40,58,66,42,55,36,61
   ```
-- **Agente / Telegram (tem Bash):** roda o mesmo script, mas a ENTREGA é um **arquivo** (salva a saída num `.md`/`.json` e devolve o **path completo** na resposta) e a mensagem de volta vem **sem markdown pesado**, o score e o veredicto em texto limpo.
+- **Agente / Telegram (tem shell):** roda o mesmo script, mas a ENTREGA é um **arquivo** (salva a saída num `.md`/`.json` e devolve o **path completo** na resposta) e a mensagem de volta vem **sem markdown pesado**, o score e o veredicto em texto limpo.
 
 O que o script devolve: `score_autenticidade` (0-100), `veredicto` e `indicadores_detalhados` (cada cálculo, pra você explicar por que o perfil pontuou). Self-test em `python3 scripts/score_perfil.py --self-test`.
 

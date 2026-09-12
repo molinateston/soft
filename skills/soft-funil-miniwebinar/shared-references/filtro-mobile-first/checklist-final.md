@@ -2,7 +2,7 @@
 
 Verificação obrigatória antes de publicar qualquer peça visual.
 
-Esse é o teste de qualidade do método Soft Business. Sem ele, não vai pro ar.
+Esse é o teste de qualidade do este método. Sem ele, não vai pro ar.
 
 ---
 

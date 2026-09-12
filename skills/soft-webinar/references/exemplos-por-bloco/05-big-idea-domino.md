@@ -9,7 +9,7 @@
 - O que este bloco precisa fazer (síntese das premissas)
 - Exemplo por exemplo
 - Padrões transversais (o que TODOS fazem neste bloco - vira checklist)
-- Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+- Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 - Webinars sem este bloco (e por quê - também é dado)
 
 ---
@@ -293,7 +293,7 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 
 ---
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Declarar a tese a frio.** Nenhum campeão solta a crença antes de ensaiar o desejo e instalar o problema - big idea sem future pacing prévio é slogan no vácuo.
 - **Culpar o avatar.** Nenhum dominó exige que o lead admita preguiça ou burrice para aceitar a crença (o "tough love" do Fladlien existe, mas na transição, depois dos cases - nunca aqui).
@@ -302,7 +302,7 @@ O conceito-âncora "inevitable success" (vem de um aluno):
 - **Inversão contraintuitiva sem lastro.** Contradizer o senso comum ("o close é o menos importante") só funciona acoplado a um número que paga o direito de contradizer (US$100M); sem isso é arrogância.
 - **Janela sem número.** "Essa é uma grande oportunidade" genérico não aparece em nenhum campeão - todos quantificam (80% das empresas, 148x, nem 10%).
 - **Vender o veículo pelo atributo técnico.** Nenhum campeão vende a ferramenta em si - GA não vende Scrum, vende posição de mercado; o webinar C não vende resina, vende liberdade ("resina é meio"); Fladlien não vende webinar, vende sistema-à-prova-de-pessoa. Defender feature aqui mata o dominó.
-- **Específico do método Soft (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da GA; "adesão/dieta burra" é do MDI; "111" é do Fladlien); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
+- **Específico deste método (G2 + voz):** decalcar a frase-mantra de outro nicho em vez de extrair a premissa; atribuir ao especialista mecanismo que tem dono ("visão de floresta" é da GA; "adesão/dieta burra" é do MDI; "111" é do Fladlien); impor termo que o especialista não usa - a frase-dominó do Webinar Soft tem que sair do vocabulário do próprio especialista, validada com ele (decisão metodológica é dele).
 
 ---
 

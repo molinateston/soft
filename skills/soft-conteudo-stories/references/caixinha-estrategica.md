@@ -78,10 +78,12 @@ Depende de execução, não de sorte.
 ```
 
 **"Funciona pra quem tem poucos seguidores?"**
+
+Não caia no clichê "qualidade vence quantidade". Ancore num número real do seu caso. Estrutura: `[tamanho pequeno real] + [resultado concreto que saiu dali]`.
 ```
 Sim.
-Importa qualidade, não quantidade.
-1.000 certos > 10.000 errados.
+[Nome] tinha 800 seguidores e fechou 3 contratos no primeiro mês.
+Quem compra é quem tem a dor, não quem tem número redondo de seguidor.
 ```
 
 **"Tem garantia?"**
@@ -92,10 +94,12 @@ Resultado depende da sua execução.
 ```
 
 **"Isso realmente funciona?"**
+
+Não responda com frase de efeito ("funciona pra quem aplica"). Responda com o mecanismo: o que muda na rotina do cliente quando ele resolve a dor. Estrutura: `[a dor específica de hoje] → [a mudança concreta depois]`.
 ```
-Funciona pra quem aplica.
-Não funciona pra quem só assiste.
-Escolha seu lado.
+Você faz 8 reuniões pra fechar 1.
+Depois de organizar a oferta, [nome do cliente] passou a fechar na 2ª.
+O que mudou foi o filtro antes da call, não o discurso.
 ```
 
 **"Pode me explicar tudo de graça?"**
@@ -109,7 +113,7 @@ Quer entender? Contrata.
 
 ## 6. Banco de perguntas plantáveis por categoria de nicho
 
-Use como base, adapte o vocabulário ao nicho do especialista (ver `adaptacao-semantica.md`).
+Use como base, adapte o vocabulário ao nicho do especialista (ver `shared-references/adaptacao-semantica.md`).
 
 **Serviços/Consultoria:** Como cobrar alto sem perder cliente? Por que cliente sempre questiona preço? Funciona pra iniciante? Precisa aparecer em vídeo? Precisa postar todo dia?
 

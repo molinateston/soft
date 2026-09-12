@@ -1,4 +1,4 @@
-# Estrutura-mae · a espinha de toda peca Soft
+# Estrutura-mae · a espinha de toda peca
 
 Copy nao convence. Reorganiza percepcao. O leitor chega sozinho na conclusao, e a venda vira consequencia.
 
@@ -71,5 +71,5 @@ Estrutura-mae + Anti-IA + Verbatim, roda estes 13:
     comenta conforme o conteudo despertou)
 
 Se 1 dos 13 falha, marca no output do gate como falha
-especifica. Fonte completa: soft-conteudo/references/
+especifica. Fonte completa: as references das skills de conteudo.
 _metodo-carrossel.md (secao "5 REGRAS DE OURO").

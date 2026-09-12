@@ -1,8 +1,14 @@
 #!/bin/bash
 # Render resiliente em 3 blocos + concat. Idempotente: pula bloco ja pronto.
 set -e
-cd /home/cloud/trabalho/editor/IMG_4133/work/teste_3_skills/video-director
-OUT=/home/cloud/trabalho/editor/IMG_4133/final_topofixo
+# PROJETO: pasta do projeto Remotion (a copia deste template na pasta de trabalho do video).
+#          Default: o diretorio deste script.
+# OUT:     pasta de saida dos blocos e do filme final. Default: PROJETO/out.
+PROJETO="${PROJETO:-$(cd "$(dirname "$0")" && pwd)}"
+OUT="${OUT:-$PROJETO/out}"
+cd "$PROJETO"
+mkdir -p "$OUT"
+
 BIN=node_modules/.bin/remotion
 render_bloco () {
   local nome=$1 ini=$2 fim=$3

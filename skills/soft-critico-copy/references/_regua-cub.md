@@ -1,4 +1,4 @@
-# Regua CUB · destilacao Halbert + Sabri + Harry Dry aplicada no metodo Soft
+# Regua CUB · destilacao Halbert + Sabri + Harry Dry aplicada neste metodo
 
 Toda copy morre por um destes 3 motivos. Nao tem 4o.
 

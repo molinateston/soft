@@ -13,7 +13,7 @@ Headers:   Authorization: Bearer {{GHL_API_KEY}}
 
 `{{GHL_API_KEY}}` = o Private Integration Token da location (ver `setup-conexao.md`). `{{GHL_LOCATION_ID}}` = o ID da sub-conta. Ambos vêm do `.env` do projeto. **O SDR NUNCA ecoa esses valores em nenhuma mensagem.**
 
-O agente faz as chamadas via `Bash` (`curl`). Todo `curl` abaixo é modelo; o SDR adapta os valores.
+O agente faz as chamadas pelo shell (`curl`). Todo `curl` abaixo é modelo; o SDR adapta os valores.
 
 ## 1. Contatos
 

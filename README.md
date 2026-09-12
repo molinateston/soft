@@ -1,6 +1,6 @@
-# Soft Skills — plugin do método Soft Business
+# Soft Skills — o plugin do Sócio IA LEON
 
-Plugin com as habilidades do método **Soft Business**: o Sócio IA **LEON** + posicionamento, conteúdo, funil, vendas, webinário, lançamento e treino. Instale **uma vez** e receba as atualizações **automaticamente**.
+Plugin com o Sócio IA **LEON** + posicionamento, conteúdo, funil, vendas, webinário, lançamento e treino. Instale **uma vez** e receba as atualizações **automaticamente**.
 
 ## Como instalar (no Claude Code)
 Abra o **Claude Code**, cole as duas linhas abaixo — **uma de cada vez** — e aperte Enter:
@@ -19,34 +19,58 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 📖 Guia ilustrado passo a passo: https://leonardomolina.com.br/softskills
 
 ## O que vem
-- `soft-leon`
-- `soft-plano-negocio`
-- `soft-plano-posicionamento`
-- `soft-plano-ofertas`
-- `soft-financeiro`
-- `soft-vendas-contratos`
-- `soft-conteudo-planner`
-- `soft-conteudo-headlines`
+- `soft-apostila`
+- `soft-apresentacao`
+- `soft-atendimento-reclamacao`
+- `soft-atendimento-triagem`
+- `soft-consultoria-instagram`
 - `soft-conteudo-carrossel`
+- `soft-conteudo-headlines`
+- `soft-conteudo-multiplataforma`
+- `soft-conteudo-planner`
 - `soft-conteudo-reels`
 - `soft-conteudo-stories`
-- `soft-conteudo-multiplataforma`
+- `soft-criativo-campeao`
+- `soft-critico-copy`
 - `soft-designer`
 - `soft-editor-video`
-- `soft-reel-7seg`
-- `soft-trafego-meta`
-- `soft-apostila`
+- `soft-email-sequencia`
+- `soft-exportar-documentos`
+- `soft-financeiro`
 - `soft-funil-carta`
-- `soft-funil-miniwebinar`
-- `soft-funil-landing`
 - `soft-funil-isca`
-- `soft-webinar`
+- `soft-funil-landing`
+- `soft-funil-lowticket`
+- `soft-funil-miniwebinar`
+- `soft-funil-nutricao`
+- `soft-funil-quiz`
+- `soft-funil-recorrencia`
+- `soft-funil-recuperacao`
+- `soft-funil-upsell`
+- `soft-funil-vsl`
+- `soft-gestao-agil`
+- `soft-google-docs`
 - `soft-launch`
-- `soft-vendas-estrategias`
-- `soft-vendas-sdr`
-- `soft-vendas-closer`
-- `soft-vendas-proposta`
-- `soft-treino-dieta`
+- `soft-leon`
+- `soft-negocio-metricas`
+- `soft-organizacao-vps`
+- `soft-plano-negocio`
+- `soft-plano-ofertas`
+- `soft-plano-posicionamento`
+- `soft-reel-7seg`
+- `soft-sdr-kit`
+- `soft-seo-auditoria`
 - `soft-sistema`
+- `soft-trafego-meta`
+- `soft-treino-dieta`
+- `soft-tweet-card`
+- `soft-vendas-call-prep`
+- `soft-vendas-closer`
+- `soft-vendas-contratos`
+- `soft-vendas-estrategias`
+- `soft-vendas-outreach`
+- `soft-vendas-proposta`
+- `soft-vendas-sdr`
+- `soft-webinar`
 
 > Cada `git push` neste repositório atualiza o plugin para todos os clientes com "Sincronizar automaticamente" ligado.

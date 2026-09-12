@@ -30,7 +30,7 @@ Roda o gate no slide/bloco (ou no arco, quando entregar a aula inteira) **intern
 | **Anti-IA (HARD)** | zero travessão · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura · sem verbo-clichê. **No chat (sem o lint), CTRL+F manual do travessão longo e da família "travar" antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
 
-No Claude Code, roda `python3 scripts/lint_copy.py arquivo.txt` na fala+tela como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual. Se condensar o texto de tela (que é uma leitura NOVA do lead), re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` antes de exportar. Para auditar um webinar JÁ pronto do cliente (Modo B), usa `references/analise-webinario-existente.md` (compara bloco a bloco contra o gabarito, amarra cada vazamento à premissa violada).
+Se o ambiente tiver shell, roda `python3 scripts/lint_copy.py arquivo.txt` na fala+tela como cinto extra do anti-IA (reprova em-dash e "travar"). Sem shell não roda, por isso o CTRL+F manual. Se condensar o texto de tela (que é uma leitura NOVA do lead), re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` antes de exportar. Para auditar um webinar JÁ pronto do cliente (Modo B), usa `references/analise-webinario-existente.md` (compara bloco a bloco contra o gabarito, amarra cada vazamento à premissa violada).
 
 ## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |

@@ -38,16 +38,16 @@ Se o usuário deu só 2 ou 3, não pede os outros um por um, junta numa pergunta
 
 ## 2. Mapa de canal (o canal é do FUNIL, não do ticket)
 
-**O padrão do 1:1 é a DM/WhatsApp**, em qualquer ticket: fecha no chat com áudio, doc e vídeo curto (o modo `dm-sem-call`). A call, a reunião e o SDR são **exceções de contexto**, não degraus automáticos do preço. A tabela abaixo é isso: o default e as exceções que o justificam.
+**A régua de canal é a do SKILL.md e manda aqui: até R$ 3.000 o fechamento acontece na própria conversa (DM ou WhatsApp, com áudio, doc e vídeo curto, o modo `dm-sem-call`); acima de R$ 3.000 a conversa qualifica e agenda a call 1:1, e o fechamento acontece na call.** A call também entra abaixo do limiar quando o lead pede a condução ao vivo, quando a decisão é a vários ou quando o caso é complexo. A tabela abaixo detalha cada canal dentro dessa régua.
 
 | Canal | Quando (é o gatilho, não só o ticket) | Ritmo |
 |---|---|---|
-| **DM/WhatsApp (DEFAULT)** | a regra em qualquer ticket; o lead veio quente da carta/jogada/prospecção e quer resolver | 1 mensagem por fase, áudio pra autoridade, doc/vídeo curto na oferta (ver `dm-sem-call`) |
-| **WhatsApp + Call** (exceção) | o lead PEDE a condução ao vivo, ou empaca no chat e você lê que uma ligação resolve | Texto pré-qualifica (F1-F3), ligação fecha (F4-F7) |
-| **Reunião Soft** (exceção) | caso complexo (B2B, decisão a vários), ticket muito alto com perfil que quer olho no olho | Video 40-60min, blocos: Entenda 20' → Conecte 5' → Apresente 15' → Feche 10' |
+| **DM/WhatsApp (fecha aqui)** | ticket **até R$ 3.000**; o lead veio quente da carta/jogada/prospecção e quer resolver | 1 mensagem por fase, áudio pra autoridade, doc/vídeo curto na oferta (ver `dm-sem-call`) |
+| **WhatsApp + Call** | ticket **acima de R$ 3.000** (a regra acima do limiar); ou, abaixo dele, quando o lead PEDE a condução ao vivo ou empaca no chat | Texto pré-qualifica (F1-F3), ligação fecha (F4-F7) |
+| **Reunião** | caso complexo (B2B, decisão a vários), ticket alto com perfil que quer olho no olho | Video 40-60min, blocos: Entenda 20' → Conecte 5' → Apresente 15' → Feche 10' |
 | **Reunião com SDR** (só com equipe+volume) | há **time** (SDR+Closer) e **volume** que justifique a divisão de papéis | SDR pré-qualifica 10-15min antes. Especialista só recebe lead pronto. |
 
-Se o usuário pediu um canal, **entrega o script no canal que ele pediu**. Se ele pediu call/reunião sem um dos gatilhos de exceção acima, avisa em 1 linha: *"O padrão do 1:1 é fechar na DM/WhatsApp com áudio/doc/vídeo; a call vale se o lead pedir ou o caso for complexo. Quer os dois caminhos?"*
+Se o usuário pediu um canal, **entrega o script no canal que ele pediu**. Se o canal pedido contraria a régua (call num ticket de R$ 900, ou chat puro num ticket de R$ 12.000), avisa em 1 linha qual é a régua e entrega mesmo assim o que ele pediu: *"Nesse ticket a régua fecha no [canal]; te entrego no canal que você pediu, e se quiser te mostro os dois caminhos."*
 
 ---
 
@@ -212,10 +212,10 @@ Se ele citar <2 elementos, reforça o que ficou faltando.
 É o mesmo princípio do churrasco: *"não vai esquecer a picanha, né?"* se fala ANTES, não quando a picanha já faltou. Antecipada, a objeção morre pequena; no fim, ela mata a venda.
 
 **Pergunta-âncora de isolamento (antes do preço):**
-> *"Antes de eu te passar o investimento: deixa eu confirmar uma coisa. Se a gente conseguir resolver [as dores que ele descreveu] no prazo de [X semanas], com [formato apresentado], e o investimento fizer sentido pra você, faz sentido a gente trabalhar junto?"*
+> *"Antes de eu te passar o investimento: deixa eu confirmar uma coisa. Se a gente resolver [as dores que ele descreveu] no prazo de [X semanas], com [formato apresentado], e o investimento couber, a gente começa?"*
 
 **Mapa de respostas:**
-- **"Sim, faz sentido"** → quando vier qualquer objeção depois (preço, timing, sócio), é **objeção real**. Você sabe que o método e o ajuste tão bons. Resolve a objeção pontual.
+- **"Sim, a gente começa"** → quando vier qualquer objeção depois (preço, timing, sócio), é **objeção real**. Você sabe que o método e o ajuste tão bons. Resolve a objeção pontual.
 - **"Hmm, não sei se..."** → o lead tá te dizendo que algo no método ou no formato não bateu. **Volta pra Conexão (Fase 4) antes de seguir.** Tentar fechar aqui é forçar.
 
 **Pergunta de isolamento alternativa (mais direta):**
@@ -311,21 +311,21 @@ Depois de coletar os 4 inputs, entrega nesta ordem:
 
 ## 6. Variações por formato
 
-### DM/WhatsApp (o DEFAULT, qualquer ticket)
+### DM/WhatsApp (fechamento até R$ 3.000)
 - Cada fase = 1 mensagem.
 - Frases curtas.
 - Zero "Espero que esteja bem". Comando educado.
 - F2 fica mais curta (2–3 perguntas máx, não 6).
-- F5 é enxuta: entrega principal + suporte + faz sentido?
-- **High-ticket também fecha aqui:** áudio pra autoridade, doc/vídeo curto na oferta (o modo `dm-sem-call`). Não sobe pra call por causa do preço; sobe só pelos gatilhos de exceção (o lead pede, caso complexo).
+- F5 é enxuta: entrega principal + suporte + a afirmação com convicção (*"isso resolve o que você me falou"*), nunca a pergunta de validação.
+- **Acima de R$ 3.000 não fecha aqui:** o chat qualifica e agenda, o fechamento vai pra call. Abaixo do limiar, o áudio pra autoridade e o doc/vídeo curto na oferta resolvem sem call (o modo `dm-sem-call`).
 
-### WhatsApp + Call (exceção: o lead pede ou empaca no chat)
+### WhatsApp + Call (acima de R$ 3.000; ou o lead pede/empaca no chat)
 - WhatsApp cobre F1–F3 (pré-qualificação + termômetro).
-- Passagem pra call: *"[Nome], faz sentido a gente conversar 20min pra eu te mostrar como isso se aplica no seu caso? Tenho [horário] e [horário]. Qual funciona?"*
+- Passagem pra call: *"[Nome], me dá 20min pra eu te mostrar como isso se aplica no seu caso. Tenho [horário] e [horário]. Qual funciona?"*
 - Call abre com **acordo de sinceridade** (qualificação por dor com acordo prévio): *"[Nome], antes de começar, se não fizer sentido, me fala direto, sem problema. Se fizer sentido e couber no orçamento, a ideia é resolver hoje. Combinado?"*
 - F4–F7 na call.
 
-### Reunião Soft (exceção: caso complexo ou ticket muito alto que pede olho no olho)
+### Reunião (caso complexo ou ticket alto que pede olho no olho)
 - Video 40–60min.
 - Blocos cronometrados: Entenda 20' / Conecte 5' / Apresente 15' / Feche 10'.
 - Sem slides. Sem roteiro fixo lido. Tom conversacional.

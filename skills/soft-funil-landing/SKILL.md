@@ -1,180 +1,369 @@
 ---
 name: soft-funil-landing
-description: "Constrói QUALQUER tipo de landing do método Soft, do hero ao botão, pelo OBJETIVO do funil: captura (squeeze/opt-in), entrega de isca, qualificação (application), vendas, obrigado, replay, waitlist, link-in-bio, pricing, comparação, quiz, OTO, 404. Pra venda no texto, decide a arquitetura por ticket/produto/temperatura (VSL/Híbrida/Autoridade/Problema-Solução). Escreve bloco a bloco com Attention Ratio 1:1 (um objetivo, um CTA; exceção 404/link-in-bio/comparação), fricção casada com a temperatura, gate inline (prova depois da promessa · mobile-first · mecânica-assinatura · anti-IA HARD). Use pra \"landing\", \"página de captura/vendas/obrigado\", \"squeeze\", \"aplicação\", \"pricing\", \"OTO\", \"hero\". NÃO use pro feed/headline/texto longo (soft-conteudo-*), carta/VSL em texto (soft-funil-carta), ATIVO da isca (soft-funil-isca), mini-webinar (soft-funil-miniwebinar), PÁGINAS DE WEBINAR (soft-webinar), posicionamento (soft-posicionamento), arte (soft-designer), venda (soft-vendas-*), webinário (soft-webinar)."
+description: >-
+  Escreve QUALQUER tipo de landing page bloco a bloco, do hero ao botão, escolhida pelo objetivo do funil: captura, entrega de isca, qualificação, vendas no texto, obrigado, replay, fila de espera, link na bio, preços, comparação, quiz, oferta pós-compra, 404. Use quando o pedido for: "faz a landing", "página de captura", "página de vendas", "página de obrigado", "squeeze", "página de aplicação", "página de preços", "link na bio", "escreve o hero", "a página do meu produto", "página de replay". NÃO use pra: auditar o SEO de uma página que já está no ar, palavra-chave, título de busca (soft-seo-auditoria); a régua pós-isca (soft-funil-nutricao); as páginas do lançamento com carrinho (soft-launch); carrossel, reel e headline solta (soft-conteudo-*); a carta ou VSL em texto corrido (soft-funil-carta); o ATIVO da isca (soft-funil-isca); as páginas do webinar (soft-webinar); página do mini-webinar (soft-funil-miniwebinar); arte (soft-designer). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Landing page, a decisão inevitável pro cliente certo
 
-A página não convence. Ela organiza o argumento pra que o cliente certo chegue ao botão pensando "seria idiota não entrar agora". O cliente errado abandona antes do botão, e isso é sucesso. Página que convence todo mundo não converte ninguém. Página que filtra na entrada converte os certos no fundo.
+A página não convence. Ela organiza o argumento pra que o cliente certo chegue ao botão pensando "seria burrice não entrar agora". O cliente errado abandona antes do botão, e isso é sucesso. Página que convence todo mundo não converte ninguém.
 
-**O que esta skill faz por você:** escreve QUALQUER tipo de landing, do hero ao botão. Captura (squeeze/opt-in), entrega de isca, qualificação de lead caro, registro de evento, obrigado/avanço, replay, OTO/upsell, link-in-bio, pricing, waitlist, comparação, casca de quiz, 404, e a página que VENDE no texto (as 4 arquiteturas). Escolhe o tipo pelo OBJETIVO da página e monta a receita de blocos dele.
+**O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem os arquivos da ação MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0. A última linha dessa saída vai colada no relato ou no handoff. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência (checagem-titulos.md, titulos.txt, teses.txt, nomes.txt, conferir.txt) mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. Sem isso, não diga "pronto": diga o que falta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela**, e o comando colado no relato é literalmente o comando desta linha: o script imprime `insumos resolvido: <caminho>` e reprova a forma quando o perfil mora fora da pasta de insumos. O passo a passo da régua está em `shared-references/crivo/07-regua-de-titulos.md`. Esta skill é a pasta instalada que contém este arquivo e a subpasta `scripts/` (confira com `ls scripts/checar_titulos.py` a partir dela); se você leu este arquivo de um plugin, cache ou cópia sem `scripts/`, pare e abra a pasta instalada.
 
-**A lei-mãe de toda landing:** Attention Ratio 1:1, um objetivo, um CTA dominante, zero menu, salvo 3 exceções deliberadas (404, link-in-bio, comparação).
+**Cada item da oferta é conferido contra o que a operação entrega hoje.** Rode `grep -rniE '<cada item da lista de inclusos>' <insumos>` e cole a saída. Item que aparecer numa reclamação, numa cobrança ou num registro de falha entra no handoff com `prometido na peça e em falha na operação: <item> · <arquivo:linha>`, pro dono decidir antes de publicar. A peça que promete o bônus que o cliente atual não está recebendo escreve a próxima reclamação.
 
-**As 6 leis (valem antes de tudo):** (1) nunca escreve como se o cliente já soubesse o contexto, zero palavra difícil, cria o contexto antes da afirmação; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto de você antes de gerar; (4) contexto é rei; (5) admite se faltar insumo, nunca inventa: confere número, case e depoimento; se falta, admite e pergunta ou marca `[A CONFIRMAR]`, jamais preenche com plausível; (6) doc de output enxuto pros 2 leitores: o `.md` que você entrega é o mais otimizado pro humano E pra IA, zero meta-narração, zero bastidor, só insumo denso mais `[A CONFIRMAR]` onde falta. (Detalhe em `shared-references/operacao-padrao.md`, Seção 0.)
+**Exit diferente de 0 não é entrega, mesmo com o relato honesto.** As linhas que o script imprime dizem o que corrigir, e corrigir uma linha de contagem custa menos que entregar uma peça reprovada. Depois de corrigir, rode de novo e cole a saída nova.
 
-**Este SKILL.md é o processo inteiro. Siga os passos na ordem, pare nos checkpoints, e rode o gate antes de mostrar qualquer bloco.**
+**A lei-mãe:** um objetivo, um botão dominante, zero menu de navegação. As três exceções deliberadas são 404, link na bio e página de comparação.
 
-## Output Contract (o que você entrega)
-- A página **bloco a bloco**, **uma etapa por vez**: tipo + framework declarados → outline aprovado → blocos escritos em sequência. O gate roda **por dentro** (auditoria silenciosa); a tabela NÃO vai pra saída.
-- A saída **declara o TIPO de página e o framework de copy** usados (1 linha no topo do entregável, não meta-narração, é insumo pro humano E pra IA).
-- **UMA promessa** e **UM CTA dominante** na página inteira (regra do ramo de venda). Toda repetição de botão aponta pro mesmo destino. Tipos-hub (link-in-bio) têm CTAs hierarquizados: aí o contrato vira **UMA intenção primária dominante, os demais subordinados visualmente**.
-- Marca onde fica cada botão de CTA (destino explícito: WhatsApp, checkout, formulário) e onde entram prova/print real.
-- Você **para e espera o OK** depois da arquitetura, depois do outline, e a cada bloco entregue. Não despeja a página inteira de uma vez.
-- Você **nunca inventa fala, número, nem depoimento do cliente** e **nunca mostra bloco que falhou no gate**.
+**Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra as ações num caso fictício de nicho neutro: o briefing respondido, o tipo declarado, uma página de captura escrita por inteiro (os 5 blocos, prontos pra colar), um bloco de página de vendas e o que o gate reprovou.
 
-## Passo 0, ancora antes de escrever (NÃO PULE)
-Procura a fonte de fala real do cliente, nesta ordem: **descrição do projeto** → **Plano colado na conversa** → **mensagens anteriores**. Puxa **3-5 falas de DOR + 3-5 de DESEJO** do tema, literais, contando o N (quantas vezes apareceu). O hero e a prova nascem de uma delas, quase intactas.
+## A condução: a skill te ajuda a fazer, não só te entrega
 
-Três estados de entrada (declara qual é o seu antes de escrever):
-- **Tem fala real (com N):** ancora nela, cita o N. Caminho ideal.
-- **Tem nicho/fundação mas ZERO fala literal:** NÃO inventa fala nem N. Cada bloco ancora em **prova real do autor** (resultado, case, mecanismo); número não confirmado entra como `[DADO: confirmar]` e NÃO conta como Ancorada=✓. Avisa: minerar 5-8 falas reais (ou rodar o Plano na soft-posicionamento) deixa a página muito mais cravada.
-- **Sem nicho e sem nada:** pergunta numa única mensagem (briefing abaixo) e segue daí.
+Esta skill é um agente que conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:
 
-## Passo 1, briefing mínimo (pergunta só o que falta)
-**Insumo-raiz, conferido PRIMEIRO, antes de tudo:** o **OBJETIVO/estágio do funil**, o que essa página precisa fazer AGORA. Pegar e-mail · entregar isca · qualificar lead caro · aquecer (sem vender) · vender no texto · registrar em evento · confirmar+avançar · recuperar quem sumiu · juntar fila · mostrar planos · aumentar ticket pós-compra · centralizar social. Sem esse insumo não há tipo de página, então é o primeiro a confirmar. Se não veio, pergunta antes de qualquer outra coisa.
+**Pergunta o modo, uma vez, logo na primeira mensagem, nesta linha:**
 
-Depois confirma o resto: **produto** (nome, formato, o que entrega) · **ticket** (valor exato ou faixa) · **cliente ideal** (quem é, o que já tentou, a dor de 3ª camada) · **método nomeado** (nome próprio + 3-4 etapas) · **prova real** (cases com nome + número + prazo) · **temperatura do tráfego** (frio / morno / quente) · **destino do botão**. Se faltar algo crítico, pergunta numa mensagem só. Não chuta.
+> Nesta peça eu já faço no modo direto (você cola tudo que tem sobre a oferta e o público e eu escrevo a página). Se quiser ser guiado passo a passo (te pergunto o que preciso, uma coisa de cada vez) em vez disso, é só pedir.
 
-## Passo 2, Seletor por Objetivo (uma linha, sem pergunta)
-Pega o OBJETIVO confirmado no Passo 1 e declara, em 1 linha, o TIPO de página e o framework de copy raiz: *"Objetivo X → tipo Y → framework Z, por isso uso a receita Y."* Sem pergunta, igual a declarar a arquitetura.
+- **Modo direto** (default, e o que roda no silêncio): pula pra execução com o que o dono colou. Se faltar um insumo que a página não vive sem (a oferta, o objetivo da página, o público), pergunta AQUELE insumo e segue, sem voltar pro briefing inteiro.
+- **Modo guiado**: só quando o dono pede explicitamente. Faz o briefing curto uma pergunta de cada vez, e monta a página com o que o dono for dando.
+
+**Ensina enquanto faz (parte 2):** em cada escolha que muda a página (o tipo pela objetivo, a ordem dos blocos do hero ao botão, a prova, o CTA), escreve UMA linha do porquê na voz de quem ensina o método, pra o dono aprender a decidir sozinho na próxima.
+
+**Puxa o material bruto (parte 3):** quando a resposta vier rasa ("meu público quer resultado", "o de sempre"), não segue com o genérico. Pede o concreto que só o dono tem: a frase literal de um cliente, um case com número, o print de um depoimento. Prova real vira a âncora da página; resposta rasa vira página rasa. Puxa uma vez, com jeito; se o dono não tiver, segue com o que há e marca o furo.
+
+**Oferece refinar no fim (parte 4):** depois de mostrar a página, fecha com UMA linha: "Quer outro hero? Mais curta? Outra ordem de blocos? Me diz o que ajustar que eu refaço só esse bloco." A oferta de refino não substitui o STOP nem o gate.
+
+
+## Índice rápido: já sei o tipo, quero pular a seleção
+
+Se o dono já disse o tipo com todas as letras, vá direto pra Ação 3 e abra a receita de blocos dele em `references/tipos-de-landing.md`. A contagem média de blocos de cada tipo está aqui, e é o que você declara no contrato de saída:
+
+**Quem manda no número de blocos é a receita do tipo, não esta tabela.** A coluna abaixo é orientação de tamanho pra escolher o tipo; o número exato e a ordem estão em `references/tipos-de-landing.md`, na seção daquele tipo, e é ela que a entrega segue. Divergência entre as duas, a receita vence, e você declara em 1 linha qual seguiu.
+
+| Tipo | Blocos | Botão dominante aponta pra |
+|---|---|---|
+| Captura (squeeze/opt-in) | 4 a 5 | formulário de e-mail ou WhatsApp |
+| Captura de empresa | 6 a 7 | formulário com campos de qualificação |
+| Entrega de isca | 4 a 6 | o download mais o próximo passo |
+| Aquecimento (advertorial) | 8 a 12 | a página seguinte |
+| Registro de evento | 4 (receita do Tipo 5) | formulário de inscrição |
+| Obrigado / avanço | 3 a 4 | o próximo passo (agenda, grupo, oferta) |
+| Replay | 5 a 7 | o vídeo, e depois o botão |
+| Fila de espera | 4 a 5 | formulário curto |
+| Aplicação / qualificação | 7 a 10 | formulário longo, com botão atrasado |
+| Oferta pós-compra | 5 a 7 | sim de 1 clique |
+| Link na bio | 5 a 8 links | o link primeiro da hierarquia |
+| Preços | 5 a 7 | o plano do meio |
+| Comparação | 5 a 8 | um botão por opção, tom neutro |
+| Casca de quiz | 3 a 4 | começar o quiz |
+| 404 | 3 a 4 | as saídas úteis |
+| **Vendas no texto** | **14 blocos universais**, com peso variando por arquitetura | checkout, formulário ou conversa |
+
+**A regra que separa Captura de Registro de evento:** o que decide é a NATUREZA do que está sendo prometido, não a palavra que o dono usou. Se o que o lead recebe acontece numa data e hora marcadas (aula gratuita ao vivo, webinário, live, masterclass, workshop, imersão), é **Registro de evento**, mesmo que o dono tenha pedido "página de captura". Consequência dura: data, hora e formato entram na primeira dobra. Se o dono ainda não cravou data e hora, escreva a página como Registro de evento assim mesmo e marque `[A CONFIRMAR: data e hora]` no lugar exato da primeira dobra, porque a página sem essa linha não converte inscrição. **Captura** fica só pro que o lead recebe na hora, sem agenda (PDF, checklist, aula gravada, lista de espera de conteúdo).
+
+## Roteamento: o dono pediu X, você entra na ação N
+
+| O dono pediu | Entra na ação |
+|---|---|
+| "faz a landing", "preciso de uma página", sem dizer qual | **1 · BRIEFING**, depois **2 · SELETOR** |
+| "página de captura", "squeeze", "página de obrigado", "link na bio", nomeando o tipo | **3 · OUTLINE** (o tipo já está declarado) |
+| "página de vendas", "página do meu produto", "quero vender no texto" | **2.A · ARQUITETURA**, depois **3** |
+| "escreve o hero", "escreve o bloco de garantia", "refaz o FAQ" | **4 · BLOCOS**, só naquele bloco |
+| "olha essa página aqui e diz o que está errado" | **5 · GATE**, em modo auditoria, e devolve o diagnóstico bloco a bloco |
+
+Pedido ambíguo: pergunte UMA coisa só, **"o que essa página precisa fazer agora: pegar contato, qualificar, vender, ou levar pro próximo passo?"**, e a resposta cai direto no seletor.
+
+## Como ler cada ação
+
+Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo** · **Entrega** · **Leia primeiro** · **Profundidade** · os passos numerados, com **STOP** onde o dono aprova.
+
+**O perfil do dono vem do banco do agente.** Onde a ação precisar de posicionamento, avatar, mecanismo nomeado, voz ou prova: leia do perfil/brain do agente quando existir; se não existir, faça a entrevista curta descrita no "Sem o insumo" e siga com o que faltar marcado `[A CONFIRMAR: o quê]`. Nunca invente, nunca pare por causa disso.
+
+**As 6 leis de operação** (detalhe em `shared-references/operacao-padrao.md`, Seção 0): (1) cria o contexto antes da afirmação, zero palavra difícil; (2) abre ensinando o que faz; (3) é consultiva, puxa o contexto antes de gerar; (4) contexto é rei; (5) **admite se faltar insumo, nunca inventa**, confere número, caso e depoimento; (6) **doc de saída enxuto pros 2 leitores**, zero meta-narração, só o insumo denso mais `[A CONFIRMAR]` onde falta.
+
+---
+
+## Ação 0 · ANCORAGEM (roda antes de tudo, não pula)
+
+**O que faz:** abre a fonte de fala real e puxa a matéria-prima do hero e da prova.
+
+**Precisa de:** a fonte, nesta ordem: descrição do projeto → posicionamento do dono → mensagens anteriores. De lá saem **3 a 5 falas de DOR e 3 a 5 de DESEJO**, literais, com o N.
+
+**Sem o insumo:** três estados, declare o seu em 1 linha antes de escrever.
+- **Tem fala real com N:** ancora nela e cita o N. Caminho ideal.
+- **Tem nicho e prova, zero fala literal:** não invente fala nem N. Cada bloco ancora em prova real do dono; número não confirmado entra como `[A CONFIRMAR: número]` e não conta como ancorado. Avise que minerar 5 a 8 falas reais deixa a página bem mais cravada.
+- **Sem nada:** vá pro briefing da Ação 1 e pergunte numa mensagem só.
+
+**Regra da variável sem resposta.** Variável sem resposta entra como `[A CONFIRMAR: o quê]` SEM valor assumido; é proibido inventar número, data ou nome e etiquetar.
+
+**Fala real não quer dizer banco estruturado.** Perfil que responde solto num `.md`, print de conversa, dúvida repetida no Direct, comentário: tudo isso é fonte válida e é o caso mais comum. O protocolo, quando não existe acervo pronto: (a) peça ou puxe falas reais do público dele de onde houver; (b) separe em 3 baldes, o que ele AMA (desejo), o que ele ODEIA (inimigo) e o que ele TEME (medo, objeção); (c) fala que aparece repetida em fontes independentes é padrão, fala que apareceu uma vez é anedota e você declara isso; (d) sem nenhuma fala real, a página sai marcada "rascunho genérico, não publicar", nunca como pronta. O detalhe está em `shared-references/crivo/01-entrada-verbatim.md`, seção do protocolo sem acervo pronto.
+
+**Entrega:** nada de arquivo. É a matéria-prima das ações 3 e 4.
+
+**Leia primeiro:** `shared-references/crivo/01-entrada-verbatim.md`.
+
+---
+
+## Ação 1 · BRIEFING (pergunta só o que falta, e sabe o que pode esperar)
+
+**O que faz:** junta o insumo mínimo pra escolher o tipo e escrever a página.
+
+**Precisa de:** o **objetivo da página** (o insumo-raiz, conferido antes de tudo) mais os campos da tabela abaixo.
+
+**Sem o insumo:** os críticos param o fluxo; os adiáveis viram `[A CONFIRMAR]` e a página segue.
+
+| Campo | Crítico? | Sem ele |
+|---|---|---|
+| **Objetivo da página** (o que ela faz agora) | **CRÍTICO** | pare e pergunte. Sem objetivo não há tipo, e sem tipo não há receita de blocos |
+| **Destino do botão** (para onde ele leva) | **CRÍTICO** | pare e pergunte. Botão sem destino é página morta |
+| **Produto** (nome, formato, o que entrega) | **CRÍTICO** no ramo de venda, adiável nos outros | no ramo de venda, pare. Nos outros, `[A CONFIRMAR: produto]` |
+| **Ticket** (valor ou faixa) | **CRÍTICO** no ramo de venda | decide a arquitetura e a fricção do formulário. Fora do ramo de venda, adiável |
+| **Cliente ideal** (quem é, o que já tentou, a dor de terceira camada) | **CRÍTICO** | sem isso a página fala com todo mundo e não filtra ninguém |
+| **Temperatura do tráfego** (frio, morno, quente) | adiável | assuma **frio** (o caso mais exigente), declare a premissa em 1 linha |
+| **Método nomeado** (nome próprio mais 3 a 4 etapas) | adiável | `[A CONFIRMAR: nome do mecanismo]` no bloco onde ele entraria |
+| **Prova real** (casos com nome, número e prazo) | adiável, mas caro | `[A CONFIRMAR: prova]` e a página não sai como pronta pra publicar |
+| **Bônus e garantia** | adiável | só no ramo de venda. Ausência some, não vira recheio |
+| **Razão de urgência** | adiável | só entra se for verdade. Sem razão real, a página fica sem urgência |
+
+**Entrega:** nada de arquivo. É o que alimenta o seletor.
+
+**Leia primeiro:** nada obrigatório aqui. O briefing é uma mensagem só.
+
+**Regra:** se faltar algo crítico, pergunta **numa mensagem só**, listando o que falta. Não chuta e não pergunta em conta-gotas.
+
+---
+
+## Ação 2 · SELETOR POR OBJETIVO (uma linha, sem pergunta)
+
+**O que faz:** converte o objetivo confirmado em tipo de página e framework de copy raiz.
+
+**Precisa de:** o objetivo da Ação 1.
+
+**Sem o insumo:** volte pra Ação 1. O seletor não roda sem objetivo.
+
+**Entrega:** 1 linha declarada no topo do entregável: *"objetivo X → tipo Y → framework Z, por isso uso a receita Y."*
+
+**Leia primeiro:** `references/tipos-de-landing.md`, na receita do tipo que saiu.
+
+**Profundidade:** `references/frameworks-copy.md` (o passo a passo do framework raiz).
 
 | Objetivo (o que a página faz agora) | Tipo de página | Framework raiz |
 |---|---|---|
-| Pegar e-mail/WhatsApp | Squeeze / Opt-in | PAS · 4Us |
-| Capturar lead caro de empresa | Lead-capture B2B | 4Ps |
-| Entregar a isca | Entrega-de-isca (captura + delivery) | BAB |
-| Aquecer sem vender | Click-through / Advertorial | SSS · Star-Chain-Hook |
-| Registrar em evento (presencial/aula avulsa) | Registro de evento | AIDA |
-| Confirmar + avançar | Obrigado / Avanço | direto |
-| Recuperar quem sumiu (replay) | Replay | Slippery Slide |
-| Juntar fila | Waitlist / Coming-soon | 4Us |
-| Qualificar lead caro 3k+ | Application / Qualificação | PASTOR · 12-step |
-| Aumentar ticket pós-compra | OTO / Upsell / Downsell | PAS · The Reverse |
-| Centralizar social | Link-in-bio | microcopy |
-| Mostrar planos | Pricing | FAB |
-| Ajudar a comparar opções | Comparação | FAB |
+| Pegar e-mail ou WhatsApp | Captura (squeeze/opt-in) | PAS · 4Us |
+| Capturar lead de empresa | Captura de empresa | 4Ps |
+| Entregar a isca | Entrega de isca | BAB |
+| Aquecer sem vender | Aquecimento (advertorial) | SSS · Star-Chain-Hook |
+| Registrar em evento | Registro de evento | AIDA |
+| Confirmar e avançar | Obrigado / avanço | direto |
+| Recuperar quem sumiu | Replay | Slippery Slide |
+| Juntar fila | Fila de espera | 4Us |
+| Qualificar lead caro | Aplicação / qualificação | PASTOR · 12 passos |
+| Aumentar ticket pós-compra | Oferta pós-compra | PAS · The Reverse |
+| Centralizar o social | Link na bio | microcopy |
+| Mostrar planos | Preços | FAB |
+| Ajudar a comparar | Comparação | FAB |
 | Segmentar e capturar | Casca de quiz | curiosidade |
 | Resgatar quem caiu fora | 404 como landing | leve |
-| **Vender no texto** (infoproduto/mentoria/serviço) | **as 4 arquiteturas** (sub-passo abaixo) | ADMA |
+| **Vender no texto** | **as 4 arquiteturas** (Ação 2.A) | ADMA |
 
-Os tipos que VENDEM no texto descem pro sub-passo das 4 arquiteturas (mantidas 100%). Todos os outros puxam a receita de blocos de `references/tipos-de-landing.md`. **Abre `references/tipos-de-landing.md` assim que o tipo é declarado** e monta o outline com os blocos daquele tipo.
+### Ação 2.A · ARQUITETURA (SÓ quando o objetivo é vender no texto)
 
-### Sub-passo 2.A, declara a arquitetura (SÓ quando o objetivo é "vender no texto")
-Quando, e só quando, o objetivo é vender no texto, decide por ticket × produto × temperatura e declara qual arquitetura usa e por quê. Pra todo outro objetivo, pula este sub-passo e vai direto pra receita de blocos do tipo.
+**O que faz:** decide a arquitetura por ticket, produto e temperatura, e declara qual usa e por quê.
+
+**Precisa de:** ticket, tipo de produto e temperatura do tráfego, da Ação 1.
+
+**Sem o insumo:** sem ticket, assuma a **Híbrida** (é a que aguenta a faixa mais larga), marque `[A CONFIRMAR: ticket]` e declare a premissa em 1 linha.
+
+**Entrega:** 1 linha, junto da linha do seletor.
+
+**Leia primeiro:** `references/arquiteturas.md`.
 
 | Cenário | Arquitetura |
 |---|---|
-| Infoproduto ≤R$497, qualquer tráfego | **VSL Completa**, vídeo carrega 70% do argumento, texto suporta |
-| Infoproduto R$500-2k, tráfego frio/morno | **Híbrida**, VSL curto + texto robusto |
-| Mentoria/consultoria R$2k+, tráfego morno/quente | **Autoridade**, sem VSL, texto cirúrgico + prova empilhada |
-| Serviço recorrente, qualquer ticket | **Problema-Solução**, custo de inação + método + acesso |
+| Produto digital de ticket baixo, qualquer tráfego | **VSL completa**, o vídeo carrega o argumento, o texto apoia |
+| Produto digital de ticket médio, tráfego frio ou morno | **Híbrida**, vídeo curto mais texto robusto |
+| Mentoria ou consultoria de ticket alto, tráfego morno ou quente | **Autoridade**, sem vídeo, texto cirúrgico e prova empilhada |
+| Serviço recorrente, qualquer ticket | **Problema e solução**, custo de não agir mais método mais acesso |
 
-A estrutura bloco a bloco de cada arquitetura está em `references/arquiteturas.md` (consulta, não decalca).
+---
 
-## Passo 3, outline pra aprovar
-Entrega um outline numerado dos blocos **da receita do tipo escolhido** (a sequência do tipo em `references/tipos-de-landing.md`, ou os blocos da arquitetura quando o objetivo é vender no texto), com a headline de cada bloco e onde fica cada CTA. **Para e espera o OK.** O cliente vê o esqueleto antes do corpo.
+## Ação 3 · OUTLINE (o esqueleto antes do corpo)
 
-## Passo 4, escreve UM bloco por vez
-Escreve a **receita de blocos DO TIPO escolhido**, um bloco por vez, com STOP a cada um. Cada tipo tem sua própria sequência, seu "NÃO entra" e sua mecânica-assinatura.
-- **Vender no texto:** usa os 14 blocos universais + a arquitetura escolhida. Os 14 (peso e ordem mudam por arquitetura, nenhum some): Hero · VSL (quando aplica) · Para quem é/não é · O problema (dor de 3ª camada) · Mecanismo do problema · Apresentação do método · Prova social · O produto por dentro · Bônus · Oferta + empilhamento · Garantia · Sobre o autor · FAQ · CTA final. Detalhe de condução em `references/processo-landingpage.md`.
-- **Qualquer outro tipo:** usa a sequência de blocos daquele tipo em `references/tipos-de-landing.md` (squeeze tem 4 blocos, obrigado tem confirm+advance, application tem VSL+CTA atrasado+form, e assim por diante).
+**O que faz:** entrega a lista numerada dos blocos da receita do tipo, com a headline de cada um e onde fica cada botão.
 
-Duas regras do bench que valem em todo tipo:
-- **Fricção do form casa com temperatura/ticket:** 1 campo no squeeze frio · form multi-campo de qualificação no high-ticket. A fricção é alavanca, não defeito (detalhe em `references/mecanicas-assinatura.md`).
-- **CTA atrasado é assinatura de VSL/application:** o botão aparece no momento do pitch, não no topo.
+**Precisa de:** o tipo declarado na Ação 2 (ou trazido pelo dono).
 
-**Onde abrir cada ref enquanto escreve cada bloco:**
-- Pra a **receita de blocos do tipo** (squeeze, isca, application, registro, obrigado, replay, OTO, link-in-bio, pricing, comparação, waitlist, quiz, 404): abre `references/tipos-de-landing.md` no Passo 2, assim que o tipo é declarado, e segue a sequência de blocos dele.
-- Pra o **framework de copy raiz** (o arco que rege a escrita do tipo, passo a passo): abre `references/frameworks-copy.md` no Passo 4, ao escolher o framework da coluna 3 do seletor.
-- Pra a **mecânica-assinatura** (a regra própria do tipo: gate-antes-do-resultado no quiz, Yes/No no OTO, 3-tier com decoy no pricing, próximo-passo no obrigado/replay, CTA atrasado na application): abre `references/mecanicas-assinatura.md` no Passo 4/5 quando o tipo tem mecânica própria.
-- Pra a **COPY de cada bloco** do ramo de venda (fórmula raiz do Hero e variações de headline, as 3 camadas do bloco Problema, anatomia do case, funcionalidade vs benefício, anatomia do bônus, sequência de empilhamento, estrutura da garantia, as 7 objeções universais do FAQ, fórmulas, exemplos e anti-exemplos), abre `references/blocos-copy.md` no momento de escrever aquele bloco.
-- Pra o **roteiro do VSL** que vive na página (arquiteturas VSL Completa e Híbrida: fórmulas de hook, scripts-exemplo, anatomia de case no vídeo, checklist do VSL, durações por ticket), abre `references/vsl-script.md` antes de escrever o bloco do vídeo.
+**Sem o insumo:** não há outline sem tipo. Volte pra Ação 2.
 
-Antes de fechar o Passo 4 e ir pro gate, roda a **auditoria Blair Warren** (os 5 movimentos: Sonhos incentivados com cena e número · Falhas justificadas sem condescendência · Medos nomeados e dissolvidos com mecanismo · Desconfianças confirmadas com verdade dura · Inimigo-categoria nomeado sem ataque pessoal), descrita em `references/processo-landingpage.md`. É PRÉ-FILTRO: movimento ausente, reforça antes do gate, não auto-aprova. O veredito final é do gate (Passo 5).
+**Entrega:** `outline-<tipo>.md`, os blocos numerados. **STOP. O dono vê o esqueleto antes do corpo.**
 
-Regras invioláveis enquanto escreve:
-- **Zero menu de navegação.** A única saída é o botão.
-- **UMA promessa na página inteira.** Um CTA dominante, repetido nos picos (após método, após prova, após garantia), sempre pro mesmo destino.
-- **Prova nunca é só elogio:** nome + nicho + resultado (número + prazo). E uma prova real acima da dobra.
-- **Bônus mata objeção nomeada**, não é recheio.
-- **Garantia é vendida**, com headline própria, não só mencionada.
-- **Urgência real ou silêncio.** Nada de escassez fake.
-- **Mobile-first:** cada bloco cabe em 1 tela de celular, legível, sem scroll lateral.
-- **Faca Soft:** descreve resultado e função, nunca entrega o passo a passo.
-- Estilo clínico: uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final (nunca "lead/funil/ticket" na copy). **Não narra o fluxo** ("agora vou auditar"), entrega limpo.
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
-## Passo 5, roda o GATE por dentro (auditoria silenciosa, NÃO imprime)
-Roda o gate em CADA bloco **internamente** (auditoria silenciosa). Só bloco com VEREDITO=PASSA vai pro cliente. Uma falha refaz o bloco. A tabela abaixo é o teu **checklist interno**, nunca a saída: o cliente recebe só o bloco limpo (Passo 6), jamais a tabela.
+**Leia primeiro:** `references/tipos-de-landing.md` (a sequência de blocos do tipo) ou `references/arquiteturas.md` (quando o objetivo é vender no texto).
 
-| Check | Passa se | ✓/✗ |
+---
+
+## Ação 4 · BLOCOS (escreve um por vez, com parada)
+
+**O que faz:** escreve a copy de cada bloco da receita, na ordem, parando a cada um.
+
+**Precisa de:** o outline aprovado · as falas da Ação 0 · a prova real.
+
+**Sem o insumo:** bloco que depende de prova que não existe sai com `[A CONFIRMAR: prova]` no lugar exato e não conta como pronto. Bloco que depende do nome do mecanismo sai com `[A CONFIRMAR: nome do mecanismo]`.
+
+**Entrega:** `pagina-<tipo>.md`, bloco a bloco, na ordem em que aparecem na tela, com o destino de cada botão marcado. **STOP por bloco.**
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `references/blocos-copy.md` (a copy de cada bloco do ramo de venda) · `references/mecanicas-assinatura.md` (quando o tipo tem mecânica própria).
+
+**Profundidade:** `references/processo-landingpage.md` (os 14 blocos universais e a auditoria de 5 movimentos) · `references/vsl-script.md` (antes do bloco do vídeo) · `references/frameworks-copy.md` · `references/conducao-na-pratica.md`.
+
+**Os 14 blocos do ramo de venda** (o peso e a ordem mudam por arquitetura, nenhum some): hero · vídeo quando aplica · para quem é e para quem não é · o problema (dor de terceira camada) · mecanismo do problema · apresentação do método · prova social · o produto por dentro · bônus · oferta e empilhamento · garantia · sobre o autor · perguntas frequentes · botão final.
+
+**Duas regras do bench que valem em todo tipo:**
+- **A fricção do formulário casa com a temperatura e o ticket.** Um campo na captura fria, formulário longo de qualificação no ticket alto. A fricção é alavanca, não defeito.
+- **Botão atrasado é assinatura de vídeo longo e de aplicação.** Ele aparece no momento do convite, não no topo.
+
+**Antes de fechar a ação, rode a auditoria de 5 movimentos** (sonhos incentivados com cena e número · falhas justificadas sem condescendência · medos nomeados e dissolvidos com mecanismo · desconfianças confirmadas com verdade dura · inimigo-categoria nomeado sem ataque pessoal), descrita em `references/processo-landingpage.md`. É pré-filtro: movimento ausente, reforça antes do gate. O veredito final é do gate.
+
+**Regras invioláveis enquanto escreve:** zero menu de navegação · uma promessa na página inteira · prova nunca é só elogio (nome mais nicho mais resultado com número e prazo), e uma prova real acima da dobra · bônus mata objeção nomeada, não é recheio · garantia é vendida, com headline própria · urgência real ou silêncio · cada bloco cabe em 1 tela de celular · mostra resultado e função, nunca o passo a passo executável · uma ideia por frase, número no lugar de adjetivo, vocabulário do cliente final.
+
+---
+
+## Ação 5 · O GATE (roda por dentro, em cada bloco, e não imprime)
+
+**Régua de títulos (vale em todo título, capa, assunto e nome de bloco que vai ao público).** Todo título, capa ou assunto passa pela régua de títulos (`shared-references/crivo/07-regua-de-titulos.md`) e a checagem lista cada um com gatilho e veredito, nesta forma: `<título> | gatilho: <qual> | veredito: passa` ou `| veredito: reescrito de: <versão anterior>`. Checagem que só declara "conferido" não conta como feita, e título sem gatilho nomeado reprova a peça. **O gatilho sai da lista fechada das 6 famílias (Recompensa, Mistério, Crença, Disrupção, Popularidade, Reconhecimento). Palavra fora dessa lista não é gatilho e não conta**: título nomeado com "autoridade + especificidade" ou "ação + destino explícito" fica com zero gatilhos rastreáveis e volta pro passo de escrita. **A checagem sai SEMPRE no arquivo de nome fixo `conferencia/checagem-titulos.md`, na raiz da pasta de entrega, mesmo quando esta skill já entrega crivo, prova, handoff ou relato: nome fixo é achável por `ls`, seção no meio de outro documento não é.** Ele fecha com as três contagens, nesta forma: `títulos produzidos: N · passados pela régua: N · reprovados e reescritos: N`. Os dois primeiros números têm que ser iguais, e qualquer diferença reprova, porque a régua não é amostra: conte os títulos antes de rodar, e o universo são TODOS os textos que o público lê como título, não só os de abertura. Entrega sem esse arquivo reprova antes da análise de conteúdo.
+
+**Rótulo de seção não é título, e a coluna diz qual é qual.** Classifique cada título de bloco da página como `rótulo` ou `tese`, numa coluna própria da checagem. Rótulo nomeia o assunto e não afirma nada (`Benefícios`, `Sobre`, `O método`, `Depoimentos`); tese afirma alguma coisa que o leitor pode discordar (`Você já tentou, e não foi falta de esforço`). O título de bloco da página é a primeira coisa que o leitor lê antes de decidir se continua, e um documento de rótulos não segura ninguém. Cole a coluna inteira, um por linha, na forma `<título> | rótulo ou tese`, e **todo `rótulo` volta pro passo de escrita** antes de a peça sair. Feche com `títulos de seção: N · em tese: N · rótulos restantes: 0`.
+
+**O hero passa pela régua R1 a R7 ANTES dos outros checks do bloco**, e a checagem vai na peça com a coluna da R1 preenchida: `<hero> | afirma a mais que o pedido: <o quê>`. **Quando o pedido do dono já nomeia o evento ("a página da minha aula X"), o nome do evento não pode ser o hero.** O nome vai na sub-headline, junto da data e do formato; o hero afirma o que a leitora ganha, o que ela para de fazer, ou o inimigo que ela reconhece. Prefixo na frente do nome ("Aula ao vivo:", "Aula gratuita:", "Masterclass:") não é ganho e não salva o hero. Checagem colada: `hero é o nome do evento com prefixo? sim reprova`.
+
+**A landing é peça publicável, e o endereço de cada coisa é fixo.** A página leva os blocos, a checagem do hero e a linha de fechamento do inventário, e mais nada. Tabela de inventário, origem dos números, régua título a título e pendências vão em `HANDOFF-<slug>.md`, arquivo irmão no disco. Os dois erros são simétricos e reprovam igual: encher a página publicável de checagem, e entregar a página sem a checagem do hero que esta ação manda pôr nela. **Checagem colada antes de fechar, com as quatro saídas: (1) `ls <pasta>` mostra o handoff? (2) `wc -l <peça>` devolve menos de 60 linhas? (3) `grep -c 'afirma a mais' <peça>` devolve 1 ou mais? (4) `grep -c 'Dados fornecidos' <peça>` devolve 1?** As duas primeiras pegam a peça inchada; as duas últimas pegam a peça esvaziada, e as duas falhas reprovam igual. Qualquer uma em não, o conteúdo muda de arquivo antes da entrega: esta cláusula diz o que VAI na peça tanto quanto o que sai dela.
+
+**A peça não explica a própria conduta.** Frase que descreve o que a página faz ou deixa de fazer ("a aula mostra a lógica sem prescrever treino individual", "sem transformar orientação em promessa", "apresenta a lógica do método") é nota de método e vai pro handoff. No lugar dela entra a cena: o que a leitora vai conseguir fazer depois, dita em concreto. A leitora não contratou a explicação da sua conduta, ela veio pelo ganho. Checagem: `grep -nE 'sem prescrever|sem transformar|sem garantir|apresenta a lógica' <peça>` volta vazio.
+
+**As contagens da régua não admitem justificativa.** `com inimigo ou inversão: N de N` abaixo da metade manda o lote de títulos de volta pro passo de escrita, e a linha "a baixa contagem é deliberada" é resposta inválida: se o tipo de página dispensa a inversão, a exceção está escrita na receita do tipo, não na entrega.
+
+**Marcador nunca no miolo da fala (vale em toda peça que o lead lê ou ouve).** `[A CONFIRMAR: x]` e todo marcador de pendência só entram na peça em posição de CAMPO: um link, um telefone, uma data, um valor, sempre no fim da linha e substituível por colagem sem reescrever a frase. É PROIBIDO no miolo de uma frase falada ou lida, isto é, onde a frase perde o sentido sem o valor. Quando o dado falta no miolo há duas saídas e nenhuma terceira: escrever a frase na versão que dispensa o dado, ou perguntar ao dono ANTES de escrever a peça. O furo em si vai pro handoff, nunca pra fala. Checagem verificável: com shell, `grep -n "\[A CONFIRMAR" <peça>`; sem shell, leia linha a linha. Pra cada marcador, apague o marcador e releia a frase. **O teste não é "a frase fica agramatical": é "a frase existiria sem o dado?".** Frase cuja única função é registrar a pendência ("Prazo exato do caso: [A CONFIRMAR: número de semanas]") está no miolo por definição e sai da peça, mesmo parecendo um campo. **Antes de marcar qualquer número, grepe os insumos (`grep -in '<termo>' <insumos>`) e cole a saída: dado que existe no disco nunca vira marcador.** Cole a linha `marcadores na peça: N · em posição de campo: N · no miolo de frase: 0`.
+
+**Nome de pessoa real em copy pública (vale em toda peça desta skill).** Nome, caso, frase ou história de pessoa real que veio de mensagem privada, caixa de entrada ou call NUNCA entra em copy pública sem autorização registrada pelo dono, isto é, uma linha `autorizado por <dono> em <data>` no próprio insumo. Sem essa linha: anonimiza (a primeira letra do nome, ou uma forma sem identificação como "uma aluna", sem cirurgia, idade e histórico que devolvam a identidade) ou não usa. **Lead em negociação aberta nunca é chamada de aluna nem de cliente.** Marcar `[A CONFIRMAR: autorização]` e publicar mesmo assim reprova: o marcador registra a dúvida e não resolve o risco. **A checagem é COMANDO, nunca de memória** (`shared-references/crivo/08-consentimento.md`, os 3 passos): (1) extraia a lista de primeiros nomes dos insumos privados (caixa de entrada, call, reclamação, perfil do dono) com `grep -hoE '\b[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][a-záàâãéêíóôõúç]{2,}(?=[,:] ?|[,:]$| [0-9]{2} anos)' <insumos privados> | sort -u`, somando toda lista de nomes colada pelo dono; (2) rode `grep -nwF '<nome>' <peça>` para cada nome, sobre o arquivo INTEIRO da peça (campos de configuração, filtros e checklists inclusos), não só as linhas que o destinatário lê; (3) cole a saída literal dos dois greps e feche com `nomes de pessoa na peça: N · com autorização registrada: N · vindos de conversa privada sem autorização: 0`. **Nome presente na saída sem a linha de autorização apontada por `<arquivo:linha>` reprova a entrega**, e `nomes de pessoa na peça: N` só pode ser maior que zero quando `com autorização registrada` for igual a N. Contagem declarada sem a saída colada não conta como feita, e declarar zero num arquivo onde o grep devolveu nome reprova.
+
+**Uso completo do que o dono deu (vale em toda entrega desta skill).** Todo dado que o dono forneceu e cabe na entrega tem que aparecer nela ou ter o motivo da exclusão declarado. Checagem verificável antes de fechar: liste os dados que o dono deu, um por linha, na forma `<dado> | usado em <onde> ou descartado porque <motivo>`, e feche com `Dados fornecidos: N · usados: N · descartados com motivo: N · sem destino: 0.` Qualquer dado em `sem destino` reprova a entrega. A linha de fechamento vai no arquivo de entrega que o dono lê, nunca só no relato de processo. **A granularidade é a do dado que o dono forneceu: agrupar vários dados numa linha só reprova o crivo.** Um dado por linha, mesmo quando dois parecem do mesmo assunto, porque agrupado ninguém confere qual dos dois ficou de fora. **O piso é CONTADO, não estimado, e a conta vem ANTES de escrever a peça.** Monte a conta em 3 passos e cole no processo: (1) `grep -c '^-' <perfil>` = C campos; (2) percorra os campos e escreva `campo <n>: <k> valores` para todo campo com k maior que 1, porque oferta com preço, parcela, 3 bônus e garantia são 6 linhas, não 1; (3) some, e M é o piso. Cole `campos no perfil: C · valores desdobrados: M · linhas do inventário: M`. **Inventário com menos de M linhas reprova sem análise de conteúdo, e a linha que agrupa dois dados conta como UMA linha e como N dados faltando.** A ordem é o que decide: a conta feita depois da peça vira justificativa, e a conta feita antes vira o alvo. Cole a conta na entrega, nesta forma: `dados no perfil: N · usados: N · descartados com motivo: N`, e a soma de usados mais descartados tem que fechar em N. **Entrega sem essa contagem reprova sem análise de conteúdo**, e inventário com menos linhas que N também reprova. **O universo é o arquivo de perfil inteiro, e nenhuma seção dele é 'de outra skill'.** Insumo listado no perfil conta como dado fornecido e entra no inventário, ainda que a coluna diga 'descartado porque pertence a outro funil': relevância decide a coluna usado ou descartado, nunca a existência da linha. **`Dados fornecidos` menor que o `grep -c '^- '` bruto reprova sem análise de conteúdo**, porque significa que uma parte do arquivo foi excluída do universo em vez de descartada com motivo.
+
+**Proveniência de terceiro (vale em toda entrega desta skill).** Nome de empresa, de pessoa, domínio, telefone, e-mail ou endereço de TERCEIRO só entra na entrega se veio do dono, do insumo dele, ou de uma busca ou ferramenta executada neste turno com o comando e o resultado registrados no relatório. Sem isso, o campo sai como `[A CONFIRMAR: nome/contato]`. Memória de treino não é fonte. Checagem verificável antes de fechar: para cada nome próprio de terceiro na entrega, aponte ao lado a linha do insumo ou o comando que o produziu; nome sem origem apontada reprova a entrega inteira.
+
+**Todo número da página carrega, no inventário, a linha do perfil de onde saiu.** Preço, prazo, duração, quantidade, frequência, idade, percentual: nenhum entra por dedução nem por cruzamento. **Quando a linha de origem descreve um objeto diferente do que a página vende, o número não entra:** vira `[A CONFIRMAR: <o dado>]` no lugar exato. A duração do webinar gravado não é a duração da aula ao vivo; o preço de outro produto não é o preço deste. Checagem colada, um número por linha: `<número> | origem: <perfil, linha N> | mesmo objeto da página? sim/não`. Um `não` reprova a página, e descartar o contexto e manter o número que só existia dentro dele é o erro que essa checagem existe pra pegar.
+
+**O corpo da página contém só o que a leitora lê.** Instrução dirigida ao dono ("confirme", "valide", "ajuste antes de publicar", "cheque as regras do conselho") vai no handoff, nunca dentro de um bloco: briefing impresso dentro do produto é o dono falando sozinho na cara do cliente. A ressalva de nicho que a leitora precisa ler fica; a ordem de serviço para o dono sai. Checagem verificável: `grep -niE 'antes de publicar|confirme|valide|verifique as regras' <arquivo da página>` tem que voltar vazio.
+
+**Marcador fora da peça exportada (esta skill renderiza, então a regra é dura).** `[A CONFIRMAR]` nunca aparece DENTRO da peça exportada: PNG, PDF, HTML, vídeo, `.docx`, slide ou qualquer arquivo que o público final abre. O que falta confirmar vai pro handoff e pro relatório, ao lado do nome do arquivo e do lugar exato onde entra. Checagem verificável antes de fechar: busque `A CONFIRMAR` no texto que foi renderizado e nos arquivos exportados; uma ocorrência que seja reprova a peça e manda refazer o render.
+
+
+**O que faz:** reprova o bloco que não serve, antes de o dono ver. Serve também como modo auditoria, quando o dono cola uma página pronta e pede diagnóstico.
+
+**Precisa de:** o bloco escrito.
+
+**Sem o insumo:** o gate sempre tem o que precisa.
+
+**Entrega:** em modo normal, a tabela **nunca** vai pra saída; o que acompanha a peça é um **relato de 3 a 6 linhas** do que o gate conferiu (a fala real que sustentou a promessa, o pior bloco e por quê, o que foi reescrito, o que ficou pendente). Em modo auditoria de página existente, entrega `diagnostico-pagina.md` com o bloco, o check que falhou e a correção.
+
+**Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
+
+**Leia primeiro:** `shared-references/crivo/03-gate-cub.md`.
+
+**Profundidade:** `references/mecanicas-assinatura.md` (o gate lê dela) · `shared-references/filtro-anti-ia/padroes-banidos.md` e `falsos-positivos.md` · `shared-references/filtro-mobile-first/escaneabilidade-texto.md`.
+
+**O veredito é o PIOR item.** Um ✗ refaz o bloco.
+
+| Check | Passa se |
+|---|---|
+| **Ancorada** | nasce de fala literal da fonte (cita o N **real**) ou de prova real do dono. N inventado ou plausível reprova na hora |
+| **Uma promessa** | a página inteira sustenta UMA promessa. O bloco não abre uma segunda concorrente |
+| **Um botão dominante** | um objetivo e um botão. O botão deste bloco aponta pro mesmo lugar dos outros. Exceção só em 404, link na bio e comparação, e só quando a multiplicidade é hierarquizada |
+| **Botão com destino** | destino explícito (conversa, checkout, formulário), nunca "saiba mais" vago |
+| **Prova real acima da dobra** | ao menos uma prova real (nome, número, prazo) visível antes do primeiro rolar |
+| **Tempo de leitura do bloco** | o bloco lê em **até 20 segundos** em voz alta (aproximadamente 45 a 60 palavras). O hero lê em até 8 segundos. Bloco acima disso quebra em dois ou corta |
+| **Cabe em 1 tela de celular** | o bloco cabe e fica legível numa tela de celular, sem rolagem lateral, sem parágrafo-bloco |
+| **Zero fricção** | nenhuma distração, link de saída ou segundo caminho que tire o olho do botão |
+| **Filtra o cliente certo** | a copy exclui o cliente errado de propósito. Não maximiza volume |
+| **Promessa não-redonda** | específica e calculável, não arredondada pra soar grande |
+| **C/U/B** | não é **C**onfuso (entende de primeira), não é **I**nacreditável (a afirmação tem prova ou mecanismo do lado), não é **B**oring (tem tensão e cena real) |
+| **Dá pra ver** | fecha o olho e enxerga a cena. Reprova "mais clareza". Passa "a agenda lota 3 semanas antes" |
+| **Dá pra falsificar** | é fato falsificável, não adjetivo |
+| **Só você diz** | o concorrente direto não assina igual |
+| **Formulário casa com a temperatura** | a fricção é proporcional ao ticket e deliberada: um campo no frio, vários no qualificado |
+| **Mecânica-assinatura presente** | quando o tipo tem mecânica própria, ela está implementada de fato: contato antes do resultado no quiz · sim e não na oferta pós-compra · três planos com isca de decisão nos preços · próximo passo no obrigado e no replay · janela de escassez real |
+| **Anti-IA (duro)** | zero travessão longo (U+2014) · zero da família do verbo-freio banida pela régua anti-voz (o verbo que rima com "cravar" e as flexões dele; exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê de hype |
+| **VEREDITO** | **= o PIOR item acima.** Um ✗ refaz. Só tudo ✓ vai pro dono |
+
+Com shell disponível, rode o lint de copy em `scripts/lint_copy.py` sobre o arquivo. Sem shell, faça a busca manual pelos dois bloqueios duros antes de marcar o anti-IA. **O lint lê o arquivo inteiro, e as notas `[A CONFIRMAR]` estão dentro dele:** um travessão longo ou um verbo-freio escrito na sua própria nota de bastidor reprova a página igual. Escreva as notas com o mesmo cuidado da copy.
+
+---
+
+## Ação 6 · FECHO (mostra e para)
+
+**O que faz:** entrega o bloco limpo e confere a congruência da página inteira.
+
+**Entrega:** só o bloco, sem tabela de gate, sem meta. Pergunta "esse bloco te serve? sigo pro próximo?" e **espera o OK**.
+
+No fim da página, confira: ela repete UMA promessa e aponta pra UM destino, do primeiro bloco ao último.
+
+---
+
+## O que esta skill NÃO faz
+
+Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o mínimo aqui**, e diz em 1 linha o que ficou reduzido.
+
+| O pedido é | Vai pra | Mínimo que faço aqui se ela faltar |
 |---|---|---|
-| **Ancorada** | nasce de fala literal da fonte (cita N **real**) OU de prova real do autor; **N inventado/plausível = ✗ automático** | |
-| **Uma promessa** | a página inteira sustenta UMA promessa; o bloco não abre uma segunda promessa concorrente | |
-| **Um CTA dominante** | Attention Ratio 1:1, um objetivo e um CTA; o botão deste bloco aponta pro mesmo lugar dos outros. Exceção SÓ se o tipo é 404, link-in-bio ou comparação E a multiplicidade é hierarquizada/justificada (link-in-bio: 5-8 links em ordem de intenção; comparação: 1 CTA por opção, tom neutro) | |
-| **CTA com destino** | o botão tem destino explícito (WhatsApp / checkout / formulário), nunca "saiba mais" vago | |
-| **Prova real acima da dobra** | há ao menos uma prova real (nome + número + prazo) visível antes do 1º scroll; sem prova fabricada | |
-| **Mobile-first** | o bloco cabe e fica legível em 1 tela de celular, sem scroll lateral, sem parágrafo-bloco | |
-| **Zero fricção** | nenhuma distração, link de saída, menu, ou segundo caminho que tire o olho do botão | |
-| **Filtra o cliente certo** | a copy exclui o cliente errado de propósito (para-quem-é/não-é claro); não maximiza volume | |
-| **Promessa não-redonda** | a promessa é específica e calculável, não arredondada/fabricada pra soar grande | |
-| **Confuso (C)** | dá pra entender de primeira; zero jargão, zero ambiguidade | |
-| **Inacreditável (U)** | a afirmação tem prova ou mecanismo do lado; nada solto que o leitor recuse | |
-| **Boring (B)** | o bloco tem tensão/cena real; não é mais-do-mesmo do nicho | |
-| **Harry, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "mais clareza" · ✓ "a agenda lota 3 semanas antes" | |
-| **Harry, dá pra falsificar?** | é fato falsificável, não adjetivo | |
-| **Harry, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **Form casa com temperatura** | a fricção do formulário é proporcional ao ticket, não acidental: 1 campo no frio/topo, multi-campo no qualificado. Passa se a fricção é deliberada | |
-| **Mecânica-assinatura presente** | quando o tipo tem mecânica própria, ela está implementada de fato (não só citada): gate-antes-do-resultado no quiz · Yes/No path no OTO · 3-tier com decoy no pricing · próximo-passo no obrigado/replay · escassez REAL com janela no replay/launch | |
-| **Anti-IA (HARD)** | zero travessão "—" · zero "travar/travado/destravar" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, destrava, transforma"). **No chat (sem o lint), faz um CTRL+F manual de "—" e da família "travar" antes de marcar ✓.** | |
-| **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
+| Carrossel, reel, stories | **soft-conteudo-*** | não faço |
+| Headline isolada | **soft-conteudo-headlines** | escrevo a headline do hero dentro da Ação 4 |
+| A carta ou o roteiro de VSL em texto corrido | **soft-funil-carta** | escrevo o bloco do vídeo com hook, corpo e fecho, sem o roteiro longo |
+| O ATIVO da isca (o PDF, o quiz por dentro) | **soft-funil-isca** | monto só a casca da página, não o material |
+| A régua de mensagens depois da captura | **soft-funil-nutricao** | escrevo a mensagem de entrega, e mais nada |
+| As 3 páginas do webinar | **soft-webinar** | escrevo as 3 pela receita de captura, obrigado e checkout daqui |
+| A página do mini-webinar | **soft-funil-miniwebinar** | monto pela receita de entrega de isca com vídeo |
+| Posicionamento, oferta, nomear mecanismo | **soft-plano-posicionamento** | uso o briefing crítico da Ação 1 |
+| Script de venda, objeção, prospecção | **soft-vendas-closer** / **soft-vendas-sdr** | não faço |
+| Arte, visual, PNG | **soft-designer** | entrego o `.md` bloco a bloco, sem o visual |
 
-## Passo 6, mostra e PARA
-Mostra **só os blocos que passaram, LIMPO** (como no Claude Chat): só o bloco em si, sem tabela de gate, sem meta. Pergunta "esse bloco te serve? sigo pro próximo?". **Espera o OK** antes de escrever o próximo bloco. No fim, confere a congruência: a página inteira repete UMA promessa e aponta pra UM destino.
+## Anti-patterns (sintoma → correção)
 
-## When NOT to use (manda pra skill certa)
-Esta skill CONSTRÓI a página de qualquer tipo. Quem escreve o roteiro ou o ativo de DENTRO pode ser a irmã, agora que o escopo alargou:
-- Pediu **carrossel / reel / stories** → **soft-conteudo-carrossel / -reels / -stories / -multiplataforma**.
-- Pediu **headline isolada** → **soft-conteudo-headlines**. Pediu **texto longo de conteúdo** → **soft-conteudo**.
-- Pediu o **roteiro/script do VSL ou da carta em texto corrido** → **soft-funil-carta** (a landing só monta a página; o roteiro que vai dentro é da carta). **Mini-webinar** → **soft-funil-miniwebinar**.
-- Pediu o **ATIVO da isca** (o PDF, checklist, mini-aula em si) → **soft-funil-isca**. A landing só CONSTRÓI a página de captura + a de entrega, não escreve o material.
-- Pediu páginas que orbitam **WEBINAR** (cadastro / obrigado / checkout de webinar) → **soft-webinar**.
-- Pediu **quiz como LÓGICA/perguntas de segmentação profunda de marca** → **soft-posicionamento** se for diagnóstico de marca; a landing monta só a CASCA (hook + gate + result-shell).
-- Pediu **Plano / posicionamento / oferta** → **soft-posicionamento**. **Arte/visual/PNG** → **soft-designer**.
-- Pediu **a venda em si** (script, objeção, prospecção, pós-venda) → **soft-vendas / -objecao / -prospeccao / -copiloto / -posvenda**.
-- Pediu **webinário perpétuo / evergreen** → **soft-webinar**.
-
-## Anti-Patterns (sintoma → correção)
 | Sintoma | Correção |
 |---|---|
-| Despejou a página inteira de uma vez | Volta: tipo → outline → 1 bloco por vez com gate, e PARA pra o OK |
-| Aplicou os 14 blocos de venda numa página de captura/obrigado | Usa a receita enxuta DO TIPO (squeeze = 5 blocos, obrigado = confirm+advance), não a página longa |
-| Duas promessas competindo | Corta a segunda; a página sustenta UMA promessa só |
-| Vários botões pra destinos diferentes | Um CTA dominante, um destino, repetido nos picos |
-| Botão "saiba mais" sem destino | Destino explícito (WhatsApp / checkout / formulário) |
-| Pôs depoimento antes da promessa | Prova sempre DEPOIS da promessa, nunca antes |
-| Prova só elogio, sem número | nome + nicho + resultado (número + prazo), e uma prova real acima da dobra |
-| Inventou depoimento/número "plausível" | Só prova REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorada=✓ |
-| Copy tentando agradar todo mundo | Filtra na entrada: para-quem-é/não-é exclui o cliente errado de propósito |
-| Promessa redonda ("dobre seu faturamento") | Troca por número específico e calculável da prova real |
-| Timer fake em replay/launch evergreen | Escassez real com janela que de fato expira, ou silêncio |
-| Página de obrigado virou beco sem saída | Sempre um próximo passo (agenda/calendar-add/oferta) |
-| Quiz com gate DEPOIS do resultado | Gate ANTES do resultado, senão não captura |
-| Link-in-bio com 12 links todos iguais | Máximo 8 links, hierarquia de intenção em 3 camadas |
-| OTO sem o link No-thanks discreto | Yes 1-clique destacado, No-thanks pequeno embaixo |
-| Solução genérica sem mecanismo nomeado | Nomeia o mecanismo (separa página de elite de panfleto) |
-| Bloco com menu/link de saída | Zero fricção: a única saída é o botão (salvo 404/link-in-bio/comparação) |
-| Parágrafo-bloco que não cabe no celular | Quebra em frases curtas, mobile-first, 1 tela por bloco |
-| Narrou o fluxo ("agora vou auditar") | Não narra: executa em silêncio e entrega só o bloco limpo |
-| Imprimiu a tabela do gate na saída | O gate é INTERNO (auditoria silenciosa); a saída é só a peça limpa |
+| Despejou a página inteira de uma vez | Volta: tipo, outline, um bloco por vez com gate |
+| Aplicou os 14 blocos de venda numa página de captura | Usa a receita enxuta DO TIPO (captura tem 4 a 5 blocos) |
+| Duas promessas competindo | Corta a segunda |
+| Vários botões pra destinos diferentes | Um botão dominante, um destino, repetido nos picos |
+| Botão "saiba mais" | Destino explícito |
+| Pôs depoimento antes da promessa | Prova sempre depois da promessa |
+| Prova só elogio, sem número | Nome, nicho, resultado com número e prazo |
+| Inventou depoimento ou número plausível | Só prova real. Sem fonte, `[A CONFIRMAR: prova]` |
+| Copy tentando agradar todo mundo | Filtra na entrada: para quem é e para quem não é |
+| Promessa redonda ("dobre seu faturamento") | Número específico e calculável da prova real |
+| Cronômetro falso em replay | Escassez real com janela que expira, ou silêncio |
+| Página de obrigado sem saída | Sempre um próximo passo |
+| Quiz que pede o contato depois do resultado | Contato antes do resultado, senão não captura |
+| Link na bio com 12 links iguais | Máximo 8, hierarquia de intenção em 3 camadas |
+| Oferta pós-compra sem o "não, obrigado" discreto | Sim de 1 clique em destaque, recusa pequena embaixo |
+| Solução genérica sem mecanismo nomeado | Nomeia o mecanismo |
+| Bloco com menu ou link de saída | A única saída é o botão |
+| Parágrafo-bloco que não cabe no celular | Quebra em frases curtas, uma tela por bloco |
+| Bloco que leva 40 segundos pra ler | Quebra em dois ou corta. O teto é 20 segundos por bloco |
+| Narrou o fluxo ("agora vou auditar") | Executa em silêncio e entrega o bloco limpo |
+| Imprimiu a tabela do gate | O gate é interno |
 
-## References (só pra profundidade, o fluxo acima é autossuficiente)
-- `references/tipos-de-landing.md`: o CATÁLOGO universal, a receita de blocos de cada tipo que não é página-de-venda-no-texto (squeeze, lead-capture B2B, entrega-de-isca, advertorial, registro de evento, obrigado/avanço, replay, waitlist, application, OTO, link-in-bio, pricing, comparação, casca de quiz, 404), com os 4 princípios-mãe e exemplo de nicho fictício por tipo. **Abre no Passo 2, assim que o tipo é declarado.**
-- `references/frameworks-copy.md`: a biblioteca de frameworks de copy nomeados (AIDA · PAS · PASTOR · 4Ps · BAB · FAB · QUEST · SSS · Star-Chain-Hook · The Reverse · 4Us · Slippery Slide · 12-step de VSL) com passo a passo, mini-exemplo e o roteador rápido. **Abre no Passo 4, ao escolher o framework raiz do tipo.**
-- `references/mecanicas-assinatura.md`: as 8 regras transversais + a mecânica-assinatura de cada tipo (gate-antes-do-resultado no quiz, Yes/No no OTO, 3-tier com decoy no pricing, confirm+advance no obrigado, janela de escassez real no replay, CTA atrasado na application, hierarquia de intenção no link-in-bio), cada uma com anti-exemplo. **Abre no Passo 4/5 quando o tipo tem mecânica própria; o gate lê dela.**
-- `references/arquiteturas.md`: o ramo de venda, estrutura bloco a bloco das 4 arquiteturas (VSL Completa, Híbrida, Autoridade, Problema-Solução) + regras comuns.
-- `references/processo-landingpage.md`: os 14 blocos universais, quando usar VSL, o detalhe de condução da página e a auditoria Blair Warren (os 5 movimentos).
-- `references/blocos-copy.md`: a copy de cada um dos 14 blocos (fórmula raiz do Hero e variações de headline, as 3 camadas do Problema, anatomia do case e do bônus, funcionalidade vs benefício, sequência de empilhamento, estrutura da garantia, as 7 objeções do FAQ) com fórmulas, exemplos e anti-exemplos. Abre no Passo 4, no bloco da vez.
-- `references/vsl-script.md`: o roteiro denso do VSL na página (fórmulas de hook, scripts-exemplo, anatomia de case no vídeo, checklist do VSL, durações por ticket). Abre no Passo 4, antes do bloco do vídeo.
-- `references/conducao-na-pratica.md`: o porquê e o como, congruência (a página repete a tese do Plano), minimalismo, o feed como entrada.
-- `scripts/lint_copy.py`: no Claude Code, roda `python3 scripts/lint_copy.py` na copy como cinto extra do anti-IA (reprova em-dash e "travar"). No chat não roda, por isso o CTRL+F manual do gate.
+## Transversais
+
+`references/EXEMPLO-FIM-A-FIM.md` (o caso fictício de ponta a ponta) · `references/tipos-de-landing.md` (o catálogo de tipos e a receita de blocos de cada um) · `references/frameworks-copy.md` (a biblioteca de frameworks) · `references/mecanicas-assinatura.md` (as regras transversais e a mecânica própria de cada tipo) · `references/arquiteturas.md` (as 4 arquiteturas do ramo de venda) · `references/processo-landingpage.md` (os 14 blocos e a auditoria de 5 movimentos) · `references/blocos-copy.md` (a copy de cada bloco) · `references/vsl-script.md` (o roteiro do vídeo na página) · `references/conducao-na-pratica.md` · `shared-references/operacao-padrao.md`, `crivo/`, `filtro-anti-ia/`, `filtro-mobile-first/` · `scripts/lint_copy.py`.
+
+---
+
+## Nome do arquivo e lint (vale em toda entrega)
+- **Nome do arquivo:** slug curto do tema, minúsculas, hífens, sem acento, até 6 palavras (ex.: `carrossel-comeca-e-para.md`).
+- **Lint:** com shell disponível, rode `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) em todo arquivo gravado no diretório de saída, o relatório de processo e as notas de confirmação inclusos, e só declare o gate aprovado depois de exit 0 em cada um; sem shell, confira à mão o travessão longo e o verbo-freio banido. **Cole no relatório uma linha por arquivo, no formato `<arquivo>: exit N`.** Alegação de lint aprovado sem a linha por arquivo não conta como gate cumprido: "passou no lint" sem o exit colado, arquivo por arquivo, é a afirmação que mais aparece em relato e menos confere no disco. **O relatório de processo é o arquivo que mais reprova, e ele conta.** O `RELATO.md` (ou como você tiver chamado o relatório desta rodada) entra na varredura como qualquer outro arquivo, e a linha `RELATO.md: exit 0` é obrigatória na lista. Como o relatório é escrito por último, rode o lint nele **depois** de terminar de escrevê-lo, e se ele reprovar, conserte o relatório e rode de novo antes de entregar: relatório com travessão longo é a falha mais comum do lote inteiro e reprova a entrega igual a peça de cliente. A lista de linhas `<arquivo>: exit N` fecha com o total, nesta forma: `arquivos linteados: N · exit 0: N · exit diferente de 0: 0`.
+- **Arquivo aberto de volta:** o lint lê o texto, não o formato, e arquivo corrompido passa com exit 0. Antes de declarar o gate aprovado, abra cada arquivo gravado e confira a primeira linha, a última e uma do meio: cabeçalho, tabela e lista renderizam como markdown válido. Prefixo repetido em toda linha, tabela sem a linha de separação e bloco de código não fechado reprovam a entrega e mandam regravar o arquivo.
+- **Configuração do dono fora da pasta da skill.** Configuração, perfil ou qualquer arquivo do dono nunca é gravado dentro da pasta desta skill (código versionado e compartilhado); vai pra pasta de trabalho do dono, com o caminho declarado no relatório.

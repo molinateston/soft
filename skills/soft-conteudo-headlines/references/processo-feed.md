@@ -5,15 +5,14 @@ Esta skill produz as duas peças de atração do Feed: **Carrossel e Reel**. Ela
 
 > **Atrair público qualificado. Não público maior. Não público mais engajado. Público que pode comprar.**
 
-## A fonte é o guia, leia primeiro
+## A fonte é o cânone, leia primeiro
 
-O método vive no guia, não nesta reference. **Na primeira invocação da sessão, leia:**
-- **`guia/05-feed-conteudo.md`** (Cap 5), a engenharia de produção do feed: as 3 fontes de Assunto Viral, as 3 frentes da headline, os **7 Gatilhos da Atenção**, a **Fórmula 7**, conteúdo notável (os 3 obrigatórios), **Moeda Social** (os 8 elementos), a regra do "faz mais" e as 4 métricas. **É a fonte da verdade.**
-- **`guia/06-carrossel.md`** (Cap 6), quando a peça é Carrossel: Alta Polaridade, a Fórmula 7 nos 7 a 10 slides, a Embalagem A+B da capa, o exemplo card a card, métricas (DM, CTR, salvamento, sends) e diagnóstico por sintoma.
-- **`guia/07-reel.md`** (Cap 7), quando a peça é Reel: Lo-fi vence Hi-fi, a espinha (Fórmula 7 comprimida), a engenharia de gancho (3 tipos × 7 gatilhos), os 6 roteiros-modelo, produção em lote, **o banco de 30 templates de headline** e o checklist.
-- Pra impulsionar: **`09-trafego.md`** (Cap 9). Pra a régua de tudo (filtra-não-convence, função-não-execução): `01-filosofia.md`.
+A engenharia da headline vive nas references desta skill. **Na primeira invocação da sessão, leia:**
+- **`references/templates.md`**, o banco único por gatilho: as 6 famílias, as fórmulas com gramática de slots e o gatilho dominante de cada uma. **É a fonte da verdade da headline.**
+- **`references/subcanones-formato.md`**, a camada de renderização por formato: a mesma fórmula comprimida pro teto físico da capa de carrossel, do gancho falado de reel, do título e do assunto de e-mail.
+- **`references/codigo-de-escrita.md`**, as 8 leis, a estrutura-mãe e a regra-zero que valem pra toda frase que sai daqui.
 
-Esta skill é o **processo de execução**, como produzir a peça. As **definições** estão no guia; não as duplique aqui, consulte-as. **Os assuntos e exemplos por nicho que aparecem no guia são ILUSTRAÇÃO, adapte ao nicho do especialista, nunca copie cru.**
+O CORPO da peça é de outra skill: carrossel na `soft-conteudo-carrossel`, reel na `soft-conteudo-reels`, stories na `soft-conteudo-stories`, adaptação entre plataformas na `soft-conteudo-multiplataforma`. Esta reference é o **processo de execução** da abertura de feed. **Os assuntos e exemplos por nicho são ILUSTRAÇÃO, adapte ao nicho do especialista, nunca copie cru.**
 
 ## O que entrega
 
@@ -33,8 +32,8 @@ Junto, quando o pedido pede: **escalar** uma peça que funcionou (assunto ou est
 | Perfil, bio, destaques, Nome-SEO | `soft-plano-posicionamento` (Perfil Enxuto) |
 | Visual dos slides do Carrossel (PNGs) | `processo-design.md` |
 | Adaptar pra LinkedIn, X, YouTube | fora do core (multiplataforma) |
-| Carta / Vídeo Minimalista | `soft-funil` |
-| Script comercial / DM de prospecção | `soft-funil` |
+| Carta / Vídeo Minimalista | `soft-funil-*` |
+| Script comercial / DM de prospecção | `soft-funil-*` |
 | Definição do método, tese, mecanismos | já empacado no **Plano de Marca Pessoal** |
 
 ## Processo (5 passos, produz, não narra o fluxo)
@@ -59,7 +58,7 @@ A decisão de ficar ou pular acontece em menos de 2 segundos. Trabalha a abertur
 > **Disrupção exige argumento sólido logo depois.** Gancho que promete e corpo que não entrega vira clickbait e queima reputação, o oposto do que o Soft constrói.
 
 ### 4. Desenvolve pela Fórmula 7 (estrutura-mãe afiada, sob a lente da percepção)
-Headline prende; a **Fórmula 7** conduz de confuso a decidido (Cap 5.4): Hook → Quebra de Crença → Diagnóstico → Vilão → Virada → Mecanismo → Convite. Muda o formato, a espinha é a mesma. Essa espinha É a **estrutura-mãe** do Código (`guia/CODIGO-DE-ESCRITA.md`, Parte B): **Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento**. A peça não convence, **reorganiza percepção**: o leitor chega sozinho na conclusão e a venda vira consequência. Antes de escrever, responde a regra-zero: *que percepção estou reorganizando?* e *onde está o chão?* (número, avatar ou mecanismo, tese sem chão não sai).
+Headline prende; a **Fórmula 7** conduz de confuso a decidido (Cap 5.4): Hook → Quebra de Crença → Diagnóstico → Vilão → Virada → Mecanismo → Convite. Muda o formato, a espinha é a mesma. Essa espinha É a **estrutura-mãe** do Código (`references/codigo-de-escrita.md`, Parte B): **Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento**. A peça não convence, **reorganiza percepção**: o leitor chega sozinho na conclusão e a venda vira consequência. Antes de escrever, responde a regra-zero: *que percepção estou reorganizando?* e *onde está o chão?* (número, avatar ou mecanismo, tese sem chão não sai).
 
 - **No Carrossel** (Cap 6): a Fórmula 7 vira **7 a 10 slides**, **uma ideia por slide**, muito espaço, cada slide fechando numa frase-conclusão ancorada (nunca slide que só prepara o próximo). Movimento não é slide, Diagnóstico, Mecanismo e Convite ocupam dois cards quando precisam. Começa em **Alta Polaridade** (confronta uma crença real do mercado já na capa, invisível × procurado, volume × percepção). **Os dois pontos onde Carrossel morre:** slide 2 não responde a capa (aprofunda o loop, "tem uma coisa pior"); slides 7–8 mostram a **função do método, nunca o passo a passo**. Menos de 7 slides não desenvolve; mais de 10 cansa e derruba o CTA. (Modela o exemplo card a card do Cap 6.7.)
 - **No Reel** (Cap 7): a mesma espinha comprimida em **1 a 2 minutos** (~1:30 quando for impulsionar). Lo-fi, o que performa é gancho e ideia, não câmera. A tensão **não relaxa no meio**; se a pessoa prevê a próxima frase, ela pula. Clona um dos **6 roteiros-modelo (Cap 7.6)** e adapta ao nicho.
@@ -72,7 +71,7 @@ Em qualquer formato, a peça é **notável** (algo novo · baixo carregamento co
 - **Diagnóstico.** "Por que esse post não rodou?" → lê a métrica como diagnóstico (Cap 5.6): pulo alto → conserta a abertura (passo 3); retenção baixa → conserta a espinha e a brevidade (passo 4); poucos compartilhamentos → falta Moeda Social. Carrossel tem diagnóstico por sintoma no Cap 6.9; Reel no Cap 7.9.
 
 ## Antes de entregar, a lei de escrita + os 2 filtros
-**Todo output obedece a lei de escrita da `shared-references`** (`guia/CODIGO-DE-ESCRITA.md`): as **8 leis** de como cada frase soa (revele não ensine · cada frase é conclusão · deixe respirar · polarize · nomeie o fenômeno · repita a tese · ancore), a **estrutura-mãe** (Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento) e a **regra-zero** (percepção reorganizada + chão). É a régua de toda frase que sai daqui, não opção.
+**Todo output obedece a lei de escrita desta skill** (`references/codigo-de-escrita.md`): as **8 leis** de como cada frase soa (revele não ensine · cada frase é conclusão · deixe respirar · polarize · nomeie o fenômeno · repita a tese · ancore), a **estrutura-mãe** (Diagnóstico → Nomeação → Polaridade → Nova visão → Consequência → Movimento) e a **regra-zero** (percepção reorganizada + chão). É a régua de toda frase que sai daqui, não opção.
 
 Além disso, toda peça atravessa, sem exceção, os filtros universais da **`shared-references`**:
 - **Anti-IA** (`shared-references/filtro-anti-ia/`), os 12 padrões banidos + teste em voz alta. Peça que soa IA bem-comportada não sai.
@@ -88,16 +87,14 @@ Detectou falha, reescreve o ponto. Só o resultado limpo vai pro usuário.
 - **Documentação > Produção.** Não inventa pauta, vive a vida e documenta. **Cada post é cheque. Reel é story. Repetição insuportável é trabalho.**
 - **Sem narrar o fluxo** ("agora vou pro passo X"). Só produz.
 
-## Referências operacionais (complementam o guia)
-A engenharia (Fórmula 7, 7 gatilhos, Moeda Social, 30 templates) vive nos Caps 5/6/7. Estes references trazem **execução fina não absorvida no guia**, consulte sob demanda:
-- `references/estrutura-peca.md`, a Estrutura Mãe com 21 padrões nomeados (7 formas de Contexto + 7 de Conteúdo + 7 de CTA), com templates e tabelas de decisão.
-- `references/carrossel-embalagens.md`, 7 arquétipos de embalagem de carrossel + tabela de decisão por matéria-prima.
-- `references/camadas-conciencia.md`, framework C1/C2/C3 (alcance · convicção · prova viva) e cadência de mix semanal.
-- `references/reels-roteiros-modelo.md`, 6 roteiros de reel escritos integralmente (fala + marcação de tempo + edição) pra clonar e adaptar.
-- `references/reels-producao-em-lote.md`, template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa.
-- `references/reels-anti-padroes.md`, 10 anti-padrões com pares errado→certo escritos.
-- `references/modo-impulsionar.md`, protocolo de turbinar: régua de custo por seguidor, workflow de 6 passos, verba 50/30/20.
-- `references/metricas.md`, benchmarks 2026 por plataforma (YouTube, LinkedIn, Substack, Threads, X), sinais oficiais do algoritmo, duplo filtro algorítmico × financeiro.
+## Referências operacionais (complementam o cânone)
+As fórmulas vivem em `templates.md` e a compressão por formato em `subcanones-formato.md`. Estes references trazem **execução fina**, consulte sob demanda:
+- `references/dispositivos-de-frase.md`, o repertório tático de dispositivos universais que dão tempero à frase depois que a estrutura já está de pé.
+- `references/amplificadores.md`, as 10 frases faladas que precedem a headline em reel, caption e story.
+- `references/criterios-v2.md`, rastreabilidade física dos gatilhos, exemplos passa/falha por nicho e a tabela de comprimento por formato.
+- `references/regua-final.md`, a régua completa do gate, com o cemitério de conceitos e os calibradores.
+- `references/comandos-rapidos.md`, lógica de volumes (50/100/200/300) e protocolo de lotes pra banco grande.
+- `references/mineracao-benchmark.md`, como garimpar fórmula nova de fora, com dedup e veredito antes de entrar no cânone.
 
 ## Handoff
-Carrossel pronto (copy) → **`processo-design.md`** desenha os slides em PNG. Headline que precisa de mais profundidade → **`processo-headlines.md`**. Quem para na peça encontra depois o Carrossel (aprofunda) e a **Carta** (`soft-funil`, vende), sem destino na Carta, a peça não tem pra onde levar o leitor.
+Carrossel pronto (copy) → **`processo-design.md`** desenha os slides em PNG. Headline que precisa de mais profundidade → **`processo-headlines.md`**. Quem para na peça encontra depois o Carrossel (aprofunda) e a **Carta** (`soft-funil-*`, vende), sem destino na Carta, a peça não tem pra onde levar o leitor.

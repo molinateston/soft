@@ -57,7 +57,7 @@ def review(proof, cut_id):
         "somente PASSA ou REPROVA e depois dê o motivo curto."
     )
     result = subprocess.run(
-        ["codex", "exec", "--skip-git-repo-check", "--sandbox", "workspace-write",
+        [os.environ.get("VISAO_CLI", "codex"), "exec", "--skip-git-repo-check", "--sandbox", "workspace-write",
          f"--image={proof_name}", prompt],
         capture_output=True, text=True, cwd=proof_dir,
     )
@@ -94,7 +94,7 @@ def main(argv=None):
                 "cut_id": cut_id,
                 "passed": passed,
                 "proof": proof,
-                "reviewer": "codex-oauth",
+                "reviewer": os.environ.get("VISAO_CLI", "codex"),
                 "verdict": verdict,
             })
             failed = failed or not passed

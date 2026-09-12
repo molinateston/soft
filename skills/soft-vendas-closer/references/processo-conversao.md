@@ -1,7 +1,9 @@
 
 # Vendas Consultivas, Guia 3 (Conversão, fechamento limpo)
 
-O terceiro Guia do Soft Business, a conversa que fecha. O lead chega no WhatsApp **aquecido** pela Carta ou pelo Vídeo: já entendeu o método, já viu o valor. Não está convencido, está **aberto**. A conversa ainda fecha: remove a última objeção e confirma o desejo. Esta skill é o **processo de conduzir essa venda**: como aplicar as 7 fases no WhatsApp, na call ou na reunião.
+> **Onde este arquivo entra, pra você não ler a mesma espinha duas vezes.** Quem escreve o script é o `script-builder.md`, que é o "leia primeiro" e traz a espinha das 7 fases com a fala pronta. Este arquivo é a **profundidade**: o porquê de cada fase, o roteamento entre os modos e o catálogo de objeções. A espinha aparece nos dois de propósito. Se você já leu a espinha lá, pule pro catálogo de objeções e pelo roteamento aqui.
+
+O terceiro Guia deste método, a conversa que fecha. O lead chega no WhatsApp **aquecido** pela Carta ou pelo Vídeo: já entendeu o método, já viu o valor. Não está convencido, está **aberto**. A conversa ainda fecha: remove a última objeção e confirma o desejo. Esta skill é o **processo de conduzir essa venda**: como aplicar as 7 fases no WhatsApp, na call ou na reunião.
 
 > Filtra E convence. O Funil filtrou e aqueceu; a conversa confirma a decisão e remove o que falta. **O canal do fechamento é do FUNIL, não do ticket:** nos funis comerciais (carta, jogadas de campanha, prospecção, mentoria) a regra é fechar o 1:1 na **DM/WhatsApp** (chat com áudio/doc/vídeo curto); a call é exceção de contexto. Em nenhum caso a venda se fecha sozinha, alguém conduz.
 
@@ -67,10 +69,10 @@ O script Soft é **filtro de chegada + fechamento de quem já está aquecido**, 
 
 - **Plano de Marca Pessoal empacado** (Cap 2 · `soft-plano-posicionamento`), sem isso o script não tem o que filtrar.
 - **Voz destilada** (Cap 3 · `soft-plano-posicionamento`), sem voz, a mensagem soa como qualquer vendedor de mercado.
-- **Carta/Vídeo funcionando** (Cap 4 · `soft-funil`), é o que aquece o lead antes do WhatsApp. Sem ela, o lead chega frio e a conversa vira gasto de energia, não confirmação.
+- **Carta/Vídeo funcionando** (Cap 4 · `soft-funil-carta`), é o que aquece o lead antes do WhatsApp. Sem ela, o lead chega frio e a conversa vira gasto de energia, não confirmação.
 - **Feed publicando** (Caps 5–8), onde o lead valida a autoridade antes de chegar.
 
-**Quando o cliente tem skill de voz própria (ex.: `soft-voz-do-especialista`):** consulte-a antes de escrever. Os bordões e expressões da voz pessoal precisam aparecer no WhatsApp pra manter coerência com o que o lead leu na Carta e no feed. Inconsistência aqui quebra a venda.
+**Quando o dono tem uma skill de voz própria instalada:** consulte-a antes de escrever. Os bordões e expressões da voz pessoal precisam aparecer no WhatsApp pra manter coerência com o que o lead leu na Carta e no feed. Inconsistência aqui quebra a venda.
 
 ---
 

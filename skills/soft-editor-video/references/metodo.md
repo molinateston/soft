@@ -7,9 +7,10 @@ Detalhamento do pipeline da `SKILL.md`. Quando houver cena gerada, o caminho é 
 - **Fala temporizada:** preservar a transcrição por palavra com início e fim em `speech_words`, mesmo depois da compactação.
 - **Mapa de cortes:** registrar cada trecho preservado com tempo na fonte, tempo na timeline e identificador único.
 - **Emenda de áudio:** aplicar fade de 30 ms na entrada e na saída de cada trecho cortado.
-- **Imagem:** usar a conta ChatGPT, sem chave OpenAI paga. Manter elementos importantes dentro da área segura.
+- **Imagem:** usar o gerador já incluído no ambiente, sem abrir chave paga nova. Manter elementos importantes dentro da área segura.
 - **Animação:** movimento local é o padrão de custo zero. Clipe externo usa imagem aprovada, prompt negativo, custo conferido e uma geração por vez.
 - **Apoio adaptativo:** cada apoio dura de 2 a 3 segundos, salvo prova real que precise de tempo para leitura.
+- **Direção do apoio:** cada trecho registra intenção, fala, estratégia visual, frase de apoio ou motivo de ausência, frame inicial, frame final, movimento e transições. Em vídeo longo, usar `direcao-visual-longa.md` antes de gerar qualquer quadro.
 - **B-roll no rodapé:** quando essa forma for escolhida, usar faixa 16:9 embaixo com borda fina.
   - Se o vídeo do dono **já tem legenda** (geralmente embaixo), corta o teto morto acima da cabeça (`crop=1080:1312:0:~400`) e empilha (`vstack`). Assim cabe apresentador, legenda e b-roll sem cobrir nada.
 - **CTA no final:** um card fixo (personagens + oferta do dono), colado com transição `xfade=fade:0.7` (sem corte seco).
@@ -17,11 +18,11 @@ Detalhamento do pipeline da `SKILL.md`. Quando houver cena gerada, o caminho é 
 
 ## Recursos
 
-Ler `recursos-geracao.md`. Nunca usar chave OpenAI paga. Legenda usa o caminho local palavra por palavra. Vídeo externo é opcional, não pré-requisito.
+Ler `recursos-geracao.md`. Nunca abrir chave paga nova por conta própria. Legenda usa o caminho local palavra por palavra. Vídeo externo é opcional, não pré-requisito.
 
 ## Ordem dos scripts
 1. `00_silence_cut.py entrada.mp4 saida.mp4`
-2. (agente escreve `scenes.json`) → `01_gen_images.py scenes.json pasta_img` → **aprovar com o dono**
+2. (agente fecha o mapa visual e escreve `scenes.json`) → `01_gen_images.py scenes.json pasta_img` → **aprovar com o dono**
 3. `02_animate.py pasta_img pasta_video`
 4. `03_assemble.py base.mp4 pasta_video montado.mp4 [overlay|crop]`, ou o template Remotion da forma escolhida
 5. Aplicar todas as animações, faixas e overlays, e somente depois aplicar a legenda.

@@ -46,7 +46,7 @@ Toda fórmula do banco é escrita na **notação de slots**: você preenche cada
 > `[TEMPO]`, `[R$ X]`, `[MOMENTO]`, `[CONHECIDO]` (abreviação de "algo conhecido pela audiência") aparecem como slots auxiliares dentro das fórmulas. Regra dura marca-neutra: **nenhum número real fixo** num molde; o número real do dono só entra quando a headline é gerada de verdade (Passo 0 + gate).
 
 ## Como usar
-Escolhe a **família de gatilho** que o assunto pede (Passo 2 do SKILL.md) → lê a família inteira e pega 2-3 fórmulas que encaixam no assunto + na fala real, **começando pelas FORTE** (CASA e EXTERNO têm peso igual; a nota decide, não a origem) → preenche cada `[SLOT]` com o campo do Mapa de Munição/verbatim → roda o gate (Passo 4). Fórmula EXTERNO sai marcada com a origem (`EXTERNO (ex-B61)`) na saída. Os **gatilhos rastreáveis** são os que o gate conta na frase (≥2 dos 7). A **família** diz onde a fórmula mora; os **gatilhos** dizem o que se rastreia na frase final.
+Escolhe a **família de gatilho** que o assunto pede (Passo 2 do SKILL.md) → lê a família inteira e pega 2-3 fórmulas que encaixam no assunto + na fala real, **começando pelas FORTE** (CASA e EXTERNO têm peso igual; a nota decide, não a origem) → preenche cada `[SLOT]` com o campo do Mapa de Munição/verbatim → roda o gate (Passo 4). Fórmula EXTERNO sai marcada com a origem (`EXTERNO (ex-B61)`) na saída. Os **gatilhos rastreáveis** são os que o gate conta na frase (mínimo 3 dos 7). A **família** diz onde a fórmula mora; os **gatilhos** dizem o que se rastreia na frase final.
 
 ---
 

@@ -49,8 +49,8 @@ O caminho mais curto pra você ver a skill executando de verdade.
 
 - **Endpoint:** o remote MCP hospedado em `https://meta-ads.mcp.pipeboard.co/`.
 - **Auth:** token gerado em `pipeboard.co/api-tokens` (ou OAuth da própria pipeboard). O dono cria a conta na pipeboard, autoriza a conta de anúncios da Meta e pega o token.
-- **No app (claude.ai):** o dono adiciona o **conector MCP** apontando pro endpoint remote com o token. Aí a skill opera direto pelo app, sem Bash.
-- **No Code/agente:** o motor é acessado como servidor MCP (subprocess/conector) com o token no ambiente.
+- **Em ambiente sem shell:** se ele suportar conectores, o dono adiciona o **conector** apontando pro endpoint remote com o token. Aí a skill opera direto por ali, sem terminal.
+- **Com shell:** o motor é acessado como servidor MCP (subprocess/conector) com o token no ambiente.
 
 Vantagem: setup mínimo, nada pra instalar. Custo: depende do SaaS terceiro e do token da pipeboard, por isso é a trilha de TESTE, não a de produto por cliente.
 
@@ -63,7 +63,7 @@ O caminho de produto: a casa roda o motor, sem terceiro no meio, cada cliente co
 - **Instalação:** `pip install` do repo do `meta-ads-mcp` (Python), rodando local.
 - **Auth:** precisa **criar um Meta Developer App** (no developers.facebook.com) e gerar um **token próprio da Meta** com as permissões de ads (`ads_management`, `ads_read`, e as de página/instagram pro criativo). Esse token é o do dono/cliente, não um compartilhado.
 - **Transporte:** streamable HTTP (o servidor local expõe o MCP por HTTP).
-- **No Code/agente:** sobe o servidor local e conecta como MCP; as tools ficam disponíveis igual à Trilha A.
+- **Com shell:** sobe o servidor local e conecta como MCP; as tools ficam disponíveis igual à Trilha A.
 
 Vantagem: a casa é dona da infra, licença BSL cobre o uso dentro do produto, e cada cliente opera com o app dele (sem gargalo de um SaaS terceiro por cliente). Custo: exige criar o app na Meta e gerir o token, por isso é o caminho de PRODUTO, não o de teste de 2 min.
 

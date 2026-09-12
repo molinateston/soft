@@ -34,7 +34,7 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 
   > **Vitrine (detalhe de ferramenta):** o **EverWebinar** mostra os **dois** próximos horários na página; o **WebinarKit** mostra **quatro**. **Convertem igual**, só muda a vitrine; escolhe pela ferramenta que o cliente já usa, não por achar que "mais horário converte mais". (Bloco 1.6 traz o porquê do horário relativo com a fala do compromisso.)
 
-**7. Contra-filtro** (a parte mais Soft): "NÃO é pra você se… / É pra você se…". Diz pra quem NÃO é antes de pra quem é. **Mantém SEMPRE a linha anti-milagre no NÃO** (expulsa quem busca fórmula mágica / viralização / atalho); essa é a peça universal que não se troca por nicho. Promessa Soft: simples e honesto, nunca fácil e mágico. Quem não é avatar fecha a aba (ótimo, ele só sujaria a métrica); quem é, confirma "é pra mim" e entra mais comprometido. **Lê Bloco 1.7 e aplica o molde NÃO-é/É + os dois exemplos (Soft Business e gestão) com a linha anti-milagre marcada.**
+**7. Contra-filtro** (a parte mais característica do método): "NÃO é pra você se… / É pra você se…". Diz pra quem NÃO é antes de pra quem é. **Mantém SEMPRE a linha anti-milagre no NÃO** (expulsa quem busca fórmula mágica / viralização / atalho); essa é a peça universal que não se troca por nicho. Promessa Soft: simples e honesto, nunca fácil e mágico. Quem não é avatar fecha a aba (ótimo, ele só sujaria a métrica); quem é, confirma "é pra mim" e entra mais comprometido. **Lê Bloco 1.7 e aplica o molde NÃO-é/É + os dois exemplos (marketing e gestão) com a linha anti-milagre marcada.**
 
 **8. Prova social discreta** (1-2 elementos): logos, 1 depoimento curto, 2-3 prints reais, ou uma estatística condensada. Aqui ela só **endossa**; prova pesada é no checkout (Passo 3). No perpétuo, o mesmo depoimento pode rodar em **loop de pre-roll** dentro da sala antes do host aparecer, escolhido pra já contar a tese (vilão + contraste + promessa contraintuitiva); ver o exemplo verbatim de pre-roll em Bloco 1.8.
 
@@ -102,7 +102,7 @@ Quem chega já está ~80% decidido. A aula vendeu. **O checkout NÃO convence do
 
 > **A régua do corpus estudado (não negocia):** checkout SÓ com **cronômetro 5min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Cada bloco extra é fricção que faz a pessoa pensar de novo.
 
-**Achado:** não há HTML de checkout deployado, o checkout do corpus estudado é a tela do gateway (Cakto/WebinarKit). Os blocos são o que entra NA tela / no topo dela.
+**Achado:** não há HTML de checkout deployado, o checkout do corpus estudado é a tela do gateway (a plataforma de checkout/webinar do dono). Os blocos são o que entra NA tela / no topo dela.
 
 **Decide o DESENHO pelo ticket:** até ~3k = checkout impessoal (os blocos abaixo). High-ticket = fecha no **1:1** (CTA pro `wa.me`, **nunca o preço seco**; ver Passo 7).
 

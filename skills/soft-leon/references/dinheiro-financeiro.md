@@ -91,7 +91,7 @@ Há 4 maneiras de definir preço, e cada uma serve um momento.
 | 3 | Pricing por segmento, diferentes ofertas pra diferentes ICPs |
 | 4 | Pricing institucional, cláusulas de reajuste, contratos de longo prazo |
 
-### Princípio Soft Business (caso do autor do método)
+### Princípio do método (exemplo genérico do autor do método)
 
 Mentoria de R$3-5k = ticket médio do segmento. Por valor entregue (sistema de aquisição completo, validado por método), poderia ser R$10-15k. Ticket atual filtra por intenção, não por desconto.
 

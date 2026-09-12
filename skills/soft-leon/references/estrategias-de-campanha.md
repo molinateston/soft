@@ -4,7 +4,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **O LEON usa este banco ao planejar o mês.** Depois de rodar o funil reverso (no `plano-de-guerra.md`), o LEON não manda o cliente "postar mais": propõe **a jogada certa pro momento dele**, na ordem certa, e aponta a mãe que executa cada parte. O banco é o cardápio; a Conta diz quantas jogadas e com que frequência.
 
-**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence**, revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada, reescreve como ele falaria no zap.
+**Princípio raiz:** nenhuma jogada vende sozinha. Toda jogada Soft **filtra e convence**, revela a dor real e confirma o próximo passo, nunca empurra. O script bruto de cada jogada é **esqueleto**: passa pela voz do cliente (que vive no `soft-plano-posicionamento` dele) e pelos filtros `shared-references/filtro-anti-ia/` antes de ir pra rua. Tom genérico de robô educado ("espero que esteja bem", "agradeço a confiança") **mata** a jogada, reescreve como ele falaria no zap.
 
 **Extensível:** o cliente (e o autor do método) adicionam jogadas aqui ao longo do tempo. Toda jogada nova entra no mesmo formato: *o que é · quem pode rodar · resultado esperado · como funciona · onde encaixa no mês · qual mãe executa · ajuste Soft*.
 
@@ -37,7 +37,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** O fluxo-base de conversão. Roda em fundo toda semana pra manter o direct cheio enquanto as jogadas maiores acontecem.
 
-**Qual mãe executa.** O story = `soft-conteudo` (stories). A qualificação + os scripts de DM/call = `soft-vendas`.
+**Qual mãe executa.** O story = `soft-conteudo-stories`. A qualificação + os scripts de DM/call = `soft-vendas-sdr`/`soft-vendas-closer`.
 
 **Ajuste Soft.** O story **filtra** (escassez verdadeira, público nomeado), não promete milagre pra todo mundo. As 3 perguntas são diagnóstico que revela a dor real, nunca pra inflar. A oferta confirma o que a conversa já mostrou. É a venda consultiva, não a caça ao lead.
 
@@ -62,7 +62,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** O **pico** do mês: gera caixa imediato (os R$100) e ativa os mais quentes pro high ticket. No Plano de Guerra, é a jogada que mais move a meta, encaixa como evento âncora.
 
-**Qual mãe executa.** Os stories e a sequência = `soft-conteudo`. O desenho do evento e da oferta = `soft-funil-carta` (mini-evento). A oferta dentro da reunião e o follow-up de 24h = `soft-vendas`.
+**Qual mãe executa.** Os stories e a sequência = `soft-conteudo-stories`. O desenho do evento e da oferta = `soft-funil-carta` (mini-evento). A oferta dentro da reunião e o follow-up de 24h = `soft-vendas-*`.
 
 **Ajuste Soft.** O conteúdo da reunião é útil de verdade, não é isca vazia pra empurrar a venda no fim. A oferta **confirma** o que a sala acabou de provar (filtra e convence). O R$100 é filtro de compromisso, não barreira de caixa: o valor real está no que sobe pro programa.
 
@@ -82,7 +82,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** Antes de gastar tempo/dinheiro produzindo um produto novo. Protege o caixa: o cliente não cria no escuro, cria o que já foi pago.
 
-**Qual mãe executa.** Os stories e o destaque = `soft-conteudo`. O desenho da oferta e do bônus = `soft-posicionamento` (bloco oferta) + `soft-funil-carta`.
+**Qual mãe executa.** Os stories e o destaque = `soft-conteudo-stories`. O desenho da oferta e do bônus = `soft-plano-posicionamento` (bloco oferta) + `soft-funil-carta`.
 
 **Ajuste Soft.** Valida com verdade: se a caixinha não acusou demanda real, não fabrica. O bônus é vantagem honesta de entrar cedo, não escassez inventada. Pré-venda Soft é teste de mercado, não pressão.
 
@@ -102,7 +102,7 @@ O Plano de Guerra calcula **quanto** o cliente precisa (meta de caixa → vendas
 
 **Onde encaixa no mês.** A **primeira** jogada quando abre um produto novo, base quente rende antes de qualquer tráfego. Custo de aquisição mais baixo do banco.
 
-**Qual mãe executa.** O script e a condução 1:1 = `soft-vendas` (reativação de base).
+**Qual mãe executa.** O script e a condução 1:1 = `soft-vendas-closer` (reativação de base).
 
 **Ajuste Soft (atenção, o material de origem soa genérico).** O esqueleto original usa tom de robô educado: *"Espero que você esteja bem", "Agradeço pela confiança que sempre depositou"*. **Isso não passa no filtro anti-ia**, soa em massa, mata a tal "conexão genuína" que a jogada promete. Reescreve **na voz do cliente**: direto, real, como ele mandaria pra alguém que conhece de verdade. E apresenta a novidade pelo **teto que aquele cliente específico sente** (o resultado que ele buscava e não alcançou), não por "estou lançando". Lembrar dele de verdade > anunciar pra ele.
 

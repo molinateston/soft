@@ -74,7 +74,7 @@ PMF efetivo → entra na Fase 2
 
 Confirmar que existe **gente real** com **dor real** disposta a **pagar** por uma solução. Antes de construir solução.
 
-### Como validar (fundamentos de negócio + Soft Business)
+### Como validar (fundamentos de negócio + este método)
 
 **Lei de ferro do mercado:**
 > "O melhor produto do mundo, vendido pra ninguém, falha. Você precisa de um mercado interessado antes de construir."
@@ -260,7 +260,7 @@ Empresa = sistema que gera cliente sem você. Profissão = você é o sistema.
 
 Tentar os 3 simultaneamente = nenhum funciona.
 
-**Ordem recomendada Soft / Soft Business:**
+**Ordem recomendada Soft / este método:**
 1. Inbound orgânico primeiro (custo baixo, valida proposta)
 2. Indicação como segundo canal (alavanca clientes existentes)
 3. Outbound pago último (depois que conversão tá conhecida)
@@ -443,4 +443,4 @@ Quando esses 10 marcos estão batidos → cliente sai da Fase 1.
 - **Fase 1 não é "trabalho duro", é "trabalho certo".** 80% trabalho duro + 20% trabalho certo = falência. 80% certo + 20% duro = vence.
 - **Clientes pagantes > usuários gratuitos.** Free tier nessa fase é distração. 10 clientes pagando R$500/mês > 1.000 usando grátis.
 - **Sócios na Fase 1**: cuidado com diluição. Vesting de 4 anos com cliff de 1 ano é padrão. Ninguém ganha 30% no primeiro mês, todo mundo conquista por tempo+performance.
-- **Produto digital de conhecimento (caso do autor do método)**: a Fase 1 do Soft Business é literalmente as primeiras 10 mentorias fechadas pelo autor do método. Quando estabilizou em R$30-50k/mês recorrente, saiu da Fase 1.
+- **Produto digital de conhecimento (caso do autor do método)**: a Fase 1 deste método é literalmente as primeiras 10 mentorias fechadas pelo autor do método. Quando estabilizou em R$30-50k/mês recorrente, saiu da Fase 1.

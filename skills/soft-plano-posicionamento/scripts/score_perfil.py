@@ -8,7 +8,7 @@ posts). E DETERMINISTICO: os mesmos numeros dao sempre o mesmo score. Nao chama
 API nenhuma, nao faz scraping, nao gasta token. Voce mesmo lê os numeros no perfil
 (sao publicos) e passa pra ca.
 
-PRA QUE SERVE (dentro do metodo Soft):
+PRA QUE SERVE:
   - Auditar um CONCORRENTE: o numero grande dele e real ou inflado?
   - Validar PROVA SOCIAL: aquele perfil que voce ia citar como case aguenta o olhar?
   - PRE-TRAFEGO: antes de mandar verba pra um perfil, ele engaja de verdade ou o
@@ -17,7 +17,7 @@ PRA QUE SERVE (dentro do metodo Soft):
 O QUE NAO FAZ (de proposito): nao projeta faturamento, nao roda analise de marca,
 nao promete crescimento. So responde UMA pergunta: esse perfil cheira a real?
 
-USO (Claude Code / agente com Bash):
+USO (em qualquer ambiente com shell):
     # por flags:
     python3 scripts/score_perfil.py \
         --seguidores 245000 --seguindo 890 \

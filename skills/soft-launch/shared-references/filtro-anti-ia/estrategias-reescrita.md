@@ -45,7 +45,7 @@ IA adora "trazer transformações", "realizar mudanças", "promover crescimento"
 Em vez de prometer abstração, mostra a coisa concreta.
 
 ### Antes (IA)
-> "Você vai destravar todo o seu potencial e trazer mais clareza pra sua jornada."
+> "Você vai liberar todo o seu potencial e trazer mais clareza pra sua jornada."
 
 ### Depois (autoral)
 > "Você vai saber exatamente quem é seu cliente certo, quanto cobrar dele, e como falar com ele sem improvisar."
@@ -190,7 +190,7 @@ Coragem de cortar é parte do método. Maioria das peças melhora quando você t
 
 ### Versão IA (de antes)
 
-> "Quando se trata de marketing digital, é fundamental compreender que existem diversos paradigmas que precisam ser cuidadosamente avaliados. Outrossim, a verdade é que o modelo tradicional simplesmente não consegue mais entregar resultados consistentes e duradouros. É exatamente por isso que precisamos refletir profundamente sobre nossas escolhas e buscar caminhos verdadeiramente transformadores. O método que vou te apresentar destrava todo o potencial do seu negócio, trazendo mais clareza, mais foco e mais resultado."
+> "Quando se trata de marketing digital, é fundamental compreender que existem diversos paradigmas que precisam ser cuidadosamente avaliados. Outrossim, a verdade é que o modelo tradicional simplesmente não consegue mais entregar resultados consistentes e duradouros. É exatamente por isso que precisamos refletir profundamente sobre nossas escolhas e buscar caminhos verdadeiramente transformadores. O método que vou te apresentar libera todo o potencial do seu negócio, trazendo mais clareza, mais foco e mais resultado."
 
 (208 palavras-equivalente em densidade.)
 
@@ -206,7 +206,7 @@ Coragem de cortar é parte do método. Maioria das peças melhora quando você t
 - "É exatamente por isso" (frase-fechamento dramática)
 - "refletir profundamente" (verbo + advérbio genérico)
 - "verdadeiramente transformadores" (advérbio + adjetivo)
-- "destrava todo o potencial" (verbo IA + abstração)
+- "libera todo o potencial" (verbo IA + abstração; o verbo-freio com prefixo "des-" é igualmente banido)
 - "mais clareza, mais foco e mais resultado" (tricolon perfeito)
 
 13 padrões IA em 1 parágrafo.

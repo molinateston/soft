@@ -1,6 +1,6 @@
 # Operação Padrão - Regras compartilhadas de execução
 
-> **Regras genéricas de operação, tom, formato de entrega e economia. Valem pra todas as skills de peça do sistema Soft.**
+> **Regras genéricas de operação, tom, formato de entrega e economia. Valem pra todas as skills de peça deste sistema.**
 
 Essa reference existe pra evitar que cada skill de peça repita as mesmas regras operacionais no próprio SKILL.md. Centraliza aqui; cada skill consulta na primeira invocação da sessão.
 
@@ -33,16 +33,16 @@ O usuário senta pra criar conteúdo em lote. Se os tokens acabam depois de 2 pe
 - **Opções numeradas, não justificadas.** Quando entrega variações, numera - zero justificativa de cada uma.
 - **Pergunta de direção em 1 linha.** Não lista 5 variações explicadas.
 
-### No artifact
+### No arquivo entregue
 
-- **Só a versão final escolhida.** Variações, alternativas, rascunhos e raciocínio ficam no chat, antes do artifact.
+- **Só a versão final escolhida.** Variações, alternativas, rascunhos e raciocínio ficam na conversa, antes do arquivo.
 - **Sem metadados excessivos.** Sem "confira aqui os pontos aplicados".
 - **Sem checklist final visível.** Auditoria interna.
-- **Exceção única:** se o cliente pedir explicitamente "me dá 3 versões no artifact", aí sim.
+- **Exceção única:** se o cliente pedir explicitamente "me dá 3 versões no arquivo", aí sim.
 
 ### Edição pontual, não reescrita
 
-Quando o usuário pede ajuste pequeno ("troca o slide 2", "deixa a capa mais seca"), responde inline com só a parte nova. Não reabre artifact inteiro. Só reescreve completo se pedido explicitamente.
+Quando o usuário pede ajuste pequeno ("troca o slide 2", "deixa a capa mais seca"), responde inline com só a parte nova. Não reabre o arquivo inteiro. Só reescreve completo se pedido explicitamente.
 
 ### Carregamento de references sob demanda
 
@@ -58,17 +58,17 @@ Variação do mesmo conteúdo ("mesma embalagem, tom mais provocador") responde 
 
 ## 2. Formato de entrega (obrigatório)
 
-### Regra 1 - Deliverable final SEMPRE em artifact renderizado
+### Regra 1 - Deliverable final SEMPRE em arquivo salvo no disco
 
-O deliverable vai em artifact `text/markdown` (que renderiza) ou HTML quando a skill pedir. NUNCA cola markdown cru no chat como entrega final - isso sai sem renderizar e é inaceitável.
+O deliverable vai num arquivo `.md` salvo no disco (ou `.html` quando a skill pedir). Se o ambiente renderizar markdown, mostre. NUNCA cola markdown cru na conversa como entrega final - isso sai sem renderizar e é inaceitável.
 
-### Regra 2 - Artifact contém APENAS a versão final escolhida
+### Regra 2 - O arquivo contém APENAS a versão final escolhida
 
-Variações, alternativas, rascunhos, exemplos e raciocínio ficam NO CHAT, antes do artifact. O artifact é UMA versão única e pronta pra usar. Se o cliente não escolheu ainda entre opções, mostra as opções no chat e pergunta - só gera o artifact depois da escolha.
+Variações, alternativas, rascunhos, exemplos e raciocínio ficam NA CONVERSA, antes do arquivo. O arquivo é UMA versão única e pronta pra usar. Se o cliente não escolheu ainda entre opções, mostra as opções na conversa e pergunta - só gera o arquivo depois da escolha.
 
 ### Regra 3 - Exceção única
 
-Se o cliente pedir explicitamente "me dá 3 versões no artifact", aí sim. Caso contrário, 1 deliverable = 1 versão.
+Se o cliente pedir explicitamente "me dá 3 versões no arquivo", aí sim. Caso contrário, 1 deliverable = 1 versão.
 
 ---
 
@@ -93,7 +93,7 @@ Adapte vocabulário ao nicho do cliente, mas NUNCA relaxe os princípios acima.
 
 ## 4. Consulta obrigatória na primeira invocação da sessão
 
-Toda skill de peça do sistema Soft deve consultar, na primeira invocação:
+Toda skill de peça deste sistema deve consultar, na primeira invocação:
 
 1. **As 8 leis + a estrutura-mãe** - standalone em `shared-references/crivo/05-premissas-mestras.md` (a destilação que roda sem depender de outra skill). Se a skill trouxer o método completo, a versão longa vive em `guia/CODIGO-DE-ESCRITA.md` (opcional, mesma régua)
 2. **`shared-references/adaptacao-semantica.md`** - adaptação do vocabulário ao nicho do cliente
@@ -121,7 +121,7 @@ Os 5 movimentos de persuasão e os anti-padrões do formato viram **pré-filtro*
 
 ### 5b. Skills que só orquestram (não exportam peça)
 
-Se a skill apenas conduz a jornada e invoca a skill-mãe certa (ex: `soft-leon`), ela **não exporta peça**, então **não tem pasta `crivo/` própria nem roda este gate aqui dentro**. O Crivo bloqueante vive na **skill de peça invocada** (`soft-plano-posicionamento`, as atômicas de conteúdo `soft-conteudo-*`, a família de funil `soft-funil-*`, `soft-vendas`, a família de webinar `soft-webinar-*`), cada uma rodando o próprio `shared-references/crivo/` + `scripts/lint_copy.py` antes de devolver o ativo. Nenhuma peça sai sem passar lá.
+Se a skill apenas conduz a jornada e invoca a skill-mãe certa (ex: `soft-leon`), ela **não exporta peça**, então **não tem pasta `crivo/` própria nem roda este gate aqui dentro**. O Crivo bloqueante vive na **skill de peça invocada** (`soft-plano-posicionamento`, as atômicas de conteúdo `soft-conteudo-*`, a família de funil `soft-funil-*`, a família de vendas `soft-vendas-*`, a família de webinar `soft-webinar-*`), cada uma rodando o próprio `shared-references/crivo/` + `scripts/lint_copy.py` antes de devolver o ativo. Nenhuma peça sai sem passar lá.
 
 ---
 
@@ -129,9 +129,9 @@ Se a skill apenas conduz a jornada e invoca a skill-mãe certa (ex: `soft-leon`)
 
 Quando o usuário pede ajuste/variação/refino:
 
-- **Ajuste pontual** (troca uma linha, 1 card): responde inline, sem reabrir artifact.
+- **Ajuste pontual** (troca uma linha, 1 card): responde inline, sem reabrir o arquivo.
 - **Variação de ângulo** (mesmo conteúdo, lente diferente): responde inline com a versão nova.
-- **Reescrita completa** (muda direção): aí sim, novo artifact.
+- **Reescrita completa** (muda direção): aí sim, novo arquivo.
 
 Pergunta antes se não estiver óbvio qual dos 3 modos o usuário quer.
 

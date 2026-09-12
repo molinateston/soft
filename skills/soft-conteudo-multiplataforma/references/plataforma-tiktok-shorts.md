@@ -47,7 +47,7 @@ Se sim, adapta só o invólucro (legenda + hashtag + áudio). Se não, reescreve
 - CTA: "comenta [PALAVRA] abaixo que eu respondo"
 
 ### Instagram Reels
-- Mantém como já tá no soft-conteudo
+- Mantém como já tá na peça de origem (soft-conteudo-*)
 - Áudio: original ou trending sem música em foco
 - Hashtags 3-5
 - CTA: "Direct [PALAVRA]"

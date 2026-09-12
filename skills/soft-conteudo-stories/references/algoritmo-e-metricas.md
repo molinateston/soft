@@ -1,4 +1,4 @@
-# Algoritmo e Métricas de Stories - reference da soft-conteudo
+# Algoritmo e Métricas de Stories - reference da soft-conteudo-stories
 
 Como o Instagram Stories funciona no algoritmo atual, o que medir, e como diagnosticar quando algo não performa.
 

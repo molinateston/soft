@@ -144,7 +144,7 @@ ask_user_input_v0(questions=[
 
 ## Modo texto (sem tool)
 
-Se a tool `ask_user_input_v0` não estiver disponível (Claude Code, terminal), faça em markdown:
+Se o ambiente não tiver widget de pergunta interativa (terminal, agente), faça em markdown:
 
 ```markdown
 Antes de gerar, preciso de 3 escolhas rápidas:

@@ -1,7 +1,7 @@
 
 # Design de Carrossel (reference da soft-designer)
 
-Designer dos carrosséis do método Soft Business. **Escreve a copy-visual de cada card pelo Crivo embutido E desenha os slides**, entregando PNGs 1080×1350 que param o scroll e quebram padrão visual no feed.
+Designer dos carrosséis deste método. **Escreve a copy-visual de cada card pelo Crivo embutido E desenha os slides**, entregando PNGs 1080×1350 que param o scroll e quebram padrão visual no feed.
 
 **Lugar no método:** o Carrossel inteiro sai daqui, a copy-visual de cada card e o visual. A TESE e a copy-de-apoio chegam do usuário ou da skill de conteúdo; a copy-VISUAL (a frase de cada card) é escrita aqui, passa pelo Crivo, e aí vira imagem. Dois trabalhos num: escrever a copy-visual gated e desenhar.
 
@@ -13,7 +13,7 @@ Designer dos carrosséis do método Soft Business. **Escreve a copy-visual de ca
 
 A estrutura do Carrossel não mora aqui. Na primeira invocação da sessão, leia:
 
-- A **Fórmula 7** (os 7 movimentos: Hook · Quebra de Crença · Diagnóstico · Vilão · Nova Oportunidade · Mecanismo · Convite) e a regra de **7 a 10 slides** vêm da tese que chega da skill de conteúdo, ou de `soft-conteudo` (Cap 6 do guia). **É a fonte da estrutura**, pra estruturar e reconhecer a função de cada card.
+- A **Fórmula 7** (os 7 movimentos: Hook · Quebra de Crença · Diagnóstico · Vilão · Nova Oportunidade · Mecanismo · Convite) e a regra de **7 a 10 slides** vêm da tese que chega da skill de conteúdo, ou de `soft-conteudo-*` (Cap 6 do guia). **É a fonte da estrutura**, pra estruturar e reconhecer a função de cada card.
 
 A copy-visual obedece a **lei de escrita do Crivo** (`shared-references/crivo/05-premissas-mestras.md`): a estrutura-mãe afiada (**Diagnóstico, Nomeação, Polaridade, Nova visão, Consequência, Movimento**, que espelha a Fórmula 7) e a lente da **percepção**, cada slide carrega **uma ideia**, fechando numa frase-conclusão. Depois que a copy passou no gate, o layout **amplifica** a frase (espaço negativo brutal, accent cirúrgico nas 2 a 4 palavras de mais peso), sem mudar palavra.
 
@@ -25,7 +25,7 @@ Se a copy chegar com menos de 7 ou mais de 10 slides, **desenhe o que veio** (a 
 
 ## O que entrega
 
-Os **slides do Carrossel em PNG 1080×1350** (artifact final), na ordem, prontos pra postar ou impulsionar. O caminho até eles: detectar a função de cada slide → escolher família visual + cor + tipografia → renderizar HTML/CSS → auditar → preview pra aprovação → exportar PNG.
+Os **slides do Carrossel em PNG 1080×1350** (arquivos finais salvos no disco), na ordem, prontos pra postar ou impulsionar. O caminho até eles: detectar a função de cada slide → escolher família visual + cor + tipografia → renderizar HTML/CSS → auditar → preview pra aprovação → exportar PNG.
 
 ---
 
@@ -157,7 +157,7 @@ Slide que falhou e não pode ser corrigido (ex.: copy impossível de acomodar em
 
 ### Passo 6, Mostre preview ANTES de exportar
 
-Crie o HTML em `/home/claude/<nome-do-trabalho>/preview.html` e mostre com `present_files`. Diga exatamente:
+Crie o HTML em `$WORKDIR/<nome-do-trabalho>/preview.html` (`WORKDIR` = diretório de trabalho do ambiente; sem variável definida, use a working dir atual) e mostre com o apresentador de arquivo nativo, se o ambiente tiver um; senão, informe o caminho. Diga exatamente:
 
 > **"Quais slides precisam de ajuste antes de eu exportar os PNGs?"**
 
@@ -169,13 +169,13 @@ Use `scripts/export_pngs.py`:
 
 ```bash
 python3 scripts/export_pngs.py \
-  --html /home/claude/<nome>/preview.html \
-  --output /home/claude/<nome>/slides
+  --html $WORKDIR/<nome>/preview.html \
+  --output $WORKDIR/<nome>/slides
 ```
 
 O `export_pngs.py` roda o **gate de craft em código** (`scripts/craft.py`) antes de capturar: reprova peça com texto ilegível contra o fundo (contraste WCAG, o "branco no branco") e sinaliza órfã provável. Falha dura = **não exporta** (corrige e roda de novo; `--force` ignora, não use). É o que garante que os checks 14 e 10 da auditoria aconteçam SEMPRE, em código, não só quando o agente lembra. Na escrita de cada bloco de texto, use `nw()` de `scripts/craft.py` pra travar a anti-órfã na origem.
 
-Saída: `slide_01.png`, `slide_02.png`, … com zero-padding de 2 dígitos. Mova os PNGs pra `/mnt/user-data/outputs/` e use `present_files` com **todos os slides**, na ordem (o primeiro é o slide 1).
+Saída: `slide_01.png`, `slide_02.png`, … com zero-padding de 2 dígitos. Mova os PNGs pra o diretório de saída do ambiente (`$OUTDIR`, ou a working dir quando não houver um) e use o apresentador de arquivo nativo, se o ambiente tiver um (senão informe os caminhos), com **todos os slides**, na ordem (o primeiro é o slide 1).
 
 ---
 

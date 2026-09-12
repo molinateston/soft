@@ -90,7 +90,7 @@ Palavras que formam unidade atômica **nunca** quebram entre linhas:
 - Marcas: "WhatsApp", "ChatGPT", "Instagram"
 - Valores monetários: "R$3k", "R$ 3.000", "$50"
 - Números com unidade: "3 msgs", "48h", "10x"
-- Nomes próprios compostos: "Soft Business", "Carrossel 3C"
+- Nomes próprios compostos: "Design System", "Carrossel 3C"
 - Siglas: "CMV", "ROI", "ICP"
 
 Implementação: envolva em `<span style="white-space:nowrap">WhatsApp</span>` ou use `&nbsp;` entre as partes.

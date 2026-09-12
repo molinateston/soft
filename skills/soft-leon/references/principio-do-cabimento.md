@@ -128,7 +128,7 @@ Isso funciona pra empresa em crescimento agressivo. **Não funciona pra profissi
 
 O profissional liberal não tem equipe pra absorver a sobrecarga. A sobrecarga vai pra família, pro corpo, pra saúde mental. Daí 12 meses depois, ele desiste.
 
-Soft Business existe pra evitar isso. Princípio do Cabimento é a defesa.
+este método existe pra evitar isso. Princípio do Cabimento é a defesa.
 
 ---
 

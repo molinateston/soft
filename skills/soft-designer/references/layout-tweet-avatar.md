@@ -8,7 +8,7 @@ Referência visual: posts de Christian Prado (@ochrisprado) e Renato Duran (@ren
 
 Não confunda o hook que imita um print com o **carrossel editorial no molde tweet**. Quando o usuário pedir “igual à versão restaurada” ou fornecer uma referência equivalente, o cabeçalho compacto de autor pode continuar nos slides seguintes como assinatura. O avatar grande + frase de hook continua exclusivo do slide 1.
 
-Régua aprovada por Léo em 17/08/2026, calibrada pela amostra `/home/cloud/trabalho/conteudo/2026-08/2026-08-13-carrosseis-banco-modelagem/preview-v1-framework-completo-20260817-a/mosaico-preview-v1.png`:
+Régua de calibração do molde tweet editorial (se o dono tiver um mosaico de referência aprovado, calibre por ele):
 
 - Base em texto editorial: título forte, corpo 400/500.
 - Verde, negrito, traço e caixa são acentos semânticos; não usar em tudo nem repetir a mesma quebra em todo slide.

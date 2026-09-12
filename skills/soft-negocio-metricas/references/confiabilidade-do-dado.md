@@ -38,7 +38,7 @@ Ler venda numa janela menor que o ciclo de venda subestima o resultado: o lead q
 
 ### Prazo mínimo de janela por ticket
 
-| Ticket | Ciclo típico Soft | Janela mínima pra julgar venda |
+| Ticket | Ciclo típico do método | Janela mínima pra julgar venda |
 |---|---|---|
 | até R$1.500 | 5 a 10 dias | 2 semanas |
 | R$1.500 a R$5.000 | 10 a 20 dias | 4 semanas |
@@ -78,6 +78,27 @@ Rastreio quebrado produz número que parece bom e não é.
 
 > `RASTREIO QUEBRADO.` [Número A] e [número B] não fecham entre si ([evidência]). Enquanto isso não bate, qualquer diagnóstico meu vai estar em cima de dado torto. Conserta primeiro: [ação de rastreio]. Depois disso a leitura vale.
 
+**Caso 2 do rastreio, e ele não depende de CRM nenhum: incoerência aritmética entre etapas.** O funil só anda pra frente, então **a etapa N+1 nunca pode ser maior que a etapa N**. Quando for, o dado está torto na origem (contagem manual duplicada, período diferente entre os dois números, ou etapa contada em canal que a anterior não cobre), e isso se descobre com uma subtração, sem ferramenta.
+
+**A checagem, obrigatória e escrita.** Antes de ler qualquer taxa, imprima a cascata do funil na ordem e confira cada par vizinho:
+
+```
+CASCATA (etapa N+1 nunca maior que etapa N)
+  alcance        4.200
+  cliques          180   ok
+  respostas          9   ok
+  conversas         12   INCOERENTE (12 > 9)
+  reuniões           3   ok
+  vendas             1   ok
+Pares incoerentes: 1
+```
+
+Com 1 ou mais pares incoerentes, a saída é este molde, e não uma taxa:
+
+> `RASTREIO QUEBRADO (incoerência de cascata).` [Etapa N+1] tem [valor] e [etapa N] tem [valor menor]. Ninguém chega na etapa seguinte sem passar pela anterior, então um dos dois números está contando outra coisa: ou o período dos dois é diferente, ou a etapa maior inclui gente que entrou por outro caminho, ou houve contagem em dobro. Me diz de onde saiu cada um dos dois números e o período exato de cada um. Enquanto isso não bate, eu não leio a taxa entre essas duas etapas.
+
+As etapas coerentes continuam sendo diagnosticadas normalmente; para só o par incoerente.
+
 ---
 
 ## Teste 4, ATRIBUIÇÃO (a venda dessa semana veio do lead dessa semana?)
@@ -93,7 +114,7 @@ Em funil com ciclo, a venda de hoje vem do lead de semanas atrás. Dividir venda
 ## Depois dos 4 testes
 
 - **Passou nos 4** → segue pro Passo 2 normalmente.
-- **Reprovou em qualquer um** → a saída daquela etapa vira o molde de recusa. **Isso não trava a leitura inteira:** as etapas que passaram continuam sendo lidas e diagnosticadas normalmente. Trava só a conclusão sobre a etapa contaminada.
+- **Reprovou em qualquer um** → a saída daquela etapa vira o molde de recusa. **Isso não para a leitura inteira:** as etapas que passaram continuam sendo lidas e diagnosticadas normalmente. Para só a conclusão sobre a etapa contaminada.
 - **Reprovou em tudo** → a saída é o plano de medição, e mais nada. Nenhuma recomendação de operação.
 
 ---

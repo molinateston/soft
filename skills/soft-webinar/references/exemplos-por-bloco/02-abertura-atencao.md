@@ -187,7 +187,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 - [ ] **Comando físico de engajamento**: "pega um caderno, anota tudo" (Aluna 80k), "papel e caneta" (webinar de gestão ágil estudado), "take it out right now" (Fladlien).
 - [ ] **Prazo/número grifado verbalmente** ("vou grifar essa palavrinha: 90 dias", "três vezes mais, não aceito menos") - o número da promessa fica marcado pra reaparecer na oferta.
 
-## Anti-padrões (o que nenhum campeão faz / o que quebraria o método Soft aqui)
+## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
 - **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (Fladlien #2, "spoiler") - sem número, sem stack. (O price-seeding da GA acontece no bloco de autoridade, como fato de catálogo - não aqui.)
 - **Revelar o presente do fim.** Todos escondem o conteúdo do presente ("eu não vou falar o que é"). Presente revelado = loop fechado = retenção perdida.

@@ -20,7 +20,7 @@ Transforma "quero faturar Xk" em uma ficha de execução semana a semana, do con
 - 2. Princípios não-negociáveis
 - 3. Estrutura do Plano de Guerra em 5 blocos
 - 4. Operação do Plano de Guerra
-- 5. Integração com o resto do sistema Soft
+- 5. Integração com o resto do sistema do método
 - 6. Anti-padrões (o que o Plano de Guerra NÃO faz)
 - 7. Princípios de comunicação Soft aplicados
 - 8. References do Plano de Guerra
@@ -42,7 +42,7 @@ Transforma "quero faturar Xk" em uma ficha de execução semana a semana, do con
 ### Quando NÃO usar
 
 - Cliente quer pílula didática de fase específica → o LEON puxa a pílula didática direto.
-- Cliente quer Posicionamento Incomum → o LEON invoca `soft-posicionamento`.
+- Cliente quer Posicionamento Incomum → o LEON invoca `soft-plano-posicionamento`.
 - Cliente quer Carta, Carrossel, Reel, Stories, Comercial → skill especialista da peça.
 - Cliente quer projeção de 12+ meses ou estratégia de longo prazo, Soft não opera esse horizonte. O LEON explica e oferece plano de 6 meses no lugar.
 
@@ -229,13 +229,13 @@ Acima desses limites = irrealismo. O LEON corta a meta e propõe valor ajustado,
 
 Cliente novo (R$0-3k/mês) muitas vezes não tem ticket médio definido nem mix de oferta. Nesse caso:
 
-1. O LEON ajuda a definir ticket-base: pega o que o método Soft sustenta no nicho dele (puxa o `soft-posicionamento` se o Posicionamento já existe, senão pergunta direto).
+1. O LEON ajuda a definir ticket-base: pega o que este método sustenta no nicho dele (puxa o `soft-plano-posicionamento` se o Posicionamento já existe, senão pergunta direto).
 2. Aplica o mix sugerido pro estágio Destravar (30/70).
 3. Marca explicitamente: *"Mês 1 é descoberta de tickets reais. M2 a gente recalibra com dados teus."*
 
 ---
 
-## 5. Integração com o resto do sistema Soft
+## 5. Integração com o resto do sistema do método
 
 ### 5.1. Como o LEON aciona o Plano de Guerra
 
@@ -275,7 +275,7 @@ O Plano de Guerra **não recalcula** Posicionamento. Assume que ou já existe (F
 
 ❌ **Não inventa benchmark.** Toda taxa tem origem rastreável: Insights nativos do Instagram, WhatsApp Business, ou agregado de operações Soft. Se não tem dado, não vira benchmark.
 
-❌ **Não cita guru ou método de terceiro pelo nome.** Plano é Soft. Engenharia é do autor do método.
+❌ **Não cita guru ou método de terceiro pelo nome.** O Plano é do método. A engenharia é do autor do método.
 
 ❌ **Não vira fórmula rígida.** Cliente que diz "quero seguir cego pelos próximos 6 meses sem olhar real" tá errado. O LEON avisa: *"O benchmark é o ponto de partida. Real é a chegada. Sem recalibragem, plano morre em M2."*
 
@@ -301,7 +301,7 @@ Cliente que vê o plano e foge ("muito trabalho", "não tenho tempo") era o clie
 
 ### 7.4. Volume + foco + IA Vertical
 
-A trinca central do método Soft aparece no plano:
+A trinca central deste método aparece no plano:
 - **Volume** = peças/semana calculado
 - **Foco** = uma única dor, um único Posicionamento, um único nicho
 - **IA Vertical** = obrigatória acima de R$50k/mês de meta M6

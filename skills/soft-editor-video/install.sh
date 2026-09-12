@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Instalador da skill no Claude Code.
+# Instalador da skill na pasta de skills do agente.
 # Uso: bash install.sh   (rode de dentro da pasta do repo, OU clone direto no destino)
 set -e
 DEST="$HOME/.claude/skills/soft-editor-video"
@@ -12,7 +12,7 @@ if [ "$HERE" != "$DEST" ]; then
   cp -R "$HERE/." "$DEST/"
 fi
 echo "OK! Skill instalada em $DEST"
-echo "Abra o Claude Code e mande um vídeo pra editar — na 1a vez ele pede suas chaves e entrevista seus personagens."
+echo "Abra o agente e mande um vídeo pra editar. Na 1a vez ele pede suas chaves e entrevista seus personagens."
 
 # checagem rápida de dependências
 command -v ffmpeg >/dev/null || echo "AVISO: instale o ffmpeg (brew install ffmpeg / apt install ffmpeg)"

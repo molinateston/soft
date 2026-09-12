@@ -213,13 +213,13 @@ Vale pro nome geral do Mecanismo e pra cada parte (e pro motor, se houver).
 
 **Passo F, nomear o Mecanismo inteiro.** Propõe **3–5 nomes** gerais e deixa o especialista escolher. Gera curiosidade + autenticidade, nunca mais-do-mesmo.
 
-> **Como entregar os nomes (inline, antes do artifact):**
+> **Como entregar os nomes (inline, antes do documento):**
 > "Com o Mecanismo pronto, te proponho 5 nomes possíveis. Cada um com uma lógica diferente. Escolhe um ou me pede variação:
 > **1. [NOME]**, [tipo: acrônimo / A+B / palavra única / etc]. Por que funciona: [1 linha].
 > ... (2 a 5)
 > Qual tu quer usar? Ou me diz o tom que tu prefere e eu gero mais."
 
-O especialista escolhe, e só aí a skill abre o artifact com o Plano completo.
+O especialista escolhe, e só aí a skill monta o documento com o Plano completo.
 
 ---
 

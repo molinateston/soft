@@ -1,11 +1,25 @@
 import asyncio, base64, re, os
+from pathlib import Path
 from playwright.async_api import async_playwright
 
-AVATAR = "/tmp/lean-bridge/avatar-circle.png"
-with open(AVATAR, 'rb') as f:
-    AVATAR_B64 = base64.b64encode(f.read()).decode()
+# Identidade e caminhos vem do ambiente (onboarding da skill), nunca cravados aqui.
+#   PERFIL_NOME   nome de exibicao do dono, como ele escreve
+#   PERFIL_HANDLE handle do perfil, com arroba
+#   PERFIL_AVATAR caminho do PNG do avatar (quadrado)
+#   SAIDA_DIR     pasta de saida dos renders
+SKILL_DIR = Path(__file__).resolve().parent.parent
+NOME = os.environ.get("PERFIL_NOME", "<nome do dono>")
+HANDLE = os.environ.get("PERFIL_HANDLE", "@handle")
+AVATAR = os.environ.get("PERFIL_AVATAR", "")
 
-ROOT = "/home/cloud/trabalho/conteudo/2026-08/2026-08-13-carrosseis-banco-modelagem/render-tweet"
+if AVATAR and os.path.isfile(AVATAR):
+    with open(AVATAR, 'rb') as f:
+        AVATAR_B64 = base64.b64encode(f.read()).decode()
+else:
+    AVATAR_B64 = ""  # sem avatar real a peca sai como rascunho
+    print("aviso: sem PERFIL_AVATAR valido, o cabecalho sai com placeholder (rascunho)")
+
+ROOT = os.environ.get("SAIDA_DIR", str(SKILL_DIR / "saida"))
 VERIFIED = "#1D9BF0"
 
 T = dict(BG="#0A0A0A", TEXT="#F5F2EC", MUTED="#8A8580", KW="#4ade80",
@@ -81,19 +95,27 @@ body {{ width:1080px; height:1350px; background:{T['BODYBG']};
 .footer {{ position:absolute; left:92px; bottom:56px; font-size:26px; color:{T['MUTED']}; }}
 """
 
+def avatar_img():
+    if AVATAR_B64:
+        return f'<img src="data:image/png;base64,{AVATAR_B64}">'
+    inicial = (NOME.strip() or "?")[0].upper()
+    return (f'<div style="width:100%;height:100%;display:flex;align-items:center;'
+            f'justify-content:center;background:{T["CHIP_BG"]};color:{T["MUTED"]};'
+            f'font-size:44px;font-weight:800;">{inicial}</div>')
+
 def header():
     return f"""
     <div class="autor">
-      <div class="avatar"><img src="data:image/png;base64,{AVATAR_B64}"></div>
+      <div class="avatar">{avatar_img()}</div>
       <div class="autor-info">
         <div class="nome-linha">
-          <span class="nome">Léo Molina</span>
+          <span class="nome">{NOME}</span>
           <svg class="selo" viewBox="0 0 24 24" fill="{VERIFIED}">
             <path d="M12 1l2.4 1.8 3-.5 1.1 2.8 2.8 1.1-.5 3L23 12l-1.8 2.4.5 3-2.8 1.1-1.1 2.8-3-.5L12 23l-2.4-1.8-3 .5-1.1-2.8-2.8-1.1.5-3L1 12l1.8-2.4-.5-3 2.8-1.1L6.4 2.3l3 .5L12 1z"/>
             <path d="M9.5 12.5l1.8 1.8 3.7-4.1" stroke="{T['BG']}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="handle">@instadoleomolina</div>
+        <div class="handle">{HANDLE}</div>
       </div>
     </div>"""
 
@@ -126,60 +148,23 @@ def slide_cta(s, kw="SÓCIO"):
     return wrap(inner, fs(len(s), 54))
 
 # ---------- CARROSSEIS ----------
+# Banco de exemplo, FICTICIO, so pra exercitar os frames e o arco. Substitua pelo carrossel
+# real do dono antes de renderizar qualquer peca de verdade: a copy nunca nasce aqui, ela
+# chega pronta da skill de copy e este script so a veste no formato.
 CARROSSEIS = {}
 
-CARROSSEIS["01-imobiliaria-24h"] = [
-    slide_texto("Montei uma operação de vendas do zero com IA em 24 horas.\n\nNo primeiro mês ela me deu mais de 10 mil reais.", kw="IA", big=True),
-    slide_texto("Uma imobiliária, um empreendimento parado, e um dia de trabalho.\n\nNenhum curso no meio, nenhuma equipe contratada. Só operação montada."),
-    slide_texto("De manhã eu não tinha nada. Nem página, nem lead, nem corretor conversando com ninguém.\n\nÀ noite, o empreendimento já tinha operação inteira no ar."),
-    slide_texto("Primeiro passo: a página do empreendimento.\n\nSubiu no mesmo dia. Sem briefing de uma semana, sem agência, sem fila de aprovação."),
-    slide_texto("Segundo passo: o tráfego.\n\nA IA montou e geriu a campanha. Não fiquei testando anúncio manualmente por três semanas. O lead começou a entrar no mesmo dia.", kw="IA"),
-    slide_texto("Terceiro passo: o atendimento.\n\nO lead não caiu numa planilha esperando um corretor sobrar tempo. A IA atendeu na hora, como uma SDR: qualificou, tirou dúvida, e levou pra visita.", kw="IA"),
-    slide_kpi("Resultado: visita marcada no mesmo mês.", "10 mil reais", "de comissão pra mim. Mais a comissão dos dois corretores que trabalharam comigo nesse empreendimento."),
-    slide_chips("Isso é operação. Página, tráfego e atendimento rodaram como um sistema só.",
-                [("Brain", "carrega o contexto do negócio."), ("Skills", "executam cada tarefa."), ("Orquestração", "encadeia tudo sozinha.")],
-                "É isso que chamo de Sócio IA.", kw="Sócio IA"),
-    slide_cta("Comenta SÓCIO que eu te mostro como montei o Brain, as Skills e a Orquestração dessa operação."),
-]
-
-CARROSSEIS["02-orquestra-ferramentas"] = [
-    slide_texto("Você não precisa de 10 ferramentas de IA.\n\nPrecisa de 1 Sócio que orquestra todas elas.", kw="1 Sócio", big=True),
-    slide_texto("O problema é excesso de ferramenta, não falta.\n\nCada tarefa nova, um aplicativo novo. E nenhum deles conversa com o outro."),
-    slide_texto("Primeira tarefa: escrever.\n\nUma IA solta escreve o texto. Mas esquece o que você já vendeu, o preço que você cobra, o jeito que você fala."),
-    slide_texto("Segunda tarefa: criar imagem.\n\nOutra aba, outro login, outro pedido do zero. O Sócio IA gera a arte já sabendo a identidade visual do seu negócio, sem você repetir o contexto.", kw="Sócio IA"),
-    slide_texto("Terceira tarefa: responder o lead.\n\nVocê copia a pergunta de um aplicativo e cola em outro pra gerar a resposta. O Sócio IA lê a conversa, sabe o histórico do lead, e responde dentro do mesmo canal.", kw="Sócio IA"),
-    slide_texto("Quarta tarefa: organizar a agenda.\n\nNenhuma IA solta marca compromisso sozinha. O Sócio IA marca, remarca e avisa, porque enxerga a agenda como parte da mesma operação.", kw="Sócio IA"),
-    slide_texto("Quinta tarefa: guardar o histórico do negócio.\n\nCada ferramenta solta esquece tudo numa conversa nova. O Sócio IA carrega o histórico do seu negócio pronto pra qualquer tarefa, sem você reexplicar do zero.", kw="Sócio IA"),
-    slide_texto("Dez ferramentas soltas custam tempo trocando de aba.\n\nUm sistema orquestrado custa zero.", kw="custa zero", big=True),
-    slide_cta("Comenta SÓCIO que eu te mostro como monto essa orquestra de tarefas com Brain, Skills e Orquestração."),
-]
-
-CARROSSEIS["03-esteira-vende-todo-dia"] = [
-    slide_texto("Montei uma esteira que vende todo dia.\n\nEu só aprovo.", kw="vende todo dia", big=True),
-    slide_texto("Nos próximos slides, os passos pra montar uma esteira assim no seu negócio, sem contratar mais ninguém."),
-    slide_texto("Passo 1. Um sistema lê o histórico do seu negócio: sua voz, sua oferta, seu preço, o que já vendeu antes."),
-    slide_texto("Passo 2. Esse mesmo sistema escolhe o assunto do dia sozinho, puxando do que já funcionou com o seu cliente."),
-    slide_texto("Passo 3. Ele escreve a peça na sua voz e monta a oferta que fecha o texto, sem você abrir um documento em branco."),
-    slide_texto("Passo 4. Você recebe pronto, aprova em um clique, e o sistema publica. A esteira roda de novo amanhã sozinha.", kw="sozinha"),
-    slide_chips("O motivo disso funcionar: 3 partes trabalhando juntas.",
-                [("Brain", "guarda o contexto do seu negócio."), ("Skills", "executam cada tarefa."), ("Orquestração", "encadeia tudo sem você repetir comando.")],
-                "É o mecanismo por trás do Sócio IA.", kw="Sócio IA"),
-    slide_cta("Comenta SÓCIO que eu te mostro como monto essa esteira com Brain, Skills e Orquestração."),
-]
-
-CARROSSEIS["04-7-tarefas-socio-ia"] = [
-    slide_texto("As 7 tarefas da sua semana que o Sócio IA assume por você.", kw="Sócio IA", big=True),
-    slide_texto("Item 1. Escrever o conteúdo do dia.\n\nVocê não abre um documento em branco, o sistema já escreve na sua voz, com a sua oferta dentro do texto."),
-    slide_texto("Item 2. Montar a arte da peça.\n\nO texto sai pronto e a imagem sai junto, no seu padrão visual, sem você abrir editor nenhum."),
-    slide_texto("Item 3. Responder o lead que chegou.\n\nAlguém comenta ou manda mensagem, o sistema qualifica na hora, sem esperar você abrir o celular."),
-    slide_texto("Item 4. Montar a proposta comercial.\n\nDepois da conversa, a proposta com preço e escopo sai pronta, sem você recortar de um modelo antigo."),
-    slide_texto("Item 5. Fazer o follow-up de quem sumiu.\n\nQuem não respondeu em 3 dias recebe a próxima mensagem sozinho, sem entrar na sua lista de pendência."),
-    slide_texto("Item 6. Organizar a agenda de reunião.\n\nO sistema encaixa o horário com o lead e já manda o convite, sem ida e volta de mensagem pra fechar hora."),
-    slide_texto("Item 7. Montar o relatório da semana.\n\nToda sexta o número do que vendeu, do que empacou e do que precisa de atenção chega pronto pra você ler."),
-    slide_chips("O motivo disso funcionar: 3 partes trabalhando juntas.",
-                [("Brain", "guarda o contexto: voz, oferta, preço, histórico."), ("Skills", "executam cada tarefa."), ("Orquestração", "encadeia tudo sem você repetir comando.")],
-                "É o mecanismo por trás do Sócio IA.", kw="Sócio IA"),
-    slide_cta("Comenta SÓCIO que eu te mostro como coloco essas 7 tarefas pra rodar com Brain, Skills e Orquestração."),
+CARROSSEIS["exemplo-oficina-em-um-dia"] = [
+    slide_texto("Montei a operacao de vendas de uma oficina mecanica do zero em um dia.\n\nNo primeiro mes ela pagou o proprio custo tres vezes.", kw="um dia", big=True),
+    slide_texto("Uma oficina de bairro, uma agenda vazia e um dia de trabalho.\n\nNenhum curso no meio, nenhuma equipe contratada. So operacao montada."),
+    slide_texto("De manha nao existia nada. Nem pagina, nem orcamento saindo, nem cliente conversando com ninguem.\n\nA noite, a oficina ja tinha operacao inteira no ar."),
+    slide_texto("Primeiro passo: a pagina do servico.\n\nSubiu no mesmo dia. Sem briefing de uma semana, sem agencia, sem fila de aprovacao."),
+    slide_texto("Segundo passo: o anuncio.\n\nO sistema montou e geriu a campanha. O primeiro pedido de orcamento entrou no mesmo dia.", kw="mesmo dia"),
+    slide_texto("Terceiro passo: o atendimento.\n\nO pedido nao caiu numa planilha esperando alguem sobrar tempo. Foi atendido na hora: qualificou, tirou duvida, marcou a revisao."),
+    slide_kpi("Resultado do primeiro mes.", "3x o custo", "de retorno, contando so as revisoes que entraram pela pagina nova."),
+    slide_chips("Isso e operacao. Pagina, anuncio e atendimento rodaram como um sistema so.",
+                [("Contexto", "guarda o que o negocio vende e por quanto."), ("Tarefas", "executam cada etapa."), ("Encadeamento", "liga uma na outra sozinho.")],
+                "E o mecanismo por tras disso.", kw="mecanismo"),
+    slide_cta("Comenta OPERACAO que eu te mostro como montei o contexto, as tarefas e o encadeamento dessa operacao."),
 ]
 
 async def build_mosaic(page, paths, out_path):
@@ -205,8 +190,13 @@ async def main():
             d = f"{ROOT}/{slug}"; os.makedirs(d, exist_ok=True)
             paths = []
             await page.set_viewport_size({"width":1080,"height":1350})
+            fonte = f"{d}/_fonte"; os.makedirs(fonte, exist_ok=True)
             for i, html in enumerate(slides, 1):
                 out = f"{d}/slide-{i:02d}.png"
+                # o HTML de cada card fica no disco pro verificador contar o verde
+                # de acento por card e conferir o cabeçalho sem depender do pixel
+                with open(f"{fonte}/slide-{i:02d}.html", "w", encoding="utf-8") as fh:
+                    fh.write(html)
                 await page.set_content(html)
                 await page.wait_for_timeout(120)
                 await page.screenshot(path=out)
