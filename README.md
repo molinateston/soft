@@ -52,6 +52,7 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 - `soft-google-docs`
 - `soft-launch`
 - `soft-leon`
+- `soft-members`
 - `soft-negocio-metricas`
 - `soft-organizacao-vps`
 - `soft-plano-negocio`

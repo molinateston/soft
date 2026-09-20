@@ -1,0 +1,56 @@
+# Soft Members: compose de tres servicos (app, mongo, caddy).
+# Todas as variaveis vem do arquivo .env ao lado deste arquivo.
+# Antes de subir, rode: bash checar_env.sh
+
+services:
+    app:
+        image: ${SOFT_MEMBERS_IMAGE:?preencha SOFT_MEMBERS_IMAGE no .env}
+        container_name: soft-members-app
+        restart: unless-stopped
+        env_file:
+            - .env
+        environment:
+            - PORT=8080
+        expose:
+            - "8080"
+        # A porta sai apenas no loopback: quem serve para a internet e o caddy.
+        ports:
+            - "127.0.0.1:8080:8080"
+        volumes:
+            - media_data:/data/media
+        depends_on:
+            - mongo
+
+    mongo:
+        image: mongo:7
+        container_name: soft-members-mongo
+        restart: unless-stopped
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER:?preencha MONGO_USER no .env}
+            MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASS:?preencha MONGO_PASS no .env}
+        volumes:
+            # Volume nomeado: o dado sobrevive a docker compose down.
+            - mongo_data:/data/db
+
+    caddy:
+        image: caddy:2
+        container_name: soft-members-caddy
+        restart: unless-stopped
+        environment:
+            # O caddy so precisa saber o dominio, nao as senhas do .env.
+            - DOMINIO=${DOMINIO}
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./Caddyfile:/etc/caddy/Caddyfile:ro
+            - caddy_data:/data
+            - caddy_config:/config
+        depends_on:
+            - app
+
+volumes:
+    mongo_data:
+    media_data:
+    caddy_data:
+    caddy_config:

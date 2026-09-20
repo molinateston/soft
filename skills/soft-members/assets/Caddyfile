@@ -1,0 +1,9 @@
+# O dominio vem da variavel DOMINIO do .env.
+# Em producao o Caddy pega o certificado sozinho no Let's Encrypt.
+{$DOMINIO} {
+	reverse_proxy app:8080
+
+	# Bancada (teste local, sem dominio publico): descomente a linha abaixo
+	# para o Caddy emitir um certificado proprio em vez de falar com o Let's Encrypt.
+	# tls internal
+}
