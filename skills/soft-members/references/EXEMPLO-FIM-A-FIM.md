@@ -148,18 +148,17 @@ Ela assistiu 3 das 11 aulas, a última anteontem.
 
 > quero pôr minha logo e mudar a cor pro meu rosa
 
-Antes de responder, o agente confere o armazenamento de imagem com o POST de assinatura de `personalizar.md`. Volta 500: não está configurado naquela instalação. Se ele tivesse usado GET, viria 405, que é erro dele e não prova nada.
+Antes de responder, o agente confere o armazenamento de imagem com o POST de assinatura de `personalizar.md`. Volta 200 com `mode: local`: a instalação guarda imagem no disco dela mesma. O agente pede o arquivo da logo.
 
 ```
-Duas coisas, e vou ser direto.
-A cor e o nome da escola eu não mexo daqui, só dá por dentro do painel, que é em inglês. Te passo o caminho em três linhas se quiser.
-A logo eu não consigo nem por lá: sua instalação está sem a parte que guarda imagem, e quem instalou consegue ligar isso.
-O que eu faço agora e muda bastante: deixo uma aula aberta de amostra e escrevo a abertura do curso com as suas palavras. Quer?
+A logo eu ponho daqui, me manda o arquivo.
+A cor e o nome da escola não saem por fora, só por dentro do painel, que é em inglês. Te passo o caminho em três linhas se quiser.
+Já aproveito e deixo uma aula aberta de amostra e escrevo a abertura do curso com as suas palavras. Quer?
 ```
 
-> quero
+> quero, a logo tá aí
 
-O agente escreve a descrição do curso na voz dela, abre a aula da massa base para quem não é aluno, e devolve o link.
+O agente sobe a logo pela API, escreve a descrição do curso na voz dela, abre a aula da massa base para quem não é aluno, e devolve o link.
 
 ## O que este exemplo mostra
 

@@ -16,8 +16,31 @@ else:
     AVATAR_B64 = ""
     print("aviso: sem PERFIL_AVATAR valido, o cabecalho sai com placeholder (rascunho)")
 
-OUTDIR = os.environ.get("SAIDA_DIR", str(SKILL_DIR / "saida" / "frames"))
-os.makedirs(OUTDIR, exist_ok=True)
+def exigir_saida_dir():
+    """SAIDA_DIR e obrigatoria: o script nunca escreve dentro da pasta da skill.
+
+    Resolvida na hora de escrever, pra que importar os frames (frame_thread,
+    frame_quote, frame_poll, frame_chat) continue funcionando sem a variavel.
+    """
+    valor = os.environ.get("SAIDA_DIR", "").strip()
+    if not valor:
+        raise SystemExit(
+            "ERRO: SAIDA_DIR e obrigatoria.\n"
+            "Este script nao escreve dentro da pasta da skill. Aponte uma pasta de\n"
+            "saida do dono antes de rodar. Exemplo:\n"
+            "  SAIDA_DIR=./saida-tweet-card PERFIL_NOME=\"<nome>\" "
+            "PERFIL_HANDLE=\"@<handle>\" \\\n"
+            "    PERFIL_AVATAR=./avatar.png python3 scripts/build_frames.py"
+        )
+    caminho = Path(valor).expanduser().resolve()
+    if caminho == SKILL_DIR or SKILL_DIR in caminho.parents:
+        raise SystemExit(
+            f"ERRO: SAIDA_DIR aponta pra dentro da pasta da skill ({caminho}).\n"
+            "Escolha uma pasta fora de "
+            f"{SKILL_DIR}."
+        )
+    os.makedirs(caminho, exist_ok=True)
+    return str(caminho)
 VERIFIED = "#1D9BF0"
 
 THEMES = {
@@ -292,6 +315,7 @@ async def build_mosaic(page, paths, out_path):
     await page.screenshot(path=out_path)
 
 async def main():
+    OUTDIR = exigir_saida_dir()
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page(viewport={"width":1080,"height":1350}, device_scale_factor=2)
@@ -311,4 +335,5 @@ async def main():
 
         await browser.close()
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

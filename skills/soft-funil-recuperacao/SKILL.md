@@ -288,11 +288,12 @@ Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o m�
 
 ## Transversais
 
-`references/reguas-por-canal.md` (o arco de toques dos 3 canais, com cadência e função) · `references/EXEMPLO-FIM-A-FIM.md` (o caso da Renata, do começo ao fim) · `shared-references/operacao-padrao.md`, `crivo/` · `scripts/lint_copy.py` · `scripts/checar_titulos.py`.
+`references/reguas-por-canal.md` (o arco de toques dos 3 canais, com cadência e função) · `references/EXEMPLO-FIM-A-FIM.md` (o caso da Renata, do começo ao fim) · `shared-references/operacao-padrao.md`, `crivo/` · `scripts/lint_copy.py` · `scripts/checar_titulos.py` · `shared-references/filtro-anti-ia/` (a régua anti-IA escrita, pro motor que não roda o lint).
 
 ---
 
 ## Nome do arquivo e lint (vale em toda entrega)
 - **Nome do arquivo:** slug curto do tema, minúsculas, hífens, sem acento, até 6 palavras (ex.: `regua-recuperacao-protocolo-base-40.md`).
 - **Lint:** com shell disponível, rode `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) em todo arquivo gravado no diretório de saída, o relatório de processo e as notas inclusos, e só declare o gate aprovado depois de exit 0 em cada um. **Cole no relatório uma linha por arquivo, no formato `<arquivo>: exit N`.** A lista fecha com o total: `arquivos linteados: N · exit 0: N · exit diferente de 0: 0`. O `RELATO.md` entra na varredura como qualquer outro arquivo; rode o lint nele por último, depois de escrevê-lo.
+- **Sem sandbox (a régua escrita, quando o lint não roda).** Motor sem shell não executa `scripts/lint_copy.py`, e isso não dispensa o anti-IA: aplique a régua no olho por `shared-references/filtro-anti-ia/padroes-banidos.md`, padrão por padrão, e passe cada reprovação por `shared-references/filtro-anti-ia/falsos-positivos.md` antes de mandar o trecho de volta pro passo de escrita, porque prosa autoral do dono cai no mesmo crivo e some se ninguém conferir. A entrega sai do mesmo jeito, no melhor que esse motor alcança, e o relato fecha com uma linha dizendo que a conferência anti-IA foi no olho, sem código: `anti-IA: conferido no olho pela régua escrita (sem shell nesta rodada)`. Calar o que ficou de fora reprova a entrega; declarar em uma linha reprova nada.
 - **Configuração do dono fora da pasta da skill.** Configuração, perfil ou qualquer arquivo do dono nunca é gravado dentro da pasta desta skill; vai pra pasta de trabalho do dono, com o caminho declarado no relatório.

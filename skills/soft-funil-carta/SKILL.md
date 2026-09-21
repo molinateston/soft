@@ -1,7 +1,7 @@
 ---
 name: soft-funil-carta
 description: >-
-  Escreve a CARTA DE VENDAS em texto corrido ou o ROTEIRO DE VSL, no arco atenção, diagnóstico, mecanismo e ação. Escala a carta de mini a longa e o vídeo de 7 a 35 minutos, decidindo o comprimento pela consciência do leitor, pelo ticket e pela temperatura do tráfego. Use quando o pedido for: "escreve a carta", "carta de vendas", "carta longa", "mini-carta", "faz uma VSL", "roteiro de vídeo de vendas", "o texto que vende meu programa", "um texto pra mandar pro lead antes da call", "sales letter". NÃO use pra: "um vídeo de 10 minutos que vende" com filtro e virada (soft-funil-miniwebinar); página com hero, seções e botão repetido (soft-funil-landing); a régua pós-isca (soft-funil-nutricao); o lançamento com carrinho (soft-launch); carrossel, reel e headline solta (soft-conteudo-*); webinar (soft-webinar); isca (soft-funil-isca); a conversa de venda (soft-vendas-closer). Leia e siga o fluxo inteiro do SKILL.md.
+  Escreve a CARTA DE VENDAS em texto corrido, lida em silêncio, no arco atenção, diagnóstico, mecanismo e ação. Escala a carta de mini a longa, decidindo o comprimento pela consciência do leitor, pelo ticket e pela temperatura do tráfego. Use quando o pedido for: "escreve a carta", "carta de vendas", "carta longa", "mini-carta", "deixa a carta mais completa", "o texto que vende meu programa", "um texto pra mandar pro lead antes da call", "sales letter". NÃO use pra: o roteiro do vídeo de vendas, a VSL que o dono grava (soft-funil-vsl); "um vídeo de 10 minutos que vende" com filtro e virada (soft-funil-miniwebinar); página com hero, seções e botão repetido (soft-funil-landing); a régua pós-isca (soft-funil-nutricao); o lançamento com carrinho (soft-launch); carrossel, reel e headline solta (soft-conteudo-*); webinar (soft-webinar); isca (soft-funil-isca); a conversa de venda (soft-vendas-closer). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Carta de vendas, o ativo que aquece antes da conversa
@@ -69,7 +69,7 @@ Esta skill é um agente que conduz, e o padrão está em `shared-references/criv
 | O dono pediu | Entra na ação |
 |---|---|
 | "escreve a carta", "quero um texto que venda", sem dizer o formato | **1 · BRIEFING**, depois **2 · CALIBRAGEM** |
-| "faz uma VSL", "roteiro de vídeo de vendas", "vídeo que vende" | **2 · CALIBRAGEM** no ramo do vídeo, depois **3** |
+| "faz uma VSL", "roteiro de vídeo de vendas", "vídeo que vende" | **soft-funil-vsl**, que tem a fase de levantamento antes da escrita. Aqui o ramo do vídeo fica só como fallback, quando ela não está instalada |
 | "mini-carta", "uma carta curta pra mandar antes da call" | **2** com comprimento já dado, depois **3** |
 | "carta longa", "sales letter completa" | **1** com os 3 campos extras, depois **2** e **3** |
 | "olha essa carta aqui e diz o que está errado" | **5 · GATE** em modo auditoria, devolve o diagnóstico por fase |
@@ -151,6 +151,8 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 **Profundidade:** `references/blocos-copy.md`.
 
 ### 2.1 · Carta ou vídeo
+
+**O roteiro de vídeo de vendas migrou pra `soft-funil-vsl`.** Ela levanta a munição (avatar, consciência, USP, mecanismo, oferta, provas, objeções) antes de escrever a primeira linha, e esta skill não faz isso. Pedido de VSL vai pra lá. O ramo do vídeo que segue abaixo continua aqui como fallback, pra quando a `soft-funil-vsl` não estiver instalada; nesse caso, diga em 1 linha que a fase de levantamento ficou de fora.
 
 Não são fases, são formatos paralelos na mesma espinha. Texto favorece leitura silenciosa e edição rápida; vídeo favorece presença, demonstração e argumento falado. Escolha pelo comportamento de consumo e pela força do dono na câmera.
 
@@ -365,6 +367,7 @@ Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o m�
 | Página de vendas com hero, seções e botão repetido | **soft-funil-landing** | entrego a carta em texto corrido e o briefing da página |
 | Carrossel, reel, stories | **soft-conteudo-*** | não faço |
 | Headline ou gancho isolado | **soft-conteudo-headlines** | escrevo a primeira linha dentro da fase de atenção |
+| Roteiro de VSL, o vídeo de vendas que o dono grava | **soft-funil-vsl** | rodo o ramo do vídeo desta skill, sem a fase de levantamento que ela tem, e digo isso em 1 linha |
 | Mini-webinar em vídeo | **soft-funil-miniwebinar** | escrevo o roteiro como vídeo curto de autoridade |
 | Webinar completo ou perpétuo | **soft-webinar** | não faço |
 | Isca, material gratuito, artigo-isca | **soft-funil-isca** | não faço |

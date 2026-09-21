@@ -26,7 +26,7 @@ docker compose -f <pasta>/docker-compose.yml logs --tail=60 caddy
 | Aluno diz que não consegue entrar | pergunte primeiro: erro de senha, link vencido, ou nada chegou | ver a seção do aluno |
 | O dono entra e o painel devolve para o login | o endereço do navegador começa com `http://` | HTTP puro não autentica. Use sempre HTTPS |
 | Botão de publicar recusa | o aviso em inglês na tela | falta nome no perfil ou plano Free, ver `references/ORGANIZAR.md` |
-| Envio de imagem responde erro | nenhum | defeito conhecido desta versão, sem conserto aqui |
+| Envio de imagem responde erro | o código que voltou na resposta | 400, 401, 403, 413 ou 415, cada um com conserto próprio em `references/personalizar.md` |
 | O curso sumiu depois de mexer no docker | `docker volume ls \| grep mongo` | o volume guarda o banco. Se o volume foi apagado, reponha pela cópia de segurança |
 
 ---
@@ -142,9 +142,11 @@ Nunca sirva a área de membros em endereço sem HTTPS, nem "só para testar".
 
 ## Sem logo e sem capa
 
-Defeito conhecido e sem conserto nesta versão: o envio de imagem responde erro porque o serviço de arquivos não faz parte desta instalação. A escola aparece pelo nome, em texto, e o curso aparece sem capa.
+A instalação guarda imagem no disco da própria máquina, num volume do docker. Envio de logo e de capa funciona, e não depende de serviço de fora nenhum.
 
-Diga isso na Fase 0 da instalação, antes de o dono tentar. Ele descobrir sozinho no meio do trabalho dele custa confiança que não se recupera com explicação depois.
+Se o envio responder erro, o código diz o motivo: 401 e 403 são chave de API errada ou sem permissão, 413 é arquivo acima do teto, 415 é formato que não entra, 400 é pedido malformado. O conserto de cada um está em `references/personalizar.md`.
+
+Antes de procurar defeito no envio, confira se o volume de imagem existe: `docker volume ls | grep media`. Volume apagado leva junto toda imagem já enviada.
 
 ---
 

@@ -9,11 +9,30 @@
 set -u
 
 PASTA="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ARQUIVO="${1:-$PASTA/.env}"
+
+if [ $# -lt 1 ]; then
+    echo "ERRO: diga onde esta o .env do dono."
+    echo "Uso: bash checar_conexao.sh /caminho/do/.env"
+    echo
+    echo "O .env mora na pasta de trabalho do dono, NUNCA dentro desta skill,"
+    echo "porque atualizacao da skill sobrescreve o que estiver aqui dentro."
+    exit 1
+fi
+
+ARQUIVO="$1"
+
+case "$ARQUIVO" in
+    "$PASTA"/*)
+        echo "ERRO: esse .env esta dentro da pasta da skill ($ARQUIVO)."
+        echo "Atualizacao da skill apaga esse arquivo. Mova para a pasta de trabalho do dono."
+        exit 1
+        ;;
+esac
 
 if [ ! -f "$ARQUIVO" ]; then
     echo "ERRO: arquivo $ARQUIVO nao existe."
-    echo "Copie o modelo e preencha: cp $PASTA/env.exemplo $PASTA/.env"
+    echo "Copie o modelo para a pasta de trabalho do dono e preencha:"
+    echo "  cp $PASTA/env.exemplo <pasta-do-dono>/.env"
     exit 1
 fi
 
@@ -25,12 +44,10 @@ valor_de() {
 
 URL="$(valor_de MEMBERS_URL)"
 CHAVE="$(valor_de MEMBERS_API_KEY)"
-DONO="$(valor_de MEMBERS_OWNER_EMAIL)"
 
 FALTA=()
 [ -z "$URL" ] && FALTA+=("MEMBERS_URL")
 [ -z "$CHAVE" ] && FALTA+=("MEMBERS_API_KEY")
-[ -z "$DONO" ] && FALTA+=("MEMBERS_OWNER_EMAIL")
 
 if [ ${#FALTA[@]} -gt 0 ]; then
     echo "NAO PODE OPERAR. Preencha em $ARQUIVO:"

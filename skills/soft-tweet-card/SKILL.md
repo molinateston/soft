@@ -78,7 +78,7 @@ Os scripts leem os três das variáveis de ambiente de mesmo nome.
 
 **Sem avatar real:** o script desenha um círculo de placeholder com a inicial do nome, e a peça sai marcada como rascunho. Card publicado sem avatar real reprova. Diga ao dono, em 1 linha, como ele completa a peça depois: **"me manda um PNG quadrado do seu avatar, de pelo menos 400x400, e eu re-renderizo só o cabeçalho: a copy, os frames e o arco ficam iguais, é uma passada de 2 minutos"**. Nunca invente um avatar, nunca use foto de banco de imagem no lugar do rosto dele.
 
-**Pasta de saída:** defina `SAIDA_DIR` antes de rodar. Sem ela, os scripts escrevem em `saida/` dentro da pasta da skill, o que colide quando mais de uma pessoa usa a mesma instalação. Pergunte ao dono ou use o diretório de saída do ambiente (`$OUTDIR`, ou a working dir), e **declare em 1 linha onde os arquivos caíram**.
+**Pasta de saída:** `SAIDA_DIR` é OBRIGATÓRIA. Os scripts recusam rodar sem ela, com mensagem de erro, e também recusam qualquer caminho que aponte pra dentro da pasta da skill: nada de render caindo na instalação e vazando nome e handle do dono pro próximo que usar a mesma máquina. Pergunte ao dono ou use o diretório de saída do ambiente (`$OUTDIR`, ou a working dir), e **declare em 1 linha onde os arquivos caíram**.
 
 ---
 
@@ -204,7 +204,7 @@ O `[A CONFIRMAR]` do card de número no exemplo acima é regra, não descuido: n
 | **Sem shell** | Não renderiza. Entrega o manifesto de entrada pronto, no formato colado acima, com os tipos de frame já escolhidos e declarados, e diz em 1 linha que basta rodar o script num ambiente com shell. |
 | **Sem navegador headless** | O render depende dele. Mesma saída de cima: entrega o manifesto pronto. |
 | **Sem avatar real** | Renderiza com o placeholder, marca a peça como rascunho e diz como o dono completa depois (a linha está no onboarding). |
-| **Sem `SAIDA_DIR` definida** | Usa o diretório de saída do ambiente e declara em 1 linha onde os arquivos caíram, pra não colidir com outro usuário na mesma instalação. |
+| **Sem `SAIDA_DIR` definida** | O script recusa rodar (a variável é obrigatória, e caminho dentro da pasta da skill também é recusado). Defina a pasta de saída, use o diretório de saída do ambiente, e declare em 1 linha onde os arquivos caíram. |
 | **Sem a copy fonte** | Não escreve o carrossel aqui. Pede a copy ou manda pra **soft-conteudo-carrossel**. |
 
 ## Gate de qualidade (roda antes do STOP)
@@ -302,12 +302,14 @@ Cada rota abaixo é sugestão. Se a skill indicada não estiver instalada, faço
 - `scripts/build_tweet_cards.py`: a implementação de referência do carrossel, e o lugar onde o manifesto de entrada mora.
 - `scripts/build_frames.py`: a biblioteca de frames escuros e claros.
 - `scripts/verify_tweet_cards.py`: o verificador de quantidade, dimensão e arquivo vazio.
+- `shared-references/filtro-anti-ia/`: a mesma régua anti-IA por escrito, pro motor que não tem shell pra rodar o lint. `padroes-banidos.md` lista o que reprova; `falsos-positivos.md` roda antes de reprovar qualquer trecho.
 
 ---
 
 ## Nome do arquivo e lint (vale em toda entrega)
 - **Nome do arquivo:** slug curto do tema, minúsculas, hífens, sem acento, até 6 palavras (ex.: `carrossel-comeca-e-para.md`).
 - **Lint:** com shell disponível, rode `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) em todo arquivo gravado no diretório de saída, o relatório de processo e as notas de confirmação inclusos, e só declare o gate aprovado depois de exit 0 em cada um; sem shell, confira à mão o travessão longo e o verbo-freio banido. **Cole no relatório uma linha por arquivo, no formato `<arquivo>: exit N`.** Alegação de lint aprovado sem a linha por arquivo não conta como gate cumprido: "passou no lint" sem o exit colado, arquivo por arquivo, é a afirmação que mais aparece em relato e menos confere no disco. **O relatório de processo é o arquivo que mais reprova, e ele conta.** O `RELATO.md` (ou como você tiver chamado o relatório desta rodada) entra na varredura como qualquer outro arquivo, e a linha `RELATO.md: exit 0` é obrigatória na lista. Como o relatório é escrito por último, rode o lint nele **depois** de terminar de escrevê-lo, e se ele reprovar, conserte o relatório e rode de novo antes de entregar: relatório com travessão longo é a falha mais comum do lote inteiro e reprova a entrega igual a peça de cliente. A lista de linhas `<arquivo>: exit N` fecha com o total, nesta forma: `arquivos linteados: N · exit 0: N · exit diferente de 0: 0`.
+- **Sem sandbox (a régua escrita, quando o lint não roda).** Motor sem shell não executa `scripts/lint_copy.py`, e isso não dispensa o anti-IA: aplique a régua no olho por `shared-references/filtro-anti-ia/padroes-banidos.md`, padrão por padrão, e passe cada reprovação por `shared-references/filtro-anti-ia/falsos-positivos.md` antes de mandar o trecho de volta pro passo de escrita, porque prosa autoral do dono cai no mesmo crivo e some se ninguém conferir. A entrega sai do mesmo jeito, no melhor que esse motor alcança, e o relato fecha com uma linha dizendo que a conferência anti-IA foi no olho, sem código: `anti-IA: conferido no olho pela régua escrita (sem shell nesta rodada)`. Calar o que ficou de fora reprova a entrega; declarar em uma linha reprova nada.
 - **Arquivo aberto de volta:** o lint lê o texto, não o formato, e arquivo corrompido passa com exit 0. Antes de declarar o gate aprovado, abra cada arquivo gravado e confira a primeira linha, a última e uma do meio: cabeçalho, tabela e lista renderizam como markdown válido. Prefixo repetido em toda linha, tabela sem a linha de separação e bloco de código não fechado reprovam a entrega e mandam regravar o arquivo.
 - **Configuração do dono fora da pasta da skill, provada por `realpath`.** Configuração, perfil ou qualquer arquivo do dono nunca é gravado dentro da pasta desta skill (código versionado e compartilhado); vai pra pasta de trabalho do dono. **Item de gate reprovável:** o relatório traz as duas saídas de `realpath` coladas lado a lado (a do `config.local.md` e a da pasta desta skill) e a primeira não começa pela segunda. Sem as duas linhas coladas, o gate reprova, mesmo que o arquivo esteja no lugar certo: declarar não conta, só a saída colada conta.
 

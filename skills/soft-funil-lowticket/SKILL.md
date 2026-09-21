@@ -316,13 +316,14 @@ Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o m�
 
 ## Transversais
 
-`references/metodo-lowticket.md` (o método em etapas) · `references/EXEMPLO-FIM-A-FIM.md` (o caso fictício de ponta a ponta) · `references/playbook-fonte.md` (a fonte destilada, o lastro do método) · `shared-references/crivo/` · `scripts/lint_copy.py` · `scripts/checar_titulos.py`.
+`references/metodo-lowticket.md` (o método em etapas) · `references/EXEMPLO-FIM-A-FIM.md` (o caso fictício de ponta a ponta) · `references/playbook-fonte.md` (a fonte destilada, o lastro do método) · `shared-references/crivo/` · `scripts/lint_copy.py` · `scripts/checar_titulos.py` · `shared-references/filtro-anti-ia/` (a régua anti-IA escrita, pro motor que não roda o lint).
 
 ---
 
 ## Nome do arquivo e lint (vale em toda entrega)
 - **Nome do arquivo:** slug curto do tema, minúsculas, hífens, sem acento, até 6 palavras.
 - **Lint:** com shell disponível, rode `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) em todo arquivo gravado, o relato incluso, e só declare o gate aprovado depois de exit 0 em cada um. Cole no relato uma linha por arquivo, no formato `<arquivo>: exit N`, e feche com `arquivos linteados: N · exit 0: N · exit diferente de 0: 0`.
+- **Sem sandbox (a régua escrita, quando o lint não roda).** Motor sem shell não executa `scripts/lint_copy.py`, e isso não dispensa o anti-IA: aplique a régua no olho por `shared-references/filtro-anti-ia/padroes-banidos.md`, padrão por padrão, e passe cada reprovação por `shared-references/filtro-anti-ia/falsos-positivos.md` antes de mandar o trecho de volta pro passo de escrita, porque prosa autoral do dono cai no mesmo crivo e some se ninguém conferir. A entrega sai do mesmo jeito, no melhor que esse motor alcança, e o relato fecha com uma linha dizendo que a conferência anti-IA foi no olho, sem código: `anti-IA: conferido no olho pela régua escrita (sem shell nesta rodada)`. Calar o que ficou de fora reprova a entrega; declarar em uma linha reprova nada.
 - **Configuração do dono fora da pasta da skill.** Perfil ou qualquer arquivo do dono nunca é gravado dentro da pasta desta skill; vai pra pasta de trabalho do dono, com o caminho declarado no relato.
 
 ## Crivo de títulos e de consentimento (fecho, vale em toda entrega)
