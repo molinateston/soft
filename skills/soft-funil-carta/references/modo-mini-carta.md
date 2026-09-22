@@ -53,10 +53,10 @@ A maioria das skills de copy entrega **texto bruto** que o cliente precisa diagr
 |---|---|
 | Discurso Base aprovado · cliente pediu Carta | ✅ Ativa este modo |
 | Cliente pediu Carta direto sem briefing | Roteia primeiro pra `discurso-base-7-passos.md` (briefing) |
-| Cliente pediu roteiro da VSL | Usa o modo VSL da `soft-funil-carta` |
-| Cliente pediu a página completa que hospeda a VSL | Roteia a arquitetura pra `soft-funil-landing`; o roteiro continua na `soft-funil-carta` |
+| Cliente pediu roteiro da VSL | Encaminha pra `soft-funil-vsl`, que levanta a munição antes de escrever; sem ela instalada, usa o ramo de vídeo desta skill como fallback e avisa em 1 linha que a fase de levantamento ficou de fora |
+| Cliente pediu a página completa que hospeda a VSL | Roteia a arquitetura pra `soft-funil-landing`; o roteiro segue pra `soft-funil-vsl` |
 | Cliente pediu webinar | Roteia pra skill `soft-webinar` |
-| Cliente quer versão em vídeo que conduz à decisão comercial | Usa o modo VSL da `soft-funil-carta` |
+| Cliente quer versão em vídeo que conduz à decisão comercial | Encaminha pra `soft-funil-vsl`; sem ela instalada, o ramo de vídeo desta skill atende como fallback |
 | Ticket alto · cliente quer aprofundar | Considerar Webinar (skill `soft-webinar`) ou Reunião Soft (conversão) como complemento |
 
 ### Faixa de ticket, Carta basta?
@@ -492,7 +492,7 @@ Pré-leitura recomendada antes de publicar: 1 leitura completa em silêncio cron
 | Tom Soft amplo (qualquer formato) | `shared-references/dicionario-conversacional.md` |
 | Adaptação semântica pro nicho do cliente | `shared-references/adaptacao-semantica.md` |
 | Aplicação nos 7 passos | `shared-references/crivo/05-premissas-mestras.md` |
-| Roteiro de VSL curta, média ou profunda | o modo VSL desta `soft-funil-carta` |
+| Roteiro de VSL curta, média ou profunda | a skill `soft-funil-vsl`; sem ela instalada, o ramo de vídeo desta skill como fallback |
 | Página que hospeda VSL ou multimídia | a skill `soft-funil-landing` |
 | Webinar ao vivo ou perpétuo | skill `soft-webinar` |
 

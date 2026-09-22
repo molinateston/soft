@@ -98,9 +98,9 @@ Peça ao dono para entrar pelo código recebido no e-mail. Depois crie um curso 
 
 Guie o dono pelo painel:
 
-1. `Settings`, depois `Branding`: nome, subtítulo e logo.
+1. Abra a aba Configurações: nome, subtítulo e logo.
 2. Ative a remoção da marca do projeto de origem.
-3. `Theme`: aplique a cor principal escolhida.
+3. Ainda em Configurações, aplique a cor principal escolhida.
 
 Abra uma página pública e uma aula como aluno. Confirme nome, logo, cor e ausência de marca de terceiro. O envio local de imagens já faz parte da instalação. Para capa de curso por API, siga `personalizar.md`.
 

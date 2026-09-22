@@ -27,6 +27,8 @@ Esta reference é a **última etapa de produção** do Webinar deste método: pe
 
 ## 0. O PRINCÍPIO-MÃE, o slide serve a fala, nunca a substitui
 
+> **COMO cada tela é desenhada mora em `references/design-persuasivo-slides.md`** (a régua de design persuasivo: hierarquia invertida, print real no lugar de metáfora, a tela vista 3 vezes, mecanismo como bússola, o molde do slide de CTA, legibilidade que vende). Esta seção diz O QUE vai na tela; lá diz COMO ela é desenhada.
+
 O deck **não é o conteúdo**, é o amplificador visual de uma copy que já funciona. A ordem de produção é fixa:
 
 1. O **script já está pronto** (saída da estrutura ADMA).

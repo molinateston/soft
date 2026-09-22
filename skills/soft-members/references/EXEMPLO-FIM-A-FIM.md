@@ -152,7 +152,7 @@ Antes de responder, o agente confere o armazenamento de imagem com o POST de ass
 
 ```
 A logo eu ponho daqui, me manda o arquivo.
-A cor e o nome da escola não saem por fora, só por dentro do painel, que é em inglês. Te passo o caminho em três linhas se quiser.
+A cor e o nome da escola não saem por fora, só por dentro do painel, na aba de Configurações. Te passo o caminho em três linhas se quiser.
 Já aproveito e deixo uma aula aberta de amostra e escrevo a abertura do curso com as suas palavras. Quer?
 ```
 

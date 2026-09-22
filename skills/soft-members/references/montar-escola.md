@@ -1,6 +1,6 @@
 # Montar a escola: o primeiro uso
 
-O que o agente faz na primeira conversa, antes de existir curso nenhum. São passos que o dono não pede e não vê, e sem eles a publicação do primeiro curso falha com uma mensagem em inglês que não explica nada.
+O que o agente faz na primeira conversa, antes de existir curso nenhum. São passos que o dono não pede e não vê, e sem eles a publicação do primeiro curso falha com um 422 que o dono não sabe consertar sozinho.
 
 ## O que perguntar ao dono
 
@@ -13,7 +13,7 @@ Só isso. Nome da escola, cores e logo ficam pra depois, e o caminho deles está
 
 ## Passo 1: gravar o nome do dono
 
-Sem nome gravado no usuário do dono, publicar qualquer curso devolve `Complete your profile to perform this action`. É o erro mais comum do primeiro dia e o mais difícil de adivinhar.
+Sem nome gravado no usuário do dono, publicar qualquer curso devolve 422 com `Preencha seu nome no perfil antes de publicar`. Em instalação anterior à atualização de 21/09 a mesma falha volta como `Complete your profile to perform this action`. É o erro mais comum do primeiro dia e o mais difícil de adivinhar.
 
 ```bash
 curl -s -X PATCH "{{MEMBERS_URL}}/api/user" \
@@ -45,7 +45,7 @@ Valores de `type`: `course` para curso com aulas, `download` para entrega de arq
 
 ## Passo 3: criar o plano gratuito
 
-Passo escondido. O dono nunca pede isso e nunca vê. Sem pelo menos um plano, publicar devolve `Add a payment plan before performing this action`.
+Passo escondido. O dono nunca pede isso e nunca vê. Sem pelo menos um plano, publicar devolve 422 com `Crie um plano para o curso antes de publicar (pode ser gratuito)`. Em instalação anterior à atualização de 21/09 a mesma falha volta como `Add a payment plan before performing this action`. O agente se guia pelo 422 no momento de publicar, não pelo texto.
 
 ```bash
 curl -s -X POST "{{MEMBERS_URL}}/api/products/{{COURSE_ID}}/payment-plans" \

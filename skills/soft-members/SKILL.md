@@ -6,7 +6,7 @@ description: >-
 
 # Área de membros operada por conversa
 
-O dono desta área de membros não abre painel para a operação diária. Ele fala com o agente, e o agente monta a escola pela API: cria o curso, cria a seção, põe a aula, publica, dá acesso ao aluno, lê quem assistiu e envia imagens. O painel de administração existe, é em inglês, e fica como saída de emergência para nome da escola, subtítulo, cor e logo. A chave de API sai pronta da instalação e o dono nunca abre a tela de chaves.
+O dono desta área de membros não abre painel para a operação diária. Ele fala com o agente, e o agente monta a escola pela API: cria o curso, cria a seção, põe a aula, publica, dá acesso ao aluno, lê quem assistiu e envia imagens. O painel de administração existe, é em português (abas Painel, Produtos, Alunos e Configurações), e fica como saída de emergência para nome da escola, subtítulo, cor e logo. A chave de API sai pronta da instalação e o dono nunca abre a tela de chaves.
 
 Quem lê este arquivo é o agente do dono. A regra de leitura é: o dono fala em linguagem de gente, o agente traduz em chamada, confere a resposta, e devolve uma linha de confirmação com o link. Nunca devolve JSON ao dono, nunca manda o dono abrir terminal, nunca manda o dono "ir em Settings" fora do caso acima.
 
@@ -42,8 +42,10 @@ Uma conversa inteira, do "quero área de membros" ao aluno assistindo, está em 
 
 Três coisas emperram a publicação de um curso, e as três são invisíveis pro dono. Quem publica sem elas leva erro e não entende por quê.
 
-1. **O dono precisa ter nome gravado.** Sem `name` no usuário do dono, publicar devolve `Complete your profile to perform this action`. A chamada que resolve está em `montar-escola.md`.
-2. **O curso precisa ter pelo menos um plano.** Sem plano, publicar devolve `Add a payment plan before performing this action`. Curso de área de membros fechada usa um plano gratuito, criado uma vez, que o dono nunca vê.
+1. **O dono precisa ter nome gravado.** Sem `name` no usuário do dono, publicar devolve 422 com `Preencha seu nome no perfil antes de publicar`. Em instalação anterior à atualização de 21/09 a mesma falha volta como `Complete your profile to perform this action`. A chamada que resolve está em `montar-escola.md`.
+2. **O curso precisa ter pelo menos um plano.** Sem plano, publicar devolve 422 com `Crie um plano para o curso antes de publicar (pode ser gratuito)`. Em instalação anterior à atualização de 21/09 a mesma falha volta como `Add a payment plan before performing this action`. Curso de área de membros fechada usa um plano gratuito, criado uma vez, que o dono nunca vê.
+
+O agente se guia pelo status 422 no momento de publicar, não pelo texto da mensagem. As duas falham na mesma hora e o conserto é o mesmo nas duas versões.
 3. **O curso precisa estar publicado antes de matricular.** Convidar aluno para curso não publicado devolve `Cannot invite customers to an unpublished product`.
 
 A sequência correta é sempre: nome do dono, curso, seções, aulas, plano, publicar, matricular. O agente não pergunta ao dono sobre plano nem sobre perfil, ele resolve por baixo e só avisa se falhar.
@@ -55,8 +57,8 @@ Estas são de leitura de código do sistema, não de palpite.
 1. **A descrição do curso não é texto solto.** O campo `description` espera um documento em JSON. Texto puro quebra na leitura e volta 422. O molde mínimo está em `criar-curso.md`.
 2. **Criar curso aceita só dois campos.** `title` e `type`. Qualquer outro campo no mesmo corpo volta 400 na hora. Descrição entra numa segunda chamada.
 3. **Campo desconhecido volta 400 em todas as rotas.** Cada rota tem lista fechada de campos aceitos. O agente manda exatamente os campos listados na reference, nada a mais.
-4. **Vídeo do YouTube não é `type` de vídeo.** O tipo `video` exige um arquivo hospedado dentro do sistema. Link de YouTube, Vimeo ou embed entra como `type` de embed. Errar aqui cria uma aula que não toca.
-5. **O `groupId` da aula é o id que a criação da seção devolveu.** Mandar o nome da seção, ou o id de outro curso, volta `Section not found`.
+4. **Só três tipos de aula servem: `embed`, `text` e `quiz`.** Na tela de criar aula o dono vê Vídeo (que é o `embed`), Texto e Quiz. Os valores `video`, `audio`, `pdf`, `file` e `scorm` saíram da tela porque pedem envio de arquivo que esta instalação não faz, ela guarda só imagem. A API ainda aceita esses valores, e a aula criada com eles não funciona. Para YouTube, grave o link puro do vídeo no conteúdo da aula `embed`.
+5. **O `groupId` da aula é o id que a criação da seção devolveu.** Mandar o nome da seção, ou o id de outro curso, volta `Seção não encontrada` (`Section not found` em instalação anterior à atualização de 21/09).
 6. **O tipo da aula é definido no nascimento.** A atualização ignora o campo `type`. Trocar aula de texto por aula de vídeo obriga apagar e criar de novo.
 7. **A rota de convite responde 201 mesmo quando não envia e-mail nenhum.** Aluno que já tem acesso ativo faz a rota devolver sucesso sem disparar mensagem. Detalhe e contorno honesto em `matricular.md` e em `diagnostico.md`.
 

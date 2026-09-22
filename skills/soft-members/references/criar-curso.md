@@ -70,9 +70,15 @@ curl -s -X POST "{{MEMBERS_URL}}/api/products/{{COURSE_ID}}/lessons" \
 
 Campos aceitos na criação: `title`, `type`, `content`, `media`, `downloadable`, `groupId`, `requiresEnrollment`, `published`.
 
-Valores de `type`: `text`, `video`, `audio`, `pdf`, `file`, `embed`, `quiz`, `scorm`. Para link externo é sempre `embed`.
+Valores de `type` que o agente usa: `embed`, `text` e `quiz`. São os três que a tela de criar aula mostra ao dono, como Vídeo, Texto e Quiz. Para vídeo é sempre `embed`.
+
+Os valores `video`, `audio`, `pdf`, `file` e `scorm` saíram da tela. Eles pedem envio de arquivo, e esta instalação guarda só imagem, até 10 MB. A API ainda aceita esses valores, e a aula criada com eles não funciona pro aluno. O agente não usa nenhum deles.
 
 Sobre `content.value`: aceita o endereço do vídeo ou o bloco de incorporação inteiro que o site de vídeo oferece. O que estiver ali é o que o aluno vê no lugar do player. Valor vazio devolve erro de conteúdo nulo.
+
+**Para YouTube, grave sempre o link puro**, no formato `https://www.youtube.com/watch?v=ID` ou `https://youtu.be/ID`. O link puro cai no player próprio e limpo, em instalação nova e em instalação antiga. O código de incorporação do YouTube também funciona depois da atualização de 21/09, e antes dela ele escapava para um quadro cru com a marca do YouTube à mostra. Por isso o link puro é a forma segura. O vídeo do YouTube precisa estar como não listado.
+
+Bloco de incorporação inteiro só para as outras hospedagens: Panda, Vimeo, Bunny.
 
 Sobre `requiresEnrollment`: `true` significa que só aluno matriculado vê. `false` deixa a aula aberta pra quem abrir o link, útil pra aula de amostra.
 
@@ -100,7 +106,9 @@ curl -s -X PATCH "{{MEMBERS_URL}}/api/products/{{COURSE_ID}}" \
   -d '{"published":true}'
 ```
 
-Antes disso, confira os dois passos escondidos de `montar-escola.md`: nome do dono gravado e plano criado. Sem o nome, volta `Complete your profile to perform this action`. Sem plano, volta `Add a payment plan before performing this action`. As duas mensagens vêm em 422 e nenhuma delas explica ao dono o que fazer.
+Antes disso, confira os dois passos escondidos de `montar-escola.md`: nome do dono gravado e plano criado. Sem o nome, volta `Preencha seu nome no perfil antes de publicar`. Sem plano, volta `Crie um plano para o curso antes de publicar (pode ser gratuito)`. As duas vêm em 422 e já dizem o conserto.
+
+Em instalação anterior à atualização de 21/09 as mesmas falhas voltam em inglês, como `Complete your profile to perform this action` e `Add a payment plan before performing this action`. O agente reconhece o 422 no momento de publicar e não depende do texto para saber o que fazer.
 
 Tirar da vitrine sem fechar pra quem já tem acesso:
 

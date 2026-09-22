@@ -6,7 +6,7 @@ A instalação padrão guarda imagens na própria VPS. Logo, capa de curso e ima
 
 | Pedido | Caminho |
 |---|---|
-| Nome e subtítulo da escola | Painel, em `Settings` |
+| Nome e subtítulo da escola | Painel, na aba Configurações |
 | Cor do tema | Painel, na aba de tema |
 | Logo da escola | Painel, usando o envio local de imagem |
 | Capa de curso | API de mídia e atualização do curso |
@@ -20,7 +20,7 @@ Quando o dono pedir nome, cor ou logo, diga:
 O caminho curto é:
 
 1. Abra `{{MEMBERS_URL}}/dashboard/settings`.
-2. Entre em `Branding` para nome, subtítulo e logo, ou em `Theme` para as cores.
+2. Entre em Configurações para nome, subtítulo, logo e cores.
 3. Salve e abra uma página de aluno para conferir o resultado.
 
 ## Conferir o armazenamento antes de receber arquivo

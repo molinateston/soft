@@ -25,7 +25,7 @@ docker compose -f <pasta>/docker-compose.yml logs --tail=60 caddy
 | Não chega e-mail nenhum | `docker compose -f <pasta>/docker-compose.yml logs --tail=60 app \| grep -i mail` | dados de envio errados, ver abaixo |
 | Aluno diz que não consegue entrar | pergunte primeiro: erro de senha, link vencido, ou nada chegou | ver a seção do aluno |
 | O dono entra e o painel devolve para o login | o endereço do navegador começa com `http://` | HTTP puro não autentica. Use sempre HTTPS |
-| Botão de publicar recusa | o aviso em inglês na tela | falta nome no perfil ou plano Free, ver `references/ORGANIZAR.md` |
+| Botão de publicar recusa | o aviso na tela, em português depois da atualização de 21/09 e em inglês antes dela | falta nome no perfil ou plano gratuito, ver `references/criar-curso.md` |
 | Envio de imagem responde erro | o código que voltou na resposta | 400, 401, 403, 413 ou 415, cada um com conserto próprio em `references/personalizar.md` |
 | O curso sumiu depois de mexer no docker | `docker volume ls \| grep mongo` | o volume guarda o banco. Se o volume foi apagado, reponha pela cópia de segurança |
 
