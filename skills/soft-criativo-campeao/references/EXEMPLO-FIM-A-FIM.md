@@ -19,23 +19,20 @@ Este arquivo mostra a saída resumida de cada ação, na ordem em que aconteceu.
 > "Quero anunciar minha aula gratuita. Tenho umas fotos de estúdio que tirei ano passado. Minha cor
 > é um verde escuro, uso a fonte do meu site. A aula é dia 18, o cadastro é na minha página."
 
-Insumo faltando: as dores nomeadas, o arquivo da fonte, o evento de conversão. A skill não parou:
-perguntou o que faltava e marcou o resto.
+Insumo faltando: as dores nomeadas, as fotos, o arquivo da fonte, o evento de conversão. A triagem
+separou: a dor muda a peça, então vai numa pergunta ANTES de produzir; as fotos entram na mesma
+mensagem porque ela já ia sair; fonte e evento não mudam a peça e viram premissa marcada.
 
-## As perguntas que a skill fez (uma por vez)
+## A pergunta que a skill fez (uma mensagem, 2 itens)
 
-1. "Quem é a pessoa que você quer nessa aula, e o que dói nela hoje?"
-   > "Fisioterapeuta que atende o dia inteiro, ganha por sessão e não sobra nada. Ele vive com medo
-   > de o paciente sumir depois da terceira sessão."
-2. "Me manda 2 ou 3 fotos suas em boa resolução."
-   > mandou 3 arquivos de estúdio, fundo claro, meio corpo.
-3. "Qual a cor e a fonte da sua marca?"
-   > "Verde escuro. A fonte eu não sei o nome, é a do site."
-   Resolução: verde declarado, fonte sem-serifa do sistema, marcada `[A CONFIRMAR]`.
-4. "Pra onde a pessoa vai quando clica, e o que ela ganha lá?"
-   > "Página de cadastro da aula. Ela ganha a aula gratuita de quinta."
-5. "Qual evento de conversão dispara quando ela se cadastra?"
-   > "Acho que Lead." Marcado `[A CONFIRMAR]`, o dono confere no gerenciador antes de subir.
+> "Pra montar as 4 artes: (1) quem é a pessoa que você quer nessa aula, e o que dói nela hoje?
+> (2) me manda 2 ou 3 fotos suas em boa resolução. A fonte eu deixo numa sem-serifa e o evento do
+> cadastro como Lead, os dois marcados pra você conferir."
+
+Resposta: "Fisioterapeuta que atende o dia inteiro, ganha por sessão e não sobra nada. Ele vive com
+medo de o paciente sumir depois da terceira sessão." Mais 3 arquivos de estúdio, fundo claro, meio
+corpo. Resolução: verde declarado, fonte sem-serifa do sistema marcada `[A CONFIRMAR]`, evento Lead
+marcado `[A CONFIRMAR]` pro dono conferir no gerenciador antes de subir.
 
 ---
 
@@ -121,10 +118,16 @@ passada: exit 0.
 
 ## Passo 7 · A mensagem de prévia (STOP)
 
-> "Saíram as 4 peças, cada uma numa dor diferente: agenda cheia e conta vazia, paciente que some,
-> preço por hora, medo de dar desconto. Estão em `out/`. Duas coisas ficaram marcadas pra você
-> confirmar: a fonte da sua marca (usei uma sem-serifa do sistema) e o evento de conversão do
-> cadastro. Aprova as 4, corto alguma, refaço alguma?"
+Gravada em `conferencia/mensagem-dono.txt`, 5 linhas, a decisão do dono primeiro:
+
+> Aprova as 4 peças, ou corto ou refaço alguma?
+> Pronto: 4 artes, cada uma numa dor; abra a pasta `out/`.
+> Usei uma sem-serifa no lugar da fonte do site e marquei o cadastro como Lead.
+> 1. Me manda o arquivo da fonte do site?
+> 2. O evento do cadastro no gerenciador é Lead mesmo?
+
+Linha colada: `linhas da mensagem: 5 (teto 8)`. A lista das dores, os arquivos e o porquê de cada
+ângulo ficam no `copy-lote.md`.
 
 ## Passo 8 · O que ficou escrito pro dono subir
 
@@ -178,3 +181,98 @@ em que públicos ele rodou, e a saída seria `diagnostico-criativo.md`:
 
 **Veredito em 1 linha:** a peça 02 não morreu, ela rodou num interesse forçado; no público aberto
 ela é a mais barata do lote, então a alavanca aqui é o conjunto, não a arte.
+
+---
+
+## Ação 0 · Anunciar, a tarefa inteira (mesmo caso, outro pedido)
+
+Três semanas depois, o mesmo dono volta: "quero anunciar meu curso de protocolo de alta. É R$ 197
+e tem uma VSL de 12 minutos. Quero anúncio rodando essa semana." Tudo abaixo continua FICTÍCIO.
+
+**A triagem (o perfil já tinha foto e identidade; ticket e destino vieram no pedido):** falta a 1ª
+frase da VSL, que muda a peça (a ponte), então sai UMA mensagem antes de produzir, com o item que
+muda a peça e um que não muda, porque a mensagem já ia sair:
+
+> "Pra montar os anúncios da sua VSL: (1) cola a primeira frase dela; (2) quanto topa gastar pra
+> testar, no total? Responde o que souber, o resto eu marco."
+
+Resposta: "Seu paciente melhora na terceira sessão e some. Existe um plano de alta de 8 semanas que
+resolve isso. Uns 600." A pergunta da conta vai junto do STOP dos ângulos, e a resposta foi: nunca
+rodou, conta nova.
+
+**Tipo de peça pelo destino:** `destino: VSL · tipo no teste: imagem · tipo na escala: vídeo ·
+porquê: o lote de imagem testa o ângulo barato, e o vídeo conecta com o vídeo que vem depois`.
+
+**Passo 1 · o material do dono, antes das listas** (`conferencia/material-do-dono.txt`):
+
+```
+terceira sessão | tipo: número | origem: pedido, 1ª frase da VSL
+plano de alta de 8 semanas | tipo: objeto | origem: pedido, 1ª frase da VSL
+R$ 197 | tipo: número | origem: pedido
+fotos de estúdio, fundo claro, meio corpo | tipo: objeto | origem: pasta fotos/
+```
+
+Cada peça usa pelo menos 1 item: a 1 usa "terceira sessão" no gancho e "plano de alta de 8 semanas"
+no sub; as outras 3 usam "plano de alta" no gancho ou no texto do anúncio.
+Linha colada: `peças no lote: 4 · com material do dono: 4`.
+
+**Passo 1 · as 3 listas antes dos ganchos:**
+
+| Personas | Curiosidade da oferta | Dores |
+|---|---|---|
+| fisio recém-formado | o plano de alta de 8 semanas | paciente some na 3ª sessão |
+| fisio com agenda cheia | a consulta de alta | agenda cheia e conta vazia |
+| fisio que atende atleta | a planilha de retorno | dá desconto quando o paciente hesita |
+
+Combinações escolhidas, sem repetir: (1) recém-formado · plano de alta · paciente some; (2) agenda
+cheia · consulta de alta · conta vazia; (3) atleta · planilha de retorno · paciente some depois da
+prova; (4) agenda cheia · plano de alta · desconto. Todas começam por ângulos que a VSL já tem.
+
+**Congruência:** o termo-gancho da VSL é "plano de alta". As peças 1 e 4 usam o termo literal no
+gancho; a 2 e a 3 usam no `texto_anuncio`. Linha colada: `peça 1 | termo-gancho: plano de alta |
+está em: gancho`, e assim nas 4, com a contagem do comando do gate: `4 4`.
+
+**Entrada do manifesto com texto e título do anúncio (peça 1):**
+
+```json
+{
+  "foto": "fotos/autoridade-01.jpg",
+  "gancho": "Seu paciente melhora na terceira sessão e some.",
+  "sub": "O plano de alta de 8 semanas que faz ele ficar.",
+  "cta": "Assiste a aula de 12 minutos na página",
+  "texto_anuncio": "O paciente some quando melhora. O plano de alta muda o que ele compra de você.",
+  "titulo_anuncio": "O plano de alta que segura o paciente",
+  "saida": "out/peca-01-alta.jpg"
+}
+```
+
+**Roteiro de vídeo: NÃO sai nesta rodada** (`tipo no teste: imagem`); o plano diz em 1 linha que ele nasce do ângulo que validar, pela Ação 1 tipo vídeo. Trecho de como ele sairia depois:
+
+```
+formato: expert em ação (atendendo, mãos no joelho do paciente) · canal: Reels · duração alvo: 1:15
+0:00 | hook: "Seu paciente melhora na terceira sessão e some." | na tela: "3ª sessão" | apoio: a ficha do paciente
+0:04 | aterrissagem: "E o pior é que ele sumiu porque você fez o trabalho certo." | ...
+0:30 | prova: demonstração (o plano de alta aberto na tela) · nicho confia em colega de profissão
+0:55 | CTA 1 em 0:55: "A aula de 12 minutos mostra o plano inteiro."
+```
+
+Instrução de edição anexa: take 2 do atendimento; referência de estilo com link e minuto
+`[A CONFIRMAR: link de referência]`; na frase "o plano de alta aberto" entra a tela do plano.
+
+**Plano de teste (resumo do `plano-de-teste.md`):**
+
+```
+Ticket: 197 · Caixa de teste: 600 · Destino: VSL · Conta: nova
+Verba: 1 ticket x 4 ângulos = 788, acima do caixa. Caixa curto: 0,5 x 197 x 4 = 394 em 3 dias
+= 32,83 por dia por conjunto (acima do piso de 30).
+Fases: teste 3 dias · pré-escala a 2x a verba do teste, ciclo de 3 a 5 dias · escala só com validado.
+Estrutura: 4 conjuntos, 1 por ângulo, 2 ganchos em cada (a peça do lote e uma variação escrita no
+passo 1): 8 anúncios.
+Matar cedo: CTR de link abaixo de 3,5% depois de 2 dias sem venda; custo de início de checkout acima de 20% do ticket.
+Régua de partida; depois de 7 dias rodando, vale o seu próprio recorde.
+Escalar: degraus de 20% a 30% com 2 a 3 dias entre eles; teto no degrau em que o lucro do mês cai.
+Quem sobe: soft-trafego-meta não instalada, passo a passo à mão anexo.
+```
+
+Conta nova: o plano avisa que os 10 a 15 primeiros dias rendem pior, e que caixa sobrando não
+acelera essa fase. Conferência colada: `plano de teste: 6 de 6 blocos`.

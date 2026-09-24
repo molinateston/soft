@@ -391,6 +391,29 @@ def lixo_na_raiz(base):
     return sorted(f.name for f in base.iterdir() if RX_LIXO_DE_MAQUINA.match(f.name))
 
 
+# ── v3 · a mensagem ao dono cabe em 8 linhas ─────────────────────────────────
+# O critério "enxuto" ficou abaixo da versão anterior: a mensagem do Telegram
+# repetia o que já estava no arquivo. Ela mora em conferencia/mensagem-dono.txt,
+# e a conferência conta as linhas não vazias, as linhas que citam arquivo e o
+# nome de regra ou de script.
+MENSAGEM_DONO = 'mensagem-dono.txt'
+TETO_MENSAGEM = 8
+RX_ARQ_NA_MSG = re.compile(r'\b[\w\-]+\.(?:md|json|csv|txt|png|jpe?g|html|pdf|pptx)\b', re.I)
+RX_JARGAO_NA_MSG = re.compile(
+    r'\b(?:lint|gate|checkpoint|selftest|exit\s*\d)\b|conferencia/|\b\w+\.py\b|--\w', re.I)
+
+
+def mensagem_ao_dono(base):
+    """Devolve (existe, n_linhas, n_com_arquivo, jargoes) da mensagem ao dono."""
+    arq = Path(base) / SUBPASTA_BASTIDOR / MENSAGEM_DONO
+    if not arq.exists():
+        return False, 0, 0, []
+    linhas = [l for l in arq.read_text(encoding='utf-8').splitlines() if l.strip()]
+    com_arq = sum(1 for l in linhas if RX_ARQ_NA_MSG.search(l))
+    jargoes = [l.strip()[:80] for l in linhas if RX_JARGAO_NA_MSG.search(l)]
+    return True, len(linhas), com_arq, jargoes
+
+
 def garantir_conferencia(base):
     """Cria `conferencia/` na pasta de saída e devolve o caminho."""
     alvo = Path(base) / SUBPASTA_BASTIDOR
@@ -1358,6 +1381,9 @@ def posicao_do_marcador(linhas, idx, trecho):
             rotulo = resto[:len(resto) - len(trecho)].rstrip()
             if rotulo.endswith(':') and len(rotulo.split()) <= 6:
                 return 'campo'
+    # '"chave": "[marcador]"' em JSON (identidade.json, manifesto.json) também é campo
+    if re.match(r'^\s*"[^"]{1,40}"\s*:\s*"' + re.escape(trecho) + r'"\s*,?\s*$', linha):
+        return 'campo'
     # "Rótulo: [marcador]" em linha solta
     if nu.endswith(trecho) and ':' in nu[:len(nu) - len(trecho)]:
         rotulo = nu[:len(nu) - len(trecho)].rstrip()
@@ -2485,6 +2511,22 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
                       f'ls {base}/{nome}')
                 falhas.append(f'arquivo exigido pela ação ausente: {nome}')
         print(f'arquivos exigidos pela ação: {len(pedidos)} · presentes: {presentes}')
+
+    # v3 · a mensagem ao dono: teto de 8 linhas, 1 arquivo citado, sem jargão
+    tem_msg, n_msg, n_arq_msg, jarg_msg = mensagem_ao_dono(base)
+    if tem_msg:
+        print(f'linhas da mensagem: {n_msg} (teto {TETO_MENSAGEM}) · linhas citando '
+              f'arquivo: {n_arq_msg} (teto 1) · com nome de regra ou script: '
+              f'{len(jarg_msg)} | grep -c . {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO}')
+        if n_msg > TETO_MENSAGEM:
+            falhas.append(f'mensagem ao dono com {n_msg} linhas (teto {TETO_MENSAGEM})')
+        if n_arq_msg > 1:
+            falhas.append(f'lista de arquivos na mensagem ao dono: {n_arq_msg} linhas')
+        for l in jarg_msg:
+            falhas.append(f'nome de regra ou script na mensagem ao dono: {l}')
+    else:
+        print(f'mensagem ao dono: ausente em {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO} '
+              f'(exija com --exige {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO})')
 
     # (b)1 · a exceção da fonte. Só a skill que converte passa --fonte, e só o
     # que a conversão INTRODUZIU reprova: o resto sai como `achado na fonte`.
@@ -5385,6 +5427,25 @@ def selftest():
         cod87b, t87b = rodar34(s87, fonte_lint, perfil=str(perfil87))
         assert cod87b == 0, t87b
         assert 'números não confirmados no perfil: 1 · publicados na peça: 0' in t87b, t87b
+
+    # v3 · mensagem ao dono: 8 linhas passam, 9 reprovam, lista de arquivos e
+    # nome de script reprovam
+    with tempfile.TemporaryDirectory() as dm:
+        dm = Path(dm)
+        garantir_conferencia(dm)
+        alvo_m = dm / SUBPASTA_BASTIDOR / MENSAGEM_DONO
+        assert mensagem_ao_dono(dm) == (False, 0, 0, [])
+        alvo_m.write_text('Você sobe as 2 peças amanhã ou espera a página?\n'
+                          'Pronto: 4 peças e o plano, abra copy-lote.md\n'
+                          'O clique está bom e a venda some no checkout.\n'
+                          '1. Qual o preço final?\n', encoding='utf-8')
+        assert mensagem_ao_dono(dm) == (True, 4, 1, []), mensagem_ao_dono(dm)
+        alvo_m.write_text('\n'.join(f'linha {i}' for i in range(9)), encoding='utf-8')
+        assert mensagem_ao_dono(dm)[1] == 9
+        alvo_m.write_text('Pronto: abra copy-lote.md\nplano-de-teste.md e manifesto.json\n'
+                          'o lint deu exit 0\n', encoding='utf-8')
+        _, _, n_a, j_a = mensagem_ao_dono(dm)
+        assert n_a == 2 and len(j_a) == 1, (n_a, j_a)
 
     print('checar_titulos.py self-test OK: lote, molde (lint + duas orações), exit por arquivo, '
           'ressalva somada no lote, marcador campo vs miolo, marcador acima de 6 palavras, '

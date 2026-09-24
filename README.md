@@ -35,6 +35,7 @@ Isso instala **todas as skills de uma vez**. Não precisa caçar menu nenhum.
 - `soft-designer`
 - `soft-editor-video`
 - `soft-email-sequencia`
+- `soft-espiao`
 - `soft-exportar-documentos`
 - `soft-financeiro`
 - `soft-funil-carta`

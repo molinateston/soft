@@ -27,6 +27,18 @@ docker compose -f <pasta>/docker-compose.yml logs --tail=60 caddy
 | O dono entra e o painel devolve para o login | o endereço do navegador começa com `http://` | HTTP puro não autentica. Use sempre HTTPS |
 | Botão de publicar recusa | o aviso na tela, em português depois da atualização de 21/09 e em inglês antes dela | falta nome no perfil ou plano gratuito, ver `references/criar-curso.md` |
 | Envio de imagem responde erro | o código que voltou na resposta | 400, 401, 403, 413 ou 415, cada um com conserto próprio em `references/personalizar.md` |
+| Envio de `.webp` volta 415 `Unsupported image type` | o comando de envio: o campo do arquivo tem `;type=image/webp`? | declare o tipo no campo, `-F "file=@capa.webp;type=image/webp"`, e repita |
+| Vídeo do YouTube "não toca" num teste feito da VPS | nada na VPS prova isso | o YouTube recusa tocar para IP de servidor (erro 150 do player). Peça ao dono para abrir a aula no aparelho dele, ver abaixo |
+| Painel do checkout vermelho com 422 | leitura dos produtos do checkout, parte `unmappedRecent` | produto não cadastrado no mapa. Cadastre, e o reenvio do checkout matricula. Se o 422 veio do botão de teste com produto estranho, é o pedido de exemplo e está tudo certo. Ver `references/vender-pelo-checkout.md` |
+| Painel do checkout vermelho com 401 | nada no histórico de avisos, é o esperado; no registro do app, a linha `webhook recusado` | segredo diferente entre o checkout e a instalação. Ver `references/vender-pelo-checkout.md` |
+| Painel do checkout com 503 | `curl -s https://<dominio>/api/integrations/checkout/<provedor>/webhook` mostra `secretConfigured: false` | segredo não gravado ou `.env` não relido. Depois de gravar, `docker compose -f <pasta>/docker-compose.yml up -d` |
+| Painel do checkout com 404 | a mesma conferência responde `unknown_provider` | id do checkout errado no endereço, ou checkout sem adaptador. Ver `references/vender-pelo-checkout.md` |
+| Aluno pagou no checkout e não entrou | histórico de avisos filtrado pelo e-mail da compra | ler o resultado do aviso. Sem aviso nenhum: webhook não vinculado a esse produto no checkout. Ver `references/vender-pelo-checkout.md` |
+| Módulos duplicados no início do curso | leitura das seções do curso: nomes parecidos com `sectionId` diferente | o agente criou seção nova porque o dono renomeou a antiga, ver `references/criar-curso.md` |
+| Logo e capas viram imagem quebrada logo depois de trocar de versão | `docker inspect <container do app> --format '{{range .Mounts}}{{.Destination}} {{end}}'` não lista `/data/media` | o app subiu por um compose sem o volume `media_data`, e a imagem morava dentro do container. Use sempre o `docker-compose.yml` da instalação, que tem o volume. Para repor: copie cada arquivo para o volume com o nome `<mediaId>.<extensão>` que está no campo `path` da coleção `localmedias` e recrie o app |
+| Aba do navegador mostra o ícone padrão, com logo gravada | versão da instalação anterior a 23/09 | defeito do ícone da aba, corrigido na versão de 23/09. Atualize |
+| No play ou depois de pular, a imagem fica parada com um círculo girando e o som chega antes | versão da instalação anterior a 23/09 | a capa cobria o vídeo por 5 segundos a cada play. Desde 23/09 ela só cobre o vídeo parado ou pausado, e a marca do YouTube sai do quadro por corte: o player roda 2,4 vezes mais alto que largo e as faixas onde o YouTube pinta título e marca ficam fora da vista. Atualize |
+| Tarja vermelha de "não publicado" pisca ao abrir um produto publicado | versão da instalação anterior a 23/09 | a tarja aparecia antes de o produto carregar. Corrigido na versão de 23/09. Não mexa na publicação por causa dela |
 | O curso sumiu depois de mexer no docker | `docker volume ls \| grep mongo` | o volume guarda o banco. Se o volume foi apagado, reponha pela cópia de segurança |
 
 ---
@@ -140,11 +152,19 @@ Nunca sirva a área de membros em endereço sem HTTPS, nem "só para testar".
 
 ---
 
+## Vídeo que "não toca" testado da VPS
+
+O YouTube bloqueia a reprodução pedida de IP de servidor e o player devolve o erro 150. Medido em 23/09 com qualquer vídeo, inclusive o de demonstração do próprio YouTube. Quando o YouTube devolve erro, o player limpo cai num quadro cru do YouTube, e isso parece defeito da área de membros sem ser.
+
+Teste feito da VPS, com navegador automático ou `curl`, não prova nada sobre a aula. O que o agente confere pela API: a aula existe, está publicada, é do tipo `embed` e o `content.value` tem o link certo. O que prova que toca é o dono abrindo a aula no celular ou no computador dele. Se no aparelho do dono também não tocar, siga `references/diagnostico.md`, bloco "O vídeo não aparece".
+
+---
+
 ## Sem logo e sem capa
 
 A instalação guarda imagem no disco da própria máquina, num volume do docker. Envio de logo e de capa funciona, e não depende de serviço de fora nenhum.
 
-Se o envio responder erro, o código diz o motivo: 401 e 403 são chave de API errada ou sem permissão, 413 é arquivo acima do teto, 415 é formato que não entra, 400 é pedido malformado. O conserto de cada um está em `references/personalizar.md`.
+Se o envio responder erro, o código diz o motivo: 401 e 403 são chave de API errada ou sem permissão, 413 é arquivo acima do teto, 415 é formato que não entra ou tipo não declarado no campo do arquivo, 400 é pedido malformado. O conserto de cada um está em `references/personalizar.md`.
 
 Antes de procurar defeito no envio, confira se o volume de imagem existe: `docker volume ls | grep media`. Volume apagado leva junto toda imagem já enviada.
 

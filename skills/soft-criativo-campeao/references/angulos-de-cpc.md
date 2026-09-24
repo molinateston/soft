@@ -127,6 +127,28 @@ propaganda, e o custo de atenção cai porque o público consome sem a guarda de
 **Quando usar:** quando existe uma trend viva que casa com o avatar. Trend fria ou
 forçada não engaja, e trend fora do perfil queima a marca.
 
+**Os 3 jeitos de levar um viral pro pago, do menor pro maior risco.** O viral do
+orgânico já passou no teste mais difícil, que é segurar atenção sem verba.
+
+1. O roteiro inteiro do viral, com o fim trocado pelo CTA do dono (vale quando o
+   viral é do próprio dono ou quando a estrutura é genérica o bastante pra ser
+   reescrita com fala dele).
+2. Só o formato, com roteiro novo.
+3. Só o jeito de abrir dos primeiros 5 a 10 segundos (enquadramento, ação,
+   ritmo), regravado pelo dono, na frente de um corpo que já vende (é um
+   microlead, ver `playbook-video-ads.md`, seção 4). Vídeo de terceiro nunca
+   entra no anúncio do dono.
+
+**Onde procurar.** Busque formato também FORA do nicho (conta grande que prende
+atenção com qualquer assunto): o concorrente do nicho só devolve o que o mercado
+já satura. Pesquise na rede onde o comprador está, e a rede muda com a idade do
+avatar. O caminho de volta vale igual: o anúncio vencedor sobe no perfil do dono
+com o CTA trocado.
+
+**Conferência:** a peça de trend declara `viral: <link> · jeito: 1, 2 ou 3 ·
+frases literais de terceiro na peça: 0`. Roteiro inteiro de viral alheio só
+passa com a fala reescrita na voz do dono.
+
 **Exemplo (Renata):** pega o formato de "coisas que eu faria diferente se
 recomeçasse" que está rodando no nicho fitness e aplica: "3 coisas que eu diria
 pra mim aos 40, antes de começar e parar de novo." Formato emprestado, dor da
@@ -140,7 +162,8 @@ copiar uma marca alheia nem prometer o que o método não faz.
 
 ## Como o ângulo entra no lote (não muda o fluxo)
 
-- 1 peça continua sendo 1 dor. O ângulo escolhe como essa dor vira gancho.
+- Cada peça é uma combinação distinta (persona, curiosidade, dor), com UMA dor. O
+  ângulo escolhe como essa dor vira gancho.
 - No lote de 4, dá pra testar ângulos diferentes pra achar o que fala com o avatar.
 - Todo gancho, de qualquer ângulo, passa pelo lint anti-IA e pela régua de lastro
   antes de virar peça. O ângulo não é atalho pra fugir do gate.

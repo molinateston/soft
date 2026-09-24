@@ -72,7 +72,9 @@ A frase honesta pro dono, sem rodeio:
 
 A etiqueta entra pelo mesmo convite, com `tags`, e serve só de registro. Ela não fecha porta nenhuma, e o agente diz isso.
 
-Pendência para quem constrói o sistema: uma rota de remoção que mude o estado do acesso do aluno para recusado ou vencido. Enquanto ela não existir, aluno que pediu reembolso continua dentro.
+Venda pelo checkout é a exceção: com a venda automática ligada, reembolso e chargeback tiram o acesso sozinhos, guardando o progresso, e cancelamento de assinatura corta no fim do período pago. Caminho em `vender-pelo-checkout.md`.
+
+Pendência para quem constrói o sistema: uma rota de remoção manual que mude o estado do acesso do aluno para recusado ou vencido. Enquanto ela não existir, aluno que pediu reembolso fora do checkout ligado continua dentro.
 
 ## Reenviar o acesso: responde sucesso sem enviar
 

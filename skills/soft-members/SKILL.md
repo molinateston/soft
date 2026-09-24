@@ -1,7 +1,7 @@
 ---
 name: soft-members
 description: >-
-  Opera a ÁREA DE MEMBROS do dono por conversa: curso, seção, aula de vídeo por link, publicação, matrícula por e-mail e leitura de progresso saem por API, sem abrir painel. O que a API não expõe, ela declara em vez de prometer. Use quando o dono quer pôr conteúdo ou aluno na área de membros: "quero uma área de membros", "cria o curso", "sobe essa aula", "põe esse vídeo na aula", "monta o módulo 2", "publica o curso", "troca a capa", "põe minha logo", "matricula o aluno", "tira o acesso dele", "o aluno não consegue entrar", "manda o acesso de novo", "quem já assistiu minhas aulas". NÃO use pra: desenhar o currículo e o que o curso entrega (soft-plano-ofertas); virar aula gravada em material escrito (soft-apostila); página que vende o curso (soft-funil-landing); e-mail de turma (soft-email-sequencia); sistema novo em código (soft-sistema); arrumar a VPS (soft-organizacao-vps). Leia e siga o fluxo inteiro do SKILL.md.
+  Opera a ÁREA DE MEMBROS do dono por conversa: curso, seção, aula de vídeo por link, publicação, matrícula por e-mail e leitura de progresso saem por API, sem abrir painel. O que a API não expõe, ela declara. Use quando o dono quer pôr conteúdo ou aluno na área de membros: "quero uma área de membros", "cria o curso", "sobe essa aula", "põe esse vídeo na aula", "monta o módulo 2", "publica o curso", "troca a capa", "põe minha logo", "matricula o aluno", "tira o acesso dele", "o aluno não consegue entrar", "manda o acesso de novo", "quem já assistiu minhas aulas", "liga a venda automática", "cadastra o produto do checkout", "quem comprou não recebeu acesso", "reembolsou". NÃO use pra: desenhar o currículo e o que o curso entrega (soft-plano-ofertas); virar aula gravada em material escrito (soft-apostila); página que vende o curso (soft-funil-landing); e-mail de turma (soft-email-sequencia); sistema novo em código (soft-sistema); arrumar a VPS (soft-organizacao-vps). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Área de membros operada por conversa
@@ -29,8 +29,9 @@ Se qualquer chamada do teste voltar 401, a chave está errada ou foi apagada: o 
 | O dono fala assim | Ação | Leia |
 |---|---|---|
 | "quero minha área de membros no ar", primeira vez | MONTAR A ESCOLA | `references/montar-escola.md` |
-| "cria um curso", "monta o módulo 2", "sobe essa aula", "publica" | CRIAR CURSO | `references/criar-curso.md` |
+| "cria um curso", "monta o módulo 2", "sobe essa aula", "põe os capítulos", "capa do módulo", "publica" | CRIAR CURSO | `references/criar-curso.md` |
 | "libera pro fulano", "tira o acesso", "quem já assistiu" | MATRICULAR | `references/matricular.md` |
+| "liga a venda automática", "cadastra o produto do checkout", "quem comprou não recebeu acesso", "reembolsou", "cancelou a assinatura", "meu checkout não está na lista" | VENDER PELO CHECKOUT | `references/vender-pelo-checkout.md` |
 | "muda o nome da escola", "põe minha cor", "sobe minha logo" | PERSONALIZAR | `references/personalizar.md` |
 | "o aluno não entra", "o vídeo não aparece", "caiu" | DIAGNÓSTICO | `references/diagnostico.md` |
 | "instala a área de membros numa VPS" | INSTALAR | `references/INSTALAR.md` |
@@ -50,17 +51,20 @@ O agente se guia pelo status 422 no momento de publicar, não pelo texto da mens
 
 A sequência correta é sempre: nome do dono, curso, seções, aulas, plano, publicar, matricular. O agente não pergunta ao dono sobre plano nem sobre perfil, ele resolve por baixo e só avisa se falhar.
 
-## Sete armadilhas que derrubam o agente na primeira tentativa
+## Dez armadilhas que derrubam o agente na primeira tentativa
 
-Estas são de leitura de código do sistema, não de palpite.
+Estas vêm de leitura de código do sistema e de medição, não de palpite.
 
 1. **A descrição do curso não é texto solto.** O campo `description` espera um documento em JSON. Texto puro quebra na leitura e volta 422. O molde mínimo está em `criar-curso.md`.
 2. **Criar curso aceita só dois campos.** `title` e `type`. Qualquer outro campo no mesmo corpo volta 400 na hora. Descrição entra numa segunda chamada.
 3. **Campo desconhecido volta 400 em todas as rotas.** Cada rota tem lista fechada de campos aceitos. O agente manda exatamente os campos listados na reference, nada a mais.
 4. **Só três tipos de aula servem: `embed`, `text` e `quiz`.** Na tela de criar aula o dono vê Vídeo (que é o `embed`), Texto e Quiz. Os valores `video`, `audio`, `pdf`, `file` e `scorm` saíram da tela porque pedem envio de arquivo que esta instalação não faz, ela guarda só imagem. A API ainda aceita esses valores, e a aula criada com eles não funciona. Para YouTube, grave o link puro do vídeo no conteúdo da aula `embed`.
 5. **O `groupId` da aula é o id que a criação da seção devolveu.** Mandar o nome da seção, ou o id de outro curso, volta `Seção não encontrada` (`Section not found` em instalação anterior à atualização de 21/09).
-6. **O tipo da aula é definido no nascimento.** A atualização ignora o campo `type`. Trocar aula de texto por aula de vídeo obriga apagar e criar de novo.
+6. **O tipo da aula é definido no nascimento.** O PATCH recusa o campo `type` com 400. Aula de vídeo nasce `embed` e não aceita `content.value` vazio (422 `O conteúdo não pode ficar vazio`). Errou o tipo, apaga e recria.
 7. **A rota de convite responde 201 mesmo quando não envia e-mail nenhum.** Aluno que já tem acesso ativo faz a rota devolver sucesso sem disparar mensagem. Detalhe e contorno honesto em `matricular.md` e em `diagnostico.md`.
+8. **Mover aula conta posições fantasmas.** A lista `lessonsOrder` da seção pode guardar ids de aulas apagadas, e o `destinationIndex` da rota de mover conta esses ids. Para pôr no fim, use o tamanho de `lessonsOrder` da seção. A contagem de aulas vivas dá posição errada. Detalhe em `criar-curso.md`.
+9. **Seção se reconhece pelo `sectionId`, nunca pelo nome.** O dono renomeia módulo pelo painel. Procurar pelo nome antigo, não achar e criar outra duplica o módulo (em 23/09 foram 13 seções duplicadas). Guarde e use o `sectionId`.
+10. **Teste de vídeo feito da VPS não prova nada.** O YouTube recusa tocar para IP de servidor (erro 150 do player), com qualquer vídeo. Quem prova que a aula toca é o dono, abrindo no aparelho dele.
 
 ## O que o agente NÃO promete hoje
 
@@ -69,10 +73,14 @@ Isto é lista fechada, apurada no código desta versão do sistema. Pedido que c
 | O dono pede | Situação hoje |
 |---|---|
 | Criar a própria chave de API pela API | Não existe rota. Quem cria é o script `gerar_chave_api.sh`, na VPS, uma vez, na instalação. |
-| Tirar o acesso de um aluno | Não existe caminho por API. O acesso continua até alguém apagar o curso inteiro. Pendência aberta. |
+| Tirar o acesso de um aluno | Não existe caminho manual por API. Venda pelo checkout com a venda automática ligada é a exceção: reembolso e chargeback tiram o acesso sozinhos, guardando o progresso (`vender-pelo-checkout.md`). Fora disso o acesso continua até alguém apagar o curso inteiro. |
+| Mexer no painel do checkout | Só o dono acessa. O agente cadastra o produto do lado da área de membros e dita ao dono o que colar no checkout (`vender-pelo-checkout.md`). |
+| Vender por um checkout que a instalação não conhece | Pede um adaptador novo no código, com imagem nova. O passo a passo está em `vender-pelo-checkout.md`, seção "Checkout sem adaptador". |
 | Reenviar o e-mail de acesso pra quem já está matriculado | A chamada responde sucesso e não envia nada. O contorno honesto está em `diagnostico.md`. |
 | Nome da escola, subtítulo, tema de cores e logo | Só pelo painel. A API não expõe a configuração da escola. `personalizar.md` dá o caminho curto. |
-| Capa de curso ou imagem dentro de aula | A instalação padrão guarda imagens localmente. O agente confere e envia pela API antes de usar a referência. `personalizar.md` traz o fluxo. |
+| Capa de curso, capa de módulo ou imagem dentro de aula | A instalação padrão guarda imagens localmente. O agente envia pela API, com o tipo declarado no campo do arquivo (`;type=image/webp` e afins), e usa o `mediaId` devolvido. `personalizar.md` traz o fluxo. |
+| Capítulos gerados sozinhos a partir do vídeo | A instalação não transcreve vídeo. O agente propõe capítulos se tiver a transcrição na mão, e grava pela API depois do "pode" do dono. |
+| Trocar as imagens da tela de entrada | Fora da API. São arquivos da instalação, caminho em `personalizar.md`. |
 | Página de venda, e-mail automático, tag, segmento, certificado | Fora da API. Painel ou outra skill. |
 
 O agente nunca inventa endpoint pra cobrir esses casos. Pedido daqui vira uma frase: o que não dá, o que dá no lugar, e a pergunta se o dono quer o caminho alternativo.

@@ -91,7 +91,8 @@ Por baixo:
 
 - cria a aula com tipo de incorporação, não de vídeo, porque link externo não é arquivo;
 - amarra a aula à seção da Semana 1, pelo identificador guardado;
-- deixa publicada e fechada para quem não é aluno.
+- deixa publicada e fechada para quem não é aluno;
+- pergunta a duração e os capítulos, ou propõe capítulos se o dono tiver a transcrição, e grava duração, descrição e capítulos na aula.
 
 ```
 Aula "Massa base" no ar, dentro da Semana 1.

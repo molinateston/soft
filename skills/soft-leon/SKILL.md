@@ -72,6 +72,7 @@ Leia a frase do dono, ache a linha, entre direto na ação ou na skill. As frase
 | "ideias de post", "matriz de conteúdo", "planeja meu mês de conteúdo", "sobre o que eu posto", "o que tá em alta" | `soft-conteudo-planner` |
 | "design", "arte", "PNG", "banner", "capa", "diagrama", "exportar imagem", "cria o banner", "desenha os slides", "transforma essa copy em arte" | `soft-designer` |
 | "criativo campeão", "playbook de criativo", "ângulo das peças antes de renderizar" | `soft-criativo-campeao` |
+| "o que está vendendo no meu nicho", "espiona esse concorrente", "anúncio escalado", "biblioteca de anúncios", "desmonta esse anúncio", "quero modelar esse anúncio" | `soft-espiao` |
 | "read-caption", "personagem em cena", "headline sobre vídeo", "safe zone facial", "variante incremental" | `soft-reel-7seg` |
 | "card estilo tweet", "print de tweet", "carrossel de tweet" | `soft-tweet-card` |
 | vídeo cru na mão, "edição", "b-roll", "legenda", "corte", "música", "anúncio em vídeo" | `soft-editor-video` |

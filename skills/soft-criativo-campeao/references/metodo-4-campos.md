@@ -61,3 +61,77 @@ cada um no lint anti-IA antes de aprovar.
 - [ ] UTM conferido (casa lead com ad.name e adset.id)
 - [ ] Regra-mae: o publico escolhido e o bom (aberto+lookalike), nao
       interesse forcado caro
+
+---
+
+## Detalhe do render (passos 3 a 5 da Ação 1)
+
+A regra que decide mora no SKILL.md, no passo. Aqui fica o como e o porquê.
+
+### Foto e corte (passo 3)
+
+Rosto real do especialista, tratado em preto e branco. Foto de banco nasce fraca. Antes de cortar, meça onde ficam o topo do cabelo e o queixo no arquivo original e mantenha os dois dentro do quadro com folga. Se a ferramenta de corte não achar o rosto sozinha, enquadre pelo olho e confira quadro a quadro.
+
+### O `identidade.json` (passo 4)
+
+Campos mínimos, com a origem de cada campo preenchido no objeto `origens`:
+
+```json
+{
+  "cor_principal": [17, 17, 17],
+  "cor_fundo": [250, 249, 246],
+  "cor_texto_sobre_veu": [17, 17, 17],
+  "cor_sub": [110, 110, 110],
+  "fonte": "caminho/do/arquivo/da/fonte.ttf",
+  "selo": "PARA <NICHO> · AULA GRATUITA",
+  "cta": "Cadastre-se",
+  "assinatura": "[A CONFIRMAR: @ do perfil, confirmado pelo dono]",
+  "formato": [1080, 1350],
+  "origens": {"cor_principal": "dono.md:12", "selo": "dono.md:30"}
+}
+```
+
+Por que o JSON: troca o arquivo e o mesmo render cospe a identidade de outro cliente sem redesenhar nada. Por que o @ nunca é deduzido: um @ errado publicado é um anúncio apontando pro perfil de outra pessoa, e deduzir do nome do negócio ou do domínio não vale como confirmação. Por que a cor em palavra não vira RGB: "off-white" ou "acento verde" têm dezenas de valores, e o número adivinhado sai no feed como se fosse da marca.
+
+### O `manifesto.json` (passo 5)
+
+Uma entrada por peça:
+
+```json
+{
+  "pecas": [
+    {
+      "foto": "fotos/autoridade-01.jpg",
+      "gancho": "Você monta o plano. Quem segura a adesão?",
+      "sub": "O que muda quando o retorno vira parte do protocolo.",
+      "cta": "Comenta ADESAO aqui embaixo que eu te mando o roteiro",
+      "texto_anuncio": "O plano funciona no papel. O retorno é onde o paciente decide ficar.",
+      "titulo_anuncio": "O retorno que segura a adesão",
+      "saida": "out/peca-01-adesao.jpg"
+    }
+  ]
+}
+```
+
+A 1ª linha do `texto_anuncio` é a segunda coisa que o público lê. Trocar só texto e título, sem mexer na arte, é o teste mais barato quando a peça já vende.
+
+### Por que as regras do CTA e da ressalva são duras
+
+- **Chave `cta` nunca apagada.** Uma rodada tirou o marcador do CTA e o motor tirou a chamada à ação junto: quatro anúncios sem uma linha de ação, e o gate passou.
+- **Palavra-chave sozinha não é CTA.** Uma rodada fechou três de quatro peças em `manda BASE40 no WhatsApp` sem dizer o que a pessoa ganha ao mandar. O certo: `manda BASE40 no WhatsApp que eu te mando a aula gratuita de 20 min`.
+- **Ressalva só na última peça.** Colada embaixo de peça do meio, ela corta o gancho e some antes do CTA da última.
+
+### A ferramenta de render, nesta ordem
+
+1. um script de render que já venha com as skills de design instaladas (por exemplo em `soft-designer/scripts/`), chamado no shell;
+2. um script próprio curto, na pasta de trabalho, com a biblioteca de imagem do ambiente (Pillow ou equivalente), lendo `identidade.json` e `manifesto.json`;
+3. sem shell nem biblioteca de imagem: a skill não inventa pixel. Entrega `spec-render.md` com foto, texto exato, posição, cor, fonte e tamanho por peça, e segue nos passos 6 e 7.
+
+Peça solo é anúncio de imagem única (foto, gancho, sub, CTA). O lote roda com checkpoint em `out/progress.json`: se cair, roda de novo e retoma de onde parou.
+
+### Quando o checkpoint falha no meio do lote
+
+- Peça que gravou no `progress.json` e tem arquivo em `out/` está pronta e não roda de novo.
+- Peça que gravou e não tem arquivo está corrompida: apague a entrada dela e o jpg parcial, e rode outra vez.
+- Duas falhas seguidas na MESMA peça param o lote: mostre o erro cru ao dono em 3 linhas, sem terceira tentativa.
+- Glifo ausente na fonte não se retenta: troque a fonte no `identidade.json` e rode o lote inteiro.

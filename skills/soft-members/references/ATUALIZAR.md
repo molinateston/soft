@@ -25,7 +25,7 @@ bash <pasta>/update.sh --image soft-members:2026-09-20
 Para carregar um arquivo trazido de outra máquina:
 
 ```bash
-bash <pasta>/update.sh --image soft-members:2026-09-20 --image-archive <caminho>/soft-members-2026-09-20.tar.gz
+bash <pasta>/update.sh --image soft-members:2026-09-20 --image-archive <caminho>/<arquivo-da-imagem>.tar.gz
 ```
 
 Para baixar de um repositório acessível pela VPS:
@@ -50,7 +50,7 @@ curl -s -o /dev/null -w "%{http_code}\n" https://<dominio>/healthy
 docker compose --env-file <pasta>/.env -f <pasta>/docker-compose.yml ps
 ```
 
-O fechamento exige a etiqueta nova, resposta `200` e os containers `soft-members-app`, `soft-members-mongo` e `soft-members-caddy`.
+O fechamento exige a etiqueta nova, resposta `200` e os três serviços da instalação (`app`, `mongo` e `caddy`) de pé na saída do `ps`.
 
 Se houve volta automática, avise:
 

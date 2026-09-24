@@ -103,6 +103,8 @@ curl -s -X PATCH "{{MEMBERS_URL}}/api/products/{{COURSE_ID}}/lessons/{{LESSON_ID
 
 **3. O link do vídeo está restrito na origem.** Vídeo marcado como privado no site de origem não toca dentro de página nenhuma. Pergunte ao dono: `Esse vídeo está como não listado ou público lá no YouTube? Privado não toca aqui.`
 
+**Antes de concluir que não toca, veja de onde veio o teste.** O YouTube recusa tocar para IP de servidor (erro 150 do player), com qualquer vídeo. Teste feito da VPS não prova nada. Quem prova é o dono abrindo a aula no aparelho dele: `Abre a aula no seu celular e me diz se o vídeo toca?`
+
 ## A página está fora do ar
 
 O agente confere e relata, e só mexe na máquina se a máquina for do escopo dele.
