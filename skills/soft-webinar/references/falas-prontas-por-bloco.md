@@ -1,5 +1,7 @@
 # Falas prontas por bloco (a fala já escrita, não só a técnica)
 
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Fala pronta é o que a conferência de voz evita em outro dono; entra na auditoria junto com o arquivo do caso do autor. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
 > **Quando consultar:** sempre que for ESCREVER o roteiro de um bloco e precisar da fala já pronta, não da teoria. As outras references dão a ordem, o porquê e o exemplo curto; esta dá a **FALA-TEMPLATE verbatim**, palavra por palavra, com lacunas `[ ]` pra preencher com o avatar/oferta do player. É a companion direta de `estrutura-webinario-aida.md`: lá está o mapa do bloco (pergunta-chave, estado alvo, modelo curto), aqui está a fala inteira escrita no tom.
@@ -14,7 +16,7 @@
 
 # PRÉ-INÍCIO
 
-> Slide-modelo: cronômetro de 5 min, depoimentos rodando, "comente seu nome e de onde está falando", "hoje como está em relação ao seu problema?", "(quem sair não volta. posso começar?)".
+> Slide-modelo: cronômetro de 5 min, depoimentos rodando, "comente seu nome e de onde está falando", "hoje como está em relação ao seu problema?", "([regra de saída do dono, se houver] posso começar?)".
 
 ### PI.1 - Boas-vindas + ativar o chat (quebrar a passividade)
 O primeiro micro-ato de participação (digitar de onde fala) já tira a pessoa do modo-espectador. Pedir cidade vira prova viva de alcance.
@@ -25,8 +27,8 @@ Quem escreve a própria dor no chat já admite que ela existe, abre a ferida que
 > "Deixa eu te fazer uma pergunta antes da gente entrar. Hoje, sendo honesto, como você está em relação a [PROBLEMA]? Você olha pro seu [RESULTADO/SITUAÇÃO] e fala 'é isso que eu esperava de mim', ou ainda não está onde você queria? Escreve aqui no chat, sem filtro. Isso aqui é entre a gente."
 
 ### PI.3 - "Posso começar?" (primeiro micro-sim + corte de fuga)
-"Posso começar?" é o primeiríssimo micro-sim do dia (treina o cérebro a concordar). O "quem sair não volta" é escassez de acesso ao próprio evento, eleva o valor do que vem.
-> "Uma combinação rápida. O que eu vou mostrar hoje eu não repito depois. Quem sair, perde. Então, se você está aqui, fica até o fim, vale cada minuto. Posso começar?"
+"Posso começar?" é o primeiríssimo micro-sim do dia (treina o cérebro a concordar). A regra de saída ("não repito depois") só entra quando o dono decidiu que não há replay nem reprise; sem essa decisão no insumo, a combinação pede atenção sem prometer nem negar replay.
+> "Uma combinação rápida. [Só com a decisão do dono: O que eu vou mostrar hoje eu não repito depois.] Fecha as outras abas e fica até o fim, vale cada minuto. Posso começar?"
 
 ---
 
@@ -40,7 +42,7 @@ O título carrega esperança (benefício) e a objeção derrubada (sem...) num s
 
 ### A.2 - Bullets do que vem + pra quem serve (pela dor)
 Descrever o avatar pela dor faz a pessoa se reconhecer. Os bullets são o anti-fuga, cada um é um loop aberto que só fecha se ela ficar.
-> "Nessa próxima hora você vai ver: **[1]** o erro que faz a maioria fracassar em [TEMA]; **[2]** o caminho que já funcionou pra [N] pessoas; **[3]** os [3] pilares de [MECANISMO]; **[4]** como ter [RESULTADO GRANDE] em [TEMPO CURTO]. E eu quero alinhar pra quem é essa aula: pra quem **[dificuldade 1]**, pra quem **[dificuldade 2]**, pra quem **[dificuldade 3]**. Se você se identifica com isso, escreve 'sou eu' no chat. Eu quero saber que estou falando com a pessoa certa."
+> "Nessa próxima hora você vai ver: **[1]** o erro que [quem o dono atende] comete em [TEMA]; **[2]** o caminho que já funcionou pra [N real do dono] pessoas; **[3]** os [3] pilares de [MECANISMO]; **[4]** como ter [RESULTADO que o dono comprova] [em PRAZO, só se o insumo der]. E eu quero alinhar pra quem é essa aula: pra quem **[dificuldade 1]**, pra quem **[dificuldade 2]**, pra quem **[dificuldade 3]**. Se você se identifica com isso, escreve 'sou eu' no chat. Eu quero saber que estou falando com a pessoa certa."
 
 ### A.3 - "É pra você / não é pra você" (qualifica e eleva a autoimagem)
 Rejeitar o público errado eleva o valor (não é pra todo mundo) e faz quem fica se sentir do grupo sério. A exclusão é a arma.
@@ -114,7 +116,7 @@ Micro-perguntas de avanço constroem o estado-sim DURANTE o conteúdo, pra a tra
 
 ### DE.5 - Recap do conteúdo (aprendizado ×5) e a ponte pro pitch
 O recap re-ancora o valor recebido na pessoa (ela entra na oferta sentindo "recebi muito") E te autoriza a pedir (você entregou). A cadência rápida cria sensação de volume.
-> "Deixa eu recapitular tudo que a gente viu, rapidinho: **[1]** por que a maioria fracassa em [TEMA]; **[2]** o que você provavelmente está fazendo de errado; **[3]** o que é [MECANISMO]; **[4]** por que ele funciona; **[5]** como sair de [estado ruim] pra [estado bom]. Olha quanta coisa em [X] minutos. E mais importante do que saber **o que** fazer é saber **como** colocar isso na sua vida. É aí que eu quero te ajudar agora."
+> "Deixa eu recapitular tudo que a gente viu, rapidinho: **[1]** por que [quem o dono atende] empaca em [TEMA]; **[2]** o que você provavelmente está fazendo de errado; **[3]** o que é [MECANISMO]; **[4]** por que ele funciona; **[5]** como sair de [estado ruim] pra [estado bom]. Olha quanta coisa em [X] minutos. E mais importante do que saber **o que** fazer é saber **como** colocar isso na sua vida. É aí que eu quero te ajudar agora."
 
 ---
 
@@ -189,17 +191,17 @@ A garantia é o Two Choices virando concreto, "eu estou subscrevendo o seu suces
 
 ### OF.10 - "Combinado não sai caro" + a queda final do preço
 O desconto final + o "combinado" cria reciprocidade (ele te deu um desconto, você deve o resultado) e ancora o preço como ridículo por contraste.
-> "Então fica assim: tudo isso, que valeria [SOMA ALTA], hoje, pra você que está aqui, sai por **[PREÇO REAL]** (ou [parcelas]). É menos do que você gasta com **[algo trivial do dia a dia dele]**. E vou te propor um combinado: você entra, aplica, e quando atingir o resultado, você me avisa. Combinado não sai caro. Temos um trato?"
+> "Então fica assim: tudo isso, que valeria [SOMA ALTA], [condição da sessão, só se o dono confirmou] sai por **[PREÇO REAL]** (ou [parcelas]). É menos do que você gasta com **[algo trivial do dia a dia dele]**. E vou te propor um combinado: você entra, aplica, e quando atingir o resultado, você me avisa. Combinado não sai caro. Temos um trato?"
 
-### OF.11 - Surpresa / 10 primeiras vagas + resumo + CTA Gain
-O bônus das 10 primeiras é escassez REAL e honesta. O "imagine quem vai ter orgulho" é a esperança no pico, ancorada em relação, não em coisa. O CTA é energia de quem celebra a decisão, não pressão.
-> "E tem uma surpresa: as **[10] primeiras** pessoas que entrarem agora ganham **[bônus exclusivo / algo personalizado]**, só as 10 primeiras, não tem mais depois. Resumindo tudo: **[stack completo]**, por **[PREÇO]**. O botão já está aí no chat. Antes de você clicar, imagina por um segundo: como vai ser quando isso estiver feito? **Quem vai ter orgulho de você?** O que muda na sua casa, na sua rotina? Imagina. (abre) As vagas estão **abertas**, clica no botão e vem comigo. Vou comemorando aqui com quem está entrando."
+### OF.11 - Surpresa dos N primeiros (só com o limite real do dono) + resumo + CTA Gain
+O bônus dos N primeiros só é escassez honesta quando o limite e o bônus estão no insumo; sem isso, a surpresa sai e fica o resumo com o CTA. O "imagine quem vai ter orgulho" é a esperança no pico, ancorada em relação, não em coisa. O CTA é energia de quem celebra a decisão, não pressão.
+> "[Só com o limite do dono: E tem uma surpresa: as **[N do dono]** primeiras pessoas que entrarem ganham **[bônus real do dono]**.] Resumindo tudo: **[stack completo]**, por **[PREÇO]**. O botão já está aí no chat. Antes de você clicar, imagina por um segundo: como vai ser quando isso estiver feito? **Quem vai ter orgulho de você?** O que muda na sua casa, na sua rotina? Imagina. (abre) O link está **aberto**, clica no botão e vem comigo. [Só ao vivo: Vou comemorando aqui com quem está entrando.]"
 
 ---
 
 # FECHAMENTO (3 pitches)
 
-> Slide-modelo: PITCH LÓGICO (justificativa racional + depoimento), quebra de objeções + Q&A (valor por dia, objeções universais e específicas, comemora compras), PITCH FEAR/FOMO ("só 2 vagas, depois acaba"), "te vejo do outro lado", resumo + depoimentos + cronômetro 5 min + WhatsApp.
+> Slide-modelo: PITCH LÓGICO (justificativa racional + depoimento), quebra de objeções + Q&A (valor por dia, objeções universais e específicas, comemora compras), PITCH FEAR/FOMO (limite e prazo só os do dono), a despedida na voz do dono, resumo + depoimentos + cronômetro 5 min + WhatsApp.
 
 ### FE.1 - PITCH LÓGICO (por que não faz sentido ficar de fora) + valor por dia
 Depois do pitch emocional, a lógica dá ao cérebro a permissão racional pra confirmar a decisão já tomada. Ancore o valor por dia contra um gasto trivial.
@@ -211,15 +213,15 @@ Antecipar a objeção tira o poder dela; comemorar entradas é prova social ao v
 > '**É caro?**' Compara com [o custo de continuar como está / o gasto trivial]. Caro é continuar [no problema].
 > '**Funciona pra mim, que [condição específica do avatar]?**' Funciona, olha [perfil parecido que conseguiu].
 > '**E o tempo, e ser online?**' [resposta direta].
-> (e comemorando) Vi você entrando aí, parabéns, bem-vindo. Vi mais um. Que bom te ter aqui."
+> [Só ao vivo, comemorando quem entrou de verdade: Vi você entrando aí, parabéns, bem-vindo.]"
 
 ### FE.3 - PITCH FEAR / FOMO ("o trem está partindo")
 Escassez SEMPRE com reason-why e honesta + o reframe "a indecisão é uma decisão tomada por você" + "custa duas vezes" (você não ganha E outro ganha no seu lugar). O FOMO Soft não é "compre", é "não deixe o relógio decidir por você".
-> "O trem está partindo. A aula está acabando, e quando ela acabar, essa condição acaba junto, só vale pra quem está aqui agora. Restam **[poucas] vagas** com [o bônus / o preço]. E pensa: cada dia que você adia isso te custa duas vezes, você continua sem [o resultado], **e** alguém igual a você está aplicando e avançando no seu lugar. Ficar em cima do muro também é uma escolha, só que aí o relógio decide por você. E eu sei que você não gosta que decidam por você. Clica agora, enquanto está aberto. **Te vejo do outro lado.**"
+> "O trem está partindo. [DO DONO: o prazo e o limite reais desta condição, com o motivo; sem eles, esta frase sai.] E pensa: cada dia que você adia isso te custa duas vezes, você continua sem [o resultado], **e** alguém igual a você está aplicando e avançando no seu lugar. Ficar em cima do muro também é uma escolha, só que aí o relógio decide por você. E eu sei que você não gosta que decidam por você. Clica agora. **[despedida no bordão do dono]**"
 
 ### FE.4 - Fechamento físico + WhatsApp + cronômetro (despedida)
 No momento da decisão, ambiguidade mata. Descrever o ato físico (acha o botão, clica, preenche, cai na área de membros) remove atrito. A válvula de dúvida com escassez respeita quem hesita E reaplica o tempo.
-> "Como funciona: você vai achar o botão de inscrição (aqui no chat e na tela), clica, cai na página, preenche os seus dados, e **na hora** você já entra na área e começa a usar. Se tiver alguma dúvida importante pra decidir **antes do tempo acabar**, me manda no [WhatsApp], mas rápido, porque o cronômetro está correndo. Vou ficar aqui mais [5] minutos com os depoimentos rodando, comemorando com quem está entrando. Eu quero muito ver o seu resultado. Te vejo do outro lado."
+> "Como funciona: você vai achar o botão de inscrição (aqui no chat e na tela), clica, cai na página, preenche os seus dados, e **na hora** você já entra na área e começa a usar. Se tiver alguma dúvida importante pra decidir, me manda no [canal que o dono atende de verdade]. [Só ao vivo: fico mais [N] minutos com os depoimentos rodando.] [Só com prazo real do dono: o cronômetro está correndo.] Eu quero muito ver o seu resultado. [despedida no bordão do dono]"
 
 ---
 

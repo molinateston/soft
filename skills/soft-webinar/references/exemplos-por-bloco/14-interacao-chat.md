@@ -1,5 +1,9 @@
 # Interação com chat (TRANSVERSAL - escada de micro-compromissos, eco nominal, chat como termômetro e motor)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever QUALQUER bloco - este é o único bloco transversal: ele atravessa o webinar inteiro, do check técnico ao placar de vendas. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 > Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **o especialista** (dentista). A escada de micro-compromissos ("micro-sins") é mecanismo descrito pela escola do webinar de conversão; a cadência "Would you like…? Of course." e o caso Ian = Fladlien.
 

@@ -64,20 +64,20 @@ Como não é venda no texto, a Ação 2.A foi pulada.
 
 ## Ação 3 · OUTLINE
 
-Saída real: `outline-captura.md`. **STOP** aqui, o dono viu o esqueleto antes do corpo.
+Saída real: o topo de `pagina-captura.md`. No modo guiado, **STOP** aqui e o dono vê o esqueleto antes do corpo; no direto, segue.
 
 1. **Hero** · headline com a dor mais o número · botão âncora
-2. **O problema em 3 linhas** · a cena da quebra na pior hora
-3. **O que tem no material** · 3 marcadores, o que ela sai sabendo
-4. **Prova acima da dobra** · o caso da distribuidora, com número e prazo
-5. **Formulário e botão** · um campo, WhatsApp
+2. **Prova acima da dobra** · o caso da distribuidora, com número e prazo, logo sob a headline
+3. **O problema em 3 linhas** · a cena da quebra na pior hora
+4. **O que tem no material** · 3 marcadores, o que ela sai sabendo
+5. **Formulário e botão** · um campo, WhatsApp, micro-garantia embaixo
 
 ---
 
 ## Ação 4 · BLOCOS (a página de captura escrita por inteiro)
 
-Saída real: `pagina-captura.md`. Esta é a página completa, pronta pra colar. Cada bloco foi mostrado
-sozinho, com parada, antes do seguinte.
+Saída real: `pagina-captura.md` com a copy e, na Ação 7, `pagina.html` e `obrigado.html` montados do template.
+No modo guiado, cada bloco foi mostrado sozinho, com parada, antes do seguinte.
 
 ### Bloco 1 · Hero
 
@@ -89,7 +89,15 @@ sozinho, com parada, antes do seguinte.
 
 *Lê em 7 segundos. Ancora na fala "queria saber quanto isso me custa de verdade" (N=5).*
 
-### Bloco 2 · O problema
+### Bloco 2 · Prova acima da dobra
+
+> Uma distribuidora de 18 veículos usou essa conta pra descobrir que perdia 11 dias de operação por
+> mês. Em 4 meses, com manutenção reorganizada por janela de disponibilidade, caiu pra 3 dias.
+> `[A CONFIRMAR: prova, autorização por escrito]`
+
+*Lê em 12 segundos. Nome do perfil, número e prazo.*
+
+### Bloco 3 · O problema
 
 > Quebra sempre na semana mais cheia. O motorista liga da estrada, você descobre o problema pelo
 > telefone, e aí começa a corrida atrás da peça.
@@ -99,7 +107,7 @@ sozinho, com parada, antes do seguinte.
 
 *Lê em 16 segundos. Ancora nas falas de N=8 e N=6, quase intactas.*
 
-### Bloco 3 · O que tem no material
+### Bloco 4 · O que tem no material
 
 > A planilha faz a conta em 4 campos:
 >
@@ -109,14 +117,6 @@ sozinho, com parada, antes do seguinte.
 > - o número que essa conta devolve, por veículo e por mês
 
 *Lê em 14 segundos. Nenhum adjetivo, quatro promessas concretas.*
-
-### Bloco 4 · Prova acima da dobra
-
-> Uma distribuidora de 18 veículos usou essa conta pra descobrir que perdia 11 dias de operação por
-> mês. Em 4 meses, com manutenção reorganizada por janela de disponibilidade, caiu pra 3 dias.
-> `[A CONFIRMAR: prova, autorização por escrito]`
-
-*Lê em 12 segundos. Nome do perfil, número e prazo.*
 
 ### Bloco 5 · Formulário e botão
 
@@ -162,7 +162,7 @@ nome do mecanismo sem o passo a passo executável.*
 | Bloco que caiu | Check que reprovou | O que foi feito |
 |---|---|---|
 | Primeira versão do hero, "Otimize a manutenção da sua frota" | Dá pra ver + C/U/B (boring) | virou a pergunta com o número, na fala do dono de frota |
-| Primeira versão do bloco 2, com 5 parágrafos | Tempo de leitura do bloco (38 segundos) | cortado pra 2 parágrafos, 16 segundos |
+| Primeira versão do bloco 3 (o problema), com 5 parágrafos | Tempo de leitura do bloco (38 segundos) | cortado pra 2 parágrafos, 16 segundos |
 | Prova escrita como "diversos clientes reduziram paradas" | Ancorada + prova real acima da dobra | virou o caso com número e prazo, com `[A CONFIRMAR: prova]` |
 | Formulário com nome, e-mail, WhatsApp e tamanho da frota | Formulário casa com a temperatura | ficou só WhatsApp. Tráfego frio, um campo |
 | Um segundo botão "conheça nosso trabalho" no rodapé | Um botão dominante + zero fricção | cortado. A única saída é o formulário |

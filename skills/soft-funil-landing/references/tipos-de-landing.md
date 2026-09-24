@@ -17,7 +17,7 @@ Os exemplos são todos de nicho fictício (marca-neutra). Nunca copia o exemplo 
 - Tipo 2 · Lead-capture B2B (form-first, multi-campo)
 - Tipo 3 · Entrega-de-isca (captura + delivery)
 - Tipo 4 · Click-through / Advertorial (aquece, não vende)
-- Tipo 5 · Registro de evento (presencial / aula avulsa)
+- Tipo 5 · Registro de evento (aula, live, webinar com horário, imersão)
 - Tipo 6 · Obrigado / Avanço (confirm + advance)
 - Tipo 7 · Replay (janela de escassez real)
 - Tipo 8 · Waitlist / Coming-soon
@@ -85,9 +85,9 @@ Cada tipo abaixo segue sempre o mesmo cartão, pra você ler rápido e montar o 
 **Objetivo:** trocar o e-mail (ou WhatsApp) por uma promessa pequena. Nada mais. A pessoa entra na lista, o resto do funil faz o trabalho.
 
 **Blocos em ordem:**
-1. **Hero** com a promessa única e o campo de captura juntos, acima da dobra. Headline + sub de uma linha + 1 campo + botão.
-2. **Bullet de 3 ganhos** concretos do que a pessoa recebe ao entrar (o que vai chegar no e-mail/WhatsApp).
-3. **Meia-prova** (1 número ou 1 frase de credibilidade, curta, sem caso longo). O número agregado sozinho vale, e a combinação número agregado mais 1 caso nominal também vale, desde que o caso caiba em uma linha (nome, o que mudou, em quanto tempo). O que a meia-prova não aceita é o caso NARRADO: parágrafo de história, antes e depois em cena, depoimento longo. Ex. que passa: "1.200 costureiras já usam esse gabarito; a Márcia parou de refazer barra em 2 semanas." Ex. que não passa: as mesmas duas informações esticadas em quatro linhas de história.
+1. **Hero** com a promessa única e o campo de captura juntos, acima da dobra. Headline + sub de uma linha + 1 campo + botão, com a micro-garantia embaixo só com dado do insumo (sem dado, a linha sai; nunca "dados protegidos" de padrão).
+2. **Meia-prova** logo sob a headline, ainda na primeira tela (1 número ou 1 frase de credibilidade, curta, sem caso longo). Prova acima da dobra é regra; depois da promessa, antes do primeiro rolar.
+3. **Bullet de 3 ganhos** concretos do que a pessoa recebe ao entrar (o que vai chegar no e-mail/WhatsApp). O número agregado sozinho vale, e a combinação número agregado mais 1 caso nominal também vale, desde que o caso caiba em uma linha (nome, o que mudou, em quanto tempo). O que a meia-prova não aceita é o caso NARRADO: parágrafo de história, antes e depois em cena, depoimento longo. Ex. que passa: "1.200 costureiras já usam esse gabarito; a Márcia parou de refazer barra em 2 semanas." Ex. que não passa: as mesmas duas informações esticadas em quatro linhas de história.
 4. **Repetição do CTA** com o mesmo campo, pra quem rolou.
 
 **1 CTA:** entrar na lista. Um campo, um botão. Sempre o mesmo destino.
@@ -201,33 +201,40 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 ---
 
-## Tipo 5 · Registro de evento (presencial / aula avulsa)
+## Tipo 5 · Registro de evento (aula, live, webinar com horário, imersão)
 
-**Objetivo:** registrar a presença num evento com data e hora (aula ao vivo avulsa, encontro presencial, masterclass de data única). Captura + compromisso de comparecer.
+**Objetivo:** registrar a presença num evento com data e hora (aula ao vivo, webinar perpétuo com sessões marcadas, live, masterclass, workshop, encontro presencial) ou vender o ingresso de um evento pago. Captura mais compromisso de comparecer.
 
-**Blocos em ordem:**
-1. **Hero com a promessa do evento + data/hora/formato** visíveis na primeira dobra.
-2. **O que a pessoa sai sabendo/levando** ao fim do evento (3 a 4 pontos concretos).
-3. **Prova de quem conduz** (1 número de autoridade, curto).
-4. **Formulário de registro** + o que acontece depois de registrar (link, lembrete).
+**Blocos em ordem:** pelo molde que a Ação 2.B escolhe, em `moldes-evento.md`:
+- **CURTO** (tráfego quente): etiqueta, hero, linha de prova, lista "sem", o que vai ver, condutor, data ou seletor, formulário, micro-garantia, barra fixa.
+- **LONGO GRÁTIS** (frio ou morno): faixa de selos, hero com foto e números, formulário em cartão na primeira tela (seletor de horário como primeiro campo quando há sessões), o que vai descobrir, é pra você e não é pra você, botão do meio, bio no fim, botão final.
+- **LONGO PAGO** (ingresso): hero com vídeo, números, entregas, mecanismo, é pra você, lotes com motivo, garantia, formulário no fim com o que acontece depois de pagar, perguntas frequentes.
 
-**1 CTA:** registrar a vaga. Sempre o mesmo.
+Nos três, o número de autoridade fica nas 5 primeiras linhas, logo sob a headline. A prova vem depois da promessa (princípio 3) e antes do primeiro rolar.
 
-**O que NÃO entra:** página longa de venda. O evento é a oferta; aqui você vende a PRESENÇA, não um produto.
+**1 CTA:** inscrever (ou comprar o ingresso). Sempre o mesmo destino, repetido nos picos e na barra fixa do celular.
 
-**Mecânica-assinatura:** data/hora clara + a sequência de lembrete prometida (a página diz quando e por onde a pessoa será lembrada).
+**Tamanho:** quem decide é o tráfego e o preço do evento, nunca a receita. Página longa é certa pro frio e pro pago; a curta é certa pro quente. A regra e o motivo estão em `moldes-evento.md`, seção 1.
 
-**Framework de copy:** AIDA enxuto, com a data fazendo o papel de urgência real.
+**O que NÃO entra:** escassez sem motivo (vagas sem número, "hoje" em sessão que se repete, contador sem data real), preço riscado sem lastro, canal de lembrete ou de acesso que o insumo não traz.
 
-**Roteia pra irmã?** Se o evento é um WEBINAR (perpétuo ou ao vivo), as páginas de cadastro/obrigado/checkout são `soft-webinar`. Este tipo aqui serve evento presencial ou aula avulsa que NÃO é o sistema de webinar.
+**Mecânica-assinatura:** data e hora claras na primeira tela (ou o seletor de horário) mais um obrigado que puxa comparecimento. Canal e prazo de lembrete só entram com linha do insumo; sem ela, a página diz só o que é certo e o canal vira pergunta ao dono.
 
-**Exemplo de nicho fictício (sommelier que dá aula de vinho):**
+**Framework de copy:** AIDA, com a data fazendo o papel de urgência real; no longo pago, AIDA com oferta (entregas, lote, garantia).
 
-> **Hero:** "Aula ao vivo: como escolher um vinho de R$40 que engana paladar de R$200. Quinta, 20h, online." [botão: Garantir minha vaga]
+**Roteia pra irmã?** O webinar inteiro (aula, oferta, mensagens) é `soft-webinar`. A página de inscrição, o obrigado e a venda do ingresso, esta skill faz inteiros.
+
+**Exemplo de nicho fictício (sommelier que dá aula de vinho, molde curto).** O insumo do exemplo diz: aula ao vivo, grátis, quinta às 20h, 50 minutos, mais de 3 mil alunos. Cada palavra de formato, custo e número abaixo sai dessa linha; num insumo sem ela, a palavra sai da página.
+
+> **Etiqueta:** aula ao vivo e gratuita
 >
-> **O que leva:** os 3 países que entregam mais por menos · como ler o rótulo em 10 segundos · 5 rótulos testados que valem cada centavo.
+> **Hero:** "Escolha um vinho de R$40 que passa por um de R$200, mesmo sem decorar país nem uva." Sub: "Quinta, 20h, online, 50 minutos."
 >
-> **Depois de registrar:** "Te mando o link e um lembrete 1 hora antes no WhatsApp."
+> **Prova:** "Mais de 3 mil alunos nas turmas de degustação."
+>
+> **O que vai ver:** os 3 países que entregam mais por menos · como ler o rótulo em 10 segundos · 5 rótulos testados que valem cada centavo.
+>
+> [botão: Quero meu lugar na aula] · "Sem custo, 50 minutos."
 
 ---
 
@@ -237,18 +244,20 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Blocos em ordem:**
 1. **Confirmação curta** ("recebido, está tudo certo").
-2. **Próximo passo único e concreto**: adicionar na agenda, entrar no grupo, assistir o próximo vídeo, ou uma micro-oferta.
-3. (Quando aplica) **Micro-oferta** de baixo atrito, ligada ao que a pessoa já fez.
+2. **Data e hora de novo** (ou o horário que a pessoa escolheu), quando há compromisso de horário.
+3. **Próximo passo único e concreto**: adicionar na agenda, entrar no grupo, assistir o próximo vídeo, ou uma micro-oferta. Grupo, WhatsApp ou canal só com o link no insumo; sem ele, agenda.
+4. **Pequeno compromisso** (uma ação de 10 segundos ou uma decisão) e **o que preparar** (1 a 3 itens do insumo), quando há evento.
+5. (Quando aplica) **Micro-oferta** de baixo atrito, ligada ao que a pessoa já fez.
 
 **1 CTA:** o próximo passo. Um só.
 
 **O que NÃO entra:** beco sem saída. Página de obrigado que só diz "obrigado" e para joga fora o momento de maior atenção do funil.
 
-**Mecânica-assinatura:** confirm + advance. O calendar-add (botão que joga o evento direto na agenda do celular) é a tática de maior impacto em comparecimento; use sempre que houver compromisso de horário.
+**Mecânica-assinatura:** confirm + advance. O calendar-add (botão que joga o evento direto na agenda do celular) é a tática de maior impacto em comparecimento; use sempre que houver compromisso de horário, com todas as datas do evento no arquivo (evento de duas noites leva as duas); sem data no insumo, sem agenda.
 
 **Framework de copy:** direto, sem arco longo. Confirma, avança.
 
-**Roteia pra irmã?** Página de obrigado de WEBINAR é `soft-webinar`.
+**Roteia pra irmã?** Não. O obrigado de evento segue o molde de `moldes-evento.md`, seção 8.
 
 **Exemplo de nicho fictício (terapeuta de casais):**
 
@@ -541,4 +550,4 @@ Todo tipo, sem exceção, passa pelo gate inline do SKILL.md bloco a bloco (uma 
 
 A faca Soft vale em todo conteúdo que descreve método: descreve resultado e função, nunca o passo a passo executável que tira o especialista da jogada.
 
-Preço fora da peça por padrão (vai pro WhatsApp/comercial), salvo ticket baixo onde o preço visível acelera a compra. Nos tipos de captura, registro e qualificação não há preço na página: a página vende a presença, o e-mail ou a conversa, não o produto.
+Preço fora da peça por padrão (vai pro WhatsApp/comercial), salvo ticket baixo onde o preço visível acelera a compra. Nos tipos de captura, registro e qualificação não há preço do produto na página: a página vende a presença, o e-mail ou a conversa. A exceção é o ingresso do evento pago (molde longo pago), onde o preço do ingresso e os lotes entram com o dado do insumo.

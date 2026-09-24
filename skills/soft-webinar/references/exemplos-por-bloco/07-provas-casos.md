@@ -1,5 +1,9 @@
 # Provas e casos (estudos de caso, depoimentos, demonstrações, números, persona-âncora)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ---

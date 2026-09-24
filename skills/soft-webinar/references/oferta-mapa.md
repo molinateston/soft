@@ -28,9 +28,11 @@ O método não tem teto de ticket, tem ESPECTRO; o que muda pela faixa é a enge
 | **~R$1.997** | O sweet spot do perpétuo | Checkout; stack rica + 15-primeiros em camadas + garantia do cardápio; âncora alta externa (pós/consultoria) |
 | **~R$2.997+** | Teto do checkout | Checkout ainda fecha, mas a régua do canal já pisca: acima daqui a conversa humana rende mais |
 
-## A regra do canal: ≤3k no CHECKOUT, >3k na CALL 1:1 (com inversão de poder)
+## A regra do canal: até ~R$3.000 no CHECKOUT, acima na CALL 1:1 (com inversão de poder)
 
-- **Ticket até ~R$3.000:** fecha no BOTÃO. Checkout enxuto (cronômetro + 15-primeiros + garantia + provas + bônus, nada mais), trajeto mais curto pro cartão.
-- **Ticket acima de ~R$3.000:** NÃO se vende no botão. O CTA aponta pra **call 1:1** (aplicação/sessão), e a call é montada com **INVERSÃO DE PODER**: quem está sendo avaliado é o LEAD, não o vendedor. A página/fala enquadra a call como processo seletivo ("vamos ver se faz sentido pra você entrar", vagas limitadas de atendimento, formulário que qualifica antes), nunca como "fale com nosso time" de quem implora a venda. O preço NUNCA vai seco no automático: quem dá o preço é o humano, dentro da call, depois de diagnosticar. (A condução da call em si é da **soft-vendas-closer**.)
+~R$3.000 é o padrão do método (confirmado pelo dono do método em 23/09); se o dono declarou outro número no insumo, vale o dele. Escreva a conta antes de decidir: `preço R$X · régua R$Y (padrão ou do dono) · X até Y? sim, checkout; não, call`. Motivo: uma entrega leu R$1.497 como acima da régua e mandou o pós inteiro pra call.
+
+- **Ticket até a régua (~R$3.000, ou o número do dono):** fecha no BOTÃO. Checkout enxuto (cronômetro + 15-primeiros + garantia + provas + bônus, nada mais), trajeto mais curto pro cartão.
+- **Ticket acima da régua:** NÃO se vende no botão. O CTA aponta pra **call 1:1** (aplicação/sessão), e a call é montada com **INVERSÃO DE PODER**: quem está sendo avaliado é o LEAD, não o vendedor. A página/fala enquadra a call como processo seletivo ("vamos ver se faz sentido pra você entrar", o limite real de atendimento, se o dono tem, formulário que qualifica antes), nunca como "fale com nosso time" de quem implora a venda. O preço NUNCA vai seco no automático: quem dá o preço é o humano, dentro da call, depois de diagnosticar. (A condução da call em si é da **soft-vendas-closer**.)
 
 Regra-irmã: meta de faturamento ÷ ticket que não fecha a conta = SOBE o ticket (nunca infla a promessa).

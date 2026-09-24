@@ -5,7 +5,7 @@
 Esta reference é a **engenharia de preço** do Webinar deste método: ancorar, semear o preço, empilhar o stack, descer em degraus, reverter o risco, fechar por escassez e identidade - e calibrar tudo isso pela **faixa de ticket** (§11). Mora na **fase Ação** do `estrutura-webinario-aida.md` (bloco de Investimento), depois que o motor já rodou e a oferta já foi apresentada por benefício. Instala a mecânica fina de cada movimento de preço, sem repetir produto, stack estrutural ou sequência ADMA.
 
 > **A ordem progressiva da ancoragem é uma CADEIA ÚNICA (não movimentos soltos).** Ela desce em unidades cada vez menores, cada degrau preparando o próximo:
-> **âncora-teto provada por case (§1) → stack somado por clique (§3) → bônus sem preço (§3c) → garantia (§8) → queda em degraus com reason-why (§5) → "combinado não sai caro" (§6) → parcela como manchete (§7) → reduzir ao ridículo: parcela ÷ dias vs objeto trivial fotografado (§7) → escassez com rede + 3 CTAs (§9-10).**
+> **âncora-teto provada por case (§1) → stack somado por clique (§3) → bônus sem preço (§3c) → garantia (§8) → queda em degraus com reason-why (§5) → "combinado não sai caro" (§6) (só com segundo degrau de preço declarado pelo dono, §6) → parcela como manchete (§7) → reduzir ao ridículo: parcela ÷ dias vs objeto trivial fotografado (§7) → escassez com rede + 3 CTAs (§9-10).**
 > A lógica por baixo: *"a parcela É o preço"*, e ela vai sendo **trocada por unidades menores** (stack → preço → parcela → valor por dia → objeto trivial). Não é desconto, é **troca de unidade progressiva**: o cérebro julga "R$5,51/dia" contra a Coca, nunca o total contra zero.
 
 > **LEI: NÃO existe "âncora do iPhone" como técnica de preço.** Procurada em todo o corpus estudado e o do Enes: não existe. O único "iPhone" relevante é o lançamento do iPhone pelo Jobs, citado como exemplo de **bundle 3-em-1 / revelação-surpresa** (*"um iPod, um telefone, um navegador… são a MESMA coisa"*), que é técnica de **EMPILHAMENTO** (pertence ao §3), NÃO de preço. **Nunca crie um número/técnica de iPhone.** Onde alguém pedir "âncora do iPhone", a técnica real é a **parcela por dia + objeto trivial fotografado** (§7, iFood/Coca). Se quiser usar a lição do Jobs, ela entra só como nota dentro do empilhamento (§3): *"revele os componentes como 3 produtos separados que, juntos, são um só, o efeito-surpresa do 3-em-1 aumenta o valor percebido do mesmo pacote"*, sem número de iPhone.
@@ -14,7 +14,7 @@ Esta reference é a **engenharia de preço** do Webinar deste método: ancorar, 
 
 > **Exemplos verbatim:** quando esta reference tem o movimento de preço/escassez, há falas literais de 9 webinars que venderam fatiadas em `exemplos-por-bloco/09-oferta-stack.md` (empilhamento), `exemplos-por-bloco/10-ancoragem-preco.md` (dupla ancoragem, queda em degraus, reduzir ao ridículo) e `exemplos-por-bloco/12-escassez-urgencia-cta.md` (escassez auditável, cartão na mão, CTA). **Leia o bloco equivalente ANTES de escrever** - cada seção abaixo aponta pra ele no ponto certo. Lá está a fala crua; aqui está a régua de quando e por quê usar.
 
-> **A mecânica universal da close (ordem e porquê) está em `fladlien-modelo.md` (§4):** o preço em queda em degraus, o primeiro CTA rápido (cedo DENTRO da close, não 40 min depois de começar a vender) e o "bônus mais importante que a oferta". Aquela reference dá a mecânica nua do Fladlien; aqui está a engenharia fina Soft de cada movimento (custo invisível como âncora primária, cardápio de garantia, escassez honesta).
+> **A mecânica universal da close (ordem e porquê) está em `shared-references/venda-fladlien/componentes-da-oferta.md` (antes em `fladlien-modelo.md` §4):** o preço em queda em degraus, o primeiro CTA rápido (cedo DENTRO da close, não 40 min depois de começar a vender) e o "bônus mais importante que a oferta". Aquela reference dá a mecânica nua do Fladlien; aqui está a engenharia fina Soft de cada movimento (custo invisível como âncora primária, cardápio de garantia, escassez honesta).
 
 **A fronteira com a `Etapa PLANO/OFERTA (desta skill)` (desenho ≠ apresentação - não confunda):**
 - Lá (no DESENHO da oferta) se decide **O QUE EXISTE**: o produto, os componentes, a garantia que está no cardápio, o ticket, os nomes. É a etapa que roda **ANTES do roteiro** (a oferta se desenha primeiro; o webinar é construído pra apresentá-la). A régua de desenho de cada peça (equação de valor Hormozi, "soma peso ou reduz fricção") mora lá.
@@ -89,7 +89,7 @@ Ancora contra o **valor de mercado** do entregue (a soma dos componentes, ou o q
 
 **As duas juntas (o ideal quando cabe).** Apresenta o stack com valores avulsos (moldura: b) e, **antes do preço**, vira a câmera pro custo invisível (a, a primária): o stack mostra o que ganha, o custo invisível o que já perde, o preço cai entre os dois. No avatar do perfil a primária é sempre o custo invisível; a soma é só moldura. **Erro a não cometer:** usar (b) com avatar maduro de ticket baixo - número inflado é o oposto do tom clínico; se o stack não ancora forte e honesto, troque pela (a), não infle a (b).
 
-**Terceiro uso da âncora (quando o destino é comercial).** Acima de ~R$3.000 a mesma âncora alta muda de ALVO: deixa de mirar a compra e passa a mirar a **conversa** - "ancora em 20k, vende a porta de entrada da conversa por 2k" (corpus). A mecânica é idêntica (número grande primeiro vira a régua, M8); só o que o número pequeno compra depois é diferente. Ver §11.
+**Terceiro uso da âncora (quando o destino é comercial).** Acima da régua de canal (~R$3.000, ou o número que o dono declarou) a mesma âncora alta muda de ALVO: deixa de mirar a compra e passa a mirar a **conversa** - "ancora em 20k, vende a porta de entrada da conversa por 2k" (corpus). A mecânica é idêntica (número grande primeiro vira a régua, M8); só o que o número pequeno compra depois é diferente. Ver §11.
 
 ---
 
@@ -116,7 +116,7 @@ O preço **não estreia no pitch**. É plantado lá no começo, na apresentaçã
 
 **(c) Bônus SEM preço (o que não tem mercado).** O componente mais íntimo - o script que ele não vende, o acervo pessoal, o método cru - entra **sem valor numérico**: "isso aqui eu não vendo pra ninguém, não tem preço" pesa mais que qualquer número, sinaliza acesso a algo que dinheiro não compra. Misture bônus-com-preço (ancoram a soma) e sem-preço (exclusividade).
 
-**(d) Acesso estendido como PERDA, não brinde.** Em vez de "você tem 1 ano de acesso" (ganho neutro), enquadre como algo que se **perde** não agindo: "São 6 meses. Só pra quem entra hoje, viram 12. Quem entrar depois fica com os 6." O mesmo ano, como perda iminente, ativa aversão à perda em vez de gratidão.
+**(d) Acesso estendido como PERDA, não brinde.** Em vez de "você tem 1 ano de acesso" (ganho neutro), enquadre como algo que se **perde** não agindo: "São 6 meses. Pra quem entra [DO DONO: a condição e o motivo declarados], viram 12. Quem entrar depois fica com os 6." Sem condição e motivo do dono, o acesso estendido entra como item da oferta, sem perda. O mesmo ano, como perda iminente, ativa aversão à perda em vez de gratidão.
 
 **Evite a palavra "bônus" batida.** Em avatar maduro, "bônus!" cheira a infoproduto de palco. Nomeie cada item pelo que resolve ("o acervo que te poupa os 3 meses de braço"), não "bônus nº 4".
 
@@ -156,7 +156,7 @@ O preço cai em **degraus**, e **cada degrau tem uma razão narrativa**. Descont
 
 > **EXEMPLO - o gabarito teórico da técnica, dito em voz alta (origem: Jason Fladlien, "price linking", nicho webinars/marketing; biblioteca bloco 10).** Fladlien ENSINA a queda enquanto a executa - serve de molde pra auditar qualquer escada: *"você liga sua oferta a um preço absurdo [US$10M gerados numa sessão]. Aí derruba: nas mãos certas vale US$1M. Derruba de novo: líderes pagam US$100k só pelo acesso. Derruba mais uma: uma sala esgotada pagou US$4.995 pra aprender isso. E aí revela o preço real [US$14,97]."* E a lei que ele declara: *"price is always relative - you link it to things of higher established value, drop it, drop it again, then reveal the actual one."* O sweet spot psicológico: *"making them feel like they're taking advantage of YOU."* **Do nicho:** âncoras em "resultado gerado" só funcionam quando o produto É a máquina de dinheiro (B2B/marketing); em transformação pessoal, a âncora análoga é o custo de fazer por fora ou o ROI da promessa.
 
-**A regra (inegociável):** todo degrau precisa de um **reason-why** que o cliente aceite como verdadeiro. Razões válidas: presença até o fim, primeiros-N, troca por depoimento, "estou abrindo turma pra gerar casos", produto gravado que não consome agenda, condição só desta sessão, desconto por CANAL (o link do webinar, não cupom público - quem entra pelo site paga mais). Razão inválida: desconto do nada.
+**A regra (inegociável):** todo degrau precisa de um **reason-why** que o cliente aceite como verdadeiro. Razões válidas: presença até o fim, primeiros-N, troca por depoimento, "estou abrindo turma pra gerar casos", produto gravado que não consome agenda, condição só desta sessão (quando o dono confirmou que ela existe), desconto por CANAL (o link do webinar, não cupom público - quem entra pelo site paga mais). Razão inválida: desconto do nada.
 
 **O degrau tem que ter LASTRO auditável.** Não basta a razão - o patamar de cima precisa ser verificável: preço de prateleira no site ("entra no [domínio] agora e vê R$3.500"), link da bio ("tá lá R$3.000, hoje, auditável"), preço real pago por turmas anteriores ("people have paid this", Fladlien). Âncora verificável = desconto crível; "valor de tabela" que nunca foi cobrado de ninguém quebra a credencial do resto do pitch e o avatar maduro fareja.
 
@@ -167,6 +167,8 @@ O preço cai em **degraus**, e **cada degrau tem uma razão narrativa**. Descont
 ---
 
 ## 6. "O combinado não sai caro" (desconto por depoimento futuro)
+
+O combinado só entra quando o dono declarou um segundo degrau de preço. Sem ele o passo sai inteiro, pedido de «combinado» no chat incluso, porque prometer na tela um desconto que o checkout não tem é mentir pro lead.
 
 Um degrau da escada: desconto extra **em troca da promessa de um depoimento futuro**. Faz três coisas num golpe.
 
@@ -247,18 +249,18 @@ Tira o risco das costas do cliente e bota nas do player. Reduzir o risco percebi
 Escassez funciona quando é **verificável na tela** e **honesta**. Inventada, o avatar maduro fareja e perde a confiança.
 
 **Mecanismo visível (gamificado).** A escassez aparece confirmada na tela do cliente, não só na boca do player.
-- Exemplo GA: "só pros 15 primeiros" - "ao clicar no link vai aparecer: parabéns, você está entre os 15." A vaga é verificável, a corrida vira jogo.
-- Exemplo dentística: contagem regressiva ao vivo ("prepara o cartão, o link aparece em 3, 2, 1") - urgência cinética, vaga real.
+- Exemplo GA: "só pros 15 primeiros" - "ao clicar no link vai aparecer: parabéns, você está entre os 15." O limite é verificável, a corrida vira jogo.
+- Exemplo dentística: contagem regressiva ao vivo ("prepara o cartão, o link aparece em 3, 2, 1") - urgência cinética, limite real.
 
 **Escalonada (camadas de FOMO).** "15 primeiros ganham [bônus A]; 10 primeiros, também [bônus B]." Quem chega primeiro ganha mais - recompensa a velocidade, multiplica a urgência.
 
-**Honesta (a régua Soft).** É **escassez de sala real**, não teatro: lugares limitados de verdade por sessão. "Não vendo mais de 15 por sessão; quando esgotar, mudo pra 20. Mas hoje são 15." Ou, no perpétuo de sala real, "a sala tem número fixo de lugar; quem sai não volta." Nunca cronômetro falso que reseta. A urgência mais forte é **interna**: "cada mês somando complexidade come margem que não volta" - o cronômetro é o custo invisível correndo, não um timer de plugin. Verificável é crível, gamificada vira corrida, honesta preserva a confiança; escassez falsa, descoberta, contamina retroativamente toda a credibilidade - fatal pro avatar maduro.
+**Honesta (a régua Soft).** É **a escassez que o insumo traz**, não teatro: «[DO DONO: limite real por sessão ou por turma e o motivo, se houver]». Sem limite no insumo, não existe frase de limite; a urgência fica no custo interno abaixo. Nunca cronômetro falso que reseta. A urgência mais forte é **interna**: "cada mês somando complexidade come margem que não volta" - o cronômetro é o custo invisível correndo, não um timer de plugin. Verificável é crível, gamificada vira corrida, honesta preserva a confiança; escassez falsa, descoberta, contamina retroativamente toda a credibilidade - fatal pro avatar maduro.
 
 **Honestidade do número - a fala do corpus estudado (mentoria).** *"Estou em paz com os 15 primeiros porque ainda não tenho escala que compra mais de 15 por sessão. O dia que comprar mais, vou lá e mudo a live: pros 20 primeiros, pronto."* O número É a capacidade real de entrega, não mentira fabricada. É o que torna a escassez honrável no Soft (G7): os "N primeiros" = o que realmente cabe.
 
 **A REDE pra quem perde a corrida (mecanismo que faz a fila inteira comprar).** A corrida dos N primeiros cria urgência, mas pune o 16º - que pensa "perdi os bônus, deixa pra próxima" e sai. Antes de ele reagir, você já desarma: *"não se preocupe se você não ficar entre os 15 primeiros, porque só o desconto que esse link já dá é uma oferta gritante."* A escassez dos 15 cria a corrida; **a rede garante que o 16º, o 40º e o 200º também comprem**. Escassez que pune o perdedor mata a fila; escassez com rede converte a fila inteira. (corpus estudado)
 
-> **EXEMPLO - escassez por TIPO de webinar (a escolha não é por gosto, é pelo formato; biblioteca bloco 12).** Ao vivo, máquina de turmas (GA): bônus pros 15/10 primeiros com confirmação de sistema. Ao vivo, evento único (Aluna 80k): deadline de relógio (23:59) + cupom. Perpétuo (webinar A do corpus): **condição de SESSÃO** - *"se essa aula acabar, acabou tua chance; você até consegue comprar depois, mas no mínimo por R$997"* (o único desenho honesto pra loop infinito). Vagas de preço (webinar C do corpus): 10 unidades no preço com contagem ao vivo até a última frase. Evergreen gravado (Fladlien): timer mecânico terceirizado com reason-why ("it's rigged up, automatically closes - pra eu ser deliberado com quem entra").
+> **EXEMPLO - escassez por TIPO de webinar (a escolha não é por gosto, é pelo formato; biblioteca bloco 12). Os números e prazos abaixo são de outros donos; na entrega, cada um vira o dado do dono ou sai.** Ao vivo, máquina de turmas (GA): bônus pros 15/10 primeiros com confirmação de sistema. Ao vivo, evento único (Aluna 80k): deadline de relógio (23:59) + cupom. Perpétuo (webinar A do corpus): **condição de SESSÃO** - *"se essa aula acabar, acabou tua chance; você até consegue comprar depois, mas no mínimo por R$997"* (o único desenho honesto pra loop infinito). Vagas de preço (webinar C do corpus): 10 unidades no preço com contagem ao vivo até a última frase. Evergreen gravado (Fladlien): timer mecânico terceirizado com reason-why ("it's rigged up, automatically closes - pra eu ser deliberado com quem entra").
 
 **Fricção de checkout como urgência (acoplada).** Antecipe o atrito do pagamento e transforme em motivo de agir já: "Já pega o cartão, abre o app antes de eu liberar. Você perde tempo digitando e perde a vaga." Acopla com o Q&A preventivo do `objection-annihilation.md` ("deu erro no cartão? manda aqui").
 
@@ -287,7 +289,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 **Os três CTAs (não um só no fim).** Três, distribuídos, cada um com um motor diferente, porque gente diferente decide em momento diferente (cap07):
 1. **CTA de GANHO** - liga a compra ao destino emocional: *"imagina você sendo a pessoa disputada, respirando, escolhendo onde trabalhar."*
 2. **CTA de LÓGICA** - a justificativa racional: *"três vendas pagam o investimento", "R$165 ÷ 30 = R$5,50/dia", "é mais barato que o MBA e mais rápido".*
-3. **CTA de MEDO/FOMO** - a escassez e o prazo: *"os 15 estão acabando", "a oferta vale só até o fim dessa aula".*
+3. **CTA de MEDO/FOMO** - a escassez e o prazo que o dono confirmou: *"[limite real do dono] está acabando", "[prazo real do dono]"*; sem limite e prazo no insumo, o CTA de medo fala do custo de ficar parado.
 **O botão só aparece na hora exata** (regra dura): programado no minuto e segundo certos, quando você diz o primeiro CTA - não antes. Botão cedo demais é "copy com botão": a pessoa clica a frio, antes de afundar, e não converte. Até o primeiro CTA é tudo copy e ancoragem, nada de botão. (A mecânica operacional de canal/clique mora na `Etapa MENSAGENS (desta skill)` e nos blocos de slide.)
 
 **A recapitulação antes do clique.** Depois de falar muita coisa (módulos, prateleira, bônus sem preço, garantia, combinado, desconto, surpresa), a memória do lead está saturada - ele não soma mais o valor sozinho. Bem no clique, você faz a conta por ele: re-lista a pilha inteira (inclusive "acesso imediato", "atendimento" - tudo conta) e repete o "de X por Y" no exato momento em que o dedo vai ao botão, reativando a âncora e o tamanho do desconto na hora da ação.
@@ -300,7 +302,7 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 
 **Decisão do método: o webinar não tem teto de ticket - tem ESPECTRO.** O mesmo método vende de R$497 a R$50.000; o que muda pela faixa não é a aula (ADMA, motor, oferta por benefício - tudo igual), é a **engenharia da fase Ação**: qual âncora (§1), pra onde aponta o CTA, sobre o quê recai a escassez (§9) e qual prato do cardápio de garantia (§8). A bifurcação-mãe:
 
-**Até ~R$3.000 → CHECKOUT direto.** A aula termina, a oferta sobe, a pessoa passa o cartão sozinha - sem comercial, sem ligação. E o teto do checkout é mais alto do que o mercado acredita: o ticket do webinar de gestão (caso de gestão do corpus, número real) é **R$1.697, vendido pra lead frio, numa aula só, no automático** - "os caras do mercado acham que sou maluco; é porque a gente é bom de copy". Duas horas de copy bem feita empilhando valor fazem o lead frio pagar quase R$1.700 sem falar com ninguém. A capacidade de vender ticket alto no checkout mora no roteiro e na oferta, não em truque de canal.
+**Até ~R$3.000 → CHECKOUT direto.** Padrão do método; se o dono declarou outro número, vale o dele, e a conta preço contra régua vai escrita antes de escolher o destino do CTA. A aula termina, a oferta sobe, a pessoa passa o cartão sozinha - sem comercial, sem ligação. E o teto do checkout é mais alto do que o mercado acredita: o ticket do webinar de gestão (caso de gestão do corpus, número real) é **R$1.697, vendido pra lead frio, numa aula só, no automático** - "os caras do mercado acham que sou maluco; é porque a gente é bom de copy". Duas horas de copy bem feita empilhando valor fazem o lead frio pagar quase R$1.700 sem falar com ninguém. A capacidade de vender ticket alto no checkout mora no roteiro e na oferta, não em truque de canal.
 
 **Acima de ~R$3.000 → COMERCIAL.** Mentoria, consultoria, serviço de 5–6 mil, evento, high-ticket: o checkout self-service não dá conta, porque ticket alto exige uma confiança que só se constrói com gente. O webinar continua fazendo TODO o trabalho de consciência e desejo - só muda o destino do botão. (A mecânica do canal - WhatsApp/ligação/SDR+closer, filas, tags - mora na `Etapa MENSAGENS (desta skill)` e na skill `soft-vendas-closer`; aqui, só o que muda dentro do webinar.)
 
@@ -309,11 +311,11 @@ O sim final não ancora em feature nem preço. Ancora em **quem a pessoa quer se
 | Faixa | Âncora primária | Destino do CTA | Escassez recai sobre |
 |---|---|---|---|
 | **~R$497 (low)** | Custo invisível (§1a) + redução por dia (§7) | Checkout | Primeiros-N que **comprarem** (bônus personalizado) |
-| **R$1.000–2.000 (teto do checkout)** | Dupla ancoragem (§1) + semeadura (§2); serviço caro como âncora | Checkout | Primeiros-N + condição da sessão |
-| **R$2.000–6.000** | **Ancora a compra cheia, vende a CONVERSA**: "ancora em 20k, vende por 2k" | WhatsApp do SDR ou formulário de aplicação | Velocidade de **chamar**: "os primeiros 10 que me chamarem" ganham diagnóstico/sessão |
+| **R$1.000–3.000 (teto do checkout)** | Dupla ancoragem (§1) + semeadura (§2); serviço caro como âncora | Checkout | Primeiros-N + condição da sessão (só com motivo confirmado pelo dono) |
+| **R$3.000–6.000** | **Ancora a compra cheia, vende a CONVERSA**: "ancora em 20k, vende por 2k" | WhatsApp do SDR ou formulário de aplicação | Velocidade de **chamar**: "os primeiros 10 que me chamarem" ganham diagnóstico/sessão |
 | **High-ticket (R$6k–50k)** | Serviço/resultado ancorado no alto; topo da esteira às vezes "sob consulta" | **Formulário de aplicação** | Ser **aceito** - a vaga é a escassez |
 
-Três mecânicas da tabela merecem o porquê:
+As faixas são referência do corpus; a linha entre checkout e conversa é ~R$3.000, ou o número que o dono declarou. Três mecânicas da tabela merecem o porquê:
 
 **(a) A âncora alta opera até DENTRO do checkout.** No webinar de R$1.697, dez minutos antes do preço o apresentador ancora o serviço com prova: "para implementar isso em consultoria eu cobrava a partir de R$84 mil; centenas de empresas pagaram." É o mesmo "ancora em 20k, vende por 2k" - só que ancorando o conhecimento pra fazer R$1.697 parecer troco. Em qualquer faixa o número grande primeiro vira a régua (M8); o que muda pela faixa é se o número pequeno que cai depois compra um produto ou compra uma conversa.
 
@@ -335,7 +337,7 @@ Nenhum produto único cobre R$497→R$50.000 - a **escada** cobre. O desenho que
 - **Reason-why em todo desconto; âncora certa pro avatar certo.** Nenhum degrau cai sem razão verdadeira. Custo invisível pra maduro/ticket baixo; soma do stack pra ticket alto com valor real - não infle a (b), troque pela (a).
 - **Escassez, garantia e foto honestas.** Vaga real, prazo real, garantia real, objeto real comparado ao custo invisível (não à culpa). O avatar maduro fareja o falso, e isso contamina toda a credibilidade.
 - **Garantia pelo cardápio; ticket puxa a cadeia.** Escolha o prato da garantia pelo ticket e pela prova (§8) - nunca super-garantia onde o avatar já confia, nunca ROI-como-garantia sem prova esmagadora. E deixe a faixa de ticket definir a engenharia em cascata (§11): âncora, destino do CTA, objeto da escassez - nem closer pra ticket de checkout, nem checkout seco onde o ticket pede gente.
-- **Banido na copy/falas de exemplo:** "travar/travado", travessão dentro da copy de cliente, ALL-CAPS corrido, "guru" (salvo denúncia), "alavancar", "jornada", "mindset", padding. Pausa onde o vendedor de palco aceleraria. Preço do exemplo cravado em R$1.000; para outro player, o preço é do nicho dele.
+- **Banido na copy/falas de exemplo:** a família do verbo-freio que a régua anti-voz proíbe, travessão dentro da copy de cliente, ALL-CAPS corrido, "guru" (salvo denúncia), "alavancar", "jornada", "mindset", padding. Pausa onde o vendedor de palco aceleraria. Preço do exemplo cravado em R$1.000; para outro player, o preço é do nicho dele.
 
 ---
 

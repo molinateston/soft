@@ -28,7 +28,7 @@ Relê como um espectador REAL do avatar, sem dossiê, no celular, com o dedo no 
 - [ ] Oferta com re-ancoragem progressiva completa (resumos 1, 2 e final) e cada bônus aprofundado.
 - [ ] Objeções demolidas DENTRO da aula, antes do pitch; Q&A força decisão.
 - [ ] Prova certa no slide certo (nunca mural único); nada inventado; furo = `[A CONFIRMAR]`.
-- [ ] **MARCO DA OFERTA emitido** no fim do doc: o número do slide em que a oferta começa; o minuto real sai da gravação (`[A CONFIRMAR na gravação]` até lá). Chat e mensagens consomem daqui.
+- [ ] **MARCO DA OFERTA emitido** em `_notas-operador.md`, nunca no roteiro: o número do slide em que a oferta começa; o minuto real sai da gravação (`[A CONFIRMAR na gravação]` até lá). Chat e mensagens consomem daqui.
 - [ ] Gate anti-IA + lint físico no doc inteiro (`scripts/lint_copy.py`; no chat, CTRL+F do travessão e do verbo-freio banido).
 - [ ] Marca-neutro: zero nome/número/bordão de outra marca; slots do dono marcados, nunca decalcados.
 

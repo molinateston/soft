@@ -1,5 +1,9 @@
 # Escassez/urgência/CTA (escassez auditável, corrida pelos bônus, cartão na mão, fechamento)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 > Ressalva de atribuição: o "Webinar C" do corpus o autor do corpus tem voz única que se identifica como **o especialista** (dentista). Mecanismos com dono: escassez de bônus "15 primeiros" com confirmação automática = máquina do webinar-modelo GA; timer "rigged" e a demonização do "maybe" = Fladlien; o frame "viver comigo ou ver pelo Instagram" = pele do especialista do corpusA/MDI.
 
@@ -7,7 +11,7 @@
 
 ## O que este bloco precisa fazer (síntese das premissas)
 
-A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca recai sobre uma mentira. Os três desenhos validados: (1) escassez de BÔNUS, não de produto (máquina do webinar-modelo GA: o curso não fecha; o que evapora são os bônus dos 15/10 primeiros, com confirmação automática do sistema - "parabéns, você está entre os 15 primeiros"); (2) escassez de CONDIÇÃO/PREÇO (webinar A do corpus: a oferta da sessão acaba com a aula, mas o produto continua comprável por mais caro - "você até consegue comprar depois, mas no mínimo por 997"; webinar C do corpus: 10 vagas só no preço de 1.997; a Aluna 80k: cupom até 23:59); (3) escassez MECÂNICA terceirizada (Fladlien: timer "rigged up" que fecha sozinho, com reason-why operacional). Segundo trabalho: converter intenção em ação MOTORA antes do link existir - "já vai pegando o seu cartão, se é virtual já abre no celular" - para que no pico emocional não haja janela de racionalização. Terceiro: narrar a corrida ao vivo (vagas caindo 12→11→9→8→4; compras anunciadas no chat; "parabéns fulana, bem-vinda ao time") - a compra alheia vira pressão social audível e prova de manada. Quarto: o custo da inação é tornado concreto (R$200 mais caro amanhã; "é fácil ficar no Brasil e ganhar pouco"; o concorrente usando enquanto você não usa). Quinto: o CTA é operacional e sem fricção - botão + link no chat + fallback narrado clique a clique, com troubleshooting ao vivo. Sexto: vários campeões posicionam um pico EMOCIONAL depois do preço (a história da mãe da Aluna 80k; o "barco saindo" do especialista do corpusA; o takeaway do especialista do corpusC) - a decisão é tomada em estado alterado, e quem não compra escolhe em público a estrada pior. E o presente prometido na abertura é pago aqui - o loop de retenção fecha dentro do CTA ("só quem ficou até o final vai ganhar").
+A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca recai sobre uma mentira. Os três desenhos validados: (1) escassez de BÔNUS, não de produto (máquina do webinar-modelo GA: o curso não fecha; o que evapora são os bônus dos N primeiros que aquele dono tinha, com confirmação automática do sistema - "parabéns, você está entre os 15 primeiros"); (2) escassez de CONDIÇÃO/PREÇO (webinar A do corpus: a oferta da sessão acaba com a aula, mas o produto continua comprável por mais caro; webinar C do corpus: unidades limitadas no preço; a Aluna 80k: cupom com prazo de relógio; cada prazo e número é do dono de origem); (3) escassez MECÂNICA terceirizada (Fladlien: timer "rigged up" que fecha sozinho, com reason-why operacional). Segundo trabalho: converter intenção em ação MOTORA antes do link existir - "já vai pegando o seu cartão, se é virtual já abre no celular" - para que no pico emocional não haja janela de racionalização. Terceiro: narrar a corrida ao vivo (a contagem real do contador caindo; compras anunciadas no chat; parabéns a quem entrou de verdade) - a compra alheia vira pressão social audível e prova de manada. Quarto: o custo da inação é tornado concreto (a diferença real de preço que o dono tem; "é fácil ficar no Brasil e ganhar pouco"; o concorrente usando enquanto você não usa). Quinto: o CTA é operacional e sem fricção - botão + link no chat + fallback narrado clique a clique, com troubleshooting ao vivo. Sexto: vários campeões posicionam um pico EMOCIONAL depois do preço (a história da mãe da Aluna 80k; o "barco saindo" do especialista do corpusA; o takeaway do especialista do corpusC) - a decisão é tomada em estado alterado, e quem não compra escolhe em público a estrada pior. E, quando o dono tem um presente real, o prometido na abertura é pago aqui: o loop de retenção fecha dentro do CTA.
 
 ---
 
@@ -17,17 +21,17 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Trecho literal:**
 
-> "Então somente hoje né você vai poder ter essa oportunidade, e antes de eu liberar o link vai ter uns presentinhos especiais aqui para vocês tá bom. […] vai ter bônus só para você que tá online na aula de hoje tá, 15 primeiros"
+> "Então [DO DONO: prazo real, se houver] você vai poder ter essa oportunidade, e antes de eu liberar o link vai ter [DO DONO: bônus real] […] vai ter bônus só para [DO DONO: quem tem direito e o limite real]"
 
 > (cartão ANTES do link) "enquanto eu tô abrindo aqui já vai pegando o seu cartão, já vai se é aplicativo se é cartão virtual já vai abrindo no celular para você conseguir ficar entre os 15 primeiros tá. […] você perde tempo digitando ali número de cartão não sei o qu, você acaba perdendo os 15 primeiros"
 
 > (mecânica verificável) "Como que você faz para saber se você vai est entre os 15 primeiros: Quando você clicar no link que eu liberar agora e vai aparecer uma mensagem para você ali parabéns você está entre os 15 primeiros"
 
-> (pressão com prova comportamental) "então já está valendo, corre aí, normalmente isso aqui acaba em minutos tá."
+> (pressão com prova comportamental) "então já está valendo, corre aí, [DO DONO: quanto o limite costuma durar, só se ele mediu]."
 
 > (push final com incerteza genuína) "eu não sei se ainda tem bônus aqui de 15 primeiros que eu tô vendo que já tem algumas inscrições, mas se você clicar e ainda tiver escrito ali parabéns você está entre os 15 primeiros, cara corre conclu a inscrição para você não perder"
 
-**O que ele fez:** (1) escassez por velocidade (15/10 primeiros) em vez de deadline - gera corrida imediata sem precisar de timer; (2) bônus de ação rápida todos com preço declarado (R$1.497 + R$2.000 + workshop) e âncora absurda dentro do bônus (Stanford R$70.000); (3) CTA físico pré-link ("pega o cartão") elimina o atrito que mata o impulso; (4) confirmação automática do sistema dá credibilidade técnica à escassez; (5) link duplicado (botão + chat); (6) "tô vendo que já tem algumas inscrições" = prova social + FOMO; (7) o presente da abertura é pago aqui - loop fechado.
+**O que ele fez:** (1) escassez por velocidade (15/10 primeiros) em vez de deadline - gera corrida imediata sem precisar de timer; (2) bônus de ação rápida todos com preço declarado (R$1.497 + R$2.000 + workshop) e âncora absurda dentro do bônus (Stanford R$70.000); (3) CTA físico pré-link ("pega o cartão") elimina o atrito que mata o impulso; (4) confirmação automática do sistema dá credibilidade técnica à escassez; (5) link duplicado (botão + chat); (6) "tô vendo que já tem algumas inscrições" = prova social + FOMO; (7) o presente real da abertura é pago aqui - loop fechado.
 
 **Por que funciona:** a escassez é mecânica e auditável (o sistema decide quem é o 15º), não retórica - isso desarma o ceticismo de "escassez falsa". E fazer a sala abrir o cartão antes do link existir converte intenção em ação no pico emocional, sem janela pra racionalizar.
 
@@ -45,7 +49,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > (chat como placar) "E quem for se inscrevendo, pode colocar nos comentários aqui. Se já se inscreveu Até para as outras pessoas irem sabendo Como é que está ainda a inscrição"
 
-**O que ele fez:** urgência de data ("somente hoje") + escassez numerada em dois níveis (15/10 primeiros) atrelada aos bônus, não à vaga no curso; CTA comportamental pré-link; gamificação da corrida (a mensagem de "parabéns" transforma o checkout em prêmio); pedido explícito de prova social de compra (o chat vira placar de vendas ao vivo); dupla via de acesso (botão + link no chat).
+**O que ele fez:** urgência de data (o prazo daquele dono) + escassez numerada em dois níveis (15/10 primeiros) atrelada aos bônus, não à vaga no curso; CTA comportamental pré-link; gamificação da corrida (a mensagem de "parabéns" transforma o checkout em prêmio); pedido explícito de prova social de compra (o chat vira placar de vendas ao vivo); dupla via de acesso (botão + link no chat).
 
 **Por que funciona:** a escassez recai sobre bônus de R$12 mil, não sobre o produto - é verificável e não soa falsa. E mandar a sala abrir o app do cartão antes do link converte intenção em ação motora: quando o link cai, o corpo já está no meio da compra. ACHADO de máquina: o script é o mesmo do GA, palavra por palavra - o fechamento é ativo roteirizado.
 
@@ -59,15 +63,15 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > "se prepara, já pega o teu cartão. Quem for pagar com o cartão, já pega o cartão, fica com o cartão em mãos […] Eu vou liberar o link agora"
 
-> (contador + rede de segurança) "Eu coloquei um contador ali de 15 vagas. Então são as 15 primeiras, porque são os 15 primeiros bônus. Mas não se preocupe se você não ficar entre os 15 primeiros, porque […] o que eu estou disponibilizando através desse link é uma oferta muito gritante."
+> (contador + rede de segurança) "Eu coloquei um contador ali de [N do dono]. Então são os [N] primeiros, porque são os [N] primeiros bônus. Mas não se preocupe se você não ficar entre os 15 primeiros, porque […] o que eu estou disponibilizando através desse link é uma oferta muito gritante."
 
 > (sistema que confirma) "O nosso sistema identifica ali, está programado aqui, conforme as pessoas vão se inscrevendo, vai contando a inscrição. Então quem tiver entre os 15 primeiros, automaticamente aparece ali […] parabéns, você está entre os 15 primeiros"
 
-> (contagem narrada) "eu estou vendo que já tem bastante gente se inscrevendo. Já está faltando 7 vagas. Corre aí, para quem não se inscreveu ainda. Corre, 7 não, já foi mais. Quanto que está? 5 não, corre aí, corre aí gente"
+> (contagem narrada, ao vivo e com o contador real) "[o que o contador mostra agora]. Corre aí, para quem não se inscreveu ainda. [o número seguinte do contador], corre aí, corre aí gente"
 
-> (urgência do desconto por canal) "esse desconto exclusivo que só funciona agora, tá? É só para quem está aqui nesse webinar"
+> (urgência do desconto por canal) "esse desconto exclusivo [DO DONO: a condição real do link], tá? É só para quem está aqui nesse webinar"
 
-**O que ele fez:** escassez de BÔNUS (15 primeiros), não de vagas do curso - urgência real sem mentir lotação; comando físico pré-CTA; tripla redundância de acesso (botão + link no chat + comentário fixado); contador narrado em tempo real ("7… não, 5… corre aí") transformando a compra alheia em pressão social audível; "sistema programado" dando verossimilhança técnica; dupla camada de urgência (bônus = agora-agora; desconto = só neste webinar/canal).
+**O que ele fez:** escassez de BÔNUS (15 primeiros), não de vagas do curso - urgência real sem mentir lotação; comando físico pré-CTA; tripla redundância de acesso (botão + link no chat + comentário fixado); contador narrado em tempo real (o número real do contador) transformando a compra alheia em pressão social audível; "sistema programado" dando verossimilhança técnica; dupla camada de urgência (bônus = agora-agora; desconto = só neste webinar/canal).
 
 **Por que funciona:** a escassez é construída pra ser crível e auditável (o sistema "te avisa" se você entrou) - escassez sem prova vira desconfiança; aqui ela tem mecânica. E a rede de segurança ("não se preocupe se não ficar entre os 15") mantém quem perdeu a corrida ainda comprando.
 
@@ -81,17 +85,18 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > "Já vai separando o cartão? Pega aí o seu cartão, já fica no jeito para você não reclamar e falar: Ah, não deu tempo de me inscrever."
 
-> (a regra declarada) "Tem um contador aqui, tá? Então, as vagas são escassas. Os 15 primeiros vão ganhar essa série toda de bônus. Passou dos 15 primeiros, já era. […] Quando você clicar, a telinha já vai mostrar para você."
+> (a regra declarada) "Tem um contador aqui, tá? Os [N do dono] primeiros vão ganhar essa série toda de bônus. Passou dos [N], já era. […] Quando você clicar, a telinha já vai mostrar para você."
 
-> (vagas caindo ao vivo) "Já tem gente aqui se inscrevendo. Tá passando, né? Tá diminuindo as vagas aqui, ó. […] Acho que ainda tem 12 vagas. 11 agora? É 11. […] Acho que já só tem mais 9. […] 9, 8. Oito vagas, ainda tem oito. […] Ainda tem quatro vagas, então ainda dá, tá? Quem está pensando aí, pode correr, ainda dá tempo. Se inscreve. E a gente se vê lá dentro do curso. Um abraço e seja ágil!"
+> (contador caindo ao vivo) "[Ao vivo: o que o contador real mostra, número a número.] Quem está pensando aí, pode correr, ainda dá tempo. Se inscreve." (no original, a contagem caía em voz alta até o fim)
+> "Ainda dá, tá? Quem está pensando aí, pode correr, ainda dá tempo. Se inscreve. E a gente se vê lá dentro do curso. Um abraço e seja ágil!"
 
 > (urgência de preço honesta) "se inscreve, não deixa passar essa oportunidade, porque vai ficar mais caro. E de fato é mais caro, vocês viram. Se você quiser, entra no nosso site. Ela é R$ 3.500,00"
 
 > (empurrão moral) "Eu sei que você gasta seu dinheiro com um monte de bobagem por aí. Quem não gasta, né? Eu gasto. […] Se você economizar um pouquinho […] E colocar um curso desse no lugar, cara, olha o impacto que isso pode ter no seu futuro, no futuro da sua família"
 
-> (loop do presente fechado) "O material de hoje a gente vai mandar para você para o seu e-mail. Então a gente consegue traquear aqui quem ficou até o final, só quem ficou até o final aqui vai ganhar."
+> (loop do presente fechado) "[DO DONO: o presente real e a regra de quem recebe.]"
 
-**O que ele fez:** comando físico pré-CTA; escassez nos bônus com confirmação na tela; narração das vagas caindo em tempo real (12→11→9→8→4) - prova social e urgência no mesmo gesto; troubleshooting ao vivo do botão/link; urgência de preço honesta (o site cobra 3.500 de verdade, auditável); empurrão moral com confissão de cumplicidade ("eu gasto com bobagem também"); fechamento do loop do presente da abertura.
+**O que ele fez:** comando físico pré-CTA; escassez nos bônus com confirmação na tela; narração do contador real caindo - prova social e urgência no mesmo gesto; troubleshooting ao vivo do botão/link; urgência de preço honesta (o site cobra 3.500 de verdade, auditável); empurrão moral com confissão de cumplicidade ("eu gasto com bobagem também"); fechamento do loop do presente real da abertura.
 
 **Por que funciona:** narrar as vagas caindo transforma a compra dos outros em pressão social audível - o espectador "vê" a fila andando. E a urgência de preço é defensável porque a âncora é de prateleira real.
 
@@ -103,9 +108,9 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Trecho literal:**
 
-> "Somando tudo isso, dá R$ 7.355 por ano e vai ser válido apenas até hoje, até 23:59."
+> "Somando tudo isso, dá [soma real do dono] e vai ser válido [DO DONO: prazo real]."
 
-> "Usa esse cupom Off 500, usa esse cupom porque ele só vale até hoje. Eu tenho certeza que você vai voltar para me agradecer."
+> "Usa esse cupom [DO DONO: cupom real], usa esse cupom porque ele vale [DO DONO: prazo real]. Eu tenho certeza que você vai voltar para me agradecer."
 
 > (anti-procrastinação) "Eu quero pessoas determinadas. Ah, eu tô com preguiça. Ai, amanhã eu começo. Ah, segunda-feira\". Não, gente, é agora. A vida só muda quando a gente toma uma decisão."
 
@@ -117,7 +122,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > (CTA relacional) "E cara, é isso, te vejo do outro lado. […] a gente se vê na comunidade. Tchau tchau."
 
-**O que ela fez:** urgência empilhada em três camadas - deadline de relógio (23:59), cupom que expira e a aula sem replay anunciada na abertura; repetição hipnótica ("Mas é hoje. É hoje."); inversão do custo da inação ("é fácil ficar no Brasil e ganhar pouco" - o caro é não agir); fechamento emocional em dois andares (frase do mentor + história da mãe, com choro real); CTA relacional, não transacional ("te vejo do outro lado").
+**O que ela fez:** urgência empilhada em três camadas - deadline de relógio, cupom que expira e a política de replay que aquela dona decidiu e anunciou na abertura; repetição hipnótica ("Mas é hoje. É hoje."); inversão do custo da inação ("é fácil ficar no Brasil e ganhar pouco" - o caro é não agir); fechamento emocional em dois andares (frase do mentor + história da mãe, com choro real); CTA relacional, não transacional ("te vejo do outro lado").
 
 **Por que funciona:** o pico emocional do webinar inteiro é colocado DEPOIS do preço - a decisão é tomada em estado alterado, com a pergunta "que exemplo você vai ser pro seu filho?" transformando a compra em identidade. O choro genuíno neutraliza o cinismo pós-pitch.
 
@@ -129,9 +134,9 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Trecho literal:** *(voz: o especialista do corpusA)*
 
-> "só hoje, durante essa aula. se essa aula acabar, Acabou. então quero valorizar quem se comprometer"
+> "[DO DONO: a condição real da sessão]. se essa aula acabar, [o que acaba, na regra do dono]. então quero valorizar quem se comprometer"
 
-> (escassez honesta de condição) "se acabar essa aula, bicho, Acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R 200 de desconto aqui"
+> (escassez honesta de condição) "se acabar essa aula, bicho, [o que acaba, na regra do dono] […] você até consegue comprar ele depois mas [DO DONO: o preço depois e a diferença real]"
 
 > (a metáfora do barco) "agora o barco tá saindo, meu amigo, eu tô indo embora, a aula tá acabando, você só tem que fazer uma escolha: ou você continua sozinho, continua batendo cabeça, continua sofrendo de efeito S fon, ou você vem comigo na direção certa"
 
@@ -139,9 +144,9 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > (presente na página de pagamento) "eu tenho presente para você na página de pagamento, é um extra, se você não entrou na página de pagamento porque você sei lá não quis, clica lá que tem uma coisinha de esperada"
 
-> (saída de palco justificada) "agora tem que entrar, ten que ir para lá cuidar da galera que tá entrando, então te vejo do outro lado, quero poder cuidar de você também, vamos embora"
+> (saída de palco justificada, só quando o dono atende de fato quem entra) "agora [DO DONO: o que ele vai fazer de verdade com quem entrou], [despedida no bordão do dono]"
 
-**O que ele fez:** urgência atrelada à SESSÃO, não a calendário ("se essa aula acabar, Acabou" - perfeito para evergreen); custo monetário concreto de adiar (R$200 de diferença, comprável depois por 997 - escassez honesta de condição, não de estoque); metáfora do barco partindo + arquibancada (viver vs ver); FOMO social (resultados "só pelo Instagram, nunca os seus"); presente extra escondido na página de pagamento (empurra o clique até de quem só quer "olhar"); saída de palco justificada ("ir cuidar da galera que tá entrando" = prova social implícita de compra acontecendo).
+**O que ele fez:** urgência atrelada à SESSÃO, não a calendário ("se essa aula acabar, Acabou" - perfeito para evergreen); custo monetário concreto de adiar (a diferença real de preço daquele dono - escassez honesta de condição, não de estoque); metáfora do barco partindo + arquibancada (viver vs ver); FOMO social (resultados "só pelo Instagram, nunca os seus"); presente extra escondido na página de pagamento (empurra o clique até de quem só quer "olhar"); saída de palco justificada ("ir cuidar da galera que tá entrando" = prova social implícita de compra acontecendo).
 
 **Por que funciona:** a oferta-da-sessão cria deadline crível sem mentir estoque - funciona em loop infinito porque a condição é da sessão, não do calendário. O frame viver-vs-assistir transforma não-comprar numa escolha de identidade dolorosa, e o presente na página converte curiosidade em início de checkout.
 
@@ -153,7 +158,7 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Trecho literal:**
 
-> "para os 10 primeiros, galera, 10, nenhuma a mais […] os 10 primeiros, prepara o cartão de crédito, que o link vai aparecer na tela já já, em 1997. […] link aparecendo em três, dois, um - brinca aberto, aproveita galera, essa é a sua chance de sair do lugar"
+> "para os [N do dono] primeiros, galera, nenhum a mais […] prepara o cartão de crédito, que o link vai aparecer na tela já já, em [preço do dono]. […] link aparecendo em três, dois, um - brinca aberto, aproveita galera, essa é a sua chance de sair do lugar"
 
 > (carrinho aberto preenchido) "Enquanto vocês vão clicar eu vou te detalhando mais algumas coisas aqui"
 
@@ -161,9 +166,9 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 > (takeaway no fecho) "se você não se inscreveu, você fez uma escolha e tá tudo certo, fica bem com a sua escolha. Talvez não era para você, e esse curso é só para quem quer sair do lugar […] mas você tá perdendo uma chance de acelerar as coisas na sua vida, não deixa para depois não"
 
-> (última frase do webinar) "tá uma vaga ainda, [nome dele], nos 10, última vaga dos dez, não perde, que esse preço é só para agora tá. Tamo junto galera, forte abraço para vocês"
+> (última frase do webinar, ao vivo e com o contador real) "[o que resta no contador real], não perde, [DO DONO: prazo real do preço]. [despedida no bordão do dono]"
 
-**O que ele fez:** escassez por unidade (10 vagas no PREÇO, não no produto) com contagem ao vivo via equipe (10 → duas → uma, encerrando o webinar literalmente na última vaga); countdown teatral do link ("três, dois, um"); comando físico ("prepara o cartão"); recusa pública de extensão (consistência da escassez - negar o pedido de "mantém amanhã?" blinda todas as escassezes futuras); takeaway selling no fecho ("não é para todo mundo"); carrinho aberto preenchido com detalhamento + depoimentos + celebração de compradores (zero silêncio).
+**O que ele fez:** escassez por unidade (limite no PREÇO, não no produto) com contagem ao vivo via equipe (encerrando o webinar no último item do contador real); countdown teatral do link ("três, dois, um"); comando físico ("prepara o cartão"); recusa pública de extensão (consistência da escassez - negar o pedido de "mantém amanhã?" blinda todas as escassezes futuras); takeaway selling no fecho ("não é para todo mundo"); carrinho aberto preenchido com detalhamento + depoimentos + celebração de compradores (zero silêncio).
 
 **Por que funciona:** a escassez é de PREÇO com contagem verificável em tempo real - cada "parabéns, fulana" no chat é simultaneamente prova social e tique-taque do estoque. O takeaway final inverte a pressão: quem não comprou não foi rejeitado pelo preço, escolheu a estrada esburacada.
 
@@ -220,14 +225,14 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 - [ ] **Escassez crível e auditável, nunca sobre mentira.** Três desenhos validados: bônus pros N primeiros (produto não fecha - GA), condição/preço da sessão (comprável depois por mais caro - webinar A do corpus/C, a Aluna 80k), mecanismo terceirizado com reason-why (timer - Fladlien). Nenhum campeão mente estoque.
 - [ ] **Confirmação verificável da escassez** ("a telinha mostra: parabéns, você está entre os 15"; contador na tela; preço de prateleira auditável no site/bio). Escassez sem prova vira desconfiança.
 - [ ] **Cartão na mão ANTES do link** ("já vai pegando o seu cartão, se é virtual abre no celular") - converter intenção em prontidão motora no pico emocional.
-- [ ] **Corrida narrada ao vivo** (vagas caindo 12→11→9→8→4; compras celebradas com nome; "tô vendo que já tem inscrições") - a compra alheia vira pressão social audível.
+- [ ] **Corrida narrada ao vivo** (o contador real caindo; compras reais celebradas com nome; só ao vivo) - a compra alheia vira pressão social audível.
 - [ ] **Redundância de acesso + troubleshooting** (botão + link no chat + fallback; "se tiver problema no botão, clica no link") - a venda não morre em atrito técnico.
-- [ ] **Custo da inação concreto** (R$200 mais caro amanhã; "vai ficar mais caro, e de fato é"; perda dupla do Fladlien; "é fácil ficar ganhando pouco").
-- [ ] **Reason-why em toda escassez e todo desconto** (por que 15 primeiros, por que só hoje, por que o timer existe - "pra eu ser deliberado com quem entra"). Urgência sem porquê cheira manipulação.
+- [ ] **Custo da inação concreto** (a diferença real de preço do dono; "vai ficar mais caro, e de fato é"; perda dupla do Fladlien; "é fácil ficar ganhando pouco").
+- [ ] **Reason-why em toda escassez e todo desconto** (por que o limite, por que o prazo, por que o timer existe - "pra eu ser deliberado com quem entra"). Urgência sem porquê cheira manipulação.
 - [ ] **Pico emocional ou de identidade DEPOIS do preço** (história da mãe; barco/arquibancada; takeaway "não é para todo mundo"; "you deserve to be wealthy") - a decisão fecha em estado alterado e em termos de quem o lead é.
 - [ ] **Recusa pública de extensão quando pedem** ("mantém amanhã? desculpa, infelizmente não") - uma exceção concedida destrói todas as escassezes futuras da marca.
 - [ ] **Zero silêncio com o carrinho aberto** - detalhamento, depoimentos, celebração de compradores e contagem preenchem cada segundo até o fim.
-- [ ] **O loop do presente da abertura fecha aqui** ("o material vai pro e-mail só de quem ficou até o final") - retenção paga, contrato cumprido.
+- [ ] **O loop do presente real da abertura fecha aqui** (só quando o dono tem presente) - retenção paga, contrato cumprido.
 
 ## Anti-padrões (o que nenhum campeão faz / o que quebraria este método aqui)
 
@@ -245,10 +250,10 @@ A regra-mãe do corpus: a escassez dos campeões é CRÍVEL E AUDITÁVEL - nunca
 
 **Nenhum.** Os 9 webinars do corpus executam escassez/urgência/CTA - presença universal: não existe webinar-campeão que abra carrinho sem corrida desenhada. O que varia é o TIPO de escassez, e a variação mapeia o formato:
 
-- **Ao vivo, máquina de turmas** (GA, 5 Níveis, GA ed.2, GAIA2k): bônus pros 15/10 primeiros com confirmação de sistema + contagem narrada.
-- **Ao vivo, evento único** (Aluna 80k): deadline de relógio (23:59) + cupom + pico emocional pós-preço.
-- **Perpétuo** (webinar A do corpus): condição da sessão ("se essa aula acabar, acabou") + diferença de preço real - o único desenho honesto pra loop.
-- **Ao vivo, vagas de preço** (webinar C do corpus): 10 unidades no preço com contagem até a última frase.
+- **Ao vivo, máquina de turmas** (GA, 5 Níveis, GA ed.2, GAIA2k): bônus pros N primeiros com confirmação de sistema + contagem narrada.
+- **Ao vivo, evento único** (Aluna 80k): deadline de relógio + cupom + pico emocional pós-preço.
+- **Perpétuo** (webinar A do corpus): condição da sessão confirmada pelo dono + diferença de preço real - o único desenho honesto pra loop.
+- **Ao vivo, limite de preço** (webinar C do corpus): N unidades no preço com contagem até a última frase.
 - **Evergreen gravado** (Fladlien #1 e #2): timer mecânico com reason-why + reframe do maybe.
 
 A premissa que isso revela: a escassez não se escolhe por gosto, se escolhe pelo FORMATO do webinar - e cada formato do corpus tem um desenho validado pra copiar a premissa.

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO_DA_ABA}}</title>
+<meta name="description" content="{{DESCRICAO_CURTA}}">
+<meta name="robots" content="noindex">
+<!--
+  TEMPLATE DA SOFT-FUNIL-LANDING (arquivo único, sem dependência externa).
+
+  COMO USAR
+  1. Copie este arquivo duas vezes: pagina.html e obrigado.html.
+  2. Em pagina.html apague o bloco PAGINA:obrigado. Em obrigado.html apague o bloco PAGINA:inscricao.
+  3. Apague todo BLOCO que o molde escolhido não pede (a lista de cada molde está em references/moldes-evento.md).
+  4. Troque cada {{TOKEN}} pela copy do .md. Nenhum {{ pode sobrar (a conferência conta).
+     TOKEN SEM DADO DO INSUMO: apague o elemento inteiro (o <p>, o <li>, o bloco) e ponha a pergunta no _notas-operador.md.
+     Nenhum texto desta página é padrão: micro sob o botão, selo, formato, confirmação e rodapé são campos.
+     "Sem custo", "gratuita", "dados protegidos", "pagamento protegido", "ao vivo" e canal ("por e-mail") só com a palavra no insumo.
+  5. Cores e fonte: só nas variáveis de :root, lidas da identidade do dono (perfil/brain). Sem identidade, fica o padrão neutro.
+
+  O QUE CONECTAR (vai listado pro dono no _notas-operador.md, nunca no texto da página)
+  - FORMULÁRIO: o atributo action do <form>. Cole a URL que a ferramenta de e-mail, CRM ou plataforma de webinar dá
+    para receber inscrição (ou a URL do checkout, no evento pago). Enquanto não conectar, o valor fica "#CONECTAR-FORMULARIO"
+    e o script abaixo segura o envio. Os name dos campos (nome, email, whatsapp, sessao) seguem o que a ferramenta pede.
+  - REDIRECIONAMENTO: configure na ferramenta que, depois de enviar, a pessoa cai em obrigado.html
+    (no perpétuo, com ?sessao=<valor da opção escolhida> no fim do endereço, pra a página repetir o horário).
+  - WHATSAPP OU GRUPO: o href do botão do obrigado, só se o insumo tem o link. Sem link, o botão é o da agenda.
+  - CHECKOUT: no evento pago, o action do formulário do fim ("#CONECTAR-CHECKOUT"). O botão do lote desce até ele.
+    Se o checkout não pede formulário antes, apague o form-final e ponha o link do checkout no href de todo botão.
+  - PIXEL E ANALYTICS: cole o código da Meta, Google ou outra no fim do <head>, onde está marcado PIXEL.
+  Publicar a página só com ordem do dono.
+-->
+<style>
+:root{
+  /* IDENTIDADE: troque só aqui. Padrão neutro: fundo claro, texto quase preto, um destaque. */
+  --cor-fundo:#ffffff;
+  --cor-texto:#1a1a1a;
+  --cor-suave:#555555;
+  --cor-cartao:#f4f4f2;
+  --cor-borda:#dedede;
+  --cor-destaque:#1f4fd1;
+  --cor-destaque-texto:#ffffff;
+  --cor-faixa:#1a1a1a;
+  --cor-faixa-texto:#ffffff;
+  --cor-negativo:#9b2c2c;
+  --fonte-titulo:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --fonte-corpo:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --peso-titulo:800;
+  --raio:6px;
+  --largura:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cor-fundo);color:var(--cor-texto);font-family:var(--fonte-corpo);font-size:18px;line-height:1.6;padding-bottom:84px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--fonte-titulo);font-weight:var(--peso-titulo);line-height:1.15;margin:0 0 16px}
+h1{font-size:clamp(32px,6vw,52px);letter-spacing:-0.01em}
+h2{font-size:clamp(26px,4vw,36px)}
+h3{font-size:20px}
+p{margin:0 0 16px}
+.envolve{max-width:var(--largura);margin:0 auto;padding:0 24px}
+.bloco{padding:64px 0}
+.bloco-cinza{background:var(--cor-cartao)}
+.estreito{max-width:680px}
+
+/* Faixa de selos */
+.faixa{background:var(--cor-faixa);color:var(--cor-faixa-texto);font-size:14px;font-weight:600;letter-spacing:.02em}
+.faixa ul{list-style:none;margin:0 auto;padding:10px 24px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;max-width:var(--largura)}
+.faixa li::before{content:"\25CF";margin-right:8px;font-size:10px;vertical-align:2px}
+
+/* Hero */
+.hero{padding:40px 0 48px}
+.hero-grade{display:grid;grid-template-columns:1fr;gap:32px;align-items:start}
+.etiqueta{display:inline-block;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--cor-borda);border-radius:999px;padding:4px 14px;margin-bottom:16px}
+.sub{font-size:20px;color:var(--cor-suave)}
+.prova-linha{font-weight:700;margin:8px 0 20px}
+.lista-sem,.lista-ganhos{list-style:none;padding:0;margin:0 0 24px}
+.lista-sem li,.lista-ganhos li{padding-left:30px;position:relative;margin-bottom:10px}
+.lista-ganhos li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--cor-destaque);font-weight:800}
+.lista-sem li::before{content:"\2715";position:absolute;left:2px;top:0;color:var(--cor-negativo);font-weight:800}
+.condutor{display:flex;gap:14px;align-items:center;margin-top:8px}
+.condutor img{width:64px;height:64px;border-radius:50%;object-fit:cover}
+.condutor p{margin:0;font-size:16px;color:var(--cor-suave)}
+.foto-hero{order:3}
+.hero-texto{order:1}
+.cartao-form{order:2}
+.foto-hero img{width:100%;max-height:420px;object-fit:cover;object-position:top;border-radius:var(--raio)}
+.legenda-foto{font-size:15px;color:var(--cor-suave);margin-top:8px}
+
+/* Cartão do formulário */
+.cartao-form{background:var(--cor-fundo);border:1px solid var(--cor-borda);border-radius:var(--raio);padding:24px;box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.data-evento{font-weight:700;font-size:18px;margin-bottom:4px}
+.formato-evento{font-size:15px;color:var(--cor-suave);margin-bottom:16px}
+.contador{display:flex;gap:8px;margin:0 0 16px}
+.contador div{flex:1;text-align:center;background:var(--cor-cartao);border-radius:var(--raio);padding:8px 4px}
+.contador strong{display:block;font-size:24px;line-height:1.1}
+.contador span{font-size:12px;color:var(--cor-suave);text-transform:uppercase}
+form label{display:block;font-size:15px;font-weight:600;margin:0 0 6px}
+form input,form select{width:100%;min-height:52px;font:inherit;font-size:17px;padding:12px 14px;border:1px solid var(--cor-borda);border-radius:var(--raio);background:#fff;color:var(--cor-texto);margin-bottom:14px}
+form input:focus,form select:focus{outline:3px solid var(--cor-destaque);outline-offset:1px}
+.numeros-form{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;color:var(--cor-suave);margin-top:14px;padding-top:14px;border-top:1px solid var(--cor-borda)}
+.numeros-form strong{color:var(--cor-texto)}
+
+/* Botão e micro-garantia */
+.botao{display:block;width:100%;min-height:56px;padding:16px 28px;border:0;border-radius:var(--raio);background:var(--cor-destaque);color:var(--cor-destaque-texto);font:inherit;font-size:18px;font-weight:800;text-align:center;text-decoration:none;cursor:pointer;transition:filter .15s,transform .05s}
+.botao:hover{filter:brightness(1.08)}
+.botao:active{transform:translateY(1px)}
+.botao[disabled],.botao.bloqueado{background:var(--cor-borda);color:var(--cor-suave);cursor:not-allowed}
+.botao-centro{max-width:420px;margin:0 auto}
+.micro{font-size:14px;color:var(--cor-suave);text-align:center;margin:10px 0 0}
+
+/* Cards do que vai descobrir */
+.cards{display:grid;grid-template-columns:1fr;gap:16px;margin-top:24px}
+.card{border:1px solid var(--cor-borda);border-left:4px solid var(--cor-destaque);border-radius:var(--raio);padding:20px;background:var(--cor-fundo)}
+.card .num{font-size:14px;font-weight:800;color:var(--cor-destaque)}
+.card p{margin:0}
+
+/* É pra você / não é (serve também pra antes e depois) */
+.filtro{display:grid;grid-template-columns:1fr;gap:24px;margin-top:24px}
+.filtro-sim,.filtro-nao{border-radius:var(--raio);padding:24px}
+.filtro-sim{background:var(--cor-fundo);border:1px solid var(--cor-borda)}
+.filtro-nao{background:transparent;color:var(--cor-suave);border:1px dashed var(--cor-borda)}
+.filtro ul{margin:0;padding-left:20px}
+.filtro li{margin-bottom:8px}
+
+/* Números */
+.numeros{display:grid;grid-template-columns:1fr;gap:16px;text-align:center;margin-top:24px}
+.numeros strong{display:block;font-family:var(--fonte-titulo);font-size:40px;line-height:1.1}
+.numeros span{color:var(--cor-suave);font-size:16px}
+
+/* Vídeo */
+.video{position:relative;aspect-ratio:16/9;background:#000;border-radius:var(--raio);overflow:hidden;margin:8px 0 24px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* Lotes */
+.lotes{display:grid;grid-template-columns:1fr;gap:16px;margin-top:24px}
+.lote{border:1px solid var(--cor-borda);border-radius:var(--raio);padding:24px;background:var(--cor-fundo)}
+.lote-ativo{border:2px solid var(--cor-destaque);box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.lote-bloqueado{opacity:.6}
+.lote .status{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--cor-destaque)}
+.lote-bloqueado .status{color:var(--cor-suave)}
+.lote .preco{font-family:var(--fonte-titulo);font-size:36px;font-weight:800;margin:6px 0 12px}
+.lote ul{padding-left:20px;margin:0 0 20px}
+.motivo-lote{font-size:15px;color:var(--cor-suave);margin-top:16px}
+
+/* Garantia, passos, FAQ, bio */
+.garantia{border:2px solid var(--cor-texto);border-radius:var(--raio);padding:28px}
+.passos{counter-reset:passo;list-style:none;padding:0;margin:16px 0 0}
+.passos li{counter-increment:passo;position:relative;padding-left:44px;margin-bottom:16px}
+.passos li::before{content:counter(passo);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--cor-destaque);color:var(--cor-destaque-texto);font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center}
+.faq details{border-bottom:1px solid var(--cor-borda);padding:16px 0}
+.faq summary{font-weight:700;cursor:pointer;list-style:none;position:relative;padding-right:32px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:-2px;font-size:24px;font-weight:400}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{margin:12px 0 0;color:var(--cor-suave)}
+.bio{display:grid;grid-template-columns:1fr;gap:24px;align-items:start}
+.bio img{border-radius:var(--raio);filter:grayscale(1)}
+.credenciais{padding-left:20px}
+
+/* Rodapé */
+.rodape{padding:32px 0 48px;font-size:14px;color:var(--cor-suave);border-top:1px solid var(--cor-borda)}
+.rodape a{color:inherit}
+
+/* Barra fixa do celular */
+.barra-fixa{position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--cor-fundo);border-top:1px solid var(--cor-borda);box-shadow:0 -6px 20px rgba(0,0,0,.06);z-index:10;transition:transform .2s}
+.barra-fixa.escondida{transform:translateY(110%)}
+
+/* Obrigado */
+.obrigado{padding:56px 0 72px}
+.obrigado .confirma{font-size:15px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--cor-destaque)}
+.quando{font-size:22px;font-weight:700;margin:8px 0 24px}
+.preparar{background:var(--cor-cartao);border-radius:var(--raio);padding:20px 24px;margin-top:32px}
+.preparar ul{margin:0;padding-left:20px}
+.compromisso{margin-top:24px;font-weight:600}
+.depois{margin-top:24px}
+
+/* Computador: formulário ao lado do hero, grades em colunas, sem barra fixa */
+@media (min-width:900px){
+  body{padding-bottom:0}
+  .hero-grade{grid-template-columns:1.25fr 1fr;gap:48px}
+  .hero-grade.com-foto{grid-template-columns:.7fr 1.3fr 1fr;gap:36px}
+  .com-foto h1{font-size:clamp(30px,3.2vw,44px)}
+  .foto-hero{order:0}
+  .foto-hero img{max-height:none}
+  .cartao-form{position:sticky;top:24px}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .cards.tres{grid-template-columns:repeat(3,1fr)}
+  .filtro{grid-template-columns:1.3fr 1fr}
+  .numeros{grid-template-columns:repeat(3,1fr)}
+  .lotes{grid-template-columns:repeat(3,1fr)}
+  .bio{grid-template-columns:320px 1fr;gap:48px}
+  .barra-fixa{display:none}
+}
+</style>
+<!-- PIXEL: cole aqui o código de pixel ou analytics que o dono passar. -->
+</head>
+<body>
+
+<!-- ============ INICIO PAGINA:inscricao (apague este bloco inteiro no obrigado.html) ============ -->
+
+<!-- BLOCO faixa-selos · moldes: longo grátis, longo pago. Cada selo precisa de dado do insumo (formato, gravação, limite com motivo). Selo sem dado sai. -->
+<div class="faixa" data-bloco="faixa-selos">
+  <ul>
+    <li>{{SELO_1}}</li>
+    <li>{{SELO_2}}</li>
+    <li>{{SELO_3}}</li>
+  </ul>
+</div>
+<!-- /BLOCO faixa-selos -->
+
+<main>
+<!-- BLOCO hero · todos os moldes. No computador o cartão do formulário fica ao lado; no celular, logo embaixo do texto.
+     Curto: sem foto, com lista-sem e cartão do condutor. Longo grátis: com foto (acrescente a classe com-foto na hero-grade) e cartão do formulário.
+     Longo pago: troque o cartão do formulário pelo vídeo e um botão que desce até #inscricao. -->
+<section class="hero" data-bloco="hero">
+  <div class="envolve hero-grade">
+
+    <!-- BLOCO foto-hero · só longo grátis: foto vertical do condutor com 2 ou 3 números de autoridade na legenda. -->
+    <div class="foto-hero" data-bloco="foto-hero">
+      <img src="{{FOTO_CONDUTOR_URL}}" alt="{{NOME_CONDUTOR}}" width="480" height="640" loading="eager">
+      <p class="legenda-foto"><strong>{{NOME_CONDUTOR}}</strong> · {{NUMEROS_LEGENDA}}</p>
+    </div>
+    <!-- /BLOCO foto-hero -->
+
+    <div class="hero-texto">
+      <span class="etiqueta">{{ETIQUETA_EVENTO}}</span>
+      <h1>{{HEADLINE}}</h1>
+      <p class="sub">{{SUBHEADLINE}}</p>
+      <!-- Número de autoridade nas 5 primeiras linhas: é a prova acima da dobra. -->
+      <p class="prova-linha">{{LINHA_DE_PROVA}}</p>
+
+      <!-- BLOCO lista-sem · curto: de 3 a 5 linhas "sem ...", só com objeções que o insumo lista. -->
+      <ul class="lista-sem" data-bloco="lista-sem">
+        <li>{{SEM_1}}</li>
+        <li>{{SEM_2}}</li>
+        <li>{{SEM_3}}</li>
+      </ul>
+      <!-- /BLOCO lista-sem -->
+
+      <!-- Ganhos: de 3 a 5, o que a pessoa leva, sem entregar o como. Repita o <li> por item. -->
+      <ul class="lista-ganhos">
+        <li>{{GANHO_1}}</li>
+        <li>{{GANHO_2}}</li>
+        <li>{{GANHO_3}}</li>
+      </ul>
+
+      <!-- BLOCO condutor-mini · curto: rosto, nome e papel. -->
+      <div class="condutor" data-bloco="condutor-mini">
+        <img src="{{FOTO_CONDUTOR_URL}}" alt="{{NOME_CONDUTOR}}" width="64" height="64">
+        <p><strong>{{NOME_CONDUTOR}}</strong><br>{{PAPEL_CONDUTOR}}</p>
+      </div>
+      <!-- /BLOCO condutor-mini -->
+
+      <!-- BLOCO video-hero · só longo pago. Cole o iframe do player do dono dentro da div. -->
+      <div class="video" data-bloco="video-hero">
+        <!-- iframe do player aqui -->
+      </div>
+      <!-- /BLOCO video-hero -->
+      <!-- BLOCO botao-desce · só longo pago: o formulário mora no fim da página. -->
+      <a class="botao" href="#inscricao" data-bloco="botao-desce">{{TEXTO_BOTAO}}</a>
+      <p class="micro" data-bloco="botao-desce">{{MICRO_GARANTIA}}</p>
+      <!-- /BLOCO botao-desce -->
+    </div>
+
+    <!-- BLOCO cartao-form · curto e longo grátis. É aqui que mora id="inscricao" nesses moldes. -->
+    <div class="cartao-form" id="inscricao" data-bloco="cartao-form">
+      <!-- Data, formato e duração: cada <p> só com dado do insumo, com a palavra dele. Gravado ou perpétuo nunca leva "ao vivo". Sem dado, o <p> sai. -->
+      <p class="data-evento">{{DATA_E_HORA}}</p>
+      <p class="formato-evento">{{FORMATO_E_DURACAO}}</p>
+
+      <!-- BLOCO contador · só com data e hora reais do insumo (evento de data fixa, ou a próxima sessão). data-alvo em ISO, ex.: 2026-10-14T19:00:00-03:00.
+           O script esconde o contador sozinho quando a data passa: contador zerado com inscrição aberta derruba a confiança. -->
+      <div class="contador" data-bloco="contador" data-alvo="{{DATA_ISO}}" hidden>
+        <div><strong data-u="d">--</strong><span>dias</span></div>
+        <div><strong data-u="h">--</strong><span>horas</span></div>
+        <div><strong data-u="m">--</strong><span>min</span></div>
+        <div><strong data-u="s">--</strong><span>seg</span></div>
+      </div>
+      <!-- /BLOCO contador -->
+
+      <!-- FORMULÁRIO: troque o action pela URL da ferramenta (ver O QUE CONECTAR no topo). Só os campos que o insumo pede. -->
+      <form action="#CONECTAR-FORMULARIO" method="post" data-form>
+        <!-- BLOCO seletor-horario · só quando o INSUMO dá dia e hora das sessões (perpétuo ou mais de uma data). É o PRIMEIRO campo.
+             value de cada opção: data e hora em ISO (a página de obrigado e o botão de agenda leem daqui).
+             Sem horário no insumo, apague o bloco inteiro e pergunte a grade no _notas-operador.md. Opção "a confirmar" ou sem ISO reprova. -->
+        <div data-bloco="seletor-horario">
+          <label for="sessao">{{ROTULO_SELETOR}}</label>
+          <select id="sessao" name="sessao" required>
+            <option value="{{SESSAO_1_ISO}}">{{SESSAO_1_TEXTO}}</option>
+            <option value="{{SESSAO_2_ISO}}">{{SESSAO_2_TEXTO}}</option>
+          </select>
+        </div>
+        <!-- /BLOCO seletor-horario -->
+        <label for="nome">Seu nome</label>
+        <input id="nome" name="nome" type="text" autocomplete="name" required>
+        <label for="email">Seu melhor e-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+        <!-- Campo de WhatsApp: só se o insumo pede. -->
+        <label for="whatsapp">Seu WhatsApp com DDD</label>
+        <input id="whatsapp" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="(11) 90000-0000">
+        <button class="botao" type="submit">{{TEXTO_BOTAO}}</button>
+        <!-- MICRO_GARANTIA: uma verdade do insumo que tira o medo do clique (duração, custo quando o insumo diz). Sem dado, apague este <p> em todos os botões. -->
+        <p class="micro">{{MICRO_GARANTIA}}</p>
+      </form>
+
+      <!-- BLOCO numeros-form · longo grátis: 2 ou 3 números de autoridade do insumo, repetidos aqui, com o rótulo do insumo (verbo, objeto, "mais de"). -->
+      <div class="numeros-form" data-bloco="numeros-form">
+        <span><strong>{{NUMERO_1}}</strong> {{ROTULO_NUMERO_1}}</span>
+        <span><strong>{{NUMERO_2}}</strong> {{ROTULO_NUMERO_2}}</span>
+        <span><strong>{{NUMERO_3}}</strong> {{ROTULO_NUMERO_3}}</span>
+      </div>
+      <!-- /BLOCO numeros-form -->
+    </div>
+    <!-- /BLOCO cartao-form -->
+
+  </div>
+</section>
+<!-- /BLOCO hero -->
+
+<!-- BLOCO numeros-grade · longo pago: 3 números do insumo em grade, com o rótulo do insumo ("420 alunos" não vira "420 dentistas"). -->
+<section class="bloco bloco-cinza" data-bloco="numeros-grade">
+  <div class="envolve">
+    <div class="numeros">
+      <div><strong>{{NUMERO_1}}</strong><span>{{ROTULO_NUMERO_1}}</span></div>
+      <div><strong>{{NUMERO_2}}</strong><span>{{ROTULO_NUMERO_2}}</span></div>
+      <div><strong>{{NUMERO_3}}</strong><span>{{ROTULO_NUMERO_3}}</span></div>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO numeros-grade -->
+
+<!-- BLOCO cards · longo grátis (o que vai descobrir, 5 ou 6) e longo pago (entregas, com o valor só quando o insumo dá o preço de mercado).
+     Repita o <article> por item. Rótulo curto mais uma frase. -->
+<section class="bloco" data-bloco="cards">
+  <div class="envolve">
+    <h2>{{TITULO_CARDS}}</h2>
+    <div class="cards">
+      <article class="card"><span class="num">01</span><h3>{{CARD_1_ROTULO}}</h3><p>{{CARD_1_FRASE}}</p></article>
+      <article class="card"><span class="num">02</span><h3>{{CARD_2_ROTULO}}</h3><p>{{CARD_2_FRASE}}</p></article>
+      <article class="card"><span class="num">03</span><h3>{{CARD_3_ROTULO}}</h3><p>{{CARD_3_FRASE}}</p></article>
+      <article class="card"><span class="num">04</span><h3>{{CARD_4_ROTULO}}</h3><p>{{CARD_4_FRASE}}</p></article>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO cards -->
+
+<!-- BLOCO pra-voce · longo grátis e longo pago. As cenas saem do insumo (público, objeções, quem não é o público).
+     Mesmo componente serve pro antes e depois: troque os títulos. -->
+<section class="bloco bloco-cinza" data-bloco="pra-voce">
+  <div class="envolve">
+    <div class="filtro">
+      <div class="filtro-sim">
+        <h2>{{TITULO_E_PRA_VOCE}}</h2>
+        <ul>
+          <li>{{CENA_1}}</li>
+          <li>{{CENA_2}}</li>
+          <li>{{CENA_3}}</li>
+        </ul>
+      </div>
+      <div class="filtro-nao">
+        <h3>{{TITULO_NAO_E_PRA_VOCE}}</h3>
+        <ul>
+          <li>{{EXCLUSAO_1}}</li>
+        </ul>
+        <p>{{LINHA_ANTI_MILAGRE}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO pra-voce -->
+
+<!-- BLOCO cta-meio · longo grátis e longo pago. Mesmo destino de todos os botões. -->
+<section class="bloco" data-bloco="cta-meio">
+  <div class="envolve botao-centro">
+    <a class="botao" href="#inscricao">{{TEXTO_BOTAO}}</a>
+    <p class="micro">{{MICRO_GARANTIA}}</p>
+  </div>
+</section>
+<!-- /BLOCO cta-meio -->
+
+<!-- BLOCO garantia · longo pago. Título vendido, nunca só "Garantia". Prazo e regra só do insumo. -->
+<section class="bloco" data-bloco="garantia">
+  <div class="envolve estreito">
+    <div class="garantia">
+      <h2>{{TITULO_GARANTIA}}</h2>
+      <p>{{TEXTO_GARANTIA}}</p>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO garantia -->
+
+<!-- BLOCO lotes · longo pago. Preço, critério de virada e motivo, só do insumo. Lote ativo em destaque; os seguintes visíveis e bloqueados.
+     Preço riscado só se o insumo diz que esse valor já foi cobrado. -->
+<section class="bloco bloco-cinza" data-bloco="lotes">
+  <div class="envolve">
+    <h2>{{TITULO_LOTES}}</h2>
+    <div class="lotes">
+      <div class="lote lote-ativo">
+        <span class="status">{{NOME_LOTE_ATIVO}}</span>
+        <p class="preco">{{PRECO_LOTE_ATIVO}}</p>
+        <ul>
+          <li>{{ITEM_INCLUSO_1}}</li>
+          <li>{{ITEM_INCLUSO_2}}</li>
+          <li>{{ITEM_INCLUSO_3}}</li>
+        </ul>
+        <a class="botao" href="#inscricao">{{TEXTO_BOTAO_LOTE}}</a>
+      </div>
+      <div class="lote lote-bloqueado">
+        <span class="status">{{NOME_LOTE_2}}</span>
+        <p class="preco">{{PRECO_LOTE_2}}</p>
+        <!-- Critério de virada do insumo (a data ou o número de ingressos). -->
+        <button class="botao" type="button" disabled>{{QUANDO_ABRE_LOTE_2}}</button>
+      </div>
+      <div class="lote lote-bloqueado">
+        <span class="status">{{NOME_LOTE_3}}</span>
+        <p class="preco">{{PRECO_LOTE_3}}</p>
+        <button class="botao" type="button" disabled>{{QUANDO_ABRE_LOTE_3}}</button>
+      </div>
+    </div>
+    <p class="motivo-lote">{{MOTIVO_DA_VIRADA_DE_LOTE}}</p>
+  </div>
+</section>
+<!-- /BLOCO lotes -->
+
+<!-- BLOCO form-final · longo pago: o formulário mora aqui (id="inscricao") com "o que acontece depois de pagar" em 3 passos.
+     No longo pago o cartao-form sai; troque o id desta seção de inscricao-final pra inscricao (todo botão aponta pra #inscricao).
+     O action é o checkout; sem seletor de horário quando a data é fixa. -->
+<section class="bloco" id="inscricao-final" data-bloco="form-final">
+  <div class="envolve hero-grade">
+    <div>
+      <h2>{{TITULO_O_QUE_ACONTECE_DEPOIS}}</h2>
+      <ol class="passos">
+        <li>{{PASSO_1}}</li>
+        <li>{{PASSO_2}}</li>
+        <li>{{PASSO_3}}</li>
+      </ol>
+    </div>
+    <div class="cartao-form">
+      <form action="#CONECTAR-CHECKOUT" method="post" data-form>
+        <label for="nome2">Seu nome</label>
+        <input id="nome2" name="nome" type="text" autocomplete="name" required>
+        <label for="email2">Seu melhor e-mail</label>
+        <input id="email2" name="email" type="email" autocomplete="email" inputmode="email" required>
+        <label for="whatsapp2">Seu WhatsApp com DDD</label>
+        <input id="whatsapp2" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel">
+        <button class="botao" type="submit">{{TEXTO_BOTAO}}</button>
+        <p class="micro">{{MICRO_GARANTIA}}</p>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO form-final -->
+
+<!-- BLOCO faq · longo pago (5 objeções: preço e por que sobe, pré-requisito, equipamento, acesso, garantia). Resposta só com dado do insumo. -->
+<section class="bloco bloco-cinza" data-bloco="faq">
+  <div class="envolve estreito faq">
+    <h2>{{TITULO_FAQ}}</h2>
+    <details><summary>{{PERGUNTA_1}}</summary><p>{{RESPOSTA_1}}</p></details>
+    <details><summary>{{PERGUNTA_2}}</summary><p>{{RESPOSTA_2}}</p></details>
+    <details><summary>{{PERGUNTA_3}}</summary><p>{{RESPOSTA_3}}</p></details>
+  </div>
+</section>
+<!-- /BLOCO faq -->
+
+<!-- BLOCO bio · longo grátis (no fim, antes do CTA final) e longo pago quando o insumo tem a história. -->
+<section class="bloco" data-bloco="bio">
+  <div class="envolve bio">
+    <img src="{{FOTO_BIO_URL}}" alt="{{NOME_CONDUTOR}}" width="320" height="400" loading="lazy">
+    <div>
+      <h2>{{TITULO_BIO}}</h2>
+      <p>{{BIO_PARAGRAFO_1}}</p>
+      <p>{{BIO_PARAGRAFO_2}}</p>
+      <ul class="credenciais">
+        <li>{{CREDENCIAL_1}}</li>
+        <li>{{CREDENCIAL_2}}</li>
+        <li>{{CREDENCIAL_3}}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- /BLOCO bio -->
+
+<!-- BLOCO cta-final · todos os moldes longos. -->
+<section class="bloco bloco-cinza" data-bloco="cta-final">
+  <div class="envolve botao-centro">
+    <a class="botao" href="#inscricao">{{TEXTO_BOTAO}}</a>
+    <p class="micro">{{MICRO_GARANTIA}}</p>
+  </div>
+</section>
+<!-- /BLOCO cta-final -->
+</main>
+
+<footer class="rodape">
+  <div class="envolve">
+    <!-- Cada <p> só com dado do insumo; sem razão social, sem o <p> (nunca #CONECTAR visível). Sem URL de privacidade, sem o link. -->
+    <p>{{RAZAO_SOCIAL_E_CNPJ}}</p>
+    <p><a href="{{URL_PRIVACIDADE}}">Política de privacidade</a></p>
+    <!-- Aviso legal de resultado: obrigatório no longo pago que cita dinheiro ou resultado. -->
+    <p>{{AVISO_LEGAL}}</p>
+  </div>
+</footer>
+
+<!-- BLOCO barra-fixa · todos os moldes. Só aparece no celular e some quando o formulário está na tela. -->
+<div class="barra-fixa" data-bloco="barra-fixa">
+  <a class="botao" href="#inscricao">{{TEXTO_BOTAO}}</a>
+</div>
+<!-- /BLOCO barra-fixa -->
+
+<!-- ============ FIM PAGINA:inscricao ============ -->
+
+<!-- ============ INICIO PAGINA:obrigado (apague este bloco inteiro no pagina.html) ============ -->
+<main class="obrigado" data-pagina="obrigado">
+  <div class="envolve estreito">
+    <!-- Confirmação sem canal ("inscrição feita"). Canal ("por e-mail", "no WhatsApp") só com a linha do insumo. -->
+    <p class="confirma">{{CONFIRMACAO_CURTA}}</p>
+    <h1>{{TITULO_OBRIGADO}}</h1>
+    <!-- Data e hora de novo. No perpétuo, o script troca o texto pelo horário que veio em ?sessao= ou do formulário.
+         Sem data nem sessão no insumo, apague este <p>. -->
+    <p class="quando" data-quando data-padrao="{{DATA_E_HORA_TEXTO}}">{{DATA_E_HORA_TEXTO}}</p>
+
+    <!-- UM próximo passo. Padrão: agenda (precisa da data). Grupo ou WhatsApp só com o link no insumo; aí troque o href e apague os data-agenda.
+         data-inicio em ISO; no perpétuo, deixe vazio que o script usa o horário escolhido.
+         Evento de mais de uma data: TODAS em data-datas (ISO separadas por vírgula); o botão gera um .ics com um evento por data.
+         A agenda cobre todas as datas ou não é oferecida. Sem data, apague o botão e a micro (o script esconde o botão sem data).
+         data-local: o link de acesso do insumo, ou vazio. -->
+    <a class="botao" href="#" data-agenda
+       data-titulo="{{NOME_DO_EVENTO}}"
+       data-inicio="{{INICIO_ISO}}"
+       data-datas="{{TODAS_AS_DATAS_ISO}}"
+       data-duracao-min="{{DURACAO_EM_MINUTOS}}"
+       data-local="{{LINK_DE_ACESSO_OU_ENDERECO}}">{{TEXTO_BOTAO_PROXIMO_PASSO}}</a>
+    <!-- Micro do botão: promete só o que o arquivo de agenda leva. Sem dado, apague. -->
+    <p class="micro" data-micro-agenda>{{MICRO_DO_PROXIMO_PASSO}}</p>
+
+    <!-- Pequeno compromisso: uma ação de 10 segundos, no mesmo canal do botão, ou só uma decisão (ex.: bloquear o horário). -->
+    <p class="compromisso">{{PEQUENO_COMPROMISSO}}</p>
+
+    <!-- O que preparar: 1 a 3 itens do insumo. -->
+    <div class="preparar">
+      <h3>{{TITULO_O_QUE_PREPARAR}}</h3>
+      <ul>
+        <li>{{PREPARAR_1}}</li>
+        <li>{{PREPARAR_2}}</li>
+      </ul>
+    </div>
+
+    <!-- O que vem depois: o objetivo de conversão que o dono declarou (ex.: a candidatura a uma sessão). Texto, nunca segundo botão.
+         Obrigatório quando declarado no pedido ou no insumo; sem objetivo declarado, apague. -->
+    <p class="depois">{{O_QUE_VEM_DEPOIS}}</p>
+  </div>
+</main>
+<!-- ============ FIM PAGINA:obrigado ============ -->
+
+<script>
+(function(){
+  "use strict";
+  // Contador: só aparece com data futura válida; some quando a data passa.
+  document.querySelectorAll("[data-alvo]").forEach(function(el){
+    var alvo = Date.parse(el.getAttribute("data-alvo"));
+    if (isNaN(alvo)) return;
+    function tick(){
+      var r = alvo - Date.now();
+      if (r <= 0){ el.hidden = true; return false; }
+      el.hidden = false;
+      var s = Math.floor(r/1000);
+      var v = {d:Math.floor(s/86400), h:Math.floor(s%86400/3600), m:Math.floor(s%3600/60), s:s%60};
+      el.querySelectorAll("[data-u]").forEach(function(n){ n.textContent = v[n.getAttribute("data-u")]; });
+      return true;
+    }
+    if (tick()) { var id = setInterval(function(){ if(!tick()) clearInterval(id); }, 1000); }
+  });
+
+  // Formulário sem destino conectado não envia (evita inscrição perdida em teste).
+  // Guarda o horário escolhido pra página de obrigado.
+  document.querySelectorAll("form[data-form]").forEach(function(f){
+    f.addEventListener("submit", function(e){
+      var s = f.querySelector("[name=sessao]");
+      if (s) { try { localStorage.setItem("sessao-escolhida", s.value); localStorage.setItem("sessao-texto", s.options[s.selectedIndex].text); } catch(x){} }
+      if ((f.getAttribute("action") || "").indexOf("#CONECTAR") === 0) {
+        e.preventDefault();
+        f.querySelector("button").textContent = "Formulário ainda não conectado";
+      }
+    });
+  });
+
+  // Barra fixa some quando algum formulário está visível.
+  var barra = document.querySelector(".barra-fixa");
+  var alvos = document.querySelectorAll("#inscricao");
+  if (barra && alvos.length && "IntersectionObserver" in window) {
+    var vis = 0;
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ vis += e.isIntersecting ? 1 : -1; if (vis < 0) vis = 0; });
+      barra.classList.toggle("escondida", vis > 0);
+    });
+    alvos.forEach(function(a){ io.observe(a); });
+  }
+
+  // Obrigado: repete o horário escolhido e monta o botão de agenda (Google no Android e computador, .ics no iPhone).
+  var q = new URLSearchParams(location.search);
+  var sessao = q.get("sessao"), texto = null;
+  try { sessao = sessao || localStorage.getItem("sessao-escolhida"); texto = localStorage.getItem("sessao-texto"); } catch(x){}
+  var quando = document.querySelector("[data-quando]");
+  if (quando && sessao && !isNaN(Date.parse(sessao))) {
+    quando.textContent = texto || new Date(sessao).toLocaleString("pt-BR", {weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"});
+  }
+  var ag = document.querySelector("[data-agenda]");
+  if (ag) {
+    // Todas as datas do evento: data-datas (várias) ou data-inicio (uma) ou o horário escolhido no perpétuo.
+    var lista = (ag.getAttribute("data-datas") || "").split(",").map(function(d){ return Date.parse(d.trim()); }).filter(function(t){ return !isNaN(t); });
+    if (!lista.length) {
+      var um = Date.parse(ag.getAttribute("data-inicio")) || (sessao ? Date.parse(sessao) : NaN);
+      if (!isNaN(um)) lista = [um];
+    }
+    if (!lista.length) {
+      // Sem data não há agenda: o botão e a micro dele somem.
+      ag.hidden = true;
+      var mic = document.querySelector("[data-micro-agenda]");
+      if (mic) mic.hidden = true;
+    } else {
+      var dur = (parseInt(ag.getAttribute("data-duracao-min"), 10) || 60) * 60000;
+      var z = function(t){ return new Date(t).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); };
+      var tit = ag.getAttribute("data-titulo") || "", loc = ag.getAttribute("data-local") || "";
+      if (lista.length > 1 || /iPhone|iPad|Macintosh/.test(navigator.userAgent)) {
+        // Mais de uma data: um .ics com um evento por data, em qualquer aparelho.
+        var ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//landing//PT"];
+        lista.forEach(function(ini, i){
+          ics.push("BEGIN:VEVENT","UID:" + ini + "-" + i + "@landing","DTSTAMP:" + z(Date.now()),
+                   "DTSTART:" + z(ini),"DTEND:" + z(ini + dur),"SUMMARY:" + tit);
+          if (loc) ics.push("LOCATION:" + loc);
+          ics.push("BEGIN:VALARM","TRIGGER:-PT30M","ACTION:DISPLAY","DESCRIPTION:" + tit,"END:VALARM","END:VEVENT");
+        });
+        ics.push("END:VCALENDAR");
+        ag.href = "data:text/calendar;charset=utf-8," + encodeURIComponent(ics.join("\r\n"));
+        ag.setAttribute("download", "evento.ics");
+      } else {
+        ag.href = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(tit) +
+                  "&dates=" + z(lista[0]) + "/" + z(lista[0] + dur) + (loc ? "&location=" + encodeURIComponent(loc) : "");
+        ag.target = "_blank"; ag.rel = "noopener";
+      }
+    }
+  }
+})();
+</script>
+</body>
+</html>

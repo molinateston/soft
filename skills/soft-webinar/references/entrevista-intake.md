@@ -32,10 +32,11 @@ Se um slide não serve aos três, corta ou reescreve. Isso é o crivo de cada be
 - Existe uma esteira/ecossistema de produtos? (mostra "você está aqui" e pra onde sobe)
 - Como o dono se posiciona? É ANTI-GURU? (se sim, dinheiro entra como consequência de cuidar do cliente, nunca como flex)
 
-**4. PROBLEMA / DIAGNÓSTICO**
+**4. PROBLEMA / DIAGNÓSTICO / OBJEÇÕES**
 - Quais ARMADILHAS o avatar já tentou pra resolver isso? Pra CADA uma, arranca: o que ela faz, POR QUE ela acredita que é assim (a crença por trás), por que não funciona, o que isso já custou.
 - Qual o INIMIGO comum (quem lucra com o problema dela)?
 - A ABSOLVIÇÃO (por que a culpa não é dela) e a DOBRADIÇA (se o problema é X, a solução é um SISTEMA de X)?
+- Quais são as 5 desculpas que você mais ouve antes de alguém comprar? (na fala da pessoa, sem traduzir)
 
 **5. MECANISMO**
 - Qual o NOME do mecanismo? (passa pelo gate anti-rótulo)
@@ -61,7 +62,7 @@ Se um slide não serve aos três, corta ou reescreve. Isso é o crivo de cada be
 - Surpresa dos N PRIMEIROS: os bônus extras, cada um idem (promessa/fascination/ancoragem/quebra).
 - Tem GARANTIA? (sim/não, e qual)
 - Total riscado (a soma de tudo separado).
-- A faixa de preço e o canal de fechamento: `oferta-mapa.md` (régua por faixa + ≤3k checkout / >3k call 1:1).
+- A faixa de preço e o canal de fechamento: `oferta-mapa.md` (régua por faixa; checkout até ~R$3.000, call acima, salvo número próprio que o dono declarar).
 
 **9. PROVA**
 - Quais provas sociais reais existem (planilha, prints, depoimentos)? A skill vai confrontar o webinar inteiro contra elas e infundir a prova certa no slide certo.

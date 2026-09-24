@@ -1,5 +1,7 @@
 # Template dos 72 slides: o ESQUELETO-LEI do deck
 
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Terceiro esqueleto do deck; ele mesmo cede pro `SLIDE-MODELO-SCRIPT.md`. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
 Esta reference é o **esqueleto slide a slide** do webinário: os **72 beats, na ordem, com a função de cada um, o que entra na TELA vs na NOTA, e um exemplo instanciado de cada beat**, destilados do template real (com as direções de palco embutidas no próprio texto dos slides), agora cruzados com o corpus de 9 webinars que venderam. É a ponte física entre o roteiro e a tela: o `estrutura-webinario-aida.md` diz **o que falar e em que ordem** (blocos, falas, tempos); esta reference diz **em quantos e quais slides essa fala se projeta e o que vai escrito onde**; o `geracao-de-slides.md` diz **como renderizar** cada beat (arquétipos, JSON do `deck_gen.py`, copy na nota).
@@ -50,7 +52,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 3. Toda lista na tela entra **animada, um item por clique, sincronizada com a fala, DENTRO DE UM ÚNICO SLIDE** (cap08, regra da dopamina), NUNCA a lista aberta de uma vez E NUNCA um item por slide. **1 SLIDE = 1 ASSUNTO:** a lista inteira de um assunto fica num slide só (a pilha crescendo na mesma tela a cada clique); item da mesma lista = clique, não slide novo. ❌ ERRADO: "sem A" num slide, "sem B" no outro, "sem C" no outro. ✅ CERTO: 1 slide, 3 cliques. Isso vale pros bullets de fascination (S6), pros aprendizados (S26), pro stack (S52/S65). Por isso todo conteúdo vira lista ou passos. (O "expandir um beat em mais de um slide" da regra 2 é pra ASSUNTOS distintos dentro do beat, tipo provas em rajada ou jornada do produto, nunca pra picotar uma lista única.)
 4. Nomes de mecanismo, big idea, bordões, inimigo = **SLOTS** `(nome Soft: a definir com a mentoria)`, nunca fabricados e atribuídos como verdade. Os nomes dos exemplos (visão de floresta, síndrome do Fantástico, dieta burra) têm dono e ficam no exemplo.
 5. Saída final: cada beat vira slide(s) no pipeline do `geracao-de-slides.md`, copy falada na `nota`, tela mínima, arquétipo certo por função.
-6. **Regra de ouro do render (re-gate ao condensar).** A TELA de cada beat (1 frase / 1 número) não é a fala, é uma **condensação NOVA** que o lead LÊ. Não é "reescrever copy" inventando promessa, mas é texto de leitor. Então: SE condensar/reescrever o texto de tela (a frase grande, a dor batizada, o título de prova), **re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` antes de exportar** + `python3 scripts/lint_copy.py` (o render não muda palavra sem re-gate). Detalhe operacional em `geracao-de-slides.md` §5.
+6. **Regra de ouro do render (re-gate ao condensar).** A TELA de cada beat (1 frase / 1 número) é uma **condensação NOVA** que o lead LÊ, diferente da fala. Inventar promessa ao reescrever continua proibido, mas é texto de leitor. Então: SE condensar/reescrever o texto de tela (a frase grande, a dor batizada, o título de prova), **re-passa a ancoragem e a headline pelo `shared-references/crivo/03-gate-cub.md` antes de exportar** + `python3 scripts/lint_copy.py` (o render não muda palavra sem re-gate). Detalhe operacional em `geracao-de-slides.md` §5.
 
 ---
 
@@ -73,11 +75,11 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 - **S3: "Comente seu nome e de onde está falando".**
   - *Função:* 1º micro-compromisso + sensação de sala cheia; o slide fica FIXO (cap08: quem chega atrasado bate o olho e já interage).
-  - *TELA:* "Comente seu nome e de onde você fala 👇" (fixo). *NOTA:* o apresentador LÊ nomes em voz alta como recompensa instantânea.
-  - *EXEMPLO (gestão/GA, → bloco 01):* "Tô vendo aqui que a galera tá entrando… tem bastante gente, muito bom." Ler nomes nos primeiros 60s ensina que comentar gera reconhecimento. *Porquê:* quem digitou uma vez digita de novo, inclusive na hora do "sim eu quero".
+  - *TELA:* "Comente seu nome e de onde você fala 👇" (fixo). *NOTA:* ao vivo, o apresentador responde quem comentou como recompensa instantânea; no perpétuo gravado, a fala não finge ler o chat.
+  - *EXEMPLO (gestão/GA, → bloco 01):* (ao vivo) "Tô vendo aqui que a galera tá entrando." Responder quem comenta nos primeiros 60s ensina que comentar gera reconhecimento. *Porquê:* quem digitou uma vez digita de novo, inclusive na hora do "sim eu quero".
 
-- **S4: "Como está hoje em relação ao seu problema?" + "quem sair não volta mais" + "posso começar?".**
-  - *Função:* dor declarada pelo próprio lead (o "é exatamente isso" começa aqui), 1ª escassez de sala e o 2º micro-sim (autorização pra começar).
+- **S4: "Como está hoje em relação ao seu problema?" + [regra de saída, só com a decisão do dono] + "posso começar?".**
+  - *Função:* dor declarada pelo próprio lead (o "é exatamente isso" começa aqui), a escassez de sala quando o dono tem uma, e o 2º micro-sim (autorização pra começar).
   - *TELA:* a pergunta de dor, grande. *NOTA:* eco das dores que aparecem no chat + pedido de permissão.
   - *EXEMPLO (emprego/LinkedIn, citado em cap08):* "o que você acha que está te impedindo de conseguir emprego? [bebe uma água] o Cláudio disse oportunidade, a Andrea disse a idade… eu já passei dos 40, sei bem o que vocês estão passando." *Porquê:* a dor confessada no chat é auto-diagnóstico, o apresentador não precisa convencer ninguém de que tem problema; e o eco + identificação ("sei bem o que vocês passam") humaniza antes de uma linha de venda.
 
@@ -91,7 +93,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
   - *Função:* a promessa-mãe (slot por nicho); o destino. cap08: vai GRANDE, com imagem forte, domina a tela.
   - *TELA:* o título, enorme, sobre imagem do estado-depois. *NOTA:* o apresentador anuncia o tema e jura cumprir.
   - *EXEMPLO (gestão/GA):* "Como organizar seus projetos com gestão ágil e se tornar uma referência em gestão na sua área… essa é a grande promessa da aula de hoje e **eu vou cumpri-la com certeza**." O juramento cria critério de sucesso que ele dá baixa no recap (S26).
-  - *Molde Soft preenchido (EXEMPLO de nicho, odontologia/dentista, didático):* "Como lotar a agenda do seu consultório em 90 dias sem depender de convênio." → benefício = agenda cheia; tempo = 90 dias; objeção = "preciso aceitar convênio". *Slot:* o título real sai da pesquisa de avatar do nicho do usuário.
+  - *Molde Soft preenchido (EXEMPLO de nicho, odontologia/dentista, didático):* "Como lotar a agenda do seu consultório em [prazo que o dono comprova] sem depender de convênio." → benefício = agenda cheia; tempo = o do dono, ou nenhum; objeção = "preciso aceitar convênio". *Slot:* o título real sai da pesquisa de avatar do nicho do usuário.
 
 - **S6: Fascinations: 3–5 bullets do que será visto.**
   - *Função:* open loops de curiosidade, NUNCA a lista que entrega tudo (G8). Entram um por clique (dopamina).
@@ -350,7 +352,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
   - *EXEMPLO (gestão/GA, → bloco 10):* "com esse bônus do combinado, não vai ser R$1.997, acaba ficando R$1.697, ou **R$165 por mês**… eu fiz isso pra ter um valor que cabe no orçamento de qualquer pessoa." (a parcela vira o preço oficial; o total parcelado nem é verbalizado.) *Porquê:* o desconto é JUSTIFICADO pelo acordo, nunca seco. (R$1.497→R$497, 12x69 são EXEMPLO do template.)
 
 - **S64: SURPRESA: bônus exclusivo pros N primeiros, escassez honesta de velocidade.**
- - *EXEMPLO (gestão/GA, → bloco 12):* "vai ter bônus só pros **15 primeiros** que se inscreverem agora - quando você clicar no link, vai aparecer 'parabéns, você está entre os 15 primeiros'." *Porquê:* escassez mecânica e auditável (o sistema decide quem é o 15º) desarma o ceticismo de "escassez falsa". ("10 primeiras vagas" do template = o que realmente cabe entregar, G7.)
+ - *EXEMPLO (gestão/GA, → bloco 12):* "vai ter bônus só pros **15 primeiros** que se inscreverem agora - quando você clicar no link, vai aparecer 'parabéns, você está entre os 15 primeiros'." *Porquê:* escassez mecânica e auditável (o sistema decide quem é o 15º) desarma o ceticismo de "escassez falsa". (O N do template = o limite real que o dono confirmou, G7; sem limite no insumo, o slide sai.)
 
 - **S65: RESUMO DA OFERTA: stack completo + preço final + "clique no botão", o slide-mestre (animado, fica fixo).**
  - *EXEMPLO (template):* "Curso A + B + C + Pacote A + Bônus 1 + Bônus 2 + Experimente 7D + Acesso estendido + Bônus individualizado - TUDO DE R$1.497 POR R$497 (12x69). Clique no botão >>>". cap08: cada componente aparece por clique, o valor cresce na frente da pessoa. *Porquê:* é o slide-mestre que vai ficar na tela durante o Q&A, o stack revelado item a item parece maior do que a soma.
@@ -361,7 +363,7 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
 
 → Falas verbatim: **`exemplos-por-bloco/12-escassez-urgencia-cta.md`** (CTA, cartão na mão) + **`exemplos-por-bloco/13-qa-objecoes.md`** (Q&A) + `objection-annihilation.md`. Roteiro: blocos 4.10–4.18; pós-webinar é capacidade da soft-webinar. Render: `fechamento`, `frase`, `prova`.
 
-- **S66: "Abre as vagas!" com muita energia: o botão nasce no pico, nunca num vale.**
+- **S66: "Abre o link!" com muita energia: o botão nasce no pico, nunca num vale.**
   - *Função:* CTA físico no pico emocional; cartão na mão ANTES do link (elimina o atrito que mata o impulso).
  - *EXEMPLO (gestão/GA, → bloco 12):* "enquanto eu tô abrindo aqui, **já vai pegando o seu cartão**, já vai abrindo o cartão virtual no celular - porque se você perde tempo digitando número de cartão, você perde os 15 primeiros." *Porquê:* fazer a sala abrir o cartão antes do link existir converte intenção em ação motora, quando o link cai, o corpo já está no meio da compra, sem janela pra racionalizar.
 
@@ -380,8 +382,8 @@ Cada beat abaixo traz quatro coisas, e é a presença das quatro que separa um d
  - *EXEMPLO de objeção invertida (gestão/GA, → bloco 13):* "'gestão ágil não é demandada na minha área' - **e aí que está a grande oportunidade: em terra de cego quem tem olho é rei.**" *Porquê:* a objeção-mãe é invertida em USP no enquadramento do apresentador, antes do cético formular.
   - *EXEMPLO de placar de vendas (gestão/5 Níveis, → bloco 12):* "quem for se inscrevendo, pode colocar nos comentários, até pra outros irem sabendo como está a inscrição." *Porquê:* o chat vira placar de vendas ao vivo, efeito manada. *Slot:* mapear as 3–5 objeções recorrentes do nicho e escrever as respostas como peça fixa.
 
-- **S71: "Te vejo do outro lado": fechamento de pertencimento.**
-  - *EXEMPLO (template):* "te vejo do outro lado." *Porquê:* quem compra cruza pra dentro do grupo, a frase já posiciona a compra como mudança de pertencimento.
+- **S71: a despedida no bordão do dono: fechamento de pertencimento.**
+  - *EXEMPLO (template, bordão daquele dono, nunca decalcado):* "te vejo do outro lado." *Porquê:* quem compra cruza pra dentro do grupo, a frase já posiciona a compra como mudança de pertencimento.
 
 - **S72: Resumo da oferta FIXO + depoimentos + cronômetro encerrando + WhatsApp.**
   - *Função:* a tela de fundo até o último segundo, oferta visível, prazo visível, canal humano visível (captura indecisos pro comercial 1:1 da esteira, M10).

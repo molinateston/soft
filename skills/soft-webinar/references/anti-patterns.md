@@ -6,7 +6,7 @@ Abra sempre que uma página falhar no gate linha a linha (P7): acha o sintoma na
 |---|---|
 | Página de cadastro tentando vender o produto | Volta: cadastro só qualifica e gera desejo; venda mora no checkout |
 | Headline "padrão" sem escolher pela temperatura | Escolhe 1 das 4 variações (direta/pergunta/contra-intuitiva/big idea) pelo avatar |
-| Checkout pelado (só botão e preço) | Checkout ENXUTO = cronômetro 5min + "15 primeiros" + garantia + provas (na moeda) + bônus/stack (cada item mata 1 objeção) |
+| Checkout pelado (só botão e preço) | Checkout ENXUTO = cronômetro (só com prazo real do dono) + "N primeiros" (só com o limite real do dono; sem ele, o bloco sai) + garantia + provas (na moeda) + bônus/stack (cada item mata 1 objeção) |
 | Checkout inchado (FAQ, re-explicação, upsell, bio) | Corta tudo isso; o checkout é os 5 blocos só. Cada extra é fricção (lista de corte no Passo 3) |
 | Checkout reexplicando a aula do zero | Quem chegou já decidiu; o checkout abre o caminho, não convence |
 | Stack que só lista, sem ancorar | Cada item com valor avulso + soma riscada acima do preço; cada item mata UMA objeção nomeada |

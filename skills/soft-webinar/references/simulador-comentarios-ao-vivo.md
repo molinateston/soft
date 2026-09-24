@@ -2,7 +2,7 @@
 
 Esta reference define UMA capacidade operacional da skill: **gerar o cronograma de comentários que a plataforma de webinar injeta num perpétuo gravado, simulando uma sala viva de N pessoas, e auditar um webinar pronto pra fechar os buracos de consistência.** O webinar gravado não tem chat ao vivo; sem nada, ele nasce vazio, e "ninguém quer ser o primeiro" a comentar. A plataforma (EverWebinar, WebinarKit) tem um campo de chat simulado que dispara mensagens por timestamp; o que faltava era a skill produzir o conteúdo desse campo com método: volume certo, colocação estratégica, falas naturais brasileiras, e zero contradição com o roteiro.
 
-> **A decisão que abre esta reference (corpus estudado, 10/jun):** no perpétuo, a **simulação de comentários É padrão.** Isto SUPERA a nota mais conservadora do `gravacao-energia-ao-vivo.md` (que tratava só comentários reais como padrão e a simulação como variante a validar). O autor do corpus decidiu: a sala simulada é o desenho operacional do perpétuo Soft. A nota de honestidade fica LEVE e precisa: a **escassez/vagas declaradas continuam REAIS** (guarda-corpo G7, sessão de lugares limitados de verdade, contador honesto); os **comentários reproduzem a energia típica que uma sala real daquele tamanho teria** naquele momento da aula. Não se inventa resultado de cliente, não se inventa número de vagas, não se mente estoque. Simula-se a CONVERSA de uma sala, não a PROVA do produto.
+> **A decisão que abre esta reference (corpus estudado, 10/jun):** no perpétuo, a **simulação de comentários É padrão.** Isto SUPERA a nota mais conservadora do `gravacao-energia-ao-vivo.md` (que tratava só comentários reais como padrão e a simulação como variante a validar). O autor do corpus decidiu: a sala simulada é o desenho operacional do perpétuo Soft. A nota de honestidade fica LEVE e precisa: a **escassez/vagas declaradas continuam REAIS** (guarda-corpo G7: limite de sessão só o que o dono confirmou, contador honesto); os **comentários reproduzem a energia típica que uma sala real daquele tamanho teria** naquele momento da aula. Não se inventa resultado de cliente, não se inventa número de vagas, não se mente estoque. Simula-se a CONVERSA de uma sala, não a PROVA do produto.
 
 > **Fronteiras (o que NÃO mora aqui, pra não duplicar):**
 > - **Como GRAVAR com energia** (3 formas de gravar, conduta de sala, eco de chat real, setup): roteiro/gravação = território da **Etapa PLANO/OFERTA (desta skill)**. Aqui é o que entra no chat DEPOIS de a gravação existir.
@@ -115,8 +115,8 @@ densidade
 1. **PRÉ-INÍCIO / abertura (pico de warm-up):** quando o host pede "comente seu nome e de onde está falando" e "hoje como está em relação ao seu problema?", vem a rajada de cidade+nome. É o pico que estabelece "a sala está cheia e viva".
 2. **COMANDOS do host ("digita EU QUERO no chat", "estão curtindo a aula?", "comenta que sim eu quero"):** cada comando do host dispara uma rajada. Na espinha do roteiro o "digita EU QUERO" mora no fim do MECANISMO; o "tá bom pra você?"/"estão curtindo?" aparece na MECANISMO e na TRANSIÇÃO.
 3. **PROVAS / viradas:** reações de identificação ("isso sou eu", "fez sentido"), volume médio. Não exagerar, o conteúdo é o protagonista aqui.
-4. **CARRINHO ABERTO (o MÁXIMO):** quando as vagas abrem e o CTA dispara (bloco OFERTA/Ação e FECHAMENTO). Aqui mora o social proof de compra, a prova de decisão, a objeção que se resolve, o FOMO, e os 1-2 haters neutralizados. É onde a sala simulada trabalha mais duro.
-5. **FECHAMENTO (urgência real):** "corre que tá acabando", "consegui na última vaga". Acompanha o pitch FEAR/FOMO da espinha.
+4. **CARRINHO ABERTO (o MÁXIMO):** quando o link abre e o CTA dispara (bloco OFERTA/Ação e FECHAMENTO). Aqui mora o social proof de compra, a prova de decisão, a objeção que se resolve, o FOMO, e os 1-2 haters neutralizados. É onde a sala simulada trabalha mais duro.
+5. **FECHAMENTO (só a urgência real do dono):** "fechei agora", "consegui entrar". Acompanha o pitch FEAR/FOMO da espinha.
 
 **O vale obrigatório:** no meio do ensino puro (DIAGNÓSTICO/o problema, e o miolo de MECANISMO antes do "EU QUERO"), a densidade CAI. Comentário demais durante a explicação rouba a atenção do conteúdo, que é exatamente o que tem que prender. Deixe o chat quase mudo aqui, com no máximo uma reação esparsa de identificação.
 
@@ -193,12 +193,12 @@ Junto das provas/viradas do host. Validação da tese, SEM inventar resultado de
 
 ### 4.5 CARRINHO ABERTO (o bloco mais estratégico)
 
-Quando as vagas abrem e o CTA dispara. Aqui a sala simulada faz o trabalho pesado. Cinco sub-tipos, todos em ondas:
+Quando o link abre e o CTA dispara. Aqui a sala simulada faz o trabalho pesado. **Só roda com a oferta do dono confirmada no insumo** (preço, bônus, forma de pagamento); sem oferta, o chat para no fim do Mecanismo e o `_notas-operador.md` pergunta ao dono. Cinco sub-tipos, todos em ondas:
 
 **a) Social proof de compra (tipo: `compra`):** a manada visível.
 > EXEMPLO:
 > - "acabei de garantir!! 🎉"
-> - "tô dentro, paguei no pix agora"
+> - "tô dentro, paguei agora"
 > - "garantido aqui, ansiosa pra começar"
 > - "fechei! era isso que eu precisava"
 > - "comprei, bora mudar isso de vez"
@@ -212,7 +212,7 @@ Quando as vagas abrem e o CTA dispara. Aqui a sala simulada faz o trabalho pesad
 **c) Objeção que SURGE e se RESOLVE (tipo: `objeção`):** o movimento mais importante. Uma objeção real aparece no chat e, minutos depois, OUTRO comentário (ou o eco do host) a resolve. Modela a sala derrubando a própria dúvida, sem o host parecer defensivo.
 > EXEMPLO (par técnico, separado por minutos):
 > - [min X] "gente deu erro no meu cartão 😣"
-> - [min X+2] "consegui aqui, era só trocar pra crédito"
+> - [min X+2] "consegui aqui, tentei de novo e foi"
 >
 > EXEMPLO (par de preço, resolvido pela sala/reposicionamento):
 > - [min X] "achei meio puxado o valor"
@@ -220,14 +220,13 @@ Quando as vagas abrem e o CTA dispara. Aqui a sala simulada faz o trabalho pesad
 >
 > EXEMPLO (par de tempo):
 > - [min X] "será que dá tempo? minha rotina é corrida"
-> - [min X+2] "é no seu ritmo, dá pra assistir quando quiser, fechei"
+> - [min X+2] "[a resposta que o insumo do dono dá pra falta de tempo], fechei"
 
-**d) FOMO / pressão de vaga (tipo: `fomo`):** alimenta a escassez REAL (não a inventa).
-> EXEMPLO:
+**d) FOMO (tipo: `fomo`):** só com o limite real que o insumo traz (sem limite, este sub-tipo sai).
+> EXEMPLO (com o limite do dono):
 > - "ainda dá tempo de entrar?"
-> - "quantas vagas restam?"
-> - "corre gente que tá voando"
-> - "consegui uma das últimas 😮‍💨"
+> - "ainda tem [bônus dos N primeiros do dono]?"
+> - "consegui entrar entre os [N do dono] 😮‍💨"
 
 **e) 1-2 HATERS neutralizados (tipo: `hater`):** o ceticismo que toda sala tem, colocado de propósito e NEUTRALIZADO pela comunidade ou pelo eco do host, sem briga, com prova/lógica. Aumenta o realismo (sala sem nenhum cético soa fabricada) e converte o cético da audiência ao ver a dúvida dele respondida.
 > EXEMPLO (hater + neutralização pela sala):
@@ -242,12 +241,11 @@ Régua dos haters: no MÁXIMO 1-2 na aula inteira, sempre resolvidos em 1-3 minu
 
 ### 4.6 Fechamento: urgência real (tipo: `fechamento`)
 
-Acompanha o pitch FEAR/FOMO da espinha ("só temos mais 2 vagas, depois que acabar a aula já era").
+Acompanha o pitch FEAR/FOMO da espinha, com o limite e o prazo que o dono confirmou (sem eles, só decisão, sem corrida).
 > EXEMPLO:
-> - "corre que vi que tá acabando"
-> - "garanti na última hora ufa"
 > - "fechei agora, não ia me perdoar"
-> - "ainda tem vaga?? entrei!"
+> - "entrei, bora"
+> - [só com limite real] "consegui entrar nos [N do dono]"
 
 ---
 

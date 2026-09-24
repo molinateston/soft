@@ -1,5 +1,7 @@
 # Estrutura do webinar: ADMA híbrido (Insta Sniper + Brunson + Fladlien + doutrina Soft)
 
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Um dos quatro arquivos que se dizem o esqueleto da aula (o SKILL.md chama `estrutura-real-webinar.md` de fonte da verdade); se sair, os 16 links que apontam pra cá passam a apontar pra `estrutura-real-webinar.md`. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > **Nota de nomenclatura (decisão do método, framework unificado em ADMA):** este arquivo descreve o **ADMA** (Atenção, Diagnóstico, Mecanismo, Ação). O nome de arquivo "aida" é legado e foi mantido só pra não quebrar os links que apontam pra ele. Onde você ler "aida" no caminho do arquivo, leia ADMA.
 
 > **Quando consultar:** Etapa AULA (E3), produção do roteiro bloco a bloco. Pré-requisito: `fundamentos-pre-roteiro.md` completo.
@@ -105,12 +107,12 @@ Webinar Soft segue **ADMA** (Atenção → Diagnóstico → Mecanismo → Ação
 
 > **No perpétuo, NUNCA simule nomes individuais falsos** (anti-padrão do corpus). O corpusA (o especialista) mostra o caminho honesto: troca o chat ao vivo por **pre-roll de depoimento em loop** que já conta a tese (vilã + contraste numérico + promessa contraintuitiva) antes da abertura, a função "primeiro comportamento + aquecimento" muda de forma, nunca fica sem dono.
 
-### Bloco 0.4: Prova social ao vivo + escassez de sala (30 seg)
+### Bloco 0.4: Prova social ao vivo + escassez de sala (30 seg, só com o dado do dono)
 
-**Modelo [UNIVERSAL]:**
-> "A sala já tem [N] pessoas. Quem sai agora não volta. O número de lugar é fixo. Se você marcou esse horário comigo, fica."
+**Modelo [CONDICIONAL]:**
+> "[Ao vivo: quantas pessoas a sala tem agora, pelo contador real.] [DO DONO: limite real da sala e o motivo, se houver.] Se você marcou esse horário comigo, fica."
 
-> **Tom Soft:** clínico, não apelão. No perpétuo, o "quem sai não volta" é a escassez de sala REAL (sessão com lugares limitados, link individual), não teatro. O contador de pessoas se mantém numa faixa fixa (efeito manada honesto).
+> **Tom Soft:** clínico, não apelão. Número de pessoas, limite de lugar e regra de saída só entram com o dado real da ferramenta e a decisão do dono no insumo; sem eles, o bloco fica só com o convite pra ficar e o `_notas-operador.md` pergunta ao dono.
 
 ### A arquitetura invisível: COMPLIANCE PROGRESSIVA **[UNIVERSAL]**
 
@@ -164,8 +166,8 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 > "Você tem [problema aparente]. Mas o problema real não é [coisa óbvia que ele acha que é]. É [coisa que ele não considerou]. E enquanto você não entender isso, [pior consequência]."
 
 **Exemplos [EXEMPLO, só ilustram a forma]:**
-- "Você acha que precisa de mais seguidores. O problema real não é audiência. É posicionamento. Enquanto você não consertar isso, mais seguidores só te dão mais curiosos que não compram."
-- "Você acha que precisa de mais tráfego pago. O problema real não é alcance. É oferta. Enquanto a oferta não filtrar, todo CPL vai parecer caro."
+- "Você acha que precisa de mais seguidores. O problema real é posicionamento, e a audiência vem depois. Enquanto você não consertar isso, mais seguidores só te dão mais curiosos que não compram."
+- "Você acha que precisa de mais tráfego pago. O problema real é a oferta, antes do alcance. Enquanto a oferta não filtrar, todo CPL vai parecer caro."
 
 **Critério:** se a Premise não causar um "hmm" mental, está fraca. Refaça.
 
@@ -216,7 +218,7 @@ Já nos primeiros ~15 minutos da aula, uma "compra" programada aparece no chat (
 
 **EXEMPLO verbatim de presente-mistério com PUNIÇÃO declarada (webinar de gestão ágil estudado):** *"Fica até o final, que vai ter um presentinho especial. **Eu não vou falar o que é**, você ficar curioso e ficar até o final... eu só vou liberar para quem estiver lá no final aqui online. **Quem sair no meio do caminho não vai nem saber que presente que é**."* E o anti-padrão correspondente: NUNCA revelar o conteúdo do presente, presente revelado = loop fechado = retenção perdida.
 
-**Por que funciona:** "no final eu vou fazer ALGO aqui agora pra essa sala" / "tem um presente pra quem ficar até o fim, não chuta o balde". O open loop é cumprido no fim (é o super-bônus / a oferta especial), segura a audiência até o momento de maior conversão. **Variação no-replay (Aluna 80k):** *"essa aula não vai ter reprise... se você sair desse link, você não vai conseguir reassistir"*, só decalcável se for VERDADE operacional; escassez de consumo inventada contamina a credibilidade de toda escassez posterior.
+**Por que funciona:** "no final eu vou fazer ALGO aqui agora pra essa sala" / "[DO DONO: o presente real, se houver], não chuta o balde". O open loop é cumprido no fim (é o super-bônus / a oferta especial), segura a audiência até o momento de maior conversão. **Variação no-replay (Aluna 80k):** *"essa aula não vai ter reprise... se você sair desse link, você não vai conseguir reassistir"*, só decalcável se for VERDADE operacional; escassez de consumo inventada contamina a credibilidade de toda escassez posterior.
 
 ### Bloco 1.7: Acordo de compromisso (Brunson) (30 seg) **[UNIVERSAL]**
 
@@ -346,7 +348,7 @@ A culpa precisa ir pra ALGUÉM ou ALGO. **Nunca pro universo** (ninguém luta co
 **O que dizer:** nomeia o vilão. Não é gente, é sistema/conceito. Dar um NOME memorável e proprietário cria um vocabulário de tribo que o cliente passa a usar, vira marca.
 
 **Modelo:**
-> "O nome do problema é [Vilão nomeado]. Foi desenhado pra te manter [consumindo/dependente/preso], sem nunca chegar no resultado. Não é teoria. É desenho. Cada peça do sistema atual ganha quando você fica dependente."
+> "O nome do problema é [Vilão nomeado]. Foi desenhado pra te manter [consumindo/dependente/preso], sem nunca chegar no resultado. É desenho de propósito. Cada peça do sistema atual ganha quando você fica dependente."
 
 **EXEMPLO verbatim de vilão batizado em binário (corpusA (o especialista), "dieta burra"):** *"a dieta não era para você, era uma dieta burra que não se adequava ao teu estilo de vida... normalmente eu chamo isso de **dieta burra** porque não se adequa para tua realidade."*, o nome em binário ("dieta burra") já reserva o trono pra "dieta inteligente" (o método). E o vilão pode ser a PRÓPRIA FRASE do avatar: no corpusC (o especialista) o vilão é *"resina é assim mesmo"*, demolida toda vez que reaparece, cada demolição é dedo na ferida sem apontar pra ninguém, o lead se acusa sozinho.
 
@@ -408,7 +410,7 @@ O "o quê" doado inteiro instala "agora eu entendo". O "como fazer na mão" é o
 
 ### Como ENSINAR o conteúdo pra vender (a batida de 4 tempos) **[UNIVERSAL: joia da skill]**
 
-> **A ORDEM do Mecanismo NÃO é "3 viradas".** Invenção purgada. O Mecanismo segue a sequência real de `estrutura-real-webinar.md` (Fase M): prático → nova oportunidade + estreia do nome → fundamento/condições → tabela de superioridade + head-to-heads → batismo + prova-meta → Schwartz → IA como capacidade → 3 passos → quadro-síntese → recap yes-ladder. O que segue aqui é só a TÉCNICA de ensinar CADA afirmação dessa sequência.
+> **A ORDEM do Mecanismo NÃO é "3 viradas".** Invenção purgada. O Mecanismo segue a sequência real de `estrutura-real-webinar.md` (Fase M): prático → nova oportunidade + estreia do nome → fundamento/condições → tabela de superioridade + head-to-heads → batismo + prova-meta → lastro externo (só o que o dono citou) → capacidade ou ferramenta do dono (só a que ele tem) → 3 passos → quadro-síntese → recap yes-ladder. O que segue aqui é só a TÉCNICA de ensinar CADA afirmação dessa sequência.
 
 > **→ Falas verbatim do corpus pra ESTA fase de conteúdo: `exemplos-por-bloco/06-viradas-conteudo.md`** (9 de 9, é o trecho MAIS LONGO do webinar em todos, tipicamente 30-50% da duração). É lá que mora a evidência do "gancho do braçal" verbalizado.
 
@@ -608,7 +610,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ### Bloco 4.3: A ENCRUZILHADA: dividir a plateia em 2 grupos (1-2 min) **[UNIVERSAL]**
 
-> **→ A versão eloquente desta jogada está em `fladlien-modelo.md` (§3):** a transição em 3 movimentos (recap de 60s, yes momentum, two choices). A two-choices do Fladlien é a articulação mais bem-acabada destes "2 caminhos", concedendo a competência com respeito antes de abrir a porta da oferta. O slide-modelo é a fonte da forma; aquela reference mostra o teto da técnica.
+> **→ A versão eloquente desta jogada está em `shared-references/venda-fladlien/fechamentos.md` §2 (antes em `fladlien-modelo.md` §3):** a transição em 3 movimentos (recap de 60s, yes momentum, two choices). A two-choices do Fladlien é a articulação mais bem-acabada destes "2 caminhos", concedendo a competência com respeito antes de abrir a porta da oferta. O slide-modelo é a fonte da forma; aquela reference mostra o teto da técnica.
 
 **O que é:** o fechamento binário que faz a audiência PEDIR o pitch. Transforma "comprar / não comprar" em "**que tipo de pessoa eu sou**".
 
@@ -667,7 +669,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 > **PERGUNTA-CHAVE (stack):** "x10 do preço valeria a pena pra ter essa transformação?" **PERGUNTA-CHAVE (queda):** "quanto isso vale pra você?"
 > **ESTADO ALVO:** avaliando → percebendo valor muito maior que o preço; medo do preço → "estou levando vantagem".
 
-1. **Stack empilhado**, cada item com valor avulso ANTES de virar bônus; itens anteriores ficam VISÍVEIS na tela (a pilha cresce). **Bônus que valem mais que o produto.** **Bônus SEM preço** ("meu [recurso pessoal] eu não vendo pra ninguém"). **Acesso estendido como PERDA** (dá 1 ano, anuncia "6 meses + 6 só hoje"). Evita a palavra "bônus" batida em nichos saturados ("não é só isso, te dou também esse OUTRO [recurso]").
+1. **Stack empilhado**, cada item com valor avulso ANTES de virar bônus; itens anteriores ficam VISÍVEIS na tela (a pilha cresce). **Bônus que valem mais que o produto.** **Bônus SEM preço** ("meu [recurso pessoal] eu não vendo pra ninguém"). **Acesso estendido como PERDA** (dá o acesso real, anuncia parte dele como condição da sessão, só quando o dono confirmou essa condição). Evita a palavra "bônus" batida em nichos saturados ("não é só isso, te dou também esse OUTRO [recurso]").
 2. **Dupla ancoragem**, custo invisível (o que ele JÁ PERDE não agindo) vs soma do stack / concorrente caro (o que ele GANHA agindo). **Regra de discernimento:** perda presente pesa mais que ganho prometido pro avatar maduro; use custo invisível quando o ticket é baixo ou o stack ancora fraco. (Detalhe em `frameworks-proprietarios.md` §5.)
 3. **"Se tudo"**, cadeia de SIMs antes do preço, o cliente justifica o preço sozinho ("se isso te desse [X], valeria? Comenta").
 4. **Queda de preço em degraus, cada degrau com REASON-WHY narrativo**, desconto sem motivo "parece balela / produto ruim".
@@ -704,7 +706,7 @@ Nunca venda **melhoria** ("faça melhor o que você já faz"). Melhoria dói: ex
 
 ### Bloco 4.12: CTA Gain (1 min) **[UNIVERSAL]**
 
-> "Se você quer [resultado em 90 dias com o método], clica no link agora. Acesso imediato. Imagina daqui [90] dias: [cena concreta de transformação]."
+> "Se você quer [resultado que o dono comprova, no prazo que ele comprova], clica no link agora. Acesso imediato. Imagina [cena concreta de transformação, sem prazo que o insumo não dê]."
 
 ### Bloco 4.13: Anti-fuga: entrega sem fricção (30 seg) **[UNIVERSAL]**
 
@@ -848,7 +850,7 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 - [ ] Produto apresentado por benefício/jornada, não por horas/módulos
 - [ ] Stack/ancoragem/queda/escassez amarrados (detalhe em `exemplos-por-bloco/10-ancoragem-preco.md`)
 - [ ] Garantia que inverte o risco escrita
-- [ ] 5 perguntas plantadas pro Q&A com respostas (`objection-annihilation.md`)
+- [ ] Q&A escrito: uma resposta por objeção da lista-mestra, no molde de 3 passos (`objection-annihilation.md`)
 - [ ] CTA Gain + Logic + Fear; fechamento por identidade + custo da inação
 - [ ] Distribuição das fases segue a consciência do público (entrevista); fechamento NÃO encurtado
 - [ ] Máquina de pós-webinar pronta (capacidade da soft-webinar)
@@ -872,7 +874,7 @@ Depois do roteiro pronto, passa pelas 5 camadas:
 - `motor-3-viradas.md`, a batida de 4 tempos (valor real → o quê → gancho do braçal → atalho) e a objeção-mãe. Joia central; este ADMA só aponta.
 - `frameworks-proprietarios.md`, 6 passos da Transmutação Mental, persona-âncora, 6º nível de consciência, prova matemática do negócio, custo invisível.
 - `exemplos-por-bloco/10-ancoragem-preco.md` + `frameworks-proprietarios.md` §5, dupla ancoragem e regra de discernimento, "se tudo", queda com reason-why, "combinado não sai caro", reduzir ao ridículo, escassez visível.
-- `objection-annihilation.md`, Q&A planted, objeção-mãe como categoria-rainha, desejo oculto, banco de objeções, FAQ final.
+- `objection-annihilation.md`, Q&A escrito no molde de 3 passos, objeção-mãe como categoria-rainha, desejo oculto, FAQ final (os movimentos por tipo de objeção em `shared-references/venda-fladlien/objecoes.md`).
 - **Pós-webinar (na soft-webinar):** lead quente = quem viu a oferta, segmentação por % assistido → tags → comercial por faixa de ticket, checkout vs aplicação, rede de captura pra esteira.
 - **Perpétuo (na soft-webinar):** validação ao vivo → perpetuar, 4 horários, ROAS não CPL, escala horizontal, jogo avançado.
 - **Anúncios (na soft-webinar):** 5 ganchos de curiosidade, título-fórmula, escala horizontal (1 webinar novo/semana).

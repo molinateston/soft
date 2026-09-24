@@ -54,12 +54,12 @@ Saída real: `02-oferta.md`. Resumo da stack fictícia:
 | Bônus: Sala mensal de dúvidas por 6 meses | encontro ao vivo | bônus | 1.200 |
 
 - **Soma riscada na tela:** ~~8.494~~
-- **Preço da sala:** 1.497 à vista, ou 12 parcelas de 149.
+- **Preço da oferta:** 1.497 à vista, ou 12 parcelas de 149.
 - **Bônus-âncora:** o Diagnóstico de Caixa (3.000) vale mais que o programa (2.400). É ele que carrega a decisão.
 - **15 primeiros, em camadas:** turma inteira leva os 2 bônus de conteúdo · os 15 primeiros levam o Diagnóstico feito com ela · os 10 primeiros levam mais uma sessão de revisão aos 60 dias.
-- **2 moedas separadas:** o desconto (de 2.497 pra 1.497) é da sessão inteira. O bônus dos 15 primeiros é da rapidez. Nunca se misturam na fala.
+- **2 moedas separadas:** o desconto (de 2.497 pra 1.497) é o preço da aula, sem prazo, porque a dona não deu motivo pra prazo. O bônus dos 15 primeiros é da rapidez. Nunca se misturam na fala.
 - **Garantia:** 30 dias, incondicional, mais a garantia de execução, se ela montar os 3 envelopes e não achar dinheiro parado, devolve e fica com a planilha.
-- **Canal:** abaixo de 3 mil, fecha no checkout. Sem call.
+- **Canal:** preço R$1.497 contra a régua de ~R$3.000 (a dona não declarou outra): fica abaixo, fecha no checkout. Sem call.
 
 ---
 
@@ -108,9 +108,9 @@ pra mostrar o formato: **TÍTULO + OBJETIVO + CONTEÚDO**, e cada linha do conte
 - Conteúdo:
   - Tudo o que você viu hoje está montado dentro do Clínica no Azul.
   - Somando peça por peça, isso dá 8.494 reais.
-  - Hoje, nesta sala, entra por 1.497 à vista ou 12 de 149.
+  - Entra por 1.497 à vista ou 12 de 149.
 
-**Timestamp da oferta emitido no fim do doc:**
+**Timestamp da oferta, em `_notas-operador.md` (fora do roteiro):**
 - Link/carrinho abre aos **minuto 58 do roteiro**.
 - Marcos de retenção: 12 (fim da abertura) · 31 (fim do mecanismo) · 52 (transição pra venda) · 58 (oferta) · 74 (fim do Q&A).
 
@@ -122,11 +122,11 @@ Saída real: 3 arquivos, um por página. Aqui só o esqueleto da de **cadastro**
 
 - **Chapéu:** Aula gratuita e online, pra dona de clínica.
 - **Headline:** A sua clínica fatura bem e o mês fecha no vermelho. O dinheiro não sumiu, ele está no lugar errado.
-- **Sub:** Em 75 minutos eu mostro o Método dos 3 Envelopes, a separação de caixa que faz aparecer dinheiro que já é seu.
+- **Sub:** Em [duração que a dona deu] eu mostro o Método dos 3 Envelopes, a separação de caixa que faz aparecer dinheiro que já é seu.
 - **3 bullets de promessa:** onde o dinheiro da clínica se esconde · o número de corte de cada envelope · por que a planilha genérica sempre morre.
-- **CTA único:** Quero minha vaga na aula. (Um objetivo, um botão, nenhuma outra saída na página.)
+- **CTA único:** Quero assistir à aula. (Um objetivo, um botão, nenhuma outra saída na página.)
 - **Formulário:** nome, WhatsApp, e-mail. Nada além disso.
-- **Escassez honesta:** sessão com sala limitada, e o horário mais próximo na tela.
+- **Escassez:** o insumo não traz limite de sala; a página mostra só o horário mais próximo, e o `_notas-operador.md` pergunta à dona se existe limite real e por quê.
 - **Última dobra, bio curta:** quem apresenta, em 4 linhas, com a prova de autoridade da Etapa 1.
 
 ---
@@ -136,15 +136,15 @@ Saída real: 3 arquivos, um por página. Aqui só o esqueleto da de **cadastro**
 Saída real: as 3 réguas inteiras (antes, durante, pós) mais a máquina de tags. Aqui 3 mensagens:
 
 **1. Confirmação, dispara no cadastro. WhatsApp.**
-> Oi [nome], sua vaga está confirmada pra [dia] às [hora]. Anota aí, a aula é ao vivo na sala e o link chega 5 minutos antes por aqui mesmo. Uma pergunta pra eu preparar o exemplo certo: quantas pessoas trabalham na sua clínica hoje?
+> Oi [nome], sua inscrição está confirmada pra [dia] às [hora]. Anota aí, a sala abre no horário que você escolheu e o link chega 5 minutos antes por aqui mesmo. Uma pergunta pra eu preparar o exemplo certo: quantas pessoas trabalham na sua clínica hoje?
 > `tag: cadastrou` · `roteamento: quem responder vira lead engajado`
 
 **2. Volta pra sala, dispara 20 minutos depois da oferta abrir, só pra quem saiu antes do minuto 58.**
-> [nome], você saiu bem na hora em que eu abri o Diagnóstico de Caixa. A gravação sai do ar hoje às 23h59. Volta em [link] e assiste dos 58 minutos, são 6 minutos.
+> [nome], você saiu bem na hora em que eu abri o Diagnóstico de Caixa. [Só com a política de gravação que a dona decidiu, em uma linha.] Volta em [link] e assiste dos 58 minutos, são 6 minutos.
 > `tag: 25-75 · nao viu a oferta` · `roteamento: nutrir com o bloco de mecanismo`
 
 **3. Last call, dispara 3h antes do fechamento, pra quem viu a oferta e não comprou.**
-> [nome], as 15 vagas com o Diagnóstico feito comigo fecham hoje às 23h59. Depois disso o programa continua, o Diagnóstico não. Se ficou alguma dúvida, me responde aqui em uma linha que eu respondo pessoalmente.
+> [nome], [DO DONO: o limite e o prazo reais do Diagnóstico, com o motivo; o insumo não traz, então esta linha fica em aberto e a pergunta vai ao `_notas-operador.md`]. Se ficou alguma dúvida, me responde aqui em uma linha que eu respondo pessoalmente.
 > `tag: viu a oferta · nao comprou` · `roteamento: quem responder é quente, vai pro 1:1`
 
 **Marcos de % assistido cravados a partir do timestamp da Etapa 3:** não veio · 0-25 (até o min 18) ·

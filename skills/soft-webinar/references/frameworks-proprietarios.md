@@ -15,7 +15,7 @@ Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia**
 **A fala-modelo (exemplos para adaptar à voz do usuário):**
 > "A solução que ela escolheu virou o novo problema dela."
 
-> "O Schwartz parou no nível 5. Mas existe um nível depois. O nível onde a própria solução que a pessoa comprou virou a dor dela. É o problema avançado."
+> "[A fonte que o dono cita] parou no nível 5. Mas existe um nível depois. O nível onde a própria solução que a pessoa comprou virou a dor dela. É o problema avançado."
 
 > "Ela não tem mais só escoliose. Ela tem o RPG. Esse é o 6º nível, o que ninguém vende."
 
@@ -30,9 +30,9 @@ Cinco frameworks que **não saem da estrutura ADMA padrão nem da bibliografia**
 
 O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega o nível ao avatar: "Você não [fatura/resolve] pouco porque é ruim. Você [fatura/resolve] pouco porque está carregando peso demais, peso que te venderam e chamaram de estratégia." É absolvição e alívio ao mesmo tempo: a culpa não é dele, é da solução errada que ele comprou.
 
-**Como usar como bloco do webinar.** É a coluna da Virada 1, na ponte Diagnóstico para Mecanismo. A sequência ao vivo:
-1. Sobe os 5 níveis em voz alta, dando o exemplo de cada. Crava que não é teoria sua: "a primeira aula de marketing do mundo, Eugene Schwartz, 1966."
-2. Deixa a sala errar pra baixo (acham que o cliente está no nível 1 ou 2). Abre o loop: "tem um nível que o Schwartz nem chegou a nomear, que é onde mora o dinheiro de verdade."
+**Como usar como bloco do webinar.** É a coluna da Virada 1, na ponte Diagnóstico para Mecanismo, e só entra quando o dono usa este framework no insumo; autor externo só vai pra tela quando o dono o cita. A sequência ao vivo:
+1. Sobe os 5 níveis em voz alta, dando o exemplo de cada. Crava que não é teoria sua, com a fonte que o dono cita: "[autor e obra que o dono usa]".
+2. Deixa a sala errar pra baixo (acham que o cliente está no nível 1 ou 2). Abre o loop: "tem um nível que [a fonte do dono] nem chegou a nomear, que é onde mora o dinheiro de verdade."
 3. Ensina o framework 2 (dor não é problema, abaixo) com a escoliose.
 4. Punch numa frase isolada e com pausa longa: "a solução que ela escolheu virou o novo problema dela."
 5. Encena o problema avançado em primeira pessoa, baixo.
@@ -61,7 +61,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 **A fala-modelo:**
 > "Dor não é o problema. Sintoma é o que ela sente. Problema é a causa estrutural."
 
-> "Quase todo especialista vende pra dor. Dor nas costas. E perde, porque tem 180 vendendo a mesma dor."
+> "[Quem o dono vê no nicho dele] vende pra dor. Dor nas costas. E perde, porque tem [quantos o dono conta no nicho, ou 'um monte de gente'] vendendo a mesma dor."
 
 > "comida é sintoma; mexer no prato é podar a folha de uma planta cuja raiz ninguém olhou." (exemplo de outro nicho, emagrecimento)
 
@@ -76,7 +76,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 
 ## 3. A conta do filtro como cascata aritmética ao vivo
 
-**O que é.** Provar o posicionamento com **matemática feita na frente da audiência**: 200, 20, 17, R$ 50.000/mês. Não é "tenha menos clientes" como conselho; é uma conta conduzida passo a passo que termina com o avatar percebendo que o negócio inteiro dele cabe num guardanapo. A tese: **"200 pessoas não é problema de volume. É problema de filtro."**
+**O que é.** Provar o posicionamento com **matemática feita na frente da audiência**: 200, 20, 17, R$ 50.000/mês. Não é "tenha menos clientes" como conselho; é uma conta conduzida passo a passo que termina com o avatar percebendo que o negócio inteiro dele cabe num guardanapo. A tese: **"200 pessoas pedem filtro, e volume nenhum resolve isso."**
 
 **O mecanismo (a cascata, lida nas duas direções):**
 - **A meta:** R$ 50.000/mês. "É menor do que o mercado te fez acreditar que precisa ser."
@@ -85,7 +85,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 - **Que saem de ~200 interessados certos.** "De cada 200 interessados certos, uns 10% viram conversa real. O jogo é filtrar os certos, não juntar multidão."
 
 **A fala-modelo:**
-> "200 pessoas não é problema de volume. É problema de filtro."
+> "200 pessoas pedem filtro, e volume nenhum resolve isso."
 
 > "quer faturar 50 mil por mês? Com uma proposta bem posicionada de 3 mil pra cima, são dezessete clientes no mês. Não duzentos, não dois mil. Dezessete."
 
@@ -117,7 +117,7 @@ O usuário faz a mesma lista pro nicho dele e batiza a soma. A fala que entrega 
 - **O histórico de derrota:** "Já emagreceu 10 kg duas vezes na vida. Voltou tudo nas duas, com juros."
 - **A cena privada:** "À noite, quando a casa dorme, visita o armário escondida e deita com raiva de si mesma. Ninguém vê essa cena, mas é a cena que manda na vida dela."
 - **A mentira que ela conta pra si:** "Segunda eu volto, só preciso de foco." É a frase que adia a vida dela há anos.
-- **O que ela quer de verdade:** "Não é o número da balança. É nunca mais ter que recomeçar. É comer o bolo na festa do filho sem fazer conta de calorias na cabeça. É paz, não peso."
+- **O que ela quer de verdade:** "Não é o número da balança. É nunca mais ter que recomeçar. É comer o bolo na festa do filho sem fazer conta de calorias na cabeça. O que ela ganha é paz."
 
 **A fala-modelo:**
 > "Posicionamento parece teoria até virar gente. Deixa eu construir uma cliente real na frente de vocês, do jeito que o sistema faz. O nome dela é Cláudia."

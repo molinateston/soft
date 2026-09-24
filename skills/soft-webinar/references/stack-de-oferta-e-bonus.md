@@ -55,7 +55,7 @@ Tres classes de item, deliberadamente separadas. **A separacao E a ancoragem** (
 |---|---|---|---|---|
 | **MODULOS / PASSOS** | os passos dentro do produto-nucleo (o veiculo) | pelo que a pessoa VIRA, nunca pelo numero | nao (sao o que voce compra) | a transformacao em etapas (a escada de identidade) |
 | **CURSOS / prateleira** | treinamentos COMPLEMENTARES, cada um vendavel separado | nome proprio + beneficio; **NUNCA chamado de "bonus"** → "outro curso", "outro treinamento" | **SIM**, preco real, avulso, checavel | somar a ancora COM credibilidade |
-| **BONUS** (o "Mastercard" da escola do webinar de conversao) | UM unico item, o de maior valor, que so o player consegue gerar | a palavra "bonus" fica RESERVADA so pra ele | **NAO** (de proposito) | pico de valor que ESCAPA da regua numerica |
+| **BONUS** (o "Mastercard" da escola do webinar de conversao) | UM unico item, o de maior valor, que so o player consegue gerar | a palavra "bonus" fica RESERVADA so pra ele (salvo quando o dono ja chama os itens de bonus: o nome dele manda) | **NAO** (de proposito) | pico de valor que ESCAPA da regua numerica |
 
 Falas literais da escola do webinar de conversao sobre por que os complementares NAO sao chamados de "bonus":
 > *"ao inves de falar 'esse curso aqui tem esses bonus', eu faco diferente... eu estou mostrando a minha prateleira. E esses produtos custam tanto cada um."*
@@ -64,7 +64,7 @@ Falas literais da escola do webinar de conversao sobre por que os complementares
 o autor do corpus radicaliza: evita ate a palavra "bonus" pros complementares (*"ela ta batida"*) → *"te dou esse OUTRO curso."*
 
 **Regra de NUMERACAO (cuidado, nao e "Curso 1, Curso 2"):**
-- Os MODULOS do nucleo sao numerados, mas **nomeados pelo que a pessoa vira**: gestao agil = "Iniciante → Agilista → Gerente Agil → Executivo Agil"; a escola do webinar de conversao, no nicho de emprego = "Curriculo Lapidado / LinkedIn Valioso / Networking Especial / Entrevista Brilhante"; o autor do corpus NAO usa numero, usa os 3 passos do proprio mecanismo (O Argumento · A Sala · A Maquina).
+- Os MODULOS do nucleo sao numerados, mas **nomeados pelo que a pessoa vira**: gestao agil = "Iniciante → Agilista → Gerente Agil → Executivo Agil"; a escola do webinar de conversao, no nicho de emprego = "Curriculo Lapidado / LinkedIn Valioso / Networking Especial / Entrevista Brilhante"; o autor do corpus usa os 6 modulos do canonico, com os nomes de la (Planejamento, Reorganizacao da Percepcao, Scripts e Slides, Gravacao e Configuracao, Automacoes e Anuncio, Escala e Amplificadores).
 - Os CURSOS da prateleira sao por NOME, nunca "Curso 1/2/3": "Mapa do Curriculo", "OKR Coach", "Design Thinking".
 - **Regra dura:** descrever produto por "120 aulas, 12 modulos, 64 horas" virou argumento CONTRA. O avatar maduro le "120 aulas" e pensa "nunca vou assistir tudo isso". Cada modulo = um PASSO nomeado pelo resultado + uma headline de beneficio + uma prova propria.
 
@@ -78,7 +78,7 @@ A pilha exata do gestao agil, na ordem em que entra, com o tipo de cada item e P
 |---|---|---|---|---|
 | 1 | **Formacao Gestao Agil 2.0** (7 modulos + modulo extra de carreira, 64h, ~180 aulas) | nucleo | R$3.000 (ancora) | o destino: virar "o gestor do futuro", disputado e bem pago |
 | 2 | **Modulo extra de Carreira** (dentro do nucleo) | passo-climax | (incluso) | ataca o desejo REAL (emprego/salario), nao a tecnica: *"escolher onde quer trabalhar e quanto quer ganhar"* |
-| 3 | **Mentoria/acompanhamento quinzenal ao vivo, 12 meses** | acompanhamento | **R$9.100** (maior que o nucleo) | "e se eu travar/ficar sozinho?", encontro a cada 15 dias com ele/socio/tutores |
+| 3 | **Mentoria/acompanhamento quinzenal ao vivo, 12 meses** | acompanhamento | **R$9.100** (maior que o nucleo) | "e se eu empacar/ficar sozinho?", encontro a cada 15 dias com ele/socio/tutores |
 | 4 | **12 meses de acesso** ("reve quantas vezes precisar") | atrito logistico | (incluso) | "e se eu nao tiver tempo de fazer agora?" |
 | 5 | **Suporte diario** | atrito logistico | (incluso) | "vou ter ajuda no meio do caminho?" |
 | 6 | **Tutores ex-alunos** (cases de sucesso) | acompanhamento | (incluso) | "quem me responde sabe do que fala?" |
@@ -136,6 +136,8 @@ Os modulos do nucleo nunca sao "topicos": sao DEGRAUS de quem a pessoa vira. O g
 
 # PARTE II, OS BONUS DE 15 PRIMEIROS (fast-action / acao rapida)
 
+> Tudo nesta parte e o desenho do gestao agil, com o limite e os precos daquele dono. Na entrega, a camada so existe com o limite e os bonus que o insumo do dono traz; sem eles, sai e vira pergunta ao dono.
+
 ## 6. O que sao e por que sao VARIOS
 
 Os bonus de "15 primeiros" sao uma CAMADA SEPARADA da stack, liberada so pra quem se inscreve AGORA, durante a live/sessao. No gestao agil sao **TRES (as vezes mais)**, nao um so:
@@ -164,7 +166,7 @@ Ou seja: **turma inteira leva o desconto → 15 primeiros levam 2 cursos → 10 
 Misturar as duas mata as duas. A queda de preco (R$3.000 → R$165/mes) e pra TODO MUNDO que ficou ate o fim, ninguem pode sentir que perde o preco bom por chegar em 16o. A corrida e SO pelos bonus extras. Assim a urgencia de comprar nao briga com a urgencia de comprar AGORA.
 
 ### 7.3 A escassez VERIFICAVEL na tela (gamificada)
-A vaga aparece confirmada na tela do comprador, nao so na boca do host:
+O limite aparece confirmado na tela do comprador, nao so na boca do host:
 > *"quando voce clicar no link, vai aparecer ali pra voce: parabens, voce esta entre os 15 primeiros. O nosso sistema identifica, ta programado, conforme as pessoas vao se inscrevendo vai contando."*
 
 E a contagem narrada ao vivo vira corrida sonora:
@@ -177,7 +179,7 @@ A corrida dos 15 cria urgencia mas PUNE o 16o, que pensa "perdi os bonus, deixa 
 **A lei:** escassez que pune o perdedor mata a fila; escassez COM rede converte a fila inteira (o 16o, o 40o, o 200o ainda compram).
 
 ### 7.5 Plantar a corrida CEDO (1h antes do pitch)
-A nocao de "se nao agora, eu perco" nao espera a oferta. autor do corpus: *"la nos primeiros 12-15 minutos da aula ja rola uma 'compra' programada, pra dar a sensacao de movimento desde cedo."* Quando chega na oferta, a pessoa ja sabe que tem gente comprando e que vaga acaba. (No perpetuo, isso e o chat simulado plantando a compra dos 15 primeiros cedo.)
+A nocao de "se nao agora, eu perco" nao espera a oferta. autor do corpus: *"la nos primeiros 12-15 minutos da aula ja rola uma 'compra' programada, pra dar a sensacao de movimento desde cedo."* Quando chega na oferta, a pessoa ja sabe que tem gente comprando e que o limite acaba. (No perpetuo, isso e o chat simulado plantando a compra cedo, so com a oferta e o limite que o dono confirmou.)
 
 ## 8. O bonus surpresa personalizado (o "por que AGORA", solto DEPOIS do preco)
 Alem dos cursos-bonus, existe UM bonus desenhado desde ja, **nao anunciado**, solto DEPOIS do preco e ANTES de liberar o botao. Tres tracos: **personalizado + escasso (so os N primeiros) + surpresa.**
@@ -190,41 +192,32 @@ Alem dos cursos-bonus, existe UM bonus desenhado desde ja, **nao anunciado**, so
 
 # PARTE III, A APLICACAO NO CORPUS (o molde gestao agil vestido no produto do dono)
 
-## 9. A stack do corpus estudado hoje (e o que falta pra ficar identica ao molde)
+## 9. A stack do corpus estudado hoje (so o que o canonico do autor traz)
 
-O autor do corpus segue a logica (3 passos do nucleo primeiro, depois a prateleira, so entao o bonus sem preco), mas a stack dele e mais ENXUTA que a do gestao agil. Versao do roteiro gravavel:
+Fonte: `CANONICO-WEBINAR-LEO.md` §7 e §8. Os tres passos de nome inventado no deck antigo, a prateleira com preco avulso e a soma de R$2.182 sairam: nao estao no canonico. O nucleo sao os 6 modulos, com os nomes do canonico, sem preco avulso ate o autor dar.
 
 | Item | Classe | Avulso | Mata a objecao |
 |---|---|---|---|
-| **O Argumento** | modulo (passo 1) | R$397 | "nao sei o que falar nem em que ordem" |
-| **A Sala** | modulo (passo 2) | R$297 | "nao sei gravar, vai ficar amador" |
-| **A Maquina** | modulo (passo 3) | R$497 | "eu travo na parte tecnica" |
-| Plano dos 30 dias | curso prateleira | R$197 | "e agora por onde comeco" |
-| Acervo pronto (swipes) | curso prateleira | R$297 | "nao tenho tempo de montar tudo" |
-| Acompanhamento | curso prateleira | R$497 | "e se eu empacar no meio" |
-| **SOMA (ancora auditavel)** | | **R$2.182** | (~2,2x o preco final) |
-| **Swipe de webinarios BR+EUA** | BONUS (Mastercard, sem preco) | sem preco | "nao tenho um modelo que funciona" |
+| 1) Planejamento | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| 2) Reorganizacao da Percepcao | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| 3) Scripts e Slides | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| 4) Gravacao e Configuracao | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| 5) Automacoes e Anuncio | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| 6) Escala e Amplificadores (extra) | modulo | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
+| A IA 27 Soft Skills | dentro do produto, nunca bonus | [A CONFIRMAR COM O AUTOR] | [A CONFIRMAR COM O AUTOR] |
 
-> Variante canonica do deck: ancora R$3.500, stack de bonus ~R$13k, 12x R$155 / R$1.497 a vista. Bonus (15 primeiros) listados no CANONICO: Webinar Skills, Frameworks, Masterclass de Trafego, High-ticket com Webinar, Webinar que serve o Feed, Engenharia de Ofertas (Palacio Real), Gestao Agil no Digital, Swipe File BR+EUA. Garantia 90+90.
+> Oferta do CANONICO: ancora R$3.500, R$1.497 a vista ou 12x R$154,62 (a parcela soma R$1.855,44, acima do a vista: nunca riscar o a vista pra revelar a parcela). Bonus (15 primeiros, sem prazo de sessao no canonico): Webinar Skills, Frameworks, Masterclass de Trafego, High-ticket com Webinar, Webinar que serve o Feed, Engenharia de Ofertas (Palacio Real), Gestao Agil no Digital, o arquivo de webinarios validados BR+EUA (nome em ingles no original). A objecao que cada bonus mata so com a fala do autor. Garantia 90+90.
 
-**O que o autor do corpus JA TEM do molde:**
-- 3 passos do nucleo = espelham 1:1 o que ele ensinou de graca (oferta = aula reembalada). ✓
-- Bonus sem preco (o Mastercard), o Swipe de webinarios que ele "nao vende pra ninguem". ✓
-- Camada de bonus dos 15 primeiros (a lista de 8 no CANONICO). ✓
-- Garantia 90+90 (mais forte que a do gestao agil, que nao tem garantia formal). ✓
-- Prova-meta (arma que o gestao agil NAO tem): o webinar prova o webinar. ✓
-
-**O que o autor do corpus PODE COPIAR do molde gestao agil (municao disponivel, ainda nao usada):**
-1. **O bonus-ancora MAIOR que o produto** (a mentoria R$9.100 sobre o curso R$1.997). Hoje a stack do corpus estudado nao tem nenhum item que sozinho valha mais que o nucleo, o acompanhamento poderia virar isso ("uma sala de otimizacao de 6 meses que eu venderia por R$X").
-2. **As DUAS moedas separadas explicitas** (desconto pra todos / bonus pros 15 primeiros), o gestao agil deixa cristalino; vale o autor do corpus separar igual.
-3. **O ativo proprietario que cresce com a base** (o Drive de 14 mil alunos). O equivalente Soft seria um acervo de webinarios/scripts validados que cresce com cada cliente.
-4. **A pergunta hipotetica antes de cada item** ("Imagina ter X. Seria bacana? Custa R$Y. Voce nao vai pagar nada.").
-5. **A cadeia de prints de "reduzir ao ridiculo"** (iFood/Coca), o autor do corpus ainda nao usou; e municao no irmao `_OFERTA-ANCORAGEM-PROVA.md` §C.7.
+**O que o autor do corpus PODE COPIAR do molde gestao agil (a decidir com ele):**
+1. **O bonus-ancora MAIOR que o produto** (a mentoria R$9.100 sobre o curso R$1.997). `[A CONFIRMAR COM O AUTOR: existe item que sozinho valha mais que o nucleo]`.
+2. **As DUAS moedas separadas explicitas** (desconto pra todos / bonus pros 15 primeiros).
+3. **A pergunta hipotetica antes de cada item** ("Imagina ter X. Seria bacana? Custa R$Y. Voce nao vai pagar nada."), com o valor que o autor der.
+4. **A reducao ao ridiculo com print do cotidiano**, com o objeto que o autor der.
 
 **O guarda-corpo Soft (o que NAO copiar do gestao agil):**
 - O gestao agil resolve dores de CLT (vagas, certificado, plano de carreira, mural de empregos). O avatar do corpus estudado e DONO de negocio, os itens da stack tem que matar os modos de fracasso DELE (nao implementar, nao ter audiencia, empacar na parte tecnica, nao ter modelo que funciona), nao os do CLT.
-- Numeros so checaveis: o autor do corpus recusou a ancora-padrao de 10x (R$9.970) porque os componentes nao custam isso de verdade. **Numero checavel > numero grande**, a soma R$2.182 e auditavel, a de R$16.594 do gestao agil so funciona porque cada pedaco la e crivel naquele nicho.
-- Tom clinico, nunca de palco. A escassez e honesta (15 = capacidade real), a garantia cobre o resultado do metodo (nao a decisao de aplicar).
+- Numeros so checaveis: **Numero checavel > numero grande**; a soma de R$16.594 do gestao agil so funciona porque cada pedaco la e crivel naquele nicho.
+- Tom clinico, nunca de palco. A escassez e honesta (o N e a capacidade real, com o motivo que o autor declarar), a garantia cobre o resultado do metodo (nao a decisao de aplicar).
 
 ---
 
@@ -242,7 +235,7 @@ Identica na escola do webinar de conversao, no gestao agil e nos 2 webinares do 
 8. **Bonus-ancora maior que o produto** (se houver, o R$9.100 do gestao agil)
 9. **Bonus Mastercard** (sem preco, pico de valor que escapa da regua)
 10. **Garantia** (renomeada "experimento / periodo de experiencia"), entra ANTES da queda, baixa o risco pra queda pesar mais
-11. **Queda de preco em degraus**, cada um com reason-why + "o combinado nao sai caro" (desconto por feedback futuro)
+11. **Queda de preco em degraus**, cada um com reason-why + "o combinado nao sai caro" (desconto por feedback futuro) (so com segundo degrau de preco declarado pelo dono, §6 de `ancoragem-e-fechamento.md`)
 12. **Ancoragem por dia** (reduzir ao ridiculo: R$X ÷ 30 = objeto trivial fotografado)
 13. **BONUS DOS 15 PRIMEIROS** (a camada de fast-action, varios cursos, camadas de escassez decrescente) + **bonus surpresa personalizado**
 14. **Recapitulacao total** ("de X por Y") numa tela so, no exato momento do clique
@@ -279,4 +272,4 @@ Identica na escola do webinar de conversao, no gestao agil e nos 2 webinares do 
 - **Stack de volume vazio e proibido.** Empilhar PDF generico / "aulas extras" que nao respondem objecao nenhuma incha a lista e dilui os itens que vendem. O criterio unico: que objecao este item mata, ou quanta ancora ele soma com credibilidade?
 - **Nao decalcar rotulo com dono.** "Bonus do combinado nao sai caro" / "GPS da Gestao Agil" = GA; "Black Belt Club" = o especialista do corpusC. No Soft: mesma premissa, nome do corpus estudado, validado com ele.
 - **Exemplos de nicho (gestao, emprego, nutricao, dentistica) ilustram o beat, NUNCA viram recheio a decalcar.** O recheio sai da pesquisa real do avatar do corpus estudado.
-- **Banido na copy:** travessao, "travar/travado", ALL-CAPS corrido, "alavancar", "mindset", tom de palco/guru. Tom clinico: medir, nunca dramatizar.
+- **Banido na copy:** travessao, a familia do verbo-freio vetado pela regua anti-voz, ALL-CAPS corrido, "alavancar", "mindset", tom de palco/guru. Tom clinico: medir, nunca dramatizar.

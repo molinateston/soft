@@ -22,7 +22,7 @@ grep -hoE '\b[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][a-záàâãéêíóôõúç]{2,}(?=[,
 
 Some a essa lista todo nome que apareça em lista explícita colada pelo dono (uma linha `Cláudia, Ana Paula, Renata`, um cabeçalho `De: <nome>`, uma coluna de planilha). Cole a lista resultante na entrega, na forma `nomes nos insumos privados: <n1>, <n2>, ... (N nomes)`. Lista vazia é resultado válido e vai colada do mesmo jeito.
 
-**Passo 2 · procurar cada nome dessa lista DENTRO da peça entregue.** Um comando por nome, palavra inteira, casamento literal, sobre o arquivo INTEIRO da peça (campos de configuração, filtros e checklists inclusos), não só as linhas que o destinatário lê:
+**Passo 2 · procurar cada nome dessa lista DENTRO da peça entregue.** Um comando por nome, palavra inteira, casamento literal:
 
 ```
 grep -nwF '<nome>' <peça>
@@ -45,7 +45,6 @@ nomes de pessoa na peça: N · com autorização registrada: N · vindos de conv
 - **Contagem sem as duas saídas coladas não conta como feita** e reprova antes da análise de conteúdo, do mesmo jeito que `em molde de antítese: N` sem a coluna.
 - **`nomes de pessoa na peça: N` só pode ser maior que zero quando `com autorização registrada` for igual a N.** Divergência reprova: a peça sai do lote e a versão anonimizada toma o lugar dela.
 - **Declarar zero onde o grep devolveu linha reprova a entrega**, e essa é a falha que este arquivo existe pra matar.
-- **Lead em negociação aberta nunca é chamada de aluna nem de cliente**, nem anonimizada: o papel dela ainda não existe.
 - **Marcar `[A CONFIRMAR: autorização]` e publicar mesmo assim reprova:** o marcador registra a dúvida e não resolve o risco.
 - **Persona-âncora, avatar nomeado e personagem de exemplo nunca levam nome de pessoa real dos insumos**, nem dentro de documento de estratégia. É deles que nascem as capas dos meses seguintes, e o lead com negociação em aberto na caixa de entrada é a primeira a ler a peça e a encontrar a própria transcrição virada em avatar. A persona sai por idade, profissão e situação (`55, contadora, operou o menisco`); quando o texto precisar mesmo de um nome, **use nome inventado e diga na mesma linha que é inventado** (`Marta (nome inventado), 55, contadora`). Depois de escrito, rode `grep -nwF -f nomes.txt <peça>` e cole a saída literal.
 - **Lead que respondeu no chat e ainda não comprou nunca é chamada de aluna nem de cliente**, com nome ou sem.
@@ -130,8 +129,6 @@ valores desdobrados: M · usados: X · descartados com motivo: Y · sem destino:
 ```
 
 com M maior ou igual a N. **Declarar um número abaixo do piso reprova; declarar só uma das duas linhas não conta como inventário feito.**
-
-**Um dado por linha.** Agrupar dois dados numa linha reprova o crivo, mesmo quando parecem do mesmo assunto, porque agrupado ninguém confere qual dos dois ficou de fora. Campo de valor múltiplo desdobra: oferta com preço, parcela, 3 bônus e garantia são 6 linhas, não 1. A lista e a linha de fechamento moram em `conferencia/checagem-titulos.md`; no arquivo que o dono lê, o que ficou fora aparece só quando muda a decisão dele, em 1 linha.
 
 ## Sem shell
 

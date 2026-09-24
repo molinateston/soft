@@ -1,5 +1,7 @@
 # Fundamentos pré-roteiro
 
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Candidato a encolher pro que a auditoria mostrar que não existe em `intake-consultivo.md` e `montagem-secoes-0-9.md`. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > **Quando consultar:** ao fechar a Etapa CONSULTIVA e antes de escrever uma linha do roteiro da aula (ponte pra Etapa AULA). Tudo que vem depois (estrutura ADMA, slides, páginas, emails, anúncios) puxa daqui. Sem fundamentos cravados, o webinar sai genérico.
 
 ---
@@ -220,7 +222,7 @@ Três peças, todas obrigatórias:
 > **EXEMPLO (validados, nichos alheios - nunca decalcar):**
 > - **Insta Sniper:** "O único método que transforma seu Instagram em uma máquina de vendas automática mesmo que você não tenha milhares de seguidores ou saiba nada sobre tráfego pago"
 > - **AEN/Estratégia Sniper:** "O único com a Estratégia Sniper que cria em você uma vantagem competitiva usando o que você já tem mesmo que não seja o melhor candidato"
-> - **Negócio digital (referência usada no manual):** "O único método que constrói negócio digital escalável em 90 dias mesmo sem equipe e sem complexidade técnica"
+> - **Negócio digital (referência usada no manual):** "O único método que constrói negócio digital escalável [em prazo que o dono comprova] mesmo sem equipe e sem complexidade técnica"
 >
 > Note: nos três, a objeção ("não tenho seguidores", "não sou o melhor candidato", "não tenho equipe") está DENTRO da frase. No seu, ache a sua.
 
@@ -492,7 +494,7 @@ A promessa primária é o título do webinar (e geralmente do produto). Tem que 
 
 ### Critérios
 
-- Específico (não "fature mais", mas "fature R$30k em 90 dias")
+- Específico (não "fature mais", mas "fature [valor que o dono comprova] em [prazo que o dono comprova]")
 - Visualmente concreto (o avatar consegue VER o resultado)
 - Tira a maior objeção da equação (mesmo sem X)
 - Fala com **UM** avatar, não com todos ("gestão ágil pra dentista" bate 10x mais forte que "gestão ágil")
@@ -516,8 +518,8 @@ A promessa não muda com o preço - muda só **pra onde ela leva a pessoa depois
 
 | Ticket | Destino pós-webinar |
 |---|---|
-| Até ~R$2 mil | Direto ao **checkout** no fim do webinar |
-| R$2 mil – R$6 mil (mentoria, consultoria, serviço) | Levanta a mão → **comercial 1:1** ("ancora em 20k, vende por 2k"; formulário pré-qualifica) |
+| Até ~R$3 mil (ou o número que o dono declarou) | Direto ao **checkout** no fim do webinar |
+| R$3 mil – R$6 mil (mentoria, consultoria, serviço) | Levanta a mão → **comercial 1:1** ("ancora em 20k, vende por 2k"; formulário pré-qualifica) |
 | R$10 mil+ (high-ticket, evento) | A promessa abre a porta; quem fecha é **closer no Zoom**, com SDR protegendo o closer do lead ruim |
 
 (Regra do corpus estudado- cruzar com a esteira do ecossistema do método, capacidade da soft-webinar.)
@@ -674,7 +676,7 @@ Os exemplos abaixo são **moldes ilustrativos** (não falas canônicas do especi
 
 **Acalma medos:**
 - "Não precisa aparecer no vídeo se não quiser. Esse método funciona com voz e texto"
-- "Se em 30 dias você não tiver resultado, devolvemos 100% sem perguntas"
+- "[a garantia do dono, com o prazo e a condição dele]"
 
 **Confirma suspeitas:**
 - "Se você desconfia que postar mais não é a solução, sua intuição está certa"

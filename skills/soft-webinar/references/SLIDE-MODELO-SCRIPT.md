@@ -7,7 +7,7 @@
 - Cronômetro 5 min pra iniciar / deixa rodando depoimentos
 - "Sejam bem-vindos. Comente seu nome e de onde está falando. Vamos nos conhecer!"
 - "Hoje como está em relação ao seu problema?"
-- (Quem sair não volta mais. Posso começar?)
+- ([Regra de saída, só com a decisão do dono no insumo.] Posso começar?)
 
 ## ATENÇÃO
 - Tipo: Aula/Webinário/Seminário/Masterclass/Imersão
@@ -63,14 +63,14 @@
 - SUPER GARANTIA 90+90 / Experimente por 7 (15, 30) dias. OU "esses são nossos resultados (o que mais amo é receber os resultados de vocês)"
 - "Combinado não sai caro: vou dar mais um desconto, e quando você atingir o resultado, você nos avisa, pode ser?"
 - Prateleira: "TUDO DE R$1497 POR SÓ R$497 (12x69), R$1000 de desconto (combinado não sai caro). Temos um combinado?"
-- SURPRESA! 10 primeiras vagas ganham algo exclusivo (se possível personalizado)
+- SURPRESA, só se o dono tem: [N primeiros que o dono confirmou] ganham [bônus real do dono]; sem limite e bônus no insumo, o slide sai
 - RESUMO DA OFERTA (stack completo) "TUDO POR R$497 (12x69)". "Clique no botão pra se inscrever >>>"
 - "Imagine como será? Quem vai ter orgulho de você? O que isso muda na sua vida? Imagine..."
-- ABRE AS VAGAS! CTA GAIN (muita energia). Bônus anti-fuga enquanto faz seeding e parabeniza quem está entrando
+- ABRE O LINK! CTA GAIN (muita energia). Ao vivo: parabeniza quem está entrando. Perpétuo gravado: sem fala de quem está entrando, a prova vem do chat simulado ou de depoimento real
 
 ## FECHAMENTO (3 pitches)
 - PITCH LÓGICO: a justificativa racional de por que não faz sentido nenhum ela ficar de fora + depoimento foda em print
-- Quebra de objeções + Q&A: ancora o valor por dia (compara com algo que ele gasta), quebra objeções universais e específicas, comemora as pessoas comprando, simula lendo objeções ("se quebrar um dente, você não fará nada?"). Fica ~10 min nesse processo
-- "O trem está partindo, o que você escolhe?" PITCH FEAR (FOMO): "Só temos mais 2 vagas, clique agora; depois que acabar a aula já era"
-- "Te vejo do outro lado" (despede rápido e sai)
+- Quebra de objeções + Q&A: ancora o valor por dia (compara com algo que ele gasta), quebra objeções universais e específicas, ao vivo comemora as pessoas comprando, responde as objeções da lista-mestra ("se quebrar um dente, você não fará nada?"). Fica ~10 min nesse processo
+- "O trem está partindo, o que você escolhe?" PITCH FEAR (FOMO): limite e prazo só com o número e o motivo que o dono confirmou ("[DO DONO: limite real e motivo], clique agora"); sem isso, o pitch de medo fala do custo de ficar parado, sem prazo
+- [a despedida com o bordão do dono] (despede rápido e sai)
 - RESUMO DA OFERTA + Depoimentos + Cronômetro 5 min finalizando + WhatsApp

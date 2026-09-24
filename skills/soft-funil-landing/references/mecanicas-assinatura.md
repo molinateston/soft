@@ -73,11 +73,11 @@ Cada mecânica fecha com 1 anti-exemplo (o erro que ela corrige), em nicho fict�
 
 ## Confirm + advance (obrigado)
 
-**Receita:** a página de obrigado confirma a ação ("recebido") e, no mesmo fôlego, oferece UM próximo passo concreto. Quando há compromisso de horário, o **calendar-add** (botão que joga o evento direto na agenda do celular) é a tática de maior impacto em comparecimento. Sempre 1 próximo passo: agenda, grupo, próximo vídeo ou micro-oferta.
+**Receita:** a página de obrigado confirma a ação ("recebido") e, no mesmo fôlego, oferece UM próximo passo concreto. Quando há compromisso de horário, o **calendar-add** (botão que joga o evento direto na agenda do celular) é a tática de maior impacto em comparecimento. Sempre 1 próximo passo: agenda, grupo, próximo vídeo ou micro-oferta. Em evento, o obrigado também repete data e hora (ou o horário escolhido), pede um pequeno compromisso e diz o que preparar (molde em `moldes-evento.md`, seção 8). Grupo, WhatsApp, lembrete e link de acesso só entram com linha do insumo; sem ela, o próximo passo é a agenda, que só precisa da data.
 
 **Por que:** a página de obrigado é o momento de maior atenção e maior confiança do funil. Parar em "obrigado" desperdiça exatamente o pico.
 
-**Anti-exemplo (nicho fictício, dentista):** página de obrigado pós-agendamento que só diz "Consulta marcada, obrigado!" e para. Metade esquece e não aparece. Faltou o calendar-add e o lembrete.
+**Anti-exemplo (nicho fictício, dentista):** página de obrigado pós-agendamento que só diz "Consulta marcada, obrigado!" e para. Metade esquece e não aparece. Faltou o calendar-add, a data repetida e o que preparar.
 
 ---
 

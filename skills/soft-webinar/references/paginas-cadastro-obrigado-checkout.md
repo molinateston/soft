@@ -202,7 +202,7 @@ Pedir o telefone no formulário derruba o cadastro. O truque que evita isso: **e
 > Isto é a ponte entre o formulário e a variante 100% form-less (ver Parte 2 deste arquivo): o clique no `wa.me` é, ele próprio, o cadastro + o opt-in.
 
 **Texto do botão:**
-- "Confirmar minha vaga" · "Quero participar" · "Reservar acesso"
+- "Confirmar minha inscrição" · "Quero participar" · "Reservar acesso"
 - ❌ Evitar: "Cadastrar", "Registrar", "Enviar" - *"são palavras de formulário burocrático, não de evento."* (corpus estudado.)
 
 **A aula é sempre GRÁTIS na captura.** *"Ninguém dá certo com aula paga na captura."* (o autor do corpus.) E a captura é uma **barra de inscrição que aparece direto**, sem aquele íconezinho-bolha que a pessoa tem que clicar pra abrir.
@@ -222,7 +222,7 @@ PLATAFORMA: [zoom/EverWebinar/WebinarKit/etc - se aparecer pro participante]
 
 **Para evento AO VIVO** (data e hora únicas, marcadas):
 > "[Quinta-feira, 12 de junho, 20h - horário de Brasília]"
-> Contagem regressiva **real até a data** (dias : horas : min), não relativa. A página tem data fixa porque o evento tem data fixa; o lembrete do obrigado é pra essa data exata; o anti-fuga é honesto ("é ao vivo, não terá replay completo"). É o formato de **validação** e de turmas/lançamentos pontuais.
+> Contagem regressiva **real até a data** (dias : horas : min), não relativa. A página tem data fixa porque o evento tem data fixa; o lembrete do obrigado é pra essa data exata; o anti-fuga só diz o que o dono decidiu sobre replay (sem a decisão no insumo, não fala de replay). É o formato de **validação** e de turmas/lançamentos pontuais.
 
 **Para perpétuo just-in-time** (ex: começa a cada 15min):
 > "Próxima sessão: começa em [contagem regressiva ao vivo: 12 min, 11 min...]"
@@ -325,7 +325,7 @@ A função da página de obrigado é uma só: **fazer a pessoa aparecer.** Maxim
 ### Bloco 2.1 - Confirmação enfática
 
 **Modelo:**
-> "Sua vaga está confirmada, [nome capturado no form].
+> "Sua inscrição está confirmada, [nome capturado no form].
 > 
 > Próximo passo: [ação específica]."
 
@@ -414,10 +414,12 @@ Você vai receber por aqui:
 
 **Por que (corpus estudado):** *"replay não vende - já foi testado à exaustão. A venda mora na pessoa atravessar a aula inteira no momento de evento; replay tira o evento e tira a venda."* A pessoa que pensa "depois vejo a gravação" nunca vê - e some.
 
-**Modelo:**
-> "Importante: essa sessão **não terá replay completo**. Vou liberar um trecho de 15 minutos no email seguinte, mas o método inteiro + Q&A só pra quem assistir ao vivo. Bloqueia o horário."
+**Condição:** o bloco só afirma a política que o dono decidiu (replay, trecho liberado, material). Recomende ao dono não liberar a gravação inteira, pelo motivo acima; a copy só fala disso com a decisão dele no insumo. Sem ela, o anti-fuga pede o horário bloqueado e não promete nem nega gravação.
 
-**Para perpétuo:** a frase fica verdadeira de fato - a sessão atual não tem replay mesmo. Use "essa sessão específica não terá replay". (E desligue a opção "replay instantâneo" na ferramenta - ela mata a venda.)
+**Modelo:**
+> "Importante: [DO DONO: a política de gravação que ele decidiu, em uma linha]. Bloqueia o horário."
+
+**Para perpétuo:** com a decisão do dono de não ter replay, a frase vale por sessão ("essa sessão específica [política do dono]"), e a opção "replay instantâneo" da ferramenta fica desligada.
 
 ### Bloco 2.9 - (Perpétuo just-in-time) Timer
 
@@ -521,9 +523,9 @@ ou 12x de R$ 199
 **Bloco visual destacado (EXEMPLO - garantia incondicional):**
 
 ```
-🛡️ GARANTIA INCONDICIONAL DE 30 DIAS
+🛡️ GARANTIA [tipo do dono] DE [N dias do dono]
 
-Se em 30 dias você decidir que [produto] não é pra você,
+Se em [N dias do dono] você decidir que [produto] não é pra você,
 devolvemos 100% do investimento. Sem perguntas.
 Sem fricção. Sem depoimento de saída.
 Você só clica em "quero sair" e recebe o reembolso.
@@ -629,7 +631,7 @@ Checklist mobile-first, item por item e o porquê de cada um:
 - Comprime imagens (WebP)
 - Sem fontes externas pesadas
 - Inline CSS crítico
-- **Vídeo: nunca Vimeo.** *"Bonito que trava perde pra feio que roda"* (bordão do corpus estudado, citado verbatim, corpus estudado) - o Vimeo prioriza resolução e engasga em banda fraca; vídeo que engasga no mobile mata o webinar. Use o servidor da própria ferramenta, ou YouTube com código anti-clique.
+- **Vídeo: nunca Vimeo.** *"Bonito que engasga perde pra feio que roda"* [forma ajustada] (bordão do corpus estudado, citado verbatim, corpus estudado) - o Vimeo prioriza resolução e engasga em banda fraca; vídeo que engasga no mobile mata o webinar. Use o servidor da própria ferramenta, ou YouTube com código anti-clique.
 
 ### Pixel + tracking
 
@@ -668,7 +670,7 @@ Páginas que parecem de empresas diferentes destróem confiança.
 - [ ] Opt-in WhatsApp explícito (manda "OI")
 - [ ] Botão "definir lembrete" com link individual embutido
 - [ ] Ficha/pesquisa no ar (alimenta Lead Score + comercial)
-- [ ] Anti-fuga (sem replay completo)
+- [ ] Anti-fuga (só a política de gravação que o dono decidiu)
 - [ ] (Perpétuo) Timer ativo se sessão começa em <60min
 
 ### Página de checkout
@@ -754,7 +756,7 @@ O perpétuo não pode ter "data fixa" escrita na página. Cada lead vê a SUA se
 | Comparecimento (inscrito → presente) | benchmark 33-57%, **alvo Soft 50%+**; **+54% (de 31% pra 47%) quando liga o WhatsApp** |
 | Compra automática no checkout (de quem compareceu) | 6-8%, antes de qualquer comercial tocar (de quem ENTRA no checkout, 60-85%) |
 
-> **A leitura que importa (corpus):** se os indicadores estão muito abaixo disso, o furo quase sempre está numa **peça técnica deste arquivo** - a página, o horário, a hospedagem do vídeo, a mensageria - **não na sua copy.** Antes de reescrever a aula no desespero, audita o encanamento: na maioria das vezes é vídeo engasgando, horário mal escolhido, ou o WhatsApp que você não ligou.
+> **A leitura que importa (corpus):** se os indicadores estão muito abaixo disso, o furo quase sempre está numa **peça técnica deste arquivo** - a página, o horário, a hospedagem do vídeo, a mensageria - **não na sua copy.** Antes de reescrever a aula no desespero, audita o encanamento primeiro: vídeo engasgando, horário mal escolhido, ou o WhatsApp que você não ligou.
 
 ---
 

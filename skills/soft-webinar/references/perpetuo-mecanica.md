@@ -63,7 +63,7 @@ Os elementos, um a um, com o porquê de cada um:
 
 O ponto é a janela curta entre cadastro e aula. Perto o bastante pra não esfriar, longe o bastante pra virar compromisso de agenda.
 
-**Escassez de sala (gatilho de COP).** A sala tem número limitado de lugares e você pede confirmação:
+**Escassez de sala (gatilho de COP), só quando o dono tem limite real de lugares.** Com o limite no insumo, você pede confirmação:
 
 > "A gente até dá uns gatilhos: ó, você marcou, a gente pede, se você não conseguir aparecer, avisa, porque a sala tem número específico de pessoas. A gente dá essas jogadas de COP pra pessoa, pra gente ter um alto número de comparecimento." (corpus)
 
@@ -116,7 +116,7 @@ A sequência operacional, na ordem (não inverter):
 
 ## 4. A tese da energia: gravado x ao vivo
 
-Esse é o argumento que justifica **não perpetuar sem dominar o ao vivo**. Não é sobre produção de vídeo. É sobre o que converte.
+Esse é o argumento que justifica **não perpetuar sem dominar o ao vivo**. O que pesa é o que converte, e a produção de vídeo vem depois.
 
 > "O gravado não tem energia do ao vivo. Quando eu falo energia é a forma como vocês comunicam." (corpus estudado, call Hugo)
 

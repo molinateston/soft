@@ -131,7 +131,7 @@ A oferta se monta escolhendo de um cardápio de tipos de componente. Cada tipo t
 
 **Duas decisões de entrega que se tomam no desenho** (a apresentação está em `ancoragem-e-fechamento.md` §3):
 - **A "foto" do produto digital existe?** Print da área de membros, dos entregáveis, do Zoom da mentoria. No digital, a ansiedade é "o que eu recebo, afinal?" - a foto tira a insegurança do intangível. Se não existe, criar antes do webinar.
-- **Acesso: qual o tempo real?** Decidir o acesso verdadeiro (ex.: 1 ano) já prevendo o enquadre como perda ("6 meses + 6 só hoje"). O desenho define o número real; o roteiro define a moldura.
+- **Acesso: qual o tempo real?** Decidir o acesso verdadeiro (ex.: 1 ano) já prevendo o enquadre como perda ("6 meses + 6 só hoje", e o "só hoje" só entra com a condição que o dono confirmou). O desenho define o número real; o roteiro define a moldura.
 
 ---
 
@@ -177,7 +177,7 @@ O cardápio, do mais leve ao mais pesado, com o que cada um EXIGE pra ser honest
 
 1. **Quanta prova a oferta precisa carregar.** Ticket alto pede prova de outro calibre (casos verificáveis, números, ROI demonstrado); a soma do stack só ancora forte se os componentes têm valor de mercado real ≥2x o preço. Na equação (§1b): subir ticket exige subir probabilidade (mais prova) e derrubar esforço (mais faço-por-você) - âncora sozinha não segura preço que a equação não sustenta.
 2. **Quanta duração/densidade o fechamento pede.** A fase Ação é 25-35 min (perto de metade do webinar) e cresce em peso com o ticket - quem encurta o fechamento "pra não cansar" corta exatamente o que converte.
-3. **Qual canal fecha.** Até ~R$3.000, checkout direto. Acima de ~R$3.000, o webinar muda de função: deixa de FECHAR e passa a QUALIFICAR pro comercial. A engenharia do que muda DENTRO do webinar por faixa (âncora, destino do CTA, objeto da escassez) está em `ancoragem-e-fechamento.md` §11; o canal em operação na Etapa MENSAGENS desta skill (`sequencias-email-whatsapp-pre-pos.md`).
+3. **Qual canal fecha.** Até ~R$3.000 (ou o número que o dono declarou), checkout direto. Acima, o webinar muda de função: deixa de FECHAR e passa a QUALIFICAR pro comercial. A engenharia do que muda DENTRO do webinar por faixa (âncora, destino do CTA, objeto da escassez) está em `ancoragem-e-fechamento.md` §11; o canal em operação na Etapa MENSAGENS desta skill (`sequencias-email-whatsapp-pre-pos.md`).
 
 **A conta que define o ticket no desenho** (manual cap. 4): pega a meta de faturamento e divide pelo ticket = clientes necessários por mês. Se o número de clientes não cabe na semana do player, a saída NÃO é pegar mais cliente - **é SUBIR o ticket**. Menos cliente, cada um pagando mais, cada um melhor atendido. Quase sempre o problema de quem está afogado não é falta de cliente, é preço baixo demais.
 
@@ -212,7 +212,7 @@ Regra de qualidade do nome: **conectado à tese/solução**, nunca "marketeiro" 
 
 **A regra de direção no 1:1 (manual cap. 4):** na conversa comercial, abre-se sempre pelo nível mais ALTO que cabe no caso da pessoa, e desce-se só se pesar. Quem começa por baixo ancora o próprio trabalho lá embaixo e nunca mais sobe; quem começa por cima e desce faz cada degrau parecer alívio. A direção da oferta no comercial é de cima pra baixo.
 
-**Onde o webinar senta nisso (a esteira Soft):** o webinar é UM degrau da escada (Funil Soft → Webinar Soft → Soft Launch), e a regra do ecossistema é dura - **o fechamento high-ticket (3k+) é no 1:1 (`soft-vendas-closer`), nunca no checkout.** O produto da aula fecha no checkout até ~R$2k; acima disso o webinar faz TODO o trabalho de consciência e desejo e o destino do botão muda (conversa/aplicação - engenharia em `ancoragem-e-fechamento.md` §11). O empacotamento high-ticket portanto se desenha pra ser **defendido por um humano**: prova de outro calibre, acompanhamento pesado no pacote, e um formulário de aplicação que inverte o desejo (quem preenche pra ser aceito deseja mais - *"se eu não te chamar, você não foi aceito"*, o autor do corpus).
+**Onde o webinar senta nisso (a esteira Soft):** o webinar é UM degrau da escada (Funil Soft → Webinar Soft → Soft Launch), e a regra do ecossistema é dura - **o fechamento high-ticket (3k+) é no 1:1 (`soft-vendas-closer`), nunca no checkout.** O produto da aula fecha no checkout até ~R$3.000 (ou o número que o dono declarou); acima disso o webinar faz TODO o trabalho de consciência e desejo e o destino do botão muda (conversa/aplicação - engenharia em `ancoragem-e-fechamento.md` §11). O empacotamento high-ticket portanto se desenha pra ser **defendido por um humano**: prova de outro calibre, acompanhamento pesado no pacote, e um formulário de aplicação que inverte o desejo (quem preenche pra ser aceito deseja mais - *"se eu não te chamar, você não foi aceito"*, o autor do corpus).
 
 **Nenhum lead se perde (fechamento por esteira).** Quem não compra o degrau da aula não é fim de linha: vira lead quente pro degrau de cima (rede de captura → comercial) ou de baixo (a versão faz-sozinho). O "não" a uma oferta é "não a ISSO, AGORA". O desejo construído num webinar é caro de gerar; desperdiçá-lo quando o lead não fecha o produto da aula é prejuízo. (Vocabulário canônico da esteira - "namoro vira casamento" etc.: a definir com o especialista; a mecânica vale desde já. Operação na Etapa MENSAGENS desta skill.)
 
@@ -223,7 +223,7 @@ Regra de qualidade do nome: **conectado à tese/solução**, nunca "marketeiro" 
 Antes de escrever a primeira linha de roteiro, a skill confere:
 
 - [ ] **Três camadas separadas:** método (mecanismo nomeado), produto (veículo com nome+passos+preço) e oferta (pacote) - sem confusão entre elas
-- [ ] **Ticket cravado no espectro** (R$497-50k) pela conta meta ÷ ticket, com canal de fechamento decidido (checkout ≤~2k / comercial 1:1 acima; 3k+ SEMPRE 1:1)
+- [ ] **Ticket cravado no espectro** (R$497-50k) pela conta meta ÷ ticket, com canal de fechamento decidido (checkout até ~R$3.000, ou o número do dono / comercial 1:1 acima, com a conta preço contra régua escrita)
 - [ ] **Jornada em passos nomeados** (não módulos/horas), cada passo com headline de benefício + prova própria
 - [ ] **Clímax identificado:** o passo que TIRA mais trabalho (IA-que-faz/automação/acompanhamento)
 - [ ] **Esqueleto do produto = esqueleto do mecanismo ensinado no Mecanismo** (o framework da aula é o índice do produto)
@@ -250,4 +250,4 @@ Antes de escrever a primeira linha de roteiro, a skill confere:
 - **O produto subtrai complexidade, nunca adiciona.** Se um componente aparece como "mais uma coisa pra operar", ele virou o inimigo do posicionamento Soft (alto resultado / baixa complexidade).
 - **Exemplos das fontes (emprego, gestão, nutrição, dentística, felino, adestramento) são nichos saturados de propósito** - ilustram o beat, NUNCA viram recheio a decalcar no nicho do player (G2). O recheio sai da pesquisa real do avatar.
 - **Estrutura é lei, conteúdo é do negócio.** O molde (jornada + nome + prateleira + bônus sem preço + garantia + ticket) é universal; cada número e nome sai da realidade do nicho. Preço do exemplo cravado: Soft Start = R$1.000.
-- **Banido:** "travado" e formas, a frase fabricada sobre "faturar alto" (rejeitada - nunca usar, nunca atribuir ao especialista), travessão dentro de copy de cliente, ALL-CAPS corrido, "alavancar", "jornada" como jargão na copy do cliente (aqui é termo técnico interno de desenho), "mindset", tom de palco/guru.
+- **Banido:** o verbo-freio que a régua anti-voz proíbe, em todas as formas, a frase fabricada sobre "faturar alto" (rejeitada - nunca usar, nunca atribuir ao especialista), travessão dentro de copy de cliente, ALL-CAPS corrido, "alavancar", "jornada" como jargão na copy do cliente (aqui é termo técnico interno de desenho), "mindset", tom de palco/guru.

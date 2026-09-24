@@ -1,5 +1,9 @@
 # Índice - Exemplos por bloco (biblioteca do corpus de webinars-campeões)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > **Como usar (leia isto primeiro):**
 > 1. ANTES de escrever qualquer bloco do webinar Soft, abra o arquivo do bloco correspondente e leia a síntese + os exemplos + os anti-padrões.
 > 2. Os trechos são PREMISSAS demonstradas, nunca modelos pra decalcar (G2): extraia o porquê-funciona e reconstrua na voz do especialista - frase-mantra, bordão e rótulo de mecanismo têm dono (GA, Fladlien, o especialista do corpusA, o especialista do corpusC, a Aluna 80k) e não se transplantam.

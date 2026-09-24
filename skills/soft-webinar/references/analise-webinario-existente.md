@@ -4,7 +4,7 @@
 
 > **A régua-mestra da auditoria (lê isto antes de tudo):** auditar não é dar palpite. É comparar o webinar do cliente, bloco a bloco, com **como os campeões fazem aquele bloco** - usando a biblioteca `exemplos-por-bloco/` como gabarito , achar onde o webinar dele **vaza** desse gabarito, e amarrar cada vazamento à **premissa ou guarda-corpo violado**. Diagnóstico sem premissa-violada por trás é opinião; com premissa é consultoria. Antes de auditar qualquer bloco, abre o arquivo correspondente em `exemplos-por-bloco/NN-xxx.md`, lê a síntese de premissas + os trechos verbatim dos campeões, e usa aquilo como linha de chegada.
 
-> **Tom da auditoria (guarda-corpo de voz):** clínico, de médico que dá diagnóstico preciso - nunca guru, nunca motivacional, sem exclamação em cascata. Você não usa a família "travar/travado/destravar" na sua análise; usa **prende / segura / presa / emperra / libera / abre**. (Em citação literal de webinar a palavra do dono é dele - verbatim não se toca.) E você nunca inventa nome de mecanismo/Big Idea/inimigo pra atribuir ao cliente: ou usa o que ele já tem, ou marca **"(nome a definir com o cliente)"**.
+> **Tom da auditoria (guarda-corpo de voz):** clínico, de médico que dá diagnóstico preciso - nunca guru, nunca motivacional, sem exclamação em cascata. Você não usa o verbo-freio banido na sua análise; usa **prende / segura / presa / emperra / libera / abre**. (Em citação literal de webinar a palavra do dono é dele - verbatim não se toca.) E você nunca inventa nome de mecanismo/Big Idea/inimigo pra atribuir ao cliente: ou usa o que ele já tem, ou marca **"(nome a definir com o cliente)"**.
 
 ---
 
@@ -36,7 +36,7 @@ Esta é a tabela-mãe da auditoria. Cada linha: o bloco, o que o **campeão faz*
 
 | Bloco | Régua (o que o campeão faz - ver biblioteca) | Vazamento típico no cliente | Premissa/guarda-corpo violado |
 |-------|---------------------------------------------|------------------------------|-------------------------------|
-| **Abertura** | Agenda em objetivos numerados onde o **último objetivo = a promessa do produto disfarçada** ("líder reconhecido em 90 dias") + presente-mistério pra reter (`02-abertura-atencao.md`) | Boas-vindas longas, genéricas, motivacionais; agenda que não espelha a oferta; sem razão concreta pra ficar | "Abertura e oferta são o mesmo texto em dois tempos" - quando a abertura não planta a promessa do produto, o pitch chega como quebra, não como desfecho |
+| **Abertura** | Agenda em objetivos numerados onde o **último objetivo = a promessa do produto disfarçada** ("líder reconhecido em 90 dias") + presente-mistério pra reter (quando o dono tem um) (`02-abertura-atencao.md`) | Boas-vindas longas, genéricas, motivacionais; agenda que não espelha a oferta; sem razão concreta pra ficar | "Abertura e oferta são o mesmo texto em dois tempos" - quando a abertura não planta a promessa do produto, o pitch chega como quebra, não como desfecho |
 | **Autoridade/história** | Cicatriz ANTES do troféu - e a cicatriz É o estado atual do avatar (`03-autoridade-historia.md`) | Origin story que abre no troféu (flex), longa demais, sem empatia | Origin story tem que aproximar ("eu fui você"), não afastar ("eu sou genial"); flex = prova de gênio, que mata identificação |
 | **Problema/Diagnóstico** | Vilão EXTERNO nomeado + culpa transferida + a audiência confessa a dor no chat ("síndrome do Fantástico", "dieta burra") (`04-problema-interesse.md`) | Problema genérico que não ressoa; tom acusatório que culpa o avatar; sem dado/lastro | "Admitir a dor não pode custar o ego do lead" - culpar o avatar fecha o ouvido dele; problema sem cena concreta não dá o "é exatamente isso" |
 | **Big Idea / Big Domino** | UMA crença numa frase gravável que o espectador DIGITA, com prova terceirizada (`05-big-idea-domino.md`) | Big Domino ausente ou diluída em várias ideias; sem frase única; sem comando de registro | Sem o dominó, cada objeção sobrevive de pé; "se o lead aceita a frase, o produto vira a única conclusão lógica" |
@@ -46,7 +46,7 @@ Esta é a tabela-mãe da auditoria. Cada linha: o bloco, o que o **campeão faz*
 | **Oferta/Stack** | A oferta é a aula reembalada; cada item do stack mata UMA objeção nomeada; valor avulso ancorado (`09-oferta-stack.md`) | Stack sem valor ancorado; itens que não casam com objeção; bônus que já estava na sales page | Sem valor avulso o cliente não sabe que o preço é barganha; item de stack que não mata objeção é peso morto |
 | **Ancoragem/preço** | Dupla ancoragem + queda em degraus com reason-why + troca de unidade ("R$5,51/dia, uma Coca") com prova do gasto banal (`10-ancoragem-preco.md`) | Preço a seco, sem âncora; desconto sem reason-why; sem trivialização | Preço sem âncora parece caro; desconto sem motivo cheira a desespero/preço inflado |
 | **Garantia** | Garantia CONDICIONAL de resultado (as condições são o plano de implementação); reembolso encenado com dignidade (`11-garantia.md`) | "Satisfação ou dinheiro de volta" genérico OU garantia ausente sem o bloco 10 forte que a substitua | Garantia é cardápio (decisão de design, não praxe), 6 de 9 campeões fecham sem ela; quem não tem, **precisa** de preço trivializado forte. NÃO decidir sozinho qual garantia: registrar como pergunta pro usuário decidir |
-| **Escassez/urgência/CTA** | Escassez crível e auditável (15 primeiros com confirmação na tela; sessão limitada no perpétuo); CTA repetido Gain/Logic/Fear (`12-escassez-urgencia-cta.md`) | Urgência inventada que o avatar fareja; CTA único (só 1 vez); sem CTA Fear | Urgência falsa quebra confiança do avatar maduro; um CTA só não pega quem decide por lógica nem quem decide por medo da inação |
+| **Escassez/urgência/CTA** | Escassez crível e auditável (15 primeiros com confirmação na tela; limite real do dono no perpétuo); CTA repetido Gain/Logic/Fear (`12-escassez-urgencia-cta.md`) | Urgência inventada que o avatar fareja; CTA único (só 1 vez); sem CTA Fear | Urgência falsa quebra confiança do avatar maduro; um CTA só não pega quem decide por lógica nem quem decide por medo da inação |
 | **Q&A/objeções** | Objeção encenada pelo host antes de nascer ("[nome], …?" / "[nome dele], mas…"); objeção-mãe invertida em vantagem; responde o estado decisório, não a pergunta literal (`13-qa-objecoes.md`) | Sem perguntas plantadas; respostas curtas que não quebram objeção; Q&A que alimenta o "maybe" | O "maybe" é o inimigo do bloco; responder o detalhe da pergunta evasiva alimenta o medo em vez de mover pra sim/não |
 | **Interação/chat (transversal)** | Escada de micro-compromissos do "tá me ouvindo?" ao "já me inscrevi" - no pitch a pessoa já disse sim 8x em público (`14-interacao-chat.md`) | Webinar que só transmite, sem colher confirmação; perpétuo com nome falso ("Maria de SP acabou de comprar") | Sem a escada de sins o pedido caro chega frio; nome falso no perpétuo = escassez/prova mentirosa, quebra de confiança |
 
@@ -191,7 +191,7 @@ A linha de chegada contra a qual você audita a abertura do cliente:
 5. Se algum bloco passa de 50% além do tempo esperado, **encurta**
 6. Se algum bloco está abaixo de 50% do tempo esperado, provavelmente está raso
 
-> **EXEMPLO de diagnóstico instanciado desta dimensão (nicho: mentoria financeira pra autônomos - molde preenchido).** Curva mostra drop de 19% em 60s. Cronometro: boas-vindas = 1min50 ("oi pessoal, que bom ter vocês, hoje vai ser especial, me acompanha nos próximos minutos…"). Comparo com a régua: zero promessa-resultado, zero presente, abertura puramente cortês. **Trio de diagnóstico:** Abertura - boas-vindas genéricas de 1min50 sem razão pra ficar - viola "abertura vende permanência". **Reescrita:** comprimo pra 35s e planto a agenda em 3 objetivos onde o 3º é a promessa do produto ("sair daqui sabendo como [resultado do nicho] em [prazo]") + presente pra quem fica. Severidade: crítico.
+> **EXEMPLO de diagnóstico instanciado desta dimensão (nicho: mentoria financeira pra autônomos - molde preenchido).** Curva mostra drop de 19% em 60s. Cronometro: boas-vindas = 1min50 ("oi pessoal, que bom ter vocês, hoje vai ser especial, me acompanha nos próximos minutos…"). Comparo com a régua: zero promessa-resultado, zero presente, abertura puramente cortês. **Trio de diagnóstico:** Abertura - boas-vindas genéricas de 1min50 sem razão pra ficar - viola "abertura vende permanência". **Reescrita:** comprimo pra 35s e planto a agenda em 3 objetivos onde o 3º é a promessa do produto ("sair daqui sabendo como [resultado do nicho] em [prazo]") + presente real pra quem fica, se o dono tem. Severidade: crítico.
 
 ---
 
@@ -441,7 +441,7 @@ Mesmo que o webinar seja o foco principal da auditoria, sempre verifica também:
 ### Página de obrigado
 
 - [ ] Opt-in WhatsApp explícito (manda "OI")
-- [ ] Anti-fuga (sem replay completo)
+- [ ] Anti-fuga (só a política de gravação que o dono decidiu)
 - [ ] Botão calendário .ics
 
 ### Página de checkout
@@ -626,7 +626,7 @@ Data: [Data]
 > **3. O QUE VAZA:**
 > CRÍTICO - Transição (min 49, drop 31%): pivot brusco "tenho um programa, custa R$4.000" sem escada de consentimento. Premissa violada: "oferta entra a pedido". Reescrita: recap → mundo ideal → "sim eu quero" → bifurcação caminho 1/2. Impacto esperado: maior alavanca do webinar.
 > CRÍTICO - Big Idea + Mecanismo (min 24-30, drop 18%): 5 pilares competindo (sem dominó) + ensinou o "como" (tutorial de agenda). Premissa violada: "uma crença" + Faca Soft. Reescrita: cravar UMA frase gravável "(a definir com o cliente)" + descrever função do mecanismo sem execução.
-> CRÍTICO - Abertura (90s, drop 22%): boas-vindas longas + flex. Premissa violada: "abertura vende permanência" + "cicatriz antes do troféu". Reescrita: comprimir pra 35s, agenda com 3º objetivo = promessa do produto, presente pra quem fica.
+> CRÍTICO - Abertura (90s, drop 22%): boas-vindas longas + flex. Premissa violada: "abertura vende permanência" + "cicatriz antes do troféu". Reescrita: comprimir pra 35s, agenda com 3º objetivo = promessa do produto, presente real pra quem fica (se o dono tem).
 >
 > **5. EXPECTATIVA REALISTA:** conversão atual 1,2% → alvo 3-5% após correções → 60-90 dias, medindo 1 variável por vez.
 

@@ -51,8 +51,8 @@ A **estrutura** das mensagens é a mesma (antes / durante / pós, em `sequencias
 | Eixo | AO VIVO | PERPÉTUO |
 |---|---|---|
 | **Timing dos disparos** | **Datas absolutas** (a régua inteira ancora numa data/hora única do evento: "quarta, 19h"). Todo mundo recebe no mesmo relógio. | **Datas relativas ao cadastro de CADA lead** (faltam 24h / 1h / 5 min contadas a partir da sessão que aquele lead escolheu). Cada um na sua linha do tempo. |
-| **Reconvite de quem faltou** | Pra a **próxima edição do evento** (nova data marcada). | Pra **outra sessão** do mesmo perpétuo (o lead remarca um novo horário). Nunca "assista a gravação", não existe replay. |
-| **Escassez que a mensagem cita** | Escassez **real de evento**: vaga limitada da sala, "é hoje, não tem outra essa semana", o bônus que sai quando o evento acaba. | Escassez **por condição da sessão / por timer da oferta**: "se essa aula acabar, acabou essa oferta", o bônus que vale só nessa sessão. NUNCA um timer de calendário fake ("só até sexta"), isso queima a máquina no perpétuo. |
+| **Reconvite de quem faltou** | Pra a **próxima edição do evento** (nova data marcada). | Pra **outra sessão** do mesmo perpétuo (o lead remarca um novo horário). Nunca "assista a gravação". Replay só com a decisão do dono no insumo; sem ela, a mensagem não fala de replay nem pra prometer nem pra negar. |
+| **Escassez que a mensagem cita** (só com o motivo e o prazo que o dono confirmou no insumo; sem isso, nenhuma, e vira nota ao dono) | Escassez **real de evento**, cada uma só com o dado do dono: o limite da sala, a data única do evento, o bônus que sai quando o evento acaba. | Escassez **por condição da sessão / por timer da oferta**, quando o dono confirmou que a oferta acaba com a aula: "se essa aula acabar, acabou essa oferta". NUNCA um timer de calendário fake ("só até sexta"), isso queima a máquina no perpétuo. |
 | **Link da sala (5 min antes)** | Link **único do evento** (todos entram na mesma sala). | Link **individual por lead** (modelo cinema: cada um na sua sessão). É esse link que faz o perpétuo parecer ao vivo. |
 | **Toques de DURANTE** | Disparados no relógio do evento (min ~25 e min ~50 reais). | Disparados em **offset relativo** ao início da sessão daquele lead (a plataforma agenda min 25 / min 50 a partir do horário que ele marcou). |
 | **Régua de pós** | Janela de fechamento ancorada no fim do evento (1h / 12h / 24h / 48h / 72h depois do horário único). | Mesma janela, mas relativa ao fim da SESSÃO de cada lead; + a **esteira semanal sincronizada** (represa todos até segunda 9h) é o que cria um "último dia" coletivo real mesmo sem evento, é onde a maioria das vendas perpétuas acontece. |
@@ -60,16 +60,18 @@ A **estrutura** das mensagens é a mesma (antes / durante / pós, em `sequencias
 
 **Regra de ouro do modo:** no perpétuo, **nada na mensagem pode DATAR** (sem "hoje é sexta", sem "essa semana", sem nome de mês). Uma mensagem que data denuncia que é automático e inverte a confiança na 3ª semana. No ao vivo, datar é exatamente o que cria a urgência, pode e deve.
 
+**Presença no perpétuo.** A aula gravada não tem apresentador na sala. Nenhuma mensagem nem fala do perpétuo promete presença ao vivo («vou ficar mais 15 min pra tirar dúvida», «já tem gente entrando», «te respondo aqui na sala»). Dúvida vai pro canal que o dono atende de verdade (WhatsApp, e-mail, a sessão só de dúvidas quando ele confirmou que faz). Motivo: o lead percebe a mentira na primeira pergunta sem resposta, e a desconfiança contamina a oferta.
+
 ---
 
 ## A escassez do perpétuo é por SESSÃO, não por calendário (desenho canônico)
 
-O único desenho honesto de escassez que roda em loop infinito: a oferta acaba quando a AULA acaba, e o produto continua comprável depois por mais caro, não se mente estoque nem se finge um timer de calendário.
+O único desenho honesto de escassez que roda em loop infinito, e só quando o dono confirmou que funciona assim na plataforma dele: a oferta acaba quando a AULA acaba, e o produto continua comprável depois por mais caro, não se mente estoque nem se finge um timer de calendário.
 
 > **EXEMPLO (verbatim, pele Soft / nutrição / especialista do corpusA, ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`):** "se acabar essa aula, bicho, acabou tua chance, você não vai mais conseguir essa oferta […] você até consegue comprar ele depois mas você vai comprar no mínimo por 997, tô te dando R$200 de desconto aqui." A urgência é atrelada à SESSÃO ("se essa aula acabar, acabou"), perfeita pra evergreen, porque a condição é da sessão e não do calendário.
 
-**O que isso significa pra a COPY das mensagens (o que a skill escreve):**
-- O WhatsApp do **min 50** (oferta abriu) diz "vale só nessa sessão", não "vale só hoje".
+**O que isso significa pra a COPY das mensagens (o que a skill escreve, com a condição da sessão confirmada; sem ela, nenhuma das linhas abaixo cita prazo, e a pergunta vai pro dono):**
+- O WhatsApp do **min 50** (oferta abriu) cita a condição da sessão que o dono confirmou, nunca um prazo de calendário.
 - O e-mail/WhatsApp de **1h depois** diz "o bônus de ação rápida ainda vale por mais X horas" contadas da sessão daquele lead, não de um relógio global.
 - O **last call** e o **fechamento** recaem nos **bônus** ("o método continua à venda, mas sem os extras"), nunca num prazo de calendário inventado.
 - **Anti-padrão nomeado:** timer de calendário fake em perpétuo é o erro que queima a máquina. (Desenho completo no bloco 12.)
@@ -80,7 +82,7 @@ O único desenho honesto de escassez que roda em loop infinito: a oferta acaba q
 
 No perpétuo, o link da sala que vai no WhatsApp 5 min antes é **individual**, modelo cinema, cada um na sua sessão. A plataforma passa nome/horário/link-único pra automação, que entrega no WhatsApp via API. A mensagem chega com o link exato da sessão que aquela pessoa escolheu. É isso, mais a escassez por sessão e a sensação de "marquei com ele", que faz o gravado parecer ao vivo.
 
-> Implicação pra a skill: o molde do **WhatsApp 4** (5 min antes) e dos **toques de durante** usam `[link individual do lead]` no perpétuo, e `[link da sala do evento]` no ao vivo. A voz "já tem gente na sala, só falta você, vem" funciona nos dois.
+> Implicação pra a skill: o molde do **WhatsApp 4** (5 min antes) e dos **toques de durante** usam `[link individual do lead]` no perpétuo, e `[link da sala do evento]` no ao vivo. A voz "a sala abriu, só falta você, vem" funciona nos dois; falar de outras pessoas na sala, só no ao vivo.
 
 ---
 

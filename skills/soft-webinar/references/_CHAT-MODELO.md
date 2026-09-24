@@ -151,23 +151,23 @@ Tipos extraídos do `chat-simulado-webinar.csv` (coluna `Tipo`), em ordem da cur
 | **reação** | conteúdo/viradas (esparso) | concordância, "isso sou eu" | "nossa isso faz muito sentido", "to anotando tudo", "nunca tinha visto desse angulo" |
 | **sim-eu-quero** | fim do mecanismo (comando do host) | rajada de micro-compromisso, curta e repetitiva | "EU QUERO", "quero sim", "to dentro", "eu quero demais" |
 | **numero** | quando o host faz "a conta" | reage aos números da projeção | "a conta fecha sim", "37 mil com 1000 inscrito? caramba", "da pra justificar 15 mil tranquilo" |
-| **duvida** | Q&A / perto do link | pergunta operacional (pagamento, acesso, garantia) | "tem pix?", "parcela em 12x mesmo?", "o acesso é vitalicio?", "aceita 2 cartoes?" |
-| **pergunta** | conteúdo + FOMO de vaga | dúvida de conteúdo ou de vaga | "preciso ter audiencia pra comecar?", "ainda tem vaga dos 15?" |
+| **duvida** | Q&A / perto do link | pergunta operacional (pagamento, acesso, garantia) | perguntas sobre o que o checkout do dono tem de fato ("parcela em [N do dono]x mesmo?", "[prazo de acesso do dono]?"); meio de pagamento e prazo que o insumo não dá não entram |
+| **pergunta** | conteúdo + FOMO de vaga | dúvida de conteúdo, ou do limite real do dono | "preciso ter audiencia pra comecar?", "ainda tem [bônus dos N primeiros, só se o dono tem]?" |
 | **objecao** | antes do pitch | o ceticismo que a sala tem (a ser neutralizado pela própria sala) | "ta, mas o perpetuo nao satura o pixel?", "achei meio puxado o valor" |
 | **atrito** | reta final | o indeciso amolecendo (não fecha ainda) | "garantia parruda, mas vou analisar com calma", "quase me convenceu, to no limite do sim" |
 | **anticipacao** | pré-link | já com o cartão na mão esperando o link | "ja to com o cartao na mao esperando o link", "cade o link [HOST], to pronto" |
-| **compra** | LINK NO AR (pico) | social proof de compra, o flood | "comprei agora", "fechei", "acabei de garantir o meu", "to dentro!", "feito. paguei" |
+| **compra** | LINK NO AR (pico) | social proof de compra, o flood | "comprei agora", "fechei", "acabei de garantir o meu", "to dentro!" (só com a oferta do dono confirmada no insumo; sem oferta, nenhum `compra`) |
 | **hate** | longe do clímax (1-2 na aula) | o cético neutralizado pela sala/lógica | "na pratica nao funciona nao" → resolvido por outro participante |
 | **prova-real** | junto das provas (SÓ se real) | validação ancorada em case verídico do player | (do banco real, ver regra de honestidade) |
-| **despedida** | fechamento | quem já comprou se despedindo | "te vejo do outro lado", "melhor decisao, to dentro", "valeu [HOST]" |
+| **despedida** | fechamento | quem já comprou se despedindo | "[despedida na voz do público do dono]", "to dentro", "valeu [HOST]" |
 
 ### Padrões de execução por tipo (o que faz cada um funcionar)
 
 - **Saudação SEMPRE neutra (PROIBIDO hora do dia).** Nada de "bom dia/boa tarde/boa noite". O perpétuo roda o mesmo vídeo em vários horários; quem assiste às 21h vendo "boa tarde" percebe na hora que é gravado. Use: "oi gente", "cheguei", "opa", "presente", "primeira vez aqui".
-- **A objeção SURGE e se RESOLVE** (movimento mais importante do carrinho): a dúvida aparece no chat e, 1-3 min depois, OUTRO participante (ou o eco do host) a derruba. A sala se autorregula; o host nunca briga. Pares reais do modelo: erro no cartão → "era só trocar pra crédito"; "achei puxado o valor" → "puxado é continuar no problema mais um ano, eu fechei".
+- **A objeção SURGE e se RESOLVE** (movimento mais importante do carrinho): a dúvida aparece no chat e, 1-3 min depois, OUTRO participante (ou o eco do host) a derruba. A sala se autorregula; o host nunca briga. Pares reais do modelo: erro no cartão → "consegui aqui, tentei de novo"; "achei puxado o valor" → "puxado é continuar no problema mais um ano, eu fechei".
 - **Haters: no máximo 1-2 na aula inteira**, sempre resolvidos em 1-3 min, NUNCA perto do clímax de compra, neutralizados pela comunidade/lógica e não pelo host brigando.
 - **Compra só DEPOIS de o link aparecer.** Antes do link só existe `anticipacao` ("to com o cartão na mão"). O primeiro `compra` é casado com a fala do host "valendo, to liberando o link". No modelo, o flood de compra começa em `2:25:46` (vídeo), exatamente quando o host libera.
-- **FOMO pós-link** alimenta a escassez REAL (no caso do corpus estudado, os "15 primeiros" e a garantia 90+90), nunca inventa vaga.
+- **FOMO pós-link** alimenta só a escassez que o insumo do dono traz (no caso do autor, o bônus dos 15 primeiros, sem prazo); sem limite no insumo, o `fomo` sai.
 
 ---
 
@@ -187,7 +187,7 @@ O pior buraco possível: o host gravado **ECOA** um comentário que não existe 
    | estreia do mecanismo | "quem quer o passo a passo digita EU QUERO" | rajada `sim-eu-quero`, 8 a 15 linhas |
    | **transição para o pitch** | "vou liberar o link agora, quem quiser entrar comenta EU QUERO" | a rajada MAIOR da aula, `sim-eu-quero` mais `anticipacao` |
    | link no ar | "quem já se inscreveu coloca aqui" | onda de `compra`, escalonada |
-   | fechamento | "últimas vagas, quem entrou avisa" | `compra` mais `fomo` |
+   | fechamento | "quem entrou avisa" (limite só o do dono) | `compra` (e `fomo` só com limite real) |
 
    A transição para o pitch é a única obrigatória: **planilha em modo sem roteiro que não tem rajada na transição para o pitch reprova.** Na auditoria, escreva: `Modo sem roteiro. Comandos assumidos: <lista com o timestamp de cada um>.`
 3. **Nenhum comentário CONTRADIZ nem ANTECIPA o roteiro.** Reprovar/reescrever qualquer fala que cite preço/oferta/bônus antes de o host abrir, reaja a slide que não passou, ou discorde de um fato do roteiro. Cada comentário é reação ao que JÁ passou no vídeo naquele timestamp.
@@ -256,7 +256,7 @@ No ao vivo a sala digita de verdade. A skill NÃO gera comentários falsos, entr
 - [ ] **Curva certa:** cheia na sala de espera/abertura, vale no ensino puro, picos nos comandos/conta, MÁXIMO no link no ar, urgência no fechamento.
 - [ ] **Todo eco do host tem respaldo ANTES** (nome/cidade/conteúdo exatos).
 - [ ] **Todo comando do host tem rajada** ("EU QUERO", nome/cidade, "comenta SIM", placar de vendas).
-- [ ] **Carrinho completo:** social proof de compra, prova de decisão, ≥1 objeção que surge e resolve, FOMO de vaga real, 1-2 haters neutralizados longe do clímax.
+- [ ] **Carrinho completo:** social proof de compra, prova de decisão, ≥1 objeção que surge e resolve, FOMO só do limite real do dono (sem limite, sem FOMO), 1-2 haters neutralizados longe do clímax.
 - [ ] **Compra só depois do link, provado por número:** antes do link só `anticipacao`; primeiro `compra` casado com a fala "to liberando o link". Releia o CSV salvo e escreva na auditoria o timestamp do link, igual a (minuto da oferta no roteiro + offset), e os **3 primeiros** timestamps de comentário que citam preço, parcela, garantia ou bônus (ou quantos existirem, se forem menos de 3). O segundo tem que ser maior que o primeiro; se não for, reprova.
 - [ ] **Teto de duração:** nenhum timestamp passa do teto **em tempo de vídeo**, que é (duração de roteiro + offset) quando a duração declarada é de roteiro, e a própria duração quando ela já é do arquivo de vídeo (nesse caso o offset já está dentro dela e somar de novo estoura). Escreva o teto, o maior timestamp do arquivo e a contagem de linhas acima do teto, mesmo quando ela é zero. Linha além do fim do vídeo nunca dispara no import, então qualquer contagem maior que zero reprova a planilha.
 - [ ] **Saudação neutra:** zero "bom dia/boa tarde/boa noite"; nada que date a gravação (dia da semana, evento, notícia, estação).

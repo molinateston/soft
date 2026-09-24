@@ -4,7 +4,7 @@
 >
 > **Relação com `ancoragem-e-fechamento.md` (irmã, não duplica).** Aquela cobre a ENGENHARIA DE PREÇO (dupla ancoragem, queda em degraus, reduzir ao ridículo, garantia, prova). ESTA cobre o que vem ANTES do preço: a COMPOSIÇÃO da pilha (quantos itens, de que tipos, como cada um é desejável, e em que ordem entram). "Em que segundo o preço cai" vai pra irmã. "Que itens existem na pilha e em que ordem" é aqui.
 >
-> **Marca-neutra (lei das skills genéricas).** Todos os números, nomes de produto, nomes de bônus e valores abaixo são **EXEMPLO ilustrativo** de molde preenchido (nicho neutro). O recheio real (itens, preços, garantia) é SLOT do cliente, puxado da oferta/Plano dele. Nunca decalcar rótulo com dono ("GPS da Gestão Ágil", "Swipe de webinários", "Black Belt Club" = de terceiros). A pilha do avatar mata os modos de fracasso DELE.
+> **Marca-neutra (lei das skills genéricas).** Todos os números, nomes de produto, nomes de bônus e valores abaixo são **EXEMPLO ilustrativo** de molde preenchido (nicho neutro). O recheio real (itens, preços, garantia) é SLOT do cliente, puxado da oferta/Plano dele. Nunca decalcar rótulo com dono ("GPS da Gestão Ágil", "arquivo de webinários validados", "Black Belt Club" = de terceiros). A pilha do avatar mata os modos de fracasso DELE.
 
 ---
 
@@ -13,7 +13,7 @@
 - 2. A TRIPARTIÇÃO dos itens (a classificação que É a ancoragem)
 - 3. As três jogadas que fazem a pilha PESAR
 - 4. O núcleo = escada de IDENTIDADE (como apresentar os módulos)
-- 5. Os BÔNUS DOS 15 PRIMEIROS (fast-action, camada separada do desconto)
+- 5. Os BÔNUS DOS N PRIMEIROS (fast-action, camada separada do desconto, só com o limite do dono)
 - 6. A soma RISCADA item por clique (a coreografia na tela)
 - 7. A ORDEM CANÔNICA de revelação da oferta (15 beats)
 - 8. Checklist de montagem da stack (o gate antes de escrever a Ação)
@@ -76,7 +76,9 @@ Os módulos do núcleo nunca são "tópicos": são DEGRAUS de quem a pessoa vira
 
 ---
 
-## 5. Os BÔNUS DOS 15 PRIMEIROS (fast-action, camada SEPARADA do desconto)
+## 5. Os BÔNUS DOS N PRIMEIROS (fast-action, camada SEPARADA do desconto)
+
+> **Condição.** A camada só existe com o limite e os bônus que o dono confirmou no insumo (no autor, 15 primeiros, sem prazo). Sem limite no insumo, a camada sai e o `_notas-operador.md` pergunta ao dono se ela existe. Prazo colado no limite ("só hoje", "só nesta aula") só com o prazo do dono.
 
 Os bônus de "15 primeiros" são uma CAMADA SEPARADA da stack, liberada só pra quem se inscreve AGORA. São **VÁRIOS** (não um só), cada um com preço declarado, idealmente em **camadas de escassez decrescente**: turma inteira leva o desconto, 15 primeiros levam 2 cursos, 10 primeiros levam um 3º. Quem chega mais rápido ganha mais.
 
@@ -135,7 +137,7 @@ A coreografia que afunda a pessoa. Cada item entra **um por clique**, anteriores
 - [ ] **Núcleo em PASSOS nomeados** pelo que a pessoa vira (escada de identidade), não em "X aulas / Y horas / Z módulos".
 - [ ] **Tripartição clara:** módulos (núcleo, sem preço) × cursos prateleira (com preço real checável) × UM bônus sem preço (Mastercard).
 - [ ] **Palavra "bônus" reservada a UM item só** (os complementares são "outro curso", "outro treinamento").
-- [ ] **Cada item da pilha mapeado a UMA objeção nomeada.**
+- [ ] **Cada item da pilha mapeado a UMA objeção nomeada, e a objeção escrita NA TELA ao lado do bônus** («[bônus]: pra quem pensa [objeção]»); o bônus que mata a objeção de maior peso fica guardado pro fechamento. Motivo: nos casos medidos o mapa ficou no plano e a tela mostrou só a lista de nomes.
 - [ ] **Os "inclusos" que matam objeção de pós-compra existem** (acesso, suporte, comunidade, anti-abandono, certificado/prova).
 - [ ] **Pelo menos UM item vale mais que o produto principal** (o bônus-âncora).
 - [ ] **Os preços avulsos somam âncora real (~2x+ o preço final), cada parcela CHECÁVEL** (número grande nunca acima de número crível).
@@ -156,4 +158,4 @@ A coreografia que afunda a pessoa. Cada item entra **um por clique**, anteriores
 - **Stack de volume vazio é proibido.** Empilhar PDF genérico / "aulas extras" que não respondem objeção nenhuma incha a lista e dilui os itens que vendem. Critério único: que objeção este item mata, ou quanta âncora ele soma com credibilidade?
 - **Guarda-corpo do avatar:** os itens da stack matam os modos de fracasso DO AVATAR DO CLIENTE (os dele, não os de outro nicho). Exemplo de nicho ilustra o beat, nunca vira recheio a decalcar.
 - **Números só checáveis;** tom clínico, nunca de palco; a escassez é honesta; a garantia cobre o resultado do método.
-- **Banido na copy:** travessão longo, "travar/travado", ALL-CAPS corrido, "alavancar", "mindset", tom de palco/guru.
+- **Banido na copy:** travessão longo, o verbo-freio banido, ALL-CAPS corrido, "alavancar", "mindset", tom de palco/guru.

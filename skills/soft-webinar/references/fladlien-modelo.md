@@ -1,6 +1,6 @@
 # O modelo Fladlien (a mecânica universal do webinar que vende, traduzida pro tom Soft)
 
-> **Quando consultar:** quando você for desenhar a ESPINHA do webinar inteiro (as 4 partes), ou afinar um dos quatro momentos críticos: a introdução (5 elementos + autoridade), a entrega de valor que não esgota o assunto (CVSC), a transição que faz a sala PEDIR o pitch (recap, yes momentum, two choices), ou a close (oferta, preço em queda, primeiro CTA rápido, bônus, garantia, escassez). Leia ANTES de produzir o roteiro, junto de `estrutura-webinario-aida.md`. Esta reference é a fonte da mecânica; a ADMA é onde ela vira ordem de blocos.
+> **Quando consultar:** quando você for desenhar a ESPINHA do webinar inteiro (as 4 partes), ou afinar um dos quatro momentos críticos: a introdução (5 elementos + autoridade), a entrega de valor que não esgota o assunto (CVSC), a transição que faz a sala PEDIR o pitch (recap, yes momentum, two choices), ou a close (oferta, preço em queda, primeiro CTA rápido, bônus, garantia, escassez). A transição e a close moram agora em `shared-references/venda-fladlien/fechamentos.md` e `componentes-da-oferta.md`. Leia ANTES de produzir o roteiro, junto de `estrutura-webinario-aida.md`. Esta reference é a fonte da mecânica; a ADMA é onde ela vira ordem de blocos.
 
 > **De onde vem:** Jason Fladlien (Rapid Crush), webinar "How to Create Million Dollar Webinars". Ele vende um curso de webinar FAZENDO um webinar, então o modelo dele está nu: ensina a estrutura enquanto a executa. Mais de US$100M vendidos por webinar, ROI documentado. É a referência mais limpa que existe da mecânica de 1:muitos. **(O nome próprio do mecanismo Soft é SLOT, a definir com o especialista; aqui só extraímos o porquê funciona.)**
 
@@ -52,7 +52,7 @@ O erro do player é tratar autoridade como adjetivo ("sou referência em X"). Fl
 ### Os outros quatro elementos
 
 - **Compromisso:** arranca um micro-sim de início ("preciso que você se comprometa a aplicar; combinado? escreve no chat"). É o primeiro degrau da escada de micro-compromissos.
-- **Objeções:** levanta a objeção-chave LOGO no começo, pra desarmar antes da oferta existir. **EXEMPLO (Fladlien):** ele mesmo levanta o "se eu estou aqui e você está aí, como a gente se conecta de verdade?", e responde, antes que vire dúvida silenciosa. (Isso casa com a doutrina de encenar a objeção antes dela nascer, ver `objection-annihilation.md`.)
+- **Objeções:** levanta a objeção-chave LOGO no começo, pra desarmar antes da oferta existir. **EXEMPLO (Fladlien):** ele mesmo levanta o "se eu estou aqui e você está aí, como a gente se conecta de verdade?", e só nomeia; a resposta vem no conteúdo. (Isso casa com a doutrina de encenar a objeção antes dela nascer, ver `objection-annihilation.md`.)
 - **Esperança:** o futuro pode ser melhor. Sem isso a pessoa nem topa ouvir a oferta.
 - **Intriga:** abre loops do que vem ("aqui está o que a gente vai ver hoje"), pra segurar até o fim.
 
@@ -95,79 +95,9 @@ A peça que protege a oferta: a "estratégia" do CVSC é o **O QUÊ, não o como
 
 ---
 
-## 3. A transição: o que MAIS dá pra modelar (3 elementos)
+## 3 e 4. A transição e a close
 
-A transição tem uma natureza que Fladlien chama de egoísta: ela serve, antes de tudo, pra colocar VOCÊ no estado de quem está servindo, não vendendo. A lei: se você está desconfortável vendendo, a sala vai ficar desconfortável comprando. São três movimentos, nesta ordem.
-
-### 3.1 Recap de 60 segundos
-
-Condensa o valor entregue em bullets rápidos, em sequência, pra mostrar o tamanho do que foi dado e gerar momentum. A pessoa sente quanto recebeu de graça, e isso prepara a gratidão que antecede a oferta.
-
-### 3.2 Yes momentum
-
-Dispara uma série de perguntas de "sim" ("nosso tempo foi valioso? sim. você se sente mais capaz agora? sim..."). Pequenos sins levam ao grande sim. É a mesma escada de micro-compromissos da skill, concentrada bem antes do pitch.
-
-### 3.3 Two Choices Close (a peça de ouro)
-
-> **Esta é a versão ELOQUENTE dos "2 caminhos (sozinho × comigo)" que já está no slide-modelo do corpus estudado (Bloco 4.3 da ADMA, a Encruzilhada).** Mesma mecânica: divide a sala em dois grupos e faz ela pedir o pitch. O slide-modelo do corpus estudado é a fonte canônica da forma; a two-choices do Fladlien mostra a articulação mais bem-acabada da MESMA jogada, pra você ver o teto da técnica antes de reconstruir na voz do especialista.
-
-> **EXEMPLO (Fladlien, a articulação literal, traduzida, NÃO decalcar):** *"Eu tenho absoluta confiança de que você pode pegar tudo que vimos hoje e, sozinho, sair e conseguir resultados que achava impossíveis. E se essa fosse sua única opção, já seria um ideal digno de perseguir. Mas e se houvesse outra opção? Uma em que a gente vai junto. Uma chance de ir mais fundo do que dá em uma hora de webinar. E se eu tivesse um papel ativo no seu resultado, uma responsabilidade no seu sucesso? Se eu tivesse essa opção pra você, você gostaria de conhecer? É por isso que é com grande prazer que eu te apresento [a oferta]."*
-
-O que torna isso ouro: o caminho "sozinho" é concedido com respeito (não humilha a competência da pessoa, casa com a objeção-mãe do Soft), e a oferta entra como uma PORTA que se abre, não como um empurrão. A sala pede pra conhecer.
-
-> **Por que cada palavra é trabalhada (o enquadramento):** Fladlien lembra o estudo dos médicos, "90% de sobrevivência" vende e "10% de mortalidade" não, mesma informação, enquadramento muda tudo. Por isso a two-choices é escrita palavra por palavra. **No Soft o enquadramento é clínico, não dramático:** concede de verdade ("dá pra fazer sozinho, eu fiz, levou tempo"), mede o custo do caminho longo, e devolve a escolha. Detalhe completo da Encruzilhada e da objeção-mãe ("concede competência, move pra escolha") em `estrutura-webinario-aida.md` (Bloco 4.3 e 4.4), `objection-annihilation.md` (nível 0) e `motor-3-viradas.md`.
-
----
-
-## 4. A close: a sequência (só técnica, mas a ordem é lei)
-
-A ordem do Fladlien: apresenta a oferta, revela o preço, PEDE o pedido, empilha os bônus, reverte o risco (garantia), quebra objeções, polvilha escassez. Os movimentos abaixo na ordem.
-
-### 4.1 A oferta: drill for the hole
-
-A frase-âncora: você compra a furadeira pelo BURACO, não pela furadeira. As features justificam a compra mas NÃO vendem, então passe por elas RÁPIDO. Cada componente apresentado numa estrutura fixa: **Headline + 3 benefícios + Prova + Future Pace** (algo como 3 slides, 3 minutos por componente). Nome do produto, tagline, uma frase de benefício.
-
-> **Tradução Soft:** "drill for the hole" é a tradução exata da Faca Soft aplicada à oferta, venda o resultado (o buraco), não a mão de obra (a furadeira). O detalhe de como cada componente cai na tela (headline, benefício, prova) está na Etapa PLANO/OFERTA (desta skill) (desenho) e na fase Ação da ADMA (apresentação, `estrutura-webinario-aida.md`).
-
-### 4.2 O preço: ancoragem em queda
-
-Linka o preço a um valor absurdo e DESCE em degraus, cada degrau com seu reason-why.
-
-> **EXEMPLO (Fladlien, a queda literal):** liga a um número grande (US$10M gerados numa sessão), derruba ("nas mãos certas vale US$1M"), derruba ("líderes pagam US$100k só pelo acesso"), derruba ("uma sala esgotada pagou US$4.995 pra aprender isso") e só então revela o preço real (US$14,97). A lei que ele declara: preço é sempre relativo, você o liga a coisas de valor estabelecido mais alto, derruba, derruba de novo, e revela o real. O sweet spot psicológico: fazer a pessoa sentir que está se aproveitando de VOCÊ.
-
-> **Tradução Soft (lei de avatar):** âncora em "resultado gerado" só funciona quando o produto É a máquina de dinheiro (B2B/marketing). No avatar do perfil (dono maduro), a âncora primária é o **custo invisível** (o que ele JÁ PERDE não agindo), e a soma do stack é só moldura. A engenharia fina (dupla ancoragem, qual usar pra qual avatar, lastro auditável, reduzir ao ridículo com objeto real) está em `frameworks-proprietarios.md` §5 + `exemplos-por-bloco/10-ancoragem-preco.md`. Aqui fica só o princípio: número grande primeiro vira a régua, a queda é sentida a partir do teto, nunca a partir do zero, e cada degrau precisa de razão verdadeira.
-
-### 4.3 O primeiro CTA RÁPIDO
-
-No máximo uns 5 minutos depois de começar a close, já dá o primeiro link. A lei: você não consegue torturar ninguém até comprar. Não espere 30 a 40 minutos de pitch pra liberar o botão; quem já decidiu precisa da porta agora.
-
-> **Tradução Soft (a calibragem que importa):** o "CTA rápido" do Fladlien NÃO contradiz a regra do método de que o botão só aparece na hora exata. As duas convivem assim: até o primeiro CTA é tudo copy e ancoragem (nada de botão), e quando a close começa o primeiro CTA vem cedo dentro DELA (não 40 min depois de começar a vender). Cedo na close, não cedo no webinar. Os três CTAs distribuídos (ganho, lógica, medo) estão em `exemplos-por-bloco/12-escassez-urgencia-cta.md` (e nos blocos 4.12/4.14/4.17 de `estrutura-webinario-aida.md`).
-
-### 4.4 Os bônus (mais importantes que a oferta pra conversão)
-
-Cada bônus na mesma fórmula (headline, benefícios, prova, future pace) e conectado ao núcleo ("por isso eu incluo isto"). Fladlien gasta MAIS tempo nos bônus do que no produto principal, de propósito: o bônus certo vira a verdadeira razão de comprar.
-
-> **EXEMPLO (Fladlien):** os bônus reais dele viram o índice das objeções, funil pronto (página de cadastro, obrigado, checkout, replay, com a conta "US$62k vs US$250k" só pela página de replay), montagem de slide, swipes, exemplos dissecados, manuais de close palavra por palavra, SOPs de tech. Cada bônus mata uma objeção operacional específica.
-
-> **Tradução Soft:** "bônus > oferta" é lei de empilhamento, pelo menos um bônus com valor percebido MAIOR que o produto principal, pra virar o motivo de comprar. A engenharia (bônus sem preço, guardar a palavra "bônus" pra um item só, acesso como perda, não usar "bônus!" de palco com avatar maduro) está em `exemplos-por-bloco/09-oferta-stack.md`.
-
-### 4.5 A garantia (reverte o risco)
-
-> **EXEMPLO (Fladlien):** "rode um webinar em 30 dias seguindo a fórmula; se não melhorar muito além do que investiu, me mande o link e eu devolvo cada centavo." No extremo dele: "se você não fizer o dobro do investimento de volta, eu devolvo o DOBRO do seu dinheiro", desarmando a letra miúda na mesma fala ("não tem cláusula maluca nenhuma"). Ele declara que a garantia certa faz mais pelo webinar do que qualquer outra coisa.
-
-> **Tradução Soft:** no Soft a garantia é CARDÁPIO, escolhida pelo ticket e pela prova (acesso implícito, experimento de 7 dias, incondicional, super-garantia 90+90, ROI-como-garantia). O ROI-como-garantia extremo do Fladlien só vale com prova esmagadora e resultado financeiro mensurável; sem isso vira arrogância e o avatar maduro fareja. Cardápio inteiro e régua de escolha em `exemplos-por-bloco/11-garantia.md`.
-
-### 4.6 A escassez (real e honesta)
-
-> **EXEMPLO (Fladlien):** timer mecânico terceirizado que zera e fecha de verdade, com reason-why ("está montado pra fechar automaticamente, pra eu ser deliberado com quem entra"). Escassez honesta, fecha o deal de verdade.
-
-> **Tradução Soft:** escassez sempre honesta, slot real, lugares limitados de verdade por sessão, número que É a capacidade real de entrega ("estou em paz com os N primeiros porque é o que eu consigo entregar"). Nunca cronômetro falso que reseta. A urgência mais forte é interna (o custo invisível correndo). Engenharia de escassez (gamificada, escalonada, a rede pro 16º) em `exemplos-por-bloco/12-escassez-urgencia-cta.md`.
-
-### 4.7 O checklist de fechamento ("isto é pra você?")
-
-Fladlien fecha com uma sequência de auto-qualificação: responsabilidade moral de levar a solução a quem precisa, o prospect mais educado fecha melhor, usar múltiplos veículos, e "seu coração te puxa pra isso? a resposta é sim, senão você não estaria aqui". Qualquer "sim" conclui a compra pela porta da identidade: discordar é negar a própria presença ali.
-
-> **Tradução Soft:** mesma função do Fastpass e da psicologia reversa do "pra quem NÃO é", a pessoa se afirma como o tipo certo. No tom Soft, isto é clínico (devolve a escolha com respeito), nunca chantagem emocional ("você não ama sua família o suficiente?"). Detalhe em `objection-annihilation.md` (Fastpass por checklist) e Bloco 4.3 da ADMA.
+> **Movidas pro compartilhado.** A transição (recap de 60 segundos, sim em série, two choices com o caminho sozinho concedido com respeito, o enquadramento palavra por palavra, servir antes de vender) está em `shared-references/venda-fladlien/fechamentos.md` §2 e §8. A close (o núcleo pelo buraco e não pela furadeira, o preço ligado a valor alto e descendo em degraus, o primeiro CTA rápido dentro da close, os bônus com mais tempo que o núcleo, a garantia, a escassez real com reason-why, o checklist "isto é pra você?") está em `shared-references/venda-fladlien/componentes-da-oferta.md` e em `fechamentos.md` §8. A tradução Soft de cada peça segue nas references da skill: âncora primária no custo invisível e dupla ancoragem em `frameworks-proprietarios.md` §5 e `ancoragem-e-fechamento.md`; garantia por cardápio em `exemplos-por-bloco/11-garantia.md`; escassez honesta e 3 CTAs em `exemplos-por-bloco/12-escassez-urgencia-cta.md`; bônus sem preço em `stack-de-oferta-e-bonus.md`; a Encruzilhada e a objeção-mãe em `objection-annihilation.md` (nível 0).
 
 ---
 
@@ -195,7 +125,7 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 
 2. **Especificidade é credibilidade; vago lê como mentira.** Data exata, valor quebrado, nome completo de cada pessoa. O cérebro lê número redondo e anônimo como marketing, e número quebrado, datado e nominal como fato. *Soft:* bate com "concretude vence abstração" e com o anti-guru. Todo caso do corpus estudado entra com nome, cidade e número exato; arredondar é enfraquecer.
 
-3. **Micro-sim transversal (yes momentum o webinar inteiro).** Pergunta de "sim" no fim de quase toda seção ("combinado? escreve sim"; "isso não ajudaria?"). Ele coleta dezenas de sins pequenos antes do sim grande, e o sim final vira só mais um da série. Não é exclusivo da transição (seção 3.2), é transversal. *Soft:* o "EU QUERO" no chat e os micro-comandos do slide-modelo são isto; a alavanca é aumentar a FREQUÊNCIA, não guardar tudo pro fim.
+3. **Micro-sim transversal (yes momentum o webinar inteiro).** Pergunta de "sim" no fim de quase toda seção ("combinado? escreve sim"; "isso não ajudaria?"). Ele coleta dezenas de sins pequenos antes do sim grande, e o sim final vira só mais um da série. Vale além da transição (`fechamentos.md` §2): é transversal. *Soft:* o "EU QUERO" no chat e os micro-comandos do slide-modelo são isto; a alavanca é aumentar a FREQUÊNCIA, não guardar tudo pro fim.
 
 4. **Open loops: abre curiosidade, paga depois.** Planta a pergunta ("quer saber o resultado disso? a gente abre mais pra frente"), segue, e fecha lá na frente. A atenção fica presa por dívida de curiosidade. *Soft:* usar nos fascinations e ao longo do Mecanismo; o loop de EXECUÇÃO fica aberto de propósito (o "como" é o produto, a Faca Soft).
 
@@ -203,9 +133,9 @@ tirar o hype, o alto-astral e a postura de guru; falar clínico, de quem já fez
 
 6. **Humanizar vende VOCÊ (a 2ª venda).** O detalhe pessoal, a pausa "respira um segundo comigo". Isso não vende o curso, vende a pessoa. Todo webinar tem 2 vendas (o produto e VOCÊ); o teste é se depois a sala quer ouvir mais ou menos de você (seção 2, as 2 vendas). *Soft:* a relação é o ativo que alimenta o pós-webinar e a esteira; o tom clínico do corpus estudado é o jeito DELE de gerar like e trust, não o registro de palco do Fladlien.
 
-7. **Future pacing constante.** Ele pinta a cena do depois repetidamente, não só na oferta ("na próxima boa oportunidade, você age com uma confiança que não tinha"). A pessoa se vê já com o resultado, e então não comprar vira perder algo que ela já sentiu como seu. *Soft:* o "imagine como será" do slide-modelo e a pergunta que faz o cérebro gastar o ganho ANTES do preço chegar (conecta com a ancoragem da seção 4.2).
+7. **Future pacing constante.** Ele pinta a cena do depois repetidamente, não só na oferta ("na próxima boa oportunidade, você age com uma confiança que não tinha"). A pessoa se vê já com o resultado, e então não comprar vira perder algo que ela já sentiu como seu. *Soft:* o "imagine como será" do slide-modelo e a pergunta que faz o cérebro gastar o ganho ANTES do preço chegar (conecta com a ancoragem, `componentes-da-oferta.md` §3).
 
-8. **Urgência MORAL, não comercial.** "A maior injustiça é ter como ajudar alguém e escolher não ajudar." Ele transforma o não-comprar numa falha de quem assiste, sempre dentro do enquadramento de SERVIR. É pressão sem ser vendedor. *Soft:* alinha com filtrar em vez de convencer e com escassez honesta; a urgência nasce do custo de não resolver o problema (o custo invisível correndo), nunca de falsa escassez. É a mesma fonte de urgência interna da seção 4.6.
+8. **Urgência MORAL, não comercial.** "A maior injustiça é ter como ajudar alguém e escolher não ajudar." Ele transforma o não-comprar numa falha de quem assiste, sempre dentro do enquadramento de SERVIR. É pressão sem ser vendedor. *Soft:* alinha com filtrar em vez de convencer e com escassez honesta; a urgência nasce do custo de não resolver o problema (o custo invisível correndo), nunca de falsa escassez. É a mesma fonte de urgência interna da escassez honesta (`componentes-da-oferta.md` §6).
 
 **O arco de 5 passos (a história que ele repete).**
 
@@ -239,7 +169,7 @@ A força do arco: a oferta é o desfecho NATURAL da história, não um pitch col
 
 ### O reframe-mãe (a pergunta que costura conteúdo e oferta)
 
-- O que eu entregaria pra a pessoa sair MELHOR só com o que viu hoje, e só ENTÃO mostrar que a oferta a leva ainda mais longe? (Esta é a pergunta que gera a two-choices da seção 3.3 e a Encruzilhada: o "sozinho" tem que ser concedido com respeito real, "dá pra fazer sozinho, eu fiz, levou tempo".)
+- O que eu entregaria pra a pessoa sair MELHOR só com o que viu hoje, e só ENTÃO mostrar que a oferta a leva ainda mais longe? (Esta é a pergunta que gera a two-choices (`fechamentos.md` §2) e a Encruzilhada: o "sozinho" tem que ser concedido com respeito real, "dá pra fazer sozinho, eu fiz, levou tempo".)
 
 ### Transição e Close (gera a Ação)
 

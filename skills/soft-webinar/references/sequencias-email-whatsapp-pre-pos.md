@@ -23,7 +23,7 @@
 
 ## Por que email + WhatsApp (não só email)
 
-**Brasil 2026:** WhatsApp tem taxa de abertura ~95%. Email tem ~25-40%. Quem só usa email perde 60-70% do alcance possível.
+**Brasil 2026 (dado de bastidor, sem fonte conferida; nunca vai pra copy nem pro cabeçalho da entrega):** WhatsApp tem taxa de abertura ~95%. Email tem ~25-40%. Quem só usa email perde 60-70% do alcance possível.
 
 **Diferença de papéis:**
 - **Email:** narrativa longa, contexto, link clicável, registro permanente
@@ -31,7 +31,7 @@
 
 **Princípio Soft:** mensagem certa no canal certo.
 
-### O DADO-OURO: WhatsApp no funil = +54% de comparecimento (teste A/B real)
+### O DADO-OURO: WhatsApp no funil = +54% de comparecimento (teste A/B real) (dado interno pro dono escolher o canal; nunca vai pra copy)
 
 - **Premissa.** Show-up não é detalhe - conversão final = show-up × taxa de venda. Qualquer ponto a mais de comparecimento é multiplicador direto de faturamento.
 - **Mecanismo.** Teste A/B documentado no corpus (operação real de webinar perpétuo, 2022): o mesmo tráfego dividido entre dois funis idênticos - um notificando só por email, outro com WhatsApp integrado à mesma régua de notificações (confirmação → 24h antes → 1h antes → link da sala → perdeu).
@@ -62,6 +62,8 @@ DURANTE
 └─ WhatsApp meio (mensagem 2: timer pra oferta)
 
 PÓS-WEBINAR
+├─ Reconvite R1 e R2 (nao-compareceu e assistiu-0 - nova sessão, sem pitch)
+├─ Nutrição N1 e N2 (assistiu-50 - o que faltou + sessão nova)
 ├─ Email 4 + WhatsApp 5 (1h depois - resumo + checkout)
 ├─ Email 5 + WhatsApp 6 (12h depois - depoimentos)
 ├─ Email 6 + WhatsApp 7 (24h depois - quebra de objeção)
@@ -77,6 +79,10 @@ PÓS-WEBINAR
 ---
 
 ## PRÉ-WEBINAR
+
+> **Anti-padrão (vale pra toda esta referência):** todo valor dentro de um exemplo desta referência (palavra-chave, número de canal, prazo, nome) é do caso de origem e nunca vai pra peça do dono; na peça ele vira lacuna.
+>
+> **Linha condicional (vale pra todo molde abaixo).** Linha de prazo ou escassez («vale só nessa sessão», «vale por mais [N horas]», «termina amanhã», «último dia»), de replay («não vai ter replay») e de presença ao vivo («vou ficar pra Q&A», «já tem gente aguardando») só entra quando o insumo traz o motivo, o prazo ou a decisão do dono, e presença só no ao vivo. Sem isso, a linha sai da mensagem e vira pergunta ao dono no relato. Motivo: nos casos medidos os moldes carregaram «só nessa sessão», «não vai ter replay» e «vou ficar pra tirar dúvida» pra um perpétuo gravado sem nenhuma dessas decisões no insumo.
 
 ### Mensagem 1 - No cadastro (envio imediato)
 
@@ -96,7 +102,7 @@ Confirmado. Vou te ver no [data] às [hora] no [Nome do Webinar].
 Antes de começar, 3 coisas:
 
 1) Salva esse contato no WhatsApp: [número]
-   Manda "OI" pra liberar os lembretes.
+   Manda "[palavra do dono, com origem]" pra liberar os lembretes.
    Sem WhatsApp ativo, você corre risco de perder o link da sala.
 
 2) Adiciona no calendário:
@@ -112,50 +118,18 @@ Te vejo lá.
 
 [Assinatura]
 
-P.S.: Se não puder vir, me responde esse email avisando. Vaga é limitada
-e prefiro liberar pra fila de espera.
+P.S.: Se não puder vir, me responde esse email avisando.
+[Só com limite real de sala no insumo: o limite e o motivo do dono, em uma linha.]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - origem: nicho Enes, METODO 5.4.1).** Molde acima virado peça real:
->
-> ```
-> Assunto: Confira os dados da sua inscrição na Aula Sniper
->
-> Olá Marina,
->
-> Confirmado. Vou te ver quarta, 19h, na Aula Sniper de Recolocação.
->
-> Antes de começar, 3 coisas:
->
-> 1) Salva esse contato no WhatsApp: (11) 9XXXX-XXXX
->    Manda "OI" pra liberar os lembretes.
->    Sem WhatsApp ativo, você corre risco de perder o link da sala.
->
-> 2) Adiciona no calendário:
->    [Google] | [Apple] | [Outlook]
->
-> 3) Vem com teu currículo atual aberto numa aba.
->    Não vou pedir, mas você vai querer comparar com o que eu mostrar.
->
-> A sessão vai ser densa. Não vou enrolar. Você sai sabendo por que
-> mandar currículo parou de funcionar - e o que fazer no lugar.
->
-> Te vejo lá.
-> [seu nome]
->
-> P.S.: O horário aparece como "7pm" na ferramenta - é 19h, horário de
-> Brasília. (Já teve gente me perguntando se a aula era no Rio. Não é
-> lugar, é fuso.)
-> ```
->
-> **Por que esse P.S. existe:** Enes antecipa no corpo a confusão de AM/PM porque *"tem gente que pergunta: é no Rio, a palestra vai ser no Rio?"* - qualquer dúvida não resolvida (fuso, horário) vira desculpa pra não comparecer. Antecipar a confusão previsível é proteger o show-up. **Regra:** no seu nicho, troque o recheio (a aula, o objeto que a pessoa traz, a objeção-mãe), mas mantenha o assunto-curiosidade, o opt-in de WhatsApp e a antecipação de qualquer confusão de horário.
+> **Por quê (o P.S. do fuso):** antecipe no corpo qualquer confusão previsível de horário ou fuso, porque dúvida não resolvida vira desculpa pra não comparecer. No seu nicho, troque o recheio (a aula, o objeto que a pessoa traz) e mantenha o assunto-curiosidade, o opt-in de WhatsApp e a antecipação da confusão de horário.
 
-**WHATSAPP 1 - molde** (após cliente mandar "OI")
+**WHATSAPP 1 - molde** (após o lead mandar a palavra do dono)
 
 ```
 [Primeiro nome], aqui é [seu nome] (do [Nome do Webinar]).
 
-Tua vaga tá confirmada pro dia [data] às [hora].
+Tua inscrição tá confirmada pro dia [data] às [hora].
 
 Deixa esse contato fixado aqui - vou te mandar:
 → Lembrete 24h antes
@@ -168,25 +142,7 @@ Tô separando algumas coisas que só vão pelo WhatsApp
 Combinado?
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Marina, aqui é o [seu nome] (da Aula Sniper de Recolocação).
->
-> Tua vaga tá confirmada pra quarta, 19h.
->
-> Deixa esse contato fixado aqui - vou te mandar:
-> → Lembrete 24h antes
-> → Lembrete 1h antes
-> → O link da sala 5 min antes
->
-> Tô separando uma lista de currículos reais que só vai por aqui
-> (quem ficar só no email não pega).
->
-> Combinado?
-> ```
->
-> **Por que "quem ficar só no email não pega":** é o opt-in se vendendo a si mesmo. A pessoa fixa o contato porque tem algo exclusivo no canal - e fixar o contato é o que protege a entrega das próximas mensagens. O "manda OI" + isto é a mecânica de captura-sem-fricção (ver seção técnica no fim). **No seu nicho:** o "algo que só vai pelo WhatsApp" tem que ser real e do nicho (uma lista, um bônus, um arquivo) - nunca uma promessa vazia.
+> **Por quê (algo que só vai pelo WhatsApp):** o opt-in se vende sozinho quando o canal tem algo exclusivo e real do nicho (uma lista, um bônus, um arquivo); fixar o contato protege a entrega das próximas mensagens. Nunca promessa vazia.
 
 ### Mensagem 2 - 24h antes do webinar
 
@@ -220,10 +176,10 @@ inteira: como [resultado] em [tempo curto] mesmo sem [objeção].
 
 Prepara:
 - Computador ou celular bem carregado
-- 60 minutos sem interrupção (avisa quem precisa)
+- [duração que o dono deu] sem interrupção (avisa quem precisa)
 - Caderno aberto
 
-Não vou liberar replay completo. Quem ficou pra trás esse mês perdeu mesmo.
+[A política de replay que o dono deu, em uma linha. Sem ela, a linha sai.]
 
 [Assinatura]
 
@@ -231,52 +187,14 @@ P.S.: Confirma teu WhatsApp no link [WhatsApp] se ainda não confirmou.
 É por lá que mando o link da sala 5 min antes.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - o insight + bullets virados peça real):**
->
-> ```
-> Assunto: Amanhã, 19h - o número que muda como você procura emprego
->
-> Marina,
->
-> Amanhã às 19h a gente se vê.
->
-> Antes, um pedaço do método pra você chegar com contexto:
->
-> Recrutador olha um currículo por 6 segundos antes de decidir. SEIS.
-> Você não está sendo recusada pela sua experiência - está sendo recusada
-> antes de ela ser lida. O jogo não é "melhorar o currículo". É parar de
-> jogar o jogo que decide em 6 segundos.
->
-> Esse é a porta de entrada. Na aula a gente entra na sala inteira: como
-> ser chamada pra entrevista sem disputar a pilha de currículos de todo
-> mundo.
->
-> 3 coisas que separei pra amanhã:
-> ✓ Por que mandar mais currículo piora as suas chances (e o que faz no lugar)
-> ✓ Os 3 sinais de que você está caçando vaga do jeito errado
-> ✓ Como gente que estava 8 meses parada foi chamada em 3 semanas
->
-> Prepara:
-> - Celular ou PC carregado
-> - 60 minutos sem interrupção (avisa quem precisa)
-> - Teu currículo atual aberto pra comparar
->
-> Não vou liberar replay completo. Quem ficou pra trás esse mês perdeu mesmo.
->
-> [seu nome]
->
-> P.S.: Confirma teu WhatsApp se ainda não confirmou - é por lá que vai o
-> link da sala 5 min antes.
-> ```
->
-> **Mecanismo:** o insight (os 6 segundos) é um pedaço REAL do conteúdo, não um teaser oco - ele entrega valor e ao mesmo tempo abre o loop ("o jogo não é melhorar o currículo... então o que é?"). Os bullets são os mesmos da página, reescritos como resultado/função (Faca Soft: o quê, nunca o como). **No seu nicho:** troque o dado-âncora (6 segundos) pelo equivalente do seu mercado, mas mantenha - insight real + bullets reaquecidos + anti-fuga ("sem replay completo").
+> **Por quê:** o insight é um pedaço real do conteúdo, que entrega valor e abre o loop; os bullets são os da página, reescritos como resultado (o quê, nunca o como). Mantenha insight real + bullets reaquecidos + o aviso anti-fuga só quando o dono decidiu sem replay.
 
 **WHATSAPP 2 - molde**
 
 ```
 [Primeiro nome] - amanhã, [hora].
 
-Bloqueia 60 min. Sem celular paralelo, sem reunião marcada em cima.
+Bloqueia [duração do dono]. Sem celular paralelo, sem reunião marcada em cima.
 
 Eu vou te mostrar [Promessa Primária resumida em 1 linha].
 
@@ -285,26 +203,11 @@ Se ficar com alguma dúvida antes, me responde aqui.
 Te vejo amanhã.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Marina - amanhã, 19h.
->
-> Bloqueia 60 min. Sem celular paralelo, sem reunião marcada em cima.
->
-> Eu vou te mostrar como ser chamada pra entrevista sem disputar a
-> pilha de currículos de todo mundo.
->
-> Se ficar com alguma dúvida antes, me responde aqui.
->
-> Te vejo amanhã.
-> ```
->
-> **Por que funciona:** o WhatsApp NÃO repete o email - ele comprime tudo numa linha de promessa primária e num pedido de compromisso ("bloqueia 60 min"). Marcar o compromisso é o que gera presença. **No seu nicho:** a 1 linha é a sua promessa primária ("como [resultado] sem [objeção]"), nunca um resumo do email.
+> **Por quê:** o WhatsApp não repete o email; comprime tudo numa linha de promessa primária («como [resultado] sem [objeção]») e num pedido de compromisso (bloquear o horário). Marcar o compromisso gera presença.
 
 ### Mensagem 3 - 1h antes do webinar
 
-**Função:** cria a urgência de entrar, reforça o anti-fuga (sem replay) e o gancho de retenção (bônus pra quem fica até o fim). Assunto curto, direto. Enes usa a régua *"a palestra começa em menos de uma hora"* - informa e reaquece.
+**Função:** cria a urgência de entrar, reforça o anti-fuga (quando o dono decidiu sem replay) e o gancho de retenção (quando o dono tem um bônus pra quem fica até o fim). Assunto curto, direto. Enes usa a régua *"a palestra começa em menos de uma hora"* - informa e reaquece.
 
 **EMAIL 3 - molde**
 
@@ -318,10 +221,10 @@ Em 60 minutos a gente começa.
 Última coisa antes:
 
 Não é mais um webinar. É o método inteiro entregue de uma vez.
-Não vai ter replay completo. Não vai ter resumo no email seguinte.
+[A política de replay do dono, se ele deu.]
 
-Quem entrar e ficar até o final pega o bônus surpresa que vou anunciar 
-no minuto 50.
+[Só com bônus de retenção no insumo: Quem ficar até o final leva 
+[bônus do dono], que eu mostro no minuto [minuto da oferta].]
 
 Link da sala vai pelo WhatsApp 5 minutos antes do horário.
 Se você ainda não confirmou WhatsApp, faz agora: [link]
@@ -331,32 +234,7 @@ Entra logo. A sala abre [10 min] antes - quanto mais cedo, mais sossego.
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Assunto: 1h pra começar - entra com calma
->
-> Marina,
->
-> Em 60 minutos a gente começa.
->
-> Última coisa antes:
->
-> Não é mais um webinar. É o método sniper inteiro de uma vez.
-> Não vai ter replay completo. Não vai ter resumo no email seguinte.
->
-> Quem entrar e ficar até o final pega a lista dos 30 melhores currículos
-> reais que eu anuncio no minuto 50.
->
-> O link da sala vai pelo WhatsApp 5 minutos antes. Se ainda não confirmou
-> o WhatsApp, faz agora: [link]
->
-> Entra logo. A sala abre 10 min antes - quanto mais cedo, mais sossego.
->
-> [seu nome]
-> ```
->
-> **Mecanismo do bônus-de-retenção:** prometer um bônus que só é anunciado perto do fim (aqui, "no minuto 50") segura a pessoa até a oferta - e a oferta abre logo depois. É o mesmo gancho que a GA opera ("PDF da aula automaticamente... só pra quem ficou até o final"). **No seu nicho:** o bônus tem que ser do nicho e desejável; o ponto ("minuto 50") é o seu timestamp de oferta.
+> **Por quê (bônus de retenção, quando o dono tem um):** um bônus anunciado só perto do fim segura a pessoa até a oferta, que abre logo depois (o mesmo gancho do material enviado só pra quem ficou até o final). O bônus é do nicho e desejável; o ponto em que ele é anunciado é o minuto da oferta do dono.
 
 **WHATSAPP 3 - molde**
 
@@ -365,24 +243,15 @@ Entra logo. A sala abre [10 min] antes - quanto mais cedo, mais sossego.
 
 A sala abre [10 min] antes. Te mando o link [5 min] antes - fica de olho.
 
-Avisa em casa que vai sumir por 60 min.
+Avisa em casa que vai sumir por [duração do dono].
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> 1h pra Aula Sniper começar, Marina.
->
-> A sala abre 10 min antes. Te mando o link 5 min antes - fica de olho no zap.
->
-> Avisa em casa que vai sumir por 60 min. 🎯
-> ```
 
 ### Mensagem 4 - 5 minutos antes (só WhatsApp)
 
 **Função:** entrega o link da sala. **Só WhatsApp, nunca email** - email atrasa, vai pra spam, a pessoa não vê a tempo.
 
-> **⭐ Verbatim de campo (a mensagem do link-na-hora):** *"Ei [primeiro nome], nossa aula vai começar! Já tem gente aguardando, só falta você, vem! Aqui está o link de acesso"* + o link único da pessoa. O *"só falta você"* é prova social + puxão: a sala já tem gente, a pessoa é a peça que falta. (origem: corpus de webinar Soft.)
+> **⭐ Verbatim de campo (a mensagem do link-na-hora):** *"Ei [primeiro nome], nossa aula vai começar! Já tem gente aguardando, só falta você, vem! Aqui está o link de acesso"* + o link único da pessoa. O *"só falta você"* é prova social + puxão: a sala já tem gente, a pessoa é a peça que falta. (origem: corpus de webinar Soft.) Só no ao vivo; no perpétuo gravado, "já tem gente aguardando" é presença que não existe e sai.
 
 **WHATSAPP 4 - molde**
 
@@ -396,20 +265,6 @@ Entra agora. Começa em [5 min].
 Qualquer problema técnico, me responde aqui que eu te ajudo.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego, na voz "só falta você"):**
->
-> ```
-> Ei Marina, a Aula Sniper vai começar! 🎯
->
-> Já tem gente na sala, só falta você. Vem:
->
-> LINK DA SALA: [URL individual da Marina]
->
-> Começa em 5 min. Entra agora que eu já vou ao ar.
->
-> Qualquer problema técnico, me responde aqui que eu te ajudo na hora.
-> ```
->
 > **Detalhe técnico que faz o perpétuo parecer ao vivo:** no perpétuo, esse link é **individual por lead** (modelo cinema - cada um na sua sessão). A plataforma passa nome/horário/link-único pra automação, que passa pro WhatsApp via API. A mensagem chega com o link exato da sessão que aquela pessoa escolheu. (origem: cap09 - "o link único por lead".)
 
 > **Sem email 5min antes.** Email atrasa, vai pra spam, cliente não vê. WhatsApp é o canal certo.
@@ -433,16 +288,6 @@ Não sai antes - a parte forte tá vindo.
 Se não conseguiu entrar, link aqui: [URL]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Tá na Aula Sniper agora, Marina?
->
-> Daqui uns 20 min eu mostro o método inteiro - a parte que vira o
-> jogo. Não sai antes.
->
-> Se caiu ou não conseguiu entrar, link aqui: [URL]
-> ```
 
 **WHATSAPP DURANTE 2** - no minuto ~50 (quando abre oferta no webinar)
 
@@ -451,23 +296,12 @@ Se não conseguiu entrar, link aqui: [URL]
 ```
 [Nome do Produto] tá aberto agora.
 
-Bônus de ação rápida vale só nessa sessão.
+[Prazo do bônus que o dono confirmou; sem ele, a linha sai.]
 Link direto pro checkout: [URL]
 
-Vou ficar mais [10-15 min] pra Q&A.
+[Só ao vivo: Vou ficar mais [N min] pra tirar dúvida.]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> O Método Sniper completo tá aberto agora, Marina.
->
-> A lista dos 30 currículos + as 3 frases mágicas valem só nessa sessão.
-> Link direto pro checkout: [URL]
->
-> Vou ficar mais uns 15 min na sala pra tirar dúvida.
-> ```
->
 > **Mecanismo (cartão na mão antes do link):** a urgência só converte se a ação for sem fricção no pico emocional. Os campeões mandam a sala "já pega o cartão" ANTES do link existir, pra que no instante da decisão não haja janela pra racionalizar. **Para a copy verbatim da escassez auditável (bônus dos 15 primeiros, confirmação automática, cartão na mão, corrida narrada), ver `exemplos-por-bloco/12-escassez-urgencia-cta.md`.** A mensagem de WhatsApp aqui é o eco dessa escassez no canal - nunca uma escassez nova ou falsa.
 
 > Esses 2 WhatsApps durante **só pra quem confirmou WhatsApp**. Não manda email durante o webinar - quebra atenção.
@@ -505,6 +339,78 @@ A sequência abaixo NÃO é a mesma pra todo mundo. Antes de escrever qualquer e
 
 ---
 
+### Reconvite R1 e R2 (nao-compareceu e assistiu-0)
+
+**Função:** traz de volta pra uma sessão nova quem não veio ou saiu nos primeiros minutos. Sem pitch, sem preço: a pessoa ainda não viu o problema, e oferta agora queima o lead. No ao vivo, a próxima edição; no perpétuo, outra sessão do mesmo webinar.
+
+**R1 - EMAIL (logo depois da sessão marcada) - molde**
+
+```
+Assunto: A sua sessão passou. A próxima é [dia e horário]
+
+[Primeiro nome],
+
+Você marcou [Nome do Webinar] e não conseguiu ficar. Acontece.
+
+Nela eu mostro [a promessa, com o resultado medido do insumo].
+
+Escolhe o horário que cabe: [link de remarcar, um clique]
+
+[Assinatura]
+```
+
+**R2 - EMAIL (24h depois, ângulo novo) - molde**
+
+```
+Assunto: "[a objeção de maior peso da lista-mestra, na fala do público]"
+
+[Primeiro nome],
+
+Muita gente me diz isso antes da aula.
+Na aula eu mostro por que [a virada sobre essa objeção, em uma linha, 
+sem o passo a passo].
+
+Ainda dá pra assistir: [link de remarcar]
+
+[Assinatura]
+```
+
+**WHATSAPP R - molde:** `[Primeiro nome], a aula de [tema] tem sessão [horário]. Te mando o link? [link]`
+
+> **Por quê:** o reconvite vende a aula, nunca o produto; o ângulo novo do R2 sai da lista-mestra, porque quem faltou costuma faltar pela mesma desculpa que impede a compra.
+
+### Nutrição N1 e N2 (assistiu-50, saiu antes da oferta)
+
+**Função:** entrega o «o quê» que a pessoa perdeu e reabre a aula. Sobe a consciência antes de vender; quem reage (clica, responde, volta à sessão) entra na régua de fechamento.
+
+**N1 - EMAIL (1h depois) - molde**
+
+```
+Assunto: A parte que você não viu
+
+[Primeiro nome],
+
+Você saiu logo depois de [o ponto do Diagnóstico em que a tag parou].
+O que veio em seguida:
+- [o quê do passo 1 do Mecanismo, sem o passo a passo]
+- [o quê do passo 2]
+- [o quê do passo 3]
+
+[Caso do insumo, duas linhas, na moeda da promessa.]
+
+Assiste de novo a partir daí: [link da sessão nova]
+
+[Assinatura]
+```
+
+**N2 - EMAIL (24h depois) - molde:** a objeção de maior peso da lista-mestra no molde de 3 passos da Mensagem 7, sem preço, fechando no link da sessão nova em vez do checkout.
+
+**WHATSAPP N - molde:** `Você saiu antes da parte de [o quê do Mecanismo]. Ela começa no minuto [N]: [link da sessão]`
+
+> **Por quê:** quem saiu antes da oferta não sabe o que está recusando; oferta direta pra ele é pitch pra quem não viu o problema resolvido. A nutrição mostra o que faltou e devolve a pessoa pra aula.
+
+---
+
 ### A esteira semanal sincronizada (a automação pós-aula que vende sozinha)
 
 A sequência por timing (Msg 5→9, ancorada na hora da oferta) é o **fechamento quente** das primeiras 72h. Mas existe uma segunda camada que roda em paralelo e captura quem não fechou na semana 1: a **automação semanal**, validada verbatim no corpus (Enes, METODO 5.4.2). Ela transforma o evento pontual num motor contínuo.
@@ -520,15 +426,10 @@ A sequência por timing (Msg 5→9, ancorada na hora da oferta) é o **fechament
 | Represa | até segunda 9h | Wait | Sincroniza todos na mesma cadência semanal (cria "último dia" coletivo real na sexta) |
 | 2 | Segunda 9h | **Split por `viu-oferta`** | A) viu e não comprou → **oferta direta** → página de vendas · B) não viu → **reconvite** com headline nova + botão One-Click |
 | 3 | Quarta | Reconvite (novo ângulo) | Mesmo webinar, **troca o TEMA do mecanismo** (não o mecanismo) - novo estímulo pra quem foi indiferente ao 1º ângulo |
-| 4 | Sexta | **Oferta + escassez** | *"Hoje é o último dia, a oferta está encerrando"* → página de vendas |
+| 4 | Sexta | **Oferta + escassez** (só com o último dia real que o dono confirmou; sem ele, oferta + objeção) | *"[prazo real do dono]: a oferta está encerrando"* → página de vendas |
 | Goal | Qualquer momento | Saída | Comprou → encerra a automação (tag `comprou` tira de tudo) |
 
-> **⭐ EXEMPLO verbatim (nicho emprego/recolocação - origem Enes, METODO 5.4.2), peça por peça:**
-> - **D+1 reciprocidade:** *"a gente tem as três frases mágicas para usar no currículo... toda vez que a gente criava uma publicação no LinkedIn, no Instagram, essa publicação bombava... então eu deletei esse material de tudo... e dou isso no email."* Anexado direto (PDF, máx 1MB) num bloco de HTML cru pra ficar *"um email mais íntimo"*.
-> - **Segunda, ramo A (viu oferta):** *"eu vou mandar simplesmente uma oferta para ele... vai direto para a página de vendas."*
-> - **Segunda, ramo B (não viu):** reconvite + One-Click - *"é hoje às 20 horas, gratuito, clico no botão para reservar a sua vaga... first name, email igual o do cara, schedule id igual a 3, porque o 3 é o meu 8 da noite."* Por que botão: *"ninguém resiste a clicar no botão."*
-> - **Quarta (novo ângulo):** *"antes era 'robô do LinkedIn', agora 'como usar a nova inteligência de fazer o LinkedIn'... é tudo o mesmo webinário... o mecanismo, a explicação é a mesma, você vai trocar o TEMA do mecanismo."*
-> - **Sexta (escassez):** *"'Hoje é o último dia, inscreva-se aqui'... dizendo que é hoje o último dia, que a oferta está encerrando... isso vende pra caramba."*
+> **Técnicas da cadência:** o material de reciprocidade vai anexado direto (PDF leve) num e-mail de HTML simples, que parece mais íntimo; o reconvite do ramo B usa botão de inscrição em um clique, com a sessão já escolhida, porque botão vence formulário; o novo ângulo da quarta troca o tema do mecanismo e mantém o mecanismo; a sexta anuncia o prazo da oferta que o dono confirmou.
 >
 > **Mecanismos (por que funciona):** (1) **Reciprocidade contra-intuitiva** - dar o MELHOR material de graça parece erro, mas cria a dívida psicológica que paga de volta na venda; o presente abre a venda, não a substitui. (2) **Represamento** - deadline coletivo força decisão; sem prazo, "depois eu vejo" se repete pra sempre. (3) **Split viu-oferta** - você só fecha quem já viu a oferta; quem não viu precisa primeiro fazer ver (reconvite, um clique). (4) **Novo ângulo na quarta** - a indiferença pode ser ao ângulo, não à oferta: troca a porta de entrada, mantém a substância.
 >
@@ -555,11 +456,11 @@ Acabamos.
 
 1) [Ideia 1 - Big Domino reformulada]
 2) [Ideia 2 - sobre o mecanismo único]
-3) [Ideia 3 - sobre o avatar/erro mais comum]
+3) [Ideia 3 - sobre o erro do avatar que a aula mostrou]
 
 [Nome do Produto] está aberto:
 → Link checkout: [URL]
-→ Bônus de ação rápida vale por mais [N horas]
+→ [Se o dono deu o prazo: Bônus de ação rápida vale por mais [N horas]]
 
 Se ficou alguma dúvida, me responde esse email.
 Toda semana eu leio - algumas viram conteúdo público.
@@ -567,64 +468,27 @@ Toda semana eu leio - algumas viram conteúdo público.
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Assunto: As 3 ideias da Aula Sniper + a lista ainda vale
->
-> Marina,
->
-> Acabamos.
->
-> 3 ideias-chave que ficaram:
->
-> 1) Você não é recusada pela experiência - é recusada antes dela ser lida.
-> 2) Mandar mais currículo afunda você na pilha. Sniper é o contrário: uma
->    abordagem certa, pra pessoa certa.
-> 3) Quem foi chamado rápido não tinha o melhor currículo. Tinha o método.
->
-> O Método Sniper está aberto:
-> → Checkout: [URL]
-> → A lista dos 30 currículos (bônus de ação rápida) vale por mais 6 horas
->
-> Se ficou alguma dúvida, me responde esse email. Eu leio.
->
-> [seu nome]
-> ```
->
-> **Mecanismo:** as 3 ideias são a Big Domino + mecanismo + erro-do-avatar reformulados - recapitular reaquece quem viu mas não comprou. **No seu nicho:** as 3 ideias são as do SEU webinar; o bônus de ação rápida e o prazo são reais.
+> **Por quê:** as 3 ideias do resumo são a Big Domino, o mecanismo e o erro do avatar reformulados; recapitular reaquece quem viu e não comprou. O bônus de ação rápida e o prazo só entram quando são reais e estão no insumo.
 
 **WHATSAPP 5 - molde**
 
 ```
 Acabou.
 
-Pra quem ficou: bônus de ação rápida ainda vale por mais [N horas].
+[Se o dono deu o prazo: bônus de ação rápida ainda vale por mais [N horas].]
 
 Link direto: [URL]
 
 Qualquer dúvida, me responde aqui.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Acabou, Marina.
->
-> Pra quem ficou: a lista dos 30 currículos ainda vale por mais 6h.
->
-> Link direto: [URL]
->
-> Qualquer dúvida, me responde aqui que eu te ajudo.
-> ```
->
 > **Lembrete:** quem responde o WhatsApp vira **lead quente** - abre conversa 1:1, não recebe resposta automática.
 
 ### Mensagem 6 - 12h depois (caso real / prova)
 
 **Função:** prova por caso real. Conta a história de um cliente (situação inicial → o que aplicou → resultado em número → citação dele). Quem está inseguro precisa ver alguém **igual a ele** que deu certo.
 
-> **Regra do caso (corpus):** prova na MOEDA da promessa. Se o webinar promete recolocação, o case mostra a foto da carteira assinada, não um print de elogio genérico. Cada case = uma objeção encarnada e vencida. Documento bruto e feio > slide bonito. **Para casos verbatim e a régua de prova, ver `exemplos-por-bloco/07-provas-casos.md`.**
+> **Regra do caso (corpus):** prova na MOEDA da promessa. Se o webinar promete recolocação, o case mostra a foto da carteira assinada, não um print de elogio genérico. Cada case = uma objeção encarnada e vencida. Documento bruto e feio > slide bonito. **Para casos verbatim e a régua de prova, ver `exemplos-por-bloco/07-provas-casos.md`.** Case de cliente de serviço ou consultoria vale igual ao de aluno, dito como o que é.
 
 **EMAIL 5 - molde**
 
@@ -642,8 +506,8 @@ Em [tempo curto], aplicou [bloco do método]. Resultado: [número concreto].
 
 [Citação direta do cliente - 2-3 frases].
 
-Não é caso isolado. Quem entra e aplica, tem uma faixa de resultado 
-parecida em [janela de tempo].
+[Se o insumo tem outro caso: Não foi o único. [Caso 2 do insumo, 
+em uma linha, com o número dele.]]
 
 Se você ainda tá em cima do muro, talvez seja útil ver:
 → Página com mais casos: [URL]
@@ -652,42 +516,10 @@ Se você ainda tá em cima do muro, talvez seja útil ver:
 
 [Assinatura]
 
-P.S.: Bônus de ação rápida ainda vale até [data/hora].
+P.S.: [a garantia, com o nome que o dono deu] · [prazo do bônus, se o dono deu]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Assunto: Como o Rafael saiu de 8 meses parado pra 3 propostas
->
-> Marina,
->
-> Deixa eu te mostrar um caso real.
->
-> O Rafael entrou no Método Sniper em março. Estava 8 meses desempregado,
-> tinha mandado mais de 200 currículos, zero retorno. Quase desistiu.
->
-> Em 3 semanas aplicando a abordagem sniper (parar de mandar currículo às
-> cegas e ir direto em quem decide), ele foi chamado pra 4 entrevistas e
-> fechou 3 propostas.
->
-> Palavras dele: "Eu achava que o problema era eu. Era o método. Mudei o
-> método e o telefone começou a tocar."
->
-> Não é caso isolado. Quem entra e aplica costuma ser chamado dentro de
-> 30 a 60 dias.
->
-> Se você ainda tá em cima do muro:
-> → Mais casos: [URL]
-> → FAQ com as dúvidas que outros como você mandaram: [URL]
-> → Checkout: [URL]
->
-> [seu nome]
->
-> P.S.: A lista dos 30 currículos ainda vale até amanhã, 23h59.
-> ```
->
-> **Mecanismo:** a situação inicial do case (8 meses parado, 200 currículos) É o estado atual da Marina - ela se vê nele. O resultado vem em número concreto (3 propostas, 30-60 dias), não em adjetivo. A citação é na voz crua do cliente. **No seu nicho:** o case tem que ser do nicho, com número real e a objeção da pessoa encarnada e vencida.
+> **Por quê:** a situação inicial do case é o estado atual do lead, que se vê nele; o resultado vem em número concreto, e a citação na voz crua do cliente. Case do nicho, com número real e a objeção encarnada e vencida.
 
 **WHATSAPP 6 - molde**
 
@@ -698,136 +530,82 @@ Caso real:
 
 Link com a história completa: [URL]
 
-Bônus ação rápida - vale até [hora].
+[Prazo do bônus, se o dono deu.]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Caso real, Marina:
->
-> O Rafael tava 8 meses parado. Aplicou o método e fechou 3 propostas
-> em 3 semanas.
->
-> História completa aqui: [URL]
->
-> A lista dos 30 currículos vale até amanhã 23h59.
-> ```
 
 ### Mensagem 7 - 24h depois (quebra de objeção)
 
-**Função:** quebra a objeção **número 1** que apareceu no chat (quase sempre "não tenho tempo" ou "achei caro"). Nomeia a objeção, mostra por que ela é falsa, e como o produto foi feito justamente pra esse caso. Pode disparar a tag `objecao-tempo` ou `objecao-preco` se a pessoa responder.
+**Função:** quebra uma objeção da lista-mestra por mensagem, na ordem do peso (7a, 7b e seguintes). Nomeia a objeção, mostra por que ela é falsa, e como o produto foi feito justamente pra esse caso. Pode disparar a tag `objecao-tempo` ou `objecao-preco` se a pessoa responder.
 
 > **Regra da objeção (corpus):** a objeção-mãe se inverte em vantagem; você responde o estado decisório, não a pergunta literal. **Para o banco de objeções e as inversões verbatim, ver `exemplos-por-bloco/13-qa-objecoes.md`.**
 
 **EMAIL 6 - molde**
 
 ```
-Assunto: "Não tenho tempo pra implementar"
+Assunto: "[a objeção desta mensagem, na fala do público]"
 
 [Primeiro nome],
 
-Mais comum que apareceu no chat ontem:
+[De onde ela veio: a lista-mestra ou o chat de ontem]:
 
-"Adorei o método mas não tenho tempo."
+"[a objeção, na fala do público]"
 
-Isso tem nome. Se chama [nome da objeção transformada - 
-ex: 'falsa urgência', 'agenda sem oferta', etc.].
+O que pesa por baixo, quase sempre, é [o medo por baixo, 
+da lista-mestra].
 
-A verdade é: [verdade contra-intuitiva sobre tempo].
+A verdade é: [verdade contra-intuitiva sobre essa objeção].
 
 [3-5 parágrafos quebrando essa objeção específica, com exemplo concreto]
 
-[Nome do Produto] foi desenhado pra quem tem [tempo limitado]:
-- [Recurso 1 que economiza tempo]
-- [Recurso 2 que economiza tempo]
+[Nome do Produto] foi desenhado pra quem tem [a situação da objeção]:
+- [Recurso 1 que mata essa objeção]
+- [Recurso 2 que mata essa objeção]
 - [Recurso 3]
 
-Se essa era a tua, agora você sabe que não é.
+E o risco fica comigo: [a garantia, com o nome e os prazos 
+que o dono deu].
+
+[Preço e parcela do insumo.]
+
+Se [palavra da pessoa] estiver resolvido, o que te impede de entrar agora?
 
 Link checkout: [URL]
-Bônus de ação rápida: vale até [hora].
 
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - objeção "não tenho tempo"):**
->
-> ```
-> Assunto: "Não tenho tempo de aprender outro método"
->
-> Marina,
->
-> A objeção que mais apareceu no chat ontem:
->
-> "Adorei, mas não tenho tempo de aprender um método novo agora - preciso
-> é de emprego."
->
-> Eu entendo. Mas olha a armadilha: você acha que não tem tempo pra mudar
-> de método. Só que o método que você usa hoje - mandar currículo às cegas
-> - É o que está consumindo o seu tempo. 200 currículos, 8 meses, zero
-> retorno. Isso não é falta de tempo. É tempo sendo queimado no método
-> errado.
->
-> Sniper não some com o seu tempo. Ele para o desperdício. A abordagem
-> certa leva menos tempo que disparar currículo pra vaga que nunca te
-> chama.
->
-> Por isso o método foi desenhado pra quem tem pressa:
-> - Os modelos prontos (você adapta, não cria do zero)
-> - O passo a passo de quem abordar primeiro (sem caçar no escuro)
-> - As 3 frases mágicas que abrem a conversa
->
-> Se essa era a tua, agora você sabe que não é.
->
-> Checkout: [URL]
-> A lista dos 30 currículos vale até hoje, 23h.
->
-> [seu nome]
-> ```
->
-> **Mecanismo (inversão):** a objeção "não tenho tempo" é invertida - o método ERRADO é o que rouba o tempo; o produto devolve tempo. Você responde o estado decisório ("estou perdendo tempo de qualquer jeito"), não a frase literal. **No seu nicho:** identifique a objeção nº 1 real do seu chat e inverta-a com a verdade contra-intuitiva do seu mercado. NÃO invente a objeção - ela vem do chat do seu webinar.
+> **Por quê (inversão):** a objeção é invertida com a verdade contra-intuitiva do mercado e respondida no estado decisório, não na frase literal. A objeção vem da lista-mestra ou do chat, nunca inventada.
 
 **WHATSAPP 7 - molde**
 
 ```
-A objeção número 1 que apareceu ontem foi "não tenho tempo".
+A objeção de hoje é "[objeção da lista-mestra, na fala do público]".
 
 Acabei de quebrar essa no email - vai lá ler.
 
 Se a tua era essa, lê com atenção.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Marina, a objeção nº 1 de ontem foi "não tenho tempo de aprender outro
-> método".
->
-> Acabei de quebrar ela no email que te mandei - vale ler.
->
-> Resumo: não é falta de tempo, é tempo queimado no método errado. Dá uma
-> olhada.
-> ```
 
 ### Mensagem 8 - 48h depois (last call escassez real)
 
-**Função:** last call com escassez **real**. O bônus de ação rápida sai do ar amanhã. Sem urgência fabricada - só o que é verdade.
+**Função:** last call com escassez **real**. O bônus de ação rápida sai do ar amanhã. Sem urgência fabricada - só o que é verdade. **Só existe com o prazo e o motivo que o dono confirmou no insumo;** sem eles, a Mensagem 8 vira mais uma mensagem de objeção no molde da Mensagem 7, com a próxima objeção da lista, e o prazo vai como pergunta ao dono.
 
 > **Verbatim do efeito (Enes, sobre o último dia):** *"dizendo que é hoje o último dia, que a oferta está encerrando... isso vende pra caramba."* Deadline força decisão - sem prazo, "depois eu vejo" se repete pra sempre. Mas a escassez tem que ser **auditável**: o que sai tem que sair de verdade.
 
 **EMAIL 7 - molde**
 
 ```
-Assunto: Termina amanhã - bônus de ação rápida sai do ar
+Assunto: [prazo real do dono] - [bônus do dono] sai do ar
 
 [Primeiro nome],
 
-Janela acaba amanhã às [hora].
+[DO DONO: o prazo real, dia e hora.]
 
 O que muda:
-- Bônus surpresa sai (era [valor]) 
-- [Outro bônus, se aplicável]
+- [Bônus do dono que sai] (era [valor do dono])
+- [Outro bônus do insumo, se houver]
 - Preço atual mantém, mas sem extras
 
 Se você quis entrar, era pra ter entrado. 
@@ -835,64 +613,29 @@ Se você ainda quer entrar, faz agora:
 
 [URL CHECKOUT]
 
-Sem mais reposição depois disso.
+[Só se o dono confirmou que não repõe: Sem reposição depois disso.]
 
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Assunto: Termina amanhã - a lista dos 30 currículos sai do ar
->
-> Marina,
->
-> A janela acaba amanhã às 23h.
->
-> O que muda:
-> - A lista dos 30 melhores currículos (era o bônus de ação rápida) sai
-> - As 3 frases mágicas saem junto
-> - O método continua à venda, mas sem os extras
->
-> Se você quis entrar, era pra ter entrado.
-> Se você ainda quer, faz agora:
->
-> [URL CHECKOUT]
->
-> Sem reposição depois disso.
->
-> [seu nome]
-> ```
->
-> **Mecanismo:** a escassez recai sobre os BÔNUS, não sobre o produto ("o método continua à venda, mas sem os extras") - é a escassez crível e auditável dos campeões. **No seu nicho:** o que sai tem que sair de verdade; nunca minta lotação ou prazo.
+> **Por quê:** a escassez recai sobre os bônus e não sobre o produto (o método continua à venda, sem os extras): é a escassez crível. O que sai tem que sair de verdade.
 
 **WHATSAPP 8 - molde**
 
 ```
 Last call.
 
-Bônus ação rápida termina amanhã, [hora].
+[Bônus do dono] sai do ar [prazo real do dono].
 
 Quem quis entrar, era agora.
 
 Link: [URL]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Last call, Marina.
->
-> A lista dos 30 currículos sai do ar amanhã, 23h.
->
-> Quem quis entrar, era agora.
->
-> Link: [URL]
-> ```
 
 ### Mensagem 9 - 72h depois (fechamento)
 
-**Função:** fecha a janela com a **razão verdadeira** (turma cheia, foco no grupo atual, suporte limitado). "Hoje à meia-noite eu fecho. Ou entra agora, ou espera a próxima."
+**Função:** fecha a janela com a **razão verdadeira** que o dono deu no insumo. "[Prazo real do dono] eu fecho. Ou entra agora, ou espera a próxima." **Só existe com o prazo e o motivo do dono;** sem eles, a Mensagem 9 vira mais uma mensagem de objeção no molde da Mensagem 7.
 
 **EMAIL 8 - molde**
 
@@ -901,11 +644,10 @@ Assunto: Encerrando essa janela
 
 [Primeiro nome],
 
-Hoje à meia-noite eu fecho [Nome do Produto].
+[Prazo real do dono] eu fecho [Nome do Produto].
 
 Não é técnica de venda. É operação real:
-[Razão verdadeira pra fechar - turma cheia / suporte limitado / 
-foco no grupo atual]
+[DO DONO: o motivo real do fechamento, em uma linha]
 
 Quem entrou nessa semana já está no [grupo/programa].
 Quem ainda não - ou entra agora, ou espera [próxima janela].
@@ -918,31 +660,7 @@ Vou continuar postando conteúdo aqui - talvez na próxima.
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Assunto: Encerrando essa turma
->
-> Marina,
->
-> Hoje à meia-noite eu fecho a turma do Método Sniper.
->
-> Não é técnica de venda. É operação real: eu acompanho de perto quem
-> entra, e essa turma já está no tamanho que consigo dar atenção. Abrir
-> mais é estragar pra quem já está dentro.
->
-> Quem entrou essa semana já está no grupo, recebendo os primeiros passos.
-> Quem ainda não - ou entra agora, ou espera a próxima turma (sem data).
->
-> [URL CHECKOUT]
->
-> Se decidir ficar de fora, sem problema. Vou continuar postando aqui -
-> talvez na próxima.
->
-> [seu nome]
-> ```
->
-> **Mecanismo:** a razão de fechar é VERDADEIRA (capacidade de acompanhamento), não fabricada. Fechamento honesto > "última chance" genérica. **No seu nicho:** a razão tem que ser real pro seu modelo (turma, suporte, foco). Se você não fecha de verdade, não diga que fecha.
+> **Por quê:** a razão de fechar é verdadeira (capacidade de acompanhamento, turma, suporte). Se o dono não fecha de verdade, a mensagem não diz que fecha.
 
 **WHATSAPP 9 - molde**
 
@@ -954,15 +672,6 @@ Decisão final: [URL]
 Se for não, sem stress. Te vejo na próxima.
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego):**
->
-> ```
-> Hoje à meia-noite eu fecho a turma do Sniper, Marina.
->
-> Decisão final: [URL]
->
-> Se for não, sem stress - te vejo na próxima turma.
-> ```
 
 ### Mensagem 10 - 5-7 dias depois (downsell ou re-engajamento)
 
@@ -994,32 +703,7 @@ de entrar na próxima turma do principal.
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - downsell):**
->
-> ```
-> Assunto: Uma versão menor pra começar agora
->
-> Marina,
->
-> A turma do Método Sniper fechou.
->
-> Mas se você não entrou agora e quer começar a aplicar algumas peças,
-> abri uma versão reduzida:
->
-> Kit Sniper Essencial - R$197:
-> - Os modelos de abordagem prontos
-> - As 3 frases mágicas que abrem a conversa
-> - O que NÃO tem: o acompanhamento, a revisão do seu currículo e o grupo
->
-> É pra quem quer testar o método sozinho antes de entrar na próxima turma
-> completa.
->
-> [URL]
->
-> [seu nome]
-> ```
->
-> **Mecanismo:** o downsell deixa claro o que NÃO tem (cria o gap que faz a pessoa querer o principal depois). **No seu nicho:** o downsell é um pedaço real do produto, com preço menor e escopo menor - nunca uma promessa diluída.
+> **Por quê:** o downsell deixa claro o que NÃO tem, e esse vão faz a pessoa querer o principal depois. É um pedaço real do produto, com preço e escopo menores, nunca uma promessa diluída.
 
 **Função (B - re-engajamento):** sem downsell, faz uma pergunta única que vira insumo de produto. Quem responde te entrega o motivo real (vira tag `objecao-preco`/`objecao-tempo` e matéria-prima pra próxima oferta).
 
@@ -1049,33 +733,7 @@ a clarear teu próprio motivo.
 [Assinatura]
 ```
 
-> **EXEMPLO preenchido (nicho recolocação/emprego - re-engajamento):**
->
-> ```
-> Assunto: Por que não entrou? (1 palavra basta)
->
-> Marina,
->
-> Te mando esse email com uma pergunta só.
->
-> Por que você não entrou no Método Sniper essa semana?
->
-> Não precisa justificar. Uma palavra basta:
-> - "Preço"
-> - "Tempo"
-> - "Não era pra mim"
-> - "Ainda em dúvida"
->
-> Eu leio tudo. Algumas viram ajuste no método, outras viram conteúdo
-> público.
->
-> Toca aí responder. Vai me ajudar - e talvez te ajude a clarear teu
-> próprio motivo.
->
-> [seu nome]
-> ```
->
-> **Por que é a melhor pesquisa de mercado:** a resposta de uma palavra é fácil de dar (baixo atrito) e te entrega a objeção real do lead, na voz dele. "Preço" repetido por muitos = problema de ancoragem na aula; "Não era pra mim" repetido = anúncio trazendo lead errado. **No seu nicho:** as opções de resposta são as objeções prováveis do SEU mercado.
+> **Por quê (a melhor pesquisa de mercado):** a resposta de uma palavra é fácil de dar e entrega a objeção real na voz do lead. "Preço" repetido aponta ancoragem fraca na aula; "não era pra mim" repetido aponta anúncio trazendo lead errado. As opções de resposta são as objeções da lista-mestra.
 
 ---
 
@@ -1142,8 +800,8 @@ a clarear teu próprio motivo.
 **Captura do número SEM fricção (o truque que protege a taxa de cadastro):**
 
 - **Premissa.** Campo de telefone no formulário DERRUBA a taxa de cadastro (fricção + desconfiança). Mas sem o número não existe sequência de WhatsApp - e perde-se o +54% de show-up. O dilema é falso.
-- **Mecanismo.** Inverta a captura: não peça o telefone - faça o lead MANDAR a primeira mensagem. Na página de obrigado (e reforçado no Email 1), um botão abre o WhatsApp já com mensagem pré-definida (ex: "Quero confirmar minha vaga no [Nome do Webinar]"); o lead só toca em enviar. O sistema captura o número DO REMETENTE e responde na hora com a confirmação + data/hora + link da sala.
-- **Porquê funciona em dobro.** (1) Zero campo extra no form → taxa de cadastro intacta. (2) Quem manda a mensagem ABRIU a conversa → opt-in real por comportamento, consentimento explícito, janela de conversa ativa - sem risco de ser tratado como spam. O "manda OI" do Email 1 desta reference é exatamente esta mecânica.
+- **Mecanismo.** Inverta a captura: não peça o telefone - faça o lead MANDAR a primeira mensagem. Na página de obrigado (e reforçado no Email 1), um botão abre o WhatsApp já com mensagem pré-definida (ex: "Quero confirmar minha inscrição no [Nome do Webinar]"); o lead só toca em enviar. O sistema captura o número DO REMETENTE e responde na hora com a confirmação + data/hora + link da sala.
+- **Porquê funciona em dobro.** (1) Zero campo extra no form → taxa de cadastro intacta. (2) Quem manda a mensagem ABRIU a conversa → opt-in real por comportamento, consentimento explícito, janela de conversa ativa - sem risco de ser tratado como spam. O "manda [palavra do dono]" do Email 1 desta reference é exatamente esta mecânica.
 - **Detalhe técnico que salva campanha:** se a página de obrigado redireciona rápido pro WhatsApp, o pixel padrão (assíncrono) pode não disparar antes do redirect - garanta que o evento de cadastro registre ANTES de redirecionar, senão a otimização de campanha do gestor de tráfego perde os eventos de conversão.
 
 **Opção 1 - Manual (até 100 cadastros/semana):**
@@ -1157,7 +815,7 @@ a clarear teu próprio motivo.
 
 **⚠️ Ressalva de stack (o princípio fica, o encanamento muda):** o teste A/B de 2022 que provou o +54% rodava num encanamento frágil - API **não-oficial** de WhatsApp (Z-API) + Make + planilha como banco, com risco real de banimento do número, exigência de manutenção diária e custo que escala com o volume (alerta do próprio autor do teste). **Não decalcar esse stack.** O que é permanente é o PRINCÍPIO (notificação dupla WhatsApp+email na mesma régua de horários + captura sem fricção); a via robusta hoje é a **WhatsApp Cloud API oficial** - ManyChat, Make ou similar conectados à API oficial, com templates aprovados pela Meta. Nunca API não-oficial: número banido no meio do funil = sequência inteira morta e leads órfãos na semana da oferta.
 
-**Princípio:** **opt-in real**. Cliente manda "OI" - não você sai mandando pra base. Sem opt-in = bloqueio + multa em algumas regiões.
+**Princípio:** **opt-in real**. O lead manda a palavra do dono - não você sai mandando pra base. Sem opt-in = bloqueio + multa em algumas regiões.
 
 ---
 
@@ -1177,7 +835,7 @@ a clarear teu próprio motivo.
 
 > **Lastro da faixa de atendimento:** o A/B do corpus mediu ~31% de show-up só com email e **47,2% com WhatsApp integrado**. Ou seja: o alvo Soft de 45%+ **pressupõe WhatsApp no funil** - sem ele, a expectativa realista cai pro piso da faixa.
 
-> **Lastro dos números de máquina (corpus de webinar Soft):** numa máquina técnica redonda, *"a página converte de 30 a 40% dos que entram em lead. O comparecimento fica em 30 a 35% dos inscritos, e sobe os tais +54% quando você liga o WhatsApp. E de quem comparece, 6 a 8% compram automaticamente no checkout, antes de qualquer comercial tocar nelas."* **A leitura que importa:** se os seus indicadores estão muito abaixo disso, o furo quase sempre está numa peça técnica (página, horário, hospedagem do vídeo, mensageria), não na copy da aula. Antes de reescrever a aula no desespero, audita o encanamento. Na maioria das vezes é um vídeo engasgando no carregamento, um horário ruim, ou o WhatsApp que você não ligou.
+> **Lastro dos números de máquina (corpus de webinar Soft):** numa máquina técnica redonda, *"a página converte de 30 a 40% dos que entram em lead. O comparecimento fica em 30 a 35% dos inscritos, e sobe os tais +54% quando você liga o WhatsApp. E de quem comparece, 6 a 8% compram automaticamente no checkout, antes de qualquer comercial tocar nelas."* **A leitura que importa:** se os seus indicadores estão muito abaixo disso, o furo quase sempre está numa peça técnica (página, horário, hospedagem do vídeo, mensageria), não na copy da aula. Antes de reescrever a aula no desespero, audita o encanamento. Confira primeiro se é um vídeo engasgando no carregamento, um horário ruim, ou o WhatsApp que você não ligou.
 
 ---
 

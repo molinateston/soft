@@ -1,5 +1,9 @@
 # Abertura/Atenção (promessa da aula, headline falada, regras da sala, por que ficar até o fim)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 > Ressalva de atribuição: o "Webinar C" do corpus tem um dispositivo de voz único, o host se dirige a si mesmo pelo próprio nome (dentista) - é referência de craft, não fala do corpus estudado. Nomes de mecanismo citados sempre com dono ("visão de floresta", "gestor do futuro", "síndrome do Fantástico" = GA, do webinar de gestão ágil estudado; "dieta inteligente" = do especialista do corpusA; "Introduction→Content→Transition→Close" = Fladlien).
 
@@ -99,7 +103,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 **Por que funciona:** o no-replay converte atenção em custo de saída ("se sair, perdeu pra sempre") e dá razão funcional pro caderno - anotar é se comprometer com o conteúdo. O "promessa é lei" transforma a headline num contrato moral auditável no fim. E a abertura veio DEPOIS de um vídeo-depoimento de aluna: a primeira impressão do webinar é resultado de terceiro, não autopromoção.
 
-**Decalcável vs do nicho:** decalcável: no-replay como motor de retenção (se for verdade), "posso contar com você por X minutos?", promessa com multiplicador numérico, qualificação que amplia em vez de filtrar. Do nicho: "três vezes mais porque você ganha no Brasil" só faz sentido na arbitragem cambial dela.
+**Decalcável vs do nicho:** decalcável: a regra de gravação como motor de retenção (só com a decisão do dono no insumo), "posso contar com você por X minutos?", promessa com multiplicador numérico, qualificação que amplia em vez de filtrar. Do nicho: "três vezes mais porque você ganha no Brasil" só faz sentido na arbitragem cambial dela.
 
 ### Webinar webinar A do corpus (pele Soft aplicada - o especialista do corpusA, nutrição/MDI) - perpétuo gravado; R$997→R$797 na sessão; garantia em dobro
 
@@ -191,7 +195,7 @@ A premissa-mestra: os objetivos da aula são o espelho exato da promessa da ofer
 
 - **Revelar preço ou detalhar a oferta na abertura.** Ninguém faz. O máximo é o pré-anúncio transparente de que ELA EXISTE (Fladlien #2, "spoiler") - sem número, sem stack. (O price-seeding da GA acontece no bloco de autoridade, como fato de catálogo - não aqui.)
 - **Revelar o presente do fim.** Todos escondem o conteúdo do presente ("eu não vou falar o que é"). Presente revelado = loop fechado = retenção perdida.
-- **Promessa vaga, sem número e sem prazo.** Todos quantificam: 90 dias, 3x mais, 2 horas, um ano em 3 meses. Promessa genérica ("vou te ensinar muito sobre X") não aparece em nenhum campeão.
+- **Promessa vaga, sem número e sem prazo.** Todos quantificam, cada um com o número dele. Na entrega, o número e o prazo são os que o insumo do dono comprova; sem eles, a promessa fica com o resultado sem prazo e o `_notas-operador.md` pergunta. Promessa genérica ("vou te ensinar muito sobre X") não aparece em nenhum campeão.
 - **Entrar no conteúdo técnico antes de fechar o contrato de atenção.** Todos gastam os primeiros minutos comprando permanência; nenhum abre ensinando.
 - **Abrir pedindo desculpas ou diminuindo a aula** ("vou tentar", "é só uma aulinha"). O movimento é o oposto: reprecificar o evento ("a melhor decisão que você tomou", "bolo com calda", "melhor conteúdo de 2020").
 - **Regras de sala sem reason-why.** Pedir comportamento "porque sim" não acontece - todo pedido vem com motivo funcional ("se ninguém colocar eu não vou saber", "é por uma boa causa").

@@ -31,7 +31,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **Provas + PROVA EXTERNA reais** | cases reais (nome+nº+prazo); 5 slots (vazios `[A CONFIRMAR]`); inventado = ✗ (Lei 5) |
 | **Modo pelo estágio** | perpétuo vs ao vivo pela régua + estágio; ao vivo valida → grava → perpetua |
 | **A conta fecha** | meta ÷ ticket → ÷ conversão → ÷ comparecimento; exemplo "(NÃO é dado seu)" |
-| **Canal pela regra + CTA com destino** | ≤~3k checkout / >3k 1:1; Seção 8 adaptada ao canal |
+| **Canal pela regra + CTA com destino** | até ~R$3.000 (ou o número do dono), checkout; acima, 1:1; conta preço contra régua escrita; Seção 8 adaptada ao canal |
 | **Pitch completo** | semeadura, ancoragem certa, stack visível, cadeia de SINs, queda com reason-why+lastro, reduzir ao ridículo com objeto real, escassez+rede, identidade+inação, 3 CTAs, botão no 1º |
 | **INSUMOS ORGANIZADOS** | Seção 9 no fim, peças soltas reutilizáveis, não resumo |
 | **Não inventa (Lei 5)** | furo = `[A CONFIRMAR]` no lugar exato; zero plausível |
@@ -39,7 +39,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | **3 perguntas do Harry + C/U/B** | dá pra VER a cena · dá pra FALSIFICAR · SÓ ele assina; Clareza · Único · Benefício |
 | **Naming honesto** | todo nome é do dono ou "(nome Soft: a definir)" |
 | **Nicho regulado** | SAÚDE/JURÍDICO: prova com ALUNO nunca paciente; mecanismo no lugar de cura; gate regulado (`shared-references/crivo/`); N/A se não-regulado |
-| **Anti-IA (HARD)** | zero em-dash · zero "travar/travado/destravar" (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · sem jargão "jornada/mindset" na copy. **No chat: CTRL+F do em-dash e da família "travar".** No Code: `python3 scripts/lint_copy.py` na copy do pitch. |
+| **Anti-IA (HARD)** | zero em-dash · zero verbo-freio banido (exceto aspa literal) · sem frase-emoldura · sem verbo-clichê de hype · sem jargão "jornada/mindset" na copy. **No chat: CTRL+F do em-dash e do verbo-freio banido.** No Code: `python3 scripts/lint_copy.py` na copy do pitch. |
 | **VEREDITO** | **= o PIOR item.** Um ✗ = REFAZ o item. Só tudo-✓ = PASSA. |
 
 ## Anti-Patterns (sintoma → correção)
@@ -64,7 +64,7 @@ Só doc com **VEREDITO=PASSA** vai pro usuário. Um ✗ refaz **o item**, não o
 | Mundo Ideal abstrato | Cena + número + a pergunta do ROI; objeto, lugar, reação |
 | Crenças sem rótulo | Rotula INTERNA × EXTERNA |
 | Perpétuo "porque escala" sem validar | ao vivo valida → grava → perpetua |
-| 3k+ no checkout | Acima de ~3k qualifica, fecha no 1:1 |
+| Preço acima da régua no checkout, ou conta preço contra régua não escrita | Acima de ~R$3.000 (ou do número do dono) qualifica e fecha no 1:1; a conta vai escrita |
 | Clímax = a aula que ensina mais | Clímax = o passo que TIRA mais trabalho |
 | Stack inflado "pra parecer mais" | Cada item mata objeção nomeada OU ancora com preço real |
 | Bônus pra consertar objeção de mecanismo | Vai PRA DENTRO da aula |

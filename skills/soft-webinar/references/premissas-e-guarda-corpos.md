@@ -142,7 +142,7 @@ Cada uma: **o princípio** (1 linha) + **a regra de decisão** (como a IA julga 
 > - **1º CTA - GANHO** (emocional): reacende o desejo pelo destino, amplia a PUV ao máximo. *EXEMPLO (adestramento de cães):* *"Quando você usar o método CCP, não terá apenas o cachorro bem treinado, mas terá um melhor amigo pelo resto da vida dele. Clique no botão que está aparecendo agora."*
 > - *(entre Ganho e Lógica)* → entrega do antifuga (se prometido, curto) + dúvidas/objeções (as 3 universais).
 > - **2º CTA - LÓGICA** (racional, a desculpa): a matemática que justifica a compra. *EXEMPLO (ferramentas/negócio):* *"Se vender só três por mês, três por mês já paga todas as ferramentas. Você acha que não consegue fazer três vendinhas por mês?"*
-> - **3º CTA - MEDO/FOMO** (aversivo): escassez/prazo, o medo de ficar de fora. *EXEMPLO (emprego):* *"a gente só tem mais duas vagas com esse desconto. Pode clicar no botão que ainda dá tempo."* / *(adestramento)* *"esse desconto é válido só até terminar a aula; depois o curso volta para 197 euros."*
+> - **3º CTA - MEDO/FOMO** (aversivo): escassez/prazo, o medo de ficar de fora. *Molde:* *"[DO DONO: limite ou prazo real e o motivo]. Pode clicar no botão."* Sem limite nem prazo no insumo, o medo é o custo de ficar parado.
 
 > **▸ Fala literal (Enes, origem `aula05`):** *"uma das formas mais efetivas que eu já verifiquei de fazer o CTA é a chamada sequência GLF: ganho, lógica e medo."* E o porquê da lógica: *"As pessoas compram pela emoção, mas elas precisam de uma lógica para justificar essa compra."* Sobre o botão programado: *"A gente programa o exato hora, minuto e segundo no momento que abre o botão. Até agora é copy, tô ancorando, nada de botão ainda."*
 

@@ -1,5 +1,9 @@
 # Ancoragem e preço (dupla ancoragem, queda em degraus com reason-why, reduzir ao ridículo)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais de webinars que venderam - extraia a PREMISSA e adapte ao nicho; NUNCA decalcar a forma (G2). Voz autoral = webinars webinar A do corpus/C; máquina do webinar-modelo GA = GA.
 
 ---
@@ -129,7 +133,7 @@ Ancoragem item a item:
 
 Primeira queda + reduzir ao ridículo contra o salário prometido:
 
-> "Você vai receber isso tudo. Eu vou te dar tudo isso por R$ 3.000. Você tá vendo o valor disso tudo? Você tá vendo a riqueza de detalhes de conteúdo. O que que é R$ 3.000 para quem vai ganhar R$ 25.000 por mês? Não é nada. Não é nada. Um freelance. Se não for contratado, você pegar um freelance, você já pagou o curso."
+> "Você vai receber isso tudo. Eu vou te dar tudo isso por R$ 3.000. Você tá vendo o valor disso tudo? Você tá vendo a riqueza de detalhes de conteúdo. O que que é R$ 3.000 para quem vai ganhar R$ 25.000 por mês? Isso não é nada, nada [forma ajustada pela régua anti-voz]. Um freelance. Se não for contratado, você pegar um freelance, você já pagou o curso."
 
 Payback provado com caso:
 
@@ -161,7 +165,7 @@ Fricção de pagamento removida:
 
 > "pensei numa uma oferta injusta, injusta para mim porque vai ser justa para caramba para vocês"
 
-> "então você não vai pagar R 5638, você não vai pagar R 3000, você não vai pagar r00 que já seria super justo para toda a entrega que eu vou te dar: você vai pagar só o valor de 997. tá bom? não tá bom né […] só hoje, durante essa aula […] você vai pagar somente 12 parcelas de R 7978, ou R 797 à vista, você tem um descontinho se você paga ali a vista"
+> "então você não vai pagar R 5638, você não vai pagar R 3000, você não vai pagar r00 que já seria super justo para toda a entrega que eu vou te dar: você vai pagar só o valor de 997. tá bom? não tá bom né […] [a condição de sessão que aquele dono tinha] […] você vai pagar somente 12 parcelas de R 7978, ou R 797 à vista, você tem um descontinho se você paga ali a vista"
 
 > "custa menos do que uma pizza hoje. se você entrar no iFood procurar uma pizza para você pedir você vai pagar no mínimo R 85$ 80, é mais caro do que uma parcela do MDI. você gasta isso no final de semana e pizza, Bicho, Comeu vira cocô depois"
 

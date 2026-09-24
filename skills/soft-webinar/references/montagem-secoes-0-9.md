@@ -3,6 +3,7 @@
 ## Índice
 - As leis que o gate cobra na oferta e no ensino
 - Seção 0, A HERANÇA do posicionamento
+- Seção 0b, A LISTA-MESTRA de objeções (o fio)
 - Seção 1, A OFERTA como STACK rica (1a camadas · 1b tripartição · 1c stack rica · 1d jornada · 1e PUV · 1f mapa de objeções · 1g as 3 jogadas · 1h 15-primeiros · 1i a rede · 1j soma riscada, garantia, ticket)
 - Seção 2, PROMESSA + BIG DOMINO + NÍVEL DE CONSCIÊNCIA
 - Seção 2b, A ABERTURA (ATENÇÃO)
@@ -19,6 +20,10 @@ Com o intake fechado, monta o doc DENSO (Lei 6: tabelas/listas). Abre com a HERA
 
 ## Seção 0, A HERANÇA do posicionamento (inline, na voz do dono)
 Primeira seção, a que a auditoria reprovou quando faltou. NÃO resumo nem ponteiro: o **Plano de Posicionamento absorvido por completo**, em listas, com a profundidade do original: território + inimigo + tensão dor→desejo · problema geral + avançado + mecanismo-do-problema · persona com cena (base da S4) + objeções/crenças literais · mecanismo nomeado (base da S3) + tese · provas nome+nº+prazo+porquê · oferta de origem + 5 vozes. Sem posicionamento → `[A CONFIRMAR]` + aviso que `soft-plano-posicionamento` vem antes.
+
+## Seção 0b, A LISTA-MESTRA de objeções (o fio)
+| # | objeção na fala do público | medo por baixo | tipo (mecanismo ou execução) | onde cai (passo, bônus, garantia, Q&A, mensagem) | case que prova |
+De 5 a 8 linhas. A Seção 1f puxa daqui; nenhuma outra seção cria lista própria.
 
 ## Seção 1, A OFERTA como STACK rica (o DESENHO)
 > Profundidade: `references/stack-de-oferta-e-bonus.md` (a composição da pilha, as camadas, as 2 moedas, a rede, a ordem canônica) + `references/desenho-e-empacotamento-da-oferta.md` (cardápio, equação Hormozi, garantias, esteira).
@@ -41,7 +46,7 @@ A separação É a ancoragem. Três classes:
 | **CURSOS / prateleira** | treinamentos complementares, vendíveis separados | nome próprio + benefício; **NUNCA "bônus"** → "outro curso" | **SIM**, real, avulso, checável | somar a âncora com credibilidade |
 | **BÔNUS (Mastercard)** | UM item, o de maior valor, que só o player gera | a palavra "bônus" RESERVADA só pra ele | **NÃO** (de propósito) | pico que escapa da régua numérica |
 
-**Numeração (dura):** módulos pelo que a pessoa vira (ex.: "O Argumento · A Sala · A Máquina"), nunca "Módulo 1: configurações"; cursos por NOME, nunca "Curso 1/2/3". "120 aulas, 12 módulos" virou argumento CONTRA (o maduro lê "120 aulas" e pensa "nunca assisto tudo"). Complementares NÃO são "bônus": *"se tudo é bônus, bônus não significa nada"* (diluiria o pico).
+**Numeração (dura):** módulos pelo que a pessoa vira (ex.: "[DO DONO: módulo 1 pelo que a pessoa vira] · [módulo 2] · [módulo 3]", com o nome que o dono deu), nunca "Módulo 1: configurações"; cursos por NOME, nunca "Curso 1/2/3". "120 aulas, 12 módulos" virou argumento CONTRA (o maduro lê "120 aulas" e pensa "nunca assisto tudo"). Complementares NÃO são "bônus": *"se tudo é bônus, bônus não significa nada"* (diluiria o pico).
 
 ### 1c, A STACK rica: VÁRIOS itens desejáveis, não um curso só
 A oferta campeã é a aula REEMBALADA como **pilha de coisas desejáveis**, cada uma vendável sozinha. Por que vários:
@@ -63,7 +68,7 @@ Cada módulo = **PASSO** pelo que a pessoa **VIRA**, com **headline de benefíci
 Abre a oferta antes de qualquer número: *"O [produto] é o ÚNICO com [mecanismo nomeado] que [o que faz] mesmo sem [a principal objeção / pré-requisito]."* O "mesmo sem / usando o que você já tem" quebra a crença de pré-requisito. Sem mecanismo nomeado → `[A CONFIRMAR]`.
 
 ### 1f, A prateleira pelo MAPA DE OBJEÇÕES (não por acúmulo)
-1. Lista as objeções reais (da pesquisa/intake).
+1. Puxa da Seção 0b.
 2. Separa objeção de MECANISMO ("e se X?") de objeção de EXECUÇÃO. A de mecanismo vai **PARA DENTRO da aula**, NUNCA vira bônus (*bônus não conserta método furado*).
 3. Pra cada objeção de execução, UM componente que a mata (e você NOMEIA qual).
 
@@ -82,7 +87,7 @@ Camada SEPARADA da stack, só pra quem se inscreve AGORA. **VÁRIOS bônus (não
 | Camada | Quem leva |
 |---|---|
 | **turma inteira** | o DESCONTO (preço cai pra todos que ficaram até o fim) |
-| **15 primeiros** | + 2 cursos extras (ex.: OKR Coach R$1.497 + Design Thinking R$2.000) |
+| **N primeiros (só com o limite do dono)** | + [bônus de ação rápida que o dono deu] |
 | **10 primeiros** | + um 3º (ex.: workshop de produtividade R$997) |
 
 Mecânica: **escassez honesta** (N = capacidade real; *"em paz com os 15 porque não tenho escala que compra mais; o dia que comprar, mudo pra 20"*) · **verificável na tela** (*"parabéns, você está entre os 15"* + contagem narrada ao vivo) · **plantada cedo** (compra simulada nos primeiros 12-15 min). **O bônus surpresa personalizado** (não anunciado, solto DEPOIS do preço): personalizado + escasso + surpresa; no perpétuo, automatizável.
@@ -95,7 +100,7 @@ A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair
 
 **Garantia (frame "período de experiência", nunca "garantia"):** régua = maior que a objeção de risco, e não mais. Cardápio: acesso/suporte (implícita, ticket baixo) · experimento 7 dias (converteu melhor que 15/30) · incondicional N dias (mid) · super-garantia 90+90 (alto/cético: 90 dias sem resultado → consultoria; +90 → devolve E paga R$X pelo tempo, R$X é SLOT) · ROI-como-garantia (prova esmagadora). Cobre o **resultado do método**, nunca a decisão de aplicar.
 
-**Ticket + canal + ascensão + equação:** meta ÷ ticket = clientes/mês; não cabe → SOBE. ≤~3k checkout / >3k 1:1. Ascensão: o produto fora da aula vira esteira (faço-sozinho → com-você → por-você); nenhum lead se perde. Equação **Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
+**Ticket + canal + ascensão + equação:** meta ÷ ticket = clientes/mês; não cabe → SOBE. Até ~R$3.000 (ou o número do dono), checkout; acima, 1:1, com a conta preço contra régua escrita. Ascensão: o produto fora da aula vira esteira (faço-sozinho → com-você → por-você); nenhum lead se perde. Equação **Hormozi** *Valor = (Resultado × Probabilidade) ÷ (Tempo × Esforço)*: cada item sobe o numerador OU derruba o denominador, com a variável NOMEADA; no avatar maduro o denominador manda (garante 1 fator de TEMPO + 1 de ESFORÇO; o clímax sempre TIRA trabalho).
 
 ## Seção 2, A PROMESSA + BIG DOMINO + NÍVEL DE CONSCIÊNCIA
 **2a** Promessa (Bloco 3): de ONDE pra ONDE, sem pré-requisito. **2b** Big Domino na fórmula fixa, marcada nos 3 momentos, frase LITERAL. **2c** Nível de consciência (dos 6); se 6º, soluções-que-viraram-peso somadas num inimigo + a absolvição *"Você não [resolve] pouco porque é ruim. Você [resolve] pouco porque carrega peso demais, peso que te venderam e chamaram de estratégia."* (Big Idea 7 partes + One Belief + One Sentence Persuasion de Blair Warren: `references/fundamentos-pre-roteiro.md`.)
@@ -103,13 +108,13 @@ A corrida pune o 16º ("perdi os bônus, deixa pra próxima"). Antes de ele sair
 ## Seção 2b, A ABERTURA (ATENÇÃO)
 Os 5 do Bloco 3b, escritos: título + 5 ganchos + premise + USP falada + Mundo Ideal. Tudo deriva do fechado, nunca inventa. Sem esta seção o script inventa o título.
 
-## Seção 3, O DIAGNÓSTICO + O MECANISMO (o ENSINO; o peso segue a consciência do público, sem percentual fixo)
+## Seção 3, O DIAGNÓSTICO + O MECANISMO (o ENSINO; Mecanismo e Ação perto de 70% como faixa de referência, a consciência do público decide o resto)
 Estrutura REAL (`references/estrutura-real-webinar.md`), NÃO "3 viradas" (invenção arrancada). Tudo em LISTAS, item por clique (doutrina do clique). **Faca Soft:** ensina o QUÊ e o PORQUÊ, nunca o COMO executável (*"se sair só com isto, ENTENDE o caminho ou CONSEGUE executar sozinho?"*: entende = certo; capaz = recuou demais). Loop aberto, carteira fechada.
 
 ### 3a, O DIAGNÓSTICO (de fora pra dentro, postura de MÉDICO, em listas)
 Ordem **EXTERNO → FILOSÓFICO → INTERNO**, cada um um PICO curto:
 - **EXTERNO** (mercado/país): macro + dado + **prova externa REAL** (matéria/print) → *"não sou só eu que digo isso."*
-- **FILOSÓFICO** (injustiça): *"tem gente pior vendendo mais, não porque sabe mais, porque foi vista."*
+- **FILOSÓFICO** (injustiça): a injustiça que o público do dono vive, na fala do insumo (a frase do autor do corpus mora no arquivo do caso do autor, que mora no perfil dele e fora da skill e só vale quando o dono é ele).
 - **INTERNO** (na pele): a cena do dia ruim (do MUNDO ATUAL).
 - **CAUSA-RAIZ**: a inversão "não é falta, é excesso/erro".
 - **IMPLICAÇÃO**: a conta invisível + custo crescente (hoje / 1 ano / 5 anos), tom clínico.
@@ -119,7 +124,7 @@ Ordem **EXTERNO → FILOSÓFICO → INTERNO**, cada um um PICO curto:
 Frameworks que vivem aqui (derivados da Herança): **6º nível** · **dor ≠ problema** (escada sintoma→causa→soluções→prisão) · **conta do filtro** (cascata ao vivo, só quando o avatar FATURA) · **persona-âncora construída ao vivo**. (`references/frameworks-proprietarios.md`.)
 
 ### 3b, O MECANISMO (a SEQUÊNCIA real, o CORAÇÃO, termina no "EU QUERO")
-Instala uma **NOVA OPORTUNIDADE** (não melhoria). Beats, cada um em lista, item por clique: **1** o prático (UM aperitivo, sem saciar) → **2** a nova oportunidade + a estreia do nome do veículo → **3** o fundamento antes da receita → **4** a prova racional (tabela comparativa + head-to-heads + lastro Schwartz/níveis) → **5** o batismo (*"fora de ordem é cobre, na ordem certa vira ouro"*) → **6** a prova-meta (*"você tá sentindo funcionar em você agora, você é a prova"*) → **7** a IA no nível da capacidade (mata "é complicado de montar"; nunca vira bandeira) → **8** o plano em passos (os 3 do produto, cada um matando uma crença) → **9** quadro-síntese ("printa esse slide") + yes-ladder (só "sim" → "digita EU QUERO no chat").
+Instala uma **NOVA OPORTUNIDADE** (não melhoria). Beats, cada um em lista, item por clique: **1** o prático (UM aperitivo, sem saciar) → **2** a nova oportunidade + a estreia do nome do veículo → **3** o fundamento antes da receita → **4** a prova racional (tabela comparativa + head-to-heads + lastro externo, só o que o dono citou) → **5** o batismo (*"fora de ordem é cobre, na ordem certa vira ouro"*) → **6** a prova-meta (*"você tá sentindo funcionar em você agora, você é a prova"*) → **7** a capacidade ou ferramenta do dono, só a que o insumo traz (no autor, a IA: mata "é complicado de montar"; nunca vira bandeira; sem ferramenta no insumo, o beat sai) → **8** o plano em passos (os 3 do produto, cada um matando uma crença) → **9** quadro-síntese ("printa esse slide") + yes-ladder (só "sim" → "digita EU QUERO no chat").
 
 ### 3c, COMO ENSINAR cada afirmação (batida de 4 tempos, a TÉCNICA, NÃO a arquitetura)
 Cada afirmação: **o que é · por que importa · me prova · exemplo** (doutrina do clique/Fladlien; cada prova = 1 slide). É o JEITO de ensinar cada beat, NÃO uma divisão em "viradas". O "me prova" é colado na afirmação, na hora. **As 3 categorias de crença** (checklist): MÉTODO (mecanismo+prova) · INTERNA (acessibilidade+absolvição) · EXTERNA (inimigo+timing+garantia). **Prova como CONTEÚDO** (estudo de caso no meio da aula, prova o MÉTODO replicável, nunca o gênio). (`references/estrutura-real-webinar.md` Fases D e M; `references/esqueleto-universal-e-discernimento.md`.)
@@ -184,4 +189,4 @@ Cada peça é **derivada** (destila, não repete o doc); nada novo que não pass
 
 
 ## As leis que o gate cobra na oferta e no ensino
-Só doc com **VEREDITO=PASSA** vai pro usuário; **VEREDITO = o PIOR item, um ✗ refaz O ITEM**, não o doc. Os 25 checks: é hora de webinar · HERANÇA inteira inline · OFERTA = STACK rica na tripartição · 15-primeiros + 2 moedas + rede + soma riscada · PUV + jornada em passos · garantia + frame · Diagnóstico e Mecanismo na estrutura REAL (**zero "3 viradas" = ✗**) · Big Domino na fórmula + 3 momentos · UMA promessa · mecanismo nomeado (anti-rótulo) · abertura completa · persona + crenças rotuladas · nível de consciência · provas + PROVA EXTERNA reais · modo pelo estágio · a conta fecha · canal + CTA com destino · pitch completo · INSUMOS ORGANIZADOS · Lei 5 · Lei 6 · Harry + C/U/B · naming honesto · nicho regulado · anti-IA (HARD). O critério de cada um: `references/gate-plano.md`. Anti-IA: **no chat, CTRL+F do em-dash e da família "travar"**; no Code, `python3 scripts/lint_copy.py` na copy do pitch.
+Só doc com **VEREDITO=PASSA** vai pro usuário; **VEREDITO = o PIOR item, um ✗ refaz O ITEM**, não o doc. Os 25 checks: é hora de webinar · HERANÇA inteira inline · OFERTA = STACK rica na tripartição · 15-primeiros + 2 moedas + rede + soma riscada · PUV + jornada em passos · garantia + frame · Diagnóstico e Mecanismo na estrutura REAL (**zero "3 viradas" = ✗**) · Big Domino na fórmula + 3 momentos · UMA promessa · mecanismo nomeado (anti-rótulo) · abertura completa · persona + crenças rotuladas · nível de consciência · provas + PROVA EXTERNA reais · modo pelo estágio · a conta fecha · canal + CTA com destino · pitch completo · INSUMOS ORGANIZADOS · Lei 5 · Lei 6 · Harry + C/U/B · naming honesto · nicho regulado · anti-IA (HARD). O critério de cada um: `references/gate-plano.md`. Anti-IA: **no chat, CTRL+F do em-dash e da família do verbo-freio vetado**; no Code, `python3 scripts/lint_copy.py` na copy do pitch.

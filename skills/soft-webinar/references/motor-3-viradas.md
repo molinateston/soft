@@ -15,9 +15,9 @@ O Mecanismo real roda esta sequência, nesta ordem (detalhe e falas literais em 
 1. **O prático** (1 aperitivo real, sem saciar)
 2. **A nova oportunidade + a estreia do nome** (com orgulho, só aqui)
 3. **O fundamento antes da receita** (as condições da venda; o médico explica antes de receitar)
-4. **A prova racional** (tabela de ~12 provas de superioridade + head-to-heads + Schwartz/neurociência)
+4. **A prova racional** (tabela de ~12 provas de superioridade + head-to-heads + lastro externo (só o que o dono citou))
 5. **A prova emocional + ângulos** (batismo do mecanismo proprietário + a prova-meta "você é a prova" + future pacing)
-6. **A IA como capacidade** (derruba a parede técnica, nunca vira bandeira)
+6. **A capacidade do dono** (no autor, a IA; derruba a parede técnica, nunca vira bandeira; só com a ferramenta que o insumo traz)
 7. **Os 3 passos** (mostra um plano, revelados um por clique)
 8. **O quadro-síntese** (o souvenir, o motor por último)
 9. **O recap yes-ladder** (elogios colhidos ao vivo + checklist de perguntas-SIM + "digita EU QUERO")
@@ -139,7 +139,7 @@ O beat 2 (a estreia do nome) precisa de um mecanismo NOMEADO. Nomear não é est
 2. CONTEXTO / PROVA - por que funciona, ancorado em terceiro incontestável (afirmo-e-provo na hora)
 3. MECANISMO APETITOSO - reembrulha a solução técnica como caminho desejável, não tarefa
 4. PROVA / EXEMPLO - um caso concreto que faz o mecanismo virar imagem na cabeça
-5. NOME - batiza o mecanismo (a peça que vira tribo; proprietário, memorável, sugestivo)
+5. NOME - o nome que o dono deu ao mecanismo (a peça que vira tribo); sem nome do dono, a skill não batiza: descreve o que ele faz e pergunta no `_notas-operador.md`
 6. PUV - por que SÓ esse mecanismo entrega o resultado (ponte de volta pro inimigo)
 ```
 
@@ -155,7 +155,7 @@ O beat 5 carrega o ângulo de prova mais poderoso que existe num webinar: **o we
 
 > "Você não precisa acreditar na minha palavra. Você tá sentindo isso funcionar em você agora. Faz uma hora que você entrou. Eu prendi tua atenção. Te mostrei o problema. Agora a solução. Daqui a pouco você decide. Isso aqui é [o mecanismo] rodando. Você é a prova."
 
-É o batismo do mecanismo (cobre vira ouro, a ordem é tudo) colado na experiência presente do espectador. Junto vem o **future pacing** que fecha o gancho narrativo da abertura: *"Lembra do cara exausto lá do começo? Era eu. E o que virou o jogo foi parar de espalhar e concentrar a venda num lugar só."*
+É o batismo do mecanismo (a ordem é tudo) colado na experiência presente do espectador. Junto vem o **future pacing** que fecha o gancho narrativo da abertura: «[DO DONO: a volta à cena real da abertura, tirada do passado dele no insumo, e o que virou o jogo]». Sem cena real do dono na abertura, não há gancho pra fechar e o beat sai.
 
 ---
 
@@ -195,7 +195,7 @@ A objeção-mãe é a **soma dos ganchos do braçal** plantados ao longo do Meca
 
 ## Como montar o conteúdo do Mecanismo pra um novo player
 
-1. **Pega a sequência fixa** (`estrutura-real-webinar.md`, Fase M): prático, nova oportunidade, fundamento, tabela de superioridade, batismo, prova-meta, Schwartz, IA, 3 passos, quadro, recap. Não invente outra ordem.
+1. **Pega a sequência fixa** (`estrutura-real-webinar.md`, Fase M): prático, nova oportunidade, fundamento, tabela de superioridade, batismo, prova-meta, lastro externo (só o que o dono citou), capacidade ou ferramenta do dono (só a que ele tem), 3 passos, quadro, recap. Não invente outra ordem.
 2. **Acha as afirmações que o conteúdo dele pede.** Saem do Plano de Posicionamento: o inimigo nomeado, o problema avançado, o mecanismo próprio, as provas de superioridade. Quantas forem necessárias, **sem teto de 3**.
 3. **Ensina cada afirmação na batida de 4 tempos** (o que é · por que · me prova · exemplo), aplicando a Faca Soft (doa o entendimento, retém o braço).
 4. **Nomeia o mecanismo** pela Transmutação Mental (6 passos). O nome é SLOT do player.
@@ -215,7 +215,7 @@ A objeção-mãe é a **soma dos ganchos do braçal** plantados ao longo do Meca
 - **Simples e honesto, nunca fácil e mágico.** O produto carrega o braço; não promete zero esforço. "É simples, mas não é fácil. Simples é poucos passos. Fácil seria zero esforço, e o esforço de decidir continua sendo teu."
 - **Nunca esconda o "o quê" pra "preservar o produto".** Isso quebra o motor inteiro. O valor real tem que ser real. O que se preserva é o braço, não o entendimento.
 - **Nunca venda o atalho/IA como "mais uma ferramenta".** O produto subtrai complexidade. A IA derruba a parede, mas nunca vira a bandeira.
-- **Banido na copy/falas de exemplo:** travessão (em-dash) dentro da copy, a família "travar/travado/destravar" (use emperrar/empacar/parar/freio/amarra; exceção só em citação literal do cliente entre aspas), ALL-CAPS corrido, "guru", "alavancar", "jornada", "mindset".
+- **Banido na copy/falas de exemplo:** travessão (em-dash) dentro da copy, o verbo-freio banido (use emperrar/empacar/parar/freio/amarra; exceção só em citação literal do cliente entre aspas), ALL-CAPS corrido, "guru", "alavancar", "jornada", "mindset".
 - **Preço e nomes próprios são SLOTS do usuário.** Não inventar número nem bordão; usar o que o player definiu, ou marcar *(a definir)*.
 - **Exemplo de nicho alheio é sempre EXEMPLO, nunca molde a decalcar.** "Visão de floresta", "efeito GL" são de seus donos; ilustram o mecanismo, não viram recheio.
 - **Companion vivo:** sempre que for escrever o Mecanismo, leia `exemplos-por-bloco/06-viradas-conteudo.md` antes (9 nichos com a fala literal de cada tempo + o checklist de padrões transversais).

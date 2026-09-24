@@ -1,5 +1,9 @@
 # Pré-início (aquecimento de sala, check técnico, compliance progressiva, chat acordando)
 
+> **Dado de origem não viaja.** Prazo, limite de lugar, contagem, presente, regra de gravação, presença ao vivo, frequência sem fonte, resultado com prazo e autor citado como prova, nos trechos abaixo, são do dono de origem. Na entrega, cada um vira `[DO DONO: ...]` ou sai, e o `conferir_fontes.py` confere. A técnica fica; o dado, não.
+
+> **Candidata a corte (Fase 3, 23/09).** Nenhum dos 5 operadores medidos abriu este arquivo. Falas de 9 webinars, o mesmo tipo de material que gerou decalque em outro nicho; candidato a encolher pra um exemplo de contraste por beat. Só sai depois da auditoria técnica por técnica (cada técnica vai pra carregada, dirigida ou perdida, e perdida zera antes do corte); até lá vale como está.
+
 > Como usar: leia ANTES de escrever este bloco. Os trechos são EXEMPLOS literais (de outros nichos) de webinars que venderam, extraia a PREMISSA e adapte ao nicho do usuário; NUNCA decalcar a forma (G2). Máquina GA = GA.
 
 ---
@@ -72,7 +76,7 @@ Gestão de problema técnico sem perder a sala:
 
 **Trecho literal:**
 
-> "Fala pessoal, tudo bem? Sejam muito bem-vindos. Coloca aqui nos comentários se está funcionando agora. A gente começou ali, ficou meio travado, tinha um teaserzinho aqui de início, mas não deu certo para passar o vídeo. Coloca aqui para mim se vocês estão conseguindo me ver, se vocês estão conseguindo me ouvir, para eu olhar aqui nos comentários, para eu entender se, pelo menos eu estou aparecendo aqui."
+> "Fala pessoal, tudo bem? Sejam muito bem-vindos. Coloca aqui nos comentários se está funcionando agora. A gente começou ali, ficou meio parado [palavra ajustada pela régua anti-voz], tinha um teaserzinho aqui de início, mas não deu certo para passar o vídeo. Coloca aqui para mim se vocês estão conseguindo me ver, se vocês estão conseguindo me ouvir, para eu olhar aqui nos comentários, para eu entender se, pelo menos eu estou aparecendo aqui."
 
 > "Só confirma para mim. Dilnei funcionando, Reginaldo funcionando, ok. Obrigado. Alexandre Ruiz, sim, ok. Funcionando. Agora sim, Michele e Janaína. Obrigado, obrigado, pessoal. Obrigado pela confirmação."
 

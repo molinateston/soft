@@ -28,8 +28,8 @@ Regra de canal (devolve decidido):
 
 | Ticket | Canal |
 |---|---|
-| ≤ ~R$3.000 | fecha NA HORA no checkout (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
-| > ~R$3.000 | webinar QUALIFICA, fecha no 1:1 (soft-vendas-closer); botão vira WhatsApp/formulário; escassez vira "velocidade de chamar" |
+| ≤ ~R$3.000 (ou o número que o dono declarou) | fecha NA HORA no checkout (2h de copy empilhando valor fazem lead frio pagar ~R$1.700) |
+| acima da régua | webinar QUALIFICA, fecha no 1:1 (soft-vendas-closer); botão vira WhatsApp/formulário; escassez vira "velocidade de chamar" |
 
 Ticket alto que não cabe → a oferta da aula é a **porta de entrada**, o caro vira ascensão. **Conta que crava o ticket:** meta ÷ ticket = clientes/mês; não cabe na agenda → SOBE o ticket.
 

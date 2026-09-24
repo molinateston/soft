@@ -100,7 +100,7 @@ Este sistema tem **3 ativos de fechamento de venda** que **convivem** (não subs
 | **Micro Treinamento (MT)** | `soft-funil-carta` (variação MT) | Vídeo curto: entrega valor + vende | 15-25 min de vídeo | Médio | Pouco - fala curta, editável |
 | **Webinário** | `soft-webinar` | Aula completa + oferta robusta + Q&A | 60-90 min | Alto | Alto - conduzir uma sala 60-90 min |
 
-A escolha **não é sobre qual é melhor**. É sobre **qual encaixa no momento do cliente** (ticket + estágio + ciclo) **e no repertório dele** (consegue conduzir 90 min de sala?) **e no comportamento do avatar dele** (lê ou assiste?).
+A escolha segue **o que encaixa no momento do cliente** (ticket + estágio + ciclo) **e no repertório dele** (consegue conduzir 90 min de sala?) **e no comportamento do avatar dele** (lê ou assiste?).
 
 5 perguntas, nesta ordem:
 
@@ -402,7 +402,7 @@ Após as perguntas, **recomenda 1 ativo principal**. Empate → escolhe o de men
 
 > Estes pontos as fontes não cravam de forma única - não decida sozinho, registre e leve pro especialista.
 
-- **Onde exatamente o checkout direto vira processo comercial.** As fontes apontam "até ~R$2k checkout direto", mas mostram tickets diferentes no mesmo formato (R$490 checkout, R$1.697 checkout a lead frio, R$2.500 com 3 quedas). **[o especialista define: a linha de corte canônica Soft entre checkout direto e processo comercial.]**
+- **Onde exatamente o checkout direto vira processo comercial.** As fontes antigas apontavam "até ~R$2k checkout direto" e mostram tickets diferentes no mesmo formato (R$490 checkout, R$1.697 checkout a lead frio, R$2.500 com 3 quedas). **Definido pelo dono do método em 23/09: até ~R$3.000 fecha no botão, no próprio webinar; acima vai pra call, salvo número próprio que o dono declarar.**
 - **Número de sessões ao vivo antes de perpetuar.** Cap 0 cita "4-8 sessões". **[o especialista define: régua fixa ou faixa, e o número exato.]**
 - **Parâmetros do perpétuo** (nº de horários/dia, números de validação pra perpetuar). As fontes cravam "4 horários/dia" e "150-200 valida / 8-15 grava" como o que ficou em pé na operação do corpus estudado. **[o especialista define: confirmar se esses números são lei Soft ou default a calibrar por volume do nicho.]**
 - **Nomes próprios** (inimigo nomeado da Carta, nome do mecanismo de cada nicho-exemplo): são SLOTS por cliente - nunca inventar e atribuir ao especialista.

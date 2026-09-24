@@ -155,9 +155,9 @@ Lista numerada de objetivos/marcos, cada um um loop aberto de curiosidade que pr
 - **Porquê:** loop aberto é tensão; o cérebro odeia loop sem resposta. Promessas-ainda-não-cumpridas plantadas cedo reduzem o abandono. "Aplicar amanhã" adiciona recompensa próxima.
 - **Soft:** os passos do método do usuário podem virar a agenda (revelados item a item por clique), embutindo o desejo-fim. *(nome do framework: a definir com o usuário)*.
 
-### Arquétipo 7, RETENÇÃO / "PRESENTE PRA QUEM FICAR" (loop de recompensa)
-Promessa explícita de uma recompensa no fim, pra reduzir abandono no momento crítico. Render: `frase`/`conteudo`.
-- **EXEMPLO de outro nicho (gestão):** s.17 *"Tem presente pra quem ficar até o final"* (foto de presente embrulhado) · repetido na boca do pitch (s.184).
+### Arquétipo 7, RETENÇÃO / PRESENTE DE RETENÇÃO (loop de recompensa)
+Promessa explícita de uma recompensa no fim, pra reduzir abandono no momento crítico, só com o presente real que o insumo traz (sem ele, o arquétipo não entra). Render: `frase`/`conteudo`.
+- **EXEMPLO de outro nicho (gestão):** s.17 o presente que aquele dono tinha (foto de presente embrulhado) · repetido na boca do pitch (s.184).
 - **Porquê:** a venda inteira depende de uma variável, o lead chegar ao fim (onde está o CTA). O presente é loop de recompensa + reciprocidade antecipada.
 - **Soft:** obrigatório. O presente tem que ser **real e entregue** dentro do bloco de bônus/escassez.
 
@@ -223,11 +223,11 @@ Frase curta de alto impacto, 1 palavra em cor (amarelo = a tese; verde = ganho),
 3. **Queda em degraus, valores RISCADOS na tela:** s.253-255 risca R$20k → risca R$10k → *"R$3.500"* → R$2.497 (riscado) → *"1.997 à vista"*.
 4. **Redução ao ridículo (cost-per-day):** s.320 *"R$199 / 30 dias = R$6,63 por dia"* · s.321 *"R$6,63/dia ≈ um refrigerante (R$5,20)"*.
 Render: `investimento`/`oferta` (títulos verdes automáticos = luz verde pra comprar) + `prova` (número-gigante do cost-per-day).
-- **Porquê:** o preço não tem valor absoluto, é julgado por **contraste**. Âncora externa recalibra a régua; o stack vira a nova âncora; riscar AO VIVO dramatiza a economia; a redução ao ridículo pulveriza a última objeção financeira.
+- **Porquê:** o preço não tem valor absoluto, é julgado por **contraste**. Âncora externa recalibra a régua; o stack vira a nova âncora; riscar AO VIVO dramatiza a economia; a redução ao ridículo derruba a última objeção financeira.
 - **Soft:** estrutura universal, qualquer ticket usa exatamente isso. ⚠️ **stack REAL** (bônus de verdade, valores defensáveis, a primeira pessoa que questiona um valor inventado derruba a oferta inteira). Reduzir ao ridículo funciona em qualquer ticket (R$3k ÷ 365 ≈ R$8/dia). Slide-mestre da oferta **fixo na tela** durante o fechamento. Ver `exemplos-por-bloco/09-oferta-stack.md` e `10-ancoragem-preco.md`.
 
 ### Arquétipo 18, ESCASSEZ / URGÊNCIA + FAQ + CTA (o fechamento)
-Escassez por TEMPO ("só HOJE / só quem ficou") + por QUANTIDADE ("15 primeiros recebem bônus") com mecanismo verificável → FAQ matador-de-objeções → CTA/contato → retorno ao slide-oferta. Render: `fechamento`/`secao`/`frase`.
+Escassez por TEMPO ([prazo real do dono]) + por QUANTIDADE ([N primeiros do dono] recebem [bônus do dono]) com mecanismo verificável, as duas só com o motivo e o prazo que o dono confirmou no insumo (sem isso, a linha sai e vira nota ao dono) → FAQ matador-de-objeções → CTA/contato → retorno ao slide-oferta. Render: `fechamento`/`secao`/`frase`.
 - **EXEMPLO de outro nicho (gestão):** s.256-257 *"OFERTA EXCLUSIVA disponível somente HOJE / só pra quem ficou até o final"* · s.265 *"15 PRIMEIROS… AGORA / NESTA AULA"* · s.323 FAQ *"Tem pré-requisito? Não. Suporte? Sim. Acesso? 12 meses. Pagamento? Cartão, PIX, Boleto"*.
 - **Porquê:** escassez/urgência → aversão à perda → FOMO, que vira "depois eu decido" em "agora ou nunca". Cada objeção racional não respondida é um freio no clique; o FAQ remove uma a uma e libera a decisão emocional já tomada.
 - **Soft:** FAQ mata as objeções REAIS do avatar. Escassez **honesta** (turma real, prazo real, mecanismo verificável, escassez falsa funciona uma vez e queima a marca). O canal de contato humano captura indecisos pro **comercial 1:1 da esteira** (faz-sozinho → faço-com → faço-por). Ver `exemplos-por-bloco/11-garantia.md`, `12-escassez-urgencia-cta.md`, `13-qa-objecoes.md`.
@@ -242,7 +242,7 @@ O deck é um **ADMA visualizado**: cada bloco do roteiro vira uma faixa de slide
 Slide 1 = boas-vindas com **a pergunta da dor fixa** (segura quem chega atrasado). Promessa grande + imagem logo depois. Tipos: `capa`, `frase`.
 
 ### ATENÇÃO (abertura + posicionamento) → arquétipos **2 · 1 · 3 · 4 · 16 · 5 · 6 · 7 · 8**
-Capa/Big-Idea → Respiro → **Autoridade empilhada(3)** (empresa antes da pessoa, só prova real) → **Origem(4)** (fracasso → virada → autoridade) → **Manifesto-tese(16)** (bordão-tese do usuário) → **Dicotomia semafórica(5)** (vermelho=medo, verde=desejo; medo primeiro) → **Contrato com loops(6)** → **Retenção "presente pra quem ficar"(7)**. **Semear o preço cedo.** Tipos: `capa`, `frase`, `prova`, `conteudo`, `mao`.
+Capa/Big-Idea → Respiro → **Autoridade empilhada(3)** (empresa antes da pessoa, só prova real) → **Origem(4)** (fracasso → virada → autoridade) → **Manifesto-tese(16)** (bordão-tese do usuário) → **Dicotomia semafórica(5)** (vermelho=medo, verde=desejo; medo primeiro) → **Contrato com loops(6)** → **Retenção com presente real(7)**. **Semear o preço cedo.** Tipos: `capa`, `frase`, `prova`, `conteudo`, `mao`.
 
 ### DIAGNÓSTICO (prova da tendência + dor) → arquétipos **9 · 8 · 10 · 1 · 11 · 16 · 5**
 **Print-de-mídia empilhado(9)** (grifo + seta no trecho que importa) → **Número-gigante de tendência(8)** → **Ensino/diagrama do problema(10)** → **Storytelling de dor(11)** (2ª pessoa, **1 cena por slide**, escala até o clímax) → **Respiro preto(1)** que vira a chave. **Primeiro o vácuo (dor), depois o método.** Tipos: `prova`, `conteudo`, `frase`. Nota de voz: respeitar a anti-voz do usuário (termos que ele não usa).
@@ -357,7 +357,7 @@ Esqueleto mínimo de um webinário (nicho genérico, anonimizado). A copy comple
     "numero": "R$ 6,63",
     "titulo": "por dia, menos que um refrigerante",
     "fonte": "R$ 199 ÷ 30 dias",
-    "nota": "REDUÇÃO AO RIDÍCULO (arquétipo 17). Preço ÷ dias vs. objeto trivial, pulveriza a última objeção financeira. Funciona em qualquer ticket. [copy aqui.]"
+    "nota": "REDUÇÃO AO RIDÍCULO (arquétipo 17). Preço ÷ dias vs. objeto trivial, derruba a última objeção financeira. Funciona em qualquer ticket. [copy aqui.]"
   },
   {
     "tipo": "secao",

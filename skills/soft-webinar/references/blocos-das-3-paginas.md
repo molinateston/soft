@@ -26,7 +26,7 @@ Três trabalhos, só três: comunicar de cara o que é a aula · qualificar (atr
 
 **4. Foto/vídeo + autoridade breve** (no TOPO): 2-3 linhas só, não o currículo. Empatia ANTES do feito. A bio DETALHADA não vai aqui, vai na ÚLTIMA DOBRA (Passo 1.B, regra das 3 páginas). Molde topo: "[Nome]. [empatia: já passei por X]. [feito: hoje Y clientes têm Z]." Número só confirmado; sem fonte, `[A CONFIRMAR]`.
 
-**5. Formulário**: campos pela regra de MODELO (Passo 0). No perpétuo, captura também o **horário escolhido** da sessão, que vira uma variável que acompanha o lead pela automação inteira (permite o "te vejo às 19h" e o link individual, ver Passo 5). Campos qualificadores (só high-ticket, opcionais): estágio atual (faturamento/tempo), maior obstáculo (lista pré-definida que segmenta a comunicação depois); mais campo = menos cadastro, porém lead mais qualificado. Botão: "Confirmar minha vaga" / "Quero participar" / "Reservar acesso"; nunca "Cadastrar" / "Registrar" / "Enviar" (palavra de formulário burocrático, não de evento). A aula é sempre GRÁTIS na captura (aula paga na captura não funciona); a barra de inscrição aparece direto, sem bolha pra clicar. Política de privacidade em linha discreta abaixo do botão.
+**5. Formulário**: campos pela regra de MODELO (Passo 0). No perpétuo, captura também o **horário escolhido** da sessão, que vira uma variável que acompanha o lead pela automação inteira (permite o "te vejo às 19h" e o link individual, ver Passo 5). Campos qualificadores (só high-ticket, opcionais): estágio atual (faturamento/tempo), maior obstáculo (lista pré-definida que segmenta a comunicação depois); mais campo = menos cadastro, porém lead mais qualificado. Botão: "Confirmar minha inscrição" / "Quero participar" / "Reservar acesso"; nunca "Cadastrar" / "Registrar" / "Enviar" (palavra de formulário burocrático, não de evento). A aula é sempre GRÁTIS na captura (aula paga na captura não funciona); a barra de inscrição aparece direto, sem bolha pra clicar. Política de privacidade em linha discreta abaixo do botão.
 
   **Truque form-less do WhatsApp:** pedir o número no form derruba o cadastro. Em vez de pedir, faz a pessoa te mandar uma mensagem pré-pronta; ela acha que está só "confirmando a inscrição pelo WhatsApp" e você captura o número sem ter pedido. O clique no `wa.me` é, ele próprio, o cadastro + o opt-in num gesto só (é a ponte pra variante crua do Passo 7). **Lê Bloco 1.5 e aplica o detalhe do horário-variável + o truque form-less com a fala literal.**
 
@@ -68,11 +68,11 @@ Função única: **fazer a pessoa aparecer.** Alvo Soft 50%+ (benchmark 33-57%);
 
 | # | Bloco | O que vai dentro |
 |---|---|---|
-| 1 | **Confirmação enfática (nome dinâmico)** | eyebrow check verde "✓ Inscrição confirmada" · H1 "Informações importantes" · lead c/ nome: "Tá garantida, **[nome]**. O acesso é **gratuito e limitado**." Nome vem da URL (`?first_name=`) c/ fallback `localStorage` (funciona em qualquer aparelho) |
-| 2 | **3 badges anti-fuga** (cards X vermelho) | "✗ Ao vivo, sem replay" · "✗ Sem material depois" · "✗ Só quem fica até o fim". É o anti-fuga virado 3 selos no topo; mata o "depois vejo a gravação" |
+| 1 | **Confirmação enfática (nome dinâmico)** | eyebrow check verde "✓ Inscrição confirmada" · H1 "Informações importantes" · lead c/ nome: "Tá garantida, **[nome]**. O acesso é **gratuito**." (limite só com o número e o motivo do dono) Nome vem da URL (`?first_name=`) c/ fallback `localStorage` (funciona em qualquer aparelho) |
+| 2 | **3 badges anti-fuga** (cards X vermelho) | "✗ [política de replay do dono]" · "✗ [política de material do dono]" · "✗ [regra de saída do dono]". É o anti-fuga virado 3 selos no topo; cada selo só com a decisão do dono no insumo, e sem nenhuma o bloco sai |
 | 3 | **Card "Sua aula"** | Data + Horário (do horário que o lead escolheu na captura; perpétuo NUNCA tem data fixa, cada lead vê a SUA) · **timer OFICIAL da ferramenta** restilizado na marca ("Sua aula começa em: …"; ao zerar a página vira a sala) · linha de acesso dashed ("**Deixe esta página aberta.** Na hora ela vira sua sala e te leva pra dentro. O link chega no **e-mail** e **WhatsApp**.") · **agenda**: 3 botões Google/Outlook/.ICS c/ link individual embutido |
-| 4 | **Gate "Passo decisivo" → FICHA** | card verde · selo "Passo decisivo" · H2 "Garanta sua vaga na sala" · "Assentos limitados. Preenche a ficha rápida (3 min) pra garantir teu lugar. Uso tuas respostas pra preparar a sala pro teu caso." · botão "Garantir minha vaga →" pra `/ficha/` |
-| 5 | **Presente de retenção** (fecho) | card discreto: "🎁 Tem um **presente pra quem ficar até o fim**. Entra no horário e fica até o final." |
+| 4 | **Gate "Passo decisivo" → FICHA** | card verde · selo "Passo decisivo" · H2 "Prepara a tua aula" · "[limite real por sessão e motivo, só se o dono deu] Preenche a ficha rápida (3 min). Uso tuas respostas pra preparar a sala pro teu caso." · botão "Responder a ficha →" pra `/ficha/` |
+| 5 | **Presente de retenção** (fecho) | card discreto, só com presente real no insumo: "🎁 [presente do dono e quando sai]. Entra no horário e fica até o final."; sem presente, o bloco sai |
 
 > **Lê Bloco 2.2 pro molde do opt-in + a mensagem que sobe comparecimento, e Bloco 2.6 pros 3 usos da ficha (Lead Score / comercial / dor na voz do lead).** ~30% respondem a ficha sem incentivo. O timer é SEMPRE o oficial da ferramenta, nunca contagem em localStorage (quebra cross-device).
 
@@ -86,12 +86,12 @@ Barra de progresso · salva sozinha (retoma se fechar a aba) · prefill do que v
 | **Score** (define HOT) | sim | urgência (0-10) · quando quer resolver · faturamento mensal · **quanto toparia investir** (piso HOT = topa 3k+) |
 | **Insight** | não | "O que mais te prende hoje?" (campo aberto, na voz do lead) |
 
-**Tela final:** "Pronto, [nome]. Vaga garantida." + único próximo passo = botão WhatsApp c/ msg pré-pronta ("Oi [NOME]! Acabei de preencher minha ficha da masterclass. Quero garantir minha vaga na sala.") + nota "A sala abre no horário que você escolheu · não falta, tem presente no fim".
+**Tela final:** "Pronto, [nome]. Inscrição confirmada." + único próximo passo = botão WhatsApp c/ msg pré-pronta ("Oi [NOME]! Acabei de preencher minha ficha da masterclass. Quero confirmar minha presença.") + nota "A sala abre no horário que você escolheu · não falta" (o presente só entra se o dono tem um).
 
 ### Variante AO VIVO (obrigado da imersão): quando o evento tem data fixa
 | Elemento | No AO VIVO |
 |---|---|
-| H1 | "Tá dentro. Sua vaga gratuita tá reservada." |
+| H1 | "Tá dentro. Tua inscrição gratuita tá feita." |
 | Estrutura | stepper de 3 passos: **Agora, responde a ficha** (libera o grupo no fim) → **Grupo de WhatsApp** (sai o link do Zoom, lembretes, materiais) → **dia/hora ao vivo** |
 | Gate honesto | "Antes de liberar o grupo: leio cada ficha pra calibrar a aula. Sem a ficha, o grupo não abre." |
 | CTA | "Responder a ficha agora" + nota "leva 5 min · libera o grupo no fim" |
@@ -100,11 +100,11 @@ Barra de progresso · salva sozinha (retoma se fechar a aba) · prefill do que v
 ## Passo 3, Página de CHECKOUT ENXUTO (abre a venda de quem já decidiu)
 Quem chega já está ~80% decidido. A aula vendeu. **O checkout NÃO convence do zero**: tira a última hesitação e dá o trajeto mais curto pro cartão. Se precisa convencer, o furo está na aula. Conversão de quem ENTRA: 60-85%. **Lê `references/_PAGINAS-BENCH.md` Seção 3.**
 
-> **A régua do corpus estudado (não negocia):** checkout SÓ com **cronômetro 5min + "você está entre os 15 primeiros" + garantia + provas + bônus. NADA mais.** Cada bloco extra é fricção que faz a pessoa pensar de novo.
+> **A régua do corpus estudado (não negocia):** checkout SÓ com **cronômetro + "você está entre os N primeiros" + garantia + provas + bônus. NADA mais.** (cronômetro e N primeiros só com o prazo e o limite reais do dono) Cada bloco extra é fricção que faz a pessoa pensar de novo.
 
 **Achado:** não há HTML de checkout deployado, o checkout do corpus estudado é a tela do gateway (a plataforma de checkout/webinar do dono). Os blocos são o que entra NA tela / no topo dela.
 
-**Decide o DESENHO pelo ticket:** até ~3k = checkout impessoal (os blocos abaixo). High-ticket = fecha no **1:1** (CTA pro `wa.me`, **nunca o preço seco**; ver Passo 7).
+**Decide o DESENHO pelo ticket:** até ~R$3.000 (ou o número do dono) = checkout impessoal (os blocos abaixo). High-ticket = fecha no **1:1** (CTA pro `wa.me`, **nunca o preço seco**; ver Passo 7).
 
 **Os 5 blocos, na ordem na tela** (tudo acima/perto da dobra):
 

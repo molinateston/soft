@@ -9,7 +9,7 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 - **Montar o deck** (copy nas notas, arquétipos, animação por clique, quadro cinza do rosto): `geracao-de-slides.md` e `template-72-slides.md`. Aqui só aparece o que muda na hora de GRAVAR com esse deck.
 - **Números de validação e mecânica de sala do perpétuo** (150-200 valida / 8-15 grava, 10% de sinal verde, 4 horários/dia, ROAS, plataformas): capacidade da soft-webinar. Aqui eles entram só como contexto da ordem de trabalho.
 - **Edição, formato de arquivo e subida na plataforma**: capacidade da soft-webinar (Fases 2-4). Aqui só o que a edição não pode destruir.
-- **O conteúdo do Q&A** (5 categorias, respostas-molde): `objection-annihilation.md`. Aqui só o formato de gravação do Q&A.
+- **O conteúdo do Q&A** (a lista-mestra no molde de 3 passos): `objection-annihilation.md`. Aqui só o formato de gravação do Q&A.
 
 ---
 
@@ -31,7 +31,7 @@ Esta reference cobre o buraco entre o deck pronto e o perpétuo no ar: **o ato d
 
 A gravação não salva roteiro fraco. Ela impede que um roteiro ótimo morra na execução.
 
-> **EXEMPLO.** O webinar de gestão de ~R$3M é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador de vagas caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
+> **EXEMPLO.** O webinar de gestão de ~R$3M é um perpétuo gravado de ponta a ponta e converte como ao vivo: countdown "começaremos em 5:09", depoimentos rodando enquanto a sala enche, chat lido em tempo real ("a Maria está dizendo que sim, o Luiz disse sim, beleza"), contador do limite real caindo. Nada disso é câmera cara. É condução com energia de evento, gravada uma vez e vendida todo dia. (manual, cap 8)
 
 ---
 
@@ -143,11 +143,11 @@ O perpétuo tem um paradoxo de partida: **precisa parecer cheio pra ficar cheio*
 2. **Com ator ou cliente real que sabe que é gravação.** Mais natural, mais trabalho.
 3. **Simulado via chat da plataforma.** Sem gravação extra, mas soa artificial pra audiência sofisticada.
 
-O conteúdo das perguntas (5 categorias, respostas-molde) está em `objection-annihilation.md`. Aqui só a decisão de formato de gravação.
+O conteúdo das perguntas (a lista-mestra no molde de 3 passos) está em `objection-annihilation.md`. Aqui só a decisão de formato de gravação.
 
 ### 5.3 Escassez de sala e contador
 
-**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: a sessão tem lugares limitados de verdade, o link é individual, quem fecha a janela perde a sessão daquele horário. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o autor do corpus cita 180-200; a fonte GA usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
+**Mecanismo.** A escassez do perpétuo Soft é **real por desenho**: o link é individual e quem fecha a janela perde a sessão daquele horário; limite de lugares só com o número e o motivo que o dono confirmou. "Você não inventa escassez; você comunica a escassez que de fato existe" (MANUAL, cap 4). O contador de presença se mantém numa faixa (o autor do corpus cita 180-200; a fonte GA usa simulação dinâmica que sobe até ~120 e cai). A "compra dos 15 primeiros" plantada cedo existe nas fontes: no perpétuo é simulada, no ao vivo é real (dá até pra combinar com alguém de confiança de entrar cedo) - MANUAL, cap 4. Ver PERGUNTAS PRO ESPECIALISTA sobre a calibragem canônica.
 
 ### 5.4 A questão da integridade (a resposta do cap 8, inteira)
 
@@ -170,7 +170,7 @@ A linha que o cap 8 traça por último, e que a skill repete: o que NÃO é ques
 - **Fundo:** limpo. Sem ruído visual competindo com o slide.
 - **Posição da câmera (Forma 2):** logo acima do texto que você lê, pra manter o olhar no eixo e matar o olhar de leitura.
 - **Deck:** copy nas notas, listas animadas por clique, quadro cinza do rosto já respeitado na montagem (tudo em `geracao-de-slides.md`; confira antes de gravar, não durante).
-- **Presenter View testada** (Forma 1): a tela compartilhada é a limpa; a privada mostra notas + próximo slide.
+- **Presenter View testada** (Forma 1): a tela compartilhada é a limpa; a privada mostra notas + o slide seguinte.
 - **Auto-scroll instalado e calibrado** (Forma 2): velocidade na casa de 4, ajustada ao seu ritmo real de fala num teste de 2 minutos.
 - **Gravação redundante:** grave a sessão inteira (a plataforma grava E o local grava). A matéria-prima de uma sessão boa não se repete.
 - **Formato final e edição:** capacidade da soft-webinar (MP4 1080p, áudio normalizado, o que cortar e o que jamais cortar).
