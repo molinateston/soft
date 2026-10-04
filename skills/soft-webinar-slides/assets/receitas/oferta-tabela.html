@@ -1,0 +1,53 @@
+<!-- RECEITA oferta-tabela (guia: "O slide da oferta: o único cheio de informação")
+O que faz: o carrinho. A tabela inteira (uma linha por item, bônus com o rótulo na cor reservada), o total somado
+e riscado com o percentual do à vista ao lado, e o painel: a parcela como manchete, o à vista menor, o link maior que tudo.
+A mesma tabela, parada e sem cliques, é a tela fixa das perguntas.
+Adapte: uma .tl por item, com data-valor (número puro) e o texto do valor como o dono escreve; data-total = a soma
+(o checar_deck.py confere); a geometria (altura e fonte da linha) se ajusta sozinha pelo número de linhas (até 14);
+percentual, parcela, à vista, link e prazo só do insumo; prazo só com o motivo escrito.
+Sem o valor de algum item, a tabela não entra (use o preço em degraus). O total parcelado nunca aparece. -->
+<section class="slide claro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}" data-layout="oferta">
+<style>
+.quadro { position: absolute; inset: 70px 100px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 70px; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); margin-bottom: 12px; }
+.tabela { display: flex; flex-direction: column; justify-content: center; }
+.tl { display: flex; align-items: center; gap: 18px; border-bottom: 2px solid var(--linha); height: var(--alt, 84px); font-size: var(--fs, 38px); }
+.tl .it { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; }
+.tl .vl { font-weight: 800; white-space: nowrap; }
+.total { display: flex; align-items: center; gap: 26px; margin-top: 26px; }
+.total .tt { font-size: 38px; font-weight: 800; }
+.total .tv { font-size: 60px; font-weight: 800; color: var(--dim); white-space: nowrap; }
+.painel { align-self: center; border-radius: 28px; background: var(--dest-suave); padding: 56px 54px; display: flex; flex-direction: column; justify-content: center; }
+.hoje { font-size: 34px; color: var(--dim); }
+.parcela { font-size: 112px; font-weight: 800; letter-spacing: -3px; line-height: 1; color: var(--dest); white-space: nowrap; margin-top: 8px; }
+.avista { font-size: 42px; margin-top: 18px; }
+.link { font-family: var(--fonte-acao); font-size: 54px; font-weight: 800; color: #fff; background: var(--acao); border-radius: 22px; padding: 26px 30px; margin-top: 44px; text-align: center; }
+.prazo { font-size: 30px; line-height: 1.25; margin-top: 22px; color: var(--dim); }
+</style>
+<div class="quadro" data-geometria="tabela">
+  <div class="tabela">
+    <div class="rot">{{ROTULO_CURTO}}</div>
+    <div class="tl"><span class="it">{{ITEM_1}}</span><span class="vl" data-valor="{{VALOR_1}}">{{TEXTO_VALOR_1}}</span></div>
+    <div class="tl"><span class="it">{{ITEM_2}}</span><span class="vl" data-valor="{{VALOR_2}}">{{TEXTO_VALOR_2}}</span></div>
+    <div class="tl"><span class="rot-bonus">BÔNUS</span><span class="it">{{ITEM_3}}</span><span class="vl" data-valor="{{VALOR_3}}">{{TEXTO_VALOR_3}}</span></div>
+    <div class="total" data-total="{{SOMA}}"><span class="tt">Total</span><span class="tv risco">{{TEXTO_SOMA}}<span class="risco-wrap"><span class="risco-rot"><span class="risco-linha"></span></span></span></span><span class="pct">{{PERCENTUAL_DO_A_VISTA}}</span></div>
+  </div>
+  <div class="painel">
+    <div class="hoje">{{CHAMADA_DO_PAINEL}}</div>
+    <div class="parcela">{{PARCELA}}</div>
+    <div class="avista">{{A_VISTA}}</div>
+    <div class="link">{{LINK_OU_BOTAO}}</div>
+    <div class="prazo">{{PRAZO_COM_MOTIVO}}</div>
+  </div>
+</div>
+<script>
+(function () {
+  const q = document.currentScript.previousElementSibling, n = q.querySelectorAll('.tl').length;
+  const g = n <= 8 ? [84, 38] : n <= 11 ? [64, 32] : n <= 12 ? [58, 30] : [50, 26];
+  q.style.setProperty('--alt', g[0] + 'px'); q.style.setProperty('--fs', g[1] + 'px');
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

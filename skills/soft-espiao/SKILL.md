@@ -1,7 +1,7 @@
 ---
 name: soft-espiao
 description: >-
-  Pesquisa o que está vendendo no nicho do dono, explica por que funciona e diz o que modelar sem copiar: puxa anúncios da biblioteca da Meta, pontua os sinais de venda (cópias, páginas, variações, views, tempo no ar), acompanha em planilha semanal, desmonta anúncio, VSL ou funil concorrente e entrega o brief de modelagem. Entrega o Radar do mercado em .md e a planilha em CSV. Use quando o pedido for: "o que está vendendo no meu nicho", "espiona esse concorrente", "acha anúncio escalado", "biblioteca de anúncios", "desmonta esse anúncio", "por que esse anúncio funciona", "quero modelar esse anúncio". NÃO use pra: headline ou gancho do zero (soft-conteudo-headlines); o lote de criativos (soft-criativo-campeao); subir, ler ou escalar a campanha do dono (soft-trafego-meta); auditar o perfil do dono (soft-consultoria-instagram); decidir sobre o que postar (soft-conteudo-planner); avaliar ou desenhar oferta, stack e preço, inclusive a do concorrente (soft-plano-ofertas). Leia e siga o fluxo inteiro do SKILL.md.
+  Pesquisa o que está vendendo no nicho do dono, explica por que funciona e diz o que modelar sem copiar: puxa anúncios da biblioteca da Meta, pontua os sinais de venda (cópias, páginas, variações, views, tempo no ar), acompanha em planilha semanal, desmonta anúncio, VSL ou funil concorrente e entrega o brief de modelagem. Entrega o Radar do mercado em .md e a planilha em CSV. Use quando o pedido for: "o que está vendendo no meu nicho", "espiona esse concorrente", "acha anúncio escalado", "biblioteca de anúncios", "desmonta esse anúncio", "por que esse anúncio funciona", "quero modelar esse anúncio". NÃO use pra: headline ou gancho do zero (soft-conteudo-headlines, -ganchos); o lote de criativos (soft-criativo-campeao); subir, ler ou escalar a campanha do dono (soft-trafego-meta); auditar o perfil do dono (soft-consultoria-instagram); decidir sobre o que postar (soft-conteudo-planner); avaliar ou desenhar oferta, stack e preço, até a do concorrente (soft-plano-ofertas). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Espião: o que vende no nicho, por que vende e o que modelar
@@ -54,21 +54,25 @@ Pedido ambíguo ("me ajuda a ver a concorrência"): pergunte UMA coisa, "você q
 
 ## Ação 1 · RADAR (pesquisa pontual de um nicho ou concorrente)
 
-**Leia antes:** `references/busca-na-biblioteca.md` e `references/sinais-de-venda.md`.
+**Leia antes:** `references/busca-na-biblioteca.md` e `references/sinais-de-venda.md` (e `references/classificacao-de-construcao.md` ao chegar no R4b).
 
 **R1 · Termos.** Escreva de 4 a 6 buscas de 2 palavras soltas, sem aspas, cruzando 3 famílias: **mercado** (causa, erro, método, truque, revela), **nicho** (o tema) e **oferta** (o nome do gancho ou do mecanismo de um concorrente que já vende). A biblioteca transcreve o áudio, então a busca acha a palavra dita no vídeo em qualquer ordem. Cada palavra a mais piora a busca: 3 palavras só com motivo escrito.
 
 **R2 · Coleta.** Confira o token sem imprimir: `test -n "$APIFY_TOKEN" && echo token: ok || echo token: ausente`. O token vem do ambiente do agente; nunca peça no chat nem escreva o valor no comando. Com `ok`:
 
 ```
-python3 scripts/buscar_anuncios.py --termo "erro violao" --termo "metodo violao" --max 20 --saida planilha-<nicho>.csv
+python3 scripts/buscar_anuncios.py --termo "erro violao" --termo "metodo violao" --max 20 --saida planilha-<nicho>.csv --salvar-bruto bruto-<nicho>.json
 ```
+
+O `--salvar-bruto` guarda o texto inteiro de cada anúncio (a planilha corta em 160 caracteres), que o passo R4b lê.
 
 Concorrente nomeado: `--pagina-id <id>` traz até `--max` anúncios ativos da página (padrão 20); o script para acima de 150 itens por chamada. Sem token ou sem shell: caminho manual do bloco "Onde estou". Cole a última linha do script (`anuncios na planilha: N · vendendo: N · candidato: N · observar: N`).
 
 **R3 · Limpa o ruído.** Busca por palavra traz anúncio de outro assunto. Marque na coluna `nota` como `fora do eixo: <motivo>`; linha marcada fica na planilha (a próxima coleta não a traz de volta como novidade) e não entra no Radar. **Black sai antes dos pontos:** link que abre página diferente da anunciada, falso especialista, cura ou prazo garantido, rede de páginas de nome genérico ganham `descartado: black: <motivo>`, e sinal de venda nenhum devolve o anúncio à modelagem. Anúncio que o dono trouxe sai com veredito em 1 linha no Radar (modelar, observar ou descartado com motivo); nenhum some.
 
 **R4 · Pontua os sinais.** Aplique a régua de `references/sinais-de-venda.md`: cópias (7 a 10), mesmo anúncio em várias páginas, variações circulando, views subindo, tempo no ar. **Tempo no ar entra somado, nunca sozinho.** Recência pesa: começou há menos de 30 dias e já tem cópias vale mais que um anúncio antigo parado. "Vendendo" pede 3 pontos com 2 sinais distintos além do tempo. Régua de partida; a planilha do nicho do dono a substitui (`sinais-de-venda.md`, topo).
+
+**R4b · Classifica a construção.** Nos anúncios `vendendo` e `candidato`, responda as 4 perguntas fechadas de `references/classificacao-de-construcao.md` (tipo de gancho, especificidade, mostra resultado, prova), leia o texto inteiro no `bruto-<nicho>.json` e cruze com a classe de sinal. Grave em `construcao-<nicho>.csv`. Construção forte sem sinal de venda é hipótese, nunca modelo; sinal de venda com construção fraca manda olhar a oferta e a página, não o texto.
 
 **R5 · Técnica ou personalidade.** Pra cada anunciante do topo, decida: vende por técnica (anúncio ativo há semanas, especialista pouco conhecido fora do nicho) ou por personalidade (pouca mídia paga, audiência grande). **Quem vende por personalidade sai da lista de modelagem** do dono sem a mesma audiência, com o motivo escrito. Sem o número de seguidores na conversa ou no print, marque `técnica? audiência não vista` e deixe o anunciante na modelagem com essa nota.
 

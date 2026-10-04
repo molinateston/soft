@@ -82,7 +82,7 @@ Quando o Contexto funciona, o leitor pensa **"é exatamente isso que eu vivo"** 
 - **Não é currículo do criador.** Autoridade entra em outro papel.
 - **Não é definição de conceito.** Isso é aula, não aterramento.
 
-Se começa com "deixa eu te explicar", "pra você entender", "primeiro de tudo", não é Contexto. É preâmbulo. Reescreve.
+Se começa com "deixa eu te explicar", "pra você entender", "primeiro de tudo", o trecho é preâmbulo e ainda não chegou ao Contexto. Reescreve.
 
 ## As 7 formas de aterrar Contexto
 
@@ -211,7 +211,7 @@ Lado a lado, mostra o método do mercado e o método do criador. Formato binári
 > [Bordão de fechamento].
 
 ### 2. Reframe de Categoria Mental
-"Não é X. É Y." Mostra que o leitor estava tentando resolver o problema errado.
+Troca a categoria mental do leitor: o problema que ele acha que tem dá lugar ao problema de verdade. Mostra que ele estava tentando resolver o problema errado.
 
 **Template:** [O que o leitor acha que é o problema]. Não é. [O que é de verdade]. [Desenvolvimento curto].
 
@@ -300,7 +300,7 @@ Uma palavra fácil de digitar com o polegar. Uma palavra só. Sem hashtag, sem s
 ### 1. Direct com Palavra-Senha (padrão do método)
 **Template:** [Razão concreta em 1-2 linhas]. Envia "[PALAVRA]" no Direct.
 
-**Exemplo:** Eu documentei o método inteiro numa mini webinar de 1h20. Envia "MÉTODO" no Direct.
+**Exemplo:** Eu documentei o método inteiro numa mini webinar de 1h20. Envia "[PALAVRA-CHAVE DO DONO]" no Direct.
 
 ### 2. Comentário com Palavra-Senha
 **Template:** [Razão]. Comenta "[PALAVRA]" que eu te mando.
@@ -316,7 +316,7 @@ Uma palavra fácil de digitar com o polegar. Uma palavra só. Sem hashtag, sem s
 **Template:** Você decide: Continuar [conselho falido]. Ou [o que o método propõe]. [Bordão]. [CTA direto].
 
 ### 5. Filtro Duro
-**Template:** Não é pra quem [perfil errado 1]. Não é pra quem [perfil errado 2]. É pra quem [perfil certo]. [CTA direto].
+**Template:** Pra quem [perfil certo]; quem [perfil errado 1] ou [perfil errado 2] pode deixar passar. [CTA direto].
 
 ### 6. Convite Específico
 **Template:** [Evento/conteúdo com nome]. [Data/formato]. Pra quem [1 linha]. [Ação de inscrição].

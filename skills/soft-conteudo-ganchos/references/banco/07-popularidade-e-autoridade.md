@@ -1,0 +1,14 @@
+# Banco, Parte A: Popularidade e autoridade (6 moldes universais)
+
+Moldes universais da família Popularidade e autoridade: a lacuna aceita qualquer assunto. O cartão de framework desta família, com a condição de entrada, os passos e os erros que o juiz reprova, é `references/frameworks/07-popularidade-e-autoridade.md`. O índice, a legenda das colunas e as ressalvas dos números estão em `references/banco-moldes.md`.
+
+**EXEMPLO:** a coluna Exemplo é de nicho inventado e só mostra a forma. Não copie o dado, use o seu. Toda lacuna em caixa alta ([SEU NÚMERO], [SEU PRAZO], [SEU TEMPO], [SEU VALOR]) é dado do dono: sem ele no insumo, pergunte antes de escrever e nunca deixe a lacuna no gancho entregue.
+
+| Código | Família | Alcance | Molde | Exemplo (inventado) | Formato | Reel | Teto | Prova | Nota de uso | Formas B e quadros |
+|---|---|---|---|---|---|---|---|---|---|---|
+| G043 | Popularidade e autoridade | universal | [A coisa da moda, nomeada] está em todo lugar, e eu testei | O pão de frigideira está em todo lugar, e eu testei | ambos | falar, mostrar | F7 · T5 · C8-15 | medido · 9,1x · med. 9,0x · 0 ab. · 10 em lista | Pauta em alta com o seu teste; o veredito tem que vir com o que você viu. | - |
+| G044 | Popularidade e autoridade | universal | A pergunta que mais chega aqui: [dúvida] | A pergunta que mais chega aqui: posso pintar azulejo de cozinha? | ambos | falar | F7 · C8-15 | medido · 3,6x · med. 2,0x · 0 ab. · 6 em lista | A dúvida precisa ser a que chega de fato, com as palavras de quem perguntou. | - |
+| G045 | Popularidade e autoridade | universal | [Tema]: meu veredito de [N anos de casa] | Óleo sintético: meu veredito de [SEU NÚMERO] anos | reel | falar | F7 | medido na forma original · 3,2x · med. 3,2x · 1 ab. · 0 em lista | O tempo de casa dá peso ao veredito e o tema vem na mesma frase; a forma medida separava o tempo e o veredito em duas frases. | - |
+| G046 | Popularidade e autoridade | universal | O conselho de [referência] que todo [cliente] devia seguir | O conselho de cerimonialista que todo noivo devia ouvir | ambos | falar | F7 · C8-15 | sem medição (casa) | A referência tem que ser alguém que o seu cliente já respeita. | - |
+| G047 | Popularidade e autoridade | universal | [Quem tem credencial] explica: [afirmação específica] | Engenheira civil explica: rachadura em diagonal pede vistoria | ambos | falar | F7 · C8-15 | sem medição (casa) | A credencial na frente de uma afirmação que dá pra conferir. | Q05: [A fonte com credencial] mediu [o fato, com número] |
+| G206 | Popularidade e autoridade | universal | Regra de [grupo que o público respeita]: [a regra, dita] | Regra de eletricista antigo: desligue o geral antes do quadro | ambos | falar, tela | F7 · C8-15 | sem medição (casa) | Forma B do G138: a regra do grupo vai dita na frase, e precisa ser do grupo de fato. A forma que só anuncia um método que os melhores usam reprova por título abstrato. | - |

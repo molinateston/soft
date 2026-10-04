@@ -1,0 +1,46 @@
+<!-- RECEITA escada (guia: regra 9 e "Mecanismo", variante escada; "Módulo ou entrega": degrau mede avanço)
+O que faz: os níveis viram degraus que sobem da esquerda pra direita, cada um com nome e promessa, um por clique.
+A pílula "você está aqui" marca o degrau da pessoa na abertura; na volta antes do pitch, a pergunta de decisão
+entra por último. Em cada módulo da oferta, a mesma escada pequena no alto com o degrau preenchido.
+Adapte: um .degrau por nível do roteiro (de 3 a 6), nome e promessa exatos; .atual onde a pessoa está, quando o roteiro diz;
+--n = número de degraus (o script calcula). Sem promessa no roteiro, o degrau fica só com o nome.
+Nunca: "[N] degraus em [N] módulos" (contagem não vende); degrau a mais pra fechar a forma. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}" data-layout="escada">
+<style>
+.frase { position: absolute; left: 140px; top: 90px; width: 1100px; font-size: 64px; font-weight: 800; letter-spacing: -1.5px; line-height: 1.06; }
+.escada { position: absolute; left: 140px; right: 140px; top: 330px; bottom: 90px; }
+.degrau { position: absolute; border-top: 8px solid var(--dest); background: var(--suave); border-radius: 0 16px 0 0; padding: 22px 26px; }
+.degrau .nm { font-size: 38px; font-weight: 800; line-height: 1.08; }
+.degrau .pr { font-size: 30px; line-height: 1.22; color: var(--dim); margin-top: 10px; }
+.degrau.atual { background: var(--dest-suave); }
+.degrau.atual .pr { color: var(--ink); }
+.aqui { position: absolute; top: -70px; left: 26px; font-family: var(--fonte-acao); font-size: 32px; font-weight: 700; color: #fff; background: var(--acao); border-radius: 999px; padding: 6px 22px; white-space: nowrap; }
+.decisao { position: absolute; right: 140px; top: 96px; width: 560px; font-size: 44px; font-weight: 800; line-height: 1.15; color: var(--dest); text-align: right; }
+</style>
+<div class="frase">{{FRASE_CURTA}}</div>
+<div class="escada">
+  <div class="degrau" data-click="1"><div class="nm">{{NOME_1}}</div><div class="pr">{{PROMESSA_1}}</div></div>
+  <div class="degrau atual" data-click="2"><div class="nm">{{NOME_2}}</div><div class="pr">{{PROMESSA_2}}</div><span class="aqui">você está aqui</span></div>
+  <div class="degrau" data-click="3"><div class="nm">{{NOME_3}}</div><div class="pr">{{PROMESSA_3}}</div></div>
+  <div class="degrau" data-click="4"><div class="nm">{{NOME_4}}</div><div class="pr">{{PROMESSA_4}}</div></div>
+</div>
+<div class="decisao" data-click="5">{{PERGUNTA_DE_DECISAO}}</div>
+<script>
+(function () {
+  const e = document.currentScript.previousElementSibling.previousElementSibling, ds = [...e.querySelectorAll('.degrau')];
+  const W = e.clientWidth, H = e.clientHeight, n = ds.length, gap = 14, w = (W - gap * (n - 1)) / n;
+  ds.forEach((d, i) => {
+    const h = H * (0.34 + 0.66 * (i + 1) / n);
+    d.style.left = (i * (w + gap)) + 'px'; d.style.width = w + 'px'; d.style.bottom = '0px'; d.style.height = h + 'px';
+  });
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Clique 2: {{FALA_CLIQUE_2}}
+Clique 3: {{FALA_CLIQUE_3}}
+Clique 4: {{FALA_CLIQUE_4}}
+Clique 5: {{FALA_CLIQUE_5}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

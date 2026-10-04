@@ -1,0 +1,37 @@
+<!-- RECEITA bussola (guia: "Mecanismo": o passo feito riscado e menor, o atual grande, o próximo apagado)
+O que faz: o trilho do método na esquerda (um nó por passo) e o passo atual enorme na direita, com a promessa dele.
+Volta a cada passo do ensino: mesma tela, o nó atual anda. Repetida, ela vira a linguagem que a sala aprende a ler.
+Adapte: um .passo por passo do método, com o nome exato do roteiro; .feito nos anteriores, .atual no de agora;
+a promessa do passo atual é a frase do roteiro. Sem nome de passo no roteiro, não invente: use a frase do tópico.
+Nunca: passo novo que o roteiro não tem; o produto (módulo, preço) antes da ponte. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.trilho { position: absolute; left: 140px; top: 140px; bottom: 140px; width: 560px; display: flex; flex-direction: column; justify-content: space-between; }
+.trilho::before { content: ""; position: absolute; left: 21px; top: 30px; bottom: 30px; width: 6px; background: var(--linha); border-radius: 3px; }
+.passo { position: relative; display: flex; align-items: center; gap: 34px; font-size: 34px; color: var(--dim); }
+.no { flex: 0 0 48px; height: 48px; border-radius: 50%; border: 5px solid var(--linha); background: var(--bg); position: relative; z-index: 1; }
+.feito .no { background: var(--linha); }
+.feito .nm { text-decoration: line-through; text-decoration-thickness: 3px; }
+.atual .no { border-color: var(--dest); background: var(--dest); box-shadow: 0 0 0 14px var(--dest-suave); }
+.atual .nm { color: var(--ink); font-weight: 800; }
+.palco-passo { position: absolute; left: 820px; right: 140px; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; }
+.n { font-size: 30px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dest); }
+.grande { font-size: 110px; font-weight: 800; letter-spacing: -3px; line-height: 1; margin-top: 18px; }
+.prom { font-size: 46px; line-height: 1.22; color: var(--dim); margin-top: 36px; }
+</style>
+<div class="trilho">
+  <div class="passo feito"><span class="no"></span><span class="nm">{{PASSO_1}}</span></div>
+  <div class="passo atual"><span class="no"></span><span class="nm">{{PASSO_2}}</span></div>
+  <div class="passo"><span class="no"></span><span class="nm">{{PASSO_3}}</span></div>
+  <div class="passo"><span class="no"></span><span class="nm">{{PASSO_4}}</span></div>
+</div>
+<div class="palco-passo">
+  <div class="n">{{ROTULO_DO_PASSO_ATUAL}}</div>
+  <div class="grande">{{PASSO_2}}</div>
+  <div class="prom" data-click="1">{{PROMESSA_DO_PASSO_ATUAL}}</div>
+</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

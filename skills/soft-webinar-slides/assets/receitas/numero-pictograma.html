@@ -1,0 +1,39 @@
+<!-- RECEITA numero-pictograma (guia: regra 6; "1 em cada [N]" vira gente que se conta)
+O que faz: uma grade de figuras; as que importam ficam na cor de destaque e entram por clique.
+Adapte: data-total = figuras na grade e data-destaque = quantas pintadas, as duas do roteiro (proporção ou contagem);
+a frase e o rótulo são do roteiro. A figura pode virar outro ícone que bata com a fala (casa, cliente, venda).
+Nunca: proporção que o roteiro não traz. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.quadro { position: absolute; inset: 110px 140px; display: grid; grid-template-columns: 1fr 980px; gap: 80px; align-items: center; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); }
+.frase { font-size: 80px; line-height: 1.05; font-weight: 800; letter-spacing: -2px; margin-top: 26px; }
+.apoio { font-size: 40px; line-height: 1.25; color: var(--dim); margin-top: 34px; }
+.grade { display: grid; gap: 18px 10px; justify-content: center; }
+.grade svg { width: 100%; height: auto; }
+</style>
+<div class="quadro">
+  <div>
+    <div class="rot">{{ROTULO_CURTO}}</div>
+    <div class="frase">{{FRASE_CURTA}}</div>
+    <div class="apoio" data-click="1">{{APOIO}}</div>
+  </div>
+  <div class="grade" data-total="{{TOTAL_FIGURAS}}" data-destaque="{{FIGURAS_PINTADAS}}" data-clique="1"></div>
+</div>
+<script>
+(function () {
+  const g = document.currentScript.previousElementSibling.querySelector('.grade');
+  const total = +g.dataset.total, dest = +g.dataset.destaque;
+  const cols = total <= 10 ? total : (total <= 20 ? 10 : (total <= 50 ? 10 : 20));
+  g.style.gridTemplateColumns = `repeat(${cols}, ${Math.floor((980 - (cols - 1) * 10) / cols)}px)`;
+  const fig = (cor) => `<svg viewBox="0 0 40 80"><circle cx="20" cy="12" r="10" fill="${cor}"/><path d="M6 30 Q6 24 12 24 H28 Q34 24 34 30 V52 H28 V78 H12 V52 H6 Z" fill="${cor}"/></svg>`;
+  let h = '';
+  for (let i = 0; i < total; i++) h += `<div style="position:relative">${fig('var(--linha)')}` + (i < dest ? `<div class="reveal" data-click="${g.dataset.clique}" data-fx="aparecer" style="position:absolute;inset:0">${fig('var(--dest)')}</div>` : '') + '</div>';
+  g.innerHTML = h;
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

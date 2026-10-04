@@ -3,10 +3,10 @@ name: soft-critico-copy
 description: >-
   Recebe uma peça de texto pronta e devolve o veredito em arquivo, aprovada ou reprovada, com o
   trecho que falhou, o motivo em português e a versão reescrita pronta pra colar embaixo de cada
-  falha. O dono recebe o texto corrigido, não só o apontamento. Use quando o pedido for: "critica
-  essa copy", "essa headline passa?", "revisa esse carrossel antes de eu postar", "isso está com
-  cara de IA?", "audita essas 10 headlines", "roda o gate nessa página", "por que essa copy não
-  convence". É também o gate que toda skill de copy chama antes de entregar linha pública. NÃO use
+  falha. Use quando o pedido for: "critica essa copy", "essa headline passa?", "revisa esse
+  carrossel antes de eu postar", "isso está com cara de IA?", "audita essas 10 headlines", "roda o
+  gate nessa página", "por que essa copy não convence", "isso é genérico?", "valida no modo
+  rigoroso", "passa no teste do concorrente?". É também o gate que toda skill de copy chama antes de entregar linha pública. NÃO use
   pra: "por que não converteu" sobre o número do funil (soft-negocio-metricas); auditar o perfil
   inteiro do Instagram (soft-consultoria-instagram); escrever copy nova (soft-conteudo-headlines,
   soft-conteudo-carrossel ou a skill do formato); revisar brief interno ou plano, que não é linha
@@ -18,13 +18,25 @@ description: >-
 
 Esta skill não escreve copy. Ela AUDITA uma peça pronta e devolve um veredito em arquivo: aprovada, ou reprovada com a falha exata, o trecho que falhou, o motivo em uma linha e a reescrita sugerida. Quem chamou corrige e manda de novo, até passar.
 
+## Primeiros passos (o que mandar, como pedir, o que volta)
+
+O agente mostra estes passos ao dono que chega sem nada pronto e pede uma coisa de cada vez. Quatro palavras que aparecem no arquivo inteiro: **veredito** é a resposta final (aprovada ou reprovada); **filtro** é cada régua que a peça atravessa (são 6); **lastro** é a prova de onde saiu cada número, nome e caso que a peça cita; **modo rigoroso** é a régua mais dura, com nota de 0 a 10.
+
+1. **A peça**, colada ou em arquivo, do jeito que vai pro público. É a única coisa sem a qual não existe auditoria.
+2. **O tipo e o que ela vende**, uma frase cada ("anúncio do curso de bolo; promete precificar o cardápio numa tarde"). Por quê: o tipo decide o peso dos filtros e se o modo rigoroso já vem ligado, e a promessa é o lastro do filtro 5. Não sabe o tipo? A skill classifica e diz qual assumiu. Não sabe dizer a promessa? A skill faz uma pergunta e segue com a resposta. Caixinha de aceite ou rodapé de caminhos: diga qual sinal a linha capta e onde ela mora.
+3. **Opcional, e melhora o veredito:** a origem de cada número, prazo e caso que a peça cita (planilha, print, conversa com cliente), a peça anterior e a próxima da campanha, e o perfil de voz. Sem eles, a skill marca `[LASTRO: confirmar com o dono]` e segue. Senha, token e dado de cliente que não vai na peça nunca entram.
+4. **O rigor:** peça de venda já roda no modo rigoroso (nota X/10, só 10 aprova). Em post educativo, peça "valida no modo rigoroso" ou "isso é genérico?". Pra desligar o padrão, use a chave do dono em "Modo rigoroso".
+5. **O que volta:** o arquivo `veredito-copy-<slug>.md` com APROVADA, REPROVADA ou, no rigoroso, a nota e REFAZER; cada falha com o trecho, o motivo em uma linha e a reescrita sugerida. Em lote, o topo diz quantas passaram e quais faltam. Depois: a skill que escreveu a peça (ou o dono) corrige e manda de novo, até 3 rodadas; na terceira reprovação a decisão volta pro dono.
+
+## O que vale em toda auditoria
+
 **O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem os arquivos da ação MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --peca-externa <peça auditada> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0 (o `--peca-externa` é obrigatório aqui: a peça auditada mora fora da pasta). A última linha dessa saída vai colada no relato ou no handoff. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência (checagem-titulos.md, titulos.txt, teses.txt, nomes.txt, conferir.txt) mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. Sem isso, não diga "pronto": diga o que falta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela**, e o comando colado no relato é literalmente o comando desta linha: o script imprime `insumos resolvido: <caminho>` e reprova a forma quando o perfil mora fora da pasta de insumos. O passo a passo da régua está em `references/regua-de-titulos.md`. Esta skill é a pasta instalada que contém este arquivo e a subpasta `scripts/` (confira com `ls scripts/checar_titulos.py` a partir dela); se você leu este arquivo de um plugin, cache ou cópia sem `scripts/`, pare e abra a pasta instalada.
 
 **A régua de títulos é filtro com item próprio na lista de falhas**, aberto por `filtro: Régua de títulos`, com o universo contado, os títulos reprovados e as reescritas. Ela nunca entra como sub-item do lint: um lote passa no lint e reprova na régua.
 
-Ela existe porque copy fraca não é reprovada por opinião, é reprovada por régua. São 5 filtros na ordem, e a ordem importa: se quem lê não entende, não adianta ser confiável; se não acredita, não adianta ser interessante.
+Ela existe porque copy fraca reprova por régua, nunca por opinião. São 6 filtros, e a ordem de leitura importa: se quem lê não entende, não adianta ser confiável; se não acredita, não adianta ser interessante; se a promessa é de qualquer um, não adianta estar bem escrita.
 
-**Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra três auditorias fictícias em nicho neutro: uma headline reprovada, a mesma headline aprovada depois da correção, e um lote de 5 peças com o veredito consolidado. É o arquivo que calibra o formato de saída antes da primeira crítica.
+**Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra três auditorias fictícias em nicho neutro: a headline de um anúncio reprovada no modo rigoroso, a mesma headline aprovada com nota 10 depois da correção, e um lote de 5 legendas de feed com o veredito consolidado.
 
 **O lastro do dono vem do banco do agente.** Onde o filtro 5 precisar de tese, oferta, prova, número ou nome de mecanismo: leia do perfil/brain do agente quando existir; se não existir, use a tese e a oferta declaradas na própria conversa e marque toda afirmação grande que não apareceu ali como `[LASTRO: confirmar com o dono]`. Nunca invente fato do negócio, nunca pare por causa disso.
 
@@ -45,22 +57,22 @@ A pergunta do modo é UMA por auditoria. As outras três partes entram nos filtr
 
 - **Ensina enquanto faz:** em cada reprovação, escreve UMA linha do porquê ("reprovo essa frase porque ela se apoia em adjetivo, não em cena; o leitor não consegue ver o que você afirma"), pra o dono corrigir sozinho na próxima peça.
 - **Puxa o material bruto:** quando o dono defender uma alegação grande sem lastro ("mas é verdade que transformo vidas"), não aceita o genérico. Pede o concreto: "de qual cliente real isso saiu, e que número ou frase literal prova?". Sem lastro, marca a afirmação como furo, não como aprovada.
-- **Oferece refinar no fim:** depois do veredito, fecha com UMA linha de ajuste ("quer que eu reescreva as frases reprovadas? só aponte quais e eu devolvo a versão corrigida"), pra o dono saber que dá pra ir além do diagnóstico sem começar do zero.
+- **Oferece refinar no fim:** depois do veredito, fecha com UMA linha de ajuste ("quer a peça de volta corrigida? aponte as falhas e a skill que escreveu a peça devolve a nova versão a partir da reescrita sugerida"). Quem reescreve é a skill de origem, nunca esta (ver "NÃO altera o texto entregue"). Com falha do filtro 6, essa linha dá lugar ao fecho de `references/validador-conversao-reescrita.md`.
 
 ## Ação única · AUDITAR UMA PEÇA (ou um lote)
 
-**O que faz:** roda os 5 filtros numa peça de copy pronta e devolve o veredito com falha, trecho, motivo e reescrita.
+**O que faz:** roda os 6 filtros numa peça de copy pronta e devolve o veredito com falha, trecho, motivo e reescrita.
 
 **Auditoria de peça com títulos roda a régua de títulos primeiro, e ela entra no veredito.** Extraia todo título da peça auditada (capa, manchete de slide, assunto, texto na tela, primeira linha de mensagem), rode a régua de `references/regua-de-titulos.md` sobre eles e entregue `conferencia/checagem-titulos.md` na pasta do veredito, com as contagens que a régua pede. **Título reprovado é falha BLOQUEANTE, no mesmo nível da falha dura do lint:** peça com capa que só descreve não passa, por melhor que esteja o corpo, porque a capa é o que decide se o corpo é lido. O veredito cola `títulos auditados: N · reprovados: N`.
 
-**O universo da auditoria é CONTADO por comando, nunca escolhido.** Recortar o universo pra "os títulos principais" produz um `2 · 2` sobre 10 slides, que parece checagem e não é. Conte antes de auditar: `grep -cE '^#{1,4} |^\*\*Slide|^Slide [0-9]' <peça auditada>`, e cole o número ao lado do declarado. Depois de preencher a checagem, rode `python3 scripts/checar_titulos.py --conferir <pasta do veredito> --peca-externa <caminho da peça auditada>`: **a peça que esta skill audita mora FORA da pasta de saída, e por isso o universo de títulos é contado nela, nunca na pasta do veredito.** Sem `--peca-externa`, o script conta os títulos do próprio veredito e um `2 · 2` sobre 10 slides passa. Com ele, o script compara os títulos da peça auditada contra a linha `títulos auditados: N` da checagem e sai com exit 1 quando o declarado for menor, na forma `títulos auditados: N menor que os M títulos da peça auditada`. Exit diferente de 0 reprova o veredito inteiro, e um veredito que não passa no próprio gate não julga peça nenhuma.
+**O universo da auditoria é CONTADO por comando, nunca escolhido.** Recortar o universo pra "os títulos principais" produz um `2 · 2` sobre 10 slides, que parece checagem e não é. Conte antes de auditar: `grep -cE '^#{1,4} |^\*\*Slide|^Slide [0-9]' <peça auditada>`, e cole o número ao lado do declarado. Depois rode o `--conferir` do bloco de pronto: **a peça auditada mora FORA da pasta de saída, e o universo é contado nela pelo `--peca-externa`**, que sai com exit 1 e `títulos auditados: N menor que os M títulos da peça auditada` quando o declarado for menor. Exit diferente de 0 reprova o veredito inteiro, e um veredito que não passa no próprio gate não julga peça nenhuma.
 
-**Precisa de:** a PEÇA, o texto exato que vai pro público, colado ou num arquivo · o TIPO DE PEÇA (a lista fechada abaixo) · a TESE e a OFERTA declaradas, que são o lastro do filtro 5 · opcionalmente, os caminhos do material canônico do dono (transcrição, documento de posicionamento, banco de verbatim).
+**Precisa de:** a PEÇA, o texto exato que vai pro público, colado ou num arquivo · o TIPO DE PEÇA (a lista fechada abaixo) · a TESE e a OFERTA declaradas, que são o lastro do filtro 5 · opcionalmente, os caminhos do material canônico do dono (transcrição, documento de posicionamento, banco de verbatim) · opcionalmente, o ARCO DA CAMPANHA (a peça anterior e a próxima, ou 2 linhas do dono sobre o momento), que alimenta o encaixe narrativo do filtro 6.
 
 **Sem o insumo:**
 - Sem o texto: não existe auditoria. Devolva "sem texto pra criticar" e pare. É o único bloqueio duro.
 - Sem o tipo declarado: leia a peça e classifique você mesmo pelo formato, diga em 1 linha qual tipo assumiu, e siga. Não pergunte por isso.
-- **Tipo fora da lista** (um roteiro de podcast, um texto de embalagem, uma legenda de foto): não recuse. Encaixe no vizinho mais próximo pela FORMA de leitura, declare o encaixe em 1 linha no topo do veredito ("tratei como `corpo`, texto longo lido de uma vez") e rode os 5 filtros normalmente. A régua de peso do filtro segue a do tipo vizinho.
+- **Tipo fora da lista** (um roteiro de podcast, um texto de embalagem, uma legenda de foto): não recuse. Encaixe no vizinho mais próximo pela FORMA de leitura, declare o encaixe em 1 linha no topo do veredito ("tratei como `corpo`, texto longo lido de uma vez") e rode os 6 filtros normalmente. A régua de peso do filtro segue a do tipo vizinho.
 - Sem tese e oferta: pergunte UMA coisa, "o que essa peça está vendendo, e qual a promessa dela em uma frase?", e use a resposta como lastro.
 - Sem nenhum material canônico: o filtro 5 não para o trabalho, ele marca `[LASTRO: confirmar com o dono]` em toda afirmação grande. Número, nome de mecanismo e história continuam reprovando quando saíram do nada.
 
@@ -70,15 +82,15 @@ A pergunta do modo é UMA por auditoria. As outras três partes entram nos filtr
 
 **Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `references/regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
-**Leia primeiro:** `references/_regua-cub.md` (o filtro 1, o que mais reprova na prática) · `references/_padroes-estruturais-ia.md` (o filtro 4, os 12 padrões que o código não pega).
+**Leia primeiro:** `references/_regua-cub.md` (o filtro 1, o que mais reprova na prática) · `references/validador-conversao-mestre.md` (o filtro 6, os 5 critérios de conversão e a escala de gravidade) · `references/_padroes-estruturais-ia.md` (o filtro 4, os 12 padrões que o código não pega).
 
-**Profundidade:** `references/_estrutura-mae.md` (os 6 movimentos, com exemplo comprimido de reel, de carrossel e de carta) · `references/_verbatim-fontes.md` (a ordem de peso das fontes de lastro) · `guia/GUIA-COPY-APLICACAO.md` (o método de copy inteiro, peça por peça) · `guia/CODIGO-DE-ESCRITA.md` (a lei por trás do guia) · `guia/03-identidade-voz.md` (os elementos de voz).
+**Profundidade:** `references/_estrutura-mae.md` (os 6 movimentos, com exemplo comprimido de reel, de carrossel e de carta) · `references/_verbatim-fontes.md` (a ordem de peso das fontes de lastro) · `guia/GUIA-COPY-APLICACAO.md` (o método de copy inteiro, peça por peça) · `guia/CODIGO-DE-ESCRITA.md` (a lei por trás do guia) · `guia/03-identidade-voz.md` (os elementos de voz) · `references/validador-conversao-checkpoints.md` e `references/validador-conversao-reescrita.md` (o modo rigoroso e os moldes de reescrita do filtro 6).
 
 ### Os tipos de peça previstos
 
-`headline` · `capa` · `corpo` · `slide` · `script_reel` · `sequencia_stories` · `carta` · `landing_bloco` · `landing_completa` · `isca_copy` · `oferta` · `whatsapp` · `email` · `script_sdr` · `script_closer` · `pos_venda` · `bio` · `cta`
+`headline` · `capa` · `corpo` · `slide` · `script_reel` · `sequencia_stories` · `carta` · `landing_bloco` · `landing_completa` · `isca_copy` · `oferta` · `whatsapp` · `email` · `script_sdr` · `script_closer` · `pos_venda` · `bio` · `cta` · `linha de serviço`
 
-Tipo fora dessa lista segue a regra do "Sem o insumo" acima: encaixa no vizinho, declara, roda.
+**`linha de serviço`, regra estreita.** Só texto curto (até 3 linhas) cuja função é captar um sinal do leitor (caixinha de aceite, rodapé de caminhos, "responda tal palavra"). Nunca headline, gancho, capa, anúncio nem e-mail de venda, e nunca texto com promessa de resultado, argumento de venda (por que comprar, benefício), urgência ou escassez (hoje, últimas, vagas, prazo de oferta), desconto, garantia ou prova social (depoimento entre aspas, número de alunos): com qualquer um, vale o tipo da peça de verdade, com o rigor dela. Informação neutra do caminho (preço cheio, quantidade, duração, "sem custo" que só descreve) cabe. Na dúvida, o tipo mais rigoroso; declarado fora da regra, a skill troca o tipo e avisa em 1 linha. **Efeito:** o critério 1 (teste do concorrente) e o 3 (contraste) do filtro 6, o B de Boring e o modo rigoroso não pesam nela, e a Estrutura-mãe cobra só o Movimento; anti-IA, lastro e consentimento valem inteiros. O QUÊ e PRA QUEM (C de Confusão, regra dura de frase) se leem pelo lugar onde ela mora, a página ou o e-mail em volta descrito no pedido, nunca isolados: ela só reprova ali se o lugar não os dá ou se o contradiz; sem o lugar, a skill pergunta onde ela mora. O veredito traz `tipo: linha de serviço`, o `peça:` com o texto inteiro da linha (o `--conferir` lê esse texto) e o `resumo:` dizendo qual sinal ela capta e por que nenhuma promessa é esperada.
 
 ### Os passos
 
@@ -86,13 +98,25 @@ Tipo fora dessa lista segue a regra do "Sem o insumo" acima: encaixa no vizinho,
 
 **Passo 2 · Roda o lint (filtro 3) primeiro, porque é o único que é código.** Com shell: `python3 scripts/lint_copy.py copy-em-analise.txt`. Guarde a saída inteira. Falha dura significa reprovada, não importa o resto. Aviso não bloqueia sozinho.
 
-**Passo 3 · Lê a peça uma vez pelo SENTIDO** e aplica os filtros 1 (CUB), 2 (Estrutura-mãe) e 5 (Verbatim).
+**Passo 3 · Lê a peça uma vez pelo SENTIDO** e aplica os filtros 1 (CUB), 6 (Validador de conversão), 2 (Estrutura-mãe) e 5 (Verbatim), nesta ordem. O 6 vem colado no CUB porque a cascata dele decide se o resto ainda vale a pena: bastou um dos 5 critérios cair, a leitura para ali: os filtros 2 e 4 não rodam nesta rodada, e o 5 só levanta o que está sem lastro, pra linha `sem lastro:`.
 
-**Passo 4 · Lê a peça outra vez pela FORMA**, ignorando o sentido, com `references/_padroes-estruturais-ia.md` do lado, e aplica o filtro 4. Esta passada é separada de propósito: o cheiro de máquina está no desenho da frase, não no assunto dela.
+**Passo 4 · Lê a peça outra vez pela FORMA**, ignorando o sentido, com `references/_padroes-estruturais-ia.md` do lado, e aplica o filtro 4 (pula na cascata). Esta passada é separada de propósito: o cheiro de máquina está no desenho da frase, não no assunto dela.
 
 **Passo 5 · Monta o veredito** no formato abaixo e salva o arquivo.
 
 **Passo 6 · STOP.** Quem chamou corrige e manda de novo. Loop até passar, com teto de 3 rodadas. Na terceira reprovação seguida, pare de sugerir e escale ao dono: "essa peça reprovou 3 vezes no mesmo filtro, olha as falhas e decide se ajusta a copy ou se o problema é a oferta."
+
+### Modo rigoroso (padrão em peça de venda)
+
+**Quando liga.** Sozinho, em toda peça de venda: headline de venda, capa de peça de venda, anúncio, carta, landing, oferta, roteiro de VSL, e-mail de venda, e os afins que pedem compra (carrossel e sequência de stories que vendem, página de captura). No feed educativo e no resto, só quando o dono pede: "valida no modo rigoroso", "passa no validador?", "isso é genérico?". Skill que chama o gate não desliga o rigoroso em nome do dono. Nunca liga na `linha de serviço`, nem dentro da página de captura.
+
+**Chave do dono:** `rigor em venda: desligado`, dito na conversa ou gravado no perfil do dono, devolve a peça de venda ao modo padrão até ele religar.
+
+- Roda os 6 filtros e soma os checkpoints de `references/validador-conversao-checkpoints.md` (mecanismo, voz, transformação, clareza, limpeza, proibições), que só rodam quando a peça passou nos 5 critérios do filtro 6.
+- Dá a nota X/10 pela regra determinística de `references/validador-conversao-mestre.md` (10 só sem nenhuma falha).
+- Veredito: `APROVADA` só com 10; abaixo disso, nota 9 inclusive, `REFAZER`, com a lista de reescrita ordenada por gravidade, as perguntas, o fecho, o registro e o gume de `references/validador-conversao-reescrita.md`.
+
+**Por que é padrão só na venda:** onde a peça pede dinheiro, copy nota 9 perde a venda pra quem tem nota 10. No feed educativo o gate roda a cada entrega das skills de conteúdo e o post não pede compra; ali o rigoroso fica a pedido, pra o loop não emperrar quem chama o gate.
 
 ---
 
@@ -104,8 +128,10 @@ Tipo fora dessa lista segue a regra do "Sem o insumo" acima: encaixa no vizinho,
 peça: <nome ou primeira linha>
 tipo: headline
 veredito: APROVADA
-resumo: em 1 linha, onde a peça acerta.
+resumo: em 1 linha, o que a peça cumpre, dito como fato. Pode subir.
 ```
+
+**Zero elogio no veredito.** Nem na aprovada nem na reprovada: sem "quase", sem "já melhorou", sem parabéns. A aprovada diz o que a peça cumpre; a reprovada diz o que falta.
 
 **Reprovada:**
 
@@ -121,6 +147,18 @@ falhas:
     sugestao: a reescrita curta, já aplicável, nunca um conselho genérico
 ```
 
+**Falha do filtro 6 (e do modo rigoroso):** o mesmo formato de 5 linhas, com o critério e a gravidade na `dimensao` e o molde de reescrita na `sugestao`:
+
+```
+  - filtro: Validador de conversão
+    dimensao: critério 1, promessa copiável · gravidade 9
+    trecho: "a frase exata que falhou"
+    motivo: 1 linha do porquê
+    sugestao: molde de promessa aplicado: "a reescrita pronta"
+```
+
+Com o filtro 6 rodando, o veredito também traz a linha `encaixe narrativo:` (medido contra o arco, ou `não medido, sem arco informado`). No modo rigoroso, soma `modo: rigoroso` e `nota: X/10` logo abaixo do `tipo`. Na cascata, soma a linha `suspenso pela cascata:`. O veredito reprovado fecha com a pergunta e o bordão de `references/validador-conversao-reescrita.md`.
+
 Em lote, o arquivo abre com o consolidado e depois traz uma seção por peça:
 
 ```
@@ -128,13 +166,13 @@ lote: <nome do lote>  ·  5 peças  ·  2 aprovadas  ·  3 reprovadas
 severidade: 1 bloqueante (falha dura de anti-IA) · 2 corrigíveis (CUB e Estrutura-mãe)
 ```
 
-**Severidade, as 3 faixas:** *bloqueante* (falha dura do lint, ou fato do negócio inventado: não sai do jeito que está, sem discussão) · *corrigível* (falha de CUB, Estrutura-mãe ou anti-IA estrutural: a reescrita sugerida resolve) · *observação* (aviso do lint isolado, ou 1 padrão estrutural sozinho: aponta e segue, o dono decide).
+**Severidade, as 3 faixas:** *bloqueante* (falha dura do lint, ou fato do negócio inventado: não sai do jeito que está, sem discussão) · *corrigível* (falha de CUB, Estrutura-mãe ou anti-IA estrutural: a reescrita sugerida resolve) · *observação* (aviso do lint isolado, ou 1 padrão estrutural sozinho: aponta e segue, o dono decide). **No filtro 6 a faixa sai da gravidade:** 7 ou mais é bloqueante, 4 a 6 é corrigível, 3 ou menos é observação, com o teto do tipo de peça (tabela de peso abaixo). Gravidade 9 ou 10 (promessa genérica, custo de não agir ausente) reprova sozinha nas peças de venda.
 
 **Lote roda em SÉRIE, peça por peça, nunca em paralelo.** O motivo é o filtro 4: dois padrões estruturais que aparecem na mesma peça reprovam, e a contagem se perde quando as peças são lidas juntas. Se o ambiente tiver delegação e o lote passar de 10 peças, delegue blocos de 5 peças, mas cada bloco continua lido em série por dentro. O consolidado do topo é montado só no fim, depois do último veredito.
 
 ---
 
-## Os 5 filtros (ordem fixa)
+## Os 6 filtros (a ordem de leitura está nos Passos)
 
 ### Filtro 1 · CUB (Confusão, Inacreditável, Boring)
 
@@ -142,9 +180,9 @@ Toda copy morre por um destes 3 motivos. Não tem um quarto.
 
 - **C, Confusão.** Exige reler? Tem 2 ideias na mesma frase? Jargão ou rótulo solto? Abstração que não vira imagem?
 - **U, Inacreditável.** Promessa grande sem chão do lado? Cheira a infoproduto? Um estranho acreditaria?
-- **B, Boring.** Já ouviu mil vezes? Amplifica o problema óbvio no lugar da virada? Frase-ponte no lugar de tensão?
+- **B, Boring.** Já ouviu mil vezes? Amplifica o problema óbvio no lugar da virada? Frase-ponte no lugar de tensão? (n/a na `linha de serviço`)
 
-Exemplos fraco contra forte e o teste das 3 perguntas (visualizo, provo, só eu diria) em `references/_regua-cub.md`.
+Exemplos fraco contra forte e o teste das 3 perguntas (visualizo, provo, só eu diria) em `references/_regua-cub.md`; na `linha de serviço`, o só eu diria é o critério 1 e fica n/a.
 
 ### Filtro 2 · Estrutura-mãe
 
@@ -154,7 +192,7 @@ A espinha de toda peça, do reel de 30 segundos à carta de 3 páginas. O que mu
 
 **Diagnóstico** olha de cima e nomeia o que o leitor vive. **Nomeação** batiza o que ele sente e nunca soube dizer. **Polaridade** põe dois lados e uma tensão. **Nova interpretação** renomeia a causa e derruba o que ele já tentou. **Consequência** mostra que ficar como está custa caro. **Movimento** convida como continuação lógica, nunca como pedido.
 
-Peça curta comprime, não pula. Furo mais comum: pular Nomeação (a peça vira aula) ou pular Polaridade (vira monólogo). Exemplos por formato em `references/_estrutura-mae.md`.
+Peça curta comprime, não pula; a `linha de serviço` é a exceção e cobra só o Movimento, porque as outras 5 partes são argumento. Furo mais comum: pular Nomeação (a peça vira aula) ou pular Polaridade (vira monólogo). Exemplos por formato em `references/_estrutura-mae.md`.
 
 ### Filtro 3 · Anti-IA lexical (em código)
 
@@ -169,11 +207,11 @@ Zero falha dura é obrigatório pra passar. Aviso é log pro dono revisar, mas 3
 
 **Sem shell no ambiente:** o filtro roda no olho com a lista acima, procurando item por item. Declare em 1 linha no veredito que o lint rodou na leitura e não em código.
 
-**Como citar o trecho reprovado sem o próprio veredito reprovar.** O veredito precisa mostrar o trecho, e o trecho carrega o termo banido, então o lint do veredito pega a citação. A saída é sempre uma das duas: cite o trecho dentro de bloco de código cercado por três crases e linte o veredito com `python3 scripts/lint_copy.py <veredito> --ignore-code-blocks`, que apaga só o conteúdo dos blocos cercados e continua lintando o resto do arquivo, ou descreva a falha em prosa indireta ("a frase abre com o verbo-freio banido, terceira palavra"). A peça do dono é sempre lintada sem a opção; ela vale só pro arquivo do veredito. O que nunca se faz é reescrever a peça do dono pra o veredito passar no próprio lint, nem omitir o trecho pra fugir do bloqueio: a citação é a prova do achado. Checagem verificável antes de fechar: rode o lint no arquivo do veredito e confirme exit 0; se reprovar por causa da citação, mova a citação pro bloco de código, nunca mexa no texto citado.
+**Como citar o trecho reprovado sem o próprio veredito reprovar.** O veredito precisa mostrar o trecho, e o trecho carrega o termo banido, então o lint do veredito pega a citação. A saída é sempre uma das duas: cite o trecho dentro de bloco de código cercado por três crases e linte o veredito com `python3 scripts/lint_copy.py <veredito> --ignore-code-blocks`, ou descreva a falha em prosa indireta ("a frase abre com o verbo-freio banido, terceira palavra"). A peça do dono é sempre lintada sem a opção; ela vale só pro arquivo do veredito. O que nunca se faz é reescrever a peça do dono pra o veredito passar no próprio lint, nem omitir o trecho pra fugir do bloqueio: a citação é a prova do achado. Checagem verificável antes de fechar: rode o lint no arquivo do veredito e confirme exit 0; reprovou pela citação, ela vai pro bloco de código.
 
 ### Filtro 4 · Anti-IA estrutural (no olho, o código não pega)
 
-O filtro 3 é lexical: pega palavra e símbolo, já está feito, não refaça. Este é a outra metade. A peça pode sair com exit 0 e mesmo assim cheirar a máquina, porque o problema está na FORMA da frase.
+O filtro 3 é lexical: pega palavra e símbolo. A peça pode sair com exit 0 e mesmo assim cheirar a máquina, porque o problema está na FORMA da frase.
 
 Os 12 padrões:
 
@@ -208,23 +246,39 @@ Onde procurar, nesta ordem: os caminhos que quem chamou informou · a variável 
 
 **Como o filtro roda:** extraia os 2 ou 3 termos carregados da peça (nome de mecanismo, número, prova) e busque só esses nas fontes. Falhou algum, reprova, e a sugestão é uma de duas: trocar por afirmação ancorada, ou buscar o lastro antes de manter. Detalhe em `references/_verbatim-fontes.md`.
 
+### Filtro 6 · Validador de conversão (o filtro-mestre)
+
+Roda logo depois do CUB e pergunta se a peça MERECE ir pro público. Promessa que qualquer outro do mercado poderia dizer reprova. Os 5 critérios, com a gravidade de cada falha:
+
+1. **Promessa copiável** (9): qualquer concorrente assinaria igual? Inclui o teste do concorrente (marca e método cobertos, promessa no perfil do outro), bloqueante em toda peça de venda.
+2. **Dor verdadeira** (8): a dor escondida, em cena, ou a dor apresentável?
+3. **Parar o scroll** (8): tem contraste ou quebra do esperado, ou é gostosa de ler e esquecível?
+4. **Promessa executável** (8): resultado concreto, caminho visível, ação simples. Aprender, descobrir e dominar como promessa são sinal vermelho, sem exceção: a skill pede ao dono número, prazo e métrica reais e, sem lastro, manda reescrever pro que dá pra verificar.
+5. **Risco de não agir** (10): o fantasma do ciclo que se repete, usado como arma; quem ignora paga, em silêncio, no próximo ciclo. Sem risco, sem urgência: reprova.
+
+Também roda o **encaixe narrativo** (com o arco informado: ruptura ou contradição é bloqueante, ponte fraca é corrigível; sem arco, observação, porque a skill não inventa contexto) e o **registro da peça** (o tom combina com o estado do público: urgência, dúvida ou ação?).
+
+**Por cima, só verdade e lei:** fato, número e data citados precisam de lastro (`references/10-verificador-lastro.md`); urgência e escassez só com janela real, porque prazo ou vaga inventados são publicidade enganosa; nicho regulado sem prazo de resultado nem antes e depois; anúncio em vídeo em forma aberta. **Cascata:** bastou um dos 5 critérios cair, para tudo e refaz do zero; critério n/a não aciona. O que o veredito traz na cascata, onde cada critério se aplica (peça de uma linha, peça sem oferta, `linha de serviço`), a escala inteira e o que já está coberto pelos filtros 1 a 5 em `references/validador-conversao-mestre.md`.
+
 ---
 
 ## Onde cada tipo de peça mais falha (o peso por tipo)
 
 Todas as peças passam em todos os filtros. Estes são os pesos, pra a leitura focar onde a prática mostra que a peça quebra:
 
-| Tipo | Filtro que pesa dobrado |
-|---|---|
-| headline, capa | CUB (B de Boring, é o teste do dedo no feed) + Verbatim |
-| corpo de carrossel | Estrutura-mãe (arco de 7 a 10 slides com os 6 movimentos) + anti-IA lexical |
-| script de reel | CUB (C de Confusão, ele não pausa pra reler) + Estrutura-mãe comprimida |
-| sequência de stories | Estrutura-mãe (observação, interpretação, tese) + CUB (B, ele fura em 1 toque) |
-| carta, landing | Estrutura-mãe COMPLETA + CUB (U de Inacreditável em dobro) + Verbatim |
-| oferta | CUB (U, cada entregável mata uma objeção) + Verbatim (garantia real, preço ancorado) |
-| WhatsApp, e-mail | CUB (C, a mensagem se lê em 3 segundos no celular) + anti-IA (frase-ponte destrói intimidade) |
-| script de SDR | CUB (C, ele responde em 30 segundos ou não responde) + Estrutura-mãe na primeira mensagem |
-| script de closer | Estrutura-mãe (Diagnóstico, Consequência, Movimento) + CUB (U na garantia) |
+| Tipo | Filtro que pesa dobrado | Filtro 6 |
+|---|---|---|
+| headline, capa | CUB (B de Boring, é o teste do dedo no feed) + Verbatim | bloqueante |
+| corpo de carrossel | Estrutura-mãe (arco de 7 a 10 slides com os 6 movimentos) + anti-IA lexical | corrigível no feed educativo; bloqueante no carrossel que vende |
+| script de reel | CUB (C de Confusão, ele não pausa pra reler) + Estrutura-mãe comprimida | corrigível; bloqueante em anúncio |
+| sequência de stories | Estrutura-mãe (observação, interpretação, tese) + CUB (B, ele fura em 1 toque) | corrigível na rotina; bloqueante na sequência de venda |
+| carta, landing | Estrutura-mãe COMPLETA + CUB (U de Inacreditável em dobro) + Verbatim | bloqueante |
+| oferta | CUB (U, cada entregável mata uma objeção) + Verbatim (garantia real, preço ancorado) | bloqueante |
+| WhatsApp, e-mail | CUB (C, a mensagem se lê em 3 segundos no celular) + anti-IA (frase-ponte destrói intimidade) | bloqueante no e-mail de venda; corrigível no resto |
+| script de SDR | CUB (C, ele responde em 30 segundos ou não responde) + Estrutura-mãe na primeira mensagem | corrigível |
+| script de closer | Estrutura-mãe (Diagnóstico, Consequência, Movimento) + CUB (U na garantia) | bloqueante |
+
+Fora da tabela, no filtro 6: `isca_copy` e `cta` bloqueante; `slide` herda o da peça-mãe; `pos_venda` e `bio` corrigível; anúncio e roteiro de VSL encaixam em `headline` e `carta` e herdam o bloqueante. **Por quê:** onde a peça pede compra, cadastro ou dinheiro, promessa genérica não converte e não sai; onde a peça ensina ou acompanha, a falta de tensão de venda é escolha do formato e vira ajuste, nunca bloqueio.
 
 ---
 
@@ -242,12 +296,13 @@ Todas as peças passam em todos os filtros. Estes são os pesos, pra a leitura f
 | Duas passadas | a leitura pelo sentido e a leitura pela forma aconteceram separadas, não juntas |
 | Trecho citado | toda falha traz o TRECHO exato, nunca só o nome do filtro |
 | Sugestão aplicável | toda falha traz uma reescrita pronta, nunca "melhore a clareza" |
+| Filtro 6 com gravidade | toda falha do filtro 6 traz critério, gravidade e molde; no modo rigoroso, a nota bate com a regra do `references/validador-conversao-mestre.md`; nenhum veredito traz elogio nem consolo |
 | Saída em arquivo | o veredito está salvo em `veredito-copy-<slug>.md`, não só no chat |
 | Teto de rodadas | na 3ª reprovação seguida, a skill escalou ao dono no lugar de insistir |
 
 O veredito da auditoria é o pior item da tabela.
 
-**O teste mínimo, quando o ambiente tem shell.** Rode o lint em dois arquivos que você mesmo escreve na pasta de trabalho: um com uma linha contendo um travessão longo, que precisa sair com exit 1, e um com uma linha limpa, que precisa sair com exit 0. Os dois resultados esperados confirmam que o gate está vivo antes de você confiar nele. Se o primeiro sair com exit 0, o script não está funcionando e a auditoria segue no olho, declarando isso no veredito.
+**O teste mínimo, quando o ambiente tem shell.** Rode o lint em dois arquivos que você mesmo escreve na pasta de trabalho: um com uma linha contendo um travessão longo, que precisa sair com exit 1, e um com uma linha limpa, que precisa sair com exit 0. Se o primeiro sair com exit 0, o script não está funcionando e a auditoria segue no olho, declarando isso no veredito.
 
 ## Quem chama esta skill
 
@@ -270,7 +325,6 @@ O dono também chama direto, e nesse caso a peça é o que ele colou.
 2. **Lastro configurável.** Quem chama passa o caminho do material canônico. Sem ele, vale a ordem do filtro 5.
 3. **Saída curta e estruturada.** O feedback não vira ensaio. Cada falha em 5 linhas: filtro, dimensão, trecho, motivo, sugestão.
 4. **Anti-IA em dobro.** Este arquivo também passa no próprio lint. Zero falha dura, zero travessão, zero verbo-freio banido.
-5. **Loop limitado.** 3 rodadas, e depois escala pro dono. Nunca insiste sozinha ao infinito.
 
 ## Regra dura de frase, "toda frase se explica sozinha"
 
@@ -278,12 +332,12 @@ Vale em tudo que esta skill aprovar pro público.
 
 Copy boa é frase que gera IMAGEM na cabeça de quem lê frio. Ela não pode assumir que o leitor já sabe o assunto, o produto, a categoria, o método, o mecanismo ou o antes e depois. Toda frase precisa se sustentar sozinha, sem depender do slide anterior, da bio, do título ou do que "obviamente é". Frase curta que soa afiada e deixa o entendimento pro contexto está reprovada.
 
-**Teste antes de aprovar CADA frase:** se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ, PRA QUEM e O RESULTADO CONCRETO? Se não, reescreve nomeando explícito: qual é o objeto ("conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar").
+**Teste antes de aprovar CADA frase:** se essa frase caísse solta no scroll de uma pessoa que nunca ouviu falar do produto, ela entenderia O QUÊ, PRA QUEM e O RESULTADO CONCRETO? Se não, reescreve nomeando explícito: qual é o objeto ("conta de calorias", não só "conta"), qual é o público ("mulher que já tentou emagrecer de todas as formas", não só "mulher que já tentou de tudo"), qual é o resultado concreto ("para de recomeçar a dieta", não só "para de recomeçar"). Na `linha de serviço` O QUÊ e PRA QUEM vêm do lugar em volta (regra no tipo), e resultado concreto não entra.
 
 - Reprovado: *"Você come o que ama, um agente faz a conta do seu dia e você para de recomeçar."*
 - Aprovado: *"Você passa a comer o que ama, um agente faz a conta de calorias do seu dia inteiro e não te deixa escorregar, e você para de recomeçar a dieta toda vez do zero."*
 
-Somar 3 a 5 palavras que ancoram o contexto é melhor que a frase curta ambígua. Copy boa não é curta, é inequívoca e imagética.
+Somar 3 a 5 palavras que ancoram o contexto é melhor que a frase curta ambígua. Copy boa se mede por ser inequívoca e imagética; o tamanho vem depois.
 
 ### Regra irmã, "nenhum verbo órfão"
 
@@ -296,7 +350,7 @@ Antes de aprovar a frase, sublinhe cada verbo e confira: cada um tem objeto nome
 
 ## Arquivos desta skill
 
-`references/_regua-cub.md` · `references/_estrutura-mae.md` · `references/_padroes-estruturais-ia.md` · `references/_verbatim-fontes.md` · `references/EXEMPLO-FIM-A-FIM.md` · `guia/GUIA-COPY-APLICACAO.md` · `guia/CODIGO-DE-ESCRITA.md` · `guia/03-identidade-voz.md` · `scripts/lint_copy.py`
+`references/_regua-cub.md` · `references/_estrutura-mae.md` · `references/_padroes-estruturais-ia.md` · `references/_verbatim-fontes.md` · `references/validador-conversao-mestre.md` · `references/validador-conversao-checkpoints.md` · `references/validador-conversao-reescrita.md` · `references/EXEMPLO-FIM-A-FIM.md` · `guia/GUIA-COPY-APLICACAO.md` · `guia/CODIGO-DE-ESCRITA.md` · `guia/03-identidade-voz.md` · `scripts/lint_copy.py`
 
 O material de LASTRO (transcrição, tese-mãe, bancos de verbatim) não mora aqui: é entrada do dono, pelos caminhos que quem chama informar.
 

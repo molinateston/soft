@@ -1,0 +1,29 @@
+<!-- RECEITA letra-grande (guia: regras 1, 2 e 5; abertura, combinado, pergunta pro chat, PUV)
+O que faz: uma frase que decide, enorme; o rótulo e o apoio pequenos. Hierarquia invertida.
+Adapte: a frase é a do roteiro na versão curta (até 14 palavras); uma ou duas palavras em .dest;
+o apoio e a pílula só quando o roteiro traz; a pílula de ação entra por clique.
+O eco (os anéis à direita) é opcional: dá profundidade sem competir; tire em nicho que pede simples.
+Nunca: frase inteira colorida, título grande em cima e o ponto miúdo embaixo. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.quadro { position: absolute; inset: 120px 150px 120px 150px; display: flex; flex-direction: column; justify-content: center; }
+.fio { width: 120px; height: 12px; border-radius: 6px; background: var(--dest); }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); margin-top: 28px; }
+.frase { font-size: 116px; line-height: 1.02; font-weight: 800; letter-spacing: -3px; margin-top: 30px; max-width: 1560px; }
+.apoio { font-size: 46px; line-height: 1.25; color: var(--dim); margin-top: 52px; max-width: 1320px; }
+.acao { margin-top: 56px; }
+.eco { position: absolute; right: -470px; top: 90px; width: 900px; height: 900px; }
+</style>
+<svg class="eco" viewBox="0 0 900 900" aria-hidden="true"><circle cx="450" cy="450" r="440" fill="none" stroke="var(--linha)" stroke-width="3"/><circle cx="450" cy="450" r="310" fill="none" stroke="var(--linha)" stroke-width="3"/><circle cx="450" cy="450" r="180" fill="var(--dest-suave)"/></svg>
+<div class="quadro">
+  <div class="fio"></div>
+  <div class="rot">{{ROTULO_CURTO}}</div>
+  <div class="frase">{{FRASE_COM}} <span class="dest">{{PALAVRA_DESTAQUE}}</span>{{FIM_DA_FRASE}}</div>
+  <div class="apoio">{{APOIO}}</div>
+  <div class="acao" data-click="1" data-fx="aparecer"><span class="acao-pilula">{{PEDIDO_NO_CHAT}}</span></div>
+</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

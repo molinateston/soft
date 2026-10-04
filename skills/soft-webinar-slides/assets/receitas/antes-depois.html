@@ -1,0 +1,51 @@
+<!-- RECEITA antes-depois (guia: regra 10, duas colunas; "Os 2 caminhos", responsabilidade, a virada)
+O que faz: dois lados que se comparam num olhar. O "antes" apagado, com o X; o "depois" na cor de destaque, com o ✓.
+Cada lado entra por clique (o de agora primeiro), e a pergunta ou conclusão por último.
+Adapte: os títulos e as linhas de cada lado saem do roteiro, no máximo 2 linhas curtas por lado (o slide inteiro cabe em 40 palavras);
+o lado que a fala defende é o da direita. Pra responsabilidade, troque X e ✓ por "a minha parte" e "a sua parte", os dois em destaque.
+Nunca: três colunas lado a lado; lado vazio pra "fechar o desenho".
+Variante COLUNAS DESIGUAIS (responsabilidade com 4 itens de um lado e 3 do outro, ou qualquer par de listas de tamanhos diferentes):
+um item por linha (.lin), até 4 por lado, cada linha com o seu data-click quando a fala entra item a item (uma peça por clique, teto de
+7 cliques no slide inteiro; frase repartida em cláusulas vira uma linha por cláusula). Marca cheia (o ✓ da receita) no lado de quem entrega,
+marca vazia (um círculo só de contorno, na cor apagada) no lado de quem decide; os dois contornos visíveis desde a abertura, a coluna
+menor alinhada ao topo (align-items: start em .lados), sem linha vazia pra igualar a altura. A regra de lado vazio vale pra lado SEM item,
+não pra lado com menos itens. A tela leva os nomes curtos do roteiro; a frase inteira fica na nota. -->
+<section class="slide claro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.quadro { position: absolute; inset: 100px 140px; display: flex; flex-direction: column; justify-content: center; }
+.frase { font-size: 64px; font-weight: 800; letter-spacing: -1.5px; line-height: 1.06; margin-bottom: 50px; max-width: 1500px; }
+.lados { display: grid; grid-template-columns: 1fr 120px 1fr; align-items: stretch; }
+.lado { border-radius: 24px; padding: 40px 44px; }
+.antes { background: var(--suave); border: 3px solid var(--linha); }
+.depois { background: var(--dest-suave); border: 4px solid var(--dest); }
+.lado h3 { margin: 0 0 24px; font-size: 52px; line-height: 1.1; }
+.antes h3 { color: var(--dim); }
+.lin { display: flex; gap: 20px; align-items: flex-start; font-size: 40px; line-height: 1.2; margin-bottom: 18px; }
+.lin svg { flex: 0 0 44px; height: 44px; margin-top: 2px; }
+.seta { display: flex; align-items: center; justify-content: center; }
+.fecho { font-size: 52px; font-weight: 800; color: var(--dest); margin-top: 50px; }
+</style>
+<div class="quadro">
+  <div class="frase">{{FRASE_CURTA}}</div>
+  <div class="lados">
+    <div class="lado antes" data-click="1">
+      <h3>{{TITULO_ANTES}}</h3>
+      <div class="lin"><svg viewBox="0 0 44 44"><path d="M10 10 L34 34 M34 10 L10 34" stroke="var(--dim)" stroke-width="6" stroke-linecap="round"/></svg><span>{{ANTES_1}}</span></div>
+      <div class="lin"><svg viewBox="0 0 44 44"><path d="M10 10 L34 34 M34 10 L10 34" stroke="var(--dim)" stroke-width="6" stroke-linecap="round"/></svg><span>{{ANTES_2}}</span></div>
+    </div>
+    <div class="seta" data-click="2" data-fx="aparecer"><svg width="90" height="90" viewBox="0 0 90 90"><path d="M10 45 H72 M50 22 L74 45 L50 68" fill="none" stroke="var(--dest)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="lado depois" data-click="2">
+      <h3>{{TITULO_DEPOIS}}</h3>
+      <div class="lin"><svg viewBox="0 0 44 44"><path d="M8 23 L18 33 L36 11" fill="none" stroke="var(--dest)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>{{DEPOIS_1}}</span></div>
+      <div class="lin"><svg viewBox="0 0 44 44"><path d="M8 23 L18 33 L36 11" fill="none" stroke="var(--dest)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>{{DEPOIS_2}}</span></div>
+    </div>
+  </div>
+  <div class="fecho" data-click="3">{{PERGUNTA_OU_CONCLUSAO}}</div>
+</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Clique 2: {{FALA_CLIQUE_2}}
+Clique 3: {{FALA_CLIQUE_3}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

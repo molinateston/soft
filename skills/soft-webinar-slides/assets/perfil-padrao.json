@@ -1,0 +1,25 @@
+{
+  "_sobre": "Identidade neutra. O perfil do dono sobrescreve só o que ele tiver. Cores em hex de 6 dígitos.",
+  "nome": "",
+  "marca": "",
+  "logo": "",
+  "fonte": "Arial, 'Liberation Sans', Helvetica, sans-serif",
+  "fonte_pptx": "Arial",
+  "fonte_acao": "Georgia, 'DejaVu Serif', serif",
+  "fonte_acao_pptx": "Georgia",
+  "fundo_inicial": "escuro",
+  "cores": {
+    "destaque_claro": "#1E4FD8",
+    "destaque_escuro": "#8AAEFF",
+    "acao": "#137A43",
+    "reservada": "#C62828",
+    "fundo_claro": "#F7F5F0",
+    "tinta_clara": "#16181D",
+    "apagado_claro": "#5B616C",
+    "linha_claro": "#D9D5CC",
+    "fundo_escuro": "#121418",
+    "tinta_escura": "#F4F2EC",
+    "apagado_escuro": "#A9AFBA",
+    "linha_escuro": "#343842"
+  }
+}

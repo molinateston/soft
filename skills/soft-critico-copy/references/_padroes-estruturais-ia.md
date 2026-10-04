@@ -136,7 +136,7 @@ na linha, apague ela. Quase sempre o texto melhora.
 
 Como reconhecer: numeros que existem pra dar autoridade, nao pra
 informar. 90%, 3x, 10 vezes mais, 80/20. Redondos e sem origem. O
-verbatim (filtro 4) pega o numero inventado sobre o negocio; este
+verbatim (filtro 5) pega o numero inventado sobre o negocio; este
 aqui pega o numero decorativo, que nao afirma nada sobre ninguem.
 
 RUIM: "90% dos negocios digitais falham por falta de processo."

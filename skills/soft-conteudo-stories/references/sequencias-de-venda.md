@@ -180,7 +180,7 @@ Sáb  | Story Único Remarketing (7 stories)
 ## 3. Regras universais de toda sequência
 
 ### Construção
-- **Palavra-chave única por sequência.** Nunca usar 2 palavras diferentes no mesmo dia.
+- **Palavra-chave única por sequência:** a principal do perfil, ou a de um material quando ela tem automação própria registrada no perfil (`shared-references/cta/cta-02-palavra-do-comentario.md`). Nunca usar 2 palavras diferentes no mesmo dia.
 - **Cada story pode ter sua função mas todos apontam pro mesmo Direct.**
 - **Enquete como validação, não decoração.** Usa no Story 10 (Reunião) ou Story 5 (Auditoria) pra confirmar interesse antes da oferta.
 - **Print de interação é prova social em tempo real.** Mostra respostas que chegaram na hora.

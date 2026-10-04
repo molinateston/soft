@@ -1,0 +1,58 @@
+<!-- RECEITA pilha-valor (guia: regra 8 "a pilha cresce na tela" e "Bônus", a tabela que volta e o total que cresce)
+O que faz: cada item do que a pessoa leva entra por clique como um bloco da pilha, com o valor declarado;
+a coluna da direita sobe junto, um segmento por item, e o total aparece no último clique.
+Adapte: um .item por linha do roteiro (até 6 por slide; mais que isso, a pilha volta em outro slide com as linhas novas);
+data-valor = o valor puro de cada item, data-total = a soma (o checar_deck.py confere a conta);
+o texto do valor como o dono escreve. Bônus leva o rótulo .rot-bonus. Sem o valor de algum item, a pilha não entra.
+Nunca: valor estimado, total arredondado, "valor de mercado" que o dono não deu. -->
+<section class="slide claro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}" data-layout="oferta">
+<style>
+.quadro { position: absolute; inset: 90px 140px; display: grid; grid-template-columns: 1fr 360px; gap: 90px; align-items: center; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); }
+.frase { font-size: 64px; font-weight: 800; letter-spacing: -1.5px; line-height: 1.06; margin: 18px 0 40px; }
+.pilha { display: flex; flex-direction: column-reverse; gap: 14px; }
+.item { display: flex; align-items: center; gap: 22px; padding: 22px 30px; border-radius: 16px; background: var(--suave); border: 3px solid var(--linha); }
+.item .nm { flex: 1; font-size: 42px; font-weight: 700; line-height: 1.15; }
+.item .vl { font-size: 44px; font-weight: 800; white-space: nowrap; }
+.coluna { display: flex; flex-direction: column; align-items: center; }
+.tubo { width: 190px; display: flex; flex-direction: column-reverse; gap: 6px; height: 600px; justify-content: flex-start; border-bottom: 6px solid var(--linha); }
+.seg { border-radius: 10px; background: var(--dest); }
+.seg:nth-child(even) { opacity: .72; }
+.total { margin-top: 26px; text-align: center; }
+.total .tt { font-size: 32px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); }
+.total .tv { font-size: 72px; font-weight: 800; letter-spacing: -2px; color: var(--dest); white-space: nowrap; }
+</style>
+<div class="quadro" data-geometria="pilha">
+  <div>
+    <div class="rot">{{ROTULO_CURTO}}</div>
+    <div class="frase">{{FRASE_CURTA}}</div>
+    <div class="pilha">
+      <div class="item" data-click="1"><span class="nm">{{ITEM_1}}</span><span class="vl" data-valor="{{VALOR_1}}">{{TEXTO_VALOR_1}}</span></div>
+      <div class="item" data-click="2"><span class="nm">{{ITEM_2}}</span><span class="vl" data-valor="{{VALOR_2}}">{{TEXTO_VALOR_2}}</span></div>
+      <div class="item" data-click="3"><span class="rot-bonus">BÔNUS</span><span class="nm">{{ITEM_3}}</span><span class="vl" data-valor="{{VALOR_3}}">{{TEXTO_VALOR_3}}</span></div>
+    </div>
+  </div>
+  <div class="coluna">
+    <div class="tubo"></div>
+    <div class="total" data-click="4" data-total="{{SOMA}}"><div class="tt">Total</div><div class="tv">{{TEXTO_SOMA}}</div></div>
+  </div>
+</div>
+<script>
+(function () {
+  const q = document.currentScript.previousElementSibling, tubo = q.querySelector('.tubo');
+  const itens = [...q.querySelectorAll('.item')], soma = itens.reduce((a, it) => a + (+it.querySelector('[data-valor]').dataset.valor), 0);
+  itens.forEach((it) => {
+    const s = document.createElement('div'); s.className = 'seg reveal'; s.dataset.click = it.dataset.click; s.dataset.fx = 'subir';
+    s.style.height = Math.max(8, (594 - 6 * itens.length) * (+it.querySelector('[data-valor]').dataset.valor) / soma) + 'px';
+    tubo.appendChild(s);
+  });
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Clique 2: {{FALA_CLIQUE_2}}
+Clique 3: {{FALA_CLIQUE_3}}
+Clique 4: {{FALA_CLIQUE_4}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

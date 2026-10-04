@@ -33,6 +33,7 @@ Se qualquer chamada do teste voltar 401, a chave está errada ou foi apagada: o 
 | "libera pro fulano", "tira o acesso", "quem já assistiu" | MATRICULAR | `references/matricular.md` |
 | "liga a venda automática", "cadastra o produto do checkout", "quem comprou não recebeu acesso", "reembolsou", "cancelou a assinatura", "meu checkout não está na lista" | VENDER PELO CHECKOUT | `references/vender-pelo-checkout.md` |
 | "muda o nome da escola", "põe minha cor", "sobe minha logo" | PERSONALIZAR | `references/personalizar.md` |
+| "deixa esse arquivo pro aluno baixar", "só membro pode baixar", "o programa do aluno tem que se atualizar sozinho" | ARQUIVO PARA MEMBROS | `references/arquivo-para-membros.md` |
 | "o aluno não entra", "o vídeo não aparece", "caiu" | DIAGNÓSTICO | `references/diagnostico.md` |
 | "instala a área de membros numa VPS" | INSTALAR | `references/INSTALAR.md` |
 | "atualiza a versão" | ATUALIZAR | `references/ATUALIZAR.md` |
@@ -58,7 +59,7 @@ Estas vêm de leitura de código do sistema e de medição, não de palpite.
 1. **A descrição do curso não é texto solto.** O campo `description` espera um documento em JSON. Texto puro quebra na leitura e volta 422. O molde mínimo está em `criar-curso.md`.
 2. **Criar curso aceita só dois campos.** `title` e `type`. Qualquer outro campo no mesmo corpo volta 400 na hora. Descrição entra numa segunda chamada.
 3. **Campo desconhecido volta 400 em todas as rotas.** Cada rota tem lista fechada de campos aceitos. O agente manda exatamente os campos listados na reference, nada a mais.
-4. **Só três tipos de aula servem: `embed`, `text` e `quiz`.** Na tela de criar aula o dono vê Vídeo (que é o `embed`), Texto e Quiz. Os valores `video`, `audio`, `pdf`, `file` e `scorm` saíram da tela porque pedem envio de arquivo que esta instalação não faz, ela guarda só imagem. A API ainda aceita esses valores, e a aula criada com eles não funciona. Para YouTube, grave o link puro do vídeo no conteúdo da aula `embed`.
+4. **Só três tipos de aula servem: `embed`, `text` e `quiz`.** Na tela de criar aula o dono vê Vídeo (que é o `embed`), Texto e Quiz. Os valores `video`, `audio`, `pdf`, `file` e `scorm` saíram da tela porque pedem envio de arquivo pela mídia, e a mídia desta instalação guarda só imagem. A API ainda aceita esses valores, e a aula criada com eles não funciona. Arquivo pro aluno baixar vai numa pasta da instalação, pela ação ARQUIVO PARA MEMBROS. Para YouTube, grave o link puro do vídeo no conteúdo da aula `embed`.
 5. **O `groupId` da aula é o id que a criação da seção devolveu.** Mandar o nome da seção, ou o id de outro curso, volta `Seção não encontrada` (`Section not found` em instalação anterior à atualização de 21/09).
 6. **O tipo da aula é definido no nascimento.** O PATCH recusa o campo `type` com 400. Aula de vídeo nasce `embed` e não aceita `content.value` vazio (422 `O conteúdo não pode ficar vazio`). Errou o tipo, apaga e recria.
 7. **A rota de convite responde 201 mesmo quando não envia e-mail nenhum.** Aluno que já tem acesso ativo faz a rota devolver sucesso sem disparar mensagem. Detalhe e contorno honesto em `matricular.md` e em `diagnostico.md`.

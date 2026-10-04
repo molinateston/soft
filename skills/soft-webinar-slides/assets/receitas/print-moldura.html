@@ -1,0 +1,34 @@
+<!-- RECEITA print-moldura (guia: "Prova e depoimento" e passada 2, mostrar em vez de contar)
+O que faz: o print real ocupa o slide; a frase curta diz o que ele prova; a legenda é o nome do print.
+A moldura é só a borda fina e a sombra que separam o print do fundo: nenhuma interface em volta.
+O círculo de destaque (opcional) entra por clique em cima do número que importa no print.
+Adapte: src = o arquivo que o dono mandou (relativo à pasta dos slides); dado de terceiro sempre recortado antes;
+posição do círculo em % do print (left, top, tamanho). Sem o print do dono, este slide não entra.
+Nunca: print inventado, "ilustrativo", banco de imagem no lugar da prova.
+SEM O PRINT (ou sem a cena): troque o <img> por uma vaga tracejada, com data-vaga (o checar_deck avisa, não reprova):
+  CSS:  .vaga { width: 1200px; height: 560px; border: 4px dashed var(--dim); border-radius: 18px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 40px; color: var(--ink); }
+  HTML: <div class="vaga" data-vaga><div>print ou recibo de {{O_QUE}}</div></div>      (cena: "cena: {{O_QUE}}")
+  Sem <br> forçado no rótulo; se quebrar a linha, deixe um espaço antes do <br>. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.topo { position: absolute; left: 140px; right: 140px; top: 80px; }
+.frase { font-size: 60px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; max-width: 1500px; }
+.palco-print { position: absolute; left: 50%; top: 250px; transform: translateX(-50%); }
+.moldura { position: relative; display: inline-block; border: 3px solid var(--linha); border-radius: 18px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.35); background: #fff; }
+.moldura img { display: block; max-width: 1400px; max-height: 640px; }
+.marca-print { position: absolute; border: 8px solid var(--dest); border-radius: 50%; }
+.legenda { position: absolute; left: 0; right: 0; bottom: 44px; text-align: center; font-size: 30px; color: var(--ink); }
+</style>
+<div class="topo"><div class="frase">{{FRASE_DO_QUE_O_PRINT_PROVA}}</div></div>
+<div class="palco-print">
+  <div class="moldura">
+    <img src="{{ARQUIVO_DO_PRINT}}" alt="{{LEGENDA}}">
+    <div class="marca-print" data-click="1" data-fx="selo" style="left: {{CIRCULO_LEFT}}; top: {{CIRCULO_TOP}}; width: {{CIRCULO_LARGURA}}; height: {{CIRCULO_ALTURA}};"></div>
+  </div>
+</div>
+<div class="legenda">{{LEGENDA}}</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

@@ -1,0 +1,23 @@
+<!-- RECEITA cta-faixa (guia: "O slide da oferta", o link maior que tudo; regra 5, a fonte de ação só no comando)
+O que faz: a frase da chamada em cima; o link numa faixa de ponta a ponta na cor de ação, o maior elemento da tela;
+o pedido curto embaixo ("O link está no chat"). A seta aponta pra onde a pessoa clica.
+Adapte: a frase e o link são do roteiro (link ou nome do botão exatamente como está no checkout); o apoio só quando existe.
+Nunca: prazo sem motivo; preço gigante isolado; dois CTAs no mesmo slide. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.frase { position: absolute; left: 140px; right: 140px; top: 150px; font-size: 84px; line-height: 1.05; font-weight: 800; letter-spacing: -2px; }
+.faixa { position: absolute; left: 0; right: 0; top: 480px; height: 220px; background: var(--acao); display: flex; align-items: center; justify-content: center; gap: 40px; }
+.faixa .link { font-family: var(--fonte-acao); font-size: 96px; font-weight: 800; color: #fff; letter-spacing: -1px; }
+.faixa svg { flex: 0 0 auto; }
+.apoio { position: absolute; left: 0; right: 0; top: 760px; text-align: center; }
+.apoio span { font-family: var(--fonte-acao); font-size: 40px; font-weight: 700; color: var(--ink); border: 3px solid var(--linha); border-radius: 999px; padding: 14px 40px; }
+</style>
+<div class="frase">{{FRASE_DA_CHAMADA}}</div>
+<div class="faixa" data-click="1" data-fx="aparecer"><svg width="110" height="110" viewBox="0 0 110 110"><path d="M20 55 H86 M60 28 L88 55 L60 82" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="link">{{LINK_OU_BOTAO}}</span></div>
+<div class="apoio" data-click="2"><span>{{PEDIDO_CURTO}}</span></div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Clique 2: {{FALA_CLIQUE_2}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

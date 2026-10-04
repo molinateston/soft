@@ -1,0 +1,34 @@
+<!-- RECEITA previa-cortada (guia: regra 9, "na abertura pode ser cortado, só a prévia, pra gerar curiosidade")
+O que faz: o esquema principal aparece de canto, cortado pela borda e com o resto embaçado: a sala vê que existe,
+não vê tudo. A frase promete quando ele volta. É a primeira das três vezes do esquema.
+Adapte: dentro do .futuro, a mesma composição do slide do esquema (nomes exatos do roteiro), só que menor;
+o que ainda não foi ensinado leva .veu (embaça). A frase e o rótulo são do roteiro.
+Nunca: prévia de algo que o deck não mostra depois; o produto (módulo, preço) antes da ponte. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.txt { position: absolute; left: 140px; top: 0; bottom: 0; width: 820px; display: flex; flex-direction: column; justify-content: center; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); }
+.frase { font-size: 84px; line-height: 1.04; font-weight: 800; letter-spacing: -2px; margin-top: 26px; }
+.apoio { font-size: 42px; line-height: 1.25; color: var(--dim); margin-top: 36px; }
+.futuro { position: absolute; left: 1060px; top: 170px; width: 1100px; height: 760px; border-radius: 28px; background: var(--suave); border: 3px solid var(--linha); transform: rotate(-4deg); padding: 60px 64px; box-shadow: 0 40px 90px rgba(0,0,0,.45); }
+.futuro .t { font-size: 34px; font-weight: 800; color: var(--dim); letter-spacing: 2px; text-transform: uppercase; }
+.futuro .item { font-size: 48px; font-weight: 800; margin-top: 34px; padding-left: 26px; border-left: 10px solid var(--dest); }
+.futuro .veu { filter: blur(9px); opacity: .7; }
+</style>
+<div class="txt">
+  <div class="rot">{{ROTULO_CURTO}}</div>
+  <div class="frase">{{FRASE_CURTA}}</div>
+  <div class="apoio" data-click="1">{{APOIO}}</div>
+</div>
+<div class="futuro" data-imagem>
+  <div class="t">{{NOME_DO_ESQUEMA}}</div>
+  <div class="item">{{ITEM_1}}</div>
+  <div class="item veu">{{ITEM_2}}</div>
+  <div class="item veu">{{ITEM_3}}</div>
+  <div class="item veu">{{ITEM_4}}</div>
+</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

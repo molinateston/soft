@@ -1,0 +1,46 @@
+<!-- RECEITA bonus-tarja (guia: "Bônus: cada um é um produto inteiro")
+O que faz: o bônus com cara de produto: a capa (logo do curso, ou o nome numa capa desenhada), a dor, a promessa,
+o que se aprende (um bloco por clique), o valor avulso riscado, "R$0 pra você" e o valor oficial.
+A tarja dos primeiros (cor reservada) fica sempre na mesma posição, em todo slide de bônus.
+Adapte: tarja só quando o bônus é dos primeiros e o roteiro diz pra quantos; sem isso, apague a .tarja;
+com o logo do dono, troque a .capa pelo <img>; valor só o declarado pelo dono; sem valor, saem o risco, o R$0 e o oficial.
+Nunca: "Bônus 3 de 6" no lugar do logo, contagem anunciada antes, dois produtos no mesmo slide. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}" data-layout="bonus">
+<style>
+.quadro { position: absolute; inset: 120px 140px 90px; display: grid; grid-template-columns: 1fr 520px; gap: 90px; align-items: center; }
+.dor { font-size: 40px; line-height: 1.2; color: var(--dim); }
+.promessa { font-size: 76px; line-height: 1.04; font-weight: 800; letter-spacing: -2px; margin: 18px 0 40px; }
+.aprende-rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); margin-bottom: 16px; }
+.aprende { font-size: 40px; line-height: 1.2; padding-left: 28px; border-left: 8px solid var(--dest); margin-bottom: 18px; }
+.lado { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px; }
+.capa { width: 380px; height: 300px; border-radius: 22px; background-color: var(--dest); background-image: linear-gradient(150deg, var(--dest), var(--dest-suave)); display: flex; align-items: flex-start; padding: 34px; box-shadow: 0 24px 60px rgba(0,0,0,.4); transform: rotate(-3deg); }
+.capa span { font-size: 44px; font-weight: 800; line-height: 1.05; color: var(--bg); text-align: left; }
+.vale .v { font-size: 60px; font-weight: 800; color: var(--dim); white-space: nowrap; }
+.zero { font-size: 84px; font-weight: 800; color: var(--dest); line-height: 1; white-space: nowrap; }
+.oficial { font-size: 30px; color: var(--dim); margin-top: 10px; }
+</style>
+<div class="tarja">{{TARJA_DOS_PRIMEIROS}}</div>
+<div class="quadro">
+  <div>
+    <div class="dor">{{DOR}}</div>
+    <div class="promessa">{{PROMESSA}}</div>
+    <div class="aprende-rot">O que você aprende</div>
+    <div data-click="1"><div class="aprende">{{APRENDE_1}}</div></div>
+    <div data-click="2"><div class="aprende">{{APRENDE_2}}</div></div>
+    <div data-click="3"><div class="aprende">{{APRENDE_3}}</div></div>
+  </div>
+  <div class="lado">
+    <div class="capa" data-imagem><span>{{NOME_DO_CURSO}}</span></div>
+    <div data-click="4" data-fx="riscar"><div class="vale risco"><span class="v">Vale {{VALOR_AVULSO}}</span><span class="risco-wrap"><span class="risco-rot"><span class="risco-linha"></span></span></span></div></div>
+    <div data-click="5"><div class="zero">R$0 pra você</div><div class="oficial">{{VALOR_AVULSO}} é o valor oficial do curso</div></div>
+  </div>
+</div>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Clique 2: {{FALA_CLIQUE_2}}
+Clique 3: {{FALA_CLIQUE_3}}
+Clique 4: {{FALA_CLIQUE_4}}
+Clique 5: {{FALA_CLIQUE_5}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

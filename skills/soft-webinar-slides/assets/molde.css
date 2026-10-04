@@ -1,0 +1,150 @@
+/* molde.css: os 13 layouts do rascunho de texto (gerar.py). O desenho do agente não usa este arquivo. */
+.slide { padding: 88px 120px; display: flex; flex-direction: column; }
+/* Peças comuns */
+.rotulo { font-size: 28px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); margin: 0 0 28px; }
+.marca { position: absolute; right: 120px; bottom: 40px; font-size: 24px; color: var(--dim); }
+.area { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+.pilula { display: inline-block; align-self: flex-start; font-family: var(--fonte-acao); font-size: 38px; font-weight: 700;
+  color: #fff; background: var(--acao); border-radius: 999px; padding: 14px 40px; margin-top: 44px; }
+.dest { color: var(--dest); }
+.fit { padding-bottom: .15em; }
+b, strong { font-weight: 800; }
+
+/* capa */
+.capa .area { justify-content: center; }
+.capa .promessa { font-size: 100px; font-weight: 800; line-height: 1.04; letter-spacing: -2px; max-width: 1560px; max-height: 640px; overflow: hidden; }
+.capa .apoio { font-size: 42px; color: var(--dim); margin-top: 40px; max-width: 1400px; line-height: 1.25; }
+.capa .nome { font-size: 30px; font-weight: 700; color: var(--dest); margin-top: 56px; }
+
+/* frase */
+.frase .principal { font-size: 84px; font-weight: 800; line-height: 1.08; letter-spacing: -1.5px; max-width: 1560px; max-height: 560px; overflow: hidden; }
+.frase .depois { font-size: 50px; line-height: 1.25; margin-top: 36px; max-width: 1500px; }
+.frase .depois.dim { color: var(--dim); }
+
+/* lista */
+.lista ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 30px; max-height: 760px; overflow: hidden; }
+.lista li { font-size: 54px; line-height: 1.18; padding-left: 40px; border-left: 10px solid var(--dest); max-width: 1560px; }
+.lista .conclusao { font-size: 52px; font-weight: 800; color: var(--dest); margin-top: 44px; }
+
+/* cronograma */
+.cronograma .linhas { display: flex; flex-direction: column; gap: 34px; }
+.cronograma .linha { display: flex; align-items: baseline; gap: 36px; }
+.cronograma .hora { flex: 0 0 var(--hora-w, auto); min-width: 200px; font-size: 44px; font-weight: 800; color: var(--dest); }
+.cronograma .txt { font-size: 52px; line-height: 1.2; }
+.cronograma .txt.oferta-linha { font-weight: 800; }
+
+/* escada: degrau 1 embaixo, sobe pra direita */
+.escada .pergunta { font-size: 60px; font-weight: 800; line-height: 1.1; margin-bottom: 24px; max-width: 1600px; }
+.escada .degraus { display: flex; flex-direction: column-reverse; gap: 14px; flex: 0 1 auto; min-height: 0; }
+.escada .degraus.so-nome { gap: 20px; }
+.escada .so-nome .degrau { padding: 22px 40px; }
+.escada .so-nome .degrau .n { font-size: 40px; }
+.escada .so-nome .degrau .nm { font-size: 60px; }
+.escada .degrau { display: flex; align-items: center; gap: 28px; border-radius: 14px; padding: 10px 30px;
+  background: var(--suave); border: 3px solid var(--linha); width: 1180px; }
+.escada .degrau .n { font-size: 30px; font-weight: 800; color: var(--dim); min-width: 44px; }
+.escada .degrau .nm { font-size: 40px; font-weight: 800; min-width: 0; }
+.escada .degrau .pr { font-size: 32px; color: var(--dim); line-height: 1.2; }
+.escada .degrau.atual { border-color: var(--dest); background: var(--dest-suave); }
+.escada .degrau.atual .pr { color: var(--ink); }
+.escada .aqui { font-family: var(--fonte-acao); font-size: 26px; font-weight: 700; color: #fff; background: var(--acao); border-radius: 999px; padding: 6px 22px; margin-left: auto; white-space: nowrap; }
+
+/* bússola: passo feito riscado e menor, atual grande, próximo apagado */
+.bussola .passos { display: flex; flex-direction: column; gap: 26px; }
+.bussola .passo { font-size: 36px; color: var(--dim); }
+.bussola .passo.feito { text-decoration: line-through; text-decoration-thickness: 3px; }
+.bussola .passo.atual { font-size: 80px; font-weight: 800; color: var(--ink); line-height: 1.05; }
+.bussola .passo.atual .dest { color: var(--dest); }
+.fit { padding-bottom: .15em; }
+
+/* número vira imagem */
+.numero .principal { font-size: 64px; font-weight: 800; line-height: 1.1; max-width: 1600px; margin-bottom: 40px; }
+.numero .cal { display: grid; gap: 16px; }
+.numero .cel { position: relative; height: 110px; border: 3px solid var(--linha); border-radius: 12px; display: flex; align-items: flex-end; padding: 10px 16px; font-size: 26px; color: var(--dim); }
+.numero .cel .x { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 84px; font-weight: 800; color: var(--ink); line-height: 1; }
+.numero .grande { font-size: 220px; font-weight: 800; line-height: 1; letter-spacing: -6px; color: var(--dest); }
+.numero .unidade { font-size: 60px; font-weight: 800; margin-top: 10px; }
+.numero .conta { font-size: 40px; color: var(--dim); margin-top: 30px; }
+.numero .barras { display: flex; flex-direction: column; gap: 32px; }
+.numero .barra-linha { display: flex; align-items: center; gap: 32px; }
+.numero .barra-linha .rot { flex: 0 0 300px; font-size: 36px; line-height: 1.15; }
+.numero .barra { height: 90px; border-radius: 12px; background: var(--dim); display: flex; align-items: center; padding: 0 28px; font-size: 40px; font-weight: 800; color: var(--bg); min-width: max-content; white-space: nowrap; }
+.numero .barra.forte { background: var(--dest); }
+
+/* print grande, sem moldura */
+.print .area { align-items: center; }
+.print .quadro { width: 1640px; height: 800px; display: flex; align-items: center; justify-content: center; }
+.print .quadro img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.print .vaga { width: 100%; height: 100%; border: 4px dashed var(--linha); border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 36px; color: var(--dim); padding: 40px; text-align: center; }
+.print .legenda { font-size: 30px; color: var(--dim); margin-top: 26px; text-align: center; }
+
+/* duas colunas */
+.duas .principal { font-size: 60px; font-weight: 800; line-height: 1.1; margin-bottom: 44px; max-width: 1600px; }
+.duas .cols { display: flex; gap: 60px; }
+.duas .col { flex: 1; border-top: 8px solid var(--linha); padding-top: 26px; }
+.duas .col.b { border-top-color: var(--dest); }
+.duas .col h3 { font-size: 54px; margin: 0 0 22px; font-weight: 800; }
+.duas .col p { font-size: 46px; margin: 0 0 16px; line-height: 1.25; }
+.duas .fecho { font-size: 52px; font-weight: 800; color: var(--dest); margin-top: 48px; }
+
+/* preço em degraus */
+.preco .principal { font-size: 52px; font-weight: 800; margin-bottom: 50px; }
+.preco .linha-preco { display: flex; align-items: center; gap: 56px; }
+.preco .antigo { position: relative; display: inline-block; }
+.preco .antigo .v { font-size: 110px; font-weight: 800; color: var(--dim); white-space: nowrap; }
+.preco .seta { font-size: 90px; color: var(--dim); }
+.preco .novo .parcela { font-size: 150px; font-weight: 800; line-height: 1; color: var(--dest); white-space: nowrap; letter-spacing: -3px; }
+.preco .novo .avista { font-size: 48px; margin-top: 20px; }
+.risco-wrap { position: absolute; left: -10px; right: -10px; top: 50%; height: 0; }
+.risco-linha { position: absolute; left: 0; right: 0; top: -5px; height: 10px; background: var(--reservada); border-radius: 5px; }
+.risco-rot { position: absolute; inset: 0; transform: rotate(-6deg); }
+.oferta .total .risco-linha { height: 6px; top: -3px; }
+.pct { font-family: var(--fonte-acao); font-size: 40px; font-weight: 800; color: #fff; background: var(--acao); border-radius: 999px; padding: 10px 28px; white-space: nowrap; }
+.preco .pct-wrap { position: absolute; right: -60px; top: -86px; }
+
+/* oferta: o único slide denso */
+.oferta { padding: 64px 96px; }
+.oferta .rotulo { margin-bottom: 18px; }
+.oferta .corpo { flex: 1; display: flex; gap: 64px; min-height: 0; }
+.oferta .tabela { flex: 1.35; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.oferta .tl { display: flex; align-items: center; gap: 20px; border-bottom: 2px solid var(--linha); height: var(--alt-linha); font-size: var(--fs-linha); }
+.oferta .tl .it { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: clip; }
+.oferta .tl .vl { flex: 0 0 auto; font-weight: 800; white-space: nowrap; padding-bottom: .15em; }
+.oferta .rot-bonus { font-size: 24px; font-weight: 800; color: #fff; background: var(--reservada); border-radius: 8px; padding: 4px 12px; letter-spacing: 1px; flex: 0 0 auto; }
+.oferta .total { display: flex; align-items: center; gap: 28px; margin-top: 22px; }
+.oferta .total .tt { font-size: 40px; font-weight: 800; }
+.oferta .total .tv { position: relative; font-size: 60px; font-weight: 800; color: var(--dim); white-space: nowrap; }
+.oferta .corpo.so-tabela { justify-content: center; }
+.oferta .so-tabela .tabela { flex: 0 1 1320px; }
+.oferta .so-tabela .total .tv { color: var(--ink); }
+.oferta .so-tabela .tl { font-size: calc(var(--fs-linha) + 6px); }
+.oferta .painel { flex: 1; display: flex; flex-direction: column; justify-content: center; border-radius: 22px; padding: 44px; background: var(--dest-suave); }
+.oferta .painel .hoje { font-size: 34px; color: var(--dim); margin-bottom: 10px; }
+.oferta .painel .parcela { font-size: 104px; font-weight: 800; line-height: 1; color: var(--dest); letter-spacing: -2px; white-space: nowrap; }
+.oferta .painel .avista { font-size: 40px; margin-top: 16px; }
+.oferta .painel .link { font-family: var(--fonte-acao); font-size: 52px; font-weight: 800; color: #fff; background: var(--acao); border-radius: 20px; padding: 22px 30px; margin-top: 40px; text-align: center; }
+.oferta .painel .prazo { font-size: 28px; margin-top: 24px; line-height: 1.25; }
+
+/* bônus como produto inteiro */
+.bonus { padding-top: 70px; }
+.tarja { position: absolute; top: 0; right: 120px; background: var(--reservada); color: #fff; font-size: 30px; font-weight: 800; letter-spacing: 1px; padding: 18px 34px; border-radius: 0 0 14px 14px; text-transform: uppercase; }
+.bonus .topo { display: flex; align-items: center; gap: 28px; margin-bottom: 30px; min-height: 90px; }
+.bonus .logo img { height: 90px; }
+.bonus .logo-txt { font-size: 34px; font-weight: 800; border: 3px solid var(--dest); color: var(--dest); border-radius: 12px; padding: 12px 24px; }
+.bonus .corpo { flex: 1; display: flex; gap: 70px; min-height: 0; }
+.bonus .esq { flex: 1.5; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+.bonus .dir { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 26px; }
+.bonus .dor { font-size: 42px; color: var(--dim); line-height: 1.2; margin-bottom: 18px; }
+.bonus .promessa { font-size: 72px; font-weight: 800; line-height: 1.08; margin-bottom: 34px; }
+.bonus .aprende-rot { font-size: 28px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); margin-bottom: 14px; }
+.bonus .aprende { font-size: 42px; line-height: 1.22; padding-left: 26px; border-left: 8px solid var(--dest); margin-bottom: 16px; }
+.bonus .vale { position: relative; display: inline-block; align-self: flex-start; }
+.bonus .vale .v { font-size: 64px; font-weight: 800; color: var(--dim); white-space: nowrap; }
+.bonus .zero { font-size: 92px; font-weight: 800; color: var(--dest); line-height: 1; white-space: nowrap; }
+.bonus .oficial { font-size: 30px; color: var(--dim); margin-top: 12px; }
+
+/* cta: o link é o maior da tela */
+.cta .area { align-items: flex-start; }
+.cta .principal { font-size: 60px; font-weight: 800; line-height: 1.12; max-width: 1560px; }
+.cta .link { font-family: var(--fonte-acao); font-size: 84px; font-weight: 800; color: #fff; background: var(--acao); border-radius: 26px; padding: 30px 60px; margin-top: 50px; }
+.cta .apoio { font-size: 40px; color: var(--dim); margin-top: 34px; }

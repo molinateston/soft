@@ -1,7 +1,7 @@
 ---
 name: soft-conteudo-headlines
 description: >-
-  Encontra a HEADLINE (gancho, abertura, manchete, capa, título, assunto) e entrega o banco de headlines por família de gatilho, num arquivo .md. Use quando o pedido for: "me dá headlines sobre X", "banco de headlines", "escreve o gancho falado desse reel", "qual a capa desse carrossel", "escreve a chamada", "título pro YouTube", "assunto do e-mail", "primeiros 3 segundos", "abertura do story", "manchete". NÃO use pra: "faz o gancho desse vídeo" quando é montar o cold open no vídeo já gravado (soft-editor-video); os slides do carrossel (soft-conteudo-carrossel); o roteiro do reel depois do gancho (soft-conteudo-reels); frames de story (soft-conteudo-stories); adaptar peça pronta pra outra plataforma (soft-conteudo-multiplataforma); decidir SOBRE O QUE postar (soft-conteudo-planner); posicionamento e pilares (soft-plano-posicionamento); arte e PNG (soft-designer); abertura de carta (soft-funil-carta); abertura da aula (soft-webinar). Leia e siga o fluxo inteiro do SKILL.md.
+  Encontra a HEADLINE: a primeira linha com lacunas específicas (dor, objeção, número, cena ou prova do dono) que ele preenche, e o conteúdo nasce dela. Serve à capa, título, assunto, manchete, texto na tela e fala dos 3 primeiros segundos. Banco por família de gatilho, com 225 fórmulas e 647 frases literais, num .md. Use quando o pedido for: "me dá headlines sobre X", "banco de headlines", "5 headlines sobre as dores do meu nicho", "headline pra fazer o conteúdo depois", "capa de carrossel novo, de uma dor", "título pro YouTube", "assunto do e-mail", "manchete". NÃO use pra: a linha universal, que serve a qualquer conteúdo ou encaixa num conteúdo pronto (soft-conteudo-ganchos); montar o cold open no vídeo já gravado (soft-editor-video); os slides (soft-conteudo-carrossel); o roteiro do reel (soft-conteudo-reels); adaptar peça pronta (soft-conteudo-multiplataforma); posicionamento (soft-plano-posicionamento); arte e PNG (soft-designer); abertura da aula (soft-webinar). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Headline: a linha que já existe na cabeça do leitor
@@ -27,6 +27,17 @@ Esta skill encontra a primeira linha de qualquer peça (a capa do carrossel, os 
 **Ordem de leitura, quando existe perfil do dono:** o perfil/brain do agente vem PRIMEIRO, antes do exemplo e antes de qualquer pergunta (o perfil pode responder sozinho o que você ia perguntar). Sem perfil, começa pelo exemplo.
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra, num caso fictício de nicho neutro, a entrada que o dono deu, as perguntas que a skill fez e a saída real de cada ação: um grupo inteiro de banco renderizado, o pedido específico com os tetos contados, e a compressão da mesma fórmula em 4 formatos. Ler antes da primeira pergunta economiza uma rodada de retrabalho.
+
+## Qual skill: headline ou gancho (a mesma primeira linha, dois caminhos)
+
+| O dono | Skill |
+|---|---|
+| tem uma dor, objeção, número, cena ou prova e quer a linha construída com ela, para fazer o conteúdo DEPOIS e em cima dela ("penso 5 dores do nicho") | `soft-conteudo-headlines`: a linha tem lacunas específicas que ele preenche |
+| quer uma linha que serve a qualquer conteúdo, ou que encaixa no conteúdo que já tem, sem lacuna ou com lacuna ampla ("o que eu nunca mais faço depois de 10 anos de [profissão]") | `soft-conteudo-ganchos` |
+| o roteiro do reel inteiro, depois da linha | `soft-conteudo-reels` |
+| os slides do carrossel, depois da capa | `soft-conteudo-carrossel` |
+
+Falada nos 3 primeiros segundos, na tela ou escrita (capa, título, assunto, manchete) é só o formato: as duas skills servem aos três. Dúvida entre elas: o conteúdo já existe (gancho) ou vai nascer da linha (headline)? Pergunte isso ao dono em uma linha. As duas têm banco de moldes e banco de frases literais, por família e por alcance; cada uma tem o índice em `references/literais/00-indice.md`.
 
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
@@ -176,7 +187,6 @@ A decisão de ficar ou pular acontece em menos de 2 segundos. A abertura é 90% 
 - No pedido específico, você **para e espera** o cliente escolher antes de gerar mais. No banco completo, entrega o doc inteiro de uma vez e pergunta o que ajustar.
 - Você **nunca inventa fala nem número do cliente** e **nunca mostra headline que falhou no gate**.
 
-
 ## ⚠️ ENTREGA = UM doc MD, SEMPRE (nunca pingar a peça no chat)
 Regra dura, vale mesmo pra copy curta: o RESULTADO desta skill sai como **UM documento markdown consolidado**. Em ambiente que renderiza markdown, mostre o doc renderizado (o dono abre, copia, baixa); em ambiente com sistema de arquivo, salve como arquivo `.md`. A CONDUÇÃO (perguntas de contexto, escolhas, os STOPs de aprovação) acontece no chat; a PEÇA/COPY em si mora no DOC. Ao parar num STOP, você mostra ou atualiza o DOC e pergunta "ajusto?"; você NUNCA reescreve a peça em pedaços no corpo da conversa. Sem o doc entregue, a skill não terminou.
 
@@ -275,7 +285,7 @@ O cânone se organiza por **GATILHO**, não por plataforma (gancho é gancho, he
 | T81 | Reconhecimento | [X] coisas que só quem é [AVATAR] entende | "10 coisas que só quem é diabético passa" |
 | T86 | Reconhecimento | Se [SITUAÇÃO] acontecer, faça isso imediatamente | "Se ver esses 3 sinais nas campanhas, pause já" |
 
-> **Regra dura:** as fórmulas do banco são as 225 de `references/templates.md` (T1-T225, nas 6 famílias). Se você escreveu um "template" fora do banco, você INVENTOU (é o erro a não cometer). No máximo adapta/combina ao nicho do cliente. `templates.md` traz todas com slots, exemplos, variações, a família, a nota (FORTE/OK) e o lastro (CASA/EXTERNO) de cada uma; escolhe pela família e pela nota, FORTE primeiro.
+> **Regra dura:** as fórmulas do banco são as 225 de `references/templates.md` (T1-T225, nas 6 famílias). Se você escreveu um "template" fora do banco, você INVENTOU (é o erro a não cometer). No máximo adapta/combina ao nicho do cliente. As frases de `references/literais/` são o segundo banco (647 frases com lacuna específica, em padrões, por família e alcance): servem de opção de partida a pedido ou quando o banco T não basta, passam pelo mesmo gate e não contam como fórmula T nem no mínimo do banco completo. `templates.md` traz todas com slots, exemplos, variações, a família, a nota (FORTE/OK) e o lastro (CASA/EXTERNO) de cada uma; escolhe pela família e pela nota, FORTE primeiro.
 
 **Plataforma NÃO é família: é teto de RENDERIZAÇÃO.** A mesma fórmula serve pra qualquer formato; o que muda é quanto texto cabe. A tabela de tetos por formato está no gate (Passo 4); o protocolo de compressão (a mesma fórmula apertada pro teto de reel/YouTube/e-mail/capa) está em `references/subcanones-formato.md`. Não existe fórmula exclusiva de plataforma.
 
@@ -288,7 +298,7 @@ Fórmula diz a ESTRUTURA da frase. Ângulo diz de que LADO psicológico você at
 
 | Ângulo | O lado que ataca | Templates que costumam servir |
 |---|---|---|
-| **Número** | abre com um número/métrica que o leitor calcula (algarismo, não extenso) | T8, T10, T16, T17, T25, T30 |
+| **Número** | abre com um número/métrica que o leitor calcula ou com a quantidade do que ele leva ("30 respostas prontas pro WhatsApp"), em algarismo, não extenso | T8, T10, T16, T17, T25, T30 |
 | **Contrária** | declara uma crença aceita e vira ela do avesso | T5, T6, T13, T26, T27, T29 |
 | **Transformação** | antes vs depois, com o número que prova a virada | T12, T13, T19 |
 | **Autoridade** | ancora em quem fala (profissão, resultado real, nome citado) | T1, T2, T8, T18 |
@@ -464,6 +474,7 @@ Esta skill entrega a PRIMEIRA LINHA e para aí. Em toda rota abaixo, se a skill 
 | Palavra-container solta ("um sistema que transforma") | Troca por imagem concreta com adjetivo + número |
 | Inimigo virou "5 erros ao fazer X" | Ataca como erro estrutural, não como prática a melhorar |
 | Mistério vácuo ("tem algo que ninguém conta") | Dá a textura/pista concreta do que está em jogo |
+| Capa de carrossel sem promessa: pergunta sobre a tendência ("agente de IA é a nova moda?") ou número de caso de terceiro, sem nada pro leitor levar | Reescreve com o que o leitor leva: número + entregável (T25), comando que contraria (T1), "se você faz [X], então [Y]" (T86) ou a pergunta prática que ele mesmo faz (T61). Na referência de mercado medida em 450 posts, essas capas ficaram em 26 a 39 interações, contra 8.526 a 32.028 do top 20 |
 | Headline bonita mas genérica (concorrente assina) | Falha no gate "só você diz"; reescreve com cena/mecanismo proprietário |
 | Narrou o fluxo ("agora vou auditar") | Não narra: executa em silêncio e entrega só as headlines limpas, sem a tabela do gate |
 | Headline que só quem já é de dentro entende | Falha na Clareza (Lei 1): reescreve criando o contexto e troca a palavra difícil pela simples |
@@ -480,6 +491,7 @@ Esta skill entrega a PRIMEIRA LINHA e para aí. Em toda rota abaixo, se a skill 
 - `shared-references/crivo/07-regua-de-titulos.md`: **a régua de títulos** (as 7 regras que decidem se um título existe: teste do enunciado, proibição do título que só descreve, teses contadas, inimigo ou inversão, cota de antítese, crivo clínico e regulado, assinatura de copywriter), mais o gatilho nomeado, a contagem física e as 3 melhores marcadas.
 - `references/EXEMPLO-FIM-A-FIM.md`: o caso fictício de ponta a ponta (a entrada do dono, as perguntas feitas e a saída real de cada ação). **Leia antes da primeira pergunta.**
 - `references/regua-final.md`: **A RÉGUA INTEGRAL** (as 8 seções calibradas em 6 rodadas: Vida · Clareza · Concretude · Voz · Template · Prova · Anti-IA · Meta-regras) + o **Cemitério de conceitos** (vivo: entra aqui quando o dono reprova) + os **calibradores completos** (pares reprovada → aprovada). É o miolo do gate do Passo 4, com toda a evidência. A doutrina marca-neutra da qual ela deriva está em `shared-references/crivo/06-regua-de-escrita.md`.
+- `references/literais/`: o banco literal de headline com lacuna específica, 647 frases como o mercado escreve, agrupadas em padrão com esqueleto e risco no gate, por família e por alcance. Índice em `references/literais/00-indice.md`; abra só o arquivo da família.
 - `references/templates.md`: **O BANCO ÚNICO POR GATILHO completo** (as 225 fórmulas T nas 6 famílias, cada uma com nota FORTE/OK e lastro CASA/EXTERNO, com a gramática de slots no topo, os exemplos multi-nicho, as variações fundidas, as notas de refinamento e a regra de promoção EXTERNO a CASA) + a numeração C1-C6 dos ângulos de ataque de frase + os **ângulos de ABORDAGEM** (a camada de tema/grande-ideia que roda por cima, com causa-raiz na frente em saúde). **Central nos Passos 2-3.**
 - `references/subcanones-formato.md`: **renderização por formato** (a MESMA fórmula comprimida pro teto de cada formato, com o exemplo de uma fórmula renderizada nos 4 formatos e a evidência de cada teto). Plataforma não é família, é camada de renderização. A tabela de tetos está inline no gate (Passo 4).
 - `references/mineracao-benchmark.md`: o registro das rodadas de mineração (metodologia, fontes, dedup) e o protocolo do comando "minera benchmark de [tema]".

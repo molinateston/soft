@@ -40,6 +40,7 @@ A dona não tinha, e a soft-conteudo-headlines estava instalada. Voltou com esta
 - Mecanismo: Método dos 3 Envelopes.
 - Prova: 140 clínicas atendidas em 9 anos. `[fictício]`
 - Palavra-chave do CTA: **ENVELOPES**.
+- Ferramenta do método (a isca): planilha dos 3 envelopes, com 12 categorias de gasto já separadas. `[fictício]`
 
 **Terceira parada, o formato.** A skill recomendou DOIS, com uma linha de razão cada:
 
@@ -68,8 +69,8 @@ Camada declarada: **C2 Convicção**. A capa filtra, o corpo abre a lacuna que s
 | 6 | Nova oportunidade | Existe um jeito de saber, todo dia 5, quanto sobrou, sem depender do contador. |
 | 7 | Mecanismo | Três envelopes, três destinos, três números de corte. |
 | 8 | Mecanismo | O envelope de retirada é o que mostra se a clínica cresceu ou se você empobreceu. |
-| 9 | Prova + convite | Em 9 anos, 140 clínicas fizeram essa separação. `[DADO: confirmar]` |
-| 10 | CTA | Mini-headline + 3 benefícios + palavra-chave ENVELOPES. |
+| 9 | Prova + ponte | Em 9 anos, 140 clínicas fizeram essa separação, e a planilha dos 3 envelopes faz isso por você. `[DADO: confirmar]` |
+| 10 | CTA | Uma frase: palavra-chave ENVELOPES + a planilha com 12 categorias como isca. |
 
 **Contagem de teses distintas: 10 slides, 9 teses distintas.** Passa (o mínimo é 6). Nenhuma repete a
 anterior com outras palavras.
@@ -116,15 +117,12 @@ você é que empobreceu enquanto ela crescia. A maioria descobre isso no primeir
 **Slide 9**
 Em 9 anos, 140 clínicas fizeram essa separação. `[DADO: confirmar: 140 clínicas, período e fonte]`
 A primeira mudança que aparece não é no lucro. É a dona conseguir dizer, em voz alta, quanto ela
-ganha.
+ganha. Pra isso eu montei a planilha dos 3 envelopes: ela separa o dinheiro por você e mostra, todo
+dia 5, quanto sobrou.
 
 **Slide 10 (CTA)**
-**Sua clínica não precisa faturar mais. Precisa de fronteira.**
-- Você passa a saber quanto é seu e quanto é da clínica, sem esperar o contador.
-- Você para de decidir pela conta que vence hoje.
-- Você descobre, num número só, se cresceu ou empobreceu.
-
-Comenta **ENVELOPES** que eu te mostro como a separação funciona.
+Comenta **ENVELOPES** que eu te mando a planilha dos 3 envelopes com as 12 categorias de gasto da
+clínica já separadas.
 
 ---
 

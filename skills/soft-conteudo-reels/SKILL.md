@@ -57,9 +57,9 @@ Uma tabela, três decisões: qual movimento vai em qual trecho, quanto tempo o r
 | Virada | **Nova oportunidade** | existe outro caminho | 20 a 30s | 55 a 75s |
 | Fechamento | **Mecanismo + Convite** | função do método + CTA com destino | 30 a 40s | 75 a 90s |
 
-**As 3 variantes de formato**, escolhidas antes de escrever: **falado normal** (o default, câmera na mão, corte simples) · **YAP** (talking-head cru, sem corte seco, fala de mesa, planejado com cara de improviso) · **7 segundos** (vídeo mudo de cena cotidiana, título de curiosidade na tela, o conteúdo inteiro na legenda de 1000 a 1500 caracteres). As três usam a MESMA espinha; o que muda é a casca.
+**As 3 variantes de formato**, escolhidas antes de escrever: **falado normal** (o default, câmera na mão, corte simples) · **YAP** (talking-head cru, sem corte seco, fala de mesa, planejado com cara de improviso) · **7 segundos** (vídeo mudo de 5 a 15s sobre cena que o público reconhece, uma frase na tela, o conteúdo inteiro na legenda de 1000 a 1500 caracteres). As três usam a MESMA espinha; o que muda é a casca.
 
-**Regra de duração:** faixa ótima 30 a 60s. Passar de 90s só quando a tese exigir e cada bloco segurar sozinho.
+**Regra de duração:** faixa ótima 30 a 60s. Passar de 90s só quando a tese exigir e cada bloco segurar sozinho. A exceção é o reel de topo no formato de 7 segundos: 5 a 15s de vídeo, com a espinha inteira na legenda.
 
 ## O perfil do dono vem do banco do agente
 
@@ -137,6 +137,8 @@ Não força os três se um só já cria o conflito. Mas marca no roteiro qual en
 
 **Confirma qual dos 7 gatilhos a abertura aciona** (Recompensa · Mistério · Reconhecimento · Popularidade · Crença · Autoridade · Disrupção): toda abertura forte aciona ≥1. A headline (escrita aqui pela régua desta skill, ou vinda de um banco) já traz um gatilho; aqui você confirma qual está ativo no corpo. **Disrupção exige defesa com argumento sólido logo depois**, senão vira clickbait e queima reputação. (Tabela dos 7 + os 3 tipos detalhados em `references/metodo-reel.md` 7.4.)
 
+**Mecânicas de gancho que seguram o reel de topo** (referência de mercado medida em 373 reels, de 30 mil a 1,5 milhão de plays por peça): POV de identificação · "quando eu..." de rotina · verdade incômoda · afirmação contraintuitiva do nicho · substituição "em vez de X, faça Y" · chamada ao público com promessa · adivinhação que expõe o seguidor · "pouco se fala de..." · pedido de comentário lúdico (o seguidor responde no papel de alguém) · pergunta de react. Perdem: "N dicas" genérico e o conselho que todo perfil do nicho já deu, perto de 1.100 plays. No nicho de corrida: "POV: teu treino leve marcou zona 4" · "Você corre todo dia e não melhora." · "Em vez de acelerar, corra mais devagar." A mecânica é a forma; o gatilho continua sendo um dos 7.
+
 **Amplificador (opcional, 0-2s antes da headline falada):** uma frase curta que precede a headline e carrega 2s a mais de atenção (ex.: "Por que ninguém tá falando sobre isso?"). Os 10 canônicos + a afinidade por template em `references/amplificadores.md`. Um por peça, nunca se a headline já está cravada ou o tempo dos 3s estourou.
 
 **Como aparecer no vídeo é só sugestão, nunca obrigação.** A pessoa grava do jeito dela; o que a skill garante e entrega é o ROTEIRO. Quando sugerir cena, gesto ou edição, deixa explícito que é opcional, um caminho possível, não uma regra.
@@ -147,11 +149,11 @@ Não força os três se um só já cria o conflito. Mas marca no roteiro qual en
 - A escolha do modo é declarada antes de escrever. **Em anúncio, SEMPRE modo filtro** (regra da capa por terreno da `soft-trafego-meta`: em anúncio o criativo é a segmentação, gancho amplo entrega lead ruim).
 
 ### FORMATO YAP (talking-head cru)
-Variante lo-fi levada ao limite: vídeo falado direto pra câmera, zero edição polida, cenário real (sofá, carro, rua). Benchmark 2026: especialista falando direto pra câmera supera criativo polido em alcance e engajamento; o cérebro processa rosto mais forte que qualquer outro estímulo visual; confiança em pessoa vale mais que confiança em anúncio. **REGRA-CHAVE: o yap viral é PLANEJADO com cara de improviso.** A espinha ADMA continua obrigatória por baixo; o que muda é a casca: sem corte seco, sem legenda de estúdio, fala corrida de mesa. Compatível com MODO ALCANCE.
+Variante lo-fi levada ao limite: vídeo falado direto pra câmera, zero edição polida, cenário real (sofá, carro, rua). Benchmark 2026: especialista falando direto pra câmera supera criativo polido em alcance e engajamento; o cérebro processa rosto mais forte que qualquer outro estímulo visual; confiança em pessoa vale mais que confiança em anúncio. **REGRA-CHAVE: o yap viral é PLANEJADO com cara de improviso.** A espinha ADMA continua obrigatória por baixo; o que muda é a casca: sem corte seco, sem legenda de estúdio, fala corrida de mesa. Compatível com MODO ALCANCE. **No topo, o yap carrega lista de objetos, nunca conselho.** Referência de mercado medida em 373 reels: talking head de conselho genérico ("N dicas", "se você está começando") fica perto de 1.100 plays; o que listou objetos concretos, uma frase por item, e fechou com a palavra do CTA fez 21.921 plays e 552 comentários. A lista diz O QUE ter (a tela do relógio, a planilha, o arquivo), nunca COMO fazer, e mora dentro da espinha, no Diagnóstico ou no Mecanismo.
 
 ### FORMATO REEL DE 7 SEGUNDOS (vídeo mudo, conteúdo na legenda)
-Variante que inverte onde mora a informação: o vídeo (até 7s, sem fala, cena cotidiana comum, tomando café, mexendo com o cachorro, trabalhando, embalando pedido, sem olhar pra câmera) é só o gancho visual, e o conteúdo inteiro vai pra legenda (1000-1500 caracteres, escrita por esta skill e passando pelo gate normal do Passo 5, mesmo sem fala no vídeo). Por cima do vídeo entra um título de curiosidade que empurra pra legenda (modelo: "e eu que descobri o método para alcançar X objetivo"), o TEXTO NA TELA do Passo 2 fazendo esse trabalho sozinho, já que aqui não há FALAR nem MOSTRAR carregando gancho. Ritmo: 1-2 posts por dia. Compatível com MODO ALCANCE (gancho amplo, o filtro mora na legenda). **Nota de automação:** o formato é esteira: biblioteca de cenas cotidianas reaproveitável + títulos de curiosidade do banco de headlines + legenda gerada por esta skill formam um pipeline automatizável (cena + título + legenda), sem depender de roteiro falado novo a cada peça.
-Lastro (benchmark 2026, tecnica conhecida como "Read Caption"): o intervalo de decisao do viewer e exatamente 5-7s; reel curto tem 68% de completion vs 48% do longo, e completion e o sinal que o algoritmo mais premia; 75% assistem no mudo. Legenda com pergunta/CTA puxa comentario e amplia distribuicao.
+Variante que inverte onde mora a informação: o vídeo (de 5 a 15s, sem fala, cena cotidiana que o público reconhece como a dele, tomando café, mexendo com o cachorro, trabalhando, embalando pedido, sem olhar pra câmera) é só o gancho visual, e o conteúdo inteiro vai pra legenda (1000-1500 caracteres, escrita por esta skill e passando pelo gate normal do Passo 5, mesmo sem fala no vídeo). Por cima do vídeo entra UMA frase, de curiosidade que empurra pra legenda (modelo: "e eu que descobri o método para alcançar X objetivo") ou de reconhecimento, numa das mecânicas de gancho do Passo 2 (POV, "quando eu...", verdade incômoda), o TEXTO NA TELA do Passo 2 fazendo esse trabalho sozinho, já que aqui não há FALAR nem MOSTRAR carregando gancho. Ritmo: 1-2 posts por dia. Compatível com MODO ALCANCE (gancho amplo, o filtro mora na legenda). **Nota de automação:** o formato é esteira: biblioteca de cenas cotidianas reaproveitável + títulos de curiosidade do banco de headlines + legenda gerada por esta skill formam um pipeline automatizável (cena + título + legenda), sem depender de roteiro falado novo a cada peça.
+Lastro (benchmark 2026, tecnica conhecida como "Read Caption"): o intervalo de decisao do viewer e exatamente 5-7s; reel curto tem 68% de completion vs 48% do longo, e completion e o sinal que o algoritmo mais premia; 75% assistem no mudo. Legenda com pergunta/CTA puxa comentario e amplia distribuicao. Referência de mercado medida em 373 reels (recorte dos 191 do último ano): mediana de 4.431 plays de 8 a 15s, 3.134 até 8s e 1.935 de 30 a 60s.
 
 ## Passo 3, desenvolve pela espinha ADMA (na duração da camada)
 A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a próxima. **A tensão não relaxa.** Se o leitor consegue prever a próxima frase, ele pula. A tensão é o que segura, não a informação. Mostra o **diagnóstico**, nunca o passo a passo executável (passo a passo vira aula grátis e não vira venda).
@@ -164,11 +166,13 @@ A mesma espinha do carrossel, comprimida no tempo do vídeo. Cada frase abre a p
 | **Virada** | Nova oportunidade | a virada de interpretação, existe um caminho diferente |
 | **Fechamento** | Mecanismo + Convite | aponta pro método (função, não execução) + CTA com destino |
 
-Duração POR CAMADA (benchmark de retenção 2026: faixa ótima 30-60s; abaixo de 30s tem o maior engajamento): TOPO/alcance 15-40s · FUNDO/aquecer 60-90s. Passar de 90s só quando a tese exigir e cada bloco segurar sozinho. Quando for impulsionar, testa o corte 30-45s contra a versão longa antes de escalar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese.
+Duração POR CAMADA (benchmark de retenção 2026: faixa ótima 30-60s; abaixo de 30s tem o maior engajamento): TOPO/alcance 15-40s, ou 5-15s de vídeo no formato de 7 segundos, com a espinha na legenda · FUNDO/aquecer 60-90s. Passar de 90s só quando a tese exigir e cada bloco segurar sozinho. Quando for impulsionar, testa o corte 30-45s contra a versão longa antes de escalar. Polariza (toma lado, gancho que polariza exige corpo que sustenta). Carrega **moeda social** (≥2 de: valor prático, identificação, opinião forte, argumentação, notícia, história, prova, fato curioso). Sempre aponta pro método ou faz seeding da tese.
 
 **Depois do gancho, o conteúdo precisa ser NOTÁVEL** (`references/metodo-reel.md` 7.5): (1) algo NOVO, um ângulo que quase ninguém falou (se a pessoa prevê a próxima frase, ela pula); (2) baixo carregamento cognitivo, explica como pra criança, termo técnico só com tradução fácil em seguida; (3) sem encher linguiça, curto não raso, zero introdução antes de entrar no conteúdo.
 
 Os 6 roteiros-modelo (decisão contraintuitiva · erro que custou caro · bastidor · contraste de resultado · crença errada · caso real) estão em `references/roteiros-modelo.md`, profundidade opcional, clona e adapta, nunca copia cru.
+
+**Modelo curto de alcance (opção):** para um reel de topo de 15 a 35 s, o dono pode seguir o Problema (3 crenças) ou o Cenário (3 objeções) de `references/modelo-problema-cenario.md`: gancho, 3 camadas de intensificação, introdução da solução e CTA por palavra, mais a camada visual barata (legenda, corte a cada 4 a 6 s, cartela no frame 1). É hipótese a testar, com plano de teste no próprio arquivo; a espinha ADMA acima segue sendo o modelo longo.
 
 **A coluna MOSTRAR é instrução, não sugestão.** Cada célula abre com substantivo concreto e verbo executável ("caneta circulando o número 12 no calendário"), nunca com hedge ("sugestão de cena", "talvez um close", "algo como um gráfico", "se possível, mostrar"). Quem lê a célula tem que saber o que apontar a câmera pra fazer, sem decidir nada. **Checagem colada antes de fechar: `grep -c 'ugest\|talvez\|algo como\|se possível' <peça>` tem que devolver 0.** Saída diferente de zero manda a célula de volta pra reescrita.
 
@@ -182,6 +186,8 @@ grep -rn 'manda \|comenta \|envia \|digita ' <pasta de insumos>
 ```
 
 A pasta é a de insumos inteira (transcrição, call, caixa de entrada, site), nunca só o arquivo de perfil. A palavra vem dali com a grafia EXATA, sem espaço a mais nem a menos: "BASE", "BASE 40" e "BASE40" são três palavras diferentes pra quem digita e pra automação que responde. A linha `palavra-chave: <literal> | origem: <arquivo:linha>` é obrigatória na peça. **Sem saída no grep, o CTA sai SEM palavra** ("me chama no Direct e eu te mando"), nunca com uma escolhida pelo tema, e a pergunta vai pro handoff. Dado que existe no disco nunca vira marcador nem palavra inventada.
+
+**Com palavra na saída do grep, o CTA pede UMA palavra em troca de uma isca com número, numa frase só, e a palavra é a mesma de reel em reel**, nunca uma nova por tema; se o grep devolver mais de uma, fica a que já fecha as peças anteriores. Forma, com a palavra que o grep devolveu: "comenta <PALAVRA> que eu te mando as 3 telas do relógio que eu confiro depois do treino leve". Referência de mercado medida em 373 reels: reel com palavra teve mediana de 24,5 comentários, contra 2 sem palavra, e a mesma palavra fechou 23 dos 26 reels que tinham uma. A entrega da isca segue a checagem de automação do perfil: sem automação, o dono responde no Direct e o CTA não promete robô.
 
 ## Passo 5, roda o GATE por dentro (auditoria interna, NÃO imprime)
 
@@ -216,8 +222,8 @@ Roda o gate no roteiro **internamente** (auditoria silenciosa). Só roteiro com 
 | **3 tipos de gancho** | usa Falar/Mostrar/Texto na tela quando útil (ao menos 1 marcado; ideal os 3 em conflito) | |
 | **Tensão contínua** | a tensão NÃO relaxa no meio; em nenhum ponto o leitor prevê a próxima frase (se prevê, ele pula) | |
 | **Lo-fi** | gancho + ideia carregam a peça, sem depender de câmera/edição cara; gravável em minutos | |
-| **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida na duração da camada (topo 15-40s, fundo 60-90s); mostra função, nunca passo a passo | |
-| **CTA com destino** | termina com próximo passo real do funil (salvar/comentar/manda/carrossel/isca), não solto | |
+| **Espinha ADMA** | Atenção → Diagnóstico → Mecanismo → Ação visível e comprimida na duração da camada (topo 15-40s, ou 5-15s de vídeo no formato de 7 segundos com a espinha na legenda; fundo 60-90s); mostra função, nunca passo a passo | |
+| **CTA com destino** | termina com próximo passo real do funil (salvar/comentar/manda/carrossel/isca), não solto; com palavra no grep, pede UMA palavra, a mesma das peças anteriores, em troca de isca com número | |
 | **As 3 perguntas, dá pra ver?** | fecha o olho e enxerga a cena. ✗ "tenha mais clareza" · ✓ "a recepcionista diz: semana que vem enche" | |
 | **As 3 perguntas, dá pra falsificar?** | é fato falsificável, não adjetivo | |
 | **As 3 perguntas, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
@@ -283,6 +289,7 @@ Esta skill escreve o ROTEIRO e para aí. Em toda rota abaixo, se a skill de dest
 | Pediu câmera/edição cara | Lo-fi: gancho e ideia carregam; gravável em minutos |
 | Impôs como gravar ou aparecer | Sugestão, não obrigação; a pessoa grava do jeito dela, a skill garante o roteiro |
 | CTA solto ("siga pra mais") | CTA com destino real do funil (salvar/comentar/manda/carrossel/isca) |
+| Reel de topo com conselho genérico falado ("N dicas", "se você está começando") | Lista de objetos concretos fechando na palavra do CTA, ou o formato de 7 segundos com uma frase na tela |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou 5 reels de uma vez | 1 por vez com gate; lote só sob comando "lote de [tema]" |
 | Narrou o fluxo ("agora vou pro passo X") | Não narra: executa em silêncio e entrega só o roteiro limpo, sem a tabela do gate |
@@ -292,6 +299,7 @@ Esta skill escreve o ROTEIRO e para aí. Em toda rota abaixo, se a skill de dest
 - `shared-references/crivo/07-regua-de-titulos.md`: **a régua de títulos** (as 7 regras que decidem se um título existe: teste do enunciado, proibição do título que só descreve, teses contadas, inimigo ou inversão, cota de antítese, crivo clínico e regulado, assinatura de copywriter), mais o gatilho nomeado, a contagem física e as 3 melhores marcadas.
 - `references/EXEMPLO-FIM-A-FIM.md`: o caso fictício de ponta a ponta (a entrada do dono, as perguntas feitas e a saída real de cada ação). **Leia antes da primeira pergunta.**
 - `references/roteiros-modelo.md`: os 6 roteiros de reel escritos por inteiro (fala + marcação de tempo + edição) pra clonar e adaptar ao nicho.
+- `references/modelo-problema-cenario.md`: o modelo curto de alcance (Problema com 3 crenças ou Cenário com 3 objeções), o sistema visual em 3 níveis e o plano de teste. Hipótese a testar, marca-neutra.
 - `references/roteiros-modelo-gringos.md`: 49 estruturas de roteiro modeladas de material externo (04/08/2026, marca-neutra), rodízio de forma pra clonar a ESTRUTURA e preencher com o território do avatar; nunca copia o exemplo, todo roteiro gerado passa pelo gate do Passo 5.
 - `references/producao-em-lote.md`: template de sessão, rotinas por tipo de reel, calendário por objetivo, sessão-modelo completa (pro comando "lote de [tema]").
 - `references/anti-padroes.md`: os anti-padrões do reel com pares errado→certo escritos por extenso.

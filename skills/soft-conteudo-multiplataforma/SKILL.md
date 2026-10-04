@@ -72,6 +72,8 @@ Onde esta skill precisa de voz, avatar, mecanismo, campo semântico ou prova: **
 
 **O CTA é o papel que MAIS muda entre plataformas, e a palavra-chave quase nunca sobrevive.** Pra cada destino, escreva no mapa dos 5 papéis: `mecânica do CTA na âncora: <qual> · existe nesta plataforma? sim/não · o dono tem a automação que ela exige? sim/não · CTA adaptado: <literal>`. Comentário-para-direct com palavra-chave só sobrevive onde há automação declarada no perfil do dono; sem ela, o CTA vira a ação nativa da plataforma (no LinkedIn, responder ao post ou mandar mensagem; no e-mail, responder a mensagem; na newsletter, o link). Copiar a palavra-chave de uma plataforma pra outra sem essa linha reprova a adaptação, porque manda o leitor digitar uma palavra que ninguém do outro lado está esperando.
 
+**A palavra que viaja segue a referência única de CTA, `shared-references/cta/`** (comece por `cta-01-tipos-e-lugar.md`): uma palavra principal por perfil, palavra de material só com automação própria registrada no perfil, e todo CTA com palavra ou direct diz o que a pessoa recebe.
+
 **E a palavra-chave em si não se inventa: quem confere é o script.** Rode, antes de mostrar qualquer peça:
 
 ```

@@ -1,0 +1,44 @@
+<!-- RECEITA numero-radar (guia: regra 6, "um círculo grande pro líder e pontinhos pros outros")
+O que faz: a proporção vira um campo de pontinhos; o ponto que importa é grande e na cor de destaque.
+Adapte: data-pontos = quantos pontinhos (a outra parte da proporção, do roteiro); o rótulo do ponto grande
+e a frase são do roteiro. Bom pra "1 em [N]", "[N]% do mercado", "você contra [N] concorrentes".
+Nunca: número de pontos que o roteiro não dá. -->
+<section class="slide escuro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.txt { position: absolute; left: 140px; top: 0; bottom: 0; width: 760px; display: flex; flex-direction: column; justify-content: center; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); }
+.frase { font-size: 84px; line-height: 1.05; font-weight: 800; letter-spacing: -2px; margin-top: 28px; }
+.apoio { font-size: 40px; line-height: 1.25; color: var(--dim); margin-top: 36px; }
+.radar { position: absolute; right: 120px; top: 90px; width: 900px; height: 900px; }
+.legenda { position: absolute; right: 120px; bottom: 60px; width: 900px; text-align: center; font-size: 32px; font-weight: 700; color: var(--dest); }
+</style>
+<div class="txt">
+  <div class="rot">{{ROTULO_CURTO}}</div>
+  <div class="frase">{{FRASE_CURTA}}</div>
+  <div class="apoio" data-click="1">{{APOIO}}</div>
+</div>
+<svg class="radar" viewBox="0 0 900 900" data-pontos="{{PONTOS}}" aria-hidden="true">
+  <circle cx="450" cy="450" r="430" fill="none" stroke="var(--linha)" stroke-width="2"/>
+  <circle cx="450" cy="450" r="290" fill="none" stroke="var(--linha)" stroke-width="2"/>
+  <circle cx="450" cy="450" r="150" fill="none" stroke="var(--linha)" stroke-width="2"/>
+  <g class="pts"></g>
+  <circle cx="450" cy="450" r="70" fill="var(--dest)"/>
+</svg>
+<div class="legenda">{{ROTULO_DO_PONTO_GRANDE}}</div>
+<script>
+(function () {
+  const s = document.currentScript.previousElementSibling.previousElementSibling, g = s.querySelector('.pts');
+  const n = +s.dataset.pontos, ouro = Math.PI * (3 - Math.sqrt(5));
+  let h = '';
+  for (let i = 0; i < n; i++) {
+    const r = 120 + 300 * Math.sqrt((i + 0.5) / n), a = i * ouro;
+    h += `<circle cx="${(450 + r * Math.cos(a)).toFixed(1)}" cy="${(450 + r * Math.sin(a)).toFixed(1)}" r="${n > 400 ? 5 : 9}" fill="var(--dim)"/>`;
+  }
+  g.innerHTML = h;
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

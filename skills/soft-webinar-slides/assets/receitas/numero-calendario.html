@@ -1,0 +1,53 @@
+<!-- RECEITA numero-calendario (guia: regra 6, número vira imagem; "o calendário com X")
+O que faz: o custo que se repete vira uma grade de dias ou meses, e o X entra por clique em cada um.
+Adapte: data-total = quantas células (dias do mês, meses do ano) e data-marcados = quantas levam X,
+os dois do roteiro; data-rotulos = nomes curtos das células separados por vírgula (vazio = só número).
+O número grande e a unidade são os do roteiro, com o rótulo exato. Sem o número no roteiro, o slide não usa esta receita.
+Nunca: inventar o número de células marcadas pra "ficar bonito". -->
+<section class="slide claro" data-nome="{{NOME}}" data-bloco="{{BLOCO}}">
+<style>
+.quadro { position: absolute; inset: 100px 140px; display: flex; align-items: center; gap: 90px; }
+.lado { flex: 0 0 640px; }
+.rot { font-size: 32px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--dim); }
+.num { font-size: 180px; font-weight: 800; letter-spacing: -6px; line-height: 1; color: var(--dest); margin-top: 26px; }
+.uni { font-size: 54px; font-weight: 800; line-height: 1.1; margin-top: 12px; }
+.frase { font-size: 42px; line-height: 1.25; color: var(--dim); margin-top: 40px; }
+.cal { flex: 1; display: grid; gap: 16px; }
+.cel { position: relative; border: 3px solid var(--linha); border-radius: 14px; background: var(--bg); display: flex; align-items: flex-end; padding: 10px 14px; font-size: 30px; font-weight: 700; color: var(--dim); }
+.cel svg { position: absolute; left: 50%; top: 10%; height: 62%; transform: translateX(-50%); }
+.cel.marcada { background: var(--suave); }
+</style>
+<div class="quadro">
+<div class="lado">
+  <div class="rot">{{ROTULO_CURTO}}</div>
+  <div class="num">{{NUMERO}}</div>
+  <div class="uni">{{UNIDADE}}</div>
+  <div class="frase">{{FRASE_CURTA}}</div>
+</div>
+<div class="cal" data-total="{{TOTAL_CELULAS}}" data-marcados="{{QUANTAS_COM_X}}" data-rotulos="{{ROTULOS}}" data-clique="1"></div>
+</div>
+<script>
+(function () {
+  const c = document.currentScript.previousElementSibling.querySelector('.cal');
+  const total = +c.dataset.total, marc = +c.dataset.marcados, rot = (c.dataset.rotulos || '').split(',').map(x => x.trim());
+  const cols = total > 12 ? 7 : (total > 6 ? 4 : total), linhas = Math.ceil(total / cols);
+  c.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+  const alt = Math.min(250, Math.floor((840 - (linhas - 1) * 16) / linhas));
+  for (let i = 0; i < total; i++) {
+    const d = document.createElement('div'); d.className = 'cel'; d.style.height = alt + 'px';
+    d.textContent = rot[i] || String(i + 1);
+    if (i < marc) {
+      const x = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      d.classList.add('marcada'); x.setAttribute('viewBox', '0 0 100 100'); x.setAttribute('class', 'reveal'); x.dataset.click = c.dataset.clique; x.dataset.fx = 'aparecer';
+      x.innerHTML = '<path d="M14 14 L86 86 M86 14 L14 86" stroke="var(--ink)" stroke-width="12" stroke-linecap="round"/>';
+      d.appendChild(x);
+    }
+    c.appendChild(d);
+  }
+})();
+</script>
+<aside class="notes">Objetivo: {{OBJETIVO}}
+Abre com: {{ABRE_COM}}
+Clique 1: {{FALA_CLIQUE_1}}
+Fecha com: {{FECHA_COM}}</aside>
+</section>

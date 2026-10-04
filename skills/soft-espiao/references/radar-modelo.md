@@ -11,7 +11,7 @@ Lida no passo R7 da Ação 1 e no fim da Ação 2. O Radar é o que o dono lê; 
    - os sinais, com número (`9 cópias · 3 páginas · 4 versões · 41 dias · 4 pontos`);
    - técnica ou personalidade;
    - por que funciona, em 1 frase (o princípio, sem citar o texto dele).
-4. **O padrão que se repete.** O que aparece em 2 anunciantes ou mais: ângulo, formato, tipo de gancho, tipo de oferta, destino do clique. Se nada se repete, diga isso.
+4. **O padrão que se repete.** O que aparece em 2 anunciantes ou mais: ângulo, formato, tipo de gancho, tipo de oferta, destino do clique. Se nada se repete, diga isso. Quando o R4b rodou, acrescente a contagem dos tipos de gancho entre os anúncios `vendendo`, a especificidade mais comum e quantos têm resultado e prova, com o aviso de que construção forte é padrão de montagem, não prova de venda.
 5. **A linguagem do público.** Palavras e expressões do comprador que apareceram nos anúncios e nos comentários, entre aspas, com onde apareceram. Serve de matéria-prima pro dono, que escreve a própria frase a partir delas.
 6. **Formato de fora do nicho** (quando o passo R6 rodou): o viral, o elemento que os comentários elogiam e como ele entraria no anúncio do dono.
 7. **O que o dono modela primeiro.** 1 a 3 escolhas, cada uma com o nível de modelagem e o motivo. Se o dono já quer o brief, ele sai em arquivo à parte pela Ação 4.

@@ -118,7 +118,7 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 **Como escolher (router):** olha o TEMA + a INTENÇÃO da peça e recomenda **2 formatos** que encaixam, com 1 linha de razão cada. O dono decide. Nunca cravar 1 sozinho, sempre 2 pra ele escolher (formato é decisão editorial que muda a peça inteira). **Ensina enquanto escolhe (parte 2 da condução):** a linha de razão de cada formato ensina o dono a decidir sozinho na próxima. Exemplo do tom: "Recomendo Problema Solução porque o tema tem dor real e você tem prova pra sustentar; Lista alcança mais, mas ensina menos." Vale pra toda escolha estrutural desta skill (formato, ângulo, gatilho, CTA): uma linha do porquê acompanha a escolha no chat, na hora de decidir.
 
 **Duas regras duras que valem em TODOS os formatos:**
-1. **CTA canônico obrigatório.** O slide final sempre reconecta a peça ao método do dono e usa a estrutura fixa do Passo 3: mini-headline + 3 benefícios concretos + palavra-chave. A palavra-chave é **do dono**: use a que ele definiu no onboarding (ou a que estiver no Plano de Posicionamento, se existir). Se não houver nenhuma definida, proponha 2 ou 3 candidatas curtas tiradas do nome do método, da oferta ou do resultado, e peça pra ele cravar UMA antes de fechar a peça. Nunca CTA improvisado, nunca sem destino.
+1. **CTA canônico obrigatório.** O penúltimo slide faz a ponte do conteúdo para a ferramenta do método do dono e o slide final é o CTA de uma frase do Passo 3: comenta PALAVRA em troca de uma isca-ferramenta com número. A palavra-chave é **do dono**: use a que ele definiu no onboarding (ou a que estiver no Plano de Posicionamento, se existir). Se não houver nenhuma definida, proponha 2 ou 3 candidatas curtas tiradas do nome do método, da oferta ou do resultado, e peça pra ele cravar UMA antes de fechar a peça. Nunca CTA improvisado, nunca sem destino.
 2. **Slides livres.** Número de slides varia por formato (2 no Promessa+CTA, 5-10 nos outros). NÃO forçar 10 slides quando o formato pede menos.
 
 ### Formato 1, Problema Solução
@@ -130,7 +130,7 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 
 ### Formato 2, Lista
 **Quando escolher:** tema que naturalmente se organiza em itens ("N sinais de", "N erros que", "N coisas que"). Ótimo pra alcance e salvar.
-**Espinha (6-9 slides):** capa (headline lista: "5 sinais de que...") · 1 item por slide (cada item é micro-diagnóstico ancorado em cena) · penúltimo slide vira a chave (o padrão que os itens revelam) · último slide CTA canônico.
+**Espinha (6-9 slides):** capa (headline lista: "5 sinais de que...") · 1 item por slide (cada item é micro-diagnóstico ancorado em cena) · penúltimo slide vira a chave (o padrão que os itens revelam) e faz a ponte para a ferramenta do método que resolve esse padrão · último slide CTA canônico.
 **Exemplo de capa (nicho fictício, consultoria financeira):** *"5 sinais de que o teu controle de caixa é só uma planilha bonita."*
 **Erro clássico:** itens virarem lista genérica de conselho ("seja mais consistente"); vira "listículo" sem tese.
 **Regra do formato:** cada item se explica sozinho E aponta pra mesma tese-mãe. Nunca listar 5 coisas desconexas.
@@ -151,7 +151,7 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 
 ### Formato 5, Promessa + CTA (dois slides)
 **Quando escolher:** manter presença sem produzir demais; tema que morre esticado; capa forte que já entrega a virada.
-**Espinha (2 slides):** slide 1 = promessa/virada completa (não é capa que abre loop, é capa que ENTREGA a tese) · slide 2 = CTA canônico com mini-headline + 3 benefícios + palavra-chave.
+**Espinha (2 slides):** slide 1 = promessa/virada completa (não é capa que abre loop, é capa que ENTREGA a tese) · slide 2 = CTA canônico de uma frase (palavra-chave + isca-ferramenta com número).
 **Exemplo de capa (nicho fictício, consultoria financeira):** *"Sábado 14h, parque com a família, o caixa da empresa fechado desde quinta."*
 **Erro clássico:** slide 1 curto demais que não entrega nada; sem contexto do resultado, vira frase de motivação.
 **Regra do formato:** o slide 1 tem que sustentar a peça INTEIRA sozinho. Se depende do slide 2 pra fazer sentido, virou capa órfã.
@@ -169,7 +169,7 @@ Antes de montar o mapa de densidade (Passo 1), decide o FORMATO do carrossel. S�
 1. **Capa-gancho**: UMA frase + UMA palavra em destaque. Sem parágrafo, sem explicação. Parou o dedo em 1 segundo ou não parou. **Regra de esforço: a capa vale mais que os slides 2-8 somados** (a maioria capricha no conteúdo e improvisa a capa; inverta).
 2. **Promessa**: o que a pessoa LEVA se continuar ("nos próximos slides, o [X] pra você [resultado]"). É o que faz o dedo avançar.
 3-6. **Passos**: UMA ideia por slide, regra dura (título curto + até 2 linhas; se precisa de parágrafo, são 2 slides). Cada passo com CENA real.
-7. **O DADO**: um número que sustenta a tese, com a fonte embaixo. É o slide que transforma "opinião de internet" em "isso é sério" e é o que mais gera save.
+7. **O DADO + ponte**: um número que sustenta a tese, com a fonte embaixo. É o slide que transforma "opinião de internet" em "isso é sério" e é o que mais gera save. Fecha com a linha que liga o dado à ferramenta do método.
 8. **CTA canônico** de comentário com palavra-senha (forma 2 do Passo 3): comentário e direct são funil E ranqueamento.
 **Capa: parte de um dos 5 moldes** (todos casam com a régua de títulos; use a headline do Passo 0): número+promessa · o erro ("você faz [X] errado, levei [tempo] pra descobrir") · o roubo/insider ("roube o [sistema] que eu uso pra [resultado]") · antes→depois sem a objeção comum · a pergunta que dói.
 **Métrica da peça:** responda "por que alguém salvaria isto pra depois?". Sem resposta = falta o slide do dado ou falta utilidade de verdade.
@@ -205,7 +205,7 @@ A Fórmula 7 são **7 movimentos** distribuídos nos **7 a 10 slides**. Moviment
 | 4 | **Vilão** | 5 | Nomeia o inimigo (o sistema/a prática), nunca o leitor. Tira a culpa dele. |
 | 5 | **Nova Oportunidade** | 6 | Mostra que existe um caminho diferente. A virada. |
 | 6 | **Mecanismo** | 7 e 8 | O método como veículo. Mostra a **FUNÇÃO**, nunca o passo a passo executável. |
-| 7 | **Convite** | 9 e 10 | Caso/prova concreta + CTA que convida, não empurra. |
+| 7 | **Convite** | 9 e 10 | Penúltimo: caso/prova concreta que faz a ponte para a ferramenta do método. Último: o CTA de uma frase, que convida, não empurra. |
 
 Os dois pontos onde o carrossel morre:
 - **Slide 2 que responde a capa.** Não responde. O slide 2 aprofunda o loop, é onde a maioria mata a peça reembalando a capa com sinônimo. Vai mais fundo.
@@ -221,7 +221,7 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 **Repertório tático por papel (puxa de `references/estrutura-peca.md`).** O arco da Fórmula 7 dá a ordem; a `estrutura-peca` dá as FORMAS de aterrar cada papel: escolhe **1 por papel**, nunca despeja todas:
 - **Contexto (slide 3):** 1 das 7 formas: Cena Filmada · Dia Padrão · Conselho Falido · Número Próprio · Diálogo Interno · Paradoxo Observável · Contraste com Personagem. Nunca preâmbulo didático ("antes de entrar no método...") nem currículo.
 - **Conteúdo (slides 7-8):** 1 das 7 formas: Contraste Emparelhado · Reframe · Casos Empilhados · Linha do Tempo Numérica · Nome-Número-Condição · Bastidor Crítico · Declaração+Sustentação. Sempre em contraste mercado×método.
-- **CTA (slide final):** a forma pode variar entre Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S., mas a estrutura fixa continua obrigatória: mini-headline + 3 benefícios + palavra-chave. Ticket R$3k+ pede Filtro Duro.
+- **CTA (slide final):** a forma pode variar entre Direct com palavra-senha · Comentário · Siga com razão · Batida Emocional · Filtro Duro · Convite Específico · P.S., mas a estrutura fixa continua obrigatória: ponte no penúltimo slide e, no último, uma frase com a palavra-chave e a isca-ferramenta com número. Ticket R$3k+ pede Filtro Duro.
 
 **Faca Soft (teste antes de fechar cada slide de método):** *"se eu publicar isso, aumenta ou diminui o motivo de comprar o produto?"* Aumenta → fica. Diminui → corta. Dá o tijolo, nunca a planta da casa. (O exemplo card-a-card completo está em `references/06-carrossel.md` 6.7; modela, não copia.)
 
@@ -229,13 +229,19 @@ Escreve cada slide, **uma ideia por slide**, muito espaço, cada slide fechando 
 
 A **capa abre largo** (palavra do imaginário coletivo, pra não expulsar) e o corpo **nicha do meio pro fim** (onde aprofunda e filtra).
 
-**Estrutura fixa do slide final:**
+**Estrutura fixa do fim (penúltimo e último slide):**
 
-1. **Mini-headline:** fecha a tese do carrossel e traz o leitor de volta ao método do dono.
-2. **3 benefícios concretos:** três tópicos curtos que mostram o que o leitor passa a entender, comandar ou executar ao conhecer o método. Benefício não é nome de módulo nem promessa inventada.
-3. **CTA com palavra-chave:** convite aberto para entender melhor o método. Usa uma única palavra-chave, a que o dono definiu (onboarding ou Plano de Posicionamento). Se ele tiver mais de uma no banco dele, escolhe a que casa com o ângulo da peça; se não tiver nenhuma, propõe 2 ou 3 e espera ele cravar.
+1. **Ponte, no penúltimo slide:** fecha a tese e liga o conteúdo à ferramenta do método do dono, dizendo o que ela faz pelo leitor. É este slide que reconecta a peça ao método. Na referência de mercado medida em 450 posts, o carrossel com essa ponte antes do CTA chegou a 4.668 comentários. No Formato 5, o slide 1 entrega a tese e o slide 2 já é o CTA.
+2. **CTA numa frase só, no último slide:** "comenta PALAVRA" em troca de uma isca-ferramenta com número (quantidade ou ganho), com a palavra destacada (caixa alta no texto, cor na arte). Sem mini-headline e sem lista de benefícios: na mesma referência, o carrossel com palavra-chave teve mediana de 119 comentários contra 7,5 sem ela (n=221 e 58), e o CTA vencedor era essa frase única. A ressalva do crivo clínico, quando cair neste slide, vem numa linha à parte, abaixo da frase. Exemplo fictício: "Comenta **ENVELOPES** que eu te mando a planilha dos 3 envelopes com as 12 categorias de gasto da clínica já separadas."
+3. **Palavra e isca principais, sempre as mesmas:** usa uma única palavra-chave, a principal do dono (onboarding ou Plano de Posicionamento), e a isca principal dele, repetidas post após post até virarem marca (na referência, a palavra principal esteve em 124 carrosséis, com mediana de 116,5 comentários). Palavra nova só se o dono pedir. Se ele tiver mais de uma no banco, usa a principal; se não tiver nenhuma, propõe 2 ou 3 e espera ele cravar.
 
-O CTA não depende de checklist, isca ou material criado só para justificar o comentário. Também não manda o leitor diagnosticar o próprio problema. O destino é sempre o método do dono: entender como funciona, assistir ao material que ele já tem no ar ou conhecer a oferta dele. Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
+A isca é uma ferramenta que já existe no método do dono (planilha, modelo, agente, banco de exemplos), e o número sai do insumo dele. Nunca material criado só para justificar o comentário, nunca número inventado: sem ferramenta com número nos insumos, a frase sai na versão sem número ("comenta ENVELOPES que eu te mando a planilha") e a pergunta vai pro handoff. O CTA também não manda o leitor diagnosticar o próprio problema. O destino continua sendo o método do dono: a isca é a porta de entrada dele. Nunca termina só na consequência. Nunca CTA cafona. **Não narra o fluxo** ("agora vou o slide 5"), só entrega a copy limpa.
+
+**Slide de pausa (opcional, carrossel de 6 slides ou mais):** um slide no meio, com o fundo invertido, que pede curtida ou seguir e diz quanto falta. Exemplo: "Pausa rápida: se isso já te serviu, curte e me segue. Faltam 3 sinais." É a única exceção à regra de cada slide fechar numa conclusão e não conta como tese no mapa de densidade. Na referência de mercado, ele aparece em 6 dos 14 carrosséis-isca do top 20 e em nenhum dos piores, mas o efeito isolado não foi medido.
+
+**Legenda do post:** uma linha só, que repete o tema ou o CTA, com até 100 caracteres e sem hashtag. Na referência, a legenda de até 100 caracteres teve mediana de 756 interações contra 344,5 na faixa de 100 a 300, e os posts com hashtag ficaram em 8. O conteúdo mora no slide. A ressalva de nicho do crivo clínico, quando for pra legenda, ocupa a segunda linha.
+
+**Reciclagem do vencedor:** o carrossel que performou volta de 2 a 8 semanas depois, com o número maior, 1 slide a mais e a capa mais forte. Na referência, um vencedor saiu em 3 versões e outro em 2, e as 5 ficaram no top 20.
 
 > Se existe skill de voz destilada do cliente, consulta ela antes de escrever: pilares, bordões e anti-valores são a fonte do tom.
 
@@ -279,18 +285,18 @@ Roda o gate no carrossel inteiro **internamente** (auditoria silenciosa). Só ca
 | **Densidade** | o mapa do Passo 1 fecha **≥6 teses DISTINTAS** em ~10 slides; duas teses iguais com roupa nova = ✗ (funde e corta) | |
 | **Slide 2 abre loop** | o slide 2 vai MAIS FUNDO que a capa ("tem uma coisa pior"); **não responde nem reembala a capa = ✗** | |
 | **Mecanismo = função** | slides 7-8 mostram a FUNÇÃO do método; **qualquer passo a passo executável = ✗** | |
-| **Espinha Fórmula 7 / ADMA** | os 7 movimentos estão na ordem; começa em alta polaridade; cada slide fecha numa conclusão ancorada (nenhum só prepara o próximo) | |
+| **Espinha Fórmula 7 / ADMA** | os 7 movimentos estão na ordem; começa em alta polaridade; cada slide fecha numa conclusão ancorada (nenhum só prepara o próximo; o slide de pausa do Passo 3 é a exceção) | |
 | **Confuso (C)** | dá pra ler cada slide sem reler; uma ideia por slide; zero abstração que não vira imagem | |
 | **Inacreditável (U)** | nenhuma promessa que o leitor não engole; prova ancorada onde afirma resultado | |
 | **Chato (B)** | nenhum slide morno/educativo neutro; polariza, mexe na crença ou na cena, não só informa | |
 | **As 3 perguntas, dá pra ver?** | o diagnóstico fecha o olho e vira cena. ✗ "tenha mais clareza" · ✓ "a call de 1h vira 40 min de desabafo e um 'vou pensar'" | |
 | **As 3 perguntas, dá pra falsificar?** | as afirmações são fatos falsificáveis, não adjetivos | |
 | **As 3 perguntas, só você diz?** | o concorrente direto não assina igual (cena/mecanismo proprietário, não promessa banal do nicho) | |
-| **CTA aponta ao método** | slide final tem mini-headline que reconecta ao método + exatamente 3 benefícios concretos + uma palavra-chave. A palavra-chave tem que ser a que o dono definiu (ou uma das candidatas que ele aprovou), nunca inventada na hora. CTA sem qualquer uma dessas quatro partes = ✗ | |
+| **CTA aponta ao método** | o penúltimo slide faz a ponte para a ferramenta do método; o slide final é uma frase só, com a palavra-chave destacada e a isca-ferramenta com número tirado do insumo (sem número no insumo, a versão sem número, com a pergunta no handoff). A palavra-chave tem que ser a principal do dono (ou uma das candidatas que ele aprovou), nunca inventada na hora. Sem ponte, sem palavra (fora o grep vazio do "Sem palavra-chave do CTA", que sai sem palavra e leva a pergunta ao handoff), com número inventado, ou com mini-headline e lista de benefícios no lugar da frase = ✗ | |
 | **Aponta pro método** | a peça aponta pro método ou faz seeding da tese; **jornalismo neutro ("5 fatos sobre X") = ✗** | |
 | **Crivo clínico e regulado** | slide que responda "sim / não / pode" sobre condição de saúde nomeada (hérnia, artrose, lesão, gravidez, cirurgia, diabetes, depressão), ou que prometa resultado de saúde, corpo, emagrecimento, cura ou ganho financeiro, só passa **com a ressalva que o nicho pede no próprio slide** (CREF pra treino, CRN pra nutrição, CRM pra saúde, CRP pra psicologia, CFC e CVM pra finanças, OAB pra jurídico; sem registro declarado pelo dono, ressalva de avaliação individual) **e só com prova daquela condição no banco de provas do dono**. Sem prova da condição, a pergunta do cliente vira convite pra conversa, nunca resposta afirmativa. Checagem contada: `slides com afirmação de saúde ou dinheiro: N · com ressalva: N (têm que bater)`. **A ressalva mora em UM lugar só, e não é a capa.** Ela sai numa linha própria no ÚLTIMO slide (junto do CTA) ou na legenda do post, nunca nos slides 1 e 2, e nunca mais de uma vez no carrossel inteiro: repetida em três slides ela vira ruído e some do olho de quem precisava lê-la. Quando o miolo exigir cuidado clínico, ele entra como qualificação da própria afirmação ("nesse padrão, costuma ser..."), e não como ressalva repetida. Checagem colada: `slides com ressalva: N (teto 1) · em qual slide: <N> · o slide 1 tem ressalva? não`, e "sim" na última posição reprova. | |
 | **Fecho de slide, sem figura vazia** | o último período de cada slide diz algo verificável. **Reprovam:** personificação ("o plano consegue continuar com você", "o treino não percebeu"), frase-emoldura que repete a linha de cima com outra roupa ("a prova aparece na vida que o corpo volta a permitir"), e o fecho abstrato que serviria em qualquer nicho. Checagem: leia só os fechos, em sequência, e marque o que você não diria numa mesa; qualquer um marcado reprova o slide | |
-| **Anti-IA (HARD)** | zero travessão longo · zero verbo-freio banido, a família de emperrar na forma verbal, no particípio e na forma com "des-" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma, potencializa") · sem tricolon nem contraste "não é X, é Y" repetido. **O que o lint pega e você tem que conferir item a item:** travessão longo (U+2014 e U+2013) · a família do verbo-freio · o molde "não é X, é Y" e a antítese nominal telegráfica, com teto de 1 por peça · a muleta que manda o leitor arrastar pro card seguinte, em vez de fechar a tensão no card atual · verbo de transformação genérico (revoluciona, transforma, potencializa) · frase-emoldura. Com shell, `python3 scripts/lint_copy.py` no arquivo do carrossel decide esse item; sem shell, CTRL+F manual dessa mesma lista em todos os slides antes de marcar ✓. | |
+| **Anti-IA (HARD)** | zero travessão longo · zero verbo-freio banido, a família de emperrar na forma verbal, no particípio e na forma com "des-" (exceção: aspa literal do cliente) · sem frase-emoldura ("a verdade é", "o segredo") · sem verbo-clichê ("revoluciona, transforma, potencializa") · sem tricolon nem contraste "não é X, é Y" repetido. **O que o lint pega e você tem que conferir item a item:** travessão longo (U+2014 e U+2013) · a família do verbo-freio · o molde "não é X, é Y" e a antítese nominal telegráfica, com teto de 1 por peça · a muleta que manda o leitor arrastar pro card seguinte, em vez de fechar a tensão no card atual (o slide de pausa pede curtida e diz quanto falta, sem essa muleta) · verbo de transformação genérico (revoluciona, transforma, potencializa) · frase-emoldura. Com shell, `python3 scripts/lint_copy.py` no arquivo do carrossel decide esse item; sem shell, CTRL+F manual dessa mesma lista em todos os slides antes de marcar ✓. | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA e vai pro cliente. | |
 
 ## Passo 5, confere no disco, mostra e PARA
@@ -327,7 +333,7 @@ Esta skill escreve o CORPO do carrossel e para aí. Em toda rota abaixo, se a sk
 | Mecanismo virou tutorial executável | Mostra resultado e função do método, esconde o procedimento |
 | Slide que só prepara o próximo | Cada slide fecha numa frase-conclusão ancorada |
 | Carrossel jornalístico ("5 fatos sobre X") | Costura o final apontando pro método ou faz seeding da tese |
-| Terminou sem CTA ou com CTA cafona | Slide final: mini-headline que volta ao método + 3 benefícios concretos + palavra-chave definida pelo dono |
+| Terminou sem CTA ou com CTA cafona | Penúltimo slide faz a ponte para a ferramenta do método; último: uma frase com a palavra-chave do dono destacada e a isca-ferramenta com número |
 | Inventou um número/fala "plausível" | Só número/fala REAL; sem fonte, marca `[DADO: confirmar]` e não conta como Ancorado=✓ |
 | Despejou a peça inteira sem mapa nem gate | Volta: monta o mapa de densidade e roda o gate por dentro (nenhum dos dois sai na entrega), e PARA pra escolha |
 | Narrou o fluxo ("agora o slide 5") | Não narra: produz a copy em silêncio e entrega só o carrossel limpo, sem as tabelas do gate |

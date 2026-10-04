@@ -64,16 +64,119 @@ sem a saída crua colada abaixo, número do inventário diferente do que a tabel
 devolve (`inventário redigitado`), tamanho em bytes diferente do `wc -c`
 (`bytes redigitados`), ou marcador no HTML de render (--render). Exit 0
 é a última coisa que acontece: rode depois de tudo escrito.
+
+Exit 3: a execução passou de um teto de defesa (pasta de insumos grande
+demais, tempo ou memória). Nada foi conferido; a saída diz qual teto e o que
+fazer. Os tetos têm padrão e aceitam ajuste por variável de ambiente:
+CHECAR_TITULOS_TETO_INSUMOS_MB (512, só texto: binário não conta),
+CHECAR_TITULOS_TETO_INSUMOS_ARQUIVOS (20000, só texto), CHECAR_TITULOS_TETO_SEGUNDOS
+(300) e CHECAR_TITULOS_TETO_MEMORIA_MB (2048).
 """
 import argparse
 import io
 import os
 import re
+import signal
 import subprocess
 import sys
 from pathlib import Path
 
+try:
+    import resource
+except ImportError:  # sem o módulo (fora de Unix) o teto de memória não arma
+    resource = None
+
 AQUI = Path(__file__).resolve().parent
+
+# ── tetos de defesa ──────────────────────────────────────────────────────────
+# 25/09: uma missão apontou --insumos pra árvore inteira de trabalho (29 GB,
+# 4,7 GB de texto). O script lia todos os arquivos pra memória de uma vez, e
+# ainda juntava tudo em duas cópias concatenadas: passou de 17 GB, foi
+# empurrado pro swap e congelou o agente por mais de 2 horas sem nunca morrer.
+# Agora os insumos são lidos um arquivo por vez, e três tetos param a execução
+# com mensagem clara (exit 3) em vez de deixar crescer: tamanho da pasta de
+# insumos, tempo e memória. O teto da pasta conta só o texto que é lido (o
+# binário fica de fora) e foi medido contra os --insumos reais das sessões de
+# 10 a 25/09: a maior pasta legítima tinha 56 MB de texto (a do brain, 34 MB),
+# e as árvores erradas tinham de 1,4 GB a 16 GB. O padrão de 512 MB deixa folga
+# de quase 10 vezes pra pasta legítima e ainda para a árvore errada em segundos.
+EXIT_TETO = 3
+
+
+class TetoEstourado(Exception):
+    """A execução passou de um teto de defesa: para e diz qual."""
+
+
+def _teto(nome, padrao):
+    """O teto da variável de ambiente, ou o padrão quando ausente ou inválido."""
+    try:
+        valor = float(os.environ.get(nome, ''))
+    except ValueError:
+        return padrao
+    return valor if valor > 0 else padrao
+
+
+def teto_insumos_bytes():
+    return int(_teto('CHECAR_TITULOS_TETO_INSUMOS_MB', 512) * 1024 * 1024)
+
+
+def teto_insumos_arquivos():
+    return int(_teto('CHECAR_TITULOS_TETO_INSUMOS_ARQUIVOS', 20000))
+
+
+def _mb(n):
+    return f'{n / (1024 * 1024):.1f} MB'
+
+
+def _estourar_alarme(signum, frame):
+    raise TetoEstourado(
+        f'a conferência passou de {int(_teto("CHECAR_TITULOS_TETO_SEGUNDOS", 300))} '
+        f'segundos (teto de tempo). Conferência normal leva segundos; demora assim é '
+        f'pasta grande demais ou entrada fora do padrão')
+
+
+def armar_tetos():
+    """Arma o teto de tempo (alarme) e o de memória (limite de endereço do
+    processo, herdado pelo lint que ele chama). Só abaixa limite, nunca sobe."""
+    segundos = int(_teto('CHECAR_TITULOS_TETO_SEGUNDOS', 300))
+    if hasattr(signal, 'SIGALRM'):
+        try:
+            signal.signal(signal.SIGALRM, _estourar_alarme)
+            signal.alarm(max(1, segundos))
+        except (ValueError, OSError):  # fora da thread principal: segue sem alarme
+            pass
+    if resource is not None:
+        teto = int(_teto('CHECAR_TITULOS_TETO_MEMORIA_MB', 2048) * 1024 * 1024)
+        try:
+            mole, duro = resource.getrlimit(resource.RLIMIT_AS)
+            if duro != resource.RLIM_INFINITY:
+                teto = min(teto, duro)
+            if mole == resource.RLIM_INFINITY or mole > teto:
+                resource.setrlimit(resource.RLIMIT_AS, (teto, duro))
+        except (ValueError, OSError):
+            pass
+
+
+def desarmar_tetos():
+    if hasattr(signal, 'SIGALRM'):
+        try:
+            signal.alarm(0)
+        except (ValueError, OSError):
+            pass
+
+
+def avisar_teto(motivo):
+    """A saída do teto: o que passou, e o que fazer. Vai pro stdout, que é o que
+    a missão redireciona pro arquivo de conferência."""
+    print(f'PAREI SEM CONFERIR: {motivo}.')
+    print('O que fazer: confira se --insumos aponta pra pasta de insumos desta '
+          'entrega (o material do dono que a peça usou), e não pra uma árvore inteira '
+          'de trabalho, de conteúdo, de cliente ou de saída de rodada. Não troque por '
+          'uma pasta menor só pra passar: com menos insumo o veredito muda. Se a pasta '
+          'está certa e é grande mesmo, rode de novo com CHECAR_TITULOS_TETO_INSUMOS_MB '
+          '(ou _ARQUIVOS) maior: a memória não cresce com a pasta, só o tempo.')
+    print(f'exit {EXIT_TETO}: teto de defesa; isto não é aprovação nem reprovação da peça')
+    print(f'checar_titulos.py parou no teto: {motivo}', file=sys.stderr)
 
 # ── marcador de pendência ────────────────────────────────────────────────────
 RX_MARCADOR = re.compile(r'\[(?:A CONFIRMAR|DADO|CONFIRMAR)[^\]]*\]')
@@ -389,6 +492,29 @@ def lixo_na_raiz(base):
     """Log e cache de execução na raiz: o dono abre a pasta e vê 2 MB de assombro."""
     base = Path(base)
     return sorted(f.name for f in base.iterdir() if RX_LIXO_DE_MAQUINA.match(f.name))
+
+
+# ── v3 · a mensagem ao dono cabe em 8 linhas ─────────────────────────────────
+# O critério "enxuto" ficou abaixo da versão anterior: a mensagem do Telegram
+# repetia o que já estava no arquivo. Ela mora em conferencia/mensagem-dono.txt,
+# e a conferência conta as linhas não vazias, as linhas que citam arquivo e o
+# nome de regra ou de script.
+MENSAGEM_DONO = 'mensagem-dono.txt'
+TETO_MENSAGEM = 8
+RX_ARQ_NA_MSG = re.compile(r'\b[\w\-]+\.(?:md|json|csv|txt|png|jpe?g|html|pdf|pptx)\b', re.I)
+RX_JARGAO_NA_MSG = re.compile(
+    r'\b(?:lint|gate|checkpoint|selftest|exit\s*\d)\b|conferencia/|\b\w+\.py\b|--\w', re.I)
+
+
+def mensagem_ao_dono(base):
+    """Devolve (existe, n_linhas, n_com_arquivo, jargoes) da mensagem ao dono."""
+    arq = Path(base) / SUBPASTA_BASTIDOR / MENSAGEM_DONO
+    if not arq.exists():
+        return False, 0, 0, []
+    linhas = [l for l in arq.read_text(encoding='utf-8').splitlines() if l.strip()]
+    com_arq = sum(1 for l in linhas if RX_ARQ_NA_MSG.search(l))
+    jargoes = [l.strip()[:80] for l in linhas if RX_JARGAO_NA_MSG.search(l)]
+    return True, len(linhas), com_arq, jargoes
 
 
 def garantir_conferencia(base):
@@ -835,9 +961,59 @@ def sem_h1(pecas):
     for f in pecas:
         if RX_ARQUIVO_OPERACIONAL.search(Path(f).name) or RX_BASTIDOR.match(Path(f).name):
             continue
+        if peca_em_unidades(f):
+            continue
         if not any(l.startswith('# ') for l in linhas_de(f)):
             faltando.append(Path(f).name)
     return faltando
+
+
+RX_LINHA_DE_VEREDITO = re.compile(
+    r'^\s*[-*>]?\s*[*_`]*veredito[*_`]*\s*:\s*[*_`]*\s*'
+    r'(?P<v>aprovad\w*|reprovad\w*|refazer|refaz\b|passa\b)', re.I)
+
+
+def veredito_reprova(base):
+    """conserto r15 · a pasta traz veredito, e TODO veredito reprova a peça?
+
+    Lê os .md da raiz da pasta, fora o RELATO (o arquivo `veredito-*.md` cai no
+    padrão de bastidor e por isso não sai pelo filtro de bastidor). Sem veredito
+    nenhum, ou com um só que aprove, devolve False e a regra do nicho segue
+    valendo inteira.
+    """
+    achados = []
+    for f in sorted(Path(base).glob('*.md')):
+        if f.name == 'RELATO.md':
+            continue
+        for l in linhas_de(f):
+            m = RX_LINHA_DE_VEREDITO.match(l)
+            if m:
+                achados.append(m.group('v').lower())
+    if not achados:
+        return False
+    return all(v.startswith(('reprovad', 'refaz')) for v in achados)
+
+
+# conserto r15 · peça em slides ou frames numerados (carrossel, stories): a capa
+# é a unidade 1 e é ela o título que o público lê. O H1 no .md não é publicado;
+# exigir um somava ao universo um título que ninguém vê, e a skill manda o
+# arquivo com o formato no topo e a copy slide a slide.
+RX_PECA_EM_UNIDADES = re.compile(r'^(?:carrossel|stories|story|frames?)[-_]', re.I)
+RX_UNIDADE_NUMERADA = re.compile(
+    r'^(?:\*\*)?\s*(?:Slide|Frame|Card)\s*(?P<a>\d{1,2})\b'
+    r'|^#{2,4}\s*(?:(?:Slide|Frame|Card)\s*)?(?P<b>\d{1,2})\s*(?:·|[.:)(\-]|$)', re.I)
+
+
+def peca_em_unidades(arquivo):
+    """Arquivo de carrossel ou stories com 3 ou mais unidades numeradas desde a 1."""
+    if not RX_PECA_EM_UNIDADES.match(Path(arquivo).name):
+        return False
+    nums = []
+    for l in linhas_de(arquivo):
+        m = RX_UNIDADE_NUMERADA.match(l)
+        if m:
+            nums.append(int(m.group('a') or m.group('b')))
+    return len(nums) >= 3 and min(nums) == 1
 
 
 def numeros_marcados_no_perfil(perfil):
@@ -1056,6 +1232,28 @@ RX_AFIRMA_VERIF = re.compile(r'\b(confirmei|checado|medi|confere|verificado|conf
 RX_CERCA = re.compile(r'^\s*```')
 
 PLACEHOLDER = '<preencher>'
+# conserto r15 · os rótulos que o PRÓPRIO gate imprime com o marcador escrito por
+# extenso (o comentário do bloco do passo 1 e as linhas de contagem do
+# --conferir). A régua manda colar o bloco e a saída INTEIROS; contar o rótulo
+# como campo em branco reprovava toda entrega que obedeceu. O marcador de campo
+# de verdade (`teses distintas: <preencher>`, `sobrevive? <preencher>`) segue
+# contando, na mesma linha ou fora dela.
+RX_PREENCHER_DO_GATE = re.compile(
+    r'<preencher>\s+(?:sobrando|em outros arquivos da pasta|em arquivo da pasta)\b'
+    r'|substitua cada <preencher>|grep -\w+ \'<preencher>\'', re.I)
+
+
+def sem_rotulo_do_gate(linha):
+    """A linha sem os rótulos que o gate imprime com o marcador por extenso."""
+    return RX_PREENCHER_DO_GATE.sub(' ', linha)
+
+
+# conserto r15 · rótulos de contagem que o gate imprime e que casam com a regra
+# que eles mesmos contam: colados no RELATO, viravam achado na rodada seguinte.
+RX_ROTULO_AUSENCIA_DO_GATE = re.compile(
+    r'afirmações de ausência de capacidade sem comando colado\s*:'
+    r'|ausência sem comando\s*:', re.I)
+RX_ROTULO_CHAVE_DO_GATE = re.compile(r'conclusão negativa de palavra-chave\s*:', re.I)
 # (b)6 · mensagem de ajuda do próprio script no lugar do número. A ajuda ensina
 # a rodar; ela nunca é o resultado de ter rodado, então o campo conta como não
 # preenchido e o --conferir sai com exit 1.
@@ -1078,6 +1276,10 @@ RX_SAIDA_PROPRIA_DO_GATE = re.compile(
     r'|automação declarada no perfil\s*:\s*sem\s+--perfil'
     r'|palavra-chave\s*:\s*sem\s+--insumos'
     r'|verifica[çc][ãa]o de aspa\s*:\s*sem\s+--insumos'
+    # linha de serviço · com 0 títulos no universo o passo 1 imprime esta ajuda
+    # sozinha na linha; colada inteira, ela é saída do gate e não campo. A
+    # mesma ajuda no valor de um campo de verdade segue reprovando.
+    r'|sem\s+--titulos\s*:\s*salve um título de abertura por linha em titulos\.txt\s*$'
     r')', re.IGNORECASE)
 # R12C2(b)9 · o gate novo nunca reprova a linha que o gate velho imprime. Sem
 # --ressalva o script deixava `ressalvas na peça: não informada (rode com ...)`,
@@ -1202,12 +1404,14 @@ def grep_rn(rx, pasta, limite=LIMITE_ACHADOS):
     base = Path(pasta)
     if not base.exists():
         return achados
-    alvos = sorted(base.rglob('*')) if base.is_dir() else [base]
-    for f in alvos:
-        if not f.is_file():
+    # a mesma varredura de arquivos_de_insumo: um arquivo por vez, com teto
+    for f in arquivos_de_insumo(base):
+        if base.is_file() and (IGNORAR_DIR.search('/' + f.name)
+                               or f.suffix.lower() in IGNORAR_EXT):
             continue
-        rel = f.relative_to(base).as_posix() if base.is_dir() else f.name
-        if IGNORAR_DIR.search('/' + rel) or f.suffix.lower() in IGNORAR_EXT:
+        # binário reconhecido no primeiro KB, antes de ler o arquivo inteiro
+        # (mesmo veredito do teste de caractere nulo logo abaixo)
+        if not _parece_texto(f):
             continue
         try:
             conteudo = f.read_text(encoding='utf-8', errors='replace')
@@ -1283,25 +1487,42 @@ def aspas_de_citacao(pecas):
     return achados
 
 
-def aspa_tem_lastro(trecho, texto_insumos_norma):
-    """A aspa é substring literal (normalizada) do texto concatenado dos insumos?"""
-    return _norma(trecho) in texto_insumos_norma
+def aspas_sem_lastro(aspas, pasta):
+    """As aspas [(arquivo, linha, trecho)] que NÃO são substring literal
+    (normalizada) do texto concatenado dos insumos.
 
-
-def texto_insumos_normalizado(pasta):
-    """O texto de todos os arquivos de insumo, concatenado e normalizado uma vez.
-
-    Concatenar antes de normalizar evita reprovar aspa que existe idêntica no
-    insumo só porque lá ela está quebrada em duas linhas; a normalização colapsa
-    a quebra em espaço, e a busca por substring passa a atravessá-la.
+    O veredito é o mesmo de concatenar todos os insumos com quebra de linha e
+    normalizar uma vez (a aspa quebrada em duas linhas no insumo continua
+    casando), mas a leitura é um arquivo por vez: a janela de busca é o arquivo
+    atual mais a cauda do anterior, do tamanho da maior aspa, e é isso que deixa
+    a memória do tamanho do maior arquivo e não da pasta inteira. Sem aspa,
+    nada é lido.
     """
-    partes = []
-    for f in arquivos_de_insumo(pasta):
-        try:
-            partes.append(ler(f))
-        except OSError:
-            continue
-    return _norma('\n'.join(partes))
+    lastro = {}
+    for _arq, _n, trecho in aspas:
+        alvo = _norma(trecho)
+        lastro[alvo] = not alvo  # aspa vazia depois de normalizar sempre casa
+    pendentes = {a for a, ok in lastro.items() if not ok}
+    if pendentes:
+        maior = max(len(a) for a in pendentes)
+        cauda, visto = '', False
+        for f in arquivos_de_insumo(pasta):
+            try:
+                parte = _norma(ler(f))
+            except OSError:
+                continue
+            if not parte:
+                continue
+            # a quebra entre dois arquivos vira um espaço, como no texto concatenado
+            janela = cauda + ' ' + parte if visto else parte
+            visto = True
+            for a in [a for a in pendentes if a in janela]:
+                lastro[a] = True
+                pendentes.discard(a)
+            if not pendentes:
+                break
+            cauda = janela[-(maior - 1):] if maior > 1 else ''
+    return [(arq, n, t) for arq, n, t in aspas if not lastro[_norma(t)]]
 
 
 def grep_nwF(nome, arquivo):
@@ -1358,6 +1579,9 @@ def posicao_do_marcador(linhas, idx, trecho):
             rotulo = resto[:len(resto) - len(trecho)].rstrip()
             if rotulo.endswith(':') and len(rotulo.split()) <= 6:
                 return 'campo'
+    # '"chave": "[marcador]"' em JSON (identidade.json, manifesto.json) também é campo
+    if re.match(r'^\s*"[^"]{1,40}"\s*:\s*"' + re.escape(trecho) + r'"\s*,?\s*$', linha):
+        return 'campo'
     # "Rótulo: [marcador]" em linha solta
     if nu.endswith(trecho) and ':' in nu[:len(nu) - len(trecho)]:
         rotulo = nu[:len(nu) - len(trecho)].rstrip()
@@ -1372,20 +1596,78 @@ def posicao_do_marcador(linhas, idx, trecho):
 
 
 # ── candidatos a nome de pessoa, sem lista declarada ─────────────────────────
+def _parece_texto(f):
+    """O arquivo tem cara de texto: nenhum byte nulo no primeiro KB. É o mesmo
+    teste que a leitura dos insumos faz (byte nulo no começo = binário, pula),
+    e o KB cru cobre ao menos os primeiros 1024 caracteres, então nada que a
+    leitura trata como texto fica fora da conta."""
+    try:
+        with open(f, 'rb') as h:
+            return b'\0' not in h.read(1024)
+    except OSError:
+        return False
+
+
 def arquivos_de_insumo(pasta):
-    """Os arquivos de texto da pasta de insumos, com o mesmo filtro do grep_rn."""
+    """Os arquivos de texto da pasta de insumos, com o mesmo filtro do grep_rn.
+
+    A ordem é a de sorted(base.rglob('*')), mas a varredura não desce em pasta
+    ignorada (node_modules, .git, saída de rodada) e conta o que vai ser lido:
+    passou do teto de arquivos ou de MB, levanta TetoEstourado antes de ler o
+    conteúdo, em vez de carregar uma árvore inteira de trabalho pra memória.
+    O teto conta só o arquivo de texto (o mesmo teste de byte nulo que a leitura
+    usa, no primeiro KB): o binário (pptx, xlsx, sqlite) não entra na conta,
+    e a lista devolvida não muda, pra que o veredito seja o mesmo de antes.
+    """
     base = Path(pasta)
     if not base.exists():
         return []
-    if base.is_file():
-        return [base]
+    teto_bytes, teto_arqs = teto_insumos_bytes(), teto_insumos_arquivos()
+    total = [0, 0]  # bytes e arquivos de texto
+
+    def contar(f, tamanho):
+        if not _parece_texto(f):
+            return
+        total[0] += tamanho
+        total[1] += 1
+        if total[0] > teto_bytes or total[1] > teto_arqs:
+            raise TetoEstourado(
+                f'a pasta de insumos {base} passou do teto antes de ser lida '
+                f'(mais de {teto_arqs} arquivos de texto ou mais de '
+                f'{_mb(teto_bytes)} de texto; já contei {total[1]} arquivos e '
+                f'{_mb(total[0])}, o último foi {f})')
+
     achados = []
-    for f in sorted(base.rglob('*')):
-        if not f.is_file() or f.suffix.lower() in IGNORAR_EXT:
-            continue
-        if IGNORAR_DIR.search('/' + f.relative_to(base).as_posix()):
-            continue
-        achados.append(f)
+    if base.is_file():
+        achados.append(base)
+        contar(base, base.stat().st_size)
+        return achados
+
+    def descer(pasta_atual, rel):
+        try:
+            with os.scandir(pasta_atual) as it:
+                entradas = sorted(it, key=lambda e: e.name)
+        except OSError:
+            return
+        for e in entradas:
+            rel_e = f'{rel}/{e.name}'
+            try:
+                if e.is_dir(follow_symlinks=False):
+                    if not IGNORAR_DIR.search(rel_e):
+                        descer(e.path, rel_e)
+                    continue
+                if not e.is_file():
+                    continue
+                tamanho = e.stat().st_size
+            except OSError:
+                continue
+            if Path(e.name).suffix.lower() in IGNORAR_EXT or IGNORAR_DIR.search(rel_e):
+                continue
+            f = Path(e.path)
+            achados.append(f)
+            contar(f, tamanho)
+
+    descer(base, '')
     return achados
 
 
@@ -1431,32 +1713,26 @@ def candidatos_a_nome(pecas, pasta_insumos, perfil):
     stoplist. Devolve {nome: {'peca': [...], 'insumo': [...], 'privado': bool,
     'autorizado': bool}}.
     """
-    arquivos = arquivos_de_insumo(pasta_insumos)
-    texto_insumos = {}
-    for f in arquivos:
-        try:
-            conteudo = f.read_text(encoding='utf-8', errors='replace')
-        except (OSError, UnicodeError):
-            continue
-        if '\0' in conteudo[:1024]:
-            continue
-        texto_insumos[f] = conteudo
-
     pecas = publicas(pecas)
     # (b)3 · a varredura roda sobre a PEÇA PÚBLICA: linha de bastidor dentro de
     # arquivo de planejamento e bloco cercado de código ficam de fora, porque
     # são a prova do descarte, nunca a publicação do nome.
     texto_peca = '\n'.join(texto_publico(f) for f in pecas)
-    tudo = texto_peca + '\n' + '\n'.join(texto_insumos.values())
     proprios = nomes_do_dono(perfil)
 
-    achados = {}
+    # Os candidatos saem da peça, que é pequena. Os insumos são lidos UM
+    # arquivo por vez: guardar o texto de todos (e ainda uma cópia concatenada)
+    # foi o que levou o script a 17 GB com a árvore de trabalho inteira como
+    # --insumos. O veredito é o mesmo: some quem aparece em minúscula na peça ou
+    # em qualquer insumo, e fica a lista das linhas de pessoa nos insumos.
+    vivos = {}
     for cand in sorted(set(RX_CAPITALIZADA.findall(texto_peca))):
         if cand in STOPLIST_NOME or cand in proprios:
             continue
         minusculo = cand[0].lower() + cand[1:]
-        if re.search(r'(?<![0-9A-Za-zÀ-ÿ_])' + re.escape(minusculo)
-                     + r'(?![0-9A-Za-zÀ-ÿ_])', tudo):
+        rx_min = re.compile(r'(?<![0-9A-Za-zÀ-ÿ_])' + re.escape(minusculo)
+                            + r'(?![0-9A-Za-zÀ-ÿ_])')
+        if rx_min.search(texto_peca):
             continue
         # (b)2 · a colisão se testa por nome contido, e o nome composto também
         # pela primeira palavra: `Paula J.` na peça encosta em `Ana Paula, 40`
@@ -1464,19 +1740,59 @@ def candidatos_a_nome(pecas, pasta_insumos, perfil):
         variantes = variantes_do_nome(cand)
         rx = re.compile('|'.join(r'(^|[^a-zà-ú])' + re.escape(v) + r'([^a-zà-ú]|$)'
                                  for v in variantes), re.I)
-        no_insumo, privado, autorizado = [], False, False
-        for f, conteudo in texto_insumos.items():
+        vivos[cand] = {'rx_min': rx_min, 'rx': rx, 'variantes': variantes,
+                       'insumo': [], 'n_insumo': 0, 'privado': False,
+                       'autorizado': False}
+
+    def textos_de_insumo():
+        # um arquivo de texto por vez; o binário e o ilegível ficam de fora.
+        # O binário é reconhecido pelo primeiro KB antes de ler o resto: byte
+        # nulo ali é caractere nulo nos primeiros 1024 caracteres, o mesmo
+        # teste de baixo, então o veredito não muda e o deck de 300 MB não é
+        # carregado inteiro só pra ser descartado.
+        for f in arquivos_de_insumo(pasta_insumos):
+            if not _parece_texto(f):
+                continue
+            try:
+                conteudo = f.read_text(encoding='utf-8', errors='replace')
+            except (OSError, UnicodeError):
+                continue
+            if '\0' in conteudo[:1024]:
+                continue
+            yield f, conteudo
+
+    # passada 1: some quem aparece em minúscula em algum insumo
+    if vivos:
+        for _f, conteudo in textos_de_insumo():
+            for cand in [c for c, v in vivos.items() if v['rx_min'].search(conteudo)]:
+                del vivos[cand]
+            if not vivos:
+                break
+    # passada 2: as linhas de pessoa dos que sobraram
+    if vivos:
+        for f, conteudo in textos_de_insumo():
             linhas = conteudo.splitlines()
-            for i, linha in enumerate(linhas, 1):
-                if not (rx.search(linha)
-                        and any(contexto_de_pessoa(v, linha) for v in variantes)):
-                    continue
-                no_insumo.append((str(f), i, linha.strip()[:200]))
-                if RX_ARQUIVO_PRIVADO.search(f.name):
-                    privado = True
-                if any(RX_AUTORIZ.search(x) for x in linhas[max(0, i - 1):i + 3]):
-                    autorizado = True
-        if not no_insumo:
+            privado_arq = bool(RX_ARQUIVO_PRIVADO.search(f.name))
+            for v in vivos.values():
+                for i, linha in enumerate(linhas, 1):
+                    if not (v['rx'].search(linha)
+                            and any(contexto_de_pessoa(x, linha) for x in v['variantes'])):
+                        continue
+                    # guarda só as primeiras linhas como exemplo e conta o resto:
+                    # a saída imprime o total e 3 exemplos, e guardar toda linha de
+                    # uma árvore grande também fazia a memória crescer com a pasta
+                    v['n_insumo'] += 1
+                    if len(v['insumo']) < LIMITE_ACHADOS:
+                        v['insumo'].append((str(f), i, linha.strip()[:200]))
+                    if privado_arq:
+                        v['privado'] = True
+                    if any(RX_AUTORIZ.search(x) for x in linhas[max(0, i - 1):i + 3]):
+                        v['autorizado'] = True
+
+    achados = {}
+    for cand, v in vivos.items():
+        no_insumo, privado, autorizado = v['insumo'], v['privado'], v['autorizado']
+        if not v['n_insumo']:
             continue
         na_peca = []
         for f in pecas:
@@ -1484,7 +1800,7 @@ def candidatos_a_nome(pecas, pasta_insumos, perfil):
         # (b)3 · nome que só existe em bastidor não está na peça pública
         if not na_peca:
             continue
-        achados[cand] = {'peca': na_peca, 'insumo': no_insumo,
+        achados[cand] = {'peca': na_peca, 'insumo': no_insumo, 'n_insumo': v['n_insumo'],
                          'privado': privado, 'autorizado': autorizado}
     return achados
 
@@ -1658,7 +1974,10 @@ def montar(args, out):
 
     # 3 · exit do lint por arquivo entregável (a ÚLTIMA coisa que acontece)
     for f in pecas:
-        code, saida, _ = rodar_lint(lintmod, ler(f), f.name)
+        # conserto r15 · o mesmo texto que o --conferir linta: sem os blocos
+        # cercados (o trecho citado num veredito não é copy da peça). Passo 1 e
+        # passo 2 discordando sobre o mesmo arquivo era reprova sem conserto.
+        code, saida, _ = rodar_lint(lintmod, lintmod.strip_code_blocks(ler(f)), f.name)
         p(f'arquivo: {f.name} · exit: {code}')
         if code != 0:
             for linha in saida.splitlines():
@@ -1773,9 +2092,7 @@ def montar(args, out):
     # verbatim potencialmente fabricado e reprova. Só roda com --insumos.
     aspas = aspas_de_citacao(pecas)
     if args.insumos:
-        insumo_norma = texto_insumos_normalizado(args.insumos)
-        sem_lastro = [(arq, n, t) for arq, n, t in aspas
-                      if not aspa_tem_lastro(t, insumo_norma)]
+        sem_lastro = aspas_sem_lastro(aspas, args.insumos)
         p(f'aspas de citação verificadas contra o insumo: {len(aspas)} · sem lastro: '
           f'{len(sem_lastro)} (teto 0) | cada fala entre aspas atribuída a alguém tem que '
           f'ser substring literal de algum arquivo de {args.insumos}')
@@ -1816,7 +2133,12 @@ def montar(args, out):
     if args.perfil:
         n_campos = grep_c('- ', args.perfil) if False else sum(
             1 for l in linhas_de(args.perfil) if l.startswith('- '))
-        p(f'campos no perfil: {n_campos} | grep -c \'^- \' {args.perfil} (arquivo inteiro)')
+        # conserto r15 · a linha sai com os 4 campos que o --conferir cobra, e os
+        # 3 de julgamento ficam em <preencher>: "substitua cada <preencher>, nada
+        # mais" volta a ser verdade nesta linha.
+        p(f'campos no perfil: {n_campos} · valores desdobrados: {PLACEHOLDER} · usados: '
+          f'{PLACEHOLDER} · descartados com motivo: {PLACEHOLDER} | grep -c \'^- \' '
+          f'{args.perfil} (arquivo inteiro)')
     else:
         p('campos no perfil: sem --perfil: o piso sai de grep -c \'^- \' sobre o perfil INTEIRO')
 
@@ -1881,7 +2203,9 @@ def montar(args, out):
         alvo = presentes.setdefault(nome, {'peca': [], 'insumo': [], 'autorizado': False,
                                            'privado': False, 'declarado': False})
         alvo['peca'] = alvo['peca'] or d['peca']
-        alvo['insumo'] = alvo['insumo'] or d['insumo']
+        if not alvo['insumo']:
+            alvo['insumo'] = d['insumo']
+            alvo['n_insumo'] = d['n_insumo']
         alvo['autorizado'] = alvo['autorizado'] or d['autorizado']
         alvo['privado'] = alvo['privado'] or d['privado']
 
@@ -1910,7 +2234,8 @@ def montar(args, out):
     for nome in sorted(com_ocorrencia):
         d = com_ocorrencia[nome]
         marca = 'destinatário, uso interno' if nome in dest else 'terceiro citado'
-        p(f'  {nome} · na peça: {len(d["peca"])} · nos insumos: {len(d["insumo"])} · '
+        n_ins = d.get('n_insumo', len(d['insumo']))
+        p(f'  {nome} · na peça: {len(d["peca"])} · nos insumos: {n_ins} · '
           f'classificação: {marca} · autorização no insumo: '
           f'{"sim" if d["autorizado"] else "não"} · '
           f'mensagem privada: {"sim" if d["privado"] else "não"}')
@@ -2141,6 +2466,95 @@ RX_CONTAGEM_NICHO = re.compile(
 # (a)3 · a regra de contagem entre parênteses, na MESMA linha, quando o número
 # de fecho não for a contagem literal da coluna que ele resume
 RX_REGRA_CONTAGEM = re.compile(r'\([^)]{10,}\)')
+# linha de serviço · a caixinha de aceite e o rodapé de caminhos captam um sinal
+# e não prometem, então sobrevivem à troca de nicho por definição, e o teto 1
+# reprovava a peça por cumprir a especificação. A unidade sai da conta do teto
+# só quando um veredito da raiz da pasta declara `tipo: linha de serviço` com o
+# texto inteiro no `peça:`, a frase da unidade está dentro desse texto, ele tem
+# até 45 palavras (3 linhas) e nenhum sinal de venda. Preço cheio, quantidade,
+# duração e `sem custo` que só descrevem o caminho ficam: número só barra quando
+# sustenta desconto, urgência, prova social ou promessa. Título da peça
+# auditada (cabeçalho ou slide) nunca é linha de serviço. Limite conhecido:
+# headline curta sem sinal de venda, colada fora de cabeçalho, o script não
+# distingue da caixinha, e benefício fora do molde `pra X sem Y` também passa;
+# ali quem barra é a regra estreita do tipo, no SKILL.md do crítico.
+RX_TIPO_SERVICO = re.compile(
+    r'^\s*[-*>]?\s*[*_`]*tipo[*_`]*\s*:\s*[*_`]*\s*linha[ _]de[ _]servi[çc]o\b', re.I)
+RX_CAMPO_PECA = re.compile(r'^\s*[-*>]?\s*[*_`]*pe[çc]a[*_`]*\s*:\s*(?P<v>.+?)\s*$', re.I)
+# desconto e grátis como isca · urgência e escassez · garantia · número de
+# alunos · promessa de resultado (prazo de resultado e verbo de promessa)
+RX_SINAL_DE_VENDA = re.compile(
+    r'\bdesconto|%\s*(?:off\b|de desconto)|\boff\b|\bcupom|\bpromo[çc]'
+    r'|\bganh[aeo]\w*|\bbrinde|\bb[ôo]nus\b|\bde presente\b'
+    r'|\bhoje\b|\bamanh[ãa]\b|\b[úu]ltim[ao]s\b|\bvagas?\b|\baté (?:o )?dia\b'
+    r'|\baté (?:\d|\[)|\bs[óo] até\b|\bfecham?\b|\bencerra|\bgarant'
+    r'|\d[\d.]*\s*(?:mil\s+)?(?:alun[oa]s|clientes|pessoas|inscrit[oa]s|seguidor\w*)\b'
+    r'|\bresultado|\bem \d+\s*(?:minutos|horas|dias|semanas|meses)\b'
+    r'|\b(?:aprenda|descubra|domine|conquiste|transforme)\b'
+    # benefício no molde `pra <fazer algo> sem <obstáculo>`, na mesma oração
+    r'|\b(?:pra|para) \w+(?:ar|er|ir)\b[^.;:?!]{0,60}\bsem\b', re.I)
+# depoimento entre aspas: trecho citado com 4 palavras ou mais. A palavra que o
+# leitor responde ("turma", "sim") é curta e fica.
+RX_ASPAS = re.compile(r'["“]([^"“”]*)["”]')
+TETO_PALAVRAS_SERVICO = 45
+RX_TITULO_DA_PECA = re.compile(r'^\s*(?:#{1,4}\s+|\*\*Slide\b|Slide\s+\d)(?P<t>.*)$', re.I)
+
+
+def titulos_da_peca(base, peca_externa=None):
+    """Cabeçalhos e slides da peça auditada (ou da raiz, fora veredito e RELATO)."""
+    if peca_externa and Path(peca_externa).is_file():
+        arqs = [Path(peca_externa)]
+    else:
+        arqs = [f for f in sorted(Path(base).glob('*.md'))
+                if f.name != 'RELATO.md' and not f.name.lower().startswith('veredito')]
+    out = []
+    for f in arqs:
+        for l in linhas_de(f):
+            m = RX_TITULO_DA_PECA.match(l)
+            if m and _norma_servico(m.group('t')):
+                out.append(_norma_servico(m.group('t')))
+    return out
+
+
+def linhas_de_servico(base):
+    """O `peça:` de cada veredito da raiz da pasta com `tipo: linha de serviço`."""
+    achados = []
+    for f in sorted(Path(base).glob('*.md')):
+        if f.name == 'RELATO.md':
+            continue
+        peca = None
+        for l in linhas_de(f):
+            m = RX_CAMPO_PECA.match(l)
+            if m:
+                peca = m.group('v')
+            elif peca and RX_TIPO_SERVICO.match(l):
+                achados.append(peca)
+    return achados
+
+
+def _norma_servico(s):
+    return _norma(re.sub(r'[`*_]', ' ', s)).strip(' .,:;!?')
+
+
+def isenta_por_servico(linha_nicho, servicos, titulos=()):
+    """A unidade da linha do nicho é linha de serviço declarada, curta e limpa?"""
+    partes = [p.strip() for p in linha_nicho.split('|')]
+    if len(partes) < 4:
+        return False
+    frase = _norma_servico(partes[1])
+    if len(frase.split()) < 2 or any(frase in t for t in titulos):
+        return False
+    for peca in servicos:
+        alvo = _norma_servico(peca)
+        if frase not in alvo or len(alvo.split()) > TETO_PALAVRAS_SERVICO:
+            continue
+        if RX_SINAL_DE_VENDA.search(peca) or any(
+                len(c.split()) >= 4 for c in RX_ASPAS.findall(peca)):
+            continue
+        return True
+    return False
+
+
 # (b)1 · achado que já existia na fonte não é falha da conversão
 RX_MARCADOR_QUALQUER = re.compile(r'\[(?:A CONFIRMAR|DADO|CONFIRMAR)[^\]]*\]')
 RX_LINHA_REESC = re.compile(
@@ -2486,6 +2900,22 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
                 falhas.append(f'arquivo exigido pela ação ausente: {nome}')
         print(f'arquivos exigidos pela ação: {len(pedidos)} · presentes: {presentes}')
 
+    # v3 · a mensagem ao dono: teto de 8 linhas, 1 arquivo citado, sem jargão
+    tem_msg, n_msg, n_arq_msg, jarg_msg = mensagem_ao_dono(base)
+    if tem_msg:
+        print(f'linhas da mensagem: {n_msg} (teto {TETO_MENSAGEM}) · linhas citando '
+              f'arquivo: {n_arq_msg} (teto 1) · com nome de regra ou script: '
+              f'{len(jarg_msg)} | grep -c . {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO}')
+        if n_msg > TETO_MENSAGEM:
+            falhas.append(f'mensagem ao dono com {n_msg} linhas (teto {TETO_MENSAGEM})')
+        if n_arq_msg > 1:
+            falhas.append(f'lista de arquivos na mensagem ao dono: {n_arq_msg} linhas')
+        for l in jarg_msg:
+            falhas.append(f'nome de regra ou script na mensagem ao dono: {l}')
+    else:
+        print(f'mensagem ao dono: ausente em {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO} '
+              f'(exija com --exige {SUBPASTA_BASTIDOR}/{MENSAGEM_DONO})')
+
     # (b)1 · a exceção da fonte. Só a skill que converte passa --fonte, e só o
     # que a conversão INTRODUZIU reprova: o resto sai como `achado na fonte`.
     texto_fonte, mapa_fonte = achados_da_fonte(fonte)
@@ -2497,7 +2927,8 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
               f'{len(mapa_fonte)} | grep -c \'\\[A CONFIRMAR\' {Path(fonte).name}')
 
     # 1 · nenhum <preencher> sobrando
-    sobrando = [(n, l.strip()[:160]) for n, l in enumerate(linhas, 1) if PLACEHOLDER in l]
+    sobrando = [(n, l.strip()[:160]) for n, l in enumerate(linhas, 1)
+                if PLACEHOLDER in sem_rotulo_do_gate(l)]
     print(f'<preencher> sobrando: {len(sobrando)} (teto 0)')
     for n, l in sobrando:
         print(f'  checagem-titulos.md:{n}: {l}')
@@ -2529,7 +2960,7 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
         if RX_CAPTURA_GATE.match(f.name):
             continue
         for n, l in enumerate(linhas_de(f), 1):
-            if PLACEHOLDER in l:
+            if PLACEHOLDER in sem_rotulo_do_gate(l):
                 sobrando_pasta.append((f.name, n, l.strip()[:160]))
     print(f'<preencher> em outros arquivos da pasta: {len(sobrando_pasta)} (teto 0) | '
           f'grep -rn \'<preencher>\' {base}')
@@ -2552,7 +2983,7 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
     # script conta como NÃO PREENCHIDO. Um lote fechou `teses distintas: sem
     # --teses: salve uma tese ... e rode de novo` e a conferência passou com
     # exit 0: a mensagem que ensina a rodar não é o resultado de ter rodado.
-    instruidos, proprias = [], []
+    instruidos, proprias, ecos_lint = [], [], []
     for n, l in enumerate(linhas, 1):
         crua = l.strip()
         if ':' not in crua or crua.startswith(('#', '>', '|', '`')):
@@ -2569,8 +3000,17 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
         if RX_SAIDA_PROPRIA_DO_GATE.search(crua):
             proprias.append((n, campo))
             continue
+        # conserto r15 · na auditoria de peça externa, `lint: ...` é o eco que o
+        # passo 1 imprime ao lintar os títulos DA PEÇA AUDITADA: a falha do lint
+        # ali é o achado do veredito, e o auditor não reescreve a peça do dono.
+        if peca_externa and campo.lower() == 'lint':
+            ecos_lint.append(n)
+            continue
         if RX_AJUDA_NO_FECHO.search(valor):
             instruidos.append((n, campo, crua[:160]))
+    if ecos_lint:
+        print(f'eco do lint sobre os títulos da peça auditada: {len(ecos_lint)} linha(s) '
+              f'(achado do veredito, não campo com instrução)')
     if proprias:
         print(f'saídas próprias do gate no fecho: {len(proprias)} (não contam como campo '
               f'com instrução: são o texto que o script imprime por falta de flag)')
@@ -2585,13 +3025,17 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
     # substantivo que foi trocado; sem a coluna a linha não conta como feita,
     # porque o veredito fica no gosto de quem escreve. (a)3 · a linha de fecho
     # tem que ser a contagem literal da coluna, ou trazer a regra ao lado.
-    sims, sem_coluna = 0, []
+    servicos = linhas_de_servico(base)
+    titulos_servico = titulos_da_peca(base, peca_externa) if servicos else []
+    sims, sem_coluna, de_servico = 0, [], []
     for n, l in enumerate(linhas, 1):
         m = RX_LINHA_NICHO.search(l)
         if not m:
             continue
         if m.group(1).strip().lower().startswith('sim'):
             sims += 1
+            if servicos and isenta_por_servico(l, servicos, titulos_servico):
+                de_servico.append(str(n))
         ms = RX_SUBST_TROCADO.search(l)
         if not ms or PLACEHOLDER in ms.group(0):
             sem_coluna.append((n, l.strip()[:140]))
@@ -2602,8 +3046,21 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
         print(f'  checagem-titulos.md:{n}: {l}')
         falhas.append(f'linha do nicho sem a coluna do substantivo trocado: '
                       f'checagem-titulos.md:{n}')
-    if sims > 1:
-        falhas.append(f'sobrevive à troca de nicho: {sims} acima do teto 1')
+    # conserto r15 · na auditoria de peça externa o `sim` é o achado sobre a peça
+    # do dono, e o teto 1 empurrava o auditor a responder `não` ou a testar a
+    # própria reescrita no lugar da peça. O `sim` acima de 1 sai da reprova só
+    # quando TODO veredito da pasta reprova a peça; veredito que aprova peça com
+    # título que sobrevive à troca segue reprovado.
+    if de_servico:
+        print(f'  `sim` de linha de serviço declarada no veredito, fora do teto: '
+              f'{len(de_servico)} (checagem-titulos.md:{",".join(de_servico)})')
+    sims_teto = sims - len(de_servico)
+    registrado = peca_externa and sims_teto > 1 and veredito_reprova(base)
+    if registrado:
+        print(f'  `sim` acima do teto na peça auditada: {sims_teto}, registrado no veredito '
+              f'que reprova a peça (achado da auditoria)')
+    if sims_teto > 1 and not registrado:
+        falhas.append(f'sobrevive à troca de nicho: {sims_teto} acima do teto 1')
 
     # 2c · (a)3 · a linha de contagem bate com a tabela que ela fecha
     for n, l in enumerate(linhas, 1):
@@ -2697,21 +3154,36 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
                 f'morta de pelo menos três títulos')
 
     # 4 · os quatro inteiros do inventário, e o desdobramento nunca menor que o piso
-    achou_inv = False
+    # conserto r15 · os inteiros contam só ANTES do primeiro `|`: depois dele vem
+    # o comando que prova o piso, e os dígitos do caminho (data, mktemp) entravam
+    # na conta. Pasta com data reprovava sozinha, e pasta escolhida com os dígitos
+    # certos passava com um número só. A linha que o PRÓPRIO gate imprime, com 1
+    # inteiro e o `grep -c` ao lado, é saída dele e não conta como linha
+    # incompleta; mas pelo menos uma linha traz os 4 inteiros.
+    achou_inv, com_quatro = False, 0
     for l in linhas:
         m = RX_LINHA_INVENT.match(l)
         if not m:
             continue
         achou_inv = True
-        n_ints = len(RX_INT.findall(m.group(1)))
-        print(f'inteiros na linha `campos no perfil`: {n_ints} (exigido 4)')
-        if n_ints != 4:
+        valor_inv, _, prova_inv = m.group(1).partition('|')
+        n_ints = len(RX_INT.findall(valor_inv))
+        print(f'inteiros na linha `campos no perfil` (antes do `|`): {n_ints} (exigido 4)')
+        if n_ints == 4:
+            com_quatro += 1
+        elif n_ints == 1 and 'grep -c' in prova_inv:
+            print('  linha do piso impressa pelo gate (1 inteiro e o comando ao lado)')
+        else:
             falhas.append(
                 f'a linha `campos no perfil` traz {n_ints} inteiros, e a régua pede 4 '
                 f'(piso, desdobrados, usados, descartados), nunca `ver OUTRO.md`')
     if not achou_inv:
         print('inteiros na linha `campos no perfil`: linha ausente (exigida)')
         falhas.append('a linha `campos no perfil` não existe no checagem-titulos.md')
+    elif not com_quatro:
+        falhas.append(
+            'nenhuma linha `campos no perfil` traz os 4 inteiros (piso, desdobrados, '
+            'usados, descartados) antes do `|`')
     m_piso, m_desd = RX_CAMPOS_PERFIL.search(texto), RX_DESDOBRADOS.search(texto)
     if m_piso and m_desd:
         piso, desd = int(m_piso.group(1)), int(m_desd.group(1))
@@ -2766,15 +3238,22 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
     # números diferentes na mesma entrega reprovam: `Dados fornecidos: 17` num
     # arquivo e `dados no perfil: 29` noutro não são dois recortes, são dois
     # números sobre o mesmo perfil, e o dono não sabe qual vale.
+    # conserto r15 · `campos no perfil` é o PISO (o grep do perfil) e o total
+    # desdobrado é outro número, maior por regra da própria régua (`M maior que N
+    # é o esperado`). Comparar os dois como inventário duplicado obrigava a
+    # entrega a escrever o piso no lugar do total, ou a agrupar o inventário no
+    # nível do campo, que a skill reprova. O total (`Dados fornecidos`, `dados no
+    # perfil`, `itens no perfil`) segue sendo um só, e nunca menor que o piso.
     invent = {}
     for f in md_da_entrega(base):
         for n, l in enumerate(linhas_de(f), 1):
             m = RX_LINHA_INVENT_QUALQUER.search(l)
-            if m:
+            if m and not RX_CAMPOS_PERFIL.match(m.group(0)):
                 invent.setdefault(int(m.group('n')), []).append(
                     f'{f.name}:{n}: {l.strip()[:120]}')
     print(f'linhas de inventário na entrega: {sum(len(v) for v in invent.values())} · '
-          f'números distintos: {len(invent)} (exigido no máximo 1)')
+          f'números distintos: {len(invent)} (exigido no máximo 1; `campos no perfil` '
+          f'é o piso e fica fora desta conta)')
     for numero in sorted(invent):
         for onde in invent[numero]:
             print(f'  {onde}')
@@ -2782,19 +3261,32 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
         falhas.append(
             f'inventário duplicado: {len(invent)} números diferentes na mesma entrega '
             f'({", ".join(str(x) for x in sorted(invent))}); o inventário é um só')
+    m_piso_inv = RX_CAMPOS_PERFIL.search(texto)
+    if m_piso_inv:
+        piso_inv = int(m_piso_inv.group(1))
+        abaixo = sorted(x for x in invent if x < piso_inv)
+        if abaixo:
+            falhas.append(
+                f'inventário menor que o piso: {", ".join(str(x) for x in abaixo)} contra '
+                f'`campos no perfil: {piso_inv}`; o total nunca fica abaixo do número de '
+                f'campos do perfil')
 
     # 4b2 · B(b)2 · a conclusão nasce da saída do grep, e negar a saída colada
     # na mesma checagem é a contradição interna mais barata de detectar do loop:
     # duas ocorrências de palavra-chave coladas no próprio checagem-titulos.md e
     # `palavra-chave: nenhuma` na peça, mais `descartado porque não consta`.
+    # conserto r15 · o rótulo de contagem que o gate imprime aqui
+    # (`conclusão negativa de palavra-chave: 1`) casava com a ocorrência achada
+    # quando a saída ia colada no RELATO; ele fica fora das duas listas.
     nega_chave = [(f.name, n, l.strip()[:140])
                   for f in md_da_entrega(base)
                   for n, l in enumerate(linhas_de(f), 1)
-                  if RX_CHAVE_NENHUMA.search(l) or RX_DESCARTE_NAO_CONSTA.search(l)]
+                  if not RX_ROTULO_CHAVE_DO_GATE.search(l)
+                  and (RX_CHAVE_NENHUMA.search(l) or RX_DESCARTE_NAO_CONSTA.search(l))]
     achou_chave = [(f.name, n, l.strip()[:140])
                    for f in md_da_entrega(base)
                    for n, l in enumerate(linhas_de(f), 1)
-                   if RX_CHAVE_ACHADA.search(l)]
+                   if not RX_ROTULO_CHAVE_DO_GATE.search(l) and RX_CHAVE_ACHADA.search(l)]
     print(f'conclusão negativa de palavra-chave: {len(nega_chave)} · ocorrências '
           f'coladas na mesma entrega: {len(achou_chave)}')
     for nome_a, n, l in nega_chave + achou_chave:
@@ -3333,6 +3825,10 @@ def _conferir_corpo(pasta, lint_path, insumos=None, perfil=None, fonte=None,
             if not RX_AUSENCIA_DE_CAPACIDADE.search(l):
                 continue
             if RX_CERCA.match(l):
+                continue
+            # conserto r15 · a linha de contagem desta própria regra, colada no
+            # RELATO com a saída inteira, traz o padrão do grep e não é afirmação
+            if RX_ROTULO_AUSENCIA_DO_GATE.search(l):
                 continue
             seguintes = linhas_rel[i + 1:i + 4]
             if not any(RX_CERCA.match(x) for x in seguintes):
@@ -5386,6 +5882,420 @@ def selftest():
         assert cod87b == 0, t87b
         assert 'números não confirmados no perfil: 1 · publicados na peça: 0' in t87b, t87b
 
+        # ── rodada 15, os consertos do benchmark de 02/10 ────────────────────
+        # Cada conserto entra com o par: o que o operador fez certo e o gate
+        # antigo reprovava passa, e o defeito real que a regra pegava segue
+        # reprovando.
+        quatro_inv = ('campos no perfil: 29 · valores desdobrados: 64 · usados: 16 · '
+                      'descartados com motivo: 48')
+        assert quatro_inv + '\n' in base_ok, base_ok
+
+        # caso 88 · conserto r15 (D2): os inteiros da linha `campos no perfil`
+        # contam só ANTES do primeiro `|`. O caminho resolvido com data ao lado
+        # não soma inteiro; a pasta escolhida pelos dígitos do caminho, que
+        # fechava os 4 com um número real só, deixa de passar.
+        cam88 = '/' + 'home/dono/2026-10/2026-10-02-pasta/insumos/dono.md'  # emendado: o lint standalone barra caminho absoluto literal
+        s88 = nova_pasta('s88', '# Um titulo\n\nlimpo\n')
+        chk_em(s88).write_text(
+            base_ok.replace(quatro_inv,
+                            quatro_inv + f" | grep -c '^- ' {cam88} (arquivo inteiro)"),
+            encoding='utf-8')
+        cod88, t88 = rodar34(s88, fonte_lint)
+        assert cod88 == 0, t88
+        assert 'inteiros na linha `campos no perfil` (antes do `|`): 4' in t88, t88
+        # 88b · a linha do piso que o gate imprime (1 inteiro e o grep ao lado)
+        # convive com a dos 4: uma linha com os 4 inteiros basta
+        piso88 = ("campos no perfil: 29 | grep -c '^- ' /tmp/op-7Q1/x1/insumos/dono.md "
+                  "(arquivo inteiro)\n")
+        chk_em(s88).write_text(base_ok + piso88, encoding='utf-8')
+        cod88b, t88b = rodar34(s88, fonte_lint)
+        assert cod88b == 0, t88b
+        assert 'linha do piso impressa pelo gate' in t88b, t88b
+        # 88c · par negativo: só a linha do piso, com os dígitos do caminho que
+        # no gate antigo fechavam 4 inteiros, reprova
+        chk_em(s88).write_text(base_ok.replace(quatro_inv + '\n', piso88), encoding='utf-8')
+        cod88c, t88c = rodar34(s88, fonte_lint)
+        assert cod88c == 1, t88c
+        assert 'nenhuma linha `campos no perfil` traz os 4 inteiros' in t88c, t88c
+        # 88d · par negativo: 2 inteiros antes do `|` seguem reprovando
+        chk_em(s88).write_text(
+            base_ok.replace(quatro_inv, 'campos no perfil: 29 · valores desdobrados: 64 '
+                                        f"| grep -c '^- ' {cam88}"),
+            encoding='utf-8')
+        cod88d, t88d = rodar34(s88, fonte_lint)
+        assert cod88d == 1, t88d
+        assert 'a linha `campos no perfil` traz 2 inteiros' in t88d, t88d
+
+        # caso 89 · conserto r15 (D1 e D2): o bloco do passo 1 colado INTEIRO,
+        # com cada <preencher> substituído e nada mais, passa. O comentário que
+        # manda substituir traz o marcador por extenso e é rótulo do gate; a
+        # linha do inventário já sai com os 4 campos e o caminho com data.
+        pasta89 = d / '2026-10' / '2026-10-02-pasta'
+        pasta89.mkdir(parents=True)
+        perfil89 = pasta89 / 'dono.md'
+        perfil89.write_text(ler(perfil), encoding='utf-8')
+        n89 = sum(1 for l in linhas_de(perfil89) if l.startswith('- '))
+        args89 = argparse.Namespace(
+            peca=[str(peca)], titulos=None, teses=None, insumos=None,
+            perfil=str(perfil89), ressalva=None, nomes=None, lint=fonte_lint)
+        out89 = []
+        montar(args89, out89)
+        linha89 = next(l for l in out89 if l.startswith('campos no perfil:'))
+        assert linha89.startswith(
+            f'campos no perfil: {n89} · valores desdobrados: {PLACEHOLDER} · usados: '
+            f'{PLACEHOLDER} · descartados com motivo: {PLACEHOLDER} | grep -c'), linha89
+        assert str(perfil89) in linha89, linha89
+        cab89 = next(l for l in out89 if 'substitua cada' in l)
+        cheia89 = (linha89.replace(PLACEHOLDER, str(n89 + 2), 1)
+                   .replace(PLACEHOLDER, str(n89), 1).replace(PLACEHOLDER, '2', 1))
+        chk89 = cab89 + '\n' + base_ok.replace(quatro_inv, cheia89)
+        s89 = nova_pasta('s89', '# Um titulo\n\nlimpo\n')
+        chk_em(s89).write_text(chk89, encoding='utf-8')
+        cod89, t89 = rodar34(s89, fonte_lint)
+        assert cod89 == 0, t89
+        assert '<preencher> sobrando: 0' in t89, t89
+        # 89b · par negativo: o marcador de campo de verdade segue contando
+        chk_em(s89).write_text(chk89 + 'falas de terceiro: <preencher>\n', encoding='utf-8')
+        cod89b, t89b = rodar34(s89, fonte_lint)
+        assert cod89b == 1, t89b
+        assert '<preencher> sobrando: 1' in t89b, t89b
+
+        # caso 90 · conserto r15 (D3): `campos no perfil` é o PISO e sai da
+        # comparação de inventário duplicado. O total desdobrado acima do piso
+        # passa; o total abaixo do piso reprova, e dois totais seguem duplicados.
+        s90 = nova_pasta('s90', '# Um titulo\n\nlimpo\n')
+        lista90 = s90 / 'lista-prospeccao.md'
+        lista90.write_text('Dados fornecidos: 64 · usados: 16\n', encoding='utf-8')
+        cod90, t90 = rodar34(s90, fonte_lint)
+        assert cod90 == 0, t90
+        assert 'números distintos: 1' in t90, t90
+        assert 'inventário duplicado' not in t90, t90
+        # 90b · par negativo: total abaixo do piso
+        lista90.write_text('Dados fornecidos: 12 · usados: 6\n', encoding='utf-8')
+        cod90b, t90b = rodar34(s90, fonte_lint)
+        assert cod90b == 1, t90b
+        assert 'inventário menor que o piso: 12 contra `campos no perfil: 29`' in t90b, t90b
+        # 90c · par negativo: dois totais diferentes seguem sendo inventário duplicado
+        lista90.write_text('Dados fornecidos: 64 · usados: 16\n\ndados no perfil: 70\n',
+                           encoding='utf-8')
+        cod90c, t90c = rodar34(s90, fonte_lint)
+        assert cod90c == 1, t90c
+        assert 'inventário duplicado: 2 números diferentes na mesma entrega (64, 70)' \
+            in t90c, t90c
+
+        # caso 91 · conserto r15 (D4): a saída INTEIRA do gate colada no RELATO,
+        # como a régua manda, não reprova pelos rótulos que o próprio gate
+        # imprime (`<preencher> sobrando`, o grep do marcador, a contagem de
+        # ausência com o padrão do grep e a de palavra-chave negada).
+        s91 = nova_pasta('s91', '# Um titulo\n\npalavra-chave: nenhuma\n')
+        rel91 = s91 / 'RELATO.md'
+        rel91.write_text('# Relato\n\n' + RESUMO, encoding='utf-8')
+        cod91, t91 = rodar34(s91, fonte_lint)
+        assert cod91 == 0, t91
+        for rotulo91 in ('<preencher> sobrando: 0', "grep -rn '<preencher>'",
+                         'afirmações de ausência de capacidade sem comando colado: 0',
+                         'conclusão negativa de palavra-chave: 1'):
+            assert rotulo91 in t91, f'{rotulo91}: {t91}'
+        colado91 = ('# Relato\n\n' + RESUMO + '## Saída inteira do gate\n\n```\n'
+                    + t91 + '```\n')
+        rel91.write_text(colado91, encoding='utf-8')
+        cod91b, t91b = rodar34(s91, fonte_lint)
+        assert cod91b == 0, t91b
+        # 91c · par negativo: <preencher> de campo escrito fora da saída colada
+        rel91.write_text(colado91 + '\nteses distintas: <preencher>\n', encoding='utf-8')
+        cod91c, t91c = rodar34(s91, fonte_lint)
+        assert cod91c == 1, t91c
+        assert '<preencher> em outros arquivos da pasta: 1' in t91c, t91c
+        # 91d · par negativo: afirmação de ausência escrita pelo agente, sem comando
+        rel91.write_text(colado91 + '\nFiquei sem acesso à web e não busquei os preços.\n',
+                         encoding='utf-8')
+        cod91d, t91d = rodar34(s91, fonte_lint)
+        assert cod91d == 1, t91d
+        assert 'afirmação de ausência sem comando colado: RELATO.md:' in t91d, t91d
+        # 91e · par negativo: palavra-chave negada com a ocorrência colada
+        rel91.write_text(colado91, encoding='utf-8')
+        chk_em(s91).write_text(
+            base_ok + 'trecho de CTA encontrado: aula.md:2 manda BASE40\n', encoding='utf-8')
+        cod91e, t91e = rodar34(s91, fonte_lint)
+        assert cod91e == 1, t91e
+        assert 'conclusão contradiz a saída do grep' in t91e, t91e
+
+        # caso 92 · conserto r15 (D5): na auditoria de peça externa, `lint: ...`
+        # é o eco do passo 1 sobre os títulos DA PEÇA AUDITADA, achado do
+        # veredito e não campo com instrução. Em peça própria segue reprovando.
+        eco92 = '  lint: Reescreva e rode de novo.\n'
+        s92 = d / 's92'
+        s92.mkdir()
+        chk_em(s92).write_text(base37 + 'títulos auditados: 3\n' + eco92, encoding='utf-8')
+        cod92, t92 = rodar34(s92, fonte_lint, peca_externa=str(externa))
+        assert cod92 == 0, t92
+        assert 'eco do lint sobre os títulos da peça auditada: 1' in t92, t92
+        # 92b · par negativo: sem --peca-externa o eco é campo com instrução
+        s92b = nova_pasta('s92b', '# Um titulo\n\nlimpo\n', eco92)
+        cod92b, t92b = rodar34(s92b, fonte_lint)
+        assert cod92b == 1, t92b
+        assert 'campo com instrução no lugar do número: lint' in t92b, t92b
+        # 92c · par negativo: na auditoria, outro campo fechado com a ajuda do
+        # script segue reprovando
+        chk_em(s92).write_text(base37 + 'títulos auditados: 3\n' + eco92
+                               + 'falas de terceiro: rode de novo com --insumos\n',
+                               encoding='utf-8')
+        cod92c, t92c = rodar34(s92, fonte_lint, peca_externa=str(externa))
+        assert cod92c == 1, t92c
+        assert 'campo com instrução no lugar do número: falas de terceiro' in t92c, t92c
+
+        # caso 93 · conserto r15 (D7): na auditoria, `sim` acima de 1 no nicho é
+        # o achado sobre a peça do dono, e sai da reprova só quando TODO
+        # veredito da pasta reprova a peça (REPROVADA ou REFAZER)
+        s93 = d / 's93'
+        s93.mkdir()
+        chk_em(s93).write_text(
+            'títulos no lote: 3\n' + quatro_inv + '\n'
+            'T1 | substantivo trocado: joelho → planilha | sobrevive à troca de nicho? sim\n'
+            'T2 | substantivo trocado: treino → estudo | sobrevive à troca de nicho? sim\n'
+            'T3 | substantivo trocado: dor → prazo | sobrevive à troca de nicho? sim\n'
+            'títulos de abertura: 1 · reescritos: 1\n'
+            'títulos auditados: 3\n', encoding='utf-8')
+        ver93 = s93 / 'veredito-peca-do-cliente.md'
+
+        def veredito93(*vs):
+            ver93.write_text('# Veredito da peça do cliente\n\n'
+                             + ''.join(f'veredito: {v}\n\n' for v in vs)
+                             + 'Os três títulos servem a qualquer nicho.\n',
+                             encoding='utf-8')
+        for v93 in ('REPROVADA', 'REFAZER'):
+            veredito93(v93)
+            cod93, t93 = rodar34(s93, fonte_lint, peca_externa=str(externa))
+            assert cod93 == 0, f'{v93}: {t93}'
+            assert 'registrado no veredito que reprova a peça' in t93, t93
+        # 93b · pares negativos: veredito que aprova, veredito misto e pasta sem
+        # veredito seguem reprovando, e fora da auditoria também
+        for vs93 in (('APROVADA',), ('REPROVADA', 'APROVADA')):
+            veredito93(*vs93)
+            cod93b, t93b = rodar34(s93, fonte_lint, peca_externa=str(externa))
+            assert cod93b == 1, f'{vs93}: {t93b}'
+            assert 'sobrevive à troca de nicho: 3 acima do teto 1' in t93b, t93b
+        ver93.unlink()
+        cod93c, t93c = rodar34(s93, fonte_lint, peca_externa=str(externa))
+        assert cod93c == 1, t93c
+        assert 'sobrevive à troca de nicho: 3 acima do teto 1' in t93c, t93c
+        veredito93('REPROVADA')
+        cod93d, t93d = rodar34(s93, fonte_lint)
+        assert cod93d == 1, t93d
+        assert 'sobrevive à troca de nicho: 3 acima do teto 1' in t93d, t93d
+
+        # caso 94 · conserto r15 (D6): o passo 1 linta a peça sem os blocos
+        # cercados, igual ao --conferir. O trecho banido citado em bloco cercado
+        # passa nos dois passos; fora do bloco ele é copy e reprova nos dois.
+        s94 = nova_pasta('s94', '# Um titulo\n\nA frase citada:\n\n```\n'
+                                'O metodo destrava tudo.\n```\n')
+        args94 = argparse.Namespace(
+            peca=[str(s94 / 'peca.md')], titulos=None, teses=None, insumos=None,
+            perfil=None, ressalva=None, nomes=None, lint=fonte_lint)
+        out94 = []
+        _, falhas94 = montar(args94, out94)
+        assert 'arquivo: peca.md · exit: 0' in out94, out94
+        assert not any('lint reprovou' in f for f in falhas94), falhas94
+        cod94, t94 = rodar34(s94, fonte_lint)
+        assert cod94 == 0, t94
+        # 94b · par negativo: o mesmo trecho fora do bloco reprova nos dois passos
+        (s94 / 'peca.md').write_text('# Um titulo\n\nO metodo destrava tudo.\n',
+                                     encoding='utf-8')
+        out94 = []
+        _, falhas94 = montar(args94, out94)
+        assert 'arquivo: peca.md · exit: 1' in out94, out94
+        assert any('lint reprovou peca.md' in f for f in falhas94), falhas94
+        cod94b, t94b = rodar34(s94, fonte_lint)
+        assert cod94b == 1, t94b
+
+        # caso 95 · conserto r15 (D8): arquivo carrossel-, stories- ou frames-
+        # com 3 ou mais unidades numeradas desde a 1 fica fora da regra do H1:
+        # a capa é a unidade 1, e o H1 do .md ninguém vê. Peça comum sem H1,
+        # unidades de menos ou contagem que não começa na 1 seguem reprovando.
+        def unidades95(rotulo, de, ate):
+            return ''.join(f'{rotulo} {i}\n\ntexto da unidade {i}\n\n'
+                           for i in range(de, ate + 1))
+        carrossel95 = ('**Slide 1 (capa)**\n\ntexto da unidade 1\n\n'
+                       '**Slide 2**\n\ntexto da unidade 2\n\n'
+                       '**Slide 3**\n\ntexto da unidade 3\n\n')
+        for nome95, corpo95 in (('carrossel-joelho.md', carrossel95),
+                                ('stories-joelho.md', unidades95('Frame', 1, 4)),
+                                ('frames-joelho.md', unidades95('Slide', 1, 3))):
+            s95 = d / f's95-{nome95[:-3]}'
+            s95.mkdir()
+            (s95 / nome95).write_text(corpo95, encoding='utf-8')
+            n95 = corpo95.count('\n\ntexto da unidade')
+            chk_em(s95).write_text(
+                base_ok.replace('títulos no lote: 1', f'títulos no lote: {n95}'),
+                encoding='utf-8')
+            cod95, t95 = rodar34(s95, fonte_lint)
+            assert cod95 == 0, f'{nome95}: {t95}'
+            assert 'peça sem H1' not in t95, t95
+        # 95b · pares negativos: o mesmo corpo com nome de peça comum, só 2
+        # unidades, ou unidades que não começam na 1
+        for nome95, corpo95 in (('post-joelho.md', unidades95('Slide', 1, 3)),
+                                ('carrossel-curto.md', unidades95('Slide', 1, 2)),
+                                ('carrossel-sem-capa.md', unidades95('Slide', 2, 4))):
+            s95 = d / f's95-{nome95[:-3]}'
+            s95.mkdir()
+            (s95 / nome95).write_text(corpo95, encoding='utf-8')
+            n95 = corpo95.count('\n\ntexto da unidade')
+            chk_em(s95).write_text(
+                base_ok.replace('títulos no lote: 1', f'títulos no lote: {n95}'),
+                encoding='utf-8')
+            cod95, t95 = rodar34(s95, fonte_lint)
+            assert cod95 == 1, f'{nome95}: {t95}'
+            assert f'peça sem H1: {nome95}' in t95, t95
+
+        # caso 96 · linha de serviço: a caixinha de aceite e o rodapé de caminhos
+        # sobrevivem à troca de nicho por definição. A unidade sai da conta do
+        # teto só com `tipo: linha de serviço` no veredito, a frase dentro do
+        # `peça:` e o texto curto e sem sinal de venda. Preço cheio, quantidade,
+        # duração e `sem custo` que só descrevem o caminho ficam (EXEMPLO,
+        # números fictícios).
+        caixa96 = 'Sim, quero conversar agora sobre o acompanhamento de 12 semanas.'
+        rodape96 = ('Quando quiser ir além: (1) o roteiro de 30 frases, sem custo: [link]; '
+                    '(2) a aula avulsa, R$ 90: [link]; (3) a turma de 3 meses: me '
+                    'responde "turma" que eu te conto como funciona.')
+
+        def nicho96(*frases):
+            return ''.join(f't{i} | {f} | substantivo trocado: turma → mentoria | '
+                           f'sobrevive à troca de nicho? sim\n'
+                           for i, f in enumerate(frases, 1))
+
+        def pasta96(nome, frases, pecas, tipo='linha de serviço', fecho='', ext=externa):
+            s = d / nome
+            s.mkdir()
+            chk_em(s).write_text(
+                'títulos no lote: 3\n' + quatro_inv + '\n' + nicho96(*frases) + fecho
+                + 'títulos de abertura: 1 · reescritos: 1\n'
+                'títulos auditados: 3\n', encoding='utf-8')
+            (s / 'veredito-copy-linhas.md').write_text(
+                '# Veredito das linhas do formulário e do e-mail\n\n'
+                + ''.join(f'peça: {p}\ntipo: {tipo}\nveredito: APROVADA\n'
+                          f'resumo: capta o sinal de quem escolhe o caminho; a '
+                          f'promessa mora na peça que a cerca.\n\n' for p in pecas),
+                encoding='utf-8')
+            return rodar34(s, fonte_lint, peca_externa=str(ext))
+
+        # 96 (i) · caixinha e rodapé declarados linha de serviço passam, e o
+        # fecho literal da coluna (2 `sim`) segue batendo com a tabela
+        cod96, t96 = pasta96('s96', (caixa96, rodape96), (caixa96, rodape96),
+                             fecho='sobrevive à troca de nicho, sim: 2\n')
+        assert cod96 == 0, t96
+        assert 'linha de serviço declarada no veredito, fora do teto: 2' in t96, t96
+        # 96 (ii) · par negativo: os mesmos textos sem a linha do tipo reprovam
+        cod96b, t96b = pasta96('s96b', (caixa96, rodape96), (caixa96, rodape96),
+                               tipo='cta')
+        assert cod96b == 1, t96b
+        assert 'sobrevive à troca de nicho: 2 acima do teto 1' in t96b, t96b
+        # 96 (iii) · headline com promessa de resultado e anúncio longo com
+        # `tipo: linha de serviço` escrito no veredito NÃO ganham a isenção
+        head96 = 'Organize a agenda da semana inteira em 20 minutos no domingo.'
+        anuncio96 = ' '.join(['Você abre a agenda no domingo e não sabe por onde '
+                              'começar a semana'] * 4)
+        cod96c, t96c = pasta96('s96c', (head96, anuncio96), (head96, anuncio96))
+        assert cod96c == 1, t96c
+        assert 'sobrevive à troca de nicho: 2 acima do teto 1' in t96c, t96c
+        assert 'fora do teto' not in t96c, t96c
+        # 96 (iv) · só elas saem: duas linhas de serviço e duas unidades de
+        # outro tipo deixam 2 `sim` na conta, e o teto reprova
+        cod96d, t96d = pasta96('s96d', (caixa96, rodape96, head96, anuncio96),
+                               (caixa96, rodape96))
+        assert cod96d == 1, t96d
+        assert 'fora do teto: 2' in t96d, t96d
+        assert 'sobrevive à troca de nicho: 2 acima do teto 1' in t96d, t96d
+        # 96 (v) · por unidade: desconto, percentual de desconto, grátis como
+        # isca, urgência e escassez, até dia, garantia, depoimento entre aspas,
+        # número de alunos, promessa de resultado, frase fora do `peça:` e
+        # `peça:` que só nomeia a linha seguem contando
+        linha96 = 't1 | {} | substantivo trocado: a → b | sobrevive à troca de nicho? sim'
+        for frase96, peca96 in (
+                ('Sim, quero garantir o desconto da turma.',) * 2,
+                ('a aula avulsa com 30% off: [link]',) * 2,
+                ('ganhe o guia grátis: me responde guia',) * 2,
+                ('Quando quiser ir além, me responde hoje que as vagas fecham.',) * 2,
+                ('últimas duas turmas: me responde turma',) * 2,
+                ('me responde turma até dia [data]',) * 2,
+                ('me responde "turma" até [data], que a turma fecha nesse dia.',) * 2,
+                ('a turma tem garantia: me responde turma',) * 2,
+                ('a turma que uma aluna chamou de "a melhor coisa do ano": [link]',) * 2,
+                ('a turma que já formou 300 alunas: [link]',) * 2,
+                ('a turma pra falar inglês em 3 meses: [link]',) * 2,
+                ('Ainda quer usar o guia pra fechar a agenda sem atraso? Me responde: sim.',) * 2,
+                (caixa96, rodape96),
+                (caixa96, 'caixinha de aceite do formulário')):
+            assert not isenta_por_servico(linha96.format(frase96), [peca96]), frase96
+        # e o que só descreve o caminho fica: duração, preço cheio, quantidade,
+        # sem custo, grátis descritivo e a palavra curta entre aspas
+        for frase96, peca96 in (
+                (caixa96, caixa96),
+                ('a aula avulsa, R$ 90', rodape96),
+                ('me responde "turma" que eu te conto como funciona', rodape96),
+                ('o roteiro grátis: [link]',) * 2):
+            assert isenta_por_servico(linha96.format(frase96), [peca96]), frase96
+        # 96 (vi) · headline curta, sem número, preço nem urgência, declarada
+        # linha de serviço: cabeçalho da peça auditada nunca ganha a isenção
+        curta96 = 'Quem cuida da agenda sozinho, isso é com você?'
+        ext96 = d / 'peca96-anuncio.md'
+        ext96.write_text(f'# {curta96}\n\ntexto\n\n## T2\n\ntexto\n\n## T3\n\ntexto\n',
+                         encoding='utf-8')
+        cod96e, t96e = pasta96('s96e', (curta96, caixa96), (curta96, caixa96), ext=ext96)
+        assert cod96e == 0 and 'fora do teto: 1 ' in t96e, t96e
+        cod96f, t96f = pasta96('s96f', (curta96, head96), (curta96, head96), ext=ext96)
+        assert cod96f == 1, t96f
+        assert 'sobrevive à troca de nicho: 2 acima do teto 1' in t96f, t96f
+        assert not isenta_por_servico(linha96.format(curta96), [curta96],
+                                      [_norma_servico(curta96)])
+        # limites conhecidos, escritos pra não sumir: a mesma headline colada
+        # fora de cabeçalho passa no script, e o benefício fora do molde `pra X
+        # sem Y` também; quem barra é a regra estreita do tipo no SKILL.md do
+        # crítico, que nunca deixa headline nem argumento virar linha de serviço
+        assert isenta_por_servico(linha96.format(curta96), [curta96])
+        beneficio96 = 'Ainda quer a agenda da semana pronta no domingo? Me responde: sim.'
+        assert isenta_por_servico(linha96.format(beneficio96), [beneficio96])
+        # e o `pra <verbo>` sem o obstáculo, que é o pedido da conversa, fica
+        conversa96 = 'Sim, quero uma ligação pra conversar sobre a turma.'
+        assert isenta_por_servico(linha96.format(conversa96), [conversa96])
+
+        # caso 97 · com 0 títulos no universo (toda linha de serviço) o passo 1
+        # imprime a ajuda `sem --titulos: salve ...` sozinha na linha. Colada
+        # inteira, ela é saída do próprio gate e não campo com instrução.
+        ajuda97 = '  sem --titulos: salve um título de abertura por linha em titulos.txt\n'
+        s97 = nova_pasta('s97', '# Um titulo\n\nlimpo\n', ajuda97)
+        cod97, t97 = rodar34(s97, fonte_lint)
+        assert cod97 == 0, t97
+        assert 'saída do próprio gate: checagem-titulos.md' in t97, t97
+        # 97b · pares negativos: a mesma ajuda no valor de um campo de verdade,
+        # a ajuda com instrução a mais e o marcador no lugar dela reprovam
+        for i97, extra97 in enumerate((
+                'gatilhos fora da lista fechada: sem --titulos: salve um título de '
+                'abertura por linha em titulos.txt\n',
+                ajuda97.rstrip('\n') + ' e rode de novo\n',
+                '  sem --titulos: <preencher>\n')):
+            s97b = nova_pasta(f's97b{i97}', '# Um titulo\n\nlimpo\n', extra97)
+            cod97b, t97b = rodar34(s97b, fonte_lint)
+            assert cod97b == 1, f'{extra97}: {t97b}'
+
+    # v3 · mensagem ao dono: 8 linhas passam, 9 reprovam, lista de arquivos e
+    # nome de script reprovam
+    with tempfile.TemporaryDirectory() as dm:
+        dm = Path(dm)
+        garantir_conferencia(dm)
+        alvo_m = dm / SUBPASTA_BASTIDOR / MENSAGEM_DONO
+        assert mensagem_ao_dono(dm) == (False, 0, 0, [])
+        alvo_m.write_text('Você sobe as 2 peças amanhã ou espera a página?\n'
+                          'Pronto: 4 peças e o plano, abra copy-lote.md\n'
+                          'O clique está bom e a venda some no checkout.\n'
+                          '1. Qual o preço final?\n', encoding='utf-8')
+        assert mensagem_ao_dono(dm) == (True, 4, 1, []), mensagem_ao_dono(dm)
+        alvo_m.write_text('\n'.join(f'linha {i}' for i in range(9)), encoding='utf-8')
+        assert mensagem_ao_dono(dm)[1] == 9
+        alvo_m.write_text('Pronto: abra copy-lote.md\nplano-de-teste.md e manifesto.json\n'
+                          'o lint deu exit 0\n', encoding='utf-8')
+        _, _, n_a, j_a = mensagem_ao_dono(dm)
+        assert n_a == 2 and len(j_a) == 1, (n_a, j_a)
+
     print('checar_titulos.py self-test OK: lote, molde (lint + duas orações), exit por arquivo, '
           'ressalva somada no lote, marcador campo vs miolo, marcador acima de 6 palavras, '
           'palavra-chave de CTA literal nos insumos (inventada reprova) com automação no '
@@ -5447,7 +6357,24 @@ def selftest():
           'saída do gate (conferir.txt, .ultimo.txt e .ultimo-check.txt) fora do '
           'lint na re-execução; a peça renderizada em 2 temas com o universo pela '
           'copy fonte, um por card e não um por PNG; e o --fonte isentando o '
-          'cabeçalho herdado, igual já isentava marcador longo e nome.')
+          'cabeçalho herdado, igual já isentava marcador longo e nome. '
+          'Mais a rodada 15, cada conserto com o par negativo: os inteiros da linha '
+          '`campos no perfil` contados só antes do `|` (caminho com data fora da conta, '
+          'a linha do piso do gate convivendo com a dos 4 e os dígitos do caminho sem '
+          'fechar os 4), o bloco do passo 1 colado inteiro com o comentário do marcador '
+          'fora da conta, o piso fora do inventário duplicado com o total abaixo do piso '
+          'reprovando, a saída inteira do gate colada no RELATO sem reprovar pelos '
+          'rótulos dela, o eco do lint e o nicho com `sim` registrado no veredito que '
+          'reprova na auditoria de peça externa, o passo 1 lintando sem os blocos '
+          'cercados como o --conferir, e o carrossel, stories e frames numerados desde '
+          'a 1 fora da regra do H1. '
+          'Mais a linha de serviço: a caixinha e o rodapé com preço cheio, quantidade '
+          'e duração, com `tipo: linha de serviço` no veredito, fora do teto do nicho, '
+          'os mesmos textos sem o tipo reprovando, promessa de resultado, anúncio '
+          'longo, desconto, urgência, garantia, depoimento, número de alunos e '
+          'cabeçalho da peça auditada sem a isenção, e só elas saindo da conta. '
+          'Mais a ajuda `sem --titulos` do passo 1, colada sozinha na linha, fora '
+          'da conta de campo com instrução, e a mesma ajuda num campo reprovando.')
     return 0
 
 
@@ -5560,6 +6487,26 @@ def main(argv=None):
 
     if args.selftest:
         return selftest()
+    # Tetos de defesa: tempo, memória e tamanho da pasta de insumos. A pasta é
+    # medida ANTES de qualquer saída, pra que apontar --insumos pra árvore
+    # errada pare em segundos com a explicação, e não depois de horas de swap.
+    armar_tetos()
+    try:
+        if args.insumos:
+            arquivos_de_insumo(args.insumos)
+        return _main_corpo(args, ap)
+    except TetoEstourado as e:
+        avisar_teto(str(e))
+        return EXIT_TETO
+    except MemoryError:
+        avisar_teto(f'a conferência passou do teto de memória '
+                    f'({int(_teto("CHECAR_TITULOS_TETO_MEMORIA_MB", 2048))} MB)')
+        return EXIT_TETO
+    finally:
+        desarmar_tetos()
+
+
+def _main_corpo(args, ap):
     if args.render:
         code_r = checar_render(args.render, args.perfil)
         if not (args.conferir or args.peca):

@@ -579,7 +579,7 @@ O gatilho do "isso é você": o callout ultraespecífico do avatar, o hábito qu
 **Variações e compressões (fundidas, não somem):**
 - T82 absorve: "O guia completo para [DESEJO]" (o guia sem recorte de avatar).
 - T86 absorve: "Se você faz [SITUAÇÃO/HÁBITO], então [CONSEQUÊNCIA]".
-- O **callout falado** de reel (T9/T15/T20 + T81) só para o scroll **ultraespecífico e ≤7 palavras** ("Consultor que vende no story: escuta"); callout genérico e longo não segura.
+- O **callout falado** de reel (T9/T15/T20 + T81) só para o scroll **ultraespecífico e ≤7 palavras** ("Consultor que vende no story: escuta"); callout genérico e longo não segura. No **texto na tela** de reel curto, a família vira cena que o avatar reconhece, no teto de 5 palavras: T81/T218 como "POV: [CENA DO AVATAR]" ou "Quando eu [CENA DA ROTINA]" ("POV: 47 mensagens sem resposta", "Quando eu abro o WhatsApp"), e T219 dita direto, sem a moldura (referência de mercado medida em 450 posts: 92 mil a 789 mil plays nesse tipo, contra cerca de 1.100 do conselho genérico falado).
 - **Fundidas em T existente:** "[X] coisas que o [AVATAR] faz errado" → variação de **T30** · "O que fazer quando [AVATAR/SITUAÇÃO] acontece" → variação de **T14**.
 
 ### Fórmulas EXTERNO da família (15)
