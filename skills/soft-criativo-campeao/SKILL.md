@@ -1,7 +1,7 @@
 ---
 name: soft-criativo-campeao
 description: >-
-  Porta de entrada da tarefa ANUNCIAR: entrega ângulo, peças (lote de arte com texto do anúncio, roteiro de vídeo com instrução de edição) e plano de teste mínimo (verba pelo ticket, fases, quando matar e escalar). Âncora: pedido de anúncio ou de criativo = aqui; verba, conta e métrica de campanha = soft-trafego-meta. Use quando o pedido for: "quero anunciar", "anúncio", "criativo", "faz meus anúncios", "anúncio pro perpétuo", "anúncio pra VSL", "faz os criativos do anúncio", "preciso de 4 artes pra campanha", "roteiro do anúncio em vídeo", "qual o ângulo das peças", "por que o criativo não vende". NÃO use pra: quanto de verba pôr, subir campanha, métrica da conta, pausar ou escalar (soft-trafego-meta); peça avulsa ou banner (soft-designer); headline isolada (soft-conteudo-headlines); reel curto (soft-reel-7seg); editar vídeo gravado (soft-editor-video); roteiro de VSL (soft-funil-vsl); espionar ou desmontar anúncio de concorrente (soft-espiao). Leia e siga o fluxo inteiro do SKILL.md.
+  Porta de entrada da tarefa ANUNCIAR: entrega ângulo, peças (lote de arte com texto do anúncio, roteiro de vídeo com instrução de edição) e plano de teste mínimo (verba pelo ticket, fases, quando matar e escalar). Âncora: pedido de anúncio ou de criativo = aqui; verba, conta e métrica de campanha = soft-trafego-meta. Use quando o pedido for: "quero anunciar", "anúncio", "criativo", "faz meus anúncios", "anúncio pro perpétuo", "anúncio pra VSL", "faz os criativos do anúncio", "preciso de 4 artes pra campanha", "roteiro do anúncio em vídeo", "qual o ângulo das peças", "por que o criativo não vende". NÃO use pra: quanto de verba pôr, subir campanha, métrica da conta, pausar ou escalar (soft-trafego-meta); peça avulsa ou banner (soft-designer); headline ou gancho isolado (soft-conteudo-headlines, -ganchos); reel curto (soft-reel-7seg); editar vídeo gravado (soft-editor-video); roteiro de VSL (soft-funil-vsl); espionar ou desmontar anúncio de concorrente (soft-espiao). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Criativo campeão: do ângulo ao pixel
@@ -308,7 +308,8 @@ O veredito é o pior item da tabela. Falhou um, o lote não sai.
 
 Se a skill de destino não estiver instalada, esta faz o mínimo aqui, do jeito que está escrito no passo correspondente.
 
-- Escrever a headline ou o gancho do zero como peça própria, com banco de fórmulas: **soft-conteudo-headlines**. Sem ela, os ganchos nascem aqui no passo 1.
+- Escrever a headline do zero como peça própria, com banco de fórmulas: **soft-conteudo-headlines**. Sem ela, os ganchos nascem aqui no passo 1.
+- Escolher um gancho universal pronto, de banco de moldes (serve a qualquer conteúdo ou encaixa no que já existe): **soft-conteudo-ganchos**.
 - Peça editorial única com diagrama, tabela ou layout complexo: **soft-designer**. Sem ela, vale a ordem de preferência do passo 5.
 - Pesquisar o que vende no nicho, espionar ou desmontar anúncio de concorrente: **soft-espiao**. Sem ela, a régua mínima está em `references/playbook-video-ads.md`, seção 8.
 - Criar campanha, segmentar, ler métrica bruta, escalar ou pausar na conta, e o plano de mídia de campanha que já roda (o que turbinar, distribuição): **soft-trafego-meta**. Sem ela, o passo 8 e o `plano-de-teste.md` da Ação 0 saem com o passo a passo à mão.

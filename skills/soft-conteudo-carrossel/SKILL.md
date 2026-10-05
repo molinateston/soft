@@ -1,7 +1,7 @@
 ---
 name: soft-conteudo-carrossel
 description: >-
-  Escreve o CORPO de um carrossel de feed em arquivo .md, da capa ao CTA, slide a slide. Âncora: "post/publicação de feed" sem formato dito = carrossel; e "faz um carrossel" sem mais nada = o TEXTO aqui, a ARTE é da soft-designer. Use quando o pedido for: "faz um carrossel", "monta um carrossel sobre X", "escreve os slides", "post de feed", "publicação de feed", "faz um post" (sem formato dito), "o corpo do carrossel", "transforma essa capa em carrossel", "carrossel de lista". NÃO use pra: renderizar o carrossel em PNG, layout, arte (soft-designer); a headline ou capa isolada, que vem ANTES (soft-conteudo-headlines); o roteiro de vídeo curto (soft-conteudo-reels); frames de story (soft-conteudo-stories); levar um carrossel pronto pra LinkedIn, X ou e-mail (soft-conteudo-multiplataforma); decidir o tema (soft-conteudo-planner); posicionamento (soft-plano-posicionamento); carta e página (soft-funil-carta, soft-funil-landing). Leia e siga o fluxo inteiro do SKILL.md.
+  Escreve o CORPO de um carrossel de feed em arquivo .md, da capa ao CTA, slide a slide. Âncora: "post/publicação de feed" sem formato dito = carrossel; e "faz um carrossel" sem mais nada = o TEXTO aqui, a ARTE é da soft-designer. Use quando o pedido for: "faz um carrossel", "monta um carrossel sobre X", "escreve os slides", "post de feed", "publicação de feed", "faz um post" (sem formato dito), "o corpo do carrossel", "transforma essa capa em carrossel", "carrossel de lista". NÃO use pra: renderizar o carrossel em PNG, layout, arte (soft-designer); a headline, capa ou gancho isolado, que vem ANTES (soft-conteudo-headlines, soft-conteudo-ganchos); o roteiro de vídeo curto (soft-conteudo-reels); frames de story (soft-conteudo-stories); levar um carrossel pronto pra LinkedIn, X ou e-mail (soft-conteudo-multiplataforma); decidir o tema (soft-conteudo-planner); posicionamento (soft-plano-posicionamento); carta e página (soft-funil-carta, soft-funil-landing). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Carrossel, a peça que move a decisão
@@ -315,7 +315,8 @@ Esta skill escreve o CORPO do carrossel e para aí. Em toda rota abaixo, se a sk
 
 | O pedido é | Vai pra | Se não estiver instalada |
 |---|---|---|
-| A **capa/headline/gancho** isolada, que vem ANTES deste corpo | **soft-conteudo-headlines** | escreve 3 opções de capa a partir da dor ancorada e pede pro dono cravar UMA |
+| A **capa ou headline** isolada, que vem ANTES deste corpo (o dono tem uma dor, objeção ou número) | **soft-conteudo-headlines** | escreve 3 opções de capa a partir da dor ancorada e pede pro dono cravar UMA |
+| Um **gancho universal** de capa (serve a qualquer conteúdo ou encaixa no que já existe) | **soft-conteudo-ganchos** | escreve 3 opções de capa sem lacuna, sem dado do dono, e pede pro dono cravar UMA |
 | O **roteiro falado** de vídeo curto | **soft-conteudo-reels** | comprime o mapa de densidade em 5 marcações de fala e avisa |
 | A **sequência de frames** de story | **soft-conteudo-stories** | quebra os slides em frames de texto na tela e avisa |
 | Levar este carrossel pra **LinkedIn, X, YouTube, e-mail, PDF** | **soft-conteudo-multiplataforma** | entrega só a versão de feed e diz que a adaptação fica pendente |

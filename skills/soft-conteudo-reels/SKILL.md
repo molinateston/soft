@@ -1,7 +1,7 @@
 ---
 name: soft-conteudo-reels
 description: >-
-  Escreve o ROTEIRO de um reel em arquivo .md, do gancho ao CTA: o que falar, o que mostrar e o que vai escrito na tela. Âncora: ESCREVER o que dizer = reels; EDITAR o vídeo já gravado = soft-editor-video. Use quando o pedido for: "faz um reel sobre X", "roteiro de reel", "o que eu falo nesse vídeo", "script de vídeo curto", "reel de 30 segundos", "vídeo lo-fi", "reel falado", "escreve a legenda de publicação desse reel", "lote de reels". NÃO use pra: PRODUZIR o reel curto de 7 segundos, com cena, render e headline sobre o vídeo (soft-reel-7seg); cortar, queimar legenda ou editar o vídeo já gravado (soft-editor-video); a headline isolada, que vem ANTES (soft-conteudo-headlines); os slides do carrossel (soft-conteudo-carrossel); frames de story (soft-conteudo-stories); adaptar o reel pronto pra outra plataforma (soft-conteudo-multiplataforma); decidir o tema (soft-conteudo-planner); arte e PNG (soft-designer); carta e VSL (soft-funil-carta). Leia e siga o fluxo inteiro do SKILL.md.
+  Escreve o ROTEIRO de um reel em arquivo .md, do gancho ao CTA: o que falar, o que mostrar e o que vai escrito na tela. Âncora: ESCREVER o que dizer = reels; EDITAR o vídeo já gravado = soft-editor-video. Use quando o pedido for: "faz um reel sobre X", "roteiro de reel", "o que eu falo nesse vídeo", "script de vídeo curto", "reel de 30 segundos", "vídeo lo-fi", "reel falado", "escreve a legenda de publicação desse reel", "lote de reels". NÃO use pra: PRODUZIR o reel de 7 segundos, com cena e render (soft-reel-7seg); cortar, queimar legenda ou editar o vídeo já gravado (soft-editor-video); a headline ou o gancho isolado, que vem ANTES (soft-conteudo-headlines, soft-conteudo-ganchos); os slides do carrossel (soft-conteudo-carrossel); frames de story (soft-conteudo-stories); adaptar o reel pronto pra outra plataforma (soft-conteudo-multiplataforma); decidir o tema (soft-conteudo-planner); arte e PNG (soft-designer); carta e VSL (soft-funil-carta). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # Reel, o vídeo curto que atrai
@@ -270,7 +270,8 @@ Esta skill escreve o ROTEIRO e para aí. Em toda rota abaixo, se a skill de dest
 | O pedido é | Vai pra | Se não estiver instalada |
 |---|---|---|
 | **Cortar, legendar, editar** o vídeo já gravado, b-roll, ritmo, cold open | **soft-editor-video** | descreve em texto o corte pretendido e avisa que a edição em si fica pendente |
-| A **headline/gancho** isolada, que vem ANTES | **soft-conteudo-headlines** | escreve 3 aberturas a partir da dor ancorada e pede pro dono cravar UMA |
+| A **headline** isolada, que vem ANTES (o dono tem uma dor, objeção ou número) | **soft-conteudo-headlines** | escreve 3 aberturas a partir da dor ancorada e pede pro dono cravar UMA |
+| Um **gancho universal** (serve a qualquer conteúdo ou encaixa no que já existe) | **soft-conteudo-ganchos** | escreve 3 aberturas sem lacuna, sem dado do dono, e pede pro dono cravar UMA |
 | Os **slides do carrossel** | **soft-conteudo-carrossel** | entrega só o roteiro e diz que os slides são outra peça |
 | A **sequência de frames** de story | **soft-conteudo-stories** | quebra o roteiro em frames de texto na tela e avisa |
 | Levar este reel pra **LinkedIn, X, YouTube, TikTok, e-mail** | **soft-conteudo-multiplataforma** | entrega só a versão de reel e diz que a adaptação fica pendente |

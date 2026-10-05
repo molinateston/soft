@@ -9,7 +9,7 @@ description: >-
   cinematográfico", "produz o vídeo de 7 segundos", "aquele formato de ler a legenda", "headline
   por cima do vídeo", "troca a mídia do post agendado", "valida esse reel antes de subir". NÃO use
   pra: escrever o roteiro do reel, inclusive a variante falada de 7 segundos
-  (soft-conteudo-reels); editar gravação crua (soft-editor-video).
+  (soft-conteudo-reels); editar gravação crua (soft-editor-video); a headline ou o gancho isolado (soft-conteudo-headlines, soft-conteudo-ganchos).
 ---
 
 # Reel curto de read-caption
@@ -230,7 +230,8 @@ Cada rota abaixo é sugestão. Se a skill indicada não estiver instalada, faço
 
 - O **roteiro falado** de um reel comum, com fala e cortes → **soft-conteudo-reels**.
 - A **edição de vídeo** longo, corte, legenda, b-roll → **soft-editor-video**.
-- A **headline** fora deste formato → **soft-conteudo-headlines**.
+- A **headline** fora deste formato (o dono tem uma dor, objeção ou número) → **soft-conteudo-headlines**.
+- Um **gancho universal** pronto (serve a qualquer conteúdo ou encaixa no que já existe) → **soft-conteudo-ganchos**.
 - A **auditoria completa de copy** → **soft-critico-copy**.
 - **Arte estática**, carrossel, capa, banner → **soft-designer**.
 - **Campanha, verba e métrica** → **soft-trafego-meta**.
