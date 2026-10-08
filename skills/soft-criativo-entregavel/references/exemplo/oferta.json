@@ -1,0 +1,242 @@
+{
+ "nome": "50 Lições Visuais de Budismo para a Vida",
+ "raiz": "D:\\Concepções Low Ticket\\Estruturas\\11 - 50 Lições Visuais de Budismo para a Vida",
+ "capa": "capa",
+ "mockup": "PNGS MOCKUPS/PRINCIPAL.png",
+ "dias": "STQQSSD",
+ "paleta": {
+  "a": {
+   "a": [
+    122,
+    160,
+    104
+   ],
+   "l": [
+    178,
+    208,
+    160
+   ],
+   "d": [
+    74,
+    112,
+    66
+   ],
+   "mark": [
+    206,
+    228,
+    188
+   ],
+   "tint": [
+    230,
+    240,
+    220
+   ],
+   "blob0": [
+    152,
+    188,
+    132
+   ],
+   "blob1": [
+    96,
+    138,
+    86
+   ],
+   "blob2": [
+    218,
+    236,
+    204
+   ]
+  },
+  "b": {
+   "a": [
+    222,
+    164,
+    48
+   ],
+   "l": [
+    247,
+    208,
+    114
+   ],
+   "d": [
+    172,
+    118,
+    24
+   ],
+   "mark": [
+    250,
+    222,
+    132
+   ],
+   "tint": [
+    252,
+    241,
+    210
+   ],
+   "blob0": [
+    245,
+    198,
+    96
+   ],
+   "blob1": [
+    214,
+    150,
+    38
+   ],
+   "blob2": [
+    255,
+    234,
+    176
+   ]
+  },
+  "dark": {
+   "base": [
+    18,
+    35,
+    26
+   ],
+   "glow": [
+    47,
+    90,
+    62
+   ],
+   "acento": [
+    178,
+    220,
+    156
+   ],
+   "texto": [
+    242,
+    240,
+    226
+   ],
+   "pill": [
+    44,
+    86,
+    58
+   ]
+  }
+ },
+ "tinta": [
+  34,
+  40,
+  32
+ ],
+ "paginas": {
+  "capa": "Impressão/000-capa.png",
+  "l02": "Impressão/02-licao-02-as-quatro-nobres-verdades.png",
+  "l03": "Impressão/03-licao-03-sofrimento-e-apego.png",
+  "l05": "PREVIAS/PREVIA (2).png",
+  "l07": "Impressão/07-licao-07-desapego.png",
+  "l08": "Impressão/08-licao-08-o-caminho-do-meio.png",
+  "l10": "Impressão/10-licao-10-karma-como-acao-e-consequencia.png",
+  "l14": "Impressão/14-licao-14-aceitacao-ativa.png",
+  "l17": "Impressão/17-licao-17-gratidao.png",
+  "l18": "Impressão/18-licao-18-silencio-interior.png",
+  "l21": "Impressão/21-licao-21-acao-correta.png",
+  "l31": "Impressão/31-licao-31-compaixao-por-si.png",
+  "l34": "Impressão/34-licao-34-comer-com-atencao.png",
+  "l42": "Impressão/42-licao-42-apego-ao-controle.png",
+  "l45": "Impressão/45-licao-45-pequenas-coisas.png",
+  "l48": "Impressão/48-licao-48-refugio-na-pratica-diaria.png",
+  "l49": "Impressão/49-licao-49-integrar-os-ensinamentos.png"
+ },
+ "regioes": {
+  "l03": {
+   "ilustracao": [
+    20,
+    290,
+    1010,
+    800
+   ],
+   "explicacao": [
+    36,
+    820,
+    342,
+    1240
+   ],
+   "exemplo": [
+    354,
+    820,
+    664,
+    1240
+   ],
+   "pratica": [
+    678,
+    820,
+    988,
+    1240
+   ],
+   "anotacao": [
+    36,
+    1252,
+    988,
+    1516
+   ]
+  },
+  "l05": {
+   "ilustracao": [
+    30,
+    300,
+    1000,
+    1005
+   ],
+   "explicacao": [
+    38,
+    1010,
+    345,
+    1298
+   ],
+   "exemplo": [
+    352,
+    1010,
+    628,
+    1298
+   ],
+   "pratica": [
+    636,
+    1010,
+    998,
+    1298
+   ],
+   "anotacao": [
+    36,
+    1305,
+    992,
+    1520
+   ]
+  }
+ },
+ "takes": {
+  "folhas_mesa": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO PRINT 01.MOV",
+   "inicio": 38.0,
+   "dur": 5.6
+  },
+  "tablet_capa": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO TABLET 01.MOV",
+   "inicio": 0.2,
+   "dur": 5.0
+  },
+  "folha_capa": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO PRINT 01.MOV",
+   "inicio": 1.0,
+   "dur": 4.8
+  },
+  "tablet_licao05": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO TABLET 01.MOV",
+   "inicio": 12.6,
+   "dur": 3.2
+  },
+  "folhas_virando": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO PRINT 01.MOV",
+   "inicio": 12.4,
+   "dur": 6.6
+  },
+  "folha_silencio": {
+   "arquivo": "Assets/VIDEOS OUTROS/BUDISMO PRINT 01.MOV",
+   "inicio": 17.2,
+   "dur": 4.0
+  }
+ }
+}

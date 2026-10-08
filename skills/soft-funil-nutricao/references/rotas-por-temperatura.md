@@ -12,7 +12,7 @@ Lei de base: **temperatura é comportamento observável**. Não é palpite, não
 |---|---|---|---|
 | **FRIO** | baixou a isca, nunca comprou, não abriu mais que 1 mensagem, não clicou, não respondeu | que tem um problema | que existe outra saída, e que ela é sua |
 | **MORNO** | consumiu a isca (clicou no link dela) OU clicou em qualquer link OU respondeu qualquer mensagem | que existe outra saída | a decisão de dar o próximo passo agora |
-| **QUENTE** | foi na call ou no webinar e não fechou, OU pediu preço, OU respondeu perguntando "como funciona" | que a saída é sua | resolver a objeção específica dele |
+| **QUENTE** | foi na call ou no webinar e não fechou, OU pediu preço, OU respondeu perguntando "como funciona", OU marcou no formulário a caixinha de quem quer conversar agora | que a saída é sua | resolver a objeção específica dele |
 
 O que não cabe em nenhum dos três: quem já comprou. **Cliente sai de toda régua de aquisição.** O filtro "já comprou?" roda na entrada de todo disparo, sem exceção.
 
@@ -104,6 +104,8 @@ O que não cabe em nenhum dos três: quem já comprou. **Cliente sai de toda ré
 | entrou na sala do webinar e saiu antes da oferta | morno |
 | entrou na sala e ficou até o fim sem comprar | quente |
 | agendou e não apareceu | quente, com o toque de remarcação |
+| marcou no formulário da isca a caixinha de quem quer conversar agora | quente na hora: sai da automação e recebe a mensagem da equipe no mesmo dia; a rota quente só entra se a conversa não fechar |
+| se inscreveu de novo num material novo (nova inscrição) | morno; quem já era morno recebe o convite pro destino |
 
 **Desce (ou sai):**
 

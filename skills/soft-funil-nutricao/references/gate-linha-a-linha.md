@@ -23,6 +23,8 @@ Ordem de execução: os 3 checks próprios primeiro (são os que mais reprovam),
 
 **Por que importa:** dois destinos dividem o clique e não fecham nenhum dos dois. O lead que precisa escolher entre duas ações não faz nenhuma.
 
+**Fora da conta:** o rodapé fixo de três caminhos (`sequencia-pos-isca.md`, Seção 5), igual em todo envio, sem urgência, desconto ou argumento. Ele mostra o que existe e não pede a compra; o destino da mensagem continua um só. O mesmo vale no check 7.
+
 ### 2. Referencia o ativo
 
 **Passa se:** a mensagem cita, pelo nome, a isca que **aquele lead** consumiu, ou o sinal específico que ele deu.

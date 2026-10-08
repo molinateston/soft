@@ -1,13 +1,13 @@
-# Arsenal de ângulos: 5 técnicas de CPC baixo
+# Arsenal de ângulos: 6 técnicas de CPC baixo
 
-Estes 5 ângulos entram no Passo 1 do lote. Cada peça continua nascendo de UMA
+Estes 6 ângulos entram no Passo 1 do lote. Cada peça continua nascendo de UMA
 dor (a regra de ouro do lote não muda), mas o ângulo escolhe COMO essa dor vira
 gancho. O princípio por trás de todos: comunicação que o mercado não está usando,
 somada a comunicação que o público quer consumir, tira o anúncio do leilão
 saturado. O Meta lê como qualidade alta e o CPC cai. Comunicação única, menos
 concorrência, leilão limpo, CPC menor.
 
-Você não usa os cinco na mesma peça. Escolhe um por gancho, e no lote de 4 pode
+Você não usa os seis na mesma peça. Escolhe um por gancho, e no lote de 4 pode
 variar os ângulos pra descobrir qual fala com o avatar. Todo gancho, seja qual
 for o ângulo, ainda passa pelo lint anti-IA e pela régua de lastro.
 
@@ -22,6 +22,9 @@ Reprova na hora:
 - inversão sem prova (o "porque X" que ninguém sustenta)
 - choque vazio, sem o lastro que o justifica
 - história que não aconteceu, montada só pra prender o clique
+
+O sexto, a Frase do cliente, tem a régua mais simples de todas: a frase foi dita
+ou escrita por cliente de verdade, ou não entra (seção 6).
 
 A régua zero-inventado da skill manda aqui igual manda no resto. Todo dado, toda
 prova, toda virada sai do material do dono, ou sai marcada `[A CONFIRMAR]`. Um
@@ -158,6 +161,41 @@ Renata dentro.
 diz dentro da trend segue a régua zero-inventado. Emprestar o formato não libera
 copiar uma marca alheia nem prometer o que o método não faz.
 
+## 6. Frase do cliente (a fala real como gancho)
+
+**O que faz:** usa como gancho a frase que o cliente escreve ou fala quando
+descreve o problema, com as palavras dele, sem polir. Quem lê reconhece a
+própria voz antes de perceber que é anúncio. A frase abre; o corpo fecha com o
+mecanismo do dono pelo nome, porque a mesma frase qualquer concorrente do nicho
+também ouve dos clientes dele.
+
+**De onde vem:** só da lista `conferencia/frases-do-cliente.txt` do Passo 1, com
+origem e contagem. Comece pela frase que mais se repete nas fontes. A frase entra
+sem nome e sem detalhe que identifique quem disse; frase de uma pessoa só, com
+cena ou detalhe dela, segue a regra de autorização do material do dono.
+
+**Quando usar:** quando o dono tem conversas, comentários ou transcrições de
+cliente e o lote quer saber se a fala do público prende mais que o gancho escrito
+por ele. Se ela custa menos no seu público é premissa a testar com o seu dado,
+nunca promessa.
+
+**Exemplo (Renata):** se as mensagens das alunas trazem a dor-mãe do avatar com
+as mesmas palavras, "eu começo e paro", e ela fica no topo da contagem, o gancho
+é a frase inteira, entre aspas e sem nome, e o sub diz pra quem é: "Pra quem já
+recomeçou o treino mais vezes do que gostaria." Sem essas mensagens na lista, o
+exemplo não vale.
+
+**O teste:** a mesma arte roda com 2 a 3 frases da lista e só o texto muda
+(`metodo-4-campos.md`: trocar só o texto é o teste mais barato quando a peça já
+vende), dentro do plano de teste do lote, com objetivo de venda. Frase que só
+junta clique não ganha a rodada.
+
+**Régua de lastro (dura):** frase escrita pela IA ou pelo dono no lugar do
+cliente fica na lista como `HIPÓTESE` e vira pergunta pro dono ("algum cliente
+já te disse algo parecido?"); sem a resposta, este ângulo sai do lote. Polir a
+frase também tira o lastro: dá pra cortar o começo ou o fim, nunca trocar a
+palavra do cliente por uma mais bonita.
+
 ---
 
 ## Como o ângulo entra no lote (não muda o fluxo)
@@ -169,3 +207,5 @@ copiar uma marca alheia nem prometer o que o método não faz.
   antes de virar peça. O ângulo não é atalho pra fugir do gate.
 - Patinho Feio e Plot Twist são os que mais reprovam por lastro. Na dúvida sobre
   a verdade da inversão ou da história, o gancho vira pergunta pro dono, não peça.
+- Frase do cliente nasce da lista do Passo 1: sem frase real com origem, o
+  ângulo fica fora do lote e os outros cinco seguem.

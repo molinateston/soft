@@ -62,7 +62,7 @@ Estas não são preferências. Ignorar aqui derruba o número.
 - **Assunto de 4 a 7 palavras** que abre um loop, não que entrega a conclusão. "Por que a agenda cheia não paga a conta" abre. "Dica de gestão de agenda" não abre nada.
 - **Zero clickbait que a mensagem não paga.** Assunto que promete o que o corpo não entrega treina a base a não abrir o próximo.
 - **Uma ideia por parágrafo, parágrafos de 1 a 3 linhas.** A leitura é no celular, na fila do banco.
-- **CTA repetido no máximo 2 vezes**, e sempre pro mesmo destino.
+- **CTA repetido no máximo 2 vezes**, e sempre pro mesmo destino. O rodapé fixo de três caminhos (`sequencia-pos-isca.md`, Seção 5) não conta como CTA.
 - **Remetente com nome de pessoa**, não de empresa. Pessoa abre e-mail de pessoa.
 - **Descadastro visível e funcionando.** Link quebrado de descadastro é o caminho mais rápido pro spam.
 - **Higiene:** quem não abre há 90 dias sai da lista ativa e vai pro fluxo de reativação. Lista suja derruba a entrega de todo mundo, inclusive de quem abre.

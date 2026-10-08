@@ -134,6 +134,9 @@ Cada molde traz a função, a estrutura e o erro que mais mata aquele toque. Os 
 - **Escalada de pedido.** O toque 2 pede uma palavra. O toque 5 pede 30 minutos. Nunca pule direto pro pedido grande.
 - **Cada mensagem tem uma saída.** O lead precisa poder dizer "para" sem culpa, e o "para" precisa ser respeitado no mesmo dia.
 - **Nada de cliente na régua.** O filtro "já comprou?" roda na entrada de todo disparo.
+- **Todo envio fecha com o rodapé fixo de três caminhos.** Um P.S. escrito uma vez e igual em todo envio (régua, rotas, reativação e broadcast), com o que o dono tem de gratuito, de entrada e principal, nessa ordem, e como chegar em cada um. Ele mostra o que existe sem pedir a compra: sem urgência, sem desconto, sem argumento, e o CTA da mensagem continua um só. O porquê: quem lê a régua nem sempre sabe tudo o que você oferece, e quem já está pronto acha o caminho sem esperar o convite. Pergunte ao dono uma vez, junto do destino: "o que você tem de graça, de entrada e principal, e o link de cada um?". O rodapé sai com os nomes e links reais; caminho sem link vira "me responde [palavra]". Sem produto de entrada, o rodapé sai com dois caminhos, e nenhum é inventado. Na entrega ele aparece uma vez só, no bloco de configuração (`rodapé fixo: <texto>`), com a instrução de subir como rodapé da ferramenta de e-mail ou de colar igual no fim de cada WhatsApp; as mensagens do arquivo não o repetem, e assim o check 4 do gate e o teste do nicho trocado leem o rodapé uma vez. No e-mail, três itens; no WhatsApp e no Direct, uma linha só. Molde do e-mail:
+
+> P.S. Quando quiser ir além: (1) [gratuito], sem custo: [link]; (2) [entrada], [preço]: [link]; (3) [principal]: me responde "[palavra]" que eu te conto como funciona.
 
 ---
 

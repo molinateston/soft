@@ -39,7 +39,7 @@ Esta skill é um agente que conduz, e o padrão está em `shared-references/criv
 | "régua de nutrição", "o que mandar depois que baixou", "sequência pós-isca", "aquecer o lead", "como levar quem baixou pro webinar" | **1 · RÉGUA PÓS-ISCA** |
 | "esse lead já foi na call e não fechou", "tem gente quente e gente fria na mesma lista", "o que mandar pra quem respondeu" | **2 · ROTAS POR TEMPERATURA** |
 | "minha lista está parada", "base fria", "reativar", "faz meses que não mando nada" | **3 · REATIVAÇÃO** |
-| "manda um aviso pra base", "broadcast", "abri turma nova, avisa todo mundo" | **4 · BROADCAST** |
+| "manda um aviso pra base", "broadcast", "abri turma nova, avisa todo mundo", "manda meu guia novo pra lista pedindo inscrição" | **4 · BROADCAST** |
 | "monta o funil de nutrição inteiro" | **1, depois 2, depois 3 se houver base velha, com parada em cada** |
 
 Pedido ambíguo ("me ajuda com a nutrição", "o lead some depois da isca"): pergunta UMA coisa só, **"pra onde você quer levar essa pessoa depois?"**, mostra a tabela acima como cardápio e segue pela resposta.
@@ -50,7 +50,7 @@ Toda ação abaixo traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem 
 
 **O perfil do dono vem do banco do agente.** Onde a ação precisar de posicionamento, avatar, voz, oferta ou prova: leia do perfil/brain do agente quando existir; se não existir, faça a entrevista curta descrita no "Sem o insumo" da ação e siga com o que faltar marcado `[A CONFIRMAR: o quê]`. Nunca invente, nunca pare por causa disso.
 
-**Duas regras que valem em toda ação:** cliente sai de toda régua de aquisição (o filtro "já comprou?" roda na entrada de todo disparo), e nenhum número, caso ou fala entra sem fonte.
+**Três regras que valem em toda ação:** cliente sai de toda régua de aquisição (o filtro "já comprou?" roda na entrada de todo disparo); nenhum número, caso ou fala entra sem fonte; e todo envio fecha com o rodapé fixo de três caminhos (o gratuito, o de entrada e o principal), escrito uma vez e igual em todos, que mostra o que existe sem virar oferta (molde e regras em `references/sequencia-pos-isca.md`, Seção 5).
 
 ---
 
@@ -81,7 +81,7 @@ Ele imprime `nomes candidatos achados pelo script: N` e, por nome, `autorizaçã
 
 **Sem o NOME da isca, pergunte antes de escrever a primeira mensagem, e não escreva sem resposta.** Toda mensagem da régua cita a isca pelo nome, então nome ausente contamina a régua inteira. Pergunte numa única mensagem duas coisas: **(a) qual o nome exato da isca**, como o lead viu na página e no arquivo, e **(b) 3 seções, capítulos ou passos reais do material**, com o título de cada uma. Com isso cada toque referencia um pedaço concreto do que ele consumiu, em vez de falar do material no genérico. Se o dono responder o nome mas não as seções, escreva com o nome e marque `[A CONFIRMAR: seções do material]` no toque que dependia delas.
 
-**Entrega:** `regua-nutricao.md`, com o bloco de configuração no topo (isca, crença-ponte, destino, temperatura, canais, cadência, filtro de saída, furos), as mensagens uma a uma com dia e canal, e o checklist de subida no fim. **STOP.**
+**Entrega:** `regua-nutricao.md`, com o bloco de configuração no topo (isca, crença-ponte, destino, temperatura, canais, cadência, filtro de saída, rodapé fixo, furos), as mensagens uma a uma com dia e canal, e o checklist de subida no fim. **STOP.**
 
 **Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
@@ -103,7 +103,7 @@ Ele imprime `nomes candidatos achados pelo script: N` e, por nome, `autorizaçã
 
 **O que faz:** desenha a ramificação que manda cada lead pro caminho certo, pelo comportamento que ele teve, e escreve as mensagens de cada rota.
 
-**Precisa de:** a régua base da Ação 1 (ou o destino declarado, no mínimo) · os **sinais que o dono consegue registrar** de verdade na ferramenta dele (abriu, clicou, respondeu, foi na call), perguntados a ele · nas rotas morna e quente, a **objeção real** que o dono ouve dos leads que não fecham.
+**Precisa de:** a régua base da Ação 1 (ou o destino declarado, no mínimo) · os **sinais que o dono consegue registrar** de verdade na ferramenta dele (abriu, clicou, respondeu, foi na call, marcou no formulário a caixinha de quem quer conversar agora, se inscreveu de novo), perguntados a ele · nas rotas morna e quente, a **objeção real** que o dono ouve dos leads que não fecham.
 
 **Sem o insumo:** se o dono não sabe quais sinais a ferramenta dele registra, use os três que qualquer ferramenta pega (respondeu, clicou, comprou) e monte a ramificação só com eles, marcando `[A CONFIRMAR: sinais disponíveis]`. Se ele não sabe nomear a objeção da rota quente, use as três que aparecem quase sempre (preço, tempo, confiança) e faça o toque 4 ser a pergunta de 1 palavra que devolve a objeção na voz do lead.
 
@@ -162,11 +162,11 @@ Ele imprime `nomes candidatos achados pelo script: N` e, por nome, `autorizaçã
 
 **Leia primeiro:** `references/reativacao-e-broadcast.md`, Seção 2 (o que autoriza, as 4 checagens, o molde de 4 linhas).
 
-**Profundidade:** `references/canais-e-cadencia.md` (frequência e colisão).
+**Profundidade:** `references/canais-e-cadencia.md` (frequência e colisão) · `references/rotas-por-temperatura.md`, Seção 5 (o sinal de quem se inscreve de novo).
 
 **Os passos:**
 1. Rode as **4 checagens** antes de escrever: motivo real, filtro de cliente, colisão com régua ativa, recorte certo.
-2. Escreva pelo molde de 4 linhas: a notícia primeiro, o que ela muda, o link sozinho, a saída.
+2. Escreva pelo molde de 4 linhas: a notícia primeiro, o que ela muda, o link sozinho, a saída. **Material novo (guia, aula, ferramenta) sai como convite de nova inscrição:** o link vai pra página de inscrição, nunca pro arquivo, porque quem se inscreve de novo mostra que está pronto pra avançar e a lista volta a esquentar sem oferta.
 3. Confira a frequência: no máximo 1 por semana pra mesma base, nunca dois em dias seguidos. Se precisa de mais, é régua.
 4. Rode o gate. **STOP.**
 
@@ -219,7 +219,7 @@ grep -oE '\[[^]]*\]' <bloco de copy> | awk '{print NF, $0}'
 **Como roda:** em **cada** mensagem, assunto e corpo. **O veredito é o PIOR item**, e um ✗ refaz a mensagem, não a régua.
 
 Os 3 checks próprios, que mais reprovam:
-1. **UM destino:** a régua inteira empurra pra um destino declarado. Dois destinos reprova.
+1. **UM destino:** a régua inteira empurra pra um destino declarado. Dois destinos reprova. O rodapé fixo de três caminhos não conta como segundo destino nem como venda, desde que saia igual em todo envio, sem urgência, desconto ou argumento.
 2. **Referencia o ativo:** toda mensagem cita pelo nome a isca que ELE consumiu ou o sinal que ELE deu. Mensagem que serviria pra qualquer lista reprova.
 3. **Frequência declarada:** a cadência está escrita no bloco de configuração e a régua cumpre.
 4. **Placeholder repetido na copy final:** proibido. O mesmo `[nome da isca]`, `[seção do material]` ou colchete equivalente aparecendo em mais de uma mensagem reprova a régua inteira: é o sinal de que o insumo faltou e a skill escreveu por cima dele. Ou você tem o nome e o escreve, ou você para e pergunta (o "Sem o insumo" da Ação 1). Um `[A CONFIRMAR: o quê]` isolado, num ponto onde o dono precisa mesmo decidir, continua valendo; o que reprova é o mesmo furo repetido como se fosse texto.

@@ -1,0 +1,149 @@
+{
+ "setas_no_cta": true,
+ "cenas": [
+  {
+   "tipo": "take",
+   "inicio": 7.45,
+   "fundo": "a",
+   "take": "impresso_zoom",
+   "velocidade": 1.0,
+   "fala": "Nomes de cidades que você não sabe onde ficam, milagres soltos no texto e leituras aleatórias que nunca se conectam e só te deixam confuso.",
+   "pilulas": [
+    {
+     "texto": "Cidades que você não sabe onde ficam",
+     "estilo": "icone",
+     "icone": "interrogacao",
+     "t": 7.9,
+     "t_sai": 10.3
+    },
+    {
+     "texto": "Milagres soltos no texto",
+     "estilo": "soltas",
+     "destaque": "soltos",
+     "dor": true,
+     "t": 10.5,
+     "t_sai": 12.1
+    },
+    {
+     "texto": "Leituras que nunca se conectam",
+     "estilo": "marca",
+     "destaque": "nunca se conectam",
+     "cor_marca": [
+      238,
+      198,
+      190
+     ],
+     "t": 12.3,
+     "t_marca": 13.2
+    }
+   ]
+  },
+  {
+   "tipo": "capa",
+   "inicio": 16.05,
+   "fundo": "a",
+   "fala": "Pensando nisso, criamos a Jornada de Jesus em Mapas, 50 guias ilustrados para a clareza imediata.",
+   "tira": [
+    "m13",
+    "m30",
+    "m17",
+    "m36",
+    "capa"
+   ],
+   "t_capa": 18.2,
+   "selo": "50",
+   "t_selo": 20.45,
+   "leque": [
+    "m01",
+    "m08",
+    "m11",
+    "m41"
+   ],
+   "t_leque": 21.6,
+   "pilulas": [
+    {
+     "texto": "Clareza imediata",
+     "estilo": "faixa",
+     "t": 22.3
+    }
+   ]
+  },
+  {
+   "tipo": "lista",
+   "inicio": 23.6,
+   "fundo": "b",
+   "pagina": "m08",
+   "fala": "Eles transformam textos bíblicos densos em mapas visuais claros, organizados e fáceis de entender na hora.",
+   "itens": [
+    {
+     "rotulo": "Mapas visuais claros",
+     "t_inicio": 26.3,
+     "t_check": 27.9,
+     "regiao": "mapa"
+    },
+    {
+     "rotulo": "Organizados",
+     "t_inicio": 28.0,
+     "t_check": 28.85,
+     "regiao": "passos"
+    },
+    {
+     "rotulo": "Fáceis de entender na hora",
+     "t_inicio": 29.1,
+     "t_check": 30.8,
+     "regiao": "cena"
+    }
+   ]
+  },
+  {
+   "tipo": "take",
+   "inicio": 31.0,
+   "fundo": "a",
+   "take": "tablet_rolando",
+   "velocidade": 1.0,
+   "fala": "O resultado? Mais clareza nos evangelhos e domínio total para ensinar ou estudar a Bíblia.",
+   "pilulas": [
+    {
+     "texto": "Mais clareza nos Evangelhos",
+     "estilo": "palavras",
+     "destaque": "clareza",
+     "t": 32.25,
+     "t_fim": 33.8,
+     "t_sai": 35.3
+    },
+    {
+     "texto": "Para ensinar ou estudar a Bíblia",
+     "estilo": "icone",
+     "icone": "livro",
+     "destaque": "ensinar estudar",
+     "t": 35.5
+    }
+   ]
+  },
+  {
+   "tipo": "mockup",
+   "inicio": 37.65,
+   "fundo": "dark",
+   "fala": "Hoje, milhares de leitores já usam nossos mapas para visualizar em minutos o que antes levava anos de leitura confusa.",
+   "pilulas": [
+    {
+     "texto": "Milhares de leitores já usam",
+     "estilo": "icone",
+     "icone": "pessoas",
+     "destaque": "Milhares",
+     "t": 38.4,
+     "t_sai": 40.9
+    },
+    {
+     "texto": "Visualize|em minutos",
+     "estilo": "grande",
+     "escuro": true,
+     "destaque": "minutos",
+     "t": 41.1,
+     "y": 1450,
+     "tam": 128
+    }
+   ]
+  }
+ ]
+}

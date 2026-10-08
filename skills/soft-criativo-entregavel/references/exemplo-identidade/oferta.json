@@ -1,0 +1,233 @@
+{
+ "nome": "A Jornada de Jesus em Mapas",
+ "raiz": "D:\\Concepções Low Ticket\\Estruturas\\08 - A Jornada de Jesus em Mapas",
+ "capa": "capa",
+ "mockup": "PNGS MOCKUPS/PRINCIPAL.png",
+ "dias": "STQQSSD",
+ "tinta": [
+  8,
+  36,
+  62
+ ],
+ "paleta": {
+  "a": {
+   "a": [
+    176,
+    140,
+    62
+   ],
+   "l": [
+    214,
+    190,
+    128
+   ],
+   "d": [
+    122,
+    92,
+    30
+   ],
+   "mark": [
+    236,
+    220,
+    170
+   ],
+   "tint": [
+    246,
+    238,
+    214
+   ],
+   "blob0": [
+    204,
+    174,
+    100
+   ],
+   "blob1": [
+    150,
+    116,
+    46
+   ],
+   "blob2": [
+    238,
+    224,
+    180
+   ],
+   "base": [
+    244,
+    233,
+    206
+   ]
+  },
+  "b": {
+   "a": [
+    28,
+    58,
+    96
+   ],
+   "l": [
+    120,
+    146,
+    178
+   ],
+   "d": [
+    10,
+    30,
+    58
+   ],
+   "mark": [
+    196,
+    210,
+    226
+   ],
+   "tint": [
+    228,
+    234,
+    242
+   ],
+   "blob0": [
+    58,
+    90,
+    130
+   ],
+   "blob1": [
+    16,
+    40,
+    74
+   ],
+   "blob2": [
+    190,
+    206,
+    224
+   ],
+   "base": [
+    244,
+    236,
+    214
+   ]
+  },
+  "dark": {
+   "base": [
+    12,
+    26,
+    48
+   ],
+   "glow": [
+    30,
+    58,
+    98
+   ],
+   "acento": [
+    214,
+    184,
+    110
+   ],
+   "texto": [
+    246,
+    238,
+    214
+   ],
+   "pill": [
+    24,
+    44,
+    76
+   ]
+  }
+ },
+ "paginas": {
+  "capa": "Impressão/000-capa-a-jornada-de-jesus-em-mapas.png",
+  "m01": "Impressão/01-anuncios-e-nascimento-nazare-e-belem.png",
+  "m03": "Impressão/03-apresentacao-no-templo-em-jerusalem.png",
+  "m04": "Impressão/04-magos-herodes-e-fuga-para-o-egito.png",
+  "m05": "Impressão/05-retorno-do-egito-e-vida-em-nazare.png",
+  "m06": "Impressão/06-jesus-aos-12-anos-em-jerusalem.png",
+  "m08": "Impressão/08-batismo-de-jesus-no-jordao.png",
+  "m10": "Impressão/10-primeiros-discipulos-junto-ao-jordao.png",
+  "m11": "Impressão/11-bodas-de-cana.png",
+  "m13": "Impressão/13-primeira-ida-a-jerusalem-e-o-templo.png",
+  "m15": "Impressão/15-jesus-e-a-mulher-samaritana-em-sicar.png",
+  "m17": "Impressão/17-rejeicao-em-nazare.png",
+  "m30": "Impressão/30-jesus-caminha-sobre-as-aguas.png",
+  "m36": "Impressão/36-transfiguracao-no-monte.png",
+  "m39": "Impressão/39-missao-dos-setenta.png",
+  "m41": "Impressão/41-betania-marta-maria-e-lazaro.png",
+  "sermao": "PREVIAS/PREVIA (1).png"
+ },
+ "regioes": {
+  "m08": {
+   "titulo": [
+    30,
+    130,
+    1000,
+    320
+   ],
+   "mapa": [
+    280,
+    320,
+    720,
+    1380
+   ],
+   "passos": [
+    30,
+    535,
+    280,
+    1280
+   ],
+   "cena": [
+    650,
+    340,
+    1000,
+    870
+   ],
+   "referencias": [
+    745,
+    940,
+    1000,
+    1220
+   ]
+  }
+ },
+ "takes": {
+  "impresso_zoom": {
+   "arquivo": "Assets/VIDEOS OUTROS/IMPRE 01.MOV",
+   "inicio": 2.6,
+   "dur": 8.4
+  },
+  "tablet_rolando": {
+   "arquivo": "Assets/VIDEOS OUTROS/TABLET JESUS NOVO.mov",
+   "inicio": 2.2,
+   "dur": 6.6
+  }
+ },
+ "texto": {
+  "fonte": "CrimsonText-Bold",
+  "fundo": [
+   249,
+   241,
+   218
+  ],
+  "borda": [
+   176,
+   140,
+   62
+  ],
+  "tinta": [
+   8,
+   36,
+   62
+  ],
+  "destaque": [
+   122,
+   31,
+   43
+  ],
+  "marca": [
+   240,
+   208,
+   122
+  ],
+  "dor": [
+   140,
+   38,
+   40
+  ]
+ }
+}

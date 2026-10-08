@@ -170,11 +170,11 @@ Se a **soft-exportar-documentos** estiver instalada, ela é a casa da conversão
 
 **O que faz:** desenha a troca (o que o lead dá pra receber a isca) e crava pra onde ele vai depois.
 
-**Precisa de:** a isca pronta da Ação 3 · o destino (carta, mini-webinar, webinar ou conversa) · o canal de contato que o dono usa de verdade.
+**Precisa de:** a isca pronta da Ação 3 · o destino (carta, mini-webinar, webinar ou conversa) · o canal de contato que o dono usa de verdade · só se o dono quiser a caixinha opcional: o nome da oferta principal e quem atende no mesmo dia.
 
 **Sem o insumo:** sem destino declarado, **pare aqui**. Captura sem destino é lead morto, e é o erro número um da frente de funil. Pergunte só isso, numa frase: "depois que a pessoa baixar, pra onde você quer levar ela?".
 
-**Entrega:** `captura-e-destino.md`, com o formulário (campos exatos), a promessa da troca, o destino nomeado e o link. **STOP pro OK.**
+**Entrega:** `captura-e-destino.md`, com o formulário (campos exatos), a promessa da troca, o destino nomeado e o link, e, quando o dono quiser, a caixinha de quem quer falar agora com o destino de quem marca. **STOP pro OK.**
 
 **Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
@@ -185,6 +185,7 @@ Se a **soft-exportar-documentos** estiver instalada, ela é a casa da conversão
 **As regras:**
 - **Captura.** Uma promessa específica. E-mail OU WhatsApp, não os dois. Zero campo que não serve a nada, porque cada campo a mais derruba conversão sem pagar por si. Formato interativo captura no resultado (o contato antes de revelar o resultado personalizado), e a fricção fica baixa porque a pessoa já quer o resultado.
 - **Destino.** O próximo dólar manda: o destino é o problema que a isca ABRE, não o que ela fecha. Quem amou a isca quer naturalmente o próximo degrau.
+- **A caixinha de quem quer falar agora (opcional, o dono escolhe).** Além do campo de contato, o formulário pode ter uma caixinha opcional, sempre desmarcada, com uma frase só que começa por "Sim,": "Sim, quero conversar agora sobre [oferta principal]." Sem promessa, sem desconto, sem tentar convencer: ela só separa quem já quer comprar de quem veio pelo material, e por isso não conta como campo que não serve a nada. **Destino de quem marca:** sai da régua automática e recebe a mensagem da equipe no mesmo dia; quem não marca segue o destino acima, igual. Ofereça numa linha ("quer uma caixinha no formulário pra quem já quer conversar sobre [oferta principal]?") e diga o porquê: custa um clique opcional e mostra quem está pronto sem ofertar pra lista toda. Sem alguém pra responder no mesmo dia, deixe de fora, porque quem marca e espera esfria. **Cuidado legal, em linha geral:** a caixinha nunca vem marcada, e consentimento, descadastro e as regras de e-mail e WhatsApp mudam por plataforma; confira na ferramenta do dono e com o jurídico dele antes de ligar. No `captura-e-destino.md`, escreva a frase literal, `desmarcada por padrão`, o destino de quem marca e quem atende.
 - **A ponte até o destino** (o que mandar nos dias seguintes) é da **soft-funil-nutricao**. Se ela não estiver instalada, escreva aqui a régua mínima de 3 toques: entrega com instrução de uso, crença com prova colada, convite com o link.
 
 ---

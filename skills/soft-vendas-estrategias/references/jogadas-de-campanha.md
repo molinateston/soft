@@ -1,4 +1,4 @@
-# Banco de Jogadas de Campanha (as 10 jogadas, aprofundado)
+# Banco de Jogadas de Campanha (as 11 jogadas, aprofundado)
 
 > **Quando consultar:** ao rodar o P1 (escolher a jogada e a ordem no mes) e o P2 (montar a jogada) do SKILL.md.
 >
@@ -8,7 +8,7 @@
 
 ## Indice
 - [Cardapio rapido (qual jogada pra qual momento)](#cardapio-rapido)
-- [Como as 10 jogadas se encadeiam](#como-as-10-jogadas-se-encadeiam)
+- [Como as 11 jogadas se encadeiam](#como-as-11-jogadas-se-encadeiam)
 - [1. Levantada de Mao](#1-levantada-de-mao-funil-de-stories)
 - [2. Caixinha de Perguntas](#2-caixinha-de-perguntas-o-coringa-diario)
 - [3. Oferta Direta](#3-oferta-direta-comunicar-claro-todo-dia-por-publico)
@@ -19,6 +19,7 @@
 - [8. Vendas com Destaques](#8-vendas-com-destaques-esteira-organizada-no-perfil)
 - [9. Vendas Automaticas](#9-vendas-automaticas-chatbot-no-dm--downsell)
 - [10. Lembrei de Voce](#10-lembrei-de-voce-reativar-a-base)
+- [11. Pronto Agora](#11-pronto-agora-acha-na-lista-quem-ja-quer-comprar)
 - [Fios que costuram as jogadas](#fios-que-costuram-as-jogadas)
 
 ---
@@ -37,12 +38,13 @@
 | **Pix de Compromisso** | Fechar quem quer mas nao tem o valor cheio | Baixo (1:1) | Ao subir preco / demanda represada |
 | **Vendas com Destaques** | Vender no piloto pro seguidor novo | Zero (reaproveita) | Quando tem fluxo de gente nova chegando |
 | **Vendas Automaticas** | Qualificar e vender no piloto (bot no DM) | Baixo | Oferta validada + volume alto |
+| **Pronto Agora** | Achar quem da lista ja quer comprar e vender so pra ele | Baixo (lista propria) | Mes da lista de e-mail e WhatsApp, em 4 semanas |
 
-**Ordem tipica num mes de partida:** Lembrei de Voce (base quente primeiro) → Levantada de Mao + Caixinha em fundo (semana/dia) → Oferta Direta 1x/semana → Reuniao de R$100 como pico → Pre-venda quando for testar produto novo → Pix de Compromisso pra fechar o quente que empacou so no preco. Destaques e Automaticas entram quando o fluxo de seguidor novo e o volume de DM crescem. A combinacao sai da Conta: o LEON soma o lead que cada jogada gera e fecha o volume que o funil reverso exige.
+**Ordem tipica num mes de partida:** Lembrei de Voce (base quente primeiro) → Levantada de Mao + Caixinha em fundo (semana/dia) → Oferta Direta 1x/semana → Reuniao de R$100 como pico → Pre-venda quando for testar produto novo → Pix de Compromisso pra fechar o quente que empacou so no preco. Destaques e Automaticas entram quando o fluxo de seguidor novo e o volume de DM crescem. A combinacao sai da Conta: o LEON soma o lead que cada jogada gera e fecha o volume que o funil reverso exige. Quando o dono tem lista de e-mail ou WhatsApp, o mes da lista segue o Pronto Agora (#11), e os stories seguem esta ordem.
 
 ---
 
-## Como as 10 jogadas se encadeiam
+## Como as 11 jogadas se encadeiam
 
 1. **Motor diario sempre ligado:** Caixinha (#2) e Oferta Direta (#3) rodam todo dia/toda semana, subindo autoridade OU carregando oferta, sem depender de evento.
 2. **Entrada de lead quente:** Levantada de Mao (#1) enche o direct e qualifica 1 a 1.
@@ -53,7 +55,8 @@
 7. **Escalar sem repetir esforco:** Destaques (#8) deixam as ofertas organizadas no perfil pro seguidor novo.
 8. **Piloto automatico:** Vendas Automaticas (#9) plugam chatbot no DM.
 9. **Reativar a base:** Lembrei de Voce (#10) reengaja quem ja confia, o caixa mais barato.
-10. **A esteira que costura tudo:** entrada barata sobe pra grupo e mentoria high ticket. Quem estrutura a mentoria high-ticket (oferta, ticket, formato 1:1 ou grupo) vai pra **soft-plano-ofertas**. Boa parte de quem entra na Reuniao de R$100 sobe de programa ao longo dos primeiros meses `[valide com teus numeros de subida]`.
+10. **Separar o pronto na lista:** Pronto Agora (#11) acha na lista de e-mail e WhatsApp quem ja quer comprar e leva so essa pessoa pra conversa.
+11. **A esteira que costura tudo:** entrada barata sobe pra grupo e mentoria high ticket. Quem estrutura a mentoria high-ticket (oferta, ticket, formato 1:1 ou grupo) vai pra **soft-plano-ofertas**. Boa parte de quem entra na Reuniao de R$100 sobe de programa ao longo dos primeiros meses `[valide com teus numeros de subida]`.
 
 ---
 
@@ -288,9 +291,46 @@
 
 ---
 
+## 11. Pronto Agora (acha na lista quem ja quer comprar)
+
+**O que e.** Uma campanha de lista (e-mail e WhatsApp) em que a pessoa pronta pra comprar se identifica sozinha, e so ela recebe a oferta privada. O resto da lista continua recebendo conteudo, sem oferta empurrada toda semana. A jogada procura o quente que ja existe e chega nele no mesmo dia; aquecer quem ainda esta frio continua sendo trabalho da nutricao.
+
+**Quem pode rodar.** Quem tem lista de e-mail ou contatos de WhatsApp que pediram pra receber mensagem, uma isca com formulario e uma oferta principal desenhada. Precisa de alguem (o dono ou a equipe) pra responder no mesmo dia quem levantar a mao: sem isso, a jogada esfria justamente o lead que acabou de achar. Sem lista, comeca pela Levantada de Mao (#1) nos stories.
+
+**Resultado esperado (SLOT, nao promessa).** Quantos levantam a mao em cada ponto e quantos desses compram sao numeros do dono `[A CONFIRMAR]`, medidos no fim do primeiro mes. Nenhuma taxa de prontidao entra como fato.
+
+**Como funciona.**
+1. **Os 3 pontos onde a pessoa levanta a mao** (comeca por um; a caixinha e o mais simples):
+   - **Caixinha no formulario da isca:** opcional e sempre desmarcada, com uma frase so, que comeca por "Sim," e diz o que acontece. Molde: *"Sim, quero conversar agora sobre [oferta principal]."* Sem promessa, sem desconto, sem argumento. Quem marca sai da regua automatica e recebe a mensagem da equipe no mesmo dia.
+   - **Obrigado com pergunta:** assim que o material e entregue, a pagina traz uma pergunta que oferece ajuda com a oferta principal, um botao pra marcar a conversa e um link pequeno pra quem so quer o material (esse segue a regua normal).
+   - **Pergunta no fim do atendimento:** quando a conversa nasceu de uma duvida, o atendimento fecha perguntando se o assunto e pra resolver neste mes ou se a pessoa ainda esta pesquisando. Uma vez por contato, nunca em reclamacao.
+2. **O mes da lista, em 4 semanas** (ritmo de partida a TESTAR com o dado do dono, so pra e-mail e WhatsApp; stories e feed seguem as outras jogadas como estao):
+
+| Semana | Comeco da semana | Um envio no meio da semana | Conta como mao levantada |
+|---|---|---|---|
+| 1 | conteudo de valor | mensagem de levantar a mao | respondeu a palavra |
+| 2 | conteudo de valor | convite de nova inscricao num material ou aula | se inscreveu |
+| 3 | conteudo de valor | oferta direta pra lista inteira | comprou ou perguntou |
+| 4 | conteudo de valor | outro convite de nova inscricao, num material diferente | se inscreveu |
+
+   Nos outros dias, nada pra lista inteira. A oferta privada, 1 a 1, vai so pra quem levantou a mao em qualquer ponto do mes. Os dias sao sugestao: ajuste se nao servir.
+3. **A mensagem de levantar a mao:** 2 a 3 linhas, uma pergunta, resposta de uma palavra. Molde: *"Oi, [nome]. Voce ainda quer [resultado] este mes? Se quer, me responde so: sim. Se nao for agora, o [material] continua com voce e eu sigo so com as dicas."* A terceira linha diz o que acontece se a pessoa nao responder, sem prazo nem escassez inventados. O [resultado] cita o material que a pessoa recebeu de voce (a isca, a aula), porque e o pedaco que um concorrente nao consegue mandar igual. Pra quem respondeu antes e sumiu, a variacao retoma em uma linha o que a pessoa disse e pergunta se aquilo ainda e prioridade.
+4. **O convite de nova inscricao:** todo material novo (guia, aula ao vivo, ferramenta) sai com o link da pagina de inscricao, nunca do arquivo direto. Quem se inscreve de novo mostra que esta se mexendo, e passa outra vez pela caixinha e pela pergunta do obrigado.
+5. **O rodape de tres caminhos:** todo envio fecha com o mesmo P.S. curto, com o caminho gratuito, o de entrada e o principal. Ele mostra o que existe sem pedir a compra; o CTA da mensagem continua um so.
+6. **Quem levantou a mao sai da regua automatica no mesmo dia** e entra na conversa 1 a 1, pela regua de canal por ticket do SKILL.md.
+7. **No fim do mes, a tabela:** por ponto (caixinha, obrigado, levantar a mao, nova inscricao), quantos levantaram a mao e quantos compraram, mais os descadastros de cada envio. Descadastro subindo pede menos envio antes de texto novo.
+
+**Onde encaixa no mes.** Quando o canal principal do dono e lista de e-mail ou WhatsApp, o mes da lista segue o calendario do passo 2, e as jogadas de stories (#1, #2, #3) rodam em paralelo, como estao. Com ex-clientes na lista, combina com Lembrei de Voce (#10).
+
+**Quem executa.** A caixinha no formulario e o destino de quem marca = **soft-funil-isca** (acao de captura e destino). A pergunta da pagina de obrigado = **soft-funil-landing**. A nova inscricao, o rodape de tres caminhos e o sinal de temperatura na regua = **soft-funil-nutricao**. O atendimento de quem levantou a mao e a pergunta no fim da duvida = **soft-vendas-sdr**; conduzir e fechar = **soft-vendas-closer**. A oferta principal, se ainda nao esta desenhada = **soft-plano-ofertas**. Esta jogada escreve as frases e o calendario; cada skill dona monta a peca dela.
+
+**Ajuste Soft.** A pergunta so descobre quem esta pronto: nada de desconto, brinde ou urgencia pra fabricar mao levantada. Cuidados antes de ligar, em linha geral (confira na plataforma do dono e com o juridico dele): a caixinha nunca vem marcada; consentimento e descadastro seguem a regra de cada canal; o WhatsApp so vai pra quem deu o numero pra receber mensagem, pelas regras da ferramenta oficial; todo e-mail sai com o link de descadastro, e quem pede pra sair sai de todas as reguas no mesmo dia.
+
+---
+
 ## Fios que costuram as jogadas (sintese operacional)
 
-- **Ofertar todo dia nao incomoda o comprador certo:** quanto mais ofertar, mais vende. Quem se incomoda nao ia comprar.
+- **Ofertar todo dia nao incomoda o comprador certo:** quanto mais ofertar, mais vende. Quem se incomoda nao ia comprar. Vale pra stories e feed; na lista de e-mail e WhatsApp, a oferta pra lista inteira sai uma vez no mes e o resto vai so pra quem levantou a mao (#11).
 - **Mede a demanda antes de criar/ofertar:** enquete, caixinha e DM alimentam a Tematica (#5), a Pre-venda (#6) e a Oferta Direta (#3). Nao adivinha o que vender, mede.
 - **Ancoragem de preco e sistemica:** oferta cara reposiciona a barata; a Reuniao de R$100 converte porque a audiencia ja conhece o grupo e a mentoria high ticket.
 - **Prova social e manufaturada de proposito:** feedback individual pos-reuniao/consultoria (#5, #9), boom inicial de compras (#5, #6). Toda prova e real, so e coletada por design.

@@ -1,0 +1,173 @@
+{
+ "cenas": [
+  {
+   "tipo": "parede",
+   "inicio": 5.9,
+   "fundo": "a",
+   "fala": "O mais curioso é que ela veio de alguém que nunca tinha parado pra estudar o que o budismo realmente ensina.",
+   "colunas": [
+    [
+     "l08",
+     "l17",
+     "l31",
+     "l45",
+     "l10",
+     "l03"
+    ],
+    [
+     "l14",
+     "l21",
+     "l42",
+     "l07",
+     "l48",
+     "l18"
+    ],
+    [
+     "l05",
+     "l34",
+     "l49",
+     "l08",
+     "l17",
+     "l31"
+    ]
+   ],
+   "destaque": "l02",
+   "t_destaque": 9.4,
+   "pilula": "O que o budismo realmente ensina",
+   "t_pilula": 9.55
+  },
+  {
+   "tipo": "carrossel",
+   "inicio": 11.16,
+   "fundo": "b",
+   "fala": "Muita gente cria opiniões baseadas no que ouviu por aí, sem perceber que o budismo não pede que você acredite cegamente em nada.",
+   "paginas": [
+    "l03",
+    "l07",
+    "l08",
+    "l10",
+    "l14"
+   ],
+   "passo": 1.28,
+   "pilula": "Não pede que você acredite cegamente",
+   "t_pilula": 15.3
+  },
+  {
+   "tipo": "destaque",
+   "inicio": 17.48,
+   "fundo": "a",
+   "fala": "Pelo contrário, ele incentiva a observar, refletir e tirar suas próprias conclusões a partir da experiência.",
+   "pagina": "l05",
+   "marcas": [
+    {
+     "t": 19.1,
+     "regiao": "ilustracao",
+     "texto": "Observar"
+    },
+    {
+     "t": 19.72,
+     "regiao": "explicacao",
+     "texto": "Refletir"
+    },
+    {
+     "t": 20.35,
+     "regiao": "anotacao",
+     "texto": "Tirar suas próprias conclusões"
+    }
+   ]
+  },
+  {
+   "tipo": "capa",
+   "inicio": 22.9,
+   "fundo": "b",
+   "fala": "Foi justamente por isso que decidi conhecer mais sobre o assunto e encontrei essas 50 Lições Visuais de Budismo para a Vida.",
+   "tira": [
+    "l21",
+    "l42",
+    "l34",
+    "l48",
+    "l17",
+    "capa"
+   ],
+   "t_capa": 26.0,
+   "selo": "50",
+   "t_selo": 26.75,
+   "leque": [
+    "l02",
+    "l08",
+    "l45",
+    "l49"
+   ],
+   "t_leque": 27.9
+  },
+  {
+   "tipo": "lista",
+   "inicio": 28.88,
+   "fundo": "a",
+   "fala": "O material apresenta os principais ensinamentos de forma simples, com lições ilustradas, explicações fáceis de entender e exercícios práticos que ajudam a aplicar cada conceito na rotina.",
+   "pagina": "l03",
+   "itens": [
+    {
+     "rotulo": "Lições ilustradas",
+     "t_inicio": 31.95,
+     "t_check": 32.75,
+     "regiao": "ilustracao"
+    },
+    {
+     "rotulo": "Explicações fáceis",
+     "t_inicio": 33.2,
+     "t_check": 34.1,
+     "regiao": "explicacao"
+    },
+    {
+     "rotulo": "Exercícios práticos",
+     "t_inicio": 34.5,
+     "t_check": 35.3,
+     "regiao": "pratica"
+    }
+   ],
+   "t_crescer": 35.6,
+   "pilula": "Para aplicar na rotina",
+   "t_pilula": 36.2
+  },
+  {
+   "tipo": "pilha",
+   "inicio": 37.82,
+   "fundo": "b",
+   "fala": "Com apenas alguns minutos por dia, comecei a enxergar minhas emoções de outra forma, reagir com mais equilíbrio diante dos problemas e desenvolver uma sensação de clareza que eu nunca tinha experimentado antes.",
+   "paginas": [
+    "l02",
+    "l03",
+    "l17",
+    "l18",
+    "l10",
+    "l14",
+    "l08"
+   ],
+   "t_inicio": 38.5,
+   "passo": 0.2,
+   "titulo": "Alguns minutos por dia",
+   "t_titulo": 38.3,
+   "t_crescer": 41.75,
+   "pilulas": [
+    {
+     "texto": "Mais equilíbrio",
+     "t": 42.35,
+     "t_sai": 44.9
+    },
+    {
+     "texto": "Mais clareza",
+     "t": 45.25
+    }
+   ]
+  },
+  {
+   "tipo": "mockup",
+   "inicio": 47.5,
+   "fundo": "dark",
+   "fala": "Então, antes de acreditar em frases prontas como essa, vale a pena conhecer o assunto por você mesmo.",
+   "pilula": "Conheça por você mesmo",
+   "t_pilula": 50.0
+  }
+ ]
+}

@@ -109,6 +109,14 @@ Roda as quatro, sempre, nesta ordem:
 >
 > Se não for o seu momento, ignora essa que na semana que vem eu não te chateio.
 
+**Material novo sai como convite de nova inscrição.** Guia, aula ao vivo ou ferramenta nova: o link leva à página de inscrição do material (o mesmo formulário da isca, com a caixinha de quem quer conversar agora, quando ela existir), nunca ao arquivo direto. O porquê: quem se inscreve de novo mostra que está se mexendo e sobe de temperatura (`rotas-por-temperatura.md`, Seção 5), e a lista volta a esquentar sem receber oferta; o arquivo mandado direto não deixa sinal nenhum. Exemplo fictício, no mesmo nicho:
+
+> Fiz um guia novo: as 7 trocas de horário que liberam um encaixe por dia na agenda da clínica.
+>
+> A inscrição é aqui, e o guia chega no seu WhatsApp: [link]
+>
+> Se agenda não é o seu assunto agora, ignora essa.
+
 **Frequência:** no máximo 1 broadcast por semana pra mesma base, e nunca dois em dias seguidos. Se você precisa de mais que isso, o que você quer não é broadcast, é uma régua.
 
 ## 2.4 Broadcast x régua, a fronteira

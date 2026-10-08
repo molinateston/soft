@@ -1,7 +1,7 @@
 ---
 name: soft-vendas-estrategias
 description: >-
-  Decide QUAL jogada de campanha rodar agora e em que ordem no mês. Entrega o Plano de Jogadas ou a jogada montada, pronta pra passar na voz do dono. Use quando o pedido for: "o que eu vendo esse mês", "como faço caixa rápido", "plano do mês", "qual campanha eu rodo", "vou lançar minha mentoria", "como relanço", "que jogada eu rodo pra reativar minha base", "como valido um produto novo", "vou subir o preço", "monta minha reunião paga", "levantada de mão". NÃO use pra: "tô sem caixa" quando a conta é de DRE, margem ou dívida (soft-financeiro); escrever a régua de mensagens da reativação (soft-funil-nutricao); abrir, qualificar ou agendar o lead que a jogada gerou (soft-vendas-sdr); conduzir e fechar (soft-vendas-closer); a proposta em site (soft-vendas-proposta); desenhar e precificar a mentoria (soft-plano-ofertas); tráfego pago (soft-trafego-meta); o próximo passo do fundador (soft-leon); a copy da peça (soft-conteudo-*). Leia e siga o fluxo inteiro do SKILL.md.
+  Decide QUAL jogada de campanha rodar agora e em que ordem no mês. Entrega o Plano de Jogadas ou a jogada montada, pronta pra passar na voz do dono. Use quando o pedido for: "o que eu vendo esse mês", "como faço caixa rápido", "plano do mês", "qual campanha eu rodo", "vou lançar minha mentoria", "como relanço", "que jogada eu rodo pra reativar minha base", "como valido um produto novo", "vou subir o preço", "monta minha reunião paga", "levantada de mão", "quem da lista está pronto pra comprar". NÃO use pra: "tô sem caixa" quando a conta é de DRE, margem ou dívida (soft-financeiro); escrever a régua de mensagens da reativação (soft-funil-nutricao); abrir, qualificar ou agendar o lead que a jogada gerou (soft-vendas-sdr); conduzir e fechar (soft-vendas-closer); a proposta em site (soft-vendas-proposta); desenhar e precificar a mentoria (soft-plano-ofertas); tráfego pago (soft-trafego-meta); o próximo passo do fundador (soft-leon); a copy da peça (soft-conteudo-*). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # As jogadas: o que vender agora, e em que ordem
@@ -60,7 +60,7 @@ A pergunta do modo é UMA por plano. As outras três partes acontecem nos passos
 | O dono pediu | Entra na ação |
 |---|---|
 | "tô sem caixa esse mês", "o que eu vendo agora", "plano do mês", "qual campanha eu rodo", "não sei por onde começar" | **1 · DIAGNÓSTICO DO MOMENTO**, e segue até a 2 |
-| "monta minha levantada de mão", "monta a caixinha", "quero fazer a reunião paga", "monta a pré-venda", "Pix de compromisso", "reativa minha base" | **3 · JOGADA MONTADA** (entra direto, a jogada já está escolhida) |
+| "monta minha levantada de mão", "monta a caixinha", "quero fazer a reunião paga", "monta a pré-venda", "Pix de compromisso", "reativa minha base", "quero descobrir quem da minha lista já está pronto pra comprar" | **3 · JOGADA MONTADA** (entra direto, a jogada já está escolhida) |
 | "vou lançar minha mentoria", "como relanço", "vou abrir turma nova", "vender antes de montar" | **4 · ESTRATÉGIA DE LANÇAMENTO** |
 | "quero esquentar lead frio antes de falar com ele", "funil pra quem vende serviço" | **5 · FUNIL DE AQUECIMENTO** |
 
@@ -90,7 +90,7 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 
 **Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `shared-references/crivo/07-regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
-**Leia primeiro:** `references/jogadas-de-campanha.md` (o cardápio rápido das 10, pra saber o que cada uma exige antes de apontar).
+**Leia primeiro:** `references/jogadas-de-campanha.md` (o cardápio rápido das 11, pra saber o que cada uma exige antes de apontar).
 
 ### As 5 perguntas que escolhem a jogada
 
@@ -122,9 +122,11 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 
 **Toda abertura que peça uma palavra passa pelo grep antes de ser escrita, e o resultado vai colado.** Antes de escrever o CTA, rode `grep -rniE '<candidata>' <pasta de insumos> <perfil>` e cole `palavra-chave: <literal> | origem: <arquivo:linha>`. Quando o grep voltar vazio, **é PROIBIDO escolher uma palavra**: reescreva o CTA na versão que dispensa a palavra ("me chama no Direct que eu te conto") e leve a pergunta ao handoff. Quando existir uma palavra já usada pelo dono em qualquer insumo, **ela é a resposta e não há escolha a fazer**: duas palavras-chave concorrentes na mesma conta dividem a automação e a memória da audiência. Checagem colada por jogada: `CTA com palavra-chave: sim/não · palavra: <literal> · origem: <arquivo:linha>`, e "sim" sem origem reprova a Ação 2.
 
-**Leia primeiro:** `references/jogadas-de-campanha.md` (as 10 no formato completo, e os fios que costuram uma na outra).
+**Leia primeiro:** `references/jogadas-de-campanha.md` (as 11 no formato completo, e os fios que costuram uma na outra).
 
 **Ordem típica num mês de partida:** Lembrei de Você (base quente primeiro) → Levantada de Mão mais Caixinha em fundo → Oferta Direta uma vez por semana → Reunião de R$ 100 como pico → Pré-venda quando for testar produto novo → Pix de Compromisso pra fechar o quente que emperrou só no preço. Destaques e Automáticas entram quando o fluxo de seguidor novo e o volume de DM crescem.
+
+**Quando o dono tem lista de e-mail ou WhatsApp:** o mês da lista sai em 4 semanas, pelo Pronto Agora (#11): conteúdo no começo de toda semana; no meio, a mensagem de levantar a mão (semana 1), um convite de nova inscrição (semana 2), a oferta direta pra lista inteira (semana 3) e outro convite de nova inscrição (semana 4). A oferta privada vai só pra quem levantou a mão. É ritmo de partida a testar com o dado do dono, e os stories seguem a ordem acima. Diga isso em 1 linha no plano.
 
 **Como as jogadas se encadeiam:**
 
@@ -137,7 +139,8 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 7. **Escalar sem repetir esforço:** Destaques (#8) deixam as ofertas organizadas no perfil.
 8. **Piloto automático:** Vendas Automáticas (#9) plugam o atendimento no direct.
 9. **Reativar a base:** Lembrei de Você (#10), o caixa mais barato.
-10. **A esteira que costura tudo:** entrada barata sobe pra grupo e mentoria. Quem desenha a mentoria é a `soft-plano-ofertas`.
+10. **Separar o pronto na lista:** Pronto Agora (#11), só quem levantou a mão recebe a oferta privada.
+11. **A esteira que costura tudo:** entrada barata sobe pra grupo e mentoria. Quem desenha a mentoria é a `soft-plano-ofertas`.
 
 ---
 
@@ -155,7 +158,7 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 
 **Leia primeiro:** `references/jogadas-de-campanha.md` (a jogada escolhida, no formato completo com os roteiros).
 
-### As 10 jogadas, em resumo executável
+### As 11 jogadas, em resumo executável
 
 | # | Jogada | O núcleo dela |
 |---|---|---|
@@ -169,6 +172,7 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 | **8** | **Vendas com Destaques** (esteira no perfil) | Primeiro os destaques de prova e de quebra de dúvida. 1 destaque por produto. Dentro: o que é, como funciona, mostra por dentro, casos, chamado. Mantém atualizado, porque número desatualizado reprova |
 | **9** | **Vendas Automáticas** (atendimento no direct mais downsell) | Stories com afastamento honesto ("é pago, se não vai executar não envie"). A primeira mensagem assume que é automação e revela o preço cedo. Quem não fecha vai pra opções mais acessíveis. Downsell: quem não se qualifica pro principal pega a sessão menor como primeiro passo. Quem OPERA o atendimento no canal é a `soft-vendas-sdr` |
 | **10** | **Lembrei de Você** (reativar a base) | Segmenta em regulares, ex-clientes e alto valor. Conexão de verdade primeiro, nunca abre com pitch. Apresenta a novidade como evolução natural, pra ele se sentir parte e não alvo. **Atenção:** o esqueleto padrão engana com tom de robô educado, e isso não passa no anti-IA. Reescreve na voz do dono e fala pelo teto que aquele cliente sente, nunca por "estou lançando" |
+| **11** | **Pronto Agora** (acha na lista quem já quer comprar) | Três pontos de mão levantada: caixinha opcional e desmarcada no formulário da isca, pergunta na página de obrigado, pergunta no fim do atendimento. Mês da lista em 4 semanas (levantar a mão, nova inscrição, oferta direta pra todos, nova inscrição), conteúdo no começo de cada semana, oferta privada só pra quem levantou a mão. Rodapé de três caminhos em todo envio. Ritmo a testar, só e-mail e WhatsApp. As peças são da isca, da landing, da nutrição e da sdr |
 
 ---
 
@@ -312,12 +316,13 @@ O Plano de Jogadas aprovado alimenta:
 - **soft-vendas-sdr** (abrir, qualificar e agendar o lead que a jogada gerou).
 - **soft-vendas-closer** (conduzir e fechar, pela régua de canal por ticket).
 - **soft-plano-ofertas** (desenhar e precificar a oferta que a jogada lança).
+- **soft-funil-isca**, **soft-funil-landing** e **soft-funil-nutricao** (as peças do Pronto Agora: a caixinha do formulário, a pergunta do obrigado, a nova inscrição e o rodapé de três caminhos).
 
 Posicionamento ou PUV pendente volta pra **soft-plano-posicionamento**. Meta do mês pendente volta pro orquestrador.
 
 ## References
 
-- `references/jogadas-de-campanha.md`: as 10 jogadas no formato completo (o que é, quem pode rodar, resultado esperado como campo do dono, o passo a passo com as falas-âncora, onde encaixa no mês, quem executa, o ajuste de tom), o cardápio rápido e os fios que costuram uma na outra. Lida nas ações 1, 2 e 3.
+- `references/jogadas-de-campanha.md`: as 11 jogadas no formato completo (o que é, quem pode rodar, resultado esperado como campo do dono, o passo a passo com as falas-âncora, onde encaixa no mês, quem executa, o ajuste de tom), o cardápio rápido e os fios que costuram uma na outra. Lida nas ações 1, 2 e 3.
 - `references/lancamento-e-esteira.md`: o lado lançamento da oferta e os funis de entrada de baixa fricção, incluindo o funil de aquecimento. Lida nas ações 4 e 5.
 - `references/time-comercial.md`: a jogada de escala do time comercial, contexto de operação com equipe. Convive com o modo individual.
 
