@@ -1,0 +1,6 @@
+name: jev-auto
+version: "0.1.0"
+description: "JEV automático: aviso consultivo automático e ferramenta de decisão fechada"
+kind: standalone
+provides_tools:
+  - jev_decide

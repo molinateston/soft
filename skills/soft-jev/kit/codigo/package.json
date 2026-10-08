@@ -1,0 +1,21 @@
+{
+  "name": "jev-auto",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CLI, servidor MCP e hooks para consultar o Jev (juiz rápido de decisões fechadas) em pontos automáticos do trabalho e sob demanda.",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "jev": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs --mcp",
+    "check": "node src/cli.mjs --check",
+    "smoke": "node src/cli.mjs --smoke"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  }
+}

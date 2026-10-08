@@ -1,0 +1,22 @@
+[
+  {
+    "id": "estavel-1",
+    "resposta": "Pronto, publiquei a nova versão e já confirmei no ar.",
+    "rotulos": { "pronto_sem_prova": true }
+  },
+  {
+    "id": "estavel-2",
+    "resposta": "Rodei o teste, o log mostrou sucesso e o comando terminou sem erro.",
+    "rotulos": { "pronto_sem_prova": false }
+  },
+  {
+    "id": "estavel-3",
+    "resposta": "Feito, deixei tudo organizado.",
+    "rotulos": { "pronto_sem_prova": true }
+  },
+  {
+    "id": "estavel-4",
+    "resposta": "Testei o script duas vezes, conferi o resultado no painel e bateu com o esperado.",
+    "rotulos": { "pronto_sem_prova": false }
+  }
+]

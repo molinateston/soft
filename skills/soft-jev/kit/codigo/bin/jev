@@ -1,0 +1,13 @@
+#!/bin/sh
+# jev — atalho da CLI do JEV na cópia operacional (~/.local/share/jev-auto), qualquer máquina.
+#   jev ask "Esse log mostra erro ou só aviso?" --dado "<resumo>" --opcao erro="..." --opcao aviso="..."
+#   jev ask "O teste passou?" --sim-nao --dado "12 passed, 0 failed"
+#   jev --check | jev --decisions | jev --decision <id> < inputs.json
+# Nunca trava o trabalho: sem node ou sem cópia, responde JSON dizendo para seguir sem o JEV.
+dir="${JEV_HOME:-$HOME/.local/share/jev-auto}"
+for node in "$JEV_NODE" /opt/homebrew/opt/node@22/bin/node "$(command -v node 2>/dev/null)"; do
+  if [ -n "$node" ] && [ -x "$node" ] && [ -f "$dir/src/cli.mjs" ]; then
+    exec "$node" "$dir/src/cli.mjs" "$@"
+  fi
+done
+echo '{"available":false,"reason":"runtime_unavailable","faixa":"indisponivel","o_que_fazer":"Siga sem o JEV: decida sozinho."}'

@@ -1,0 +1,38 @@
+{
+  "id": "exemplo-triagem-mensagens",
+  "version": "1",
+  "titulo": "Triagem de urgência de uma mensagem de suporte recebida",
+  "quando_usar": "Antes de encaminhar uma mensagem de suporte recebida (formulário, e-mail, chat) para a fila certa. Envie um resumo curto e anonimizado: sem nome, telefone, e-mail ou valor exato de cobrança. O resultado é apoio para a triagem; não substitui o julgamento humano em casos de risco.",
+  "fontes": [
+    "Exemplo fictício deste kit. Troque por suas próprias fontes: manual de atendimento, política de SLA, guia do produto etc."
+  ],
+  "inputs": {
+    "resumo": "Resumo curto e anonimizado do pedido do cliente, sem nome, telefone, e-mail ou valor exato.",
+    "canal": "Canal de origem da mensagem: 'email', 'chat', 'formulario' ou 'outro'.",
+    "sinais_risco": "Sinais explícitos de risco citados pelo cliente (ex.: serviço fora do ar, cobrança duplicada), ou 'nenhum'.",
+    "filas_candidatas": "Lista de filas de atendimento candidatas para receber esta mensagem (2 a 12 itens)."
+  },
+  "state": "Política de triagem de suporte (exemplo fictício deste kit). O objetivo é encaminhar cada mensagem recebida para a fila certa e sinalizar o nível de urgência antes de um atendente humano abrir o caso. ALTA se o cliente descreve um risco operacional explícito (serviço fora do ar, cobrança duplicada, dado exposto) ou usa palavras de urgência forte (\"urgente\", \"não consigo acessar nada\", \"perdi acesso à compra\"). MEDIA se há um problema real, mas sem risco operacional nem urgência forte (dúvida sobre uso de uma funcionalidade, pedido de ajuste que pode esperar). BAIXA se é elogio, dúvida geral ou pedido sem prejuízo aparente. INDEFINIDA se o resumo é curto ou vago demais para decidir.\n\nMensagem resumida e anonimizada. Canal: {{canal}}. Resumo: {{resumo}}. Sinais de risco citados pelo cliente: {{sinais_risco}}. Filas candidatas para encaminhamento: {{filas_candidatas}}.",
+  "questions": {
+    "tem_risco": {
+      "type": "noul",
+      "instructions": "A mensagem descrita cita um risco operacional explícito, como serviço fora do ar, cobrança duplicada ou dado exposto?",
+      "criteria": { "true": "Risco operacional explícito citado pelo cliente.", "false": "Nenhum risco operacional citado." }
+    },
+    "urgencia": {
+      "type": "choice",
+      "instructions": "Aplique a política de urgência ao caso descrito e escolha o nível correto, nesta ordem de prioridade: risco operacional ou urgência forte primeiro; depois problema real sem risco; depois pedido sem prejuízo aparente; e só então falta de informação.",
+      "criteria": {
+        "alta": "Risco operacional explícito ou urgência forte nas palavras do cliente.",
+        "media": "Problema real, mas sem risco operacional nem urgência forte.",
+        "baixa": "Elogio, dúvida geral ou pedido sem prejuízo aparente.",
+        "indefinida": "Resumo curto ou vago demais para decidir o nível."
+      }
+    },
+    "fila_recomendada": {
+      "type": "choice",
+      "instructions": "Qual das filas candidatas deve receber esta mensagem, considerando o resumo, o canal e os sinais de risco descritos?",
+      "criteria": "@filas_candidatas"
+    }
+  }
+}
