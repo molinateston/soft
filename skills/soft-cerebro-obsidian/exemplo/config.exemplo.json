@@ -1,0 +1,125 @@
+{
+  "titulo": "Estúdio Exemplo",
+  "subtitulo": "Mapa da memória do negócio",
+  "raiz": "brain",
+  "saida": "cerebro-site",
+  "logo": "",
+  "texto": "resumo",
+  "hubs": [
+    {
+      "id": "negocio",
+      "nome": "Negócio"
+    },
+    {
+      "id": "metodo",
+      "nome": "Método"
+    },
+    {
+      "id": "pessoas",
+      "nome": "Pessoas"
+    },
+    {
+      "id": "numeros",
+      "nome": "Números"
+    },
+    {
+      "id": "memoria",
+      "nome": "Memória"
+    },
+    {
+      "id": "entregas",
+      "nome": "Entregas"
+    }
+  ],
+  "conceitos": [
+    {
+      "id": "cliente",
+      "nome": "Cliente ideal",
+      "hub": "negocio",
+      "regex": "cliente|publico|avatar"
+    },
+    {
+      "id": "oferta",
+      "nome": "Oferta",
+      "hub": "negocio",
+      "regex": "oferta|programa|produto"
+    },
+    {
+      "id": "preco",
+      "nome": "Preço",
+      "hub": "numeros",
+      "regex": "preco|valor|ticket|desconto"
+    },
+    {
+      "id": "metodo",
+      "nome": "Método",
+      "hub": "metodo",
+      "regex": "metodo|passo a passo|processo"
+    },
+    {
+      "id": "conteudo",
+      "nome": "Conteúdo",
+      "hub": "metodo",
+      "regex": "carrossel|reel|conteudo|roteiro"
+    },
+    {
+      "id": "visual",
+      "nome": "Identidade visual",
+      "hub": "metodo",
+      "regex": "fonte|cores|visual|acento"
+    }
+  ],
+  "pastas": [
+    {
+      "caminho": "PESSOA-*.md",
+      "hub": "pessoas"
+    },
+    {
+      "caminho": "*.md",
+      "hub": "negocio"
+    },
+    {
+      "caminho": "arquivo/*.md",
+      "hub": "memoria",
+      "rotulo_por_data": true,
+      "liga_a": [
+        "MEMORIA-VIVA.md"
+      ]
+    },
+    {
+      "caminho": "ideias/*.md",
+      "hub": "memoria",
+      "rotulo_por_data": true
+    },
+    {
+      "caminho": "agentes/*/*.md",
+      "hub": "metodo"
+    },
+    {
+      "caminho": "../trabalho/*/*/*/",
+      "hub": "entregas",
+      "tipo": "pastas"
+    }
+  ],
+  "notas_especiais": [
+    "MAPA.md",
+    "MEMORIA-VIVA.md"
+  ],
+  "pessoas": [
+    {
+      "id": "ana",
+      "nome": "Ana Souza",
+      "hub": "pessoas",
+      "conceitos": [
+        "oferta",
+        "cliente"
+      ]
+    }
+  ],
+  "acentos": {
+    "memoria": "Memória",
+    "preco": "Preço",
+    "metodo": "Método",
+    "negocio": "Negócio"
+  }
+}
