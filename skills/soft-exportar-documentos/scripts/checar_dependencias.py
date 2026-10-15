@@ -102,7 +102,7 @@ APOIO = {
     "markitdown": ("bin", "markitdown", "le .pptx e .xlsx e devolve markdown, pra conferir o que entrou"),
     "qpdf": ("bin", "qpdf", "junta, separa e gira PDF pela linha de comando"),
     "pdfplumber": ("py", "pdfplumber", "extrai texto e tabela de PDF com layout preservado"),
-    "lxml": ("py", "lxml", "valida o XML do arquivo Office contra o esquema"),
+    "lxml": ("py", "lxml", "confere a estrutura do XML do arquivo Office (scripts/office/conferir.py) e le o pacote por dentro"),
     "defusedxml": ("py", "defusedxml", "le XML de terceiro sem risco; exigido pelos scripts de validacao"),
     "PIL": ("py", "PIL", "monta o mosaico de miniaturas do deck"),
 }

@@ -84,12 +84,12 @@ Toda ação abaixo traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem 
 
 **Leia primeiro:** `references/docx-como-fazer.md` (as rotas, as armadilhas de cada uma e o passo a passo de edição).
 
-**Profundidade:** `references/conferir-e-validar.md` (a conferência que pega o erro antes do dono) · `scripts/docx/merge_runs.py`, `scripts/docx/comment.py`, `scripts/docx/accept_changes.py` (os utilitários de edição fina).
+**Profundidade:** `references/conferir-e-validar.md` (a conferência que pega o erro antes do dono) · `scripts/docx/juntar_trechos.py`, `scripts/docx/comentar.py`, `scripts/docx/aceitar_alteracoes.py` (os utilitários de edição fina).
 
 **Os passos:**
 1. Meça a máquina (`scripts/checar_dependencias.py --formato docx`) e escolha a rota pela ordem de preferência que ele imprime.
 2. Criando do zero: escreva o gerador, um bloco de conteúdo por vez, títulos com o estilo nativo de título (é o que faz o sumário existir), tabela com largura declarada nas duas pontas.
-3. Editando um arquivo que chegou: descompacte, rode `scripts/docx/merge_runs.py` antes de procurar qualquer frase (o Word quebra o texto em pedaços e a frase que você lê não existe inteira no XML), edite, recompacte, valide.
+3. Editando um arquivo que chegou: desempacote com `scripts/office/desempacotar.py`, rode `scripts/docx/juntar_trechos.py` antes de procurar qualquer frase (o Word quebra o texto em pedaços e a frase que você lê não existe inteira no XML), edite, recompacte com `scripts/office/empacotar.py` (ele já confere), valide.
 4. Confira (Ação 5) antes de dizer que está pronto.
 5. **STOP.** Mostre o arquivo e pergunte "te serve? ajusto, ou sigo?".
 
@@ -109,7 +109,7 @@ Toda ação abaixo traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem 
 
 **Leia primeiro:** `references/pptx-como-fazer.md` (rotas, as armadilhas que corrompem o arquivo, e o trabalho com template).
 
-**Profundidade:** `references/conferir-e-validar.md` · `scripts/pptx/thumbnail.py` (o mosaico que mostra os slides do template) · `scripts/pptx/add_slide.py` (duplica slide com toda a papelada) · `scripts/pptx/clean.py` (limpa slide, mídia e vínculo órfão depois de apagar).
+**Profundidade:** `references/conferir-e-validar.md` · `scripts/pptx/mosaico.py` (o mosaico que mostra os slides do template) · `scripts/pptx/novo_slide.py` (duplica slide com toda a papelada) · `scripts/pptx/limpar.py` (limpa slide, mídia e vínculo órfão depois de apagar).
 
 **Os passos:**
 1. Meça a máquina e escolha a rota.
@@ -134,13 +134,13 @@ Toda ação abaixo traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem 
 
 **Leia primeiro:** `references/xlsx-como-fazer.md` (a regra da fórmula viva, o recálculo obrigatório e quais funções sobrevivem).
 
-**Profundidade:** `references/conferir-e-validar.md` · `scripts/xlsx/recalc.py` (o recálculo que prova que nenhuma fórmula quebrou).
+**Profundidade:** `references/conferir-e-validar.md` · `scripts/xlsx/recalcular.py` (o recálculo que prova que nenhuma fórmula quebrou).
 
 **Os passos:**
 1. Meça a máquina e escolha a rota.
 2. Separe o que é entrada do que é conta. Toda premissa mora na própria célula, rotulada, e as fórmulas apontam pra ela; número solto dentro de fórmula é erro.
 3. Escreva fórmula, nunca o resultado calculado por fora. A planilha tem que recalcular quando o dono mexe numa premissa.
-4. Recalcule com `scripts/xlsx/recalc.py` e conserte cada erro que ele nomear. Recálculo limpo prova que as fórmulas rodam, não que estão certas: confira 2 ou 3 à mão contra o número que você esperava.
+4. Recalcule com `scripts/xlsx/recalcular.py` e conserte cada erro que ele nomear. Recálculo limpo prova que as fórmulas rodam, não que estão certas: confira 2 ou 3 à mão contra o número que você esperava.
 5. Documente toda premissa e todo número fixo onde o leitor vê, ao lado da célula ou no rodapé da tabela.
 6. **STOP.**
 
@@ -183,7 +183,7 @@ Toda ação abaixo traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem 
 
 **Leia primeiro:** `references/conferir-e-validar.md` (as 3 camadas de conferência e o que cada uma pega).
 
-**Profundidade:** `scripts/office/validate.py` (a validação de estrutura de Word e deck) · a reference do formato que chegou (`docx-`, `pptx-`, `xlsx-` ou `pdf-como-fazer.md`), na seção de leitura.
+**Profundidade:** `scripts/office/conferir.py` (a conferência de estrutura de Word, deck e planilha) · a reference do formato que chegou (`docx-`, `pptx-`, `xlsx-` ou `pdf-como-fazer.md`), na seção de leitura.
 
 **As 3 camadas, nesta ordem:**
 1. **Conteúdo:** leia o arquivo de volta pra texto e confira contra o que devia estar lá. Pega conteúdo faltando, ordem errada, e o pior de todos, o texto de exemplo do template que ficou pra trás.
@@ -261,7 +261,7 @@ Cada rota abaixo é sugestão. **Se a skill irmã não estiver instalada, esta f
 
 ## Transversais
 
-`references/EXEMPLO-FIM-A-FIM.md` (o caso fictício de ponta a ponta) · `references/conferir-e-validar.md` (a conferência das 3 camadas, vale nas 4 ações) · `scripts/checar_dependencias.py` (mede a máquina antes de converter) · `scripts/office/validate.py` (valida a estrutura interna de Word e deck) · `scripts/lint_copy.py` (o anti-IA em código, rode no shell quando o ambiente permitir) · `scripts/lint_binario.py` (o mesmo anti-IA sobre o texto extraído do `.docx`, `.pptx` e `.pdf` gerados).
+`references/EXEMPLO-FIM-A-FIM.md` (o caso fictício de ponta a ponta) · `references/conferir-e-validar.md` (a conferência das 3 camadas, vale nas 4 ações) · `scripts/checar_dependencias.py` (mede a máquina antes de converter) · `scripts/office/conferir.py` (confere a estrutura interna de Word, deck e planilha) · `scripts/lint_copy.py` (o anti-IA em código, rode no shell quando o ambiente permitir) · `scripts/lint_binario.py` (o mesmo anti-IA sobre o texto extraído do `.docx`, `.pptx` e `.pdf` gerados).
 
 ---
 

@@ -29,14 +29,14 @@ Achou, conserte antes de dizer que está pronto. Vale igual pro Word e pra plani
 Valide a estrutura interna. É a camada que pega o arquivo que abre quebrado, antes do dono descobrir.
 
 ```bash
-python3 scripts/office/validate.py saida.docx
-python3 scripts/office/validate.py saida.pptx --original template.pptx
-python3 scripts/xlsx/recalc.py saida.xlsx
+python3 scripts/office/conferir.py saida.docx
+python3 scripts/office/conferir.py saida.pptx --original template.pptx
+python3 scripts/xlsx/recalcular.py saida.xlsx
 ```
 
-**Sempre passe o original quando o arquivo nasceu de um template.** O template pode ter erro próprio de esquema; sem essa base, os erros dele aparecem misturados com os seus, e o que você quebrou de verdade se esconde no meio. As conferências de estrutura (vínculos, tipos de conteúdo, gráficos) ignoram essa base e reportam de qualquer jeito, então leia essas por si.
+**Sempre passe o original quando o arquivo nasceu de um template.** O template pode ter erro próprio de esquema; sem essa base, os erros dele aparecem misturados com os seus, e o que você quebrou de verdade se esconde no meio. Com `--original`, o que já estava errado no template aparece à parte e não reprova; só o que é novo reprova. A conferência é estrutural: não valida a ordem dos elementos contra a norma, então um arquivo aprovado aqui ainda pode ser recusado pelo Word ou pelo PowerPoint, e a camada 3 (visual) continua obrigatória.
 
-Cada falha nomeia o próprio conserto. Conserte no gerador, não editando o XML compactado na mão: senão você conserta uma vez e reintroduz o erro na próxima geração.
+Cada falha diz o que reprovou e onde. Conserte no gerador, não editando o XML compactado na mão: senão você conserta uma vez e reintroduz o erro na próxima geração.
 
 **Na planilha, o recálculo é a validação.** E lembre das duas leituras da saída: JSON com chave de erro em vez de situação significa que nada foi calculado; e recálculo verde prova que a fórmula roda, não que ela está certa.
 
@@ -45,7 +45,7 @@ Cada falha nomeia o próprio conserto. Conserte no gerador, não editando o XML 
 Renderize e olhe.
 
 ```bash
-python3 scripts/office/soffice.py --headless --convert-to pdf saida.pptx
+python3 scripts/office/soffice_seguro.py --converter-para pdf saida.pptx --saida .
 rm -f pagina-*.jpg
 pdftoppm -jpeg -r 150 saida.pdf pagina
 ls -1 "$PWD"/pagina-*.jpg

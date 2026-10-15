@@ -9,7 +9,7 @@ Um `.pptx` também é arquivo compactado com XML dentro, um XML por slide. As ar
 | **Criar** deck novo, com gráfico nativo e imagem | `pptxgenjs` (Node) |
 | **Criar** deck simples, ou editar em Python | `python-pptx` |
 | **Preencher** um template que o dono mandou | descompactar, editar `ppt/slides/slideN.xml`, recompactar |
-| **Ler** o conteúdo | `markitdown deck.pptx`, ou o mosaico com `scripts/pptx/thumbnail.py` |
+| **Ler** o conteúdo | `markitdown deck.pptx`, ou o mosaico com `scripts/pptx/mosaico.py` |
 
 ## O que corrompe o arquivo (o mais importante desta página)
 
@@ -33,17 +33,17 @@ Um `.pptx` também é arquivo compactado com XML dentro, um XML por slide. As ar
 
 ## Template: a ordem certa de trabalhar
 
-1. **Veja os layouts primeiro.** `python3 scripts/pptx/thumbnail.py template.pptx template-mosaico` monta um mosaico numerado de todos os slides. **Sempre passe o segundo argumento com o nome do deck**: sem ele o nome padrão se repete, e dois templates na mesma pasta apagam o mosaico um do outro sem avisar.
-2. **Todo o trabalho de estrutura vem antes de todo o trabalho de conteúdo.** Somar, apagar e reordenar slide primeiro; escrever o texto depois. `scripts/pptx/add_slide.py` copia o slide como está, então duplicar depois de editar clona o conteúdo editado; e `scripts/pptx/clean.py` apaga qualquer slide que não esteja na lista oficial, inclusive um que você acabou de escrever.
-3. **Nunca copie um arquivo de slide na mão.** `scripts/pptx/add_slide.py desempacotado/ slide2.xml --after slide5.xml` faz todo o registro que um slide novo precisa e imprime o que criou. Rodando direto sobre o arquivo, passe a saída explícita ou ele reescreve o deck de entrada por cima.
-4. **Slide duplicado aponta pro mesmo gráfico do original**, não faz uma cópia. Editar o gráfico de um muda o do outro.
+1. **Veja os layouts primeiro.** `python3 scripts/pptx/mosaico.py template.pptx template-mosaico` monta um mosaico numerado de todos os slides (`template-mosaico.jpg`, ou `-1`, `-2` quando passa de 12). O segundo argumento é o prefixo dos arquivos: use o nome do deck, pra dois templates na mesma pasta não apagarem o mosaico um do outro.
+2. **Todo o trabalho de estrutura vem antes de todo o trabalho de conteúdo.** Somar, apagar e reordenar slide primeiro; escrever o texto depois. `scripts/pptx/novo_slide.py` copia o slide como está, então duplicar depois de editar clona o conteúdo editado; e `scripts/pptx/limpar.py` apaga qualquer slide que não esteja na lista oficial, inclusive um que você acabou de escrever.
+3. **Nunca copie um arquivo de slide na mão.** `python3 scripts/pptx/novo_slide.py desempacotado/ --de slide2 --depois slide5` faz todo o registro que um slide novo precisa e imprime o identificador e a linha pronta da lista de slides. Pra criar um slide em branco use `--layout slideLayout3` no lugar de `--de`.
+4. **Slide duplicado leva cópia própria do gráfico e da planilha embutida**; as imagens (mídia) ficam compartilhadas, e comentários não vão junto.
 5. **Vaga do template não é item do seu conteúdo.** Se o template mostra 4 caixas e você tem 3, apague o grupo inteiro da quarta (imagem e texto), não só o texto dela. Depois procure o que ficou órfão na conferência visual.
-6. Depois de apagar slide, rode `python3 scripts/pptx/clean.py desempacotado/` pra remover slide, mídia e vínculo que ninguém mais usa.
-7. Valide sempre com o original como base: `python3 scripts/office/validate.py saida.pptx --original template.pptx`. O template pode ter erro próprio de esquema, e sem essa base os erros dele aparecem como se fossem seus, escondendo o que você quebrou de verdade.
+6. Depois de apagar slide, rode `python3 scripts/pptx/limpar.py desempacotado/` (com `--simular` ele só mostra o que removeria) pra remover slide, mídia e vínculo que ninguém mais usa.
+7. Valide sempre com o original como base: `python3 scripts/office/conferir.py saida.pptx --original template.pptx`. O template pode ter erro próprio de esquema, e sem essa base os erros dele aparecem como se fossem seus, escondendo o que você quebrou de verdade.
 
 **Se você usar `python-pptx`**, três coisas ela não faz: duplicar slide (só cria a partir de layout), preservar formatação quando você troca o texto do quadro inteiro de uma vez (isso achata tudo num pedaço sem estilo; troque pedaço por pedaço), e ler os desenhos vetoriais que a maior parte dos templates usa.
 
-**Arquivo `.ppt` antigo** precisa ser convertido primeiro: `python3 scripts/office/soffice.py --headless --convert-to pptx arquivo.ppt`.
+**Arquivo `.ppt` antigo** precisa ser convertido primeiro: `python3 scripts/office/soffice_seguro.py --converter-para pptx arquivo.ppt --saida .`.
 
 ## Fonte e a conferência que mente
 

@@ -145,8 +145,10 @@ síndico na reunião. `[A CONFIRMAR: as notas em si, que não foram enviadas]`"*
 **O recálculo:**
 
 ```
-$ python3 scripts/xlsx/recalc.py custo-mensal-aroeira.xlsx
-{"status": "success", "total_formulas": 5, "total_errors": 0}
+$ python3 scripts/xlsx/recalcular.py custo-mensal-aroeira.xlsx
+Recalculado: custo-mensal-aroeira.xlsx (5 fórmulas)
+Aba "Custos": sem erros
+Total: nenhum erro de fórmula. Isso prova que as fórmulas rodam, não que estão certas.
 ```
 
 **A conferência que o recálculo não faz:** as 5 fórmulas foram lidas à mão contra o valor esperado.
@@ -160,7 +162,8 @@ a régua avisa. Corrigido.
 Saída real: `contrato-aroeira.pdf`, gerado a partir do `.docx` do contrato pela rota do LibreOffice.
 
 ```
-$ python3 scripts/office/soffice.py --headless --convert-to pdf contrato-aroeira.docx
+$ python3 scripts/office/soffice_seguro.py --converter-para pdf contrato-aroeira.docx --saida .
+contrato-aroeira.pdf
 $ pdftoppm -jpeg -r 100 contrato-aroeira.pdf pagina
 $ ls pagina-*.jpg
 pagina-1.jpg  pagina-2.jpg  pagina-3.jpg
@@ -179,7 +182,8 @@ se separa, e o PDF foi gerado outra vez.
 O síndico devolveu a proposta com alterações e pediu "me diz o que ele mudou".
 
 ```
-$ python3 scripts/docx/merge_runs.py proposta-devolvida.docx -o juntada.docx
+$ python3 scripts/docx/juntar_trechos.py proposta-devolvida.docx -o juntada.docx
+Juntei 2 trechos. Removi 0 marcas de ortografia. Gravado em juntada.docx
 $ pandoc -t markdown juntada.docx | diff - proposta-original.md
 ```
 

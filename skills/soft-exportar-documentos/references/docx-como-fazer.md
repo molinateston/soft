@@ -31,19 +31,20 @@ Valem nas duas bibliotecas, com nomes diferentes de propriedade:
 ## Editar um arquivo que chegou
 
 ```bash
-unzip -q documento.docx -d desempacotado/
-find desempacotado -type l -delete          # arquivo de fora nunca é confiável
-python3 scripts/docx/merge_runs.py desempacotado/
-# edite desempacotado/word/document.xml, sem reformatar nem indentar
-(cd desempacotado && rm -f ../saida.docx && zip -Xr ../saida.docx .)
-python3 scripts/office/validate.py saida.docx --original documento.docx
+python3 scripts/office/desempacotar.py documento.docx desempacotado/
+python3 scripts/docx/juntar_trechos.py desempacotado/
+# edite desempacotado/word/document.xml (o XML já vem recuado pra leitura)
+python3 scripts/office/empacotar.py desempacotado/ saida.docx --original documento.docx
+python3 scripts/office/conferir.py saida.docx --original documento.docx
 ```
 
-**Por que o `merge_runs.py` vem antes de tudo:** o Word parte o texto em muitos pedaços (marcas de revisão, correção ortográfica), então a frase que você lê na tela quase nunca existe inteira e contígua no XML. Procurar por ela sem juntar os pedaços não acha nada, e você conclui errado que o texto não está lá. O script junta pedaços vizinhos de mesma formatação, sem mudar uma vírgula do conteúdo nem do desenho. Ele também aceita o `.docx` direto: `python3 scripts/docx/merge_runs.py documento.docx -o juntado.docx`.
+O `desempacotar.py` recusa o arquivo inteiro se achar caminho fora da pasta, link simbólico, nome repetido ou bomba de compressão: arquivo de fora nunca é confiável.
 
-**Recompacte de dentro da pasta**, e apague o arquivo de saída antes, ou pedaço que você removeu sobrevive dentro do novo arquivo.
+**Por que o `juntar_trechos.py` vem antes de tudo:** o Word parte o texto em muitos pedaços (marcas de revisão, correção ortográfica), então a frase que você lê na tela quase nunca existe inteira e contígua no XML. Procurar por ela sem juntar os pedaços não acha nada, e você conclui errado que o texto não está lá. O script junta pedaços vizinhos de mesma formatação, sem mudar uma vírgula do conteúdo nem do desenho. Ele também aceita o `.docx` direto: `python3 scripts/docx/juntar_trechos.py documento.docx -o juntado.docx`.
 
-**Arquivo `.doc` antigo** (formato anterior) precisa ser convertido primeiro: `python3 scripts/office/soffice.py --headless --convert-to docx arquivo.doc`.
+**O `empacotar.py` recompacta de dentro da pasta**, grava num arquivo temporário e troca no fim, então nada do arquivo antigo sobrevive dentro do novo. Ele tira o recuo sem mexer no texto e roda a conferência; se reprovar, o arquivo fica gravado pra você inspecionar.
+
+**Arquivo `.doc` antigo** (formato anterior) precisa ser convertido primeiro: `python3 scripts/office/soffice_seguro.py --converter-para docx arquivo.doc --saida .`.
 
 ## Marcação de revisão (o "controle de alterações")
 
@@ -53,20 +54,19 @@ Quando o dono pede sugestão marcada, e não texto substituído:
 - Dentro da marca de exclusão, o elemento de texto tem nome próprio, diferente do texto normal. Trocar um pelo outro faz o Word ignorar a marca.
 - Apagar um parágrafo inteiro é duas coisas: marcar a exclusão de cada pedaço de texto, e marcar a exclusão da própria marca de fim de parágrafo (que significa "junta este parágrafo com o de baixo"). Faltando a segunda, sobra um parágrafo vazio na versão aceita, que aparece como marcador solto numa lista.
 - A ordem dos elementos dentro das propriedades é exigida pelo esquema. A marca de exclusão vem antes dos irmãos dela.
-- Valide com `python3 scripts/office/validate.py saida.docx --original entrada.docx --author "<o nome que você usou>"`. Ele aponta todo texto que você mudou sem marcar, que é fácil de fazer sem perceber e invisível na visualização final.
-- Pra entregar uma cópia limpa com tudo aceito: `python3 scripts/docx/accept_changes.py entrada.docx saida.docx`.
+- Valide com `python3 scripts/office/conferir.py saida.docx --original entrada.docx --autor "<o nome que você usou>"`. Ele aponta todo texto que você mudou sem marcar, que é fácil de fazer sem perceber e invisível na visualização final.
+- Pra entregar uma cópia limpa com tudo aceito: `python3 scripts/docx/aceitar_alteracoes.py entrada.docx -o saida.docx`.
 
 ## Comentários
 
 Comentário no Word é seis arquivos internos cruzados. Use o utilitário:
 
 ```bash
-python3 scripts/docx/comment.py desempacotado/ "Este prazo está curto pro escopo"
-python3 scripts/docx/comment.py desempacotado/ "Combinado" --parent 0
-python3 scripts/docx/comment.py contrato.docx "Revisar a cláusula 4" -o comentado.docx
+python3 scripts/docx/comentar.py contrato.docx --trecho "prazo de entrega" --texto "Este prazo está curto pro escopo" -o comentado.docx
+python3 scripts/docx/comentar.py comentado.docx --resposta-a 0 --texto "Combinado" -o respondido.docx
 ```
 
-O autor sai como "Revisor" por padrão, e muda pela variável de ambiente `DOC_AUTOR`. O script escreve todos os arquivos internos e as ligações, e imprime o trecho de marcação que você precisa colar no `word/document.xml` pra ancorar o comentário num texto específico. Enquanto você não colar esse trecho, o comentário existe no arquivo mas ninguém vê.
+O script cria os arquivos internos, as ligações e a marca no trecho exato (`--trecho` precisa aparecer uma vez no parágrafo; se aparecer mais, `--ocorrencia N` escolhe qual). O autor sai como "Revisor" por padrão e muda por `--autor` ou pela variável `DOC_AUTOR`. Ele imprime o número do comentário criado, e esse número vai em `--resposta-a` pra encadear a resposta. Procura só no corpo do documento e o trecho tem que caber num parágrafo.
 
 ## Sem nenhuma biblioteca de Word na máquina
 

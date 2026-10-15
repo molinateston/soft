@@ -26,13 +26,13 @@ A diferença entre uma planilha e uma tabela impressa é que a planilha recalcul
 A biblioteca escreve fórmula como texto, sem valor guardado. Até recalcular, toda célula de fórmula é lida como vazia por qualquer coisa que leia valores guardados: outras bibliotecas, o próprio leitor de valores, e a maioria dos visualizadores.
 
 ```bash
-python3 scripts/xlsx/recalc.py saida.xlsx [segundos_de_limite]   # padrão 30
+python3 scripts/xlsx/recalcular.py saida.xlsx [--limite 30] [--json]
 ```
 
-O LibreOffice calcula tudo, o arquivo é reescrito no lugar, e você recebe um JSON: situação (sucesso ou erros encontrados), total de fórmulas, total de erros, e um resumo nomeando até 100 células por tipo de erro (um campo diz quantas ficaram de fora da lista; confie no total, não no tamanho da lista). Conserte o que ele nomear e rode de novo.
+O LibreOffice recalcula tudo e o arquivo só é trocado depois que o resultado abre sem problema, então uma falha nunca estraga o original. Você recebe a contagem de fórmulas e de erros por aba, com as células que falharam (`--json` dá o mesmo em JSON). Conserte o que ele nomear e rode de novo.
 
 **Duas leituras importantes da saída:**
-1. **JSON com chave de erro em vez de situação significa que nada foi recalculado.** Só esse caso sai com código diferente de zero. "Erros encontrados" sai com código zero, então saída limpa do comando nunca prova planilha limpa: leia o JSON.
+1. **Leia o código de saída e a contagem por aba.** Código 0 é planilha sem erro de fórmula; 1 é erro encontrado, com as células nomeadas; 4 é o LibreOffice que falhou ou estourou o limite, e nesse caso o original não é tocado. O código resume e a contagem é o resultado.
 2. **Recálculo verde prova que a fórmula roda, não que ela está certa.** Um intervalo com uma linha a mais ou a menos gera arquivo limpo com número errado. Escreva 2 ou 3 fórmulas primeiro e confira que elas puxam o valor que você esperava, antes de estender pra grade inteira.
 
 **Planilha que puxa dado de outro arquivo perde esses vínculos** se você reescrever e recalcular. A fórmula desse tipo aponta pra um arquivo separado no disco, que quase nunca está aqui; o valor guardado é a única coisa segurando aquele dado. A biblioteca apaga o valor guardado ao salvar, o LibreOffice tenta resolver o vínculo de verdade, falha, escreve erro de nome e apaga todos os vínculos. O script se recusa a rodar nesse estado: copie os valores dessas células pra fora do original antes de salvar por cima (existe uma opção de forçar, que aceita a perda).
