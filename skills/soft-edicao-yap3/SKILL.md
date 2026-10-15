@@ -21,6 +21,15 @@ Pergunte o modo uma vez, na primeira mensagem: "Eu já edito no modo direto (voc
 
 Ensine enquanto faz (uma linha do porquê de cada escolha) e feche oferecendo o ajuste ("quer o corte mais seco, o texto maior, outra cor?").
 
+## Antes de editar: ambiente pronto, instalado por você
+
+Em toda máquina, antes de abrir o bruto, confira e instale o que faltar, sem perguntar ao dono. Esta skill precisa de ffmpeg e ffprobe, de python 3 e da transcrição local (faster-whisper).
+
+1. **Confira**, colando as saídas: `ffmpeg -version`, `ffprobe -version`, `python3 --version` e `python3 -c "import faster_whisper"`.
+2. **Instale você mesmo o que faltar.** ffmpeg: Ubuntu e Debian `sudo apt-get install -y ffmpeg`, Mac `brew install ffmpeg`, Windows `winget install Gyan.FFmpeg`. faster-whisper, em ambiente isolado dentro da pasta do projeto: `python3 -m venv .venv-edicao` e depois `.venv-edicao/bin/pip install faster-whisper` (no Windows, `.venv-edicao\Scripts\pip`). Se faltar permissão de administrador, diga ao dono em uma frase o comando exato que ele precisa rodar e espere: não improvise outro caminho.
+3. **Prove que funciona antes de editar.** Gere um teste de 3 s com `ffmpeg -f lavfi -i testsrc2=size=1080x1920:rate=30 -f lavfi -i sine=frequency=220 -t 3 -pix_fmt yuv420p teste.mp4`, confira com `ffprobe` (1080x1920, 30 fps, áudio presente) e rode a transcrição local num trecho curto do áudio do dono. Sem a prova, não edite.
+4. **Regra dura:** nunca entregue uma edição "simplificada" por falta de ferramenta. Ou o ambiente prova que funciona, ou você para e diz o que falta. Cole a saída da prova no relatório.
+
 ## Regras de partida (o dono pode mudar qualquer uma; registre a mudança no relatório)
 
 1. **Uma cor de acento só**, a da identidade do dono. Na legenda não há destaque colorido.
@@ -79,6 +88,7 @@ Assista do início ao fim como espectador. Perguntas:
 
 - `ffprobe`: 1080x1920, 30 fps, áudio presente, duração e tamanho abaixo de 300 MB. E `ffmpeg -v error -i X -f null -` sem saída.
 - **Folha de contato por versão** (quadros em 0, 1, 3 s e a cada 5 s): título no quadro 0, nenhuma animação de abertura (quadros 0 e 1 iguais no fundo), legenda legível, só a cor de acento da identidade, nada cortado na borda.
+- **Recortes do feed:** aplicar a área de texto e a conferência integral em `references/texto-legenda-elementos.md`, com mosaico 9:16, 4:5 e 3:4 dos maiores estados de texto e CTA. Texto cortado reprova a entrega.
 - **Câmera:** confira a trajetória de escala e posição no arquivo final. Examine pares antes e depois dos cortes e a sequência em tempo real: quadro isolado não valida conforto de movimento. Anote se só foi possível examinar quadros.
 - **Emenda gancho → corpo:** quadros n-1 e n e escuta de 2 s em volta (sem respiro, sem palavra comida).
 - **Entrada de cada elemento:** quadros n-1 e n.

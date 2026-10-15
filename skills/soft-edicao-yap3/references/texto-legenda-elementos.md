@@ -6,15 +6,23 @@ Lido nos passos 4, 5 e 7 da ordem de edição do `SKILL.md`. "Medido" descreve u
 
 - **Título no quadro 0, durante todo o primeiro plano**, saindo exatamente no corte gancho → corpo. Medido: mediana de 5,5 s (de 3,3 a 10,3 s), saindo num corte em 5 de 8 reels.
 - **O texto do título é o que foi falado.** Literal, sem resumo.
-- **Fonte do título:** display forte e legível, branca ou na cor da identidade, grande, de 2 a 3 linhas, centrada, no topo, logo abaixo da zona segura da interface (medido: de 12% a 26% da altura). Quebre as linhas sem deixar palavra isolada.
+- **Fonte do título:** display forte e legível, branca ou na cor da identidade, grande, de 2 a 3 linhas, centrada no espaço livre do rosto e dentro da área de recorte abaixo (a medição anterior de 12% a 26% da altura é descritiva). Quebre as linhas sem deixar palavra isolada.
 - **Segunda frase do título em manuscrita**, entrando no instante em que é falada, logo abaixo. A entrada é seca na palavra: digitar caractere por caractere no primeiro plano seria motion de abertura, que a regra 3 proíbe. (No corpo, depois do primeiro plano, texto digitado é permitido.)
 - **Texto começa no quadro do corte ou da palavra.**
-- **Do terceiro texto em diante, sans negrito itálico**, em cima, perto do rosto. Nunca sobre a boca nem sobre os olhos.
+- **Do terceiro texto em diante, sans negrito itálico**, perto do rosto e dentro da área de recorte abaixo. Nunca sobre a boca nem sobre os olhos.
 - **Mais texto no começo, menos depois.** Trecho sem texto é normal.
 - **Lista com marcador (✅)**, um item por vez, na palavra, um embaixo do outro. Os itens se acumulam para baixo.
 - **Onde há prova, entra print e não texto.** Objeção pode virar texto com emoji de dúvida.
 - **Número** é a parte mais importante do título. Pode ir na cor de acento nos textos do topo, com parcimônia; na legenda, nunca.
 - Texto inclinado é só sensação de edição: opcional.
+
+### Área de texto nos recortes do feed (dono, 15/10/2026, 12:31)
+
+- Evidência visual do dono em 15/10/2026: `/home/cloud/.leon/tmp/1792078421068-file_5350.jpg` (12:33) mostra a primeira linha dos dois títulos do Léo cortada na grade; `/home/cloud/.leon/tmp/1792078447705-file_5351.jpg` (12:34) mostra títulos inteiros com margem acima na grade Stella. Modelar esse espaço reservado entre topo e cabeça, mantendo tamanho legível; diminuir a fonte não é a solução padrão. Baixar o bloco completo e conferir primeira e última linha, inclusive o gancho mais alto. Alterar só a capa não corrige texto já queimado no vídeo. Os prints não fornecem coordenadas do canvas original.
+- Baixar títulos presos ao topo. Título, complemento, listas, números, legenda quando pedida e CTA devem caber inteiros na área comum aos recortes centrais 4:5 do feed e 3:4 da grade, quando aplicáveis. Conferir a caixa visível completa, incluindo acentos, sombra e marcas.
+- Convenção geométrica local para canvas 1080x1920, origem no canto superior esquerdo: 4:5 tem altura 1350, y=285 a 1635; 3:4 tem altura 1440, y=240 a 1680. A interseção é x=0 a 1080, y=285 a 1635. Reservar 60 px de respiro para dentro: toda a caixa de texto deve caber em x=60 a 1020, y=345 a 1575. Escalar proporcionalmente em outros canvases. Estes valores são critério interno de simulação, não medição da Stella nem garantia do layout atual do Instagram; conferir também o recorte real quando disponível.
+- Posicionar pelo espaço livre do rosto dentro dessa área. Ajustar posição e quebras mantendo palavras, fontes, cores e hierarquia. Nunca empurrar texto para fora da área nem cortar a cabeça para fazê-lo caber. Se faltar espaço, rever composição e enquadramento, preservando a cabeça inteira, olhos e boca livres. Coordenadas antigas de topo, incluindo y=0,085, não são ponto de partida obrigatório.
+- Antes de entregar, percorrer o vídeo final inteiro e conferir cada composição: segunda linha completa, lista acumulada, maior palavra da legenda, maior estado de texto e CTA, nas entradas, durante movimentos e antes das saídas. Qualquer letra cortada ou sem respiro reprova a entrega. Produzir em `final/conferencia/` um mosaico com quadro 9:16 e simulações centrais 4:5 e 3:4 dos mesmos estados e tempos; a folha a cada 5 s sozinha não basta. Registrar tempos conferidos e limites da inspeção no relatório. Esta revisão altera posição e checagem, preservando o método de edição.
 
 ### Fontes (todas livres)
 
@@ -25,7 +33,7 @@ Lido nos passos 4, 5 e 7 da ordem de edição do `SKILL.md`. "Medido" descreve u
 
 ### Como montar
 
-Textos do topo em PNG feitos com PIL, não em ASS: o libass não desenha emoji colorido nem faz glow. Emoji com `NotoColorEmoji.ttf` no tamanho 109 e `embedded_color=True`, depois redimensionado. Sombra escura suave em duas camadas (blur 10 e 3) quando o fundo for movimentado. Trecho entre colchetes no plano sai na cor de acento. Bloco empilhado e centrado a partir de y 0,085, com quebra em cerca de 960 px; lista em 2 colunas com ✅. Passe a pasta de fontes ao filtro: `subtitles=...:fontsdir=fontes`.
+Textos do topo em PNG feitos com PIL, não em ASS: o libass não desenha emoji colorido nem faz glow. Emoji com `NotoColorEmoji.ttf` no tamanho 109 e `embedded_color=True`, depois redimensionado. Sombra escura suave em duas camadas (blur 10 e 3) quando o fundo for movimentado. Trecho entre colchetes no plano sai na cor de acento. Bloco empilhado e centrado dentro da área de recorte acima, com quebra em cerca de 960 px; lista em 2 colunas com ✅. Passe a pasta de fontes ao filtro: `subtitles=...:fontsdir=fontes`.
 
 ## Elementos (prints, emojis, figurinhas)
 
