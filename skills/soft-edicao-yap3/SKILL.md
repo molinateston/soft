@@ -23,12 +23,14 @@ Ensine enquanto faz (uma linha do porquê de cada escolha) e feche oferecendo o 
 
 ## Antes de editar: ambiente pronto, instalado por você
 
-Em toda máquina, antes de abrir o bruto, confira e instale o que faltar, sem perguntar ao dono. Esta skill precisa de ffmpeg e ffprobe, de python 3 e da transcrição local (faster-whisper).
+Quem prepara a máquina é você, o agente. O dono não instala nada na mão. Esta skill precisa de ffmpeg, ffprobe e a transcrição local (faster-whisper). Nos comandos, `<S>` é a pasta `scripts` desta skill e `<pasta>` é a pasta de trabalho da edição. No Windows, troque `python3` por `python`.
 
-1. **Confira**, colando as saídas: `ffmpeg -version`, `ffprobe -version`, `python3 --version` e `python3 -c "import faster_whisper"`.
-2. **Instale você mesmo o que faltar.** ffmpeg: Ubuntu e Debian `sudo apt-get install -y ffmpeg`, Mac `brew install ffmpeg`, Windows `winget install Gyan.FFmpeg`. faster-whisper, em ambiente isolado dentro da pasta do projeto: `python3 -m venv .venv-edicao` e depois `.venv-edicao/bin/pip install faster-whisper` (no Windows, `.venv-edicao\Scripts\pip`). Se faltar permissão de administrador, diga ao dono em uma frase o comando exato que ele precisa rodar e espere: não improvise outro caminho.
-3. **Prove que funciona antes de editar.** Gere um teste de 3 s com `ffmpeg -f lavfi -i testsrc2=size=1080x1920:rate=30 -f lavfi -i sine=frequency=220 -t 3 -pix_fmt yuv420p teste.mp4`, confira com `ffprobe` (1080x1920, 30 fps, áudio presente) e rode a transcrição local num trecho curto do áudio do dono. Sem a prova, não edite.
-4. **Regra dura:** nunca entregue uma edição "simplificada" por falta de ferramenta. Ou o ambiente prova que funciona, ou você para e diz o que falta. Cole a saída da prova no relatório.
+1. **Instale:** `python3 <S>/instalar_ambiente.py --perfil ffmpeg --pasta <pasta>`. Ele confere o sistema e instala sozinho o que faltar, dentro da pasta sempre que possível. Na primeira vez leva de 3 a 5 minutos; rodar de novo é seguro. Saída 0, ambiente pronto. Saída 3, falta algo que só o dono faz: passe a ele, em uma frase, o comando exato que o instalador imprimiu e espere. Saída 1, 2 ou 4, leia o motivo, rode de novo uma vez e, se repetir, mostre ao dono o passo e o log.
+2. **Prove:** `python3 <S>/prova_render.py --perfil ffmpeg --pasta <pasta> --audio <vídeo do dono>`. Só a linha `PROVA DE RENDER: OK` libera a edição. Reprovou, diga ao dono qual item falhou e não edite.
+3. **Carregue o ambiente em todo comando:** Linux e Mac `. <pasta>/.ambiente/ativar.sh && <comando>`; Windows `call <pasta>\.ambiente\ativar.bat && <comando>`.
+4. **Regra dura:** nunca entregue uma edição simplificada por falta de ferramenta. Ou o ambiente prova que renderiza, ou você para e diz o que falta. Cole a linha da prova no relatório.
+
+O passo a passo completo, com a tabela de estados e as saídas, está em `references/ambiente.md`.
 
 ## Regras de partida (o dono pode mudar qualquer uma; registre a mudança no relatório)
 
@@ -139,6 +141,9 @@ Uma pasta de projeto com `bruto/` (cópia), `plano.json`, `final/` (os MP4s), `f
 
 - `references/texto-legenda-elementos.md`: título, textos, elementos, prova, legenda e fontes.
 - `references/camera-e-sons.md`: câmera, receitas de ffmpeg e mapa de sons.
+- `scripts/instalar_ambiente.py`: instala sozinho o ambiente da edição e grava `ambiente.json`.
+- `scripts/prova_render.py`: prova que a máquina renderiza e transcreve antes de editar.
+- `references/ambiente.md`: o passo a passo do ambiente, com saídas e regra dura.
 - `scripts/lint_copy.py`: o lint de copy da casa, para o arquivo de textos.
 
 ## Nome do arquivo e lint
