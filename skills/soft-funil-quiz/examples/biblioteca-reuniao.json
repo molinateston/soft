@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "route": "meeting",
+  "title": "Qual é a prioridade para organizar o catálogo da biblioteca?",
+  "brand": "Exercício fictício: biblioteca comunitária",
+  "offer": "Conversa de demonstração sobre organização do catálogo. A agenda abaixo é uma tela de ensaio e não marca reunião.",
+  "tieText": "As prioridades ficaram próximas. Neste exercício, padronizar o cadastro vem primeiro no empate.",
+  "tieOrder": [
+    "cadastro",
+    "busca"
+  ],
+  "profiles": [
+    {
+      "id": "cadastro",
+      "title": "A prioridade sugerida é padronizar os registros",
+      "body": "As respostas indicam atenção à forma de cadastrar os títulos. A conversa pode examinar como os registros são feitos.",
+      "recommendation": "Antes de conversar, separe um exemplo fictício de registro e explique como ele é preenchido."
+    },
+    {
+      "id": "busca",
+      "title": "A prioridade sugerida é facilitar a consulta ao catálogo",
+      "body": "As respostas indicam atenção a encontrar o que já está registrado. A conversa pode examinar como a consulta é feita.",
+      "recommendation": "Antes de conversar, descreva uma busca que a biblioteca gostaria de simplificar."
+    }
+  ],
+  "steps": [
+    {
+      "id": "situacao",
+      "type": "single",
+      "title": "Qual tarefa mais precisa de atenção no catálogo?",
+      "purpose": "Definir a prioridade da recomendação.",
+      "options": [
+        {
+          "id": "registrar",
+          "label": "Cadastrar os títulos de forma consistente",
+          "scores": {
+            "cadastro": 2
+          }
+        },
+        {
+          "id": "encontrar",
+          "label": "Encontrar títulos já registrados",
+          "scores": {
+            "busca": 2
+          }
+        },
+        {
+          "id": "ambas",
+          "label": "As duas tarefas precisam de atenção"
+        }
+      ]
+    },
+    {
+      "id": "ferramenta",
+      "type": "single",
+      "title": "A biblioteca usa alguma ferramenta para o catálogo?",
+      "purpose": "Definir a prioridade da recomendação.",
+      "options": [
+        {
+          "id": "sim",
+          "label": "Sim, já usamos uma ferramenta"
+        },
+        {
+          "id": "nao",
+          "label": "Ainda não usamos uma ferramenta"
+        }
+      ]
+    },
+    {
+      "id": "tempo",
+      "type": "single",
+      "title": "Há quanto tempo a biblioteca usa essa ferramenta?",
+      "purpose": "Ajustar a recomendação somente para quem usa uma ferramenta.",
+      "options": [
+        {
+          "id": "recente",
+          "label": "Começamos recentemente",
+          "scores": {
+            "cadastro": 1
+          }
+        },
+        {
+          "id": "antiga",
+          "label": "Já usamos há bastante tempo",
+          "scores": {
+            "busca": 1
+          }
+        }
+      ],
+      "when": {
+        "question": "ferramenta",
+        "op": "eq",
+        "value": "sim"
+      }
+    },
+    {
+      "id": "titulos",
+      "type": "number",
+      "title": "Quantos títulos estão no catálogo hoje?",
+      "unit": "títulos",
+      "min": 0,
+      "max": 100000,
+      "step": 1,
+      "purpose": "Mostrar o porte declarado no resumo para preparar a conversa."
+    },
+    {
+      "id": "contexto",
+      "type": "text",
+      "title": "Qual tarefa você gostaria de explicar na conversa?",
+      "maxLength": 300,
+      "purpose": "Guardar contexto no resumo sem simular interpretação automática."
+    }
+  ],
+  "qualification": [
+    {
+      "id": "responsavel",
+      "type": "single",
+      "title": "Você participa das decisões sobre o catálogo?",
+      "purpose": "Aplicar o critério fictício de adequação da conversa.",
+      "options": [
+        {
+          "id": "sim",
+          "label": "Sim, participo das decisões"
+        },
+        {
+          "id": "nao",
+          "label": "Não, preciso envolver outra pessoa"
+        }
+      ]
+    }
+  ],
+  "qualificationTitle": "Quem precisa participar da conversa?",
+  "eligibility": {
+    "all": [
+      {
+        "question": "responsavel",
+        "op": "eq",
+        "value": "sim"
+      }
+    ]
+  },
+  "ineligible": {
+    "message": "Neste exercício, a conversa requer participação de alguém que decida sobre o catálogo. Veja a orientação para envolver essa pessoa.",
+    "destination": {
+      "label": "Ver orientação alternativa",
+      "url": "destinos/orientacao.html"
+    }
+  },
+  "capture": {
+    "mode": "none"
+  },
+  "resultMedia": {
+    "title": "O que acontece na conversa sobre o catálogo",
+    "transcript": "Demonstração fictícia. A conversa serve para examinar como o catálogo é registrado e consultado. Ela não promete um sistema pronto. O critério deste exercício pede a presença de alguém que participe das decisões. A tela de agenda não confirma horário.",
+    "absentText": "O vídeo de convite ainda não foi produzido. Leia o roteiro resumido abaixo."
+  },
+  "destination": {
+    "label": "Ver agenda de demonstração",
+    "url": "destinos/agenda.html"
+  }
+}

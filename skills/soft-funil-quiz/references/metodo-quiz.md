@@ -1,78 +1,53 @@
-# A mecânica do quiz: perguntar antes de vender
+# Engenharia das perguntas e segmentação
 
-Referência de método pra soft-funil-quiz. A fonte está em `fontes-do-metodo.md` (seção QUIZ): Ryan Levesque e o ASK Method, mais de 100 milhões em vendas online em 23 nichos, co-fundador da bucket.io. Tudo aqui vem daí. Os exemplos usam o dono fictício Renata (Studio Base 40, personal trainer pra mulheres de 40 a 55, Protocolo Base 40, 1.497). Nenhum número inventado: os do exemplo são do perfil fictício.
+## Decisão antes da pergunta
 
-## 1. O princípio ASK: a copy pergunta, não adivinha
+Perguntar serve a uma decisão: reconhecer situação, distinguir prioridade, adaptar explicação, verificar adequação ou preparar uso da entrega. Escreva primeiro o que muda por resposta. Se nada muda na lógica, no texto útil ou no próximo passo, retire a pergunta ou justifique seu uso editorial. Identificação sem uso repetida apenas prolonga o caminho.
 
-A oferta única pra todo mundo trata a experiente que já treinou nove anos igual à iniciante que nunca pisou numa academia. Uma acha a promessa óbvia demais, a outra acha assustadora. A copy que adivinha o que o cliente quer erra com a maioria.
+ASK é o princípio de ouvir antes de oferecer, preservado do método existente. Não há neste acervo medição que autorize fixar número de perguntas, perfis ou posição de captura. Defina a menor sequência que resolve a decisão com informação suficiente. Teste redução quando houver dados reais, sem tratar preferência mecânica como ganho medido.
 
-O quiz resolve isso perguntando. Antes de oferecer qualquer coisa, ele faz de 4 a 7 perguntas, descobre a situação real do lead, e só então mostra o resultado e a oferta que falam com aquela situação. Cada resposta afina a mensagem. É o oposto do palpite.
+## Inventário de tipos e trabalho
 
-O quiz faz cinco coisas ao mesmo tempo:
-1. **Segmenta** o lead (descobre em qual bucket ele cai).
-2. **Gera identificação** (as perguntas mostram que o dono entende o problema dele).
-3. **Entrega um resultado** ou diagnóstico personalizado.
-4. **Conecta** o resultado à oferta certa pra aquele segmento.
-5. **Captura** o lead (e-mail ou WhatsApp) no meio do caminho.
+| Tipo | Trabalho | Regra de construção | Evitar |
+|---|---|---|---|
+| Situação ou estágio | Estabelecer ponto de partida | Alternativas observáveis, período definido quando necessário | Pedir que a pessoa adivinhe seu próprio diagnóstico |
+| Objetivo/prioridade | Separar destino ou recomendação | Uma prioridade quando a decisão exigir escolha; permitir outras situações | Opção desejável única cercada de opções humilhantes |
+| Tentativa anterior | Entender experiência e objeção | Perguntar o que fez antes de perguntar efeito | Pressupor fracasso ou atribuir fala não dita |
+| Dificuldade dominante | Ajustar orientação | Opções de fatos e restrições verificáveis | Culpar, envergonhar ou insinuar doença |
+| Frequência/disponibilidade | Verificar viabilidade | Unidade e intervalo claros | Coletar tempo e ignorar na indicação |
+| Preferência múltipla | Compor prioridades | Dizer quantas pode marcar, respeitar exclusões | Misturar seleção única com múltipla sem instrução |
+| Número/medida | Calcular ou comparar algo definido | Unidade, faixa, validação; iniciar vazio | Valor padrão que parece resposta real, falsa precisão |
+| Texto livre | Captar informação não coberta | Instrução específica; não classificar automaticamente sem regra | Fazer pergunta aberta e fingir análise semântica inexistente |
+| Adequação | Permitir reunião ou oferta aplicável | Critério real, transparente e caminho alternativo | Esconder reprovação ou deixar visitante sem saída |
+| Contato | Operar continuidade autorizada | Finalidade, necessidade, tratamento e consentimento | Prometer envio sem integração e consentimento |
+| Confirmação/compreensão | Verificar entendimento útil | Resposta pode mudar explicação ou permitir revisão | Pergunta retórica para forçar concordância com promessa |
 
-## 2. Os buckets: os baldes onde o lead cai
+## Ordem e progressão
 
-Bucket é o perfil de cliente. O quiz existe pra descobrir em qual balde o lead cai, porque a venda muda de balde pra balde. A regra de ouro: **um bucket só é bucket se a oferta ou o ângulo muda pra ele.** Dois perfis que recebem a mesma oferta pelo mesmo caminho são um perfil só com dois nomes.
+Comece com pergunta fácil e relevante à promessa. Estabeleça situação e objetivo; só então aprofunde tentativas, dificuldade e restrições. Não é uma ordem universal: inelegibilidade essencial pode justificar filtro inicial transparente. Pergunte detalhes apenas quando a condição existir. Exemplo abstrato: somente quem usa uma ferramenta responde há quanto tempo a usa.
 
-**Quantos:** de 3 a 5. Menos de 3 não segmenta de verdade, vira oferta única com etapa extra. Mais de 5 pulveriza, e o dono não consegue escrever um resultado e uma oferta pra cada um. O número sai do avatar real do dono, não do gosto.
+Intersticial é um estado de explicação, prova ou transição, não uma pergunta. Insira quando resolve uma dúvida necessária para continuar. Registre afirmação, fonte e função. Um vídeo explicativo antes de perguntas sobre método só faz sentido se a compreensão influenciar a resposta; se só repete propaganda, remova. Progresso considera o caminho ativo e se recalcula quando a ramificação muda, sem esconder tela adicional.
 
-**De onde saem:** do avatar. O dono já percebe tipos diferentes na base dele, mesmo sem ter nomeado. A pergunta que puxa isso: "quais tipos de cliente você já vê, e o que muda no que você oferece pra cada um?".
+## Alternativas e o que não fazer
 
-**Exemplo (Renata).** A base dela tem três perfis claros:
-- **A que já tentou de tudo e parou:** treinou, fez dieta, desistiu pela dor no joelho e pela vergonha de treinar em público. Ângulo de oferta: o Protocolo entra pela progressão lenta que não dói, e pelo treino em casa que tira a plateia.
-- **A iniciante com medo:** nunca treinou sério, tem medo de se lesionar e de não dar conta sozinha. Ângulo: o acompanhamento semanal e o começo pela mobilidade, não pela carga.
-- **A que treina mas o corpo estacionou:** já treina, mas o corpo parou de responder como antes. Ângulo: a fase de força e a progressão do Protocolo, o que falta no treino solto que ela faz.
+As opções de uma pergunta devem responder à mesma dimensão, ter linguagem e detalhe comparáveis, e evitar sobreposição. Quando houver lacuna plausível, incluir outra situação/não sei/não se aplica ou campo livre com tratamento definido. Não oferecer todas essas saídas por hábito se não forem necessárias.
 
-Cada uma compra o mesmo Protocolo Base 40, mas pela porta que fala com ela. Isso é o ASK method na prática.
+Não usar duas perguntas dentro de uma, faixa que se sobrepõe, concordância obrigatória com alegação sem prova, objetivo impossível com prazo induzido, nome de personalidade que elogia sem explicar, informação sensível sem necessidade, ou requisito comercial disfarçado de diagnóstico. Não copiar alegação médica, história, celebridade, prova ou identidade da referência.
 
-## 3. A lógica das perguntas: cada uma tem um trabalho
+Para cada pergunta documente `id | texto | tipo | opções | propósito | variável | entrada | próximo estado | efeito | fonte ou hipótese`. Para cada alternativa defina consequência ou ausência deliberada de pontuação. Trocar alternativa muda de fato a recomendação quando essa personalização for anunciada.
 
-Toda pergunta serve pra uma de duas coisas, nunca as duas ao acaso e nunca nenhuma:
+## Árvore e resolução
 
-- **(a) Segmentar:** a resposta empurra o lead pra um bucket. "Você já treina hoje, ou está voltando depois de um tempo parada?" separa a que treina da que parou.
-- **(b) Gerar identificação:** a pergunta mostra que o dono entende o problema, e o lead pensa "ela me entende". "O que mais te fez parar da última vez: a dor, a falta de tempo, ou a vergonha de treinar em público?" ecoa a dor real e ainda segmenta.
+Escolha um mecanismo explícito: regra prioritária, pontuação, resposta determinante ou combinação. A base executável usa soma por perfil, prioridade declarada em empate e condições de adequação separadas do perfil. Esse mecanismo é uma implementação disponível, não definição universal de ASK.
 
-**A ordem: começa fácil, afunila.** A primeira pergunta é a mais fácil de responder e a mais de identificação. O lead se reconhece e continua. As perguntas de segmentação mais fina vêm depois, quando ele já está dentro e confia. Abrir pedindo pro lead se classificar num perfil ("qual desses tipos é você?") espanta quem ainda não confia.
+Pontos devem representar uma razão de decisão e não aparência de ciência. Empate exige prioridade escrita ou pergunta adicional útil. Resultado misto pode reconhecer as prioridades concorrentes sem inventar precisão percentual. Nenhuma resposta oculta conta. Ao mudar uma pergunta anterior, recalcule estados ativos e descarte respostas dependentes que perderam validade.
 
-**Sem pergunta inútil.** Pergunta que não segmenta nem identifica é decoração, e decoração faz o lead abandonar o quiz antes do fim. Toda pergunta declara o propósito.
+Enumere combinações quando o conjunto for pequeno; para número/texto use fronteiras, vazios e equivalências. Para árvore grande, testes por regra e propriedade com amostra identificada; nunca chame amostra de cobertura exaustiva. Mostre pelo menos um caminho que alcança cada perfil. Condições de elegibilidade não alteram silenciosamente a resposta do visitante.
 
-**Quantas:** de 4 a 7. Menos de 4 raramente separa 3 a 5 buckets com segurança. Mais de 7 cansa e derruba a taxa de conclusão. O piso é: perguntas suficientes pra que cada bucket tenha um caminho de resposta que chega nele.
+## Resultado, oferta e captura
 
-**A árvore fecha.** Toda combinação de respostas cai em exatamente um bucket. Nenhum caminho leva a lugar nenhum, nenhum bucket fica sem caminho. Antes de fechar, desenhe a árvore: resposta A da pergunta 1 mais resposta B da pergunta 2 leva ao bucket X, e assim por diante, até cobrir todos.
+Resultado: situação respondida → prioridade sugerida → razão verificável e limite → próximo passo. Não concluir causalidade ou doença a partir de autorrelato simples. Cite respostas de forma literal e segura. Explicação comum é aceitável; personalização anunciada precisa existir e ser demonstrada.
 
-## 4. Os resultados: o diagnóstico que vende
+Oferta por perfil deriva do que a operação realmente entrega. Cada inclusão, suporte, prazo, preço e condição recebe fonte e decisão sobre falhas encontradas. Número comprovado não vira expressão vaga para esconder a evidência; número não confirmado sai da copy, mesmo com ressalva. Sem prova adequada, reduza a afirmação.
 
-O resultado é a recompensa do quiz e a ponte pra oferta. O resultado fraco elogia ("você é a Guerreira, parabéns"). O resultado que vende faz três coisas:
-
-1. **Nomeia a dor concreta do perfil.** "Você é a que já tentou academia e dieta e parou pela dor no joelho." O lead se reconhece.
-2. **Explica por que as tentativas anteriores não pegaram.** Sem culpar o lead. "Não foi falta de esforço, foi um treino que subia a carga rápido demais pra um joelho que precisa de progressão lenta." (Isso exonera o lead e prepara o mecanismo da solução.)
-3. **Aponta a oferta como o próximo passo daquele perfil.** A mesma oferta, pela porta certa.
-
-**A oferta é a da operação, pelo ângulo do bucket.** Não se inventa uma oferta por perfil. O Protocolo Base 40 é um só; o que muda é o ângulo pelo qual cada resultado o apresenta. Se o dono tem variações reais (um plano de 8 semanas e um de 12, por exemplo), o resultado liga cada perfil à variação que o dono confirmou que existe. Sem confirmação, é uma oferta só por ângulos diferentes.
-
-## 5. A captura do lead: onde e por quê
-
-O quiz captura o contato (e-mail ou WhatsApp) no meio do caminho. O ponto padrão é **antes de mostrar o resultado**: o lead responde as perguntas, deixa o contato, e aí recebe o diagnóstico. Funciona porque o resultado é a recompensa que paga o contato, e nesse ponto o lead já investiu tempo respondendo e quer saber o resultado.
-
-O dono pode mover a captura (capturar depois do resultado, por exemplo, pra não perder quem some no formulário), mas isso é uma decisão declarada com motivo, não um default silencioso.
-
-O campo de captura vem do canal que o dono já usa. A Renata usa WhatsApp; então a captura pede o WhatsApp, com a frase que dispensa link ("deixa seu WhatsApp e eu te mando o resultado com o próximo passo"). Se o quiz pede uma palavra-chave pra uma automação, a palavra vem literal dos insumos do dono, com a grafia exata.
-
-## 6. O fluxo inteiro, de cima a baixo
-
-1. O lead cai na página do quiz (a página é da soft-funil-landing; aqui é o conteúdo).
-2. Responde de 4 a 7 perguntas, começando fácil, afunilando.
-3. Cada resposta o empurra pela árvore rumo a um bucket.
-4. Antes do resultado, deixa o contato.
-5. Recebe o resultado do bucket dele: a dor nomeada, a exoneração, o caminho.
-6. O resultado liga na oferta pela porta daquele perfil.
-7. Da oferta em diante, quem trabalha é a carta (soft-funil-carta) ou a régua de mensagens (soft-funil-nutricao).
-
-## 7. A fronteira com a landing
-
-Esta skill projeta o cérebro do quiz: o que ele pergunta, como segmenta, o que responde, pra onde leva. A **página** onde isso roda (o hero, cada tela, os botões, a barra de progresso, o visual de cada resultado) é da **soft-funil-landing** no tipo quiz. O handoff daqui pra lá é o mapa de telas: que pergunta é cada tela, que resposta leva a que próxima tela, e o texto de cada resultado. A landing veste; aqui a gente escreve o que vai dentro.
+Capture quando houver finalidade e operação. Antes ou depois do resultado, ou somente no checkout, são escolhas justificáveis. Não condicione um resultado prometido livre a contato não anunciado. Separar consentimento de comunicação comercial de entrega solicitada quando a operação exigir. Coletar o mínimo, sem credenciais no cliente, sem contato em analytics/URL; documentar destino, retenção e exclusão no backend real. Protótipo local não é sistema de captação implantado.

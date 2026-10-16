@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "route": "checkout",
+  "title": "Qual parte da organização dos documentos pede atenção?",
+  "brand": "Exercício fictício: organização pessoal",
+  "offer": "Oferta fictícia para teste de interface: material de organização. Condições de compra não estão ativas nesta demonstração.",
+  "tieText": "Suas respostas apontam prioridades próximas. Neste exercício, localizar documentos vem primeiro no empate.",
+  "tieOrder": [
+    "localizar",
+    "separar"
+  ],
+  "profiles": [
+    {
+      "id": "localizar",
+      "title": "Comece por registrar onde cada documento fica",
+      "body": "Suas escolhas deram mais peso a encontrar documentos. A sugestão é criar um índice simples de localização.",
+      "recommendation": "Veja como registrar a pasta e o assunto de cada conjunto antes de reorganizar tudo."
+    },
+    {
+      "id": "separar",
+      "title": "Comece por separar os documentos por assunto",
+      "body": "Suas escolhas deram mais peso à separação. A sugestão é definir grupos antes de guardar os documentos.",
+      "recommendation": "Veja como criar grupos que correspondam ao uso dos seus documentos."
+    }
+  ],
+  "steps": [
+    {
+      "id": "prioridade",
+      "type": "single",
+      "title": "O que mais dificulta encontrar seus documentos?",
+      "purpose": "Definir a prioridade da recomendação.",
+      "options": [
+        {
+          "id": "local",
+          "label": "Esqueço em qual pasta guardei",
+          "scores": {
+            "localizar": 2
+          }
+        },
+        {
+          "id": "mistura",
+          "label": "Os assuntos estão misturados",
+          "scores": {
+            "separar": 2
+          }
+        },
+        {
+          "id": "ambos",
+          "label": "As duas situações acontecem"
+        }
+      ]
+    },
+    {
+      "id": "explicacao",
+      "type": "info",
+      "title": "Separar e localizar resolvem problemas diferentes",
+      "body": "Separar reúne assuntos. Registrar a localização ajuda a encontrar o que já foi guardado. A próxima resposta ajusta a sugestão.",
+      "purpose": "Distinguir as duas ações sem afirmar resultado garantido."
+    },
+    {
+      "id": "espaco",
+      "type": "single",
+      "title": "Qual situação descreve o espaço que você usa?",
+      "purpose": "Definir a prioridade da recomendação.",
+      "options": [
+        {
+          "id": "pouco",
+          "label": "Uso poucas pastas",
+          "scores": {
+            "localizar": 1
+          }
+        },
+        {
+          "id": "muito",
+          "label": "Uso várias caixas",
+          "scores": {
+            "separar": 1
+          }
+        },
+        {
+          "id": "digital",
+          "label": "Guardo tudo em arquivos digitais"
+        }
+      ]
+    },
+    {
+      "id": "materiais",
+      "type": "multi",
+      "title": "Quais materiais você precisa organizar?",
+      "purpose": "Registrar os grupos que aparecerão no resumo para orientar o uso.",
+      "options": [
+        {
+          "id": "contas",
+          "label": "Contas"
+        },
+        {
+          "id": "contratos",
+          "label": "Contratos"
+        },
+        {
+          "id": "notas",
+          "label": "Notas de compra"
+        }
+      ],
+      "minSelect": 1,
+      "maxSelect": 2
+    }
+  ],
+  "capture": {
+    "mode": "local",
+    "field": "email",
+    "title": "Quer testar o contato opcional?",
+    "purpose": "O contato é opcional e serve apenas para conferir o formulário nesta demonstração.",
+    "label": "E-mail de teste",
+    "consent": "Entendi que este contato não será enviado."
+  },
+  "resultMedia": {
+    "title": "Como usar o material de organização",
+    "transcript": "Demonstração fictícia. O material reúne uma lista para separar documentos e uma ficha para registrar onde cada conjunto fica. Consulte a prioridade indicada nas respostas. O destino abaixo é somente uma tela de ensaio, sem compra.",
+    "absentText": "O vídeo deste exercício ainda não foi produzido. Leia o roteiro resumido abaixo."
+  },
+  "destination": {
+    "label": "Abrir checkout de demonstração",
+    "url": "destinos/checkout.html"
+  }
+}
