@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Reel</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* ===== Visual de edição feita no celular: leia o SKILL.md antes de mudar qualquer coisa aqui ===== */
+/* Identidade do dono (vem do reel.json, que nasce do perfil.json): cor de acento e fonte do título.
+   Sem identidade declarada, o acento é branco (sem cor) e a fonte é a livre padrão da skill. */
+:root{--acento:__ACENTO__}
+@font-face{font-family:"Titulo";src:url("__FONTE_TITULO__");font-weight:100 900}
+@font-face{font-family:"Rotulo";src:url("assets/fonts/Inter-Bold.otf");font-weight:100 900}
+*{box-sizing:border-box}
+/* Janela de render com 1096 px: o renderizar.mjs recorta para 1080 e some a faixa preta da borda direita. */
+html,body{margin:0;width:1096px;height:1920px;overflow:hidden;background:#000;color:#fff}
+#reel{position:relative;width:1080px;height:1920px;overflow:hidden}
+#cam{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover}
+
+/* Sobreposições ficam em posição absoluta, como figurinha arrastada no celular. Sem tarja, sem cartão, sem vidro. */
+.ov{position:absolute;opacity:0}
+/* Texto acima da cabeça: fonte do título, grossa e pequena, alinhada à esquerda com a borda esquerda do print.
+   font-size-adjust fixa a altura da letra: o px vale a mesma altura em qualquer fonte do título
+   (a livre, DM Serif Display, tem letra uns 26% mais baixa que a do molde no mesmo px nominal). */
+.serif{font-family:"Titulo",Georgia,serif;font-weight:700;line-height:1.02;letter-spacing:-0.02em;text-align:left;font-size-adjust:0.62}
+/* Sem serifa grossa só para rótulos curtos, como Ruim / Bom / Viral */
+.sans{font-family:"Rotulo","Helvetica Neue",Arial,sans-serif;font-weight:700;line-height:1.05}
+/* Sombra SÓ quando a parede atrás é clara a ponto de engolir o texto branco. */
+.sh{text-shadow:0 2px 6px rgba(0,0,0,.45)}
+/* Palavra de destaque, de vez em quando: cor de acento do dono (branco quando não há identidade). */
+.y{color:var(--acento)}
+/* Prints: recorte cru, cantos retos, sem borda, sem sombra. */
+.print{position:absolute;display:block;opacity:0}
+/* Emoji livre (Noto), do tamanho da fonte em volta */
+img.emo{height:1em;width:auto;vertical-align:-.12em}
+/* Legenda: UMA palavra por vez, fonte do título, branca com contorno preto grosso */
+#cap{position:absolute;left:0;top:__CAP_TOP__px;width:1080px;height:80px}
+.w{position:absolute;left:0;top:0;width:1080px;text-align:center;font-family:"Titulo",Georgia,serif;font-weight:700;font-size:54px;line-height:80px;
+  font-size-adjust:0.62;-webkit-text-stroke:8px #000;paint-order:stroke fill}
+</style></head><body>
+<div id="reel" data-composition-id="reel" data-start="0" data-duration="__DUR__" data-width="1096" data-height="1920">
+  <video id="cam" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="0" muted playsinline></video>
+  <audio id="voice" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="1" data-volume="1"></audio>
+
+  <!-- ===== SOBREPOSIÇÕES (exemplos: troque em cada vídeo) =====
+  <div class="ov serif" id="titulo" style="left:160px;top:720px;width:880px;font-size:62px">Guia do algoritmo</div>
+  <img class="print" id="p-curtidas" src="assets/prints/curtidas.png" style="left:160px;top:180px;width:520px" alt="">
+  <div class="ov serif sh" id="item1" style="left:160px;top:650px;width:880px;font-size:48px">✅ Gostam ou concordam</div>  (borda esquerda = borda esquerda do print; sem print, 160 px)
+  -->
+
+  <div id="cap">__CAPTIONS__</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+// Tudo entra e sai num corte seco: sem fade, sem deslizar, sem pulo de escala.
+const show = (sel, t) => tl.set(sel, { opacity: 1 }, t);
+const hide = (sel, t) => tl.set(sel, { opacity: 0 }, t);
+
+// ===== TEMPOS (troque em cada vídeo; tempos do ancoras.mjs, na palavra falada) =====
+// show("#titulo", 0.0);
+// show("#p-curtidas", 0.4); hide("#p-curtidas", 2.1);
+
+window.__timelines = window.__timelines || {};
+window.__timelines["reel"] = tl;
+</script>
+</body></html>

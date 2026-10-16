@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Reel</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* ===== Visual do estilo Direto: leia o SKILL.md antes de mudar qualquer coisa aqui =====
+   Tudo que muda por vídeo vem do reel.json pelo montar-index.mjs; este arquivo não leva texto nem tempo de vídeo.
+   Medidas em px num quadro de 1080x1920. */
+:root{--acento:__ACENTO__}
+@font-face{font-family:"Titulo";src:url("__FONTE_TITULO__");font-weight:100 900}
+@font-face{font-family:"Chamada";src:url("__FONTE_CHAMADA__");font-weight:100 900}
+/* A legenda usa o peso Regular e pede negrito: o navegador engrossa o traço, como no molde aprovado. */
+@font-face{font-family:"Legenda";src:url("assets/fonts/JetBrainsMono-Regular.ttf");font-weight:400}
+*{box-sizing:border-box}
+/* Janela de render com 1096 px: o renderizar.mjs recorta para 1080 e some a faixa preta da borda direita. */
+html,body{margin:0;width:1096px;height:1920px;overflow:hidden;background:#000;color:#fff}
+#reel{position:relative;width:1080px;height:1920px;overflow:hidden}
+/* Corpo: o take ampliado pelo recorte do reel.json (corpo_recorte). */
+#cam{position:absolute;__CORPO__}
+
+/* ---- Abertura em painel: imagem 1080x700, faixa escura até y986, apresentador 1080x934 embaixo ---- */
+#abertura{position:absolute;left:0;top:0;width:1080px;height:1920px;opacity:1}
+#ab-img{position:absolute;left:0;top:0;width:1080px;height:700px;object-fit:cover}
+#ab-faixa{position:absolute;left:0;top:700px;width:1080px;height:286px;background:#101010;display:flex;align-items:center;justify-content:center}
+/* Headline: fonte do título, 89 px, nunca diminui para caber; texto mais curto, sim. */
+#ab-hl{font-family:"Titulo","Helvetica Neue",Arial,sans-serif;font-weight:900;font-size:89px;line-height:113px;letter-spacing:0;
+  text-align:center;max-width:944px;white-space:nowrap;transform:translateY(calc(-9px + __HL_DY__px))}
+/* -9 px: leva a tinta da headline para y739 e y852, as linhas do molde aprovado (medido no quadro) */
+#ab-cam{position:absolute}
+.y{color:var(--acento)}
+
+/* ---- Apoios: tela inteira, 2 a 3 s, zoom de 1 a 1,04 ---- */
+.apoio{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;opacity:0;transform-origin:50% 50%}
+
+/* ---- Legenda: grupos de até 4 palavras, a palavra falada na cor de acento, contínua nos apoios ----
+   Fonte de código, branca, contorno quase preto e sombra curta. Centro do bloco em x500, y1490. */
+#cap{position:absolute;left:-40px;top:__CAP_Y__px;width:1080px;height:0}
+.c{position:absolute;left:0;width:1080px;transform:translateY(calc(-50% + 1.5px));text-align:center;text-transform:uppercase;
+  font-family:"Legenda",monospace;font-weight:700;font-size:40.9px;line-height:64px;white-space:pre;
+  -webkit-text-stroke:8px #101010;paint-order:stroke fill;text-shadow:1px 1px 0 rgba(0,0,0,.62)}
+/* ---- CTA: a frase da própria gravação, topo do texto em y1600, até o fim ---- */
+.cta{position:absolute;left:0;top:__CTA_Y__px;width:1080px;text-align:center;font-family:"Chamada","Helvetica Neue",Arial,sans-serif;
+  font-weight:700;font-size:62.8px;line-height:76px;white-space:nowrap;-webkit-text-stroke:10px #070707;paint-order:stroke fill;
+  text-shadow:2px 2px 0 rgba(0,0,0,.44)}
+</style></head><body>
+<div id="reel" data-composition-id="reel" data-start="0" data-duration="__DUR__" data-width="1096" data-height="1920">
+  <video id="cam" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="0" muted playsinline></video>
+  <audio id="voice" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="1" data-volume="1"></audio>
+__ABERTURA__
+__APOIOS__
+  <div id="cap">__LEGENDAS__</div>
+__CTA__
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+// Abertura e apoios entram e saem num corte seco; o único movimento é o zoom lento do apoio.
+const show = (sel, t) => tl.set(sel, { opacity: 1 }, t);
+const hide = (sel, t) => tl.set(sel, { opacity: 0 }, t);
+const zoom = (sel, t, d) => tl.fromTo(sel, { scale: 1 }, { scale: 1.04, duration: d, ease: "none" }, t);
+__TEMPOS__
+window.__timelines = window.__timelines || {};
+window.__timelines["reel"] = tl;
+</script>
+</body></html>

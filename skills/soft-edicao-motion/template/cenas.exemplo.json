@@ -1,0 +1,14 @@
+{
+  "nota": "Exemplo neutro: troque tudo em cada vídeo. Tempos em segundos do clean.mp4, tirados do ancoras.mjs na palavra falada. Textos = palavras ditas. Tipos e campos em references/cenas.md.",
+  "cenas": [
+    { "tipo": "abertura", "de": 0, "ate": 4.2, "linhas": ["Primeira linha da headline", "segunda com *destaque*"] },
+    { "tipo": "arquivo", "de": 4.2, "ate": 7.0, "rotulo": "VÍDEO", "segundo": "PEDIDO", "batidas": [5.4] },
+    { "tipo": "timeline", "de": 6.6, "ate": 8.6 },
+    { "tipo": "rede", "de": 9.5, "ate": 14.0, "centro": "SISTEMA", "rotulo": "REDE", "batidas": [11.2] },
+    { "tipo": "cartao", "de": 17.0, "ate": 19.4, "texto": "MINUTO", "icone": "arquivo" },
+    { "tipo": "tela", "de": 22.0, "ate": 24.4, "titulo": "PÁGINAS" },
+    { "tipo": "chat", "de": 24.4, "ate": 26.8, "titulo": "ATENDIMENTO" },
+    { "tipo": "niveis", "de": 30.0, "ate": 33.5, "titulo": "TRÊS NÍVEIS", "alvo": 3, "batidas": [32.0] }
+  ],
+  "cta": { "de": 35.0, "texto": "Te mando o link" }
+}

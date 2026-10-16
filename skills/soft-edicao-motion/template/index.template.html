@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Reel</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* ===== Estilo Motion: leia o SKILL.md antes de mudar qualquer coisa aqui ===== */
+/* Identidade do dono (reel.json, que nasce do perfil.json): acento, fonte do título e fonte da legenda.
+   Sem identidade declarada, o acento é branco e as fontes são as livres da skill. O kit grava --acento. */
+@font-face{font-family:"Titulo";src:url("__FONTE_TITULO__");font-weight:100 900}
+@font-face{font-family:"Legenda";src:url("__FONTE_LEGENDA__");font-weight:100 900}
+:root{--acento:#fff;--acento-rgb:255,255,255;--vidro:rgba(14,18,16,.92)}
+*{box-sizing:border-box;margin:0}
+/* Janela de render com 1096 px: o renderizar.mjs recorta para 1080 e some a faixa preta da borda direita. */
+html,body{width:1096px;height:1920px;overflow:hidden;background:#000;color:#fff}
+#reel{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"Titulo","Arial Black",Arial,sans-serif;font-weight:900}
+#camwrap{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+#cam{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+#cenas{position:absolute;inset:0;perspective:1400px}
+#cenas i{font-style:normal}
+.cena{position:absolute;inset:0;opacity:0;visibility:hidden;perspective:1400px}
+.bk{position:absolute;inset:0;background:#000}
+.a{position:absolute}
+.ac{color:var(--acento)} .ac-bg{background:var(--acento)!important}
+.mono{font-family:"Legenda",monospace;letter-spacing:4px;font-size:26px}
+.tit{position:absolute;left:0;width:1080px;text-align:center;line-height:1.08;letter-spacing:2px;text-shadow:0 0 40px rgba(var(--acento-rgb),.35)}
+.tit i{display:inline-block;font-style:normal}
+.rot{font-size:64px;letter-spacing:6px}
+.vidro{background:var(--vidro);border:1.5px solid rgba(255,255,255,.14);border-radius:28px;box-shadow:0 40px 90px rgba(0,0,0,.8),0 0 70px rgba(var(--acento-rgb),.14)}
+/* objetos */
+.arq{position:relative;background:#fff;border-radius:22px;clip-path:polygon(0 0,78% 0,100% 15%,100% 100%,0 100%)}
+.arq b{position:absolute;bottom:9%;width:100%;text-align:center;color:#000}
+.play{position:absolute;left:38%;top:26%;width:0;height:0;border-left:solid var(--acento);border-top:solid transparent;border-bottom:solid transparent}
+.prev .play{left:46%;top:36%}
+.masc{position:relative;border-radius:50%;background:var(--acento);border:6px solid #000;box-shadow:0 0 40px rgba(var(--acento-rgb),.5)}
+.masc i{position:absolute;top:32%;width:15%;height:22%;background:#000;border-radius:999px}
+.masc i:first-child{left:27%} .masc i:last-child{right:27%}
+.antena{position:absolute;left:142px;top:-60px;width:16px;height:70px;background:var(--acento);border-radius:8px}
+.antena:after{content:"";position:absolute;left:-12px;top:-30px;width:40px;height:40px;border-radius:50%;background:var(--acento);box-shadow:0 0 30px var(--acento)}
+.ln{display:block;height:26px;background:#fff;margin-bottom:34px;border-radius:13px;transform-origin:left}
+.trilha-grande{width:900px;height:240px;background:#000;border:6px solid #fff;border-radius:24px}
+.trilha-grande .c{position:absolute;top:50px;height:130px;border-radius:14px}
+.cw{background:#fff} .cg{background:var(--acento)}
+.agulha{position:absolute;left:20px;top:-20px;width:10px;height:280px;background:var(--acento);border-radius:5px}
+.tela-pc{height:300px;background:#000;border:12px solid #fff;border-radius:22px;display:flex;align-items:center;justify-content:center;color:var(--acento);font-size:44px}
+.pe{width:160px;height:60px;margin:0 auto;background:#fff}
+.pilula{background:#000;border:10px solid var(--acento);border-radius:140px;display:flex;align-items:center;justify-content:center;font-size:70px;letter-spacing:6px}
+.cartao{display:flex;align-items:center;gap:34px;padding:34px 40px}
+.cartao .ic{flex:0 0 auto} .cartao .tx{flex:1}
+.cartao small{display:block;font:700 22px "Legenda",monospace;letter-spacing:6px;color:var(--acento)}
+.cartao b{display:block;font-size:72px;line-height:1.05;color:#fff}
+.cartao b i{display:inline-block;font-style:normal}
+.barras{display:flex;gap:14px;margin-top:14px}
+.barras i{display:block;height:16px;border-radius:8px;background:#fff;transform-origin:left;flex:1}
+.barras i:nth-child(2n){background:var(--acento);flex:1.4}
+.doc{position:relative;width:86px;height:104px;background:#fff;border-radius:12px;padding:30px 14px}
+.doc i{display:block;height:9px;margin-bottom:12px;background:var(--acento);border-radius:5px}
+.doc.grande{width:150px;height:190px;padding:56px 26px}
+.doc.grande i{height:14px;margin-bottom:22px}
+.pt{display:flex;gap:10px;margin-bottom:40px}.pt i{width:16px;height:16px;border-radius:50%;background:rgba(255,255,255,.3)}
+.blk{position:relative;background:rgba(255,255,255,.06);border-radius:18px;padding:26px}
+.blk i{display:block;height:16px;border-radius:8px;background:rgba(255,255,255,.35);margin-bottom:14px}
+.hero{height:220px;margin-bottom:40px}.hero .l1{width:55%;height:26px;background:#fff}.hero .l2{width:40%}
+.bola{position:absolute;right:40px;top:60px;width:100px;height:100px;border-radius:50%;background:var(--acento)}
+.row{display:flex;gap:24px;margin-bottom:40px}.row .blk{flex:1;height:170px}.row .blk:before{content:"";display:block;width:44px;height:44px;border-radius:10px;background:var(--acento);margin-bottom:18px}
+.l3{display:block;height:16px;border-radius:8px;background:rgba(255,255,255,.25);margin:0 0 60px}
+.btn{height:90px;width:60%;margin:0 auto;border-radius:45px;background:var(--acento)}
+.topo{display:flex;align-items:center;gap:20px;margin-bottom:40px}.topo>i{display:block;height:20px;width:220px;border-radius:10px;background:#fff}
+.bal{padding:22px 26px;border-radius:28px;background:#1c1c1c;margin-bottom:26px}
+.bal i{display:block;height:16px;border-radius:8px;background:rgba(255,255,255,.55)} .bal i+i{margin-top:12px;width:60%}
+.bal.eu{margin-left:auto;background:var(--acento);box-shadow:0 0 30px rgba(var(--acento-rgb),.35)} .bal.eu i{background:rgba(0,0,0,.5)}
+.entrada{position:absolute;left:40px;right:40px;bottom:40px;height:76px;border-radius:38px;background:#1c1c1c}
+.entrada b{position:absolute;right:16px;top:14px;width:48px;height:48px;border-radius:50%;background:var(--acento)}
+.fone{background:#0b0b0b;border:5px solid rgba(var(--acento-rgb),.9);border-radius:60px;padding:50px 26px;box-shadow:0 0 80px rgba(var(--acento-rgb),.35)}
+.fone .bal{padding:16px 18px;margin-bottom:20px}
+.anel>div{position:absolute;inset:0;border-radius:50%;border:34px solid var(--acento);box-shadow:0 0 90px 16px rgba(var(--acento-rgb),.7),inset 0 0 40px rgba(var(--acento-rgb),.5)}
+.anel>div:nth-child(2){inset:-46px;border:4px dashed rgba(255,255,255,.7);box-shadow:none}
+.anel>div:nth-child(3){inset:70px 120px;border:10px solid rgba(var(--acento-rgb),.55);box-shadow:0 0 40px rgba(var(--acento-rgb),.6)}
+.sol{width:110px;height:110px;border-radius:50%;border:16px dotted var(--acento);box-shadow:inset 0 0 0 22px #000,inset 0 0 0 60px var(--acento)}
+.row2{display:flex;gap:12px}.row2 i{flex:1;height:44px;border-radius:9px;background:#fff}
+.orbita{border-radius:50%;border:4px dashed rgba(var(--acento-rgb),.8)}
+.chk{display:flex;align-items:center;gap:20px;margin-top:16px}
+.chk i{width:38px;height:38px;border-radius:8px;border:4px solid var(--acento)}
+.chk b{height:16px;flex:1;border-radius:8px;background:#fff;transform-origin:left}
+.degrau:before{content:"";position:absolute;left:0;top:-26px;width:100%;height:26px;background:#333;transform:skewX(-40deg);transform-origin:0 100%}
+.degrau.alvo:before{background:rgba(255,255,255,.55)}
+.degrau{background:#1e1e1e;border-radius:0;display:flex;align-items:flex-start;justify-content:center;padding-top:30px;font-size:120px}
+.degrau.alvo{background:var(--acento);color:#000}
+.pil{position:absolute;top:0;width:220px;height:70px;border-radius:35px;background:#fff}
+/* abertura */
+.painel{position:absolute;left:0;top:0;width:1080px;background:radial-gradient(ellipse at 50% 120%,rgba(var(--acento-rgb),.25),#050806 70%);overflow:hidden}
+.monitor{position:absolute;left:40px;top:60px;width:1000px;height:580px;border-radius:26px;background:#0c0f0e;border:2px solid rgba(255,255,255,.12);box-shadow:0 40px 90px #000,0 0 60px rgba(var(--acento-rgb),.15)}
+.prev{position:absolute;left:250px;top:30px;width:520px;height:280px;border-radius:14px;background:linear-gradient(160deg,#2a2f2c,#121514)}
+.thumb{position:absolute;left:30px;width:180px;height:76px;border-radius:10px;background:#1d2220}
+.trilha{position:absolute;left:30px;width:940px;height:74px;border-radius:12px;background:#151917}
+.trilha .clip{position:absolute;top:8px;height:58px;border-radius:10px}
+.onda{position:absolute;left:50px;top:480px}
+.cabeca{position:absolute;left:40px;top:310px;width:6px;height:250px;background:#fff;border-radius:3px;box-shadow:0 0 16px #fff}
+.headline{position:absolute;left:0;width:1080px;background:#101010;display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:__HEADLINE_TAM__px;line-height:1.28;padding-bottom:18px;white-space:nowrap}
+/* legenda: grupo curto de palavras, a falada no acento, fonte da legenda */
+#cap{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none;z-index:40}
+.grp{position:absolute;left:40px;width:1000px;text-align:center;top:calc(__CAP_Y__px - .62em);font-family:"Legenda",monospace;font-weight:700;font-size:__CAP_TAM__px;line-height:1.25;opacity:0;visibility:hidden;
+  -webkit-text-stroke:5px #000;paint-order:stroke fill;text-shadow:0 3px 0 #000,0 0 12px rgba(0,0,0,.6)}
+#cta{position:absolute;left:0;width:1080px;top:__CTA_Y__px;text-align:center;font-size:62px;line-height:1.1;opacity:0;visibility:hidden;z-index:41;
+  -webkit-text-stroke:8px #000;paint-order:stroke fill;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+</style></head><body>
+<div id="reel" data-composition-id="reel" data-start="0" data-duration="__DUR__" data-width="1096" data-height="1920">
+  <div id="camwrap"><video id="cam" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="0" muted playsinline></video></div>
+  <audio id="voice" src="assets/clean.mp4" data-start="0" data-duration="__DUR__" data-track-index="1" data-volume="1"></audio>
+  <div id="cenas"></div>
+  <div id="cap">__CAPTIONS__</div>
+  <div id="cta"></div>
+</div>
+<script>window.REEL = __REEL__; window.CENAS = __CENAS__;</script>
+<script>
+__KIT__
+</script>
+</body></html>

@@ -1,0 +1,12 @@
+{
+  "nome": "Nome que aparece no perfil",
+  "usuario": "usuario_sem_arroba",
+  "nicho": "Ex.: nutrição esportiva",
+  "seguidores": "Ex.: 12,4 mil (como aparece no Instagram)",
+  "avatar": "identidade/avatar.jpg",
+  "logo": "identidade/logo.png",
+  "cor_acento": "#f4e27c",
+  "fonte_texto": "",
+  "fonte_destaque": "",
+  "pasta_prints": "prints"
+}

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Reel</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* ===== Visual editorial: leia o SKILL.md e o DESIGN.md antes de mexer aqui ===== */
+/* As fontes e a cor de acento entram pelo montar-index.mjs a partir do perfil.json do dono. */
+/*__FONTES__*/
+:root{--acento:__ACENTO__;--ink:#111;--shadow:0 3px 22px rgba(0,0,0,.30),0 1px 3px rgba(0,0,0,.28)}
+*{box-sizing:border-box}
+/* A janela de render é mais larga que o vídeo (__JANELA__ px): o render a 1080 px deixa uma faixa preta na borda direita
+   (ver o topo do renderizar.mjs).
+   O renderizar.mjs recorta de volta para 1080x1920. O reel em si continua com 1080 px. */
+html,body{margin:0;width:__JANELA__px;height:1920px;overflow:hidden;background:#000;color:#fff}
+#reel{position:relative;width:1080px;height:1920px;overflow:hidden}
+
+/* Câmera: um invólucro sem tempo que recebe o punch-in e o recuo em corte seco. Clipes de outro ângulo ficam dentro dele. */
+#camwrap{position:absolute;inset:0;transform-origin:50% 38%}
+#camwrap video{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover}
+
+/* Voz do texto: sans minúscula, espaçamento fechado; a palavra que carrega o sentido vai no serifado itálico, na cor de acento. */
+.sans{font-family:"EdSans",Helvetica,Arial,sans-serif;font-weight:600;letter-spacing:-.035em;line-height:.98;text-shadow:var(--shadow)}
+.serif{font-family:"EdSerif",Georgia,serif;font-style:italic;color:var(--acento);letter-spacing:-.01em;line-height:.9;text-shadow:var(--shadow)}
+.ov{position:absolute;opacity:0}
+
+/* Pilha de frase: a frase montada linha a linha (misturando linhas .sans e .serif), em geral no terço de cima. */
+.stack{position:absolute;left:0;width:1080px;text-align:center}
+.stack .ln{display:block;opacity:0}
+.stack .ln.sans{font-size:84px}
+.stack .ln.serif{font-size:112px}
+
+/* Cartão: print real em moldura arredondada, com sombra suave. */
+.card{position:absolute;opacity:0;border-radius:34px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.38),0 4px 12px rgba(0,0,0,.2);background:#fff}
+.card img{display:block;width:100%;height:auto}
+
+/* Explosão de miniaturas, faixa de filme e parede de grade usam miniaturas arredondadas. */
+.thumb{position:absolute;opacity:0;border-radius:16px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.strip{position:absolute;left:0;height:330px;display:flex;gap:14px;opacity:0}
+.strip .fr{flex:none;width:250px;height:330px;border-radius:14px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.strip .fr img{width:100%;height:100%;object-fit:cover;display:block}
+.wall{position:absolute;left:-20px;width:1120px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;background:#f2ede6;padding:8px;opacity:0}
+.wall img{width:100%;height:360px;object-fit:cover;display:block}
+.wall.top{top:0;clip-path:polygon(0 0,100% 0,100% 92%,93% 96%,84% 91%,72% 97%,61% 92%,49% 98%,37% 91%,25% 97%,13% 92%,4% 97%,0 93%)}
+.wall.bot{bottom:0;clip-path:polygon(0 7%,6% 3%,17% 8%,29% 2%,41% 8%,53% 3%,64% 9%,76% 2%,88% 8%,96% 3%,100% 6%,100% 100%,0 100%)}
+
+/* Cartão escuro: painel preto arredondado com uma linha sans e a palavra no serifado. */
+.dark{position:absolute;opacity:0;border-radius:30px;background:#0d0d0d;box-shadow:0 24px 60px rgba(0,0,0,.45);padding:48px 40px;text-align:center}
+
+/* Nota manuscrita com seta desenhada. */
+.note{position:absolute;opacity:0;font-family:"EdHand",cursive;font-size:86px;line-height:1.05;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.note svg{display:block;overflow:visible}
+.note path{fill:none;stroke:#fff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+
+/* Barra de texto (B I U Aa): o momento "restyle" que troca uma frase sans pela versão serifada. */
+.toolbar{position:absolute;opacity:0;display:flex;gap:30px;align-items:center;background:#fff;color:#222;border-radius:16px;padding:14px 26px;
+  font-family:Georgia,serif;font-size:34px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.toolbar .on{background:#dfe6ff;border-radius:8px;padding:0 8px}
+
+/* Legenda: UMA palavra por vez, no meio do quadro, em minúsculas. As palavras-chave trocam para o serifado. */
+#cap{position:absolute;left:0;top:__CAP_TOP__px;width:1080px;height:140px}
+.w{position:absolute;left:40px;top:0;width:1000px;text-align:center;font-family:"EdSans",Helvetica,Arial,sans-serif;font-weight:600;
+  font-size:92px;letter-spacing:-.035em;line-height:140px;color:#fff;text-shadow:var(--shadow)}
+.w.em{font-family:"EdSerif",Georgia,serif;font-style:italic;font-weight:400;font-size:124px;letter-spacing:-.01em;color:var(--acento)}
+.w.sm{font-size:42px}
+.w.em.sm{font-size:56px}
+</style></head><body>
+<div id="reel" data-composition-id="reel" data-start="0" data-duration="__DUR__" data-width="__JANELA__" data-height="1920">
+  <div id="camwrap">
+    <video id="cam" src="assets/limpo.mp4" data-start="0" data-duration="__DUR__" data-track-index="0" muted playsinline></video>
+    <!-- Segundo ângulo (mesmo take, cortado com os mesmos cortes -> angulo2-limpo.mp4). Um clipe por trecho:
+    <video class="ang" src="assets/angulo2-limpo.mp4" data-start="6.2" data-duration="4.1" data-media-start="6.2" data-track-index="2" muted playsinline></video>
+    -->
+  </div>
+  <audio id="voz" src="assets/limpo.mp4" data-start="0" data-duration="__DUR__" data-track-index="1" data-volume="1"></audio>
+
+  <!-- ===== ELEMENTOS (exemplos: troque a cada vídeo e apague o que não usar) =====
+  <div class="stack" id="st1" style="top:150px">
+    <span class="ln sans">o que muda</span><span class="ln sans">quando você</span>
+    <span class="ln serif">corta a</span><span class="ln serif">pausa</span>
+  </div>
+  <div class="card" id="c1" style="left:600px;top:260px;width:380px"><img src="assets/prints/a.png" alt=""></div>
+  <div class="note" id="n1" style="left:70px;top:420px">eu testei<br>primeiro
+    <svg width="160" height="90"><path d="M10 6 C 0 60, 60 80, 140 70 M118 52 L140 70 L116 86"/></svg></div>
+  <div class="thumb sc" style="--x:-330px;--y:-380px;--r:-8deg;left:465px;top:760px;width:150px;height:260px"><img src="assets/thumbs/1.jpg" alt=""></div>
+  <div class="strip" id="strip1" style="top:200px"><div class="fr"><img src="assets/thumbs/1.jpg" alt=""></div> ...</div>
+  <div class="wall top" id="wt"> <img ...> x6 </div>  <div class="wall bot" id="wb"> <img ...> x6 </div>
+  <div class="dark" id="d1" style="left:190px;top:170px;width:700px"><div class="sans" style="font-size:60px">você ganha uma</div><div class="serif" style="font-size:104px">animação</div></div>
+  <div class="toolbar" id="tb" style="left:330px;top:300px"><b>B</b><i>I</i><u>U</u><span class="on">Aa</span></div>
+  <div class="ov sans" id="ph-sans" style="left:0;width:1080px;text-align:center;top:380px;font-size:96px">combina com ela</div>
+  <div class="ov serif" id="ph-serif" style="left:0;width:1080px;text-align:center;top:370px;font-size:124px">combina com ela</div>
+  -->
+
+  <div id="cap">__CAPTIONS__</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+const E = "power3.out";
+const show = (s, t) => tl.set(s, { opacity: 1 }, t);
+const hide = (s, t) => tl.set(s, { opacity: 0 }, t);
+// Câmera: punch-in e recuo secos na fronteira de frase (1 = aberto). Nunca anime o zoom.
+const punch = (scale, t, origin = "50% 45%") => tl.set("#camwrap", { scale, transformOrigin: origin }, t);
+// Pilha de frase: cada linha sobe com desfoque na palavra falada; a pilha inteira some junta.
+const line = (s, t) => tl.fromTo(s, { opacity: 0, y: 26, filter: "blur(10px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.32, ease: E }, t);
+const fadeOut = (s, t, d = 0.25) => tl.to(s, { opacity: 0, duration: d, ease: "power2.in" }, t);
+// Cartão: entra de um lado com uma leve inclinação que assenta.
+const cardIn = (s, t, from = "right", rot = -3) => tl.fromTo(s, { opacity: 0, x: from === "right" ? 260 : -260, y: -40, rotation: rot + (from === "right" ? 9 : -9) },
+  { opacity: 1, x: 0, y: 0, rotation: rot, duration: 0.55, ease: E }, t);
+const cardOut = (s, t) => tl.to(s, { opacity: 0, y: -30, scale: 0.96, duration: 0.25, ease: "power2.in" }, t);
+// Explosão: as miniaturas saem do apresentador até os deslocamentos --x/--y/--r, escalonadas.
+const scatter = (s, t) => document.querySelectorAll(s).forEach((el, i) => {
+  const cs = getComputedStyle(el);
+  tl.fromTo(el, { opacity: 0, x: 0, y: 0, scale: 0.3, rotation: 0 },
+    { opacity: 1, x: parseFloat(cs.getPropertyValue("--x")), y: parseFloat(cs.getPropertyValue("--y")), rotation: parseFloat(cs.getPropertyValue("--r")) || 0,
+      scale: 1, duration: 0.5, ease: "back.out(1.4)" }, t + i * 0.035);
+});
+// Faixa de filme: atravessa o quadro da direita para a esquerda em `d` segundos.
+const strip = (s, t, d = 2.4) => { const w = document.querySelector(s).scrollWidth; show(s, t); tl.fromTo(s, { x: 1080 }, { x: -w, duration: d, ease: "none" }, t); hide(s, t + d); };
+// Parede de grade: as metades de cima e de baixo fecham com borda rasgada, deixando o apresentador numa faixa.
+const wallIn = (t) => { tl.fromTo("#wt", { opacity: 1, yPercent: -100 }, { yPercent: 0, duration: 0.45, ease: E }, t); tl.fromTo("#wb", { opacity: 1, yPercent: 100 }, { yPercent: 0, duration: 0.45, ease: E }, t); };
+const wallOut = (t) => { tl.to("#wt", { yPercent: -100, duration: 0.35, ease: "power2.in" }, t); tl.to("#wb", { yPercent: 100, duration: 0.35, ease: "power2.in" }, t); };
+// Nota manuscrita: aparece e a seta se desenha.
+const noteIn = (s, t) => {
+  tl.fromTo(s, { opacity: 0, rotation: -4, scale: 0.94 }, { opacity: 1, rotation: -2, scale: 1, duration: 0.3, ease: E }, t);
+  document.querySelector(s).querySelectorAll("path").forEach((p) => { const L = p.getTotalLength(); tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: 0.5, ease: "power1.inOut" }, t + 0.2); });
+};
+// Restyle: a barra aparece e a frase sans vira a versão serifada (a edição se mostra).
+const restyle = (tb, a, b, t) => {
+  tl.fromTo(tb, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.25, ease: E }, t);
+  show(a, t); hide(a, t + 0.7); line(b, t + 0.7); fadeOut(tb, t + 0.9, 0.2);
+};
+
+// ===== TEMPOS (troque a cada vídeo; tempos do ancoras.mjs, entrando na palavra falada) =====
+// line("#st1 .ln:nth-child(1)", 0.4); line("#st1 .ln:nth-child(2)", 0.7); ... fadeOut("#st1", 4.0);
+// punch(1.22, 6.2); punch(1, 9.0);
+// cardIn("#c1", 1.2); cardOut("#c1", 3.4);
+// noteIn("#n1", 9.6); fadeOut("#n1", 12.0);
+// scatter(".sc", 11.0); fadeOut(".sc", 13.0);
+// strip("#strip1", 15.0, 2.4);
+// wallIn(22.0); wallOut(26.0);
+// restyle("#tb", "#ph-sans", "#ph-serif", 27.0); fadeOut("#ph-serif", 29.0);
+
+window.__timelines = window.__timelines || {};
+window.__timelines["reel"] = tl;
+</script>
+</body></html>
