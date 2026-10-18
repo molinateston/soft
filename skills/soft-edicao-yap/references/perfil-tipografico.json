@@ -1,0 +1,35 @@
+{
+  "style": "Celular",
+  "source": "5287-celular-verde",
+  "title": {
+    "font": "Advercase-Bold.woff2",
+    "size": 62,
+    "weight": 700,
+    "line_height": 1.02,
+    "letter_spacing": 0,
+    "x": 160,
+    "y": 430,
+    "width": 780,
+    "align": "left",
+    "font_size_adjust": "none",
+    "literal": "O que é um agente de IA?",
+    "breaks": "uma linha no molde"
+  },
+  "caption": {
+    "size": 54,
+    "line_height": 80,
+    "y": 1290,
+    "stroke": 8,
+    "shadow": "0 2px 6px rgba(0,0,0,.45)"
+  },
+  "entrance": "seca; titulo 0 a 6.12s",
+  "font_files": {
+    "assets/fonts/Advercase-Bold.woff2": "eeda0f59f629f47d8e7330957686de21af1f0ac5de6aec3814057d445ffbcfae",
+    "assets/fonts/Advercase-Regular.woff2": "2286cee3c2d645636c3faec36114341424d9043ae70a2da0fb9d90a6c4ffea22"
+  },
+  "accent": "#4ade80",
+  "text_color": "#ffffff",
+  "source_files": {
+    "index.html": "a2ad7d469add9970debb1e3d79a0f80f66fe756703aa051b5f0ae657a6c0e5ce"
+  }
+}

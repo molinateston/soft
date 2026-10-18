@@ -19,7 +19,7 @@ def changed_pixels(a, b, box, threshold=40):
     if second.size != first.size:
         second = second.resize(first.size)
     diff = ImageChops.difference(first.crop(box), second.crop(box))
-    return sum(1 for pixel in diff.getdata() if max(pixel) > threshold)
+    return sum(1 for pixel in (diff.get_flattened_data() if hasattr(diff, "get_flattened_data") else diff.getdata()) if max(pixel) > threshold)
 
 
 def main():
@@ -53,12 +53,15 @@ def main():
     if not a or a.get("codec_name") != "aac": errors.append("áudio não está em AAC")
     if abs(float(probe["format"]["duration"]) - float(manifest["duration"])) > 0.03: errors.append("duração fora da tolerância")
     if int(probe["format"]["size"]) >= int(manifest["max_bytes"]): errors.append("arquivo excede o limite")
-    if manifest["face_gap"] < manifest["min_face_gap"]: errors.append("safe zone facial insuficiente")
+    if manifest.get("layout", "legacy") == "legacy" and manifest["face_gap"] < manifest["min_face_gap"]: errors.append("safe zone facial insuficiente")
 
+    if manifest.get("text_margin_left", 40) < 40 or manifest.get("text_margin_right", 40) < 40:
+        errors.append("texto sem margem horizontal mínima de 40px")
+    has_call = bool(manifest.get("call"))
     frames_dir = Path(args.frames_dir)
     frames_dir.mkdir(parents=True, exist_ok=True)
     duration = float(manifest["duration"])
-    times = [min(0.35, duration * .1), duration * .37, min(float(manifest["call_time"]) + .28, duration * .7), duration * .93]
+    times = [min(0.35, duration * .1), duration * .37, min(float(manifest["call_time"]) + .28, duration - .05) if has_call else duration * .65, duration * .93]
     frames = []
     for index, at in enumerate(times, 1):
         target = frames_dir / f"quadro-{index:02d}-{at:.2f}s.png"
@@ -66,28 +69,30 @@ def main():
         frames.append(target)
     subprocess.run(["montage", *map(str, frames), "-tile", "2x2", "-geometry", "360x640+4+4", str(frames_dir / "mosaico.jpg")], check=True)
 
-    with tempfile.TemporaryDirectory(prefix="validate-reel-") as tmp:
-        t = Path(tmp)
-        before = max(0.05, float(manifest["call_time"]) - 0.12)
-        after = min(duration - 0.05, float(manifest["call_time"]) + 0.12)
-        files = {}
-        for label, source, at in (("ob", video, before), ("bb", manifest["base"], before), ("oa", video, after), ("ba", manifest["base"], after)):
-            files[label] = t / f"{label}.png"
-            capture(source, at, files[label])
-        call_y = int(manifest["call_y"])
-        # A janela de leitura acompanha a dimensão real do arquivo, em vez de
-        # coordenadas cravadas de uma resolução só.
-        escala = height / 1280 if height else 1
-        margem = int(80 * escala)
-        roi = (margem, call_y - int(10 * escala), max(margem + 1, width - margem),
-               min(height, call_y + int(100 * escala)))
-        before_pixels = changed_pixels(files["ob"], files["bb"], roi)
-        after_pixels = changed_pixels(files["oa"], files["ba"], roi)
-        if before_pixels > 400: errors.append(f"microchamada aparece cedo: {before_pixels} pixels")
-        if after_pixels < 800: errors.append(f"microchamada não foi detectada depois da entrada: {after_pixels} pixels")
-
+    before_pixels = after_pixels = None
+    if has_call:
+        with tempfile.TemporaryDirectory(prefix="validate-reel-") as tmp:
+            t = Path(tmp)
+            before = max(0.05, float(manifest["call_time"]) - 0.12)
+            after = min(duration - 0.05, float(manifest["call_time"]) + 0.12)
+            files = {}
+            for label, source, at in (("ob", video, before), ("bb", manifest["base"], before), ("oa", video, after), ("ba", manifest["base"], after)):
+                files[label] = t / f"{label}.png"
+                capture(source, at, files[label])
+            call_y = int(manifest["call_y"])
+            # A janela de leitura acompanha a dimensão real do arquivo, em vez de
+            # coordenadas cravadas de uma resolução só.
+            escala = height / 1280 if height else 1
+            margem = int(80 * escala)
+            roi = (margem, call_y - int(10 * escala), max(margem + 1, width - margem),
+                   min(height, call_y + int(100 * escala)))
+            before_pixels = changed_pixels(files["ob"], files["bb"], roi)
+            after_pixels = changed_pixels(files["oa"], files["ba"], roi)
+            if before_pixels > 400: errors.append(f"microchamada aparece cedo: {before_pixels} pixels")
+            if after_pixels < 800: errors.append(f"microchamada não foi detectada depois da entrada: {after_pixels} pixels")
+    
     result = {
-        "ok": not errors, "errors": errors, "dimensions": [v.get("width"), v.get("height")],
+        "ok": not errors, "visual_review_required": True, "path": manifest.get("path", "A"), "has_call": has_call, "errors": errors, "dimensions": [v.get("width"), v.get("height")],
         "video_codec": v.get("codec_name"), "audio_codec": a.get("codec_name") if a else None,
         "duration": float(probe["format"]["duration"]), "size": int(probe["format"]["size"]),
         "face_gap": manifest["face_gap"], "call_before_pixels": before_pixels,

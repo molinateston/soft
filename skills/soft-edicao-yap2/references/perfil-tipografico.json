@@ -1,0 +1,47 @@
+{
+  "style": "Editorial",
+  "source": "5289-editorial-verde",
+  "title": {
+    "font": "Inter-SemiBold.ttf",
+    "size": 84,
+    "weight": 600,
+    "line_height": 88,
+    "letter_spacing": "-.035em",
+    "serif_font": "InstrumentSerif-Italic.woff2",
+    "serif_size": 112,
+    "serif_line_height": 104,
+    "serif_letter_spacing": "-.01em",
+    "align": "center",
+    "font_size_adjust": "none",
+    "lines": [
+      "o que mais",
+      "tá custando caro",
+      "pro teu negócio",
+      "horas roubadas",
+      "que você não percebe"
+    ],
+    "original_top": 120,
+    "sample_only_text_dy": 195
+  },
+  "caption": {
+    "font": "Inter-SemiBold.ttf",
+    "size": 92,
+    "line_height": 140,
+    "y": 1330,
+    "serif_size": 124,
+    "stroke": 0,
+    "shadow": "0 3px 22px rgba(0,0,0,.30),0 1px 3px rgba(0,0,0,.28)"
+  },
+  "entrance": "linhas .32s power3.out, y26 blur10; tempos 0,.38,1.2,2.32,3.14",
+  "font_files": {
+    "assets/fonts/InstrumentSerif-Italic.woff2": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7",
+    "assets/fonts/Inter-SemiBold.ttf": "b0b540e69bf6717016e33874670e09acf4bffc2ca3f4c1cf174a4ff696308c65",
+    "assets/fonts/Caveat-Bold.woff2": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+    "assets/fonts/Inter-Medium.ttf": "a645f55492d1c8cdace43c72be8cbec08e680b5a86d8b4c2d1c50d6e41e9cc96"
+  },
+  "accent": "#4ade80",
+  "text_color": "#ffffff",
+  "source_files": {
+    "index.html": "b41c0c10c8cb8dc4aa4f2c502a8595c9d15e5ffc282b10468af2c6eebf337a32"
+  }
+}

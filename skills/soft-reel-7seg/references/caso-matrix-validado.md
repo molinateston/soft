@@ -1,3 +1,5 @@
+> Caso do caminho A com composição legada. Parâmetros, duas caixas, posição e tempo da chamada pertencem a este exemplo; não são regras universais para o caminho B. Consulte `tela-legenda-presenca.md` antes de adaptar.
+
 # Caso Matrix validado
 
 ## Aprendizado reutilizável

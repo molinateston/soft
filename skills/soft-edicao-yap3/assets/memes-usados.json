@@ -1,0 +1,57 @@
+{
+ "regra": "memes nunca repetem os de episódio anterior da série YAP3. Este arquivo é a semente, só leitura: confira com scripts/memes_usados.py ver e, depois de entregar, some o episódio novo com scripts/memes_usados.py somar, que grava no registro do dono, fora da skill.",
+ "episodios": {
+  "ep3": [
+   {
+    "palavra": "desorganizados",
+    "termo": "nazare confusa",
+    "pagina": "https://giphy.com/gifs/globoplay-nazare-senhora-do-destino-novela-da-globo-8rtbZnQ5yH2XtKHB3q",
+    "som": "sting-tontura"
+   },
+   {
+    "palavra": "dificuldade",
+    "termo": "hide the pain harold",
+    "pagina": "https://giphy.com/gifs/hidethepainharold-smile-surprise-d5Fbtoj47ROk0J9IgW",
+    "som": "sting-trombone"
+   },
+   {
+    "palavra": "120 mil",
+    "termo": "mr krabs money",
+    "pagina": "https://giphy.com/gifs/spongebob-spongebob-squarepants-season-6-3o6wNGdFzOimSeTStW",
+    "som": "sting-dinheiro"
+   },
+   {
+    "palavra": "papo",
+    "termo": "homer bushes",
+    "pagina": "https://giphy.com/gifs/the-simpsons-scared-homer-simpson-jUwpNzg9IcyrK",
+    "som": "sting-disco"
+   }
+  ],
+  "ep4": [
+   {
+    "palavra": "semanas",
+    "termo": "still waiting (stanley, the office)",
+    "pagina": "https://giphy.com/gifs/QPQ3xlJhqR1BXl89RG",
+    "som": "sting-tontura"
+   },
+   {
+    "palavra": "áudios",
+    "termo": "mind blown (kramer, seinfeld)",
+    "pagina": "https://giphy.com/gifs/mind-seinfeild-OK27wINdQS5YQ",
+    "som": "sting-surpresa"
+   },
+   {
+    "palavra": "100 mil",
+    "termo": "make it rain (tom haverford, parks and recreation)",
+    "pagina": "https://giphy.com/gifs/parksandrec-parks-and-recreation-rec-EhC3Ck5T6TU1ccYLFY",
+    "som": "sting-dinheiro"
+   },
+   {
+    "palavra": "estressante",
+    "termo": "this is fine (kc green, gunshow)",
+    "pagina": "https://giphy.com/gifs/loop-Z1BTGhofioRxK",
+    "som": "sting-trombone"
+   }
+  ]
+ }
+}

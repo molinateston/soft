@@ -1,0 +1,69 @@
+{
+ "base": "<pasta>/final/<video-final-ja-espelhado>.mp4",
+ "saida": "<pasta>/final/<video>-gif.mp4",
+ "trab": "<pasta>/trab-gif",
+ "sons": "<skill>/assets/sons-gif",
+ "p90": 0.0852564,
+ "momentos": [
+  {
+   "k0": 752,
+   "k1": 805,
+   "gif": "<pasta>/gifs/cand-nazare-confusa/01-giphy-8rtbZnQ5yH2XtKHB3q.mp4",
+   "ini": 2.0,
+   "laco": 0.0,
+   "palavra": "desorganizados",
+   "fala": "\"1.200 depoimentos totalmente desorganizados\"",
+   "sentido": "confusão",
+   "som": "sting-tontura",
+   "termo": "nazare confusa",
+   "fonte": "giphy",
+   "pagina": "https://giphy.com/gifs/globoplay-nazare-senhora-do-destino-novela-da-globo-8rtbZnQ5yH2XtKHB3q",
+   "titulo": "Senhora Do Destino Nazare Confusa GIF by globoplay"
+  },
+  {
+   "k0": 1366,
+   "k1": 1435,
+   "gif": "<pasta>/gifs/cand-hide-the-pain-harold/04-giphy-d5Fbtoj47ROk0J9IgW.mp4",
+   "ini": 0.0,
+   "laco": 0.0,
+   "palavra": "dificuldade",
+   "fala": "\"dificuldade de treinar funcionários humanos\"",
+   "sentido": "dor",
+   "som": "sting-trombone",
+   "termo": "hide the pain harold",
+   "fonte": "giphy",
+   "pagina": "https://giphy.com/gifs/hidethepainharold-smile-surprise-d5Fbtoj47ROk0J9IgW",
+   "titulo": "Surprise Smile GIF by Hide The Pain Harold"
+  },
+  {
+   "k0": 1923,
+   "k1": 1975,
+   "gif": "<pasta>/gifs/cand-mr-krabs-money/07-giphy-3o6wNGdFzOimSeTStW.mp4",
+   "ini": 0.0,
+   "laco": 0.0,
+   "palavra": "120 mil",
+   "fala": "\"vieram 120 mil de economias num único ano\"",
+   "sentido": "dinheiro",
+   "som": "sting-dinheiro",
+   "termo": "mr krabs money",
+   "fonte": "giphy",
+   "pagina": "https://giphy.com/gifs/spongebob-spongebob-squarepants-season-6-3o6wNGdFzOimSeTStW",
+   "titulo": "season 6 boating buddies GIF by SpongeBob SquarePants"
+  },
+  {
+   "k0": 2176,
+   "k1": 2245,
+   "gif": "<pasta>/gifs/cand-homer-bushes/08-giphy-jUwpNzg9IcyrK.mp4",
+   "ini": 0.3,
+   "laco": 0.0,
+   "palavra": "papo",
+   "fala": "\"mas isso é papo para outro vídeo\"",
+   "sentido": "ironia",
+   "som": "sting-disco",
+   "termo": "homer bushes",
+   "fonte": "giphy",
+   "pagina": "https://giphy.com/gifs/the-simpsons-scared-homer-simpson-jUwpNzg9IcyrK",
+   "titulo": "Scared Homer Simpson GIF by reactionseditor"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+  "style": "Manuscrito",
+  "source": "lote-aprovado",
+  "title": {
+    "font": "Advercase-Bold.ttf",
+    "size": 85,
+    "line_height": 1.08,
+    "secondary_font": "Kalam-Bold.ttf",
+    "secondary_size": 54,
+    "secondary_line_height": 1.05,
+    "gap": 10,
+    "max_width": 960,
+    "align": "center",
+    "alpha_boxes": [
+      [
+        44,
+        315,
+        1036,
+        553
+      ],
+      [
+        44,
+        315,
+        1036,
+        663
+      ]
+    ],
+    "shadow": [
+      [
+        10,
+        0.55,
+        5
+      ],
+      [
+        3,
+        0.45,
+        2
+      ]
+    ],
+    "requested_sizes": [
+      88,
+      57
+    ],
+    "resolved_sizes": [
+      85,
+      54
+    ],
+    "reason": "O fit original reduz3px para manter duas linhas em cada bloco dentro390px",
+    "lines": [
+      "Eu vendi um agente de IA",
+      "por [30 mil reais]"
+    ],
+    "secondary_lines": [
+      "metade eu só recebo",
+      "se o cliente bater a meta"
+    ]
+  },
+  "caption": {
+    "font": "Advercase",
+    "size": 72,
+    "outline": 0,
+    "shadow": 1,
+    "x": 790,
+    "y": 1240
+  },
+  "entrance": "seca; complemento na fala em6.36s do bruto; nao antecipar para6.06",
+  "font_files": {
+    "lote-aprovado/fontes/OFL-Kalam.txt": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+    "lote-aprovado/fontes/Inter-ExtraBold.otf": "db2643a54b9c2492e99cd70f73702906d1677aedde969f63bffd4cbc3789ad6d",
+    "lote-aprovado/fontes/Kalam-Bold.ttf": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded",
+    "lote-aprovado/fontes/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+    "lote-aprovado/fontes/InterDisplay-ExtraBoldItalic.otf": "fe8ecdf422116dbd380707fdde10377aa6c23883b5f6bf5b024ca8ddbf001598",
+    "lote-aprovado/fontes/Kalam-Regular.ttf": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b",
+    "lote-aprovado/fontes/Advercase-Bold.ttf": "0a18220556c2f22ee128dedf7322d9d11cd4c7aefa1fade731dfbff12ad32cc5",
+    "lote-aprovado/fontes/Inter-Bold.otf": "9fc6261e817d0b1b2bf1953d8799bb1c837d11aeebbf83ae352e7b4d6de6425d",
+    "lote-aprovado/fontes/Advercase-Regular.ttf": "795f292766942e0b3e3e4f6b646045b32bc2cb9bfb3ea1bbef4b2b3092793eab",
+    "lote-aprovado/fontes/InterDisplay-BlackItalic.otf": "23567c0b610fc7a7687cadf0becd0826798fedfadfc9e1667917d62d19efbef4"
+  },
+  "accent": "#4ade80",
+  "text_color": "#ffffff",
+  "source_files": {
+    "lote-aprovado/plano.json": "6cd1ead120e732c940c1e868ac5fd396ca163fd04e8191e409a8c4d3605b5a9a",
+    "lote-aprovado/scripts/montar_ep.py": "a84ddb93a80c28f3ca0b44101b323b0763afae1c8736b7a8b9c088ee6dd30f36"
+  }
+}

@@ -1,0 +1,62 @@
+[
+ {
+  "k0": 594,
+  "k1": 660,
+  "gif": "<pasta>/gifs/cand-waiting-skeleton/02-giphy-QPQ3xlJhqR1BXl89RG.mp4",
+  "ini": 0.0,
+  "laco": 0.5,
+  "palavra": "semanas",
+  "fala": "\"meu cliente levava semanas até um mês\"",
+  "sentido": "espera, tempo perdido",
+  "som": "sting-tontura",
+  "termo": "still waiting (stanley, the office)",
+  "fonte": "giphy",
+  "pagina": "https://giphy.com/gifs/QPQ3xlJhqR1BXl89RG",
+  "titulo": "Still Waiting Office Tv GIF by The Office"
+ },
+ {
+  "k0": 897,
+  "k1": 960,
+  "gif": "<pasta>/gifs/cand-mind-blown/07-giphy-OK27wINdQS5YQ.mp4",
+  "ini": 0.25,
+  "laco": 0.5,
+  "palavra": "áudios",
+  "fala": "\"ele simplesmente pede em alguns áudios e tudo tá no ar\"",
+  "sentido": "surpresa, cabeça explodindo",
+  "som": "sting-surpresa",
+  "termo": "mind blown (kramer, seinfeld)",
+  "fonte": "giphy",
+  "pagina": "https://giphy.com/gifs/mind-seinfeild-OK27wINdQS5YQ",
+  "titulo": "Cosmo Kramer Mind Blown GIF"
+ },
+ {
+  "k0": 1426,
+  "k1": 1470,
+  "gif": "<pasta>/gifs/cand-make-it-rain-money/02-giphy-EhC3Ck5T6TU1ccYLFY.mp4",
+  "ini": 0.5,
+  "laco": 0.5,
+  "palavra": "100 mil",
+  "fala": "\"essa campanha faturou 100 mil reais em apenas um dia\"",
+  "sentido": "dinheiro",
+  "som": "sting-dinheiro",
+  "termo": "make it rain (tom haverford, parks and recreation)",
+  "fonte": "giphy",
+  "pagina": "https://giphy.com/gifs/parksandrec-parks-and-recreation-rec-EhC3Ck5T6TU1ccYLFY",
+  "titulo": "Excited Make It Rain GIF by Parks and Recreation"
+ },
+ {
+  "k0": 1683,
+  "k1": 1740,
+  "gif": "<pasta>/gifs/cand-this-is-fine/01-giphy-Z1BTGhofioRxK.mp4",
+  "ini": 2.0,
+  "laco": 2.0,
+  "palavra": "estressante",
+  "fala": "\"era muito difícil e muito estressante de ser feita antes da IA\"",
+  "sentido": "dor, caos",
+  "som": "sting-trombone",
+  "termo": "this is fine (kc green, gunshow)",
+  "fonte": "giphy",
+  "pagina": "https://giphy.com/gifs/loop-Z1BTGhofioRxK",
+  "titulo": "loop GIF"
+ }
+]

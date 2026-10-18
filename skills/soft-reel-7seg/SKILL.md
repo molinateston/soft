@@ -1,9 +1,9 @@
 ---
 name: soft-reel-7seg
 description: >-
-  Entrega o arquivo de vídeo curto pronto de postar, com a legenda longa junto: uma cena com o
-  personagem real, a frase de chamada em duas linhas por cima do vídeo, o convite no meio, e toda
-  a utilidade escrita na legenda (o formato em que a pessoa lê a legenda enquanto o vídeo roda).
+  Entrega o arquivo de vídeo curto pronto de postar, com a legenda adequada ao caminho: uma cena com o
+  personagem real, gancho e utilidade na legenda ou conteúdo completo legível na tela com legenda complementar.
+  Escolhe a duração pela leitura e configura a chamada quando ela ajuda a entrega.
   Cuida do enquadramento, da área segura do rosto, da trilha, da conferência do arquivo e da troca
   da mídia num post já agendado. Use quando o pedido for: "faz um reel curto", "reel
   cinematográfico", "produz o vídeo de 7 segundos", "aquele formato de ler a legenda", "headline
@@ -12,9 +12,9 @@ description: >-
   (soft-conteudo-reels); editar gravação crua (soft-editor-video); a headline ou o gancho isolado (soft-conteudo-headlines, soft-conteudo-ganchos).
 ---
 
-# Reel curto de read-caption
+# Reel curto: tela e legenda
 
-Este formato tem um trabalho só: a cena para o scroll, a headline dá o motivo de descer, e a descrição entrega a utilidade que faz a pessoa salvar. A skill cuida do caminho inteiro, do rosto na foto ao post atualizado, preservando identidade, mídia aprovada e agendamento.
+A cena apresenta uma situação real e a headline abre uma promessa concreta. Escolha onde a utilidade será entregue antes de escrever. A skill preserva identidade, mídia aprovada e agendamento; ações externas exigem ordem do dono. Leia `references/tela-legenda-presenca.md` para selecionar caminho, take e critério de leitura, e `references/campeoes-observados.md` para conhecer a cobertura e os limites das referências pesquisadas.
 
 **O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem os arquivos da ação MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0. A última linha dessa saída vai colada no relato ou no handoff. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência (checagem-titulos.md, titulos.txt, teses.txt, nomes.txt, conferir.txt) mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. Sem isso, não diga "pronto": diga o que falta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela**, e o comando colado no relato é literalmente o comando desta linha: o script imprime `insumos resolvido: <caminho>` e reprova a forma quando o perfil mora fora da pasta de insumos. O passo a passo da régua está em `references/regua-de-titulos.md`. Esta skill é a pasta instalada que contém este arquivo e a subpasta `scripts/` (confira com `ls scripts/checar_titulos.py` a partir dela); se você leu este arquivo de um plugin, cache ou cópia sem `scripts/`, pare e abra a pasta instalada.
 
@@ -45,7 +45,7 @@ A pergunta do modo é UMA por reel. As outras três partes acontecem nos passos 
 | "corrige o reel", "troca a headline", "a mídia ficou ruim", "sobe uma versão nova sem perder o horário" | **2 · VARIANTE E TROCA DE MÍDIA** |
 | "valida esse reel", "confere se está dentro do formato antes de eu subir" | **3 · VALIDAÇÃO** |
 
-Pedido ambíguo ("faz um reel"): pergunte UMA coisa só, se é este formato (cena curta, headline na tela, utilidade na descrição) ou um reel falado comum, porque a segunda resposta manda o pedido pra **soft-conteudo-reels**.
+Pedido ambíguo ("faz um reel"): pergunte UMA coisa só, se é este formato (cena curta, texto na tela e entrega na tela ou na legenda) ou um reel falado comum, porque a segunda resposta manda o pedido pra **soft-conteudo-reels**.
 
 ## Como ler cada ação
 
@@ -57,7 +57,7 @@ Toda ação traz o mesmo bloco fixo: **O que faz** · **Precisa de** · **Sem o 
 
 ## Ação 1 · REEL NOVO
 
-**O que faz:** produz o reel inteiro, da seleção das fotos ao arquivo validado e publicado.
+**O que faz:** produz o reel inteiro, da seleção do take ao arquivo validado. Publicar ou agendar somente sob ordem explícita.
 
 **Precisa de:** fotos reais do personagem, do dono · o assunto e o CTA, do dono · a identidade visual, do perfil/brain do agente · crédito de geração de imagem e de animação, autorizado pelo dono · shell com `ffmpeg`, `ffprobe`, uma fonte instalada e a ferramenta de montagem do mosaico.
 
@@ -67,7 +67,7 @@ Toda ação traz o mesmo bloco fixo: **O que faz** · **Precisa de** · **Sem o 
 
 **Regra da variável sem resposta.** Variável sem resposta entra como `[A CONFIRMAR: o quê]` SEM valor assumido; é proibido inventar número, data ou nome e etiquetar.
 
-**Entrega:** `reel-<slug>-v1.mp4` (vertical, H.264 e AAC, abaixo do limite do agendador) · `quadros/quadro-01.png` a `quadro-04.png` mais `mosaico.jpg` · `descricao.md` com a descrição longa · o manifesto de validação. Tudo no diretório de saída do ambiente (`$OUTDIR`, ou a working dir).
+**Entrega:** `reel-<slug>-v1.mp4` (vertical, H.264 e AAC, abaixo do limite do agendador) · `quadros/quadro-01.png` a `quadro-04.png` mais `mosaico.jpg` · `descricao.md` com a legenda adequada ao caminho · o manifesto de validação. Tudo no diretório de saída do ambiente (`$OUTDIR`, ou a working dir).
 
 **Arquivos obrigatórios: os arquivos acima, e `conferencia/checagem-titulos.md` por último (saída de `scripts/checar_titulos.py`, ver `references/regua-de-titulos.md`).** Confira com `ls conferencia/checagem-titulos.md` antes de dizer que entregou.
 
@@ -83,11 +83,11 @@ Toda ação traz o mesmo bloco fixo: **O que faz** · **Precisa de** · **Sem o 
 4. **Mosaico facial (só sem vídeo-base).** Selecione as fotos reais do personagem e monte o mosaico. Fixe traço literal, roupa, enquadramento e identidade **antes** de gerar a imagem-base. Rosto que muda entre a foto e o vídeo queima a peça inteira.
 5. **STOP: mostre o quadro-base e espere a aprovação antes de animar.** Animar um quadro errado gasta crédito à toa.
 6. **STOP: cote a animação antes de consumir crédito.** Informe o valor e espere a autorização. Uma geração por autorização, e preserve o MP4-base recebido, sempre.
-7. **Headline e descrição.** **Headline dada pelo dono é literal.** Se o pedido traz a headline escrita, ela entra palavra por palavra, sem reescrita e sem corte. Quebrar em duas caixas é permitido, mudar palavra não. Se não couber, reduza o corpo da fonte e declare em 1 linha; nunca resuma nem reescreva a headline do dono. Checagem verificável antes de renderizar: cole a headline do pedido e a que foi pro manifesto uma embaixo da outra e confirme que são a mesma string; qualquer diferença reprova o render. Só quando o pedido NÃO traz a headline pronta é que você escreve uma, aqui mesmo, pela `references/regua-de-titulos.md` que esta skill carrega, que é o cânone da headline por família de gatilho. Pra um banco de headline avulso, fora deste reel, a `soft-conteudo-headlines` é a casa dedicada. Depois rode o **gate anti-IA inline** desta skill na headline e na descrição. Na tela vão só a HEADLINE curta e a microchamada; corpo, explicação e lista ficam na descrição grande, útil e salvável. Escreva na voz e nos limites comerciais do dono atual. Não invente prova, número, promessa nem dado pessoal.
-8. **Render.** Renderize o overlay de modo determinístico com `scripts/render_reel.py`, aplicando tipografia, cor e composição da identidade atual. Rosto dentro da safe zone, headline dividida em duas caixas, microchamada só na segunda metade.
+7. **Headline e descrição.** **Headline dada pelo dono é literal.** Se o pedido traz a headline escrita, ela entra palavra por palavra, sem reescrita e sem corte. Quebrar linhas é permitido, mudar palavra não. Se não couber com leitura confortável, ajuste composição ou duração e declare a limitação; nunca resuma a headline do dono nem reduza a fonte até ficar ilegível. Checagem verificável antes de renderizar: cole a headline do pedido e a que foi pro manifesto uma embaixo da outra e confirme que são a mesma string; qualquer diferença reprova o render. Só quando o pedido NÃO traz a headline pronta, aplique os frameworks concretos da soft-conteudo-headlines e confira pela `references/regua-de-titulos.md`. Pra um banco de headline avulso, fora deste reel, a `soft-conteudo-headlines` é a casa dedicada. Depois rode o **gate anti-IA inline** desta skill na headline e na descrição. No caminho A, tela com gancho e chamada configurada; a legenda entrega a utilidade prometida. No caminho B, lista, passos ou dica completa e legível na tela; a legenda acrescenta aplicação, condição ou aprofundamento. Citação ou opinião é opção condicionada a pertinência e fonte, sem criar um terceiro modelo obrigatório. Escreva na voz e nos limites comerciais do dono atual. Não invente prova, número, promessa nem dado pessoal.
+8. **Render.** Renderize o overlay de modo determinístico com `scripts/render_reel.py`, aplicando tipografia, cor e composição da identidade atual. Escolha `--layout legacy`, `block` ou `clean` pela identidade e pelo take. Texto multilinha usa `--text-file`. Registre `--path A` ou `B`; chamada tem tempo explícito quando presente, e pode ser omitida com `--no-call` quando a tela entrega o conteúdo. Não tapar rosto, mãos ou demonstração durante movimento. O cálculo facial estático é só um diagnóstico do layout legado, não substitui inspeção.
 9. **Trilha.** Use música em alta na plataforma quando o fluxo de publicação der acesso a ela. Sem esse acesso, veja "A trilha quando não há música disponível".
 10. **Export e validação.** Exporte vertical 9:16, em H.264 e AAC, abaixo do limite do agendador, **com altura maior ou igual à do arquivo-base: nunca exporte abaixo da resolução da fonte**. Checagem verificável: cole a dimensão da fonte e a da saída lado a lado; saída menor que a fonte reprova o export. Rode `scripts/validate_reel.py` e **abra os quatro quadros do arquivo final com o olho** (a seção "Os quatro quadros de conferência" diz o que procurar em cada um).
-11. **STOP: mostre o mosaico dos quatro quadros e pergunte "pode subir?"** antes de publicar ou agendar.
+11. **Mostre o mosaico e o veredito antes do lote.** Publicar, agendar ou trocar mídia somente com ordem do dono; ordem já dada não exige nova confirmação. Teste seguido de feed só sob ordem e hipótese registrada, sem atribuir causalidade ao procedimento.
 
 ---
 
@@ -108,7 +108,7 @@ Toda ação traz o mesmo bloco fixo: **O que faz** · **Precisa de** · **Sem o 
 1. **Toda correção gera variante incremental.** Nunca sobrescreva imagem-base, MP4-base, copy aprovada nem variante aprovada. O que deu certo antes fica no disco.
 2. Aplique a correção só no ponto que falhou. Headline errada refaz a headline e re-renderiza o overlay; não regera a animação.
 3. Valide a variante nova pelo mesmo caminho da Ação 1, passo 9.
-4. Suba a variante e **atualize o mesmo post trocando somente a mídia**.
+4. Sob ordem de troca, suba a variante e **atualize o mesmo post trocando somente a mídia**.
 5. **Leia o agendamento por fora** e prove: mesmo identificador, mesmo horário, mesmo texto, mesmo estado, nenhuma duplicata. Se a edição não for segura, preserve o post anterior e diga ao dono o que aconteceu.
 
 ---
@@ -132,9 +132,9 @@ Toda ação traz o mesmo bloco fixo: **O que faz** · **Precisa de** · **Sem o 
 - Identidade do dono atual confirmada ou recuperada. Nenhum nome, oferta, prova, cor, fonte ou CTA herdado de outro caso por padrão.
 - Quadro-base aprovado antes da animação.
 - Gasto autorizado antes do crédito.
-- Cabeça inteira no quadro, com folga mensurável entre o cabelo e a caixa da headline.
-- Microchamada ausente antes do tempo definido e presente depois.
-- Read-caption sem corpo explicativo na tela: só a headline e a microchamada.
+- Rosto, mãos e ação relevante visíveis durante o movimento. Medição do texto e inspeção em início, meio, fim e entrada da chamada registradas; cálculo facial estático não libera a peça sozinho.
+- Quando há chamada, ausente antes do tempo definido e presente depois; tempo e motivo explícitos. Sem chamada, registrar `--no-call` e conferir a entrega completa na tela.
+- Caminho A entrega a utilidade na legenda; caminho B entrega conteúdo completo na tela e legenda complementar. Promessa e entrega conferidas separadamente.
 - Headline dada pelo dono entrou literal, conferida string contra string com a do pedido.
 - Saída vertical 9:16 com altura maior ou igual à da fonte, com as duas dimensões coladas lado a lado.
 - Gate anti-IA rodado na headline e na descrição, com veredito de aprovação.
@@ -175,20 +175,14 @@ O `validate_reel.py` extrai quatro quadros e monta o mosaico. Abrir e olhar é o
 
 | Quadro | Momento | O que você procura |
 |---|---|---|
-| **01** | primeiro décimo | a headline já está legível · as duas caixas cabem sem cortar palavra · a microchamada está AUSENTE · o rosto está inteiro no quadro |
-| **02** | antes do tempo da microchamada | a microchamada continua ausente · a folga entre o cabelo e a caixa é visível · a cena não escureceu a ponto de a headline sumir |
-| **03** | logo depois do tempo da microchamada | a microchamada apareceu · ela não colidiu com a headline nem com o rosto · o texto dela está legível |
-| **04** | último décimo | tudo continua no lugar no fim · a cena não estourou de brilho · nenhuma palavra órfã na segunda caixa |
+| **01** | primeiro décimo | o texto já está legível · as linhas cabem sem cortar palavra · a chamada, quando tardia, está ausente · o rosto está inteiro no quadro |
+| **02** | antes do tempo da microchamada | conferir presença da chamada conforme o tempo escolhido · rosto, mãos e ação seguem visíveis · a cena não escureceu a ponto de a headline sumir |
+| **03** | logo depois da chamada, ou meio do take sem chamada | se configurada, a chamada apareceu e está legível · texto não colide com rosto, mãos ou ação |
+| **04** | último décimo | tudo continua no lugar no fim · a cena não estourou de brilho · nenhuma palavra isolada por quebra de linha |
 
 ### A área segura se MEDE, não se olha
 
-Descrição em prosa nunca substitui medição. "As duas caixas cabem sem cortar palavra" é uma frase que o motor escreve porque espera que seja verdade, e o pixel costuma desmentir. Depois de gerar os quadros, rode a medição e cole a saída:
-
-```
-python3 -c "from PIL import Image; import numpy as np, sys; a=np.array(Image.open(sys.argv[1]).convert('RGB')); w=a.shape[1]; b=(a>200).all(axis=2); c=np.where(b.sum(axis=0)>0)[0]; print('margem esq', int(c.min()), 'margem dir', int(w-1-c.max()))" quadros/quadro-01.png
-```
-
-**Margem menor que 40 px em qualquer lado reprova o render** e manda refazer com a caixa mais estreita, porque a área segura do player vertical come as bordas: parte da primeira e da última letra some no aparelho real, e a placa colada no canto lê como erro de renderização. Uma faixa que vai da coluna 0 à última coluna da tela é placa encostada nos dois cantos, não headline centralizada. **A frase de inspeção só entra no arquivo de validação DEPOIS da linha de margem colada**, e um veredito de aprovado com margem abaixo do piso é relato que o arquivo desmente. Checagem colada: `margem esquerda: N px · margem direita: N px · piso: 40 px · veredito: passa ou refaz`.
+Descrição em prosa nunca substitui medição. "As duas caixas cabem sem cortar palavra" é uma frase que o motor escreve porque espera que seja verdade, e o pixel costuma desmentir. Use os limites do texto calculados pelo renderer no manifesto, com margem horizontal mínima de 40 px. O branco do take não é medida da caixa: segmentar todos os pixels brancos da imagem confunde fundo e overlay. Confira dimensões, limites do bloco e recortes dos quadros; registre margens esquerda/direita do texto. O validador mede o bloco, mas a inspeção precisa conferir contraste, movimento e leitura em velocidade normal. Uma lista que exige pausar precisa ser reduzida, dividida ou migrada para A, sem encolher a fonte.
 
 **Liste ao dono o que você viu em cada quadro**, em 4 a 6 linhas. **Sem leitor de imagem**, declare em 1 linha: "não tenho leitor de imagem aqui, o validador aprovou dimensão, duração, codecs, tamanho, a folga do rosto em pixels e o tempo da microchamada; a conferência visual dos quatro quadros fica com você no mosaico antes de subir".
 
@@ -206,16 +200,16 @@ Checagem colada na entrega: `marcadores no miolo: 0 · nomes sem autorização: 
 
 Ordem de preferência, e o que fazer em cada degrau:
 
-1. **Música em alta na plataforma**, quando o fluxo de publicação der acesso ao catálogo dela. É a primeira escolha, porque a plataforma distribui melhor o que usa o catálogo dela.
+1. **Música em alta na plataforma**, quando o fluxo de publicação der acesso ao catálogo dela. A escolha depende da identidade e da licença; o catálogo não prova melhor distribuição.
 2. **Sem esse acesso:** apresente ao dono uma alternativa de trilha comercial gratuita e **espere a escolha dele** antes de incorporar. Nunca decida a trilha sozinho: música é identidade, e a errada estraga uma peça certa.
-3. **Sem nenhuma trilha disponível:** exporte com a **faixa de áudio original da animação**, se ela tiver uma. O arquivo precisa sair com faixa de áudio válida, porque o validador exige e alguns agendadores recusam vídeo mudo.
+3. **Sem nenhuma trilha disponível:** preserve a faixa original quando ela existir e for a escolha apropriada, usando `--audio-mode preserve`. O padrão novo é `auto`: sem áudio externo preserva a base se existir, e só insere silêncio quando a base não tem áudio. `--audio-mode silent` silencia por escolha explícita. Não descarte áudio-base silenciosamente. O arquivo precisa sair com faixa de áudio válida, porque o validador exige e alguns agendadores recusam vídeo mudo.
 4. **Sem áudio nenhum no material:** exporte com uma **faixa silenciosa** na mesma duração do vídeo (o `ffmpeg` gera uma faixa de silêncio e a multiplexa junto), e **diga ao dono em 1 linha** que o reel está sem trilha e que ele escolhe a música dentro do aplicativo na hora de postar. Nunca entregue arquivo sem faixa de áudio.
 
 ## O que fazer sem X
 
 | Falta | O que a skill faz |
 |---|---|
-| **Sem `ffmpeg` ou `ffprobe`** | O render e a validação não rodam. Entrega a headline aprovada, a descrição, os parâmetros exatos do overlay (as duas linhas, a posição da caixa, o tempo da microchamada, a duração) e diz em 1 linha que basta rodar o script num ambiente com as dependências. Não finge que renderizou. |
+| **Sem `ffmpeg` ou `ffprobe`** | O render e a validação não rodam. Entrega a headline aprovada, a descrição, os parâmetros exatos do overlay (texto completo, caminho, layout, posição, chamada opcional e duração) e diz em 1 linha que basta rodar o script num ambiente com as dependências. Não finge que renderizou. |
 | **Sem a ferramenta de montagem do mosaico** | Os quatro quadros saem individuais, sem o mosaico. Confira os quatro um por um e diga que o mosaico ficou de fora. |
 | **Sem a fonte declarada instalada** | O `render_reel.py` recebe o caminho da fonte por argumento. Aponte pra uma fonte pesada que exista na máquina; sem nenhuma, avise o dono, porque fonte errada descaracteriza a peça e o certo é parar antes de renderizar torto. |
 | **Sem crédito de animação autorizado** | Para na cotação. Não gera. |

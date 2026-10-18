@@ -1,0 +1,12 @@
+// Desenha o overlay HTML aprovado (index.html + GSAP) em PNG transparente por quadro. Uso: node render_overlay.cjs <projeto> <pasta_saida> [segundos] [deslocamentoTextoY]
+// Precisa de puppeteer-core (YAP_PUPPETEER = caminho do módulo, padrão 'puppeteer-core') e de um Chrome/Chromium (YAP_CHROME = executável, obrigatório).
+const fs=require('fs'),path=require('path');
+const puppeteer=require(process.env.YAP_PUPPETEER || 'puppeteer-core');
+(async()=>{const [src,out,seconds='4.3',dy='0']=process.argv.slice(2); if(!src||!out)throw Error('uso: node render_overlay.cjs projeto pasta segundos deslocamentoTextoY');if(!process.env.YAP_CHROME)throw Error('defina YAP_CHROME com o executável do Chrome/Chromium');fs.mkdirSync(out,{recursive:true});
+const browser=await puppeteer.launch({executablePath:process.env.YAP_CHROME,headless:true,args:['--no-sandbox','--allow-file-access-from-files']});
+try{const page=await browser.newPage();await page.setViewport({width:1080,height:1920,deviceScaleFactor:1});await page.goto('file://'+path.resolve(src,'index.html'));await page.evaluate(()=>document.fonts.ready);
+await page.addStyleTag({content:'html,body{background:transparent!important} #camwrap,video,audio{visibility:hidden!important}'});
+const meta=await page.evaluate((dy)=>{for(const e of document.querySelectorAll('.stack,.ov')) {const s=getComputedStyle(e);e.style.top=(parseFloat(s.top)||0)+Number(dy)+'px';}return {fonts:[...document.fonts].map(f=>({family:f.family,status:f.status,weight:f.weight})),text:[...document.querySelectorAll('.ln,#t1,.w')].slice(0,12).map(e=>{let s=getComputedStyle(e);return {id:e.id,text:e.textContent,font:s.fontFamily,size:s.fontSize,weight:s.fontWeight,lineHeight:s.lineHeight,letterSpacing:s.letterSpacing,stroke:s.webkitTextStrokeWidth,shadow:s.textShadow,fontSizeAdjust:s.fontSizeAdjust}})}} ,dy);
+if(meta.fonts.some(f=>f.status==='error'))throw Error('Fonte falhou');fs.writeFileSync(path.join(out,'metricas.json'),JSON.stringify(meta,null,2));
+for(let n=0;n<Math.round(Number(seconds)*30);n++){await page.evaluate(t=>{window.__timelines.reel.seek(Math.max(t,0.000001),false);for(const e of document.querySelectorAll('.clip[data-start]')){const a=Number(e.dataset.start),b=a+Number(e.dataset.duration);e.style.visibility=t>=a&&t<b?'visible':'hidden';}},n/30);await page.screenshot({path:path.join(out,String(n).padStart(5,'0')+'.png'),omitBackground:true});}
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});

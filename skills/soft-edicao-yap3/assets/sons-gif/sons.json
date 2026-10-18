@@ -1,0 +1,58 @@
+{
+ "pop-gif": {
+  "arquivo": "pop-gif.wav",
+  "descricao": "entrada de todo GIF (pop suave)",
+  "usar_em": "entrada",
+  "duracao_s": 0.11,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função pop)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-tontura": {
+  "arquivo": "sting-tontura.wav",
+  "descricao": "apito de desenho descendo com vibrato, gira no estéreo",
+  "usar_em": "confusão, bagunça, \"não entendi\"",
+  "duracao_s": 1.0,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função tontura)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-trombone": {
+  "arquivo": "sting-trombone.wav",
+  "descricao": "trombone triste de 4 notas descendo (wah-wah)",
+  "usar_em": "dor, fracasso, dificuldade, \"deu ruim\"",
+  "duracao_s": 1.6,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função trombone)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-dinheiro": {
+  "arquivo": "sting-dinheiro.wav",
+  "descricao": "caixa registradora: gaveta + ching + moedas",
+  "usar_em": "dinheiro, economia, faturamento",
+  "duracao_s": 1.1,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função dinheiro)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-disco": {
+  "arquivo": "sting-disco.wav",
+  "descricao": "disco arranhado vai-e-volta + whoosh de saída",
+  "usar_em": "ironia, mudança de assunto, \"fica pra outro vídeo\", saída de fininho",
+  "duracao_s": 0.9,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função disco)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-surpresa": {
+  "arquivo": "sting-surpresa.wav",
+  "descricao": "apito subindo + pop brilhante",
+  "usar_em": "surpresa, choque, número absurdo",
+  "duracao_s": 0.7,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função surpresa)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ },
+ "sting-boing": {
+  "arquivo": "sting-boing.wav",
+  "descricao": "mola bóóing",
+  "usar_em": "bobeira, tombo, ideia ruim",
+  "duracao_s": 0.8,
+  "origem": "sintetizado localmente com numpy por sfx_gif.py (função boing)",
+  "licenca": "obra própria, CC0 (uso livre, sem atribuição)"
+ }
+}

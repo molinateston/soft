@@ -8,7 +8,7 @@ Quem prepara a máquina é você, o agente. O dono não instala nada na mão e n
 python3 <S>/instalar_ambiente.py --perfil ffmpeg --pasta <pasta>
 ```
 
-Ele confere o sistema, o gerenciador de pacotes, o privilégio e a rede, e instala sozinho, na ordem certa, o que faltar. Tudo que dá para instalar sem privilégio fica dentro da pasta: node 22 oficial em `.ambiente/node`, ffmpeg e ffprobe estáticos em `.ambiente/bin`, HyperFrames 0.8.93 e GSAP 3.14.2 em `node_modules`, faster-whisper num venv em `.ambiente/venv`. O Chrome do render vai para o cache do usuário. No fim, grava `ambiente.json` na pasta, com caminho e versão de cada peça.
+Ele confere o sistema, o gerenciador de pacotes, o privilégio e a rede, e instala sozinho, na ordem certa, o que faltar. Tudo que dá para instalar sem privilégio fica dentro da pasta: node 22 oficial em `.ambiente/node`, ffmpeg e ffprobe estáticos em `.ambiente/bin`, HyperFrames 0.8.93 e GSAP 3.14.2 em `node_modules`, faster-whisper e os pacotes Python dos scripts desta skill (numpy, Pillow e OpenCV, com versão mínima) num venv em `.ambiente/venv`. O Chrome do render vai para o cache do usuário. No fim, grava `ambiente.json` na pasta, com caminho e versão de cada peça.
 
 Na primeira vez leva de 3 a 5 minutos e baixa perto de 400 MB. Rodar de novo é seguro: sem nada faltando, termina em segundos e não muda nenhum arquivo. Para ver o plano sem executar nada, acrescente `--simular`.
 
@@ -44,7 +44,7 @@ Node e ffmpeg podem ter sido instalados dentro da pasta, fora do caminho padrão
 - Linux e Mac: `. <pasta>/.ambiente/ativar.sh && node <S>/novo-reel.mjs ...`
 - Windows (cmd): `call <pasta>\.ambiente\ativar.bat && node <S>\novo-reel.mjs ...`
 
-O mesmo arquivo aponta a transcrição para o venv da pasta (variável `WHISPER_PYTHON`).
+O mesmo arquivo aponta a transcrição para o venv da pasta (variável `WHISPER_PYTHON`) e põe na frente do caminho um `python3` que usa esse venv, onde o instalador pôs e provou, importando, os pacotes que os scripts desta skill importam. Sem carregar o ambiente, os scripts de GIF e de variação param no import.
 
 ## 5. Rode a prova de render
 
@@ -67,3 +67,22 @@ Nunca entregue uma edição simplificada por falta de ferramenta. Se o estilo pe
 ## No relatório da edição
 
 Registre a prova: a linha `PROVA DE RENDER`, o tempo, o vídeo da prova e os itens conferidos. Tudo isso está em `<pasta>/.ambiente/prova-render.json`. Registre também as versões de `ambiente.json` (HyperFrames, ffmpeg, faster-whisper) e qualquer comando que o dono precisou rodar.
+
+## Dependências externas do fluxo YAP3 (variações, espelho e GIF)
+
+O que vem dentro da skill e o que precisa vir de fora. Caminhos dos scripts são sempre por argumento ou relativos ao plano; nenhum script depende de pasta fixa da máquina.
+
+| Item | Onde fica | Observação |
+|---|---|---|
+| Modelo de rosto YuNet | `assets/modelos/face_detection_yunet_2023mar.onnx` | Incluído (OpenCV Zoo, licença MIT, texto em `assets/modelos/LICENSE-YuNet.txt`). Precisa de OpenCV 4.8 ou mais novo (`cv2.FaceDetectorYN`): o instalador põe `opencv-python-headless` no venv da pasta. |
+| Kalam Bold | `assets/fontes/Kalam-Bold.ttf` | Incluída com a licença `OFL-Kalam.txt`. SHA256 `2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded`. |
+| Advercase Bold (título) | não incluída | Licença de redistribuição não encontrada. Coloque o arquivo na pasta `fontes` do plano. SHA256 esperado `0a18220556c2f22ee128dedf7322d9d11cd4c7aefa1fade731dfbff12ad32cc5`; confira com `python3 scripts/reproduzir_molde.py --fontes <pasta> --so Advercase-Bold.ttf`. Sem ela, `variar_gancho.py` para com "falta a fonte". |
+| Modelo de transcrição large-v3 | baixado na primeira vez | `faster-whisper` com `large-v3` (cerca de 3 GB). Baixe uma vez com rede; depois `transcrever_tomadas.py` roda com `HF_HUB_OFFLINE=1`. |
+| Sons do GIF e do gancho | `assets/sons-gif/`, `assets/sfx-gancho/` | Sintetizados localmente, obra própria (CC0). |
+| Registro de memes usados | fora da skill | Semente só leitura em `assets/memes-usados.json`. O registro do dono fica em `YAP_MEMES_USADOS`, senão `$LEON_DATA_DIR/soft-edicao-yap3/memes-usados.json`, senão `~/.leon/dados/soft-edicao-yap3/memes-usados.json`. `scripts/memes_usados.py` lê os dois e grava só no registro. |
+| ffmpeg com libx265 10 bits | sistema | HEVC Main10 HLG BT.2020. `cor_hlg.py` define o encoder (preset fast, crf 16, GOP 30, sem B-frames) igual ao da V3, o que permite concatenar com `-c:v copy`. |
+| Motor que gera a V3 | não incluído | A V3 normal, o espelho da V3, o corpo com letra branca e as correções do EP3 e EP4 foram feitos por um motor próprio de cada projeto. A skill parte desses arquivos prontos (campos `v3_final`, `v3_espelho`, `correcoes`, `corpo_normal`, `ponte_normal` do plano). Em episódio novo, a V3 sai pela "Ordem de edição" da skill. |
+| Provas e molde do perfil Manuscrito (ep2) | não incluídos | `references/perfil-tipografico.json` registra os arquivos do lote aprovado com caminho relativo à pasta dele (`lote-aprovado/...`) e `references/texto-legenda-elementos.md` cita só o nome dos prints de evidência e do MP4 do molde do gancho. São registro de origem; nada roda a partir deles. `reproduzir_molde.py` procura as fontes pelo nome, em `--fontes`, e confere o lote com `--origem <pasta do lote aprovado>`. |
+| Resumo do curso de YAP | não incluído | A skill traz só o resumo em `references/revisao-fluidez-elementos-camera-2026-10-15.md`; a pasta original de resumos do curso fica fora. |
+
+Diferença conhecida: nos projetos originais a ponte (quadros `k_p` até `KG-1`) era renderizada pelo motor da V3. Aqui ela é decodificada do arquivo pronto e recodificada, com perda de geração pequena (PSNR em torno de 46 dB ou mais, acima do limite de 40 do `auditar_variacao.py`). O corpo continua por cópia de pacote, bit a bit igual.

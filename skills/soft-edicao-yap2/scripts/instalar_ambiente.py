@@ -10,6 +10,10 @@ Perfis:
                ffmpeg e ffprobe, venv com faster-whisper, tesseract (opcional)
   ffmpeg       ffmpeg e ffprobe, venv com faster-whisper
 
+Nos dois perfis, o venv recebe também os pacotes que os scripts desta skill importam sem
+alternativa (numpy, Pillow, OpenCV), com versão mínima, e a conferência importa cada um de
+verdade. Quando há esses pacotes, o ativar.sh põe na frente do PATH um python3 que usa o venv.
+
 O que não exige privilégio fica dentro da pasta (node baixado em .ambiente/node, ffmpeg estático
 em .ambiente/bin, venv em .ambiente/venv, pacotes npm em node_modules). O que exige privilégio e
 não houver vira um comando exato para o dono rodar (saída 3).
@@ -17,7 +21,7 @@ não houver vira um comando exato para o dono rodar (saída 3).
 Saídas: 0 pronto, 1 conferência reprovou, 2 argumento errado, 3 falta algo que só o dono faz,
 4 uma instalação falhou. Só usa a biblioteca padrão do python.
 """
-import argparse, gzip, hashlib, json, os, platform, re, shutil, socket, stat, subprocess, sys, tarfile, time, urllib.request, zipfile
+import argparse, ast, gzip, hashlib, json, os, platform, re, shutil, socket, stat, subprocess, sys, tarfile, time, urllib.request, zipfile
 from pathlib import Path
 
 VERSOES = {
@@ -29,7 +33,11 @@ VERSOES = {
     "python_minimo": (3, 10),
     "pip_fixado": ["faster-whisper==1.2.1", "ctranslate2==4.7.2", "av==17.0.1"],
     "pip_reserva": ["faster-whisper==1.2.1", "av<19"],  # av 19 quebra o faster-whisper 1.2.1
+    # módulo importado pelos scripts da skill -> pacote com versão mínima; só entra o que algum script importa
+    # sem alternativa (fora de try com except ImportError). OpenCV 4.8 é o mínimo do YuNet 2023mar.
+    "pip_scripts": {"numpy": "numpy>=1.24", "PIL": "Pillow>=10.0", "cv2": "opencv-python-headless>=4.8"},
 }
+MODULOS_WHISPER = {"faster_whisper", "ctranslate2", "av"}  # já vêm com o faster-whisper
 URL_NODE = "https://nodejs.org/dist/v{v}/"
 URL_FF = "https://github.com/eugeneware/ffmpeg-static/releases/download/{tag}/{arq}"
 URL_GETPIP = "https://bootstrap.pypa.io/get-pip.py"
@@ -137,6 +145,47 @@ def versao_tupla(txt):
     return tuple(int(x) for x in re.findall(r"\d+", txt)[:3])
 
 
+def _pega_importerror(tipo):
+    if tipo is None:
+        return True  # except sem tipo pega tudo
+    for n in (tipo.elts if isinstance(tipo, ast.Tuple) else [tipo]):
+        if isinstance(n, ast.Name) and n.id in ("ImportError", "ModuleNotFoundError", "Exception", "BaseException"):
+            return True
+    return False
+
+
+def modulos_dos_scripts(pasta):
+    """Módulos de fora da biblioteca padrão que os scripts da pasta importam sem alternativa.
+    Import dentro de try com except ImportError é opcional e não conta. Devolve {módulo: [scripts]}."""
+    padrao = set(getattr(sys, "stdlib_module_names", ()))
+    locais = {p.stem for p in pasta.glob("*.py")}
+    achados = {}
+    for arq in sorted(pasta.glob("*.py")):
+        try:
+            arvore = ast.parse(arq.read_text(encoding="utf-8"))
+        except (OSError, SyntaxError, UnicodeDecodeError, ValueError):
+            continue
+        opcionais = {id(n) for t in ast.walk(arvore) if isinstance(t, ast.Try) and any(_pega_importerror(h.type) for h in t.handlers)
+                     for b in t.body for n in ast.walk(b)}
+        for no in ast.walk(arvore):
+            if id(no) in opcionais:
+                continue
+            if isinstance(no, ast.Import):
+                nomes = [a.name for a in no.names]
+            elif isinstance(no, ast.ImportFrom) and no.module and not no.level:
+                nomes = [no.module]
+            else:
+                continue
+            for raiz in {n.split(".")[0] for n in nomes}:
+                if raiz in locais or raiz in MODULOS_WHISPER or (padrao and raiz in padrao):
+                    continue
+                if not padrao and raiz not in VERSOES["pip_scripts"]:
+                    continue  # python sem a lista da biblioteca padrão: só os conhecidos
+                if arq.name not in achados.setdefault(raiz, []):
+                    achados[raiz].append(arq.name)
+    return achados
+
+
 # ---------------------------------------------------------------- detecção do sistema
 def detectar_sistema(args, pasta):
     so = {"Linux": "linux", "Darwin": "mac", "Windows": "windows"}.get(platform.system(), platform.system().lower())
@@ -220,6 +269,11 @@ class Instalador:
         self.info = {}
         self.sis = detectar_sistema(args, self.pasta)
         self.path_extra = []
+        achados = modulos_dos_scripts(Path(__file__).resolve().parent)
+        self.req_py = {m: VERSOES["pip_scripts"][m] for m in sorted(achados) if m in VERSOES["pip_scripts"]}
+        self.req_desconhecidos = {m: s for m, s in sorted(achados.items()) if m not in VERSOES["pip_scripts"]}
+        self.req_scripts = {m: achados[m] for m in self.req_py}
+        self.corrige = []  # comandos para corrigir o que a conferência final reprovou
 
     # ---------- ambiente dos subprocessos
     def env(self):
@@ -381,6 +435,50 @@ class Instalador:
         fw, ct, av = out.strip().splitlines()[-1].split()
         return {"ok": True, "caminho": str(py), "faster_whisper": fw, "ctranslate2": ct, "av": av}
 
+    def conf_pacotes_py(self):
+        """Prova de verdade: importa no python do venv cada módulo que os scripts pedem e confere a versão mínima."""
+        py, mods = self.venv_python(), sorted(self.req_py)
+        if not py.exists():
+            return {"ok": False, "modulos": {}, "faltam": mods, "erros": {m: "venv ausente" for m in mods}}
+        codigo = ("import importlib, json, sys\nr = {}\nfor m in sys.argv[1:]:\n    try:\n"
+                  "        r[m] = {'versao': str(getattr(importlib.import_module(m), '__version__', '0'))}\n"
+                  "    except Exception as e:\n        r[m] = {'erro': type(e).__name__ + ': ' + str(e)}\nprint(json.dumps(r))")
+        rc, out = rodar([str(py), "-c", codigo, *mods], timeout=300)
+        try:
+            r = json.loads(out.strip().splitlines()[-1])
+        except (ValueError, IndexError):
+            r = {m: {"erro": (out.strip().splitlines() or ["sem saída"])[-1]} for m in mods}
+        versoes, erros = {}, {}
+        for m in mods:
+            d = r.get(m) or {"erro": "sem resposta"}
+            piso = re.search(r">=\s*([\d.]+)", self.req_py[m])
+            if "versao" in d and piso and versao_tupla(d["versao"]) < versao_tupla(piso.group(1)):
+                d = {"erro": f"versão {d['versao']} abaixo da mínima {piso.group(1)}"}
+            if "erro" in d:
+                erros[m] = d["erro"]
+            else:
+                versoes[m] = d["versao"]
+        return {"ok": not erros, "caminho": str(py), "modulos": versoes, "faltam": sorted(erros), "erros": erros}
+
+    def comando_pip_scripts(self, mods, forcar=False):
+        return mostra_cmd([str(self.venv_python()), "-m", "pip", "install"] + (["--force-reinstall"] if forcar else []) + [self.req_py[m] for m in mods])
+
+    def criar_python_da_pasta(self):
+        """python3 e python que rodam o python do venv: depois do ativar, os comandos da skill acham os pacotes."""
+        d, py = self.amb / "py", self.venv_python()
+        d.mkdir(parents=True, exist_ok=True)
+        if WIN:
+            arqs = {n: f'@"{py}" %*\r\n' for n in ("python3.cmd", "python.cmd")}
+        else:
+            arqs = {n: f'#!/bin/sh\n# gerado pelo instalar_ambiente.py: python do venv da pasta\nexec "{py}" "$@"\n' for n in ("python3", "python")}
+        for nome, conteudo in arqs.items():
+            p = d / nome
+            if not p.exists() or p.read_text(encoding="utf-8") != conteudo:
+                p.write_text(conteudo, encoding="utf-8")
+            if not WIN:
+                p.chmod(0o755)
+        return d
+
     def conf_tesseract(self):
         t = self.which("tesseract")
         if not t:
@@ -441,6 +539,12 @@ class Instalador:
         w = self.conf_whisper()
         self.linha("faster-whisper (venv)", "ok" if w and w["ok"] else "instalando",
                    f"v{w['faster_whisper']} em .ambiente/venv" if w and w["ok"] else "venv em .ambiente/venv com faster-whisper 1.2.1")
+        if self.req_py:
+            c = self.conf_pacotes_py()
+            self.linha("pacotes dos scripts (venv)", "ok" if c["ok"] else "instalando",
+                       "; ".join(f"{m} {v}" for m, v in c["modulos"].items()) if c["ok"] else f"{' '.join(self.req_py.values())} em .ambiente/venv")
+        for m, scripts in self.req_desconhecidos.items():
+            self.linha(f"módulo {m}"[:28], "aviso", f"{', '.join(scripts)} importa {m}; não sei qual pacote o instala")
         if hf:
             t = self.conf_tesseract()
             if t and t["portugues"]:
@@ -681,6 +785,33 @@ class Instalador:
             raise Saida(4, "o faster-whisper instalou mas não importa no venv (veja .ambiente/logs/pip.log)")
         self.info["whisper"] = w
 
+    def instalar_pacotes_py(self):
+        """Pacotes que os scripts desta skill importam (numpy, Pillow, OpenCV), no mesmo venv da transcrição."""
+        if not self.req_py:
+            return
+        py = self.venv_python()
+        if not py.exists():
+            if self.simular:
+                self.planos.append(("pacotes dos scripts no venv", mostra_cmd([str(py), "-m", "pip", "install", "-q", *self.req_py.values()])))
+            return  # sem venv o passo da transcrição já parou ou pediu ao dono
+        c = self.conf_pacotes_py()
+        if c["ok"]:
+            self.info["pacotes_py"] = c
+            return
+        if not self.precisa_rede("pypi.org", "os pacotes dos scripts (" + ", ".join(self.req_py[m] for m in c["faltam"]) + ")"):
+            return
+        reqs = [self.req_py[m] for m in c["faltam"]]
+        self.executar(f"pacotes dos scripts no venv: {' '.join(reqs)}", [str(py), "-m", "pip", "install", "-q", *reqs], "pip-scripts")
+        if self.simular:
+            return
+        c = self.conf_pacotes_py()
+        self.info["pacotes_py"] = c
+        if not c["ok"]:
+            raise Saida(4, "instalei os pacotes dos scripts, mas eles não importam no venv:\n"
+                        + "".join(f"  {m}: {c['erros'][m]}\n" for m in c["faltam"])
+                        + f"para corrigir, rode: {self.comando_pip_scripts(c['faltam'], forcar=True)}\n"
+                        + f"e depois este instalador de novo. Log: {self.logs / 'pip-scripts.log'}")
+
     def instalar_tesseract(self):
         t = self.conf_tesseract()
         if t and t["portugues"]:
@@ -708,6 +839,8 @@ class Instalador:
             if self.info.get(nome) and self.info[nome]["origem"] == "local":
                 env[var] = self.info[nome]["caminho"]
         prefixo = [str(p) for p in self.path_extra if str(p).startswith(str(self.amb))]
+        if self.venv_python().exists() and (self.req_py or (self.amb / "py").exists()):
+            prefixo.insert(0, str(self.criar_python_da_pasta()))  # uma vez criado, fica: a pasta pode servir a mais de uma skill
         dados = {
             "perfil": self.perfil, "pasta": str(self.pasta),
             "sistema": {k: self.sis[k] for k in ("so", "arch", "gerenciador", "privilegio")},
@@ -721,6 +854,8 @@ class Instalador:
         if self.perfil == "ffmpeg":
             for k in ("node", "hyperframes", "gsap", "navegador", "tesseract"):
                 dados.pop(k)
+        if self.req_py:
+            dados["pacotes_py"] = self.info.get("pacotes_py")
         sh = "# gerado pelo instalar_ambiente.py: carregue antes de editar\n"
         if prefixo:
             sh += f'export PATH="{":".join(prefixo)}:$PATH"\n'
@@ -763,6 +898,15 @@ class Instalador:
                 item("bibliotecas do Chrome", bool(nav) and not nav.get("libs_faltando"), "completas" if nav and not nav.get("libs_faltando") else "faltam bibliotecas")
         w = dados.get("whisper")
         item("faster-whisper (venv)", bool(w and w["ok"]), f"v{w['faster_whisper']} (ctranslate2 {w['ctranslate2']}, av {w['av']}) {w['caminho']}" if w else "ausente")
+        if self.req_py:
+            c = self.conf_pacotes_py()  # importa de novo, de verdade, no python do venv
+            item("pacotes dos scripts (venv)", c["ok"], "; ".join(f"{m} {v}" for m, v in c["modulos"].items()) if c["ok"] else
+                 "não importam: " + "; ".join(f"{m} ({c['erros'][m]})" for m in c["faltam"]))
+            if not c["ok"]:
+                quem = "; ".join(m + " em " + ", ".join(self.req_scripts[m]) for m in c["faltam"])
+                self.corrige.append(f"{self.comando_pip_scripts(c['faltam'], forcar=True)} (param no import sem eles: {quem})")
+        for m, scripts in self.req_desconhecidos.items():
+            item(f"módulo {m}"[:28], False, f"{', '.join(scripts)} importa {m}; instale o pacote dele no venv: {self.venv_python()} -m pip install <pacote>", obrig=False)
         if self.perfil == "hyperframes":
             t = dados.get("tesseract")
             item("tesseract (opcional)", bool(t and t["portugues"]), "com português" if t and t["portugues"] else
@@ -783,6 +927,7 @@ class Instalador:
             self.instalar_npm(node)
             self.instalar_navegador(node)
         self.instalar_whisper()
+        self.instalar_pacotes_py()
         if hf:
             self.instalar_tesseract()
         return self.fim()
@@ -811,6 +956,8 @@ class Instalador:
             print(f"Antes de editar, carregue o ambiente: {dados['ativar']['windows_cmd' if WIN else 'linux_mac']}")
         if reprova:
             print(f"\nA conferência final reprovou: {', '.join(reprova)}. Veja os logs em {self.logs}.")
+            for c in self.corrige:
+                print(f"Para corrigir, rode: {c}")
             return 1
         print("\nAmbiente pronto. Próximo passo: a prova de render (prova_render.py).")
         return 0

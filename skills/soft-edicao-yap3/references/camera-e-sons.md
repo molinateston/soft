@@ -11,7 +11,7 @@ Lido nos passos 6 e 8 da ordem de edição do `SKILL.md`. "Medido" descreve uma 
 - **Continuidade de escala e posição.** Nos cortes de continuidade da mesma ideia, o próximo plano herda a escala e a posição finais do anterior. Mudança intencional no corte leva o motivo registrado e a emenda conferida. Continuidade numérica sozinha não basta: inverter a direção em todo corte também produz oscilação.
 - **Recuo com motivo próprio.** Abra o quadro por mudança de bloco ou por necessidade visual do briefing. Não volte ao aberto automaticamente depois de uma aproximação: o fim da frase não é motivo. Não alterne aproximação e recuo por índice, por tempo fixo nem a cada troca de plano.
 - **Dosagem.** Deixe tempo na mesma cena. Não existe número ideal de movimentos; observar esses recursos numa amostra não obriga a combiná-los em ciclo.
-- **Limite:** não corte orelha nem cabeça. Reposicione para caber o texto.
+- **Limite:** não corte orelha nem cabeça. Para acomodar texto, reposicione a camada de texto. Ajuste exclusivo de posição não autoriza mover ou reenquadrar o apresentador; siga a referência de texto.
 - **Erro que já aconteceu:** um mapa de câmera gerado por paridade do índice alternou 1,00 → 1,10 e 1,10 → 1,00 em todos os blocos do corpo. Mesmo com continuidade nos limites, isso virou movimento recorrente sem escolha pela fala, e a revisão reprovou. A conferência de câmera existe para pegar exatamente isso.
 - **Cada bloco de câmera registra no briefing:** início e fim, escala e posição iniciais e finais, a fala que o motiva e o trecho de permanência. Por padrão `z1 = z`; só preencha valores diferentes com motivo descrito.
 

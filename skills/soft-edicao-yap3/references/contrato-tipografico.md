@@ -1,0 +1,20 @@
+# Contrato de reprodução tipográfica
+
+Use este contrato antes do template genérico quando existir molde aprovado da mesma série. O arquivo `perfil-tipografico.json` registra medidas extraídas do projeto local, não uma identidade obrigatória para outro cliente. Leia o HTML/PNG original e o plano de cada projeto. Não escolha a fonte pelo nome aproximado: registre caminho, SHA256, peso real e renderer. Falha de carregamento de fonte reprova, sem fallback silencioso.
+
+1. Trave fonte por arquivo, peso, tamanho nominal, tracking, entrelinha, largura, alinhamento, quebras literais, sombra, contorno e instante de cada entrada. Registre CSS computado ou métricas PIL. Não estime a altura óptica a partir de px nominal. Não aplique `font-size-adjust` ao reproduzir um molde que não o usava. O template genérico só entra quando não há perfil da série.
+2. Reproduza primeiro um estado conhecido e compare sobreposição e quadro lado a lado no mesmo instante. Meça a caixa alfa incluindo sombra; não use apenas a caixa CSS. Em novo texto preserve proporção entre níveis, não aumente um número isolado para impor hierarquia nova. Quebras aprovadas são dados de entrada. Sem palavra órfã em composição nova.
+3. Ajuste restrito de texto congela pessoa, ângulo, escala, enquadramento, fundo, cortes, velocidade e áudio. Mova somente as camadas autorizadas e declare o restante idêntico. Não use punch, perspectiva, zoom ou outro take para abrir espaço. Um recorte que não cabe exige ajustar texto com direção explícita.
+4. Verifique todo estado, complemento, entrada e saída em 1080x1920 e recortes centrais 4:5(y285:1635) e 3:4(y240:1680). Inclua acentos/sombra. A posição segura depende do take. No perfil Manuscrito (ep2) preserve alpha x44:1036 e topo315; margem nominal60 não reduz o molde aprovado. +280 é a translação dos PNGs originais com topo35, não regra global.
+5. Entregue uma amostra curta por estilo antes de lote, com mosaico nos mesmos tempos do molde e hash das fontes. Abrir o mosaico é obrigatório. Avalie no tamanho de celular: hierarquia, quebras, alinhamento, densidade, sombra e legenda. Um contrato não prova equivalência entre motores: declare qual motor executou e qual referência é histórica.
+6. Preserve estéreo e timbre. Não aplicar compressor, limitador ou EQ. Em ajuste de texto copie áudio quando viável; se já autorizado, apenas ganho uniforme até-2dB. Compare quadros do apresentador fora da máscara das camadas e registre hash de áudio PCM ou o ganho aplicado. Decodifique MP4 inteiro e confira duração, resolução e canais. Sem auditor independente, não declare selo independente.
+
+## Reprodução executável
+
+O script `scripts/reproduzir_molde.py` valida os arquivos do perfil (SHA256) e imprime o contrato. Para HTML, `scripts/render_overlay.cjs` desenha o projeto aprovado com suas fontes e seu GSAP: não reinterpreta CSS. Ele exporta PNG transparente por quadro e metadados de fonte/CSS; câmera e áudio ficam fora dessa camada. Informe deslocamento apenas das camadas de texto no último argumento numérico. Não renderize o projeto inteiro por import de um script que executa etapas no topo.
+
+## Perfil Manuscrito (ep2)
+
+O ep2 aprovado usa título Advercase Bold85 e complemento Kalam Bold54 depois do fit original (o plano pede88/57, o loop resolve85/54). Duas linhas fixas em cada bloco, entrelinhas1.08/1.05 e espaço10. O valor mantém o mesmo85, sem saltar para132. A legenda histórica desse episódio usa Advercase72 em(790,1240), sem contorno e sombra1; esse dado do projeto tem prioridade sobre a opção genérica Instrument Serif55. Não transforme essa exceção de série em regra para outro cliente. O complemento entra na fala6.36 do bruto, não6.06.
+
+Execute `python3 scripts/render_stella.py PASTA_DO_PROJETO PASTA_DE_PNGS 315`. O helper reproduz as funções PIL do molde sem executar cortes, áudio ou montagem. Primeiro compare `original0.png` e `original1.png` com os estados aprovados; depois confira os estados transladados. Os arquivos de fonte e o plano pertencem ao projeto informado. Não criar outra hierarquia nem trocar a legenda durante ajuste de posição.

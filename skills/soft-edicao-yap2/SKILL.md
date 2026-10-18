@@ -4,6 +4,22 @@ description: >-
   Edita a gravação de talking head no Yap 2, estilo editorial: um reel vertical 1080x1920 polido, com uma palavra minúscula por vez no meio do quadro, as palavras-chave em serifado itálico na cor de acento do dono, frases montadas linha a linha, cortes secos entre ângulos e punch-ins, cartões arredondados flutuando com prints reais, nota manuscrita e CTA no fim. Devolve o MP4, a folha de contato conferida e o relatório. Use quando o pedido for: "edita no Yap 2", "edita no estilo editorial", "quero o reel com cara de editado", "estilo serifado", "monta esse vídeo falado com visual de revista". NÃO use pra: o visual cru de celular (soft-edicao-yap, estilo celular); o YAP de websérie com título no quadro 0 e versão por gancho (soft-edicao-yap3); escrever o roteiro ou o gancho (soft-conteudo-reels). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
+## Preservar a aparência de cor do bruto (dono, 15/10/2026 20:51)
+
+Ordem explícita: “Corrige ambos então, a skill não pode mexer na cor ok?” Vale para edição completa, ajuste e exportação. Preserve a aparência de cor da gravação original. Sem pedido explícito do dono, não altere brilho, exposição, contraste, saturação ou balanço de branco; não aplique LUT, filtro de cor, embelezamento, retoque de pele nem correção automática. A identidade e a cor de acento das camadas gráficas não autorizam alterar a imagem filmada. Molde aprovado ou vídeo já editado não substitui o bruto como referência de cor.
+
+Conversão técnica de HDR, HLG ou Dolby Vision para o formato de entrega não autoriza mudar a aparência. Antes do lote, inspecione metadados e estabeleça uma reprodução confiável do original, com gerenciamento de cor compatível com o material. Registre arquivo, player ou fluxo de reprodução, espaço de cor e condições conhecidas de comparação. Não trate uma extração crua de valores HLG ou uma prévia sem gerenciamento de cor como referência visual suficiente.
+
+Confira a cadeia inteira, incluindo intermediários, composição e exportação. Os pixels convertidos e as tags de primárias, transferência, matriz e faixa precisam corresponder ao sinal real; trocar apenas tags não corrige a imagem. Nenhum preset de tone mapping, valor de luminância ou escurecimento arbitrário serve como solução universal. A mera ausência de filtro também não prova preservação da aparência.
+
+Antes de entregar, compare o MP4 final decodificado com a reprodução confiável do bruto nos mesmos instantes de origem, mapeados pelos cortes, incluindo início, meio e fim dos trechos usados e mudanças de iluminação. Examine rosto, parede e roupa nas áreas sem sobreposição; confira luminosidade, contraste, cor da pele e saturação. Salve comparações e registre tempos de origem/saída, transformação aplicada, tags e limites da inspeção no relatório. Se a imagem ficar mais clara, lavada, escura ou com outra cor, corrija a cadeia e repita a comparação antes de entregar. Sem referência confiável, declare a pendência e não afirme correspondência visual comprovada. Não prometa identidade matemática entre espaços de cor distintos.
+
+## Contrato de reprodução do molde (15/10/2026)
+
+Antes de escolher fonte ou montar texto, leia [o contrato tipográfico](references/contrato-tipografico.md) e execute `python3 scripts/reproduzir_molde.py <pasta do molde>` (ou com `YAP_MOLDES_DIR`). Um perfil aprovado da mesma série tem prioridade sobre medidas genéricas desta skill. Para ajuste de texto, congele pessoa, ângulo, escala, enquadramento, cortes e áudio. Entregue amostra comparada com o molde antes do lote.
+
+
+
 # Yap 2, estilo editorial: o reel que mostra que foi editado
 
 O Yap 2 pega a gravação de uma pessoa falando direto pra câmera e devolve um reel calmo e polido, com cara de revista. É o oposto do visual cru de celular: aqui a edição aparece, e faz parte da mensagem. Cada recurso visual ilustra a palavra exata que está sendo dita, entra nela e sai dentro da mesma frase. Enfeite sem fala por trás é defeito. A skill entra DEPOIS da gravação: aqui é edição, nunca escrita. É marca-neutra: cor de acento, fontes, nome e prints vêm do perfil do dono.
@@ -120,3 +136,27 @@ A pasta do projeto com `renders/<slug>-final.mp4`, `conferencia/` (mosaicos, tex
 ## Nome do arquivo e lint
 
 Nome de arquivo e slug em minúsculas, sem acento, com hífens. Todo `.md` que a skill entregar passa por `python3 scripts/lint_copy.py <arquivo>` (a partir da pasta desta skill) antes de ser dado como pronto.
+
+
+## Nova edição completa e correção de fluidez, 15/10/2026 16:02
+
+A ordem de congelar pessoa, ângulo e áudio aplica-se a ajuste restrito de posição de texto. Uma nova edição completa autorizada volta ao bruto e decide cortes, aproximações, recuos, sons e apoios pela fala; não herda o corpo rejeitado como pronto. Preserve a identidade deste estilo e a prioridade do perfil aprovado da série.
+
+Antes de renderizar, salve mapa por fala com: intervalo do bruto, frase literal, tentativa descartada e retomada escolhida, tempo de saída, função tipográfica, arquivo de fonte, câmera inicial/final e motivo, apoio e sua origem, som e instante de entrada. Detecte repetições, gagueiras, início abortado e autocorreção na transcrição com palavras temporizadas. Compare as tentativas no áudio; mantenha a retomada mais fluida e remova a primeira tentativa quando ela for erro. Não corte uma repetição intencional só porque a palavra repete. Transcrição automática sozinha não prova emenda fonética: confira bordas, consoantes, respiração e continuidade; documente tempos antes/depois e incerteza real. Guarde bordas de áudio suficientes para preservar a sílaba, em vez de cortar exatamente no timestamp estimado de palavra.
+
+Varie a tipografia por função dentro dos pares comprovados do estilo: título, complemento/contraponto e legenda não são uma camada indiferenciada. Leia o perfil e referências locais; registre caminho e hash das fontes e falhe se o arquivo não carregar. Não invente fonte nem use fallback silencioso. No perfil Manuscrito (ep2), a referência local é Advercase Bold85 para título, Kalam Bold54 para complemento e Advercase72 para legenda; topo315 e folga de30px do recorte4:5. Esse perfil não substitui a identidade celular ou editorial de outro pedido.
+
+Planeje sons nas entradas motivadas de texto, lista, demonstração, comparação ou ênfase; sincronize o som ao evento e mantenha a voz dominante. A reclamação de poucos sons exige rever oportunidades concretas, não preencher uma cota. Aproximação gradual pode sustentar uma fala que cresce em importância; recuo precisa de motivo próprio, como abrir área para lista ou iniciar etapa. Registre escala e duração, preserve continuidade em cortes de limpeza e permita permanência. Não alternar zoom in/out por índice, por intervalo fixo nem por obrigação de variar.
+
+Escolha elementos pertinentes aos substantivos, ações e relações da fala: lista progressiva, número, contraste, seta ou demonstração real quando houver fonte. Não invente prova ou resultado. Audite cada estado no feed9:16 e recortes4:5/3:4, olhos e boca livres, título e complemento com hierarquia e sem palavra órfã. Confira duração final até90s, CTA literal completo, cortes, áudio/canais/truepeak e decodificação integral. Declare exatamente o que foi executado; não alegue escuta humana ou revisão independente inexistente. Sem música, EQ, compressor ou limiter nesta correção do dono.
+
+
+## Refinamento de fluidez, elementos e câmera, 15/10/2026 17:11
+
+O dono elogiou a direção visual da v1 e pediu outra edição completa: ainda havia erros/gaguejos e faltavam GIFs pertinentes e jogo de câmera perceptível. Elogio com ressalva não representa aprovação integral. Leia `references/revisao-fluidez-elementos-camera-2026-10-15.md` ao executar esse refinamento. Respeite a identidade própria desta skill.
+
+ASR é mapa, não revisão fonética: pode normalizar sílabas repetidas, falsos começos e muletas. Faça varredura de todas as frases selecionadas, incluindo respirações e as emendas internas, em vez de conferir apenas os erros já apontados. Examine áudio quando a ferramenta permitir; na ausência de escuta, combine janelas curtas sobrepostas, análise acústica e margem de fonema, registre a limitação e nunca declare todos os gaguejos removidos só porque a transcrição está limpa. Compare candidatos por fluidez, preserve a retomada literal mais completa e mantenha o CTA até o último fonema. Acelerar não corrige gaguejo; esta nova tentativa do EP2 usa velocidade natural.
+
+GIF/figurinha animada é recurso opcional, escolhido pelo substantivo, ação ou reação da fala. Demonstre que o arquivo anima no render, entra na palavra e sai com a troca do assunto. Identifique ilustração criada como ilustração; não use animação ou imagem genérica como prova de resultado. Falta de fonte real para contrato ou valor permanece limite, nunca vira print inventado.
+
+Para câmera, a prova é o MP4 decodificado: compare começo/meio/fim de cada trajetória com a imagem fonte, além das duas bordas de cada emenda. Meça ou mostre escala/posição realmente realizadas; registre inversão, tremor, reset ou ausência de progressão. Trocar algoritmo exige repetir a prova curta do movimento. Push-in lento deve ser perceptível e terminar antes da fala para permitir permanência; recuo e punch precisam de motivo próprio. Preserve escala e posição em cortes de limpeza. Não alternar automaticamente por corte. Abertura estática permanece. Nova edição completa autoriza esses movimentos; take fixo de um ajuste de texto não congela uma edição posterior autorizada.
