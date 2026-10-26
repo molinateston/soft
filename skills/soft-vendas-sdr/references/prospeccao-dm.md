@@ -246,7 +246,16 @@ Quando o lead passou pelo pré-qualificador e você avança pra marcar a call, u
 
 ## 8. Protocolo de confirmação pré-reunião
 
-Reduz no-show em 30–50%. Sempre 2 confirmações.
+Reduz no-show em 30–50%. Sempre 2 confirmações, mais a confirmação na hora do agendamento.
+
+**Confirmação 0, na hora do agendamento (jogadas 2 e 8 de `vender-a-sessao.md`):** logo depois que o lead escolhe o horário, o lead escreve o compromisso e a falta é antecipada, uma pergunta por mensagem:
+```
+Fechado. Só pra eu deixar certinho aqui: me confirma com suas palavras o dia e o horário que ficou pra você?
+```
+```
+Esse horário é tranquilo pra você ou tem risco de aparecer algo? Se tiver, prefiro trocar agora.
+```
+Não fecha com "combinado". Respondeu que é tranquilo: segue pras confirmações abaixo.
 
 **Confirmação 1, noite anterior (entre 19h e 21h):**
 ```
@@ -336,6 +345,8 @@ O anti-IA limpa o robô; o Crivo dá a força. Limpo não é forte. Os dois, nes
 ## Falas de campo: vender a reunião (comparecimento)
 
 A confirmação anti-no-show (protocolo da seção 8) é o piso, não o teto. Ela impede o lead de esquecer; **não é ela quem faz o lead querer estar lá**. O que enche a sala é o peso que a reunião carrega antes de acontecer. Quando o agendamento já cria expectativa e valor, o comparecimento deixa de depender de lembrete. As falas abaixo vieram de campo e cobrem isso: dar peso à reunião, prepará-la antes da hora, fazer o lead cravar o compromisso na boca dele, e puxar o follow-up pra dentro da própria call em vez de perseguir depois.
+
+**Por escrito (Direct, WhatsApp texto), vale a sequência de `vender-a-sessao.md`:** recapitula a dor e pega o "sim" (jogada 6), valor sem compra (7), convite com 2 horários, confirmação com as palavras do lead (2), antecipa a falta oferecendo a troca (8), especialista só com nome e papel ou fato aprovado pelo dono (9). As falas abaixo nasceram de ligação ao vivo: "faça chuva ou faça sol", "acordo firmado?" e "guardião da agenda" na boca de um agente ficam fora da mensagem escrita.
 
 ### Dar peso à reunião (jogo de Copa, não lembrete)
 **Fala real:**

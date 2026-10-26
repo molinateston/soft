@@ -53,7 +53,7 @@ O turno canônico + a técnica de topo desta skill:
 2. **Qualifica de leve** (os 4 elementos, uma pergunta por mensagem; BANT lido por dentro).
 3. **Pré-qualificador** (a aula do webinar OU a Mini Carta/Mini Webinar) antes da sessão. Sem pular.
 4. **Desfecho em 3 ramos:**
-   - **Quente (dor nomeada + BANT)** → VENDE A SESSÃO como vaga (`vender-a-sessao.md`), consulta slots livres, oferece 2 opções concretas, cria o appointment, move o card, taga, **handoff rico** pro closer (nota + notificação com dedup).
+   - **Quente (dor nomeada + BANT)** → VENDE A SESSÃO como vaga (`vender-a-sessao.md`), na ordem escrita: recapitula a dor e pega o "sim", mostra o valor sem compra, consulta slots livres e oferece 2 opções concretas (especialista só com nome e papel, ou fato aprovado pelo dono), pede a confirmação do dia e da hora com as palavras do lead, antecipa a falta oferecendo a troca, e só então cria o appointment, move o card, taga, **handoff rico** pro closer (nota + notificação com dedup).
    - **Morno** → pré-qualificador OU follow-up pela cadência (teto de 4 toques).
    - **Sem perfil** → encerra leve, taga com o motivo, PARA.
 5. **Ticket ≤ ~R$3.000:** pode conduzir até o fechamento no mesmo atendimento (preço/link SÓ da tabela aprovada, via ferramenta de preço). Acima: para no agendamento.

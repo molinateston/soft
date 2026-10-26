@@ -22,6 +22,8 @@ O SDR do método **não vende pela conversa de abordagem**. Ele abre, qualifica 
 [Abordagem/resposta] → qualifica de leve → pré-qualificador → volta esquentado → vende a SESSÃO → handoff pro closer
 ```
 
+Vender a SESSÃO por escrito tem ordem própria (`vender-a-sessao.md`, uma pergunta por mensagem): recapitula a dor e pega o "sim" → valor sem compra → convite com 2 horários → confirmação do dia e da hora com as palavras do lead → antecipa a falta oferecendo a troca. O especialista entra só com nome e papel, ou com um fato que o dono aprovou.
+
 Regras invioláveis do topo:
 - ❌ A abordagem **nunca** tenta fechar venda de produto (isso é do closer, acima do limiar).
 - ❌ A abordagem **nunca** oferece a sessão a seco pro lead frio (perde o filtro, agenda quem cancela).
@@ -114,7 +116,7 @@ Regras do pedido de retorno:
 Se não fez sentido, sem problema, me fala que eu sumo.
 Se fez, me conta o que mais te chamou atenção.
 ```
-Se o lead volta esquentado → o SDR retoma pela dor e caminha pra vender a SESSÃO (`vender-a-sessao.md`).
+Se o lead volta esquentado → o SDR retoma pela dor e caminha pra vender a SESSÃO (`vender-a-sessao.md`), começando pela recapitulação: "Deixa eu ver se entendi: hoje [a dor nas palavras dele, em uma linha]. É isso?". O convite só vem depois do "sim".
 
 Se o pré-qualificador **não existe** no projeto: o SDR avisa o dono que precisa construir primeiro (a Mini Carta / Mini Webinar sai da `soft-funil-carta` / `soft-funil-miniwebinar`). Sem pré-qualificador, o topo trabalha só com quem já chega quente do sinal ativo.
 
@@ -185,5 +187,7 @@ Se o **meio está ruim** (poucos agendamentos qualificados chegando ao closer): 
 - [ ] Tom de conversa, não de pitch?
 - [ ] Nenhum jargão de marketing no texto?
 - [ ] Zero oferta de sessão a seco pro lead ainda frio?
+- [ ] Se é convite pra sessão: recapitulei a dor e recebi o "sim" antes?
+- [ ] Se o lead escolheu o horário: pedi a confirmação com as palavras dele (e não fechei com "combinado") e antecipei a falta oferecendo a troca?
 
 Qualquer "não" → reescreve antes de enviar.

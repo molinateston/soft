@@ -30,7 +30,7 @@ Todo lead está em UM estado, classificado por dados do CRM (tags, campos, compr
 |---|---|---|
 | **Frio** | monossilábico, sem dor | 1 tentativa pela dor; senão cadência lenta |
 | **Morno** | conversa andando, dor aparecendo, sem BANT claro | conduz o diagnóstico, aprofunda |
-| **Quente** | dor nomeada + budget + decide + agora | oferece a sessão AGORA, agenda |
+| **Quente** | dor nomeada + budget + decide + agora | oferece a sessão AGORA: recapitula a dor e pega o "sim", valor sem compra, 2 horários, confirmação com as palavras dele, antecipa a falta |
 | **Agendado** | sessão marcada | confirma véspera, prepara o closer |
 | **Sem perfil** | sem budget/dor/decisão | encerra leve, taga, PARA |
 
@@ -51,7 +51,8 @@ Só pra lead COM perfil que não fechou o passo. Nunca pra quem disse não.
 
 ## Confirmação de sessão (no-show é dinheiro no chão)
 
-- Confirmação na véspera ("amanhã às [hora] tá de pé? responde SIM que eu garanto teu horário").
+- Confirmação na hora do agendamento, por escrito: o lead escreve o dia e o horário com as palavras dele ("me confirma com suas palavras o dia e o horário que ficou pra você?"), nunca um "combinado" do agente. Logo depois, antecipa a falta oferecendo a troca na mesma frase ("esse horário é tranquilo pra você ou tem risco de aparecer algo? se tiver, prefiro trocar agora"). Jogadas 2 e 8 de `vender-a-sessao.md`.
+- Confirmação na véspera ("amanhã às [hora] tá de pé? responde SIM que eu garanto teu horário. Se apertou, me fala agora que eu troco").
 - Lembrete leve em cima da hora se não confirmou.
 - No-show → reagenda 1x pela dor; segundo no-show → volta pra morno.
 - Benchmark de mercado: show rate saudável de reunião bem qualificada fica em **75-85%** ([tamtotarget.com](https://tamtotarget.com/sdr-meeting-benchmarks/)). Abaixo de 70%, o problema é peso da sessão (ver `vender-a-sessao.md`), não agenda.

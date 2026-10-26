@@ -62,21 +62,46 @@ Regras da árvore: uma pergunta por mensagem · a resposta de cada elemento abre
 
 ## 3. Templates de agendamento e lembrete
 
-### Oferta de horário (sempre 2 opções concretas, nunca "quando você pode?")
-```
-Pelo que você me contou de [dor nomeada], faz sentido a gente sentar [30min] e te mostrar
-exatamente como resolver isso. Tenho [dia às hh] ou [dia às hh]. Qual fica melhor?
-```
+Ordem por escrito (jogadas 6, 7, 2 e 8 de `vender-a-sessao.md`): recapitula, mostra o valor, convida com 2 horários, pede a confirmação escrita, antecipa a falta. Uma pergunta por mensagem, e cada passo só vem depois da resposta do lead ao anterior.
 
-### Confirmação imediata (na hora do agendamento)
+### 1. Recapitulação (jogada 6, antes de qualquer convite)
 ```
-Fechado: [dia], às [hora], com [closer/dono]. Vou te mandar o link aqui.
-Anota na agenda que essa conversa vale a pena chegar inteiro.
+Deixa eu ver se entendi: hoje [a dor nas palavras dele, em uma linha]. É isso?
 ```
+Sem o "sim", não tem convite: volta pra pergunta que faltou.
+
+### 2. Valor sem compra (jogada 7)
+```
+A conversa serve pra você sair com [ganho concreto que a sessão sempre entrega], fechando algo ou não.
+Faz sentido pra você?
+```
+O ganho é concreto e verdadeiro. "Vai valer muito a pena" é promessa e fica fora.
+
+### 3. Oferta de horário (sempre 2 opções concretas, nunca "quando você pode?")
+```
+Quem conduz é [nome], [papel].
+Tenho [dia às hh] ou [dia às hh]. Qual fica melhor?
+```
+Especialista (jogada 9): só nome e papel. Um fato sobre ele entra só se o dono aprovou por escrito; sem isso, nada de adjetivo nem caso inventado.
+
+### 4. Confirmação com as palavras dele (jogada 2, na hora do agendamento)
+```
+Fechado. Só pra eu deixar certinho aqui: me confirma com suas palavras o dia e o horário que ficou pra você?
+```
+Não fecha com "combinado": quem escreve o compromisso se compromete mais do que quem responde "ok".
+
+### 5. Antecipação da falta (jogada 8, logo depois da confirmação)
+```
+Esse horário é tranquilo pra você ou tem risco de aparecer algo? Se tiver, prefiro trocar agora.
+```
+A troca vai oferecida na mesma frase, pra não soar como cobrança. Respondeu que é tranquilo: aí sim manda o link aprovado.
+
+Fica fora por escrito: "faça chuva ou faça sol", "acordo firmado?", "guardião da agenda" na boca do agente e qualquer custo da reunião jogado no lead.
 
 ### Véspera
 ```
 [Nome], amanhã às [hora] tá de pé? Responde SIM que eu garanto teu horário.
+Se apertou, me fala agora que eu troco.
 ```
 
 ### Em cima da hora (1h antes)

@@ -15,7 +15,7 @@ Regra dura: **o SDR nunca fala preço de produto pra vender a sessão.** Preço 
 
 ---
 
-## As 5 jogadas de campo (falas reais pra adaptar)
+## As 9 jogadas de campo (falas reais pra adaptar)
 
 ### 1. Dar peso à sessão (jogo de Copa, não lembrete)
 **Fala real:**
@@ -55,6 +55,51 @@ Regra dura: **o SDR nunca fala preço de produto pra vender a sessão.** Preço 
 
 **Por que funciona:** o follow-up nasce de uma dúvida que ficou em aberto. Quando o SDR já cria expectativa e peso na sessão (as jogadas 1 e 2), o comparecimento deixa de depender de lembrete. E ao dar peso, a sessão vira o lugar onde a decisão acontece, não uma etapa de um vai-e-vem sem fim. O SDR não persegue quem não crava: se a pessoa não sabe dizer por que compareceria, o adiamento é um não educado.
 
+> As jogadas 6 a 9 vieram do reel do Igor Mello (@igormelloeu) sobre "SDR faixa preta", estudado em 26/10/2026 a pedido do dono. Núcleo do reel: "Colocar um compromisso na agenda não significa um lead comprometido."
+
+### 6. Recapitular a dor e pegar o "sim" antes do convite
+**Fala real:**
+> "Hoje você tem todos os desafios que a gente falou, que é X, Y, Z, correto?" / "Sim, correto."
+
+**Por que funciona:** o convite passa a responder a uma dor que o próprio lead acabou de confirmar, e não a uma suposição do SDR. O "sim" é o primeiro compromisso pequeno antes do grande (a sessão).
+
+**Modelo pra adaptar:** "Deixa eu ver se entendi: hoje [a dor nas palavras dele, em uma linha]. É isso?" Só depois do "sim" vem o convite.
+
+### 7. Mostrar o que a sessão vale mesmo sem compra
+**Fala real:**
+> "No pior dos casos essa reunião vai ser uma aula de negócio."
+
+**Por que funciona:** tira o medo de "vou ser empurrado pra comprar" e dá um motivo próprio pra comparecer. Só vale se o ganho for concreto e verdadeiro; "vai valer muito a pena" é promessa de resultado e fica fora.
+
+**Modelo pra adaptar:** "A conversa serve pra você sair com [ganho concreto que a sessão sempre entrega, ex.: um mapa de onde a IA entra na sua operação], fechando algo ou não. Faz sentido pra você?"
+
+### 8. Antecipar a falta antes que ela aconteça
+**Fala real:**
+> "Eu sei que tu não falou, mas eu tô antecipando. Tem chance de tu não comparecer?"
+
+**Por que funciona:** quem admite o risco na hora troca o horário em vez de sumir. O no-show vira remarcação antes de queimar o slot do closer.
+
+**Modelo pra adaptar:** "Esse horário é tranquilo pra você ou tem risco de aparecer algo? Se tiver, prefiro trocar agora." Em canal escrito, sempre com a troca oferecida na mesma frase, pra não soar como cobrança.
+
+### 9. Apresentar o especialista com fato, nunca com adjetivo
+**Fala real:**
+> "O jogo do SDR é vender o especialista."
+
+**Por que funciona:** o lead comparece pra encontrar alguém que já resolveu o problema dele. Um fato verificável (o que o especialista faz, com que tipo de empresa trabalha, um caso real) pesa mais que "a hora mais cara" ou "botar no pedestal", que soam exagero.
+
+**Modelo pra adaptar:** "Quem conduz a conversa é [nome]. [Fato concreto aprovado pelo dono]." O fato precisa estar aprovado pelo dono antes de ir pra qualquer mensagem; sem fato aprovado, só o nome e o papel.
+
+---
+
+## No Direct escrito (Instagram, WhatsApp texto)
+
+As falas acima nasceram de ligação ao vivo. Por escrito, com quem só comentou uma palavra, a mesma dureza vira cobrança. A ideia fica, o tom muda:
+
+- **Confirmação com as palavras dele (jogada 2):** depois que o lead escolhe o horário, o SDR não fecha com "combinado". Pede que ele mesmo escreva: "Fechado. Só pra eu deixar certinho aqui: me confirma com suas palavras o dia e o horário que ficou pra você?" Escrever o compromisso pesa mais que responder "ok".
+- **Sequência quebrada:** recapitulação (6), valor (7), convite com 2 horários, confirmação escrita (2), antecipação da falta (8). Uma pergunta por mensagem, sem pular a resposta do lead.
+- **Fica fora por escrito:** "faça chuva ou faça sol", "acordo firmado?", "guardião da agenda" quando quem fala é um agente de IA (soa encenado), e qualquer custo de aquisição ("cada reunião custa R$ X"), que põe culpa no lead, é número sem prova e leva dinheiro pra conversa fria.
+- **Limites da casa valem por cima:** sem preço na DM fria, só o link aprovado, máximo de 2 mensagens sem resposta, horário de silêncio.
+
 ---
 
 ## O convite pra sessão (quando o lead já esquentou)
@@ -90,3 +135,8 @@ Se responde baixo (abaixo de 7) → **não agenda ainda**. Volta pra Implicaçã
 | Dar preço de produto pra vender a sessão | Vira caça-preço, o lead some com o número | Analogia do restaurante: preço é assunto da sessão |
 | Handoff raso ("tá quente") | O closer entra perdendo, joga fora o trabalho | Nota rica: dor, Problema Avançado, BANT, o que falta |
 | Agendar lead frio (nota baixa) | Vira no-show, queima o slot do closer | Só agenda quente; morno volta pra Implicação/follow-up |
+| Convidar sem recapitular a dor | O convite responde a uma suposição | Recapitula em 1 linha e pega o "sim" (jogada 6) |
+| Fechar o agendamento com "combinado" | O lead não se comprometeu com nada | Pede dia e hora escritos com as palavras dele (jogada 2) |
+| Descobrir a falta só no dia | Slot do closer queimado | Antecipa e oferece a troca na hora (jogada 8) |
+| Vender o especialista com adjetivo | Soa exagero, o lead desconfia | Um fato aprovado pelo dono (jogada 9) |
+| Jogar o custo da reunião no lead | Culpa, número sem prova, dinheiro na conversa fria | Peso pela dor dele, nunca pelo custo nosso |
