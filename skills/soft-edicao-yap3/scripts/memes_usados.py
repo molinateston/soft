@@ -28,7 +28,7 @@ REGRA = ("memes nunca repetem os de episódio anterior da série. Este é o regi
 def caminho_registro():
     if os.environ.get("YAP_MEMES_USADOS"):
         return Path(os.environ["YAP_MEMES_USADOS"]).expanduser()
-    base = Path(os.environ["LEON_DATA_DIR"]).expanduser() if os.environ.get("LEON_DATA_DIR") else Path.home() / ".leon" / "dados"
+    base = Path(os.environ["LEON_DATA_DIR"]).expanduser() if os.environ.get("LEON_DATA_DIR") else Path("~/.leon/dados").expanduser()
     return base / "soft-edicao-yap3" / "memes-usados.json"
 
 

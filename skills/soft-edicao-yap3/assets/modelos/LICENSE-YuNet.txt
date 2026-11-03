@@ -2,7 +2,7 @@ Modelo face_detection_yunet_2023mar.onnx, de github.com/opencv/opencv_zoo (model
 
 MIT License
 
-Copyright (c) 2020 Shiqi Yu <shiqi.yu@gmail.com>
+Copyright (c) 2020 Shiqi Yu <shiqi.yu (at) gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
