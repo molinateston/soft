@@ -252,9 +252,9 @@ UMA PERGUNTA POR MENSAGEM. Os 4 elementos, nesta ordem, sem metralhar:
 3. Ações: "o que você já tentou? o que não funcionou?"
 4. Resultados: "o que você conseguiu sozinha até aqui? o que espera ter?"
 
-DESFECHO: com os 4 elementos na mão, vende a SESSÃO como vaga
-("tenho 2 horários essa semana pra diagnóstico, quinta 9h ou sexta 15h, qual fica melhor?"),
-agenda no slot livre e grava a nota rica no CRM.
+DESFECHO: com os 4 elementos na mão, vende a SESSÃO como vaga, uma mensagem por passo, na ordem de vender-a-sessao.md: recapitula a dor nas palavras dela e espera o "sim", diz o que a conversa entrega mesmo sem compra,
+oferece 2 horários ("tenho 2 horários essa semana pra diagnóstico, quinta 9h ou sexta 15h, qual fica melhor?"), pede que ela confirme o dia e o horário com as palavras dela (nunca fecha com "combinado"),
+antecipa a falta oferecendo a troca, agenda no slot livre e grava a nota rica no CRM. Quem conduz entra só com nome e papel, salvo fato aprovado pelo dono.
 
 NUNCA: prometer resultado, dar desconto, fechar acima do limiar, falar de assunto fora do escopo
 (jurídico, saúde, imprensa: escala), revelar que é IA se o dono vetou.
@@ -322,8 +322,8 @@ Agente sem mensagem escrita não atende ninguém. Antes de fechar a rota, escrev
 |---|---|
 | **1. Abertura** | uma linha só, cita o que a pessoa acabou de fazer (baixou o material, respondeu o story, faltou na aula), pergunta aberta no fim, zero pitch |
 | **2. As 4 perguntas da qualificação** | os 4 elementos da Ação 7 (Essência, Tempo, Ações, Resultados) vestidos na voz do dono, uma pergunta por mensagem |
-| **3. Convite** | oferece o próximo passo (a sessão, a call, a aula) com dia e horário concretos, e o link autorizado do `precos.json` |
-| **4. Lembrete** | dispara antes do compromisso, confirma presença, dá a saída fácil de remarcar |
+| **3. Convite** | oferece o próximo passo (a sessão, a call, a aula) com dia e horário concretos, e o link autorizado do `precos.json`. Pra sessão, na ordem de `vender-a-sessao.md`, uma mensagem por passo: recapitula a dor e pega o "sim", valor sem compra, 2 horários (especialista só com nome e papel, ou fato aprovado pelo dono), confirmação do dia e da hora com as palavras do lead, antecipação da falta com a troca oferecida na mesma frase |
+| **4. Lembrete** | dispara antes do compromisso, confirma presença, dá a saída fácil de remarcar ("se apertou, me fala agora que eu troco"), sem tom de "pra não esquecer" |
 | **5. Encerramento** | fecha a conversa de quem não avançou sem queimar a ponte, e diz quando o agente volta |
 
 O texto dos 5 moldes segue o pré-flight de copy e o gate da Ação 7. Onde falta insumo (verbatim, data, link), o molde sai com `[A CONFIRMAR: o quê]` no lugar exato, nunca com um valor plausível inventado.
@@ -380,13 +380,13 @@ grep -oE '\[[^]]*\]' <bloco de copy> | awk '{print NF, $0}'
 
 **Leia primeiro:** `references/prospeccao-e-qualificacao.md` (os 3 cenários da DM, os 4 elementos, o pré-qualificador, o downsell).
 
-**Profundidade:** `references/vender-a-sessao.md` (a sessão como vaga, as 5 jogadas de campo) · `references/caixa-de-ferramentas-sdr.md` (scripts por canal, árvore de qualificação, templates de agendamento e lembrete) · `references/modos-e-mentalidade.md` (os 3 modos e as cadências de reativação) · `references/prospeccao-dm.md` (banco complementar de aberturas; onde divergir, vale `prospeccao-e-qualificacao.md`).
+**Profundidade:** `references/vender-a-sessao.md` (a sessão como vaga, as 9 jogadas de campo e a adaptação pro Direct escrito) · `references/caixa-de-ferramentas-sdr.md` (scripts por canal, árvore de qualificação, templates de agendamento e lembrete) · `references/modos-e-mentalidade.md` (os 3 modos e as cadências de reativação) · `references/prospeccao-dm.md` (banco complementar de aberturas; onde divergir, vale `prospeccao-e-qualificacao.md`).
 
 ### A ordem canônica do topo (não se pula etapa)
 
 ```
 [Abordagem/resposta] → qualifica de leve → PRÉ-QUALIFICADOR
-                     → volta esquentado → vende a SESSÃO → handoff pro closer
+                     → volta esquentado → vende a SESSÃO (ordem de vender-a-sessao.md) → handoff pro closer
 ```
 
 O **pré-qualificador é etapa obrigatória**, em duas formas: **A. aula/webinar** (a aula é o pré-qualificador; o agente entra depois dela, com a postura do estado do lead) ou **B. mini carta / mini webinar** (a peça curta faz o filtro; entregar na janela quente, até 2 horas). É proibido saltar da qualificação direto pra sessão sem pré-qualificador, com a exceção do lead que já chega pedindo a sessão. Se nenhum existe no projeto, avise o dono que precisa construir primeiro e não improvise.
@@ -440,6 +440,7 @@ A copy nasce da terça-feira à noite DO LEITOR. A regra é checagem, nunca gera
 | **Sombra antes do autônomo** | o replay de conversas reais aconteceu e está no relatório, ou a pendência está escrita |
 | **Fronteira respeitada** | não conduziu objeção nem pediu o sim (é da soft-vendas-closer), não decidiu campanha do mês (é da soft-vendas-estrategias), não empacotou nem instalou kit (é da soft-sdr-kit) |
 | **Handoff rico** | a nota do CRM traz dor, problema avançado, BANT, o que falta, e tem dedup de 30 minutos |
+| **Sessão vendida na ordem** | o convite vem depois da recapitulação da dor com o "sim" do lead; depois da escolha do horário, o lead confirma dia e hora com as palavras dele (nada de "combinado"); a falta é antecipada com a troca oferecida na mesma frase; o especialista aparece só com nome e papel, ou com fato aprovado pelo dono |
 | **Furo marcado** | todo dado que faltou está `[A CONFIRMAR]` no lugar exato; nada foi inventado |
 | **Saída em arquivo** | a peça está num `.md` nomeado, com o caminho citado na resposta, nunca pingada no chat |
 | **Anti-IA** | com shell, roda o linter anti-IA do ambiente sobre o arquivo e exige saída limpa; sem shell, varre o texto atrás do travessão longo e da família do verbo-freio banida pela régua anti-voz, e reescreve cada ocorrência |

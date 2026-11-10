@@ -95,10 +95,22 @@ Um turno real do simulador, pra mostrar a forma:
 > **Lead:** *"agora. não aguento mais"*
 > **Agente:** *"O que você já tentou? O que não funcionou?"*
 > **Lead:** *"planilha, contratei um gerente, larguei as duas"*
-> **Agente:** *"Isso eu vejo muito. Tenho 2 horários de diagnóstico essa semana, quinta 9h ou sexta 15h. Qual fica melhor?"*
+> **Agente:** *"Deixa eu ver se entendi: hoje a clínica fatura mais que no ano passado e mesmo assim não sobra nada no fim do mês. É isso?"*
+> **Lead:** *"isso"*
+> **Agente:** *"A conversa de diagnóstico serve pra você sair com o mapa de onde o dinheiro da clínica está saindo, fechando o programa ou não. Faz sentido pra você?"*
+> **Lead:** *"faz"*
+> **Agente:** *"Quem conduz é a própria dona da consultoria. Tenho quinta 9h ou sexta 15h. Qual fica melhor?"*
+> **Lead:** *"sexta"*
+> **Agente:** *"Fechado. Só pra eu deixar certinho aqui: me confirma com suas palavras o dia e o horário que ficou pra você?"*
+> **Lead:** *"sexta às 15h"*
+> **Agente:** *"Esse horário é tranquilo pra você ou tem risco de aparecer algo? Se tiver, prefiro trocar agora."*
+> **Lead:** *"tranquilo, sexta de tarde a clínica fecha mais cedo"*
 
 Repare: nenhum valor apareceu, uma pergunta por mensagem, e a sessão foi oferecida como vaga, não
-como pedido.
+como pedido. A ordem é a de `vender-a-sessao.md` por escrito: recapitulação com o "sim" (jogada 6),
+valor sem compra (7), 2 horários, confirmação com as palavras dela (2) e antecipação da falta com a
+troca oferecida (8). A dona entra só com o papel, porque nenhum fato sobre ela foi aprovado pra
+mensagem (jogada 9).
 
 **STOP.** Ela aprovou depois de trocar uma frase.
 
