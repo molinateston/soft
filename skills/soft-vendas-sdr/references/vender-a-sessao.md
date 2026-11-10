@@ -55,8 +55,6 @@ Regra dura: **o SDR nunca fala preço de produto pra vender a sessão.** Preço 
 
 **Por que funciona:** o follow-up nasce de uma dúvida que ficou em aberto. Quando o SDR já cria expectativa e peso na sessão (as jogadas 1 e 2), o comparecimento deixa de depender de lembrete. E ao dar peso, a sessão vira o lugar onde a decisão acontece, não uma etapa de um vai-e-vem sem fim. O SDR não persegue quem não crava: se a pessoa não sabe dizer por que compareceria, o adiamento é um não educado.
 
-> As jogadas 6 a 9 vieram do reel do Igor Mello (@igormelloeu) sobre "SDR faixa preta", estudado em 26/10/2026 a pedido do dono. Núcleo do reel: "Colocar um compromisso na agenda não significa um lead comprometido."
-
 ### 6. Recapitular a dor e pegar o "sim" antes do convite
 **Fala real:**
 > "Hoje você tem todos os desafios que a gente falou, que é X, Y, Z, correto?" / "Sim, correto."
