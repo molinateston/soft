@@ -1,0 +1,72 @@
+{
+  "_uso": "Catálogo de provedores conhecidos. Cada bloco segue as regras do cadastro motores-api.json do LEON: o campo chave leva só o NOME da variável, nunca o valor. 'Testado' quer dizer: houve chamada real com chave verdadeira em 23/11/2026, NESTE endereço e com ESTE modelo. 'Não testado' quer dizer: nenhuma chamada real registrada neste endereço; uso do mesmo fabricante por outra rota (por exemplo pelo OpenRouter) não conta. Nomes e preços mudam: confira no painel.",
+  "provedores": [
+    {
+      "escolha": "deepseek", "precisa_tradutor": false,
+      "teste_real": "testado em 23/11/2026, direto em api.deepseek.com: deepseek-v4-pro e deepseek-flash",
+      "onde_pegar_chave": "platform.deepseek.com, menu API Keys",
+      "bloco": {"id": "deepseek", "nome": "DeepSeek", "atalhos": ["deepseek"], "url": "https://api.deepseek.com/anthropic", "chave": "MOTOR_DEEPSEEK_API_KEY",
+        "modelo": "deepseek-v4-pro", "modelos": ["deepseek-v4-pro", "deepseek-flash"], "modelo_rapido": "deepseek-flash", "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "glm", "precisa_tradutor": false,
+      "teste_real": "testado em 23/11/2026, direto em api.z.ai: glm-5.3 e glm-5.3-flash (glm-5.2 não testado)",
+      "onde_pegar_chave": "z.ai, área de API Keys da conta",
+      "bloco": {"id": "glm", "nome": "GLM (Z.ai)", "atalhos": ["glm", "zai"], "url": "https://api.z.ai/api/anthropic", "chave": "MOTOR_GLM_API_KEY",
+        "modelo": "glm-5.3", "modelos": ["glm-5.3", "glm-5.2", "glm-5.3-flash"], "modelo_rapido": "glm-5.3-flash", "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "openrouter", "precisa_tradutor": false,
+      "teste_real": "testado em 23/11/2026 pelo openrouter.ai: os 9 modelos desta lista",
+      "onde_pegar_chave": "openrouter.ai, menu Keys",
+      "bloco": {"id": "openrouter", "nome": "OpenRouter", "atalhos": ["openrouter"], "url": "https://openrouter.ai/api", "chave": "MOTOR_OPENROUTER_API_KEY",
+        "modelo": "minimax/minimax-m3.1-flash",
+        "modelos": ["minimax/minimax-m3.1-flash", "deepseek/deepseek-v4.1-flash", "z-ai/glm-5.3-flash", "minimax/minimax-m2.7", "moonshotai/kimi-k3.1-pro",
+          "openai/gpt-6-luna", "nvidia/nemotron-3-ultra-550b-a55b:free", "xiaomi/mimo-v2.6-flash", "tencent/hy4-flash"],
+        "modelo_rapido": "minimax/minimax-m3.1-flash", "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "minimax", "precisa_tradutor": false,
+      "teste_real": "NÃO testado no endereço direto api.minimax.io (os modelos MiniMax só foram testados pelo OpenRouter)",
+      "onde_pegar_chave": "platform.minimax.io, área de API Keys",
+      "bloco": {"id": "minimax", "nome": "MiniMax", "atalhos": ["minimax"], "url": "https://api.minimax.io/anthropic", "chave": "MOTOR_MINIMAX_API_KEY",
+        "modelo": "MiniMax-M3", "modelos": ["MiniMax-M3", "MiniMax-M3.1-Flash"], "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "kimi", "precisa_tradutor": false,
+      "teste_real": "NÃO testado no endereço direto api.moonshot.ai (Kimi só foi testado pelo OpenRouter)",
+      "onde_pegar_chave": "platform.kimi.ai, área de API Keys",
+      "bloco": {"id": "kimi", "nome": "Kimi (Moonshot)", "atalhos": ["kimi"], "url": "https://api.moonshot.ai/anthropic", "chave": "MOTOR_KIMI_API_KEY",
+        "modelo": "kimi-k3[1m]", "modelos": ["kimi-k3[1m]"], "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "fireworks", "precisa_tradutor": false,
+      "teste_real": "NÃO testado",
+      "onde_pegar_chave": "app.fireworks.ai, área de API Keys",
+      "bloco": {"id": "fireworks", "nome": "Fireworks", "atalhos": ["fireworks"], "url": "https://api.fireworks.ai/inference", "chave": "MOTOR_FIREWORKS_API_KEY",
+        "modelo": "accounts/fireworks/models/kimi-k3", "modelos": ["accounts/fireworks/models/kimi-k3", "accounts/fireworks/models/deepseek-v3p2"], "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "nvidia", "precisa_tradutor": true,
+      "teste_real": "NÃO testado",
+      "onde_pegar_chave": "build.nvidia.com, botão de gerar API Key",
+      "bloco": {"id": "nvidia", "nome": "NVIDIA (via tradutor)", "atalhos": ["nvidia"], "url": "http://127.0.0.1:8798/nvidia", "chave": "MOTOR_NVIDIA_API_KEY",
+        "modelo": "minimaxai/minimax-m3.1-flash", "modelos": ["minimaxai/minimax-m3.1-flash"], "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "xai", "precisa_tradutor": true,
+      "teste_real": "NÃO testado",
+      "onde_pegar_chave": "console.x.ai, área de API Keys",
+      "bloco": {"id": "xai", "nome": "xAI Grok (via tradutor)", "atalhos": ["xai", "grok"], "url": "http://127.0.0.1:8798/xai", "chave": "MOTOR_XAI_API_KEY",
+        "modelo": "grok-4.7", "modelos": ["grok-4.7", "grok-4.20-0309-non-reasoning"], "esforco": false, "timeout_ms": 600000}
+    },
+    {
+      "escolha": "outro", "precisa_tradutor": false,
+      "explica": "Outro provedor que aceita o formato Anthropic (a página dele costuma dizer 'compatível com Anthropic' ou 'usar com o Claude Code'). Você informa nome, endereço (URL base, sem /v1/messages no fim) e o nome do modelo. A sua chave vai para esse endereço: confira o domínio na documentação oficial do provedor."
+    },
+    {
+      "escolha": "outro-openai", "precisa_tradutor": true,
+      "explica": "Provedor que só fala o formato OpenAI (a página fala em /chat/completions e não cita Anthropic). O LEON só conversa no formato Anthropic, então esse provedor precisa do tradutor, um programa que fica ligado no servidor e converte as mensagens. Ligar o tradutor e pôr o provedor nele é serviço do suporte. Depois disso, o bloco entra pela opção outro com o endereço http://127.0.0.1:8798/<nome>."
+    }
+  ]
+}
