@@ -60,7 +60,7 @@ Destilado da régua Flatline de desenho de tela pra webinar de alta conversão. 
 
 ## Regra 5, o molde do slide de CTA
 
-**A regra:** stack à esquerda linha a linha, total em fonte maior que o preço, contagem regressiva em destaque, um CTA só, link em faixa na cor de alerta do deck com texto na cor de link, o par de maior contraste da paleta do dono no rodapé.
+**A regra:** stack à esquerda linha a linha, total em fonte maior que o preço, contagem regressiva em destaque somente com prazo real, um CTA só, link em faixa na cor de alerta do deck com texto na cor de link, o par de maior contraste da paleta do dono no rodapé.
 
 **Por quê:** é o slide que fica mais tempo na tela e o único em que o lead executa uma ação enquanto olha, e cada elemento tem função de conversão. Stack linha a linha, porque o olho lê de cima pra baixo e acompanha a soma. Total maior que o preço, porque a comparação de tamanho faz metade do trabalho da ancoragem. Contagem regressiva em destaque, porque depois do link é o elemento que mais move: sem relógio visível, a urgência é só uma frase que o apresentador falou. Um CTA só, porque duas ações devolvem o lead pra decisão em vez de empurrar pra execução. Link numa faixa de alerta no rodapé, no par de maior contraste da paleta do dono, porque tem que ser impossível de perder por quem entrou nos últimos dois minutos.
 
@@ -91,3 +91,7 @@ Destilado da régua Flatline de desenho de tela pra webinar de alta conversão. 
 - **Emoji como fonte escalável.** Copia, cola e cresce sem perder qualidade, e resolve ilustração de quantidade (pessoas, relógios, casas) sem depender de ícone desenhado.
 - **Regra de três nas comparações.** Uma é caso, duas é coincidência, três é padrão. Sempre três colunas (2, 5 e 10 pessoas com os valores correspondentes), nunca duas.
 - **Riscado animado pra ancoragem.** O valor antigo aparece inteiro, o risco entra por clique e o novo valor nasce embaixo, na mesma tela.
+
+## A urgência visual depende de prazo real
+
+Contagem regressiva comercial só entra com prazo ou condição operacional real e confirmada. Sem esse fato, retire o contador e preserve hierarquia, stack e CTA do molde. Cronômetro para início da aula indica o início real, sem simular fechamento da compra. A ausência de prazo não autoriza inventar urgência para cumprir o layout.

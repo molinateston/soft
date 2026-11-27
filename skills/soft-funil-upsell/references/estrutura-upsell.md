@@ -14,7 +14,7 @@ O bump é um add-on pequeno e barato o bastante pra ser decisão de impulso. A p
 **Exemplo (Renata):** ela vende o Protocolo Base 40. O bump é o cardápio da semana simples por mais R$ 47, marcado no checkbox: quem vai treinar sem dor também quer saber o que comer, e é barato pra decidir na hora.
 
 ### Upsell (depois do comprar)
-A oferta que aparece na tela DEPOIS que o pagamento passou. A pessoa já é cliente, o cartão já foi capturado, e ela aceita com um clique. É pós-compra: a venda principal já fechou, e o upsell é a próxima oferta pra quem já disse sim.
+A oferta que aparece na tela DEPOIS que o pagamento passou. A pessoa já é cliente e aceita explicitamente o adicional, em um clique somente quando a plataforma permitir. É pós-compra: a venda principal já fechou, e o upsell é a próxima oferta pra quem já disse sim.
 
 O upsell é maior que o bump: é o próximo passo lógico, uma oferta mais completa ou mais aprofundada. Vale mais e resolve o desejo que a compra principal acabou de abrir.
 
@@ -27,15 +27,13 @@ O downsell existe porque um "não" ao upsell caro às vezes significa só "não 
 
 **Exemplo (Renata):** quem recusa o acompanhamento premium vê o downsell: uma call individual única de ajuste do treino por R$ 97, a versão essencial do acompanhamento, pra quem quer um empurrão sem o pacote mensal.
 
-## 2. A mecânica crítica: one-click
+## 2. O meio de pagamento define a mecânica
 
-O upsell aceito com um clique é a regra de ouro da máquina. O cartão já foi capturado na compra principal, então a pessoa aceita o upsell só clicando "sim, quero", sem digitar cartão de novo, sem novo checkout.
+Confira plataforma, forma de pagamento e documentação ou configuração disponível. One-click existe apenas quando o recurso permitir aceite válido do adicional sem nova coleta, com preço e consentimento explícitos. O cartão usado antes não comprova sozinho essa capacidade.
 
-**No momento em que a oferta faz a pessoa digitar o cartão de novo, deixa de ser upsell e vira uma segunda venda, que converte muito pior.** Cada campo a preencher é uma chance de a pessoa desistir. A fricção mata o upsell: quem já estava com o cartão guardado e viu uma tela de checkout nova fecha a aba.
+Sem suporte ao recurso, a oferta adicional continua sendo uma continuação comercial, com pagamento próprio declarado. Isso não autoriza rotular o fluxo como one-click. O acesso à compra principal independe do aceite do adicional. A recusa permanece visível e preserva a entrega contratada.
 
-O order bump segue a mesma lógica pelo outro lado: como entra no mesmo pagamento, a pessoa nem chega a sair da tela. Um clique no checkbox, e pronto.
-
-Regra prática: se a peça pós-compra exige uma tela de pagamento nova, ela está errada. Refaz como aceite de um clique.
+O bump entra no mesmo pagamento quando a plataforma permitir e a pessoa o selecionar. Não há seleção presumida nem cobrança sem aceite.
 
 ## 3. O princípio da continuação lógica (Russell Brunson)
 
@@ -82,8 +80,10 @@ Como usar: "no mercado, order bump costuma ser aceito por uma faixa grande dos c
 | Erro | Por que quebra |
 |---|---|
 | O upsell é um produto de outro assunto | Vira catálogo colado no checkout em vez de continuação; a pessoa não vê relação e recusa |
-| O upsell pede o cartão de novo | Vira segunda venda, a fricção derruba a conversão |
+| Prometeu one-click sem conferir recurso | Declare pagamento próprio ou use recurso confirmado |
 | O bump é caro | Mata o impulso; bump é decisão rápida, não uma segunda compra pensada |
 | O downsell insiste ou envergonha | Trata a recusa como erro e queima a confiança que a compra acabou de construir |
 | Inventou um produto que o dono não tem | A escada aponta um upsell que não existe no catálogo; marca `[A CONFIRMAR]` e leva ao dono |
 | Usou o número de mercado como promessa | Vira garantia de resultado que ninguém pode dar |
+
+Números históricos de mercado desta referência exigem recuperação da fonte e do contexto antes de uso externo. A revisão não mediu desempenho dos exemplos fictícios.

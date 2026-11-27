@@ -189,7 +189,7 @@ São duas páginas que andam juntas: a de captura (igual ao squeeze) e a de deli
 
 **Framework de copy:** SSS (Star-Story-Solution) ou Star-Chain-Hook.
 
-**Roteia pra irmã?** Se o pedido é a CARTA/VSL que vende no texto corrido, isso é `soft-funil-carta`. O advertorial é a página-ponte que entrega o leitor pra essa carta.
+**Roteia pra irmã?** Carta lida em silêncio vai para `soft-funil-carta`; roteiro falado de VSL vai para `soft-funil-vsl`. O advertorial é a página-ponte que entrega o leitor pra essa carta.
 
 **Exemplo de nicho fictício (treinador de cães):**
 
@@ -349,7 +349,7 @@ Nos três, o número de autoridade fica nas 5 primeiras linhas, logo sob a headl
 
 **Framework de copy:** PASTOR ou 12-step de VSL pro vídeo, com o arco-mãe da carta sendo o ADMA (ver nota em `frameworks-copy.md`).
 
-**Roteia pra irmã?** O ROTEIRO do VSL em texto corrido é `soft-funil-carta`. O SCRIPT da call de qualificação é `soft-vendas-closer`. Aqui você monta a página.
+**Roteia pra irmã?** O roteiro falado da VSL é `soft-funil-vsl`. O SCRIPT da call de qualificação é `soft-vendas-closer`. Aqui você monta a página.
 
 **Exemplo de nicho fictício (consultor de sucessão de empresa familiar):**
 
@@ -551,3 +551,9 @@ Todo tipo, sem exceção, passa pelo gate inline do SKILL.md bloco a bloco (uma 
 A faca Soft vale em todo conteúdo que descreve método: descreve resultado e função, nunca o passo a passo executável que tira o especialista da jogada.
 
 Preço fora da peça por padrão (vai pro WhatsApp/comercial), salvo ticket baixo onde o preço visível acelera a compra. Nos tipos de captura, registro e qualificação não há preço do produto na página: a página vende a presença, o e-mail ou a conversa. A exceção é o ingresso do evento pago (molde longo pago), onde o preço do ingresso e os lotes entram com o dado do insumo.
+
+## A página de VSL pode vender direto
+
+Quando o objetivo for compra direta, não use automaticamente aplicação ou call. Receba o roteiro aprovado da `soft-funil-vsl` e a oferta vigente. Confira player, promessa, prova, rótulo literal do botão e destino de pagamento. CTA temporizado depende do marco observado no corte final. Sem esse corte, o marco continua pendente nas notas de operação.
+
+A página pode ser mínima ou ter apoio textual, conforme o objetivo e o teste do caso. Não existe vencedor presumido. O contrato de produção e a separação entre copy pública e notas estão em `../shared-references/contrato-argumento-prova.md`.

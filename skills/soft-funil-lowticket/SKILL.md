@@ -12,6 +12,9 @@ O low-ticket não é um produto barato pra faturar. É a porta de entrada paga p
 
 **O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem os arquivos da ação MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0. A última linha dessa saída vai colada no relato. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela.** O passo a passo da régua de títulos está em `shared-references/crivo/07-regua-de-titulos.md`.
 
+
+**Contrato de argumento e prova.** Antes da mini VSL, ligue diagnóstico, tese e prova à oferta real. Quiz não diagnostica condição não demonstrada e a peça curta não amplia a promessa do destino. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:

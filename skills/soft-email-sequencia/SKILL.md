@@ -24,6 +24,9 @@ Esta skill escreve a sequência de e-mail inteira e pronta pra configurar: o arc
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra as 4 ações num caso fictício de nicho neutro: o arco declarado, a tabela de visão geral, dois e-mails escritos por inteiro, o desenho da ramificação, a tabela de metas e o checklist de subida. Ler antes da primeira pergunta economiza uma rodada de retrabalho.
 
+
+**Contrato de argumento e prova.** No plano, associe cada mensagem a um argumento, uma evidência e um CTA. A sequência progride sem ampliar a promessa da oferta e sem repetir uma mesma razão em todos os envios. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz, e o padrão está em `references/09-conducao-agente.md` (as quatro partes). Na prática, aqui:

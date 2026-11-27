@@ -402,6 +402,7 @@ USO_TEXTO = """lint_copy.py, gate de COPY em codigo (anti-IA / anti-voz).
 uso:
   python3 scripts/lint_copy.py peca.md                        linta um arquivo (exit 1 se HARD)
   python3 scripts/lint_copy.py peca.md --ignore-code-blocks   ignora o conteudo dos blocos ``` (pra veredito que CITA o trecho reprovado)
+  python3 scripts/lint_copy.py a.md b.md                     linta todos; exit 1 se HARD, 2 se erro de leitura/opcao
   echo "texto..." | python3 scripts/lint_copy.py -            linta stdin
   python3 scripts/lint_copy.py --selftest                     roda o self-test (--self-test e --test valem igual)
   python3 scripts/lint_copy.py --help                         mostra esta ajuda
@@ -423,27 +424,45 @@ def _cli(argv):
             skip_fences = True
         else:
             restantes.append(a)
-    if not restantes or restantes[0] in ('--self-test', '--selftest', '--test'):
+    if not restantes:
         _selftest()
         return 0
-    arg = restantes[0]
-    if arg.startswith('--'):
-        print(f'opcao desconhecida: {arg}\n')
+    testes = ('--self-test', '--selftest', '--test')
+    if any(a in testes for a in restantes):
+        if len(restantes) != 1:
+            print('self-test deve ser usado sozinho')
+            return 2
+        _selftest()
+        return 0
+    # Valida todas as opcoes antes de ler; arquivo algum fica ignorado.
+    desconhecidas = [a for a in restantes if a.startswith('--')]
+    if desconhecidas:
+        print('opcao desconhecida: ' + ', '.join(desconhecidas))
         print(USO_TEXTO)
         return 2
-    try:
-        txt = sys.stdin.read() if arg == '-' else open(arg, encoding='utf-8').read()
-    except FileNotFoundError:
-        print(f'arquivo nao encontrado: {arg}\n')
-        print(USO_TEXTO)
-        return 2
-    if skip_fences:
-        txt = strip_code_blocks(txt)
-    # entidade HTML do travessao (&mdash; &#8212; &#x2014;) passava reto pelo gate:
-    # decodifica ANTES de lintar, senao o em-dash entra escapado e nao e visto.
     import html as _html
-    txt = _html.unescape(txt)
-    return _run(txt, 'stdin' if arg == '-' else arg)
+    resultado = 0
+    stdin_texto = None
+    for arg in restantes:
+        if len(restantes) > 1:
+            print(f'arquivo: {arg}')
+        try:
+            if arg == '-':
+                if stdin_texto is None:
+                    stdin_texto = sys.stdin.read()
+                txt = stdin_texto
+            else:
+                with open(arg, encoding='utf-8') as arquivo:
+                    txt = arquivo.read()
+        except (OSError, UnicodeError) as erro:
+            print(f'erro ao ler arquivo: {arg}: {erro}')
+            resultado = 2
+            continue
+        if skip_fences:
+            txt = strip_code_blocks(txt)
+        txt = _html.unescape(txt)
+        resultado = max(resultado, _run(txt, 'stdin' if arg == '-' else arg))
+    return resultado
 
 
 if __name__ == '__main__':

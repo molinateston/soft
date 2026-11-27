@@ -18,6 +18,9 @@ description: >-
 
 Esta skill não escreve copy. Ela AUDITA uma peça pronta e devolve um veredito em arquivo: aprovada, ou reprovada com a falha exata, o trecho que falhou, o motivo em uma linha e a reescrita sugerida. Quem chamou corrige e manda de novo, até passar.
 
+
+**Contrato de argumento e prova.** Na auditoria, confronte alegação, evidência, limite, transição e promessa até o destino. Para vídeo de vendas use `script_vsl`, sem tratar ritmo falado como carta. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## Primeiros passos (o que mandar, como pedir, o que volta)
 
 O agente mostra estes passos ao dono que chega sem nada pronto e pede uma coisa de cada vez. Quatro palavras que aparecem no arquivo inteiro: **veredito** é a resposta final (aprovada ou reprovada); **filtro** é cada régua que a peça atravessa (são 6); **lastro** é a prova de onde saiu cada número, nome e caso que a peça cita; **modo rigoroso** é a régua mais dura, com nota de 0 a 10.
@@ -88,7 +91,7 @@ A pergunta do modo é UMA por auditoria. As outras três partes entram nos filtr
 
 ### Os tipos de peça previstos
 
-`headline` · `capa` · `corpo` · `slide` · `script_reel` · `sequencia_stories` · `carta` · `landing_bloco` · `landing_completa` · `isca_copy` · `oferta` · `whatsapp` · `email` · `script_sdr` · `script_closer` · `pos_venda` · `bio` · `cta` · `linha de serviço`
+`headline` · `capa` · `corpo` · `slide` · `script_reel` · `script_vsl` · `sequencia_stories` · `carta` · `landing_bloco` · `landing_completa` · `isca_copy` · `oferta` · `whatsapp` · `email` · `script_sdr` · `script_closer` · `pos_venda` · `bio` · `cta` · `linha de serviço`
 
 **`linha de serviço`, regra estreita.** Só texto curto (até 3 linhas) cuja função é captar um sinal do leitor (caixinha de aceite, rodapé de caminhos, "responda tal palavra"). Nunca headline, gancho, capa, anúncio nem e-mail de venda, e nunca texto com promessa de resultado, argumento de venda (por que comprar, benefício), urgência ou escassez (hoje, últimas, vagas, prazo de oferta), desconto, garantia ou prova social (depoimento entre aspas, número de alunos): com qualquer um, vale o tipo da peça de verdade, com o rigor dela. Informação neutra do caminho (preço cheio, quantidade, duração, "sem custo" que só descreve) cabe. Na dúvida, o tipo mais rigoroso; declarado fora da regra, a skill troca o tipo e avisa em 1 linha. **Efeito:** o critério 1 (teste do concorrente) e o 3 (contraste) do filtro 6, o B de Boring e o modo rigoroso não pesam nela, e a Estrutura-mãe cobra só o Movimento; anti-IA, lastro e consentimento valem inteiros. O QUÊ e PRA QUEM (C de Confusão, regra dura de frase) se leem pelo lugar onde ela mora, a página ou o e-mail em volta descrito no pedido, nunca isolados: ela só reprova ali se o lugar não os dá ou se o contradiz; sem o lugar, a skill pergunta onde ela mora. O veredito traz `tipo: linha de serviço`, o `peça:` com o texto inteiro da linha (o `--conferir` lê esse texto) e o `resumo:` dizendo qual sinal ela capta e por que nenhuma promessa é esperada.
 
@@ -105,6 +108,10 @@ A pergunta do modo é UMA por auditoria. As outras três partes entram nos filtr
 **Passo 5 · Monta o veredito** no formato abaixo e salva o arquivo.
 
 **Passo 6 · STOP.** Quem chamou corrige e manda de novo. Loop até passar, com teto de 3 rodadas. Na terceira reprovação seguida, pare de sugerir e escale ao dono: "essa peça reprovou 3 vezes no mesmo filtro, olha as falhas e decide se ajusta a copy ou se o problema é a oferta."
+
+### Auditoria de roteiro de VSL
+
+Para `script_vsl`, leia `references/auditoria-script-vsl.md`. O veredito registra tese, fonte das alegações, pagamento de promessas narrativas, transições, oferta, CTA e execução audiovisual. O modo rigoroso e os seis filtros continuam obrigatórios.
 
 ### Modo rigoroso (padrão em peça de venda)
 
@@ -272,13 +279,14 @@ Todas as peças passam em todos os filtros. Estes são os pesos, pra a leitura f
 | corpo de carrossel | Estrutura-mãe (arco de 7 a 10 slides com os 6 movimentos) + anti-IA lexical | corrigível no feed educativo; bloqueante no carrossel que vende |
 | script de reel | CUB (C de Confusão, ele não pausa pra reler) + Estrutura-mãe comprimida | corrigível; bloqueante em anúncio |
 | sequência de stories | Estrutura-mãe (observação, interpretação, tese) + CUB (B, ele fura em 1 toque) | corrigível na rotina; bloqueante na sequência de venda |
+| script_vsl | Argumento, provas, promessas narrativas e contrato audiovisual em `references/auditoria-script-vsl.md`, mais os seis filtros | bloqueante |
 | carta, landing | Estrutura-mãe COMPLETA + CUB (U de Inacreditável em dobro) + Verbatim | bloqueante |
 | oferta | CUB (U, cada entregável mata uma objeção) + Verbatim (garantia real, preço ancorado) | bloqueante |
 | WhatsApp, e-mail | CUB (C, a mensagem se lê em 3 segundos no celular) + anti-IA (frase-ponte destrói intimidade) | bloqueante no e-mail de venda; corrigível no resto |
 | script de SDR | CUB (C, ele responde em 30 segundos ou não responde) + Estrutura-mãe na primeira mensagem | corrigível |
 | script de closer | Estrutura-mãe (Diagnóstico, Consequência, Movimento) + CUB (U na garantia) | bloqueante |
 
-Fora da tabela, no filtro 6: `isca_copy` e `cta` bloqueante; `slide` herda o da peça-mãe; `pos_venda` e `bio` corrigível; anúncio e roteiro de VSL encaixam em `headline` e `carta` e herdam o bloqueante. **Por quê:** onde a peça pede compra, cadastro ou dinheiro, promessa genérica não converte e não sai; onde a peça ensina ou acompanha, a falta de tensão de venda é escolha do formato e vira ajuste, nunca bloqueio.
+Fora da tabela, no filtro 6: `isca_copy` e `cta` bloqueante; `slide` herda o da peça-mãe; `pos_venda` e `bio` corrigível; anúncio encaixa em `headline`; roteiro de VSL usa `script_vsl`, ambos com peso bloqueante. **Por quê:** onde a peça pede compra, cadastro ou dinheiro, promessa genérica não converte e não sai; onde a peça ensina ou acompanha, a falta de tensão de venda é escolha do formato e vira ajuste, nunca bloqueio.
 
 ---
 

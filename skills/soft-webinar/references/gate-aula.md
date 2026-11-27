@@ -2,6 +2,12 @@
 
 > **CONTRATO VIGENTE (manda sobre este arquivo):** o output da Etapa AULA é o roteiro SLIDE A SLIDE, cada slide com TÍTULO + OBJETIVO + CONTEÚDO. A skill NÃO renderiza slides e NÃO entrega roteiro falado corrido. Onde este arquivo falar em "NOTA"/"copy falada", leia como material do apresentador/renderizador (fora do contrato de entrega); o que ele ensina sobre a TELA vale pro campo CONTEÚDO.
 
+## A prova precisa sustentar a passagem para a oferta
+
+Antes do veredito, confira a matriz de alegação, evidência, origem e limite em `../shared-references/contrato-argumento-prova.md`. A demonstração do mecanismo não vira resultado do comprador. Cada transição precisa explicar a ligação entre o ponto anterior e o seguinte. A promessa inicial, o aprendizado entregue, a oferta e o CTA mantêm condições compatíveis. Pendências ficam nas notas de operação.
+
+Este complemento resolve os conflitos do gabarito: sem casos de clientes, o pré-início usa a preparação prevista no SKILL.md e provas disponíveis com limite, sem inventar os depoimentos abaixo. Sem prazo comercial real, não entra contagem regressiva de fechamento. O molde visual permanece, com a condição inexistente retirada e a razão registrada. A oferta pode ser anunciada no cronograma, como prevê o guia validado; a ponte lógica continua necessária.
+
 ## Índice
 - O gate, check a check
 - Anti-Patterns (sintoma → correção)
@@ -20,7 +26,7 @@ Roda o gate no slide/bloco (ou no arco, quando entregar a aula inteira) **intern
 | **Big Idea / dominó** | UMA crença-dominó, formulada como nova oportunidade que eleva status (nunca melhoria); frase gravável que o lead digita; nega as objeções-mãe dentro da crença | |
 | **Régua-mãe das 4 Condições** | a tese do mecanismo e o porquê-do-webinar lideram pelas 4 Condições (tempo de tela · atenção presa · oferta vista · crença em sequência); ZERO "ambiente"/"recria o presencial"/"canal supremo" como tese = ✗ automático; "as 4 condições" como rótulo na tela, sem o dono usar esse nome = ✗ | |
 | **Mecanismo nomeado** | aponta pro mecanismo com o nome que o dono deu (SLOT do cliente); passou o GATE ANTI-RÓTULO (fenômeno concreto por baixo do nome). Nome de mecanismo, passo ou condição que o insumo não traz = ✗ (sem nome, o passo é descrito pelo que faz) | |
-| **Transição sem ser abrupta** | o pitch entra a pedido (recap → permissão → encruzilhada com caminho 1 decomposto); nunca "agora vem a parte comercial" | |
+| **Transição sem ser abrupta** | o pitch entra a pedido (recap → permissão → encruzilhada com caminho 1 decomposto); a transição explicita a relação entre aprendizado e oferta, sem ocultar que haverá convite comercial | |
 | **Oferta-STACK inteira** | a Ação apresenta a STACK INTEIRA (não só o produto); tripartição respeitada (módulos sem preço × cursos prateleira com preço × UM bônus sem preço); soma riscada item a item por clique, a pilha crescendo na tela; bônus dos 15 primeiros em camada SEPARADA do desconto (duas moedas); âncora ANTES do número; dupla ancoragem com a regra certa; "se tudo" antes do preço; queda com reason-why; redução ao ridículo com objeto real; rede pra quem perde a corrida; garantia do cardápio | |
 | **Q&A força decisão** | 5 plantadas na estrutura padrão; "maybe" tratado como inimigo; responde o estado, não a pergunta; takeaway qualifica comportamento; Genie em 1 resposta; FAQ operacional + rota de resgate | |
 | **C/U/B** | Concreto (cena/número) · Único (o concorrente não assina igual) · Benefício na moeda do avatar | |
@@ -30,7 +36,7 @@ Roda o gate no slide/bloco (ou no arco, quando entregar a aula inteira) **intern
 | **Hierarquia invertida (design)** | nenhum slide tem o TÍTULO como maior elemento da tela; a informação é a fonte maior e o rótulo fica pequeno num canto; nome/tagline/logo/foto do apresentador fora (exceto capa); preço nunca é o elemento gigante e quantidade vira objeto contável. **Título maior que o conteúdo = ✗ automático** (`design-persuasivo-slides.md`, Regra 1) | |
 | **Print real no lugar de metáfora (design)** | onde existe tela real da coisa (post, matéria, painel, documento, página da fonte com a linha grifada), o slide pede PRINT; imagem gerada por IA, banco de imagem ou ícone line-art ocupando o lugar de um print possível = ✗ automático; banco de imagem só onde a coisa real não existe em tela nenhuma; metáfora visual só se mantida do começo ao fim (Regra 2) | |
 | **Tela vista 3 vezes (design)** | todo slide de ensino aparece como teaser na agenda (slide dentro de slide, alguns cortados na borda), no ensino, e no recap. **Slide de ensino que não reaparece na agenda E no recap = ✗ automático**; agenda em lista de bullets no lugar do mosaico de telas reprova junto (Regra 3) | |
-| **Molde do slide de CTA (design)** | o slide de fechamento sai no molde: stack à esquerda linha a linha · total em fonte MAIOR que o preço · contagem regressiva em destaque · UM CTA só · link em faixa na cor de alerta do deck com texto na cor de link, o par de maior contraste da paleta do dono no rodapé. **Sem contagem regressiva, ou preço maior/igual ao total, ou mais de um CTA na tela = ✗ automático** (Regra 5) | |
+| **Molde do slide de CTA (design)** | o slide de fechamento sai no molde: stack à esquerda linha a linha · total em fonte MAIOR que o preço · contagem regressiva em destaque somente com prazo real · UM CTA só · link em faixa na cor de alerta do deck com texto na cor de link, o par de maior contraste da paleta do dono no rodapé. **Contagem regressiva sem prazo real, preço maior/igual ao total, ou mais de um CTA na tela = ✗ automático** (Regra 5) | |
 | **Anti-IA (HARD)** | zero travessão · zero verbo-freio banido (a família que a régua anti-voz proíbe; exceção: aspa literal do cliente) · sem frase-emoldura · sem verbo-clichê. **No chat (sem o lint), CTRL+F manual do travessão longo e do verbo-freio banido antes de marcar ✓.** | |
 | **VEREDITO** | **= o PIOR item acima.** Um ✗ qualquer = REFAZ. Só tudo-✓ = PASSA. | |
 
@@ -51,7 +57,7 @@ Se o ambiente tiver shell, roda `python3 scripts/lint_copy.py arquivo.txt` na fa
 | Organizou o Mecanismo em "3 viradas" / "inverter 3 crenças" | Invenção purgada: o Mecanismo é a sequência real (prático → nova oportunidade → fundamento → tabela de superioridade → batismo/prova-meta → lastro externo (só o que o dono citou) → capacidade ou ferramenta do dono (só a que ele tem) → 3 passos → quadro → recap). Crenças são munição dentro dela, não a arquitetura |
 | Inverteu a batida de ensino (prova/exemplo antes do "o que é") | A batida de 4 tempos é técnica de ensino por afirmação: o que é · por que · me prova · exemplo, nessa ordem |
 | Mecanismo de 10 min e Oferta de 5 min | O peso vem da consciência do público (entrevista), mas Mecanismo raso + fechamento encurtado floppa em qualquer consciência |
-| Pulou o pré-início (abriu já no conteúdo) | Pré-início OBRIGATÓRIO: cronômetro ~5min + 5-6 depoimentos por objeção + card de autoridade. Prova ANTES de argumento |
+| Pulou o pré-início (abriu já no conteúdo) | Pré-início obrigatório: preparação e cronômetro de início quando pertinente; com casos autorizados, depoimentos por objeção; sem casos, preparação e evidência disponível, sem fabricar clientes |
 | Abriu por "oi, seja bem-vindo" | O pior começo. Abre por pergunta-na-dor (slide 1) + check técnico (1º micro-compromisso) + título pelo que NÃO se faz + fascinations sem explicar |
 | Objeção-mãe respondida com prova de que é difícil | Humilha; concede competência e move pra escolha |
 | Tratou a objeção do iniciante igual à do maduro | Iniciante "não consigo" = prova de acessível; maduro "consigo" = concede→escolha |

@@ -17,6 +17,9 @@ Pedido sem modo dito: com o dono na conversa, entregue o brief e ofereça, numa 
 
 Nos comandos, `scripts/` é a pasta de scripts desta skill (com o caminho dela) e `trabalho/` mora na pasta onde o dono trabalha, nunca dentro da skill instalada.
 
+
+**Contrato de argumento e prova.** Antes do desenho, mapeie argumento, prova, transições e CTA ao roteiro validado. Fala permanece literal; pendência factual volta à origem. Preserve o guia visual e os verificadores existentes. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## Os três níveis de entrada
 
 **Roteiro completo** (slide a slide, com conteúdo de tela e fala): siga. No modo agente, um slide do roteiro vira quantos slides tiver ideias (passo Dividir); no brief, o roteiro vai como está.
@@ -30,8 +33,8 @@ O contrato do roteiro, aceito pelos dois modos:
 ### Slide 07 · Título do slide
 **Objetivo:** o que o slide faz
 **CONTEÚDO:**
-- linha de tela
-- FALTA: o que o insumo não traz
+- frase completa de tela fornecida no roteiro
+**FALTA:** o que o insumo não traz, fora da tela
 **NOTAS**
 FALA
   Abre com: ...

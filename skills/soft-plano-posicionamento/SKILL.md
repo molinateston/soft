@@ -30,6 +30,9 @@ Esta skill constrói um documento só, o **Plano de Posicionamento completo**: o
 
 ---
 
+
+**Contrato de argumento e prova.** Na pesquisa, entregue fala literal, contexto, gatilho, tentativa, falha percebida e condição de confiança, separados da interpretação. Na tese, preserve origem e limites. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:

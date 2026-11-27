@@ -44,6 +44,9 @@ Oferta que fecha não é uma lista de itens com preço. É a tese virando produt
 
 ---
 
+
+**Contrato de argumento e prova.** Antes da copy, feche promessa, escopo, prova, condições e capacidade operacional. Use a pesquisa já existente com origem recuperável e declare o que ainda é hipótese. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz, padrão em `shared-references/crivo/09-conducao-agente.md` (as quatro partes):

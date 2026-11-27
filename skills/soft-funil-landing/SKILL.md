@@ -1,7 +1,7 @@
 ---
 name: soft-funil-landing
 description: >-
-  Escreve e entrega PRONTA qualquer landing page: a copy bloco a bloco e a página em HTML de arquivo único (inscrição ou venda mais a página de obrigado), com o tipo e o tamanho escolhidos pelo objetivo do funil e pelo tráfego: captura, inscrição em aula, live ou webinar (curta, longa grátis, longa paga com lotes), entrega de isca, qualificação, vendas no texto, obrigado, replay, fila de espera, link na bio, preços, comparação, quiz, oferta pós-compra, 404. Use quando o pedido for: "faz a landing", "página de captura", "página de inscrição da minha aula", "página de vendas", "página do ingresso", "página de obrigado", "squeeze", "página de aplicação", "página de preços", "link na bio", "escreve o hero", "a página do meu produto", "página de replay". NÃO use pra: auditar o SEO de uma página que já está no ar, palavra-chave, título de busca (soft-seo-auditoria); a régua pós-isca (soft-funil-nutricao); as páginas do lançamento com carrinho (soft-launch); carrossel, reel e headline solta (soft-conteudo-*); a carta ou VSL em texto corrido (soft-funil-carta); o ATIVO da isca (soft-funil-isca); o webinar inteiro, com aula, oferta e mensagens (soft-webinar); página do mini-webinar (soft-funil-miniwebinar); arte de anúncio, carrossel ou PNG (soft-designer). Leia e siga o fluxo inteiro do SKILL.md.
+  Entrega landing page pronta, com copy e HTML de arquivo único: captura, inscrição em aula ou webinar, venda, replay, obrigado, preços, comparação, quiz e oferta pós-compra. Escolhe tipo e tamanho pelo objetivo e tráfego. Use para página de captura, inscrição, ingresso, vendas, hero, link na bio ou replay. Auditoria de SEO vai para soft-seo-auditoria; régua pós-isca para soft-funil-nutricao; lançamento com carrinho para soft-launch; carta em texto para soft-funil-carta; roteiro de vídeo para soft-funil-vsl; ativo de isca para soft-funil-isca; webinar completo para soft-webinar; miniwebinar para soft-funil-miniwebinar; arte para soft-designer. Leia o fluxo inteiro do SKILL.md.
 ---
 
 # Landing page, a decisão inevitável pro cliente certo
@@ -17,6 +17,9 @@ A página não convence. Ela organiza o argumento pra que o cliente certo chegue
 **A lei-mãe:** um objetivo, um botão dominante, zero menu de navegação. As três exceções deliberadas são 404, link na bio e página de comparação.
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra as ações num caso fictício de nicho neutro: o briefing respondido, o tipo declarado, uma página de captura escrita por inteiro (os 5 blocos, prontos pra colar), um bloco de página de vendas e o que o gate reprovou.
+
+
+**Contrato de argumento e prova.** Antes do outline, vincule promessa e prova ao objetivo selecionado; no render, confira o contrato de produção e a ação após o clique. Preserve os tipos de página e a conferência de tela. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
 
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
@@ -165,6 +168,7 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 | Recuperar quem sumiu | Replay | Slippery Slide |
 | Juntar fila | Fila de espera | 4Us |
 | Qualificar lead caro | Aplicação / qualificação | PASTOR · 12 passos |
+| Vender diretamente por vídeo | Página de VSL com destino de compra | Vídeo aprovado na soft-funil-vsl e apoio coerente |
 | Aumentar ticket pós-compra | Oferta pós-compra | PAS · The Reverse |
 | Centralizar o social | Link na bio | microcopy |
 | Mostrar planos | Preços | FAB |
@@ -172,6 +176,8 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 | Segmentar e capturar | Casca de quiz | curiosidade |
 | Resgatar quem caiu fora | 404 como landing | leve |
 | **Vender no texto** | **as 4 arquiteturas** (Ação 2.A) | ADMA |
+
+**Página de VSL de venda direta.** O roteiro pertence à `soft-funil-vsl`; aqui entram player, apoio, prova autorizada, CTA e destino. Confira a fala literal do CTA contra o rótulo do botão, preço, condições e ação após o clique. Se o botão for temporizado, use o marco observado no corte final, não duração estimada. Página mínima e posição do botão são hipóteses de teste, sem resultado presumido.
 
 ### Ação 2.A · ARQUITETURA (SÓ quando o objetivo é vender no texto)
 

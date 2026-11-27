@@ -18,6 +18,9 @@ A VSL é a carta de vendas falada. Ela filtra, explica e constrói desejo em ví
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra o fluxo inteiro no caso fictício da Renata (Studio Base 40): o pedido, as 3 fases de levantamento, o STOP de munição completa, o roteiro dos 19 blocos e um trecho na versão teleprompter.
 
+
+**Contrato de argumento e prova.** Entre levantamento e STOP, documente tese, alegações e provas; no gate, confira transições e tempo observado versus estimado. Preserve os 19 blocos. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:
@@ -64,7 +67,7 @@ Toda fase traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo*
 
 **O perfil do dono vem do banco do agente.** Onde a fase precisar de avatar, mecanismo nomeado, voz, oferta ou prova: leia do perfil/brain do agente quando existir; se não existir, faça a pergunta curta do "Sem o insumo" e siga com o que faltar marcado `[A CONFIRMAR: o quê]`. Nunca invente, nunca pare por causa disso.
 
-**Levantamento BLOQUEANTE antes de escrever (o STOP de munição em forma verificável, e é COMANDO, nunca de memória).** Antes de escrever o roteiro, LEIA o perfil e os insumos do dono e cole no dossiê uma linha por dado-chave, nesta forma: `<campo> | <valor encontrado> (<arquivo>:<trecho>) | ou [A CONFIRMAR] só se o ls/leitura devolveu vazio`. Os campos-chave: avatar, nível de consciência, USP nomeada, mecanismo nomeado, oferta com preço, as 3 provas reais, as objeções. **Marcar `[A CONFIRMAR]` um dado que EXISTE no insumo reprova a entrega**, então rode a leitura antes de decidir e cole a saída. A tabela fecha com `campos-chave: N · encontrados no insumo: N · [A CONFIRMAR] com leitura vazia comprovada: N`, e a soma fecha em N. É esta tabela que o STOP de munição confere.
+**Levantamento BLOQUEANTE antes de escrever (o STOP de munição em forma verificável, e é COMANDO, nunca de memória).** Antes de escrever o roteiro, LEIA o perfil e os insumos do dono e cole no dossiê uma linha por dado-chave, nesta forma: `<campo> | <valor encontrado> (<arquivo>:<trecho>) | ou [A CONFIRMAR] só se o ls/leitura devolveu vazio`. Os campos-chave: avatar, nível de consciência, USP documentada, mecanismo sustentado ou hipótese identificada, oferta com preço, provas pertinentes ou via sem casos documentada, as objeções. **Marcar `[A CONFIRMAR]` um dado que EXISTE no insumo reprova a entrega**, então rode a leitura antes de decidir e cole a saída. A tabela fecha com `campos-chave: N · encontrados no insumo: N · [A CONFIRMAR] com leitura vazia comprovada: N`, e a soma fecha em N. É esta tabela que o STOP de munição confere.
 
 **O exemplo é ILUSTRATIVO, é PROIBIDO parafrasear.** `references/EXEMPLO-FIM-A-FIM.md` usa a Renata (nicho fictício) só pra mostrar a FORMA. É proibido reusar as frases, os números ou o nicho dela na peça real: parafrasear o EXEMPLO em vez de gerar do insumo do dono reprova a entrega. O roteiro real nasce 100% do insumo do dono; se você se pegar copiando uma frase do exemplo, pare e volte ao insumo.
 
@@ -120,9 +123,9 @@ Os **5 níveis de consciência** (Schwartz) decidem por onde a VSL abre: quem ne
 
 Os cinco carregadores:
 - **USP** (Benson): a proposta única de venda, nomeada, que aparece cedo (bloco 2).
-- **Mecanismo do problema e da solução:** a causa-raiz oculta que exonera o lead, e o método nomeado que resolve. O formato deste carregador é a **One Belief** (Evaldo Albuquerque), uma crença única na frase-molde "fazer [ação] é a chave para [desejo], possível através de [mecanismo nomeado]", preenchida pelos 4 campos da Arquitetura da Esperança. Sem essa frase o STOP não passa. Molde, campos e os 3 testes em `references/playbook-vturb-vsl.md` (2.2).
+- **Mecanismo do problema e da solução:** a explicação sustentada do obstáculo e as etapas observáveis da solução, sem causa oculta ou exclusividade presumida. O formato deste carregador é a **One Belief** (Evaldo Albuquerque), uma crença única na frase-molde "fazer [ação] é a chave para [desejo], possível através de [mecanismo nomeado]", preenchida pelos 4 campos da Arquitetura da Esperança. Sem uma tese sustentada o STOP não passa; a frase-molde organiza o raciocínio, sem obrigar nome inventado ou causa exclusiva não demonstrada. Molde, campos e os 3 testes em `references/playbook-vturb-vsl.md` (2.2).
 - **Oferta com equação de valor** (Hormozi, já no brain): sonho vivido vezes probabilidade percebida, dividido por tempo e esforço. Quanto mais alto o de cima e mais baixo o de baixo, mais irresistível.
-- **Banco de provas reais:** casos, números e depoimentos documentáveis do dono. O piso é 3.
+- **Banco de provas reais:** casos, números e depoimentos documentáveis do dono. Quando existirem casos, selecione pelo menos 3 provas pertinentes. Sem casos, registre a ausência, use a via sem casos do contrato de argumento e prova e reduza a promessa ao que a evidência sustenta. A ausência bloqueia alegações de resultado de clientes, sem autorizar invenção.
 - **Banco de objeções:** as objeções clássicas mapeadas, cada uma com o bloco que a quebra.
 
 ---
@@ -137,8 +140,8 @@ Passa só quando TODOS estes estão preenchidos com dado real:
 |---|---|
 | **Avatar preenchido** | as 9 perguntas do Dream Buyer respondidas com fala real, não genérico |
 | **Consciência definida** | um dos 5 níveis de Schwartz declarado, mais a temperatura do tráfego |
-| **USP e mecanismo nomeados** | a USP tem nome próprio; o mecanismo do problema e o da solução têm nome próprio |
-| **Provas reais** | no mínimo 3 provas documentáveis do dono, com número literal do perfil |
+| **USP e mecanismo documentados** | a diferença da oferta e as etapas da solução têm origem; nomes só quando fornecidos ou propostos como proposta. Causa não demonstrada fica como hipótese ou sai da promessa |
+| **Provas reais** | com casos: pelo menos 3 provas pertinentes e documentáveis, com números literais quando existentes; sem casos: ausência registrada, evidência alternativa delimitada e promessa compatível. Zero resultado de clientes inventado |
 | **Objeções mapeadas** | as objeções clássicas listadas, cada uma ligada ao bloco que a quebra |
 
 **Furo vira `[A CONFIRMAR]`, nunca invenção.** Um carregador vazio não vira uma prova plausível nem um caso genérico: vira uma linha de pendência no dossiê e uma pergunta ao dono no handoff. Só passa completo. Munição furada gera roteiro furado, e o gate no fim reprova de qualquer jeito, então o furo custa menos aqui.
@@ -181,6 +184,8 @@ Os 19 blocos, na ordem:
 18. **Mostre como será o processo da compra**
 19. **Última call to action**
 
+**Revisão complementar de continuidade:** quando houver promessas abertas, salto para o produto ou pedido sobre o Playbook recebido, leia `references/cobertura-vsl-pdf-gh.md` e registre no dossiê o pagamento de cada promessa e a razão das transições. Não impor os 64 tópicos. O crítico audita este formato como `script_vsl`.
+
 **A abertura muda pela consciência.** Os blocos 1 e 2 não são fixos: o nível de Schwartz declarado na Fase 1 decide se a VSL abre pela cena do problema (baixa consciência) ou pela oferta direta (alta consciência). Escrever a mesma abertura pra todo público é o erro que a Fase 1 existe pra matar.
 
 **Ordem de ESCRITA é o inverso da ordem de LEITURA.** Produza nesta sequência: munição (STOP) → tese/mecanismo → oferta → história → lead por último (o bloco mais sensível e o mais testado). O roteiro final continua na ordem dos 19 blocos; só a ordem de produção muda. Consenso do playbook, detalhe em `references/playbook-vturb-vsl.md` (2.1).
@@ -209,7 +214,7 @@ Os checks, e o veredito é o PIOR item:
 |---|---|
 | **Régua de títulos** | toda abertura, promessa e nome de bloco é autoexplicável e passa no teste do estranho: alguém que caiu no vídeo por acaso entende a promessa sem contexto. Título vago reprova |
 | **Slippery slide** (Sugarman) | cada linha puxa a próxima. A primeira frase existe só pra fazer ouvir a segunda. Frase que não puxa a próxima é cortada |
-| **Munição completa** | o STOP passou: avatar, consciência, USP, mais de 3 provas, objeções, tudo real |
+| **Munição completa** | o STOP passou: avatar, consciência, USP, provas pertinentes com origem e limites, objeções, tudo real |
 | **Zero dado inventado** | todo caso e número é verdade documentável do perfil. Sem prova, o trecho está `[A CONFIRMAR]` e a peça não sai como pronta |
 | **3 leads entregues** (BLOQUEANTE) | o roteiro sai com 3 leads rotuladas. `grep -ciE '^#+ *lead [ABC]|lead (a\|b\|c\|1\|2\|3)\b' <roteiro>` maior ou igual a 3. Menos de 3 reprova a FASE 3 |
 | **História do herói com lastro** (BLOQUEANTE) | cada afirmação biográfica do bloco 6 tem origem no insumo, ou o bloco está `[A CONFIRMAR: história do herói]`. Biografia inventada (jornada sem lastro) reprova a peça inteira |
@@ -246,7 +251,7 @@ Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o m�
 | Carta de vendas em texto corrido pra ler no celular | **soft-funil-carta** | não faço; a fronteira é firme, aqui é roteiro de vídeo |
 | Vídeo curto com filtro e virada de decisão | **soft-funil-miniwebinar** | escrevo o roteiro como VSL curta de autoridade |
 | Página que hospeda o vídeo (hero, seções, botão) | **soft-funil-landing** | entrego o roteiro e, no máximo, o briefing da página |
-| Webinar completo ou perpétuo | **soft-webinar-script** | não faço |
+| Webinar completo ou perpétuo | **soft-webinar** | não faço |
 | Isca, material gratuito | **soft-funil-isca** | não faço |
 | A régua de mensagens que entrega o vídeo | **soft-funil-isca** | escrevo a mensagem de passagem, e mais nada |
 | Script da conversa de venda ao vivo | **soft-vendas-closer** | escrevo o convite, não a conversa |

@@ -36,6 +36,9 @@ Esta skill entrega um LOTE de criativos de anúncio prontos pra subir. Ela decid
 
 **O perfil do dono vem do banco do agente.** Onde a skill precisar de voz, avatar, dor, prova, cor, fonte ou @perfil: leia do perfil/brain do agente quando existir; se não existir, passe pela triagem (seção "A condução") e siga com o que faltar marcado `[A CONFIRMAR]`. Nunca invente, nunca pare por causa disso.
 
+
+**Contrato de argumento e prova.** No lote, ligue ângulo, alegação, prova, CTA e destino. Cada variação conserva as condições da oferta e distingue demonstração de resultado de clientes. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz (padrão em `references/09-conducao-agente.md`). **O modo direto é o padrão e não se anuncia na mensagem**; o guiado, uma pergunta por mensagem, só roda quando o dono pede ("me guia", "passo a passo").

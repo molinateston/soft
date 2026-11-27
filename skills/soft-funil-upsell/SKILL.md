@@ -10,7 +10,7 @@ A venda principal fecha e a pessoa está no ponto mais quente que vai estar: car
 
 São três peças, cada uma num momento próprio do checkout:
 - **Order bump:** um checkbox no checkout, ANTES do botão de comprar. A pessoa marca e o add-on entra no mesmo pagamento. Pré-compra.
-- **Upsell:** a oferta que aparece DEPOIS que o pagamento passou, aceita com um clique, sem novo checkout. Pós-compra.
+- **Upsell:** a oferta adicional opcional depois da compra, aceita em um clique apenas quando a plataforma e o pagamento permitirem. Fora desse modo, usa pagamento próprio declarado.
 - **Downsell:** a alternativa mais barata que aparece SE a pessoa recusa o upsell. Uma saída sem culpa, não uma insistência.
 
 **O que é "pronto" nesta skill (vale pra toda ação).** A entrega só existe quando a pasta de saída tem o arquivo da máquina de upsell MAIS `conferencia/checagem-titulos.md` (saída de `scripts/checar_titulos.py`, preenchida) e `python3 scripts/checar_titulos.py --conferir <pasta de saída> --insumos <pasta de insumos do dono> --perfil <perfil do dono>` devolve exit 0. A última linha dessa saída vai colada no relato ou no handoff. Na pasta de saída o dono vê só o entregável e o handoff; todo arquivo de conferência (checagem-titulos.md, titulos.txt, teses.txt, nomes.txt, conferir.txt) mora em `conferencia/`. O relato abre com três linhas: `Pronto:` · `Abra primeiro:` · `Falta você responder:` e fecha com `Perguntas pra você`. Headline nunca em caixa alta. Sem isso, não diga "pronto": diga o que falta. **O caminho de `--insumos` é a RAIZ que contém o perfil do dono, nunca uma subpasta dela**, e o comando colado no relato é literalmente o comando desta linha. O passo a passo da régua está em `shared-references/crivo/07-regua-de-titulos.md`. Esta skill é a pasta instalada que contém este arquivo e a subpasta `scripts/` (confira com `ls scripts/checar_titulos.py` a partir dela); se você leu este arquivo de um plugin, cache ou cópia sem `scripts/`, pare e abra a pasta instalada.
@@ -19,13 +19,16 @@ São três peças, cada uma num momento próprio do checkout:
 
 **A âncora manda: quem não sabe o que a pessoa acabou de comprar não tem como desenhar a continuação lógica.** O order bump, o upsell e o downsell nascem TODOS da oferta principal (a venda-mãe, que é da soft-plano-ofertas). Cada peça é o próximo passo natural de quem comprou aquilo, nunca um produto solto. Cole `peças na máquina: N · ancoradas na oferta principal: N · aleatórias: 0`. Peça que sobrevive trocada pra outra oferta qualquer vira enchimento, e volta pro passo de desenho.
 
-**A regra de ouro do one-click é um PASSO com saída obrigatória, e o gate a cobra.** O upsell é aceito com um clique porque o cartão já foi capturado na compra principal. No instante em que a oferta faz a pessoa digitar o cartão de novo, deixa de ser upsell e vira uma segunda venda, que converte muito pior: a fricção mata o upsell. O order bump entra no mesmo pagamento (a pessoa nem sai da tela). Cole `peças pós-compra: N · com aceite de um clique: N · que pedem cartão de novo: 0`. Qualquer peça pós-compra que exija novo checkout reprova a entrega.
+**O modo de pagamento é conferido antes da copy.** Registre plataforma, meio de pagamento e suporte real ao aceite de um clique. One-click só quando confirmado pela plataforma, com consentimento explícito e preço visível. Sem suporte, a oferta adicional usa pagamento próprio e é descrita assim, sem fingir um clique. Cole `peças pós-compra: N · one-click confirmado: N · pagamento adicional declarado: N · mecânica sem conferência: 0`. A soma dos dois modos fecha no total. Nova cobrança sem aceite ou promessa de one-click sem suporte reprova.
 
-**Número de mercado é referência, nunca promessa ao dono.** As `references/` trazem números reais de mercado (por exemplo, a fatia da receita da Amazon que vem de upsell e cross-sell, ou a faixa de aceite de order bump entre criadores de curso). Esses números entram no material como referência de mercado, com a fonte ao lado, e NUNCA viram promessa de resultado pro dono ("você vai faturar 35% a mais"). Cole `números de mercado citados: N · apresentados como referência: N · apresentados como promessa ao dono: 0`.
+**Número de mercado é referência, nunca promessa ao dono.** As `references/` conservam números atribuídos a materiais de mercado (por exemplo, a fatia da receita da Amazon que vem de upsell e cross-sell, ou a faixa de aceite de order bump entre criadores de curso). Esses números só entram após recuperar fonte verificável e contexto, como referência de mercado, com a fonte ao lado, e NUNCA viram promessa de resultado pro dono ("você vai faturar 35% a mais"). Cole `números de mercado citados: N · apresentados como referência: N · apresentados como promessa ao dono: 0`.
 
 **Zero dado inventado.** Nome de produto, preço, bônus e prova só entram se vierem do perfil do dono ou do que ele colou. O que falta vira `[A CONFIRMAR: o quê]`, sem valor assumido, e a peça não sai como pronta. É proibido inventar preço, número ou nome de produto e etiquetar.
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra o fluxo inteiro num caso fictício de nicho neutro: a oferta principal, a escada de continuação, e o bump, o upsell e o downsell montados com a copy de cada um. `references/estrutura-upsell.md` é a referência de método (bump contra upsell contra downsell, one-click, a escada de continuação).
+
+
+**Contrato de argumento e prova.** Antes de desenhar a escada, compare o prometido na compra principal com o adicional opcional. Confira consentimento de compra, recusa, acesso e capacidade real do pagamento. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
 
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
@@ -103,7 +106,7 @@ Toda fase traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo*
 | Peça | O que é | Nasce de |
 |---|---|---|
 | **Order bump** | add-on pequeno que combina com o carrinho, marcado num checkbox antes do comprar | o complemento natural do que está sendo comprado, barato o bastante pra ser decisão de impulso |
-| **Upsell** | o próximo passo lógico, uma oferta maior ou mais completa, aceita com um clique depois da compra | o desejo que a compra principal acabou de abrir (comprou a entrada, quer o aprofundamento) |
+| **Upsell** | o próximo passo lógico, uma oferta maior ou mais completa, com aceite explícito depois da compra, em um clique quando a plataforma permitir | o desejo que a compra principal acabou de abrir (comprou a entrada, quer o aprofundamento) |
 | **Downsell** | a versão mais barata ou parcial do upsell, oferecida só a quem recusa | o mesmo desejo do upsell, num tamanho que cabe em quem disse não ao preço cheio |
 
 **A continuação é sempre LÓGICA (o princípio de Brunson).** O order bump e o upsell vendem quando são a continuação natural do que a pessoa já colocou no carrinho, jamais um produto solto. O teste: se a peça faz sentido depois de QUALQUER compra, ela virou enchimento e sai. Quem comprou um curso recebe como upsell o acompanhamento daquele curso, jamais um segundo curso de outro assunto.
@@ -127,7 +130,7 @@ Toda fase traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo*
 | Peça | A copy | Onde entra no checkout |
 |---|---|---|
 | **Order bump** | UMA frase no checkbox, com o benefício concreto e o preço do add-on ("adiciona o cardápio da semana por mais R$ X") | no checkout, logo acima do botão de comprar, antes do pagamento |
-| **Upsell** | a oferta pós-compra com o MOTIVO da continuação ("você acabou de garantir X, e quem faz X empaca em Y; o acompanhamento resolve Y"), o preço, e o aceite de um clique | na tela que aparece DEPOIS que o pagamento passa, com um botão de aceitar e um de recusar |
+| **Upsell** | a oferta pós-compra com o MOTIVO da continuação ("você acabou de garantir X, e quem faz X empaca em Y; o acompanhamento resolve Y"), o preço, o aceite explícito e a recusa com acesso preservado | na tela que aparece DEPOIS que o pagamento passa, com um botão de aceitar e um de recusar |
 | **Downsell** | a alternativa sem culpa ("não quer o completo agora? leva a versão essencial por menos"), sem insistir nem envergonhar | na tela que aparece SE a pessoa recusa o upsell |
 
 **A régua Soft vale em cada peça:** zero dado inventado, headline autoexplicável, uma ideia por frase, sem frase-emoldura, sem hype. O order bump é a peça mais curta do funil e cada palavra conta: benefício e preço, nada mais.
@@ -159,7 +162,7 @@ Toda fase traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insumo*
 | Check | Passa se |
 |---|---|
 | **Ancorada na oferta principal** | cada peça é continuação lógica do que a pessoa comprou, não um produto aleatório; peça que serve pra qualquer compra reprova |
-| **One-click respeitado** | o upsell é aceito com um clique, sem novo checkout; peça pós-compra que pede cartão de novo reprova na hora |
+| **Pagamento e acesso íntegros** | capacidade técnica conferida; aceite com preço visível; pagamento adicional declarado quando necessário; recusa preserva o comprado |
 | **Continuação, não catálogo** | o upsell é o próximo passo do desejo aberto pela compra, não uma oferta de outro assunto |
 | **Downsell sem culpa** | a alternativa barata é uma saída digna, longe de uma insistência que envergonha |
 | **Número de mercado é referência** | todo número de mercado entra com a fonte ao lado e como referência, nunca como promessa de resultado ao dono |
@@ -203,7 +206,7 @@ Cada rota é sugestão. **Se a skill irmã não estiver instalada, esta faz o m�
 |---|---|
 | Despejou a máquina inteira de primeira | Volta: âncora, escada, copy, parando a cada etapa |
 | O upsell é um produto de outro assunto | Reescreve a partir do desejo que a compra principal abriu |
-| O upsell pede o cartão de novo | Vira aceite de um clique; senão é segunda venda e converte pior |
+| O upsell promete um clique sem suporte | Corrija o modo de pagamento informado ou use recurso confirmado da plataforma |
 | Inventou um produto que o dono não tem | Marca `[A CONFIRMAR: existe esse produto?]` e leva ao handoff |
 | Usou o número de mercado como promessa ao dono | Volta a ser referência, com a fonte ao lado |
 | O downsell insiste ou envergonha | Vira saída digna, sem tratar a recusa como erro |

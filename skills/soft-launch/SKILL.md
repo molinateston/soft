@@ -35,6 +35,9 @@ O que **não muda** entre pago e gratuito: a sequência (gerar demanda antes, ev
 1. **A Ação 1 é bloqueante.** O diagnóstico das 6 variáveis roda primeiro, mostra o veredito e PARA esperando o OK. Entregar as etapas em lote, sem gate e sem STOP, reprova a entrega inteira e refaz da Ação 1.
 2. **O doc inteiro é livre do travessão longo e do verbo banido**, não só a copy que o lead lê: títulos, prosa de condução, rótulos de opção e a recomendação contam igual, e a verificação é a do Gate de qualidade no fim deste arquivo.
 
+
+**Contrato de argumento e prova.** No plano e no gate, confira a progressão entre captação, aula, carrinho e pós-venda, com argumento e prova por etapa e condições comerciais coerentes. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:
@@ -323,7 +326,7 @@ Todos os números abaixo são **referência de mercado ou de método**, citados 
 Em toda rota abaixo: se a skill não estiver instalada, faço aqui em modo reduzido, com o que esta skill carrega, e marco o que ficou raso como `[A CONFIRMAR]`.
 
 - **Carrossel, reel, stories, capa** → `soft-conteudo-carrossel`, `soft-conteudo-reels`, `soft-conteudo-stories`. Headline isolada → `soft-conteudo-headlines`.
-- **Carta, vídeo de vendas, VSL** → `soft-funil-carta`. **Landing avulsa fora do lançamento** → `soft-funil-landing`.
+- **Carta** → `soft-funil-carta`. **Vídeo de vendas, VSL** → `soft-funil-vsl`. **Landing avulsa fora do lançamento** → `soft-funil-landing`.
 - **Webinar perpétuo** (o gravado que vende todo dia) → `soft-webinar`. Aqui é evento com data e carrinho que fecha; lá é sessão que roda sozinha.
 - **Posicionamento, método, avatar, voz** → `soft-plano-posicionamento`.
 - **Desenhar a oferta** (stack, garantia, preço, esteira) → `soft-plano-ofertas`. Aqui a oferta entra pronta.

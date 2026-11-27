@@ -1,6 +1,6 @@
 # Copy e táticas de upsell (o que a página, o e-mail e o WhatsApp precisam dizer)
 
-Este arquivo é a camada de COPY e TÁTICA da máquina de upsell: a sequência emocional da página pós-compra, o framework de valor percebido, as regras testadas de mercado, os tipos de oferta e os dois canais que recuperam quem pagou no PIX (e-mail e automação de WhatsApp). Complementa `estrutura-upsell.md` (que ensina bump contra upsell contra downsell e a mecânica one-click) e nunca a repete. Lastro no curso Segredos do Upsell (João Campos). Exemplos ancorados na dona fictícia Renata (Studio Base 40, Protocolo Base 40 a R$ 1.497). O que é número de mercado entra como REFERÊNCIA TESTADA, nunca como promessa ao dono.
+Este arquivo é a camada de COPY e TÁTICA da máquina de upsell: a sequência emocional da página pós-compra, o framework de valor percebido, hipóteses táticas de mercado, os tipos de oferta e os dois canais que recuperam quem pagou no PIX (e-mail e automação de WhatsApp). Complementa `estrutura-upsell.md` (que ensina bump contra upsell contra downsell e a mecânica one-click) e nunca a repete. Lastro no curso Segredos do Upsell (João Campos). Exemplos ancorados na dona fictícia Renata (Studio Base 40, Protocolo Base 40 a R$ 1.497). O que é número de mercado entra como referência histórica a verificar, nunca como promessa ao dono.
 
 ## 1. A sequência emocional da página de upsell (5 passos, é script)
 
@@ -10,13 +10,13 @@ A ordem dos 5 passos:
 
 1. **Neutralizar o medo.** A primeira coisa que a página diz é "deu certo, você fez o correto, isso não é golpe". Isso leva a pessoa do medo pro neutro. Sem esse passo, ela lê a oferta ainda com a mão no botão de fechar a aba. Exemplo (Renata): "Sua vaga no Protocolo Base 40 está confirmada. Seu acesso já foi liberado no seu e-mail. Você não vai precisar fazer mais nada pra garantir isso."
 2. **Future pacing.** Pinta o futuro concreto de quem tomou aquela decisão, pra levar do neutro pro animado. Exemplo (Renata): "Você acabou de dar o passo que a maioria adia por anos: treinar em casa sem dor no joelho. Daqui a 12 semanas o corpo é outro."
-3. **Apresentar um problema NOVO.** Agora que a pessoa está confiante, a página nomeia o obstáculo que vem a seguir, aquele que a compra principal abriu e não resolveu, e que é o motivo pelo qual o upsell existe. O problema tem tamanho: a pessoa precisa sentir que ele atrapalha o resultado que ela acabou de comprar. Exemplo (Renata): "Tem um detalhe que emperra quem treina sozinha em casa: sem alguém corrigindo a execução, o joelho volta a doer na terceira semana e a pessoa para."
+3. **Apresentar um problema NOVO.** Agora que a pessoa está confiante, a página nomeia o obstáculo que vem a seguir, um objetivo adicional que excede o escopo já prometido, e que é o motivo pelo qual o upsell existe. O problema tem tamanho: a pessoa precisa sentir que ele atrapalha o resultado que ela acabou de comprar. Exemplo (Renata): "Tem um detalhe que emperra quem treina sozinha em casa: sem alguém corrigindo a execução, o joelho volta a doer na terceira semana e a pessoa para."
 4. **Solução com reason why.** A página conta a história de como esse problema foi resolvido e por que o upsell foi criado. O reason why (o motivo pelo qual isso existe) faz a oferta parecer uma consequência natural, não um empurrão. Exemplo (Renata): "Foi por isso que eu montei o acompanhamento: 4 calls por mês onde eu corrijo a sua execução ao vivo, pra o joelho não voltar a doer."
 5. **A oferta.** Só aqui entra a oferta em si, com a mesma estrutura da carta (o produto, a ancoragem de preço, a garantia como apólice de seguro, o CTA). Exemplo (Renata): "O acompanhamento sai por R$ 397 no mês, com a mesma garantia do protocolo. Se não servir, você cancela."
 
-O erro que quebra a página é fazer a oferta logo de cara, pulando os passos 1 a 4. A pessoa ainda está ansiosa e recusa por reflexo. A página também esconde a venda: nada de "temos uma oferta especial pra você". A pessoa lê como conteúdo normal, do mesmo jeito que a carta principal escondia a venda.
+A sequência prepara a decisão sem disfarçar a oferta. Informe a compra confirmada somente quando o pagamento estiver confirmado. Identifique o adicional como opcional e mantenha o acesso ao produto original disponível, com recusa clara.
 
-**Onde a página abre.** Bom começar mostrando à pessoa como ela vai ter acesso ao que comprou, ou abrir com algo que parece uma aula inaugural. Isso reforça o passo 1 e mantém a leitura longe do clima de "página de vendas".
+**Onde a página abre.** Comece pela confirmação real e pelo acesso ao que foi comprado. Apresente o adicional com benefício e condição de compra claros. Não simule aula inaugural nem etapa de ativação para levar a uma venda.
 
 ## 2. O framework de valor percebido (5 alavancas)
 
@@ -32,16 +32,16 @@ A oferta é uma troca: o dinheiro do cliente pelo que a gente entrega. A pessoa 
 
 O uso é combinar as alavancas certas no upsell e nomeá-las na copy. Um upsell que baixa o esforço (done-for-you) mais o risco (garantia longa) vale mais na cabeça da pessoa que o mesmo produto vendido sem tocar em nenhuma das duas.
 
-## 3. As regras táticas testadas (referência de mercado, não promessa)
+## 3. As hipóteses táticas precisam de fonte e teste
 
-Números e faixas abaixo vêm do curso e do mercado. Eles orientam o TESTE do dono, nunca prometem resultado. A regra é sempre "vale testar o seu e medir", jamais "o seu vai converter X".
+Números e faixas abaixo são atribuídos ao curso pelo registro histórico. A revisão não consultou o curso original nem recuperou amostra, medição ou fonte primária desses números. Não os apresente como resultados testados sem essa verificação. Eles orientam o TESTE do dono, nunca prometem resultado. A regra é sempre "vale testar o seu e medir", jamais "o seu vai converter X".
 
-- **Vídeo de upsell é longo.** A referência de mercado aponta uns 9 min como bom ponto de partida pro vídeo de upsell. O erro comum é achar que upsell tem que ser curto: a página precisa dos 5 passos emocionais, e isso leva tempo. Vídeo converte melhor que texto puro em ticket mais alto, porque esconde melhor a oferta; texto puro serve pra ticket baixo. Autoplay costuma ir pior que thumbnail, porque o autoplay faz a pessoa associar de novo ao vídeo de vendas.
+- **Formato e duração são hipóteses.** Escolha vídeo ou texto pelo argumento, público e capacidade de produção. A duração só recebe recomendação após teste próprio; nove minutos não são regra. A oferta permanece identificada em qualquer formato.
 - **Faixa de preço a testar.** Pra upsell de ticket baixo, a faixa de mercado a testar costuma ficar entre R$ 50 e R$ 150. Roda teste A/B do preço; a faixa é ponto de partida, o número final sai do teste do próprio dono.
 - **Mais caro primeiro.** Quando roda mais de um upsell na sequência, o mais caro vai primeiro. Quem recusa o caro ainda pode aceitar o do meio; o contrário deixa dinheiro na mesa.
-- **Remover o order bump quando roda upsell.** Order bump e upsell brigam: o bump no checkout derruba a conversão do upsell pós-compra. Quando a máquina tem upsell pós-compra, tira o bump. **Isso reconcilia com a estrutura-base:** `estrutura-upsell.md` mostra as três peças juntas na mesma escada porque ensina a FORMA de cada uma; na hora de montar de verdade, se o funil tem upsell one-click pós-compra, o bump sai. Regra de campo: bump E upsell juntos só num funil onde o upsell já foi testado e o bump não come a conversão dele; na dúvida, escolhe só uma das duas alavancas pós-checkout.
-- **Recuperar quem pagou no PIX.** Compra por PIX (e boleto) não passa cartão, então não existe cartão capturado pra one-click. A conversão de upsell cai porque a pessoa saiu antes de ver a oferta. A recuperação é uma automação por SMS, WhatsApp ou e-mail: "parabéns pela compra, falta um passo, clique aqui pra acessar o produto", e o link leva pra página do upsell. Isso costuma converter mais que deixar o upsell preso só na tela do checkout original. SMS tende a ter menos spam que e-mail.
-- **Não resolver tudo na primeira venda.** A oferta principal resolve UM problema; o próximo problema lógico vira o upsell. Front-end direto ao ponto, sem encher de bônus que tiram o motivo de comprar o upsell. Cada oferta vende a solução de um problema, e o problema seguinte abre a próxima oferta.
+- **Bump e upsell precisam de teste conjunto.** A existência de um não obriga remover o outro. Compare compra principal, aceite, receita líquida, reembolso e entrega por condição. Sem dados próprios, a combinação é hipótese de teste, sem efeito presumido.
+- **Oferta adicional após PIX ou boleto.** Confira os recursos da plataforma. Se exigir novo pagamento, declare essa condição e apresente o adicional como opcional. A mensagem de acesso leva ao produto comprado. Link de oferta adicional é identificado como oferta e não substitui o acesso. Envio e automação dependem de autorização e permissão do canal.
+- **Entregar integralmente a compra principal.** O adicional pode acelerar, personalizar ou ampliar a solução apenas quando a compra principal já entrega o que prometeu. Não retire etapa indispensável nem crie obstáculo artificial para vender o complemento.
 
 ## 4. Os 3 tipos de oferta de upsell
 
@@ -61,7 +61,7 @@ Quando a compra é por PIX e não tem one-click, a sequência de e-mail recupera
 
 | Toque | Timing | Função do e-mail | O que carrega |
 |---|---|---|---|
-| **0** | 15 min | Parabéns e entrega | Confirma a compra, entrega o bônus prometido, e segura a curiosidade ("não abra ainda, tenho algo importante"); leva pra página do upsell |
+| **0** | 15 min, hipótese | Confirmação e acesso | Entrega o comprado no endereço correto; convite ao adicional fica separado e identificado como opcional |
 | **1** | 1h | Curiosidade sobre o benefício do upsell | Reforça que a decisão foi certa, abre um loop de curiosidade sobre o atalho, sem entregar a oferta ainda |
 | **2** | 4h | Prova de mecanismo | Mostra que existe um "truque" ou método por trás do resultado do upsell; ainda buildup, ainda sem preço |
 | **3** | 24h | Prova social | Um depoimento real de quem usou o upsell; a história faz o trabalho, não o argumento |
@@ -84,16 +84,16 @@ A automação de WhatsApp recupera o mesmo lead pós-PIX, num formato de convers
 
 | Mensagem | Timing | Função |
 |---|---|---|
-| **01** | 15 min | Parabéns pela compra, entrega o acesso, e convida pra "uma aula rápida" (a página do upsell, escondendo a venda) |
+| **01** | 15 min, hipótese | Confirma o pagamento real, entrega acesso e apresenta separadamente o adicional opcional, sem disfarce de aula |
 | **02** | 48h | Apresenta o upsell com benefício e curiosidade, preço com desconto no primeiro toque |
 | **03** | 48h | Reforça com um desconto surpresa maior e a garantia, redução de risco |
 
 Da mensagem 04 em diante (só depois que o core provou), o fluxo vira downsell progressivo com bônus e escassez real, no mesmo espírito da régua de e-mail.
 
 O que estrutura o fluxo:
-- **Cada mensagem tem dois botões: Aceitar e Recusar.** O botão de aceitar é alinhado ao benefício ("Quero [benefício]"), nunca genérico ("Sim"). O de recusar leva pro passo seguinte do downsell, nunca pro vazio.
+- **Oferta com aceitar e recusar.** O aceite informa benefício, preço e cobrança. A recusa preserva acesso e encerra o convite; novos contatos respeitam preferências e permissão, sem encaminhar toda recusa a outra venda.
 - **UTM por botão.** Cada botão carrega um UTM próprio (por exemplo `utm_source=wpp-up1-01`), pra medir qual mensagem e qual botão convertem. Sem UTM, o fluxo roda cego.
-- **One-click só com cartão capturado.** Se a compra foi cartão, o botão pode levar ao aceite de um clique. Se foi PIX ou boleto, o botão leva a um novo checkout (sem one-click), e nesse caso o downsell costuma bloquear PIX e boleto e aceitar só cartão, pra o toque seguinte já ter cartão pra recuperar.
+- **One-click depende da plataforma.** Cartão utilizado na compra não comprova sozinho suporte ao recurso ou consentimento. Confira pagamento, preço e aceite. Se houver novo checkout, declare o pagamento próprio. Não bloqueie meios de pagamento sem decisão operacional registrada.
 - **A copy tem tom de conversa.** Frase curta, uma ideia por mensagem, respeitando o limite de caracteres do canal. Sem hype falso, sem escassez inventada, pela mesma régua Soft dos outros canais.
 
 ## 7. O que NÃO copiar do material de mercado
@@ -104,4 +104,4 @@ O curso Segredos do Upsell é o lastro do MÉTODO, mas a copy de exemplo dele us
 - Promessa de resultado ("mudou a vida em uma semana") sem prova real por trás.
 - Depoimento genérico ou inventado. Só entra prova real do dono, senão `[A CONFIRMAR: depoimento]`.
 
-O que fica: a SEQUÊNCIA emocional, o FRAMEWORK de valor percebido, as REGRAS táticas, os TIPOS de oferta e a ESTRUTURA dos dois canais. A forma é ouro; a copy de exemplo do material, não.
+O que pode ser reutilizado: sequência de decisão, tipos de oferta e desenho de canais, desde que respeitem integridade, evidência, consentimento e operação. Números, cadência e superioridade de formato continuam como hipóteses até verificação.

@@ -1,7 +1,7 @@
 ---
 name: soft-webinar
 description: >-
-  Entrega o webinar inteiro numa esteira só, com entrada por qualquer etapa: consultiva e pesquisa, oferta em stack, roteiro da aula slide a slide, páginas de cadastro, obrigado e checkout, mensagens com tags por percentual assistido, e o chat simulado ou moderado ao vivo. Use quando o pedido for: "monta meu webinar", "webinário", "masterclass", "aula que vende", "plano do webinar", "oferta do webinar", "roteiro do webinar", "páginas do webinar", "mensagens do webinar", "chat do webinar", "perpétuo ou ao vivo". NÃO use pra: o mini-webinar de 10 minutos do funil (soft-funil-miniwebinar); o lançamento com carrinho e evento (soft-launch); a régua pós-isca fora do webinar (soft-funil-nutricao); a isca (soft-funil-isca); os slides da aula, em deck ou PPTX (soft-webinar-slides); arte (soft-designer); carta, VSL ou landing avulsa (soft-funil-carta, soft-funil-landing); a venda 1:1 e a objeção (soft-vendas-closer). Leia e siga o fluxo inteiro do SKILL.md.
+  Entrega o webinar inteiro numa esteira só, com entrada por qualquer etapa: consultiva e pesquisa, oferta em stack, roteiro da aula slide a slide, páginas de cadastro, obrigado e checkout, mensagens com tags por percentual assistido, e o chat simulado ou moderado ao vivo. Use quando o pedido for: "monta meu webinar", "webinário", "masterclass", "aula que vende", "plano do webinar", "oferta do webinar", "roteiro do webinar", "páginas do webinar", "mensagens do webinar", "chat do webinar", "perpétuo ou ao vivo". NÃO use pra: o mini-webinar de 10 minutos do funil (soft-funil-miniwebinar); o lançamento com carrinho e evento (soft-launch); a régua pós-isca fora do webinar (soft-funil-nutricao); a isca (soft-funil-isca); os slides da aula, em deck ou PPTX (soft-webinar-slides); arte (soft-designer); carta, VSL ou landing avulsa (soft-funil-carta, soft-funil-vsl, soft-funil-landing); a venda 1:1 e a objeção (soft-vendas-closer). Leia e siga o fluxo inteiro do SKILL.md.
 ---
 
 # O webinar inteiro, numa esteira só
@@ -37,6 +37,9 @@ Webinar que converte é um SISTEMA: plano consultivo, oferta desenhada, aula que
 **Conferência do insumo (sim ou não, no relato).** A prova, o preço, a parcela, a garantia, os bônus e os casos que o dono deu estão na peça, ou o relato diz por que ficaram fora? Caso que o dono lista como case ou prova é prova declarada e entra; a regra de autorização acima vale pra conversa privada. Motivo: nos casos medidos a garantia e os bônus sumiram das mensagens, e três cases do insumo ficaram fora da aula.
 
 **Proveniência de terceiro (vale em toda entrega desta skill).** Nome de empresa, de pessoa, domínio, telefone, e-mail ou endereço de TERCEIRO só entra na entrega se veio do dono, do insumo dele, ou de uma busca ou ferramenta executada neste turno com o comando e o resultado registrados no relatório. Sem isso, o campo sai como `[A CONFIRMAR: nome/contato]`. Memória de treino não é fonte. Nome de terceiro sem origem apontada (linha do insumo ou comando) reprova a entrega inteira.
+
+
+**Contrato de argumento e prova.** Na Ação 3, confira tese, prova por alegação e transições no arco validado; na oferta e no CTA, confira a promessa inicial e o destino. Preserve a aula útil e o molde de tela existente. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
 
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
@@ -81,7 +84,7 @@ Toda etapa abaixo traz o mesmo bloco fixo: **O que faz** · **Precisa de** (o in
 
 **O perfil do dono vem do banco do agente.** Onde qualquer etapa precisar de posicionamento, avatar, mecanismo, voz ou prova: **leia do perfil/brain do agente quando existir**; se não existir, faça a entrevista curta descrita no "Sem o insumo" da etapa e siga com o que faltar marcado `[A CONFIRMAR]`. Nunca invente, nunca pare por causa disso. Sem doc-mãe, a lista-mestra sai do insumo colado ou vira a primeira pergunta da etapa.
 
-**Minuto da oferta (vale nas Etapas 3, 5 e 6).** Sem minuto medido, use 75% da duração da aula e escreva `minuto da oferta: MM (estimativa: 75% de NN min)`. Nunca deixe o marco pendente, porque lembrete, tag e chat dependem dele.
+**Minuto da oferta (vale nas Etapas 3, 5 e 6).** Sem minuto medido, use 75% da duração apenas para planejamento e escreva `minuto da oferta: MM (estimativa: 75% de NN min)`. Antes de configurar lembrete, tag ou chat temporizado, substitua a estimativa pelo marco observado no vídeo ou áudio final e registre a origem. Sem corte final, a configuração permanece pendente, sem inventar precisão.
 
 ---
 
@@ -157,7 +160,7 @@ Conferência de tela (sim ou não): cada slide carrega uma ideia e se lê em 3 s
 
 Antes de entregar, **PASSE ADVERSARIAL obrigatório** (`passe-adversarial.md`): o crivo do FILTRO slide a slide, o leigo cético, o checklist duro.
 
-**Deck:** a skill entrega o roteiro em texto e não renderiza. Pedido de deck: `scripts/deck_gen.py` gera a BASE (um slide por entrada, cor e marca da config `DECK_*`). **`references/design-persuasivo-slides.md` é a régua de DESIGN de todo slide**, com as 4 checagens no `gate-aula.md`. Acabamento visual vai pra **soft-designer**.
+**Deck:** esta skill entrega o roteiro em texto. Pedido de deck vai para **soft-webinar-slides**, preservando o roteiro validado, o molde e as conferências de fala. `scripts/deck_gen.py` permanece como gerador de base quando pertinente. `references/design-persuasivo-slides.md` e `gate-aula.md` continuam sendo critérios de revisão da aula; a produção do deck segue o guia visual específico.
 
 ---
 
@@ -243,7 +246,7 @@ Antes de entregar, **PASSE ADVERSARIAL obrigatório** (`passe-adversarial.md`): 
 
 Em toda rota abaixo: se a skill não estiver instalada, faço aqui em modo reduzido.
 
-Render fino do deck / arte / PNG / paleta → **soft-designer**. Carta / VSL / landing fora do webinar → **soft-funil-carta** / **soft-funil-landing**. Micro-aula / mini-webinar de funil → **soft-funil-miniwebinar**. Posicionamento / nomear método → **soft-plano-posicionamento**. Venda 1:1 / objeção ao vivo / fechamento → **soft-vendas-closer** (prospecção: **soft-vendas-sdr**). Anúncios → **soft-trafego-meta**. Headline isolada → **soft-conteudo-headlines**. Conteúdo de feed → **soft-conteudo-***. "Por onde começo" → **soft-leon**.
+Deck da aula → **soft-webinar-slides**. Arte avulsa / PNG / paleta → **soft-designer**. Carta / VSL / landing fora do webinar → **soft-funil-carta** / **soft-funil-vsl** / **soft-funil-landing**. Micro-aula / mini-webinar de funil → **soft-funil-miniwebinar**. Posicionamento / nomear método → **soft-plano-posicionamento**. Venda 1:1 / objeção ao vivo / fechamento → **soft-vendas-closer** (prospecção: **soft-vendas-sdr**). Anúncios → **soft-trafego-meta**. Headline isolada → **soft-conteudo-headlines**. Conteúdo de feed → **soft-conteudo-***. "Por onde começo" → **soft-leon**.
 
 ## Transversais
 

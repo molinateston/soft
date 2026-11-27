@@ -1,6 +1,6 @@
 # As 3 fases de levantamento (a munição antes da escrita)
 
-Este é o coração da skill. A VSL não escreve uma linha enquanto estas 3 fases tiverem furo aberto. Fonte de cada passo em `fontes-do-metodo.md`. Zero dado inventado: cada campo sai do perfil do dono, dos insumos dele, ou de uma das 3 fontes confirmadas.
+Este é o coração da skill. A VSL não escreve uma linha enquanto estas 3 fases tiverem furo que impeça sustentar a promessa escolhida. A via sem casos exige ausência registrada e promessa compatível, conforme o contrato de argumento e prova. Fonte de cada passo em `fontes-do-metodo.md`. Zero dado inventado: cada campo sai do perfil do dono, dos insumos dele, ou de fonte efetivamente consultada e registrada. Síntese de método não fornece dados de clientes.
 
 ---
 
@@ -87,11 +87,11 @@ Tudo do perfil do dono, zero inventado. Cada carregador vazio vira `[A CONFIRMAR
 
 ### 1. USP (Benson)
 
-A proposta única de venda, com nome próprio, que aparece cedo (bloco 2), nos primeiros minutos. É a resposta pra "por que eu, e não os outros". Na Renata: **Protocolo Base 40**, treino em casa de 25 minutos, 3x na semana, sem dor no joelho, com acompanhamento semanal.
+A diferença de oferta documentada, com nome próprio apenas quando fornecido ou proposto como proposta, que aparece cedo (bloco 2), nos primeiros minutos. É a resposta pra "por que eu, e não os outros". Na Renata: **Protocolo Base 40**, treino em casa de 25 minutos, 3x na semana, sem dor no joelho, com acompanhamento semanal.
 
 ### 2. Mecanismo do problema e da solução
 
-- **Mecanismo do problema:** a causa-raiz oculta que exonera o lead. Tira a culpa dele e joga no sistema. Na Renata: "seu corpo não parou de responder; o treino que te ofereceram foi feito pra corpo de 25 anos, e ele te machuca antes de dar resultado".
+- **Mecanismo do problema:** explicação sustentada para o obstáculo. Se a causa não estiver demonstrada, declare hipótese ou descreva a ação observável, sem atribuir culpa a um sistema por obrigação do molde. Na Renata: "seu corpo não parou de responder; o treino que te ofereceram foi feito pra corpo de 25 anos, e ele te machuca antes de dar resultado".
 - **Mecanismo da solução:** o método nomeado que resolve, com as etapas. Na Renata: o Protocolo Base 40, força mais mobilidade mais progressão lenta, em 3 fases de 4 semanas.
 
 ### 3. Oferta com equação de valor (Hormozi, já no brain)
@@ -100,7 +100,7 @@ A equação: **(sonho vivido vezes probabilidade percebida de conseguir) dividid
 
 ### 4. Banco de provas reais
 
-Casos, números e depoimentos documentáveis do dono. **O piso é 3.** Número do perfil entra literal; número marcado `[A CONFIRMAR` fica no dossiê e a fala usa a forma sem prazo. Na Renata: 63 alunas em 2 anos; o caso da Márcia, 52, que voltou a subir escada sem dor (o prazo exato está `[A CONFIRMAR]`, então a fala diz "depois de algumas semanas").
+Casos, números e depoimentos documentáveis do dono. **Com casos disponíveis, selecione pelo menos 3 provas pertinentes. Sem casos, registre a ausência e use a via sem casos do contrato de argumento e prova, com demonstração ou evidência delimitada e promessa menor. Nenhuma ausência autoriza inventar resultados.** Número do perfil entra literal; número marcado `[A CONFIRMAR` fica no dossiê e a fala usa a forma sem prazo. Na Renata: 63 alunas em 2 anos; o caso da Márcia, 52, que voltou a subir escada sem dor (o prazo exato está `[A CONFIRMAR]`, então a fala omite o prazo até existir base para afirmá-lo).
 
 ### 5. Banco de objeções
 
@@ -122,8 +122,8 @@ A VSL não escreve enquanto qualquer linha abaixo tiver furo:
 
 - [ ] **Avatar preenchido:** as 9 perguntas com fala real.
 - [ ] **Consciência definida:** um dos 5 níveis, mais a temperatura.
-- [ ] **USP e mecanismo nomeados:** com nome próprio, não rótulo.
-- [ ] **Provas reais:** no mínimo 3, com número literal do perfil.
+- [ ] **USP e mecanismo documentados:** origem e etapas observáveis; nome proposto identificado como proposta; causa não demonstrada permanece hipótese ou sai da promessa.
+- [ ] **Provas reais:** com casos disponíveis, pelo menos 3 provas pertinentes, números literais quando existentes; sem casos, ausência registrada, evidência alternativa delimitada e promessa compatível.
 - [ ] **Objeções mapeadas:** cada uma ligada a um bloco.
 
 Furo vira `[A CONFIRMAR]` no dossiê e pergunta ao dono no handoff, nunca invenção. Só passa completo.

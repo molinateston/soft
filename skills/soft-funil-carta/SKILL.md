@@ -36,6 +36,9 @@ A carta faz o trabalho que a reunião fazia. Lida em silêncio, no celular. Ela 
 
 **Antes de começar, veja o exemplo.** `references/EXEMPLO-FIM-A-FIM.md` mostra o fluxo inteiro num caso fictício de nicho neutro: o briefing respondido, o diagnóstico de consciência com a linha declarada, a espinha nas 4 fases, um trecho da peça escrita e o que o gate reprovou. A **mini-carta completa e diagramada**, do começo ao fim, já está em `references/modo-mini-carta.md`, Seção 5, e é a peça de referência pra calibrar densidade e tom.
 
+
+**Contrato de argumento e prova.** Antes da escrita, documente tese e prova por alegação; antes da diagramação, feche o contrato de produção e o CTA com destino real. Preserve leitura silenciosa e comprimento calibrado. Leia `shared-references/contrato-argumento-prova.md` nas seções de fonte, tese, prova e do formato usado; registre a conferência no documento de trabalho existente. Critérios específicos mais fortes continuam valendo.
+
 ## A condução: a skill te ajuda a fazer, não só te entrega
 
 Esta skill é um agente que conduz, e o padrão está em `shared-references/crivo/09-conducao-agente.md` (as quatro partes). Na prática, aqui:
@@ -152,7 +155,7 @@ Toda ação traz o mesmo bloco: **O que faz** · **Precisa de** · **Sem o insum
 
 ### 2.1 · Carta ou vídeo
 
-**O roteiro de vídeo de vendas migrou pra `soft-funil-vsl`.** Ela levanta a munição (avatar, consciência, USP, mecanismo, oferta, provas, objeções) antes de escrever a primeira linha, e esta skill não faz isso. Pedido de VSL vai pra lá. O ramo do vídeo que segue abaixo continua aqui como fallback, pra quando a `soft-funil-vsl` não estiver instalada; nesse caso, diga em 1 linha que a fase de levantamento ficou de fora.
+**O roteiro de vídeo de vendas migrou pra `soft-funil-vsl`.** Ela levanta a munição (avatar, consciência, USP, mecanismo, oferta, provas, objeções) antes de escrever a primeira linha, e esta skill não faz isso. Pedido de VSL vai pra lá. O ramo do vídeo que segue abaixo continua aqui como fallback, pra quando a `soft-funil-vsl` não estiver instalada; nesse caso, execute o levantamento mínimo com as fontes disponíveis, a tese, a oferta e a prova por alegação; diga em uma linha qual conferência especializada ficou indisponível. Ausência de skill não autoriza pular lastro.
 
 Não são fases, são formatos paralelos na mesma espinha. Texto favorece leitura silenciosa e edição rápida; vídeo favorece presença, demonstração e argumento falado. Escolha pelo comportamento de consumo e pela força do dono na câmera.
 

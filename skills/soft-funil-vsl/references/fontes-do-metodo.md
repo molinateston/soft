@@ -1,6 +1,6 @@
-# Fontes confirmadas do método de VSL (verificadas na web, 10/09/2026)
+# As atribuições do método precisam de origem conferível
 
-Todas checadas por busca real. Nada aqui é inventado. São a base de método da soft-funil-vsl.
+Este arquivo conserva atribuições históricas da skill. O texto anterior declarava buscas em 10/09/2026, mas não traz os resultados completos nem trechos recuperáveis. A manutenção de 27/11/2026 não reexecutou essas buscas nem consultou os livros originais. Domínios e resumos abaixo são pistas de pesquisa, não fontes primárias verificadas nesta rodada. Não cite uma ideia como conferida no original com base apenas nesta lista.
 
 ## 1. Jon Benson, o criador do VSL (fonte-mae do formato)
 - Foi a primeira pessoa a criar um VSL; método "3X VSL Formula" / "3X Seller Close".
@@ -12,7 +12,7 @@ Todas checadas por busca real. Nada aqui é inventado. São a base de método da
 - Fonte: ilovemarketing.com (entrevista 3X Formula), slideshare "VSL 3x Seller Close Formula".
 
 ## 2. Sabri Suby, Sell Like Crazy (o levantamento e o cliente dos sonhos)
-- **Halo Strategy**: pesquisa OBSESSIVA do cliente ANTES de escrever. Minerar Reddit, Quora, reviews da Amazon, grupos de Facebook, comentários do YouTube, onde o público fala. Descobrir esperanças, sonhos, dores e medos na LÍNGUA REAL deles. ESTA é a fase de levantamento que faz a VSL nascer perfeita.
+- **Halo Strategy**: pesquisa OBSESSIVA do cliente ANTES de escrever. Minerar Reddit, Quora, reviews da Amazon, grupos de Facebook, comentários do YouTube, onde o público fala. Descobrir esperanças, sonhos, dores e medos na LÍNGUA REAL deles. Esta atribuição orienta o levantamento, sem comprovar desempenho.
 - **Dream Buyer Avatar**: 9 perguntas detalhadas (rotina diária, comunicação preferida, medos, esperanças, e a linguagem que usam pra descrever o problema). Bate com "8. PONTO DE CONEXÃO COM O CLIENTE DOS SONHOS".
 - **Temperatura do tráfego**: Tinder (frio, estranho total) · Second Date (morno, interagiu 1x) · Netflix and Chill (quente, cliente fiel). Cada temperatura pede mensagem diferente. Decide o comprimento/abertura da VSL.
 - Fonte: mentorist.app (Halo Strategy, resumo do livro), sobrief.com, myfunnelsecrets.com.
@@ -33,8 +33,8 @@ Todas checadas por busca real. Nada aqui é inventado. São a base de método da
 - Fladlien e Hormozi já estão no brain (project_fladlien-hormozi-copy). Hormozi (equação de valor) entra no bloco 13 (Pitch) e 5 (curiosidade). Fladlien (venda pela conversa) tempera a voz.
 - A soft-funil-carta já usa Schwartz (5 estágios) e Masterson/Forde (6 leads), e a soft-funil-vsl herda esse lastro e adiciona a camada Benson (formato vídeo) + Suby (levantamento).
 
-## Autores das técnicas do playbook VTurb (verificados na web, 10/09/2026)
-Estes entram como fonte de TÉCNICA usada em `references/playbook-vturb-vsl.md`. Cada um conferido por busca real; nada inventado.
+## Atribuições históricas das técnicas do playbook VTurb
+Estes entram como fonte de TÉCNICA usada em `references/playbook-vturb-vsl.md`. A origem primária de cada atribuição precisa ser recuperada antes de citação externa.
 - **Evaldo Albuquerque, "The 16-Word Sales Letter"** (copywriter da Agora Financial): a fórmula da One Belief (uma crença única) que a tese preenche. Confere com o carregador "mecanismo" da FASE 2.
 - **Todd Brown, E5 Method**: oferta antes da copy, e o ponto lógico como claim + prova + benefício. Alimenta os blocos 9 e 10.
 - **Clayton Makepeace**: cadeia de 5 a 8 pontos lógicos e os tipos de fascination (bullet de curiosidade). Alimenta o mecanismo e o bloco de oferta.
@@ -45,3 +45,9 @@ Estes entram como fonte de TÉCNICA usada em `references/playbook-vturb-vsl.md`.
 
 ## Citados em podcast, sem verificação documental
 Nomes que aparecem no playbook VTurb como referência de operador, sem checagem própria da fonte: Peter Kell, Chris Haddad, Iman Gadzhi ("Flywheel Funnel"), Derek (curso citado pelo Alef), Dan Kennedy (ilustração histórica). Entram só como contexto, nunca como fonte de método confirmada.
+
+## O PDF recebido é uma referência complementar
+
+O material recebido em 27/11/2026 é o `Playbook de VSL`, com autoria impressa de Filippe Holzer. A revisão leu o PDF fornecido e preserva o arco interno de 19 blocos. O PDF sintetiza autores e contém um roteiro em tópicos. Ele não substitui a leitura das fontes originais citadas nem demonstra efeito comercial da aplicação. A seleção por função está em `cobertura-vsl-pdf-gh.md`.
+
+Ao pesquisar uma técnica específica, registre autor, obra, edição ou versão disponível, endereço quando houver, data de acesso e trecho ou página consultada. Se só houver resumo secundário, identifique o resumo e mantenha esse limite. Não é necessário pesquisar autores para repetir o que já está documentado nos insumos do dono.
