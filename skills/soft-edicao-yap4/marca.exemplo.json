@@ -1,0 +1,45 @@
+{
+  "cores": {
+    "acento": "#D4541C"
+  },
+  "fontes": {
+    "legenda": "CONFIGURAR_FONTE_LICENCIADA"
+  },
+  "formatos": {
+    "talking_head_yap4": {
+      "canvas": [
+        1080,
+        1920
+      ],
+      "texto": [
+        65,
+        195,
+        1015,
+        1400
+      ],
+      "borda_direita_y1005_1400": 940,
+      "legenda": {
+        "x": 940,
+        "y": 1250,
+        "tamanho": 72,
+        "minimo": 52
+      },
+      "divisao_y": 790
+    },
+    "monitor_preservado": {
+      "canvas": [
+        1080,
+        1920
+      ],
+      "camera": "preservar",
+      "texto": [
+        65,
+        195,
+        1015,
+        1400
+      ],
+      "borda_direita_y1005_1400": 940,
+      "excluir": "rosto e conteúdo demonstrado medidos no storyboard"
+    }
+  }
+}

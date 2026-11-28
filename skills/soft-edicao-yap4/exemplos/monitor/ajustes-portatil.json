@@ -1,0 +1,18 @@
+{
+  "fonte": "entrada.mp4",
+  "saida": "saida-v1.mp4",
+  "palavras": "palavras.json",
+  "segmentos": [
+    [
+      0,
+      10
+    ]
+  ],
+  "ganho_db": null,
+  "marca": {
+    "fonte_arquivo": "fontes/FonteLicenciada.ttf",
+    "fonte_uso_autorizado": false
+  },
+  "areas_protegidas": [],
+  "camadas": []
+}

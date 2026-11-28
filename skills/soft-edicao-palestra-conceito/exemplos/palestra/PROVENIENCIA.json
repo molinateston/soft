@@ -1,0 +1,26 @@
+{
+  "estado": "Exemplo reconstruído do plano existente. Prova longa histórica reprovou fala. Arquivos da bancada têm versões/durações divergentes, portanto este exemplo documenta o plano atual e não certifica o render antigo.",
+  "fontes": [
+    {
+      "nome": "cortes.json",
+      "sha256": "ca86c86a49c64b585709a1c269fdcbce59dc0f3ab9a508758549ac936bf2ea07"
+    },
+    {
+      "nome": "palavras-saida.json",
+      "sha256": "8a204e002a2bd0980cf5f20703ea6231d2537450e497f2b0bcb2cc31784500f9"
+    },
+    {
+      "nome": "ajustes.json",
+      "sha256": "cc3f09124702b129973d9878582a60d9d4cdbd758f4528aac59df46a5e663155"
+    },
+    {
+      "nome": "gate-fala.json",
+      "sha256": "6971e3a434f7a2d33eab2c93609361836024b2a51692eb1e7b1906283ccaeb9a"
+    },
+    {
+      "nome": "render-log.json",
+      "sha256": "1ad8883509abbfdaa4e4dbc2ea527bda10c68bb18b013c615269613cc1615a58"
+    }
+  ],
+  "privacidade": "nomes e caminhos do bruto removidos; nenhum vídeo ou dado de nuvem distribuído"
+}

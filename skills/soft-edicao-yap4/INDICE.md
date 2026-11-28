@@ -1,0 +1,23 @@
+# Índice
+
+- INDICE.md
+- ORQUESTRACAO.md
+- README.md
+- SKILL.md
+- VALIDACAO.md
+- assets/safe-zone-reels-1080x1920.png
+- exemplos/monitor/BRIEFING.md
+- exemplos/monitor/MAPA-CORTE.md
+- exemplos/monitor/PROVENIENCIA.json
+- exemplos/monitor/STORYBOARD.md
+- exemplos/monitor/palavras-exemplo.json
+- exemplos/monitor/storyboard.json
+- marca.exemplo.json
+- modelos/BRIEFING.md
+- modelos/CHECKLIST-ENTREGA.md
+- modelos/MAPA-CORTE.md
+- modelos/STORYBOARD.md
+- references/FERRAMENTAS.md
+- references/PROCESSO.md
+- scripts/executar_etapa.py
+- scripts/validar_storyboard.py

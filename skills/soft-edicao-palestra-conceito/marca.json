@@ -1,0 +1,71 @@
+{
+  "_leia": "Parâmetros de marca de exemplo. Preencher antes da edição.",
+  "cliente": "exemplo",
+  "cores": {
+    "tarja": "#141413",
+    "texto": "#faf9f5",
+    "sub": "#e6e3da",
+    "acento": "#D4541C",
+    "traco": "#faf9f5",
+    "legenda": "#faf9f5",
+    "legenda_contorno": "#141413"
+  },
+  "paleta": [
+    "#faf9f5",
+    "#141413",
+    "#D4541C",
+    "#e6e3da"
+  ],
+  "cores_proibidas": [
+    "#4ade80"
+  ],
+  "fontes": {
+    "headline": "assets/fontes/InterDisplay-ExtraBold.otf",
+    "sub": "assets/fontes/InterDisplay-Medium.otf",
+    "legenda": "assets/fontes/Inter-ExtraBold.otf",
+    "desenho": "assets/fontes/Inter-Light.otf",
+    "desenho_forte": "assets/fontes/Inter-Medium.otf"
+  },
+  "tamanhos": {
+    "headline": 96,
+    "sub": 46,
+    "legenda": 66,
+    "headline_max_linhas": 2,
+    "sub_max_linhas": 2,
+    "largura_max_linha": 990
+  },
+  "cta": {
+    "texto": "CONFIGURAR CTA AUTORIZADO",
+    "palavra_chave": "AGENTE",
+    "onde": "legenda do post; o vídeo não leva CTA queimado"
+  },
+  "duracao_min_s": 90,
+  "velocidade": 1.15,
+  "musica": false,
+  "legenda": {
+    "modo": "uma_palavra",
+    "fixa": true,
+    "min_s": 0.12
+  },
+  "whisper": {
+    "modelo": "large-v3",
+    "idioma": "pt",
+    "prompt": "Palestra sobre inteligencia artificial. ChatGPT, Claude, agentes de IA, skills, VPS.",
+    "beam": 5
+  },
+  "loops_abertos": [
+    "vou (te )?mostrar",
+    "vou (te )?contar",
+    "j[aá] j[aá]",
+    "daqui a pouco",
+    "mais pra frente",
+    "depois eu (te )?(falo|mostro|conto)",
+    "vamos ver"
+  ],
+  "area_segura": {
+    "topo_y_min": 150,
+    "margem_x": 60,
+    "desenho_y_max": 505
+  },
+  "lint_copy": ""
+}

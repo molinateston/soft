@@ -1,0 +1,42 @@
+{
+  "fonte": "fonte.mp4",
+  "saida": "final-v1.mp4",
+  "palavras": "palavras.json",
+  "rostos": "rostos.json",
+  "marca": {
+    "fonte_arquivo": "fontes/fonte-licenciada.ttf",
+    "fonte_uso_autorizado": false
+  },
+  "segmentos": [
+    [
+      0,
+      6.7
+    ],
+    [
+      8.8,
+      12.42
+    ],
+    [
+      14.04,
+      42.44
+    ]
+  ],
+  "ganho_db": null,
+  "areas_protegidas": [
+    [
+      170,
+      1000,
+      760,
+      1800
+    ]
+  ],
+  "camadas": [],
+  "divisoes": [
+    {
+      "inicio": 0,
+      "fim": 5.5,
+      "arquivo": "apoios/retrato.jpg",
+      "foto_animada": true
+    }
+  ]
+}

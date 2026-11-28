@@ -1,0 +1,1771 @@
+{
+  "formato": "palestra_conceito",
+  "duracao_s": 108.1,
+  "tipo_prova": "componentes",
+  "promessas_revisadas": true,
+  "loops": [],
+  "estado": "Revisão semântica de promessas concluída por cena; escuta fonética integral e revisão independente das legendas não comprovadas.",
+  "cenas": [
+    {
+      "id": "C04",
+      "saida": [
+        0,
+        3.381
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1017.7,
+        "fim": 1021.5882,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "Onde mora esse agente? A gente não mora em Estados Unidos, a gente não pode ficar comprando um monte de",
+      "ancora": "mora",
+      "palavras_ids": [
+        "w0000",
+        "w0001",
+        "w0002",
+        "w0003",
+        "w0004",
+        "w0005",
+        "w0006",
+        "w0007",
+        "w0008",
+        "w0009",
+        "w0010",
+        "w0011",
+        "w0012",
+        "w0013",
+        "w0014",
+        "w0015",
+        "w0016",
+        "w0017",
+        "w0018",
+        "w0019"
+      ],
+      "material": "Na pergunta mora, mostrar contorno vazio de lugar ligado ao agente; ainda sem servidor nomeado.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0001 (mora, 0.452s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Desenho pergunta onde hospedar, sem responder antes da fala.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S04",
+      "ancora_id": "w0001",
+      "ancora_saida_s": 0.452,
+      "sequencia_movimento": "Na pergunta mora, mostrar contorno vazio de lugar ligado ao agente; ainda sem servidor nomeado.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Onde mora esse agente? A gente não mora em Estados Unidos, a gente não pode ficar comprando um monte de",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Pergunta de hospedagem; desenho interrogativo não antecipa resposta."
+      }
+    },
+    {
+      "id": "C05",
+      "saida": [
+        3.381,
+        6.156
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1021.5882,
+        "fim": 1024.7794,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "Mac Mini, né? Que nem a galera lá está estocando a gente em Mac Mini, né?",
+      "ancora": "Mac",
+      "palavras_ids": [
+        "w0020",
+        "w0021",
+        "w0022",
+        "w0023",
+        "w0024",
+        "w0025",
+        "w0026",
+        "w0027",
+        "w0028",
+        "w0029",
+        "w0030",
+        "w0031",
+        "w0032",
+        "w0033",
+        "w0034",
+        "w0035"
+      ],
+      "material": "Substituir pergunta por pequeno computador genérico, sem logo: representa o equipamento Mac Mini citado; repetição mantém o mesmo objeto, sem empilhar quantidades não demonstradas.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0020 (Mac, 3.382s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Objeto entra em Mac, sem foto/identidade de pessoa nem mapa dos Estados Unidos desnecessário.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S04",
+      "ancora_id": "w0020",
+      "ancora_saida_s": 3.382,
+      "sequencia_movimento": "Substituir pergunta por pequeno computador genérico, sem logo: representa o equipamento Mac Mini citado; repetição mantém o mesmo objeto, sem empilhar quantidades não demonstradas.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Mac Mini, né? Que nem a galera lá está estocando a gente em Mac Mini, né?",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Equipamento genérico citado, sem alegar quantidade vendida."
+      }
+    },
+    {
+      "id": "C06",
+      "saida": [
+        6.156,
+        10.609
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1024.7794,
+        "fim": 1029.9004,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "Os caras têm... Só... É, o [pessoa] pode, verdade.",
+      "ancora": "Os",
+      "palavras_ids": [
+        "w0036",
+        "w0037",
+        "w0038",
+        "w0039",
+        "w0040",
+        "w0041",
+        "w0042",
+        "w0043",
+        "w0044"
+      ],
+      "material": "Retirar computador e manter palestrante durante comentário lateral e nome de pessoa incerto.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0036 (Os, 6.157s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Sem retrato, legenda definitiva de nome ou ilustração literal da brincadeira.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S04",
+      "ancora_id": "w0036",
+      "ancora_saida_s": 6.157,
+      "sequencia_movimento": "Retirar computador e manter palestrante durante comentário lateral e nome de pessoa incerto.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Os caras têm... Só... É, o PESSOA pode, verdade.",
+      "incertos_a_conferir": [
+        {
+          "id": "w0086",
+          "asr": "PESSOA",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Comentário lateral, sem desenho ou promessa."
+      }
+    },
+    {
+      "id": "C07",
+      "saida": [
+        10.609,
+        15.165
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1029.9004,
+        "fim": 1035.1398,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "[pessoa] já deve ter uns 15. Você tá aí, mano. E aí, basicamente, a gente coloca esse cara numa",
+      "ancora": "[pessoa]",
+      "palavras_ids": [
+        "w0045",
+        "w0046",
+        "w0047",
+        "w0048",
+        "w0049",
+        "w0050",
+        "w0051",
+        "w0052",
+        "w0053",
+        "w0054",
+        "w0055",
+        "w0056",
+        "w0057",
+        "w0058",
+        "w0059",
+        "w0060",
+        "w0061",
+        "w0062",
+        "w0063"
+      ],
+      "material": "Continuar palestrante durante comentário pessoal; nenhum contador 15 é apresentado como informação comprovada.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0045 ([pessoa], 10.609s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Nome próprio fica incerto_a_conferir e não vai à legenda final.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S05",
+      "ancora_id": "w0045",
+      "ancora_saida_s": 10.609,
+      "sequencia_movimento": "Continuar palestrante durante comentário pessoal; nenhum contador 15 é apresentado como informação comprovada.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "PESSOA já deve ter uns 15. Você tá aí, mano. E aí, basicamente,",
+      "incertos_a_conferir": [
+        {
+          "id": "w0089",
+          "asr": "PESSOA",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Comentário pessoal, nenhum número apresentado como prova."
+      }
+    },
+    {
+      "id": "C08",
+      "saida": [
+        15.165,
+        17.061
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1035.1398,
+        "fim": 1037.3202,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "VPS, que é um computador na",
+      "ancora": "VPS,",
+      "palavras_ids": [
+        "w0064",
+        "w0065",
+        "w0066",
+        "w0067",
+        "w0068",
+        "w0069"
+      ],
+      "material": "Desenhar caixa de hospedagem sem marca e mover ponto agente para dentro apenas em VPS.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0064 (VPS,, 15.165s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Movimento termina com agente contido na caixa; não mostrar logo de provedor ou preço.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S05",
+      "ancora_id": "w0064",
+      "ancora_saida_s": 15.165,
+      "sequencia_movimento": "Desenhar caixa de hospedagem sem marca e mover ponto agente para dentro apenas em VPS.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "a gente coloca esse cara numa VPS,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "VPS representa hospedagem remota citada, sem marca."
+      }
+    },
+    {
+      "id": "C09",
+      "saida": [
+        17.061,
+        21.739
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1037.3202,
+        "fim": 1042.6998,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "rede, onde você paga uma assinatura. Tem uma discussão... Tá rolando uma discussão muito forte sobre",
+      "ancora": "rede,",
+      "palavras_ids": [
+        "w0070",
+        "w0071",
+        "w0072",
+        "w0073",
+        "w0074",
+        "w0075",
+        "w0076",
+        "w0077",
+        "w0078",
+        "w0079",
+        "w0080",
+        "w0081",
+        "w0082",
+        "w0083",
+        "w0084",
+        "w0085"
+      ],
+      "material": "Converter caixa em computador remoto e ligar a um nó de rede em rede; adicionar símbolo de assinatura recorrente somente em assinatura, sem valor.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0070 (rede,, 17.061s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Rede e recorrência aparecem nas respectivas palavras, sem cadeado ou segurança garantida.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S06",
+      "ancora_id": "w0070",
+      "ancora_saida_s": 17.061,
+      "sequencia_movimento": "Converter caixa em computador remoto e ligar a um nó de rede em rede; adicionar símbolo de assinatura recorrente somente em assinatura, sem valor.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "que é um computador na rede, onde você paga uma assinatura.",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0114",
+          "palavra_asr": "rede,",
+          "saida_s": 27.758,
+          "acao": "ligar computador ao nó de rede",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0119",
+          "palavra_asr": "assinatura.",
+          "saida_s": 28.732,
+          "acao": "adicionar recorrência sem valor",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Rede e assinatura sem preço ou desempenho inventado."
+      }
+    },
+    {
+      "id": "C10",
+      "saida": [
+        21.739,
+        28.173
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1042.6998,
+        "fim": 1050.099,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "segurança, tá? Cara, gente, a maioria dos seres humanos na Terra já usam o",
+      "ancora": "segurança,",
+      "palavras_ids": [
+        "w0086",
+        "w0087",
+        "w0088",
+        "w0089",
+        "w0090",
+        "w0091",
+        "w0092",
+        "w0093",
+        "w0094",
+        "w0095",
+        "w0096",
+        "w0097",
+        "w0098",
+        "w0099"
+      ],
+      "material": "Suspender explicação da máquina; em segurança desenhar apenas ponto de interrogação junto da caixa, sem escudo aprovado. Sustentar estado durante pausa até próxima fala.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0086 (segurança,, 21.739s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "A fala introduz discussão; imagem não declara proteção comprovada. Pausa 33.044–34.232 não contém palavra inventada.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S07",
+      "ancora_id": "w0086",
+      "ancora_saida_s": 21.739,
+      "sequencia_movimento": "Suspender explicação da máquina; em segurança desenhar apenas ponto de interrogação junto da caixa, sem escudo aprovado. Sustentar estado durante pausa até próxima fala.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Tem uma discussão... Tá rolando uma discussão muito forte sobre segurança, tá?",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Segurança é discussão, pergunta preserva incerteza, sem selo de proteção."
+      }
+    },
+    {
+      "id": "C11",
+      "saida": [
+        28.173,
+        30.104
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1050.099,
+        "fim": 1052.3196,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "computador na sua casa, coloca um",
+      "ancora": "computador",
+      "palavras_ids": [
+        "w0100",
+        "w0101",
+        "w0102",
+        "w0103",
+        "w0104",
+        "w0105"
+      ],
+      "material": "Mostrar computador dentro de contorno de casa na palavra computador; não identificar usuário real.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0100 (computador, 28.174s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Comparação parte do computador doméstico, sem banco de imagem de produto.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S09",
+      "ancora_id": "w0100",
+      "ancora_saida_s": 28.174,
+      "sequencia_movimento": "Mostrar computador dentro de contorno de casa na palavra computador; não identificar usuário real.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Cara, gente, a maioria dos seres humanos na Terra já usam o computador na sua casa, coloca um",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Computador doméstico conforme fala, sem identidade real."
+      }
+    },
+    {
+      "id": "C12",
+      "saida": [
+        30.104,
+        35.895
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1052.3196,
+        "fim": 1058.9793,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "avaste e falou, dá boa, avaste aqui vai segurar um ataque, não tem a menor preocupação com segurança, hoje eu considero uma",
+      "ancora": "avaste",
+      "palavras_ids": [
+        "w0106",
+        "w0107",
+        "w0108",
+        "w0109",
+        "w0110",
+        "w0111",
+        "w0112",
+        "w0113",
+        "w0114",
+        "w0115",
+        "w0116",
+        "w0117",
+        "w0118",
+        "w0119",
+        "w0120",
+        "w0121",
+        "w0122",
+        "w0123",
+        "w0124",
+        "w0125",
+        "w0126",
+        "w0127"
+      ],
+      "material": "Proteção local genérica e seta de ataque; não identifica marca nem promete bloqueio.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0106 (avaste, 30.104s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Termos w0150/w0155 ficam incertos; não usar logo de antivírus nem afirmar defesa efetiva.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S09",
+      "ancora_id": "w0106",
+      "ancora_saida_s": 30.104,
+      "sequencia_movimento": "Proteção local genérica e seta de ataque; não identifica marca nem promete bloqueio.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "avaste e falou, dá boa, avaste aqui vai segurar um ataque, não tem a menor preocupação com segurança,",
+      "incertos_a_conferir": [
+        {
+          "id": "w0150",
+          "asr": "avaste",
+          "status": "incerto_a_conferir"
+        },
+        {
+          "id": "w0155",
+          "asr": "avaste",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0150",
+          "palavra_asr": "avaste",
+          "saida_s": 39.119,
+          "acao": "etiqueta neutra de termo incerto",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0160",
+          "palavra_asr": "ataque,",
+          "saida_s": 41.884,
+          "acao": "aproximar seta de ataque sem bloqueio",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Proteção local genérica; seta mostra ameaça, sem afirmar bloqueio ou nome incerto."
+      }
+    },
+    {
+      "id": "C13",
+      "saida": [
+        35.895,
+        40.869
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1058.9793,
+        "fim": 1064.6994,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "VPS, a dependência da empresa que você contrata, mais segura que o seu computador local na sua casa, dependendo do quanto você",
+      "ancora": "VPS,",
+      "palavras_ids": [
+        "w0128",
+        "w0129",
+        "w0130",
+        "w0131",
+        "w0132",
+        "w0133",
+        "w0134",
+        "w0135",
+        "w0136",
+        "w0137",
+        "w0138",
+        "w0139",
+        "w0140",
+        "w0141",
+        "w0142",
+        "w0143",
+        "w0144",
+        "w0145",
+        "w0146",
+        "w0147",
+        "w0148",
+        "w0149"
+      ],
+      "material": "Máquina remota e empresa contratada; preserva condição da comparação de segurança, sem garantia.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0128 (VPS,, 35.896s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Comparação visual permanece relativa, sem selo mais seguro nem ranking objetivo.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S09",
+      "ancora_id": "w0128",
+      "ancora_saida_s": 35.896,
+      "sequencia_movimento": "Máquina remota e empresa contratada; preserva condição da comparação de segurança, sem garantia.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "hoje eu considero uma VPS, a dependência da empresa que você contrata, mais segura que o seu computador local na sua casa,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0172",
+          "palavra_asr": "VPS,",
+          "saida_s": 44.91,
+          "acao": "mostrar segunda caixa remota",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0176",
+          "palavra_asr": "empresa",
+          "saida_s": 45.884,
+          "acao": "destacar dependência do fornecedor",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Comparação condicionada à empresa contratada; não é garantia de segurança."
+      }
+    },
+    {
+      "id": "C14",
+      "saida": [
+        40.869,
+        42.243
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1064.6994,
+        "fim": 1066.2794,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "entende sobre isso,",
+      "ancora": "entende",
+      "palavras_ids": [
+        "w0150",
+        "w0151",
+        "w0152"
+      ],
+      "material": "Adicionar dependência de conhecimento do usuário como pequena ligação pontilhada ao computador; sem escala de competência inventada.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0150 (entende, 40.870s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "A ressalva dependendo fica simultaneamente legível; não apagar condicionante anterior.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S10",
+      "ancora_id": "w0150",
+      "ancora_saida_s": 40.87,
+      "sequencia_movimento": "Adicionar dependência de conhecimento do usuário como pequena ligação pontilhada ao computador; sem escala de competência inventada.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "dependendo do quanto você entende sobre isso,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Condição depende do conhecimento do usuário; sem certificação."
+      }
+    },
+    {
+      "id": "C15",
+      "saida": [
+        42.243,
+        46.261
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1066.2794,
+        "fim": 1070.9001,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "comparado com a maioria dos seres humanos que usam a internet, você vai estar bem mais segurado, o que é uma",
+      "ancora": "comparado",
+      "palavras_ids": [
+        "w0153",
+        "w0154",
+        "w0155",
+        "w0156",
+        "w0157",
+        "w0158",
+        "w0159",
+        "w0160",
+        "w0161",
+        "w0162",
+        "w0163",
+        "w0164",
+        "w0165",
+        "w0166",
+        "w0167",
+        "w0168",
+        "w0169",
+        "w0170",
+        "w0171",
+        "w0172",
+        "w0173"
+      ],
+      "material": "Retomar os dois computadores sem adicionar dados; manter a comparação relativa até a nova pergunta.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0153 (comparado, 42.243s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Repetição intencional de comparado não é removida pelo storyboard.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S11",
+      "ancora_id": "w0153",
+      "ancora_saida_s": 42.243,
+      "sequencia_movimento": "Retomar os dois computadores sem adicionar dados; manter a comparação relativa até a nova pergunta.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "comparado com a maioria dos seres humanos que usam a internet, você vai estar bem mais segurado,",
+      "incertos_a_conferir": [
+        {
+          "id": "w0213",
+          "asr": "segurado,",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Comparação relativa do palestrante, sem prova técnica ou proteção absoluta."
+      }
+    },
+    {
+      "id": "C16",
+      "saida": [
+        46.261,
+        49.356
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1070.9001,
+        "fim": 1074.4594,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "VPS? Você assina um computador que vai ter tanto de",
+      "ancora": "VPS?",
+      "palavras_ids": [
+        "w0174",
+        "w0175",
+        "w0176",
+        "w0177",
+        "w0178",
+        "w0179",
+        "w0180",
+        "w0181",
+        "w0182",
+        "w0183"
+      ],
+      "material": "Recolher comparação e destacar computador remoto em VPS; ícone de assinatura entra em assina.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0174 (VPS?, 46.261s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Estado muda na pergunta que é uma VPS; nenhuma especificação aparece antes de ser dita.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S11",
+      "ancora_id": "w0174",
+      "ancora_saida_s": 46.261,
+      "sequencia_movimento": "Recolher comparação e destacar computador remoto em VPS; ícone de assinatura entra em assina.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "o que é uma VPS? Você assina um computador que vai ter tanto de",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0218",
+          "palavra_asr": "VPS?",
+          "saida_s": 54.638,
+          "acao": "destacar computador remoto",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0220",
+          "palavra_asr": "assina",
+          "saida_s": 55.212,
+          "acao": "adicionar assinatura",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Assinatura de computador remoto; nenhum preço."
+      }
+    },
+    {
+      "id": "C17",
+      "saida": [
+        49.356,
+        51.565
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1074.4594,
+        "fim": 1076.9997,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "memória RAM, tanto de tamanho e você faz o agente",
+      "ancora": "memória",
+      "palavras_ids": [
+        "w0184",
+        "w0185",
+        "w0186",
+        "w0187",
+        "w0188",
+        "w0189",
+        "w0190",
+        "w0191",
+        "w0192",
+        "w0193"
+      ],
+      "material": "Adicionar duas gavetas vazias ao computador, memória RAM e capacidade; a segunda fica sem rótulo técnico definitivo porque tamanho é ambíguo. Sem números de configuração.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0184 (memória, 49.357s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "RAM entra na palavra memória; tamanho não vira disco/armazenamento sem confirmação.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S11",
+      "ancora_id": "w0184",
+      "ancora_saida_s": 49.357,
+      "sequencia_movimento": "Adicionar duas gavetas vazias ao computador, memória RAM e capacidade; a segunda fica sem rótulo técnico definitivo porque tamanho é ambíguo. Sem números de configuração.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "memória RAM, tanto de tamanho e você faz o",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0228",
+          "palavra_asr": "memória",
+          "saida_s": 57.733,
+          "acao": "gaveta memória RAM",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0232",
+          "palavra_asr": "tamanho",
+          "saida_s": 58.568,
+          "acao": "segunda gaveta capacidade sem especificar tipo",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "RAM e capacidade sem números; tamanho não traduzido como armazenamento garantido."
+      }
+    },
+    {
+      "id": "C18",
+      "saida": [
+        51.565,
+        60.383
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1076.9997,
+        "fim": 1087.1405,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "morar lá, você instala o agente lá e esse agente mora lá e que fica só para ele, tá? Por que ele mora em uma VPS? Primeira vantagem, ele está",
+      "ancora": "morar",
+      "palavras_ids": [
+        "w0194",
+        "w0195",
+        "w0196",
+        "w0197",
+        "w0198",
+        "w0199",
+        "w0200",
+        "w0201",
+        "w0202",
+        "w0203",
+        "w0204",
+        "w0205",
+        "w0206",
+        "w0207",
+        "w0208",
+        "w0209",
+        "w0210",
+        "w0211",
+        "w0212",
+        "w0213",
+        "w0214",
+        "w0215",
+        "w0216",
+        "w0217",
+        "w0218",
+        "w0219",
+        "w0220",
+        "w0221",
+        "w0222",
+        "w0223"
+      ],
+      "material": "Mover ponto agente para dentro da máquina em morar; contorno da máquina permanece exclusivo, sem outros usuários inventados.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0194 (morar, 51.565s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Entrada do agente corresponde a morar/instala; nenhuma nova etapa técnica é simulada.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S11",
+      "ancora_id": "w0194",
+      "ancora_saida_s": 51.565,
+      "sequencia_movimento": "Mover ponto agente para dentro da máquina em morar; contorno da máquina permanece exclusivo, sem outros usuários inventados.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "agente morar lá, você instala o agente lá e esse agente mora lá e que fica só para ele, tá?",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Uso dedicado do agente é explicação do palestrante, sem SLA."
+      }
+    },
+    {
+      "id": "C19",
+      "saida": [
+        60.383,
+        66.522
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1087.1405,
+        "fim": 1094.2003,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "ligado, essa VPS está ligada 24 horas por dia, 7 dias por semana, nunca desliga. Primeira vantagem, seu computador, se você",
+      "ancora": "ligado,",
+      "palavras_ids": [
+        "w0224",
+        "w0225",
+        "w0226",
+        "w0227",
+        "w0228",
+        "w0229",
+        "w0230",
+        "w0231",
+        "w0232",
+        "w0233",
+        "w0234",
+        "w0235",
+        "w0236",
+        "w0237",
+        "w0238",
+        "w0239",
+        "w0240",
+        "w0241",
+        "w0242",
+        "w0243",
+        "w0244"
+      ],
+      "material": "Manter máquina remota e agente; ligar indicador em ligado, completar aro de relógio em 24 e marcar sete traços em 7.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0224 (ligado,, 60.383s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Relógio só entra após ligado; 24 horas e 7 dias são disponibilidade descrita, sem SLA inventado.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S12",
+      "ancora_id": "w0224",
+      "ancora_saida_s": 60.383,
+      "sequencia_movimento": "Manter máquina remota e agente; ligar indicador em ligado, completar aro de relógio em 24 e marcar sete traços em 7.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Por que ele mora em uma VPS? Primeira vantagem, ele está ligado, essa VPS está ligada 24 horas por dia, 7 dias por semana, nunca desliga.",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0268",
+          "palavra_asr": "ligado,",
+          "saida_s": 66.216,
+          "acao": "ligar indicador",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0273",
+          "palavra_asr": "24",
+          "saida_s": 67.851,
+          "acao": "completar aro de 24 horas",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0277",
+          "palavra_asr": "7",
+          "saida_s": 68.616,
+          "acao": "marcar sete dias",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "24h/7dias é afirmação da fala, não SLA verificado; relógio e sete marcas entram nas palavras."
+      }
+    },
+    {
+      "id": "C20",
+      "saida": [
+        66.522,
+        70.053
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1094.2003,
+        "fim": 1098.261,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "instala um agente local, assim como o seu Cloud Code que está local na sua máquina, uma hora você vai desligar",
+      "ancora": "instala",
+      "palavras_ids": [
+        "w0245",
+        "w0246",
+        "w0247",
+        "w0248",
+        "w0249",
+        "w0250",
+        "w0251",
+        "w0252",
+        "w0253",
+        "w0254",
+        "w0255",
+        "w0256",
+        "w0257",
+        "w0258",
+        "w0259",
+        "w0260",
+        "w0261",
+        "w0262",
+        "w0263",
+        "w0264",
+        "w0265"
+      ],
+      "material": "Contrapor computador local à máquina remota; colocar agente no local em instala. Nome de software incerto não vira logo.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0245 (instala, 66.522s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Cloud Code permanece incerto; local e remoto são distinguíveis sem cor verde.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S13",
+      "ancora_id": "w0245",
+      "ancora_saida_s": 66.522,
+      "sequencia_movimento": "Contrapor computador local à máquina remota; colocar agente no local em instala. Nome de software incerto não vira logo.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Primeira vantagem, seu computador, se você instala um agente local, assim como o seu Cloud Code que está local na sua máquina, uma hora você vai",
+      "incertos_a_conferir": [
+        {
+          "id": "w0297",
+          "asr": "Cloud",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Agente local genérico, nenhum nome ASR vira marca."
+      }
+    },
+    {
+      "id": "C21",
+      "saida": [
+        70.053,
+        71.879
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1098.261,
+        "fim": 1100.3609,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "esse computador, uma hora você vai abrir outros programas,",
+      "ancora": "desligar",
+      "palavras_ids": [
+        "w0266",
+        "w0267",
+        "w0268",
+        "w0269",
+        "w0270",
+        "w0271",
+        "w0272",
+        "w0273",
+        "w0274"
+      ],
+      "material": "Apagar somente indicador do computador local em desligar; remoto permanece ligado, sem mudar enquadramento da pessoa.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0265 (desligar, 70.052s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "A animação não desliga o servidor remoto nem antecipa a fala.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S13",
+      "ancora_id": "w0265",
+      "ancora_saida_s": 70.052,
+      "sequencia_movimento": "Apagar somente indicador do computador local em desligar; remoto permanece ligado, sem mudar enquadramento da pessoa.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "desligar esse computador, uma hora você vai",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Desligamento local preserva raciocínio, sem afirmar que VPS nunca falha."
+      }
+    },
+    {
+      "id": "C22",
+      "saida": [
+        71.879,
+        75.843
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1100.3609,
+        "fim": 1104.9195,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "você vai estar navegando, o teu agente vai ter que competir memória",
+      "ancora": "programas,",
+      "palavras_ids": [
+        "w0275",
+        "w0276",
+        "w0277",
+        "w0278",
+        "w0279",
+        "w0280",
+        "w0281",
+        "w0282",
+        "w0283",
+        "w0284",
+        "w0285",
+        "w0286"
+      ],
+      "material": "Religar contorno local para exemplo de uso e inserir duas janelas genéricas em programas/navegando; em competir dividir barra de memória entre janelas e agente, sem percentuais.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0274 (programas,, 71.878s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Janelas entram em programas, barra em memória; não ilustrar desempenho medido.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S13",
+      "ancora_id": "w0274",
+      "ancora_saida_s": 71.878,
+      "sequencia_movimento": "Religar contorno local para exemplo de uso e inserir duas janelas genéricas em programas/navegando; em competir dividir barra de memória entre janelas e agente, sem percentuais.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "abrir outros programas, você vai estar navegando, o teu agente vai ter que competir memória",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0318",
+          "palavra_asr": "programas,",
+          "saida_s": 77.364,
+          "acao": "adicionar janelas de programas",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0322",
+          "palavra_asr": "navegando,",
+          "saida_s": 78.233,
+          "acao": "adicionar navegação genérica",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0330",
+          "palavra_asr": "memória",
+          "saida_s": 79.972,
+          "acao": "dividir barra memória sem números",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Concorrência de memória qualitativa, sem percentuais."
+      }
+    },
+    {
+      "id": "C23",
+      "saida": [
+        75.843,
+        79.93
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1104.9195,
+        "fim": 1109.6195,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "núcleo de processamento com essas outras coisas que você está fazendo, tá? por isso que a máquina é só",
+      "ancora": "núcleo",
+      "palavras_ids": [
+        "w0287",
+        "w0288",
+        "w0289",
+        "w0290",
+        "w0291",
+        "w0292",
+        "w0293",
+        "w0294",
+        "w0295",
+        "w0296",
+        "w0297",
+        "w0298",
+        "w0299",
+        "w0300",
+        "w0301",
+        "w0302",
+        "w0303",
+        "w0304",
+        "w0305"
+      ],
+      "material": "Acrescentar segunda barra de processamento junto da memória; distribuir segmentos sem números enquanto fala núcleo de processamento.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0287 (núcleo, 75.843s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Memória e processamento têm rótulos distintos; não confundir número de núcleos com ocupação medida.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S14",
+      "ancora_id": "w0287",
+      "ancora_saida_s": 75.843,
+      "sequencia_movimento": "Acrescentar segunda barra de processamento junto da memória; distribuir segmentos sem números enquanto fala núcleo de processamento.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "núcleo de processamento com essas outras coisas que você está fazendo, tá?",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Processamento compartilhado sem benchmark."
+      }
+    },
+    {
+      "id": "C24",
+      "saida": [
+        79.93,
+        84.626
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1109.6195,
+        "fim": 1115.0199,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "dele e hoje, como eu disse, eu considero o VCS mais seguro. Outro coisa legal, o",
+      "ancora": "dele",
+      "palavras_ids": [
+        "w0306",
+        "w0307",
+        "w0308",
+        "w0309",
+        "w0310",
+        "w0311",
+        "w0312",
+        "w0313",
+        "w0314",
+        "w0315",
+        "w0316",
+        "w0317",
+        "w0318",
+        "w0319",
+        "w0320",
+        "w0321"
+      ],
+      "material": "Recolher janelas concorrentes da máquina remota em só dele; manter local como contraponto. Final de segurança fica sem nova ilustração até conferir VCS.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0306 (dele, 79.930s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "w0359 não vira VPS por palpite; não adicionar selo de segurança.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S14",
+      "ancora_id": "w0306",
+      "ancora_saida_s": 79.93,
+      "sequencia_movimento": "Recolher janelas concorrentes da máquina remota em só dele; manter local como contraponto. Final de segurança fica sem nova ilustração até conferir VCS.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "por isso que a máquina é só dele e hoje, como eu disse, eu considero o VCS mais seguro.",
+      "incertos_a_conferir": [
+        {
+          "id": "w0359",
+          "asr": "VCS",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Recursos dedicados ilustram argumento; segurança continua opinião condicionada."
+      }
+    },
+    {
+      "id": "C25",
+      "saida": [
+        84.626,
+        85.983
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1115.0199,
+        "fim": 1116.5804,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "cérebro dele é a IAC que eu busco lá no",
+      "ancora": "cérebro",
+      "palavras_ids": [
+        "w0322",
+        "w0323",
+        "w0324",
+        "w0325",
+        "w0326",
+        "w0327",
+        "w0328",
+        "w0329",
+        "w0330",
+        "w0331"
+      ],
+      "material": "No agente, destacar encaixe de cérebro separado da caixa de hospedagem; mostrar cartão vazio de modelo.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0322 (cérebro, 84.626s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Modelo é componente substituível, não o computador remoto; IAC fica incerto.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S15",
+      "ancora_id": "w0322",
+      "ancora_saida_s": 84.626,
+      "sequencia_movimento": "No agente, destacar encaixe de cérebro separado da caixa de hospedagem; mostrar cartão vazio de modelo.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Outro coisa legal, o cérebro dele é a IAC que eu busco lá no",
+      "incertos_a_conferir": [
+        {
+          "id": "w0370",
+          "asr": "IAC",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Modelo como componente separado, sem produto inventado."
+      }
+    },
+    {
+      "id": "C26",
+      "saida": [
+        85.983,
+        88.852
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1116.5804,
+        "fim": 1119.8798,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "Cloud, no Chat EPPT, no GPC, no GROC, então eu consigo",
+      "ancora": "Cloud,",
+      "palavras_ids": [
+        "w0332",
+        "w0333",
+        "w0334",
+        "w0335",
+        "w0336",
+        "w0337",
+        "w0338",
+        "w0339",
+        "w0340",
+        "w0341",
+        "w0342"
+      ],
+      "material": "Mostrar cartões neutros A/B/C/D sucessivamente nos nomes citados, sem logos nem nomes ASR. Substituir cartão no mesmo encaixe a cada nome, sem acumular quatro cérebros.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0332 (Cloud,, 85.983s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Cloud/Chat EPPT/GPC/GROC não são corrigidos por suposição; nomes finais dependem de escuta.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S15",
+      "ancora_id": "w0332",
+      "ancora_saida_s": 85.983,
+      "sequencia_movimento": "Mostrar cartões neutros A/B/C/D sucessivamente nos nomes citados, sem logos nem nomes ASR. Substituir cartão no mesmo encaixe a cada nome, sem acumular quatro cérebros.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "Cloud, no Chat EPPT, no GPC, no GROC, então eu consigo",
+      "incertos_a_conferir": [
+        {
+          "id": "w0376",
+          "asr": "Cloud,",
+          "status": "incerto_a_conferir"
+        },
+        {
+          "id": "w0379",
+          "asr": "EPPT,",
+          "status": "incerto_a_conferir"
+        },
+        {
+          "id": "w0381",
+          "asr": "GPC,",
+          "status": "incerto_a_conferir"
+        },
+        {
+          "id": "w0383",
+          "asr": "GROC,",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0376",
+          "palavra_asr": "Cloud,",
+          "saida_s": 89.838,
+          "acao": "cartão A sem marca",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0378",
+          "palavra_asr": "Chat",
+          "saida_s": 90.325,
+          "acao": "cartão B sem nome ASR",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0381",
+          "palavra_asr": "GPC,",
+          "saida_s": 91.316,
+          "acao": "cartão C sem marca",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0383",
+          "palavra_asr": "GROC,",
+          "saida_s": 91.855,
+          "acao": "cartão D sem marca",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Quatro cartões sucessivos neutros, sem validar grafias ASR."
+      }
+    },
+    {
+      "id": "C27",
+      "saida": [
+        88.852,
+        94.626
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1119.8798,
+        "fim": 1126.5199,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "trocar se eu quiser o modelo de linguagem. No meu agente, você pode, eu já fiz um esquema lá que eu troco com",
+      "ancora": "trocar",
+      "palavras_ids": [
+        "w0343",
+        "w0344",
+        "w0345",
+        "w0346",
+        "w0347",
+        "w0348",
+        "w0349",
+        "w0350",
+        "w0351",
+        "w0352",
+        "w0353",
+        "w0354",
+        "w0355",
+        "w0356",
+        "w0357",
+        "w0358",
+        "w0359",
+        "w0360",
+        "w0361",
+        "w0362",
+        "w0363",
+        "w0364",
+        "w0365"
+      ],
+      "material": "Deslizar cartão A para fora e cartão B para o mesmo encaixe em trocar; manter corpo do agente e hospedagem.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0343 (trocar, 88.852s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "A troca é do modelo de linguagem, não de servidor, pessoa ou skill.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S15",
+      "ancora_id": "w0343",
+      "ancora_saida_s": 88.852,
+      "sequencia_movimento": "Deslizar cartão A para fora e cartão B para o mesmo encaixe em trocar; manter corpo do agente e hospedagem.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "trocar se eu quiser o modelo de linguagem.",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Troca de modelo ilustrada, sem afirmar integração universal testada."
+      }
+    },
+    {
+      "id": "C28",
+      "saida": [
+        94.626,
+        95.948
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1126.5199,
+        "fim": 1128.0402,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "comandos, mas, ou ele se",
+      "ancora": "comandos,",
+      "palavras_ids": [
+        "w0366",
+        "w0367",
+        "w0368",
+        "w0369",
+        "w0370"
+      ],
+      "material": "Mostrar controle de comando abstrato sem texto digitado inventado; seta do controle ao encaixe somente em comandos.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0366 (comandos,, 94.626s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Nenhum comando real ou sintaxe não dita é apresentado ao espectador.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S16",
+      "ancora_id": "w0366",
+      "ancora_saida_s": 94.626,
+      "sequencia_movimento": "Mostrar controle de comando abstrato sem texto digitado inventado; seta do controle ao encaixe somente em comandos.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "No meu agente, você pode, eu já fiz um esquema lá que eu troco com comandos, mas,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Comando abstrato, não apresenta código funcional inventado."
+      }
+    },
+    {
+      "id": "C29",
+      "saida": [
+        95.948,
+        100.035
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1128.0402,
+        "fim": 1132.7403,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "orquestra, se eu tiver com a gente Cloud, eu peço, olha, vai lá no GPT, faz um",
+      "ancora": "orquestra,",
+      "palavras_ids": [
+        "w0371",
+        "w0372",
+        "w0373",
+        "w0374",
+        "w0375",
+        "w0376",
+        "w0377",
+        "w0378",
+        "w0379",
+        "w0380",
+        "w0381",
+        "w0382",
+        "w0383",
+        "w0384",
+        "w0385",
+        "w0386",
+        "w0387"
+      ],
+      "material": "Trocar seta do controle por seta partindo do próprio agente em orquestra, para distinguir decisão delegada do comando manual.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0371 (orquestra,, 95.948s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Alternativa manual e alternativa orquestrada não parecem ações obrigatórias simultâneas.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S16",
+      "ancora_id": "w0371",
+      "ancora_saida_s": 95.948,
+      "sequencia_movimento": "Trocar seta do controle por seta partindo do próprio agente em orquestra, para distinguir decisão delegada do comando manual.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "ou ele se orquestra, se eu tiver com a gente Cloud,",
+      "incertos_a_conferir": [
+        {
+          "id": "w0422",
+          "asr": "Cloud,",
+          "status": "incerto_a_conferir"
+        }
+      ],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Orquestração como exemplo narrado; sem autonomia garantida."
+      }
+    },
+    {
+      "id": "C30",
+      "saida": [
+        100.035,
+        103.392
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1132.7403,
+        "fim": 1136.6008,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "sub -agente, fazer tal tarefa no GPT e tudo mais, mas qualquer agente",
+      "ancora": "sub",
+      "palavras_ids": [
+        "w0388",
+        "w0389",
+        "w0390",
+        "w0391",
+        "w0392",
+        "w0393",
+        "w0394",
+        "w0395",
+        "w0396",
+        "w0397",
+        "w0398",
+        "w0399",
+        "w0400"
+      ],
+      "material": "Na solicitação peço, ramificar uma tarefa do agente principal para nó auxiliar neutro; desenhar ligação em sub-agente. Rótulo do modelo fica pendente de confirmação, sem produto inventado.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0388 (sub, 100.035s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Uma tarefa vai ao auxiliar; não representar uma ferramenta usando outra como fato demonstrado na tela.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S16",
+      "ancora_id": "w0388",
+      "ancora_saida_s": 100.035,
+      "sequencia_movimento": "Na solicitação peço, ramificar uma tarefa do agente principal para nó auxiliar neutro; desenhar ligação em sub-agente. Rótulo do modelo fica pendente de confirmação, sem produto inventado.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "eu peço, olha, vai lá no GPT, faz um sub -agente, fazer tal tarefa no GPT e tudo mais,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "eventos_visuais": [
+        {
+          "palavra_id": "w0424",
+          "palavra_asr": "peço,",
+          "saida_s": 101.084,
+          "acao": "iniciar solicitação de tarefa",
+          "status": "planejado; sincronia a conferir"
+        },
+        {
+          "palavra_id": "w0432",
+          "palavra_asr": "sub",
+          "saida_s": 103.658,
+          "acao": "ramificar nó auxiliar",
+          "status": "planejado; sincronia a conferir"
+        }
+      ],
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Nó auxiliar ilustra pedido de tarefa, sem marca ou execução comprovada."
+      }
+    },
+    {
+      "id": "C31",
+      "saida": [
+        103.392,
+        107.496
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1136.6008,
+        "fim": 1141.3204,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "hoje você consegue aplicar esse tipo de estratégia, isso é",
+      "ancora": "agente",
+      "palavras_ids": [
+        "w0401",
+        "w0402",
+        "w0403",
+        "w0404",
+        "w0405",
+        "w0406",
+        "w0407",
+        "w0408",
+        "w0409",
+        "w0410"
+      ],
+      "material": "Manter diagrama principal/auxiliar já desenhado, retirar rótulos provisórios, sem acrescentar marca nem afirmar compatibilidade universal testada.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0400 (agente, 103.391s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "A generalização permanece como fala do apresentador; imagem não adiciona check de produto.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S17",
+      "ancora_id": "w0400",
+      "ancora_saida_s": 103.391,
+      "sequencia_movimento": "Manter diagrama principal/auxiliar já desenhado, retirar rótulos provisórios, sem acrescentar marca nem afirmar compatibilidade universal testada.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "mas qualquer agente hoje você consegue aplicar esse tipo de estratégia,",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Generalização permanece apenas na fala; desenho não acrescenta compatibilidade certificada."
+      }
+    },
+    {
+      "id": "C32",
+      "saida": [
+        107.496,
+        108.1
+      ],
+      "fonte": {
+        "arquivo": "palestra.mp4",
+        "inicio": 1141.3204,
+        "fim": 1142.015,
+        "mapa": "palavras-storyboard.json",
+        "nota": "Mapa contínuo, sem emenda interna. Fronteira de cena muda desenho, preserva áudio."
+      },
+      "fala": "interessante.",
+      "ancora": "interessante.",
+      "palavras_ids": [
+        "w0411"
+      ],
+      "material": "Manter último estado estático por esta frase curta e encerrar sem novo desenho nem CTA inventado.",
+      "composicao": "Painel original completo na faixa y656..1264. Headline na tarja preta superior. Conceito na tarja inferior y1264..1920, desenho útil x66..1014/y1276..1769. Manter rosto e legenda y1172 livres. Conferir interface do destino separadamente; não deslocar desenho para cima.",
+      "legenda": "uma palavra por vez, fixa y1172; conferir boca",
+      "transicao": "Áudio contínuo; gráfico entra na âncora w0411 (interessante., 107.496s), sem corte de fala.",
+      "cta_loop": "Pergunta sobre moradia responde VPS; exemplo contínuo exclui promessa anterior de cinco camadas. Escuta e revisão independente pendentes.",
+      "criterio": "Fim preserva interessante inteiro; cinco camadas e estratégias continuam marcadas como promessas ainda não revisadas.",
+      "transformacao_camera": "painel 16:9 integral preservado",
+      "cena_origem": "S18",
+      "ancora_id": "w0411",
+      "ancora_saida_s": 107.496,
+      "sequencia_movimento": "Manter último estado estático por esta frase curta e encerrar sem novo desenho nem CTA inventado.",
+      "status_material": "implementado; revisão semântica em references/REVISAO-SEMANTICA-EXEMPLO.md",
+      "texto_asr": "isso é interessante.",
+      "incertos_a_conferir": [],
+      "legenda_final_status": "Produzida a partir do mapa em cache; grafias incertas exigem conferência fonética específica, sem inferir marca.",
+      "revisao_promessas": {
+        "conferido": true,
+        "base": "palavras-storyboard.json + desenho executado",
+        "parecer": "Fechamento mantém diagrama, não acrescenta CTA ou promessa."
+      }
+    }
+  ],
+  "evidencia_promessas": "references/REVISAO-SEMANTICA-EXEMPLO.md"
+}

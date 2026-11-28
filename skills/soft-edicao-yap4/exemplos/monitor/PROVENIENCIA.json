@@ -1,0 +1,18 @@
+{
+  "estado": "Exemplo reconstruído do mapa antigo do monitor. Último gate integral REPROVA6; mapa posterior não validado; final antigo desatualizado. Não usar este storyboard como plano liberado.",
+  "fontes": [
+    {
+      "nome": "trabalho/palavras-saida-v203.json",
+      "sha256": "5bcbd242f737177119dacceba6b5508ccec7c34bcd357465a165e0c31bc7a54d"
+    },
+    {
+      "nome": "scripts/v203_plano.py",
+      "sha256": "2166572d14fc59af297ab3b8c19a9ff3d6ba90eb565f37d391ef30fa32bbf1f1"
+    },
+    {
+      "nome": "conferencia/PONTO-DE-PARADA-2026-11-27.md",
+      "sha256": "2b2fce8e2e3f84ead7dc7747ee104551d5e1a82341e742d8fff5d7e8a9c51c82"
+    }
+  ],
+  "privacidade": "nomes e caminhos do bruto removidos; nenhum vídeo ou dado de nuvem distribuído"
+}

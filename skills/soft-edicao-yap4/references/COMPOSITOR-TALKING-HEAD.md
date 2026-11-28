@@ -1,0 +1,7 @@
+# Compositor de talking head
+
+Execute `python3 scripts/compor_talking_head.py trabalho/ajustes.json`. O contrato reutiliza fonte, palavras, segmentos, marca, ganho, camadas e áreas protegidas do compositor de monitor. Acrescente `divisoes`: intervalos de saída com `inicio`, `fim`, `arquivo` e, para foto, `foto_animada: true`. O apoio ocupa y0..790; a pessoa usa a janela x180/y380 da fonte, escala 1,2. O quadro completo volta entre apoios. Não recorte o monitor com este compositor.
+
+Declare `rostos` como JSON de amostras `{k, rosto: [x,y,w,h]}` da fonte a 30 fps. A legenda fixa x940/y1250 usa a altura real da fonte no libass. As amostras próximas de cada palavra verificam a faixa vertical da legenda, incluindo orelhas e margem de 20 px. Reduza somente a palavra que exige redução, até 52; se não couber, encurte ou substitua o apoio visual e preserve a fala. Sem amostras, a divisão exige limite conservador `rosto_direita` medido. Não afirme que a detecção automática substitui conferência visual da cabeça inteira.
+
+Dependências: Python 3, Pillow, fontTools, ffmpeg com libass/libx264 e ffprobe. A fonte tipográfica deve ter autorização registrada em `marca.fonte_uso_autorizado`. Sem música. O programa não substitui a decupagem: segmentos são decisões anteriores e nenhuma borda pode atravessar palavra. A saída não pode existir. O manifesto inclui hashes e tempo real; renderização não significa aprovação semântica ou audiovisual.

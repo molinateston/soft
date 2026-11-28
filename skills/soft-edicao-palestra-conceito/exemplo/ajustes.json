@@ -1,0 +1,98 @@
+{
+  "_leia": "Copie para a pasta de trabalho e preencha. Tempos em segundos ABSOLUTOS da fonte (os mesmos do trechos.txt). Exemplo didático, substituir todos os tempos e copy pela decupagem real.",
+  "fonte": "bruto/palestra.mp4",
+  "janela": [
+    600,
+    900
+  ],
+  "slug": "nome-curto-do-reel",
+  "blocos": [
+    [
+      612.4,
+      668.9
+    ],
+    [
+      702.1,
+      745.3
+    ]
+  ],
+  "cold_open": [
+    731.2,
+    734.05
+  ],
+  "substituir": [
+    [
+      640.1,
+      640.9,
+      [
+        [
+          "Claude",
+          640.12,
+          640.85
+        ]
+      ]
+    ]
+  ],
+  "cortar": [
+    [
+      655.2,
+      656.1
+    ]
+  ],
+  "loops": [
+    {
+      "abre": 615.3,
+      "fecha": 742.8,
+      "frase": "vou te mostrar como -> e assim que funciona"
+    }
+  ],
+  "painel": null,
+  "zoom": [
+    1.15,
+    1.45
+  ],
+  "hold_ini": 0,
+  "headline": {
+    "headline": "Seu agente de IA precisa de uma casa",
+    "sub": "Por que ele funciona 24 horas num servidor e não no seu computador",
+    "destaque": [
+      "casa"
+    ]
+  },
+  "desenhos": "desenhos_exemplo",
+  "cold_conceito": "casa_servidor",
+  "conceitos": [
+    {
+      "id": "perguntar",
+      "grupo": "a",
+      "ts": 613.0,
+      "prova": "pergunta",
+      "fala": "a maioria só faz pergunta",
+      "mostra": "pessoa perguntando para a IA"
+    },
+    {
+      "id": "servidor",
+      "grupo": "b",
+      "ts": 640.5,
+      "prova": "servidor",
+      "fala": "ele mora num servidor",
+      "mostra": "computador -> servidor ligado 24 h"
+    },
+    {
+      "id": "nivel1",
+      "grupo": "escada",
+      "ts": 702.5,
+      "prova": "primeiro",
+      "fala": "o primeiro nível",
+      "mostra": "degrau 1"
+    },
+    {
+      "id": "nivel2",
+      "grupo": "escada",
+      "ts": 715.0,
+      "prova": "segundo",
+      "fala": "o segundo nível",
+      "mostra": "degrau 2 sobre o 1"
+    }
+  ]
+}
